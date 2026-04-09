@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: experimentação, experimento, jornada, caminho, otimização, teste A/B, bandit multiarmado, dimensionar o vencedor
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 4%
@@ -22,7 +22,7 @@ ht-degree: 4%
 >id="ajo_path_experiment_success_metric"
 >title="Métricas de sucesso"
 >abstract="As métricas de sucesso são usadas para controlar e avaliar o tratamento com melhor desempenho em um experimento."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurar e rastrear as métricas da jornada"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurar e rastrear as métricas da jornada"
 
 A experimentação permite testar caminhos diferentes com base em uma divisão aleatória para determinar qual tem o melhor desempenho com base em métricas de sucesso predefinidas.
 
@@ -66,7 +66,8 @@ Digamos que você deseje comparar três caminhos:
 
    <!--
     DOES THIS APPLY TO PATH EXPERIMENT?
-    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.-->
+    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.
+-->
 
 1. Você pode alocar uma porcentagem precisa para cada **[!UICONTROL Tratamento]** ou simplesmente alternar na barra de alternância **[!UICONTROL Distribuir uniformemente]**.
 
@@ -91,7 +92,6 @@ Digamos que você deseje comparar três caminhos:
 1. [Publique](publish-journey.md) sua jornada.
 
 <!--
-
     Select a channel action and use the **[!UICONTROL Edit content]** button to access the design tools.
 
     ![Edit content button in channel action activity](assets/journey-optimize-experiment-edit-content.png){width=70%}
@@ -99,14 +99,14 @@ Digamos que você deseje comparar três caminhos:
     From there, using the left pane you can navigate between the different contents for each action in your experiment. Select each content and design it as needed.
 
     ![Content selection panel showing treatments for experiment](assets/journey-optimize-experiment-content.png){width=100%}
-
 -->
 
 Quando a jornada estiver ativa, os usuários serão atribuídos aleatoriamente para percorrer caminhos diferentes. [!DNL Journey Optimizer] rastreia qual caminho tem melhor desempenho e fornece insights acionáveis.
 
 Siga o sucesso da sua jornada com o relatório Experimento de caminho de Jornada. [Saiba mais](../reports/journey-global-report-cja-experimentation.md)
 
-<!--REMOVED WITH GA
+<!--
+REMOVED WITH GA
 
 >[!CAUTION]
 >

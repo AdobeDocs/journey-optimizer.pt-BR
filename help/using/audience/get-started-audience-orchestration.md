@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 50%
@@ -77,14 +77,16 @@ ht-degree: 50%
 >title="Adicionar limite de perfil"
 >abstract="Ative essa opção para especificar um número máximo de perfis para incluir na composição."
 
-<!-- [!CONTEXTUALHELP]
+<!--
+ [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
 >title="Control Group"
->abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."-->
+>abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
->title="Atividade de divisão"
+>title="Atividade Divisão"
 >abstract="A atividade de divisão permite dividir a composição em vários caminhos. Ao publicar a composição, um público-alvo será salvo na Adobe Experience Platform para cada caminho."
 
 >[!CONTEXTUALHELP]
@@ -146,7 +148,7 @@ Para criar um fluxo de trabalho de composição, siga estas etapas:
 
    ![](assets/audiences-properties.png)
 
-1. Configure sua composição adicionando quantas atividades forem necessárias entre as atividades de **[!UICONTROL Público]** e **[!UICONTROL Salvar]**. Para obter mais informações sobre como criar uma composição, consulte a [Documentação de composição de público-alvo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-composition).
+1. Configure sua composição adicionando quantas atividades forem necessárias entre as atividades de **[!UICONTROL Público]** e **[!UICONTROL Salvar]**. Para obter mais informações sobre como criar uma composição, consulte a [Documentação de composição de público-alvo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition).
 
    ![](assets/audiences-publish.png)
 
@@ -179,4 +181,4 @@ As composições podem ter vários status:
 
 >[!NOTE]
 >
->No momento, a composição de público-alvo não está integrada ao recurso de redefinição da sandbox. Antes de iniciar uma redefinição de sandbox, é necessário excluir as composições manualmente para garantir que os dados do público-alvo associado sejam limpos corretamente. Informações detalhadas estão disponíveis na [Documentação de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR#delete-audience-compositions) do Adobe Experience Platform
+>No momento, a composição de público-alvo não está integrada ao recurso de redefinição da sandbox. Antes de iniciar uma redefinição de sandbox, é necessário excluir as composições manualmente para garantir que os dados do público-alvo associado sejam limpos corretamente. Informações detalhadas estão disponíveis na [Documentação de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions) do Adobe Experience Platform

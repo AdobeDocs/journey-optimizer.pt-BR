@@ -11,7 +11,7 @@ version: Journey Orchestration
 hide: true
 hidefromtoc: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 4%
@@ -44,7 +44,7 @@ As **jornadas unitárias** são acionadas individualmente quando ocorre uma aç�
 
 **Perfeito para:** Boletins informativos mensais, campanhas promocionais para segmentos do público-alvo, anúncios de produtos e campanhas de marketing sazonais.
 
-➡️ [Saiba mais sobre a Leitura de Público](read-audience.md) | [Introdução aos públicos-alvo](../audience/about-audiences.md)
+➡️ [Saiba mais sobre Leitura de Público](read-audience.md) | [Introdução a Públicos](../audience/about-audiences.md)
 
 >[!TAB jornadas de qualificação de público-alvo]
 
@@ -54,7 +54,7 @@ As **jornadas unitárias** são acionadas individualmente quando ocorre uma aç�
 
 **Perfeito para:** notificações de atualização de nível do VIP, reengajamento quando os clientes se tornam inativos, mensagens de comemoração da primeira compra e definição de metas geográficas quando os clientes se mudam.
 
-➡️ [Saiba mais sobre a qualificação de público-alvo](audience-qualification-events.md) | [Criando públicos-alvo](../audience/creating-a-segment-definition.md)
+➡️ [Saiba mais sobre a qualificação de público-alvo](audience-qualification-events.md) | [Criação de públicos-alvo](../audience/creating-a-segment-definition.md)
 
 >[!TAB jornadas de eventos comerciais]
 
@@ -130,34 +130,34 @@ Nem todos os recursos estão disponíveis para todos os tipos de jornada. Use es
 
 | Recurso/capacidade | Unitário | Ler público-alvo | Qualificação de público-alvo | Evento comercial |
 |---------------------|:-------:|:-------------:|:----------------------:|:--------------:|
-| **Mecanismos de entrada** |
+| **Mecanismos de entrada** | | | | |
 | Entrada acionada por evento | ✅ | ❌ | ❌ | ✅ |
 | Entrada programada | ❌ | ✅ | ❌ | ❌ |
 | Entrada baseada no público | ❌ | ✅ | ✅ | ❌ |
-| **Recursos de orquestração** |
+| **Recursos de orquestração** | | | | |
 | Atividades de espera | ✅ | ✅ | ✅ | ✅ |
 | Atividades de condição | ✅ | ✅ | ✅ | ✅ |
 | Ações personalizadas | ✅ | ✅ | ✅ | ✅ |
 | Ler atividade de público (dentro do jornada) | ✅ | ✅ | ✅ | ✅ |
 | Atividade de qualificação de público | ✅ | ✅ | ✅ | ✅ |
 | Atividade Salto | ✅ | ✅ | ✅ | ✅ |
-| **Gerenciamento de perfis** |
+| **Gerenciamento de perfis** | | | | |
 | Reentrada do perfil | ✅ Configurável | ❌ Uma vez por execução | ✅ Configurável | ✅ Por evento |
 | Configuração de namespace | ✅ Obrigatório | ✅ Opcional | ✅ Obrigatório | ✅ Obrigatório |
 | Limite de perfil | ✅ | ✅ | ✅ | ✅ |
-| **Testes e otimização** |
+| **Testes e otimização** | | | | |
 | Modo de teste | ✅ | ✅ | ✅ | ✅ |
 | Secagem | ✅ | ✅ | ✅ | ✅ |
 | Experimentos de caminho (teste A/B) | ✅ | ✅ | ✅ | ❌ |
 | Otimização de hora de envio | ✅ | ✅ | ✅ | ✅ |
-| **Canais** |
+| **Canais** | | | | |
 | Email | ✅ | ✅ | ✅ | ✅ |
 | Notificações por push | ✅ | ✅ | ✅ | ✅ |
 | SMS/MMS | ✅ | ✅ | ✅ | ✅ |
 | Mensagens no aplicativo | ✅ | ✅ | ✅ | ✅ |
 | Web | ✅ | ✅ | ✅ | ✅ |
 | Cartões de conteúdo | ✅ | ✅ | ✅ | ✅ |
-| **Recursos avançados** |
+| **Recursos avançados** | | | | |
 | Leitura incremental | ❌ | ✅ | ❌ | ❌ |
 | Exportar público | ✅ | ✅ | ✅ | ✅ |
 | Gerenciamento de fuso horário | ✅ | ✅ | ✅ | ✅ |
@@ -165,7 +165,7 @@ Nem todos os recursos estão disponíveis para todos os tipos de jornada. Use es
 | Fontes de dados externas | ✅ | ✅ | ✅ | ✅ |
 | Limitação/limitação | ✅ | ✅ | ✅ | ✅ |
 
-**Legenda:** ✅ = Com Suporte | ❌ = Não suportado
+**Legenda:** ✅ = Com Suporte | ❌ = Sem Suporte
 
 ## Próximas etapas {#next-steps}
 

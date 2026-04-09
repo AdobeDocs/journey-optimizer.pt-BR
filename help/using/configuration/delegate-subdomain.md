@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomínio, delegação, domínio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1931'
 ht-degree: 18%
@@ -95,7 +95,8 @@ Para configurar um novo subdomínio em [!DNL Journey Optimizer], siga as etapas 
 <!--
 >[!NOTE]
 >
->This section describes how to set up a subdomain using the full delegation. The custom delegation method is detailed in [this section](#setup-custom-subdomain).-->
+>This section describes how to set up a subdomain using the full delegation. The custom delegation method is detailed in [this section](#setup-custom-subdomain).
+-->
 
 1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de email]** > **[!UICONTROL Subdomínios]** e clique em **[!UICONTROL Configurar subdomínio]**.
 
@@ -118,7 +119,8 @@ Para configurar um novo subdomínio em [!DNL Journey Optimizer], siga as etapas 
 
    ![](assets/subdomain-name.png)
 
-<!-- >[!CAUTION]
+<!--
+ >[!CAUTION]
     >
     >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
     >
@@ -189,7 +191,8 @@ Para concluir a delegação de subdomínio, siga as etapas abaixo.
 <!--
     >[!NOTE]
     >
-    >If an error occurs while trying to submit a custom subdomain, refer to [this section](delegate-custom-subdomain.md#check-list).-->
+    >If an error occurs while trying to submit a custom subdomain, refer to [this section](delegate-custom-subdomain.md#check-list).
+-->
 
 1. Você pode criar os registros e enviar a configuração de subdomínio posteriormente usando o botão **[!UICONTROL Salvar como rascunho]**.
 
@@ -278,4 +281,4 @@ Depois que a solicitação for tratada pela Adobe, o domínio não delegado não
 
 Saiba como criar um subdomínio usando CNAME para apontar para registros específicos do Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342240?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

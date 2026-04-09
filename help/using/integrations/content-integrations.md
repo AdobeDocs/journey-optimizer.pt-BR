@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: assets, integração
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 27%
@@ -42,7 +42,8 @@ Saiba mais sobre o [Journey Optimizer e Adobe Experience Manager Assets](../inte
 
 With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's Email Designer, simplifying the process of crafting and sending messages to your desired audience.
 
-Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).-->
+Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).
+-->
 
 ### Fragmentos
 
@@ -79,7 +80,7 @@ Saiba mais sobre o [Journey Optimizer + Adobe Express](../integrations/express.m
 
 ## GenStudio para marketing de desempenho
 
-O Adobe GenStudio for Performance Marketing é um aplicativo generativo de IA que permite que as equipes de marketing criem seus próprios anúncios e emails para impulsionar campanhas de marketing personalizadas e impactantes que seguem os padrões da sua marca e estão em conformidade com as políticas da sua empresa. Ao utilizar a tecnologia de IA do Adobe, ele fornece um conjunto abrangente de ferramentas que simplificam as complexidades da criação e do gerenciamento de conteúdo para que os criadores possam se concentrar na inovação.
+O Adobe GenStudio for Performance Marketing é um aplicativo generativo de IA que permite que as equipes de marketing criem seus próprios anúncios e emails para impulsionar campanhas de marketing personalizadas e impactantes que seguem os padrões da sua marca e estão em conformidade com as políticas da sua empresa. Ao utilizar a tecnologia Adobe AI, ele fornece um conjunto abrangente de ferramentas que simplifica as complexidades da criação e do gerenciamento de conteúdo para que os criadores possam se concentrar na inovação.
 
 Para aprimorar a eficiência do marketing e manter a consistência da marca, você pode integrar perfeitamente as experiências do [!DNL **GenStudio for Performance Marketing**] com o [!DNL **Adobe Journey Optimizer**]. Isso permite que você aproveite a criação de conteúdo com recursos de orquestração avançada do [!DNL GenStudio].[!DNL Journey Optimizer]
 

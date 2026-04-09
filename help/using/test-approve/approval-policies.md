@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 14%
@@ -26,7 +26,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->Para criar políticas de aprovação, você deve ter privilégios de administrador do sistema ou do produto no Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home)
+>Para criar políticas de aprovação, você deve ter privilégios de administrador do sistema ou do produto no Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 As políticas de aprovação permitem que os administradores estabeleçam um processo de validação para jornadas e campanhas. Este sistema descreve condições específicas que determinam se uma jornada ou campanha precisa de aprovação. Essas políticas podem variar em complexidade. Eles podem simplesmente exigir que todas as campanhas sejam revisadas por um usuário ou equipe específica, ou estabelecer critérios com base em quem criou a campanha.
 
@@ -142,6 +142,8 @@ Para definir as condições associadas a uma política de aprovação, siga esta
     <td>Nome do grupo de usuários dos solicitantes designados</td>
     </tr>
     </table>
+
+   +++
 
 1. Para adicionar mais critérios, clique em **[!UICONTROL Adicionar condição]** para definir regras adicionais e selecione **[!UICONTROL And]** ou **[!UICONTROL Or]** para especificar como as condições são conectadas.
 

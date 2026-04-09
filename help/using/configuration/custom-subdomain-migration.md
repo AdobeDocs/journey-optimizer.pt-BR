@@ -10,7 +10,7 @@ level: Intermediate
 keywords: subdomínio, delegação, migração, CNAME, delegação personalizada
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 71a047d0c113202e6e1dd4f0730328e32800830d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 5%
@@ -141,7 +141,8 @@ Antes disso, verifique o seguinte:
 
     * Click **[!UICONTROL Download CSR]** to save the form to your local computer.
 
-    * Send the CSR to the Certificate Authority to get your SSL certificate.-->
+    * Send the CSR to the Certificate Authority to get your SSL certificate.
+-->
 
 1. Depois de recuperar o certificado SSL, clique em **[!UICONTROL Carregar certificado]**.
 

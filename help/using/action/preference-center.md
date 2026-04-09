@@ -5,10 +5,11 @@ title: Gerencie as preferências dos clientes
 description: Saiba como gerenciar as preferências dos usuários usando políticas de consentimento
 feature: Journeys, Privacy, Consent Management, Landing Pages
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Developer, Admin
 level: Experienced
 keywords: políticas, governança, plataforma, consentimento, proteção da saúde
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 6%
@@ -23,7 +24,8 @@ ht-degree: 6%
 
 Em um ecossistema moderno de automação de marketing, as marcas se envolvem com clientes em vários pontos de contato, enfrentando o risco de comunicação irrelevante ou excessiva, resultando em desengajamento, reclamações de spam e riscos de conformidade. É por isso que eles precisam gerenciar as preferências dos clientes para obter insights em tempo real sobre o público-alvo e fornecer comunicação personalizada e respeitosa.
 
-Com o [!DNL Adobe Journey Optimizer], usando as [políticas de consentimento](consent.md), você pode atender às preferências dos clientes<!-- in terms of **channels** and **topics**-->. Isso garante que o [!DNL Journey Optimizer] seja direcionado somente a clientes com base em suas escolhas<!-- their preferred channels and on the subscription topics-->, respeitando o consentimento.
+Com o [!DNL Adobe Journey Optimizer], usando as [políticas de consentimento](consent.md), você pode atender às preferências dos clientes<!-- in terms of **channels** and **topics**-->. Isso garante que o [!DNL Journey Optimizer] seja direcionado somente a clientes com base em suas escolhas, respeitando o consentimento.
+<!-- their preferred channels and on the subscription topics-->
 
 Para gerenciar as preferências dos usuários com o [!DNL Journey Optimizer], você pode:
 
@@ -37,7 +39,8 @@ Para gerenciar as preferências dos usuários com o [!DNL Journey Optimizer], vo
 
 >[!IMPORTANT]
 >
->O consentimento tem precedência sobre as preferências. Por exemplo, um de seus clientes indicou que seu canal preferido é o email e que eles concordaram em receber informativos<!-- they are interested in yoga-->; no entanto, se eles optaram por não receber nenhuma comunicação de você, eles não poderão ser direcionados por um email informativo que você está enviando<!-- on yoga-->.
+>O consentimento tem precedência sobre as preferências. Por exemplo, um de seus clientes indicou que seu canal preferido é o email e que ele concordou em receber informativos<!-- they are interested in yoga-->; no entanto, se ele optou por não receber nenhuma comunicação de você, não poderá ser direcionado por um email informativo que você está enviando.
+<!-- on yoga-->
 
 ## Preferências de registro e honra {#manage-preferences}
 
@@ -57,13 +60,13 @@ Digamos que você queira direcionar seus clientes por meio de jornadas e campanh
    >
    >O consentimento do cliente e as preferências de contato são tópicos complexos. Para saber como as preferências de consentimento e contexto podem ser coletadas, processadas e filtradas no [!DNL Experience Platform], é recomendável ler os seguintes documentos:
    >
-   >* Para saber mais sobre os grupos de campos de esquema necessários para coletar dados de consentimento, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Ele detalha como processar os dados de consentimento coletados dos clientes e integrá-los aos perfis de clientes armazenados.
-   >* Para saber mais sobre o grupo de campos Consentimento e Preferência, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Para adicionar campos de preferência personalizados ao esquema, siga as etapas em [esta seção](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
+   >* Para saber mais sobre os grupos de campos de esquema necessários para coletar dados de consentimento, consulte [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Ele detalha como processar os dados de consentimento coletados dos clientes e integrá-los aos perfis de clientes armazenados.
+   >* Para saber mais sobre o grupo de campos Consentimento e Preferência, consulte [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Para adicionar campos de preferência personalizados ao esquema, siga as etapas em [esta seção](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
 
 1. Crie uma página para capturar as preferências dos clientes. Use um dos seguintes métodos:
 
-   * Crie uma página da Web para registrar as preferências dos clientes usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home){target="_blank"}.
+   * Crie uma página da Web para registrar as preferências dos clientes usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home){target="_blank"}.
 
    * Use uma [!DNL Journey Optimizer] [página de aterrissagem](../landing-pages/create-lp.md) que inclua formulários para capturar as preferências de seus clientes por meio de dados de perfil.  [Saiba mais sobre formulários](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
 
@@ -81,11 +84,13 @@ Digamos que você queira direcionar seus clientes por meio de jornadas e campanh
 
    ![](assets/profile-preference-attributes.png){width=80%}
 
-<!--The corresponding profile dataset is updated as follows:
+<!--
+The corresponding profile dataset is updated as follows:
 
 |Attribute = Email id | Attribute = Offers_Push | Attribute = Newsletters_Email |
 |---------|----------|---------|
-| john.black@lumamail.com | Y | N |-->
+| john.black@lumamail.com | Y | N |
+-->
 
     >[!NOTE]
     >
@@ -101,11 +106,13 @@ Digamos que você queira direcionar seus clientes por meio de jornadas e campanh
 
 1. Escolha o tipo de **[!UICONTROL Política de consentimento]** e configure uma condição da seguinte maneira. [Saiba como configurar políticas de consentimento](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=pt-BR#consent-policy){target="_blank"}
 
-<!--Consent policies are comprised of two logical components:
+<!--
+Consent policies are comprised of two logical components:
 
 * **If**: The condition that will trigger the policy check, based on a certain marketing action (email, SMS, push, custom action, etc.) being performed, the presence of certain data usage labels, or a combination of the two.
 
-* **Then**: The consent attribute must be present for a profile to be included in the action that triggered the policy. More than one field can also be selected.-->
+* **Then**: The consent attribute must be present for a profile to be included in the action that triggered the policy. More than one field can also be selected.
+-->
 
     Por exemplo, para enviar comunicações somente para seus clientes que não optaram por receber boletins informativos por email, crie uma política personalizada e defina a seguinte condição:
     

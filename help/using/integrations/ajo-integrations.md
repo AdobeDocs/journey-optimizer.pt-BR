@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: c047b3fb04e9867be98da845aa89b0b9d6f59df2
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 68%
@@ -58,7 +58,6 @@ Junte os fluxos de trabalho de marketing e de criação usando o **[!DNL Adobe E
 With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's Email Designer, simplifying the process of crafting and sending messages to your desired audience.
 
 [![learn more](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
-
 -->
 
 >[!TAB Fragmentos do AEM]
@@ -121,7 +120,7 @@ Saiba mais sobre o [Journey Optimizer + Campaign Standard](../building-journeys/
 
 Use os módulos do Adobe Journey Optimizer no Adobe Workfront para criar, ler, atualizar ou excluir registros, ou executar uma chamada de API personalizada para a API do Adobe Journey Optimizer.
 
-Uma visão geral da principal etapa dessa integração está disponível [nesta publicação do blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=pt){target="_blank"}.
+Uma visão geral da principal etapa dessa integração está disponível [nesta publicação do blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Saiba mais sobre o Journey Optimizer + Adobe Workfront [na documentação do Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=pt-BR){target="_blank"}.
 

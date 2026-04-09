@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 version: Journey Orchestration
-source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 14%
@@ -76,7 +76,7 @@ Para criar um modelo de IA, siga as etapas abaixo:
 
    Por padrão, os modelos de otimização personalizados usam **cliques de oferta** como métrica de otimização. Se você estiver trabalhando com o [!DNL Customer Journey Analytics], o [!DNL Decisioning] permitirá que você aproveite suas próprias métricas personalizadas para otimizar seu modelo.
 
-   Para fazer isso, selecione o tipo de modelo **[!UICONTROL Otimização personalizada]** e expanda o menu suspenso **[!UICONTROL Evento de conversão]**. Todas as métricas da sua [!DNL Customer Journey Analytics] [visualização de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} padrão são exibidas na lista. Selecione a métrica em que deseja otimizar seu modelo.
+   Para fazer isso, selecione o tipo de modelo **[!UICONTROL Otimização personalizada]** e expanda o menu suspenso **[!UICONTROL Evento de conversão]**. Todas as métricas da sua [!DNL Customer Journey Analytics] [visualização de dados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} padrão são exibidas na lista. Selecione a métrica em que deseja otimizar seu modelo.
 
    ![](../assets/ai-model-custom-metrics.png){width=85%}
 
@@ -86,7 +86,7 @@ Para criar um modelo de IA, siga as etapas abaixo:
    >
    >Embora seja possível modificar o modelo de atribuição, nem todos os modelos de atribuição são ideais para a otimização do modelo de IA. Recomendamos selecionar cuidadosamente um modelo de atribuição que se alinhe às suas metas de otimização para garantir a precisão e o desempenho do modelo.
    >
-   >Para obter mais detalhes sobre modelos de atribuição disponíveis e orientação sobre seu uso, consulte a [[!DNL Customer Journey Analytics] documentação](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+   >Para obter mais detalhes sobre modelos de atribuição disponíveis e orientação sobre seu uso, consulte a [[!DNL Customer Journey Analytics] documentação](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
 
    +++
 
@@ -108,13 +108,15 @@ Para criar um modelo de IA, siga as etapas abaixo:
 
 1. Salve e ative o modelo de IA. Assim que o modelo estiver online, você poderá [monitorar o status e o desempenho do treinamento](ai-model-observability.md).
 
-<!--At this point, you must have:
+<!--
+At this point, you must have:
 
 * created the AI model,
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
-* and in which dataset you want to collect the event data.-->
+* and in which dataset you want to collect the event data.
+-->
 
-Agora, sempre que uma oferta for exibida e/ou clicada, você desejará que o evento correspondente seja capturado automaticamente pelo grupo de campos **[!UICONTROL Evento de experiência - Interações de apresentação]** usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=pt-BR#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} ou o Mobile SDK.
+Agora, sempre que uma oferta for exibida e/ou clicada, você desejará que o evento correspondente seja capturado automaticamente pelo grupo de campos **[!UICONTROL Evento de experiência - Interações de apresentação]** usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} ou o Mobile SDK.
 
 Para enviar tipos de evento (oferta exibida ou oferta clicada), você deve definir o valor correto para cada tipo de evento em um evento de experiência enviado para o Adobe Experience Platform. [Saiba como](../data-collection/schema-requirement.md)
 
@@ -123,4 +125,5 @@ Para enviar tipos de evento (oferta exibida ou oferta clicada), você deve defin
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445956?captions=por_br&quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
+-->

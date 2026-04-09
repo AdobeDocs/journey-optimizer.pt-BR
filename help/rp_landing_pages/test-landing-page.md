@@ -9,8 +9,8 @@ level: Beginner, Intermediate
 keywords: testar, validar, aprovar, aprovação, controle-de-qualidade, qa, perfis-de-teste, personalização, renderização, verificação-de-spam, experimento-de-conteúdo, teste-a/b, detecção-de-conflitos, lista-de-seeds, provas, dados-de-amostra, fluxo-de-trabalho-de-aprovação, teste-de-email, fluxo-de-trabalho-de-validação
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: c3535f39b351d671054031b9cc391bf6d9d83a09
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Esta página de destino ajuda a escolher a abordagem de teste correta com base n
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizar, testar e validar o conteúdo
 
@@ -36,7 +36,7 @@ Saiba como visualizar, testar e validar um conteúdo personalizado por meio de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Fluxos de trabalho de aprovação para jornadas e campanhas
 
@@ -46,7 +46,7 @@ Entenda como configurar, gerenciar e executar processos de aprovação para gara
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Teste a jornada
 
@@ -56,7 +56,7 @@ Valide a jornada antes da publicação testando-a com perfis específicos para g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Execução de teste da jornada
 
@@ -66,7 +66,7 @@ Realize uma execução de teste para simular e validar o caminho de execução d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoramento e solução de problemas
 
@@ -76,7 +76,7 @@ Acesse recursos abrangentes de solução de problemas, alertas do sistema e cód
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Playground de personalização
 
@@ -86,7 +86,7 @@ Experimente expressões de personalização em um ambiente seguro. Teste o códi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Experimentos de conteúdo e teste A/B
 
@@ -96,7 +96,7 @@ Otimize as campanhas testando múltiplas variações de conteúdo e medindo o de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas de seeds para monitoramento pelas partes interessadas
 
@@ -106,7 +106,7 @@ Inclua automaticamente endereços internos de partes interessadas nas entregas p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detecção de conflitos
 
@@ -133,7 +133,8 @@ Os processos de teste e aprovação servem como estágios de qualidade essenciai
 
 * **Economize tempo e recursos** - Detecte problemas no início do ciclo de desenvolvimento, quando as correções são mais baratas e rápidas, evitando ajustes de alto custo no pós-lançamento ou acionamentos do serviço de atendimento ao cliente.
 
-<!--## Testing capabilities overview
+<!--
+## Testing capabilities overview
 
 **Testing types available:**
 
@@ -166,7 +167,6 @@ Os processos de teste e aprovação servem como estágios de qualidade essenciai
 2. During development: Preview with [test profiles](#choose-your-testing-approach), validate with [sample input data](#choose-your-testing-approach)
 3. Pre-launch: Run [technical tests](#2-technical-validation) (rendering, spam), check [conflicts](#test--approve-content), submit for [approval](#test--approve-content)
 4. Post-launch: Monitor with live reports (see [Monitoring & Troubleshooting](#test--approve-content)), iterate based on results
-
 -->
 
 <!--
@@ -207,7 +207,6 @@ Use this decision tree to quickly identify the right testing tools for your spec
 * Before launch → [Rendering tests](#2-technical-validation), [spam checks](#2-technical-validation), [conflict detection](#test--approve-content), [approvals](#test--approve-content)
 * After launch → [Live reports](../using/building-journeys/report-journey.md) and [monitoring](#test--approve-content)
 +++
-
 -->
 
 ## Escolha a abordagem de teste

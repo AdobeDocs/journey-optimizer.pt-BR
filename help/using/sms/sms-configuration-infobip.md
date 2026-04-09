@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 2%
@@ -48,7 +48,7 @@ Para configurar o Infobip com o Journey Optimizer, siga estas etapas:
    +++ Lista de credenciais SMS para configuração
 
    | Campos de configuração | Descrição |
-   |---|---|    
+   |---|---|
    | Fornecedor de SMS | Infobip |
    | Nome | Escolha um nome para a credencial da API. |
    | URL básico da API e chave da API | Acesse a página inicial da interface da Web ou a página de gerenciamento de chaves da API para encontrar suas credenciais. Para pontos de extremidade de domínio regionais ou alternativos, por exemplo, `api-ny2.infobip.com`, especifique a URL de base completa e verifique seu token de autorização com suporte para Infobip. </br>Saiba mais em [Documentação da Infobip](https://www.infobip.com/docs/api){target="_blank"} |
@@ -58,7 +58,7 @@ Para configurar o Infobip com o Journey Optimizer, siga estas etapas:
    | Mensagem de recusa | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Digite a resposta personalizada que é enviada automaticamente como sua mensagem de recusa. |
    | Palavras-chave da Ajuda | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua **Mensagem de Ajuda**. Para várias palavras-chave, use valores separados por vírgulas. |
    | Mensagem de ajuda | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Digite a resposta personalizada que é enviada automaticamente como sua **Mensagem de Ajuda**. |
-   | Palavras-chave de aceitação dupla | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Insira as palavras-chave que disparam o processo de aceitação dupla. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. Para várias palavras-chave, use valores separados por vírgulas. [Saiba mais sobre a Aceitação Dupla de SMS](https://video.tv.adobe.com/v/3440282/?captions=por_br&learn=on). |
+   | Palavras-chave de aceitação dupla | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Insira as palavras-chave que disparam o processo de aceitação dupla. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. Para várias palavras-chave, use valores separados por vírgulas. [Saiba mais sobre a Aceitação Dupla de SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Mensagem de aceitação dupla | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Insira a resposta personalizada que é enviada automaticamente em resposta à confirmação de aceitação dupla. |
    | ID da entidade principal | Informe a ID da entidade principal DLT atribuída. |
    | ID do modelo de conteúdo | Insira a ID do modelo de conteúdo DLT registrado. |

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração, subdomínio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 6%
+source-wordcount: '1310'
+ht-degree: 5%
 
 ---
 
@@ -115,9 +115,11 @@ Para usar variáveis personalizadas para seus parâmetros de cabeçalho de confi
 
    Por exemplo, você deseja lidar dinamicamente com emails enviados em nome de um gerente de relacionamento, cujos detalhes são armazenados no perfil do cliente, para que cada cliente seja vinculado a um gerente de relacionamento. Em uma [jornada](../building-journeys/journey-gs.md), o cabeçalho do email (nome do remetente, email do remetente, endereço de resposta) pode ser personalizado com os parâmetros do gerenciador de relacionamento, obtidos dos atributos do perfil.
 
-   <!--The examples below use event parameters, which are currently not available.
-    
-    Let's say you want to handle dynamically emails sent on behalf of a sales assistant, where the sales assistant is retrieved from an event or campaign contextual parameters. For example: In a [journey](../building-journeys/journey-gs.md), when a purchase event is linked to the sales assistant of a specific shop, the email header (sender name, sender email, reply to address) can be personalized with the sales assistant parameters, taken from the event attributes. In an [API-triggered campaign](../campaigns/api-triggered-campaigns.md), initiated externally by a sales assistant, the triggered email can be sent on behalf of the sales assistant and the header personalization values taken from campaign contextual parameters.-->
+   <!--
+Os exemplos abaixo usam parâmetros de evento, que não estão disponíveis no momento.
+
+    Considere que você queira tratar dinamicamente os emails enviados em nome de um assistente de vendas, onde o assistente de vendas é recuperado de um evento ou parâmetros contextuais de campanha. Por exemplo: em uma [jornada](../building-journeys/journey-gs.md), quando um evento de compra é vinculado ao assistente de vendas de uma loja específica, o cabeçalho do email (nome do remetente, email do remetente, endereço de resposta) pode ser personalizado com os parâmetros do assistente de vendas, obtidos dos atributos do evento. Em uma [campanha acionada por API](../campaigns/api-triggered-campaigns.md), iniciada externamente por um assistente de vendas, o email acionado pode ser enviado em nome do assistente de vendas e os valores de personalização do cabeçalho são obtidos de parâmetros contextuais da campanha.
+-->
 
 1. Repita as etapas acima para cada parâmetro ao qual deseja adicionar personalização.
 

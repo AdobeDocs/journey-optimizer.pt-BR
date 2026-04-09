@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 4%
@@ -29,17 +29,17 @@ Você pode exportar conjuntos de dados para 6 destinos de armazenamento na nuvem
 
 Informações detalhadas sobre cada destino estão disponíveis na documentação do Adobe Experience Platform:
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=pt-BR){target="_blank"}
-* [Blob do Azure](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=pt-BR){target="_blank"}
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=pt-BR){target="_blank"}
-* [Zona de Aterrissagem de Dados](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=pt-BR){target="_blank"}
-* [Armazenamento na nuvem do Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=pt-BR){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=pt-BR){target="_blank"}.
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"}
+* [Blob do Azure](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"}
+* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"}
+* [Zona de Aterrissagem de Dados](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"}
+* [Armazenamento na nuvem do Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}.
 
 
 ## Pré-requisitos {#prerequisites}
 
-Para exportar conjuntos de dados, você precisa das [permissões de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR#permissions){target="_blank"} listadas abaixo. Leia a [visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=pt-BR){target="_blank"} ou contate o administrador do produto para obter as permissões necessárias.
+Para exportar conjuntos de dados, você precisa das [permissões de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} listadas abaixo. Leia a [visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} ou contate o administrador do produto para obter as permissões necessárias.
 
 | Categoria | Permissão |
 |--|--|
@@ -53,9 +53,9 @@ As principais etapas para exportar um conjunto de dados para um local de armazen
 
 ![](assets/dataset-export-process.png)
 
-Informações detalhadas sobre cada etapa estão disponíveis na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=pt-BR){target="_blank"}.
+Informações detalhadas sobre cada etapa estão disponíveis na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
 
-1. **Configurar o destino do armazenamento na nuvem**. Se ainda não tiver feito isso, conecte-se a um destino de armazenamento na nuvem no catálogo de destinos. Saiba como criar uma nova conexão de destino na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=pt-BR#setup){target="_blank"}.
+1. **Configurar o destino do armazenamento na nuvem**. Se ainda não tiver feito isso, conecte-se a um destino de armazenamento na nuvem no catálogo de destinos. Saiba como criar uma nova conexão de destino na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -79,14 +79,14 @@ Informações detalhadas sobre cada etapa estão disponíveis na [documentação
 
    <!--![](assets/dataset-export-review.png)-->
 
-Quando a exportação for concluída, o conteúdo do conjunto de dados será depositado no local de armazenamento na nuvem de acordo com o agendamento configurado. [Saiba como verificar a exportação bem-sucedida do conjunto de dados](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=pt-BR#verify){target="_blank"}.
+Quando a exportação for concluída, o conteúdo do conjunto de dados será depositado no local de armazenamento na nuvem de acordo com o agendamento configurado. [Saiba como verificar a exportação bem-sucedida do conjunto de dados](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
 
 ## Conjuntos de dados disponíveis para exportação {#datasets}
 
 Entenda na tabela abaixo quais conjuntos de dados do Journey Optimizer você pode exportar.
 
 | Conjunto de dados | Descrição |
-| ------- | ------- | 
+| ------- | ------- |
 | Conjunto de dados de classificação do AJO | Conjunto de dados para assimilar eventos de feedback de aplicativos de email e por push do Journey Optimizer. Criado por meio do SDK. |
 | Conjunto de dados do serviço de consentimento da AJO | Armazena informações de consentimento de um perfil. |
 | Conjunto de dados de evento de experiência de rastreamento de email do AJO | Logs de interação para o canal de email, que é usado para fins de criação de relatórios e público-alvo.  |

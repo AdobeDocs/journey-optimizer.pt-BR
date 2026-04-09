@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '2709'
 ht-degree: 11%
@@ -40,9 +40,11 @@ Cada fase é composta por várias execuções, às quais você atribui uma únic
 >title="Definir as fases do plano"
 >abstract="Cada fase é composta por várias execuções, às quais você atribui uma única campanha."
 
-<!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
+<!--
+You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
-At phase level, system ensures that previously targeted + new profiles are picked up AND at iteration level, system ensures that each run is having unique profiles and the count matches what is stated in plan-->
+At phase level, system ensures that previously targeted + new profiles are picked up AND at iteration level, system ensures that each run is having unique profiles and the count matches what is stated in plan
+-->
 
 <!--![](assets/ip-warmup-plan-phase-1.png)-->
 
@@ -146,7 +148,7 @@ Depois de definir as fases do plano de aquecimento de IP, é necessário configu
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Como opção, você pode definir uma janela de tempo durante a qual a campanha de aquecimento de IP poderá ser executada caso haja atrasos na [avaliação do público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR#how-segmentation-works){target="_blank"}. Para fazer isso, clique no ícone Propriedades na parte superior esquerda, ao lado do nome do plano e use a lista suspensa **[!UICONTROL Tentar novamente o tempo de execução]** para selecionar uma duração - até 240 minutos (4 horas).
+1. Como opção, você pode definir uma janela de tempo durante a qual a campanha de aquecimento de IP poderá ser executada caso haja atrasos na [avaliação do público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. Para fazer isso, clique no ícone Propriedades na parte superior esquerda, ao lado do nome do plano e use a lista suspensa **[!UICONTROL Tentar novamente o tempo de execução]** para selecionar uma duração - até 240 minutos (4 horas).
 
    >[!NOTE]
    >
@@ -196,7 +198,7 @@ Para ativar uma execução, selecione o botão **[!UICONTROL Ativar]**. Em segui
 
 Ao executar vários planos de aquecimento de IP simultaneamente, todos direcionados ao mesmo pool de IP e domínios, é fundamental antecipar as possíveis consequências. Por exemplo, se um ISP impor um limite diário de 100 emails, a execução de vários planos direcionados aos mesmos domínios poderá ultrapassar esse limite.
 
-Certifique-se de ter agendado tempo suficiente para permitir que a [avaliação de público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR#how-segmentation-works){target="_blank"} seja executada.
+Certifique-se de ter agendado tempo suficiente para permitir que a [avaliação de público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} seja executada.
 
 ![](assets/ip-warmup-plan-activate.png)
 

@@ -9,7 +9,7 @@ role: Admin, Developer
 level: Experienced
 keywords: permissão, alto nível, baixo nível, perfil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 0%
@@ -176,11 +176,13 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
       * campaign.read
       * campaign.write
       * campaign.delete
-     <!--* experiments.read
+     <!--
+      * experiments.read
       * experiments.write
-      * experiments.delete-->
+      * experiments.delete
+-->
 
-  +++
++++
 
 * A permissão de alto nível **[!DNL Publish campaigns]** permite que os usuários publiquem campanhas.
 
@@ -190,9 +192,11 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
       * campaign-read
       * campaign-publish
-        <!--* experiments.activate-->
+     <!--
+      * experiments.activate
+-->
 
-  +++
++++
 
 * A permissão de alto nível **[!DNL View campaigns report]** permite que os usuários leiam e editem o relatório de campanhas.
 
@@ -201,10 +205,12 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
    * Específico do Journey Optimizer:
       * campaign.read
       * campaign-report.read
-     <!--* experiments.read
-      * experiments_report.read-->
+     <!--
+      * experiments.read
+      * experiments_report.read
+-->
 
-  +++
++++
 
 ## Recurso de gestão de decisão {#decisions-permissions}
 

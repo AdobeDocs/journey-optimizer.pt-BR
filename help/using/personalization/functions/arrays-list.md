@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 5%
@@ -187,7 +187,8 @@ A operação a seguir define as pessoas cujas cores favoritas incluem pelo menos
 ```
 
 
-<!-- ## Intersection{#intersection}
+<!--
+## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -217,7 +218,7 @@ A função `bottomN` classifica uma matriz em ordem crescente com base na expres
 ```
 
 | Argumento | Descrição |
-| --------- | ----------- | 
+| --------- | ----------- |
 | `{ARRAY}` | A matriz ou lista que deve ser classificada. |
 | `{VALUE}` | A propriedade na qual classificar a matriz ou lista. |
 | `{AMOUNT}` | O número de itens a serem retornados. |

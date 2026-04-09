@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Notas de versão de 2023
-description: Notas de versão do Journey Optimizer 2023
+description: Notas de versão de 2023 do Journey Optimizer
 feature: Release Notes
 topic: Content Management
 hide: true
@@ -10,8 +10,8 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 # Notas de versão de 2023 {#release-notes-2023}
 
-Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] lançado em 2023.
+Esta página lista todos os recursos e melhorias da versão de 2023 do [!DNL Journey Optimizer].
 
 
 ## Versão de outubro de 2023 {#oct-rn-2023}
@@ -77,7 +77,8 @@ Esta versão vem com as melhorias listadas abaixo.
 <!--
 **Spam scoring for emails**
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.
+-->
 
 **Campanhas**
 
@@ -90,12 +91,13 @@ Esta versão vem com as melhorias listadas abaixo.
 
    * o campo **Quantidade de tempo** na [atividade de espera](../building-journeys/wait-activity.md)
    * o **período de espera de reentrada** em [propriedades da jornada](../building-journeys/journey-properties.md#entrance)
-   * o campo **Aguardar por** na definição de tempo limite das [atividades de evento](../building-journeys/general-events.md#events-specific-time).
+   * o campo **Aguardar por** na definição de tempo-limite das [atividades de evento](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
 
-* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.
+-->
 
 **Gestão de decisões**
 
@@ -231,9 +233,11 @@ Esta versão vem com as melhorias listadas abaixo.
 
 * Uma nova opção de ativos permite escolher o repositório dos ativos no Journey Optimizer. Você pode optar por um repositório do Assets Essentials ou um repositório do Assets as a Cloud Service, desde que seja o proprietário dessa solução. [Saiba mais](../integrations/assets.md)
 
-<!--**Decision management**
+<!--
+**Decision management**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    
+-->
 
 ## Versão de agosto de 2023 {#aug-rn-2023}
 
@@ -276,7 +280,8 @@ Essa versão traz os novos recursos listados abaixo.
 </table>
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Generate text and images with the Content assistant</strong><br/></th>
@@ -291,7 +296,7 @@ Essa versão traz os novos recursos listados abaixo.
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
 
@@ -302,11 +307,14 @@ Esta versão vem com as melhorias listadas abaixo.
 <!--
 **APIs**
 
-A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.-->
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+-->
 
-<!--**Email channel**
+<!--
+**Email channel**
 
-A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.-->
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.
+-->
 
 **Jornadas**
 
@@ -652,9 +660,11 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## Versão de abril de 2023 {#apr-rn-2023}
 
-<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added on this page.
+<!--
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added on this page.
 
-**Release date**: April 27, 2023-->
+**Release date**: April 27, 2023
+-->
 
 ### Novos recursos{#apr-2023-features}
 
@@ -791,12 +801,13 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * A nova **API de limitação** permite definir um limite para o número de eventos enviados por segundo, evitando picos de tráfego grandes demais em sistemas externos ou APIs. Quando o limite definido é atingido, todas as chamadas de API subsequentes são enfileiradas e processadas o mais rápido possível, na ordem em que forem recebidas. Observe que esse recurso suporta apenas uma configuração de limitação em todas as suas sandboxes. [Saiba mais](../configuration/external-systems.md)
 * A tela da jornada foi aperfeiçoada para oferecer uma experiência do usuário mais simples e polida. No final de cada caminho na tela, os espaços reservados vazios foram removidos. Agora é possível adicionar suas atividades simplesmente arrastando-as para o final de um caminho.
 * Na tela da jornada, o rótulo da tag **Fim** não é mais definida automaticamente com o nome da atividade anterior. Os usuários podem adicionar manualmente um rótulo personalizado, se necessário.
-* O tempo limite padrão e a duração de erro nas propriedades da jornada foram alterados de 5 para 30 segundos. [Saiba mais](../configuration/external-systems.md#timeout)
+* O tempo-limite padrão e a duração de erro nas propriedades da jornada foram alterados de 5 para 30 segundos. [Saiba mais](../configuration/external-systems.md#timeout)
 * A taxa de limitação padrão em atividades de público-alvo de leitura foi alterada de 20.000 para 5.000 mensagens por segundo. [Saiba mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * Uma medida de proteção foi adicionada ao modo de teste para ouvir apenas os eventos enviados através da interface. Os eventos enviados por uma ferramenta externa não são considerados. [Saiba mais](../building-journeys/testing-the-journey.md)
 
 
-<!-- 
+<!--
+ 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
 * A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
@@ -843,7 +854,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <p>Agora você pode enviar mensagens personalizadas no aplicativo para os usuários do aplicativo em uma campanha. Use o Journey Optimizer para criar notificações e personalizar o layout, a exibição, o texto e os botões das mensagens para criar uma experiência perfeita.</p>
 <p><strong>Aviso</strong>: no momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o atendimento ao cliente da Adobe.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>Para obter mais informações, consulte a <a href="../../rp_landing_pages/in-app-landing-page.md"> documentação detalhada </a>.</p>
+<p>Para obter mais informações, consulte a <a href="../../rp_landing_pages/in-app-landing-page.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -868,7 +879,6 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 </table>
 
 <!--
-
 <table>
 <thead>
 <tr>
@@ -916,7 +926,6 @@ Note that each widget can be resized and deleted as needed.
 </tr>
 </tbody>
 </table>
-
 -->
 
 ### Melhorias {#feb-2023-improvements}
@@ -928,7 +937,6 @@ Note that each widget can be resized and deleted as needed.
 * Foram realizadas melhorias nas **datas inicial e final da jornada**. Se você não tiver especificado uma data inicial, ela agora será adicionada automaticamente no momento da publicação. Agora é possível adicionar uma data final para jornadas de **Público-alvo de leitura**. Isso permite que os perfis saiam automaticamente quando a data for atingida. [Saiba mais](../building-journeys/journey-gs.md#dates)
 
 <!--
-
 * The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them anywhere between nodes. [Learn more](../building-journeys/using-the-journey-designer.md)
 
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)

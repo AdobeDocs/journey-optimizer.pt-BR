@@ -7,7 +7,7 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-source-git-commit: afc09bbcb76d53404574bb53c0a896109cd7f1da
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 2%
@@ -29,7 +29,8 @@ As fórmulas oferecem mais flexibilidade do que a prioridade estática. Por exem
 <!--
 >[!NOTE]
 >
->Journey ranking formulas follow the same guardrails as decisioning ranking formulas (nesting depth, rule string size). [Learn more about Decisioning guardrails & limitations](../experience-decisioning/decisioning-guardrails.md#ranking-formulas).-->
+>Journey ranking formulas follow the same guardrails as decisioning ranking formulas (nesting depth, rule string size). [Learn more about Decisioning guardrails & limitations](../experience-decisioning/decisioning-guardrails.md#ranking-formulas).
+-->
 
 ## Criar uma fórmula de classificação {#create-journey-ranking-formula}
 
@@ -49,7 +50,8 @@ Para criar uma fórmula de classificação para suas jornadas, siga as etapas ab
    >O objeto de classificação é a entidade à qual a fórmula de classificação será aplicada. Por padrão, o objeto de classificação está definido como **[!UICONTROL Jornada]**.
 
    <!--
-    Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.-->
+    Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
+-->
 
 1. Opcionalmente, clique em **[!UICONTROL Selecionar modelo de IA]** para definir o modelo que será usado como referência para criar sua fórmula de classificação. [Saiba mais](journey-ai-models.md)
 
@@ -58,7 +60,8 @@ Para criar uma fórmula de classificação para suas jornadas, siga as etapas ab
     >
     >[Personalized optimization models](../experience-decisioning/ranking/personalized-optimization-model.md) using continuous metrics are not supported with the AI formula builder.
 
-    Every time you refer to a model score when defining your formula below, the AI model that you selected will be used. [Learn more on AI models](../experience-decisioning/ranking/ai-models.md)-->
+    Every time you refer to a model score when defining your formula below, the AI model that you selected will be used. [Learn more on AI models](../experience-decisioning/ranking/ai-models.md)
+-->
 
 1. Na seção **[!UICONTROL Critério 1]**, especifique a quais jornadas você deseja aplicar uma pontuação de classificação, fazendo o seguinte:
 
@@ -194,4 +197,5 @@ Reporting for journey arbitration helps you understand how rule sets and ranking
 * **Rule set performance** – For each rule set, metrics such as journey enters, journey exclusions, journey engagement, and other optimization metrics.
 * **Cross-journey view** – Time-based view of profiles across journeys (e.g. journey enters, failures, exclusions) to see the impact of capping and ranking.
 
-Use these reports to validate that your formulas and caps are behaving as intended and to tune ranking logic over time.-->
+Use these reports to validate that your formulas and caps are behaving as intended and to tune ranking logic over time.
+-->

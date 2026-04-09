@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 100%
@@ -36,7 +36,7 @@ Os seguintes atalhos de teclado comuns estão disponíveis no [!DNL Journey Opti
 
 | Ação | Atalho |
 | --- | --- |
-| Mover entre elementos da interface do usuário, seções e grupos de menu | Guia |
+| Mover entre elementos da interface do usuário, seções e grupos de menu | Tabulação |
 | Retroceder entre elementos da interface do usuário, seções e grupos de menu | Shift + Tab |
 | Mover dentro de seções para definir o foco de elementos individuais | Seta |
 | Selecionar ou limpar um elemento em foco | Enter ou Barra de espaço |
@@ -75,7 +75,7 @@ Você pode usar esses atalhos em áreas específicas da interface do [!DNL Journ
   </tr>   
   <tr>
     <td>Mova o foco para o próximo elemento acionável na tela, sendo a barra de ferramentas o primeiro</td>
-    <td>Guia</td>
+    <td>Tabulação</td>
   </tr>  
   <tr>
     <td>Abra o painel de configuração direito (foco em uma atividade)</td>
@@ -96,7 +96,7 @@ Você pode usar esses atalhos em áreas específicas da interface do [!DNL Journ
 </ul>
   </td>
     <td>Mover para o próximo campo a ser configurado</td>
-    <td>Guia</td>
+    <td>Tabulação</td>
   </tr>
   <tr>
     <td>Salve as alterações e feche o painel de configuração</td>
@@ -106,7 +106,8 @@ Você pode usar esses atalhos em áreas específicas da interface do [!DNL Journ
     <td>Descartar alterações e fechar o painel de configuração</td>
     <td>Esc</td>
   </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+<!--
+ //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>
     <td>Page with a search bar</td>
     <td>Select the search bar</td>

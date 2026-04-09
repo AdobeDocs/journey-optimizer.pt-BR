@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 22%
@@ -91,7 +91,8 @@ Depois de configurar e criar a [página principal](#configure-primary-page) e as
 >title="Definir as configurações da página principal"
 >abstract="A página principal é exibida imediatamente depois que os usuários clicam no link da página de destino que consta em um email ou site."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=pt-BR" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
@@ -138,9 +139,11 @@ Para definir as configurações de página principal, siga as etapas abaixo.
 
    ![](assets/lp_expiry-date.png)
 
-<!--1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-additional-data).
+<!--
+1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-additional-data).
 
-    ![](assets/lp_create-lp-additional-data.png)-->
+    ![](assets/lp_create-lp-additional-data.png)
+-->
 
 1. Se você selecionou uma ou mais listas de assinaturas ao [criar a página primária](design-lp.md), elas serão exibidas na seção **[!UICONTROL Lista de assinaturas]**.
 
@@ -253,14 +256,14 @@ Dois tipos de alertas podem ocorrer:
 >
 > Você deve resolver todos os alertas de **erro** antes da publicação.
 
-<!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
+<!--
+The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
 **Warnings**:
 
 * 
 
 **Errors**:
-
 -->
 
 ## Publicar a página de destino {#publish-landing-page}

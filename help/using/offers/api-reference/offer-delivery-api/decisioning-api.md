@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d34dfa121f005d28c6ab8895de2bbbd0cdf71dc1
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 4%
@@ -225,7 +225,9 @@ A tabela abaixo lista todos os códigos que podem ser retornados na resposta:
 | 500 | Erro interno do servidor. O servidor encontrou uma condição inesperada que o impediu de atender à solicitação. |
 | 503 | Serviço indisponível devido à sobrecarga do servidor. No momento, o servidor não pode lidar com a solicitação devido a uma sobrecarga temporária. |
 
-<!-- ## Tutorial video {#video}
+<!--
+ 
+## Tutorial video {#video}
 
 The following video is intended to support your understanding of the components of Decision Management.
 
@@ -233,7 +235,8 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342833/?captions=por_br&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
+-->
 
 ## Próximas etapas {#next-steps}
 

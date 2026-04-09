@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -29,109 +29,100 @@ O Adobe Experience Manager Content Advisor substitui a detecção determinístic
 
 O Adobe Experience Manager Content Advisor oferece os seguintes recursos de ativos:
 
-* &#x200B;
-  +++ Pesquisa semântica de IA
++++ Pesquisa semântica de IA
 
-  Pesquise ativos usando a linguagem natural em vez de palavras-chave exatas ou nomes de arquivo. Descreva o que você precisa em linguagem simples, por exemplo, &quot;café nas montanhas&quot;, e a IA encontra ativos contextualmente relevantes com base no significado e no conteúdo, não apenas correspondências de texto.
+Pesquise ativos usando a linguagem natural em vez de palavras-chave exatas ou nomes de arquivo. Descreva o que você precisa em linguagem simples, por exemplo, &quot;café nas montanhas&quot;, e a IA encontra ativos contextualmente relevantes com base no significado e no conteúdo, não apenas correspondências de texto.
 
-  ![](assets/content-advisor-2.png){zoomable="yes"}
+![](assets/content-advisor-2.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Histórico de pesquisa recente
++++ Histórico de pesquisa recente
 
-  Acesse as pesquisas recentes para reutilizar rapidamente palavras-chave e contextos. Isso economiza tempo ao trabalhar em campanhas semelhantes ou quando é necessário refinar pesquisas anteriores.
+Acesse as pesquisas recentes para reutilizar rapidamente palavras-chave e contextos. Isso economiza tempo ao trabalhar em campanhas semelhantes ou quando é necessário refinar pesquisas anteriores.
 
-  ![](assets/content-advisor-4.png){zoomable="yes"}
+![](assets/content-advisor-4.png){zoomable="yes"}
 
-  +++ 
++++ 
 
-* &#x200B;
-  +++ Fazer upload do resumo
++++ Fazer upload do resumo
 
-  Carregue um documento de resumo de marketing para exibir automaticamente os ativos que se alinham ao contexto da campanha. A IA analisa seu resumo e sugere ativos relevantes com base no conteúdo e nos requisitos descritos no documento.
+Carregue um documento de resumo de marketing para exibir automaticamente os ativos que se alinham ao contexto da campanha. A IA analisa seu resumo e sugere ativos relevantes com base no conteúdo e nos requisitos descritos no documento.
 
-  ![](assets/content-advisor-5.png){zoomable="yes"}
+![](assets/content-advisor-5.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Painel de informações do ativo
++++ Painel de informações do ativo
 
-  Exiba metadados e propriedades detalhados de qualquer ativo usando o ícone **Informações**. Isso inclui dimensões de ativos, tamanho do arquivo, data de criação, tags e outras informações relevantes para ajudá-lo a tomar decisões informadas.
+Exiba metadados e propriedades detalhados de qualquer ativo usando o ícone **Informações**. Isso inclui dimensões de ativos, tamanho do arquivo, data de criação, tags e outras informações relevantes para ajudá-lo a tomar decisões informadas.
 
-  ![](assets/content-advisor-6.png){zoomable="yes"}
+![](assets/content-advisor-6.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Painel Dynamic Media
++++ Painel Dynamic Media
 
-  Acesse representações dinâmicas, recortes inteligentes e modificações instantâneas com base na configuração do repositório.
+Acesse representações dinâmicas, recortes inteligentes e modificações instantâneas com base na configuração do repositório.
 
-  ![](assets/content-advisor-1.png){zoomable="yes"}
+![](assets/content-advisor-1.png){zoomable="yes"}
 
-  O painel Dynamic Media fornece acesso a representações dinâmicas, recortes inteligentes e modificações instantâneas. Você pode inserir modificadores diretamente no painel para criar representações personalizadas.
+O painel Dynamic Media fornece acesso a representações dinâmicas, recortes inteligentes e modificações instantâneas. Você pode inserir modificadores diretamente no painel para criar representações personalizadas.
 
-  **Disponibilidade**
+**Disponibilidade**
 
-  A disponibilidade do Dynamic Media depende da configuração do repositório:
+A disponibilidade do Dynamic Media depende da configuração do repositório:
 
-   * **Scene7**: disponível para ativos publicados (exceto Vídeo e PDF). [Saiba mais sobre os modificadores do Dynamic Media Scene7](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
+* **Scene7**: disponível para ativos publicados (exceto Vídeo e PDF). [Saiba mais sobre os modificadores do Dynamic Media Scene7](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-   * **OpenAPI**: disponível para ativos aprovados (exceto Vídeo). [Saiba mais sobre o Dynamic Media com modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=pt-BR){target="_blank"}
+* **OpenAPI**: disponível para ativos aprovados (exceto Vídeo). [Saiba mais sobre o Dynamic Media com modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
-   * **Scene7 e OpenAPI**: disponíveis quando ambas as configurações existem e o ativo atende aos critérios.
+* **Scene7 e OpenAPI**: disponíveis quando ambas as configurações existem e o ativo atende aos critérios.
 
-  **Empilhar seleção**
+**Empilhar seleção**
 
-  Os botões exibidos dependem da configuração do repositório:
+Os botões exibidos dependem da configuração do repositório:
 
-   * **Botão do Scene7 somente**: o repositório tem configuração do Scene7 e o ativo foi publicado no Dynamic Media.
-   * **Botão OpenAPI**: o repositório tem a configuração OpenAPI e o ativo foi aprovado.
-   * **Ambos os botões**: o repositório tem configurações e o ativo foi publicado e aprovado.
-  +++
+* **Botão do Scene7 somente**: o repositório tem configuração do Scene7 e o ativo foi publicado no Dynamic Media.
+* **Botão OpenAPI**: o repositório tem a configuração OpenAPI e o ativo foi aprovado.
+* **Ambos os botões**: o repositório tem configurações e o ativo foi publicado e aprovado.
++++
 
 ### Para fragmento de conteúdo {#content-fragment-features}
 
 O Supervisor de Conteúdo do Adobe Experience Manager fornece os seguintes recursos de Fragmento de Conteúdo:
 
-* &#x200B;
-  +++ Listagem da exibição de modelo 
++++ Listagem da exibição de modelo 
 
-  Alterne entre as exibições de miniatura e tabela para procurar Fragmentos de conteúdo no formato que funciona melhor para seu fluxo de trabalho. A exibição em miniatura fornece contexto visual, enquanto a exibição em tabela mostra informações detalhadas em um formato estruturado.
+Alterne entre as exibições de miniatura e tabela para procurar Fragmentos de conteúdo no formato que funciona melhor para seu fluxo de trabalho. A exibição em miniatura fornece contexto visual, enquanto a exibição em tabela mostra informações detalhadas em um formato estruturado.
 
-  ![](assets/content-advisor-7.png){zoomable="yes"}
+![](assets/content-advisor-7.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Painel Informações 
++++ Painel Informações 
 
-  Clique no ícone **[!UICONTROL Informações]** para abrir um painel direito exibindo variações de fragmento, propriedades e detalhes de **[!UICONTROL Referenciado por]**. A seção **[!UICONTROL Referenciado por]** mostra todas as entidades Adobe Experience Manager nas quais o fragmento é usado, com links para exibir essas referências diretamente no Adobe Experience Manager.
+Clique no ícone **[!UICONTROL Informações]** para abrir um painel direito exibindo variações de fragmento, propriedades e detalhes de **[!UICONTROL Referenciado por]**. A seção **[!UICONTROL Referenciado por]** mostra todas as entidades Adobe Experience Manager nas quais o fragmento é usado, com links para exibir essas referências diretamente no Adobe Experience Manager.
 
-  ![](assets/content-advisor-8.png){zoomable="yes"}
+![](assets/content-advisor-8.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Abrir no Adobe Experience Manager
++++ Abrir no Adobe Experience Manager
 
-  Abra rapidamente qualquer fragmento de conteúdo diretamente no Adobe Experience Manager para edição usando o ícone ao lado do título. Essa integração perfeita permite alternar entre o Journey Optimizer e o Adobe Experience Manager sem perder o contexto.
+Abra rapidamente qualquer fragmento de conteúdo diretamente no Adobe Experience Manager para edição usando o ícone ao lado do título. Essa integração perfeita permite alternar entre o Journey Optimizer e o Adobe Experience Manager sem perder o contexto.
 
-  ![](assets/content-advisor-9.png){zoomable="yes"}
+![](assets/content-advisor-9.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Visualização JSON
++++ Visualização JSON
 
-  Visualize a estrutura JSON dos fragmentos de conteúdo em um formato tabular limpo e organizado. Isso ajuda você a entender a estrutura de dados do fragmento e verificar o conteúdo antes de usá-lo em suas campanhas.
+Visualize a estrutura JSON dos fragmentos de conteúdo em um formato tabular limpo e organizado. Isso ajuda você a entender a estrutura de dados do fragmento e verificar o conteúdo antes de usá-lo em suas campanhas.
 
-  ![](assets/content-advisor-10.png){zoomable="yes"}
+![](assets/content-advisor-10.png){zoomable="yes"}
 
-  +++
++++
 
 ## Acessar o Supervisor de Conteúdo do Adobe Experience Manager {#access}
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -69,13 +69,13 @@ Sua jornada baseada em código pega o status do **[!UICONTROL Live]** e agora es
    >
    >Saiba mais sobre como ativar campanhas em [esta seção](../campaigns/review-activate-campaign.md).
 
-Sua campanha baseada em código pega o **[!UICONTROL status do]** Live[&#128279;](../campaigns/manage-campaigns.md#statuses) e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações que você adicionou ao conteúdo.
+Sua campanha baseada em código pega o **[!UICONTROL status do]** Live[](../campaigns/manage-campaigns.md#statuses) e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações que você adicionou ao conteúdo.
 
 >[!NOTE]
 >
 >Após clicar em **[!UICONTROL Ativar]**, pode levar até 15 minutos para que as alterações fiquem disponíveis ao vivo.
 >
->Se você definiu um agendamento para sua campanha baseada em código, ele tem o **[!UICONTROL status]** [&#x200B; agendado](../campaigns/manage-campaigns.md#statuses) até que a data e a hora de início sejam atingidas.
+>Se você definiu um agendamento para sua campanha baseada em código, ele tem o **[!UICONTROL status]** [ agendado](../campaigns/manage-campaigns.md#statuses) até que a data e a hora de início sejam atingidas.
 
 ## Interromper uma jornada ou campanha baseada em código {#stop-code-based-experience}
 
@@ -99,13 +99,16 @@ Quando uma experiência baseada em código está ativa, você pode interrompê-l
 >
 >Quando uma jornada ou campanha baseada em código é interrompida, não é possível editá-la ou ativá-la novamente. Você só pode duplicá-la e ativar a jornada/campanha duplicada.
 
-<!--Reporting TBC
+<!--
+Reporting TBC
 
 ## Check the code-based experience reports {#check-code-based-reports}
 
-Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.-->
+Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.
+-->
 
-<!--## Code-based reports
+<!--
+## Code-based reports
 
 You can access code-based journey or campaign reports from the summary screen.
 
@@ -152,5 +155,4 @@ The **[!UICONTROL Code-based experience summary]** graph shows the evolution of 
 
 TBC: The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your apps/pages.
 +++
-
 -->

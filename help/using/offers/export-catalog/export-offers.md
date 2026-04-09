@@ -10,7 +10,7 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1951'
 ht-degree: 1%
@@ -108,6 +108,8 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 **Tipo:** matriz
 **Obrigatório:** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
++++
+
 * **_experiência > decisão > conteúdo > componentes > Tipo de componente de conteúdo**
 
   **Campo:** _tipo
@@ -186,7 +188,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
   **Campo:** linkURL
   **Descrição:** Um localizador de recursos exclusivo opcional para interações do usuário. Esse URL é usado para indicar o usuário final a em um agente do usuário e pode ser rastreado.
   **Tipo:** cadeia de caracteres
-  **Exemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Exemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > contents > Placement
 

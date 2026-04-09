@@ -1,25 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Guia de entrega de IP warmup
+title: Guia da capacidade de entrega do aquecimento de IP
 description: Saiba mais sobre os fundamentos de capacidade de entrega e as práticas recomendadas para aquecimento de IP
 feature: IP Warmup Plans
 topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, capacidade de entrega, reputação, ISP, envolvimento
-source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
+exl-id: a4c4890e-fc69-498c-83c3-8a37c34e36ed
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# Guia de entrega de IP warmup {#ip-warmup-deliverability-guide}
+# Guia da capacidade de entrega do aquecimento de IP {#ip-warmup-deliverability-guide}
 
 Ao iniciar campanhas de email com novos endereços IP ou domínios no Adobe Journey Optimizer, entender os fundamentos da capacidade de entrega é fundamental para criar uma sólida reputação do remetente. Este guia aborda os principais conceitos, etapas de preparação e práticas recomendadas para ajudá-lo a fazer a transição da reputação zero para a inserção bem-sucedida da caixa de entrada.
 
-➡️ Saiba mais sobre os fundamentos de capacidade de entrega, a criação de reputação e as práticas recomendadas para aumento gradual de IP no vídeo desta [publicação do blog do Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=pt){target="_blank"}.
+➡️ Saiba mais sobre os fundamentos de capacidade de entrega, a criação de reputação e as práticas recomendadas para aumento gradual de IP no vídeo desta [publicação do blog do Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}.
 
 >[!NOTE]
 >
@@ -122,7 +123,7 @@ Depois de concluir o plano de aquecimento, as métricas se estabilizaram:
 
 * **Mantenha a autenticação atualizada**: verifique regularmente se seus registros SPF, DKIM e DMARC permanecem configurados corretamente.
 
-## Principais pontos {#key-takeaways}
+## Principais lições {#key-takeaways}
 
 * **O aquecimento de IP é essencial**: ignorar o processo de aquecimento custa mais tempo e reputação do que o esforço necessário para executá-lo corretamente.
 
@@ -135,7 +136,8 @@ Depois de concluir o plano de aquecimento, as métricas se estabilizaram:
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=pt).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).
+-->
 
 ## Tópicos relacionados {#related-topics}
 
@@ -147,4 +149,3 @@ Depois de concluir o plano de aquecimento, as métricas se estabilizaram:
 * [Delegar subdomínios](delegate-subdomain.md)
 * [Gerenciar lista de supressão](manage-suppression-list.md)
 * [Guia de Práticas Recomendadas de Entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=pt-BR)
-

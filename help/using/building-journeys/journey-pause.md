@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 5%
@@ -211,7 +211,7 @@ Ao retomar esta jornada:
 
 ## Solução de problemas de descartes de perfis em jornadas pausadas {#discards-troubleshoot}
 
-Você pode usar o [[!DNL Adobe Experience Platform] Serviço de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
+Você pode usar o [[!DNL Adobe Experience Platform] Serviço de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
 
 * Para descartes que ocorrem antes que o perfil entre na jornada, use o seguinte código:
 

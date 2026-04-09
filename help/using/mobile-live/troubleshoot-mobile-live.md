@@ -6,9 +6,9 @@ description: Saiba como solucionar problemas de atividades ativas no Journey Opt
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: e16888953e73ac04f366790117065489b12ae0c7
 workflow-type: tm+mt
-source-wordcount: '4503'
+source-wordcount: '4523'
 ht-degree: 1%
 
 ---
@@ -28,70 +28,65 @@ Um desafio frequente com atividades Live é quando a chamada da API para acionar
 
 Antes de solucionar problemas, verifique se você tem:
 
-* &#x200B;
-  +++ Configurar uma sessão do Assurance
++++ Configurar uma sessão do Assurance
 
-  Configure uma **sessão do Assurance** para capturar eventos do SDK e inspecionar o pipeline de entrega. O Assurance oferece visibilidade sobre:
+Configure uma **sessão do Assurance** para capturar eventos do SDK e inspecionar o pipeline de entrega. O Assurance oferece visibilidade sobre:
 
-   * Solicitações e respostas do Edge Network
-   * Eventos de qualificação de perfil
-   * Registro do token de push
-   * Eventos de ciclo de vida de atividade ao vivo
+* Solicitações e respostas do Edge Network
+* Eventos de qualificação de perfil
+* Registro do token de push
+* Eventos de ciclo de vida de atividade ao vivo
 
-  Saiba como configurar o Assurance na [documentação do Adobe Experience Platform Assurance](https://experienceleague.adobe.com/pt-br/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+Saiba como configurar o Assurance na [documentação do Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
-  **Observação**: para a atividade do iOS Live, verifique se seu aplicativo está sendo executado em um dispositivo físico iOS (iOS 16.1 ou posterior) ou no Xcode Simulator (iOS 16.1 ou posterior).
+**Observação**: para a atividade do iOS Live, verifique se seu aplicativo está sendo executado em um dispositivo físico iOS (iOS 16.1 ou posterior) ou no Xcode Simulator (iOS 16.1 ou posterior).
 
-  +++
++++
 
-* &#x200B;
-  +++ Coletar detalhes da campanha acionada pela API
++++ Coletar detalhes da campanha acionada pela API
 
-  Navegue até a Campanha acionada pela API no Journey Optimizer e recupere:
+Navegue até a Campanha acionada pela API no Journey Optimizer e recupere:
 
-   * Nome da campanha
-   * ID da campanha encontrada nas propriedades URL ou campaign
-   * Versão do Campaign, se aplicável
-   * Configuração de superfície, superfície de aplicativo do iOS usada para atividade online
+* Nome da campanha
+* ID da campanha encontrada nas propriedades URL ou campaign
+* Versão do Campaign, se aplicável
+* Configuração de superfície, superfície de aplicativo do iOS usada para atividade online
 
-  +++
++++
 
-* &#x200B;
-  +++ Coletar informações de solicitação da API
++++ Coletar informações de solicitação da API
 
-  Ao fazer a chamada de API para acionar a atividade Live, salve:
+Ao fazer a chamada de API para acionar a atividade Live, salve:
 
-   * Carga de solicitação de API, incluindo identificadores de perfil e dados de atividade em tempo real
-   * Resposta da API, incluindo código de status, ID da mensagem, ID da solicitação
-   * Carimbo de data e hora de quando a API foi chamada
-   * Ponto de extremidade usado, por exemplo, `/campaign/{CAMPAIGN_ID}/execute`
+* Carga de solicitação de API, incluindo identificadores de perfil e dados de atividade em tempo real
+* Resposta da API, incluindo código de status, ID da mensagem, ID da solicitação
+* Carimbo de data e hora de quando a API foi chamada
+* Ponto de extremidade usado, por exemplo, `/campaign/{CAMPAIGN_ID}/execute`
 
-  +++
++++
 
-* &#x200B;
-  +++ Identificar o perfil de teste
++++ Identificar o perfil de teste
 
-  Na solicitação da API, recupere:
+Na solicitação da API, recupere:
 
-   * Namespace de perfil, por exemplo, ECID, email, ID do cliente
-   * ID de perfil usada na chamada de API
+* Namespace de perfil, por exemplo, ECID, email, ID do cliente
+* ID de perfil usada na chamada de API
 
-  Verifique se você pode pesquisar esse perfil no Adobe Experience Platform. Saiba como [pesquisar um perfil na documentação do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html).
+Verifique se você pode pesquisar esse perfil no Adobe Experience Platform. Saiba como [pesquisar um perfil na documentação do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html).
 
-  +++
++++
 
-* &#x200B;
-  +++ Informações do dispositivo e do aplicativo
++++ Informações do dispositivo e do aplicativo
 
-  Colete o seguinte do seu dispositivo de teste:
+Colete o seguinte do seu dispositivo de teste:
 
-   * Modelo do dispositivo, por exemplo, iPhone 14 Pro
-   * Versão do iOS
-   * Identificador do conjunto de aplicativos
-   * Token de push de APNs
-   * Status de conectividade de rede no momento do teste
+* Modelo do dispositivo, por exemplo, iPhone 14 Pro
+* Versão do iOS
+* Identificador do conjunto de aplicativos
+* Token de push de APNs
+* Status de conectividade de rede no momento do teste
 
-  +++
++++
 
 ## Cenários comuns
 
@@ -119,73 +114,70 @@ A API retorna HTTP 200, mas a atividade Live não é exibida. Causas comuns:
 
 #### Etapas de depuração
 
-1. &#x200B;
-   +++ Verificar se o perfil existe no Adobe Experience Platform
++++ &#x200B;1. Verifique se o perfil existe no Adobe Experience Platform
 
-   1. No Journey Optimizer, navegue até **Cliente** `>` **Perfis**.
-   1. Pesquisar usando o namespace e o valor de identidade da solicitação de API.
-   1. Se o perfil não for encontrado, ele não existe ou a assimilação não foi concluída. Crie o perfil ou aguarde a assimilação antes de acionar a atividade Live.
-   1. Se o perfil for encontrado, vá para a etapa 2 abaixo para verificar se o token de push está sincronizado.
+1. No Journey Optimizer, navegue até **Cliente** `>` **Perfis**.
+1. Pesquisar usando o namespace e o valor de identidade da solicitação de API.
+1. Se o perfil não for encontrado, ele não existe ou a assimilação não foi concluída. Crie o perfil ou aguarde a assimilação antes de acionar a atividade Live.
+1. Se o perfil for encontrado, vá para a etapa 2 abaixo para verificar se o token de push está sincronizado.
 
-      +++
++++
 
-1. &#x200B;
-   +++ Verificar se o token de push da atividade online está sincronizado
++++ &#x200B;2. Verifique se o token de push da atividade online está sincronizado
 
-   Você pode usar o Assurance para verificar o registro do token:
+Você pode usar o Assurance para verificar o registro do token:
 
-   1. No Assurance, na lista **Eventos**, filtre ou pesquise eventos `eventType = "liveActivity.pushToStart"`.
-   1. Selecione o **Evento** e inspecione a carga.
-   1. Verifique se os valores de token, appId e attributeType estão presentes.
-   1. Confirme se o evento foi enviado com êxito.
+1. No Assurance, na lista **Eventos**, filtre ou pesquise eventos `eventType = "liveActivity.pushToStart"`.
+1. Selecione o **Evento** e inspecione a carga.
+1. Verifique se os valores de token, appId e attributeType estão presentes.
+1. Confirme se o evento foi enviado com êxito.
 
-   Também é possível fazer check-in do perfil do Adobe Experience Platform.
+Também é possível fazer check-in do perfil do Adobe Experience Platform.
 
-   1. No Adobe Experience Platform, em seu **Perfil**, acesse a guia **Eventos**.
-   1. Pesquisar `liveActivity.pushToStart` eventos.
-   1. Verifique o carimbo de data e hora e a carga do evento.
+1. No Adobe Experience Platform, em seu **Perfil**, acesse a guia **Eventos**.
+1. Pesquisar `liveActivity.pushToStart` eventos.
+1. Verifique o carimbo de data e hora e a carga do evento.
 
-   Se nenhum evento for encontrado, o aplicativo móvel não está chamando `Messaging.registerLiveActivity` corretamente. Você precisa corrigir a integração do SDK.
+Se nenhum evento for encontrado, o aplicativo móvel não está chamando `Messaging.registerLiveActivity` corretamente. Você precisa corrigir a integração do SDK.
 
-   +++
++++
 
-1. &#x200B;
-   +++ Validar detalhes do token no perfil
++++ &#x200B;3. Validar detalhes do token no perfil
 
-   1. Em seu **Perfil**, acesse a guia **Atributos**.
-   1. Localizar `liveActivityPushNotificationDetails`.
-   1. Verifique a configuração do token:
+1. Em seu **Perfil**, acesse a guia **Atributos**.
+1. Localizar `liveActivityPushNotificationDetails`.
+1. Verifique a configuração do token:
 
-      ```json
+   ```json
+   {
+      "liveActivityPushNotificationDetails": [
       {
-        "liveActivityPushNotificationDetails": [
-          {
-            "appId": "com.example.myapp",
-            "token": "abc123def456...",
-            "platform": "apns",
-            "denylisted": false,
-            "attributeType": "OrderTrackingAttributes",
-            "identity": {}
-          }
-        ]
+         "appId": "com.example.myapp",
+         "token": "abc123def456...",
+         "platform": "apns",
+         "denylisted": false,
+         "attributeType": "OrderTrackingAttributes",
+         "identity": {}
       }
-      ```
+      ]
+   }
+   ```
 
-   **Validar cada campo:**
+**Validar cada campo:**
 
-   | Campo | Requisito | Problema comum |
-   |-|-|-|
-   | `appId` | Deve corresponder exatamente ao identificador de conjunto do iOS | Incompatibilidade entre IDs do pacote dev/prod |
-   | `attributeType` | Deve corresponder exatamente ao nome de estrutura Swift `ActivityAttributes` (diferencia maiúsculas de minúsculas) | Erro de digitação ou nome de estrutura incorreto |
-   | `platform` | Deve ser `"apns"` ou `"apnsSandbox"` | Valor de plataforma incorreto |
-   | `denylisted` | Deve ser `false` | Token marcado como inválido ou usuário recusado |
-   | `token` | Token de push de APNs válido | Token expirado ou aplicativo reinstalado |
+| Campo | Requisito | Problema comum |
+|-|-|-|
+| `appId` | Deve corresponder exatamente ao identificador de conjunto do iOS | Incompatibilidade entre IDs do pacote dev/prod |
+| `attributeType` | Deve corresponder exatamente ao nome de estrutura Swift `ActivityAttributes` (diferencia maiúsculas de minúsculas) | Erro de digitação ou nome de estrutura incorreto |
+| `platform` | Deve ser `"apns"` ou `"apnsSandbox"` | Valor de plataforma incorreto |
+| `denylisted` | Deve ser `false` | Token marcado como inválido ou usuário recusado |
+| `token` | Token de push de APNs válido | Token expirado ou aplicativo reinstalado |
 
-   Se algum campo estiver incorreto: atualize o aplicativo móvel, registre-se novamente usando `Messaging.registerLiveActivities`, aguarde de 5-10 minutos e verifique novamente.
+Se algum campo estiver incorreto: atualize o aplicativo móvel, registre-se novamente usando `Messaging.registerLiveActivities`, aguarde de 5-10 minutos e verifique novamente.
 
-   Se `liveActivityPushNotificationDetails` estiver ausente: o token ainda não foi sincronizado. Aguarde de 5 a 10 minutos após ver o evento `liveActivity.pushToStart` no Assurance.
+Se `liveActivityPushNotificationDetails` estiver ausente: o token ainda não foi sincronizado. Aguarde de 5 a 10 minutos após ver o evento `liveActivity.pushToStart` no Assurance.
 
-   +++
++++
 
 ### Problemas de configuração de campanha e de carga {#payload-issues}
 
@@ -207,170 +199,166 @@ O perfil existe com tokens válidos, mas a atividade Live não é exibida. Isso 
 
 #### Etapas de depuração
 
-1. &#x200B;
-   +++ Verificar a configuração da superfície de campanha
++++ &#x200B;1. Verifique a configuração da superfície de campanha
 
-   1. No Journey Optimizer, abra a **Campanha** e navegue até o menu **Ações**.
-   1. Verifique sua **configuração de atividade do Live**. A superfície deve ser configurada para o aplicativo iOS com um identificador de conjunto que corresponda a `appId` no `liveActivityPushNotificationDetails` do seu perfil. Por exemplo, se o seu perfil tem `"appId": "com.example.myapp"`, a superfície deve ter como alvo o mesmo aplicativo.
-   1. Verifique se o **Tipo de atividade** na configuração da campanha corresponde exatamente ao `attributeType` no `liveActivityPushNotificationDetails` do seu perfil. Por exemplo, se o seu perfil tiver `"attributeType": "FoodDeliveryLiveActivityAttributes"`, a campanha deverá especificar esse mesmo tipo de Atividade.
+1. No Journey Optimizer, abra a **Campanha** e navegue até o menu **Ações**.
+1. Verifique sua **configuração de atividade do Live**. A superfície deve ser configurada para o aplicativo iOS com um identificador de conjunto que corresponda a `appId` no `liveActivityPushNotificationDetails` do seu perfil. Por exemplo, se o seu perfil tem `"appId": "com.example.myapp"`, a superfície deve ter como alvo o mesmo aplicativo.
+1. Verifique se o **Tipo de atividade** na configuração da campanha corresponde exatamente ao `attributeType` no `liveActivityPushNotificationDetails` do seu perfil. Por exemplo, se o seu perfil tiver `"attributeType": "FoodDeliveryLiveActivityAttributes"`, a campanha deverá especificar esse mesmo tipo de Atividade.
 
-      +++
++++
 
-1. &#x200B;
-   +++Validar estrutura de carga da API
++++ &#x200B;2. Validar a estrutura de carga da API
 
-   Ao executar a campanha via API, verifique se a carga segue a estrutura correta.
+Ao executar a campanha via API, verifique se a carga segue a estrutura correta.
 
-   **Carga unitária:**
+**Carga unitária:**
 
-   ```json
-   {
-     "campaignId": "your-campaign-id",
-     "recipients": [{
-       "type": "aep",
-       "userId": "user@example.com",
-       "namespace": "email",
-       "context": {
-         "requestPayload": {
-           "aps": {
-             "content-available": 1,
-             "timestamp": 1756984054,
-             "event": "start",
-             "attributes-type": "FoodDeliveryLiveActivityAttributes",
-             "content-state": { ... },
-             "attributes": { ... }
-           }
+```json
+{
+   "campaignId": "your-campaign-id",
+   "recipients": [{
+      "type": "aep",
+      "userId": "user@example.com",
+      "namespace": "email",
+      "context": {
+      "requestPayload": {
+         "aps": {
+            "content-available": 1,
+            "timestamp": 1756984054,
+            "event": "start",
+            "attributes-type": "FoodDeliveryLiveActivityAttributes",
+            "content-state": { ... },
+            "attributes": { ... }
          }
-       }
-     }]
+      }
+      }
+   }]
+}
+```
+
+**Problemas comuns de carga:**
+
+| Campo | Requisito | Problema comum |
+|-|-|-|
+| `attributes-type` | Deve corresponder ao tipo de Atividade de campanha e ao perfil `attributeType` | Incompatibilidade ou erro de digitação |
+| `campaignId` | Deve corresponder à ID da campanha ativada | ID de campanha incorreta ou ausente |
+| `content-available` | Deve ser `1` | Valor ausente ou incorreto |
+| `event` | Deve ser `"start"`, `"update"` ou `"end"` | Tipo de evento inválido |
+| `timestamp` | Deve ser sempre o horário atual/mais recente da época do Unix em segundos | Uso do carimbo de data e hora antigo/em cache |
+| `userId` / `namespace` | Deve corresponder a um perfil existente no AEP | Incompatibilidade do identificador de perfil |
+
+**Crítico: sempre usar o carimbo de data/hora mais recente**
+
+* O campo `timestamp` deve **sempre** ser o **horário atual da época Unix** (em segundos) no momento em que cada chamada de API é feita.
+* Isso se aplica a **todos os tipos de evento**: `start`, `update` e **especialmente`end`**.
+* **Impacto nas solicitações de atualizações/término**: o uso de um carimbo de data/hora obsoleto ou antigo fará com que as solicitações de atualização e término falhem ou sejam ignoradas pelo dispositivo.
+* **NÃO** reutilize carimbos de data/hora de solicitações anteriores ou use valores em cache.
+* Gere um carimbo de data e hora novo para cada chamada de API.
+
+**Campos opcionais (todos os tipos de evento):**
+
+* `requestId`: Identificador exclusivo para rastreamento (recomendado).
+* `alert`: Objeto com `title` e `body` para notificação (útil para chamar atenção para atualizações).
+
+**Sobre `dismissal-date`:**
+
+* Campo opcional que contém o tempo da época Unix (segundos).
+* **Relevante somente quando`event: "end"`**.
+* Especifica quando a atividade Live deve ser removida automaticamente do dispositivo.
+* Se não for fornecido no evento final, a atividade online permanecerá visível até que o usuário a ignore.
+* Deve ser um carimbo de data/hora futuro (posterior a `timestamp`).
+
++++
+
++++ &#x200B;3. Alinhar a carga com a implementação do iOS
+
+Verifique se a carga da API corresponde à implementação `ActivityAttributes` do aplicativo iOS. O protocolo `LiveActivityAttributes` do Adobe SDK estende o iOS `ActivityAttributes` e requer uma propriedade `liveActivityData`.
+
+**Validar o mapeamento:**
+
+1. Seu `ActivityAttributes` deve implementar o protocolo `LiveActivityAttributes` da Adobe. Exemplo:
+
+   ```swift
+   struct FoodDeliveryLiveActivityAttributes: LiveActivityAttributes {
+      public struct ContentState: Codable, Hashable {
+         var orderStatus: String
+         var estimatedDeliveryTime: String
+      }
+   
+      // Adobe SDK requirement
+      var liveActivityData: LiveActivityData
+   
+      // Your custom attributes
+      var restaurantName: String
    }
    ```
 
-   **Problemas comuns de carga:**
+   **Observe** que o campo `liveActivityData` é exigido pelo Adobe SDK e deve ser incluído em todas as implementações.
 
-   | Campo | Requisito | Problema comum |
-   |-|-|-|
-   | `attributes-type` | Deve corresponder ao tipo de Atividade de campanha e ao perfil `attributeType` | Incompatibilidade ou erro de digitação |
-   | `campaignId` | Deve corresponder à ID da campanha ativada | ID de campanha incorreta ou ausente |
-   | `content-available` | Deve ser `1` | Valor ausente ou incorreto |
-   | `event` | Deve ser `"start"`, `"update"` ou `"end"` | Tipo de evento inválido |
-   | `timestamp` | Deve ser sempre o horário atual/mais recente da época do Unix em segundos | Uso do carimbo de data e hora antigo/em cache |
-   | `userId` / `namespace` | Deve corresponder a um perfil existente no AEP | Incompatibilidade do identificador de perfil |
+1. A carga da API deve refletir a estrutura do iOS:
 
-   **Crítico: sempre usar o carimbo de data/hora mais recente**
-
-   * O campo `timestamp` deve **sempre** ser o **horário atual da época Unix** (em segundos) no momento em que cada chamada de API é feita.
-   * Isso se aplica a **todos os tipos de evento**: `start`, `update` e **especialmente`end`**.
-   * **Impacto nas solicitações de atualizações/término**: o uso de um carimbo de data/hora obsoleto ou antigo fará com que as solicitações de atualização e término falhem ou sejam ignoradas pelo dispositivo.
-   * **NÃO** reutilize carimbos de data/hora de solicitações anteriores ou use valores em cache.
-   * Gere um carimbo de data e hora novo para cada chamada de API.
-
-   **Campos opcionais (todos os tipos de evento):**
-
-   * `requestId`: Identificador exclusivo para rastreamento (recomendado).
-   * `alert`: Objeto com `title` e `body` para notificação (útil para chamar atenção para atualizações).
-
-   **Sobre `dismissal-date`:**
-
-   * Campo opcional que contém o tempo da época Unix (segundos).
-   * **Relevante somente quando`event: "end"`**.
-   * Especifica quando a atividade Live deve ser removida automaticamente do dispositivo.
-   * Se não for fornecido no evento final, a atividade online permanecerá visível até que o usuário a ignore.
-   * Deve ser um carimbo de data/hora futuro (posterior a `timestamp`).
-
-     +++
-
-1. &#x200B;
-   +++ Alinhar a carga com a implementação do iOS
-
-   Verifique se a carga da API corresponde à implementação `ActivityAttributes` do aplicativo iOS. O protocolo `LiveActivityAttributes` do Adobe SDK estende o iOS `ActivityAttributes` e requer uma propriedade `liveActivityData`.
-
-   **Validar o mapeamento:**
-
-   1. Seu `ActivityAttributes` deve implementar o protocolo `LiveActivityAttributes` da Adobe. Exemplo:
-
-      ```swift
-      struct FoodDeliveryLiveActivityAttributes: LiveActivityAttributes {
-       public struct ContentState: Codable, Hashable {
-           var orderStatus: String
-           var estimatedDeliveryTime: String
-       }
-      
-       // Adobe SDK requirement
-       var liveActivityData: LiveActivityData
-      
-       // Your custom attributes
-       var restaurantName: String
+   ```json
+   {
+      "aps": {
+         "event": "start",
+         "timestamp": 1756984054,
+         "attributes-type": "FoodDeliveryLiveActivityAttributes",
+         "content-state": {
+         "orderStatus": "Preparing",
+         "estimatedDeliveryTime": "20 mins"
+      },
+      "attributes": {
+         "liveActivityData": {
+         "liveActivityID": "order-12345"
+         },
+         "restaurantName": "Pizza Palace"
       }
-      ```
-
-      **Observe** que o campo `liveActivityData` é exigido pelo Adobe SDK e deve ser incluído em todas as implementações.
-
-   1. A carga da API deve refletir a estrutura do iOS:
-
-      ```json
-      {
-        "aps": {
-           "event": "start",
-           "timestamp": 1756984054,
-           "attributes-type": "FoodDeliveryLiveActivityAttributes",
-           "content-state": {
-           "orderStatus": "Preparing",
-           "estimatedDeliveryTime": "20 mins"
-        },
-        "attributes": {
-          "liveActivityData": {
-            "liveActivityID": "order-12345"
-          },
-          "restaurantName": "Pizza Palace"
-        }
-        }
       }
-      ```
+   }
+   ```
 
-   **Lista de verificação de validação:**
+**Lista de verificação de validação:**
 
-   * Incluir todos os campos `ContentState` em `content-state` (obrigatório para todos os tipos de evento).
-   * Incluir todos os campos `LiveActivityAttributes` em `attributes` (somente eventos iniciais), incluindo:
-      * `liveActivityData` (obrigatório; geralmente contém `liveActivityID` ou identificador semelhante)
-      * Todos os campos personalizados da estrutura
-   * Corresponder nomes de campo exatamente (diferencia maiúsculas de minúsculas).
-   * Corresponder tipos de dados (String, Int, Bool, objetos aninhados).
-   * Preserva a estrutura do objeto aninhado.
+* Incluir todos os campos `ContentState` em `content-state` (obrigatório para todos os tipos de evento).
+* Incluir todos os campos `LiveActivityAttributes` em `attributes` (somente eventos iniciais), incluindo:
+   * `liveActivityData` (obrigatório; geralmente contém `liveActivityID` ou identificador semelhante)
+   * Todos os campos personalizados da estrutura
+* Corresponder nomes de campo exatamente (diferencia maiúsculas de minúsculas).
+* Corresponder tipos de dados (String, Int, Bool, objetos aninhados).
+* Preserva a estrutura do objeto aninhado.
 
-   **Erros comuns:**
+**Erros comuns:**
 
-   | Problema | Impacto | Correção |
-   |-------|--------|-----|
-   | `liveActivityData` ausente nos atributos | A atividade online não iniciará | Sempre incluir objeto `liveActivityData` no evento inicial |
-   | Campo obrigatório ausente no evento de início | A atividade online não iniciará | Adicionar todos os campos da estrutura do iOS |
-   | Nome de campo incorreto (erro de digitação/uso de maiúsculas e minúsculas) | Campo ignorado ou erro de análise | Corresponder exatamente aos nomes de campo do iOS |
-   | Tipo de dados incorreto | Erro de análise | Corresponder tipos de dados do iOS |
-   | Objeto aninhado ausente | Dados incompletos | Incluir todas as estruturas aninhadas |
-   | Incluindo `attributes` em atualização/fim | Desnecessário, mas geralmente ignorado | Incluir apenas `attributes` no evento inicial |
-   | Carimbo de data/hora obsoleto na atualização/término | Atualização/fim ignorado pelo dispositivo | Sempre gerar carimbo de data/hora novo |
+| Problema | Impacto | Correção |
+|-------|--------|-----|
+| `liveActivityData` ausente nos atributos | A atividade online não iniciará | Sempre incluir objeto `liveActivityData` no evento inicial |
+| Campo obrigatório ausente no evento de início | A atividade online não iniciará | Adicionar todos os campos da estrutura do iOS |
+| Nome de campo incorreto (erro de digitação/uso de maiúsculas e minúsculas) | Campo ignorado ou erro de análise | Corresponder exatamente aos nomes de campo do iOS |
+| Tipo de dados incorreto | Erro de análise | Corresponder tipos de dados do iOS |
+| Objeto aninhado ausente | Dados incompletos | Incluir todas as estruturas aninhadas |
+| Incluindo `attributes` em atualização/fim | Desnecessário, mas geralmente ignorado | Incluir apenas `attributes` no evento inicial |
+| Carimbo de data/hora obsoleto na atualização/término | Atualização/fim ignorado pelo dispositivo | Sempre gerar carimbo de data/hora novo |
 
-   Para obter mais exemplos, consulte [Criar página de atividade ao vivo](create-mobile-live.md).
+Para obter mais exemplos, consulte [Criar página de atividade ao vivo](create-mobile-live.md).
 
-   +++
++++
 
-1. &#x200B;
-   +++ Testar com o Assurance
++++ &#x200B;4. Testar com o Assurance
 
-   Verifique a execução da API e o delivery de carga usando o Assurance:
+Verifique a execução da API e o delivery de carga usando o Assurance:
 
-   1. Abra sua sessão do Assurance.
-   1. Execute a chamada de API para acionar a atividade Live.
-   1. Na **Lista de Eventos**, verifique se:
-      * Eventos de execução de campanha.
-      * Eventos de entrega de atividades online.
-      * Eventos de erro de validação de carga.
-   1. Revise as cargas do evento para verificar:
-      * A carga foi processada corretamente.
-      * Não ocorreram erros de validação.
-      * A atividade online foi enviada para APNs.
+1. Abra sua sessão do Assurance.
+1. Execute a chamada de API para acionar a atividade Live.
+1. Na **Lista de Eventos**, verifique se:
+   * Eventos de execução de campanha.
+   * Eventos de entrega de atividades online.
+   * Eventos de erro de validação de carga.
+1. Revise as cargas do evento para verificar:
+   * A carga foi processada corretamente.
+   * Não ocorreram erros de validação.
+   * A atividade online foi enviada para APNs.
 
-      +++
++++
 
 ### Falhas de entrega e análise de erros
 
@@ -401,140 +389,135 @@ Mas a atividade Live ainda não é exibida, atualizada ou encerrada conforme esp
 
 #### Etapas de depuração
 
-1. &#x200B;
-   +++ Verificar relatórios de campanha
++++ &#x200B;1. Verifique os relatórios da campanha
 
-   1. Navegue até a **Campanha de atividade ao vivo**.
-   1. Clique no botão **Relatórios**.
-   1. Selecione **Exibir relatório de todos os tempos**.
-   1. Analise as seguintes seções:
+1. Navegue até a **Campanha de atividade ao vivo**.
+1. Clique no botão **Relatórios**.
+1. Selecione **Exibir relatório de todos os tempos**.
+1. Analise as seguintes seções:
 
-      1. Verifique as métricas **Estatísticas de envio** para entender o sucesso da entrega:
+   1. Verifique as métricas **Estatísticas de envio** para entender o sucesso da entrega:
 
-         | Métrica | O que significa | O que procurar |
-         |-|-|-|
-         | Direcionado | Número de perfis qualificados para o público | Deve incluir seu perfil de teste |
-         | Envios | Total de tentativas de notificações por push | Deve corresponder às chamadas de API |
-         | Entregues | Entregue com sucesso a dispositivos | Compare com Envios para ver a taxa de sucesso |
-         | Enviar erros | Notificações por push que não foram enviadas | Números altos |
-         | Enviar exclusões | Perfis excluídos pelo Adobe Journey Optimizer | Verifique se o seu perfil foi excluído |
-
-      1. Se Enviar erros > 0, verifique a tabela **Motivos de Erro** para obter códigos de erro e mensagens específicas:
-
-         | Erro comum | Significado | Resolução |
-         |-|-|-|
-         | Token inválido | O token de push é inválido ou expirou | Registrar novamente os tokens de atividade ao vivo do dispositivo |
-         | Token não encontrado | Nenhum token válido associado ao perfil | Verificar se `liveActivityPushNotificationDetails` existe |
-         | APNs rejeitadas | O serviço de Notificação por push do Apple rejeitou o push | Verificar certificado APNs, ID do pacote, ambiente |
-         | Tempo limite de rede | Não é possível acessar APNs | Problema transitório; repetir a chamada da API |
-
-      1. Se **Enviar exclusões** > 0, verifique a tabela **Motivos excluídos**:
-
-         | Exclusão comum | Significado | Resolução |
-         |-|-|-|
-         | Perfil recusado | O usuário recusou as notificações | Verificar status de consentimento do perfil |
-         | Token alterado | Token marcado como inválido | Registre o token novamente ou verifique o status do incluo na lista de bloqueios |
-         | Perfil não qualificado | O perfil não atende aos critérios da campanha | Revisar regras de público-alvo da campanha |
-
-   Saiba mais na [página de relatório de campanha de atividades ao vivo](../reports/campaign-global-report-cja-activity.md).
-
-   +++
-
-1. &#x200B;
-   +++ Verificar eventos de feedback da mensagem no perfil
-
-   1. Navegue até **Cliente** > **Perfis** na Journey Optimizer.
-   1. Procure e abra o perfil.
-   1. Selecione a guia **Eventos**.
-   1. Filtrar ou pesquisar eventos com `eventType = "message.feedback"`.
-   1. Procure eventos de feedback que correspondam aos tipos `liveActivityID` e `event` da atividade Ativa.
-   1. Revise os seguintes campos principais:
-
-      | Campo | Valores possíveis | O que significa |
+      | Métrica | O que significa | O que procurar |
       |-|-|-|
-      | `feedbackStatus` | `sent`, `error`, `denylist` | Resultado da entrega do provedor de serviços |
-      | `serviceProvider` | `apns/apnsSandbox` | Deve ser APNs para atividades do iOS Live |
-      | `errorCode` | Código numérico ou `null` | Código de erro específico de APNs em caso de falha |
-      | `errorMessage` | Descrição de erro ou `null` | Mensagem de erro legível |
+      | Direcionado | Número de perfis qualificados para o público | Deve incluir seu perfil de teste |
+      | Envios | Total de tentativas de notificações por push | Deve corresponder às chamadas de API |
+      | Entregues | Entregue com sucesso a dispositivos | Compare com Envios para ver a taxa de sucesso |
+      | Enviar erros | Notificações por push que não foram enviadas | Números altos |
+      | Enviar exclusões | Perfis excluídos pelo Adobe Journey Optimizer | Verifique se o seu perfil foi excluído |
 
-   1. **Se `feedbackStatus: "error"`:**
-      * Verifique o `errorCode` e o `errorMessage` quanto a erros de APNs específicos
-      * Erros comuns de APNs incluem token expirado, certificado inválido, ID de pacote incorreta
+   1. Se Enviar erros > 0, verifique a tabela **Motivos de Erro** para obter códigos de erro e mensagens específicas:
 
-   1. **Se nenhum evento de feedback for encontrado:**
-      * A notificação por push pode não ter sido tentada
-      * Verifique se o perfil foi excluído nos Relatórios de campanha, conforme detalhado na Etapa 1 acima.
-
-      +++
-
-1. &#x200B;
-   +++ Verificar a entrega de atividade em tempo real para APNs no Assurance
-
-   1. Abra a sessão do Assurance. Ela deve estar ativa durante a chamada de API.
-   1. Execute a chamada de API (start, update ou end).
-   1. Na **Lista de Eventos**, procure por eventos de entrega de atividades online.
-   1. Procure eventos relacionados à entrega por push de APNs.
-   1. Verifique os seguintes indicadores:
-      * **Solicitação de push para APNs**: confirma que a Adobe enviou o push para os servidores da Apple
-      * **Resposta APNs**: mostra se APNs aceitaram ou rejeitaram o push
-      * **Status da entrega**: indicação de êxito ou falha
-   1. Se forem encontrados problemas, consulte os seguintes problemas comuns de delivery de APNs:
-
-      | Problema | Sintoma no Assurance | Resolução |
+      | Erro comum | Significado | Resolução |
       |-|-|-|
-      | Certificado APNs expirado | Erro de autenticação | Renovar e carregar novo certificado APNs |
-      | Ambiente errado (desenvolvimento vs. produção) | Erro de incompatibilidade de token | Verifique se o certificado corresponde ao tipo de build do aplicativo |
-      | Incompatibilidade de ID do pacote | Identificador de conjunto inválido | Verificar se a ID do conjunto de certificados corresponde ao aplicativo |
-      | Token expirado | Erro InvalidToken de APNs | Registrar tokens de atividade ao vivo novamente |
-      | Limitação de taxa | Solicitações demais | Reduzir a frequência de chamada da API |
+      | Token inválido | O token de push é inválido ou expirou | Registrar novamente os tokens de atividade ao vivo do dispositivo |
+      | Token não encontrado | Nenhum token válido associado ao perfil | Verificar se `liveActivityPushNotificationDetails` existe |
+      | APNs rejeitadas | O serviço de Notificação por push do Apple rejeitou o push | Verificar certificado APNs, ID do pacote, ambiente |
+      | Tempo limite de rede | Não é possível acessar APNs | Problema transitório; repetir a chamada da API |
 
-      +++
+   1. Se **Enviar exclusões** > 0, verifique a tabela **Motivos excluídos**:
 
-1. &#x200B;
-   +++ Prosseguir com verificações de diagnóstico adicionais
+      | Exclusão comum | Significado | Resolução |
+      |-|-|-|
+      | Perfil recusado | O usuário recusou as notificações | Verificar status de consentimento do perfil |
+      | Token alterado | Token marcado como inválido | Registre o token novamente ou verifique o status do incluo na lista de bloqueios |
+      | Perfil não qualificado | O perfil não atende aos critérios da campanha | Revisar regras de público-alvo da campanha |
 
-   1. Verifique as métricas de ciclo de vida de atividade Ativo no Relatório de campanha.
+Saiba mais na [página de relatório de campanha de atividades ao vivo](../reports/campaign-global-report-cja-activity.md).
 
-      No relatório de campanha, revise a seção **Ciclo de vida da atividade em tempo real**:
++++
 
-      | Métrica | O que verificar |
-      |-|-|
-      | Início remoto | Deve mostrar a contagem de inicializações acionadas por API |
-      | Atualizações | Deve mostrar a contagem de eventos de atualização |
-      | Término | Deve mostrar a contagem de eventos finais |
-      | Contagem total | Volume geral do evento de atividade Ativa |
++++ &#x200B;2. Verificar eventos de feedback da mensagem no perfil
 
-      Se essas métricas forem zero ou não corresponderem às chamadas da API, há um problema de delivery entre o Adobe e os APNs.
+1. Navegue até **Cliente** > **Perfis** na Journey Optimizer.
+1. Procure e abra o perfil.
+1. Selecione a guia **Eventos**.
+1. Filtrar ou pesquisar eventos com `eventType = "message.feedback"`.
+1. Procure eventos de feedback que correspondam aos tipos `liveActivityID` e `event` da atividade Ativa.
+1. Revise os seguintes campos principais:
 
-   1. Se o Adobe mostrar entrega bem-sucedida, mas o dispositivo não mostrar a atividade Live:
+   | Campo | Valores possíveis | O que significa |
+   |---|---|---|
+   | `feedbackStatus` | `sent`, `error`, `denylist` | Resultado da entrega do provedor de serviços |
+   | `serviceProvider` | `apns/apnsSandbox` | Deve ser APNs para atividades do iOS Live |
+   | `errorCode` | Código numérico ou `null` | Código de erro específico de APNs em caso de falha |
+   | `errorMessage` | Descrição de erro ou `null` | Mensagem de erro legível |
 
-      * Verifique se há erros de atividade ao vivo nos logs de dispositivos do iOS.
-      * Verifique se o aplicativo está em primeiro ou segundo plano (não finalizado).
-      * Confirme se o dispositivo tem conectividade de rede.
-      * Teste em vários dispositivos para descartar problemas específicos do dispositivo.
-      * Verifique se a versão do iOS é 16.1 ou posterior.
+1. **Se `feedbackStatus: "error"`:**
+   * Verifique o `errorCode` e o `errorMessage` quanto a erros de APNs específicos
+   * Erros comuns de APNs incluem token expirado, certificado inválido, ID de pacote incorreta
 
-      +++
+1. **Se nenhum evento de feedback for encontrado:**
+   * A notificação por push pode não ter sido tentada
+   * Verifique se o perfil foi excluído nos Relatórios de campanha, conforme detalhado na Etapa 1 acima.
 
-1. &#x200B;
-   +++ Escalonamento para o suporte da Adobe
++++
 
-   Se você concluiu todas as etapas e o problema permanece não resolvido, entre em contato com o Atendimento ao cliente da Adobe com:
++++ &#x200B;3. Verificar a entrega de atividade em tempo real para APNs no Assurance
 
-   **Informações necessárias:**
+1. Abra a sessão do Assurance. Ela deve estar ativa durante a chamada de API.
+1. Execute a chamada de API (start, update ou end).
+1. Na **Lista de Eventos**, procure por eventos de entrega de atividades online.
+1. Procure eventos relacionados à entrega por push de APNs.
+1. Verifique os seguintes indicadores:
+   * **Solicitação de push para APNs**: confirma que a Adobe enviou o push para os servidores da Apple
+   * **Resposta APNs**: mostra se APNs aceitaram ou rejeitaram o push
+   * **Status da entrega**: indicação de êxito ou falha
+1. Se forem encontrados problemas, consulte os seguintes problemas comuns de delivery de APNs:
 
-   * ID e nome da campanha
-   * Namespace e ID do perfil
-      * `liveActivityID` da carga da API
-   * Carimbos de data e hora de chamadas de API
-   * Capturas de tela de:
-      * Relatórios De Campanha (Estatísticas De Envio, Motivos De Erro, Motivos Excluídos)
-      * Eventos de Perfil (`liveActivity.updateToken`, `message.feedback`)
-      * Sessão do Assurance mostrando eventos de entrega
-   * Carga de solicitação de API concluída
-   * Detalhes do certificado APNs (expiração, ambiente, ID do pacote)
+   | Problema | Sintoma no Assurance | Resolução |
+   |-|-|-|
+   | Certificado APNs expirado | Erro de autenticação | Renovar e carregar novo certificado APNs |
+   | Ambiente errado (desenvolvimento vs. produção) | Erro de incompatibilidade de token | Verifique se o certificado corresponde ao tipo de build do aplicativo |
+   | Incompatibilidade de ID do pacote | Identificador de conjunto inválido | Verificar se a ID do conjunto de certificados corresponde ao aplicativo |
+   | Token expirado | Erro InvalidToken de APNs | Registrar tokens de atividade ao vivo novamente |
+   | Limitação de taxa | Solicitações demais | Reduzir a frequência de chamada da API |
 
-     +++
++++
+
++++ &#x200B;4. Proceder a verificações de diagnóstico adicionais
+
+1. Verifique as métricas de ciclo de vida de atividade Ativo no Relatório de campanha.
+
+   No relatório de campanha, revise a seção **Ciclo de vida da atividade em tempo real**:
+
+   | Métrica | O que verificar |
+   |-|-|
+   | Início remoto | Deve mostrar a contagem de inicializações acionadas por API |
+   | Atualizações | Deve mostrar a contagem de eventos de atualização |
+   | Término | Deve mostrar a contagem de eventos finais |
+   | Contagem total | Volume geral do evento de atividade Ativa |
+
+   Se essas métricas forem zero ou não corresponderem às chamadas da API, há um problema de delivery entre o Adobe e os APNs.
+
+1. Se o Adobe mostrar entrega bem-sucedida, mas o dispositivo não mostrar a atividade Live:
+
+   * Verifique se há erros de atividade ao vivo nos logs de dispositivos do iOS.
+   * Verifique se o aplicativo está em primeiro ou segundo plano (não finalizado).
+   * Confirme se o dispositivo tem conectividade de rede.
+   * Teste em vários dispositivos para descartar problemas específicos do dispositivo.
+   * Verifique se a versão do iOS é 16.1 ou posterior.
+
++++
+
++++ &#x200B;5. Escalonamento ao suporte da Adobe
+
+Se você concluiu todas as etapas e o problema permanece não resolvido, entre em contato com o Atendimento ao cliente da Adobe com:
+
+**Informações necessárias:**
+
+* ID e nome da campanha
+* Namespace e ID do perfil
+* `liveActivityID` da carga da API
+* Carimbos de data e hora de chamadas de API
+* Capturas de tela de:
+* Relatórios De Campanha (Estatísticas De Envio, Motivos De Erro, Motivos Excluídos)
+* Eventos de Perfil (`liveActivity.updateToken`, `message.feedback`)
+* Sessão do Assurance mostrando eventos de entrega
+* Carga de solicitação de API concluída
+* Detalhes do certificado APNs (expiração, ambiente, ID do pacote)
+
++++
 
 ## Cenários específicos unitários
 
@@ -568,66 +551,63 @@ Para que os eventos de atualização e término funcionem, o seguinte deve ocorr
 
 #### Etapas de depuração
 
-1. &#x200B;
-   +++ Verificar sincronização do token de atualização no Assurance
++++ Verificar sincronização do token de atualização no Assurance
 
-   1. Abra sua sessão do Assurance.
-   1. Verifique se a sessão estava ativa quando a atividade Live foi iniciada no dispositivo.
-   1. Filtrar ou pesquisar eventos com `eventType = "liveActivity.updateToken"`.
-   1. Selecione o evento e inspecione a carga:
+1. Abra sua sessão do Assurance.
+1. Verifique se a sessão estava ativa quando a atividade Live foi iniciada no dispositivo.
+1. Filtrar ou pesquisar eventos com `eventType = "liveActivity.updateToken"`.
+1. Selecione o evento e inspecione a carga:
 
-      * Verifique se o campo `token` contém uma cadeia de token de atualização válida.
-      * Verifique se o `liveActivityID` corresponde à sua instância de atividade do Live.
-      * Confirme se o `activityType` corresponde ao seu `attributes-type`.
+   * Verifique se o campo `token` contém uma cadeia de token de atualização válida.
+   * Verifique se o `liveActivityID` corresponde à sua instância de atividade do Live.
+   * Confirme se o `activityType` corresponde ao seu `attributes-type`.
 
-   1. Se o evento não for encontrado:
+1. Se o evento não for encontrado:
 
-      * O token de atualização não foi gerado ou capturado pela SDK.
-      * Verifique se o usuário recebeu permissões de atividade em tempo real.
-      * Verifique se a atividade Live foi iniciada com êxito no dispositivo.
-      * Confirme se o SDK para dispositivos móveis está integrado corretamente para capturar tokens de atualização.
+   * O token de atualização não foi gerado ou capturado pela SDK.
+   * Verifique se o usuário recebeu permissões de atividade em tempo real.
+   * Verifique se a atividade Live foi iniciada com êxito no dispositivo.
+   * Confirme se o SDK para dispositivos móveis está integrado corretamente para capturar tokens de atualização.
 
-   1. Se o evento for encontrado, prossiga para a Etapa 2.
+1. Se o evento for encontrado, prossiga para a Etapa 2.
 
-      +++
++++
 
-2. &#x200B;
-   +++ Verificar token de atualização em eventos de perfil
++++ &#x200B;2. Verificar o token de atualização nos eventos de perfil
 
-   1. Navegue até **Cliente** > **Perfis** na Journey Optimizer.
-   1. Procure e abra o perfil.
-   1. Selecione a guia **Eventos**.
-   1. Procurar `liveActivity.updateToken` eventos.
-   1. Verifique os detalhes do evento:
+1. Navegue até **Cliente** > **Perfis** na Journey Optimizer.
+1. Procure e abra o perfil.
+1. Selecione a guia **Eventos**.
+1. Procurar `liveActivity.updateToken` eventos.
+1. Verifique os detalhes do evento:
 
-      * Verifique se o carimbo de data e hora é recente (corresponde ao início da atividade online).
-      * Confirme se `token` e `liveActivityID` estão presentes.
-      * Verifique se `activityType` está correto.
+   * Verifique se o carimbo de data e hora é recente (corresponde ao início da atividade online).
+   * Confirme se `token` e `liveActivityID` estão presentes.
+   * Verifique se `activityType` está correto.
 
-   1. Se o evento não for encontrado no perfil:
+1. Se o evento não for encontrado no perfil:
 
-      * O evento de token de atualização pode não ter sido assimilado no perfil ainda.
-      * Aguarde de 5 a 10 minutos e verifique novamente.
-      * Se ainda estiver ausente após 15 minutos, pode haver um problema de assimilação de evento.
+   * O evento de token de atualização pode não ter sido assimilado no perfil ainda.
+   * Aguarde de 5 a 10 minutos e verifique novamente.
+   * Se ainda estiver ausente após 15 minutos, pode haver um problema de assimilação de evento.
 
-   1. Se um evento for encontrado, o token de atualização foi sincronizado. Você pode prosseguir para a Etapa 3.
+1. Se um evento for encontrado, o token de atualização foi sincronizado. Você pode prosseguir para a Etapa 3.
 
-      +++
++++
 
-3. &#x200B;
-   +++ Verificar eventos de entrega de atividade em tempo real no Assurance
++++ &#x200B;3. Verificar eventos de entrega de atividade em tempo real no Assurance
 
-   1. Na sessão do Assurance, execute uma chamada de API de atualização ou fim.
-   1. Na **Lista de Eventos**, procure por eventos de entrega de atividade (eventos de push APNs).
-   1. Verificar se há eventos que indicam:
-      * Notificação por push enviada para APNs.
-      * Resposta de APNs (sucesso ou erro).
-      * Confirmação de entrega.
-   1. Se um evento de delivery APNs estiver presente: a notificação por push foi enviada. Se o dispositivo ainda não for atualizado, o problema pode estar no lado do dispositivo (aplicativo que não lida com push, problemas de rede etc.).
-   1. Se o evento de entrega APNs estiver ausente: o token de atualização pode não estar armazenado ou associado corretamente ao perfil no sistema do Adobe.
-   1. Se houver eventos de erro: inspecione os detalhes do erro em busca de motivos específicos de falha (token inválido, APNs rejeitados etc.).
+1. Na sessão do Assurance, execute uma chamada de API de atualização ou fim.
+1. Na **Lista de Eventos**, procure por eventos de entrega de atividade (eventos de push APNs).
+1. Verificar se há eventos que indicam:
+   * Notificação por push enviada para APNs.
+   * Resposta de APNs (sucesso ou erro).
+   * Confirmação de entrega.
+1. Se um evento de delivery APNs estiver presente: a notificação por push foi enviada. Se o dispositivo ainda não for atualizado, o problema pode estar no lado do dispositivo (aplicativo que não lida com push, problemas de rede etc.).
+1. Se o evento de entrega APNs estiver ausente: o token de atualização pode não estar armazenado ou associado corretamente ao perfil no sistema do Adobe.
+1. Se houver eventos de erro: inspecione os detalhes do erro em busca de motivos específicos de falha (token inválido, APNs rejeitados etc.).
 
-      +++
++++
 
 ## Cenários específicos de transmissão
 
@@ -653,192 +633,188 @@ Este cenário de solução de problemas se aplica a todos os eventos de atividad
 
 #### Etapas de depuração
 
-1. &#x200B;
-   +++ Verificar a configuração do público-alvo da campanha
++++ &#x200B;1. Verifique a configuração do público-alvo da campanha
 
-   1. Abra sua **Campanha de Marketing Acionado pela API** na Journey Optimizer.
-   1. Navegue até a seção **Público-alvo** e verifique:
-      * Um público é selecionado para a campanha.
-      * A ID de público-alvo corresponde à ID usada na carga da API.
-      * O público-alvo contém os perfis esperados.
-   1. Navegue até a seção **Ações**.
-   1. Verifique a **configuração da atividade online**:
-      * A configuração deve ser definida para o aplicativo iOS com o identificador de pacote correto.
-      * O tipo de atividade deve corresponder ao `attributes-type` na carga da API. Por exemplo, se sua carga contém `"attributes-type": "AirplaneTrackingAttributes"`, a campanha deve especificar esse mesmo tipo de Atividade.
+1. Abra sua **Campanha de Marketing Acionado pela API** na Journey Optimizer.
+1. Navegue até a seção **Público-alvo** e verifique:
+   * Um público é selecionado para a campanha.
+   * A ID de público-alvo corresponde à ID usada na carga da API.
+   * O público-alvo contém os perfis esperados.
+1. Navegue até a seção **Ações**.
+1. Verifique a **configuração da atividade online**:
+   * A configuração deve ser definida para o aplicativo iOS com o identificador de pacote correto.
+   * O tipo de atividade deve corresponder ao `attributes-type` na carga da API. Por exemplo, se sua carga contém `"attributes-type": "AirplaneTrackingAttributes"`, a campanha deve especificar esse mesmo tipo de Atividade.
 
-      +++
++++
 
-1. &#x200B;
-   +++ Validar a estrutura de carga da API de transmissão
++++ &#x200B;2. Validar a estrutura de carga da API de transmissão
 
-   A estrutura de carga da transmissão é diferente das campanhas unitárias. Verifique se a carga segue o formato de transmissão correto.
+A estrutura de carga da transmissão é diferente das campanhas unitárias. Verifique se a carga segue o formato de transmissão correto.
 
-   **Campos obrigatórios para difusão:**
+**Campos obrigatórios para difusão:**
 
-   ```json
-   {
-     "campaignId": "878a11d4-b519-47bd-8313-fecfee19857b",
-     "audience": {
-       "id": "8c3dbdea-2957-401f-acf0-3966fba1601e"
-     },
-     "context": {
-       "requestPayload": {
-         "aps": {
-           "input-push-channel": "FEt0NgvLEfEAAOqA6AXdIQ==",
-           "content-available": 1,
-           "timestamp": 1771829292,
-           "event": "update",
-           "attributes-type": "AirplaneTrackingAttributes",
-           "content-state": { ... },
-           "attributes": { ... }
-         }
-       }
-     }
+```json
+{
+   "campaignId": "878a11d4-b519-47bd-8313-fecfee19857b",
+   "audience": {
+      "id": "8c3dbdea-2957-401f-acf0-3966fba1601e"
+   },
+   "context": {
+      "requestPayload": {
+      "aps": {
+         "input-push-channel": "FEt0NgvLEfEAAOqA6AXdIQ==",
+         "content-available": 1,
+         "timestamp": 1771829292,
+         "event": "update",
+         "attributes-type": "AirplaneTrackingAttributes",
+         "content-state": { ... },
+         "attributes": { ... }
+      }
+      }
    }
-   ```
+}
+```
 
-   **Problemas comuns de carga:**
+**Problemas comuns de carga:**
 
-   | Campo | Requisito | Problema comum |
-   |-|-|-|
-   | `campaignId` | Deve corresponder à ID de campanha de marketing ativada | ID de campanha incorreta ou uso da campanha transacional |
-   | `audience.id` | Deve corresponder a um público-alvo existente no AEP | ID de público-alvo ou público-alvo incorreto não existe |
-   | `input-push-channel` | Obrigatório para transmissão - Identificador exclusivo para esta instância de transmissão | Ausente ou não corresponde a `channelID` em `liveActivityData` |
-   | `timestamp` | Deve ser sempre o horário atual/mais recente da época do Unix em segundos | Uso do carimbo de data e hora antigo/em cache |
-   | `event` | Deve ser `"start"`, `"update"` ou `"end"` | Tipo de evento inválido |
-   | `attributes-type` | Deve corresponder ao tipo de Atividade da campanha | Incompatibilidade ou erro de digitação |
-   | `content-available` | Deve ser `1` | Valor ausente ou incorreto |
+| Campo | Requisito | Problema comum |
+|-|-|-|
+| `campaignId` | Deve corresponder à ID de campanha de marketing ativada | ID de campanha incorreta ou uso da campanha transacional |
+| `audience.id` | Deve corresponder a um público-alvo existente no AEP | ID de público-alvo ou público-alvo incorreto não existe |
+| `input-push-channel` | Obrigatório para transmissão - Identificador exclusivo para esta instância de transmissão | Ausente ou não corresponde a `channelID` em `liveActivityData` |
+| `timestamp` | Deve ser sempre o horário atual/mais recente da época do Unix em segundos | Uso do carimbo de data e hora antigo/em cache |
+| `event` | Deve ser `"start"`, `"update"` ou `"end"` | Tipo de evento inválido |
+| `attributes-type` | Deve corresponder ao tipo de Atividade da campanha | Incompatibilidade ou erro de digitação |
+| `content-available` | Deve ser `1` | Valor ausente ou incorreto |
 
-   **Campos críticos específicos da difusão:**
+**Campos críticos específicos da difusão:**
 
-   * **`input-push-channel`**
-      * Obrigatório para todas as atividades de transmissão ao vivo.
-      * Atua como um identificador exclusivo para essa instância de transmissão específica.
-      * Todos os perfis no público-alvo recebem atividades ao vivo vinculadas a este canal.
-      * Deve corresponder a `channelID` em `liveActivityData.channelID` (consulte a Etapa 3).
-      * Deve ser criado para `appID` no Portal do Desenvolvedor do Apple pelo cliente.
-      * Somente os canais criados para o `appID` específico podem ser usados para transmitir a atividade em tempo real nesse aplicativo.
+* **`input-push-channel`**
+   * Obrigatório para todas as atividades de transmissão ao vivo.
+   * Atua como um identificador exclusivo para essa instância de transmissão específica.
+   * Todos os perfis no público-alvo recebem atividades ao vivo vinculadas a este canal.
+   * Deve corresponder a `channelID` em `liveActivityData.channelID` (consulte a Etapa 3).
+   * Deve ser criado para `appID` no Portal do Desenvolvedor do Apple pelo cliente.
+   * Somente os canais criados para o `appID` específico podem ser usados para transmitir a atividade em tempo real nesse aplicativo.
 
-   * **`audience.id`**
-      * Deve fazer referência a um segmento de público-alvo válido criado no Adobe Experience Platform.
-      * Todos os perfis neste público-alvo são direcionados para a atividade Live.
-      * O público deve ser ativado e conter perfis com `liveActivityPushNotificationDetails` válido.
+* **`audience.id`**
+   * Deve fazer referência a um segmento de público-alvo válido criado no Adobe Experience Platform.
+   * Todos os perfis neste público-alvo são direcionados para a atividade Live.
+   * O público deve ser ativado e conter perfis com `liveActivityPushNotificationDetails` válido.
 
-   **Sempre usar o carimbo de data/hora mais recente:**
+**Sempre usar o carimbo de data/hora mais recente:**
 
-   * O campo `timestamp` deve ser sempre o tempo da época Unix atual (em segundos) para cada chamada de API.
-   * Este requisito se aplica a todos os tipos de evento: `start`, `update` e `end`.
-   * **Crítico para atualizações/fim**: usar carimbos de data/hora obsoletos faz com que as solicitações de atualização e término falhem.
-   * Gere um carimbo de data e hora novo para cada chamada de API de transmissão.
+* O campo `timestamp` deve ser sempre o tempo da época Unix atual (em segundos) para cada chamada de API.
+* Este requisito se aplica a todos os tipos de evento: `start`, `update` e `end`.
+* **Crítico para atualizações/fim**: usar carimbos de data/hora obsoletos faz com que as solicitações de atualização e término falhem.
+* Gere um carimbo de data e hora novo para cada chamada de API de transmissão.
 
-   **Campos opcionais:**
+**Campos opcionais:**
 
-   * `dismissal-date`: Tempo de época Unix para descarte automático (relevante somente para `end` eventos)
-   * `alert`: Objeto com `title` e `body` para notificação
+* `dismissal-date`: Tempo de época Unix para descarte automático (relevante somente para `end` eventos)
+* `alert`: Objeto com `title` e `body` para notificação
 
-   Consulte a [documentação da API de Mensagens do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/messaging) para obter as especificações completas da API.
+Consulte a [documentação da API de Mensagens do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/messaging) para obter as especificações completas da API.
 
-   +++
++++
 
-1. &#x200B;
-   +++ Alinhar o estado do conteúdo, os atributos e o canal de push de entrada com a implementação do iOS
++++ &#x200B;3. Alinhar o estado do conteúdo, os atributos e o canal de push de entrada com a implementação do iOS
 
-   Verifique se os campos de carga correspondem à implementação `ActivityAttributes` do aplicativo iOS e se `input-push-channel` corresponde a `channelID` em `liveActivityData`.
+Verifique se os campos de carga correspondem à implementação `ActivityAttributes` do aplicativo iOS e se `input-push-channel` corresponde a `channelID` em `liveActivityData`.
 
-   1. Revise sua definição de Atributos da atividade do iOS.
+1. Revise sua definição de Atributos da atividade do iOS.
 
-   Sua estrutura `ActivityAttributes` personalizada deve implementar o protocolo `LiveActivityAttributes` da Adobe:
+Sua estrutura `ActivityAttributes` personalizada deve implementar o protocolo `LiveActivityAttributes` da Adobe:
 
-   ```swift
-   struct AirplaneTrackingAttributes: LiveActivityAttributes {
-    public struct ContentState: Codable, Hashable {
-        var journeyProgress: Int
-    }
-   
-    // Adobe SDK requirement
-    var liveActivityData: LiveActivityData
-   
-    // Your custom attributes
-    var arrivalAirport: String
-    var departureAirport: String
-    var arrivalTerminal: String
+```swift
+struct AirplaneTrackingAttributes: LiveActivityAttributes {
+   public struct ContentState: Codable, Hashable {
+      var journeyProgress: Int
    }
-   ```
+   
+   // Adobe SDK requirement
+   var liveActivityData: LiveActivityData
+   
+   // Your custom attributes
+   var arrivalAirport: String
+   var departureAirport: String
+   var arrivalTerminal: String
+}
+```
 
-   1. Mapeie os campos do iOS para a carga da API de transmissão.
+1. Mapeie os campos do iOS para a carga da API de transmissão.
 
-   Para todos os eventos, inclua `attributes` e `content-state`:
+Para todos os eventos, inclua `attributes` e `content-state`:
 
-   ```json
-         {
-         "aps": {
-          "input-push-channel": "FEt0NgvLEfEAAOqA6AXdIQ==",
-          "event": "start",
-          "timestamp": 1771829292,
-          "attributes-type": "AirplaneTrackingAttributes",
-          "content-state": {
-            "journeyProgress": 0
-          },
-          "attributes": {
-            "arrivalAirport": "DEL",
-            "departureAirport": "MUM",
-            "arrivalTerminal": "T1",
-            "liveActivityData": {
-              "channelID": "FEt0NgvLEfEAAOqA6AXdIQ=="
-            }
-          }
+```json
+      {
+      "aps": {
+         "input-push-channel": "FEt0NgvLEfEAAOqA6AXdIQ==",
+         "event": "start",
+         "timestamp": 1771829292,
+         "attributes-type": "AirplaneTrackingAttributes",
+         "content-state": {
+         "journeyProgress": 0
+         },
+         "attributes": {
+         "arrivalAirport": "DEL",
+         "departureAirport": "MUM",
+         "arrivalTerminal": "T1",
+         "liveActivityData": {
+            "channelID": "FEt0NgvLEfEAAOqA6AXdIQ=="
          }
          }
-   ```
+      }
+      }
+```
 
-   **Crítico: `input-push-channel` deve corresponder a`channelID`**
+**Crítico: `input-push-channel` deve corresponder a`channelID`**
 
-   * O valor `input-push-channel` na raiz de `aps` deve corresponder exatamente a `channelID` em `liveActivityData`.
-   * No exemplo acima, ambos os valores são `"FEt0NgvLEfEAAOqA6AXdIQ=="`.
-   * Isso vincula a instância de transmissão aos dados de atividade Live.
-   * Uma incompatibilidade causa falhas de delivery.
+* O valor `input-push-channel` na raiz de `aps` deve corresponder exatamente a `channelID` em `liveActivityData`.
+* No exemplo acima, ambos os valores são `"FEt0NgvLEfEAAOqA6AXdIQ=="`.
+* Isso vincula a instância de transmissão aos dados de atividade Live.
+* Uma incompatibilidade causa falhas de delivery.
 
-   **Pontos principais de validação:**
+**Pontos principais de validação:**
 
-   * Incluir todos os campos `ContentState` em `content-state` para todos os tipos de evento.
-   * Incluir todos os campos personalizados `LiveActivityAttributes` em `attributes` somente para eventos iniciais.
-   * Para eventos de início, `liveActivityData.channelID` deve corresponder a `input-push-channel`.
-   * Os nomes de campos diferenciam maiúsculas de minúsculas e devem corresponder exatamente.
-   * Os tipos de dados devem corresponder (String, Int, Bool, objetos aninhados etc.).
-   * Para eventos de atualização/encerramento, use o mesmo `input-push-channel` que o evento inicial original.
+* Incluir todos os campos `ContentState` em `content-state` para todos os tipos de evento.
+* Incluir todos os campos personalizados `LiveActivityAttributes` em `attributes` somente para eventos iniciais.
+* Para eventos de início, `liveActivityData.channelID` deve corresponder a `input-push-channel`.
+* Os nomes de campos diferenciam maiúsculas de minúsculas e devem corresponder exatamente.
+* Os tipos de dados devem corresponder (String, Int, Bool, objetos aninhados etc.).
+* Para eventos de atualização/encerramento, use o mesmo `input-push-channel` que o evento inicial original.
 
-   **Erros comuns:**
+**Erros comuns:**
 
-   | Problema | Impacto | Correção |
-   |-|-|-|
-   | `input-push-channel` ausente | A transmissão não funcionará | Adicionar ID de canal exclusiva para cada transmissão |
-   | `input-push-channel` não corresponde a `channelID` | A atividade online não iniciará | Certifique-se de que ambos os valores sejam idênticos |
-   | Diferente de `input-push-channel` para atualização/fim | Atualizar/encerrar não atingirá as atividades Live | Usar a mesma ID de canal no ciclo de vida |
-   | `liveActivityData.channelID` ausente | A atividade ao vivo não será vinculada à transmissão | Incluir `channelID` em atributos para iniciar evento |
-   | Campo obrigatório ausente no evento de início | A atividade online não iniciará | Adicionar todos os campos da estrutura do iOS |
-   | Nome de campo incorreto (erro de digitação/uso de maiúsculas e minúsculas) | Campo ignorado ou erro de análise | Corresponder exatamente aos nomes de campo do iOS |
-   | Carimbo de data/hora obsoleto na atualização/término | Atualização/fim ignorado pelos dispositivos | Sempre gerar carimbo de data/hora novo |
+| Problema | Impacto | Correção |
+|-|-|-|
+| `input-push-channel` ausente | A transmissão não funcionará | Adicionar ID de canal exclusiva para cada transmissão |
+| `input-push-channel` não corresponde a `channelID` | A atividade online não iniciará | Certifique-se de que ambos os valores sejam idênticos |
+| Diferente de `input-push-channel` para atualização/fim | Atualizar/encerrar não atingirá as atividades Live | Usar a mesma ID de canal no ciclo de vida |
+| `liveActivityData.channelID` ausente | A atividade ao vivo não será vinculada à transmissão | Incluir `channelID` em atributos para iniciar evento |
+| Campo obrigatório ausente no evento de início | A atividade online não iniciará | Adicionar todos os campos da estrutura do iOS |
+| Nome de campo incorreto (erro de digitação/uso de maiúsculas e minúsculas) | Campo ignorado ou erro de análise | Corresponder exatamente aos nomes de campo do iOS |
+| Carimbo de data/hora obsoleto na atualização/término | Atualização/fim ignorado pelos dispositivos | Sempre gerar carimbo de data/hora novo |
 
-   +++
++++
 
-1. &#x200B;
-   +++ Testar com o Assurance
++++ &#x200B;4. Testar com o Assurance
 
-   Verifique a execução da API e o delivery de carga usando o Assurance:
+Verifique a execução da API e o delivery de carga usando o Assurance:
 
-   1. Abra a sessão do Assurance em um dispositivo de teste que faça parte do público-alvo.
-   1. Execute a chamada de API de transmissão.
-   1. Na **Lista de Eventos**, procure:
-      * Eventos de execução de campanha.
-      * Eventos de entrega de atividades online.
-      * Eventos de erro que indicam falhas de validação de carga.
-   1. Inspecione as cargas do evento para confirmar:
-      * A carga foi processada corretamente.
-      * O `input-push-channel` está presente.
-      * Não ocorreram erros de validação.
-      * As atividades ativas foram enviadas para APNs para membros do público-alvo.
+1. Abra a sessão do Assurance em um dispositivo de teste que faça parte do público-alvo.
+1. Execute a chamada de API de transmissão.
+1. Na **Lista de Eventos**, procure:
+   * Eventos de execução de campanha.
+   * Eventos de entrega de atividades online.
+   * Eventos de erro que indicam falhas de validação de carga.
+1. Inspecione as cargas do evento para confirmar:
+   * A carga foi processada corretamente.
+   * O `input-push-channel` está presente.
+   * Não ocorreram erros de validação.
+   * As atividades ativas foram enviadas para APNs para membros do público-alvo.
 
-      +++
++++
 
 ### O perfil não está no público-alvo ou no instantâneo de público-alvo obsoleto
 
@@ -868,79 +844,77 @@ O Adobe Experience Platform usa diferentes métodos de avaliação de público-a
 
 #### Etapas de depuração
 
-1. &#x200B;
-   +++ Verificar se o perfil está no público
++++ &#x200B;1. Verifique se o perfil está no público-alvo
 
-   Primeiro, confirme se o perfil que deve receber a atividade Live faz parte do público-alvo.
+Primeiro, confirme se o perfil que deve receber a atividade Live faz parte do público-alvo.
 
-   1. Navegue até **Públicos-alvo** no Adobe Experience Platform.
-   1. Procure e abra o público-alvo usando o `audience.id` da sua campanha.
-   1. Clique em **Procurar** ou **Perfis de amostra** para exibir membros do público-alvo.
-   1. Procure pelo perfil de teste usando o valor de namespace e identidade.
-   1. **Se o perfil não for encontrado na audiência:**
-      * O perfil não atende aos critérios de público-alvo ou às regras de segmento.
-      * Revise a definição de público-alvo para entender os requisitos de associação.
-      * Atualize os dados do perfil ou a definição do público-alvo para incluir o perfil.
-      * Aguarde a conclusão da avaliação do público-alvo (consulte Etapa 2).
-   1. **Se o perfil for encontrado no público-alvo:** Vá para a Etapa 2 para verificar a atualização dos dados.
+1. Navegue até **Públicos-alvo** no Adobe Experience Platform.
+1. Procure e abra o público-alvo usando o `audience.id` da sua campanha.
+1. Clique em **Procurar** ou **Perfis de amostra** para exibir membros do público-alvo.
+1. Procure pelo perfil de teste usando o valor de namespace e identidade.
+1. **Se o perfil não for encontrado na audiência:**
+   * O perfil não atende aos critérios de público-alvo ou às regras de segmento.
+   * Revise a definição de público-alvo para entender os requisitos de associação.
+   * Atualize os dados do perfil ou a definição do público-alvo para incluir o perfil.
+   * Aguarde a conclusão da avaliação do público-alvo (consulte Etapa 2).
+1. **Se o perfil for encontrado no público-alvo:** Vá para a Etapa 2 para verificar a atualização dos dados.
 
-      +++
++++
 
-2. &#x200B;
-   +++ Verificar o tipo e a programação da avaliação do público-alvo
++++ &#x200B;2. Verifique o tipo e a programação da avaliação do público-alvo
 
-   Identifique se o público-alvo usa avaliação em lote ou por transmissão, pois isso determina a atualização dos dados.
+Identifique se o público-alvo usa avaliação em lote ou por transmissão, pois isso determina a atualização dos dados.
 
-   1. Na página **Detalhes do público-alvo**, verifique o **Método de avaliação**:
-      * **Lote**: avaliado uma vez por dia de acordo com um agendamento.
-      * **Streaming**: avaliado em tempo real quando ocorrem atualizações de perfil.
-      * **Edge**: avaliado em locais de borda em tempo real.
+1. Na página **Detalhes do público-alvo**, verifique o **Método de avaliação**:
+   * **Lote**: avaliado uma vez por dia de acordo com um agendamento.
+   * **Streaming**: avaliado em tempo real quando ocorrem atualizações de perfil.
+   * **Edge**: avaliado em locais de borda em tempo real.
 
-   Siga as etapas apropriadas de solução de problemas com base no método de avaliação:
+Siga as etapas apropriadas de solução de problemas com base no método de avaliação:
 
-   **Se o público-alvo usar a Avaliação em lote:**
+**Se o público-alvo usar a Avaliação em lote:**
 
-   1. **Compreender as limitações de público-alvo em lotes:**
-      * Os públicos-alvo em lote são avaliados uma vez por dia (normalmente durante a noite).
-      * O instantâneo do público-alvo pode ter até 24 horas.
-      * Se um perfil registrou tokens de atividade ao vivo recentemente, esses tokens podem não estar no instantâneo atual.
-      * As atualizações para perfis não serão refletidas até a próxima avaliação do lote.
+1. **Compreender as limitações de público-alvo em lotes:**
+   * Os públicos-alvo em lote são avaliados uma vez por dia (normalmente durante a noite).
+   * O instantâneo do público-alvo pode ter até 24 horas.
+   * Se um perfil registrou tokens de atividade ao vivo recentemente, esses tokens podem não estar no instantâneo atual.
+   * As atualizações para perfis não serão refletidas até a próxima avaliação do lote.
 
-   1. **Verificar quando ocorreu a última avaliação:**
-      * Nos detalhes do público, procure pelo carimbo de data e hora **Última avaliação**.
-      * Se o `liveActivityPushNotificationDetails` do perfil foi atualizado após esse carimbo de data/hora, o público-alvo tem dados obsoletos.
+1. **Verificar quando ocorreu a última avaliação:**
+   * Nos detalhes do público, procure pelo carimbo de data e hora **Última avaliação**.
+   * Se o `liveActivityPushNotificationDetails` do perfil foi atualizado após esse carimbo de data/hora, o público-alvo tem dados obsoletos.
 
-   1. **Resolver dados obsoletos:**
-      1. **Opção 1: Aguardar a avaliação agendada do lote**
-         * A próxima avaliação do lote incluirá os dados atualizados do perfil.
-         * Isso acontece automaticamente uma vez por dia.
-         * Melhor para cenários não urgentes.
+1. **Resolver dados obsoletos:**
+   1. **Opção 1: Aguardar a avaliação agendada do lote**
+      * A próxima avaliação do lote incluirá os dados atualizados do perfil.
+      * Isso acontece automaticamente uma vez por dia.
+      * Melhor para cenários não urgentes.
 
-      1. **Opção 2: acionar avaliação de público-alvo sob demanda**
-         1. Navegue até **Públicos-alvo** no AEP.
-         1. Selecione o público-alvo.
-         1. Clique em **Avaliar agora** ou **Ativar sob demanda**.
-         1. Aguarde a conclusão da avaliação (isso pode levar de alguns minutos a horas, dependendo do tamanho do público).
-         1. Verifique se o perfil agora atualizou os dados no instantâneo do público-alvo.
-         1. Tente novamente a chamada da API de transmissão.
+   1. **Opção 2: acionar avaliação de público-alvo sob demanda**
+      1. Navegue até **Públicos-alvo** no AEP.
+      1. Selecione o público-alvo.
+      1. Clique em **Avaliar agora** ou **Ativar sob demanda**.
+      1. Aguarde a conclusão da avaliação (isso pode levar de alguns minutos a horas, dependendo do tamanho do público).
+      1. Verifique se o perfil agora atualizou os dados no instantâneo do público-alvo.
+      1. Tente novamente a chamada da API de transmissão.
 
-   **Se o público-alvo usar a avaliação de Streaming:**
+**Se o público-alvo usar a avaliação de Streaming:**
 
-   1. **Entender o comportamento de transmissão de público:**
-      * Os públicos-alvo de transmissão são avaliados em tempo real quando ocorrem atualizações de perfil.
-      * **Novos perfis**: qualifique-se logo após a criação se eles atenderem aos critérios de segmento.
-      * **Perfis atualizados**: qualifique ou desqualifique logo após ser atualizado.
-      * **Perfis inalterados existentes**: não serão reavaliados, a menos que ocorra uma atualização.
+1. **Entender o comportamento de transmissão de público:**
+   * Os públicos-alvo de transmissão são avaliados em tempo real quando ocorrem atualizações de perfil.
+   * **Novos perfis**: qualifique-se logo após a criação se eles atenderem aos critérios de segmento.
+   * **Perfis atualizados**: qualifique ou desqualifique logo após ser atualizado.
+   * **Perfis inalterados existentes**: não serão reavaliados, a menos que ocorra uma atualização.
 
-   1. **Identificar o problema:**
-      * Se um perfil já existir e atender aos critérios de segmento, mas nenhuma atualização ocorrer nesse perfil, ele não poderá ser adicionado a um público de transmissão recém-criado.
-      * O perfil deve receber uma atualização (qualquer alteração de atributo) para acionar a reavaliação.
+1. **Identificar o problema:**
+   * Se um perfil já existir e atender aos critérios de segmento, mas nenhuma atualização ocorrer nesse perfil, ele não poderá ser adicionado a um público de transmissão recém-criado.
+   * O perfil deve receber uma atualização (qualquer alteração de atributo) para acionar a reavaliação.
 
-   1. **Resolver o problema:**
-      * **Para novos perfis**: eles se qualificam automaticamente se os critérios forem atendidos. Nenhuma ação necessária.
-      * **Para perfis existentes sem atualizações recentes:**
-         * Fazer uma atualização secundária no perfil (por exemplo, atualizar um campo de carimbo de data e hora).
-         * Isso aciona a avaliação de transmissão e adiciona o perfil ao público-alvo.
-         * Alternativa: use um público-alvo em lote ou público-alvo de borda para perfis existentes.
+1. **Resolver o problema:**
+   * **Para novos perfis**: eles se qualificam automaticamente se os critérios forem atendidos. Nenhuma ação necessária.
+   * **Para perfis existentes sem atualizações recentes:**
+      * Fazer uma atualização secundária no perfil (por exemplo, atualizar um campo de carimbo de data e hora).
+      * Isso aciona a avaliação de transmissão e adiciona o perfil ao público-alvo.
+      * Alternativa: use um público-alvo em lote ou público-alvo de borda para perfis existentes.
 
-      +++
++++

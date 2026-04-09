@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 50e47e83-4b9e-4088-aa09-dea76393c035
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 48%
@@ -38,7 +38,7 @@ A tabela abaixo lista alguns exemplos de definição de URI de superfície para 
 **Web e dispositivos móveis**
 
 | Tipo | URI | Descrição |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Web | `web://domain.com/path/page.html#element` | Representa um elemento individual em uma página específica de um domínio específico, onde um elemento pode ser um rótulo, como nos seguintes exemplos: hero_banner, top_nav, menu, rodapé etc. |
 | Aplicativo para iOS | `mobileapp://com.vendor.bundle/activity#element` | Representa um elemento específico em uma atividade do aplicativo nativo, como um botão ou outro elemento de exibição. |
 | Aplicativo para Android | `mobileapp://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo nativo. |
@@ -46,7 +46,7 @@ A tabela abaixo lista alguns exemplos de definição de URI de superfície para 
 **Outros tipos de dispositivo**
 
 | Tipo | URI | Descrição |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Desktop | `desktop://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo, como um botão, menu, banner hero, etc. |
 | Aplicativo de TV | `tvcd://com.vendor.bundle/#element` | Representa um elemento específico de uma Smart TV ou um aplicativo em um dispositivo conectado a uma TV: ID do pacote. |
 | Serviço | `service://servicename/#element` | Representa um processo do lado do servidor ou outra entidade manual. |
@@ -56,7 +56,7 @@ A tabela abaixo lista alguns exemplos de definição de URI de superfície para 
 **Superfícies curingas**
 
 | Tipo | URI | Descrição |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Web com curinga | `wildcard:web://domain.com/*#element` | Superfície curinga: representa um elemento individual em cada uma das páginas em um domínio específico. |
 | Web com curinga | `wildcard:web://*domain.com/*#element` | Superfície curinga: representa um elemento individual em cada uma das páginas em todos os domínios que terminam em “domain.com”. |
 

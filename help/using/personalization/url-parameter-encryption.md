@@ -10,7 +10,7 @@ level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: criptografia, URL, rastreamento, página de aterrissagem, registro de chaves, personalização, segurança, privacidade, sandbox
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: 300f57042131b64c1f51e890a3f14199f33c1419
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 3%
@@ -53,7 +53,8 @@ Antes de poder usar o auxiliar de criptografia de parâmetro de URL, é necessá
 <!--
 >[!IMPORTANT]
 >
->To access and manage keys, you you must have the **View Key Registry** and **Manage Key Registry** permissions granted. [Learn more](../administration/high-low-permissions.md)-->
+>To access and manage keys, you you must have the **View Key Registry** and **Manage Key Registry** permissions granted. [Learn more](../administration/high-low-permissions.md)
+-->
 
 1. Vá para **[!UICONTROL Administração]** > **[!UICONTROL Configurações]**.
 

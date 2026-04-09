@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 11%
@@ -118,7 +118,7 @@ Ao criar uma regra [que corresponda a várias páginas](#web-page-matching-rule)
     </thead>
     <tbody>
     <tr>
-        <td>Igual a</td>
+        <td>Igual</td>
         <td>Correspondência exata do caminho. </td>
         <td></td>
     </tr>
@@ -133,7 +133,7 @@ Ao criar uma regra [que corresponda a várias páginas](#web-page-matching-rule)
         <td></td>
     </tr>
     <tr>
-        <td>Qualquer uma</td>
+        <td>Qualquer</td>
         <td>Corresponde a todos os caminhos, útil ao direcionar todos os caminhos em um ou vários domínios.</td>
         <td></td>
     </tr>

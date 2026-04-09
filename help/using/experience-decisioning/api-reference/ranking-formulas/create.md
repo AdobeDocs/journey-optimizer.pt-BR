@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: 2eb3ca65-f9f2-4483-ac6a-7bd896b0e516
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 16%
@@ -23,7 +23,7 @@ Você pode criar uma fórmula de classificação fazendo uma solicitação POST 
 A tabela a seguir mostra os valores válidos que compõem os campos Content-Type no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
-| --------- | ----------- | 
+| --------- | ----------- |
 | Tipo de conteúdo | application/json |
 
 **Formato da API**

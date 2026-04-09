@@ -6,7 +6,8 @@ topic: Integrations
 role: User
 level: Intermediate
 version: Journey Orchestration
-source-git-commit: 74f8db8f71cbf51260868a93702a563b3c0d4a2d
+exl-id: 7bb72527-d4e1-49f8-b2c3-c943d65903f2
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -90,9 +91,11 @@ A Adobe recomenda os seguintes limites mínimos para garantir o desempenho efica
 * 1.000 impressões por oferta/item por semana
 * 100 eventos de conversão por oferta/item por semana
 
-<!--**Absolute minimums (per 30 days):**
+<!--
+**Absolute minimums (per 30 days):**
 * At least **250 impressions** per offer/item  
-* At least **25 conversion events** per offer/item-->
+* At least **25 conversion events** per offer/item
+-->
 
 Por padrão, o sistema não tentará criar modelos personalizados para ofertas/itens com menos de 1.000 impressões ou 50 eventos de conversão.
 
