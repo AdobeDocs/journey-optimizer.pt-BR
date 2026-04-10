@@ -6,9 +6,8 @@ description: Jornadas
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
 hide: true
-hidefromtoc: true
-source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ As jornadas no Adobe Journey Optimizer permitem criar jornadas personalizadas e 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução às jornadas do Adobe Journey Optimizer
 
@@ -32,7 +31,7 @@ Saiba como criar jornadas de clientes em tempo real em várias etapas usando as 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Guia abrangente para criar e gerenciar jornadas
 
@@ -42,7 +41,7 @@ Orientação passo a passo sobre design, teste, publicação e rastreamento de j
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Guia abrangente para gerenciar jornadas
 
@@ -52,7 +51,7 @@ Gerencie as jornadas do cliente com eficiência com ferramentas para filtragem, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Atividades no Adobe Journey Optimizer
 
@@ -62,7 +61,7 @@ Descubra como configurar e usar atividades como acionadores, etapas de decisão,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Criação de expressões no Adobe Journey Optimizer
 
@@ -72,7 +71,7 @@ Domine a criação de expressões para fluxos de trabalho dinâmicos, manipulaç
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Casos de uso prático do Adobe Journey Optimizer
 

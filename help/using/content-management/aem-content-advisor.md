@@ -6,9 +6,8 @@ description: Saiba como acessar e usar o Supervisor de conteúdo do Adobe Experi
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -75,7 +74,7 @@ A disponibilidade do Dynamic Media depende da configuração do repositório:
 
 * **Scene7**: disponível para ativos publicados (exceto Vídeo e PDF). [Saiba mais sobre os modificadores do Dynamic Media Scene7](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**: disponível para ativos aprovados (exceto Vídeo). [Saiba mais sobre o Dynamic Media com modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=pt-BR){target="_blank"}
+* **OpenAPI**: disponível para ativos aprovados (exceto Vídeo). [Saiba mais sobre o Dynamic Media com modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Scene7 e OpenAPI**: disponíveis quando ambas as configurações existem e o ativo atende aos critérios.
 

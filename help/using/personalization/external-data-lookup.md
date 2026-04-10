@@ -6,13 +6,12 @@ topic: Personalization
 role: Developer
 level: Experienced
 hide: true
-hidefromtoc: true
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -168,7 +167,7 @@ Por exemplo, você pode buscar e executar um loop pelos itens para retornar uma 
 ]
 ```
 
-## Resolução de problemas
+## Solução de problemas
 
 ### Tempos limite e tratamento de erros
 
@@ -210,7 +209,7 @@ Na Seção Edge Delivery do rastreamento de garantia como parte dos detalhes de 
 
 Você encontrará abaixo as Perguntas frequentes sobre o Auxiliar de pesquisa de dados externos.
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer a pergunta ou conecte-se à [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
 
 +++ Como passar um atributo contextual da solicitação como parâmetro para uma pesquisa de dados externa?
 

@@ -6,9 +6,8 @@ description: Lista
 redpen-status: CREATED_||_2025-08-11_20-15-54
 exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
 hide: true
-hidefromtoc: true
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ As funções de “Lista” do Adobe Journey Optimizer permitem manipular e refi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso da função “distinct” no Adobe Journey Optimizer
 
@@ -32,7 +31,7 @@ Saiba como usar a função “distinct” para desduplicar listas, retornando va
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “distinctWithNull” — Adobe Journey Optimizer
 
@@ -42,7 +41,7 @@ Entenda como usar a função “distinctWithNull” para recuperar valores ou ob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Usar a função “filter” no Adobe Journey Optimizer
 
@@ -52,7 +51,7 @@ Descubra como aplicar filtros a listas de objetos com base em valores de chaves 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Usar a função “getListItem” no Adobe Journey Optimizer
 
@@ -62,7 +61,7 @@ Saiba como recuperar um item de uma lista em um índice específico com a funç�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Usar a função “in” no Adobe Journey Optimizer
 
@@ -72,7 +71,7 @@ Descubra como verificar se um valor existe em uma lista com a função “in”.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “intersect” no Adobe Journey Optimizer
 

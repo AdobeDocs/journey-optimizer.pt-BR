@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 hide: true
-hidefromtoc: true
 keywords: solução de problemas, solução de problemas, jornada, verificação, erros
 exl-id: d255e9e4-301a-444a-86d3-97e0df4d3a49
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 29%
@@ -59,9 +58,9 @@ Explore as páginas abaixo para se aprofundar em tópicos específicos de soluç
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="Compreender códigos de erro comuns" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>Além disso, confira <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt" target="_blank">esta publicação do blog da Adobe Community</a> detalhando <strong>códigos de erro comuns</strong> e como resolvê-los de maneira eficaz.
+    <br>Além disso, confira <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">esta publicação do blog da Adobe Community</a> detalhando <strong>códigos de erro comuns</strong> e como resolvê-los de maneira eficaz.
     </div>
   </td>
 </tr>

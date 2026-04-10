@@ -8,10 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 hide: true
-hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 4%
@@ -46,7 +45,7 @@ O widget **[!UICONTROL Estatísticas]** da campanha detalha as principais inform
 
 >[!AVAILABILITY]
 >
->O recurso **Relatório de objetivos** está disponível no momento apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o representante da Adobe.
+>O recurso **Relatório de objetivos** está disponível no momento apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o(a) representante da Adobe.
 
 ![](assets/performance_report.gif)
 

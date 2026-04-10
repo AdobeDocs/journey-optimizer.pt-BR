@@ -6,9 +6,8 @@ description: Conversão
 redpen-status: CREATED_||_2025-08-11_20-13-12
 exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
 hide: true
-hidefromtoc: true
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ A seção de conversão do Adobe Journey Optimizer permite transformar dados em 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “toBool”
 
@@ -32,7 +31,7 @@ Converta vários tipos de dados em valores booleanos com a função “toBool”
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “toDateOnly”
 
@@ -42,7 +41,7 @@ Converta representações de data no tipo “dateOnly” com a função “toDat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “toDateTime”
 
@@ -52,7 +51,7 @@ Converta várias entradas em um valor de data/hora com a função “toDateTime�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “toDateTimeOnly”
 
@@ -62,7 +61,7 @@ Converta um valor em um formato de data/hora sem fuso horário com a função �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “toDecimal”
 
@@ -72,7 +71,7 @@ Converta vários tipos de dados em valores decimais com a função “toDecimal�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “toDuration”
 

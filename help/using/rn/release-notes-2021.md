@@ -2,16 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Notas de versão anteriores (2021)
-description: Notas de versão do Journey Optimizer 2021
+description: Notas de versão de 2021 do Journey Optimizer
 feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 # Notas de versão de 2021 {#release-notes-2021}
 
-Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lançado em 2021.
+Esta página lista todos os recursos e melhorias da versão de 2021 do [!DNL Journey Optimizer].
 
 ## Versão de novembro de 2021 {#november-2021-release}
 
@@ -80,13 +79,13 @@ Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lan
 
 Consulte também as [Notas de versão de outubro da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=pt-BR){target="_blank"} para mais alterações.
 
-### Melhorias
+### Aprimoramentos
 
 **Jornadas**
 
 * **Editor de expressão** - Como um usuário avançado, agora você pode usar funções para trabalhar com mapas. Esse recurso pode ser aproveitado com as listas de assinaturas. Como exemplo, em um público-alvo, agora é possível obter um endereço de email a partir de uma lista de assinaturas. [Saiba mais neste exemplo ](../building-journeys/message-to-subscribers-uc.md)
 
-* **Monitoramento** - Os eventos de etapa para jornadas ativas e modo de teste foram aprimorados. [Novos campos](../reports/sharing-field-list.md#servicevents-field) foram adicionados relacionados a trabalhos de exportação de perfil. Para obter uma melhor experiência do usuário, os campos de evento de etapa agora estão organizados em categorias diferentes. Todos os campos de eventos de etapa anteriores ainda estão disponíveis na categoria [stepEvents](../reports/sharing-legacy-fields.md).
+* **Monitoramento** - Os eventos de etapa para jornadas ativas e modo de teste foram aprimorados. [Novos campos](../reports/sharing-field-list.md#servicevents-field) foram adicionados relacionados a processos de exportação de perfil. Para obter uma melhor experiência do usuário, os campos de evento de etapa agora estão organizados em categorias diferentes. Todos os campos de eventos de etapa anteriores ainda estão disponíveis na categoria [stepEvents](../reports/sharing-legacy-fields.md).
 * **Acessibilidade** - As melhorias de acessibilidade foram implementadas nas jornadas.
 * **Coleções** - Matrizes de objetos que contêm subobjetos agora são compatíveis. [Leia mais](../building-journeys/collections.md)
 * **Listas** - As telas de listas foram aprimoradas para jornadas, eventos, ações e fontes de dados.
@@ -158,7 +157,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 </tbody>
 </table>
 
-### Melhorias
+### Aprimoramentos
 
 **Jornadas**
 
@@ -187,7 +186,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 <td>
 <p>Envie sua mensagem por push ou de email automaticamente na melhor hora para cada cliente com quem você interagir usando o Adobe Journey Optimizer. A Otimização do tempo de envio, viabilizada pelos serviços de IA da Adobe, prevê o melhor momento para enviar um email ou mensagem por push. Isso maximiza o engajamento com base no histórico disponível das taxas de abertura e de cliques.</p>
 <p>No momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.</p>
-<p>Para obter mais informações, consulte a <a href="../building-journeys/send-time-optimization.md"> documentação detalhada </a>.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/send-time-optimization.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -253,7 +252,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>A adição de endereços de email e domínios à lista de supressão agora está disponível na interface do usuário, seja um por um, seja em massa, por meio de upload de um arquivo CSV.</p>
+<p>A adição de endereços de email e domínios à lista de supressão agora está disponível na interface do usuário, um por um, ou no modo em massa por meio de um upload de arquivo CSV.</p>
 <p>Para obter mais informações, consulte a <a href="../configuration/manage-suppression-list.md#add-addresses-and-domains">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -265,7 +264,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 
 **Jornadas**
 
-* **Cabeçalhos dinâmicos** - Agora é possível transferir dados dinâmicos em parâmetros de cabeçalho HTTP. Esses parâmetros podem ser usados pelos sistemas de integração que recebem as chamadas HTTP da ação de jornada, por exemplo, carimbo de data e hora ou ID de rastreamento.   [Saiba mais](../action/about-custom-action-configuration.md#url-configuration)
+* **Cabeçalhos dinâmicos** - Agora é possível transferir dados dinâmicos em parâmetros de cabeçalho HTTP. Esses parâmetros podem ser usados pelos sistemas de integração que recebem as chamadas HTTP da ação de jornada, por exemplo, carimbo de data e hora ou ID de rastreamento. [Saiba mais](../action/about-custom-action-configuration.md#url-configuration)
 * **Caminhos dinâmicos de URL** - Agora é possível configurar caminhos dinâmicos de URL para ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#url-configuration)
 * A taxa de limitação geral para públicos-alvo de leitura foi alterada de 17.000 para 20.000 mensagens por segundo. [Saiba mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
@@ -288,7 +287,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 * **Lista de permissões** - A lista de permissões agora pode ser habilitada ou desabilitada em uma sandbox de não produção por meio de uma chamada de API. [Saiba mais](../configuration/allow-list.md#enable-allow-list)
 * **Navegação**: a lista de supressão, que estava acessível no menu **Administração > Canais > Configuração de email > Geral**, foi movida para o novo submenu **Lista de supressão**, que reúne todos os recursos relacionados para facilitar o acesso. [Saiba mais](../configuration/manage-suppression-list.md#access-suppression-list)
 
-**Gerenciamento de decisão**
+**Gestão de decisões**
 
 * A maneira de adicionar e configurar representações ao criar uma oferta foi atualizada para melhorar a experiência do usuário. Especificamente, a Biblioteca de ativos agora é exibida somente quando você define o conteúdo do tipo imagem para uma representação. [Saiba mais](../offers/offer-library/creating-personalized-offers.md#representations)
 
@@ -316,7 +315,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 <td>
 <p>Enriqueça as suas experiências com dados de referência carregados no Journey Optimizer. Os exemplos incluem pesquisar metadados em uma ID de reserva em um evento de experiência ou encontrar informações do produto de uma SKU em um evento de experiência para uso na tela. </p>
 <p>Agora você pode aproveitar os relacionamentos entre esquemas para usar um conjunto de dados como uma tabela de pesquisa para outro. Em seguida, você pode aproveitar todos os campos das tabelas vinculadas ao configurar um evento unitário, ao usar condições em uma jornada, na personalização da mensagem e na personalização da ação customizada.</p>
-<p>Para obter mais informações, consulte a <a href="../event/experience-event-schema.md#leverage_schema_relationships"> documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../event/experience-event-schema.md#leverage_schema_relationships">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
