@@ -9,10 +9,10 @@ role: User, Developer
 level: Experienced
 keywords: sandbox, jornada, cópia, ambiente
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 5f0fd2770004570efe28778e5395a7254fcb8a4b
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 4%
+source-wordcount: '1757'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 Você pode copiar objetos como jornadas, ações personalizadas, modelos de conteúdo ou fragmentos em várias sandboxes usando recursos de exportação e importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote precisam ser da mesma sandbox.
 
-Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Journey Optimizer. Para obter mais informações sobre o recurso propriamente dito, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=pt-BR#abobe-journey-optimizer-objects){target="_blank"} do Adobe Experience Platform.
+Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Journey Optimizer. Para obter mais informações sobre o recurso propriamente dito, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"} do Adobe Experience Platform.
 
 >[!NOTE]
 >
@@ -50,11 +50,11 @@ O Journey Optimizer permite exportar jornadas, ações personalizadas, modelos d
 
 +++ Jornadas
 
-* **Dependências copiadas** - Ao exportar uma jornada, além da própria jornada, o Journey Optimizer jornada também copia a maioria dos objetos dos quais ela depende: públicos-alvo, ações personalizadas, esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=pt-BR#abobe-journey-optimizer-objects){target="_blank"} do Adobe Experience Platform.
+* **Dependências copiadas** - Ao exportar uma jornada, além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais ela depende: públicos-alvo, ações personalizadas, esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"} do Adobe Experience Platform.
 
 * **Validação manual recomendada** - Não garantimos que todos os elementos vinculados sejam copiados para a sandbox de destino. É altamente recomendável executar uma verificação completa, por exemplo, antes de publicar uma jornada. Isso permite identificar qualquer objeto ausente em potencial.
 
-* **Exclusividade e modo de rascunho** - Os objetos copiados na sandbox de destino são exclusivos e não há risco de substituir elementos existentes. A jornada jornada e qualquer mensagem dentro dela é trazida no modo de rascunho. Isso permite executar uma validação completa antes da publicação na sandbox de destino.
+* **Exclusividade e modo de rascunho** - Os objetos copiados na sandbox de destino são exclusivos e não há risco de substituir elementos existentes. A jornada e qualquer mensagem dentro dela é trazida no modo de rascunho. Isso permite executar uma validação completa antes da publicação na sandbox de destino.
 
 * **Metadados** - O processo de cópia copia apenas os metadados sobre a jornada e os objetos nessa Jornada. Nenhum dado de perfil ou conjunto de dados está sendo copiado como parte desse processo.
 
@@ -72,7 +72,11 @@ O Journey Optimizer permite exportar jornadas, ações personalizadas, modelos d
 
 +++ Campanhas
 
-As campanhas são copiadas junto com todos os itens relacionados ao perfil, público-alvo, esquema, mensagens em linha e objetos dependentes. No entanto, os seguintes itens **não** foram copiados:
+>[!NOTE]
+>
+>As informações de cópia da sandbox da campanha nesta subseção se aplicam às campanhas **Ação** e às campanhas **acionadas por API**. Não há suporte para campanhas **Orquestradas** para cópia entre sandboxes.
+
+Para campanhas **acionadas por ação** e **API**, as campanhas são copiadas junto com todos os itens relacionados ao perfil, público, esquema, mensagens embutidas e objetos dependentes. No entanto, os seguintes itens **não** foram copiados:
 
 * Variantes multilíngues e configurações de idioma,
 * Regras comerciais,
