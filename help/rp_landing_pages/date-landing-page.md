@@ -21,7 +21,7 @@ As funções de data do Adobe Journey Optimizer permitem que você trabalhe de f
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Referência da função “currentTimeInMillis”
 
@@ -31,7 +31,7 @@ Saiba como usar a função “currentTimeInMillis” para recuperar a hora atual
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Função “inLastDays”
 
@@ -41,7 +41,7 @@ Entenda a função “inLastDays”, que verifica se uma determinada data está 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Usar a função “inLastHours”
 
@@ -51,7 +51,7 @@ Confira a função “inLastHours”, usada para determinar se uma data/hora se 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Usar a função “inLastMonths”
 
@@ -61,7 +61,7 @@ Verifique se uma data está dentro de um intervalo de meses especificado com a f
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Usar a função “inLastYears”
 
@@ -71,7 +71,7 @@ Saiba como usar a função “inLastYears” para avaliar se uma data está dent
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Função “inNextDays”
 
