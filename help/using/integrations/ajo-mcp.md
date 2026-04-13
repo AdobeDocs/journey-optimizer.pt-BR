@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Trabalhar com assistentes de IA via MCP
-description: Saiba como conectar o Adobe Journey Optimizer aos assistentes de IA usando o servidor MCP (Protocolo de contexto de modelo)
+description: Saiba como conectar o Adobe Journey Optimizer aos assistentes de IA usando o servidor MCP
 feature: Integrations
 topic: Content Management, Artificial Intelligence
 badge: label="Disponibilidade limitada" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 019a4d601ecd5f6d6127ab8616de0b3ee0f77a9c
+source-git-commit: 5eca5b3794731f030427fa426cb09e705d491b6f
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -91,3 +91,4 @@ Não. O servidor MCP foi projetado para personas técnicas e de marketing. Os pr
 
 Ao enviar um prompt, o assistente de IA pode enviar o contexto relevante (incluindo os dados [!DNL Adobe Journey Optimizer] retornados pelo servidor MCP) ao seu modelo para processamento. Analise as políticas de privacidade e manuseio de dados do seu provedor do assistente de IA antes de se conectar aos dados de produção.
 +++
+
