@@ -56,4 +56,4 @@ Saiba mais sobre o [fluxo de trabalho completo de criação de campanha com guia
 
 Saiba como criar uma campanha e acioná-la a partir de um sistema externo com base em interações do usuário, usando a API REST de execução de mensagem interativa.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452730?captions=por_br&quality=12)

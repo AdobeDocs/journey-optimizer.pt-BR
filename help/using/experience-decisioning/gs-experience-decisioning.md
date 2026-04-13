@@ -105,4 +105,4 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
 Saiba mais sobre os recursos de decisão no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475868?captions=por_br&quality=12)

@@ -119,4 +119,4 @@ Além disso, você pode usar o [Serviço de consulta do Adobe Experience Platfor
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447620?captions=por_br&quality=12)

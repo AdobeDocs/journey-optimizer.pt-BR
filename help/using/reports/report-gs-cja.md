@@ -64,4 +64,4 @@ O acesso a esses recursos de relatórios depende do contexto e das áreas do pro
 
 O vídeo abaixo mostra como usar os relatórios aprimorados do Journey Optimizer com o Customer Journey Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430413)
+>[!VIDEO](https://video.tv.adobe.com/v/3443156?captions=por_br)
