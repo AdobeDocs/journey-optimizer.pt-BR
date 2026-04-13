@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
+source-git-commit: 908d418e88813511d25346bae721e93da2cf1336
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '806'
 ht-degree: 2%
 
 ---
@@ -66,13 +66,17 @@ Essas etapas abordam a geração de expressões de personalização do zero. Par
 
 1. Depois de gerar uma expressão, clique em **[!UICONTROL Mostrar visualizações para perfis de amostra]** para ver como a expressão é avaliada com dados de amostra e para exibir a carga associada como JSON. Para essa verificação, o assistente gera um conjunto limitado de perfis de amostra sintéticos; eles não são salvos nem armazenados em sua organização.
 
-   Se você precisar de mais perfis de exemplo, digite **Visualizar** na discussão com o assistente para que ele possa gerar perfis de visualização adicionais.
+   Se você precisar de perfis de exemplo personalizados ou adicionais, descreva o que precisa na discussão com o assistente e inclua a palavra-chave **visualizar** no prompt para que ele possa gerar os perfis de visualização corretos para sua verificação.
 
    ![](assets/ai-perso-preview-button.png)
 
    +++Visualizar exemplo
 
    ![](assets/ai-perso-preview.png)
+
+   >[!NOTE]
+   >
+   >As visualizações adicionais são para verificação pontual. O assistente é ajustado para gerar aproximadamente um a cinco perfis, solicitando um número muito grande, que pode causar falha na solicitação.
 
    +++
 
