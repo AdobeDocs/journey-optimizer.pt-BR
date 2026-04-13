@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6645910a92c963ab99e786040cb4323789a95a68
+source-git-commit: a949dc4332e6f49ed0e68507a55bf27264002a84
 workflow-type: tm+mt
-source-wordcount: '3200'
+source-wordcount: '3205'
 ht-degree: 91%
 
 ---
@@ -469,7 +469,7 @@ ht-degree: 91%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos de email](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
@@ -514,6 +514,7 @@ ht-degree: 91%
       + [Gerar texto com IA](using/content-management/generative-text.md)
       + [Gere imagens com IA](using/content-management/generative-image.md)
       + [Experimento de conteúdo com IA](using/content-management/generative-experimentation.md)
+      + [Assistente de IA para expressões Personalization](using/content-management/generative-personalization-expressions.md)
       + [Casos de uso do Assistente de IA](using/content-management/generative-uc.md)
       + Marcas {#brands}
          + [Marcas](/help/rp_landing_pages/brands-landing-page.md)
