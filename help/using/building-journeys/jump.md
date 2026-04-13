@@ -94,7 +94,7 @@ Crie cada fase como uma jornada separada no Journey Optimizer e use as atividade
 
 >[!TIP]
 >
->Para obter uma apresentação detalhada dessa abordagem, consulte [Práticas recomendadas para jornadas avançadas no Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Para obter uma apresentação detalhada dessa abordagem, consulte [Práticas recomendadas para jornadas avançadas no Journey Optimizer](https://experienceleague.adobe.com/pt-br/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 ## Configuração da atividade Jump {#jump-configure}
 
