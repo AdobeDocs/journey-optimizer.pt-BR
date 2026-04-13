@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: integração, fornecedor, terceiros
-source-git-commit: 3733c9ab401f85b22e1d6e07dbf4db535ff8a96d
+source-git-commit: f3e3a2d86a03a442494ea712509eb2636f851968
 workflow-type: tm+mt
 source-wordcount: '9157'
 ht-degree: 5%
@@ -1154,7 +1154,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). As chamadas de entrega geralmente são **POST** com um corpo JSON. Configure o OAuth por [Autenticação de destino](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/api/configure-authentication){target="_blank"}, cole uma resposta de exemplo, mapeie campos e teste no volume esperado.
+1. Siga [Trabalhar com integrações](external-sources.md). As chamadas de entrega geralmente são **POST** com um corpo JSON. Configure o OAuth por [Autenticação de destino](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, cole uma resposta de exemplo, mapeie campos e teste no volume esperado.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -1209,7 +1209,7 @@ A tabela abaixo lista os valores de exemplo para essa solicitação de integraç
 
 **Autenticação**
 
-Consulte [Configuração de autenticação do Target](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/api/configure-authentication) e adicione JSON à Carga.
+Consulte [Configuração de autenticação do Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) e adicione JSON à Carga.
 
 **Solicitar carga**
 
