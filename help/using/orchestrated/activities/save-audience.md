@@ -5,10 +5,10 @@ title: Usar a atividade Salvar público-alvo
 description: Saiba como usar a atividade Salvar público em uma campanha orquestrada
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 5b60213ecba97e9539ea817ab00ee1c3c8dace50
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 21%
+source-wordcount: '596'
+ht-degree: 20%
 
 ---
 
@@ -54,6 +54,10 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Salvar público-alvo
 1. Finalize a configuração salvando e publicando a campanha Orquestrada. Isso gerará e armazenará o seu público-alvo.
 
 1. Publique a campanha para o público que será criado ou substituído, pois a atividade **[!UICONTROL Salvar público]** não será executada enquanto a campanha estiver no **[!UICONTROL modo Rascunho]**.
+
+>[!NOTE]
+>
+>No momento da publicação, as atividades **[!UICONTROL Salvar público-alvo]** sempre são executadas antes de qualquer atividade de mensagem no fluxo de trabalho. O shell de público-alvo é criado e os perfis começam a assimilar no Portal de público-alvo antes que qualquer atividade de canal inicie o processamento. [Saiba mais sobre a sequência de execução em tempo de publicação](../start-monitor-campaigns.md#publication-sequence)
 
 O conteúdo do público-alvo salvo ficará disponível na exibição detalhada do público-alvo, que pode ser acessada no menu **[!UICONTROL Públicos-alvo]** ou pode ser selecionado ao direcionar um público-alvo, por exemplo, com uma atividade **[!UICONTROL Ler público-alvo]**.
 
