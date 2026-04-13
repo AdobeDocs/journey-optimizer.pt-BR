@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Criar inserções
+title: Criar posicionamentos
 description: Saiba como criar inserções para suas ofertas
 badge: label="Legado" type="Informative"
 feature: Decision Management
@@ -17,7 +17,7 @@ ht-degree: 33%
 
 ---
 
-# Criar inserções {#create-placements}
+# Criar posicionamentos {#create-placements}
 
 >[!TIP]
 >

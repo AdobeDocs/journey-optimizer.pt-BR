@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 9903089f4a97ee9e427873e95fd1f0bac73b3542
 workflow-type: tm+mt
-source-wordcount: '3194'
-ht-degree: 94%
+source-wordcount: '3205'
+ht-degree: 91%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 94%
 + [Documentação do Journey Optimizer](ajo-home.md)
 + Novidades {#whats-new}
    + [Ciclo da lançamento](using/rn/releases.md)
-   + [Notas de versão antecipadas](using/rn/e-release-notes.md)
+   + {hide-from-toc}[Notas de versão anteriores](using/rn/e-release-notes.md)
    + [Notas de versão mais recentes](using/rn/release-notes.md)
    + Notas de versão anteriores {#previous-rn-new}
-      + [Notas de versão anteriores](/help/rp_landing_pages/previous-rn-new-landing-page.md)
+      + {hide-from-toc}[Notas de versão anteriores](/help/rp_landing_pages/previous-rn-new-landing-page.md)
       + [2026](using/rn/release-notes-2026.md)
       + [2025](using/rn/release-notes-2025.md)
       + [2024](using/rn/release-notes-2024.md)
-      + [2023](using/rn/release-notes-2023.md)
-      + [2022](using/rn/release-notes-2022.md)
-      + [2021](using/rn/release-notes-2021.md)
+      + {hide-from-toc}[2023](using/rn/release-notes-2023.md)
+      + {hide-from-toc}[2022](using/rn/release-notes-2022.md)
+      + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [Atualizações na documentação](using/rn/documentation-updates.md)
-   + [Tela de jornada aprimorada](using/rn/new-canvas.md)
+   + {hide-from-toc}[Tela de jornada aprimorada](using/rn/new-canvas.md)
 + Introdução {#get-started}
    + [Introdução](/help/rp_landing_pages/get-started-landing-page.md)
    + Noções básicas {#essentials}
@@ -48,11 +48,11 @@ ht-degree: 94%
       + [Pesquise, filtre e organize](using/start/search-filter-categorize.md)
       + [IA e recursos inteligentes](using/start/ai-features.md)
       + [Acessibilidade](using/start/accessibility.md)
-      + [Jornadas vs campanhas](using/start/journeys-vs-campaigns.md)
+      + {hide-from-toc}[Jornadas vs Campanhas](using/start/journeys-vs-campaigns.md)
 + Jornadas {#orchestrate-journeys}
    + [Introdução às jornadas](using/building-journeys/journey.md)
-   + [Guia de introdução à jornada](using/building-journeys/journey-get-started.md)
-   + [Tipos de jornada e guia de seleção](using/building-journeys/journey-types-selection.md)
+   + {hide-from-toc}[Guia de Introdução ao Jornada](using/building-journeys/journey-get-started.md)
+   + {hide-from-toc}[tipos de Jornada e guia de seleção](using/building-journeys/journey-types-selection.md)
    + [Perguntas frequentes do Journey Orchestration](using/building-journeys/journey-faq.md)
    + Criar uma jornada {#create-journey}
       + [Criar uma jornada](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -111,7 +111,7 @@ ht-degree: 94%
          + [Funções de gerenciamento de coleções](using/building-journeys/expression/collection-management-functions.md)
          + [Operadores](using/building-journeys/expression/operators.md)
          + [Propriedades da jornada](using/building-journeys/expression/journey-properties.md)
-         + [Exemplos](using/building-journeys/expression/advanced-editor-use-cases.md)
+         + {hide-from-toc}[Exemplos](using/building-journeys/expression/advanced-editor-use-cases.md)
       + Funções {#main-functions-journey}
          + [Funções principais](using/building-journeys/expression/functions.md)
          + [Função inAudience](using/building-journeys/functions/functioninaudience.md)
@@ -131,16 +131,16 @@ ht-degree: 94%
       + [Envie uma mensagem aos assinantes](using/building-journeys/message-to-subscribers-uc.md)
       + [Enviar emails apenas em dias úteis](using/building-journeys/weekday-email-uc.md)
       + [Passar coleções para parâmetros de ação personalizada](using/building-journeys/collections.md)
-      + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
+      + {hide-from-toc}[Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
       + [Usar ações personalizadas para gravar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
 + Desafios de fidelidade {#loyalty-challenges}
-   + [Introdução aos desafios de fidelidade](using/loyalty-challenges/get-started.md)
-   + [Acessar e gerenciar desafios e tarefas](using/loyalty-challenges/access-loyalty-challenges.md)
-   + [Criar desafios](using/loyalty-challenges/create-challenges.md)
-   + [Criar tarefas](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[Introdução aos Desafios de Fidelidade](using/loyalty-challenges/get-started.md)
+   + {hide-from-toc}[Acessar e gerenciar desafios e tarefas](using/loyalty-challenges/access-loyalty-challenges.md)
+   + {hide-from-toc}[Criar desafios](using/loyalty-challenges/create-challenges.md)
+   + {hide-from-toc}[Criar tarefas](using/loyalty-challenges/create-tasks.md)
 + Campanhas {#campaigns}
-   + [Campanhas](/help/rp_landing_pages/campaigns-landing-page.md)
+   + {hide-from-toc}[Campanhas](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
    + [Acessar e gerenciar campanhas](using/campaigns/manage-campaigns.md)
    + Campanhas de ação {#action-campaigns}
@@ -228,7 +228,7 @@ ht-degree: 94%
       + [Definir períodos de silêncio](using/conflict-prioritization/quiet-hours.md)
    + Arbitragem de jornada {#journey-arbitration}
       + [Usar fórmulas para classificar jornadas](using/conflict-prioritization/journey-ranking-formulas.md)
-      + [Usar modelos de IA para classificar jornadas](using/conflict-prioritization/journey-ai-models.md)
+      + {hide-from-toc}[Usar modelos de IA para classificar jornadas](using/conflict-prioritization/journey-ai-models.md)
 + Testar e aprovar {#test}
    + [Testar, validar e aprovar](/help/rp_landing_pages/test-landing-page.md)
    + Visualizar e testar conteúdo {#preview-test}
@@ -239,7 +239,7 @@ ht-degree: 94%
       + [Enviar provas usando dados de perfil de teste](using/content-management/proofs.md)
       + [Testar o e-mail rendering](using/content-management/rendering.md)
       + [Simular variações de conteúdo](using/test-approve/simulate-sample-input.md)
-      + [Geração automática de variantes de conteúdo](using/test-approve/simulate-sample-input-generated.md)
+      + {hide-from-toc}[Geração automática de variantes de conteúdo](using/test-approve/simulate-sample-input-generated.md)
       + [Relatório de spam de email](using/content-management/spam-report.md)
    + Aprovar jornadas e campanhas {#approve}
       + [Aprovar jornadas e campanhas](/help/rp_landing_pages/approve-landing-page.md)
@@ -272,13 +272,14 @@ ht-degree: 94%
       + [Criar um email](using/email/create-email.md)
       + Projetar conteúdo de email {#design-email}
          + [Projetar conteúdo de email](/help/rp_landing_pages/design-email-landing-page.md)
-         + [Projetar conteúdo da mensagem](using/start/message-content-design.md)
+         + {hide-from-toc}[Criar conteúdo da mensagem](using/start/message-content-design.md)
          + [Introdução ao design de email](using/email/get-started-email-design.md)
          + Começar a criar conteúdo {#start-creating-content}
             + [Começar a criar conteúdo](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [Crie um conteúdo do zero](using/email/content-from-scratch.md)
             + [Importar seu conteúdo](using/email/existing-content.md)
             + [Programar seu próprio conteúdo](using/email/code-content.md)
+            + [Editar com o editor avançado do HTML](using/email/email-expert-mode.md)
             + [Usar modelos de email](using/email/use-email-templates.md)
             + [Utilizar temas de email](using/email/apply-email-themes.md)
             + [Anexar arquivos PDF a emails](using/email/pdf-attachments.md)
@@ -433,7 +434,7 @@ ht-degree: 94%
       + Lista de funções auxiliares {#functions}
          + [Lista de funções auxiliares](/help/rp_landing_pages/functions-landing-page.md)
          + [Introdução a funções auxiliares](using/personalization/functions/functions.md)
-         + [Auxiliar de pesquisa de dados externo](using/personalization/external-data-lookup.md)
+         + {hide-from-toc}[Auxiliar de Pesquisa de Dados Externos](using/personalization/external-data-lookup.md)
          + [Funções de agregação](using/personalization/functions/aggregation.md)
          + [Funções aritméticas](using/personalization/functions/arithmetic-functions.md)
          + [Matrizes e funções de lista](using/personalization/functions/arrays-list.md)
@@ -473,7 +474,6 @@ ht-degree: 94%
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos de email](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
-      + [Editar modelos de email no modo especialista](using/content-management/email-template-expert-mode.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
       + [Usar modelos de conteúdo](using/content-management/use-content-templates.md)
    + Fragmentos de conteúdo reutilizáveis {#fragments}
@@ -483,7 +483,7 @@ ht-degree: 94%
       + [Salvar conteúdo como fragmento](using/content-management/save-fragments.md)
       + [Fragmentos personalizáveis](using/content-management/customizable-fragments.md)
       + [Gerenciar fragmentos](using/content-management/manage-fragments.md)
-      + [Adicionar atributos contextuais aos fragmentos publicados](using/content-management/manage-fragments-contextual-attributes.md)
+      + {hide-from-toc}[Adicionar atributos contextuais aos fragmentos publicados](using/content-management/manage-fragments-contextual-attributes.md)
    + Conteúdo dinâmico {#dynamic}
       + [Conteúdo dinâmico](/help/rp_landing_pages/dynamic-landing-page.md)
       + [Introdução ao conteúdo dinâmico](using/personalization/get-started-dynamic-content.md)
@@ -495,16 +495,17 @@ ht-degree: 94%
       + [Trabalho com o Experience Manager Assets](using/integrations/assets.md)
       + [Trabalho com o Adobe Stock](using/integrations/stock.md)
       + [Trabalhar com o Adobe Express](using/integrations/express.md)
-      + [Trabalhar com modelos do Experience Manager](using/integrations/aem-templates.md)
+      + {hide-from-toc}[Trabalhar com modelos do Experience Manager](using/integrations/aem-templates.md)
       + Fragmentos de conteúdo do Experience Manager {#aem}
          + [Introdução aos fragmentos de conteúdo do Experience Manager](using/integrations/aem-fragments-gs.md)
          + [Trabalhar com fragmentos de conteúdo do Experience Manager](using/integrations/aem-fragments.md)
          + [Considerações e solução de problemas](using/integrations/aem-fragments-limitations.md)
-      + [Trabalhar com o Supervisor de conteúdo do Experience Manager](using/content-management/aem-content-advisor.md)
-      + [Inserir timer da contagem regressiva](using/integrations/countdown.md)
+      + {hide-from-toc}[Trabalhar com o Supervisor de Conteúdo do Experience Manager](using/content-management/aem-content-advisor.md)
+      + {hide-from-toc}[Inserir timer da contagem regressiva](using/integrations/countdown.md)
       + [Trabalhar com o Dynamic Media](using/integrations/aem-dynamic.md)
       + [Trabalhar com o GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + [Trabalhar com integrações](using/integrations/external-sources.md)
+      + {hide-from-toc}[Trabalhar com integrações](using/integrations/external-sources.md)
+      + {hide-from-toc}[Trabalhar com assistentes de IA via MCP](using/integrations/ajo-mcp.md)
    + Assistente de IA para geração de conteúdo {#ai-assistant}
       + [Assistente de IA para geração de conteúdo](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Introdução ao Assistente de IA](using/content-management/gs-generative.md)
@@ -513,6 +514,7 @@ ht-degree: 94%
       + [Gerar texto com IA](using/content-management/generative-text.md)
       + [Gere imagens com IA](using/content-management/generative-image.md)
       + [Experimento de conteúdo com IA](using/content-management/generative-experimentation.md)
+      + [Assistente de IA para expressões Personalization](using/content-management/generative-personalization-expressions.md)
       + [Casos de uso do Assistente de IA](using/content-management/generative-uc.md)
       + Marcas {#brands}
          + [Marcas](/help/rp_landing_pages/brands-landing-page.md)
@@ -589,7 +591,7 @@ ht-degree: 94%
          + [Relatório de campanha por email](using/reports/campaign-global-report-cja-email.md)
          + [Relatório de campanha de experimentação](using/reports/campaign-global-report-cja-experimentation.md)
          + [Relatório de campanha no aplicativo](using/reports/campaign-global-report-cja-inapp.md)
-         + [Relatório de campanha de atividade ao vivo](using/reports/campaign-global-report-cja-activity.md)
+         + {hide-from-toc}[Relatório de campanha de atividades ao vivo](using/reports/campaign-global-report-cja-activity.md)
          + [Relatório de campanha com notificação por push](using/reports/campaign-global-report-cja-push.md)
          + [Relatório de campanha por SMS](using/reports/campaign-global-report-cja-sms.md)
          + [Relatório de campanha na web](using/reports/campaign-global-report-cja-web.md)
@@ -633,7 +635,7 @@ ht-degree: 94%
          + [Benefícios da migração para o Decisioning](using/experience-decisioning/migrate-to-decisioning.md)
          + [API de migração de decisão](using/experience-decisioning/decisioning-migration-api.md)
       + Referência da API {#experience-decisioning-api-reference}
-         + [Referência da API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
+         + {hide-from-toc}[Referência da API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + [Introdução às APIs de tomada de decisão](using/experience-decisioning/api-reference/getting-started.md)
          + Itens de decisão {#decision-items}
             + [Criar itens de decisão](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -701,8 +703,8 @@ ht-degree: 94%
       + [Relatório de decisões](using/experience-decisioning/cja-reporting.md)
       + [Caso de uso de decisão](using/experience-decisioning/experience-decisioning-uc.md)
       + Coletar dados de eventos {#experience-decisioning-collect-event-data}
-         + [Introdução à coleta de dados](using/experience-decisioning/data-collection/data-collection.md)
-         + [Criar um conjunto de dados para coletar eventos](using/experience-decisioning/data-collection/create-dataset.md)
+         + {hide-from-toc}[Introdução à coleção de dados](using/experience-decisioning/data-collection/data-collection.md)
+         + {hide-from-toc}[Criar um conjunto de dados para coletar eventos](using/experience-decisioning/data-collection/create-dataset.md)
          + [Configurar captura de eventos](using/experience-decisioning/data-collection/schema-requirement.md)
    + Gestão de decisões {#offer-decisioning}
       + [Gestão de decisões](/help/rp_landing_pages/offer-decisioning-landing-page.md)
@@ -900,16 +902,16 @@ ht-degree: 94%
       + [Criar campanhas de aquecimento de IP](using/configuration/ip-warmup-campaign.md)
       + [Criar um plano de aquecimento de IP](using/configuration/ip-warmup-plan.md)
       + [Executar o plano de aquecimento de IP](using/configuration/ip-warmup-execution.md)
-      + [Arquivos de plano de aquecimento de IP](using/configuration/ip-warmup-plan-files.md)
+      + {hide-from-toc}[Arquivos do plano de aquecimento de IP](using/configuration/ip-warmup-plan-files.md)
    + Monitorar endereços de email {#monitor-reputation}
       + [Monitorar endereços de email](/help/rp_landing_pages/monitor-reputation-landing-page.md)
-      + [Tipos de erro de email](using/configuration/email-error-types.md)
+      + {hide-from-toc}[Tipos de erro de email](using/configuration/email-error-types.md)
       + [Lista de supressão](using/configuration/manage-suppression-list.md)
       + [Tentativas](using/configuration/retries.md)
       + [Lista de permissões](using/configuration/allow-list.md)
    + [Usar listas de seeds](using/configuration/seed-lists.md)
    + [Suporte para arquivamento de email](using/configuration/archiving-support.md)
-   + [Adicionar um campo CC aos emails](using/configuration/cc-email-field.md)
+   + {hide-from-toc}[Adicionar um campo CC aos emails](using/configuration/cc-email-field.md)
    + [Gerenciamento de campos de execução](using/configuration/primary-email-addresses.md)
    + [Criar webhooks de feedback](using/configuration/feedback-webhooks.md)
 + Configuração de jornada {#configure-journeys}

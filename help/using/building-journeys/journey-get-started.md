@@ -7,10 +7,9 @@ feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 keywords: jornada, orquestração, introdução, integração, recursos
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 50%
@@ -184,7 +183,7 @@ Encontre respostas para perguntas frequentes sobre a criação de jornadas, a so
 
 Orientação passo a passo sobre design, teste, publicação e rastreamento de jornadas do cliente para criar campanhas onicanais personalizadas.
 
-[Explorar criação de jornada](../../rp_landing_pages/create-journey-landing-page.md) | [Saiba mais sobre o gerenciamento de jornadas](../../rp_landing_pages/manage-journey-landing-page.md) | [Jornada etapas do fluxo de trabalho](journey.md#workflow)
+[Explorar a criação de jornadas](../../rp_landing_pages/create-journey-landing-page.md) | [Saiba mais sobre o gerenciamento de jornadas](../../rp_landing_pages/manage-journey-landing-page.md) | [etapas do fluxo de trabalho de Jornadas](journey.md#workflow)
 :::
 
 :::

@@ -9,9 +9,9 @@ role: User
 level: Intermediate, Experienced
 keywords: código, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 23%
 
 ---
@@ -26,7 +26,7 @@ Você deve ter habilidades com o HTML e, depois de escolher esse modo, permanece
 
 >[!NOTE]
 >
->**[!UICONTROL Codifique o seu próprio]** não é o mesmo que o editor avançado do HTML em modelos de conteúdo. O editor avançado do HTML permite alternar entre a visualização do HTML e a visualização visual (desktop) a qualquer momento, não o editor de código. [Saiba mais sobre o editor avançado do HTML](../content-management/email-template-expert-mode.md).
+>**[!UICONTROL O código que você mesmo]** possui não é o mesmo que o editor avançado do HTML no Designer de email. O editor avançado do HTML permite alternar entre a visualização do HTML e a visualização visual (desktop) a qualquer momento, não o editor de código. [Saiba mais sobre o editor avançado do HTML](email-expert-mode.md).
 
 ## Usar o editor de código {#use-code-editor}
 

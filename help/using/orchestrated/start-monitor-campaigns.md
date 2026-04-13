@@ -6,10 +6,10 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 5b60213ecba97e9539ea817ab00ee1c3c8dace50
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 30%
+source-wordcount: '1588'
+ht-degree: 22%
 
 ---
 
@@ -22,6 +22,21 @@ ht-degree: 30%
 >abstract="Para iniciar a campanha, você deve publicá-la. Certifique-se de que todos os erros tenham sido resolvidos antes da publicação."
 
 Depois de criar sua campanha orquestrada e projetar as tarefas a serem executadas na tela, você pode publicá-la e monitorar como ela está sendo executada. Você também poderá executar a campanha no modo de teste para verificar sua execução e o resultado das diferentes atividades.
+
+## Principais características do ciclo de vida da campanha {#lifecycle}
+
+As campanhas orquestradas se movem por um conjunto definido de estados. Os principais estágios no fluxo de trabalho de publicação são:
+
+| Status | O que significa |
+|---|---|
+| **Rascunho** | A campanha está sendo criada e testada — ainda não está ativa. |
+| **Ao vivo** | A campanha foi publicada e está em execução. |
+| **Fechado** | A campanha recorrente é fechada para novas entradas, mas os perfis ativos continuam até que todas as atividades sejam concluídas. |
+| **Concluído** | A execução da campanha foi concluída. |
+
+>[!NOTE]
+>
+>Para todas as ações de status (incluindo Scheduled, Stopped, Archived) e disponíveis em cada estágio, consulte [Entendendo os status da campanha](../campaigns/manage-campaigns.md#statuses).
 
 ## Testar a sua campanha antes de publicar {#test}
 
@@ -52,7 +67,13 @@ Você também pode identificar rapidamente as atividades com falhas, usando os [
 
 Se você tiver adicionado atividades de canal na tela, poderá visualizar e testar o conteúdo de suas mensagens usando o botão **[!UICONTROL Simular Conteúdo]**. [Saiba como trabalhar com atividades de canal e simular conteúdo](activities/channels.md#simulate-content-test-profiles).
 
-Depois de validada, a campanha pode ser publicada.
+>[!TIP]
+>
+>Antes de clicar em **[!UICONTROL Publicar]**, confirme o seguinte:
+>* A campanha foi executada com êxito no modo de teste sem erros nos [logs](#logs-tasks).
+>* O conteúdo da mensagem foi visualizado usando **[!UICONTROL Simular Conteúdo]**.
+>* O [agendamento está configurado](create-orchestrated-campaign.md#schedule) se esta for uma campanha agendada.
+>* Você analisou o comportamento [enviar confirmação](#confirm-sending) — para campanhas não recorrentes, nenhuma mensagem é enviada até que você aprove explicitamente o envio após a publicação.
 
 ## Publicar a campanha {#publish}
 
@@ -68,6 +89,24 @@ O fluxo visual é reiniciado, e perfis reais começam a fluir pela jornada em te
 
 Se a ação de publicação falhar (por exemplo, devido à falta de conteúdo da mensagem), você será alertado e deverá corrigir o problema antes de tentar novamente. Após a publicação bem-sucedida, a campanha começa a ser executada (imediatamente ou de acordo com o agendamento), muda do status de **Rascunho** para o status **Online** e torna-se &quot;Somente leitura&quot;.
 
+>[!IMPORTANT]
+>
+>Para campanhas não recorrentes, a entrega de mensagens é pausada após a publicação até que você confirme explicitamente o envio no painel de propriedades da atividade de canal. A campanha será exibida como **Online**, mas nenhuma mensagem será enviada até ser confirmada. [Saiba mais](#confirm-sending)
+
+### Sequência de execução no tempo de publicação {#publication-sequence}
+
+Ao clicar em **[!UICONTROL Publicar]**, a seguinte sequência ocorre internamente:
+
+1. **Ativação do agendador** — se a campanha tiver um [agendamento configurado](create-orchestrated-campaign.md#schedule), o agendador iniciará e acionará a execução no horário definido.
+1. **As atividades Save Audience são executadas primeiro** — Qualquer atividade [Save audience](activities/save-audience.md) no fluxo de trabalho é executada antes das atividades de mensagem. O shell de público-alvo é criado no [Portal de Público-Alvo](../audience/about-audiences.md#browse) e perfis qualificados começam a assimilar.
+1. **Início da execução da mensagem** — [Atividades do canal](activities/channels.md) iniciam o processamento da primeira atividade de mensagem no fluxo de trabalho.
+1. **Pesquisa de instantâneo de perfil** — Os dados de perfil são resolvidos em relação a um instantâneo tirado no momento da publicação, não em um perfil em tempo real. Isso garante a consistência em toda a execução.
+1. **Avaliação de consentimento** — para perfis correspondentes, o consentimento é honrado diretamente do registro do perfil. O consentimento não é reavaliado no momento do envio. [Saiba mais sobre o gerenciamento de consentimento](../action/consent.md)
+1. **Criação de perfil em tempo real** — Perfis que não correspondem a um registro existente são criados em tempo real durante a execução.
+1. **Criação do log de entrega** — Os eventos de entrega são registrados no conjunto de dados [`ajo_message_feedback_event`](../data/datasets-query-examples.md#message-feedback-event-dataset), que é a fonte primária para logs de entrega e validação pós-envio.
+
+Para validar os resultados após a execução, use os recursos de relatórios do Journey Optimizer. [Saiba mais sobre os relatórios de campanhas orquestradas](reporting-campaigns.md)
+
 ## Reverter uma campanha de volta ao rascunho {#back-to-draft}
 
 O recurso **[!UICONTROL Voltar ao rascunho]** permite desfazer a publicação e reverter uma campanha orquestrada para o status de rascunho em situações específicas. Ele foi projetado como um mecanismo de recuperação para corrigir problemas antes que qualquer mensagem seja enviada, mantendo a integridade do ciclo de vida da campanha.
@@ -80,7 +119,7 @@ Essa opção está disponível em dois cenários:
 
 Para retornar uma campanha ao status de rascunho, abra a campanha orquestrada e clique no botão **[!UICONTROL Voltar ao rascunho]** na barra de ferramentas da tela de campanha.
 
-![](assets/back-to-draft.png)
+![Botão Voltar ao rascunho na barra de ferramentas da tela de campanha](assets/back-to-draft.png)
 
 A publicação da campanha é desfeita e o fluxo de trabalho é interrompido. A campanha retorna ao status **Rascunho**. Agora você pode corrigir os problemas identificados e [testar a campanha](#test) e [publicá-la](#publish) novamente quando estiver pronto.
 
@@ -88,7 +127,7 @@ A publicação da campanha é desfeita e o fluxo de trabalho é interrompido. A 
 
 Por padrão, para campanhas orquestradas não recorrentes, a entrega de mensagens é pausada até que você aprove explicitamente o envio. Depois de publicar a campanha, confirme a solicitação de envio no painel de propriedades da atividade de canal. Até que seja confirmado, a atividade do canal permanece pendente e nenhuma mensagem é enviada.
 
-![imagem mostrando o botão Confirmar](assets/confirm-sending.png)
+![Confirmar o botão Enviar no painel de propriedades de atividade do canal](assets/confirm-sending.png)
 
 Antes de publicar, você pode desativar o envio de confirmação do painel de propriedades de atividades do canal. Para obter detalhes, consulte [Confirmar envio de mensagem](activities/channels.md#confirm-message-sending).
 
@@ -107,6 +146,8 @@ Os dados transportados de uma atividade para outra através de transições são
 
    ![Visualização da transição mostrando o esquema da tabela de trabalho e os resultados](assets/transition.png){zoomable="yes"}
 
+Agora você pode inspecionar os dados transmitidos entre as atividades para validar o fluxo de campanha e confirmar se cada atividade está processando os perfis esperados.
+
 ### Indicadores de execução de atividades {#activities}
 
 Os indicadores visuais de status ajudam a entender o desempenho de cada atividade:
@@ -114,7 +155,7 @@ Os indicadores visuais de status ajudam a entender o desempenho de cada atividad
 | Indicador visual | Descrição |
 |-----|------------|
 | ![Status pendente](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | A atividade está sendo executada no momento. |
-| ![Status laranja](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | A atividade requer a sua atenção. Isso pode envolver confirmar o envio de uma entrega ou realizar uma ação necessária. |
+| ![Indicador de status de atenção necessária](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | A atividade requer a sua atenção. Isso pode envolver confirmar o envio de uma entrega ou realizar uma ação necessária. |
 | ![Status do erro](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | A atividade encontrou um erro. Para resolver o problema, abra os logs da campanha Orquestrada para obter mais informações. |
 | ![Status de sucesso](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | A atividade foi executada com sucesso. |
 
@@ -143,3 +184,5 @@ Em ambas as guias, você pode escolher as colunas exibidas e sua ordem, aplicar 
 ## Próximas etapas {#next}
 
 Depois de iniciar a tela de campanha Orquestrada, você pode usar os recursos de relatórios do Journey Optimizer para obter insights, como entender o comportamento do público-alvo e medir o desempenho de cada etapa na jornada do cliente. [Saiba mais sobre os relatórios de campanhas orquestradas](../orchestrated/reporting-campaigns.md)
+
+Dúvidas sobre campanhas orquestradas? Consulte as [Perguntas frequentes sobre campanhas orquestradas](orchestrated-campaigns-faq.md) para obter respostas para as perguntas mais comuns dos profissionais.

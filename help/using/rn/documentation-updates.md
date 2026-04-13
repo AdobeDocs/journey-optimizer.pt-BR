@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '6654'
-ht-degree: 72%
+source-wordcount: '6825'
+ht-degree: 71%
 
 ---
 
@@ -20,6 +20,14 @@ ht-degree: 72%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Abril de 2026 {#april-2026}
+
+* A página **Editar conteúdo de email com o editor avançado do HTML** foi movida da seção Gerenciamento de conteúdo para a seção **Email** da documentação (em Design de email) e o arquivo de página foi renomeado para **email-expert-mode.md**. A página agora documenta que o editor avançado do HTML está disponível no Designer de email para mensagens de email, bem como para modelos de conteúdo de email. [Leia mais](../email/email-expert-mode.md)
+
+* A documentação **Iniciar e monitorar campanhas orquestradas** foi atualizada com uma nova seção que detalha a sequência de execução interna do tempo de publicação, juntamente com uma tabela de status do ciclo de vida da campanha, uma lista de verificação de pré-publicação e um aviso de confirmação de envio para campanhas não recorrentes. [Leia mais](../orchestrated/start-monitor-campaigns.md#publication-sequence)
+
+* A documentação da atividade **Salvar público-alvo** foi atualizada com uma observação esclarecendo que as atividades Salvar público-alvo sempre são executadas antes das atividades de mensagem no momento da publicação. [Leia mais](../orchestrated/activities/save-audience.md)
+
+* Três novas Perguntas e Respostas foram adicionadas às **Perguntas frequentes sobre campanhas orquestradas**: o que acontece internamente no momento da publicação, uma lista de verificação de 7 pontos sobre os motivos pelos quais as mensagens podem não ser enviadas após a publicação e como a pesquisa de instantâneo de perfil difere da resolução de perfil em tempo real. [Leia mais](../orchestrated/orchestrated-campaigns-faq.md)
 
 * Uma nova seção **[Eventos descartados devido a uma instância de jornada bloqueada](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)** foi adicionada à documentação de solução de problemas do jornada, explicando o motivo do descarte do `maxInstanceStackEventsReached`, quando ele ocorre e como atenuá-lo. As grades de proteção e as páginas de lista de campos de evento de etapa também foram atualizadas adequadamente.
 
@@ -59,7 +67,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * Uma nova página **Monitorar modelos de IA** está disponível na documentação do Decisioning. Ele explica como rastrear a integridade, o status do treinamento e o desempenho de modelos de otimização personalizados diretamente no [!DNL Journey Optimizer]. [Leia mais](../experience-decisioning/ranking/ai-model-observability.md)
 
-* O **editor avançado do HTML** (modo especialista) para modelos de email agora está disponível com a Disponibilidade Limitada. A página de documentação agora está acessível publicamente. Esse recurso permite visualizar e editar a fonte de HTML bruta de modelos de conteúdo de email diretamente do Designer de email. [Leia mais](../content-management/email-template-expert-mode.md)
+* O **editor avançado do HTML** (modo especialista) para modelos de email agora está disponível com a Disponibilidade Limitada. A página de documentação agora está acessível publicamente. Esse recurso permite visualizar e editar a fonte de HTML bruta de modelos de conteúdo de email diretamente do Designer de email. [Leia mais](../email/email-expert-mode.md)
 
 * A documentação de **rastreamento de URL** e **solução de problemas de Jornada** foi atualizada para documentar o comportamento de `context.system.source.actionId` em jornadas fechadas. Jornadas fechadas ou não republicadas podem produzir espaços reservados `{}` vazios nas URLs de rastreamento. Foram adicionadas orientações sobre como resolver o problema republicando a jornada ou removendo o parâmetro afetado. [Leia mais](../email/url-tracking.md)
 

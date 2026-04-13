@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2721'
 ht-degree: 4%
 
 ---
@@ -377,15 +377,16 @@ Para provedores de SMS personalizados, crie dois webhooks separados: um para eve
 
    +++Exemplo de conteúdo
 
-       &quot;json
-       &lbrace;
-       &quot;mensagem de entrada&quot;: &quot;{{inboundMessage}}&quot;,
-       &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
-       &quot;requestId&quot;: &quot;{{requestId}}&quot;,
-       &quot;originTimestamp&quot;: &quot;{{originTimestamp}}&quot;,
-       &quot;inboundNumber&quot;: &quot;{{inboundNumber}}&quot;
-       
-       &quot;
+   ```json
+   {
+   "inboundMessage": "{{inboundMessage}}",
+   "profileNumber": "{{profileNumber}}",
+   "requestId": "{{requestId}}",
+   "originTimestamp": "{{originTimestamp}}",
+   "inboundNumber": "{{inboundNumber}}"
+   }
+   ```
+
    +++
 
 1. Quando o arquivo JSON for criado, clique em **[!UICONTROL Exibir editor de carga]**, copie e cole sua carga JSON no editor e salve-a.
@@ -416,18 +417,18 @@ Para provedores de SMS personalizados, crie dois webhooks separados: um para eve
 
    +++Exemplo de conteúdo
 
-       &quot;json
-       &lbrace;
-       &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;status&quot;: &lbrack;
-       &lbrace;
-       &quot;código&quot;: &quot;{{failureCode}}&quot;,
-       &quot;status&quot;: &quot;{{feedbackStatus}}&quot;
-       
-       &rbrack;
-       
-       &quot;
-   
+   ```json
+   {
+   "clientReference": "{{client_reference}}",
+   "statuses": [
+       {
+           "code": "{{failureCode}}",
+           "status": "{{feedbackStatus}}"
+       }
+   ]
+   }
+   ```
+
    +++
 
 1. Clique em **[!UICONTROL Exibir editor de carga]**, copie e cole sua carga JSON no editor e salve-a.

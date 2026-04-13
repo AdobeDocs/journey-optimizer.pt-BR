@@ -5,10 +5,10 @@ title: Documentação do Adobe Journey Optimizer
 description: Documentação do Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 84a44eac9171c45098b8ad40d62bcae68a610f84
+source-git-commit: e4b8ba5941c276b74608a5510d97b33786b2507c
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '537'
+ht-degree: 98%
 
 ---
 
@@ -54,9 +54,9 @@ O “Horário de silêncio” permite definir exclusões com base no tempo para 
 
 ## Comece a explorar {#section-explore}
 
-:::: landing-cards-container
+::::landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Notas de versão mais recentes
 
@@ -66,7 +66,7 @@ Fique atualizado com as últimas notas de versão, novos recursos e melhorias no
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução
 
@@ -76,7 +76,7 @@ Aprenda os conceitos básicos do Journey Optimizer, incluindo seus recursos, arq
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Guia abrangente para jornadas
 
@@ -86,7 +86,7 @@ Projete, orquestre, gerencie e otimize jornadas personalizadas do cliente com es
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=pt-BR)
 
 Noções básicas e gerenciamento de campanhas
 
@@ -96,7 +96,7 @@ Orientação detalhada sobre como criar, gerenciar e otimizar vários tipos de c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
 
 Canais de comunicação
 
@@ -106,7 +106,7 @@ Configure e gerencie emails, SMS, notificações por push e outros canais para i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=pt-BR)
 
 Gerenciamento de conflitos e priorização
 

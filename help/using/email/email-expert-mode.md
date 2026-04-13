@@ -1,33 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Editar modelos de email com o editor avançado do HTML
-description: Use o Expert Mode para exibir e editar a origem de conteúdo de email do HTML no editor do WYSIWYG, com controle de sinalizador de recursos, medidas de proteção e validação de salvamento.
-feature: Templates
+title: Editar conteúdo de email com o editor avançado do HTML
+description: Use o modo Expert para exibir e editar a origem de conteúdo de email do HTML no Designer de email, com controle de sinalizador de recursos, medidas de proteção e validação de salvamento.
+feature: Email Design
 topic: Content Management
 role: User
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 36fc8247844a2f6a5e9b478d9c3a31ed82a40356
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '559'
 ht-degree: 7%
 
 ---
 
-# Editar modelos de email com o editor avançado do HTML {#email-template-expert-mode}
+# Editar conteúdo de email com o editor avançado do HTML {#email-expert-mode}
 
 >[!AVAILABILITY]
 >
 >Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 
-O **editor avançado de HTML** é um modo especialista que permite exibir e editar o código fonte bruto de modelos de conteúdo de email diretamente da interface do Designer de email [!DNL Journey Optimizer].
+O **editor avançado de HTML** é um modo especialista que permite exibir e editar a fonte bruta de HTML do **conteúdo de email** diretamente no [!DNL Journey Optimizer] [Designer de email](get-started-email-design.md) — seja em [criação de um email](content-from-scratch.md) para uma jornada, uma campanha ou edição de um [modelo de conteúdo de email](../content-management/create-content-templates.md).
 
 Esse recurso permite inserir expressões avançadas, como condições, diretamente na origem. Ao voltar para a visualização visual (desktop), o conteúdo é renderizado novamente para que você possa verificar sua aparência e continuar editando em ambas as visualizações.
-
->[!NOTE]
->
->Esse recurso só está disponível em modelos de conteúdo e para o canal de email.
 
 ## Medidas de proteção {#guardrails}
 
@@ -45,13 +41,13 @@ Ao usar o editor avançado do HTML, as seguintes medidas de proteção protegem 
 
 >[!WARNING]
 >
->O editor avançado do HTML no modelo de conteúdo não é o mesmo que **[!UICONTROL Codificar o seu próprio]** modo no Designer de email. No modo [!UICONTROL Codifique o seu próprio], você não pode voltar para o editor visual. Depois de escolher esse caminho, você permanecerá na edição somente de código. O editor avançado do HTML, por outro lado, permite alternar entre a visualização do HTML e a visualização da Área de trabalho (visual) a qualquer momento. [Saiba mais sobre o editor de código](../email/code-content.md)
+>O editor avançado do HTML não é o mesmo que **[!UICONTROL Codifique o seu próprio modo]** no Designer de email. No modo [!UICONTROL Codifique o seu próprio], você não pode voltar para o editor visual. Depois de escolher esse caminho, você permanecerá na edição somente de código. O editor avançado do HTML, por outro lado, permite alternar entre a visualização do HTML e a visualização da Área de trabalho (visual) a qualquer momento. [Saiba mais sobre o editor de código](code-content.md)
 
 ## Alternar para a visualização avançada do HTML {#switch-to-html-view}
 
-Para abrir o editor avançado do HTML e editar a fonte do modelo, siga estas etapas.
+Para abrir o editor avançado do HTML e editar o código-fonte do HTML, siga estas etapas.
 
-1. Abra ou crie um [modelo de email](../content-management/create-content-templates.md) e abra o [Designer de email](../email/get-started-email-design.md) para editar o conteúdo.
+1. Abra o email ou o modelo que deseja editar no Designer de Email, por exemplo, [crie ou edite um email](create-email.md) a partir de uma jornada ou campanha, ou abra um [modelo de conteúdo de email](../content-management/create-content-templates.md) e edite seu corpo no [Designer de Email](get-started-email-design.md).
 
 1. Clique no botão **[!UICONTROL HTML]** no canto superior direito da tela.
 
@@ -67,7 +63,7 @@ Para abrir o editor avançado do HTML e editar a fonte do modelo, siga estas eta
 
 1. O editor avançado do HTML é exibido.
 
-   ![Interface avançada do editor do HTML mostrando o código-fonte do modelo de email](assets/email-template-expert-mode.png)
+   ![Interface avançada do editor do HTML mostrando o código-fonte do email](assets/email-template-expert-mode.png)
 
 1. Adicione as alterações desejadas ao conteúdo do email.
 
@@ -89,7 +85,6 @@ Para abrir o editor avançado do HTML e editar a fonte do modelo, siga estas eta
 
 ## Tópicos relacionados
 
-* [Desenvolva seu próprio conteúdo de email](../email/code-content.md)
-* [Criar modelos de conteúdo](create-content-templates.md)
-* [Introdução ao Designer de email](../email/get-started-email-design.md)
-
+* [Desenvolva seu próprio conteúdo de email](code-content.md)
+* [Criar modelos de conteúdo](../content-management/create-content-templates.md)
+* [Introdução ao Designer de email](get-started-email-design.md)

@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 2a9587461520290899e3c70c4943e111d6af65ee
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1777'
 ht-degree: 3%
 
 ---
@@ -175,6 +175,7 @@ Use a IA generativa para criar e personalizar o conteúdo em vários canais, ace
 * **Geração de texto** - Crie uma cópia atraente com base na voz e nos objetivos de sua marca. [Gerar texto com IA](../content-management/generative-text.md)
 * **Geração de imagem** - Gere imagens personalizadas usando o Adobe Firefly. [Gerar imagens com IA](../content-management/generative-image.md)
 * **Variações de conteúdo** - Produza várias variações para teste A/B. [Experimento de conteúdo com IA](../content-management/generative-experimentation.md)
+* **Personalization** - No Personalization Editor, gere novas expressões, explique o código existente ou corrija problemas com o AI Assistant. [Assistente de IA para expressões Personalization](../content-management/generative-personalization-expressions.md)
 * **Alinhamento da marca** - Verifique se o conteúdo gerado corresponde às diretrizes da sua marca. [Avaliar o alinhamento da marca](../content-management/brands-score.md)
 * **Suporte a Modelos** - Utilize seus modelos de email existentes. [Trabalhar com modelos de conteúdo](../content-management/content-templates.md)
 
@@ -225,7 +226,7 @@ Crie modelos de classificação inteligentes que otimizam automaticamente quais 
    * Nos últimos 14 dias
 * Máximo de 5 modelos de classificação de IA por organização
 
-[Saiba mais sobre os modelos de IA para a tomada de decisão](../experience-decisioning/ranking/ai-models.md) | [Criar modelos de classificação de IA](../experience-decisioning/ranking/create-ai-models.md)
+[Saiba mais sobre os modelos de IA para a decisão](../experience-decisioning/ranking/ai-models.md) | [Criar modelos de classificação de IA](../experience-decisioning/ranking/create-ai-models.md)
 
 ## Experimentação de conteúdo com IA {#experimentation}
 

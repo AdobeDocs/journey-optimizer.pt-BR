@@ -5,10 +5,10 @@ title: Perguntas frequentes sobre campanhas orquestradas
 description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orchestrated
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ea7fdaf61a52f1dc65938e0aaa3ff6ca0be109a4
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 13%
+source-wordcount: '2493'
+ht-degree: 12%
 
 ---
 
@@ -153,6 +153,66 @@ Enquanto a campanha estiver no **Rascunho**, você poderá testá-la definindo *
 Sim, em situações específicas. A opção **[!UICONTROL Voltar ao rascunho]** foi criada como um mecanismo de recuperação para desfazer a publicação e reverter uma campanha para o status de rascunho.
 
 Essa opção está disponível para campanhas programadas que estão aguardando execução ou para campanhas ativas com erros de execução. [Saiba como reverter uma campanha ao vivo para o rascunho](start-monitor-campaigns.md#back-to-draft)
+
++++
+
++++ O que acontece internamente quando publico uma campanha orquestrada?
+
+Quando você clica em **[!UICONTROL Publicar]**, ocorre a seguinte sequência:
+
+1. **Ativação do agendador** — Se um agendamento estiver configurado, o agendador iniciará e acionará a execução no horário definido.
+1. **As atividades Save Audience são executadas primeiro** — Todas as atividades Save audience são executadas antes das atividades de mensagem. O shell de público-alvo é criado no Portal de público-alvo e os perfis qualificados começam a assimilar.
+1. **Início da execução da mensagem** — As atividades de canal iniciam o processamento da primeira atividade de mensagem no fluxo de trabalho.
+1. **Pesquisa de instantâneo de perfil** — Os dados de perfil são resolvidos em relação a um instantâneo tirado no momento da publicação, não ao perfil em tempo real, garantindo a consistência em toda a execução.
+1. **Avaliação de consentimento** — o consentimento é respeitado diretamente do registro do perfil e não é reavaliado no momento do envio.
+1. **Reconciliação de perfil** — Os destinatários são reconciliados com Perfis Adobe Experience Platform no momento do envio.
+1. **Criação do log de entrega** — Os eventos de entrega são registrados no conjunto de dados `ajo_message_feedback_event`.
+
+**Saiba mais**
+
+* [Sequência de execução no tempo de publicação](start-monitor-campaigns.md#publication-sequence)
+* [Iniciar e monitorar campanhas orquestradas](start-monitor-campaigns.md)
+
++++
+
++++ Por que minhas mensagens não estão sendo enviadas depois que eu publico a campanha?
+
+Várias situações podem impedir que mensagens sejam enviadas após a publicação. Verifique a seguinte ordem:
+
+1. **Envio de confirmação pendente (mais comum)** — Para campanhas não recorrentes, a entrega de mensagens é pausada por padrão até que você confirme explicitamente o envio no painel de propriedades da atividade de canal. A campanha é exibida como **Live**, mas nenhuma mensagem será enviada até ser confirmada. [Saiba mais](start-monitor-campaigns.md#confirm-sending)
+
+1. **A campanha está agendada para um horário futuro** — Se um agendamento estiver configurado, a campanha está online, mas a execução ainda não foi iniciada. Verifique as configurações de agendamento e aguarde a hora de início configurada. [Saiba mais](create-orchestrated-campaign.md#schedule)
+
+1. **Salvar atividades do Audience ainda assimilando** — Salvar atividades do Audience executadas antes das atividades da mensagem no momento da publicação. Se a assimilação de público-alvo ainda estiver em andamento, a execução da mensagem ainda não foi iniciada. Monitore os indicadores de status de atividade na tela. [Saiba mais](start-monitor-campaigns.md#activities)
+
+1. **O público-alvo está vazio** — A consulta de direcionamento retornou zero perfis. Revise suas regras de segmentação e valide o contagem de público-alvo antes de republicar.
+
+1. **Todos os perfis recusaram** — o consentimento é avaliado no momento do envio em relação a cada perfil. Se todos os perfis segmentados tiverem recusado o acesso no canal relevante, nenhuma mensagem será enviada. [Saiba mais](../action/consent.md)
+
+1. **Atividade do canal em estado de erro** — Um indicador de status laranja ou vermelho na atividade do canal indica um problema de bloqueio. Abra os **[!UICONTROL Logs]** para obter detalhes sobre o erro e como resolvê-lo. [Saiba mais](start-monitor-campaigns.md#logs-tasks)
+
+1. **Entrega de limitação de controle de taxa** — Se o controle de taxa estiver habilitado na atividade de canal, a entrega poderá ser mais lenta do que o esperado. Verifique as configurações de controle de taxa no painel de propriedades da atividade de canal. [Saiba mais](activities/channels.md#rate-control)
+
+**Saiba mais**
+
+* [Iniciar e monitorar campanhas orquestradas](start-monitor-campaigns.md)
+* [Adicionar uma atividade de canal em uma campanha orquestrada](activities/channels.md)
+
++++
+
++++ A publicação usa o perfil em tempo real ou um instantâneo?
+
+No momento da publicação, os dados do perfil são resolvidos em relação a um **instantâneo tirado no momento da publicação**, não em um perfil em tempo real. Isso garante a consistência em toda a execução da campanha — todas as atividades processam o mesmo estado de perfil, independentemente do tempo de execução da campanha.
+
+No entanto, o consentimento é sempre honrado do registro do perfil atual e não é reavaliado no momento do envio.
+
+Observe que a segmentação em campanhas orquestradas é executada em Recipients (armazenamento relacional), enquanto as verificações de consentimento e envio de mensagens são resolvidas em relação ao Perfil do Adobe Experience Platform.
+
+**Saiba mais**
+
+* [Sequência de execução no tempo de publicação](start-monitor-campaigns.md#publication-sequence)
+* [Qual é a relação entre Entidades de Destinatário e Perfil?](#faq-oc)
+* [Trabalhar com políticas de consentimento](../action/consent.md)
 
 +++
 

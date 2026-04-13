@@ -1,0 +1,105 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Assistente de IA para expressões Personalization
+description: Saiba como usar o AI Assistant no Journey Optimizer Personalization Editor para gerar novas expressões a partir da linguagem natural, explicar ou corrigir o código existente e refinar seleções.
+feature: Content Assistant
+topic: Content Management, Artificial Intelligence
+role: User
+level: Intermediate
+mini-toc-levels: 1
+source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
+workflow-type: tm+mt
+source-wordcount: '761'
+ht-degree: 2%
+
+---
+
+# Assistente de IA para expressões Personalization{#generative-personalization-expressions}
+
+>[!IMPORTANT]
+>
+>Antes de começar a usar esse recurso, consulte as [Medidas de proteção e limitações](gs-generative.md#generative-guardrails) relacionadas.
+></br>
+>
+>Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
+
+## Visão geral {#where-available}
+
+No [!UICONTROL Editor do Personalization], o [!UICONTROL Assistente de IA] ajuda a gerar uma nova personalização a partir de linguagem simples, explicar o que as expressões existentes fazem e corrigir problemas no código selecionado, para que você gaste menos tempo na descoberta de sintaxe e de campos manuais. Você também pode iterar em uma seleção ou solicitar outras alterações na conversa.
+
+* Para obter mais detalhes sobre a configuração e os idiomas do Assistente de IA, consulte [Introdução ao Assistente de IA](gs-generative.md).
+* Para obter mais informações sobre a personalização em [!DNL Journey Optimizer], consulte [Introdução à personalização](../personalization/personalize.md).
+* Para ideias de prompt, consulte [Práticas recomendadas de prompt da IA](ai-assistant-prompting-guide.md).
+
+Você usa o [!UICONTROL Assistente de IA] no [!UICONTROL Editor do Personalization] onde quer que esse editor esteja disponível — por exemplo, na linha de assunto, no corpo e em outros campos que o abrem. Para saber onde e como abrir o editor, consulte [Adicionar personalização](../personalization/personalization-build-expressions.md#where).
+
+Dependendo do contexto da campanha ou da jornada, o assistente pode trabalhar com dados e construir o [!UICONTROL Personalization Editor] que já está exposto, por exemplo, atributos de perfil, associação de segmento, funções auxiliares e fontes de personalização relacionadas.
+
+>[!NOTE]
+>
+>O assistente mantém o contexto de seus prompts apenas enquanto o [!UICONTROL Assistente do AI] permanece aberto nessa sessão do editor. Se você fechar o assistente ou o [!UICONTROL Editor do Personalization], a conversa não será salva; na próxima vez que você abrir o assistente, iniciará uma nova conversa.
+
+## Gerar expressões de personalização {#generate}
+
+Essas etapas abordam a geração de expressões de personalização do zero. Para trabalhar com o código já existente no editor, consulte [Editar, corrigir ou explicar o código existente](#edit-existing).
+
+1. Em sua mensagem ou conteúdo, abra o **[!UICONTROL Editor de Personalization]**.
+
+1. Coloque o cursor no editor onde deseja que o código de personalização gerado seja inserido e clique no botão **[!UICONTROL Assistente de IA]**.
+
+   ![](assets/ai-perso-access.png)
+
+1. No campo de texto, descreva a expressão de personalização desejada em linguagem simples, por exemplo, quais atributos de perfil, segmentos ou lógica são necessários, depois clique em **[!UICONTROL Gerar]**.
+
+   Você também pode usar prompts prontos para uso da seção **[!UICONTROL Prompts Rápidos]**, como saudação personalizada, geração de código promocional e muito mais.
+
+   ![](assets/ai-perso-generate.png)
+
+   >[!NOTE]
+   >
+   >Qualquer prompt ou pergunta não relacionada retorna um erro fora do escopo. Ajuste seu prompt e faça uma pergunta relevante sobre a personalização necessária.
+
+1. Você pode continuar discutindo com o assistente em uma conversa de vários turnos: ela mantém o contexto de seus prompts para que você possa refinar a mesma expressão passo a passo. Para recomeçar, clique no botão **[!UICONTROL Nova sessão]**.
+
+   ![](assets/ai-perso-question.png)
+
+1. Depois de gerar uma expressão, clique em **[!UICONTROL Mostrar visualizações para perfis de amostra]** para ver como a expressão é avaliada com dados de amostra e para exibir a carga associada como JSON. Para essa verificação, o assistente gera um conjunto limitado de perfis de amostra sintéticos; eles não são salvos nem armazenados em sua organização.
+
+   Se você precisar de mais perfis de exemplo, digite **Visualizar** na discussão com o assistente para que ele possa gerar perfis de visualização adicionais.
+
+   ![](assets/ai-perso-preview-button.png)
+
+   +++Visualizar exemplo
+
+   ![](assets/ai-perso-preview.png)
+
+   +++
+
+   >[!NOTE]
+   >
+   >Esse controle é para uma verificação rápida do seu código de personalização no editor, não para uma pré-visualização completa da mensagem do seu conteúdo. Para validação completa da experiência, use o fluxo de simulação normal. [Saiba como visualizar e testar seu conteúdo](../content-management/preview-test.md)
+
+1. Para implementar a saída em sua expressão de personalização, clique em **[!UICONTROL Aplicar]**. A saída do assistente é inserida no local do cursor no editor de personalização. Para substituir o código que já está lá, selecione-o primeiro no editor e use o **[!UICONTROL Editar com o AI Assistant]** (consulte [Editar, corrigir ou explicar o código existente](#edit-existing)).
+
+   Você também pode copiar a saída e colá-la onde for necessário usando o ícone ![Copiar](../orchestrated/assets/do-not-localize/activity-copy.svg).
+
+## Editar, corrigir ou explicar o código existente {#edit-existing}
+
+Você pode selecionar uma expressão de personalização existente e usar o AI Assistant para corrigir problemas de personalização, explicar o que o código faz ou solicitar outras alterações.
+
+1. Selecione o código de personalização existente no editor.
+
+1. Clique com o botão direito do mouse na seleção e escolha **[!UICONTROL Editar com o Assistente de IA]** para que o assistente use sua seleção como contexto.
+
+   ![](assets/ai-perso-right-click.png)
+
+1. O **[!UICONTROL Assistente de IA]** é aberto. Em **[!UICONTROL Comandos Rápidos]**, clique em **[!UICONTROL Explicar]** ou **[!UICONTROL Corrigir]** ou use o campo de texto para solicitar outras alterações e iniciar uma conversa.
+
+   ![](assets/ai-perso-edit.png)
+
+1. Ao usar a **[!UICONTROL Correção]**, clique em **[!UICONTROL Mostrar detalhes da correção]** na discussão para mostrar uma explicação da correção e uma linha por linha antes e depois da visualização.
+
+   ![](assets/ai-perso-fix.png)
+
+1. Como ocorre ao gerar uma expressão de personalização, clique em **[!UICONTROL Aplicar]** para implementar a saída do assistente. Ele substitui o código selecionado no editor de personalização. Por exemplo, se você solicitou uma explicação do código, a aplicação adicionará comentários na expressão que descrevem o que ele faz.

@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: expressão, editor, início, personalização
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 8f28414c5aa567e60975e01d66dd1725ac9fa20a
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 24%
+source-wordcount: '569'
+ht-degree: 22%
 
 ---
 
@@ -31,9 +31,7 @@ Usando o **editor de personalização**, você pode selecionar, organizar, perso
 
 O Journey Optimizer emprega uma sintaxe de personalização em linha com base em Handlebars que permite criar expressões com conteúdo delimitado por chaves duplas **`{{}}`**.
 
-Ao processar a mensagem, o Journey Optimizer substitui a expressão pelos dados contidos no conjunto de dados do Experience Platform. Por exemplo, `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` torna-se dinamicamente `Hello John Doe`.
-
-Usando essa sintaxe, você pode personalizar mensagens em vários campos, incluindo linhas de assunto de email, corpos de mensagens, notificações por push ou URLs.
+Ao processar a mensagem, o Journey Optimizer substitui a expressão pelos dados contidos no conjunto de dados do Experience Platform. Por exemplo, `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` torna-se dinamicamente `Hello John Doe`. Usando essa sintaxe, você pode personalizar mensagens em vários campos, incluindo linhas de assunto de email, corpos de mensagens, notificações por push ou URLs.
 
 ## Dados usados para personalização
 
@@ -52,6 +50,14 @@ Esse playground fornece um ambiente simulado para gravar e testar o código de p
 ![playground de personalização](assets/playground.png)
 
 ➡️ [Acessar o playground de personalização](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ajo-personalization){target="_blank"}
+
+## Assistente de IA no editor do Personalization {#ai-personalization-expressions}
+
+No **[!UICONTROL Personalization Editor]**, o **[!UICONTROL AI Assistant]** ajuda a gerar novas expressões a partir da linguagem natural, explicar o que o código existente faz e corrigir problemas em uma seleção. Em seguida, aplique a saída quando ela corresponder à sua intenção.
+
+![](../content-management/assets/ai-perso-generate.png)
+
+➡️ [Saiba como trabalhar com o Assistente de IA para expressões Personalization](../content-management/generative-personalization-expressions.md)
 
 ## Vamos nos aprofundar um pouco mais
 
