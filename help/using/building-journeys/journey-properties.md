@@ -10,14 +10,16 @@ level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: e179f5a503b93cbc01c812d8bcecaeb808560394
+source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
 workflow-type: tm+mt
-source-wordcount: '3257'
-ht-degree: 12%
+source-wordcount: '3380'
+ht-degree: 10%
 
 ---
 
 # Definir as propriedades da jornada {#jo-properties}
+
+Use as propriedades do jornada para definir as configurações globais para sua jornada, incluindo nome, regras de entrada, fuso horário, datas de início e término, duração do tempo limite, critérios de saída e gerenciamento de conflitos. As propriedades podem ser acessadas no painel direito em qualquer estágio da criação do jornada.
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
@@ -166,7 +168,7 @@ Devido ao tempo limite de jornada de 91 dias, quando a reentrada da jornada não
 
 Um indivíduo só poderá inserir uma atividade de espera se tiver tempo suficiente na jornada para concluir a duração da espera antes do tempo limite de jornada de 91 dias. Consulte [esta página](../building-journeys/wait-activity.md).
 
-#### Perguntas frequentes sobre TTL (Time-to-Live) e retenção de dados {#timeout-faq}
+### Perguntas frequentes sobre TTL (Time-to-Live, tempo de vida útil) e retenção de dados {#timeout-faq}
 
 A partir da versão de [!DNL Adobe Journey Optimizer] de junho de 2024, o tempo limite global do jornada foi movido de 30 para 91 dias. Os impactos estão listados nas Perguntas frequentes abaixo:
 
@@ -263,7 +265,7 @@ A partir da versão de [!DNL Adobe Journey Optimizer] de junho de 2024, o tempo 
       <p>O que acontece com um perfil em execução em uma versão anterior do jornada republicada após a inicialização da extensão TTL?</p>
     </td>
     <td>
-      <p>O perfil manterá um TTL de 30 dias (7 dias para o HIPPA), alinhado ao tempo de publicação da versão original do jornada. Para jornadas recorrentes com reentrada forçada, o TTL corresponderá ao período de recorrência.</p>
+      <p>O perfil manterá um TTL de 30 dias (7 dias para a HIPAA), alinhado ao tempo de publicação da versão original do jornada. Para jornadas recorrentes com reentrada forçada, o TTL corresponderá ao período de recorrência.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -297,7 +299,7 @@ A partir da versão de [!DNL Adobe Journey Optimizer] de junho de 2024, o tempo 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_merge_policy"
 >title="Política de mesclagem"
->abstract="A política de mesclagem é recuperada automaticamente com base no evento ou público selecionado. Essa política de mesclagem é usada no por meio de toda a jornada."
+>abstract="A política de mesclagem é recuperada automaticamente com base no evento ou público selecionado. Essa política de mesclagem é usada em toda a jornada."
 
 [!DNL Adobe Journey Optimizer] usa políticas de mesclagem ao recuperar dados de perfil de [!DNL Adobe Experience Platform]. Dependendo do tipo de jornada, são usadas diferentes políticas de mesclagem:
 
@@ -322,7 +324,7 @@ Para saber mais sobre as políticas de mesclagem, consulte a [[!DNL Adobe Experi
 
 ### Jornada critérios de saída {#exit-criteria-desc}
 
-Ao adicionar critérios de saída, você faz com que os perfis saiam da jornada assim que um evento ocorrer (por exemplo: Compra) ou eles se qualificarem para um público-alvo. Isso impedirá que o usuário obtenha mais comunicações da jornada.
+Ao adicionar critérios de saída, você faz com que os perfis saiam da jornada assim que um evento ocorrer (por exemplo, Compra) ou quando eles são qualificados para um público-alvo. Isso impedirá que o usuário obtenha mais comunicações da jornada.
 
 Talvez você queira remover perfis de uma jornada quando eles não atenderem mais ao objetivo da jornada. Isso pode ser feito por **critérios de saída globais**, que estão intimamente associados ao gerenciamento de metas.
 
@@ -334,7 +336,7 @@ Talvez você queira remover perfis de uma jornada quando eles não atenderem mai
 
 Um profissional de marketing tem uma jornada promocional com uma série de comunicações. Cada uma dessas comunicações tem como objetivo orientar o cliente a fazer uma compra. Assim que a compra for feita, o cliente não deverá receber o restante das mensagens na série. Ao definir um critério de saída, os perfis que fizeram uma compra são removidos da jornada.
 
-#### Configuração e utilização {#exit-criteria-config}
+### Configuração e utilização {#exit-criteria-config}
 
 Os critérios de saída são definidos no nível da jornada. Uma jornada pode ter vários critérios de saída. Se você tiver definido vários critérios de saída, a avaliação acontece de cima para baixo com uma lógica de `OR`. Portanto, se você tiver o Critério de saída A e o Critério de saída B, ele será avaliado como A **OR** B. Os critérios são avaliados em cada etapa da jornada.
 
@@ -351,7 +353,7 @@ Para **criar** um critério de saída, siga estas etapas:
    * Para os critérios de Saída baseados em um evento, como por exemplo, baixar um aplicativo ou adicionar um produto ao carrinho, escolha somente evento unitário.
    * Para critérios de Saída com base em um público-alvo, como por exemplo, um público-alvo que verifica se um cliente comprou nas últimas 24 horas, selecione um público-alvo. Observação: os critérios de saída que usam um público-alvo podem levar até 10 minutos para serem eficazes.
 
-Você pode adicionar vários critérios de saída.
+Você pode adicionar vários critérios de saída. O critério de saída agora está ativo e será avaliado em cada etapa da jornada.
 
 ![Painel de critérios de saída mostrando as condições de público-alvo para o encerramento da jornada](assets/exitcriteria-sample.png){width="40%" align="left"}
 
@@ -416,3 +418,12 @@ A seção **[!UICONTROL Gerenciamento de conflitos]** nas propriedades da jornad
   Para situações em que essa mesma configuração de canais de entrada é usada em outras campanhas ou jornadas, a ação de entrada com a pontuação de prioridade mais alta é mostrada ao destinatário. Se várias jornadas ou campanhas tiverem a mesma pontuação, o elemento que foi modificado mais recentemente será escolhido.
 
 * **Exibir conflitos** com outras jornadas, campanhas ou configurações de canal. Se você quiser identificar sobreposição no público-alvo, data de início e término, configuração de canal, canal ou conjunto de regras, é possível visualizar os possíveis conflitos aqui. [Saiba como identificar possíveis conflitos no jornada](../conflict-prioritization/conflicts.md)
+
+## Tópicos relacionados {#related-topics}
+
+* [Gerenciamento de entrada de perfil](entry-management.md) - Configure como os perfis entram e entram novamente nas jornadas
+* [Guia dos critérios de entrada e saída do Jornada](entry-exit-criteria-guide.md) - Guia completo com exemplos reais e práticas recomendadas
+* [Como o jornada termina](end-journey.md) - Entenda a conclusão natural da jornada e a saída do perfil
+* [Pausar uma jornada](journey-pause.md) - Pausar e retomar jornadas com os critérios de saída do atributo de perfil
+* [Gerenciamento de fuso horário](timezone-management.md) - Configurar fusos horários de jornada e perfil
+* [Gerenciamento e priorização de conflitos](../conflict-prioritization/conflicts.md) - Identifique e resolva conflitos entre jornadas e campanhas
