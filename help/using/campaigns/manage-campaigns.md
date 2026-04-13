@@ -12,8 +12,8 @@ keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1682'
+ht-degree: 9%
 
 ---
 
@@ -35,7 +35,7 @@ Saiba como acessar, organizar e gerenciar suas campanhas no Adobe Journey Optimi
 
 **Ir diretamente para o que você precisa:**
 
-* **Criar uma nova campanha** - [Escolher o tipo de campanha](get-started-with-campaigns.md#campaign-types) | [Criar campanha de Ação](create-campaign.md) | [Criar campanha acionada por API](api-triggered-campaigns.md) | [Criar campanha orquestrada](../orchestrated/gs-orchestrated-campaigns.md)
+* **Criar uma nova campanha** - [Escolher o tipo de campanha](get-started-with-campaigns.md#campaign-types) | [Criar campanha de Ação](create-campaign.md) | [Criar campanha acionada por API](api-triggered-campaigns.md) | [Criar campanha Orquestrada](../orchestrated/gs-orchestrated-campaigns.md)
 * **Localizar campanhas existentes** - [Pesquisar e filtrar](#access)
 * **Exibir desempenho da campanha** - [Relatórios de campanha](../reports/campaign-global-report-cja.md)
 * **Agendar campanhas** - [Usar o calendário](#calendar)
@@ -261,9 +261,9 @@ A campanha é criada e adicionada à lista de campanhas.
 
 ## Recursos adicionais
 
-* **Introdução** - [Introdução às campanhas](get-started-with-campaigns.md) | [Crie sua primeira campanha de Ação](create-campaign.md) | [Guia de campanhas acionadas por API](api-triggered-campaigns.md) | [Guia de campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)
+* **Introdução** - [Introdução às campanhas](get-started-with-campaigns.md) | [Criar sua primeira campanha de Ação](create-campaign.md) | [Guia de campanhas acionadas por API](api-triggered-campaigns.md) | [Guia de campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)
 
-* **Configuração da campanha** - [Propriedades da campanha](campaign-properties.md) | [Ações e canais de campanha](campaign-action.md) | [Design do conteúdo da campanha](campaign-content.md) | [Seleção do público da campanha](campaign-audience.md) | [Agendamento de campanha](campaign-schedule.md)
+* **Configuração da campanha** - [Propriedades da campanha](campaign-properties.md) | [Ações e canais da campanha](campaign-action.md) | [Design do conteúdo da campanha](campaign-content.md) | [Seleção do público da campanha](campaign-audience.md) | [Agendamento da campanha](campaign-schedule.md)
 
 * **Recursos avançados** - [Fluxos de trabalho de aprovação](../test-approve/gs-approval.md) | [Gerenciamento de conflitos e priorização](../conflict-prioritization/gs-conflict-prioritization.md) | [Limite de frequência por canal](../conflict-prioritization/channel-capping.md) | [Pontuações de prioridade](../conflict-prioritization/priority-scores.md) | [Exportar campanhas para outras sandboxes](../configuration/copy-objects-to-sandbox.md)
 

@@ -127,6 +127,6 @@ Para começar a criar o conteúdo, siga as etapas abaixo:
 
    ![](assets/email_designer_simulate_content.png)
 
-1. Você também pode validar a qualidade do seu conteúdo para avaliar a legibilidade, a eficácia e a coesão do conteúdo. [Saiba mais sobre a validação de qualidade do conteúdo](../content-management/brands-score.md#validate-quality)
+1. Você também pode validar a qualidade do seu conteúdo para avaliar a legibilidade, a eficácia e a coesão do conteúdo. [Saiba mais sobre validação da qualidade do conteúdo](../content-management/brands-score.md#validate-quality)
 
 1. Quando o conteúdo estiver pronto, clique em **[!UICONTROL Salvar]**.

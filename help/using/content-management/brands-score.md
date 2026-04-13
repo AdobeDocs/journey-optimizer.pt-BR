@@ -36,7 +36,7 @@ ht-degree: 8%
 
 >[!AVAILABILITY]
 >
->Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"} antes de usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o seu representante da Adobe.
+>Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"} antes de usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
 
 O recurso Alinhamento da marca ajuda você a criar, revisar e gerenciar conteúdo que segue as diretrizes da sua marca. Ele garante a consistência no tom, nas mensagens e na identidade visual em todas as campanhas de email, além de servir como uma verificação de qualidade antes do conteúdo ser publicado.
 
@@ -134,6 +134,6 @@ O vídeo abaixo mostra como criar e personalizar suas próprias marcas para defi
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

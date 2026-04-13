@@ -9,7 +9,7 @@ exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 8%
+ht-degree: 21%
 
 ---
 
@@ -153,7 +153,7 @@ Você pode usar o tipo de modificação **[!UICONTROL Página`<head>`]** para:
 
 #### Práticas recomendadas do código personalizado {#custom-code-best-practices}
 
-+++ **Sempre envolver o código personalizado em um elemento.**
++++ **Sempre envolva o código personalizado em um elemento.**
 
 Por exemplo:
 
@@ -163,15 +163,15 @@ Por exemplo:
 </script>
 ```
 
-Caso alguma modificação seja necessária, faça alterações dentro desse contêiner.
+No caso de serem necessárias modificações, faça as alterações dentro deste contêiner.
 
-Se você não precisar mais do código personalizado, basta deixar este container vazio, mas não o remova. Isso garante que outras modificações na experiência não sejam afetadas.
+Se não precisar mais do código personalizado, deixe esse contêiner vazio, mas não o remova. Isso garante que outras modificações da experiência não sejam afetadas.
 
 +++
 
-+++ **Não executar ações document.write em scripts de código personalizados.**
++++ **Não execute ações de document.write em scripts de código personalizado.**
 
-Os scripts são executados de forma assíncrona. Isso frequentemente faz com que as ações document.write apareçam no lugar errado na página. Não é recomendado usar document.write em scripts criados no código personalizado.
+Os scripts são executados de modo assíncrono. Isso frequentemente faz com que as ações document.write apareçam no lugar errado na página. Não é recomendado usar document.write em scripts criados no código personalizado.
 
 +++
 
@@ -181,8 +181,8 @@ Cada alteração cria um novo elemento no painel **[!UICONTROL Modificações]**
 
 +++
 
-+++ **Tenha cuidado ao usar o tipo de modificação**&#x200B;[!UICONTROL &#x200B; Página `<head>`]&#x200B;**para duas campanhas que afetam a mesma URL.**
++++ **Tenha cuidado ao usar o tipo de modificação**[!UICONTROL  Página `<head>`]**para duas campanhas que afetam a mesma URL.**
 
-Se você usar o tipo de modificação **[!UICONTROL Página`<head>`]** para duas campanhas que afetam a mesma URL, a JavaScript será inserida na página pelas duas campanhas. [!DNL Journey Optimizer] determina automaticamente a ordem do conteúdo entregue. Certifique-se de que o código não dependa da disposição. Cabe a você garantir que não haja conflitos no código.
+Se você usar o tipo de modificação **[!UICONTROL Página`<head>`]** para duas campanhas que afetam a mesma URL, a JavaScript será inserida na página pelas duas campanhas. [!DNL Journey Optimizer] determina automaticamente a ordem do conteúdo entregue. Verifique se o código não depende de posicionamento. Cabe a você verificar se não há conflitos no código.
 
 +++

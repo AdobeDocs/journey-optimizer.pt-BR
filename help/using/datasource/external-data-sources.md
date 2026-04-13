@@ -12,7 +12,7 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
 source-wordcount: '1761'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -46,7 +46,7 @@ A chamada é composta de um URL principal (_https://api.adobeweather.org/weather
 
 >[!TIP]
 >
->Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer &#x200B;](#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
+>Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer ](#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
 
 ## Criar e configurar uma fonte de dados externa {#create-ext-data-sources}
 
@@ -157,7 +157,7 @@ Com esse modo de autenticação, a execução da ação é um processo de duas e
 
 * **authorizationType**: define como o token de acesso gerado deve ser inserido na chamada HTTP para a ação. Os valores possíveis são:
 
-   * `bearer`: indica que o token de acesso deve ser inserido no cabeçalho de Autorização, como: _Autorização: Portador &lt;token de acesso>_
+   * `bearer`: indica que o token de acesso deve ser inserido no cabeçalho de Autorização, como: _Autorização: Portador &lt;access token>_
    * `header`: indica que o token de acesso deve ser inserido como um cabeçalho, o nome do cabeçalho definido pela propriedade `tokenTarget`. Por exemplo, se o `tokenTarget` for `myHeader`, o token de acesso será inserido como um cabeçalho como: _myHeader: &lt;access token>_
    * `queryParam`: indica que o token de acesso deve ser inserido como um queryParam, o nome do parâmetro de consulta definido pela propriedade tokenTarget. Por exemplo, se o tokenTarget for myQueryParam, o URL da chamada de ação será: _&lt;url>?myQueryParam=&lt;access token>_
 

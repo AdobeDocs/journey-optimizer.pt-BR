@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1069'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -184,4 +184,4 @@ A capacidade de alterar o tamanho do dispositivo foi projetada para sites respon
 
 O vídeo abaixo mostra como criar uma experiência na Web usando o web designer em campanhas do [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3452640/?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
