@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 6645910a92c963ab99e786040cb4323789a95a68
 workflow-type: tm+mt
-source-wordcount: '3194'
+source-wordcount: '3200'
 ht-degree: 91%
 
 ---
@@ -469,7 +469,7 @@ ht-degree: 91%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos de email](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
@@ -504,6 +504,7 @@ ht-degree: 91%
       + {hide-from-toc}[Inserir timer da contagem regressiva](using/integrations/countdown.md)
       + [Trabalhar com o Dynamic Media](using/integrations/aem-dynamic.md)
       + [Trabalhar com o GenStudio for Performance Marketing](using/integrations/genstudio.md)
+      + {hide-from-toc}[Trabalhar com assistentes de IA via MCP](using/integrations/ajo-mcp.md)
       + {hide-from-toc}[Trabalhar com integrações](using/integrations/external-sources.md)
    + Assistente de IA para geração de conteúdo {#ai-assistant}
       + [Assistente de IA para geração de conteúdo](/help/rp_landing_pages/ai-assistant-landing-page.md)
