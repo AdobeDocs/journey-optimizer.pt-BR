@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9903089f4a97ee9e427873e95fd1f0bac73b3542
+source-git-commit: 9c337313943b878252db0429aac61443ed1349ea
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3213'
 ht-degree: 91%
 
 ---
@@ -279,7 +279,6 @@ ht-degree: 91%
             + [Crie um conteúdo do zero](using/email/content-from-scratch.md)
             + [Importar seu conteúdo](using/email/existing-content.md)
             + [Programar seu próprio conteúdo](using/email/code-content.md)
-            + [Editar com o editor avançado do HTML](using/email/email-expert-mode.md)
             + [Usar modelos de email](using/email/use-email-templates.md)
             + [Utilizar temas de email](using/email/apply-email-themes.md)
             + [Anexar arquivos PDF a emails](using/email/pdf-attachments.md)
@@ -292,6 +291,7 @@ ht-degree: 91%
             + [Gerenciar a versão de texto](using/email/text-version-email.md)
             + [Otimizar texto de email para caixas de entrada de IA](using/email/llm-email-optimizer.md)
             + [Adicionar metadados](using/email/email-metadata.md)
+            + [Editar com o editor avançado do HTML](using/email/email-expert-mode.md)
          + Editar estilo {#edit-style}
             + [Editar estilo](/help/rp_landing_pages/edit-style-landing-page.md)
             + [Introdução ao estilo de email](using/email/get-started-email-style.md)
@@ -470,7 +470,7 @@ ht-degree: 91%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos de email](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
@@ -505,6 +505,9 @@ ht-degree: 91%
       + [Trabalhar com o Dynamic Media](using/integrations/aem-dynamic.md)
       + [Trabalhar com o GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + {hide-from-toc}[Trabalhar com integrações](using/integrations/external-sources.md)
+      + {hide-from-toc}[Introdução à integração de fornecedores](using/integrations/vendor-integration-gs.md)
+      + {hide-from-toc}[Fornecedores disponíveis](using/integrations/vendor-integration.md)
+      + {hide-from-toc}[Perguntas frequentes](using/integrations/vendor-integration-faq.md)
       + {hide-from-toc}[Trabalhar com assistentes de IA via MCP](using/integrations/ajo-mcp.md)
    + Assistente de IA para geração de conteúdo {#ai-assistant}
       + [Assistente de IA para geração de conteúdo](/help/rp_landing_pages/ai-assistant-landing-page.md)
