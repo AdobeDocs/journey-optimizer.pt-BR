@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: e13b870022fa168da4ee0643dbefad1f99f5f6fa
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2185'
 ht-degree: 14%
 
 ---
@@ -53,6 +53,8 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
    >[!AVAILABILITY]
    >
    >Este recurso está disponível na Disponibilidade Limitada para os canais de **Experiência baseada em código** e **Email**. Para solicitar acesso, entre em contato com o representante da Adobe.
+
+   Ao usar esses fragmentos em suas políticas de decisão, você pode tornar um fragmento opcional para que ele seja ignorado se estiver temporariamente indisponível no Edge. [Saiba como](fragments-decision-policies.md#optional-fragments)
 
 1. Especifique atributos personalizados (opcional). Atributos personalizados são atributos específicos adaptados às suas necessidades que podem ser atribuídos a um item de decisão. Eles são definidos no schema do catálogo dos itens de decisão. [Saiba como trabalhar com catálogos](catalogs.md)
 
