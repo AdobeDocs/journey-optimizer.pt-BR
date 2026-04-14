@@ -6,7 +6,7 @@ description: Data
 redpen-status: CREATED_||_2025-08-11_20-14-40
 exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
 hide: true
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 100%
@@ -21,7 +21,7 @@ As funções de data do Adobe Journey Optimizer permitem que você trabalhe de f
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referência da função “currentTimeInMillis”
 
@@ -31,7 +31,7 @@ Saiba como usar a função “currentTimeInMillis” para recuperar a hora atual
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “inLastDays”
 
@@ -41,7 +41,7 @@ Entenda a função “inLastDays”, que verifica se uma determinada data está 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Usar a função “inLastHours”
 
@@ -51,7 +51,7 @@ Confira a função “inLastHours”, usada para determinar se uma data/hora se 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Usar a função “inLastMonths”
 
@@ -61,7 +61,7 @@ Verifique se uma data está dentro de um intervalo de meses especificado com a f
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Usar a função “inLastYears”
 
@@ -71,7 +71,7 @@ Saiba como usar a função “inLastYears” para avaliar se uma data está dent
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “inNextDays”
 

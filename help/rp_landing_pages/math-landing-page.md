@@ -6,7 +6,7 @@ description: Matemática
 redpen-status: CREATED_||_2025-08-11_20-16-12
 hide: true
 exl-id: 2df9c6ea-be94-475f-9997-16f10db22f03
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
@@ -21,7 +21,7 @@ A seção de matemática do Adobe Journey Optimizer permite que você execute c�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “random”
 
@@ -31,7 +31,7 @@ Saiba como usar a função “random” para gerar números aleatórios entre 0 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função “round”
 
