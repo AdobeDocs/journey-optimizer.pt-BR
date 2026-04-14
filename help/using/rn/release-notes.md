@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+source-git-commit: 7529370ed8308dea4ab39aaf6b7f82f4982933ca
 workflow-type: tm+mt
 source-wordcount: '2482'
 ht-degree: 21%
@@ -129,8 +129,6 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ### Aprimoramentos {#april-26-improv}
 
-#### Otimização do caminho de Jornada
-
 #### Design de email
 
 * **Editor avançado de HTML para conteúdo de email** - O modo Avançado de HTML permite editar a fonte HTML do seu conteúdo no Designer de email, adicionar expressões avançadas (como condições) na fonte e alternar entre o modo de exibição HTML e o modo de exibição Desktop sem perder as alterações.
@@ -138,6 +136,8 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
   Disponível anteriormente somente para modelos de conteúdo de email, esse recurso agora está implantado no conteúdo de **email** no Designer de email (por exemplo, emails criados em jornadas e campanhas), além de modelos de conteúdo de email. No momento, a disponibilidade é limitada — entre em contato com o representante da Adobe para obter acesso. [Leia mais](../email/email-expert-mode.md)
 
   Data de disponibilidade: sexta-feira, 9 de abril de 2026
+
+#### Otimização do caminho de Jornada
 
 * **Tipo de experimento** - Agora é possível escolher entre um experimento A/B (divisão fixa no início) ou um bandit multicampo (divisão automática com atualizações de peso semanais) ao configurar um experimento de caminho. [Leia mais](../building-journeys/path-experimentation.md)
 
