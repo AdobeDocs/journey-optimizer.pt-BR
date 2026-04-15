@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -33,7 +33,7 @@ Essa experiência unificada permite implementar casos de uso completos em um ún
 
 **Observação importante:** o Adobe Journey Optimizer define funções distintas com responsabilidades específicas. Uma única pessoa pode realizar várias funções ou todas as funções, dependendo da estrutura da organização.
 
-## Guias de início rápido com base em funções
+## Guias de início rápido baseados em função
 
 Para simplificar a implementação, o Adobe Journey Optimizer organiza tarefas em funções específicas com base na experiência. Cada função se concentra em tarefas essenciais necessárias para fornecer uma experiência fluida ao cliente.
 
@@ -46,7 +46,7 @@ Para simplificar a implementação, o Adobe Journey Optimizer organiza tarefas e
 
 Cada função aborda uma fase específica da implementação do Adobe Journey Optimizer e garante um processo de implantação estruturado e eficiente.
 
-## Ordem de implementação e Dependências de funções
+## Dependências da ordem de implementação e da função
 
 Uma implementação bem-sucedida do Journey Optimizer normalmente segue essa sequência, o que reflete nas dependências entre as funções:
 
@@ -109,7 +109,7 @@ Como Profissional de marketing ou Profissional de negócios, você cria jornadas
 
 [Introdução para Profissionais de marketing →](path/marketer.md)
 
-### Para Engenheiros de dados {#for-data-engineers}
+### Para engenheiros de dados {#for-data-engineers}
 
 Como Arquiteto(a) ou Engenheiro(a) de dados, você configura e mantém os dados do perfil do cliente e outras fontes de dados que viabilizam as experiências orquestradas pelo Journey Optimizer.
 

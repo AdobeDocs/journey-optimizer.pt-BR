@@ -3,7 +3,7 @@ title: Usar identificadores complementares em jornadas
 description: Saiba como usar identificadores complementares no jornada.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 4%
@@ -222,7 +222,7 @@ Em uma matriz de objetos com a ID complementar como `bookingNum` e um atributo n
 
 Estes exemplos mostram como os identificadores complementares suportam vários registros relacionados.
 
-### **Notificações de Renovação de Política**
+### **Notificações de renovação de política**
 
 * **Cenário**: um provedor de seguro envia lembretes de renovação para cada política ativa mantida por um cliente.
 * **Execução**:

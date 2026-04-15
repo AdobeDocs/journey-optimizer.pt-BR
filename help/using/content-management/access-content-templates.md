@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 9fc43f2e17c256d33f73f21b6b30c4b593087a28
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 3%
@@ -101,7 +101,7 @@ Para navegar facilmente pelos modelos de conteúdo, use pastas para organizá-lo
 >
 >Quando um modelo é editado ou excluído, as campanhas ou jornadas, incluindo o conteúdo criado usando esse modelo, não são afetadas.
 
-## [!BADGE Disponibilidade limitada]{type=Informative} Exibir modelos como miniaturas {#template-thumbnails}
+## [!BADGE Disponibilidade limitada]{type=Informative} exibe modelos como miniaturas {#template-thumbnails}
 
 Selecione o modo de **[!UICONTROL exibição de grade]** para exibir cada modelo como uma miniatura.
 

@@ -7,7 +7,7 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: f0b9eb87608eb8183cf0b08926b1dee695634e11
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 8%
@@ -45,13 +45,13 @@ A documentação completa da API do Adobe Journey Optimizer inclui informações
 
 Acesse a [documentação da API do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"} e procure o menu **Referências de API** para explorar todas as APIs disponíveis.
 
-## APIs da Gestão de decisões {#decision-management-apis}
+## Apis de gestão de decisão {#decision-management-apis}
 
 O Journey Optimizer fornece APIs dedicadas para a Gestão de decisões, permitindo gerenciar ofertas, decisões e posicionamentos de forma programática.
 
 Consulte o [Guia do desenvolvedor da API de Gerenciamento de decisões](../offers/api-reference/getting-started.md) para começar a usar as APIs do Offer Decisioning.
 
-## APIs do Experience Decisioning {#experience-decisioning-apis}
+## Apis do Experience Decisioning {#experience-decisioning-apis}
 
 A Journey Optimizer também oferece APIs do Experience Decisioning para fornecer itens de decisão personalizados por meio de experiências baseadas em código. O Experience Decisioning oferece uma abordagem simplificada de personalização com itens de decisão, regras de elegibilidade e estratégias de seleção.
 

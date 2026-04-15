@@ -7,7 +7,7 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
-source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 2%
@@ -297,7 +297,7 @@ Depois que o conteúdo for gerado, use o recurso **Refinar** para iterar e aprim
 | **Alterar Tom** | Adaptar conteúdo para públicos diferentes | &quot;Mude o tom para mais casual para o público mais jovem&quot; |
 | **Transcriar** | Adaptação cultural além da tradução | &quot;Transcriar esta campanha para o mercado japonês&quot; |
 
-## Exemplos de Prompt Baseados em Cenário
+## Exemplos de prompt baseados em cenário
 
 ### Com base no tipo de conteúdo {#content-type-practices}
 

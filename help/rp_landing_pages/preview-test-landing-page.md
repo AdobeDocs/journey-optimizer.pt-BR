@@ -5,8 +5,8 @@ title: Visualizar e testar conteúdo
 description: Validar a precisão da mensagem antes do lançamento. Visualize o conteúdo personalizado com perfis de teste, envie provas para as partes interessadas, verifique a renderização de emails nos clientes, avalie as pontuações de spam e teste múltiplas variações de conteúdo com eficiência.
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 6b83b015dfd74da9eb58bd06958d0963d81c6489
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Descubra como selecionar e gerenciar perfis de teste para visualizar e testar o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Visualizar o conteúdo usando perfis de teste
 
@@ -78,7 +78,7 @@ Integre o Litmus para pré-visualizar a renderização de email em clientes de e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Como simular e testar variações de conteúdo
 

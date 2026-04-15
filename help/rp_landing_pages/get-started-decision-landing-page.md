@@ -6,10 +6,10 @@ description: Introdução à Gestão de decisões
 redpen-status: CREATED_||_2025-08-11_20-58-31
 badge: label="Legado" type="Informative"
 exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ A Gestão de decisões do Adobe Journey Optimizer permite que os profissionais d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução à gestão de decisões
 
@@ -45,7 +45,7 @@ Entenda as restrições operacionais e os limites de desempenho da Gestão de de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Guia da interface da Biblioteca de ofertas
 
@@ -75,7 +75,7 @@ Descubra como refinar os critérios de elegibilidade e personalizar ofertas usan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Usar ofertas personalizadas em um email
 

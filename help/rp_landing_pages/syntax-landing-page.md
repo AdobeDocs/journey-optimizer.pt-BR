@@ -5,10 +5,10 @@ title: Sintaxe
 description: Sintaxe
 redpen-status: CREATED_||_2025-08-11_20-10-54
 exl-id: 7f9a648a-5b4b-4ca0-a4db-47e1fa657864
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Confira os recursos potentes de sintaxe do editor de expressões avançadas do Adobe Journey Optimizer, onde você pode criar expressões precisas e dinâmicas para ajustar as jornadas do cliente. Esteja você organizando dados complexos com operadores, consultando coleções ou aplicando uma lógica condicional, as ferramentas de sintaxe fornecem a flexibilidade para adaptar-se a casos do mundo real. Explore tópicos importantes, como referências de campo para acessar dados, tipos de dados para garantir a precisão e propriedades da jornada para personalização em tempo real. Cada conceito baseia-se no anterior, criando um kit de ferramentas coeso para criar jornadas mais inteligentes e eficazes. Vamos explorar todas as possibilidades? Vamos começar.
 
-## Sintaxe: criar expressões no Adobe Journey Optimizer
+## Sintaxe: expressões de build no Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
@@ -60,7 +60,7 @@ Entenda como fazer referência a campos em expressões, incluindo casos de uso a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Funções de gerenciamento de coleções
 
@@ -70,7 +70,7 @@ Explore funções como “all”, “first”, “last” e “at” para manipu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Operadores em expressões avançadas
 

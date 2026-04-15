@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 0%
@@ -161,7 +161,7 @@ Depois de executar os testes e validar o conteúdo, você pode [enviar a campanh
 
 O Adobe Experience Manager permite identificar as campanhas ou jornadas do Journey Optimizer em que um fragmento de conteúdo está sendo usado. Saiba mais em [documentação do Adobe Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}.
 
-## Trabalhar com variações de Fragmento de conteúdo {#aem-variations}
+## Trabalhar com variações de fragmento de conteúdo {#aem-variations}
 
 No Adobe Experience Manager, cada fragmento de conteúdo é composto do seguinte:
 

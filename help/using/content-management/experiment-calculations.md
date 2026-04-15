@@ -9,7 +9,7 @@ role: User
 level: Experienced
 keywords: conteúdo, experimento, estatístico, cálculo
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Este artigo descreve como a experimentação funciona e fornece uma introdução
 
 Para usuários especialistas, os detalhes técnicos e as referências estão detalhados em [esta página](../content-management/assets/confidence_sequence_technical_details.pdf).
 
-## Teste estatístico e controle de erros {#statistical-testing}
+## Teste estatístico e erros de controle {#statistical-testing}
 
 Quando você executa um experimento você está tentando determinar se há uma diferença entre duas populações e a probabilidade de que a diferença se deve ao acaso.
 
@@ -50,7 +50,7 @@ A tabela acima ilustra os diferentes tipos de erros:
 
 A maioria das técnicas de inferência estatística exigirá que você corrija o tamanho da amostra antecipadamente, com base no tamanho do efeito que deseja determinar, bem como na tolerância a erros (`\alpha` e `\beta`) antecipadamente. No entanto, a metodologia da Adobe Journey Optimizer foi projetada para permitir que você verifique continuamente seus resultados, para qualquer tamanho de amostra.
 
-## Metodologia Estatística da Adobe: Sequências de confiança válidas a qualquer momento
+## Metodologia estatística do Adobe: sequências de confiança válidas a qualquer momento
 
 Uma **Sequência de confiança** é um análogo sequencial de um **Intervalo de confiança**, por exemplo, se você repetir seus experimentos cem vezes e calcular uma estimativa da métrica média e sua sequência associada de 95% de confiança para cada novo usuário que entra no experimento. Uma sequência de confiança de 95% incluirá o valor real da métrica em 95 dos 100 experimentos executados. Um intervalo de confiança de 95% só pode ser calculado uma vez por experimento a fim de dar a mesma garantia de cobertura de 95%; não com cada novo usuário. As Sequências de confiança permitem, portanto, monitorar continuamente os experimentos sem aumentar as taxas de erro de falso positivo.
 
@@ -70,7 +70,7 @@ Os fundamentos teóricos de **Sequências de confiança** vêm do estudo de sequ
 
 É importante observar que, como as sequências de confiança são &quot;válidas a qualquer momento&quot;, elas serão mais conservadoras do que uma metodologia de horizonte fixo usada no mesmo tamanho de amostra. Os limites da sequência de confiança geralmente são mais amplos do que um cálculo de intervalo de confiança, enquanto a confiança válida a qualquer momento será menor do que um cálculo de confiança de horizonte fixo. O benefício deste conservadorismo é que você pode interpretar com segurança seus resultados em todos os momentos.
 
-## Declarar um experimento como conclusivo
+## Declaração de que uma experiência é conclusiva
 
 ![](assets/experimentation_report_2.png)
 

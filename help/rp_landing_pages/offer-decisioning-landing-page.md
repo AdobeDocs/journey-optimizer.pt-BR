@@ -6,10 +6,10 @@ description: Gestão de decisões
 redpen-status: CREATED_||_2025-08-11_21-05-09
 badge: label="Legado" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 
 A Gestão de decisões no Adobe Journey Optimizer permite que você entregue a oferta certa para o público-alvo certo no momento perfeito. Ao combinar ferramentas para criar ofertas personalizadas, classificá-las de forma inteligente usando IA ou regras personalizadas e analisar o feedback em tempo real, você pode criar experiências do cliente contínuas e orientadas por dados em todos os canais. Esta seção orienta você na criação de componentes essenciais, como inserções e regras de decisão, na integração de dados de contexto e evento para direcionamento preciso e no aproveitamento de APIs para fluxos de trabalho avançados. Esteja você projetando campanhas de email ou otimizando interações na Web, obterá insights e estratégias úteis para melhorar seus recursos de decisão.
 
-## Recursos da gestão de decisões
+## Recursos de gestão de decisão
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à gestão de decisões
 
@@ -35,7 +35,7 @@ Saiba mais sobre os fundamentos da Gestão de decisões, incluindo componentes, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Criar e gerenciar componentes de decisão
 
@@ -45,7 +45,7 @@ Descubra como criar posicionamentos, regras de decisão e qualificadores de cole
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Criar e otimizar classificações
 

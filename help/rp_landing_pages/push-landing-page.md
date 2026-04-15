@@ -5,7 +5,7 @@ title: Canal de notificação por push
 description: Canal de notificação por push
 redpen-status: CREATED_||_2025-08-11_20-37-12
 exl-id: 8d82ef2f-91ee-4502-9a01-f66ccbd55fea
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
@@ -25,12 +25,12 @@ As notificações por push podem ser criadas:
 
 * Em uma **Jornada**: depois de adicionar uma atividade de Push na jornada e definir as configurações básicas, use o painel direito **[!UICONTROL Ações: Push]** para criar o conteúdo das notificações por push. [Saiba como criar uma jornada](../using/building-journeys/journey-gs.md)
 
-* Em uma **Campanha**: depois de criar uma campanha, selecione Notificação por push como sua ação e defina configurações básicas. [Saiba como criar uma campanha](../using/campaigns/create-campaign.md#configure)
+* Em uma **Campanha**: depois de criar uma campanha, selecione notificação por push como sua ação e defina configurações básicas. [Saiba como criar uma campanha](../using/campaigns/create-campaign.md#configure)
 
 
 >[!NOTE]
 >
->Embora o **[!DNL Journey Optimizer]** forneça maneiras de gerenciar a opção de não participação em emails e mensagens SMS, as notificações por push não exigem nenhuma ação da sua parte, pois os destinatários podem cancelar inscrição por meio dos seus próprios dispositivos. Por exemplo, ao baixar ou ao usar seu aplicativo, eles podem optar por parar as notificações. Da mesma forma, é possível alterar as configurações de notificação por meio do sistema operacional móvel.
+>Embora o **[!DNL Journey Optimizer]** forneça maneiras de gerenciar a opção de não participação em emails e mensagens SMS, as notificações por push não exigem nenhuma ação da sua parte, pois os destinatários podem cancelar inscrição por meio dos seus próprios dispositivos. Por exemplo, ao baixar ou ao usar seu aplicativo, é possível optar por parar as notificações. Da mesma forma, é possível alterar as configurações de notificação por meio do sistema operacional móvel.
 
 
 ## Canal de notificação por push
@@ -38,7 +38,7 @@ As notificações por push podem ser criadas:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar e configurar notificações por push
 
@@ -48,7 +48,7 @@ Guia passo a passo para criar e configurar notificações por push, incluindo o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Criar a notificação por push
 
@@ -68,7 +68,7 @@ Saiba como visualizar, validar e enviar notificações por push, garantindo o su
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuração de notificações por push
 

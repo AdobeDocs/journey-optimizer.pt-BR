@@ -5,22 +5,22 @@ title: Criar expressões
 description: Criar expressões
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
-source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Criar expressões{#section-overview}
 
-O Adobe Journey Optimizer inclui um **editor de expressões avançadas**, que permite criar uma lógica complexa em jornadas, oferecendo uma personalização e uma orquestração precisas. Você pode definir condições, mapear parâmetros de ação e transformar eventos ou dados externos em uma lógica acionável. Esta seção fornece orientações detalhadas sobre a sintaxe de expressões, incluindo operadores, tipos de dados e fluxos de trabalho condicionais, bem como funções para tarefas como agregação de dados, tratamento de datas e manipulação de strings. Essas ferramentas permitem casos de uso avançados e oferecem aos usuários técnicos a flexibilidade de adaptar as jornadas às necessidades específicas da empresa.
+O Adobe Journey Optimizer inclui um **editor de expressões avançadas**, que permite criar uma lógica complexa em jornadas, oferecendo uma personalização e uma orquestração precisas. Você pode definir condições, mapear parâmetros de ação e transformar eventos ou dados externos em uma lógica acionável. Esta seção fornece orientações detalhadas sobre a sintaxe de expressões, incluindo operadores, tipos de dados e fluxos de trabalho condicionais, bem como funções para tarefas como agregação de dados, tratamento de datas e manipulação de strings. Essas ferramentas permitem casos de uso avançados e oferecem aos usuários técnicos a flexibilidade de adaptar as jornadas a necessidades empresariais específicas.
 
-## Explore a criação de expressões no Adobe Journey Optimizer
+## Explorar a criação de expressões no Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Usar o editor de expressões avançadas
 
@@ -51,7 +51,7 @@ Acesse um guia abrangente sobre funções para manipulação de dados, avaliaç�
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Exemplos de consultas em conjuntos de dados do Journey Optimizer e casos de uso relacionados
 
@@ -61,7 +61,7 @@ Acesse exemplos práticos de consultas SQL para analisar e gerenciar dados em co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Exemplo de consultas SQL para análise de dados
 

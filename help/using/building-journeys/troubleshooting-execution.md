@@ -10,7 +10,7 @@ level: Intermediate
 keywords: solução de problemas, solução de problemas, jornada, verificação, erros
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2205'
 ht-degree: 11%
@@ -137,7 +137,7 @@ Se as pessoas físicas continuarem percorrendo o caminho certo na jornada, mas n
 
 No caso de uma mensagem enviada por meio de uma ação personalizada, a única coisa que pode ser verificada durante o teste de jornada é o fato de a chamada do sistema da ação personalizada causar ou não um erro. Se a chamada para o sistema externo associada à ação personalizada não causar um erro, mas não enviar a mensagem, algumas investigações devem ser feitas por parte do sistema externo.
 
-## Noções básicas sobre entradas duplicadas em Eventos de etapa de Jornada {#duplicate-step-events}
+## Noções básicas de entradas duplicadas em eventos de etapa de Jornada {#duplicate-step-events}
 
 Use esta seção para entender por que as linhas duplicadas podem aparecer nos Eventos de etapa de Jornada.
 

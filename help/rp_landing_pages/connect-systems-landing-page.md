@@ -5,7 +5,7 @@ title: Conectar sistemas e ambientes
 description: Conectar sistemas e ambientes
 redpen-status: CREATED_||_2025-08-11_21-18-12
 exl-id: fe784f79-f8a2-4091-a5f0-3e44a1838c1c
-source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 O Adobe Journey Optimizer permite que você conecte os seus sistemas e ambientes de maneira contínua, garantindo que as jornadas do cliente sejam aprimoradas com os dados e as ferramentas certas em cada etapa. Quer esteja integrando a outras soluções da Adobe ou plataformas de terceiros, ou quer esteja utilizando APIs, você descobrirá como unificar fluxos de trabalho, personalizar experiências e simplificar processos. Analise tópicos como usar sandboxes para gerenciar ambientes, vincular sistemas externos para enriquecimento de dados ou ativar insights orientados por IA para um marketing mais inteligente. Cada seção foi projetada para ajudar a desbloquear novas possibilidades, facilitando a criação de experiências coesas e impactantes para o cliente em todo o seu ecossistema conectado.
 
-## Conectar os seus sistemas e ambientes
+## Conectar sistemas e ambientes
 
 :::: landing-cards-container
 :::
@@ -60,7 +60,7 @@ Configure o Adobe Journey Optimizer para integrar-se ao Adobe Campaign, Marketo 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gerenciamento de sandboxes do Adobe Journey Optimizer
 

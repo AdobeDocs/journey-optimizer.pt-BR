@@ -6,16 +6,17 @@ description: Saiba como o Adobe Journey Optimizer funciona com o Adobe Experienc
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
+exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # Noções básicas sobre o Journey Optimizer {#understanding-ajo}
 
-O Adobe Journey Optimizer e o Adobe Experience Platform trabalham juntos para permitir a personalização orientada por dados em escala. Esta página explica como esses sistemas operam e como suas principais áreas funcionais se combinam para fornecer experiências excepcionais ao cliente. [Saiba mais sobre os principais recursos](get-started.md) | [Explorar a terminologia principal](terminology.md)
+O Adobe Journey Optimizer e o Adobe Experience Platform trabalham juntos para permitir a personalização orientada por dados em escala. Esta página explica como esses sistemas operam e como suas principais áreas funcionais se combinam para fornecer experiências excepcionais ao cliente. [Saiba mais sobre os principais recursos](get-started.md) | [Explore a terminologia principal](terminology.md)
 
 ## Como o Journey Optimizer funciona {#how-it-works}
 
@@ -42,13 +43,13 @@ O Adobe Journey Optimizer aplica os dados e insights do Adobe Experience Platfor
 * **Entrega (Conexões)** - Entrega mensagens por canais como email, SMS, notificações por push e correspondência direta; exporta dados para sistemas externos. [Configurar canais](../configuration/get-started-configuration.md)
 * **Avaliação e análise** - Acompanha o engajamento do cliente e o desempenho da campanha com relatórios para melhoria contínua. [Exibir relatórios](../reports/campaign-global-report-cja.md)
 
-### O ciclo de otimização contínua {#optimization-cycle}
+### O ciclo de otimização contínuo {#optimization-cycle}
 
 Esse ecossistema opera como um ciclo de otimização contínuo. Os dados impulsionam a compreensão do cliente, que informa o conteúdo personalizado e as decisões. Eles são orquestrados em jornadas, distribuídos em canais, medidos para eficiência e refinados ao longo do tempo.
 
 ![](../assets/do-not-localize/get-started-flow.png)
 
-## Áreas Funcionais Principais {#functional-areas}
+## Principais áreas funcionais {#functional-areas}
 
 O Journey Optimizer inclui sete áreas funcionais principais que funcionam em conjunto perfeitamente:
 
@@ -62,7 +63,7 @@ O Journey Optimizer inclui sete áreas funcionais principais que funcionam em co
 | **Conexões** | Conectar fontes de dados e canais | Configure conectores de origem, configure canais e conecte a plataformas externas. [Saiba mais](../configuration/get-started-configuration.md) |
 | **Administração e Privacidade** | Configuração e conformidade do controle | Gerencie usuários, configure sandboxes, configure canais e lide com solicitações de privacidade. [Saiba mais](../administration/permissions.md) |
 
-### Como Essas Áreas Trabalham Juntas {#working-together}
+### Como essas áreas funcionam juntas {#working-together}
 
 Estas áreas funcionais operam em um ciclo contínuo:
 

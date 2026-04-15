@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -194,7 +194,7 @@ Todas as notificações de jornada disponíveis na interface do usuário estão 
 >
 >Os alertas específicos do Adobe Journey Optimizer se aplicam somente às jornadas **live**. Os alertas não são acionados para jornadas no modo de teste.
 
-### Falha ao ler o acionador de público-alvo {#alert-read-audiences}
+### Acionador Ler público-alvo sem sucesso {#alert-read-audiences}
 
 Este alerta avisa se uma atividade **Ler público-alvo** não processou nenhum perfil 10 minutos após o horário agendado de execução. Essa falha pode ser causada por problemas técnicos ou porque o público-alvo está vazio. Se essa falha for causada por problemas técnicos, esteja ciente de que ainda podem ocorrer tentativas, dependendo do tipo de problema (por exemplo: se a criação do trabalho de exportação falhar, tentaremos novamente a cada 10mn para um máximo de 1h).
 
@@ -206,7 +206,7 @@ O nome de inscrição do evento de E/S correspondente ao alerta **Falha no Acion
 
 Para solucionar problemas de alertas do **Read Audience**, verifique o contagem de público-alvo na interface do Experience Platform.
 
-### Taxa de descarte do perfil excedida {#alert-discard-rate}
+### Taxa de descarte de perfil excedida {#alert-discard-rate}
 
 Esse alerta avisará se a proporção de descartes de perfil em relação aos perfis inseridos nos últimos 5 minutos exceder o limite. O limite padrão está definido como 20%, mas você pode [definir um limite personalizado](#custom-threshold).
 
@@ -240,7 +240,7 @@ Podem ocorrer erros de ações personalizadas por vários motivos. Para solucion
 * Verifique se o endpoint pode ser acessado e se a ação personalizada pode acessá-lo por meio do verificador de conectividade da ação personalizada.
 * Verifique as credenciais de autenticação, verifique a conectividade com a Internet etc.
 
-### Taxa de erros do perfil excedida {#alert-profile-error-rate}
+### Taxa de erros de perfil excedida {#alert-profile-error-rate}
 
 Esse alerta avisará se a proporção de perfis com erro em relação aos perfis inseridos nos últimos 5 minutos exceder o limite. O limite padrão está definido como 20%, mas você pode [definir um limite personalizado](#custom-threshold).
 

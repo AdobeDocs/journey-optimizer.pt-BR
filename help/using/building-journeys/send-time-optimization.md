@@ -10,7 +10,7 @@ level: Intermediate
 keywords: send-time, send, message, otimization, jornada, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 9%
@@ -45,7 +45,7 @@ A Otimização de tempo de envio está disponível apenas para os tipos de açã
 >* A Otimização de Tempo de Envio se aplica somente aos canais de **Email** e **Notificação por push**.
 >
 
-## Usar otimização de hora de envio{#use-send-time-optimization}
+## Usar otimização de tempo de envio{#use-send-time-optimization}
 
 Para ativar e configurar a Otimização de tempo de envio em um email ou ação por push, siga as etapas abaixo.
 
@@ -75,7 +75,7 @@ Quando sua jornada é ativada e um cliente atinge a ação de Email ou Push na j
 
 Para monitorar o desempenho da sua jornada, consulte a [página de Visão geral](../reports/channel-report-cja.md).
 
-## Como funciona a Otimização de tempo de envio {#how-send-time}
+## Como funciona a otimização de tempo de envio {#how-send-time}
 
 O modelo de Otimização de tempo de envio assimila os dados de comportamento do cliente [!DNL Adobe Journey Optimizer] da sua organização e examina eventos de abertura e de clique no nível do usuário para determinar quando seus clientes têm maior probabilidade de interagir com suas mensagens.
 

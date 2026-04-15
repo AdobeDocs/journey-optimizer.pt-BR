@@ -10,7 +10,7 @@ role: User
 level: Beginner
 keywords: assets, integração
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 18%
@@ -41,7 +41,7 @@ Para acessar o menu **[!DNL Adobe Express]**, acesse suas **configurações de i
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
-## Uso do Adobe Express com uma licença Enterprise {#licence}
+## Uso do Adobe Express com uma licença corporativa {#licence}
 
 Os recursos detalhados nas seções abaixo podem ser acessados por usuários sem uma licença do Adobe Express Enterprise.
 
@@ -51,7 +51,7 @@ Com uma licença Enterprise, os usuários têm acesso total ao editor da Web do 
 
 Para obter mais informações sobre casos de uso disponíveis para usuários com uma licença Enterprise para Adobe Express, consulte a [documentação da Adobe Express na Web](https://helpx.adobe.com/br/express/web.html).
 
-## Uso do Adobe Express sem uma licença Enterprise  {#edit}
+## Uso do Adobe Express sem uma licença corporativa  {#edit}
 
 Sem uma licença Enterprise, os usuários têm acesso aos seguintes casos de uso disponíveis com o Adobe Express:
 

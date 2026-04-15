@@ -1,15 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Principal terminologia
+title: Terminologia principal
 description: Termos e conceitos essenciais no Adobe Journey Optimizer
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -48,7 +49,7 @@ Este guia de referência define os termos essenciais que você encontrará ao us
 | **Público-alvo envolvente** | O número de perfis de clientes que você pode contatar ativamente por meio do Adobe Journey Optimizer com base no contrato de licença. Normalmente, refere-se aos perfis envolvidos nos últimos 12 meses. |
 | **Perfil de Teste** | Perfis fictícios usados para testar e visualizar mensagens antes de enviá-las para clientes reais. Os perfis de teste ajudam a verificar a personalização, o conteúdo e a lógica da jornada. [Saiba mais](../audience/creating-test-profiles.md) |
 
-## Termos de conteúdo e Personalization {#content-terms}
+## Termos de conteúdo e personalização {#content-terms}
 
 | Termo | Definição |
 |------|------------|
@@ -78,7 +79,6 @@ Este guia de referência define os termos essenciais que você encontrará ao us
 
 ## Tópicos relacionados {#related-topics}
 
-* [Entender como o Journey Optimizer funciona](understanding-ajo.md)
+* [Noções básicas sobre como o Journey Optimizer funciona](understanding-ajo.md)
 * [Introdução à interface do usuário](user-interface.md)
 * [Escolha sua função e o caminho de aprendizagem](quick-start.md)
-

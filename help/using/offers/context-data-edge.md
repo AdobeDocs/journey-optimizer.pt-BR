@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -42,7 +42,7 @@ Para ir além, você também pode aproveitar os dados de contexto em **fórmulas
 
 >[!ENDSHADEBOX]
 
-## Pré-requisitos para transmitir dados de contexto em solicitações do Edge Decisioning {#prerequisites}
+## Pré-requisitos para transmitir dados de contexto em solicitações de decisão de borda {#prerequisites}
 
 Ao contrário da transmissão de contexto em um formato livre usando a API de decisão, o contexto do Edge Decisioning requer conformidade com o XDM. A carga do contexto precisa ser compatível com o Evento de experiência XDM. Para fazer isso, o contexto precisa ser definido como parte do &quot;Evento de experiência XDM&quot; usado para a coleta de dados.
 

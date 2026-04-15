@@ -5,7 +5,7 @@ title: Campanhas acionadas por API
 description: Campanhas acionadas por API
 redpen-status: CREATED_||_2025-08-11_20-23-06
 exl-id: f98e85b4-8d8a-4a9a-b814-59aa3759e534
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
@@ -60,7 +60,7 @@ Personalize o conteúdo da campanha com base em dados contextuais. Saiba como pr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Definir o público-alvo de uma campanha acionada por API
 

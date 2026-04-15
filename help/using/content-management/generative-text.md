@@ -7,7 +7,8 @@ feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+exl-id: 9dd3970c-cf24-424c-b734-f30571374942
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1605'
 ht-degree: 2%
@@ -21,7 +22,7 @@ ht-degree: 2%
 >Antes de começar a usar esse recurso, consulte as [Medidas de proteção e limitações](gs-generative.md#generative-guardrails) relacionadas.
 ></br>
 >
->Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
+>Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
 
 Use o Assistente de IA no Journey Optimizer para gerar conteúdo de texto envolvente que repercuta com seu público-alvo. Não importa se você precisa aprimorar a cópia de email, criar conteúdo atraente na Web, criar texto de página de aterrissagem persuasivo, escrever mensagens de notificação por push ou redigir mensagens SMS: o Assistente de IA ajuda a fornecer texto impactante.
 
@@ -211,4 +212,3 @@ Depois de gerar variações de texto para suas mensagens móveis, você pode aju
 1. Insira campos de personalização para personalizar seu conteúdo com base nos dados de perfis. Em seguida, clique no botão **[!UICONTROL Simular conteúdo]** para controlar a renderização e verificar as configurações de personalização com perfis de teste. [Saiba mais](../personalization/personalize.md)
 
 Depois de definir seu conteúdo, público-alvo e programação, você estará pronto para preparar sua campanha via celular. [Saiba mais](../campaigns/review-activate-campaign.md)
-

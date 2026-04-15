@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: d1f651eeb9401e4344f5bff12e6b706ff0080320
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 10%
@@ -64,7 +64,7 @@ Para poder abrir, criar e visualizar suas páginas da Web de maneira confiável 
 >
 >O Google Chrome e o Microsoft Edge são os únicos navegadores com suporte para a criação de páginas da Web no [!DNL Journey Optimizer].
 
-### Instalar a extensão Auxiliar de edição visual {#install-visual-editing-helper}
+### Instalar a extensão auxiliar de edição visual {#install-visual-editing-helper}
 
 Para baixar e instalar a extensão de navegador Auxiliar de edição visual, siga as etapas abaixo.
 

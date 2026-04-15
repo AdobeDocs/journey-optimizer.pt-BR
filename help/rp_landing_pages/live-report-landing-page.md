@@ -5,10 +5,10 @@ title: Relatório em tempo real
 description: Relatório em tempo real
 redpen-status: CREATED_||_2025-08-11_20-47-56
 exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 O recurso de relatório em tempo real do Adobe Journey Optimizer permite rastrear e analisar o desempenho em tempo real das suas campanhas, jornadas e mensagens, tudo em um painel dinâmico e personalizável. Queira você monitorar o engajamento dos emails, as taxas de entrega de SMS ou as conversões de páginas de destino, os relatórios em tempo real oferecem insights claros para ajudar a otimizar os resultados. Você aprenderá a personalizar painéis de acordo com as suas necessidades, exportar dados para uma análise mais profunda e explorar métricas detalhadas em diferentes canais de comunicação. Confira os tópicos derivados, como relatórios de jornadas e campanhas, para descobrir tendências acionáveis, identificar problemas e tomar decisões orientadas por dados com confiança.
 
-## Recursos do relatório em tempo real
+## Recursos do relatório ao vivo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao relatório em tempo real
 
@@ -30,7 +30,7 @@ Saiba como acessar, personalizar e exportar relatórios em tempo real para monit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Lista de métricas
 

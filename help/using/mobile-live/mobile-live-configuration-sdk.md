@@ -7,7 +7,7 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 1%
@@ -70,7 +70,7 @@ import AEPMessagingLiveActivity
 import ActivityKit
 ```
 
-## Etapa 2: definir seus atributos de atividade Live {#attributes}
+## Etapa 2: definir os atributos de atividade online {#attributes}
 
 Crie uma estrutura que esteja em conformidade com o protocolo `LiveActivityAttributes`. Isso define o estado dos dados estáticos e do conteúdo dinâmico para a atividade Live.
 
@@ -132,7 +132,7 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## Etapa 3: Registrar atividade Live {#register}
+## Etapa 3: registrar atividade online {#register}
 
 Registre seus tipos de atividade Live no `AppDelegate` após a inicialização do SDK. Isso permite:
 
@@ -148,7 +148,7 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## Etapa 4: Criar widgets de atividade ao vivo {#widgets}
+## Etapa 4: criar widgets de atividade em tempo real {#widgets}
 
 Uma atividade Live é exibida por meio de widgets. Você precisa criar um pacote de widget e uma configuração:
 
@@ -187,7 +187,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 }
 ```
 
-## Etapa 5: iniciar uma atividade Live localmente (opcional) {#local}
+## Etapa 5: iniciar uma atividade online localmente (opcional) {#local}
 
 Embora o Journey Optimizer possa iniciar atividades online remotamente, você também pode iniciá-las localmente:
 

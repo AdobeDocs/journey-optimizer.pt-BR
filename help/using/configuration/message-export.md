@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: exportação, mensagens, HIPAA, emails, SMS, configuração
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 11%
@@ -70,7 +70,7 @@ Para obter etapas detalhadas, destinos na nuvem com suporte, permissões necess�
    * Formato de arquivo: selecione JSON ou Parquet (escolha um com base nas ferramentas downstream).
    * Programar: verifique se ele é executado dentro da janela de retenção de 7 dias.
 
-### Ativar Exportação de mensagens na configuração do canal {#config-message-export}
+### Ativar exportação de mensagens na configuração do canal {#config-message-export}
 
 Para aplicar a Exportação de mensagens às suas campanhas e jornadas, é necessário habilitar a opção dedicada no nível de configuração do canal. Siga as etapas abaixo.
 

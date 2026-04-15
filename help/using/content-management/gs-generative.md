@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 91%
@@ -140,7 +140,7 @@ As diretrizes gerais para usar o Assistente de IA do Adobe Journey Optimizer na 
 * O uso do Assistente de IA está sujeito às diretrizes do usuário para IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR)
 * Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/br/firefly/using/content-credentials.html)
 
-### Assistente de IA no editor do Personalization {#ai-assistant-personalization-editor-guardrails}
+### Assistente de IA no editor de personalização {#ai-assistant-personalization-editor-guardrails}
 
 As seguintes medidas de proteção se aplicam ao [Assistente de IA para expressões de personalização](generative-personalization-expressions.md) no [!UICONTROL Editor do Personalization].
 

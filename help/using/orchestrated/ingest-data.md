@@ -5,7 +5,7 @@ title: Etapas de configuração
 description: Saiba como trazer dados para a Adobe Experience Platform de fontes compatíveis, como SFTP, armazenamento na nuvem ou bancos de dados.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 21%
@@ -25,7 +25,7 @@ A Adobe Experience Platform permite a assimilação de dados de fontes externas,
 
 Um conjunto de dados é uma construção de armazenamento e gerenciamento para uma coleção de dados, normalmente uma tabela, que contém um esquema (colunas) e campos (linhas). Os dados assimilados com sucesso na Experience Platform são armazenados no data lake como conjuntos de dados.
 
-## Fontes compatíveis para campanhas orquestradas {#supported}
+## Fontes compatíveis com campanhas orquestradas {#supported}
 
 As seguintes origens são compatíveis com o uso de campanhas orquestradas:
 

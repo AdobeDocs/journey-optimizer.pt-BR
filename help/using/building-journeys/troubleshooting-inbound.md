@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ações de entrada, solução de problemas, jornada, depurar, autoajuda, verificação, erros
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 1%
@@ -71,7 +71,7 @@ O gráfico abaixo mostra a sequência de etapas de depuração que você pode se
 
 ![Fluxo de trabalho de solução de problemas para mensagem de entrada não sendo exibida: verifique a jornada, a entrega de borda e o perfil](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
 
-### Etapa 1: verifique se o dispositivo/cliente está recebendo o conteúdo do Edge Network {#step-1}
+### Etapa 1: verificar se o dispositivo/cliente está recebendo o conteúdo da rede de borda {#step-1}
 
 Comece verificando se o dispositivo/cliente está obtendo o conteúdo esperado.
 
@@ -99,7 +99,7 @@ Execute uma solicitação de curl usando a [API do Adobe](https://developer.adob
 
 >[!ENDTABS]
 
-### Etapa 2: verifique se o Edge Network está retornando o conteúdo {#step-2}
+### Etapa 2: verificar se a rede de borda está retornando o conteúdo {#step-2}
 
 Essa etapa é para garantir que o Edge Network retorne o conteúdo de entrada esperado para ser renderizado no dispositivo/cliente.
 
@@ -131,7 +131,7 @@ Para depurar o comportamento do Edge Network, siga as etapas abaixo.
 
 1. Se o servidor de entrega do Edge Network não exibir o perfil como estando no segmento **joai** relevante, vá para a próxima etapa.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
-### Etapa 3: verifique se a associação de público-alvo &quot;joai&quot; se propagou para a Edge Network {#step-3}
+### Etapa 3: verifique se a associação de público-alvo &quot;joai&quot; se propagou para a rede de borda {#step-3}
 
 Esta etapa é para verificar se o perfil do Edge foi atualizado corretamente quando o perfil entrou na ação de jornada de entrada e o perfil foi qualificado no segmento **joai** correspondente.
 
@@ -165,7 +165,7 @@ Para verificar a presença do segmento **joai** no atributo `segmentMembership` 
 
 <!--The next step is to check whether the audience segment is present in the profile on the Hub.-->
 
-### Etapa 4: verifique se a associação de público-alvo &quot;joai&quot; está presente no perfil no Hub {#step-4}
+### Etapa 4: verifique se a associação de público-alvo &quot;joai&quot; está presente no perfil no hub {#step-4}
 
 Esta etapa é para verificar se o perfil de Hub foi atualizado corretamente quando o perfil entrou na ação de jornada de entrada e o perfil foi qualificado no segmento **joai** correspondente.
 

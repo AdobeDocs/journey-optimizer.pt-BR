@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 1%
@@ -135,7 +135,7 @@ A tabela **[!UICONTROL Erros de saída]** permite que você aponte os erros prec
 
 A tabela **[!UICONTROL Exclusões de saída]** apresenta uma exibição abrangente dos diferentes fatores que resultaram na exclusão de perfis de usuário do público-alvo direcionado, resultando no não recebimento da mensagem.
 
-## Limite de Jornada e Conflitos {#rule-sets}
+## Limite de jornada e conflitos {#rule-sets}
 
 A tabela **[!UICONTROL Conflitos e Limite de Jornada]** fornece informações sobre o desempenho dos conjuntos de regras de arbitragem de jornada, mostrando entradas e exclusões de jornada com base nas regras de limite e pontuações de prioridade aplicadas às suas jornadas.
 

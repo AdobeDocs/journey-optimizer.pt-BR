@@ -5,7 +5,7 @@ title: Fragmentos de conteúdo reutilizáveis
 description: Fragmentos de conteúdo reutilizáveis
 redpen-status: CREATED_||_2025-08-12_00-39-41
 exl-id: 8ec67807-8bcb-4510-bcba-ccf6e710ceb9
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
@@ -50,7 +50,7 @@ Descubra como salvar conteúdos como fragmentos visuais ou de expressão reutili
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Usar de fragmentos personalizáveis
 

@@ -10,14 +10,14 @@ role: Developer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 3%
 
 ---
 
-# Fornecer ofertas usando a API do Edge Decisioning {#edge-decisioning-api}
+# Entregar ofertas usando a API de decisão de borda {#edge-decisioning-api}
 
 >[!TIP]
 >
@@ -68,7 +68,7 @@ Para personalizar ofertas, você deve configurar separadamente seus perfis/perso
 
 Para configurar a SDK para a gestão de decisões, siga uma das duas etapas abaixo:
 
-## Opção 1 - Instalar a extensão e a implementação da tag usando o Launch
+## Opção 1 - instalar a extensão e a implementação de tag usando o launch
 
 Essa opção é mais fácil de usar para pessoas que podem ter menos experiência em codificação.
 

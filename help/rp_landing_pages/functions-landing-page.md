@@ -5,7 +5,7 @@ title: Lista de funções auxiliares
 description: Lista de funções auxiliares
 redpen-status: CREATED_||_2025-08-12_00-34-42
 exl-id: 39d68cae-8d6b-4e34-bcd9-75d9531bc6aa
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Saiba como usar funções auxiliares para manipulação e personalização de da
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Biblioteca de funções de agregação
 
@@ -60,7 +60,7 @@ Saiba como manipular matrizes e listas com funções como contagem, recuperaçã
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Biblioteca de funções de data/hora
 

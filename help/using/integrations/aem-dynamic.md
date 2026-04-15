@@ -7,16 +7,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 8%
 
 ---
 
-# Trabalhar com o Dynamic Media {#aem-dynamic}
+# Trabalhar com mídia dinâmica {#aem-dynamic}
 
-## Introdução ao Dynamic Media {#gs-aem-dynamic}
+## Introdução à mídia dinâmica {#gs-aem-dynamic}
 
 O seletor de ativos agora é compatível com Dynamic Media, permitindo selecionar e usar facilmente representações de Dynamic Media aprovadas no Journey Optimizer. As alterações feitas em ativos no Adobe Experience Manager são refletidas instantaneamente no conteúdo do Journey Optimizer, garantindo que as versões mais atualizadas estejam sempre em uso, sem a necessidade de atualizações manuais.
 
@@ -198,7 +198,7 @@ Você pode inserir seu modelo dinâmico diretamente no conteúdo usando o compon
 Depois de executar os testes e validar o conteúdo, você pode enviar a mensagem para o público-alvo.
 
 <!--
-## Personalization with Text Overlay
+## Personalization with text overlay
 
 Easily customize any dynamic media by replacing the existing text overlay with new text of your choice, allowing for seamless updates and personalization.
 

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: qualificação, eventos, público-alvo, jornada, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 3%
@@ -131,7 +131,7 @@ Ao usar a Qualificação de público-alvo para um público-alvo em lote, observe
 
 Além disso, se o público-alvo do lote for recém-criado e usado imediatamente em uma jornada, o primeiro lote de cálculo poderá gerar muitas entradas. Planeje para este pico.
 
-### Intervalos de atualizações de associação de segmento {#timing-segment-membership}
+### Tempo das atualizações de associação do segmento {#timing-segment-membership}
 
 Ao usar instantâneos em lote em uma jornada, qualquer nova associação de segmento pode ser refletida somente em instantâneos subsequentes. Se adições de segmento imediatas ou no mesmo dia forem essenciais, considere a segmentação por transmissão ou verifique se as atualizações de segmento são capturadas pelo próximo instantâneo.
 

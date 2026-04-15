@@ -5,10 +5,10 @@ title: Lançar a sua primeira campanha orquestrada
 description: Lançar a sua primeira campanha orquestrada
 redpen-status: CREATED_||_2025-08-11_20-24-42
 exl-id: 2b553e08-5a20-4efb-895e-c8984c52d6b5
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 Iniciar a sua primeira campanha orquestrada no Adobe Journey Optimizer permite criar experiências do cliente perfeitas e personalizadas que se adaptam à jornada de cada pessoa física. Este guia aborda todas as etapas, desde configurar a sua campanha e projetar o seu fluxo por meio de uma tela visual intuitiva até testar, iniciar, monitorar e analisar seu desempenho. Você aprenderá a alinhar atividades, ajustar o cronograma e acessar insights acionáveis para otimizar os resultados. Quer você esteja programando mensagens únicas ou criando estratégias avançadas de redirecionamento, cada tópico foi projetado para aumentar a sua confiança e ajudar a dar vida à sua visão de marketing.
 
-## Iniciar a primeira campanha orquestrada
+## Iniciar a sua primeira campanha orquestrada
 
 :::: landing-cards-container
 :::
@@ -40,7 +40,7 @@ Descubra como criar e configurar as propriedades da campanha e os cronogramas de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Atividades da campanha orquestrada
 
@@ -50,7 +50,7 @@ Aprenda a usar a tela visual para projetar e configurar atividades para as suas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Iniciar e monitorar campanhas
 

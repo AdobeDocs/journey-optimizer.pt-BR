@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: db1e4ee5b2b4bb3a3d7d9e86aded14ad3c613765
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Para acessar este painel, vá para **[!UICONTROL Administração]** > **[!UICONT
 
 Para [!DNL Adobe Journey Optimizer], o painel permite verificar o número de **Perfis que podem ser ativados**.
 
-## O que é um perfil envolvente? {#what-is-engageable-profile}
+## O que é um perfil atraente? {#what-is-engageable-profile}
 
 Um **Perfil Engajável** é um registro de informações que representam um indivíduo armazenado no Serviço de Perfil e envolvido por jornadas ou campanhas.
 
