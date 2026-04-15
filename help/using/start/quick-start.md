@@ -210,7 +210,7 @@ Os **profissionais de marketing** criam as experiências do cliente e fornecem c
 
 Para saber mais sobre os principais recursos e personas do Journey Optimizer, assista ao vídeo de introdução. O vídeo aborda a interface do usuário e destaca os principais recursos com base em fluxos de trabalho específicos de cada função.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430320?captions=por_br&quality=12)
 
 ## Recursos adicionais
 
