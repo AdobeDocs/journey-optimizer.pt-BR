@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 7ae497e7a0e4d1652413a5a6dbd5d617a3ec31fe
+source-git-commit: 0cdc7c1ddefdfdf9fbf600171c46c0b68e12f102
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 1%
@@ -110,3 +110,4 @@ Você precisa de no mínimo **permissões de Visualização** para os objetos qu
 
 Sim. O servidor MCP respeita a configuração da sandbox do [!DNL Adobe Journey Optimizer]. Você pode consultar dados específicos da sandbox especificando a sandbox no seu prompt ou conectando-se com credenciais com escopo para uma sandbox específica.
 +++
+
