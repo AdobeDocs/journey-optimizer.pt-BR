@@ -167,7 +167,7 @@ If no model has been successfully deployed yet, the "currently deployed model" s
 
 Saiba como monitorar modelos de classificação de IA e interpretar o status e o desempenho do treinamento no [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3479849?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479854?captions=por_br&quality=12)
 
 ## Documentação relacionada {#related}
 
