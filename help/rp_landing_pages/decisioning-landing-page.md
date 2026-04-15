@@ -20,7 +20,7 @@ Os recursos de decisão no Journey Optimizer permitem que você forneça as melh
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução aos recursos de decisão
 

@@ -23,7 +23,7 @@ ht-degree: 86%
 >id="ajo_journey_canvas"
 >title="Criar uma jornada"
 >abstract="Use a tela de arrastar e soltar para orquestrar mensagens e ações em vários canais, aproveitando dados contextuais e o direcionamento de público-alvo para obter o máximo impacto."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Crie a primeira jornada"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Crie a primeira jornada"
 
 
 O [!DNL Adobe Journey Optimizer] capacita você a criar jornadas personalizadas de várias etapas do cliente que se adaptam em tempo real ao comportamento e às necessidades do seu público-alvo. Com uma tela intuitiva de arrastar e soltar, é possível orquestrar mensagens e ações em vários canais, aproveitando dados contextuais e o direcionamento de público-alvo para obter o máximo impacto. 
@@ -104,7 +104,7 @@ Use ações de canal integradas para email, push, SMS/MMS, no aplicativo, web e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 **Adicionar lógica e condições**
 

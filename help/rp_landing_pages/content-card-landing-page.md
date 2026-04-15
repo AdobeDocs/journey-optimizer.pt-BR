@@ -33,7 +33,7 @@ Configure e integre o canal de cartões de conteúdo para plataformas da web, di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Criar e configurar cartões de conteúdo
 
@@ -43,7 +43,7 @@ Tutorial passo a passo para criar, personalizar e implementar cartões de conte�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Criar cartões de conteúdo
 

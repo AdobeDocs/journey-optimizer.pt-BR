@@ -20,7 +20,7 @@ Imagine criar comunicações tão personalizadas para o seu público-alvo, que e
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Tutorial de personalização de notificações de status do pedido
 

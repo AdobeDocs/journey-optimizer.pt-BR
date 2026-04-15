@@ -20,7 +20,7 @@ Confira os recursos potentes de sintaxe do editor de expressões avançadas do A
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Sintaxe do editor de expressões avançadas
 
@@ -30,7 +30,7 @@ Saiba mais sobre as regras de sintaxe detalhadas para usar o editor de expressõ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Instrução condicional (if, then, else)
 
@@ -40,7 +40,7 @@ Domine o uso de instruções condicionais para criar expressões complexas e oti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Noções básicas sobre tipos de dados
 
@@ -50,7 +50,7 @@ Obtenha uma visão geral abrangente dos tipos de dados usados em expressões, in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Usar referências a campos
 

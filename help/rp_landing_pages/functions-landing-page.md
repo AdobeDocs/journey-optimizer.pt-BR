@@ -20,7 +20,7 @@ As funções auxiliares do Adobe Journey Optimizer permitem personalizar experi�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução às funções auxiliares
 
@@ -40,7 +40,7 @@ Descubra funções para resumir vários valores em um mesmo valor para fins de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Biblioteca de funções aritméticas
 
@@ -50,7 +50,7 @@ Veja como as funções aritméticas executam cálculos como adição, subtraçã
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Referência de funções de matriz e lista
 
@@ -70,7 +70,7 @@ Use funções de data e hora para manipular e formatar datas em fluxos de trabal
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Biblioteca de funções booleanas e de comparação
 

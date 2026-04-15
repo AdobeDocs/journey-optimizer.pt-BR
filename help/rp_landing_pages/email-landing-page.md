@@ -32,7 +32,7 @@ Entregas de email podem ser criadas:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como criar um email
 
@@ -52,7 +52,7 @@ Explore ferramentas e práticas recomendadas para criar conteúdo de email respo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Gerenciar recusa de email
 
@@ -72,7 +72,7 @@ Defina e gerencie configurações de email, como delegação de subdomínio, lis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Como dominar a capacidade de entrega de email
 

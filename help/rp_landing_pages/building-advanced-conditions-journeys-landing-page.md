@@ -30,7 +30,7 @@ Saiba como usar o editor de expressão avançadas para criar expressões persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Sintaxe avançada para expressões
 
@@ -40,7 +40,7 @@ Domine as regras de sintaxe, instruções condicionais e tipos de dados necessá
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Funções do Adobe Journey Optimizer
 

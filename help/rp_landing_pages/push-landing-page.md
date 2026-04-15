@@ -58,7 +58,7 @@ Descubra como criar e personalizar notificações por push com mídia, botões, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Visualizar, validar e enviar notificações por push
 

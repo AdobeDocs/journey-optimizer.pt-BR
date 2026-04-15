@@ -40,7 +40,7 @@ Entenda as definições e categorias de métricas usadas nos relatórios em temp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Relatório em tempo real da jornada
 
@@ -50,7 +50,7 @@ Analise o desempenho das jornadas e dos canais de comunicação associados em te
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Relatório em tempo real da campanha
 
@@ -60,7 +60,7 @@ Visualize o desempenho da campanha em vários canais, como email, push, SMS, web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Relatório em tempo real da página de destino
 
@@ -70,7 +70,7 @@ Avalie o desempenho da página de destino com métricas em tempo real, como visi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Relatório em tempo real de assinaturas
 

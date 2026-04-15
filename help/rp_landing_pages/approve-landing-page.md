@@ -20,7 +20,7 @@ A aprovação de jornadas e campanhas no Adobe Journey Optimizer garante que cad
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Configurar e gerenciar a aprovação de jornadas e campanhas
 
@@ -40,7 +40,7 @@ Guia passo a passo para criar, configurar e gerenciar políticas de aprovação,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como solicitar aprovação para jornadas e campanhas
 
@@ -50,7 +50,7 @@ Entenda como solicitar aprovação para jornadas e campanhas, incluindo fluxos d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Revisar e aprovar solicitações de jornadas e campanhas
 

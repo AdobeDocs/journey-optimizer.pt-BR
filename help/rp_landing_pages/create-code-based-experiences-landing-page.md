@@ -40,7 +40,7 @@ Descubra como adicionar campos editáveis a modelos, permitindo que os profissio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Testar experiências baseadas em código
 

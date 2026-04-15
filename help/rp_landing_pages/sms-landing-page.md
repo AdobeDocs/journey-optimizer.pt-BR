@@ -20,7 +20,7 @@ O canal de SMS/MMS/RCS do Adobe Journey Optimizer permite a você engajar os cli
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução às mensagens de texto
 
@@ -60,7 +60,7 @@ Garanta a conformidade com os padrões do setor, gerenciando processos de recusa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configurar subdomínios de SMS
 

@@ -50,7 +50,7 @@ Siga as instruções passo a passo para projetar e ativar campanhas para o seu p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Como criar e gerenciar um plano de aquecimento de IP
 
@@ -60,7 +60,7 @@ Descubra como criar, configurar e gerenciar o seu plano de aquecimento de IP, in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Executar e gerenciar o seu plano de aquecimento de IP
 

@@ -52,7 +52,7 @@ Especifica:
 
 Organizar esquemas ou tabelas em um modelo de dados relacional significa estruturar seus dados em várias tabelas. Certifique-se de que cada tabela armazene um tipo de entidade/esquema
 
-➡️ [Saiba mais sobre esquemas na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Saiba mais sobre esquemas na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Etapas de implementação {#implementation}
 

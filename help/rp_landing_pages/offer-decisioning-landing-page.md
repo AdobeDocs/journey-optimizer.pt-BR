@@ -55,7 +55,7 @@ Saiba como classificar ofertas usando fórmulas e modelos de IA para otimizar o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Criar e gerenciar ofertas
 
@@ -65,7 +65,7 @@ Orientação passo a passo para criar ofertas personalizadas, opções substitut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Criar e gerenciar decisões
 
@@ -75,7 +75,7 @@ Saiba como configurar, classificar e simular decisões para entrega de oferta pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
 
 Uso da decisão em lote
 

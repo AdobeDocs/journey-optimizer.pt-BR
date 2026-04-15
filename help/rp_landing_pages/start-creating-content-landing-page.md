@@ -30,7 +30,7 @@ Saiba como criar e personalizar o conteúdo de um email com o designer de email 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Importar um conteúdo de email existente
 
@@ -40,7 +40,7 @@ Importe o conteúdo de um HTML para o Adobe Journey Optimizer, ajuste os element
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Codificar o seu próprio conteúdo de email
 
@@ -50,7 +50,7 @@ Codifique manualmente o seu conteúdo de email, usando o HTML bruto no modo de �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Trabalhar com modelos de email
 
@@ -60,7 +60,7 @@ Economize tempo, usando modelos de email de amostra ou personalizados para simpl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Utilizar temas de email
 

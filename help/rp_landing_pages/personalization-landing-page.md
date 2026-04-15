@@ -30,7 +30,7 @@ Saiba mais sobre as noções básicas de personalização no Adobe Journey Optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Adicionar e validar a personalização
 
