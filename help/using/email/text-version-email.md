@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: text, email, version, plain, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 0aa9e539422d87567b68d89c40aa0ca888c84b05
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 7%
+source-wordcount: '1141'
+ht-degree: 8%
 
 ---
 
@@ -48,21 +48,24 @@ Se preferir usar um conteúdo diferente para a versão de texto sem formatação
 >
 > * Se você habilitar novamente a opção **[!UICONTROL Sincronizar com o HTML]** depois de atualizar o conteúdo de texto sem formatação, suas alterações serão perdidas e substituídas pelo conteúdo de texto gerado pela versão do HTML.
 
-## Otimizar a versão do texto para caixas de entrada de IA {#optimize-plain-text-ai}
+<!--
+## Optimize the text version for AI inboxes {#optimize-plain-text-ai}
 
-Você pode ajudar os recursos da caixa de entrada alimentada por IA (como resumos em [!DNL Gmail], [!DNL Outlook] ou [!DNL Apple Mail]) a exibir suas principais ofertas e detalhes usando o botão **[!UICONTROL Otimizar para Caixa de Entrada de IA]**. Essa ação gera uma versão de texto simples aprimorada focada nos assistentes de informação que provavelmente serão lidos na parte de texto da mensagem.
+You can help AI-powered inbox features (such as summaries in [!DNL Gmail], [!DNL Outlook], or [!DNL Apple Mail]) surface your key offers and details by using the **[!UICONTROL Optimize for AI Inbox]** button. That action generates an improved plain text version focused on information assistants are likely to read from the text part of the message.
 
-![Botão Otimizar para Caixa de Entrada de IA na exibição de versão de texto](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+![Optimize for AI Inbox button in the text version view](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
 
 >[!IMPORTANT]
 >
->Ao usar este recurso, a opção **[!UICONTROL Sincronizar com o HTML]** é automaticamente desabilitada.
+>When using this capability, the **[!UICONTROL Sync with HTML]** option is automatically disabled.
 
-Para obter uma apresentação completa e cenários recomendados, consulte [Otimizar texto de email para caixas de entrada de IA](llm-email-optimizer.md).
+For a full walkthrough and recommended scenarios, see [Optimize email text for AI inboxes](llm-email-optimizer.md).
+-->
 
 ## Quando usar versões de texto simples personalizadas {#when-to-use}
 
 Entender quando criar uma versão de texto simples personalizada em vez de usar a sincronização automática ajuda a garantir a entrega e a legibilidade ideais do email.
+
 
 ### Usar texto sem formatação personalizado (desabilitar sincronização) quando:
 
