@@ -5,10 +5,10 @@ title: Documentação do Adobe Journey Optimizer
 description: Documentação do Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: e4b8ba5941c276b74608a5510d97b33786b2507c
+source-git-commit: ae27c778a79cd8d4dddef65819b961055b476429
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 98%
+source-wordcount: '575'
+ht-degree: 92%
 
 ---
 
@@ -27,6 +27,13 @@ Tenha um vislumbre dos últimos aprimoramentos na documentação e no produto do
 Descubra os recursos e as melhorias mais recentes do Journey Optimizer nas Notas de versão.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+
+>[!TAB Assistente de IA para personalização]
+
+Use o **Assistente de IA** no Editor do Personalization para descrever o que você deseja em linguagem simples e obter uma expressão de personalização, ou selecione um código existente para explicá-lo, corrigir problemas ou sugerir melhorias.
+
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/generative-personalization-expressions.md)
 
 
 >[!TAB Iterar em dados contextuais]
@@ -56,7 +63,7 @@ O “Horário de silêncio” permite definir exclusões com base no tempo para 
 
 ::::landing-cards-container
 :::
-![Ícone](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Notas de versão mais recentes
 
@@ -66,7 +73,7 @@ Fique atualizado com as últimas notas de versão, novos recursos e melhorias no
 :::
 
 :::
-![Ícone](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução
 
@@ -76,7 +83,7 @@ Aprenda os conceitos básicos do Journey Optimizer, incluindo seus recursos, arq
 :::
 
 :::
-![Ícone](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guia abrangente para jornadas
 
@@ -86,7 +93,7 @@ Projete, orquestre, gerencie e otimize jornadas personalizadas do cliente com es
 :::
 
 :::
-![Ícone](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Noções básicas e gerenciamento de campanhas
 
@@ -96,7 +103,7 @@ Orientação detalhada sobre como criar, gerenciar e otimizar vários tipos de c
 :::
 
 :::
-![Ícone](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canais de comunicação
 
@@ -106,7 +113,7 @@ Configure e gerencie emails, SMS, notificações por push e outros canais para i
 :::
 
 :::
-![Ícone](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gerenciamento de conflitos e priorização
 
