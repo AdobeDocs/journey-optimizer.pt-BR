@@ -10,7 +10,7 @@ level: Intermediate
 keywords: jornada, caso de uso, dias da semana, condição, email, agendamento
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 1%
@@ -51,11 +51,11 @@ Use essas etapas para criar o fluxo de email somente durante a semana.
    * **[Ler público-alvo](read-audience.md)**: para campanhas em lote direcionadas a um público-alvo específico
    * **[Evento](../event/about-events.md)**: para jornadas acionadas em tempo real com base no comportamento do cliente
 
-### Etapa 2: adicionar uma atividade de Condição para verificar o dia da semana
+### Etapa 2: adicionar uma atividade de condição para verificar o dia da semana
 
 Logo após o início da jornada, adicione uma atividade **[!UICONTROL Condição]** para verificar se o dia atual é sábado ou domingo. Isso ramificará o fluxo de trabalho de acordo.
 
-1. Arraste e solte uma atividade [**[!UICONTROL Otimizar &#x200B;]**](optimize.md) na tela após o ponto de entrada.
+1. Arraste e solte uma atividade [**[!UICONTROL Otimizar ]**](optimize.md) na tela após o ponto de entrada.
 
 1. Clique na atividade **[!UICONTROL Condição]** para abrir seu painel de configuração.
 

@@ -6,8 +6,8 @@ description: Utilizar dados contextuais
 redpen-status: CREATED_||_2025-08-11_21-02-37
 badge: label="Legado" type="Informative"
 exl-id: 09ba2a43-f7f3-4414-b7b3-64c9932ff6c7
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Os dados contextuais permitem que o Adobe Journey Optimizer crie experiências m
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução aos dados contextuais
 
@@ -35,7 +35,7 @@ Saiba como usar dados contextuais no mecanismo de tomada de decisão do Adobe Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Usar dados contextuais em solicitações de tomada de decisão na borda
 
@@ -45,7 +45,7 @@ Descubra como transmitir dados contextuais em solicitações de tomada de decis�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Usar dados contextuais em solicitações de tomada de decisão e regras de elegibilidade
 

@@ -5,10 +5,10 @@ title: Definir regras de limites de mensagens e jornada
 description: Definir regras de limites de mensagens e jornada
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
-source-git-commit: 9e23162373564e7866af115ee2cd706527336e4a
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 38%
+ht-degree: 36%
 
 ---
 
@@ -18,11 +18,11 @@ As regras de limitação fazem parte do [gerenciamento de conflitos e priorizaç
 
 Você pode definir limites na frequência com que as mensagens são enviadas (limite de frequência), quantas jornadas um perfil pode inserir (limite de jornada) e quando as mensagens são bloqueadas (horas de silêncio). As regras são agrupadas em **conjuntos de regras** e aplicadas a campanhas ou jornadas. Para obter controle programático de sistemas externos, consulte a [API de Limite](../using/configuration/capping.md).
 
-## Definir regras de limite de mensagens e jornadas
+## Definir regras de limite de mensagem e Jornada
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Trabalhar com conjuntos de regras
 
@@ -32,7 +32,7 @@ Saiba como criar, gerenciar e ativar conjuntos de regras para controlar a frequ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Limite e arbitragem de jornadas
 
@@ -42,7 +42,7 @@ Descubra como definir limites de simultaneidade e entradas da jornada, priorizar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Limite de frequência por canal
 
@@ -52,7 +52,7 @@ Entenda como criar e aplicar regras de limite da frequência específicas de cad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Definir Período de Silêncio
 

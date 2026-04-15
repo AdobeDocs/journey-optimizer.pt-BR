@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 6%
@@ -125,7 +125,7 @@ Por exemplo, se você adicionar o domínio personalizado Roadrunner, desejará q
 
 Se não precisar de domínios personalizados, deixe a guia **[!UICONTROL Grupo de domínios personalizados]** vazia.
 
-### Guia Grupos de Domínio OOTB {#ootb-domain-groups-tab}
+### Guia de grupos de domínio OOTB {#ootb-domain-groups-tab}
 
 A guia **Grupos de Domínio OOTB** do modelo de plano de IP Warmup contém todos os grupos de domínio principais predefinidos que você pode adicionar ao plano.
 

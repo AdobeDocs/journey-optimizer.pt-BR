@@ -10,7 +10,7 @@ hide: true
 keywords: expressão, condição, casos de uso, eventos
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 1%
@@ -114,7 +114,7 @@ Essa expressão retorna um valor booleano.
 
 A partir daí, você pode adicionar outro caminho na jornada para quando o produto não estiver na loja e enviar uma notificação com oferta de engajamento. Configure as mensagens de acordo e use dados de personalização para aprimorar o público-alvo da mensagem.
 
-## Filtragem de Carimbo de Data e Hora em Expressões
+## Filtragem de carimbo de data e hora em expressões
 
 Ao referenciar vários eventos de atividade do carrinho, especifique uma janela de carimbo de data e hora de início e de término para evitar a coleta de dados históricos. Por exemplo:
 

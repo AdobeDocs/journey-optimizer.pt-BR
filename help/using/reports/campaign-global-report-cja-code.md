@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 1%
@@ -165,7 +165,7 @@ As métricas principais exibidas incluem:
 >
 >Atualmente, o relatório [Medida de aumento](../experience-decisioning/ranking/auto-optimization-model.md#lift) está disponível somente para o modelo de IA [Otimização personalizada](../experience-decisioning/ranking/personalized-optimization-model.md). Se você precisar de relatórios de medição de aumento, use o Modelo de otimização personalizado.
 
-### Taxa de conversão para tráfego de Retenção e Orientado a Modelo {#conversion-rate}
+### Taxa de conversão para tráfego de controle e orientado por modelo {#conversion-rate}
 
 >[!NOTE]
 >

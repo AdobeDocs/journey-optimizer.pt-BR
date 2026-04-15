@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 2a9587461520290899e3c70c4943e111d6af65ee
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 3%
@@ -104,9 +104,9 @@ O [Agente de Análise de Jornada](https://experienceleague.adobe.com/pt-br/docs/
 +++
 
 
-#### Jornada Criar habilidade {#journey-create-skill}
+#### Jornada criação de habilidade {#journey-create-skill}
 
-O [Agente de Criação de Jornadas](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} ajuda a criar jornadas com base em prompts de linguagem natural, traduzindo suas metas em configurações de jornada estruturadas:
+O [Agente de Criação de Jornadas](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} ajuda a criar jornadas com base em prompts de linguagem natural, traduzindo suas metas em configurações de jornada estruturadas:
 
 +++**Principais Recursos**
 
@@ -161,7 +161,7 @@ O [Experimentation Agent](https://experienceleague.adobe.com/pt-br/docs/experien
 
 ### Agentes de IA adicionais
 
-**Audience Agent** - Para exploração e gerenciamento de público-alvo conversacional em toda a Adobe Experience Platform, incluindo detecção de duplicidade e rastreamento de tamanho. [Saiba mais sobre o Audience Agent](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+**Audience Agent** - Para exploração e gerenciamento de público-alvo conversacional em toda a Adobe Experience Platform, incluindo detecção de duplicidade e rastreamento de tamanho. [Saiba mais sobre o Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
 **Agent Orchestrator** - Coordena vários agentes especializados para solucionar desafios de marketing complexos de várias etapas. O orquestrador determina automaticamente quais agentes envolver e sequencia seu trabalho com eficiência. [Saiba mais sobre o Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
@@ -208,7 +208,7 @@ A Otimização de tempo de envio analisa os dados históricos de engajamento (ab
 
 [Saiba mais sobre a Otimização de tempo de envio](../building-journeys/send-time-optimization.md)
 
-## Modelos de IA para decisão {#ai-decisioning}
+## Modelos de IA para decisões {#ai-decisioning}
 
 Crie modelos de classificação inteligentes que otimizam automaticamente quais ofertas mostrar para cada cliente, maximizando os objetivos de negócios.
 
@@ -241,7 +241,7 @@ Principais recursos:
 
 [Saiba mais sobre o Acelerador de experimento](../content-management/experiment-accelerator-gs.md)
 
-## Manuais de estratégia de casos de uso  {#playbooks}
+## Playbooks do caso de uso {#playbooks}
 
 Os manuais de casos de uso são fluxos de trabalho pré-criados que ajudam a implementar cenários de marketing comuns rapidamente. Cada manual inclui jornadas, mensagens, esquemas e segmentos prontos para uso.
 
@@ -272,7 +272,7 @@ Procurar nos manuais do Journey Optimizer cenários comuns, como:
 
 +++
 
-[Exibir todos os manuais disponíveis](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"} | [Saiba mais na documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=pt-BR){target="_blank"}
+[Exibir todos os manuais disponíveis](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"} | [Saiba mais na documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Recursos adicionais de IA {#additional-capabilities}
 
@@ -288,7 +288,7 @@ Integre com o Adobe GenStudio for Performance Marketing para criar conteúdo de 
 
 [Saiba mais sobre o GenStudio](../integrations/genstudio.md)
 
-### Classificação de alinhamento à marca
+### Classificação de alinhamento da marca
 
 Avalie como seu conteúdo se alinha às diretrizes da sua marca usando a pontuação alimentada por IA que mede a consistência do tom, da voz e da mensagem.
 

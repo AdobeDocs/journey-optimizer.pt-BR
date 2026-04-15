@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '3542'
 ht-degree: 1%
@@ -1049,7 +1049,7 @@ Saiba como [solucionar problemas de tipos de eventos descartados em jornada_step
 
 +++
 
-## Consultas para perfis ativáveis {#engageable-profiles-queries}
+## Consultas para perfis utilizáveis {#engageable-profiles-queries}
 
 Essas consultas ajudam a monitorar e analisar a contagem de perfis ativáveis. Um perfil que pode ser ativado é um perfil exclusivo que passou por jornadas ou campanhas nos últimos 12 meses. Saiba mais sobre [Perfis ativáveis e uso de licença](../audience/license-usage.md#what-is-engageable-profile).
 
@@ -1466,7 +1466,7 @@ ORDER BY
 
 +++
 
-## Consultas relacionadas às métricas de desempenho de Ação personalizada {#query-custom-action}
+## Consultas relacionadas às métricas de desempenho de ação personalizada {#query-custom-action}
 
 +++ Número total de chamadas, erros e solicitações bem-sucedidas por segundo de cada ponto de extremidade em um período específico
 

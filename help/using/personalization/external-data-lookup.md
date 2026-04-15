@@ -8,14 +8,14 @@ level: Experienced
 hide: true
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
-# Auxiliar de pesquisa de dados externo
+# Auxiliar de pesquisa de dados externos
 
 O auxiliar do `externalDataLookup` no Editor de personalização do [!DNL Journey Optimizer] pode ser usado para buscar dados dinamicamente de um terminal externo para uso na geração de conteúdo para canais de entrada, como os canais de Experiência baseada em Código, Web e Mensagens no Aplicativo.
 
@@ -169,7 +169,7 @@ Por exemplo, você pode buscar e executar um loop pelos itens para retornar uma 
 
 ## Solução de problemas
 
-### Tempos limite e tratamento de erros
+### Tempo limite e tratamento de erros
 
 [!DNL Journey Optimizer] usa um tempo limite estrito ao chamar o ponto de extremidade externo para manter as características de desempenho de alta taxa de transferência e baixa latência para o Adobe Experience Platform Edge Network.
 

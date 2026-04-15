@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 keywords: conteúdo, design, email, push, sms, personalização, modelos
 exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 4%
@@ -21,11 +21,11 @@ ht-degree: 4%
 
 A criação de conteúdo de mensagem no Adobe Journey Optimizer permite criar comunicações envolventes e personalizadas em todos os canais. Esteja você criando emails com layouts visuais avançados, criando notificações por push otimizadas para dispositivos móveis, projetando experiências interativas no aplicativo ou enviando mensagens SMS, esta seção fornece orientação abrangente sobre as práticas recomendadas de criação de conteúdo. Saiba como aproveitar modelos e fragmentos para conteúdo reutilizável, aplicar personalização e conteúdo dinâmico a mensagens personalizadas para cada recipient e garantir a conformidade de acessibilidade. Da compreensão dos princípios de design à implementação de opções avançadas de formatação, você dominará as ferramentas necessárias para fornecer experiências atraentes na marca, que impulsionam o engajamento e as conversões.
 
-## Criar conteúdo da mensagem
+## Projetar conteúdo da mensagem
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Conteúdo do email de design
 
@@ -35,7 +35,7 @@ Domine o design de email com o Designer de email, crie layouts responsivos, apli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 Criar notificações por push
 
@@ -45,7 +45,7 @@ Crie notificações por push atraentes para o iOS e o Android, configure o conte
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Criar mensagens SMS e MMS
 
@@ -55,7 +55,7 @@ Componha mensagens de texto personalizadas com SMS, aprimore as comunicações c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Criar mensagens no aplicativo
 
@@ -65,7 +65,7 @@ Crie experiências envolventes no aplicativo com várias opções de layout, inc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Personalizar o conteúdo
 
@@ -75,7 +75,7 @@ Adicione personalização a mensagens usando atributos de perfil, utilize o edit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Usar modelos e fragmentos
 

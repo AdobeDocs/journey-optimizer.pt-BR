@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 6%
@@ -209,7 +209,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 ```
 
 
-## Igual a{#equals}
+## Igual{#equals}
 
 A função `equals` é usada para determinar se uma cadeia de caracteres é igual à cadeia especificada, com distinção entre maiúsculas e minúsculas.
 
@@ -232,7 +232,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 {%=equals(profile.person.name,"John") %}
 ```
 
-## Ignorar maiúsculas e minúsculas é igual a{#equalsIgnoreCase}
+## Ignora maiúsculas e minúsculas igual a{#equalsIgnoreCase}
 
 A função `equalsIgnoreCase` é usada para determinar se uma cadeia de caracteres é igual à cadeia especificada, sem diferenciar maiúsculas de minúsculas.
 
@@ -386,7 +386,7 @@ A função a seguir retornará &#39;true&#39; se o número de telefone celular d
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
 
-## Não Está Vazio {#is-not-empty}
+## Não está vazio {#is-not-empty}
 
 A função `isNotEmpty` é usada para determinar se uma cadeia de caracteres não está vazia.
 
@@ -575,7 +575,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## Diferente de Ignorar Maiúsculas e Minúsculas {#not-equal-with-ignore-case}
+## Diferente de ignorar maiúsculas e minúsculas {#not-equal-with-ignore-case}
 
 A função `notEqualWithIgnoreCase` é usada para comparar duas cadeias de caracteres ignorando maiúsculas e minúsculas.
 

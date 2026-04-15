@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2085'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -129,7 +129,7 @@ Ao comparar o desempenho de dois tratamentos, você deve sempre comparar as mét
 
 Por exemplo, se o objetivo do experimento estiver definido como **[!UICONTROL Aberturas únicas]** e um determinado tratamento foi mostrado para 10.000 Perfis com 200 Aberturas únicas registradas, então isso representa uma **[!UICONTROL Taxa de conversão]** de 2%. Para métricas não exclusivas, por exemplo, métrica Aberturas, a métrica normalizada é mostrada como uma **[!UICONTROL Contagem por perfil]**, enquanto para métricas contínuas como Preço total, a métrica normalizada é mostrada como um **[!UICONTROL Total por Perfil]**.
 
-### &#x200B;2. Foco nos intervalos de confiança {#confidence-intervals}
+### &#x200B;2. concentrar-se nos intervalos de confiança {#confidence-intervals}
 
 Quando você executa experimentos em amostras de seus perfis, a taxa de conversão observada para um determinado tratamento representa uma estimativa da verdadeira taxa de conversão subjacente.
 
@@ -141,17 +141,17 @@ Se os intervalos de confiança para dois tratamentos mal se sobrepõem, isso sig
 
 A Adobe usa intervalos de confiança válidos de 95% a qualquer momento, ou Sequências de confiança, o que significa que os resultados podem ser visualizados com segurança a qualquer momento durante o experimento.
 
-### &#x200B;3. Entenda o aumento {#understand-lift}
+### &#x200B;3. compreender o aumento {#understand-lift}
 
 O resumo do relatório do Experimento mostra o **[!UICONTROL aumento em relação à linha de base]**, que é uma medida da melhora da porcentagem na taxa de conversão de um determinado tratamento em relação à linha de base. Para definir com precisão, é a diferença no desempenho entre um determinado tratamento e a linha de base, dividido pelo desempenho da linha de base expresso como uma porcentagem.
 
-### &#x200B;3. Compreenda a confiança {#understand-confidence}
+### &#x200B;3. compreender a confiança {#understand-confidence}
 
 Embora você deva se concentrar principalmente no **[!UICONTROL Intervalo de confiança]** para o desempenho de cada tratamento, a Adobe também mostra a Confiança, que é uma medida probabilística da quantidade de evidências de que um determinado tratamento é igual ao tratamento de linha de base. Uma confiança maior indica menos evidência para o pressuposto de que os tratamentos de linha de base e os que não são de linha de base têm desempenho igual. Mais precisamente, a confiança exibida é uma probabilidade (expressa como uma porcentagem) em que teríamos observado uma diferença menor nas taxas de conversão entre um determinado tratamento e a linha de base, se na realidade não houvesse diferença nas taxas de conversão subjacentes verdadeiras. Em termos de valores p, a confiança exibida é 1 - valor p.
 
 A Adobe usa Confiança &quot;Válido a qualquer momento&quot; e valores p &quot;Válido a qualquer momento&quot; que são consistentes com as Sequências de Confiança descritas acima.
 
-### &#x200B;4. Significância estatística
+### &#x200B;4. significância estatística
 
 Ao executar Experimentos, um resultado é considerado estatisticamente significativo se for muito improvável que tenha sido observado com uma hipótese nula de que um determinado tratamento e a linha de base têm taxas/desempenho de conversão subjacentes verdadeiros idênticos.
 

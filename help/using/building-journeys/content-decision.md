@@ -10,7 +10,7 @@ level: Intermediate
 keywords: atividade, decisão, decisão de conteúdo, política de decisão, tela, jornada
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 2%
@@ -85,7 +85,7 @@ A saída de uma decisão de conteúdo pode ser usada em várias atividades de jo
 
 Você também pode adicionar uma [ação personalizada](#add-custom-action) à sua jornada para compartilhar as ofertas da atividade de decisão de conteúdo com um sistema externo.
 
-### Em uma atividade Otimize (método Condition) {#add-condition-activity}
+### Em uma atividade de otimização (método de condição) {#add-condition-activity}
 
 Para aproveitar a saída de uma atividade de decisão de conteúdo, adicione uma atividade **[!UICONTROL Otimizar]**, escolha o método **[!UICONTROL Condição]** e defina expressões para mover perfis para caminhos específicos usando dados dessas ofertas. Siga as etapas abaixo. Para obter mais tipos e opções de condição, consulte [Condições](conditions.md).
 

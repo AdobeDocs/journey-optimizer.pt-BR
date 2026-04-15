@@ -9,14 +9,14 @@ level: Experienced
 keywords: jornada, fontes de dados, limite, taxa de transferência, personalizado, ações
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 3%
 
 ---
 
-# Caso de uso: limite a taxa de transferência com Fontes de dados externas e Ações personalizadas{#limit-throughput}
+# Caso de uso: limite a taxa de transferência com fontes de dados externas e ações personalizadas{#limit-throughput}
 
 Use esse caso de uso para acelerar o processamento do jornada quando os sistemas externos precisarem lidar com um número limitado de solicitações por segundo.
 

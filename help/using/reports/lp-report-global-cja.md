@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Para acessar seus relatórios, selecione **[!UICONTROL Relatório]** no menu ava
 
 ![](assets/cja-lp.png)
 
-Para saber mais sobre o espaço de trabalho do Customer Journey Analytics e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home).
+Para saber mais sobre o espaço de trabalho do Customer Journey Analytics e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Taxa de conversão da landing page {#lp-conversion}
 
@@ -49,7 +49,7 @@ O KPI de **[!UICONTROL Exibições da página de aterrissagem]** permite ver o i
 
 * **[!UICONTROL Exibições da página de aterrissagem]**: número total de visitas à página de aterrissagem provenientes de jornadas e fontes externas, incluindo várias visitas de um perfil.
 
-## Visualizações únicas da página de aterrissagem {#lp-unique-views}
+## Exibições exclusivas da página de aterrissagem {#lp-unique-views}
 
 ![](assets/cja-lp-unique-views.png)
 

@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ Os recursos e a integração da Gestão de decisões com a Adobe Experience Plat
 
   ![](../../assets/do-not-localize/call-center.png)
 
-## Conceder acesso à Gestão de decisões {#granting-acess-to-decision-management}
+## Conceder acesso à gestão de decisões {#granting-acess-to-decision-management}
 
 As permissões para acessar e usar recursos de decisão são gerenciadas usando o [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/managing/user-guide.html){target="_blank"}.
 
@@ -110,16 +110,16 @@ Você pode encontrar abaixo a lista dos principais conceitos com os quais trabal
 
 ## Vídeos tutoriais{#video}
 
-### O que é a Gestão de decisões? {#what-is-offer-decisioning}
+### O que é a gestão de decisões? {#what-is-offer-decisioning}
 
 O vídeo abaixo fornece uma introdução aos principais recursos, arquitetura e casos de uso da Gestão de decisões:
 
->[!VIDEO](https://video.tv.adobe.com/v/340418?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Definir e gerenciar ofertas {#use-offer-decisioning}
 
 O vídeo abaixo mostra como usar a Gestão de decisões para definir e gerenciar suas ofertas e aproveitar os dados do cliente em tempo real.
 
->[!VIDEO](https://video.tv.adobe.com/v/340355?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 
