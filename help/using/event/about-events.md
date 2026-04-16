@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: events, event, jornada, definition, start
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
+source-git-commit: 873a9ed182e69c43be7c0f655a1696384395263c
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 31%
+source-wordcount: '1951'
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Eventos de jornada"
->abstract="Um evento está vinculado a uma pessoa. Ele se refere ao comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site, etc.) ou a um acontecimento relacionado a uma pessoa (por exemplo, uma pessoa acumulou 10.000 pontos de fidelidade). O Journey Optimizer acompanha eventos unitários em jornadas para orquestrar as melhores ações futuras."
+>abstract="O Journey Optimizer oferece suporte a três tipos de eventos nas jornadas: eventos unitários, vinculados ao comportamento de uma pessoa específica (como uma compra ou uma meta de fidelidade); eventos comerciais, acionados por uma ocorrência global (como um cancelamento de voo ou uma atualização de estoque); e eventos de qualificação de público-alvo, acionados quando um perfil entra ou sai de um público-alvo. Use eventos para acionar jornadas e orquestrar as ações certas para seus perfis."
 
 Use eventos para acionar jornadas individualmente, fornecendo mensagens em tempo real a cada usuário ao entrarem na jornada.
 
@@ -33,7 +33,7 @@ Na configuração do evento, configure os eventos esperados nas jornadas. Os dad
 
 A configuração do evento é **obrigatória** e deve ser executada por um engenheiro de dados.
 
-Você pode configurar dois tipos de eventos: **Eventos unitários** e **Eventos comerciais**.
+Você pode configurar três tipos de eventos: **Eventos unitários**, **Eventos comerciais** e **Eventos de qualificação de público-alvo**.
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -45,8 +45,15 @@ As jornadas unitárias (começando com um evento ou uma qualificação de públi
 
 ## Eventos de negócios {#business-events}
 
-Os eventos de **Negócios** não estão vinculados a um perfil específico. Por exemplo, pode ser um alerta de notícias, uma atualização esportiva, uma alteração ou cancelamento de voo, uma atualização de inventário, eventos meteorológicos etc. Embora esses eventos não sejam específicos de um perfil, eles podem ser de interesse para qualquer número de perfis: indivíduos inscritos em tópicos de notícias específicos, passageiros em um voo, compradores interessados em um produto indisponível, etc. Os eventos comerciais sempre se baseiam em regras. Quando você solta um evento comercial em uma jornada, ele adiciona automaticamente uma atividade **Ler público** logo em seguida.Saiba como criar um evento comercial [nesta página](../event/about-creating-business.md).
+Os eventos de **Negócios** não estão vinculados a um perfil específico. Por exemplo, pode ser um alerta de notícias, uma atualização esportiva, uma alteração ou cancelamento de voo, uma atualização de inventário, eventos meteorológicos etc. Embora esses eventos não sejam específicos de um perfil, eles podem ser de interesse para qualquer número de perfis: indivíduos inscritos em tópicos de notícias específicos, passageiros em um voo, compradores interessados em um produto indisponível, etc. Os eventos comerciais sempre se baseiam em regras. Quando você solta um evento comercial em uma jornada, ele adiciona automaticamente uma atividade **Ler público-alvo**, logo em seguida. Saiba como criar um evento comercial [nesta página](../event/about-creating-business.md).
 
+## Eventos de qualificação de público-alvo {#audience-qualification-events}
+
+Um evento de **qualificação de público-alvo** é acionado quando um perfil entra ou sai de um público-alvo. Por exemplo, um cliente que ultrapassa um limite de gastos de fidelidade entra no público-alvo da camada Gold — essa qualificação aciona a jornada desse perfil em tempo real (para públicos de transmissão) ou na próxima avaliação em lote. Diferentemente dos eventos unitários, a qualificação de público-alvo permite criar uma lógica de acionamento complexa usando o poder total das definições de público-alvo, sem exigir alterações de implementação para enviar um novo evento. Saiba mais sobre [eventos de qualificação de público](../building-journeys/audience-qualification-events.md).
+
+>[!NOTE]
+>
+>Os eventos de qualificação de público-alvo não estão configurados em **Administration > Events** — eles são selecionados diretamente na tela de jornada como a primeira etapa de uma jornada.
 
 ## Tipo de ID do evento {#event-id-type}
 
@@ -65,6 +72,20 @@ Para eventos **unitários**, há dois tipos de ID de evento:
 >[!NOTE]
 >
 >O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço Principal de Coleção de Dados (DCCS) para acionar uma jornada. Eventos assimilados em lote, eventos inseridos via **Serviço de consulta** ou eventos de conjuntos de dados internos da Journey Optimizer (Feedback de mensagem, Rastreamento de email, etc.) não podem ser usados para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, crie um público-alvo com base nesses eventos e use a atividade **Público-alvo de leitura**. Tecnicamente, a qualificação de público-alvo pode ser usada, mas ela pode causar desafios posteriores com base nas ações usadas. Esses dados não precisam necessariamente acessar o Perfil em tempo real. Se você quiser usar os eventos para segmentação, recomendamos ativar o conjunto de dados para perfil.
+
+## Como escolher {#choose-event-type}
+
+Use os critérios a seguir para selecionar o tipo de evento correto para sua jornada — a pergunta principal é: **você está acionando uma ação para uma pessoa específica ou transmitindo para muitos perfis?** [Saiba mais sobre os tipos de jornada](../building-journeys/journey.md#journey-types).
+
+* **Escolha um evento unitário** quando o acionador estiver vinculado a um indivíduo específico, por exemplo, uma compra, um envio de formulário ou um marco de fidelidade. Os eventos unitários exigem uma identidade principal baseada em pessoas no esquema e iniciam a jornada imediatamente para esse perfil. [Saiba como configurar um evento unitário](../event/about-creating.md).
+
+* **Escolha um evento comercial** quando o gatilho for uma ocorrência global — por exemplo, um reabastecimento de produto, uma queda de preço ou um cancelamento de voo — e você quiser transmitir para um conjunto de perfis relacionados a esse sinal. Os eventos comerciais devem ser a primeira etapa na jornada e direcionar perfis automaticamente por meio de uma atividade **Ler público**. Eles exigem um esquema de série temporal com uma identidade primária que não seja de pessoas e os campos `_id` e `timestamp`. Planeje um atraso na exportação de público de 15 minutos a até uma hora. [Saiba como configurar um evento comercial](../event/about-creating-business.md).
+
+* **Escolha um evento de qualificação de público-alvo** quando o acionador for um perfil entrando ou saindo de um público-alvo, e você precisar de uma lógica de segmentação mais complexa do que um único evento pode fornecer — por exemplo, reengajar clientes que acabaram de atingir um limite de gastos ou acionar um fluxo de integração quando um membro do VIP sair do nível de fidelidade. [Saiba mais sobre eventos de qualificação de público-alvo](../building-journeys/audience-qualification-events.md).
+
+>[!CAUTION]
+>
+>Os eventos comerciais não podem ser usados na mesma jornada que os eventos unitários ou as atividades de qualificação de público.
 
 ## Ciclo de dados {#data-cycle}
 
@@ -126,8 +147,8 @@ Não é possível excluir nenhum evento usado nas jornadas do **Live**, **Rascun
 
 Saiba como configurar um evento, especificar o ponto final de transmissão e a carga útil de um evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431510?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Entenda os casos de uso aplicáveis a eventos de negócios. Saiba como criar uma jornada usando um evento de negócios e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417595?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
