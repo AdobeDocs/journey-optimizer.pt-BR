@@ -5,9 +5,9 @@ title: Documentação do Adobe Journey Optimizer
 description: Documentação do Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: ae27c778a79cd8d4dddef65819b961055b476429
+source-git-commit: dbb52143912170bfb99e22d924c1395fce7ca010
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '557'
 ht-degree: 92%
 
 ---
@@ -48,12 +48,6 @@ Saiba como usar a sintaxe de iteração para exibir listas dinâmicas de dados d
 O Journey Optimizer agora inclui a **Orquestração de campanha**, um novo recurso criado especificamente para campanhas em lotes iniciadas pela marca. 
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
-
->[!TAB Período de silêncio]
-
-O “Horário de silêncio” permite definir exclusões com base no tempo para canais de email, SMS, push e WhatsApp. 
-
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/quiet-hours.md)
 
 
 >[!ENDTABS]
