@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 41fc96cb43c28e823c3b927901ad01e7d15bd5ef
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 68%
+source-wordcount: '1005'
+ht-degree: 64%
 
 ---
 
@@ -137,3 +137,9 @@ Saiba mais sobre [ações personalizadas](../action/about-custom-action-configur
 O Journey Optimizer permite configurar conexões com sistemas externos por meio de fontes de dados personalizadas e ações personalizadas. Isso permite, por exemplo, enriquecer suas jornadas com dados provenientes de um sistema de reservas externo.
 
 Saiba como usar fontes de dados externas para estabelecer uma conexão com um sistema de terceiros [nesta seção](../datasource/external-data-sources.md).
+
+## Ferramentas de IA via MCP (Beta) {#integration-mcp}
+
+O [!DNL Adobe Journey Optimizer] fornece um servidor de protocolo MCP que permite consultar dados de campanha e ofertas usando prompts em linguagem simples diretamente de ferramentas de IA compatíveis com MCP, como Claude Web e Claude Desktop, sem gravar chamadas de API ou navegar em telas de produtos.
+
+Saiba mais sobre [Journey Optimizer + MCP](../integrations/ajo-mcp.md).
