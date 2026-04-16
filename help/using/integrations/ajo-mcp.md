@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 5727d4596749099152bf0757d23a0fa1259fbfd8
+source-git-commit: 64e51368b5b099819829572ea9f7daf441fb3671
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 1%
@@ -26,11 +26,11 @@ ht-degree: 1%
 >
 >Ao usar o Adobe Journey Optimizer MCP Server (Beta) (&quot;Beta&quot;), você reconhece que o Beta é fornecido **&quot;no estado em que se encontra&quot; sem garantias de qualquer tipo**. A Adobe não tem nenhuma obrigação de manter, corrigir, atualizar, alterar, modificar ou oferecer suporte à Beta. É recomendável ter cuidado e não depender de forma alguma do funcionamento ou desempenho correto desse Beta e/ou dos materiais que o acompanham. O Beta é considerado Informações confidenciais da Adobe. Qualquer &quot;Feedback&quot; (informação sobre o Beta incluindo, mas não se limitando a, problemas ou defeitos encontrados durante o uso do Beta, sugestões, melhorias e recomendações) fornecido por Você ao Adobe é atribuído ao Adobe, incluindo todos os direitos, cargos e interesses no e no Feedback.
 
+A integração do MCP [!DNL Adobe Journey Optimizer] permite consultar campanhas, jornadas e ofertas usando prompts em linguagem simples, sem gravar chamadas de API ou navegar nas telas dos produtos. Esta página explica como a integração funciona, o que você pode fazer com ela e como começar.
+
 >[!AVAILABILITY]
 >
 >O servidor MCP [!DNL Adobe Journey Optimizer] está disponível somente em **Claude Web** e **Claude Desktop**. O suporte para outros aplicativos compatíveis com MCP será adicionado em versões futuras.
-
-A integração do MCP [!DNL Adobe Journey Optimizer] permite consultar campanhas, jornadas e ofertas usando prompts em linguagem simples, sem gravar chamadas de API ou navegar nas telas dos produtos. Esta página explica como a integração funciona, o que você pode fazer com ela e como começar.
 
 ## Qual é o protocolo de contexto do modelo? {#mcp-overview}
 
