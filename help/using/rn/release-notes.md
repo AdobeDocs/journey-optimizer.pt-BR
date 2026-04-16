@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
+source-git-commit: 6c4fe0f03508068d7078d23d525f11a14ed73260
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2510'
 ht-degree: 21%
 
 ---
@@ -139,6 +139,10 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 #### Design de email
 
+* O **AI Assistant para expressões de personalização no Email Designer** - AI Assistant para expressões de personalização agora também está disponível diretamente na experiência de edição em linha no Email Designer. Ao editar um componente de texto, clique em **Usar IA para gerar** no popover de edição em linha para descrever a personalização necessária em linguagem simples, revisar a expressão gerada e inseri-la sem sair do Designer de email. [Saiba mais](../content-management/generative-personalization-expressions.md#generate-email-designer)
+
+  Data de disponibilidade: quinta-feira, 15 de abril de 2026
+
 * **Editor avançado de HTML para conteúdo de email** - O modo Avançado de HTML permite editar a fonte HTML do seu conteúdo no Designer de email, adicionar expressões avançadas (como condições) na fonte e alternar entre o modo de exibição HTML e o modo de exibição Desktop sem perder as alterações.
 
   Disponível anteriormente somente para modelos de conteúdo de email, esse recurso agora está implantado no conteúdo de **email** no Designer de email (por exemplo, emails criados em jornadas e campanhas), além de modelos de conteúdo de email. No momento, a disponibilidade é limitada — entre em contato com o representante da Adobe para obter acesso. [Leia mais](../email/email-expert-mode.md)
@@ -185,7 +189,7 @@ As seções [Novos recursos](#march-26-features) e [Melhorias](#march-26-improv)
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Data de lançamento**: 24 a 25 de março de 2026
@@ -375,7 +379,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Com a tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=pt-BR" target="_blank">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: quinta-feira, 4 de março de 2026</p>
 </td>
 </tr>
