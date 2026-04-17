@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d5008b20bef1a129c2ce9b29edf0460c58d481da
+source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
 workflow-type: tm+mt
-source-wordcount: '2490'
-ht-degree: 21%
+source-wordcount: '2568'
+ht-degree: 20%
 
 ---
 
@@ -31,26 +31,24 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ### Novos recursos {#april-26-features}
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Optimize email for AI inboxes</strong><br/></th>
+<th><strong>Otimizar email para caixas de entrada de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer now includes a new capability that ensures your emails are optimally structured for AI-powered inboxes such as Apple Intelligence and Google Gemini in Gmail.</p>
-<p>As AI assistants increasingly control how recipients read and act on email, this feature helps you author content that performs well across downstream AI tasks including summarization, triage, prioritization, and intent extraction.</p>
+<p>O Adobe Journey Optimizer agora inclui um novo recurso que garante que seus emails sejam estruturados de maneira ideal para caixas de entrada alimentadas por IA, como o Apple Intelligence e o Google Gemini no Gmail.</p>
+<p>Como os assistentes de IA controlam cada vez mais como os recipients leem e agem no email, esse recurso ajuda a criar conteúdo que tenha bom desempenho em tarefas de IA de downstream, incluindo resumo, triagem, priorização e extração de intenção.</p>
 <p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
-<p>For more information, refer to <a href="../email/llm-email-optimizer.md">Optimize email text for AI inboxes</a>.</p>
-<p>Availability date: April 17, 2026</p>
+<p>Para obter mais informações, consulte <a href="../email/llm-email-optimizer.md">Otimizar texto de email para caixas de entrada de IA</a>.</p>
+<p>Data de disponibilidade: sábado, 17 de abril de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>

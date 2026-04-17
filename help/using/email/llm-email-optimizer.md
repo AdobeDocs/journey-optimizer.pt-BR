@@ -1,20 +1,19 @@
 ---
 title: Otimizar texto de email para caixas de entrada de IA
-description: Refine a camada de texto simples do email no Journey Optimizer para que os clientes da caixa de entrada assistida por IA possam usar suas ofertas e CTAs quando resumirem a intenção de email ou extração — no Designer de email com Otimizar com IA.
+description: Gere e refine uma versão dedicada de suas mensagens para que os clientes da caixa de entrada assistida por IA possam usar suas ofertas e CTAs ao resumir a intenção de email ou extração no Designer de email com IA.
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-hide: true
-source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
+source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1088'
 ht-degree: 1%
 
 ---
 
-# Otimizar texto de email para caixas de entrada de IA {#email-text-optimizer}
+# Otimizar email para caixas de entrada de IA {#email-text-optimizer}
 
 O [!DNL Adobe Journey Optimizer] vem com um recurso de canal de email que ajuda a estruturar uma versão específica de suas mensagens para experiências aprimoradas de caixa de entrada assistida por IA, como [!DNL Apple Intelligence] e [!DNL Google Gemini] no [!DNL Gmail], para que eles possam responder às perguntas e resumir emails com base em seu conteúdo com mais precisão, com melhores resultados.
 
