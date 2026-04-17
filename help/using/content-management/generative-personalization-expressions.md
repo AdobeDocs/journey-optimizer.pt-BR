@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Assistente de IA para expressões Personalization
-description: Saiba como usar o AI Assistant no Journey Optimizer para gerar expressões de personalização da linguagem natural — do Personalization Editor ou da barra de ferramentas do Email Designer.
+description: Saiba como usar o Assistente de IA no Journey Optimizer para gerar expressões de personalização a partir da linguagem natural no Editor do Personalization e como o controle Adicionar expressão funciona no Designer de email.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
+source-git-commit: a71456af0d414ba435e307f29dd6dd70ba2737a8
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1064'
 ht-degree: 2%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 2%
 
 O [!UICONTROL Assistente de IA] ajuda você a gerar uma nova personalização a partir de linguagem simples, explicar o que as expressões existentes fazem e corrigir problemas no código selecionado, de modo que você gaste menos tempo na descoberta de sintaxe e de campos manuais. Você também pode iterar em uma seleção ou solicitar outras alterações na conversa. Ela está disponível de duas maneiras:
 
-* **[!UICONTROL Editor do Personalization]** — onde quer que o editor esteja disponível (linha de assunto, corpo e outros campos que o abrem). Para saber onde e como abrir o editor, consulte [Adicionar personalização](../personalization/personalization-build-expressions.md#where).
-* **Designer de email** — ao selecionar um componente, use **[!UICONTROL Adicionar expressão]** na barra de ferramentas contextual para abrir o assistente em uma caixa de ferramentas. Consulte [Gerar a partir do Designer de email](#generate-email-designer).
+* **[!UICONTROL Editor do Personalization]** — onde quer que o editor esteja disponível entre canais (linha de assunto, corpo e outros campos que o abrem). Esse é o caminho geral para a personalização assistida por IA. Para saber onde e como abrir o editor, consulte [Adicionar personalização](../personalization/personalization-build-expressions.md#where).
+* **Barra de ferramentas do Designer de email** — ao criar emails no Designer de email, selecione um componente e use **[!UICONTROL Adicionar expressão]** na barra de ferramentas contextual para abrir o assistente em uma caixa de ferramentas sem abrir primeiro o editor completo. Esse ponto de entrada não está disponível fora da criação de email. Consulte [Gerar a partir do Designer de email](#generate-email-designer).
 
 Para obter mais detalhes sobre a configuração e os idiomas do Assistente de IA, consulte [Introdução ao Assistente de IA](gs-generative.md). Para conceitos de personalização, consulte [Introdução à personalização](../personalization/personalize.md). Para ideias de prompt, consulte [Práticas recomendadas de prompt da IA](ai-assistant-prompting-guide.md).
 
@@ -63,9 +63,9 @@ Essas etapas abordam a geração de expressões de personalização do zero. Par
 
    ![](assets/ai-perso-question.png)
 
-1. Depois de gerar uma expressão, clique em **[!UICONTROL Mostrar visualizações para perfis de amostra]** para ver como a expressão é avaliada com dados de amostra e para exibir a carga associada como JSON. Para essa verificação, o assistente gera um conjunto limitado de perfis de amostra sintéticos; eles não são salvos nem armazenados em sua organização.
+1. Depois de gerar uma expressão, clique em **[!UICONTROL Mostrar visualizações para perfis de amostra]** para ver como a expressão é avaliada em relação ao perfil de amostra sintético **one** e para exibir a carga associada como JSON. A visualização é uma verificação pontual **única** para que você possa ter certeza de que seu código foi resolvido conforme esperado — ela **não** simula vários destinatários, dados variados ou cobertura completa. Os dados de amostra não são salvos ou armazenados em sua organização.
 
-   Se você precisar de perfis de exemplo personalizados ou adicionais, descreva o que precisa na discussão com o assistente e inclua a palavra-chave **visualizar** no prompt para que ele possa gerar os perfis de visualização corretos para sua verificação.
+   Se precisar ajustar a amostra (por exemplo, enfatizar atributos diferentes), descreva o que precisa na discussão com o assistente e inclua a palavra-chave **preview** no prompt.
 
    ![](assets/ai-perso-preview-button.png)
 
@@ -75,7 +75,7 @@ Essas etapas abordam a geração de expressões de personalização do zero. Par
 
    >[!NOTE]
    >
-   >As visualizações adicionais são para verificação pontual. O assistente é ajustado para gerar aproximadamente um a cinco perfis, solicitando um número muito grande, que pode causar falha na solicitação.
+   >Não espere várias linhas de visualização ou cenários exaustivos aqui. O controle está intencionalmente limitado a **um** amostra de avaliação para uma verificação rápida de código, não cobertura parcial em muitos perfis. Solicitar um conjunto de visualizações não realisticamente grande pode fazer com que a solicitação falhe.
 
    +++
 
@@ -109,6 +109,10 @@ Você pode selecionar uma expressão de personalização existente e usar o AI A
 
 ## Gerar na barra de ferramentas do Email Designer {#generate-email-designer}
 
+>[!NOTE]
+>
+>Esta seção se aplica somente quando você edita o conteúdo do **email** no Designer de email. Para outros canais, use o **[!UICONTROL Personalization Editor]**.
+
 No Designer de Email, você pode usar o [!UICONTROL Assistente de IA para expressões de personalização] da barra de ferramentas contextual sem abrir o [!UICONTROL Editor do Personalization] completo primeiro.
 
 1. No Designer de email, selecione o componente que deseja personalizar e clique no local onde deseja inserir a expressão.
@@ -125,7 +129,7 @@ No Designer de Email, você pode usar o [!UICONTROL Assistente de IA para expres
 
    É possível:
 
-   * Valide a saída da expressão com valores de exemplo - use a guia **[!UICONTROL Preview]**.
+   * Valide a saída da expressão com um valor de exemplo - use a guia **[!UICONTROL Preview]**.
    * Gerar outra sugestão pelo mesmo prompt - usar **[!UICONTROL Regenerar]**.
    * Limpar a discussão e começar novamente - usar **[!UICONTROL Redefinir]**.
    * Refine a expressão no editor completo - clique no ícone ![Editar](assets/do-not-localize/Smock_Edit_18_N.svg "Editar") para abrir o **[!UICONTROL Editor do Personalization]**.
