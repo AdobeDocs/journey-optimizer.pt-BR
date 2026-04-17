@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6c4fe0f03508068d7078d23d525f11a14ed73260
+source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2490'
 ht-degree: 21%
 
 ---
@@ -139,7 +139,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 #### Design de email
 
-* O **AI Assistant para expressões de personalização no Email Designer** - AI Assistant para expressões de personalização agora também está disponível diretamente na experiência de edição em linha no Email Designer. Ao editar um componente de texto, clique em **Usar IA para gerar** no popover de edição em linha para descrever a personalização necessária em linguagem simples, revisar a expressão gerada e inseri-la sem sair do Designer de email. [Saiba mais](../content-management/generative-personalization-expressions.md#generate-email-designer)
+* **Assistente de IA para expressões de personalização no Designer de email** - No Designer de email, selecione um componente e use **Adicionar expressão** na barra de ferramentas contextual para descrever a personalização necessária em linguagem simples, revise a expressão gerada e insira-a sem sair do designer. [Saiba mais](../content-management/generative-personalization-expressions.md#generate-email-designer)
 
   Data de disponibilidade: quinta-feira, 15 de abril de 2026
 

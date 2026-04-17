@@ -9,9 +9,9 @@ role: Developer
 level: Beginner
 keywords: expressão, editor, início, personalização
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '576'
 ht-degree: 22%
 
 ---
@@ -51,9 +51,9 @@ Esse playground fornece um ambiente simulado para gravar e testar o código de p
 
 ➡️ [Acessar o playground de personalização](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## Assistente de IA no editor de personalização {#ai-personalization-expressions}
+## Assistente de IA para expressões de personalização {#ai-personalization-expressions}
 
-No **[!UICONTROL Personalization Editor]**, o **[!UICONTROL AI Assistant]** ajuda a gerar novas expressões a partir da linguagem natural, explicar o que o código existente faz e corrigir problemas em uma seleção. Em seguida, aplique a saída quando ela corresponder à sua intenção.
+No **[!UICONTROL Editor do Personalization]** ou na barra de ferramentas do Designer de email (**[!UICONTROL Adicionar expressão]**), o **[!UICONTROL Assistente de IA]** ajuda a gerar novas expressões a partir da linguagem natural, explicar o que o código existente faz, corrigir problemas em uma seleção e, em seguida, aplicar a saída quando ela corresponder à sua intenção.
 
 ![](../content-management/assets/ai-perso-generate.png)
 
