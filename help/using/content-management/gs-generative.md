@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 5c1d6606524d2dd0105bcf746178b6bd98895aa7
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 92%
+source-wordcount: '925'
+ht-degree: 91%
 
 ---
 
@@ -138,11 +138,11 @@ As diretrizes gerais para usar o Assistente de IA do Adobe Journey Optimizer na 
 ### Uso legal e transparência
 
 * O uso do Assistente de IA está sujeito às diretrizes do usuário para IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR)
-* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/br/firefly/using/content-credentials.html)
+* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 ### Assistente de IA para expressões de personalização {#ai-assistant-personalization-editor-guardrails}
 
-As seguintes medidas de proteção se aplicam ao [Assistente de IA para expressões de personalização](generative-personalization-expressions.md) no [!UICONTROL Editor do Personalization].
+As seguintes medidas de proteção se aplicam ao [Assistente de IA para expressões de personalização](generative-personalization-expressions.md) no [!UICONTROL Editor do Personalization] e no Designer de email.
 
 * **Offer Decisioning e Experience Decisioning** — Não suportado.
 * **Favoritos** — Não suportado.
