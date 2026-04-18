@@ -30,7 +30,7 @@ Saiba como configurar e gerenciar o processo de aprovação de jornadas e campan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Como criar e gerenciar políticas de aprovação
 

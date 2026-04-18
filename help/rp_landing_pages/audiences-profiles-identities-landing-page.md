@@ -50,7 +50,7 @@ Descubra como gerenciar as identidades de clientes com o Gráfico de identidade 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Painel de uso de licenças
 

@@ -32,7 +32,7 @@ Saiba como criar, gerenciar e ativar conjuntos de regras para controlar a frequ√
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Limite e arbitragem de jornadas
 

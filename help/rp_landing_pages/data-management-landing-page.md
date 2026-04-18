@@ -40,7 +40,7 @@ Entenda e gerencie esquemas da Adobe Experience Platform para obter uma modelage
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=pt-BR)
 
 Conjuntos de dados do Journey Optimizer
 
@@ -50,7 +50,7 @@ Descubra uma orientação abrangente sobre o gerenciamento de conjuntos de dados
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Usar dados da Adobe Experience Platform
 
@@ -60,7 +60,7 @@ Habilite e utilize conjuntos de dados da Adobe Experience Platform no Journey Op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Introdução a consultas no Journey Optimizer
 

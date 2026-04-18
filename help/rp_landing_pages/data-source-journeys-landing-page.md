@@ -50,7 +50,7 @@ Saiba como configurar a fonte de dados integrada da Adobe Experience Platform pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Configuração de fontes de dados externas
 

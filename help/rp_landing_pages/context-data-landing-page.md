@@ -35,7 +35,7 @@ Saiba como usar dados contextuais no mecanismo de tomada de decisão do Adobe Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Usar dados contextuais em solicitações de tomada de decisão na borda
 

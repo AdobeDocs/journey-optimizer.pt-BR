@@ -50,7 +50,7 @@ Descubra como usar identificadores complementares para personalização aprimora
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Gerenciamento de fuso horário
 
@@ -60,7 +60,7 @@ Saiba como configurar fusos horários fixos e definidos por perfil para garantir
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Otimização de tempo de envio
 

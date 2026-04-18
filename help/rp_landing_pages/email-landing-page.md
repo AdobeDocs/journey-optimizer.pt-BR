@@ -42,7 +42,7 @@ Guia passo a passo para adicionar, configurar e testar ações de email em jorna
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Projetar e otimizar conteúdo de email
 
@@ -62,7 +62,7 @@ Configure mecanismos de recusa com um clique ou em duas etapas para gerenciar as
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configurar canal de email
 

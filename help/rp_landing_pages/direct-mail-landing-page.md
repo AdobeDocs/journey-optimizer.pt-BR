@@ -30,7 +30,7 @@ Saiba mais sobre as campanhas de correspondência direta no Adobe Journey Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Saiba como criar uma campanha de correspondência direta
 
@@ -40,7 +40,7 @@ Guia passo a passo para criar campanhas de correspondência direta e configurar 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como verificar e enviar uma campanha de correspondência direta
 

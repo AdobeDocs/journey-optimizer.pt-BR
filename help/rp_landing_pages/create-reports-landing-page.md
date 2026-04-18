@@ -25,7 +25,7 @@ Use os dados do evento da Gestão de decisões e o esquema XDM do DecisioningEve
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Trabalhar com eventos de gestão de decisões
 

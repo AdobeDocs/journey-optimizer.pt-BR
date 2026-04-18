@@ -50,7 +50,7 @@ Descubra como adicionar mensagens LINE a jornadas e campanhas, personalizar o co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Verificar e enviar mensagens LINE
 

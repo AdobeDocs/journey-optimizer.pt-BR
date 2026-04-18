@@ -20,7 +20,7 @@ O recurso de relatório em tempo real do Adobe Journey Optimizer permite rastrea
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução ao relatório em tempo real
 
@@ -30,7 +30,7 @@ Saiba como acessar, personalizar e exportar relatórios em tempo real para monit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Lista de métricas
 
