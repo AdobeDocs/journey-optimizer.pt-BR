@@ -40,7 +40,7 @@ Descubra como criar e configurar as propriedades da campanha e os cronogramas de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Atividades da campanha orquestrada
 
@@ -50,7 +50,7 @@ Aprenda a usar a tela visual para projetar e configurar atividades para as suas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Iniciar e monitorar campanhas
 

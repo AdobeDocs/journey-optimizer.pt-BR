@@ -25,7 +25,7 @@ Exportar o catálogo de oferta no Adobe Journey Optimizer é como abrir as porta
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Guia para exportar catálogos de oferta
 
@@ -35,7 +35,7 @@ Saiba como exportar o catálogo de oferta como um conjunto de dados para a Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Acessar o catálogo de ofertas exportado
 
@@ -65,7 +65,7 @@ Entenda a estrutura hierárquica, as definições de campo e os metadados do con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Detalhes do conjunto de dados de posicionamentos
 
@@ -75,7 +75,7 @@ Saiba mais sobre os campos, o esquema e os metadados do conjunto de dados de dis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Documentação do conjunto de dados de ofertas substitutas
 

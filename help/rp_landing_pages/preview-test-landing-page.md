@@ -48,7 +48,7 @@ Descubra como selecionar e gerenciar perfis de teste para visualizar e testar o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Visualizar o conteúdo usando perfis de teste
 
@@ -78,7 +78,7 @@ Integre o Litmus para pré-visualizar a renderização de email em clientes de e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Como simular e testar variações de conteúdo
 

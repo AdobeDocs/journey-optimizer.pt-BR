@@ -20,7 +20,7 @@ O Adobe Journey Optimizer inclui um **editor de expressões avançadas**, que pe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
 
 Usar o editor de expressões avançadas
 
@@ -51,7 +51,7 @@ Acesse um guia abrangente sobre funções para manipulação de dados, avaliaç�
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Exemplos de consultas em conjuntos de dados do Journey Optimizer e casos de uso relacionados
 
@@ -61,7 +61,7 @@ Acesse exemplos práticos de consultas SQL para analisar e gerenciar dados em co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Exemplo de consultas SQL para análise de dados
 

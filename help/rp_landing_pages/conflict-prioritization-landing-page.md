@@ -41,7 +41,7 @@ Descubra métodos para detectar e resolver conflitos em campanhas e jornadas, ga
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Atribuir pontuações de prioridade a campanhas
 

@@ -60,7 +60,7 @@ Entenda as permissões disponíveis e suas funcionalidades para configurar o con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Níveis de permissão
 

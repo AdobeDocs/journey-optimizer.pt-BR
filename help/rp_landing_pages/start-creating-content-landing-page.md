@@ -20,7 +20,7 @@ A criação de conteúdo no Adobe Journey Optimizer proporciona flexibilidade e 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Criar o conteúdo de um email do zero
 

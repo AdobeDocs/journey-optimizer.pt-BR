@@ -216,7 +216,7 @@ Esse fluxo ilustra como esquemas, conjuntos de dados, fontes, fontes de dados e 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 **Introdução a esquemas**
 
@@ -226,7 +226,7 @@ Saiba como criar esquemas XDM no Adobe Experience Platform, escolher a classe e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=pt-BR)
 
 **Trabalhar com conjuntos de dados**
 
@@ -236,7 +236,7 @@ Entenda como criar conjuntos de dados habilitados para perfil e de evento, monit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 **Configurar fontes de dados**
 
@@ -246,7 +246,7 @@ Orientação passo a passo sobre como configurar a fonte de dados integrada do A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 **Usar dados (pesquisa) do Adobe Experience Platform**
 
@@ -256,7 +256,7 @@ Descubra como enriquecer mensagens no tempo de execução com dados de referênc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 **Introdução a consultas**
 
@@ -266,7 +266,7 @@ Use o Serviço de consulta para analisar conjuntos de dados do Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 **Introdução a perfis**
 
@@ -276,7 +276,7 @@ Saiba como o Perfil do cliente em tempo real funciona no Journey Optimizer e com
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 **Configurar o tutorial de visão geral de dados**
 
@@ -286,7 +286,7 @@ Uma apresentação em vídeo de fácil introdução sobre a configuração de da
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 **Criar conjuntos de dados e assimilar tutorial de dados**
 

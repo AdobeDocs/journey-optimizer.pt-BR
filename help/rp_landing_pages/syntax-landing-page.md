@@ -60,7 +60,7 @@ Entenda como fazer referência a campos em expressões, incluindo casos de uso a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Funções de gerenciamento de coleções
 
@@ -70,7 +70,7 @@ Explore funções como “all”, “first”, “last” e “at” para manipu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
 
 Operadores em expressões avançadas
 

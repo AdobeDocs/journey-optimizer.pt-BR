@@ -50,7 +50,7 @@ Descubra como salvar conteúdos como fragmentos visuais ou de expressão reutili
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Usar de fragmentos personalizáveis
 

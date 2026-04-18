@@ -20,7 +20,7 @@ O recurso de conteúdo multilíngue do Adobe Journey Optimizer permite que você
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução ao conteúdo multilíngue
 
@@ -30,7 +30,7 @@ Saiba como configurar e usar o recurso de conteúdo multilíngue do Adobe Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como criar uma localidade para o conteúdo multilíngue
 

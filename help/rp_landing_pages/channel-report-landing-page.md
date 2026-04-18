@@ -20,7 +20,7 @@ O “Relatório de todo o histórico” do Adobe Journey Optimizer é a sua port
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução ao relatório de todo o histórico
 
@@ -70,7 +70,7 @@ Configure fontes de dados e conjuntos de dados para ativar a experimentação e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Motivos de exclusão
 

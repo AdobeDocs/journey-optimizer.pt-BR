@@ -25,7 +25,7 @@ A Gestão de decisões no Adobe Journey Optimizer permite que você entregue a o
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução à gestão de decisões
 
@@ -35,7 +35,7 @@ Saiba mais sobre os fundamentos da Gestão de decisões, incluindo componentes, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Criar e gerenciar componentes de decisão
 
@@ -45,7 +45,7 @@ Descubra como criar posicionamentos, regras de decisão e qualificadores de cole
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Criar e otimizar classificações
 

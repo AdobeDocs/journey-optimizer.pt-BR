@@ -20,7 +20,7 @@ Os campos de eventos de etapas herdados no Adobe Journey Optimizer são essencia
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Noções básicas dos campos herdados
 
@@ -30,7 +30,7 @@ Saiba mais sobre campos de eventos de etapas herdados no Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Visão geral dos campos da jornada
 
@@ -50,7 +50,7 @@ Encontre campos essenciais compartilhados entre journeyStepEvent e journeyStepPr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Campos de execução de ações
 
@@ -70,7 +70,7 @@ Saiba mais sobre os campos associados à obtenção de dados durante o processam
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Campos de identidade JourneyStep
 

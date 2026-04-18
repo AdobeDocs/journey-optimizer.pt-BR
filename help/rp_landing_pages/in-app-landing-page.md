@@ -41,7 +41,7 @@ Saiba como criar, configurar e publicar mensagens móveis no aplicativo usando a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Criar mensagens no aplicativo da Web
 

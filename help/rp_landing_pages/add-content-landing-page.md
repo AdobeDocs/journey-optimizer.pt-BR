@@ -20,7 +20,7 @@ A criação de conteúdo no Adobe Journey Optimizer envolve criar experiências 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Usar componentes de conteúdo
 
@@ -80,7 +80,7 @@ Estruture a camada de texto simples do seu email para que os clientes da caixa d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Adicionar metadados
 

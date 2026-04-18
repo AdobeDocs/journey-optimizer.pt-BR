@@ -30,7 +30,7 @@ Saiba como ajustar parâmetros de estilo, como corpo do email, estrutura e compo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Personalizar fundo do email
 

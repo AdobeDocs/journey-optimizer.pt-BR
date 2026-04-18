@@ -60,7 +60,7 @@ Personalize o conteúdo da campanha com base em dados contextuais. Saiba como pr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=pt-BR)
 
 Definir o público-alvo de uma campanha acionada por API
 

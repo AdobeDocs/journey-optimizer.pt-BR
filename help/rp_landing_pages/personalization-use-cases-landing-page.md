@@ -30,7 +30,7 @@ Saiba como criar notificações por push personalizadas para atualizações de s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Guia de personalização para emails de abandono de carrinho
 
@@ -40,7 +40,7 @@ Descubra como personalizar emails de abandono do carrinho, usando funções auxi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Exemplo de personalização de emails de prescrição de plano de saúde
 

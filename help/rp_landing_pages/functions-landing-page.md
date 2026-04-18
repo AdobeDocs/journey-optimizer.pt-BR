@@ -30,7 +30,7 @@ Saiba como usar funções auxiliares para manipulação e personalização de da
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Biblioteca de funções de agregação
 
@@ -60,7 +60,7 @@ Saiba como manipular matrizes e listas com funções como contagem, recuperaçã
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
 
 Biblioteca de funções de data/hora
 
