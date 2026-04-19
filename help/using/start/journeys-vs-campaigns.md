@@ -10,9 +10,9 @@ level: Beginner
 keywords: jornada, campanha, orquestrado, comparação, escolher, decisão, fluxo de trabalho, tempo real, lote, orquestração, várias etapas, agendado, acionado por API, orientado por evento
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1696'
 ht-degree: 4%
 
 ---
@@ -111,6 +111,10 @@ Siga esta árvore decisória para escolher a abordagem correta. Muitas marcas us
 * Tomada de decisões em tempo real com base em comportamentos e eventos
 * As atividades de espera criam um tempo personalizado
 * A ramificação condicional cria caminhos exclusivos por perfil
+* Escuta ativa integrada — a inação por um período definido também pode acionar a próxima etapa, não apenas eventos explícitos. [Saiba mais sobre atividades de espera](../building-journeys/wait-activity.md)
+* Limite de frequência — controla com que frequência um cliente pode inserir ou receber mensagens de uma jornada. [Saiba mais sobre o limite de jornada](../conflict-prioritization/journey-capping.md)
+* Divisão de público-alvo por porcentagem: divida os perfis em grupos aleatórios baseados em porcentagem para executar experimentos A/B em caminhos de jornada. [Saiba mais sobre a divisão de porcentagem](../building-journeys/condition-activity.md)
+* Modo de teste — valide a lógica de jornada e o delivery de mensagens com perfis de teste antes de publicar em tempo real. [Saiba mais sobre o modo de teste](../building-journeys/testing-the-journey.md)
 
 **Exemplo de fluxo:**
 
@@ -212,6 +216,8 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 | Baseado em código | ✅ | ✅ | ❌ | ❌ |
 | Cartões de conteúdo | ✅ | ✅ | ❌ | ❌ |
 | Correspondência direta | ✅ | ✅ | ❌ | ✅ |
+| LINE | ✅ | ✅ | ✅ | ✅ |
+| WhatsApp | ✅ | ✅ | ✅ | ✅ |
 
 ### Recursos avançados
 
@@ -226,7 +232,7 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 | Dados de várias entidades | ❌ | ❌ | ❌ | ✅ |
 | Contagens exatas de pré-envio | ❌ | ❌ | ❌ | ✅ |
 | Segmentação sob demanda | ❌ | ❌ | ❌ | ✅ |
-| Otimização de hora de envio | ✅ | ✅ | ✅ | ✅ |
+| Otimização de hora de envio | ✅ | ❌ | ❌ | ❌ |
 | Teste AB | ✅ | ✅ | ❌ | ❌ |
 | Fluxos de trabalho de aprovação | ✅ | ✅ | ✅ | ❌ |
 

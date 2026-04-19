@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e42168a8eb2e5824a4054cced014b6ec57afd7f
+source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
 workflow-type: tm+mt
-source-wordcount: '3207'
+source-wordcount: '3209'
 ht-degree: 91%
 
 ---
@@ -35,18 +35,19 @@ ht-degree: 91%
    + Noções básicas {#essentials}
       + [O que é o Journey Optimizer?](using/start/get-started.md)
       + [Entenda como funciona](using/start/understanding-ajo.md)
+      + [IA e recursos inteligentes](using/start/ai-features.md)
       + [Terminologia principal](using/start/terminology.md)
       + [Medidas de proteção e limitações](using/start/guardrails.md)
    + Introdução por função {#by-role}
-      + [Escolha seu caminho de aprendizagem](using/start/quick-start.md)
-      + [Introdução para profissionais de marketing](using/start/path/marketer.md)
-      + [Introdução para engenheiros de dados](using/start/path/data-engineer.md)
+      + [Funções e responsabilidades](using/start/quick-start.md)
       + [Introdução para administradores](using/start/path/administrator.md)
+      + [Introdução para engenheiros de dados](using/start/path/data-engineer.md)
       + [Introdução para desenvolvedores](using/start/path/developer.md)
+      + [Introdução para profissionais de marketing](using/start/path/marketer.md)
    + Trabalhe com eficiência {#work-efficiently}
       + [Navegue pela interface](using/start/user-interface.md)
       + [Pesquise, filtre e organize](using/start/search-filter-categorize.md)
-      + [IA e recursos inteligentes](using/start/ai-features.md)
+      + [Perguntas frequentes sobre solução de problemas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Acessibilidade](using/start/accessibility.md)
       + {hide-from-toc}[Jornadas vs Campanhas](using/start/journeys-vs-campaigns.md)
 + Jornadas {#orchestrate-journeys}
