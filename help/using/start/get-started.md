@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: jornada otimizer, o que é o ajo, adobe jornada otimizer, introdução, omnicanal, personalização, jornada do cliente
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+source-git-commit: 0a87a3c689d9b623a00f0a3a257e4fe34152945d
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 23%
@@ -162,7 +162,7 @@ A funcionalidade e os serviços principais do Journey Optimizer operam a partir 
 
 Os blueprints de experiência digital fornecem diagramas de arquitetura do fluxo de dados e do sistema para ajudar a entender melhor como a Adobe Experience Platform e os aplicativos são integrados e implementados. Os blueprints fornecem uma representação visual dos dados e fluxos de conteúdo do sistema interligado e dos componentes, da sequência de operações e das dependências, a fim de ajudar a descrever o design e a arquitetura do caso de uso da Adobe Experience Platform e dos aplicativos.
 
-Consulte [Blueprints do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+Consulte [Blueprints do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
 
 
 >[!MORELIKETHIS]
