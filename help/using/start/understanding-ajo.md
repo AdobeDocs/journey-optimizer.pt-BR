@@ -4,25 +4,31 @@ product: journey optimizer
 title: Noções básicas sobre o Journey Optimizer
 description: Saiba como o Adobe Journey Optimizer funciona com o Adobe Experience Platform para fornecer experiências personalizadas ao cliente
 feature: Get Started
+topic: Content Management
 role: Admin, Developer, User
 level: Beginner
+keywords: jornada otimizer, como funciona, arquitetura, plataforma de experiência, áreas funcionais
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 4%
+source-wordcount: '962'
+ht-degree: 3%
 
 ---
 
 # Noções básicas sobre o Journey Optimizer {#understanding-ajo}
 
+Esta página explica como o Adobe Experience Platform e o Journey Optimizer trabalham juntos, abordando o ciclo contínuo de dados para experiência, as principais áreas funcionais, os detalhes da arquitetura e os pontos de integração.
+
 O Adobe Journey Optimizer e o Adobe Experience Platform trabalham juntos para permitir a personalização orientada por dados em escala. Esta página explica como esses sistemas operam e como suas principais áreas funcionais se combinam para fornecer experiências excepcionais ao cliente. [Saiba mais sobre os principais recursos](get-started.md) | [Explore a terminologia principal](terminology.md)
 
 ## Como o Journey Optimizer funciona {#how-it-works}
 
+Sem uma base de dados unificada, as marcas são forçadas a confiar em várias ferramentas específicas de canal — dificultando a manutenção de uma visualização consistente de cada cliente ou a ação em seu comportamento em tempo real. A Journey Optimizer resolve isso criando uma base no Adobe Experience Platform para conectar os dados do cliente, a criação de conteúdo e a orquestração de jornadas em um único sistema contínuo. O resultado são experiências de marca significativas que impulsionam a fidelidade do cliente e o valor vitalício.
+
 O Adobe Journey Optimizer funciona como um fluxo contínuo em que os dados são coletados, analisados e aplicados para criar jornadas personalizadas do cliente.
 
-![](assets/ajo-aep-architecture-diagram.png)
+![Diagrama mostrando o Adobe Experience Platform como a camada de dados fundamental, com o Journey Optimizer integrado ao Real-Time CDP, Customer Journey Analytics e Adobe Mix Modeler, todos compartilhando os serviços principais, como Perfil do Cliente em Tempo Real, governança de dados e resolução de identidade.](assets/ajo-aep-architecture-diagram.png)
 
 ### Adobe Experience Platform: a base {#aep-foundation}
 
@@ -38,7 +44,7 @@ O Adobe Experience Platform serve como backbone, permitindo que as marcas centra
 O Adobe Journey Optimizer aplica os dados e insights do Adobe Experience Platform para fornecer experiências inteligentes e personalizadas aos clientes:
 
 * **Noções básicas do cliente** - Os Perfis de clientes em tempo real permitem a segmentação em públicos para mensagens direcionadas. [Criar públicos-alvo](../audience/about-audiences.md)
-* **Conteúdo e ofertas** - Ferramentas para criar, gerenciar e personalizar conteúdo; lógica em tempo real para selecionar a melhor oferta para cada indivíduo. [Criar conteúdo](../../rp_landing_pages/content-management-landing-page.md) | [Gerenciar ofertas](../offers/get-started/starting-offer-decisioning.md)
+* **Conteúdo e ofertas** - um designer visual integrado, modelos reutilizáveis e uma biblioteca de ativos centralizada permitem que as equipes criem e personalizem mensagens para qualquer canal, sem sair da plataforma. A personalização dinâmica adapta o conteúdo com base nos atributos, comportamento e contexto do cliente. A lógica de decisão em tempo real seleciona a melhor oferta para cada indivíduo. [Criar conteúdo](../../rp_landing_pages/content-management-landing-page.md) | [Gerenciar ativos](../integrations/assets.md) | [Gerenciar ofertas](../offers/get-started/starting-offer-decisioning.md)
 * **Gerenciamento de Jornadas e Campanhas** - Automatiza sequências de interações (jornadas) ou agenda mensagens direcionadas únicas (campanhas). [Criar jornadas](../building-journeys/journey-gs.md) | [Criar campanhas](../campaigns/get-started-with-campaigns.md)
 * **Entrega (Conexões)** - Entrega mensagens por canais como email, SMS, notificações por push e correspondência direta; exporta dados para sistemas externos. [Configurar canais](../configuration/get-started-configuration.md)
 * **Avaliação e análise** - Acompanha o engajamento do cliente e o desempenho da campanha com relatórios para melhoria contínua. [Exibir relatórios](../reports/campaign-global-report-cja.md)
@@ -47,7 +53,7 @@ O Adobe Journey Optimizer aplica os dados e insights do Adobe Experience Platfor
 
 Esse ecossistema opera como um ciclo de otimização contínuo. Os dados impulsionam a compreensão do cliente, que informa o conteúdo personalizado e as decisões. Eles são orquestrados em jornadas, distribuídos em canais, medidos para eficiência e refinados ao longo do tempo.
 
-![](../assets/do-not-localize/get-started-flow.png)
+![Diagrama que ilustra o ciclo de otimização contínua no Journey Optimizer: a assimilação de dados alimenta perfis de clientes, que informam as decisões de conteúdo e oferta, orquestrados em jornadas, entregues em canais, medidos para desempenho e refinados ao longo do tempo.](../assets/do-not-localize/get-started-flow.png)
 
 ## Principais áreas funcionais {#functional-areas}
 

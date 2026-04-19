@@ -10,10 +10,10 @@ keywords: Tipos de jornada, unitário, ler público, qualificação de público,
 version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 4%
+source-wordcount: '958'
+ht-degree: 5%
 
 ---
 
@@ -174,7 +174,3 @@ Agora que você entende os tipos de jornada, está pronto para:
 * **[Saiba mais sobre o designer do jornada](using-the-journey-designer.md)** - Crie sua tela de jornada
 * **[Explore os recursos do jornada](journey.md#capabilities)** - Descubra recursos avançados
 * **[Exibir perguntas frequentes sobre o jornada](journey-faq.md)** - Perguntas frequentes respondidas
-
-**Precisa comparar com campanhas?**
-
-* [Guia de comparação de Jornadas vs Campanhas](../start/journeys-vs-campaigns.md) - Escolha entre jornadas, campanhas de Ação/API e campanhas Orquestradas
