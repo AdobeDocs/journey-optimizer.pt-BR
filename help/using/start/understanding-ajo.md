@@ -9,9 +9,9 @@ role: Admin, Developer, User
 level: Beginner
 keywords: jornada otimizer, como funciona, arquitetura, plataforma de experiência, áreas funcionais
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+source-git-commit: 83a4b2d85866d5bbad607c6b84d0573f211fad89
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '925'
 ht-degree: 3%
 
 ---
@@ -83,21 +83,9 @@ Estas áreas funcionais operam em um ciclo contínuo:
 
 ## Detalhes da arquitetura {#architecture-details}
 
-Para equipes técnicas, este é o diagrama detalhado de arquitetura que mostra como o Journey Optimizer se integra ao Adobe Experience Platform. [Navegue pela interface](user-interface.md) para explorar esses componentes na prática.
+O Journey Optimizer é um dos quatro aplicativos criados nativamente no Adobe Experience Platform, junto com o Real-Time CDP, Customer Journey Analytics e Adobe Mix Modeler. Ele compartilha os principais serviços da AEP — perfil do cliente em tempo real, gráfico de identidade, governança de dados e serviços de consulta — para acessar uma base de dados unificada do cliente sem exigir integrações separadas. O Journey Optimizer pode operar como um aplicativo independente ou interoperar com outros aplicativos nativos da AEP.
 
-![Arquitetura do Adobe Journey Optimizer](assets/ajo-architecture.png)
-
-Quatro aplicativos são criados nativamente no Experience Platform: Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics e Adobe Mix Modeler. O Journey Optimizer funciona perfeitamente com esses aplicativos, mas também pode funcionar de forma independente. [Revise as medidas de proteção e as limitações](guardrails.md) para considerações de implementação.
-
-### Pontos de integração {#integration-points}
-
-O Journey Optimizer integra-se ao Adobe Experience Platform em vários níveis:
-
-* **Camada de dados** - Compartilha o mesmo Perfil do cliente em tempo real, Gráfico de identidade e conjuntos de dados
-* **Camada de serviço** - Aproveita os serviços de governança, privacidade e consulta da Adobe Experience Platform
-* **Camada de aplicativos** - Oferece orquestração de jornadas, gestão de decisões e gestão de conteúdo sobre o Adobe Experience Platform
-
-Saiba mais sobre [blueprints do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+Para aprofundar a arquitetura técnica, incluindo padrões de integração, pré-requisitos e fluxos de dados do sistema, consulte os [Adobe Journey Optimizer Blueprints](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}. Para considerações de implementação, [revise as medidas de proteção e as limitações](guardrails.md).
 
 ## Privacidade e segurança {#privacy-security}
 
