@@ -9,7 +9,7 @@ role: Admin, Developer, User
 level: Beginner
 keywords: jornada otimizer, como funciona, arquitetura, plataforma de experiência, áreas funcionais
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 83a4b2d85866d5bbad607c6b84d0573f211fad89
+source-git-commit: 3983f5912cb0579d489af6466025551b60d6938e
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 3%
@@ -85,7 +85,7 @@ Estas áreas funcionais operam em um ciclo contínuo:
 
 O Journey Optimizer é um dos quatro aplicativos criados nativamente no Adobe Experience Platform, junto com o Real-Time CDP, Customer Journey Analytics e Adobe Mix Modeler. Ele compartilha os principais serviços da AEP — perfil do cliente em tempo real, gráfico de identidade, governança de dados e serviços de consulta — para acessar uma base de dados unificada do cliente sem exigir integrações separadas. O Journey Optimizer pode operar como um aplicativo independente ou interoperar com outros aplicativos nativos da AEP.
 
-Para aprofundar a arquitetura técnica, incluindo padrões de integração, pré-requisitos e fluxos de dados do sistema, consulte os [Adobe Journey Optimizer Blueprints](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}. Para considerações de implementação, [revise as medidas de proteção e as limitações](guardrails.md).
+Para aprofundar a arquitetura técnica, incluindo padrões de integração, pré-requisitos e fluxos de dados do sistema, consulte os [Adobe Journey Optimizer Blueprints](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}. Para considerações de implementação, [revise as medidas de proteção e as limitações](guardrails.md).
 
 ## Privacidade e segurança {#privacy-security}
 
