@@ -5,16 +5,16 @@ title: Introdução
 description: Introdução ao Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 5951889d9cc245488ef89b8a6fc73e515068281e
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 98%
+source-wordcount: '608'
+ht-degree: 88%
 
 ---
 
 # Introdução ao Adobe Journey Optimizer{#get-started}
 
-O Adobe Journey Optimizer capacita você a fornecer experiências personalizadas e em tempo real para o cliente em cada canal. Encontre os clientes onde estiverem com a mensagem certa na hora certa.
+O Adobe Journey Optimizer capacita você a fornecer experiências personalizadas e em tempo real aos clientes em todos os canais — de um único aplicativo, em escala. O resultado são experiências de marca significativas que aumentam a fidelidade do cliente e o valor vitalício.
 
 Independentemente de você ser novo(a) no Journey Optimizer ou um(a) usuário(a) experiente que deseja expandir suas habilidades, esta seção fornece tudo o que você precisa para uma introdução rápida e eficaz.
 
@@ -53,9 +53,19 @@ Termos e conceitos essenciais para ajudar você a navegar pelo Journey Optimizer
 [Revise a terminologia](../using/start/terminology.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/sparkle.svg)
+
+IA e recursos inteligentes
+
+Descubra como a IA ajuda a criar conteúdo, otimizar os tempos de envio e tomar decisões mais inteligentes.
+
+[Explore os recursos de IA](../using/start/ai-features.md)
+:::
+
 ::::
 
-## Escolha seu caminho de aprendizagem {#by-role}
+## Introdução por função {#by-role}
 
 Comece com uma orientação específica para função personalizada de acordo com suas responsabilidades e metas.
 
@@ -102,7 +112,7 @@ Integre aplicativos móveis, implemente SDKs da web, configure eventos e crie in
 
 ::::
 
-[Não tem certeza de qual função é adequada para você? Faça nossa avaliação rápida →](../using/start/quick-start.md)
+[Ver todas as funções e responsabilidades →](../using/start/quick-start.md)
 
 ## Trabalhe com eficiência {#work-efficiently}
 
@@ -130,13 +140,13 @@ Use pesquisas, filtros e tags para gerenciar jornadas, campanhas e conteúdo com
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/help.svg)
 
-IA e recursos inteligentes
+Perguntas frequentes sobre solução de problemas
 
-Descubra como a IA ajuda a criar conteúdo, otimizar os tempos de envio e tomar decisões mais inteligentes.
+Encontre respostas para perguntas frequentes e soluções para problemas comuns em canais e recursos.
 
-[Explore os recursos de IA](../using/start/ai-features.md)
+[Exibir guia de solução de problemas](../using/start/troubleshooting.md)
 :::
 
 ::::
