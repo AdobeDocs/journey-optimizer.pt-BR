@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 47a36afb75002557e754bd72eeef0adb01d180e4
+source-git-commit: 4d5808f5485a524c08f8a16a442fce08d4baedb5
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2569'
 ht-degree: 20%
 
 ---
@@ -41,9 +41,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tr>
 <td>
 <p>O Adobe Journey Optimizer agora inclui um novo recurso que garante que seus emails sejam estruturados de maneira ideal para caixas de entrada alimentadas por IA, como o Apple Intelligence e o Google Gemini no Gmail.</p>
-<p>Como os assistentes de IA controlam cada vez mais como os recipients leem e agem no email, esse recurso ajuda a criar conteúdo que tenha bom desempenho em tarefas de IA de downstream, incluindo resumo, triagem, priorização e extração de intenção.</p>
+<p>Como os assistentes de IA controlam cada vez mais como os recipients leem e agem no email, esse recurso ajuda a gerar e criar conteúdo que tenha bom desempenho em tarefas de IA de downstream, incluindo resumo, triagem, priorização e extração de intenção.</p>
 <p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
-<p>Para obter mais informações, consulte <a href="../email/llm-email-optimizer.md">Otimizar texto de email para caixas de entrada de IA</a>.</p>
+<p>Para obter mais informações, consulte <a href="../email/llm-email-optimizer.md">Otimizar email para caixas de entrada de IA</a>.</p>
 <p>Data de disponibilidade: sábado, 17 de abril de 2026</p>
 </td>
 </tr>

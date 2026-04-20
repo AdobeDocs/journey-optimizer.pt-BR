@@ -1,14 +1,14 @@
 ---
-title: Otimizar texto de email para caixas de entrada de IA
+title: Otimizar email para caixas de entrada de IA
 description: Gere e refine uma versão dedicada de suas mensagens para que os clientes da caixa de entrada assistida por IA possam usar suas ofertas e CTAs ao resumir a intenção de email ou extração no Designer de email com IA.
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
+source-git-commit: 0d0999b831d01442c46015361018d6e646abc33c
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1069'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ As perguntas mais comuns que os destinatários podem fazer na caixa de entrada a
 
 * Além disso, os assistentes podem pesquisar proativamente por descontos ou cupons relacionados à marca e dobrá-los na resposta, para que o usuário não esteja mais olhando apenas para o que a sua mensagem realmente prometeu. Esse comportamento é útil para usuários finais, mas dilui o controle para profissionais de marketing que precisam de respostas para rastrear os termos reais no envio.
 
-Para evitar esses problemas, o [!DNL Journey Optimizer] cria uma versão de texto específica adicional de suas mensagens para que os cupons, intervalos de desconto, planos de ação e outras prioridades apareçam antecipadamente em uma cópia linear clara. Esta versão é diferente da [versão de texto simples](text-version-email.md) padrão ou personalizada de suas mensagens.
+Para evitar esses problemas, o [!DNL Journey Optimizer] cria uma versão específica adicional de suas mensagens para que os cupons, os intervalos de desconto, as chamadas para ação e outras prioridades apareçam antecipadamente em uma cópia linear clara. <!--This version is different from the HTML view and default or custom plain text version of your messages.-->
 
 O objetivo é usar a IA da caixa de entrada para criar resumos e perguntas e respostas em suas ofertas e ações definidas, em vez de se apoiar em uma parte de texto padrão fina ou em resultados da Web não relacionados.
 
@@ -41,7 +41,7 @@ O objetivo é usar a IA da caixa de entrada para criar resumos e perguntas e res
 >
 >Os comportamentos exatos do assistente de IA dependem do provedor da caixa de entrada e da versão do modelo. Após o email ser entregue, as respostas e os resumos fornecidos pelos clientes externos de IA podem estar incorretos, incompletos ou misturados com os resultados da Web.
 >
->O recurso Otimizar texto de email para caixas de entrada de IA gera apenas uma versão dedicada no Journey Optimizer; não garante como um assistente de terceiros interpretará ou exibirá a mensagem. Leia mais sobre as [limitações e riscos da IA de caixa de entrada de terceiros](#inbox-ai-risks).
+>O recurso Otimizar email para caixas de entrada de IA gera apenas uma versão dedicada no Journey Optimizer; não garante como um assistente de terceiros interpretará ou exibirá a mensagem. Leia mais sobre as [limitações e riscos da IA de caixa de entrada de terceiros](#inbox-ai-risks).
 
 ## Casos de uso recomendados {#use-cases}
 
@@ -49,7 +49,7 @@ O objetivo é usar a IA da caixa de entrada para criar resumos e perguntas e res
 * **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.
 -->
 
-* **Texto denso ou fragmentado** — Quando é difícil verificar o conteúdo do email, a otimização pode produzir uma narrativa linear mais clara com ofertas e links explícitos.
+* **Conteúdo denso ou fragmentado** — quando é difícil verificar o conteúdo do email, a otimização pode produzir uma narrativa linear mais clara com ofertas e links explícitos.
 
 * **Controle de perguntas e respostas da caixa de entrada** — Quando você espera que os destinatários perguntem aos assistentes *sobre o que é o email* ou *quais são as ofertas*, uma versão forte otimizada para IA reduz os resumos parciais e evita a dependência de respostas fornecidas pela Web que não estão vinculadas à sua cópia aprovada.
 
@@ -111,7 +111,7 @@ O recurso Otimizar email para caixas de entrada de IA ajuda você a preparar uma
 
 * **Exposição legal e de marca** — Resumos de IA incorretos ou incompletos ainda podem gerar confusão no cliente ou disputas sobre promoções, termos ou linguagem de recusa. [!DNL Journey Optimizer] não garante que o modelo de terceiros reproduzirá fielmente a versão otimizada do seu email.
 
-* **[!UICONTROL Otimizar para Caixa de Entrada de IA]** em [!DNL Journey Optimizer] — O controle de tempo de criação no Designer de Email é separado dos assistentes da caixa de entrada do usuário final. Sempre revise o texto simples gerado antes de enviar.
+* **[!UICONTROL Otimizar para Caixa de Entrada de IA]** em [!DNL Journey Optimizer] — O controle de tempo de criação no Designer de Email é separado dos assistentes da caixa de entrada do usuário final. Sempre revise o conteúdo gerado antes de enviar.
 
 ## Tópicos relacionados {#related-topics}
 
