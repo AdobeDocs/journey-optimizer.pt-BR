@@ -5,10 +5,10 @@ title: Adicionar uma atividade de canal a uma campanha em várias etapas
 description: Saiba como adicionar uma atividade de canal a uma campanha em várias etapas
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 37%
+source-wordcount: '1769'
+ht-degree: 36%
 
 ---
 
@@ -90,6 +90,22 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
    ![imagem mostrando a tela com uma atividade de email](../assets/channel-edit.png)
 
 1. Na guia **[!UICONTROL Propriedades]**, insira uma descrição e alterne para a guia **[!UICONTROL Ações]** para configurar a atividade.
+
+## Mensagens de marketing vs. transacionais {#marketing-vs-transactional}
+
+Escolher a categoria correta determina como as mensagens são entregues e quais regras se aplicam:
+
+| | Marketing | Transacional |
+| --- | --- | --- |
+| **Aceitação necessária** | Sim | Não |
+| **Regras de negócios** | Aplicado (limite de frequência, regras de fadiga) | Ignorado |
+| **Tipo de configuração de canal** | Configuração do canal de marketing | Configuração de canal transacional |
+| **Casos de uso típicos** | Promoções, boletins informativos, campanhas sazonais | Confirmações de pedidos, redefinições de senha, alertas de interrupção |
+| **Público-alvo** | Somente assinantes que aceitaram | Qualquer perfil, independentemente do status de aceitação |
+
+>[!NOTE]
+>
+>Use Transacional somente para comunicações operacionais ou sensíveis ao tempo. Classificar incorretamente uma mensagem promocional como Transacional ignora o consentimento e as regras de negócios, o que pode violar os requisitos regulatórios.
 
 ## Definir a configuração e as configurações do canal {#configuration}
 

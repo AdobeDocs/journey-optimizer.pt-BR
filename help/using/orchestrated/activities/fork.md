@@ -5,10 +5,10 @@ title: Usar a atividade Bifurcação
 description: Saiba como usar a atividade Bifurcação em uma campanha orquestrada
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 4ba956e83c4e28a6d578ffa093d8b8e5fbd2c50b
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 86%
+source-wordcount: '254'
+ht-degree: 47%
 
 ---
 
@@ -42,3 +42,16 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Bifurcação]**:
 1. Para remover uma transição, clique no ícone ![](../assets/do-not-localize/Smock_Delete_18_N.svg).
 
 1. Se necessário, clique em **[!UICONTROL Adicionar transição]** para adicionar outra transição de saída.
+
+## Exemplos {#fork-examples}
+
+Este é um uso típico da atividade **[!UICONTROL Fork]**: direcionar o mesmo público-alvo com dois canais de email diferentes, um de marketing e outro transacional, para comparar o comportamento de entrega.
+
+Depois que uma atividade **[!UICONTROL Criar público-alvo]** seleciona a população do público-alvo, uma **[!UICONTROL Bifurcação]** cria duas ramificações paralelas:
+
+* A **Ramificação 1** se conecta a uma atividade de canal de email de Marketing. As mensagens seguem as regras de negócios padrão e são enviadas apenas para perfis de aceitação.
+* **A ramificação 2** se conecta a uma atividade de canal de email Transacional. As mensagens ignoram as regras de negócios e são entregues a todos os perfis, independentemente do status de aceitação.
+
+![](../assets/workflow-fork.png)
+
+Esse padrão é útil para entender como as configurações de categoria do canal afetam o comportamento do delivery e para enviar diferentes tipos de mensagem para o mesmo público-alvo em uma única execução de campanha.

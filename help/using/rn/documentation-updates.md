@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
 workflow-type: tm+mt
-source-wordcount: '6825'
-ht-degree: 71%
+source-wordcount: '6969'
+ht-degree: 69%
 
 ---
 
@@ -21,6 +21,13 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 ## Abril de 2026 {#april-2026}
 
+* A documentação das **Atividades de canal** foi atualizada com uma nova seção **Mensagens de marketing vs. transacionais** que explica as diferenças de comportamento entre as duas categorias de canal: requisitos de aceitação, aplicativo de regra de negócios, tipo de configuração de canal e casos de uso recomendados. [Leia mais](../orchestrated/activities/channels.md#marketing-vs-transactional)
+
+* A documentação da **Atividade de bifurcação** foi aprimorada com uma nova seção **Exemplos** que ilustra como usar a atividade de bifurcação para dividir um público em duas ramificações de email paralelas — uma de Marketing e outra de Transação — em uma única execução de campanha. [Leia mais](../orchestrated/activities/fork.md#fork-examples)
+
+* A documentação **Criar atividade de público-alvo** foi aprimorada com um novo exemplo que mostra como filtrar perfis por um atributo de plano de assinatura usando o construtor de regras. [Leia mais](../orchestrated/activities/build-audience.md#build-audience-examples)
+
+* A página **Introdução às campanhas orquestradas** documenta o padrão **Criar público → Bifurcação → Canal A + Canal B** no nível de entrada em **O que há dentro de uma campanha orquestrada?**, com referências cruzadas à atividade de bifurcação e às páginas de mensagens de marketing vs. transacionais. [Leia mais](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * A página **Editar conteúdo de email com o editor avançado do HTML** foi movida da seção Gerenciamento de conteúdo para a seção **Email** da documentação (em Design de email) e o arquivo de página foi renomeado para **email-expert-mode.md**. A página agora documenta que o editor avançado do HTML está disponível no Designer de email para mensagens de email, bem como para modelos de conteúdo de email. [Leia mais](../email/email-expert-mode.md)
 
 * A documentação **Iniciar e monitorar campanhas orquestradas** foi atualizada com uma nova seção que detalha a sequência de execução interna do tempo de publicação, juntamente com uma tabela de status do ciclo de vida da campanha, uma lista de verificação de pré-publicação e um aviso de confirmação de envio para campanhas não recorrentes. [Leia mais](../orchestrated/start-monitor-campaigns.md#publication-sequence)
@@ -576,7 +583,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -606,7 +613,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=pt-BR){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -681,7 +688,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -809,7 +816,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=pt-BR)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
