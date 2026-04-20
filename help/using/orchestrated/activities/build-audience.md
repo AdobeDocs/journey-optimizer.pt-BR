@@ -5,10 +5,10 @@ title: Usar a atividade de criar público-alvo
 description: Saiba como usar a atividade Criar público-alvo em uma campanha orquestrada
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: f8ddcd970f61018004ae1387fee2881d3a76c763
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 74%
+source-wordcount: '337'
+ht-degree: 64%
 
 ---
 
@@ -54,3 +54,7 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Criar público-alvo]
 Este é um exemplo de uma campanha Orquestrada com duas atividades **[!UICONTROL Build audience]**. A primeira é direcionada a perfis que têm itens em seus carrinhos, seguida por uma entrega de email. A segunda é direcionada a perfis com uma lista de desejos, seguida por uma entrega de SMS.
 
 ![](../assets/build-audience-2.png)
+
+No exemplo abaixo, a atividade **[!UICONTROL Criar público-alvo]** usa o construtor de regras para filtrar os perfis por seu plano de assinatura. Uma condição está definida no atributo `plan` para incluir apenas perfis em que `plan = "basic"`, restringindo o público-alvo aos assinantes da camada básica antes de passá-los para a próxima atividade.
+
+![](../assets/build-audience-plan.png){width="50%" align="left"}

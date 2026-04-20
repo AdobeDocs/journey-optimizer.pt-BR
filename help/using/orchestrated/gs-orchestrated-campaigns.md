@@ -6,10 +6,10 @@ description: Saiba como começar a usar as campanhas orquestradas
 short-description: Descubra os principais recursos e casos de uso de campanhas orquestradas.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 94%
+source-wordcount: '876'
+ht-degree: 86%
 
 ---
 
@@ -81,6 +81,13 @@ Cada campanha orquestrada contém:
 
 * **Tabelas de trabalho**: as tabelas de trabalho contêm todas as informações transportadas pela transição. Cada campanha orquestrada usa várias tabelas de trabalho. Os dados transmitidos nessas tabelas podem ser usados durante todo o ciclo de vida da campanha orquestrada.
 
+Uma campanha orquestrada típica de nível de entrada segue este padrão: **Criar público → Bifurcação → Canal A + Canal B**.
+
+Essa abordagem permite direcionar o mesmo público-alvo com duas ramificações paralelas em uma única execução de campanha — por exemplo, uma ramificação usando um email de marketing e outra usando um email transacional. Cada ramificação é independente e pode usar uma configuração de canal, conteúdo de mensagem ou categoria diferente.
+
+➡️ [Saiba como usar a atividade de bifurcação](activities/fork.md)
+
+➡️ [Entender marketing versus mensagens transacionais](activities/channels.md#marketing-vs-transactional)
 
 ## Vídeo de introdução {#video-oc}
 

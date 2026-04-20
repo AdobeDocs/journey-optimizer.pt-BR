@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
 workflow-type: tm+mt
-source-wordcount: '6825'
-ht-degree: 71%
+source-wordcount: '6969'
+ht-degree: 69%
 
 ---
 
@@ -21,6 +21,13 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 ## Abril de 2026 {#april-2026}
 
+* A documentação das **Atividades de canal** foi atualizada com uma nova seção **Mensagens de marketing vs. transacionais** que explica as diferenças de comportamento entre as duas categorias de canal: requisitos de aceitação, aplicativo de regra de negócios, tipo de configuração de canal e casos de uso recomendados. [Leia mais](../orchestrated/activities/channels.md#marketing-vs-transactional)
+
+* A documentação da **Atividade de bifurcação** foi aprimorada com uma nova seção **Exemplos** que ilustra como usar a atividade de bifurcação para dividir um público em duas ramificações de email paralelas — uma de Marketing e outra de Transação — em uma única execução de campanha. [Leia mais](../orchestrated/activities/fork.md#fork-examples)
+
+* A documentação **Criar atividade de público-alvo** foi aprimorada com um novo exemplo que mostra como filtrar perfis por um atributo de plano de assinatura usando o construtor de regras. [Leia mais](../orchestrated/activities/build-audience.md#build-audience-examples)
+
+* A página **Introdução às campanhas orquestradas** documenta o padrão **Criar público → Bifurcação → Canal A + Canal B** no nível de entrada em **O que há dentro de uma campanha orquestrada?**, com referências cruzadas à atividade de bifurcação e às páginas de mensagens de marketing vs. transacionais. [Leia mais](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * A página **Editar conteúdo de email com o editor avançado do HTML** foi movida da seção Gerenciamento de conteúdo para a seção **Email** da documentação (em Design de email) e o arquivo de página foi renomeado para **email-expert-mode.md**. A página agora documenta que o editor avançado do HTML está disponível no Designer de email para mensagens de email, bem como para modelos de conteúdo de email. [Leia mais](../email/email-expert-mode.md)
 
 * A documentação **Iniciar e monitorar campanhas orquestradas** foi atualizada com uma nova seção que detalha a sequência de execução interna do tempo de publicação, juntamente com uma tabela de status do ciclo de vida da campanha, uma lista de verificação de pré-publicação e um aviso de confirmação de envio para campanhas não recorrentes. [Leia mais](../orchestrated/start-monitor-campaigns.md#publication-sequence)
