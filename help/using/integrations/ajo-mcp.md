@@ -9,26 +9,34 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: f2ca2e6e118389949edd8b7263011014a15195ec
+source-git-commit: 31fb00bc82b6bbc664c37beba263ce94851bf8bd
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1418'
 ht-degree: 1%
 
 ---
 
 # Trabalhar com clientes MCP (Beta) {#ajo-mcp}
 
->[!CAUTION]
->
->**aviso sobre a documentação do Beta:** esta documentação abrange um recurso do Beta e não constitui a documentação final. O conteúdo descrito aqui está relacionado a uma versão do Beta e está sujeito a alterações até sua disponibilização geral. A Adobe não faz declarações sobre a integridade ou a precisão desta documentação.
->
->Ao usar o Adobe Journey Optimizer MCP Server (Beta) (&quot;Beta&quot;), você reconhece que o Beta é fornecido **&quot;no estado em que se encontra&quot; sem garantias de qualquer tipo**. A Adobe não tem nenhuma obrigação de manter, corrigir, atualizar, alterar, modificar ou oferecer suporte à Beta. É recomendável ter cuidado e não depender de forma alguma do funcionamento ou desempenho correto desse Beta e/ou dos materiais que o acompanham. O Beta é considerado Informações confidenciais da Adobe. Qualquer &quot;Feedback&quot; (informação sobre o Beta incluindo, mas não se limitando a, problemas ou defeitos encontrados durante o uso do Beta, sugestões, melhorias e recomendações) fornecido por Você ao Adobe é atribuído ao Adobe, incluindo todos os direitos, cargos e interesses no e no Feedback.
-
 A integração do MCP [!DNL Adobe Journey Optimizer] permite consultar campanhas e ofertas usando prompts em linguagem simples, sem gravar chamadas de API ou navegar nas telas dos produtos. Esta página explica como a integração funciona, o que você pode fazer com ela e como começar.
 
 >[!AVAILABILITY]
 >
 >O servidor MCP [!DNL Adobe Journey Optimizer] está disponível somente em **Claude Web** e **Claude Desktop**. O suporte para outros aplicativos compatíveis com MCP será adicionado em versões futuras.
+
+## Beta, segurança e avisos legais {#mcp-notices}
+
+**aviso sobre a documentação do Beta:** esta documentação abrange um recurso do Beta e não constitui a documentação final. O conteúdo descrito aqui está relacionado a uma versão do Beta e está sujeito a alterações até sua disponibilização geral. A Adobe não faz declarações sobre a integridade ou a precisão desta documentação.
+
+Ao usar o Adobe Journey Optimizer MCP Server (Beta) (&quot;Beta&quot;), você reconhece que o Beta é fornecido **&quot;no estado em que se encontra&quot; sem garantias de qualquer tipo**. A Adobe não tem nenhuma obrigação de manter, corrigir, atualizar, alterar, modificar ou oferecer suporte à Beta. É recomendável ter cuidado e não depender de forma alguma do funcionamento ou desempenho correto desse Beta e/ou dos materiais que o acompanham. O Beta é considerado Informações confidenciais da Adobe. Qualquer &quot;Feedback&quot; (informação sobre o Beta incluindo, mas não se limitando a, problemas ou defeitos encontrados durante o uso do Beta, sugestões, melhorias e recomendações) fornecido por Você ao Adobe é atribuído ao Adobe, incluindo todos os direitos, cargos e interesses no e no Feedback.
+
+>[!WARNING]
+>
+>O protocolo de contexto de modelo (MCP) é um padrão de código aberto emergente e pode apresentar riscos de segurança ou confiabilidade. As integrações do servidor Adobe MCP e a documentação relacionada são fornecidas &quot;no estado em que se encontram&quot;, sem garantias de nenhum tipo.
+>
+>Conectar clientes ou servidores MCP a produtos da Adobe é uma configuração selecionada pelo cliente. Os clientes são responsáveis por avaliar a segurança e a adequação de qualquer integração de MCP. O Adobe não é responsável por problemas resultantes de configuração incorreta, uso incorreto do MCP, vulnerabilidades em implementações de terceiros ou ações não intencionais executadas por meio de fluxos de trabalho habilitados para MCP.
+>
+>Para reduzir os riscos, a Adobe incentiva o teste de integrações em um ambiente de sandbox antes do uso produtivo e a análise e validação cuidadosas de todas as ações e respostas iniciadas pelo MCP antes de confirmar ou confiar nelas.
 
 ## Qual é o protocolo de contexto do modelo? {#mcp-overview}
 
