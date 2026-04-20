@@ -6,9 +6,9 @@ description: Notas de pré-lançamento do Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b2098decc7e9d76163f4425c99adda6fa03ca9cf
+source-git-commit: 9d7475d8b0dc941fee3c0769d28c7d9c0f314f44
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1729'
 ht-degree: 21%
 
 ---
@@ -36,8 +36,8 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tbody>
 <tr>
 <td>
-<p>[!DNL Adobe Journey Optimizer] agora fornece um <strong>servidor MCP (Model Context Protocol)</strong> que revela operações de campanha, jornada, fidelidade e sandbox diretamente dentro de qualquer aplicativo compatível com MCP. Com essa integração, diferentes personalidades podem colaborar em torno dos mesmos dados de orquestração. Em vez de escrever consultas na API REST do AJO ou navegar por várias telas de interface do usuário, você pode descrever sua intenção em conversação e permitir que o LLM chame as ferramentas de MCP apropriadas. Esse recurso está disponível atualmente no Claude Web e Desktop.</p>
-<p>No momento, esse recurso está na Beta. Entre em contato com o representante da Adobe para obter acesso.</p>
+<p>[!DNL Adobe Journey Optimizer] agora fornece um <strong>servidor MCP (Model Context Protocol)</strong> que revela operações de campanha, fidelidade e sandbox diretamente dentro de qualquer aplicativo compatível com MCP. Com essa integração, diferentes personalidades podem colaborar em torno dos mesmos dados de orquestração. Em vez de escrever consultas na API REST do AJO ou navegar por várias telas de interface do usuário, você pode descrever sua intenção em conversação e permitir que o LLM chame as ferramentas de MCP apropriadas. Esse recurso está disponível atualmente no Claude Web e Desktop.</p>
+<p>Esse recurso está disponível para todos os clientes no Public Beta.</p>
 <p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
 </td>
 </tr>
