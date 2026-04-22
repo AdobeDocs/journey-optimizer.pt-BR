@@ -6,9 +6,9 @@ description: Notas de pré-lançamento do Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 121171b536964efef5fdb1a7f1390bf10719735e
+source-git-commit: 56e01ac04baab45b3acf35f0f977ede8c8263d7c
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1715'
 ht-degree: 17%
 
 ---
@@ -195,7 +195,8 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tbody>
 <tr>
 <td>
-<p>O Adobe Journey Optimizer agora inclui um <strong>Assistente de IA</strong> no <strong>editor do Personalization</strong>. Descreva o que você deseja personalizar em linguagem simples, e o assistente produz uma <strong>expressão de personalização</strong> que você pode usar como está ou refinar em uma breve conversa de acompanhamento. Você também pode selecionar o código de personalização existente e pedir ao assistente para explicá-lo, corrigi-lo ou sugerir melhorias.</p>
+<p>O Adobe Journey Optimizer agora inclui um Assistente de IA para expressões de personalização. É possível abri-lo no editor do Personalization e na barra de ferramentas do Designer de email ao projetar o conteúdo de email. Descreva o que você deseja personalizar em linguagem simples, e o assistente produz uma expressão de personalização que você pode usar como está ou refinar em uma breve conversa de acompanhamento.
+Você também pode selecionar o código de personalização existente e pedir ao assistente para explicá-lo, corrigi-lo ou sugerir melhorias. Depois de gerar uma expressão, Mostrar visualizações para perfis de amostra executa uma verificação rápida em relação a um conjunto limitado de perfis de amostra sintéticos.</p>
 <p>Para obter mais informações, consulte o <a href="../content-management/generative-personalization-expressions.md">Assistente de IA para expressões Personalization</a>.</p>
 <p>Data de disponibilidade: terça-feira, 13 de abril de 2026</p>
 </td>
@@ -275,10 +276,6 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
   Data de disponibilidade: quarta-feira, 14 de abril de 2026
 
 #### Design de email
-
-* **Assistente de IA para expressões de personalização no Designer de email** - No Designer de email, selecione um componente e use **Adicionar expressão** na barra de ferramentas contextual para descrever a personalização necessária em linguagem simples, revise a expressão gerada e insira-a sem sair do designer. [Saiba mais](../content-management/generative-personalization-expressions.md#generate-email-designer)
-
-  Data de disponibilidade: quinta-feira, 15 de abril de 2026
 
 * **Editor avançado de HTML para conteúdo de email** - O modo Avançado de HTML permite editar a fonte HTML do seu conteúdo no Designer de email, adicionar expressões avançadas (como condições) na fonte e alternar entre o modo de exibição HTML e o modo de exibição Desktop sem perder as alterações. Disponível anteriormente somente para modelos de conteúdo de email, esse recurso agora está implantado no conteúdo de **email** no Designer de email. No momento, a disponibilidade é limitada — entre em contato com o representante da Adobe para obter acesso. [Leia mais](../email/email-expert-mode.md)
 
