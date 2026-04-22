@@ -10,7 +10,7 @@ level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 keywords: criptografia, URL, rastreamento, página de aterrissagem, registro de chaves, personalização, segurança, privacidade, sandbox
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: 5c8d615b5f6b2c2cb80a21c59f3ea5f12325e6fd
+source-git-commit: 1039daee3b328828361976513cc4d1ba5ce1169a
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 2%
@@ -101,3 +101,4 @@ Para gerenciar chaves, siga as etapas abaixo.
    >[!NOTE]
    >
    >Somente chaves ativas devem ser selecionadas para criptografar novos valores no editor de personalização. Não use chaves revogadas para o novo conteúdo.
+
