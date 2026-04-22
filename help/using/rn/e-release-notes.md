@@ -6,9 +6,9 @@ description: Notas de pré-lançamento do Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 56e01ac04baab45b3acf35f0f977ede8c8263d7c
+source-git-commit: fe8e38287939e289e04e07dfe5a2ca51172825e6
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1698'
 ht-degree: 17%
 
 ---
@@ -327,16 +327,18 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 #### Campanhas orquestradas
 
-* **Aprimoramentos do Data Modeler** - O Data Modeler em Campanhas Orquestradas agora oferece suporte ao <strong>gerenciamento de relacionamento composto</strong> aprimorado. É possível criar e gerenciar relações compostas diretamente na interface do usuário, incluindo a vinculação de um campo a várias tabelas do mesmo tipo. Esses aprimoramentos se baseiam nos recursos de <strong>chave composta</strong> e <strong>gerenciamento de enumeração</strong> introduzidos na versão anterior.
+<!--* **Data Modeler enhancements** - The Data Modeler in Orchestrated Campaigns now supports enhanced <strong>composite relationship management</strong>. You can create and manage composite relationships directly in the UI, including linking a field to multiple tables of the same type. These enhancements build on the <strong>composite key</strong> and <strong>enumeration management</strong> capabilities introduced in the previous release.Documentation JIRA task: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)-->
 
-  Tarefa JIRA de documentação: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
+* **Variáveis globais em Campanhas orquestradas** - As Campanhas orquestradas agora oferecem suporte a variáveis globais que podem ser definidas uma vez e reutilizadas em todas as atividades de um fluxo de trabalho, simplificando a configuração e garantindo a consistência em valores dinâmicos, expressões e personalização de conteúdo.
+
+  Tarefa JIRA de documentação: [DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
 
 <!--
 ## March '26 pre-release notes {#march-26-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -618,9 +620,6 @@ Improvements coming with this release are listed below.
 
 #### Orchestrated campaigns
 
-* **Global variables in Orchestrated Campaigns** - Orchestrated Campaigns now support global variables that can be defined once and reused across all activities within a workflow, simplifying configuration and ensuring consistency in dynamic values, expressions, and content personalization.
-  Documentation JIRA task: [DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
-
 * **Target dimension simplification in Orchestrated Campaigns** - You can now easily select or automatically deduce the right targeting and secondary dimensions in Orchestrated campaigns for accurate, efficient audience activation.
   Documentation JIRA task: [DOCAC-13554](https://jira.corp.adobe.com/browse/DOCAC-13554)
 -->
@@ -630,7 +629,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -883,7 +882,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1060,7 +1059,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
