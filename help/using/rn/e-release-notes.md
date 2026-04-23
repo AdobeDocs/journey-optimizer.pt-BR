@@ -6,10 +6,10 @@ description: Notas de pré-lançamento do Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b12904ef889530ebe7fc1962148e06b810908d18
+source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 15%
+source-wordcount: '2138'
+ht-degree: 14%
 
 ---
 
@@ -76,6 +76,23 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <p>Isso permite copiar automaticamente a parte interessada certa em cada mensagem, como um gerente de relacionamento ou proprietário de conta, garantindo que o cliente saiba com quem entrar em contato para obter acompanhamento.</p>
 <p>O campo CC oferece suporte à personalização, de modo que uma única configuração pode rotear cópias dinamicamente com base nos dados do perfil, tornando-o escalável em vários casos de uso sem configuração adicional.</p>
 <p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-14581">DOCAC-14581</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Deeplinks no Designer de email</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível adicionar deep links ao seu conteúdo de email por meio de uma opção dedicada no Designer de email. Isso garante que os usuários sejam direcionados diretamente para o conteúdo correto no aplicativo, em vez de serem redirecionados para navegadores ou lojas de aplicativos, preservando o contexto e o engajamento.</p>
+<p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-14582">DOCAC-14582</a></p>
 </td>
 </tr>
 </tbody>
@@ -161,7 +178,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 <tbody>
 <tr>
 <td>
-<p>Agora você pode usar os <strong>modelos de IA</strong> nas <strong>fórmulas de classificação</strong> para aumentar automaticamente as <strong>pontuações de prioridade de jornada</strong> com base nos atributos do perfil do cliente e em fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
+<p>Agora você pode usar <strong>modelos de IA</strong> nas fórmulas de classificação para aumentar automaticamente as pontuações de prioridade de jornada com base nos atributos do perfil do cliente e em fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 <p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
 </td>

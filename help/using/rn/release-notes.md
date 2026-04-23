@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
+source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
 workflow-type: tm+mt
 source-wordcount: '2631'
 ht-degree: 21%
@@ -207,12 +207,6 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
   Data de disponibilidade: quarta-feira, 7 de abril de 2026
 
-* **Contexto de Fragmento de conteúdo do Adobe Experience Manager durante a criação** - Sua seleção de Fragmento de conteúdo permanece ativa à medida que você se move entre campos de texto e blocos de conteúdo, para que você possa adicionar mais campos de fragmento sem reabrir o **Abrir o AEM Content advisor** toda vez. [Leia mais](../integrations/aem-fragments.md)
-
-  Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
-
-  Data de disponibilidade: quinta-feira, 1 de abril de 2026
-
 #### Integrações do Adobe Experience Manager
 
 * **Suporte à variação de fragmento de conteúdo do Adobe Experience Manager** - Você pode selecionar **variações de fragmento de conteúdo** (por exemplo, variantes de idioma ou canal) ao inserir fragmentos de conteúdo do Adobe Experience Manager, com manipulação aprimorada para localidade e cenários multilíngues. [Leia mais](../integrations/aem-fragments.md#aem-variations)
@@ -220,6 +214,12 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
   Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
 
   Data de disponibilidade: sábado, 3 de abril de 2026
+
+* **Contexto de Fragmento de conteúdo do Adobe Experience Manager durante a criação** - Sua seleção de Fragmento de conteúdo permanece ativa à medida que você se move entre campos de texto e blocos de conteúdo, para que você possa adicionar mais campos de fragmento sem reabrir o **Abrir o AEM Content advisor** toda vez. [Leia mais](../integrations/aem-fragments.md)
+
+  Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+
+  Data de disponibilidade: quinta-feira, 1 de abril de 2026
 
 
 ## Notas de versão de março de 2026 {#march-26-rn}
