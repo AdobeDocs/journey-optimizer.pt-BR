@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing page, landing page, criação, página, formulário
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
 workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 7%
@@ -33,6 +33,12 @@ Para capturar dados de perfil com suas páginas de aterrissagem do [!DNL Journey
 >title="Selecionar um conjunto de dados"
 >abstract="Defina um conjunto de dados em que as respostas do formulário serão armazenadas e refletidas. É possível digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista."
 
+<!--
+>[!NOTE]
+>
+>To access and edit form presets, you must have the **[!UICONTROL View form presets]**, **[!UICONTROL Manage form presets]**, and **[!UICONTROL Publish form presets]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
+
 Antes de criar um formulário, é necessário criar uma predefinição dedicada em que você seleciona o ponto de extremidade da conexão para o qual os dados de envio de formulário são enviados e o conjunto de dados em que os dados capturados pelo formulário serão armazenados.
 
 Quando os dados chegam ao endpoint de transmissão, eles são vinculados às informações do conjunto de dados. Usando as conexões de origem/destino geradas e o fluxo de origem, os dados são enviados para o conjunto de dados.
@@ -45,12 +51,6 @@ Ao criar uma predefinição:
    * **conexão Source** - de onde os dados se originam.
    * **Conexão de destino** - onde os dados são armazenados ou consumidos.
    * **Fluxo do Source** - o pipeline que move os dados da conexão de origem para [!DNL Experience Platform], manipulando o mapeamento, a transformação e a validação.
-
-<!--
->[!NOTE]
->
-> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
--->
 
 Para criar uma predefinição de formulário, siga as etapas abaixo.
 
@@ -73,7 +73,7 @@ Para criar uma predefinição de formulário, siga as etapas abaixo.
    >* **O tipo de dados** deve ser definido como **XDM** (não dados brutos)
    >* A **Autenticação** deve ser **desabilitada** (conexão não autenticada)
    >
-   >Se a conexão de transmissão não for exibida na lista, verifique se essas duas condições foram atendidas. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Se a conexão de transmissão não for exibida na lista, verifique se essas duas condições foram atendidas. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Selecione um **[!UICONTROL Conjunto de Dados]** para vincular ao formulário. É aqui que as respostas do formulário serão armazenadas e refletidas. É possível digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista.
 
@@ -84,6 +84,12 @@ Para criar uma predefinição de formulário, siga as etapas abaixo.
 1. Clique em **[!UICONTROL Publicar]**. Sua predefinição agora está pronta para ser usada em um formulário.
 
 ## Acessar e gerenciar formulários {#access-forms}
+
+<!--
+>[!NOTE]
+>
+>To access and edit forms, you must have the **[!UICONTROL View forms]**, **[!UICONTROL Manage forms]**, and **[!UICONTROL Publish forms]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
 
 Para acessar a lista de formulários, selecione **[!UICONTROL Content Management]** > **[!UICONTROL Forms]** no menu esquerdo.
 
