@@ -5,12 +5,11 @@ title: Editar seus ativos com o Adobe Express no Journey Optimizer
 description: Introdução ao Adobe Express
 feature: Assets, Integrations
 topic: Content Management, Integrations
-badge: label="Disponibilidade limitada" type="Informative"
 role: User
 level: Beginner
 keywords: assets, integração
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 18%
@@ -24,14 +23,13 @@ ht-degree: 18%
 >title="Integração do Adobe Express"
 >abstract="Comece a personalizar seus ativos com a integração do Adobe Express. Esse recurso permite redimensionar imagens, remover planos de fundo, cortar visuais e converter ativos em JPEG ou PNG."
 
+>[!IMPORTANT]
+>
+>Ao usar a integração do Adobe Express, os dados deixarão o Journey Optimizer. Não use essa integração com PHI ou outros dados de saúde.
+
 A integração do Adobe Express ao Adobe Journey Optimizer permite acessar facilmente as poderosas ferramentas de edição do Adobe Express ao criar conteúdo. Essa integração permite redimensionar imagens, remover planos de fundo, cortar visuais e converter ativos para JPEG ou PNG sem precisar alternar entre as soluções.
 
 <img src="../rn/assets/do-not-localize/express_resize.gif">
-
-
->[!AVAILABILITY]
->
->A integração do Adobe Express no Adobe Journey Optimizer está indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
 
 Para saber mais sobre o Adobe Express, consulte [esta documentação](https://helpx.adobe.com/br/express/user-guide.html).
 
@@ -41,7 +39,7 @@ Para acessar o menu **[!DNL Adobe Express]**, acesse suas **configurações de i
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
-## Uso do Adobe Express com uma licença corporativa {#licence}
+## Uso do Adobe Express com uma licença Enterprise {#licence}
 
 Os recursos detalhados nas seções abaixo podem ser acessados por usuários sem uma licença do Adobe Express Enterprise.
 
@@ -49,9 +47,9 @@ Com uma licença Enterprise, os usuários têm acesso total ao editor da Web do 
 
 ![](assets/express-licence.png)
 
-Para obter mais informações sobre casos de uso disponíveis para usuários com uma licença Enterprise para Adobe Express, consulte a [documentação da Adobe Express na Web](https://helpx.adobe.com/br/express/web.html).
+Para obter mais informações sobre casos de uso disponíveis para usuários com uma licença Enterprise para Adobe Express, consulte a [documentação da Adobe Express na Web](https://helpx.adobe.com/express/web.html).
 
-## Uso do Adobe Express sem uma licença corporativa  {#edit}
+## Uso do Adobe Express sem uma licença Enterprise  {#edit}
 
 Sem uma licença Enterprise, os usuários têm acesso aos seguintes casos de uso disponíveis com o Adobe Express:
 
@@ -148,7 +146,7 @@ A imagem agora está pronta para ser usada no conteúdo.
 
 Saiba como editar os seus ativos no Adobe Journey Optimizer com as ferramentas do Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455528/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
