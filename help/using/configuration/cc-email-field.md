@@ -11,9 +11,9 @@ hide: true
 keywords: CC, cópia carbono, email, configuração de canal, cabeçalhos de email, Cco
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '919'
 ht-degree: 6%
 
 ---
@@ -64,7 +64,7 @@ O campo **[!UICONTROL Email CC]** aceita três tipos de valores:
 
 * Um **atributo de perfil**, como o endereço de email do gerente de relacionamento, disponível no perfil.
 
-* Um **atributo contextual** - este valor só pode **ser usado em campanhas acionadas por API**. Ele é recuperado da carga da API que deve incluir a variável de contexto `context.channel.email.ccvalues` com o valor de endereço CC.
+* Um **atributo contextual** - este valor só pode **ser usado em campanhas acionadas por API**. Ele é recuperado da carga da API que deve incluir a variável de contexto `context.channel.email.ccvalues` com o valor do endereço CC passado como uma cadeia de caracteres.
 
   >[!WARNING]
   >
@@ -97,7 +97,9 @@ Se você [editar uma configuração de email](channel-surfaces.md#edit-channel-s
 
 * **Tempo de entrega:** as mensagens podem ser entregues ao endereço de email CC antes dos destinatários de destino. As mensagens CC também podem ser enviadas mesmo que as mensagens originais tenham [devolvido](../reports/suppression-list.md#delivery-failures).
 
-* **Relatórios:** aberturas, cliques e outros engajamentos de destinatários CC estão incluídos nas métricas de relatório de email. Assim, qualquer abertura ou clique de destinatários CC causará erros de cálculo em [relatórios](../reports/report-gs-cja.md).
+* **Consentimento e supressão:** o endereço de email CC não é verificado em relação ao consentimento ou à supressão.
+
+* **Relatórios:** aberturas, cliques e outros engajamentos de destinatários CC estão incluídos nas métricas de relatório de email. Não abra ou clique nos emails enviados para o endereço CC, pois isso é considerado no total de aberturas e cliques da análise de envio, o que pode causar erros de cálculo em [relatórios](../reports/report-gs-cja.md).
 
 * **Spam:** não marque mensagens como spam na caixa de entrada CC, pois isso afetará todos os outros emails enviados para este endereço.
 
