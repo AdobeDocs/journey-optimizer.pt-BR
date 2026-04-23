@@ -6,9 +6,9 @@ description: Notas de pré-lançamento do Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
+source-git-commit: dd17038e3bae77f9de2642d2578e5fa4cad54d43
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2189'
 ht-degree: 14%
 
 ---
@@ -322,6 +322,12 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
   Data de disponibilidade: sexta-feira, 9 de abril de 2026
 
+#### Push
+
+* **Personalizar ID do aplicativo nas configurações do canal** - Nas configurações do canal de push, agora é possível personalizar o campo **ID do aplicativo** para que cada destinatário possa receber uma notificação por push da marca apropriada com base nas informações do perfil.
+
+  Tarefa JIRA de documentação: [DOCAC-14592](https://jira.corp.adobe.com/browse/DOCAC-14592)
+
 #### SMS
 
 * **Contagem de caracteres** - No Adobe Journey Optimizer, agora você pode usar a Contagem de caracteres para monitorar o comprimento de suas mensagens SMS em tempo real. Isso ajuda a ver quando uma mensagem será dividida em vários segmentos para gerenciar melhor a formatação e evitar aumentos inesperados nos custos de envio. [Leia mais](../sms/create-sms.md)
@@ -396,7 +402,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 #### Campanhas orquestradas
 
-* **Aprimoramentos do Data Modeler** - Para esquemas relacionais orquestrados, o Data Modeler agora oferece suporte à criação de chaves compostas usando vários campos. Relacionamentos compostos entre tabelas são criados quando você carrega um esquema de um arquivo DDL ou Excel. Na visualização de relacionamento de entidade, depois de fazer upload de um arquivo, os links compostos mostram o conjunto completo de pares de campos entre tabelas.
+* **Aprimoramentos do Data Modeler** - Os esquemas relacionais orquestrados agora oferecem suporte a chaves compostas que abrangem vários campos. O carregamento de um esquema de um arquivo DDL também traz enumerações, e o carregamento de um arquivo DDL ou do Excel cria automaticamente relações compostas entre as tabelas. Na visualização de relacionamento da entidade, os links compostos agora exibem o conjunto completo de pares de campos entre tabelas depois que um arquivo é carregado.
 
   Tarefa JIRA de documentação: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
 
