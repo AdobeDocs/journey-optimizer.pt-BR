@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '7025'
-ht-degree: 69%
+source-wordcount: '7188'
+ht-degree: 68%
 
 ---
 
@@ -21,6 +21,8 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 ## Abril de 2026 {#april-2026}
 
+* A documentação de atividade **Alterar dimensão** foi atualizada para esclarecer que, embora a atividade use uma associação externa e mantenha todos os registros na etapa de alteração de dimensão, os registros sem um perfil correspondente na nova dimensão de direcionamento são excluídos silenciosamente no momento da entrega da mensagem. [Leia mais](../orchestrated/activities/change-dimension.md)
+
 * As medidas de proteção na documentação **Adicionar um campo CC a emails** foram aprimoradas. Agora, eles especificam que o endereço CC não é verificado em relação ao consentimento ou à supressão, e que as aberturas e click-throughs de emails enviados para o endereço CC são consideradas no total de aberturas e cliques da análise de envio. [Leia mais](../configuration/cc-email-field.md)
 
 * A documentação das **Atividades de canal** foi atualizada com uma nova seção **Mensagens de marketing vs. transacionais** que explica as diferenças de comportamento entre as duas categorias de canal: requisitos de aceitação, aplicativo de regra de negócios, tipo de configuração de canal e casos de uso recomendados. [Leia mais](../orchestrated/activities/channels.md#marketing-vs-transactional)
@@ -29,7 +31,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * A documentação **Criar atividade de público-alvo** foi aprimorada com um novo exemplo que mostra como filtrar perfis por um atributo de plano de assinatura usando o construtor de regras. [Leia mais](../orchestrated/activities/build-audience.md#build-audience-examples)
 
-* A página **Introdução às campanhas orquestradas** documenta o padrão **Criar público → Bifurcação → Canal A + Canal B** no nível de entrada em **O que há dentro de uma campanha orquestrada?**, com referências cruzadas à atividade de bifurcação e às páginas de mensagens de marketing vs. transacionais. [Leia mais](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
+* A página **Introdução às campanhas Orquestradas** documenta o padrão de nível de entrada **Criar público → Bifurcação → Canal A + Canal B** em **O que há dentro de uma campanha Orquestrada?**, com referências cruzadas à atividade de Bifurcação e páginas de mensagens de Marketing versus Transacional. [Leia mais](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * A página **Editar conteúdo de email com o editor avançado do HTML** foi movida da seção Gerenciamento de conteúdo para a seção **Email** da documentação (em Design de email) e o arquivo de página foi renomeado para **email-expert-mode.md**. A página agora documenta que o editor avançado do HTML está disponível no Designer de email para mensagens de email, bem como para modelos de conteúdo de email. [Leia mais](../email/email-expert-mode.md)
 
 * A documentação **Iniciar e monitorar campanhas orquestradas** foi atualizada com uma nova seção que detalha a sequência de execução interna do tempo de publicação, juntamente com uma tabela de status do ciclo de vida da campanha, uma lista de verificação de pré-publicação e um aviso de confirmação de envio para campanhas não recorrentes. [Leia mais](../orchestrated/start-monitor-campaigns.md#publication-sequence)
@@ -339,7 +341,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
    * Os identificadores complementares não são validados de acordo com as políticas de Rotulagem e Aplicação de Uso de Dados (DULE) e não são considerados durante as verificações de governança de dados nas jornadas.
 
-[Saiba mais](../building-journeys/supplemental-identifier.md)
+     [Saiba mais](../building-journeys/supplemental-identifier.md)
 
 * A página Otimização em campanhas foi atualizada para refletir o fato de que a otimização agora também está disponível nas jornadas. [Leia mais](../content-management/gs-message-optimization.md)
 

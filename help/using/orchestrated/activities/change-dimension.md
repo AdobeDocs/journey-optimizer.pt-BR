@@ -5,10 +5,10 @@ title: Usar a atividade Mudar dimensão
 description: Saiba como usar a atividade Mudar dimensão
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 74%
+source-wordcount: '336'
+ht-degree: 50%
 
 ---
 
@@ -43,7 +43,11 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Mudar dimensão]**:
 
    ![](../assets/orchestrated-change-dimension.png)
 
-1. Defina a **[!UICONTROL Nova dimensão de público-alvo]**. Durante a mudança da dimensão, todos os registros são mantidos.
+1. Defina a **[!UICONTROL Nova dimensão de público-alvo]**. A etapa Change dimension usa uma associação externa: todos os registros da população de entrada passam, incluindo aqueles sem entrada correspondente na nova dimensão.
+
+   >[!IMPORTANT]
+   >
+   >Os registros que não têm perfil correspondente na nova dimensão de direcionamento são **silenciosamente excluídos no momento da entrega da mensagem**. No momento, essa exclusão não é refletida nos logs de exclusão. Para identificar antecipadamente os registros não correspondentes, use a opção **Visualizar resultados** na transição após a etapa Alterar dimensão e verifique se as contagens de registros estão alinhadas às suas expectativas antes de continuar.
 
 
 ## Exemplo {#example}
@@ -52,6 +56,6 @@ Este caso de uso foca-se no envio de um SMS a perfis que criaram uma lista de de
 
 Comece com uma atividade **[!UICONTROL Criar público-alvo]**, usando a dimensão de direcionamento **[!UICONTROL Lista de desejos]** para identificar todas as listas de desejos relevantes.
 
-Em seguida, adicione uma atividade **[!UICONTROL Mudar dimensão]** para alternar a dimensão de direcionamento da **[!UICONTROL Lista de desejos]** para **[!UICONTROL Destinatário].** Essa etapa garante que a campanha Orquestrada segmente os perfis corretos vinculados a essas listas de desejos, permitindo que o SMS seja enviado aos perfis pretendidos.
+Em seguida, adicione uma atividade **[!UICONTROL Change dimension]** para alternar o targeting dimension de **[!UICONTROL Wishlist]** para **[!UICONTROL Recipient].** Essa etapa garante que a campanha Orquestrada segmente os perfis corretos vinculados a essas listas de desejos, permitindo que o SMS seja enviado aos perfis pretendidos.
 
 ![](../assets/orchestrated-change-dimension-example.png)
