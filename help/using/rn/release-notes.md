@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3e2fbd4a800bdba143caaf0350026e6cd959271d
+source-git-commit: 89b884cf1feb7af9fe52b14b4ae706013ed70247
 workflow-type: tm+mt
-source-wordcount: '3944'
+source-wordcount: '3965'
 ht-degree: 16%
 
 ---
@@ -326,7 +326,7 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 
 * **Pontuação de alinhamento da marca no painel do Campaign** - Agora é possível avaliar a pontuação de alinhamento da marca diretamente no painel do Campaign para garantir que o conteúdo permaneça no painel da marca. Isso permite verificar as diretrizes rapidamente sem precisar abrir o designer de conteúdo.
 
-* **Aprimoramento do Assistente de Solicitação** - Quando um prompt é vago, incompleto ou mescla várias metas, o **Assistente de Solicitação** agora pode fazer perguntas esclarecidas focadas ou sugerir uma regravação mais clara de sua solicitação antes da geração, ajudando a fixar o que é necessário antes que o assistente responda, o que melhora a consistência e reduz as tentativas. [Saiba mais](../content-management/ai-assistant-prompting-guide.md)
+* **Aprimoramento do Assistente de Solicitação** - O Assistente de Solicitação aprimora a geração de conteúdo de IA analisando solicitações do usuário em tempo real e identificando lacunas de clareza, integridade e contexto. Ele sugere regravações aprimoradas e fornece orientação acionável para enriquecer os prompts com detalhes-chave como público, tom e intenção. O recurso também faz perguntas de esclarecimento direcionadas para ajudar os usuários a refinar suas entradas antes da geração. Isso resulta em saídas mais precisas e de alta qualidade com menos iterações. [Saiba mais](../content-management/ai-assistant-prompting-guide.md)
 
 #### Tomada de decisão
 
@@ -418,7 +418,7 @@ As seções [Novos recursos](#march-26-features) e [Melhorias](#march-26-improv)
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Data de lançamento**: 24 a 25 de março de 2026
@@ -608,7 +608,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Com a tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite que você analise jornadas por meio de uma interface de linguagem natural. Agora você também pode gerar e gerenciar conteúdo específico de canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Content Designer</strong> para edição em contexto.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=pt-BR" target="_blank">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 4 de março de 2026</p>
 </td>
 </tr>
