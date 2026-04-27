@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '3209'
+source-wordcount: '3275'
 ht-degree: 91%
 
 ---
@@ -174,7 +174,7 @@ ht-degree: 91%
       + Configuração de dados {#data-configuration}
          + [Configuração de dados](/help/rp_landing_pages/data-configuration-landing-page.md)
          + Gerenciar esquemas relacionais e conjuntos de dados {#schemas-datasets}
-            + [Gerenciar esquemas e conjuntos de dados relacionais](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+            + [Gerenciar esquemas relacionais e conjuntos de dados](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Introdução a esquemas e conjuntos de dados](using/orchestrated/gs-schemas.md)
             + [Esquema manual](using/orchestrated/manual-schema.md)
             + [Esquema de upload do arquivo](using/orchestrated/file-upload-schema.md)
@@ -285,7 +285,7 @@ ht-degree: 91%
             + [Utilizar temas de email](using/email/apply-email-themes.md)
             + [Anexar arquivos PDF a emails](using/email/pdf-attachments.md)
          + Projetar o seu conteúdo {#add-content}
-            + [Projetar o conteúdo](/help/rp_landing_pages/add-content-landing-page.md)
+            + [Projetar o seu conteúdo](/help/rp_landing_pages/add-content-landing-page.md)
             + [Usar componentes de conteúdo](using/email/content-components.md)
             + [Aproveitar fragmentos visuais](using/email/use-visual-fragments.md)
             + [Adicionar links e rastrear mensagens](using/email/message-tracking.md)
@@ -471,7 +471,7 @@ ht-degree: 91%
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos &#x200B;](using/content-management/access-content-templates.md)
+      + [Acessar e gerenciar modelos](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Converter imagens em modelos de email](using/content-management/image-to-html.md)
       + [Bloquear conteúdo em modelos de email](using/content-management/content-locking.md)
@@ -505,7 +505,7 @@ ht-degree: 91%
       + {hide-from-toc}[Inserir timer da contagem regressiva](using/integrations/countdown.md)
       + [Trabalhar com o Dynamic Media](using/integrations/aem-dynamic.md)
       + [Trabalhar com o GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + {hide-from-toc}[Trabalhar com integrações](using/integrations/external-sources.md)
+      + {hide-from-toc}[Trabalhar com integrações](using/integrations/integrations.md)
       + {hide-from-toc}[Introdução à integração de fornecedores](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[Fornecedores disponíveis](using/integrations/vendor-integration.md)
       + {hide-from-toc}[Perguntas frequentes](using/integrations/vendor-integration-faq.md)
@@ -879,7 +879,7 @@ ht-degree: 91%
       + [Medidas de proteção de tempo de vida (TTL) dos conjuntos de dados](using/data/datasets-ttl.md)
       + [Exportar conjuntos de dados do Journey Optimizer](using/data/export-datasets.md)
       + [Exemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
+      + [Esquemas incorporados >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
    + [Usar dados da Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuração de canais {#configuration}

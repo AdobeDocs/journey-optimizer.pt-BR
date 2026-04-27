@@ -10,7 +10,7 @@ level: Beginner
 keywords: integração
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Índice:
 
-* **[Trabalhar com integrações](external-sources.md)**
+* **[Trabalhar com integrações](integrations.md)**
 * [Introdução à integração de fornecedores](vendor-integration-gs.md)
 * [Fornecedores disponíveis](vendor-integration.md)
 * [Perguntas frequentes](vendor-integration-faq.md)
@@ -123,7 +123,7 @@ Como profissional de marketing, você pode usar integrações configuradas para 
 
 1. Acesse o conteúdo da campanha e clique em **[!UICONTROL Adicionar personalização]** a partir do Texto ou dos **[!UICONTROL Componentes]** do HTML.
 
-[Saiba mais sobre componentes](../email/content-components.md)
+   [Saiba mais sobre componentes](../email/content-components.md)
 
    ![](assets/external-integration-content-1.png)
 

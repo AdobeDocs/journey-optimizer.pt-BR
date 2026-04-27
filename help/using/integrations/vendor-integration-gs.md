@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 keywords: integração, fornecedor, terceiros
-source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Índice:
 
-* [Trabalhar com integrações](external-sources.md)
+* [Trabalhar com integrações](integrations.md)
 * **[Introdução à integração de fornecedores](vendor-integration-gs.md)**
 * [Fornecedores disponíveis](vendor-integration.md)
 * [Perguntas frequentes](vendor-integration-faq.md)
@@ -31,7 +31,7 @@ ht-degree: 1%
 >[!ENDSHADEBOX]
 
 
-Você pode usar **Integrações** no Adobe Journey Optimizer para chamar **sistemas externos via HTTP** quando cada sistema expõe um **endpoint de API** que se adapta ao seu caso de uso e é compatível com a forma como as Integrações emite solicitações e consome respostas. Para obter o fluxo de trabalho completo, consulte [Trabalhar com integrações](external-sources.md).
+Você pode usar **Integrações** no Adobe Journey Optimizer para chamar **sistemas externos via HTTP** quando cada sistema expõe um **endpoint de API** que se adapta ao seu caso de uso e é compatível com a forma como as Integrações emite solicitações e consome respostas. Para obter o fluxo de trabalho completo, consulte [Trabalhar com integrações](integrations.md).
 
 A lista de soluções de terceiros descrita é ilustrativa, não exaustiva. Outras plataformas podem ser utilizadas se satisfizerem os requisitos do produto.
 
@@ -41,7 +41,7 @@ Aplique o seguinte ao configurar qualquer integração neste guia ou em um forne
 
 * **Formato de resposta:** campos do mapa de integrações de **respostas JSON**. Criar chamadas para que a API retorne o JSON adequado para mapeamento no momento da criação.
 * **Carga e campos:** solicite e mapeie apenas os atributos necessários. Respostas menores reduzem a latência e limitam a exposição de dados confidenciais.
-* **Forma do ponto de extremidade:** prefira a recuperação estável de **recurso único** (por exemplo, uma entrada, produto ou membro) sobre pontos de extremidade de lista ou paginação amplos quando o produto esperar pesquisas direcionadas. Consulte [Limitações e exclusões](#limitations-exclusions) e [Trabalhar com integrações](external-sources.md).
+* **Forma do ponto de extremidade:** prefira a recuperação estável de **recurso único** (por exemplo, uma entrada, produto ou membro) sobre pontos de extremidade de lista ou paginação amplos quando o produto esperar pesquisas direcionadas. Consulte [Limitações e exclusões](#limitations-exclusions) e [Trabalhar com integrações](integrations.md).
 * **Volume e confiabilidade:** Respeite os **limites de taxa** do fornecedor. Configure a política **timeout**, **repetir** e **cache** para seu canal (por exemplo, email em lote vs. envios transacionais) e valide sob carga.
 * **Segurança:** armazene e gire tokens, chaves de API e credenciais OAuth de acordo com as políticas da sua organização. Não incorpore segredos no conteúdo da mensagem.
 
