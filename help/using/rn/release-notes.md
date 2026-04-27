@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3e2fbd4a800bdba143caaf0350026e6cd959271d
+source-git-commit: 89b884cf1feb7af9fe52b14b4ae706013ed70247
 workflow-type: tm+mt
-source-wordcount: '3944'
+source-wordcount: '3965'
 ht-degree: 16%
 
 ---
@@ -326,7 +326,7 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 
 * **Pontuação de alinhamento da marca no painel do Campaign** - Agora é possível avaliar a pontuação de alinhamento da marca diretamente no painel do Campaign para garantir que o conteúdo permaneça no painel da marca. Isso permite verificar as diretrizes rapidamente sem precisar abrir o designer de conteúdo.
 
-* **Aprimoramento do Assistente de Solicitação** - Quando um prompt é vago, incompleto ou mescla várias metas, o **Assistente de Solicitação** agora pode fazer perguntas esclarecidas focadas ou sugerir uma regravação mais clara de sua solicitação antes da geração, ajudando a fixar o que é necessário antes que o assistente responda, o que melhora a consistência e reduz as tentativas. [Saiba mais](../content-management/ai-assistant-prompting-guide.md)
+* **Aprimoramento do Assistente de Solicitação** - O Assistente de Solicitação aprimora a geração de conteúdo de IA analisando solicitações do usuário em tempo real e identificando lacunas de clareza, integridade e contexto. Ele sugere regravações aprimoradas e fornece orientação acionável para enriquecer os prompts com detalhes-chave como público, tom e intenção. O recurso também faz perguntas de esclarecimento direcionadas para ajudar os usuários a refinar suas entradas antes da geração. Isso resulta em saídas mais precisas e de alta qualidade com menos iterações. [Saiba mais](../content-management/ai-assistant-prompting-guide.md)
 
 #### Tomada de decisão
 
