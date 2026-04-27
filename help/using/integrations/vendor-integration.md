@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 keywords: integração, fornecedor, terceiros
-source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '9157'
+source-wordcount: '9327'
 ht-degree: 5%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 Índice:
 
-* [Trabalhar com integrações](external-sources.md)
+* [Trabalhar com integrações](integrations.md)
 * [Introdução à integração de fornecedores](vendor-integration-gs.md)
 * **[Fornecedores disponíveis](vendor-integration.md)**
 * [Perguntas frequentes](vendor-integration-faq.md)
@@ -68,7 +68,7 @@ Use o procedimento abaixo para configurar essa integração no Journey Optimizer
 
 1. Adicionar cabeçalho de autenticação:
 
-Autorização: Portador &lt;CONTENTFUL_DELIVERY_TOKEN>
+   Autorização: Portador &lt;CONTENTFUL_DELIVERY_TOKEN>
 
 1. Adicione variáveis de caminho, se necessário (por exemplo, ID de entrada, localidade).
 
@@ -140,7 +140,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Configure o **GET** no caminho do pedido de download, defina cabeçalhos de autorização por Sitecore, mapeie `id` do contexto, cole o JSON de exemplo, mapeie campos e ajuste tempos limite para latência de ativos.
+1. Siga [Trabalhar com integrações](integrations.md). Configure o **GET** no caminho do pedido de download, defina cabeçalhos de autorização por Sitecore, mapeie `id` do contexto, cole o JSON de exemplo, mapeie campos e ajuste tempos limite para latência de ativos.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -224,7 +224,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Prefira recuperação de produto único a chamadas de catálogo em massa, defina a autenticação do portador, cole a amostra JSON, mapeie campos, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Prefira recuperação de produto único a chamadas de catálogo em massa, defina a autenticação do portador, cole a amostra JSON, mapeie campos, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -309,7 +309,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Adicione cabeçalhos `api_key` e `access_token` como Contentstack requer, inclua o parâmetro de consulta `environment`, cole a amostra JSON, mapeie campos, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Adicione cabeçalhos `api_key` e `access_token` como Contentstack requer, inclua o parâmetro de consulta `environment`, cole a amostra JSON, mapeie campos, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -396,7 +396,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Use o **GET** com um token de portador, solicite apenas as opções de atributo necessárias nos sinalizadores de consulta, cole a amostra de JSON, mapeie um conjunto de atributos mínimo, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Use o **GET** com um token de portador, solicite apenas as opções de atributo necessárias nos sinalizadores de consulta, cole a amostra de JSON, mapeie um conjunto de atributos mínimo, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -486,7 +486,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Use o padrão de URL de entrega pública que seus módulos expõem, autentique de acordo com a orientação do Magnolia (entrega anônima vs. token para conteúdo protegido), cole a amostra de JSON, mapeie campos, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Use o padrão de URL de entrega pública que seus módulos expõem, autentique de acordo com a orientação do Magnolia (entrega anônima vs. token para conteúdo protegido), cole a amostra de JSON, mapeie campos, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -568,7 +568,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Defina a URL de base para seu cluster, adicione os cabeçalhos necessários (`X-APP-ID`, `X-APP-TOKEN`), restrinja os pontos de extremidade da lista com filtros ou IDs, cole a amostra de JSON, mapeie campos, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Defina a URL de base para seu cluster, adicione os cabeçalhos necessários (`X-APP-ID`, `X-APP-TOKEN`), restrinja os pontos de extremidade da lista com filtros ou IDs, cole a amostra de JSON, mapeie campos, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -667,7 +667,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Use o **GET** no perfil ou caminho de conquista necessário, defina `Authorization: ApiKey-v1 <key>` como documentado, cole a amostra JSON, mapeie campos, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Use o **GET** no perfil ou caminho de conquista necessário, defina `Authorization: ApiKey-v1 <key>` como documentado, cole a amostra JSON, mapeie campos, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -757,7 +757,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Configure o **GET** com a autenticação do fornecedor (por exemplo, chave de API na consulta), evite expor PII em relação à política, cole a amostra de JSON, mapeie campos, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Configure o **GET** com a autenticação do fornecedor (por exemplo, chave de API na consulta), evite expor PII em relação à política, cole a amostra de JSON, mapeie campos, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -841,7 +841,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Use o endpoint de integração de fidelidade que sua equipe aprova, conclua o Salesforce OAuth, cole a amostra de JSON, mapeie campos, respeite os limites da API composta, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Use o endpoint de integração de fidelidade que sua equipe aprova, conclua o Salesforce OAuth, cole a amostra de JSON, mapeie campos, respeite os limites da API composta, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -934,7 +934,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Configure cabeçalhos como `CAP-API-ACCESS-TOKEN` conforme necessário, cole a amostra JSON, mapeie campos, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Configure cabeçalhos como `CAP-API-ACCESS-TOKEN` conforme necessário, cole a amostra JSON, mapeie campos, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -1064,7 +1064,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Aponte para o host Marigold da sua região, defina a autenticação (a amostra abaixo usa `X-Api-Key` com chave e segredo), cole a amostra JSON, mapeie campos, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Aponte para o host Marigold da sua região, defina a autenticação (a amostra abaixo usa `X-Api-Key` com chave e segredo), cole a amostra JSON, mapeie campos, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -1155,7 +1155,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). As chamadas de entrega geralmente são **POST** com um corpo JSON. Configure o OAuth por [Autenticação de destino](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/api/configure-authentication){target="_blank"}, cole uma resposta de exemplo, mapeie campos e teste no volume esperado.
+1. Siga [Trabalhar com integrações](integrations.md). As chamadas de entrega geralmente são **POST** com um corpo JSON. Configure o OAuth por [Autenticação de destino](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, cole uma resposta de exemplo, mapeie campos e teste no volume esperado.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -1210,7 +1210,7 @@ A tabela abaixo lista os valores de exemplo para essa solicitação de integraç
 
 **Autenticação**
 
-Consulte [Configuração de autenticação do Target](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/api/configure-authentication) e adicione JSON à Carga.
+Consulte [Configuração de autenticação do Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) e adicione JSON à Carga.
 
 **Solicitar carga**
 
@@ -1298,7 +1298,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Use o **GET**, a menos que sua assinatura exija o contrário, anexe o parâmetro de consulta `apiKey` (ou conforme documentado), mapeie `locationKey` e outras variáveis de perfil/contexto, cole a amostra JSON, mapeie campos e teste.
+1. Siga [Trabalhar com integrações](integrations.md). Use o **GET**, a menos que sua assinatura exija o contrário, anexe o parâmetro de consulta `apiKey` (ou conforme documentado), mapeie `locationKey` e outras variáveis de perfil/contexto, cole a amostra JSON, mapeie campos e teste.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -1390,7 +1390,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Direcione o recurso que você precisa (pedidos vs. remessas), autentique de acordo com a [API de ShipStation](https://www.shipstation.com/docs/api/){target="_blank"}, cole a amostra JSON, mapeie campos, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Direcione o recurso que você precisa (pedidos vs. remessas), autentique de acordo com a [API de ShipStation](https://www.shipstation.com/docs/api/){target="_blank"}, cole a amostra JSON, mapeie campos, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -1480,7 +1480,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Chame o REST **GET** modelado abaixo, autentique com o cabeçalho da chave secreta, cole a amostra JSON, mapeie campos, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Chame o REST **GET** modelado abaixo, autentique com o cabeçalho da chave secreta, cole a amostra JSON, mapeie campos, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -1566,7 +1566,7 @@ Os seguintes pré-requisitos se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Prefira caminhos de leitura estreitos; se você usar a execução da instrução **POST**, inclua o corpo JSON que a API exige, cole uma amostra de resposta de sucesso para mapeamento, teste a latência cuidadosamente e ative.
+1. Siga [Trabalhar com integrações](integrations.md). Prefira caminhos de leitura estreitos; se você usar a execução da instrução **POST**, inclua o corpo JSON que a API exige, cole uma amostra de resposta de sucesso para mapeamento, teste a latência cuidadosamente e ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -1645,7 +1645,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Configure o **GET** no ponto de extremidade escolhido (um padrão comum é uma lista de usuários), conclua o OAuth por [Bynder](https://developer.bynder.com/){target="_blank"}, evite extrair páginas desnecessárias de dados, mapeie campos, teste e ative.
+1. Siga [Trabalhar com integrações](integrations.md). Configure o **GET** no ponto de extremidade escolhido (um padrão comum é uma lista de usuários), conclua o OAuth por [Bynder](https://developer.bynder.com/){target="_blank"}, evite extrair páginas desnecessárias de dados, mapeie campos, teste e ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -1795,7 +1795,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Configure o **GET** com a autenticação de consulta necessária, mapeie identificadores de perfil ou contexto, cole a amostra JSON, mapeie campos, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Configure o **GET** com a autenticação de consulta necessária, mapeie identificadores de perfil ou contexto, cole a amostra JSON, mapeie campos, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -1879,7 +1879,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Use o **GET** com `passkey` como parâmetro de consulta na API de Conversas, defina `Accept: application/json`, cole a amostra JSON, mapeie campos, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Use o **GET** com `passkey` como parâmetro de consulta na API de Conversas, defina `Accept: application/json`, cole a amostra JSON, mapeie campos, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -1931,7 +1931,7 @@ Exemplo de ponto de entrada: `https://api.bazaarvoice.com/data/products.json` co
 
 | Parâmetro | Nome | Tipo | Valor | Obrigatório |
 | --- | --- | --- | --- | --- |
-| `apiversion` | apiversionNumber | Constante | 5,4 | Sim (ativado) |
+| `apiversion` | apiversionNumber | Constante | 5.4 | Sim (ativado) |
 | `filter` | `filter` | Variable | ID:47950830 | Não (desativado) |
 | `stats` | `stats` | Variable | all | Não (desativado) |
 
@@ -1963,7 +1963,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Use o esquema publicado ou o caminho do centro de preferências em seus documentos de assinatura, conclua o OAuth se necessário, cole a amostra de JSON, mapeie campos, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Use o esquema publicado ou o caminho do centro de preferências em seus documentos de assinatura, conclua o OAuth se necessário, cole a amostra de JSON, mapeie campos, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -2049,7 +2049,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Frequentemente, as chamadas de gráfico são **GET** com um caminho com controle de versão; manipule a expiração do token, cole a amostra de JSON, mapeie campos, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Frequentemente, as chamadas de gráfico são **GET** com um caminho com controle de versão; manipule a expiração do token, cole a amostra de JSON, mapeie campos, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -2134,7 +2134,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Use **GET** no caminho de registro necessário, envie cabeçalhos obrigatórios como `API-VERSION`, cole a amostra JSON (HAL ou JSON conforme retornado), mapeie um conjunto de campos mínimo, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Use **GET** no caminho de registro necessário, envie cabeçalhos obrigatórios como `API-VERSION`, cole a amostra JSON (HAL ou JSON conforme retornado), mapeie um conjunto de campos mínimo, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
@@ -2216,7 +2216,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](external-sources.md). Não adivinhe URLs públicos. Use a especificação do Epsilon, cole a amostra JSON, mapeie campos, teste, ative.
+1. Siga [Trabalhar com integrações](integrations.md). Não adivinhe URLs públicos. Use a especificação do Epsilon, cole a amostra JSON, mapeie campos, teste, ative.
 
 1. No Journey Optimizer, acesse Configurações > Gerenciar e selecione Criar integração.
 
