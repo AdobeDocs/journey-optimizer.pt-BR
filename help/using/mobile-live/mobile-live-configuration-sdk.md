@@ -7,9 +7,9 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---
@@ -235,10 +235,10 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 
 Para obter uma documentação abrangente do SDK e detalhes de implementação:
 
-* [Guia do desenvolvedor de atividades em tempo real](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
-* [Referência da API](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
-* [Tutorial de atividades ao vivo](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
-* [Classes Públicas](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
+* [Guia do desenvolvedor de atividades online](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
+* [Referência da API](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference)
+* [Tutorial de atividades ao vivo](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial)
+* [Classes Públicas](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes)
 
 >[!TIP]
 >

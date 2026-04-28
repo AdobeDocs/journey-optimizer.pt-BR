@@ -11,9 +11,9 @@ keywords: expressão, editor
 mini-toc-levels: 1
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '890'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,7 @@ O [!DNL Journey Optimizer] permite aproveitar os dados do [!DNL Adobe Experience
 
 >[!NOTE]
 >
->O recurso de pesquisa de dados só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
+>O recurso de pesquisa de dados só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
 
 Saiba mais sobre como acessar e trabalhar com conjuntos de dados nesta seção: [Introdução aos conjuntos de dados](../data/get-started-datasets.md)
 
@@ -101,27 +101,27 @@ Se um namespace personalizado ainda não tiver sido definido, verifique se a ide
 
 +++
 
-### Habilitar o conjunto de dados para pesquisa na interface de gerenciamento do conjunto de dados
+### Enable the dataset for lookup in the dataset management interface
 
-Na interface do usuário de gerenciamento de conjunto de dados, use o botão para ativar o conjunto de dados para pesquisa.
+In the dataset management user interface, use the toggle to enable the dataset for lookup.
 
 ![](assets/aep-data-enable.png)
 
-### Método da API
+### API Method
 
-Siga as instruções detalhadas em [esta documentação](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) para configurar seu ambiente para enviar comandos de API.
+Follow the directions detailed in [this documentation](https://developer.adobe.com/journey-optimizer-apis/references/authentication) to configure your environment to send API commands.
 
 #### Pré-requisitos
 
-* O projeto do desenvolvedor deve ter as APIs do Adobe Journey Optimizer e do Adobe Experience Platform adicionadas ao projeto.
+* The developer project must have the Adobe Journey Optimizer and Adobe Experience Platform APIs added to their project.
 
   ![](assets/aep-data-api.png)
 
-* Você deve ter permissão de gerenciamento de conjuntos de dados como parte de sua função.
+* You must have manage datasets permission as part of your role.
 
-* O esquema no qual o conjunto de dados se baseia deve conter uma identidade primária que possa atuar como a chave de pesquisa.
+* The schema for which the dataset is based on must contain a primary identity that can act as the lookup key.
 
-#### Estrutura de chamada da API
+#### API call structure
 
 ```shell
 curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}" \ -H "Authorization: Bearer ${ACCESS_TOKEN}" \ -H "x-api-key: ${API_KEY}" \ -H "x-gw-ims-org-id: ${IMS_ORG}" \ -H "x-sandbox-name: ${SANDBOX_NAME}" 
@@ -129,33 +129,33 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 
 Em que:
 
-* A URL é `https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}`
-* A ID do conjunto de dados é o conjunto de dados para o qual você deseja habilitar.
-* A ação é ativar OU desativar.
-* O token de acesso pode ser recuperado do console do desenvolvedor.
-* A chave de API pode ser recuperada do console do desenvolvedor.
-* A ID da organização IMS é sua organização da Adobe.
-* Nome da sandbox é o nome da sandbox do conjunto de dados (ou seja, prod, dev etc.).
+* URL is `https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}`
+* Dataset ID is the dataset for which you wish to enable.
+* Action is enable OR disable.
+* Access token can be retrieved from the developer console.
+* API key can be retrieved from the developer console.
+* IMS Org ID is your Adobe organization.
+* Sandbox Name is the sandbox name the dataset is in (i.e. prod, dev etc.).
 
 >[!NOTE]
 >
->Se você encontrar o erro abaixo ao tentar fazer uma chamada de API para habilitar conjuntos de dados, tente remover as APIs do Adobe Journey Optimizer do projeto do console do desenvolvedor e adicioná-las novamente:
+>If you encounter the error below when attempting an API call to enable datasets, try removing the Adobe Journey Optimizer APIs from your developer console project and then re-adding them:
 >
 >`"error_code": "403003",`
 >`"message": "Api Key is invalid"`
 
-## Monitoramento do conjunto de dados
+## Dataset monitoring
 
-Depois que um conjunto de dados for habilitado para pesquisa, você poderá revisar o status de assimilação no serviço de pesquisa acessando o menu **[!UICONTROL Monitoramento]** e selecionando a guia **[!UICONTROL Journey Optimizer]**.
+Once a dataset has been enabled for lookup, you can review the status of ingestion into the lookup service by going to the **[!UICONTROL Monitoring]** menu and selecting the **[!UICONTROL Journey Optimizer]** tab.
 
-Esse indicador de processo ajuda a entender quando novos lotes de dados estão disponíveis no serviço de pesquisa.
+This process indicator helps in understanding when new batches of data are available in the lookup service.
 
 ![](assets/aep-data-monitoring.png)
 
 ## Próximas etapas
 
-Depois que um conjunto de dados for habilitado para pesquisa usando uma chamada de API, você poderá usar os dados com os recursos de personalização e Decisão do [!DNL Journey Optimizer]. Para obter mais informações, consulte estas seções:
+After a dataset has been enabled for lookup using an API call, you can use the data with [!DNL Journey Optimizer] personalization and Decisioning capabilities. Para obter mais informações, consulte estas seções:
 
 * [Usar dados da Adobe Experience Platform para personalização](../personalization/aep-data-perso.md)
 * [Usar dados da Adobe Experience Platform para decisão](../experience-decisioning/aep-data-exd.md)
-* [Usar dados do Adobe Experience Platform para orquestração de jornadas](../building-journeys/dataset-lookup.md)
+* [Use Adobe Experience Platform data for journey orchestration](../building-journeys/dataset-lookup.md)

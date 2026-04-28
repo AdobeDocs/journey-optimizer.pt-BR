@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1850'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ Não. Cada solicitação de API deve ter um `requestId` exclusivo para garantir 
 
 +++Que autenticação é necessária para a API headless?
 
-Consulte a [Documentação de Campanhas acionadas por API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) para obter os requisitos de autenticação, incluindo tokens OAuth e chaves de API.
+Consulte a [Documentação de Campanhas acionadas por API](https://developer.adobe.com/journey-optimizer-apis/references/messaging) para obter os requisitos de autenticação, incluindo tokens OAuth e chaves de API.
 
 +++
 
@@ -279,7 +279,7 @@ Você precisa enviar um evento &quot;end&quot; para cada instância de atividade
 +++Meu widget mostra &quot;Nenhum dado&quot; mesmo quando enviei uma atualização. Qual poderia ser o problema?
 
 * Verifique se a implementação do widget acessa corretamente `context.state` e `context.attributes`.
-* Verifique se os valores padrão ou estados de erro são manipulados na interface do widget.
-* Use o protocolo `LiveActivityAssuranceDebuggable` para depurar o esquema.
-* Teste com o Adobe Assurance para ver se os dados estão sendo recebidos.
+* Check that default values or error states are handled in your widget interface.
+* Use the `LiveActivityAssuranceDebuggable` protocol to debug the schema.
+* Test with Adobe Assurance to see if data is being received.
 +++

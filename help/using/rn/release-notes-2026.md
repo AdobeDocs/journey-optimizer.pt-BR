@@ -2,22 +2,22 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Notas de versão de 2026
-description: Notas de versão de 2026 do Journey Optimizer
+description: Notas de versão do Journey Optimizer 2026
 feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '2525'
-ht-degree: 64%
+source-wordcount: '2640'
+ht-degree: 62%
 
 ---
 
 # Notas de versão de 2026 {#release-notes-2026}
 
-Esta página lista todos os recursos e melhorias da versão de 2026 do [!DNL Journey Optimizer].
+Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lançado em 2026.
 
 
 
@@ -39,7 +39,7 @@ Esta página lista todos os recursos e melhorias da versão de 2026 do [!DNL Jou
 <p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../conflict-prioritization/journey-ranking-formulas.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: quarta-feira, 24 de fevereiro de 2026</p>
+<p>Data de disponibilidade: 24 de fevereiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -64,7 +64,7 @@ Esta página lista todos os recursos e melhorias da versão de 2026 do [!DNL Jou
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/journey-action.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: sábado, 20 de fevereiro de 2026</p>
+<p>Data de disponibilidade: 20 de fevereiro de 2026</p>
 <p><strong>Observação:</strong> todos os canais nativos agora estão acessíveis por meio da atividade de jornada de Ação. As atividades herdadas do canal nativo serão descontinuadas na versão de março. As jornadas existentes que incluem ações herdadas continuarão a funcionar como estão — não é necessária nenhuma migração.</p>
 </td>
 </tr>
@@ -91,7 +91,7 @@ Esta página lista todos os recursos e melhorias da versão de 2026 do [!DNL Jou
 <p>Em <strong>campanhas</strong>, esse recurso está disponível para todos os ambientes (Disponibilidade Geral). Para obter mais informações, consulte a <a href="../campaigns/send-using-waves.md">documentação detalhada</a>.</p>
 
 <p>No <strong>jornada</strong>, esse recurso só está disponível para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe. Para obter mais informações, consulte a <a href="../building-journeys/send-using-waves.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: sexta-feira, 19 de fevereiro de 2026</p>
+<p>Data de disponibilidade: 19 de fevereiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -110,7 +110,7 @@ Esta página lista todos os recursos e melhorias da versão de 2026 do [!DNL Jou
 <p><img src="assets/do-not-localize/subdomain-migration.gif"/></p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../configuration/custom-subdomain-migration.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: sexta-feira, 19 de fevereiro de 2026</p>
+<p>Data de disponibilidade: 19 de fevereiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -129,7 +129,7 @@ Esta página lista todos os recursos e melhorias da versão de 2026 do [!DNL Jou
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>Anteriormente lançado no Beta, esse recurso estará disponível para todos os ambientes (Disponibilidade geral).</p>
 <p>Para obter mais informações, consulte a <a href="../push/push-configuration-web.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: sábado, 13 de fevereiro de 2026</p>
+<p>Data de disponibilidade: 13 de fevereiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -148,7 +148,7 @@ Esta página lista todos os recursos e melhorias da versão de 2026 do [!DNL Jou
 <p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/content-decision.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: quarta-feira, 10 de fevereiro de 2026</p>
+<p>Data de disponibilidade: 10 de fevereiro de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -246,7 +246,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Visualização da decisão no canal de experiência baseado em código** - Agora é possível visualizar itens de decisão ao configurar a Decisão com o canal de experiência baseado em código. A visualização está disponível diretamente na interface de criação antes de entrar em funcionamento. [Leia mais](../code-based/test-code-based.md#preview-code-based)
 
-  Data de disponibilidade: quinta-feira, 18 de fevereiro de 2026
+  Data de disponibilidade: 18 de fevereiro de 2026
 
 <!--
 THIS WAS FINALLY NOT RELEASED IN FEBRUARY
@@ -291,7 +291,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <tr>
 <td>
 <p>Agora você pode personalizar e otimizar o conteúdo de suas <strong>Notificações por push</strong> com a <strong>Decisão</strong>. Use Pontuações de prioridade, Fórmulas ou Modelos de IA para exibir o melhor conteúdo para os clientes.</p>
-<p>O Experience Decisioning com notificações por push requer uma versão específica do Mobile SDK. Antes de implementar este recurso, verifique as <a href="https://developer.adobe.com/client-sdks/home/release-notes/" target="_blank">notas de versão</a> para identificar a versão necessária e se você atualizou adequadamente. Você também pode exibir todas as versões do SDK disponíveis para sua plataforma <a href="https://developer.adobe.com/client-sdks/home/current-sdk-versions/" target="_blank">nesta seção</a>.</p>
+<p>O Experience Decisioning com notificações por push requer uma versão específica do Mobile SDK. Antes de implementar este recurso, verifique as <a href="https://developer.adobe.com/client-sdks/home/release-notes" target="_blank">notas de versão</a> para identificar a versão necessária e se você atualizou adequadamente. Você também pode exibir todas as versões do SDK disponíveis para sua plataforma <a href="https://developer.adobe.com/client-sdks/home/current-sdk-versions" target="_blank">nesta seção</a>.</p>
 <p>Para obter mais informações, consulte a <a href="../experience-decisioning/create-decision.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 30 de janeiro de 2026</p>
 </td>
@@ -407,7 +407,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <tr>
 <td>
 <p>Uma nova API do Journey Optimizer já está disponível, permitindo que você recupere e inspecione programaticamente <strong>dados relacionados à campanha</strong>, como detalhes, versões e configurações.</p>
-<p>Para obter mais informações, consulte a <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/" target="_blank">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve" target="_blank">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 24 de novembro de 2025</p>
 </td>
 </tr>
@@ -439,7 +439,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Verificações de qualidade de conteúdo do Assistente de IA**: além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas de <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou falhas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality).
 
-  [Conheça este recurso no vídeo](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on).
+  [Conheça este recurso no vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Jornadas
 
@@ -489,7 +489,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 #### Campanhas
 
-* **Agendar campanha usando o Fuso Horário do Perfil** - O agendamento de campanha agora pode usar o <strong>fuso horário</strong> de cada perfil para entregar mensagens no horário local desejado. [Leia mais](../campaigns/campaign-schedule.md)
+* **Agendar campanha usando o fuso horário do perfil**: o agendamento de campanha agora pode usar o <strong>fuso horário</strong> de cada perfil para entregar mensagens no horário local desejado. [Leia mais](../campaigns/campaign-schedule.md)
 
   **Observação**: esta melhoria só estará disponível para um conjunto de organizações (Disponibilidade Limitada).
 

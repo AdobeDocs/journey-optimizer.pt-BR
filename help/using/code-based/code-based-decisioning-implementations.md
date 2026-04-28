@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 1%
+source-wordcount: '549'
+ht-degree: 6%
 
 ---
 
@@ -296,7 +296,7 @@ Digamos que você tenha a mesma política de decisão com a disposição do cabe
 
 ## Tutoriais {#tutorials}
 
-Saiba como buscar, exibir e rastrear experiências baseadas em código usando a [extensão do Adobe Journey Optimizer](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} para SDKs do Adobe Experience Platform Mobile em [este tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+Saiba como buscar, exibir e rastrear experiências baseadas em código usando a [extensão do Adobe Journey Optimizer](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} para SDKs do Adobe Experience Platform Mobile em [este tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}.
 
 Saiba como usar a decisão no Journey Optimizer para personalizar ofertas de conteúdo em seu site, com foco na configuração do Web SDK, em [este tutorial](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
 

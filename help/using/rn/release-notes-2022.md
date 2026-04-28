@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '3599'
-ht-degree: 100%
+source-wordcount: '3645'
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 </table>
 -->
 
-### Melhorias {#oct-2022-improvements}
+### Aprimoramentos {#oct-2022-improvements}
 
 **Jornadas**
 
@@ -206,7 +206,7 @@ table>
 </tbody>
 -->
 
-### Melhorias{#sept-2022-improvements}
+### Aprimoramentos{#sept-2022-improvements}
 
 **Jornadas**
 
@@ -222,7 +222,7 @@ table>
 
 **Controles de auditoria**
 
-* Com o Journey Optimizer, você pode identificar as ações executadas pelos usuários no sistema em vários serviços e recursos, como campanhas, jornadas, mensagens, páginas de destino etc. Os recursos de log de auditoria agora incluem alterações em várias outras ações e são registrados automaticamente conforme a atividade ocorre. Saiba mais [nesta página](../privacy/audit-logs.md).
+* Com o Journey Optimizer, você pode identificar as ações executadas pelos usuários no sistema em vários serviços e recursos, como campanhas, jornadas, mensagens, páginas de aterrissagem etc. Os recursos de log de auditoria agora incluem alterações em várias outras ações e são registrados automaticamente conforme a atividade ocorre. Saiba mais [nesta página](../privacy/audit-logs.md).
 
 **Suporte para arquivamento**
 
@@ -388,7 +388,7 @@ table>
 </tbody>
 </table>
 
-### Melhorias
+### Aprimoramentos
 
 **Jornadas**
 
@@ -448,7 +448,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>O plug-in de integração do Designer de email do Adobe Stock e Adobe Journey Optimizer fornece aos clientes uma maneira fácil de navegar, licenciar e salvar imagens para uso na criação de mensagens. </br> A nova opção <b>Localizar fotos semelhantes do Stock</b> também permite localizar fotos do Stock que correspondam ao conteúdo, cor e composição de suas imagens. </p>
+<p>O plug-in de integração do Adobe Stock e do Adobe Journey Optimizer Email Designer fornece aos clientes uma maneira fácil de navegar, licenciar e salvar imagens para uso na criação de mensagens. </br> A nova opção <b>Localizar fotos semelhantes do Stock</b> também permite localizar fotos do Stock que correspondam ao conteúdo, cor e composição de suas imagens. </p>
 <p>Para obter mais informações, consulte a <a href="../integrations/stock.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -666,7 +666,7 @@ Como cliente do Adobe Campaign Standard, agora você pode enviar emails, notific
 
 ## Versão de março de 2022 {#march-2022-release}
 
-### Melhorias
+### Aprimoramentos
 
 **Jornadas**
 
@@ -738,7 +738,7 @@ table>
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
 The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you do not send mails to customers from your development sandbox.</p>
-<p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
+<p>See <a href="https://developer.adobe.com/journey-optimizer-apis">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -760,7 +760,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 </tbody>
 </table>
 
-### Melhorias
+### Aprimoramentos
 
 **Jornadas**
 
@@ -817,11 +817,11 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 </tbody>
 </table>
 
-### Melhorias
+### Aprimoramentos
 
 **Jornadas**
 
-* Os eventos de etapa do Journey Optimizer agora podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR). O campo **profileID**, no esquema integrado Evento de Etapas da Jornada, agora está definido como um campo de identidade. [Saiba mais](../reports/sharing-overview.md#integration-cja)
+* Os eventos de etapa do Journey Optimizer agora podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview). O campo **profileID**, no esquema integrado Evento de Etapas da Jornada, agora está definido como um campo de identidade. [Saiba mais](../reports/sharing-overview.md#integration-cja)
 
 **Gestão de decisões**
 

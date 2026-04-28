@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 65b4b80aa1e68bf72bc0621ad22597f8273ec0a1
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '6783'
-ht-degree: 100%
+source-wordcount: '6916'
+ht-degree: 99%
 
 ---
 
@@ -504,12 +504,12 @@ Agora você pode exportar modelos e fragmentos de conteúdo entre sandboxes. [Sa
 
 **APIs**
 
-* **API de simulação de campanha**: use esta API para acionar o processo de prova de uma campanha. O envio de uma Prova de campanha é um processo assíncrono, a API retornará uma proofJobId que pode ser usada para verificar o status da prova. [Saiba mais](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **API de simulação de campanha**: use esta API para acionar o processo de prova de uma campanha. O envio de uma Prova de campanha é um processo assíncrono, a API retornará uma proofJobId que pode ser usada para verificar o status da prova. [Saiba mais](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}
 
-* (Data de disponibilidade: 10 de setembro) A [Documentação da API do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} agora é interativa. Explore os pontos de acesso da API diretamente nas páginas de documentação para obter feedback imediato e acelerar sua implementação técnica.
+* (Data de disponibilidade: 10 de setembro) A [Documentação da API do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} agora é interativa. Explore os pontos de acesso da API diretamente nas páginas de documentação para obter feedback imediato e acelerar sua implementação técnica.
 
 
-  Todas as páginas de referência da API agora têm uma funcionalidade **Experimente** que você pode usar para testar chamadas de API diretamente na página do site de documentação. [Obtenha as credenciais de autenticação necessárias](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} e comece a usar a funcionalidade para explorar os pontos de acesso da API.
+  Todas as páginas de referência da API agora têm uma funcionalidade **Experimente** que você pode usar para testar chamadas de API diretamente na página do site de documentação. [Obtenha as credenciais de autenticação necessárias](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"} e comece a usar a funcionalidade para explorar os pontos de acesso da API.
 
   Use esta nova funcionalidade para explorar as solicitações e as respostas dos pontos de acesso da API para obter feedback imediato e acelerar sua implementação técnica.
 
@@ -825,7 +825,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-#### Fragmentos de conteúdo 
+#### Fragmentos de conteúdo
 
 >[!AVAILABILITY]
 >
@@ -835,7 +835,7 @@ Esta versão vem com as melhorias listadas abaixo.
 * Foram introduzidos novos status para fragmentos de conteúdo: **Rascunho**, **Ativo**, **Publicando** e **Arquivado**.
 * Para usar um fragmento em uma jornada ou campanha, agora ele deve estar no status **ativo**. Uma nova etapa foi adicionada ao processo de criação de fragmento, permitindo que o fragmento seja publicado e disponibilizado para uso em jornadas e campanhas. Observe que a publicação de fragmento requer uma nova permissão.
 
-  **Cuidado**: Como os status **Rascunho** e **Ativo** foram introduzidos com a versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status **Rascunho** mesmo se forem usados em uma jornada ou campanha. Ao fazer qualquer alteração nesses fragmentos, será necessário [publicá-los](../content-management/create-fragments.md#publish) para torná-los “Ativos” e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la. 
+  **Cuidado**: Como os status **Rascunho** e **Ativo** foram introduzidos com a versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status **Rascunho** mesmo se forem usados em uma jornada ou campanha. Ao fazer qualquer alteração nesses fragmentos, será necessário [publicá-los](../content-management/create-fragments.md#publish) para torná-los “Ativos” e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la.
 
 Leia mais na documentação dos [fragmentos de conteúdo](../content-management/fragments.md).
 
@@ -992,7 +992,7 @@ As seguintes melhorias foram adicionadas desde a versão beta até a versão atu
 * **Dados de contexto**: agora é possível aproveitar os dados de contexto da Adobe Experience Platform em suas regras de decisão e nas fórmulas de classificação. [Leia mais](../experience-decisioning/context-data.md)
 * **Nova permissão**: a permissão “Gerenciar escolha de experiências” agora está disponível para o recurso Gestão de decisões. Isso permite gerenciar direitos relacionados à Escolha de experiências. [Leia mais](../experience-decisioning/gs-experience-decisioning.md)
 * **Regras de limite**: agora é possível adicionar várias regras de limite para um determinado item de decisão na Escolha de experiências. Isso permite aumentar o nível de controle sobre como as ofertas são enviadas. [Leia mais](../experience-decisioning/items.md#capping)
-* **Relatórios**: agora é possível criar painéis de relatórios personalizados para campanhas da Escolha de experiências usando o [!DNL Customer Journey Analytics].  [Leia mais](../experience-decisioning/cja-reporting.md)
+* **Relatórios**: agora é possível criar painéis de relatórios personalizados para campanhas da Escolha de experiências usando o [!DNL Customer Journey Analytics]. [Leia mais](../experience-decisioning/cja-reporting.md)
 
 
 <!--
@@ -1031,7 +1031,7 @@ As seguintes melhorias foram adicionadas desde a versão beta até a versão atu
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
 * **Suporte a mTLS**: a autenticação mTLS agora é compatível com ações personalizadas. Não é necessária uma configuração adicional da ação personalizada ou jornada para ativar o mTLS; isso ocorre automaticamente ao detectar um ponto de acesso habilitado para mTLS. [Leia mais](../action/about-custom-action-configuration.md#mtls-protocol-support)
-* **Tabelas de pesquisa em eventos**: agora é possível aproveitar os dados de um conjunto de dados de pesquisa após definir uma relação usando um atributo de uma matriz de objetos. Os valores de pesquisa estarão disponíveis em jornadas (condições, ações personalizadas, etc.) e na personalização de mensagens. [Leia mais](../event/experience-event-schema.md#relationships_limitations)
+* **Tabelas de pesquisa em eventos**: agora é possível aproveitar os dados de um conjunto de dados de pesquisa após definir uma relação usando um atributo de uma matriz de objetos. Os valores de pesquisa estarão disponíveis em jornadas (condições, ações personalizadas etc.) e personalização de mensagens. [Leia mais](../event/experience-event-schema.md#relationships_limitations)
 * **Editor de expressão avançado na configuração de evento** (disponibilidade limitada): agora é possível utilizar o editor de expressão avançado ao configurar um evento, o que permite definir expressões mais complexas ou usar funções na condição de ID de evento. Esse recurso foi lançado com disponibilidade limitada para clientes selecionados. [Leia mais](../event/about-creating.md#adv-exp-editor)
 * **Políticas de mesclagem** (disponibilidade limitada): as políticas de mesclagem usadas por uma jornada agora estão visíveis e são consistentes em toda a jornada. Esse recurso foi lançado com disponibilidade limitada para clientes selecionados. [Leia mais](../building-journeys/journey-properties.md#merge-policies)
 
@@ -1317,7 +1317,7 @@ Essa versão traz os novos recursos listados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Manuais de estratégia de casos de uso </strong><br/></th>
+<th><strong>Manuais de estratégia de casos de uso</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1362,7 +1362,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
   >[!NOTE]
   >
-  >O limite de frequência diária também está disponível por demanda. Entre em contato com seu representante Adobe. 
+  >O limite de frequência diária também está disponível por demanda. Entre em contato com seu representante Adobe.
 
 **Gestão de decisões**
 

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, design, formatação
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1272'
 ht-degree: 26%
 
 ---
@@ -244,7 +244,7 @@ Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você pode
 
 Na guia **Dados**, é possível definir uma **[!UICONTROL Chave]**&#x200B; e um **[!UICONTROL Valor]** para incluir variáveis personalizadas na carga. Esses pares chave/valor permitem transmitir dados adicionais, dependendo da configuração específica.
 
-Para obter mais informações, consulte a [Documentação para desenvolvedores](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/).
+Para obter mais informações, consulte a [Documentação para desenvolvedores](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata).
 
 1. Na guia **[!UICONTROL Dados]**, selecione **[!UICONTROL Adicionar par de chave/valor]**.
 

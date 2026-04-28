@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1879'
-ht-degree: 6%
+source-wordcount: '1989'
+ht-degree: 8%
 
 ---
 
@@ -20,18 +20,18 @@ O [!DNL Journey Optimizer] permite criar jornadas e enviar mensagens para o púb
 
 >[!AVAILABILITY]
 >
->O novo **fluxo de trabalho de início rápido de integração para dispositivos móveis** está disponível. Use esse novo recurso do produto para configurar rapidamente o Mobile SDK para começar a coletar e validar dados de eventos móveis e enviar notificações por push em dispositivos móveis. Esse recurso é acessível por meio da página inicial da Coleção de dados como um beta público. [Saiba mais](mobile-onboarding-wf.md)
+>O novo **fluxo de trabalho de início rápido de integração para dispositivos móveis** está disponível. Use esse novo recurso do produto para configurar rapidamente o Mobile SDK para começar a coletar e validar dados de eventos móveis e enviar notificações por push em dispositivos móveis. Esse recurso é acessível por meio da página inicial da Coleção de dados, na forma de um beta público. [Saiba mais](mobile-onboarding-wf.md)
 >
 
 ## Antes de começar {#start-push}
 
 ### Configurar permissões {#setup-permissions}
 
-Antes de criar um aplicativo para dispositivos móveis, primeiro verifique se você tem ou atribui as permissões de usuário corretas para as tags na Adobe Experience Platform. Saiba mais em [Documentação de tags](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=pt-BR){target="_blank"}.
+Antes de criar um aplicativo para dispositivos móveis, primeiro verifique se você tem ou atribui as permissões de usuário corretas para as tags na Adobe Experience Platform. Saiba mais em [Documentação de tags](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
->A configuração de push deve ser executada por um usuário especialista. Dependendo do modelo de implementação e das pessoas envolvidas, talvez seja necessário atribuir o conjunto completo de permissões a um único perfil de produto ou compartilhar permissões entre o desenvolvedor do aplicativo e o administrador do **Adobe Journey Optimizer**. Saiba mais sobre **Permissões de** marcas em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=pt-BR){target="_blank"}.
+>A configuração de push deve ser executada por um usuário especialista. Dependendo do modelo de implementação e das pessoas envolvidas, talvez seja necessário atribuir o conjunto completo de permissões a um único perfil de produto ou compartilhar permissões entre o desenvolvedor do aplicativo e o administrador do **Adobe Journey Optimizer**. Saiba mais sobre **Permissões de** marcas em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 <!--
 ou need to your have access to perform following roles :
@@ -49,7 +49,7 @@ Para atribuir direitos de **Propriedade** e **Empresa**, siga as etapas abaixo:
 
    ![](assets/push_product_1.png)
 
-1. Selecione um **[!UICONTROL Perfil de Produto]** existente ou crie um novo com o botão **[!UICONTROL Novo perfil]**. Saiba como criar um novo **[!UICONTROL Novo perfil]** na [Documentação do Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=pt-BR#ui){target="_blank"}.
+1. Selecione um **[!UICONTROL Perfil de Produto]** existente ou crie um novo com o botão **[!UICONTROL Novo perfil]**. Saiba como criar um novo **[!UICONTROL Novo perfil]** na [Documentação do Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 
 1. Na guia **[!UICONTROL Permissões]**, selecione **[!UICONTROL Direitos de propriedade]**.
 
@@ -95,7 +95,7 @@ Para atribuir este **[!UICONTROL Perfil de produto]** a usuários, siga as etapa
 
    >[!NOTE]
    >
-   >Se o usuário não tiver sido criado anteriormente no Admin Console, consulte a [documentação Adicionar usuários](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   >Se o usuário não tiver sido criado anteriormente no Admin Console, consulte a [documentação Adicionar usuários](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/push_product_7.png)
 
@@ -129,9 +129,9 @@ Siga as etapas de implementação detalhadas nos links abaixo:
 
 ### Integrar seu aplicativo móvel ao Adobe Experience Platform SDK {#integrate-mobile-app}
 
-O SDK móvel da Adobe Experience Platform fornece APIs de integração do lado do cliente para dispositivos móveis por meio de SDKs compatíveis com Android e iOS. Siga a [documentação do Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} para obter a configuração com os SDKs do Adobe Experience Platform Mobile no seu aplicativo.
+O SDK móvel da Adobe Experience Platform fornece APIs de integração do lado do cliente para dispositivos móveis por meio de SDKs compatíveis com Android e iOS. Siga a [documentação do Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started){target="_blank"} para obter a configuração com os SDKs do Adobe Experience Platform Mobile no seu aplicativo.
 
-Ao final disso, você também deve ter criado e configurado uma propriedade móvel no [!DNL Adobe Experience Platform Data Collection]. Normalmente, você cria uma propriedade móvel para cada aplicativo móvel que deseja gerenciar. Saiba como criar e configurar uma propriedade móvel na [documentação do Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+Ao final disso, você também deve ter criado e configurado uma propriedade móvel no [!DNL Adobe Experience Platform Data Collection]. Normalmente, você cria uma propriedade móvel para cada aplicativo móvel que deseja gerenciar. Saiba como criar e configurar uma propriedade móvel na [documentação do Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property){target="_blank"}.
 
 <!--
 To enable **Web push notifications**, ensure that the [pushNotifications property](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) is properly configured within the Web SDK. Then, use [the sendPushSubscription command](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) to register push subscriptions with Adobe Experience Platform.
@@ -145,41 +145,41 @@ O registro da credencial de push do aplicativo móvel é necessário para autori
 
 1. Acesse o menu **[!UICONTROL Canais]** > **[!UICONTROL Configurações de push]** > **[!UICONTROL Credenciais de push]**.
 
-1. Clique em **[!UICONTROL Criar credencial de push]**.
+1. Click **[!UICONTROL Create push credential]**.
 
-1. No menu suspenso **[!UICONTROL Plataforma]**, selecione o sistema operacional:
+1. From the **[!UICONTROL Platform]** drop-down, select the Operational system:
 
    * **Para iOS**
 
      ![](assets/add-app-config-ios.png)
 
-      1. Insira o aplicativo móvel **[!UICONTROL ID do aplicativo]**.
+      1. Enter the mobile app **[!UICONTROL App ID]**.
 
-      1. Habilite a opção **[!UICONTROL Aplicar a todas as sandboxes]** para disponibilizar essas credenciais de push em todas as sandboxes. Se uma sandbox específica tiver suas próprias credenciais para o mesmo par de IDs da plataforma e do aplicativo, essas credenciais específicas da sandbox terão prioridade.
+      1. Enable the **[!UICONTROL Apply to all sandboxes]** option to make these Push credentials available across all sandboxes. If a specific sandbox has its own credentials for the same Platform and App ID pair, those sandbox-specific credentials will take precedence.
 
-      1. Ativado o botão **[!UICONTROL Inserir manualmente as credenciais de push]** para adicionar suas credenciais.
+      1. Switched on the **[!UICONTROL Manually enter push Credentials]** button to add your credentials.
 
-      1. Arraste e solte seu arquivo .p8 Apple Push Notification Authentication Key. Esta chave pode ser adquirida nas páginas **Certificados**, **Identificadores** e **Perfis**.
+      1. Arraste e solte seu arquivo .p8 Apple Push Notification Authentication Key. This key can be acquired from the **Certificates**, **Identifiers** and **Profiles** page.
 
          >[!NOTE]
          >
-         > Somente as chaves de Notificação por Push do Apple .p8 são suportadas. Use outra conta de desenvolvedor do Apple se tiver atingido o limite de chaves .p8.
-         >Para obter mais informações sobre os limites de chave do Apple, consulte a [Documentação para desenvolvedores do Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).
+         > Only .p8 Apple Push Notification keys are supported. Use another Apple Developer account if you have reached the .p8 key limit.
+         >For more information on Apple key limits, refer to [Apple Developer Documentation](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).
 
 
-      1. Forneça a **Key ID**. Esta é uma sequência de 10 caracteres atribuída durante a criação da chave de autenticação p8. Ele pode ser encontrado na guia **Chaves** da página **Certificados**, **Identificadores** e **Perfis**.
+      1. Forneça a **Key ID**. Esta é uma sequência de 10 caracteres atribuída durante a criação da chave de autenticação p8. It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** page.
 
-      1. Forneça a **ID da Equipe**. Este é um valor de string que pode ser encontrado na guia Membros.
+      1. Forneça a **ID da Equipe**. This is a string value which can be found under the Membership tab.
 
    * **Para Android**
 
      ![](assets/add-app-config-android.png)
 
-      1. Forneça a **[!UICONTROL ID do aplicativo]**. Geralmente, o nome do pacote é a ID do aplicativo no arquivo `build.gradle`.
+      1. Provide the **[!UICONTROL App ID]**, usually the package name is the app id in your `build.gradle` file.
 
-      1. Habilite a opção **[!UICONTROL Aplicar a todas as sandboxes]** para disponibilizar essas credenciais de push em todas as sandboxes. Se uma sandbox específica tiver suas próprias credenciais para o mesmo par de IDs da plataforma e do aplicativo, essas credenciais específicas da sandbox terão prioridade.
+      1. Enable the **[!UICONTROL Apply to all sandboxes]** option to make these Push credentials available across all sandboxes. If a specific sandbox has its own credentials for the same Platform and App ID pair, those sandbox-specific credentials will take precedence.
 
-      1. Ativado o botão **[!UICONTROL Inserir manualmente as credenciais de push]** para adicionar suas credenciais.
+      1. Switched on the **[!UICONTROL Manually enter push credentials]** button to add your credentials.
 
       1. Arraste e solte as credenciais de push do FCM. Para obter mais detalhes sobre como obter as credenciais de push, consulte a [Documentação do Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
@@ -193,7 +193,7 @@ O registro da credencial de push do aplicativo móvel é necessário para autori
         1. Enter your **[!UICONTROL VAPID public key]** and **[!UICONTROL private key]**.
 -->
 
-1. Clique em **[!UICONTROL Enviar]** para criar a configuração do aplicativo.
+1. Click **[!UICONTROL Submit]** to create your app configuration.
 
 <!--
 ## Step 2: set up a mobile property in Adobe Experience Platform launch {#launch-property}
@@ -210,10 +210,10 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=pt-BR).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
-## Etapa 2: criar uma configuração de canal para push{#message-preset}
+## Step 2: Create a channel configuration for push{#message-preset}
 
 Depois de criar suas credenciais de push, você precisa criar uma configuração para poder enviar notificações por push de **[!DNL Journey Optimizer]**.
 
@@ -248,7 +248,7 @@ Agora você pode selecionar sua configuração ao criar suas notificações por 
 
 A **extensão do Adobe Journey Optimizer** para SDKs do Adobe Experience Platform Mobile possibilita notificações por push para seus aplicativos móveis e ajuda a coletar tokens de push do usuário e gerenciar a medição de interação com os serviços da Adobe Experience Platform.
 
-Saiba como configurar a extensão do Journey Optimizer na [documentação do Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}.
+Saiba como configurar a extensão do Journey Optimizer na [documentação do Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer){target="_blank"}.
 
 
 <!--
@@ -324,7 +324,7 @@ Após configurar seu aplicativo móvel no Adobe Experience Platform e no [!DNL A
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-Para que essa jornada funcione, é necessário criar um esquema XDM. Para obter mais informações, consulte a [documentação sobre XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR#schemas-and-data-ingestion){target="_blank"}.
+Para que essa jornada funcione, é necessário criar um esquema XDM. Para obter mais informações, consulte a [documentação sobre XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
 
 1. Na seção de menu DATA MANAGEMENT, clique em **[!UICONTROL Esquemas]**.
    ![](assets/test_push_1.png)

@@ -1,27 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Guia de solução de problemas para ações de entrada no jornada
-description: Saiba como depurar e resolver problemas relacionados a ações de entrada no jornada [!DNL Adobe Journey Optimizer]
+title: Troubleshooting guide for inbound actions in journeys
+description: Learn how to debug and resolve issues related to inbound actions in journeys [!DNL Adobe Journey Optimizer]
 feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
-keywords: ações de entrada, solução de problemas, jornada, depurar, autoajuda, verificação, erros
+keywords: inbound actions, troubleshooting, journey, debug, self-help, check, errors
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1809'
 ht-degree: 1%
 
 ---
 
 # Solução de problemas de ações de entrada na jornada {#troubleshooting-inbound-actions}
 
-Ações de entrada, como experiências no aplicativo, Web e baseadas em código, são componentes críticos do [!DNL Journey Optimizer], pois permitem o engajamento personalizado com os usuários durante a jornada. No entanto, pode ocorrer um comportamento inesperado, como ausência de conteúdo de entrada ou entrega contínua após um perfil sair da jornada.
+Inbound actions, such as In-app, web, and code-based experiences, are critical components of [!DNL Journey Optimizer] as they enable personalized engagement with users during their journey. However, unexpected behavior, such as missing inbound content, or continued delivery after a profile exits the journey, can occur.
 
-Este guia fornece um processo passo a passo para depurar problemas relacionados a ações de entrada em uma jornada, a fim de ajudar você a identificá-los e resolvê-los de forma independente antes de entrar em contato com o suporte do.
+This guide provides a step-by-step process to debug issues related to inbound actions in a journey, in order to help you identify and resolve them independently before reaching out to support.
 
 <!--
 This guide addresses the two most common scenarios with inbound actions in a journey. They are as follows:
@@ -32,23 +32,23 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 ## Pré-requisitos {#prerequisites}
 
-Antes de começar a solução de problemas, verifique o seguinte:
+Before you can start troubleshooting, ensure the following:
 
-1. Configure uma sessão **Assurance**. Saiba mais na [[!DNL Adobe Experience Platform] documentação do Assurance](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+1. Set up an **Assurance** session. Learn how in the [[!DNL Adobe Experience Platform] Assurance documentation](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
-1. Navegue até a jornada que contém a ação de entrada para recuperar o nome da jornada e a ID da versão.
+1. Navigate to the journey containing the inbound action to retrieve the journey name and version ID.
 
    >[!NOTE]
    >
-   >A ID da versão do jornada pode ser encontrada na URL após &#39;jornada/&#39; (por exemplo: *86232fb1-2932-4036-8198-55dfec606fd7*).
+   >The journey version ID can be found in the URL after &#39;journey/&#39; (for example: *86232fb1-2932-4036-8198-55dfec606fd7*).
 
-   ![Local da ID de Jornada na URL de jornada ou no painel de propriedades](assets/troubleshoot-inbound-retrieve-journey-id.png)
+   ![Journey ID location in journey URL or properties panel](assets/troubleshoot-inbound-retrieve-journey-id.png)
 
-1. Clique na ação de entrada para exibir seus detalhes. Recupere o rótulo e a ID da ação de entrada.
+1. Click the inbound action to view its details. Retrieve the inbound action label and ID.
 
-   ![ID da ação na exibição de código do painel de configuração da atividade](assets/troubleshoot-inbound-retrieve-action-id.png)
+   ![Action ID in activity configuration panel code view](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. Obtenha o namespace e a ID do perfil para identificar o perfil que está encontrando problemas. Com base na sua configuração, o namespace pode ser ECID, email ou ID do cliente, por exemplo. Saiba como pesquisar um perfil na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+1. Get the profile namespace and ID to identify the profile encountering issues. Based on your configuration, the namespace can be ECID, email, or customer ID for example. Learn how to look up a profile in the [Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ## Cenário 1: o usuário não recebeu o conteúdo de entrada {#scenario-1}
 
@@ -63,7 +63,7 @@ Nesse cenário, um perfil inseriu a ação de entrada na jornada, mas mesmo depo
 
 2. **identidade &#39;joai&#39; definida nas identidades da plataforma**
 
-   A ação de entrada usa o namespace **joai** no perfil `segmentMembership` para ativar o perfil para a etapa de entrada. Verifique se ele foi definido nas Identidades da plataforma para a sandbox. Saiba mais sobre o [Experience Platform Identity Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home){target="_blank"}
+   A ação de entrada usa o namespace **joai** no perfil `segmentMembership` para ativar o perfil para a etapa de entrada. Verifique se ele foi definido nas Identidades da plataforma para a sandbox. Saiba mais sobre o [Experience Platform Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}
 
 ### Etapas de depuração {#debugging-steps}
 
@@ -79,7 +79,7 @@ Comece verificando se o dispositivo/cliente está obtendo o conteúdo esperado.
 
 >[!TAB Canal no aplicativo]
 
-1. Vá para a sessão [Assurance](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} e selecione a seção **[!UICONTROL Mensagens no Aplicativo]** no painel esquerdo.
+1. Vá para a sessão [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} e selecione a seção **[!UICONTROL Mensagens no Aplicativo]** no painel esquerdo.
 
 1. Na guia **[!UICONTROL Mensagens no Dispositivo]**, clique na lista suspensa **[!UICONTROL Mensagens]**.
 
@@ -91,11 +91,11 @@ Comece verificando se o dispositivo/cliente está obtendo o conteúdo esperado.
 
 >[!TAB Canal da Web]
 
-Visite a página e inspecione a guia de rede, ou verifique a carga de resposta do Edge na seção **[!UICONTROL Edge Delivery]** da sessão [Assurance](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+Visite a página e inspecione a guia de rede, ou verifique a carga de resposta do Edge na seção **[!UICONTROL Edge Delivery]** da sessão [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 >[!TAB Canal de experiência baseado em código]
 
-Execute uma solicitação de curl usando a [API do Adobe](https://developer.adobe.com/data-collection-apis/docs/api/) e verifique a carga de resposta do Edge na seção **[!UICONTROL Edge Delivery]** da sessão [Assurance](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+Execute uma solicitação de curl usando a [API do Adobe](https://developer.adobe.com/data-collection-apis/docs/api) e verifique a carga de resposta do Edge na seção **[!UICONTROL Edge Delivery]** da sessão [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -129,7 +129,7 @@ Para depurar o comportamento do Edge Network, siga as etapas abaixo.
 
    Você pode verificar novamente se o segmento **joai** está presente na exibição do perfil do servidor de entrega do Edge Network, abrindo o elemento **segmentsMap** da seção Perfil e procurando a presença da ID de segmento **joai**.
 
-1. Se o servidor de entrega do Edge Network não exibir o perfil como estando no segmento **joai** relevante, vá para a próxima etapa.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Se o servidor de entrega do Edge Network não exibir o perfil como estando no segmento **joai** relevante, vá para a próxima etapa.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### Etapa 3: verifique se a associação de público-alvo &quot;joai&quot; se propagou para a rede de borda {#step-3}
 
@@ -216,7 +216,7 @@ Siga as mesmas etapas de depuração do [Cenário 1](#debugging-steps) para veri
 <!--
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=pt-BR)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 -->

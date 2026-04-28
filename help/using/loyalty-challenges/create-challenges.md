@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1828'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 * [Acessar e gerenciar desafios e tarefas](access-loyalty-challenges.md)
 * **Criar desafios** ◀︎ **Você está aqui**
 * [Criar tarefas](create-tasks.md)
-* [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -221,7 +221,7 @@ Para configurar cartões de conteúdo para seu desafio:
 
 1. Navegue até a guia **[!UICONTROL Conteúdo]** e digite um **[!UICONTROL Nome]** para o cartão de conteúdo.
 
-1. Selecione a **[!UICONTROL Configuração de canal]**. As configurações de canal contêm todos os parâmetros técnicos para enviar mensagens, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba mais sobre as configurações de canal](../configuration/channel-surfaces.md).
+1. Selecione a **[!UICONTROL Configuração de canal]**. As configurações de canal contêm todos os parâmetros técnicos para envio de mensagens, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba mais sobre as configurações de canal](../configuration/channel-surfaces.md).
 
 1. Selecione **[!UICONTROL Editar conteúdo]** para criar seu cartão de conteúdo. [Saiba como criar e personalizar cartões de conteúdo](../content-card/design-content-card.md).
 

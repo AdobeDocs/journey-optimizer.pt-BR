@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '641'
 ht-degree: 1%
 
 ---
@@ -27,15 +27,15 @@ Na seção **[!UICONTROL Layout do cartão de conteúdo]**, escolha uma das trê
 
 * **[!UICONTROL Imagem pequena]**: exibe uma imagem compacta junto com o texto, ideal para mensagens em que o conteúdo tem prioridade sobre as imagens.
 
-  Consulte a Documentação do Adobe Developer [para iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) e [para Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/) para saber mais.
+  Consulte a Documentação do Adobe Developer [para iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template) e [para Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate) para saber mais.
 
 * **[!UICONTROL Imagem grande]**: apresenta uma imagem proeminente acima ou ao lado do texto, tornando as exibições o foco principal da mensagem.
 
-  Consulte a Documentação do Adobe Developer [para iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) e [para Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/) para saber mais.
+  Consulte a Documentação do Adobe Developer [para iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template) e [para Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate) para saber mais.
 
 * **[!UICONTROL Somente imagem]**: mostra a imagem sem o texto de acompanhamento, perfeita para mensagens orientadas por visuais ou imagens autônomas.
 
-  Consulte a Documentação do Adobe Developer [para iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) e [para Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/) para saber mais.
+  Consulte a Documentação do Adobe Developer [para iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template) e [para Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate) para saber mais.
 
 ## Guia Conteúdo {#content-tab}
 
