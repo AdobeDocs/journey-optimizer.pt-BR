@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 27%
+source-wordcount: '707'
+ht-degree: 33%
 
 ---
 
@@ -43,14 +43,14 @@ ht-degree: 27%
 >title="Selecionar atributos de decisão do catálogo"
 >abstract="Os atributos de decisão são armazenados no esquema do catálogo. Selecione um atributo que deseja usar aqui no catálogo selecionado."
 
-As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo a ser entregue para cada membro do público. O objetivo é selecionar as melhores ofertas para cada perfil, enquanto a criação de campanha/jornada permite indicar como os itens de decisão selecionados devem ser apresentados, incluindo quais atributos de item devem ser incluídos na mensagem.
+As políticas de decisão são containers para suas ofertas que utilizam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo a ser entregue a cada membro do público-alvo. O objetivo é selecionar as melhores ofertas para cada perfil, enquanto a criação de campanha/jornada permite indicar como os itens de decisão selecionados devem ser apresentados, incluindo quais atributos de item devem ser incluídos na mensagem.
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
 ## Medidas de proteção e limitações
 
 * **Canais com suporte** - As políticas de decisão estão disponíveis para Experiência baseada em código, SMS, notificações por push e email.
-* **Requisito do SDK para notificações por push** - A Experience Decisioning com notificações por push requer uma versão específica do Mobile SDK. Antes de implementar este recurso, verifique as [notas de versão](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} para identificar a versão necessária e se você atualizou adequadamente. Você também pode exibir todas as versões do SDK disponíveis para sua plataforma [nesta seção](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
+* **Requisito do SDK para notificações por push** - A Experience Decisioning com notificações por push requer uma versão específica do Mobile SDK. Antes de implementar este recurso, verifique as [notas de versão](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} para identificar a versão necessária e se você atualizou adequadamente. Você também pode exibir todas as versões do SDK disponíveis para sua plataforma [nesta seção](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 * **Tipo de rastreamento e links** - Para rastrear links gerados pela decisão, defina-os no esquema como &quot;Assets de decisão&quot;. Os links baseados em atributos não são rastreáveis.
 * **Aninhamento da política de decisão em emails** - Não é possível aninhar várias políticas de decisão em um componente de email principal que já tenha uma política de decisão associada.
 * **jornadas/campanhas duplicadas com decisão** - Se você duplicar uma jornada ou campanha que inclui uma política de decisão, a versão duplicada fará referência ao email original ou à experiência baseada em código, causando erros. Sempre reconfigure a política de decisão após a duplicação.

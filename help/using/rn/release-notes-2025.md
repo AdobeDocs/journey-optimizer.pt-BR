@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '9005'
+source-wordcount: '9308'
 ht-degree: 99%
 
 ---
@@ -209,13 +209,13 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Mensagens de alta taxa de transferência para campanhas de email acionadas por API</strong><br/></th>
+<th><strong>High throughput messaging for API-triggered email campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Um novo modo de mensagens transacionais de alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Esse modo também é compatível com mensagens transacionais sem referência ou criação de perfis de clientes, como check-out de convidado, confirmação de pedido, redefinições de senha, notificações de segurança e outras notificações operacionais/de serviço.</p>
+<p>A new high throughput transactional messaging mode is available in API-triggered campaigns. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Esse modo também é compatível com mensagens transacionais sem referência ou criação de perfis de clientes, como check-out de convidado, confirmação de pedido, redefinições de senha, notificações de segurança e outras notificações operacionais/de serviço.</p>
 <p>Esse recurso está disponível somente para o canal de email e para organizações que adquiriram a oferta complementar de mensagens transacionais com alta taxa de transferência da Adobe. Entre em contato com o representante da Adobe para obter mais informações.</p>
 <p>Para obter mais informações, consulte a <a href="../campaigns/api-triggered-high-throughput.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 22 de outubro de 2025</p>
@@ -333,7 +333,7 @@ table>
 <tr>
 <td>
 <p>Uma nova API do Journey Optimizer agora está disponível para recuperar jornadas e seus objetos associados, como campanhas e superfícies.</p>
-<p>Para mais informações, consulte a <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">documentação detalhada</a></p>
+<p>Para mais informações, consulte a <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve">documentação detalhada</a></p>
 <p>Data de disponibilidade: 25 de setembro de 2025</p>
 </td>
 </tr>
@@ -581,13 +581,13 @@ You can now use AI models to optimize the best content in your email through the
 
 ### Aprimoramentos {#sept-25-9-improvements}
 
-* **Suporte de Webhook para campanhas acionadas por API**\
-  As campanhas acionadas por API agora oferecem suporte a webhooks. Configure um URL de webhook para receber atualizações de status em tempo real para cada mensagem, melhorando a observabilidade e permitindo monitoramento e automação contínuos. [Leia mais](../configuration/feedback-webhooks.md)
+* **Webhook support for API-triggered campaigns**\
+  API-triggered campaigns now support webhooks. Configure um URL de webhook para receber atualizações de status em tempo real para cada mensagem, melhorando a observabilidade e permitindo monitoramento e automação contínuos. [Leia mais](../configuration/feedback-webhooks.md)
 
   Data de disponibilidade: 29 de setembro de 2025
 
-* **Suporte a mTLS para Canal de SMS**
-Ao configurar um provedor de SMS personalizado, agora há a opção de habilitar a autenticação TLS mútua (mTLS), que exige que o cliente e o servidor confirmem as identidades um do outro antes que uma conexão segura seja estabelecida. [Leia mais](../sms/sms-configuration-custom.md) - Data de disponibilidade: 23 de setembro de 2025
+* **Suporte mTLS para Canal SMS**
+When setting up a custom SMS provider, you now have the option to enable mutual TLS (mTLS) authentication, which requires both the client and the server to confirm each other&#39;s identities before a secure connection is established. [Leia mais](../sms/sms-configuration-custom.md) - Data de disponibilidade: 23 de setembro de 2025
 
 * **Esquemas relacionais**\
   Agora é possível usar esquemas relacionais para atender necessidades de modelagem relacional em campanhas orquestradas. [Leia mais](../orchestrated/gs-schemas.md) - Data de disponibilidade: 23 de setembro de 2025
@@ -1001,7 +1001,7 @@ Para mais informações, consulte a <a href="../experience-decisioning/create-de
 <table>
 <thead>
 <tr>
-<th><strong>Canal LINE </strong><br/></th>
+<th><strong>Canal LINE</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1083,12 +1083,12 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
    * **Reorganização do inventário de campanhas**: campanhas programadas e acionadas por API agora são divididas em guias separadas no inventário de campanhas para facilitar a navegação e o gerenciamento.
 
-[Saiba mais](../campaigns/manage-campaigns.md)
+  [Saiba mais](../campaigns/manage-campaigns.md)
 
 * **Gerenciamento de dados**
    * **Atualização de conjuntos de dados do sistema de gestão de decisões**: as ofertas personalizadas e substitutas excluídas agora são marcadas como arquivadas nos conjuntos de dados “decision_object_repository_personalized_offers” e “decision_object_repository_fallback_offers”. Os registros existentes no conjunto de dados não são alterados.
 
-[Saiba mais](../offers/export-catalog/access-dataset.md)
+  [Saiba mais](../offers/export-catalog/access-dataset.md)
 
 * **Jornadas**
    * **Aprimoramentos das ferramentas de sandbox da jornada**: ao copiar jornadas em várias sandboxes com os recursos de exportação e importação de pacotes, os seguintes recursos também estão disponíveis:
@@ -1096,7 +1096,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
       * Copiar um evento independentemente de uma jornada
       * Detectar relações de grupos de campos/fontes de dados, vinculando-os no destino, se existirem, ou criando-os, se não existirem.
 
-[Saiba mais](../configuration/copy-objects-to-sandbox.md)
+  [Saiba mais](../configuration/copy-objects-to-sandbox.md)
 
 * **Canal: no aplicativo**
    * **Pares de chave/valor no aplicativo**: com mensagens no aplicativo, é possível definir pares de chave e valor para incluir variáveis personalizadas no conteúdo da mensagem. Esses pares de valor e chave permitem transmitir dados adicionais com base na sua configuração e no caso de uso específicos. [Leia mais](../in-app/design-in-app.md)
@@ -1108,7 +1108,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
       * Ignorar mensagem se: condições que ocultam temporariamente o cartão de conteúdo. Ele pode reaparecer se as condições de exibição forem satisfeitas novamente.
       * Desqualificar mensagem se: condições que impedem permanentemente que o cartão de conteúdo seja mostrado novamente.
 
-[Saiba mais](../content-card/design-content-card.md)
+     [Saiba mais](../content-card/design-content-card.md)
 
 * **Decisão**
    * **APIs das ferramentas de migração**: a equipe do Journey Optimizer está desenvolvendo APIs das ferramentas de migração para migrar entidades da gestão de decisões para a tomada de decisão. Essas ferramentas permitem uma migração fluida entre sandboxes com recursos de resolução de dependência e reversão. Se tiver interesse, entre em contato com o seu representante da Adobe.
@@ -1116,7 +1116,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 * **Personalização**
    * Uma nova função de ajuda, “SHA256”, foi adicionada ao editor de personalização. Essa função é usada para calcular e retornar o hash sha256 de uma string.
 
-[Saiba mais](../personalization/functions/string.md#sha256)
+  [Saiba mais](../personalization/functions/string.md#sha256)
 
 
 ## Notas de versão de junho de 2025 {#25-6-rn}
@@ -1327,7 +1327,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Atualização da API de execução de mensagem interativa** — Data de disponibilidade: 6 de junho de 2025
 
-  A API de execução de mensagem interativa agora permite excluir o cronograma da execução de campanhas futuras. [Leia mais](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+  A API de execução de mensagem interativa agora permite excluir o cronograma da execução de campanhas futuras. [Leia mais](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"}
 
 
 ## Notas de versão de maio de 2025 {#25-5-rn}
@@ -1454,7 +1454,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível acionar execuções diárias da jornada após a conclusão da segmentação em lote Essa opção agora está disponível em jornadas agendadas diariamente para todos os clientes. Ela permite definir uma janela de tempo de até 6 horas para aguardar os dados de público-alvo de processos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas. </p>
+<p>Agora é possível acionar execuções diárias da jornada após a conclusão da segmentação em lote Essa opção agora está disponível em jornadas agendadas diariamente para todos os clientes. Ela permite definir uma janela de tempo de até 6 horas para aguardar os dados de público-alvo de processos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas.</p>
 <p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>Para obter mais informações, consulte a <a href="../building-journeys/read-audience.md#schedule">documentação detalhada</a>.</p>
@@ -1646,7 +1646,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Canal LINE </strong><br/></th>
+<th><strong>Canal LINE</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1774,7 +1774,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Pontuação de alinhamento à marca (beta)</strong><br/></th>
+<th><strong>Pontuação de alinhamento da marca (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -2185,7 +2185,7 @@ As melhorias abaixo estão incluídas na atualização de fevereiro.
    * 90 dias para dados na loja de perfis
    * 13 meses para dados no data lake
 
-  Essa alteração será implementada nas sandboxes de clientes existentes em uma próxima fase.
+  Essa alteração será implementada nas sandboxes de clientes existentes em uma fase futura.
 
   Saiba mais sobre esta atualização nas [Perguntas frequentes dedicadas](../data/datasets-ttl.md#frequently-asked-questions).
 

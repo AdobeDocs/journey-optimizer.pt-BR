@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introdução aos desafios de fidelidade
-description: Saiba como criar e gerenciar desafios de fidelidade no Adobe Journey Optimizer para criar programas de fidelidade envolventes.
+description: Learn how to create and manage loyalty challenges in Adobe Journey Optimizer to build engaging loyalty programs.
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,24 +11,24 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '742'
 ht-degree: 4%
 
 ---
 
-# Introdução aos desafios de fidelidade {#get-started-loyalty-challenges}
+# Get started with loyalty challenges {#get-started-loyalty-challenges}
 
 >[!BEGINSHADEBOX]
 
 **Documentação de Desafios de Fidelidade:**
 
-* **Introdução aos desafios de fidelidade** ◀︎ **Você está aqui**
+* **Get started with Loyalty Challenges** ◀︎ **You are here**
 * [Acessar e gerenciar desafios e tarefas](access-loyalty-challenges.md)
 * [Criar desafios](create-challenges.md)
 * [Criar tarefas](create-tasks.md)
-* [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -41,23 +41,23 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="Desafios de fidelidade"
->abstract="Os desafios de fidelidade permitem criar programas de fidelidade envolventes e gamificados que impulsionam o comportamento do cliente e aprofundam os relacionamentos com a marca. Crie desafios que recompensem os clientes por ações específicas, desde fazer compras e escrever avaliações até se envolver com redes sociais e fazer referência a amigos."
+>abstract="Loyalty Challenges enable you to create engaging, gamified loyalty programs that drive customer behavior and deepen brand relationships. Build challenges that reward customers for specific actions—from making purchases and writing reviews to engaging on social media and referring friends."
 
-Os desafios de fidelidade permitem criar programas de fidelidade envolventes e gamificados que impulsionam o comportamento do cliente e aprofundam os relacionamentos com a marca. Crie desafios que recompensem os clientes por ações específicas, desde fazer compras e escrever avaliações até se envolver com redes sociais e fazer referência a amigos.
+Loyalty Challenges enable you to create engaging, gamified loyalty programs that drive customer behavior and deepen brand relationships. Build challenges that reward customers for specific actions—from making purchases and writing reviews to engaging on social media and referring friends.
 
-Com os desafios de fidelidade, você pode:
+With Loyalty Challenges, you can:
 
-* **Crie tipos de desafios flexíveis**: Crie desafios Padrão, Streak ou Sequenciais para atender às suas metas comerciais
-* **Configurar as recompensas estrategicamente**: entregar pontos nos marcos da tarefa ou após a conclusão completa para manter o engajamento
-* **Personalizar a experiência**: use cartões de conteúdo e mensagens multicanais para criar experiências imersivas e de marca
-* **Integre-se perfeitamente**: conecte-se com seus provedores de fidelidade existentes e aproveite os dados do Experience Platform
-* **Rastrear automaticamente**: monitore o progresso do cliente através de jornadas geradas automaticamente sem desenvolvimento personalizado
+* **Design flexible challenge types**: Create Standard, Streak, or Sequential challenges to match your business goals
+* **Configure rewards strategically**: Deliver points at task milestones or upon full completion to maintain engagement
+* **Personalize the experience**: Use content cards and multi-channel messaging to create immersive, branded experiences
+* **Integrate seamlessly**: Connect with your existing loyalty providers and leverage Experience Platform data
+* **Track automatically**: Monitor customer progress through auto-generated journeys without custom development
 
 ![](assets/challenges-gs.png)
 
-Você pode criar três tipos de experiências de desafio:
+You can create three types of challenge experiences:
 
-* **Desafios padrão**: os clientes concluem qualquer número especificado de tarefas em qualquer ordem. Use esse tipo quando quiser flexibilidade e vários caminhos para conclusão.\
+* **Standard challenges**: Customers complete any specified number of tasks in any order. Use esse tipo quando quiser flexibilidade e vários caminhos para conclusão.\
   *Exemplo: &quot;Desafio de Bem-Estar de Verão&quot; - Conclua 3 de 5 tarefas: compre produtos de saúde, compartilhe em redes sociais, indique um amigo, escreva uma avaliação ou participe de um evento virtual*
 
 * **Desafios em série**: os clientes concluem a mesma tarefa várias vezes consecutivamente. Use esse tipo para incentivar um comportamento consistente e repetido ao longo do tempo.\
@@ -117,13 +117,13 @@ Entre em contato com o administrador se não conseguir acessar o recurso ou prec
 
 +++Público-alvo
 
-Verifique se o público-alvo necessário existe no Adobe Experience Platform antes de criar seu desafio. Durante a configuração do desafio, você selecionará o público-alvo que define quais clientes estão qualificados para participar. [Saiba como trabalhar com públicos](../audience/about-audiences.md).
+Verifique se o público-alvo necessário existe no Adobe Experience Platform antes de criar seu desafio. During challenge configuration, you will select the audience that defines which customers are eligible to participate. [Learn how to work with audiences](../audience/about-audiences.md).
 
 +++
 
 ## Vamos nos aprofundar um pouco mais {#lets-dive-deeper}
 
-Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é hora de mergulhar nos detalhes. Explore os tópicos a seguir para acessar a interface, criar o primeiro desafio e definir as tarefas que os clientes concluirão.
+Now that you know what Loyalty Challenges are and how they work, it&#39;s time to dive into the details. Explore the following topics to access the interface, create your first challenge, and define the tasks your customers will complete.
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
@@ -135,7 +135,7 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
     <a href="access-loyalty-challenges.md"><strong>Acessar e gerenciar desafios e tarefas</strong></a>
     </div>
     <p>
-    <em>Saiba como acessar o inventário e gerenciar desafios e tarefas</em>
+    <em>Learn how to access the inventory and manage challenges and tasks</em>
     </p>
   </td>
   <td>
@@ -146,7 +146,7 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
     <a href="create-challenges.md"><strong>Criar desafios</strong></a>
     </div>
     <p>
-    <em>Saiba como criar e configurar seu primeiro desafio de fidelidade</em>
+    <em>Learn how to build and configure your first loyalty challenge</em>
     </p>
   </td>
   <td>
@@ -157,7 +157,7 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
     <a href="create-tasks.md"><strong>Criar tarefas</strong></a>
     </div>
     <p>
-    <em>Saiba como definir tarefas que os clientes concluem para desafios</em>
+    <em>Learn how to define tasks that customers complete for challenges</em>
     </p>
   </td>
 </tr>
@@ -165,4 +165,4 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
 
 ## Referência da API {#api-reference}
 
-Para gerenciar desafios de fidelidade de forma programática, use a [API de Desafios de Fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}. A API permite criar, atualizar e gerenciar desafios e tarefas por meio de endpoints REST.
+To manage loyalty challenges programmatically, use the [Loyalty Challenges API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}. The API lets you create, update, and manage challenges and tasks via REST endpoints.

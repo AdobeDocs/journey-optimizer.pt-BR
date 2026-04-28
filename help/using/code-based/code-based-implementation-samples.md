@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 3%
+source-wordcount: '1114'
+ht-degree: 7%
 
 ---
 
@@ -33,7 +33,7 @@ Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs 
 
 * As etapas [abaixo](#client-side-how) descrevem o processo de busca do conteúdo publicado na borda pelas jornadas e campanhas de experiência baseadas em código em uma implementação de exemplo do **Web SDK** e de exibição do conteúdo personalizado.
 
-* As etapas para implementar o canal baseado em código usando o **Mobile SDK** estão descritas em [este tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+* As etapas para implementar o canal baseado em código usando o **Mobile SDK** estão descritas em [este tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}.
 
   >[!NOTE]
   >
@@ -364,7 +364,7 @@ Ao usar diretamente a API do Edge Network para experiências baseadas em código
 
 To help you get started with implementing code-based experiences, refer to the comprehensive step-by-step tutorials below:
 
-* **Mobile SDK implementation**: Follow [this tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} to learn how to set up code-based experiences on mobile apps using the Adobe Experience Platform Mobile SDK.
+* **Mobile SDK implementation**: Follow [this tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"} to learn how to set up code-based experiences on mobile apps using the Adobe Experience Platform Mobile SDK.
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 

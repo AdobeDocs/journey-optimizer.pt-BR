@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1807'
-ht-degree: 20%
+source-wordcount: '1834'
+ht-degree: 23%
 
 ---
 
@@ -49,7 +49,7 @@ Por exemplo, digamos que você tenha definido uma regra de limitação ou limita
 
 >[!IMPORTANT]
 >
->**As regras de limitação** são configuradas no nível da sandbox para um terminal específico (a URL chamada), mas global para todas as jornadas dessa sandbox. O limite está disponível em fontes de dados e ações personalizadas.
+>As **regras de limite** são configuradas no nível da sandbox para um ponto de acesso específico (o URL chamado), porém, são globais para todas as jornadas dessa sandbox. O limite está disponível em fontes de dados e ações personalizadas.
 >
 >As **regras de limitação** são configuradas apenas em sandboxes de produção para um ponto de acesso específico, porém, são globais para todas as jornadas em todas as sandboxes. Você pode ter apenas uma configuração de limitação por organização. A limitação só está disponível em ações personalizadas.
 >
@@ -60,7 +60,7 @@ Para obter mais informações sobre como trabalhar com as APIs, consulte estas s
 * [API de limite](capping.md)
 * [API de limitação](throttling.md)
 
-Uma descrição detalhada das APIs está disponível na [documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)
+Uma descrição detalhada das APIs está disponível na [documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling)
 
 ### Capacidade de ações personalizadas e fontes de dados {#capacity}
 

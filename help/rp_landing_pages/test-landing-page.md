@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: testar, validar, aprovar, aprovação, controle-de-qualidade, qa, perfis-de-teste, personalização, renderização, verificação-de-spam, experimento-de-conteúdo, teste-a/b, detecção-de-conflitos, lista-de-seeds, provas, dados-de-amostra, fluxo-de-trabalho-de-aprovação, teste-de-email, fluxo-de-trabalho-de-validação
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '2328'
-ht-degree: 99%
+source-wordcount: '2419'
+ht-degree: 92%
 
 ---
 
@@ -232,7 +232,7 @@ A abordagem de teste correta depende do que você está criando e do que é nece
 
 **Para campanhas acionadas por API:**
 
-* Use a [API de simulação de campanhas](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} para acionar tarefas de prova de forma programática
+* Use a [API de simulação de campanhas](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} para acionar tarefas de prova de forma programática
 
 >[!TAB Teste de jornadas]
 
@@ -451,17 +451,17 @@ Entenda como os recursos de teste conectam-se uns com os outros e com os fluxos 
 
 +++**P: Quais são os testes necessários antes de iniciar uma campanha?**
 
-**Mínimo:** Visualização de conteúdo com perfis de teste + Verificação de pontuação de spam (email)
+**Mínimo:** Visualização de conteúdo com perfis de teste + verificação de pontuação de spam (email)
 **Recomendado:** + Renderização de email + Detecção de conflitos + Fluxo de trabalho de aprovação
-**Prática recomendada:** + Teste de dados de entrada de amostra + Listas de seeds + Experimento A/B (se estiver otimizando)
+**Prática recomendada:** + Teste de dados de entrada de amostra + Listas de propagação + Experimento A/B (se estiver otimizando)
 
 +++
 
 +++**P: Como faço para testar a personalização sem criar muitos perfis de teste?**
 
-**Solução primária:** use [dados de entrada de amostra](../using/test-approve/simulate-sample-input.md) com arquivos CSV/JSON (suporta até 30 variantes)
-**Alternativa:** crie de 3 a 5 [perfis de teste](../using/audience/creating-test-profiles.md) representativos que abrangem segmentos chave
-**Ferramenta de aprendizado:** experimente primeiro no [playground de personalização](../using/personalization/personalize.md#playground)
+**Solução primária:** Use [dados de entrada de exemplo](../using/test-approve/simulate-sample-input.md) com arquivos CSV/JSON (suporta até 30 variantes)
+**Alternativa:** Crie de 3 a 5 [perfis de teste](../using/audience/creating-test-profiles.md) representativos que abrangem segmentos-chave
+**Ferramenta de aprendizado:** Experimente primeiro em [playground de personalização](../using/personalization/personalize.md#playground)
 
 +++
 
@@ -475,26 +475,26 @@ Entenda como os recursos de teste conectam-se uns com os outros e com os fluxos 
 
 +++**P: Posso testar jornadas no status produção/ativa?**
 
-**Modo de teste:** não - somente jornadas de rascunho
-**Execução de teste:** sim - funciona em qualquer status de jornada
-**Visualização de conteúdo:** sim - visualize mensagens individuais a qualquer momento
-**Solução alternativa:** duplique a jornada ativa como rascunho para validação completa no modo de teste
+**Modo de teste:** Não - somente jornadas de rascunho
+**Execução sem erros:** Sim - funciona em qualquer status de jornada
+**Visualização de conteúdo:** Sim - visualizar mensagens individuais a qualquer momento
+**Solução alternativa:** duplicar jornada ao vivo para rascunho para validação do modo de teste completo
 
 +++
 
 +++**P: Quais recursos de teste exigem integrações externas?**
 
-**Renderização de email:** requer integração Litmus (licença separada)
-**Todos os outros:** integrado ao Journey Optimizer, sem a exigência de integrações adicionais
-**Observação:** perfis de teste exigem o Serviço de perfil do cliente em tempo real (incluído)
+**Renderização de email:** Requer integração Litmus (licença separada)
+**Todos os outros:** Integrado ao Journey Optimizer, sem necessidade de integrações adicionais
+**Observação:** perfis de teste exigem o Serviço de Perfil do Cliente em Tempo Real (incluído)
 
 +++
 
 +++**P: Como testar campanhas acionadas por API?**
 
-**Opção 1:** Use a [API de simulação de campanha](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} para testes programáticos
-**Opção 2:** Visualize conteúdo com perfis de teste na interface
-**Opção 3:** Envie provas para testar endereços de email
+**Opção 1:** Use a [API de Simulação de Campanha](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} para testes programáticos
+**Opção 2:** Visualizar conteúdo com perfis de teste na interface
+**Opção 3:** Enviar provas para testar endereços de email
 **Prática recomendada:** combine todos os três para obter uma validação abrangente
 
 +++

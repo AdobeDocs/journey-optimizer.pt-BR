@@ -6,10 +6,10 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 5%
+source-wordcount: '1143'
+ht-degree: 4%
 
 ---
 
@@ -55,58 +55,58 @@ As permissões típicas incluem:
 
 ### Preparar sua sandbox de destino {#target-sandbox-preparation}
 
-Antes de executar uma migração, verifique se a sandbox de destino está configurada corretamente:
+Before running a migration, ensure your target sandbox is properly configured:
 
-* **Atributos** - Verifique se os atributos de perfil e os atributos de contexto necessários existem na sandbox de destino ou prepare mapeamentos para eles.
-* **Segmentos** - Verifique se os segmentos necessários existem na sandbox de destino ou planeje mapeá-los usando namespace e ID.
-* **Conjunto de dados** - Identifique um nome de conjunto de dados a ser usado para a migração (`dependency.datasetName`).
-* **Sequência de dados** - Decida se a migração deve criar uma sequência de dados (`createDataStream`).
+* **Attributes** - Verify that required profile attributes and context attributes exist in the target sandbox, or prepare mappings for them.
+* **Segments** - Ensure required segments exist in the target sandbox, or plan to map them using namespace and ID.
+* **Dataset** - Identify a dataset name to use for the migration (`dependency.datasetName`).
+* **Datastream** - Decide whether the migration should create a datastream (`createDataStream`).
 
-Para obter mais informações sobre o gerenciamento de sandboxes, consulte [Usar e atribuir sandboxes](../administration/sandboxes.md).
+For more information about sandbox management, refer to [Use and assign sandboxes](../administration/sandboxes.md).
 
 ## Noções básicas sobre API {#api-basics}
 
-### URL básica {#base-url}
+### URL base {#base-url}
 
-Use o seguinte URL base:
+Use the following base URL:
 
-* **Produção**: `https://decisioning-migration.adobe.io`
+* **Production**: `https://decisioning-migration.adobe.io`
   <!--* **Staging**: `https://decisioning-migration-stage.adobe.io`-->
 
 ### Autenticação {#authentication}
 
-Todas as solicitações de API exigem os seguintes cabeçalhos:
+All API requests require the following headers:
 
 * `Authorization: Bearer <IMS_ACCESS_TOKEN>`
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-Para obter instruções detalhadas sobre como configurar a autenticação, consulte o [guia de autenticação do Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+For detailed instructions on setting up authentication, refer to the [Journey Optimizer authentication guide](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
 
-### Modelo de fluxo de trabalho {#workflow-model}
+### Workflow model {#workflow-model}
 
-Cada chamada de API cria ou recupera um recurso de workflow. Workflows são operações assíncronas que controlam o progresso e os resultados de tarefas de migração.
+Each API call creates or retrieves a workflow resource. Workflows are asynchronous operations that track the progress and results of migration tasks.
 
-Um workflow tem as seguintes propriedades:
+A workflow has the following properties:
 
-* `id` - Identificador de fluxo de trabalho exclusivo (UUID)
-* `status` - Status atual do fluxo de trabalho: `New`, `Running`, `Completed` ou `Failed`
-* `result` - Saída de fluxo de trabalho quando concluído (inclui resultados e avisos de migração)
-* `errors` - Detalhes de erros estruturados quando com falha
-* `_links.self` - URL do fluxo de trabalho para recuperar o status
+* `id` - Unique workflow identifier (UUID)
+* `status` - Current workflow status: `New`, `Running`, `Completed`, or `Failed`
+* `result` - Workflow output when completed (includes migration results and warnings)
+* `errors` - Structured error details when failed
+* `_links.self` - Workflow URL for retrieving status
   <!--* `_etag` - Version identifier used for delete operations (service users only)-->
 
-## Fluxo de trabalho de migração {#migration-workflow}
+## Migration workflow {#migration-workflow}
 
-O processo de migração consiste em duas etapas principais: analisar dependências e executar a migração. Siga estas etapas para garantir uma migração bem-sucedida.
+The migration process consists of two main steps: analyzing dependencies and executing the migration. Follow these steps to ensure a successful migration.
 
-### Etapa 1: Analisar dependências {#analyze-dependencies}
+### Step 1: Analyze dependencies {#analyze-dependencies}
 
-Antes de migrar, use o fluxo de trabalho de dependência para identificar o que precisa ser mapeado da Gestão de decisões para a Decisão na sandbox de destino. Essa análise ajuda a entender as relações entre objetos e preparar os mapeamentos necessários.
+Before migrating, use the dependency workflow to identify what needs to be mapped from Decision management to Decisioning in your target sandbox. This analysis helps you understand the relationships between objects and prepare the necessary mappings.
 
-#### Criar um fluxo de trabalho de dependência {#create-dependency-workflow}
+#### Create a dependency workflow {#create-dependency-workflow}
 
-Use a chamada de API a seguir para criar um fluxo de trabalho de análise de dependência.
+Use the following API call to create a dependency analysis workflow.
 
 **Formato da API**
 
@@ -114,9 +114,9 @@ Use a chamada de API a seguir para criar um fluxo de trabalho de análise de dep
 POST /workflows/generate-dependencies
 ```
 
-**Dependência em nível de sandbox (recomendada primeiro)**
+**Sandbox-level dependency (recommended first)**
 
-Comece com uma análise em nível de sandbox para obter uma visualização completa de todas as dependências:
+Start with a sandbox-level analysis to get a complete view of all dependencies:
 
 ```shell
 curl --request POST \
@@ -132,17 +132,17 @@ curl --request POST \
   }'
 ```
 
-**Dependência no nível da oferta**
+**Offer-level dependency**
 
-Para analisar dependências somente para ofertas específicas, defina `requestLevel: "offer"` e forneça uma matriz `offersList` com as IDs de oferta que você deseja analisar.
+To analyze dependencies for specific offers only, set `requestLevel: "offer"` and provide an `offersList` array with the offer IDs you want to analyze.
 
-**Dependência de nível de decisão**
+**Decision-level dependency**
 
-Para analisar dependências somente para decisões específicas, defina `requestLevel: "decision"` e forneça uma matriz `decisionsList` com as IDs de decisão que você deseja analisar.
+To analyze dependencies for specific decisions only, set `requestLevel: "decision"` and provide a `decisionsList` array with the decision IDs you want to analyze.
 
-#### Verificar status do fluxo de trabalho de dependência {#poll-dependency-status}
+#### Check dependency workflow status {#poll-dependency-status}
 
-Consulte o fluxo de trabalho de dependência para verificar quando a análise é concluída.
+Poll the dependency workflow to check when the analysis is complete.
 
 **Formato da API**
 
@@ -159,20 +159,20 @@ curl --request GET \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
-Quando o campo `status` mostra `Completed`, a análise de dependência está pronta. Use a saída do fluxo de trabalho para criar os mapeamentos de dependência de migração:
+When the `status` field shows `Completed`, the dependency analysis is ready. Use the workflow output to build your migration dependency mappings:
 
-* **profileAttributes** - Mapeia atributos de perfil de origem para atributos de perfil de destino
-* **contextAttributes** - Mapeia atributos de contexto de origem para atributos de contexto de destino
-* **segmentos** - Mapeia chaves de segmento de origem para identificadores de segmento de destino (`{namespace, id}`)
-* **datasetName** - Especifica o nome do conjunto de dados de destino para a migração
+* **profileAttributes** - Maps source profile attributes to target profile attributes
+* **contextAttributes** - Maps source context attributes to target context attributes
+* **segments** - Maps source segment keys to target segment identifiers (`{namespace, id}`)
+* **datasetName** - Specifies the target dataset name for the migration
 
-### Etapa 2: Executar a migração {#execute-migration}
+### Step 2: Execute the migration {#execute-migration}
 
-Depois de analisar as dependências e preparar os mapeamentos, você pode executar a migração.
+Once you have analyzed the dependencies and prepared your mappings, you can execute the migration.
 
-#### Criar um fluxo de trabalho de migração {#create-migration-workflow}
+#### Create a migration workflow {#create-migration-workflow}
 
-Use os mapeamentos de dependência da Etapa 1 para configurar e executar a migração.
+Use the dependency mappings from Step 1 to configure and execute your migration.
 
 **Formato da API**
 
@@ -180,9 +180,9 @@ Use os mapeamentos de dependência da Etapa 1 para configurar e executar a migra
 POST /workflows/migration
 ```
 
-**Migração no nível da sandbox**
+**Sandbox-level migration**
 
-Para migrar todos os objetos de decisão de uma sandbox para outra:
+To migrate all decisioning objects from one sandbox to another:
 
 ```shell
 curl --request POST \
@@ -214,9 +214,9 @@ curl --request POST \
   }'
 ```
 
-**Migração no nível da oferta**
+**Offer-level migration**
 
-Para migrar somente ofertas específicas, use `requestLevel: "offer"` e adicione uma matriz `offersList`:
+To migrate specific offers only, use `requestLevel: "offer"` and add an `offersList` array:
 
 ```json
 "offersList": ["offer-id-1", "offer-id-2"]

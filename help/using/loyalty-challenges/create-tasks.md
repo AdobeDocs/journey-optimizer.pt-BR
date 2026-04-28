@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criar tarefas para desafios de fidelidade
-description: Saiba como criar e configurar tarefas para desafios de fidelidade no Adobe Journey Optimizer.
+title: Create tasks for loyalty challenges
+description: Learn how to create and configure tasks for loyalty challenges in Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '815'
 ht-degree: 2%
 
 ---
@@ -27,8 +27,8 @@ ht-degree: 2%
 * [Introdução aos desafios de fidelidade](get-started.md)
 * [Acessar e gerenciar desafios e tarefas](access-loyalty-challenges.md)
 * [Criar desafios](create-challenges.md)
-* **Criar tarefas** ◀︎ **Você está aqui**
-* [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* **Create tasks** ◀︎ **You are here**
+* [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -36,24 +36,24 @@ ht-degree: 2%
 >
 >Este recurso está atualmente em **beta privado**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
 
-As tarefas definem as ações ou marcos específicos que os clientes devem concluir para ganhar recompensas em um desafio de fidelidade. Você pode configurar tipos de tarefa, quantidades e requisitos de produto para criar experiências de fidelidade envolventes e personalizadas.
+Tasks define the specific actions or milestones that customers must complete to earn rewards in a loyalty challenge. You can configure task types, quantities, and product requirements to create engaging and personalized loyalty experiences.
 
-Cada tarefa representa uma ação mensurável que contribui para a conclusão do desafio. As tarefas são componentes reutilizáveis que podem ser criados de forma independente e depois adicionados a um ou mais desafios, ou criados diretamente dentro de um desafio.
+Each task represents a measurable action that contributes toward challenge completion. Tasks are reusable components that can be created independently and then added to one or more challenges, or created directly within a challenge.
 
-## Criar uma tarefa {#create-task}
+## Create a task {#create-task}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
->title="Criar uma tarefa"
->abstract="Selecione uma atividade do cliente (Compra ou Gasto) e configure atributos específicos da atividade: quantidades ou valores, itens elegíveis e exclusões e limites opcionais, como gasto mínimo ou máximo de transações. No painel Propriedades, defina o nome e a descrição da tarefa."
+>title="Create a task"
+>abstract="Select a customer activity (Purchase or Spend), then configure activity-specific attributes: quantities or amounts, eligible items and exclusions, and optional limits such as minimum spend or maximum transactions. In the Properties pane, set the task name and description."
 
-É possível criar tarefas a partir de dois pontos de entrada. O processo de configuração é o mesmo, independentemente de onde você começa.
+You can create tasks from two entry points. The configuration process is the same regardless of where you start.
 
 >[!BEGINTABS]
 
->[!TAB Do inventário de tarefas]
+>[!TAB From the Tasks inventory]
 
-Selecione a guia **[!UICONTROL Tarefas]** e selecione **[!UICONTROL Criar tarefa]**. As tarefas criadas no inventário são salvas e disponibilizadas para reutilização em vários desafios.
+Select the **[!UICONTROL Tasks]** tab and select **[!UICONTROL Create Task]**. Tasks created from the inventory are saved and available for reuse across multiple challenges.
 
 ![](assets/task-create-inventory.png)
 

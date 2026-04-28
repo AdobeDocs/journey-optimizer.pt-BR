@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 50%
+source-wordcount: '828'
+ht-degree: 52%
 
 ---
 
@@ -76,7 +76,7 @@ A tabela abaixo lista alguns exemplos de definição de URI de superfície para 
 
 No [!DNL Journey Optimizer], o canal de experiência baseado em código oferece suporte a dois tipos de implementações de clientes:
 
-* Com base no [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"} para seus sites ou no [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} para seus aplicativos móveis;
+* Com base no [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"} para seus sites ou no [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation){target="_blank"} para seus aplicativos móveis;
 * Lado do servidor ou híbrido usando [APIs do AEP Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR){target="_blank"}.
 
 >[!NOTE]

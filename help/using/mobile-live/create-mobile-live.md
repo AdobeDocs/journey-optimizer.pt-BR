@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 3%
+source-wordcount: '421'
+ht-degree: 4%
 
 ---
 
@@ -56,7 +56,7 @@ Após definir a configuração móvel e implementar o Adobe Experience Platform 
 
    Copie também os identificadores da **[!UICONTROL ID da campanha]** para incluir em sua carga.
 
-   ➡️ Consulte a [Documentação de Campanhas acionadas por API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) para obter os requisitos de autenticação, incluindo tokens OAuth e chaves de API.
+   ➡️ Consulte a [Documentação de Campanhas acionadas por API](https://developer.adobe.com/journey-optimizer-apis/references/messaging) para obter os requisitos de autenticação, incluindo tokens OAuth e chaves de API.
 
    ![](assets/create-live-3.png)
 
@@ -110,7 +110,7 @@ Após definir a configuração móvel e implementar o Adobe Experience Platform 
 
    +++ Exemplo de uma carga para casos de uso de transmissão (campanha de marketing acionada por API)
 
-   Este exemplo de conteúdo é para campanhas baseadas em público usando o tipo de campanha **Marketing acionado por API**.
+   This payload example is for audience-based campaigns using **API-triggered Marketing** campaign type.
 
    ```json
    {
@@ -151,14 +151,14 @@ Após definir a configuração móvel e implementar o Adobe Experience Platform 
 
    +++
 
-Depois de projetar sua atividade Live, você pode acompanhar a medição do impacto da atividade Live com [relatórios internos](../reports/campaign-global-report-cja-activity.md).
+After designing your Live activity, you can track measuring the impact of your Live activity with [built-in reports](../reports/campaign-global-report-cja-activity.md).
 
 >[!TIP]
 >
->Se a sua atividade do Live não estiver aparecendo ou sendo atualizada conforme esperado, consulte [Solucionar problemas de atividades do Live](troubleshoot-mobile-live.md) para obter uma orientação passo a passo sobre depuração.
+>If your Live activity is not appearing or updating as expected, see [Troubleshoot Live activities](troubleshoot-mobile-live.md) for step-by-step debugging guidance.
 
 ## Vídeo tutorial
 
-Saiba como configurar as atividades do iOS Live com o Adobe Journey Optimizer para fornecer atualizações avançadas em tempo real na Tela de bloqueio do iPhone e no Dynamic Island.
+Discover how to configure iOS Live activities with Adobe Journey Optimizer to deliver rich, real-time updates on the iPhone Lock Screen and Dynamic Island.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3479869?captions=por_br)

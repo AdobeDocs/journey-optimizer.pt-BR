@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: 31fcdf7e0cb63df24b01be13b2a4a8822768e1b7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 2%
+source-wordcount: '543'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Use a guia **[!UICONTROL Público-alvo]** para definir o público da campanha.
 >
 >O uso de públicos-alvo e atributos da [composição de público-alvo](../audience/get-started-audience-orchestration.md) não está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
 
-**Para campanhas acionadas por API transacional**, os perfis direcionados precisam ser definidos na chamada de API. Uma única chamada de API suporta até 20 recipients únicos. Cada recipient deve ter uma ID de usuário exclusiva. IDs de usuário duplicadas não são permitidas. Saiba mais na [Documentação da API de execução de mensagem interativa](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
+**Para campanhas acionadas por API transacional**, os perfis direcionados precisam ser definidos na chamada de API. Uma única chamada de API suporta até 20 recipients únicos. Cada recipient deve ter uma ID de usuário exclusiva. IDs de usuário duplicadas não são permitidas. Saiba mais na [Documentação da API de execução de mensagem interativa](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMUnitaryMessageExecution){target="_blank"}
 
 ## Selecione o tipo de identidade
 
@@ -41,26 +41,26 @@ Somente um tipo de identidade é permitido por campanha. Indivíduos pertencente
 
 Em alguns casos, pode ser necessário enviar mensagens transacionais para perfis que não existem no sistema. Por exemplo, se um usuário desconhecido tentar redefinir a senha no seu site. Quando um perfil não existe no banco de dados, o Journey Optimizer permite que você o crie automaticamente ao executar a campanha para permitir o envio da mensagem para esse perfil.
 
-Para ativar a criação de perfil na execução da campanha, alterne a opção **[!UICONTROL Criar novos perfis]** para ativada. Se essa opção estiver desativada, perfis desconhecidos serão rejeitados para qualquer envio e a chamada à API falhará.
+Para ativar a criação de perfil na execução da campanha, alterne a opção **[!UICONTROL Criar novos perfis]** para ativada. If this option is disabled, unknown profiles will be rejected for any sending and the API call will fail.
 
 ![](assets/api-triggered-create-profile.png)
 
 >[!IMPORTANT]
 >
->Esta opção é fornecida para **criação de perfil de volume muito pequeno** em um caso de uso de envio transacional de grande volume, com grande parte dos perfis já existentes na plataforma.
+>This option is provided for **very small volume profile creation** in a large volume transactional sending use case, with bulk of profiles already existing in platform.
 >
->Perfis desconhecidos são criados no **Conjunto de Dados de Perfil de Mensagens Interativas do AJO**, em três namespaces padrão (email, telefone e ECID), respectivamente, para cada canal de saída (Email, SMS e Push). No entanto, se você estiver usando um namespace personalizado, a identidade será criada com o mesmo namespace personalizado.
+>Unknown profiles are created in the **AJO Interactive Messaging Profile Dataset** dataset, in three default namespace (email, phone and ECID) respectively for each outbound channels (Email, SMS and Push). However, if you are using a custom namespace, the identity is created with the same custom namespace.
 >
->A criação de perfil na execução não está disponível para [campanhas de Alta Taxa de Transferência](../campaigns/api-triggered-high-throughput.md), pois esse modo não depende de perfis do Adobe. O sistema não verificará se os perfis existem ou não.
+>Profile creation at execution is not available for [High Throughput campaigns](../campaigns/api-triggered-high-throughput.md), as this mode does not rely on Adobe profiles. The system will not check whether the profiles exist or not.
 
 ## Habilitar webhooks {#webhook}
 
-Para campanhas acionadas por API transacional, é possível habilitar webhooks a receberem feedback em tempo real sobre o status de execução de suas mensagens. Para fazer isso, alterne a opção **[!UICONTROL Habilitar webhooks]** para enviar eventos de status de entrega para um webhook configurado.
+For Transactional API triggered campaigns, you can enable webhooks to receive real-time feedback on the execution status of your messages. To do this, toggle the **[!UICONTROL Enable webhooks]** option to send delivery status events to a configured webhook.
 
 ![](assets/api-triggered-webhook.png)
 
-As configurações do Webhook são gerenciadas centralmente no menu **[!UICONTROL Administração]** / **[!UICONTROL Canais]** / **[!UICONTROL Webhook de feedback]**. A partir daí, os administradores podem criar e editar endpoints do webhook. [Saiba como criar webhooks de comentários](../configuration/feedback-webhooks.md)
+Webhook configurations are managed centrally in the **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Feedback Webhook]** menu. From there, administrators can create and edit webhook endpoints. [Learn how to create Feedback Webhooks](../configuration/feedback-webhooks.md)
 
 ## Próximas etapas {#next}
 
-Quando a configuração e o conteúdo da campanha estiverem prontos, você poderá agendar a execução. [Saiba mais](api-triggered-campaign-schedule.md)
+Once your campaign configuration and content are ready, you can schedule its execution. [Saiba mais](api-triggered-campaign-schedule.md)

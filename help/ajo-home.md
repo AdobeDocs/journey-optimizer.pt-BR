@@ -5,10 +5,10 @@ title: Documentação do Adobe Journey Optimizer
 description: Documentação do Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 91%
+source-wordcount: '638'
+ht-degree: 85%
 
 ---
 
@@ -43,9 +43,9 @@ Saiba como usar a sintaxe de iteração para exibir listas dinâmicas de dados d
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/personalization/iterate-contextual-data.md)
 
 
->[!TAB Orquestração de campanhas]       
+>[!TAB Orquestração de campanhas]
 
-O Journey Optimizer agora inclui a **Orquestração de campanha**, um novo recurso criado especificamente para campanhas em lotes iniciadas pela marca. 
+O Journey Optimizer agora inclui a **Orquestração de campanha**, um novo recurso criado especificamente para campanhas em lotes iniciadas pela marca.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
@@ -136,11 +136,11 @@ Saiba como priorizar e gerenciar conflitos de comunicação em campanhas e jorna
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR" target="_blank">Tutoriais</a> – <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrição do produto</a> – <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Visão geral de segurança (PDF)</a> – <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">Referência de API</a> – <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Dicionário de esquema do Journey Optimizer</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR" target="_blank">Tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrição do produto</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Visão geral de segurança (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">Referência de APIs</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Dicionário de Esquemas do Journey Optimizer</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR" target="_blank">Documentação</a> — <a href="https://www.adobe.com/br/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos de desenvolvedores</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR" target="_blank">Documentação</a> - <a href="https://www.adobe.com/br/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos de desenvolvedores</a>
 </td>
 </tr></table>
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 19%
+source-wordcount: '346'
+ht-degree: 21%
 
 ---
 
@@ -31,7 +31,7 @@ Um fragmento é um componente reutilizável que pode ser referenciado em um ou m
 
 Para aproveitar ao máximo os fragmentos:
 
-* **Criar seus próprios fragmentos**: crie fragmentos visuais ou de expressão, do zero ou salvando o conteúdo como fragmento. [Saiba como criar um fragmento](create-fragments.md). Além disso, você pode aproveitar a **API REST de conteúdo** do Journey Optimizer para gerenciar fragmentos de conteúdo. Para obter mais informações, consulte a [documentação das APIs do Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+* **Criar seus próprios fragmentos**: crie fragmentos visuais ou de expressão, do zero ou salvando o conteúdo como fragmento. [Saiba como criar um fragmento](create-fragments.md). Além disso, você pode aproveitar a **API REST de conteúdo** do Journey Optimizer para gerenciar fragmentos de conteúdo. Para obter mais informações, consulte a [documentação das APIs do Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}.
 * **Reutilizar os fragmentos:** Use-os quantas vezes forem necessárias no conteúdo. Consulte [Adicionar fragmentos visuais](../email/use-visual-fragments.md) e [Aproveitar fragmentos de expressão](../personalization/use-expression-fragments.md)
 
 ## Antes de começar {#fragment-prerequisites}
