@@ -146,7 +146,7 @@ Para preencher a lista de permissões, você também pode chamar a API de supres
 
 Você pode executar as operações **Adicionar**, **Excluir** e **Obter**.
 
-Saiba mais sobre como fazer chamadas de API na documentação de referência das [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
+Saiba mais sobre como fazer chamadas de API na documentação de referência das [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=pt-BR){target="_blank"}.
 
 ## Baixar a lista de permissões {#download-allowed-list}
 
@@ -201,7 +201,7 @@ When the allowed list is [deactivated](#deactivate-allow-list), all the emails t
 
 ## Exclusion reporting {#reporting}
 
-When the allowed list is active, you can retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list. To do this, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} to make the API calls below.
+When the allowed list is active, you can retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list. To do this, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} to make the API calls below.
 
 To get the **number of emails** that were not sent because the recipients were not on the allowed list, use the following query:
 
