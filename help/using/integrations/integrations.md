@@ -10,10 +10,10 @@ level: Beginner
 keywords: integração
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: f40e030e7d14120cdbc118a8f93e2f752d713f6b
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 9%
+source-wordcount: '1227'
+ht-degree: 7%
 
 ---
 
@@ -134,6 +134,10 @@ Quando a repetição está habilitada, outras falhas seguem **três** tentativas
 
    ![](assets/external-integration-config-5.png)
 
+   >[!NOTE]
+   >
+   >A configuração **[!UICONTROL Carga de resposta]** define a resposta esperada para criação, incluindo qualquer esquema aplicado nessa etapa. Os profissionais de marketing podem fazer referência somente a campos expostos, os tokens para outros caminhos falham na validação no editor.
+
 1. Use **[!UICONTROL Enviar conexão de teste]** para validar a integração.
 
    Depois de validado, clique em **[!UICONTROL Ativar]**.
@@ -146,7 +150,14 @@ As chamadas respeitam a taxa de **limitação** que você configurou: o Journey 
 
 Cada mensagem em fila também carrega uma janela de validade (TTL). Se o processamento for atrasado e uma mensagem ultrapassar essa janela, o sistema **a descartará** e emitirá um evento **`MessageValidityExclusion`** para que o trabalho obsoleto seja liberado da fila e os recursos permaneçam disponíveis.
 
+
 ## Uso de integrações externas para personalização {#personalization}
+
+Antes de usar integrações externas para personalização, observe que o agendamento e o isolamento de chamadas de integração dependem do contexto de execução:
+
+* **Execução em lote** (campanhas em lote, campanhas orquestradas e campanhas de marketing acionadas por API): cada execução em lote opera em um ambiente dedicado e isolado. Portanto, as execuções em lote simultâneas que chamam sistemas externos não disputam ou obstruem uns aos outros.
+
+* **Execução unitária** (jornadas unitárias, jornadas em lote e campanhas transacionais acionadas por API): o tráfego de integração é isolado por sandbox de marca, portanto, uma API externa lenta para uma marca não atrasa outra. Em sua sandbox, as integrações simultâneas podem atrasar brevemente outras mensagens com backup em integração; cada mensagem é tentada por até 12 horas antes da expiração.
 
 Como profissional de marketing, você pode usar integrações configuradas para personalizar seu conteúdo. Siga estas etapas:
 
@@ -186,6 +197,10 @@ Como profissional de marketing, você pode usar integrações configuradas para 
 1. Depois que os atributos de integração forem definidos, você poderá usar os campos de integração no seu conteúdo para mensagens personalizadas clicando no ícone ![adicionar](assets/do-not-localize/Smock_Add_18_N.svg).
 
    ![](assets/external-integration-content-6.png)
+
+   >[!NOTE]
+   >
+   >Os tokens no modelo devem usar somente campos expostos pelo administrador na configuração de integração. Por exemplo, `{{weatherResponse.temperature}}` é válido quando `temperature` é exposto; `{{weatherResponse.humidity}}` é rejeitado no editor se `humidity` não foi exposto.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
