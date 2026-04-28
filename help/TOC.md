@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '3275'
-ht-degree: 91%
+source-wordcount: '3276'
+ht-degree: 90%
 
 ---
 
@@ -507,7 +507,7 @@ ht-degree: 91%
       + [Trabalhar com o GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + {hide-from-toc}[Trabalhar com integrações](using/integrations/integrations.md)
       + {hide-from-toc}[Introdução à integração de fornecedores](using/integrations/vendor-integration-gs.md)
-      + {hide-from-toc}[Fornecedores disponíveis](using/integrations/vendor-integration.md)
+      + {hide-from-toc}[Configurações de exemplo de fornecedor](using/integrations/vendor-integration.md)
       + {hide-from-toc}[Perguntas frequentes](using/integrations/vendor-integration-faq.md)
       + {hide-from-toc}[Trabalhar com ferramentas de IA via MCP](/help/using/integrations/ajo-mcp.md)
    + Assistente de IA para geração de conteúdo {#ai-assistant}
@@ -922,7 +922,7 @@ ht-degree: 91%
    + [Configuração de jornada](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [Introdução à configuração de jornadas](using/configuration/about-data-sources-events-actions.md)
    + Configuração de evento {#events-journeys}
-      + [Configuração de eventos](/help/rp_landing_pages/events-journeys-landing-page.md)
+      + [Configuração de evento](/help/rp_landing_pages/events-journeys-landing-page.md)
       + [Trabalhar com eventos de jornada](using/event/about-events.md)
       + [Configurar um evento unitário](using/event/about-creating.md)
       + [Sobre esquemas de ExperienceEvent](using/event/experience-event-schema.md)
