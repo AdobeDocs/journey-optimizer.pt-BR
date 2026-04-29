@@ -8,15 +8,14 @@ topic: Content Management, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-hide: true
-source-git-commit: 31fb00bc82b6bbc664c37beba263ce94851bf8bd
+source-git-commit: febf15cfead2f0a236de69bcdf0b2c2136e80f4a
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1445'
 ht-degree: 1%
 
 ---
 
-# Trabalhar com clientes MCP (Beta) {#ajo-mcp}
+# Trabalhar com clientes MCP {#ajo-mcp}
 
 A integração do MCP [!DNL Adobe Journey Optimizer] permite consultar campanhas e ofertas usando prompts em linguagem simples, sem gravar chamadas de API ou navegar nas telas dos produtos. Esta página explica como a integração funciona, o que você pode fazer com ela e como começar.
 
@@ -42,7 +41,7 @@ Ao usar o Adobe Journey Optimizer MCP Server (Beta) (&quot;Beta&quot;), você re
 
 As equipes de marketing e de experiência do cliente dependem cada vez mais de aplicativos baseados em bate-papo e ferramentas de desenvolvedor — como Anthropic Claude, OpenAI ChatGPT, Cursor e Microsoft Copilot Studio — para simplificar seu trabalho diário. Esses aplicativos oferecem suporte ao **Protocolo de Contexto de Modelo (MCP)**, um padrão aberto que permite que os aplicativos exponham ferramentas de back-end a grandes modelos de idioma (LLMs) de maneira uniforme.
 
-[!DNL Adobe Journey Optimizer] agora fornece um servidor MCP que exibe operações de campanha, fidelidade e sandbox diretamente dentro de qualquer aplicativo compatível com MCP. Com a integração do MCP [!DNL Adobe Journey Optimizer], diferentes personalidades podem colaborar pelos mesmos dados de orquestração — sem gravar consultas na API REST [!DNL Adobe Journey Optimizer] ou navegar por várias telas de interface do usuário. Os clientes podem descrever a intenção por conversação e permitir que o LLM chame as ferramentas de MCP apropriadas.
+[!DNL Adobe Journey Optimizer] agora fornece um servidor MCP que exibe operações de campanha e sandbox diretamente dentro de qualquer aplicativo compatível com MCP. Com a integração do MCP [!DNL Adobe Journey Optimizer], diferentes personalidades podem colaborar pelos mesmos dados de orquestração — sem gravar consultas na API REST [!DNL Adobe Journey Optimizer] ou navegar por várias telas de interface do usuário. Os clientes podem descrever a intenção por conversação e permitir que o LLM chame as ferramentas de MCP apropriadas.
 
 ## Principais recursos {#mcp-capabilities}
 
@@ -74,14 +73,14 @@ Os seguintes exemplos mostram como interagir com o servidor MCP [!DNL Adobe Jour
 
 | Meta | Exemplo de prompt |
 |---|---|
-| **Visão geral da campanha** | &quot;Mostrar todas as minhas campanhas do AJO&quot; / &quot;Quantas campanhas estão configuradas no AJO?&quot; |
-| **Auditoria de status** | &quot;Quais campanhas estão ativas no momento?&quot; / &quot;Listar campanhas pausadas ou interrompidas.&quot; |
-| **Detalhes da campanha** | &quot;Obtenha os detalhes completos da campanha [ID]&quot; / &quot;Mostre-me tudo configurado na campanha [ID].&quot; |
-| **Público-alvo e direcionamento** | &quot;Qual público-alvo é direcionado na campanha [ID]?&quot; / &quot;Quais regras de qualificação são definidas na campanha [ID]?&quot; |
-| **Agendamento e tempo** | &quot;Quando a campanha [ID] está agendada para execução?&quot; / &quot;A campanha [ID] é um envio ou recorrente único?&quot; |
-| **Solução de problemas** | &quot;Por que a campanha [ID] pode não estar sendo enviada?&quot; / &quot;Revise a configuração da campanha [ID] para qualquer problema.&quot; |
-| **Configuração de canais** | &quot;Quais predefinições de canal estão disponíveis na minha sandbox?&quot; / &quot;Mostre-me todas as minhas configurações de canal de email.&quot; |
-| **Auditoria de canal** | &quot;Quais configurações de canal estão ausentes ou incompletas?&quot; / &quot;Quantas configurações de canal eu tenho em todos os canais?&quot; |
+| **Visão geral da campanha** | Mostre todas as minhas campanhas do Journey Optimizer / Quantas campanhas estão configuradas no Journey Optimizer? |
+| **Auditoria de status** | Quais campanhas estão ativas no momento? / Liste todas as campanhas pausadas ou interrompidas. |
+| **Detalhes da campanha** | Obtenha os detalhes completos da campanha [ID] / Mostre-me tudo configurado na campanha [ID]. |
+| **Público-alvo e direcionamento** | Qual público-alvo é direcionado na campanha [ID]? / Quais regras de qualificação são definidas na campanha [ID]? |
+| **Agendamento e tempo** | Quando a campanha [ID] está agendada para ser executada? / A campanha [ID] é um envio único ou recorrente? |
+| **Solução de problemas** | Por que a campanha [ID] pode não estar sendo enviada? / Revise a configuração da campanha [ID] para quaisquer problemas. |
+| **Configuração de canal** | Quais predefinições de canal estão disponíveis na minha sandbox? / Mostre-me todas as minhas configurações de canal de email. |
+| **Auditoria de canal** | Quais configurações de canal estão ausentes ou incompletas? / Quantas configurações de canal eu tenho em todos os canais? |
 
 ## Pré-requisitos {#mcp-prerequisites}
 
@@ -110,16 +109,16 @@ Step-by-step connection instructions to be added here, including:
 - How to authenticate
 -->
 
-## Limitações conhecidas (Beta) {#mcp-limitations}
+## Limitações conhecidas {#mcp-limitations}
 
 As seguintes limitações se aplicam à versão atual do Beta do servidor MCP [!DNL Adobe Journey Optimizer]:
 
 | Limitação | Descrição | Solução alternativa |
 |---|---|---|
-| **Nenhum envolvimento ou métrica de desempenho** | O servidor MCP não expõe dados de relatório. As ferramentas não retornam impressões, taxas de click-through, conversões ou estatísticas de delivery. | Use a interface do usuário de relatórios do AJO, o CJA MCP ou o Adobe Analytics MCP para métricas. O Serviço de consulta da AEP pode consultar dados brutos do evento usando a ID de execução da campanha. |
-| **A paginação da lista de campanhas é limitada** | `List Campaigns` sempre retorna a primeira página de resultados (até 50 campanhas, classificadas alfabeticamente). Os valores de deslocamento e limite não são aplicados, tornando a enumeração completa impraticável para sandboxes grandes. | Use `Get Campaign` diretamente se a ID ou o nome da campanha for conhecido. Use a interface do usuário do AJO para navegar e filtrar a lista completa. |
-| **Nenhuma filtragem do lado do servidor por data, canal ou agenda** | `List Campaigns` dá suporte apenas à filtragem por status. A filtragem por data de publicação, data de agendamento, canal ou tipo de campanha não está disponível no lado do servidor. | Use a lista de campanha da interface do usuário do AJO, que é compatível com filtragem de data e canal nativa. |
-| **Recuperação de conteúdo de mensagem indisponível** | A ferramenta de conteúdo de mensagens retorna HTTP 502 para todos os tipos de canal (email, baseado em código e outros). O HTML de mensagem, as linhas de assunto, os tokens de personalização e o conteúdo da oferta não podem ser recuperados via MCP. | Exiba o conteúdo da mensagem e os tokens de personalização diretamente na interface do AJO em **Campanhas > [Campanha] > Conteúdo**. |
+| **Nenhum envolvimento ou métrica de desempenho** | O servidor MCP não expõe dados de relatório. As ferramentas não retornam impressões, taxas de click-through, conversões ou estatísticas de delivery. | Use a interface do usuário de relatórios do Journey Optimizer, o CJA MCP ou o Adobe Analytics MCP para métricas. O Serviço de consulta da AEP pode consultar dados brutos do evento usando a ID de execução da campanha. |
+| **A paginação da lista de campanhas é limitada** | `List Campaigns` sempre retorna a primeira página de resultados (até 50 campanhas, classificadas alfabeticamente). Os valores de deslocamento e limite não são aplicados, tornando a enumeração completa impraticável para sandboxes grandes. | Use `Get Campaign` diretamente se a ID ou o nome da campanha for conhecido. Use a interface do usuário do Journey Optimizer para navegar e filtrar a lista completa. |
+| **Nenhuma filtragem do lado do servidor por data, canal ou agenda** | `List Campaigns` dá suporte apenas à filtragem por status. A filtragem por data de publicação, data de agendamento, canal ou tipo de campanha não está disponível no lado do servidor. | Use a lista de campanha da interface do usuário do Journey Optimizer, que é compatível com filtragem de data e canal nativa. |
+| **Recuperação de conteúdo de mensagem indisponível** | A ferramenta de conteúdo de mensagens retorna HTTP 502 para todos os tipos de canal (email, baseado em código e outros). O HTML de mensagem, as linhas de assunto, os tokens de personalização e o conteúdo da oferta não podem ser recuperados via MCP. | Exiba o conteúdo da mensagem e os tokens de personalização diretamente na interface do Journey Optimizer em **Campanhas > [Campanha] > Conteúdo**. |
 
 ## Perguntas frequentes {#mcp-faq}
 
@@ -130,7 +129,7 @@ O servidor MCP [!DNL Adobe Journey Optimizer] está disponível atualmente para 
 
 +++Quais objetos do [!DNL Adobe Journey Optimizer] posso acessar via MCP?
 
-Você pode acessar campanhas, ofertas, dados de fidelidade e informações da sandbox. As operações são somente leitura (recuperar APIs); as operações de gravação não são compatíveis com a versão atual.
+Você pode acessar campanhas, ofertas e informações da sandbox. As operações são somente leitura (recuperar APIs); as operações de gravação não são compatíveis com a versão atual.
 +++
 
 +++Preciso de acesso de desenvolvedor para usar o servidor MCP [!DNL Adobe Journey Optimizer]?
