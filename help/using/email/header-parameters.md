@@ -7,12 +7,12 @@ feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
-keywords: definições, email, configuração
+keywords: configurações, email, configuração, cabeçalho do remetente, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
+source-git-commit: 646817ff0bb2473b0693a27a2fdf54bd1acc463f
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 81%
+source-wordcount: '1089'
+ht-degree: 53%
 
 ---
 
@@ -27,9 +27,13 @@ Ao configurar uma nova [configuração de canal de email](email-settings.md), na
 >Ao [editar uma configuração de email](../configuration/channel-surfaces.md#edit-channel-surface), não é possível adicionar novos [atributos de perfil](../personalization/personalization-build-expressions.md#sources) aos parâmetros de cabeçalho. Você deve criar uma nova configuração de canal.
 
 * **[!UICONTROL Nome do remetente]**: o nome do remetente, como o nome da sua marca.
+
 * **[!UICONTROL Prefixo do email do remetente]**: o endereço de email que você deseja usar para suas comunicações.
+
 * **[!UICONTROL Responder a (nome)]**: o nome que será usado quando o destinatário clicar no botão **Responder** do software do cliente de email.
+
 * **[!UICONTROL Email de resposta]**: o endereço de email que será usado quando o destinatário clicar no botão **Responder** do software do cliente de email. [Saiba mais](#reply-to-email)
+
 * **[!UICONTROL Prefixo do email de erro]**: todos os erros gerados pelos ISPs após alguns dias de entrega de emails (rejeições assíncronas) são recebidos neste endereço. As notificações de ausência e as respostas de desafio também são recebidas neste endereço.
 
   Se quiser receber notificações de ausência e respostas de desafio em um endereço de email específico que não esteja delegado à Adobe, será necessário configurar um [processo de encaminhamento](#forward-email). Nesse caso, verifique se você tem uma solução manual ou automatizada para processar os emails que chegam a essa caixa de entrada.
@@ -45,7 +49,42 @@ Ao configurar uma nova [configuração de canal de email](email-settings.md), na
 
 >[!NOTE]
 >
->Os endereços devem começar com uma letra (A-Z) e só podem conter caracteres alfanuméricos. Também é possível usar os caracteres de sublinhado `_`, ponto `.` e hífen `-`.
+>Para **[!UICONTROL Do prefixo de email]** e **[!UICONTROL Prefixo de email de erro]**, os valores devem começar com uma letra (A-Z) e podem conter apenas caracteres alfanuméricos. Você também pode usar sublinhado `_`, ponto `.` e hífen `-` caracteres.
+
+## Cabeçalhos do remetente {#sender-header}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_sender_header"
+>title="Cabeçalhos do remetente"
+>abstract="Use esses campos opcionais quando a entidade de transmissão (remetente) for diferente da entidade de criação (De), por exemplo, uma empresa principal que envia mensagens para uma marca secundária ou uma agência que envia para vários clientes. Os clientes de email que oferecem suporte a isso normalmente o renderizam como &quot;Remetente em nome de De&quot; ou mostram um indicador &quot;via&quot;."
+
+Alguns casos de uso exigem que a caixa de correio que transmite a mensagem seja diferente do autor **De**, por exemplo, uma organização principal enviando em nome de uma subsidiária, uma equipe de marketing compartilhado para várias marcas ou uma agência enviando para vários clientes.
+
+Em outras palavras, **De** é o autor da mensagem (de quem o email é &quot;de&quot;) e **Remetente** é o agente responsável por transmitir a mensagem (que na verdade a enviou). O campo **Remetente** deve ser usado quando a entidade de transmissão for diferente do autor.
+
+Nesse caso, você pode definir um nome e um endereço de email do **Remetente** diferentes para serem adicionados ao cabeçalho do email usando os seguintes campos na seção **Cabeçalhos do remetente**:
+
+* **[!UICONTROL Nome do remetente]**: o nome do responsável pela transmissão da mensagem quando ela for diferente do autor **De**.
+
+* **[!UICONTROL Email do remetente]**: o endereço de email desse participante transmissor.
+
+![](assets/preset-sender-header.png){width="80%"}
+
+>[!NOTE]
+>
+>Esses campos são opcionais. Você pode [personalizar](surface-personalization.md#personalize-header) como outros campos de cabeçalho.
+
+Quando o **[!UICONTROL Nome do remetente]** e o **[!UICONTROL Email do remetente]** estão definidos, o [!DNL Journey Optimizer] adiciona um cabeçalho SMTP **Remetente** ao email<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->. Os clientes de email que oferecem suporte a isso podem mostrar palavras como **Remetente em nome de De** ou um indicador **via**.
+
+>[!NOTE]
+>
+>Se você deixar o **[!UICONTROL Nome do remetente]** e o **[!UICONTROL Email do remetente]** vazios, ou se o **Remetente** resolvido for idêntico ao **De**, nenhum cabeçalho do **Remetente** será adicionado.
+
+Notas:
+
+* O endereço **Remetente** não é usado para alinhamento de SPF, DKIM ou DMARC; somente a validação **formato** é executada. SPF, DKIM e DMARC continuam a depender dos campos **De**. O [subdomínio delegado](../configuration/about-subdomain-delegation.md) selecionado para a configuração permanece o domínio de envio usado para essas verificações.
+
+* Se **Remetente** estiver configurado e a personalização não resolver para um valor para um destinatário, a mensagem não será entregue a esse destinatário.
 
 ## Email de resposta {#reply-to-email}
 
