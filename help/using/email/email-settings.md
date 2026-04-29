@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 99%
+source-wordcount: '1490'
+ht-degree: 96%
 
 ---
 
@@ -91,7 +91,11 @@ Ela permite incluir um URL para cancelar assinatura de um clique no cabeçalho d
 
 ## Parâmetros de cabeçalho {#email-header}
 
-Na seção **[!UICONTROL Parâmetros de cabeçalho]**, insira os nomes dos remetentes e endereços de email associados ao tipo de email enviado com essa configuração. [Saiba mais](header-parameters.md)
+Na seção **[!UICONTROL Parâmetros de cabeçalho]**, insira os valores **De**, **Responder para** e **Erro** para o tipo de emails enviados usando essa configuração. [Saiba mais](header-parameters.md)
+
+
+Opcionalmente, quando a parte que transmite deve ser diferente do autor **De**, defina outro nome e email de **Remetente** para ser adicionado ao cabeçalho do email. [Saiba mais](header-parameters.md#sender-header)
+
 
 ## Email de cópia (CCO) {#bcc-email}
 

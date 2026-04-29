@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração, subdomínio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1336'
 ht-degree: 5%
 
 ---
@@ -92,14 +92,14 @@ Você também pode usar a personalização para todos os parâmetros de cabeçal
 
 >[!NOTE]
 >
->* Todos os campos de **[!UICONTROL Parâmetros de cabeçalho]** podem ser personalizados, exceto o campo **[!UICONTROL Prefixo de email de erro]**.
+>* Todos os **[!UICONTROL Parâmetros de cabeçalho]** e os **[!UICONTROL Cabeçalhos do remetente]** opcionais podem ser personalizados, exceto o campo **[!UICONTROL Prefixo de email de erro]**.
 >* Ao [editar uma configuração de email](../configuration/channel-surfaces.md#edit-channel-surface), não é possível adicionar novos [atributos de perfil](../personalization/personalization-build-expressions.md#sources) aos parâmetros de cabeçalho. Em vez disso, você deve criar uma nova configuração de canal.
 
 Por exemplo, se você tiver várias marcas, poderá criar uma única configuração e usar valores personalizados para seus cabeçalhos de email. Isso permite que você verifique se todos os emails enviados de suas diferentes marcas são endereçados a cada um de seus clientes com os nomes e emails **De** corretos. Da mesma forma, quando os destinatários pressionam o botão **Responder** no software cliente de email, você deseja que os nomes e emails de **Responder para** correspondam à marca correta para o usuário correto.
 
 Para usar variáveis personalizadas para seus parâmetros de cabeçalho de configuração, siga as etapas abaixo.
 
-1. Defina os parâmetros do cabeçalho como faria normalmente. [Saiba como](email-settings.md#email-header)
+1. Defina os parâmetros do cabeçalho como faria normalmente. [Saiba como](header-parameters.md)
 
 1. Para cada campo, selecione o ícone Editar.
 
@@ -125,7 +125,7 @@ Os exemplos abaixo usam parâmetros de evento, que não estão disponíveis no m
 
 >[!NOTE]
 >
->Se você tiver adicionado um ou mais subdomínios dinâmicos à sua configuração, os sufixos **Do email** e **Email de erro** serão preenchidos com base no [subdomínio dinâmico](#dynamic-subdomains) resolvido.
+>Se você tiver adicionado um ou mais subdomínios dinâmicos à sua configuração, os sufixos **Do email** e **Email de erro** serão preenchidos com base no [subdomínio dinâmico](#dynamic-subdomains) resolvido. **[!UICONTROL Email do remetente]**, quando definido, é um endereço completo e não é criado a partir desse sufixo de subdomínio.
 
 ## Usar rastreamento personalizado de URL {#personalize-url-tracking}
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '1898'
 ht-degree: 12%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 12%
 >title="Ação de marketing"
 >abstract="Escolha as ações de marketing para vincular políticas de consentimento às mensagens usando essa configuração. Todas as políticas de consentimento conectadas à ação de marketing serão usadas para respeitar as preferências dos clientes."
 
-Com o [!DNL Journey Optimizer], você pode definir configurações de canal (ou seja, predefinições de mensagem) que definem todos os parâmetros técnicos necessários para suas mensagens: tipo de email, email e nome do remetente, aplicativos móveis, configuração de SMS e muito mais.
+Com o [!DNL Journey Optimizer], você pode definir configurações de canal (ou seja, predefinições de mensagem) que definem todos os parâmetros técnicos necessários para suas mensagens: tipo de email, email e nome do remetente, roteamento de respostas e erros, aplicativos móveis, configuração de SMS e muito mais.
 
 >[!CAUTION]
 >
@@ -292,4 +292,4 @@ Não é possível editar diretamente uma configuração de canal desativada. No 
 
 Saiba o que são configurações de canal e como elas são usadas no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480456/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

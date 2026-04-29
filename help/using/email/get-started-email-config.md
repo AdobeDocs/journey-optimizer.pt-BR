@@ -9,10 +9,10 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: email, configuração, superfície, subdomínios
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '208'
-ht-degree: 100%
+source-git-commit: 9274277872e34f47e05be1acfe248a3b3303cb13
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 84%
 
 ---
 
@@ -39,7 +39,7 @@ Para poder enviar emails por meio de jornadas e campanhas no [!DNL Journey Optim
 
    ![](assets/surface-subdomain-ip-pool.png)
 
-   * Os endereços do **[!UICONTROL Email do remetente]** e do **[!UICONTROL Email de erro]** devem usar o subdomínio delegado selecionado atual. [Saiba mais](email-settings.md#email-header)
+   * O **[!UICONTROL Do prefixo de email]** e o **[!UICONTROL Prefixo de email de erro]** usam o [subdomínio delegado](../configuration/about-subdomain-delegation.md) atualmente selecionado. Opcionalmente, o **[!UICONTROL Nome do remetente]** e o **[!UICONTROL Email do remetente]** podem identificar um participante transmissor diferente (endereço **Remetente** completo, não vinculado a esse sufixo de subdomínio). [Saiba mais](header-parameters.md#sender-header)
 
    ![](assets/preset-header.png)
 
