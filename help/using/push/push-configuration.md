@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 9195a5cd0b8c76cc5a580fc89d2324786931bcfe
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 8%
+source-wordcount: '2189'
+ht-degree: 7%
 
 ---
 
@@ -27,11 +27,11 @@ O [!DNL Journey Optimizer] permite criar jornadas e enviar mensagens para o púb
 
 ### Configurar permissões {#setup-permissions}
 
-Antes de criar um aplicativo para dispositivos móveis, primeiro verifique se você tem ou atribui as permissões de usuário corretas para as tags na Adobe Experience Platform. Saiba mais em [Documentação de tags](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=pt-BR){target="_blank"}.
+Antes de criar um aplicativo para dispositivos móveis, primeiro verifique se você tem ou atribui as permissões de usuário corretas para as tags na Adobe Experience Platform. Saiba mais em [Documentação de tags](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
->A configuração de push deve ser executada por um usuário especialista. Dependendo do modelo de implementação e das pessoas envolvidas, talvez seja necessário atribuir o conjunto completo de permissões a um único perfil de produto ou compartilhar permissões entre o desenvolvedor do aplicativo e o administrador do **Adobe Journey Optimizer**. Saiba mais sobre **Permissões de** marcas em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=pt-BR){target="_blank"}.
+>A configuração de push deve ser executada por um usuário especialista. Dependendo do modelo de implementação e das pessoas envolvidas, talvez seja necessário atribuir o conjunto completo de permissões a um único perfil de produto ou compartilhar permissões entre o desenvolvedor do aplicativo e o administrador do **Adobe Journey Optimizer**. Saiba mais sobre **Permissões de** marcas em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 <!--
 ou need to your have access to perform following roles :
@@ -49,7 +49,7 @@ Para atribuir direitos de **Propriedade** e **Empresa**, siga as etapas abaixo:
 
    ![](assets/push_product_1.png)
 
-1. Selecione um **[!UICONTROL Perfil de Produto]** existente ou crie um novo com o botão **[!UICONTROL Novo perfil]**. Saiba como criar um novo **[!UICONTROL Novo perfil]** na [Documentação do Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=pt-BR#ui){target="_blank"}.
+1. Selecione um **[!UICONTROL Perfil de Produto]** existente ou crie um novo com o botão **[!UICONTROL Novo perfil]**. Saiba como criar um novo **[!UICONTROL Novo perfil]** na [Documentação do Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 
 1. Na guia **[!UICONTROL Permissões]**, selecione **[!UICONTROL Direitos de propriedade]**.
 
@@ -95,7 +95,7 @@ Para atribuir este **[!UICONTROL Perfil de produto]** a usuários, siga as etapa
 
    >[!NOTE]
    >
-   >Se o usuário não tiver sido criado anteriormente no Admin Console, consulte a [documentação Adicionar usuários](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   >Se o usuário não tiver sido criado anteriormente no Admin Console, consulte a [documentação Adicionar usuários](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/push_product_7.png)
 
@@ -145,41 +145,41 @@ O registro da credencial de push do aplicativo móvel é necessário para autori
 
 1. Acesse o menu **[!UICONTROL Canais]** > **[!UICONTROL Configurações de push]** > **[!UICONTROL Credenciais de push]**.
 
-1. Click **[!UICONTROL Create push credential]**.
+1. Clique em **[!UICONTROL Criar credencial de push]**.
 
-1. From the **[!UICONTROL Platform]** drop-down, select the Operational system:
+1. No menu suspenso **[!UICONTROL Plataforma]**, selecione o sistema operacional:
 
    * **Para iOS**
 
      ![](assets/add-app-config-ios.png)
 
-      1. Enter the mobile app **[!UICONTROL App ID]**.
+      1. Insira o aplicativo móvel **[!UICONTROL ID do aplicativo]**.
 
-      1. Enable the **[!UICONTROL Apply to all sandboxes]** option to make these Push credentials available across all sandboxes. If a specific sandbox has its own credentials for the same Platform and App ID pair, those sandbox-specific credentials will take precedence.
+      1. Habilite a opção **[!UICONTROL Aplicar a todas as sandboxes]** para disponibilizar essas credenciais de push em todas as sandboxes. Se uma sandbox específica tiver suas próprias credenciais para o mesmo par de IDs da plataforma e do aplicativo, essas credenciais específicas da sandbox terão prioridade.
 
-      1. Switched on the **[!UICONTROL Manually enter push Credentials]** button to add your credentials.
+      1. Ativado o botão **[!UICONTROL Inserir manualmente as credenciais de push]** para adicionar suas credenciais.
 
-      1. Arraste e solte seu arquivo .p8 Apple Push Notification Authentication Key. This key can be acquired from the **Certificates**, **Identifiers** and **Profiles** page.
+      1. Arraste e solte seu arquivo .p8 Apple Push Notification Authentication Key. Esta chave pode ser adquirida nas páginas **Certificados**, **Identificadores** e **Perfis**.
 
          >[!NOTE]
          >
-         > Only .p8 Apple Push Notification keys are supported. Use another Apple Developer account if you have reached the .p8 key limit.
-         >For more information on Apple key limits, refer to [Apple Developer Documentation](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).
+         > Somente as chaves de Notificação por Push do Apple .p8 são suportadas. Use outra conta de desenvolvedor do Apple se tiver atingido o limite de chaves .p8.
+         >Para obter mais informações sobre os limites de chave do Apple, consulte a [Documentação para desenvolvedores do Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).
 
 
-      1. Forneça a **Key ID**. Esta é uma sequência de 10 caracteres atribuída durante a criação da chave de autenticação p8. It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** page.
+      1. Forneça a **Key ID**. Esta é uma sequência de 10 caracteres atribuída durante a criação da chave de autenticação p8. Ele pode ser encontrado na guia **Chaves** da página **Certificados**, **Identificadores** e **Perfis**.
 
-      1. Forneça a **ID da Equipe**. This is a string value which can be found under the Membership tab.
+      1. Forneça a **ID da Equipe**. Este é um valor de string que pode ser encontrado na guia Membros.
 
    * **Para Android**
 
      ![](assets/add-app-config-android.png)
 
-      1. Provide the **[!UICONTROL App ID]**, usually the package name is the app id in your `build.gradle` file.
+      1. Forneça a **[!UICONTROL ID do aplicativo]**. Geralmente, o nome do pacote é a ID do aplicativo no arquivo `build.gradle`.
 
-      1. Enable the **[!UICONTROL Apply to all sandboxes]** option to make these Push credentials available across all sandboxes. If a specific sandbox has its own credentials for the same Platform and App ID pair, those sandbox-specific credentials will take precedence.
+      1. Habilite a opção **[!UICONTROL Aplicar a todas as sandboxes]** para disponibilizar essas credenciais de push em todas as sandboxes. Se uma sandbox específica tiver suas próprias credenciais para o mesmo par de IDs da plataforma e do aplicativo, essas credenciais específicas da sandbox terão prioridade.
 
-      1. Switched on the **[!UICONTROL Manually enter push credentials]** button to add your credentials.
+      1. Ativado o botão **[!UICONTROL Inserir manualmente as credenciais de push]** para adicionar suas credenciais.
 
       1. Arraste e solte as credenciais de push do FCM. Para obter mais detalhes sobre como obter as credenciais de push, consulte a [Documentação do Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
@@ -193,7 +193,7 @@ O registro da credencial de push do aplicativo móvel é necessário para autori
         1. Enter your **[!UICONTROL VAPID public key]** and **[!UICONTROL private key]**.
 -->
 
-1. Click **[!UICONTROL Submit]** to create your app configuration.
+1. Clique em **[!UICONTROL Enviar]** para criar a configuração do aplicativo.
 
 <!--
 ## Step 2: set up a mobile property in Adobe Experience Platform launch {#launch-property}
@@ -210,10 +210,10 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=pt-BR).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
-## Step 2: Create a channel configuration for push{#message-preset}
+## Etapa 2: criar uma configuração de canal para push{#message-preset}
 
 Depois de criar suas credenciais de push, você precisa criar uma configuração para poder enviar notificações por push de **[!DNL Journey Optimizer]**.
 
@@ -238,11 +238,28 @@ Depois de criar suas credenciais de push, você precisa criar uma configuração
 
 1. Escolha sua **[!UICONTROL Plataforma]**: Android e/ou iOS <!--and/or Web-->.
 
-1. Selecione o mesmo **[!UICONTROL ID do aplicativo]** que sua [credencial de push](#push-credentials-launch) configurada acima.
+1. Para **[!UICONTROL ID do aplicativo]**, selecione o valor que corresponde à sua [credencial de push](#push-credentials-launch). Como opção, use a personalização para direcionar muitos aplicativos de uma jornada ou campanha. [Saiba mais](#app-id-personalization)
 
-1. Salve as alterações.
+1. **Salve** suas alterações.
 
 Agora você pode selecionar sua configuração ao criar suas notificações por push.
+
+### Personalizar a ID do aplicativo (opcional) {#app-id-personalization}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_dynamic_app_id"
+>title="Personalizar ID do aplicativo"
+>abstract="Ao gerenciar vários aplicativos móveis, armazene cada ID de aplicativo no perfil e use uma única configuração de canal de push. Abra o editor de personalização ao lado do campo App id para selecionar um atributo de perfil; a expressão é avaliada no momento do envio para cada recipient. Verifique se existem credenciais de push para cada ID de aplicativo que sua expressão pode retornar."
+
+Quando você tem muitas marcas ou locatários com aplicativos separados, pode armazenar cada **[!UICONTROL ID do aplicativo]** no perfil e usar uma única configuração de canal para enviar notificações por push para o aplicativo correto para cada destinatário.
+
+Para fazer isso, clique no ícone do Personalization ao lado do campo **[!UICONTROL ID do aplicativo]**, selecione um atributo de perfil mapeado para a ID do aplicativo e salve. O campo usa a [expressão Handlebars](../personalization/personalization-syntax.md) correspondente avaliada para cada destinatário no momento do envio.
+
+![](assets/push-config-11.png){width="70%"}
+
+>[!CAUTION]
+>
+>[!DNL Journey Optimizer] não verifica se [credenciais de push](#push-credentials-launch) existem para cada valor que a expressão possa retornar. Verifique se você tem credenciais de push para cada ID de aplicativo possível e teste com perfis representativos. Se a id do aplicativo resolvido de um recipient não tiver credenciais de push correspondentes, elas não serão entregues conforme esperado.
 
 ## Etapa 3: configurar a extensão Adobe Journey Optimizer na sua propriedade móvel {#configure-journey-optimizer-extension}
 
@@ -324,7 +341,7 @@ Após configurar seu aplicativo móvel no Adobe Experience Platform e no [!DNL A
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-Para que essa jornada funcione, é necessário criar um esquema XDM. Para obter mais informações, consulte a [documentação sobre XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR#schemas-and-data-ingestion){target="_blank"}.
+Para que essa jornada funcione, é necessário criar um esquema XDM. Para obter mais informações, consulte a [documentação sobre XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
 
 1. Na seção de menu DATA MANAGEMENT, clique em **[!UICONTROL Esquemas]**.
    ![](assets/test_push_1.png)
