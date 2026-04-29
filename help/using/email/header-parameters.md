@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração, cabeçalho do remetente, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 646817ff0bb2473b0693a27a2fdf54bd1acc463f
+source-git-commit: 48a25f41701f5e42c15fb8149b03cabcc575db24
 workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 53%
@@ -131,3 +131,4 @@ Para encaminhar a um endereço de email específico todos os emails recebidos pe
 O endereço de email de encaminhamento é definido pela Adobe. Isso pode levar de 3 a 4 dias.
 
 Após a conclusão desse processo, todas as mensagens recebidas nos endereços de **[!UICONTROL Email de resposta]** e **Email de erro**, bem como todos os emails enviados para o endereço de **Email do remetente** serão encaminhados para o endereço de email específico fornecido.
+
