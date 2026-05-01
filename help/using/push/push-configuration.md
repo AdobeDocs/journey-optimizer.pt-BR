@@ -7,7 +7,7 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 9195a5cd0b8c76cc5a580fc89d2324786931bcfe
+source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
 workflow-type: tm+mt
 source-wordcount: '2189'
 ht-degree: 7%
@@ -21,7 +21,6 @@ O [!DNL Journey Optimizer] permite criar jornadas e enviar mensagens para o púb
 >[!AVAILABILITY]
 >
 >O novo **fluxo de trabalho de início rápido de integração para dispositivos móveis** está disponível. Use esse novo recurso do produto para configurar rapidamente o Mobile SDK para começar a coletar e validar dados de eventos móveis e enviar notificações por push em dispositivos móveis. Esse recurso é acessível por meio da página inicial da Coleção de dados, na forma de um beta público. [Saiba mais](mobile-onboarding-wf.md)
->
 
 ## Antes de começar {#start-push}
 
@@ -428,4 +427,3 @@ Seu evento foi criado e agora pode ser usado em uma jornada.
 1. Clique em **[!UICONTROL Enviar]**.
 
 Seu evento será acionado e você receberá uma notificação por push para seu aplicativo móvel.
-
