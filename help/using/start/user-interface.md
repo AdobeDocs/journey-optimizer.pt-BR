@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 76ca2ff7ceccd333016291c9f6de269934ed544f
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1378'
 ht-degree: 83%
 
 ---
@@ -41,7 +41,7 @@ A interface do Journey Optimizer consiste em quatro áreas principais:
 
 ### Pesquisa universal {#universal-search}
 
-Use o ícone de pesquisa para localizar rapidamente jornadas, campanhas, ativos e outros objetos no Journey Optimizer. Digite palavras-chave para ver os resultados relevantes de todas as áreas da plataforma. [Saiba mais sobre a pesquisa universal](search-filter-categorize.md#unified-search).
+Use o ícone de pesquisa para localizar rapidamente jornadas, campanhas, ativos e outros objetos no Journey Optimizer. Digite palavras-chave para ver resultados relevantes de todas as áreas da plataforma. [Saiba mais sobre a pesquisa universal](search-filter-categorize.md#unified-search).
 
 ### Ajuda e suporte {#help}
 
@@ -338,28 +338,3 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="Parâmetros de cabeçalho"
 >abstract="Nesta seção, é possível configurar cabeçalhos personalizados adicionais a serem enviados com cada solicitação de webhook."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery"
->title="Consulta incremental"
->abstract="O Query incremental é uma atividade de direcionamento que executa um query de banco de dados sempre que a campanha orquestrada é executada. Retorna apenas novos registros e exclui qualquer pessoa já incluída em uma execução anterior, de modo a evitar o redirecionamento das mesmas pessoas ou a reexportação das mesmas linhas."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_processeddata"
->title="Dados processados"
->abstract="Em Dados processados, escolha como excluir registros de execuções anteriores. Com os resultados Excluir da execução anterior, a atividade mantém uma lista de registros retornados em execuções anteriores; cada execução exclui esses registros e retorna somente os novos. Com a opção Use a date field, a atividade usa um campo de data selecionado em vez de rastrear IDs individuais e cada execução retorna somente linhas cuja data seja após a última execução."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_history"
->title="Histórico em dias"
->abstract="Essa configuração controla por quanto tempo essa lista é retida. Um valor de 0 significa retenção indefinida; nenhum registro é removido."
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_location"
->title="Localização na página"
->abstract="."
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_app_id"
->title="ID do aplicativo"
->abstract="."
