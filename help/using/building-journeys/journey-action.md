@@ -12,8 +12,8 @@ exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 8%
+source-wordcount: '1569'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="Atividade de ação"
->abstract="A atividade **Ação** permite configurar uma única ação de canal nativo e várias atividades de entrada com a capacidade de adicionar otimização a qualquer ação de canal interna."
+>abstract="A atividade **Ação** permite configurar uma única ação de canal nativa e várias atividades de entrada com a capacidade de adicionar otimização a qualquer ação de canal integrado."
 
 A atividade **Ação** é o único ponto de entrada para todas as ações de canal na tela de jornada.
 
@@ -169,7 +169,7 @@ Para adicionar uma ação de canal interna à sua jornada usando a atividade **[
 
    Estas diferentes opções e as etapas a serem seguidas estão detalhadas em [esta seção](../content-management/gs-message-optimization.md).
 
-1. Use a seção **[!UICONTROL Idiomas]** para criar conteúdo em vários idiomas dentro da sua ação de jornada. Para fazer isso, clique no botão **[!UICONTROL Adicionar idiomas]** e selecione as **[!UICONTROL configurações de idioma]** desejadas.
+1. Use a seção **[!UICONTROL Idiomas]** para criar conteúdo em vários idiomas dentro da sua ação de jornada. Para isso, clique no botão **[!UICONTROL Adicionar idiomas]** e selecione as **[!UICONTROL Configurações de idioma]** desejadas.
 
    Informações detalhadas sobre como configurar e usar recursos multilíngues estão disponíveis em [esta seção](../content-management/multilingual-gs.md).
 
@@ -187,7 +187,7 @@ O uso de conjuntos de regras de canal permite definir o limite de frequência po
 
 +++**Rastrear envolvimento** (Email, SMS).
 
-Use a seção **[!UICONTROL Rastreamento de ação]** para acompanhar como seus destinatários reagem às suas entregas de email ou SMS.
+Use a seção de **[!UICONTROL Rastreamento de ações]** para acompanhar como os seus destinatários reagem às suas entregas de email ou SMS.
 
 Os resultados do rastreamento podem ser acessados no relatório de jornada depois que a jornada for executada.
 
@@ -197,9 +197,9 @@ Os resultados do rastreamento podem ser acessados no relatório de jornada depoi
 
 +++**Habilitar o modo de entrega rápida** (Push).
 
-O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas.
+O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite um envio muito rápido de mensagens por push em grandes volumes por meio das campanhas.
 
-A entrega rápida é usada quando o atraso na entrega da mensagem é essencial para os negócios, quando você deseja enviar um alerta de push urgente em telefones celulares, por exemplo, notícias de última hora para usuários que instalaram seu aplicativo de canal de notícias.
+A entrega rápida é usada quando um atraso na entrega das mensagens seria crítico para os negócios, quando você deseja enviar um alerta por push urgente a telefones celulares, como, por exemplo, notícias de última hora para usuários que instalaram o seu aplicativo de canal de notícias.
 
 Saiba como habilitar o modo de entrega rápida para notificações por push [nesta página](../push/create-push.md#rapid-delivery).
 

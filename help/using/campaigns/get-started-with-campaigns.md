@@ -12,8 +12,8 @@ keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 98%
+source-wordcount: '1613'
+ht-degree: 90%
 
 ---
 
@@ -57,12 +57,12 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campanha"
->abstract="Selecione o tipo de campanha. Os canais disponíveis variam de acordo com o tipo selecionado. <br>**Campanhas agendadas** (campanhas de ação): ideais para comunicações em lote simples e únicas que você pode agendar para execução em um horário específico.<br>**Campanhas acionadas por API**: ativadas por meio de uma chamada de API, permitindo o envio automatizado de mensagens baseadas em eventos diretamente de sistemas externos.<br>**Campanhas orquestradas**: fornece uma tela visual com interface de arrastar e soltar para projetar e automatizar fluxos de trabalho de marketing complexos e com várias etapas, desde a segmentação de público-alvo até a entrega personalizada de mensagens entre canais."
+>abstract="Selecione o tipo de campanha. Os canais disponíveis variam de acordo com o tipo selecionado. <br>**Campanhas agendadas** (Campanhas de ação) - Ideal para comunicações em lote simples e únicas que você pode agendar para execução em um horário específico.<br>**Campanhas acionadas por API** - Ativadas por meio de uma chamada de API, permitindo mensagens automatizadas e baseadas em eventos diretamente de sistemas externos.<br>**Campanhas orquestradas**: fornece uma tela visual com interface de arrastar e soltar para projetar e automatizar fluxos de trabalho de marketing complexos e com várias etapas, desde a segmentação de público-alvo até a entrega personalizada de mensagens entre canais."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Campanhas"
->abstract="Crie um fluxo de segmentação, crie mensagens entre canais e planeje as campanhas. Canais compatíveis: email, SMS, notificações por push e correspondência direta."
+>abstract="Crie um fluxo de segmentação, crie mensagens entre canais e planeje as campanhas. Canais aceitos: email, SMS, notificações por push e correspondência direta."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -72,17 +72,17 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
 >title="Campanhas"
->abstract="Fornecer ações transacionais de saída únicas ou recorrentes. Canais compatíveis: email, SMS, notificações por push."
+>abstract="Entregue ações transacionais de saída únicas ou recorrentes. Canais compatíveis: email, SMS, notificações por push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
 >title="Campanhas"
->abstract="Envie comunicações de marketing personalizadas aos seus públicos-alvo. Canais compatíveis: email, SMS, notificações por push."
+>abstract="Forneça comunicações de marketing personalizadas para públicos-alvo direcionados. Canais compatíveis: email, SMS, notificações por push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_transactional"
 >title="Campanhas"
->abstract="Envie comunicações transacionais a perfis individuais ou conjuntos de perfis. Canais compatíveis: email, SMS, notificações por push."
+>abstract="Fornecer comunicações transacionais a perfis individuais ou conjuntos de perfis. Canais compatíveis: email, SMS, notificações por push."
 
 O Adobe Journey Optimizer permite que você forneça conteúdo direcionado e único para públicos-alvo específicos em vários canais. Com campanhas, é possível executar ações de marketing coordenadas simultaneamente, atingindo o público-alvo com a mensagem certa na hora certa.
 
@@ -101,7 +101,7 @@ Usar campanhas do [!DNL Journey Optimizer] para:
 
 ![](assets/gs-campaigns.png)
 
-➡️ **Pronto para começar a criar?** [Crie sua primeira campanha](create-campaign.md) em minutos.
+➡️ **Pronto para começar a criar?** [Crie sua primeira campanha](create-campaign.md) em minutos.
 
 ## Escolha o tipo de campanha {#campaign-types}
 
@@ -194,19 +194,19 @@ Antes de trabalhar com campanhas, certifique-se de que possui o seguinte:
 
 A criação de campanhas bem-sucedidas segue um processo claro e repetível. Este é o fluxo de trabalho passo a passo:
 
-+++&#x200B;1. Planeje a campanha
++++&#x200B;1. Planejar a campanha
 
 Antes de começar, esclareça os objetivos:
 
-* **Qual é a meta?** (por exemplo: gerar conversões, aumentar o engajamento, notificar os clientes)
-* **Quem é o público-alvo?** (por exemplo: criar ou selecionar na Adobe Experience Platform)
-* **Que tipo de campanha se encaixa?** (Consulte os [tipos de campanha](#campaign-types) acima)
-* **Quais canais você usará?** (email, push, SMS, no aplicativo, web, etc.) → [Veja os canais compatíveis por tipo de campanha](../channels/gs-channels.md#channels)
-* **Quando ele deve ser executado?** (imediato, agendado ou acionado por API)
+* **Qual é a meta?** (por exemplo, gerar conversões, aumentar o engajamento, notificar os clientes)
+* **Quem é o público-alvo?** (por exemplo, criar ou selecionar no Adobe Experience Platform)
+* **Que tipo de campanha se encaixa?** (Consulte [tipos de campanha](#campaign-types) acima)
+* **Que canais você usará?** (email, push, SMS, no aplicativo, Web etc.) → [Veja os canais compatíveis por tipo de campanha](../channels/gs-channels.md#channels)
+* **Quando ele deve ser executado?** (imediato, programado ou acionado por API)
 
 +++
 
-+++&#x200B;2. Configure as propriedades da campanha
++++&#x200B;2. Configurar propriedades da campanha
 
 Configure a base da campanha:
 
@@ -220,7 +220,7 @@ Configure a base da campanha:
 
 +++
 
-+++&#x200B;3. Projete o conteúdo
++++&#x200B;3. Projetar o seu conteúdo
 
 Crie mensagens convincentes para o público-alvo:
 
@@ -234,7 +234,7 @@ Crie mensagens convincentes para o público-alvo:
 
 +++
 
-+++&#x200B;4. Revisão e teste
++++&#x200B;4. Revisar e testar
 
 Sempre revise a campanha antes da ativação:
 
@@ -248,7 +248,7 @@ Sempre revise a campanha antes da ativação:
 
 +++
 
-+++&#x200B;5. Ative a campanha
++++&#x200B;5. Ativar a campanha
 
 Quando a revisão for concluída, ative a campanha:
 
@@ -291,7 +291,7 @@ Agora que você compreende as campanhas no [!DNL Journey Optimizer], escolha o t
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Agendamento e sincronização**
 
@@ -301,7 +301,7 @@ Agende campanhas para datas e horas específicas, defina entregas recorrentes e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controle de taxa**
 
@@ -311,7 +311,7 @@ Limite a taxa de transferência de mensagens para evitar sobrecarga em sistemas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Direcionamento de público-alvo**
 
@@ -321,7 +321,7 @@ Direcione públicos-alvo específicos da Adobe Experience Platform com precisão
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Fluxos de trabalho de aprovação**
 
@@ -331,7 +331,7 @@ Implemente processos de revisão e aprovação antes que as campanhas sejam ativ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Horário de silêncio**
 
@@ -341,7 +341,7 @@ Respeite as preferências do cliente evitando a entrega de mensagens durante as 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Otimização**
 
