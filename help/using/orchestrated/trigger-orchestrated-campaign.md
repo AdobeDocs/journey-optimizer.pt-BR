@@ -2,32 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Acionar uma campanha orquestrada usando um sinal
-description: Saiba como acionar uma campanha Orquestrada usando um sinal no [!DNL Adobe Journey Optimizer].
+description: Saiba como acionar uma campanha Orquestrada usando um sinal e transmitindo parâmetros que ficam disponíveis como na campanha.
 feature: Campaigns
 topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
 
 # Acionar campanhas orquestradas usando um sinal {#trigger-signal}
 
-Você pode acionar uma campanha Orquestrada enviando um sinal a ela em vez de executá-la de acordo com um agendamento. O sinal é enviado por uma chamada de API de um sistema ou aplicativo externo. Ao usar um sinal, você pode passar parâmetros. Eles são então disponibilizados na campanha orquestrada como variáveis de evento no contexto de execução — para uso em direcionamento, condições ou expressões.
+Você pode acionar uma campanha Orquestrada enviando um sinal a ela em vez de executá-la de acordo com um agendamento. O sinal é enviado por uma chamada de API de um sistema ou aplicativo externo. Ao usar um sinal, você pode transmitir parâmetros que se tornam disponíveis como variáveis na campanha — para uso em direcionamento, condições ou expressões.
+
+Esta página explica como configurar e acionar um sinal. Quando as variáveis estiverem disponíveis, para obter detalhes sobre como usá-las em regras e condições de **[!UICONTROL Teste]**, consulte [Usar variáveis em campanhas orquestradas](variables-orchestrated-campaigns.md).
 
 Para obter a especificação REST completa do ponto de extremidade do acionador (caminhos, cabeçalhos, corpo, respostas e erros), consulte [Acionar API de campanhas orquestradas](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} na documentação da API do Adobe Journey Optimizer.
 
 Processo completo para acionar uma campanha orquestrada usando um sinal:
 
-1. [Programar a campanha para ser acionada por um sinal](#set-an-orchestrated-campaign-to-wait-for-a-signal-configure-signal)
-1. [Adicionar parâmetros para a carga de sinal](#add-parameters-for-the-signal-payload-optional-parameters) (opcional)
-1. [Criar e testar a campanha](#build-and-test-the-campaign-build-and-test)
-1. [Publicar e acionar a campanha](#publish-and-trigger-the-campaign-publish)
+1. [Programar a campanha para ser acionada por um sinal](#configure-signal)
+1. [Adicionar parâmetros para a carga de sinal](#parameters) (opcional)
+1. [Criar e testar a campanha](#build-and-test)
+1. [Publicar e acionar a campanha](#publish)
 
 >[!NOTE]
 >
@@ -47,7 +49,7 @@ Para definir uma campanha orquestrada para iniciar em um sinal em vez de um agen
 
 ## Adicionar parâmetros para a carga útil do sinal (opcional) {#parameters}
 
-Você pode passar parâmetros no sinal de acionador e usá-los em sua campanha no contexto de execução, por exemplo, em direcionamento, condições ou expressões. Primeiro, defina cada parâmetro nas configurações de agendamento e passe o respectivo valor ao chamar a API de acionador.
+Você pode passar parâmetros no sinal de acionador e usá-los em sua campanha no contexto de execução — por exemplo, em direcionamento, condições ou expressões. Primeiro, defina cada parâmetro nas configurações de agendamento e passe o respectivo valor ao chamar a API de acionador.
 
 1. Abra o agendador de campanhas e selecione **[!UICONTROL Adicionar parâmetro]**.
 
@@ -57,7 +59,7 @@ Você pode passar parâmetros no sinal de acionador e usá-los em sua campanha n
 
 >[!NOTE]
 >
->Se você passar um parâmetro na chamada à API que não foi definido no scheduler, a chamada à API ainda será bem-sucedida e o parâmetro será propagado e você poderá usá-lo em expressões. No entanto, a interface de campanha orquestrada não ajudará você a usá-la, por exemplo, a atividade Test não listará ou mostrará parâmetros que não foram definidos no scheduler.
+>Se você passar um parâmetro na chamada à API que não foi definido no scheduler, a chamada à API ainda será bem-sucedida e o parâmetro será propagado e você poderá usá-lo em expressões. No entanto, a interface de campanha orquestrada não ajudará você a usá-la; por exemplo, a atividade Test não listará ou mostrará parâmetros que não foram definidos no scheduler.
 
 ## Criar e testar a campanha {#build-and-test}
 

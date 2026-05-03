@@ -5,10 +5,10 @@ title: Use a atividade Test em suas campanhas orquestradas
 description: Saiba como usar a atividade Testar
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 28%
+source-wordcount: '412'
+ht-degree: 26%
 
 ---
 
@@ -41,7 +41,7 @@ Para configurar a atividade **[!UICONTROL Test]**:
 
    * **Rótulo**: um nome para a transição para que você possa identificá-la na tela.
 
-   * **Tipo de condição**: os dados para avaliar, por padrão, a contagem de população.
+   * **Tipo de condição**: os dados para avaliar, por padrão, a contagem de população.  As variáveis (provenientes de variáveis globais ou de um sinal de acionador) também são listadas aqui e podem ser selecionadas para basear uma condição em um valor de variável. [Saiba como usar variáveis em campanhas orquestradas](../variables-orchestrated-campaigns.md)
 
    * **Operador**: a comparação a ser aplicada, por exemplo, igual a, maior que, menor que. A lista de operadores depende do tipo de dados do tipo de condição.
 
