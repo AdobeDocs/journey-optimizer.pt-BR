@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 1%
+source-wordcount: '1102'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ A página do relatório é exibida com as seguintes guias:
 * [Conjuntos de regras](#rule-sets)
 * [Modelos de otimização](#optimization-models)
 
-Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home).
+Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Destaques {#highlights}
 
@@ -143,7 +143,7 @@ A tabela **[!UICONTROL Conflitos e Limite de Jornada]** fornece informações so
 
 A coluna **[!UICONTROL Entradas de Jornada por Conjunto de Regras]** mostra o número de perfis que entraram na jornada. Há três tipos de entradas:
 
-* **&#x200B;**&#x200B;[!UICONTROL Nenhum conflito]&#x200B;**&#x200B;**: o perfil entrou na jornada sem nenhum conflito de conjunto de regras. Nenhum conjunto de regras ativo impediu essa entrada, e a entrada de jornada ocorreu independentemente das regras de arbitragem.
+* ****[!UICONTROL Nenhum conflito]****: o perfil entrou na jornada sem nenhum conflito de conjunto de regras. Nenhum conjunto de regras ativo impediu essa entrada, e a entrada de jornada ocorreu independentemente das regras de arbitragem.
 
 * **Prioridade mais alta**: o perfil entrou na jornada devido à sua maior prioridade do que outras jornadas concorrentes. Mesmo que houvesse um conflito (o perfil se qualificou para várias jornadas), essa jornada foi selecionada devido à sua pontuação de prioridade mais alta.
 
@@ -156,6 +156,8 @@ A coluna **[!UICONTROL Exclusões]** mostra o número de perfis que foram exclu�
 * **Prioridade mais baixa**: o limite não foi atingido, mas outras jornadas de prioridade mais alta atendem às restrições. O perfil foi excluído desta jornada e inseriu uma jornada de prioridade mais alta.
 
 +++
+
+Para investigar essas exclusões no nível Data Lake usando o Serviço de Consulta Adobe Experience Platform, consulte [Consultas de regras de negócios](query-examples.md#business-rules-queries).
 
 ➡️ [Saiba mais sobre limite e arbitragem de jornada](../conflict-prioritization/journey-capping.md)
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '781'
 ht-degree: 8%
 
 ---
@@ -124,5 +124,6 @@ Abaixo estão definições, causas comuns e etapas de solução de problemas par
 
 * [Amostras de consulta do conjunto de dados - Evento de Etapa de Jornada](../data/datasets-query-examples.md#journey-step-event).
 * [Exemplos de consultas - Consultas baseadas em eventos](query-examples.md#event-based-queries).
-* [Dicionário de esquemas interno](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
+* [Exemplos de consultas - Consultas de regras de negócios](query-examples.md#business-rules-queries).
+* [Dicionário de esquemas embutido](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
 

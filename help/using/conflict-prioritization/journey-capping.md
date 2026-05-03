@@ -4,9 +4,9 @@ description: Saiba como criar regras de limitação para suas jornadas e como ar
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '964'
 ht-degree: 18%
 
 ---
@@ -115,8 +115,8 @@ Quando uma jornada estiver ativa, você poderá verificar no relatório de jorna
 
 ![](assets/journey-report.png)
 
-Além disso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para criar consultas para identificar qual regra fez com que um perfil não entrasse em uma determinada jornada. Um exemplo de consulta está disponível em [esta seção](../reports/query-examples.md#common-queries).
+Além disso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para criar consultas para identificar qual regra fez com que um perfil não entrasse em uma determinada jornada. Exemplos de consulta, incluindo a sub-razão de descarte (`CAP_REACHED` ou `LOWER_PRIORITY`), estão disponíveis em [esta seção](../reports/query-examples.md#business-rules-queries).
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447620?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

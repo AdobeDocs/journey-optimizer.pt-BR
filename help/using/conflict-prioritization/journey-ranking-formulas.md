@@ -7,10 +7,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 2%
+source-wordcount: '1131'
+ht-degree: 3%
 
 ---
 
@@ -186,7 +186,7 @@ Para atribuir o conjunto de regras a uma jornada, siga as etapas abaixo.
 
 Todas as jornadas que usam esse conjunto de regras serão classificadas com a fórmula selecionada quando o limite for aplicado.
 
-Para monitorar o desempenho de seus conjuntos de regras e fórmulas de classificação, consulte a seção [Limite de Jornada e Conflitos](../reports/channel-report-cja.md#rule-sets) no relatório Visão geral.
+Para monitorar o desempenho de seus conjuntos de regras e fórmulas de classificação, consulte a seção [Limite de Jornada e Conflitos](../reports/channel-report-cja.md#rule-sets) no relatório Visão geral. Para investigar descartes no nível do Data Lake e identificar se um perfil foi excluído devido a um limite ser atingido (`CAP_REACHED`) ou uma prioridade mais baixa (`LOWER_PRIORITY`), use as consultas disponíveis em [esta seção](../reports/query-examples.md#business-rules-queries).
 
 <!--
 ## Reporting {#reporting}
