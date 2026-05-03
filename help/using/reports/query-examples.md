@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '3542'
-ht-degree: 1%
+source-wordcount: '3739'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Antes de executar qualquer consulta nesta página, verifique o seguinte:
 
 >[!TIP]
 >
->**Novo no Serviço de consulta?** Abra o [Adobe Experience Platform](https://experience.adobe.com/), navegue até **Serviço de Consulta > Consultas**, cole qualquer exemplo abaixo, substitua os valores de espaço reservado (por exemplo, `<journeyVersionID>`, `<last x hours>`) e selecione **Executar**.
+>**Novo no Serviço de Consulta?** Abra o [Adobe Experience Platform](https://experience.adobe.com/), navegue até **Serviço de Consulta > Consultas**, cole qualquer exemplo abaixo, substitua os valores de espaço reservado (por exemplo, `<journeyVersionID>`, `<last x hours>`) e selecione **Executar**.
 
 ## Localizar a consulta correta {#find-query}
 
@@ -41,6 +41,7 @@ Antes de executar qualquer consulta nesta página, verifique o seguinte:
 | Investigar erros ou execução de Leitura de público | [Ler consultas de público-alvo](#read-segment-queries) |
 | Solução de problemas de erros de mensagem ou ação | [Erros de mensagens e ações](#message-action-errors) |
 | Analisar descartes de qualificação de público-alvo | [Consultas de qualificação de público-alvo](#segment-qualification-queries) |
+| Investigar descartes de regras de negócios | [Consultas de regras de negócios](#business-rules-queries) |
 | Depurar eventos externos ou comerciais | [Consultas baseadas em eventos](#event-based-queries) |
 | Monitorar o desempenho do ponto de extremidade de ação personalizada | [Consultas de ação personalizada](#query-custom-action) |
 | Rastrear perfis ativáveis e o uso da licença | [Consultas de perfis ativáveis](#engageable-profiles-queries) |
@@ -558,11 +559,11 @@ _Exemplo de saída_
 
 | ENTRY_DATE | PROFILES_COUNT |
 |---|---|
-| 25/11/2024 | 1.245 |
-| 24/11/2024 | 1.189 |
-| 23/11/2024 | 15.340 |
-| 22/11/2024 | 1.205 |
-| 21/11/2024 | 1.167 |
+| 2024-11-25 | 1.245 |
+| 2024-11-24 | 1.189 |
+| 2024-11-23 | 15.340 |
+| 2024-11-22 | 1.205 |
+| 2024-11-21 | 1.167 |
 
 O query retorna, para o período definido, o número de perfis que entraram na jornada a cada dia. Se um perfil inserido por meio de várias identidades, ele será contado duas vezes. Se a reentrada estiver ativada, a contagem de perfis poderá ser duplicada em dias diferentes se ela entrar novamente na jornada em um dia diferente.
 
@@ -965,6 +966,60 @@ Esta consulta retorna todos os eventos (eventos externos/eventos de qualificaç�
 
 +++
 
+## Consultas relacionadas a regras de negócios {#business-rules-queries}
+
++++Verificar todas as descartes devido a exclusões de limite de frequência de jornada em uma jornada específica após uma data específica
+
+Essa consulta retorna o conjunto de regras rejeitado e os detalhes da regra para todos os perfis descartados devido às regras de limite de frequência em uma jornada específica, a partir de uma determinada data.
+
+_Consulta do Data Lake_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionId>'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('<YYYY-MM-DD>')
+```
+
+_Exemplo_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='3855072d-79c3-438a-a5c3-c77fd6843812'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('2025-05-16')
+```
+
+Esta consulta retorna todas as descartes às quais um conjunto de regras corresponde (não nulo `rejectedRuleset.ID`). O campo `eventCodeReason` fornece a sub-razão para o descarte: `LOWER_PRIORITY` (perfil descartado devido à arbitragem de jornada) ou `CAP_REACHED` (perfil descartado porque o limite de frequência foi atingido). Os resultados mostram quais conjuntos de regras e regras de limite de frequência específicos fizeram com que os perfis fossem excluídos da jornada após a data especificada.
+
++++
+
 ## Consultas baseadas em eventos {#event-based-queries}
 
 +++Verificar se um evento comercial foi recebido para uma jornada
@@ -1053,13 +1108,12 @@ Saiba como [solucionar problemas de tipos de eventos descartados em jornada_step
 
 Essas consultas ajudam a monitorar e analisar a contagem de perfis ativáveis. Um perfil que pode ser ativado é um perfil exclusivo que passou por jornadas ou campanhas nos últimos 12 meses. Saiba mais sobre [Perfis ativáveis e uso de licença](../audience/license-usage.md#what-is-engageable-profile).
 
->[!IMPORTANT]
->
->**Práticas recomendadas para consultar Perfis Engajáveis:**
->* Verifique se cada campo não agregado está incluído na cláusula `GROUP BY`
->* Evite referenciar conjuntos de dados que não existem em sua sandbox - confirme os nomes dos conjuntos de dados na interface do usuário da plataforma
->* Use `distinct` ao contar perfis exclusivos para evitar duplicatas em namespaces de identidade
->* Ao usar `LIMIT`, coloque-o no final da consulta após as cláusulas `ORDER BY`
+**Práticas recomendadas para consultar Perfis Engajáveis:**
+
+* Verifique se cada campo não agregado está incluído na cláusula `GROUP BY`
+* Evite referenciar conjuntos de dados que não existem em sua sandbox - confirme os nomes dos conjuntos de dados na interface do usuário da plataforma
+* Use `distinct` ao contar perfis exclusivos para evitar duplicatas em namespaces de identidade
+* Ao usar `LIMIT`, coloque-o no final da consulta após as cláusulas `ORDER BY`
 
 +++Contar perfis exclusivos envolvidos por uma jornada específica
 
@@ -1127,11 +1181,11 @@ _Exemplo de saída_
 
 | ENGAGEMENT_DATE | ENGAGED_PROFILES |
 |---|---|
-| 25/11/2024 | 8.450 |
-| 24/11/2024 | 7.820 |
-| 23/11/2024 | 125.340 |
-| 22/11/2024 | 9.230 |
-| 21/11/2024 | 8.670 |
+| 2024-11-25 | 8.450 |
+| 2024-11-24 | 7.820 |
+| 2024-11-23 | 125.340 |
+| 2024-11-22 | 9.230 |
+| 2024-11-21 | 8.670 |
 
 Esse resultado ajuda a monitorar as tendências diárias e identificar quando um grande número de perfis está sendo envolvido. Neste exemplo, 23 de novembro mostra um pico significativo (125.340 perfis) em comparação ao engajamento diário típico (cerca de 8.000 perfis), o que justificaria uma investigação para entender qual jornada ou campanha causou o aumento em sua contagem de [Perfis envolventes](../audience/license-usage.md).
 
@@ -1162,9 +1216,9 @@ _Exemplo de saída_
 
 | JORNADA_VERSION_ID | JORNADA_NAME | ENGAGEMENT_DATE | ENGAGED_PROFILES |
 |---|---|---|---|
-| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | Campanha na Black Friday | 23/11/2024 | 125.340 |
-| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | Jornada de lançamento de produto | 22/11/2024 | 45.230 |
-| f9e8d7c6-b5a4-3210-9876-543210fedcba | Newsletter de feriado | 21/11/2024 | 32.150 |
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | Campanha na Black Friday | 2024-11-23 | 125.340 |
+| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | Jornada de lançamento de produto | 2024-11-22 | 45.230 |
+| f9e8d7c6-b5a4-3210-9876-543210fedcba | Newsletter de feriado | 2024-11-21 | 32.150 |
 
 Esta consulta filtra jornadas que envolveram mais de 1.000 perfis por dia nos últimos 7 dias. A saída mostra quais jornadas e datas específicas são responsáveis por grandes envolvimentos de perfil. Ajuste o limite da cláusula `HAVING` de acordo com as suas necessidades (por exemplo, altere `> 1000` para `> 10000` para limites maiores).
 
@@ -1213,11 +1267,11 @@ _Exemplo de saída_
 
 | ACTIVITY_DATE | ATIVE_JORNADA |
 |---|---|
-| 25/11/2024 | 12 |
-| 24/11/2024 | 15 |
-| 23/11/2024 | 14 |
-| 22/11/2024 | 11 |
-| 21/11/2024 | 13 |
+| 2024-11-25 | 12 |
+| 2024-11-24 | 15 |
+| 2024-11-23 | 14 |
+| 2024-11-22 | 11 |
+| 2024-11-21 | 13 |
 
 A consulta retorna, para o período definido, a contagem de jornadas exclusivas que são acionadas a cada dia. Um único acionamento de jornada em vários dias será contado uma vez por dia.
 

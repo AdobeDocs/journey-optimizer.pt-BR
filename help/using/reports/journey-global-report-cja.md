@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 1%
+source-wordcount: '1033'
+ht-degree: 0%
 
 ---
 
@@ -73,7 +73,7 @@ A tabela **[!UICONTROL Estatísticas de Jornada]** oferece um resumo detalhado d
 
 ## Exclusão de jornada {#journey-exclusion}
 
-A tabela **[!UICONTROL exclusão de Jornada]** apresenta uma exibição abrangente dos diferentes fatores que resultaram na exclusão de perfis de usuário.
+A tabela **[!UICONTROL exclusão de Jornada]** apresenta uma exibição abrangente dos diferentes fatores que resultaram na exclusão de perfis de usuário. Para investigar exclusões relacionadas a regras de negócios no nível Data Lake e identificar se os perfis foram excluídos devido a um limite ser atingido ou a uma prioridade mais baixa, use as consultas disponíveis em [esta seção](query-examples.md#business-rules-queries).
 
 ## Erro de ação {#action-error}
 

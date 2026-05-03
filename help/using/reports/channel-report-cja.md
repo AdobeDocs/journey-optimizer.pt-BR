@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 1%
+source-wordcount: '1102'
+ht-degree: 0%
 
 ---
 
@@ -156,6 +156,8 @@ A coluna **[!UICONTROL Exclusões]** mostra o número de perfis que foram exclu�
 * **Prioridade mais baixa**: o limite não foi atingido, mas outras jornadas de prioridade mais alta atendem às restrições. O perfil foi excluído desta jornada e inseriu uma jornada de prioridade mais alta.
 
 +++
+
+Para investigar essas exclusões no nível Data Lake usando o Serviço de Consulta Adobe Experience Platform, consulte [Consultas de regras de negócios](query-examples.md#business-rules-queries).
 
 ➡️ [Saiba mais sobre limite e arbitragem de jornada](../conflict-prioritization/journey-capping.md)
 
