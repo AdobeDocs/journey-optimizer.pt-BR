@@ -5,10 +5,10 @@ title: Editar expressões
 description: Saiba como editar expressões.
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '2034'
-ht-degree: 100%
+source-wordcount: '2071'
+ht-degree: 97%
 
 ---
 
@@ -33,9 +33,11 @@ O editor de expressão fornece:
 
 * Um **campo de entrada (1)** no qual a expressão é definida.
 * Uma lista de **campos (2)** disponíveis que podem ser usados na expressão e correspondem à dimensão de direcionamento da consulta.
-* **Funções auxiliares (3)**, ordenadas por categoria.
+* Uma lista de **variáveis (3)** disponíveis que podem ser usadas na expressão. Este menu está disponível para o campo **Valor**. [Saiba como usar variáveis em campanhas orquestradas](variables-orchestrated-campaigns.md)
 
-Para editar a expressão, insira uma expressão diretamente no campo de entrada. Para adicionar um campo ou uma função auxiliar, coloque o cursor na expressão à qual deseja adicionar o campo e clique no botão +.
+* **Funções auxiliares (4)**, classificadas por categoria.
+
+Para editar a expressão, insira uma expressão diretamente no campo de entrada. Para adicionar um campo, uma variável ou uma função auxiliar, coloque o cursor na expressão em que deseja adicioná-lo e clique no botão +.
 
 ![Interface do editor de expressão](assets/rule-builder-expression-editor.png){zoomable="yes"}
 
@@ -409,7 +411,7 @@ As funções numéricas são usadas para converter textos em números.
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
    <td> Retorna o maior inteiro maior ou igual a um número<br /> </td> 
-   <td> Floor(&lt;número&gt;)<br /> </td>  
+   <td> Floor(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Greatest</strong><br /> </td> 
@@ -424,7 +426,7 @@ As funções numéricas são usadas para converter textos em números.
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
    <td> Retorna o restante da divisão inteira de n1 por n2<br /> </td> 
-   <td> Mod(&lt;número 1&gt;, &lt;número 2&gt;)<br /> </td>  
+   <td> Mod(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Percent</strong><br /> </td> 
@@ -438,7 +440,7 @@ As funções numéricas são usadas para converter textos em números.
   </tr> 
   <tr> 
    <td> <strong>Round</strong><br /> </td> 
-   <td> Arredonda um número para n decimais<br /> </td> 
+   <td> Arredonda um número para decimais n<br /> </td> 
    <td> Round(&lt;número&gt;, &lt;número de decimais&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -463,7 +465,7 @@ As funções numéricas são usadas para converter textos em números.
   </tr> 
   <tr> 
    <td> <strong>Trunc</strong><br /> </td> 
-   <td> Corta o n1 para que tenha n2 casas decimais<br /> </td> 
+   <td> Corta o n1 para o decimal n2<br /> </td> 
    <td> Trunc(&lt;n1&gt;, &lt;n2&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -488,7 +490,7 @@ Esta tabela contém as demais funções disponíveis.
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Retorna o valor 1 se a condição for verdadeira. Caso contrário, retornará o valor 2.<br /> </td> 
-   <td> Case(When(&lt;condição&gt;, &lt;valor 1&gt;), Else(&lt;valor 2&gt;))<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
@@ -503,13 +505,13 @@ Esta tabela contém as demais funções disponíveis.
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
    <td> Retorna o valor 3 se o valor 1 for igual ao valor 2. Caso contrário, retorna o valor 4.<br /> </td> 
-   <td> Decode(&lt;valor 1&gt;, &lt;valor 2&gt;, &lt;valor 3&gt;, &lt;valor 4&gt;)<br /> </td>  
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr>
 
 <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Retorna o valor 1 (só pode ser usado como parâmetro da função case)<br /> </td> 
-   <td> Else(&lt;valor 1&gt;, &lt;valor 2&gt;)<br /> </td>  
+   <td> Else(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
@@ -524,7 +526,7 @@ Esta tabela contém as demais funções disponíveis.
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
    <td> Retorna o valor 1 se a expressão for verdadeira. Caso contrário, retorna o valor 2<br /> </td> 
-   <td> Iif(&lt;condição&gt;, &lt;valor 1&gt;, &lt;valor 2&gt;)<br /> </td>  
+   <td> Iif(&lt;condition&gt;, &lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>IsBitSet</strong><br /> </td> 
@@ -534,7 +536,7 @@ Esta tabela contém as demais funções disponíveis.
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
    <td> Retorna o valor 2 se a string 1 estiver vazia, caso contrário, retorna o valor 3.<br /> </td> 
-   <td> IsEmptyString(&lt;valor 1&gt;, &lt;valor 2&gt;, &lt;valor 3&gt;)<br /> </td>  
+   <td> IsEmptyString(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
@@ -598,7 +600,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> Retorna o caractere correspondente ao código ASCII 'n'<br /> </td> 
-   <td> Char(&lt;número&gt;)<br /></td>  
+   <td> Char(&lt;number&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
@@ -627,18 +629,18 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> Concatena as strings transmitidas como parâmetros. Adiciona espaços entre as strings, se necessário.<br /> </td> 
+   <td> Concatena a string transmitidas como parâmetros. Adiciona espaços entre as strings, se necessário.<br /> </td> 
    <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> Concatena as strings transmitidas como parâmetros. Adiciona espaços entre as strings, se necessário<br /> </td> 
+   <td> Concatena a string transmitidas como parâmetros. Adiciona espaços entre as strings, se necessário<br /> </td> 
    <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> Retorna os primeiros n caracteres da string<br /> </td> 
-   <td> Left(&lt;string&gt;, &lt;número&gt;)<br /></td> 
+   <td> Left(&lt;string&gt;, &lt;number&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
@@ -693,7 +695,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> Retorna a string concluída à direita<br /> </td> 
-   <td> RPad(&lt;string&gt;, &lt;número&gt;, &lt;caractere&gt;)<br /></td> 
+   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
@@ -717,13 +719,13 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
-   <td> Extrai a substring iniciando no caractere n1 da string e com n2 de comprimento <br /> </td> 
-   <td> Substring(&lt;string&gt;, &lt;deslocamento&gt;, &lt;comprimento&gt;)<br /> </td>  
+   <td> Extrai a substring iniciando no caractere n1 da cadeira de caracteres e de comprimento n2<br /> </td> 
+   <td> Substring(&lt;string&gt;, &lt;offset&gt;, &lt;length&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
    <td> Converte o número em uma string<br /> </td> 
-   <td> ToString(&lt;número&gt;, &lt;número&gt;)<br /> </td>  
+   <td> ToString(&lt;number&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
@@ -738,7 +740,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>VirtualLinkStr</strong><br /> </td> 
    <td> Retorna a chave externa (texto) de um link passado como um parâmetro se os outros dois parâmetros forem iguais<br /> </td> 
-   <td> VirtualLinkStr(&lt;string&gt;, &lt;número&gt;, &lt;número&gt;)<br /> </td>  
+   <td> VirtualLinkStr(&lt;string&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
@@ -769,7 +771,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>PartitionBy</strong><br /> </td> 
-   <td> Partições do resultado de um consulta em uma tabela<br /> </td> 
+   <td> Partições do resultado de uma consulta em uma tabela<br /> </td> 
    <td> PartitionBy(&lt;valor 1&gt;)<br /> </td>  
   </tr> 
   <tr> 

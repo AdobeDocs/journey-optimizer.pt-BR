@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aef18a41657866c5c612442c460b5c464553eaba
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '3276'
-ht-degree: 91%
+source-wordcount: '3289'
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 91%
    + Trabalhe com eficiência {#work-efficiently}
       + [Navegue pela interface](using/start/user-interface.md)
       + [Pesquise, filtre e organize](using/start/search-filter-categorize.md)
-      + [Perguntas frequentes sobre solução de problemas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Perguntas frequentes sobre solução de problemas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Acessibilidade](using/start/accessibility.md)
       + {hide-from-toc}[Jornadas vs Campanhas](using/start/journeys-vs-campaigns.md)
 + Jornadas {#orchestrate-journeys}
@@ -206,6 +206,7 @@ ht-degree: 91%
          + [Desduplicação](using/orchestrated/activities/deduplication.md)
          + [Enriquecimento](using/orchestrated/activities/enrichment.md)
          + [Bifurcação](using/orchestrated/activities/fork.md)
+         + [Consulta incremental](using/orchestrated/activities/incremental-query.md)
          + [Público-alvo de leitura](using/orchestrated/activities/read-audience.md)
          + [Reconciliação](using/orchestrated/activities/reconciliation.md)
          + [Salvar público-alvo](using/orchestrated/activities/save-audience.md)
@@ -217,6 +218,8 @@ ht-degree: 91%
          + [Engaje clientes com base na atividade de navegação](using/orchestrated/engage-customers-uc.md)
          + [Notifique os usuários sobre a disponibilidade do produto](using/orchestrated/product-availability-uc.md)
       + Operações avançadas {#orchestrated-advanced}
+         + [Usar variáveis em campanhas orquestradas](using/orchestrated/variables-orchestrated-campaigns.md)
+         + [Definir variáveis globais em campanhas orquestradas](using/orchestrated/global-variables.md)
          + [Acionar campanhas orquestradas usando um sinal](using/orchestrated/trigger-orchestrated-campaign.md)
 + Conflito e priorização {#conflict-prioritization}
    + [Gerenciamento de conflitos e priorização](using/conflict-prioritization/gs-conflict-prioritization.md)
