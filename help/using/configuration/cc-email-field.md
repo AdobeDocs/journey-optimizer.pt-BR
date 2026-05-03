@@ -13,17 +13,17 @@ badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
 source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '925'
 ht-degree: 6%
 
 ---
 
-# Adicionar um campo CC aos emails {#cc-email-field}
+# Adicione um campo CC aos emails {#cc-email-field}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_cc"
->title="Definir um endereço de email CC"
->abstract="Você pode adicionar um campo CC visível (cópia carbono) aos emails enviados com essa configuração de canal. Insira um endereço de email fixo ou use a personalização (atributo de perfil ou variável de contexto). Esteja ciente de que o uso do CC é contabilizado em relação ao volume de mensagens qualificado."
+>title="Defina um endereço de email CC"
+>abstract="É possível adicionar um campo CC visível (cópia carbono) aos emails enviados com essa configuração de canal. Insira um endereço de email fixo ou use a personalização (atributo de perfil ou variável de contexto). Esteja ciente de que o uso do campo CC é contabilizado no volume de mensagens permitido."
 
 >[!AVAILABILITY]
 >

@@ -12,8 +12,8 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '3435'
-ht-degree: 9%
+source-wordcount: '3538'
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ Use a atividade Ler público-alvo para iniciar jornadas com públicos-alvo defin
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Atividade Ler público-alvo"
->abstract="Adicione a esta jornada todos os perfis qualificados de um público-alvo [!DNL Adobe Experience Platform] selecionado. Executar uma vez ou em um agendamento."
+>abstract="Adicione todos os perfis qualificados de um público-alvo [!DNL Adobe Experience Platform] selecionado a esta jornada. Execute uma vez ou em um agendamento."
 
 A atividade **Ler Público** é a atividade de ponto de entrada de jornada que adiciona todos os perfis de um público-alvo [!DNL Adobe Experience Platform] selecionado a uma jornada. Você pode executar a entrada uma vez ou de acordo com uma programação recorrente. Nas APIs e referências técnicas, essa atividade também é chamada de acionador de segmento ou entrada de jornada baseada no público-alvo.
 
@@ -55,22 +55,22 @@ Por exemplo, o público-alvo `Luma app opening and checkout` criado no caso de u
 
 Você definirá: **Público** (obrigatório), **Namespace** (obrigatório), **Taxa de leitura** (obrigatório, padrão 5.000/s) e **Agendamento** (quando a jornada for executada). Opcionalmente, adicione um **Rótulo** e **Identificador complementar**. As etapas abaixo orientam você em cada configuração.
 
-### Adicionar atividade e selecionar público {#add-activity-and-select-audience}
+### Adicione atividade e selecione o público-alvo {#add-activity-and-select-audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_label"
 >title="Rótulo"
->abstract="Rótulo opcional para identificar essa atividade nos relatórios e logs do modo de teste."
+>abstract="Um rótulo opcional para identificar a atividade nos relatórios e logs do modo de teste."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Público-alvo"
->abstract="Selecione a audiência [!DNL Adobe Experience Platform] cujos perfis irão inserir esta jornada."
+>abstract="Selecione o público-alvo [!DNL Adobe Experience Platform] cujos perfis devem entrar nesta jornada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="Namespace"
->abstract="Escolha qual identidade (por exemplo, email, ECID) é usada para identificar as pessoas que entram na jornada. Por padrão, o campo é pré-preenchido com o último namespace usado."
+>abstract="Escolha qual identidade (por exemplo, email, ECID) é usada para identificar quem entra na jornada. Por padrão, o campo é pré-preenchido com o último namespace usado."
 
 1. Expanda a categoria **[!UICONTROL Orquestração]** e solte uma atividade **[!UICONTROL Ler público]** na tela.
 
@@ -133,7 +133,7 @@ Todas as medidas de proteção e limitações para a atividade **Ler público-al
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_reading_rate"
 >title="Taxa de leitura"
->abstract="Máximo de perfis que entram na jornada por segundo (500-20.000). O padrão é 5.000."
+>abstract="O máximo de perfis que entram na jornada por segundo (500–20.000). O padrão é 5.000."
 
 Defina a **[!UICONTROL Taxa de leitura]** (obrigatório). Esse é o número máximo de perfis que podem entrar na jornada por segundo. Essa taxa se aplica somente a essa atividade e nenhuma outra na jornada. Se você deseja definir uma taxa de limitação em ações personalizadas, por exemplo, é necessário usar a API de limitação. Consulte esta [página](../configuration/throttling.md).
 
@@ -153,7 +153,7 @@ Esse valor é armazenado na carga da versão do jornada. O valor padrão é de 5
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Repetir até"
->abstract="Defina a data de término para execuções recorrentes."
+>abstract="Defina a data final para execuções recorrentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
@@ -163,22 +163,22 @@ Esse valor é armazenado na carga da versão do jornada. O valor padrão é de 5
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
 >title="Leitura incremental"
->abstract="Após a primeira execução, somente novos perfis adicionados ao público-alvo entram na jornada."
+>abstract="Após a primeira execução, só entram na jornada os novos perfis adicionados ao público-alvo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Forçar reentrada"
->abstract="Limpe todos os participantes da jornada antes que cada novo público-alvo seja lido."
+>abstract="Limpe todos os participantes da jornada antes de ler cada novo público-alvo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Acionar após a avaliação do público-alvo em lote"
->abstract="Execute a jornada somente após o público-alvo em lote ter sido avaliado recentemente."
+>abstract="Execute a jornada somente após ter avaliado o público-alvo em lote recentemente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="Tempo de espera para a nova avaliação do público-alvo"
->abstract="Quanto tempo a jornada aguarda pelos dados novos do público-alvo (1 a 6 horas, em minutos ou horas)."
+>abstract="O tempo que a jornada aguarda pelos novos dados do público-alvo (1 a 6 horas, em minutos ou horas)."
 
 Por padrão, as jornadas são configuradas para serem executadas uma vez. Para definir uma data/hora e uma frequência específicas na qual a jornada deve ser executada, siga as etapas abaixo.
 

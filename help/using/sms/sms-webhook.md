@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
 source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 4%
+source-wordcount: '2806'
+ht-degree: 3%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_channels_sms_webhook_settings_create"
 >title="Criar um Webhook de SMS"
->abstract="Você pode configurar Webhooks para capturar respostas de entrada para gerenciar o consentimento de aceitação e recusa e para receber relatórios do delivery, incluindo confirmações de leitura, quando disponíveis."
+>abstract="É possível configurar Webhooks para capturar respostas de entrada com o objetivo de gerenciar o consentimento, aceitação ou recusa, e receber relatórios de entrega, incluindo confirmações de leitura, quando disponíveis."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_flow_type"
 >title="Escolha o tipo de Webhook"
->abstract="Ao configurar um webhook, escolha **Entrada** para capturar respostas de consentimento e preferências do usuário ou **[!UICONTROL Feedback]** para rastrear eventos de entrega e envolvimento para relatórios e análise."
+>abstract="Ao configurar um webhook, escolha **Entrada** para capturar respostas de consentimento e preferências do usuário ou **[!UICONTROL Feedback]** para rastrear eventos de entrega e engajamento de relatórios e análise."
 
 >[!BEGINSHADEBOX]
 
