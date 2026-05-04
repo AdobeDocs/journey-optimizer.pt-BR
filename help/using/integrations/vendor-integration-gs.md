@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: integração, fornecedor, terceiros
-source-git-commit: 11f05c8763348afe9da413697fc8b732fe9f899c
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -31,6 +31,7 @@ Aplique o seguinte ao configurar qualquer integração neste guia ou em um forne
 * **Forma do ponto de extremidade:** prefira a recuperação estável de **recurso único** (por exemplo, uma entrada, produto ou membro) sobre pontos de extremidade de lista ou paginação amplos quando o produto esperar pesquisas direcionadas. Consulte [Limitações e exclusões](#limitations-exclusions) e [Trabalhar com integrações](integrations.md).
 * **Volume e confiabilidade:** Respeite os **limites de taxa** do fornecedor. Configure a política **timeout**, **repetir** e **cache** para seu canal (por exemplo, email em lote vs. envios transacionais) e valide sob carga.
 * **Segurança:** armazene e gire tokens, chaves de API e credenciais OAuth de acordo com as políticas da sua organização. Não incorpore segredos no conteúdo da mensagem.
+
 
 ## Limitações e exclusões {#limitations-exclusions}
 
