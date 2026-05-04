@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: integração
-source-git-commit: f326ca78cb3bca1d7e4989fef472b93f7db6c6d7
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 1%
@@ -74,6 +74,7 @@ A personalização da sua integração agora é aplicada com sucesso ao seu cont
 ![](assets/external-integration-content-7.png)
 
 <!--
+
 ## Map one API call to another {#map-integration-chain}
 
 You can **chain** integrations so that values returned by one active integration drive the inputs (path, headers, or query parameters) of another. That lets you build a real-time data flow in a single message without custom code.

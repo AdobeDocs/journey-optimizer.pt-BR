@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: integração, Perguntas frequentes, dados externos, personalização
-source-git-commit: 6fa66f80f5debad8db3a0019d8f24810e0365804
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 1%
@@ -18,6 +18,7 @@ ht-degree: 1%
 # Perguntas frequentes sobre integrações {#vendor-integration-faq}
 
 Abaixo estão perguntas frequentes sobre **Integrações** no Adobe Journey Optimizer.
+
 
 ## Introdução
 

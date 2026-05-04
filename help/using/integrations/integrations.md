@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: integração
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 6fa66f80f5debad8db3a0019d8f24810e0365804
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 7%
@@ -177,3 +177,4 @@ Cada mensagem em fila também carrega uma janela de validade (TTL). Se o process
    ![](assets/external-integration-content-12.png)
 
 Depois que o teste for bem-sucedido, selecione **[!UICONTROL Ativar]** na configuração de integração. Consulte [Configurar a integração](#configure).
+

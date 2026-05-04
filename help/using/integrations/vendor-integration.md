@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: integração, fornecedor, terceiros
-source-git-commit: e75c84741149a9aaf80c9f9bb1531b4c0b699ea5
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
 source-wordcount: '10154'
 ht-degree: 5%
@@ -55,7 +55,6 @@ Os seguintes pré-requisitos se aplicam:
 
 * Espaço de conteúdo com acesso à API de entrega e uma chave de API orientada a leitura.
 * Limpar tipos de conteúdo e IDs de campo; acesso de administrador no Journey Optimizer para criar integrações.
-
 
 As seguintes limitações e exclusões se aplicam:
 
