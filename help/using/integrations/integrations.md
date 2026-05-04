@@ -8,27 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: integração
-hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: f40e030e7d14120cdbc118a8f93e2f752d713f6b
+source-git-commit: 6fa66f80f5debad8db3a0019d8f24810e0365804
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1125'
 ht-degree: 7%
 
 ---
 
 # Trabalhar com integrações {#external-sources}
-
->[!BEGINSHADEBOX]
-
-Índice:
-
-* **[Trabalhar com integrações](integrations.md)**
-* [Introdução](vendor-integration-gs.md)
-* [Fornecedores disponíveis](vendor-integration.md)
-* [Perguntas frequentes](vendor-integration-faq.md)
-
->[!ENDSHADEBOX]
 
 ## Visão geral
 
@@ -41,7 +29,7 @@ Você pode usar esse recurso para acessar dados externos e extrair conteúdo de 
 * **Recomendações de produto** dos mecanismos de recomendação.
 * **Atualizações de logística** como status de entrega.
 
-Para começar a usar Integrações, os usuários precisam receber as permissões **[!UICONTROL Gerenciar configuração de integração do AJO]** e **[!UICONTROL Exibir integração do AJO]**. [Saiba mais sobre permissões](../administration/permissions.md)
+Para começar a usar Integrações, os usuários precisam receber as permissões **[!UICONTROL Gerenciar configuração de integração do AJO]** e **[!UICONTROL Exibir configuração de integração do AJO]**. [Saiba mais sobre permissões](../administration/permissions.md)
 
 +++ Saiba como atribuir permissões relacionadas a integrações
 
@@ -69,7 +57,7 @@ Se o usuário não tiver sido criado anteriormente, consulte [esta documentaçã
 
 >[!AVAILABILITY]
 >
-> Esse recurso de integração é restrito a canais de saída (Email, SMS e Push) e fornece dados em formatos JSON ou HTML. Observe que a API é somente leitura e oferece suporte somente às operações de recuperação.
+> Esse recurso de integração é restrito aos canais de saída (Email, SMS e Push) e oferece suporte a pull JSON ou HTML.
 
 Como administrador, você pode configurar integrações externas seguindo estas etapas:
 
@@ -85,11 +73,15 @@ Como administrador, você pode configurar integrações externas seguindo estas 
 
    >[!NOTE]
    >
-   >Esses campos não podem conter espaços.
+   >O campo **[!UICONTROL Nome]** não pode conter espaços.
 
-1. Insira o ponto de extremidade de API **[!UICONTROL URL]**, que pode incluir parâmetros de caminho com variáveis que podem ser definidas usando rótulos e valores padrão.
+1. Insira o ponto de extremidade de API **[!UICONTROL URL]**.
 
-1. Configure o **[!UICONTROL Modelo de Caminho]** com **[!UICONTROL Nome]** e **[!UICONTROL Valor padrão]**.
+   Para variáveis de caminho, envolva um rótulo com chaves duplas na URL, por exemplo, `https://api.example.com/v1/products/{{productId}}`, e defina cada espaço reservado em **[!UICONTROL Modelo de caminho]**.
+
+1. Configure o **[!UICONTROL Modelo de Caminho]** com o **[!UICONTROL Nome]** e o **[!UICONTROL Valor padrão]** para cada espaço reservado adicionado à URL.
+
+   Observe que **[!UICONTROL Name]** é um rótulo voltado para o profissional de marketing apenas no editor, ele não é enviado na solicitação de API.
 
    ![](assets/external-integration-config-2.png)
 
@@ -97,15 +89,15 @@ Como administrador, você pode configurar integrações externas seguindo estas 
 
 1. Clique em **[!UICONTROL Adicionar cabeçalho]** e/ou **[!UICONTROL Adicionar parâmetros de consulta]** conforme necessário para sua integração. Para cada parâmetro, forneça os seguintes detalhes:
 
-   * **[!UICONTROL Parâmetro]**: um identificador exclusivo usado internamente para fazer referência ao parâmetro.
+   * **[!UICONTROL Parâmetro]**: o cabeçalho real ou o nome do parâmetro de consulta conforme esperado pela API.
 
-   * **[!UICONTROL Nome]**: o nome real do parâmetro conforme esperado pela API.
+   * **[!UICONTROL Nome]**: um rótulo compatível com o profissional de marketing para esse parâmetro, os autores o selecionam ao mapear valores em campanhas.
 
    * **[!UICONTROL Tipo]**: escolha **Constante** para um valor fixo ou **Variável** para entrada dinâmica.
 
    * **[!UICONTROL Valor]**: insira o valor diretamente para constantes ou selecione um mapeamento de variável.
 
-   * **[!UICONTROL Obrigatório]**: especifique se este parâmetro é obrigatório.
+   * **[!UICONTROL Obrigatório]**: especifique se este parâmetro é obrigatório. Para parâmetros obrigatórios **[!UICONTROL Variable]**, se nenhum valor for resolvido em tempo de execução e nenhum padrão for fornecido, a geração de solicitações falhará com um erro e a chamada de API de saída não será feita.
 
    ![](assets/external-integration-config-3.png)
 
@@ -123,8 +115,11 @@ Como administrador, você pode configurar integrações externas seguindo estas 
 
 1. Defina a **[!UICONTROL Configuração de política]**, como o período de **[!UICONTROL Tempo limite]**, para solicitações de API e opte por habilitar a limitação, o cache e/ou tentar novamente.
 
-   Quando a limitação está habilitada, as taxas com suporte variam de **50** TPS (mínimo) a **5000** TPS (máximo).
-Quando a repetição está habilitada, outras falhas seguem **três** tentativas por padrão, com **200 ms**, **400 ms** e **800 ms** entre tentativas sucessivas.
+   >[!NOTE]
+   >
+   >Com a limitação ativada, as taxas compatíveis são de 50 a 5000 TPS. Os limites se aplicam à **integração**, não a cada ponto de extremidade de API.
+   >
+   >Com a repetição habilitada, outras falhas são repetidas **três** vezes por padrão, com **200 ms**, **400 ms** e **800 ms** entre tentativas.
 
 1. Com o campo **[!UICONTROL Carga de resposta]**, é possível decidir quais campos da saída de exemplo precisam ser usados para a personalização da mensagem.
 
@@ -138,9 +133,20 @@ Quando a repetição está habilitada, outras falhas seguem **três** tentativas
    >
    >A configuração **[!UICONTROL Carga de resposta]** define a resposta esperada para criação, incluindo qualquer esquema aplicado nessa etapa. Os profissionais de marketing podem fazer referência somente a campos expostos, os tokens para outros caminhos falham na validação no editor.
 
-1. Use **[!UICONTROL Enviar conexão de teste]** para validar a integração.
+1. Use **[!UICONTROL Enviar conexão de teste]** para validar a integração. [Saiba mais sobre como testar sua conexão](#connection)
 
    Depois de validado, clique em **[!UICONTROL Ativar]**.
+
+1. Acesse a integração recém-criada para:
+
+   * **Atualização**: alterar somente detalhes de **Autenticação** e **configuração de política**. As atualizações se aplicam a jornadas e campanhas ativas. Antes de salvar as alterações, use o menu **[!UICONTROL Explorar referências]** para confirmar onde a integração é usada.
+   * **Arquivar**: arquivar uma configuração de Integração.
+
+   ![](assets/external-integration-config-7.png)
+
+Após a ativação, clique no ícone do ![menu avançado](assets/do-not-localize/Smock_More_18_N.svg) para acessar o menu **[!UICONTROL Explorar referências]** e revisar o uso dessa configuração, incluindo jornadas e campanhas que dependem dele.
+
+![](assets/external-integration-config-6.png)
 
 ### Comportamento e limites de tempo de envio {#configure-send-time}
 
@@ -150,61 +156,24 @@ As chamadas respeitam a taxa de **limitação** que você configurou: o Journey 
 
 Cada mensagem em fila também carrega uma janela de validade (TTL). Se o processamento for atrasado e uma mensagem ultrapassar essa janela, o sistema **a descartará** e emitirá um evento **`MessageValidityExclusion`** para que o trabalho obsoleto seja liberado da fila e os recursos permaneçam disponíveis.
 
+## Testando sua conexão {#connection}
 
-## Uso de integrações externas para personalização {#personalization}
+**[!UICONTROL Enviar conexão de teste]** valida a URL do ponto de extremidade, a autenticação e a estrutura da solicitação em relação à API de destino antes da ativação, o que reduz o risco de falhas de tempo de execução durante o processamento da mensagem.
 
-Antes de usar integrações externas para personalização, observe que o agendamento e o isolamento de chamadas de integração dependem do contexto de execução:
+1. Quando a URL, o método HTTP, os cabeçalhos e os parâmetros de consulta forem definidos, clique em **[!UICONTROL Enviar conexão de teste]** para executar um teste de conectividade e confirmar a configuração.
 
-* **Execução em lote** (campanhas em lote, campanhas orquestradas e campanhas de marketing acionadas por API): cada execução em lote opera em um ambiente dedicado e isolado. Portanto, as execuções em lote simultâneas que chamam sistemas externos não disputam ou obstruem uns aos outros.
+1. Na caixa de diálogo **[!UICONTROL Enviar conexão de teste]**, insira valores padrão para quaisquer espaços reservados de **[!UICONTROL Variável]** no caminho de URL, cabeçalhos e parâmetros de consulta.
 
-* **Execução unitária** (jornadas unitárias, jornadas em lote e campanhas transacionais acionadas por API): o tráfego de integração é isolado por sandbox de marca, portanto, uma API externa lenta para uma marca não atrasa outra. Em sua sandbox, as integrações simultâneas podem atrasar brevemente outras mensagens com backup em integração; cada mensagem é tentada por até 12 horas antes da expiração.
+   Esses valores são incluídos na solicitação de teste. O Journey Optimizer chama o endpoint e relata se a conexão teve êxito ou falhou.
 
-Como profissional de marketing, você pode usar integrações configuradas para personalizar seu conteúdo. Siga estas etapas:
+   ![](assets/external-integration-config-11.png)
 
-1. Acesse o conteúdo da campanha e clique em **[!UICONTROL Adicionar personalização]** a partir do Texto ou dos **[!UICONTROL Componentes]** do HTML.
+1. Se o teste retornar uma resposta bem-sucedida, selecione **[!UICONTROL Usar como carga de resposta]** para copiar o corpo da resposta no campo **[!UICONTROL Carga de resposta]**, consulte a etapa 10 em [Configurar a integração](#configure), onde os tipos de dados podem ser detectados e os campos podem ser selecionados para personalização.
 
-   [Saiba mais sobre componentes](../email/content-components.md)
+   ![](assets/external-integration-config-10.png)
 
-   ![](assets/external-integration-content-1.png)
+1. Se o teste não for bem-sucedido, expanda o menu suspenso **[!UICONTROL Erro]** para examinar os detalhes da falha, atualize a configuração de integração conforme necessário e execute **[!UICONTROL Enviar conexão de teste]** novamente.
 
-1. Navegue até a seção **[!UICONTROL Integrações]** e clique em **[!UICONTROL Abrir integrações]** para exibir todas as integrações ativas.
+   ![](assets/external-integration-content-12.png)
 
-   Observe que os Fragmentos de conteúdo estão disponíveis com Integrações, mas são compatíveis apenas com canais de saída, e a publicação de entrada não será bem-sucedida. Depois que um fragmento é publicado, a adição e o salvamento de novas integrações são desativados para evitar impacto nas jornadas e campanhas existentes.
-
-   ![](assets/external-integration-content-2.png)
-
-1. Selecione uma integração e clique em **[!UICONTROL Salvar]**.
-
-   ![](assets/external-integration-content-3.png)
-
-1. Habilite o modo **[!UICONTROL Pills]** para desbloquear o menu de integração avançado.
-
-   ![](assets/external-integration-content-4.png)
-
-1. Ao criar a personalização da integração, o Auxiliar de integrações inclui um campo **`required`** que define como as falhas ou os dados ausentes interagem com o conteúdo padrão:
-
-   * **`required=true`** (padrão): a renderização para essa mensagem. O envio é excluído com **`ExternalDataLookupExclusion`**, e essa exclusão é registrada no **conjunto de dados de comentários da mensagem**.
-   * **`required=false`**: A variável de resultado está definida como **`null`** e a renderização continua. Use texto padrão, fallbacks ou lógica condicional no modelo para que os perfis não recebam conteúdo vazio quando a integração não retornar dados.
-
-     ![](assets/external-integration-content-8.png)
-
-1. Para concluir a configuração de integração, defina os atributos de integração, que foram especificados anteriormente durante a [configuração](#configure).
-
-   Você pode designar valores a esses atributos usando valores estáticos, que permanecem constantes, ou atributos de perfil, que extraem dinamicamente informações dos perfis do usuário.
-
-   ![](assets/external-integration-content-5.png)
-
-1. Depois que os atributos de integração forem definidos, você poderá usar os campos de integração no seu conteúdo para mensagens personalizadas clicando no ícone ![adicionar](assets/do-not-localize/Smock_Add_18_N.svg).
-
-   ![](assets/external-integration-content-6.png)
-
-   >[!NOTE]
-   >
-   >Os tokens no modelo devem usar somente campos expostos pelo administrador na configuração de integração. Por exemplo, `{{weatherResponse.temperature}}` é válido quando `temperature` é exposto; `{{weatherResponse.humidity}}` é rejeitado no editor se `humidity` não foi exposto.
-
-1. Clique em **[!UICONTROL Salvar]**.
-
-A personalização da sua integração agora é aplicada com sucesso ao seu conteúdo, garantindo que cada recipient receba uma experiência personalizada e relevante com base nos atributos configurados.
-
-![](assets/external-integration-content-7.png)
-
+Depois que o teste for bem-sucedido, selecione **[!UICONTROL Ativar]** na configuração de integração. Consulte [Configurar a integração](#configure).

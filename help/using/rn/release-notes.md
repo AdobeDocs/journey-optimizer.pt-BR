@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: ddea96b4267b4ca24d1647914156b43f6e9bb13e
 workflow-type: tm+mt
-source-wordcount: '2047'
-ht-degree: 20%
+source-wordcount: '2060'
+ht-degree: 21%
 
 ---
 
@@ -40,6 +40,24 @@ Os novos recursos e aprimoramentos lançados no início de abril são anunciados
 **Data de lançamento**: 28 a 29 de abril de 2026
 
 ### Novos recursos {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Integrações</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O recurso <b>Integrações</b> permite conectar fontes de dados de terceiros diretamente ao Adobe Journey Optimizer. Ao simplificar a forma como você obtém dados externos e <b>conteúdo de composição</b>, esse recurso facilita a entrega de mensagens personalizadas e dinâmicas em todos os canais.</p>
+<p>Anteriormente lançado na versão beta, esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
+<p>Para obter mais informações, consulte a <a href="../integrations/integrations.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 4 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -354,22 +372,6 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 Os recursos e aprimoramentos a seguir estão programados para serem lançados nos próximos dias. **As informações estão sujeitas a alterações**. Links, telas e documentação atualizados serão compartilhados assim que essas atualizações estiverem ativas na produção.
 
 ### Novos recursos {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>Integrações</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O recurso <b>Integrações</b> permite conectar fontes de dados de terceiros diretamente ao Adobe Journey Optimizer. Ao simplificar a forma como você obtém dados externos e <b>conteúdo de composição</b>, esse recurso facilita a entrega de mensagens personalizadas e dinâmicas em todos os canais.</p>
-<p>Anteriormente lançado na versão beta, esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>

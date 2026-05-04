@@ -8,29 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: integração, Perguntas frequentes, dados externos, personalização
-hide: true
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 6fa66f80f5debad8db3a0019d8f24810e0365804
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 2%
+source-wordcount: '852'
+ht-degree: 1%
 
 ---
 
 # Perguntas frequentes sobre integrações {#vendor-integration-faq}
 
->[!BEGINSHADEBOX]
-
-Índice:
-
-* [Trabalhar com integrações](integrations.md)
-* [Introdução à integração de fornecedores](vendor-integration-gs.md)
-* [Fornecedores disponíveis](vendor-integration.md)
-* **[Perguntas frequentes](vendor-integration-faq.md)**
-
->[!ENDSHADEBOX]
-
 Abaixo estão perguntas frequentes sobre **Integrações** no Adobe Journey Optimizer.
-
 
 ## Introdução
 
@@ -114,9 +101,9 @@ Sim. O recurso está disponível para jornadas e campanhas para **canais de saí
 
 +++ Posso usar integrações em fragmentos reutilizáveis?
 
-O recurso de Integrações **não** é suportado em Fragmentos. Use integrações no conteúdo da campanha e da mensagem de jornada onde o produto oferecer suporte.
+O recurso Integrações é compatível com Fragmentos.
 
-➡️ [Saiba mais sobre fragmentos e limites beta](integrations.md#limitations)
+➡️ [Saiba mais sobre fragmentos](aem-fragments-gs.md)
 
 +++
 
@@ -132,7 +119,7 @@ Há suporte para **canais de saída** (por exemplo, email, SMS e push).
 
 +++ Quais formatos de resposta da API são compatíveis?
 
-Para respostas de chamada de API, **JSON** é compatível com o mapeamento de campos. A saída de imagem binária bruta e os formatos que não são JSON não estão disponíveis para este fluxo de trabalho.
+Para respostas de chamada de API, há suporte para **JSON** e **HTML** para mapeamento de campos. A saída de imagem binária bruta e os formatos que não são JSON não estão disponíveis para este fluxo de trabalho.
 
 ➡️ [Saiba mais sobre JSON e formatos de resposta](integrations.md#limitations)
 
@@ -150,9 +137,9 @@ Para respostas de chamada de API, **JSON** é compatível com o mapeamento de ca
 
 +++ Quais permissões são necessárias para configurar integrações?
 
-A configuração é um fluxo de trabalho de administrador em **[!UICONTROL Configurações]** > **[!UICONTROL Integrações]**. Os nomes exatos de permissão dependem dos perfis de produto da Admin Console e da Journey Optimizer de sua organização. Confirme com seu administrador ou representante da Adobe.
+Para começar a usar Integrações, os usuários precisam receber as permissões **[!UICONTROL Gerenciar configuração de integração do AJO]** e **[!UICONTROL Exibir configuração de integração do AJO]**.
 
-➡️ [Saiba mais sobre onde as Integrações são configuradas](integrations.md#configure)
+➡️ [Saiba mais sobre permissões de integrações](integrations.md#overview)
 
 +++
 

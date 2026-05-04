@@ -7,28 +7,16 @@ feature: Integrations
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: integração, fornecedor, terceiros
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: 11f05c8763348afe9da413697fc8b732fe9f899c
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 1%
+source-wordcount: '375'
+ht-degree: 0%
 
 ---
 
 
 # Integração de fornecedores {#vendor-integration}
-
->[!BEGINSHADEBOX]
-
-Índice:
-
-* [Trabalhar com integrações](integrations.md)
-* **[Introdução à integração de fornecedores](vendor-integration-gs.md)**
-* [Fornecedores disponíveis](vendor-integration.md)
-* [Perguntas frequentes](vendor-integration-faq.md)
-
->[!ENDSHADEBOX]
 
 Você pode usar **Integrações** no Adobe Journey Optimizer para chamar **sistemas externos via HTTP** quando cada sistema expõe um **endpoint de API** que se adapta ao seu caso de uso e é compatível com a forma como as Integrações emite solicitações e consome respostas. Para obter o fluxo de trabalho completo, consulte [Trabalhar com integrações](integrations.md).
 
@@ -52,8 +40,8 @@ A lista de soluções de terceiros é **ilustrativa**, não exaustiva. As APIs d
 
 Use esses links agrupados para ir rapidamente para o padrão do fornecedor relevante:
 
-* **Sistema de gerenciamento de conteúdo:** [Conteúdo](#contentful), [Sitecore](#sitecore), [Salsify](#salsify), [Contentstack](#contentstack), [Akeneo](#akeneo), [Magnolia](#magnolia)
-* **Fidelidade e recompensas:** [Voucherify](#voucherify), [Talon.One](#talon-one), [Antavo](#antavo), [Fidelidade do Salesforce](#salesforce-loyalty), [Capilar](#capillary)
-* **Modelos, personalização e recomendações:** [Stensul](#stensul), [Marigold](#marigold), [Recomendações do Adobe Target](#adobe-target-recommendations)
-* **Dados, clima e operações:** [AccuWeather](#accuweather), [ShipStation](#shipstation), [RevenueCat](#revenuecat), [Databricks](#databricks)
-* **Revisões, consentimento e redes sociais:** [Bynder](#bynder), [Trustpilot](#trustpilot), [Bazaarvoice](#bazaarvoice), [OneTrust](#onetrust), [Meta](#meta), [Aprimo](#aprimo), [Epsilon (Epsilon3)](#epsilon)
+* **Sistema de gerenciamento de conteúdo:** [Conteúdo](vendor-integration.md#contentful), [Sitecore](vendor-integration.md#sitecore), [Salsify](vendor-integration.md#salsify), [Contentstack](vendor-integration.md#contentstack), [Akeneo](vendor-integration.md#akeneo), [Magnolia](vendor-integration.md#magnolia)
+* **Fidelidade e recompensas:** [Voucherify](vendor-integration.md#voucherify), [Talon.One](vendor-integration.md#talon-one), [Antavo](vendor-integration.md#antavo), [Fidelidade do Salesforce](vendor-integration.md#salesforce-loyalty), [Capilar](vendor-integration.md#capillary)
+* **Modelos, personalização e recomendações:** [Stensul](vendor-integration.md#stensul), [Marigold](vendor-integration.md#marigold), [Recomendações do Adobe Target](vendor-integration.md#adobe-target-recommendations)
+* **Dados, clima e operações:** [AccuWeather](vendor-integration.md#accuweather), [ShipStation](vendor-integration.md#shipstation), [RevenueCat](vendor-integration.md#revenuecat), [Databricks](vendor-integration.md#databricks)
+* **Revisões, consentimento e redes sociais:** [Bynder](vendor-integration.md#bynder), [Trustpilot](vendor-integration.md#trustpilot), [Bazaarvoice](vendor-integration.md#bazaarvoice), [OneTrust](vendor-integration.md#onetrust), [Meta](vendor-integration.md#meta), [Aprimo](vendor-integration.md#aprimo), [Epsilon (Epsilon3)](vendor-integration.md#epsilon)
