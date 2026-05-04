@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: e7586f50e9f806b7dccb6d88998c43a89feb392b
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 10%
+source-wordcount: '1455'
+ht-degree: 13%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="Criar jornadas"
->abstract="Use o **[!DNL Adobe Journey Optimizer]** para criar casos de uso de orquestração em tempo real, aproveitando dados contextuais armazenados em eventos ou fontes de dados."
+>abstract="Use o **[!DNL Adobe Journey Optimizer]** para criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
@@ -60,6 +60,15 @@ O que é necessário configurar antes de criar depende de como a jornada é acio
 
 * **Entrada baseada em eventos** — A jornada é acionada em tempo real quando um indivíduo executa uma ação, como uma compra ou uma inscrição. [Configure um evento](../event/about-events.md) para definir o gatilho e os dados que ele transporta.
 
+**Não tem certeza de qual ponto de entrada usar?** A tabela abaixo mapeia os casos de uso mais comuns para a atividade inicial correta.
+
+| Ponto de entrada | Usar quando... | Os perfis entram |
+|---|---|---|
+| **[Ler público-alvo](read-audience.md)** | Você deseja enviar uma mensagem agendada ou recorrente para um conjunto definido de perfis (boletins informativos, promoções, séries de integração). | Todos os perfis de um público-alvo em lote, de uma só vez ou de acordo com um agendamento. |
+| **[Qualificação de público-alvo](audience-qualification-events.md)** | Você precisa reagir em tempo real quando um perfil entra ou sai de um público-alvo (atualização do nível de fidelidade, sinalizador de risco de churn). | Um perfil por vez, assim que forem qualificados em um público de streaming. |
+| **Evento unitário** | Uma ação de perfil aciona uma resposta imediata (confirmação de compra, envio de formulário, logon de aplicativo). | Um perfil por vez, em tempo real. |
+| **[Evento comercial](../event/about-creating-business.md)** | Um evento que não seja de perfil afeta várias pessoas de uma só vez (cancelamento de voo, reposição de estoque, alerta de últimas notícias). | Todos os perfis associados ao evento, por meio de uma etapa automática Ler público. |
+
 Os seguintes elementos são opcionais, mas podem ser obrigatórios, dependendo do seu caso de uso:
 
 * **Fonte de dados** — Para enriquecer as condições de jornada ou a personalização com dados de um sistema externo, configure uma [fonte de dados](../datasource/about-data-sources.md).
@@ -84,7 +93,7 @@ Para criar uma jornada de várias etapas, siga estas etapas:
 
    >[!TIP]
    >
-   >**Que tipo de jornada devo escolher?** Se você é novo no Journey Optimizer, comece com uma jornada baseada em público-alvo usando uma atividade **[!UICONTROL Ler público-alvo]** — ela não requer configuração prévia de evento e é a maneira mais fácil de se familiarizar com a tela. Para experiências acionadas por eventos em tempo real (por exemplo, reagir a uma compra ou ao envio de um formulário), configure um evento primeiro e use uma entrada baseada em eventos. Pronto para aprofundar? [Descubra todos os tipos de jornadas e suas regras de entrada](entry-management.md#types-of-journeys).
+   >**Que tipo de jornada devo escolher?** Se você é novo no Journey Optimizer, comece com uma jornada baseada em público usando uma atividade **[!UICONTROL Ler público-alvo]** — ela não requer configuração de evento anterior e é a maneira mais fácil de se familiarizar com a tela. Para experiências acionadas por eventos em tempo real (por exemplo, reagir a uma compra ou ao envio de um formulário), configure um evento primeiro e use uma entrada baseada em eventos. Pronto para aprofundar? [Descubra todos os tipos de jornadas e suas regras de entrada](entry-management.md#types-of-journeys).
 
    ![Painel de propriedades do Jornada com opções de configuração e definições](assets/jo-properties.png)
 
@@ -114,7 +123,7 @@ Siga estas etapas para criar sua jornada:
 
 Depois de criar a jornada, teste-a antes de publicar. A Journey Optimizer oferece um **Modo de teste** como uma maneira de exibir perfis de teste conforme eles se movem ao longo da jornada, detectando possíveis erros antes da ativação. A execução de testes rápidos garante que as jornadas funcionem corretamente para que você possa publicá-las com confiança. Saiba como testar sua jornada [nesta seção](testing-the-journey.md)
 
-Você também pode executar sua jornada em **Dry run**. O teste de simulação da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil. Esse recurso ajuda os profissionais de jornada a ganhar confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la ao vivo. Saiba como publicar uma jornada no modo de Execução em Seco [nesta seção](journey-dry-run.md).
+Você também pode executar sua jornada em **Dry run**. O teste de simulação da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil. Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la. Saiba como publicar uma jornada no modo de Execução em Seco [nesta seção](journey-dry-run.md).
 
 ## Publicar a jornada {#jo-pub}
 

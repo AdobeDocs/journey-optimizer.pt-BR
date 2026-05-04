@@ -10,10 +10,10 @@ level: Intermediate
 keywords: atividade, jornada, ler público, público, segmento, lote, ponto de entrada, acionador, programação, Qualificação do público
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '3538'
-ht-degree: 10%
+source-wordcount: '3612'
+ht-degree: 9%
 
 ---
 
@@ -37,6 +37,13 @@ A atividade **Ler Público** é a atividade de ponto de entrada de jornada que a
 | Você deseja executar uma jornada uma vez ou em um agendamento (lote). | Os perfis precisam ser inseridos na jornada em tempo real à medida que se qualificam. |
 | Seu público é avaliado em lote (por exemplo, instantâneo diário). | Seu público-alvo é de transmissão ou baseado em eventos. |
 | Você pode aceitar um atraso entre a avaliação do público-alvo e a entrada da jornada. | Você precisa de uma entrada imediata quando um perfil se qualifica. |
+
+>[!TIP]
+>
+>**Exemplos reais**
+>* **Informativo semanal** → Ler público. Seu público-alvo é um instantâneo diário em lote. Você agenda a jornada todas as segundas-feiras às 9 horas. Todos os perfis qualificados são inseridos juntos.
+>* **Atualização da camada de fidelidade** → Qualificação do público-alvo. Assim que um perfil atinge o status Gold em um público-alvo de transmissão, ele entra na jornada imediatamente para receber um email de parabéns.
+>* **Série de reengajamento** → Ler público. Você executa uma jornada recorrente a cada 30 dias, direcionando perfis inativos por mais de 90 dias.
 
 **Limites de chave:** um público-alvo de leitura por jornada (deve ser a primeira atividade); um público-alvo por atividade; até cinco execuções simultâneas de público-alvo de leitura por organização; 20.000 perfis por segundo por sandbox; tempo limite de trabalho de 12 horas. Detalhes completos em [Medidas de proteção e limitações](../start/guardrails.md#read-segment-g).
 

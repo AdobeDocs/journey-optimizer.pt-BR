@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jump, activity, jornada, split, dividir
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 9d9c1c4981f6429b0714e27a9df78a5f533eac72
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 7%
+source-wordcount: '1418'
+ht-degree: 6%
 
 ---
 
@@ -53,6 +53,20 @@ Na jornada B, o primeiro evento é acionado internamente por meio da atividade *
 >[!NOTE]
 >
 >A jornada B também pode ser acionada por meio de um evento externo.
+
+### Comportamento do perfil durante um salto {#jump-profile-behavior}
+
+Quando um perfil atinge a etapa **[!UICONTROL Jump]**, ele continua progredindo na jornada de origem (Jornada A) enquanto entra simultaneamente na jornada de destino (Jornada B). Portanto, o perfil está ativo em ambas as jornadas ao mesmo tempo.
+
+Isso significa:
+
+* O perfil conclui todas as etapas restantes na Jornada A após a atividade Jump (por exemplo, uma espera de acompanhamento ou ação de fechamento).
+* O perfil também começa a fluir pela Jornada B a partir de seu primeiro evento, independentemente da Jornada A.
+* Se o perfil **já estiver ativo** na Jornada B quando o salto for executado, ele **não** inserirá a Jornada B novamente. A jornada A continua normalmente; nenhum erro é relatado.
+
+>[!NOTE]
+>
+>O caso acima — perfil já ativo na Jornada B — resulta em um **ignorar silencioso**: nenhum erro é gerado e a Jornada A continua normalmente. Em outras situações, o salto pode **falhar** e a Jornada A aplica sua manipulação padrão de erro de ação. Consulte [Falhas em tempo de execução](#jump-troubleshoot) para obter a lista completa de ocorrências.
 
 ## Práticas recomendadas e limitações {#jump-limitations}
 
@@ -138,10 +152,20 @@ Quando uma atividade de **[!UICONTROL Jump]** é configurada em uma jornada, um 
 
 ## Solução de problemas {#jump-troubleshoot}
 
-Ocorrem erros se:
+### Erros de configuração
 
-* A jornada de destino não existe mais
-* A jornada de destino está em rascunho, fechada ou parada
-* O primeiro evento da jornada de destino foi alterado e o mapeamento foi interrompido
+Os seguintes problemas impedem que o salto funcione corretamente e são exibidos como erros na tela de jornada:
+
+* A jornada de destino não existe mais.
+* A jornada de destino está em rascunho, fechada ou parada.
+* O primeiro evento da jornada de destino foi alterado e o mapeamento foi interrompido.
 
 ![Análise de Jornada mostrando as métricas de execução da atividade de salto](assets/jump6.png)
+
+### Falhas de tempo de execução
+
+Nos seguintes casos, a etapa de salto é tratada como uma **ação com falha** na Jornada A. A Jornada A aplica a manipulação padrão de erros de ação e continua:
+
+* A instância de jornada de destino existente foi encerrada e a jornada de destino não é reentrante.
+* Um período de reentrada é configurado na jornada de destino. Mesmo quando a reentrada é permitida em princípio, o perfil não pode entrar novamente até que o período expire (o salto falha com um status &quot;não reentrante para o período&quot;).
+* Não é possível localizar a versão de destino do jornada, ela foi excluída, está em um estado concluído ou foi interrompida.
