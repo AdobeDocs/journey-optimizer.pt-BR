@@ -11,9 +11,9 @@ hide: true
 keywords: fragmentos, jornada, reutilizar, nós, tela, inventário, reutilizável
 badge: label="Disponibilidade limitada" type="Informative"
 version: Journey Orchestration
-source-git-commit: 869c1e32911d873a4a565cd0f81a8ff6b92ff96b
+source-git-commit: d18f56e2730ba4b59d2923ed0b7a00ccfff06b3f
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1482'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Os fragmentos de jornada são conjuntos reutilizáveis de nós de jornada que vo
 Depois de criados, os fragmentos são armazenados em um **[!UICONTROL Inventário de Fragmentos]** dedicado e podem ser inseridos em qualquer jornada usando a atividade **[!UICONTROL Fragmentos de Jornada]**.
 
 >[!NOTE]
->Nesta primeira versão, os fragmentos de jornada usam um **comportamento de cópia**: inserir um fragmento em uma jornada cria uma cópia estática dos nós originais. As atualizações feitas no fragmento original não são refletidas automaticamente nas jornadas que já o usaram.
+>Os fragmentos de jornada usam um **comportamento de cópia**: inserir um fragmento em uma jornada cria uma cópia estática dos nós originais. As atualizações feitas no fragmento original não são refletidas nas jornadas que já o usaram.
 
 ## Permissões {#journey-fragments-permissions}
 
@@ -71,7 +71,7 @@ Para salvar nós de jornada como um fragmento diretamente da tela de jornada:
 1. Clique em **[!UICONTROL Salvar]**. O fragmento é salvo como um rascunho.
 
 >[!TIP]
->Se você criar um fragmento a partir de uma jornada, [teste sua jornada](testing-the-journey.md) **antes** de salvar o fragmento para garantir que os nós selecionados se comportem conforme esperado.
+>Se você criar um fragmento a partir de uma jornada, [teste ou simule sua jornada](testing-the-journey.md) **antes** de salvar o fragmento para garantir que os nós selecionados se comportem conforme esperado.
 
 >[!TAB Do inventário de fragmentos]
 
@@ -83,7 +83,7 @@ Para criar um fragmento diretamente do inventário:
 1. Quando terminar, clique em **[!UICONTROL Salvar]** para salvar o fragmento como rascunho.
 
 >[!CAUTION]
->O modo de teste não está disponível no editor de fragmentos. Isso significa que não é possível validar o comportamento das atividades configuradas antes que o fragmento seja ativado e inserido em uma jornada. Para fragmentos em que a precisão lógica é crítica, considere [criar e testar os nós em uma jornada completa](testing-the-journey.md) primeiro e, em seguida, salvá-los como um fragmento da guia da tela acima.
+>O modo de teste e a simulação não estão disponíveis no editor de fragmentos. Isso significa que não é possível validar o comportamento das atividades configuradas antes que o fragmento seja ativado e inserido em uma jornada. Para fragmentos em que a precisão lógica é crítica, considere [criar e testar ou simular os nós em uma jornada completa](testing-the-journey.md) primeiro e, em seguida, salvá-los como um fragmento da guia da tela acima.
 
 >[!ENDTABS]
 
@@ -103,7 +103,7 @@ Para editar um fragmento, abra-o no **[!UICONTROL Inventário de fragmentos]** c
 >
 >* Somente fragmentos de **[!UICONTROL Rascunho]** podem ser editados. Para modificar um fragmento **[!UICONTROL Ativo]**, desative-o primeiro.
 >
->* O modo de teste não está disponível no editor de fragmentos. Teste qualquer lógica em nível de jornada na jornada completa antes de salvar os nós como um fragmento.
+>* O modo de teste e a simulação não estão disponíveis no editor de fragmentos. Teste ou simule qualquer lógica em nível de jornada na jornada completa antes de salvar nós como um fragmento.
 >
 >* Atividades de [Jump](jump.md) não são permitidas dentro de um fragmento.
 
@@ -111,40 +111,53 @@ Para editar um fragmento, abra-o no **[!UICONTROL Inventário de fragmentos]** c
 
 ### Status dos fragmentos {#fragment-statuses}
 
-Os fragmentos de jornada seguem um ciclo de vida de dois status:
+Os fragmentos de jornada seguem um ciclo de vida com os seguintes status:
 
 | Status | Descrição |
 |---|---|
 | **[!UICONTROL Rascunho]** | O fragmento está sendo criado e ainda não está disponível para uso no jornada. |
 | **[!UICONTROL Ativo]** | O fragmento está pronto para ser usado no jornada. |
+| **[!UICONTROL Arquivado]** | O fragmento foi arquivado e não está mais disponível para uso no jornada. |
 
-Para ativar um fragmento de **[!UICONTROL Rascunho]**, abra-o e use o ícone **[!UICONTROL Ativar]**. Para desativar um fragmento **[!UICONTROL Ativo]**, abra-o e use o ícone **[!UICONTROL Desativar]**.
+As seguintes regras se aplicam às transições de status do fragmento:
+
+* Somente fragmentos de **[!UICONTROL Rascunho]** podem ser ativados. Abra um fragmento de rascunho e use o ícone **[!UICONTROL Ativar]**.
+* Somente fragmentos **[!UICONTROL Ativos]** podem ser desativados ou arquivados.
+* Somente fragmentos **[!UICONTROL Arquivados]** podem ser desarquivados. Desarquivar um fragmento o retorna ao estado **[!UICONTROL Rascunho]**.
+* Somente fragmentos de **[!UICONTROL Rascunho]** podem ser excluídos.
+
+>[!NOTE]
+>Ao ativar um fragmento, a maioria das mesmas verificações de validação executadas durante a publicação do jornada é aplicada. No entanto, **os atributos contextuais não são validados** e **as políticas de governança não são aplicadas** no momento da ativação — ambos são avaliados quando o fragmento é inserido e usado em uma jornada.
 
 ### Ações de fragmento {#fragment-actions}
 
 No inventário de fragmentos, é possível executar as seguintes ações em um fragmento:
 
 * **[!UICONTROL Abrir]**: edite o fragmento clicando em seu nome.
-* **[!UICONTROL Duplicar]**: crie uma cópia do fragmento, a partir do ícone **[!UICONTROL Mais ações]** (...).
-* **[!UICONTROL Excluir]**: exclua um fragmento do inventário ativo, do ícone **[!UICONTROL Mais ações]** (...).
-* **[!UICONTROL Editar marcas]** — adicione ou remova marcas de um fragmento, do ícone **[!UICONTROL Mais ações]** (...).
+* **[!UICONTROL Duplicar]**: criar uma cópia do fragmento a partir de **[!UICONTROL Mais ações]** (...) ícone.
+* **[!UICONTROL Arquivar]**: arquivar um fragmento (disponível somente para fragmentos **[!UICONTROL Ativos]**) de **[!UICONTROL Mais ações]** (...) ícone. Os fragmentos arquivados não estão mais disponíveis no seletor de fragmentos.
+* **[!UICONTROL Desarquivar]**: restaurar um fragmento arquivado (disponível somente para fragmentos **[!UICONTROL Arquivados]**), a partir de **[!UICONTROL Mais ações]** (...) ícone. O fragmento retorna ao estado **[!UICONTROL Rascunho]**.
+* **[!UICONTROL Excluir]**: excluir permanentemente um fragmento (disponível somente para fragmentos de **[!UICONTROL Rascunho]**), de **[!UICONTROL Mais ações]** (...) ícone.
+* **[!UICONTROL Editar marcas]**: adicionar ou remover marcas de um fragmento, de **[!UICONTROL Mais ações]** (...) ícone.
 
 ## Usar um fragmento em uma jornada {#use-journey-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
 >title="Adicionar um fragmento de jornada"
->abstract="Somente fragmentos **[!UICONTROL Ativos]** estão disponíveis no seletor. Inserir um fragmento cria uma **cópia estática** de seus nós — todas as atualizações subsequentes do fragmento original não serão refletidas na jornada."
+>abstract="Somente fragmentos **[!UICONTROL Ativos]** estão disponíveis no seletor. Inserir um fragmento cria uma **cópia estática** de seus nós — as atualizações do fragmento original não são refletidas na jornada."
 
 Para inserir um fragmento em uma jornada:
 
 1. Abra a jornada e arraste a atividade **[!UICONTROL Fragmentos de Jornada]** do painel esquerdo.
-1. Solte-o em uma ramificação existente. Um seletor de fragmentos é exibido.
+1. Solte-o em uma ramificação existente ou em uma tela vazia. Um seletor de fragmentos é exibido.
 1. Procure ou pesquise o fragmento que deseja usar. Você pode visualizar um fragmento ou abri-lo em outra guia antes de inseri-lo.
 1. Selecione o fragmento. Seus nós são copiados para a tela no ponto de soltar.
 
 >[!NOTE]
 >Somente fragmentos **[!UICONTROL Ativos]** estão disponíveis no seletor. Inserir um fragmento cria uma **cópia estática** de seus nós — todas as atualizações subsequentes do fragmento original não serão refletidas na jornada.
+>
+>Ao soltar um fragmento em uma tela vazia, ele deve começar com um nó **[!UICONTROL Ler público]**, **[!UICONTROL Qualificação de público]** ou **[!UICONTROL Evento]** (a mesma regra de quando se inicia qualquer jornada).
 
 ## Medidas de proteção e limitações {#guardrails}
 
@@ -163,7 +176,7 @@ As seguintes medidas de proteção se aplicam aos fragmentos de jornada:
 
 * Somente fragmentos **[!UICONTROL Ativos]** podem ser inseridos em uma jornada.
 * Inserir um fragmento cria uma **cópia estática** de seus nós. As atualizações do fragmento original não são propagadas para jornadas em que ele foi usado.
-* Um fragmento deve ser inserido em uma **ramificação existente** na tela.
+* Um fragmento pode ser solto em uma ramificação existente ou em uma tela vazia. Quando solto em uma tela vazia, o fragmento deve começar com um nó **[!UICONTROL Ler público]**, **[!UICONTROL Qualificação de público]** ou **[!UICONTROL Evento]**.
 
 **Geral**
 
@@ -178,13 +191,13 @@ Os exemplos a seguir ilustram padrões comuns de jornada que podem ser salvos e 
 
 **Verificações de qualificação**
 
-Um padrão de entrada, como um nó [Read Audience](read-audience.md) seguido de filtros de qualificação, pode ser encapsulado em um fragmento. Isso permite que as equipes mantenham a consistência em como os perfis entram nas jornadas enquanto reduzem o tempo de configuração. O fragmento pode ser somente a [Condição](condition-activity.md) ou o Público-alvo de Leitura e a Condição juntos.
+Um padrão de entrada, como um nó [Read Audience](read-audience.md) seguido de filtros de qualificação, pode ser encapsulado em um fragmento. Isso permite que as equipes mantenham a consistência em como os perfis entram nas jornadas enquanto reduzem o tempo de configuração. O fragmento pode ser somente a atividade [Otimizar](optimize.md) ou as atividades Ler público e Otimizar juntas.
 
 ![Exemplo de fragmento de verificação de qualificação](assets/journey-fragments-uc-eligibility-check.png)
 
 **Canal preferencial**
 
-Um fragmento pode avaliar o canal de comunicação preferido de um perfil — email, push ou SMS — e rotear o perfil de acordo. Essa lógica pode ser reutilizada em qualquer jornada que envolva mensagens de saída, garantindo um gerenciamento consistente das preferências do canal. O fragmento pode incluir a [Condição](condition-activity.md) e todas as três ramificações de canal.
+Um fragmento pode avaliar o canal de comunicação preferido de um perfil — email, push ou SMS — e rotear o perfil de acordo. Essa lógica pode ser reutilizada em qualquer jornada que envolva mensagens de saída, garantindo um gerenciamento consistente das preferências do canal. O fragmento pode incluir a atividade [Otimizar](optimize.md) e todas as três ramificações de canal.
 
 ![Exemplo de fragmento de canal preferencial](assets/journey-fragments-uc-preferred-channel.png)
 
