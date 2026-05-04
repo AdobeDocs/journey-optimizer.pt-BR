@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: 9a240f0a70842a00af81f771440f9b00b74cd0cb
 workflow-type: tm+mt
-source-wordcount: '3289'
+source-wordcount: '3297'
 ht-degree: 90%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 90%
    + Trabalhe com eficiência {#work-efficiently}
       + [Navegue pela interface](using/start/user-interface.md)
       + [Pesquise, filtre e organize](using/start/search-filter-categorize.md)
-      + [Perguntas frequentes sobre solução de problemas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Perguntas frequentes sobre solução de problemas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Acessibilidade](using/start/accessibility.md)
       + {hide-from-toc}[Jornadas vs Campanhas](using/start/journeys-vs-campaigns.md)
 + Jornadas {#orchestrate-journeys}
@@ -416,7 +416,7 @@ ht-degree: 90%
       + [Configurar canal LINE no Journey Optimizer](using/line/line-configuration.md)
       + [Criar uma mensagem LINE](using/line/create-line.md)
       + [Verificar e enviar mensagens LINE](using/line/send-line.md)
-   + Atividades ativas {#live-activity}
+   + Atividades ao vivo {#live-activity}
       + [Introdução às Atividades em tempo real](using/mobile-live/get-started-mobile-live.md)
       + [Criar uma Atividade em tempo real](using/mobile-live/create-mobile-live.md)
       + [Solução de problemas de atividades em tempo real](using/mobile-live/troubleshoot-mobile-live.md)
@@ -508,10 +508,13 @@ ht-degree: 90%
       + {hide-from-toc}[Inserir timer da contagem regressiva](using/integrations/countdown.md)
       + [Trabalhar com o Dynamic Media](using/integrations/aem-dynamic.md)
       + [Trabalhar com o GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + {hide-from-toc}[Trabalhar com integrações](using/integrations/integrations.md)
-      + {hide-from-toc}[Introdução à integração de fornecedores](using/integrations/vendor-integration-gs.md)
-      + {hide-from-toc}[Configurações de exemplo de fornecedor](using/integrations/vendor-integration.md)
-      + {hide-from-toc}[Perguntas frequentes](using/integrations/vendor-integration-faq.md)
+      + Integrações {#integrations}
+         + [Trabalhar com integrações](using/integrations/integrations.md)
+         + [Uso de integrações externas para personalização](using/integrations/integrations-personalization.md)
+         + [Perguntas frequentes](using/integrations/vendor-integration-faq.md)
+         + Fornecedores de amostra {#vendors}
+            + [Introdução à integração de fornecedores](using/integrations/vendor-integration-gs.md)
+            + [Configurações de exemplo de fornecedor](using/integrations/vendor-integration.md)
       + [Trabalhar com ferramentas de IA por meio do MCP](/help/using/integrations/ajo-mcp.md)
    + Assistente de IA para geração de conteúdo {#ai-assistant}
       + [Assistente de IA para geração de conteúdo](/help/rp_landing_pages/ai-assistant-landing-page.md)
