@@ -7,14 +7,12 @@ feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-hide: true
 keywords: CC, cópia carbono, email, configuração de canal, cabeçalhos de email, Cco
-badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
+source-git-commit: 05c0fcb3283a2adb7c69e3afdd4b2d75cbc4b5b5
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 6%
+source-wordcount: '906'
+ht-degree: 5%
 
 ---
 
@@ -24,10 +22,6 @@ ht-degree: 6%
 >id="ajo_admin_config_cc"
 >title="Defina um endereço de email CC"
 >abstract="É possível adicionar um campo CC visível (cópia carbono) aos emails enviados com essa configuração de canal. Insira um endereço de email fixo ou use a personalização (atributo de perfil ou variável de contexto). Esteja ciente de que o uso do campo CC é contabilizado no volume de mensagens permitido."
-
->[!AVAILABILITY]
->
->Este recurso está disponível para todos os clientes com Disponibilidade Limitada. Entre em contato com o representante da Adobe para obter acesso.
 
 Você pode adicionar um campo CC visível (cópia carbono) aos emails enviados por [!DNL Journey Optimizer] por meio de suas jornadas e campanhas. Este recurso opcional é configurado no nível [configuração de canal](channel-surfaces.md), junto com os parâmetros de cabeçalho de email e a opção de email CCO.
 
