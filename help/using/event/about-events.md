@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: events, event, jornada, definition, start
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 873a9ed182e69c43be7c0f655a1696384395263c
+source-git-commit: 51ea1695ab52c01403d16c0193c72e8e9339ee2d
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 22%
+source-wordcount: '2152'
+ht-degree: 23%
 
 ---
 
@@ -29,7 +29,7 @@ Use eventos para acionar jornadas individualmente, fornecendo mensagens em tempo
 >
 >Para obter os requisitos e as limitações do evento (transmissão, Serviço de consulta, assimilação em lote), consulte [medidas de proteção de Jornada - Eventos](../start/guardrails.md#events-g).
 
-Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são padronizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de ingestão de transmissão para eventos autenticados e não autenticados (como eventos do Adobe Mobile SDK). Você pode usar vários eventos (em etapas diferentes de uma jornada) e várias jornadas podem usar o mesmo evento.
+Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são padronizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de ingestão de transmissão para eventos autenticados e não autenticados (como eventos do Adobe Mobile SDK). Você pode usar vários eventos (em diferentes etapas de uma jornada), e várias jornadas podem usar o mesmo evento.
 
 A configuração do evento é **obrigatória** e deve ser executada por um engenheiro de dados.
 
@@ -39,7 +39,7 @@ Você pode configurar três tipos de eventos: **Eventos unitários**, **Eventos 
 
 ## Eventos unitários {#unitary-events}
 
-**Unitário** eventos estão vinculados a uma pessoa. Relacionam-se com o comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site, etc.) ou com algo que acontece vinculado a uma pessoa (por exemplo, uma pessoa atingiu 10.000 pontos de fidelidade). É o que [!DNL Journey Optimizer] escutará no jornada para orquestrar as melhores ações futuras. Os eventos unitários podem ser baseados em regras ou gerados pelo sistema. Para saber como criar um evento unitário, consulte esta [página](../event/about-creating.md).
+**Unitário** eventos estão vinculados a uma pessoa. Elas estão relacionadas ao comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site etc.) ou um acontecimento ligado a uma pessoa (por exemplo, uma pessoa atingiu 10.000 pontos no programa de fidelidade). É o que o [!DNL Journey Optimizer] considera nas jornadas para orquestrar as melhores ações futuras. Os eventos unitários podem ser baseados em regras ou gerados pelo sistema. Para saber como criar um evento unitário, consulte esta [página](../event/about-creating.md).
 
 As jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada do perfil é temporariamente bloqueada por 5 minutos. Por exemplo, se um evento acionar uma jornada às 12:01 para um perfil específico e outra chegar às 12:03 (seja o mesmo evento ou outro que está acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
 
@@ -54,6 +54,21 @@ Um evento de **qualificação de público-alvo** é acionado quando um perfil en
 >[!NOTE]
 >
 >Os eventos de qualificação de público-alvo não estão configurados em **Administration > Events** — eles são selecionados diretamente na tela de jornada como a primeira etapa de uma jornada.
+
+## Visão geral dos eventos unitários versus de negócios {#event-comparison}
+
+| | Evento unitário | Evento comercial |
+|---|---|---|
+| **Vinculado a um perfil?** | Sim — acionado pela ação de um indivíduo específico. | Não — acionado por uma ocorrência externa não vinculada a uma pessoa. |
+| **Comportamento da entrada** | Um perfil entra na jornada em tempo real. | Vários perfis são inseridos por meio de uma etapa automática Ler público. |
+| **Casos de uso típicos** | Confirmação de compra, envio de formulário, logon no aplicativo, marco de fidelidade. | Cancelamento de voo, alerta de reposição de estoque, últimas notícias, evento meteorológico. |
+| **Como ele inicia a jornada** | Entrada baseada em eventos — nenhum público-alvo necessário. | Evento comercial + Público-alvo de leitura automático (adicionado pelo Journey Optimizer). |
+| **Vários por jornada?** | Sim — você pode ouvir vários eventos unitários nas etapas do jornada. | Não — somente um evento comercial por jornada, colocado no início. |
+| **Tipo de ID do evento** | Baseado em regras ou gerado pelo sistema. | Sempre com base em regras. |
+
+>[!NOTE]
+>
+>Uma jornada pode conter apenas **um** evento comercial, que deve ser a primeira atividade. O Journey Optimizer adiciona automaticamente uma atividade **Read Audience** após ela para definir quais perfis recebem a jornada acionada por esse evento.
 
 ## Tipo de ID do evento {#event-id-type}
 
@@ -71,7 +86,7 @@ Para eventos **unitários**, há dois tipos de ID de evento:
 
 >[!NOTE]
 >
->O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço Principal de Coleção de Dados (DCCS) para acionar uma jornada. Eventos assimilados em lote, eventos inseridos via **Serviço de consulta** ou eventos de conjuntos de dados internos da Journey Optimizer (Feedback de mensagem, Rastreamento de email, etc.) não podem ser usados para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, crie um público-alvo com base nesses eventos e use a atividade **Público-alvo de leitura**. Tecnicamente, a qualificação de público-alvo pode ser usada, mas ela pode causar desafios posteriores com base nas ações usadas. Esses dados não precisam necessariamente acessar o Perfil em tempo real. Se você quiser usar os eventos para segmentação, recomendamos ativar o conjunto de dados para perfil.
+>O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço Principal de Coleção de Dados (DCCS) para acionar uma jornada. Eventos assimilados em lote, eventos inseridos via **Serviço de consulta** ou eventos de conjuntos de dados internos da Journey Optimizer (Feedback de mensagens, Acompanhamento de emails etc.) não pode ser usado para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, crie um público-alvo com base nesses eventos e use a atividade **Público-alvo de leitura**. Tecnicamente, a qualificação de público-alvo pode ser usada, mas ela pode causar desafios posteriores com base nas ações usadas. Esses dados não precisam necessariamente acessar o Perfil em tempo real. Se você quiser usar os eventos para segmentação, recomendamos ativar o conjunto de dados para perfil.
 
 ## Como escolher {#choose-event-type}
 
@@ -110,7 +125,7 @@ Os seguintes tipos de eventos são contados para a cota de 5.000 TPS:
 
 * **Eventos de qualificação de público-alvo**: se o mesmo público-alvo de streaming for usado em várias jornadas, cada uso será contado separadamente. Por exemplo, usar o mesmo público-alvo em uma atividade de qualificação de público-alvo em duas jornadas resulta na contagem de dois eventos.
 
-* **Eventos de reação**: eventos acionados por reações de perfil (email aberto, email clicado, etc.) em uma jornada.
+* **Eventos de Reação**: eventos acionados por reações de perfil (email aberto, email clicado, etc.) em uma jornada.
 
 * **Eventos comerciais**: eventos não vinculados a um perfil específico, mas a um evento comercial.
 
@@ -147,8 +162,8 @@ Não é possível excluir nenhum evento usado nas jornadas do **Live**, **Rascun
 
 Saiba como configurar um evento, especificar o ponto final de transmissão e a carga útil de um evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431510?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Entenda os casos de uso aplicáveis a eventos de negócios. Saiba como criar uma jornada usando um evento de negócios e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417595?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

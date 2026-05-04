@@ -10,10 +10,10 @@ level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: f06c834fcd1a70aba33a37bb02de461869b50b77
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '1947'
-ht-degree: 7%
+source-wordcount: '2222'
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 7%
 
 Depois de criar a jornada, você pode testá-la antes de publicar. O Journey Optimizer oferece o &quot;Modo de teste&quot; como uma maneira de exibir perfis de teste conforme eles se movem ao longo da jornada, detectando possíveis erros antes da ativação. A execução de testes rápidos permite verificar se as jornadas funcionam corretamente para que você possa publicá-las com confiança.
 
-Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar novos perfis de teste ou transformar perfis existentes em perfis de teste. Saiba mais sobre perfis de teste em [esta seção](../audience/creating-test-profiles.md).
+Somente perfis de teste podem entrar em uma jornada no modo de teste. Você pode criar novos perfis de teste ou transformar perfis existentes em perfis de teste. Saiba mais sobre perfis de teste em [esta seção](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Revise essas notas antes de executar testes em sua jornada.
 ### Execução
 
 * **Comportamento de divisão** - Quando a jornada atinge uma divisão, a ramificação superior é sempre selecionada. Reordene as ramificações se desejar que um caminho diferente seja testado.
-* **Tempo de evento** - Se a jornada incluir*vários eventos, acione cada evento em sequências. Enviar um evento muito cedo (antes da conclusão do primeiro nó de espera) ou muito tarde (após o tempo limite configurado) descartará o evento e enviará o perfil para um caminho de tempo limite. Sempre confirmar se as referências aos campos de carga útil do evento permanecem válidas, enviando a carga útil dentro da janela definida
+* **Tempo do evento** - Se a jornada incluir*vários eventos, acione cada evento em sequências.Enviar um evento muito cedo (antes da conclusão do primeiro nó de espera) ou muito tarde (após o tempo limite configurado) descartará o evento e enviará o perfil a um caminho de tempo limite. Sempre confirmar se as referências aos campos de carga útil do evento permanecem válidas, enviando a carga útil dentro da janela definida
 * **Janela de data ativa** - Verifique se a janela de [datas/hora de início e término](journey-properties.md#dates) configurada pela jornada inclui a hora atual ao iniciar o modo de teste. Caso contrário, os eventos de teste acionados serão descartados silenciosamente. Saiba mais sobre como solucionar esse problema [nesta página](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Eventos de reação** - Para eventos de reação com tempo limite, o tempo de espera mínimo e padrão é de 40 segundos.
 * **Conjuntos de dados de teste** - Os eventos acionados no modo de teste são armazenados em conjuntos de dados dedicados rotulados da seguinte maneira: `JOtestmode - <schema of your event>`
@@ -95,6 +95,29 @@ Para usar o modo de teste, siga estas etapas:
    ![Exibir botão de log para exibir os resultados do teste](assets/journeyuctest2.png)
 
 1. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Depois que os testes forem concluídos, você poderá publicar sua jornada. Consulte [esta página](../building-journeys/publish-journey.md).
+
+## Exemplo funcionado: validar uma jornada simples {#test-walkthrough}
+
+O exemplo a seguir aborda o teste de uma jornada que começa com um evento unitário, envia um email, aguarda 10 minutos e envia uma notificação por push.
+
+Para validar a jornada de ponta a ponta:
+
+1. Ative o modo de teste clicando em **[!UICONTROL Modo de teste]** no canto superior direito. A tela muda para o modo de teste e um botão **[!UICONTROL Acionar um evento]** é exibido.
+1. Defina o **[!UICONTROL Tempo de espera]** como **10 segundos** para que o nó de espera seja concluído rapidamente durante o teste.
+1. Clique em **[!UICONTROL Acionar um evento]**, selecione seu evento e insira um identificador de perfil de teste (por exemplo, o endereço de email de um perfil sinalizado como perfil de teste no Adobe Experience Platform).
+1. Clique em **[!UICONTROL Enviar]**. O fluxo visual é exibido na tela e fica verde à medida que o perfil avança em cada etapa.
+1. Clique em **[!UICONTROL Mostrar log]** e confirme o seguinte na saída JSON:
+   * `currentstep` corresponde à atividade na qual você espera que o perfil esteja.
+   * `phase` mostra `running` enquanto o perfil está em um nó de espera e `finished` quando ele atinge o fim.
+   * Nenhuma entrada `actionExecutionErrors` está presente.
+1. Após 10 segundos, atualize o log. O perfil deve ter avançado após o nó de espera e acionado a ação de push.
+1. Quando todas as etapas mostrarem `finished` e nenhum erro for registrado, desative o modo de teste e publique a jornada.
+
+>[!TIP]
+>
+>Se o perfil não for exibido no log, verifique se:
+>* O identificador de perfil inserido está sinalizado como um perfil de teste em [!DNL Adobe Experience Platform].
+>* As datas de início e término configuradas da jornada incluem a hora atual. Os eventos acionados fora dessa janela são descartados silenciosamente. [Saiba mais](troubleshooting-execution.md#troubleshooting-test-transitions).
 
 ## Acionar os eventos {#firing_events}
 
