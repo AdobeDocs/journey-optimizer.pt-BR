@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2047'
 ht-degree: 20%
 
 ---
@@ -278,9 +278,13 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 
 * **Personalizar ID do aplicativo nas configurações do canal** - Nas configurações do canal de push, agora é possível personalizar o campo **ID do aplicativo** para que cada destinatário possa receber uma notificação por push da marca apropriada com base nas informações do perfil. [Leia mais](../push/push-configuration.md#app-id-personalization)
 
+  Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+
 #### Tomada de decisão
 
-* **Anexar fragmentos a itens de decisão** - O Journey Optimizer agora oferece a capacidade de anexar fragmentos a itens de decisão, que podem ser aproveitados em campanhas de email e experiências baseadas em código por meio de políticas de decisão. Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral). [Leia mais](../experience-decisioning/fragments-decision-policies.md)
+* **Anexar fragmentos a itens de decisão** - O Journey Optimizer agora oferece a capacidade de anexar fragmentos a itens de decisão, que podem ser aproveitados em campanhas de email e experiências baseadas em código por meio de políticas de decisão. [Leia mais](../experience-decisioning/fragments-decision-policies.md)
+
+  Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).
 
 * **Fragmentos temporariamente indisponíveis são ignorados** - Ao usar fragmentos em itens de decisão, se um fragmento estiver temporariamente indisponível no Edge, ele será ignorado e a jornada ou campanha continuará a ser renderizada em vez de falhar. [Leia mais](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
