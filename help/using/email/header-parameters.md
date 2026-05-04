@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração, cabeçalho do remetente, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 48a25f41701f5e42c15fb8149b03cabcc575db24
+source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 53%
+source-wordcount: '1108'
+ht-degree: 54%
 
 ---
 
@@ -57,6 +57,10 @@ Ao configurar uma nova [configuração de canal de email](email-settings.md), na
 >id="ajo_admin_preset_sender_header"
 >title="Cabeçalhos do remetente"
 >abstract="Use esses campos opcionais quando a entidade de transmissão (remetente) for diferente da entidade de criação (De), por exemplo, uma empresa principal que envia mensagens para uma marca secundária ou uma agência que envia para vários clientes. Os clientes de email que oferecem suporte a isso normalmente o renderizam como &quot;Remetente em nome de De&quot; ou mostram um indicador &quot;via&quot;."
+
+>[!AVAILABILITY]
+>
+>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
 
 Alguns casos de uso exigem que a caixa de correio que transmite a mensagem seja diferente do autor **De**, por exemplo, uma organização principal enviando em nome de uma subsidiária, uma equipe de marketing compartilhado para várias marcas ou uma agência enviando para vários clientes.
 
