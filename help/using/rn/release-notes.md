@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ddea96b4267b4ca24d1647914156b43f6e9bb13e
+source-git-commit: d975d9cd95d33ea8972cf9388e7f868009c4fb95
 workflow-type: tm+mt
-source-wordcount: '2060'
-ht-degree: 21%
+source-wordcount: '1990'
+ht-degree: 20%
 
 ---
 
@@ -51,7 +51,7 @@ Os novos recursos e aprimoramentos lançados no início de abril são anunciados
 <tr>
 <td>
 <p>O recurso <b>Integrações</b> permite conectar fontes de dados de terceiros diretamente ao Adobe Journey Optimizer. Ao simplificar a forma como você obtém dados externos e <b>conteúdo de composição</b>, esse recurso facilita a entrega de mensagens personalizadas e dinâmicas em todos os canais.</p>
-<p>Anteriormente lançado na versão beta, esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
+<p>Anteriormente lançado na versão beta, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para obter mais informações, consulte a <a href="../integrations/integrations.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 4 de maio de 2026</p>
 </td>
@@ -71,7 +71,7 @@ Os novos recursos e aprimoramentos lançados no início de abril são anunciados
 <p><strong>As campanhas orquestradas</strong> agora oferecem suporte a uma atividade de <strong>Consulta incremental</strong> que segmenta somente perfis ou eventos que são recém-qualificados desde a última execução.
 
 Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas inscrições, membros de fidelidade recém-qualificados e segmentos semelhantes), reduzindo as cargas de trabalho de consulta e evitando envios redundantes ao longo do tempo.</p>
-<p>Para obter mais informações, consulte a <a href="../orchestrated/activities/incremental-query.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -87,7 +87,6 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 <tr>
 <td>
 <p>Com o Journey Optimizer, agora é possível enviar emails em que a entidade de transmissão (Remetente) difere da entidade de criação (De). Os clientes de email que oferecem suporte a isso normalmente o renderizarão como "Remetente em nome de De" ou exibirão um indicador "via". Preencha os campos opcionais <strong>Cabeçalhos do remetente</strong> nas configurações do canal de email para configurar este recurso.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 <p><img src="assets/do-not-localize/sender-headers.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../email/header-parameters.md#sender-header">documentação detalhada</a>.</p>
 </td>
@@ -296,8 +295,6 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 
 * **Personalizar ID do aplicativo nas configurações do canal** - Nas configurações do canal de push, agora é possível personalizar o campo **ID do aplicativo** para que cada destinatário possa receber uma notificação por push da marca apropriada com base nas informações do perfil. [Leia mais](../push/push-configuration.md#app-id-personalization)
 
-  Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
-
 #### Tomada de decisão
 
 * **Anexar fragmentos a itens de decisão** - O Journey Optimizer agora oferece a capacidade de anexar fragmentos a itens de decisão, que podem ser aproveitados em campanhas de email e experiências baseadas em código por meio de políticas de decisão. [Leia mais](../experience-decisioning/fragments-decision-policies.md)
@@ -402,13 +399,9 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <p>Agora é possível adicionar deep links ao seu conteúdo de email por meio de uma opção dedicada no Designer de email.</p><p>Isso garante que os usuários sejam direcionados diretamente para o conteúdo correto no aplicativo, em vez de serem redirecionados para navegadores ou lojas de aplicativos, preservando o contexto e o engajamento.</p>
 <!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
 <p>Para obter mais informações, consulte a <a href="../email/message-tracking.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 7 de maio de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Aprimoramentos {#comming-soon-improv}
-
-#### Configuração
-
-* **Permissões específicas para chaves de criptografia de parâmetro de URL** - Para acessar e gerenciar chaves de criptografia de parâmetro de URL, novas permissões foram criadas. Agora você deve ter as permissões **Exibir Registro de Chave** e **Gerenciar Registro de Chave** concedidas. <!--[Read more](../personalization/url-parameter-encryption.md#create-keys)-->
