@@ -10,9 +10,9 @@ level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
+source-git-commit: 60c2e2c1aa1beb11aeb67bbc9e30e946a9d7fdb8
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2307'
 ht-degree: 8%
 
 ---
@@ -25,10 +25,15 @@ ht-degree: 8%
 >abstract="Use perfis de teste para testar a jornada antes de publicá-la. Isso permite analisar como as pessoas fluem na jornada e solucionam problemas antes da publicação."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Teste de simulação de jornada"
 
-
-Depois de criar a jornada, você pode testá-la antes de publicar. O Journey Optimizer oferece o &quot;Modo de teste&quot; como uma maneira de exibir perfis de teste conforme eles se movem ao longo da jornada, detectando possíveis erros antes da ativação. A execução de testes rápidos permite verificar se as jornadas funcionam corretamente para que você possa publicá-las com confiança.
+Depois de criar a jornada, você pode testá-la antes de publicar. O [!DNL Adobe Journey Optimizer] oferece o &quot;Modo de teste&quot; como uma maneira de exibir perfis de teste conforme eles se movem ao longo da jornada, detectando possíveis erros antes da ativação. A execução de testes rápidos permite verificar se as jornadas funcionam corretamente para que você possa publicá-las com confiança.
 
 Somente perfis de teste podem entrar em uma jornada no modo de teste. Você pode criar novos perfis de teste ou transformar perfis existentes em perfis de teste. Saiba mais sobre perfis de teste em [esta seção](../audience/creating-test-profiles.md).
+
+O Adobe Jornada Otimizer oferece duas maneiras de testar e validar sua jornada:
+
+* **[Simulação](simulate-journey.md#test-users)**: Defina a jornada como **[!UICONTROL Simulação]** e use usuários simulados (perfis temporários que você cria ou gera instantaneamente sem perfis pré-criados no Adobe Experience Platform).
+
+* **[Modo de teste](#test-profiles)**: perfis persistentes explicitamente sinalizados como perfis de teste no Adobe Experience Platform. Eles podem ser reutilizados em várias sessões de teste. Esse método é recomendado para testes com dados de perfil consistentes e predefinidos. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >
@@ -56,8 +61,8 @@ Revise essas notas antes de executar testes em sua jornada.
 ### Execução
 
 * **Comportamento de divisão** - Quando a jornada atinge uma divisão, a ramificação superior é sempre selecionada. Reordene as ramificações se desejar que um caminho diferente seja testado.
-* **Tempo do evento** - Se a jornada incluir*vários eventos, acione cada evento em sequências.Enviar um evento muito cedo (antes da conclusão do primeiro nó de espera) ou muito tarde (após o tempo limite configurado) descartará o evento e enviará o perfil a um caminho de tempo limite. Sempre confirmar se as referências aos campos de carga útil do evento permanecem válidas, enviando a carga útil dentro da janela definida
-* **Janela de data ativa** - Verifique se a janela de [datas/hora de início e término](journey-properties.md#dates) configurada pela jornada inclui a hora atual ao iniciar o modo de teste. Caso contrário, os eventos de teste acionados serão descartados silenciosamente. Saiba mais sobre como solucionar esse problema [nesta página](troubleshooting-execution.md#troubleshooting-test-transitions).
+* **Tempo do evento** - Se a jornada incluir vários eventos, acione cada evento em sequência. Enviar um evento muito cedo (antes da conclusão do primeiro nó de espera) ou muito tarde (após o tempo limite configurado) descartará o evento. O perfil será enviado para um caminho de tempo limite. Sempre confirme se as referências aos campos de payload do evento permanecem válidas, enviando o payload na janela definida.
+* **Janela de data ativa** - Verifique se a janela [de datas/hora de início e término](journey-properties.md#dates) configurada da jornada inclui a hora atual ao iniciar o modo de teste. Caso contrário, os eventos de teste acionados serão descartados silenciosamente. Saiba mais sobre como solucionar esse problema [nesta página](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Eventos de reação** - Para eventos de reação com tempo limite, o tempo de espera mínimo e padrão é de 40 segundos.
 * **Conjuntos de dados de teste** - Os eventos acionados no modo de teste são armazenados em conjuntos de dados dedicados rotulados da seguinte maneira: `JOtestmode - <schema of your event>`
 * **Infraestrutura compartilhada** - O Modo de Teste é executado na mesma infraestrutura que a produção. Durante períodos de alto tráfego, você pode notar atrasos nos envios de email ou no processamento de eventos. Nesse caso, verifique os painéis de tráfego da plataforma ou repita os testes fora do horário de pico.
@@ -68,9 +73,9 @@ Revise essas notas antes de executar testes em sua jornada.
 
 ## Ativar o modo de teste
 
-Para usar o modo de teste, siga estas etapas:
+Use o método **[!UICONTROL Modo de teste]** quando quiser testar sua jornada com perfis de teste pré-existentes que você já criou no Adobe Experience Platform.
 
-1. Para ativar o modo de teste, clique no botão **[!UICONTROL Modo de teste]**, localizado no canto superior direito.
+1. Para ativar o modo de teste, clique no botão **[!UICONTROL Simular]** e selecione **[!UICONTROL Modo de teste]**.
 
    ![Botão de modo de teste na interface do jornada](assets/journeytest1.png)
 
@@ -148,7 +153,7 @@ O namespace de identidade é usado para identificar exclusivamente os perfis de 
 
 ### Configuração de evento {#trigger-events-configuration}
 
-Se a jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento. A interface ajuda você a passar as informações corretas na carga do evento e garantir que o tipo de informação esteja correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
+Se a jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento. A interface ajuda você a passar as informações certas na carga do evento e garante que o tipo de informação esteja correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
 
 ![Interface de configuração de evento com campos e lista suspensa para seleção de evento](assets/journeytest4.png)
 
@@ -196,7 +201,7 @@ O botão **[!UICONTROL Mostrar log]** permite exibir os resultados do teste. Est
 >
 >Nos logs de teste, em caso de erro ao chamar um sistema de terceiros (fonte de dados ou ação), o código de erro e a resposta do erro são exibidos.
 
-O número de indivíduos (tecnicamente chamados de instâncias) atualmente dentro da jornada é exibido. Estas são informações úteis exibidas para cada indivíduo:
+O número de indivíduos (tecnicamente chamados de instâncias) atualmente dentro da jornada é exibido. As seguintes informações são exibidas para cada indivíduo:
 
 * _Id_: a ID interna do indivíduo na jornada. Ele pode ser usado para fins de depuração.
 * _currentstep_: a etapa em que o indivíduo está na jornada. Recomendamos adicionar rótulos às suas atividades para identificá-las mais facilmente.

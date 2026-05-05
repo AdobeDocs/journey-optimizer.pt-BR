@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
+source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2183'
 ht-degree: 19%
 
 ---
@@ -32,6 +32,25 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
+<th><strong>Simulação de jornada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode definir sua jornada como <strong>Simulação</strong>. Este modo permite validar sua lógica usando <strong>usuários simulados</strong>. Esses são perfis temporários criados especificamente para a simulação, permitindo que você teste livremente sem precisar gerenciar perfis de teste persistentes no Adobe Experience Platform.</p>
+<p>Esse recurso está disponível para todos os clientes como uma Disponibilidade limitada com recursos essenciais.</p>
+<p><img src="assets/do-not-localize/simulate-user.gif"></p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/simulate-journey.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 5 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Regras de decisão e otimização da IA da fórmula de classificação</strong><br/></th>
 </tr>
 </thead>
@@ -45,20 +64,6 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tr>
 </tbody>
 </table>
-
-## Notas de versão de abril de 2026 {#april-26-rn}
-
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
--->
-
-Os novos recursos e aprimoramentos lançados no início de abril são anunciados com a data de disponibilidade.
-
-**Data de lançamento**: 28 a 29 de abril de 2026
-
-### Novos recursos {#april-26-features}
 
 <table>
 <thead>
@@ -78,6 +83,20 @@ Os novos recursos e aprimoramentos lançados no início de abril são anunciados
 </tbody>
 </table>
 
+## Notas de versão de abril de 2026 {#april-26-rn}
+
+<!--
+**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
+
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+-->
+
+Os novos recursos e aprimoramentos lançados no início de abril são anunciados com a data de disponibilidade.
+
+**Data de lançamento**: 28 a 29 de abril de 2026
+
+### Novos recursos {#april-26-features}
+
 <table>
 <thead>
 <tr>
@@ -91,6 +110,7 @@ Os novos recursos e aprimoramentos lançados no início de abril são anunciados
 
 Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas inscrições, membros de fidelidade recém-qualificados e segmentos semelhantes), reduzindo as cargas de trabalho de consulta e evitando envios redundantes ao longo do tempo.</p>
 <p>Para obter mais informações, consulte a <a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 30 de abril de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -390,23 +410,6 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 Os recursos e aprimoramentos a seguir estão programados para serem lançados nos próximos dias. **As informações estão sujeitas a alterações**. Links, telas e documentação atualizados serão compartilhados assim que essas atualizações estiverem ativas na produção.
 
 ### Novos recursos {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulação de jornada</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora você pode definir sua jornada como <strong>Simulação</strong>. Este modo permite validar sua lógica usando <strong>usuários simulados</strong>. Esses são perfis temporários criados especificamente para a simulação, permitindo que você teste livremente sem precisar gerenciar perfis de teste persistentes no Adobe Experience Platform.</p>
-<p>Esse recurso está disponível para todos os clientes como uma Disponibilidade limitada com recursos essenciais.</p>
-<!--p><img src="assets/do-not-localize/simulate-user.gif"></p-->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
