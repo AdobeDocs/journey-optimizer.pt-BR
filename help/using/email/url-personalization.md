@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate, Experienced
 keywords: url, link, personalização, rastreamento, codificar, chaves
-source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
+source-git-commit: daf07abd855079aeedf77708575a92d1ce13f66d
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 1%
@@ -83,6 +83,7 @@ Agora, quando o email é enviado, esse parâmetro é anexado automaticamente ao 
 >[!NOTE]
 >
 >Para verificar a URL final, você pode [enviar uma prova](../content-management/proofs.md) e clicar no link no conteúdo do email depois de receber a prova. O URL deve exibir o parâmetro de rastreamento. Por exemplo: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+
 
 <!--
 ## Best practices and guardrails {#best-practices}
