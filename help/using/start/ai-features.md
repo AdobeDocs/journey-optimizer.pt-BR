@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '1845'
-ht-degree: 3%
+source-wordcount: '2177'
+ht-degree: 6%
 
 ---
 
@@ -106,7 +106,7 @@ O [Agente de Análise de Jornada](https://experienceleague.adobe.com/pt-br/docs/
 
 #### Jornada criação de habilidade {#journey-create-skill}
 
-O [Agente de Criação de Jornadas](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} ajuda a criar jornadas com base em prompts de linguagem natural, traduzindo suas metas em configurações de jornada estruturadas:
+O [Agente de Criação de Jornadas](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} ajuda a criar jornadas com base em prompts de linguagem natural, traduzindo suas metas em configurações de jornada estruturadas:
 
 +++**Principais Recursos**
 
@@ -161,7 +161,7 @@ O [Experimentation Agent](https://experienceleague.adobe.com/pt-br/docs/experien
 
 ### Agentes de IA adicionais
 
-**Audience Agent** - Para exploração e gerenciamento de público-alvo conversacional em toda a Adobe Experience Platform, incluindo detecção de duplicidade e rastreamento de tamanho. [Saiba mais sobre o Audience Agent](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+**Audience Agent** - Para exploração e gerenciamento de público-alvo conversacional em toda a Adobe Experience Platform, incluindo detecção de duplicidade e rastreamento de tamanho. [Saiba mais sobre o Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
 **Agent Orchestrator** - Coordena vários agentes especializados para solucionar desafios de marketing complexos de várias etapas. O orquestrador determina automaticamente quais agentes envolver e sequencia seu trabalho com eficiência. [Saiba mais sobre o Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
@@ -226,7 +226,27 @@ Crie modelos de classificação inteligentes que otimizam automaticamente quais 
    * Nos últimos 14 dias
 * Máximo de 5 modelos de classificação de IA por organização
 
-[Saiba mais sobre os modelos de IA para a decisão](../experience-decisioning/ranking/ai-models.md) | [Criar modelos de classificação de IA](../experience-decisioning/ranking/create-ai-models.md)
+[Saiba mais sobre os modelos de IA para a tomada de decisão](../experience-decisioning/ranking/ai-models.md) | [Criar modelos de classificação de IA](../experience-decisioning/ranking/create-ai-models.md)
+
+## Otimização de regras e fórmulas baseada em IA {#decisioning-optimization}
+
+O Adobe Journey Optimizer pode analisar automaticamente [regras de decisão](../experience-decisioning/rules.md) e [fórmulas de classificação](../experience-decisioning/ranking/ranking-formulas.md) expressas em sintaxe PQL e sugerir simplificações que preservem a lógica original. Quando uma simplificação é encontrada, um indicador vermelho **[!UICONTROL Otimizar]** aparece ao lado da regra ou fórmula, abrindo uma comparação lado a lado das expressões originais e sugeridas pela IA, com uma análise que pode ser baixada para validar se ambas se comportam de forma idêntica.
+
+### Principais recursos
+
+* **Simplificações que preservam a lógica** - A IA sugere uma expressão mais curta que retorna o mesmo resultado em perfis simulados.
+* **Relatório de validação** - Baixe uma análise (TSV) que mostra como cada perfil simulado é avaliado em relação a ambas as versões antes de aplicar a alteração.
+* **Aplicar com um clique** - Substituir o PQL original pela versão otimizada diretamente da janela **[!UICONTROL Otimizar]**.
+
+### Elegibilidade
+
+Somente regras e fórmulas de classificação cuja expressão PQL é maior que **2 KB** (codificado em UTF-8) são direcionadas para análise, expressões menores não são analisadas.
+
+### Permissões
+
+Este recurso usa os mesmos controles de acesso de IA gerativa que o **Assistente de IA**. Os usuários devem receber a permissão **[!UICONTROL Gerar Conteúdo]** no recurso **[!UICONTROL Assistente de IA]**. [Saiba mais sobre o acesso ao Assistente de IA](../content-management/gs-generative.md#generative-access)
+
+[Otimizar regras de decisão](../experience-decisioning/rules.md#optimize) | [Otimizar fórmulas de classificação](../experience-decisioning/ranking/ranking-formulas.md#optimize)
 
 ## Experimentação de conteúdo com IA {#experimentation}
 
@@ -272,7 +292,7 @@ Procurar nos manuais do Journey Optimizer cenários comuns, como:
 
 +++
 
-[Exibir todos os manuais disponíveis](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"} | [Saiba mais na documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=pt-BR){target="_blank"}
+[Exibir todos os manuais disponíveis](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"} | [Saiba mais na documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Recursos adicionais de IA {#additional-capabilities}
 
@@ -332,7 +352,7 @@ A maioria dos recursos de IA está incluída no Adobe Journey Optimizer. Alguns 
 
 >[!MORELIKETHIS]
 >
->* [O que é o Journey Optimizer?](get-started.md) — Visão geral dos principais recursos, casos de uso e arquitetura.
+>* [O que é o Journey Optimizer?](get-started.md) — visão geral dos principais recursos, casos de uso e arquitetura.
 >* [Noções básicas sobre como funciona](understanding-ajo.md) — Como o Journey Optimizer e o Experience Platform trabalham juntos.
 >* [Geração de conteúdo de IA](../content-management/gs-generative.md) — Gere emails, push, SMS e conteúdo da Web com o Assistente de IA.
 >* [Otimização de Tempo de Envio](../building-journeys/send-time-optimization.md) — Preveja e otimize o tempo de entrega de mensagens por indivíduo.
