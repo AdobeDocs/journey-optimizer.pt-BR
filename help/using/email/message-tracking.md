@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4a78734dc7f9fafd1e8c64aab310cb130ffd928f
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 22%
+source-wordcount: '1364'
+ht-degree: 26%
 
 ---
 
@@ -56,11 +56,11 @@ Um identificador de rastreamento exclusivo (urlID) só é gerado quando a **URL*
 Para rastrear a mesma URL em vários emails (ou várias vezes em um email), use um rótulo exclusivo para cada URL semelhante; caso contrário, [!DNL Journey Optimizer] não poderá rastrear qual link foi clicado. Você pode definir rótulos distintos no Designer de email ou, para o HTML, por meio do atributo `data-label`.
 
 | URL | Tag | Rótulo | comportamento do urlID |
-|-----|-----|-------|----------------|
-| www.example.com | Primeiro | (em branco) | Obtém um urlID (por exemplo, A) |
-| www.example.com | Second | (em branco) | Reutiliza urlID A — não é possível saber em qual link foi clicado |
-| www.example.com | Terceiro | Primeiro rótulo | Obtém um urlID (por exemplo, B) |
-| www.example.com | Quarto | Segundo rótulo | Obtém um urlID (por exemplo, C) |
+| --- | --- | --- | --- |
+| `https://www.example.com` | Primeiro | (em branco) | Obtém um urlID (por exemplo, A) |
+| `https://www.example.com` | Second | (em branco) | Reutiliza urlID A — não é possível saber em qual link foi clicado |
+| `https://www.example.com` | Terceiro | Primeiro rótulo | Obtém um urlID (por exemplo, B) |
+| `https://www.example.com` | Quarto | Segundo rótulo | Obtém um urlID (por exemplo, C) |
 
 ## Inserir links {#insert-links}
 
@@ -96,7 +96,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
    >
    >Para interpretar URLs, [!DNL Journey Optimizer] está em conformidade com a sintaxe de URI ([padrão RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), que desabilita alguns caracteres internacionais especiais em URLs. Ao tentar enviar a prova ou o email, se você retornar um erro envolvendo um URL adicionado ao seu conteúdo, será possível codificar o URL da sequência de caracteres como uma solução alternativa.
 
-1. Você pode personalizar seus links. [Saiba mais](../personalization/personalization-build-expressions.md)
+1. Você pode personalizar seus links. [Saiba mais](url-personalization.md)
 
 1. Salve as alterações.
 
@@ -116,7 +116,7 @@ Depois que a mensagem é enviada, o período de retenção de um link é de **25
 
 ## Link para uma mirror page {#mirror-page}
 
-A mirror page é uma versão online do email. Adicionar um link para a mirror page é uma prática recomendada de marketing por email. Os usuários podem navegar até a mirror page de um email. Por exemplo, se estiverem enfrentando problemas de renderização ou imagens quebradas ao tentar exibi-la em sua caixa de entrada. Também é recomendável fornecer uma versão online por motivos de acessibilidade ou incentivar o compartilhamento em redes sociais.
+A mirror page é uma versão online do seu email. Adicionar um link para a mirror page é uma prática recomendada de marketing por email. Os usuários podem navegar até a mirror page de um email. Por exemplo, se estiverem enfrentando problemas de renderização ou imagens quebradas ao tentar exibi-la em sua caixa de entrada. Também é recomendável fornecer uma versão online por motivos de acessibilidade ou incentivar o compartilhamento em redes sociais.
 
 A mirror page gerada pelo Adobe Journey Optimizer contém todos os dados de personalização.
 
@@ -199,26 +199,4 @@ Relatórios sobre aberturas e cliques estão disponíveis no [Live Report](../re
 
 ## Personalizar rastreamento do URL {#url-tracking}
 
-O [rastreamento de URL](email-settings.md#url-tracking) é gerenciado no nível de configuração e se aplica a todas as URLs incluídas no conteúdo da sua mensagem.
-
-Você também pode personalizar URLs individuais no Designer de email. Para adicionar parâmetros de rastreamento de URL personalizados a um único link em seu conteúdo, siga as etapas abaixo.
-
-1. Selecione um link e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
-
-1. Selecione o ícone de personalização. Ele só está disponível para estes tipos de links: **Link externo**, **Link de unsubscription** e **Opt-Out**.
-
-   ![](assets/message-tracking-insert-link-perso.png)
-
-1. Adicione o parâmetro de rastreamento da URL e selecione o atributo de perfil de sua escolha no [editor de personalização](../personalization/personalization-build-expressions.md).
-
-   ![](assets/message-tracking-perso-parameter.png)
-
-1. Salve as alterações.
-
-1. Repita as etapas acima para cada link ao qual deseja adicionar esse parâmetro de rastreamento.
-
-Agora, quando o email for enviado, esse parâmetro será anexado automaticamente ao final do URL. Em seguida, você pode capturar esse parâmetro nas ferramentas do Web Analytics ou nos relatórios de desempenho.
-
->[!NOTE]
->
->Para verificar a URL final, você pode [enviar uma prova](../content-management/proofs.md) e clicar no link no conteúdo do email depois de receber a prova. O URL deve exibir o parâmetro de rastreamento. No exemplo acima, a URL final será: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+Para obter orientação detalhada sobre a personalização de URL (incluindo como personalizar parâmetros de rastreamento de URL e como personalizar um URL completo/base), consulte [Personalização de URL](url-personalization.md).
