@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
+source-git-commit: 8b1aea19f011038f159560f9ef064cf6637f4438
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2293'
 ht-degree: 19%
 
 ---
@@ -83,12 +83,60 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tbody>
 </table>
 
+
+
+## Em breve {#coming-soon}
+
+Os recursos e aprimoramentos a seguir estão programados para serem lançados nos próximos dias. **As informações estão sujeitas a alterações**. Links, telas e documentação atualizados serão compartilhados assim que essas atualizações estiverem ativas na produção.
+
+### Novos recursos {#comming-soon-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Deeplinks no Designer de email</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível adicionar deep links ao seu conteúdo de email por meio de uma opção dedicada no Designer de email.</p><p>Isso garante que os usuários sejam direcionados diretamente para o conteúdo correto no aplicativo, em vez de serem redirecionados para navegadores ou lojas de aplicativos, preservando o contexto e o engajamento.</p>
+<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
+<p>Para obter mais informações, consulte a <a href="../email/message-tracking.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 7 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Jornada fragmentos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode criar <strong>Fragmentos de Jornada</strong> no Adobe Journey Optimizer. Os fragmentos de jornada são conjuntos reutilizáveis de nós de jornada que você pode criar uma vez e soltar em qualquer jornada na sandbox. Seja uma verificação de elegibilidade, uma lógica de roteamento de canal preferencial ou uma sequência de boas-vindas, os fragmentos ajudam as equipes a se moverem mais rápido e a permanecerem consistentes, sem reconstruir a mesma lógica do zero todas as vezes.</p>
+<p>Depois de criados, os fragmentos são armazenados em um <strong>Inventário de Fragmentos</strong> dedicado e podem ser inseridos em qualquer jornada usando a atividade <strong>Fragmentos de Jornada</strong>.</p>
+<!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<!--p>For more information, refer to the <a href="../building-journeys/journey-fragments.md">detailed documentation</a>.</p-->
+<p>Data de disponibilidade: 12 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
 ## Notas de versão de abril de 2026 {#april-26-rn}
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Os novos recursos e aprimoramentos lançados no início de abril são anunciados com a data de disponibilidade.
@@ -404,28 +452,3 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 
 * **Variáveis globais em Campanhas orquestradas** - As Campanhas orquestradas agora oferecem suporte a variáveis globais que podem ser definidas uma vez e reutilizadas em todas as atividades de um fluxo de trabalho, simplificando a configuração e garantindo a consistência em valores dinâmicos, expressões e personalização de conteúdo. [Leia mais](../orchestrated/global-variables.md)
 * **Aprimoramentos do Data Modeler** - Os esquemas relacionais orquestrados agora oferecem suporte a chaves compostas que abrangem vários campos. O carregamento de um esquema de um arquivo DDL também traz enumerações, e o carregamento de um arquivo DDL ou do Excel cria automaticamente relações compostas entre as tabelas. Na visualização de relacionamento da entidade, os links compostos agora exibem o conjunto completo de pares de campos entre tabelas depois que um arquivo é carregado. [Leia mais](../orchestrated/gs-schemas.md)
-
-## Em breve {#coming-soon}
-
-Os recursos e aprimoramentos a seguir estão programados para serem lançados nos próximos dias. **As informações estão sujeitas a alterações**. Links, telas e documentação atualizados serão compartilhados assim que essas atualizações estiverem ativas na produção.
-
-### Novos recursos {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>Deeplinks no Designer de email</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora é possível adicionar deep links ao seu conteúdo de email por meio de uma opção dedicada no Designer de email.</p><p>Isso garante que os usuários sejam direcionados diretamente para o conteúdo correto no aplicativo, em vez de serem redirecionados para navegadores ou lojas de aplicativos, preservando o contexto e o engajamento.</p>
-<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
-<p>Para obter mais informações, consulte a <a href="../email/message-tracking.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: 7 de maio de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
