@@ -5,10 +5,10 @@ title: Etapas de configuração
 description: Saiba como criar um esquema relacional no Adobe Experience Platform fazendo upload de uma DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: ae8892498c23965056241b87d361e46567000ce4
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 46%
+source-wordcount: '1222'
+ht-degree: 42%
 
 ---
 
@@ -40,8 +40,9 @@ Os uploads de arquivo de esquema baseados em Excel são compatíveis. Baixe o [m
 +++Os seguintes recursos são suportados ao criar esquemas relacionais no Adobe Experience Platform
 
 * **ENUMERAÇÃO**\
-  Os campos ENUM são suportados na criação de esquema manual e baseado em DDL, permitindo que você defina atributos com um conjunto fixo de valores permitidos.
-Exemplo:
+  Os campos ENUM são suportados na criação de esquema manual e baseado em DDL. Ao carregar um esquema de um arquivo DDL, as enumerações definidas no arquivo são importadas automaticamente, permitindo definir atributos com um conjunto fixo de valores permitidos.
+
+  Exemplo:
 
   ```
   CREATE TABLE orders (
@@ -54,6 +55,12 @@ Exemplo:
   PRIMARY KEY (order_id, product_id)
   );
   ```
+
+* **Chave Composta** e **Relações Compostas**
+
+  Chaves primárias compostas que abrangem vários campos são suportadas em definições de esquema relacional, permitindo o uso de vários campos juntos para identificar registros de forma exclusiva.
+
+  Ao carregar um esquema de um arquivo DDL ou Excel, os relacionamentos compostos entre as tabelas são criados automaticamente. Na visualização de relacionamento da entidade, cada link composto exibe o conjunto completo de pares de campos entre as tabelas vinculadas.
 
 * **Rótulo do esquema para governança de dados**\
   A rotulagem é compatível no nível do campo de esquema para aplicar políticas de governança de dados, como controle de acesso e restrições de uso. Para obter mais detalhes, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
@@ -114,7 +121,7 @@ Você pode especificar relações diretamente no arquivo DDL ao criar seu esquem
 
    >[!NOTE]
    >
-   >As chaves compostas terão suporte se forem definidas no arquivo DDL.
+   >Chaves compostas que abrangem vários campos são suportadas quando definidas no arquivo DDL. Ao carregar de um arquivo DDL ou Excel, as relações compostas entre as tabelas são criadas automaticamente. Na visualização de relacionamento da entidade, os links compostos exibem o conjunto completo de pares de campos entre as tabelas vinculadas.
 
    ![](assets/admin_schema_5.png)
 
