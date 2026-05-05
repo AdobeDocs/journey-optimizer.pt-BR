@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d975d9cd95d33ea8972cf9388e7f868009c4fb95
+source-git-commit: f274d56a19ccc21b04452b2bca2b17e07159d819
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '2067'
 ht-degree: 20%
 
 ---
@@ -32,7 +32,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Os novos recursos e aprimoramentos lançados no início de abril são anunciados com a data de disponibilidade.
@@ -283,13 +283,15 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 
 ### Aprimoramentos {#april-26-improv}
 
+#### IA
+
 <!--
-#### AI
-
 * **Brand alignment score in Campaign dashboard** - You can now assess your brand alignment score directly within your Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.
-
-* **Prompt Assistant enhancement** - Prompt Assistant enhances AI content generation by analyzing user prompts in real time and identifying gaps in clarity, completeness, and context. It suggests improved rewrites and provides actionable guidance to enrich prompts with key details like audience, tone, and intent. The feature also asks targeted clarifying questions to help users refine their inputs before generation. This results in more accurate, high-quality outputs with fewer iterations. [Learn more](../content-management/ai-assistant-prompting-guide.md)
 -->
+
+* **Aprimoramento do Assistente de Solicitação** - O Assistente de Solicitação aprimora a geração de conteúdo de IA analisando solicitações do usuário em tempo real e identificando lacunas de clareza, integridade e contexto. Ele sugere regravações aprimoradas e fornece orientação acionável para enriquecer os prompts com detalhes-chave como público, tom e intenção. O recurso também faz perguntas de esclarecimento direcionadas para ajudar os usuários a refinar suas entradas antes da geração. Isso resulta em saídas mais precisas e de alta qualidade com menos iterações. [Saiba mais](../content-management/ai-assistant-prompting-guide.md#prompt-assistant)
+
+  Data de disponibilidade: 5 de maio de 2026
 
 #### Push
 

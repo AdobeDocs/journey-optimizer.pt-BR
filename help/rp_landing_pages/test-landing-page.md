@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: testar, validar, aprovar, aprovação, controle-de-qualidade, qa, perfis-de-teste, personalização, renderização, verificação-de-spam, experimento-de-conteúdo, teste-a/b, detecção-de-conflitos, lista-de-seeds, provas, dados-de-amostra, fluxo-de-trabalho-de-aprovação, teste-de-email, fluxo-de-trabalho-de-validação
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 3409e7a17dc0bae3511e3e021e244a2fa74f99aa
 workflow-type: tm+mt
 source-wordcount: '2419'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ Esta página de destino ajuda a escolher a abordagem de teste correta com base n
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizar, testar e validar o conteúdo
 
@@ -36,7 +36,7 @@ Saiba como visualizar, testar e validar um conteúdo personalizado por meio de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Fluxos de trabalho de aprovação para jornadas e campanhas
 
@@ -46,7 +46,7 @@ Entenda como configurar, gerenciar e executar processos de aprovação para gara
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Teste a jornada
 
@@ -56,7 +56,7 @@ Valide a jornada antes da publicação testando-a com perfis específicos para g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Execução de teste da jornada
 
@@ -66,7 +66,7 @@ Realize uma execução de teste para simular e validar o caminho de execução d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoramento e solução de problemas
 
@@ -76,7 +76,7 @@ Acesse recursos abrangentes de solução de problemas, alertas do sistema e cód
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Playground de personalização
 
@@ -86,7 +86,7 @@ Experimente expressões de personalização em um ambiente seguro. Teste o códi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Experimentos de conteúdo e teste A/B
 
@@ -96,7 +96,7 @@ Otimize as campanhas testando múltiplas variações de conteúdo e medindo o de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas de seeds para monitoramento pelas partes interessadas
 
@@ -106,7 +106,7 @@ Inclua automaticamente endereços internos de partes interessadas nas entregas p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detecção de conflitos
 
@@ -398,7 +398,7 @@ Familiarize-se com esses conceitos essenciais de testes para entender melhor os 
 
 Entenda como os recursos de teste conectam-se uns com os outros e com os fluxos de trabalho mais amplos do Journey Optimizer. Esta seção mapeia pré-requisitos, dependências upstream/downstream e combinações de recursos comuns.
 
-+++**Pré-requisitos (necessários antes do teste)**
+### Pré-requisitos (obrigatórios antes do teste)
 
 * Perfis de teste devem ser criados antes do uso do modo de teste ou da visualização de conteúdo
 * As políticas de aprovação devem ser configuradas antes do envio para aprovação
@@ -407,27 +407,21 @@ Entenda como os recursos de teste conectam-se uns com os outros e com os fluxos 
 * A jornada deve estar em status de rascunho para usar o modo de teste
 * A jornada deve ter o namespace configurado para usar o modo de teste
 
-+++
-
-+++**Do que depende o teste (upstream)**
+### Do que o teste depende (upstream)
 
 * Criação de conteúdo: precisa de campanhas ou jornadas para testar
 * Perfis de teste: obrigatórios para o modo de teste e a visualização de conteúdo
 * Políticas de aprovação: obrigatórias para fluxos de trabalho de aprovação
 * Configuração: configurações de canal, autenticação de email, configurações de domínio
 
-+++
-
-+++**O que depende de teste (downstream)**
+### O que depende de teste (downstream)
 
 * Ativação de campanha/jornada: não é possível ativar sem a solução dos erros
 * Publicação: a aprovação pode ser necessária antes da publicação
 * Monitoramento ao vivo: monitoramento e relatórios pós-lançamento
 * Otimização: use os resultados do teste para refinar campanhas futuras
 
-+++
-
-+++**Recursos relacionados**
+### Recursos relacionados
 
 * Testes + Fluxos de trabalho de aprovação - Processo de controle de qualidade
 * Testes + Detecção de conflitos — Evita o excesso de mensagens enviadas ao cliente
@@ -436,67 +430,51 @@ Entenda como os recursos de teste conectam-se uns com os outros e com os fluxos 
 * Perfis de teste + Personalização - Validação de conteúdo
 * Execução de teste + Modo de teste - Validação abrangente de jornada
 
-+++
-
-+++**Combinações comuns de recursos**
+### Combinações comuns de recursos
 
 * Teste de conteúdo: Perfis de teste + Dados de entrada de amostra + Playground de personalização
 * Validação de email: Testes de renderização + Pontuações de spam + Perfis de teste + Provas
 * Validação de jornada: Modo de teste + Execução de teste + Perfis de teste
 * Lista de verificação de pré-lançamento: Todos os testes técnicos + Detecção de conflitos + Fluxos de trabalho de aprovação
 
-+++
-
 >[!TAB Perguntas comuns]
 
-+++**P: Quais são os testes necessários antes de iniciar uma campanha?**
+### P: Que teste é necessário antes de lançar uma campanha?
 
 **Mínimo:** Visualização de conteúdo com perfis de teste + verificação de pontuação de spam (email)
 **Recomendado:** + Renderização de email + Detecção de conflitos + Fluxo de trabalho de aprovação
 **Prática recomendada:** + Teste de dados de entrada de amostra + Listas de propagação + Experimento A/B (se estiver otimizando)
 
-+++
-
-+++**P: Como faço para testar a personalização sem criar muitos perfis de teste?**
+### P: Como faço para testar a personalização sem criar muitos perfis de teste?
 
 **Solução primária:** Use [dados de entrada de exemplo](../using/test-approve/simulate-sample-input.md) com arquivos CSV/JSON (suporta até 30 variantes)
 **Alternativa:** Crie de 3 a 5 [perfis de teste](../using/audience/creating-test-profiles.md) representativos que abrangem segmentos-chave
 **Ferramenta de aprendizado:** Experimente primeiro em [playground de personalização](../using/personalization/personalize.md#playground)
 
-+++
-
-+++**P: Qual é a diferença entre o modo de teste e a execução de teste nas jornadas?**
+### P: Qual é a diferença entre o modo de teste e a simulação para o jornada?
 
 **Modo de teste:** envia perfis de teste por meio da jornada, aciona ações reais e gera mensagens de teste. Requer jornada de rascunho + namespace.
 **Execução de teste:** rastreia caminhos de execução sem enviar nada. Funciona em qualquer status de jornada. Nenhuma mensagem enviada, nenhuma ação executada.
 **Use em conjunto:** Modo de teste para teste de mensagem + Execução de teste para validação de lógica - cobertura abrangente.
 
-+++
-
-+++**P: Posso testar jornadas no status produção/ativa?**
+### P: Posso testar jornadas no status de produção/tempo real?
 
 **Modo de teste:** Não - somente jornadas de rascunho
 **Execução sem erros:** Sim - funciona em qualquer status de jornada
 **Visualização de conteúdo:** Sim - visualizar mensagens individuais a qualquer momento
 **Solução alternativa:** duplicar jornada ao vivo para rascunho para validação do modo de teste completo
 
-+++
-
-+++**P: Quais recursos de teste exigem integrações externas?**
+### P: Quais recursos de teste exigem integrações externas?
 
 **Renderização de email:** Requer integração Litmus (licença separada)
 **Todos os outros:** Integrado ao Journey Optimizer, sem necessidade de integrações adicionais
 **Observação:** perfis de teste exigem o Serviço de Perfil do Cliente em Tempo Real (incluído)
 
-+++
-
-+++**P: Como testar campanhas acionadas por API?**
+### P: Como testo campanhas acionadas por API?
 
 **Opção 1:** Use a [API de Simulação de Campanha](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} para testes programáticos
 **Opção 2:** Visualizar conteúdo com perfis de teste na interface
 **Opção 3:** Enviar provas para testar endereços de email
 **Prática recomendada:** combine todos os três para obter uma validação abrangente
-
-+++
 
 >[!ENDTABS]

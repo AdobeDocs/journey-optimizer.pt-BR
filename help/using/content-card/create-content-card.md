@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1558'
 ht-degree: 12%
 
 ---
@@ -55,7 +55,7 @@ Para adicionar um cartão de Conteúdo a uma jornada, siga estas etapas:
 
    1. Clique em **[!UICONTROL Adicionar condição]** para selecionar seu evento.
 
-      +++Consulte Evento disponível.
+      Evento disponível
 
       | Pacote | Acionador | Definição |
       |---|---|---|
@@ -69,13 +69,11 @@ Para adicionar um cartão de Conteúdo a uma jornada, siga estas etapas:
       | Ciclo de vida do aplicativo | Fechamento do aplicativo | Disparado quando o aplicativo é fechado. |
       | Ciclo de vida do aplicativo | Falha de aplicativo | Disparado quando o aplicativo não estiver em segundo plano antes do fechamento. O evento é enviado quando o aplicativo é iniciado após a falha. O relatório de falha do Adobe Mobile não implementa um gerenciador de exceção global não detectado. |
 
-      +++
-
    1. Escolha a condição **[!UICONTROL Or]** se quiser adicionar mais **[!UICONTROL Triggers]** para expandir ainda mais sua regra.
 
    1. Escolha a condição **[!UICONTROL And]** se desejar adicionar **[!UICONTROL Características]** e ajustar melhor sua regra.
 
-      +++Consulte as Características disponíveis.
+      Características disponíveis
 
       | Pacote | Traços | Definição |
       |---|---|---|
@@ -93,8 +91,6 @@ Para adicionar um cartão de Conteúdo a uma jornada, siga estas etapas:
       | Ciclo de vida do aplicativo | Data de instalação | Disparado quando a data de instalação especificada é atingida. |
       | Ciclo de vida do aplicativo | Lançamentos | Disparado quando o número especificado de inicializações é atingido. |
       | Ciclo de vida do aplicativo | Hora do dia | Disparado quando o horário especificado é cumprido. |
-
-      +++
 
    1. Clique em **[!UICONTROL Criar grupo]** para agrupar acionadores.
 
@@ -114,7 +110,7 @@ Para começar a criar seus cartões de conteúdo por meio de uma campanha, siga 
 
    * **[!UICONTROL Agendado - Marketing]**: execute a campanha imediatamente ou em uma data especificada. As campanhas agendadas têm como objetivo enviar mensagens de **marketing**. Eles são configurados e executados na interface do usuário do.
 
-   * **[!UICONTROL Acionado por API - Marketing/Transacional]**: execute a campanha usando uma chamada de API. As campanhas acionadas por API têm como objetivo enviar **mensagens de marketing** ou **mensagens transacionais**, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc. [Saiba como acionar uma campanha usando APIs](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL Acionado por API - Marketing/Transacional]**: execute a campanha usando uma chamada de API. As campanhas acionadas por API destinam-se ao envio de **mensagens de marketing** ou **mensagens transacionais**, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc. [Saiba como acionar uma campanha usando APIs](../campaigns/api-triggered-campaigns.md)
 
    ![](assets/content-card-create-1.png)
 
@@ -142,7 +138,7 @@ Para começar a criar seus cartões de conteúdo por meio de uma campanha, siga 
 
    1. Clique em **[!UICONTROL Adicionar condição]** para selecionar seu evento.
 
-      +++Consulte Evento disponível.
+      Evento disponível
 
       | Pacote | Acionador | Definição |
       |---|---|---|
@@ -156,13 +152,11 @@ Para começar a criar seus cartões de conteúdo por meio de uma campanha, siga 
       | Ciclo de vida do aplicativo | Fechamento do aplicativo | Disparado quando o aplicativo é fechado. |
       | Ciclo de vida do aplicativo | Falha de aplicativo | Disparado quando o aplicativo não estiver em segundo plano antes do fechamento. O evento é enviado quando o aplicativo é iniciado após a falha. O relatório de falha do Adobe Mobile não implementa um gerenciador de exceção global não detectado. |
 
-      +++
-
    1. Escolha a condição **[!UICONTROL Or]** se quiser adicionar mais **[!UICONTROL Triggers]** para expandir ainda mais sua regra.
 
    1. Escolha a condição **[!UICONTROL And]** se desejar adicionar **[!UICONTROL Características]** e ajustar melhor sua regra.
 
-      +++Consulte as Características disponíveis.
+      Características disponíveis
 
       | Pacote | Traços | Definição |
       |---|---|---|
@@ -180,8 +174,6 @@ Para começar a criar seus cartões de conteúdo por meio de uma campanha, siga 
       | Ciclo de vida do aplicativo | Data de instalação | Disparado quando a data de instalação especificada é atingida. |
       | Ciclo de vida do aplicativo | Lançamentos | Disparado quando o número especificado de inicializações é atingido. |
       | Ciclo de vida do aplicativo | Hora do dia | Disparado quando o horário especificado é cumprido. |
-
-      +++
 
    1. Clique em **[!UICONTROL Criar grupo]** para agrupar acionadores.
 
