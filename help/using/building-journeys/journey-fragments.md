@@ -11,7 +11,7 @@ hide: true
 keywords: fragmentos, jornada, reutilizar, nós, tela, inventário, reutilizável
 badge: label="Disponibilidade limitada" type="Informative"
 version: Journey Orchestration
-source-git-commit: d18f56e2730ba4b59d2923ed0b7a00ccfff06b3f
+source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 1%
@@ -71,6 +71,7 @@ Para salvar nós de jornada como um fragmento diretamente da tela de jornada:
 1. Clique em **[!UICONTROL Salvar]**. O fragmento é salvo como um rascunho.
 
 >[!TIP]
+>
 >Se você criar um fragmento a partir de uma jornada, [teste ou simule sua jornada](testing-the-journey.md) **antes** de salvar o fragmento para garantir que os nós selecionados se comportem conforme esperado.
 
 >[!TAB Do inventário de fragmentos]
@@ -83,6 +84,7 @@ Para criar um fragmento diretamente do inventário:
 1. Quando terminar, clique em **[!UICONTROL Salvar]** para salvar o fragmento como rascunho.
 
 >[!CAUTION]
+>
 >O modo de teste e a simulação não estão disponíveis no editor de fragmentos. Isso significa que não é possível validar o comportamento das atividades configuradas antes que o fragmento seja ativado e inserido em uma jornada. Para fragmentos em que a precisão lógica é crítica, considere [criar e testar ou simular os nós em uma jornada completa](testing-the-journey.md) primeiro e, em seguida, salvá-los como um fragmento da guia da tela acima.
 
 >[!ENDTABS]
