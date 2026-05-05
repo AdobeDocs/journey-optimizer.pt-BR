@@ -5,10 +5,10 @@ title: Perguntas frequentes sobre campanhas orquestradas
 description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orchestrated
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 0ef85efeb5fc9a542c60b076df8bc58b781ccff9
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 12%
+source-wordcount: '2699'
+ht-degree: 11%
 
 ---
 
@@ -347,16 +347,17 @@ Não, as campanhas orquestradas não oferecem suporte aos recursos de decisão. 
 
 +++ Como funciona a implantação entre ambientes?
 
-Objetos criados em campanhas orquestradas (por exemplo, públicos, fluxos de trabalho) são vinculados à sandbox em que são criados. Os workflows padrão de empacotamento e implantação em ambientes (desenvolvimento, preparo, produção) não estão disponíveis no momento para campanhas orquestradas.
+Os objetos criados em campanhas orquestradas (por exemplo, públicos e fluxos de trabalho) pertencem à sandbox em que foram criados. Para reutilizar uma campanha orquestrada em outra sandbox (por exemplo, desenvolvimento, preparo ou produção), copie-a com **Ferramentas de sandbox**: adicione a campanha a um pacote, publique o pacote e importe-o para a sandbox de destino. A cópia importada foi criada no **rascunho**, e **reimportar o mesmo pacote cria uma nova campanha** em vez de atualizar uma existente. Uma movimentação completa geralmente leva **mais de uma etapa**: talvez seja necessário alinhar **configurações de canal** (nomes correspondentes no destino), **esquemas** e **conjuntos de dados** por meio do mesmo pacote ou importações de pacote adicionais; as configurações de canal não são copiadas com a campanha. Não há uma lista de verificação completa de pré-exportação na interface do usuário; use o fluxo de mapeamento de importação e os **alertas pós-importação** para concluir a instalação. Para obter detalhes e limitações, consulte [Copiar objetos Journey Optimizer entre sandboxes](../configuration/copy-objects-to-sandbox.md).
 
 **Práticas recomendadas**
 
 * Mantenha **sandboxes separadas** para experimentação, controle de qualidade e produção.
-* Documente as configurações completamente para permitir a replicação manual, se necessário.
-* Alinhe-se às equipes de governança para reduzir a variação de configuração entre ambientes.
+* Após cada importação, valide a campanha de ponta a ponta na sandbox de destino antes de publicar.
+* Documente as configurações e alinhe-se com as equipes de governança para reduzir a variação de configuração entre os ambientes.
 
 **Saiba mais**
 
+* [Copiar objetos Journey Optimizer entre sandboxes](../configuration/copy-objects-to-sandbox.md)
 * [Introdução às campanhas orquestradas](gs-orchestrated-campaigns.md)
 * [Medidas de proteção e limitações](guardrails.md)
 
