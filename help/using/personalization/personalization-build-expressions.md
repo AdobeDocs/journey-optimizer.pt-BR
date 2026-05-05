@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 10%
+source-wordcount: '1532'
+ht-degree: 11%
 
 ---
 
@@ -46,48 +46,21 @@ Ele também pode ser adicionado em outras seções do seu conteúdo. Por exemplo
 
 +++Designer de email
 
-Ao editar o conteúdo de email na [Designer de email](../email/get-started-email-design.md), você pode adicionar personalização em blocos de texto e em URLs usando o ícone na barra de ferramentas contextual.
+Ao editar conteúdo de email na [Designer de email](../email/get-started-email-design.md), você pode adicionar personalização na maioria dos elementos de texto usando o ícone na barra de ferramentas contextual.
 
 ![](assets/perso_insert.png)
 
 +++
 
-+++Ofertas
-
-Você pode adicionar personalização ao usar conteúdo do tipo texto em suas representações de **ofertas**. [Saiba como criar ofertas personalizadas](../offers/offer-library/creating-personalized-offers.md)
-
-+++
-
 +++URLs
 
-O Journey Optimizer também permite personalizar **URLs** em sua mensagem.  Os URLs personalizados levam os destinatários para páginas específicas de um site ou para um microsite personalizado, dependendo dos atributos do perfil. A personalização de URL está disponível para estes tipos de links: **Link externo**, **Link de unsubscription** e **Opt-Out**.
-
-Amostra de URLs personalizados:
-
-* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
-* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
-* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
-* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+O Journey Optimizer também permite personalizar **URLs** em suas mensagens. Os URLs personalizados levam os destinatários para páginas específicas de um site ou para um microsite personalizado, dependendo dos atributos do perfil. [Saiba mais](../email/url-personalization.md)
 
 ![](assets/perso-url.png){width="50%"}
 
 >[!NOTE]
 >
->Ao editar um URL personalizado no editor de personalização, as funções auxiliares e a associação de públicos-alvo são desativadas por motivos de segurança.
->
->Não há suporte para espaços nos tokens de personalização usados em urls.
-
-O Journey Optimizer também oferece suporte à personalização completa/básica de URL. Por exemplo:
-
-```
-<a href="{{profile.social.link}}" />
-<a href="{{profile.social.baseUrl}}/profile" />
-<a href="https://{{profile.social.baseUrl}}/profile" />
-```
-
->[!NOTE]
->
->Para habilitar a personalização completa ou básica do URL, entre em contato com a Adobe e forneça sua lista de domínios aceitos.
+>A personalização de URL está disponível para estes tipos de links: **Link externo**, **Link de unsubscription** e **Opt-Out**.
 
 +++
 
@@ -97,13 +70,19 @@ Ao criar uma configuração de canal de email, você pode definir valores person
 
 +++
 
++++Ofertas
+
+Você pode adicionar personalização ao usar conteúdo do tipo texto em suas representações de **ofertas**. [Saiba como criar ofertas personalizadas](../offers/offer-library/creating-personalized-offers.md)
+
++++
+
 ## Fontes do Personalization {#sources}
 
 O painel de navegação permite selecionar a origem para personalização. As fontes disponíveis são:
 
 * **[!UICONTROL Atributos do perfil]** : lista todas as referências associadas ao esquema de perfil descrito na [documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
 * **[!UICONTROL Atributos do público-alvo]**: esta pasta é específica para campanhas orquestradas. Ele contém atributos calculados diretamente na tela da campanha. [Saiba como adicionar personalização em campanhas orquestradas](../orchestrated/activities/channels.md#add-personalization)
-* **[!UICONTROL Públicos-alvo]** : lista todos os públicos-alvo criados no serviço de Segmentação do Adobe Experience Platform. Mais informações sobre segmentação estão disponíveis [aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
+* **[!UICONTROL Públicos-alvo]** : lista todos os públicos-alvo criados no serviço de Segmentação do Adobe Experience Platform. Saiba mais na [documentação de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
 * **[!UICONTROL Decisões de oferta]** : lista todas as ofertas associadas a uma disposição específica. Selecione o posicionamento e insira as ofertas no conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [esta seção](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL Atributos contextuais]**: quando uma atividade de ação de canal (email, push, SMS) é usada em uma jornada ou campanha, os atributos contextuais relacionados a eventos e propriedades ficam disponíveis para personalização. Um exemplo de personalização usando atributos contextuais é apresentado em [esta seção](personalization-use-case.md). Além disso, as respostas de ação personalizadas podem ser usadas para personalização. [Saiba como usar respostas de ação personalizadas em canais nativos](../action/action-response.md#response-in-channels).
 
