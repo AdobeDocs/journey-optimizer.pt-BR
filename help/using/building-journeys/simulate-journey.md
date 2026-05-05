@@ -10,9 +10,9 @@ level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: b858b41cf65ed28e229938102e0f44b369180da8
+source-git-commit: 064a1e595e4b8ac532b9d9c24b0c1d490ab5e1ce
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1861'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ As etapas a seguir mostram como criar usuários simulados por meio da interface 
 
    ![Painel de seleção de usuário simulado](assets/simulate-5.png)
 
-1. Acesse a guia **[!UICONTROL Resultados]** para abrir os resultados da execução e analisar como cada etapa foi executada. Para obter mais informações, consulte [Exibir resultados](#viewing-logs).
+1. Acesse a guia **[!UICONTROL Resultados]** para abrir o log de execução e analisar como cada etapa foi executada. Para obter mais informações, consulte [Exibir resultados](#viewing-results).
 
 Depois de validar a jornada em **[!UICONTROL Simulação]**, examine o log de **[!UICONTROL Resultados]**. Se ocorrerem erros, deixe **[!UICONTROL Simulação]**, aplique as alterações necessárias à jornada e execute **[!UICONTROL Simulação]** novamente até que a execução pareça correta. Em seguida, você pode publicar a jornada. Consulte [Publicar sua jornada](../building-journeys/publish-journey.md).
 
@@ -119,7 +119,7 @@ Os usuários simulados criados manualmente são armazenados e podem ser selecion
 
    ![Painel de seleção de usuário simulado](assets/simulate-5.png)
 
-1. Clique em **[!UICONTROL Mostrar log]** para abrir o log de execução e analisar como cada etapa foi executada. Para obter mais informações, consulte [Exibir resultados](#viewing-logs).
+1. Acesse a guia **[!UICONTROL Resultados]** para abrir o log de execução e analisar como cada etapa foi executada. Para obter mais informações, consulte [Exibir resultados](#viewing-results).
 
 Depois de validar a jornada em **[!UICONTROL Simulação]**, examine o log de **[!UICONTROL Resultados]**. Se ocorrerem erros, deixe **[!UICONTROL Simulação]**, aplique as alterações necessárias à jornada e execute **[!UICONTROL Simulação]** novamente até que a execução pareça correta. Em seguida, você pode publicar a jornada. Consulte [Publicar sua jornada](../building-journeys/publish-journey.md).
 
@@ -143,9 +143,9 @@ Se sua jornada incluir um ou mais eventos, é possível acioná-los enquanto a S
 
    Uma mensagem de confirmação `Events triggered successfully` é exibida quando os usuários simulados entram com êxito na jornada.
 
-1. Clique em **[!UICONTROL Mostrar log]** para abrir o log de execução e analisar como cada etapa foi executada. Para obter mais informações, consulte [Exibir resultados](#viewing-logs).
+1. Acesse a guia **[!UICONTROL Resultados]** para abrir o log de execução e analisar como cada etapa foi executada. Para obter mais informações, consulte [Exibir resultados](#viewing-results).
 
-## Exibir resultados {#viewing-logs}
+## Exibir resultados {#viewing-results}
 
 A guia **[!UICONTROL Resultados]** permite exibir os resultados do teste. Use o seletor de exibição para escolher como você navega no log:
 
