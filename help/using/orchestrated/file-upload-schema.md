@@ -29,7 +29,7 @@ Esta seção apresenta um passo a passo de como criar um esquema relacional na A
 
 1. [Assimile dados](ingest-data.md) em seu conjunto de dados de fontes compatíveis.
 
-➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
+➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational)
 
 ## Fazer upload de um arquivo DDL{#ddl-upload}
 
