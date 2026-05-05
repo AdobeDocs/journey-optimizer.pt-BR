@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 16%
+source-wordcount: '1106'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="Criar regras"
->abstract="Você pode criar dois tipos de regras: **regras de decisão**, que podem ser usadas em itens de decisão ou estratégias de seleção para controlar quais itens devem ser apresentados a qual público-alvo, ou **regras de direcionamento**, que determinam os segmentos específicos de público-alvo qualificados para receber conteúdo personalizado ou entrar em um caminho de jornada específico.<br/><br/>Ao criar uma regra de decisão, você pode selecionar **[!UICONTROL Habilitar pesquisa de conjunto de dados]** para usar os dados da Adobe Experience Platform. Isso permite definir critérios de elegibilidade com base em atributos dinâmicos e externos, garantindo que os itens de decisão sejam exibidos somente quando forem relevantes. "
+>abstract="Você pode criar dois tipos de regras: **regras de decisão** que podem ser usadas em itens de decisão ou estratégias de seleção, para controlar quais itens devem ser apresentados a qual público-alvo, ou **regras de direcionamento** para determinar segmentos específicos de público-alvo qualificados para receber conteúdo personalizado ou para inserir um caminho de jornada específico.<br/><br/>Ao criar uma regra de decisão, você pode selecionar **[!UICONTROL Habilitar pesquisa de conjunto de dados]** para usar os dados do Adobe Experience Platform. Isso permite definir critérios de elegibilidade com base em atributos dinâmicos e externos, garantindo que os itens de decisão sejam exibidos somente quando forem relevantes."
 
 ## Sobre regras {#about}
 
@@ -128,6 +128,28 @@ Para criar uma regra, siga estas etapas:
 >Uma sequência de regras pode ter até 15 KB para caracteres codificados em UTF-8. É equivalente a 15.000 caracteres ASCII (1 byte cada) ou 3.750-7.500 caracteres não ASCII (2-4 bytes cada).
 >
 >[Saiba mais sobre as Medidas de proteção e limitações das Regras de elegibilidade](decisioning-guardrails.md#eligibility-rules)
+
+## Otimização de regras habilitada por IA {#optimize}
+
+O [!DNL Journey Optimizer] pode analisar regras automaticamente e sugerir simplificações que preservem a lógica original. Somente as regras cuja expressão PQL é maior que **2 KB** (codificado em UTF-8) são qualificadas, expressões menores não são analisadas. Quando uma simplificação é encontrada, um indicador vermelho **[!UICONTROL Otimizar]** aparece ao lado da regra no inventário.
+
+>[!NOTE]
+>
+>A otimização de regras habilitada por IA depende dos mesmos recursos de IA gerativos que o **Assistente de IA** e usa os mesmos controles de acesso. Os usuários devem receber a permissão **[!UICONTROL Gerar Conteúdo]** no recurso **[!UICONTROL Assistente de IA]**. Para obter detalhes, consulte o [Assistente de IA de acesso](../content-management/gs-generative.md#generative-access).
+
+![](assets/decision-rules-ai.png)
+
+Para otimizar uma regra:
+
+1. No inventário de regras, clique no ícone indicador vermelho ao lado do nome da regra.
+
+1. A janela **[!UICONTROL Otimizar]** é aberta, exibindo a expressão PQL original junto com a versão sugerida pela IA.
+
+   ![](assets/decision-rules-ai-details.png)
+
+1. Para validar se ambas as expressões se comportam de forma idêntica, clique em **[!UICONTROL Análise de Otimização de Download (TSV)]** para baixar um arquivo que mostra como os perfis simulados são avaliados em relação a cada versão.
+
+1. Depois de satisfeito, clique em **[!UICONTROL Aplicar]** para substituir a expressão original pela expressão otimizada.
 
 ## Vídeo tutorial {#video}
 

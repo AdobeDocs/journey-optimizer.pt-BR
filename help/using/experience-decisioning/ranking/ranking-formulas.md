@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1731'
 ht-degree: 5%
 
 ---
 
-# Usar o construtor de fórmulas de IA {#create-ranking-formulas}
+# Criar fórmulas de classificação {#create-ranking-formulas}
 
 **As fórmulas de classificação** permitem definir regras que determinam qual oferta deve ser apresentada primeiro, em vez de considerar as pontuações de prioridade.
 
@@ -26,7 +26,18 @@ Depois que uma fórmula de classificação é criada, é possível atribuí-la a
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
-## Criar uma fórmula de classificação {#create-ranking-formula}
+## Medidas de proteção e limitações {#ranking-guardrails}
+
+Antes de criar fórmulas de classificação, lembre-se das seguintes restrições:
+
+* O construtor de fórmulas de IA não oferece suporte a [modelos de otimização personalizados](personalized-optimization-model.md) que usam métricas contínuas.
+* Quando um modelo de IA é usado em uma fórmula de classificação, os dados não são refletidos no [Relatório de taxa de conversão para tráfego de Retenção e Orientado por Modelo](../../reports/campaign-global-report-cja-code.md#conversion-rate).
+* A profundidade do aninhamento em uma fórmula de classificação é limitada a 30 níveis, medidos pela contagem de `)` na sequência de caracteres do PQL.
+* Uma sequência de fórmula de classificação pode ter até 8 KB para caracteres codificados em UTF-8 (8.000 caracteres ASCII ou 2.000-4.000 caracteres não ASCII).
+* Os períodos de pesquisa não são permitidos em fórmulas de classificação (por exemplo, eventos de experiência do último mês). As tentativas de salvar essas fórmulas acionam um erro.
+* [Otimização de fórmula habilitada por IA](#optimize) aplica-se apenas a fórmulas de classificação cuja expressão PQL baseada em código é maior que **2 KB** no tamanho codificado UTF-8; fórmulas menores não são analisadas.
+
+## Criar a fórmula de classificação e definir propriedades {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
@@ -47,52 +58,36 @@ Para criar uma fórmula de classificação, siga as etapas abaixo.
 
 1. Opcionalmente, clique em **[!UICONTROL Selecionar modelo de IA]** para definir o modelo que será usado como referência para criar sua fórmula de classificação.
 
-   >[!NOTE]
-   >
-   >[O construtor de fórmulas de IA não oferece suporte a modelos de otimização personalizados](personalized-optimization-model.md) que usam métricas contínuas.
-
    Toda vez que você se refere a uma pontuação de modelo ao definir sua fórmula abaixo, o modelo de IA selecionado será usado.
 
-   >[!CAUTION]
-   >
-   >Ao usar um modelo de IA incorporado a uma fórmula de classificação, os dados não são refletidos no [Relatório de taxa de conversão para tráfego de Retenção e Orientado por Modelo](../../reports/campaign-global-report-cja-code.md#conversion-rate).
+1. Defina as condições que determinarão a pontuação de classificação para os itens de decisão correspondentes. É possível:
 
-1. Defina as condições que determinarão a pontuação de classificação para os itens de decisão correspondentes. Você pode:
+   * Preencha a seção **[!UICONTROL Critérios]** usando o [construtor de fórmulas](#ranking-select-criteria) e/ou
+   * Clique em **[!UICONTROL Alternar para o editor de código]** para definir ou refinar a lógica de classificação com o [PQL no editor de código](#ranking-code-editor).
 
-   * preencher a seção **[!UICONTROL Critérios]** da [interface do usuário](#ranking-select-criteria),
-   * ou alterne para o [editor de código](#ranking-code-editor).
+## Usar dados da Adobe Experience Platform {#aep-data}
 
-   >[!NOTE]
-   >
-   >A profundidade do aninhamento em uma fórmula de classificação é limitada a 30 níveis. Isso é medido pela contagem dos parênteses de fechamento `)` na cadeia de caracteres do PQL. Uma sequência de regras pode ter até 8 KB para caracteres codificados em UTF-8. É equivalente a 8.000 caracteres ASCII (1 byte cada) ou 2.000-4.000 caracteres não ASCII (2-4 bytes cada). [Saiba mais sobre as medidas de proteção e limitações da decisão](../decisioning-guardrails.md#ranking-formulas)
+Na seção **[!UICONTROL Pesquisa de conjunto de dados]**, você pode usar dados do Adobe Experience Platform para ajustar dinamicamente a lógica de classificação para refletir as condições do mundo real.
 
-1. Você também pode usar dados do Adobe Experience Platform para ajustar dinamicamente a lógica de classificação para refletir as condições do mundo real. Isso é especialmente útil para atributos que mudam com frequência, como disponibilidade de produto ou preço em tempo real. [Saiba como usar dados do Adobe Experience Platform para a tomada de decisão](../aep-data-exd.md)
+Isso é especialmente útil para atributos que mudam com frequência, como disponibilidade de produto ou preço em tempo real. [Saiba como usar dados do Adobe Experience Platform para a tomada de decisão](../aep-data-exd.md)
 
-<!--
-## Select an ELS dataset {#els-dataset}
-
-Journey Optimizer allows you to leverage data from Adobe Experience Platform. [Learn more](../data/aep-data-perso.md)
-
-To leverage data from an AEP dataset, follow the steps below.
-
-1. From the **[!UICONTROL ELS settings]** section, select an ELS dataset from the list.
-
-1. Select a decision attribute.
-
-    >[!NOTE]
-    >
-    >This action is mandatory.
-
-![](../assets/formula-els-settings.png){width="80%"}
--->
+![](../assets/ranking-formula-dataset.png)
 
 ## Definir critérios usando o construtor de fórmulas {#ranking-select-criteria}
 
+Defina os **critérios** que determinarão a pontuação de classificação para os itens de decisão correspondentes.
+
 Com uma interface intuitiva, você pode ajustar as decisões ajustando as pontuações da IA (propensão), o valor de oferta (prioridade), as alavancas contextuais e as propensões do perfil externo — individualmente ou em combinação — para otimizar cada interação. <!--Whether you are maximizing revenue, promoting strategic offers, or balancing business goals with real-time context, the formula builder gives you total control in defining ranking strategies.-->
 
-Para definir critérios diretamente da interface, siga as etapas abaixo.
-
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
+
+1. Se necessário, clique em **[!UICONTROL Alternar para o editor de código]** para adicionar uma expressão que use a **sintaxe do PQL** junto com o construtor de fórmulas. Essa opção complementa os campos da interface do usuário nas etapas abaixo, para que você possa combinar ambas as abordagens na mesma fórmula de classificação. Para obter mais informações sobre como usar a sintaxe do PQL, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=pt-BR). A sintaxe para atributos de item de decisão e exemplos de copiar e colar são fornecidos na seção [Usar o editor de código](#ranking-code-editor).
+
+   ![](../assets/ranking-formula-code-editor-button.png)
+
+   >[!NOTE]
+   >
+   >Alternar para o editor de código adiciona entrada baseada em expressão aos seus critérios e não remove os outros campos da interface do usuário.
 
 1. Na seção **[!UICONTROL Critério 1]**, especifique os itens de decisão aos quais você deseja aplicar uma pontuação de classificação fazendo o seguinte:
    * selecione um [atributo de item de decisão](../items.md#attributes)
@@ -129,33 +124,33 @@ Para definir critérios diretamente da interface, siga as etapas abaixo.
 
    ![](../assets/ranking-formula-criteria-not-met.png){width="70%"}
 
-1. Clique em **[!UICONTROL Criar]** para concluir a fórmula de classificação. Agora você pode selecioná-lo na lista para visualizar seus detalhes e editá-lo ou excluí-lo. Ele está pronto para ser usado em uma [estratégia de seleção](../selection-strategies.md) para classificar itens de decisão qualificados.
+   +++Exemplo de fórmula de classificação
 
-### Exemplo de fórmula de classificação {#ranking-formula-example}
+   ![](../assets/ranking-formula-example.png){width="80%"}
 
-Considere o exemplo abaixo:
+   Se a região do item de decisão (atributo personalizado) for igual ao rótulo geográfico do perfil (atributo de perfil), a pontuação de classificação expressa aqui (que é uma combinação da prioridade do item de decisão, da pontuação do modelo de IA e de um valor estático) será aplicada a todos os itens de decisão que atenderem a essa condição.
 
-![](../assets/ranking-formula-example.png){width="80%"}
+   +++
 
-Se a região do item de decisão (atributo personalizado) for igual ao rótulo geográfico do perfil (atributo de perfil), a pontuação de classificação expressa aqui (que é uma combinação da prioridade do item de decisão, da pontuação do modelo de IA e de um valor estático) será aplicada a todos os itens de decisão que atenderem a essa condição.
+1. Quando a fórmula estiver pronta, clique em **[!UICONTROL Criar]**.
 
-## Usar o editor de código {#ranking-code-editor}
+Agora é possível acessar a fórmula de classificação na lista para exibir seus detalhes e editá-la ou excluí-la. Ele está pronto para ser usado em uma [estratégia de seleção](../selection-strategies.md) para classificar itens de decisão qualificados.
 
-Para expressar fórmulas de classificação na **sintaxe do PQL**, alterne para o editor de código usando o botão dedicado na parte superior direita da tela. Para obter mais informações sobre como usar a sintaxe do PQL, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=pt-BR).
+## Definir critérios usando o editor de código {#ranking-code-editor}
 
->[!CAUTION]
+Use **[!UICONTROL Alternar para o editor de código]** quando quiser gravar ou editar a lógica de classificação como uma expressão **PQL**.
+
+![](../assets/ranking-formula-switch.png)
+
+>[!NOTE]
 >
 >Esta ação impedirá a reversão para a exibição padrão do construtor desta fórmula.
 
 Você pode aproveitar os atributos de perfil, [dados de contexto](../context-data.md) e [atributos de item de decisão](../items.md#attributes).
 
-Por exemplo, você deseja aumentar a prioridade de todas as ofertas com o atributo &quot;quente&quot; se o tempo real estiver quente. Para fazer isso, o **contextData.weather=hot** foi passado na chamada de decisão. <!--[Learn how to work with context data](context-data.md)-->
+Por exemplo, você deseja aumentar a prioridade de todas as ofertas com o atributo &quot;quente&quot; se o tempo real estiver quente. Para fazer isso, o **contextData.weather=hot** foi passado na chamada de decisão.
 
 ![](../assets/ranking-formula-code-editor.png){width="80%"}
-
->[!IMPORTANT]
->
->Ao criar uma fórmula de classificação, a retrospectiva de um período anterior não é compatível, como adicionar um evento de experiência que ocorreu no último mês como um componente da fórmula. Qualquer tentativa de incluir um período de lookback durante a criação de uma fórmula acionará um erro ao salvá-la.
 
 Para aproveitar os atributos relacionados aos itens de decisão nas fórmulas, siga a sintaxe correta no código da fórmula de classificação. Expanda cada seção para obter mais informações:
 
@@ -171,9 +166,7 @@ Para aproveitar os atributos relacionados aos itens de decisão nas fórmulas, s
 
 +++
 
-### Exemplos de PQL da fórmula de classificação {#ranking-formula-examples}
-
-Você pode criar muitas fórmulas de classificação diferentes de acordo com suas necessidades. Abaixo estão alguns exemplos.
+Você pode criar muitas fórmulas de classificação diferentes com base em código de acordo com suas necessidades. Abaixo estão alguns exemplos.
 
 +++Aumente as ofertas com determinado atributo de oferta com base no atributo de perfil
 
@@ -276,6 +269,28 @@ Observe que ao usar a API **Decisioning**, os dados de contexto são adicionados
 ```
 
 +++
+
+## Otimização de fórmulas alimentadas por IA {#optimize}
+
+O [!DNL Journey Optimizer] pode analisar automaticamente fórmulas de classificação e sugerir simplificações que preservem a lógica original. Somente fórmulas cuja expressão PQL é maior que **2 KB** (codificado em UTF-8) são qualificadas, expressões menores não são analisadas. Quando uma simplificação é encontrada, um indicador vermelho é exibido ao lado do nome da fórmula na lista.
+
+![](../assets/ranking-formula-ai.png)
+
+>[!NOTE]
+>
+>A otimização de fórmulas alimentadas por IA depende dos mesmos recursos de IA gerativos que o **Assistente de IA** e usa os mesmos controles de acesso. Os usuários devem receber a permissão **[!UICONTROL Gerar Conteúdo]** no recurso **[!UICONTROL Assistente de IA]**. Para obter detalhes, consulte o [Assistente de IA de acesso](../../content-management/gs-generative.md#generative-access).
+
+Para otimizar uma fórmula de classificação:
+
+1. Na lista de fórmulas de classificação, clique no ícone indicador vermelho ao lado do nome da fórmula.
+
+1. A janela **[!UICONTROL Otimizar]** é aberta, exibindo a expressão PQL original junto com a versão sugerida pela IA.
+
+   ![](../assets/ranking-formula-ai-details.png)
+
+1. Para validar se ambas as expressões produzem resultados de classificação idênticos, clique em **[!UICONTROL Baixar Análise de Otimização (TSV)]** para baixar um arquivo que mostra como os perfis simulados são avaliados em relação a cada versão.
+
+1. Depois de satisfeito, clique em **[!UICONTROL Aplicar]** para substituir a expressão original pela expressão otimizada.
 
 ## Vídeo tutorial {#video}
 
