@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '2178'
-ht-degree: 12%
+source-wordcount: '2301'
+ht-degree: 11%
 
 ---
 
@@ -59,7 +59,7 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
 
    1. Clique na lista suspensa de eventos para alterar o Acionador, se necessário.
 
-      +++Consulte Triggers disponíveis.
+      Acionadores disponíveis
 
       | Pacote | Acionador | Definição |
       |---|---|---|
@@ -75,8 +75,6 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
       | Places | Inserir POI | Acionado pela SDK do Places quando o cliente insere o Ponto de interesse (POI) que você configurou. |
       | Places | POI de saída | Acionado pela SDK do Places quando o cliente sair do ponto de interesse (POI) que você configurou. |
 
-      +++
-
    1. Clique em **[!UICONTROL Adicionar condição]** se desejar que o gatilho considere vários eventos ou critérios.
 
    1. Escolha a condição **[!UICONTROL Or]** se quiser adicionar mais **[!UICONTROL Triggers]** para expandir ainda mais sua regra.
@@ -85,7 +83,7 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
 
    1. Escolha a condição **[!UICONTROL And]** se desejar adicionar **[!UICONTROL Características]** e ajustar melhor sua regra.
 
-      +++Consulte as Características disponíveis.
+      Características disponíveis
 
       | Pacote | Traços | Definição |
       |---|---|---|
@@ -106,8 +104,6 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
       | Places | POI atual | Acionado pela SDK do Places quando o cliente insere o Ponto de interesse (POI) especificado. |
       | Places | Último POI inserido | Acionado pelo Places SDK, dependendo do último Ponto de interesse (POI) inserido pelo cliente. |
       | Places | Último POI de saída | Acionado pelo Places SDK, dependendo do último Ponto de interesse (POI) encerrado pelo cliente. |
-
-      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -165,7 +161,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
    1. Clique na lista suspensa de eventos para alterar o Acionador, se necessário.
 
-      +++Consulte Triggers disponíveis.
+      Acionadores disponíveis
 
       | Pacote | Acionador | Definição |
       |---|---|---|
@@ -181,8 +177,6 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
       | Places | Inserir POI | Acionado pela SDK do Places quando o cliente insere o Ponto de interesse (POI) que você configurou. |
       | Places | POI de saída | Acionado pela SDK do Places quando o cliente sair do ponto de interesse (POI) que você configurou. |
 
-      +++
-
    1. Clique em **[!UICONTROL Adicionar condição]** se desejar que o gatilho considere vários eventos ou critérios.
 
    1. Escolha a condição **[!UICONTROL Or]** se quiser adicionar mais **[!UICONTROL Triggers]** para expandir ainda mais sua regra.
@@ -191,7 +185,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
    1. Escolha a condição **[!UICONTROL And]** se desejar adicionar **[!UICONTROL Características]** e ajustar melhor sua regra.
 
-      +++Consulte as Características disponíveis.
+      Características disponíveis
 
       | Pacote | Traços | Definição |
       |---|---|---|
@@ -212,8 +206,6 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
       | Places | POI atual | Acionado pela SDK do Places quando o cliente insere o Ponto de interesse (POI) especificado. |
       | Places | Último POI inserido | Acionado pelo Places SDK, dependendo do último Ponto de interesse (POI) inserido pelo cliente. |
       | Places | Último POI de saída | Acionado pelo Places SDK, dependendo do último Ponto de interesse (POI) encerrado pelo cliente. |
-
-      +++
 
       ![](assets/in_app_create_8.png)
 
