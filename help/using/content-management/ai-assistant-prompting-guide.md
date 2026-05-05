@@ -7,7 +7,7 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
-source-git-commit: f274d56a19ccc21b04452b2bca2b17e07159d819
+source-git-commit: 6bf20170e139fd1cf000a553ae677f35ba25cd6a
 workflow-type: tm+mt
 source-wordcount: '2352'
 ht-degree: 2%
@@ -152,19 +152,19 @@ Essas solicitações não são compatíveis e devem ser tratadas por meio de out
 
 Antes de gerar o conteúdo, verifique o seguinte:
 
-&check; **Limpar objetivo**: indica claramente a ação, o produto/serviço, o valor e o contexto.
+&amp;check; **Limpar objetivo**: indica claramente a ação, o produto/serviço, o valor e o contexto.
 
-&check; **Público-alvo definido**: especifica a demografia, a função ou o segmento.
+&amp;check; **Público-alvo definido**: especifica a demografia, a função ou o segmento.
 
-&check; **Alinhamento do tipo de conteúdo**: o objetivo corresponde ao canal ou formato selecionado.
+&amp;check; **Alinhamento do tipo de conteúdo**: o objetivo corresponde ao canal ou formato selecionado.
 
-&check; **Seleções suspensas configuradas**: Tom, estratégia e localidade são escolhidos, não os inclua no prompt.
+&amp;check; **Seleções suspensas configuradas**: Tom, estratégia e localidade são escolhidos, não os inclua no prompt.
 
-&check; **Foco do documento especificado**: Realça o conteúdo ou as seções a serem referenciadas.
+&amp;check; **Foco do documento especificado**: Realça o conteúdo ou as seções a serem referenciadas.
 
-&check; **Marca aplicada**: as diretrizes de marca apropriadas estão selecionadas.
+&amp;check; **Marca aplicada**: as diretrizes de marca apropriadas estão selecionadas.
 
-&check; **Escopo realista**: evitar solicitações de alterações de layout, estilo ou edições estruturais.
+&amp;check; **Escopo realista**: evitar solicitações de alterações de layout, estilo ou edições estruturais.
 
 ## Escreva objetivos de marketing eficazes {#marketing-objectives}
 
@@ -174,11 +174,11 @@ Ao criar objetivos de marketing, verifique se eles são claros, acionáveis e me
 
 **Exemplos de bons objetivos:**
 
-&check; &quot;Conduzir inscrições para nossa avaliação gratuita de 30 dias do novo painel de análise alimentado por IA&quot;
+&amp;check; &quot;Conduzir inscrições para nossa avaliação gratuita de 30 dias do novo painel de análise alimentado por IA&quot;
 
-&check; &quot;Gerar clientes em potencial para o nosso webinário B2B sobre &quot;Redução de custos na nuvem em 40%&quot; acontecendo em 15 de março&quot;
+&amp;check; &quot;Gerar clientes em potencial para o nosso webinário B2B sobre &quot;Redução de custos na nuvem em 40%&quot; acontecendo em 15 de março&quot;
 
-&check; &quot;Promover nosso desconto de feriado de tempo limitado de 25% em assinaturas premium, terminando em 25 de dezembro&quot;
+&amp;check; &quot;Promover nosso desconto de feriado de tempo limitado de 25% em assinaturas premium, terminando em 25 de dezembro&quot;
 
 **Exemplos a serem evitados:**
 
@@ -195,11 +195,11 @@ Use esta fórmula para ajudá-lo a escrever objetivos efetivos: **Ação + Produ
 
 **Exemplos de bons objetivos:**
 
-&check; &quot;Incentive os downloads do nosso novo aplicativo móvel que ajuda os usuários a rastrear hábitos de vida sustentáveis com recomendações personalizadas e ecológicas&quot;
+&amp;check; &quot;Incentive os downloads do nosso novo aplicativo móvel que ajuda os usuários a rastrear hábitos de vida sustentáveis com recomendações personalizadas e ecológicas&quot;
 
-&check; &quot;Promover registro para nosso workshop exclusivo sobre técnicas avançadas de visualização de dados para profissionais de marketing&quot;
+&amp;check; &quot;Promover registro para nosso workshop exclusivo sobre técnicas avançadas de visualização de dados para profissionais de marketing&quot;
 
-&check; &quot;Impulsionar a participação no nosso evento de lançamento de produto apresentando o revolucionário assistente de escrita de IA que economiza mais de 5 horas por semana&quot;
+&amp;check; &quot;Impulsionar a participação no nosso evento de lançamento de produto apresentando o revolucionário assistente de escrita de IA que economiza mais de 5 horas por semana&quot;
 
 **Exemplos a serem evitados:**
 
