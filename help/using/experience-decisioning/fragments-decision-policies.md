@@ -6,10 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
-badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
+source-git-commit: e33a18cdb330f9d5d1a88b771a648031176c20a8
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -20,7 +19,7 @@ Se a política de decisão contiver itens de decisão, incluindo fragmentos, voc
 
 >[!AVAILABILITY]
 >
->Este recurso está disponível na Disponibilidade Limitada para os canais de **Experiência baseada em código** e **Email**. Para solicitar acesso, entre em contato com o representante da Adobe.
+>Este recurso está disponível para os canais de **Experiência baseada em código** e **Email**.
 
 Por exemplo, digamos que você queira exibir conteúdos diferentes para vários modelos de dispositivos móveis. Adicione os fragmentos especificados, cada um pertencente a um modelo de telefone diferente, ao item de decisão que você está usando na política de decisão. [Saiba como](items.md#attributes).
 
@@ -45,7 +44,7 @@ Basta copiar e colar o bloco de código abaixo no código de política de decis�
 
    ![Editor de código de política de decisão mostrando a função Let helper adicionada ao painel de código.](assets/decision-let-function.png)
 
-1. Use a função **de** Mapa **>** Obter`{%= get(map, string) %}` para criar sua expressão. O mapa é o fragmento referenciado no item de decisão. A cadeia de caracteres pode ser o modelo de dispositivo inserido no item de decisão como a **[!UICONTROL Chave de referência do fragmento]**.
+1. Use a função `{%= get(map, string) %}` de **Mapa** > **Obter** para criar sua expressão. O mapa é o fragmento referenciado no item de decisão. A cadeia de caracteres pode ser o modelo de dispositivo inserido no item de decisão como a **[!UICONTROL Chave de referência do fragmento]**.
 
    ![As funções Map e Get são usadas para fazer referência ao mapa de fragmentos e à chave de referência do fragmento.](assets/decision-map-function.png)
 
