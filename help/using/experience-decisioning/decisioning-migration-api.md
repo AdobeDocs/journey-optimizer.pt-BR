@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 5b8c86fadb59820e2f6127f84fa205e2daf6c386
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1175'
 ht-degree: 4%
 
 ---
@@ -55,58 +55,58 @@ As permissões típicas incluem:
 
 ### Preparar sua sandbox de destino {#target-sandbox-preparation}
 
-Before running a migration, ensure your target sandbox is properly configured:
+Antes de executar uma migração, verifique se a sandbox de destino está configurada corretamente:
 
-* **Attributes** - Verify that required profile attributes and context attributes exist in the target sandbox, or prepare mappings for them.
-* **Segments** - Ensure required segments exist in the target sandbox, or plan to map them using namespace and ID.
-* **Dataset** - Identify a dataset name to use for the migration (`dependency.datasetName`).
-* **Datastream** - Decide whether the migration should create a datastream (`createDataStream`).
+* **Atributos** - Verifique se os atributos de perfil e os atributos de contexto necessários existem na sandbox de destino ou prepare mapeamentos para eles.
+* **Segmentos** - Verifique se os segmentos necessários existem na sandbox de destino ou planeje mapeá-los usando namespace e ID.
+* **Conjunto de dados** - Identifique um nome de conjunto de dados a ser usado para a migração (`dependency.datasetName`).
+* **Sequência de dados** - Decida se a migração deve criar uma sequência de dados (`createDataStream`).
 
-For more information about sandbox management, refer to [Use and assign sandboxes](../administration/sandboxes.md).
+Para obter mais informações sobre o gerenciamento de sandboxes, consulte [Usar e atribuir sandboxes](../administration/sandboxes.md).
 
 ## Noções básicas sobre API {#api-basics}
 
 ### URL base {#base-url}
 
-Use the following base URL:
+Use o seguinte URL base:
 
-* **Production**: `https://decisioning-migration.adobe.io`
+* **Produção**: `https://decisioning-migration.adobe.io`
   <!--* **Staging**: `https://decisioning-migration-stage.adobe.io`-->
 
 ### Autenticação {#authentication}
 
-All API requests require the following headers:
+Todas as solicitações de API exigem os seguintes cabeçalhos:
 
 * `Authorization: Bearer <IMS_ACCESS_TOKEN>`
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-For detailed instructions on setting up authentication, refer to the [Journey Optimizer authentication guide](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
+Para obter instruções detalhadas sobre como configurar a autenticação, consulte o [guia de autenticação do Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
 
-### Workflow model {#workflow-model}
+### Modelo de fluxo de trabalho {#workflow-model}
 
-Each API call creates or retrieves a workflow resource. Workflows are asynchronous operations that track the progress and results of migration tasks.
+Cada chamada de API cria ou recupera um recurso de workflow. Workflows são operações assíncronas que controlam o progresso e os resultados de tarefas de migração.
 
-A workflow has the following properties:
+Um workflow tem as seguintes propriedades:
 
-* `id` - Unique workflow identifier (UUID)
-* `status` - Current workflow status: `New`, `Running`, `Completed`, or `Failed`
-* `result` - Workflow output when completed (includes migration results and warnings)
-* `errors` - Structured error details when failed
-* `_links.self` - Workflow URL for retrieving status
+* `id` - Identificador de fluxo de trabalho exclusivo (UUID)
+* `status` - Status atual do fluxo de trabalho: `New`, `Running`, `Completed` ou `Failed`
+* `result` - Saída de fluxo de trabalho quando concluído (inclui resultados e avisos de migração)
+* `errors` - Detalhes de erros estruturados quando com falha
+* `_links.self` - URL do fluxo de trabalho para recuperar o status
   <!--* `_etag` - Version identifier used for delete operations (service users only)-->
 
-## Migration workflow {#migration-workflow}
+## Fluxo de trabalho de migração {#migration-workflow}
 
-The migration process consists of two main steps: analyzing dependencies and executing the migration. Follow these steps to ensure a successful migration.
+O processo de migração consiste em duas etapas principais: analisar dependências e executar a migração. Siga estas etapas para garantir uma migração bem-sucedida.
 
-### Step 1: Analyze dependencies {#analyze-dependencies}
+### Etapa 1: Analisar dependências {#analyze-dependencies}
 
-Before migrating, use the dependency workflow to identify what needs to be mapped from Decision management to Decisioning in your target sandbox. This analysis helps you understand the relationships between objects and prepare the necessary mappings.
+Antes de migrar, use o fluxo de trabalho de dependência para identificar o que precisa ser mapeado da Gestão de decisões para a Decisão na sandbox de destino. Essa análise ajuda a entender as relações entre objetos e preparar os mapeamentos necessários.
 
-#### Create a dependency workflow {#create-dependency-workflow}
+#### Criar um fluxo de trabalho de dependência {#create-dependency-workflow}
 
-Use the following API call to create a dependency analysis workflow.
+Use a chamada de API a seguir para criar um fluxo de trabalho de análise de dependência.
 
 **Formato da API**
 
@@ -114,35 +114,34 @@ Use the following API call to create a dependency analysis workflow.
 POST /workflows/generate-dependencies
 ```
 
-**Sandbox-level dependency (recommended first)**
+**Dependência em nível de sandbox (recomendada primeiro)**
 
-Start with a sandbox-level analysis to get a complete view of all dependencies:
+Comece com uma análise em nível de sandbox para obter uma visualização completa de todas as dependências:
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies?request-level=sandbox" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
-    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" },
-    "requestLevel": "sandbox"
+    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" }
   }'
 ```
 
-**Offer-level dependency**
+**Dependência no nível da oferta**
 
-To analyze dependencies for specific offers only, set `requestLevel: "offer"` and provide an `offersList` array with the offer IDs you want to analyze.
+Para analisar dependências somente para ofertas específicas, chame o mesmo ponto de extremidade com `request-level=offer` na cadeia de caracteres de consulta e forneça uma matriz `offersList` no corpo com as IDs de oferta que você deseja analisar.
 
-**Decision-level dependency**
+**Dependência de nível de decisão**
 
-To analyze dependencies for specific decisions only, set `requestLevel: "decision"` and provide a `decisionsList` array with the decision IDs you want to analyze.
+Para analisar dependências somente para decisões específicas, use `request-level=decision` na cadeia de caracteres de consulta e forneça uma matriz `decisionsList` no corpo com as IDs de decisão que você deseja analisar.
 
-#### Check dependency workflow status {#poll-dependency-status}
+#### Verificar status do fluxo de trabalho de dependência {#poll-dependency-status}
 
-Poll the dependency workflow to check when the analysis is complete.
+Consulte o fluxo de trabalho de dependência para verificar quando a análise é concluída.
 
 **Formato da API**
 
@@ -159,20 +158,20 @@ curl --request GET \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
-When the `status` field shows `Completed`, the dependency analysis is ready. Use the workflow output to build your migration dependency mappings:
+Quando o campo `status` mostra `Completed`, a análise de dependência está pronta. Use a saída do fluxo de trabalho para criar os mapeamentos de dependência de migração:
 
-* **profileAttributes** - Maps source profile attributes to target profile attributes
-* **contextAttributes** - Maps source context attributes to target context attributes
-* **segments** - Maps source segment keys to target segment identifiers (`{namespace, id}`)
-* **datasetName** - Specifies the target dataset name for the migration
+* **profileAttributes** - Mapeia atributos de perfil de origem para atributos de perfil de destino
+* **contextAttributes** - Mapeia atributos de contexto de origem para atributos de contexto de destino
+* **segmentos** - Mapeia chaves de segmento de origem para identificadores de segmento de destino (`{namespace, id}`)
+* **datasetName** - Especifica o nome do conjunto de dados de destino para a migração
 
-### Step 2: Execute the migration {#execute-migration}
+### Etapa 2: Executar a migração {#execute-migration}
 
-Once you have analyzed the dependencies and prepared your mappings, you can execute the migration.
+Depois de analisar as dependências e preparar os mapeamentos, você pode executar a migração.
 
-#### Create a migration workflow {#create-migration-workflow}
+#### Criar um fluxo de trabalho de migração {#create-migration-workflow}
 
-Use the dependency mappings from Step 1 to configure and execute your migration.
+Use os mapeamentos de dependência da Etapa 1 para configurar e executar a migração.
 
 **Formato da API**
 
@@ -180,16 +179,16 @@ Use the dependency mappings from Step 1 to configure and execute your migration.
 POST /workflows/migration
 ```
 
-**Sandbox-level migration**
+**Migração no nível da sandbox**
 
-To migrate all decisioning objects from one sandbox to another:
+Para migrar todos os objetos de decisão de uma sandbox para outra:
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/migration" \
-  --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "Content-Type: application/json" \
+  --url 'https://decisioning-migration.adobe.io/workflows/migration?request-level=sandbox' \
+  --header 'Authorization: Bearer <IMS_ACCESS_TOKEN>' \
+  --header 'Content-Type: application/json' \
+  --header 'x-gw-ims-org-id: <IMS_ORG_ID>' \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
@@ -209,14 +208,13 @@ curl --request POST \
         "sourceCtx1": "targetCtx1"
       },
       "datasetName": "<TARGET_DATASET_NAME>"
-    },
-    "requestLevel": "sandbox"
+    }
   }'
 ```
 
-**Offer-level migration**
+**Migração no nível da oferta**
 
-To migrate specific offers only, use `requestLevel: "offer"` and add an `offersList` array:
+Para migrar somente ofertas específicas, use `request-level=offer` na cadeia de caracteres de consulta e adicione uma matriz `offersList` ao corpo:
 
 ```json
 "offersList": ["offer-id-1", "offer-id-2"]
@@ -224,7 +222,7 @@ To migrate specific offers only, use `requestLevel: "offer"` and add an `offersL
 
 **Migração de nível de decisão**
 
-Para migrar apenas decisões específicas, use `requestLevel: "decision"` e adicione uma matriz `decisionsList`:
+Para migrar apenas decisões específicas, use `request-level=decision` na cadeia de caracteres de consulta e adicione uma matriz `decisionsList` ao corpo:
 
 ```json
 "decisionsList": ["decision-id-1", "decision-id-2"]
