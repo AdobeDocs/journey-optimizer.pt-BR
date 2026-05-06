@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2305'
 ht-degree: 11%
 
 ---
@@ -59,7 +59,7 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
 
    1. Clique na lista suspensa de eventos para alterar o Acionador, se necessário.
 
-      Acionadores disponíveis
+      +++ Ver Triggers disponíveis
 
       | Pacote | Acionador | Definição |
       |---|---|---|
@@ -75,6 +75,8 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
       | Places | Inserir POI | Acionado pela SDK do Places quando o cliente insere o Ponto de interesse (POI) que você configurou. |
       | Places | POI de saída | Acionado pela SDK do Places quando o cliente sair do ponto de interesse (POI) que você configurou. |
 
+      +++
+
    1. Clique em **[!UICONTROL Adicionar condição]** se desejar que o gatilho considere vários eventos ou critérios.
 
    1. Escolha a condição **[!UICONTROL Or]** se quiser adicionar mais **[!UICONTROL Triggers]** para expandir ainda mais sua regra.
@@ -83,7 +85,7 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
 
    1. Escolha a condição **[!UICONTROL And]** se desejar adicionar **[!UICONTROL Características]** e ajustar melhor sua regra.
 
-      Características disponíveis
+      +++ Ver características disponíveis
 
       | Pacote | Traços | Definição |
       |---|---|---|
@@ -104,6 +106,8 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
       | Places | POI atual | Acionado pela SDK do Places quando o cliente insere o Ponto de interesse (POI) especificado. |
       | Places | Último POI inserido | Acionado pelo Places SDK, dependendo do último Ponto de interesse (POI) inserido pelo cliente. |
       | Places | Último POI de saída | Acionado pelo Places SDK, dependendo do último Ponto de interesse (POI) encerrado pelo cliente. |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -161,7 +165,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
    1. Clique na lista suspensa de eventos para alterar o Acionador, se necessário.
 
-      Acionadores disponíveis
+      +++ Ver Triggers disponíveis
 
       | Pacote | Acionador | Definição |
       |---|---|---|
@@ -177,6 +181,8 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
       | Places | Inserir POI | Acionado pela SDK do Places quando o cliente insere o Ponto de interesse (POI) que você configurou. |
       | Places | POI de saída | Acionado pela SDK do Places quando o cliente sair do ponto de interesse (POI) que você configurou. |
 
+      +++
+
    1. Clique em **[!UICONTROL Adicionar condição]** se desejar que o gatilho considere vários eventos ou critérios.
 
    1. Escolha a condição **[!UICONTROL Or]** se quiser adicionar mais **[!UICONTROL Triggers]** para expandir ainda mais sua regra.
@@ -185,7 +191,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
    1. Escolha a condição **[!UICONTROL And]** se desejar adicionar **[!UICONTROL Características]** e ajustar melhor sua regra.
 
-      Características disponíveis
+      +++ Ver características disponíveis
 
       | Pacote | Traços | Definição |
       |---|---|---|
@@ -206,6 +212,8 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
       | Places | POI atual | Acionado pela SDK do Places quando o cliente insere o Ponto de interesse (POI) especificado. |
       | Places | Último POI inserido | Acionado pelo Places SDK, dependendo do último Ponto de interesse (POI) inserido pelo cliente. |
       | Places | Último POI de saída | Acionado pelo Places SDK, dependendo do último Ponto de interesse (POI) encerrado pelo cliente. |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -238,7 +246,7 @@ Para obter mais informações sobre como criar, configurar e ativar uma campanha
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451887?captions=por_br&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -246,7 +254,7 @@ Para obter mais informações sobre como criar, configurar e ativar uma campanha
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445293/?captions=por_br&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 

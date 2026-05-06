@@ -7,9 +7,9 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2257'
 ht-degree: 6%
 
 ---
@@ -51,11 +51,13 @@ Abra uma jornada ou campanha, selecione uma [ação de canal](../building-journe
 
 Edite o conteúdo da mensagem e navegue pelas guias abaixo para obter mais informações sobre como adicionar a política de decisão com base no canal selecionado.
 
-### Para experiência baseada em código
+>[!BEGINTABS]
+
+>[!TAB Experiência baseada em código]
 
 Para experiências baseadas em código, você pode adicionar uma nova política de decisão usando o **editor de código** ou o menu **Decisão** disponível no painel de propriedades.
 
-+++ Adicionar uma política de decisão do editor de código
++++Adicionar uma política de decisão do editor de código
 
 1. Abra o editor de código usando o botão **[!UICONTROL Editar código]**.
 
@@ -65,7 +67,7 @@ Para experiências baseadas em código, você pode adicionar uma nova política 
 
 +++
 
-+++ Adicionar uma política de decisão no menu Decisão
++++Adicionar uma política de decisão no menu Decisão
 
 1. Clique no ícone ![](assets/do-no-localize/decisioning-icon.png) no painel de propriedades para acessar o menu **[!UICONTROL Decisão]**.
 
@@ -75,7 +77,7 @@ Para experiências baseadas em código, você pode adicionar uma nova política 
 
 +++
 
-### Para email
+>[!TAB Email]
 
 1. Alterne a opção **[!UICONTROL Habilitar decisão]**.
 
@@ -87,7 +89,7 @@ Para experiências baseadas em código, você pode adicionar uma nova política 
 
 1. Adicione uma nova política de decisão, usando o **editor de personalização** ou o menu **Decisão** disponível no Designer de email.
 
-   +++ Adicionar uma política de decisão do editor do Personalization
+   +++Adicionar uma política de decisão do editor do Personalization
 
    1. Abra o editor de personalização usando o ícone ![](assets/do-no-localize/editor-icon.svg) disponível no campo de linha de assunto ou em qualquer campo no corpo do email, onde você pode adicionar personalização.
 
@@ -97,7 +99,7 @@ Para experiências baseadas em código, você pode adicionar uma nova política 
 
    +++
 
-   +++ Adicionar uma política de decisão no menu Decisão
+   +++Adicionar uma política de decisão no menu Decisão
 
    1. Abra o Designer de email e selecione qualquer componente na estrutura do email.
 
@@ -123,11 +125,11 @@ Você também pode adicionar políticas de decisão ao usar o **[!UICONTROL Codi
 >
 >No modo **[!UICONTROL Codifique o seu próprio]**, você só pode retornar um item de decisão por política, pois o componente **[!UICONTROL Grade de Repetição]** não está disponível.
 
-### Para SMS
+>[!TAB SMS]
 
 Para SMS, você pode adicionar uma nova política de decisão usando o **editor de personalização** ou o menu **Decisão** disponível no painel de propriedades.
 
-+++ Adicionar uma política de decisão do editor de personalização
++++Adicionar uma política de decisão do editor de personalização
 
 1. Abra o editor de personalização usando o ícone ![](assets/do-no-localize/editor-icon.svg).
 1. Navegue até o menu **[!UICONTROL Políticas de decisão]** e clique no botão **[!UICONTROL Adicionar política de decisão]**.
@@ -136,7 +138,7 @@ Para SMS, você pode adicionar uma nova política de decisão usando o **editor 
 
 +++
 
-+++ Adicionar uma política de decisão no menu Decisão
++++Adicionar uma política de decisão no menu Decisão
 
 1. Clique no ícone ![](assets/do-no-localize/decisioning-icon.png) no painel de propriedades para acessar o menu **[!UICONTROL Decisão]**.
 
@@ -146,11 +148,11 @@ Para SMS, você pode adicionar uma nova política de decisão usando o **editor 
 
 +++
 
-### Para notificação por push
+>[!TAB Notificação por push]
 
 Para notificações por push, você pode adicionar uma nova política de decisão usando o **editor de personalização** ou o menu **Decisão** disponível no painel de propriedades.
 
-+++ Adicionar uma política de decisão do editor de personalização
++++Adicionar uma política de decisão do editor de personalização
 
 1. Abra o editor de personalização usando o ícone ![](assets/do-no-localize/editor-icon.svg).
 1. Navegue até o menu **[!UICONTROL Políticas de decisão]** e clique no botão **[!UICONTROL Adicionar política de decisão]**.
@@ -159,7 +161,7 @@ Para notificações por push, você pode adicionar uma nova política de decisã
 
 +++
 
-+++ Adicionar uma política de decisão no menu Decisão
++++Adicionar uma política de decisão no menu Decisão
 
 1. Clique no ícone ![](assets/do-no-localize/decisioning-icon.png) no painel de propriedades para acessar o menu **[!UICONTROL Decisão]**.
 
@@ -172,6 +174,8 @@ Para notificações por push, você pode adicionar uma nova política de decisã
 >O Experience Decisioning com notificações por push requer uma versão específica do Mobile SDK. Antes de implementar este recurso, verifique as [notas de versão](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} para identificar a versão necessária e se você atualizou adequadamente. Você também pode exibir todas as versões do SDK disponíveis para sua plataforma [nesta seção](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
 +++
+
+>[!ENDTABS]
 
 ## Configurar a política de decisão {#configure}
 
@@ -189,7 +193,7 @@ Após ter adicionado uma nova política de decisão ao seu conteúdo, a tela de 
 
    Para retornar vários itens para o Canal de email, é necessário adicionar a política de decisão em um componente de **[!UICONTROL Grade de Repetição]**. Expanda a seção abaixo para obter mais detalhes:
 
-   +++ Retornar vários itens de decisão por email
+   +++Retornar vários itens de decisão por email
 
    1. Arraste um componente **[!UICONTROL Repetir Grade]** no seu email e configure-o como desejado usando o painel **[!UICONTROL Configurações]**.
 

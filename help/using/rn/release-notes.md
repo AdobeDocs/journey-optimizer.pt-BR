@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 181d3d050177730f07454024e5d1a531724b4886
+source-git-commit: 5b8c86fadb59820e2f6127f84fa205e2daf6c386
 workflow-type: tm+mt
-source-wordcount: '2294'
-ht-degree: 19%
+source-wordcount: '2386'
+ht-degree: 18%
 
 ---
 
@@ -129,14 +129,20 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 </tbody>
 </table>
 
+### Aprimoramentos {#may-26-improv}
 
+#### Tomada de decisão
+
+* **APIs de fluxo de trabalho de migração de decisão** - O contrato de API para criação de análise de dependência e fluxos de trabalho de migração foi atualizado: passe **`request-level`** como **parâmetro de consulta** na URL de solicitação (`sandbox`, `offer` ou `decision`). O nível de solicitação não deve mais ser enviado no corpo JSON. [Leia mais](../experience-decisioning/decisioning-migration-api.md)
+
+  Data de disponibilidade: 6 de maio de 2026
 
 ## Notas de versão de abril de 2026 {#april-26-rn}
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Os novos recursos e aprimoramentos lançados no início de abril são anunciados com a data de disponibilidade.
@@ -385,6 +391,10 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 * **Personalizar ID do aplicativo nas configurações do canal** - Nas configurações do canal de push, agora é possível personalizar o campo **ID do aplicativo** para que cada destinatário possa receber uma notificação por push da marca apropriada com base nas informações do perfil. [Leia mais](../push/push-configuration.md#app-id-personalization)
 
 #### Tomada de decisão
+
+* **APIs de fluxo de trabalho de migração de decisão** - O contrato de API para criação de análise de dependência e fluxos de trabalho de migração foi atualizado: passe **`request-level`** como **parâmetro de consulta** na URL de solicitação (`sandbox`, `offer` ou `decision`). O nível de solicitação não deve mais ser enviado no corpo JSON. [Leia mais](../experience-decisioning/decisioning-migration-api.md)
+
+  Data de disponibilidade: 6 de maio de 2026
 
 * **Anexar fragmentos a itens de decisão** - O Journey Optimizer agora oferece a capacidade de anexar fragmentos a itens de decisão, que podem ser aproveitados em campanhas de email e experiências baseadas em código por meio de políticas de decisão. [Leia mais](../experience-decisioning/fragments-decision-policies.md)
 
