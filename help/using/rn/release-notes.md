@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '2545'
+source-wordcount: '2609'
 ht-degree: 17%
 
 ---
@@ -158,7 +158,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Os novos recursos e aprimoramentos lançados no início de abril são anunciados com a data de disponibilidade.
@@ -437,6 +437,12 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
   Disponível anteriormente somente para modelos de conteúdo de email, esse recurso agora está implantado no conteúdo de **email** no Designer de email (por exemplo, emails criados em jornadas e campanhas), além de modelos de conteúdo de email. No momento, a disponibilidade é limitada — entre em contato com o representante da Adobe para obter acesso. [Leia mais](../email/email-expert-mode.md)
 
   Data de disponibilidade: 9 de abril de 2026
+
+#### Jornadas
+
+* **Tamanho atual da carga de jornada visível nas propriedades de jornada** - O painel Propriedades de jornada agora exibe o tamanho atual da carga de jornada em comparação ao limite configurado — por exemplo, *1,5 MB (de 2 MB)*. Esse indicador somente leitura ajuda a monitorar a complexidade da jornada antes da publicação e evitar que erros causados pelo limite de tamanho da carga sejam excedidos. [Leia mais](../building-journeys/journey-properties.md#journey-payload-size)
+
+  Data de disponibilidade: 30 de abril de 2026
 
 #### Otimização do caminho de Jornada
 
