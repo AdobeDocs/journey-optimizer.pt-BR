@@ -10,9 +10,9 @@ level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 0a0301fd62f5844c72a582c7ba06ad3f8e161d7c
+source-git-commit: b51ab228d4c7612f85db14f58d71d52d246c4cf0
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1952'
 ht-degree: 1%
 
 ---
@@ -131,17 +131,17 @@ Se sua jornada incluir um ou mais eventos, é possível acioná-los enquanto a S
 
    ![Interface de configuração de evento com campos e lista suspensa para seleção de evento](assets/simulate-10.png)
 
-1. Clique em ![Editar evento](assets/do-not-localize/Smock_Edit_18_N.svg) para ajustar o evento para este usuário simulado.
+1. Clique em **[!UICONTROL Configurar eventos]** para abrir o editor e ajustar o evento conforme necessário. Para alterar a carga de um usuário simulado específico, clique em ![Editar evento](assets/do-not-localize/Smock_Edit_18_N.svg) ao lado desse usuário.
 
    ![Interface de configuração de evento com campos e lista suspensa para seleção de evento](assets/simulate-9.png)
 
-1. Na lista suspensa de usuários simulados, selecione o usuário simulado e finalize a configuração do evento e como ele é gerado.
+1. Na exibição **[!UICONTROL Evento de acionador]**, especifique quais usuários simulados incluir na execução. A configuração do evento se aplica a um único evento por vez. Modificar o evento selecionado ou o conjunto de usuários incluídos redefine os valores de campo inseridos anteriormente. Conclua a configuração atual antes de alterar qualquer seleção.
 
-   ![Interface de configuração de evento com campos e lista suspensa para seleção de evento](assets/simulate-8.png)
+   ![Configuração de evento com lista de usuários de teste e campos de evento](assets/simulate-8.png)
 
-1. Clique em **[!UICONTROL Acionar eventos selecionados]**.
+1. Clique em **[!UICONTROL Concluído]**.
 
-   Uma mensagem de confirmação `Events triggered successfully` é exibida quando os usuários simulados entram com êxito na jornada.
+1. Em seguida, em **[!UICONTROL Eventos de teste]**, selecione **[!UICONTROL Enviar todos]** para enviar todos os usuários simulados listados em **[!UICONTROL Usuários de teste]** para a jornada, ou selecione ![Ícone Enviar](assets/do-not-localize/Smock_Send_18_N.svg) para que um único usuário execute a simulação somente para ele.
 
 1. Acesse a guia **[!UICONTROL Resultados]** para abrir o log de execução e analisar como cada etapa foi executada. Para obter mais informações, consulte [Exibir resultados](#viewing-results).
 
@@ -224,6 +224,6 @@ Estas medidas de proteção se aplicam a **[!UICONTROL Simulação]**. As letras
 | Máximo de usuários únicos simulados testados em uma única execução de simulação | 100 | Alcançando **100** usuários únicos em um bloco de execução **[!UICONTROL Selecione usuários simulados]** para novos usuários simulados. Se você estiver em **90**, poderá adicionar no máximo **10** antes do mesmo bloco. |
 | Máximo de jornadas que podem ser executadas em **[!UICONTROL Simulação]** ao mesmo tempo em uma sandbox | 20 | O limite é compartilhado por cada jornada **[!UICONTROL Simulação]** nessa sandbox de uma só vez. |
 | Máximo de usuários simulados ativos em uma sandbox | 2,000 | Máximo de usuários simulados que podem existir na sandbox de uma vez. A Adobe pode ajustar esse limite com base no feedback dos clientes. |
-| Preenchimento prévio de evento (somente navegador) | — | O preenchimento prévio de evento é compatível somente com o navegador. Os dados pré-preenchidos do evento são específicos do navegador. |
+| Preenchimento prévio de evento (somente navegador) | — | Você pode preencher previamente os campos de carga útil do evento somente na interface de simulação baseada em navegador. Os valores pré-preenchidos permanecem nesse navegador e não são sincronizados com outros navegadores, dispositivos ou sessões, de modo que você pode ver dados de pré-preenchimento diferentes em cada local testado. |
 
 +++

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3e2d661a6b06032b7d67f41324930c5a0f691221
+source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
 workflow-type: tm+mt
-source-wordcount: '7252'
-ht-degree: 68%
+source-wordcount: '7267'
+ht-degree: 67%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 68%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Maio de 2026 {#may-2026}
+
+* Uma nova página **Personalizar URLs em emails** foi adicionada, consolidando orientações sobre personalização dinâmica de URL, personalização completa/base de URL, personalização do parâmetro de rastreamento de URL e medidas de proteção de chave. [Leia mais](../email/url-personalization.md)
 
 * Uma nova seção **Consultas de regras de negócio** foi adicionada à página de exemplos de consulta, fornecendo uma consulta Data Lake para verificar todos os descartes de perfil devido a exclusões de limite de frequência de jornada em uma jornada específica após uma data específica. A consulta inclui o campo `eventCodeReason` para identificar se os perfis foram excluídos porque um limite foi atingido (`CAP_REACHED`) ou devido a uma prioridade mais baixa (`LOWER_PRIORITY`). [Leia mais](../reports/query-examples.md#business-rules-queries)
 
@@ -36,7 +38,8 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * A documentação **Criar atividade de público-alvo** foi aprimorada com um novo exemplo que mostra como filtrar perfis por um atributo de plano de assinatura usando o construtor de regras. [Leia mais](../orchestrated/activities/build-audience.md#build-audience-examples)
 
 * A página **Introdução às campanhas Orquestradas** documenta o padrão de nível de entrada **Criar público → Bifurcação → Canal A + Canal B** em **O que há dentro de uma campanha Orquestrada?**, com referências cruzadas à atividade de Bifurcação e páginas de mensagens de Marketing versus Transacional. [Leia mais](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
-* A página **Editar conteúdo de email com o editor avançado do HTML** foi movida da seção Gerenciamento de conteúdo para a seção **Email** da documentação (em Design de email) e o arquivo de página foi renomeado para **email-expert-mode.md**. A página agora documenta que o editor avançado do HTML está disponível no Designer de email para mensagens de email, bem como para modelos de conteúdo de email. [Leia mais](../email/email-expert-mode.md)
+
+* A página **Editar conteúdo de email com o editor avançado do HTML** foi movida da seção Gerenciamento de conteúdo para a seção **Email** da documentação. A página agora documenta que o editor avançado do HTML está disponível no Designer de email para mensagens de email, bem como para modelos de conteúdo de email. [Leia mais](../email/email-expert-mode.md)
 
 * A documentação **Iniciar e monitorar campanhas orquestradas** foi atualizada com uma nova seção que detalha a sequência de execução interna do tempo de publicação, juntamente com uma tabela de status do ciclo de vida da campanha, uma lista de verificação de pré-publicação e um aviso de confirmação de envio para campanhas não recorrentes. [Leia mais](../orchestrated/start-monitor-campaigns.md#publication-sequence)
 
