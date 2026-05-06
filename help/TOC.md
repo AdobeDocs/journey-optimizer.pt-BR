@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '3293'
+source-wordcount: '3306'
 ht-degree: 90%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 90%
    + Trabalhe com eficiência {#work-efficiently}
       + [Navegue pela interface](using/start/user-interface.md)
       + [Pesquise, filtre e organize](using/start/search-filter-categorize.md)
-      + [Perguntas frequentes sobre solução de problemas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Perguntas frequentes sobre solução de problemas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Acessibilidade](using/start/accessibility.md)
       + {hide-from-toc}[Jornadas vs Campanhas](using/start/journeys-vs-campaigns.md)
 + Jornadas {#orchestrate-journeys}
@@ -142,6 +142,7 @@ ht-degree: 90%
    + {hide-from-toc}[Acessar e gerenciar desafios e tarefas](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[Criar desafios](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[Criar tarefas](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[Monitorar o desempenho do desafio de fidelidade](using/loyalty-challenges/loyalty-reporting.md)
 + Campanhas {#campaigns}
    + {hide-from-toc}[Campanhas](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)

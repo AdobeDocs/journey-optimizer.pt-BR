@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 1%
 * [Acessar e gerenciar desafios e tarefas](access-loyalty-challenges.md)
 * **Criar desafios** ◀︎ **Você está aqui**
 * [Criar tarefas](create-tasks.md)
+* [Monitorar o desempenho de desafio de fidelidade](loyalty-reporting.md)
 * [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -299,7 +300,7 @@ Para iniciar um desafio, são necessárias **três etapas**: (1) publicar o desa
 
 1. Abra a jornada e publique-a. A jornada será iniciada automaticamente na data de início do desafio especificada e entregará conteúdo e mensagens de acordo com sua configuração. [Saiba como publicar uma jornada](../building-journeys/publish-journey.md).
 
-1. Assim que o desafio estiver online, monitore o desempenho e a entrega de mensagens no [relatório do jornada](../reports/journey-global-report-cja.md).
+1. Quando seu desafio estiver ativo, monitore os KPIs do programa, os resultados do desafio e as métricas no nível da tarefa nos [relatórios de desafio de fidelidade](loyalty-reporting.md). Você também pode monitorar a entrega de mensagens no [relatório de jornadas](../reports/journey-global-report-cja.md).
 
 >[!NOTE]
 >
