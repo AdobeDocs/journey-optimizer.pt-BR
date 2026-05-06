@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
+source-git-commit: d999f48597fab65e7239883f6b40c338532f1ef1
 workflow-type: tm+mt
-source-wordcount: '2806'
+source-wordcount: '2818'
 ht-degree: 3%
 
 ---
@@ -375,19 +375,10 @@ Para provedores de SMS personalizados, crie dois webhooks separados: um para eve
    * **OriginTimestamp**: O carimbo de data/hora quando a mensagem é recebida, no formato UTC.
    * **InboundNumber**: o número de telefone usado para esta configuração de webhook.
 
-   +++Exemplo de conteúdo
+   >[!TIP]
+   >
+   > Abra o **[!UICONTROL Guia de instalação]** para obter uma amostra de carga JSON e orientação passo a passo.
 
-   ```json
-   {
-   "inboundMessage": "{{inboundMessage}}",
-   "profileNumber": "{{profileNumber}}",
-   "requestId": "{{requestId}}",
-   "originTimestamp": "{{originTimestamp}}",
-   "inboundNumber": "{{inboundNumber}}"
-   }
-   ```
-
-   +++
 
 1. Quando o arquivo JSON for criado, clique em **[!UICONTROL Exibir editor de carga]**, copie e cole sua carga JSON no editor e salve-a.
 
