@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
+source-git-commit: 11234e03589d1e39efc0702a3c423e017cf9b816
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 18%
@@ -83,7 +83,13 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tbody>
 </table>
 
+### Aprimoramentos {#may-26-improv}
 
+#### Tomada de decisão
+
+* **APIs de fluxo de trabalho de migração de decisão** - O contrato de API para criação de análise de dependência e fluxos de trabalho de migração foi atualizado: passe **`request-level`** como **parâmetro de consulta** na URL de solicitação (`sandbox`, `offer` ou `decision`). O nível de solicitação não deve mais ser enviado no corpo JSON. [Leia mais](../experience-decisioning/decisioning-migration-api.md)
+
+  Data de disponibilidade: 6 de maio de 2026
 
 ## Em breve {#coming-soon}
 
@@ -129,20 +135,14 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 </tbody>
 </table>
 
-### Aprimoramentos {#may-26-improv}
 
-#### Tomada de decisão
-
-* **APIs de fluxo de trabalho de migração de decisão** - O contrato de API para criação de análise de dependência e fluxos de trabalho de migração foi atualizado: passe **`request-level`** como **parâmetro de consulta** na URL de solicitação (`sandbox`, `offer` ou `decision`). O nível de solicitação não deve mais ser enviado no corpo JSON. [Leia mais](../experience-decisioning/decisioning-migration-api.md)
-
-  Data de disponibilidade: 6 de maio de 2026
 
 ## Notas de versão de abril de 2026 {#april-26-rn}
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Os novos recursos e aprimoramentos lançados no início de abril são anunciados com a data de disponibilidade.
