@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1918'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,13 @@ Esta página aborda o processo completo de criação de um desafio de fidelidade
    * **[!UICONTROL Sequencial]**: os clientes concluem as tarefas em uma ordem definida\
      *Exemplo: Compra → Revisão → Compartilhar (deve ser concluído nesta sequência)*
 
-   Após selecionar um tipo de desafio, a interface de criação de desafio é aberta com várias guias de configuração. Comece configurando a estrutura de desafio.
+   * **[!UICONTROL Traga seus próprios dados]**: selecione **[!UICONTROL Trazer seus próprios dados]** quando quiser que a estrutura de desafios, como tarefas e recompensas, seja montada a partir da integração de dados de Desafios de Fidelidade. Quando esse tipo é selecionado, você não precisa configurar a estrutura de desafio. Você só configura **[!UICONTROL Conteúdo]**, **[!UICONTROL Mensagens]** e **[!UICONTROL Público-alvo]** da mesma forma que outros desafios.
+
+     >[!AVAILABILITY]
+     >
+     >O tipo de desafio **[!UICONTROL Traga seus próprios dados]** está disponível no momento para um conjunto restrito de organizações e será disponibilizado de forma mais ampla em uma versão futura.
+
+   Após selecionar um tipo de desafio, a interface de criação de desafio é aberta com várias guias de configuração. Para todos os tipos, exceto **[!UICONTROL Traga seus próprios dados]**, comece configurando a estrutura de desafio.
 
 ## Configurar a estrutura de desafio {#structure}
 
