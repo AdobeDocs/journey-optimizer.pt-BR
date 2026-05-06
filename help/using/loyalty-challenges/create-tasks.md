@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Create tasks for loyalty challenges
-description: Learn how to create and configure tasks for loyalty challenges in Adobe Journey Optimizer.
+title: Criar tarefas para desafios de fidelidade
+description: Saiba como criar e configurar tarefas para desafios de fidelidade no Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,10 +11,10 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 2%
+source-wordcount: '989'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 * [Introdução aos desafios de fidelidade](get-started.md)
 * [Acessar e gerenciar desafios e tarefas](access-loyalty-challenges.md)
 * [Criar desafios](create-challenges.md)
-* **Create tasks** ◀︎ **You are here**
+* **Criar tarefas** ◀︎ **Você está aqui**
 * [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -36,24 +36,24 @@ ht-degree: 2%
 >
 >Este recurso está atualmente em **beta privado**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
 
-Tasks define the specific actions or milestones that customers must complete to earn rewards in a loyalty challenge. You can configure task types, quantities, and product requirements to create engaging and personalized loyalty experiences.
+As tarefas definem as ações ou marcos específicos que os clientes devem concluir para ganhar recompensas em um desafio de fidelidade. Você pode configurar tipos de tarefa, quantidades e requisitos de produto para criar experiências de fidelidade envolventes e personalizadas.
 
-Each task represents a measurable action that contributes toward challenge completion. Tasks are reusable components that can be created independently and then added to one or more challenges, or created directly within a challenge.
+Cada tarefa representa uma ação mensurável que contribui para a conclusão do desafio. As tarefas são componentes reutilizáveis que podem ser criados de forma independente e depois adicionados a um ou mais desafios, ou criados diretamente dentro de um desafio.
 
-## Create a task {#create-task}
+## Criar uma tarefa {#create-task}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
->title="Create a task"
->abstract="Select a customer activity (Purchase or Spend), then configure activity-specific attributes: quantities or amounts, eligible items and exclusions, and optional limits such as minimum spend or maximum transactions. In the Properties pane, set the task name and description."
+>title="Criar uma tarefa"
+>abstract="Selecione uma atividade do cliente (Compra ou Gasto) e configure atributos específicos da atividade: quantidades ou valores, itens elegíveis e exclusões e limites opcionais, como gasto mínimo ou máximo de transações. No painel Propriedades, defina o nome e a descrição da tarefa."
 
-You can create tasks from two entry points. The configuration process is the same regardless of where you start.
+É possível criar tarefas a partir de dois pontos de entrada. O processo de configuração é o mesmo, independentemente de onde você começa.
 
 >[!BEGINTABS]
 
->[!TAB From the Tasks inventory]
+>[!TAB Do inventário de tarefas]
 
-Select the **[!UICONTROL Tasks]** tab and select **[!UICONTROL Create Task]**. Tasks created from the inventory are saved and available for reuse across multiple challenges.
+Selecione a guia **[!UICONTROL Tarefas]** e selecione **[!UICONTROL Criar tarefa]**. As tarefas criadas no inventário são salvas e disponibilizadas para reutilização em vários desafios.
 
 ![](assets/task-create-inventory.png)
 
@@ -86,7 +86,7 @@ Configure os atributos da tarefa com base no tipo de atividade selecionado. Nave
 Atributos disponíveis para atividades de **Compra**:
 
 * **[!UICONTROL Quantidade]**: insira o número de itens que devem ser comprados para concluir esta tarefa.
-* **[!UICONTROL Itens qualificados e exclusões]**: defina itens ou grupos de itens que contam para a conclusão da tarefa e os que não contam. [Saiba mais sobre itens qualificados e exclusões](#eligible-items-exclusions)
+* **[!UICONTROL Itens qualificados e exclusões]**: defina itens ou grupos de itens que contam para a conclusão da tarefa e aqueles que não são qualificados, ou escolha **[!UICONTROL Trazer seus próprios dados]** para impulsionar a qualificação de seus dados externos. [Saiba mais](#eligible-items-exclusions)
 * **[!UICONTROL Valor mínimo de gasto]**: defina um requisito de valor mínimo de compra.
 * **[!UICONTROL Número máximo de transações]**: limite quantas transações podem ser usadas para concluir a tarefa.
 
@@ -115,17 +115,39 @@ Atributos disponíveis para atividades de **Gasto**:
 
 Para as atividades de **Compra** e **Gasto**, você pode usar o atributo **[!UICONTROL Itens qualificados e exclusões]** para definir quais itens e grupos estão qualificados e quais foram excluídos. Isso permite direcionar produtos, categorias ou locais específicos para se alinhar às suas metas de desafio.
 
-Por exemplo, é possível limitar uma tarefa de gastos a categorias de produtos específicas ou excluir cartões-presente ou itens promocionais da contagem até a conclusão da tarefa.
+Por exemplo, é possível limitar uma tarefa a categorias de produto específicas ou excluir cartões-presente ou itens promocionais da contagem até a conclusão da tarefa.
 
 ![](assets/tasks-create-eligible.png)
 
-* Para definir itens qualificados, insira IDs de item específicas, categorias ou IDs de destino, separadas por vírgulas no campo **[!UICONTROL As compras de tarefas qualificadas são limitadas ao seguinte]**. Se deixar esse campo vazio, todas as compras serão qualificadas por padrão. Você também pode inserir `*` para qualificar explicitamente todas as compras.
+### Definir itens qualificados para a tarefa
 
-  Exemplo: `SKU001, SKU002, CategoryA`
+Para definir itens qualificados, insira IDs de item específicas, categorias ou IDs de destino, separadas por vírgulas no campo **[!UICONTROL As compras de tarefas qualificadas são limitadas ao seguinte]**. Se deixar esse campo vazio, todas as compras serão qualificadas por padrão. Você também pode inserir `*` para qualificar explicitamente todas as compras.
 
-* Para excluir itens da tarefa, insira IDs de item específicas, categorias ou IDs de destino no **[!UICONTROL Os itens a seguir são excluídos do campo desta tarefa]**.
+Exemplo: `SKU001, SKU002, CategoryA`
 
-  Exemplo: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+### Excluir itens da tarefa
+
+Para excluir itens da tarefa, insira IDs de item específicas, categorias ou IDs de destino no **[!UICONTROL Os itens a seguir são excluídos do campo desta tarefa]**.
+
+Exemplo: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+
+### Traga seus próprios dados para elegibilidade e exclusões {#byod-personalization}
+
+>[!AVAILABILITY]
+>
+>A opção **[!UICONTROL Trazer seus próprios dados]** está disponível atualmente para um conjunto restrito de organizações e será disponibilizada de forma mais ampla em uma versão futura.
+
+Além de inserir IDs de item para torná-las qualificadas ou excluídas, você também pode direcionar a qualificação de seus dados externos de Desafios de Fidelidade no tempo de execução usando a opção **[!UICONTROL Trazer seus próprios dados]**.
+
+Quando **[!UICONTROL Trazer seus próprios dados]** é selecionado, a qualificação por participante é resolvida no tempo de execução a partir dos dados sincronizados com seu ambiente de Desafios de Fidelidade, em vez de uma lista de IDs de item.
+
+Para usar essa opção, selecione o ícone de personalização em **[!UICONTROL Itens qualificados e exclusões]** e escolha **[!UICONTROL Trazer seus próprios dados]**.
+
+![](assets/tasks-create-eligible-bring.png)
+
+>[!IMPORTANT]
+>
+>Ao atribuir esta tarefa a um desafio, selecione **[!UICONTROL Padrão]** como o tipo de desafio. Não selecione **[!UICONTROL Trazer seus próprios dados]** no nível do desafio, pois essa opção é reservada para desafios totalmente orientados por dados, em que toda a estrutura, incluindo tarefas e recompensas, é fornecida externamente.
 
 ## Definir propriedades da tarefa {#define-task-properties}
 
