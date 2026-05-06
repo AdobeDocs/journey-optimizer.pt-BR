@@ -6,7 +6,7 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
+source-git-commit: 86f3a68b18786314791b267c9dd02ccdaabd0d36
 workflow-type: tm+mt
 source-wordcount: '1562'
 ht-degree: 12%
@@ -69,7 +69,7 @@ Para adicionar um cartão de Conteúdo a uma jornada, siga estas etapas:
       | Ciclo de vida do aplicativo | Fechamento do aplicativo | Disparado quando o aplicativo é fechado. |
       | Ciclo de vida do aplicativo | Falha de aplicativo | Disparado quando o aplicativo não estiver em segundo plano antes do fechamento. O evento é enviado quando o aplicativo é iniciado após a falha. O relatório de falha do Adobe Mobile não implementa um gerenciador de exceção global não detectado. |
 
-      +++ 
+      +++
 
    1. Escolha a condição **[!UICONTROL Or]** se quiser adicionar mais **[!UICONTROL Triggers]** para expandir ainda mais sua regra.
 
@@ -94,7 +94,7 @@ Para adicionar um cartão de Conteúdo a uma jornada, siga estas etapas:
       | Ciclo de vida do aplicativo | Lançamentos | Disparado quando o número especificado de inicializações é atingido. |
       | Ciclo de vida do aplicativo | Hora do dia | Disparado quando o horário especificado é cumprido. |
 
-      +++ 
+      +++
 
    1. Clique em **[!UICONTROL Criar grupo]** para agrupar acionadores.
 
@@ -156,7 +156,7 @@ Para começar a criar seus cartões de conteúdo por meio de uma campanha, siga 
       | Ciclo de vida do aplicativo | Fechamento do aplicativo | Disparado quando o aplicativo é fechado. |
       | Ciclo de vida do aplicativo | Falha de aplicativo | Disparado quando o aplicativo não estiver em segundo plano antes do fechamento. O evento é enviado quando o aplicativo é iniciado após a falha. O relatório de falha do Adobe Mobile não implementa um gerenciador de exceção global não detectado. |
 
-      +++ 
+      +++
 
    1. Escolha a condição **[!UICONTROL Or]** se quiser adicionar mais **[!UICONTROL Triggers]** para expandir ainda mais sua regra.
 
@@ -181,7 +181,7 @@ Para começar a criar seus cartões de conteúdo por meio de uma campanha, siga 
       | Ciclo de vida do aplicativo | Lançamentos | Disparado quando o número especificado de inicializações é atingido. |
       | Ciclo de vida do aplicativo | Hora do dia | Disparado quando o horário especificado é cumprido. |
 
-      +++ 
+      +++
 
    1. Clique em **[!UICONTROL Criar grupo]** para agrupar acionadores.
 
