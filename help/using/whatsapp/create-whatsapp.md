@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
+source-git-commit: ca98cf79f135aa7f50838a260cc6522f8baa88ad
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 4%
+source-wordcount: '957'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Com o Adobe Journey Optimizer, você pode criar e enviar mensagens envolventes n
 
 Observe que somente os elementos de Mensagens de saída são compatíveis com o Journey Optimizer.
 
-+++ Saiba mais sobre elementos de mensagem e chamadas para ação compatíveis
++++ Saiba mais sobre elementos de mensagem compatíveis e botões interativos
 
 Os seguintes tipos de mensagem são suportados no WhatsApp:
 
@@ -37,13 +37,18 @@ Os seguintes tipos de mensagem são suportados no WhatsApp:
 | Corpo de texto | Aceita conteúdo dinâmico por meio de parâmetros. |
 | Texto do rodapé | Aceita conteúdo dinâmico por meio de parâmetros. |
 
-A seguinte opção do call-to-action está disponível para suas mensagens do WhatsApp:
+As seguintes opções do call-to-action estão disponíveis para suas mensagens no WhatsApp:
 
 | Chamada para ação | Descrição |
 |-|-|
+| Resposta rápida | Respostas curtas predefinidas que o usuário pode tocar para responder à mensagem. |
 | Visitar site | Somente um botão é permitido, com parâmetros variáveis incluídos. |
 | Chamar no WhatsApp | Fornece um botão que abre um bate-papo do WhatsApp com o número de telefone especificado diretamente da mensagem. |
 | Telefonar para número | Fornece um botão que inicia uma chamada telefônica para o número especificado quando tocado pelo usuário. |
+| CALL TO ACTION - URL | Abre uma URL (**Visitar site**). Somente um botão URL é permitido, com parâmetros variáveis incluídos. |
+| Call to action - telefone | Usa o número de telefone do modelo, por exemplo **Chamar número de telefone** (faz uma chamada) ou **Chamar no WhatsApp** (abre um chat com esse número no WhatsApp). |
+
+Observe que os botões interativos **Copiar código** não são compatíveis.
 
 +++
 
@@ -124,7 +129,7 @@ Observe que seu modelo do WhatsApp deve ser aprovado primeiro pelo Meta antes de
    * Utilitário
    * Autenticação
 
-   [Saiba mais sobre as categorias de modelo](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
+   [Saiba mais sobre Categorias de modelo](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
    ![](assets/whatsapp-design-1.png)
 
