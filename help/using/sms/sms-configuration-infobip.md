@@ -7,26 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 2%
+source-wordcount: '764'
+ht-degree: 1%
 
 ---
 
 # Configurar provedor Infobip {#sms-configuration-infobip}
-
->[!BEGINSHADEBOX]
-
-Se as palavras-chave de aceitação ou recusa não forem fornecidas, as mensagens de consentimento padrão serão usadas para honrar a privacidade do usuário. A adição de palavras-chave personalizadas substitui automaticamente os padrões.
-
-**Palavras-chave padrão:**
-
-* **Aceitar**: ASSINAR, SIM, REINICIAR, INICIAR, CONTINUAR, RETOMAR, INICIAR
-* **Recusar**: PARAR, SAIR, CANCELAR, ENCERRAR, CANCELAR INSCRIÇÃO, NÃO
-* **Ajuda**: AJUDA
-
->[!ENDSHADEBOX]
 
 Ao integrar o Infobip ao Adobe Journey Optimizer, você pode enviar mensagens de texto aos seus perfis como parte de suas jornadas e campanhas.
 
@@ -52,27 +40,28 @@ Para configurar o Infobip com o Journey Optimizer, siga estas etapas:
    | Fornecedor de SMS | Infobip |
    | Nome | Escolha um nome para a credencial da API. |
    | URL básico da API e chave da API | Acesse a página inicial da interface da Web ou a página de gerenciamento de chaves da API para encontrar suas credenciais. Para pontos de extremidade de domínio regionais ou alternativos, por exemplo, `api-ny2.infobip.com`, especifique a URL de base completa e verifique seu token de autorização com suporte para Infobip. </br>Saiba mais em [Documentação da Infobip](https://www.infobip.com/docs/api){target="_blank"} |
-   | Palavras-chave de Opt-in | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Insira as palavras-chave padrão ou personalizadas que acionarão automaticamente sua Mensagem de Opt-In. Para várias palavras-chave, use valores separados por vírgulas. |
-   | Mensagem de Opt-in | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br> Digite a resposta personalizada que é enviada automaticamente como sua mensagem de aceitação. |
-   | Palavras-chave de recusa | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br> Insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua mensagem de recusa. Para várias palavras-chave, use valores separados por vírgulas. |
-   | Mensagem de recusa | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Digite a resposta personalizada que é enviada automaticamente como sua mensagem de recusa. |
-   | Palavras-chave da Ajuda | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Insira as palavras-chave padrão ou personalizadas que dispararão automaticamente sua **Mensagem de Ajuda**. Para várias palavras-chave, use valores separados por vírgulas. |
-   | Mensagem de ajuda | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Digite a resposta personalizada que é enviada automaticamente como sua **Mensagem de Ajuda**. |
-   | Palavras-chave de aceitação dupla | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Insira as palavras-chave que disparam o processo de aceitação dupla. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. Para várias palavras-chave, use valores separados por vírgulas. [Saiba mais sobre a Aceitação Dupla de SMS](https://video.tv.adobe.com/v/3440282/?captions=por_br&learn=on). |
-   | Mensagem de aceitação dupla | **Para novas configurações de SMS, use o [menu Webhooks](sms-webhook.md) para configurar palavras-chave de consentimento. As configurações existentes podem continuar usando palavras-chave de consentimento nesta seção.** </br>Insira a resposta personalizada que é enviada automaticamente em resposta à confirmação de aceitação dupla. |
    | ID da entidade principal | Informe a ID da entidade principal DLT atribuída. |
    | ID do modelo de conteúdo | Insira a ID do modelo de conteúdo DLT registrado. |
    | Período de validade | Insira o período de validade da mensagem em horas. Caso as mensagens não possam ser entregues dentro desse período, o sistema fará tentativas adicionais para reenviá-las. O período de validade padrão é definido como 48 horas. |
    | Dados de Retorno | Insira os dados adicionais do cliente que serão enviados no URL de notificação. |
    | Número de entrada | Adicione seu número de entrada exclusivo. Isso permite usar as mesmas credenciais de API em diferentes sandboxes, cada uma com seu próprio número de entrada. |
-   | Palavras-chave de entrada personalizadas | Defina palavras-chave exclusivas e não relacionadas a consentimento para ações baseadas em lote, por exemplo, DESCONTO, OFERTAS, INSCRIÇÃO. Essas palavras-chave são capturadas e armazenadas como atributos no perfil, permitindo acionar uma qualificação de segmento em lote na jornada e fornecer uma resposta ou ação personalizada. |
-   | Mensagem de resposta de entrada padrão | Insira a resposta padrão que é enviada quando um usuário final envia um SMS de entrada que não corresponde a nenhuma das palavras-chave definidas. |
 
    +++
 
 1. Habilite a opção **[!UICONTROL Recusa difusa]** para detectar mensagens que se assemelham a palavras-chave de recusa (por exemplo, &#39;CANCIL&#39;) e personalize a resposta de confirmação no campo **[!UICONTROL Resposta automática difusa]**.
 
    **[!UICONTROL A opção de recusa difusa]** identifica mensagens SMS que indicam que um usuário deseja cancelar a inscrição, mesmo que a mensagem não corresponda exatamente a uma palavra-chave de recusa definida. Ele pode detectar frases comuns de recusa e determinados termos ofensivos, ajudando a garantir que suas campanhas respeitem as preferências do usuário e permaneçam em conformidade.
+
+1. Selecione **[!UICONTROL Usar conjunto de dados personalizado para entrada]** para rotear o SMS de entrada desta credencial para um conjunto de dados pré-criado que você escolher na lista suspensa. [Saiba mais sobre como criar conjuntos de dados](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >O esquema do conjunto de dados deve ser **[!UICONTROL XDM ExperienceEvent]** e incluir pelo menos estes grupos de campos:
+   >* Adobe CJM ExperienceEvent - Detalhes de interação da mensagem
+   >* Adobe CJM ExperienceEvent - Detalhes da execução da mensagem
+   >* Adobe CJM ExperienceEvent - Detalhes do perfil da mensagem
+   >
+   >O esquema e o conjunto de dados devem ser habilitados para o Perfil.
 
 1. Clique em **[!UICONTROL Enviar]** quando terminar de configurar suas credenciais de API.
 
