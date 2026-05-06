@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 76ca2ff7ceccd333016291c9f6de269934ed544f
+source-git-commit: ba3ceaeebb11d62c95586be86c0f0ad8c903e39c
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 83%
+source-wordcount: '1511'
+ht-degree: 75%
 
 ---
 
@@ -338,3 +338,29 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="Parâmetros de cabeçalho"
 >abstract="Nesta seção, é possível configurar cabeçalhos personalizados adicionais a serem enviados com cada solicitação de webhook."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_content_fragment_configuration"
+>title="&quot;Ajuda de configuração do AEM"
+>abstract="Saiba mais sobre como criar e gerenciar uma configuração"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_configure_instance"
+>title="Configuração da instância"
+>abstract="Selecione o tipo de configuração de instância apropriado para sua configuração. </br>Configuração somente para autores: use fragmentos de conteúdo da instância de autor do AEM. A configuração da instância de publicação e as atualizações em tempo real não são compatíveis.</br>Configuração da instância de publicação: definir configurações da instância de publicação. Ative opcionalmente &quot;Enviar token para a instância de publicação&quot; para fornecer credenciais de serviço para autenticação."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_send_token"
+>title="Enviar token para a instância de publicação"
+>abstract="Quando ativadas, as Credenciais de serviço são enviadas para autenticar solicitações na instância de publicação. Forneça uma Credencial de Serviço JSON válida abaixo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_service_credential"
+>title="Colar credencial de serviço JSON"
+>abstract="Cole a credencial de serviço do AEM JSON depois de criá-la, consultando a documentação de conta técnica pública. Ele será formatado e validado automaticamente."
+>additional-url=""
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_custom_domain"
+>title="Domínio personalizado"
+>abstract="Opcional. Forneça um domínio personalizado se publish-p16552-e147195.adobeaemcloud.comis estiver bloqueado para buscar conteúdo para sua organização"
