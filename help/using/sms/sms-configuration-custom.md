@@ -68,7 +68,7 @@ Para enviar mensagens SMS e RCS no Journey Optimizer usando um provedor personal
 
 1. Habilite a opção de suporte **[!UICONTROL mTLS]**, que garante que o cliente e o servidor se autentiquem antes de estabelecer uma conexão segura.
 
-   Para usar somente mTLS, selecione **[!UICONTROL Sem Autenticação]** no menu suspenso **[!UICONTROL Tipo de Autenticação]** e habilite ** [!UICONTROL Suporte a mTLS]**.
+   Para usar somente mTLS, selecione **[!UICONTROL Sem Autenticação]** no menu suspenso **[!UICONTROL Tipo de Autenticação]** e habilite **&#x200B; [!UICONTROL Suporte a mTLS]**.
 
 1. Na seção **[!UICONTROL Cabeçalhos]**, clique em **[!UICONTROL Adicionar novo parâmetro]** para especificar os cabeçalhos HTTP para a mensagem de solicitação que será enviada para o serviço externo.
 
