@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
+source-git-commit: 18984a14c6831c6476be18bd48266f3f265a7456
 workflow-type: tm+mt
-source-wordcount: '3380'
-ht-degree: 10%
+source-wordcount: '3633'
+ht-degree: 11%
 
 ---
 
@@ -41,6 +41,7 @@ Nesta seção, defina o nome da jornada, adicione uma descrição e defina as pr
 * Selecione a jornada e o perfil [fusos horários](#timezone)
 * Escolher [datas de início e término](#dates) personalizadas
 * Defina uma [duração de tempo limite](#timeout) nas atividades de jornada (somente para usuários administradores)
+* Monitore o [tamanho da carga de jornada atual](#journey-payload-size) para evitar erros de publicação
 * Monitore conflitos e priorize suas jornadas usando as [ferramentas de gerenciamento de conflitos](#conflict)
 
 ![painel de configuração de propriedades do Jornada com configurações gerais e opções avançadas](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
@@ -112,6 +113,23 @@ Quando a opção **Permitir reentrada** está ativada, o campo **Período de esp
 Para atribuir rótulos de uso de dados personalizados à jornada, clique no ícone **[!UICONTROL Gerenciar rótulos de acesso]** e selecione um ou vários rótulos.
 
 [Saiba mais sobre o Controle de acesso em nível de objeto (OLAC)](../administration/object-based-access.md)
+
+## Jornada tamanho do conteúdo {#journey-payload-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_payload_size"
+>title="Tamanho atual do conteúdo da jornada"
+>abstract="Exibe o tamanho atual da carga útil da jornada em comparação ao limite configurado. Use esse indicador para monitorar a complexidade da jornada antes da publicação e evitar que os erros causados pelo limite de tamanho da carga sejam excedidos."
+
+O campo **[!UICONTROL Tamanho atual do conteúdo da jornada]** no painel Propriedades da jornada exibe o tamanho atual do conteúdo da jornada em relação ao limite configurado — por exemplo, *1,5 MB (de 2 MB)*. Esse indicador somente leitura fica visível em qualquer estágio da criação do jornada.
+
+![Indicador de tamanho da carga da jornada atual no painel de propriedades da jornada](assets/journey-payload-size.png){width="50%" zoomable="yes"}
+
+Use essas informações para monitorar a complexidade da jornada antes de publicar. Se o tamanho do payload se aproximar ou exceder o limite, a publicação do jornada falhará. Para reduzir o tamanho, considere simplificar a lógica de jornada ou reduzir o número de atividades.
+
+O limite padrão é de 2 MB. Entre em contato com o Atendimento ao cliente da Adobe se precisar solicitar um limite mais alto para sua organização.
+
+Para obter detalhes completos sobre limites, mensagens de aviso e erro e etapas de solução de problemas, consulte [Validação do tamanho da carga da Jornada](../start/guardrails.md#journey-payload-size) e [Medidas de proteção de jornada gerais](../start/guardrails.md#journeys-guardrails-journeys).
 
 ## Fusos horários de Jornada e perfil {#timezone}
 

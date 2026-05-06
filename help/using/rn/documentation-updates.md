@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '7267'
+source-wordcount: '7327'
 ht-degree: 67%
 
 ---
@@ -24,6 +24,8 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Uma nova página **Personalizar URLs em emails** foi adicionada, consolidando orientações sobre personalização dinâmica de URL, personalização completa/base de URL, personalização do parâmetro de rastreamento de URL e medidas de proteção de chave. [Leia mais](../email/url-personalization.md)
 
 * Uma nova seção **Consultas de regras de negócio** foi adicionada à página de exemplos de consulta, fornecendo uma consulta Data Lake para verificar todos os descartes de perfil devido a exclusões de limite de frequência de jornada em uma jornada específica após uma data específica. A consulta inclui o campo `eventCodeReason` para identificar se os perfis foram excluídos porque um limite foi atingido (`CAP_REACHED`) ou devido a uma prioridade mais baixa (`LOWER_PRIORITY`). [Leia mais](../reports/query-examples.md#business-rules-queries)
+
+* A documentação das **propriedades de Jornada** foi atualizada para documentar o novo indicador **tamanho da carga de jornada atual** no painel de propriedades de jornada. Este campo somente leitura mostra o tamanho atual da carga útil da jornada em comparação ao limite configurado (por exemplo, 1,5 MB de 2 MB), ajudando a monitorar a complexidade da jornada antes da publicação e evitar erros de publicação relacionados ao tamanho. [Leia mais](../building-journeys/journey-properties.md#journey-payload-size)
 
 ## Abril de 2026 {#april-2026}
 

@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: a9da10694f4e8299e32d94d3f3d9bf4363a8773a
 workflow-type: tm+mt
-source-wordcount: '4095'
-ht-degree: 92%
+source-wordcount: '4226'
+ht-degree: 91%
 
 ---
 
@@ -185,7 +185,7 @@ Esta seção aborda medidas de proteção e limitações para jornadas, incluind
 * Por padrão, o número de jornadas ativas/pausadas/em execução de teste ao mesmo tempo é limitado a 100.  O número atual de jornadas é exibido acima da tela de jornada.
 * À medida que você publica jornadas, dimensionaremos e ajustaremos automaticamente para garantir uma máxima taxa de transferência e estabilidade. Ao se aproximar do marco de 100 jornadas ativas de uma só vez, você verá uma notificação aparecer na interface sobre essa conquista. Se vir esta notificação e precisar aumentar o número de jornadas para acima de 100 jornadas ativas por vez, crie um tíquete para o Atendimento ao cliente e ajudaremos a atingir suas metas.
 * Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até 10 minutos para ficar ativa e ouvir os perfis que entram ou saem do público-alvo.
-* Uma instância de jornada para um perfil tem tamanho máximo de 1 MB. Todos os dados coletados como parte da execução da jornada são armazenados nessa instância da jornada. Portanto, dados de um evento de entrada, informações de perfil recuperadas da Adobe Experience Platform, respostas de ações personalizadas etc. são armazenados nessa instância da jornada e afetam o tamanho da jornada. É aconselhável, quando uma jornada inicia com um evento, limitar o tamanho máximo desse conteúdo do evento (por exemplo: até 800 KB) para evitar atingir esse limite após algumas atividades, na execução da jornada. Quando esse limite é atingido, o perfil fica com status de erro e será excluído da jornada.
+* Uma instância de jornada para um perfil tem tamanho máximo de 1 MB. Todos os dados coletados como parte da execução da jornada são armazenados nessa instância da jornada. Portanto, os dados de um evento de entrada, as informações de perfil recuperadas do Adobe Experience Platform, as respostas de ação personalizadas etc. são armazenados nessa instância do jornada e afetam o tamanho da jornada. É aconselhável, quando uma jornada inicia com um evento, limitar o tamanho máximo desse conteúdo do evento (por exemplo: até 800 KB) para evitar atingir esse limite após algumas atividades, na execução da jornada. Quando esse limite é atingido, o perfil fica com status de erro e será excluído da jornada.
 * Para cada perfil e versão do jornada, o tempo de execução do jornada mantém uma fila interna de até 10 eventos pendentes enquanto um está sendo processado. Se esse limite for atingido, eventos adicionais serão descartados com o motivo `maxInstanceStackEventsReached` até que a pilha seja esgotada. Consulte [Eventos descartados devido a uma instância de jornada bloqueada](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 * Além do tempo limite usado em atividades de jornada, também há um tempo-limite de jornada global que não é exibido na interface e não pode ser alterado. Esse tempo-limite global interrompe o progresso das pessoas na jornada 91 dias após a sua entrada. [Leia mais](../building-journeys/journey-properties.md#global_timeout)
 
@@ -216,6 +216,8 @@ Se a solicitação exceder o tamanho máximo permitido, a resposta incluirá **E
 * Simplifique condições, reduza mapeamentos de dados e remova etapas ou parâmetros desnecessários.
 * Considere dividir a jornada em jornadas menores, se necessário.
 * Se você acredita que sua organização precisa de um limite mais alto, entre em contato com o representante da Adobe.
+
+Para monitorar o tamanho da carga atual da sua jornada antes da publicação, use o indicador **[!UICONTROL Tamanho da carga da jornada atual]** no painel de propriedades da jornada. [Saiba como verificar o tamanho da carga da jornada](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### Selecionar limitações de pacote para jornadas unitárias {#select-package-limitations}
 
@@ -280,7 +282,7 @@ As seguintes medidas de proteção se aplicam aos [eventos](../event/about-event
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
 * Os eventos de negócios não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
 * As jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada do perfil é temporariamente bloqueada por 5 minutos. Por exemplo, se um evento acionar uma jornada às 12:01 para um perfil específico e outra chegar às 12:03 (seja o mesmo evento ou outro que está acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
-* O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço Principal de Coleção de Dados (DCCS) para acionar uma jornada. Eventos assimilados em lote, eventos inseridos via **Serviço de consulta** ou eventos de conjuntos de dados internos da Journey Optimizer (Feedback de mensagem, Rastreamento de email, etc.) não podem ser usados para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, é necessário criar um público-alvo com base nesses eventos e usar a atividade **Público-alvo de leitura**. Tecnicamente, a qualificação de público-alvo pode ser usada, mas não é recomendada, pois pode causar desafios posteriores com base nas ações usadas.
+* O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço Principal de Coleção de Dados (DCCS) para acionar uma jornada. Eventos assimilados em lote, eventos inseridos via **Serviço de consulta** ou eventos de conjuntos de dados internos da Journey Optimizer (Feedback de mensagens, Acompanhamento de emails etc.) não pode ser usado para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, é necessário criar um público-alvo com base nesses eventos e usar a atividade **Público-alvo de leitura**. Tecnicamente, a qualificação de público-alvo pode ser usada, mas não é recomendada, pois pode causar desafios posteriores com base nas ações usadas.
 
 ### Fontes de dados {#data-sources-g}
 
