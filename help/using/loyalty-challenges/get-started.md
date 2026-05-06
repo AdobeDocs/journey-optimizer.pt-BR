@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: 3bfc2ad5aab60ba8b1672c12268b92a424faa2a3
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 4%
 * [Acessar e gerenciar desafios e tarefas](access-loyalty-challenges.md)
 * [Criar desafios](create-challenges.md)
 * [Criar tarefas](create-tasks.md)
+* [Monitorar o desempenho de desafio de fidelidade](loyalty-reporting.md)
 * [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -52,10 +53,11 @@ Com os desafios de fidelidade, você pode:
 * **Personalizar a experiência**: use cartões de conteúdo e mensagens multicanais para criar experiências imersivas e de marca
 * **Integre-se perfeitamente**: conecte-se com seus provedores de fidelidade existentes e aproveite os dados do Experience Platform
 * **Rastrear automaticamente**: monitore o progresso do cliente através de jornadas geradas automaticamente sem desenvolvimento personalizado
+* **Meça o desempenho**: use painéis de relatório internos para rastrear KPIs de programa, resultados de desafio e métricas no nível da tarefa
 
 ![](assets/challenges-gs.png)
 
-Você pode criar três tipos de experiências de desafio:
+Você pode criar estes tipos de experiências de desafio:
 
 * **Desafios padrão**: os clientes concluem qualquer número especificado de tarefas em qualquer ordem. Use esse tipo quando quiser flexibilidade e vários caminhos para conclusão.\
   *Exemplo: &quot;Desafio de Bem-Estar de Verão&quot; - Conclua 3 de 5 tarefas: compre produtos de saúde, compartilhe em redes sociais, indique um amigo, escreva uma avaliação ou participe de um evento virtual*
@@ -65,6 +67,8 @@ Você pode criar três tipos de experiências de desafio:
 
 * **Desafios sequenciais**: os clientes concluem as tarefas em uma ordem definida. Use esse tipo para orientar os clientes por meio de uma jornada específica ou processo de integração.\
   *Exemplo: &quot;Nova Jornada de Membro&quot; - Inscreva-se para receber emails → Faça sua primeira compra → Escreva uma análise do produto → Indique um amigo (complete nesta ordem exata)*
+
+* **Traga seus próprios desafios de dados** (disponibilidade restrita): a estrutura de desafios (tarefas e recompensas) é montada a partir da integração de dados dos Desafios de Fidelidade. Você configura o Conteúdo, as Mensagens e o Público como configuraria para qualquer outro tipo de desafio.
 
 ## Como funciona {#how-it-works}
 
@@ -158,6 +162,17 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
     </div>
     <p>
     <em>Saiba como definir tarefas que os clientes concluem para desafios</em>
+    </p>
+  </td>
+  <td>
+    <a href="loyalty-reporting.md">
+      <img alt="Relatórios" src="assets/do-not-localize/icon-reporting.png" width="200"/>
+    </a>
+    <div>
+    <a href="loyalty-reporting.md"><strong>Monitorar desempenho</strong></a>
+    </div>
+    <p>
+    <em>Rastreie KPIs de programa, resultados de desafio e métricas de tarefa com painéis integrados</em>
     </p>
   </td>
 </tr>
