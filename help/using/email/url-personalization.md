@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate, Experienced
 keywords: url, link, personalização, rastreamento, codificar, chaves
-source-git-commit: 36fad8d6c200118210794249fa12263ae70e5422
+source-git-commit: 91b9ce5398bd62ff1969374be6e5c9f720fb4e31
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '402'
 ht-degree: 1%
 
 ---
@@ -84,15 +84,16 @@ Agora, quando o email é enviado, esse parâmetro é anexado automaticamente ao 
 >
 >Para verificar a URL final, você pode [enviar uma prova](../content-management/proofs.md) e clicar no link no conteúdo do email depois de receber a prova. O URL deve exibir o parâmetro de rastreamento. Por exemplo: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
 
-## Práticas recomendadas e medidas de proteção {#best-practices}
+<!--
+## Best practices and guardrails {#best-practices}
 
-Para manter os links válidos, clicáveis e rastreáveis, siga as práticas recomendadas e as medidas de proteção abaixo.
+To keep links valid, clickable, and trackable, follow the best practices and guardrails below.
 
-### Chaves para URLs dinâmicos {#use-braces}
+### Braces for dynamic URLs {#use-braces}
 
-Ao inserir uma URL que contenha personalização, use três chaves (`{{{ ... }}}`) para a parte dinâmica da URL. Isso impede que o escape altere caracteres especiais (por exemplo, `/` e `+`) e ajuda a evitar URLs corrompidas, redirecionamentos incorretos ou problemas de rastreamento.
+When inserting a URL that contains personalization, use three curly braces (`{{{ ... }}}`) for the dynamic portion of the URL. This prevents escaping from altering special characters (for example `/` and `+`) and helps avoid broken URLs, incorrect redirects, or tracking issues.
 
-Exemplo:
+Here is an example:
 
 ```html
 <a href="https://example.com/path/{{{profile.person.customSlug}}}?ref={{{context.system.source.id}}}">View details</a>
@@ -100,28 +101,28 @@ Exemplo:
 
 >[!IMPORTANT]
 >
->Usar saída bruta (`{{{ ... }}}`) significa que o valor é inserido como está. Use-a somente com valores em que você confia e que devem ser seguros para URL (por exemplo, valores gerados ou validados upstream).
+>Using raw output (`{{{ ... }}}`) means the value is inserted as-is. Only use it with values you trust and that are intended to be URL-safe (for example, values you generate or validate upstream).
 
-### Rastreamento correto de URL {#enable-url-tracking}
+### Correct URL tracking {#enable-url-tracking}
 
-* Ao usar a personalização para gerar a URL, verifique se o valor resolvido começa com `http`/`https` para cada destinatário. Caso contrário, o rastreamento pode não ser aplicado e o link pode não se comportar conforme esperado.
+* When using personalization to generate the URL, ensure the resolved value starts with `http`/`https` for every recipient. Otherwise, tracking may not be applied and the link may not behave as expected.
 
-* Não use lógica dinâmica, como instruções `let`, `each` ou `if` diretamente no campo URL do editor de personalização. Elas estão desativadas por motivos de segurança.
+* Do not use dynamic logic such as `let`, `each`, or `if` statements directly in the personalization editor's URL field. These are disabled for security reasons.
 
-* Se o cenário envolver uma lógica complexa para gerar URLs personalizados, evite colocar essa lógica diretamente no campo URL do editor de personalização. Em vez disso:
-   * Adicione a lógica e as instruções necessárias no conteúdo do HTML acima ou próximo ao campo URL.
-   * Gere e armazene atributos personalizados separadamente e, em seguida, faça referência a eles no conteúdo do seu email.
+* If your scenario involves complex logic to generate personalized URLs, avoid placing that logic directly in the personalization editor's URL field. Instead:
+    * Add the necessary logic and statements in the HTML content above or near the URL field.
+    * Generate and store personalized attributes separately, then reference them in your email content.
 
-### Codificação e comprimento do URL {#encoding}
+### URL encoding and length {#encoding}
 
-* As regras de sintaxe de URI ([padrão RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}) se aplicam a todas as URLs no seu conteúdo de email. No entanto, URLs personalizados têm mais probabilidade de apresentar problemas de codificação, pois valores específicos do recipient podem introduzir caracteres reservados (por exemplo, em parâmetros de consulta). Portanto, verifique se seus valores dinâmicos são codificados por URL (especialmente espaços, `&`, `#`, `%` e `+`) e evite usar `+` para valores de consulta.
+* URI syntax rules ([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}) apply to all URLs in your email content. However, personalized URLs are more likely to surface encoding issues because recipient-specific values can introduce reserved characters (for example in query parameters). Therefore, ensure your dynamic values are URL-encoded (especially spaces, `&`, `#`, `%`, and `+`) and avoid using `+` for query values.
 
-* URLs muito longos podem ser truncados ou rejeitados por navegadores, clientes de email ou sistemas downstream. Por exemplo, os URLs de mirror page podem crescer significativamente quando a personalização em tempo de execução é intensa. Mantenha cargas personalizadas pequenas e evite incorporar objetos grandes em URLs.
+* Very long URLs can be truncated or rejected by browsers, mail clients, or downstream systems. For example, mirror page URLs can grow significantly when runtime personalization is heavy. Keep personalized payloads small and avoid embedding large objects into URLs.
 
-### Etapas de validação recomendadas {#validation}
+### Recommended validation steps {#validation}
 
-Antes de ativar uma jornada ou campanha, siga as recomendações abaixo:
+Before activating a journey or campaign, follow the recommendations below:
 
-* Envie uma [prova](../content-management/proofs.md) e clique em links para confirmar se a URL resolvida começa com `http`/`https` e mantém a estrutura esperada.
-* Se os parâmetros de rastreamento forem anexados, confirme se o URL final os inclui (por meio do rastreamento de URL no nível de configuração ou parâmetros de rastreamento por link).
-
+* Send a [proof](../content-management/proofs.md) and click links to confirm the resolved URL starts with `http`/`https` and keeps the expected structure.
+* If tracking parameters are appended, confirm the final URL includes them (either via configuration-level URL tracking or per-link tracking parameters).
+-->
