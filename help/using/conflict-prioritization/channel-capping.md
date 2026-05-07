@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
+source-git-commit: c05665beac8e479bcae124b70318bcc48ebf548b
 workflow-type: tm+mt
 source-wordcount: '1280'
 ht-degree: 8%
@@ -84,7 +84,7 @@ Para criar um conjunto de regras de canal, siga estas etapas:
 
 1. Selecione os canais que deseja usar para esta regra: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push]**, **[!UICONTROL Correspondência direta]** ou **[!UICONTROL WhatsApp]**.
 
-   ![](assets/rule-set-channels.png)
+   ![](assets/rule-sets-channels.png)
 
    Selecione vários canais se desejar aplicar o limite em todos os canais selecionados como uma contagem total.
 
