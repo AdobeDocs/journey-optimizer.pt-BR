@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jump, activity, jornada, split, dividir
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 9d9c1c4981f6429b0714e27a9df78a5f533eac72
+source-git-commit: 96b003c3e45550e89454366387a6aea20cfea9c8
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1405'
 ht-degree: 6%
 
 ---
@@ -108,7 +108,7 @@ Crie cada fase como uma jornada separada no Journey Optimizer e use as atividade
 
 >[!TIP]
 >
->Para obter uma apresentação detalhada dessa abordagem, consulte [Práticas recomendadas para jornadas avançadas no Journey Optimizer](https://experienceleague.adobe.com/pt-br/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Para obter um exemplo prático usando um programa de fidelidade multifase, consulte [jornada de fidelidade multifase](journeys-uc.md#multi-phase-loyalty).
 
 ## Configuração da atividade Jump {#jump-configure}
 
