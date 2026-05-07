@@ -10,14 +10,14 @@ level: Intermediate, Experienced
 keywords: caso de uso, vários canais, mensagens, jornada, canal, eventos, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: e74f16a98b70e97a9b18d0561100e1214ccff256
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '1060'
 ht-degree: 1%
 
 ---
 
-# Enviar mensagens de vários canais {#send-multi-channel-messages}
+# Envie mensagens multicanal {#send-multi-channel-messages}
 
 Esta seção apresenta um caso de uso que combina um Público-alvo de leitura, um evento, eventos de reação e mensagens de email/push.
 
@@ -107,3 +107,38 @@ Agora o evento está configurado e pronto para ser usado na jornada. Usando a at
 1. Use o botão **Testar**, localizado no canto superior direito, para ativar o modo de teste. Consulte esta [seção](testing-the-journey.md) para saber como usar o modo de teste.
 
 1. Quando a jornada estiver pronta, publique-a usando o botão **Publicar**, localizado no canto superior direito.
+
+## Jornada de fidelidade multifásica {#multi-phase-loyalty}
+
+Este exemplo ilustra um padrão de arquitetura de jornada principal: decompondo uma jornada complexa, de várias fases, em sub-jornadas menores e focalizadas conectadas à atividade [**[!UICONTROL Jump]**](jump.md). Um programa de fidelidade serve como cenário, mas esse padrão se aplica a qualquer jornada que abrange vários marcos ou fases de negócios.
+
+Jornadas complexas de várias fases geram rapidamente um grande número de caminhos exclusivos para o cliente. A decomposição em uma subjornada por fase mantém cada jornada gerenciável, testável e com manutenção independente.
+
+### Cenário
+
+Considere um programa de fidelidade que oriente os clientes por três marcos com dois canais de marketing ([email](../email/create-email.md) e [push](../push/create-push.md)):
+
+1. **Fase 1 — Baixar o aplicativo móvel:** as comunicações iniciais incentivam os novos membros do programa de fidelidade a baixar o aplicativo. Um lembrete de acompanhamento será enviado se o cliente não tiver agido dentro de um período definido.
+1. **Fase 2 — Faça uma primeira transação:** depois que o aplicativo for baixado, as mensagens direcionadas orientarão os clientes a concluírem sua primeira transação de fidelidade.
+1. **Fase 3 — Faça uma segunda transação:** Depois da primeira transação, um conjunto final de comunicações direciona uma segunda transação para aprofundar o engajamento de fidelidade.
+
+Mesmo com essa estratégia simples, essa jornada expõe mais de 20 caminhos únicos que um cliente pode tomar. A complexidade cresce exponencialmente a cada ponto de contato ou canal adicional.
+
+### Decomposição de subjornada
+
+Divida a jornada completa em três sub-jornadas menores e conectadas:
+
+| Subjornada | Condição de entrada | Objetivo comercial |
+|---|---|---|
+| Fase 1 — Download do aplicativo | O cliente entra no programa de fidelidade | Download do aplicativo móvel da unidade |
+| Fase 2 — Primeira transação | O cliente baixa o aplicativo | Impulsionar primeira transação de fidelidade |
+| Fase 3 — Segunda operação | O cliente conclui a primeira transação | Dirigir segunda transação de fidelidade |
+
+Conecte as subjornadas usando a atividade [**[!UICONTROL Jump]**](jump.md) para que os perfis passem facilmente de uma fase para a próxima. Cada subjornada permanece simples, legível e com manutenção independente.
+
+<!--
+>[!NOTE]
+>
+>If your goal is to build a gamified loyalty program with challenges, tasks, and built-in reward tracking, Journey Optimizer also offers a dedicated **Loyalty Challenges** capability.
+-->
+
