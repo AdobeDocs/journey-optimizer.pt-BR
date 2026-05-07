@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1067'
 ht-degree: 33%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 33%
 
 ### O que são conjuntos de regras? {#what}
 
-Os conjuntos de regras permitem **agrupar várias regras em conjuntos de regras** e aplicá-las às jornadas e campanhas de sua escolha. Dessa forma, você tem mais granularidade para limitar a frequência e a quantidade de jornadas que um cliente pode inserir em um determinado intervalo de tempo ou controlar a frequência com que os usuários receberão uma mensagem, dependendo do tipo de comunicação.
+Os conjuntos de regras permitem **agrupar várias regras em conjuntos de regras** e aplicá-las às jornadas e campanhas de sua escolha. Assim, você conta com mais granularidade para limitar a frequência e a quantidade de jornadas que um cliente pode inserir em um determinado intervalo de tempo, ou controlar a frequência com que os usuários receberão uma mensagem, dependendo do tipo de comunicação.
 
 Você pode criar dois tipos de conjuntos de regras:
 
 * Os conjuntos de regras do **Canal** aplicam regras aos canais de comunicação. Eles permitem definir:
 
-   * **Regras de limite de frequência** - *Não envie mais de 1 email ou comunicação SMS por dia.*
+   * **Regras de limite de frequência** - *Não enviar mais de 1 email, SMS, Push, Correspondência direta ou WhatsApp de comunicação por dia.*
    * **Regras de horário de silêncio** - *Não enviar mensagens de email fora do horário das 8h00 às 9h00.*
 
 * Os conjuntos de regras **Jornada** aplicam regras de limite de simultaneidade e de entrada a uma jornada. Por exemplo, não insira perfis em mais de uma jornada simultaneamente.
@@ -182,4 +182,4 @@ Seu status será alterado para **[!UICONTROL Inativo]** e a regra não se aplica
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

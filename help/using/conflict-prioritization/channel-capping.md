@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 5%
+source-wordcount: '1280'
+ht-degree: 8%
 
 ---
 
 # Limite de frequência por canal e tipo de comunicação {#rule-sets}
 
-Os conjuntos de regras do **Canal** aplicam regras de limitação aos canais de comunicação. Por exemplo, não envie mais de 1 comunicação por email ou SMS por dia.
+Os conjuntos de regras do **Canal** aplicam regras de limitação aos canais de comunicação. Por exemplo, não enviar mais de uma comunicação por email ou SMS por dia.
 
 O uso de conjuntos de regras de canal permite definir o limite de frequência por tipo de comunicação para evitar sobrecarga de clientes com mensagens semelhantes. Por exemplo, você pode criar um conjunto de regras para limitar o número de **comunicações promocionais** enviadas aos seus clientes e outro conjunto de regras para limitar o número de **boletins informativos** enviados a eles. Dependendo do tipo de campanha que está sendo criada, você pode optar por aplicar a comunicação promocional ou o conjunto de regras de boletins informativos.
 
@@ -80,13 +80,15 @@ Para criar um conjunto de regras de canal, siga estas etapas:
 
    Insira um valor que corresponda ao tipo de duração selecionado: 1-23 para Por hora, 1-30 para Diário, 1-4 para Semanal e 1-3 para Mensal.
 
-   O contador é automaticamente redefinido para 0 quando uma nova janela de tempo é iniciada. Para um limite de frequência de 2 dias, esse reinício ocorre a cada dois dias à meia-noite UTC.
+   O contador é automaticamente redefinido para 0 quando uma nova janela de tempo é iniciada. Para um limite de frequência de 2 dias, essa redefinição ocorre a cada dois dias à meia-noite UTC.
 
-1. Selecione o canal que deseja usar para esta regra: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push]** ou **[!UICONTROL Correspondência direta]**.
+1. Selecione os canais que deseja usar para esta regra: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push]**, **[!UICONTROL Correspondência direta]** ou **[!UICONTROL WhatsApp]**.
 
-1. Selecione vários canais se desejar aplicar o limite em todos os canais selecionados como uma contagem total.
+   ![](assets/rule-set-channels.png)
 
-   Por exemplo, defina o limite como 5 e selecione os canais de email e de sms. Se um perfil já tiver recebido três emails de marketing e dois sms de marketing para o período selecionado, esse perfil será excluído do próximo delivery de qualquer email ou sms de marketing.
+   Selecione vários canais se desejar aplicar o limite em todos os canais selecionados como uma contagem total.
+
+   Por exemplo, defina o limite como 5 e selecione os canais de Email e SMS. Se um perfil já tiver recebido três emails de marketing e duas mensagens SMS de marketing para o período selecionado, esse perfil será excluído do próximo delivery de qualquer email de marketing ou mensagem SMS.
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar a criação da regra. Sua mensagem foi adicionada ao conjunto de regras, com o status **[!UICONTROL Rascunho]**.
 
@@ -166,4 +168,4 @@ In this scenario, an individual profile:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444731?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
