@@ -10,9 +10,9 @@ level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: b51ab228d4c7612f85db14f58d71d52d246c4cf0
+source-git-commit: 615c970210894c9d189f86b7ed6363593c39f6d7
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1900'
 ht-degree: 1%
 
 ---
@@ -147,11 +147,11 @@ Se sua jornada incluir um ou mais eventos, é possível acioná-los enquanto a S
 
 ## Exibir resultados {#viewing-results}
 
-A guia **[!UICONTROL Resultados]** permite exibir os resultados do teste. Use o seletor de exibição para escolher como você navega no log:
+A guia **[!UICONTROL Resultados]** permite exibir os resultados do teste. No menu suspenso **[!UICONTROL Usuário de teste]**, selecione o usuário simulado cuja execução você deseja inspecionar.
 
-* **Todos os usuários simulados**: selecione **[!UICONTROL Todos]** para ver os resultados agregados em cada usuário simulado na execução. Essa exibição ajuda a verificar a simulação completa num relance, atividade, resultados e erros, sem escolher um único usuário simulado primeiro.
-
-* **Um usuário simulado**: no menu suspenso **[!UICONTROL Usuário de teste]**, selecione o usuário simulado cuja execução você deseja inspecionar.
+<!--
+* **All simulated users**: Select **[!UICONTROL All]** to see results aggregated across every simulated user in the run. This view helps you scan the full simulation at a glance, activity, outcomes, and errors, without picking a single simulated user first.
+-->
 
 Para cada atividade, o log pode mostrar se o usuário simulado entrou ou saiu da etapa e os erros que ocorreram durante a simulação.
 
