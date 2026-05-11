@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, Fragmentos de conteúdo, administração, repositório, autenticação, autor, publicação
-source-git-commit: edea85366fb6f3a031c0eaec321e6d37bb41dd18
+source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -52,15 +52,15 @@ Para configurar o repositório:
 
 1. Escolha sua configuração:
 
-   >[!BEGINTABS]
-
-   >[!TAB Configuração somente de autor]
+   +++ Configuração somente do autor
 
    Selecione **[!UICONTROL Configuração somente de autor]** quando o Journey Optimizer precisar ler somente os Fragmentos de conteúdo do ambiente **de autor** do Adobe Experience Manager. A replicação de autor para publicar e atualizações de publicação em tempo real não é compatível.
 
    ![](assets/aem-admin-settings-3.png)
 
-   >[!TAB Publicar configuração da instância]
+   +++
+
+   +++ Configuração da instância de publicação
 
    1. Selecione **[!UICONTROL Configuração da instância de publicação]** para ativar as configurações da instância de publicação.
 
@@ -74,7 +74,7 @@ Para configurar o repositório:
 
       ![](assets/aem-admin-settings-5.png)
 
-   >[!ENDTABS]
+   +++
 
 1. Clique em **[!UICONTROL Salvar]**.
 
