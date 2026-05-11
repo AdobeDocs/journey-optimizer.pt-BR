@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
+source-git-commit: 751514af18e4d8e36ac7d9bc4c64e95a0514446d
 workflow-type: tm+mt
-source-wordcount: '7327'
-ht-degree: 67%
+source-wordcount: '7393'
+ht-degree: 66%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 67%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Maio de 2026 {#may-2026}
+
+* A documentação **Exportar conteúdo da mensagem** foi expandida com **Perguntas frequentes sobre Exportação de Mensagens** (conteúdo personalizado, imagens e mídia, links rastreados, PII, retenção, casos de uso etc.) e **exemplos de JSON exportado de amostra** para SMS e email. [Leia mais](../configuration/message-export.md)
+
+* Uma nova página de **esquema de Exportação de Mensagens do AJO** documenta cada campo no Conjunto de Dados de Exportação de Mensagens do AJO, com tipos de dados e hierarquia para o email e a carga de SMS exportados. [Leia mais](../configuration/message-export-schema.md)
 
 * Uma nova página **Personalizar URLs em emails** foi adicionada, consolidando orientações sobre personalização dinâmica de URL, personalização completa/base de URL, personalização do parâmetro de rastreamento de URL e medidas de proteção de chave. [Leia mais](../email/url-personalization.md)
 
