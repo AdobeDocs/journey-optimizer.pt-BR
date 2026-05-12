@@ -9,9 +9,15 @@ role: Admin
 level: Experienced
 keywords: exportação, mensagens, HIPAA, emails, SMS, configuração
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: 180d6a3ab3a6a7aaaea60dfff6fb30172a697509
+TQID: https://experienceleague.adobe.com/4i6dFByqNizhrMeQrr32twEPVrg4Jz8J-rgA-sR70Ho
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: cc84ad59f4233967c484c99651edb0558518c58c
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: 1398
 ht-degree: 6%
 
 ---
@@ -62,9 +68,9 @@ Para obter etapas detalhadas, destinos na nuvem com suporte, permissões necess�
 >
 >Essa configuração deve ser definida para cada sandbox.
 
-1. Escolha um [tipo de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/destination-types){target="_blank"} do Experience Platform. Uma lista de plataformas de destino disponíveis que estão prontas para receber dados está disponível em [esta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
+1. Escolha um [tipo de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"} do Experience Platform. Uma lista de plataformas de destino disponíveis que estão prontas para receber dados está disponível em [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. No [!DNL Experience Platform], configure seu destino definindo credenciais, bucket/container, prefixo de caminho e opções de segurança. [Saiba como](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. No [!DNL Experience Platform], configure seu destino definindo credenciais, bucket/container, prefixo de caminho e opções de segurança. [Saiba como](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Crie um fluxo de exportação do conjunto de dados usando os seguintes dados:
 
@@ -414,3 +420,4 @@ A exportação de mensagens não:
 * Arquivar automaticamente mensagens fora do Adobe
 
 +++
+
