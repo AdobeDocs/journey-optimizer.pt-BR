@@ -7,10 +7,32 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 8b042e4750dd7f7d841717f648afe120d0bdfc4a
+TQID: https://experienceleague.adobe.com/Csk1JNk8W6SGjoga5chRRE7-LUzUKK-X8sZcwszCxRE
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 12%
+source-wordcount: 1230
+ht-degree: 13%
 
 ---
 
@@ -89,6 +111,10 @@ Depois que suas credenciais da API do WhatsApp forem criadas com êxito, você p
 * **Capturar respostas de entrada** para gerenciar o consentimento de aceitação e recusa
 * **Receber relatórios de entrega**, como confirmações de leitura (quando disponíveis) e status de entrega de mensagens
 * **Habilitar o rastreamento de eventos** para análise e relatórios em conjuntos de dados do Adobe Experience Platform
+
+>[!NOTE]
+>
+>Mensagens de entrada do WhatsApp são capturadas no _conjunto de dados do sistema do AJO Inbound Activity Event_. Um perfil deve ter pelo menos uma mensagem enviada de [!DNL Journey Optimizer] antes que as mensagens de entrada sejam capturadas neste conjunto de dados. [Saiba mais](../data/get-started-datasets.md#system-datasets)
 
 Os webhooks atuam como a ponte de comunicação entre a Plataforma de negócios WhatsApp da Meta e o Adobe Journey Optimizer, permitindo que você receba notificações em tempo real sobre eventos de mensagem e interações do usuário.
 

@@ -6,16 +6,20 @@ description: Saiba como armazenar palavras-chave de SMS de entrada em um conjunt
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: bf0a24751458660c510997650b9a79fdf1881181
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 9%
+source-wordcount: '518'
+ht-degree: 8%
 
 ---
 
 # Usar um conjunto de dados personalizado para palavras-chave de entrada {#custom-dataset-inbound-keywords}
 
 As palavras-chave de SMS de entrada podem ser armazenadas em um conjunto de dados personalizado habilitado para perfil. A configuração consiste em um esquema do Adobe Experience Platform, um conjunto de dados criado a partir desse esquema e credenciais da API de SMS do Journey Optimizer que fazem referência ao conjunto de dados para mensagens de entrada.
+
+>[!NOTE]
+>
+>Se nenhum conjunto de dados personalizado estiver configurado, as palavras-chave de entrada serão armazenadas no _Conjunto de Dados de Eventos de Atividade de Entrada do AJO_ por padrão. Um perfil deve ter pelo menos uma mensagem enviada de [!DNL Journey Optimizer] antes que as mensagens de entrada sejam capturadas neste conjunto de dados. [Saiba mais sobre conjuntos de dados do sistema](../data/get-started-datasets.md#system-datasets)
 
 Para obter informações sobre esquemas, grupos de campos e conjuntos de dados, consulte a seguinte documentação do Adobe Experience Platform:
 

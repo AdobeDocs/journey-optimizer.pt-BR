@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: d999f48597fab65e7239883f6b40c338532f1ef1
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '2818'
+source-wordcount: '2855'
 ht-degree: 3%
 
 ---
@@ -47,6 +47,10 @@ Ao configurar um webhook, você pode definir sua finalidade com base no tipo de 
 * **Entrada**: use esta opção se desejar capturar respostas de consentimento, como aceitação ou recusa, e coletar preferências do usuário.
 
 * **Feedback**: escolha esta opção para rastrear eventos de entrega e participação, incluindo entregas, erros de saída, confirmações de leitura (se aplicável) para oferecer suporte a relatórios e análises.
+
+>[!NOTE]
+>
+>Os dados de palavra-chave de entrada são armazenados no _conjunto de dados do sistema do_ do AJO Inbound Activity Event, a menos que um conjunto de dados personalizado esteja configurado. Um perfil deve ter pelo menos uma mensagem enviada de [!DNL Journey Optimizer] antes que as mensagens de entrada sejam capturadas. [Saiba mais](../data/get-started-datasets.md#system-datasets)
 
 Dependendo do seu provedor, haverá expectativas diferentes sobre o que precisa ser configurado para ter uma implementação de SMS bem-sucedida:
 

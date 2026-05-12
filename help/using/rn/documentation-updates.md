@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d60e27225dbcbc3ccfc8cf4f5a2c024e0e80422
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '7393'
+source-wordcount: '7447'
 ht-degree: 66%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 66%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Maio de 2026 {#may-2026}
+
+* A página **Introdução aos conjuntos de dados** foi atualizada com uma nova entrada **de entrada** na seção de conjuntos de dados do sistema, documentando o _Conjunto de Dados de Eventos de Atividade de Entrada do AJO_. Adição de uma observação para esclarecer que um perfil deve ter pelo menos uma mensagem enviada de [!DNL Journey Optimizer] antes que as mensagens de entrada sejam capturadas neste conjunto de dados. [Leia mais](../data/get-started-datasets.md#system-datasets)
 
 * A documentação **Exportar conteúdo da mensagem** foi expandida com **Perguntas frequentes sobre Exportação de Mensagens** (conteúdo personalizado, imagens e mídia, links rastreados, PII, retenção, casos de uso etc.) e **exemplos de JSON exportado de amostra** para SMS e email. [Leia mais](../configuration/message-export.md)
 
