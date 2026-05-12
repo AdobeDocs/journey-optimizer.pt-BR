@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: deeplink, deep link, links universais, links de aplicativos, email
-source-git-commit: bdf9528e298bd8e348d59a660a4cbceb35660625
+source-git-commit: 850b97c292679353e5e5f429f9703d31b773c10b
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -50,57 +50,6 @@ Para usar deeplinks em emails de seus aplicativos móveis, conclua as etapas de 
       * Subdomínio delegado
       * ID do pacote do aplicativo
       * Impressão digital do certificado SHA-256
-
-<!--
-Adobe is hosting these files internally so not on customer's side.
-
-1. Validate the URLs below and ensure the content matches the expected format such as in the examples below.
-
-    * **For iOS (AASA)**: `https://data.<delegated_subdomain>/.well-known/apple-app-site-association`
-
-      +++ Example:
-
-      ```json
-      {
-        "applinks": {
-          "apps": [],
-          "details": [
-            {
-              "appID": "<app_bundle_id>",
-              "paths": [
-                "NOT /ee/v1/click/*",
-                "/ee/v1/mclick/*"
-              ]
-            }
-          ]
-        }
-      }
-      ```
-      
-      +++
-
-    * **For Android (assetLinks.json)**: `https://data.<delegated_subdomain>/.well-known/assetlinks.json`
-
-      +++ Example:
-
-      ```json
-      [
-        {
-          "relation": ["delegate_permission/common.handle_all_urls"],
-          "target": {
-            "namespace": "android_app",
-            "package_name": "<app_bundle_id>",
-            "sha256_cert_fingerprints": [
-              "12:34:56:78:90:AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34"
-            ]
-          }
-        }
-      ]
-      ```
-
-      +++
-
--->
 
 >[!IMPORTANT]
 >
@@ -293,7 +242,7 @@ Esta seção fornece padrões comuns de implementação para deeplinks. A config
 * **Testar seu deeplink**: envie uma prova e clique no deeplink de um dispositivo onde o aplicativo esteja instalado.
 * **Validar em dispositivos reais**: links universais e comportamentos de resolução de links rastreados são mais confiáveis para validação em dispositivos físicos do que em simuladores.
 * **Validar o roteamento do lado do aplicativo**: se o link direto não abrir a tela esperada, valide o roteamento do lado do aplicativo e o formato da URL (host/caminho/consulta e codificação de URL).
-* O comportamento Links de aplicativo/Links universais é mais confiável depois que o aplicativo é instalado e aberto pelo menos uma vez.
+* **Lembre-se da inicialização do aplicativo**: o comportamento Links de Aplicativo/Links Universais é mais confiável depois que o aplicativo é instalado e aberto pelo menos uma vez.
 
 ## Solução de problemas e perguntas frequentes {#troubleshooting-faq}
 
