@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf0a24751458660c510997650b9a79fdf1881181
+source-git-commit: d28376a9c7296dbb4e508dbb87b53658692e1e89
 workflow-type: tm+mt
-source-wordcount: '3318'
+source-wordcount: '3322'
 ht-degree: 90%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 90%
    + Trabalhe com eficiência {#work-efficiently}
       + [Navegue pela interface](using/start/user-interface.md)
       + [Pesquise, filtre e organize](using/start/search-filter-categorize.md)
-      + [Perguntas frequentes sobre solução de problemas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Perguntas frequentes sobre solução de problemas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Acessibilidade](using/start/accessibility.md)
       + {hide-from-toc}[Jornadas vs Campanhas](using/start/journeys-vs-campaigns.md)
 + Jornadas {#orchestrate-journeys}
@@ -317,6 +317,7 @@ ht-degree: 90%
          + [Parâmetros de cabeçalho](using/email/header-parameters.md)
          + [Rastreamento de URL](using/email/url-tracking.md)
          + [Personalizar configurações de email](using/email/surface-personalization.md)
+         + [Configurar deeplinks em emails](using/email/deeplinks.md)
    + Canal no aplicativo {#in-app}
       + [Canal no aplicativo](/help/rp_landing_pages/in-app-landing-page.md)
       + [Introdução ao canal “In-app”](using/in-app/get-started-in-app.md)
