@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
 source-wordcount: 1032
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -86,7 +86,7 @@ Estas seções listam os conjuntos de dados do sistema usados pelo [!DNL Journey
 
 * Exportação de mensagem
 
-  _Conjunto de Dados de Exportação de Mensagens do AJO_: armazena o conteúdo de emails e mensagens SMS enviados para fins de exportação. Os registros são retidos por 7 dias a partir da assimilação. Disponível somente para organizações que compraram o complemento Exportação de mensagem. [Saiba mais](../configuration/message-export.md)
+  _Conjunto de dados de exportação de mensagens do AJO_: armazena o conteúdo de emails e mensagens SMS enviados para fins de exportação. Os registros são mantidos por 7 dias corridos a partir da data de ingestão. Disponível somente para organizações que compraram o complemento Exportação de mensagem. [Saiba mais](../configuration/message-export.md)
 
 * Serviços inteligentes
 
@@ -109,7 +109,7 @@ Adicionar dados à [!DNL Adobe Experience Platform] é a base para criar um Perf
 * [Criar um conjunto de dados com um esquema existente](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
 * [Mapear um arquivo CSV para um esquema XDM existente](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
-Veja este vídeo para saber como criar um conjunto de dados, mapeá-lo para um esquema, adicionar dados a ele e confirmar se os dados foram assimilados.
+Veja este vídeo para saber como criar um conjunto de dados, mapeá-lo para um esquema, adicionar dados a ele e confirmar se os dados foram ingeridos.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
@@ -125,13 +125,13 @@ Saiba mais sobre Governança de dados e rótulos de uso de dados na [Documentaç
 
 ## Exemplo e casos de uso {#samples}
 
-* [Tutorial - Assimilar dados na Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=pt-BR){target="_blank"}
+* [Tutorial: assimilar dados na Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=pt-BR){target="_blank"}
 * [Caso de uso de ponta a ponta](../audience/creating-test-profiles.md) - Criar um esquema, um conjunto de dados e assimilar dados para adicionar perfis de teste no [!DNL Adobe Journey Optimizer]
 * [Exemplos de consulta](../data/datasets-query-examples.md) - Conjuntos de dados do [!DNL Adobe Journey Optimizer] e casos de uso relacionados.
 
 >[!MORELIKETHIS]
 >
->* [Introdução ao gerenciamento de dados no Journey Optimizer](gs-data.md)
+>* [Introdução à gestão de dados no Journey Optimizer](gs-data.md)
 >* [Documentação de conjuntos de dados](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target="_blank"}
 >* [Documentação de ingestão de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
 >* [Práticas recomendadas dos direitos da licença de gerenciamento de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}

@@ -10,10 +10,38 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+TQID: https://experienceleague.adobe.com/3yMQM-hovd-3HgT9PlhNvpKlxG3m4NMqnZwv-dbZACU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 90%
+source-wordcount: 1613
+ht-degree: 100%
 
 ---
 
@@ -57,12 +85,12 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campanha"
->abstract="Selecione o tipo de campanha. Os canais disponíveis variam de acordo com o tipo selecionado. <br>**Campanhas agendadas** (Campanhas de ação) - Ideal para comunicações em lote simples e únicas que você pode agendar para execução em um horário específico.<br>**Campanhas acionadas por API** - Ativadas por meio de uma chamada de API, permitindo mensagens automatizadas e baseadas em eventos diretamente de sistemas externos.<br>**Campanhas orquestradas**: fornece uma tela visual com interface de arrastar e soltar para projetar e automatizar fluxos de trabalho de marketing complexos e com várias etapas, desde a segmentação de público-alvo até a entrega personalizada de mensagens entre canais."
+>abstract="Selecione o tipo de campanha. Os canais disponíveis variam de acordo com o tipo selecionado. <br>**Campanhas agendadas** (Campanhas de ação): ideal para comunicações simples e pontuais em lote que você pode agendar para serem executadas em um horário específico.<br>**Campanhas acionadas por API**: ativadas por meio de uma chamada de API, permitindo o envio de mensagens automatizadas e baseadas em eventos diretamente de sistemas externos.<br>**Campanhas orquestradas**: fornece uma tela visual com interface de arrastar e soltar para projetar e automatizar fluxos de trabalho de marketing complexos e com várias etapas, desde a segmentação de público-alvo até a entrega personalizada de mensagens entre canais."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Campanhas"
->abstract="Crie um fluxo de segmentação, crie mensagens entre canais e planeje as campanhas. Canais aceitos: email, SMS, notificações por push e correspondência direta."
+>abstract="Crie um fluxo de segmentação, crie mensagens entre canais e planeje as campanhas. Canais compatíveis: email, SMS, notificações por push e correspondência direta."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -101,7 +129,7 @@ Usar campanhas do [!DNL Journey Optimizer] para:
 
 ![](assets/gs-campaigns.png)
 
-➡️ **Pronto para começar a criar?** [Crie sua primeira campanha](create-campaign.md) em minutos.
+➡️ **Deseja começar a criar?** [Crie sua primeira campanha](create-campaign.md) em minutos.
 
 ## Escolha o tipo de campanha {#campaign-types}
 
@@ -198,15 +226,15 @@ A criação de campanhas bem-sucedidas segue um processo claro e repetível. Est
 
 Antes de começar, esclareça os objetivos:
 
-* **Qual é a meta?** (por exemplo, gerar conversões, aumentar o engajamento, notificar os clientes)
-* **Quem é o público-alvo?** (por exemplo, criar ou selecionar no Adobe Experience Platform)
-* **Que tipo de campanha se encaixa?** (Consulte [tipos de campanha](#campaign-types) acima)
-* **Que canais você usará?** (email, push, SMS, no aplicativo, Web etc.) → [Veja os canais compatíveis por tipo de campanha](../channels/gs-channels.md#channels)
-* **Quando ele deve ser executado?** (imediato, programado ou acionado por API)
+* **Qual é a meta?** (por exemplo: gerar conversões, aumentar o engajamento, notificar os clientes)
+* **Quem é o público-alvo?** (por exemplo: criar ou selecionar na Adobe Experience Platform)
+* **Qual tipo de campanha é adequado?** (Consulte [tipos de campanha](#campaign-types) acima)
+* **Quais canais você pode usar?** (e-mail, notificações push, SMS, in-app, web etc.) → [Veja os canais compatíveis por tipo de campanha](../channels/gs-channels.md#channels)
+* **Quando deve ser executado?** (imediato, agendado ou acionado por API)
 
 +++
 
-+++&#x200B;2. Configurar propriedades da campanha
++++&#x200B;2. Configurar as propriedades da campanha
 
 Configure a base da campanha:
 
@@ -214,13 +242,13 @@ Configure a base da campanha:
 2. **Selecione o tipo de campanha** (Ação, acionada por API ou Orquestrada)
 3. **Escolha o público-alvo**
 4. **Defina a prioridade** se estiver usando o gerenciamento de conflitos
-5. **Configurar agendamento** (para campanhas de Ação) ou detalhes da API (para acionado por API). Para campanhas de Ação, você também pode [enviar usando ondas](send-using-waves.md) para entregar a mensagem em lotes ao longo do tempo.
+5. **Configurar agendamento** (para campanhas de ação) ou detalhes da API (para campanhas acionadas por API). Para campanhas de ação, você também pode [enviar em ondas](send-using-waves.md) para entregar a mensagem em lotes ao longo do tempo.
 
 **Guias específicos de tipo:** [Propriedades da campanha de ação](campaign-properties.md) | [Propriedades da campanha acionada por API](api-triggered-campaign-properties.md) | [Configuração da campanha orquestrada](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
-+++&#x200B;3. Projetar o seu conteúdo
++++&#x200B;3. Projetar o conteúdo
 
 Crie mensagens convincentes para o público-alvo:
 

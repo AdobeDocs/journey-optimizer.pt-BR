@@ -4,9 +4,18 @@ product: journey optimizer
 title: Ciclo de lançamento do Adobe Journey Optimizer
 feature: Release Notes
 description: Noções básicas sobre o ciclo de lançamento do Adobe Journey Optimizer
-source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
-workflow-type: ht
-source-wordcount: '920'
+exl-id: 344ae3cf-923c-4f0e-b3bc-0313993243c8
+TQID: https://experienceleague.adobe.com/u8FJOgdav9VhwCk4CzrJoLrbFkVAa7BO83BCZ4SWsBc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 943
 ht-degree: 100%
 
 ---
@@ -60,9 +69,9 @@ Os caminhos de lançamento comuns incluem:
 
 | **Rótulo** | **Propósito** | **Disponibilidade** | **Observações principais** |
 |------------|-------------|------------------|----------------|
-| **Beta** | Teste antecipado e coleta de feedback. | Restrito a clientes ou organizações selecionados que participam do programa Beta da Adobe. | - Não destinado a uso na produção.<br>- A funcionalidade ou o design pode mudar antes da Disponibilidade geral.<br>- O feedback ajuda a refinar a implementação final. |
-| **Disponibilidade limitada (LA)** | Implantação controlada para validação e monitoramento. | Habilitado somente para clientes ou ambientes selecionados (por exemplo: sandboxes de desenvolvimento). | - Pronto para produção e com total compatibilidade.<br>- Usado para validar o desempenho e a escalabilidade antes do lançamento geral.<br>- O acesso requer aprovação da Adobe. |
-| **Disponibilidade geral (GA)** | Lançamento amplo de funcionalidade totalmente compatível. | Habilitado por padrão para todas as organizações elegíveis. | - Pronto para produção e com total compatibilidade.<br> - Licenciamento ou direitos podem ser aplicados.<br> - Pode ser implantado progressivamente nas regiões. |
+| **Beta** | Teste antecipado e coleta de feedback. | Restrito a clientes ou organizações selecionados que participam do programa Beta da Adobe. | - Não destinado ao uso em produção.<br>- A funcionalidade ou o design podem mudar antes da disponibilidade geral.<br>- O feedback ajuda a refinar a implementação final. |
+| **Disponibilidade limitada (LA)** | Implantação controlada para validação e monitoramento. | Habilitado somente para clientes ou ambientes selecionados (por exemplo: sandboxes de desenvolvimento). | - Pronto para produção e com suporte total.<br>- Usado para validar o desempenho e a escalabilidade antes da versão geral.<br>- O acesso exige aprovação da Adobe. |
+| **Disponibilidade geral (GA)** | Lançamento amplo de funcionalidade totalmente compatível. | Habilitado por padrão para todas as organizações elegíveis. | - Pronto para produção e com suporte total.<br> - Podem ser aplicáveis licenças ou autorizações.<br> - Pode ser implantado progressivamente nas regiões. |
 
 
 ## Implantação e disponibilidade {#rollout}
@@ -117,7 +126,7 @@ Alguns recursos de Disponibilidade geral são implantados progressivamente para 
 
 +++ Todos os recursos passam pelo Beta e pela Disponibilidade limitada?
 
-Não. Alguns recursos são lançados diretamente em disponibilidade geral ou somente em disponibilidade limitada, dependendo de sua natureza e preparo. O caminho de lançamento é adequado a cada funcionalidade para equilibrar agilidade, qualidade e estabilidade.
+Não. Alguns recursos são lançados diretamente em disponibilidade geral ou somente em disponibilidade limitada, dependendo da sua natureza e do seu preparo.O caminho de lançamento é personalizado para cada recurso, a fim de equilibrar agilidade, qualidade e estabilidade.
 
 +++
 

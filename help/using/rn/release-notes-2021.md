@@ -9,9 +9,43 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+TQID: https://experienceleague.adobe.com/3i0k1Wzvdf3Z3NccHSFE-nzIrYC45iLqs-ftmQZIeVw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: f550d0f2-143d-4093-9463-467fbec95fcc
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: 2060
 ht-degree: 100%
 
 ---
@@ -105,7 +139,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 * **Nova função auxiliar para a formatação de data** - Agora é possível especificar como uma string de data deve ser representada. [Saiba mais](../personalization/functions/dates.md#format-date)
 
 
-**Gerenciamento de decisão**
+**Gestão de decisões**
 
 * **Sequência de avaliação** - O fluxo de criação de decisões novo e aprimorado permite navegar não somente entre os objetos de decisão com mais facilidade, mas também fornece um controle completo de como as coleções de ofertas são avaliadas pelo mecanismo de decisão. Isso inclui quais coleções são avaliadas juntas e separadamente e em que ordem as coleções devem ser avaliadas. [Saiba mais](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
@@ -130,7 +164,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>Novas métricas estão disponíveis nos relatórios: Segmentado e Excluído para mensagens de email &amp; e por push estão visíveis nos relatórios ao vivo e global. </br> Para ter acesso às métricas mais recentes, observe que será necessário redefinir os diferentes painéis de relatórios para cada canal e tipo de relatório. Para obter mais informações sobre a personalização de painéis, consulte a <a href="../reports/live-report.md">documentação detalhada.</a></p>
+<p>Novas métricas estão disponíveis nos relatórios: as métricas Direcionados e Excluídos para mensagens de email e push estão visíveis nos relatórios globais e em tempo real. </br> Para ter acesso às métricas mais recentes, observe que é necessário redefinir os diferentes painéis de relatórios para cada canal e tipo de relatório. Para obter mais informações sobre a personalização de painéis, consulte a <a href="../reports/live-report.md">documentação detalhada.</a></p>
 <p>Uma nova coluna na lista de execução de mensagens exibe o número de perfis segmentados para cada execução de mensagem. </p>
 <p>Para obter mais informações, consulte a <a href="../reports/report-gs-cja.md">documentação detalhada</a>.</p>
 </td>
@@ -185,7 +219,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 <tr>
 <td>
 <p>Envie sua mensagem por push ou de email automaticamente na melhor hora para cada cliente com quem você interagir usando o Adobe Journey Optimizer. A Otimização do tempo de envio, viabilizada pelos serviços de IA da Adobe, prevê o melhor momento para enviar um email ou mensagem por push. Isso maximiza o engajamento com base no histórico disponível das taxas de abertura e de cliques.</p>
-<p>No momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.</p>
+<p>No momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o atendimento ao cliente da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/send-time-optimization.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -260,7 +294,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 </table>
 
 
-### Melhorias
+### Aprimoramentos
 
 **Jornadas**
 
@@ -337,7 +371,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 </tbody>
 </table>
 
-### Melhorias
+### Aprimoramentos
 
 **Jornadas**
 

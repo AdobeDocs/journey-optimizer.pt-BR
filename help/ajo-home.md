@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 85%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Descubra os recursos e as melhorias mais recentes do Journey Optimizer nas Notas
 
 >[!TAB Assistente de IA para personalização]
 
-Use o **Assistente de IA** no Editor do Personalization ou na barra de ferramentas do Designer de email (**Adicionar expressão**) para descrever o que você deseja em linguagem simples e obter uma expressão de personalização, ou selecione um código existente para explicá-lo, corrigir problemas ou sugerir melhorias.
+Use o **Assistente de IA** no Editor de personalização ou na barra de ferramentas do Designer de email (**Adicionar expressão**) para descrever o que você deseja em linguagem simples e obter uma expressão de personalização, ou selecione um código existente para explicá-lo, corrigir problemas ou sugerir melhorias.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/generative-personalization-expressions.md)
 
@@ -136,7 +136,7 @@ Saiba como priorizar e gerenciar conflitos de comunicação em campanhas e jorna
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR" target="_blank">Tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrição do produto</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Visão geral de segurança (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">Referência de APIs</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Dicionário de Esquemas do Journey Optimizer</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR" target="_blank">Tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrição do produto</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Visão geral de segurança (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">Referência de APIs</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Dicionário de esquema do Journey Optimizer</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>

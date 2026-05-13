@@ -10,13 +10,52 @@ level: Beginner
 keywords: funções, responsabilidades, profissional de marketing, administrador, engenheiro de dados, desenvolvedor, início rápido
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 227dde4212a2a0caa4c46cc2151a4a5cc11d011f
+TQID: https://experienceleague.adobe.com/q9oP-s1hGrvEkbJ-JIOUReaOeSj2k79W3mw6MbvGvYY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: d712382d-29ef-487a-93a7-cbebdd2ef24a
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2177'
-ht-degree: 73%
+source-wordcount: 2269
+ht-degree: 100%
 
 ---
-
 
 # Funções e responsabilidades
 
@@ -26,13 +65,13 @@ O Adobe Journey Optimizer (AJO) permite que as marcas forneçam experiências co
 * **Orquestração omnicanal moderna** por meio de telas unificadas para jornadas em tempo real e campanhas em lote, além de um designer de mensagens moderno
 * **Tomada de decisão e personalização inteligentes** por meio da gestão de decisões e dos recursos de IA e aprendizado de máquina
 
-A Journey Optimizer oferece duas abordagens principais para alcançar e envolver os clientes:
+O Journey Optimizer oferece duas abordagens principais para alcançar e engajar os clientes:
 
-* **Jornada** — orquestração individualizada em tempo real, em que cada cliente se move no seu próprio ritmo e é acionada por comportamento ou eventos. Melhor para sequências de integração, abandono de carrinho e envolvimento de ciclo de vida.
-* **Campanhas** — mensagens baseadas em público-alvo com três modos de entrega, dependendo do seu caso de uso:
-   * **Campanhas de ação** — Mensagens agendadas ou recorrentes entregues a um público definido, todas de uma vez. Recomendado para informativos, anúncios promocionais e lançamentos de produtos.
-   * **Campanhas acionadas por API** — Mensagens sob demanda acionadas por um sistema externo via API. Melhor para mensagens transacionais, como confirmações de pedidos, alertas de remessa e notificações de conta.
-   * **Campanhas orquestradas** — fluxos de trabalho em lotes complexos com segmentação de várias entidades e execução baseada em tela. Melhor para promoções sazonais, programas em lote de várias etapas e campanhas que exigem contagens exatas de pré-envio.
+* **Jornadas**: orquestração individual em tempo real, onde cada cliente avança no seu próprio ritmo, desencadeada por comportamentos ou eventos. Melhor para sequências de integração, abandono de carrinho e engajamento de ciclo de vida.
+* **Campanhas**: mensagens baseadas em público-alvo com três modos de entrega, dependendo do caso de uso:
+   * **Campanhas de ação**: mensagens agendadas ou recorrentes entregues a um público-alvo definido, todas de uma vez. Recomendado para informativos, anúncios promocionais e lançamentos de produtos.
+   * **Campanhas acionadas por API**: mensagens sob demanda acionadas por um sistema externo via API. Recomendado para mensagens transacionais, como confirmações de pedidos, alertas de envio e notificações de conta.
+   * **Campanhas orquestradas**: fluxos de trabalho em lotes complexos com segmentação de várias entidades e execução baseada em tela. Melhor para promoções sazonais, programas em lote de várias etapas e campanhas que exigem contagens exatas de pré-envio.
 
 Essa experiência unificada permite implementar casos de uso completos em um único local, desde a definição de públicos-alvo e a criação de jornadas até a criação de conteúdo personalizado e a análise de resultados. Esta documentação explica as principais funções para o uso eficaz do Journey Optimizer, suas responsabilidades e como começar.
 
@@ -46,14 +85,14 @@ Essa experiência unificada permite implementar casos de uso completos em um ún
 
 ## Antes de começar {#before-you-begin}
 
-Uma implementação bem-sucedida começa com a preparação. Antes de configurar o Journey Optimizer, alinhe sua equipe no seguinte:
+Uma implementação bem-sucedida começa com a preparação. Antes de configurar o Journey Optimizer, alinhe sua equipe nos seguintes pontos:
 
-* **Defina seus casos de uso primeiro** — Identifique quais cenários de clientes você abordará e priorizará. Isso orienta todas as decisões de configuração, desde a [gestão de dados](../data/gs-data.md) até a [configuração de canal](../configuration/get-started-configuration.md).
-* **Envolva todas as equipes que afetam a experiência do cliente** — Uma implementação do Journey Optimizer normalmente abrange marketing, TI, dados e operações. O alinhamento antecipado entre equipes impede o retrabalho.
-* **Estabelecer um identificador de cliente compartilhado** — Concorde com um identificador comum (como uma ID de CRM ou endereço de email) que existe em todas as suas fontes de dados. Esta é a base de [perfis unificados de clientes](../audience/get-started-profiles.md).
-* **Verificar conformidade com a privacidade de dados** — Verifique se todas as fontes de dados que você planeja conectar estão em conformidade com as [regras de privacidade](../privacy/get-started-privacy.md) aplicáveis antes da assimilação.
-* **Planejar testes antes da ativação** — Valide se os [acionadores de eventos, as condições de jornada e as ações de canal](../building-journeys/journey-gs.md) se comportam conforme esperado em uma sandbox de desenvolvimento ou de preparo.
-* **Preparar a biblioteca de ativos e conteúdo da marca** — Identifique os ativos digitais, os modelos e as diretrizes da marca que sua equipe usará em jornadas e campanhas. Carregá-los na [biblioteca de ativos integrada](../integrations/assets.md) da Journey Optimizer antes do lançamento acelera a criação de mensagens e garante a consistência da marca desde o primeiro dia.
+* **Definir os casos de uso primeiro**: identifique quais cenários de clientes você vai abordar e priorizar. Isso orienta todas as decisões de configuração, desde o [gerenciamento de dados](../data/gs-data.md) até a [configuração de canal](../configuration/get-started-configuration.md).
+* **Envolver todas as equipes que afetam a experiência do cliente**: uma implementação do Journey Optimizer normalmente abrange as equipes de marketing, TI, dados e operações. O alinhamento antecipado entre equipes evita o retrabalho.
+* **Estabelecer um identificador de cliente compartilhado** concorde com um identificador comum (como uma ID de CRM ou endereço de email) que existe em todas as suas fontes de dados. Esta é a base de [perfis unificados de clientes](../audience/get-started-profiles.md).
+* **Verificar conformidade com a privacidade de dados**: verifique se todas as fontes de dados que você planeja conectar estão em conformidade com os [regulamentos de privacidade](../privacy/get-started-privacy.md) aplicáveis antes da ingestão.
+* **Planejar testes antes da ativação**: valide se os [acionadores de eventos, as condições de jornada e as ações de canal](../building-journeys/journey-gs.md) se comportam conforme esperado em uma sandbox de desenvolvimento ou de preparo.
+* **Preparar a biblioteca de ativos e conteúdo da marca**: identifique os ativos digitais, os modelos e as diretrizes da marca que sua equipe usa em jornadas e campanhas. Carregá-los na [biblioteca de ativos integrada](../integrations/assets.md) do Journey Optimizer antes do lançamento acelera a criação de mensagens e garante a consistência da marca desde o primeiro dia.
 
 ## Guias de início rápido baseados em função
 
@@ -76,7 +115,7 @@ Uma implementação bem-sucedida do Journey Optimizer normalmente segue essa seq
    O admin estabelece a base configurando sandboxes, definindo controles de acesso e preparando as configurações de canal. Isso deve acontecer primeiro para permitir que outras equipes trabalhem.
    * Configure sandboxes de desenvolvimento, preparo e produção
    * Configure funções, permissões e o controle de acesso no nível do objeto (OLAC)
-   * Definir as configurações de canal (email, SMS, push, push da Web, no aplicativo, Web, correspondência direta, cartões de conteúdo)
+   * Defina as configurações de canal (email, SMS, push, web push, in-app, web, correspondência direta, cartões de conteúdo)
    * Delegue subdomínios e configure pools de IP
    * Configure listas de supressão e políticas de consentimento
 
@@ -118,18 +157,18 @@ Como Profissional de marketing ou Profissional de negócios, você cria jornadas
 
 **Principais recursos que você usará:**
 
-* **Journey Orchestration**: crie um engajamento do cliente individualizado em tempo real, no qual cada pessoa se move no seu próprio ritmo e acionado por comportamento ou eventos entre canais. Use a atividade de ação unificada para todas as ações de canal, a atividade de decisão de conteúdo para integrar ofertas em jornadas e o Journey Agent para criar jornadas a partir de prompts de linguagem natural
-* **Orquestração de campanhas**: projete e automatize em grande escala campanhas em lote complexas e com várias etapas com uma tela visual. Perfeito para campanhas iniciadas pela marca, como promoções sazonais, lançamentos de produtos e comunicações baseadas em conta. Aproveite a segmentação de várias entidades para criar públicos-alvo precisos conectando dados do cliente a entidades relacionadas (contas, compras, reservas). Usar envio de onda para entregar mensagens em lotes controlados
+* **Journey Orchestration**: crie um engajamento do cliente individualizado em tempo real, no qual cada pessoa avança no seu próprio ritmo, e que é acionado por comportamento ou eventos de canais. Use a atividade de ação unificada para todas as ações de canal, a atividade de decisão de conteúdo para integrar ofertas em jornadas e o Journey Agent para criar jornadas a partir de prompts de linguagem natural
+* **Orquestração de campanhas**: projete e automatize em grande escala campanhas em lote complexas e com várias etapas com uma tela visual. Perfeito para campanhas iniciadas pela marca, como promoções sazonais, lançamentos de produtos e comunicações baseadas em conta. Aproveite a segmentação de várias entidades para criar públicos-alvo precisos conectando os dados do cliente a entidades relacionadas (contas, compras, reservas). Usar o envio por ondas para entregar mensagens em lotes controlados
 * **Designer de mensagens moderno**: crie e personalize mensagens de email e dispositivos móveis com uma interface de arrastar e soltar. Edite modelos prontos para uso para acelerar o tempo de lançamento no mercado
-* **Gerenciamento de decisão**: crie e gerencie ofertas, regras de elegibilidade e outros componentes em uma biblioteca centralizada que possa ser incorporada a emails e pontos de contato do cliente. Usar o Decisioning para personalização por push e SMS
+* **Gestão de decisões**: crie e gerencie ofertas, regras de elegibilidade e outros componentes em uma biblioteca centralizada que possa ser incorporada a emails e pontos de contato do cliente. Usar a decisão para personalização por push e SMS
 * **Gerenciamento de ativos**: acesse o Adobe Experience Manager Assets Essentials totalmente incorporado ao Journey Optimizer para um acesso simplificado aos ativos e à entrega
 * **Definição de público-alvo**: crie públicos-alvo sob demanda com refinamento instantâneo usando consultas relacionais, com visibilidade de pré-envio para contagens precisas de público-alvo
 * **Serviços de IA e aprendizado de máquina**: aproveite a otimização de tempo de envio e as pontuações de engajamento preditivo para direcionar clientes de alto valor e minimizar o risco de churn
-* **Controle de Entrega**: use o horário silencioso (exclusões com base no tempo) e o gerenciamento de conflitos para respeitar as preferências do cliente e evitar comunicação excessiva
+* **Controle de entrega**: use o horário de silêncio (exclusões com base no tempo) e a gestão de conflitos para respeitar as preferências do cliente e evitar comunicação excessiva
 
-**Comece com:** use modelos de casos de uso e assistentes para criar e implantar facilmente novas jornadas de clientes. Use o Journey Agent para criar jornadas a partir de prompts de idioma natural.
+**Começar com:** use modelos de casos de uso e assistentes para criar e implantar facilmente novas jornadas de clientes. Use o Journey Agent para criar jornadas a partir de prompts de linguagem natural.
 
-[Introdução para Profissionais de marketing →](path/marketer.md)
+[Introdução para profissionais de marketing →](path/marketer.md)
 
 ### Para engenheiros de dados {#for-data-engineers}
 
@@ -145,7 +184,7 @@ Como Arquiteto(a) ou Engenheiro(a) de dados, você configura e mantém os dados 
 * **Gerenciamento de perfil**: habilite conjuntos de dados no Perfil do cliente em tempo real para viabilizar experiências personalizadas
 * **Qualidade dos dados**: monitore a ingestão de dados e garanta o fluxo adequado de todos eles para o Journey Optimizer
 
-**Comece com:** Revise a visão geral de [Introdução ao gerenciamento de dados](../data/gs-data.md) para entender esquemas, conjuntos de dados, identidades e a lista de verificação de configuração de dados completa. Em seguida, modele seu primeiro esquema de perfil de cliente e configure um conector de origem para começar a assimilar dados.
+**Começar com:** revise a visão geral [Introdução à gestão de dados](../data/gs-data.md) para entender esquemas, conjuntos de dados, identidades e a lista de verificação completa de configuração de dados. Em seguida, modele o primeiro esquema de perfil de cliente e configure um conector de origem para começar a assimilar dados.
 
 [Introdução para Engenheiros de dados →](path/data-engineer.md)
 
@@ -159,9 +198,9 @@ Como admin, você configura o ambiente do Journey Optimizer para permitir que su
 * **Gerenciamento de usuários**: configure grupos de usuários e permissões para controlar o acesso a diferentes funcionalidades
 * **Configuração de canal**: configure canais de entrega e predefinições de mensagem para garantir uma identidade visual consistente nas mensagens e nos ativos entregues por meio do Journey Optimizer
 * **Segurança e governança**: aplique o controle de acesso no nível do objeto (OLAC), configure políticas de consentimento e implemente políticas de governança de dados
-* **Capacidade de entrega**: delegar subdomínios, migrar subdomínios para delegação personalizada quando necessário, criar pools de IP e gerenciar listas de supressão e listas de permissões
+* **Capacidade de entrega**: delegue subdomínios, migre subdomínios para delegação personalizada quando necessário, crie pools de IP e gerencie listas de supressão e listas de permissões
 * **Configuração da jornada**: defina os elementos e as configurações da jornada para as equipes
-* **Configuração do canal**: configurar notificações por push da Web, correspondência direta e exportação de mensagens (email/SMS) quando necessário
+* **Configuração de canais**: configure notificações por push da Web, correspondência direta e exportação de mensagens (email/SMS) quando necessário
 
 **Comece com:** configure sandboxes e permissões de usuário e, em seguida, defina as primeiras configurações de canal e predefinições de mensagem.
 
@@ -243,7 +282,7 @@ Para lições e atualizações mais detalhadas, confira os seguintes recursos:
 >[!TAB Aprendizagem e documentação]
 
 * [Vídeos tutoriais](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR){target="_blank"} - Tutoriais em vídeo passo a passo para todas as funções
-* [Introdução ao gerenciamento de dados](../data/gs-data.md) - Esquemas, conjuntos de dados, identidades e a lista de verificação de preparação de dados do Journey Optimizer
+* [Introdução à gestão de dados](../data/gs-data.md): esquemas, conjuntos de dados, identidades e a lista de verificação de preparação de dados do Journey Optimizer
 * [Biblioteca de casos de uso de jornadas](../building-journeys/jo-use-cases.md) - Exemplos práticos e padrões de implementação
 * [IA e recursos inteligentes](ai-features.md) - Saiba mais sobre o Assistente de IA, a otimização de tempo de envio e a geração de conteúdo
 * [Guia da Interface](user-interface.md) - Navegue pelo Journey Optimizer com eficiência

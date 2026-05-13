@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 95%
+source-wordcount: '545'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Todas essas ações podem ser realizadas com o botão **[!UICONTROL Simular cont
 
 >[!IMPORTANT]
 >
->Se você usa **[!UICONTROL Simular Conteúdo]** de uma atividade de canal de **campanha orquestrada**, consulte [Verificar e testar seu conteúdo](../orchestrated/activities/channels.md#simulate-content-test-profiles) para obter mais informações e anotações importantes.
+>Se você usa **[!UICONTROL Simular conteúdo]** de uma atividade de canal de **Campanha orquestrada**, consulte [Verificar e testar o conteúdo](../orchestrated/activities/channels.md#simulate-content-test-profiles) para obter mais informações e anotações importantes.
 
 ## Testar usando dados de perfis de teste ou dados de exemplo. {#methods}
 
@@ -47,8 +47,8 @@ O Journey Optimizer fornece duas experiências para testar o conteúdo:
   ➡️ [Selecionar perfis de teste](test-profiles.md)
 ➡️ [Visualizar usando perfis de teste](preview.md)
 ➡️ [Enviar provas de email](proofs.md)
-➡️ [Verificar a renderização de email](rendering.md)
-➡️ [Visualizar e revisar seu email (vídeo)](#video-preview)
+➡️ [Verificar renderização de email](rendering.md)
+➡️ [Visualizar e revisar email (vídeo)](#video-preview)
 
 * **Testar variações de conteúdo usando dados de exemplo**
 

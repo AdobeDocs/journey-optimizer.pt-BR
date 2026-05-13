@@ -8,10 +8,30 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/aZO-1xrS-34tIqadKDzZQBr-1x3W3tKgkQAM7q3FhLM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 84%
+source-wordcount: 1291
+ht-degree: 99%
 
 ---
 
@@ -33,17 +53,17 @@ Embora o **[!DNL Journey Optimizer]** forneça maneiras de gerenciar a opção d
 
 ### Verificar status de recusa por push {#push-opt-out-status}
 
-A recusa por push para aplicativos móveis é tratada no nível do dispositivo: quando um usuário desativa notificações no dispositivo, o token de push é removido do perfil. A **presença de um token de push** em um perfil é, portanto, o indicador de consentimento de push implícito.
+A recusa de notificações por push em aplicativos móveis é tratada no nível do dispositivo: quando um usuário desativa notificações no dispositivo, o token de push é removido do perfil. A **presença de um token de push** em um perfil é, portanto, o indicador de consentimento de push implícito.
 
-Para verificar o status de consentimento por push de um perfil no Adobe Experience Platform:
+Para verificar o status de consentimento por push de um perfil na Adobe Experience Platform:
 
-1. Abra o perfil na seção **[!UICONTROL Perfis]** do Adobe Experience Platform.
-1. Vá para a guia **[!UICONTROL Atributos]** e procure o grupo de campos **[!UICONTROL Detalhes da Notificação por Push]**.
-1. Se um token de push estiver presente, o perfil consentiu implicitamente em receber notificações por push. Se nenhum token for encontrado, o usuário optou por não participar no nível do dispositivo.
+1. Abra o perfil na seção **[!UICONTROL Perfis]** da Adobe Experience Platform.
+1. Acesse a guia **[!UICONTROL Atributos]** e procure o grupo de campos **[!UICONTROL Detalhes da notificação por push]**.
+1. Se um token de push estiver presente, o perfil consentiu implicitamente em receber notificações por push. Se nenhum token for encontrado, o usuário recusou o token no nível do dispositivo.
 
 >[!NOTE]
 >
->Para casos de uso de conformidade que exigem rastreamento explícito de consentimento por push, use o atributo **`consents.marketing.push.val`** do [grupo de campos Consentimentos e Preferências](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target="_blank"}. Um valor de `y` indica aceitação explícita; `n` indica recusa explícita.
+>Em casos de uso de conformidade que exigem rastreamento explícito de consentimento por push, use o atributo **`consents.marketing.push.val`** do [grupo de campos Consentimentos e Preferências](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target="_blank"}. Um valor de `y` indica aceitação explícita; `n` indica recusa explícita.
 
 Saiba como gerenciar a opção de não participação em emails e mensagens SMS do Journey Optimizer nestas seções:
 
@@ -82,7 +102,7 @@ Ao usar ofertas, as preferências de personalização não são implementadas au
 >
 >Os escopos de decisão usados em canais de criação do [!DNL Journey Optimizer] atendem a esse requisito da jornada ou campanha a qual pertencem.
 
-1. Crie um [público-alvo do Adobe Experience Platform](../audience/about-audiences.md) usando o [Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR){target="_blank"} e use um atributo de perfil como **[!UICONTROL Personalizar Conteúdo = Sim (aceitar)]** para direcionar usuários que consentiram com a personalização.
+1. Crie um [público-alvo da Adobe Experience Platform](../audience/about-audiences.md) usando o [Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR){target="_blank"} e use um atributo de perfil como **[!UICONTROL Personalizar conteúdo = Sim (aceitar)]** para direcionar usuários que consentiram com a personalização.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -134,7 +154,7 @@ Para impor manualmente o consentimento da personalização em campanhas, siga um
 
 É possível usar o construtor de regras de segmentos para criar um público-alvo contendo perfis de recusa.
 
-1. Crie um [público-alvo do Adobe Experience Platform](../audience/about-audiences.md) usando o [Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR){target="_blank"}.
+1. Crie um [público-alvo da Adobe Experience Platform](../audience/about-audiences.md) usando o [Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 

@@ -7,14 +7,41 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/D--D1ynxQx-Q9eSzjU-fwG0Hc3emaCfa2gIwizpHsQU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: c343082f-e963-4f57-a96b-b64d27f8118e
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: d712382d-29ef-487a-93a7-cbebdd2ef24a
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 89%
+source-wordcount: 1076
+ht-degree: 100%
 
 ---
 
-# Introdução para administradores do sistema {#get-started-sys-admins}
+# Introdução para administradores de sistema {#get-started-sys-admins}
 
 Como **admin de sistema**, você configura o ambiente do Journey Optimizer e gerencia o acesso para permitir que suas equipes trabalhem de maneira eficiente e segura. Execute as etapas de configuração essenciais para que [engenheiros(as) de dados](data-engineer.md), [desenvolvedores(as)](developer.md) e [profissionais de marketing](marketer.md) possam começar a trabalhar com o [!DNL Adobe Journey Optimizer].
 
@@ -50,11 +77,11 @@ Para permitir que [profissionais de marketing](marketer.md) criem e enviem mensa
 
 Siga estas etapas:
 
-1. **Definir configurações de canal**. Defina todos os parâmetros técnicos necessários para email, SMS, notificações por push, push na Web, correspondência direta e outros canais:
+1. **Definir configurações de canal**. Defina todos os parâmetros técnicos necessários para email, SMS, notificações por push, push na web, correspondência direta e outros canais:
 
    * Defina as **configurações de notificação por push** no [!DNL Adobe Experience Platform] e na Coleção de dados da Adobe Experience Platform. [Saiba mais](../../push/push-gs.md)
 
-   * Configure as **notificações por push da Web** para entregar notificações a navegadores móveis e para desktop. [Saiba mais](../../push/push-configuration-web.md)
+   * Configure as **notificações por push da Web** para enviar notificações a navegadores em dispositivos móveis e desktop. [Saiba mais](../../push/push-configuration-web.md)
 
    * Crie **configurações de canal** para definir todos os parâmetros técnicos necessários para email, SMS, push, no aplicativo, web e outros canais. [Saiba mais](../../configuration/channel-surfaces.md)
 
@@ -92,7 +119,7 @@ Siga estas etapas:
 
 * **Planos de aquecimento de IP**: aumente gradualmente os volumes de envio de email para construir a reputação do remetente junto aos provedores de email. [Saiba mais](../../configuration/ip-warmup-gs.md)
 
-* **Horas de silêncio**: configure conjuntos de regras para exclusões com base no tempo quando as mensagens não devem ser enviadas durante períodos específicos. [Saiba mais](../../conflict-prioritization/quiet-hours.md)
+* **Horário de silêncio**: configure conjuntos de regras para exclusões baseadas em tempo, quando as mensagens não devem ser enviadas durante períodos específicos. [Saiba mais](../../conflict-prioritization/quiet-hours.md)
 
 ## Colaborar entre funções
 
@@ -102,7 +129,7 @@ O trabalho administrativo permite que todas as equipes tenham êxito:
 
 >[!TAB Engenheiros de dados de suporte]
 
-Colabore com [engenheiros de dados](data-engineer.md) no gerenciamento e acesso a dados. Revise a visão geral de [Introdução ao gerenciamento de dados](../../data/gs-data.md) para entender os esquemas, conjuntos de dados e fontes de dados que seus engenheiros de dados precisam configurar.
+Colabore com [engenheiros de dados](data-engineer.md) no gerenciamento e acesso aos dados. Consulte a seção de visão geral de [Introdução ao gerenciamento de dados](../../data/gs-data.md) para entender os esquemas, os conjuntos de dados e as fontes de dados que os engenheiros de dados precisam configurar.
 
 * Conceder permissões para gerenciamento de dados e criação de esquema
 * Aprovar o acesso à sandbox para desenvolvimento e testes
