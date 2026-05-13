@@ -8,10 +8,17 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1054bbf73dc7e37efb07cc1336c11107da27345f
+TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c6e980f5-2d4f-494f-beef-186b9ecf1513id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5fe9ec6-65e8-420b-8dfd-f088fffaf90cid: f550d0f2-143d-4093-9463-467fbec95fccid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 75%
+source-wordcount: 1524
+ht-degree: 90%
 
 ---
 
@@ -21,7 +28,7 @@ Para acessar o Adobe Journey Optimizer, faça logon na [Adobe Experience Cloud](
 
 >[!NOTE]
 >
->* Os componentes e recursos disponíveis no ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+>* Os componentes e recursos disponíveis no ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 >* Esta documentação é atualizada com frequência. Algumas capturas de tela podem ser um pouco diferentes da interface.
 
 ## Tour rápido {#quick-tour}
@@ -35,7 +42,7 @@ A interface do Journey Optimizer consiste em quatro áreas principais:
 3. **Página inicial** - Acesso rápido a itens recentes e recursos úteis
 4. **Espaço de trabalho principal** - Onde você cria e gerencia o conteúdo
 
-**Dica:** novos usuários podem começar na página **Página inicial** para acessar itens e casos de uso recentes ou usar o ícone **Ajuda** na barra superior para orientação contextual.
+**Dica:** novos usuários podem começar na **Página inicial** para acessar itens e casos de uso recentes ou usar o ícone **Ajuda** na barra superior para orientação contextual.
 
 ## Recursos da barra superior {#top-bar}
 
@@ -52,7 +59,7 @@ Clique no ícone de **Ajuda** para:
 * Entrar em contato com o suporte da Adobe
 * Compartilhar feedback
 
-A ajuda contextual exibe orientações relevantes para a tela que você está visualizando e vincula diretamente à documentação correspondente, para que você possa obter as informações certas sem sair do seu fluxo de trabalho.
+A ajuda contextual exibe orientações relevantes para a tela que você está visualizando e vincula diretamente à documentação correspondente, para que você possa obter as informações certas sem sair do fluxo de trabalho.
 
 ![Exemplo de ajuda contextual](assets/do-not-localize/Context-help.gif)
 
@@ -60,11 +67,11 @@ A ajuda contextual exibe orientações relevantes para a tela que você está vi
 
 Ao entrar em contato com o suporte da Adobe, inclua o seguinte para ajudar a agilizar a análise e a resolução da causa principal:
 
-* **Detalhes do ambiente** - Nome da sandbox, ID da organização e área de produto (por exemplo, Jornadas, Campanhas, Decisão)
-* **Nível de impacto** - Gravidade do problema (por exemplo, produção bloqueada, funcionalidade limitada, superficial)
-* **Etapas de replicação** - Instruções claras, passo a passo, para reproduzir o problema
-* **Logs ou capturas de tela** - Mensagens de erro relevantes, IDs de solicitação ou capturas de tela que ilustram o problema
-* **IDs relevantes** - ID de Jornada, ID de campanha, ID de público-alvo ou outros identificadores de objeto relacionados ao problema
+* **Detalhes do ambiente**: nome da sandbox, ID da organização e área de produto (por exemplo, Jornadas, Campanhas, Decisão)
+* **Nível de impacto**: gravidade do problema (por exemplo, bloqueio da produção, funcionalidade limitada, superficial)
+* **Etapas de replicação**: instruções claras, passo a passo, para reproduzir o problema
+* **Logs ou capturas de tela**: mensagens de erro relevantes, IDs de solicitação ou capturas de tela que ilustram o problema
+* **IDs relevantes**: ID de jornada, ID de campanha, ID de público-alvo ou outros identificadores de objeto relacionados ao problema
 
 ### Notificações {#in-product-uc}
 
@@ -103,7 +110,7 @@ A página inicial fornece:
 * **Casos de uso** - Cenários pré-criados para uma introdução rápida (criar perfis de teste, enviar mensagens de aniversário, etc.)
 * **Recursos** - Links para documentação, tutoriais e suporte
 
-### Casos de uso e workflows de início rápido {#use-cases}
+### Casos de uso e fluxos de trabalho de início rápido {#use-cases}
 
 Os fluxos de trabalho de início rápido ajudam a realizar tarefas comuns:
 
@@ -122,10 +129,10 @@ A navegação à esquerda organiza os recursos do Journey Optimizer em categoria
 |---------|---------|
 | Gerenciamento de jornada | Campanhas, jornadas, relatórios |
 | Gestão de decisões | Ofertas e personalização |
-| Gerenciamento de conteúdo | Assets, modelos, fragmentos, landing pages |
+| Gerenciamento de conteúdo | Ativos, modelos, fragmentos, páginas de destino |
 | Gerenciamento de dados | Esquemas, conjuntos de dados, consultas |
 | Conexões | Origens e destinos |
-| Cliente | Públicos, perfis, identidades |
+| Cliente | Públicos-alvo, perfis, identidades |
 | Privacidade | Políticas, solicitações, auditoria |
 | Administração | Configurações, canais, sandboxes |
 

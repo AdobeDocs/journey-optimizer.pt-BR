@@ -9,10 +9,16 @@ role: Admin
 level: Experienced
 keywords: definições, email, configuração
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+TQID: https://experienceleague.adobe.com/WyaT1gRFAeGUCWn74PC3qyRpLn3hHMOniVbzifStsxA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1736'
-ht-degree: 97%
+source-wordcount: 1884
+ht-degree: 100%
 
 ---
 
@@ -109,11 +115,11 @@ Atualmente, o [!DNL Journey Optimizer] não anexa uma tag específica aos evento
 >title="Insira seu próprio URL de cancelamento de assinatura com um clique"
 >abstract="O **URL de cancelamento de assinataura com um clique** deve usar o método de solicitação POST."
 
-Se estiver gerenciando dados de consentimento fora da Adobe, selecione a opção **[!UICONTROL Gerenciado pelo cliente]** para inserir um endereço de email de cancelamento de assinatura personalizado e seu próprio URL de cancelamento de assinatura com um clique. 
+Se estiver gerenciando dados de consentimento fora da Adobe, selecione a opção **[!UICONTROL Gerenciado pelo cliente]** para inserir um endereço de email de cancelamento de assinatura personalizado e seu próprio URL de cancelamento de assinatura com um clique.
 
 ![](assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-O **[!UICONTROL URL de cancelamento de assinataura com um clique]** deve ser um URL POST.
+O **[!UICONTROL URL de cancelamento de assinatura com um clique]** deve ser um URL POST.
 
 >[!WARNING]
 >
@@ -129,7 +135,7 @@ Para personalizar ainda mais os pontos de acesso <!-- (**[!UICONTROL Mailto (uns
 >
 >Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 >
->Para a opção **[!UICONTROL Mailto (cancelar assinatura)]**, você precisa usar os novos parâmetros de consulta descritos na seção **Mailto (cancelar assinatura) com atributos personalizados (Disponibilidade limitada)**&#x200B;[abaixo](#configure-decrypt-api).
+>Para a opção **[!UICONTROL Mailto (cancelar assinatura)]**, você precisa usar os novos parâmetros de consulta descritos na seção **Mailto (cancelar assinatura) com atributos personalizados (Disponibilidade limitada)**[abaixo](#configure-decrypt-api).
 
 Para definir atributos personalizados de pontos de acesso, use a seção **[!UICONTROL parâmetros de rastreamento de URL]**. Todos os parâmetros de rastreamento de URL definidos na seção correspondente serão anexados ao final dos pontos de acesso personalizados em adição aos parâmetros padrão. [Saiba como definir o rastreamento personalizado de URL](url-tracking.md)
 
@@ -265,7 +271,7 @@ Parâmetros de consulta:
 
    * Valor analisado: *v1.xyz*
 
-Exemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Exemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

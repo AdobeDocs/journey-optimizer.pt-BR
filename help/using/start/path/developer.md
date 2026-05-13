@@ -5,10 +5,16 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2079'
-ht-degree: 90%
+source-wordcount: 2079
+ht-degree: 97%
 
 ---
 
@@ -85,7 +91,7 @@ Para implementações baseadas na web, o SDK da web é o principal ponto de inte
 
 1. **Configurar sequências de dados**: crie e configure uma sequência de dados na [!DNL Adobe Experience Platform Data Collection] com o Journey Optimizer habilitado. Saiba mais na [documentação das sequências de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=pt-BR){target="_blank"}.
 
-1. **Habilitar notificações por push da Web** (opcional): as notificações por push da Web agora estão disponíveis. Configure a [propriedade pushNotifications](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} na configuração do Web SDK e use o [comando sendPushSubscription](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} para registrar assinaturas push. [Saiba mais sobre a configuração de push da Web](../../push/push-configuration-web.md).
+1. **Habilitar notificações por push da Web** (opcional): as notificações por push da Web agora estão disponíveis. Configure a [propriedade pushNotifications](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} na configuração do SDK da Web e use o [comando sendPushSubscription](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} para registrar assinaturas por push. [Saiba mais sobre a configuração de push da Web](../../push/push-configuration-web.md).
 
 ### Implementar experiências baseadas em código (SDK da web)
 
@@ -163,11 +169,11 @@ As ações personalizadas permitem que as jornadas chamem as APIs. Como desenvol
 
 1. **Entenda os recursos das ações personalizadas**: as ações personalizadas podem se conectar a sistemas de terceiros, como Epsilon, Slack, Firebase ou os seus próprios serviços. Saiba mais sobre [ações personalizadas](../../action/action.md).
 
-1. **Trabalhar com configurações de ação**: o [Admin](administrator.md) ou o [Engenheiro de dados](data-engineer.md) configurará a ação personalizada no Journey Optimizer, definindo a URL do ponto de acesso da API, o método de autenticação e os parâmetros. Você fornecerá a eles a especificação da API. Saiba mais sobre a [configuração da ação personalizada](../../action/about-custom-action-configuration.md). Você pode definir uma **carga de resposta a erros** opcional para uma lógica de fallback mais avançada em ramificações de tempo limite/erro.
+1. **Trabalhar com configurações de ação**: o [Admin](administrator.md) ou o [Engenheiro de dados](data-engineer.md) configurará a ação personalizada no Journey Optimizer, definindo a URL do ponto de acesso da API, o método de autenticação e os parâmetros. Você fornecerá a eles a especificação da API. Saiba mais sobre a [configuração da ação personalizada](../../action/about-custom-action-configuration.md). Você pode definir um **conteúdo de resposta a erros** opcional para uma lógica de fallback mais avançada em ramificações de tempo limite/erro.
 
 1. **Retornar dados acionáveis**: crie a API para retornar dados que possam ser usados nas etapas seguintes da jornada. Saiba mais sobre as [respostas de ação](../../action/action-response.md).
 
-1. **Monitorar integridade da ação personalizada**: Use o painel de monitoramento da ação personalizada para rastrear chamadas, erros, taxa de transferência, tempos de resposta e tempos de espera de fila bem-sucedidos. Saiba mais sobre [relatórios de ação personalizados](../../action/reporting.md).
+1. **Monitorar a integridade da ação personalizada**: use o painel de monitoramento da ação personalizada para rastrear chamadas bem-sucedidas, erros, taxa de transferência, tempos de resposta e tempos de espera em fila. Saiba mais sobre [relatórios de ações personalizadas](../../action/reporting.md).
 
 1. **Implementar a limitação de taxa**: certifique-se de que os pontos de acesso possam lidar com o volume esperado. O Journey Optimizer aplica um limite de 5000 chamadas/segundo, mas o sistema deve ser resiliente. Saiba mais sobre [limitação e controle](../../configuration/external-systems.md).
 
@@ -187,9 +193,9 @@ O Journey Optimizer fornece APIs REST abrangentes para acesso programático:
 
 1. **APIs de Gestão de decisões**: use APIs especializadas para gerenciamento de ofertas e decisioning. Saiba mais no [Guia da API de Gestão de Decisões](../../offers/api-reference/getting-started.md).
 
-1. **APIs de migração de decisão**: migre programaticamente entidades de Gestão de decisões para o Decisioning com escopos flexíveis, validação automatizada e suporte de reversão. Saiba mais no [Guia da API de migração de decisão](../../experience-decisioning/decisioning-migration-api.md).
+1. **APIs de migração de decisão**: migre programaticamente entidades de Gestão de decisões para a Decisão com escopos flexíveis, validação automatizada e suporte de reversão. Saiba mais no [Guia da API de migração de decisão](../../experience-decisioning/decisioning-migration-api.md).
 
-1. **Webhooks de SMS**: configure webhooks de entrada para capturar mensagens de entrada e webhooks de comentários para receber confirmações de entrega e atualizações de status. [Saiba mais](../../sms/sms-webhook.md).
+1. **Webhooks de SMS**: configure webhooks de entrada para capturar mensagens de entrada e webhooks de feedback para receber confirmações de entrega e atualizações de status. [Saiba mais](../../sms/sms-webhook.md).
 
 ## Teste e depuração {#testing}
 
@@ -279,9 +285,9 @@ Colabore com os [Profissionais de marketing](marketer.md) nos requisitos e teste
 
 Pronto(a) para começar a criar? Escolha a primeira área de implementação nas seções acima:
 
-1. **Aplicativo móvel?** Comece com a [integração com o Mobile SDK](#mobile-integration)
-2. **Site?** Começar com [configuração do Web SDK](#web-implementation)
-3. **Integração de API?** Ir para [Trabalho com APIs](#apis)
-4. **Sistema personalizado?** Confira [Ações personalizadas](#custom-actions)
+1. **Aplicativo móvel?** Inicie com a [integração do SDK móvel](#mobile-integration)
+2. **Site?** Comece com a [configuração do SDK da Web](#web-implementation)
+3. **Integração da API?** Ir para a seção [Trabalho com APIs](#apis)
+4. **Sistema personalizado?** Confira as [Ações personalizadas](#custom-actions)
 
 Cada seção inclui links para a documentação técnica detalhada, amostras de código e tutoriais para orientar a implementação.

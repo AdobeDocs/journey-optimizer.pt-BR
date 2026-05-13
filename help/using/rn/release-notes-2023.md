@@ -12,7 +12,7 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
 source-wordcount: '4441'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -120,7 +120,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tr>
 <td>
 <p>Os atributos computados permitem resumir facilmente os dados do evento em atributos de perfil por meio de uma interface intuitiva para segmentação, personalização e ativação aprimoradas com base em comportamento. Com esse recurso, você pode criar atributos computados de maneira independente, gerenciá-los e usá-los na segmentação, nos destinos do Perfil do cliente em tempo real ou no Journey Optimizer.<br/><br/>
-Additionally, computed attributes simplifies segmentation and journey workflows to help you seamlessly deliver relevant experiences. Saiba mais na <a href="../audience/computed-attributes.md">documentação detalhada</a>.</p>
+Além disso, os atributos computados simplificam os fluxos de trabalho de jornada e segmentação, ajudando a fornecer experiências relevantes perfeitamente. Saiba mais na <a href="../audience/computed-attributes.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -343,7 +343,7 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) para criar novos públicos-alvo. Os públicos-alvo recém-criados são salvos na Adobe Experience Platform junto com os públicos-alvo existentes e podem ser aproveitados nas campanhas do Journey Optimizer para direcionar clientes.</p>
+<p>Agora é possível criar fluxos de trabalho de composição para combinar públicos-alvo já existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, enriquecimento...) para criar novos públicos-alvo. Os públicos-alvo recém-criados são salvos na Adobe Experience Platform junto com os públicos-alvo existentes e podem ser aproveitados nas campanhas do Journey Optimizer para direcionar clientes.</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Para obter mais informações, consulte a <a href="../audience/get-started-audience-orchestration.md">documentação detalhada</a>.</p>
 <p>A composição de público-alvo vem totalmente integrada ao novo menu “Públicos-alvo” da Adobe Experience Platform, que serve como um portal centralizado para públicos-alvo. Agora é possível usar uma página de navegação que inclui um novo painel com tendências de segmento e sobreposições para encontrar novos insights e explorar ferramentas organizacionais para organização em pastas e marcação. Incorporados nessa experiência estão controles de governança para rotulagem de público-alvo padronizada, bem como recursos de gerenciamento do ciclo de vida do público-alvo para gerenciar fluxos de trabalho de ativação. Com essa nova experiência de gerenciamento, agora é possível gerenciar públicos-alvo de maneira fácil e segura em um único local. Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR" target="_blank">Documentação da Adobe Experience Platform</a>.</p></p>
@@ -397,7 +397,7 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>Além de campanhas e jornadas, agora é possível atribuir Tags unificadas da Adobe Experience Platform às suas páginas de destino, modelos de conteúdo, fragmentos e listas de assinatura. Isso permite classificá-los facilmente e melhorar a pesquisa e a navegação em todas as listas. </p>
+<p>Além de campanhas e jornadas, agora é possível atribuir tags unificadas da Adobe Experience Platform às suas páginas de destino, modelos de conteúdo, fragmentos e listas de assinatura. Isso permite classificá-los facilmente e melhorar a pesquisa e a navegação em todas as listas. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Para obter mais informações, consulte a <a href="../start/search-filter-categorize.md#tags">documentação detalhada</a>.</p>
 </td>
@@ -769,7 +769,7 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>Com o rastreamento de cliques de SMS, você pode monitorar o desempenho de seus URLs encurtados, identificar quem os clicou e usar esses dados para redirecionar esses clientes com campanhas subsequentes.</p>
+<p>Com o rastreamento de cliques de SMS, você pode monitorar o desempenho de seus URLs encurtados, identificar quem clicou neles e usar esses dados para redirecionar esses clientes com campanhas subsequentes.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
 <p>Para obter mais informações, consulte a <a href="../sms/create-sms.md#sms-content">documentação detalhada</a>.</p>
 </td>

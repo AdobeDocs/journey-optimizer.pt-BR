@@ -9,10 +9,16 @@ role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 21cb23fd4e7f69c2a8180150c5a7a3e52975fd9e
+TQID: https://experienceleague.adobe.com/wZkMADPKflUPDtBaSa0eEdHESX-0X0MQCqmk98fZn9k
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 83%
+source-wordcount: 858
+ht-degree: 100%
 
 ---
 
@@ -29,7 +35,7 @@ ht-degree: 83%
 >abstract="O Adobe Experience Platform Assurance está incorporado a este fluxo de trabalho para ajudar você a inspecionar a implementação do SDK, bem como simular e validar eventos de aplicativo."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/home" text="Visão geral do Adobe Experience Platform Assurance"
 
-A **Configuração de Canal Guiada** é um fluxo de trabalho simplificado no Adobe Journey Optimizer que ajuda você a configurar rapidamente canais de marketing para dispositivos móveis e Web. Ela fica em **Administração** > **Canais** > **Configuração de canal** e automatiza a criação de recursos essenciais, como propriedades de marcas, fluxos de dados e configurações de canal, na Adobe Experience Platform, no Journey Optimizer e na Coleção de Dados. Em vez de configurar manualmente cada componente, siga um fluxo guiado que configura tudo para você, para que sua equipe de marketing possa começar a criar mensagens no aplicativo, notificações por push e experiências da Web sem atraso.
+A **configuração de canal guiada** é um fluxo de trabalho simplificado no Adobe Journey Optimizer que ajuda você a configurar rapidamente canais de marketing para dispositivos móveis e web. Ela fica em **Administração** > **Canais** > **Configuração de canais** e automatiza a criação de recursos essenciais, como propriedades de tag, sequências de dados e configurações de canal, na Adobe Experience Platform, no Journey Optimizer e na Coleção de dados. Em vez de configurar manualmente cada componente, siga um fluxo guiado que configura tudo para você, para que sua equipe de marketing possa começar a criar mensagens no aplicativo, notificações por push e experiências da Web sem atraso.
 
 A Configuração de canal guiada é compatível com as seguintes plataformas e canais.
 
@@ -37,21 +43,21 @@ A Configuração de canal guiada é compatível com as seguintes plataformas e c
 
 >[!TAB iOS]
 
-**SDK:** Swift by Apple
+**SDK:** Swift da Apple
 
-**Canais:** Mensagens Por Push Móveis No Aplicativo
+**Canais:** mensagens no aplicativo móvel, notificações push para dispositivos móveis
 
 >[!TAB Android]
 
 **SDK:** Kotlin
 
-**Canais:** Mensagens Por Push Móveis No Aplicativo
+**Canais:** mensagens no aplicativo móvel, notificações push para dispositivos móveis
 
 >[!TAB Web]
 
 **SDK:** Javascript
 
-**Canais:** Web Basic
+**Canais:** web básico
 
 >[!ENDTABS]
 
@@ -192,7 +198,7 @@ Para a **configuração inicial**, veja abaixo uma lista abrangente de todos os 
   </tr>
   <tr>
   <td>
-  <p>Datastreams</p>
+  <p>Sequências de dados</p>
   </td>
   <td>
   <p>Sequência de dados com serviços</p>
@@ -287,7 +293,7 @@ Para a **configuração inicial**, veja abaixo uma lista abrangente de todos os 
   </tr>
   <tr>
   <td>
-  <p>Datastreams</p>
+  <p>Sequências de dados</p>
   </td>
   <td>
   <p>Sequência de dados com serviços</p>
@@ -382,7 +388,7 @@ Para a **configuração inicial**, veja abaixo uma lista abrangente de todos os 
   </tr>
   <tr>
   <td>
-  <p>Datastreams</p>
+  <p>Sequências de dados</p>
   </td>
   <td>
   <p>Sequência de dados com serviços</p>

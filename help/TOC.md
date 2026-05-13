@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d28376a9c7296dbb4e508dbb87b53658692e1e89
 workflow-type: tm+mt
 source-wordcount: '3322'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 + [Documentação do Journey Optimizer](ajo-home.md)
 + Novidades {#whats-new}
    + [Ciclo da lançamento](using/rn/releases.md)
-   + {hide-from-toc}[Notas de versão anteriores](using/rn/e-release-notes.md)
+   + {hide-from-toc}[Notas de versão antecipadas](using/rn/e-release-notes.md)
    + [Notas de versão mais recentes](using/rn/release-notes.md)
    + Notas de versão anteriores {#previous-rn-new}
       + {hide-from-toc}[Notas de versão anteriores](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -29,7 +29,7 @@ ht-degree: 90%
       + {hide-from-toc}[2022](using/rn/release-notes-2022.md)
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [Atualizações na documentação](using/rn/documentation-updates.md)
-   + {hide-from-toc}[Tela de jornada aprimorada](using/rn/new-canvas.md)
+   + {hide-from-toc}[Tela da jornada aprimorada](using/rn/new-canvas.md)
 + Introdução {#get-started}
    + [Introdução](/help/rp_landing_pages/get-started-landing-page.md)
    + Noções básicas {#essentials}
@@ -49,17 +49,17 @@ ht-degree: 90%
       + [Pesquise, filtre e organize](using/start/search-filter-categorize.md)
       + [Perguntas frequentes sobre solução de problemas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Acessibilidade](using/start/accessibility.md)
-      + {hide-from-toc}[Jornadas vs Campanhas](using/start/journeys-vs-campaigns.md)
+      + {hide-from-toc}[Jornadas x campanhas](using/start/journeys-vs-campaigns.md)
 + Jornadas {#orchestrate-journeys}
    + [Introdução às jornadas](using/building-journeys/journey.md)
-   + {hide-from-toc}[Guia de Introdução ao Jornada](using/building-journeys/journey-get-started.md)
-   + {hide-from-toc}[tipos de Jornada e guia de seleção](using/building-journeys/journey-types-selection.md)
+   + {hide-from-toc}[Guia de introdução a jornadas](using/building-journeys/journey-get-started.md)
+   + {hide-from-toc}[Tipos de jornada e guia de seleção](using/building-journeys/journey-types-selection.md)
    + [Perguntas frequentes do Journey Orchestration](using/building-journeys/journey-faq.md)
    + Criar uma jornada {#create-journey}
       + [Criar uma jornada](/help/rp_landing_pages/create-journey-landing-page.md)
       + [Crie a primeira jornada](using/building-journeys/journey-gs.md)
       + [Definir as propriedades da jornada](using/building-journeys/journey-properties.md)
-      + [Enviar usando ondas no jornada](using/building-journeys/send-using-waves.md)
+      + [Enviar usando ondas em jornadas](using/building-journeys/send-using-waves.md)
       + [Configurar e rastrear as métricas da jornada](using/building-journeys/success-metrics.md)
       + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
       + [Simular a jornada](using/building-journeys/simulate-journey.md)
@@ -80,7 +80,7 @@ ht-degree: 90%
       + [Encerrar sua jornada](using/building-journeys/end-journey.md)
       + [Copiar uma jornada para outra sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Integrar a serviços inteligentes](using/building-journeys/ai-services-overview.md)
-      + {hide-from-toc}[Jornada fragmentos](using/building-journeys/journey-fragments.md)
+      + {hide-from-toc}[Fragmentos de jornada](using/building-journeys/journey-fragments.md)
    + Atividades {#about-journey-building}
       + [Atividades](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [Introdução às atividades de jornada](using/building-journeys/about-journey-activities.md)
@@ -138,7 +138,7 @@ ht-degree: 90%
       + [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
       + [Usar ações personalizadas para gravar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
 + Desafios de fidelidade {#loyalty-challenges}
-   + {hide-from-toc}[Introdução aos Desafios de Fidelidade](using/loyalty-challenges/get-started.md)
+   + {hide-from-toc}[Introdução aos Desafios de fidelidade](using/loyalty-challenges/get-started.md)
    + {hide-from-toc}[Acessar e gerenciar desafios e tarefas](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[Criar desafios](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[Criar tarefas](using/loyalty-challenges/create-tasks.md)
@@ -278,7 +278,7 @@ ht-degree: 90%
       + [Criar um email](using/email/create-email.md)
       + Projetar conteúdo de email {#design-email}
          + [Projetar conteúdo de email](/help/rp_landing_pages/design-email-landing-page.md)
-         + {hide-from-toc}[Criar conteúdo da mensagem](using/start/message-content-design.md)
+         + {hide-from-toc}[Projetar conteúdo da mensagem](using/start/message-content-design.md)
          + [Introdução ao design de email](using/email/get-started-email-design.md)
          + Começar a criar conteúdo {#start-creating-content}
             + [Começar a criar conteúdo](/help/rp_landing_pages/start-creating-content-landing-page.md)
@@ -288,7 +288,7 @@ ht-degree: 90%
             + [Usar modelos de email](using/email/use-email-templates.md)
             + [Utilizar temas de email](using/email/apply-email-themes.md)
             + [Anexar arquivos PDF a emails](using/email/pdf-attachments.md)
-         + Projetar o seu conteúdo {#add-content}
+         + Projetar o conteúdo {#add-content}
             + [Projetar o seu conteúdo](/help/rp_landing_pages/add-content-landing-page.md)
             + [Usar componentes de conteúdo](using/email/content-components.md)
             + [Aproveitar fragmentos visuais](using/email/use-visual-fragments.md)
@@ -298,7 +298,7 @@ ht-degree: 90%
             + [Otimizar email para caixas de entrada de IA](using/email/llm-email-optimizer.md)
             + [Gerenciar a versão de texto](using/email/text-version-email.md)
             + [Adicionar metadados](using/email/email-metadata.md)
-            + [Editar com o editor avançado do HTML](using/email/email-expert-mode.md)
+            + [Editar com o editor avançado de HTML](using/email/email-expert-mode.md)
          + Editar estilo {#edit-style}
             + [Editar estilo](/help/rp_landing_pages/edit-style-landing-page.md)
             + [Introdução ao estilo de email](using/email/get-started-email-style.md)
@@ -404,9 +404,9 @@ ht-degree: 90%
       + [Criar cartões de conteúdo](using/content-card/create-content-card.md)
       + [Design de cartões de conteúdo](using/content-card/design-content-card.md)
    + Caixa de entrada {#inbox}
-      + [Introdução à Caixa de entrada](using/inbox/inbox-gs.md)
-      + [Configurar canal da caixa de entrada no Journey Optimizer](using/inbox/inbox-configuration.md)
-      + [Criar sua Caixa de entrada](using/inbox/inbox-create.md)
+      + [Introdução à caixa de entrada](using/inbox/inbox-gs.md)
+      + [Configure o canal Caixa de entrada no Journey Optimizer](using/inbox/inbox-configuration.md)
+      + [Criar a Caixa de entrada](using/inbox/inbox-create.md)
       + [Projetar a Caixa de entrada](using/inbox/inbox-design.md)
    + WhatsApp {#whatsapp}
       + [WhatsApp](/help/rp_landing_pages/whatsapp-landing-page.md)
@@ -423,11 +423,11 @@ ht-degree: 90%
    + Atividades ao vivo {#live-activity}
       + [Introdução às Atividades em tempo real](using/mobile-live/get-started-mobile-live.md)
       + [Criar uma Atividade em tempo real](using/mobile-live/create-mobile-live.md)
-      + [Solução de problemas de atividades em tempo real](using/mobile-live/troubleshoot-mobile-live.md)
+      + [Solução de problemas de atividades ao vivo](using/mobile-live/troubleshoot-mobile-live.md)
       + [Perguntas frequentes](using/mobile-live/mobile-live-faq.md)
-      + Configurar canal de atividade online {#configure}
+      + Configurar canal de atividade ao vivo {#configure}
          + [Configurar atividade em tempo real no Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
-         + [Configurar a integração do Live Activity SDK](using/mobile-live/mobile-live-configuration-sdk.md)
+         + [Configurar a integração do SDK de atividade ao vivo](using/mobile-live/mobile-live-configuration-sdk.md)
 + Gerenciamento de conteúdo {#content-management}
    + [Gerenciamento de conteúdo](/help/rp_landing_pages/content-management-landing-page.md)
    + Personalização {#personalization}
@@ -442,7 +442,7 @@ ht-degree: 90%
       + Lista de funções auxiliares {#functions}
          + [Lista de funções auxiliares](/help/rp_landing_pages/functions-landing-page.md)
          + [Introdução a funções auxiliares](using/personalization/functions/functions.md)
-         + {hide-from-toc}[Auxiliar de Pesquisa de Dados Externos](using/personalization/external-data-lookup.md)
+         + {hide-from-toc}[Auxiliar de pesquisa de dados externos](using/personalization/external-data-lookup.md)
          + [Funções de agregação](using/personalization/functions/aggregation.md)
          + [Funções aritméticas](using/personalization/functions/arithmetic-functions.md)
          + [Matrizes e funções de lista](using/personalization/functions/arrays-list.md)
@@ -509,8 +509,8 @@ ht-degree: 90%
          + {hide-from-toc}[Configurar o repositório para os fragmentos de conteúdo](using/integrations/aem-admin-settings.md)
          + [Trabalhar com fragmentos de conteúdo do Experience Manager](using/integrations/aem-fragments.md)
          + [Considerações e solução de problemas](using/integrations/aem-fragments-limitations.md)
-      + {hide-from-toc}[Trabalhar com o Supervisor de Conteúdo do Experience Manager](using/content-management/aem-content-advisor.md)
-      + {hide-from-toc}[Inserir timer da contagem regressiva](using/integrations/countdown.md)
+      + {hide-from-toc}[Trabalhar com o Consultor de conteúdo do Experience Manager](using/content-management/aem-content-advisor.md)
+      + {hide-from-toc}[Inserir temporizador de contagem regressiva](using/integrations/countdown.md)
       + [Trabalhar com o Dynamic Media](using/integrations/aem-dynamic.md)
       + [Trabalhar com o GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + Integrações {#integrations}
@@ -529,14 +529,14 @@ ht-degree: 90%
       + [Gerar texto com IA](using/content-management/generative-text.md)
       + [Gere imagens com IA](using/content-management/generative-image.md)
       + [Experimento de conteúdo com IA](using/content-management/generative-experimentation.md)
-      + [Assistente de IA para expressões Personalization](using/content-management/generative-personalization-expressions.md)
+      + [Assistente de IA para expressões de personalização](using/content-management/generative-personalization-expressions.md)
       + [Casos de uso do Assistente de IA](using/content-management/generative-uc.md)
       + Marcas {#brands}
          + [Marcas](/help/rp_landing_pages/brands-landing-page.md)
          + [Criar e gerenciar marcas](using/content-management/brands.md)
          + [Personalize suas marcas](using/content-management/brands-personalize.md)
-         + [Criar e gerenciar modelos geradores](using/content-management/generative-models.md)
-         + [Avaliar seu conteúdo](using/content-management/brands-score.md)
+         + [Criar e gerenciar modelos generativos](using/content-management/generative-models.md)
+         + [Avaliar o conteúdo](using/content-management/brands-score.md)
    + Conteúdo multilíngue {#content-multilingual}
       + [Conteúdo multilíngue](/help/rp_landing_pages/content-multilingual-landing-page.md)
       + [Introdução ao conteúdo multilíngue](using/content-management/multilingual-gs.md)
@@ -606,7 +606,7 @@ ht-degree: 90%
          + [Relatório de campanha por email](using/reports/campaign-global-report-cja-email.md)
          + [Relatório de campanha de experimentação](using/reports/campaign-global-report-cja-experimentation.md)
          + [Relatório de campanha no aplicativo](using/reports/campaign-global-report-cja-inapp.md)
-         + {hide-from-toc}[Relatório de campanha de atividades ao vivo](using/reports/campaign-global-report-cja-activity.md)
+         + {hide-from-toc}[Relatório da campanha de atividade ao vivo](using/reports/campaign-global-report-cja-activity.md)
          + [Relatório de campanha com notificação por push](using/reports/campaign-global-report-cja-push.md)
          + [Relatório de campanha por SMS](using/reports/campaign-global-report-cja-sms.md)
          + [Relatório de campanha na web](using/reports/campaign-global-report-cja-web.md)
@@ -647,7 +647,7 @@ ht-degree: 90%
       + [Medidas de proteção e limitações do serviço de decisão](using/experience-decisioning/decisioning-guardrails.md)
       + [Perguntas frequentes sobre decisão](using/experience-decisioning/decisioning-faq.md)
       + Migrar para a Decisão {#migrate-to-decisioning}
-         + [Benefícios da migração para o Decisioning](using/experience-decisioning/migrate-to-decisioning.md)
+         + [Benefícios da migração para a Decisão](using/experience-decisioning/migrate-to-decisioning.md)
          + [API de migração de decisão](using/experience-decisioning/decisioning-migration-api.md)
       + Referência da API {#experience-decisioning-api-reference}
          + {hide-from-toc}[Referência da API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
@@ -703,7 +703,7 @@ ht-degree: 90%
             + [Modelo de otimização automática](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Modelo de otimização personalizado](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [Criar modelos de IA](using/experience-decisioning/ranking/create-ai-models.md)
-            + [Monitore o desempenho de seus modelos de IA](using/experience-decisioning/ranking/ai-model-observability.md)
+            + [Monitorar o desempenho dos modelos de IA](using/experience-decisioning/ranking/ai-model-observability.md)
       + [Trabalhar com posicionamentos](using/experience-decisioning/placements.md)
       + Usar dados da Adobe Experience Platform {#aep-data}
          + [Usar dados da Adobe Experience Platform](/help/rp_landing_pages/aep-data-landing-page.md)
@@ -890,7 +890,7 @@ ht-degree: 90%
       + [Medidas de proteção de tempo de vida (TTL) dos conjuntos de dados](using/data/datasets-ttl.md)
       + [Exportar conjuntos de dados do Journey Optimizer](using/data/export-datasets.md)
       + [Exemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas incorporados >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
+      + [Esquemas integrados >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
    + [Usar dados da Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuração de canais {#configuration}
@@ -921,7 +921,7 @@ ht-degree: 90%
       + {hide-from-toc}[Arquivos do plano de aquecimento de IP](using/configuration/ip-warmup-plan-files.md)
    + Monitorar endereços de email {#monitor-reputation}
       + [Monitorar endereços de email](/help/rp_landing_pages/monitor-reputation-landing-page.md)
-      + {hide-from-toc}[Tipos de erro de email](using/configuration/email-error-types.md)
+      + {hide-from-toc}[Tipos de erros de email](using/configuration/email-error-types.md)
       + [Lista de supressão](using/configuration/manage-suppression-list.md)
       + [Tentativas](using/configuration/retries.md)
       + [Lista de permissões](using/configuration/allow-list.md)

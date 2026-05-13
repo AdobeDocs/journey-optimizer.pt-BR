@@ -5,10 +5,15 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 58d83c2d3c6c1d3b3c680e394323de33321eeb6e
+TQID: https://experienceleague.adobe.com/dKfstmm0ilHKUATU-sz7c04IZBu2O7Ju-srPPoKJVl4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 51%
+source-wordcount: 984
+ht-degree: 100%
 
 ---
 
@@ -16,7 +21,7 @@ ht-degree: 51%
 
 ## Introdução a políticas de aprovação {#gs}
 
-O [!DNL Journey Optimizer] permite configurar um processo de aprovação que permite que as equipes de marketing garantam que as campanhas e jornadas sejam revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas.
+O [!DNL Journey Optimizer] permite configurar um processo de aprovação para que as equipes de marketing garantam que as campanhas e jornadas sejam revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas.
 
 As políticas de aprovação introduzem um fluxo de trabalho estruturado diretamente na interface, eliminando a necessidade de mídias externas, como ferramentas de gerenciamento de tarefas ou emails e assegurando que todas as aprovações sejam gerenciadas e rastreadas centralmente.
 
@@ -26,7 +31,7 @@ Além disso, esse recurso oferece controle avançado da publicação de suas jor
 
 Antes de iniciar, verifique se as permissões abaixo foram configuradas.
 
-Para aprovar e publicar jornadas e campanhas, os usuários precisam ter as permissões **Aprovar e publicar campanhas** e **Aprovar e publicar Jornadas**. [Saiba mais](../administration/permissions.md)
+Para aprovar e publicar jornadas e campanhas, os usuários precisam receber as permissões **Aprovar e publicar campanhas** e **Aprovar e publicar jornadas**. [Saiba mais](../administration/permissions.md)
 
 +++  Saiba como atribuir permissões relacionadas à aprovação
 
@@ -40,7 +45,7 @@ Para aprovar e publicar jornadas e campanhas, os usuários precisam ter as permi
 
 1. Adicione o recurso **Jornadas** e selecione **Aprovar e publicar jornadas** no menu suspenso.
 
-   ![Atribuir aprovação e publicar permissão do Jornada](assets/permissions_approval_2.png){zoomable="yes"}
+   ![Atribuir permissão de aprovação e publicação de jornadas](assets/permissions_approval_2.png){zoomable="yes"}
 
 1. Clique em **Salvar** para aplicar as alterações.
 
@@ -50,7 +55,7 @@ As permissões de todos os usuários já atribuídos a essa função serão atua
 
 1. Insira o nome do usuário, seu endereço de email ou escolha na lista e clique em **Salvar**.
 
-1. Se o usuário não tiver sido criado anteriormente, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/users).
+1. Se o usuário não foi criado anteriormente, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 O usuário receberá um email com instruções para acessar a sua instância.
 
@@ -64,7 +69,7 @@ O processo de aprovação global é o seguinte:
 
 1. **Configuração de políticas de aprovação**
 
-   Um usuário administrador cria uma política de aprovação, definindo condições sob as quais a política deve ser aplicada a jornadas ou campanhas. Por exemplo, você pode criar uma política de aprovação que exija que todas as campanhas agendadas criadas por um determinado usuário sejam aprovadas antes da ativação. [Saiba como criar políticas de aprovação](approval-policies.md)
+   Um usuário administrador cria uma política de aprovação, definindo as condições sob as quais a política deve ser aplicada a jornadas ou campanhas. Por exemplo, você pode criar uma política de aprovação que exija que todas as campanhas agendadas criadas por um determinado usuário sejam aprovadas antes de serem ativadas. [Saiba como criar políticas de aprovação](approval-policies.md)
 
 1. **Envio de campanha/jornada para aprovação**
 
@@ -82,35 +87,35 @@ O processo de aprovação global é o seguinte:
 
 Você pode monitorar todas as solicitações de aprovação e alteração que foram enviadas para uma determinada jornada ou campanha. Para fazer isso, clique no ícone **[!UICONTROL Mostrar trilha de auditoria]** localizado na seção superior direita da tela de jornada ou na tela de revisão da campanha.
 
-![Solicitações de aprovação da trilha de auditoria](assets/monitor-requests.png)
+![Trilha de auditoria de solicitações de aprovação](assets/monitor-requests.png)
 
 ## Perguntas frequentes {#faq}
 
 +++Preciso criar uma política de aprovação para cada campanha ou jornada?
 
-Não. As políticas de aprovação são condicionais. Você só precisará criar uma política se quiser impor a revisão de um conjunto específico de campanhas ou jornadas (por exemplo, todas as campanhas agendadas criadas por uma equipe específica). Se nenhuma política se aplicar a uma campanha ou jornada, o criador poderá publicar diretamente sem solicitar aprovação.
+Não. As políticas de aprovação são condicionais. Você só precisa criar uma política se quiser impor a revisão para um conjunto específico de campanhas ou jornadas (por exemplo, todas as campanhas agendadas criadas por uma equipe específica). Se nenhuma política se aplicar a uma campanha ou jornada, o criador pode publicar diretamente sem solicitar aprovação.
 
 +++
 
 +++O que acontece se o aprovador não estiver disponível?
 
-A solicitação permanece &quot;Em revisão&quot; até que um aprovador aja nela. Você pode cancelar a solicitação (devolvendo o item para &quot;Rascunho&quot;) e ressubmeter assim que o aprovador certo estiver disponível. Os administradores também podem atualizar a política de aprovação para adicionar aprovadores adicionais.
+A solicitação permanece “Em revisão” até que um aprovador tome uma decisão. Você pode cancelar a solicitação (retornando o item para o status “Rascunho”) e reenviar assim que o aprovador certo estiver disponível. Os administradores também podem atualizar a política de aprovação para adicionar mais aprovadores.
 
 +++
 
-+++Posso editar uma campanha ou jornada enquanto a aprovação estiver pendente?
++++Posso editar uma campanha ou jornada enquanto a aprovação está pendente?
 
-Não. Depois de enviada para aprovação, a campanha ou jornada está em um estado bloqueado &quot;Na revisão&quot;. Para fazer alterações, o criador ou um aprovador deve cancelar a solicitação primeiro. O item retorna para &quot;Rascunho&quot; e pode ser editado antes de ser reenviado.
+Não. Depois de enviada para aprovação, a campanha ou jornada fica em um estado bloqueado “Em revisão”. Para fazer alterações, o criador ou um aprovador deve cancelar a solicitação primeiro. O item retorna para o status “Rascunho” e pode ser editado antes de ser reenviado.
 
 +++
 
 +++Não vejo a permissão Aprovar e publicar no menu suspenso — o que devo verificar?
 
-Verifique se você está adicionando o recurso correto primeiro. A permissão **Aprovar e publicar Campanhas** requer que o recurso **Campanhas** seja adicionado à função, e **Aprovar e publicar Jornadas** requer o recurso **Jornada**. Ambos devem ser adicionados separadamente. [Saiba como atribuir permissões relacionadas a aprovação](#prerequisites)
+Verifique se você está adicionando o recurso correto primeiro. A permissão **Aprovar e publicar campanhas** requer que o recurso **Campanhas** seja adicionado à função, e a permissão **Aprovar e publicar jornadas** requer o recurso **Jornada**. Ambos devem ser adicionados separadamente. [Saiba como atribuir permissões relacionadas à aprovação](#prerequisites)
 
 +++
 
-+++Como [!DNL Journey Optimizer] determina qual política de aprovação se aplica se mais de uma política corresponder?
++++Como o [!DNL Journey Optimizer] determina qual política de aprovação se aplica se mais de uma política corresponder?
 
 Quando várias políticas de aprovação ativas podem ser aplicadas à mesma jornada ou campanha, a política que foi **ativada mais recentemente** tem prioridade. Os grupos de usuários aprovadores definidos nessa política são os que são notificados e que controlam a solicitação.
 
@@ -120,7 +125,7 @@ Quando várias políticas de aprovação ativas podem ser aplicadas à mesma jor
 
 +++Se um solicitante pertencer a vários grupos de usuários, é possível escolher para qual grupo a solicitação de aprovação é enviada?
 
-Não. Os solicitantes não podem selecionar manualmente qual grupo de usuários recebe ou roteia a solicitação de aprovação. Os grupos de usuários especificados na política de aprovação que se aplica—de acordo com a [precedência de política](approval-policies.md#multiple-policies)—são notificados automaticamente.
+Não. Os solicitantes não podem selecionar manualmente qual grupo de usuários recebe ou encaminha a solicitação de aprovação. Os grupos de usuários especificados na política de aprovação que se aplica — de acordo com a [precedência de política](approval-policies.md#multiple-policies) — são notificados automaticamente.
 
 +++
 

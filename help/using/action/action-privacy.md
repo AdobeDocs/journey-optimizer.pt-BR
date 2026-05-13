@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: dados, governança, DULE, rótulos, rotulagem, plataforma, política
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1314'
 ht-degree: 100%
 
 ---
@@ -116,7 +116,7 @@ Vamos ver o exemplo do campo de tipo sanguíneo que você precisa restringir de 
 
    * O **Canal** e a **Ação de marketing necessária**, definidos ao configurar a ação personalizada, são exibidos na parte superior da tela. Não é possível modificar esses campos.
 
-   * Você pode configurar uma **Ação de marketing adicional** para definir o tipo de ação personalizada. Isso permite definir a finalidade da ação personalizada nesta jornada. Além da ação de marketing necessária, que geralmente é específica de um canal, é possível definir uma ação de marketing adicional que será específica para a ação personalizada desta jornada. Por exemplo: um comunicado de treino, um boletim informativo, um comunicado de fitness etc. A ação de marketing necessária e a ação de marketing adicional serão aplicadas. No nosso exemplo, não usamos uma ação de marketing adicional.
+   * Você pode configurar uma **Ação de marketing adicional** para definir o tipo de ação personalizada. Isso permite definir a finalidade da ação personalizada nesta jornada. Além da ação de marketing necessária, que geralmente é específica de um canal, é possível definir uma ação de marketing adicional que será específica para a ação personalizada desta jornada. Por exemplo: uma comunicação sobre treino, um boletim informativo, conteúdo fitness etc. Tanto a ação de marketing obrigatória quanto a ação de marketing adicional são aplicáveis. No nosso exemplo, não usamos uma ação de marketing adicional.
 
 Se um dos campos rotulados como _ePHI1_ (o campo de tipo sanguíneo no exemplo) for detectado nos parâmetros de ação, um erro será exibido e a jornada não poderá ser publicada. [Saiba como detectar violações de política de governança](#violation)
 
@@ -126,7 +126,7 @@ Se um dos campos rotulados como _ePHI1_ (o campo de tipo sanguíneo no exemplo) 
 
 ## Detectar violação de política {#violation}
 
-Ao identificar um campo restrito em uma jornada, campanha ou ação personalizada, o sistema exibirá um erro, impedindo que você a publique. 
+Ao identificar um campo restrito em uma jornada, campanha ou ação personalizada, o sistema exibirá um erro, impedindo que você a publique.
 
 Os erros são visíveis no botão **[!UICONTROL Alertas]**. Clique no erro para exibir informações detalhadas sobre a violação da política de governança de dados ocorrida.
 

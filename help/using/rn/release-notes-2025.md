@@ -209,13 +209,13 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>High throughput messaging for API-triggered email campaigns</strong><br/></th>
+<th><strong>Mensagens com alta taxa de transferência para campanhas de email acionadas por API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A new high throughput transactional messaging mode is available in API-triggered campaigns. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Esse modo também é compatível com mensagens transacionais sem referência ou criação de perfis de clientes, como check-out de convidado, confirmação de pedido, redefinições de senha, notificações de segurança e outras notificações operacionais/de serviço.</p>
+<p>Um novo modo de mensagens transacionais com alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Esse modo também é compatível com mensagens transacionais sem referência ou criação de perfis de clientes, como check-out de convidado, confirmação de pedido, redefinições de senha, notificações de segurança e outras notificações operacionais/de serviço.</p>
 <p>Esse recurso está disponível somente para o canal de email e para organizações que adquiriram a oferta complementar de mensagens transacionais com alta taxa de transferência da Adobe. Entre em contato com o representante da Adobe para obter mais informações.</p>
 <p>Para obter mais informações, consulte a <a href="../campaigns/api-triggered-high-throughput.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 22 de outubro de 2025</p>
@@ -314,7 +314,7 @@ table>
 <li>O tamanho máximo para cada anexo é 5 MB.</li>
 <li>Para qualquer tamanho ou volume adicional, é possível comprar o complemento Anexos em PDF. Para obter mais informações, entre em contato com um representante da Adobe.</li>
 </ul>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Para obter mais informações, consulte a <a href="../email/pdf-attachments.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 30 de setembro de 2025</p>
@@ -581,13 +581,13 @@ You can now use AI models to optimize the best content in your email through the
 
 ### Aprimoramentos {#sept-25-9-improvements}
 
-* **Webhook support for API-triggered campaigns**\
-  API-triggered campaigns now support webhooks. Configure um URL de webhook para receber atualizações de status em tempo real para cada mensagem, melhorando a observabilidade e permitindo monitoramento e automação contínuos. [Leia mais](../configuration/feedback-webhooks.md)
+* **Suporte a webhooks para campanhas acionadas por API**\
+  Campanhas acionadas por API agora oferecem suporte a webhooks. Configure um URL de webhook para receber atualizações de status em tempo real para cada mensagem, melhorando a observabilidade e permitindo monitoramento e automação contínuos. [Leia mais](../configuration/feedback-webhooks.md)
 
   Data de disponibilidade: 29 de setembro de 2025
 
-* **Suporte mTLS para Canal SMS**
-When setting up a custom SMS provider, you now have the option to enable mutual TLS (mTLS) authentication, which requires both the client and the server to confirm each other&#39;s identities before a secure connection is established. [Leia mais](../sms/sms-configuration-custom.md) - Data de disponibilidade: 23 de setembro de 2025
+* **Suporte mTLS para Canal de SMS**
+Ao configurar um provedor de SMS personalizado, agora você tem a opção de habilitar a autenticação TLS mútua (mTLS), que exige que tanto o cliente quanto o servidor confirmem as identidades um do outro antes que uma conexão segura seja estabelecida. [Leia mais](../sms/sms-configuration-custom.md) - Data de disponibilidade: 23 de setembro de 2025
 
 * **Esquemas relacionais**\
   Agora é possível usar esquemas relacionais para atender necessidades de modelagem relacional em campanhas orquestradas. [Leia mais](../orchestrated/gs-schemas.md) - Data de disponibilidade: 23 de setembro de 2025
@@ -651,7 +651,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <p>É possível pausar e retomar apenas uma jornada ou executar operações de pausa e retomada em massa para um grupo de jornadas.</p>
 <p>Além disso, é possível aplicar critérios de saída baseados em atributos de perfil (que anteriormente possuíam o nome "filtro global") a jornadas pausadas para excluir perfis com base em seus atributos.</p>
 <p><img src="assets/do-not-localize/PauseResume.gif"/></p>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para mais informações, consulte a <a href="../building-journeys/journey-pause.md">documentação detalhada</a></p>
 </td>
 </tr>
@@ -1001,7 +1001,7 @@ Para mais informações, consulte a <a href="../experience-decisioning/create-de
 <table>
 <thead>
 <tr>
-<th><strong>Canal LINE</strong><br/></th>
+<th><strong>Canal do LINE</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1025,7 +1025,7 @@ Para mais informações, consulte a <a href="../experience-decisioning/create-de
 <td>
 <p>O teste de simulação da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil. Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.</p>
 <img src="assets/do-not-localize/DryRun.gif">
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para mais informações, consulte a <a href="../building-journeys/journey-dry-run.md">documentação detalhada</a></p>
 </td>
 </tr>
@@ -1277,7 +1277,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>No Journey Optimizer, gerenciar o volume e o momento de início das campanhas e jornadas é essencial para não sobrecarregar clientes com muitas interações. O Journey Optimizer agora oferece várias ferramentas para o gerenciamento de conflitos e a priorização, antes disponíveis apenas para um número limitado de organizações (disponibilidade limitada), mas que agora estão em disponibilidade geral.</p>
+<p>No Journey Optimizer, gerenciar o volume e o momento das campanhas e jornadas é essencial para evitar sobrecarregar os clientes com muitas interações. O Journey Optimizer agora oferece várias ferramentas para o gerenciamento de conflitos e a priorização, antes disponíveis apenas para um número limitado de organizações (disponibilidade limitada), mas que agora estão em disponibilidade geral.</p>
 <p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes. Esta versão de disponibilidade geral também inclui os seguintes aprimoramentos:</p>
 <ul>
 <li>Suporte estendido: as ferramentas de gerenciamento de conflitos agora oferecem suporte às jornadas unitárias, jornadas de qualificação de público-alvo e jornadas de público-alvo de leitura.</li>
@@ -1400,7 +1400,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 </ul>
 </br>
 <img src="assets/do-not-localize/dynamic_media_template_html.gif">
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para obter mais informações, consulte a <a href="../integrations/aem-dynamic.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 23 de maio de 2025</p>
 </td>
@@ -1455,7 +1455,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <tr>
 <td>
 <p>Agora é possível acionar execuções diárias da jornada após a conclusão da segmentação em lote Essa opção agora está disponível em jornadas agendadas diariamente para todos os clientes. Ela permite definir uma janela de tempo de até 6 horas para aguardar os dados de público-alvo de processos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas.</p>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>Para obter mais informações, consulte a <a href="../building-journeys/read-audience.md#schedule">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 20 de maio de 2025</p>
@@ -1475,7 +1475,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <td>
 <p>O Journey Optimizer agora permite configurar provedores de SMS adicionais além das opções padrão: Sinch, Infobip e Twilio. Com a configuração personalizada do provedor SMS, é possível integrar diretamente provedores de terceiros, aproveitar a personalização avançada de conteúdo para gerar mensagens dinâmicas e gerenciar preferências de consentimento (aceitação e recusa) para garantir a conformidade.</p>
 <p>Para obter mais informações, consulte a <a href="../sms/sms-configuration-custom.md">documentação detalhada</a>.</p>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Data de disponibilidade: 20 de maio de 2025</p>
 </td>
 </td>
@@ -1646,7 +1646,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Canal LINE</strong><br/></th>
+<th><strong>Canal do LINE</strong><br/></th>
 </tr>
 </thead>
 <tbody>

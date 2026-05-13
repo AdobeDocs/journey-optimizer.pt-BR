@@ -6,13 +6,19 @@ description: Saiba como trabalhar com canais de comunicação do  [!DNL Adobe Jo
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+TQID: https://experienceleague.adobe.com/XJ8i9eeM9AIlEiMMNAPyzjqIGJi2EXlxEMj0K6KseUM
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: cb1f1586-9fb4-4de2-8332-02cebb88d42did: e240d5e8-8393-4b76-8a3d-9e53a2f7306c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 84%
+source-wordcount: 676
+ht-degree: 100%
 
 ---
-
 
 # Introdução aos canais do [!DNL Adobe Journey Optimizer] {#get-started-email}
 
@@ -27,7 +33,7 @@ Os canais de saída para entrega de mensagens envolvem o envio de mensagens para
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canal de email
 
@@ -37,7 +43,7 @@ Descubra como criar, configurar e otimizar campanhas de email, incluindo persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canal de notificação por push
 
@@ -47,17 +53,17 @@ Saiba como criar, configurar e enviar notificações por push para iOS e Android
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
-Atividades do iOS Live
+Atividades em tempo real do iOS
 
-Forneça atualizações persistentes em tempo real diretamente na Tela de bloqueio do iPhone e na Dynamic Island. Atividades em tempo real de campanhas acionadas por API para casos de uso individuais (rastreamento de pedido, status da jornada) ou casos de uso de transmissão (pontuações esportivas, status de voo).
+Forneça atualizações persistentes em tempo real diretamente na Tela de bloqueio do iPhone e no Dynamic Island. Atividades em tempo real de campanhas acionadas por API para casos de uso individuais (rastreamento de pedido, status da jornada) ou casos de uso de transmissão (pontuações esportivas, status de voo).
 
-[Saiba mais sobre as atividades do iOS Live](../mobile-live/get-started-mobile-live.md)
+[Saiba mais sobre as atividades em tempo real do iOS](../mobile-live/get-started-mobile-live.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Mensagens por SMS/MMS/RCS
 
@@ -67,7 +73,7 @@ Entenda como criar, gerenciar e configurar mensagens por SMS, MMS e RCS para fin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campanhas de correspondência direta
 
@@ -77,23 +83,23 @@ Descubra como criar e gerenciar campanhas de correspondência direta, incluindo 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Mensagens do WhatsApp
 
-Saiba como integrar e usar mensagens do WhatsApp por meio da API da nuvem do Meta para campanhas de comunicação e jornadas personalizadas e compatíveis.
+Saiba como integrar e usar mensagens do WhatsApp por meio da API na nuvem da Meta para campanhas e jornadas de comunicação personalizadas e em conformidade com as normas.
 
 [Saiba mais sobre mensagens do WhatsApp](../../rp_landing_pages/whatsapp-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
 
 Mensagens LINE
 
 Descubra como configurar, criar e personalizar mensagens LINE para uma comunicação eficaz em campanhas e jornadas.
 
-[Saiba mais sobre mensagens LINE](../../rp_landing_pages/line-landing-page.md)
+[Saiba mais sobre mensagens do LINE](../../rp_landing_pages/line-landing-page.md)
 :::
 
 ::::
@@ -105,7 +111,7 @@ Com experiências de entrada de aplicativos móveis e da Web, os clientes inicia
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Mensagens no aplicativo
 
@@ -115,7 +121,7 @@ Aprenda a configurar, projetar e personalizar notificações no aplicativo para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -125,7 +131,7 @@ Saiba como criar, configurar e personalizar experiências na web e integrar cana
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Experiência baseada em código
 
@@ -135,7 +141,7 @@ Utilize as experiências baseadas em código para fornecer conteúdo personaliza
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Cartões de conteúdo
 
@@ -162,7 +168,7 @@ A tabela abaixo mostra a disponibilidade de cada canal em diferentes jornadas e 
 | Email | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Notificações por push | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Atividades do iOS Live | — | — | — | ✅ | — |
+| Atividades em tempo real do iOS | — | — | — | ✅ | — |
 | No aplicativo | ✅ | ✅ | — | — | — |
 | Correspondência direta | ✅ | ✅ | — | — | ✅ |
 | Web | ✅ | ✅ | — | — | — |

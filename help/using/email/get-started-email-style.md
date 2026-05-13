@@ -9,10 +9,17 @@ role: User
 level: Beginner, Intermediate
 keywords: email, estilo, css, corpo, estrutura
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: b00a24b7d130fb1a464f01b93b9769a7ae10c41a
+TQID: https://experienceleague.adobe.com/AVhoxB06o8nR8q1ER7Jhh-oJ8gb9r1P5R6Fc2EIDuHA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 53%
+source-wordcount: 306
+ht-degree: 100%
 
 ---
 
@@ -28,15 +35,15 @@ Selecione qualquer elemento no email e clique na guia **[!UICONTROL Estilos]**. 
 
 Por exemplo, se você selecionar um componente de texto:
 
-* Você pode ajustar a **[!UICONTROL cor do plano de fundo]** e a **[!UICONTROL cor da fonte]** desse parágrafo;
-* Você pode atualizar os parâmetros de **[!UICONTROL Texto]**, como família de fontes, tamanho, altura, alinhamento, etc., e gerenciar o espaçamento antes do primeiro caractere em uma linha usando a configuração **[!UICONTROL Recuo]**;
-* Você também pode ajustar opções como **[!UICONTROL Borda]**, **[!UICONTROL Margem]** e **[!UICONTROL Preenchimento]** do componente de texto.
+* É possível ajustar a **[!UICONTROL cor do fundo]** e a **[!UICONTROL cor da fonte]** desse parágrafo;
+* É possível atualizar os parâmetros de **[!UICONTROL Texto]**, como família de fontes, tamanho, altura, alinhamento etc., e gerenciar o espaçamento antes do primeiro caractere em uma linha usando a configuração **[!UICONTROL Recuo]**;
+* Também é possível ajustar opções como **[!UICONTROL Borda]**, **[!UICONTROL Margem]** e **[!UICONTROL Preenchimento]** do componente de texto.
 
-Se você estiver usando um [modelo de conteúdo](use-email-templates.md) padrão ou se tiver aplicado um tema ao seu email, só será possível ajustar algumas configurações de estilo para corresponder ao tema selecionado. [Saiba mais sobre temas](apply-email-themes.md)
+Se você está usando um [modelo de conteúdo](use-email-templates.md) padrão ou se tiver aplicado um tema ao email, somente é possível ajustar algumas configurações de estilo para corresponder ao tema selecionado. [Saiba mais sobre temas](apply-email-themes.md)
 
 ![](assets/email_designer_styles_theme.png)
 
-Siga os links abaixo para descobrir como ajustar algumas das configurações de estilo específicas no seu email.
+Siga os links abaixo para descobrir como ajustar algumas das configurações de estilo no email.
 
 * Saiba como [personalizar o plano de fundo do email](backgrounds.md)
 * Saiba como [gerenciar o alinhamento vertical e o preenchimento](alignment-and-padding.md)

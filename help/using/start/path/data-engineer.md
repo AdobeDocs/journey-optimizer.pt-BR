@@ -7,14 +7,21 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/BAnAycmwv9oD4On4LSMwm7bBRKOuw5Tbv5a-r3ND-Dw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: af7571a6-3ddb-4c1c-abdf-4d4dde592140id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 92%
+source-wordcount: 991
+ht-degree: 100%
 
 ---
 
-# Introdução para engenheiro de dados {#data-engineer}
+# Introdução para engenheiros de dados {#data-engineer}
 
 Como **Arquiteto(a) de dados** ou **Engenheiro(a) de dados**, você configura e mantém os dados de perfis de clientes e outras fontes de dados que viabilizam as experiências orquestradas pelo [!DNL Journey Optimizer]. Isso inclui a integração de todos os dados de clientes e negócios — da web, do CRM ou de fontes offline — em uma visão unificada de 360 graus do cliente. Você modela os dados de perfil do cliente e os dados de negócios em esquemas, configura conectores de origem para ingerir dados e garante que os dados fluam sem problemas para permitir insights do cliente e engajamento em tempo real. Você pode começar a trabalhar com o [!DNL Adobe Journey Optimizer] assim que o(a) [admin de sistema](administrator.md) conceder acesso e preparar seu ambiente.
 
@@ -24,13 +31,13 @@ Como **Arquiteto(a) de dados** ou **Engenheiro(a) de dados**, você configura e 
 
 >[!TIP]
 >
->Novo nos dados do Journey Optimizer? Comece com a [Visão geral do gerenciamento de dados](../../data/gs-data.md) para entender esquemas, conjuntos de dados, identidades, o modelo de fragmento de perfil e a lista de verificação completa de preparação de dados antes de mergulhar na configuração.
+>Você está começando na área de dados no Journey Optimizer? Comece com a visão geral [Introdução à gestão de dados](../../data/gs-data.md) para entender esquemas, conjuntos de dados, identidades, o modelo de fragmento de perfil e a lista de verificação completa de preparação de dados antes de iniciar a configuração.
 
 ## Etapas essenciais de configuração de dados
 
 Siga estas etapas para configurar a base de dados do Journey Optimizer:
 
-1. **Criar namespaces de identidade**. No Adobe [!DNL Journey Optimizer], as **Identidades** vinculam consumidores em dispositivos e canais, e o resultado é um gráfico de identidade. O gráfico de identidade vinculado é usado para personalizar experiências com base em interações em todos os pontos de contato de negócios.  Saiba mais sobre identidades e namespaces de identidade [nesta página](../../audience/get-started-identity.md).
+1. **Criar namespaces de identidade**. No Adobe [!DNL Journey Optimizer], as **Identidades** vinculam consumidores em dispositivos e canais, e o resultado é um gráfico de identidade. O gráfico de identidade vinculado é usado para personalizar experiências com base em interações em todos os pontos de contato de negócios. Saiba mais sobre identidades e namespaces de identidade [nesta página](../../audience/get-started-identity.md).
 
    Além disso, configure **identificadores complementares** para permitir que o mesmo perfil entre em várias instâncias da jornada com base em identificadores secundários, como IDs de pedido ou IDs de reserva. Saiba mais sobre [identificadores complementares](../../building-journeys/supplemental-identifier.md).
 
@@ -49,7 +56,7 @@ Siga estas etapas para configurar a base de dados do Journey Optimizer:
 
 1. **Configurar atributos computados** (opcional). Crie atributos derivados de dados de perfil para simplificar a segmentação e a personalização. Os atributos computados calculam automaticamente métricas complexas como “Total de compras nos últimos 90 dias” ou “Valor médio do pedido”. Saiba mais sobre [atributos computados](../../audience/computed-attributes.md).
 
-1. **Conjuntos de dados de exportação de mensagens** (opcional). Quando a exportação de mensagens é ativada no nível de configuração do canal, o conteúdo de emails e SMS enviados é exportado automaticamente para um conjunto de dados dedicado do Experience Platform para fins de conformidade, arquivamento ou análise downstream. Saiba mais sobre [exportação de mensagens](../../configuration/message-export.md).
+1. **Conjuntos de dados de exportação de mensagens** (opcional). Quando a exportação de mensagens é habilitada no nível de configuração de canais, o conteúdo de email e SMS enviado é exportado automaticamente para um conjunto de dados dedicado da Experience Platform para fins de conformidade, arquivamento ou análise downstream. Saiba mais sobre [exportação de mensagens](../../configuration/message-export.md).
 
 Além disso, para poder enviar mensagens em jornadas, configure as **[!UICONTROL Fontes de dados]**, os **[!UICONTROL Eventos]** e as **[!UICONTROL Ações]**. Saiba mais [nesta seção](../../configuration/about-data-sources-events-actions.md).
 

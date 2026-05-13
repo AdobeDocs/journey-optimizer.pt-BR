@@ -8,10 +8,17 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a9da10694f4e8299e32d94d3f3d9bf4363a8773a
+TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e240d5e8-8393-4b76-8a3d-9e53a2f7306cid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '4226'
-ht-degree: 91%
+source-wordcount: 4226
+ht-degree: 99%
 
 ---
 
@@ -19,7 +26,7 @@ ht-degree: 91%
 
 Abaixo são encontradas medidas de proteção e limitações ao usar o [!DNL Adobe Journey Optimizer].
 
-Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -98,9 +105,9 @@ As seguintes medidas de proteção se aplicam ao [canal de SMS](../sms/get-star
 
 * O Journey Optimizer aceita um volume máximo de 5.000 solicitações de entrada por segundo. Essa medida de proteção se aplica a todas as solicitações de entrada, que podem se originar de qualquer um dos canais de entrada compatíveis com o Journey Optimizer ([web](../web/get-started-web.md), [no aplicativo](../in-app/get-started-in-app.md), [experiências baseadas em código](../code-based/get-started-code-based.md), [cartões de conteúdo](../../rp_landing_pages/content-card-landing-page.md)).
 
-  Os canais de entrada do Journey Optimizer direcionam novos perfis que talvez não tenham sido engajados antes em outros canais. Isso aumentará a contagem total de [Perfis que podem ser Engajados](../audience/license-usage.md), o que pode ter implicações de custo se o número contratual de Perfis que podem ser engajados que você adquiriu for excedido.
+  Os canais de entrada do Journey Optimizer direcionam novos perfis que talvez não tenham sido engajados antes em outros canais. Isso aumentará o número total de [Perfis engajáveis](../audience/license-usage.md), o que pode ter implicações de custo se o número contratual de Perfis engajáveis que você adquiriu for excedido.
 
-  As métricas de licença para cada pacote estão listadas na página [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Você pode verificar o número de Perfis Ativáveis no [painel de uso de licença](../audience/license-usage.md).
+  As métricas de licença para cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Você pode verificar o número de Perfis engajáveis no [painel de uso de licença](../audience/license-usage.md).
 
 * O Journey Optimizer aceita no máximo 500 ações de entrada ativas a qualquer momento. Essas ações de entrada são contadas se fizerem parte de uma campanha ativa ou se forem um nó usado em uma jornada ativa. Ao atingir esse número, é preciso desativar campanhas ou jornadas mais antigas que estejam usando ações de entrada antes de poder lançar novas.
 
@@ -108,7 +115,7 @@ As seguintes medidas de proteção se aplicam ao [canal de SMS](../sms/get-star
 
 Os canais de entrada do [!DNL Journey Optimizer] podem direcionar perfis pseudônimos, ou seja, perfis que ainda não foram autenticados ou conhecidos por não terem sido engajados anteriormente em outros canais. Esse é o caso, por exemplo, ao direcionar todos os visitantes ou públicos-alvo com base em IDs temporárias, como ECID.
 
-Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis adquiridos for excedido. As métricas de licença de cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. É possível verificar o número de perfis engajáveis no [painel de uso de licença](../audience/license-usage.md).
+Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis adquiridos for excedido. As métricas de licença de cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. É possível verificar o número de perfis engajáveis no [painel de uso de licença](../audience/license-usage.md).
 
 Para manter os perfis que podem ser engajados dentro de limites razoáveis, a Adobe recomenda configurar um tempo de vida (TTL) para excluir automaticamente perfis pseudônimos do Perfil do cliente em tempo real se eles não tiverem sido vistos ou engajados em uma janela de tempo específica.
 
@@ -185,8 +192,8 @@ Esta seção aborda medidas de proteção e limitações para jornadas, incluind
 * Por padrão, o número de jornadas ativas/pausadas/em execução de teste ao mesmo tempo é limitado a 100.  O número atual de jornadas é exibido acima da tela de jornada.
 * À medida que você publica jornadas, dimensionaremos e ajustaremos automaticamente para garantir uma máxima taxa de transferência e estabilidade. Ao se aproximar do marco de 100 jornadas ativas de uma só vez, você verá uma notificação aparecer na interface sobre essa conquista. Se vir esta notificação e precisar aumentar o número de jornadas para acima de 100 jornadas ativas por vez, crie um tíquete para o Atendimento ao cliente e ajudaremos a atingir suas metas.
 * Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até 10 minutos para ficar ativa e ouvir os perfis que entram ou saem do público-alvo.
-* Uma instância de jornada para um perfil tem tamanho máximo de 1 MB. Todos os dados coletados como parte da execução da jornada são armazenados nessa instância da jornada. Portanto, os dados de um evento de entrada, as informações de perfil recuperadas do Adobe Experience Platform, as respostas de ação personalizadas etc. são armazenados nessa instância do jornada e afetam o tamanho da jornada. É aconselhável, quando uma jornada inicia com um evento, limitar o tamanho máximo desse conteúdo do evento (por exemplo: até 800 KB) para evitar atingir esse limite após algumas atividades, na execução da jornada. Quando esse limite é atingido, o perfil fica com status de erro e será excluído da jornada.
-* Para cada perfil e versão do jornada, o tempo de execução do jornada mantém uma fila interna de até 10 eventos pendentes enquanto um está sendo processado. Se esse limite for atingido, eventos adicionais serão descartados com o motivo `maxInstanceStackEventsReached` até que a pilha seja esgotada. Consulte [Eventos descartados devido a uma instância de jornada bloqueada](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
+* Uma instância de jornada para um perfil tem tamanho máximo de 1 MB. Todos os dados coletados como parte da execução da jornada são armazenados nessa instância da jornada. Portanto, dados de um evento de entrada, informações de perfil recuperadas da Adobe Experience Platform, respostas de ações personalizadas etc., são armazenados nessa instância da jornada e afetam o tamanho da jornada. É aconselhável, quando uma jornada inicia com um evento, limitar o tamanho máximo desse conteúdo do evento (por exemplo: até 800 KB) para evitar atingir esse limite após algumas atividades, na execução da jornada. Quando esse limite é atingido, o perfil fica com status de erro e será excluído da jornada.
+* Para cada perfil e versão de jornada, o ambiente de execução da jornada mantém uma fila interna de até 10 eventos pendentes enquanto um está sendo processado. Se esse limite for atingido, eventos adicionais serão descartados com o motivo `maxInstanceStackEventsReached` até que a pilha seja esgotada. Consulte [Eventos descartados devido a uma instância de jornada bloqueada](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 * Além do tempo limite usado em atividades de jornada, também há um tempo-limite de jornada global que não é exibido na interface e não pode ser alterado. Esse tempo-limite global interrompe o progresso das pessoas na jornada 91 dias após a sua entrada. [Leia mais](../building-journeys/journey-properties.md#global_timeout)
 
 
@@ -282,7 +289,7 @@ As seguintes medidas de proteção se aplicam aos [eventos](../event/about-event
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
 * Os eventos de negócios não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
 * As jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada do perfil é temporariamente bloqueada por 5 minutos. Por exemplo, se um evento acionar uma jornada às 12:01 para um perfil específico e outra chegar às 12:03 (seja o mesmo evento ou outro que está acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
-* O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço Principal de Coleção de Dados (DCCS) para acionar uma jornada. Eventos assimilados em lote, eventos inseridos via **Serviço de consulta** ou eventos de conjuntos de dados internos da Journey Optimizer (Feedback de mensagens, Acompanhamento de emails etc.) não pode ser usado para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, é necessário criar um público-alvo com base nesses eventos e usar a atividade **Público-alvo de leitura**. Tecnicamente, a qualificação de público-alvo pode ser usada, mas não é recomendada, pois pode causar desafios posteriores com base nas ações usadas.
+* O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço Principal de Coleção de Dados (DCCS) para acionar uma jornada. Eventos assimilados em lote, eventos inseridos via **Serviço de consulta**, ou eventos de conjuntos de dados internos do Journey Optimizer (Feedback de mensagens, Rastreamento de email etc.) não podem ser usados para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, é necessário criar um público-alvo com base nesses eventos e usar a atividade **Público-alvo de leitura**. A qualificação de público-alvo pode ser tecnicamente utilizada, mas não é recomendada, pois pode causar problemas posteriores com base nas ações usadas.
 
 ### Fontes de dados {#data-sources-g}
 
@@ -369,12 +376,12 @@ As seguintes medidas de proteção se aplicam à atividade de [leitura de públi
 * Os públicos-alvo transmitidos estão sempre atualizados, mas os públicos-alvo em lote não serão calculados no momento da recuperação. Eles só são avaliados diariamente no momento da avaliação diária do lote.
 * Na entrada da jornada, os perfis usam valores de atributo do instantâneo de público-alvo em lote. No entanto, quando um perfil atinge uma atividade de **Espera**, a jornada atualiza automaticamente os atributos do perfil, buscando os dados mais recentes do Serviço de perfil unificado (UPS). Isso significa que os atributos de perfil podem mudar durante a execução da jornada.
 * A atividade de **público-alvo de leitura** não pode ser usada com atividades do Adobe Campaign.
-* A atividade **Ler Público** só pode ser usada como uma primeira atividade em uma jornada ou após uma atividade de evento comercial.
+* A atividade **Ler público-alvo** só pode ser usada como a primeira atividade em uma jornada ou após uma atividade de evento de negócios.
 * Uma jornada só pode ter uma atividade de **público-alvo de leitura**.
-* A atividade **Read Audience** pode direcionar somente um público-alvo por jornada. Se vários públicos-alvo forem necessários, mescle-os em um único público-alvo primeiro. [Saiba como combinar públicos usando fluxos de trabalho de composição](../audience/get-started-audience-orchestration.md).
-* Cada organização pode executar até cinco instâncias de **Ler público-alvo** simultaneamente (agendadas ou acionadas por eventos comerciais) em todas as sandboxes e jornadas. Evite ter mais de cinco jornadas com **Ler público-alvo** iniciando exatamente ao mesmo tempo; separe-as de 5 a 10 minutos. Saiba mais sobre taxas de processamento de jornada [nesta seção](../building-journeys/entry-management.md#journey-processing-rate).
-* Taxa de transferência da sandbox: o sistema gerencia o processamento por sandbox com um máximo de 20.000 perfis por segundo compartilhados em todas as atividades **Ler público**. Atividades individuais podem ser configuradas de 500 a 20.000 perfis por segundo. Se os limites da sandbox forem atingidos, as tarefas poderão ser enfileiradas.
-* Tempo limite de processamento do trabalho: **Ler público-alvo** os trabalhos que não puderem ser processados em 12 horas serão automaticamente limpos e não serão executados.
+* A atividade **Ler público-alvo** pode direcionar somente um público-alvo por jornada. Se vários públicos-alvo forem necessários, mescle-os em um único público-alvo primeiro. [Saiba como combinar públicos-alvo usando fluxos de trabalho de composição](../audience/get-started-audience-orchestration.md).
+* Cada organização pode executar até cinco instâncias da atividade **Ler público-alvo** simultaneamente (agendadas ou acionadas por eventos de negócios) em todas as sandboxes e jornadas. Evite ter mais de cinco jornadas com a atividade **Ler público-alvo** começando exatamente ao mesmo tempo; distribua-as com 5 a 10 minutos de intervalo. Saiba mais sobre taxas de processamento de jornada [nesta seção](../building-journeys/entry-management.md#journey-processing-rate).
+* Taxa de transferência da sandbox: o sistema gerencia o processamento por sandbox com um máximo de 20.000 perfis por segundo compartilhados em todas as atividades **Ler público-alvo**. Atividades individuais podem ser configuradas de 500 a 20.000 perfis por segundo. Se os limites da sandbox forem atingidos, os processos podem ser enfileirados.
+* Tempo limite de processamento do trabalho: as tarefas **Ler público-alvo** que não forem processadas em 12 horas são automaticamente limpas e não são executadas.
 * As novas tentativas são aplicadas por padrão em jornadas acionadas por público-alvo (começando com um **público-alvo de leitura** ou um **evento de negócios**) ao recuperar o processo de exportação. Se ocorrer um erro durante a criação do processo de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado.
 * Para jornadas que usam IDs suplementares, a taxa de leitura da atividade Ler público-alvo para cada instância de jornada é limitada a um máximo de 500 perfis por segundo.
 

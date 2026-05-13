@@ -10,14 +10,20 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/-drNPR5XmWbTe050ZO3s-tymLiQXjT4gjth7-QTv01c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 98%
+source-wordcount: 914
+ht-degree: 100%
 
 ---
 
-# Introdução à gestão de decisões {#about-decision-management}
+# Introdução à Gestão de decisões {#about-decision-management}
 
 Use o [!DNL Journey Optimizer] para fornecer a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa. Depois de projetado, direcione os públicos-alvo com ofertas personalizadas.
 
@@ -110,16 +116,16 @@ Você pode encontrar abaixo a lista dos principais conceitos com os quais trabal
 
 ## Vídeos tutoriais{#video}
 
-### O que é a gestão de decisões? {#what-is-offer-decisioning}
+### O que é gestão de decisões? {#what-is-offer-decisioning}
 
 O vídeo abaixo fornece uma introdução aos principais recursos, arquitetura e casos de uso da Gestão de decisões:
 
->[!VIDEO](https://video.tv.adobe.com/v/340418?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Definir e gerenciar ofertas {#use-offer-decisioning}
 
 O vídeo abaixo mostra como usar a Gestão de decisões para definir e gerenciar suas ofertas e aproveitar os dados do cliente em tempo real.
 
->[!VIDEO](https://video.tv.adobe.com/v/340355?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 
