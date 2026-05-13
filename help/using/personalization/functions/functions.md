@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2536'
 ht-degree: 2%
 
 ---
@@ -240,7 +240,7 @@ As funções são organizadas em três categorias para facilitar a navegação:
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">Absoluto   </a></td><td>Essa função formata qualquer número em sua representação sensível a linguagem.</td>
+        <td><a href="math.md#absolute">Absoluto</a></td><td>Essa função formata qualquer número em sua representação sensível a linguagem.</td>
     </tr>
     <tr>
         <td><a href="math.md#format-number">Formatar número</a></td><td>Essa função formata qualquer número em sua representação sensível a linguagem.</td>
@@ -462,6 +462,9 @@ Os auxiliares estão detalhados em [esta página](helpers.md).
     </tr>
     <tr>
         <td><a href="helpers.md#url-parameter-encryption-helper">Criptografar</a></td><td>Criptografa valores de expressão para parâmetros de consulta de URL no momento da renderização usando uma chave ativa do registro da sandbox </td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#url-function">URL</a></td><td>Esta função lida com URLs no conteúdo de mensagens SMS; use-a com <code>originalUrl</code> para encurtar a URL e <code>type='DEEPLINK'</code> para inserir deeplinks</td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">Com</a></td><td>Esta função é usada para alterar o token de avaliação da parte do modelo</td>
