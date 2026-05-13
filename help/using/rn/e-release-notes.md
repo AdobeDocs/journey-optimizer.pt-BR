@@ -6,12 +6,333 @@ description: Notas de pré-lançamento do Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: f561e5c548964d380ba7884c1e872e86db8409f3
 workflow-type: tm+mt
-source-wordcount: '12'
-ht-degree: 100%
+source-wordcount: 1700
+ht-degree: 12%
 
 ---
+
+
+## Notas de pré-lançamento de maio de 2026 {#may-26-rn}
+
+**As notas de pré-lançamento abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade da versão**. Links, telas e a documentação atualizada são publicados nas notas de versão na data de lançamento.
+
+Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+
+**Data de lançamento**: 19 a 20 de maio de 2026
+
+### Novos recursos {#may-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Jornada Expression Agent</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] agora inclui um <strong>Agente de Expressão</strong> diretamente no editor de expressão de Jornada. Com a tecnologia AI, ele ajuda você a <strong>gerar e otimizar expressões</strong> por meio de uma interface de linguagem natural — descrever a lógica necessária em linguagem simples, e o agente produz uma expressão pronta para uso. Você também pode selecionar qualquer expressão existente e pedir ao agente para explicá-la, corrigi-la ou sugerir melhorias.</p>
+<p>Esse recurso está disponível para todos os clientes no Beta público.</p>
+<p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-14692">DOCAC-14692</a></p>
+<p>Data de disponibilidade: 19 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Pastas para jornadas e campanhas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode organizar suas jornadas e campanhas em <strong>pastas</strong> para melhorar a navegação e o gerenciamento na interface.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
+<p>Data de disponibilidade: 19 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Suporte à decisão no canal de correspondência direta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode adicionar <strong>Políticas de decisão</strong> em jornadas e campanhas de correspondência direta. As políticas de decisão são containers para suas ofertas que utilizam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo a ser entregue a cada membro do público-alvo.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-13429">DOCAC-13429</a></p>
+<p>Data de disponibilidade: 19 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Acabamento automático para jornadas únicas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As jornadas não recorrentes <strong>Ler público-alvo</strong> agora são fechadas automaticamente quando o último perfil ativo sair. Anteriormente, essas jornadas permaneciam ativas até que o tempo limite global de 91 dias expirasse — mesmo quando nenhum perfil estava fluindo mais por elas. Com essa melhoria, a transição única do jornada para o status <strong>Concluído</strong> assim que a execução for concluída, mantendo o inventário do jornada preciso sem intervenção manual.</p>
+<p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-14542">DOCAC-14542</a></p>
+<p>Data de disponibilidade: 19 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Acionar campanhas orquestradas a partir de uma atividade End</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode acionar uma <strong>campanha orquestrada</strong> diretamente da <strong>Finalizar atividade</strong> de uma campanha de origem. Na campanha de origem, selecione a atividade End e escolha a campanha de destino que será acionada. Opcionalmente, é possível transmitir parâmetros para o workflow desejado, permitindo uma execução de campanha dinâmica e encadeada.</p>
+<p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-14116">DOCAC-14116</a></p>
+<p>Data de disponibilidade: 19 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Otimização do caminho de Jornada - Direcionamento</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Use o nó <strong>Otimize</strong> para direcionar públicos-alvo específicos a fim de determinar o melhor caminho para atender aos KPIs centrados nos negócios. Essa ferramenta permite desenvolver campanhas de marketing mais eficazes, com maior probabilidade de repercutir no nível 1:1, melhorar os esforços de personalização de marketing para os clientes e aprimorar KPIs essenciais de engajamento do cliente, como conversões e receita.</p>
+<p>Anteriormente disponível com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-14720">DOCAC-14720</a></p>
+<p>Data de disponibilidade: 19 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Arbitragem de Jornada - fórmulas de classificação</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode usar <strong>fórmulas</strong> para aumentar automaticamente as pontuações de prioridade de jornada com base nos atributos do perfil do cliente e em fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
+<p>Anteriormente disponível com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-14719">DOCAC-14719</a></p>
+<p>Data de disponibilidade: 19 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Fragmentos de conteúdo com o Adobe Experience Manager</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível gerenciar fragmentos de conteúdo do Adobe Experience Manager com a mesma facilidade dos fragmentos nativos do HTML e do Expression.</p>
+<p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-14686">DOCAC-14686</a></p>
+<p>Data de disponibilidade: 19 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Configuração do repositório do Adobe Experience Manager</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você tem flexibilidade em como o Adobe Journey Optimizer acessa o conteúdo do Adobe Experience Manager. Esta versão apresenta a capacidade de alternar o repositório de origem para fragmentos de conteúdo usados em suas jornadas e campanhas.</p>
+<p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-14684">DOCAC-14684</a></p>
+<p>Data de disponibilidade: 19 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Mensagens RCS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Para oferecer suporte à adição do RCS, o fluxo de trabalho de mensagens móveis foi atualizado. SMS, MMS e RCS agora estão convenientemente agrupados em um único canal de mensagens móveis no Adobe Journey Optimizer.</p>
+<p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-12288">DOCAC-12288</a></p>
+<p>Data de disponibilidade: 19 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Direcionamento do arquivo em campanhas orquestradas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A definir</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-14704">DOCAC-14704</a></p>
+<p>Data de disponibilidade: 28 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Aprimoramentos {#may-26-improv}
+
+Os aprimoramentos incluídos nesta versão estão listados abaixo.
+
+#### IA
+
+* **Journey Agent - Analisar** - O Journey Agent agora inclui novas habilidades de análise, apresentando recomendações de IA visíveis na tela inicial da Jornada. Os cartões fornecem insights e links acionáveis para jornadas relevantes, ajudando os profissionais a identificar e agir rapidamente em oportunidades de otimização. No momento, o recurso está com disponibilidade limitada para clientes selecionados, com planos para a transição para a disponibilidade geral no mês para aqueles com SKUs habilitadas para IA.
+
+  Tarefa JIRA de documentação: [DOCAC-14540](https://jira.corp.adobe.com/browse/DOCAC-14540)
+
+  Data de disponibilidade: 19 de maio de 2026
+
+#### Campanhas
+
+* **Alertas de clientes para eventos de ciclo de vida da campanha** - Sete alertas de ciclo de vida estão sendo lançados, permitindo que você assine notificações no nível da sandbox e, para determinados alertas, no nível da campanha individual.
+
+  Tarefa JIRA de documentação: [DOCAC-14539](https://jira.corp.adobe.com/browse/DOCAC-14539)
+
+  Data de disponibilidade: 19 de maio de 2026
+
+* **Substituir o campo de execução padrão em campanhas** - Disponível anteriormente no nível de jornada, agora é possível substituir o campo de execução padrão definido globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da campanha.
+
+  Tarefa JIRA de documentação: [DOCAC-14718](https://jira.corp.adobe.com/browse/DOCAC-14718)
+
+  Data de disponibilidade: 19 de maio de 2026
+
+#### Configuração
+
+* **Complemento de Desempenho para Push de alta taxa de transferência** - O Complemento de Desempenho de alta taxa de transferência agora também está disponível para o canal **Push**. Anteriormente, essa capacidade só estava disponível para o canal de email.
+
+  Tarefa JIRA de documentação: [DOCAC-14717](https://jira.corp.adobe.com/browse/DOCAC-14717)
+
+  Data de disponibilidade: 19 de maio de 2026
+
+#### Tomada de decisão
+
+* **Fragmentos de conteúdo do Adobe Experience Manager na Decisão** - Agora é possível mapear **Fragmentos de conteúdo do Adobe Experience Manager** para Atributos de item de oferta no Experience Decisioning. O conteúdo personalizado criado no Adobe Experience Manager pode ser selecionado e otimizado por meio de modelos de decisão, fórmulas e classificação. Até cinco fragmentos de conteúdo do AEM podem ser adicionados por item de oferta. Somente fragmentos de conteúdo marcados como **AJO Habilitado** no AEM podem ser selecionados.
+
+  Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+
+  Tarefa JIRA de documentação: [DOCAC-14529](https://jira.corp.adobe.com/browse/DOCAC-14529)
+
+  Data de disponibilidade: 19 de maio de 2026
+
+#### Designer de email
+
+* **Rich text em campos de fragmento editáveis** - Ao usar o componente de Texto como um fragmento editável, agora é possível adicionar **rich text** aos campos editáveis, incluindo hiperlinks e formatação em negrito/itálico.
+
+  Tarefa JIRA de documentação: [DOCAC-14715](https://jira.corp.adobe.com/browse/DOCAC-14715)
+
+  Data de disponibilidade: 19 de maio de 2026
+
+* **Restringir a quebra de herança nos fragmentos** - Ao criar ou editar um fragmento, agora é possível escolher se a herança pode ser interrompida ou não, permitindo criar fragmentos que nunca podem ser desbloqueados quando usados em emails. Isso ajuda a aplicar o controle, manter a consistência da marca e dar suporte aos requisitos de conformidade para blocos de conteúdo regulamentados ou gerenciados centralmente.
+
+  Tarefa JIRA de documentação: [DOCAC-14716](https://jira.corp.adobe.com/browse/DOCAC-14716)
+
+  Data de disponibilidade: 19 de maio de 2026
+
+* **Bloqueio de conteúdo em páginas de aterrissagem** - Agora é possível bloquear partes do conteúdo em **modelos de páginas de aterrissagem**, de forma semelhante à funcionalidade já disponível para modelos de email. Selecione as estruturas e os componentes editáveis e aplique um dos três tipos de bloqueio: **Design Bloqueado** (somente textos, imagens e URLs podem ser editados; as configurações de design estão desabilitadas), **Design e Conteúdo Bloqueados** (tudo está bloqueado) ou **Posição de Bloqueio**.
+
+  Tarefa JIRA de documentação: [DOCAC-14714](https://jira.corp.adobe.com/browse/DOCAC-14714)
+
+  Data de disponibilidade: 19 de maio de 2026
+
+* **Email Designer no Unified Shell** - O Email Designer agora está integrado à interface do Journey Optimizer Unified Shell, em vez de ser iniciado diretamente em tela inteira.
+
+  Tarefa JIRA de documentação: [DOCAC-14254](https://jira.corp.adobe.com/browse/DOCAC-14254)
+
+  Data de disponibilidade: 19 de maio de 2026
+
+#### Jornadas
+
+* **Autenticação Personalizada Baseada em Certificado em ações personalizadas** - As ações personalizadas agora oferecem suporte à **Autenticação Personalizada Baseada em Certificado**. Ao adicionar `subType: "certificateCredential"` a uma configuração de autorização personalizada, o Journey Optimizer usa o certificado gerenciado da Adobe para assinar uma declaração de cliente JWT e trocá-la por um token de acesso — não é necessário nenhum segredo de cliente. Projetado para APIs empresariais que impõem a verificação de identidade baseada em certificados, como o Azure Entra ID.
+
+  Tarefa JIRA de documentação: [DOCAC-14543](https://jira.corp.adobe.com/browse/DOCAC-14543)
+
+  Data de disponibilidade: 19 de maio de 2026
+
+* **Suporte de identificador complementar para públicos-alvo externos** - O suporte de identificador complementar é estendido para **públicos-alvo externos**, incluindo públicos-alvo importados de um arquivo CSV ou criados com a Federated Audience Composition. Qualquer atributo que não seja de identidade (ou identidade que não seja de pessoa) agora pode ser usado como a ID complementar para todos os tipos de público-alvo.
+
+  Tarefa JIRA de documentação: [DOCAC-14541](https://jira.corp.adobe.com/browse/DOCAC-14541)
+
+  Data de disponibilidade: 19 de maio de 2026
+
+#### Campanhas orquestradas
+
+* **Adicionar links na atividade de Enriquecimento** - A funcionalidade Adicionar Link agora está disponível na Atividade de Enriquecimento para Campanhas Orquestradas. Isso permite criar uma relação direta entre os dados da tabela de trabalho e as tabelas do banco de dados existente.
+
+  Tarefa JIRA de documentação: [DOCAC-14762](https://jira.corp.adobe.com/browse/DOCAC-14762)
+
+  Data de disponibilidade: 26 de maio de 2026
+
+* **Executar um loop sobre coleções de enriquecimento na personalização** - O editor de personalização em campanhas orquestradas agora oferece suporte a uma construção de loop para iterar sobre uma coleção de uma atividade de enriquecimento.
+
+  Tarefa JIRA de documentação: [DOCAC-14703](https://jira.corp.adobe.com/browse/DOCAC-14703)
+
+  Data de disponibilidade: 28 de maio de 2026
+
+#### Email
+
+* **Personalização do cabeçalho de email com os destinatários** - Agora é possível personalizar cabeçalhos de email no nível de Campanha Orquestrada substituindo as configurações de canal globais por parâmetros de personalização.
+
+  Tarefa JIRA de documentação: [DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)
+
+  Data de disponibilidade: 29 de maio de 2026
+
+#### Relatórios
+
+* **Excluir cliques de bot para relatórios de email e SMS** - Novas métricas estimadas agora estão disponíveis para ajudar a filtrar interações não humanas (bot) dos relatórios de email e SMS. Eles incluem cliques estimados, taxas de click-through (CTR) e taxas de click-to-open (CTOR), fornecendo uma visualização mais precisa do engajamento real do cliente. As métricas existentes permanecem inalteradas e essas novas métricas podem ser usadas junto com os relatórios atuais para análise aprimorada.
+
+  Tarefa JIRA de documentação: [DOCAC-14354](https://jira.corp.adobe.com/browse/DOCAC-14354)
+
+  Data de disponibilidade: 19 de maio de 2026
 
 <!--
 # Pre-release notes {#e-release-notes}
