@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1184'
 ht-degree: 4%
 
 ---
@@ -216,6 +216,30 @@ O exemplo a seguir permite calcular a soma total dos preços dos produtos no car
 {{sum}}
 ```
 
+## URL {#url}
+
+O auxiliar do `url` é usado para rastrear links, encurtar URLs e inserir [deeplinks](../../email/deeplinks.md) no conteúdo da sua mensagem SMS.
+
+**Sintaxe**
+
+```sql
+{{url originalUrl='<your_url>' type='<DEEPLINK>' action='CLICK'}}
+```
+
+**Parâmetros**
+
+| Parâmetro | Descrição |
+|---|---|
+| `originalUrl` | O URL a ser encurtado. |
+| `type` | O tipo de link. Use o `DEEPLINK` para abrir uma tela específica em um aplicativo móvel. |
+| `action` | A ação de rastreamento. Use `CLICK` para rastrear cliques no link. |
+
+**Exemplo**
+
+```sql
+  {{url originalUrl='https://www.mybusiness.com/offers/summer-sale' type='DEEPLINK' action='CLICK'}}
+```
+
 ## Pesquisa de conjunto de dados {#dataset-lookup}
 
 >[!AVAILABILITY]
@@ -319,7 +343,7 @@ Os valores que apareceriam como texto sem formatação no URL (incluindo PII ou 
 
 Este auxiliar permite proteger os dados de perfil confidenciais (PII) antes de incluí-los na saída renderizada.
 
-**Pré-requisitos**
+**Pré-requisito**
 
 Um administrador deve criar pelo menos uma chave ativa no registro de chaves no nível da sandbox. [Saiba como criar e gerenciar chaves](../url-parameter-encryption.md#create-keys)
 
