@@ -11,7 +11,7 @@ hide: true
 keywords: fragmentos, jornada, reutilizar, nós, tela, inventário, reutilizável
 badge: label="Disponibilidade limitada" type="Informative"
 version: Journey Orchestration
-source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
+source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 1%
