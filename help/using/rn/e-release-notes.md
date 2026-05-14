@@ -9,23 +9,25 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 0b99959d7842fbf36fdea0b34193775a0b40a88c
+source-git-commit: 994993397cf20a8eca514fad31ed3c9ece98dae2
 workflow-type: tm+mt
-source-wordcount: 2022
-ht-degree: 11%
+source-wordcount: 2054
+ht-degree: 10%
 
 ---
 
 
 ## Notas de pré-lançamento de maio de 2026 {#may-26-rn}
 
-**As notas de pré-lançamento abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade da versão**. Links, telas e a documentação atualizada são publicados nas notas de versão na data de lançamento.
+**As notas de pré-lançamento abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade da versão**. Links, telas e documentação atualizada são publicados assim que as alterações são ativadas na produção. Embora a maioria das alterações seja fornecida na data de lançamento, algumas podem ser lançadas posteriormente — consulte a Data de disponibilidade listada para cada entrada para obter detalhes.
 
 Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Data de lançamento**: 19 a 20 de maio de 2026
 
 ### Novos recursos {#may-26-features}
+
+Os recursos a seguir são direcionados para esta versão.
 
 <table>
 <thead>
@@ -224,7 +226,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 
 ### Aprimoramentos {#may-26-improv}
 
-Os aprimoramentos incluídos nesta versão estão listados abaixo.
+As seguintes melhorias estão direcionadas para esta versão.
 
 <!--
 #### AI
