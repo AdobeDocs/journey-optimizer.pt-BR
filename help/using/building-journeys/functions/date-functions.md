@@ -7,9 +7,15 @@ role: Developer
 level: Experienced
 keywords: data, funções, expressão, jornada, hora
 version: Journey Orchestration
-source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
+exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
+TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: 834
 ht-degree: 11%
 
 ---
@@ -476,7 +482,7 @@ Retorna 2023-12-12T04:11:00Z.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Retorna amanhã às 20h00, sendo XY os minutos no momento da avaliação de hora atual. :XY Se a avaliação ocorrer às 2:45 AM, a hora retornada será 20:45 PM.
+Retorna amanhã às 20h00, sendo XY os minutos no momento da avaliação de hora atual. :XYSe a avaliação ocorrer às 2:45 AM, a hora retornada será 20:45 PM.
 
 +++
 
@@ -558,4 +564,3 @@ Retorna 28/08/2023:15:30.123+02:00.
 Se o valor do campo de carimbo de data/hora for `2021-11-16T16:55:12.939318+01:00`, a função retornará `2021-11-17T02:55:12.942115+11:00`.
 
 +++
-

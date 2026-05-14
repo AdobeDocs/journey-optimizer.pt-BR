@@ -9,10 +9,17 @@ role: User
 level: Beginner, Intermediate
 keywords: componentes, Email Designer, editor, email
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+TQID: https://experienceleague.adobe.com/t-8ADluALsr8pglh8Rv1y9TvObyUjjTAfXaagM-N7cs
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 49%
+source-wordcount: 1468
+ht-degree: 47%
 
 ---
 
@@ -102,7 +109,7 @@ Use o componente **[!UICONTROL Botão]** para inserir um ou vários botões no e
 
    ![](assets/email_designer_button_link.png)
 
-1. Você pode personalizar ainda mais seu botão alterando atributos de estilo como **[!UICONTROL Borda]**, **[!UICONTROL Tamanho]**, **[!UICONTROL Margem]** etc., do painel **[!UICONTROL Configurações do componente]**.
+1. Você pode personalizar ainda mais seu botão alterando atributos de estilo como **[!UICONTROL Borda]**, **[!UICONTROL Tamanho]**, **[!UICONTROL Margem]**, etc. do painel **[!UICONTROL Configurações de componente]**.
 
 ## Texto {#text}
 
@@ -133,7 +140,7 @@ Use o componente **[!UICONTROL Texto]** para inserir texto no email e ajustar o 
    * **[!UICONTROL Duplicar]**: adicione uma cópia do seu componente de texto.
    * **[!UICONTROL Excluir]**: exclua o componente de texto selecionado do seu email.
 
-1. Ajuste os outros atributos de estilo, como cor do texto, família da fonte, borda, preenchimento, margem etc., na guia **[!UICONTROL Estilos]**.
+1. Ajuste os outros atributos de estilo, como cor do texto, família da fonte, borda, preenchimento, margem, etc., na guia **[!UICONTROL Estilos]**.
 
    ![](assets/email_designer_text_component_2.png)
 
@@ -173,7 +180,7 @@ Use o componente **[!UICONTROL Imagem]** para inserir um arquivo de imagem do se
 
 1. Na guia **[!UICONTROL Configurações]**, clique em **[!UICONTROL Procurar]** para escolher um arquivo de imagem de seus ativos ou em **[!UICONTROL Importar mídia]** para carregar um ativo para a Adobe Experience Manager Assets.
 
-   Para saber mais sobre [!DNL Adobe Experience Manager Assets], consulte a [documentação do Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=pt-BR){target="_blank"}.
+   Para saber mais sobre [!DNL Adobe Experience Manager Assets], consulte a [documentação do Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >
@@ -184,13 +191,13 @@ Use o componente **[!UICONTROL Imagem]** para inserir um arquivo de imagem do se
 1. Clique no componente recém-adicionado e configure as propriedades da imagem:
 
    * **[!UICONTROL Título da imagem]** permite definir um título para a imagem.
-   * **[!UICONTROL Texto alternativo]** permite definir a legenda vinculada à imagem. Isso corresponde ao atributo alt HTML. [Saiba mais](../email/accessible-content.md#alt-text)
+   * **[!UICONTROL Texto alternativo]** permite definir a legenda vinculada à imagem. Isso corresponde ao atributo HTML alternativo. [Saiba mais](../email/accessible-content.md#alt-text)
 
    ![](assets/email_designer_10.png)
 
 1. Você também pode optar por **[!UICONTROL Localizar fotos semelhantes do Stock]**. [Saiba mais](../integrations/stock.md)
 
-1. Na guia **[!UICONTROL Estilos]**, ajuste os outros atributos de estilo, como margem, borda etc. ou adicione um link para redirecionar o seu público-alvo para outro conteúdo a partir do painel **[!UICONTROL Configurações do componente]**.
+1. Na guia **[!UICONTROL Estilos]**, ajuste os outros atributos de estilo, como margem, borda etc., ou adicione um link para redirecionar o público-alvo para outro conteúdo do painel **[!UICONTROL Configurações de componente]**.
 
 ## Social {#social}
 

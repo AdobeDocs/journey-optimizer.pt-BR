@@ -9,10 +9,16 @@ role: Admin
 level: Experienced
 keywords: IP, capacidade de entrega
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
+TQID: https://experienceleague.adobe.com/xjJKrCXUmQY5sZu2w-B09agQh-tb4qkSXM0Vh2-TDnc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c343082f-e963-4f57-a96b-b64d27f8118eid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 43%
+source-wordcount: 459
+ht-degree: 38%
 
 ---
 
@@ -52,11 +58,11 @@ As principais etapas para implementar um plano de aquecimento de IP são as segu
 
 1. Selecione uma campanha para cada fase do plano e ative as execuções correspondentes. [Saiba mais](ip-warmup-execution.md)
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Saiba como criar e executar um plano de aquecimento de IP.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453845/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
@@ -66,10 +72,10 @@ Saiba como criar e executar um plano de aquecimento de IP.
 
 Explore estas publicações úteis do blog para obter orientação mais detalhada sobre o aquecimento de IP:
 
-* [Guia de capacidade de entrega do Adobe Journey Optimizer: da reputação zero à experiência da caixa de entrada](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=pt) - Guia abrangente que aborda fundamentos de reputação, calendários de aquecimento, monitoramento e práticas recomendadas de solução de problemas.
+* [Guia de capacidade de entrega do Adobe Journey Optimizer: da reputação zero à experiência da caixa de entrada](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) - Guia abrangente que aborda fundamentos de reputação, calendários de aquecimento, monitoramento e práticas recomendadas de solução de problemas.
 
-* [Noções básicas sobre como configurar o aquecimento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949?profile.language=pt) - Saiba mais sobre os fundamentos da configuração de planos de aquecimento de IP e práticas recomendadas para uma implementação bem-sucedida.
+* [Noções básicas sobre como configurar o aquecimento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) - Saiba mais sobre os fundamentos da configuração de planos de aquecimento de IP e práticas recomendadas para uma implementação bem-sucedida.
 
-* [Recursos avançados em planos de aquecimento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958?profile.language=pt) - Descubra recursos avançados e controles granulares para otimizar sua estratégia de aquecimento de IP.
+* [Recursos avançados em planos de aquecimento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) - Descubra recursos avançados e controles granulares para otimizar sua estratégia de aquecimento de IP.
 
-* [Solução de problemas de aquecimento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952?profile.language=pt) - Encontre soluções para problemas comuns, como atrasos de público-alvo e saiba mais sobre os mecanismos de repetição inteligente.
+* [Solução de problemas de aquecimento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) - Encontre soluções para problemas comuns, como atrasos de público-alvo e saiba mais sobre os mecanismos de repetição inteligente.

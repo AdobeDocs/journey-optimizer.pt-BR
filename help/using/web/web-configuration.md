@@ -6,10 +6,16 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+TQID: https://experienceleague.adobe.com/QtTkevbB9U3-Aad9mOZ6eI8ZMCjx-riEWyPaQ0eLqmc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 11%
+source-wordcount: 943
+ht-degree: 12%
 
 ---
 
@@ -99,7 +105,7 @@ Ao criar uma regra [que corresponda a várias páginas](#web-page-matching-rule)
 
   | Operador  | Descrição  | Exemplos  |
   |---|---|---|
-  | Igual a  | Correspondência exata do domínio.  | |
+  | Igual  | Correspondência exata do domínio.  | |
   | Começa com  | Corresponde a todos os domínios (incluindo subdomínios) que começam com a cadeia de caracteres inserida.  | Exemplo: &quot;Começa com: dev&quot; -> corresponde a todos os domínios e subdomínios que começam com &quot;dev&quot;, como: dev.example.com, dev.products.example.com, developer.example.com  |
   | Termina com  | Corresponde a todos os domínios (incluindo subdomínios) que terminam com a cadeia de caracteres inserida.  | Ex: &quot;Termina com: exemplo.com&quot; -> corresponde a todos os domínios e subdomínios que terminam com &quot;exemplo.com&quot;, como: stage.example.com, prod.example.com, myexample.com  |
   | Correspondência de curinga  | O operador &quot;Correspondência de curinga&quot; permite que o usuário defina uma correspondência de curinga no meio da cadeia de caracteres, como &quot;dev.*.example.com&quot;. As regras de validação indicam que o valor deve conter apenas um curinga (asterisco) quando o operador for &quot;correspondente a um curinga&quot;.  | Exemplo: &quot;Correspondência curinga: dev.*.example.com&quot; -> corresponde a domínios como: dev.products.example.com, dev.mytest.products.example.com, dev.blog.example.com  |

@@ -10,10 +10,16 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+TQID: https://experienceleague.adobe.com/mCe101lMG7wraD7IN-dge7-hSlJ6AAob6QmL-ThjdsY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: c20d46e7-1c7d-476c-a50e-3961d4dce35fid: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 18%
+source-wordcount: 842
+ht-degree: 20%
 
 ---
 
@@ -40,7 +46,7 @@ A lista de ofertas personalizadas está acessível no menu **[!UICONTROL Ofertas
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_details"
 >title="Detalhes da oferta"
->abstract="Preencha o nome e as datas inicial e final da oferta. Fora dessas datas, a oferta não será selecionada pelo mecanismo de decisão. "
+>abstract="Preencha o nome e as datas inicial e final da oferta. Fora dessas datas, a oferta não será selecionada pelo mecanismo de decisão."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
@@ -63,7 +69,7 @@ Para criar uma **oferta**, siga estas etapas:
 
    ![](../assets/create_offer.png)
 
-1. Especifique o nome da oferta, bem como a data e a hora de início e término. Fora dessas datas, a oferta não será selecionada pelo mecanismo de decisão. 
+1. Especifique o nome da oferta, bem como a data e a hora de início e término. Fora dessas datas, a oferta não será selecionada pelo mecanismo de decisão.
 
    >[!NOTE]
    >
@@ -97,7 +103,7 @@ Para criar uma **oferta**, siga estas etapas:
 
    >[!NOTE]
    >
-   >Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar os dados.
+   >Ao selecionar públicos-alvo ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar os dados.
    >
    >Observe que as estimativas de perfil não estão disponíveis quando os parâmetros da regra incluem dados que não estão no perfil, como dados de contexto. Por exemplo, uma regra de elegibilidade que exige que o tempo atual seja ≥ 80 graus.
 
@@ -176,4 +182,4 @@ Isso permite que você acesse informações detalhadas dessa oferta. Selecione a
 
 ## Tutorial em vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341360?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

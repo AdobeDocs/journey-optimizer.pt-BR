@@ -9,9 +9,15 @@ role: Admin
 level: Experienced
 keywords: supressão, lista, rejeição, email, otimizador, quarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/SCZngTO54cFP5nZ00bxurXYB-FTtEkKablk1Ls2SGto
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1611'
+source-wordcount: 1611
 ht-degree: 23%
 
 ---
@@ -61,30 +67,30 @@ As categorias de supressão são as seguintes:
 
   Quando o erro é o resultado de uma reclamação de spam, ele também se enquadra na categoria **Grave**. O endereço de email do recipient que emitiu a reclamação é enviado imediatamente para a lista de supressão.
 
-* **Soft**: A soft bounce is a temporary email bounce that occurred for a valid email address. The email address is added to the suppression list after several retries. Soft errors send an address to the suppression list once the error counter reaches the limit threshold. [Learn more about retries](retries.md)
+* **Soft**: uma rejeição temporária é uma rejeição de email que ocorreu para um endereço de email válido. O endereço de email é adicionado à lista de supressão após várias tentativas. Os erros suaves enviam um endereço para a lista de supressão assim que o contador de erros atinge o limite. [Saiba mais sobre tentativas](retries.md)
 
-* **Manual**: Manual errors have been added manually to the suppression list. [Saiba mais](#add-addresses-and-domains)
+* **Manual**: erros manuais foram adicionados manualmente à lista de supressão. [Saiba mais](#add-addresses-and-domains)
 
-For each email address that is listed, you can also check the **[!UICONTROL Type]** (email or domain), **[!UICONTROL Reason]** for excluding it, who added it, and the date/time it was added to the suppression list.
+Para cada endereço de email listado, você também pode verificar o **[!UICONTROL Tipo]** (email ou domínio), o **[!UICONTROL Motivo]** da exclusão, quem o adicionou e a data/hora em que ele foi adicionado à lista de supressão.
 
-Possible reasons for a delivery failure are:
+Os possíveis motivos para uma falha de delivery são:
 
 | Motivo | Descrição | Categoria |
 | --- | --- | --- |
-| **[!UICONTROL Invalid Recipient]** | The recipient&#39;s address is invalid or does not exist. | Grave |
-| **[!UICONTROL Soft Bounce]** | The message soft bounced for a reason other than the soft errors listed in this table, such as when sending over the allowed rate recommended by an ISP. | Suave |
-| **[!UICONTROL DNS Failure]** | The message bounced due to a DNS failure. | Suave |
-| **[!UICONTROL Mailbox Full]** | The message bounced due to the mailbox of the recipient being full and unable to accept more messages. | Suave |
-| **[!UICONTROL Relaying Denied]** | The message was blocked by the receiver because relaying is not allowed. | Suave |
-| **[!UICONTROL Challenge-Response]** | The message is a challenge-response probe. | Suave |
-| **[!UICONTROL Spam Complaint]** | The message was blocked because marked as a spam by the recipient. | Grave |
+| **[!UICONTROL Destinatário inválido]** | O endereço do destinatário é inválido ou não existe. | Grave |
+| **[!UICONTROL Rejeição leve]** | A mensagem teve rejeição temporária por um motivo diferente dos erros temporários listados nesta tabela, como ao enviar acima da taxa permitida recomendada por um ISP. | Suave |
+| **[!UICONTROL Falha de DNS]** | A mensagem foi rejeitada devido a uma falha de DNS. | Suave |
+| **[!UICONTROL Caixa de Correio Cheia]** | A mensagem foi rejeitada porque a caixa de entrada do destinatário está cheia e não pode receber mais mensagens. | Suave |
+| **[!UICONTROL Retransmissão negada]** | A mensagem foi bloqueada pelo destinatário porque a retransmissão não é permitida. | Suave |
+| **[!UICONTROL Resposta-Desafio]** | A mensagem é uma prova de desafio-resposta. | Suave |
+| **[!UICONTROL Reclamação de spam]** | A mensagem foi bloqueada porque foi marcada como spam pelo destinatário. | Grave |
 
 >[!NOTE]
 >
->Unsubscribed users are not receiving emails from [!DNL Journey Optimizer], therefore their email addresses cannot be sent to the suppression list. Their choice is handled at the Experience Platform level. [Learn more about opting-out](../privacy/opt-out.md)
+>Os usuários não inscritos não estão recebendo emails de [!DNL Journey Optimizer], portanto seus endereços de email não podem ser enviados para a lista de supressão. A escolha é feita no nível da Experience Platform. [Saiba mais sobre recusa](../privacy/opt-out.md)
 
 
-### Suppression rules  {#suppression-rules}
+### Regras de supressão  {#suppression-rules}
 
 Na exibição **[!UICONTROL Lista de supressão]**, você também pode editar o parâmetro de nova tentativa associado às regras de supressão do botão **[!UICONTROL Editar regras de supressão]**. Use essa opção para atualizar o limite de novas tentativas da sandbox atual. [Saiba mais sobre tentativas](retries.md).
 

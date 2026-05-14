@@ -5,20 +5,22 @@ title: Usar a atividade Desduplicação
 description: Saiba como usar a atividade Desduplicação
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+TQID: https://experienceleague.adobe.com/JyOhHRf04YYgLLtThIu6oK68UGmztfgiKhXME-cYJ6c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: 614
 ht-degree: 98%
 
 ---
-
 
 # Desduplicação {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_deduplication_fields"
 >title="Campos para identificar duplicatas"
->abstract="Na seção **Campos para identificar duplicatas**, clique no botão **Adicionar atributo** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos permite especificar os que devem ser processados primeiro."
+>abstract="Na seção **Campos para identificar duplicados**, clique no botão **Adicionar atributo** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicados, como: endereço de email, nome, sobrenome etc. A ordem dos campos permite especificar quais devem ser processados primeiro."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_deduplication"
@@ -44,7 +46,7 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Desduplicação]**:
 
 1. Adicione uma atividade **[!UICONTROL Deduplication]** à sua campanha Orquestrada.
 
-1. Na seção **[!UICONTROL Campos para identificar duplicatas]**, clique no botão **[!UICONTROL Adicionar atributo]** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos permite especificar os que devem ser processados primeiro.
+1. Na seção **[!UICONTROL Campos para identificar duplicados]**, clique no botão **[!UICONTROL Adicionar atributo]** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicados, como: endereço de email, nome, sobrenome etc. A ordem dos campos permite especificar quais devem ser processados primeiro.
 
    ![](../assets/deduplication-1.png)
 

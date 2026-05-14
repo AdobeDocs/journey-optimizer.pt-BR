@@ -5,13 +5,15 @@ title: Usar a atividade Bifurcação
 description: Saiba como usar a atividade Bifurcação em uma campanha orquestrada
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 version: Campaign Orchestration
-source-git-commit: 4ba956e83c4e28a6d578ffa093d8b8e5fbd2c50b
+TQID: https://experienceleague.adobe.com/b0FyVaM0LcSz1DLGd-UEhHqBqXMWcb0rbimJA6E7WOM
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: 256
 ht-degree: 47%
 
 ---
-
 
 # Bifurcação {#fork}
 

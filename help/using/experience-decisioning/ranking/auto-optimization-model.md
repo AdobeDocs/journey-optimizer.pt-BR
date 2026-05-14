@@ -8,9 +8,13 @@ role: User
 level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
 version: Journey Orchestration
-source-git-commit: ca31e819b0d120f54adfe2035ecacb21ac4f1f15
+TQID: https://experienceleague.adobe.com/HC3N8cjiZQQTfyt2Z0hKU3M-OUTw4y9REDnBIBXsJ9Q
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: 1763
 ht-degree: 0%
 
 ---
@@ -92,7 +96,7 @@ Eventualmente, se uma oferta (por exemplo, Oferta 1) for um vencedor claro, sua 
 
 +++ Detalhes do cálculo
 
-Para calcular/atualizar distribuições, usamos o Teorema de **Bayes&#39;**. Para cada oferta ***i***, queremos calcular seus ***P(𝛍i | dados)***, ou seja, para cada oferta ***i***, a probabilidade de um valor de recompensa **𝛍i**, dados os dados coletados até o momento para essa oferta.
+Para calcular/atualizar distribuições, usamos o Teorema de **Bayes&#39;**. Para cada oferta ***i***, queremos calcular seus ***P(𝛍i | dados)***, ou seja, para cada oferta ***i***, a probabilidade de um valor de premiação**𝛍 i**, dados os dados coletados até agora para essa oferta.
 
 A partir do Teorema de Bayes:
 
@@ -122,5 +126,5 @@ Em uma abordagem geral de amostragem de Thompson, a posterior é calculada simpl
 
 Para um mergulho mais profundo em Thompson sampling bandits, consulte os seguintes artigos de pesquisa:
 
-* [Uma Avaliação Empírica da Amostragem de Thompson](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
-* [Análise de Amostragem de Thompson para o problema do Multi-armed Bandit](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
+* [Uma avaliação empírica da Amostragem de Thompson](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
+* [Análise da Amostragem de Thompson para o problema do Multi-armed Bandit](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}

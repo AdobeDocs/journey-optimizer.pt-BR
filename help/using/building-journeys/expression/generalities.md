@@ -9,9 +9,13 @@ level: Experienced
 keywords: sintaxe, editor, jornada
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+TQID: https://experienceleague.adobe.com/-PTYUf-njT3-LsI-A5IKEMDGOl4JecZ-ayM0rU4f2HI
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 250
 ht-degree: 5%
 
 ---
@@ -37,7 +41,7 @@ As expressões serão avaliadas da esquerda para a direita. A associatividade em
 
 Estas são as diferentes regras de diferenciação entre maiúsculas e minúsculas:
 
-* Todos os operadores (and, or, etc.) devem ser escritos em minúsculas. Por exemplo, _`<expression1>`e`<expression2>`_ é uma expressão válida, enquanto a expressão _`<expression1>`E`<expression2>`_ não é.
+* Todos os operadores (and, or etc.) deve ser escrito em minúsculas. Por exemplo, _`<expression1>`e`<expression2>`_ é uma expressão válida, enquanto a expressão _`<expression1>`E`<expression2>`_ não é.
 * Todos os nomes de função fazem distinção entre maiúsculas e minúsculas. Por exemplo, _inAudience()_ é válido, enquanto a função _INAUDIENCE()_ não é.
 * Referências de campo e valores constantes fazem distinção entre maiúsculas e minúsculas: eles não são elementos integrados da linguagem (em vez de operadores e funções), eles são criados pelo usuário final.
 
@@ -49,4 +53,4 @@ Dependendo do contexto de uso, o editor de expressão pode retornar valores dife
 |--- |--- |
 | Condição (condição da fonte de dados, condição de data) | booleano |
 | Temporizador personalizado | dateTimeOnly |
-| Mapeamento de parâmetros de ação | Qualquer uma |
+| Mapeamento de parâmetros de ação | Qualquer |

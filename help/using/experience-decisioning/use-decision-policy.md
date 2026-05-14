@@ -8,9 +8,14 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: 771
 ht-degree: 3%
 
 ---
@@ -81,46 +86,46 @@ Depois de adicionar uma política de decisão ao conteúdo, você pode usar atri
 
 >[!ENDTABS]
 
-The decision policy code is added. You can now use attributes from the returned decision items to personalize your content.
+O código de política de decisão é adicionado. Agora você pode usar atributos dos itens de decisão retornados para personalizar seu conteúdo.
 
 >[!NOTE]
 >
->For code-based experience and email channels, repeat this sequence once per decision item you want returned. For example, if you chose to return 2 items when [creating the decision](create-decision-policy.md), repeat the sequence twice. For SMS and Push channels, only one decision item can be returned.
+>Para canais de email e experiência baseados em código, repita essa sequência uma vez por item de decisão que deseja retornar. Por exemplo, se você optou por retornar 2 itens ao [criar a decisão](create-decision-policy.md), repita a sequência duas vezes. Para canais SMS e Push, somente um item de decisão pode ser retornado.
 
-## Personalize with decision item attributes {#attributes}
+## Personalizar com atributos de item de decisão {#attributes}
 
-After you&#39;ve added the code for a decision policy in your content, all attributes from the returned decision items become available for personalization. [Learn how to work with personalization](../personalization/personalize.md).
+Depois de ter adicionado o código de uma política de decisão em seu conteúdo, todos os atributos dos itens de decisão retornados ficam disponíveis para personalização. [Saiba como trabalhar com personalização](../personalization/personalize.md).
 
-Attributes are stored in the &quot;Offers&quot; [catalog schema](catalogs.md). They display in the following folders from the personalization editor:
-* **Custom attributes**: `_\<imsOrg\>` folder
-* **Standard attributes**: `_experience` folder
+Os atributos são armazenados no [esquema de catálogo](catalogs.md) de &quot;Ofertas&quot;. Eles são exibidos nas seguintes pastas do editor de personalização:
+* **Atributos personalizados**: `_\<imsOrg\>` pasta
+* **Atributos padrão**: `_experience` pasta
 
-Decision item attributes and contextual attributes are not supported by default in [!DNL Journey Optimizer] fragments. However, you can use global variables instead, such as described below.
+Atributos de item de decisão e atributos contextuais não são suportados por padrão em fragmentos [!DNL Journey Optimizer]. No entanto, você pode usar variáveis globais, conforme descrito abaixo.
 
 ![](assets/decision-code-based-decision-attributes.png)
 
-To add an attribute, click the **`+`** icon next to the attribute. You can add as many attributes as needed. You can also include other personalization attributes, such as profile data.
+Para adicionar um atributo, clique no ícone **`+`** ao lado do atributo. Você pode adicionar quantos atributos forem necessários. Você também pode incluir outros atributos de personalização, como dados de perfil.
 
-* For **Email** and **Code-based** channels, wrap the attributes within the `#each` loop using square brackets `[ ]`, and add a comma before the closing `/each` tag.
+* Para canais **baseados em email** e **código**, coloque os atributos entre o loop `#each` usando colchetes `[ ]` e adicione uma vírgula antes de fechar a marca `/each`.
 
-  +++See example
+  +++Veja o exemplo
 
   ![](assets/decision-code-based-wrap-code.png)
 
   +++
 
-* For **SMS** and **Push** channels, make sure you insert attributes after the syntax code for the decision policy. This syntax should always be kept at line 1.
+* Para canais **SMS** e **Push**, insira atributos após o código de sintaxe da política de decisão. Essa sintaxe deve ser sempre mantida na linha 1.
 
-  +++See example
+  +++Veja o exemplo
 
   ![](assets/decision-added-sms.png)
 
   +++
 
   >[!NOTE]
-  >If you insert an image asset attribute in SMS or Push content (for example, in the title or body), the attribute value displays as a URL. The image itself is not rendered in those fields.
+  >Se você inserir um atributo de ativo de imagem no conteúdo de SMS ou Push (por exemplo, no título ou no corpo), o valor do atributo será exibido como um URL. A própria imagem não é renderizada nesses campos.
 
-* To enable decision item tracking, add the `trackingToken` attribute: `trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+* Para habilitar o rastreamento de item de decisão, adicione o atributo `trackingToken`: `trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 ## Visualizar e testar o conteúdo
 

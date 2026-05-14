@@ -9,10 +9,17 @@ role: User
 level: Beginner
 keywords: landing page, landing page, criação, página, formulário
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
+TQID: https://experienceleague.adobe.com/ecrWN9KOSy0Ha4OgJ9pW7RHp2X3pnGtxsH5tOfXvDgA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 7%
+source-wordcount: 2080
+ht-degree: 0%
 
 ---
 
@@ -20,18 +27,18 @@ ht-degree: 7%
 
 Para capturar dados de perfil com suas páginas de aterrissagem do [!DNL Journey Optimizer] e enriquecer seus conjuntos de dados do [!DNL Experience Platform], você pode usar formulários em suas páginas de aterrissagem. Para obter uma visão geral de cenários e requisitos de captura de dados, consulte [Captura de dados com páginas de aterrissagem](get-started-lp.md#data-capture-lp).
 
-## Criar uma predefinição de formulário {#create-form-preset}
+## Criação de uma predefinição de formulário {#create-form-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_connection"
->title="Selecionar o ponto de acesso a ser usado"
->abstract="Defina o ponto de acesso de transmissão para onde os dados serão mandados ao enviar o formulário."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Criar uma conexão de transmissão com a API HTTP"
+>title="Selecione o endpoint a ser usado"
+>abstract="Defina o ponto de encerramento da transmissão para onde os dados são enviados ao enviar o formulário."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Criar uma conexão de transmissão da API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
 >title="Selecionar um conjunto de dados"
->abstract="Defina um conjunto de dados em que as respostas do formulário serão armazenadas e refletidas. É possível digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista."
+>abstract="Defina um conjunto de dados em que as respostas do formulário serão armazenadas e refletidas. Você pode digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista."
 
 <!--
 >[!NOTE]
@@ -64,7 +71,7 @@ Para criar uma predefinição de formulário, siga as etapas abaixo.
 
 1. Selecione a **[!UICONTROL Conexão de streaming]** a ser usada para esse formulário. Este é o ponto de encerramento da transmissão para onde os dados são enviados ao enviar o formulário.
 
-   Saiba mais sobre como criar uma conexão de origem de streaming na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   Saiba mais sobre como criar uma conexão de origem de streaming na [documentação do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
    >[!IMPORTANT]
    >
@@ -73,13 +80,13 @@ Para criar uma predefinição de formulário, siga as etapas abaixo.
    >* **O tipo de dados** deve ser definido como **XDM** (não dados brutos)
    >* A **Autenticação** deve ser **desabilitada** (conexão não autenticada)
    >
-   >Se a conexão de transmissão não for exibida na lista, verifique se essas duas condições foram atendidas. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Se a conexão de transmissão não for exibida na lista, verifique se essas duas condições foram atendidas. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
-1. Selecione um **[!UICONTROL Conjunto de Dados]** para vincular ao formulário. É aqui que as respostas do formulário serão armazenadas e refletidas. É possível digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista.
+1. Selecione um **[!UICONTROL Conjunto de Dados]** para vincular ao formulário. É aqui que as respostas do formulário serão armazenadas e refletidas. Você pode digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista.
 
    >[!NOTE]
    >
-   >Atualmente, apenas **Conjuntos de dados** **habilitados para perfil e** Não habilitados para perfil[!DNL Adobe Experience Platform] estão disponíveis para seleção. Um conjunto de dados pode ser selecionado de cada vez. Os conjuntos de dados do sistema não podem ser usados para salvar dados de formulário. [Saiba mais sobre conjuntos de dados](../data/get-started-datasets.md)
+   >Atualmente, apenas **Conjuntos de dados [!DNL Adobe Experience Platform]** habilitados para perfil e **Não habilitados para perfil** estão disponíveis para seleção. Um conjunto de dados pode ser selecionado de cada vez. Os conjuntos de dados do sistema não podem ser usados para salvar dados de formulário. [Saiba mais sobre conjuntos de dados](../data/get-started-datasets.md)
 
 1. Clique em **[!UICONTROL Publicar]**. Sua predefinição agora está pronta para ser usada em um formulário.
 
@@ -97,13 +104,13 @@ Todos os formulários existentes são exibidos. Você pode filtrar formulários 
 
 ![](assets/lp_form-list.png)
 
-## Criar e projetar um formulário {#create-form}
+## Criar um formulário {#create-form}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_preset"
 >title="Selecionar uma predefinição"
->abstract="Escolha uma predefinição que contenha a conexão a ser usada e um conjunto de dados predefinido para o formulário."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Criar uma predefinição de formulário"
+>abstract="Escolha uma predefinição predefinida que contenha a conexão a ser usada e um conjunto de dados predefinido para seu formulário."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Criação de uma predefinição de formulário"
 
 Para criar um formulário, siga as etapas abaixo.
 
@@ -195,11 +202,11 @@ Depois de selecionar um atributo de campo ou adicionar um campo personalizado, v
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
 
-### Configure a página de agradecimento {#thank-you-page}
+### Configurar a página de agradecimento {#thank-you-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
->title="Página de agradecimento "
+>title="Página de agradecimento"
 >abstract="Configure o que acontece quando alguém preenche ou encaminha o formulário."
 
 De volta aos detalhes do formulário, na **[!UICONTROL página de agradecimento]**, configure o que acontece quando um usuário preenche o formulário.
@@ -299,7 +306,7 @@ Ao criar uma página de aterrissagem, selecione **[!UICONTROL Captura de Dados]*
 
 +++Posso usar qualquer conjunto de dados com uma predefinição de formulário?
 
-Somente **Conjuntos de dados** **habilitados para perfil e** Não habilitados para perfil[!DNL Adobe Experience Platform] estão disponíveis para seleção. Conjuntos de dados do sistema não podem ser usados para salvar dados de formulário e apenas um conjunto de dados pode ser selecionado por predefinição.
+Somente **Conjuntos de dados [!DNL Adobe Experience Platform]** habilitados para perfil e **Não habilitados para perfil** estão disponíveis para seleção. Conjuntos de dados do sistema não podem ser usados para salvar dados de formulário e apenas um conjunto de dados pode ser selecionado por predefinição.
 
 +++
 

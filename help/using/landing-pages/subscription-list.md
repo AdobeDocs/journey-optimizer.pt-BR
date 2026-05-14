@@ -9,10 +9,17 @@ role: User
 level: Beginner
 keywords: landing page, landing page, lista, assinatura, serviço
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
+TQID: https://experienceleague.adobe.com/NgCn1-WZaoBA73hleiFJGucgUSzfmEF43eEWZhGJnj0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 7%
+source-wordcount: 748
+ht-degree: 0%
 
 ---
 
@@ -22,9 +29,9 @@ ht-degree: 7%
 >id="ajo_subscription_list"
 >title="Configurar uma lista de assinaturas"
 >abstract="Crie uma lista de assinaturas para coletar perfis que aceitaram receber comunicações sobre um assunto ou evento específico. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=pt-BR#define-subscription-list" text="Criar uma lista de assinaturas"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="Criar uma lista de assinaturas"
 
-Um serviço de assinatura refere-se aos bens e serviços de marketing fornecidos aos clientes que optaram por receber comunicações sobre um assunto/evento/interesse/etc. específico. numa base contínua. No [!DNL Journey Optimizer], esses clientes aceitos estão reunidos em uma lista de assinaturas.
+Um serviço de assinatura refere-se aos bens e serviços de marketing fornecidos aos clientes que optaram por receber comunicações sobre um assunto/evento/interesse/etc. específico de forma contínua. No [!DNL Journey Optimizer], esses clientes aceitos estão reunidos em uma lista de assinaturas.
 
 Um serviço de assinatura pode ser usado para:
 
@@ -40,7 +47,7 @@ Os perfis podem ser adicionados a uma lista de assinaturas por meio de uma [pág
 
 >[!NOTE]
 >
->Ao criar uma lista de assinaturas, um segmento de transmissão associado é gerado automaticamente no Adobe Experience Platform. Para que o segmento de transmissão seja criado com êxito, a política de mesclagem deve ter a opção **Ative-On-Edge** habilitada. Saiba mais sobre os critérios de qualificação de segmento de transmissão na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/streaming-segmentation).
+>Ao criar uma lista de assinaturas, um segmento de transmissão associado é gerado automaticamente no Adobe Experience Platform. Para que o segmento de transmissão seja criado com êxito, a política de mesclagem deve ter a opção **Ative-On-Edge** habilitada. Saiba mais sobre os critérios de qualificação de segmento de transmissão na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Para criar uma lista de assinaturas, siga as etapas abaixo.
 
@@ -104,7 +111,7 @@ Os status possíveis são os seguintes:
 
 Você pode monitorar os impactos da lista de assinaturas por meio de relatórios dedicados. Você pode acessar dois tipos de relatórios:
 
-* Relatório em tempo real da lista de assinaturas
+* Relatório ao vivo da lista de assinaturas
 
   Os relatórios em tempo real, acessíveis a partir da guia Últimas 24 horas, exibem eventos que ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos a partir da ocorrência do evento. [Saiba mais](../reports/subscription-report-live.md)
 

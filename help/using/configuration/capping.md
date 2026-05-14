@@ -8,9 +8,15 @@ role: Developer
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/004R6qxDnmHDaqIT7IJ1mm2yp-s6RvsJFeElaXwRg9A
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: 761
 ht-degree: 8%
 
 ---
@@ -33,11 +39,11 @@ A tabela abaixo lista os comandos disponíveis para a API de limitação. Inform
 | [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | Desimplantar uma configuração de limite de endpoint |
 | [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | Verificar se uma configuração de limite de ponto de extremidade pode ser implantada ou não |
 | [!DNL PUT] | /endpointConfigs/`{uid}` | Atualizar uma configuração de limite de ponto de extremidade |
-| [!DNL GET] | /endpointConfigs/`{uid}` | Retrieve an endpoint capping configuration |
-| [!DNL DELETE] | /endpointConfigs/`{uid}` | Delete an enpoint capping configuration |
+| [!DNL GET] | /endpointConfigs/`{uid}` | Recuperar uma configuração de limite de ponto de extremidade |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | Excluir uma configuração de limite de ponto de extremidade |
 
-When a configuration is created or updated, a check is automatically performed to guarantee the syntax and the integrity of the payload.
-If some problems occur, the operation returns warning or errors to help you correct the configuration.
+Quando uma configuração é criada ou atualizada, uma verificação é executada automaticamente para garantir a sintaxe e a integridade do payload.
+Se ocorrerem alguns problemas, a operação retornará um aviso ou erros para ajudá-lo a corrigir a configuração.
 
 Além disso, uma coleção do Postman está disponível [aqui](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json) para ajudá-lo na configuração de teste.
 
@@ -49,9 +55,9 @@ Após o download e o upload para o Postman, é necessário adicionar três vari�
 * `{BASE_PATH}` : ponto de entrada da API.
 * `{SANDBOX_NAME}` : o cabeçalho **x-sandbox-name** (por exemplo, “prod”) correspondente ao nome da sandbox na qual as operações da API ocorrerão. Consulte a [visão geral das sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR){target="_blank"} para obter mais informações.
 
-## Endpoint configuration
+## Configuração do endpoint
 
-Here is the basic structure of an endpoint configuration:
+Esta é a estrutura básica de uma configuração de endpoint:
 
 ```json
 {
@@ -72,11 +78,11 @@ Here is the basic structure of an endpoint configuration:
 
 >[!IMPORTANT]
 >
->The **maxHttpConnections** parameter is optional. It allows you to restrict the number of connections Journey Optimizer will open to the external system.
+>O parâmetro **maxHttpConnections** é opcional. Ela permite restringir o número de conexões que o Journey Optimizer abrirá com o sistema externo.
 >
->The max value that can be set is 400. If nothing is specified, then the system may open up to multiple thousands of connections depending on the dynamic scaling of the system.
+>O valor máximo que pode ser definido é 400. Se nada for especificado, o sistema poderá abrir até vários milhares de conexões, dependendo do dimensionamento dinâmico do sistema.
 >
->When the capping configuration is deployed, if no `maxHttpConnections` value has been set, a default `maxHttpConnections = -1` is added into the deployed configuration, and Journey Optimizer uses the default system value.
+>Quando a configuração de limitação é implantada, se nenhum valor `maxHttpConnections` tiver sido definido, um `maxHttpConnections = -1` padrão será adicionado à configuração implantada, e o Journey Optimizer usará o valor padrão do sistema.
 
 Exemplo:
 
@@ -101,22 +107,22 @@ Exemplo:
 >
 >A configuração só estará ativa depois de chamar o ponto de extremidade **deploy**.
 
-## Warning and errors
+## Aviso e erros
 
-When a **canDeploy** method is called, the process validates the configuration and returns the validation status identified by its Unique ID, either:
+Quando um método **canDeploy** é chamado, o processo valida a configuração e retorna o status de validação identificado por sua Identificação Exclusiva:
 
 ```json
 "ok" or "error"
 ```
 
-The potential errors are:
+Os possíveis erros são:
 
-* **ERR_ENDPOINTCONFIG_100**: capping config: missing or invalid url
-* **ERR_ENDPOINTCONFIG_101**: capping config: malformed url
-* **ERR_ENDPOINTCONFIG_102**: capping config: malformed url: wildchar in url not allowed in host:port
-* **ERR_ENDPOINTCONFIG_103**: capping config: missing HTTP methods
-* **ERR_ENDPOINTCONFIG_104**: capping config: no call rating defined
-* **ERR_ENDPOINTCONFIG_107**: capping config: invalid max calls count (maxCallsCount)
+* **ERR_ENDPOINTCONFIG_100**: configuração de limitação: url ausente ou inválida
+* **ERR_ENDPOINTCONFIG_101**: configuração de limitação: url malformada
+* **ERR_ENDPOINTCONFIG_102**: configuração de limitação: url malformada: curinga na url não permitido no host:port
+* **ERR_ENDPOINTCONFIG_103**: configuração de limitação: métodos HTTP ausentes
+* **ERR_ENDPOINTCONFIG_104**: configuração de limitação: nenhuma classificação de chamada definida
+* **ERR_ENDPOINTCONFIG_107**: configuração de limitação: contagem máxima inválida de chamadas (maxCallsCount)
 * **ERR_ENDPOINTCONFIG_108**: configuração de limitação: contagem máxima de chamadas inválida (periodInMs)
 * **ERR_ENDPOINTCONFIG_111**: configuração de limitação: não é possível criar a configuração de ponto de extremidade: carga inválida
 * **ERR_ENDPOINTCONFIG_112**: configuração de limitação: não é possível criar a configuração de ponto de extremidade: esperando uma carga JSON

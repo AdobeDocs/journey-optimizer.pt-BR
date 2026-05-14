@@ -1,23 +1,30 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Design a push notification
-description: Learn how to design a push notification in Journey Optimizer
+title: Criar uma notificação por push
+description: Saiba como criar uma notificação por push no Journey Optimizer
 feature: Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/YOE-hCnG978CvBHe2WeFekMjx4oBlsv4hBbSVaUjgWA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: 2122
 ht-degree: 14%
 
 ---
 
-# Design a push notification {#design-push-notification}
+# Criar uma notificação por push {#design-push-notification}
 
-Once you have created a push notification, you can design its content for iOS, Android, and Web platforms. This page guides you through composing your message, configuring on-click behavior, adding media and buttons, and setting advanced options to create engaging push notifications that resonate with your audience.
+Depois de criar uma notificação por push, você pode projetar o conteúdo para plataformas iOS, Android e da Web. Esta página orienta você na redação da mensagem, configuração do comportamento ao clicar, adição de mídia e botões e configuração de opções avançadas para criar notificações por push envolventes que repercutem com seu público-alvo.
 
 ## Título e corpo {#push-title-body}
 
@@ -28,11 +35,11 @@ Once you have created a push notification, you can design its content for iOS, A
 
 ![](assets/title-body.png)
 
-To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Body]** fields. Use the personalization editor to define content, personalize data and add dynamic content. Learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the personalization editor.
+Para redigir a mensagem, clique nos campos **[!UICONTROL Título]** e **[!UICONTROL Corpo]**. Use o editor de personalização para definir conteúdo, personalizar dados e adicionar conteúdo dinâmico. Saiba mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md) no editor de personalização.
 
-Use the device preview section to visualize how the push notification displays on iOS, Android, and Web.
+Use a seção de visualização de dispositivo para visualizar como a notificação por push é exibida no iOS, Android e Web.
 
-Accelerate your content creation with AI Assistant and generate compelling push notification text with [AI Assistant for text generation](../content-management/generative-text.md) or create complete push notifications with [AI Assistant for full content generation](../content-management/generative-full-content.md).
+Acelere sua criação de conteúdo com o AI Assistant e gere textos convincentes de notificação por push com o [AI Assistant para geração de texto](../content-management/generative-text.md) ou crie notificações por push completas com o [AI Assistant para geração de conteúdo completa](../content-management/generative-full-content.md).
 
 ## Comportamento ao clicar {#on-click-behavior}
 
@@ -41,13 +48,13 @@ Accelerate your content creation with AI Assistant and generate compelling push 
 >title="Sobre o comportamento ao clicar"
 >abstract="Selecione o comportamento quando um recipient clicar no corpo da notificação por push."
 
-Configure the action that occurs when recipients tap the body of your push notification. Escolha entre as seguintes opções:
+Configure a ação que ocorre quando os destinatários tocam no corpo da notificação por push. Escolha entre as seguintes opções:
 
 ![](assets/title-body-push.png)
 
-* **[!UICONTROL Open app]**: Launches the application associated with the notification. The app is specified in your [channel configuration](../configuration/channel-surfaces.md) (i.e. message preset).
-* **[!UICONTROL Deeplink]**: Directs users to specific content within your app, such as a particular view, page section, or tab. Enter the deeplink URL in the provided field.
-* **[!UICONTROL Web URL]**: Directs users to an external webpage. Insira o URL de destino no campo fornecido.
+* **[!UICONTROL Abrir aplicativo]**: inicia o aplicativo associado à notificação. O aplicativo é especificado na sua [configuração de canal](../configuration/channel-surfaces.md) (ou seja, predefinição de mensagem).
+* **[!UICONTROL Deeplink]**: direciona os usuários para conteúdo específico no seu aplicativo, como uma exibição, seção de página ou guia específica. Insira o URL do deep link no campo fornecido.
+* **[!UICONTROL URL da Web]**: direciona os usuários para uma página da Web externa. Insira o URL de destino no campo fornecido.
 
   >[!NOTE]
   >
@@ -176,13 +183,13 @@ Use a seção **[!UICONTROL Dados personalizados]** para adicionar pares de valo
 >title="Configurar dados personalizados para a notificação por push."
 >abstract="Adicione variáveis personalizadas ao conteúdo, dependendo da configuração do aplicativo móvel."
 
-Na seção **[!UICONTROL Dados personalizados]**, você pode adicionar variáveis personalizadas à carga, dependendo da configuração do seu aplicativo móvel. For more on how to set up push notifications in Adobe Experience Platform, refer to [this section](push-gs.md)
+Na seção **[!UICONTROL Dados personalizados]**, você pode adicionar variáveis personalizadas à carga, dependendo da configuração do seu aplicativo móvel. Para obter mais informações sobre como configurar notificações por push no Adobe Experience Platform, consulte [esta seção](push-gs.md)
 
-## Personalize with Decisioning {#decisioning-push}
+## Personalizar com decisão {#decisioning-push}
 
-You can personalize and optimize the content of your push notifications with **Decisioning**. This capability allows you to use Priority Scores, Formulas, or AI Models to dynamically select and display the best content to your customers.
+Você pode personalizar e otimizar o conteúdo de suas notificações por push com a **Decisão**. Esse recurso permite usar Pontuações de prioridade, Fórmulas ou Modelos de IA para selecionar e exibir dinamicamente o melhor conteúdo para seus clientes.
 
-For more information on how to create and use decision policies in push notifications, refer to [this section](../experience-decisioning/create-decision.md).
+Para obter mais informações sobre como criar e usar políticas de decisão em notificações por push, consulte [esta seção](../experience-decisioning/create-decision.md).
 
 ## Opções avançadas {#advanced-options-push}
 
@@ -191,14 +198,14 @@ For more information on how to create and use decision policies in push notifica
 >title="Configurar opções avançadas para a notificação por push."
 >abstract="Esta seção permite aprimorar a personalização da notificação por push."
 
-You can configure **[!UICONTROL Advanced options]** for your push notification. Available parameters are listed below:
+Você pode configurar **[!UICONTROL opções avançadas]** para sua notificação por push. Os parâmetros disponíveis estão listados abaixo:
 
 | Parâmetro | Descrição |
 |---------|---------|
-| **[!UICONTROL Collapsible]** (iOS / Android) | A collapsible message is a message that may be replaced by a new message if it has become outdated. A common use cases of collapsible messages are messages used to tell a mobile app to sync data from the server. An example would be a sports app that updates users with the latest score. Only the most recent message is relevant. On the other hand, with non-collapsible message, every message is important to the client app and needs to be delivered. |
-| **[!UICONTROL Custom sound]** (iOS / Android) | The sound to be played by the mobile terminal when the notification is received. The sound needs to be bundled in the app. |
-| **[!UICONTROL Badges]** (iOS / Android) | Um selo é usado para exibir diretamente no ícone do aplicativo o número de novas informações não lidas. <br/>The badge value will disappear as soon as the user opens or reads the new content from the application. Quando uma notificação é recebida em um dispositivo, ela pode atualizar ou adicionar um valor de selo para o aplicativo relacionado.<br/>For example, if you are storing the number of unread articles of your customers, you can leverage personalization to send the unique unread articles badge value for each customer. For more personalization, refer to [this section](../personalization/personalize.md). |
-| **[!UICONTROL Notification group]**  (iOS only) | Associate a notification group to the push notification.<br/>Starting with iOS 12, notification groups allow you to consolidate message threads and notification topics into thread IDs. For example, a brand might send marketing notifications under one group ID, while keeping more operational type notifications under one or more different IDs.<br/>To illustrate this, you can have groupID: 123 &quot;check out the new spring collection of sweaters&quot; and groupID: 456 &quot;your package was delivered&quot; notification groups. In this example, all delivery notifications would be bundled under group ID: 456. |
+| **[!UICONTROL Recolhível]** (iOS / Android) | Uma mensagem recolhível é uma mensagem que pode ser substituída por uma nova mensagem se ela se tornar desatualizada. Casos de uso comuns de mensagens recolhíveis são mensagens usadas para informar um aplicativo móvel para sincronizar dados do servidor. Um exemplo seria um aplicativo de esportes que atualiza os usuários com a pontuação mais recente. Somente a mensagem mais recente é relevante. Por outro lado, com mensagens não recolhíveis, cada mensagem é importante para o aplicativo cliente e precisa ser entregue. |
+| **[!UICONTROL Som personalizado]** (iOS/Android) | O som a ser reproduzido pelo terminal móvel quando a notificação for recebida. O som precisa ser incluído no aplicativo. |
+| **[!UICONTROL Medalhas]** (iOS/Android) | Um selo é usado para exibir diretamente no ícone do aplicativo o número de novas informações não lidas. <br/>O valor do selo desaparecerá assim que o usuário abrir ou ler o novo conteúdo do aplicativo. Quando uma notificação é recebida em um dispositivo, ela pode atualizar ou adicionar um valor de selo para o aplicativo relacionado.<br/>Por exemplo, se estiver armazenando o número de artigos não lidos dos clientes, você poderá aproveitar a personalização para enviar o valor exclusivo do selo de artigos não lidos para cada cliente. Para mais personalizações, consulte [esta seção](../personalization/personalize.md). |
+| **[!UICONTROL Grupo de notificação]** (somente iOS) | Associe um grupo de notificação à notificação por push.<br/>A partir do iOS 12, os grupos de notificação permitem consolidar threads de mensagens e tópicos de notificação em IDs de thread. Por exemplo, uma marca pode enviar notificações de marketing em uma ID de grupo, enquanto mantém mais notificações do tipo operacional em uma ou mais IDs diferentes.<br/>Para ilustrar isso, você pode ter grupos de notificações groupID: 123 &quot;confira a nova coleção de primavera de suéteres&quot; e groupID: 456 &quot;seu pacote foi entregue&quot;. Neste exemplo, todas as notificações de delivery seriam agrupadas na ID de grupo: 456. |
 | **[!UICONTROL Canal de notificação]** (somente Android) | Associe um canal de notificação à notificação por push.<br/>A partir do Android 8.0 (nível de API 26), todas as notificações devem ser atribuídas a um canal para serem exibidas. Para obter mais informações, consulte a [documentação para desenvolvedores do Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels). |
 | **[!UICONTROL Adicionar sinalizador de disponibilidade de conteúdo]** (somente iOS) | Envia o sinalizador de conteúdo disponível na carga de push para garantir que o aplicativo seja reativado assim que receber a notificação por push, o que significa que o aplicativo poderá acessar os dados da carga.<br/> Isso funciona mesmo se o aplicativo estiver sendo executado em segundo plano e sem precisar de nenhuma interação do usuário (por exemplo, ao tocar na notificação por push). No entanto, isso não se aplica se o aplicativo não estiver em execução. Para obter mais informações, consulte a [documentação para desenvolvedores da Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | **[!UICONTROL Adicionar sinalizador de conteúdo mutável]** (somente iOS) | Envia o sinalizador de conteúdo mutável no payload por push e permitirá que o conteúdo da notificação por push seja modificado por uma extensão de aplicativo de serviço de notificação fornecida no iOS SDK. Para saber mais, consulte a [documentação para desenvolvedores da Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).<br/>Você poderá aproveitar suas extensões de aplicativo móvel para modificar ainda mais o conteúdo ou a apresentação das notificações por push de entrada enviadas de [!DNL Journey Optimizer]. Por exemplo, os usuários podem aproveitar essa opção para descriptografar dados, alterar o texto do corpo ou do título de uma notificação, adicionar um identificador de thread a uma notificação etc.<br/>**Importante**: esse sinalizador deve ser habilitado ao incluir anexos de mídia (imagens, vídeos) por meio de campos de carga (como `adb_media`) para que eles sejam renderizados em dispositivos iOS. Seu aplicativo também deve implementar uma Extensão de Serviço de Notificação para baixar e processar o conteúdo de mídia da carga. |

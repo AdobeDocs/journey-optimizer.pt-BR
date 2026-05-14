@@ -5,13 +5,15 @@ title: Usar a atividade de criar público-alvo
 description: Saiba como usar a atividade Criar público-alvo em uma campanha orquestrada
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
-source-git-commit: f8ddcd970f61018004ae1387fee2881d3a76c763
+TQID: https://experienceleague.adobe.com/9hEr5kAHco1iq8arv-FddaG3vm54CS-cPFUA63soeAg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 64%
+source-wordcount: 338
+ht-degree: 56%
 
 ---
-
 
 # Criar público-alvo {#build-audience}
 
@@ -29,7 +31,7 @@ Para isso, use a atividade de direcionamento **[!UICONTROL Criar público-alvo]*
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience_audienceselector"
 >title="Público-alvo"
->abstract="Selecione o público-alvo assim como faz ao criar uma nova entrega. "
+>abstract="Selecione o público-alvo assim como faz ao criar uma nova entrega."
 
 Siga estas etapas para configurar a atividade **[!UICONTROL Criar público-alvo]**:
 
@@ -41,7 +43,7 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Criar público-alvo]
 
 1. Configure o seu público-alvo, seguindo as etapas detalhadas nas guias abaixo.
 
-1. Escolha a **[!UICONTROL Dimensão de direcionamento]**. A dimensão de direcionamento permite definir a população-alvo da operação: destinatários, beneficiários(as) de contrato, operadores(as), assinantes, etc. Por padrão, o público-alvo é selecionado entre os destinatários.
+1. Escolha a **[!UICONTROL Dimensão de direcionamento]**. O targeting dimension permite definir o público alvo da operação: recipients, beneficiários de contrato, operadores, assinantes etc. Por padrão, o target é selecionado dos recipients.
 
 1. Clique em **[!UICONTROL Continuar]**.
 

@@ -7,10 +7,17 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/orXAhry8onHXUejP5pzOyHdKbAcD8fiDmvRk-s74xLo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 4%
+source-wordcount: 421
+ht-degree: 9%
 
 ---
 
@@ -110,7 +117,7 @@ Após definir a configuração móvel e implementar o Adobe Experience Platform 
 
    +++ Exemplo de uma carga para casos de uso de transmissão (campanha de marketing acionada por API)
 
-   This payload example is for audience-based campaigns using **API-triggered Marketing** campaign type.
+   Este exemplo de conteúdo é para campanhas baseadas em público usando o tipo de campanha **Marketing acionado por API**.
 
    ```json
    {
@@ -151,14 +158,14 @@ Após definir a configuração móvel e implementar o Adobe Experience Platform 
 
    +++
 
-After designing your Live activity, you can track measuring the impact of your Live activity with [built-in reports](../reports/campaign-global-report-cja-activity.md).
+Depois de projetar sua atividade Live, você pode acompanhar a medição do impacto da atividade Live com [relatórios internos](../reports/campaign-global-report-cja-activity.md).
 
 >[!TIP]
 >
->If your Live activity is not appearing or updating as expected, see [Troubleshoot Live activities](troubleshoot-mobile-live.md) for step-by-step debugging guidance.
+>Se a sua atividade do Live não estiver aparecendo ou sendo atualizada conforme esperado, consulte [Solucionar problemas de atividades do Live](troubleshoot-mobile-live.md) para obter uma orientação passo a passo sobre depuração.
 
 ## Vídeo tutorial
 
-Discover how to configure iOS Live activities with Adobe Journey Optimizer to deliver rich, real-time updates on the iPhone Lock Screen and Dynamic Island.
+Descubra como configurar as atividades em tempo real do iOS com o Adobe Journey Optimizer para fornecer atualizações avançadas em tempo real na Tela de bloqueio do iPhone e no Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479869?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

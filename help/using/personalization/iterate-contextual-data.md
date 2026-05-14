@@ -9,10 +9,17 @@ role: Developer
 level: Intermediate
 keywords: expressão, editor, handlebars, iteração, matrizes, contexto, personalização
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '3040'
-ht-degree: 0%
+source-wordcount: 3075
+ht-degree: 1%
 
 ---
 
@@ -81,7 +88,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Exemplo: itens do carrinho de um evento
 
-Se o [esquema de evento](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=pt-BR){target="_blank"}), você poderá exibir o conteúdo do carrinho conforme detalhado na amostra abaixo.
+Se o [esquema de evento](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}), você poderá exibir o conteúdo do carrinho conforme detalhado na amostra abaixo.
 
 +++ Exibir código de exemplo
 
@@ -124,7 +131,7 @@ Saiba mais sobre o aninhamento em [Práticas recomendadas](#best-practices).
 
 >[!NOTE]
 >
->As ações personalizadas devem ser configuradas com uma carga de resposta para usar esse recurso. Saiba mais em [esta seção](../action/action-response.md#config-response). Você também pode combinar respostas de ação personalizadas com dados de evento ou pesquisas de conjunto de dados. Consulte [Combinar várias fontes de contexto](#combine-sources) para obter exemplos.
+>As ações personalizadas devem ser configuradas com uma carga de resposta para usar esse recurso. Saiba mais [nesta seção](../action/action-response.md#config-response). Você também pode combinar respostas de ação personalizadas com dados de evento ou pesquisas de conjunto de dados. Consulte [Combinar várias fontes de contexto](#combine-sources) para obter exemplos.
 
 ### Caminho de contexto para ações personalizadas
 
@@ -605,8 +612,8 @@ serializeList(
 
 Saiba mais sobre:
 
-* [`all`](../building-journeys/expression/collection-management-functions.md)
-* [`serializeList`](../building-journeys/functions/list-functions.md#serializeList)
+* [Função `all`](../building-journeys/expression/collection-management-functions.md)
+* [Função `serializeList`](../building-journeys/functions/list-functions.md#serializeList)
 
 O manuseio de coleção para ações personalizadas é abordado em [Transmitir coleções para parâmetros de ação personalizados](../building-journeys/collections.md#passing-collection).
 
@@ -1040,12 +1047,12 @@ Use o [modo de teste de jornada](../building-journeys/testing-the-journey.md) pa
 
 ## Tópicos relacionados {#related-topics}
 
-**Fundamentos do Personalization:** [Introdução à personalização](personalize.md) | [Adicionar personalização](personalization-build-expressions.md) | [Sintaxe do Personalization](personalization-syntax.md) | [Funções de ajuda](functions/helpers.md) | [Criar regras condicionais](create-conditions.md)
+**Fundamentos do Personalization:** [Introdução à personalização](personalize.md) | [Adicionar personalização](personalization-build-expressions.md) | [Sintaxe do Personalization](personalization-syntax.md) | [Funções auxiliares](functions/helpers.md) | [Criar regras condicionais](create-conditions.md)
 
-**Configuração da Jornada:** [Sobre eventos](../event/about-events.md) | [Configurar ações personalizadas](../action/about-custom-action-configuration.md) | [Transmitir coleções para parâmetros de ação personalizados](../building-journeys/collections.md#passing-collection) | [Usar respostas de chamada de API em ações personalizadas](../action/action-response.md) | [Solucionar problemas de ações personalizadas](../action/troubleshoot-custom-action.md) | [Usar dados do Adobe Experience Platform no jornada](../building-journeys/dataset-lookup.md) | [Usar identificadores complementares no jornada](../building-journeys/supplemental-identifier.md) | [Medidas de proteção e limitações](../start/guardrails.md) | [Testar sua jornada](../building-journeys/testing-the-journey.md)
+**Configuração de Jornada:** [Sobre eventos](../event/about-events.md) | [Configurar ações personalizadas](../action/about-custom-action-configuration.md) | [Envio de coleções em parâmetros de ação personalizados](../building-journeys/collections.md#passing-collection) | [Usar respostas de chamada de API em ações personalizadas](../action/action-response.md) | [Solucionar problemas de ações personalizadas](../action/troubleshoot-custom-action.md) | [Usar dados do Adobe Experience Platform no jornada](../building-journeys/dataset-lookup.md) | [Usar identificadores complementares no jornada](../building-journeys/supplemental-identifier.md) | [Medidas de proteção e limitações](../start/guardrails.md) | [Testar sua jornada](../building-journeys/testing-the-journey.md)
 
-**Funções de expressão de Jornada:** [Editor de expressão avançado](../building-journeys/expression/expressionadvanced.md) | [Funções de gerenciamento de coleção](../building-journeys/expression/collection-management-functions.md) (primeiro, tudo, último) | [Funções de lista](../building-journeys/functions/list-functions.md) (serializeList, filter, sort) | [Funções de matriz](../personalization/functions/arrays-list.md) (head, tail)
+**Funções de expressão de Jornada:** [Editor de expressão avançado](../building-journeys/expression/expressionadvanced.md) | [Funções de gerenciamento de coleções](../building-journeys/expression/collection-management-functions.md) (primeiro, todos, último) | [Listar funções](../building-journeys/functions/list-functions.md) (serializeList, filtro, classificação) | [Funções de matriz](../personalization/functions/arrays-list.md) (head, tail)
 
-**Casos de uso do Personalization:** [Email de abandono do carrinho](personalization-use-case-helper-functions.md) | [Notificação de status do pedido](personalization-use-case.md)
+**Casos de uso do Personalization:** [Email de abandono de carrinho](personalization-use-case-helper-functions.md) | [Notificação do status do pedido](personalization-use-case.md)
 
-**Design da mensagem:** [Introdução ao design de email](../email/get-started-email-design.md) | [Criar notificações por push](../push/create-push.md) | [Criar mensagens SMS](../sms/create-sms.md) | [Visualizar e testar seu conteúdo](../content-management/preview-test.md)
+**Design da mensagem:** [Introdução ao design de email](../email/get-started-email-design.md) | [Criar notificações por push](../push/create-push.md) | [Criar mensagens SMS](../sms/create-sms.md) | [Visualize e teste seu conteúdo](../content-management/preview-test.md)

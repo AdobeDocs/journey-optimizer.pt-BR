@@ -8,9 +8,15 @@ role: Admin
 level: Intermediate
 keywords: lista de permissões, lista segura, email, capacidade de entrega, sandbox, domínios, supressão, configuração
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/Q33GwgA8mJ4JPHuIb7mT8l5bKkzICX32-EXxtI5ug9Q
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: 1341
 ht-degree: 12%
 
 ---
@@ -146,7 +152,7 @@ Para preencher a lista de permissões, você também pode chamar a API de supres
 
 Você pode executar as operações **Adicionar**, **Excluir** e **Obter**.
 
-Saiba mais sobre como fazer chamadas de API na documentação de referência das [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre como fazer chamadas de API na documentação de referência das [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
 
 ## Baixar a lista de permissões {#download-allowed-list}
 
@@ -168,13 +174,13 @@ Para exportar a lista de permissões como um arquivo CSV, siga as etapas abaixo:
 
 1. Depois que o arquivo for gerado, você receberá uma notificação. Clique no ícone de sino na parte superior direita da tela para exibi-lo.
 
-1. Click the notification itself to download the file.
+1. Clique na própria notificação para baixar o arquivo.
 
-   ![Notification with a download link for the generated CSV file](assets/allowed-list-download-notification.png)
+   ![Notificação com um link de download para o arquivo CSV gerado](assets/allowed-list-download-notification.png)
 
    >[!NOTE]
    >
-   >The link is valid for 24 hours.
+   >O link é válido por 24 horas.
 
 ## Lógica de lista de permissões {#logic}
 
@@ -183,27 +189,27 @@ Para exportar a lista de permissões como um arquivo CSV, siga as etapas abaixo:
 >title="Gerenciar a lista de permissões"
 >abstract="Quando a lista de permissões for ativada, somente os recipients incluídos na lista de permissões receberão mensagens de email dessa sandbox. Quando desativado, todos os recipients receberão emails."
 
-When the allowed list is [active](#enable-allow-list), the following logic applies:
+Quando a lista de permissões está [ativa](#enable-allow-list), a seguinte lógica é aplicada:
 
-* If the allowed list is **empty**, no email will be sent out.
+* Se a lista de permissões estiver **vazia**, nenhum email será enviado.
 
-* If an entity is **on the allowed list**, and not on the suppression list, the email is sent to the corresponding recipient(s). However, if the entity is also on the [suppression list](../reports/suppression-list.md), the corresponding recipient(s) will not receive the email, the reason being **[!UICONTROL Suppressed]**.
+* Se uma entidade estiver **na lista de permissões**, e não na lista de supressão, o email será enviado ao(s) destinatário(s) correspondente(s). No entanto, se a entidade também estiver na [lista de supressão](../reports/suppression-list.md), os destinatários correspondentes não receberão o email, o motivo será **[!UICONTROL Suprimido]**.
 
-* If an entity is **not on the allowed list** (and not on the suppression list), the corresponding recipient(s) will not receive the email, the reason being **[!UICONTROL Not allowed]**.
+* Se uma entidade **não estiver na lista de permissões** (e não na lista de supressão), os destinatários correspondentes não receberão o email, o motivo será **[!UICONTROL Não permitido]**.
 
 >[!NOTE]
 >
->The profiles with **[!UICONTROL Not allowed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Audience](../building-journeys/read-audience.md) and [message activities](../building-journeys/journey-action.md)), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
+>Os perfis com status **[!UICONTROL Não permitido]** são excluídos durante o processo de envio da mensagem. Portanto, enquanto os **relatórios de Jornada** mostrarão esses perfis como tendo sido movidos pela jornada ([Ler público-alvo](../building-journeys/read-audience.md) e [atividades de mensagem](../building-journeys/journey-action.md)), os **relatórios de email** não os incluirão nas métricas **[!UICONTROL Enviados]**, pois eles são filtrados antes do envio de email.
 >
->Learn more about the [Live Report](../reports/live-report.md) and [Customer Journey Analytics report](../reports/report-gs-cja.md).
+>Saiba mais sobre o [Relatório ao vivo](../reports/live-report.md) e o [Relatório do Customer Journey Analytics](../reports/report-gs-cja.md).
 
-When the allowed list is [deactivated](#deactivate-allow-list), all the emails that you are sending from the current sandbox are sent out to all recipients (provided they are not on the suppression list), including real customer addresses.
+Quando a lista de permissões é [desativada](#deactivate-allow-list), todos os emails que você está enviando da sandbox atual são enviados para todos os destinatários (desde que não estejam na lista de supressão), incluindo endereços reais de clientes.
 
-## Exclusion reporting {#reporting}
+## Relatório de exclusão {#reporting}
 
-When the allowed list is active, you can retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list. To do this, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} to make the API calls below.
+Quando a lista de permissões está ativa, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. Para fazer isso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para fazer as chamadas de API abaixo.
 
-To get the **number of emails** that were not sent because the recipients were not on the allowed list, use the following query:
+Para obter o **número de emails** que não foram enviados porque os destinatários não estavam na lista de permissões, use a seguinte consulta:
 
 ```sql
 SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
@@ -212,7 +218,7 @@ _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = '
 _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
 ```
 
-To get the **list of email addresses** that were not sent because the recipients were not on the allowed list, use the following query:
+Para obter a **lista de endereços de email** que não foram enviados porque os destinatários não estavam na lista de permissões, use a seguinte consulta:
 
 ```sql
 SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE

@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
+source-git-commit: ec0232dc13c259941e85d8e5d520e6ea523aacd8
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1563'
 ht-degree: 11%
 
 ---
@@ -155,6 +155,10 @@ No painel de navegação, recursos adicionais estão disponíveis para ajudar vo
 * **[!UICONTROL Condições]** - Aproveite as regras condicionais criadas na biblioteca para adicionar conteúdo dinâmico às suas mensagens. Isso permite criar várias variantes da mensagem com base em condições. [Saiba como criar conteúdo dinâmico](../personalization/get-started-dynamic-content.md)
 
 * **[!UICONTROL Fragmentos]** - Aproveite fragmentos de expressão que foram criados ou salvos na sandbox atual. Um fragmento é um componente reutilizável que pode ser referenciado em [!DNL Journey Optimizer] campanhas e jornadas. Essa funcionalidade permite pré-construir vários blocos de conteúdo personalizado que podem ser usados por usuários de marketing para reunir conteúdo rapidamente em um processo de design aprimorado. [Saiba como usar fragmentos de expressão para personalização](../personalization/use-expression-fragments.md)
+
+>[!TIP]
+>
+>Procurando expressões prontas para uso? A página **[Receitas do Personalization](personalization-recipes.md)** fornece padrões de copiar e colar para os casos de uso mais comuns: formatação de data, temporizadores de contagem regressiva, fallbacks condicionais, exibição somente de tempo e muito mais.
 
 Quando a expressão de personalização estiver pronta, será necessário validá-la pelo editor de personalização. Saiba mais [nesta seção](../personalization/personalization-build-expressions.md).
 

@@ -6,10 +6,14 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/CUiT5GFH9o4q-oOSWuKC8ZyLbRbH9lj88M92LhMIX9E
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 5%
+source-wordcount: 742
+ht-degree: 4%
 
 ---
 
@@ -289,3 +293,77 @@ A operação seguinte define as pessoas que comeram sushi e pizza pelo menos uma
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```
+
+## Iterar em uma matriz {#each-loop}
+
+Use o auxiliar de bloco `{{#each}}` do Handlebars para executar um loop sobre uma matriz e renderizar o conteúdo para cada item em **conteúdo personalizado** (email, SMS, push).
+
+>[!NOTE]
+>
+>`{{#each}}` está disponível somente no **editor de personalização** (corpo do email, SMS, conteúdo de push). **Não** é suportado na atividade de condição de jornada. Para filtrar ou corresponder itens de uma matriz dentro de uma condição de jornada, use [funções de gerenciamento de coleções](../../building-journeys/expression/collection-management-functions.md).
+
+**Sintaxe**
+
+```handlebars
+{{#each arrayAttribute}}
+  {{this}}
+{{/each}}
+```
+
++++Exemplo — Listar todos os itens em uma matriz
+
+```handlebars
+{{#each profile.purchases.items}}
+  - {{this.name}}: {{this.price}}€
+{{/each}}
+```
+
+Saída (exemplo):
+
+```
+- Running shoes: 89€
+- Water bottle: 15€
+- Gym bag: 45€
+```
+
++++
+
++++Exemplo — Acessar o índice de loop
+
+Usar `@index` para acessar a posição de loop atual (com base em 0):
+
+```handlebars
+{{#each profile.preferences.languages}}
+  {{@index}}: {{this}}
+{{/each}}
+```
+
+Saída (exemplo):
+
+```
+0: English
+1: French
+2: Spanish
+```
+
++++
+
++++Exemplo — Renderização condicional dentro de um loop
+
+Use o bloco `{%#if%}` dentro de `{{#each}}` para renderizar o conteúdo somente quando uma condição for atendida:
+
+>[!NOTE]
+>
+>Não há suporte para `{% if %}` / `{% endif %}`. Em vez disso, use `{%#if%}` / `{%/if%}`. Além disso, `this.<field>` não funciona dentro de expressões de condição do PQL — faça referência ao campo diretamente usando o nome do atributo (por exemplo, `order.status`).
+
+```handlebars
+{{#each profile.orders as |order|}}
+  {%#if order.status = "pending"%}
+  Your order {{order.id}} is still pending.
+  {%/if%}
+{{/each}}
+```
+
+Esse é o padrão recomendado para simular uma &quot;quebra na condição&quot; — somente os itens correspondentes à condição produzem saída.
+
++++

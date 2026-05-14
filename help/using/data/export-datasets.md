@@ -8,10 +8,17 @@ role: User
 level: Beginner
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+TQID: https://experienceleague.adobe.com/5jeWrWwq-7qu4UcfgYuum2n5o8ITy2HAdSSCfBJbg3U
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 4%
+source-wordcount: 1113
+ht-degree: 5%
 
 ---
 
@@ -29,17 +36,17 @@ Você pode exportar conjuntos de dados para 6 destinos de armazenamento na nuvem
 
 Informações detalhadas sobre cada destino estão disponíveis na documentação do Adobe Experience Platform:
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=pt-BR){target="_blank"}
-* [Blob do Azure](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=pt-BR){target="_blank"}
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=pt-BR){target="_blank"}
-* [Zona de Aterrissagem de Dados](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=pt-BR){target="_blank"}
-* [Armazenamento na nuvem do Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=pt-BR){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=pt-BR){target="_blank"}.
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"}
+* [Blob do Azure](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"}
+* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"}
+* [Data Landing Zone](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"}
+* [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}.
 
 
 ## Pré-requisitos {#prerequisites}
 
-Para exportar conjuntos de dados, você precisa das [permissões de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR#permissions){target="_blank"} listadas abaixo. Leia a [visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=pt-BR){target="_blank"} ou contate o administrador do produto para obter as permissões necessárias.
+Para exportar conjuntos de dados, você precisa das [permissões de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} listadas abaixo. Leia a [visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} ou contate o administrador do produto para obter as permissões necessárias.
 
 | Categoria | Permissão |
 |--|--|
@@ -53,9 +60,9 @@ As principais etapas para exportar um conjunto de dados para um local de armazen
 
 ![](assets/dataset-export-process.png)
 
-Informações detalhadas sobre cada etapa estão disponíveis na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=pt-BR){target="_blank"}.
+Informações detalhadas sobre cada etapa estão disponíveis na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
 
-1. **Configurar o destino do armazenamento na nuvem**. Se ainda não tiver feito isso, conecte-se a um destino de armazenamento na nuvem no catálogo de destinos. Saiba como criar uma nova conexão de destino na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=pt-BR#setup){target="_blank"}.
+1. **Configurar o destino do armazenamento na nuvem**. Se ainda não tiver feito isso, conecte-se a um destino de armazenamento na nuvem no catálogo de destinos. Saiba como criar uma nova conexão de destino na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -79,7 +86,7 @@ Informações detalhadas sobre cada etapa estão disponíveis na [documentação
 
    <!--![](assets/dataset-export-review.png)-->
 
-Quando a exportação for concluída, o conteúdo do conjunto de dados será depositado no local de armazenamento na nuvem de acordo com o agendamento configurado. [Saiba como verificar a exportação bem-sucedida do conjunto de dados](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=pt-BR#verify){target="_blank"}.
+Quando a exportação for concluída, o conteúdo do conjunto de dados será depositado no local de armazenamento na nuvem de acordo com o agendamento configurado. [Saiba como verificar a exportação bem-sucedida do conjunto de dados](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
 
 ## Conjuntos de dados disponíveis para exportação {#datasets}
 
@@ -93,7 +100,7 @@ Entenda na tabela abaixo quais conjuntos de dados do Journey Optimizer você pod
 | Conjunto de dados da entidade AJO | Conjunto de dados para armazenar metadados de entidade para mensagens enviadas ao usuário final.  |
 | Conjunto de dados do evento de atividade de entrada do AJO | Conjunto de dados para canais na Web e no aplicativo do Journey Optimizer para eventos de entrega e interação. |
 | Conjunto de dados do perfil de mensagens interativas da AJO | Armazena perfis criados para dar suporte a campanhas acionadas por API |
-| Conjunto de dados do evento de feedback de mensagem do AJO | Logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. Os comentários dos ISPs de email sobre rejeições também são registrados neste conjunto de dados. Esse conjunto de dados inclui eventos para todos os canais: Email, SMS/MMS, Mala direta etc. |
+| Conjunto de dados do evento de feedback de mensagem do AJO | Logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. O feedback dos ISPs de email sobre rejeições também é registrado neste conjunto de dados. Esse conjunto de dados inclui eventos para todos os canais: Email, SMS/MMS, Mala direta etc. |
 | Conjunto de dados de exportação de mensagens do AJO | Armazena conteúdo de mensagens de email e SMS enviadas que foi marcado para exportação. Os dados são retidos por sete dias a partir da assimilação. |
 | Extensão Contadores de perfis do AJO | Contém um mapa de objetos contendo counter_value e expiryDate, digitado por counter_id |
 | Conjunto de dados do perfil push do AJO | Armazena tokens de push de um perfil. |
@@ -106,7 +113,7 @@ Entenda na tabela abaixo quais conjuntos de dados do Journey Optimizer você pod
 | Repositório de objetos de decisão - Ofertas substitutas | este é o repositório para o outro tipo de oferta que um usuário cria. Especificamente, se não estiverem qualificados para ver uma oferta personalizada e precisarem ver algo, pelo menos verão a oferta substituta. Esse conjunto de dados contém os atributos desse tipo de oferta |
 | Repositório de objetos de decisão - Ofertas personalizadas | Repositório para um tipo de oferta que um usuário cria. Portanto, esse conjunto de dados contém os atributos sobre esse tipo de oferta. |
 | Repositório de objetos de decisão - Posicionamentos | Repositório de objetos que definem o local onde uma oferta precisa ser exibida. |
-| Repositório de objetos do Experience Decisioning - Itens de oferta personalizados | Armazena todos os itens de oferta, incluindo todos os atributos e status do ciclo de vida para oferecer suporte à personalização e aos relatórios entre canais. </br> Depois de adicionar novos campos de atributos personalizados ao esquema de itens de oferta, pode haver um atraso de até uma hora antes que esses novos atributos fiquem visíveis no conjunto de dados. Para evitar possíveis perdas ou inconsistências de dados, é recomendável aguardar pelo menos uma hora antes de fazer alterações ou atualizações que dependam dos atributos adicionados recentemente. |
+| Repositório de objetos do Experience Decisioning - Itens de oferta personalizados | Armazena todos os itens de oferta, incluindo todos os atributos e status do ciclo de vida para oferecer suporte à personalização e aos relatórios entre canais. </br> Depois de adicionar novos campos de atributos personalizados ao esquema de itens de oferta, pode haver um atraso de até uma hora antes de esses novos atributos se tornarem visíveis no conjunto de dados. Para evitar possíveis perdas ou inconsistências de dados, é recomendável aguardar pelo menos uma hora antes de fazer alterações ou atualizações que dependam dos atributos adicionados recentemente. |
 | Jornada eventos de etapa | Captura todos os eventos de experiência de etapa de Jornada gerados no Journey Optimizer para serem consumidos por serviços como relatórios. |
 | Jornadas | Informações sobre o conjunto de dados de metadados que contém cada etapa de uma jornada |
 | ODE DecisionEvents - decisão de produção | Sempre que tomamos uma decisão com base em uma solicitação, contamos isso como um evento de decisão |

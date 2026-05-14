@@ -5,13 +5,16 @@ title: Criar a sua primeira regra
 description: Saiba como criar regras para suas campanhas orquestradas
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+TQID: https://experienceleague.adobe.com/0uQ81kuezTaU4m83ZP6OiKFpM66ngzHqVKaGQqiFzNE
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1895'
-ht-degree: 89%
+source-wordcount: 1912
+ht-degree: 91%
 
 ---
-
 
 # Criar a sua primeira regra {#build-query}
 
@@ -219,7 +222,7 @@ Depois de criar a consulta na tela, é possível verificá-la por meio do painel
 * **Visualizar resultados:** exibe os dados resultantes da sua consulta.
 * **Visualização do código**: exibe uma versão baseada no código da consulta em SQL.
 * **Calcular**: atualiza e exibe o número de registros aos quais a regra se direciona.
-* **Selecionar ou salvar filtro**: escolha um filtro predefinido existente para usar na tela ou salve sua consulta como um filtro predefinido para reutilização futura. Se o filtro incluir parâmetros, forneça valores antes de aplicá-lo. Para obter detalhes, consulte [Trabalhar com filtros predefinidos](predefined-filters.md).
+* **Selecionar ou salvar filtro**: escolha um filtro predefinido existente para usar na tela ou salve a sua consulta como um filtro predefinido para reutilização no futuro. Se o filtro incluir parâmetros, forneça valores antes de aplicá-lo. Para obter detalhes, consulte [Trabalhar com filtros predefinidos](predefined-filters.md).
 
 <br/>
 

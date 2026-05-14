@@ -9,10 +9,16 @@ role: Admin
 level: Experienced
 keywords: subdomínio, otimizador, delegação
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/s6dJd1ZWjFDyQvTGShiAR-IDsKkOdfpYXCKw0bRdTI8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 25%
+source-wordcount: 1019
+ht-degree: 24%
 
 ---
 
@@ -107,7 +113,7 @@ A tabela abaixo apresenta um resumo de como esses métodos funcionam, bem como o
 
 | Método de configuração | Como funciona | Nível de esforço |
 |---|---|---|
-| **Delegação completa** | Crie o subdomínio e o registro de namespace. O Adobe configurará todos os registros DNS necessários para o Adobe Journey Optimizer.<br/><br/>Nesta configuração, a Adobe é totalmente responsável pelo gerenciamento do subdomínio e de todos os registros DNS. | Baixo |
+| **Delegação completa** | Crie o subdomínio e o registro de namespace. O Adobe irá configurar todos os registros DNS necessários para o Adobe Journey Optimizer.<br/><br/>Nesta configuração, o Adobe é totalmente responsável pelo gerenciamento do subdomínio e de todos os registros DNS. | Baixo |
 | **método CNAME** | Crie o subdomínio e o registro de namespace. A Adobe fornecerá os registros que serão colocados em seus servidores DNS e configurará os valores correspondentes em servidores DNS da Adobe Journey Optimizer.<br/><br/>Nessa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS. | Alto |
 | **Método de delegação personalizado** | Criar o subdomínio e o registro de namespace - a Adobe fornecerá os registros a serem colocados em seus servidores DNS. Faça upload do Certificado SSL obtido da Autoridade de certificação e conclua as etapas do Loop de feedback verificando a propriedade do domínio e o endereço de email do relatório.<br/><br/>Nesta configuração, você é totalmente responsável pela manutenção do DNS. | Muito alto |
 

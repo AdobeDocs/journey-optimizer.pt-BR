@@ -9,10 +9,16 @@ role: Developer, Admin
 level: Experienced
 keywords: políticas, governança, plataforma, consentimento, proteção da saúde
 exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/TPg5xSOHgXIBE4trUJiI3MoKjSGqvT1NtGI2Cg7ynFo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 6%
+source-wordcount: 941
+ht-degree: 10%
 
 ---
 
@@ -60,13 +66,13 @@ Digamos que você queira direcionar seus clientes por meio de jornadas e campanh
    >
    >O consentimento do cliente e as preferências de contato são tópicos complexos. Para saber como as preferências de consentimento e contexto podem ser coletadas, processadas e filtradas no [!DNL Experience Platform], é recomendável ler os seguintes documentos:
    >
-   >* Para saber mais sobre os grupos de campos de esquema necessários para coletar dados de consentimento, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Ele detalha como processar os dados de consentimento coletados dos clientes e integrá-los aos perfis de clientes armazenados.
-   >* Para saber mais sobre o grupo de campos Consentimento e Preferência, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Para adicionar campos de preferência personalizados ao esquema, siga as etapas em [esta seção](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
+   >* Para saber mais sobre os grupos de campos de esquema necessários para coletar dados de consentimento, consulte [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Ele detalha como processar os dados de consentimento coletados dos clientes e integrá-los aos perfis de clientes armazenados.
+   >* Para saber mais sobre o grupo de campos Consentimento e Preferência, consulte [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Para adicionar campos de preferência personalizados ao esquema, siga as etapas em [esta seção](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
 
 1. Crie uma página para capturar as preferências dos clientes. Use um dos seguintes métodos:
 
-   * Crie uma página da Web para registrar as preferências dos clientes usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home){target="_blank"}.
+   * Crie uma página da Web para registrar as preferências dos clientes usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home){target="_blank"}.
 
    * Use uma [!DNL Journey Optimizer] [página de aterrissagem](../landing-pages/create-lp.md) que inclua formulários para capturar as preferências de seus clientes por meio de dados de perfil.  [Saiba mais sobre formulários](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
 
@@ -100,7 +106,7 @@ The corresponding profile dataset is updated as follows:
 
    >[!AVAILABILITY]
    >
-   >Atualmente, as políticas de consentimento estão disponíveis apenas para organizações que compraram as ofertas complementares do **Healthcare Shield** ou do **Privacy and Security Shield** da Adobe. [Saiba mais sobre políticas de consentimento](consent.md)
+   >Atualmente, as políticas de consentimento estão disponíveis apenas para as organizações que compraram as ofertas complementares do Adobe **Healthcare Shield** ou do **Privacy and Security Shield**. [Saiba mais sobre políticas de consentimento](consent.md)
 
    Para usar as políticas de consentimento, os atributos de preferência devem estar presentes nos dados do perfil. É por isso que você deve definir esses atributos no nível do perfil (conforme descrito na etapa 1).
 
@@ -120,7 +126,7 @@ Consent policies are comprised of two logical components:
     
     *, então **[!UICONTROL Email_Boletim_Informativo]** não existir **[!UICONTROL false]** ou **[!UICONTROL Email_Boletim_Informativo]** não for igual **[!UICONTROL false]**
     
-    ![](assets/consent-policy-email-newsletter.png){width=80%}
+    ![]&#x200B;(assets/consent-policy-email-newsletter.png){width=80%}
     
     >[!TIP]
     >
