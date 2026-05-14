@@ -42,7 +42,7 @@ ht-degree: 0%
 >id="ajo_subscription_list"
 >title="Configurar uma lista de assinaturas"
 >abstract="Crie uma lista de assinaturas para coletar perfis que aceitaram receber comunicações sobre um assunto ou evento específico. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="Criar uma lista de assinaturas"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=pt-BR#define-subscription-list" text="Criar uma lista de assinaturas"
 
 Um serviço de assinatura refere-se aos bens e serviços de marketing fornecidos aos clientes que optaram por receber comunicações sobre um assunto/evento/interesse/etc. específico de forma contínua. No [!DNL Journey Optimizer], esses clientes aceitos estão reunidos em uma lista de assinaturas.
 
@@ -60,7 +60,7 @@ Os perfis podem ser adicionados a uma lista de assinaturas por meio de uma [pág
 
 >[!NOTE]
 >
->Ao criar uma lista de assinaturas, um segmento de transmissão associado é gerado automaticamente no Adobe Experience Platform. Para que o segmento de transmissão seja criado com êxito, a política de mesclagem deve ter a opção **Ative-On-Edge** habilitada. Saiba mais sobre os critérios de qualificação de segmento de transmissão na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation).
+>Ao criar uma lista de assinaturas, um segmento de transmissão associado é gerado automaticamente no Adobe Experience Platform. Para que o segmento de transmissão seja criado com êxito, a política de mesclagem deve ter a opção **Ative-On-Edge** habilitada. Saiba mais sobre os critérios de qualificação de segmento de transmissão na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Para criar uma lista de assinaturas, siga as etapas abaixo.
 
