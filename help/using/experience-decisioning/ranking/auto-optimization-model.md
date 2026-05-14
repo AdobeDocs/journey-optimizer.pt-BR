@@ -9,9 +9,14 @@ level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/HC3N8cjiZQQTfyt2Z0hKU3M-OUTw4y9REDnBIBXsJ9Q
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1763
@@ -96,7 +101,7 @@ Eventualmente, se uma oferta (por exemplo, Oferta 1) for um vencedor claro, sua 
 
 +++ Detalhes do cálculo
 
-Para calcular/atualizar distribuições, usamos o Teorema de **Bayes&#39;**. Para cada oferta ***i***, queremos calcular seus ***P(𝛍i | dados)***, ou seja, para cada oferta ***i***, a probabilidade de um valor de premiação**𝛍 i**, dados os dados coletados até agora para essa oferta.
+Para calcular/atualizar distribuições, usamos o Teorema de **Bayes&#39;**. Para cada oferta ***i***, queremos calcular seus ***P(𝛍i | dados)***, ou seja, para cada oferta ***i***, a probabilidade de um valor de premiação&#x200B;**𝛍 i**, dados os dados coletados até agora para essa oferta.
 
 A partir do Teorema de Bayes:
 
