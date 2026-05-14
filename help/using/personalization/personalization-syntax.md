@@ -9,27 +9,47 @@ role: Developer
 level: Intermediate
 keywords: expressão, editor, sintaxe, personalização
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 7296cccb6c65b3db2fc688ee57cb3d3dacaf96cc
+TQID: https://experienceleague.adobe.com/kZEw2lITdt8SMWMe-UT2vPzdoiAjB2vbItmK9zt-WJo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 2%
+source-wordcount: 1299
+ht-degree: 3%
 
 ---
 
 # Sintaxe de personalização {#personalization-syntax}
 
-O Personalization em [!DNL Journey Optimizer] é baseado na sintaxe de modelo chamada Handlebars. Para obter uma descrição completa da sintaxe Handlebars, consulte a [documentação de HandlebarsJS](https://handlebarsjs.com/).
+O Personalization no [!DNL Journey Optimizer] usa duas sintaxes complementares que funcionam juntas na mesma expressão:
 
-Ele usa um modelo e um objeto de entrada para gerar HTML ou outros formatos de texto. Os modelos de Handlebars parecem texto regular com expressões Handlebars incorporadas.
+* **Handlebars** (`{{...}}`) — usado para renderizar atributos de perfil, sobrepor matrizes e auxiliares de bloco de chamadas. Consulte a [documentação de HandlebarsJS](https://handlebarsjs.com/) para obter uma referência completa.
+* **Profile Query Language (PQL)** (`{%= ... %}`) — usado para chamar funções internas (por exemplo, `upperCase()`, `formatDate()`, `dateDiff()`) e avaliar expressões condicionais.
 
-Exemplo de expressão simples:
+Entender em qual contexto você está é fundamental para evitar erros de tempo de execução. Por exemplo, uma chamada de função PQL colocada dentro de `{{...}}` falhará porque o Handlebars tenta resolvê-la como auxiliar, em vez de avaliá-la como uma expressão PQL.
 
-`{{profile.person.name}}`
+**Exemplos:**
 
-em que:
+| Caso de uso | Sintaxe |
+|----------|--------|
+| Renderizar um atributo de perfil | `{{profile.person.name.firstName}}` |
+| Chamar uma função PQL | `{%= upperCase(profile.person.name.firstName) %}` |
+| Bloqueio condicional | `{%#if profile.loyalty.tier = "gold"%}...{%/if%}` |
+| Executar um loop em uma matriz | `{{#each profile.orders}}...{{/each}}` |
 
-* `profile` é um namespace.
-* `person.name` é um token composto por atributos. A estrutura de atributos é definida em um Esquema XDM do Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
+A estrutura de atributos é definida em um Esquema XDM do Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
+
+>[!TIP]
+>
+>Para expressões prontas para uso que aplicam essas sintaxes a cenários do mundo real — formatação de data, contagem regressiva, fallbacks condicionais e muito mais — consulte a página **[Receitas do Personalization](personalization-recipes.md)**.
 
 ## Regras gerais de sintaxe {#general-rules}
 
@@ -51,6 +71,16 @@ em que:
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
+* Para incluir uma **aspas duplas literais** dentro de um valor de sequência de caracteres (por exemplo, ao gerar saída JSON), use uma barra invertida (`\"`) para escapará-la:
+
+  ```handlebars
+  { "message": "Hello \"{{profile.person.name.firstName}}\"" }
+  ```
+
+  Saída: `{ "message": "Hello \"John\"" }`
+
+  Como alternativa, use o caractere triplo `{{{ }}}` para gerar HTML sem escape quando o próprio valor contiver caracteres especiais que você não deseja codificar em HTML.
+
 ## Palavras-chave reservadas {#reserved-keywords}
 
 Determinadas palavras-chave são reservadas no Profile Query Language (PQL) e não podem ser usadas diretamente como nomes de campos ou variáveis em expressões de personalização. Se o esquema XDM contiver campos com nomes que correspondam a palavras-chave reservadas, você deverá fazer o escape com acentos graves (`` ` ``) para referenciá-los em suas expressões.
@@ -70,6 +100,47 @@ Se o esquema de perfil tiver um campo chamado `next`, você deverá envolvê-lo 
 ```
 
 Sem os backticks, o editor de personalização falhará a validação com um erro.
+
+>[!NOTE]
+>
+>O escape de backtick para palavras-chave reservadas se aplica tanto a caminhos Handlebars `{{...}}` quanto a expressões PQL `{%= ... %}`, pois essas palavras-chave são reservadas no nível de resolução de caminho. Isso é diferente de nomes de campo hifenizados, em que o escape de backtick é compatível somente dentro de expressões PQL. Consulte [Chaves de atributo hifenizadas](#hyphenated-keys).
+
+## Regras de sintaxe do PQL para chaves de atributo especiais {#pql-special-keys}
+
+Além das palavras-chave reservadas, dois casos adicionais exigem o escape de backtick em expressões PQL.
+
+### Chaves de atributo hifenizadas {#hyphenated-keys}
+
+Se o esquema XDM contiver nomes de campo com hifens (por exemplo, `my-field`, `event-type`) ou nomes que comecem com ou contenham números, coloque a chave entre acentos graves dentro de expressões PQL:
+
+```sql
+{%= profile.events.`order-total` > 100 %}
+```
+
+>[!NOTE]
+>
+>O escape de backtick só tem suporte em expressões PQL (`{%= ... %}`). Não há suporte para isso na interpolação Handlebars (`{{...}}`). No entanto, nomes de campos hifenizados podem ser referenciados diretamente em `{{...}}` blocos (por exemplo, `{{profile.my-custom-field}}`); somente a sintaxe de backtick falha lá.
+
+Sem acentos graves em uma expressão PQL, o hífen é interpretado como um operador de subtração e causa um erro de sintaxe do PQL.
+
+### IDs de evento numérico em atributos de contexto {#numeric-event-ids}
+
+Ao fazer referência a atributos de evento de contexto em que a ID do evento é um número (por exemplo, `1697323153`), coloque-a entre acentos graves. Isso também se aplica dentro de funções como `formatDate()`:
+
+```handlebars
+{% let ts = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy") %}
+{{ts}}
+```
+
+## Coerção de tipo {#type-coercion}
+
+O PQL é altamente digitado. Ao comparar ou transmitir valores, ambos os lados devem ser do mesmo tipo. Casos comuns:
+
+| Cenário | Solução |
+|----------|----------|
+| Valor numérico armazenado como uma string | Usar `stringToNumber()` antes da aritmética ou comparação: `{%= stringToNumber(profile.loyalty.pointsBalance) > 500 %}` |
+| Inteiro armazenado como cadeia de caracteres | Usar `string_to_integer()` ou `stringToNumber()` antes da aritmética |
+| Booleano armazenado como string | Usar `toBool()` para converter: `{%= toBool(profile.consents.email.val) = true %}` |
 
 ## Namespaces disponíveis {#namespaces}
 
@@ -144,7 +215,7 @@ Esses auxiliares de bloco são identificados por um `#` precedendo o nome do aux
 
 Blocos são expressões que têm um bloco abrindo (`{{# }}`) e fechando (`{{/}}`).
 
-    Para obter mais informações sobre funções auxiliares, consulte [esta seção](functions/helpers.md).
+Para obter mais informações sobre funções auxiliares, consulte [esta seção](functions/helpers.md).
 
 ## Tipos literais {#literal-types}
 
@@ -160,3 +231,83 @@ Blocos são expressões que têm um bloco abrindo (`{{# }}`) e fechando (`{{/}}`
 >[!CAUTION]
 >
 >O uso da variável **xEvent** não está disponível em expressões de personalização. Qualquer referência a xEvent resultará em falhas de validação.
+
+## Práticas recomendadas {#best-practices}
+
+Revise essas regras de sintaxe antes de criar expressões de personalização. A maioria dos erros de tempo de execução vem da combinação de contextos de Handlebars e PQL.
+
+**Usar a sintaxe de bloco condicional correta**
+
+Sempre usar `{%#if%}` / `{%else if%}` / `{%else%}` / `{%/if%}`. Não há suporte para a sintaxe `{% if %}` / `{% elseif %}` / `{% endif %}`.
+
+```handlebars
+{%#if profile.loyalty.tier = "gold"%}
+Gold member content
+{%else if profile.loyalty.tier = "silver"%}
+Silver member content
+{%else%}
+Default content
+{%/if%}
+```
+
+**Não chamar funções PQL dentro de `{{...}}` Handlebars**
+
+`{{...}}` resolve somente variáveis Handlebars e auxiliares — não avalia o PQL. Encurtar uma função PQL como `upperCase()` dentro de `{{...}}` causa um erro &quot;não foi possível encontrar auxiliar&quot;. Em vez disso, use `{%= ... %}`:
+
+| Incorreto | Correto |
+|-----------|---------|
+| `{{upperCase(cleanName)}}` | `{%= upperCase(cleanName) %}` |
+
+**Usar um alias de loop nomeado ao combinar `{{#each}}` com`{%#if%}`**
+
+`this.field` é resolvido pelo renderizador Handlebars, mas não pelo avaliador do PQL dentro de uma condição `{%#if%}`. Defina um alias nomeado com `as |item|` para que ambos os contextos possam resolver o campo:
+
+```handlebars
+{{#each profile.orders as |order|}}
+  {%#if order.status = "pending"%}
+  Order {{order.id}} is pending.
+  {%/if%}
+{{/each}}
+```
+
+**Atribuir os resultados da função PQL a uma variável antes do loop**
+
+UDFs do PQL como `topN` não podem ser chamados diretamente dentro de `{{#each}}`. Avalie-as primeiro com `{% let %}` e depois repita sobre o resultado:
+
+```handlebars
+{% let topOrders = topN(profile.orders, price, 3) %}
+{{#each topOrders}}
+  {{this.name}} — {{this.price}}&euro;
+{{/each}}
+```
+
+**Use `{% let %}` para evitar chamadas de função repetidas**
+
+Quando um valor calculado for necessário mais de uma vez, armazene-o em uma variável. Isso melhora a legibilidade e evita avaliações redundantes:
+
+```handlebars
+{% let cleanName = replaceAll(profile.person.name.firstName, "[^a-zA-Z]", "") %}
+Hi {{cleanName}}, your code is: WELCOME-{%= upperCase(cleanName) %}
+```
+
+**Usar a ordem correta de argumentos para`dateDiff`**
+
+`dateDiff(start, end)` toma a data anterior primeiro. Para calcular os dias restantes até uma data futura, passe a data atual como o primeiro argumento:
+
+```handlebars
+{% let daysLeft = dateDiff(getCurrentZonedDateTime(), stringToDate(profile.loyalty.expiryDate)) %}
+```
+
+**Use `=` para comparações de igualdade no PQL, não`==`**
+
+O PQL usa um único operador `=` para igualdade. Usar `==` resulta em um erro de sintaxe.
+
+**Usar acentos graves para nomes de campo hifenizados — somente em expressões PQL**
+
+Se um nome de campo de esquema XDM contiver um hífen (por exemplo, `order-total`), coloque-o entre acentos graves para impedir que o hífen seja analisado como um operador de subtração. Só há suporte para isso dentro de `{%= ... %}` expressões PQL, não em `{{...}}` blocos Handlebars:
+
+```sql
+{%= profile.events.`order-total` > 100 %}
+```
+
+Para expressões prontas para uso que você pode copiar diretamente para o seu conteúdo, consulte [receitas do Personalization](personalization-recipes.md).

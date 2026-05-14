@@ -10,10 +10,23 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/B33mvmBY4p0K43oK-NeaWGfbwhvHMyiLkM7dhxT8-WI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 26%
+source-wordcount: 523
+ht-degree: 29%
 
 ---
 
@@ -63,7 +76,7 @@ Para criar um modelo de IA, siga as etapas abaixo:
    >* **Eventos de impressão** (ofertas exibidas)
    >* **Eventos de conversão** (ofertas que resultam em cliques por email ou pela Web).
    >
-   >Esses eventos são capturados automaticamente usando a Web SDK ou a SDK móvel fornecida. Saiba mais sobre isso em [visão geral do Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR).
+   >Esses eventos são captados automaticamente por meio do SDK da web ou do SDK móvel fornecido. Saiba mais sobre isso em [visão geral do Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR).
 
 1. Selecione os conjuntos de dados nos quais os eventos de conversão e impressão são coletados. Saiba como criar esse conjunto de dados em [esta seção](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 

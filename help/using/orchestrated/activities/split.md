@@ -5,13 +5,19 @@ title: Usar a atividade Divisão
 description: Saiba como usar a atividade de Split em uma campanha orquestrada
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+TQID: https://experienceleague.adobe.com/kvuWf-Rg2zE7JVQ15LdG-CHG0JWWEn0B4OjHU4RbFSg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: 801
 ht-degree: 88%
 
 ---
-
 
 # Divisão {#split}
 
@@ -62,7 +68,7 @@ A atividade **[!UICONTROL Divisão]** é uma atividade de **[!UICONTROL Direcion
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_enable_overlapping"
 >title="Habilitar sobreposição de populações de saída"
->abstract=" A opção **[!UICONTROL Habilitar sobreposição de populações de saída]** permite gerenciar populações pertencentes a vários subconjuntos. Quando a caixa não está marcada, a atividade Divisão garante que um destinatário não possa estar presente em diversas transições de saída, mesmo que atenda aos critérios de vários subconjuntos. Eles estarão no público-alvo da primeira guia com critérios correspondentes. Quando a caixa for marcada, os destinatários poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro. "
+>abstract=" A opção **[!UICONTROL Habilitar sobreposição de populações de saída]** permite gerenciar populações pertencentes a vários subconjuntos. Quando a caixa não está marcada, a atividade Divisão garante que um destinatário não possa estar presente em diversas transições de saída, mesmo que atenda aos critérios de vários subconjuntos. Eles estarão no público-alvo da primeira guia com critérios correspondentes. Quando a caixa for marcada, os destinatários poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro."
 
 Siga estas etapas para configurar a atividade **[!UICONTROL Divisão]**:
 

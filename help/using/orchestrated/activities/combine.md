@@ -5,13 +5,18 @@ title: Usar a atividade Combinar
 description: Saiba como usar a atividade de combinar
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+TQID: https://experienceleague.adobe.com/-iLQufrB6X3O3fdKVCY26cD7pohPyx2Gt9--n8yH5Dg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: 1019
 ht-degree: 100%
 
 ---
-
 
 # Combinar {#combine}
 
@@ -124,7 +129,7 @@ Na atividade **[!UICONTROL Combinar]**, é possível configurar uma **[!UICONTRO
 
 1. Quando necessário, você pode ajustar tabelas de entrada para alinhar destinos de diferentes dimensões. Para excluir um público-alvo de outra dimensão, ele precisa primeiro ser trazido para a mesma dimensão de direcionamento da população principal. Para isso, clique em **[!UICONTROL Adicionar uma regra]** e defina as condições para alterar a dimensão. A reconciliação é feita com base em um atributo ou uma associação.
 
-1. Habilite a opção **[!UICONTROL Gerar complemento]** se quiser processar a população restante. O complemento contém a união de todos os resultados das atividades de entrada, excluindo a interseção. Uma transição de saída adicional é adicionada à atividade.
+1. Habilite a opção de **[!UICONTROL Gerar complemento]** se quiser processar a população restante. O complemento contém a união de todos os resultados das atividades de entrada, excluindo a interseção. Uma transição de saída adicional é adicionada à atividade.
 
 O exemplo de **[!UICONTROL Exclusão]** a seguir mostra duas consultas configuradas para filtrar perfis que compraram um produto. Os perfis que não tiverem uma associação de fidelidade serão excluídos do primeiro conjunto.
 

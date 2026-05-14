@@ -5,13 +5,20 @@ title: Criar e agendar campanhas orquestradas com o Journey Optimizer
 description: Saiba como criar e agendar uma campanha orquestrada com o Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
+TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: 1183
 ht-degree: 63%
 
 ---
-
 
 # Criar e agendar uma campanha orquestrada {#create-first-campaign}
 
@@ -22,7 +29,7 @@ Crie uma campanha Orquestrada no [!DNL Adobe Journey Optimizer] e configure seu 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="Lista de campanhas orquestradas"
->abstract="A guia **Orquestração** lista todas as campanhas orquestradas. Clique no nome de uma campanha orquestrada para editá-la. Use o botão **Criar campanha orquestrada** para adicionar uma nova campanha orquestrada. "
+>abstract="A guia **Orquestração** lista todas as campanhas orquestradas. Clique no nome de uma campanha orquestrada para editá-la. Use o botão **Criar campanha orquestrada** para adicionar uma nova campanha orquestrada."
 
 Para criar uma campanha Orquestrada, siga estas etapas:
 

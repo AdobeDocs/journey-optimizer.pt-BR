@@ -8,10 +8,28 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/tcx8KXGtorgevwLUj6rnvoE1mFYESJ4VaLL2vn3aZfA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 10%
+source-wordcount: 811
+ht-degree: 11%
 
 ---
 
@@ -47,7 +65,7 @@ Se o trabalho de segmentação não for concluído dentro da janela de tempo def
 
 * Escolha um público para uma **campanha**, na qual a mensagem é enviada a todas as pessoas que pertencem ao público-alvo selecionado. [Saiba como definir o público-alvo de uma campanha](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* Use uma atividade de orquestração de **Ler público** em uma jornada para fazer com que todos os indivíduos do público entrem na jornada e recebam as mensagens incluídas na jornada. Digamos que você tenha um público-alvo de “cliente prata”. Com essa atividade, você pode fazer com que todos os clientes Silver insiram uma jornada. Em seguida, você pode enviar a eles uma série de mensagens personalizadas. [Saiba como configurar uma atividade Read audience](../building-journeys/read-audience.md#configuring-segment-trigger-activity). Para segmentar, excluir ou mesclar ramificações após sua entrada, consulte [Direcionamento de público-alvo no jornada](../building-journeys/read-audience.md#audience-targeting-in-journeys).
+* Use uma atividade de orquestração de **Ler público** em uma jornada para fazer com que todos os indivíduos do público entrem na jornada e recebam as mensagens incluídas na jornada. Digamos que você tenha um público-alvo de “cliente prata”. Com essa atividade, você pode fazer com que todos os clientes Silver insiram uma jornada. Em seguida, você pode enviar a eles uma série de mensagens personalizadas. [Saiba como configurar uma atividade Ler público-alvo](../building-journeys/read-audience.md#configuring-segment-trigger-activity). Para segmentar, excluir ou mesclar ramificações após sua entrada, consulte [Direcionamento de público-alvo no jornada](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 
   Após a entrada, use as atividades **Condição** para [segmentar por atributos ou comportamento, excluir parte da população ou mesclar ramificações](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 

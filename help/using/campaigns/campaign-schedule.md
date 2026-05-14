@@ -10,10 +10,23 @@ level: Beginner
 mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+TQID: https://experienceleague.adobe.com/IX6fnq5uYLb17J0dLmLuDLlbdiBfsH-2gzdBknwppkE
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 12%
+source-wordcount: 821
+ht-degree: 14%
 
 ---
 
@@ -84,7 +97,7 @@ A seção **[!UICONTROL Fim da campanha]** permite especificar quando uma campan
 
 [!DNL Journey Optimizer] permite habilitar o controle de taxa para ações de saída (email, SMS, notificações por push).
 
-Esse recurso é particularmente útil para evitar sobrecarga em sistemas downstream, como páginas de aterrissagem ou plataformas de atendimento ao cliente. Por exemplo, você pode definir um limite de taxa de 165 mensagens por segundo para garantir uma entrega estável sem sobrecarregar os sistemas de downstream.
+Esse recurso é particularmente útil para evitar sobrecarga em sistemas downstream, como páginas de destino ou plataformas de atendimento ao cliente. Por exemplo, você pode definir um limite de taxa de 165 mensagens por segundo para garantir uma entrega estável sem sobrecarregar os sistemas de downstream.
 
 Para definir o controle de taxa, habilite a opção **[!UICONTROL Entrega acelerada]** na seção **[!UICONTROL Configurações de entrega]** e especifique a **[!UICONTROL Taxa de entrega]** desejada por segundo.
 

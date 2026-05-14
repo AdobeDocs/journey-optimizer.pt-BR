@@ -8,9 +8,25 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/JHnyTJxE0TwHX-izzEQ0VG60L2P2j63anyPQbbdBZ6k
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: 543
 ht-degree: 3%
 
 ---
@@ -41,26 +57,26 @@ Somente um tipo de identidade é permitido por campanha. Indivíduos pertencente
 
 Em alguns casos, pode ser necessário enviar mensagens transacionais para perfis que não existem no sistema. Por exemplo, se um usuário desconhecido tentar redefinir a senha no seu site. Quando um perfil não existe no banco de dados, o Journey Optimizer permite que você o crie automaticamente ao executar a campanha para permitir o envio da mensagem para esse perfil.
 
-Para ativar a criação de perfil na execução da campanha, alterne a opção **[!UICONTROL Criar novos perfis]** para ativada. If this option is disabled, unknown profiles will be rejected for any sending and the API call will fail.
+Para ativar a criação de perfil na execução da campanha, alterne a opção **[!UICONTROL Criar novos perfis]** para ativada. Se essa opção estiver desativada, perfis desconhecidos serão rejeitados para qualquer envio e a chamada à API falhará.
 
 ![](assets/api-triggered-create-profile.png)
 
 >[!IMPORTANT]
 >
->This option is provided for **very small volume profile creation** in a large volume transactional sending use case, with bulk of profiles already existing in platform.
+>Esta opção é fornecida para **criação de perfil de volume muito pequeno** em um caso de uso de envio transacional de grande volume, com grande parte dos perfis já existentes na plataforma.
 >
->Unknown profiles are created in the **AJO Interactive Messaging Profile Dataset** dataset, in three default namespace (email, phone and ECID) respectively for each outbound channels (Email, SMS and Push). However, if you are using a custom namespace, the identity is created with the same custom namespace.
+>Perfis desconhecidos são criados no **Conjunto de Dados de Perfil de Mensagens Interativas do AJO**, em três namespaces padrão (email, telefone e ECID), respectivamente, para cada canal de saída (Email, SMS e Push). No entanto, se você estiver usando um namespace personalizado, a identidade será criada com o mesmo namespace personalizado.
 >
->Profile creation at execution is not available for [High Throughput campaigns](../campaigns/api-triggered-high-throughput.md), as this mode does not rely on Adobe profiles. The system will not check whether the profiles exist or not.
+>A criação de perfil na execução não está disponível para [campanhas de Alta Taxa de Transferência](../campaigns/api-triggered-high-throughput.md), pois esse modo não depende de perfis do Adobe. O sistema não verificará se os perfis existem ou não.
 
 ## Habilitar webhooks {#webhook}
 
-For Transactional API triggered campaigns, you can enable webhooks to receive real-time feedback on the execution status of your messages. To do this, toggle the **[!UICONTROL Enable webhooks]** option to send delivery status events to a configured webhook.
+Para campanhas acionadas por API transacional, é possível habilitar webhooks a receberem feedback em tempo real sobre o status de execução de suas mensagens. Para fazer isso, alterne a opção **[!UICONTROL Habilitar webhooks]** para enviar eventos de status de entrega para um webhook configurado.
 
 ![](assets/api-triggered-webhook.png)
 
-Webhook configurations are managed centrally in the **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Feedback Webhook]** menu. From there, administrators can create and edit webhook endpoints. [Learn how to create Feedback Webhooks](../configuration/feedback-webhooks.md)
+As configurações do Webhook são gerenciadas centralmente no menu **[!UICONTROL Administração]** / **[!UICONTROL Canais]** / **[!UICONTROL Webhook de feedback]**. A partir daí, os administradores podem criar e editar endpoints do webhook. [Saiba como criar webhooks de comentários](../configuration/feedback-webhooks.md)
 
 ## Próximas etapas {#next}
 
-Once your campaign configuration and content are ready, you can schedule its execution. [Saiba mais](api-triggered-campaign-schedule.md)
+Quando a configuração e o conteúdo da campanha estiverem prontos, você poderá agendar a execução. [Saiba mais](api-triggered-campaign-schedule.md)

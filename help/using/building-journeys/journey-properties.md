@@ -39,7 +39,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6edc6e8ac53eac365a86ac97e6ce7f3d37754e33
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
 ht-degree: 11%
@@ -156,7 +156,7 @@ O campo **[!UICONTROL Tamanho atual do conteúdo da jornada]** no painel Proprie
 
 Use essas informações para monitorar a complexidade da jornada antes de publicar. Se o tamanho do payload se aproximar ou exceder o limite, a publicação do jornada falhará. Para reduzir o tamanho, considere simplificar a lógica de jornada ou reduzir o número de atividades.
 
-O limite padrão é de 2 MB. Entre em contato com o Atendimento ao cliente da Adobe se precisar solicitar um limite mais alto para sua organização.
+O limite padrão é 4 MB. Entre em contato com o Atendimento ao cliente da Adobe se precisar solicitar um limite mais alto para sua organização.
 
 Para obter detalhes completos sobre limites, mensagens de aviso e erro e etapas de solução de problemas, consulte [Validação do tamanho da carga da Jornada](../start/guardrails.md#journey-payload-size) e [Medidas de proteção de jornada gerais](../start/guardrails.md#journeys-guardrails-journeys).
 

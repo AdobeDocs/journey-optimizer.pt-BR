@@ -10,9 +10,9 @@ level: Intermediate
 keywords: fragmentos, jornada, reutilizar, nós, tela, inventário, reutilizável
 badge: label="Disponibilidade limitada" type="Informative"
 version: Journey Orchestration
-source-git-commit: 289d8b669530198d3e2722b9cc10a6bcc84980f6
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -77,8 +77,8 @@ Para salvar nós de jornada como um fragmento diretamente da tela de jornada:
 
 Para criar um fragmento diretamente do inventário:
 
-1. Navegue até **[!UICONTROL Jornada]** > **[!UICONTROL Fragmentos]** guia.
-1. Clique em **[!UICONTROL Criar fragmento]**.
+1. Navegue até **[!UICONTROL Jornadas]** > **[!UICONTROL fragmentos de Jornada]** guia.
+1. Clique em **[!UICONTROL Criar fragmento de jornada]**.
 1. Na tela de criação do fragmento, adicione e configure atividades de jornada.
 1. Quando terminar, clique em **[!UICONTROL Salvar]** para salvar o fragmento como rascunho.
 

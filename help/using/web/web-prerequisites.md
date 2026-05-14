@@ -1,15 +1,38 @@
 ---
-title: Pré-requisitos do canal da web
+title: Pré-requisitos do canal da Web
 description: Para acessar e criar páginas da Web na interface do usuário do Journey Optimizer, siga os pré-requisitos desta página
 feature: Web Channel, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/-aO8oYADaoBnly9F95vyCCR525tQkmiRMH-fgh-Up3Q
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 10%
+source-wordcount: 1410
+ht-degree: 0%
 
 ---
 
@@ -27,7 +50,7 @@ Para acessar e criar páginas da Web na interface do usuário do [!DNL Journey O
 
 >[!IMPORTANT]
 >
->* As campanhas da Web do [!DNL Journey Optimizer] direcionam novos perfis que não foram engajados anteriormente em outros canais. Isso aumenta a contagem total de [Perfis que podem ser Engajados](../audience/license-usage.md), o que pode ter implicações de custo se o número contratual de Perfis que você adquiriu for excedido. As métricas de licença de cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Você pode verificar o número de Perfis Ativáveis no [painel de uso de licença](../audience/license-usage.md).
+>* [!DNL Journey Optimizer] campanhas da Web têm como alvo novos perfis que nunca foram engajados em outros canais. Isso aumenta a contagem total de [Perfis que podem ser Engajados](../audience/license-usage.md), o que pode ter implicações de custo se o número contratual de Perfis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Você pode verificar o número de Perfis Ativáveis no [painel de uso de licença](../audience/license-usage.md).
 >
 >* Ao direcionar perfis pseudônimos (visitantes não autenticados) com suas páginas da Web, considere definir um Tempo de vida (TTL) para exclusão automática de perfil para gerenciar a contagem de perfis ativáveis e os custos associados. [Saiba mais](../start/guardrails.md#profile-management-inbound)
 
@@ -54,7 +77,7 @@ Há suporte para dois tipos de implementações para habilitar a criação e o d
 >[!CONTEXTUALHELP]
 >id="ajo_web_browser_extension"
 >title="Criar uma regra de correspondência de páginas"
->abstract="Para acessar o designer da web do [!DNL Journey Optimizer], é necessário ter uma extensão específica do navegador instalada: o Auxiliar de edição visual da Adobe Experience Cloud, disponível somente no Google Chrome ou no Microsoft Edge."
+>abstract="Para acessar o web designer [!DNL Journey Optimizer], é necessário ter uma extensão específica do navegador instalada: o Adobe Experience Cloud Visual Editing Helper (Auxiliar de edição visual do), disponível somente no Google Chrome ou Microsoft Edge."
 
 <!--In order to rapidly author and preview your web experiences, the Adobe Experience Cloud Visual Editing Helper browser extension for Google Chrome lets you load websites reliably within the Adobe [!DNL Journey Optimizer] web designer.-->
 
@@ -76,7 +99,7 @@ Para baixar e instalar a extensão de navegador Auxiliar de edição visual, sig
 
 1. Pesquise e navegue até a extensão de navegador [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}.
 
-1. Clique em **[!UICONTROL Adicionar ao Chrome]** > **[!UICONTROL Adicionar extensão]**.
+1. Clique em **[!UICONTROL Adicionar ao Chrome]** > **[!UICONTROL Adicionar Extensão]**.
 
    >[!NOTE]
    >
@@ -94,9 +117,9 @@ A extensão não tem configurações condicionais e lida com todas as configura�
 >
 >Alguns sites podem não abrir de forma confiável no web designer [!DNL Journey Optimizer] devido a um dos seguintes motivos:
 >
-> * O site tem políticas de segurança estritas.
+> * O site tem políticas de segurança rigorosas.
 > * O site está em um iframe.
-> * O site de controle de qualidade e/ou preparo do cliente não está disponível para partes externas (o site é interno).
+> * O site de controle de qualidade ou preparo do cliente não está disponível para o mundo externo (o site é interno).
 
 ### Solução de problemas do site que não está carregando {#troubleshooting}
 
@@ -132,7 +155,7 @@ Para que a experiência da Web seja entregue corretamente, as seguintes configur
 
   O uso do plug-in **Edge Delivery** ajuda a obter os insights necessários para entender e solucionar problemas de implementações de entrada de maneira eficaz.
 
-  [Saiba mais sobre a exibição do Edge Delivery](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/view/edge-delivery)
+  [Saiba mais sobre a visualização do Edge Delivery](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/view/edge-delivery)
 
 ## Pré-requisitos de relatórios {#experiment-prerequisites}
 

@@ -8,9 +8,43 @@ topic: Administration
 role: User
 level: Beginner
 keywords: rastreamento, monitoramento, analytics, relatórios, capacidade de entrega
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+exl-id: d5e7adb7-8473-4c29-8ae6-ba979aef97f3
+TQID: https://experienceleague.adobe.com/jLHTNJlUPQm39EZvTLLBvYT92eGlCBoHpTKBfJ1Zxlk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: 1962
 ht-degree: 3%
 
 ---
@@ -81,7 +115,7 @@ Para ajudar você a começar, explore estes tópicos essenciais de rastreamento 
 
 O Journey Optimizer fornece recursos de rastreamento específicos de canal. Veja como configurar e usar o rastreamento para cada canal.
 
-+++Acompanhamento de email
++++Rastreamento de emails
 
 O rastreamento de email é ativado automaticamente ao criar uma mensagem de email. O Journey Optimizer rastreia aberturas, cliques e cancelamentos de assinatura por padrão; nenhuma configuração adicional é necessária.
 
@@ -95,7 +129,7 @@ O rastreamento de email é ativado automaticamente ao criar uma mensagem de emai
 
 * **Adicionar rastreamento de mirror page** - Habilite a opção de mirror page para criar uma versão da Web do seu email com rastreamento automático de quem o visualiza. [Saiba mais](../email/message-tracking.md#mirror-page)
 
-**Monitorar o desempenho:** Exiba métricas em tempo real nos relatórios de campanha e jornadas, incluindo abertura, cliques e desempenho no nível do link. [Relatórios de campanha](../reports/campaign-global-report-cja-email.md) | [Jornada relatórios](../reports/journey-global-report-cja-email.md)
+**Monitorar o desempenho:** Exiba métricas em tempo real nos relatórios de campanha e jornadas, incluindo abertura, cliques e desempenho no nível do link. [Relatórios de campanha](../reports/campaign-global-report-cja-email.md) | [Relatórios de Jornada](../reports/journey-global-report-cja-email.md)
 
 +++
 
@@ -111,7 +145,7 @@ Ao criar uma página da Web, você pode selecionar elementos específicos (botõ
 * **Coleta de dados automática** - Uma vez configurada, a Journey Optimizer captura automaticamente os eventos de clique e os associa aos perfis.
 * **Monitorar em tempo real** - Rastreie as interações do usuário à medida que elas ocorrem, para validar a eficácia da personalização.
 
-**Exibir dados de rastreamento:** Acesse métricas de exibição, taxas de click-through e desempenho em nível de elemento em relatórios. [Relatórios de campanha](../reports/campaign-global-report-cja-web.md) | [Jornada relatórios](../reports/journey-global-report-cja-web.md)
+**Exibir dados de rastreamento:** Acesse métricas de exibição, taxas de click-through e desempenho em nível de elemento em relatórios. [Relatórios de campanha](../reports/campaign-global-report-cja-web.md) | [Relatórios de Jornada](../reports/journey-global-report-cja-web.md)
 
 +++
 
@@ -131,7 +165,7 @@ O rastreamento de push é ativado automaticamente e captura impressões (entregu
 >
 >O rastreamento de push requer a implementação do SDK móvel. Verifique se o aplicativo tem o Adobe Experience Platform Mobile SDK configurado corretamente. [Saiba mais](../push/push-configuration.md#integrate-mobile-app)
 
-**Analisar engajamento:** Exiba taxas de click-through, desempenho do botão e detalhes do link rastreado em relatórios. [Relatórios de campanha](../reports/campaign-global-report-cja-push.md) | [Jornada relatórios](../reports/journey-global-report-cja-push.md)
+**Analisar engajamento:** Exiba taxas de click-through, desempenho do botão e detalhes do link rastreado em relatórios. [Relatórios de campanha](../reports/campaign-global-report-cja-push.md) | [Relatórios de Jornada](../reports/journey-global-report-cja-push.md)
 
 +++
 
@@ -149,7 +183,7 @@ As mensagens no aplicativo rastreiam automaticamente as exibições e as intera�
 
 [Saiba como configurar mensagens no aplicativo](../in-app/create-in-app.md)
 
-**O que é rastreado:** o Journey Optimizer captura automaticamente exibições, cliques em botões, dispensas, métricas acionadas versus exibidas e desempenho do link. [Relatórios de campanha](../reports/campaign-global-report-cja-inapp.md) | [Jornada relatórios](../reports/journey-global-report-cja-inapp.md)
+**O que é rastreado:** o Journey Optimizer captura automaticamente exibições, cliques em botões, dispensas, métricas acionadas versus exibidas e desempenho do link. [Relatórios de campanha](../reports/campaign-global-report-cja-inapp.md) | [Relatórios de Jornada](../reports/journey-global-report-cja-inapp.md)
 
 +++
 
@@ -163,7 +197,7 @@ O rastreamento de SMS requer configuração mínima — o Journey Optimizer encu
 
 * **Rastreamento de mensagens de entrada** - As respostas dos destinatários são capturadas automaticamente, permitindo que você monitore conversas bidirecionais e padrões de resposta. [Saiba mais](../sms/sms-opt-out.md#sms-native-keywords)
 
-**Exibir métricas:** Acesse dados de cliques em links, volumes de mensagens de entrada e desempenho do tipo de mensagem em relatórios. [Relatórios de campanha](../reports/campaign-global-report-cja-sms.md) | [Jornada relatórios](../reports/journey-global-report-cja-sms.md)
+**Exibir métricas:** Acesse dados de cliques em links, volumes de mensagens de entrada e desempenho do tipo de mensagem em relatórios. [Relatórios de campanha](../reports/campaign-global-report-cja-sms.md) | [Relatórios de Jornada](../reports/journey-global-report-cja-sms.md)
 
 +++
 
@@ -181,7 +215,7 @@ Antes que o rastreamento funcione, é necessário configurar a implementação p
 
 [Saiba mais sobre os pré-requisitos de implementação](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
-**O que é rastreado:** depois de implementado, rastrear exibições, cliques, taxas de click-through e desempenho em nível de elemento em qualquer ponto de contato digital (sites, aplicativos móveis, dispositivos da IoT etc.). [Relatórios de campanha](../reports/campaign-global-report-cja-code.md) | [Jornada relatórios](../reports/journey-global-report-cja-code.md)
+**O que é rastreado:** depois de implementado, rastrear exibições, cliques, taxas de click-through e desempenho em nível de elemento em qualquer ponto de contato digital (sites, aplicativos móveis, dispositivos da IoT etc.). [Relatórios de campanha](../reports/campaign-global-report-cja-code.md) | [Relatórios de Jornada](../reports/journey-global-report-cja-code.md)
 
 +++
 
@@ -199,7 +233,7 @@ Os cartões de conteúdo rastreiam automaticamente as interações do usuário. 
 
 [Saiba como configurar cartões de conteúdo](../content-card/create-content-card.md)
 
-**Monitorar engajamento:** Rastrear exibições, cliques, taxas de click-through e padrões de engajamento em várias sessões. [Relatórios de campanha](../reports/campaign-global-report-cja-content.md) | [Jornada relatórios](../reports/journey-global-report-cja-content.md)
+**Monitorar engajamento:** Rastrear exibições, cliques, taxas de click-through e padrões de engajamento em várias sessões. [Relatórios de campanha](../reports/campaign-global-report-cja-content.md) | [Relatórios de Jornada](../reports/journey-global-report-cja-content.md)
 
 +++
 
@@ -224,7 +258,7 @@ As landing pages vêm com rastreamento integrado que não requer configuração 
 
 Além do rastreamento no nível do canal, configure o rastreamento para medir o desempenho geral e entender o comportamento do cliente em suas iniciativas de marketing.
 
-* **Definir métricas de sucesso personalizadas** - Configure KPIs específicos alinhados aos seus objetivos de negócios (compras, inscrições, renovações, etc.) além das métricas de envolvimento padrão. [Saiba mais](../building-journeys/success-metrics.md)
+* **Definir métricas de sucesso personalizadas** - Configure KPIs específicos alinhados aos seus objetivos de negócios (compras, inscrições, renovações etc.) além das métricas de engajamento padrão. [Saiba mais](../building-journeys/success-metrics.md)
 
 * **Habilitar eventos de etapa do jornada** - Ative o rastreamento detalhado de cada ação que os clientes realizam ao percorrerem o jornada. Isso proporciona visibilidade granular dos pontos de entrada/saída, seleção de caminho e locais de devolução. [Saiba mais](../reports/journey-step-events-overview.md)
 
@@ -234,7 +268,7 @@ Além do rastreamento no nível do canal, configure o rastreamento para medir o 
 
 * **Crie relatórios personalizados e exporte dados** - Crie relatórios personalizados e exporte dados de rastreamento para sistemas externos para uma análise mais profunda. [Saiba mais](../reports/sharing-overview.md)
 
-* **Exiba o desempenho unificado** Acesse relatórios abrangentes para campanhas e jornadas para comparar o desempenho em email, push, SMS e outros canais e para entender quais combinações geram melhores resultados. [Relatórios de campanha](../reports/campaign-global-report-cja.md) | [Jornada relatórios](../reports/journey-global-report-cja.md)
+* **Exiba o desempenho unificado** Acesse relatórios abrangentes para campanhas e jornadas para comparar o desempenho em email, push, SMS e outros canais e para entender quais combinações geram melhores resultados. [Relatórios de campanha](../reports/campaign-global-report-cja.md) | [Relatórios de Jornada](../reports/journey-global-report-cja.md)
 
 ## Rastrear o desempenho da otimização e da decisão {#optimization-decisioning-tracking}
 
@@ -297,4 +331,3 @@ Configure o monitoramento pró-ativo para receber notificações em tempo real s
 * **Habilitar logs de auditoria** - Ative o log de auditoria para rastrear todas as ações nos recursos para fins de conformidade e solução de problemas. [Saiba mais](../privacy/audit-logs.md)
 
 * **Monitorar integrações** - Rastreie o desempenho da ação personalizada e a conectividade do sistema externo para identificar problemas de integração antecipadamente. [Saiba mais](../action/reporting.md)
-

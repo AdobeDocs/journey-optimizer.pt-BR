@@ -9,9 +9,22 @@ role: User
 level: Beginner
 keywords: email, mensagem, anexo, pdf, editor
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
-source-git-commit: 8be7a537781331fdc8cf198c366868ab1c886b38
+TQID: https://experienceleague.adobe.com/9IgYERskcUrIAhTb3xlNgWTRyY-04O58ZB8I0lYFh4g
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: 351
 ht-degree: 38%
 
 ---
@@ -21,7 +34,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="Adicionar um anexo em PDF"
->abstract="Navegue para selecionar um arquivo PDF para anexar ao seu email.</br>É possível enviar até seis mensagens com um anexo em PDF por perfil, por ano. O tamanho máximo para cada anexo é 5 MB.</br>Para qualquer tamanho ou volume adicional, é possível adquirir um complemento de pacote de anexos. Para obter mais informações, entre em contato com um representante da Adobe."
+>abstract="Navegue para selecionar um arquivo PDF para anexar ao seu email.</br>É possível enviar até seis mensagens com um anexo em PDF por perfil, por ano. O tamanho máximo permitido para cada anexo é de 5 MB.</br>Para qualquer tamanho ou volume adicional, é possível adquirir um complemento de pacote de anexos. Para obter mais informações, entre em contato com um representante da Adobe."
 
 Você pode anexar um arquivo PDF estático às mensagens de email enviadas com [!DNL Journey Optimizer].
 

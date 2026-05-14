@@ -9,9 +9,31 @@ role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/6RWh7aUUasaT-BIe90rkSJf66-G3Ika81AhufKSnqjw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: f29a52db-c90c-4345-902e-b586d1406d8d
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: 2117
 ht-degree: 92%
 
 ---
@@ -129,7 +151,7 @@ Ao comparar o desempenho de dois tratamentos, você deve sempre comparar as mét
 
 Por exemplo, se o objetivo do experimento estiver definido como **[!UICONTROL Aberturas únicas]** e um determinado tratamento foi mostrado para 10.000 Perfis com 200 Aberturas únicas registradas, então isso representa uma **[!UICONTROL Taxa de conversão]** de 2%. Para métricas não exclusivas, por exemplo, métrica Aberturas, a métrica normalizada é mostrada como uma **[!UICONTROL Contagem por perfil]**, enquanto para métricas contínuas como Preço total, a métrica normalizada é mostrada como um **[!UICONTROL Total por Perfil]**.
 
-### &#x200B;2. concentrar-se nos intervalos de confiança {#confidence-intervals}
+### &#x200B;2. foco em intervalos de confiança {#confidence-intervals}
 
 Quando você executa experimentos em amostras de seus perfis, a taxa de conversão observada para um determinado tratamento representa uma estimativa da verdadeira taxa de conversão subjacente.
 
@@ -141,7 +163,7 @@ Se os intervalos de confiança para dois tratamentos mal se sobrepõem, isso sig
 
 A Adobe usa intervalos de confiança válidos de 95% a qualquer momento, ou Sequências de confiança, o que significa que os resultados podem ser visualizados com segurança a qualquer momento durante o experimento.
 
-### &#x200B;3. compreender o aumento {#understand-lift}
+### &#x200B;3. entender o aumento {#understand-lift}
 
 O resumo do relatório do Experimento mostra o **[!UICONTROL aumento em relação à linha de base]**, que é uma medida da melhora da porcentagem na taxa de conversão de um determinado tratamento em relação à linha de base. Para definir com precisão, é a diferença no desempenho entre um determinado tratamento e a linha de base, dividido pelo desempenho da linha de base expresso como uma porcentagem.
 

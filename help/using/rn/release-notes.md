@@ -30,7 +30,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 593d3e784bc260603423e1e6c70549b3a0e394d4
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 2578
 ht-degree: 82%
@@ -467,7 +467,7 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 
 #### Jornadas
 
-* **Tamanho atual da carga de jornada visível nas propriedades de jornada** - O painel Propriedades de jornada agora exibe o tamanho atual da carga de jornada em comparação ao limite configurado — por exemplo, *1,5 MB (de 2 MB)*. Esse indicador somente leitura ajuda a monitorar a complexidade da jornada antes da publicação e evitar que erros causados pelo limite de tamanho da carga sejam excedidos. [Leia mais](../building-journeys/journey-properties.md#journey-payload-size)
+* **Tamanho atual da carga de jornada visível nas propriedades de jornada** - O painel Propriedades de jornada agora exibe o tamanho atual da carga de jornada em comparação ao limite configurado — por exemplo, *1,5 MB (de 4 MB)*. Esse indicador somente leitura ajuda a monitorar a complexidade da jornada antes da publicação e evitar que erros causados pelo limite de tamanho da carga sejam excedidos. [Leia mais](../building-journeys/journey-properties.md#journey-payload-size)
 
   Data de disponibilidade: 30 de abril de 2026
 

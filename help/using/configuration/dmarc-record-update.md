@@ -9,9 +9,25 @@ role: Admin
 level: Experienced
 keywords: subdomínio, domínio, email, dmarc, registro
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/B-gnzjRpmhxELBiXRZxkBvE2yNNgozy-Hed5-k1oaIQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: 461
 ht-degree: 100%
 
 ---
@@ -21,7 +37,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="Saiba mais sobre a atualização de DMARC obrigatória"
->abstract="Como parte da aplicação de práticas recomendadas do setor, o Google e o Yahoo exigirão um **Registro DMARC**, para qualquer domínio que você usar para enviar emails a eles, a partir de **1º de fevereiro de 2024**.<br>Consequentemente, você deve configurar o registro DMARC em todos os subdomínios que delegou ao Adobe no Journey Optimizer."
+>abstract="Como parte da aplicação de práticas recomendadas do setor, a partir de **1º de fevereiro de 2024**, o Google e o Yahoo exigirão um **registro DMARC** para qualquer domínio que você usar para enviar emails a eles.<br>Consequentemente, você deve configurar o registro DMARC em todos os subdomínios que delegou à Adobe no Journey Optimizer."
 
 O DMARC (Domain-based Message Authentication, Reporting, and Conformance) é um método de autenticação de email que permite que os proprietários do domínio o protejam contra o uso não autorizado. Ao oferecer uma política clara para provedores de email/ISPs, ajuda a impedir que atores mal-intencionados enviem emails que alegam ser do seu domínio. A implementação do DMARC reduz o risco de emails legítimos serem marcados como spam ou rejeitados e melhora a capacidade de entrega de emails.
 

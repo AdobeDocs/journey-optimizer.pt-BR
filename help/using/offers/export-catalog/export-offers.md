@@ -10,9 +10,25 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+TQID: https://experienceleague.adobe.com/ZnlEExKq7uM-qxcva2e0MxLFHXwGoW00axWjS-XaTZo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: 2006
 ht-degree: 1%
 
 ---
@@ -64,7 +80,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 
 **Campo:** calendarConstraints
 **Título:** Detalhes de Restrição de Calendário
-**Descrição:** as restrições de calendário decidem se uma opção de decisão é válida considerando um intervalo de datas. Fora desse intervalo de datas, a opção não pode ser proposta.
+**Descrição:** As restrições de calendário decidem se uma opção de decisão é válida, considerando um intervalo de datas. Fora desse intervalo de datas, a opção não pode ser proposta.
 **Tipo:** objeto
 
 * **Data e hora de término**
@@ -87,7 +103,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 
 **Campo:** características
 **Título:** Características da Opção de Decisão
-**Descrição:** as características são atributos adicionais das ofertas ou propriedades pertencentes a uma opção de decisão específica. Esses atributos são pares de valores principais, o que significa que incluem um nome de atributo (às vezes chamado de chave) que tem um valor associado a ele e são usados para distinguir uma opção de decisão das outras ofertas. Por exemplo, para um nome de atributo &quot;cor&quot;, o valor pode ser &quot;verde&quot; para uma oferta específica.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
+**Descrição:** As características são atributos adicionais das ofertas ou propriedades pertencentes a uma opção de decisão específica. Esses atributos são pares de valores principais, o que significa que incluem um nome de atributo (às vezes chamado de chave) que tem um valor associado a ele e são usados para distinguir uma opção de decisão das outras ofertas. Por exemplo, para um nome de atributo &quot;cor&quot;, o valor pode ser &quot;verde&quot; para uma oferta específica.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
 **Tipo:** objeto
 
 +++
@@ -202,8 +218,8 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 +++ _experience > decisão > Status do ciclo de vida
 
 **Campo:** lifecycleStatus
-**Título:** Status do Ciclo de Vida
-**Descrição:** o status do ciclo de vida permite que os fluxos de trabalho sejam conduzidos com um objeto. O status pode afetar o local em que um objeto é visível ou considerado relevante. As alterações de status são orientadas pelos clientes ou serviços que usam os objetos.
+**Título:** Status do ciclo de vida
+**Descrição:** O status do ciclo de vida permite que os fluxos de trabalho sejam conduzidos com um objeto. O status pode afetar o local em que um objeto é visível ou considerado relevante. As alterações de status são orientadas pelos clientes ou serviços que usam os objetos.
 **Tipo:** cadeia de caracteres
 **Valores possíveis:** &quot;Rascunho&quot; (padrão), &quot;Aprovado&quot;, &quot;Ao Vivo&quot;, &quot;Concluído&quot;, &quot;Arquivado&quot;
 
@@ -265,7 +281,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 
 **Campo:** segmentIdentities
 **Título:** Identificadores de Segmento
-**Descrição:** Identificadores dos públicos-alvo
+**Descrição:** Identificadores dos públicos
 **Tipo:** matriz
 
 * **Identificador**

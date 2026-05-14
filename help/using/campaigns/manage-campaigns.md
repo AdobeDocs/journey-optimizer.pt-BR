@@ -10,10 +10,27 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+TQID: https://experienceleague.adobe.com/k-BZOO4BOzdW2TVlBrDx1CH-Wte7KEXffXqZYRvUI7w
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 9%
+source-wordcount: 1692
+ht-degree: 10%
 
 ---
 
@@ -35,7 +52,7 @@ Saiba como acessar, organizar e gerenciar suas campanhas no Adobe Journey Optimi
 
 **Ir diretamente para o que você precisa:**
 
-* **Criar uma nova campanha** - [Escolher o tipo de campanha](get-started-with-campaigns.md#campaign-types) | [Criar campanha de Ação](create-campaign.md) | [Criar campanha acionada por API](api-triggered-campaigns.md) | [Criar campanha Orquestrada](../orchestrated/gs-orchestrated-campaigns.md)
+* **Criar uma nova campanha** - [Escolher o tipo de campanha](get-started-with-campaigns.md#campaign-types) | [Criar campanha de ação](create-campaign.md) | [Criar campanha acionada por API](api-triggered-campaigns.md) | [Criar campanha orquestrada](../orchestrated/gs-orchestrated-campaigns.md)
 * **Localizar campanhas existentes** - [Pesquisar e filtrar](#access)
 * **Exibir desempenho da campanha** - [Relatórios de campanha](../reports/campaign-global-report-cja.md)
 * **Agendar campanhas** - [Usar o calendário](#calendar)
@@ -142,7 +159,7 @@ Quando ocorre um erro em uma de suas campanhas, um ícone de aviso é exibido ju
 >title="Visualizações de campanhas em lista e calendário"
 >abstract="Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma visualização do calendário das suas campanhas, oferecendo uma representação visual clara dos cronogramas. Você pode alternar entre as visualizações em lista e calendário a qualquer momento, usando estes botões."
 
-Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma exibição do calendário de suas campanhas, oferecendo uma representação visual clara de suas agendas.
+Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma visualização do calendário das suas campanhas, oferecendo uma representação visual clara dos cronogramas.
 
 ### Como o calendário funciona
 
@@ -261,9 +278,9 @@ A campanha é criada e adicionada à lista de campanhas.
 
 ## Recursos adicionais
 
-* **Introdução** - [Introdução às campanhas](get-started-with-campaigns.md) | [Criar sua primeira campanha de Ação](create-campaign.md) | [Guia de campanhas acionadas por API](api-triggered-campaigns.md) | [Guia de campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)
+* **Introdução** - [Introdução às campanhas](get-started-with-campaigns.md) | [Crie sua primeira campanha de Ação](create-campaign.md) | [Guia de campanhas acionadas por API](api-triggered-campaigns.md) | [Guia de campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)
 
-* **Configuração da campanha** - [Propriedades da campanha](campaign-properties.md) | [Ações e canais da campanha](campaign-action.md) | [Design do conteúdo da campanha](campaign-content.md) | [Seleção do público da campanha](campaign-audience.md) | [Agendamento da campanha](campaign-schedule.md)
+* **Configuração da campanha** - [Propriedades da campanha](campaign-properties.md) | [Ações e canais de campanha](campaign-action.md) | [Design de conteúdo da campanha](campaign-content.md) | [Seleção do público da campanha](campaign-audience.md) | [Agendamento de campanha](campaign-schedule.md)
 
 * **Recursos avançados** - [Fluxos de trabalho de aprovação](../test-approve/gs-approval.md) | [Gerenciamento de conflitos e priorização](../conflict-prioritization/gs-conflict-prioritization.md) | [Limite de frequência por canal](../conflict-prioritization/channel-capping.md) | [Pontuações de prioridade](../conflict-prioritization/priority-scores.md) | [Exportar campanhas para outras sandboxes](../configuration/copy-objects-to-sandbox.md)
 

@@ -10,9 +10,26 @@ role: User, Developer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/DTi8clyXof5lmdx0elOPHQGm0cwQuKwAm0KbQ-U-Fmo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: 1574
 ht-degree: 1%
 
 ---
@@ -121,7 +138,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 +++_experience > decisioning > criteria > posicionamentos
 
 **Campo:** posicionamentos
-**Título:** Restrições de posicionamento
+**Título:** Restrições de Posicionamento
 **Descrição:** A restrição de posicionamento declara que este critério só é aplicável para os posicionamentos listados. A seleção de opção é considerada somente quando o posicionamento de destino está na lista `xdm:placements`. Caso contrário, todo o critério de decisão será ignorado. Quando a lista &#39;xdm:placements&#39; é omitida ou está vazia, o critério é considerado para qualquer posicionamento direcionado. As disposições listadas aqui impõem critérios implícitos para a seleção de opções. Uma opção a ser considerada deve ter uma representação para a inserção direcionada.
 **Tipo:** matriz
 
@@ -311,7 +328,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 +++ _repo > ETag Atividade
 
 **Campo:** etag
-**Título:** Activity ETag
+**Título:** ETag de atividade
 **Descrição:** A revisão na qual o objeto de decisão (anteriormente conhecido como atividade) estava quando o instantâneo foi tirado.
 **Tipo:** cadeia de caracteres
 

@@ -4,13 +4,16 @@ product: journey optimizer
 title: Trabalhar com filtros predefinidos
 description: Saiba como salvar, aplicar e gerenciar filtros predefinidos em campanhas orquestradas
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+exl-id: fc508eb7-5b7a-4736-967b-523639eeb096
+TQID: https://experienceleague.adobe.com/6awSMB2-cIw-gbUxluLDuCdOLkLKho7QGSR7QHtOshA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 11%
+source-wordcount: 507
+ht-degree: 20%
 
 ---
-
 
 # Trabalhar com filtros predefinidos {#predefined-filters}
 
@@ -39,7 +42,7 @@ Salve um filtro personalizado no construtor de regras para disponibilizá-lo par
 
    ![](assets/predefined-filter-save-name.png)
 
-Seu filtro personalizado agora está disponível na lista **Filtros predefinidos**.
+Seu filtro personalizado já está disponível na lista **Filtros predefinidos**.
 
 ## Usar um filtro predefinido em uma regra {#apply}
 

@@ -1,27 +1,46 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Troubleshooting guide for inbound actions in journeys
-description: Learn how to debug and resolve issues related to inbound actions in journeys [!DNL Adobe Journey Optimizer]
+title: Guia de solução de problemas para ações de entrada no jornada
+description: Saiba como depurar e resolver problemas relacionados a ações de entrada no jornada [!DNL Adobe Journey Optimizer]
 feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
-keywords: inbound actions, troubleshooting, journey, debug, self-help, check, errors
+keywords: ações de entrada, solução de problemas, jornada, depurar, autoajuda, verificação, erros
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/weaEAXaVmLAXbha8orPxj69zzbVUNLFiC-dhTrvdMpQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: 1809
 ht-degree: 1%
 
 ---
 
 # Solução de problemas de ações de entrada na jornada {#troubleshooting-inbound-actions}
 
-Inbound actions, such as In-app, web, and code-based experiences, are critical components of [!DNL Journey Optimizer] as they enable personalized engagement with users during their journey. However, unexpected behavior, such as missing inbound content, or continued delivery after a profile exits the journey, can occur.
+Ações de entrada, como experiências no aplicativo, Web e baseadas em código, são componentes críticos do [!DNL Journey Optimizer], pois permitem o engajamento personalizado com os usuários durante a jornada. No entanto, pode ocorrer um comportamento inesperado, como ausência de conteúdo de entrada ou entrega contínua após um perfil sair da jornada.
 
-This guide provides a step-by-step process to debug issues related to inbound actions in a journey, in order to help you identify and resolve them independently before reaching out to support.
+Este guia fornece um processo passo a passo para depurar problemas relacionados a ações de entrada em uma jornada, a fim de ajudar você a identificá-los e resolvê-los de forma independente antes de entrar em contato com o suporte do.
 
 <!--
 This guide addresses the two most common scenarios with inbound actions in a journey. They are as follows:
@@ -32,23 +51,23 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 ## Pré-requisitos {#prerequisites}
 
-Before you can start troubleshooting, ensure the following:
+Antes de começar a solução de problemas, verifique o seguinte:
 
-1. Set up an **Assurance** session. Learn how in the [[!DNL Adobe Experience Platform] Assurance documentation](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+1. Configure uma sessão **Assurance**. Saiba mais na [[!DNL Adobe Experience Platform] documentação do Assurance](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
-1. Navigate to the journey containing the inbound action to retrieve the journey name and version ID.
+1. Navegue até a jornada que contém a ação de entrada para recuperar o nome da jornada e a ID da versão.
 
    >[!NOTE]
    >
-   >The journey version ID can be found in the URL after &#39;journey/&#39; (for example: *86232fb1-2932-4036-8198-55dfec606fd7*).
+   >A ID da versão do jornada pode ser encontrada na URL após &#39;jornada/&#39; (por exemplo: *86232fb1-2932-4036-8198-55dfec606fd7*).
 
-   ![Journey ID location in journey URL or properties panel](assets/troubleshoot-inbound-retrieve-journey-id.png)
+   ![Local da ID de Jornada na URL de jornada ou no painel de propriedades](assets/troubleshoot-inbound-retrieve-journey-id.png)
 
-1. Click the inbound action to view its details. Retrieve the inbound action label and ID.
+1. Clique na ação de entrada para exibir seus detalhes. Recupere o rótulo e a ID da ação de entrada.
 
-   ![Action ID in activity configuration panel code view](assets/troubleshoot-inbound-retrieve-action-id.png)
+   ![ID da ação na exibição de código do painel de configuração da atividade](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. Get the profile namespace and ID to identify the profile encountering issues. Based on your configuration, the namespace can be ECID, email, or customer ID for example. Learn how to look up a profile in the [Experience Platform documentation](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+1. Obtenha o namespace e a ID do perfil para identificar o perfil que está encontrando problemas. Com base na sua configuração, o namespace pode ser ECID, email ou ID do cliente, por exemplo. Saiba como pesquisar um perfil na [documentação do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ## Cenário 1: o usuário não recebeu o conteúdo de entrada {#scenario-1}
 
@@ -121,7 +140,7 @@ Para depurar o comportamento do Edge Network, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Para encontrar sua atividade do Edge na sessão **Assurance**, procure a atividade em que **[!UICONTROL audienceNamespace]** é **joai** e o **[!UICONTROL audienceSegmentId]** é &lt;*JourneyVersionID*>_&lt;*JourneyActionID*> (por exemplo: *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*).
+   >Para encontrar sua atividade do Edge na sessão **Assurance**, procure a atividade em que o **[!UICONTROL audienceNamespace]** é **joai** e o **[!UICONTROL audienceSegmentId]** é &lt;*JourneyVersionID*>_&lt;*JourneyActionID*> (por exemplo: *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*).
 
    ![Erro de entrega do Edge mostrando que o perfil não se qualificou para a mensagem](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
 
@@ -151,7 +170,7 @@ Para verificar a presença do segmento **joai** no atributo `segmentMembership` 
 
    ![Exibição dos atributos de perfil em formato JSON mostrando o status de associação do público-alvo](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
 
-1. Vá para o atributo `segmentMembership` e verifique se a ID de segmento &lt;*JourneyVersionID>*_&lt;*JourneyActionID*> está presente no namespace **joai** e se está no status **[!UICONTROL realizado]** <!--or existing?-->.
+1. Vá para o atributo `segmentMembership` e verifique se a ID de segmento &lt;*JourneyVersionID>*_&lt;*JourneyActionID*> está presente no namespace **joai** e se no **[!UICONTROL se realizou]** <!--or existing?-->o status.
 
    ![Perfil JSON mostrando associação realizada de público-alvo com carimbo de data/hora](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
 

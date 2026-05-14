@@ -5,13 +5,19 @@ title: Usar a atividade de reconciliação
 description: Saiba como usar a atividade de Reconciliação em uma campanha orquestrada
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 version: Campaign Orchestration
-source-git-commit: 8510004a3e1726dedc1103ff974c456155a131c8
+TQID: https://experienceleague.adobe.com/lWFTptRrn3B5r0sHSaN5qCWDLBZC74H3N-7eo8rRgdU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: 549
 ht-degree: 84%
 
 ---
-
 
 # Reconciliação {#reconciliation}
 
@@ -35,7 +41,7 @@ ht-degree: 84%
 >title="Complemento de geração de reconciliação"
 >abstract="Complemento de geração de reconciliação"
 
-A atividade **[!UICONTROL Reconciliação]** é uma atividade de **[!UICONTROL Direcionamento]** que permite definir o vínculo entre os dados do banco de dados do Adobe Journey Optimizer e os dados de uma tabela de trabalho, como, por exemplo, dados carregados de um arquivo externo. 
+A atividade **[!UICONTROL Reconciliação]** é uma atividade de **[!UICONTROL Direcionamento]** que permite definir o vínculo entre os dados do banco de dados do Adobe Journey Optimizer e os dados de uma tabela de trabalho, como, por exemplo, dados carregados de um arquivo externo.
 
 A atividade **[!UICONTROL Enrichment]** permite adicionar dados adicionais à campanha orquestrada, por exemplo, combinando dados de várias fontes ou vinculando a um recurso temporário. Em contraste, a atividade **[!UICONTROL Reconciliação]** é usada para corresponder dados não identificados ou externos a recursos existentes no banco de dados.
 

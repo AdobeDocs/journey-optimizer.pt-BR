@@ -10,10 +10,28 @@ level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/8gtrjnNNob-iRXdjSytSYOMyDswVxsrd8knipi4i1gI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 14%
+source-wordcount: 1921
+ht-degree: 15%
 
 ---
 
@@ -28,7 +46,7 @@ Com **condições**, é possível definir como as pessoas avançam pela jornada 
 
 >[!NOTE]
 >
->O novo veículo para criar caminhos condicionais no jornada é a atividade [Otimizar](optimize.md). Substitui a antiga atividade **Condição**, que foi removida da interface do usuário. Toda lógica condicional agora é tratada por meio das condições da atividade Otimizar apresentadas nesta página.
+>O novo veículo para criar caminhos condicionais no jornada é a atividade [Otimizar](optimize.md). Substitui a antiga atividade **Condição**, que foi removida da interface. Toda lógica condicional agora é tratada por meio das condições da atividade Otimizar apresentadas nesta página.
 >
 >Se você tiver jornadas existentes que usaram atividades de **[!UICONTROL Condição]**, poderá continuar a usá-las como antes. Agora eles aparecem com um novo ícone como **[!UICONTROL Otimizar]** atividades usando o método **[!UICONTROL Condição]**, mas o comportamento não é alterado. Qualquer rótulo personalizado definido no nó é preservado.
 

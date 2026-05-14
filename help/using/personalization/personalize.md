@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: expressão, editor, início, personalização
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 6d62604f975fce76860eba000a09870806d54934
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 22%
+source-wordcount: '608'
+ht-degree: 25%
 
 ---
 
@@ -87,6 +87,14 @@ Agora que você conhece a personalização no **[!DNL Journey Optimizer]**, é h
 </a>
 <div>
 <a href="../personalization/functions/functions.md"><strong>Lista de funções auxiliares</strong></a>
+</div>
+<p></td>
+<td>
+<a href="../personalization/personalization-recipes.md">
+<img alt="Pouco frequente" src="assets/do-not-localize/uc.png">
+</a>
+<div>
+<a href="../personalization/personalization-recipes.md"><strong>Receitas do Personalization</strong></a>
 </div>
 <p></td>
 <td>

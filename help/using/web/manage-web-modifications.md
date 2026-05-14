@@ -6,10 +6,26 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+TQID: https://experienceleague.adobe.com/8T04E9mgfsmZxHAv0lSgWd9owrKjxW9xWRE76iYMvz8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 21%
+source-wordcount: 973
+ht-degree: 24%
 
 ---
 
@@ -177,7 +193,7 @@ Os scripts são executados de modo assíncrono. Isso frequentemente faz com que 
 
 +++ **Se você criar um elemento e depois modificá-lo, não exclua o elemento original.**
 
-Cada alteração cria um novo elemento no painel **[!UICONTROL Modificações]**. Como a segunda ação modifica o Elemento 1, se você o excluir, essa ação não terá mais nada para modificar, e a alteração não funcionará mais.
+Cada alteração cria um novo elemento no painel **[!UICONTROL Modificações]**. Como a segunda ação modifica o Elemento 1, se você o excluir, a ação não terá mais nada para modificar e a alteração não funcionará mais.
 
 +++
 

@@ -9,10 +9,33 @@ level: Intermediate, Experienced
 keywords: caso de uso, vários canais, jornada, eventos
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+TQID: https://experienceleague.adobe.com/2CSLnzEioabgXOTNK8fm-uq6gjq63tVdry3UWMai4oU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 8%
+source-wordcount: 1134
+ht-degree: 16%
 
 ---
 
@@ -53,7 +76,7 @@ Use essa biblioteca como ponto de referência ao projetar jornadas, modelar dado
     <div>
     <a href="../data/datasets-query-examples.md">
     <img alt="amostras de query" src="../assets/do-not-localize/icon-configure.svg"/></a> 
-    <br>Para criar seus casos de uso, você precisa consultar os conjuntos de dados [!DNL Adobe Journey Optimizer], como conjuntos de dados do sistema para assimilar eventos de experiência de rastreamento, o conjunto de dados para assimilar eventos de etapa em uma jornada, o conjunto de dados para assimilar apresentações de oferta aos usuários e muito mais.
+    <br>Para criar seus casos de uso, você precisa consultar os [!DNL Adobe Journey Optimizer] conjuntos de dados, como conjuntos de dados do sistema para assimilar eventos de experiência de rastreamento, o conjunto de dados para assimilar eventos de etapa em uma jornada, o conjunto de dados para assimilar apresentações de oferta aos usuários e muito mais.
     </div>
       <div>
      <a href="../data/datasets-query-examples.md">Saiba mais</a></div>
