@@ -7,11 +7,20 @@ role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
 TQID: https://experienceleague.adobe.com/7obMSbnxBNQoGUsf-g-v1dDipisLUw0ulGpx5UiUHxw
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 522
@@ -75,13 +84,13 @@ Sua jornada baseada em código pega o status do **[!UICONTROL Live]** e agora es
    >
    >Saiba mais sobre como ativar campanhas em [esta seção](../campaigns/review-activate-campaign.md).
 
-Sua campanha baseada em código pega o **[!UICONTROL status do [Live]**](../campaigns/manage-campaigns.md#statuses) e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações que você adicionou ao conteúdo.
+Sua campanha baseada em código pega o **[[!UICONTROL status do [Live]**]](../campaigns/manage-campaigns.md#statuses) e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações que você adicionou ao conteúdo.
 
 >[!NOTE]
 >
 >Após clicar em **[!UICONTROL Ativar]**, pode levar até 15 minutos para que as alterações fiquem disponíveis ao vivo.
 >
->Se você definiu um agendamento para sua campanha baseada em código, ele tem o **[!UICONTROL status]** [ agendado](../campaigns/manage-campaigns.md#statuses) até que a data e a hora de início sejam atingidas.
+>Se você definiu um agendamento para sua campanha baseada em código, ele tem o **[!UICONTROL status]** [&#x200B; agendado](../campaigns/manage-campaigns.md#statuses) até que a data e a hora de início sejam atingidas.
 
 ## Interromper uma jornada ou campanha baseada em código {#stop-code-based-experience}
 
