@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## Sobre fórmulas de classificação {#about-ranking-formulas}
 
-**As fórmulas de classificação** permitem definir regras que determinarão qual oferta deve ser apresentada primeiro para determinado posicionamento, em vez de levar em conta as pontuações de prioridade das ofertas. As fórmulas de classificação são expressas em **sintaxe PQL** e podem aproveitar atributos de perfil, dados de contexto e atributos de oferta. Para obter mais informações sobre como usar a sintaxe do PQL, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
+**As fórmulas de classificação** permitem definir regras que determinarão qual oferta deve ser apresentada primeiro para determinado posicionamento, em vez de levar em conta as pontuações de prioridade das ofertas. As fórmulas de classificação são expressas em **sintaxe PQL** e podem aproveitar atributos de perfil, dados de contexto e atributos de oferta. Para obter mais informações sobre como usar a sintaxe do PQL, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=pt-BR).
 
 Depois que uma fórmula de classificação é criada, é possível atribuí-la a uma inserção em uma decisão. Para obter mais informações, consulte [Configurar seleção de ofertas em decisões](../offer-activities/configure-offer-selection.md).
 

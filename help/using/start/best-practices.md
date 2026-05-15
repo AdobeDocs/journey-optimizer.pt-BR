@@ -47,7 +47,7 @@ O Adobe Journey Optimizer usa o Serviço de identidade para mesclar perfis e per
    * Isso pode levar de 30 minutos a 4 horas para ser concluído.
    * Normalmente, esse evento de logon gerará um gráfico de identidade que vincula a CRMID à ECID.
 
-1. Após a compilação inicial, todos os dados enviados com qualquer uma das duas identidades serão associados ao perfil mesclado e disponibilizados para personalização no Journey Optimizer em tempo real. A atualização do perfil com os dados comportamentais mais recentes pode levar até 1 minuto para ser concluída. Consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html).
+1. Após a compilação inicial, todos os dados enviados com qualquer uma das duas identidades serão associados ao perfil mesclado e disponibilizados para personalização no Journey Optimizer em tempo real. A atualização do perfil com os dados comportamentais mais recentes pode levar até 1 minuto para ser concluída. Consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=pt-BR).
 
 Ao criar casos de uso, considere o seguinte:
 

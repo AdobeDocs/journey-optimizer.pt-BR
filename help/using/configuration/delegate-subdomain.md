@@ -39,7 +39,7 @@ ht-degree: 0%
 >id="ajo_admin_subdomainname"
 >title="Delegação de subdomínio"
 >abstract="O Journey Optimizer permite delegar subdomínios à Adobe. Você pode delegar totalmente um subdomínio ao Adobe, que é o método recomendado. </br>Você também pode criar um subdomínio usando CNAMEs para apontar para registros específicos do Adobe, mas essa abordagem exige que você mantenha e gerencie registros DNS por conta própria."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Métodos de configuração de subdomínio"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Métodos de configuração de subdomínio"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"

@@ -41,13 +41,13 @@ ht-degree: 0%
 >id="ajo_create_visual_fragment"
 >title="Selecionar o tipo visual"
 >abstract="Crie um fragmento visual independente para tornar o conteúdo reutilizável em um email em uma jornada, campanha ou modelo de conteúdo."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Adicionar fragmentos visuais aos seus emails"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Adicionar fragmentos visuais aos seus emails"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="Selecionar o tipo de expressão"
 >abstract="Crie um fragmento de expressão independente para tornar seu conteúdo reutilizável em várias jornadas e campanhas. Ao usar o editor de personalização, você pode aproveitar todos os fragmentos de expressão que foram criados na sandbox atual."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Trabalhar com o editor de personalização"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Trabalhar com o editor de personalização"
 
 Os fragmentos podem ser criados do zero no menu esquerdo **[!UICONTROL Fragmentos]**. Além disso, também é possível salvar uma parte do conteúdo existente como fragmento ao projetar o conteúdo. [Saiba como](save-fragments.md#)
 

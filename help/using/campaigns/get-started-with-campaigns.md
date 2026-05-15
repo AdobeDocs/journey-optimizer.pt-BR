@@ -319,7 +319,7 @@ Agora que você compreende as campanhas no [!DNL Journey Optimizer], escolha o t
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
 
 **Agendamento e sincronização**
 
@@ -329,7 +329,7 @@ Agende campanhas para datas e horas específicas, defina entregas recorrentes e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 **Controle de taxa**
 
@@ -339,7 +339,7 @@ Limite a taxa de transferência de mensagens para evitar sobrecarga em sistemas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 **Direcionamento de público-alvo**
 
@@ -349,7 +349,7 @@ Direcione públicos-alvo específicos da Adobe Experience Platform com precisão
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 **Fluxos de trabalho de aprovação**
 
@@ -359,7 +359,7 @@ Implemente processos de revisão e aprovação antes que as campanhas sejam ativ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
 
 **Horário de silêncio**
 

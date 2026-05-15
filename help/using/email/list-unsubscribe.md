@@ -61,7 +61,7 @@ Dependendo do cliente de email e das configurações de cancelamento de subscri�
 >
 >Saiba como gerenciar as configurações de cancelamento de assinatura em [esta seção](#enable-list-unsubscribe) abaixo.
 
-Em ambos os casos, quando um recipient clica no link de recusa, sua solicitação de cancelamento de inscrição é processada adequadamente. O perfil correspondente foi cancelado imediatamente e esta escolha é atualizada no [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target="_blank"}. Saiba mais sobre o processamento de consentimento na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}.
+Em ambos os casos, quando um recipient clica no link de recusa, sua solicitação de cancelamento de inscrição é processada adequadamente. O perfil correspondente foi cancelado imediatamente e esta escolha é atualizada no [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR){target="_blank"}. Saiba mais sobre o processamento de consentimento na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=pt-BR){target="_blank"}.
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Em ambos os casos, quando um recipient clica no link de recusa, sua solicitaçã
 >id="ajo_admin_preset_unsubscribe"
 >title="Adicionar um URL de cancelamento de inscrição aos emails"
 >abstract="Habilite essa opção para adicionar automaticamente um URL de cancelamento de inscrição ao cabeçalho do email. Também é possível definir um URL para cancelar a inscrição em uma mensagem inserindo um link para opção de não participação com um clique no conteúdo do email."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Definir a opção de não participação com um clique no conteúdo do email"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Definir a opção de não participação com um clique no conteúdo do email"
 
 Quando a opção **[!UICONTROL Habilitar List-Unsubscribe]** estiver habilitada, se o cliente de email dos destinatários oferecer suporte, o cabeçalho do email incluirá um email e/ou uma URL por padrão que os destinatários podem usar para cancelar a inscrição na lista de endereçamento.
 
@@ -111,7 +111,7 @@ O recurso **[!UICONTROL Mailto (cancelar assinatura)]** e o recurso **[!UICONTRO
   >
   >Saiba mais sobre como gerenciar recursos de cancelamento de inscrição em suas mensagens [nesta seção](../email/email-opt-out.md#unsubscribe-header).
 
-Em [!DNL Journey Optimizer], o consentimento é gerido pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"} da Experience Platform. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações. Durante a integração, é possível modificar este valor padrão para um dos valores possíveis listados [aqui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"} ou usar [políticas de consentimento](../action/consent.md) para substituir a lógica padrão.
+Em [!DNL Journey Optimizer], o consentimento é gerido pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target="_blank"} da Experience Platform. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações. Durante a integração, é possível modificar este valor padrão para um dos valores possíveis listados [aqui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values){target="_blank"} ou usar [políticas de consentimento](../action/consent.md) para substituir a lógica padrão.
 
 Atualmente, o [!DNL Journey Optimizer] não anexa uma tag específica para cancelar a inscrição de eventos acionados pelo recurso de cancelamento de inscrição de lista. Se você precisar diferenciar os cliques de cancelamento de inscrição da lista de outras ações de cancelamento de inscrição, é necessário implementar a marcação personalizada externamente ou aproveitar uma página de aterrissagem externa para rastreamento.
 

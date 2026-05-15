@@ -39,7 +39,7 @@ ht-degree: 0%
 
 Fornecer aos recipients a capacidade de cancelar a inscrição para receber comunicações de uma marca é um requisito legal, bem como garantir que essa escolha seja respeitada. O não cumprimento desses regulamentos traz riscos legais normativos para sua marca. Ele ajuda a evitar o envio de comunicações não solicitadas para seus recipients, o que pode fazer com que eles marquem suas mensagens como spam e prejudiquem sua reputação.
 
-Saiba mais sobre a legislação aplicável na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
+Saiba mais sobre a legislação aplicável na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=pt-BR#regulations){target="_blank"}.
 
 ## Gerenciar cancelamentos de subscrições em jornadas e campanhas {#opt-out-ajo}
 
@@ -63,7 +63,7 @@ Para verificar o status de consentimento por push de um perfil no Adobe Experien
 
 >[!NOTE]
 >
->Para casos de uso de conformidade que exigem rastreamento explícito de consentimento por push, use o atributo **`consents.marketing.push.val`** do [grupo de campos Consentimentos e Preferências](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. Um valor de `y` indica aceitação explícita; `n` indica recusa explícita.
+>Para casos de uso de conformidade que exigem rastreamento explícito de consentimento por push, use o atributo **`consents.marketing.push.val`** do [grupo de campos Consentimentos e Preferências](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target="_blank"}. Um valor de `y` indica aceitação explícita; `n` indica recusa explícita.
 
 Saiba como gerenciar a opção de não participação em emails e mensagens SMS do Journey Optimizer nestas seções:
 
@@ -88,7 +88,7 @@ Saiba como gerenciar a opção de não participação em emails e mensagens SMS 
 
 >[!NOTE]
 >
->Em [!DNL Journey Optimizer], o consentimento é gerido pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"} da Experience Platform. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações. Durante a integração, é possível modificar este valor padrão para um dos valores possíveis listados [aqui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"} ou usar [políticas de consentimento](../action/consent.md) para substituir a lógica padrão.
+>Em [!DNL Journey Optimizer], o consentimento é gerido pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target="_blank"} da Experience Platform. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações. Durante a integração, é possível modificar este valor padrão para um dos valores possíveis listados [aqui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values){target="_blank"} ou usar [políticas de consentimento](../action/consent.md) para substituir a lógica padrão.
 
 ## Implementar consentimento de personalização {#opt-out-personalization}
 
@@ -102,7 +102,7 @@ Ao aproveitar ofertas, as preferências de personalização não são implementa
 >
 >Os escopos de decisão usados em [!DNL Journey Optimizer] canais criados atendem a esse requisito da jornada ou campanha à qual pertencem.
 
-1. Crie um [público-alvo do Adobe Experience Platform](../audience/about-audiences.md) usando o [Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"} e use um atributo de perfil como **[!UICONTROL Personalizar Conteúdo = Sim (aceitar)]** para direcionar usuários que consentiram com a personalização.
+1. Crie um [público-alvo do Adobe Experience Platform](../audience/about-audiences.md) usando o [Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR){target="_blank"} e use um atributo de perfil como **[!UICONTROL Personalizar Conteúdo = Sim (aceitar)]** para direcionar usuários que consentiram com a personalização.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -154,7 +154,7 @@ Para aplicar manualmente o consentimento de personalização em campanhas, siga 
 
 Você pode usar o construtor de regras de segmento para criar um público-alvo contendo perfis de recusa.
 
-1. Crie um [público-alvo do Adobe Experience Platform](../audience/about-audiences.md) usando o [Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
+1. Crie um [público-alvo do Adobe Experience Platform](../audience/about-audiences.md) usando o [Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -192,7 +192,7 @@ Você também pode adicionar uma verificação de consentimento de personalizaç
 
 1. **[!UICONTROL Caminho 1]** será o público não personalizado. Escolha um rótulo relevante.
 
-1. Escolha o valor apropriado nesta [lista](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
+1. Escolha o valor apropriado nesta [lista](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values){target="_blank"}.
 
    Nesse caso, usaremos `n` para indicar que os usuários não consentirão com o uso de seus dados para personalização.
 

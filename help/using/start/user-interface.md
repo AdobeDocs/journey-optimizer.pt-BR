@@ -64,7 +64,7 @@ Para acessar o Adobe Journey Optimizer, entre no [Adobe Experience Cloud](https:
 
 >[!NOTE]
 >
->* Os componentes e recursos disponíveis em seu ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+>* Os componentes e recursos disponíveis em seu ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 >* Esta documentação é atualizada com frequência. Algumas capturas de tela podem ser um pouco diferentes da interface.
 
 ## Tour rápido {#quick-tour}

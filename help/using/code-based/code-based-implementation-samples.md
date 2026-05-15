@@ -58,7 +58,7 @@ Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs 
 
 ### Como funciona - Web SDK {#client-side-how}
 
-1. O [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} está incluído na página.
+1. O [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} está incluído na página.
 
 1. Você precisa usar o comando `sendEvent` e especificar o [URI de superfície](code-based-surface.md)<!--( or location/path)--> para buscar conteúdo de personalização.
 
@@ -175,7 +175,7 @@ As etapas abaixo descrevem o processo de busca do conteúdo publicado na borda p
 ### Como funciona
 
 1. A página da Web é solicitada e todos os cookies armazenados anteriormente pelo navegador com o prefixo `kndctr_` são incluídos.
-1. Quando a página é solicitada no servidor de aplicativos, um evento é enviado ao [ponto de extremidade de coleta de dados interativa](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) para buscar conteúdo de personalização. Este aplicativo de exemplo usa alguns métodos auxiliares para simplificar a criação e o envio de solicitações para a API (consulte [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Mas a solicitação é simplesmente uma `POST` com uma carga que contém um evento e uma consulta. Os cookies (se disponíveis) da etapa anterior estão incluídos com a solicitação na matriz `meta>state>entries`.
+1. Quando a página é solicitada no servidor de aplicativos, um evento é enviado ao [ponto de extremidade de coleta de dados interativa](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR) para buscar conteúdo de personalização. Este aplicativo de exemplo usa alguns métodos auxiliares para simplificar a criação e o envio de solicitações para a API (consulte [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Mas a solicitação é simplesmente uma `POST` com uma carga que contém um evento e uma consulta. Os cookies (se disponíveis) da etapa anterior estão incluídos com a solicitação na matriz `meta>state>entries`.
 
    ```javascript
    fetch(
@@ -336,7 +336,7 @@ As solicitações para a API do Adobe Experience Platform são necessárias para
 Se você tiver uma implementação híbrida, verifique os links abaixo.
 
 * Blog técnico da Adobe: [Personalization híbrido no Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* Documentação do SDK: [Personalização híbrida usando o Web SDK e a API do Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* Documentação do SDK: [Personalização híbrida usando o Web SDK e a API do Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=pt-BR){target="_blank"}
 
 ## Depurar chamadas de API de rede de borda com o Adobe Experience Platform assurance {#debugging-edge-api-assurance}
 
@@ -385,5 +385,5 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.
 -->

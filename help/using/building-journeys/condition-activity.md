@@ -65,7 +65,7 @@ Você também pode basear uma condição em associação de público-alvo. Consu
 
 >[!NOTE]
 >
->A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
+>A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}.
 
 ## Adicionar e gerenciar caminhos de condição {#about_condition}
 
@@ -95,7 +95,7 @@ O modo simples permite executar consultas simples com base em uma combinação d
 
 ![Editor de expressão mostrando a seleção de campo e os operadores lógicos AND](assets/journey64.png)
 
-Se você estiver usando o [[!DNL Adobe Experience Platform] Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} para criar públicos, poderá aproveitá-los nas condições de jornada. Consulte [Uso de público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment). Para obter mais informações sobre como gerar e direcionar públicos no Journey Optimizer, consulte [esta seção](../audience/about-audiences.md).
+Se você estiver usando o [[!DNL Adobe Experience Platform] Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"} para criar públicos, poderá aproveitá-los nas condições de jornada. Consulte [Uso de público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment). Para obter mais informações sobre como gerar e direcionar públicos no Journey Optimizer, consulte [esta seção](../audience/about-audiences.md).
 
 
 >[!NOTE]
@@ -120,7 +120,7 @@ Por exemplo, se você estiver direcionando um público-alvo com atributos de enr
 >
 >Se um campo de esquema for definido no esquema do seu Perfil, mas nenhum dado tiver sido assimilado para esse campo, a Journey Optimizer e o Perfil de Cliente em Tempo Real subjacente interpretarão o campo como `null`. Como resultado, as condições que verificam `isEmpty()`, `isNull()` ou funções semelhantes avaliarão `true` mesmo se o atributo nunca foi assimilado. Isso pode levar a um comportamento inesperado da jornada se você não estiver ciente de que o campo não tem dados.
 >
->Para evitar confusão, verifique se os atributos usados em expressões de condição foram assimilados com dados reais antes que o perfil entre na jornada. Você pode verificar os valores de atributo no [Perfil de cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} para confirmar se existem dados para os campos usados em suas condições.
+>Para evitar confusão, verifique se os atributos usados em expressões de condição foram assimilados com dados reais antes que o perfil entre na jornada. Você pode verificar os valores de atributo no [Perfil de cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} para confirmar se existem dados para os campos usados em suas condições.
 
 Usando o editor de expressão avançado, você pode configurar condições mais avançadas que manipulem coleções ou usem fontes de dados que exijam a transmissão de parâmetros. [Saiba mais](../datasource/external-data-sources.md).
 
@@ -211,4 +211,4 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.

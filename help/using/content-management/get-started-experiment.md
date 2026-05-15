@@ -114,7 +114,7 @@ Por exemplo, é improvável que a alteração do conteúdo do corpo da mensagem 
 +++Execute o teste no tamanho correto do público ou por tempo suficiente
 
 Se você executar seus testes por mais tempo, será capaz de detectar diferenças menores na métrica de meta entre tratamentos. No entanto, se o valor da linha de base da sua métrica de meta for pequeno, você precisará de amostras maiores.
-O número de usuários que devem ser incluídos no experimento depende do tamanho do efeito que você deseja detectar, da variação ou propagação da métrica de objetivo, bem como da sua tolerância para erros falso-positivos e falso-negativos. Em Experimentos clássicos, você pode usar uma [calculadora de tamanho de amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){_blank} para determinar por quanto tempo você deve executar seu teste.
+O número de usuários que devem ser incluídos no experimento depende do tamanho do efeito que você deseja detectar, da variação ou propagação da métrica de objetivo, bem como da sua tolerância para erros falso-positivos e falso-negativos. Em Experimentos clássicos, você pode usar uma [calculadora de tamanho de amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR){_blank} para determinar por quanto tempo você deve executar seu teste.
 +++ 
 
 +++Compreender a incerteza estatística
@@ -211,4 +211,4 @@ Depois de executar o experimento, há várias ações de acompanhamento possíve
 * **[Bandit multiarmada versus teste A/B](mab-vs-ab.md)** - Compare diferentes abordagens de experimentação e quando usar cada método.
 * **[Acelerador de experimentos](experiment-accelerator-gs.md)** - Descubra como acelerar a experimentação com otimização baseada em IA.
 * **[Cálculos de relatório de experimento](experiment-report-calculations.md)** - Saiba como interpretar resultados de experimento e significância estatística.
-* **[Tutoriais de experimentação](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre experimentação de conteúdo e práticas recomendadas.
+* **[Tutoriais de experimentação](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre experimentação de conteúdo e práticas recomendadas.
