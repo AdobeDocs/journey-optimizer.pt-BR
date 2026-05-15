@@ -7,11 +7,10 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 94e82065c51a925c73eb4a759a39f65737382fdc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: 80b94c6727529c9b7ade847ec78c38368ab4eb88
 workflow-type: tm+mt
-source-wordcount: 1847
+source-wordcount: 1888
 ht-degree: 11%
 
 ---
@@ -231,13 +230,13 @@ Os recursos a seguir são direcionados para esta versão.
 <table>
 <thead>
 <tr>
-<th><strong>Assistente do AI para expressões de jornada</strong><br/></th>
+<th><strong>Assistente de IA para expressões de Jornada</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Adobe Journey Optimizer agora inclui um <strong>Assistente de IA para expressões de jornada</strong> diretamente dentro do editor de expressão avançado de Jornada. Desenvolvido pela AI, ele ajuda a gerar novas expressões a partir de uma descrição em linguagem simples.</p>
+<p>O Assistente de IA agora opera no editor de expressão avançado do jornada para converter prompts de linguagem natural em expressões válidas e lógica condicional. Descreva a expressão que deseja criar e o AI Assistant gera um código pronto para uso, que pode ser aplicado imediatamente ou refinado por meio de prompts de acompanhamento.</p>
 <p>Esse recurso está disponível para todos os clientes como um Beta público.</p>
 <p>Tarefa JIRA de documentação: <a href="https://jira.corp.adobe.com/browse/DOCAC-14692">DOCAC-14692</a></p>
 <p>Data de disponibilidade: 19 de maio de 2026</p>
@@ -351,7 +350,7 @@ As seguintes melhorias estão direcionadas para esta versão.
 
   Data de disponibilidade: 26 de maio de 2026
 
-* **Executar um loop sobre coleções de enriquecimento na personalização** - O editor de personalização em campanhas orquestradas agora oferece suporte a uma construção de loop para iterar sobre uma coleção de uma atividade de enriquecimento.
+* **Personalização baseada em loop para dados relacionais** - O editor de personalização agora oferece suporte a um Bloco de loop que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de gravação de expressão.
 
   Tarefa JIRA de documentação: [DOCAC-14703](https://jira.corp.adobe.com/browse/DOCAC-14703)
 
@@ -395,7 +394,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -787,7 +786,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -1078,7 +1077,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1331,7 +1330,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1508,7 +1507,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
