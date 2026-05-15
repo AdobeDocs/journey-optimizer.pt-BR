@@ -3,7 +3,7 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Fórmulas de classificação
 description: Saiba como criar fórmulas para classificar ofertas
-badge: label="Legado" type="Informative"
+badge: label="Herdados" type="Informative"
 feature: Ranking, Decision Management
 topic: Integrations
 role: User
@@ -12,23 +12,14 @@ mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-brGlrDOgI1E9-L4Mflz2AAPfa2eV2aRyk3LrJGs6pg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 621
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
@@ -36,11 +27,11 @@ ht-degree: 12%
 
 >[!TIP]
 >
->O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
+>A decisão, o novo recurso de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e canais de email! [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 ## Sobre fórmulas de classificação {#about-ranking-formulas}
 
-**Fórmulas de classificação** permitem definir regras que determinam qual oferta deve ser apresentada primeiro para uma determinada inserção, em vez de considerar as pontuações de prioridade das ofertas. As fórmulas de classificação são expressas em **sintaxe PQL** e podem aproveitar atributos de perfil, dados de contexto e atributos de oferta. Para obter mais informações sobre como usar a sintaxe do PQL, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=pt-BR).
+**As fórmulas de classificação** permitem definir regras que determinarão qual oferta deve ser apresentada primeiro para determinado posicionamento, em vez de levar em conta as pontuações de prioridade das ofertas. As fórmulas de classificação são expressas em **sintaxe PQL** e podem aproveitar atributos de perfil, dados de contexto e atributos de oferta. Para obter mais informações sobre como usar a sintaxe do PQL, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
 Depois que uma fórmula de classificação é criada, é possível atribuí-la a uma inserção em uma decisão. Para obter mais informações, consulte [Configurar seleção de ofertas em decisões](../offer-activities/configure-offer-selection.md).
 

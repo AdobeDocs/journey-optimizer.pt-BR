@@ -8,25 +8,12 @@ role: Admin
 level: Intermediate
 exl-id: d8de1524-9d71-4978-86f5-1cd46f2e265c
 TQID: https://experienceleague.adobe.com/OKMsihU81BssIhueGFaWZUzUFIh-FDuo6sCnB9iwnxE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1137
@@ -47,11 +34,11 @@ O [!DNL Journey Optimizer] permite criar jornadas e enviar mensagens para o púb
 
 ### Configurar permissões {#setup-permissions}
 
-Antes de criar um aplicativo para dispositivos móveis, primeiro verifique se você tem ou atribui as permissões de usuário corretas para as tags na Adobe Experience Platform. Saiba mais em [Documentação de tags](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=pt-BR){target="_blank"}.
+Antes de criar um aplicativo para dispositivos móveis, primeiro verifique se você tem ou atribui as permissões de usuário corretas para as tags na Adobe Experience Platform. Saiba mais em [Documentação de tags](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
->A configuração de push deve ser executada por um usuário especialista. Dependendo do modelo de implementação e das pessoas envolvidas, talvez seja necessário atribuir o conjunto completo de permissões a um único perfil de produto ou compartilhar permissões entre o desenvolvedor do aplicativo e o administrador do **Adobe Journey Optimizer**. Saiba mais sobre **Permissões de** marcas em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=pt-BR){target="_blank"}.
+>A configuração de push deve ser executada por um usuário especialista. Dependendo do modelo de implementação e das pessoas envolvidas, talvez seja necessário atribuir o conjunto completo de permissões a um único perfil de produto ou compartilhar permissões entre o desenvolvedor do aplicativo e o administrador do **Adobe Journey Optimizer**. Saiba mais sobre **Permissões de** marcas em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 <!--
 ou need to your have access to perform following roles :
@@ -69,7 +56,7 @@ Para atribuir direitos de **Propriedade** e **Empresa**, siga as etapas abaixo:
 
    ![](assets/push_product_1.png)
 
-1. Selecione um **[!UICONTROL Perfil de Produto]** existente ou crie um novo com o botão **[!UICONTROL Novo perfil]**. Saiba como criar um novo **[!UICONTROL Novo perfil]** na [Documentação do Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=pt-BR#ui){target="_blank"}.
+1. Selecione um **[!UICONTROL Perfil de Produto]** existente ou crie um novo com o botão **[!UICONTROL Novo perfil]**. Saiba como criar um novo **[!UICONTROL Novo perfil]** na [Documentação do Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 
 1. Na guia **[!UICONTROL Permissões]**, selecione **[!UICONTROL Direitos de propriedade]**.
 
@@ -115,7 +102,7 @@ Para atribuir este **[!UICONTROL Perfil de produto]** a usuários, siga as etapa
 
    >[!NOTE]
    >
-   >Se o usuário não tiver sido criado anteriormente no Admin Console, consulte a [documentação Adicionar usuários](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   >Se o usuário não tiver sido criado anteriormente no Admin Console, consulte a [documentação Adicionar usuários](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/push_product_7.png)
 
@@ -138,7 +125,7 @@ Os seguintes esquemas e conjuntos de dados estão disponíveis com o canal de no
 
 ### Configurar a propriedade pushNotification {#push-property}
 
-Para habilitar **notificações por push da Web**, primeiro verifique se a [propriedade pushNotifications](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/commands/configure/pushnotifications) está configurada corretamente no Web SDK. Esta propriedade controla como as notificações por push são tratadas pela sua aplicação Web.
+Para habilitar **notificações por push da Web**, primeiro verifique se a [propriedade pushNotifications](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications) está configurada corretamente no Web SDK. Esta propriedade controla como as notificações por push são tratadas pela sua aplicação Web.
 
 Além disso, você precisa gerar chaves VAPID, necessárias para configurar [suas credenciais de push do aplicativo](#push-credentials-launch) no Journey Optimizer.
 
@@ -195,7 +182,7 @@ Agora você pode selecionar sua configuração ao criar suas notificações por 
 
 ## Etapa 3: configurar a propriedade sendPushSubscription {#sendPushSubscription-property}
 
-Depois que as credenciais de push e a configuração de canal forem definidas, será necessário implementar o [comando sendPushSubscription](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/commands/sendpushsubscription) no aplicativo Web. Esse comando registra assinaturas por push do usuário com o Adobe Experience Platform, permitindo que o sistema rastreie quais usuários optaram por receber notificações por push e manter o status da assinatura. Esse registro é essencial para o Journey Optimizer enviar notificações de push direcionadas aos seus usuários.
+Depois que as credenciais de push e a configuração de canal forem definidas, será necessário implementar o [comando sendPushSubscription](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription) no aplicativo Web. Esse comando registra assinaturas por push do usuário com o Adobe Experience Platform, permitindo que o sistema rastreie quais usuários optaram por receber notificações por push e manter o status da assinatura. Esse registro é essencial para o Journey Optimizer enviar notificações de push direcionadas aos seus usuários.
 
 ## Etapa 4: testar seu aplicativo móvel com um evento {#mobile-app-test}
 

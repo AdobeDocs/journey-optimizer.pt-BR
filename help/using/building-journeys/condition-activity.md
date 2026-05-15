@@ -12,25 +12,15 @@ exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
 hide: true
 TQID: https://experienceleague.adobe.com/gbZUkOhk-3yBMdxwj3YpPbQrbpMhd6PkNf1hzl-2DFw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1863
-ht-degree: 16%
+ht-degree: 0%
 
 ---
 
@@ -38,14 +28,14 @@ ht-degree: 16%
 
 Use a atividade de condição para rotear perfis para caminhos diferentes com base em regras e dados.
 
-## Adicione uma atividade de condição {#add-condition-activity}
+## Adicionar uma atividade de condição {#add-condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Atividade de condição"
->abstract="A Atividade de **condição** permite definir como as pessoas avançam pela sua jornada criando vários caminhos com base em critérios específicos. Também é possível configurar um caminho alternativo para lidar com tempos-limite ou erros, garantindo uma experiência contínua."
+>abstract="A atividade **Condição** permite definir como as pessoas avançam pela sua jornada criando vários caminhos com base em critérios específicos. Você também pode configurar um caminho alternativo para lidar com tempos limite ou erros, garantindo uma experiência contínua."
 
-A Atividade de **condição** permite definir como as pessoas avançam pela sua jornada criando vários caminhos com base em critérios específicos. Também é possível configurar um caminho alternativo para lidar com tempos-limite ou erros, garantindo uma experiência contínua.
+A atividade **Condição** permite definir como as pessoas avançam pela sua jornada criando vários caminhos com base em critérios específicos. Você também pode configurar um caminho alternativo para lidar com tempos limite ou erros, garantindo uma experiência contínua.
 
 ![Atividade de condição na tela de jornada com várias opções de caminho](assets/journey49.png)
 
@@ -65,14 +55,14 @@ Você também pode basear uma condição em associação de público-alvo. Consu
 
 >[!NOTE]
 >
->A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}.
+>A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Adicionar e gerenciar caminhos de condição {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
->title="Sobre o editor de expressão simples"
->abstract="O modo editor de expressão simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os elementos diferentes, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível."
+>title="Sobre o editor de expressões simples"
+>abstract="O modo do editor de expressões simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível."
 
 Ao usar várias condições em uma jornada, você pode definir rótulos para cada uma delas para identificá-las mais facilmente.
 
@@ -88,14 +78,14 @@ Vejamos duas condições de caminho: &quot;A pessoa é um VIP&quot; e &quot;A pe
 
 Você pode criar outro caminho para públicos que não estejam qualificados para as condições definidas verificando **[!UICONTROL Mostrar caminho para casos diferentes dos mencionados acima]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão de porcentagem](#percentage_split).
 
-O modo simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os elementos diferentes, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
+O modo simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
 
 * AND: uma interseção de dois critérios. Somente os elementos correspondentes a todos os critérios são considerados.
-* OR: uma união de dois critérios. Os elementos correspondentes a pelo menos um dos critérios são considerados.
+* OR: uma união de dois critérios. Os elementos correspondentes a pelo menos um dos dois critérios são considerados.
 
 ![Editor de expressão mostrando a seleção de campo e os operadores lógicos AND](assets/journey64.png)
 
-Se você estiver usando o [[!DNL Adobe Experience Platform] Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"} para criar públicos, poderá aproveitá-los nas condições de jornada. Consulte [Uso de público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment). Para obter mais informações sobre como gerar e direcionar públicos no Journey Optimizer, consulte [esta seção](../audience/about-audiences.md).
+Se você estiver usando o [[!DNL Adobe Experience Platform] Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} para criar públicos, poderá aproveitá-los nas condições de jornada. Consulte [Uso de público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment). Para obter mais informações sobre como gerar e direcionar públicos no Journey Optimizer, consulte [esta seção](../audience/about-audiences.md).
 
 
 >[!NOTE]
@@ -104,7 +94,7 @@ Se você estiver usando o [[!DNL Adobe Experience Platform] Serviço de segmenta
 
 
 
-A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcar a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
+Quando ocorre um erro em uma ação ou condição, a jornada de um indivíduo é interrompida. A única maneira de fazê-lo continuar é marcar a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
 No editor simples, você também encontrará a categoria Propriedades da Jornada, abaixo das categorias de evento e fonte de dados. Essa categoria contém campos técnicos relacionados à jornada para um determinado perfil. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados. [Saiba mais](expression/journey-properties.md)
 
@@ -120,7 +110,7 @@ Por exemplo, se você estiver direcionando um público-alvo com atributos de enr
 >
 >Se um campo de esquema for definido no esquema do seu Perfil, mas nenhum dado tiver sido assimilado para esse campo, a Journey Optimizer e o Perfil de Cliente em Tempo Real subjacente interpretarão o campo como `null`. Como resultado, as condições que verificam `isEmpty()`, `isNull()` ou funções semelhantes avaliarão `true` mesmo se o atributo nunca foi assimilado. Isso pode levar a um comportamento inesperado da jornada se você não estiver ciente de que o campo não tem dados.
 >
->Para evitar confusão, verifique se os atributos usados em expressões de condição foram assimilados com dados reais antes que o perfil entre na jornada. Você pode verificar os valores de atributo no [Perfil de cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} para confirmar se existem dados para os campos usados em suas condições.
+>Para evitar confusão, verifique se os atributos usados em expressões de condição foram assimilados com dados reais antes que o perfil entre na jornada. Você pode verificar os valores de atributo no [Perfil de cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} para confirmar se existem dados para os campos usados em suas condições.
 
 Usando o editor de expressão avançado, você pode configurar condições mais avançadas que manipulem coleções ou usem fontes de dados que exijam a transmissão de parâmetros. [Saiba mais](../datasource/external-data-sources.md).
 
@@ -132,7 +122,7 @@ Use uma **[!UICONTROL Condição de tempo]** para executar ações diferentes de
 
 >[!NOTE]
 >
->* O fuso horário não é específico de uma condição e é definido no nível da jornada nas propriedades da jornada. Saiba mais [nesta página](../building-journeys/timezone-management.md).
+>* O fuso horário não é específico de uma condição e é definido no nível da jornada nas propriedades da jornada. Saiba mais sobre [esta página](../building-journeys/timezone-management.md).
 >
 >* Por padrão, a **[!UICONTROL Condição de tempo]** é definida por hora, de 00:00 a 12:00.
 
@@ -211,4 +201,4 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

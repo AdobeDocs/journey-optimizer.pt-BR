@@ -10,33 +10,16 @@ level: Beginner
 keywords: criar, enviar email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 TQID: https://experienceleague.adobe.com/EM2msybn-3qaRJz113oIwMOU4Aj9h3BiDeLnl4vpO-Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1196
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
@@ -45,7 +28,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Criação de email"
->abstract="Defina o assunto do email e abra o Designer de email para criar seu conteúdo."
+>abstract="Defina sua linha de assunto do email e abra o Designer de email para criar o conteúdo do email."
 
 ## Adicionar uma ação de email {#email-action}
 
@@ -115,7 +98,7 @@ Para obter mais informações sobre como criar, configurar e ativar uma campanha
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="Configurar conteúdo de email"
->abstract="Crie o conteúdo do seu email. Defina o assunto e aproveite o Designer de email para criar e personalizar o corpo do email."
+>abstract="Crie o conteúdo do seu email. Defina o assunto e utilize o Designer de email para criar e personalizar o corpo do email."
 
 Depois de adicionar a ação de email à sua jornada ou campanha, é necessário definir o conteúdo do email, incluindo a linha de assunto, as informações do remetente e o corpo do email usando o Designer de email. Siga estas etapas:
 
@@ -125,13 +108,13 @@ Depois de adicionar a ação de email à sua jornada ou campanha, é necessário
 
 1. Ative a opção **[!UICONTROL Habilitar a decisão]** se desejar adicionar políticas de decisão em seu email.
 
-   As políticas de decisão são containers para suas ofertas que utilizam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo a ser entregue a cada membro do público-alvo. [Saiba como adicionar uma política de decisão em um email](../experience-decisioning/create-decision.md#create-decision)
+   As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo a ser entregue para cada membro do público. [Saiba como adicionar uma política de decisão em um email](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
    >[!AVAILABILITY]
    >
-   >Por enquanto, a criação de políticas de decisão por e-mail está disponível em Disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
+   >Por enquanto, a criação de políticas de decisão por e-mail está disponível em Disponibilidade limitada. Entre em contato com seu representante da Adobe para obter acesso.
 
 1. Na seção **[!UICONTROL Cabeçalho]**, verifique os campos **[!UICONTROL Do nome]**, **[!UICONTROL Do email]** e **[!UICONTROL Cco]**. Eles são configurados na configuração de email selecionada. [Saiba mais](email-settings.md) <!--check if same for journey-->
 
@@ -201,7 +184,7 @@ Dois tipos de alertas podem ocorrer:
 
 Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste para pré-visualizá-la, enviar provas e controlar sua renderização em clientes populares de desktop, dispositivos móveis e baseados na Web. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
 
-Você também pode validar a qualidade do seu conteúdo para avaliar a legibilidade, a eficácia e a coesão do conteúdo. [Saiba mais sobre validação da qualidade do conteúdo](../content-management/brands-score.md#validate-quality)
+Você também pode validar a qualidade do seu conteúdo para avaliar a legibilidade, a eficácia e a coesão do conteúdo. [Saiba mais sobre a validação de qualidade do conteúdo](../content-management/brands-score.md#validate-quality)
 
 >[!NOTE]
 >

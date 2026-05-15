@@ -7,18 +7,14 @@ role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 TQID: https://experienceleague.adobe.com/J-aZtYitBu8T4oSwTwKNNDeA-7tA4l8Wi5YZ1WLcT3E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
 source-wordcount: 1762
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
@@ -321,7 +317,7 @@ Our team will get back to you within 24 hours.
 {%/if%}
 ```
 
-| Day | Valor retornado |
+| Dia | Valor retornado |
 |-----|----------------|
 | Segunda-feira | 1 |
 | Terça-feira | 2 |
@@ -329,7 +325,7 @@ Our team will get back to you within 24 hours.
 | Quinta-feira | 4 |
 | Sexta-feira | 5 |
 | Sábado | 6 |
-| Domingo | 7 |
+| domingo | 7 |
 
 +++
 

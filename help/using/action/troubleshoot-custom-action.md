@@ -10,24 +10,11 @@ level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
 TQID: https://experienceleague.adobe.com/SBF--1O5Edtk2OKch-n0ukkfxsTwRn-lLqBPncM-UAk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1051
@@ -47,7 +34,7 @@ O uso desse recurso simplifica o processo de teste e validação, garantindo que
 
 >[!NOTE]
 >
->Se sua organização tiver o proxy IP (saída) habilitado, a chamada **[!UICONTROL Enviar solicitação de teste]** o ignorará. Para confirmar o roteamento de proxy, execute um teste ou uma jornada ativa. Saiba mais sobre o proxy IP (saída) e a habilitação em [Integrar a sistemas externos](../configuration/external-systems.md#faq).
+Se sua organização tiver o proxy IP (saída) habilitado, a chamada **[!UICONTROL Enviar solicitação de teste]** o ignorará. Para confirmar o roteamento de proxy, execute um teste ou uma jornada ativa. Saiba mais sobre o proxy IP (saída) e a habilitação em [Integrar a sistemas externos](../configuration/external-systems.md#faq).
 
 
 ## Pré-requisitos {#troubleshoot-custom-action-prereq}
@@ -76,7 +63,7 @@ Para testar uma ação personalizada, siga estas etapas:
 
      >[!NOTE]
      >
-     >O Adobe Journey Optimizer levantará um erro se a estrutura desse JSON estiver incorreta, mas não o fará se houver uma incompatibilidade com um tipo de dados. Por exemplo, não haverá erro se um parâmetro inteiro for usado para o que deve ser uma string.
+     O Adobe Journey Optimizer levantará um erro se a estrutura desse JSON estiver incorreta, mas não o fará se houver uma incompatibilidade com um tipo de dados. Por exemplo, não haverá erro se um parâmetro inteiro for usado para o que deve ser uma string.
 
    * Se a autenticação estiver definida, você será solicitado a inserir detalhes de autenticação.
 

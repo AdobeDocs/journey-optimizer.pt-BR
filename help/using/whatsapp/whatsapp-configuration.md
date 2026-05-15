@@ -8,31 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 TQID: https://experienceleague.adobe.com/Csk1JNk8W6SGjoga5chRRE7-LUzUKK-X8sZcwszCxRE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
 source-wordcount: 1230
-ht-degree: 13%
+ht-degree: 0%
 
 ---
 
@@ -80,27 +65,27 @@ Estas etapas devem ser executadas por um [Administrador do Sistema](../start/pat
 
 Depois de criar e configurar sua credencial de API, agora é necessário criar seu Webhook para mensagens do WhatsApp. [Saiba mais](#whatsapp-webhook)
 
-## Criar webhook {#WhatsApp-webhook}
+## Criar Webhook {#WhatsApp-webhook}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="Categoria de palavra-chave de entrada"
->abstract="<b>Aceitar</b>: envia a resposta automática definida quando um usuário assina. <br/><b>Recusar</b>: envia a resposta automática definida quando um usuário cancela a assinatura. <br/><b>Ajuda</b>: envia a resposta automática definida quando um usuário solicita ajuda ou suporte. <br/><b>Padrão</b>: envia a resposta automática substituta quando nenhuma palavra-chave é correspondente."
+>abstract="<b>Aceitar</b>: envia sua resposta automática definida quando um usuário se inscreve. <br/><b>Opt-Out</b>: envia sua resposta automática definida quando um usuário cancela a assinatura. <br/><b>Ajuda</b>: envia sua resposta automática definida quando um usuário solicita ajuda ou suporte. <br/><b>Padrão</b>: envia sua resposta automática de fallback quando nenhuma palavra-chave é correspondente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
->title="Insira as palavras-chave"
->abstract="É possível definir palavras-chave para acionar respostas automáticas específicas com base no texto dos usuários. As palavras-chave não diferenciam maiúsculas de minúsculas. Por exemplo, parar e PARAR são tratadas da mesma forma."
+>title="Insira suas palavras-chave"
+>abstract="Você pode definir palavras-chave para acionar respostas automáticas específicas com base no texto dos usuários. As palavras-chave não diferenciam maiúsculas de minúsculas; por exemplo, stop e STOP são tratadas da mesma forma."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
->title="URL de retorno de chamada"
->abstract="A solicitação de validação e as notificações do webhook para este objeto são enviadas para o URL especificado."
+>title="URL de retorno"
+>abstract="A solicitação de validação e as notificações do webhook para este objeto são enviadas para a URL especificada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_verify_token"
 >title="Verificar token"
->abstract="O token que a Meta retorna para confirmar e verificar o URL de retorno de chamada durante o processo de verificação."
+>abstract="O token que o Meta ecoa para confirmar e verificar o URL de retorno de chamada durante o processo de verificação."
 
 >[!NOTE]
 >
@@ -178,7 +163,7 @@ Agora que seu Webhook está configurado, você pode criar sua configuração do 
 
    >[!NOTE]
    >
-   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar os caracteres de sublinhado `_`, ponto `.` e hífen `-`.
+   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
 
 1. Selecione **[!DNL WhatsApp]** como seu canal.
 
@@ -230,12 +215,12 @@ Se você encontrar um erro HTTP 500 ao configurar as credenciais da API do Whats
 
 1. **Contate o suporte**: se o ambiente e os direitos forem confirmados válidos, mas o erro HTTP 500 persistir, contate o representante da Adobe.
 
-## Vídeo tutorial {#video}
+## Vídeo explicativo {#video}
 
 O vídeo abaixo mostra como configurar o canal do WhatsApp no Adobe Journey Optimizer.
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470273/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

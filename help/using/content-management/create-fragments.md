@@ -9,29 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 TQID: https://experienceleague.adobe.com/NlC-JLidAL9r-1-8rX4hX-WxCkr-Nv1e6YKSisx1n28
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 832
-ht-degree: 23%
+ht-degree: 0%
 
 ---
 
@@ -39,15 +26,15 @@ ht-degree: 23%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
->title="Selecione o tipo “Visual”"
->abstract="Crie um fragmento visual independente para tornar o conteúdo reutilizável em um email de uma jornada ou campanha ou em um modelo de conteúdo."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Adicionar fragmentos visuais a emails"
+>title="Selecionar o tipo visual"
+>abstract="Crie um fragmento visual independente para tornar o conteúdo reutilizável em um email em uma jornada, campanha ou modelo de conteúdo."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Adicionar fragmentos visuais aos seus emails"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
->title="Selecione o tipo “Expressão”"
->abstract="Crie um fragmento de expressão independente para tornar seu conteúdo reutilizável em várias jornadas e campanhas. Ao usar o editor de personalização, é possível aproveitar todos os fragmentos de expressão criados na sandbox atual."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Trabalhar com o editor de personalização"
+>title="Selecionar o tipo de expressão"
+>abstract="Crie um fragmento de expressão independente para tornar seu conteúdo reutilizável em várias jornadas e campanhas. Ao usar o editor de personalização, você pode aproveitar todos os fragmentos de expressão que foram criados na sandbox atual."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Trabalhar com o editor de personalização"
 
 Os fragmentos podem ser criados do zero no menu esquerdo **[!UICONTROL Fragmentos]**. Além disso, também é possível salvar uma parte do conteúdo existente como fragmento ao projetar o conteúdo. [Saiba como](save-fragments.md#)
 
@@ -85,9 +72,9 @@ Após configurar as propriedades do fragmento, o Designer de email ou o editor d
 
 >[!NOTE]
 >
->[Atributos contextuais](../personalization/personalization-build-expressions.md) não são permitidos dentro de fragmentos.
+>Não há suporte para [Atributos contextuais](../personalization/personalization-build-expressions.md) dentro de fragmentos.
 >
->Quando o rastreamento é habilitado em uma jornada ou campanha, se você adicionar links a um fragmento e esse fragmento for usado em uma mensagem, esses links serão rastreados como todos os outros links inclusos na mensagem. [Saiba mais sobre links e rastreamento](../email/message-tracking.md)
+>Quando o rastreamento é ativado em uma jornada ou campanha, se você adicionar links a um fragmento e se esse fragmento for usado em uma mensagem, esses links serão rastreados como todos os outros links incluídos na mensagem. [Saiba mais sobre links e rastreamento](../email/message-tracking.md)
 
 * Para fragmentos visuais, edite o conteúdo conforme necessário, da mesma forma que faria para qualquer email dentro de uma jornada ou campanha. [Saiba mais](../email/get-started-email-design.md)
 
@@ -113,7 +100,7 @@ Quando o conteúdo estiver pronto, clique no botão **[!UICONTROL Salvar]**.
 
 >[!NOTE]
 >
->Fragmentos visuais não podem exceder 100 KB. Fragmentos de expressão não podem exceder 200 KB.
+>Fragmentos visuais não podem exceder 100 KB. Os fragmentos de expressão não podem exceder 200 KB.
 
 O fragmento é criado e adicionado à lista de fragmentos com o status **[!UICONTROL Rascunho]**. Você pode visualizá-la e publicá-la para torná-la disponível em jornadas e campanhas.
 
@@ -123,7 +110,7 @@ O fragmento é criado e adicionado à lista de fragmentos com o status **[!UICON
 >
 >Para publicar um fragmento, você deve ter a permissão de usuário [Publicar fragmento](../administration/ootb-product-profiles.md#content-library-manager).
 
-Se o fragmento estiver pronto para entrar no ar, você poderá visualizá-lo e publicá-lo para disponibilizá-lo em suas jornadas e campanhas. Para isso, siga as etapas abaixo.
+Se o fragmento estiver pronto para entrar no ar, você poderá visualizá-lo e publicá-lo para disponibilizá-lo em suas jornadas e campanhas. Para fazer isso, siga as etapas abaixo.
 
 1. Volte para a tela de criação do fragmento depois de criar o conteúdo ou abra-o a partir da lista de fragmentos.
 

@@ -9,18 +9,11 @@ keywords: inAudience, função, expressão, jornada, público-alvo, segmentaçã
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 754
@@ -49,7 +42,7 @@ Os públicos-alvo podem ter dois status de participação:
 * **Realizado**: o indivíduo se qualifica para a definição de público-alvo e é um membro ativo
 * **Encerrado**: o indivíduo saiu do público-alvo e não se qualifica mais
 
-Apenas indivíduos com o status **Realizado** serão considerados membros ativos do público-alvo. Quando a função retorna `true`, ela confirma que o indivíduo tem o status realizado; quando retorna `false`, ela indica o status encerrado. Para obter mais informações sobre a avaliação de público, consulte a [documentação do Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+Apenas indivíduos com o status **Realizado** serão considerados membros ativos do público-alvo. Quando a função retorna `true`, ela confirma que o indivíduo tem o status realizado; quando retorna `false`, ela indica o status encerrado. Para obter mais informações sobre a avaliação de público, consulte a [documentação do Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++Sintaxe
 
@@ -129,7 +122,7 @@ Ao usar a função `inAudience` em suas jornadas, esteja ciente das seguintes me
 Ao usar `inAudience()` em um nó de condição, o tempo de avaliação de associação de segmento varia dependendo de onde a condição aparece na jornada:
 
 * **Em uma jornada de Leitura de Público-alvo, antes de uma atividade de Espera:** o Journey Optimizer lê a partir da projeção em lote do perfil. Os dados nesta projeção são atualizados em **2 horas** após a assimilação. Os públicos-alvo que dependem de condições baseadas no dia ou baseadas no tempo podem enfrentar atraso adicional. Adicione uma breve [atividade de espera](../wait-activity.md) no início da jornada ou permita o tempo de buffer para garantir que a associação de segmento mais recente seja refletida.
-* **Em uma jornada de evento unitária ou após uma atividade Wait:** a associação de segmento é lida a partir da projeção de streaming (unitária). Normalmente, os dados estão disponíveis em **15 minutos**. Para obter mais detalhes, consulte a [documentação de assimilação de streaming do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
+* **Em uma jornada de evento unitária ou após uma atividade Wait:** a associação de segmento é lida a partir da projeção de streaming (unitária). Normalmente, os dados estão disponíveis em **15 minutos**. Para obter mais detalhes, consulte a [documentação de assimilação de streaming do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
 
 ## Tópicos relacionados
 

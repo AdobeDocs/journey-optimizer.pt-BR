@@ -9,36 +9,12 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e240d5e8-8393-4b76-8a3d-9e53a2f7306c
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e240d5e8-8393-4b76-8a3d-9e53a2f7306cid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
 source-wordcount: 4226
@@ -50,7 +26,7 @@ ht-degree: 99%
 
 Abaixo são encontradas medidas de proteção e limitações ao usar o [!DNL Adobe Journey Optimizer].
 
-Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -131,7 +107,7 @@ As seguintes medidas de proteção se aplicam ao [canal de SMS](../sms/get-star
 
   Os canais de entrada do Journey Optimizer direcionam novos perfis que talvez não tenham sido engajados antes em outros canais. Isso aumentará o número total de [Perfis engajáveis](../audience/license-usage.md), o que pode ter implicações de custo se o número contratual de Perfis engajáveis que você adquiriu for excedido.
 
-  As métricas de licença para cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Você pode verificar o número de Perfis engajáveis no [painel de uso de licença](../audience/license-usage.md).
+  As métricas de licença para cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Você pode verificar o número de Perfis engajáveis no [painel de uso de licença](../audience/license-usage.md).
 
 * O Journey Optimizer aceita no máximo 500 ações de entrada ativas a qualquer momento. Essas ações de entrada são contadas se fizerem parte de uma campanha ativa ou se forem um nó usado em uma jornada ativa. Ao atingir esse número, é preciso desativar campanhas ou jornadas mais antigas que estejam usando ações de entrada antes de poder lançar novas.
 
@@ -139,7 +115,7 @@ As seguintes medidas de proteção se aplicam ao [canal de SMS](../sms/get-star
 
 Os canais de entrada do [!DNL Journey Optimizer] podem direcionar perfis pseudônimos, ou seja, perfis que ainda não foram autenticados ou conhecidos por não terem sido engajados anteriormente em outros canais. Esse é o caso, por exemplo, ao direcionar todos os visitantes ou públicos-alvo com base em IDs temporárias, como ECID.
 
-Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis adquiridos for excedido. As métricas de licença de cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. É possível verificar o número de perfis engajáveis no [painel de uso de licença](../audience/license-usage.md).
+Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis adquiridos for excedido. As métricas de licença de cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. É possível verificar o número de perfis engajáveis no [painel de uso de licença](../audience/license-usage.md).
 
 Para manter os perfis que podem ser engajados dentro de limites razoáveis, a Adobe recomenda configurar um tempo de vida (TTL) para excluir automaticamente perfis pseudônimos do Perfil do cliente em tempo real se eles não tiverem sido vistos ou engajados em uma janela de tempo específica.
 

@@ -9,24 +9,15 @@ level: Experienced
 keywords: landing page, landing page, subdomínios, configuração
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 TQID: https://experienceleague.adobe.com/oxSnH-wTxOVwNjYVdhSRSWLFdDZezqm-1KQCwlNKJ0s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1013
-ht-degree: 22%
+ht-degree: 0%
 
 ---
 
@@ -35,19 +26,19 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
 >title="Delegar um subdomínio de página de destino"
->abstract="Você vai configurar o subdomínio que será usado pela página de destino. Você pode usar um subdomínio que já tenha sido delegado à Adobe ou configurar outro subdomínio."
+>abstract="Seu subdomínio será configurado para uso como página de aterrissagem. Você pode usar um subdomínio que já foi delegado à Adobe ou configurar outro subdomínio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
 >title="Delegar um subdomínio de página de destino"
->abstract="Você deve configurar um subdomínio para usar nas páginas de destino, pois ele é necessário para criar uma predefinição de página de destino. Você pode usar um subdomínio já delegado à Adobe ou configurar um novo subdomínio."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=pt-BR#lp-create-preset" text="Criar predefinições de página de destino"
+>abstract="Você deve configurar um subdomínio para usar nas páginas de aterrissagem, pois ele será necessário para criar uma predefinição de página de aterrissagem. Você pode usar um subdomínio já delegado à Adobe ou configurar um novo subdomínio."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de destino"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
->title="Criar uma predefinição de página de destino"
->abstract="Para criar uma predefinição de página de destino, verifique se você configurou anteriormente pelo menos um subdomínio de página de destino para escolher na lista Nome de subdomínio ."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=pt-BR#lp-create-preset" text="Criar predefinições de página de destino"
+>title="Criar uma predefinição de página de aterrissagem"
+>abstract="Para criar uma predefinição de página de aterrissagem, verifique se você configurou anteriormente pelo menos um subdomínio de página de aterrissagem para escolher na lista de nomes de subdomínio."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de destino"
 
 ## Introdução aos subdomínios de página de aterrissagem {#gs-lp-subdomains}
 
@@ -112,7 +103,7 @@ Para usar um subdomínio que já está delegado à Adobe, siga as etapas abaixo:
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
 >title="Gerar o registro DNS correspondente"
->abstract="Para configurar um novo subdomínio de página de destino, você precisa copiar as informações do servidor de nomes da Adobe exibidas na interface do Journey Optimizer e colá-las em sua solução de hospedagem de domínio para gerar o registro DNS correspondente. Depois que as verificações forem bem-sucedidas, o subdomínio estará pronto para ser usado para criar predefinições de página de destino."
+>abstract="Para configurar um novo subdomínio de página de aterrissagem, é necessário copiar as informações do servidor de nomes do Adobe exibidas na interface do Journey Optimizer e colá-las na solução de hospedagem de domínio para gerar o registro DNS correspondente. Depois que as verificações forem bem-sucedidas, o subdomínio estará pronto para ser usado para criar predefinições de página de destino."
 
 Para configurar um novo subdomínio, siga as etapas abaixo.
 
