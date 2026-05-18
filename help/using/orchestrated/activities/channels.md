@@ -6,23 +6,14 @@ description: Saiba como adicionar uma atividade de canal a uma campanha em vári
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1803
-ht-degree: 37%
+ht-degree: 41%
 
 ---
 
@@ -86,7 +77,7 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_category"
 >title="Categoria"
->abstract="Escolha Marketing ou Transacional para esta atividade de canal. As mensagens de marketing usam as configurações de canal de marketing e seguem suas regras de negócios padrão. As mensagens transacionais são para comunicações operacionais — geralmente acionadas pela ação de um indivíduo (por exemplo, uma redefinição de senha ou confirmação de compra) ou para avisos sensíveis ao tempo, como interrupções ou cancelamentos. Elas usam configurações de canal transacionais, regras de negócios são ignoradas e a aceitação não é necessária."
+>abstract="Escolha Marketing ou Transacional para esta atividade de canal. As mensagens de marketing usam as configurações do canal de marketing e seguem as regras de negócios padrão. As mensagens transacionais são para comunicações operacionais. Geralmente elas são acionadas pela ação de um indivíduo (por exemplo, uma redefinição de senha ou confirmação de compra) ou para avisos sensíveis ao tempo, como interrupções ou cancelamentos. Elas usam configurações de canal transacionais, ignoram as regras de negócios e não exigem aceitação."
 
 >[!PREREQUISITES]
 >
@@ -156,7 +147,7 @@ Use a seção de **[!UICONTROL Rastreamento de ações]** para acompanhar como o
 
 O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas. A entrega rápida é usada quando o atraso na entrega da mensagem é essencial para os negócios. Por exemplo, você deseja enviar um alerta de push urgente em telefones celulares, como notícias de última hora para usuários que instalaram seu aplicativo de canal de notícias. Saiba como habilitar o modo de entrega rápida para notificações por push [nesta página](../../push/create-push.md#rapid-delivery).
 
-Para obter mais informações sobre o desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Para obter mais informações sobre o desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 

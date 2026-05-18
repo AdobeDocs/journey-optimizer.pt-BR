@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -47,8 +47,8 @@ Você pode filtrar a lista por nome do fragmento, status, data de criação, cri
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
->title="Salvar como fragmento de jornada"
->abstract="Insira um nome exclusivo para o fragmento e clique em Salvar. Os nós selecionados serão salvos como um fragmento reutilizável disponível no Inventário de fragmentos."
+>title="Salvar como um fragmento de jornada"
+>abstract="Insira um nome exclusivo para o fragmento e clique em Salvar. Os nós selecionados serão salvos como um fragmento reutilizável e disponível no Inventário de fragmentos."
 
 Você pode criar um fragmento de jornada de duas maneiras: diretamente da tela de jornada (recomendado) ou do Inventário de fragmentos.
 
@@ -92,8 +92,8 @@ Para criar um fragmento diretamente do inventário:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
->title="Jornada propriedades do fragmento"
->abstract="Abra um fragmento do inventário para modificar seus nós, propriedades, tags ou rótulos. Os fragmentos ativos devem ser desativados antes de serem editados."
+>title="Propriedades do fragmento de jornada"
+>abstract="Abra um fragmento do inventário para modificar os nós, propriedades, tags ou rótulos. Os fragmentos ativos devem ser desativados antes de realizar edições."
 
 Para editar um fragmento, abra-o no **[!UICONTROL Inventário de fragmentos]** clicando no nome dele. Na interface de criação do fragmento, é possível:
 
@@ -156,7 +156,7 @@ Para inserir um fragmento em uma jornada:
 1. Selecione o fragmento. Seus nós são copiados para a tela no ponto de soltar.
 
 >[!NOTE]
->Somente fragmentos **[!UICONTROL Ativos]** estão disponíveis no seletor. Inserir um fragmento cria uma **cópia estática** de seus nós — todas as atualizações subsequentes do fragmento original não serão refletidas na jornada.
+>Somente fragmentos **[!UICONTROL Ativos]** estão disponíveis no seletor. Inserir um fragmento cria uma **cópia estática** dos nós. Todas as atualizações subsequentes do fragmento original não serão refletidas na jornada.
 >
 >Ao soltar um fragmento em uma tela vazia, ele deve começar com um nó **[!UICONTROL Ler público]**, **[!UICONTROL Qualificação de público]** ou **[!UICONTROL Evento]** (a mesma regra de quando se inicia qualquer jornada).
 
