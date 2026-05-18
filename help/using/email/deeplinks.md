@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: deeplink, deep link, links universais, links de aplicativos, email, sms
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1277'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,11 @@ ht-degree: 1%
 
 Os Deeplinks ajudam a levar recipients de um email ou mensagem SMS para uma tela específica ou conteúdo no aplicativo móvel. Isso ajuda a trazer as pessoas diretamente para a experiência no aplicativo desejada, sem encaminhá-las por um navegador da Web ou uma loja de aplicativos, para que a jornada permaneça relevante e sob a marca.
 
-Quando os destinatários clicam no link profundo, eles são direcionados ao conteúdo pretendido no aplicativo - **desde que você tenha concluído as etapas de configuração** detalhadas nesta página, que abrange:
+Quando os destinatários clicam no link profundo, eles são levados diretamente ao conteúdo pretendido no aplicativo - **contanto que você tenha concluído**:
 
-* Como configurar deeplinks para emails no Journey Optimizer
-* Como implementar o tratamento de deep link para iOS e Android em seu aplicativo móvel
+* as [etapas de configuração](#configuration) no Journey Optimizer;
+
+* as etapas da [implementação do aplicativo móvel](#mobile-implementation) para iOS e Android em seu aplicativo móvel.
 
 >[!NOTE]
 >
