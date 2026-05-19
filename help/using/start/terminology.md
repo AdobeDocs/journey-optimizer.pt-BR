@@ -8,31 +8,16 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
 TQID: https://experienceleague.adobe.com/-aDvt4RUXyf0EnPfFTJkG1CvWgte-1Fr6YaWvgcNNu4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b4ce14492d56e7121f827cf6a46abc5c222180e5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 26ebbdc6d51ee9ad7c47ce26e7df04064b90268f
 workflow-type: tm+mt
-source-wordcount: 1760
-ht-degree: 8%
+source-wordcount: 1576
+ht-degree: 7%
 
 ---
 
@@ -42,18 +27,9 @@ Este guia de referência define os termos essenciais que você encontrará ao us
 
 Para pares de termos com sonoridade semelhante que são frequentemente confundidos — como **Decisão vs. Gerenciamento de Decisão** ou **Cartões de Conteúdo vs. Mensagens no Aplicativo** — consulte [Quando os termos são semelhantes](#disambiguation) na parte inferior desta página.
 
->[!TIP]
+>[!NOTE]
 >
->Para obter explicações detalhadas sobre recursos e fluxos de trabalho, consulte as seções específicas de documentação vinculadas neste guia.
-
-## Termos principais da plataforma {#core-terms}
-
-| Termo | Definição |
-|------|------------|
-| **Adobe Journey Optimizer** | Um aplicativo para criar e entregar mensagens personalizadas aos clientes por canais (email, SMS, notificações por push, Web). Ele permite projetar jornadas de clientes que respondem às ações do cliente em tempo real. |
-| **Adobe Experience Platform** | A base da Adobe Journey Optimizer que coleta e organiza todos os dados do cliente em um único local. Ele cria perfis unificados do cliente que o Journey Optimizer usa para personalização. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target="_blank"} |
-| **Perfil do cliente em tempo real** | Uma visualização unificada em tempo real de cada cliente que combina dados de vários canais, incluindo dados online, offline, de CRM e de terceiros. Cada perfil é atualizado dinamicamente à medida que os clientes interagem com sua marca. [Saiba mais](../audience/get-started-profiles.md) |
-| **Sandbox** | Um espaço de trabalho separado para testes e experimentação sem afetar as comunicações ao vivo do cliente. A Adobe Journey Optimizer fornece várias sandboxes para ambientes de desenvolvimento, teste e produção. [Saiba mais](../administration/sandboxes.md) |
+>O Adobe Journey Optimizer foi criado em **Adobe Experience Platform**. Muitos conceitos fundamentais que você encontrará — como perfis de clientes em tempo real, sandboxes, esquemas e conjuntos de dados — são conceitos do Adobe Experience Platform, não específicos do Journey Optimizer. Para obter as definições desses termos, consulte o [glossário do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
 
 ## Termos de Jornada e campanha {#journey-campaign-terms}
 
@@ -97,8 +73,6 @@ Para pares de termos com sonoridade semelhante que são frequentemente confundid
 
 | Termo | Definição |
 |------|------------|
-| **Esquema** | A estrutura que define como os dados são organizados no Adobe Experience Platform, incluindo nomes de campo, tipos de dados e relacionamentos. Os esquemas garantem a consistência dos dados em todos os sistemas. [Saiba mais](../data/get-started-schemas.md) |
-| **Conjunto de dados** | Uma coleção de dados (geralmente uma tabela) que segue um schema específico. Os conjuntos de dados armazenam dados do cliente, eventos de interação e outras informações usadas para personalização. [Saiba mais](../data/get-started-datasets.md) |
 | **Configuração de canal** | As configurações que definem como as mensagens são entregues para um canal específico, incluindo detalhes do remetente, subdomínio, pool de IP e tipo de mensagem (marketing ou transacional). Anteriormente conhecido como &quot;superfície&quot; ou &quot;predefinição&quot; na documentação mais antiga. [Saiba mais](../configuration/channel-surfaces.md) |
 | **Lista de supressão** | Uma lista de endereços de email e domínios excluídos automaticamente da entrega de mensagens devido a devoluções permanentes, reclamações de spam ou adições manuais. O envio para endereços suprimidos está bloqueado para proteger a capacidade de entrega e a reputação do remetente. [Saiba mais](../reports/suppression-list.md) |
 
@@ -108,10 +82,6 @@ Para pares de termos com sonoridade semelhante que são frequentemente confundid
 |------|------------|
 | **Conjunto de regras** | Um grupo nomeado de regras de negócios aplicadas a jornadas e campanhas para controlar o comportamento de mensagens. Um conjunto de regras pode combinar limite de frequência, limites de entrada de jornada e horas de silêncio em uma única política reutilizável. [Saiba mais](../conflict-prioritization/rule-sets.md) |
 | **Limite de frequência** | Uma regra em um conjunto de regras que limita quantas mensagens um perfil pode receber em um determinado período, por canal ou tipo de comunicação (Vendas, Promocional etc.). Os perfis que excedem o limite são excluídos automaticamente do delivery. [Saiba mais](../conflict-prioritization/channel-capping.md) |
-
->[!NOTE]
->
->Para ver um glossário abrangente de termos do Adobe Experience Platform, consulte o [glossário do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=pt-BR){target="_blank"}.
 
 ## Quando os termos são semelhantes: guia de desambiguação {#disambiguation}
 
