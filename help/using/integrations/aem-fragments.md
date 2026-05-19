@@ -26,14 +26,24 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
 workflow-type: tm+mt
-source-wordcount: 1453
+source-wordcount: 1534
 ht-degree: 0%
 
 ---
 
 # Trabalhar com fragmentos de conteúdo do Adobe Experience Manager {#aem-fragments}
+
+>[!BEGINSHADEBOX]
+
+As experiências existentes do **Seletor de ativos** e do **Seletor de fragmentos de conteúdo** nos fluxos de trabalho do Adobe Journey Optimizer estão sendo substituídas pelo **Supervisor de conteúdo**. O Supervisor de conteúdo fornece uma interface unificada, habilitada por IA, para detectar e selecionar o Assets, Fragmentos de conteúdo e Mídia dinâmica diretamente nos fluxos de trabalho de criação do AJO. As integrações existentes continuarão a funcionar durante o período de transição.
+
+>[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Esta integração se aplica ao **Adobe Experience Manager as a Cloud Service Sites**, somente para **Fragmentos de conteúdo**. O Journey Optimizer lê fragmentos da camada **Publicar** (não do Autor).
 
 A integração entre o Adobe Experience Manager e o Journey Optimizer segue esse fluxo de dados:
 
@@ -91,9 +101,9 @@ Depois de criar e personalizar os fragmentos de conteúdo do AEM, você pode imp
 
    ![](assets/aem_campaign_2.png)
 
-1. No menu **[!UICONTROL Fragmento de Conteúdo do AEM]** no painel esquerdo, clique em **[!UICONTROL Abrir seletor de CF do AEM]**.
+1. No menu **[!UICONTROL Fragmento de Conteúdo do AEM]** no painel esquerdo, clique em **[!UICONTROL Abrir o Supervisor de Conteúdo do AEM]**.
 
-   ![](assets/aem_campaign_3.png)
+   ![](assets/cf-variation-1.png)
 
 1. Navegue pela lista e selecione um **[!UICONTROL Fragmento do conteúdo]** para importar para o conteúdo do Journey Optimizer.
 
@@ -171,13 +181,13 @@ Nesse caso, verifique se **_variableName_** está declarado antes de adicionar a
 
 1. Clique em **[!UICONTROL Salvar]**. Agora você pode testar e verificar o conteúdo da sua mensagem conforme detalhado em [esta seção](../content-management/preview.md).
 
-   Observe que o Fragmento de conteúdo selecionado permanece ativo para esta mensagem. Ao abrir o Editor de Personalization em outro campo ou bloco de conteúdo, você pode continuar trabalhando com o mesmo fragmento da seção **[!UICONTROL Fragmento de conteúdo do AEM]** e adicionar mais campos sem reabrir o **[!UICONTROL Abrir seletor de CF do AEM]**.
+   Observe que o Fragmento de conteúdo selecionado permanece ativo para esta mensagem. Ao abrir o Editor do Personalization em outro campo ou bloco de conteúdo, você pode continuar trabalhando com o mesmo fragmento da seção **[!UICONTROL Fragmento de Conteúdo do AEM]** e adicionar mais campos sem reabrir o **[!UICONTROL Abrir Supervisor de Conteúdo do AEM]**.
 
 Depois de executar os testes e validar o conteúdo, você pode [enviar a campanha](../campaigns/review-activate-campaign.md) ou [publicar a jornada](../building-journeys/publish-journey.md) para o público-alvo.
 
 O Adobe Experience Manager permite identificar as campanhas ou jornadas do Journey Optimizer em que um fragmento de conteúdo está sendo usado. Saiba mais em [documentação do Adobe Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}.
 
-## Trabalhar com variações de fragmento de conteúdo {#aem-variations}
+## Trabalhar com variações de Fragmento de conteúdo {#aem-variations}
 
 No Adobe Experience Manager, cada fragmento de conteúdo é composto do seguinte:
 
@@ -200,9 +210,9 @@ Para selecionar uma variação:
 
 1. Clique no ![ícone do Personalization](assets/do-not-localize/Smock_PersonalizationField_18_N.svg) em qualquer campo de texto ou abra a fonte do HTML a partir de um componente de conteúdo do HTML.
 
-1. Em **[!UICONTROL Fragmento do Conteúdo do AEM]**, clique em **[!UICONTROL Abrir seletor de CF]**.
+1. Em **[!UICONTROL Fragmento de Conteúdo do AEM]**, clique em **[!UICONTROL Abrir Supervisor de Conteúdo do AEM]**.
 
-   ![](assets/aem_campaign_3.png)
+   ![](assets/cf-variation-1.png)
 
 1. Para selecionar um Fragmento de Conteúdo do Adobe Experience Manager específico da localidade na exibição de tabela, use **[!UICONTROL Personalizar tabela]** para adicionar a coluna **[!UICONTROL Idioma]**. Os valores de local são exibidos na tabela, permitindo identificar e selecionar o fragmento apropriado.
 

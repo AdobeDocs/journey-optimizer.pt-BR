@@ -25,10 +25,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
 workflow-type: tm+mt
 source-wordcount: 1134
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -215,65 +215,11 @@ Você pode inserir seu modelo dinâmico diretamente no conteúdo usando o compon
 
 Depois de executar os testes e validar o conteúdo, você pode enviar a mensagem para o público-alvo.
 
-<!--
-## Personalization with text overlay
+## Vídeo tutorial {#video}
 
-Easily customize any dynamic media by replacing the existing text overlay with new text of your choice, allowing for seamless updates and personalization.
+Saiba como integrar o Adobe Experience Manager Dynamic Media ao Adobe Journey Optimizer para permitir atualizações e personalização de conteúdo em tempo real.
 
-In this example, our goal is to update the existing text overlay by replacing it with a new validity date and adding a personalization block, ensuring it is customized for each profile when they open their messages.
-
-1. Drag and drop an **[!UICONTROL HTML component]** into your content.
-
-1. Select **[!UICONTROL Show the source code]**.
-
-1. From the **[!UICONTROL Edit HTML]** menu, access **[!UICONTROL Assets]** then **[!UICONTROL Open asset selector]**.
-
-    You can also simply copy and paste your assets URL.
-
-1. Browse through your AEM assets and select the one you want to add to your content.
-
-1. Replace the overlay with the desired text.
-
-    Here we change the validity date from 31st December 2024 to the 1st July 2025.
-
-1. Add the required personalization fields to your image.
-
-1. Click **[!UICONTROL Save]**.
-
-Your content now includes your updated text overlay and personalization.
-
-## Add Dynamic media conditional content
-
-Enable conditional content in your dynamic media to better target your audience and deliver a more personalized experience.
-
-1. Drag and drop an **[!UICONTROL HTML component]** into your content.
-
-1. Select **[!UICONTROL Show the source code]**.
-
-1. From the **[!UICONTROL Edit HTML]** menu, access **[!UICONTROL Assets]** then **[!UICONTROL Open asset selector]**.
-
-    You can also simply copy and paste your assets URL.
-
-1. Browse through your AEM assets and select the one you want to add to your content.
-
-1. Once your dynamic media is inserted to your content, select **[!UICONTROL Enable conditional]** content from your HTML component toolbar to create your different user experiences. 
-
-1. From the Variant - 1, click **[!UICONTROL Select condition]** to fine tune your audience.
-
-1. Choose your condition or create a new one if needed and click **[!UICONTROL Select]**.
-
-    [Learn more about conditions](../personalization/create-conditions.md)
-
-1. Select your **[!UICONTROL Component]** and access the **[!UICONTROL Settings]** menu.
-
-1. In the **[!UICONTROL Custom Attributes]** menu, populate the Dynamic Media text and personalization fields to customize the content for your audience.
--->
-
-## Vídeo explicativo {#video}
-
-Saiba como integrar o Adobe Experience Manager Dynamic Media com o Adobe Journey Optimizer para permitir atualizações e personalização de conteúdo em tempo real.
-
-Este tutorial aborda como modificar imagens diretamente no AJO, adicionar sobreposições de texto usando o modo HTML, criar modelos de mídia dinâmica no AEM para hiperpersonalização e personalizar campanhas personalizando conteúdo para diferentes segmentos de público. Essa integração permite que os profissionais de marketing criem campanhas envolventes e personalizadas com eficiência, sem alternar entre aplicativos.
+Este tutorial aborda como modificar imagens diretamente no AJO, adicionar sobreposições de texto usando o modo HTML, criar modelos de mídia dinâmica no AEM para hiperpersonalização e personalizar campanhas adaptando o conteúdo para diferentes segmentos de público-alvo. Essa integração permite que os profissionais de marketing criem campanhas envolventes e personalizadas com eficiência, sem alternar entre aplicativos.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3463787/?captions=por_br&learn=on&enablevpops=&autoplay=true)
 

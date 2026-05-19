@@ -6,10 +6,11 @@ description: Considerações e problemas comuns para fragmentos de conteúdo do 
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
+exl-id: de4f441e-c3a3-4759-a634-bc9029328ebb
+source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 0%
+source-wordcount: '764'
+ht-degree: 1%
 
 ---
 
@@ -45,7 +46,7 @@ Lembre-se do seguinte ao usar Fragmentos de conteúdo de [!DNL Adobe Experience 
    * Após uma atualização bem-sucedida, as alterações normalmente ficam disponíveis em cerca de **5 minutos** para jornadas unitárias e no **próximo lote** para casos de uso em lote.
 
 * **Armazenamento em cache e revisão de texto**
-   * Quando um fragmento é adicionado pela primeira vez a uma campanha ou jornada, o [!DNL Journey Optimizer] o armazena em cache. Se você selecionar um fragmento que já foi usado em outro lugar por meio do **[!UICONTROL Abrir seletor de CF do AEM]**, ele será carregado do cache [!DNL Journey Optimizer].
+   * Quando um fragmento é adicionado pela primeira vez a uma campanha ou jornada, o [!DNL Journey Optimizer] o armazena em cache. Se você selecionar um fragmento que já foi usado em outro lugar por meio do **[!UICONTROL Abrir Supervisor de Conteúdo do AEM]**, ele será carregado do cache do [!DNL Journey Optimizer].
    * Depois de republicar um fragmento modificado no [!DNL Adobe Experience Manager], o [!DNL Journey Optimizer] acompanha o evento e atualiza o cache.
    * As provas sempre refletem a **versão publicada mais recentemente**; não é possível bloquear uma versão histórica para revisão.
 
