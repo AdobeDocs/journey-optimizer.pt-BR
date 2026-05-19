@@ -88,13 +88,6 @@ Para tornar alguns dos códigos JSON ou HTML editáveis, comece criando uma expe
    | Declarar um campo editável com um **valor padrão**. Ao adicionar o modelo ao seu conteúdo, esse valor padrão será usado se você não personalizá-lo. | Adicione o valor padrão entre as tags em linha. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
    | Defina um **rótulo** para o campo editável. Esse rótulo será exibido no editor de código ao editar os campos do modelo. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
 
-   <!--
-    | Action | Parameter| Example |
-    | ------- | ------- | ------- |
-    |Declare an editable field containing an **image source** that needs to be published.|`assetType="image"`|`{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}`|
-    |Declare an editable field containing an **URL** that needs to be tracked.br/>Note that out-of-the-box "Mirror page URL" and "Unsubscribe link" predefined blocks cannot become editable fields.>|`assetType="url"`|`{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}`|
-—>
-
 1. Clique em **[!UICONTROL Visualizar campos de formulário]** para verificar como os campos de formulário editáveis serão exibidos nas experiências baseadas em código que aplicam este modelo.
 
    ![](assets/cbe-template-form-field-preview.png){width="85%"}
