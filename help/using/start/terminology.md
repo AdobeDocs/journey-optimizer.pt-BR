@@ -29,9 +29,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 26ebbdc6d51ee9ad7c47ce26e7df04064b90268f
+source-git-commit: d92b3c8475020b26a3f154b322374a05f7d41f29
 workflow-type: tm+mt
-source-wordcount: 1576
+source-wordcount: 1573
 ht-degree: 7%
 
 ---
@@ -109,7 +109,6 @@ Ambos os recursos selecionam e fornecem ofertas, mas atendem a diferentes estág
 | | Tomada de decisão | Gestão de decisões |
 |---|---|---|
 | **Status** | Atual — recomendado para todas as novas implementações | **Herdados** — ainda são suportados, mas não são mais recomendados para novas implementações |
-| **Apresentado** | 2024 | 2021 |
 | **Catálogo de itens** | Metadados flexíveis com base em esquema | Biblioteca de ofertas centralizada |
 | **Canais com suporte** | Experiência baseada em código, push, SMS, email (disponibilidade limitada) | Email, No aplicativo, Push, SMS, Correspondência direta |
 | **Diferencial de chave** | Componentes de decisão reutilizáveis, experimentação, roteiro de canais mais amplo | Mecanismo de restrições comprovado; migrar para o Decisioning para novos projetos |
