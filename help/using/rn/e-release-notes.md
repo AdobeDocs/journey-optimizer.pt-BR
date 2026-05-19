@@ -9,7 +9,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: db584aa8f95121d04a5fdb45b324a9677dbf123f
+source-git-commit: 94d84469a30e1e93b7e74a81d3ef19f588f521cc
 workflow-type: tm+mt
 source-wordcount: 1131
 ht-degree: 6%
@@ -48,7 +48,7 @@ Os recursos a seguir são direcionados para esta versão.
 <table>
 <thead>
 <tr>
-<th><strong>Campanhas orquestradas vinculadas</strong><br/></th>
+<th><strong>Campanhas orquestradas encadeadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -56,6 +56,7 @@ Os recursos a seguir são direcionados para esta versão.
 <td>
 <p>As campanhas orquestradas agora podem ser vinculadas acionando uma campanha orquestrada diretamente da <strong>Atividade final</strong> de outra campanha orquestrada.</p>
 <p>Isso permite dividir a lógica de orquestração complexa em fluxos menores e reutilizáveis que podem ser chamados de várias campanhas principais, em vez de serem reconstruídos a cada vez. O payload transmitido no tempo de execução está disponível para segmentação e personalização na campanha downstream, portanto, cada campanha vinculada pode se comportar com base no contexto que recebe.</p>
+<!--<p><img src="assets/do-not-localize/oc-trigger.gif"></p>-->
 <p>Data de disponibilidade: 19 de maio de 2026</p>
 </td>
 </tr>
