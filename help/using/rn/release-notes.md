@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: afc31ee91979eacf9514fd483d2757c3b14442f0
+source-git-commit: 6e45f1930e70702b3f79449edbe1c73b9cffb8c1
 workflow-type: tm+mt
-source-wordcount: 1505
-ht-degree: 39%
+source-wordcount: 1566
+ht-degree: 38%
 
 ---
 
@@ -222,7 +222,7 @@ As seguintes melhorias também foram lançadas em maio de 2026.
 
 ## Em breve {#coming-soon}
 
-Os recursos e aprimoramentos a seguir estão programados para serem lançados nos próximos dias. **As informações estão sujeitas a alterações**. Links, telas e documentação atualizados serão compartilhados assim que essas atualizações estiverem ativas na produção.
+Os recursos e aprimoramentos a seguir estão programados para serem lançados no final de maio. **As informações estão sujeitas a alterações**. Links, telas e documentação atualizados serão compartilhados assim que essas atualizações estiverem ativas na produção.
 
 ### Novos recursos {#coming-soon-features}
 
@@ -287,5 +287,11 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 
   Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso.
 
+
+  Data de disponibilidade: 29 de maio de 2026
+
+  &#x200B;#### Configuração
+
+* **Conjunto de Dados de Evento de Feedback de Mensagem sendo movido para assimilação em lote** - O `AJO Message Feedback Event Dataset` está passando do modo de streaming para o modo de assimilação em lote. Essa alteração garante que a assimilação de dados não exceda os limites de assimilação de streaming. Se você usar esse conjunto de dados nos relatórios do Customer Journey Analytics ou executar consultas nele, espere um aumento na latência de dados de até 2 horas no futuro.
 
   Data de disponibilidade: 29 de maio de 2026
