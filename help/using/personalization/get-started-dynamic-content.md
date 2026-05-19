@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: expressão, editor, introdução, condições, iniciar
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: 005fb220c5593f7a6381c3413928d4f7b6a69e7b
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 60%
+source-wordcount: '149'
+ht-degree: 61%
 
 ---
 
@@ -36,4 +36,4 @@ As regras condicionais podem ser aproveitadas no Email Designer e no editor de p
 
 Saiba como Criar conteúdo dinâmico com o construtor de regras de condição.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417876?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)

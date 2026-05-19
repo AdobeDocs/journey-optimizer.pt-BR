@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: experimentação, experimento, jornada, caminho, otimização, teste A/B, bandit multiarmado, dimensionar o vencedor
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 4%
+source-wordcount: '1147'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 >id="ajo_path_experiment_success_metric"
 >title="Métricas de sucesso"
 >abstract="As métricas de sucesso são usadas para controlar e avaliar o tratamento com melhor desempenho em um experimento."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurar e rastrear as métricas da jornada"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurar e rastrear as métricas da jornada"
 
 A experimentação permite testar caminhos diferentes com base em uma divisão aleatória para determinar qual tem o melhor desempenho com base em métricas de sucesso predefinidas.
 
@@ -153,7 +153,7 @@ Compare uma espera de 24 horas com uma de 72 horas antes de um acompanhamento pa
 >
 >Para experimentos de caminho, o recurso Dimensionar o vencedor está disponível apenas em jornadas unitárias (acionadas por eventos e qualificações de público-alvo).
 >
->Não está disponível para jornadas Read audience.
+>Não está disponível para jornadas Ler público-alvo.
 
 A opção “Dimensionar o vencedor” permite implantar de forma automática ou manual a variação vencedora de um experimento em todo o seu público-alvo. Esse recurso garante que, uma vez determinado o vencedor, você possa ampliar seu alcance e eficácia sem monitorar constantemente o experimento.
 

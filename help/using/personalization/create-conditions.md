@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: expressão, editor, condicional, regras
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 8%
+source-wordcount: '635'
+ht-degree: 11%
 
 ---
 
@@ -56,14 +56,14 @@ As etapas para criar uma regra condicional são as seguintes:
 
 1. Crie a regra condicional de acordo com suas necessidades. Para fazer isso, arraste e solte e organize os atributos desejados do menu esquerdo na tela de desenho.
 
-   As etapas para combinar atributos na tela são semelhantes à experiência de construção de segmentos. Para obter mais informações sobre como trabalhar com a tela do construtor de regras, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-BR#rule-builder-canvas).
+   As etapas para combinar atributos na tela são semelhantes à experiência de construção de segmentos. Para obter mais informações sobre como trabalhar com a tela do construtor de regras, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
    Os atributos são organizados em três guias:
 
    * **[!UICONTROL Perfil]**:
-      * **[!UICONTROL Públicos-alvo]** lista todos os atributos de público-alvo (ou seja, status, versão etc.) do [serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"},
+      * **[!UICONTROL Públicos-alvo]** lista todos os atributos de público-alvo (ou seja, status, versão etc.) para o [serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"},
       * **[!UICONTROL Perfis individuais XDM]** lista todos os atributos de perfil associados ao [esquema do Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"} definido no Adobe Experience Platform.
    * **[!UICONTROL Contextual]**: quando a mensagem é usada em uma jornada, os campos de jornada contextual ficam disponíveis por meio desta guia.
    * **[!UICONTROL Públicos-alvo]**: lista todos os públicos-alvo gerados pelas definições de segmento criadas no [serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.

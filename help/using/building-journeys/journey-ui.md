@@ -10,10 +10,10 @@ level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 10%
+source-wordcount: '1485'
+ht-degree: 14%
 
 ---
 
@@ -53,7 +53,7 @@ Na lista da jornada, todas as versões da jornada são exibidas com o número da
 
 ### Calendário do Jornada {#calendar}
 
-Além da lista de jornadas, o [!DNL Journey Optimizer] fornece uma exibição de calendário de suas jornadas, oferecendo uma representação visual clara de suas agendas.
+Além da lista de jornadas, o [!DNL Journey Optimizer] fornece uma visualização de calendário das suas jornadas, oferecendo uma representação visual clara dos cronogramas.
 
 Como as jornadas são representadas:
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 18%
+source-wordcount: '1096'
+ht-degree: 20%
 
 ---
 
@@ -71,7 +71,7 @@ Para começar a criar sua experiência na Web, siga as etapas abaixo.
    >
    >Se você tentar carregar um site que não é carregado, uma mensagem será exibida sugerindo que você instale a [extensão de navegador Auxiliar de edição visual](#install-visual-editing-helper). Veja algumas dicas para solução de problemas em [esta seção](web-prerequisites.md#troubleshooting).
 
-1. Selecione qualquer elemento da tela de desenho, como imagem, botão, parágrafo, texto, contêiner, cabeçalho, link etc. [Saiba mais](#content-components)
+1. Selecione qualquer elemento da tela, como imagem, botão, parágrafo, texto, contêiner, cabeçalho, link etc. [Saiba mais](#content-components)
 
 1. Uso:
 
@@ -121,7 +121,7 @@ Para começar a criar sua experiência na Web, siga as etapas abaixo.
 
    ![](assets/web-designer-edit-header.png)
 
-1. Ajuste os estilos exibidos no painel contextual à direita, como plano de fundo, cor do texto, borda, tamanho, posição etc. - dependendo do componente selecionado.
+1. Ajuste os estilos exibidos no painel contextual à direita, como plano de fundo, cor do texto, borda, tamanho, posição, etc., dependendo do componente selecionado.
 
    ![](assets/web-designer-header-style.png)
 
@@ -184,4 +184,4 @@ A capacidade de alterar o tamanho do dispositivo foi projetada para sites respon
 
 O vídeo abaixo mostra como criar uma experiência na Web usando o web designer em campanhas do [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3452640/?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
