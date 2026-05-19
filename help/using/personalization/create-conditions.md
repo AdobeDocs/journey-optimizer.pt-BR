@@ -56,7 +56,7 @@ As etapas para criar uma regra condicional são as seguintes:
 
 1. Crie a regra condicional de acordo com suas necessidades. Para fazer isso, arraste e solte e organize os atributos desejados do menu esquerdo na tela de desenho.
 
-   As etapas para combinar atributos na tela são semelhantes à experiência de construção de segmentos. Para obter mais informações sobre como trabalhar com a tela do construtor de regras, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
+   As etapas para combinar atributos na tela são semelhantes à experiência de construção de segmentos. Para obter mais informações sobre como trabalhar com a tela do construtor de regras, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-BR#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
