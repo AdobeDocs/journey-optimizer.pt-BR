@@ -5,22 +5,19 @@ title: Acessar o Supervisor de Conteúdo do Adobe Experience Manager
 description: Saiba como acessar e usar o Supervisor de conteúdo do Adobe Experience Manager para descobrir ativos e fragmentos de conteúdo usando a pesquisa semântica habilitada por IA no Adobe Journey Optimizer.
 role: User
 level: Beginner, Intermediate
-hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
 
-# Trabalhar com o consultor de conteúdo do Adobe Experience Manager {#aem-content-advisor}
+# Trabalhar com o Supervisor de conteúdo do Adobe Experience Manager {#aem-content-advisor}
 
->[!AVAILABILITY]
->
->O Adobe Experience Manager Content Advisor está disponível somente em workflows de criação de canal.
+O Adobe Experience Manager Content Advisor substitui a detecção determinística pela detecção padronizada orientada por intenções a partir de uma superfície unificada. Ele permite a detecção unificada e baseada em IA do Assets, Dynamic Media e Fragmentos de conteúdo diretamente nos fluxos de trabalho de criação do Journey Optimizer, melhorando a produtividade do profissional de marketing e a eficiência da campanha.
 
-O Adobe Experience Manager Content Advisor substitui a detecção determinística pela detecção padronizada orientada por intenções a partir de uma superfície unificada. Ele permite a detecção unificada e baseada em IA do Assets e de fragmentos de conteúdo diretamente nos fluxos de trabalho de criação do Journey Optimizer, melhorando a produtividade do profissional de marketing e a eficiência da campanha.
+➡️ [Saiba mais sobre o Adobe Experience Manager Content Advisor na documentação do Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)
 
 ## Recursos disponíveis
 
@@ -30,7 +27,7 @@ O Adobe Experience Manager Content Advisor oferece os seguintes recursos de ativ
 
 +++ Pesquisa semântica de IA
 
-Pesquise ativos usando a linguagem natural em vez de palavras-chave exatas ou nomes de arquivo. Descreva o que você precisa em linguagem simples, por exemplo, &quot;café nas montanhas&quot;, e a IA encontra ativos contextualmente relevantes com base no significado e no conteúdo, não apenas correspondências de texto.
+Pesquise ativos usando a linguagem natural em vez de palavras-chave exatas ou nomes de arquivo. Descreva o que você precisa em linguagem simples, por exemplo, &quot;café nas montanhas&quot;, e a IA exibe ativos contextualmente relevantes com base no significado e no conteúdo, não apenas correspondências de texto. A pesquisa multilíngue também é compatível, portanto, você pode consultar no seu idioma preferido e ainda encontrar os ativos certos, independentemente do idioma em que foram marcados ou nomeados.
 
 ![](assets/content-advisor-2.png){zoomable="yes"}
 
@@ -74,7 +71,7 @@ A disponibilidade do Dynamic Media depende da configuração do repositório:
 
 * **Scene7**: disponível para ativos publicados (exceto Vídeo e PDF). [Saiba mais sobre os modificadores do Dynamic Media Scene7](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**: disponível para ativos aprovados (exceto Vídeo). [Saiba mais sobre o Dynamic Media com modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=pt-BR){target="_blank"}
+* **OpenAPI**: disponível para ativos aprovados (exceto Vídeo). [Saiba mais sobre o Dynamic Media com modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Scene7 e OpenAPI**: disponíveis quando ambas as configurações existem e o ativo atende aos critérios.
 
