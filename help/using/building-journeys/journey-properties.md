@@ -42,7 +42,7 @@ topic_v2:
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -53,7 +53,7 @@ Use as propriedades do jornada para definir as configurações globais para sua 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propriedades da jornada"
->abstract="Defina configurações globais para esta jornada, incluindo nome, tags, regras de entrada, fuso horário, datas, tempo limite e gerenciamento de conflitos. Parâmetros somente leitura estão ocultos por padrão. As opções disponíveis variam com base no status da jornada, nas permissões e na configuração do produto."
+>abstract="Defina configurações globais para esta jornada, incluindo nome, tags, regras de entrada, fuso horário, datas, tempo limite e gerenciamento de conflitos. Os parâmetros somente leitura estão ocultos por padrão. As opções disponíveis variam com base no status da jornada, nas permissões e na configuração do produto."
 
 ## Acessar as propriedades de uma jornada {#access-properties}
 
@@ -346,7 +346,7 @@ A partir da versão de [!DNL Adobe Journey Optimizer] de junho de 2024, o tempo 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_merge_policy"
 >title="Política de mesclagem"
->abstract="A política de mesclagem é recuperada automaticamente com base no evento ou público selecionado. Essa política de mesclagem é usada em toda a jornada."
+>abstract="A política de mesclagem é recuperada automaticamente com base no evento ou público-alvo selecionado. Essa política de mesclagem é usada em toda a jornada."
 
 [!DNL Adobe Journey Optimizer] usa políticas de mesclagem ao recuperar dados de perfil de [!DNL Adobe Experience Platform]. Dependendo do tipo de jornada, são usadas diferentes políticas de mesclagem:
 

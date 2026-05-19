@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
 source-wordcount: 1230
-ht-degree: 13%
+ht-degree: 0%
 
 ---
 
@@ -80,27 +80,27 @@ Estas etapas devem ser executadas por um [Administrador do Sistema](../start/pat
 
 Depois de criar e configurar sua credencial de API, agora é necessário criar seu Webhook para mensagens do WhatsApp. [Saiba mais](#whatsapp-webhook)
 
-## Criar webhook {#WhatsApp-webhook}
+## Criar Webhook {#WhatsApp-webhook}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="Categoria de palavra-chave de entrada"
->abstract="<b>Aceitar</b>: envia a resposta automática definida quando um usuário assina. <br/><b>Recusar</b>: envia a resposta automática definida quando um usuário cancela a assinatura. <br/><b>Ajuda</b>: envia a resposta automática definida quando um usuário solicita ajuda ou suporte. <br/><b>Padrão</b>: envia a resposta automática substituta quando nenhuma palavra-chave é correspondente."
+>abstract="<b>Aceitar</b>: envia sua resposta automática definida quando um usuário se inscreve. <br/><b>Opt-Out</b>: envia sua resposta automática definida quando um usuário cancela a assinatura. <br/><b>Ajuda</b>: envia sua resposta automática definida quando um usuário solicita ajuda ou suporte. <br/><b>Padrão</b>: envia sua resposta automática de fallback quando nenhuma palavra-chave é correspondente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
->title="Insira as palavras-chave"
->abstract="É possível definir palavras-chave para acionar respostas automáticas específicas com base no texto dos usuários. As palavras-chave não diferenciam maiúsculas de minúsculas. Por exemplo, parar e PARAR são tratadas da mesma forma."
+>title="Insira suas palavras-chave"
+>abstract="Você pode definir palavras-chave para acionar respostas automáticas específicas com base no texto dos usuários. As palavras-chave não diferenciam maiúsculas de minúsculas; por exemplo, stop e STOP são tratadas da mesma forma."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
->title="URL de retorno de chamada"
->abstract="A solicitação de validação e as notificações do webhook para este objeto são enviadas para o URL especificado."
+>title="URL de retorno"
+>abstract="A solicitação de validação e as notificações do webhook para este objeto são enviadas para a URL especificada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_verify_token"
 >title="Verificar token"
->abstract="O token que a Meta retorna para confirmar e verificar o URL de retorno de chamada durante o processo de verificação."
+>abstract="O token que o Meta ecoa para confirmar e verificar o URL de retorno de chamada durante o processo de verificação."
 
 >[!NOTE]
 >
@@ -178,7 +178,7 @@ Agora que seu Webhook está configurado, você pode criar sua configuração do 
 
    >[!NOTE]
    >
-   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar os caracteres de sublinhado `_`, ponto `.` e hífen `-`.
+   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
 
 1. Selecione **[!DNL WhatsApp]** como seu canal.
 
@@ -230,7 +230,7 @@ Se você encontrar um erro HTTP 500 ao configurar as credenciais da API do Whats
 
 1. **Contate o suporte**: se o ambiente e os direitos forem confirmados válidos, mas o erro HTTP 500 persistir, contate o representante da Adobe.
 
-## Vídeo tutorial {#video}
+## Vídeo explicativo {#video}
 
 O vídeo abaixo mostra como configurar o canal do WhatsApp no Adobe Journey Optimizer.
 

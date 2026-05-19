@@ -486,7 +486,7 @@ O widget **[!UICONTROL Desempenho por data do SMS]** oferece uma visão geral de
 
 +++
 
-### SMS - motivos de erro {#sms-error-reasons}
+### SMS – motivos de erro {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -495,7 +495,7 @@ O widget **[!UICONTROL Desempenho por data do SMS]** oferece uma visão geral de
 
 Os gráficos e a tabela **[!UICONTROL Motivos excluídos]** permitem identificar os erros específicos que ocorreram durante o processo de envio de suas mensagens SMS nas últimas 24 horas, facilitando uma análise completa de todos os problemas encontrados.
 
-### SMS - motivos excluídos {#sms-excluded-reasons}
+### SMS – motivos de exclusão {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
@@ -572,7 +572,7 @@ A tabela **[!UICONTROL Interações por elemento]** apresenta informações abra
 
 No seu **[!UICONTROL Relatório ao vivo]** do Campaign, a guia **[!UICONTROL Correspondência direta]** detalha as principais informações relativas à sua Correspondência direta.
 
-### Correspondência direta - Estatísticas de envio {#direct-mail-sending}
+### Correspondência direta – estatísticas de envio {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
@@ -595,7 +595,7 @@ A tabela **[!UICONTROL Correspondência Direta - Estatísticas de envio]** forne
 
 +++
 
-### Correspondência direta - motivos de erro {#direct-mail-error-reasons}
+### Correspondência direta – motivos de erro {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
@@ -606,7 +606,7 @@ A tabela **[!UICONTROL Correspondência Direta - Estatísticas de envio]** forne
 
 Os gráficos e a tabela **[!UICONTROL Correspondência direta - Motivos do erro]** fornecem os meios de identificar erros específicos que ocorreram durante o processo de envio de suas mensagens de correspondência direta, permitindo uma análise detalhada de quaisquer problemas encontrados nas últimas 24 horas.
 
-### Correspondência direta - motivos excluídos {#direct-mail-excluded-reasons}
+### Correspondência direta – motivos de exclusões {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"

@@ -3,7 +3,7 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Fórmulas de classificação
 description: Saiba como criar fórmulas para classificar ofertas
-badge: label="Legado" type="Informative"
+badge: label="Herdados" type="Informative"
 feature: Ranking, Decision Management
 topic: Integrations
 role: User
@@ -28,7 +28,7 @@ level_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 621
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
@@ -36,11 +36,11 @@ ht-degree: 12%
 
 >[!TIP]
 >
->O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
+>A decisão, o novo recurso de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e canais de email! [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 ## Sobre fórmulas de classificação {#about-ranking-formulas}
 
-**Fórmulas de classificação** permitem definir regras que determinam qual oferta deve ser apresentada primeiro para uma determinada inserção, em vez de considerar as pontuações de prioridade das ofertas. As fórmulas de classificação são expressas em **sintaxe PQL** e podem aproveitar atributos de perfil, dados de contexto e atributos de oferta. Para obter mais informações sobre como usar a sintaxe do PQL, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=pt-BR).
+**As fórmulas de classificação** permitem definir regras que determinarão qual oferta deve ser apresentada primeiro para determinado posicionamento, em vez de levar em conta as pontuações de prioridade das ofertas. As fórmulas de classificação são expressas em **sintaxe PQL** e podem aproveitar atributos de perfil, dados de contexto e atributos de oferta. Para obter mais informações sobre como usar a sintaxe do PQL, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=pt-BR).
 
 Depois que uma fórmula de classificação é criada, é possível atribuí-la a uma inserção em uma decisão. Para obter mais informações, consulte [Configurar seleção de ofertas em decisões](../offer-activities/configure-offer-selection.md).
 

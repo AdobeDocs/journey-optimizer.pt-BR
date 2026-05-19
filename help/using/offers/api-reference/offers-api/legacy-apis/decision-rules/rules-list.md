@@ -1,10 +1,10 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Listar de regras de decisão
+title: Listar regras de decisão
 description: As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a elegibilidade.
 feature: Decision Management, API
-badge: label="Legado" type="Informative"
+badge: label="Herdados" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
@@ -24,15 +24,15 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 287
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
-# Listar de regras de decisão {#list-decision-rules}
+# Listar regras de decisão {#list-decision-rules}
 
 >[!TIP]
 >
->O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>A decisão, o novo recurso de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e canais de email! [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a elegibilidade. Você pode exibir uma lista de regras de decisão existentes em um contêiner executando uma única solicitação GET para a API [!DNL Offer Library].

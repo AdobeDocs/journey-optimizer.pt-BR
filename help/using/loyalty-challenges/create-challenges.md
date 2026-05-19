@@ -11,10 +11,10 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1937'
-ht-degree: 1%
+ht-degree: 17%
 
 ---
 
@@ -75,7 +75,7 @@ Na guia **[!UICONTROL Estrutura]**, defina como seu desafio é organizado: suas 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
 >title="Propriedades do desafio"
->abstract="No painel de propriedades Desafio, defina o nome do desafio e a descrição e adicione metadados de chave/valor personalizados para rastreamento ou integrações externas."
+>abstract="No painel de propriedades Desafio, defina o nome do desafio e a descrição. Depois, adicione metadados de chave/valor personalizados para rastreamento ou integrações externas."
 
 1. No painel **[!UICONTROL Propriedades do desafio]**, defina configurações globais para o desafio:
 
@@ -90,8 +90,8 @@ Na guia **[!UICONTROL Estrutura]**, defina como seu desafio é organizado: suas 
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
->title="Programação de desafio"
->abstract="Use o agendamento para definir quando o desafio está ao vivo: defina a data e a hora de início quando ele se torna disponível para os clientes e a data e a hora de término quando ele para de aceitar conclusões. Escolha um fuso horário e escolha quando os clientes poderão concluir tarefas na **[!UICONTROL seção Janela de conclusão de tarefas]**."
+>title="Cronograma de desafio"
+>abstract="Use o cronograma para definir quando o desafio estará ativo: defina a data e a hora de início para quando ele se torna disponível para os clientes e a data e a hora de término para quando ele para de aceitar conclusões. Selecione um fuso horário e escolha quando os clientes poderão concluir tarefas na **[!UICONTROL seção Janela de conclusão de tarefas]**."
 
 Configure quando seu desafio é executado:
 
@@ -116,7 +116,7 @@ A programação de desafio agora está configurada. Em seguida, adicione as tare
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_tasks"
 >title="Tarefas"
->abstract="Selecione as tarefas a serem executadas para concluir o desafio. Em seguida, configure como o desafio é concluído - as opções disponíveis dependem do seu tipo de desafio (Padrão, Streak ou Sequencial)."
+>abstract="Selecione as tarefas que serão executadas para concluir o desafio. Em seguida, configure como o desafio é concluído. As opções disponíveis dependem do tipo de desafio (Padrão, Sequência ou Sequencial)."
 
 As tarefas definem as ações específicas que os clientes devem concluir para ganhar recompensas. Você pode configurar tipos de tarefa (compra, gastos), quantidades, filtros de produto e outros atributos.
 
@@ -171,7 +171,7 @@ Depois de adicionar tarefas ao seu desafio, configure as recompensas que os clie
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_rewards"
 >title="Recompensas"
->abstract="Escolha quando os clientes ganham pontos: quando eles concluem todo o desafio ou nos marcos da tarefa à medida que avançam. Selecione o provedor de premiação (a solução de fidelidade que gerencia pontos e recompensas) e defina valores: um único total para conclusão total ou valores por tarefa para marcos, ativando as recompensas somente para as tarefas que deseja pagar."
+>abstract="Escolha quando os clientes ganham pontos: quando eles concluem todo o desafio ou nos marcos da tarefa à medida que avançam. Selecione o provedor de premiação (a solução de fidelidade que gerencia pontos e recompensas) e defina valores: um único total para conclusão total ou valores por tarefa para determinar marcos, ativando as recompensas somente para as tarefas que deseja."
 
 As recompensas são os pontos de fidelidade ou os benefícios que os clientes recebem por concluir os desafios.
 
@@ -220,7 +220,7 @@ Depois de configurar a estrutura de desafios com tarefas e recompensas, crie os 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="Conteúdo"
->abstract="Configure o cartão de conteúdo que representa seu desafio em dispositivos de clientes e mostra informações de desafio, progresso e recompensas. Insira um nome para o cartão, selecione uma configuração de canal para que o delivery use as configurações técnicas certas (por exemplo, cabeçalhos, subdomínio ou aplicativos móveis) e selecione Editar conteúdo para projetar e personalizar a experiência do cartão."
+>abstract="Configure o cartão de conteúdo que representa o desafio em dispositivos de clientes e mostra informações do desafio, progresso e recompensas. Insira um nome para o cartão, selecione uma configuração de canal para que a entrega use as configurações técnicas certas (por exemplo, cabeçalhos, subdomínio ou aplicativos móveis) e selecione Editar conteúdo para projetar e personalizar a experiência do cartão."
 
 Os cartões de conteúdo representam visualmente seu desafio em dispositivos de clientes, exibindo informações de desafio, progresso e recompensas. [Saiba mais sobre cartões de conteúdo](../content-card/create-content-card.md).
 
@@ -241,7 +241,7 @@ Após configurar o cartão de conteúdo, configure as mensagens para envolver os
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
 >title="Mensagens"
->abstract="As mensagens ajudam a engajar durante todo o ciclo de vida do desafio. Na guia Mensagens, adicione mensagens para cada estágio: Iniciar (quando o desafio começa), Em andamento (lembretes e atualizações de progresso) e Conclusão (comemore o sucesso e confirme as recompensas). Para cada estágio, adicione uma mensagem, escolha o canal, selecione uma configuração de canal e selecione Editar para criar o conteúdo da mensagem."
+>abstract="As mensagens ajudam a engajar durante todo o ciclo de vida do desafio. Na guia Mensagens, adicione mensagens para cada estágio: Lançamento (quando o desafio começa), Em andamento (lembretes e atualizações de progresso) e Conclusão (comemore o sucesso e confirme as recompensas). Para cada estágio, adicione uma mensagem, escolha o canal, selecione uma configuração de canal e selecione Editar para criar o conteúdo da mensagem."
 
 Configurar mensagens multicanais para envolver os clientes em estágios fundamentais do ciclo de vida de desafio. As mensagens são opcionais, mas são recomendadas para maximizar o engajamento do cliente.
 
@@ -263,12 +263,12 @@ Saiba como criar mensagens para canais específicos nestas seções: [Mensagens 
 
 Após concluir a configuração de mensagens, defina quais clientes estão qualificados para participar do desafio.
 
-## Selecionar o público-alvo do desafio {#audience}
+## Selecione o público-alvo do desafio {#audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="Público-alvo"
->abstract="Na guia Público-alvo, escolha quem pode participar do desafio nos públicos-alvo disponíveis da Adobe Experience Platform."
+>abstract="Na guia Público-alvo, escolha quem pode participar do desafio nos públicos-alvo disponíveis na Adobe Experience Platform."
 
 Defina quais clientes podem participar do seu desafio de fidelidade.
 

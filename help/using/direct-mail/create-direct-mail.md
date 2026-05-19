@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Criar uma mensagem de correspondência direta
 description: Saiba como criar uma mensagem de correspondência direta no Journey Optimizer
 feature: Direct Mail
@@ -24,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 975
-ht-degree: 18%
+source-wordcount: 1069
+ht-degree: 17%
 
 ---
 
@@ -66,17 +68,17 @@ Navegue pelas guias abaixo para saber como adicionar uma mensagem de correspond�
 
 1. Configure o arquivo de extração para enviar ao seu provedor de correspondência direta. Para fazer isso, clique no botão **[!UICONTROL Editar conteúdo]**.
 
-   ![](assets/direct-mail-add-journey.png)
+   ![Atividade de correspondência direta adicionada a uma jornada da paleta Ações](assets/direct-mail-add-journey.png)
 
 1. Ajuste as propriedades do arquivo de extração, como o nome do arquivo, ou as colunas a serem exibidas. Para obter mais informações sobre como configurar as propriedades do arquivo de extração, consulte esta seção: [Criar uma mensagem de correspondência direta](../direct-mail/create-direct-mail.md#extraction-file).
 
-   ![](assets/direct-mail-journey-content.png)
+   ![Editor de conteúdo de arquivo de extração para uma atividade de jornada de correspondência direta](assets/direct-mail-journey-content.png)
 
 1. Depois que o conteúdo do arquivo de extração for definido, você poderá usar perfis de teste para visualizá-lo. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
 
    Para fazer isso, clique em **[!UICONTROL Simular conteúdo]** e adicione um perfil de teste para verificar como é a renderização do arquivo de extração usando os dados do perfil de teste. Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na seção [Gerenciamento de conteúdo](../content-management/preview-test.md).
 
-   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+   ![Simular visualização de conteúdo para um arquivo de extração de correspondência direta](assets/direct-mail-simulate.png){width="800" align="center"}
 
 Quando o arquivo de extração estiver pronto, conclua a configuração da [jornada](../building-journeys/journey-gs.md) para enviá-lo.
 
@@ -100,7 +102,7 @@ Quando o arquivo de extração estiver pronto, conclua a configuração da [jorn
 
 1. Selecione ou crie uma **[!UICONTROL Configuração de correspondência direta]** para usar. [Saiba como criar uma configuração de correspondência direta](direct-mail-configuration.md#direct-mail-surface).
 
-   ![](assets/direct-mail-campaign.png){width="800" align="center"}
+   ![Ação de correspondência direta configurada em uma campanha de marketing agendada](assets/direct-mail-campaign.png){width="800" align="center"}
 
    >[!AVAILABILITY]
    >
@@ -140,7 +142,7 @@ O arquivo de extração é exigido por provedores de correspondência direta par
 
    1. Às vezes, pode ser necessário adicionar informações ao início ou final do arquivo de extração. Para fazer isso, use o campo **[!UICONTROL Notas]** e especifique se deseja incluir a nota como cabeçalho ou rodapé.
 
-      ![](assets/direct-mail-properties.png){width="800" align="center"}
+      ![Propriedades do arquivo de extração, incluindo nome do arquivo, carimbo de data/hora e notas de cabeçalho ou rodapé](assets/direct-mail-properties.png){width="800" align="center"}
 
 1. Configure as colunas e as informações a serem exibidas no arquivo de extração:
 
@@ -152,10 +154,19 @@ O arquivo de extração é exigido por provedores de correspondência direta par
 
    1. Para classificar o arquivo de extração usando uma coluna, selecione a coluna e alterne na opção **[!UICONTROL Classificar por]**. O ícone **[!UICONTROL Classificar por]** é exibido ao lado do rótulo da coluna na seção **[!UICONTROL Campos de Dados]**.
 
-      ![](assets/direct-mail-content.png){width="800" align="center"}
+      ![Formatação de campos de dados e colunas no editor de arquivos de extração de correspondência direta](assets/direct-mail-content.png){width="800" align="center"}
 
    1. Repita essas etapas para adicionar quantas colunas forem necessárias para o arquivo de extração. Observe que você pode adicionar até 50 colunas.
 
       Para alterar a posição de uma coluna, arraste-a e solte-a no local desejado na seção **[!UICONTROL Campo de dados]**. Para excluir uma coluna, selecione-a e clique no botão **[!UICONTROL Remover]** no painel **[!UICONTROL Formatação]**.
 
 Agora você pode testar sua mensagem de correspondência direta e enviá-la ao seu público-alvo. [Saiba como testar e enviar mensagens de correspondência direta](test-send-direct-mail.md)
+
+## Tópicos relacionados {#related-topics}
+
+* [Introdução à correspondência direta](get-started-direct-mail.md)
+* [Configurar canal de correspondência direta](direct-mail-configuration.md)
+* [Testar e enviar correspondência direta](test-send-direct-mail.md)
+* [Pré-visualizar e testar conteúdo](../content-management/preview-test.md)
+
+Para perguntas comuns sobre correspondência direta, consulte [Introdução à correspondência direta](get-started-direct-mail.md).

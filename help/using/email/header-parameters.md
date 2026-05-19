@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1089
-ht-degree: 53%
+ht-degree: 58%
 
 ---
 
@@ -72,7 +72,7 @@ Ao configurar uma nova [configuração de canal de email](email-settings.md), na
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_sender_header"
 >title="Cabeçalhos do remetente"
->abstract="Use esses campos opcionais quando a entidade de transmissão (remetente) for diferente da entidade de criação (De), por exemplo, uma empresa principal que envia mensagens para uma marca secundária ou uma agência que envia para vários clientes. Os clientes de email que oferecem suporte a isso normalmente o renderizam como &quot;Remetente em nome de De&quot; ou mostram um indicador &quot;via&quot;."
+>abstract="Use esses campos opcionais quando a entidade de transmissão (Remetente) for diferente da entidade de criação (De), por exemplo, uma empresa principal que envia mensagens para uma marca secundária ou uma agência que envia para vários clientes. Os clientes de email que oferecem suporte a isso normalmente implementam uma renderização como “Remetente em nome de De” ou mostram um indicador “via”."
 
 Alguns casos de uso exigem que a caixa de correio que transmite a mensagem seja diferente do autor **De**, por exemplo, uma organização principal enviando em nome de uma subsidiária, uma equipe de marketing compartilhado para várias marcas ou uma agência enviando para vários clientes.
 

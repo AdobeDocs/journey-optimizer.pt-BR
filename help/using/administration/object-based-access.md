@@ -9,10 +9,10 @@ role: Admin, Developer
 level: Experienced
 keywords: objeto, nível, acesso, controle, rótulos, olac, autorização
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 17%
+source-wordcount: '514'
+ht-degree: 20%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 17%
 >title="Rótulos de gerenciamento de acesso"
 >abstract="É possível limitar o acesso a um objeto com base nos rótulos de acesso. Esta abordagem protege ativos digitais sensíveis de usuários não autorizados e garante uma maior proteção dos dados pessoais. **Certifique-se de selecionar apenas os rótulos para os quais tem permissão.**"
 
-É possível limitar o acesso a um objeto com base nos rótulos de acesso. Essa abordagem protege os ativos digitais confidenciais de usuários não autorizados e garante maior proteção dos dados pessoais.
+É possível limitar o acesso a um objeto com base nos rótulos de acesso. Esta abordagem protege ativos digitais sensíveis de usuários não autorizados e garante uma maior proteção dos dados pessoais.
 
 O recurso OLAC (Object level access control) permite definir autorizações para gerenciar o acesso a dados para uma seleção de objetos:
 

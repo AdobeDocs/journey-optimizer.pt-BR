@@ -1,5 +1,5 @@
 ---
-title: Pré-requisitos do canal da Web
+title: Pré-requisitos do canal da web
 description: Para acessar e criar páginas da Web na interface do usuário do Journey Optimizer, siga os pré-requisitos desta página
 feature: Web Channel, Channel Configuration
 topic: Content Management
@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1410
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
@@ -50,7 +50,7 @@ Para acessar e criar páginas da Web na interface do usuário do [!DNL Journey O
 
 >[!IMPORTANT]
 >
->* [!DNL Journey Optimizer] campanhas da Web têm como alvo novos perfis que nunca foram engajados em outros canais. Isso aumenta a contagem total de [Perfis que podem ser Engajados](../audience/license-usage.md), o que pode ter implicações de custo se o número contratual de Perfis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Você pode verificar o número de Perfis Ativáveis no [painel de uso de licença](../audience/license-usage.md).
+>* As campanhas da Web do [!DNL Journey Optimizer] direcionam novos perfis que não foram engajados anteriormente em outros canais. Isso aumenta a contagem total de [Perfis que podem ser Engajados](../audience/license-usage.md), o que pode ter implicações de custo se o número contratual de Perfis que você adquiriu for excedido. As métricas de licença de cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Você pode verificar o número de Perfis engajáveis no [painel de uso de licença](../audience/license-usage.md).
 >
 >* Ao direcionar perfis pseudônimos (visitantes não autenticados) com suas páginas da Web, considere definir um Tempo de vida (TTL) para exclusão automática de perfil para gerenciar a contagem de perfis ativáveis e os custos associados. [Saiba mais](../start/guardrails.md#profile-management-inbound)
 
@@ -77,7 +77,7 @@ Há suporte para dois tipos de implementações para habilitar a criação e o d
 >[!CONTEXTUALHELP]
 >id="ajo_web_browser_extension"
 >title="Criar uma regra de correspondência de páginas"
->abstract="Para acessar o web designer [!DNL Journey Optimizer], é necessário ter uma extensão específica do navegador instalada: o Adobe Experience Cloud Visual Editing Helper (Auxiliar de edição visual do), disponível somente no Google Chrome ou Microsoft Edge."
+>abstract="Para acessar o designer da web do [!DNL Journey Optimizer], é necessário ter uma extensão específica do navegador instalada: o Auxiliar de edição visual da Adobe Experience Cloud, disponível somente no Google Chrome ou no Microsoft Edge."
 
 <!--In order to rapidly author and preview your web experiences, the Adobe Experience Cloud Visual Editing Helper browser extension for Google Chrome lets you load websites reliably within the Adobe [!DNL Journey Optimizer] web designer.-->
 
@@ -99,7 +99,7 @@ Para baixar e instalar a extensão de navegador Auxiliar de edição visual, sig
 
 1. Pesquise e navegue até a extensão de navegador [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}.
 
-1. Clique em **[!UICONTROL Adicionar ao Chrome]** > **[!UICONTROL Adicionar Extensão]**.
+1. Clique em **[!UICONTROL Adicionar ao Chrome]** > **[!UICONTROL Adicionar extensão]**.
 
    >[!NOTE]
    >
@@ -117,9 +117,9 @@ A extensão não tem configurações condicionais e lida com todas as configura�
 >
 >Alguns sites podem não abrir de forma confiável no web designer [!DNL Journey Optimizer] devido a um dos seguintes motivos:
 >
-> * O site tem políticas de segurança rigorosas.
+> * O site tem políticas de segurança estritas.
 > * O site está em um iframe.
-> * O site de controle de qualidade ou preparo do cliente não está disponível para o mundo externo (o site é interno).
+> * O site de controle de qualidade e/ou preparo do cliente não está disponível para partes externas (o site é interno).
 
 ### Solução de problemas do site que não está carregando {#troubleshooting}
 

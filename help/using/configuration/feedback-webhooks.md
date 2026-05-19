@@ -23,7 +23,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 302
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -119,7 +119,7 @@ Após a execução de uma mensagem, **[!DNL Journey Optimizer]** envia a seguint
 O webhook pode capturar os seguintes eventos:
 
 * Enviado
-* Entregues
+* Entregue
 * Rejeição (veja o exemplo acima)
 * Erros
 

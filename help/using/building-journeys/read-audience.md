@@ -39,7 +39,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 3612
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -84,7 +84,7 @@ Por exemplo, o público-alvo `Luma app opening and checkout` criado no caso de u
 >
 >* Antes de usar a atividade Ler público, [leia as Medidas de Proteção e as Limitações](#must-read).
 
-## Configurar a atividade {#configuring-segment-trigger-activity}
+## Configure a atividade {#configuring-segment-trigger-activity}
 
 Você definirá: **Público** (obrigatório), **Namespace** (obrigatório), **Taxa de leitura** (obrigatório, padrão 5.000/s) e **Agendamento** (quando a jornada for executada). Opcionalmente, adicione um **Rótulo** e **Identificador complementar**. As etapas abaixo orientam você em cada configuração.
 

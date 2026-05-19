@@ -32,11 +32,11 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2241
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Relatório de campanha por email {#campaign-global-report-cja-email}
+# Relatório de campanha de email {#campaign-global-report-cja-email}
 
 >[!INFO]
 >
@@ -265,7 +265,7 @@ A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral 
 
 +++
 
-## URLs do link rastreado {#track-link-url}
+## URLs de link rastreado {#track-link-url}
 
 ![](assets/cja-journey-tracked-link-urls.png)
 
@@ -297,7 +297,7 @@ A tabela **[!UICONTROL Assuntos de email]** apresenta uma visão geral completa 
 
 +++
 
-## Motivos para exclusão {#excluded-reasons}
+## Motivos excluídos {#excluded-reasons}
 
 ![](assets/cja-email-excluded.png)
 
@@ -313,7 +313,7 @@ A tabela **[!UICONTROL Motivos de rejeição]** compila os dados disponíveis re
 
 Para obter mais informações sobre rejeições, consulte a página [Lista de supressão](../reports/suppression-list.md).
 
-## Motivos do erro {#error-reasons-email}
+## Motivos de erro {#error-reasons-email}
 
 ![](assets/cja-email-error-reasons.png)
 

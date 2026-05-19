@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Importar o conteúdo do email
+title: Importar conteúdo de email
 description: Saiba como importar conteúdo de email
 feature: Email Design
 topic: Content Management
@@ -25,11 +25,11 @@ level_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 260
-ht-degree: 30%
+ht-degree: 0%
 
 ---
 
-# Importar o conteúdo do email {#existing-content}
+# Importar conteúdo de email {#existing-content}
 
 O [!DNL Journey Optimizer] permite importar conteúdo existente do HTML para criar seus emails. Esse conteúdo pode ser:
 
@@ -45,13 +45,13 @@ O [!DNL Journey Optimizer] permite importar conteúdo existente do HTML para cri
 >
 >Se você tiver designs de imagem (JPEG ou PNG) em vez de arquivos HTML, poderá usar o [conversor de imagem para HTML](../content-management/image-to-html.md) para convertê-los automaticamente em modelos de email editáveis do HTML usando IA.
 
-Para importar um arquivo contendo conteúdo HTML, siga as etapas abaixo:
+Para importar um arquivo com conteúdo do HTML, siga as etapas abaixo:
 
 1. Na página inicial do Designer de Email, selecione **[!UICONTROL Importar HTML]**.
 
    ![](assets/import-html_2.png)
 
-1. Arraste e solte o HTML ou arquivo .zip contendo seu conteúdo HTML e clique em **[!UICONTROL Importar]**.
+1. Arraste e solte o arquivo HTML ou .zip com o conteúdo do HTML e clique em **[!UICONTROL Importar]**.
 
    ![](assets/html-imported_2.png)
 
@@ -69,8 +69,8 @@ Para importar um arquivo contendo conteúdo HTML, siga as etapas abaixo:
 
 1. Agora você pode personalizar o arquivo importado, conforme necessário, com as funcionalidades de Designer de email. [Saiba mais](content-from-scratch.md)
 
-## Vídeo tutorial {#video}
+## Vídeo explicativo {#video}
 
-Saiba como importar conteúdo HTML existente, ajustar o design, adicionar mirror page e links para cancelar a inscrição e como codificar seu conteúdo.
+Saiba como importar conteúdo existente do HTML, ajustar o design, adicionar mirror page e links para cancelar a inscrição e como codificar seu conteúdo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

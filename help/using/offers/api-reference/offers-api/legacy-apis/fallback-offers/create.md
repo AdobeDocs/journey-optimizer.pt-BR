@@ -4,7 +4,7 @@ product: Journey Optimizer
 title: Criar uma oferta substituta
 description: Uma oferta substituta é enviada aos clientes se eles não estiverem qualificados para outras ofertas
 feature: Decision Management, API
-badge: label="Legado" type="Informative"
+badge: label="Herdados" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
@@ -23,7 +23,7 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 161
-ht-degree: 23%
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 23%
 
 >[!TIP]
 >
->O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>A decisão, o novo recurso de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e canais de email! [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Você pode criar uma oferta substituta fazendo uma solicitação POST para a API [!DNL Offer Library] e, ao mesmo tempo, fornecendo sua ID de container.

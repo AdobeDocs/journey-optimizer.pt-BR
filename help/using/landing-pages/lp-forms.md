@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2080
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -36,18 +36,18 @@ ht-degree: 0%
 
 Para capturar dados de perfil com suas páginas de aterrissagem do [!DNL Journey Optimizer] e enriquecer seus conjuntos de dados do [!DNL Experience Platform], você pode usar formulários em suas páginas de aterrissagem. Para obter uma visão geral de cenários e requisitos de captura de dados, consulte [Captura de dados com páginas de aterrissagem](get-started-lp.md#data-capture-lp).
 
-## Criação de uma predefinição de formulário {#create-form-preset}
+## Criar uma predefinição de formulário {#create-form-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_connection"
->title="Selecione o endpoint a ser usado"
->abstract="Defina o ponto de encerramento da transmissão para onde os dados são enviados ao enviar o formulário."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Criar uma conexão de transmissão da API HTTP"
+>title="Selecionar o ponto de acesso a ser usado"
+>abstract="Defina o ponto de acesso de transmissão para onde os dados serão mandados ao enviar o formulário."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Criar uma conexão de transmissão com a API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
 >title="Selecionar um conjunto de dados"
->abstract="Defina um conjunto de dados em que as respostas do formulário serão armazenadas e refletidas. Você pode digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista."
+>abstract="Defina um conjunto de dados em que as respostas do formulário serão armazenadas e refletidas. É possível digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista."
 
 <!--
 >[!NOTE]
@@ -91,7 +91,7 @@ Para criar uma predefinição de formulário, siga as etapas abaixo.
    >
    >Se a conexão de transmissão não for exibida na lista, verifique se essas duas condições foram atendidas. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
-1. Selecione um **[!UICONTROL Conjunto de Dados]** para vincular ao formulário. É aqui que as respostas do formulário serão armazenadas e refletidas. Você pode digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista.
+1. Selecione um **[!UICONTROL Conjunto de Dados]** para vincular ao formulário. É aqui que as respostas do formulário serão armazenadas e refletidas. É possível digitar para pesquisar um conjunto de dados específico ou selecioná-lo na lista.
 
    >[!NOTE]
    >
@@ -113,13 +113,13 @@ Todos os formulários existentes são exibidos. Você pode filtrar formulários 
 
 ![](assets/lp_form-list.png)
 
-## Criar um formulário {#create-form}
+## Criar e projetar um formulário {#create-form}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_preset"
 >title="Selecionar uma predefinição"
->abstract="Escolha uma predefinição predefinida que contenha a conexão a ser usada e um conjunto de dados predefinido para seu formulário."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Criação de uma predefinição de formulário"
+>abstract="Escolha uma predefinição que contenha a conexão a ser usada e um conjunto de dados predefinido para o formulário."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Criar uma predefinição de formulário"
 
 Para criar um formulário, siga as etapas abaixo.
 
@@ -211,7 +211,7 @@ Depois de selecionar um atributo de campo ou adicionar um campo personalizado, v
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
 
-### Configurar a página de agradecimento {#thank-you-page}
+### Configure a página de agradecimento {#thank-you-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"

@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2232
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Se você estiver usando ações de entrada, saiba como solucionar problemas dele
 
 ## Verifique se os eventos foram enviados corretamente {#checking-that-events-are-properly-sent}
 
-O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes usando ferramentas como o Postman.
+O ponto de partida de uma jornada é sempre um evento. É possível executar testes usando ferramentas como o Postman.
 
 Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
 
@@ -65,11 +65,11 @@ Se você enviar o evento com êxito, mas não vir nenhuma entrada na jornada, si
 
 Você pode começar a solucionar problemas com as perguntas abaixo:
 
-* Você tem certeza de que a jornada em que você espera o evento de entrada está no modo de teste ou ativa?
+* Tem certeza de que a jornada em que você espera o evento de entrada está no modo de teste ou ativa?
 * Você salvou o evento antes de copiar o payload da pré-visualização de payload?
 * O payload do evento contém uma ID do evento?
 * Você digitou o URL correto?
-* Você seguiu a estrutura de payload das APIs de ingestão de transmissão usando a pré-visualização da estrutura de payload no painel de configuração do evento? Consulte [esta página](../event/about-creating.md#preview-the-payload).
+* Você seguiu a estrutura de payload das APIs de assimilação de streaming usando a pré-visualização da estrutura de payload no painel de configuração do evento? Consulte [esta página](../event/about-creating.md#preview-the-payload).
 * Você usou os pares de valor chave corretos no cabeçalho do evento?
 
   ```
@@ -132,7 +132,7 @@ O relatório de jornada mede o progresso das pessoas físicas dentro de uma jorn
 Veja algumas coisas que devem ser verificadas:
 
 * A interrupção se deve a uma condição que exclui a pessoa? Por exemplo, a condição é &quot;gênero = homem&quot; e a pessoa é uma mulher. Essa verificação pode ser feita por um usuário empresarial se a condição não for muito complexa.
-* A interrupção se deve a uma chamada a uma fonte de dados que não está respondendo? Quando a jornada está em teste, essas informações podem ser vistas nos registros do modo de teste. Quando a jornada é em tempo real, um administrador pode testar chamadas diretas para a fonte de dados e verificar a resposta recebida. Um administrador também pode duplicar a jornada e testá-la.
+* A interrupção se deve a uma chamada a uma fonte de dados que não está respondendo? Quando a jornada estiver em teste, essas informações poderão ser vistas nos registros do modo de teste. Quando a jornada é em tempo real, um administrador pode testar chamadas diretas para a fonte de dados e verificar a resposta recebida. Um administrador também pode duplicar a jornada e testá-la.
 
 ## Eventos descartados devido a uma instância de jornada bloqueada {#max-instance-stack-events-reached}
 

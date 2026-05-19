@@ -369,7 +369,7 @@ Respeite as preferências do cliente evitando a entrega de mensagens durante as 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Otimização**
 

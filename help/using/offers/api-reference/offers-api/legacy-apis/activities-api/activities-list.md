@@ -4,7 +4,7 @@ product: Journey Optimizer
 title: Listar decisões
 description: Uma decisão contém a lógica que informa a seleção de uma oferta.
 feature: Decision Management, API
-badge: label="Legado" type="Informative"
+badge: label="Herdados" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
@@ -25,7 +25,7 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 245
-ht-degree: 13%
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 13%
 
 >[!TIP]
 >
->O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>A decisão, o novo recurso de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e canais de email! [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Uma decisão contém a lógica que informa a seleção de uma oferta.

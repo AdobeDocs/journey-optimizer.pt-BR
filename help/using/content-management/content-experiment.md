@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1962
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Experimento de conteúdo"
->abstract="É possível optar por variar o conteúdo ou o assunto da mensagem para definir vários tratamentos e determinar a melhor combinação para seus públicos-alvo."
+>abstract="Você pode escolher variar o conteúdo da mensagem ou o assunto para definir vários tratamentos e determinar a melhor combinação para seus públicos."
 
 >[!NOTE]
 >
->Antes de começar com o Experimento de conteúdo, verifique se a configuração de relatórios está definida para seus conjuntos de dados personalizados. Saiba mais [nesta seção](../reports/reporting-configuration.md).
+>Antes de começar com o Experimento de conteúdo, verifique se a configuração de relatórios está definida para seus conjuntos de dados personalizados. Saiba mais em [esta seção](../reports/reporting-configuration.md).
 
 O Experimento de conteúdo do Journey Optimizer permite definir vários tratamentos de delivery para medir qual tem melhor desempenho para o público-alvo. Você pode optar por variar o conteúdo ou o assunto do delivery. O público-alvo de interesse é alocado aleatoriamente para cada tratamento para determinar qual funciona melhor em termos da métrica especificada.
 
@@ -76,17 +76,17 @@ O objetivo aqui é ver se os recipients interagirão com o email dependendo do e
 
 1. Crie ou importe seu conteúdo original e personalize-o conforme necessário.
 
-## Configurar o experimento de conteúdo {#configure-experiment}
+## Configurar seu experimento de conteúdo {#configure-experiment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_dimension"
->title="Dimensão"
->abstract="Escolha a dimensão específica a ser rastreada para o seu experimento, como certos cliques ou visualizações de determinadas páginas."
+>title="Dimension"
+>abstract="Escolha a dimensão específica a ser monitorada para o seu Experimento, como cliques ou visualizações específicos de páginas específicas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_success_metric"
->title="Métricas de sucesso"
->abstract="As métricas de sucesso são usadas para controlar e avaliar o tratamento com melhor desempenho em um experimento. Certifique-se de configurar seu conjunto de dados para determinadas métricas antes de usá-lo."
+>title="Métrica de sucesso"
+>abstract="A métrica de sucesso é usada para rastrear e avaliar o tratamento com melhor desempenho em um experimento. Certifique-se de configurar seu conjunto de dados para determinadas métricas antes de usá-lo."
 
 >[!AVAILABILITY]
 >
@@ -267,7 +267,7 @@ Depois de configurar sua experimentação, você pode acompanhar o sucesso do de
 >* Canais de entrada (por exemplo, Web, mensagem no aplicativo, experiência baseada em código) em qualquer jornada ou campanha.
 >* Canais de saída (por exemplo, email, notificação por push, SMS) em campanhas transacionais acionadas por API.
 
-A opção “Dimensionar o vencedor” permite implantar de forma automática ou manual a variação vencedora de um experimento em todo o seu público-alvo. Esse recurso garante que, uma vez determinado o vencedor, você possa ampliar seu alcance e eficácia sem monitorar constantemente o experimento.
+Dimensionar o Vencedor permite implantar automática ou manualmente a variação vencedora de um experimento em todo o seu público-alvo. Esse recurso garante que, uma vez determinado o vencedor, você possa ampliar seu alcance e eficácia sem monitorar constantemente o experimento.
 
 Você pode escolher entre dois modos:
 

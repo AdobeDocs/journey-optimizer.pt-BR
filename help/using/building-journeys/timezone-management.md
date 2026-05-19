@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 378
-ht-degree: 9%
+ht-degree: 23%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"
->title="Jornada fuso horário"
+>title="Fuso horário da jornada"
 >abstract="Selecione o fuso horário da jornada. Ao usar um horário fixo, será definido o mesmo fuso para todas as pessoas que entram na jornada."
 
 
@@ -70,7 +70,7 @@ Para fazer isso, no painel **[!UICONTROL Propriedades de Jornada]**, selecione u
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="Usar fuso horário do perfil"
->abstract="Marque esta opção para usar o fuso horário do perfil em tempo real nas atividades de **Espera** e **Condição**. Se um fuso horário tiver sido definido para um perfil, ele será recuperado e usado na jornada. Caso contrário, o fuso horário é o definido no campo fuso horário acima."
+>abstract="Marque esta opção para usar o fuso horário do perfil em tempo real em atividades de **Espera** e de **Condição**. Se um fuso horário foi definido para um perfil, ele será recuperado e usado na jornada. Caso contrário, o fuso horário será aquele definido no campo de fuso acima."
 
 Se o evento de entrada da jornada tiver um namespace, o que significa que a jornada pode acessar o serviço de Perfil de Cliente em Tempo Real do [!DNL Adobe Experience Platform], talvez você queira usar o fuso horário definido no nível do perfil. Para fazer isso, em **Propriedades**, marque **Usar fuso horário do perfil em esperas e condições**. Essa opção não está marcada por padrão.
 

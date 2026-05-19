@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Integrar ao Marketo Engage
+title: Integrar com o Marketo Engage
 description: Saiba como usar a ação do Marketo Engage
 feature: Journeys, Actions, Custom Actions
 topic: Administration
@@ -31,11 +31,11 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 326
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Integrar ao Marketo Engage {#integrating-with-marketo-engage}
+# Integrar com o Marketo Engage {#integrating-with-marketo-engage}
 
 Embarque em uma jornada de integração perfeita de dados com o Marketo Engage. Uma ação personalizada específica está disponível em suas jornadas para integrar o Adobe Journey Optimizer e o Marketo Engage. Essa ação personalizada oferece suporte à assimilação de dois tipos de dados principais:
 
@@ -74,7 +74,7 @@ Agora você pode usar sua ação personalizada na tela de jornada.
 
 ## Sintaxe da carga útil {#payload-syntax}
 
-### Person
+### Pessoa
 
 ![](assets/payload-person.png)
 

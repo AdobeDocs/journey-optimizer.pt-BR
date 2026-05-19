@@ -40,7 +40,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1767
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Qualificação de público-alvo"
->abstract="Acione a entrada ou a continuação da jornada quando um perfil se qualificar para um público-alvo de [!DNL Adobe Experience Platform] ou sair dele. Recomendado para públicos-alvo de transmissão; use uma atividade Ler público-alvo para cenários em lote."
+>abstract="Acione a entrada ou a continuação da jornada quando um perfil se qualificar para um público-alvo de [!DNL Adobe Experience Platform] ou sair dele. Recomendado para públicos-alvo de transmissão. Use uma atividade Ler público-alvo para cenários em lote."
 
 ## Sobre eventos de qualificação de público-alvo{#about-segment-qualification}
 
@@ -67,14 +67,14 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posteriormente
 >Antes de começar a configurar uma qualificação de Público-alvo, [leia as Medidas de Proteção e as Limitações](#audience-qualification-guardrails).
 
 
-## Configurar a atividade {#configure-segment-qualification}
+## Configure a atividade {#configure-segment-qualification}
 
 Para configurar a atividade **[!UICONTROL Qualificação de público-alvo]**, siga estas etapas:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="Rótulo"
->abstract="Adicione um rótulo opcional para identificar essa atividade nos relatórios e logs do modo de teste."
+>abstract="Adicione um rótulo opcional para identificar a atividade nos relatórios e logs do modo de teste."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
@@ -94,7 +94,7 @@ Para configurar a atividade **[!UICONTROL Qualificação de público-alvo]**, si
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="Política de mesclagem"
->abstract="A política de mesclagem é recuperada automaticamente do público selecionado e aplicada em toda a jornada."
+>abstract="A política de mesclagem é recuperada automaticamente do público-alvo selecionado e aplicada em toda a jornada."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="Saiba mais sobre políticas de mesclagem"
 
 

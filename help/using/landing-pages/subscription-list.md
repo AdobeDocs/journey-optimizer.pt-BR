@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 748
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -124,7 +124,7 @@ Os status possíveis são os seguintes:
 
 Você pode monitorar os impactos da lista de assinaturas por meio de relatórios dedicados. Você pode acessar dois tipos de relatórios:
 
-* Relatório ao vivo da lista de assinaturas
+* Relatório em tempo real da lista de assinaturas
 
   Os relatórios em tempo real, acessíveis a partir da guia Últimas 24 horas, exibem eventos que ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos a partir da ocorrência do evento. [Saiba mais](../reports/subscription-report-live.md)
 

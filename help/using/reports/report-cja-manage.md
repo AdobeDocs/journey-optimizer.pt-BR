@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1441
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -113,7 +113,7 @@ O **Agendar exportação** permite automatizar a entrega de até 10 relatórios 
 
 1. Com base na frequência selecionada, forneça os detalhes de agendamento relevantes, como:
 
-   * Datas iniciais e finais
+   * Datas de início e término
 
    * Intervalo (por exemplo, a cada poucas semanas)
 
@@ -235,7 +235,7 @@ Agora você pode continuar a usar o público recém-criado com uma Jornada ou Ca
 
 ## Gerenciar modelos {#cja-template}
 
-Agora há a opção de aprimorar os relatórios do Journey Optimizer utilizando modelos do Customer Journey Analytics. [Saiba mais sobre o modelo do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+Agora há a opção de aprimorar os relatórios do Journey Optimizer aproveitando os modelos do Customer Journey Analytics. [Saiba mais sobre o modelo do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 Ao acessar seus relatórios, você pode escolher entre dois tipos de modelo na lista suspensa **[!UICONTROL Selecionar um modelo]**:
 

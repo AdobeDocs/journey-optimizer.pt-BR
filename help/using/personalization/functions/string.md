@@ -19,7 +19,7 @@ topic_v2:
 source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
 source-wordcount: 1955
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -81,7 +81,7 @@ A função a seguir combinará a cidade e o país do perfil em uma única sequê
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
 ```
 
-## Contains {#contains}
+## Contém {#contains}
 
 A função `contains` é usada para determinar se uma cadeia de caracteres contém uma subsequência especificada.
 
@@ -160,7 +160,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## Não inicia com{#doesNotStartWith}
+## Não começa com{#doesNotStartWith}
 
 A função `doesNotStartWith` é usada para determinar se uma cadeia de caracteres não inicia com uma subcadeia especificada.
 
@@ -219,7 +219,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 ```
 
 
-## Igual{#equals}
+## Igual a{#equals}
 
 A função `equals` é usada para determinar se uma cadeia de caracteres é igual à cadeia especificada, com distinção entre maiúsculas e minúsculas.
 
@@ -465,7 +465,7 @@ A função a seguir retorna o comprimento do nome da cidade do perfil.
 {%= length(profile.homeAddress.city) %}
 ```
 
-## É como{#like}
+## Curtir{#like}
 
 A função `like` é usada para determinar se uma cadeia de caracteres corresponde a um padrão especificado.
 
@@ -562,7 +562,7 @@ A função `md5` é usada para calcular e retornar o hash md5 de uma cadeia de c
 
 Retorna &quot;5eb63bbbbe01eed093cb22bb8f5acdc3&quot;
 
-## Não é igual a{#notEqualTo}
+## Diferente de{#notEqualTo}
 
 A função `notEqualTo` é usada para determinar se uma cadeia de caracteres não é igual à cadeia especificada.
 
@@ -725,7 +725,7 @@ A função `SHA256` calcula e retorna o hash sha256 de uma cadeia de caracteres.
 
 retorna: `0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d`
 
-## Divisão {#split}
+## Split {#split}
 
 A função `split` é usada para dividir uma cadeia de caracteres por um determinado caractere.
 
@@ -852,7 +852,7 @@ A função `toDateTimeOnly` é usada para converter um valor de argumento em um 
 {%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## Aparar {#trim}
+## Cortar {#trim}
 
 A função **trim** remove todos os espaços em branco do início e do fim de uma cadeia de caracteres.
 

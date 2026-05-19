@@ -4,7 +4,7 @@ product: Journey Optimizer
 title: Criar uma oferta personalizada
 description: Uma oferta personalizada é uma mensagem de marketing personalizável baseada em regras de elegibilidade e restrições.
 feature: Decision Management, API
-badge: label="Legado" type="Informative"
+badge: label="Herdados" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 202
-ht-degree: 19%
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 19%
 
 >[!TIP]
 >
->O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>A decisão, o novo recurso de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e canais de email! [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Uma oferta personalizada é uma mensagem de marketing personalizável baseada em regras de elegibilidade e restrições.
@@ -123,6 +123,6 @@ Uma resposta bem-sucedida retorna informações sobre a oferta personalizada rec
 }
 ```
 
-## Limitações {#limitations}
+## Limitação {#limitations}
 
 Atualmente, as representações de oferta e algumas restrições de oferta não são compatíveis com os fluxos de trabalho móveis [!DNL Experience Edge], por exemplo `Capping`. O valor do campo `Capping` especifica o número de vezes que uma oferta pode ser apresentada entre todos os usuários. Para obter mais detalhes, consulte [Documentação de regras e restrições de qualificação da oferta](../../../../offer-library/creating-personalized-offers.md).

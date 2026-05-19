@@ -8,10 +8,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 9e3d5c09f9a636727c545df5fd9831e075de14f0
+source-git-commit: c4207615ad1fe0bd088801f9e63fee5cd50c19e0
 workflow-type: tm+mt
-source-wordcount: 1605
-ht-degree: 11%
+source-wordcount: 1661
+ht-degree: 10%
 
 ---
 
@@ -37,7 +37,7 @@ Os recursos a seguir são direcionados para esta versão.
 <tbody>
 <tr>
 <td>
-<p>SMS, MMS e RCS agora estão unificados em uma única ação de <strong>Mensagem móvel</strong> no Adobe Journey Optimizer, facilitando o gerenciamento de todos os tipos de mensagens móveis em um único local. Como parte dessa atualização, agora você pode criar mensagens RCS de mídia avançada — incluindo imagens, carrosséis e ações sugeridas — diretamente no Journey Optimizer por meio de uma nova experiência de criação nativa.</p>
+<p>SMS, MMS e RCS agora estão unificados em uma única ação de <strong>Mensagem móvel</strong> no Adobe Journey Optimizer, facilitando o gerenciamento de todos os tipos de mensagens móveis em um único local. Como parte dessa atualização, agora você pode criar mensagens RCS de mídia avançada, incluindo imagens, carrosséis e ações sugeridas, diretamente no Journey Optimizer por meio de uma nova experiência de criação nativa.</p>
 <p>Data de disponibilidade: 19 de maio de 2026</p>
 </td>
 </tr>
@@ -107,7 +107,7 @@ Os recursos a seguir são direcionados para esta versão.
 <tbody>
 <tr>
 <td>
-<p>Agora você pode adicionar <strong>Políticas de decisão</strong> em jornadas e campanhas de correspondência direta. As políticas de decisão são containers para suas ofertas que utilizam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo a ser entregue a cada membro do público-alvo.</p>
+<p>Agora é possível adicionar políticas de decisão a jornadas e campanhas de correspondência direta. As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo para cada membro do público. A decisão de correspondência direta também aceita casos de uso de decisão em lote, permitindo exportar os itens de oferta correspondentes para cada perfil em um determinado público-alvo da Adobe Experience Platform.</p>
 <p>Data de disponibilidade: 19 de maio de 2026</p>
 </td>
 </tr>
@@ -210,7 +210,7 @@ Os recursos a seguir são direcionados para esta versão.
 <tr>
 <td>
 <p>Agora você pode definir sua jornada como <strong>Simulação</strong>. Este modo permite validar sua lógica usando <strong>usuários simulados</strong>. São perfis temporários criados especificamente para a simulação, permitindo que você teste livremente sem precisar gerenciar perfis de teste persistentes na Adobe Experience Platform.</p>
-<p>Anteriormente lançado com Disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (Disponibilidade geral). Com a versão de Disponibilidade geral, agora é possível usar o Journey Agent para gerar usuários e eventos simulados diretamente no menu Simulação.</p>
+<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral). Com a versão de Disponibilidade Geral, agora é possível usar o Journey Agent para gerar usuários e eventos simulados diretamente no menu Simulação.</p>
 <p>Data de disponibilidade: 28 de maio de 2026</p>
 </td>
 </tr>
@@ -280,6 +280,12 @@ As seguintes melhorias estão direcionadas para esta versão.
   Availability date: May 19, 2026
 -->
 
+#### Configuração
+
+* **Conjunto de Dados de Evento de Feedback de Mensagem sendo movido para assimilação em lote** - O `AJO Message Feedback Event Dataset` está passando do modo de streaming para o modo de assimilação em lote. Essa alteração garante que a assimilação de dados não exceda os limites de assimilação de streaming. Se você usar esse conjunto de dados nos relatórios do Customer Journey Analytics ou executar consultas nele, espere um aumento na latência de dados de até 2 horas no futuro.
+
+  Data de disponibilidade: 19 de maio de 2026
+
 #### Tomada de decisão
 
 * **Fragmentos de conteúdo do Adobe Experience Manager na Decisão** - Agora é possível mapear fragmentos de conteúdo do Adobe Experience Manager para itens de decisão na Decisão e aproveitá-los nas políticas de decisão para fornecer o fragmento certo ao cliente certo, na hora certa.
@@ -291,7 +297,7 @@ As seguintes melhorias estão direcionadas para esta versão.
 
 #### Designer de email
 
-* **Rich text em campos de fragmento editáveis** - Agora é possível adicionar rich text a fragmentos personalizáveis usados no conteúdo de emails. Por exemplo, ao usar o componente de Texto como um campo editável no Designer de email, você pode formatar o conteúdo diretamente (por exemplo, negrito e itálico) e inserir hiperlinks.
+* **Rich text em campos de fragmento editáveis** - Agora é possível adicionar rich text a fragmentos personalizáveis usados no seu conteúdo de email. Por exemplo, ao usar o componente de Texto como um campo editável no Designer de email, você pode formatar o conteúdo diretamente (por exemplo, negrito e itálico) e inserir hiperlinks.
 
 
   Data de disponibilidade: 19 de maio de 2026
@@ -338,11 +344,13 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
 
 #### Integrações
 
-* **A personalização de tempo aberto com timer de contagem regressiva usando o Dynamic Media**- integração entre o Journey Optimizer e o Adobe Experience Manager Dynamic Media permite a personalização de tempo aberto para modelos do Dynamic Media, desbloqueando casos de uso hiperpersonalizados. Os clientes podem criar e publicar modelos personalizados no Adobe Experience Manager e usá-los no Journey Optimizer, com dados renderizados no tempo de abertura.
+* **Acesso ao repositório entre organizações no Seletor de Assets** - Agora é possível selecionar ativos facilmente de repositórios em várias organizações diretamente no Seletor de ativos do Adobe Experience Manager.
+<!--
+* **Open-time personalization with countdown timer using Dynamic Media**- Journey Optimizer and Adobe Experience Manager Dynamic Media integration enables open-time personalization for Dynamic Media templates, unlocking hyper-personalized use cases. Customers can create and publish personalized templates in Adobe Experience Manager and use them in Journey Optimizer, with data rendered at open time.
 
 
-  Data de disponibilidade: 19 de maio de 2026
-
+  Availability date: May 19, 2026
+-->
 
 #### Campanhas orquestradas
 

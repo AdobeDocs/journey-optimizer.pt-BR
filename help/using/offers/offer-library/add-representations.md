@@ -3,7 +3,7 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Adicionar representações a uma oferta
 description: Saiba como adicionar representações às suas ofertas
-badge: label="Legado" type="Informative"
+badge: label="Herdados" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 900
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -36,12 +36,12 @@ ht-degree: 6%
 
 >[!TIP]
 >
->O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
+>A decisão, o novo recurso de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e canais de email! [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="Representações"
->abstract="Adicione representações para definir onde a oferta será exibida na mensagem. Quanto mais representações uma oferta tiver, mais oportunidades haverá para usar a oferta em diferentes contextos de posicionamento."
+>abstract="Adicione representações para definir onde sua oferta será exibida na mensagem. Quanto mais representações uma oferta tiver, mais oportunidades existem para usá-la em diferentes contextos de posicionamento."
 
 Uma oferta pode ser exibida em diferentes locais em uma mensagem: em um banner superior com uma imagem, como texto em um parágrafo, como um bloco HTML etc. Quanto mais representações uma oferta tiver, mais oportunidades existem para usá-la em diferentes contextos de posicionamento.
 

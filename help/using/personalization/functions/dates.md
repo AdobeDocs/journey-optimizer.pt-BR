@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
 source-wordcount: 1762
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
@@ -321,7 +321,7 @@ Our team will get back to you within 24 hours.
 {%/if%}
 ```
 
-| Day | Valor retornado |
+| Dia | Valor retornado |
 |-----|----------------|
 | Segunda-feira | 1 |
 | Terça-feira | 2 |
@@ -329,7 +329,7 @@ Our team will get back to you within 24 hours.
 | Quinta-feira | 4 |
 | Sexta-feira | 5 |
 | Sábado | 6 |
-| Domingo | 7 |
+| domingo | 7 |
 
 +++
 

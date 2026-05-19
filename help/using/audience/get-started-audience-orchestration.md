@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1066
-ht-degree: 0%
+ht-degree: 50%
 
 ---
 
@@ -37,62 +37,62 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Criar uma composição"
->abstract="Crie um fluxo de trabalho de composição para combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo."
+>abstract="Crie um fluxo de trabalho de composição para combinar públicos-alvo da Adobe Experience Platform em uma tela visual e usar várias atividades (divisão, exclusão etc.) para criar novos públicos-alvo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
->title="Publicar seu público"
->abstract="Publique sua composição para salvar o(s) público(s) resultante(s) no Adobe Experience Platform."
+>title="Publicar o público-alvo"
+>abstract="Publique a composição para salvar os públicos-alvos resultantes na Adobe Experience Platform."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
->title="Atividade de público"
->abstract="A atividade de Público-alvo permite incluir em sua composição perfis adicionais pertencentes a um público-alvo existente."
+>title="Atividade de público-alvo"
+>abstract="A atividade de público-alvo permite incluir em sua composição perfis adicionais pertencentes a um público-alvo existente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
->title="Mesclar tipos"
->abstract="Especifique como os perfis dos públicos selecionados devem ser mesclados."
+>title="Tipos de mesclagem"
+>abstract="Especifique como os perfis dos públicos-alvos selecionados devem ser mesclados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="Excluir tipo"
->abstract="Use o tipo Excluir público-alvo para excluir perfis que pertencem a um público-alvo existente. Excluir usando o tipo de atributo permite excluir perfis com base em um atributo específico."
+>abstract="Use o tipo Excluir público-alvo para excluir perfis pertencentes a um público-alvo existente. O tipo Excluir usando atributo permite excluir perfis com base em um atributo específico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
->title="Excluir atividade"
->abstract="A atividade Excluir permite excluir perfis de sua composição selecionando um público-alvo existente ou usando uma regra."
+>title="Atividade Excluir"
+>abstract="A atividade Excluir permite excluir perfis de sua composição ao selecionar um público-alvo existente ou usar uma regra."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
->title="Enriquecer atividade"
->abstract="Use a atividade Enrich para enriquecer seu público-alvo com atributos adicionais provenientes de conjuntos de dados da Adobe Experience Platform. Por exemplo, você pode adicionar informações relacionadas ao produto comprado como nome, preço ou ID do fabricante e aproveitar essas informações para personalizar os deliveries enviados ao público."
+>title="Atividade Enriquecer"
+>abstract="Use a atividade Enriquecimento para enriquecer seu público-alvo com atributos adicionais provenientes de conjuntos de dados da Adobe Experience Platform. Por exemplo, é possível adicionar informações relacionadas ao produto comprado, como nome, preço ou ID do fabricante e aproveitar essas informações para personalizar as entregas enviadas ao público-alvo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
 >title="Conjunto de dados de enriquecimento"
->abstract="Selecione o conjunto de dados de enriquecimento que contém os dados que você deseja associar ao público."
+>abstract="Selecione o conjunto de dados de enriquecimento que contém os dados que você deseja associar ao público-alvo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_criteria"
 >title="Critérios de enriquecimento"
->abstract="Selecione os campos a serem usados como chave de reconciliação entre o conjunto de dados de origem, ou seja, o público-alvo e o conjunto de dados de enriquecimento."
+>abstract="Selecione os campos a serem usados como chave de reconciliação entre o conjunto de dados de origem, ou seja, o público-alvo, e o conjunto de dados de enriquecimento."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="Atributos de enriquecimento"
->abstract="Selecione um ou vários atributos do conjunto de dados de enriquecimento para associar ao público. Depois que a composição é publicada, esses atributos são associados ao público-alvo e podem ser aproveitados em campanhas do Journey Optimizer para personalizar os deliveries."
+>abstract="Selecione um ou vários atributos do conjunto de dados de enriquecimento para associar ao público-alvo. Após a publicação da composição, esses atributos são associados ao público-alvo e podem ser aproveitados em campanhas do Journey Optimizer para personalizar entregas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
 >title="Atividade de classificação"
->abstract="A atividade Rank permite classificar perfis com base em um atributo específico e incluí-los na composição. Por exemplo, inclua os 50 perfis com a maior quantidade de pontos de fidelidade."
+>abstract="A atividade Classificação permite classificar perfis com base em um atributo específico e incluí-los na composição. Por exemplo, inclua os 50 perfis com a maior quantidade de pontos de fidelidade."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="Adicionar limite de perfil"
->abstract="Ative essa opção para especificar um número máximo de perfis a serem incluídos na composição."
+>abstract="Ative essa opção para especificar um número máximo de perfis para incluir na composição."
 
 <!--
  [!CONTEXTUALHELP]
@@ -103,22 +103,22 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
->title="Dividir atividade"
->abstract="A atividade Split permite dividir a composição em vários caminhos. Ao publicar a composição, um público-alvo será salvo no Adobe Experience Platform para cada caminho."
+>title="Atividade de divisão"
+>abstract="A atividade de divisão permite dividir a composição em vários caminhos. Ao publicar a composição, um público-alvo será salvo na Adobe Experience Platform para cada caminho."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
 >title="Tipo de divisão"
->abstract="Use o tipo de divisão Porcentagem para dividir perfis aleatoriamente em vários caminhos. O tipo de divisão Atributo permite dividir perfis com base em um atributo específico."
+>abstract="Use o tipo de divisão de porcentagem para dividir perfis aleatoriamente em vários caminhos. O tipo de divisão de atributo permite dividir perfis com base em um atributo específico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
 >title="Outros perfis"
->abstract="Ative esta opção para criar um caminho adicional com os perfis restantes que não correspondem a nenhuma das condições especificadas nos outros caminhos."
+>abstract="Ative essa opção para criar um caminho adicional com os perfis restantes que não correspondem a nenhuma das condições especificadas nos outros caminhos."
 
 >[!BEGINSHADEBOX]
 
-Esta documentação fornece informações detalhadas sobre como trabalhar com a composição de público no Adobe Journey Optimizer. Se você for apenas um cliente do Perfil do cliente em tempo real e não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=pt-BR){target="_blank"}.
+Esta documentação fornece informações detalhadas sobre como trabalhar com a composição de público no Adobe Journey Optimizer. Se você for um cliente somente do Perfil do cliente em tempo real e não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=pt-BR){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -133,15 +133,15 @@ Depois de concluído, os **públicos-alvo resultantes** são salvos novamente na
 >
 >* Os atributos de enriquecimento ainda não estão integrados ao serviço de aplicação de políticas. Portanto, quaisquer rótulos de uso de dados que você aplicar aos atributos de enriquecimento não serão aplicados em campanhas ou jornadas do Journey Optimizer.
 
-A composição de público-alvo pode ser acessada no menu **[!UICONTROL Públicos-alvo]** do Adobe Journey Optimizer:
+A composição de público-alvo é acessível no menu **[!UICONTROL Públicos-alvo]** do Adobe Journey Optimizer:
 
 ![](assets/audiences-browse.png)
 
-* A guia **[!UICONTROL Visão geral]** fornece um painel dedicado com métricas principais relacionadas aos dados de público-alvo de sua organização. Para saber mais, consulte o [guia de Painéis do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=pt-BR).
+* A guia **[!UICONTROL Visão geral]** fornece um painel dedicado com métricas principais relacionadas aos dados de público-alvo da sua organização. Para saber mais, consulte [Guia de painéis da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=pt-BR).
 
-* A guia **[!UICONTROL Procurar]** lista todos os públicos existentes armazenados no Adobe Experience Platform.
+* A guia **[!UICONTROL Procurar]** lista todos os públicos-alvo existentes armazenados na Adobe Experience Platform.
 
-* A guia **[!UICONTROL Composições]** permite criar fluxos de trabalho de composição em que você pode combinar e organizar públicos para criar novos.
+* A guia **[!UICONTROL Composições]** permite criar fluxos de trabalho de composição em que é possível combinar e organizar públicos-alvo para criar novos.
 
 ## Criar um fluxo de trabalho de composição {#create}
 

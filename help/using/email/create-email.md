@@ -36,7 +36,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1196
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Criação de email"
->abstract="Defina o assunto do email e abra o Designer de email para criar seu conteúdo."
+>abstract="Defina sua linha de assunto do email e abra o Designer de email para criar o conteúdo do email."
 
 ## Adicionar uma ação de email {#email-action}
 
@@ -115,7 +115,7 @@ Para obter mais informações sobre como criar, configurar e ativar uma campanha
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="Configurar conteúdo de email"
->abstract="Crie o conteúdo do seu email. Defina o assunto e aproveite o Designer de email para criar e personalizar o corpo do email."
+>abstract="Crie o conteúdo do seu email. Defina o assunto e utilize o Designer de email para criar e personalizar o corpo do email."
 
 Depois de adicionar a ação de email à sua jornada ou campanha, é necessário definir o conteúdo do email, incluindo a linha de assunto, as informações do remetente e o corpo do email usando o Designer de email. Siga estas etapas:
 
@@ -125,13 +125,13 @@ Depois de adicionar a ação de email à sua jornada ou campanha, é necessário
 
 1. Ative a opção **[!UICONTROL Habilitar a decisão]** se desejar adicionar políticas de decisão em seu email.
 
-   As políticas de decisão são containers para suas ofertas que utilizam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo a ser entregue a cada membro do público-alvo. [Saiba como adicionar uma política de decisão em um email](../experience-decisioning/create-decision.md#create-decision)
+   As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo a ser entregue para cada membro do público. [Saiba como adicionar uma política de decisão em um email](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
    >[!AVAILABILITY]
    >
-   >Por enquanto, a criação de políticas de decisão por e-mail está disponível em Disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
+   >Por enquanto, a criação de políticas de decisão por e-mail está disponível em Disponibilidade limitada. Entre em contato com seu representante da Adobe para obter acesso.
 
 1. Na seção **[!UICONTROL Cabeçalho]**, verifique os campos **[!UICONTROL Do nome]**, **[!UICONTROL Do email]** e **[!UICONTROL Cco]**. Eles são configurados na configuração de email selecionada. [Saiba mais](email-settings.md) <!--check if same for journey-->
 
@@ -201,7 +201,7 @@ Dois tipos de alertas podem ocorrer:
 
 Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste para pré-visualizá-la, enviar provas e controlar sua renderização em clientes populares de desktop, dispositivos móveis e baseados na Web. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
 
-Você também pode validar a qualidade do seu conteúdo para avaliar a legibilidade, a eficácia e a coesão do conteúdo. [Saiba mais sobre validação da qualidade do conteúdo](../content-management/brands-score.md#validate-quality)
+Você também pode validar a qualidade do seu conteúdo para avaliar a legibilidade, a eficácia e a coesão do conteúdo. [Saiba mais sobre a validação de qualidade do conteúdo](../content-management/brands-score.md#validate-quality)
 
 >[!NOTE]
 >

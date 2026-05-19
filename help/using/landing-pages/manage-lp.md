@@ -26,11 +26,11 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 442
-ht-degree: 9%
+ht-degree: 0%
 
 ---
 
-# Gerenciar páginas de destino {#manage-lp}
+# Gerenciar suas páginas de aterrissagem {#manage-lp}
 
 ## Acessar páginas de destino {#access-landing-pages}
 
@@ -72,8 +72,8 @@ Nessa lista, você pode clicar nos três pontos ao lado de uma landing page e se
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_folders"
->title="Organizar suas páginas de destino em pastas"
->abstract="Use pastas para categorizar e gerenciar as páginas de destino de acordo com as necessidades da organização."
+>title="Organizar suas páginas de aterrissagem em pastas"
+>abstract="Use pastas para categorizar e gerenciar suas landing pages de acordo com as necessidades da organização."
 
 Para navegar facilmente pelas landing pages, você pode usar pastas para organizá-las com mais eficiência em uma hierarquia estruturada. Isso permite categorizar e gerenciar os itens de acordo com as necessidades da organização.
 

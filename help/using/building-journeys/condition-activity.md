@@ -30,7 +30,7 @@ level_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1863
-ht-degree: 16%
+ht-degree: 0%
 
 ---
 
@@ -38,14 +38,14 @@ ht-degree: 16%
 
 Use a atividade de condição para rotear perfis para caminhos diferentes com base em regras e dados.
 
-## Adicione uma atividade de condição {#add-condition-activity}
+## Adicionar uma atividade de condição {#add-condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Atividade de condição"
->abstract="A Atividade de **condição** permite definir como as pessoas avançam pela sua jornada criando vários caminhos com base em critérios específicos. Também é possível configurar um caminho alternativo para lidar com tempos-limite ou erros, garantindo uma experiência contínua."
+>abstract="A atividade **Condição** permite definir como as pessoas avançam pela sua jornada criando vários caminhos com base em critérios específicos. Você também pode configurar um caminho alternativo para lidar com tempos limite ou erros, garantindo uma experiência contínua."
 
-A Atividade de **condição** permite definir como as pessoas avançam pela sua jornada criando vários caminhos com base em critérios específicos. Também é possível configurar um caminho alternativo para lidar com tempos-limite ou erros, garantindo uma experiência contínua.
+A atividade **Condição** permite definir como as pessoas avançam pela sua jornada criando vários caminhos com base em critérios específicos. Você também pode configurar um caminho alternativo para lidar com tempos limite ou erros, garantindo uma experiência contínua.
 
 ![Atividade de condição na tela de jornada com várias opções de caminho](assets/journey49.png)
 
@@ -71,8 +71,8 @@ Você também pode basear uma condição em associação de público-alvo. Consu
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
->title="Sobre o editor de expressão simples"
->abstract="O modo editor de expressão simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os elementos diferentes, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível."
+>title="Sobre o editor de expressões simples"
+>abstract="O modo do editor de expressões simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível."
 
 Ao usar várias condições em uma jornada, você pode definir rótulos para cada uma delas para identificá-las mais facilmente.
 
@@ -88,10 +88,10 @@ Vejamos duas condições de caminho: &quot;A pessoa é um VIP&quot; e &quot;A pe
 
 Você pode criar outro caminho para públicos que não estejam qualificados para as condições definidas verificando **[!UICONTROL Mostrar caminho para casos diferentes dos mencionados acima]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão de porcentagem](#percentage_split).
 
-O modo simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os elementos diferentes, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
+O modo simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
 
 * AND: uma interseção de dois critérios. Somente os elementos correspondentes a todos os critérios são considerados.
-* OR: uma união de dois critérios. Os elementos correspondentes a pelo menos um dos critérios são considerados.
+* OR: uma união de dois critérios. Os elementos correspondentes a pelo menos um dos dois critérios são considerados.
 
 ![Editor de expressão mostrando a seleção de campo e os operadores lógicos AND](assets/journey64.png)
 
@@ -104,7 +104,7 @@ Se você estiver usando o [[!DNL Adobe Experience Platform] Serviço de segmenta
 
 
 
-A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcar a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
+Quando ocorre um erro em uma ação ou condição, a jornada de um indivíduo é interrompida. A única maneira de fazê-lo continuar é marcar a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
 No editor simples, você também encontrará a categoria Propriedades da Jornada, abaixo das categorias de evento e fonte de dados. Essa categoria contém campos técnicos relacionados à jornada para um determinado perfil. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados. [Saiba mais](expression/journey-properties.md)
 
@@ -132,7 +132,7 @@ Use uma **[!UICONTROL Condição de tempo]** para executar ações diferentes de
 
 >[!NOTE]
 >
->* O fuso horário não é específico de uma condição e é definido no nível da jornada nas propriedades da jornada. Saiba mais [nesta página](../building-journeys/timezone-management.md).
+>* O fuso horário não é específico de uma condição e é definido no nível da jornada nas propriedades da jornada. Saiba mais sobre [esta página](../building-journeys/timezone-management.md).
 >
 >* Por padrão, a **[!UICONTROL Condição de tempo]** é definida por hora, de 00:00 a 12:00.
 

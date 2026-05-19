@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
+source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
 workflow-type: tm+mt
-source-wordcount: '3324'
+source-wordcount: '3326'
 ht-degree: 97%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 97%
 + [Documentação do Journey Optimizer](ajo-home.md)
 + Novidades {#whats-new}
    + [Ciclo da lançamento](using/rn/releases.md)
-   + {hide-from-toc}[Notas de versão antecipadas](using/rn/e-release-notes.md)
+   + [Notas de pré-lançamento](using/rn/e-release-notes.md)
    + [Notas de versão mais recentes](using/rn/release-notes.md)
    + Notas de versão anteriores {#previous-rn-new}
       + {hide-from-toc}[Notas de versão anteriores](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -105,6 +105,7 @@ ht-degree: 97%
    + Criar expressões {#building-advanced-conditions-journeys}
       + [Criar expressões](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [Trabalhar com o editor de expressão avançado](using/building-journeys/expression/expressionadvanced.md)
+      + {hide-from-toc}[Assistente de expressão](using/building-journeys/expression/expression-agent.md)
       + Sintaxe {#syntax}
          + [Sintaxe](/help/rp_landing_pages/syntax-landing-page.md)
          + [Sintaxe do editor de expressão avançado](using/building-journeys/expression/generalities.md)
@@ -277,19 +278,19 @@ ht-degree: 97%
       + [Introdução a emails](using/email/get-started-email.md)
       + [Criar um email](using/email/create-email.md)
       + Projetar conteúdo de email {#design-email}
-         + [Projetar conteúdo de email](/help/rp_landing_pages/design-email-landing-page.md)
+         + {hide-from-toc}[Projetar conteúdo de email](/help/rp_landing_pages/design-email-landing-page.md)
          + {hide-from-toc}[Projetar conteúdo da mensagem](using/start/message-content-design.md)
          + [Introdução ao design de email](using/email/get-started-email-design.md)
          + Começar a criar conteúdo {#start-creating-content}
-            + [Começar a criar conteúdo](/help/rp_landing_pages/start-creating-content-landing-page.md)
+            + {hide-from-toc}[Começar a criar conteúdo](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [Crie um conteúdo do zero](using/email/content-from-scratch.md)
             + [Importar seu conteúdo](using/email/existing-content.md)
             + [Programar seu próprio conteúdo](using/email/code-content.md)
             + [Usar modelos de email](using/email/use-email-templates.md)
             + [Utilizar temas de email](using/email/apply-email-themes.md)
             + [Anexar arquivos PDF a emails](using/email/pdf-attachments.md)
-         + Projetar o conteúdo {#add-content}
-            + [Projetar o seu conteúdo](/help/rp_landing_pages/add-content-landing-page.md)
+         + Criar conteúdo {#add-content}
+            + {hide-from-toc}[Projetar o conteúdo](/help/rp_landing_pages/add-content-landing-page.md)
             + [Usar componentes de conteúdo](using/email/content-components.md)
             + [Aproveitar fragmentos visuais](using/email/use-visual-fragments.md)
             + [Adicionar links e rastrear mensagens](using/email/message-tracking.md)
@@ -300,7 +301,7 @@ ht-degree: 97%
             + [Adicionar metadados](using/email/email-metadata.md)
             + [Editar com o editor avançado de HTML](using/email/email-expert-mode.md)
          + Editar estilo {#edit-style}
-            + [Editar estilo](/help/rp_landing_pages/edit-style-landing-page.md)
+            + {hide-from-toc}[Editar estilo](/help/rp_landing_pages/edit-style-landing-page.md)
             + [Introdução ao estilo de email](using/email/get-started-email-style.md)
             + [Editar configurações de fundo](using/email/backgrounds.md)
             + [Ajustar o alinhamento vertical e o preenchimento](using/email/alignment-and-padding.md)
@@ -308,16 +309,16 @@ ht-degree: 97%
             + [Adicionar CSS personalizado](using/email/custom-css.md)
             + [Gerenciar conteúdo no modo escuro](using/email/dark-mode.md)
          + [Criar conteúdo acessível](using/email/accessible-content.md)
-      + [Gerenciar recusa de email](using/email/email-opt-out.md)
       + Configurar canal de email {#configure-email}
-         + [Configurar canal de email](/help/rp_landing_pages/configure-email-landing-page.md)
+         + {hide-from-toc}[Configurar o canal de email](/help/rp_landing_pages/configure-email-landing-page.md)
          + [Introdução à configuração de email](using/email/get-started-email-config.md)
          + [Definir a configuração de email](using/email/email-settings.md)
          + [Habilitar cancelamento de assinatura na lista](using/email/list-unsubscribe.md)
          + [Parâmetros de cabeçalho](using/email/header-parameters.md)
          + [Rastreamento de URL](using/email/url-tracking.md)
          + [Personalizar configurações de email](using/email/surface-personalization.md)
-         + [Configurar deeplinks em emails](using/email/deeplinks.md)
+      + [Usar e configurar deeplinks](using/email/deeplinks.md)
+      + [Gerenciar recusa de email](using/email/email-opt-out.md)
    + Canal no aplicativo {#in-app}
       + [Canal no aplicativo](/help/rp_landing_pages/in-app-landing-page.md)
       + [Introdução ao canal “In-app”](using/in-app/get-started-in-app.md)
@@ -994,3 +995,4 @@ ht-degree: 97%
       + [Gerencie as preferências dos clientes](using/action/preference-center.md)
    + [Governança de dados](using/action/action-privacy.md)
    + [Configurar e gerir chaves gerenciadas pelo cliente](using/privacy/cmk.md)
+

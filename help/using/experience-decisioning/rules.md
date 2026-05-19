@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1106
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="Criar regras"
->abstract="Você pode criar dois tipos de regras: **regras de decisão** que podem ser usadas em itens de decisão ou estratégias de seleção, para controlar quais itens devem ser apresentados a qual público-alvo, ou **regras de direcionamento** para determinar segmentos específicos de público-alvo qualificados para receber conteúdo personalizado ou para inserir um caminho de jornada específico.<br/><br/>Ao criar uma regra de decisão, você pode selecionar **[!UICONTROL Habilitar pesquisa de conjunto de dados]** para usar os dados do Adobe Experience Platform. Isso permite definir critérios de elegibilidade com base em atributos dinâmicos e externos, garantindo que os itens de decisão sejam exibidos somente quando forem relevantes."
+>abstract="É possível criar dois tipos de regras: **regras de decisão**, que podem ser usadas em itens de decisão ou estratégias de seleção para controlar quais itens devem ser apresentados a qual público-alvo, ou **regras de direcionamento**, que determinam os segmentos específicos de público-alvo qualificados para receber conteúdo personalizado ou entrar em um caminho de jornada específico.<br/><br/>Ao criar uma regra de decisão, é possível selecionar **[!UICONTROL Habilitar pesquisa de conjunto de dados]** para usar os dados do Adobe Experience Platform. Isso permite definir critérios de elegibilidade com base em atributos dinâmicos e externos, garantindo que os itens de decisão sejam exibidos somente quando forem relevantes."
 
 ## Sobre regras {#about}
 

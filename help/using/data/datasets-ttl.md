@@ -30,13 +30,13 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1126
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
-# Proteções de TTL (Time-to-live) dos conjuntos de dados {#ttl-guardrail}
+# Medidas de proteção de tempo de vida (TTL) dos conjuntos de dados {#ttl-guardrail}
 
-A partir de fevereiro de 2025, uma garantia de TTL (time-to-live) será implantada em conjuntos de dados gerados pelo sistema da Journey Optimizer em **novas sandboxes e novas organizações** da seguinte maneira:
+A partir de fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer para **novas sandboxes e organizações** da seguinte maneira:
 
 * 90 dias para dados na loja de perfis,
 * 13 meses para dados no data lake.
@@ -63,7 +63,7 @@ A tabela abaixo lista todos os conjuntos de dados afetados e seu respectivo Temp
 
 Você encontrará abaixo Perguntas frequentes sobre conjuntos de dados Tempo de vida (TTL).
 
-Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer sua pergunta ou conecte-se com a [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
+Precisa de mais detalhes? Use as opções de feedback na parte inferior desta página para fazer a pergunta ou conecte-se à [comunidade Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}.
 
 +++Quais tipos de conjuntos de dados estão sujeitos ao TTL?
 

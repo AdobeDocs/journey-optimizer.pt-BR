@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
+source-git-commit: ec8cf345e0860d8cc1ca9d8b4f76a9cb46a878fe
 workflow-type: tm+mt
-source-wordcount: 2578
-ht-degree: 82%
+source-wordcount: 2770
+ht-degree: 74%
 
 ---
 
@@ -50,8 +50,13 @@ Devido a esse modelo, as notas de versão são atualizadas entre as versões men
 
 O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
+>[!NOTE]
+>
+>Quer uma prévia do que está por vir? Confira as [notas de pré-lançamento](e-release-notes.md) para ver os recursos futuros antes de eles serem lançados oficialmente.
+
 ## Atualizações de maio de 2026 {#may-26-rn}
 
+Os seguintes recursos e melhorias foram lançados em maio de 2026.
 
 <table>
 <thead>
@@ -72,7 +77,6 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -148,6 +152,8 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ### Aprimoramentos {#may-26-improv}
 
+As seguintes melhorias também foram lançadas em maio de 2026.
+
 #### Tomada de decisão
 
 * **APIs de fluxo de trabalho de migração de decisão** - O contrato de API para criação de análise de dependência e fluxos de trabalho de migração foi atualizado: passe **`request-level`** como **parâmetro de consulta** na URL de solicitação (`sandbox`, `offer` ou `decision`). O nível de solicitação não deve mais ser enviado no corpo JSON. [Leia mais](../experience-decisioning/decisioning-migration-api.md)
@@ -172,6 +178,27 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 * **Suporte e rastreamento de botões do WhatsApp** - Os modelos do WhatsApp agora oferecem suporte para **Resposta rápida**, **Call to action - URL** e **Call to action - phone**, **Não há suporte para**. O Journey Optimizer envia botões e rastreia interações compatíveis junto com seus outros relatórios de canal.
 
+* **Dados de contexto do canal do WhatsApp** - O Journey Optimizer agora captura dados adicionais de interação retornados do canal do WhatsApp e os armazena no **Conjunto de Dados do AJO EmailTrackingExperienceEvent** no grupo de campos `whatsAppChannelContext`.
+
+  +++ Os campos a seguir são capturados e podem ser usados para construir públicos e analisar o engajamento do WhatsApp
+
+   * **`messageType`** - Tipo de mensagem do WhatsApp (ex: `templateBased`, `response`)
+   * **`inboundMessage`** - Conteúdo de resposta de entrada (por exemplo, `stop`, `start`, `subscribe`)
+   * **`inboundNumber`** - ID do remetente em que a mensagem de entrada foi recebida
+   * **`channelType`** - Categoria de canal (`Utility`, `Marketing` ou `Promotional`)
+   * **`profileNumber`** - Número de telefone do qual a mensagem de entrada foi recebida
+   * **`origTimestamp`** - Carimbo de data e hora original do Meta / WhatsApp
+   * **`status`** - Status de entrega incluindo feedback de provedor padronizado (`sent`, `delivered`, `bounce`, `error`, `delay`, `duplicate`, `denylist`, `exclude` ou `unknown`) e a mensagem de status de provedor bruto
+   * **`reactionEvent`** - Conteúdo da resposta do usuário: emoji para reações ou texto da mensagem para respostas a uma mensagem específica
+   * **`reactionMessageID`** - ID da mensagem original que está sendo respondida
+   * **`reactionActionName`** - Tipo de ação de resposta (`react`, `unreact` ou `reply`)
+   * **`interactiveSelectedTitle`** - Título selecionado pelo usuário de uma mensagem interativa do WhatsApp
+   * **`interactiveType`** - Tipo de mensagem interativa (`list reply`, `button reply` ou `button`)
+   * **`interactiveSelectedDescription`** - Descrição da opção interativa do WhatsApp selecionada
+   * **`interactiveSelectedID`** - ID da opção selecionada do WhatsApp
+
+  +++
+
 <!-- 
 ## Coming soon {#coming-soon}
 
@@ -182,17 +209,12 @@ The following capabilities and enhancements are scheduled for release in the nex
 
 ## Notas de versão de abril de 2026 {#april-26-rn}
 
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
--->
-
-Os novos recursos e aprimoramentos lançados no início de abril são anunciados com a data de disponibilidade.
 
 **Data de lançamento**: 28 a 29 de abril de 2026
 
 ### Novos recursos {#april-26-features}
+
+Os recursos a seguir foram lançados em abril de 2026.
 
 <table>
 <thead>
@@ -368,7 +390,7 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 <tbody>
 <tr>
 <td>
-<p>Use o novo nó <strong>Otimizar</strong> para executar testes A/B ou experimentos de bandido de vários braços para determinar o melhor caminho para atingir seus KPIs centrados no negócio. Essa ferramenta permite testar, variar e personalizar as comunicações, o sequenciamento e o momento para melhor alcançar os clientes.
+<p>Use o novo nó <strong>Otimizar</strong> para executar testes A/B ou experimentos de bandido de vários braços para determinar o melhor caminho para atingir seus KPIs centrados no negócio. Essa ferramenta permite testar, variar e personalizar as comunicações, a sequência e o tempo para melhor alcançar seus clientes.
 </p>
 <p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Como parte da Disponibilidade geral, esta versão introduz a seleção <strong>tipo de experimento</strong> (A/B ou bandido de vários braços) e <strong>Dimensionar o vencedor</strong> para jornadas unitárias.</p>
@@ -419,6 +441,8 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 
 ### Aprimoramentos {#april-26-improv}
 
+As seguintes melhorias também foram lançadas em abril de 2026.
+
 #### IA
 
 <!--
@@ -449,7 +473,7 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 
 #### Integrações do Adobe Experience Manager
 
-* **Suporte à variação de fragmento de conteúdo do Adobe Experience Manager**: você pode selecionar **variações de fragmento de conteúdo** (por exemplo, variantes de idioma ou canal) ao inserir fragmentos de conteúdo do Adobe Experience Manager, com manipulação aprimorada para localidade e cenários multilíngues. [Leia mais](../integrations/aem-fragments.md#aem-variations)
+* **Suporte à Variação de Fragmento de Conteúdo do Adobe Experience Manager** - Você pode selecionar **Variações de Fragmento de Conteúdo** (por exemplo, variantes de idioma ou canal) ao inserir Fragmentos de Conteúdo do Adobe Experience Manager, com manipulação aprimorada para cenários locais e multilíngues. [Leia mais](../integrations/aem-fragments.md#aem-variations)
 
   Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).
 
@@ -493,4 +517,3 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 
 * **Variáveis globais em Campanhas orquestradas**: as Campanhas orquestradas agora oferecem suporte a variáveis globais que podem ser definidas uma vez e reutilizadas em todas as atividades de um fluxo de trabalho, simplificando a configuração e garantindo a consistência em valores dinâmicos, expressões e personalização de conteúdo. [Leia mais](../orchestrated/global-variables.md)
 * **Aprimoramentos do Modelador de dados**: os esquemas relacionais orquestrados agora oferecem suporte a chaves compostas que abrangem vários campos. O carregamento de um esquema de um arquivo DDL também traz listas discriminadas, e o carregamento de um arquivo DDL ou do Excel cria automaticamente relações compostas entre as tabelas. Na visualização de relacionamento da entidade, os links compostos agora exibem o conjunto completo de pares de campos entre tabelas depois que um arquivo é carregado. [Leia mais](../orchestrated/gs-schemas.md)
-

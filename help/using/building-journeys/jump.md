@@ -32,20 +32,20 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1405
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
-# Mudar de uma jornada para outra {#jump}
+# Pular de uma jornada para outra {#jump}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"
->title="Atividade Salto"
->abstract="A ação “Saltar” permite enviar pessoas de uma jornada para outra. Esse recurso permite simplificar o design de jornadas muito complexas e criar jornadas com base em padrões de jornadas comuns e reutilizáveis."
+>title="Atividade de jump"
+>abstract="A atividade de ação Saltar permite enviar indivíduos de uma jornada para outra. Esse recurso permite simplificar o design de jornadas muito complexas e criar jornadas com base em padrões de jornada comuns e reutilizáveis."
 
 A atividade de ação **[!UICONTROL Pular]** permite enviar indivíduos de uma jornada para outra. Esse recurso permite:
 
-* simplificar o design de jornadas muito complexas dividindo-as em várias jornadas
+* simplificar o design de jornadas muito complexas dividindo-as em várias
 * criar jornadas com base em padrões de jornada comuns e reutilizáveis
 
 Na jornada de origem, adicione uma atividade **[!UICONTROL Jump]** e selecione uma jornada de destino. Quando o indivíduo entra na etapa **[!UICONTROL Jump]**, um evento interno é enviado para o primeiro evento da jornada de destino. Se a ação **[!UICONTROL Jump]** for bem-sucedida, o indivíduo continuará progredindo na jornada. O comportamento é semelhante a outras ações.

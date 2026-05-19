@@ -23,7 +23,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 603
-ht-degree: 49%
+ht-degree: 0%
 
 ---
 
@@ -37,42 +37,42 @@ Em outras palavras, uma superfície pode ser vista como um container em qualquer
 
 * Pode ser uma página da Web, um aplicativo para dispositivos móveis, um aplicativo de desktop, um local de conteúdo específico em uma entidade maior (por exemplo, um `div`) ou um padrão de exibição não padrão (por exemplo, um quiosque ou um banner de aplicativo de desktop).
 
-* Ela também pode se estender para partes específicas de containers de conteúdo para fins de não exibição ou exibição abstrata (por exemplo, blobs JSON fornecidos aos serviços).
+* Ele também pode ser estendido para partes específicas de contêineres de conteúdo para fins de não exibição ou exibição abstrata (por exemplo, blobs JSON fornecidos aos serviços).
 
-* Também pode ser uma superfície curinga que corresponde a várias definições de superfície do cliente (por exemplo, um local de image hero em cada página do site pode ser traduzido em um URI de superfície como: web://mydomain.com/*#hero_image).
+* Também pode ser uma superfície curinga que corresponde a várias definições de superfície do cliente (por exemplo, um local de imagem principal em cada página do site pode ser traduzido em um URI de superfície como: web://mydomain.com/*#hero_image).
 
 Basicamente, um URI de superfície é composto por várias seções:
 
-1. **Tipo**: web, aplicativo móvel, ATM, quiosque, TVCD, serviço etc.
-1. **Propriedade**: URL da página ou pacote de aplicativos
-1. **Container**: local na atividade da página/aplicativo
+1. **Tipo**: web, mobileapp, atm, quiosque, tvcd, serviço, etc.
+1. **Propriedade**: URL da página ou conjunto de aplicativos
+1. **Contêiner**: local na atividade de página/aplicativo
 
-A tabela abaixo lista alguns exemplos de definição de URI de superfície para vários dispositivos.
+As tabelas abaixo listam alguns exemplos de definição de URI de superfície para vários dispositivos.
 
-**Web e dispositivos móveis**
+**Web e celular**
 
 | Tipo | URI | Descrição |
 | --------- | ----------- | ------- |
 | Web | `web://domain.com/path/page.html#element` | Representa um elemento individual em uma página específica de um domínio específico, onde um elemento pode ser um rótulo, como nos seguintes exemplos: hero_banner, top_nav, menu, rodapé etc. |
-| Aplicativo para iOS | `mobileapp://com.vendor.bundle/activity#element` | Representa um elemento específico em uma atividade do aplicativo nativo, como um botão ou outro elemento de exibição. |
-| Aplicativo para Android | `mobileapp://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo nativo. |
+| aplicativo iOS | `mobileapp://com.vendor.bundle/activity#element` | Representa um elemento específico em uma atividade de aplicativo nativa, como um botão ou outro elemento de exibição. |
+| aplicativo Android | `mobileapp://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo nativo. |
 
-**Outros tipos de dispositivo**
+**Outros tipos de dispositivos**
 
 | Tipo | URI | Descrição |
 | --------- | ----------- | ------- |
-| Desktop | `desktop://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo, como um botão, menu, banner hero, etc. |
-| Aplicativo de TV | `tvcd://com.vendor.bundle/#element` | Representa um elemento específico de uma Smart TV ou um aplicativo em um dispositivo conectado a uma TV: ID do pacote. |
+| Desktop | `desktop://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo, como um botão, menu, banner principal etc. |
+| Aplicativo de TV | `tvcd://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo de dispositivo conectado à TV ou Smart TV - ID do pacote. |
 | Serviço | `service://servicename/#element` | Representa um processo do lado do servidor ou outra entidade manual. |
 | Quiosque | `kiosk://location/screen#element` | Exemplo de possíveis tipos de superfície adicionais que podem ser adicionados facilmente. |
 | ATM | `atm://location/screen#element` | Exemplo de possíveis tipos de superfície adicionais que podem ser adicionados facilmente. |
 
-**Superfícies curingas**
+**Superfícies curinga**
 
 | Tipo | URI | Descrição |
 | --------- | ----------- | ------- |
-| Web com curinga | `wildcard:web://domain.com/*#element` | Superfície curinga: representa um elemento individual em cada uma das páginas em um domínio específico. |
-| Web com curinga | `wildcard:web://*domain.com/*#element` | Superfície curinga: representa um elemento individual em cada uma das páginas em todos os domínios que terminam em “domain.com”. |
+| Web com caractere curinga | `wildcard:web://domain.com/*#element` | Superfície curinga - representa um elemento individual em cada uma das páginas em um domínio específico. |
+| Web com caractere curinga | `wildcard:web://*domain.com/*#element` | Superfície curinga - representa um elemento individual em cada uma das páginas em todos os domínios que terminam com &quot;domain.com&quot;. |
 
 ## Criar uma configuração de cartão de conteúdo {#create-config}
 
@@ -84,7 +84,7 @@ A tabela abaixo lista alguns exemplos de definição de URI de superfície para 
 
    >[!NOTE]
    >
-   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar os caracteres de sublinhado `_`, ponto `.` e hífen `-`.
+   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
 
 1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à configuração, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
 

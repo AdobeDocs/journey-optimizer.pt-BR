@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
+source-git-commit: e53edd0f6f17f5b764075f61600294b91a020421
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '288'
 ht-degree: 4%
 
 ---
@@ -24,7 +25,7 @@ Para criar uma caixa de entrada de mensagem por meio de uma campanha, siga estas
 
    * **[!UICONTROL Agendado - Marketing]**: execute a campanha imediatamente ou em uma data especificada. As campanhas agendadas têm como objetivo enviar mensagens de **marketing**. Eles são configurados e executados na interface do usuário do.
 
-   * **[!UICONTROL Acionado por API - Marketing/Transacional]**: execute a campanha usando uma chamada de API. As campanhas acionadas por API têm como objetivo enviar **mensagens de marketing** ou **mensagens transacionais**, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc. [Saiba como acionar uma campanha usando APIs](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL Acionado por API - Marketing/Transacional]**: execute a campanha usando uma chamada de API. As campanhas acionadas por API destinam-se ao envio de **mensagens de marketing** ou **mensagens transacionais**, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc. [Saiba como acionar uma campanha usando APIs](../campaigns/api-triggered-campaigns.md)
 
 1. Na guia **[!UICONTROL Propriedades]**, especifique um nome e uma descrição para a campanha.
 

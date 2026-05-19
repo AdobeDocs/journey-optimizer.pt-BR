@@ -11,10 +11,10 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '993'
-ht-degree: 1%
+ht-degree: 18%
 
 ---
 
@@ -46,7 +46,7 @@ Cada tarefa representa uma ação mensurável que contribui para a conclusão do
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="Criar uma tarefa"
->abstract="Selecione uma atividade do cliente (Compra ou Gasto) e configure atributos específicos da atividade: quantidades ou valores, itens elegíveis e exclusões e limites opcionais, como gasto mínimo ou máximo de transações. No painel Propriedades, defina o nome e a descrição da tarefa."
+>abstract="Selecione uma atividade do cliente (Compra ou Gasto) e configure atributos específicos da atividade: quantidades ou valores, itens elegíveis e exclusões, e limites opcionais, como máximo de transações ou gasto mínimo. No painel Propriedades, defina o nome e a descrição da tarefa."
 
 É possível criar tarefas a partir de dois pontos de entrada. O processo de configuração é o mesmo, independentemente de onde você começa.
 
@@ -105,16 +105,16 @@ Atributos disponíveis para atividades de **Gasto**:
 
 >[!ENDTABS]
 
-## Definir itens elegíveis e exclusões {#eligible-items-exclusions}
+## Defina itens elegíveis e exclusões {#eligible-items-exclusions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="Itens elegíveis e exclusões"
->abstract="Para as atividades de **Compra** e **Gasto**, você pode usar o atributo **[!UICONTROL Itens qualificados e exclusões]** para definir quais itens e grupos estão qualificados e quais foram excluídos. Isso permite direcionar produtos, categorias ou locais específicos para se alinhar às suas metas de desafio. Por exemplo, é possível limitar uma tarefa de gastos a categorias de produtos específicas ou excluir cartões-presente ou itens promocionais da contagem até a conclusão da tarefa."
+>abstract="Para as atividades de **Compra** e **Gasto**, é possível usar o atributo **[!UICONTROL Itens elegíveis e exclusões]** para definir quais itens e grupos estão qualificados e quais foram excluídos. Isso permite direcionar produtos, categorias ou locais específicos para alinhar às metas do desafio. Por exemplo, é possível limitar uma tarefa de gastos a categorias de produtos específicas ou excluir vales-presente ou itens promocionais da contagem até a conclusão da tarefa."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-Para as atividades de **Compra** e **Gasto**, você pode usar o atributo **[!UICONTROL Itens qualificados e exclusões]** para definir quais itens e grupos estão qualificados e quais foram excluídos. Isso permite direcionar produtos, categorias ou locais específicos para se alinhar às suas metas de desafio.
+Para as atividades de **Compra** e **Gasto**, é possível usar o atributo **[!UICONTROL Itens elegíveis e exclusões]** para definir quais itens e grupos estão qualificados e quais foram excluídos. Isso permite direcionar produtos, categorias ou locais específicos para alinhar às metas do desafio.
 
 Por exemplo, é possível limitar uma tarefa a categorias de produto específicas ou excluir cartões-presente ou itens promocionais da contagem até a conclusão da tarefa.
 

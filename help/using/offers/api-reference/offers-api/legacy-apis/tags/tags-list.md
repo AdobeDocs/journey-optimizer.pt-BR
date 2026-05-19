@@ -4,7 +4,7 @@ product: Journey Optimizer
 title: Listar qualificadores de coleção
 description: Os qualificadores de coleção permitem organizar e classificar melhor suas ofertas.
 feature: Decision Management, API
-badge: label="Legado" type="Informative"
+badge: label="Herdados" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
@@ -23,7 +23,7 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 287
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 12%
 
 >[!TIP]
 >
->O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>A decisão, o novo recurso de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e canais de email! [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Os qualificadores de coleção (anteriormente conhecidos como &quot;tags&quot;) permitem organizar e classificar melhor suas ofertas. Por exemplo, você pode rotular as ofertas de Black Friday com o qualificador de coleção &quot;Black Friday&quot;. Em seguida, você pode usar a funcionalidade de pesquisa na Biblioteca de ofertas para localizar facilmente todas as ofertas com esse qualificador de coleção.

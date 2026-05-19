@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1816
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -68,7 +68,7 @@ Use esta tabela abrangente para entender as principais diferenças:
 | **Modelo de dados** | Perfil em tempo real + dados do evento | Dados de perfil de públicos da Experience Platform | Dados de carga da API com pesquisa de perfil opcional | Dados relacionais de várias entidades (perfis, produtos, lojas, reservas) |
 | **Segmentação** | Públicos-alvo pré-criados + condições em tempo real | Públicos-alvo pré-criados da Experience Platform | Direcionamento orientado por carga (sem público agendado) | Públicos sob demanda criados na tela com contagens exatas |
 | **Processamento de perfil** | Individual, em tempo real (conforme os eventos ocorrem) | Em lote, tudo de uma vez | Por chamada de API, orientada por carga | Em lote, tudo junto com suporte a várias entidades |
-| **Personalização** | Dados contextuais em tempo real + atributos de perfil | Atributos do perfil | Dados de carga + atributos opcionais do perfil | Dados de várias entidades para direcionamento de precisão |
+| **Personalization** | Dados contextuais em tempo real + atributos de perfil | Atributos do perfil | Dados de carga + atributos opcionais do perfil | Dados de várias entidades para direcionamento de precisão |
 | **Complexidade** | Várias etapas com ramificação, tempos de espera e condições | Única ação ou fluxo de trabalho simples | Única ação com mapeamento de carga | Fluxos de trabalho em lote de várias etapas com segmentação, enriquecimento, divisões |
 | **Recomendado para** | Jornadas de ciclo de vida do cliente, integração, abandono de carrinho | Campanhas promocionais, boletins informativos, anúncios | Confirmações de pedidos, alertas de envio, redefinições de senha | Campanhas sazonais complexas, promoções em várias etapas, lançamentos de produtos |
 | **Horário** | Contínuo, sempre ativo depois de publicado | Datas de início/término programadas | Sob demanda, orientado por eventos por meio da API | Execução em lote agendada |
@@ -227,7 +227,7 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 
 | Canal | Jornadas | Campanhas de ação | Campanhas acionadas por API | Campanhas orquestradas |
 |---------|:--------:|:----------------:|:-----------------------:|:---------------------:|
-| Email | ✅ | ✅ | ✅ | ✅ |
+| E-mail | ✅ | ✅ | ✅ | ✅ |
 | Push | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ |
 | No aplicativo | ✅ | ✅ | ✅ | ❌ |
@@ -252,7 +252,7 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 | Contagens exatas de pré-envio | ❌ | ❌ | ❌ | ✅ |
 | Segmentação sob demanda | ❌ | ❌ | ❌ | ✅ |
 | Otimização de hora de envio | ✅ | ❌ | ❌ | ❌ |
-| Teste AB | ✅ | ✅ | ❌ | ❌ |
+| Teste A/B | ✅ | ✅ | ❌ | ❌ |
 | Fluxos de trabalho de aprovação | ✅ | ✅ | ✅ | ❌ |
 
 ## Perguntas comuns {#common-questions}
@@ -300,7 +300,7 @@ Sim. Os públicos-alvo criados no [!DNL Adobe Experience Platform] podem ser usa
 
 ## Próximas etapas {#next-steps}
 
-Pronto(a) para começar a criar? Explore a documentação detalhada da abordagem escolhida:
+Pronto para começar a criar? Explore a documentação detalhada da abordagem escolhida:
 
 * **[Introdução ao Jornada](../building-journeys/journey.md)** - Tipos de Jornada, designer e fluxo de trabalho
 * **[Introdução às Campanhas](../campaigns/get-started-with-campaigns.md)** - Campanhas acionadas por ação e API

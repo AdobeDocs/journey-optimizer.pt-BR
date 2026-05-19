@@ -4,7 +4,7 @@ product: Journey Optimizer
 title: Excluir qualificadores de coleção
 description: Os qualificadores de coleção permitem organizar e classificar melhor suas ofertas.
 feature: Decision Management, API
-badge: label="Legado" type="Informative"
+badge: label="Herdados" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
@@ -23,15 +23,15 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 178
-ht-degree: 16%
+ht-degree: 0%
 
 ---
 
-# Excluir um qualificador de coleção {#delete-tag}
+# Deletar um qualificador de coleta {#delete-tag}
 
 >[!TIP]
 >
->O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>A decisão, o novo recurso de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e canais de email! [Saiba mais](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Ocasionalmente, pode ser necessário remover (DELETE) um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;). Somente qualificadores de coleção criados no contêiner de locatário podem ser excluídos. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando a $id do qualificador de coleção que você deseja excluir.

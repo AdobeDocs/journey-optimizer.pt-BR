@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1134
-ht-degree: 7%
+ht-degree: 0%
 
 ---
 
@@ -269,11 +269,11 @@ Enable conditional content in your dynamic media to better target your audience 
 1. In the **[!UICONTROL Custom Attributes]** menu, populate the Dynamic Media text and personalization fields to customize the content for your audience.
 -->
 
-## Vídeo tutorial {#video}
+## Vídeo explicativo {#video}
 
-Saiba como integrar o Adobe Experience Manager Dynamic Media ao Adobe Journey Optimizer para permitir atualizações e personalização de conteúdo em tempo real.
+Saiba como integrar o Adobe Experience Manager Dynamic Media com o Adobe Journey Optimizer para permitir atualizações e personalização de conteúdo em tempo real.
 
-Este tutorial aborda como modificar imagens diretamente no AJO, adicionar sobreposições de texto usando o modo HTML, criar modelos de mídia dinâmica no AEM para hiperpersonalização e personalizar campanhas adaptando o conteúdo para diferentes segmentos de público-alvo. Essa integração permite que os profissionais de marketing criem campanhas envolventes e personalizadas com eficiência, sem alternar entre aplicativos.
+Este tutorial aborda como modificar imagens diretamente no AJO, adicionar sobreposições de texto usando o modo HTML, criar modelos de mídia dinâmica no AEM para hiperpersonalização e personalizar campanhas personalizando conteúdo para diferentes segmentos de público. Essa integração permite que os profissionais de marketing criem campanhas envolventes e personalizadas com eficiência, sem alternar entre aplicativos.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3463787/?captions=por_br&learn=on&enablevpops=&autoplay=true)
 

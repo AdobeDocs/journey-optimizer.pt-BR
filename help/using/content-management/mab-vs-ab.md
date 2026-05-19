@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 629
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
 >title="Tipo de experimento"
->abstract="O tipo de experimento determina como o tráfego é alocado entre os tratamentos durante o teste. Escolha o método que melhor se alinha às suas metas:</br><b>Experimento A/B</b>: divide o tráfego conforme definido entre os tratamentos e mede o desempenho até que os resultados sejam estatisticamente significativos. Ideal para identificar qual tratamento apresenta o melhor desempenho em uma comparação controlada.</br><b>Multi-armed Bandit</b>: direciona o tráfego para os tratamentos com melhor desempenho à medida que os dados são coletados, equilibrando rapidez e otimização. Útil quando você deseja maximizar as conversões durante o experimento.</br><b>Traga seu próprio Multi-armed Bandit</b>: use seu próprio algoritmo para decidir a alocação de tráfego, proporcionando flexibilidade se você tiver um modelo ou estratégia personalizada."
+>abstract="O tipo de experimento determina como o tráfego é alocado entre os tratamentos durante o teste. Escolha o método que melhor se alinha às suas metas:</br><b>Experimento A/B</b>: divide o tráfego conforme definido entre os tratamentos e mede o desempenho até que os resultados sejam estatisticamente significativos. Ideal para identificar qual tratamento apresenta o melhor desempenho em uma comparação controlada.</br><b>Multi-armed Bandit</b>: direciona o tráfego para os tratamentos com melhor desempenho à medida que os dados são coletados, equilibrando rapidez e otimização. Útil para maximizar as conversões durante o experimento.</br><b>Use seu próprio Multi-armed Bandit</b>: Utilize o próprio algoritmo para definir a alocação de tráfego, oferecendo flexibilidade caso haja um modelo ou estratégia personalizados."
 
 Esta página fornece uma comparação detalhada dos experimentos do **A/B** e do **Multi-Armed Bandit**, explicando suas respectivas forças, limitações e os cenários nos quais cada abordagem é mais eficaz.
 

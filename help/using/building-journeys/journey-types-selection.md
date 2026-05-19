@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 993
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
@@ -116,10 +116,10 @@ Siga esta árvore decisória para selecionar o tipo de jornada correto para seu 
 |-----------|------------------------|-----|
 | Enviar confirmação do pedido após a compra | Unitário | Resposta imediata a uma ação individual |
 | Enviar informativo mensal aos assinantes | Ler público-alvo | Comunicação agendada em lote |
-| Notificar os clientes quando eles atingirem o status do VIP | Qualificação de público-alvo | Resposta em tempo real à alteração de status |
+| Notificar os clientes quando eles atingirem o status do VIP | Qualificação do público-alvo | Resposta em tempo real à alteração de status |
 | Alertar os clientes sobre baixo estoque de itens observados | Evento comercial | A condição dos negócios afeta vários clientes |
 | Bem-vindos, novos usuários do aplicativo | Unitário | Acionado pelo evento de inscrição |
-| Reengajamento de clientes inativos | Qualificação de público-alvo | Responde à entrada de segmento de inatividade |
+| Reengajamento de clientes inativos | Qualificação do público-alvo | Responde à entrada de segmento de inatividade |
 | Promoção sazonal para o segmento do target | Ler público-alvo | Campanha programada para o público-alvo |
 | Anúncio de venda do Flash | Evento comercial | As decisões de negócios afetam vários clientes |
 
@@ -147,7 +147,7 @@ Use esta tabela para comparar rapidamente os tipos de jornada e escolher o corre
 
 Nem todos os recursos estão disponíveis para todos os tipos de jornada. Use esta matriz para entender quais recursos funcionam com quais tipos de jornada:
 
-| Recurso/capacidade | Unitário | Ler público-alvo | Qualificação de público-alvo | Evento comercial |
+| Recurso/capacidade | Unitário | Ler público-alvo | Qualificação do público-alvo | Evento comercial |
 |---------------------|:-------:|:-------------:|:----------------------:|:--------------:|
 | **Mecanismos de entrada** | | | | |
 | Entrada acionada por evento | ✅ | ❌ | ❌ | ✅ |
@@ -159,7 +159,7 @@ Nem todos os recursos estão disponíveis para todos os tipos de jornada. Use es
 | Ações personalizadas | ✅ | ✅ | ✅ | ✅ |
 | Ler atividade de público (dentro do jornada) | ✅ | ✅ | ✅ | ✅ |
 | Atividade de qualificação de público | ✅ | ✅ | ✅ | ✅ |
-| Atividade Salto | ✅ | ✅ | ✅ | ✅ |
+| Atividade de jump | ✅ | ✅ | ✅ | ✅ |
 | **Gerenciamento de perfis** | | | | |
 | Reentrada do perfil | ✅ Configurável | ❌ Uma vez por execução | ✅ Configurável | ✅ Por evento |
 | Configuração de namespace | ✅ Obrigatório | ✅ Opcional | ✅ Obrigatório | ✅ Obrigatório |
@@ -170,7 +170,7 @@ Nem todos os recursos estão disponíveis para todos os tipos de jornada. Use es
 | Experimentos de caminho (teste A/B) | ✅ | ✅ | ✅ | ❌ |
 | Otimização de hora de envio | ✅ | ✅ | ✅ | ✅ |
 | **Canais** | | | | |
-| Email | ✅ | ✅ | ✅ | ✅ |
+| E-mail | ✅ | ✅ | ✅ | ✅ |
 | Notificações por push | ✅ | ✅ | ✅ | ✅ |
 | SMS/MMS | ✅ | ✅ | ✅ | ✅ |
 | Mensagens no aplicativo | ✅ | ✅ | ✅ | ✅ |

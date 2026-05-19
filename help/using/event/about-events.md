@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2152
-ht-degree: 24%
+ht-degree: 27%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Eventos de jornada"
->abstract="O Journey Optimizer oferece suporte a três tipos de eventos nas jornadas: eventos unitários, vinculados ao comportamento de uma pessoa específica (como uma compra ou uma meta de fidelidade); eventos comerciais, acionados por uma ocorrência global (como um cancelamento de voo ou uma atualização de estoque); e eventos de qualificação de público-alvo, acionados quando um perfil entra ou sai de um público-alvo. Use eventos para acionar jornadas e orquestrar as ações certas para seus perfis."
+>abstract="O Journey Optimizer oferece suporte a três tipos de eventos nas jornadas: eventos unitários, vinculados ao comportamento de uma pessoa específica (como uma compra ou um marco de fidelidade); eventos comerciais, que são acionados por uma ocorrência global (como um cancelamento de voo ou uma atualização de estoque); e eventos de qualificação de público-alvo, que são acionados quando um perfil entra ou sai de um público-alvo. Use eventos para acionar jornadas e orquestrar as ações certas para os perfis."
 
 Use eventos para acionar jornadas individualmente, fornecendo mensagens em tempo real a cada usuário ao entrarem na jornada.
 

@@ -41,7 +41,7 @@ ht-degree: 9%
 
 ---
 
-# Trabalhar com o GenStudio para marketing de desempenho {#ajo-genstudio}
+# Trabalhe com o GenStudio for performance marketing {#ajo-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Usar dados do Adobe Experience Platform
+title: Usar dados da Adobe Experience Platform
 description: Saiba como usar conjuntos de dados do Adobe Experience Platform no [!DNL Journey Optimizer] Recursos de decisão e personalização.
 feature: Personalization, Rules
 topic: Personalization
@@ -25,22 +25,22 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 890
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Usar dados do Adobe Experience Platform {#aep-data}
+# Usar dados da Adobe Experience Platform {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
->title="Ativar para pesquisa"
->abstract="Habilitar um conjunto de dados para pesquisa permite aproveitar seus dados nos recursos de personalização, Decisão e Orquestração de jornadas do Journey Optimizer."
+>title="Habilitar para pesquisa"
+>abstract="Habilitar um conjunto de dados para pesquisa permite usar seus dados com recursos de personalização, tomada de decisão e orquestração de jornada do Journey Optimizer."
 
 O [!DNL Journey Optimizer] permite aproveitar os dados do [!DNL Adobe Experience Platform] com recursos de personalização, Decisão e orquestração de jornadas. Para fazer isso, os conjuntos de dados baseados em registros necessários para a personalização da pesquisa devem primeiro ser habilitados para o serviço de pesquisa, conforme descrito abaixo.
 
 >[!NOTE]
 >
->O recurso de pesquisa de dados só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
+>O recurso de pesquisa de dados só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
 
 Saiba mais sobre como acessar e trabalhar com conjuntos de dados nesta seção: [Introdução aos conjuntos de dados](../data/get-started-datasets.md)
 
@@ -138,7 +138,7 @@ Siga as instruções detalhadas em [esta documentação](https://developer.adobe
 curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}" \ -H "Authorization: Bearer ${ACCESS_TOKEN}" \ -H "x-api-key: ${API_KEY}" \ -H "x-gw-ims-org-id: ${IMS_ORG}" \ -H "x-sandbox-name: ${SANDBOX_NAME}" 
 ```
 
-Onde:
+Em que:
 
 * A URL é `https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}`
 * A ID do conjunto de dados é o conjunto de dados para o qual você deseja habilitar.
@@ -167,6 +167,6 @@ Esse indicador de processo ajuda a entender quando novos lotes de dados estão d
 
 Depois que um conjunto de dados for habilitado para pesquisa usando uma chamada de API, você poderá usar os dados com os recursos de personalização e Decisão do [!DNL Journey Optimizer]. Para obter mais informações, consulte estas seções:
 
-* [Usar dados do Adobe Experience Platform para personalização](../personalization/aep-data-perso.md)
-* [Usar dados do Adobe Experience Platform para a tomada de decisão](../experience-decisioning/aep-data-exd.md)
+* [Usar dados da Adobe Experience Platform para personalização](../personalization/aep-data-perso.md)
+* [Usar dados da Adobe Experience Platform para decisão](../experience-decisioning/aep-data-exd.md)
 * [Usar dados do Adobe Experience Platform para orquestração de jornadas](../building-journeys/dataset-lookup.md)

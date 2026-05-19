@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1692
-ht-degree: 10%
+ht-degree: 0%
 
 ---
 
@@ -39,12 +39,12 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="Inventário de campanhas orquestradas"
->abstract="Nesta tela, é possível acessar a lista completa de campanhas orquestradas, verificar o status atual, as datas da última/próxima execução e criar uma nova campanha orquestrada."
+>abstract="Nesta tela, você pode acessar a lista completa de campanhas orquestradas, verificar seu status atual, datas de última/próxima execução e criar uma nova campanha orquestrada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_campaign_action"
 >title="Ação"
->abstract="Esta seção lista todas as ações usadas na campanha orquestrada."
+>abstract="Esta seção lista todas as ações usadas na campanha Orquestrada."
 
 Saiba como acessar, organizar e gerenciar suas campanhas no Adobe Journey Optimizer. Este guia aborda tudo, desde encontrar campanhas até entender status, executar operações comuns e manter o espaço de trabalho da campanha.
 
@@ -88,7 +88,7 @@ Selecione a guia **[!UICONTROL Orquestração]** para acessar a lista de campanh
 
 ![imagem mostrando o inventário de campanhas orquestradas](assets/inventory.png){zoomable="yes"}
 
-Cada campanha orquestrada na lista exibe informações como o [status](#statuses) atual da campanha, o canal e as tags associados ou a última vez que ela foi modificada. Você pode personalizar as colunas exibidas, clicando no botão ![Configurar layout](assets/do-not-localize/inventory-configure-layout.svg).
+Cada campanha orquestrada na lista exibe informações como o [status](#statuses) atual da campanha, o canal e as tags associados ou a última vez que ela foi modificada. Você pode personalizar as colunas exibidas clicando no botão ![Configurar layout](assets/do-not-localize/inventory-configure-layout.svg).
 
 >[!ENDTABS]
 
@@ -110,7 +110,7 @@ A ![imagem que mostra o botão Mais ações](assets/do-not-localize/rule-builder
 * **[!UICONTROL Editar marcas]** - Edita as marcas associadas à campanha. [Saiba como usar tags →](../start/search-filter-categorize.md#add-tags)
 * **[!UICONTROL Duplicar]** - Use esta opção para duplicar uma campanha, por exemplo, para executar uma campanha Orquestrada que foi interrompida. [Saiba mais sobre duplicação →](#duplicate-a-campaign)
 * **[!UICONTROL Excluir]** - Use esta opção para excluir uma campanha. [Saiba mais sobre exclusão →](#delete-a-campaign)
-* **[!UICONTROL Arquivar]**: arquive a campanha. Todas as campanhas arquivadas são excluídas em uma programação contínua 30 dias após sua última data modificada. Esta ação está disponível para todas as campanhas, exceto as campanhas de **[!UICONTROL Rascunho]**. [Saiba mais sobre arquivamento →](#archive-a-campaign)
+* **[!UICONTROL Arquivar]** - Arquivar a campanha. Todas as campanhas arquivadas são excluídas em uma programação contínua 30 dias após sua última data modificada. Esta ação está disponível para todas as campanhas, exceto as campanhas de **[!UICONTROL Rascunho]**. [Saiba mais sobre arquivamento →](#archive-a-campaign)
 
 **Somente para campanhas acionadas por Ação e API:**
 
@@ -128,10 +128,10 @@ Cada campanha passa por um ciclo de vida que é refletido pelo status na interfa
 | Status | Campanhas de ação | Campanhas acionadas por API | Campanhas orquestradas | O que significa | Próximas ações |
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
 | **[!UICONTROL Rascunho]** | ✅ | ✅ | ✅ | Em edição, não ativado | Continue editando ou [ative a campanha](review-activate-campaign.md) |
-| **[!UICONTROL Programado]** | ✅ | ✅ | ✅ | Configurado para uma data de início específica | Aguarde a inicialização, [modifique se necessário](#modify) ou [exiba no calendário](#calendar) |
+| **[!UICONTROL Agendado]** | ✅ | ✅ | ✅ | Configurado para uma data de início específica | Aguarde a inicialização, [modifique se necessário](#modify) ou [exiba no calendário](#calendar) |
 | **[!UICONTROL Ao vivo]** | ✅ | ✅ | ✅ | Ativado e em execução | [Monitorar desempenho](../reports/campaign-global-report-cja.md), [criar nova versão](#modify) se necessário. Para campanhas orquestradas: [reverter para rascunho](../orchestrated/start-monitor-campaigns.md#back-to-draft) para campanhas agendadas ainda não iniciadas ou campanhas com erros de execução antes do envio de qualquer mensagem |
 | **[!UICONTROL Em revisão]** | ✅ | ✅ | — | Enviado para aprovação | Aguardar [aprovação](../test-approve/gs-approval.md) ou modificar |
-| **[!UICONTROL Interrompida]** | ✅ | ✅ | ✅ | Interrompido manualmente, não é possível reativar | [Duplicar para reutilizar](#duplicate-a-campaign) |
+| **[!UICONTROL Parado]** | ✅ | ✅ | ✅ | Interrompido manualmente, não é possível reativar | [Duplicar para reutilizar](#duplicate-a-campaign) |
 | **[!UICONTROL Concluído]** | ✅ | ✅ | ✅ | Execução concluída (atribuída automaticamente 3 dias após a ativação ou na data final para recorrente) | [Exibir relatórios](../reports/campaign-global-report-cja.md), [arquivo morto](#archive-a-campaign) ou [duplicar](#duplicate-a-campaign) |
 | **[!UICONTROL Falha]** | ✅ | ✅ | — | Falha na execução | Verifique logs, corrija problemas, [duplique para tentar novamente](#duplicate-a-campaign) |
 | **[!UICONTROL Arquivado]** | ✅ | ✅ | ✅ | Arquivado (excluído automaticamente após 30 dias) | [Recuperar usando filtro](#access), se necessário |
@@ -156,10 +156,10 @@ Quando ocorre um erro em uma de suas campanhas, um ícone de aviso é exibido ju
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="Visualizações de campanhas em lista e calendário"
->abstract="Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma visualização do calendário das suas campanhas, oferecendo uma representação visual clara dos cronogramas. Você pode alternar entre as visualizações em lista e calendário a qualquer momento, usando estes botões."
+>title="Exibições de lista e calendário de campanhas"
+>abstract="Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma exibição do calendário de suas campanhas, oferecendo uma representação visual clara de suas agendas. Você pode alternar entre as visualizações de lista e calendário a qualquer momento usando esses botões."
 
-Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma visualização do calendário das suas campanhas, oferecendo uma representação visual clara dos cronogramas.
+Além da lista de campanhas, o [!DNL Journey Optimizer] fornece uma exibição do calendário de suas campanhas, oferecendo uma representação visual clara de suas agendas.
 
 ### Como o calendário funciona
 

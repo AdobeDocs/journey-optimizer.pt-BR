@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: expressão, editor, condicional, regras
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 8%
+source-wordcount: '635'
+ht-degree: 11%
 
 ---
 
@@ -63,7 +63,7 @@ As etapas para criar uma regra condicional são as seguintes:
    Os atributos são organizados em três guias:
 
    * **[!UICONTROL Perfil]**:
-      * **[!UICONTROL Públicos-alvo]** lista todos os atributos de público-alvo (ou seja, status, versão etc.) do [serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"},
+      * **[!UICONTROL Públicos-alvo]** lista todos os atributos de público-alvo (ou seja, status, versão etc.) para o [serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"},
       * **[!UICONTROL Perfis individuais XDM]** lista todos os atributos de perfil associados ao [esquema do Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"} definido no Adobe Experience Platform.
    * **[!UICONTROL Contextual]**: quando a mensagem é usada em uma jornada, os campos de jornada contextual ficam disponíveis por meio desta guia.
    * **[!UICONTROL Públicos-alvo]**: lista todos os públicos-alvo gerados pelas definições de segmento criadas no [serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.

@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1803
-ht-degree: 37%
+ht-degree: 41%
 
 ---
 
@@ -86,7 +86,7 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_category"
 >title="Categoria"
->abstract="Escolha Marketing ou Transacional para esta atividade de canal. As mensagens de marketing usam as configurações de canal de marketing e seguem suas regras de negócios padrão. As mensagens transacionais são para comunicações operacionais — geralmente acionadas pela ação de um indivíduo (por exemplo, uma redefinição de senha ou confirmação de compra) ou para avisos sensíveis ao tempo, como interrupções ou cancelamentos. Elas usam configurações de canal transacionais, regras de negócios são ignoradas e a aceitação não é necessária."
+>abstract="Escolha Marketing ou Transacional para esta atividade de canal. As mensagens de marketing usam as configurações do canal de marketing e seguem as regras de negócios padrão. As mensagens transacionais são para comunicações operacionais. Geralmente elas são acionadas pela ação de um indivíduo (por exemplo, uma redefinição de senha ou confirmação de compra) ou para avisos sensíveis ao tempo, como interrupções ou cancelamentos. Elas usam configurações de canal transacionais, ignoram as regras de negócios e não exigem aceitação."
 
 >[!PREREQUISITES]
 >

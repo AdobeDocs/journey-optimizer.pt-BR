@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1503
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -164,7 +164,7 @@ Para fazer isso:
 
 ## Adicionar rich text a um fragmento personalizável {#rich-text}
 
-Rich text como quebras de linha, negrito, itálico, etc., podem ser adicionados a um fragmento personalizável usando componentes do HTML. Para isso, siga as etapas abaixo.
+Rich text como quebras de linha, negrito, itálico, etc., podem ser adicionados a um fragmento personalizável usando componentes do HTML. Para fazer isso, siga as etapas abaixo.
 <!--
 ➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)
 -->

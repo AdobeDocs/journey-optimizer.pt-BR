@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1341
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Em sandboxes de não produção, em que podem ocorrer envios acidentais, a lista
 
 Quando a lista de permissões está ativa, mas vazia, nenhum email é enviado. Isso faz dele um freio de emergência útil: se ocorrer um problema crítico, você pode ativar uma lista de permissões vazia para interromper todas as comunicações de saída de [!DNL Journey Optimizer] até que o problema seja resolvido. Saiba mais sobre a [lógica de lista de permissões](#logic).
 
-Você também pode usar a **API REST de Supressão** do Journey Optimizer para gerenciar mensagens de saída de forma programática por meio de supressão e listas de permissões. [Saiba como trabalhar com a API REST de supressão](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
+Você também pode usar a **API REST de Supressão** do Journey Optimizer para gerenciar mensagens de saída de forma programática por meio de supressão e listas de permissões. [Saiba como trabalhar com a API REST de Supressão](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ## Acessar a lista de permissões {#access-allowed-list}
 
@@ -86,7 +86,7 @@ Para ativar a lista de permissões, siga as etapas abaixo.
    >* Após a ativação, há um atraso de 10 minutos antes da lista de permissões entrar em vigor em jornadas e campanhas. As atualizações na lista de lista de permissões e supressão também podem levar até 10 minutos para serem refletidas.
    >* Quando ativa, a lista de permissões é imposta não apenas em jornadas ativas, mas também ao testar mensagens com [provas](../content-management/proofs.md) e jornadas no [modo de teste](../building-journeys/testing-the-journey.md).
 
-A lógica de lista de permissões se aplica quando o recurso está ativo. Saiba mais [nesta seção](#logic).
+A lógica de lista de permissões se aplica quando o recurso está ativo. Saiba mais em [esta seção](#logic).
 
 ## Desativar a lista de permissões {#deactivate-allow-list}
 
@@ -106,7 +106,7 @@ Para desativar a lista de permissões, siga as etapas abaixo.
    >
    >Depois de desativar a lista de permissões, há um atraso de 10 minutos antes de ela entrar em vigor em suas jornadas e campanhas. Da mesma forma, as atualizações nas listas de lista de permissões e supressão podem levar até 10 minutos para serem refletidas.
 
-A lógica de lista de permissões não se aplica quando o recurso é desativado. Saiba mais [nesta seção](#logic).
+A lógica de lista de permissões não se aplica quando o recurso é desativado. Saiba mais em [esta seção](#logic).
 
 ## Adicionar entidades à lista de permissões {#add-entities}
 
@@ -121,12 +121,12 @@ Para adicionar novos domínios ou endereços de email à lista de permissões pa
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add_header"
 >title="Adicionar endereços ou domínios à lista de permissões"
->abstract="Você pode adicionar manualmente novos endereços de email ou domínios à lista de permissões selecionando-os um por um."
+>abstract="Você pode adicionar manualmente novos domínios ou endereços de email à lista de permissões selecionando-os um por um."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add"
 >title="Adicionar endereços ou domínios à lista de permissões"
->abstract="Você pode adicionar manualmente novos endereços de email ou domínios à lista de permissões selecionando-os um por um."
+>abstract="Você pode adicionar manualmente novos domínios ou endereços de email à lista de permissões selecionando-os um por um."
 
 Você pode preencher manualmente a lista de permissões [!DNL Journey Optimizer] adicionando um endereço de email ou um domínio por meio da interface do usuário.
 
@@ -146,7 +146,7 @@ Para fazer isso, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Certifique-se de inserir um endereço de email (como abc@empresa.com) ou de domínio (como abc.empresa.com) válido.
+   >Insira um endereço de email válido (como abc@company.com) ou domínio (como abc.company.com).
 
 1. Especifique um motivo, se necessário.
 
@@ -154,7 +154,7 @@ Para fazer isso, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Todos os caracteres ASCII no intervalo de 32 a 126 são permitidos no campo **[!UICONTROL Motivo]**. Para referência, consulte a lista completa [nesta página](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}.
+   >Todos os caracteres ASCII no intervalo de 32 a 126 são permitidos no campo **[!UICONTROL Motivo]**. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}, por exemplo.
 
 1. Clique em **[!UICONTROL Enviar]**.
 
@@ -201,7 +201,7 @@ Para exportar a lista de permissões como um arquivo CSV, siga as etapas abaixo:
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="Gerenciar a lista de permissões"
->abstract="Quando a lista de permissões for ativada, somente os recipients incluídos na lista de permissões receberão mensagens de email dessa sandbox. Quando desativado, todos os recipients receberão emails."
+>abstract="Quando a lista de permissões for ativada, somente os recipients incluídos nela receberão mensagens de email dessa sandbox. Quando desativado, todos os recipients receberão emails."
 
 Quando a lista de permissões está [ativa](#enable-allow-list), a seguinte lógica é aplicada:
 

@@ -3,7 +3,7 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: API de decisão em lote
 description: Saiba como usar a API de decisão em lote para selecionar as melhores ofertas para perfis de públicos-alvo em um escopo de decisão predefinido.
-badge: label="Legado" type="Informative"
+badge: label="Herdados" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 749
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 6%
 
 >[!TIP]
 >
->O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../../experience-decisioning/gs-experience-decisioning.md)
+>A decisão, o novo recurso de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e canais de email! [Saiba mais](../../../experience-decisioning/gs-experience-decisioning.md)
 
 A API [!DNL Batch Decisioning] permite que as organizações usem a funcionalidade de decisão para todos os perfis em um determinado público-alvo através de uma única chamada. O conteúdo da oferta de cada perfil no público-alvo é colocado em um conjunto de dados do Adobe Experience Platform, onde ele estará disponível para fluxos de trabalho em lote personalizados.
 

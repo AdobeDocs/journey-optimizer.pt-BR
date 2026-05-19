@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Introdução à correspondência direta
 description: Saiba como criar uma mensagem de correspondência direta no Journey Optimizer
 feature: Direct Mail
@@ -21,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 343
-ht-degree: 100%
+source-wordcount: 436
+ht-degree: 83%
 
 ---
 
@@ -38,25 +40,37 @@ Você precisará trabalhar com o provedor de correspondência direta de terceiro
 
 O uso dos serviços de mala direta está sujeito a termos e condições adicionais do provedor de correspondência direta de terceiros aplicáveis.  A Adobe não controla e não se responsabiliza pelo uso de produtos de terceiros. Para qualquer problema ou solicitação de assistência relacionada ao envio da campanha de correspondência direta, entre em contato com o provedor de correspondência direta de terceiros escolhido.
 
+## Antes de começar {#before-you-start}
+
+Antes de criar mensagens de correspondência direta, configure o [roteamento de arquivos e uma configuração de canal de correspondência direta](direct-mail-configuration.md). Você também precisa de públicos-alvo e dados de perfil (como endereços postais) no Adobe Experience Platform.
+
 As principais etapas para enviar mensagens de correspondência direta são as seguintes:
 
-![](assets/dm-creation-process.png)
+![Fluxo de trabalho de criação de correspondência direta da configuração à entrega](assets/dm-creation-process.png)
 
 >[!AVAILABILITY]
 >
 >As mensagens de correspondência direta podem ser criadas no contexto de jornadas e campanhas. Eles não estão disponíveis para uso em campanhas acionadas por API.
 
-![](../rn/assets/do-not-localize/gif-dm.gif)
+![Visão geral animada do canal de correspondência direta no Journey Optimizer](../rn/assets/do-not-localize/gif-dm.gif)
 
-## Recursos adicionais
+## Recursos adicionais {#additional-resources}
 
 * **[Criar correspondência direta](create-direct-mail.md)**: saiba como criar entregas de correspondência direta e configurar arquivos de extração para canais offline.
 * **[Configurar canal de correspondência direta](direct-mail-configuration.md)**: defina superfícies de correspondência direta e configurações de roteamento de arquivos.
 * **[Testar e enviar correspondência direta](test-send-direct-mail.md)**: saiba como testar, validar e publicar entregas de correspondência direta.
 * **[Tutoriais de correspondência direta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre recursos de correspondência direta e práticas recomendadas.
 
-## Vídeo tutorial
+## Vídeo tutorial {#how-to-video}
 
 Saiba como aproveitar o canal de correspondência direta no Adobe Journey Optimizer para automatizar e agendar entregas de correspondência direta em suas jornadas.
 
++++ Ver vídeo
+
 >[!VIDEO](https://video.tv.adobe.com/v/3479167?captions=por_br&quality=12)
+
++++
+
+Para obter uma apresentação escrita das mesmas etapas, consulte os [tutoriais do canal de correspondência direta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
+
+Para perguntas comuns sobre correspondência direta, consulte a seção [Recursos adicionais](#additional-resources) acima.
