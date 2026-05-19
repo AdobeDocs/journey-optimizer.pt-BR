@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configuração de correspondência direta
 description: Saiba como configurar o canal de correspondência direta no Journey Optimizer
 feature: Direct Mail, Surface
@@ -8,26 +10,14 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 TQID: https://experienceleague.adobe.com/3eyBGqw-gCAWi-SYSq5DoyDiFos5HUIIfMFKH3aZBo8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 1820
+source-wordcount: 1964
 ht-degree: 21%
 
 ---
@@ -96,15 +86,17 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de correspondência direta]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento de arquivos]**.
 
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
+   ![Botão Criar configuração de roteamento de arquivo nas configurações de correspondência direta](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Defina um nome para a sua configuração.
 
 1. Selecione o tipo de servidor que deseja usar para exportar seus arquivos de correspondência direta: Amazon S3, SFTP, Azure ou Data Landing Zone.
 
-   ![](assets/file-routing-config-type.png){width="800" align="center"}
+   ![Seleção de tipo de servidor para uma configuração de roteamento de arquivo de correspondência direta](assets/file-routing-config-type.png){width="800" align="center"}
 
 1. Preencha os campos específicos para cada tipo de servidor, conforme detalhado nas guias abaixo.
+
+### Escolha o tipo de servidor {#server-type}
 
 >[!BEGINTABS]
 
@@ -120,7 +112,7 @@ Se você selecionou **[!UICONTROL Amazon S3]** como o **[!UICONTROL Tipo de serv
 
 * **região do AWS**: escolha a **[!UICONTROL região do AWS]** onde a infraestrutura do servidor estará localizada. As regiões do AWS são áreas geográficas que o AWS usa para hospedar sua infraestrutura em nuvem. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta.
 
-![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+![Seleção de região do AWS para uma configuração de roteamento de arquivo do Amazon S3](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
 >[!TAB SFTP]
 
@@ -136,7 +128,7 @@ Se você selecionou **[!UICONTROL SFTP]** como o **[!UICONTROL Tipo de servidor]
 
 * **[!UICONTROL Senha]** / **[!UICONTROL Chave SSH]**:&#x200B; senha ou chave SSH usada para se conectar ao servidor SFTP.
 
-![](assets/file-routing-config-sftp-detail.png)
+![Detalhes da conexão do servidor SFTP para a configuração de roteamento de arquivos](assets/file-routing-config-sftp-detail.png)
 
 >[!TIP]
 >
@@ -164,15 +156,15 @@ Se você selecionou **[!UICONTROL Azure]** como o **[!UICONTROL Tipo de servidor
   >
   >Para especificar um caminho no contêiner para salvar o arquivo, atualize o campo **[!UICONTROL Filename]** da campanha de correspondência direta para incluir o caminho desejado. [Saiba mais](create-direct-mail.md#extraction-file)
 
-  ![](assets/file-routing-config-azure-detail.png)
+  ![Detalhes da conexão de armazenamento do Azure para a configuração de roteamento de arquivos](assets/file-routing-config-azure-detail.png)
 
 >[!TAB Zona de Aterrissagem de Dados]
 
 Se você selecionou **[!UICONTROL Zona de Aterrissagem de Dados]** como o **[!UICONTROL Tipo de servidor]**, nenhum detalhe específico será necessário.
 
-![](assets/file-routing-config-dlz-detail.png)
+![Configuração de roteamento de arquivos da Zona de Aterrissagem de Dados sem campos de servidor adicionais](assets/file-routing-config-dlz-detail.png)
 
-Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Todos os clientes de [!DNL Adobe Experience Platform] são provisionados com um contêiner da Zona de aterrissagem de dados por sandbox. Saiba mais sobre a Data Landing Zone na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -180,7 +172,7 @@ Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[
 
 Se a configuração de roteamento de arquivo for enviada por meio de jornadas, é possível especificar a frequência com a qual o arquivo será enviado ao servidor.
 
-![](assets/file-routing-journey.png)
+![Jornada configurações de frequência de exportação para uma configuração de roteamento de arquivos](assets/file-routing-journey.png)
 
 Depois de preencher os detalhes do tipo de servidor, selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
 
@@ -212,7 +204,7 @@ Se você estiver usando o SFTP com autenticação de chave SSH, deverá ter uma 
 >
 >Após a codificação Base64, a chave não conterá mais os marcadores `-----BEGIN/END RSA PRIVATE KEY-----` e não deve incluir quebras de linha. A chave pública correspondente deve ser adicionada ao arquivo de chaves autorizadas do servidor SFTP.
 
-Para obter mais informações sobre como conectar sua conta SFTP à Experience Platform, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+Para obter mais informações sobre como conectar sua conta SFTP à Experience Platform, consulte [esta documentação](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 
 +++
 
@@ -242,7 +234,7 @@ Uma configuração de correspondência direta também deve incluir a configuraç
 
 1. No painel à esquerda, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Configurações gerais]** > **[!UICONTROL Configurações de canal]**. Clique no botão **[!UICONTROL Criar configuração de canal]**. [Saiba mais](../configuration/channel-surfaces.md)
 
-   ![](assets/direct-mail-config-1.png)
+   ![Criar tela de configuração de canal na Administração](assets/direct-mail-config-1.png)
 
 1. Insira um nome e uma descrição (opcional) para a configuração e selecione o canal a ser configurado.
 
@@ -254,13 +246,13 @@ Uma configuração de correspondência direta também deve incluir a configuraç
 
 1. Selecione o canal **[!UICONTROL Correspondência direta]**.
 
-   ![](assets/direct-mail-config-2.png)
+   ![Canal de correspondência direta selecionado ao criar uma configuração de canal](assets/direct-mail-config-2.png)
 
 1. Selecione **[!UICONTROL Ação de marketing]**(s) para associar políticas de consentimento às mensagens que usam essa configuração. Todas as políticas de consentimento associadas à ação de marketing são utilizadas para respeitar as preferências dos clientes. [Saiba mais](../action/consent.md#surface-marketing-actions)
 
 1. Defina as configurações de correspondência direta na seção dedicada da configuração do canal.
 
-   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
+   ![Configurações de superfície de correspondência direta incluindo formato de arquivo e roteamento](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -268,7 +260,7 @@ Uma configuração de correspondência direta também deve incluir a configuraç
 
 1. Se você selecionar **[!UICONTROL Texto delimitado]**, defina o separador de coluna de sua escolha: tabulação, ponto e vírgula, barra vertical ou E comercial.
 
-   ![](assets/surface-direct-mail-column-separator.png)
+   ![Opções de separador de coluna delimitado por texto para arquivos de exportação de correspondência direta](assets/surface-direct-mail-column-separator.png)
 
 1. Selecione a **[!UICONTROL Configuração de roteamento de arquivos]** entre as que você criou. Isso define para onde o arquivo será exportado para ser usado pelo provedor de correspondência direta.
 
@@ -276,7 +268,7 @@ Uma configuração de correspondência direta também deve incluir a configuraç
    >
    >Se você não tiver configurado nenhuma opção de roteamento de arquivo, não será possível criar uma configuração de correspondência direta. [Saiba mais](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
+   ![Configuração de roteamento de arquivos selecionada em uma configuração de canal de correspondência direta](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
@@ -301,3 +293,12 @@ Agora você pode [criar uma mensagem de correspondência direta](../direct-mail/
     >
     >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
 -->
+
+## Tópicos relacionados {#related-topics}
+
+* [Introdução à correspondência direta](get-started-direct-mail.md)
+* [Criar uma mensagem de correspondência direta](create-direct-mail.md)
+* [Testar e enviar correspondência direta](test-send-direct-mail.md)
+* [Configurações de canal](../configuration/channel-surfaces.md)
+
+Para perguntas comuns sobre correspondência direta, consulte [Introdução à correspondência direta](get-started-direct-mail.md).
