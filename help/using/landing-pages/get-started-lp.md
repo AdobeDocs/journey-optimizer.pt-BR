@@ -25,10 +25,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 712
-ht-degree: 100%
+source-wordcount: 735
+ht-degree: 96%
 
 ---
 
@@ -130,3 +130,5 @@ A criação e a implantação de uma página de destino seguem esta sequência:
 O vídeo abaixo mostra como criar uma lista de assinaturas, configurar páginas de destino para oferecer assinaturas ou cancelar assinaturas de um serviço, integrar a opção de assinatura ou cancelamento a uma mensagem e configurar jornadas relevantes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344402?captions=por_br&quality=12&learn=on)
+
+➡️ **Veja na prática:** Conheça os [casos de uso da página de aterrissagem](lp-use-cases.md) para obter exemplos passo a passo sobre gerenciamento de assinatura, emails de confirmação e cenários de captura de dados.

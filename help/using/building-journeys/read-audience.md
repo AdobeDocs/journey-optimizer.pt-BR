@@ -36,10 +36,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 3612
-ht-degree: 10%
+source-wordcount: 3767
+ht-degree: 9%
 
 ---
 
@@ -426,13 +426,15 @@ Para obter a lista completa das medidas de proteção de Leitura de público (in
 
 ## Tópicos relacionados
 
-* [Criar públicos-alvo](../audience/about-audiences.md)
-* [Atividade de qualificação de público-alvo](audience-qualification-events.md)
-* [Usar identificadores complementares em jornadas](supplemental-identifier.md)
-* [Medidas de proteção e limitações](../start/guardrails.md#read-segment-g)
-* [Jornada taxas de processamento e gerenciamento de entradas](entry-management.md)
-* [Testar uma jornada](testing-the-journey.md)
-* [Publicar uma jornada](../building-journeys/publish-journey.md)
+* [Criar públicos-alvo](../audience/about-audiences.md) - Crie e gerencie os segmentos de público-alvo que deseja direcionar em suas jornadas de Leitura de Público-alvo.
+* [Atividade de Qualificação de público-alvo](audience-qualification-events.md) - Acione jornadas em tempo real à medida que os perfis entram ou saem de um público-alvo, em vez de processá-los em lote.
+* [Usar identificadores complementares no jornada](supplemental-identifier.md) - Estender jornadas de Leitura de Público para entidades secundárias de destino, como reservas, contratos ou assinaturas vinculadas a um perfil.
+* [Medidas de proteção e limitações](../start/guardrails.md#read-segment-g) - Revise os limites de taxa de transferência, o comportamento de repetição e os limites de tamanho do público antes de iniciar em escala.
+* [Taxas de processamento de Jornada e gerenciamento de entradas](entry-management.md) - Entenda como os perfis são inseridos na jornada e o que controla a entrada e a reentrada.
+* [Testar uma jornada](testing-the-journey.md) - Valide sua lógica de jornada usando perfis de teste antes de entrar em funcionamento.
+* [Publicar uma jornada](../building-journeys/publish-journey.md) - Ative a jornada e monitore sua execução inicial.
+* [Enviar uma mensagem aos assinantes](message-to-subscribers-uc.md) - Caso de uso completo: direcionar uma lista de assinaturas com uma jornada Ler Público, da configuração à entrega.
+* [Práticas recomendadas para jornadas de leitura de público-alvo](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=pt){target="_blank"} - Blog da comunidade que cobre armadilhas comuns, discrepâncias na contagem e práticas recomendadas comprovadas.
 
 ## Vídeo tutorial {#video}
 

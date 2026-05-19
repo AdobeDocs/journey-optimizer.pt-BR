@@ -20,10 +20,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 100%
+source-wordcount: 963
+ht-degree: 94%
 
 ---
 
@@ -151,3 +151,6 @@ Agora que você entende o que são campanhas orquestradas, é hora de se aprofun
 * **[Medidas de proteção e limitações](guardrails.md)**: revise medidas de proteção, limitações e práticas recomendadas importantes para garantir o desempenho ideal da campanha.
 * **[Perguntas frequentes](orchestrated-campaigns-faq.md)**: encontre respostas para perguntas comuns sobre recursos, funcionalidades e casos de uso de campanhas orquestradas.
 * **[Tutoriais da campanha orquestrada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}**: explore tutoriais em vídeo passo a passo que abrangem recursos e práticas recomendadas.
+* **[Envolva os clientes navegando pela atividade](engage-customers-uc.md)** - Reenvolva os perfis que navegaram, mas não compraram, usando uma campanha orquestrada em várias etapas.
+* **[Notifique os usuários sobre a disponibilidade do produto](product-availability-uc.md)** - Alerte os clientes quando um produto em que eles demonstraram interesse voltar ao estoque.
+* **[Enviar atualizações do item da lista de desejos](wishlist-uc.md)** - Acionar mensagens personalizadas quando os itens da lista de desejos forem colocados à venda ou estiverem disponíveis.

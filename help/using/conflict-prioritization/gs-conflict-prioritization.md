@@ -21,10 +21,10 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 855
-ht-degree: 100%
+source-wordcount: 869
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,4 @@ Os conjuntos de regras permitem que você **agrupe várias regras** e as aplique
 * **[Limitação de frequência por canal](channel-capping.md)**: defina limites de frequência no nível do canal para evitar o excesso de mensagens.
 * **[Definir horário de silêncio](quiet-hours.md)**: defina exclusões baseadas em tempo para entrega de mensagens.
 * **[Tutoriais de gestão de conflitos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}**: tutoriais em vídeo passo a passo.
+* **[Casos de uso do Journey Optimizer](../building-journeys/jo-use-cases.md)** - Procure padrões práticos, incluindo limite de frequência e lógica de supressão de jornada.

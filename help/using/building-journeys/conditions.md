@@ -28,10 +28,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 1921
-ht-degree: 15%
+source-wordcount: 1941
+ht-degree: 16%
 
 ---
 
@@ -221,3 +221,5 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
    >[!NOTE]
    >
    >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+
+➡️ **Veja na prática:** Saiba como usar o horário e as condições do dia da semana para [enviar emails somente em dias da semana](weekday-email-uc.md).
