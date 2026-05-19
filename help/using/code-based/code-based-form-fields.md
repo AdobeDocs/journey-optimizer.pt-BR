@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a1d8b80ef06ab981d509c0f914bd37b588e684a7
 workflow-type: tm+mt
 source-wordcount: 1245
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -51,7 +51,7 @@ Ao aplicar o modelo de conteúdo ao seu conteúdo, os usuários poderão persona
 >[!CONTEXTUALHELP]
 >id="ajo_cbe_preview_form_fields"
 >title="Verificar a renderização dos campos de formulário"
->abstract="Em modelos de conteúdo JSON ou HTML, é possível definir campos editáveis específicos que permitirão que usuários não técnicos editem facilmente o conteúdo em experiências baseadas em código, sem a necessidade de manipular o código. Crie esses campos usando a sintaxe dedicada e visualize-os usando este botão."
+>abstract="Em modelos de conteúdo JSON ou HTML, é possível definir campos editáveis específicos que habilitam usuários comuns a editar facilmente o conteúdo em experiências baseadas em código, sem a necessidade de manipular código. Crie esses campos usando a sintaxe dedicada e visualize-os usando este botão."
 
 Para tornar alguns dos códigos JSON ou HTML editáveis, comece criando uma experiência baseada em código [modelo de conteúdo](../content-management/content-templates.md), em que é possível definir campos de formulário específicos.
 
@@ -88,6 +88,13 @@ Para tornar alguns dos códigos JSON ou HTML editáveis, comece criando uma expe
    | Declarar um campo editável com um **valor padrão**. Ao adicionar o modelo ao seu conteúdo, esse valor padrão será usado se você não personalizá-lo. | Adicione o valor padrão entre as tags em linha. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
    | Defina um **rótulo** para o campo editável. Esse rótulo será exibido no editor de código ao editar os campos do modelo. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
 
+   <!--
+    | Action | Parameter| Example |
+    | ------- | ------- | ------- |
+    |Declare an editable field containing an **image source** that needs to be published.|`assetType="image"`|`{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}`|
+    |Declare an editable field containing an **URL** that needs to be tracked.br/>Note that out-of-the-box "Mirror page URL" and "Unsubscribe link" predefined blocks cannot become editable fields.>|`assetType="url"`|`{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}`|
+    -->
+
 1. Clique em **[!UICONTROL Visualizar campos de formulário]** para verificar como os campos de formulário editáveis serão exibidos nas experiências baseadas em código que aplicam este modelo.
 
    ![](assets/cbe-template-form-field-preview.png){width="85%"}
@@ -102,7 +109,7 @@ Para tornar alguns dos códigos JSON ou HTML editáveis, comece criando uma expe
 
    ![](assets/cbe-template-form-field-inline.png)
 
-1. Salve seu template.
+1. Salve o modelo.
 
 ### Usar políticas de decisão em formulários de campo editáveis {#decision-policy-in-form-fields}
 
@@ -130,7 +137,7 @@ Ao criar um modelo de conteúdo de experiência baseado em código, você pode u
 
    ![](assets/cbe-template-policy-variable.png){width="85%"}
 
-1. Salve seu template.
+1. Salve o modelo.
 
 ### Exemplos de código {#code-examples}
 
@@ -210,7 +217,7 @@ Abaixo estão alguns exemplos de modelos JSON e HTML, alguns deles incluindo pol
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_form_fields"
 >title="O que são campos de formulário?"
->abstract="Essa experiência baseada em código contém campos de formulário que podem ser facilmente editados sem a necessidade de manipular o código no editor de personalização."
+>abstract="Essa experiência baseada em código contém campos de formulário que podem ser facilmente editados sem a necessidade de manipular código no editor de personalização."
 
 Agora que o modelo de conteúdo contendo campos de formulário editáveis predefinidos foi criado, você pode criar uma experiência baseada em código usando esse modelo de conteúdo.
 
@@ -250,7 +257,7 @@ Você poderá editar facilmente os campos de formulário a partir de uma jornada
 
 1. Para editar o restante do código, clique no botão **[!UICONTROL Editar código]** e atualize seu conteúdo de experiência baseado em código completo, incluindo os campos de formulário editáveis. [Saiba mais](create-code-based.md#edit-code)
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Saiba como adicionar campos editáveis a modelos de conteúdo de canal de experiência baseados em código.
 
