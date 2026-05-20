@@ -39,10 +39,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
+source-git-commit: 45054647f14fdf4b073825b4db2715a323f2a7a0
 workflow-type: tm+mt
-source-wordcount: 4226
-ht-degree: 99%
+source-wordcount: 4262
+ht-degree: 98%
 
 ---
 
@@ -212,7 +212,10 @@ Esta seção aborda medidas de proteção e limitações para jornadas, incluind
 
 ### Medidas de proteção gerais da jornada {#journeys-guardrails-journeys}
 
-* O limite de número de atividades em uma jornada é de 50. O número de atividades é exibido na seção superior esquerda da tela da jornada. Isso ajudará na legibilidade, controle de qualidade e solução de problemas.
+* O limite de número de atividades em uma jornada é de 50. O número de atividades é exibido na seção superior esquerda da tela da jornada.
+
+  Como jornadas próximas a esse limite, o desempenho de edição e publicação pode ser degradado, e podem ocorrer falhas de salvamento ou validação. Se isso acontecer, divida sua jornada em sub-jornadas menores usando [atividades de salto](../building-journeys/jump.md) ou recrie-a em uma nova versão. O limite de atividade não pode ser aumentado.
+
 * Por padrão, o número de jornadas ativas/pausadas/em execução de teste ao mesmo tempo é limitado a 100.  O número atual de jornadas é exibido acima da tela de jornada.
 * À medida que você publica jornadas, dimensionaremos e ajustaremos automaticamente para garantir uma máxima taxa de transferência e estabilidade. Ao se aproximar do marco de 100 jornadas ativas de uma só vez, você verá uma notificação aparecer na interface sobre essa conquista. Se vir esta notificação e precisar aumentar o número de jornadas para acima de 100 jornadas ativas por vez, crie um tíquete para o Atendimento ao cliente e ajudaremos a atingir suas metas.
 * Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até 10 minutos para ficar ativa e ouvir os perfis que entram ou saem do público-alvo.
