@@ -9,23 +9,13 @@ mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: 853
 ht-degree: 3%
 
 ---
@@ -73,6 +63,16 @@ Depois de adicionar uma política de decisão ao conteúdo, você pode usar atri
    >[!NOTE]
    >
    >Se você usar várias políticas de decisão no mesmo email (por exemplo, uma para o cabeçalho e outra para o rodapé), a mesma oferta será desduplicada entre os posicionamentos: não é renderizada duas vezes. A segunda política de decisão não retornará nenhum conteúdo e exibirá um espaço em branco, a menos que você tenha configurado uma oferta de fallback, nesse caso, o fallback será exibido.
+
+Você também pode inserir o código da política de decisão ao usar o **[!UICONTROL Código seu próprio]** no Designer de email. Navegue até **[!UICONTROL Políticas de decisão]** e selecione **[!UICONTROL Inserir sintaxe]** — a interface de seleção de posicionamento será exibida para que você possa atribuir um posicionamento diretamente. [Saiba como codificar seu próprio conteúdo de email](../email/code-content.md).
+
+>[!AVAILABILITY]
+>
+>A inserção de políticas de decisão no **[!UICONTROL Codifique o seu próprio modo]** está com a Disponibilidade Limitada.
+
+>[!NOTE]
+>
+>No modo **[!UICONTROL Codifique você mesmo]**, somente um item de decisão pode ser retornado por política, pois o componente **[!UICONTROL Grade de Repetição]** não está disponível.
 
 >[!TAB SMS]
 

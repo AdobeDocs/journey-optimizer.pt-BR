@@ -2,25 +2,30 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Acionar uma campanha orquestrada usando um sinal
-description: Saiba como acionar uma campanha Orquestrada usando um sinal e transmitindo parâmetros que ficam disponíveis como na campanha.
+description: Saiba como acionar uma campanha Orquestrada com um sinal da API REST ou da atividade End de outra campanha e como transmitir parâmetros para a campanha.
 feature: Campaigns
 topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1429'
 ht-degree: 0%
 
 ---
 
 # Acionar campanhas orquestradas usando um sinal {#trigger-signal}
 
-Você pode acionar uma campanha Orquestrada enviando um sinal a ela em vez de executá-la de acordo com um agendamento. O sinal é enviado por uma chamada de API de um sistema ou aplicativo externo. Ao usar um sinal, você pode transmitir parâmetros que se tornam disponíveis como variáveis na campanha — para uso em direcionamento, condições ou expressões.
+Você pode iniciar uma campanha Orquestrada com um sinal em vez de uma programação fixa. Quando a campanha recebe o sinal, ele é executado e você pode passar parâmetros na carga. Elas se tornam disponíveis como variáveis para direcionamento, condições ou expressões.
 
-Esta página explica como configurar e acionar um sinal. Quando as variáveis estiverem disponíveis, para obter detalhes sobre como usá-las em regras e condições de **[!UICONTROL Teste]**, consulte [Usar variáveis em campanhas orquestradas](variables-orchestrated-campaigns.md).
+O sinal pode vir de um dos seguintes:
+
+* API REST — Seu aplicativo ou integração chama o ponto de extremidade do acionador (consulte [Publicar e acionar a campanha](#publish) e a [Referência da API](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}).
+* Outra campanha Orquestrada — A atividade **[!UICONTROL End]** de uma campanha upstream envia o mesmo tipo de sinal quando uma ramificação é concluída. [Saiba como configurar a atividade End](#signal-end).
+
+Esta página explica como configurar a campanha que recebe o sinal (agendamento, parâmetros, teste, publicação) e, em seguida, como acioná-la pela API ou por uma atividade **[!UICONTROL End]**. Quando as variáveis estiverem disponíveis, para obter detalhes sobre como usá-las em regras e condições de **[!UICONTROL Teste]**, consulte [Usar variáveis em campanhas orquestradas](variables-orchestrated-campaigns.md).
 
 Para obter a especificação REST completa do ponto de extremidade do acionador (caminhos, cabeçalhos, corpo, respostas e erros), consulte [Acionar API de campanhas orquestradas](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} na documentação da API do Adobe Journey Optimizer.
 
@@ -49,7 +54,7 @@ Para definir uma campanha orquestrada para iniciar em um sinal em vez de um agen
 
 ## Adicionar parâmetros para a carga útil do sinal (opcional) {#parameters}
 
-Você pode passar parâmetros no sinal de acionador e usá-los em sua campanha no contexto de execução — por exemplo, em direcionamento, condições ou expressões. Primeiro, defina cada parâmetro nas configurações de agendamento e passe o respectivo valor ao chamar a API de acionador.
+Você pode passar parâmetros no sinal de acionador e usá-los em sua campanha no contexto de execução — por exemplo, em direcionamento, condições ou expressões. Defina cada parâmetro nas configurações de agendamento primeiro e passe o respectivo valor ao chamar a API de acionador ou ao mapear parâmetros da atividade **[!UICONTROL End]** de uma campanha upstream ([veja abaixo](#signal-end)).
 
 1. Abra o agendador de campanhas e selecione **[!UICONTROL Adicionar parâmetro]**.
 
@@ -59,11 +64,15 @@ Você pode passar parâmetros no sinal de acionador e usá-los em sua campanha n
 
 >[!NOTE]
 >
->Se você passar um parâmetro na chamada à API que não foi definido no scheduler, a chamada à API ainda será bem-sucedida e o parâmetro será propagado e você poderá usá-lo em expressões. No entanto, a interface de campanha orquestrada não ajudará você a usá-la; por exemplo, a atividade Test não listará ou mostrará parâmetros que não foram definidos no scheduler.
+>Para campanhas orquestradas acionadas pela API REST, se você passar um parâmetro na chamada de API que não foi definido no scheduler, a chamada de API ainda será bem-sucedida e o parâmetro será propagado, e você poderá usá-lo em expressões. No entanto, a interface de campanha orquestrada não ajudará você a usá-la; por exemplo, a atividade Test não listará ou mostrará parâmetros que não foram definidos no scheduler.
 
-## Criar e testar a campanha {#build-and-test}
+## Testar a campanha {#build-and-test}
 
-Crie a campanha na tela e, opcionalmente, teste-a no rascunho acionando o sinal pela API antes de publicar.
+Crie sua campanha na tela e teste-a no **[!UICONTROL Rascunho]** antes de publicar enviando o sinal pela API REST.
+
+* **Campanhas orquestradas acionadas pela API REST** — Use as etapas abaixo para executar a campanha em rascunho e validar a definição de metas, os parâmetros e a lógica de entrega antes da publicação.
+
+* **Campanhas orquestradas acionadas por uma atividade End** — Não é possível executar a cadeia completa de ponta a ponta no rascunho: depois que a campanha upstream é publicada, sua atividade **[!UICONTROL End]** inicia apenas uma campanha downstream publicada. Para testar o downstream antes que ambas as campanhas sejam publicadas, mantenha essa campanha no **[!UICONTROL Rascunho]**, defina **[!UICONTROL Valores de teste]** para seus parâmetros de sinal no scheduler ([Adicionar parâmetros para a carga de sinal](#parameters)) e siga as etapas de API abaixo. A chamada de API de gatilho usa a mesma carga que uma atividade **[!UICONTROL End]** no tempo de execução, portanto, você pode validar o roteamento de parâmetros e a lógica da tela antes de publicar a campanha downstream e configurar a atividade upstream **[!UICONTROL End]** ([Acionar a partir da atividade End de outra campanha](#signal-end)).
 
 1. Adicione e conecte atividades (público-alvo, direcionamento, deliveries) na tela. [Saiba como orquestrar as atividades da campanha](orchestrate-activities.md)
 
@@ -110,9 +119,13 @@ Quando estiver satisfeito com os resultados do teste, [publique a campanha](#pub
 
 ## Publicar e acionar a campanha {#publish}
 
-Depois de [criar e testar a campanha](#build-and-test), publique a campanha para que ela possa ser acionada pelo seu aplicativo.
+Depois de [testar a campanha](#build-and-test), publique-a para que ela possa receber um sinal do seu aplicativo ou da atividade **[!UICONTROL End]** de outra campanha. [Saiba mais sobre como iniciar e monitorar a campanha](start-monitor-campaigns.md#publish).
 
-1. Clique em **[!UICONTROL Publicar]** na tela da campanha. A campanha deve ser publicada antes de ser acionada a partir de um sistema externo. [Saiba mais sobre como iniciar e monitorar a campanha](start-monitor-campaigns.md#publish).
+Em seguida, você pode acioná-lo a partir da API REST ou da atividade **[!UICONTROL End]** de outra campanha. Consulte as seções abaixo.
+
+### Enviar o sinal com a API REST {#publish-api}
+
+Após a publicação, siga estas etapas sempre que acionar a campanha a partir de seu próprio aplicativo:
 
 1. Abra o agendador de campanha, selecione **[!UICONTROL Copiar solicitação de API]** e escolha o formato (cURL ou Solicitação HTTP).
 
@@ -124,8 +137,30 @@ Depois de [criar e testar a campanha](#build-and-test), publique a campanha para
 
    >[!IMPORTANT]
    >
-   >Para uma campanha orquestrada ao vivo, uma proteção de limitação impõe um **intervalo mínimo de uma hora** entre duas execuções de acionador de API. Se você chamar a API novamente antes que esse intervalo tenha decorrido, a API retornará o erro **HTTP 429** (muitas solicitações). Essa proteção não é aplicada quando você aciona uma versão de rascunho para testá-la.
+   >Para uma campanha orquestrada ao vivo, uma proteção de limitação impõe um intervalo mínimo de uma hora entre duas execuções de acionador de API. Se você chamar a API novamente antes que esse intervalo tenha decorrido, a API retornará HTTP 429 (muitas solicitações). Essa proteção não é aplicada quando você aciona uma versão de rascunho para testá-la.
 
    Se você adicionou parâmetros à carga do sinal, os valores transmitidos na chamada de API serão expostos como variáveis de evento da campanha quando a campanha for executada. Para inspecioná-los, abra os logs de campanha na barra de ferramentas da tela de campanha. Na guia **[!UICONTROL Tasks]**, identifique a tarefa correspondente ao sinal e clique no ícone de lápis para acessar as variáveis de evento relacionadas. [Saiba como acessar logs e tarefas](start-monitor-campaigns.md#logs-tasks).
 
    ![Tela de logs e tarefas em que as variáveis de evento da campanha estão disponíveis](assets/trigger-events-variables.png){zoomable="yes"}
+
+### Enviar o sinal da atividade End de outra campanha {#signal-end}
+
+Use este caminho para encadear campanhas orquestradas: quando a campanha upstream conclui uma ramificação, a atividade **[!UICONTROL End]** envia um sinal para uma campanha downstream que já está definida como **[!UICONTROL Acionada por um sinal]**. Isso permite reutilizar campanhas menores e transmitir uma carga diferente de cada chamador.
+
+>[!NOTE]
+>
+>* Você pode usar várias atividades **[!UICONTROL End]** na mesma tela e configurar cada uma delas para acionar uma campanha downstream diferente.
+>* Várias campanhas podem acionar a mesma campanha downstream. Cada chamada pode enviar uma carga diferente.
+
+Siga estas etapas na campanha que deve ser executada primeiro:
+
+1. Abra a campanha Orquestrada que deve enviar o sinal e selecione uma atividade **[!UICONTROL End]** ao final da ramificação que deve ser concluída antes do início da campanha downstream.
+1. Na seção **[!UICONTROL Sinal externo]**, selecione a campanha downstream a ser acionada.
+
+1. Opcionalmente, adicionar parâmetros: use os mesmos nomes do agendamento da campanha downstream e defina cada valor.
+
+   ![](assets/end-signal.png)
+
+1. Para testar a campanha downstream no modo de rascunho antes de publicá-la, siga as etapas na seção [testar a campanha](#build-and-test) para acioná-la no rascunho com a API REST.
+
+A campanha downstream deve ser publicada antes que a campanha upstream seja executada o suficiente para alcançar a atividade **[!UICONTROL End]** que a aciona. Se o sinal for enviado enquanto a campanha de target não for publicada, a execução falhará. Publique a campanha downstream e, em seguida, retome ou reinicie conforme necessário.
