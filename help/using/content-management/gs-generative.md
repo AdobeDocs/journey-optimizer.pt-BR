@@ -10,25 +10,15 @@ level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
 workflow-type: tm+mt
-source-wordcount: 999
+source-wordcount: 988
 ht-degree: 100%
 
 ---
@@ -155,7 +145,7 @@ As diretrizes gerais para usar o Assistente de IA do Adobe Journey Optimizer na 
 ### Uso legal e transparência
 
 * O uso do Assistente de IA está sujeito às diretrizes do usuário para IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR)
-* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/br/firefly/using/content-credentials.html)
+* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 ### Assistente de IA para expressões de personalização {#ai-assistant-personalization-editor-guardrails}
 
@@ -198,6 +188,5 @@ As seguintes medidas de proteção se aplicam ao [Assistente de IA para express�
 
 ## Recursos adicionais
 
-* **[Experimentação generativa](generative-experimentation.md)**: entenda como combinar conteúdo gerado por IA com experimentação.
 * **[Casos de uso do Assistente de IA](generative-uc.md)**: saiba como usar o Assistente de IA por meio de casos de uso
 * **[Tutoriais do Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre os recursos do Assistente de IA e as práticas recomendadas.
