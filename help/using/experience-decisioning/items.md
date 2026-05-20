@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: dfffbdc916a2ea6082d747927c28486e51fb381e
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: '2247'
-ht-degree: 15%
+source-wordcount: '2347'
+ht-degree: 14%
 
 ---
 
@@ -58,13 +58,19 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 
 1. O campo **Tags** permite atribuir Tags unificadas do Adobe Experience Platform aos itens de decisão. Isso permite classificá-los facilmente e melhorar a pesquisa. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
 
-1. Use [fragmentos](../content-management/fragments.md) para adicionar vários conteúdos ao item de decisão - por exemplo, se você deseja exibir conteúdos diferentes para vários modelos de dispositivos móveis. Em seguida, você pode aproveitar esses fragmentos em suas políticas de decisão. [Saiba como](fragments-decision-policies.md)
+1. Adicione fragmentos ao item de decisão para enriquecer o conteúdo. Há suporte para dois tipos de fragmentos:
 
-   >[!AVAILABILITY]
-   >
-   >Este recurso está disponível na Disponibilidade Limitada para os canais de **Experiência baseada em código** e **Email**. Para solicitar acesso, entre em contato com o representante da Adobe.
+   * **Fragmentos de conteúdo do Journey Optimizer** — Use fragmentos de expressão reutilizáveis criados no Journey Optimizer para exibir conteúdos diferentes de acordo com o contexto, por exemplo, em vários modelos de dispositivos móveis. Você pode aproveitar esses fragmentos em suas políticas de decisão em todos os canais em que a Decisão está disponível (experiência baseada em código, email, push, SMS e jornadas). [Saiba como](fragments-decision-policies.md#ajo-fragments)
 
-   Ao usar esses fragmentos em suas políticas de decisão, você pode tornar um fragmento opcional para que ele seja ignorado se estiver temporariamente indisponível no Edge. [Saiba como](fragments-decision-policies.md#optional-fragments)
+     Ao usar esses fragmentos em suas políticas de decisão, você pode tornar um fragmento opcional para que ele seja ignorado se estiver temporariamente indisponível no Edge. [Saiba como](fragments-decision-policies.md#temporary-unavailable-fragments)
+
+   * **Fragmentos de conteúdo do AEM** — Mapeie fragmentos de conteúdo do Adobe Experience Manager diretamente para os atributos do item de decisão. Preencha o campo **Chave de referência do fragmento** e selecione o fragmento no campo **Valor**. Depois de mapeados, os campos do fragmento de conteúdo podem ser selecionados na política de decisão, e o Journey Optimizer pode otimizar qual fragmento é enviado para cada perfil. [Saiba como](fragments-decision-policies.md#aem-fragments-decisioning)
+
+     >[!AVAILABILITY]
+     >
+     >Esse recurso está disponível em Disponibilidade limitada para canais de saída com suporte à Decisão. Para solicitar acesso, entre em contato com o representante da Adobe.
+
+     Para obter pré-requisitos e medidas de proteção, consulte [Usar fragmentos de conteúdo do AEM com a Experience Decisioning](../integrations/aem-fragments.md#aem-decisioning).
 
 1. Especifique atributos personalizados (opcional). Atributos personalizados são atributos específicos adaptados às suas necessidades que podem ser atribuídos a um item de decisão. Eles são definidos no schema do catálogo dos itens de decisão. [Saiba como trabalhar com catálogos](catalogs.md)
 
