@@ -11,7 +11,7 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: aea783bd8f2351d4a5d8aa6b84c24a713a6c0306
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >Este recurso está atualmente em **beta privado**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
 
-A seção **[!UICONTROL Administrador de Fidelidade]** é onde os administradores configuram como o Journey Optimizer se conecta ao back-end do seu programa de fidelidade. Os profissionais de marketing usam o **[!UICONTROL Loyalty Challenges (Beta)]** para projetar desafios, tarefas, conteúdo e mensagens; o Loyalty Admin é uma configuração separada e única para cumprimento de premiação e mapeamento de eventos.
+A seção **[!UICONTROL Administrador de Fidelidade]** é onde você configura como o Journey Optimizer se conecta ao back-end do seu programa de fidelidade. Os profissionais de marketing usam o **[!UICONTROL Loyalty Challenges (Beta)]** para projetar desafios, tarefas, conteúdo e mensagens; o Loyalty Admin é uma configuração separada e única para cumprimento de premiação e mapeamento de eventos.
 
 Quando um cliente conclui um desafio (ou atinge um marco de premiação), a Journey Optimizer chama o provedor de premiação configurado aqui para fornecer pontos ou outras recompensas. As configurações de **[!UICONTROL Conteúdo]**, **[!UICONTROL Mensagens]** e **[!UICONTROL Público]** do desafio não são afetadas pela configuração de Administrador de Fidelidade.
 
