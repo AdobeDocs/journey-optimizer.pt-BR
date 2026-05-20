@@ -33,7 +33,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 618
 ht-degree: 8%
@@ -48,7 +48,7 @@ A criação de conteúdo de mensagem no Adobe Journey Optimizer permite criar co
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Conteúdo do email de design
 
@@ -58,7 +58,7 @@ Domine o design de email com o Designer de email, crie layouts responsivos, apli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=pt-BR)
 
 Criar notificações por push
 
@@ -68,17 +68,17 @@ Crie notificações por push atraentes para o iOS e o Android, configure o conte
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=pt-BR)
 
 Criar mensagens SMS e MMS
 
 Componha mensagens de texto personalizadas com SMS, aprimore as comunicações com conteúdo multimídia usando MMS e aproveite o conteúdo dinâmico para mensagens direcionadas.
 
-[Criar mensagens de texto](../sms/create-sms.md)
+[Criar mensagens de texto](../mobile/create-mobile-message.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
 
 Criar mensagens no aplicativo
 
@@ -88,7 +88,7 @@ Crie experiências envolventes no aplicativo com várias opções de layout, inc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
 
 Personalizar o conteúdo
 
@@ -98,7 +98,7 @@ Adicione personalização a mensagens usando atributos de perfil, utilize o edit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Usar modelos e fragmentos
 

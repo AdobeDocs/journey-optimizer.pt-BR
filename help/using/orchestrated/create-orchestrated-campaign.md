@@ -13,10 +13,10 @@ feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 1183
-ht-degree: 63%
+source-wordcount: 1227
+ht-degree: 55%
 
 ---
 
@@ -63,17 +63,17 @@ Para criar uma campanha Orquestrada, siga estas etapas:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Scheduler"
->abstract="Como gerente de campanha, é possível agendar o início automático de campanhas em horários específicos, permitindo o início no tempo adequado e dados de direcionamento precisos para comunicações de marketing."
+>abstract="Como gerente de campanha, você pode agendar campanhas para serem iniciadas automaticamente em horários específicos ou defini-las como **Acionadas por um sinal** para que iniciem quando chamadas da API REST ou de outra atividade **Fim** de campanha orquestrada. [Saiba mais](trigger-orchestrated-campaign.md)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
 >title="Validade do Scheduler"
->abstract="É possível definir um período de validade para o Scheduler. Pode ser permanente (padrão) ou pode ser válido até uma data específica."
+>abstract="Para campanhas programadas, defina um período de validade para o scheduler. Pode ser permanente (padrão) ou válido até uma data específica."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="Opções do Scheduler"
->abstract="Defina a frequência do scheduler. Pode ser executado em um momento específico, uma ou várias vezes por dia, semana ou mês."
+>abstract="Escolha como a campanha é iniciada: em um agendamento único ou recorrente (uma vez, diariamente, semanalmente, mensalmente etc.) ou **Acionado por um sinal** para que aguarde uma chamada de API ou uma atividade **End** de campanha upstream. Para campanhas acionadas por sinal, é possível definir parâmetros a serem transmitidos na carga. [Saiba mais](trigger-orchestrated-campaign.md)"
 
 Por padrão, as campanhas orquestradas começam quando ativadas manualmente e terminam após a execução de suas atividades associadas. Se preferir atrasar a execução ou executar a campanha de forma recorrente, é possível definir uma programação para a campanha.
 

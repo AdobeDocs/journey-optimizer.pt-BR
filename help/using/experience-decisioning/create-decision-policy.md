@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 2257
+source-wordcount: 2285
 ht-degree: 6%
 
 ---
@@ -131,9 +131,13 @@ Para experiências baseadas em código, você pode adicionar uma nova política 
 
    +++
 
-Você também pode adicionar políticas de decisão ao usar o **[!UICONTROL Codifique o seu próprio]** modo no Designer de email. Para fazer isso, navegue até **[!UICONTROL Políticas de decisão]** para inserir o código da política de decisão. [Saiba como codificar seu próprio conteúdo de email](../email/code-content.md).
+Você também pode adicionar políticas de decisão ao usar o **[!UICONTROL Codifique o seu próprio]** modo no Designer de email. Para fazer isso, navegue até **[!UICONTROL Políticas de decisão]** para inserir o código de política de decisão — a interface de seleção de posicionamento será exibida, permitindo escolher um posicionamento para a política de decisão. [Saiba como codificar seu próprio conteúdo de email](../email/code-content.md).
 
 ![](assets/decision-policy-add-code-your-own.png)
+
+>[!AVAILABILITY]
+>
+>A inserção de políticas de decisão no **[!UICONTROL Codifique o seu próprio modo]** está com a Disponibilidade Limitada.
 
 >[!NOTE]
 >

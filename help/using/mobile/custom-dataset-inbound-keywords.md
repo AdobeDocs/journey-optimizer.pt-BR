@@ -6,7 +6,7 @@ description: Saiba como armazenar palavras-chave de SMS de entrada em um conjunt
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 8%
@@ -91,7 +91,7 @@ Um conjunto de dados é o container de armazenamento para dados assimilados. Cad
 
 ## Configurar credenciais da API {#configure-api-credentials}
 
-Configure credenciais de acordo com seu provedor de SMS usando a [Introdução à configuração de SMS/MMS/RCS](sms-configuration.md). Em seguida, conclua as etapas abaixo para selecionar o conjunto de dados de entrada personalizado.
+Configure credenciais de acordo com seu provedor de SMS usando a [Introdução à configuração de SMS/MMS/RCS](mobile-configuration.md). Em seguida, conclua as etapas abaixo para selecionar o conjunto de dados de entrada personalizado.
 
 1. No painel à esquerda, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]** `>` **[!UICONTROL Configurações de SMS]** e selecione o menu **[!UICONTROL Credenciais de API]**. Clique no botão **[!UICONTROL Criar novas credenciais de API]**.
 

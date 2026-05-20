@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gerenciamento de recusa para mensagens de texto
+title: Gerenciamento de recusa para mensagens móveis
 description: Saiba como gerenciar o cancelamento com mensagens SMS/MMS
 feature: SMS
 topic: Content Management
@@ -24,20 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
 source-wordcount: 673
 ht-degree: 14%
 
 ---
 
-# Gerenciamento de recusa para mensagens de texto {#sms-opt-out}
+# Gerenciamento de recusa para mensagens móveis {#sms-opt-out}
 
 De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os destinatários cancelarem facilmente a inscrição. [Saiba mais sobre privacidade e gerenciamento de recusa](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >
->As comunicações de mensagem de texto podem estar sujeitas a vários requisitos de conformidade legal, dependendo de sua natureza, do local de onde você está enviando suas mensagens de texto e do local de seus destinatários. Enquanto a Adobe Journey Optimizer lida com mensagens em códigos curtos, códigos longos e números de chamada gratuita conforme detalhado abaixo, consulte seu departamento jurídico para garantir que suas comunicações de mensagens de texto estejam em conformidade com todos os requisitos de conformidade legal aplicáveis.
+>As comunicações de mensagens móveis podem estar sujeitas a vários requisitos de conformidade legal, dependendo de sua natureza, do local de onde você está enviando suas mensagens móveis e do local de seus recipients. Enquanto a Adobe Journey Optimizer lida com mensagens em códigos curtos, códigos longos e números de chamada gratuita conforme detalhado abaixo, consulte seu departamento jurídico para garantir que suas comunicações de mensagens móveis estejam em conformidade com todos os requisitos de conformidade legal aplicáveis.
 >
 
 ## Palavras-chave de entrada nativas {#sms-native-keywords}
@@ -60,7 +60,7 @@ Nenhuma etapa é necessária para garantir que os recursos de recusa de SMS func
 
 Se você definir palavras-chave de recusa personalizadas nas credenciais da API do SMS, elas substituirão as palavras-chave de entrada padrão listadas acima. Para manter funcionais as palavras-chave padrão, como PARAR, SAIR, CANCELAR, ENCERRAR e CANCELAR INSCRIÇÃO, inclua-as explicitamente junto com suas palavras-chave personalizadas no campo Palavras-chave de recusa da sua configuração de SMS. Caso contrário, somente suas palavras-chave personalizadas serão reconhecidas, e as palavras-chave padrão não acionarão mais ações de recusa.
 
-Observe que se um cliente responder PARAR para uma mensagem de texto, o provedor bloqueará todo o SMS subsequente da ID do remetente específica (código curto ou número longo), incluindo mensagens transacionais. Para garantir o delivery ininterrupto de SMS transacional, use uma ID do remetente separada que não tenha sido recusada anteriormente.
+Observe que se um cliente responder PARAR para uma mensagem móvel, o provedor bloqueará todo o SMS subsequente da ID do remetente específica (código curto ou número longo), incluindo mensagens transacionais. Para garantir o delivery ininterrupto de SMS transacional, use uma ID do remetente separada que não tenha sido recusada anteriormente.
 
 
 >[!NOTE]

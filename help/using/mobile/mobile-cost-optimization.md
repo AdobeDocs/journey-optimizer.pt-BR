@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
 source-wordcount: 544
 ht-degree: 1%
@@ -52,7 +52,7 @@ Por exemplo, uma mensagem de 1.600 caracteres pode consumir 10 créditos de SMS,
 
 ## Evite caracteres especiais que aumentem o comprimento {#avoid-special-characters}
 
-Determinados caracteres, como `| ^ € { } [ ] ~ \`, são contados como dois caracteres na codificação GSM. A inclusão desses caracteres pode fazer com que sua mensagem exceda o **limite de 160 caracteres** mais rapidamente.
+Determinados caracteres, como `| ^ &euro; { } [ ] ~ \`, são contados como dois caracteres na codificação GSM. A inclusão desses caracteres pode fazer com que sua mensagem exceda o **limite de 160 caracteres** mais rapidamente.
 
 ## Impedir codificação UCS-2 {#prevent-ucs2-encoding}
 

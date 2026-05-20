@@ -5,10 +5,10 @@ title: Canal de SMS/MMS/RCS
 description: Canal de SMS/MMS/RCS
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 79%
+source-wordcount: '282'
+ht-degree: 80%
 
 ---
 
@@ -26,7 +26,7 @@ Introdução às mensagens de texto
 
 Saiba como configurar, criar e gerenciar mensagens SMS, MMS e RCS no Adobe Journey Optimizer.
 
-[Começar agora](../using/sms/get-started-sms.md)
+[Começar agora](../using/mobile/get-started-mobile.md)
 :::
 
 :::
@@ -36,7 +36,7 @@ Como criar mensagens SMS, MMS e RCS
 
 Guia passo a passo para elaborar, configurar e enviar mensagens de texto personalizadas como parte de jornadas ou campanhas.
 
-[Saiba mais](../using/sms/create-sms.md)
+[Saiba mais](../using/mobile/create-mobile-message.md)
 :::
 
 :::
@@ -46,7 +46,7 @@ Verificar e enviar mensagens de texto
 
 Visualize, valide e envie mensagens, garantindo o sucesso da entrega e a adesão às práticas recomendadas.
 
-[Obter detalhes](../using/sms/send-sms.md)
+[Obter detalhes](../using/mobile/send-mobile-message.md)
 :::
 
 :::
@@ -56,7 +56,7 @@ Gerenciar recusas de mensagens de texto
 
 Garanta a conformidade com os padrões do setor, gerenciando processos de recusa de comunicações por SMS, MMS e RCS.
 
-[Leia o guia](../using/sms/sms-opt-out.md)
+[Leia o guia](../using/mobile/mobile-opt-out.md)
 :::
 
 :::
@@ -66,7 +66,7 @@ Configurar subdomínios de SMS
 
 Configure subdomínios de SMS para a entrega de mensagens, incluindo configuração, delegação e gerenciamento.
 
-[Configurar agora](../using/sms/sms-subdomains.md)
+[Configurar agora](../using/mobile/mobile-subdomains.md)
 :::
 
 :::
@@ -76,7 +76,7 @@ Configurar canais de SMS/MMS/RCS
 
 Orientações abrangentes sobre a configuração de canais de mensagens com provedores compatíveis, configurações personalizadas e opções sob medida.
 
-[Explore as configurações](../using/sms/sms-configuration.md)
+[Explore as configurações](../using/mobile/mobile-configuration.md)
 :::
 
 ::::

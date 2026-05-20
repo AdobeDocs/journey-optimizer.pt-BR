@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configurar o provedor personalizado
-description: Saiba como configurar seu ambiente para enviar mensagens de texto com o Journey Optimizer com um provedor personalizado
+description: Saiba como configurar seu ambiente para enviar mensagens móveis com o Journey Optimizer com um provedor personalizado
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -22,9 +22,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: 881
 ht-degree: 11%
 
 ---
@@ -46,20 +46,20 @@ ht-degree: 11%
 >title="Conteúdo do provedor"
 >abstract="Forneça o conteúdo da solicitação para garantir que os dados corretos sejam enviados para processamento e geração de resposta."
 
-Esse recurso permite integrar e configurar seus próprios provedores de mensagens, oferecendo flexibilidade além das opções padrão (Sinch, Twilio e Infobip). Isso permite a criação, entrega, relatórios e gerenciamento de consentimento perfeitos para mensagens SMS e RCS.
+Esse recurso permite integrar e configurar seus próprios provedores de mensagens, oferecendo flexibilidade além das opções padrão (Sinch, Twilio e Infobip). Isso permite a criação, entrega, relatórios e gerenciamento de consentimento perfeitos para mensagens móveis.
 
 Com a configuração personalizada do provedor, você pode conectar serviços de mensagens de terceiros diretamente no Journey Optimizer, personalizar cargas de mensagem para conteúdo dinâmico e gerenciar preferências de aceitação/recusa para garantir a conformidade entre os canais SMS e RCS.
 
 Para configurar seu provedor personalizado, siga as etapas abaixo:
 
 1. [Criar credencial de API](#api-credential)
-1. [Criar webhook](sms-webhook.md)
-1. [Criar configuração de canal](sms-configuration-surface.md)
-1. [Criar Jornada ou Campanha com ação de canal SMS](create-sms.md)
+1. [Criar webhook](mobile-webhook.md)
+1. [Criar configuração de canal](mobile-configuration-surface.md)
+1. [Criar Jornada ou Campanha com ação de canal SMS](create-mobile-message.md)
 
 ## Criar a credencial da API {#api-credential}
 
-Para enviar mensagens SMS e RCS no Journey Optimizer usando um provedor personalizado não disponível imediatamente pela Adobe (por exemplo, Sinch, Infobip, Twilio), siga estas etapas:
+Para enviar uma mensagem móvel no Journey Optimizer usando um provedor personalizado não disponível imediatamente pela Adobe (por exemplo, Sinch, Infobip, Twilio), siga estas etapas:
 
 1. No painel à esquerda, navegue até **[!UICONTROL Administração]** `>` **[!UICONTROL Canais]**, selecione o menu **[!UICONTROL Credenciais da API]** em **[!UICONTROL Configurações de SMS]** e clique no botão **[!UICONTROL Criar novas credenciais de API]**.
 
@@ -83,7 +83,7 @@ Para enviar mensagens SMS e RCS no Journey Optimizer usando um provedor personal
 
 1. Habilite a opção de suporte **[!UICONTROL mTLS]**, que garante que o cliente e o servidor se autentiquem antes de estabelecer uma conexão segura.
 
-   Para usar somente mTLS, selecione **[!UICONTROL Sem Autenticação]** no menu suspenso **[!UICONTROL Tipo de Autenticação]** e habilite **&#x200B; [!UICONTROL Suporte a mTLS]**.
+   Para usar somente mTLS, selecione **[!UICONTROL Sem Autenticação]** no menu suspenso **[!UICONTROL Tipo de Autenticação]** e habilite o **[!UICONTROL suporte para mTLS]**.
 
 1. Na seção **[!UICONTROL Cabeçalhos]**, clique em **[!UICONTROL Adicionar novo parâmetro]** para especificar os cabeçalhos HTTP para a mensagem de solicitação que será enviada para o serviço externo.
 
@@ -93,7 +93,7 @@ Para enviar mensagens SMS e RCS no Journey Optimizer usando um provedor personal
 
 1. Adicione a **[!UICONTROL Carga do provedor]** para validar e personalizar as cargas da solicitação.
 
-   Para mensagens RCS, essa carga é usada posteriormente durante [design de conteúdo](create-sms.md#sms-content).
+   Para mensagens RCS, essa carga é usada posteriormente durante [design de conteúdo](create-mobile-message.md#sms-content).
 
    >[!NOTE]
    >

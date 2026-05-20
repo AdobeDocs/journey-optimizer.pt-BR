@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8f23da537097fa514b19f9d6e8be025ba86f8a05
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '7833'
 ht-degree: 91%
@@ -141,7 +141,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * A documentação sobre o uso de fragmentos na Decisão foi atualizada: notas foram adicionadas nas seções Fragmentos e Decisão, e a página Fragmentos em políticas de decisão foi atualizada. [Leia mais](../experience-decisioning/fragments-decision-policies.md)
 
-* A documentação do webhook de SMS foi atualizada: o conteúdo do webhook do Twilio foi removido. [Leia mais](../sms/sms-webhook.md)
+* A documentação do webhook de SMS foi atualizada: o conteúdo do webhook do Twilio foi removido. [Leia mais](../mobile/mobile-webhook.md)
 
 * A documentação **Converter imagens em modelos de conteúdo** foi aprimorada com medidas de proteção e recomendações expandidas, casos de uso comuns e orientações mais claras para converter designs de imagem em modelos de conteúdo editáveis de HTML. Também menciona o fato de que agora você pode usar um tema como entrada para a conversão. [Leia mais](../content-management/image-to-html.md)
 
@@ -453,9 +453,9 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Adição de uma observação na página de configuração da correspondência direta sobre o armazenamento temporário do arquivo de saída. [Leia mais](../direct-mail/direct-mail-configuration.md)
 * Adição de uma dica na seção do editor de expressão avançado da jornada sobre as diretrizes de formato de condição. [Leia mais](../building-journeys/expression/expressionadvanced.md)
 * Adição de uma nota de advertência na seção da função `inAudience` sobre os impactos e as práticas recomendadas ao renomear um público-alvo. [Leia mais](../building-journeys/functions/functioninaudience.md)
-* Adição de uma recomendação sobre o uso de palavras-chave nativas ao usar SMS bidirecional. [Leia mais](../sms/sms-opt-out.md)
+* Adição de uma recomendação sobre o uso de palavras-chave nativas ao usar SMS bidirecional. [Leia mais](../mobile/mobile-opt-out.md)
 * Atualização da página de teste da jornada com uma observação sobre a necessidade de incluir um namespace de identidade no evento usado. [Leia mais](../building-journeys/testing-the-journey.md)
-* Atualmente, não é possível cancelar a delegação de subdomínios por meio da interface do [!UICONTROL Journey Optimizer]. Entre em contato com o representante da Adobe. As etapas para cancelar a delegação de um subdomínio agora estão detalhadas para [emails](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain), [experiências da web](../web/web-delegated-subdomains.md#undelegate-subdomain) e [páginas de destino](../landing-pages/lp-subdomains.md#undelegate-subdomain).<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+* Atualmente, não é possível cancelar a delegação de subdomínios por meio da interface do [!UICONTROL Journey Optimizer]. Entre em contato com o representante da Adobe. As etapas para cancelar a delegação de um subdomínio agora estão detalhadas para [emails](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../mobile/mobile-subdomains.md#undelegate-subdomain), [experiências da web](../web/web-delegated-subdomains.md#undelegate-subdomain) e [páginas de destino](../landing-pages/lp-subdomains.md#undelegate-subdomain).<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 * Adição de um esclarecimento sobre o parâmetro `maxHttpConnections` opcional na API de Limites de jornadas, incluindo orientações sobre como usá-lo junto a configurações de limitação para o mesmo ponto de acesso. [Leia mais](../configuration/throttling.md)
 * Na seção Decisão, foram adicionadas orientações explicando que os itens de oferta aprovados não podem ser excluídos se forem usados em uma coleção ou em uma decisão. Etapas incluídas para alterar seus status para &quot;Rascunho&quot; usando a opção **[!UICONTROL Desfazer aprovação]**. [Leia mais](../experience-decisioning/items.md#manage)
 * As informações sobre sandboxes foram agrupadas em uma nova seção &quot;Gerenciamento de sandboxes&quot;. Essa nova seção fornece informações sobre como usar e atribuir sandboxes e como usar os recursos de exportação e importação de pacotes para copiar objetos como jornadas, modelos de conteúdo ou fragmentos em várias sandboxes. [Leia mais](../administration/sandboxes.md)
@@ -764,7 +764,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
     * [Email channel](../email/get-started-email.md)
     * [Push notification channel](../../rp_landing_pages/push-landing-page.md)
-    * [SMS channel](../sms/get-started-sms.md)
+    * [SMS channel](../mobile/get-started-mobile.md)
 
 * The Configuration guide has been reorganized for improved readability. [Read more](../configuration/get-started-configuration.md)
 

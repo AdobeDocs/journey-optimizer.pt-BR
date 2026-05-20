@@ -22,14 +22,14 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
-source-wordcount: 433
-ht-degree: 44%
+source-wordcount: 429
+ht-degree: 41%
 
 ---
 
-# Introdução à configuração de SMS/MMS/RCS {#sms-configuration}
+# Introdução à configuração móvel {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
@@ -61,22 +61,22 @@ Antes de enviar SMS, MMS ou RCS, você deve configurar o ambiente do Adobe Journ
 
 1. Integre as configurações do provedor com o Journey Optimizer.
 As etapas dependem do seu provedor de SMS. Navegue pelos links abaixo para acessar a documentação detalhada:
-   * [Infobip](sms-configuration-infobip.md)
-   * [Sinch](sms-configuration-sinch.md)
-   * [Twilio](sms-configuration-twilio.md)
-   * [Provedor personalizado](sms-configuration-custom.md)
-1. [Criar webhook](sms-webhook.md)
-1. [Criar uma configuração de SMS](sms-configuration-surface.md)
+   * [Infobip](mobile-configuration-infobip.md)
+   * [Sinch](mobile-configuration-sinch.md)
+   * [Twilio](mobile-configuration-twilio.md)
+   * [Provedor personalizado](mobile-configuration-custom.md)
+1. [Criar webhook](mobile-webhook.md)
+1. [Criar uma configuração móvel](mobile-configuration-surface.md)
 
 Estas etapas devem ser executadas por um [Administrador do Sistema](../start/path/administrator.md) do Adobe Journey Optimizer.
 
 ## Pré-requisitos{#sms-prerequisites}
 
-Atualmente, o Adobe Journey Optimizer está integrado a provedores de terceiros que oferecem serviços de mensagens de texto independentes do Adobe Journey Optimizer. Os provedores de mensagens de texto e MMS com suporte são: **Sinch**, **Twilio** e **Infobip**. Observe que você pode configurar provedores de mensagens adicionais usando a [configuração de provedor personalizado](sms-configuration-custom.md).
+Atualmente, o Adobe Journey Optimizer está integrado a provedores de terceiros que oferecem serviços de mensagens de texto independentes do Adobe Journey Optimizer. Os provedores de mensagens de texto e MMS com suporte são: **Sinch**, **Twilio** e **Infobip**. Observe que você pode configurar provedores de mensagens adicionais usando a [configuração de provedor personalizado](mobile-configuration-custom.md).
 
-Antes da configuração do canal SMS, você deve criar uma conta com um desses provedores para obter o **Token de API** e a **ID de Serviço**, que você precisa configurar a conexão entre o Adobe Journey Optimizer e o provedor aplicável.
+Antes de configurar o Canal móvel, você deve criar uma conta com um desses provedores para obter o **Token de API** e a **ID de serviço**, que você precisa configurar a conexão entre o Adobe Journey Optimizer e o provedor aplicável.
 
-O uso de mensagens de texto e serviços MMS está sujeito a termos e condições adicionais do provedor aplicável. Como soluções de terceiros, o Sinch, o Twilio e o Infobip estão disponíveis para usuários do Adobe Journey Optimizer por meio de uma integração. A Adobe não controla a e não se responsabiliza por produtos de terceiros. Em caso de problemas ou solicitações de assistência relacionados aos serviços de mensagens de texto (SMS/MMS), entre em contato com seu provedor.
+O uso de mensagens de texto e serviços MMS está sujeito a termos e condições adicionais do provedor aplicável. Como soluções de terceiros, o Sinch, o Twilio e o Infobip estão disponíveis para usuários do Adobe Journey Optimizer por meio de uma integração. A Adobe não controla a e não se responsabiliza por produtos de terceiros. Se tiver problemas ou solicitações de assistência relacionados aos serviços de mensagens móveis, entre em contato com seu provedor.
 
 >[!CAUTION]
 >

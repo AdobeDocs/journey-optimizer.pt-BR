@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '6916'
 ht-degree: 99%
@@ -277,7 +277,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Canal SMS**
 
-* Agora é possível editar ou excluir uma configuração de canais da API de SMS. [Saiba mais](../sms/sms-configuration.md)
+* Agora é possível editar ou excluir uma configuração de canais da API de SMS. [Saiba mais](../mobile/mobile-configuration.md)
 
 * As seguintes melhorias foram introduzidas para melhorar os recursos de mensagens SMS com o Infobip e o Sinch:
 
@@ -285,7 +285,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
    * Você pode criar e enviar uma mensagem SMS padrão quando uma palavra-chave não for reconhecida.
 
-  Saiba mais sobre essas melhorias na documentação da configuração de SMS do [Infobip](../sms/sms-configuration-infobip.md) e do [Sinch](../sms/sms-configuration-sinch.md).
+  Saiba mais sobre essas melhorias na documentação da configuração de SMS do [Infobip](../mobile/mobile-configuration-infobip.md) e do [Sinch](../mobile/mobile-configuration-sinch.md).
 
 
 <!--**Journeys**-->
@@ -674,7 +674,7 @@ Essa versão traz os novos recursos listados abaixo.
 <td>
 <p>Agora é possível configurar provedores de SMS adicionais no Journey Optimizer, além dos provedores padrão Sinch, Infobip e Twilio.</p>
 <img src="assets/do-not-localize/byo_sms.gif"/>
-<p>Para obter mais informações, consulte a <a href="../sms/sms-configuration-custom.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../mobile/mobile-configuration-custom.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -864,7 +864,7 @@ Leia mais na documentação dos [fragmentos de conteúdo](../content-management/
 
 #### Canal de SMS
 
-* Agora é possível adicionar códigos curtos exclusivos para cada sandbox com uma única configuração de API, tornando o processo mais eficiente e simplificado. [Saiba mais](../sms/sms-configuration.md)
+* Agora é possível adicionar códigos curtos exclusivos para cada sandbox com uma única configuração de API, tornando o processo mais eficiente e simplificado. [Saiba mais](../mobile/mobile-configuration.md)
 
 * Após a criação, o campo **Token de API** na página **Detalhes da credencial da API** fica mascarado.
 
@@ -1272,7 +1272,7 @@ Anteriormente disponível como Beta, as seguintes melhorias agora estão dispon�
 
 **Canal SMS**
 
-* **Palavras-chave de aceitação/recusa**: ao configurar seu canal de SMS, agora é possível personalizar as **Palavras-chave de aceitação e recusa** de acordo com suas preferências. O Journey Optimizer aciona a resposta com base nessas palavras-chave especificadas. [Saiba mais](../sms/sms-configuration.md)
+* **Palavras-chave de aceitação/recusa**: ao configurar seu canal de SMS, agora é possível personalizar as **Palavras-chave de aceitação e recusa** de acordo com suas preferências. O Journey Optimizer aciona a resposta com base nessas palavras-chave especificadas. [Saiba mais](../mobile/mobile-configuration.md)
 
 **Campanhas**
 
@@ -1340,7 +1340,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Canal SMS**
 
-* **Aceitação dupla**: o fluxo de trabalho de Aceitação dupla de SMS garante que os usuários e usuárias optem explicitamente por receber mensagens quando a solicitação for iniciada a partir de seus dispositivos. Os usuários e usuárias iniciam o processo de consentimento enviando uma mensagem SMS de entrada. Após confirmar o consentimento, uma mensagem de acompanhamento é enviada, solicitando a verificação final. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. [Saiba mais](../sms/sms-configuration.md)
+* **Aceitação dupla**: o fluxo de trabalho de Aceitação dupla de SMS garante que os usuários e usuárias optem explicitamente por receber mensagens quando a solicitação for iniciada a partir de seus dispositivos. Os usuários e usuárias iniciam o processo de consentimento enviando uma mensagem SMS de entrada. Após confirmar o consentimento, uma mensagem de acompanhamento é enviada, solicitando a verificação final. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. [Saiba mais](../mobile/mobile-configuration.md)
 
   Observe que esse recurso está disponível nos provedores de SMS Sinch e Infobip.
 

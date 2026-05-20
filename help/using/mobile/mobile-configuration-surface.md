@@ -24,14 +24,14 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
-source-wordcount: 565
-ht-degree: 13%
+source-wordcount: 520
+ht-degree: 12%
 
 ---
 
-# Criar uma configuração de SMS/MMS/RCS {#message-preset-sms}
+# Criar uma configuração de mensagem para dispositivo móvel {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
@@ -39,7 +39,7 @@ ht-degree: 13%
 >abstract="Selecione o tipo de mensagens de texto que usam esta configuração: “Marketing” para mensagens promocionais que exigem consentimento do usuário ou “Transacional” para mensagens não comerciais, como uma redefinição de senha."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=pt-BR#sms-opt-out-management" text="Recusar mensagens de texto de marketing"
 
-Depois que o canal SMS/MMS/RCS for configurado, você deverá criar uma configuração de canal para enviar mensagens SMS, RCS e MMS do **[!DNL Journey Optimizer]**.
+Depois que o canal de mensagens móveis for configurado, você deverá criar uma configuração de canal para enviar mensagens SMS, RCS e MMS do **[!DNL Journey Optimizer]**.
 
 Para criar uma configuração de canal, siga estas etapas:
 
@@ -47,7 +47,7 @@ Para criar uma configuração de canal, siga estas etapas:
 
    ![](assets/preset-create.png)
 
-1. Insira um nome e uma descrição (opcional) para a configuração e selecione o canal SMS.
+1. Digite um nome e uma descrição (opcional) para a configuração e selecione o Canal móvel.
 
    ![](assets/sms-create-surface.png)
 
@@ -55,32 +55,28 @@ Para criar uma configuração de canal, siga estas etapas:
    >
    > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar os caracteres de sublinhado `_`, ponto `.` e hífen `-`.
 
-1. Defina as **configurações de SMS**.
+1. Selecione o **[!UICONTROL Tipo de SMS]** para esta configuração:
 
-   ![](assets/sms-surface-settings.png){width=80%}
-
-   Comece selecionando o **[!UICONTROL Tipo de SMS]** que será enviado com a configuração: **[!UICONTROL Transacional]** ou **[!UICONTROL Marketing]**.
-
-   * Escolha **Marketing** para mensagens de texto promocionais: essas mensagens exigem o consentimento do usuário.
-   * Escolha **Transacional** para mensagens não comerciais, como confirmações de pedidos, notificações de redefinição de senha ou informações de entrega, por exemplo.
-
-   Ao criar um SMS/MMS, você deve escolher uma configuração de canal válida que corresponda à categoria selecionada para sua mensagem.
+   * **[!UICONTROL Marketing]**: para mensagens promocionais que exigem consentimento do usuário.
+   * **[!UICONTROL Transacional]**: para mensagens não comerciais, como confirmações de pedidos, redefinições de senha ou atualizações de entrega.
 
    >[!CAUTION]
    >
-   >As mensagens **Transacionais** podem ser enviadas a perfis que cancelaram a assinatura de comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
+   >As mensagens **Transacionais** podem ser enviadas a perfis que cancelaram a assinatura de comunicações de marketing, mas somente em contextos específicos.
 
-1. Selecione a **[!UICONTROL configuração de SMS]** para associar à configuração.
+   ![](assets/sms-surface-settings.png){width=80%}
 
-   Para obter mais informações sobre como configurar seu ambiente para enviar mensagens SMS, consulte [esta seção](#create-api).
+1. Selecione a **[!UICONTROL Configuração móvel]** para associar à configuração.
+
+   Para obter mais informações sobre como configurar seu ambiente para enviar mensagens para dispositivos móveis, consulte [esta seção](#create-api).
 
 1. Digite o **[!UICONTROL Número do remetente]** &#x200B;que você deseja usar para suas comunicações.
 
-1. Se você quiser usar a função de redução de URL em suas mensagens SMS, selecione um item na lista **[!UICONTROL Subdomínio]**.
+1. Se você quiser usar a função de redução de URL em suas mensagens móveis, selecione um item na lista **[!UICONTROL Subdomínio]**.
 
    >[!NOTE]
    >
-   >Para selecionar um subdomínio, verifique se você configurou anteriormente pelo menos um subdomínio SMS/MMS. [Saiba como](sms-subdomains.md)
+   >Para selecionar um subdomínio, verifique se você configurou anteriormente pelo menos um subdomínio SMS/MMS. [Saiba como](mobile-subdomains.md)
 
 1. Na seção **[!UICONTROL Execution dimension]**, use o **[!UICONTROL SMS Execution Field]** para selecionar entre os atributos do perfil o número de telefone que você deseja usar em prioridade se vários números estiverem disponíveis no banco de dados. [Saiba mais](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 

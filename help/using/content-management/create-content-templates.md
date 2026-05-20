@@ -24,7 +24,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 633
 ht-degree: 11%
@@ -83,7 +83,7 @@ Para criar um template de conteúdo do zero, siga as etapas abaixo.
    Saiba como criar conteúdo para os diferentes canais nas seguintes seções:
    * [Definir conteúdo do email](../email/get-started-email-design.md)
    * [Definir conteúdo de push](../push/design-push.md)
-   * [Definir conteúdo de SMS](../sms/create-sms.md#sms-content)
+   * [Definir conteúdo de SMS](../mobile/create-mobile-message.md#sms-content)
    * [Definir conteúdo da correspondência direta](../direct-mail/create-direct-mail.md)
    * [Definir conteúdo no aplicativo](../in-app/design-in-app.md)
    * [Definir conteúdo da Web](../web/create-web.md#edit-web-content)

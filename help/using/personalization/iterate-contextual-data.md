@@ -33,7 +33,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 3075
 ht-degree: 1%
@@ -46,7 +46,7 @@ Saiba como usar a sintaxe de iteração do Handlebars para exibir listas dinâmi
 
 ## Visão geral {#overview}
 
-O Journey Optimizer fornece acesso a dados contextuais de várias fontes durante a [personalização da mensagem](personalize.md). Você pode iterar matrizes dessas fontes usando a sintaxe Handlebars em canais nativos ([email](../email/get-started-email-design.md), [push](../push/create-push.md), [SMS](../sms/create-sms.md)) para exibir conteúdo dinâmico como listas de produtos, recomendações ou outros elementos repetitivos.
+O Journey Optimizer fornece acesso a dados contextuais de várias fontes durante a [personalização da mensagem](personalize.md). Você pode iterar matrizes dessas fontes usando a sintaxe Handlebars em canais nativos ([email](../email/get-started-email-design.md), [push](../push/create-push.md), [SMS](../mobile/create-mobile-message.md)) para exibir conteúdo dinâmico como listas de produtos, recomendações ou outros elementos repetitivos.
 
 **Fontes de contexto disponíveis:**
 
@@ -1072,4 +1072,4 @@ Use o [modo de teste de jornada](../building-journeys/testing-the-journey.md) pa
 
 **Casos de uso do Personalization:** [Email de abandono de carrinho](personalization-use-case-helper-functions.md) | [Notificação do status do pedido](personalization-use-case.md)
 
-**Design da mensagem:** [Introdução ao design de email](../email/get-started-email-design.md) | [Criar notificações por push](../push/create-push.md) | [Criar mensagens SMS](../sms/create-sms.md) | [Visualize e teste seu conteúdo](../content-management/preview-test.md)
+**Design da mensagem:** [Introdução ao design de email](../email/get-started-email-design.md) | [Criar notificações por push](../push/create-push.md) | [Criar mensagens SMS](../mobile/create-mobile-message.md) | [Visualize e teste seu conteúdo](../content-management/preview-test.md)

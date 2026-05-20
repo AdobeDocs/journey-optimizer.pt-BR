@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 413
-ht-degree: 63%
+source-wordcount: 471
+ht-degree: 49%
 
 ---
 
@@ -66,12 +66,12 @@ Saiba como [criar uma ação de canal em uma campanha orquestrada](channels.md).
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Atividade de término"
->abstract="A Atividade de **término** permite marcar graficamente o fim de uma campanha orquestrada. Essa atividade não tem impacto funcional e, portanto, é opcional."
+>abstract="A atividade **End** marca o fim de uma ramificação na tela. Opcionalmente, use **Sinal externo** para iniciar uma campanha orquestrada downstream e transmitir parâmetros quando a ramificação for concluída. [Saiba mais](../trigger-orchestrated-campaign.md#signal-end)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="Sinal externo"
->abstract="sinal externo"
+>abstract="Selecione a campanha orquestrada downstream para começar quando esta ramificação terminar e mapeie os nomes e valores dos parâmetros para enviar no sinal. A campanha downstream deve ser definida como **Acionada por um sinal** e publicada antes que esta campanha atinja a atividade End. [Saiba mais](../trigger-orchestrated-campaign.md#signal-end)"
 
 As atividades a seguir são específicas para organizar e executar campanhas orquestradas. Sua principal tarefa é coordenar as outras atividades.
 
@@ -84,5 +84,4 @@ As atividades de controle de fluxo disponíveis são:
 * [Aguardar](wait.md): pausar momentaneamente a execução de uma parte de uma campanha Orquestrada.
   <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 
->[!NOTE]
->A atividade **End** marca graficamente o fim de uma campanha Orquestrada. Esta atividade não tem nenhum impacto funcional e, portanto, é opcional
+* **[!UICONTROL Fim]**: marca o fim de uma ramificação na tela. Opcionalmente, é possível usá-lo para enviar um sinal para outra campanha Orquestrada que começa em um sinal. [Saiba mais](../trigger-orchestrated-campaign.md#signal-end)

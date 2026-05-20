@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 886
-ht-degree: 50%
+source-wordcount: 937
+ht-degree: 48%
 
 ---
 
@@ -110,6 +110,8 @@ Para isso, as atividades abaixo foram adicionadas:
 * Uma atividade **[!UICONTROL Combinar]** agrupa os clientes com email e os que fizeram uma compra de pelo menos USD 100,
 * Uma atividade **[!UICONTROL Combinar]** exclui os clientes que têm menos de 50 pontos de fidelidade,
 * Uma atividade **[!UICONTROL Entrega de email]** envia um email aos clientes resultantes.
+
+Ao atingir o fim de uma ramificação, você pode adicionar uma atividade **[!UICONTROL Fim]** para marcar a conclusão na tela. Você também pode configurar essa atividade **[!UICONTROL End]** para enviar um sinal para outra campanha Orquestrada definida como **[!UICONTROL Acionada por um sinal]** e transmitir parâmetros na carga. [Saiba mais](trigger-orchestrated-campaign.md#signal-end).
 
 ## Próximas etapas {#next}
 

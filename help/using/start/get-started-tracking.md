@@ -42,7 +42,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1962
 ht-degree: 3%
@@ -193,9 +193,9 @@ O rastreamento de SMS requer configuração mínima — o Journey Optimizer encu
 
 **Como funciona:**
 
-* **Rastreamento automático de links** - Adicione qualquer URL ao conteúdo do SMS usando a função auxiliar de URL. O Journey Optimizer reduz automaticamente o link e rastreia os cliques sem configuração adicional. Para usar a redução de URL, primeiro você deve configurar um subdomínio SMS. [Saiba mais](../sms/sms-subdomains.md)
+* **Rastreamento automático de links** - Adicione qualquer URL ao conteúdo do SMS usando a função auxiliar de URL. O Journey Optimizer reduz automaticamente o link e rastreia os cliques sem configuração adicional. Para usar a redução de URL, primeiro você deve configurar um subdomínio SMS. [Saiba mais](../mobile/mobile-subdomains.md)
 
-* **Rastreamento de mensagens de entrada** - As respostas dos destinatários são capturadas automaticamente, permitindo que você monitore conversas bidirecionais e padrões de resposta. [Saiba mais](../sms/sms-opt-out.md#sms-native-keywords)
+* **Rastreamento de mensagens de entrada** - As respostas dos destinatários são capturadas automaticamente, permitindo que você monitore conversas bidirecionais e padrões de resposta. [Saiba mais](../mobile/mobile-opt-out.md#sms-native-keywords)
 
 **Exibir métricas:** Acesse dados de cliques em links, volumes de mensagens de entrada e desempenho do tipo de mensagem em relatórios. [Relatórios de campanha](../reports/campaign-global-report-cja-sms.md) | [Relatórios de Jornada](../reports/journey-global-report-cja-sms.md)
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '9308'
 ht-degree: 99%
@@ -587,7 +587,7 @@ You can now use AI models to optimize the best content in your email through the
   Data de disponibilidade: 29 de setembro de 2025
 
 * **Suporte mTLS para Canal de SMS**
-Ao configurar um provedor de SMS personalizado, agora você tem a opção de habilitar a autenticação TLS mútua (mTLS), que exige que tanto o cliente quanto o servidor confirmem as identidades um do outro antes que uma conexão segura seja estabelecida. [Leia mais](../sms/sms-configuration-custom.md) - Data de disponibilidade: 23 de setembro de 2025
+Ao configurar um provedor de SMS personalizado, agora você tem a opção de habilitar a autenticação TLS mútua (mTLS), que exige que tanto o cliente quanto o servidor confirmem as identidades um do outro antes que uma conexão segura seja estabelecida. [Leia mais](../mobile/mobile-configuration-custom.md) - Data de disponibilidade: 23 de setembro de 2025
 
 * **Esquemas relacionais**\
   Agora é possível usar esquemas relacionais para atender necessidades de modelagem relacional em campanhas orquestradas. [Leia mais](../orchestrated/gs-schemas.md) - Data de disponibilidade: 23 de setembro de 2025
@@ -620,13 +620,13 @@ Ao configurar um provedor de SMS personalizado, agora você tem a opção de hab
 
 * **Webhooks** - Esta versão apresenta os seguintes aprimoramentos para webhooks ao configurar um provedor de SMS personalizado:
 
-   * Agora é possível definir a finalidade do webhook, seja de entrada ou de feedback, dependendo do tipo de dados que deseja capturar. [Leia mais](../sms/sms-configuration-custom.md#webhook) - Data de disponibilidade: 23 de setembro de 2025
+   * Agora é possível definir a finalidade do webhook, seja de entrada ou de feedback, dependendo do tipo de dados que deseja capturar. [Leia mais](../mobile/mobile-configuration-custom.md#webhook) - Data de disponibilidade: 23 de setembro de 2025
 
-   * A interface para configurar palavras-chave foi aprimorada para facilitar a configuração. [Leia mais](../sms/sms-configuration-custom.md#webhook) - Data de disponibilidade: 23 de setembro de 2025
+   * A interface para configurar palavras-chave foi aprimorada para facilitar a configuração. [Leia mais](../mobile/mobile-configuration-custom.md#webhook) - Data de disponibilidade: 23 de setembro de 2025
 
 * **SMS**
 
-   * Ao configurar um provedor de SMS personalizado, agora é possível definir uma palavra-chave **padrão** para quando um SMS recebido contiver uma palavra-chave não reconhecida. Também é possível criar palavras-chave **personalizadas** para ações específicas. [Leia mais](../sms/sms-configuration-custom.md) - Data de disponibilidade: 23 de setembro de 2025
+   * Ao configurar um provedor de SMS personalizado, agora é possível definir uma palavra-chave **padrão** para quando um SMS recebido contiver uma palavra-chave não reconhecida. Também é possível criar palavras-chave **personalizadas** para ações específicas. [Leia mais](../mobile/mobile-configuration-custom.md) - Data de disponibilidade: 23 de setembro de 2025
 
    * Agora é possível acessar respostas indefinidas de palavras-chave de entrada enviadas por uma mensagem SMS, incluindo erros de digitação, palavras ou frases que não estão explicitamente definidas na configuração. Elas são armazenadas no conjunto de dados do **evento de experiência de rastreamento de email do AJO**, em **InboundMessage**, por 13 meses. Disponível somente com Sinch, Infobip e provedor de SMS personalizado. - Data de disponibilidade: 23 de setembro de 2025
 
@@ -858,13 +858,13 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Canal - SMS**
 
-   * **Recusa difusa**: quando habilitada, a opção **Recusa difusa** detecta mensagens de entrada que se assemelham às palavras-chave de recusa definidas (por exemplo, &quot;CANCILAR&quot;) e envia automaticamente uma resposta de confirmação para verificar a intenção de cancelamento de assinatura do usuário. Se o usuário confirmar por meio da solicitação definida, sua inscrição será cancelada. [Leia mais](../sms/sms-configuration-sinch.md)
+   * **Recusa difusa**: quando habilitada, a opção **Recusa difusa** detecta mensagens de entrada que se assemelham às palavras-chave de recusa definidas (por exemplo, &quot;CANCILAR&quot;) e envia automaticamente uma resposta de confirmação para verificar a intenção de cancelamento de assinatura do usuário. Se o usuário confirmar por meio da solicitação definida, sua inscrição será cancelada. [Leia mais](../mobile/mobile-configuration-sinch.md)
 
      >[!NOTE]
      >
      >A **Recusa difusa** só está disponível com o Sinch e o Infobip.
 
-   * **Verificar conexão SMS**: agora é possível testar e verificar facilmente as credenciais da API de SMS no Adobe Journey Optimizer enviando uma mensagem de exemplo para um dispositivo designado. [Leia mais](../sms/sms-configuration-sinch.md)
+   * **Verificar conexão SMS**: agora é possível testar e verificar facilmente as credenciais da API de SMS no Adobe Journey Optimizer enviando uma mensagem de exemplo para um dispositivo designado. [Leia mais](../mobile/mobile-configuration-sinch.md)
 
 * **Configuração**
 
@@ -1155,7 +1155,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tr>
 <td>
 <p>Agora você pode configurar, personalizar e entregar mensagens de RCS (Serviços de comunicação avançada) por meio de um provedor terceirizado realizando a integração com a solução de provedor de SMS personalizado.</p>
-<p>Para obter mais informações, consulte a <a href="../sms/sms-configuration-custom.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../mobile/mobile-configuration-custom.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -1474,7 +1474,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <tr>
 <td>
 <p>O Journey Optimizer agora permite configurar provedores de SMS adicionais além das opções padrão: Sinch, Infobip e Twilio. Com a configuração personalizada do provedor SMS, é possível integrar diretamente provedores de terceiros, aproveitar a personalização avançada de conteúdo para gerar mensagens dinâmicas e gerenciar preferências de consentimento (aceitação e recusa) para garantir a conformidade.</p>
-<p>Para obter mais informações, consulte a <a href="../sms/sms-configuration-custom.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../mobile/mobile-configuration-custom.md">documentação detalhada</a>.</p>
 <p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Data de disponibilidade: 20 de maio de 2025</p>
 </td>
@@ -1671,7 +1671,7 @@ table>
 <tr>
 <td>
 <p>Adobe Journey Optimizer now supports custom SMS providers, allowing you to integrate your preferred SMS services for enhanced communication flexibility.</p>
-<p>For more information, refer to the <a href="../sms/sms-configuration-custom.md">detailed documentation</a>.</p></td>
+<p>For more information, refer to the <a href="../mobile/mobile-configuration-custom.md">detailed documentation</a>.</p></td>
 </tr>
 </tbody>
 -->
@@ -2193,7 +2193,7 @@ As melhorias abaixo estão incluídas na atualização de fevereiro.
 
 * **Correspondência direta**: um novo tipo de servidor, Zona de destino de dados, agora é compatível com o roteamento de arquivos na configuração do canal de correspondência direta. [Leia mais](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
 
-* **SMS**: agora é possível gerenciar a entrega de mensagens SMS de pontos de acesso multirregionais substituindo os URLs de entrega, feedback, entrada e retorno de chamada. Para oferecer suporte a isso, um novo campo Substituir URL foi adicionado à configuração Credenciais da API. Essa alteração está disponível somente com o provedor Sinch. [Leia mais](../sms/sms-configuration-sinch.md)
+* **SMS**: agora é possível gerenciar a entrega de mensagens SMS de pontos de acesso multirregionais substituindo os URLs de entrega, feedback, entrada e retorno de chamada. Para oferecer suporte a isso, um novo campo Substituir URL foi adicionado à configuração Credenciais da API. Essa alteração está disponível somente com o provedor Sinch. [Leia mais](../mobile/mobile-configuration-sinch.md)
 
 * **Personalização** (Data de disponibilidade: 29 de janeiro de 2025): há novas funções auxiliares de data/hora disponíveis para uso no editor de personalização. [Leia mais](../personalization/functions/dates.md)
 

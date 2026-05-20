@@ -52,7 +52,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 5499
 ht-degree: 1%
@@ -661,7 +661,7 @@ Sim. Use uma **[Atividade Otimize](conditions.md)** para rotear perfis com base 
 2. Crie um caminho para cada canal verificando o atributo de perfil de canal preferido (por exemplo, `profile.preferredChannel`)
 3. Configurar caminhos específicos do canal:
    * **Caminho de email**: adicionar uma [ação de email](../email/create-email.md) com conteúdo otimizado para email
-   * **Caminho do SMS**: adicionar uma [ação de SMS](../sms/create-sms.md) com mensagens concisas
+   * **Caminho do SMS**: adicionar uma [ação de SMS](../mobile/create-mobile-message.md) com mensagens concisas
    * **Caminho de push**: adicionar uma [ação de notificação por push](../push/create-push.md) com conteúdo curto e acionável
    * **Caminho no aplicativo**: adicionar uma [ação de mensagem no aplicativo](../in-app/create-in-app.md) para usuários engajados do aplicativo
 4. Adicione um caminho padrão para perfis sem uma preferência, roteando-os para o canal principal

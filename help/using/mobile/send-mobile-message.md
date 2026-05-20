@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verificar e testar suas mensagens de texto
-description: Saiba como verificar e enviar suas mensagens de texto no Journey Optimizer
+title: Verificar e testar as mensagens móveis
+description: Saiba como verificar e enviar mensagens móveis no Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
@@ -28,16 +28,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 2%
+source-wordcount: 536
+ht-degree: 1%
 
 ---
 
-# Verificar e enviar sua mensagem de texto (SMS/MMS){#send-sms}
+# Marque e envie sua mensagem para dispositivo móvel {#send-sms}
 
-## Pré-visualizar sua mensagem de texto {#preview-sms}
+## Pré-visualizar sua mensagem para dispositivos móveis {#preview-sms}
 
 Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste ou dados de entrada de amostra (carregados de um arquivo CSV/JSON ou adicionados manualmente) para visualizar seu conteúdo. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem.
 
@@ -49,7 +49,7 @@ Informações detalhadas sobre como visualizar e testar o conteúdo estão dispo
 
 ### Codificação e limites de caracteres {#sms-character-limits}
 
-Uma contagem de caracteres é exibida ao acessar o menu **[!UICONTROL Simular conteúdo]** para auxiliar no planejamento e no gerenciamento de suas mensagens SMS.
+Uma contagem de caracteres é exibida ao acessar o menu **[!UICONTROL Simular conteúdo]** para auxiliar no planejamento e no gerenciamento de mensagens móveis.
 
 ![](assets/sms_preview_3.png)
 
@@ -61,7 +61,7 @@ Observe que a contagem de caracteres não reflete variações introduzidas pela 
 >
 >Os relatórios de delivery de SMS do Journey Optimizer não levam em conta as mensagens concatenadas e a personalização dinâmica, portanto, podem não refletir o número real de mensagens enviadas pelo provedor. Para obter informações detalhadas de uso e cobrança, entre em contato com o representante da Adobe.
 >
->Para saber mais sobre as práticas recomendadas para minimizar excedentes de cobrança de SMS, consulte [Práticas recomendadas de SMS para otimização de caracteres](sms-cost-optimization.md).
+>Para saber mais sobre as práticas recomendadas para minimizar excedentes de cobrança de SMS, consulte [Práticas recomendadas de SMS para otimização de caracteres](mobile-cost-optimization.md).
 
 ## Validar seu conteúdo {#sms-validate}
 
@@ -73,7 +73,7 @@ Você deve verificar os alertas na seção superior do editor. Alguns deles são
 
 ![](assets/sms-alert-button.png)
 
-* **Os avisos** referem-se às recomendações e práticas recomendadas. Por exemplo, uma mensagem de aviso será exibida se a mensagem de texto estiver vazia ou se os limites de caracteres puderem ser excedidos com o conteúdo dinâmico.
+* **Os avisos** referem-se às recomendações e práticas recomendadas. Por exemplo, uma mensagem de aviso será exibida se a mensagem móvel estiver vazia ou se os limites de caracteres puderem ser excedidos com o conteúdo dinâmico.
 
   **Limites de caracteres:** 160 caracteres por segmento (GSM 7 bits), 70 para Unicode/emojis, até 1500 caracteres no total.
 
@@ -83,17 +83,17 @@ O alerta **&quot;O limite de caracteres de texto SMS foi excedido&quot;** pode a
 
 A validação calcula o comprimento máximo para todos os dados de perfil possíveis, enquanto a simulação mostra a saída real para um perfil de teste.
 
-## Envie suas mensagens de texto {#sms-send}
+## Envie suas mensagens móveis {#sms-send}
 
 >[!IMPORTANT]
 >
-> Se sua campanha estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para poder enviar suas mensagens de texto. [Saiba mais](../test-approve/gs-approval.md)
+> Se sua campanha estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para enviar suas mensagens de celular. [Saiba mais](../test-approve/gs-approval.md)
 
-Quando a mensagem de texto estiver pronta, conclua a configuração da [jornada](../building-journeys/journey-gs.md) ou da [campanha](../campaigns/create-campaign.md) para enviá-la.
+Quando a sua mensagem do Mobile estiver pronta, conclua a configuração da sua [jornada](../building-journeys/journey-gs.md) ou da sua [campanha](../campaigns/create-campaign.md) para enviá-la.
 
 **Tópicos relacionados**
 
-* [Configuração de canal de SMS](sms-configuration.md)
+* [Configuração de canal de SMS](mobile-configuration.md)
 * [Relatórios SMS/MMS](../reports/journey-global-report-cja-sms.md)
-* [Criação de uma mensagem de texto](create-sms.md)
+* [Criar uma mensagem para dispositivo móvel](create-mobile-message.md)
 * [Adicionar uma mensagem em uma jornada](../building-journeys/journey-action.md)

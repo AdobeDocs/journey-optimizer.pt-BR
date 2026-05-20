@@ -35,7 +35,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 4714
 ht-degree: 0%
@@ -154,7 +154,7 @@ Consulte também a [documentação de configuração do canal de push](../push/p
 
 Se um recipient responder **PARAR** a um SMS, todas as mensagens futuras desse número curto serão bloqueadas, incluindo mensagens transacionais. Para garantir a entrega ininterrupta de SMS transacional, configure-os e envie-os por meio de um **número curto separado** do qual os destinatários não tenham optado anteriormente.
 
-Saiba mais sobre a configuração de recusa de SMS [nesta página](../sms/sms-opt-out.md).
+Saiba mais sobre a configuração de recusa de SMS [nesta página](../mobile/mobile-opt-out.md).
 
 +++
 
@@ -162,7 +162,7 @@ Saiba mais sobre a configuração de recusa de SMS [nesta página](../sms/sms-op
 
 As falhas de delivery de SMS após a configuração do canal são causadas mais comumente por credenciais incorretas da API do provedor, uma incompatibilidade entre a ID do remetente e o que o provedor registrou ou restrições de roteamento no nível do provedor. Verifique se a chave da API, a senha e os detalhes do remetente inseridos no Journey Optimizer correspondem exatamente ao que o provedor de SMS provisionou. Em seguida, envie uma mensagem de teste para confirmar a conectividade antes de iniciar uma campanha.
 
-Saiba como configurar seu provedor de SMS [nesta página](../sms/sms-configuration.md).
+Saiba como configurar seu provedor de SMS [nesta página](../mobile/mobile-configuration.md).
 
 +++
 
@@ -170,7 +170,7 @@ Saiba como configurar seu provedor de SMS [nesta página](../sms/sms-configurati
 
 Quando um texto de perfil é PARADO, o Journey Optimizer atualiza o atributo de consentimento SMS do perfil. Para verificar o status atual de recusa, abra o perfil na interface do usuário do Experience Platform e inspecione os campos de consentimento em **Privacidade** > **Consentimentos**. Para solucionar problemas da campanha, verifique também os motivos de exclusão no relatório da campanha — os perfis recusados aparecem na contagem **Excluídos** com o motivo &quot;Recusado&quot;.
 
-Saiba mais sobre como lidar com a recusa de SMS [nesta página](../sms/sms-opt-out.md).
+Saiba mais sobre como lidar com a recusa de SMS [nesta página](../mobile/mobile-opt-out.md).
 
 +++
 

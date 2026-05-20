@@ -41,7 +41,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 2177
 ht-degree: 6%
@@ -200,7 +200,7 @@ O [Experimentation Agent](https://experienceleague.adobe.com/pt-br/docs/experien
 
 ## Geração de conteúdo alimentado por IA {#content-generation}
 
-Use a IA generativa para criar e personalizar o conteúdo em vários canais, acelerando o processo de criação de conteúdo e mantendo a consistência da marca. O Assistente de IA para geração de conteúdo está disponível para experiências de [email](../email/get-started-email.md), [notificações por push](../push/get-started-push.md), [SMS](../sms/get-started-sms.md) e [web](../web/get-started-web.md) - ajudando a gerar linhas de assunto, corpo do texto, imagens e variações completas de mensagens.
+Use a IA generativa para criar e personalizar o conteúdo em vários canais, acelerando o processo de criação de conteúdo e mantendo a consistência da marca. O Assistente de IA para geração de conteúdo está disponível para experiências de [email](../email/get-started-email.md), [notificações por push](../push/get-started-push.md), [SMS](../mobile/get-started-mobile.md) e [web](../web/get-started-web.md) - ajudando a gerar linhas de assunto, corpo do texto, imagens e variações completas de mensagens.
 
 ### Recursos principais
 
