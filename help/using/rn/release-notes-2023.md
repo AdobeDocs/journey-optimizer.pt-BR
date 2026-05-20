@@ -9,7 +9,7 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '4441'
 ht-degree: 99%
@@ -55,7 +55,7 @@ Essa versão traz os novos recursos listados abaixo.
 <td>
 <p>Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos com clientes. Observe que esse recurso está disponível somente com o Sinch.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>Para obter mais informações, consulte a <a href="../sms/create-sms.md#mms-content">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../mobile/create-mobile-message.md#mms-content">documentação detalhada</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -216,9 +216,9 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Canal SMS**
 
-* Dois novos campos, **Mensagem de aceitação** e **Mensagem de ajuda**, foram adicionados à tela de configuração da API, permitindo personalizar respostas para palavras-chave de entrada. Observe que isso só está disponível para o provedor de SMS Sinch. [Saiba mais](../sms/sms-configuration.md)
+* Dois novos campos, **Mensagem de aceitação** e **Mensagem de ajuda**, foram adicionados à tela de configuração da API, permitindo personalizar respostas para palavras-chave de entrada. Observe que isso só está disponível para o provedor de SMS Sinch. [Saiba mais](../mobile/mobile-configuration.md)
 
-* A recusa de SMS não é mais gerenciada no nível do canal. Agora é específico para um número, o que significa que se alguns perfis optarem por não receber um determinado número ou código curto, você ainda poderá enviar mensagens de outros números que possa estar usando para enviar mensagens SMS. Uma nova opção permite selecionar o **Número de recusa** que deseja usar em uma determinada superfície. [Saiba mais](../sms/sms-configuration.md)
+* A recusa de SMS não é mais gerenciada no nível do canal. Agora é específico para um número, o que significa que se alguns perfis optarem por não receber um determinado número ou código curto, você ainda poderá enviar mensagens de outros números que possa estar usando para enviar mensagens SMS. Uma nova opção permite selecionar o **Número de recusa** que deseja usar em uma determinada superfície. [Saiba mais](../mobile/mobile-configuration.md)
 
 **Canal de correspondência direta**
 
@@ -624,8 +624,8 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Canal SMS**
 
-* O Infobip foi adicionado como provedor de fornecedores ao definir suas configurações de canal de SMS. [Leia mais](../sms/sms-configuration.md)
-* Twillio - A configuração de credencial da API agora inclui a capacidade de adicionar SID de serviço de mensagens para integração perfeita com sua conta do Twillio. [Leia mais](../sms/sms-configuration.md)
+* O Infobip foi adicionado como provedor de fornecedores ao definir suas configurações de canal de SMS. [Leia mais](../mobile/mobile-configuration.md)
+* Twillio - A configuração de credencial da API agora inclui a capacidade de adicionar SID de serviço de mensagens para integração perfeita com sua conta do Twillio. [Leia mais](../mobile/mobile-configuration.md)
 
 **Canal no aplicativo**
 
@@ -727,7 +727,7 @@ Information below is subject to change without prior notice until the release av
 * A tela da jornada agora exibe a ID da atividade nas atividades de mensagem e tags finais. Isso melhora os relatórios e o redirecionamento.
 * O layout do painel de configuração, que aparece em ações, fontes de dados, eventos e jornadas, foi aprimorado.
 * Novo insight para um número de nós em telas com proteções para ajudar no crescimento: mantenha as jornadas fáceis de ler, controle a qualidade e solucione problemas com um número máximo de 50 nós por jornada. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
-* Ao adicionar uma ação de [email](../email/create-email.md), [SMS](../sms/create-sms.md) ou [push](../push/create-push.md) em uma jornada, a superfície agora é pré-preenchida, por padrão, com a última superfície usada para esse canal na jornada atual.
+* Ao adicionar uma ação de [email](../email/create-email.md), [SMS](../mobile/create-mobile-message.md) ou [push](../push/create-push.md) em uma jornada, a superfície agora é pré-preenchida, por padrão, com a última superfície usada para esse canal na jornada atual.
 * Agora é possível definir parâmetros de consulta estáticos ou dinâmicos em suas ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#url-configuration)
 
 **Relatórios**
@@ -771,7 +771,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>Com o rastreamento de cliques de SMS, você pode monitorar o desempenho de seus URLs encurtados, identificar quem clicou neles e usar esses dados para redirecionar esses clientes com campanhas subsequentes.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
-<p>Para obter mais informações, consulte a <a href="../sms/create-sms.md#sms-content">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../mobile/create-mobile-message.md#sms-content">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>

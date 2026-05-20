@@ -10,26 +10,15 @@ level: Experienced
 keywords: subdomínio, delegação, domínio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 TQID: https://experienceleague.adobe.com/DwAI8P5ACNyZ8IGCsMoLglZ-EK0HE99ZV0yap51EfKo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1963
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -37,14 +26,14 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
->title="Delegação de subdomínio"
->abstract="O Journey Optimizer permite delegar subdomínios à Adobe. Você pode delegar totalmente um subdomínio ao Adobe, que é o método recomendado. </br>Você também pode criar um subdomínio usando CNAMEs para apontar para registros específicos do Adobe, mas essa abordagem exige que você mantenha e gerencie registros DNS por conta própria."
+>title="Delegação de subdomínios"
+>abstract="O Journey Optimizer permite delegar os subdomínios à Adobe. Você pode delegar totalmente um subdomínio à Adobe, que é o método recomendado. </br>Também é possível criar um subdomínio usando CNAMEs para apontar para registros específicos da Adobe, mas esse método exige que você mantenha e gerencie registros DNS por conta própria."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Métodos de configuração de subdomínio"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
->title="Delegação de subdomínio"
->abstract="Para começar a enviar emails, você delegará seu subdomínio ao Adobe. Depois de concluído, os registros DNS, caixas de entrada, remetentes, endereços de resposta e de rejeição serão configurados para você."
+>title="Delegação de subdomínios"
+>abstract="Para começar a enviar emails, você deve delegar seu subdomínio à Adobe. Após a delegação, serão configurados registros DNS, caixas de entrada, remetente e endereços de resposta e rejeição para você."
 
 A delegação de nome de domínio é um método que permite ao proprietário de um nome de domínio (tecnicamente: uma zona DNS) delegar uma subdivisão dele (tecnicamente: uma zona DNS sob ele, que pode ser chamada de subzona) para outra entidade. Basicamente, como cliente, se estiver lidando com a zona &quot;example.com&quot;, você pode delegar a subzona &quot;marketing.example.com&quot; ao Adobe.
 
@@ -52,7 +41,7 @@ A delegação de nome de domínio é um método que permite ao proprietário de 
 >
 >Saiba mais sobre a delegação de subdomínio e os diferentes métodos disponíveis com o [!DNL Journey Optimizer] em [esta seção](about-subdomain-delegation.md).
 
-Você pode:
+É possível:
 
 * Delegar totalmente um subdomínio - [Saiba como](#set-up-subdomain)
 * Crie um subdomínio usando CNAMEs para apontar para registros específicos do Adobe - [Saiba como](#set-up-subdomain)
@@ -64,7 +53,7 @@ A **delegação de subdomínio completa** é o método recomendado. Saiba mais s
 
 Ao configurar subdomínios no [!DNL Journey Optimizer], siga as medidas de proteção e recomendações descritas abaixo.
 
-* Por padrão, o [!DNL Journey Optimizer] permite delegar **um máximo de 10 subdomínios**. No entanto, dependendo do contrato de licença, talvez você possa delegar até 100 subdomínios. Entre em contato com o contato do Adobe para saber mais sobre o número de subdomínios aos quais você tem direito.
+* Por padrão, o [!DNL Journey Optimizer] permite delegar **um máximo de 10 subdomínios**. No entanto, dependendo do contrato de licença, talvez você possa delegar até 100 subdomínios. Fale com seu contato na Adobe para saber mais sobre o número de subdomínios aos quais você tem direito.
 
 * O envio paralelo de subdomínios não tem suporte em [!DNL Journey Optimizer]. Se você tentar enviar um subdomínio para delegação quando outro estiver com o status **[!UICONTROL Processando]**, receberá uma mensagem de erro.
 
@@ -91,7 +80,7 @@ Para acessar informações detalhadas sobre um subdomínio com o status **[!UICO
 
 ![](assets/subdomain-delegated.png)
 
-Você pode:
+É possível:
 
 * Recupere o nome do subdomínio (somente leitura) configurado durante o processo de delegação, bem como os URLs gerados (recursos, mirror pages, URLs de rastreamento),
 
@@ -105,8 +94,8 @@ Você pode:
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
->title="Gerar os registros DNS correspondentes"
->abstract="Para delegar totalmente um novo subdomínio ao Adobe, é necessário copiar e colar as informações do servidor de nomes do Adobe exibidas na interface do Journey Optimizer na solução de hospedagem de domínio para gerar os registros DNS correspondentes. Para delegar um subdomínio usando CNAMEs, também é necessário copiar e colar o registro de validação do URL do CDN do SSL. Depois que as verificações forem bem-sucedidas, o subdomínio estará pronto para ser usado para entregar mensagens."
+>title="Gerar os registros de DNS correspondentes"
+>abstract="Para delegar totalmente um novo subdomínio à Adobe, é necessário copiar e colar as informações do servidor de nomes da Adobe exibidas na interface do Journey Optimizer na solução de hospedagem de domínio para gerar os registros DNS correspondentes. Para delegar um subdomínio usando CNAMEs, também é necessário copiar e colar o registro de validação SSL do URL do CDN. Depois que as verificações forem bem-sucedidas, o subdomínio estará pronto para ser usado para entregar mensagens."
 
 Para configurar um novo subdomínio em [!DNL Journey Optimizer], siga as etapas abaixo.
 <!--
@@ -168,13 +157,13 @@ Para configurar um novo subdomínio em [!DNL Journey Optimizer], siga as etapas 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
->title="Gerar os registros DNS e de validação correspondentes"
->abstract="Para delegar um subdomínio usando CNAMEs, é necessário copiar e colar as informações do servidor de nomes da Adobe e o registro de validação do URL do CDN do SSL exibido na interface do Journey Optimizer na plataforma de hospedagem. Depois que as verificações forem bem-sucedidas, o subdomínio estará pronto para ser usado para entregar mensagens."
+>title="Gerar o DNS correspondente e os registros de validação"
+>abstract="Para delegar um subdomínio usando CNAMEs, é necessário copiar e colar as informações do servidor de nomes da Adobe e o registro de validação do URL CDN do SSL exibido na interface do Journey Optimizer em sua plataforma de hospedagem. Depois que as verificações forem bem-sucedidas, o subdomínio estará pronto para ser usado para entregar mensagens."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_cdn_cname"
 >title="Copiar o registro de validação"
->abstract="O Adobe gera um registro de validação. É necessário criar o registro correspondente na plataforma de hospedagem para validação de URL CDN."
+>abstract="A Adobe gera um registro de validação. Você precisa criar o registro correspondente em sua plataforma de hospedagem para validação de URL de CDN."
 
 Ao configurar um subdomínio, você pode usar CNAMEs para apontar para registros específicos do Adobe. Usando essa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS.
 
@@ -273,7 +262,7 @@ Primeiro, execute as seguintes etapas no [!DNL Journey Optimizer]:
 
 1. Cancele a delegação de qualquer subdomínio de página de aterrissagem, subdomínio SMS e subdomínio da Web associado a esse subdomínio.
 
-   Você precisa levantar uma solicitação dedicada para cada [página de aterrissagem](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) ou [subdomínio da Web](../web/web-delegated-subdomains.md#undelegate-subdomain).
+   Você precisa levantar uma solicitação dedicada para cada [página de aterrissagem](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../mobile/mobile-subdomains.md#undelegate-subdomain) ou [subdomínio da Web](../web/web-delegated-subdomains.md#undelegate-subdomain).
 
 1. Interrompa as campanhas ativas associadas aos subdomínios. [Saiba como](../campaigns/manage-campaigns.md#stop)
 
@@ -294,8 +283,8 @@ Depois que a solicitação for tratada pela Adobe, o domínio não delegado não
 >* Não é possível reativar as configurações de canal que estavam usando esse subdomínio.
 >* Não é possível delegar o mesmo subdomínio novamente por meio da interface do usuário. Caso deseje, entre em contato com o representante da Adobe.
 
-## Vídeo explicativo{#video}
+## Vídeo tutorial{#video}
 
 Saiba como criar um subdomínio usando CNAME para apontar para registros específicos do Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342240?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

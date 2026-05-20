@@ -5,10 +5,10 @@ title: Gerenciar consentimento
 description: Gerenciar consentimento
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
-source-git-commit: 531e6f77af1d2a0f4ddf4f208e13feaa57326dee
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 29%
+source-wordcount: '278'
+ht-degree: 31%
 
 ---
 
@@ -22,7 +22,7 @@ Você pode lidar com o consentimento de três maneiras: **preferências de recus
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gerenciar recusas e consentimento de personalização
 
@@ -32,7 +32,7 @@ Saiba como gerenciar as preferências de recusa e aplicar o consentimento de per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Trabalhar com políticas de consentimento
 
@@ -42,7 +42,7 @@ Entenda como criar e aplicar políticas de consentimento para gerenciar o uso de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Gerenciar as preferências dos clientes
 
@@ -58,4 +58,4 @@ Saiba como gerenciar tópicos de assinatura e preferências de canal usando pol�
 - **[Introdução à privacidade](../using/privacy/get-started-privacy.md)** - Visão geral do gerenciamento de privacidade no Journey Optimizer, incluindo solicitações de dados e logs de auditoria.
 - **[Governança de dados](../using/action/action-privacy.md)** - Proteja campos confidenciais contra exportação para sistemas de terceiros por meio de ações personalizadas.
 - **[Gerenciar recusa de email](../using/email/email-opt-out.md)** - Configure o tratamento de recusa e cancelamento de assinatura específicos do email.
-- **[Gerenciar recusa de mensagem de texto](../using/sms/sms-opt-out.md)** - Configure a recusa e o tratamento de recusa e cancelamento de assinatura SMS/MMS/RCS.
+- **[Gerenciar recusa de mensagem de texto](../using/mobile/mobile-opt-out.md)** - Configure a recusa e o tratamento de recusa e cancelamento de assinatura SMS/MMS/RCS.
