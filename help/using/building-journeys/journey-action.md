@@ -229,7 +229,7 @@ A entrega rápida é usada quando um atraso na entrega das mensagens seria crít
 
 Saiba como habilitar o modo de entrega rápida para notificações por push [nesta página](../push/create-push.md#rapid-delivery).
 
-Para obter mais informações sobre desempenho ao usar o modo de entrega rápida, consulte [[!DNL Adobe Journey Optimizer] descrição do produto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Para obter mais informações sobre desempenho ao usar o modo de entrega rápida, consulte [[!DNL Adobe Journey Optimizer] descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
