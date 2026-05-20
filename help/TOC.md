@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
-source-wordcount: '3326'
-ht-degree: 97%
+source-wordcount: '3318'
+ht-degree: 96%
 
 ---
 
@@ -339,23 +339,23 @@ ht-degree: 97%
          + [Configurar canal de notificação por push](using/push/push-configuration.md)
          + [Configurar canal de notificação por push na web](using/push/push-configuration-web.md)
          + [Fluxo de trabalho de início rápido de integração para dispositivos móveis](using/push/mobile-onboarding-wf.md)
-   + Canal de SMS/MMS/RCS {#sms}
-      + [Canal de SMS/MMS/RCS](/help/rp_landing_pages/sms-landing-page.md)
-      + [Introdução às mensagens de texto](using/sms/get-started-sms.md)
-      + [Criar uma mensagem SMS/MMS/RCS](using/sms/create-sms.md)
-      + [Verificação e envio de mensagens de texto](using/sms/send-sms.md)
-      + [Gerenciar recusa de mensagem de texto](using/sms/sms-opt-out.md)
-      + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
-      + [Práticas recomendadas para otimização de custos de SMS](using/sms/sms-cost-optimization.md)
-      + Configurar canal de SMS/MMS/RCS {#configure-sms}
-         + [Introdução à configuração de SMS/MMS/RCS](using/sms/sms-configuration.md)
-         + [Configurar provedor Sinch](using/sms/sms-configuration-sinch.md)
-         + [Configurar provedor Infobip](using/sms/sms-configuration-infobip.md)
-         + [Configurar provedor Twilio](using/sms/sms-configuration-twilio.md)
-         + [Configurar um provedor personalizado](using/sms/sms-configuration-custom.md)
-         + [Criar webhook](using/sms/sms-webhook.md)
-         + [Criar uma configuração de SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
-         + [Usar um conjunto de dados personalizado para palavras-chave de entrada](using/sms/custom-dataset-inbound-keywords.md)
+   + Canal de SMS/MMS/RCS {#mobile}
+      + [Introdução a mensagens móveis](using/mobile/get-started-mobile.md)
+      + [Criar uma mensagem para dispositivo móvel](using/mobile/create-mobile-message.md)
+      + [Criar uma mensagem para dispositivo móvel](using/mobile/design-mobile.md)
+      + [Verificar e enviar mensagens móveis](using/mobile/send-mobile-message.md)
+      + [Gerenciar opção de não participação de mensagem móvel](using/mobile/mobile-opt-out.md)
+      + [Configurar os subdomínios de SMS](using/mobile/mobile-subdomains.md)
+      + [Práticas recomendadas para otimização de custos de SMS](using/mobile/mobile-cost-optimization.md)
+      + Configurar canal móvel {#configure-mobile}
+         + [Introdução à configuração móvel](using/mobile/mobile-configuration.md)
+         + [Configurar provedor Sinch](using/mobile/mobile-configuration-sinch.md)
+         + [Configurar provedor Infobip](using/mobile/mobile-configuration-infobip.md)
+         + [Configurar provedor Twilio](using/mobile/mobile-configuration-twilio.md)
+         + [Configurar um provedor personalizado](using/mobile/mobile-configuration-custom.md)
+         + [Criar webhook](using/mobile/mobile-webhook.md)
+         + [Criar uma configuração móvel](using/mobile/mobile-configuration-surface.md)
+         + [Usar um conjunto de dados personalizado para palavras-chave de entrada](using/mobile/custom-dataset-inbound-keywords.md)
    + Correspondência direta {#direct-mail}
       + [Correspondência direta](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [Introdução à correspondência direta](using/direct-mail/get-started-direct-mail.md)
