@@ -7,11 +7,10 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 7198657c414313e614aab539c827038ae53820c3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: f8fa72eadbc8381486290379f98025a10001f997
 workflow-type: tm+mt
-source-wordcount: 955
+source-wordcount: 883
 ht-degree: 8%
 
 ---
@@ -100,23 +99,6 @@ Os recursos a seguir são direcionados para esta versão.
 </table>
 
 
-<table>
-<thead>
-<tr>
-<th><strong>Suporte à decisão no canal de correspondência direta</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora é possível adicionar políticas de decisão a jornadas e campanhas de correspondência direta. As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo para cada membro do público. A decisão de correspondência direta também aceita casos de uso de decisão em lote, permitindo exportar os itens de oferta correspondentes para cada perfil em um determinado público-alvo da Adobe Experience Platform.</p>
-<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>Data de disponibilidade: 19 de maio de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <!--
 <table>
@@ -200,7 +182,7 @@ As seguintes melhorias estão direcionadas para esta versão.
 * **Substituir o campo de execução padrão em campanhas** - Disponível anteriormente no nível de jornada, agora é possível substituir o campo de execução padrão definido globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da campanha.
 
 
-  Data de disponibilidade: 19 de maio de 2026
+  Data de disponibilidade: 29 de maio de 2026
 
 <!--
 #### Configuration
@@ -227,12 +209,12 @@ As seguintes melhorias estão direcionadas para esta versão.
 * **Rich text em campos de fragmento editáveis** - Agora é possível adicionar rich text a fragmentos personalizáveis usados no seu conteúdo de email. Por exemplo, ao usar o componente de Texto como um campo editável no Designer de email, você pode formatar o conteúdo diretamente (por exemplo, negrito e itálico) e inserir hiperlinks.
 
 
-  Data de disponibilidade: 19 de maio de 2026
+  Data de disponibilidade: 28 de maio de 2026
 
 * **Restringir a quebra de herança nos fragmentos** - Ao criar ou editar um fragmento, agora é possível escolher se ele pode ser modificado quando usado em emails. Bloquear um fragmento garante que ele permaneça sincronizado em todos os locais onde aparece, evitando edições locais que poderiam quebrar os padrões da marca ou os requisitos de conformidade. Essa configuração pode ser atualizada posteriormente, aplicando-se a usos futuros.
 
 
-  Data de disponibilidade: 19 de maio de 2026
+  Data de disponibilidade: 20 de maio de 2026
 
 <!--
 FEEDBACK FROM TYSON WAI - * **Content locking in landing pages** - You can now lock portions of landing page templates, similar to the locking controls available for email templates. You can define which structures, components, and properties are editable — including options to lock design, content, position, and restrict content by limiting the number and/or types of components allowed.
@@ -287,7 +269,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -654,7 +636,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -920,7 +902,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1173,7 +1155,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1350,7 +1332,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
