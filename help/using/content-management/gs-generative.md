@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
 workflow-type: tm+mt
-source-wordcount: 999
+source-wordcount: 988
 ht-degree: 100%
 
 ---
@@ -198,6 +198,5 @@ As seguintes medidas de proteção se aplicam ao [Assistente de IA para express�
 
 ## Recursos adicionais
 
-* **[Experimentação generativa](generative-experimentation.md)**: entenda como combinar conteúdo gerado por IA com experimentação.
 * **[Casos de uso do Assistente de IA](generative-uc.md)**: saiba como usar o Assistente de IA por meio de casos de uso
 * **[Tutoriais do Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre os recursos do Assistente de IA e as práticas recomendadas.

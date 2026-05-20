@@ -27,9 +27,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
 workflow-type: tm+mt
-source-wordcount: 1625
+source-wordcount: 1605
 ht-degree: 3%
 
 ---
@@ -125,8 +125,6 @@ Saiba como revisar o texto gerado, fazer refinamentos e aplicar personalização
 1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
-
-   Você também pode ativar o experimento para o seu conteúdo. [Saiba mais](generative-experimentation.md)
 
 1. Insira campos de personalização para personalizar seu conteúdo com base nos dados de perfis. Em seguida, clique no botão **[!UICONTROL Simular conteúdo]** para controlar a renderização e verificar as configurações de personalização com perfis de teste. [Saiba mais](../personalization/personalize.md)
 
@@ -225,8 +223,6 @@ Depois de gerar variações de texto para suas mensagens móveis, você pode aju
 1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
-
-   Você também pode ativar o experimento para o seu conteúdo. [Saiba mais](generative-experimentation.md)
 
 1. Insira campos de personalização para personalizar seu conteúdo com base nos dados de perfis. Em seguida, clique no botão **[!UICONTROL Simular conteúdo]** para controlar a renderização e verificar as configurações de personalização com perfis de teste. [Saiba mais](../personalization/personalize.md)
 

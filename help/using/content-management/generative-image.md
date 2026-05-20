@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 2%
+source-wordcount: '1511'
+ht-degree: 3%
 
 ---
 
@@ -96,15 +96,13 @@ Depois de gerar variações de imagem, você pode revisar os resultados, verific
    * **[!UICONTROL Gerar Semelhante]** para exibir imagens relacionadas a esta variante.
    * **[!UICONTROL Edite no Adobe Express]** para personalizar ainda mais seu ativo.
 
-[Saiba mais sobre a integração do Adobe Express](../integrations/express.md)
+     [Saiba mais sobre a integração do Adobe Express](../integrations/express.md)
 
    * **[!UICONTROL Salve]** para armazenar os ativos para acesso posterior.
 
      ![Refinar opções mostrando as ações disponíveis](assets/image-genai-5.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
-
-   Você também pode ativar o experimento para o seu conteúdo. [Saiba mais](generative-experimentation.md)
 
 1. Após definir o conteúdo da mensagem, clique no botão **[!UICONTROL Simular conteúdo]** para controlar a renderização e verificar as configurações de personalização com perfis de teste. [Saiba mais](../personalization/personalize.md)
 
@@ -181,7 +179,5 @@ Depois de gerar variações de imagem para suas notificações por push, você p
 1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
-
-   Você também pode ativar o experimento para o seu conteúdo. [Saiba mais](generative-experimentation.md)
 
 Depois de definir seu conteúdo, público-alvo e programação, você estará pronto para preparar sua campanha de push. [Saiba mais](../campaigns/review-activate-campaign.md)

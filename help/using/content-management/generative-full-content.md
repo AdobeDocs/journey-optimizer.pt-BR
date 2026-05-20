@@ -23,10 +23,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
 workflow-type: tm+mt
-source-wordcount: 1961
-ht-degree: 3%
+source-wordcount: 1941
+ht-degree: 2%
 
 ---
 
@@ -131,8 +131,6 @@ Depois de gerar variações de conteúdo, você pode ajustar os resultados para 
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
-   Você também pode ativar o experimento para o seu conteúdo. [Saiba mais](generative-experimentation.md)
-
 1. Insira campos de personalização para personalizar seu conteúdo com base nos dados de perfis. Em seguida, clique no botão **[!UICONTROL Simular conteúdo]** para controlar a renderização e verificar as configurações de personalização com perfis de teste. [Saiba mais](../personalization/personalize.md)
 
 1. Revise e ative o conteúdo:
@@ -235,8 +233,6 @@ Depois de revisar as variações de notificação por push geradas, você pode a
 1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
-
-   Você também pode ativar o experimento para o seu conteúdo. [Saiba mais](generative-experimentation.md)
 
 1. Insira campos de personalização para personalizar o conteúdo da notificação por push com base nos dados dos perfis. Em seguida, clique no botão **[!UICONTROL Simular conteúdo]** para controlar a renderização e verificar as configurações de personalização com perfis de teste. [Saiba mais](../personalization/personalize.md)
 
