@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4e836dc988654ef5d529e4583e06592fb2e168a6
+source-git-commit: f8fa72eadbc8381486290379f98025a10001f997
 workflow-type: tm+mt
-source-wordcount: 1814
-ht-degree: 33%
+source-wordcount: 1922
+ht-degree: 31%
 
 ---
 
@@ -67,8 +67,13 @@ Os recursos a seguir foram lançados em maio de 2026.
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer agora usa o <strong>seletor do Supervisor de conteúdo</strong>, um modal unificado para selecionar fragmentos de conteúdo e Experience Manager Assets. O novo seletor oferece suporte à navegação, pesquisa e filtragem em todos os ativos, inclui representações do Dynamic Media e incorpora recursos aprimorados da interface do usuário que permitem adicionar representações de imagem facilmente quando ativos dinâmicos são usados.</p>
-<p>Anteriormente disponível com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>O Journey Optimizer agora usa o <strong>seletor do Supervisor de conteúdo</strong>, um modal unificado para selecionar fragmentos de conteúdo e Experience Manager Assets. O novo seletor inclui:</p>
+<ul>
+<li><strong>Navegação, pesquisa e filtragem</strong> em todos os ativos e fragmentos.</li>
+<li><strong>Pesquisa semântica de IA</strong>: descreva o que você precisa em linguagem simples, por exemplo, "café nas montanhas", para exibir ativos contextualmente relevantes com base no significado e no conteúdo, não apenas correspondências de texto. Consultas multilíngues também são compatíveis.</li>
+<li><strong>Upload breve</strong>: faça upload de um resumo de marketing para exibir automaticamente ativos que se alinham ao contexto da campanha com base no conteúdo e nos requisitos.</li>
+<li><strong>Representações do Dynamic Media</strong>: escolha e aplique representações de imagem para ativos dinâmicos sem sair do seletor.</li>
+</ul>
 <p>Para obter mais informações, consulte a <a href="../integrations/aem-content-advisor.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 19 de maio de 2026</p>
 </td>
@@ -253,6 +258,24 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <p>As jornadas não recorrentes de <strong>Ler público-alvo</strong> agora fazem a transição automática para o status <strong>Parado</strong> depois que o último perfil ativo sai. Anteriormente, essas jornadas permaneciam <strong>Ativas</strong> até que o tempo limite global de 91 dias expirasse — mesmo quando nenhum perfil estava fluindo mais por elas. Com essa melhoria, o status da jornada reflete o estado de execução real assim que é concluída, mantendo o inventário da jornada preciso sem intervenção manual.</p>
 <p>Observe que esse comportamento não se aplica a jornadas que incluem nós que causam períodos de espera, como nós de espera, nós de reação ou transições acionadas por evento. Essas jornadas permanecem sujeitas ao tempo limite global padrão de 91 dias.</p>
 <p>Data de disponibilidade: 21 de maio de 2026</p>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Suporte à decisão no canal de correspondência direta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível adicionar políticas de decisão a jornadas e campanhas de correspondência direta. As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo para cada membro do público. A decisão de correspondência direta também aceita casos de uso de decisão em lote, permitindo exportar os itens de oferta correspondentes para cada perfil em um determinado público-alvo da Adobe Experience Platform.</p>
+<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
+<p>Data de disponibilidade: 21 de maio de 2026</p>
+</td>
 </tr>
 </tbody>
 </table>
