@@ -6,9 +6,9 @@ description: Saiba como acessar e usar o Supervisor de conteúdo do Adobe Experi
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 90ee52450c3103b43f2b280fb5bcb97005bed78a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,12 @@ Exiba metadados e propriedades detalhados de qualquer ativo usando o ícone **In
 
 +++
 
++++ Acesso ao repositório entre organizações
+
+Descubra e selecione ativos de repositórios em organizações às quais você tem acesso. Esse recurso permite navegar e usar ativos armazenados em repositórios pertencentes a organizações diferentes, fornecendo acesso mais amplo à biblioteca de ativos disponível sem sair do fluxo de trabalho de criação do Journey Optimizer.
+
++++
+
 +++ Painel Dynamic Media
 
 Acesse representações dinâmicas, recortes inteligentes e modificações instantâneas com base na configuração do repositório.
@@ -71,7 +77,7 @@ A disponibilidade do Dynamic Media depende da configuração do repositório:
 
 * **Scene7**: disponível para ativos publicados (exceto Vídeo e PDF). [Saiba mais sobre os modificadores do Dynamic Media Scene7](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**: disponível para ativos aprovados (exceto Vídeo). [Saiba mais sobre o Dynamic Media com modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=pt-BR){target="_blank"}
+* **OpenAPI**: disponível para ativos aprovados (exceto Vídeo). [Saiba mais sobre o Dynamic Media com modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Scene7 e OpenAPI**: disponíveis quando ambas as configurações existem e o ativo atende aos critérios.
 
