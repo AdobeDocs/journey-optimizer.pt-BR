@@ -11,7 +11,7 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 18%
@@ -29,6 +29,7 @@ ht-degree: 18%
 * [Criar desafios](create-challenges.md)
 * **Criar tarefas** ◀︎ **Você está aqui**
 * [Monitorar o desempenho de desafio de fidelidade](loyalty-reporting.md)
+<!-- * [Configure the loyalty program](loyalty-admin.md) -->
 * [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -72,6 +73,7 @@ Selecione o tipo de atividade que os clientes devem executar para concluir esta 
 
 * **[!UICONTROL Compra]**: os clientes devem comprar um ou mais itens para concluir esta tarefa
 * **[!UICONTROL Gastos]**: os clientes devem gastar um valor especificado para concluir esta tarefa
+<!-- * **[!UICONTROL Custom event]**: Customers must perform an activity tracked as an Adobe Experience Platform event. The event must be defined in **[!UICONTROL Loyalty Admin]** before you can select it here. [Learn how to create event definitions](loyalty-admin.md#event-definitions) -->
 
 Para selecionar uma atividade, clique no ícone **+** e selecione a atividade de cliente que melhor se alinha às suas metas de resultado. Cada tipo de atividade tem atributos configuráveis específicos para definir e moldar ainda mais os requisitos da tarefa.
 ![](assets/task-create-activity.png)

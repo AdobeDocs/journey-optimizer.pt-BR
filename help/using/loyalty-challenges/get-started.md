@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '843'
 ht-degree: 15%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 15%
 * [Criar desafios](create-challenges.md)
 * [Criar tarefas](create-tasks.md)
 * [Monitorar o desempenho de desafio de fidelidade](loyalty-reporting.md)
+<!-- * [Configure the loyalty program](loyalty-admin.md) -->
 * [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -74,6 +75,8 @@ Você pode criar estes tipos de experiências de desafio:
 
 A criação e o lançamento de um desafio de fidelidade seguem este fluxo de trabalho:
 
+<!-- 1. **Configure the loyalty program** (administrators) - Set up your Adobe Experience Platform namespace, reward providers, and optionally event definitions and product inventory so rewards can be fulfilled when customers complete challenges. [Learn how to configure the loyalty program](loyalty-admin.md). -->
+
 1. **Criar um desafio** - Defina as propriedades básicas do desafio, incluindo nome, tipo (Padrão, Streak, Sequencial ou Trazer seus próprios dados quando disponíveis) e intervalo de datas. [Saiba como escolher um tipo de desafio](create-challenges.md#create-the-challenge).
 
 1. **Adicionar tarefas** - Defina as ações específicas que os clientes devem concluir, incluindo tipos de tarefa (compra, gastos), quantidades, filtros de produto e recompensas.
@@ -118,6 +121,18 @@ Para usar os Desafios de fidelidade, você precisa das permissões apropriadas n
 Entre em contato com o administrador se não conseguir acessar o recurso ou precisar de permissões adicionais.
 
 +++
+
+<!--
+
++++Configure the loyalty program (administrators)
+
+To configure **[!UICONTROL Loyalty Admin]** (reward providers, event definitions, and global settings), you need administrator access to your Journey Optimizer organization. Marketers who only create challenges do not need access to this area. [Learn how to configure the loyalty program](loyalty-admin.md).
+
+Contact your administrator if **[!UICONTROL Loyalty Admin]** is not visible in the left navigation.
+
++++
+
+-->
 
 +++Público-alvo
 
@@ -175,6 +190,21 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
     <em>Rastreie KPIs de programa, resultados de desafio e métricas de tarefa com painéis integrados</em>
     </p>
   </td>
+  &lt;!--
+
+<td>
+    <a href="loyalty-admin.md">
+      <img alt="Configuração" src="assets/do-not-localize/icon-access.png" width="200"/>
+    </a>
+    <div>
+    <a href="loyalty-admin.md"><strong>Configurar o programa de fidelidade</strong></a>
+    </div>
+    <p>
+    <em>Configurar provedores de premiação, definições de eventos e configurações de organização para atendimento</em>
+    </p>
+  </td>
+
+-->
 </tr>
 </table>
 
