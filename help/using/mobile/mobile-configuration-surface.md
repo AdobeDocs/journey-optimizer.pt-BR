@@ -2,32 +2,22 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Definir a configuração do SMS
-description: Saiba como definir a configuração de SMS/MMS para enviar mensagens de texto com o Journey Optimizer
+description: Saiba como definir a configuração de SMS/RCS/MMS para enviar mensagens para dispositivos móveis com o Journey Optimizer
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
 TQID: https://experienceleague.adobe.com/J5h64ccVVJUTCIk7FMMolKfEZy6rjEn-jwj1dEntnRM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 520
-ht-degree: 12%
+source-wordcount: 522
+ht-degree: 5%
 
 ---
 
@@ -36,8 +26,8 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="Definição da categoria da mensagem"
->abstract="Selecione o tipo de mensagens de texto que usam esta configuração: “Marketing” para mensagens promocionais que exigem consentimento do usuário ou “Transacional” para mensagens não comerciais, como uma redefinição de senha."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=pt-BR#sms-opt-out-management" text="Recusar mensagens de texto de marketing"
+>abstract="Selecione o tipo de mensagem móvel usando essa configuração: marketing para mensagens promocionais, que exigem consentimento do usuário, ou transacional para mensagens não comerciais, como redefinição de senha."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=pt-BR#sms-opt-out-management" text="Recusar em mensagens móveis de marketing"
 
 Depois que o canal de mensagens móveis for configurado, você deverá criar uma configuração de canal para enviar mensagens SMS, RCS e MMS do **[!DNL Journey Optimizer]**.
 
@@ -76,7 +66,7 @@ Para criar uma configuração de canal, siga estas etapas:
 
    >[!NOTE]
    >
-   >Para selecionar um subdomínio, verifique se você configurou anteriormente pelo menos um subdomínio SMS/MMS. [Saiba como](mobile-subdomains.md)
+   >Para selecionar um subdomínio, verifique se você configurou anteriormente pelo menos um subdomínio SMS/RCS/MMS. [Saiba como](mobile-subdomains.md)
 
 1. Na seção **[!UICONTROL Execution dimension]**, use o **[!UICONTROL SMS Execution Field]** para selecionar entre os atributos do perfil o número de telefone que você deseja usar em prioridade se vários números estiverem disponíveis no banco de dados. [Saiba mais](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
@@ -109,4 +99,4 @@ Para criar uma configuração de canal, siga estas etapas:
 
    ![](assets/preset-active.png)
 
-Agora você está pronto para enviar mensagens de texto com o Journey Optimizer.
+Agora você está pronto para enviar mensagens móveis com o Journey Optimizer.

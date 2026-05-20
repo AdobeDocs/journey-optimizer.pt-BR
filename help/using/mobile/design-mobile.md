@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criar uma mensagem SMS/MMS
-description: Saiba como criar uma mensagem SMS/MMS no Journey Optimizer
+title: Criar uma mensagem SMS/RCS/MMS
+description: Saiba como criar uma mensagem SMS/RCS/MMS no Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1380'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 Você pode criar e enviar mensagens de texto (SMS), comunicação avançada (RCS) e multimídia (MMS) com o Adobe Journey Optimizer. Primeiro, é necessário adicionar uma ação de Mensagem móvel em uma jornada ou campanha e, em seguida, definir o conteúdo da Mensagem móvel, conforme detalhado abaixo. O Adobe Journey Optimizer também oferece recursos para testar suas mensagens móveis antes do envio, para que você possa verificar a renderização, os atributos de personalização e todas as outras configurações.
 
-De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing SMS/MMS devem conter uma maneira de os perfis cancelarem facilmente a inscrição. Para fazer isso, os perfis SMS podem responder com palavras-chave de aceitação e recusa. [Saiba como gerenciar a opção de não participação](../privacy/opt-out.md#opt-out-decision-management)
+De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing SMS/RCS/MMS devem conter uma maneira de os perfis cancelarem facilmente a inscrição. Para fazer isso, os perfis SMS podem responder com palavras-chave de aceitação e recusa. [Saiba como gerenciar a opção de não participação](../privacy/opt-out.md#opt-out-decision-management)
 
 ## Definir o conteúdo RCS{#rcs-content}
 
