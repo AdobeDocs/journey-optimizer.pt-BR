@@ -5,16 +5,16 @@ title: Canal de SMS/MMS/RCS
 description: Canal de SMS/MMS/RCS
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 80%
+ht-degree: 72%
 
 ---
 
 # Canal de SMS/MMS/RCS{#section-overview}
 
-O canal de SMS/MMS/RCS do Adobe Journey Optimizer permite a você engajar os clientes diretamente em seus dispositivos móveis por meio de mensagens de texto personalizadas. Quer você esteja enviando atualizações simples via SMS, conteúdo multimídia avançado via MMS ou mensagens interativas com marca RCS, este canal oferece maneiras versáteis de se conectar. Você explorará como configurar provedores de serviços, criar e personalizar mensagens, integrá-las a campanhas ou jornadas e garantir a conformidade com o gerenciamento de recusa. Ao longo do caminho, você aprenderá a testar, enviar e gerenciar as suas comunicações para maximizar o impacto, facilitando a entrega de mensagens oportunas e relevantes adequadas ao seu público-alvo.
+O canal SMS/MMS/RCS no Adobe Journey Optimizer permite que você envolva os clientes diretamente em seus dispositivos móveis por meio de mensagens móveis personalizadas. Quer você esteja enviando atualizações simples via SMS, conteúdo multimídia avançado via MMS ou mensagens interativas com marca RCS, este canal oferece maneiras versáteis de se conectar. Você explorará como configurar provedores de serviços, criar e personalizar mensagens, integrá-las a campanhas ou jornadas e garantir a conformidade com o gerenciamento de recusa. Ao longo do caminho, você aprenderá a testar, enviar e gerenciar as suas comunicações para maximizar o impacto, facilitando a entrega de mensagens oportunas e relevantes adequadas ao seu público-alvo.
 
 ## Visão geral do canal SMS/MMS/RCS
 

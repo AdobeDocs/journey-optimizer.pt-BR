@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introdução a mensagens móveis
-description: Saiba como criar e enviar mensagens de texto no Journey Optimizer
+description: Saiba como criar e enviar mensagens móveis no Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
@@ -30,10 +30,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 30%
+source-wordcount: 1006
+ht-degree: 24%
 
 ---
 
@@ -69,7 +69,7 @@ As mensagens móveis podem ser criadas e enviadas em uma jornada ou em uma campa
 
 ## Requisitos de configuração {#configuration-requirements}
 
-Antes de enviar mensagens de texto, faça o seguinte:
+Antes de enviar mensagens móveis, você deve:
 
 1. **Escolha um provedor SMS**: selecione Sinch, Twilio, Infobip ou configure um provedor personalizado
 2. **Configurar credenciais de API**: integre os tokens de API e as IDs de serviço do seu provedor ao Journey Optimizer
@@ -90,7 +90,7 @@ Os seguintes pré-requisitos são necessários para usar o RCS no Journey Optimi
 
 ## Recursos adicionais {#additional-resources}
 
-Navegue pelos tópicos abaixo para saber mais sobre mensagens de texto no Journey Optimizer.
+Navegue pelos tópicos abaixo para saber mais sobre Mensagens móveis no Journey Optimizer.
 
 +++Guias de configuração
 
@@ -115,11 +115,11 @@ Configuração passo a passo para cada provedor de serviços SMS:
 
 +++Criação e gerenciamento de conteúdo
 
-Crie, personalize e gerencie o conteúdo da mensagem de texto:
+Crie, personalize e gerencie o conteúdo de mensagens móveis:
 
-* [Criar mensagens SMS/MMS](create-mobile-message.md)
+* [Criar mensagens SMS/RCS/MMS](create-mobile-message.md)
 * [Visualizar, testar e enviar mensagens](send-mobile-message.md)
-* [Personalização em mensagens de texto](../personalization/personalize.md)
+* [Personalization em mensagens móveis](../personalization/personalize.md)
 * [Conteúdo dinâmico](../personalization/get-started-dynamic-content.md)
 * [Gere conteúdo de SMS com o Assistente de IA](../content-management/generative-text.md)
 
@@ -127,7 +127,7 @@ Crie, personalize e gerencie o conteúdo da mensagem de texto:
 
 +++Conformidade e privacidade
 
-Verifique se as mensagens de texto estão em conformidade com regulamentos e padrões de privacidade:
+Verifique se suas mensagens móveis estão em conformidade com os regulamentos e os padrões de privacidade:
 
 * [Gerenciamento de recusa](mobile-opt-out.md)
 * [Privacidade e consentimento](../privacy/opt-out.md#opt-out-decision-management)

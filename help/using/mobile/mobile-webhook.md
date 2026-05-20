@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '2855'
 ht-degree: 3%
@@ -120,7 +120,7 @@ Para a Conversação entre Sinch e Sinch, crie um único webhook que lida com ev
 
    +++ Recusar
 
-   * Ative palavras-chave que recusam usuários e remova o consentimento para enviar mensagens de texto. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, o número de telefone dele não recebe mensagens SMS.
+   * Ative palavras-chave que recusam usuários e remova o consentimento para enviar mensagens móveis. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, o número de telefone dele não recebe mensagens SMS.
 
    * Por padrão, as seguintes palavras-chave são ativadas: Stop, Quit, Cancel, End, Unsubscribe, No. Remova quaisquer palavras-chave padrão clicando em ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
@@ -221,7 +221,7 @@ Para o Infobip, crie dois webhooks separados: um para eventos de Feedback e outr
 
    +++ Recusar
 
-   * Ative palavras-chave que recusam usuários e remova o consentimento para enviar mensagens de texto. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, o número de telefone dele não recebe mensagens SMS.
+   * Ative palavras-chave que recusam usuários e remova o consentimento para enviar mensagens móveis. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, o número de telefone dele não recebe mensagens SMS.
 
    * Por padrão, as seguintes palavras-chave são ativadas: Stop, Quit, Cancel, End, Unsubscribe, No. Remova quaisquer palavras-chave padrão clicando em ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
@@ -329,7 +329,7 @@ Para provedores de SMS personalizados, crie dois webhooks separados: um para eve
 
    +++ Recusar
 
-   * Ative palavras-chave que recusam usuários e remova o consentimento para enviar mensagens de texto. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, o número de telefone dele não recebe mensagens SMS.
+   * Ative palavras-chave que recusam usuários e remova o consentimento para enviar mensagens móveis. Quando a mensagem de um usuário corresponde a uma palavra-chave configurada, o número de telefone dele não recebe mensagens SMS.
 
    * Por padrão, as seguintes palavras-chave são ativadas: Stop, Quit, Cancel, End, Unsubscribe, No. Remova quaisquer palavras-chave padrão clicando em ![](assets/do-not-localize/Smock_Close_18_N.svg).
 

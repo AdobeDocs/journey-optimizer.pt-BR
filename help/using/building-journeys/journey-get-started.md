@@ -41,10 +41,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 941
-ht-degree: 53%
+source-wordcount: 943
+ht-degree: 49%
 
 ---
 
@@ -94,7 +94,7 @@ Aproveite os **dados contextuais** de eventos, informações de [!DNL Adobe Expe
 
 **Ações internas**
 
-Use as **ações de canal integradas** para enviar mensagens criadas no [!DNL Journey Optimizer] por email, push, SMS/MMS e muito mais.
+Use as **ações de canal integradas** para enviar mensagens criadas no [!DNL Journey Optimizer] por email, push, SMS/RCS/MMS e muito mais.
 
 [Enviar mensagens nas jornadas](journey-action.md)
 :::
@@ -135,7 +135,7 @@ Teste suas jornadas antes de publicar, monitore o desempenho e otimize o deliver
 
 No designer de jornadas, profissionais de marketing podem enviar mensagens 1:1 acionadas em tempo real por qualquer canal quando um evento ocorre. Por exemplo, quando um(a) cliente assina um serviço, ele pode [acionar um email de boas-vindas](message-to-subscribers-uc.md), incentivando-o(a) a fazer logon no aplicativo pela primeira vez e definir suas preferências. Ações como concluir a compra, abrir o email e fazer logon no aplicativo podem ser usadas como incentivos para o progresso de clientes em suas jornadas.
 
-O [designer de jornada](using-the-journey-designer.md) fornece [ações de canal integradas](journey-action.md) que oferecem suporte a mensagens de saída, como emails, notificações por push e SMS/MMS, bem como canais de entrada, incluindo aplicativos móveis, sites e experiências baseadas em código criadas diretamente no Journey Optimizer. Você também pode usar sistemas de terceiros para enviar mensagens — o Journey Optimizer inclui [ações personalizadas](using-custom-actions.md) para permitir que esses sistemas sejam integrados ao jornada diretamente do designer do jornada.
+O [designer do jornada](using-the-journey-designer.md) fornece [ações de canal integradas](journey-action.md) que oferecem suporte a mensagens de saída, como emails, notificações por push e SMS/RCS/MMS, bem como canais de entrada, incluindo aplicativos móveis, sites e experiências baseadas em código criados diretamente no Journey Optimizer. Você também pode usar sistemas de terceiros para enviar mensagens — o Journey Optimizer inclui [ações personalizadas](using-custom-actions.md) para permitir que esses sistemas sejam integrados ao jornada diretamente do designer do jornada.
 
 
 :::: landing-cards-container

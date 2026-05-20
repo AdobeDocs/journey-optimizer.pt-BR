@@ -43,10 +43,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1615
-ht-degree: 100%
+source-wordcount: 1616
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,7 @@ Escolha como os clientes entram: por meio de um evento, segmento de público-alv
 
 **Envio de mensagens**
 
-Use ações de canal integradas para email, push, SMS/MMS, no aplicativo, web e mais. Tudo isso criado no Journey Optimizer.
+Use ações de canal integradas para email, push, SMS/RCS/MMS, no aplicativo, Web e muito mais, tudo projetado no Journey Optimizer.
 
 [Enviar mensagens nas jornadas](journey-action.md)
 :::

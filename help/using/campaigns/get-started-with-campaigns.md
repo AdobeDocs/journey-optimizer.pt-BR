@@ -38,10 +38,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1613
-ht-degree: 100%
+source-wordcount: 1614
+ht-degree: 99%
 
 ---
 
@@ -254,7 +254,7 @@ Crie mensagens convincentes para o público-alvo:
 
 * Use o **Designer de email** para experiências de email avançadas
 * Configure **notificações por push** com imagens e deep links
-* Projete **mensagens SMS/MMS** com personalização
+* Criar **mensagens SMS/RCS/MMS** com personalização
 * Crie experiências **no aplicativo** e na **web**
 * Adicione **personalização** usando atributos de perfil e dados contextuais
 
@@ -369,7 +369,7 @@ Respeite as preferências do cliente evitando a entrega de mensagens durante as 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 **Otimização**
 
