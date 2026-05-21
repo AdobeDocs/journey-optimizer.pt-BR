@@ -6,16 +6,13 @@ description: Saiba como organizar atividades de campanha
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 471
-ht-degree: 49%
+source-wordcount: 530
+ht-degree: 44%
 
 ---
 
@@ -31,13 +28,17 @@ Todas as atividades estão detalhadas nas seções abaixo:
 
 ![Lista de atividades disponíveis na tela](../assets/orchestrated-activities.png){width="80%" align="left"}
 
-
 >[!NOTE]
 >
->* Dependendo do modelo de licenciamento, das permissões e da implementação, as atividades disponíveis podem ser diferentes.
->
->* O número de atividades em uma campanha orquestrada é limitado a 500.
+>Dependendo do modelo de licenciamento, das permissões e da implementação, as atividades disponíveis podem ser diferentes.
 
+## Medidas de proteção e limitações {#activity-guardrails}
+
+* **Limite de atividades do canal** - Uma campanha Orquestrada oferece suporte a no máximo 10 atividades de canal em publicação (Email, SMS, Push ou Correspondência direta). O direcionamento e as atividades de controle de fluxo não contam para esse limite.
+
+* **Limite de atividades da tela** - O número de atividades na tela é limitado a 500. Para manutenção e desempenho, mantenha os workflows abaixo de 100 atividades na prática.
+
+Consulte [Medidas de proteção e limitações](../guardrails.md) para todas as medidas de proteção e limitações de campanhas orquestradas.
 
 ## Atividades de direcionamento {#targeting}
 
