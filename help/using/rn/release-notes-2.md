@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 hide: true
-source-git-commit: 1ae72bdc97d1c3b4663b5a24a8af8e1684b32235
+source-git-commit: bd22257dbb42de3c1b180566b38f5cf406bf72bb
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2853'
 ht-degree: 18%
 
 ---
@@ -41,7 +41,7 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 <table>
 <thead>
 <tr>
-<th><strong>Jornada fragmentos</strong><br/></th>
+<th><strong>Jornada fragmentos (disponibilidade limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -61,7 +61,7 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 <table>
 <thead>
 <tr>
-<th><strong>Simulação de jornada</strong><br/></th>
+<th><strong>Simulação de jornada (disponibilidade limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -114,12 +114,12 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 
 #### Em breve {#may-26-journeys-coming-soon}
 
-Os seguintes recursos do jornada são esperados nos próximos dias ou semanas. As informações estão sujeitas a alterações.
+Os seguintes recursos do jornada são esperados nos próximos dias ou semanas. **As informações abaixo estão sujeitas a alterações.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Assistente de IA para expressões de Jornada</strong><br/></th>
+<th><strong>Assistente de IA para expressões de Jornada (Beta público)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -197,12 +197,12 @@ Os recursos e melhorias a seguir foram adicionados às campanhas orquestradas ne
 
 #### Em breve {#may-26-oc-coming-soon}
 
-O seguinte recurso de campanha orquestrada é esperado para os próximos dias ou semanas. As informações estão sujeitas a alterações.
+O seguinte recurso de campanha orquestrada é esperado para os próximos dias ou semanas. **As informações abaixo estão sujeitas a alterações.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Segmentação baseada em arquivo para campanhas orquestradas</strong><br/></th>
+<th><strong>Segmentação baseada em arquivo para campanhas orquestradas (disponibilidade limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -222,7 +222,7 @@ As seguintes melhorias na campanha são esperadas para os próximos dias ou sema
 
 #### Em breve {#may-26-campaigns-coming-soon}
 
-As seguintes melhorias na campanha são esperadas para os próximos dias ou semanas. As informações estão sujeitas a alterações.
+As seguintes melhorias na campanha são esperadas para os próximos dias ou semanas. **As informações abaixo estão sujeitas a alterações.**
 
 * **Alertas de clientes para eventos de ciclo de vida de campanha** - Novos alertas do sistema agora notificam você sobre eventos-chave do ciclo de vida para campanhas acionadas por ação e API. Assine no nível da sandbox.
 
@@ -266,7 +266,7 @@ Os recursos e melhorias a seguir foram adicionados ao Decisioning nesta versão.
 
 #### Em breve {#may-26-decisioning-coming-soon}
 
-A seguinte capacidade de decisão é esperada nos próximos dias ou semanas. As informações estão sujeitas a alterações.
+A seguinte capacidade de decisão é esperada nos próximos dias ou semanas. **As informações abaixo estão sujeitas a alterações.**
 
 <table>
 <thead>
@@ -309,7 +309,7 @@ Os seguintes recursos e melhorias foram adicionados ao canal de email nesta vers
 
 #### Em breve {#may-26-email-coming-soon}
 
-As seguintes melhorias no canal de email são esperadas nos próximos dias ou semanas. As informações estão sujeitas a alterações.
+As seguintes melhorias no canal de email são esperadas nos próximos dias ou semanas. **As informações abaixo estão sujeitas a alterações.**
 
 * **Personalizar detalhes do remetente de email por destinatário e campanha** - As campanhas orquestradas agora oferecem suporte à personalização de campos de cabeçalho de email, incluindo Nome do remetente, Endereço do remetente e Responder para, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o supervisor, o local ou a ramificação relevante para cada destinatário, em vez de rotear todos os envios por meio de um único endereço corporativo.
 
@@ -428,11 +428,9 @@ Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúd
 
 ### Administração {#may-26-admin}
 
-As seguintes melhorias na administração são esperadas para os próximos dias ou semanas — consulte a seção [Em breve](#may-26-admin-coming-soon) abaixo.
-
 #### Em breve {#may-26-admin-coming-soon}
 
-As seguintes melhorias na administração são esperadas nos próximos dias ou semanas. As informações estão sujeitas a alterações.
+As seguintes melhorias na administração são esperadas nos próximos dias ou semanas. **As informações abaixo estão sujeitas a alterações.**
 
 * **Pastas para jornadas e campanhas** - Agora é possível organizar suas jornadas e campanhas em pastas para melhorar a navegação e o gerenciamento na interface.
 
@@ -444,11 +442,9 @@ As seguintes melhorias na administração são esperadas nos próximos dias ou s
 
 ### Relatórios {#may-26-reporting}
 
-A seguinte melhoria de relatórios é esperada nos próximos dias ou semanas — consulte a seção [Em breve](#may-26-reporting-coming-soon) abaixo.
-
 #### Em breve {#may-26-reporting-coming-soon}
 
-A seguinte melhoria de relatórios é esperada nos próximos dias ou semanas. As informações estão sujeitas a alterações.
+A seguinte melhoria de relatórios é esperada nos próximos dias ou semanas. **As informações abaixo estão sujeitas a alterações.**
 
 * **Excluir cliques de bot para relatórios de email e SMS** - Novas métricas estimadas agora estão disponíveis para ajudar a filtrar interações não humanas (bot) dos relatórios de email e SMS. Eles incluem cliques estimados, taxas de click-through (CTR) e taxas de click-to-open (CTOR), fornecendo uma visualização mais precisa do engajamento real do cliente. As métricas existentes permanecem inalteradas e essas novas métricas podem ser usadas junto com os relatórios atuais para análise aprimorada.
 
