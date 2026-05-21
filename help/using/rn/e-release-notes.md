@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 1f569e7426dfce589f80d3d426a5644a5e553a90
+source-git-commit: 5f32fb17a6738f2be1e883484276f1fd7ffcd44a
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 18%
+source-wordcount: 188
+ht-degree: 27%
 
 ---
 
@@ -129,18 +129,6 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
   Availability date: May 19, 2026
   -->
 
-
-
-#### Relatórios
-
-* **Excluir cliques de bot para relatórios de email e SMS** - Novas métricas estimadas agora estão disponíveis para ajudar a filtrar interações não humanas (bot) dos relatórios de email e SMS. Eles incluem cliques estimados, taxas de click-through (CTR) e taxas de click-to-open (CTOR), fornecendo uma visualização mais precisa do engajamento real do cliente. As métricas existentes permanecem inalteradas e essas novas métricas podem ser usadas junto com os relatórios atuais para análise aprimorada.
-
-
-  Data de disponibilidade: 19 de maio de 2026
-
-#### Integrações
-
-* **Acesso ao repositório entre organizações no Seletor de Assets** - Agora é possível selecionar ativos facilmente de repositórios em várias organizações diretamente no Seletor de ativos do Adobe Experience Manager.
 <!--
 * **Open-time personalization with countdown timer using Dynamic Media**- Journey Optimizer and Adobe Experience Manager Dynamic Media integration enables open-time personalization for Dynamic Media templates, unlocking hyper-personalized use cases. Customers can create and publish personalized templates in Adobe Experience Manager and use them in Journey Optimizer, with data rendered at open time.
 
