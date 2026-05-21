@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 0%
+source-wordcount: 980
+ht-degree: 20%
 
 ---
 
@@ -39,14 +39,14 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
->title="Selecionar o tipo visual"
->abstract="Crie um fragmento visual independente para tornar o conteúdo reutilizável em um email em uma jornada, campanha ou modelo de conteúdo."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Adicionar fragmentos visuais aos seus emails"
+>title="Selecione o tipo “Visual”"
+>abstract="Crie um fragmento visual independente para tornar o conteúdo reutilizável em um email de uma jornada ou campanha ou em um modelo de conteúdo."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Adicionar fragmentos visuais a emails"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
->title="Selecionar o tipo de expressão"
->abstract="Crie um fragmento de expressão independente para tornar seu conteúdo reutilizável em várias jornadas e campanhas. Ao usar o editor de personalização, você pode aproveitar todos os fragmentos de expressão que foram criados na sandbox atual."
+>title="Selecione o tipo “Expressão”"
+>abstract="Crie um fragmento de expressão independente para tornar seu conteúdo reutilizável em várias jornadas e campanhas. Ao usar o editor de personalização, é possível aproveitar todos os fragmentos de expressão criados na sandbox atual."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Trabalhar com o editor de personalização"
 
 Os fragmentos podem ser criados do zero no menu esquerdo **[!UICONTROL Fragmentos]**. Além disso, também é possível salvar uma parte do conteúdo existente como fragmento ao projetar o conteúdo. [Saiba como](save-fragments.md#)
@@ -85,9 +85,9 @@ Após configurar as propriedades do fragmento, o Designer de email ou o editor d
 
 >[!NOTE]
 >
->Não há suporte para [Atributos contextuais](../personalization/personalization-build-expressions.md) dentro de fragmentos.
+>[Atributos contextuais](../personalization/personalization-build-expressions.md) não são permitidos dentro de fragmentos.
 >
->Quando o rastreamento é ativado em uma jornada ou campanha, se você adicionar links a um fragmento e se esse fragmento for usado em uma mensagem, esses links serão rastreados como todos os outros links incluídos na mensagem. [Saiba mais sobre links e rastreamento](../email/message-tracking.md)
+>Quando o rastreamento é habilitado em uma jornada ou campanha, se você adicionar links a um fragmento e esse fragmento for usado em uma mensagem, esses links serão rastreados como todos os outros links inclusos na mensagem. [Saiba mais sobre links e rastreamento](../email/message-tracking.md)
 
 * Para fragmentos visuais, edite o conteúdo conforme necessário, da mesma forma que faria para qualquer email dentro de uma jornada ou campanha. [Saiba mais](../email/get-started-email-design.md)
 
@@ -113,9 +113,33 @@ Quando o conteúdo estiver pronto, clique no botão **[!UICONTROL Salvar]**.
 
 >[!NOTE]
 >
->Fragmentos visuais não podem exceder 100 KB. Os fragmentos de expressão não podem exceder 200 KB.
+>Fragmentos visuais não podem exceder 100 KB. Fragmentos de expressão não podem exceder 200 KB.
 
 O fragmento é criado e adicionado à lista de fragmentos com o status **[!UICONTROL Rascunho]**. Você pode visualizá-la e publicá-la para torná-la disponível em jornadas e campanhas.
+
+### Bloquear um fragmento visual {#lock-visual-fragment}
+
+Se estiver criando ou editando um fragmento visual, você pode bloqueá-lo para impedir que os editores o modifiquem ou desanexem quando usado em emails.
+
+Selecionar essa opção garante que o fragmento permaneça sincronizado onde quer que seja usado, ajudando a aplicar a marca, manter a consistência e cumprir os requisitos legais.
+
+Para bloquear um fragmento visual, siga as etapas abaixo.
+
+1. Na tela de edição do conteúdo do fragmento, vá para a guia **[!UICONTROL Configurações]**.
+
+1. Por padrão, o fragmento é desbloqueado. Selecione **[!UICONTROL Impedir a quebra da herança]** para bloquear o fragmento.
+
+1. Clique em **[!UICONTROL Confirmar]**.
+
+   >[!NOTE]
+   >
+   >Essa configuração pode ser atualizada a qualquer momento. No entanto, as alterações se aplicam somente a usos futuros. Os emails existentes que usam esse fragmento não são modificados.
+
+![](assets/fragment-lock.png){width="70%" align="center"}
+
+Agora, ao usar esse fragmento em um email, ele é bloqueado e não pode ser desanexado do fragmento original. [Saiba mais](../email/use-visual-fragments.md#locked-fragments)
+
+As novas atualizações do fragmento bloqueado original são propagadas automaticamente para todos os emails que o utilizam.
 
 ## Pré-visualizar e publicar o fragmento {#publish}
 
@@ -123,7 +147,7 @@ O fragmento é criado e adicionado à lista de fragmentos com o status **[!UICON
 >
 >Para publicar um fragmento, você deve ter a permissão de usuário [Publicar fragmento](../administration/ootb-product-profiles.md#content-library-manager).
 
-Se o fragmento estiver pronto para entrar no ar, você poderá visualizá-lo e publicá-lo para disponibilizá-lo em suas jornadas e campanhas. Para fazer isso, siga as etapas abaixo.
+Se o fragmento estiver pronto para entrar no ar, você poderá visualizá-lo e publicá-lo para disponibilizá-lo em suas jornadas e campanhas. Para isso, siga as etapas abaixo.
 
 1. Volte para a tela de criação do fragmento depois de criar o conteúdo ou abra-o a partir da lista de fragmentos.
 

@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: 1104
 ht-degree: 1%
 
 ---
@@ -169,3 +169,17 @@ Para interromper a herança, siga as etapas abaixo:
    ![](assets/fragment-break-inheritance.png)
 
 1. Esse fragmento se torna um elemento independente que não está mais vinculado ao fragmento original. Edite-o como qualquer outro componente de conteúdo em seu conteúdo. [Saiba mais](content-components.md)
+
+### Fragmentos bloqueados {#locked-fragments}
+
+Se o fragmento tiver sido bloqueado pelo autor, o ícone de desbloqueio ficará esmaecido e não poderá ser usado para interromper a herança.
+
+![](assets/fragment-locked.png)
+
+Os fragmentos bloqueados permanecem sincronizados onde quer que apareçam, impedindo edições locais que poderiam quebrar os padrões da marca ou os requisitos de conformidade.
+
+Saiba como bloquear um fragmento em [esta seção](../content-management/create-fragments.md#lock-visual-fragment).
+
+>[!NOTE]
+>
+>O autor do fragmento pode alterar a configuração posteriormente para usos futuros redefinindo seu comportamento para **[!UICONTROL Permitir que a herança seja interrompida]** nas configurações do fragmento.

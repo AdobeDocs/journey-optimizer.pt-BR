@@ -30,9 +30,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 66475544e7d1a8694fd83a8bae93b0cef036d4ec
+source-git-commit: 57fc51eea5cf9884d7c741263bda0db6951ac7b9
 workflow-type: tm+mt
-source-wordcount: 2765
+source-wordcount: 2771
 ht-degree: 23%
 
 ---
@@ -213,6 +213,12 @@ Os recursos a seguir foram lançados em maio de 2026.
 ### Aprimoramentos {#may-26-improv}
 
 As seguintes melhorias também foram lançadas em maio de 2026.
+
+#### Designer de email
+
+* **Restringir a quebra de herança nos fragmentos** - Ao criar ou editar um fragmento, agora é possível escolher se ele pode ser modificado quando usado em emails. Bloquear um fragmento garante que ele permaneça sincronizado em todos os locais onde aparece, evitando edições locais que poderiam quebrar os padrões da marca ou os requisitos de conformidade. Essa configuração pode ser atualizada posteriormente, aplicando-se a usos futuros. [Leia mais](../content-management/create-fragments.md#lock-visual-fragment)
+
+  Data de disponibilidade: 21 de maio de 2026
 
 #### Campanhas orquestradas
 
@@ -425,7 +431,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <table>
 <thead>
 <tr>
-<th><strong>Arbitragem de Jornada - fórmulas de classificação</strong><br/></th>
+<th><strong>Arbitragem de Jornada - Fórmulas de classificação</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -454,19 +460,17 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 
   Data de disponibilidade: 21 de maio de 2026
 
-* **Personalização baseada em loop para dados relacionais** - O editor de personalização agora oferece suporte a um Bloco de loop que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de gravação de expressão.
-
-  Data de disponibilidade: 1º de junho de 2026
-
 * **Suporte de identificador complementar para públicos externos** - Os identificadores complementares no jornada agora têm suporte para públicos externos, incluindo públicos importados de um arquivo CSV e públicos criados com a Composição de Público Federado. Você pode designar qualquer atributo que não seja de identidade ou atributo de identidade que não seja de pessoa do público-alvo como a ID complementar; nenhum rótulo de esquema é necessário.
 
   Data de disponibilidade: 1º de junho de 2026
 
+#### Campanhas orquestradas
+
+* **Personalização baseada em loop para dados relacionais** - O editor de personalização agora oferece suporte a um Bloco de loop que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de gravação de expressão.
+
+  Data de disponibilidade: 1º de junho de 2026
+
 #### Designer de email
-
-* **Restringir a quebra de herança nos fragmentos** - Ao criar ou editar um fragmento, agora é possível escolher se ele pode ser modificado quando usado em emails. Bloquear um fragmento garante que ele permaneça sincronizado em todos os locais onde aparece, evitando edições locais que poderiam quebrar os padrões da marca ou os requisitos de conformidade. Essa configuração pode ser atualizada posteriormente, aplicando-se a usos futuros.
-
-  Data de disponibilidade: 21 de maio de 2026
 
 * **Rich text em campos de fragmento editáveis** - Agora é possível adicionar rich text a fragmentos personalizáveis usados no seu conteúdo de email. Por exemplo, ao usar o componente de Texto como um campo editável no Designer de email, você pode formatar o conteúdo diretamente (por exemplo, negrito e itálico) e inserir hiperlinks.
 
