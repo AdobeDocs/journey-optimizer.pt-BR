@@ -30,7 +30,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5af754d86573d79d361c69e79e3d1218bcbff7f9
+source-git-commit: 66475544e7d1a8694fd83a8bae93b0cef036d4ec
 workflow-type: tm+mt
 source-wordcount: 2765
 ht-degree: 23%
@@ -381,7 +381,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <td>
 <p>Agora você pode definir sua jornada como <strong>Simulação</strong>. Este modo permite validar sua lógica usando <strong>usuários simulados</strong>. São perfis temporários criados especificamente para a simulação, permitindo que você teste livremente sem precisar gerenciar perfis de teste persistentes na Adobe Experience Platform.</p>
 <p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral). Com a versão de Disponibilidade Geral, agora é possível usar o Journey Agent para gerar usuários e eventos simulados diretamente no menu Simulação.</p>
-<p>Data de disponibilidade: 1 de junho de 2026</p>
+<p>Data de disponibilidade: início de junho de 2026</p>
 </td>
 </tr>
 </tbody>
