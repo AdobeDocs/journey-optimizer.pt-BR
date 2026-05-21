@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 hide: true
-source-git-commit: d03638d47298503c0434bf26e97f244b09b1fb0e
+source-git-commit: 8ab2054698179fb23abf1c16915fe166afaf1e3f
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 21%
+source-wordcount: '2735'
+ht-degree: 19%
 
 ---
 
@@ -35,6 +35,8 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 ## Notas de versão de maio de 2026 {#may-26-rn}
 
 ### Jornadas {#may-26-journeys}
+
+Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. Alterações adicionais também são direcionadas para este mês — consulte a seção [Em breve](#may-26-journeys-coming-soon) abaixo.
 
 <table>
 <thead>
@@ -110,7 +112,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tbody>
 </table>
 
-**Em breve**
+#### Em breve {#may-26-journeys-coming-soon}
+
+Os seguintes recursos do jornada estão programados para serem lançados no final deste mês. As informações estão sujeitas a alterações.
 
 <table>
 <thead>
@@ -166,6 +170,8 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ### Campanhas orquestradas {#may-26-oc}
 
+Os recursos e melhorias a seguir foram adicionados às campanhas orquestradas nesta versão. Alterações adicionais também são direcionadas para este mês — consulte a seção [Em breve](#may-26-oc-coming-soon) abaixo.
+
 <table>
 <thead>
 <tr>
@@ -189,7 +195,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
   Data de disponibilidade: 20 de maio de 2026
 
-**Em breve**
+#### Em breve {#may-26-oc-coming-soon}
+
+O seguinte recurso de campanha orquestrada está programado para ser lançado no final deste mês. As informações estão sujeitas a alterações.
 
 <table>
 <thead>
@@ -210,7 +218,11 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ### Campanhas {#may-26-campaigns}
 
-**Em breve**
+As seguintes melhorias na campanha estão previstas para lançamento no final deste mês — consulte a seção [Em breve](#may-26-campaigns-coming-soon) abaixo.
+
+#### Em breve {#may-26-campaigns-coming-soon}
+
+As seguintes melhorias na campanha estão programadas para serem lançadas no final deste mês. As informações estão sujeitas a alterações.
 
 * **Alertas de clientes para eventos de ciclo de vida de campanha** - Novos alertas do sistema agora notificam você sobre eventos-chave do ciclo de vida para campanhas acionadas por ação e API. Assine no nível da sandbox.
 
@@ -221,6 +233,8 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
   Data de disponibilidade: 1 de junho de 2026
 
 ### Tomada de decisão {#may-26-decisioning}
+
+Os recursos e melhorias a seguir foram adicionados ao Decisioning nesta versão. Alterações adicionais também são direcionadas para este mês — consulte a seção [Em breve](#may-26-decisioning-coming-soon) abaixo.
 
 <table>
 <thead>
@@ -250,7 +264,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
   Data de disponibilidade: 20 de maio de 2026
 
-**Em breve**
+#### Em breve {#may-26-decisioning-coming-soon}
+
+O seguinte recurso do Decisioning está programado para ser lançado no final deste mês. As informações estão sujeitas a alterações.
 
 <table>
 <thead>
@@ -271,6 +287,8 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ### Canal de email {#may-26-email}
 
+Os seguintes recursos e melhorias foram adicionados ao canal de email nesta versão. Alterações adicionais também são direcionadas para este mês — consulte a seção [Em breve](#may-26-email-coming-soon) abaixo.
+
 <table>
 <thead>
 <tr>
@@ -289,11 +307,15 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tbody>
 </table>
 
-**Em breve**
+#### Em breve {#may-26-email-coming-soon}
 
-Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso.
+As seguintes melhorias no canal de email estão programadas para serem lançadas no final deste mês. As informações estão sujeitas a alterações.
 
-Data de disponibilidade: 1 de junho de 2026
+* **Personalizar detalhes do remetente de email por destinatário e campanha** - As campanhas orquestradas agora oferecem suporte à personalização de campos de cabeçalho de email, incluindo Nome do remetente, Endereço do remetente e Responder para, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o supervisor, o local ou a ramificação relevante para cada destinatário, em vez de rotear todos os envios por meio de um único endereço corporativo.
+
+  Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso.
+
+  Data de disponibilidade: 1 de junho de 2026
 
 * **Rich text em campos de fragmento editáveis** - Agora é possível adicionar rich text a fragmentos personalizáveis usados no seu conteúdo de email. Por exemplo, ao usar o componente de Texto como um campo editável no Designer de email, você pode formatar o conteúdo diretamente (por exemplo, negrito e itálico) e inserir hiperlinks.
 
@@ -304,6 +326,8 @@ Data de disponibilidade: 1 de junho de 2026
   Data de disponibilidade: 1 de junho de 2026
 
 ### Mensagens por dispositivo móvel (SMS, MMS e RCS) {#may-26-mobile}
+
+Os seguintes recursos e melhorias foram adicionados ao sistema de mensagens móveis nesta versão.
 
 <table>
 <thead>
@@ -330,6 +354,8 @@ Data de disponibilidade: 1 de junho de 2026
 
 ### Canal do WhatsApp {#may-26-whatsapp}
 
+As seguintes melhorias foram adicionadas ao canal do WhatsApp nesta versão.
+
 * **Suporte e rastreamento de botões do WhatsApp** - Os modelos do WhatsApp agora oferecem suporte para **Resposta rápida**, **Call to action - URL** e **Call to action - phone**, **Não há suporte para**. O Journey Optimizer envia botões e rastreia interações compatíveis junto com seus outros relatórios de canal.
 
 * **Dados de contexto do canal do WhatsApp** - O Journey Optimizer agora captura dados adicionais de interação retornados do canal do WhatsApp e os armazena no **Conjunto de Dados do AJO EmailTrackingExperienceEvent** no grupo de campos `whatsAppChannelContext`.
@@ -354,6 +380,8 @@ Data de disponibilidade: 1 de junho de 2026
   +++
 
 ### Conteúdo e integrações {#may-26-content}
+
+Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúdo e integrações nesta versão.
 
 <table>
 <thead>
@@ -400,7 +428,11 @@ Data de disponibilidade: 1 de junho de 2026
 
 ### Administração {#may-26-admin}
 
-**Em breve**
+As seguintes melhorias administrativas estão previstas para lançamento no final deste mês — consulte a seção [Em breve](#may-26-admin-coming-soon) abaixo.
+
+#### Em breve {#may-26-admin-coming-soon}
+
+As seguintes melhorias na administração estão programadas para serem lançadas no final deste mês. As informações estão sujeitas a alterações.
 
 * **Pastas para jornadas e campanhas** - Agora é possível organizar suas jornadas e campanhas em pastas para melhorar a navegação e o gerenciamento na interface.
 
