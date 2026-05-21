@@ -29,9 +29,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 2699
+source-wordcount: 2746
 ht-degree: 11%
 
 ---
@@ -435,7 +435,11 @@ Responder &quot;Sim&quot; sugere o melhor armazenamento de dados, mas sempre con
 
 +++ Qual é o número máximo de atividades por campanha orquestrada?
 
-O número de atividades em uma campanha orquestrada é limitado a 500.
+São aplicáveis dois limites separados:
+
+* **Atividades de canal** — Um máximo de 10 atividades de canal por campanha Orquestrada (Email, SMS, Push ou Correspondência direta). As atividades de direcionamento e controle de fluxo não contam. Exceder esse limite ao salvar ou publicar causa falha na operação.
+
+* **Tamanho da tela de desenho** — Até **500 atividades** na tela. Para manutenção, mantenha os fluxos de trabalho em **100 atividades** na prática.
 
 **Saiba mais**
 

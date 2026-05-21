@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 1803
-ht-degree: 41%
+source-wordcount: 1883
+ht-degree: 39%
 
 ---
 
@@ -77,9 +77,15 @@ Por exemplo:
 
 Usando atividades do canal, você pode criar campanhas abrangentes e personalizadas que envolvem clientes em vários pontos de contato e impulsionam conversões.
 
->[!CAUTION]
->
->Somente os canais de SMS, Push, Email e Correspondência direta são compatíveis com campanhas orquestradas.
+## Medidas de proteção e limitações {#channel-guardrails}
+
+* **Canais com suporte** - Somente os canais de SMS, Push, Email e Correspondência direta têm suporte em campanhas orquestradas.
+
+* **Limite de atividades do canal** - Uma campanha Orquestrada dá suporte a no máximo 10 atividades de canal (Email, SMS, Push ou Correspondência direta). Somente atividades de canal são contadas dentro desse limite; atividades de direcionamento e controle de fluxo não são contadas.
+
+  Se você exceder o limite ao salvar ou publicar, a operação falhará. Para ficar dentro do limite, reduza o número de atividades do canal ou divida a entrega de mensagens em várias campanhas orquestradas.
+
+Consulte [Medidas de proteção e limitações](../guardrails.md) para todas as medidas de proteção e limitações de campanhas orquestradas.
 
 ## Adicionar uma atividade de canal e definir suas propriedades {#add}
 
