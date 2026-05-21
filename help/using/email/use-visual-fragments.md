@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
+source-git-commit: 61b717453958b560813733c8f45fc7ed1e3c5313
 workflow-type: tm+mt
 source-wordcount: 1104
 ht-degree: 1%
@@ -183,3 +183,4 @@ Saiba como bloquear um fragmento em [esta seção](../content-management/create-
 >[!NOTE]
 >
 >O autor do fragmento pode alterar a configuração posteriormente para usos futuros redefinindo seu comportamento para **[!UICONTROL Permitir que a herança seja interrompida]** nas configurações do fragmento.
+
