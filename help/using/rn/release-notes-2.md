@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 hide: true
-source-git-commit: 44d4da2b621b108fa5828e70a77568ae59662d0e
+source-git-commit: d03638d47298503c0434bf26e97f244b09b1fb0e
 workflow-type: tm+mt
-source-wordcount: '2449'
-ht-degree: 20%
+source-wordcount: '2397'
+ht-degree: 21%
 
 ---
 
@@ -291,9 +291,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Em breve**
 
-* **Personalizar detalhes do remetente de email por destinatário e campanha** - As campanhas orquestradas agora oferecem suporte à personalização de campos de cabeçalho de email, incluindo Nome do remetente, Endereço do remetente e Responder para, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o supervisor, o local ou a ramificação relevante para cada destinatário, em vez de rotear todos os envios por meio de um único endereço corporativo. Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais.
+Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso.
 
-  Data de disponibilidade: 1 de junho de 2026
+Data de disponibilidade: 1 de junho de 2026
 
 * **Rich text em campos de fragmento editáveis** - Agora é possível adicionar rich text a fragmentos personalizáveis usados no seu conteúdo de email. Por exemplo, ao usar o componente de Texto como um campo editável no Designer de email, você pode formatar o conteúdo diretamente (por exemplo, negrito e itálico) e inserir hiperlinks.
 
