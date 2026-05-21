@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8098b219288d19fd3ed1c0350af34366c4efdeb2
+source-git-commit: 82bdcd9fdfbe947a45bf6b1f3be19e53b326727b
 workflow-type: tm+mt
-source-wordcount: 2112
-ht-degree: 30%
+source-wordcount: 2560
+ht-degree: 25%
 
 ---
 
@@ -286,6 +286,24 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <table>
 <thead>
 <tr>
+<th><strong>Assistente de IA para expressões de Jornada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Assistente de IA agora opera no editor de expressão avançado do jornada para converter prompts de linguagem natural em expressões válidas e lógica condicional. Descreva a expressão que deseja criar e o AI Assistant gera um código pronto para uso, que pode ser aplicado imediatamente ou refinado por meio de prompts de acompanhamento.</p>
+<p>Esse recurso está disponível para todos os clientes como um Beta público.</p>
+<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
+<p>Data de disponibilidade: 22 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Conclusão automática para jornadas de Leitura de público não recorrentes</strong><br/></th>
 </tr>
 </thead>
@@ -311,7 +329,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <td>
 <p>Agora é possível adicionar políticas de decisão a jornadas e campanhas de correspondência direta. As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo para cada membro do público. A decisão de correspondência direta também aceita casos de uso de decisão em lote, permitindo exportar os itens de oferta correspondentes para cada perfil em um determinado público-alvo da Adobe Experience Platform.</p>
 <!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>Data de disponibilidade: 21 de maio de 2026</p>
+<p>Data de disponibilidade: 1º de junho de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -329,7 +347,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <td>
 <p>Agora você pode definir sua jornada como <strong>Simulação</strong>. Este modo permite validar sua lógica usando <strong>usuários simulados</strong>. São perfis temporários criados especificamente para a simulação, permitindo que você teste livremente sem precisar gerenciar perfis de teste persistentes na Adobe Experience Platform.</p>
 <p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral). Com a versão de Disponibilidade Geral, agora é possível usar o Journey Agent para gerar usuários e eventos simulados diretamente no menu Simulação.</p>
-<p>Data de disponibilidade: 28 de maio de 2026</p>
+<p>Data de disponibilidade: 1 de junho de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -346,7 +364,42 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 <td>
 <p>As campanhas orquestradas agora permitem o carregamento de um arquivo CSV ou TXT diretamente na tela da campanha como público alvo, sem primeiro assimilar o arquivo na Adobe Experience Platform. Os dados do arquivo são consumidos no tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform. Durante a configuração do arquivo, você pode definir mapeamentos de coluna, tipos de dados, tratamento NULL e políticas de erro por coluna. Isso oferece suporte a envios ad hoc ou campanhas de lista de parceiros em que a criação de um pipeline de assimilação completo não é prática. </p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p>Data de disponibilidade: 28 de maio de 2026</p>
+<p>Data de disponibilidade: 1º de junho de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Otimização do caminho de Jornada - Direcionamento</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Use o novo nó <strong>Otimizar</strong> para direcionar públicos-alvo específicos a fim de determinar o melhor caminho para atender aos KPIs centrados nos negócios.</p>
+<p>Essa ferramenta permite desenvolver campanhas de marketing mais eficazes, com maior probabilidade de repercutir no nível 1:1, melhorar os esforços de personalização de marketing para os clientes e aprimorar KPIs essenciais de engajamento do cliente, como conversões e receita.</p>
+<p>Anteriormente disponível com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Data de disponibilidade: 21 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Arbitragem de Jornada - fórmulas de classificação</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode usar fórmulas para aumentar automaticamente as pontuações de prioridade da jornada com base nos atributos do perfil do cliente e fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
+<p>Anteriormente disponível com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Data de disponibilidade: 21 de maio de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -365,13 +418,25 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 
 * **Autenticação Personalizada Baseada em Certificado em ações personalizadas** - As ações personalizadas agora oferecem suporte à Autenticação Personalizada Baseada em Certificado. Ao adicionar subType: &quot;certificateCredential&quot; a uma configuração de autorização personalizada, o Journey Optimizer usa o certificado gerenciado da Adobe para assinar uma declaração de cliente JWT e trocá-la por um token de acesso — nenhum segredo do cliente necessário. Projetado para APIs empresariais que impõem a verificação de identidade baseada em certificados, como o Azure Entra ID.
 
-
   Data de disponibilidade: 21 de maio de 2026
 
 * **Personalização baseada em loop para dados relacionais** - O editor de personalização agora oferece suporte a um Bloco de loop que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de gravação de expressão.
 
+  Data de disponibilidade: 1º de junho de 2026
 
-  Data de disponibilidade: 28 de maio de 2026
+* **Suporte de identificador complementar para públicos externos** - Os identificadores complementares no jornada agora têm suporte para públicos externos, incluindo públicos importados de um arquivo CSV e públicos criados com a Composição de Público Federado. Você pode designar qualquer atributo que não seja de identidade ou atributo de identidade que não seja de pessoa do público-alvo como a ID complementar; nenhum rótulo de esquema é necessário.
+
+  Data de disponibilidade: 1º de junho de 2026
+
+#### Campanhas
+
+* **Alertas de clientes para eventos de ciclo de vida de campanha** - Novos alertas do sistema agora notificam você sobre eventos-chave do ciclo de vida para campanhas acionadas por ação e API. Assine no nível da sandbox.
+
+  Data de disponibilidade: 1º de junho de 2026
+
+* **Substituir o campo de execução padrão em campanhas** - Disponível anteriormente no nível de jornada, agora é possível substituir o campo de execução padrão definido globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da campanha.
+
+  Data de disponibilidade: 1 de junho de 2026
 
 #### Email
 
@@ -380,10 +445,22 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
   Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso.
 
 
-  Data de disponibilidade: 29 de maio de 2026
+  Data de disponibilidade: 1º de junho de 2026
 
 #### Configuração
 
 * **Conjunto de Dados de Evento de Feedback de Mensagem sendo movido para assimilação em lote** - O `AJO Message Feedback Event Dataset` está passando do modo de streaming para o modo de assimilação em lote. Essa alteração garante que a assimilação de dados não exceda os limites de assimilação de streaming. Se você usar esse conjunto de dados nos relatórios do Customer Journey Analytics ou executar consultas nele, espere um aumento na latência de dados de até 2 horas no futuro.
 
-  Data de disponibilidade: 29 de maio de 2026
+  Data de disponibilidade: 1 de junho de 2026
+
+#### Designer de email
+
+* **Rich text em campos de fragmento editáveis** - Agora é possível adicionar rich text a fragmentos personalizáveis usados no seu conteúdo de email. Por exemplo, ao usar o componente de Texto como um campo editável no Designer de email, você pode formatar o conteúdo diretamente (por exemplo, negrito e itálico) e inserir hiperlinks.
+
+
+  Data de disponibilidade: 1 de junho de 2026
+
+* **Restringir a quebra de herança nos fragmentos** - Ao criar ou editar um fragmento, agora é possível escolher se ele pode ser modificado quando usado em emails. Bloquear um fragmento garante que ele permaneça sincronizado em todos os locais onde aparece, evitando edições locais que poderiam quebrar os padrões da marca ou os requisitos de conformidade. Essa configuração pode ser atualizada posteriormente, aplicando-se a usos futuros.
+
+
+  Data de disponibilidade: 1 de junho de 2026
