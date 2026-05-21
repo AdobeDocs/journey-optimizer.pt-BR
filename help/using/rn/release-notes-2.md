@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 hide: true
-source-git-commit: 8ab2054698179fb23abf1c16915fe166afaf1e3f
+source-git-commit: 1ae72bdc97d1c3b4663b5a24a8af8e1684b32235
 workflow-type: tm+mt
-source-wordcount: '2735'
-ht-degree: 19%
+source-wordcount: '2874'
+ht-degree: 18%
 
 ---
 
@@ -30,13 +30,13 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 >[!NOTE]
 >
->Os recursos listados nestas notas de versão incluem uma **Data de disponibilidade** indicando quando cada alteração se torna acessível em seu ambiente. As entradas marcadas como **Brevemente** serão liberadas nos próximos dias. As informações estão sujeitas a alterações.
+>Os recursos listados nestas notas de versão incluem uma **Data de disponibilidade** indicando quando cada alteração se torna acessível em seu ambiente. As entradas marcadas como **Brevemente** terão seu lançamento agendado para os próximos dias ou semanas. As informações contidas nessas seções estão sujeitas a alterações.
 
 ## Notas de versão de maio de 2026 {#may-26-rn}
 
 ### Jornadas {#may-26-journeys}
 
-Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. Alterações adicionais também são direcionadas para este mês — consulte a seção [Em breve](#may-26-journeys-coming-soon) abaixo.
+Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. Alterações adicionais também são esperadas nos próximos dias ou semanas — consulte a seção [Em breve](#may-26-journeys-coming-soon) abaixo.
 
 <table>
 <thead>
@@ -114,7 +114,7 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 
 #### Em breve {#may-26-journeys-coming-soon}
 
-Os seguintes recursos do jornada estão programados para serem lançados no final deste mês. As informações estão sujeitas a alterações.
+Os seguintes recursos do jornada são esperados nos próximos dias ou semanas. As informações estão sujeitas a alterações.
 
 <table>
 <thead>
@@ -170,7 +170,7 @@ Os seguintes recursos do jornada estão programados para serem lançados no fina
 
 ### Campanhas orquestradas {#may-26-oc}
 
-Os recursos e melhorias a seguir foram adicionados às campanhas orquestradas nesta versão. Alterações adicionais também são direcionadas para este mês — consulte a seção [Em breve](#may-26-oc-coming-soon) abaixo.
+Os recursos e melhorias a seguir foram adicionados às campanhas orquestradas nesta versão. Alterações adicionais também são esperadas nos próximos dias ou semanas — consulte a seção [Em breve](#may-26-oc-coming-soon) abaixo.
 
 <table>
 <thead>
@@ -197,7 +197,7 @@ Os recursos e melhorias a seguir foram adicionados às campanhas orquestradas ne
 
 #### Em breve {#may-26-oc-coming-soon}
 
-O seguinte recurso de campanha orquestrada está programado para ser lançado no final deste mês. As informações estão sujeitas a alterações.
+O seguinte recurso de campanha orquestrada é esperado para os próximos dias ou semanas. As informações estão sujeitas a alterações.
 
 <table>
 <thead>
@@ -218,11 +218,11 @@ O seguinte recurso de campanha orquestrada está programado para ser lançado no
 
 ### Campanhas {#may-26-campaigns}
 
-As seguintes melhorias na campanha estão previstas para lançamento no final deste mês — consulte a seção [Em breve](#may-26-campaigns-coming-soon) abaixo.
+As seguintes melhorias na campanha são esperadas para os próximos dias ou semanas — consulte a seção [Em breve](#may-26-campaigns-coming-soon) abaixo.
 
 #### Em breve {#may-26-campaigns-coming-soon}
 
-As seguintes melhorias na campanha estão programadas para serem lançadas no final deste mês. As informações estão sujeitas a alterações.
+As seguintes melhorias na campanha são esperadas para os próximos dias ou semanas. As informações estão sujeitas a alterações.
 
 * **Alertas de clientes para eventos de ciclo de vida de campanha** - Novos alertas do sistema agora notificam você sobre eventos-chave do ciclo de vida para campanhas acionadas por ação e API. Assine no nível da sandbox.
 
@@ -234,7 +234,7 @@ As seguintes melhorias na campanha estão programadas para serem lançadas no fi
 
 ### Tomada de decisão {#may-26-decisioning}
 
-Os recursos e melhorias a seguir foram adicionados ao Decisioning nesta versão. Alterações adicionais também são direcionadas para este mês — consulte a seção [Em breve](#may-26-decisioning-coming-soon) abaixo.
+Os recursos e melhorias a seguir foram adicionados ao Decisioning nesta versão. Alterações adicionais também são esperadas nos próximos dias ou semanas — consulte a seção [Em breve](#may-26-decisioning-coming-soon) abaixo.
 
 <table>
 <thead>
@@ -266,7 +266,7 @@ Os recursos e melhorias a seguir foram adicionados ao Decisioning nesta versão.
 
 #### Em breve {#may-26-decisioning-coming-soon}
 
-O seguinte recurso do Decisioning está programado para ser lançado no final deste mês. As informações estão sujeitas a alterações.
+A seguinte capacidade de decisão é esperada nos próximos dias ou semanas. As informações estão sujeitas a alterações.
 
 <table>
 <thead>
@@ -287,7 +287,7 @@ O seguinte recurso do Decisioning está programado para ser lançado no final de
 
 ### Canal de email {#may-26-email}
 
-Os seguintes recursos e melhorias foram adicionados ao canal de email nesta versão. Alterações adicionais também são direcionadas para este mês — consulte a seção [Em breve](#may-26-email-coming-soon) abaixo.
+Os seguintes recursos e melhorias foram adicionados ao canal de email nesta versão. Alterações adicionais também são esperadas nos próximos dias ou semanas — consulte a seção [Em breve](#may-26-email-coming-soon) abaixo.
 
 <table>
 <thead>
@@ -309,7 +309,7 @@ Os seguintes recursos e melhorias foram adicionados ao canal de email nesta vers
 
 #### Em breve {#may-26-email-coming-soon}
 
-As seguintes melhorias no canal de email estão programadas para serem lançadas no final deste mês. As informações estão sujeitas a alterações.
+As seguintes melhorias no canal de email são esperadas nos próximos dias ou semanas. As informações estão sujeitas a alterações.
 
 * **Personalizar detalhes do remetente de email por destinatário e campanha** - As campanhas orquestradas agora oferecem suporte à personalização de campos de cabeçalho de email, incluindo Nome do remetente, Endereço do remetente e Responder para, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o supervisor, o local ou a ramificação relevante para cada destinatário, em vez de rotear todos os envios por meio de um único endereço corporativo.
 
@@ -323,7 +323,7 @@ As seguintes melhorias no canal de email estão programadas para serem lançadas
 
 * **Restringir a quebra de herança nos fragmentos** - Ao criar ou editar um fragmento, agora é possível escolher se ele pode ser modificado quando usado em emails. Bloquear um fragmento garante que ele permaneça sincronizado em todos os locais onde aparece, evitando edições locais que poderiam quebrar os padrões da marca ou os requisitos de conformidade. Essa configuração pode ser atualizada posteriormente, aplicando-se a usos futuros.
 
-  Data de disponibilidade: 1 de junho de 2026
+  Data de disponibilidade: 21 de maio de 2026
 
 ### Mensagens por dispositivo móvel (SMS, MMS e RCS) {#may-26-mobile}
 
@@ -428,16 +428,28 @@ Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúd
 
 ### Administração {#may-26-admin}
 
-As seguintes melhorias administrativas estão previstas para lançamento no final deste mês — consulte a seção [Em breve](#may-26-admin-coming-soon) abaixo.
+As seguintes melhorias na administração são esperadas para os próximos dias ou semanas — consulte a seção [Em breve](#may-26-admin-coming-soon) abaixo.
 
 #### Em breve {#may-26-admin-coming-soon}
 
-As seguintes melhorias na administração estão programadas para serem lançadas no final deste mês. As informações estão sujeitas a alterações.
+As seguintes melhorias na administração são esperadas nos próximos dias ou semanas. As informações estão sujeitas a alterações.
 
 * **Pastas para jornadas e campanhas** - Agora é possível organizar suas jornadas e campanhas em pastas para melhorar a navegação e o gerenciamento na interface.
 
   Data de disponibilidade: 21 de maio de 2026
 
 * **Conjunto de Dados de Evento de Feedback de Mensagem sendo movido para assimilação em lote** - O `AJO Message Feedback Event Dataset` está passando do modo de streaming para o modo de assimilação em lote. Essa alteração garante que a assimilação de dados não exceda os limites de assimilação de streaming. Se você usar esse conjunto de dados nos relatórios do Customer Journey Analytics ou executar consultas nele, espere um aumento na latência de dados de até 2 horas no futuro.
+
+  Data de disponibilidade: 1 de junho de 2026
+
+### Relatórios {#may-26-reporting}
+
+A seguinte melhoria de relatórios é esperada nos próximos dias ou semanas — consulte a seção [Em breve](#may-26-reporting-coming-soon) abaixo.
+
+#### Em breve {#may-26-reporting-coming-soon}
+
+A seguinte melhoria de relatórios é esperada nos próximos dias ou semanas. As informações estão sujeitas a alterações.
+
+* **Excluir cliques de bot para relatórios de email e SMS** - Novas métricas estimadas agora estão disponíveis para ajudar a filtrar interações não humanas (bot) dos relatórios de email e SMS. Eles incluem cliques estimados, taxas de click-through (CTR) e taxas de click-to-open (CTOR), fornecendo uma visualização mais precisa do engajamento real do cliente. As métricas existentes permanecem inalteradas e essas novas métricas podem ser usadas junto com os relatórios atuais para análise aprimorada.
 
   Data de disponibilidade: 1 de junho de 2026
