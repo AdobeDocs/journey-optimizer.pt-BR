@@ -30,7 +30,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 57fc51eea5cf9884d7c741263bda0db6951ac7b9
+source-git-commit: 46e1b1fa15586254383c41dc76a5c67a1b1373fa
 workflow-type: tm+mt
 source-wordcount: 2771
 ht-degree: 23%
@@ -452,7 +452,7 @@ Os recursos e aprimoramentos a seguir estão programados para serem lançados no
 
 * **Pastas para jornadas e campanhas** - Agora é possível organizar suas jornadas e campanhas em pastas para melhorar a navegação e o gerenciamento na interface.
 
-  Data de disponibilidade: 21 de maio de 2026
+  Data de disponibilidade: 2 de junho de 2026
 
 #### Jornadas
 
