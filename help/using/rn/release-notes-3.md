@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 hide: true
-source-git-commit: 09d13d12ba7148abce92c75ad6c2f40e8c7619a3
+source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
 workflow-type: tm+mt
-source-wordcount: '2823'
+source-wordcount: '2770'
 ht-degree: 19%
 
 ---
@@ -77,6 +77,10 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 </tbody>
 </table>
 
++++ Em breve — **As informações abaixo estão sujeitas a alterações.**
+
+Os seguintes recursos do jornada são esperados nos próximos dias ou semanas.
+
 <table>
 <thead>
 <tr>
@@ -89,7 +93,7 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 <p>Use o novo nó <strong>Otimizar</strong> para direcionar públicos-alvo específicos a fim de determinar o melhor caminho para atender aos KPIs centrados nos negócios.</p>
 <p>Essa ferramenta permite desenvolver campanhas de marketing mais eficazes, com maior probabilidade de repercutir no nível 1:1, melhorar os esforços de personalização de marketing para os clientes e aprimorar KPIs essenciais de engajamento do cliente, como conversões e receita.</p>
 <p>Anteriormente disponível em Disponibilidade limitada, esse recurso agora está disponível para todos os ambientes.</p>
-<p>Data de disponibilidade: 21 de maio de 2026</p>
+<p>Data de disponibilidade: 1 de junho de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -106,15 +110,11 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 <td>
 <p>Agora você pode usar fórmulas para aumentar automaticamente as pontuações de prioridade da jornada com base nos atributos do perfil do cliente e fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
 <p>Anteriormente disponível em Disponibilidade limitada, esse recurso agora está disponível para todos os ambientes.</p>
-<p>Data de disponibilidade: 21 de maio de 2026</p>
+<p>Data de disponibilidade: 1 de junho de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
-
-Os seguintes recursos do jornada são esperados nos próximos dias ou semanas.
 
 <table>
 <thead>
@@ -128,7 +128,7 @@ Os seguintes recursos do jornada são esperados nos próximos dias ou semanas.
 <p>O Assistente de IA agora opera no editor de expressão avançado do jornada para converter prompts de linguagem natural em expressões válidas e lógica condicional. Descreva a expressão que deseja criar e o AI Assistant gera um código pronto para uso, que pode ser aplicado imediatamente ou refinado por meio de prompts de acompanhamento.</p>
 <p>Esse recurso está disponível para todos os clientes como um Beta público.</p>
 <!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>Data de disponibilidade: 22 de maio de 2026</p>
+<p>Data de disponibilidade: 2 de junho de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -144,7 +144,7 @@ Os seguintes recursos do jornada são esperados nos próximos dias ou semanas.
 <tr>
 <td>
 <p>Anteriormente lançado com Disponibilidade limitada, a Simulação de Jornada agora está disponível para todos os ambientes. Com esta versão de Disponibilidade geral, agora é possível usar o Journey Agent para gerar usuários e eventos simulados diretamente no menu Simulação.</p>
-<p>Data de disponibilidade: 1 de junho de 2026</p>
+<p>Data de disponibilidade: início de junho de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -154,17 +154,13 @@ Os seguintes recursos do jornada são esperados nos próximos dias ou semanas.
 
   Observe que esse comportamento não se aplica a jornadas que incluem nós que causam períodos de espera, como nós de espera, nós de reação ou transições acionadas por evento. Essas jornadas permanecem sujeitas ao tempo limite global padrão de 91 dias.
 
-  Data de disponibilidade: 21 de maio de 2026
+  Data de disponibilidade: 2 de junho de 2026
 
 * **Autenticação Personalizada Baseada em Certificado em ações personalizadas** - As ações personalizadas agora oferecem suporte à Autenticação Personalizada Baseada em Certificado. Ao adicionar `subType: "certificateCredential"` a uma configuração de autorização personalizada, o Journey Optimizer usa o certificado gerenciado da Adobe para assinar uma declaração de cliente JWT e trocá-la por um token de acesso — não é necessário nenhum segredo de cliente. Projetado para APIs empresariais que impõem a verificação de identidade baseada em certificados, como o Azure Entra ID.
 
-  Data de disponibilidade: 21 de maio de 2026
+  Data de disponibilidade: 2 de junho de 2026
 
-* **Personalização baseada em loop para dados relacionais** - O editor de personalização agora oferece suporte a um Bloco de loop que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de gravação de expressão.
-
-  Data de disponibilidade: 1 de junho de 2026
-
-* **Suporte de identificador complementar para públicos externos** - Os identificadores complementares no jornada agora têm suporte para públicos externos, incluindo públicos importados de um arquivo CSV e públicos criados com a Composição de Público Federado. Você pode designar qualquer atributo que não seja de identidade ou atributo de identidade que não seja de pessoa do público-alvo como a ID complementar, sem a necessidade de um rótulo de esquema.
+* **Suporte de identificador complementar para públicos externos** - Os identificadores complementares no jornada agora têm suporte para públicos externos, incluindo públicos importados de um arquivo CSV e públicos criados com a Composição de Público Federado. Você pode designar qualquer atributo que não seja de identidade ou atributo de identidade que não seja de pessoa do público-alvo como a ID complementar; nenhum rótulo de esquema é necessário.
 
   Data de disponibilidade: 1 de junho de 2026
 
@@ -217,6 +213,10 @@ O seguinte recurso de campanha orquestrada é esperado para os próximos dias ou
 </tr>
 </tbody>
 </table>
+
+* **Personalização baseada em loop para dados relacionais** - O editor de personalização agora oferece suporte a um Bloco de loop que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de gravação de expressão.
+
+  Data de disponibilidade: 1 de junho de 2026
 
 +++
 
@@ -313,6 +313,10 @@ Os seguintes recursos e melhorias foram adicionados ao canal de email nesta vers
 </tbody>
 </table>
 
+* **Restringir a quebra de herança nos fragmentos** - Ao criar ou editar um fragmento, agora é possível escolher se ele pode ser modificado quando usado em emails. Bloquear um fragmento garante que ele permaneça sincronizado em todos os locais onde aparece, evitando edições locais que poderiam quebrar os padrões da marca ou os requisitos de conformidade. Essa configuração pode ser atualizada posteriormente, aplicando-se a usos futuros. [Leia mais](../content-management/create-fragments.md#lock-visual-fragment)
+
+  Data de disponibilidade: 21 de maio de 2026
+
 +++ Em breve — **As informações abaixo estão sujeitas a alterações.**
 
 As seguintes melhorias no canal de email são esperadas nos próximos dias ou semanas.
@@ -322,14 +326,6 @@ As seguintes melhorias no canal de email são esperadas nos próximos dias ou se
   Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso.
 
   Data de disponibilidade: 1 de junho de 2026
-
-* **Rich text em campos de fragmento editáveis** - Agora é possível adicionar rich text a fragmentos personalizáveis usados no seu conteúdo de email. Por exemplo, ao usar o componente de Texto como um campo editável no Designer de email, você pode formatar o conteúdo diretamente (por exemplo, negrito e itálico) e inserir hiperlinks.
-
-  Data de disponibilidade: 1 de junho de 2026
-
-* **Restringir a quebra de herança nos fragmentos** - Ao criar ou editar um fragmento, agora é possível escolher se ele pode ser modificado quando usado em emails. Bloquear um fragmento garante que ele permaneça sincronizado em todos os locais onde aparece, evitando edições locais que poderiam quebrar os padrões da marca ou os requisitos de conformidade. Essa configuração pode ser atualizada posteriormente, aplicando-se a usos futuros.
-
-  Data de disponibilidade: 21 de maio de 2026
 
 +++
 
@@ -442,7 +438,7 @@ As seguintes melhorias na administração são esperadas nos próximos dias ou s
 
 * **Pastas para jornadas e campanhas** - Agora é possível organizar suas jornadas e campanhas em pastas para melhorar a navegação e o gerenciamento na interface.
 
-  Data de disponibilidade: 21 de maio de 2026
+  Data de disponibilidade: 2 de junho de 2026
 
 * **Conjunto de Dados de Evento de Feedback de Mensagem sendo movido para assimilação em lote** - O `AJO Message Feedback Event Dataset` está passando do modo de streaming para o modo de assimilação em lote. Essa alteração garante que a assimilação de dados não exceda os limites de assimilação de streaming. Se você usar esse conjunto de dados nos relatórios do Customer Journey Analytics ou executar consultas nele, espere um aumento na latência de dados de até 2 horas no futuro.
 
