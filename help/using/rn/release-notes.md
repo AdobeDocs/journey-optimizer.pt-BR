@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0b129e622e0172233b9513c580627530573ed8ee
+source-git-commit: 8fa02f51c6b9bb9c98b7f20264c677d065ef0b75
 workflow-type: tm+mt
-source-wordcount: 2958
+source-wordcount: 2937
 ht-degree: 18%
 
 ---
@@ -462,7 +462,7 @@ As seguintes melhorias de usabilidade também foram lançadas em maio de 2026.
 
 #### Criação de conteúdo
 
-* **Edição de atributo de perfil embutido** - Agora é possível inserir expressões de atributo de perfil diretamente no Designer de email sem abrir o editor de personalização completo. Digite `{{` em qualquer campo de texto para abrir uma lista suspensa de preenchimento automático em linha. Em seguida, procure e selecione o atributo necessário. Ele é inserido imediatamente na posição do cursor. Esse recurso também está disponível no editor do canal de push. [Saiba mais](../personalization/personalize.md#inline-personalization)
+* **Edição de atributo de perfil em linha** - A edição de atributo de perfil em linha no Designer de email foi lançada inicialmente em abril. Como parte da versão de maio, esse recurso foi dissociado do Assistente de IA e estendido para o editor do canal de push. [Saiba mais](../personalization/personalize.md#inline-personalization)
 
   ![](../personalization/assets/inline-profile-attributes.png)
 
