@@ -11,7 +11,7 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 2%
@@ -22,18 +22,16 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**Documentação de desafios de fidelidade**
+**Sumário**
 
 [Introdução aos desafios de fidelidade](get-started.md)
 
-+++Criar e gerenciar desafios
+**Criar e gerenciar desafios**
 
 * **Acessar e gerenciar desafios e tarefas** ◀︎ **Você está aqui**
 * [Criar desafios](create-challenges.md)
 * [Criar tarefas](create-tasks.md)
 * [Monitorar o desempenho de desafio de fidelidade](loyalty-reporting.md)
-
-+++
 
 +++Configurar e integrar
 
