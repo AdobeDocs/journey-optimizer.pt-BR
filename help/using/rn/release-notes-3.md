@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 hide: true
-source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
+source-git-commit: e6a0079c3bdc9760bd149bb487520214f0a4e877
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 20%
+source-wordcount: '2957'
+ht-degree: 18%
 
 ---
 
@@ -427,6 +427,28 @@ Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúd
 </table>
 
 * **Acesso ao repositório entre organizações no Seletor de Assets** - Agora é possível selecionar ativos facilmente de repositórios em várias organizações diretamente no Seletor de ativos do Adobe Experience Manager.
+
+### Usabilidade {#may-26-usability}
+
+As seguintes melhorias de usabilidade foram adicionadas nesta versão.
+
+#### Listas
+
+* **Ações em massa** - Agora é possível selecionar vários itens de uma só vez nas listas de **Campanhas**, **Fragmentos** e **Modelos** e executar operações em massa a partir de uma única barra de ação, incluindo adicionar itens a um pacote, movê-los para uma pasta, editar marcas, gerenciar o acesso e arquivá-los ou excluí-los. [Saiba mais](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **Classificação e redimensionamento de coluna** - As listas **Campanhas**, **Fragmentos** e **Modelos** agora oferecem suporte à classificação clicando em qualquer cabeçalho de coluna. Na exibição das pastas de Campanhas, também estão disponíveis a classificação e filtragem por **[!UICONTROL Prioridade]** e **[!UICONTROL Configuração de canal]**. As larguras de coluna nas listas **Fragmentos** e **Modelos** também são redimensionáveis — arraste a borda da coluna para ajustar os dados mais importantes para você. [Saiba mais](../start/search-filter-categorize.md#filter-lists)
+
+#### Criação de conteúdo
+
+* **Edição de atributo de perfil embutido** - Agora é possível inserir expressões de atributo de perfil diretamente no Designer de email sem abrir o editor de personalização completo. Digite `{{` em qualquer campo de texto para abrir uma lista suspensa de preenchimento automático em linha. Em seguida, procure e selecione o atributo necessário. Ele é inserido imediatamente na posição do cursor. Esse recurso também está disponível no editor do canal de push. [Saiba mais](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **Dica de ferramenta de URL do link no editor do canal de push** - Quando uma URL em qualquer campo de link ou mídia é muito longa para ser exibida, um ícone de dica de ferramenta fica sempre visível ao lado do campo. Passe o mouse sobre ela para ver a URL completa. [Saiba mais](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
 
 ### Administração {#may-26-admin}
 
