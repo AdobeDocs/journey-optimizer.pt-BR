@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 48b80ac49ca434330ce929e6db7b778412f4759c
 workflow-type: tm+mt
-source-wordcount: 2581
-ht-degree: 25%
+source-wordcount: 2805
+ht-degree: 23%
 
 ---
 
@@ -282,6 +266,35 @@ As seguintes melhorias também foram lançadas em maio de 2026.
 
   +++
 
+### Melhorias de usabilidade {#may-26-usability}
+
+As seguintes melhorias de usabilidade também foram lançadas em maio de 2026.
+
+#### Listas
+
+* **Ações em massa** - Agora é possível selecionar vários itens de uma só vez nas listas de **Campanhas**, **Fragmentos** e **Modelos** e executar operações em massa a partir de uma única barra de ação, incluindo adicionar itens a um pacote, movê-los para uma pasta, editar marcas, gerenciar o acesso e arquivá-los ou excluí-los. [Saiba mais](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **Classificação e redimensionamento de coluna** - As listas **Campanhas**, **Fragmentos** e **Modelos** agora oferecem suporte à classificação clicando em qualquer cabeçalho de coluna. Na exibição das pastas de Campanhas, também estão disponíveis a classificação e filtragem por **[!UICONTROL Prioridade]** e **[!UICONTROL Configuração de canal]**. As larguras de coluna nas listas **Fragmentos** e **Modelos** também são redimensionáveis — arraste a borda da coluna para ajustar os dados mais importantes para você. [Saiba mais](../start/search-filter-categorize.md#filter-lists)
+
+#### Criação de conteúdo
+
+* **Edição de atributo de perfil embutido** - Agora é possível inserir expressões de atributo de perfil diretamente no Designer de email sem abrir o editor de personalização completo. Digite `{{` em qualquer campo de texto para abrir uma lista suspensa de preenchimento automático em linha. Em seguida, procure e selecione o atributo necessário. Ele é inserido imediatamente na posição do cursor. Esse recurso também está disponível no editor do canal de push. [Saiba mais](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **Dica de ferramenta de URL do link no editor do canal de push** - Quando uma URL em qualquer campo de link ou mídia é muito longa para ser exibida, um ícone de dica de ferramenta fica sempre visível ao lado do campo. Passe o mouse sobre ela para ver a URL completa. [Saiba mais](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
+
+<!--
+#### Simulation & Preview
+
+* **Redesigned preview experience** - The content preview screen has been redesigned with a side-by-side layout that lets you compare how your content renders across multiple profiles at a glance, enabling quicker and more confident reviews before sending. [Learn more](../test-approve/simulate-sample-input.md#preview)
+
+  ![](../test-approve/assets/simulation-preview-redesign.png)
+-->
 
 ## Em breve {#coming-soon}
 

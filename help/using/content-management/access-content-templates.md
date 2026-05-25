@@ -8,23 +8,15 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 TQID: https://experienceleague.adobe.com/ForlM8q0qc7dVSLKtCdhHh7ZVEuprPYbqTLHuOUXo8I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 833
-ht-degree: 0%
+source-wordcount: 900
+ht-degree: 3%
 
 ---
 
@@ -114,6 +106,12 @@ Para navegar facilmente pelos modelos de conteúdo, use pastas para organizá-lo
 >[!NOTE]
 >
 >Quando um modelo é editado ou excluído, as campanhas ou jornadas, incluindo o conteúdo criado usando esse modelo, não são afetadas.
+
+## Ações em massa {#bulk-actions-templates}
+
+É possível selecionar vários modelos de uma só vez e aplicar operações em massa a todos eles. As operações disponíveis incluem adicionar itens a um pacote, movê-los para uma pasta, editar tags, gerenciar o acesso e arquivar. [Saiba mais sobre ações em massa →](../start/search-filter-categorize.md#bulk-actions)
+
+Também é possível classificar a lista de modelos clicando na maioria dos cabeçalhos de coluna, e redimensionar colunas arrastando a borda da coluna para ajustar os dados necessários.
 
 ## [!BADGE Disponibilidade limitada]{type=Informative} exibe modelos como miniaturas {#template-thumbnails}
 
