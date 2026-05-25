@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 9383220dd57f6a3ebfe67d0d1081b8834b524293
+source-git-commit: 863c3405e5509938cb6b9180c16d5c89fb439814
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1631'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Para abrir a interface de configuração, navegue até **[!UICONTROL Fidelidade]
 
 * **Configurações globais** — Selecione o namespace de identidade da Experience Platform para o seu programa. [Saiba como definir configurações globais](#global-settings)
 * **Provedores de recompensas** — conecte as APIs que atendem a recompensas quando os clientes fazem progresso ou concluem desafios. [Saiba como configurar provedores de premiação](#reward-providers)
-* **Definições de eventos** — Mapeie os eventos de experiência recebidos para as atividades usadas nas tarefas **[!UICONTROL Evento AEP personalizado]**. [Saiba como configurar definições de evento](#event-definitions)
+* **Definições de eventos** — Mapeie os eventos de experiência recebidos para as atividades usadas nas tarefas **[!UICONTROL Evento personalizado]**. [Saiba como configurar definições de evento](#event-definitions)
 * **Estoque de produtos** — carregue mapeamentos de item para grupo para usar nas regras de qualificação de tarefa. [Saiba como configurar o inventário de produtos](#product-inventory)
 * **Exclusões** — Carregue exclusões de item e grupo em toda a organização para a configuração da tarefa. [Saiba como configurar exclusões](#exclusions)
 
@@ -59,7 +59,7 @@ Para abrir a interface de configuração, navegue até **[!UICONTROL Fidelidade]
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="Configurações globais"
->abstract="Selecione o namespace de identidade da Adobe Experience Platform para seu programa de fidelidade."
+>abstract="As configurações globais definem a configuração no nível da organização para seu programa de fidelidade, incluindo o namespace de identidade usado para identificar membros em eventos e desafios."
 
 Abra a guia **[!UICONTROL Configurações globais]** e selecione o [namespace de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces) da Adobe Experience Platform para seu programa de fidelidade na lista suspensa **[!UICONTROL Namespace]**. Este namespace deve corresponder à forma como os perfis de membros são identificados em seus dados.
 
@@ -68,6 +68,26 @@ Abra a guia **[!UICONTROL Configurações globais]** e selecione o [namespace de
 ➡️ [Saiba como trabalhar com namespaces de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces){target="_blank"}
 
 ## Provedores de recompensa {#reward-providers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_reward_providers"
+>title="Provedores de recompensa"
+>abstract="Um provedor de premiação define o sistema externo que [!DNL Journey Optimizer] chama para atender recompensas quando os clientes concluem os desafios. Configure o endpoint do provedor, as definições de recompensa, as configurações de proxy e a autenticação para cada integração."
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_reward_providers_connection"
+>title="Conexão do provedor de premiação"
+>abstract="Configure como o [!DNL Journey Optimizer] se conecta à sua API de premiação: nome do provedor, descrição, URL do ponto de extremidade e cabeçalhos HTTP necessários para chamadas de atendimento."
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_reward_providers_details"
+>title="Definições de recompensa"
+>abstract="As definições de recompensa especificam cada tipo de recompensa que esse provedor pode emitir (por exemplo, pontos ou estrelas) e a carga [!DNL Journey Optimizer] envia quando as recompensas são atendidas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_reward_providers_proxy"
+>title="Proxy de recompensa"
+>abstract="Como opção, roteie chamadas de atendimento por meio de um servidor proxy em vez de enviá-las diretamente para o ponto de extremidade da API de recompensa. Configure host, porta, credenciais e se o proxy está habilitado. O valor das credenciais normalmente se parece com: `{ "userName": "test", "password": "xxxx" }`"
 
 Um **provedor de premiação** informa a [!DNL Journey Optimizer] para onde enviar chamadas de atendimento quando o progresso do desafio é registrado ou um desafio é concluído. Por exemplo, uma API que credita pontos de fidelidade ou estrelas a uma conta de membro.
 
@@ -144,7 +164,22 @@ Para editar um provedor de premiação, abra a guia **[!UICONTROL Provedores de 
 
 ## Definições de evento {#event-definitions}
 
-**[!UICONTROL As definições de evento]** informam a [!DNL Journey Optimizer] quais eventos de entrada de experiência do Adobe Experience Platform processar. Por exemplo, uma compra ou um check-in de hotel. Os profissionais de marketing fazem referência a essas definições ao criar tarefas de **[!UICONTROL Evento AEP personalizado]**. Eventos que não correspondem a nenhuma definição são ignorados.
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_event_definitions"
+>title="Definições de evento"
+>abstract="As definições de evento informam [!DNL Journey Optimizer] como identificar e interpretar os dados de evento recebidos de suas fontes externas. Cada definição mapeia um tipo de evento específico — como uma compra ou um check-in — para que o sistema possa acompanhar o progresso do cliente em direção a tarefas de desafio."
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_event_schema"
+>title="Esquema de evento e transformador"
+>abstract="Quando sua organização enviar eventos em um formato JSON personalizado, use o **[!UICONTROL Esquema]** para validar a carga e o **[!UICONTROL Transformador]** (por exemplo, uma expressão JSONata) para mapear campos no formato esperado pelos Desafios de Fidelidade."
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_event_identification"
+>title="Identificação de evento"
+>abstract="Especifique como [!DNL Journey Optimizer] reconhece o evento nas cargas de entrada usando um caminho de identificador, valores de identificador, uma ID de esquema XDM ou uma combinação desses campos."
+
+**[!UICONTROL As definições de evento]** informam a [!DNL Journey Optimizer] quais eventos de entrada de experiência do Adobe Experience Platform processar. Por exemplo, uma compra ou um check-in de hotel. Os profissionais de marketing fazem referência a essas definições ao criar tarefas de **[!UICONTROL Evento personalizado]**. Eventos que não correspondem a nenhuma definição são ignorados.
 
 Quando sua organização envia eventos em seu próprio formato JSON, o **[!UICONTROL Esquema]** e o **[!UICONTROL Transformador]** ajudam o [!DNL Journey Optimizer] a validar a carga, analisá-la e decidir se deseja rastrear a atividade.
 
@@ -154,7 +189,7 @@ Para criar uma definição de evento, siga estas etapas:
 
    ![](assets/admin-event-definition.png)
 
-1. Digite um **[!UICONTROL Nome]** para o evento (por exemplo, `Coffee purchase`). Os profissionais de marketing veem esse nome ao configurar uma tarefa de **[!UICONTROL Evento AEP personalizado]**.
+1. Digite um **[!UICONTROL Nome]** para o evento (por exemplo, `Coffee purchase`). Os profissionais de marketing veem esse nome ao configurar uma tarefa de **[!UICONTROL Evento personalizado]**.
 
 1. Especifique como [!DNL Journey Optimizer] reconhece o evento nas cargas de entrada. Forneça um **[!UICONTROL Caminho do identificador]**, uma **[!UICONTROL ID do esquema XDM]** ou ambos:
 
@@ -167,9 +202,14 @@ Para criar uma definição de evento, siga estas etapas:
    * **[!UICONTROL Esquema]** — Cadeia de caracteres de validação para a carga de entrada.
    * **[!UICONTROL Transformador]** — Expressão de transformação (por exemplo, JSONata) que mapeia sua carga no formato esperado por Desafios de Fidelidade.
 
-1. Salve a definição do evento. Ele aparece na lista **[!UICONTROL Definições de evento]** e está disponível quando os profissionais de marketing criam tarefas **[!UICONTROL Custom AEP event]**. [Saiba como criar tarefas](create-tasks.md#choose-activity)
+1. Salve a definição do evento. Ele aparece na lista **[!UICONTROL Definições de evento]** e está disponível quando os profissionais de marketing criam tarefas de **[!UICONTROL Evento personalizado]**. [Saiba como criar tarefas](create-tasks.md#choose-activity)
 
 ## Estoque de produto {#product-inventory}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_product_inventory"
+>title="Estoque de produto"
+>abstract="Faça upload de um arquivo CSV que mapeia identificadores de item para grupos de produtos. Os profissionais de marketing podem fazer referência a esses grupos ao configurar itens qualificados em tarefas de compras e gastos sem inserir cada ID de item."
 
 A guia **[!UICONTROL Estoque de produto]** agrupa itens de catálogo para que os profissionais de marketing possam direcioná-los em tarefas sem inserir cada ID de item. Carregue um **arquivo CSV** que mapeie cada identificador de item a um ou mais **grupos de produtos** (o mesmo item pode pertencer a vários grupos). Os grupos importados estão disponíveis ao configurar a qualificação de tarefas. [Saiba como criar tarefas](create-tasks.md)
 
@@ -200,6 +240,11 @@ Para fazer upload de um arquivo de inventário de produtos, siga estas etapas:
 1. Abra **[!UICONTROL Histórico de carregamento]** para exibir carregamentos CSV anteriores.
 
 ## Exclusões {#exclusions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_exclusions"
+>title="Exclusões"
+>abstract="Carregue um arquivo CSV que define os itens do catálogo e os grupos excluídos em todo o programa. Os grupos de exclusão importados são exibidos quando os profissionais de marketing configuram itens elegíveis e exclusões nas tarefas."
 
 A guia **[!UICONTROL Exclusões]** define itens de catálogo e grupos que são excluídos em todo o programa, portanto, os profissionais de marketing não precisam listar as mesmas exclusões em cada tarefa. Carregue um **arquivo CSV** que mapeie cada identificador de item a um ou mais **grupos de exclusão** (o mesmo item pode pertencer a vários grupos).
 
