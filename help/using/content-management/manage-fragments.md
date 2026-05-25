@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 227ca2be701298a14103a08c8114d79104e16ea2
 workflow-type: tm+mt
-source-wordcount: 1456
-ht-degree: 19%
+source-wordcount: 1523
+ht-degree: 18%
 
 ---
 
@@ -72,6 +72,12 @@ No botão **[!UICONTROL Mais ações]** ao lado de cada fragmento, é possível:
 * Mover o fragmento para uma pasta. [Saiba mais](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### Ações em massa {#bulk-actions-fragments}
+
+Você pode selecionar vários fragmentos de uma só vez e aplicar operações em massa a todos eles. As operações disponíveis incluem adicionar itens a um pacote, movê-los para uma pasta, editar tags, gerenciar o acesso e arquivar. [Saiba mais sobre ações em massa →](../start/search-filter-categorize.md#bulk-actions)
+
+Também é possível classificar a lista de fragmentos clicando em qualquer cabeçalho de coluna e redimensionar colunas arrastando a borda da coluna para ajustar os dados necessários.
 
 ## Usar pastas para gerenciar fragmentos {#folders}
 

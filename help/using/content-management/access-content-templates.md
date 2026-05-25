@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 833
-ht-degree: 0%
+source-wordcount: 900
+ht-degree: 3%
 
 ---
 
@@ -114,6 +114,12 @@ Para navegar facilmente pelos modelos de conteúdo, use pastas para organizá-lo
 >[!NOTE]
 >
 >Quando um modelo é editado ou excluído, as campanhas ou jornadas, incluindo o conteúdo criado usando esse modelo, não são afetadas.
+
+## Ações em massa {#bulk-actions-templates}
+
+É possível selecionar vários modelos de uma só vez e aplicar operações em massa a todos eles. As operações disponíveis incluem adicionar itens a um pacote, movê-los para uma pasta, editar tags, gerenciar o acesso e arquivar. [Saiba mais sobre ações em massa →](../start/search-filter-categorize.md#bulk-actions)
+
+Também é possível classificar a lista de modelos clicando na maioria dos cabeçalhos de coluna, e redimensionar colunas arrastando a borda da coluna para ajustar os dados necessários.
 
 ## [!BADGE Disponibilidade limitada]{type=Informative} exibe modelos como miniaturas {#template-thumbnails}
 

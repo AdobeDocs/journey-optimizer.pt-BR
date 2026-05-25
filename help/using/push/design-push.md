@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 19d13da26a9f1541fdc4f4a4e56db6276b9b8603
 workflow-type: tm+mt
-source-wordcount: 2122
-ht-degree: 14%
+source-wordcount: 2197
+ht-degree: 13%
 
 ---
 
@@ -45,6 +45,8 @@ Depois de criar uma notificação por push, você pode projetar o conteúdo para
 ![](assets/title-body.png)
 
 Para redigir a mensagem, clique nos campos **[!UICONTROL Título]** e **[!UICONTROL Corpo]**. Use o editor de personalização para definir conteúdo, personalizar dados e adicionar conteúdo dinâmico. Saiba mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md) no editor de personalização.
+
+Você também pode inserir atributos de perfil em linha diretamente nos campos **[!UICONTROL Título]** e **[!UICONTROL Corpo]** digitando `{{`. Uma lista suspensa de preenchimento automático é aberta no cursor — selecione qualquer atributo para inseri-lo como um token de personalização sem abrir o editor completo. [Saiba mais sobre edição em linha →](../personalization/personalize.md#inline-personalization)
 
 Use a seção de visualização de dispositivo para visualizar como a notificação por push é exibida no iOS, Android e Web.
 
@@ -65,10 +67,14 @@ Configure a ação que ocorre quando os destinatários tocam no corpo da notific
 * **[!UICONTROL Deeplink]**: direciona os usuários para conteúdo específico no seu aplicativo, como uma exibição, seção de página ou guia específica. Insira o URL do deep link no campo fornecido.
 * **[!UICONTROL URL da Web]**: direciona os usuários para uma página da Web externa. Insira o URL de destino no campo fornecido.
 
-  >[!NOTE]
-  >
-  >Se sua notificação por push contiver uma URL configurada como um link universal no iOS, o push abrirá o aplicativo associado, se instalado, independentemente da ação **[!UICONTROL URL da Web]** escolhida. Para forçar a abertura de um navegador, use um domínio não configurado para links universais ou remova o registro de link universal para o domínio.
-  >Para obter mais informações sobre como o Adobe SDK lida com deep links e links universais, consulte a [documentação do Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}.
+Quando um URL em qualquer link ou campo de mídia for muito longo para ser exibido, um ícone de dica de ferramenta estará sempre visível ao lado do campo. Passe o mouse sobre ele para ver o URL completo.
+
+![](assets/push-link-tooltip.png)
+
+>[!NOTE]
+>
+>Se sua notificação por push contiver uma URL configurada como um link universal no iOS, o push abrirá o aplicativo associado, se instalado, independentemente da ação **[!UICONTROL URL da Web]** escolhida. Para forçar a abertura de um navegador, use um domínio não configurado para links universais ou remova o registro de link universal para o domínio.
+>Para obter mais informações sobre como o Adobe SDK lida com deep links e links universais, consulte a [documentação do Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}.
 
 ## Adicionar mídia {#add-media-push}
 

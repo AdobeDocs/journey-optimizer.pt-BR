@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+source-git-commit: 48b80ac49ca434330ce929e6db7b778412f4759c
 workflow-type: tm+mt
-source-wordcount: 2581
-ht-degree: 25%
+source-wordcount: 2805
+ht-degree: 23%
 
 ---
 
@@ -282,6 +282,35 @@ As seguintes melhorias também foram lançadas em maio de 2026.
 
   +++
 
+### Melhorias de usabilidade {#may-26-usability}
+
+As seguintes melhorias de usabilidade também foram lançadas em maio de 2026.
+
+#### Listas
+
+* **Ações em massa** - Agora é possível selecionar vários itens de uma só vez nas listas de **Campanhas**, **Fragmentos** e **Modelos** e executar operações em massa a partir de uma única barra de ação, incluindo adicionar itens a um pacote, movê-los para uma pasta, editar marcas, gerenciar o acesso e arquivá-los ou excluí-los. [Saiba mais](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **Classificação e redimensionamento de coluna** - As listas **Campanhas**, **Fragmentos** e **Modelos** agora oferecem suporte à classificação clicando em qualquer cabeçalho de coluna. Na exibição das pastas de Campanhas, também estão disponíveis a classificação e filtragem por **[!UICONTROL Prioridade]** e **[!UICONTROL Configuração de canal]**. As larguras de coluna nas listas **Fragmentos** e **Modelos** também são redimensionáveis — arraste a borda da coluna para ajustar os dados mais importantes para você. [Saiba mais](../start/search-filter-categorize.md#filter-lists)
+
+#### Criação de conteúdo
+
+* **Edição de atributo de perfil embutido** - Agora é possível inserir expressões de atributo de perfil diretamente no Designer de email sem abrir o editor de personalização completo. Digite `{{` em qualquer campo de texto para abrir uma lista suspensa de preenchimento automático em linha. Em seguida, procure e selecione o atributo necessário. Ele é inserido imediatamente na posição do cursor. Esse recurso também está disponível no editor do canal de push. [Saiba mais](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **Dica de ferramenta de URL do link no editor do canal de push** - Quando uma URL em qualquer campo de link ou mídia é muito longa para ser exibida, um ícone de dica de ferramenta fica sempre visível ao lado do campo. Passe o mouse sobre ela para ver a URL completa. [Saiba mais](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
+
+<!--
+#### Simulation & Preview
+
+* **Redesigned preview experience** - The content preview screen has been redesigned with a side-by-side layout that lets you compare how your content renders across multiple profiles at a glance, enabling quicker and more confident reviews before sending. [Learn more](../test-approve/simulate-sample-input.md#preview)
+
+  ![](../test-approve/assets/simulation-preview-redesign.png)
+-->
 
 ## Em breve {#coming-soon}
 

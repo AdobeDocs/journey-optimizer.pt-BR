@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 227ca2be701298a14103a08c8114d79104e16ea2
 workflow-type: tm+mt
-source-wordcount: 659
-ht-degree: 100%
+source-wordcount: 798
+ht-degree: 82%
 
 ---
 
@@ -53,7 +53,7 @@ Pressione **Enter** para acessar todos os resultados e filtrar por objeto comerc
 
 ## Listas de filtros {#filter-lists}
 
-Na maioria das listas, use a barra de pesquisa para localizar itens específicos e definir critérios de filtragem.
+Na maioria das listas, use a barra de pesquisa para localizar itens específicos e definir critérios de filtragem. Também é possível classificar qualquer lista clicando em um cabeçalho de coluna. Na exibição de pastas de Campanhas, também há suporte para a classificação por **[!UICONTROL Prioridade]** e **[!UICONTROL Configuração de canal]**.
 
 Os filtros podem ser acessados com um clique no ícone de filtro na parte superior esquerda de uma lista. O menu de filtros permite filtrar os elementos exibidos de acordo com diferentes critérios: é possível exibir apenas elementos de um determinado tipo ou status, aqueles que você criou ou os modificados nos últimos 30 dias. As opções diferem dependendo do contexto.
 
@@ -66,6 +66,21 @@ Além disso, é possível usar as tags unificadas para filtrar uma lista depende
 Nas listas, é possível executar ações básicas em cada elemento. Por exemplo, você pode duplicar ou excluir um item.
 
 ![](assets/journey4.png)
+
+## Ações em massa {#bulk-actions}
+
+Nas listas **Campanhas**, **Fragmentos** e **Modelos**, você pode selecionar vários itens de uma vez usando as caixas de seleção e aplicar operações a todos eles a partir de uma barra de ação em massa que aparece na parte inferior da tela.
+
+As seguintes operações estão disponíveis:
+
+* **[!UICONTROL Adicionar ao pacote]** - Exportar os itens selecionados para outra sandbox. [Saiba como exportar objetos →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Mover para a pasta]** - Mover os itens selecionados para uma pasta.
+* **[!UICONTROL Editar marcas]** - Edita as marcas atribuídas aos itens selecionados. [Saiba como usar tags →](#add-tags)
+* **[!UICONTROL Gerenciar acesso]** - Aplique rótulos de acesso aos itens selecionados. [Saiba mais sobre o controle de acesso no nível do objeto →](../administration/object-based-access.md)
+* **[!UICONTROL Arquivar]** - Arquiva os itens selecionados. Disponível para Fragmentos e modelos.
+* **[!UICONTROL Excluir]** - Excluir permanentemente os itens selecionados. Disponível somente para Campanhas.
+
+![](assets/bulk-actions-fragments.png)
 
 ## Trabalhar com tags unificadas {#tags}
 

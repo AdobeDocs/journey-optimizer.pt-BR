@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: expressão, editor, início, personalização
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 6d62604f975fce76860eba000a09870806d54934
+source-git-commit: 124dbfa4f2798aa7839dd9215b96207f43fac3d6
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 25%
+source-wordcount: '681'
+ht-degree: 23%
 
 ---
 
@@ -58,6 +58,18 @@ No **[!UICONTROL Editor do Personalization]** ou na barra de ferramentas do Desi
 ![](../content-management/assets/ai-perso-generate.png)
 
 ➡️ [Saiba como trabalhar com o Assistente de IA para expressões Personalization](../content-management/generative-personalization-expressions.md)
+
+## Edição em linha de atributos de perfil {#inline-personalization}
+
+Você pode inserir expressões de atributo de perfil diretamente ao editar conteúdo no **Designer de email** ou no editor do **canal de push**, sem abrir o editor de personalização completo.
+
+Para fazer isso, siga estes passos:
+
+1. Digite `{{` em qualquer campo de texto. Uma lista suspensa de preenchimento automático em linha é aberta na posição do cursor.
+1. Comece a digitar para filtrar os atributos de perfil disponíveis.
+1. Selecione o atributo necessário — ele é inserido como um token de personalização na posição do cursor.
+
+![](assets/inline-profile-attributes.png)
 
 ## Vamos nos aprofundar um pouco mais
 
