@@ -11,10 +11,10 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 15%
+source-wordcount: '854'
+ht-degree: 14%
 
 ---
 
@@ -22,15 +22,26 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-**Documentação de Desafios de Fidelidade:**
+**Documentação de desafios de fidelidade**
 
-* **Introdução aos desafios de fidelidade** ◀︎ **Você está aqui**
+**[Introdução aos desafios de fidelidade](get-started.md)** ◀︎ **Você está aqui**
+
++++Criar e gerenciar desafios
+
 * [Acessar e gerenciar desafios e tarefas](access-loyalty-challenges.md)
 * [Criar desafios](create-challenges.md)
 * [Criar tarefas](create-tasks.md)
 * [Monitorar o desempenho de desafio de fidelidade](loyalty-reporting.md)
-<!-- * [Configure the loyalty program](loyalty-admin.md) -->
+
++++
+
++++Configurar e integrar
+
+<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Dados e conjuntos de dados de fidelidade](loyalty-data-and-datasets.md)
 * [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
++++
 
 >[!ENDSHADEBOX]
 
@@ -74,8 +85,6 @@ Você pode criar estes tipos de experiências de desafio:
 ## Como funciona {#how-it-works}
 
 A criação e o lançamento de um desafio de fidelidade seguem este fluxo de trabalho:
-
-<!-- 1. **Configure the loyalty program** (administrators) - Set up your Adobe Experience Platform namespace, reward providers, and optionally event definitions and product inventory so rewards can be fulfilled when customers complete challenges. [Learn how to configure the loyalty program](loyalty-admin.md). -->
 
 1. **Criar um desafio** - Defina as propriedades básicas do desafio, incluindo nome, tipo (Padrão, Streak, Sequencial ou Trazer seus próprios dados quando disponíveis) e intervalo de datas. [Saiba como escolher um tipo de desafio](create-challenges.md#create-the-challenge).
 

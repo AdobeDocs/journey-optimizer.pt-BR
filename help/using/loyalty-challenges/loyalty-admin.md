@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar o programa de fidelidade
-description: Saiba como configurar provedores de recompensa, definições de eventos, inventário de produtos, exclusões e configurações no nível da organização para seu programa de fidelidade no Adobe [!DNL Journey Optimizer].
+title: Configurar desafios de fidelidade
+description: Saiba como configurar provedores de recompensa, definições de eventos, inventário de produtos, exclusões e configurações no nível da organização para Desafios de Fidelidade no Adobe [!DNL Journey Optimizer].
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -11,26 +11,39 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 863c3405e5509938cb6b9180c16d5c89fb439814
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
 
-# Configurar o programa de fidelidade {#loyalty-admin}
+# Configurar desafios de fidelidade {#loyalty-admin}
+
+<!-- Unpublished draft: Loyalty Admin UI documentation is not validated for Experience League. This page uses hide: true until review. -->
 
 >[!BEGINSHADEBOX]
 
-**Documentação de Desafios de Fidelidade:**
+**Documentação de desafios de fidelidade**
 
-* [Introdução aos desafios de fidelidade](get-started.md)
+[Introdução aos desafios de fidelidade](get-started.md)
+
++++Criar e gerenciar desafios
+
 * [Acessar e gerenciar desafios e tarefas](access-loyalty-challenges.md)
 * [Criar desafios](create-challenges.md)
 * [Criar tarefas](create-tasks.md)
 * [Monitorar o desempenho de desafio de fidelidade](loyalty-reporting.md)
-* **Configurar o programa de fidelidade** ◀︎ **Você está aqui**
+
++++
+
++++Configurar e integrar
+
+* **Configurar desafios de fidelidade** ◀︎ **Você está aqui**
+* [Dados e conjuntos de dados de fidelidade](loyalty-data-and-datasets.md)
 * [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
++++
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +53,11 @@ ht-degree: 1%
 
 ## Visão geral {#access-loyalty-admin}
 
-A configuração do programa de fidelidade conecta o [!DNL Journey Optimizer] aos seus sistemas de fidelidade externos, configurando o atendimento de recompensa, o mapeamento de eventos, o inventário de produtos e as exclusões antes dos desafios do autor dos profissionais de marketing.
+A configuração de Desafios de Fidelidade conecta o [!DNL Journey Optimizer] aos seus sistemas de fidelidade externos, configurando o atendimento de recompensa, o mapeamento de eventos, o inventário de produtos e as exclusões antes dos desafios de criação dos profissionais de marketing.
 
 >[!NOTE]
 >
->A configuração do programa de fidelidade requer acesso de administrador à sua instância [!DNL Journey Optimizer], além das permissões necessárias para os Desafios de Fidelidade. Entre em contato com o administrador do Adobe para obter acesso.
+>A configuração de Desafios de Fidelidade exige acesso de administrador à sua instância [!DNL Journey Optimizer], além das permissões necessárias para Desafios de Fidelidade. Entre em contato com o administrador do Adobe para obter acesso.
 
 Para abrir a interface de configuração, navegue até **[!UICONTROL Fidelidade]** e selecione **[!UICONTROL Administrador fiel]**. A interface é organizada em guias:
 
@@ -59,9 +72,9 @@ Para abrir a interface de configuração, navegue até **[!UICONTROL Fidelidade]
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="Configurações globais"
->abstract="As configurações globais definem a configuração no nível da organização para seu programa de fidelidade, incluindo o namespace de identidade usado para identificar membros em eventos e desafios."
+>abstract="As configurações globais definem a configuração no nível da organização para desafios de fidelidade, incluindo o namespace de identidade usado para identificar membros em eventos e desafios."
 
-Abra a guia **[!UICONTROL Configurações globais]** e selecione o [namespace de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces) da Adobe Experience Platform para seu programa de fidelidade na lista suspensa **[!UICONTROL Namespace]**. Este namespace deve corresponder à forma como os perfis de membros são identificados em seus dados.
+Abra a guia **[!UICONTROL Configurações globais]** e selecione o [namespace de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces) da Adobe Experience Platform para Desafios de Fidelidade no menu suspenso **[!UICONTROL Namespace]**. Este namespace deve corresponder à forma como os perfis de membros são identificados em seus dados.
 
 ![](assets/admin-global-settings.png)
 
