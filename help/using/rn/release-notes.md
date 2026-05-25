@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 48b80ac49ca434330ce929e6db7b778412f4759c
+source-git-commit: 60ff16ebd1889e1f53ef47f56f33f3ff4f0b0000
 workflow-type: tm+mt
-source-wordcount: 2805
-ht-degree: 23%
+source-wordcount: 2807
+ht-degree: 22%
 
 ---
 
@@ -105,7 +105,7 @@ Os recursos a seguir foram lançados em maio de 2026.
 <td>
 <p>O Journey Optimizer agora usa o <strong>seletor do Supervisor de conteúdo</strong>, um modal unificado para selecionar fragmentos de conteúdo e Experience Manager Assets. O novo seletor inclui:</p>
 <ul>
-<li><strong>Navegação, pesquisa e filtragem</strong> em todos os ativos e fragmentos.</li>
+<li><strong>Navegar, pesquisar e filtrar </strong> em todos os ativos e fragmentos.</li>
 <li><strong>Pesquisa semântica de IA</strong>: descreva o que você precisa em linguagem simples, por exemplo, "café nas montanhas", para exibir ativos contextualmente relevantes com base no significado e no conteúdo, não apenas correspondências de texto. Consultas multilíngues também são compatíveis.</li>
 <li><strong>Upload breve</strong>: faça upload de um resumo de marketing para exibir automaticamente ativos que se alinham ao contexto da campanha com base no conteúdo e nos requisitos.</li>
 <li><strong>Representações do Dynamic Media</strong>: escolha e aplique representações de imagem para ativos dinâmicos sem sair do seletor.</li>
@@ -140,13 +140,14 @@ Os recursos a seguir foram lançados em maio de 2026.
 <table>
 <thead>
 <tr>
-<th><strong>Deeplinks no Designer de email</strong><br/></th>
+<th><strong>Deep links no Designer de email</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível adicionar deep links ao conteúdo de email por meio de uma opção dedicada no Designer de email.</p><p>Isso garante que os usuários sejam direcionados diretamente para o conteúdo correto no aplicativo, em vez de serem redirecionados para navegadores ou lojas de aplicativos, preservando o contexto e o engajamento.</p>
+<p>Agora é possível adicionar deep links ao seu conteúdo de email por meio de uma opção dedicada no Designer de email.</p>
+<p>Isso garante que os usuários sejam direcionados diretamente para o conteúdo correto no aplicativo, em vez de serem redirecionados para navegadores ou lojas de aplicativos, preservando o contexto e o engajamento.</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../email/deeplinks.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 12 de maio de 2026</p>
