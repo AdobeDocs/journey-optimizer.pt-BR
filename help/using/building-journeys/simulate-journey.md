@@ -10,10 +10,10 @@ level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 8600c70ad6cd8db0322c17b3f255530a39bf56ed
+source-git-commit: b8e3b2cbda83edece62a32555068f8519271a3eb
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 1%
+source-wordcount: '1912'
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Observe que a Simulação de Jornada está em **Disponibilidade limitada**. Para
 
 >[!IMPORTANT]
 >
->Você precisa da permissão **Simular jornadas** para acessar o recurso **[!UICONTROL Simulação]**. [Saiba mais](../administration/permissions.md)
+>Você precisa de pelo menos uma das seguintes permissões para acessar o recurso **[!UICONTROL Simulação]**: **Simular jornadas**, **Publicar jornadas** ou **Aprovar e Publicar jornadas**. [Saiba mais](../administration/permissions.md)
 
 Os usuários simulados são entidades temporárias semelhantes a perfis definidas em **[!UICONTROL Configurações de simulação]**. Esta seção aborda como criá-los a partir da interface ou de um arquivo JSON, salvá-los para reutilização, ajustá-los ou removê-los da lista e enviá-los para a jornada.
 
