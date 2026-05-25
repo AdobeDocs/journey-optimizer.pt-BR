@@ -11,7 +11,7 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
+source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 16%
@@ -26,6 +26,10 @@ ht-degree: 16%
 
 [Introdução aos desafios de fidelidade](get-started.md)
 
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+<td style="vertical-align:top;">
+
 **Criar e gerenciar desafios**
 
 * [Acessar e gerenciar desafios e tarefas](access-loyalty-challenges.md)
@@ -33,13 +37,18 @@ ht-degree: 16%
 * [Criar tarefas](create-tasks.md)
 * [Monitorar o desempenho de desafio de fidelidade](loyalty-reporting.md)
 
-+++Configurar e integrar
+</td>
+<td style="vertical-align:top;">
+
+**Configurar e integrar**
 
 <!-- * [Configure loyalty challenges](loyalty-admin.md) -->
 * [Dados e conjuntos de dados de fidelidade](loyalty-data-and-datasets.md)
 * [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
-+++
+</td>
+</tr>
+</table>
 
 >[!ENDSHADEBOX]
 
