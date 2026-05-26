@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -146,7 +146,7 @@ No inventário de fragmentos, é possível executar as seguintes ações em um f
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
 >title="Adicionar um fragmento de jornada"
->abstract="Somente fragmentos **[!UICONTROL Ativos]** estão disponíveis no seletor. Inserir um fragmento cria uma **cópia estática** de seus nós — as atualizações do fragmento original não são refletidas na jornada."
+>abstract="Somente fragmentos **[!UICONTROL Ativos]** estão disponíveis no seletor. Inserir um fragmento cria uma **cópia estática** dos seus nós. Todas as atualizações do fragmento original não serão refletidas na jornada."
 
 Para inserir um fragmento em uma jornada:
 

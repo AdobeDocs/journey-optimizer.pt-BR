@@ -42,7 +42,7 @@ topic_v2:
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -143,12 +143,12 @@ Para atribuir rótulos de uso de dados personalizados à jornada, clique no íco
 
 [Saiba mais sobre o Controle de acesso em nível de objeto (OLAC)](../administration/object-based-access.md)
 
-## Jornada tamanho do conteúdo {#journey-payload-size}
+## Tamanho do conteúdo da jornada {#journey-payload-size}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
 >title="Tamanho atual do conteúdo da jornada"
->abstract="Exibe o tamanho atual da carga útil da jornada em comparação ao limite configurado. Use esse indicador para monitorar a complexidade da jornada antes da publicação e evitar que os erros causados pelo limite de tamanho da carga sejam excedidos."
+>abstract="Exibe o tamanho atual do conteúdo da jornada em comparação ao limite configurado. Use esse indicador para monitorar a complexidade da jornada antes da publicação e evitar erros causados por exceder o limite de tamanho do conteúdo."
 
 O campo **[!UICONTROL Tamanho atual do conteúdo da jornada]** no painel Propriedades da jornada exibe o tamanho atual do conteúdo da jornada em relação ao limite configurado — por exemplo, *1,5 MB (de 2 MB)*. Esse indicador somente leitura fica visível em qualquer estágio da criação do jornada.
 

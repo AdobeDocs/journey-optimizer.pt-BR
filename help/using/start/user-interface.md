@@ -54,7 +54,7 @@ topic_v2:
 source-git-commit: 96221256a5733f40470c4b1210f1d40eaacab184
 workflow-type: tm+mt
 source-wordcount: 1587
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
@@ -384,29 +384,29 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="&quot;Ajuda de configuração do AEM"
+>title="“Ajuda para a configuração do AEM”"
 >abstract="Saiba mais sobre como criar e gerenciar uma configuração"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_configure_instance"
->title="Configuração da instância"
->abstract="Selecione o tipo de configuração de instância apropriado para sua configuração. </br>Configuração somente para autores: use fragmentos de conteúdo da instância de autor do AEM. A configuração da instância de publicação e as atualizações em tempo real não são compatíveis.</br>Configuração da instância de publicação: definir configurações da instância de publicação. Ative opcionalmente &quot;Enviar token para a instância de publicação&quot; para fornecer credenciais de serviço para autenticação."
+>title="Configuração de instância"
+>abstract="Selecione o tipo de configuração de instância apropriado para a configuração. </br>Configuração somente para autores: use fragmentos de conteúdo da instância de autor do AEM. A configuração da instância de publicação e as atualizações em tempo real não são compatíveis.</br>Configuração da instância de publicação: definir configurações da instância de publicação. Opcionalmente, ative a opção “Enviar token para a instância de publicação” para fornecer credenciais de serviço para autenticação."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_send_token"
 >title="Enviar token para a instância de publicação"
->abstract="Quando ativadas, as Credenciais de serviço são enviadas para autenticar solicitações na instância de publicação. Forneça uma Credencial de Serviço JSON válida abaixo."
+>abstract="Quando ativada, a autenticação das solicitações para a instância de publicação usa credenciais de serviço. Forneça uma credencial de serviço JSON válida abaixo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
 >title="Colar credencial de serviço JSON"
->abstract="Cole a credencial de serviço do AEM JSON depois de criá-la, consultando a documentação de conta técnica pública. Ele será formatado e validado automaticamente."
+>abstract="Cole a credencial de serviço JSON do AEM depois de criá-la por meio da consulta da documentação de conta técnica pública. Ela será formatada e validada automaticamente."
 >additional-url=""
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_custom_domain"
 >title="Domínio personalizado"
->abstract="Opcional. Forneça um domínio personalizado se publish-p16552-e147195.adobeaemcloud.comis estiver bloqueado para buscar conteúdo para sua organização"
+>abstract="Opcional. Forneça um domínio personalizado se ifpublish-p16552-e147195.adobeaemcloud.comis estiver bloqueado de buscar conteúdo para a organização"
 
 <!-- JOURNEYS - EXPRESSION ASSISTANT -->
 
