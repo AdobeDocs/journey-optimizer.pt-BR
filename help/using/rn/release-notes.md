@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fdd4853a97a3a794323ac460ea85966248dbd2bd
+source-git-commit: e9136cd715af3a80a485d67431eec7ada7697016
 workflow-type: tm+mt
-source-wordcount: 2945
+source-wordcount: 2924
 ht-degree: 18%
 
 ---
@@ -235,7 +235,13 @@ O seguinte recurso de campanha orquestrada é esperado para os próximos dias ou
 
 * **Personalização baseada em loop para dados relacionais** - O editor de personalização agora oferece suporte a um Bloco de loop que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de gravação de expressão.
 
-  Data de disponibilidade: 1 de junho de 2026
+  Data de disponibilidade: início de junho de 2026
+
+* **Personalizar detalhes do remetente de email por destinatário e campanha** - As campanhas orquestradas agora oferecem suporte à personalização de campos de cabeçalho de email, incluindo Nome do remetente, Endereço do remetente e Responder para, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o supervisor, o local ou a ramificação relevante para cada destinatário, em vez de rotear todos os envios por meio de um único endereço corporativo.
+
+  Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso.
+
+  Data de disponibilidade: início de junho de 2026
 
 +++
 
@@ -334,18 +340,6 @@ Os seguintes recursos e melhorias foram adicionados ao canal de email nesta vers
 * **Restringir a quebra de herança nos fragmentos** - Ao criar ou editar um fragmento, agora é possível escolher se ele pode ser modificado quando usado em emails. Bloquear um fragmento garante que ele permaneça sincronizado em todos os locais onde aparece, evitando edições locais que poderiam quebrar os padrões da marca ou os requisitos de conformidade. Essa configuração pode ser atualizada posteriormente, aplicando-se a usos futuros. [Leia mais](../content-management/create-fragments.md#lock-visual-fragment)
 
   Data de disponibilidade: 21 de maio de 2026
-
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
-
-As seguintes melhorias no canal de email são esperadas nos próximos dias ou semanas.
-
-* **Personalizar detalhes do remetente de email por destinatário e campanha** - As campanhas orquestradas agora oferecem suporte à personalização de campos de cabeçalho de email, incluindo Nome do remetente, Endereço do remetente e Responder para, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o supervisor, o local ou a ramificação relevante para cada destinatário, em vez de rotear todos os envios por meio de um único endereço corporativo.
-
-  Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso.
-
-  Data de disponibilidade: 1 de junho de 2026
-
-+++
 
 ### Mensagens por dispositivo móvel (SMS, MMS e RCS) {#may-26-mobile}
 
