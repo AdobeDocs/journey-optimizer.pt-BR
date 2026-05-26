@@ -29,10 +29,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
 workflow-type: tm+mt
-source-wordcount: 2973
-ht-degree: 18%
+source-wordcount: 3012
+ht-degree: 17%
 
 ---
 
@@ -327,8 +327,8 @@ Os seguintes recursos e melhorias foram adicionados ao canal de email nesta vers
 <tbody>
 <tr>
 <td>
-<p>Agora é possível adicionar deep links ao seu conteúdo de email por meio de uma opção dedicada no Designer de email.</p>
-<p>Isso garante que os usuários sejam direcionados diretamente para o conteúdo correto no aplicativo, em vez de serem redirecionados para navegadores ou lojas de aplicativos, preservando o contexto e o engajamento.</p>
+<p>Agora é possível adicionar deep links ao seu conteúdo de email por meio de uma opção dedicada no Designer de email. Isso garante que os usuários sejam direcionados diretamente para o conteúdo correto no aplicativo, em vez de serem redirecionados para navegadores ou lojas de aplicativos, preservando o contexto e o engajamento.</p>
+<p>Observe que, embora a opção Deeplink esteja disponível para todos os clientes, os deep links só funcionarão se você tiver concluído as etapas de configuração e implementação de aplicativos móveis necessárias.</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../email/deeplinks.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 12 de maio de 2026</p>
@@ -368,7 +368,7 @@ Os seguintes recursos e melhorias foram adicionados ao sistema de mensagens móv
 
 * **Aprimoramento da interface do webhook**: ao configurar webhooks de SMS, a interface agora inclui um guia de instalação integrado com exemplos práticos, facilitando o alinhamento do conteúdo do provedor e a solução de problemas sem sair do fluxo de configuração. [Leia mais](../mobile/mobile-webhook.md)
 
-* **Deep links no conteúdo de SMS** - Agora é possível adicionar deep links ao conteúdo de SMS usando a função auxiliar de URL. Isso garante que os recipients sejam direcionados diretamente ao conteúdo no aplicativo desejado, sem roteá-los por um navegador da Web ou por uma loja de aplicativos. [Leia mais](../email/deeplinks.md)
+* **Deep links no conteúdo de SMS** - Agora é possível adicionar deep links ao conteúdo de SMS usando a função auxiliar de URL. Isso garante que os recipients sejam direcionados diretamente ao conteúdo no aplicativo desejado, sem roteá-los por meio de um navegador da Web ou uma loja de aplicativos, desde que você tenha concluído as etapas de configuração e implementação de aplicativos móveis necessárias. [Leia mais](../email/deeplinks.md)
 
 ### Canal do WhatsApp {#may-26-whatsapp}
 
