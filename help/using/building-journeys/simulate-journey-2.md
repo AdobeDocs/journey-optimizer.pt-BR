@@ -10,9 +10,9 @@ level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 hide: true
-source-git-commit: 1d63f476bb7f82d1c67a0d464afcc960edc5bc50
+source-git-commit: fa0145b495c840f9dd838672c5dfb7e5e52b6f0e
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Continue com [Criar e gerenciar usuários simulados](#test-users), [Acionar seus
 
 >[!IMPORTANT]
 >
->Você precisa da permissão **Simular jornadas** para acessar o recurso **[!UICONTROL Simulação]**. [Saiba mais](../administration/permissions.md)
+>Você precisa de pelo menos uma das seguintes permissões para acessar o recurso **[!UICONTROL Simulação]**: **Simular jornadas**, **Publicar jornadas** ou **Aprovar e Publicar jornadas**. [Saiba mais](../administration/permissions.md)
 
 Os usuários simulados são entidades temporárias semelhantes a perfis definidas em **[!UICONTROL Configurações de simulação]**. Esta seção aborda como criá-los, salvá-los para reutilização, ajustá-los ou removê-los da lista e enviá-los para a jornada.
 
@@ -115,7 +115,7 @@ Os usuários simulados são entidades temporárias semelhantes a perfis definida
 
    +++
 
-1. Os usuários simulados que você criou aparecem na lista **[!UICONTROL Usuários de teste]**. Para cada entrada, abra o menu de opções e selecione uma das seguintes opções:
+1. Os usuários simulados que você criou aparecem na lista **[!UICONTROL Usuários de teste]**. Para cada entrada, selecione uma das seguintes opções:
 
    * ![Ícone Editar](assets/do-not-localize/Smock_Edit_18_N.svg): atualizar os detalhes do usuário simulado.
    * ![Ícone Enviar](assets/do-not-localize/Smock_Send_18_N.svg): Executar a simulação somente para este usuário simulado.
@@ -129,7 +129,7 @@ Os usuários simulados são entidades temporárias semelhantes a perfis definida
 
 1. Se sua jornada incluir uma atividade **[!UICONTROL Aguardar]**, abra a guia **[!UICONTROL Configurações de teste]** para ajustar quanto tempo a espera dura durante a simulação. Por exemplo, se a atividade ativa **[!UICONTROL Wait]** estiver configurada por vários dias, você poderá substituí-la por 10 segundos para que o usuário simulado passe somente esse tempo no nó antes de passar para a próxima atividade.
 
-1. Clique em **[!UICONTROL Enviar tudo]** para enviar todos os usuários simulados da lista para a jornada ou clique em ![Ícone Enviar](assets/do-not-localize/Smock_Send_18_N.svg) em uma linha para enviar somente esse usuário. Uma mensagem de confirmação `Simulated users have been sent successfully.` é exibida quando os usuários simulados entram com êxito na jornada.
+1. Clique em **[!UICONTROL Enviar tudo]** para enviar todos os usuários simulados da lista para a jornada ou clique em ![Ícone Enviar](assets/do-not-localize/Smock_Send_18_N.svg) em uma linha para enviar somente esse usuário. Uma mensagem de confirmação `Simulated users have entered the journey successfully.` é exibida quando os usuários simulados entram com êxito na jornada.
 
    ![Painel de seleção de usuário simulado](assets/simulate-5-2.png)
 
