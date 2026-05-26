@@ -51,10 +51,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 96221256a5733f40470c4b1210f1d40eaacab184
 workflow-type: tm+mt
-source-wordcount: 1524
-ht-degree: 90%
+source-wordcount: 1587
+ht-degree: 87%
 
 ---
 
@@ -414,3 +414,11 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >id="journeyExpAI"
 >title="Assistente de expressão"
 >abstract="Use o Assistente de expressão para gerar e refinar expressões no Journey Optimizer."
+
+
+<!-- OC - LOAD FILE ACTIVITY -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_load_file"
+>title="Atividade Carregar arquivo"
+>abstract="A atividade **Carregar arquivo** é uma atividade **de Direcionamento**. Use-o para fazer upload de um arquivo CSV ou TXT na tela de campanha orquestrada e usá-lo como público-alvo da campanha. Os dados do arquivo são consumidos no tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform. As linhas são reconciliadas com recipients existentes usando uma coluna de identidade e um targeting dimension."
