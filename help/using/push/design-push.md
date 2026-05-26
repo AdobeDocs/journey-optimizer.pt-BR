@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 19d13da26a9f1541fdc4f4a4e56db6276b9b8603
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 2197
+source-wordcount: 2199
 ht-degree: 13%
 
 ---
@@ -64,7 +64,7 @@ Configure a ação que ocorre quando os destinatários tocam no corpo da notific
 ![](assets/title-body-push.png)
 
 * **[!UICONTROL Abrir aplicativo]**: inicia o aplicativo associado à notificação. O aplicativo é especificado na sua [configuração de canal](../configuration/channel-surfaces.md) (ou seja, predefinição de mensagem).
-* **[!UICONTROL Deeplink]**: direciona os usuários para conteúdo específico no seu aplicativo, como uma exibição, seção de página ou guia específica. Insira o URL do deep link no campo fornecido.
+* **[!UICONTROL Deeplink]**: direciona os usuários para conteúdo específico no seu aplicativo, como uma exibição, seção de página ou guia específica. Digite o URL do deep link no campo fornecido.
 * **[!UICONTROL URL da Web]**: direciona os usuários para uma página da Web externa. Insira o URL de destino no campo fornecido.
 
 Quando um URL em qualquer link ou campo de mídia for muito longo para ser exibido, um ícone de dica de ferramenta estará sempre visível ao lado do campo. Passe o mouse sobre ele para ver o URL completo.

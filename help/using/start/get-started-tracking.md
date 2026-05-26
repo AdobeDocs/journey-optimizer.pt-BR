@@ -42,9 +42,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 1962
+source-wordcount: 1964
 ht-degree: 3%
 
 ---
@@ -155,9 +155,9 @@ O rastreamento de push é ativado automaticamente e captura impressões (entregu
 
 **Configurar elementos rastreados:**
 
-* **Comportamento de clique no corpo** - Defina o que acontece quando os usuários tocam na notificação: abrir o aplicativo, navegar até um link profundo ou abrir uma URL da Web. Cada ação é rastreada automaticamente. [Saiba mais](../push/design-push.md#on-click-behavior)
+* **Comportamento de clique no corpo** - Defina o que acontece quando os usuários tocam na notificação: abrir o aplicativo, navegar até um deep link ou abrir uma URL da Web. Cada ação é rastreada automaticamente. [Saiba mais](../push/design-push.md#on-click-behavior)
 
-* **Adicionar botões de ação** - Inclua até 3 botões (Android) ou vários botões (iOS) com rastreamento independente para cada ação de botão (aplicativo aberto, link profundo, URL da Web). [Saiba mais](../push/design-push.md#add-buttons-push)
+* **Adicionar botões de ação** - Inclua até 3 botões (Android) ou vários botões (iOS) com rastreamento independente para cada ação de botão (aplicativo aberto, deep link, URL da Web). [Saiba mais](../push/design-push.md#add-buttons-push)
 
 * **Habilitar rastreamento** - Verifique se o rastreamento está habilitado na atividade de jornada por push ou nas configurações de rastreamento da campanha. [Saiba mais](../push/create-push.md#create)
 

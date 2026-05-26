@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e9136cd715af3a80a485d67431eec7ada7697016
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 2924
+source-wordcount: 2973
 ht-degree: 18%
 
 ---
@@ -367,6 +367,8 @@ Os seguintes recursos e melhorias foram adicionados ao sistema de mensagens móv
 * **Entrada de SMS para um conjunto de dados personalizado**: em **credenciais de API de SMS**, encaminhe **SMS de entrada** para um **conjunto de dados de Evento de Experiência personalizado e habilitado para perfil** que você escolher, em vez de apenas o conjunto de dados de rastreamento padrão. [Leia mais](../mobile/mobile-webhook.md)
 
 * **Aprimoramento da interface do webhook**: ao configurar webhooks de SMS, a interface agora inclui um guia de instalação integrado com exemplos práticos, facilitando o alinhamento do conteúdo do provedor e a solução de problemas sem sair do fluxo de configuração. [Leia mais](../mobile/mobile-webhook.md)
+
+* **Deep links no conteúdo de SMS** - Agora é possível adicionar deep links ao conteúdo de SMS usando a função auxiliar de URL. Isso garante que os recipients sejam direcionados diretamente ao conteúdo no aplicativo desejado, sem roteá-los por um navegador da Web ou por uma loja de aplicativos. [Leia mais](../email/deeplinks.md)
 
 ### Canal do WhatsApp {#may-26-whatsapp}
 

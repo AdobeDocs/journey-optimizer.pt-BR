@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '7894'
+source-wordcount: '7897'
 ht-degree: 90%
 
 ---
@@ -27,7 +27,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * A página **Terminologia de Chave** foi reformulada: seis novos termos adicionados, uma nova seção **Termos de conflito e priorização** foi introduzida e um novo guia de desambiguação **Quando os termos parecem semelhantes** adicionado para quatro pares de termos comumente confusos. Os termos específicos do Adobe Experience Platform foram removidos e substituídos por uma nota vinculada ao glossário do Adobe Experience Platform. [Leia mais](../start/terminology.md)
 
-* A documentação **Deeplinks** foi expandida com uma nova seção **Deeplinks de criação** detalhando as duas opções disponíveis para email (interface do usuário do Designer de email e código do Editor do Personalization) e a sintaxe da função de URL para SMS. A página **Criar uma mensagem SMS** agora inclui uma etapa de deep link no fluxo de criação de conteúdo. [Leia mais](../email/deeplinks.md)
+* A documentação de **deep links** foi expandida com uma nova seção **Criação de deep links** detalhando as duas opções disponíveis para email (interface do usuário do Designer de email e código do Editor do Personalization) e a sintaxe da função de URL para SMS. A página **Criar uma mensagem SMS** agora inclui uma etapa de deep link no fluxo de criação de conteúdo. [Leia mais](../email/deeplinks.md)
 
 * A referência de auxiliar **Url** foi atualizada com uma seção dedicada na documentação do Personalization. [Leia mais](../personalization/functions/helpers.md#url)
 
