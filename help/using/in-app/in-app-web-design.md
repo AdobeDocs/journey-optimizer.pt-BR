@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 hide: true
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '801'
 ht-degree: 7%
 
 ---
@@ -128,7 +128,7 @@ Para personalizar o botão:
 
 1. Escolha o **[!UICONTROL Interagir evento]** que define a ação do botão depois que os usuários interagiram com ele.
 
-1. Insira sua URL da Web ou deep link no campo **[!UICONTROL Target]**.
+1. Insira a URL da Web ou o deep link no campo **[!UICONTROL Target]**.
 
 1. Para adicionar vários botões, clique em **[!UICONTROL Botão Adicionar]**.
 

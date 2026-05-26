@@ -7,10 +7,10 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
+source-git-commit: e9ef94bf9797c536a140be444b586a3dc0940e4e
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 3%
+source-wordcount: '1448'
+ht-degree: 2%
 
 ---
 
@@ -133,25 +133,31 @@ Para configurar o conteúdo da mensagem, siga as etapas abaixo. As configuraçõ
 
 1. Depois de definir o conteúdo, você pode adicionar URLs rastreados à mensagem. Para fazer isso, acesse o menu **[!UICONTROL Funções auxiliares]** e selecione **[!UICONTROL Auxiliares]**.
 
-   Para usar a função de redução de URL, primeiro configure um subdomínio que será vinculado à sua configuração. [Saiba mais](mobile-subdomains.md)
-
-   >[!NOTE]
-   >
-   > Para acessar e editar subdomínios SMS, você deve ter a permissão **[!UICONTROL Gerenciar subdomínios SMS]** na sandbox de produção. Saiba mais sobre permissões [nesta seção](../administration/high-low-permissions.md).
-
    ![](assets/sms_tracking_1.png)
 
-1. No menu **[!UICONTROL Funções auxiliares]**, clique em **[!UICONTROL Função de URL]** e selecione **[!UICONTROL Adicionar URL]**.
+1. Selecione a **[!UICONTROL Url]** e clique em **[!UICONTROL Adicionar URL]**.
 
    ![](assets/sms_tracking_2.png)
 
-   <!--The URL shortening function cannot be used within a fragment. TBC-->
-
-1. No campo `originalUrl`, cole a URL que você deseja encurtar e clique em **[!UICONTROL Salvar]**.
+1. Para encurtar a URL, cole-a no campo `originalUrl` e clique em **[!UICONTROL Salvar]**.
 
    >[!CAUTION]
    >
+   >Para usar a função de redução de URL, primeiro configure um subdomínio que será vinculado à sua configuração. [Saiba mais](mobile-subdomains.md)
+   >
    > A duração de URLs curtos é definida como 30 dias. Após esse período, essas URLs curtas não estarão mais acessíveis e exibirão a mensagem: `404 short-code not found`.
+
+1. Para adicionar um deep link que abra uma tela específica no aplicativo móvel, use a função auxiliar **[!UICONTROL Url]** com o tipo `DEEPLINK`, como no exemplo abaixo. [Saiba mais sobre deep links](../email/deeplinks.md)
+
+   ```
+   {{url originalUrl='<<deeplink_url>>' type='DEEPLINK' action='CLICK'}}
+   ```
+
+   >[!IMPORTANT]
+   >
+   >Antes de usar deep linking, verifique se você concluiu as [etapas de configuração](../email/deeplinks.md#configuration) correspondentes no Journey Optimizer e implementou o [tratamento de deep link](../email/deeplinks.md#mobile-implementation) no aplicativo móvel. Caso ainda não o tenha feito, o deep link não direcionará os usuários para o conteúdo no aplicativo desejado.
+   >
+   >Além disso, verifique se o rastreamento de link está habilitado na seção **[!UICONTROL Ações]** da sua jornada ou campanha para que a URL seja regravada pelos sistemas Adobe.
 
 1. No menu **[!UICONTROL Decisão]**, você pode personalizar e otimizar o conteúdo de suas mensagens móveis com a **Decisão**. Esse recurso permite usar Pontuações de prioridade, Fórmulas ou Modelos de IA para selecionar e exibir dinamicamente o melhor conteúdo para seus clientes.
 
