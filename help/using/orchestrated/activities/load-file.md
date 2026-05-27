@@ -5,16 +5,12 @@ title: Usar a atividade Carregar arquivo
 description: Saiba como usar a atividade Carregar arquivo para direcionar um público-alvo de campanha orquestrada de um arquivo CSV ou TXT sem assimilar o arquivo na Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9c2ed338c676a02055802ce8ea956b5b698f3d7c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: e0a0782647a051bf139b82a8bff9e47f97b1f1b9
 workflow-type: tm+mt
-source-wordcount: 1258
+source-wordcount: 1234
 ht-degree: 1%
 
 ---
@@ -41,7 +37,6 @@ As seguintes limitações se aplicam à atividade Load file:
 * É possível carregar até 50 MB por arquivo.
 * Somente arquivos CSV e TXT de estrutura simples são suportados.
 * Os dados carregados são usados quando a campanha é executada e não são armazenados como um conjunto de dados do Adobe Experience Platform.
-* Cada linha deve corresponder a um recipient existente para o targeting dimension selecionado. A atividade Carregar arquivo não cria novos perfis do arquivo.
 
 Para obter limites sobre as atividades de canal e tela, consulte [Medidas de proteção e limitações](../guardrails.md#activities-limitations).
 
