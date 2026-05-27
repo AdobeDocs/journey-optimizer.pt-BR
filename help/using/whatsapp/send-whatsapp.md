@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1ed76bda056ea59a11a6133e83934bfc47ccb4e9
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 3%
+source-wordcount: 420
+ht-degree: 2%
 
 ---
 
@@ -55,3 +55,28 @@ Você deve verificar os alertas na seção superior do editor. Alguns deles são
 > Se sua campanha estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para poder enviar suas mensagens de texto. [Saiba mais](../test-approve/gs-approval.md)
 
 Quando a mensagem do WhatsApp estiver pronta, conclua a configuração da [jornada](../building-journeys/publish-journey.md) ou da [campanha](../campaigns/review-activate-campaign.md) para enviá-la.
+
+## Analisar interações do WhatsApp {#whatsapp-channel-context}
+
+O Journey Optimizer captura dados adicionais de interação retornados do canal do WhatsApp e os armazena no **Conjunto de Dados de Relatórios - Evento de Experiência de Rastreamento de Email** no grupo de campos `whatsAppChannelContext`. Use estes campos para compilar [públicos-alvo](../audience/about-audiences.md), executar [consultas](../data/get-started-queries.md) e analisar o engajamento no WhatsApp. [Saiba mais sobre conjuntos de dados do sistema](../data/get-started-datasets.md#system-datasets).
+
+Os seguintes campos são capturados:
+
+| Campo | Descrição |
+|-|-|
+| `messageType` | Tipo de mensagem do WhatsApp (por exemplo, `templateBased`, `response`). |
+| `inboundMessage` | Conteúdo de resposta de entrada (por exemplo, `stop`, `start`, `subscribe`). |
+| `inboundNumber` | ID do remetente em que a mensagem de entrada foi recebida. |
+| `channelType` | Categoria de canal (`Utility`, `Marketing` ou `Promotional`). |
+| `profileNumber` | Número de telefone do qual a mensagem de entrada foi recebida. |
+| `origTimestamp` | Carimbo de data e hora original do Meta/WhatsApp. |
+| `status` | Status da entrega incluindo feedback de provedor padronizado (`sent`, `delivered`, `bounce`, `error`, `delay`, `duplicate`, `denylist`, `exclude` ou `unknown`) e a mensagem de status de provedor bruto. |
+| `reactionEvent` | Conteúdo da resposta do usuário: emoji para reações ou texto da mensagem para respostas a uma mensagem específica. |
+| `reactionMessageID` | ID da mensagem original que está sendo respondida. |
+| `reactionActionName` | Tipo de ação de resposta (`react`, `unreact` ou `reply`). |
+| `interactiveSelectedTitle` | Título selecionado pelo usuário em uma mensagem interativa do WhatsApp. |
+| `interactiveType` | Tipo de mensagem interativa (`list reply`, `button reply` ou `button`). |
+| `interactiveSelectedDescription` | Descrição da opção interativa do WhatsApp selecionada. |
+| `interactiveSelectedID` | ID da opção selecionada no WhatsApp. |
+
+Para consultar esse conjunto de dados, use a tabela `ajo_email_tracking_experience_event_dataset` no Serviço de consulta. Para padrões de consulta e casos de uso relacionados, consulte [exemplos de consulta de conjunto de dados](../data/datasets-query-examples.md).
