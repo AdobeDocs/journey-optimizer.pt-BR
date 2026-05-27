@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+source-git-commit: 7d107482d9041a115b7526a937cbb6f48793bffc
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1642'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ A configuração de Desafios de Fidelidade conecta o [!DNL Journey Optimizer] ao
 >
 >A configuração de Desafios de Fidelidade exige acesso de administrador à sua instância [!DNL Journey Optimizer], além das permissões necessárias para Desafios de Fidelidade. Entre em contato com o administrador do Adobe para obter acesso.
 
-Para abrir a interface de configuração, navegue até **[!UICONTROL Fidelidade]** e selecione **[!UICONTROL Administrador fiel]**. A interface é organizada em guias:
+Para abrir a interface de configuração, selecione o menu de navegação à esquerda **[!UICONTROL Administrador de fidelidade]**. A interface é organizada em guias:
 
 * **Configurações globais** — Selecione o namespace de identidade da Experience Platform para o seu programa. [Saiba como definir configurações globais](#global-settings)
 * **Provedores de recompensas** — conecte as APIs que atendem a recompensas quando os clientes fazem progresso ou concluem desafios. [Saiba como configurar provedores de premiação](#reward-providers)
@@ -199,7 +199,7 @@ Para editar um provedor de premiação, abra a guia **[!UICONTROL Provedores de 
 >title="Identificação de evento"
 >abstract="Especifique como [!DNL Journey Optimizer] reconhece o evento nas cargas de entrada usando um caminho de identificador, valores de identificador, uma ID de esquema XDM ou uma combinação desses campos."
 
-**[!UICONTROL As definições de evento]** informam a [!DNL Journey Optimizer] quais eventos de entrada de experiência do Adobe Experience Platform processar. Por exemplo, uma compra ou um check-in de hotel. Os profissionais de marketing fazem referência a essas definições ao criar tarefas de **[!UICONTROL Evento personalizado]**. Eventos que não correspondem a nenhuma definição são ignorados.
+**[!UICONTROL As definições de evento]** informam a [!DNL Journey Optimizer] quais eventos de entrada de experiência do Adobe Experience Platform processar. Por exemplo, uma compra ou um check-in de hotel. Os profissionais de marketing fazem referência a essas definições quando criam tarefas de **[!UICONTROL Evento personalizado]** no construtor de tarefas. Eventos que não correspondem a nenhuma definição são ignorados.
 
 Quando sua organização envia eventos em seu próprio formato JSON, o **[!UICONTROL Esquema]** e o **[!UICONTROL Transformador]** ajudam o [!DNL Journey Optimizer] a validar a carga, analisá-la e decidir se deseja rastrear a atividade.
 
