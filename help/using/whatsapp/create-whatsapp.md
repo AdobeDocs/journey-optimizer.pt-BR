@@ -9,26 +9,15 @@ role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 TQID: https://experienceleague.adobe.com/fio2Etyk9FdkyTiHwRMkadrJ4bbsFz7--KvzQvUQrbc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 1ed76bda056ea59a11a6133e83934bfc47ccb4e9
 workflow-type: tm+mt
-source-wordcount: 986
+source-wordcount: 1036
 ht-degree: 3%
 
 ---
@@ -115,6 +104,8 @@ Agora você pode começar a projetar o conteúdo de sua mensagem do WhatsApp usa
 
 1. Na seção **[!UICONTROL Rastreamento de ações]**, especifique se deseja rastrear cliques nos links da mensagem do WhatsApp.
 
+   O Journey Optimizer também rastreia interações nos botões de modelo do WhatsApp com suporte, **Resposta rápida**, **Call to action - URL** e **Call to action - phone**, junto com seus outros relatórios de canal. Não há suporte para botões **Copiar código** e suas interações não são rastreadas.
+
 1. As campanhas são projetadas para serem executadas em uma data específica ou em uma frequência recorrente. Saiba como configurar o **[!UICONTROL Cronograma]** da sua campanha no [nesta seção](../campaigns/create-campaign.md#schedule).
 
 1. No menu **[!UICONTROL Acionadores de ação]**, escolha a **[!UICONTROL Frequência]** da sua mensagem no WhatsApp:
@@ -172,7 +163,7 @@ Observe que seu modelo do WhatsApp deve ser aprovado primeiro pelo Meta antes de
 
 1. Use o botão **[!UICONTROL Simular conteúdo]** para pré-visualizar o conteúdo da mensagem do WhatsApp, URLs encurtadas e conteúdo personalizado. [Saiba mais](send-whatsapp.md)
 
-Depois de executar os testes e validar o conteúdo, você pode [enviar a mensagem do WhatsApp](send-whatsapp.md) para o seu público-alvo e monitorar o desempenho por meio dos [relatórios](../reports/campaign-global-report-cja.md).
+Depois de executar os testes e validar o conteúdo, você pode [enviar a mensagem do WhatsApp](send-whatsapp.md) para o seu público-alvo e monitorar o desempenho por meio dos [relatórios](../reports/campaign-global-report-cja.md). Para obter dados de interação do WhatsApp armazenados no Experience Platform, consulte [Analisar interações do WhatsApp](send-whatsapp.md#whatsapp-channel-context).
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.
@@ -221,6 +212,6 @@ O vídeo abaixo mostra como criar uma jornada do WhatsApp em várias etapas usan
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470287/?captions=por_br&learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++
