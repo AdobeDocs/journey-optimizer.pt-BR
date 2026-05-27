@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
 workflow-type: tm+mt
-source-wordcount: '7897'
+source-wordcount: '7927'
 ht-degree: 90%
 
 ---
@@ -30,6 +30,8 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * A documentação de **deep links** foi expandida com uma nova seção **Criação de deep links** detalhando as duas opções disponíveis para email (interface do usuário do Designer de email e código do Editor do Personalization) e a sintaxe da função de URL para SMS. A página **Criar uma mensagem SMS** agora inclui uma etapa de deep link no fluxo de criação de conteúdo. [Leia mais](../email/deeplinks.md)
 
 * A referência de auxiliar **Url** foi atualizada com uma seção dedicada na documentação do Personalization. [Leia mais](../personalization/functions/helpers.md#url)
+
+* Uma limitação foi adicionada à documentação auxiliar **Metadados de execução**: a função não tem suporte nos canais de entrada (Web, experiência baseada em código, Mensagem no aplicativo, Cartões de conteúdo). [Leia mais](../personalization/functions/helpers.md#execution-metadata)
 
 * Uma nova página **Receitas do Personalization** foi adicionada, fornecendo padrões de personalização prontos para uso para os casos de uso mais comuns no Journey Optimizer. Abrange receitas de data e hora (formatação de data atual, contagem regressiva para expirar, cálculos de dias anteriores, exibição somente de hora e detecção de fim de semana vs. dia da semana), receitas de sequência de caracteres (usando `replaceAll` com atribuição variável) e receitas de fallback condicional (fallbacks de campo vazio usando `isEmpty`). [Leia mais](../personalization/personalization-recipes.md)
 
