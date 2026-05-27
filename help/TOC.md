@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: abac7d8c49e2dc7af9fde91b0e8305ce10a406ce
+source-git-commit: 0abb8b2a9265155c27986c0a542ef5575c58343f
 workflow-type: tm+mt
-source-wordcount: '3344'
+source-wordcount: '3337'
 ht-degree: 95%
 
 ---
@@ -63,8 +63,6 @@ ht-degree: 95%
       + [Configurar e rastrear as métricas da jornada](using/building-journeys/success-metrics.md)
       + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
       + [Simular a jornada](using/building-journeys/simulate-journey.md)
-      + {hide-from-toc}[Introdução à simulação de Jornada](using/building-journeys/simulate-journey-gs.md)
-      + {hide-from-toc}[Simular sua jornada](using/building-journeys/simulate-journey-2.md)
       + [Teste a jornada](using/building-journeys/testing-the-journey.md)
       + [Teste de simulação de jornada](using/building-journeys/journey-dry-run.md)
       + [Publicar a jornada](using/building-journeys/publish-journey.md)
@@ -220,6 +218,7 @@ ht-degree: 95%
          + [Reconciliação](using/orchestrated/activities/reconciliation.md)
          + [Salvar público-alvo](using/orchestrated/activities/save-audience.md)
          + [Divisão](using/orchestrated/activities/split.md)
+         + [Carregar arquivo](using/orchestrated/activities/load-file.md)
          + [Teste](using/orchestrated/activities/test.md)
          + [Aguardar](using/orchestrated/activities/wait.md)
       + Aprenda por meio de casos de uso {#use-cases}
@@ -323,7 +322,7 @@ ht-degree: 95%
          + [Parâmetros de cabeçalho](using/email/header-parameters.md)
          + [Rastreamento de URL](using/email/url-tracking.md)
          + [Personalizar configurações de email](using/email/surface-personalization.md)
-      + [Usar e configurar deep links](using/email/deeplinks.md)
+      + [Usar e configurar deeplinks](using/email/deeplinks.md)
       + [Gerenciar recusa de email](using/email/email-opt-out.md)
    + Canal no aplicativo {#in-app}
       + [Canal no aplicativo](/help/rp_landing_pages/in-app-landing-page.md)
