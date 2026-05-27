@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: deeplink, deep link, links universais, links de aplicativos, email, sms
-source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
+source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%
@@ -48,11 +48,14 @@ Para mensagens de email, você tem duas opções para inserir um deep link:
   <a class="arc-link" data-nl-type="DEEPLINK" href="<<deeplink_url>>" id="acr-link-7821368" style="text-decoration:underline;" target="_blank" data-tracking-type="DEEPLINK">Click Here</a>
   ```
 
-  Substitua `<<deeplink_url>>` pela URL real do deep link e use um `id` exclusivo para cada bloco para evitar conflitos.
+  >[!TIP]
+  >
+  >Substitua `<<deeplink_url>>` pela URL real do deep link e use um `id` exclusivo para cada bloco para evitar conflitos.
+
 
 ### SMS {#authoring-sms}
 
-Para SMS, os deep links são criados usando a função auxiliar **Url** no editor de personalização. Saiba mais sobre como adicionar links ao conteúdo de SMS [nesta seção](../mobile/design-mobile.md#sms-content).
+Para SMS, os deep links são criados usando a função auxiliar [Url](../personalization/functions/helpers.md#url) no editor de personalização. Saiba como adicionar links ao conteúdo de SMS [nesta seção](../mobile/design-mobile.md#sms-content).
 
 Para inserir deep links em conteúdo de SMS, use a seguinte sintaxe:
 
@@ -60,7 +63,9 @@ Para inserir deep links em conteúdo de SMS, use a seguinte sintaxe:
 {{url originalUrl='<<url>>' type='DEEPLINK' action='CLICK'}}
 ```
 
-Substitua `<<url>>` pela URL real do deep link.
+>[!TIP]
+>
+>Substitua `<<url>>` pela URL real do deep link.
 
 ## Configuração no Journey Optimizer {#configuration}
 
@@ -338,3 +343,4 @@ Sim. Os parâmetros UTM configurados no [!DNL Journey Optimizer] são incluídos
 O link é aberto no navegador da Web padrão do dispositivo (comportamento de rastreamento de cliques padrão), em vez de ser tratado como um deep link de aplicativo por meio do fluxo do `mclick` descrito nesta página.
 
 +++
+

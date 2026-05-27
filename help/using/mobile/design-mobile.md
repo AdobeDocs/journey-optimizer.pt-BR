@@ -7,9 +7,9 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: e9ef94bf9797c536a140be444b586a3dc0940e4e
+source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1456'
 ht-degree: 2%
 
 ---
@@ -135,7 +135,7 @@ Para configurar o conteúdo da mensagem, siga as etapas abaixo. As configuraçõ
 
    ![](assets/sms_tracking_1.png)
 
-1. Selecione a **[!UICONTROL Url]** e clique em **[!UICONTROL Adicionar URL]**.
+1. Selecione a **[!UICONTROL Url]** e clique em **[!UICONTROL Adicionar URL]**. Saiba mais sobre a função auxiliar `Url` em [esta seção](../personalization/functions/helpers.md#url).
 
    ![](assets/sms_tracking_2.png)
 
@@ -147,13 +147,13 @@ Para configurar o conteúdo da mensagem, siga as etapas abaixo. As configuraçõ
    >
    > A duração de URLs curtos é definida como 30 dias. Após esse período, essas URLs curtas não estarão mais acessíveis e exibirão a mensagem: `404 short-code not found`.
 
-1. Para adicionar um deep link que abra uma tela específica no aplicativo móvel, use a função auxiliar **[!UICONTROL Url]** com o tipo `DEEPLINK`, como no exemplo abaixo. [Saiba mais sobre deep links](../email/deeplinks.md)
+1. Para adicionar um deep link que abra uma tela específica no aplicativo móvel, use a função auxiliar `Url` com o tipo `DEEPLINK`, como no exemplo abaixo. [Saiba mais sobre deep links](../email/deeplinks.md)
 
    ```
    {{url originalUrl='<<deeplink_url>>' type='DEEPLINK' action='CLICK'}}
    ```
 
-   >[!IMPORTANT]
+   >[!CAUTION]
    >
    >Antes de usar deep linking, verifique se você concluiu as [etapas de configuração](../email/deeplinks.md#configuration) correspondentes no Journey Optimizer e implementou o [tratamento de deep link](../email/deeplinks.md#mobile-implementation) no aplicativo móvel. Caso ainda não o tenha feito, o deep link não direcionará os usuários para o conteúdo no aplicativo desejado.
    >
@@ -192,3 +192,4 @@ Para criar conteúdo MMS, siga estas etapas:
 1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na visualização. Agora você pode testar e verificar o conteúdo da mensagem conforme detalhado abaixo.
 
 Depois de executar os testes e validar o conteúdo, você pode enviar a mensagem móvel para o público-alvo. Estas etapas estão detalhadas em [esta página](send-mobile-message.md)
+
