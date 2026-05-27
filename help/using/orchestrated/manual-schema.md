@@ -6,15 +6,10 @@ description: Saiba como criar esquemas relacionais diretamente pela interface do
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/vSXJMXYZECaVuB8PkrEB4Y9AXgJBHMq0bGd8Nb-BGh4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 901ecd19969ea7a79d1fad38c4e3140fea2e01ec
 workflow-type: tm+mt
 source-wordcount: 932
 ht-degree: 11%
@@ -37,7 +32,7 @@ O exemplo a seguir define manualmente o esquema **Associações de fidelidade** 
 
 1. [Assimile dados](ingest-data.md) em seu conjunto de dados de fontes compatíveis.
 
-➡️ [Saiba mais sobre esquemas relacionais manuais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Saiba mais sobre esquemas relacionais manuais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Criar seu esquema {#schema}
 
@@ -119,7 +114,7 @@ Qualquer esquema usado para direcionamento deve incluir pelo menos um campo de i
 
 Depois de criar e salvar atributos, você pode vincular o esquema a outros esquemas relacionais definindo relacionamentos.
 
-➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Vincular esquemas {#link-schema}
 
@@ -167,7 +162,7 @@ Agora é necessário ativar seu conjunto de dados para campanhas orquestradas.
 
 Depois de criar o conjunto de dados, é necessário habilitá-lo explicitamente para as campanhas orquestradas. Essa etapa garante que o conjunto de dados esteja disponível para orquestração e personalização em tempo real no Adobe Journey Optimizer.
 
-Consulte a [documentação do Adobe Developer](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement) para validar ou habilitar a Extensão do Orchestrated Campaign no conjunto de dados.
+Consulte a [documentação do Adobe Developer](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset#tag/DatasetEnablement) para validar ou habilitar a Extensão do Orchestrated Campaign no conjunto de dados.
 
 1. Localize seu conjunto de dados na lista **[!UICONTROL Conjuntos de dados]**.
 
