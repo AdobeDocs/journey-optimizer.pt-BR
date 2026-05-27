@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, Fragmentos de conteúdo, administração, repositório, autenticação, autor, publicação
-source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
+source-git-commit: 9da185872d2742799f1a2a2c85a840c84cb8b329
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Para configurar o repositório:
 1. Clique em **[!UICONTROL Criar integração]**.
 
    ![](assets/aem-admin-settings-1.png)
+
+1. Se você usa **[!DNL Adobe Experience Manager Managed Services]**, insira um nome de host de repositório que termine com `adobecqms.net` no campo **[!UICONTROL ID de repositório AMS personalizada]**.
+
+   ![](assets/aem-admin-settings-6.png)
 
 1. Escolha qual repositório deve ser configurado e clique em **[!UICONTROL Avançar]**.
 
@@ -76,9 +80,19 @@ Para configurar o repositório:
 
    +++
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Depois de concluir a configuração da instância, escolha um Fragmento de conteúdo para confirmar se a integração funciona.
+
+   ![](assets/aem-admin-settings-7.png)
+
+1. Na janela **Supervisor de Conteúdo**, selecione o fragmento que deseja testar e clique em **[!UICONTROL Selecionar]**.
+
+1. Clique em **[!UICONTROL Save]**.
+
+1. Quando você salva com um Fragmento de conteúdo de teste selecionado, a validação é executada automaticamente. Se a validação falhar, uma lista de erros será exibida para que você possa corrigir a configuração.
+
+   ![](assets/aem-admin-settings-8.png)
 
 1. Para editar ou desabilitar essa integração de repositório, acesse a configuração criada anteriormente pelo menu **[!UICONTROL Integração do AEM]**.
 
-Ao salvar, essa sandbox usa o repositório do seletor de Fragmento de conteúdo e do **Supervisor de conteúdo do Adobe Experience Manager**.
+Ao salvar essa configuração, o Journey Optimizer a armazena para esse repositório na sandbox atual. Você pode usar esse repositório e suas configurações ao navegar e selecionar conteúdo no seletor do **Supervisor de Conteúdo**.
 
