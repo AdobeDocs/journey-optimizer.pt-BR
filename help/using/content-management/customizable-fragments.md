@@ -9,27 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 TQID: https://experienceleague.adobe.com/cwg-nGPftYg6UgVSKXZPdW6DZr4-m5UM5Wqzfx3w028
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 59d843037ed63ac2d474f29125eba4f0cef5c61b
 workflow-type: tm+mt
-source-wordcount: 1503
-ht-degree: 0%
+source-wordcount: 1627
+ht-degree: 1%
 
 ---
 
@@ -164,7 +153,18 @@ Para fazer isso:
 
 ## Adicionar rich text a um fragmento personalizável {#rich-text}
 
-Rich text como quebras de linha, negrito, itálico, etc., podem ser adicionados a um fragmento personalizável usando componentes do HTML. Para fazer isso, siga as etapas abaixo.
+>[!CONTEXTUALHELP]
+>id="ajo_editable_fragment_compatibility"
+>title="Fragmento herdado"
+>abstract="Os campos editáveis neste fragmento estão no modo somente texto. Até que você os converta, os usuários só poderão inserir texto sem formatação ao editar este fragmento em emails. Rich text como negrito, itálico, hiperlinks e quebras de linha não são compatíveis. Clique em <b>Converter</b> no componente para atualizá-lo para o modo compatível com HTML."
+
+>[!CONTEXTUALHELP]
+>id="ac_editable_fragment_compatibility"
+>title="Fragmento herdado"
+>abstract="Os campos editáveis neste fragmento personalizável são somente texto. Formatação de rich text (negrito, itálico, hiperlinks, quebras de linha etc.) O não estará disponível no Designer de email até que o autor do fragmento atualize o fragmento para o modo compatível com o HTML usando o botão <b>Converter</b> no editor de fragmentos."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizar campos editáveis em um fragmento"
+
+Rich text como quebras de linha, negrito, itálico, etc., podem ser adicionados a um fragmento personalizável usando componentes do HTML. Para isso, siga as etapas abaixo.
 <!--
 ➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)
 -->
@@ -218,5 +218,5 @@ Ao adicionar o fragmento ao email, agora é possível editar o conteúdo rich te
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464373/?captions=por_br&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
