@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+source-git-commit: 00834e22246c16b199b66449f45235e0e785a1ac
 workflow-type: tm+mt
-source-wordcount: 1722
+source-wordcount: 1696
 ht-degree: 0%
 
 ---
@@ -40,10 +40,6 @@ ht-degree: 0%
 As experiências existentes do **Seletor de ativos** e do **Seletor de fragmentos de conteúdo** nos fluxos de trabalho do Adobe Journey Optimizer estão sendo substituídas pelo **Supervisor de conteúdo**. O Supervisor de conteúdo fornece uma interface unificada, habilitada por IA, para detectar e selecionar o Assets, Fragmentos de conteúdo e Mídia dinâmica diretamente nos fluxos de trabalho de criação do AJO. As integrações existentes continuarão a funcionar durante o período de transição.
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Esta integração se aplica ao **Adobe Experience Manager as a Cloud Service Sites**, somente para **Fragmentos de conteúdo**. O Journey Optimizer lê fragmentos da camada **Publicar** (não do Autor).
 
 A integração entre o Adobe Experience Manager e o Journey Optimizer segue esse fluxo de dados:
 
