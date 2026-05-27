@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+source-git-commit: 7d107482d9041a115b7526a937cbb6f48793bffc
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '538'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 5%
 
 **Configurar e integrar**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Configurar desafios de fidelidade](loyalty-admin.md)
 * **Dados e conjuntos de dados de fidelidade** ◀︎ **Você está aqui**
 * [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -60,21 +60,21 @@ ht-degree: 5%
 
 Os desafios de fidelidade dependem da Adobe Experience Platform para identidade, atributos de perfil, eventos de experiência e públicos. Use esta página para saber quais dados devem ser preparados, quais conjuntos de dados estão envolvidos e como o **TTL (time-to-live)** afeta a retenção antes de criar desafios ou usar as APIs de desafios de fidelidade.
 
-Entre em contato com o administrador do Adobe para obter a configuração do programa do Journey Optimizer (cumprimento de premiação e mapeamento de eventos). Para obter pontos de extremidade e autenticação REST, consulte a [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}.
+Entre em contato com o administrador do Adobe para obter a configuração do programa do Journey Optimizer ou configure o preenchimento de premiação e o mapeamento de eventos no menu **[!UICONTROL Admin. de fidelidade]**. [Saiba como configurar desafios de fidelidade](loyalty-admin.md). Para obter pontos de extremidade e autenticação REST, consulte a [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}.
 
 ## Dados do Adobe Experience Platform {#aep-data}
 
 ### Atributos do perfil {#profile-attributes}
 
-Desafie públicos, personalização e relatórios que usam perfis na classe **[!DNL XDM Individual Profile]**. Alinhe a identidade [namespace](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces){target="_blank"} que você usa para Desafios de Fidelidade com a forma como os membros são identificados nos dados do perfil.
+Desafie públicos, personalização e relatórios que usam perfis na classe **[!DNL XDM Individual Profile]**. Alinhe a identidade [namespace](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces){target="_blank"} que você usa para Desafios de Fidelidade com a forma como os membros são identificados nos dados do seu perfil e com o namespace selecionado em **[!UICONTROL Configurações globais]** no menu **[!UICONTROL Administrador de fidelidade]**.
 
-Para atributos de fidelidade padrão no perfil (pontos, camada, programa, status e campos relacionados), use o grupo de campos de esquema **[Detalhes de Fidelidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** do Experience Platform. Esse grupo de campos define o objeto `loyalty` e suas propriedades (por exemplo, `points`, `tier`, `program` e `status`).
+Para atributos de fidelidade padrão no perfil (pontos, camada, programa, status e campos relacionados), use o grupo de campos de esquema **[Detalhes de Fidelidade](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** do Experience Platform. Esse grupo de campos define o objeto `loyalty` e suas propriedades (por exemplo, `points`, `tier`, `program` e `status`).
 
-➡️ [Grupo de campos de esquema de Detalhes de Fidelidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [Grupo de campos de esquema de Detalhes de Fidelidade](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### Eventos de experiência {#experience-events}
 
-As tarefas **[!UICONTROL Comprar]**, **[!UICONTROL Gastar]** e **[!UICONTROL Evento personalizado]** dependem dos eventos de experiência assimilados na Adobe Experience Platform. Para tarefas de **[!UICONTROL Evento personalizado]**, o administrador deve configurar definições de evento correspondentes (caminho do identificador, ID do esquema XDM opcional, esquema e transformador) para que você possa selecioná-las no construtor de tarefas.
+As tarefas **[!UICONTROL Comprar]**, **[!UICONTROL Gastar]** e **[!UICONTROL Evento personalizado]** dependem dos eventos de experiência assimilados na Adobe Experience Platform. Para tarefas de **[!UICONTROL Evento personalizado]**, as definições de evento correspondentes (caminho do identificador, ID do esquema XDM opcional, esquema e transformador) devem ser configuradas no menu **[!UICONTROL Admin. de fidelidade]** para que os profissionais de marketing possam inserir valores de evento personalizados no construtor de tarefas. [Saiba como configurar definições de evento](loyalty-admin.md#event-definitions)
 
 Certifique-se de que as cargas do evento usem o mesmo namespace de identidade da configuração de Desafios de fidelidade para que o progresso possa ser atribuído ao perfil correto.
 
@@ -93,5 +93,3 @@ O Journey Optimizer aplica medidas de proteção TTL a muitos conjuntos de dados
 >[!NOTE]
 >
 >A configuração de fidelidade no nível da organização pode incluir configurações de arquivamento e retenção (por exemplo, duração do arquivamento) gerenciadas pelo serviço de metadados de fidelidade. Entre em contato com o administrador do Adobe se precisar ajustar a retenção para o ambiente beta privado.
-
-<!-- For UI-based setup (reward providers, event definitions, product inventory, and exclusions), see [Configure loyalty challenges](loyalty-admin.md). -->

@@ -11,10 +11,10 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+source-git-commit: 7d107482d9041a115b7526a937cbb6f48793bffc
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 14%
+source-wordcount: '911'
+ht-degree: 13%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 14%
 
 **Configurar e integrar**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Configurar desafios de fidelidade](loyalty-admin.md)
 * [Dados e conjuntos de dados de fidelidade](loyalty-data-and-datasets.md)
 * [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -95,7 +95,7 @@ A criação e o lançamento de um desafio de fidelidade seguem este fluxo de tra
 
 1. **Criar um desafio** - Defina as propriedades básicas do desafio, incluindo nome, tipo (Padrão, Streak, Sequencial ou Trazer seus próprios dados quando disponíveis) e intervalo de datas. [Saiba como escolher um tipo de desafio](create-challenges.md#create-the-challenge).
 
-1. **Adicionar tarefas** - Defina as ações específicas que os clientes devem concluir, incluindo tipos de tarefa (compra, gastos), quantidades, filtros de produto e recompensas.
+1. **Adicionar tarefas** - Defina as ações específicas que os clientes devem concluir, incluindo tipos de tarefa (compra, gastos ou eventos personalizados), quantidades, filtros de produto e recompensas.
 
 1. **Criar cartões de conteúdo** - Crie a representação visual do seu desafio usando cartões de conteúdo do Journey Optimizer exibidos em dispositivos do cliente. Os cartões de conteúdo mostram informações de desafio, progresso e recompensas.
 
@@ -138,17 +138,13 @@ Entre em contato com o administrador se não conseguir acessar o recurso ou prec
 
 +++
 
-<!--
++++Configurar o programa de fidelidade (administradores)
 
-+++Configure the loyalty program (administrators)
+Os administradores configuram provedores de premiação, definições de eventos, inventário de produtos, exclusões e configurações globais no menu **[!UICONTROL Admin. de fidelidade]**. Os profissionais de marketing que apenas criam desafios não precisam acessar esse menu. [Saiba como configurar desafios de fidelidade](loyalty-admin.md)
 
-To configure **[!UICONTROL Loyalty Admin]** (reward providers, event definitions, and global settings), you need administrator access to your Journey Optimizer organization. Marketers who only create challenges do not need access to this area. [Learn how to configure the loyalty program](loyalty-admin.md).
-
-Contact your administrator if **[!UICONTROL Loyalty Admin]** is not visible in the left navigation.
+Entre em contato com o administrador se o menu de **[!UICONTROL Administrador de fidelidade]** não estiver visível na navegação à esquerda.
 
 +++
-
--->
 
 +++Público-alvo
 
@@ -206,21 +202,20 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
     <em>Rastreie KPIs de programa, resultados de desafio e métricas de tarefa com painéis integrados</em>
     </p>
   </td>
-  &lt;!--
-
-<td>
+  <!--
+    <a href="loyalty-admin.md"><strong>Configure the loyalty program</strong></a>
+  <td>
     <a href="loyalty-admin.md">
-      <img alt="Configuração" src="assets/do-not-localize/icon-access.png" width="200"/>
+    <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-    <a href="loyalty-admin.md"><strong>Configurar o programa de fidelidade</strong></a>
+-->
+    <a href="loyalty-admin.md"><strong>Configurar desafios de fidelidade</strong></a>
     </div>
     <p>
-    <em>Configurar provedores de premiação, definições de eventos e configurações de organização para atendimento</em>
+    <em>Configurar provedores de premiação, definições de eventos e configurações da organização</em>
     </p>
   </td>
-
--->
 </tr>
 </table>
 

@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+source-git-commit: 7d107482d9041a115b7526a937cbb6f48793bffc
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1973'
 ht-degree: 16%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 16%
 
 **Configurar e integrar**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Configurar desafios de fidelidade](loyalty-admin.md)
 * [Dados e conjuntos de dados de fidelidade](loyalty-data-and-datasets.md)
 * [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -137,7 +137,7 @@ A programação de desafio agora está configurada. Em seguida, adicione as tare
 >title="Tarefas"
 >abstract="Selecione as tarefas que serão executadas para concluir o desafio. Em seguida, configure como o desafio é concluído. As opções disponíveis dependem do tipo de desafio (Padrão, Sequência ou Sequencial)."
 
-As tarefas definem as ações específicas que os clientes devem concluir para ganhar recompensas. Você pode configurar tipos de tarefa (compra, gastos), quantidades, filtros de produto e outros atributos.
+As tarefas definem as ações específicas que os clientes devem concluir para ganhar recompensas. Você pode configurar tipos de tarefa (compra, gasto ou evento personalizado), quantidades, filtros de produto e outros atributos.
 
 Para adicionar tarefas ao seu desafio, siga estas etapas:
 
@@ -204,9 +204,7 @@ Para configurar quando e como as recompensas serão entregues:
    * **[!UICONTROL Fornecer recompensas nos marcos de conclusão da tarefa conforme o progresso do desafio é realizado]**: premiar de forma incremental à medida que os clientes concluem tarefas individuais (disponível somente para desafios que exigem mais de uma tarefa)\
      *Exemplo: Premiar 10 pontos após a tarefa 1, 20 pontos após a tarefa 2 e 50 pontos após a tarefa 3*
 
-1. Selecione seu provedor de premiação. Esta é a sua solução de fidelidade que gerencia pontos e recompensas do cliente.
-
-   <!-- Reward providers are created in **[!UICONTROL Loyalty Admin]** before you author challenges. [Learn how to configure reward providers](loyalty-admin.md#reward-providers). -->
+1. Selecione seu provedor de premiação. Esta é a sua solução de fidelidade que gerencia pontos e recompensas do cliente. Os provedores de recompensa são criados no menu **[!UICONTROL Admin de fidelidade]** antes de você criar desafios. [Saiba como configurar provedores de premiação](loyalty-admin.md#reward-providers)
 
    ![](assets/challenge-create-reward-type.png)
 
