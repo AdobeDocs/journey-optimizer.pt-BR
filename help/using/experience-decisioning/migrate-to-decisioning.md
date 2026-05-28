@@ -7,30 +7,14 @@ role: User
 level: Experienced
 exl-id: aedd7845-3d8d-457a-a7f3-03897846b241
 TQID: https://experienceleague.adobe.com/DQI-YSVEdN4ffTgnj-LG4U59-dbVxB-wnBOqjOiWoS4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 1296
+source-wordcount: 1294
 ht-degree: 4%
 
 ---
@@ -49,7 +33,7 @@ A Decisão oferece recursos e benefícios significativos em relação à estrutu
 
 ### Recursos de IA e aprendizado de máquina
 
-* **Métricas personalizadas**: capacidade de usar métricas de otimização personalizadas para modelos de IA. Isso proporciona interoperabilidade de relatórios com o [Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, padroniza os relatórios entre ambas as plataformas e melhora a consistência e confiabilidade dos dados. A integração perfeita fornece uma visualização mais clara das métricas de desempenho e adiciona novos recursos, como criar métricas simples, publicar públicos, fazer perguntas ad hoc usando o Insight Builder e agendar relatórios.
+* **Métricas personalizadas**: capacidade de usar métricas de otimização personalizadas para modelos de IA. Isso proporciona interoperabilidade de relatórios com o [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, padroniza os relatórios entre ambas as plataformas e melhora a consistência e confiabilidade dos dados. A integração perfeita fornece uma visualização mais clara das métricas de desempenho e adiciona novos recursos, como criar métricas simples, publicar públicos, fazer perguntas ad hoc usando o Insight Builder e agendar relatórios.
 
 * **Medição de aumento**: capacidade de visualizar exploração vs. explorar o tráfego em modelos de IA. Isso permite que profissionais de marketing e cientistas de dados quantifiquem como a exploração de IA melhora o desempenho do modelo a longo prazo e a capacidade de descoberta de novas ofertas vencedoras. A transparência na alocação de tráfego cria confiança nas decisões de IA e capacita as equipes a otimizar tanto o aprendizado quanto o desempenho ao longo do tempo. [Saiba mais](ranking/auto-optimization-model.md#lift)
 
@@ -87,9 +71,9 @@ Painel que documenta o desempenho dos itens de decisão e as estratégias de sel
 
 * **Imposição de política**: capacitação do usuário empresarial para usar recursos como [Rotulagem e Imposição de Uso de Dados (DULE)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview){target="_blank"} e [Consentimento](../action/consent.md) na Decisão, habilitando a proteção de blindagem de privacidade no fluxo de trabalho de decisão. Isso garante que as decisões respeitem automaticamente as políticas de uso de dados e as preferências de consentimento do cliente.
 
-* **Suporte ao canal de mensagens nativo**: mensagens e decisões integradas em uma única estrutura em vários canais: [Experiência baseada em código](../code-based/get-started-code-based.md), [Email](../email/get-started-email.md) (Disponibilidade limitada), [SMS](../mobile/get-started-mobile.md) e [Notificações por push](../push/get-started-push.md). O suporte intuitivo à interface permite que os usuários insiram componentes de decisão diretamente nos fluxos de trabalho de criação de mensagens.
+* **Suporte ao canal de mensagens nativo**: mensagens e decisões integradas em uma única estrutura em vários canais: [Experiência baseada em código](../code-based/get-started-code-based.md), [Email](../email/get-started-email.md), [SMS](../mobile/get-started-mobile.md) e [Notificações por push](../push/get-started-push.md). O suporte intuitivo à interface permite que os usuários insiram componentes de decisão diretamente nos fluxos de trabalho de criação de mensagens.
 
-* **Pesquisa de conjunto de dados do Experience Platform**: capacidade de carregar e referenciar [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview){target="_blank"} diretamente nas regras de seleção de oferta, classificação e conteúdo de oferta personalizado. Isso expande a flexibilidade para personalização e direcionamento ao permitir que a lógica de decisão use fontes de dados externas dinâmicas. [Saiba mais](../data/lookup-aep-data.md)
+* **Pesquisa de conjunto de dados do Experience Platform**: capacidade de carregar e referenciar [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"} diretamente nas regras de seleção de oferta, classificação e conteúdo de oferta personalizado. Isso expande a flexibilidade para personalização e direcionamento ao permitir que a lógica de decisão use fontes de dados externas dinâmicas. [Saiba mais](../data/lookup-aep-data.md)
 
 * **Escalabilidade e desempenho**: aprimoramento da arquitetura que move a computação de decisão do hub para a borda, reduzindo significativamente a latência e melhorando a taxa de transferência para casos de uso de alto tráfego.
 

@@ -8,26 +8,15 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
 TQID: https://experienceleague.adobe.com/-aDvt4RUXyf0EnPfFTJkG1CvWgte-1Fr6YaWvgcNNu4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 1573
+source-wordcount: 1569
 ht-degree: 7%
 
 ---
@@ -40,7 +29,7 @@ Para pares de termos com sonoridade semelhante que são frequentemente confundid
 
 >[!NOTE]
 >
->O Adobe Journey Optimizer foi criado em **Adobe Experience Platform**. Muitos conceitos fundamentais que você encontrará — como perfis de clientes em tempo real, sandboxes, esquemas e conjuntos de dados — são conceitos do Adobe Experience Platform, não específicos do Journey Optimizer. Para obter as definições desses termos, consulte o [glossário do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=pt-BR){target="_blank"}.
+>O Adobe Journey Optimizer foi criado em **Adobe Experience Platform**. Muitos conceitos fundamentais que você encontrará — como perfis de clientes em tempo real, sandboxes, esquemas e conjuntos de dados — são conceitos do Adobe Experience Platform, não específicos do Journey Optimizer. Para obter as definições desses termos, consulte o [glossário do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
 
 ## Termos de Jornada e campanha {#journey-campaign-terms}
 
@@ -75,7 +64,7 @@ Para pares de termos com sonoridade semelhante que são frequentemente confundid
 
 | Termo | Definição |
 |------|------------|
-| **Decisão** | A estrutura de decisão da geração atual no Journey Optimizer, recomendada para novas implementações. Oferece gerenciamento de catálogo de itens baseado em esquema, regras flexíveis de coleção, componentes de decisão reutilizáveis e recursos de experimentação. Disponível para experiência baseada em código, push, SMS e email (disponibilidade limitada). [Saiba mais](../experience-decisioning/gs-experience-decisioning.md) |
+| **Decisão** | A estrutura de decisão da geração atual no Journey Optimizer, recomendada para novas implementações. Oferece gerenciamento de catálogo de itens baseado em esquema, regras flexíveis de coleção, componentes de decisão reutilizáveis e recursos de experimentação. Disponível para Experiência baseada em código, Push, SMS e Email. [Saiba mais](../experience-decisioning/gs-experience-decisioning.md) |
 | **Gestão de decisões** | O recurso herdado do Offer Decisioning no Journey Optimizer. Usa uma biblioteca central de ofertas de marketing e um mecanismo de decisão baseado em regras que aplica restrições aos perfis do cliente em tempo real. Ainda há suporte para implementações existentes, mas as novas implementações devem usar a Decisão em vez disso. Oferece suporte a email, no aplicativo, push, SMS e correspondência direta. [Saiba mais](../offers/get-started/starting-offer-decisioning.md) |
 | **Oferta** | Uma mensagem de marketing, desconto ou promoção que pode ser apresentada aos clientes. As ofertas incluem regras de qualificação que determinam quais clientes podem recebê-las. [Saiba mais](../offers/offer-library/creating-personalized-offers.md) |
 | **Política de decisão** | Um conjunto de regras e estratégias que determinam qual oferta mostrar a qual cliente em que momento, com base em restrições como elegibilidade, prioridade e regras de limite. [Saiba mais](../experience-decisioning/create-decision.md) |
@@ -106,7 +95,7 @@ Ambos os recursos selecionam e fornecem ofertas, mas atendem a diferentes estág
 |---|---|---|
 | **Status** | Atual — recomendado para todas as novas implementações | **Herdados** — ainda são suportados, mas não são mais recomendados para novas implementações |
 | **Catálogo de itens** | Metadados flexíveis com base em esquema | Biblioteca de ofertas centralizada |
-| **Canais com suporte** | Experiência baseada em código, push, SMS, email (disponibilidade limitada) | Email, No aplicativo, Push, SMS, Correspondência direta |
+| **Canais com suporte** | Experiência baseada em código, push, SMS, email | Email, No aplicativo, Push, SMS, Correspondência direta |
 | **Diferencial de chave** | Componentes de decisão reutilizáveis, experimentação, roteiro de canais mais amplo | Mecanismo de restrições comprovado; migrar para o Decisioning para novos projetos |
 | **Introdução** | [Decisão](../experience-decisioning/gs-experience-decisioning.md) | [Gestão de decisões](../offers/get-started/starting-offer-decisioning.md) |
 
