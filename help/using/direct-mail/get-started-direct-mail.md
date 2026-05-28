@@ -66,7 +66,7 @@ Saiba como aproveitar o canal de correspondência direta no Adobe Journey Optimi
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479167?captions=por_br&quality=12)
 
 +++
 
