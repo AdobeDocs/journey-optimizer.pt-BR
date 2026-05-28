@@ -8,15 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
 workflow-type: tm+mt
-source-wordcount: 9308
+source-wordcount: 9272
 ht-degree: 99%
 
 ---
@@ -320,7 +316,7 @@ table>
 <li>O tamanho máximo para cada anexo é 5 MB.</li>
 <li>Para qualquer tamanho ou volume adicional, é possível comprar o complemento Anexos em PDF. Para obter mais informações, entre em contato com um representante da Adobe.</li>
 </ul>
-<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Para obter mais informações, consulte a <a href="../email/pdf-attachments.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 30 de setembro de 2025</p>
@@ -657,7 +653,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <p>É possível pausar e retomar apenas uma jornada ou executar operações de pausa e retomada em massa para um grupo de jornadas.</p>
 <p>Além disso, é possível aplicar critérios de saída baseados em atributos de perfil (que anteriormente possuíam o nome "filtro global") a jornadas pausadas para excluir perfis com base em seus atributos.</p>
 <p><img src="assets/do-not-localize/PauseResume.gif"/></p>
-<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para mais informações, consulte a <a href="../building-journeys/journey-pause.md">documentação detalhada</a></p>
 </td>
 </tr>
@@ -1031,7 +1027,7 @@ Para mais informações, consulte a <a href="../experience-decisioning/create-de
 <td>
 <p>O teste de simulação da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil. Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.</p>
 <img src="assets/do-not-localize/DryRun.gif">
-<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para mais informações, consulte a <a href="../building-journeys/journey-dry-run.md">documentação detalhada</a></p>
 </td>
 </tr>
@@ -1084,7 +1080,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Campanhas**
 
-   * **Várias ações de entrada em campanhas**: para simplificar a orquestração de campanhas, agora é possível definir várias ações de entrada em uma mesma campanha. Esse recurso permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da web para locais diferentes ao mesmo tempo, cada ação com um conteúdo específico.
+   * **Várias ações de entrada em campanhas** - Para simplificar a orquestração de campanhas, agora é possível definir várias ações de entrada em uma única campanha. Esse recurso permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, Cartões de conteúdo ou ações da Web para locais diferentes ao mesmo tempo, cada ação contendo um conteúdo específico.
      [Leia mais](../campaigns/campaign-action.md#multi-action)
 
    * **Reorganização do inventário de campanhas**: campanhas programadas e acionadas por API agora são divididas em guias separadas no inventário de campanhas para facilitar a navegação e o gerenciamento.
@@ -1283,7 +1279,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>No Journey Optimizer, gerenciar o volume e o momento das campanhas e jornadas é essencial para evitar sobrecarregar os clientes com muitas interações. O Journey Optimizer agora oferece várias ferramentas para o gerenciamento de conflitos e a priorização, antes disponíveis apenas para um número limitado de organizações (disponibilidade limitada), mas que agora estão em disponibilidade geral.</p>
+<p>No Journey Optimizer, gerenciar o volume e o momento de início das campanhas e jornadas é essencial para não sobrecarregar clientes com muitas interações. O Journey Optimizer agora oferece várias ferramentas para o gerenciamento de conflitos e a priorização, antes disponíveis apenas para um número limitado de organizações (disponibilidade limitada), mas que agora estão em disponibilidade geral.</p>
 <p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes. Esta versão de disponibilidade geral também inclui os seguintes aprimoramentos:</p>
 <ul>
 <li>Suporte estendido: as ferramentas de gerenciamento de conflitos agora oferecem suporte às jornadas unitárias, jornadas de qualificação de público-alvo e jornadas de público-alvo de leitura.</li>
@@ -1406,7 +1402,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 </ul>
 </br>
 <img src="assets/do-not-localize/dynamic_media_template_html.gif">
-<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para obter mais informações, consulte a <a href="../integrations/aem-dynamic.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 23 de maio de 2025</p>
 </td>
@@ -1461,7 +1457,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <tr>
 <td>
 <p>Agora é possível acionar execuções diárias da jornada após a conclusão da segmentação em lote Essa opção agora está disponível em jornadas agendadas diariamente para todos os clientes. Ela permite definir uma janela de tempo de até 6 horas para aguardar os dados de público-alvo de processos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas.</p>
-<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>Para obter mais informações, consulte a <a href="../building-journeys/read-audience.md#schedule">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 20 de maio de 2025</p>
@@ -1652,7 +1648,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Canal do LINE</strong><br/></th>
+<th><strong>Canal LINE</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1780,7 +1776,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Pontuação de alinhamento da marca (beta)</strong><br/></th>
+<th><strong>Pontuação de alinhamento à marca (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1958,7 +1954,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Os ativos do Dynamic Media agora estão diretamente disponíveis e acessíveis no Journey Optimizer. Essa integração permite:
+<p>Os ativos de mídia dinâmica agora estão diretamente disponíveis e acessíveis no Journey Optimizer. Essa integração permite:
 <ul>
 <li>Gerenciar ativos centralmente com atualizações em tempo real</li>
 <li>Modificar instantaneamente suas configurações de ativos, como largura e altura</li>
