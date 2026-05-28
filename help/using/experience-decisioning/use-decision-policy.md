@@ -9,24 +9,15 @@ mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: eb2b97776f60b73c53d666b11f807aca29514059
 workflow-type: tm+mt
-source-wordcount: 853
-ht-degree: 3%
+source-wordcount: 1164
+ht-degree: 2%
 
 ---
 
@@ -159,6 +150,47 @@ Quando o conteúdo estiver pronto, revise e publique sua campanha ou jornada:
 * [Revisar e ativar uma campanha](../campaigns/review-activate-campaign.md)
 
 Para experiências baseadas em código, assim que o desenvolvedor fizer uma chamada de API ou SDK para buscar conteúdo para a superfície definida na configuração do canal, as alterações serão aplicadas à página da Web ou aplicativo.
+
+## Exibir detalhes da política de decisão do resumo da campanha {#decision-policy-summary}
+
+Quando uma ação ou uma [campanha](../campaigns/get-started-with-campaigns.md) acionada por API usa políticas de decisão em seu conteúdo, a página de resumo da campanha exibe uma seção **[!UICONTROL Políticas de decisão]** listando todas as políticas usadas na campanha.
+
+Você também pode acessar os detalhes técnicos de cada política de decisão e copiá-los para a área de transferência, o que pode ser útil para solucionar problemas com o Suporte da Adobe ou com sua equipe de engenharia.
+
+Para acessar os detalhes da política de decisão e as informações técnicas, siga as etapas abaixo.
+
+1. Abra o resumo da campanha clicando em **[!UICONTROL Revisar para ativar]** durante [configuração](../campaigns/review-activate-campaign.md#action-campaign-review) ou abrindo uma campanha da lista **[!UICONTROL Campanhas]**.
+
+1. Na seção **[!UICONTROL Políticas de decisão]**, todas as políticas usadas na campanha são listadas.
+
+   ![](assets/campaign-summary-decision-policies.png)
+
+1. Selecione uma política de decisão ou clique em **[!UICONTROL Exibir tudo]**. É possível revisar os detalhes de cada política, incluindo:
+
+   * As estratégias usadas na política de decisão
+   * O número de itens a serem retornados
+   * A coleção, o método de classificação e as regras de qualificação usados para cada estratégia de seleção
+   * A oferta substituta usada se nenhum item de decisão for qualificado
+
+   ![](assets/campaign-decision-policy-details.png)
+
+1. Clique em uma coleção para exibir todos os itens de decisão que ela contém.
+
+1. Clique em um item de decisão para acessar seus detalhes e editá-los se necessário. Ele será aberto em uma nova guia do navegador. Como alternativa, clique em **[!UICONTROL Exibir item]** para exibir itens de decisão que não estão em uma coleção.
+
+   ![](assets/campaign-decision-policy-collection.png)
+
+1. Você também pode exibir informações sobre os métodos de classificação e as regras de qualificação usadas para cada estratégia de seleção.
+
+   ![](assets/campaign-decision-policy-eligibility.png){width="80%"}
+
+1. De volta ao resumo da campanha, você também pode selecionar uma política de decisão na seção **[!UICONTROL Ações]** e clicar no ícone **Informações** para acessar os detalhes técnicos da política de decisão.
+
+   ![](assets/campaign-decision-policy-information.png)
+
+1. Clique no ícone **Copiar para a área de transferência** para copiar uma representação JSON da política de decisão para a área de transferência.
+
+   O JSON copiado inclui o nome e a ID da organização, o nome da sandbox, a ID da política de decisão e a estrutura completa da política de decisão. Você pode compartilhar essas informações com o Suporte da Adobe ou com sua equipe de engenharia para solucionar problemas de políticas de decisão com mais rapidez.
 
 ## Usar painéis de relatórios
 
