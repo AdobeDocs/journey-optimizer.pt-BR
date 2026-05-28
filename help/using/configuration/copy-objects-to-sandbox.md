@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 2371
+source-wordcount: 2418
 ht-degree: 2%
 
 ---
@@ -120,6 +120,10 @@ Ao copiar campanhas **Action** ou **acionadas por API**, verifique se o objeto l
 Você pode copiar campanhas orquestradas entre sandboxes usando exportação e importação de pacotes. As campanhas orquestradas seguem o mesmo padrão geral de outros objetos, mas o que está incluído no pacote e o que você deve preparar na sandbox de destino é diferente das campanhas acionadas por Ação ou API.
 
 Para exportar uma campanha orquestrada, [adicione-a a um pacote de sandbox](#add-objects-as-a-package-export) na sandbox de origem (independentemente do status), [publique o pacote](#publish) e [importe o pacote](#import) para a sandbox de destino.
+
+>[!IMPORTANT]
+>
+>Logo após a importação, [duplique a campanha orquestrada](../campaigns/manage-campaigns.md#duplicate-a-campaign) na sandbox de destino e use essa duplicata para configuração, teste e execução. Se você executar ou publicar a cópia importada, os relatórios da campanha talvez não mostrem dados de feedback e rastreamento. Essa limitação será removida em uma versão futura.
 
 Antes de importar para a produção, lembre-se dos seguintes comportamentos e limitações:
 

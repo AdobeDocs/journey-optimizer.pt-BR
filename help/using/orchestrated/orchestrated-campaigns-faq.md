@@ -23,9 +23,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 2746
+source-wordcount: 2765
 ht-degree: 11%
 
 ---
@@ -370,6 +370,7 @@ Os objetos criados em campanhas orquestradas (por exemplo, públicos e fluxos de
 **Práticas recomendadas**
 
 * Mantenha **sandboxes separadas** para experimentação, controle de qualidade e produção.
+* Logo após a importação, [duplique a campanha](../campaigns/manage-campaigns.md#duplicate-a-campaign) e trabalhe a partir dela para que os relatórios mostrem os dados de feedback e rastreamento corretamente.
 * Após cada importação, valide a campanha de ponta a ponta na sandbox de destino antes de publicar.
 * Documente as configurações e alinhe-se com as equipes de governança para reduzir a variação de configuração entre os ambientes.
 

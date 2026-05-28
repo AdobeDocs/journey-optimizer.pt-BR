@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 7927
+source-wordcount: 7969
 ht-degree: 90%
 
 ---
@@ -30,6 +30,8 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * A página **Notas de versão** foi reestruturada com um layout de tópico. As alterações agora são agrupadas por área de produto, e não por tipo de alteração, com uma nova seção dedicada **Melhorias de usabilidade**. Em breve, as entradas aparecerão como acordeões expansíveis em cada tópico. [Leia mais](release-notes.md)
 
 * A página **Limitações e medidas de proteção das campanhas orquestradas** agora documenta o limite de **atividades do canal** por campanha orquestrada. [Leia mais](../orchestrated/guardrails.md#activities-limitations)
+
+* A documentação **Copiar objetos Journey Optimizer entre sandboxes** agora inclui uma observação importante para **campanhas orquestradas**: após a importação, duplique a campanha na sandbox de destino e use a duplicata para execução, a fim de garantir que os relatórios capturem corretamente os dados de feedback e de rastreamento. [Leia mais](../configuration/copy-objects-to-sandbox.md#copy-to-sandbox)
 
 * A página **Terminologia de Chave** foi reformulada: seis novos termos adicionados, uma nova seção **Termos de conflito e priorização** foi introduzida e um novo guia de desambiguação **Quando os termos parecem semelhantes** adicionado para quatro pares de termos comumente confusos. Os termos específicos do Adobe Experience Platform foram removidos e substituídos por uma nota vinculada ao glossário do Adobe Experience Platform. [Leia mais](../start/terminology.md)
 
