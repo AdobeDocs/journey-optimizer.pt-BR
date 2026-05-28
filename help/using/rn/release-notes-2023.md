@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
 workflow-type: tm+mt
-source-wordcount: 4441
-ht-degree: 99%
+source-wordcount: 4372
+ht-degree: 98%
 
 ---
 
@@ -125,8 +125,8 @@ Essa versão traz os novos recursos listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Os atributos computados permitem resumir facilmente os dados do evento em atributos de perfil por meio de uma interface intuitiva para segmentação, personalização e ativação aprimoradas com base em comportamento. Com esse recurso, você pode criar atributos computados de maneira independente, gerenciá-los e usá-los na segmentação, nos destinos do Perfil do cliente em tempo real ou no Journey Optimizer.<br/><br/>
-Além disso, os atributos computados simplificam os fluxos de trabalho de jornada e segmentação, ajudando a fornecer experiências relevantes perfeitamente. Saiba mais na <a href="../audience/computed-attributes.md">documentação detalhada</a>.</p>
+<p>Os atributos computados permitem resumir facilmente os dados do evento em atributos de perfil por meio de uma interface de usuário intuitiva para segmentação, personalização e ativação avançadas com base em comportamento. Com esse recurso, você pode criar atributos computados de maneira automatizada, gerenciá-los e usá-los na segmentação, em destinos de Perfil do cliente em tempo real ou no Journey Optimizer.<br/><br/>
+Além disso, os atributos computados simplificam a segmentação e os fluxos de trabalho de jornada para ajudá-lo a fornecer experiências relevantes de maneira contínua. Saiba mais na <a href="../audience/computed-attributes.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -324,7 +324,7 @@ A new option is available in the email surface settings to include email address
 **Jornadas**
 
 * Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. No momento, esse recurso está disponível na versão beta. [Saiba mais](../action/action-response.md).
-* Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando houver uma falha em uma ação personalizada. [Saiba mais](../reports/alerts.md).
+* Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando uma ação personalizada falhar. [Saiba mais](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
@@ -775,7 +775,7 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>Com o rastreamento de cliques de SMS, você pode monitorar o desempenho de seus URLs encurtados, identificar quem clicou neles e usar esses dados para redirecionar esses clientes com campanhas subsequentes.</p>
+<p>Com o rastreamento de cliques de SMS, você pode monitorar o desempenho de seus URLs encurtados, identificar quem os clicou e usar esses dados para redirecionar esses clientes com campanhas subsequentes.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
 <p>Para obter mais informações, consulte a <a href="../mobile/create-mobile-message.md#sms-content">documentação detalhada</a>.</p>
 </td>
@@ -1001,7 +1001,7 @@ Note that each widget can be resized and deleted as needed.
 <p>Agora você pode criar modelos de conteúdo independentes que possam ser aproveitados em jornadas e campanhas para reutilização rápida.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>Saiba como criar, editar e usar modelos de conteúdo <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=pt-BR">neste vídeo</a>. Para obter mais informações, consulte a <a href="../content-management/content-templates.md">documentação detalhada</a>.
+<p>Saiba como criar, editar e usar modelos de conteúdo no <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=pt-BR">este vídeo</a>. Para obter mais informações, consulte a <a href="../content-management/content-templates.md">documentação detalhada</a>.
 </p>
 </td>
 </tr>

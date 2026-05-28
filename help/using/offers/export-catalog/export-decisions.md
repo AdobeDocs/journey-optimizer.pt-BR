@@ -26,10 +26,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 1574
-ht-degree: 1%
+source-wordcount: 668
+ht-degree: 4%
 
 ---
 
@@ -137,8 +137,8 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 +++_experience > decisioning > criteria > posicionamentos
 
 **Campo:** posicionamentos
-**Título:** Restrições de Posicionamento
-**Descrição:** A restrição de posicionamento declara que este critério só é aplicável para os posicionamentos listados. A seleção de opção é considerada somente quando o posicionamento de destino está na lista `xdm:placements`. Caso contrário, todo o critério de decisão será ignorado. Quando a lista &#39;xdm:placements&#39; é omitida ou está vazia, o critério é considerado para qualquer posicionamento direcionado. As disposições listadas aqui impõem critérios implícitos para a seleção de opções. Uma opção a ser considerada deve ter uma representação para a inserção direcionada.
+**Título:** Restrições de posicionamento
+**Descrição:** A restrição de posicionamento declara que este critério só é aplicável para os posicionamentos listados. A seleção de opção é considerada somente quando o posicionamento direcionado está na lista `xdm:placements`. Caso contrário, todo o critério de decisão será ignorado. Quando a lista &quot;xdm:placements&quot; é omitida ou está vazia, o critério é considerado para qualquer posicionamento direcionado. As disposições listadas aqui impõem critérios implícitos para a seleção de opções. Uma opção a ser considerada deve ter uma representação para a inserção direcionada.
 **Tipo:** matriz
 
 * Identificador de posicionamento
@@ -327,7 +327,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 +++ _repo > ETag Atividade
 
 **Campo:** etag
-**Título:** ETag de atividade
+**Título:** Activity ETag
 **Descrição:** A revisão na qual o objeto de decisão (anteriormente conhecido como atividade) estava quando o instantâneo foi tirado.
 **Tipo:** cadeia de caracteres
 

@@ -26,10 +26,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2006
-ht-degree: 1%
+source-wordcount: 873
+ht-degree: 3%
 
 ---
 
@@ -80,7 +80,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 
 **Campo:** calendarConstraints
 **Título:** Detalhes de Restrição de Calendário
-**Descrição:** As restrições de calendário decidem se uma opção de decisão é válida, considerando um intervalo de datas. Fora desse intervalo de datas, a opção não pode ser proposta.
+**Descrição:** as restrições de calendário decidem se uma opção de decisão é válida considerando um intervalo de datas. Fora desse intervalo de datas, a opção não pode ser proposta.
 **Tipo:** objeto
 
 * **Data e hora de término**
@@ -103,7 +103,7 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 
 **Campo:** características
 **Título:** Características da Opção de Decisão
-**Descrição:** As características são atributos adicionais das ofertas ou propriedades pertencentes a uma opção de decisão específica. Esses atributos são pares de valores principais, o que significa que incluem um nome de atributo (às vezes chamado de chave) que tem um valor associado a ele e são usados para distinguir uma opção de decisão das outras ofertas. Por exemplo, para um nome de atributo &quot;cor&quot;, o valor pode ser &quot;verde&quot; para uma oferta específica.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
+**Descrição:** as características são atributos adicionais das ofertas ou propriedades pertencentes a uma opção de decisão específica. Esses atributos são pares de valores principais, o que significa que incluem um nome de atributo (às vezes chamado de chave) que tem um valor associado a ele e são usados para distinguir uma opção de decisão das outras ofertas. Por exemplo, para um nome de atributo &quot;color&quot;, o valor pode ser &quot;green&quot; para uma oferta específica.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
 **Tipo:** objeto
 
 +++
@@ -218,8 +218,8 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 +++ _experience > decisão > Status do ciclo de vida
 
 **Campo:** lifecycleStatus
-**Título:** Status do ciclo de vida
-**Descrição:** O status do ciclo de vida permite que os fluxos de trabalho sejam conduzidos com um objeto. O status pode afetar o local em que um objeto é visível ou considerado relevante. As alterações de status são orientadas pelos clientes ou serviços que usam os objetos.
+**Título:** Status do Ciclo de Vida
+**Descrição:** o status do ciclo de vida permite que os fluxos de trabalho sejam conduzidos com um objeto. O status pode afetar o local em que um objeto é visível ou considerado relevante. As alterações de status são orientadas pelos clientes ou serviços que usam os objetos.
 **Tipo:** cadeia de caracteres
 **Valores possíveis:** &quot;Rascunho&quot; (padrão), &quot;Aprovado&quot;, &quot;Ao Vivo&quot;, &quot;Concluído&quot;, &quot;Arquivado&quot;
 

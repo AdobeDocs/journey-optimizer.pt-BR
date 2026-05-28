@@ -15,10 +15,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 191
-ht-degree: 63%
+source-wordcount: 151
+ht-degree: 54%
 
 ---
 
@@ -35,14 +35,14 @@ A campanha orquestrada oferece insights práticos por meio de seus recursos efic
     <tr>
       <td><a href="../reports/live-report.md"><img alt="Relatório em tempo real" src="assets/last-24hours.png"></a></td>
       <td>
-        Use o <b>Relatório ao vivo</b> para medir e visualizar em tempo real o impacto e o desempenho de suas campanhas orquestradas em um painel integrado. Os dados estão disponíveis no <b>Relatório ao vivo</b> assim que a campanha Orquestrada é executada a partir do menu <b>Exibir relatório nas últimas 24 horas</b>. Saiba mais sobre os relatórios em tempo real <a href="../reports/live-report.md">nesta seção</a>.
+        Use o <b>Relatório ao vivo</b> para medir e visualizar em tempo real o impacto e o desempenho de suas campanhas orquestradas em um painel integrado. Os dados estão disponíveis no <b>Relatório ao vivo</b> assim que a campanha Orquestrada é executada pelo menu <b>Exibir relatório nas últimas 24 horas</b>. Saiba mais sobre os relatórios ao vivo <a href="../reports/live-report.md">nesta seção</a>.
       </td>
         </br>
     </tr>
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="Relatório de todo o histórico" src="assets/all-time-report.png"></a></td>
       <td>
-        Os <b>Relatórios de todo o histórico</b> são totalmente integrados aos recursos do Customer Journey Analytics, padronizando a geração de relatórios em ambas as plataformas e aumentando a consistência e a confiabilidade dos dados. Saiba mais sobre os relatórios de todo o histórico <a href="../reports/report-gs-cja.md">nesta seção</a>.
+        <b>O relatório All time</b> é totalmente integrado aos recursos do Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e confiabilidade dos dados. Saiba mais sobre todos os relatórios de tempo <a href="../reports/report-gs-cja.md">nesta seção</a>.
       </td>
     </tr>
   </tbody>

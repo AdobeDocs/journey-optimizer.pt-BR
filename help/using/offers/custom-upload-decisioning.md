@@ -24,7 +24,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 641
 ht-degree: 5%
@@ -47,7 +47,7 @@ Os dados de públicos-alvo de upload personalizados podem ser aproveitados na Ge
 Para obter mais informações sobre públicos-alvo de upload personalizado, consulte as seções:
 
 * [Introdução a públicos e Journey Optimizer](../audience/about-audiences.md)
-* [Importação de um público-alvo no Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importação de um público-alvo no Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Leitura obrigatória {#must-read}
 

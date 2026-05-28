@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 421
-ht-degree: 100%
+source-wordcount: 404
+ht-degree: 94%
 
 ---
 
@@ -62,8 +62,8 @@ Diferentemente das notificações por push tradicionais, as atividades em tempo 
 
 Com o Adobe Journey Optimizer, você pode **iniciar**, **atualizar** e **encerrar** atividades em tempo real de forma remota e programática por meio de campanhas acionadas por API, oferecendo suporte a casos de uso individuais e baseados em público-alvo em grande escala.
 
-As atividades em tempo real podem ser iniciadas **apenas** por meio de campanhas **acionadas por API**, permitindo que você forneça conteúdos personalizados e realize toda a personalização por meio de seu próprio conteúdo.
-O tipo de campanha **acionada por API** apropriado deve ser selecionado com base no caso de uso pretendido para a atividade em tempo real:
+As atividades online podem **apenas** ser iniciadas por meio de campanhas **acionadas por API**, permitindo que você forneça cargas personalizadas e execute toda a personalização por meio de sua própria carga.
+O tipo de campanha **acionada por API** apropriado deve ser selecionado com base no caso de uso de atividade online pretendido:
 
 * Selecione **Marketing acionado por API** para casos de uso de transmissão: atualizações baseadas em público-alvo enviadas em grande escala:
 

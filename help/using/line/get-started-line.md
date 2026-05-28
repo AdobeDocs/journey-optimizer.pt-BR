@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 164
 ht-degree: 100%
@@ -44,7 +44,7 @@ Antes de criar a mensagem LINE, configure o canal LINE com o Journey Optimizer. 
 <a href="create-line.md">
 <img alt="Lead" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-line.md"><strong>Criar uma mensagem LINE</strong>
+<div><a href="create-line.md"><strong>Criar a mensagem LINE</strong>
 </div>
 </td>
 <td>
@@ -59,7 +59,7 @@ Antes de criar a mensagem LINE, configure o canal LINE com o Journey Optimizer. 
 <a href="line-configuration.md">
 <img alt="Pouco frequente" src="../assets/do-not-localize/inapp-config.jpg">
 <div>
-<a href="line-configuration.md"><strong>Configure um canal LINE</strong>
+<a href="line-configuration.md"><strong>Configurar canal LINE</strong>
 </a>
 </div>
 </td>

@@ -17,7 +17,7 @@ role_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 219
 ht-degree: 10%
@@ -28,7 +28,7 @@ ht-degree: 10%
 
 Uma estratégia de seleção consiste em uma coleção associada a uma restrição de qualificação e um método de classificação para determinar as ofertas a serem exibidas quando selecionadas em uma [política de decisão](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision).
 
-É possível visualizar uma lista de todas as estratégias de seleção executando uma única solicitação GET para a API da Biblioteca de ofertas.
+Você pode exibir uma lista de todas as estratégias de seleção executando uma única solicitação do GET para a API da Biblioteca de ofertas.
 
 **Formato da API**
 
