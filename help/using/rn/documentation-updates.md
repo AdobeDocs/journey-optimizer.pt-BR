@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 3b761a8741061aac35ed39c6bb41bd00ab9cbcaf
 workflow-type: tm+mt
-source-wordcount: 8005
+source-wordcount: 8040
 ht-degree: 89%
 
 ---
@@ -28,6 +28,8 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 ## Maio de 2026 {#may-2026}
 
 * A documentação **Usar políticas de decisão em mensagens** agora descreve como visualizar a estrutura completa de uma política de decisão do resumo da campanha e copiar um resumo técnico JSON para a área de transferência para solução de problemas. [Leia mais](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
+
+* A página herdada **Gerenciamento de decisão** [Modelos de otimização automática](../offers/ranking/auto-optimization-model.md) foi reescrita para se alinhar à documentação atualizada do Decisioning, incluindo visão geral de aprendizado de reforço, requisitos e limitações, balanceamento de otimização com aprendizado e detalhes de amostragem de Thompson. [Leia mais](../offers/ranking/auto-optimization-model.md)
 
 * A página **Notas de versão** foi reestruturada com um layout de tópico. As alterações agora são agrupadas por área de produto, e não por tipo de alteração, com uma nova seção dedicada **Melhorias de usabilidade**. Em breve, as entradas aparecerão como acordeões expansíveis em cada tópico. [Leia mais](release-notes.md)
 
