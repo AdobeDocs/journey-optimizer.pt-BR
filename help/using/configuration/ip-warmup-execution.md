@@ -15,7 +15,6 @@ product_v2:
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
   - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2:
   - id: c343082f-e963-4f57-a96b-b64d27f8118e
@@ -25,10 +24,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2770
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -42,13 +41,13 @@ Cada fase é composta por várias execuções, às quais você atribui uma únic
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
->title="Excluir públicos da campanha"
->abstract="Selecione campanhas para excluir os públicos da fase atual. Isso evita que perfis contatados anteriormente sejam novamente direcionados; somente aqueles que receberam comunicação por meio da jornada serão excluídos."
+>title="Excluir públicos-alvo da campanha"
+>abstract="Selecione campanhas para excluir públicos-alvo delas da fase atual. Isso evita que perfis contatados anteriormente sejam direcionados novamente. Somente aqueles que receberam comunicação através da jornada serão excluídos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="Excluir grupos de domínio"
->abstract="Selecione os domínios que deseja excluir da fase atual. A exclusão de domínio requer uma fase não executada, portanto, talvez seja necessário dividir uma fase em execução para adicionar exclusões."
+>abstract="Selecione os domínios que deseja excluir da fase atual. A exclusão de domínios requer uma fase não executada, portanto, talvez seja necessário dividir uma fase em execução para adicionar exclusões."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=pt-BR#split-phase" text="Dividir uma fase"
 
 >[!CONTEXTUALHELP]
@@ -136,27 +135,27 @@ Para definir as fases do plano de aquecimento de IP, é necessário selecionar u
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_run"
 >title="Definir cada execução"
->abstract="Definir e ativar cada execução para todas as fases."
+>abstract="Defina e ative cada execução para todas as fases."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_last_engagement"
->title="Filtrar no envolvimento"
->abstract="Essa coluna é um filtro que direciona somente os usuários envolvidos com sua marca nos últimos 20 dias, por exemplo. Você também pode alterar essa configuração por meio da opção **Editar execução**."
+>title="Filtrar no engajamento"
+>abstract="Essa coluna é um filtro que direciona somente os usuários engajados com sua marca nos últimos 20 dias, por exemplo. Também é possível alterar essa configuração por meio da opção **Editar execução**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"
 >title="Definir uma janela de tempo"
->abstract="Você pode definir uma janela de tempo durante a qual a campanha de aquecimento de IP poderá ser executada, caso haja atrasos no trabalho de segmentação."
+>abstract="Você pode definir uma janela de tempo durante a qual a campanha de aquecimento de IP poderá ser executada, caso haja atrasos no processo de segmentação."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
->title="Cancelar execuções com erros de público"
->abstract="Selecione essa opção para cancelar uma execução se os perfis qualificados forem menores que os perfis direcionados depois que o público-alvo tiver sido avaliado para essa execução."
+>title="Cancelar execuções com erros de público-alvo"
+>abstract="Selecione essa opção para cancelar uma execução se os perfis qualificados forem menores que os perfis direcionados após o público-alvo ter sido avaliado para a execução."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
 >title="Exibir os perfis qualificados"
->abstract="Essa coluna exibe o número de perfis qualificados. Depois que o público-alvo tiver sido avaliado para uma execução, se houver mais perfis direcionados do que perfis qualificados, a execução ainda será executada, a menos que a opção **Cancelar execuções ativadas em caso de erros** esteja habilitada. Nesse caso, a execução é cancelada."
+>abstract="Essa coluna exibe o número de perfis qualificados. Caso haja mais perfis direcionados do que perfis qualificados após o público-alvo ser avaliado para uma execução, ela ainda é executada, a menos que a opção **Cancelar execuções ativadas em caso de erros** esteja habilitada. Nesse caso, a execução é cancelada."
 
 Depois de definir as fases do plano de aquecimento de IP, é necessário configurar as execuções individuais em cada fase. Cada execução requer um agendamento e, opcionalmente, você pode configurar filtros de engajamento, manipulação de erros e janelas de repetição para garantir a execução ideal. Siga estas etapas:
 
@@ -226,7 +225,7 @@ Quando você ativa uma execução, vários públicos são criados automaticament
 
 * Se ativar a primeira execução de uma fase:
 
-   * Um [público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-BR){target="_blank"} é criado para os públicos da campanha excluídos (se houver), com a seguinte convenção de nomenclatura: `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
+   * Um [público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-br){target="_blank"} é criado para os públicos da campanha excluídos (se houver), com a seguinte convenção de nomenclatura: `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
 
    * Uma audiência é criada para os grupos de domínio excluídos (se houver), com a seguinte convenção de nomenclatura: `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 

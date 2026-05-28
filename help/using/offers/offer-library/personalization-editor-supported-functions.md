@@ -10,10 +10,17 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: c4df41a2-d740-437c-acc3-957508c4a1c0
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 15%
+source-wordcount: 635
+ht-degree: 17%
 
 ---
 
@@ -77,7 +84,7 @@ O back-end do Offer Decisioning oferece suporte apenas a **subconjunto** das fun
 | Length | comprimento |
 | MD5 | md5 |
 | SHA256 | sha256 |
-| É como | semelhante |
+| É como | curtir |
 | Começa com | startsWith |
 | Não inicia com | doesNotStartWith |
 | Termina com | endsWith |
@@ -86,7 +93,7 @@ O back-end do Offer Decisioning oferece suporte apenas a **subconjunto** das fun
 | Não contém | doesNotContain |
 | Igual | igual a |
 | Não é igual a | notEqualTo |
-| Corresponde | matches |
+| Corresponde | corresponde a |
 | Grupo de expressão regular | regexGroup |
 | Sequência de caracteres para número | stringToNumber |
 | Sequência de caracteres para data | stringToDate |
@@ -156,7 +163,7 @@ O back-end do Offer Decisioning oferece suporte apenas a **subconjunto** das fun
 | Arredondar para cima | roundUp |
 | Arredondar para baixo | roundDown |
 | Para precisão | toPrecision |
-| Absoluto    | absoluto |
+| Absoluto | absoluto |
 | Aleatória | random |
 | Para hexadecimal | toHexString |
 | Obter número para localidade | formatNumber |

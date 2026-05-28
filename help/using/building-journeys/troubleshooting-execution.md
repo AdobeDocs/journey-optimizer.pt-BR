@@ -14,14 +14,10 @@ TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2:
   - id: d08afb72-92f6-4856-88e3-11ec34313c2f
   - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -30,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2232
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -47,7 +43,7 @@ Se você estiver usando ações de entrada, saiba como solucionar problemas dele
 
 ## Verifique se os eventos foram enviados corretamente {#checking-that-events-are-properly-sent}
 
-O ponto de partida de uma jornada é sempre um evento. É possível executar testes usando ferramentas como o Postman.
+O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes usando ferramentas como o Postman.
 
 Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
 
@@ -65,11 +61,11 @@ Se você enviar o evento com êxito, mas não vir nenhuma entrada na jornada, si
 
 Você pode começar a solucionar problemas com as perguntas abaixo:
 
-* Tem certeza de que a jornada em que você espera o evento de entrada está no modo de teste ou ativa?
+* Você tem certeza de que a jornada em que você espera o evento de entrada está no modo de teste ou ativa?
 * Você salvou o evento antes de copiar o payload da pré-visualização de payload?
 * O payload do evento contém uma ID do evento?
 * Você digitou o URL correto?
-* Você seguiu a estrutura de payload das APIs de assimilação de streaming usando a pré-visualização da estrutura de payload no painel de configuração do evento? Consulte [esta página](../event/about-creating.md#preview-the-payload).
+* Você seguiu a estrutura de payload das APIs de ingestão de transmissão usando a pré-visualização da estrutura de payload no painel de configuração do evento? Consulte [esta página](../event/about-creating.md#preview-the-payload).
 * Você usou os pares de valor chave corretos no cabeçalho do evento?
 
   ```
@@ -132,7 +128,7 @@ O relatório de jornada mede o progresso das pessoas físicas dentro de uma jorn
 Veja algumas coisas que devem ser verificadas:
 
 * A interrupção se deve a uma condição que exclui a pessoa? Por exemplo, a condição é &quot;gênero = homem&quot; e a pessoa é uma mulher. Essa verificação pode ser feita por um usuário empresarial se a condição não for muito complexa.
-* A interrupção se deve a uma chamada a uma fonte de dados que não está respondendo? Quando a jornada estiver em teste, essas informações poderão ser vistas nos registros do modo de teste. Quando a jornada é em tempo real, um administrador pode testar chamadas diretas para a fonte de dados e verificar a resposta recebida. Um administrador também pode duplicar a jornada e testá-la.
+* A interrupção se deve a uma chamada a uma fonte de dados que não está respondendo? Quando a jornada está em teste, essas informações podem ser vistas nos registros do modo de teste. Quando a jornada é em tempo real, um administrador pode testar chamadas diretas para a fonte de dados e verificar a resposta recebida. Um administrador também pode duplicar a jornada e testá-la.
 
 ## Eventos descartados devido a uma instância de jornada bloqueada {#max-instance-stack-events-reached}
 

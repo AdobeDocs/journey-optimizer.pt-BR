@@ -15,10 +15,7 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2:
   - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
   - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
@@ -30,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 993
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -116,10 +113,10 @@ Siga esta árvore decisória para selecionar o tipo de jornada correto para seu 
 |-----------|------------------------|-----|
 | Enviar confirmação do pedido após a compra | Unitário | Resposta imediata a uma ação individual |
 | Enviar informativo mensal aos assinantes | Ler público-alvo | Comunicação agendada em lote |
-| Notificar os clientes quando eles atingirem o status do VIP | Qualificação do público-alvo | Resposta em tempo real à alteração de status |
+| Notificar os clientes quando eles atingirem o status do VIP | Qualificação de público-alvo | Resposta em tempo real à alteração de status |
 | Alertar os clientes sobre baixo estoque de itens observados | Evento comercial | A condição dos negócios afeta vários clientes |
 | Bem-vindos, novos usuários do aplicativo | Unitário | Acionado pelo evento de inscrição |
-| Reengajamento de clientes inativos | Qualificação do público-alvo | Responde à entrada de segmento de inatividade |
+| Reengajamento de clientes inativos | Qualificação de público-alvo | Responde à entrada de segmento de inatividade |
 | Promoção sazonal para o segmento do target | Ler público-alvo | Campanha programada para o público-alvo |
 | Anúncio de venda do Flash | Evento comercial | As decisões de negócios afetam vários clientes |
 
@@ -147,7 +144,7 @@ Use esta tabela para comparar rapidamente os tipos de jornada e escolher o corre
 
 Nem todos os recursos estão disponíveis para todos os tipos de jornada. Use esta matriz para entender quais recursos funcionam com quais tipos de jornada:
 
-| Recurso/capacidade | Unitário | Ler público-alvo | Qualificação do público-alvo | Evento comercial |
+| Recurso/capacidade | Unitário | Ler público-alvo | Qualificação de público-alvo | Evento comercial |
 |---------------------|:-------:|:-------------:|:----------------------:|:--------------:|
 | **Mecanismos de entrada** | | | | |
 | Entrada acionada por evento | ✅ | ❌ | ❌ | ✅ |
@@ -159,7 +156,7 @@ Nem todos os recursos estão disponíveis para todos os tipos de jornada. Use es
 | Ações personalizadas | ✅ | ✅ | ✅ | ✅ |
 | Ler atividade de público (dentro do jornada) | ✅ | ✅ | ✅ | ✅ |
 | Atividade de qualificação de público | ✅ | ✅ | ✅ | ✅ |
-| Atividade de jump | ✅ | ✅ | ✅ | ✅ |
+| Atividade Salto | ✅ | ✅ | ✅ | ✅ |
 | **Gerenciamento de perfis** | | | | |
 | Reentrada do perfil | ✅ Configurável | ❌ Uma vez por execução | ✅ Configurável | ✅ Por evento |
 | Configuração de namespace | ✅ Obrigatório | ✅ Opcional | ✅ Obrigatório | ✅ Obrigatório |
@@ -170,7 +167,7 @@ Nem todos os recursos estão disponíveis para todos os tipos de jornada. Use es
 | Experimentos de caminho (teste A/B) | ✅ | ✅ | ✅ | ❌ |
 | Otimização de hora de envio | ✅ | ✅ | ✅ | ✅ |
 | **Canais** | | | | |
-| E-mail | ✅ | ✅ | ✅ | ✅ |
+| Email | ✅ | ✅ | ✅ | ✅ |
 | Notificações por push | ✅ | ✅ | ✅ | ✅ |
 | SMS/MMS | ✅ | ✅ | ✅ | ✅ |
 | Mensagens no aplicativo | ✅ | ✅ | ✅ | ✅ |

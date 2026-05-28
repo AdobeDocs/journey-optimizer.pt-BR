@@ -14,14 +14,13 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2:
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
   - id: fae48155-b23f-40d2-a252-a25bce350b4d
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -32,10 +31,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1220
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
@@ -57,23 +56,23 @@ Para inserir um link de cancelamento de subscrição no seu conteúdo de email, 
 
 Quando um recipient clica no link para opção de não participação, a solicitação de cancelamento de inscrição é processada adequadamente.
 
-Para verificar se a escolha do perfil correspondente foi atualizada, vá para Experience Platform e [navegue até esse perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Na [guia Atributos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, é possível ver que o valor de **[!UICONTROL escolha]** foi alterado para **[!UICONTROL não]**. Saiba mais sobre o processamento de consentimento na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=pt-BR){target="_blank"}.
+Para verificar se a escolha do perfil correspondente foi atualizada, vá para Experience Platform e [navegue até esse perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Na [guia Atributos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, é possível ver que o valor de **[!UICONTROL escolha]** foi alterado para **[!UICONTROL não]**. Saiba mais sobre o processamento de consentimento na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=pt-BR){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
 >[!NOTE]
 >
->Ocasionalmente, os eventos de cancelamento de inscrição podem levar mais tempo para refletir no nível do perfil devido ao processamento de dados downstream. Aguarde algum tempo para que o sistema seja atualizado.
+>Ocasionalmente, eventos de cancelamento de assinatura podem demorar mais para serem aplicados no nível do perfil devido ao processamento de dados posteriores. Aguarde um tempo para que o sistema seja atualizado.
 
 ## Recusa em uma etapa {#opt-out-one-step}
 
 Com o [!DNL Adobe Journey Optimizer], você pode definir suas [configurações de email](email-settings.md#list-unsubscribe) com uma URL de cancelamento de inscrição e um endereço mailto de um clique gerados automaticamente no cabeçalho do email, ou incluir uma URL de recusa de um clique no corpo do email.
 
-### URL de cancelamento de inscrição com um clique no cabeçalho do email {#unsubscribe-header}
+### URL para cancelar a assinatura com um clique no cabeçalho do email {#unsubscribe-header}
 
 O URL para cancelar a inscrição na lista com um clique é um link ou botão para cancelar inscrição exibido ao lado das informações do remetente do email e permite que os destinatários excluam instantaneamente suas listas de endereçamento com um único clique. Saiba como gerenciar a opção **[!UICONTROL Cancelar inscrição da lista]** em [esta seção](list-unsubscribe.md).
 
-### Recusa de um clique no conteúdo do email {#one-click-opt-out}
+### Opção de recusa de um clique no conteúdo do email {#one-click-opt-out}
 
 Para definir um URL personalizado para cancelar a inscrição, insira um link de recusa de um clique no conteúdo da mensagem de email e insira o URL de sua escolha, conforme descrito abaixo:
 
@@ -96,8 +95,8 @@ Para definir um URL personalizado para cancelar a inscrição, insira um link de
 
    ![](assets/message-tracking-opt-out-level.png)
 
-   * **[!UICONTROL Canal]**: a opção de não participação se aplica a mensagens futuras enviadas ao destino do perfil (ou seja, endereço de email) do canal atual. Se vários destinos estiverem associados a um perfil, a opção de não participação se aplica a todos os destinos (ou seja, endereços de email) no perfil desse canal.
-   * **[!UICONTROL Identidade]**: a opção de não participação se aplica a mensagens futuras enviadas ao destino específico (ou seja, endereço de email) que está sendo usado para a mensagem atual.
+   * **[!UICONTROL Canal]**: a opção de não participação se aplica a mensagens futuras enviadas ao público-alvo do perfil (ou seja, endereço de email) do canal atual. Se vários destinos estiverem associados a um perfil, a opção de não participação se aplica a todos os destinos (ou seja, endereços de email) no perfil desse canal.
+   * **[!UICONTROL Identidade]**: a opção de não participação se aplica a mensagens futuras enviadas ao público-alvo específico (ou seja, endereço de email) que está sendo usado para a mensagem atual.
      <!--* **[!UICONTROL Subscription]**: The opt-out applies to future messages associated with a specific subscription list. This option can only be selected if the current message is associated with a subscription list.-->
 
 1. Salve as alterações.
@@ -128,7 +127,7 @@ Endpoint: https://platform.adobe.io/journey/imp/consent/preferences
 
 Parâmetros de consulta:
 
-* **params**: contém a carga criptografada
+* **params**: contém o conteúdo criptografado
 * **pid**: ID de perfil criptografada
 
 Esses dois parâmetros serão incluídos no URL da página de destino de terceiros enviado ao seu recipient:
@@ -162,7 +161,7 @@ O [!DNL Journey Optimizer] usa esses parâmetros para atualizar a escolha do per
 +++
 
 
-### Adicionar um link para cancelar inscrição {#add-unsubscribe-link}
+### Adicionar link para cancelar inscrição {#add-unsubscribe-link}
 
 Primeiro, é necessário adicionar um link para cancelar inscrição em uma mensagem. Para fazer isso, siga as etapas abaixo:
 
@@ -176,7 +175,7 @@ Primeiro, é necessário adicionar um link para cancelar inscrição em uma mens
 
    ![](assets/opt-out-link-type.png)
 
-   No campo **[!UICONTROL Link]**, cole o link para a sua página de aterrissagem de terceiros.
+   No campo **[!UICONTROL Link]**, cole o link para a sua página de destino de terceiros.
 
    ![](assets/opt-out-link-url.png)
 

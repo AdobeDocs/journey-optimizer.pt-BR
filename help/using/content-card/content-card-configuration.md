@@ -12,18 +12,20 @@ product_v2:
 feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2:
   - id: bc543dba-f0db-4234-b5da-877a5c1664e2
+  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 603
-ht-degree: 0%
+ht-degree: 49%
 
 ---
 
@@ -37,42 +39,42 @@ Em outras palavras, uma superfície pode ser vista como um container em qualquer
 
 * Pode ser uma página da Web, um aplicativo para dispositivos móveis, um aplicativo de desktop, um local de conteúdo específico em uma entidade maior (por exemplo, um `div`) ou um padrão de exibição não padrão (por exemplo, um quiosque ou um banner de aplicativo de desktop).
 
-* Ele também pode ser estendido para partes específicas de contêineres de conteúdo para fins de não exibição ou exibição abstrata (por exemplo, blobs JSON fornecidos aos serviços).
+* Ela também pode se estender para partes específicas de containers de conteúdo para fins de não exibição ou exibição abstrata (por exemplo, blobs JSON fornecidos aos serviços).
 
-* Também pode ser uma superfície curinga que corresponde a várias definições de superfície do cliente (por exemplo, um local de imagem principal em cada página do site pode ser traduzido em um URI de superfície como: web://mydomain.com/*#hero_image).
+* Também pode ser uma superfície curinga que corresponde a várias definições de superfície do cliente (por exemplo, um local de image hero em cada página do site pode ser traduzido em um URI de superfície como: web://mydomain.com/*#hero_image).
 
 Basicamente, um URI de superfície é composto por várias seções:
 
-1. **Tipo**: web, mobileapp, atm, quiosque, tvcd, serviço, etc.
-1. **Propriedade**: URL da página ou conjunto de aplicativos
-1. **Contêiner**: local na atividade de página/aplicativo
+1. **Tipo**: web, aplicativo móvel, ATM, quiosque, TVCD, serviço etc.
+1. **Propriedade**: URL da página ou pacote de aplicativos
+1. **Container**: local na atividade da página/aplicativo
 
-As tabelas abaixo listam alguns exemplos de definição de URI de superfície para vários dispositivos.
+A tabela abaixo lista alguns exemplos de definição de URI de superfície para vários dispositivos.
 
-**Web e celular**
+**Web e dispositivos móveis**
 
 | Tipo | URI | Descrição |
 | --------- | ----------- | ------- |
 | Web | `web://domain.com/path/page.html#element` | Representa um elemento individual em uma página específica de um domínio específico, onde um elemento pode ser um rótulo, como nos seguintes exemplos: hero_banner, top_nav, menu, rodapé etc. |
-| aplicativo iOS | `mobileapp://com.vendor.bundle/activity#element` | Representa um elemento específico em uma atividade de aplicativo nativa, como um botão ou outro elemento de exibição. |
-| aplicativo Android | `mobileapp://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo nativo. |
+| Aplicativo para iOS | `mobileapp://com.vendor.bundle/activity#element` | Representa um elemento específico em uma atividade do aplicativo nativo, como um botão ou outro elemento de exibição. |
+| Aplicativo para Android | `mobileapp://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo nativo. |
 
-**Outros tipos de dispositivos**
+**Outros tipos de dispositivo**
 
 | Tipo | URI | Descrição |
 | --------- | ----------- | ------- |
-| Desktop | `desktop://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo, como um botão, menu, banner principal etc. |
-| Aplicativo de TV | `tvcd://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo de dispositivo conectado à TV ou Smart TV - ID do pacote. |
+| Desktop | `desktop://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo, como um botão, menu, banner hero, etc. |
+| Aplicativo de TV | `tvcd://com.vendor.bundle/#element` | Representa um elemento específico de uma Smart TV ou um aplicativo em um dispositivo conectado a uma TV: ID do pacote. |
 | Serviço | `service://servicename/#element` | Representa um processo do lado do servidor ou outra entidade manual. |
 | Quiosque | `kiosk://location/screen#element` | Exemplo de possíveis tipos de superfície adicionais que podem ser adicionados facilmente. |
 | ATM | `atm://location/screen#element` | Exemplo de possíveis tipos de superfície adicionais que podem ser adicionados facilmente. |
 
-**Superfícies curinga**
+**Superfícies curingas**
 
 | Tipo | URI | Descrição |
 | --------- | ----------- | ------- |
-| Web com caractere curinga | `wildcard:web://domain.com/*#element` | Superfície curinga - representa um elemento individual em cada uma das páginas em um domínio específico. |
-| Web com caractere curinga | `wildcard:web://*domain.com/*#element` | Superfície curinga - representa um elemento individual em cada uma das páginas em todos os domínios que terminam com &quot;domain.com&quot;. |
+| Web com curinga | `wildcard:web://domain.com/*#element` | Superfície curinga: representa um elemento individual em cada uma das páginas em um domínio específico. |
+| Web com curinga | `wildcard:web://*domain.com/*#element` | Superfície curinga: representa um elemento individual em cada uma das páginas em todos os domínios que terminam em “domain.com”. |
 
 ## Criar uma configuração de cartão de conteúdo {#create-config}
 
@@ -84,7 +86,7 @@ As tabelas abaixo listam alguns exemplos de definição de URI de superfície pa
 
    >[!NOTE]
    >
-   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
+   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar os caracteres de sublinhado `_`, ponto `.` e hífen `-`.
 
 1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à configuração, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
 

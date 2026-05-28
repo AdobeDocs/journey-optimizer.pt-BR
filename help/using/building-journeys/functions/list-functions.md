@@ -17,10 +17,11 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1158
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -55,7 +56,7 @@ Retorna os valores ou objetos distintos de uma determinada lista. Entradas nulas
 | Parâmetro | Tipo | Descrição |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista a processar. Para listObject, ele deve ser uma referência de campo. |
-| keyAttributeName | string | Este parâmetro é opcional e somente para listObject. Se o parâmetro não for fornecido, um objeto será considerado duplicado se todos os atributos tiverem os mesmos valores. Caso contrário, um objeto será considerado duplicado se o atributo em questão tiver o mesmo valor. |
+| keyAttributeName | sequência de caracteres | Este parâmetro é opcional e somente para listObject. Se o parâmetro não for fornecido, um objeto será considerado duplicado se todos os atributos tiverem os mesmos valores. Caso contrário, um objeto será considerado duplicado se o atributo em questão tiver o mesmo valor. |
 
 +++
 
@@ -188,8 +189,8 @@ Retorna um listObject com objetos que têm o atributo de chave correspondente a 
 | Parâmetro | Tipo | Descrição |
 |-----------|------------------|------------------|
 | listToFilter | listObject | lista de objetos a serem filtrados. Deve ser uma referência de campo. |
-| keyAttributeName | string | nome do atributo nos objetos da lista fornecida, usado como chave para filtragem |
-| keyValueList | lista | matriz de valores principais para filtragem |
+| keyAttributeName | sequência de caracteres | nome do atributo nos objetos da lista fornecida, usado como chave para filtragem |
+| keyValueList | list | matriz de valores principais para filtragem |
 
 +++
 
@@ -263,14 +264,14 @@ Retorna o item da lista no índice fornecido.
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| lista | listString |
-| lista | listBoolean |
-| lista | listInteger |
-| lista | listDecimal |
-| lista | listDuration |
-| lista | listDateTime |
-| lista | listDateTimeOnly |
-| lista | listDateOnly |
+| list | listString |
+| list | listBoolean |
+| list | listInteger |
+| list | listDecimal |
+| list | listDuration |
+| list | listDateTime |
+| list | listDateTimeOnly |
+| list | listDateOnly |
 | índice | inteiro |
 
 +++
@@ -333,7 +334,7 @@ Retorna &quot;20&quot;
 
 +++
 
-## in {#in}
+## no {#in}
 
 Verifica se o primeiro valor de argumento está na lista. A verificação é executada por meio de um valor Igual em cada argumento. Retornará true se o valor do argumento for encontrado; caso contrário, retornará false.
 
@@ -351,7 +352,7 @@ O tipo de `<expression>` deve corresponder aos itens da lista. Os tipos de itens
 |-----------|------------------|
 | String | String |
 | Booleano | Booleano |
-| Integer | Integer |
+| Número inteiro | Número inteiro |
 | Decimal | Decimal |
 | Duração | Duração |
 | DateTime | DateTime |
@@ -417,8 +418,8 @@ Retorna os valores comuns nas duas listas de entrada. Se uma das duas listas for
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| lista 1 | lista |
-| lista 2 | lista |
+| lista 1 | list |
+| lista 2 | list |
 
 +++
 
@@ -634,7 +635,7 @@ Converte uma determinada lista (qualquer tipo, exceto listObject) em uma cadeia 
 | Parâmetro | Tipo | Descrição |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Lista para converter em uma cadeia de caracteres. |
-| separador | string | Separador entre cada elemento da lista na cadeia de caracteres de saída. |
+| separador | sequência de caracteres | Separador entre cada elemento da lista na cadeia de caracteres de saída. |
 | addQuotes | booleano | Esse parâmetro indica se cada elemento na string de saída deve incluir aspas (true) ou não (false). |
 
 +++
@@ -688,7 +689,7 @@ Classifica uma lista de valores ou objetos na ordem natural.
 | Parâmetro | Tipo | Descrição |
 |-----------|------------------|------------------|
 | listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista para classificar. Para listObject, ele deve ser uma referência de campo. |
-| keyAttributeName | string | Este parâmetro é somente para listObject. O nome do atributo nos objetos da lista fornecida é usado como chave para classificação. |
+| keyAttributeName | sequência de caracteres | Este parâmetro é somente para listObject. O nome do atributo nos objetos da lista fornecida é usado como chave para classificação. |
 | sortingOrder | booleano | Crescente (verdadeiro) ou decrescente (falso) |
 
 +++

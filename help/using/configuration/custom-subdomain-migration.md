@@ -10,9 +10,12 @@ level: Intermediate
 keywords: subdomínio, delegação, migração, CNAME, delegação personalizada
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+feature_v2: []
+subfeature_v2:
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: 1258
 ht-degree: 5%
 
 ---
@@ -197,7 +200,7 @@ Se ocorrerem erros ao tentar enviar o subdomínio personalizado, execute as aç�
 
 * Não foi possível validar o recurso _. O DNS ainda existe e precisa ser excluído._ — Exclua todos os registros da solução de hospedagem. [Saiba como](#delete-dns)
 * Não foi possível validar o recurso _. Carregue seu certificado SSL e tente novamente._ — O certificado SSL não foi carregado. Certifique-se de carregá-lo. [Saiba como](#upload-ssl-certificate)
-* _O certificado contém domínios inesperados em seus Nomes Alternativos da Entidade (SAN)._ — Certifique-se de carregar o certificado SSL correto. [Saiba como](#upload-ssl-certificate)
+* _O certificado contém domínios inesperados em sua SAN (Nomes Alternativos da Entidade)._ — Certifique-se de carregar o certificado SSL correto. [Saiba como](#upload-ssl-certificate)
 * _O certificado não tem os seguintes domínios necessários em sua SAN (Nomes Alternativos da Entidade)._ — Certifique-se de carregar o certificado SSL correto. [Saiba como](#upload-ssl-certificate)
 
 **Consulte também**

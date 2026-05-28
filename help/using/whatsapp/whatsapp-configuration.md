@@ -11,14 +11,11 @@ TQID: https://experienceleague.adobe.com/Csk1JNk8W6SGjoga5chRRE7-LUzUKK-X8sZcwsz
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
@@ -29,10 +26,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1230
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -80,27 +77,27 @@ Estas etapas devem ser executadas por um [Administrador do Sistema](../start/pat
 
 Depois de criar e configurar sua credencial de API, agora é necessário criar seu Webhook para mensagens do WhatsApp. [Saiba mais](#whatsapp-webhook)
 
-## Criar Webhook {#WhatsApp-webhook}
+## Criar webhook {#WhatsApp-webhook}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="Categoria de palavra-chave de entrada"
->abstract="<b>Aceitar</b>: envia sua resposta automática definida quando um usuário se inscreve. <br/><b>Opt-Out</b>: envia sua resposta automática definida quando um usuário cancela a assinatura. <br/><b>Ajuda</b>: envia sua resposta automática definida quando um usuário solicita ajuda ou suporte. <br/><b>Padrão</b>: envia sua resposta automática de fallback quando nenhuma palavra-chave é correspondente."
+>abstract="<b>Aceitar</b>: envia a resposta automática definida quando um usuário assina. <br/><b>Recusar</b>: envia a resposta automática definida quando um usuário cancela a assinatura. <br/><b>Ajuda</b>: envia a resposta automática definida quando um usuário solicita ajuda ou suporte. <br/><b>Padrão</b>: envia a resposta automática substituta quando nenhuma palavra-chave é correspondente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
->title="Insira suas palavras-chave"
->abstract="Você pode definir palavras-chave para acionar respostas automáticas específicas com base no texto dos usuários. As palavras-chave não diferenciam maiúsculas de minúsculas; por exemplo, stop e STOP são tratadas da mesma forma."
+>title="Insira as palavras-chave"
+>abstract="É possível definir palavras-chave para acionar respostas automáticas específicas com base no texto dos usuários. As palavras-chave não diferenciam maiúsculas de minúsculas. Por exemplo, parar e PARAR são tratadas da mesma forma."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
->title="URL de retorno"
->abstract="A solicitação de validação e as notificações do webhook para este objeto são enviadas para a URL especificada."
+>title="URL de retorno de chamada"
+>abstract="A solicitação de validação e as notificações do webhook para este objeto são enviadas para o URL especificado."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_verify_token"
 >title="Verificar token"
->abstract="O token que o Meta ecoa para confirmar e verificar o URL de retorno de chamada durante o processo de verificação."
+>abstract="O token que a Meta retorna para confirmar e verificar o URL de retorno de chamada durante o processo de verificação."
 
 >[!NOTE]
 >
@@ -178,7 +175,7 @@ Agora que seu Webhook está configurado, você pode criar sua configuração do 
 
    >[!NOTE]
    >
-   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
+   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar os caracteres de sublinhado `_`, ponto `.` e hífen `-`.
 
 1. Selecione **[!DNL WhatsApp]** como seu canal.
 
@@ -230,7 +227,7 @@ Se você encontrar um erro HTTP 500 ao configurar as credenciais da API do Whats
 
 1. **Contate o suporte**: se o ambiente e os direitos forem confirmados válidos, mas o erro HTTP 500 persistir, contate o representante da Adobe.
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 O vídeo abaixo mostra como configurar o canal do WhatsApp no Adobe Journey Optimizer.
 

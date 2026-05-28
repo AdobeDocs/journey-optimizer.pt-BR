@@ -3,7 +3,7 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Interface do usuário da biblioteca de ofertas
 description: Saiba mais sobre a interface do usuário da Biblioteca de ofertas
-badge: label="Herdados" type="Informative"
+badge: label="Legado" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
@@ -13,14 +13,9 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/FVJLylzuMC26anLVrWdBeU2RFrM6EFquGJN6e2ZAuP8
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
 feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -28,10 +23,13 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 658
-ht-degree: 0%
+ht-degree: 35%
 
 ---
 
@@ -39,7 +37,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->A decisão, o novo recurso de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e canais de email! [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
+>O serviço de Decisão, o novo recurso de tomada de decisão do [!DNL Adobe Journey Optimizer], agora está disponível por meio da experiência baseada em código e dos canais de email. [Saiba mais](../../experience-decisioning/gs-experience-decisioning.md)
 
 A seção **[!UICONTROL Gestão de decisões]** no painel esquerdo fornece dois menus que dão acesso aos recursos de gestão de decisões:
 
@@ -88,7 +86,7 @@ Clique no botão **[!UICONTROL Exibir todos]** para acessar as listas de oferta,
 
 Use a **barra de pesquisa** para localizar um item específico.
 
-**Filtros** também podem ser acessados clicando no ícone de filtro na parte superior esquerda da lista. Eles permitem filtrar os elementos exibidos de acordo com diferentes critérios. Você pode, por exemplo, filtrar as inserções que foram criadas para o canal de comunicação por email e o conteúdo do tipo imagem.
+**Filtros** também podem ser acessados clicando no ícone de filtro no canto superior esquerdo da lista. Eles permitem filtrar os elementos exibidos de acordo com diferentes critérios. Você pode, por exemplo, filtrar as inserções que foram criadas para o canal de comunicação por email e o conteúdo do tipo imagem.
 
 ![](../assets/filters.png)
 
@@ -96,7 +94,7 @@ Use a **barra de pesquisa** para localizar um item específico.
 
 As listas dos menus do Gerenciamento de decisão podem ser personalizadas usando o botão de configuração na parte superior direita das listas.
 
-Isso permite escolher as informações que serão exibidas de acordo com suas necessidades.
+Essa personalização permite escolher as informações que serão exibidas de acordo com suas necessidades.
 
 Observe que a personalização de colunas é salva para cada usuário.
 
@@ -108,10 +106,10 @@ Nas diferentes listas, selecione um elemento para exibir um painel de informaç�
 
 ![](../assets/information-pane.png)
 
-As listas de ofertas e decisões também permitem executar ações em massa em vários elementos. Para fazer isso, selecione as ofertas ou decisões desejadas e selecione a ação que deseja executar no painel de informações.
+As listas de ofertas e decisões agora permitem executar ações em massa em vários elementos. Para fazer isso, selecione as ofertas ou decisões desejadas e selecione a ação que deseja executar no painel de informações.
 
 Observe que você também pode duplicar uma oferta existente ou decisões para criar uma cópia com o status **[!UICONTROL Rascunho]**. Isso pode ser executado no painel de informações ou em uma oferta ou na visualização detalhada de uma decisão.
 
-## Ofertas e decisões alteram logs {#changes-logs}
+## Registros de alteração de ofertas e decisões {#changes-logs}
 
 [!DNL Journey Optimizer] permite visualizar todas as alterações feitas em uma oferta ou em uma decisão. Para fazer isso, acesse o menu **[!UICONTROL Auditorias]** no menu esquerdo. [Saiba como auditar ações em recursos](../../privacy/audit-logs.md)
