@@ -11,28 +11,16 @@ keywords: jornada, campanha, orquestrado, comparação, escolher, decisão, flux
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1816
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -68,7 +56,7 @@ Use esta tabela abrangente para entender as principais diferenças:
 | **Modelo de dados** | Perfil em tempo real + dados do evento | Dados de perfil de públicos da Experience Platform | Dados de carga da API com pesquisa de perfil opcional | Dados relacionais de várias entidades (perfis, produtos, lojas, reservas) |
 | **Segmentação** | Públicos-alvo pré-criados + condições em tempo real | Públicos-alvo pré-criados da Experience Platform | Direcionamento orientado por carga (sem público agendado) | Públicos sob demanda criados na tela com contagens exatas |
 | **Processamento de perfil** | Individual, em tempo real (conforme os eventos ocorrem) | Em lote, tudo de uma vez | Por chamada de API, orientada por carga | Em lote, tudo junto com suporte a várias entidades |
-| **Personalization** | Dados contextuais em tempo real + atributos de perfil | Atributos do perfil | Dados de carga + atributos opcionais do perfil | Dados de várias entidades para direcionamento de precisão |
+| **Personalização** | Dados contextuais em tempo real + atributos de perfil | Atributos do perfil | Dados de carga + atributos opcionais do perfil | Dados de várias entidades para direcionamento de precisão |
 | **Complexidade** | Várias etapas com ramificação, tempos de espera e condições | Única ação ou fluxo de trabalho simples | Única ação com mapeamento de carga | Fluxos de trabalho em lote de várias etapas com segmentação, enriquecimento, divisões |
 | **Recomendado para** | Jornadas de ciclo de vida do cliente, integração, abandono de carrinho | Campanhas promocionais, boletins informativos, anúncios | Confirmações de pedidos, alertas de envio, redefinições de senha | Campanhas sazonais complexas, promoções em várias etapas, lançamentos de produtos |
 | **Horário** | Contínuo, sempre ativo depois de publicado | Datas de início/término programadas | Sob demanda, orientado por eventos por meio da API | Execução em lote agendada |
@@ -227,7 +215,7 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 
 | Canal | Jornadas | Campanhas de ação | Campanhas acionadas por API | Campanhas orquestradas |
 |---------|:--------:|:----------------:|:-----------------------:|:---------------------:|
-| E-mail | ✅ | ✅ | ✅ | ✅ |
+| Email | ✅ | ✅ | ✅ | ✅ |
 | Push | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ |
 | No aplicativo | ✅ | ✅ | ✅ | ❌ |
@@ -252,7 +240,7 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 | Contagens exatas de pré-envio | ❌ | ❌ | ❌ | ✅ |
 | Segmentação sob demanda | ❌ | ❌ | ❌ | ✅ |
 | Otimização de hora de envio | ✅ | ❌ | ❌ | ❌ |
-| Teste A/B | ✅ | ✅ | ❌ | ❌ |
+| Teste AB | ✅ | ✅ | ❌ | ❌ |
 | Fluxos de trabalho de aprovação | ✅ | ✅ | ✅ | ❌ |
 
 ## Perguntas comuns {#common-questions}
@@ -300,7 +288,7 @@ Sim. Os públicos-alvo criados no [!DNL Adobe Experience Platform] podem ser usa
 
 ## Próximas etapas {#next-steps}
 
-Pronto para começar a criar? Explore a documentação detalhada da abordagem escolhida:
+Pronto(a) para começar a criar? Explore a documentação detalhada da abordagem escolhida:
 
 * **[Introdução ao Jornada](../building-journeys/journey.md)** - Tipos de Jornada, designer e fluxo de trabalho
 * **[Introdução às Campanhas](../campaigns/get-started-with-campaigns.md)** - Campanhas acionadas por ação e API

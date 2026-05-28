@@ -9,29 +9,15 @@ level: Intermediate
 keywords: lista de permissões, lista segura, email, capacidade de entrega, sandbox, domínios, supressão, configuração
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 TQID: https://experienceleague.adobe.com/Q33GwgA8mJ4JPHuIb7mT8l5bKkzICX32-EXxtI5ug9Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1341
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -47,7 +33,7 @@ Em sandboxes de não produção, em que podem ocorrer envios acidentais, a lista
 
 Quando a lista de permissões está ativa, mas vazia, nenhum email é enviado. Isso faz dele um freio de emergência útil: se ocorrer um problema crítico, você pode ativar uma lista de permissões vazia para interromper todas as comunicações de saída de [!DNL Journey Optimizer] até que o problema seja resolvido. Saiba mais sobre a [lógica de lista de permissões](#logic).
 
-Você também pode usar a **API REST de Supressão** do Journey Optimizer para gerenciar mensagens de saída de forma programática por meio de supressão e listas de permissões. [Saiba como trabalhar com a API REST de Supressão](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
+Você também pode usar a **API REST de Supressão** do Journey Optimizer para gerenciar mensagens de saída de forma programática por meio de supressão e listas de permissões. [Saiba como trabalhar com a API REST de supressão](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ## Acessar a lista de permissões {#access-allowed-list}
 
@@ -86,7 +72,7 @@ Para ativar a lista de permissões, siga as etapas abaixo.
    >* Após a ativação, há um atraso de 10 minutos antes da lista de permissões entrar em vigor em jornadas e campanhas. As atualizações na lista de lista de permissões e supressão também podem levar até 10 minutos para serem refletidas.
    >* Quando ativa, a lista de permissões é imposta não apenas em jornadas ativas, mas também ao testar mensagens com [provas](../content-management/proofs.md) e jornadas no [modo de teste](../building-journeys/testing-the-journey.md).
 
-A lógica de lista de permissões se aplica quando o recurso está ativo. Saiba mais em [esta seção](#logic).
+A lógica de lista de permissões se aplica quando o recurso está ativo. Saiba mais [nesta seção](#logic).
 
 ## Desativar a lista de permissões {#deactivate-allow-list}
 
@@ -106,7 +92,7 @@ Para desativar a lista de permissões, siga as etapas abaixo.
    >
    >Depois de desativar a lista de permissões, há um atraso de 10 minutos antes de ela entrar em vigor em suas jornadas e campanhas. Da mesma forma, as atualizações nas listas de lista de permissões e supressão podem levar até 10 minutos para serem refletidas.
 
-A lógica de lista de permissões não se aplica quando o recurso é desativado. Saiba mais em [esta seção](#logic).
+A lógica de lista de permissões não se aplica quando o recurso é desativado. Saiba mais [nesta seção](#logic).
 
 ## Adicionar entidades à lista de permissões {#add-entities}
 
@@ -121,12 +107,12 @@ Para adicionar novos domínios ou endereços de email à lista de permissões pa
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add_header"
 >title="Adicionar endereços ou domínios à lista de permissões"
->abstract="Você pode adicionar manualmente novos domínios ou endereços de email à lista de permissões selecionando-os um por um."
+>abstract="Você pode adicionar manualmente novos endereços de email ou domínios à lista de permissões selecionando-os um por um."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add"
 >title="Adicionar endereços ou domínios à lista de permissões"
->abstract="Você pode adicionar manualmente novos domínios ou endereços de email à lista de permissões selecionando-os um por um."
+>abstract="Você pode adicionar manualmente novos endereços de email ou domínios à lista de permissões selecionando-os um por um."
 
 Você pode preencher manualmente a lista de permissões [!DNL Journey Optimizer] adicionando um endereço de email ou um domínio por meio da interface do usuário.
 
@@ -146,7 +132,7 @@ Para fazer isso, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Insira um endereço de email válido (como abc@company.com) ou domínio (como abc.company.com).
+   >Certifique-se de inserir um endereço de email (como abc@empresa.com) ou de domínio (como abc.empresa.com) válido.
 
 1. Especifique um motivo, se necessário.
 
@@ -154,7 +140,7 @@ Para fazer isso, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Todos os caracteres ASCII no intervalo de 32 a 126 são permitidos no campo **[!UICONTROL Motivo]**. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}, por exemplo.
+   >Todos os caracteres ASCII no intervalo de 32 a 126 são permitidos no campo **[!UICONTROL Motivo]**. Para referência, consulte a lista completa [nesta página](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}.
 
 1. Clique em **[!UICONTROL Enviar]**.
 
@@ -166,7 +152,7 @@ Para preencher a lista de permissões, você também pode chamar a API de supres
 
 Você pode executar as operações **Adicionar**, **Excluir** e **Obter**.
 
-Saiba mais sobre como fazer chamadas de API na documentação de referência das [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre como fazer chamadas de API na documentação de referência das [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
 
 ## Baixar a lista de permissões {#download-allowed-list}
 
@@ -201,7 +187,7 @@ Para exportar a lista de permissões como um arquivo CSV, siga as etapas abaixo:
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="Gerenciar a lista de permissões"
->abstract="Quando a lista de permissões for ativada, somente os recipients incluídos nela receberão mensagens de email dessa sandbox. Quando desativado, todos os recipients receberão emails."
+>abstract="Quando a lista de permissões for ativada, somente os recipients incluídos na lista de permissões receberão mensagens de email dessa sandbox. Quando desativado, todos os recipients receberão emails."
 
 Quando a lista de permissões está [ativa](#enable-allow-list), a seguinte lógica é aplicada:
 
@@ -221,7 +207,7 @@ Quando a lista de permissões é [desativada](#deactivate-allow-list), todos os 
 
 ## Relatório de exclusão {#reporting}
 
-Quando a lista de permissões está ativa, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. Para fazer isso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para fazer as chamadas de API abaixo.
+Quando a lista de permissões está ativa, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. Para fazer isso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para fazer as chamadas de API abaixo.
 
 Para obter o **número de emails** que não foram enviados porque os destinatários não estavam na lista de permissões, use a seguinte consulta:
 

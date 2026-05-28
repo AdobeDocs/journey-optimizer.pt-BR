@@ -1,19 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Solução de problemas de atividades em tempo real
+title: Solução de problemas de atividades ao vivo
 description: Saiba como solucionar problemas de atividades ativas no Journey Optimizer para casos de uso unitários e de transmissão, incluindo problemas de token de perfil, configuração de campanha e falhas de delivery
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-source-git-commit: e16888953e73ac04f366790117065489b12ae0c7
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '4523'
+source-wordcount: 4607
 ht-degree: 1%
 
 ---
 
-# Solução de problemas de atividades em tempo real {#troubleshoot-mobile-live}
+# Solução de problemas de atividades ao vivo {#troubleshoot-mobile-live}
 
 As atividades online no Adobe Journey Optimizer permitem atualizações dinâmicas e em tempo real nas telas bloqueadas do iOS e nas Ilhas dinâmicas. Eles só podem ser acionados e gerenciados por meio de Campanhas acionadas por API.
 
@@ -37,7 +39,7 @@ Configure uma **sessão do Assurance** para capturar eventos do SDK e inspeciona
 * Registro do token de push
 * Eventos de ciclo de vida de atividade ao vivo
 
-Saiba como configurar o Assurance na [documentação do Adobe Experience Platform Assurance](https://experienceleague.adobe.com/pt-br/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+Saiba como configurar o Assurance na [documentação do Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
 **Observação**: para a atividade do iOS Live, verifique se seu aplicativo está sendo executado em um dispositivo físico iOS (iOS 16.1 ou posterior) ou no Xcode Simulator (iOS 16.1 ou posterior).
 
@@ -114,7 +116,7 @@ A API retorna HTTP 200, mas a atividade Live não é exibida. Causas comuns:
 
 #### Etapas de depuração
 
-+++ &#x200B;1. Verifique se o perfil existe no Adobe Experience Platform
++++ &#x200B;1. Verificar se o perfil existe no Adobe Experience Platform
 
 1. No Journey Optimizer, navegue até **Cliente** `>` **Perfis**.
 1. Pesquisar usando o namespace e o valor de identidade da solicitação de API.
@@ -123,7 +125,7 @@ A API retorna HTTP 200, mas a atividade Live não é exibida. Causas comuns:
 
 +++
 
-+++ &#x200B;2. Verifique se o token de push da atividade online está sincronizado
++++ &#x200B;2. Verificar se o token de push da atividade online está sincronizado
 
 Você pode usar o Assurance para verificar o registro do token:
 
@@ -199,7 +201,7 @@ O perfil existe com tokens válidos, mas a atividade Live não é exibida. Isso 
 
 #### Etapas de depuração
 
-+++ &#x200B;1. Verifique a configuração da superfície de campanha
++++ &#x200B;1. Verificar a configuração da superfície de campanha
 
 1. No Journey Optimizer, abra a **Campanha** e navegue até o menu **Ações**.
 1. Verifique sua **configuração de atividade do Live**. A superfície deve ser configurada para o aplicativo iOS com um identificador de conjunto que corresponda a `appId` no `liveActivityPushNotificationDetails` do seu perfil. Por exemplo, se o seu perfil tem `"appId": "com.example.myapp"`, a superfície deve ter como alvo o mesmo aplicativo.
@@ -207,7 +209,7 @@ O perfil existe com tokens válidos, mas a atividade Live não é exibida. Isso 
 
 +++
 
-+++ &#x200B;2. Validar a estrutura de carga da API
++++ &#x200B;2. Validar estrutura de carga da API
 
 Ao executar a campanha via API, verifique se a carga segue a estrutura correta.
 
@@ -329,7 +331,7 @@ Verifique se a carga da API corresponde à implementação `ActivityAttributes` 
 
 **Erros comuns:**
 
-| Problema | Impacto | Correção |
+| Problema | Impacto | Corrigir |
 |-------|--------|-----|
 | `liveActivityData` ausente nos atributos | A atividade online não iniciará | Sempre incluir objeto `liveActivityData` no evento inicial |
 | Campo obrigatório ausente no evento de início | A atividade online não iniciará | Adicionar todos os campos da estrutura do iOS |
@@ -389,7 +391,7 @@ Mas a atividade Live ainda não é exibida, atualizada ou encerrada conforme esp
 
 #### Etapas de depuração
 
-+++ &#x200B;1. Verifique os relatórios da campanha
++++ &#x200B;1. Verificar relatórios de campanha
 
 1. Navegue até a **Campanha de atividade ao vivo**.
 1. Clique no botão **Relatórios**.
@@ -475,7 +477,7 @@ Saiba mais na [página de relatório de campanha de atividades ao vivo](../repor
 
 +++
 
-+++ &#x200B;4. Proceder a verificações de diagnóstico adicionais
++++ &#x200B;4. Prosseguir com verificações de diagnóstico adicionais
 
 1. Verifique as métricas de ciclo de vida de atividade Ativo no Relatório de campanha.
 
@@ -500,7 +502,7 @@ Saiba mais na [página de relatório de campanha de atividades ao vivo](../repor
 
 +++
 
-+++ &#x200B;5. Escalonamento ao suporte da Adobe
++++ &#x200B;5. Escalonamento para o suporte da Adobe
 
 Se você concluiu todas as etapas e o problema permanece não resolvido, entre em contato com o Atendimento ao cliente da Adobe com:
 
@@ -573,7 +575,7 @@ Para que os eventos de atualização e término funcionem, o seguinte deve ocorr
 
 +++
 
-+++ &#x200B;2. Verificar o token de atualização nos eventos de perfil
++++ &#x200B;2. Verificar token de atualização em eventos de perfil
 
 1. Navegue até **Cliente** > **Perfis** na Journey Optimizer.
 1. Procure e abra o perfil.
@@ -633,7 +635,7 @@ Este cenário de solução de problemas se aplica a todos os eventos de atividad
 
 #### Etapas de depuração
 
-+++ &#x200B;1. Verifique a configuração do público-alvo da campanha
++++ &#x200B;1. Verificar a configuração do público-alvo da campanha
 
 1. Abra sua **Campanha de Marketing Acionado pela API** na Journey Optimizer.
 1. Navegue até a seção **Público-alvo** e verifique:
@@ -689,7 +691,7 @@ A estrutura de carga da transmissão é diferente das campanhas unitárias. Veri
 
 **Campos críticos específicos da difusão:**
 
-* **`input-push-channel`**
+* **`input-push-channel`**:
    * Obrigatório para todas as atividades de transmissão ao vivo.
    * Atua como um identificador exclusivo para essa instância de transmissão específica.
    * Todos os perfis no público-alvo recebem atividades ao vivo vinculadas a este canal.
@@ -697,7 +699,7 @@ A estrutura de carga da transmissão é diferente das campanhas unitárias. Veri
    * Deve ser criado para `appID` no Portal do Desenvolvedor do Apple pelo cliente.
    * Somente os canais criados para o `appID` específico podem ser usados para transmitir a atividade em tempo real nesse aplicativo.
 
-* **`audience.id`**
+* **`audience.id`**:
    * Deve fazer referência a um segmento de público-alvo válido criado no Adobe Experience Platform.
    * Todos os perfis neste público-alvo são direcionados para a atividade Live.
    * O público deve ser ativado e conter perfis com `liveActivityPushNotificationDetails` válido.
@@ -786,7 +788,7 @@ Para todos os eventos, inclua `attributes` e `content-state`:
 
 **Erros comuns:**
 
-| Problema | Impacto | Correção |
+| Problema | Impacto | Corrigir |
 |-|-|-|
 | `input-push-channel` ausente | A transmissão não funcionará | Adicionar ID de canal exclusiva para cada transmissão |
 | `input-push-channel` não corresponde a `channelID` | A atividade online não iniciará | Certifique-se de que ambos os valores sejam idênticos |
@@ -844,7 +846,7 @@ O Adobe Experience Platform usa diferentes métodos de avaliação de público-a
 
 #### Etapas de depuração
 
-+++ &#x200B;1. Verifique se o perfil está no público-alvo
++++ &#x200B;1. Verificar se o perfil está no público
 
 Primeiro, confirme se o perfil que deve receber a atividade Live faz parte do público-alvo.
 
@@ -861,7 +863,7 @@ Primeiro, confirme se o perfil que deve receber a atividade Live faz parte do p�
 
 +++
 
-+++ &#x200B;2. Verifique o tipo e a programação da avaliação do público-alvo
++++ &#x200B;2. Verificar o tipo e a programação da avaliação do público-alvo
 
 Identifique se o público-alvo usa avaliação em lote ou por transmissão, pois isso determina a atualização dos dados.
 

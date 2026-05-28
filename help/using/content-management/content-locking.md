@@ -8,27 +8,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 TQID: https://experienceleague.adobe.com/Prpr3jo8SYkY7dI-eXrN9ZBm4SdjePKJY7i0ze2Xu5M
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1285
-ht-degree: 0%
+ht-degree: 30%
 
 ---
 
@@ -37,17 +26,17 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"
 >title="Governança"
->abstract="Ative a governança para bloquear o conteúdo no modelo, bloqueando todo o modelo ou estruturas e componentes específicos. Isso permite evitar edições ou exclusões não intencionais, dando a você maior controle sobre a personalização do modelo e melhorando a eficiência e a confiabilidade de suas campanhas de email."
+>abstract="Ative a governança para bloquear o conteúdo no modelo, bloqueando o modelo inteiro ou estruturas e componentes específicos. Isso permite evitar edições ou exclusões não intencionais, dando a você maior controle sobre a personalização do modelo e melhorando a eficiência e a confiabilidade de suas campanhas de email."
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_mode"
 >title="Modo"
->abstract="Selecione o modo de bloqueio desejado para o modelo. **O bloqueio de conteúdo** permite bloquear seções específicas de conteúdo no modelo. **Somente leitura** permite bloquear todo o conteúdo do modelo, impedindo modificações."
+>abstract="Selecione o modo de bloqueio desejado para o modelo. O **Bloqueio de conteúdo** permite bloquear seções específicas de conteúdo no modelo. **Somente leitura** permite bloquear todo o conteúdo do modelo, impedindo modificações."
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_content_addition"
->title="Ativar adição de conteúdo"
->abstract="Ative essa opção para definir ainda mais como os usuários podem interagir com o modelo. Selecione **Permitir estrutura e adição de conteúdo** para permitir que os usuários adicionem estruturas entre as existentes e adicionem componentes ou fragmentos de conteúdo dentro de estruturas editáveis. **Permitir somente adição de conteúdo** permite que os usuários adicionem componentes ou fragmentos de conteúdo dentro de estruturas editáveis sem poder adicionar ou duplicar estruturas."
+>title="Habilitar adição de conteúdo"
+>abstract="Ative essa opção para definir ainda mais como os usuários podem interagir com o modelo. Selecione **Permitir adição de estrutura e conteúdo** para permitir que os usuários adicionem estruturas entre as existentes e adicionem componentes ou fragmentos de conteúdo dentro de estruturas editáveis. Com a opção **Permitir somente adição de conteúdo**, os usuários podem adicionar componentes ou fragmentos de conteúdo dentro de estruturas editáveis, mas não podem adicionar ou duplicar estruturas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
@@ -57,7 +46,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="Somente leitura"
->abstract="Este conteúdo está no modo somente leitura e não pode ser modificado."
+>abstract="Este conteúdo está em modo somente leitura e não pode ser modificado."
 
 O Journey Optimizer permite bloquear o conteúdo em modelos de email, bloqueando todo o modelo ou estruturas e componentes específicos. Isso evita edições ou exclusões não intencionais, oferecendo maior controle sobre a personalização de modelos e melhorando a eficiência e a confiabilidade de suas campanhas de email.
 
@@ -83,7 +72,7 @@ O bloqueio de conteúdo pode ser aplicado no nível **estrutura** ou no nível *
 >
 >Os usuários com permissões para criar modelos de conteúdo podem ativar o bloqueio de conteúdo.
 
-➡️ [Descubra este recurso no vídeo](#video)
+➡️ [Conheça este recurso no vídeo](#video)
 
 ## Bloquear um modelo de email {#define}
 
@@ -124,7 +113,7 @@ Você pode ajustar as configurações de **[!UICONTROL Governança]** a qualquer
 >[!CONTEXTUALHELP]
 >id="ajo_locking_structure"
 >title="Bloqueio de conteúdo na estrutura"
->abstract="Para bloquear a estrutura no modelo, selecione **Bloqueado** no menu suspenso **Tipo de bloqueio**. Por padrão, os usuários não podem excluir estruturas bloqueadas. Você pode substituir essa restrição habilitando a opção **[!UICONTROL Permitir exclusão]**."
+>abstract="Para bloquear a estrutura no modelo, selecione **Bloqueado** no menu suspenso **Tipo de bloqueio**. Por padrão, os usuários não podem excluir estruturas bloqueadas. Você pode anular essa restrição habilitando a opção **[!UICONTROL Permitir exclusão]**."
 
 Para bloquear uma estrutura no modelo:
 
@@ -136,7 +125,7 @@ Para bloquear uma estrutura no modelo:
 
    >[!NOTE]
    >
-   >Por padrão, os usuários não podem excluir estruturas bloqueadas. Você pode substituir essa restrição habilitando a opção **[!UICONTROL Permitir exclusão]**.
+   >Por padrão, os usuários não podem excluir estruturas bloqueadas. Você pode anular essa restrição habilitando a opção **[!UICONTROL Permitir exclusão]**.
 
 Depois de bloquear uma estrutura, nenhum componente ou fragmento de conteúdo adicional pode ser duplicado ou adicionado dentro dela. Todos os componentes em uma estrutura bloqueada também são bloqueados por padrão. Para tornar um componente editável em uma estrutura bloqueada:
 
@@ -153,7 +142,7 @@ Depois de bloquear uma estrutura, nenhum componente ou fragmento de conteúdo ad
 >[!CONTEXTUALHELP]
 >id="ajo_locking_component"
 >title="Usar bloqueio específico no componente"
->abstract="Para bloquear o componente no modelo, alterne a opção **Usar bloqueio específico**. Na lista suspensa **[!UICONTROL Tipo de bloqueio]**, selecione sua opção de bloqueio preferida: **Somente bloqueio de conteúdo editável** permite bloquear os estilos do componente, mas permite a edição de conteúdo, enquanto **Bloqueado** bloqueia totalmente o conteúdo e os estilos do componente."
+>abstract="Para bloquear o componente no modelo, ative a opção **Usar bloqueio específico**. Na lista suspensa **[!UICONTROL Tipo de bloqueio]**, selecione a opção de bloqueio de sua escolha: **Somente bloqueio de conteúdo editável** permite bloquear os estilos do componente, mas permite a edição de conteúdo, enquanto **Bloqueado** bloqueia totalmente o conteúdo e os estilos do componente."
 
 Para bloquear um componente específico em uma estrutura:
 
@@ -185,11 +174,11 @@ No exemplo abaixo, a governança é ativada para o corpo do template. A *Estrutu
 >[!CONTEXTUALHELP]
 >id="ajo_email_editable_areas"
 >title="Realçar áreas editáveis"
->abstract="Dependendo do tipo de bloqueio aplicado ao modelo, você pode executar ações diferentes nas estruturas e nos componentes do modelo. Para identificar rapidamente todas as áreas editáveis no modelo, alterne a opção **[!UICONTROL Realçar áreas editáveis]**."
+>abstract="Dependendo do tipo de bloqueio aplicado ao modelo, você pode executar ações diferentes nas estruturas e nos componentes do modelo. Para identificar rapidamente todas as áreas editáveis no modelo, ative a opção **[!UICONTROL Realçar áreas editáveis]**."
 
 Ao usar um modelo com conteúdo bloqueado, uma mensagem é exibida no painel direito.
 
-Dependendo do tipo de bloqueio aplicado ao modelo, você pode executar ações diferentes nas estruturas e nos componentes do modelo. Para identificar rapidamente todas as áreas editáveis no modelo, alterne a opção **[!UICONTROL Realçar áreas editáveis]**.
+Dependendo do tipo de bloqueio aplicado ao modelo, você pode executar ações diferentes nas estruturas e nos componentes do modelo. Para identificar rapidamente todas as áreas editáveis no modelo, ative a opção **[!UICONTROL Realçar áreas editáveis]**.
 
 Por exemplo, no modelo abaixo, todas as áreas são editáveis, exceto a imagem superior, que foi bloqueada, o que significa que não é possível editá-la ou removê-la.
 
@@ -210,8 +199,8 @@ Estes são alguns exemplos de edições de email e as configurações de bloquei
 | Componente com estilos bloqueados e que não pode ser excluído. Os usuários só podem modificar o conteúdo. | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | Componente editável em uma estrutura bloqueada. | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Saiba como bloquear conteúdo em modelos de email.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451612?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

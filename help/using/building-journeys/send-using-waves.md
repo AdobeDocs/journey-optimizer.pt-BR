@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Enviar usando ondas no jornada
+title: Enviar usando ondas em jornadas
 description: Programe mensagens de jornada de saída para serem entregues em lotes controlados (ondas) ao longo do tempo. O envio de ondas em jornadas de leitura de público ajuda a balancear a carga e oferecer suporte à capacidade de entrega.
 feature: Journeys, Activities, Audiences
 topic: Content Management
@@ -10,14 +10,16 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: ondas, lotes, programação, jornada, ler público, entregabilidade
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 1%
+source-wordcount: 868
+ht-degree: 2%
 
 ---
 
-# Enviar usando ondas no jornada {#send-using-waves-journeys}
+# Enviar usando ondas em jornadas {#send-using-waves-journeys}
 
 Você pode entregar mensagens de saída de uma jornada em lotes (ondas) ao longo do tempo, em vez de todas de uma só vez. O envio de ondas ajuda a balancear a carga, evitar sistemas downstream esmagadores (como centrais de atendimento ou páginas de aterrissagem) e oferecer suporte à capacidade de entrega e reputação do remetente, especialmente para jornadas de alto volume de público-alvo de leitura.
 

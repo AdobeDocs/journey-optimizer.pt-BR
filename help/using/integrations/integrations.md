@@ -9,10 +9,12 @@ role: User
 level: Beginner
 keywords: integração
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74id: c08fcc42-2918-421a-a25e-e1bd9464c290id: c6fdb8b1-45ee-460a-a859-9031c59118b7id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 7%
+source-wordcount: 1125
+ht-degree: 8%
 
 ---
 
@@ -49,7 +51,7 @@ Para começar a usar Integrações, os usuários precisam receber as permissões
 
 1. Insira o nome do usuário, seu endereço de email ou escolha na lista e clique em **[!UICONTROL Salvar]**.
 
-Se o usuário não tiver sido criado anteriormente, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/users).
+Se o usuário não foi criado anteriormente, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 +++
 
@@ -85,7 +87,7 @@ Como administrador, você pode configurar integrações externas seguindo estas 
 
    ![](assets/external-integration-config-2.png)
 
-1. Selecione o **[!UICONTROL Método HTTP]** entre o GET e o POST.
+1. Selecione o **[!UICONTROL Método HTTP]** entre GET e POST.
 
 1. Clique em **[!UICONTROL Adicionar cabeçalho]** e/ou **[!UICONTROL Adicionar parâmetros de consulta]** conforme necessário para sua integração. Para cada parâmetro, forneça os seguintes detalhes:
 

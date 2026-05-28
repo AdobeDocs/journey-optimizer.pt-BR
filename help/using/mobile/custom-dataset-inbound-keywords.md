@@ -6,9 +6,11 @@ description: Saiba como armazenar palavras-chave de SMS de entrada em um conjunt
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: 518
 ht-degree: 8%
 
 ---
@@ -37,7 +39,7 @@ Para usar um conjunto de dados personalizado para palavras-chave de entrada, é 
 
 Um esquema define a estrutura e as regras de validação que se aplicam aos dados assimilados. Componha um esquema de Evento de experiência para a coleção de palavras-chave de entrada adicionando os grupos de campos existentes listados abaixo.
 
-➡️ [Saiba mais sobre a criação de esquema na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition)
+➡️ [Saiba mais sobre a criação de esquema na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. No Adobe Experience Platform, em **[!UICONTROL Gerenciamento de dados]**, acesse **[!UICONTROL Esquemas]** e selecione **[!UICONTROL Criar esquema]**.
 

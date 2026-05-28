@@ -7,19 +7,15 @@ role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 TQID: https://experienceleague.adobe.com/idwoj9f3zFS64ifjzcSASPaUQTaNYtyS-HI6c3-7AI0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1955
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -81,7 +77,7 @@ A função a seguir combinará a cidade e o país do perfil em uma única sequê
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
 ```
 
-## Contém {#contains}
+## Contains {#contains}
 
 A função `contains` é usada para determinar se uma cadeia de caracteres contém uma subsequência especificada.
 
@@ -160,7 +156,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## Não começa com{#doesNotStartWith}
+## Não inicia com{#doesNotStartWith}
 
 A função `doesNotStartWith` é usada para determinar se uma cadeia de caracteres não inicia com uma subcadeia especificada.
 
@@ -219,7 +215,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 ```
 
 
-## Igual a{#equals}
+## Igual{#equals}
 
 A função `equals` é usada para determinar se uma cadeia de caracteres é igual à cadeia especificada, com distinção entre maiúsculas e minúsculas.
 
@@ -465,7 +461,7 @@ A função a seguir retorna o comprimento do nome da cidade do perfil.
 {%= length(profile.homeAddress.city) %}
 ```
 
-## Curtir{#like}
+## É como{#like}
 
 A função `like` é usada para determinar se uma cadeia de caracteres corresponde a um padrão especificado.
 
@@ -562,7 +558,7 @@ A função `md5` é usada para calcular e retornar o hash md5 de uma cadeia de c
 
 Retorna &quot;5eb63bbbbe01eed093cb22bb8f5acdc3&quot;
 
-## Diferente de{#notEqualTo}
+## Não é igual a{#notEqualTo}
 
 A função `notEqualTo` é usada para determinar se uma cadeia de caracteres não é igual à cadeia especificada.
 
@@ -725,7 +721,7 @@ A função `SHA256` calcula e retorna o hash sha256 de uma cadeia de caracteres.
 
 retorna: `0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d`
 
-## Split {#split}
+## Divisão {#split}
 
 A função `split` é usada para dividir uma cadeia de caracteres por um determinado caractere.
 
@@ -852,7 +848,7 @@ A função `toDateTimeOnly` é usada para converter um valor de argumento em um 
 {%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## Cortar {#trim}
+## Aparar {#trim}
 
 A função **trim** remove todos os espaços em branco do início e do fim de uma cadeia de caracteres.
 

@@ -11,16 +11,11 @@ level: Experienced
 exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/JQ-76prOO6Jg48rqWbPzWMDWH3iDW44iZOeJv1T09gU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 193
 ht-degree: 17%
@@ -54,9 +49,9 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Parâmetro | Descrição | Exemplo |
-|0&rbrace; | O caminho do endpoint para APIs do repositório. `{ENDPOINT_PATH}`| `https://platform.adobe.io/data/core/xcore/` |
-|0&rbrace; | O container onde as tags estão localizadas. `{CONTAINER_ID}`| `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-|0&rbrace; | A ID da instância da tag que você deseja atualizar. `{INSTANCE_ID}`| `d48fd160-13dc-11eb-bc55-c11be7252432` |
+|0} | O caminho do endpoint para APIs do repositório. `{ENDPOINT_PATH}`| `https://platform.adobe.io/data/core/xcore/` |
+|0} | O container onde as tags estão localizadas. `{CONTAINER_ID}`| `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+|0} | A ID da instância da tag que você deseja atualizar. `{INSTANCE_ID}`| `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **Solicitação**
 

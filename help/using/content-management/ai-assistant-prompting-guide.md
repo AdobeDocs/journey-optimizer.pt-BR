@@ -8,23 +8,13 @@ role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
 TQID: https://experienceleague.adobe.com/SxuygPzpfRd-fvB9fOSZo6JR428cRzLukvbawfYwcFs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2352
 ht-degree: 2%
@@ -169,19 +159,19 @@ Essas solicitações não são compatíveis e devem ser tratadas por meio de out
 
 Antes de gerar o conteúdo, verifique o seguinte:
 
-&check; **Limpar objetivo**: indica claramente a ação, o produto/serviço, o valor e o contexto.
+&amp;check; **Limpar objetivo**: indica claramente a ação, o produto/serviço, o valor e o contexto.
 
-&check; **Público-alvo definido**: especifica a demografia, a função ou o segmento.
+&amp;check; **Público-alvo definido**: especifica a demografia, a função ou o segmento.
 
-&check; **Alinhamento do tipo de conteúdo**: o objetivo corresponde ao canal ou formato selecionado.
+&amp;check; **Alinhamento do tipo de conteúdo**: o objetivo corresponde ao canal ou formato selecionado.
 
-&check; **Seleções suspensas configuradas**: Tom, estratégia e localidade são escolhidos, não os inclua no prompt.
+&amp;check; **Seleções suspensas configuradas**: Tom, estratégia e localidade são escolhidos, não os inclua no prompt.
 
-&check; **Foco do documento especificado**: Realça o conteúdo ou as seções a serem referenciadas.
+&amp;check; **Foco do documento especificado**: Realça o conteúdo ou as seções a serem referenciadas.
 
-&check; **Marca aplicada**: as diretrizes de marca apropriadas estão selecionadas.
+&amp;check; **Marca aplicada**: as diretrizes de marca apropriadas estão selecionadas.
 
-&check; **Escopo realista**: evitar solicitações de alterações de layout, estilo ou edições estruturais.
+&amp;check; **Escopo realista**: evitar solicitações de alterações de layout, estilo ou edições estruturais.
 
 ## Escreva objetivos de marketing eficazes {#marketing-objectives}
 
@@ -191,11 +181,11 @@ Ao criar objetivos de marketing, verifique se eles são claros, acionáveis e me
 
 **Exemplos de bons objetivos:**
 
-&check; &quot;Conduzir inscrições para nossa avaliação gratuita de 30 dias do novo painel de análise alimentado por IA&quot;
+&amp;check; &quot;Conduzir inscrições para nossa avaliação gratuita de 30 dias do novo painel de análise alimentado por IA&quot;
 
-&check; &quot;Gerar clientes em potencial para o nosso webinário B2B sobre &quot;Redução de custos na nuvem em 40%&quot; acontecendo em 15 de março&quot;
+&amp;check; &quot;Gerar clientes em potencial para o nosso webinário B2B sobre &quot;Redução de custos na nuvem em 40%&quot; acontecendo em 15 de março&quot;
 
-&check; &quot;Promover nosso desconto de feriado de tempo limitado de 25% em assinaturas premium, terminando em 25 de dezembro&quot;
+&amp;check; &quot;Promover nosso desconto de feriado de tempo limitado de 25% em assinaturas premium, terminando em 25 de dezembro&quot;
 
 **Exemplos a serem evitados:**
 
@@ -212,11 +202,11 @@ Use esta fórmula para ajudá-lo a escrever objetivos efetivos: **Ação + Produ
 
 **Exemplos de bons objetivos:**
 
-&check; &quot;Incentive os downloads do nosso novo aplicativo móvel que ajuda os usuários a rastrear hábitos de vida sustentáveis com recomendações personalizadas e ecológicas&quot;
+&amp;check; &quot;Incentive os downloads do nosso novo aplicativo móvel que ajuda os usuários a rastrear hábitos de vida sustentáveis com recomendações personalizadas e ecológicas&quot;
 
-&check; &quot;Promover registro para nosso workshop exclusivo sobre técnicas avançadas de visualização de dados para profissionais de marketing&quot;
+&amp;check; &quot;Promover registro para nosso workshop exclusivo sobre técnicas avançadas de visualização de dados para profissionais de marketing&quot;
 
-&check; &quot;Impulsionar a participação no nosso evento de lançamento de produto apresentando o revolucionário assistente de escrita de IA que economiza mais de 5 horas por semana&quot;
+&amp;check; &quot;Impulsionar a participação no nosso evento de lançamento de produto apresentando o revolucionário assistente de escrita de IA que economiza mais de 5 horas por semana&quot;
 
 **Exemplos a serem evitados:**
 
