@@ -102,7 +102,7 @@ Para criar um modelo de IA, siga as etapas abaixo:
    >
    >Embora seja possível modificar o modelo de atribuição, nem todos os modelos de atribuição são ideais para a otimização do modelo de IA. Recomendamos selecionar cuidadosamente um modelo de atribuição que se alinhe às suas metas de otimização para garantir a precisão e o desempenho do modelo.
    >
-   >Para obter mais detalhes sobre modelos de atribuição disponíveis e orientação sobre seu uso, consulte a [[!DNL Customer Journey Analytics] documentação](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+   >Para obter mais detalhes sobre modelos de atribuição disponíveis e orientação sobre seu uso, consulte a [[!DNL Customer Journey Analytics] documentação](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
 
    +++
 
@@ -132,7 +132,7 @@ At this point, you must have:
 * and in which dataset you want to collect the event data.
 -->
 
-Agora, sempre que uma oferta for exibida e/ou clicada, você desejará que o evento correspondente seja capturado automaticamente pelo grupo de campos **[!UICONTROL Evento de experiência - Interações de apresentação]** usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} ou o Mobile SDK.
+Agora, sempre que uma oferta for exibida e/ou clicada, você desejará que o evento correspondente seja capturado automaticamente pelo grupo de campos **[!UICONTROL Evento de experiência - Interações de apresentação]** usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=pt-BR#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} ou o Mobile SDK.
 
 Para enviar tipos de evento (oferta exibida ou oferta clicada), você deve definir o valor correto para cada tipo de evento em um evento de experiência enviado para o Adobe Experience Platform. [Saiba como](../data-collection/schema-requirement.md)
 

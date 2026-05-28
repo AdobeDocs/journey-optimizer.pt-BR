@@ -90,7 +90,7 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 
 <!--
 >"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 

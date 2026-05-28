@@ -58,7 +58,7 @@ Para aprimorar a eficiência do marketing e manter a consistência da marca, voc
 
 >[!INFO]
 >
->Para ir além, confira esta [visão geral](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} e uma [demonstração](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
+>Para ir além, confira esta [visão geral](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} e uma [demonstração](https://business.adobe.com/br/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -148,7 +148,7 @@ Comece exportando um modelo do HTML [!DNL Journey Optimizer], incluindo as diret
 
    >[!NOTE]
    >
-   >Saiba como criar experiências de email na [seção](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} dedicada do GenStudio.
+   >Saiba como criar experiências de email na [seção](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} dedicada do GenStudio.
 
 ### Aproveitar as experiências do GenStudio no Journey Optimizer {#leverage-genstudio-experiences}
 

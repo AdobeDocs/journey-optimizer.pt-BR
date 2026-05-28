@@ -40,7 +40,7 @@ Para pares de termos com sonoridade semelhante que são frequentemente confundid
 
 >[!NOTE]
 >
->O Adobe Journey Optimizer foi criado em **Adobe Experience Platform**. Muitos conceitos fundamentais que você encontrará — como perfis de clientes em tempo real, sandboxes, esquemas e conjuntos de dados — são conceitos do Adobe Experience Platform, não específicos do Journey Optimizer. Para obter as definições desses termos, consulte o [glossário do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
+>O Adobe Journey Optimizer foi criado em **Adobe Experience Platform**. Muitos conceitos fundamentais que você encontrará — como perfis de clientes em tempo real, sandboxes, esquemas e conjuntos de dados — são conceitos do Adobe Experience Platform, não específicos do Journey Optimizer. Para obter as definições desses termos, consulte o [glossário do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=pt-BR){target="_blank"}.
 
 ## Termos de Jornada e campanha {#journey-campaign-terms}
 

@@ -130,7 +130,7 @@ Quando uma jornada estiver ativa, você poderá verificar no relatório de jorna
 
 ![](assets/journey-report.png)
 
-Além disso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para criar consultas para identificar qual regra fez com que um perfil não entrasse em uma determinada jornada. Exemplos de consulta, incluindo a sub-razão de descarte (`CAP_REACHED` ou `LOWER_PRIORITY`), estão disponíveis em [esta seção](../reports/query-examples.md#business-rules-queries).
+Além disso, você pode usar o [Serviço de consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para criar consultas para identificar qual regra fez com que um perfil não entrasse em uma determinada jornada. Exemplos de consulta, incluindo a sub-razão de descarte (`CAP_REACHED` ou `LOWER_PRIORITY`), estão disponíveis em [esta seção](../reports/query-examples.md#business-rules-queries).
 
 ## Vídeo tutorial {#video}
 

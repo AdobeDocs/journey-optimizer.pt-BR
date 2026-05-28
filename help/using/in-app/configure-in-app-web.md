@@ -27,7 +27,7 @@ ht-degree: 3%
 
 * Instale a extensão **Adobe Experience Platform Web SDK** nas **Propriedades da marca** e habilite a opção **Armazenamento da Personalization**.
 
-  Essa configuração é essencial para armazenar históricos de eventos no cliente, um pré-requisito para a implementação de Regras de frequência no construtor de regras. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
+  Essa configuração é essencial para armazenar históricos de eventos no cliente, um pré-requisito para a implementação de Regras de frequência no construtor de regras. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=pt-BR){target="_blank"}
 
   ![](assets/configure_web_inapp_1.png)
 
