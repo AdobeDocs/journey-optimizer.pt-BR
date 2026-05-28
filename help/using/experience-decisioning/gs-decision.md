@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 347
-ht-degree: 29%
+source-wordcount: 328
+ht-degree: 31%
 
 ---
 
@@ -53,7 +53,7 @@ Nossa estrutura de decisão de última geração, projetada para unificar os flu
 * Configuração atualizada da política de decisão e da estratégia de seleção: permitir a reutilização dos componentes de decisão
 * Recursos de experimentação: testar a lógica de decisão em relação a outros componentes do conteúdo para medir o desempenho
 
-A decisão está disponível a todos os clientes para os canais **Experiência baseada em código**, **Notificação por push** e **SMS**. A decisão do canal **Email** está disponível com a Disponibilidade Limitada. Para solicitar acesso à Decisão de email, entre em contato com o representante da Adobe. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
+A decisão está disponível a todos os clientes para os canais **Experiência baseada em código**, **Email**, **Notificação por push** e **SMS**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
 
 ➡️ [Introdução à Decisão](../experience-decisioning/gs-experience-decisioning.md)
 

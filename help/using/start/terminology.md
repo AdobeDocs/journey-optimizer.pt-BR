@@ -25,9 +25,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 1573
+source-wordcount: 1569
 ht-degree: 7%
 
 ---
@@ -75,7 +75,7 @@ Para pares de termos com sonoridade semelhante que são frequentemente confundid
 
 | Termo | Definição |
 |------|------------|
-| **Decisão** | A estrutura de decisão da geração atual no Journey Optimizer, recomendada para novas implementações. Oferece gerenciamento de catálogo de itens baseado em esquema, regras flexíveis de coleção, componentes de decisão reutilizáveis e recursos de experimentação. Disponível para experiência baseada em código, push, SMS e email (disponibilidade limitada). [Saiba mais](../experience-decisioning/gs-experience-decisioning.md) |
+| **Decisão** | A estrutura de decisão da geração atual no Journey Optimizer, recomendada para novas implementações. Oferece gerenciamento de catálogo de itens baseado em esquema, regras flexíveis de coleção, componentes de decisão reutilizáveis e recursos de experimentação. Disponível para Experiência baseada em código, Push, SMS e Email. [Saiba mais](../experience-decisioning/gs-experience-decisioning.md) |
 | **Gestão de decisões** | O recurso herdado do Offer Decisioning no Journey Optimizer. Usa uma biblioteca central de ofertas de marketing e um mecanismo de decisão baseado em regras que aplica restrições aos perfis do cliente em tempo real. Ainda há suporte para implementações existentes, mas as novas implementações devem usar a Decisão em vez disso. Oferece suporte a email, no aplicativo, push, SMS e correspondência direta. [Saiba mais](../offers/get-started/starting-offer-decisioning.md) |
 | **Oferta** | Uma mensagem de marketing, desconto ou promoção que pode ser apresentada aos clientes. As ofertas incluem regras de qualificação que determinam quais clientes podem recebê-las. [Saiba mais](../offers/offer-library/creating-personalized-offers.md) |
 | **Política de decisão** | Um conjunto de regras e estratégias que determinam qual oferta mostrar a qual cliente em que momento, com base em restrições como elegibilidade, prioridade e regras de limite. [Saiba mais](../experience-decisioning/create-decision.md) |
@@ -106,7 +106,7 @@ Ambos os recursos selecionam e fornecem ofertas, mas atendem a diferentes estág
 |---|---|---|
 | **Status** | Atual — recomendado para todas as novas implementações | **Herdados** — ainda são suportados, mas não são mais recomendados para novas implementações |
 | **Catálogo de itens** | Metadados flexíveis com base em esquema | Biblioteca de ofertas centralizada |
-| **Canais com suporte** | Experiência baseada em código, push, SMS, email (disponibilidade limitada) | Email, No aplicativo, Push, SMS, Correspondência direta |
+| **Canais com suporte** | Experiência baseada em código, push, SMS, email | Email, No aplicativo, Push, SMS, Correspondência direta |
 | **Diferencial de chave** | Componentes de decisão reutilizáveis, experimentação, roteiro de canais mais amplo | Mecanismo de restrições comprovado; migrar para o Decisioning para novos projetos |
 | **Introdução** | [Decisão](../experience-decisioning/gs-experience-decisioning.md) | [Gestão de decisões](../offers/get-started/starting-offer-decisioning.md) |
 

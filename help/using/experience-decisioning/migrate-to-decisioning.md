@@ -28,9 +28,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 1296
+source-wordcount: 1294
 ht-degree: 4%
 
 ---
@@ -87,7 +87,7 @@ Painel que documenta o desempenho dos itens de decisão e as estratégias de sel
 
 * **Imposição de política**: capacitação do usuário empresarial para usar recursos como [Rotulagem e Imposição de Uso de Dados (DULE)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview){target="_blank"} e [Consentimento](../action/consent.md) na Decisão, habilitando a proteção de blindagem de privacidade no fluxo de trabalho de decisão. Isso garante que as decisões respeitem automaticamente as políticas de uso de dados e as preferências de consentimento do cliente.
 
-* **Suporte ao canal de mensagens nativo**: mensagens e decisões integradas em uma única estrutura em vários canais: [Experiência baseada em código](../code-based/get-started-code-based.md), [Email](../email/get-started-email.md) (Disponibilidade limitada), [SMS](../mobile/get-started-mobile.md) e [Notificações por push](../push/get-started-push.md). O suporte intuitivo à interface permite que os usuários insiram componentes de decisão diretamente nos fluxos de trabalho de criação de mensagens.
+* **Suporte ao canal de mensagens nativo**: mensagens e decisões integradas em uma única estrutura em vários canais: [Experiência baseada em código](../code-based/get-started-code-based.md), [Email](../email/get-started-email.md), [SMS](../mobile/get-started-mobile.md) e [Notificações por push](../push/get-started-push.md). O suporte intuitivo à interface permite que os usuários insiram componentes de decisão diretamente nos fluxos de trabalho de criação de mensagens.
 
 * **Pesquisa de conjunto de dados do Experience Platform**: capacidade de carregar e referenciar [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview){target="_blank"} diretamente nas regras de seleção de oferta, classificação e conteúdo de oferta personalizado. Isso expande a flexibilidade para personalização e direcionamento ao permitir que a lógica de decisão use fontes de dados externas dinâmicas. [Saiba mais](../data/lookup-aep-data.md)
 

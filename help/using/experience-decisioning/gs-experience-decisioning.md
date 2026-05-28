@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 717
-ht-degree: 25%
+source-wordcount: 700
+ht-degree: 26%
 
 ---
 
@@ -45,7 +45,7 @@ Estes itens de decisão são perfeitamente integrados em mensagens e experiênci
 
 >[!IMPORTANT]
 >
->As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **Notificação por push** e **SMS**. A decisão do canal **Email** está disponível somente em Disponibilidade Limitada. Para solicitar acesso, entre em contato com o representante da Adobe. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
+>As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **Email**, **Notificação por push** e **SMS**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
