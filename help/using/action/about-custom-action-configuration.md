@@ -10,30 +10,15 @@ level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 TQID: https://experienceleague.adobe.com/q4zuwxmF2Gr5P5IkdZCKFHoA18-GGrlLD0f-WPCQ3q4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
 workflow-type: tm+mt
-source-wordcount: 2057
-ht-degree: 14%
+source-wordcount: 2200
+ht-degree: 13%
 
 ---
 
@@ -144,7 +129,7 @@ Ao configurar uma ação personalizada, você precisa definir os seguintes parâ
    >
    >Somente as portas padrão são permitidas ao definir uma ação personalizada: 80 para http e 443 para https.
 
-1. Selecione a chamada **[!UICONTROL Método]**: pode ser **[!UICONTROL POSTAR]**, **[!UICONTROL GET]** ou **[!UICONTROL PUT]**.
+1. Selecione a chamada **[!UICONTROL Método]**: pode ser **[!UICONTROL POST]**, **[!UICONTROL GET]** ou **[!UICONTROL PUT]**.
 
    >[!NOTE]
    >
@@ -184,7 +169,16 @@ Por padrão, o Adobe Journey Optimizer é compatível com TLS 1.3 para ações p
 
 Você pode usar o MTLS (Mutual Transport Layer Security) para garantir segurança aprimorada em conexões de saída para ações personalizadas de Adobe Journey Optimizer. O mTLS é um método de segurança completo para autenticação mútua que garante que ambas as partes que compartilham informações sejam quem afirmam ser antes que os dados sejam compartilhados. O mTLS inclui uma etapa adicional em comparação ao TLS, na qual o servidor também solicita o certificado do cliente e o verifica ao final.
 
-A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. Não é necessária uma configuração adicional da ação personalizada ou jornada para ativar o mTLS; isso ocorre automaticamente ao detectar um ponto de acesso habilitado para mTLS. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. Não é necessária uma configuração adicional da ação personalizada ou jornada para ativar o mTLS; isso ocorre automaticamente ao detectar um ponto de acesso habilitado para mTLS. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+
+>[!IMPORTANT]
+>
+>O Adobe gira periodicamente o certificado de cliente mTLS usado para conexões de ação personalizadas. Quando um novo certificado é emitido, o armazenamento de confiança do seu endpoint deve ser atualizado para aceitá-lo. Caso contrário, as conexões de saída do Journey Optimizer para o seu serviço falharão com um erro de incompatibilidade de certificado. Para evitar interrupções:
+>
+>* Verifique regularmente a [API de Certificado Público do Adobe](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate) para obter certificados atualizados associados aos seus serviços.
+>* Configure seu ponto de extremidade para aceitar **certificados sobrepostos** (tanto o certificado antigo quanto o novo simultaneamente), de modo que não haja lacuna de conectividade durante a rotação.
+>* Atualmente, o Adobe não envia notificações ativas quando um certificado é girado. É sua responsabilidade monitorar atualizações de certificados e manter seu armazenamento de confiança atualizado.
+>* A validação de confiança deve se basear na cadeia de certificados até a CA raiz (DigiCert), em vez de fixar em uma impressão digital específica do certificado de folha.
 
 ## Definir os parâmetros de carga {#define-the-message-parameters}
 
