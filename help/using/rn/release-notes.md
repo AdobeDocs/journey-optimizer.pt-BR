@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
 workflow-type: tm+mt
-source-wordcount: 3073
+source-wordcount: 3075
 ht-degree: 17%
 
 ---
@@ -244,15 +244,15 @@ O seguinte recurso de campanha orquestrada é esperado para os próximos dias ou
 
 ### Campanhas {#may-26-campaigns}
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
-
-* **Alertas de clientes para eventos de ciclo de vida de campanha** - Novos alertas do sistema agora notificam você sobre eventos-chave do ciclo de vida para campanhas acionadas por ação e API. Assine no nível da sandbox.
+* **Alertas de clientes para eventos de ciclo de vida de campanha** - Novos alertas do sistema agora notificam você sobre eventos-chave do ciclo de vida para campanhas acionadas por ação e API. Assine no nível da sandbox. [Leia mais](../reports/alerts.md)
 
   Data de disponibilidade: 1 de junho de 2026
+
++++ Em breve — **As informações abaixo estão sujeitas a alterações.**
 
 * **Substituir o campo de execução padrão em campanhas** - Disponível anteriormente no nível de jornada, agora é possível substituir o campo de execução padrão definido globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da campanha.
 
-  Data de disponibilidade: 1 de junho de 2026
+  Data de disponibilidade: 22 de maio de 2026
 
 +++
 
