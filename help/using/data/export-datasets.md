@@ -53,12 +53,12 @@ Informações detalhadas sobre cada destino estão disponíveis na documentaçã
 * [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=pt-BR){target="_blank"}
 * [Data Landing Zone](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=pt-BR){target="_blank"}
 * [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=pt-BR){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}.
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=pt-BR){target="_blank"}.
 
 
 ## Pré-requisitos {#prerequisites}
 
-Para exportar conjuntos de dados, você precisa das [permissões de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} listadas abaixo. Leia a [visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=pt-BR){target="_blank"} ou contate o administrador do produto para obter as permissões necessárias.
+Para exportar conjuntos de dados, você precisa das [permissões de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR#permissions){target="_blank"} listadas abaixo. Leia a [visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=pt-BR){target="_blank"} ou contate o administrador do produto para obter as permissões necessárias.
 
 | Categoria | Permissão |
 |--|--|

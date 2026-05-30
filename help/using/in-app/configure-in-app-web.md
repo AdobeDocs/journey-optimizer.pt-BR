@@ -67,7 +67,7 @@ ht-degree: 3%
 
 1. Salve sua configuração de **Ação** clicando em **Manter alterações**.
 
-1. Navegue até o menu **Fluxo de publicação**. Crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione a **Regra** recém-criada a ela. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
+1. Navegue até o menu **Fluxo de publicação**. Crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione a **Regra** recém-criada a ela. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=pt-BR#create-a-library){target="_blank"}
 
 1. Na sua **Biblioteca**, selecione **Salvar e criar no desenvolvimento**.
 
@@ -109,7 +109,7 @@ ht-degree: 3%
 
 1. Na seção **Contexto de Decisão**, defina os pares **Chave** e **Valor** que determinam qual experiência fornecer.
 
-1. Acesse o menu **Fluxo de publicação**, crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione sua **Regra** recém-criada. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
+1. Acesse o menu **Fluxo de publicação**, crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione sua **Regra** recém-criada. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=pt-BR#create-a-library){target="_blank"}
 
 1. Na sua **Biblioteca**, selecione **Salvar e criar no desenvolvimento**.
 

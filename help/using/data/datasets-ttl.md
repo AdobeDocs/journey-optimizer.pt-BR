@@ -44,7 +44,7 @@ Esta alteração está sendo implantada em **sandboxes de cliente existentes** e
 
 ## Conjuntos de dados afetados {#datasets}
 
-A tabela abaixo lista todos os conjuntos de dados afetados e seu respectivo Tempo de vida no data lake e no [Repositório de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
+A tabela abaixo lista todos os conjuntos de dados afetados e seu respectivo Tempo de vida no data lake e no [Repositório de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}.
 
 | Conjunto de dados | TTL do Data Lake | TTL de armazenamento de perfil |
 |------|-----|-----|
