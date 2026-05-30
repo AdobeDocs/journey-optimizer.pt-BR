@@ -48,7 +48,7 @@ O **[!DNL Adobe Experience Manager Assets]** oferece dois espaços de trabalho d
 
 * **[!DNL Assets as a Cloud Service]**: o Adobe Experience Manager Assets as a Cloud Service oferece uma solução de nuvem fácil de usar para operações eficientes de Gerenciamento de ativos digitais e Mídia dinâmica. Ele incorpora, de maneira contínua, recursos avançados, incluindo Inteligência artificial e Aprendizado de máquina.
 
-  Saiba mais em [documentação do Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html){target="_blank"}.
+  Saiba mais em [documentação do Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html?lang=pt-BR){target="_blank"}.
 
 * **[!DNL Assets Essentials]**: o Experience Manager Assets Essentials é uma solução leve Assets as a Cloud Service para gerenciamento e colaboração unificados de ativos. Com uma interface moderna e simplificada, ele capacita equipes de criação e marketing para armazenar, descobrir e distribuir ativos digitais com facilidade.
 
