@@ -6,16 +6,11 @@ description: Saiba como criar um esquema relacional no Adobe Experience Platform
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/0ffs03Mz3RCUtHmd66tQxonSm-P7tB5WMmKjVXsAi0g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: 
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1222
 ht-degree: 42%
@@ -38,7 +33,7 @@ Esta seção apresenta um passo a passo de como criar um esquema relacional na A
 
 1. [Assimile dados](ingest-data.md) em seu conjunto de dados de fontes compatíveis.
 
-➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational)
+➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## Fazer upload de um arquivo DDL{#ddl-upload}
 

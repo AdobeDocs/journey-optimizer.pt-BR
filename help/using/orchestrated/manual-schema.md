@@ -6,17 +6,11 @@ description: Saiba como criar esquemas relacionais diretamente pela interface do
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/vSXJMXYZECaVuB8PkrEB4Y9AXgJBHMq0bGd8Nb-BGh4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: 
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 932
 ht-degree: 11%
@@ -39,7 +33,7 @@ O exemplo a seguir define manualmente o esquema **Associações de fidelidade** 
 
 1. [Assimile dados](ingest-data.md) em seu conjunto de dados de fontes compatíveis.
 
-➡️ [Saiba mais sobre esquemas relacionais manuais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Saiba mais sobre esquemas relacionais manuais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Criar seu esquema {#schema}
 
@@ -121,7 +115,7 @@ Qualquer esquema usado para direcionamento deve incluir pelo menos um campo de i
 
 Depois de criar e salvar atributos, você pode vincular o esquema a outros esquemas relacionais definindo relacionamentos.
 
-➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Vincular esquemas {#link-schema}
 
