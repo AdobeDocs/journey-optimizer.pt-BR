@@ -10,27 +10,12 @@ level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 TQID: https://experienceleague.adobe.com/q4zuwxmF2Gr5P5IkdZCKFHoA18-GGrlLD0f-WPCQ3q4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 2200
 ht-degree: 13%
@@ -126,7 +111,7 @@ No Journey Optimizer, você pode aplicar políticas de consentimento e governan�
 
 Ao configurar uma ação personalizada, você precisa definir os seguintes parâmetros de **[!UICONTROL Configuração do Ponto de Extremidade]**:
 
-![](assets/action-response1bis.png){width="70%" align="left"}
+![](assets/action-response1bis.png){width="70%"}
 
 1. No campo **[!UICONTROL URL]**, especifique a URL do serviço externo:
 
@@ -184,7 +169,7 @@ Por padrão, o Adobe Journey Optimizer é compatível com TLS 1.3 para ações p
 
 Você pode usar o MTLS (Mutual Transport Layer Security) para garantir segurança aprimorada em conexões de saída para ações personalizadas de Adobe Journey Optimizer. O mTLS é um método de segurança completo para autenticação mútua que garante que ambas as partes que compartilham informações sejam quem afirmam ser antes que os dados sejam compartilhados. O mTLS inclui uma etapa adicional em comparação ao TLS, na qual o servidor também solicita o certificado do cliente e o verifica ao final.
 
-A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. Não é necessária uma configuração adicional da ação personalizada ou jornada para ativar o mTLS; isso ocorre automaticamente ao detectar um ponto de acesso habilitado para mTLS. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. Não é necessária uma configuração adicional da ação personalizada ou jornada para ativar o mTLS; isso ocorre automaticamente ao detectar um ponto de acesso habilitado para mTLS. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 >[!IMPORTANT]
 >
@@ -203,15 +188,15 @@ Você pode definir o parâmetro de carga útil conforme detalhado abaixo:
 
    Habilite a opção **[!UICONTROL Permitir valores NULL]** para manter valores Null na chamada externa. Observe que não há suporte total para o envio de matrizes de int, string etc. com valores Null em. Por exemplo, a seguinte matriz de inteiros `[1, null, 2, 3]` é enviada como `[1, 2, 3]` mesmo que esta opção esteja marcada. Além disso, se tal matriz for nula, ela será enviada como uma matriz vazia.
 
-   ![](assets/null-values.png){width="70%" align="left"}
+   ![](assets/null-values.png){width="70%"}
 
 1. Na seção **[!UICONTROL Resposta]**, cole um exemplo da carga retornada quando a chamada for bem-sucedida. Este campo é opcional e está disponível para todos os métodos de chamada. Para obter informações detalhadas sobre como aproveitar as respostas de chamada da API em ações personalizadas, consulte [esta página](../action/action-response.md).
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 1. (Opcional) Selecione **[!UICONTROL Definir uma carga de resposta de falha]** para habilitar o campo de carga de resposta de erro. Quando habilitado, use a seção **[!UICONTROL Resposta de Erro]** para colar um exemplo da carga retornada quando a chamada falha. Os mesmos requisitos se aplicam à carga da resposta (tipos de campo e formato). Saiba como aproveitar a carga de resposta de falha no jornada [aqui](../action/action-response.md).
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 >[!NOTE]
 >

@@ -6,13 +6,10 @@ description: Saiba como criar e agendar uma campanha orquestrada com o Adobe Jou
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1227
 ht-degree: 64%
@@ -163,7 +160,7 @@ Para configurar o cronograma da campanha, siga estas etapas:
 
 No exemplo a seguir, a atividade é configurada para que a campanha Orquestrada seja executada duas vezes por dia às 9h e às 12h, todos os dias da semana de 1º de outubro de 2025 a 1º de janeiro de 2026.
 
-![Scheduler configurado para executar a campanha duas vezes por dia, às 9h e às 12h](assets/scheduler-sample.png){width="50%" align="left"}
+![Scheduler configurado para executar a campanha duas vezes por dia, às 9h e às 12h](assets/scheduler-sample.png){width="50%"}
 
 ## Próximas etapas {#next}
 

@@ -9,24 +9,13 @@ role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 TQID: https://experienceleague.adobe.com/zGML5v-T-z6d-r8J8lzWBl-bCo7UX9zqH1XTlw42y-k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1523
 ht-degree: 18%
@@ -55,7 +44,7 @@ Você pode filtrar fragmentos em:
 * Estado (arquivado ou não)
 * Tags
 
-![](assets/fragment-list-filters.png){width="90%" align="left"}
+![](assets/fragment-list-filters.png){width="90%"}
 
 Você também pode optar por mostrar todos os fragmentos ou somente os itens que o usuário atual criou ou modificou.
 
@@ -159,7 +148,7 @@ Para editar um fragmento, siga as etapas abaixo.
 
 1. Se o fragmento que está sendo editado tiver o status **[!UICONTROL Ativo]**, clique no botão **[!UICONTROL Modificar]** para criar uma versão de rascunho do fragmento. Clique em **[!UICONTROL Confirmar]**.
 
-   ![](assets/fragment-live-modify.png){width="70%" align="left"}
+   ![](assets/fragment-live-modify.png){width="70%"}
 
    >[!NOTE]
    >
@@ -169,7 +158,7 @@ Para editar um fragmento, siga as etapas abaixo.
 
 1. Para modificar o conteúdo do fragmento, clique no botão **[!UICONTROL Editar]** e atualize seu conteúdo da mesma maneira que faria ao criar um fragmento do zero. [Saiba como criar um fragmento](create-fragments.md#content)
 
-   ![](assets/fragment-edit.png){width="70%" align="left"}
+   ![](assets/fragment-edit.png){width="70%"}
 
    >[!NOTE]
    >
@@ -195,13 +184,13 @@ Para incorporar atributos adicionais a um fragmento ativo, siga as etapas abaixo
 
 1. Duplique o fragmento existente usando o botão **[!UICONTROL Mais ações]**.
 
-   ![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+   ![](assets/fragment-list-more-actions.png){width="70%"}
 
 1. Selecione o fragmento duplicado para abri-lo e clique no botão **[!UICONTROL Editar]**.
 
 1. [Adicione os novos atributos desejados](../personalization/personalization-build-expressions.md#add) ao fragmento duplicado, como campos de personalização.
 
-   ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}
+   ![](assets/fragment-add-new-attribute.png){width="70%"}
 
 1. Salve as alterações e publique o novo fragmento. [Saiba como](create-fragments.md#publish)
 
@@ -214,11 +203,11 @@ Para incorporar atributos adicionais a um fragmento ativo, siga as etapas abaixo
 
 Você pode exibir a lista de jornadas, campanhas e modelos de conteúdo que estão usando um fragmento no momento. Para fazer isso, selecione **[!UICONTROL Explorar referências]** no menu **[!UICONTROL Mais ações]**, na lista de fragmentos ou na tela de propriedades do fragmento.
 
-![](assets/fragment-explore-references.png){width="70%" align="left"}
+![](assets/fragment-explore-references.png){width="70%"}
 
 Selecione uma guia para alternar entre jornadas, campanhas, modelos e fragmentos. Você pode ver o status e clicar em um nome a ser redirecionado para o item correspondente onde o fragmento é referenciado.
 
-![](assets/fragment-usage-screen.png){width="70%" align="left"}
+![](assets/fragment-usage-screen.png){width="70%"}
 
 >[!NOTE]
 >
@@ -230,7 +219,7 @@ Você pode limpar a lista de fragmentos dos itens que não são mais relevantes 
 
 Para fazer isso, clique no botão **[!UICONTROL Mais ações]** ao lado do fragmento desejado e selecione **[!UICONTROL Arquivar]**. Ele desaparecerá da lista de fragmentos, o que impede que os usuários o usem em emails ou modelos futuros.
 
-![](assets/fragment-list-archive.png){width="70%" align="left"}
+![](assets/fragment-list-archive.png){width="70%"}
 
 >[!NOTE]
 >
@@ -238,7 +227,7 @@ Para fazer isso, clique no botão **[!UICONTROL Mais ações]** ao lado do fragm
 
 Para desarquivar um fragmento, filtre os itens **[!UICONTROL Arquivados]** e selecione **[!UICONTROL Desarquivar]** no menu **[!UICONTROL Mais ações]**. Agora ele pode ser acessado novamente na lista de fragmentos e pode ser usado em qualquer email ou modelo.
 
-![](assets/fragment-list-unarchive.png){width="70%" align="left"}
+![](assets/fragment-list-unarchive.png){width="70%"}
 
 ## Exportar fragmentos para outra sandbox {#export}
 
