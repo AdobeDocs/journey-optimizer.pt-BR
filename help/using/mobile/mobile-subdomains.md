@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
 workflow-type: tm+mt
 source-wordcount: 1036
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -37,18 +37,18 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="Delegar um subdomínio de mensagem móvel"
+>title="Delegar um subdomínio de mensagens de dispositivos móveis"
 >abstract="Configure seu subdomínio para mensagens móveis. Você pode usar um subdomínio já delegado à Adobe ou configurar um novo subdomínio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="Delegar um subdomínio de mensagem móvel"
->abstract="Você deve configurar um subdomínio para usar nas mensagens móveis, pois esse subdomínio é necessário para criar uma configuração de SMS. Você pode usar um subdomínio já delegado à Adobe ou configurar um novo subdomínio."
+>title="Delegar um subdomínio de mensagens de dispositivos móveis"
+>abstract="Você deve configurar um subdomínio para usar com as mensagens de dispositivos móveis, pois ele será necessário para criar uma configuração de SMS. Você pode usar um subdomínio já delegado à Adobe ou configurar um novo subdomínio."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Criar uma configuração de SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="Selecionar um subdomínio de mensagem móvel"
+>title="Selecionar um subdomínio de mensagem de dispositivos móveis"
 >abstract="Para criar uma configuração de SMS, verifique se você configurou anteriormente pelo menos um subdomínio de SMS que possa ser selecionado na lista Nome de subdomínio."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Criar uma configuração de SMS"
 

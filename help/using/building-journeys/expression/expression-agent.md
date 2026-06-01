@@ -15,7 +15,7 @@ subfeature_v2: []
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 660
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="Gerar expressões com o Assistente de expressão"
->abstract="O Assistente de expressão usa a IA gerativa para ajudar você a criar e gerar expressões diretamente no editor de expressão avançado do Jornada. Por exemplo, em condições, **Otimizar** atividades ou **Aguardar** atividades que usam uma data personalizada. Descreva o que você precisa em linguagem simples e o assistente gera a expressão correspondente para você."
+>abstract="O Assistente de expressão usa a IA generativa para ajudar você a criar e gerar expressões diretamente no Editor de expressão avançado da jornada. Por exemplo, em condições, atividades de **Otimização** ou atividades de **Espera** que usam uma data personalizada. Descreva o que você precisa em linguagem simples e o assistente gera a expressão correspondente para você."
 
 >[!AVAILABILITY]
 >

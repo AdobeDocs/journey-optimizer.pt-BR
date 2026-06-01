@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 748
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Criar uma mensagem para dispositivo móvel"
->abstract="Para criar uma mensagem móvel, adicione uma ação SMS em uma jornada ou campanha e comece a personalizá-la com o editor de personalização."
+>abstract="Para criar uma mensagem para dispositivos móveis, adicione uma ação de SMS em uma jornada ou campanha e comece a personalizá-la com o editor de personalização."
 
 >[!AVAILABILITY]
 >

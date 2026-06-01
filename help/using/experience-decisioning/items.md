@@ -15,7 +15,7 @@ subfeature_v2:
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 2347
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -42,7 +42,7 @@ Para criar um item de decisão, navegue até **[!UICONTROL Decisão]** > **[!UIC
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_ajo_fragment"
 >title="Mapear um fragmento de conteúdo do Journey Optimizer para este item de decisão"
->abstract="Anexe um fragmento de conteúdo da biblioteca de fragmentos do Journey Optimizer."
+>abstract="Anexar um fragmento de conteúdo da biblioteca de fragmentos do Journey Optimizer."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_aem_fragment"
