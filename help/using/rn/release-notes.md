@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 11d7941699213e9a0f3172bea2f4f46f303741bc
+source-git-commit: 6a889427ef6b4ff1ee86bd648d6bf0bf55547be6
 workflow-type: tm+mt
-source-wordcount: 3164
-ht-degree: 17%
+source-wordcount: 2891
+ht-degree: 18%
 
 ---
 
@@ -209,38 +209,40 @@ Os recursos e melhorias a seguir foram adicionados às campanhas orquestradas ne
 
   Data de disponibilidade: 20 de maio de 2026
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-O seguinte recurso de campanha orquestrada é esperado para os próximos dias ou semanas.
+The following orchestrated campaign capability is expected in the upcoming days or weeks.
 
 <table>
 <thead>
 <tr>
-<th><strong>Segmentação baseada em arquivo para campanhas orquestradas (disponibilidade limitada)</strong><br/></th>
+<th><strong>File-based targeting for orchestrated campaigns (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>As campanhas orquestradas agora permitem o carregamento de um arquivo CSV ou TXT diretamente na tela da campanha como público alvo, sem primeiro assimilar o arquivo na Adobe Experience Platform. Os dados do arquivo são consumidos no tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform. Durante a configuração do arquivo, você pode definir mapeamentos de coluna, tipos de dados, tratamento NULL e políticas de erro por coluna. Isso oferece suporte a envios ad hoc ou campanhas de lista de parceiros em que a criação de um pipeline de assimilação completo não é prática.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p>Data de disponibilidade: 1 de junho de 2026</p>
+<p>Orchestrated campaigns now support loading a CSV or TXT file directly into the campaign canvas as the targeting audience, without first ingesting the file into Adobe Experience Platform. The file data is consumed at execution time and is not persisted as an Adobe Experience Platform dataset. During file setup, you can define column mappings, data types, NULL handling, and per-column error policies. This supports ad-hoc sends or partner list campaigns where building a full ingestion pipeline is not practical.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Availability date: June 1, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Personalização baseada em loop para dados relacionais** - O editor de personalização agora oferece suporte a um Bloco de loop que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de gravação de expressão.
+* **Loop-based personalization for relational data** - The personalization editor now supports a Loop block that iterates over relational collections, such as orders, accounts, or bookings, and renders one content block per record inside a single email or SMS. Collections are configured through the data picker using personalization tokens, with no expression writing required.
 
-  Data de disponibilidade: início de junho de 2026
+  Availability date: Early June, 2026
 
-* **Personalizar detalhes do remetente de email por destinatário e campanha** - As campanhas orquestradas agora oferecem suporte à personalização de campos de cabeçalho de email, incluindo Nome do remetente, Endereço do remetente e Responder para, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o supervisor, o local ou a ramificação relevante para cada destinatário, em vez de rotear todos os envios por meio de um único endereço corporativo.
+* **Personalize email sender details per recipient and campaign** - Orchestrated campaigns now support personalization of email header fields, including From name, From address, and Reply-To, using profile attributes or relational data. This allows sender details to reflect the relevant advisor, location, or branch for each recipient, rather than routing all sends through a single corporate address.
 
-  Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso.
+  Header values can be set at the channel level and overridden per campaign using contextual data for more precise control.
 
-  Data de disponibilidade: início de junho de 2026
+  Availability date: Early June, 2026
 
 +++
+-->
 
 ### Campanhas {#may-26-campaigns}
 
