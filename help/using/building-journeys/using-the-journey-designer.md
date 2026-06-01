@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 1770
+source-wordcount: 1675
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ A **barra de ferramentas**, localizada no canto superior direito da tela, permit
 
 <!--and show/hide timeout and error paths-->
 
-![Jornada barra de ferramentas com controles de zoom, grade e captura de tela](assets/toolbar.png){width="70%" align="left"}
+![Jornada barra de ferramentas com controles de zoom, grade e captura de tela](assets/toolbar.png){width="70%"}
 
 O **painel de configuração da atividade** aparece quando você clica em uma atividade na paleta. Preencha os campos obrigatórios. Clique no ícone **[!UICONTROL Excluir]** para excluir a atividade. Clique em **[!UICONTROL Cancelar]** para cancelar as modificações ou em **[!UICONTROL Ok]** para confirmar. Para excluir atividades, você também pode selecionar uma (ou várias) atividades e pressionar a tecla backspace. Pressionar a tecla Escape fechará o painel de configuração da atividade.
 

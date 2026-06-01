@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 794
 ht-degree: 3%
@@ -132,7 +132,7 @@ Você pode ver que `products` é uma matriz de dois objetos. Você precisa ter p
 
 1. Para cada campo, defina o rótulo que será exibido na tela de jornada.
 
-   ![Função de coleção de filtros com interface de construtor de condições](assets/uc-collection-2.png){width="70%" align="left"}
+   ![Função de coleção de filtros com interface de construtor de condições](assets/uc-collection-2.png){width="70%"}
 
 1. Crie sua jornada e adicione a ação personalizada que você criou. Saiba mais [nesta página](../building-journeys/using-custom-actions.md).
 
@@ -142,7 +142,7 @@ Você pode ver que `products` é uma matriz de dois objetos. Você precisa ter p
 
 1. Para cada um dos campos de objeto a seguir, digite o nome do campo correspondente do esquema XDM de origem. Se os nomes forem idênticos, isso não será necessário. Em nosso exemplo, precisamos apenas definir `product id` e &quot;cor&quot;.
 
-   ![Função de classificação de coleção com configuração de ordenação](assets/uc-collection-4.png){width="50%" align="left"}
+   ![Função de classificação de coleção com configuração de ordenação](assets/uc-collection-4.png){width="50%"}
 
 Para o campo de matriz, também é possível usar o editor de expressão avançado para executar a manipulação de dados. No exemplo a seguir, usamos as funções [filtro](functions/list-functions.md#filter) e [interseção](functions/list-functions.md#intersect):
 
@@ -206,7 +206,7 @@ Embora as coleções em ações personalizadas forneçam flexibilidade para tran
 
 Para tipos heterogêneos e arrays de arrays, o array é definido com o tipo listAny. Você só pode mapear itens individuais, mas não pode alterar a matriz para a variável.
 
-![Coleção heterogênea com tipos de dados mistos e seleção de campo](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![Coleção heterogênea com tipos de dados mistos e seleção de campo](assets/uc-collection-heterogeneous.png){width="70%"}
 
 Exemplo de tipo heterogêneo:
 

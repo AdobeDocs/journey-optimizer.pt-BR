@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1051
 ht-degree: 1%
@@ -40,7 +40,7 @@ Você pode testar suas ações personalizadas enviando chamadas de API da seçã
 
 Como administrador, use o recurso **[!UICONTROL Enviar solicitação de teste]** para validar as configurações de ação personalizadas fazendo chamadas de API reais diretamente do Adobe Journey Optimizer. Esse recurso garante que a estrutura de solicitação, os cabeçalhos, a autenticação e a carga sejam formatados corretamente antes de serem usados em uma jornada.
 
-![](assets/send-test-request.png){width="70%" align="left"}
+![](assets/send-test-request.png){width="70%"}
 
 O uso desse recurso simplifica o processo de teste e validação, garantindo que as ações personalizadas funcionem corretamente nas jornadas ativas.
 
@@ -67,7 +67,7 @@ Para testar uma ação personalizada, siga estas etapas:
 
 1. Navegue até a tela de configuração **Ações** e selecione uma ação personalizada.
 1. Clique no botão **[!UICONTROL Enviar solicitação de teste]**, na parte inferior da tela de configuração de ação.
-   ![Botão Enviar solicitação de teste no painel Configuração de ação](assets/test-request.png){width="70%" align="left"}
+   ![Botão Enviar solicitação de teste no painel Configuração de ação](assets/test-request.png){width="70%"}
 1. Na janela pop-up, permitindo que você especifique parâmetros de solicitação:
 
    * Se o método de ação personalizado **for GET**, nenhuma carga será necessária.

@@ -30,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 2200
 ht-degree: 13%
@@ -126,7 +126,7 @@ No Journey Optimizer, você pode aplicar políticas de consentimento e governan�
 
 Ao configurar uma ação personalizada, você precisa definir os seguintes parâmetros de **[!UICONTROL Configuração do Ponto de Extremidade]**:
 
-![](assets/action-response1bis.png){width="70%" align="left"}
+![](assets/action-response1bis.png){width="70%"}
 
 1. No campo **[!UICONTROL URL]**, especifique a URL do serviço externo:
 
@@ -203,15 +203,15 @@ Você pode definir o parâmetro de carga útil conforme detalhado abaixo:
 
    Habilite a opção **[!UICONTROL Permitir valores NULL]** para manter valores Null na chamada externa. Observe que não há suporte total para o envio de matrizes de int, string etc. com valores Null em. Por exemplo, a seguinte matriz de inteiros `[1, null, 2, 3]` é enviada como `[1, 2, 3]` mesmo que esta opção esteja marcada. Além disso, se tal matriz for nula, ela será enviada como uma matriz vazia.
 
-   ![](assets/null-values.png){width="70%" align="left"}
+   ![](assets/null-values.png){width="70%"}
 
 1. Na seção **[!UICONTROL Resposta]**, cole um exemplo da carga retornada quando a chamada for bem-sucedida. Este campo é opcional e está disponível para todos os métodos de chamada. Para obter informações detalhadas sobre como aproveitar as respostas de chamada da API em ações personalizadas, consulte [esta página](../action/action-response.md).
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 1. (Opcional) Selecione **[!UICONTROL Definir uma carga de resposta de falha]** para habilitar o campo de carga de resposta de erro. Quando habilitado, use a seção **[!UICONTROL Resposta de Erro]** para colar um exemplo da carga retornada quando a chamada falha. Os mesmos requisitos se aplicam à carga da resposta (tipos de campo e formato). Saiba como aproveitar a carga de resposta de falha no jornada [aqui](../action/action-response.md).
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 >[!NOTE]
 >

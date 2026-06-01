@@ -12,7 +12,7 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 338
 ht-degree: 56%
@@ -63,4 +63,4 @@ Este é um exemplo de uma campanha Orquestrada com duas atividades **[!UICONTROL
 
 No exemplo abaixo, a atividade **[!UICONTROL Criar público-alvo]** usa o construtor de regras para filtrar os perfis por seu plano de assinatura. Uma condição está definida no atributo `plan` para incluir apenas perfis em que `plan = "basic"`, restringindo o público-alvo aos assinantes da camada básica antes de passá-los para a próxima atividade.
 
-![](../assets/build-audience-plan.png){width="50%" align="left"}
+![](../assets/build-audience-plan.png){width="50%"}

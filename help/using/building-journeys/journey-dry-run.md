@@ -32,7 +32,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1082
 ht-degree: 16%
@@ -79,7 +79,7 @@ Durante o Dry Run, a jornada é executada no modo de simulação, aplicando os s
 
   Para aprimorar a legibilidade, as ações personalizadas e as atividades de canal aparecem esmaecidas durante a execução de uma simulação.
 
-  ![Atividades de ação esmaecidas em uma jornada de execução seca](assets/dry-run-greyed-activities.png){width="80%" align="left"}
+  ![Atividades de ação esmaecidas em uma jornada de execução seca](assets/dry-run-greyed-activities.png){width="80%"}
 
 * As **fontes de dados**, incluindo as fontes de dados externas, e as atividades **Wait** são desabilitadas por padrão durante a Execução seca. No entanto, você pode alterar esse comportamento [ao ativar o modo de simulação](#journey-dry-run-start).
 
@@ -107,7 +107,7 @@ Para ativar o Dry run, siga estas etapas:
 
 1. Selecione se você deseja habilitar ou desabilitar as atividades de **Espera** e as chamadas de **Fontes de dados externas**, e confirme a publicação de execução em andamento.
 
-   ![Confirmar a publicação de simulação da jornada](assets/dry-run-publish.png){width="50%" align="left"}
+   ![Confirmar a publicação de simulação da jornada](assets/dry-run-publish.png){width="50%"}
 
    Uma mensagem de status, **[!UICONTROL Ativando Dry run]**, é exibida enquanto a transição está ocorrendo.
 
@@ -141,7 +141,7 @@ As jornadas de simulação também podem ser interrompidas manualmente. Para des
 1. Selecione o botão **[!UICONTROL Fechar]** para finalizar o teste.
 Os links para as últimas 24 horas e relatórios de todos os tempos estão disponíveis na tela de confirmação.
 
-   ![Parar a execução de simulação de jornada](assets/dry-run-stop.png){width="50%" align="left"}
+   ![Parar a execução de simulação de jornada](assets/dry-run-stop.png){width="50%"}
 
 1. Clique em **[!UICONTROL Voltar ao rascunho]** para confirmar.
 

@@ -29,9 +29,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 2649
+source-wordcount: 2585
 ht-degree: 5%
 
 ---
@@ -71,7 +71,7 @@ Para pausar a jornada, siga estas etapas:
 
 1. Selecione como gerenciar os perfis que estão atualmente na jornada.
 
-   ![Opções de pausa da jornada](assets/pause-confirm.png){width="50%" align="left"}
+   ![Opções de pausa da jornada](assets/pause-confirm.png){width="50%"}
 
    É possível:
 
@@ -84,7 +84,7 @@ Para pausar a jornada, siga estas etapas:
 
 O número máximo de perfis que podem ser mantidos em jornadas pausadas para sua Organização está visível no inventário de jornadas. Ela só é visível quando pelo menos uma jornada está pausada. Esse indicador também mostra o número total de jornadas pausadas. Ele é atualizado a cada 30 minutos. Saiba mais em [Medidas de proteção e limitações](#guardrails-and-limitations).
 
-![Número de jornadas e perfis pausados no momento](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
+![Número de jornadas e perfis pausados no momento](assets/profiles-in-paused-journeys.png){width="50%"}
 
 Na lista de suas jornadas, você pode pausar uma ou várias jornadas do **Live**. Para pausar um grupo de jornadas (_pausa em massa_), selecione-as na lista e clique no botão **Pausar** na barra azul na parte inferior da tela. O botão **Pausar** só estará disponível quando as jornadas do **Live** forem selecionadas.
 

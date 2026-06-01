@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1008
 ht-degree: 2%
@@ -107,7 +107,7 @@ Você também pode:
 1. Na lista **[!UICONTROL Jornadas]**, clique na jornada que deseja fechar.
 1. No canto superior direito, clique na seta para baixo.
 
-   ![Menu de opções Concluir mostrando o fim da jornada e as ações alternativas](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
+   ![Menu de opções Concluir mostrando o fim da jornada e as ações alternativas](assets/finish_drop_down_list.png){width="50%" zoomable="yes"}
 
 1. Clique em **[!UICONTROL Fechar para novas entradas]** e confirme na caixa de diálogo.
 
@@ -127,7 +127,7 @@ Você também pode:
 1. Na lista **[!UICONTROL Jornadas]**, clique na jornada que deseja parar.
 1. No canto superior direito, clique na seta para baixo.
 
-   ![Opções adicionais de conclusão, incluindo jornada de fechamento e limpeza](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
+   ![Opções adicionais de conclusão, incluindo jornada de fechamento e limpeza](assets/finish_drop_down_list2.png){width="50%" zoomable="yes"}
 
 1. Clique em **[!UICONTROL Parar]** e confirme na caixa de diálogo.
 

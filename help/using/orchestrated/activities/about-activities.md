@@ -14,7 +14,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 530
 ht-degree: 58%
@@ -31,7 +31,7 @@ Todas as atividades estão detalhadas nas seções abaixo:
 * [Atividades do canal](#channel)
 * [Atividades de controle do fluxo](#flow-control)
 
-![Lista de atividades disponíveis na tela](../assets/orchestrated-activities.png){width="80%" align="left"}
+![Lista de atividades disponíveis na tela](../assets/orchestrated-activities.png){width="80%"}
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Consulte [Medidas de proteção e limitações](../guardrails.md) para todas as 
 
 Estas atividades são especificamente para direcionamento. Elas permitem criar uma ou mais direções definindo um público-alvo e dividindo ou combinando esses públicos-alvo usando operações de interseção, união ou exclusão.
 
-![Lista de atividades de direcionamento](../assets/targeting-activities.png){width="40%" align="left"}
+![Lista de atividades de direcionamento](../assets/targeting-activities.png){width="40%"}
 
 As atividades de direcionamento disponíveis são:
 
@@ -81,7 +81,7 @@ Saiba como [criar uma ação de canal em uma campanha orquestrada](channels.md).
 
 As atividades a seguir são específicas para organizar e executar campanhas orquestradas. Sua principal tarefa é coordenar as outras atividades.
 
-![Lista de atividades de controle do fluxo](../assets/flow-control-activities.png){width="20%" align="left"}
+![Lista de atividades de controle do fluxo](../assets/flow-control-activities.png){width="20%"}
 
 As atividades de controle de fluxo disponíveis são:
 
