@@ -7,25 +7,20 @@ feature: Personalization
 topic: Personalization
 role: Admin
 level: Intermediate
-badge: label="Disponibilidade limitada" type="Informative"
 keywords: criptografia, URL, rastreamento, página de aterrissagem, registro de chaves, personalização, segurança, privacidade, sandbox
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 0db9be747a60ae40c881227ce7b8da251abec042
 workflow-type: tm+mt
-source-wordcount: 695
-ht-degree: 2%
+source-wordcount: 663
+ht-degree: 1%
 
 ---
 
 # Criptografar parâmetros de URL {#url-parameter-encryption}
 
 >[!AVAILABILITY]
->
->Esse recurso está disponível em Disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 >
 >No momento, esse recurso só está disponível para o canal de email.
 
@@ -54,15 +49,9 @@ Uma URL de página de aterrissagem pode usar um parâmetro de consulta, como `to
 
 Antes de poder usar o auxiliar de criptografia de parâmetro de URL, é necessário criar uma chave. Para isso, siga as etapas abaixo.
 
->[!NOTE]
->
->Atualmente não há permissões específicas para acessar e gerenciar chaves. As funções que concedem acesso à seção **[!UICONTROL Configurações]** em **[!UICONTROL Administração]** também concedem acesso ao Registro de Chave. No entanto, permissões específicas estão planejadas para uma versão futura.
-
-<!--
 >[!IMPORTANT]
 >
->To access and manage keys, you you must have the **View Key Registry** and **Manage Key Registry** permissions granted. [Learn more](../administration/high-low-permissions.md)
--->
+>Para acessar e gerenciar chaves, você deve ter as permissões **Exibir Registro de Chave** e **Gerenciar Registro de Chave** concedidas. [Saiba mais](../administration/high-low-permissions.md#administration-permissions)
 
 1. Vá para **[!UICONTROL Administração]** > **[!UICONTROL Configurações]**.
 
