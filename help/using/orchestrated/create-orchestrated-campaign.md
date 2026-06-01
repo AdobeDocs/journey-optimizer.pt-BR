@@ -6,17 +6,13 @@ description: Saiba como criar e agendar uma campanha orquestrada com o Adobe Jou
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1227
-ht-degree: 55%
+ht-degree: 64%
 
 ---
 
@@ -63,7 +59,7 @@ Para criar uma campanha Orquestrada, siga estas etapas:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Scheduler"
->abstract="Como gerente de campanha, você pode agendar campanhas para serem iniciadas automaticamente em horários específicos ou defini-las como **Acionadas por um sinal** para que iniciem quando chamadas da API REST ou de outra atividade **Fim** de campanha orquestrada. [Saiba mais](trigger-orchestrated-campaign.md)"
+>abstract="Como gerente de campanha, você pode programar a inicialização automática de campanhas para horários específicos ou configurá-las como **Acionadas por um sinal**, para que sejam iniciadas quando chamadas pela API REST ou pela atividade de **Término** de outra campanha orquestrada. [Saiba mais](trigger-orchestrated-campaign.md)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
@@ -73,7 +69,7 @@ Para criar uma campanha Orquestrada, siga estas etapas:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="Opções do Scheduler"
->abstract="Escolha como a campanha é iniciada: em um agendamento único ou recorrente (uma vez, diariamente, semanalmente, mensalmente etc.) ou **Acionado por um sinal** para que aguarde uma chamada de API ou uma atividade **End** de campanha upstream. Para campanhas acionadas por sinal, é possível definir parâmetros a serem transmitidos na carga. [Saiba mais](trigger-orchestrated-campaign.md)"
+>abstract="Escolha como a campanha é iniciada: em um agendamento único ou recorrente (uma vez, diariamente, semanalmente, mensalmente, etc.) ou **Acionado por um sinal** para que aguarde uma chamada de API ou uma atividade de **Término** de campanha upstream. Para campanhas acionadas por sinal, é possível definir parâmetros a serem transmitidos no conteúdo. [Saiba mais](trigger-orchestrated-campaign.md)"
 
 Por padrão, as campanhas orquestradas começam quando ativadas manualmente e terminam após a execução de suas atividades associadas. Se preferir atrasar a execução ou executar a campanha de forma recorrente, é possível definir uma programação para a campanha.
 

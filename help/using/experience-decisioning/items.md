@@ -7,15 +7,12 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 2347
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -42,7 +39,7 @@ Para criar um item de decisão, navegue até **[!UICONTROL Decisão]** > **[!UIC
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_ajo_fragment"
 >title="Mapear um fragmento de conteúdo do Journey Optimizer para este item de decisão"
->abstract="Anexe um fragmento de conteúdo da biblioteca de fragmentos do Journey Optimizer."
+>abstract="Anexar um fragmento de conteúdo da biblioteca de fragmentos do Journey Optimizer."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_aem_fragment"
@@ -89,8 +86,8 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 >abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos-alvo ou regras para restringir o item somente a perfis específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
