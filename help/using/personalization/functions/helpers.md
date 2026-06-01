@@ -9,7 +9,7 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: aba0c6daa1f1f1258b424bc5b57fbca694dfabbf
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 1121
 ht-degree: 4%
@@ -384,3 +384,4 @@ Você pode aplicar o auxiliar a um parâmetro, vários ou todos os parâmetros e
 * As chaves revogadas não devem ser usadas para a nova criptografia. Siga sua política de segurança para rodízio e desativação.
 
 * O processo de criptografia que consome muitos recursos, usando a função `Encrypt`, pode afetar a taxa de transferência no momento da renderização.
+

@@ -32,7 +32,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 99aa72f0a45e504b0a22ca171b2f96e90c28e1af
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 1210
 ht-degree: 2%
@@ -73,4 +73,3 @@ As permissões internas representam as diferentes permissões que podem ser atri
 | Serviço de tradução | **[!DNL Manage translation in house]**: ler, criar, editar e excluir a tradução internamente.</br>**[!DNL Manage translation projects]**: ler, criar, editar e excluir projetos de tradução.</br> **[!DNL Manage translation reviews]**: ler, criar, editar e excluir revisões de tradução.</br>**[!DNL Manage translation settings]**: ler, criar, editar e excluir configurações de tradução.</br>**[!DNL Manage translation tasks]**: ler, criar, editar e excluir tarefas de tradução.</br>**[!DNL View translation in house]**: acesso somente leitura para tradução interna.</br>**[!DNL View translation projects]**: acesso somente leitura para projetos de tradução.</br>**[!DNL View translation reviews]**: acesso somente leitura para revisões de tradução.</br>**[!DNL View translation tasks]**: acesso somente leitura para tarefas de tradução. |
 
 {style="table-layout:fixed"}
-
