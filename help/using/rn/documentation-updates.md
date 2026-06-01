@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 3b761a8741061aac35ed39c6bb41bd00ab9cbcaf
+source-git-commit: 11d7941699213e9a0f3172bea2f4f46f303741bc
 workflow-type: tm+mt
-source-wordcount: 8040
-ht-degree: 89%
+source-wordcount: 8083
+ht-degree: 88%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 89%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Maio de 2026 {#may-2026}
+
+* Duas novas permissões de alto nível foram adicionadas: **Gerenciar Registro de Chave**, que permite que os usuários exibam, criem, girem e revoguem chaves no Registro de Chave, e **Exibir Registro de Chave**, que permite que os usuários exibam a listagem de Registro de chave e os detalhes da chave. [Leia mais](../administration/high-low-permissions.md#administration-permissions)
 
 * A documentação **Usar políticas de decisão em mensagens** agora descreve como visualizar a estrutura completa de uma política de decisão do resumo da campanha e copiar um resumo técnico JSON para a área de transferência para solução de problemas. [Leia mais](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 

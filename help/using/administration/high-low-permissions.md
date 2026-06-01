@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d8be8fcb4fb36c583a3d0b4d57f127686d682866
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: 1516
 ht-degree: 0%
 
 ---
@@ -207,10 +207,10 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
       * campaign-read
       * campaign-publish
      <!--
-      * experiments.activate
-     -->
+      * experiments.activate    
+      -->
 
-+++
+  +++
 
 * A permissão de alto nível **[!DNL View campaigns report]** permite que os usuários leiam e editem o relatório de campanhas.
 
@@ -222,9 +222,9 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
      <!--
       * experiments.read
       * experiments_report.read
-     -->
+      -->
 
-+++
+  +++
 
 ## Recurso de gestão de decisão {#decisions-permissions}
 
@@ -352,6 +352,16 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++
 
+* A permissão de alto nível **[!DNL Manage key registry]** permite que os usuários exibam, criem, girem e revoguem chaves no registro de chaves.
+
+  +++ Essa permissão inclui as seguintes permissões de baixo nível:  
+
+   * Específico do Journey Optimizer:
+      * key-registry.read
+      * key-registry.write
+
+  +++
+
 * A permissão de alto nível **[!DNL Manage landing page settings]** permite que os usuários leiam, criem e editem subdomínios e configurações predefinidas da página de aterrissagem.
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível: 
@@ -408,7 +418,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++
 
-* A permissão de alto nível **[!DNL Manage Seedlist]** permite que os usuários leiam, criem, editem e excluam a Seedlist.
+* A permissão de alto nível **[!DNL Manage seed lists]** permite que os usuários leiam, criem, editem e excluam listas de propagação.
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível: 
 
@@ -459,6 +469,15 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
    * Específico do Journey Optimizer:
 
       * file_routing.read
+
+  +++
+
+* A permissão de alto nível **[!DNL View key registry]** permite que os usuários exibam a lista de registro de chaves e os detalhes da chave.
+
+  +++ Essa permissão inclui as seguintes permissões de baixo nível:  
+
+   * Específico do Journey Optimizer:
+      * key-registry.read
 
   +++
 

@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
 workflow-type: tm+mt
-source-wordcount: 1158
-ht-degree: 15%
+source-wordcount: 1082
+ht-degree: 16%
 
 ---
 
@@ -84,6 +84,7 @@ Durante o Dry Run, a jornada é executada no modo de simulação, aplicando os s
 * As **fontes de dados**, incluindo as fontes de dados externas, e as atividades **Wait** são desabilitadas por padrão durante a Execução seca. No entanto, você pode alterar esse comportamento [ao ativar o modo de simulação](#journey-dry-run-start).
 
 * Os nós **Reaction** não são executados: todos os perfis que entram nele serão encerrados com êxito. No entanto, as seguintes regras de prioridade se aplicam:
+
    * Se um nó **Reaction** for usado com um ou vários nós **unitary event** em paralelo, os perfis sempre passarão pelo evento de reação.
    * Se um nó **Reaction** for usado com um ou vários nós **response event** em paralelo, os perfis sempre irão passar pelo primeiro na tela (o que está na parte superior).
 
@@ -152,7 +153,7 @@ Os links para as últimas 24 horas e relatórios de todos os tempos estão dispo
 * As jornadas de simulação não afetam as regras de negócios
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
 * As ações de **Salto** não estão habilitadas no Modo de Execução Seco.
-Quando uma jornada de origem aciona um evento **Jump** para um evento de destino, esse evento de salto não se aplica a uma versão de jornada Dry run. Por exemplo, se a versão mais recente de uma jornada estiver em Execução a seco e a anterior for **Ativa**, o evento de salto ignorará a versão de Execução a seco e será aplicável somente para a versão **Ativa**.
+Quando uma jornada de origem aciona um evento **Jump** para um evento de destino, esse evento de salto não se aplica a uma versão de jornada Dry run. Por exemplo, se a versão mais recente de uma jornada estiver em execução a seco e a anterior for **Live**, o evento de salto ignorará a versão de execução a seco e será aplicável somente para a versão **Live**.
 
 ## Jornada eventos de etapa e simulação {#journey-step-events}
 
