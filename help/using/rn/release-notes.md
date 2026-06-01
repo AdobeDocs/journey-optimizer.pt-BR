@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
+source-git-commit: de8def41d4f0860456923adc959e76acb790158a
 workflow-type: tm+mt
 source-wordcount: 3075
 ht-degree: 17%
@@ -170,15 +170,15 @@ Os seguintes recursos do jornada são esperados nos próximos dias ou semanas.
 
   Observe que esse comportamento não se aplica a jornadas que incluem nós que causam períodos de espera, como nós de espera, nós de reação ou transições acionadas por evento. Essas jornadas permanecem sujeitas ao tempo limite global padrão de 91 dias.
 
-  Data de disponibilidade: 2 de junho de 2026
+  Data de disponibilidade: início de junho de 2026
 
 * **Autenticação Personalizada Baseada em Certificado em ações personalizadas** - As ações personalizadas agora oferecem suporte à Autenticação Personalizada Baseada em Certificado. Ao adicionar `subType: "certificateCredential"` a uma configuração de autorização personalizada, o Journey Optimizer usa o certificado gerenciado da Adobe para assinar uma declaração de cliente JWT e trocá-la por um token de acesso — não é necessário nenhum segredo de cliente. Projetado para APIs empresariais que impõem a verificação de identidade baseada em certificados, como o Azure Entra ID.
 
-  Data de disponibilidade: 2 de junho de 2026
+  Data de disponibilidade: início de junho de 2026
 
 * **Suporte de identificador complementar para públicos externos** - Os identificadores complementares no jornada agora têm suporte para públicos externos, incluindo públicos importados de um arquivo CSV e públicos criados com a Composição de Público Federado. Você pode designar qualquer atributo que não seja de identidade ou atributo de identidade que não seja de pessoa do público-alvo como a ID complementar; nenhum rótulo de esquema é necessário.
 
-  Data de disponibilidade: 1 de junho de 2026
+  Data de disponibilidade: início de junho de 2026
 
 +++
 
