@@ -10,32 +10,16 @@ keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
 workflow-type: tm+mt
-source-wordcount: 1158
-ht-degree: 15%
+source-wordcount: 1082
+ht-degree: 16%
 
 ---
 
@@ -84,6 +68,7 @@ Durante o Dry Run, a jornada é executada no modo de simulação, aplicando os s
 * As **fontes de dados**, incluindo as fontes de dados externas, e as atividades **Wait** são desabilitadas por padrão durante a Execução seca. No entanto, você pode alterar esse comportamento [ao ativar o modo de simulação](#journey-dry-run-start).
 
 * Os nós **Reaction** não são executados: todos os perfis que entram nele serão encerrados com êxito. No entanto, as seguintes regras de prioridade se aplicam:
+
    * Se um nó **Reaction** for usado com um ou vários nós **unitary event** em paralelo, os perfis sempre passarão pelo evento de reação.
    * Se um nó **Reaction** for usado com um ou vários nós **response event** em paralelo, os perfis sempre irão passar pelo primeiro na tela (o que está na parte superior).
 
@@ -152,7 +137,7 @@ Os links para as últimas 24 horas e relatórios de todos os tempos estão dispo
 * As jornadas de simulação não afetam as regras de negócios
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
 * As ações de **Salto** não estão habilitadas no Modo de Execução Seco.
-Quando uma jornada de origem aciona um evento **Jump** para um evento de destino, esse evento de salto não se aplica a uma versão de jornada Dry run. Por exemplo, se a versão mais recente de uma jornada estiver em Execução a seco e a anterior for **Ativa**, o evento de salto ignorará a versão de Execução a seco e será aplicável somente para a versão **Ativa**.
+Quando uma jornada de origem aciona um evento **Jump** para um evento de destino, esse evento de salto não se aplica a uma versão de jornada Dry run. Por exemplo, se a versão mais recente de uma jornada estiver em execução a seco e a anterior for **Live**, o evento de salto ignorará a versão de execução a seco e será aplicável somente para a versão **Live**.
 
 ## Jornada eventos de etapa e simulação {#journey-step-events}
 
@@ -172,4 +157,4 @@ Ao analisar **métricas de relatórios do jornada** usando o serviço de consult
 
 Saiba como testar suas jornadas neste vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464687/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
