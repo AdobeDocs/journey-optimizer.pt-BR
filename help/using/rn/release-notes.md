@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6a889427ef6b4ff1ee86bd648d6bf0bf55547be6
+source-git-commit: 53c18170018fa7489bf09f0ba652b66f441967ac
 workflow-type: tm+mt
-source-wordcount: 2891
-ht-degree: 18%
+source-wordcount: 2561
+ht-degree: 21%
 
 ---
 
@@ -97,19 +97,20 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 
 Os seguintes recursos do jornada são esperados nos próximos dias ou semanas.
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Otimização do caminho de jornada - Direcionamento (Disponibilidade geral)</strong><br/></th>
+<th><strong>Journey path optimization – Targeting (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Use o novo nó <strong>Otimizar</strong> para direcionar públicos-alvo específicos a fim de determinar o melhor caminho para atender aos KPIs centrados nos negócios.</p>
-<p>Essa ferramenta permite desenvolver campanhas de marketing mais eficazes, com maior probabilidade de repercutir no nível 1:1, melhorar os esforços de personalização de marketing para os clientes e aprimorar KPIs essenciais de engajamento do cliente, como conversões e receita.</p>
-<p>Anteriormente disponível em Disponibilidade limitada, esse recurso agora está disponível para todos os ambientes.</p>
-<p>Data de disponibilidade: 1 de junho de 2026</p>
+<p>Use the new <strong>Optimize</strong> node to target specific audiences to determine the best path to meet your business-centric KPIs.</p>
+<p>This tool allows you to develop more effective marketing campaigns that are more likely to resonate at the 1:1 level, improve marketing personalization efforts for customers and enhance critical customer engagement KPIs, such as conversions and revenue.</p>
+<p>Previously available in Limited Availability, this capability is now available to all environments.</p>
+<p>Availability date: June 1, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -118,19 +119,20 @@ Os seguintes recursos do jornada são esperados nos próximos dias ou semanas.
 <table>
 <thead>
 <tr>
-<th><strong>Arbitragem de Jornada - fórmulas de classificação (Disponibilidade Geral)</strong><br/></th>
+<th><strong>Journey Arbitration – ranking formulas (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode usar fórmulas para aumentar automaticamente as pontuações de prioridade da jornada com base nos atributos do perfil do cliente e fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
-<p>Anteriormente disponível em Disponibilidade limitada, esse recurso agora está disponível para todos os ambientes.</p>
-<p>Data de disponibilidade: 1 de junho de 2026</p>
+<p>You can now use formulas to automatically boost journey priority scores based on customer profile attributes and contextual factors, ensuring customers enter the most relevant journeys.</p>
+<p>Previously available in Limited Availability, this capability is now available to all environments.</p>
+<p>Availability date: June 1, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -250,13 +252,15 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
   Data de disponibilidade: 1 de junho de 2026
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-* **Substituir o campo de execução padrão em campanhas** - Disponível anteriormente no nível de jornada, agora é possível substituir o campo de execução padrão definido globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da campanha.
+* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default execution field set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
 
-  Data de disponibilidade: 22 de maio de 2026
+  Availability date: Early June, 2026
 
 +++
+-->
 
 ### Tomada de decisão {#may-26-decisioning}
 
@@ -309,7 +313,7 @@ A seguinte capacidade de decisão é esperada nos próximos dias ou semanas.
 <td>
 <p>Agora é possível adicionar políticas de decisão a jornadas e campanhas de correspondência direta. As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo para cada membro do público. A decisão de correspondência direta também aceita casos de uso de decisão em lote, permitindo exportar os itens de oferta correspondentes para cada perfil em um determinado público-alvo da Adobe Experience Platform.</p>
 <!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>Data de disponibilidade: 1 de junho de 2026</p>
+<p>Data de disponibilidade: início de junho de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -457,23 +461,15 @@ Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúd
 
   Data de disponibilidade: 1 de junho de 2026
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-* **Conjunto de Dados de Evento de Feedback de Mensagem sendo movido para assimilação em lote** - O `AJO Message Feedback Event Dataset` está passando do modo de streaming para o modo de assimilação em lote. Essa alteração garante que a assimilação de dados não exceda os limites de assimilação de streaming. Se você usar esse conjunto de dados nos relatórios do Customer Journey Analytics ou executar consultas nele, espere um aumento na latência de dados de até 2 horas no futuro.
+* **Message Feedback Event Dataset moving to batch ingestion** - The `AJO Message Feedback Event Dataset` is transitioning from streaming to batch ingestion mode. This change ensures that data ingestion does not exceed streaming ingestion limits. If you use this dataset in Customer Journey Analytics reports or run queries against it, expect an increase in data latency of up to 2 hours going forward.
 
-  Data de disponibilidade: 1 de junho de 2026
-
-+++
-
-### Relatórios {#may-26-reporting}
-
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
-
-* **Excluir cliques de bot para relatórios de email e SMS** - Novas métricas estimadas agora estão disponíveis para ajudar a filtrar interações não humanas (bot) dos relatórios de email e SMS. Eles incluem cliques estimados, taxas de click-through (CTR) e taxas de click-to-open (CTOR), fornecendo uma visualização mais precisa do engajamento real do cliente. As métricas existentes permanecem inalteradas e essas novas métricas podem ser usadas junto com os relatórios atuais para análise aprimorada.
-
-  Data de disponibilidade: 1 de junho de 2026
+  Availability date: June 1, 2026
 
 +++
+-->
 
 ### Melhorias de usabilidade {#may-26-usability}
 
@@ -509,6 +505,6 @@ As seguintes melhorias de usabilidade também foram lançadas em maio de 2026.
 
 * **Pastas para jornadas e campanhas** - Agora é possível organizar suas jornadas e campanhas em pastas para melhorar a navegação e o gerenciamento na interface.
 
-  Data de disponibilidade: 2 de junho de 2026
+  Data de disponibilidade: início de junho de 2026
 
 +++
