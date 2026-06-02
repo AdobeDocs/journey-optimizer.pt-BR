@@ -9,9 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: jornada otimizer, pacote, licença, select, prime, ultimate, recursos, modular, canais
 hide: true
-source-git-commit: fc7f2801bb13ac6cc531fb51612b0abde0778e69
+source-git-commit: 5e9ffb790127aae281dd15ad0eac03dbe0bb05e2
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '966'
 ht-degree: 6%
 
 ---
@@ -27,40 +27,46 @@ A disponibilidade também pode depender da configuração do canal, dos pré-req
 
 >[!TAB Jornadas e campanhas]
 
-Essa guia se aplica aos clientes licenciados sob o atual modelo de empacotamento modular [!DNL Adobe Journey Optimizer] (AJO Jornada, AJO Campaigns ou AJO Campaigns &amp; Jornada).
+Essa guia se aplica aos clientes licenciados sob o atual modelo de empacotamento modular [!DNL Adobe Journey Optimizer] (Journey Optimizer - Campanhas, Journey Optimizer - Jornada ou Journey Optimizer - Campanhas e Jornadas).
 
 ## Pacotes básicos {#current-packages}
 
-| Pacote | Mais adequado para |
+| Pacote | O que inclui |
 |---------|----------------|
-| **Campanhas do AJO** | Mensagens programadas, em lote e transacionais em canais de saída. |
-| **Jornadas AJO** | Orquestração e automação de jornadas acionadas por eventos e em tempo real. |
-| **Campanhas do AJO e Jornadas** | A plataforma completa — mensagens programadas e orquestração em tempo real combinadas. |
+| **Journey Optimizer - Campanhas** | Orquestração de campanha: fluxos de trabalho de público-alvo de uma ou várias etapas para envolvimento em lote. Mensagens transacionais por email, push e SMS incluídas. |
+| **Journey Optimizer - Jornada** | Real-time Journey Orchestration: jornadas acionadas por eventos que oferecem suporte ao processamento em lote e por transmissão. Mensagens transacionais por email, push e SMS incluídas. |
+| **Journey Optimizer - Campanhas e Jornadas** | Orquestração de campanhas e Journey Orchestration em tempo real combinados. Mensagens transacionais por email, push e SMS incluídas. |
 
-Os seguintes complementos estendem a cobertura de canais e recursos além de qualquer pacote básico:
+>[!NOTE]
+>
+>O direito total ao Volume de Dados difere por pacote: **Campanhas** clientes têm direito a 15 KB por perfil endereçável; clientes do **Jornada** e do **Campanhas e Jornada** têm direito a 75 KB por perfil endereçável.
 
-| Complemento | O que ele desbloqueia |
+Os complementos a seguir estendem a cobertura de canal para além de qualquer pacote básico. O complemento **Todos os Canais** agrupa Entrega de Saída, Dispositivo Móvel e Web.
+
+| Complemento | Canais desbloqueados |
 |--------|----------------|
-| **Saída** | Email, SMS/MMS, notificações por push e correspondência direta |
-| **Aplicativo móvel** | Mensagens no aplicativo e push para dispositivos móveis |
-| **Web** | Canal da Web, experiências baseadas em código e cartões de conteúdo |
+| **Entrega de saída** | Email, notificações por push, correspondência direta. Inclui Fundamentos Da Capacidade De Entrega. |
+| **Móvel** | Mensagens no aplicativo, notificações por push, cartões de conteúdo e canais baseados em código para superfícies móveis |
+| **Web** | Canal da Web e canais baseados em código para superfícies da Web |
+| **Todos os canais** | Pacotes de entrega de saída + Mobile + Web |
 | **Decisão** | Decisão de oferta em tempo real e otimização baseada em IA |
 
 ## Matriz de recursos {#capability-matrix-current}
 
-| Recurso | O que você pode fazer | Campanhas do AJO | AJO Jornada | Campanhas e Jornadas do AJO | Complemento necessário | Saiba mais |
-|-----------|----------------|:-------------:|:------------:|:------------------------:|:---------------:|-----------|
-| **Email** | Projetar e enviar mensagens de email personalizadas | ✓ | ✓ | ✓ | Saída | [Saiba como enviar emails](../email/get-started-email.md) |
-| **SMS/MMS** | Enviar mensagens de texto e multimídia | ✓ | ✓ | ✓ | Saída | [Saiba como enviar mensagens móveis](../mobile/get-started-mobile.md) |
-| **Notificações por push** | Enviar alertas por push em dispositivos móveis | ✓ | ✓ | ✓ | Saída | [Saiba como enviar notificações por push](../push/get-started-push.md) |
-| **Correspondência direta** | Criar e enviar partes do email físico | ✓ | ✓ | ✓ | Saída | [Saiba como usar a correspondência direta](../direct-mail/get-started-direct-mail.md) |
-| **Mensagens no aplicativo** | Exibir mensagens dentro do aplicativo móvel | ✓ | ✓ | ✓ | Aplicativo móvel | [Saiba como usar mensagens no aplicativo](../in-app/get-started-in-app.md) |
+| Recurso | O que você pode fazer | Journey Optimizer - Campanhas | JOURNEY OPTIMIZER - JORNADA | Journey Optimizer - Campanhas e Jornadas | Complemento necessário | Saiba mais |
+|-----------|----------------|:-----------------------------:|:----------------------------:|:----------------------------------------:|:---------------:|-----------|
+| **Mensagens transacionais** | Enviar mensagens acionadas em tempo real por email, push ou SMS | ✓ | ✓ | ✓ | — | [Saiba mais sobre mensagens transacionais](../building-journeys/journey-gs.md) |
+| **Email** | Projetar e enviar mensagens de email personalizadas | ✓ | ✓ | ✓ | Entrega de saída | [Saiba como enviar emails](../email/get-started-email.md) |
+| **Notificações por push** | Enviar alertas por push em dispositivos móveis | ✓ | ✓ | ✓ | Entrega de saída | [Saiba como enviar notificações por push](../push/get-started-push.md) |
+| **Correspondência direta** | Criar e enviar partes do email físico | ✓ | ✓ | ✓ | Entrega de saída | [Saiba como usar a correspondência direta](../direct-mail/get-started-direct-mail.md) |
+| **SMS/MMS** | Enviar mensagens de texto e multimídia | ✓ | ✓ | ✓ | Entrega de saída | [Saiba como enviar mensagens móveis](../mobile/get-started-mobile.md) |
+| **Mensagens no aplicativo** | Exibir mensagens dentro do aplicativo móvel | ✓ | ✓ | ✓ | Dispositivo móvel | [Saiba como usar mensagens no aplicativo](../in-app/get-started-in-app.md) |
+| **Cartões de conteúdo** | Fornecer mensagens no produto persistentes e não intrusivas | ✓ | ✓ | ✓ | Dispositivo móvel | [Saiba como usar cartões de conteúdo](../content-card/get-started-content-card.md) |
 | **Canal da Web** | Personalizar páginas da Web em tempo real | ✓ | ✓ | ✓ | Web | [Saiba como usar o canal da Web](../web/get-started-web.md) |
-| **Experiências baseadas em código** | Personalizar qualquer superfície por meio da API ou do SDK | ✓ | ✓ | ✓ | Web | [Saiba como usar experiências baseadas em código](../code-based/get-started-code-based.md) |
-| **Cartões de conteúdo** | Fornecer mensagens no produto persistentes e não intrusivas | ✓ | ✓ | ✓ | Web | [Saiba como usar cartões de conteúdo](../content-card/get-started-content-card.md) |
+| **Experiências baseadas em código** | Personalizar qualquer superfície por meio da API ou do SDK | ✓ | ✓ | ✓ | Móvel ou na Web | [Saiba como usar experiências baseadas em código](../code-based/get-started-code-based.md) |
 | **WhatsApp** | Enviar mensagens via WhatsApp Business | ✓ | ✓ | ✓ | WhatsApp | [Saiba como usar o WhatsApp](../whatsapp/get-started-whatsapp.md) |
-| **Campanhas em lote** | Agendar mensagens únicas ou recorrentes para um público-alvo | ✓ | — | ✓ | — | [Saiba como criar campanhas](../campaigns/get-started-with-campaigns.md) |
-| **jornadas automatizadas** | Projetar jornadas de clientes acionadas por eventos em várias etapas | — | ✓ | ✓ | — | [Saiba como criar jornadas](../building-journeys/journey-gs.md) |
+| **Campanhas orquestradas** | Crie fluxos de trabalho de público-alvo de várias etapas para envolvimento em lote. Canais compatíveis: somente email, SMS, push e correspondência direta. | ✓ | — | ✓ | — | [Saiba como usar campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md) |
+| **jornadas automatizadas** | Criar jornadas do cliente em tempo real acionadas por eventos | — | ✓ | ✓ | — | [Saiba como criar jornadas](../building-journeys/journey-gs.md) |
 | **Acionadores em tempo real** | Reagir aos eventos do cliente conforme eles ocorrem | — | ✓ | ✓ | — | [Saiba mais sobre eventos de jornada](../event/about-events.md) |
 | **Decisão** | Selecione a melhor oferta para cada cliente em tempo real | Depende da sua licença | Depende da sua licença | Depende da sua licença | Tomada de decisão | [Saiba como usar a decisão](../experience-decisioning/gs-experience-decisioning.md) |
 | **Classificação baseada em IA** | Otimizar a seleção de ofertas usando o aprendizado de máquina | Depende da sua licença | Depende da sua licença | Depende da sua licença | Tomada de decisão | [Saiba mais sobre modelos de IA](../offers/ranking/ai-models.md) |
