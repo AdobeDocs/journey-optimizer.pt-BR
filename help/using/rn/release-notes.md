@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8ea462d8181167fc2b899265d5f9839e0d5dd37b
+source-git-commit: deba11139fa381bb54c8929a84f9386ab6888821
 workflow-type: tm+mt
 source-wordcount: 2561
 ht-degree: 21%
@@ -313,7 +313,7 @@ A seguinte capacidade de decisão é esperada nos próximos dias ou semanas.
 <td>
 <p>Agora é possível adicionar políticas de decisão a jornadas e campanhas de correspondência direta. As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo para cada membro do público. A decisão de correspondência direta também aceita casos de uso de decisão em lote, permitindo exportar os itens de oferta correspondentes para cada perfil em um determinado público-alvo da Adobe Experience Platform.</p>
 <!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>Data de disponibilidade: início de junho de 2026</p>
+<p>Data de disponibilidade: 3 de junho de 2026</p>
 </td>
 </tr>
 </tbody>
