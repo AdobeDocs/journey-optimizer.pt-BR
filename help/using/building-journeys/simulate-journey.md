@@ -12,9 +12,9 @@ version: Journey Orchestration
 badge: label="Disponibilidade limitada" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 4dd5fc79ef209265b1367d414fe6020d9a50064c
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1912
+source-wordcount: 1910
 ht-degree: 2%
 
 ---
@@ -182,8 +182,7 @@ Se uma jornada contiver qualquer um dos nós a seguir, ela não poderá ser inic
 | ID complementar (várias reentradas) | A reentrada simultânea (várias instâncias ativas para o mesmo usuário simulado) impede que a **[!UICONTROL Simulação]** seja iniciada. |
 | Nó Content Decision | Esta atividade deve ser removida ou alterada antes que você possa simular a jornada. |
 | Pesquisa de conjunto de dados | Não há suporte para pesquisas do conjunto de dados do cliente por chave; as jornadas que incluem esta atividade não podem ser executadas em **[!UICONTROL Simulação]**. |
-| Experimentação de caminho (Otimizar — Variante de experimento) | Sem suporte em **[!UICONTROL Simulação]**. Você ainda pode usar **[!UICONTROL Otimizar]** para fluxos que viviam sob **[!UICONTROL Condição]** (por exemplo, condições da fonte de dados). |
-| Direcionamento de caminho (Otimizar, Variante de regra de direcionamento) | Sem suporte em **[!UICONTROL Simulação]**. |
+| **[!UICONTROL Otimizar]** atividade | Os seguintes métodos **[!UICONTROL Otimizar]** não têm suporte em **[!UICONTROL Simulação]**: **[!UICONTROL Experimento]**, **[!UICONTROL Regra de direcionamento]**, **[!UICONTROL Divisão de porcentagem]**, **[!UICONTROL Condição de tempo]**, **[!UICONTROL Condição]**, **[!UICONTROL Condição de data]**, **[!UICONTROL Limite de perfil]** e **[!UICONTROL Source de Dados Externos]**. Remova ou altere o nó antes de simular. |
 | Enriquecimento do atributo de público-alvo externo | As jornadas que usam atributos personalizados de fontes de público-alvo externas não serão iniciadas em **[!UICONTROL Simulação]** quando essa validação estiver ativa. |
 
 +++
