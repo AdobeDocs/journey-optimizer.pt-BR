@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 2cd1292b544b9aa6e80b3e871e7f6f917d0ab19a
 workflow-type: tm+mt
-source-wordcount: 1696
+source-wordcount: 1712
 ht-degree: 0%
 
 ---
@@ -62,25 +62,33 @@ Quando um fragmento de conteúdo é publicado no Adobe Experience Manager, um ev
 >
 >Para permitir que o Journey Optimizer acesse Fragmentos de conteúdo do Adobe Experience Manager por meio da API de gerenciamento de fragmentos de conteúdo, primeiro [configure o Dispatcher](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}.
 
-Antes de usar o fragmento de conteúdo no Journey Optimizer, é necessário criar uma tag especificamente para o Journey Optimizer:
+O Journey Optimizer exibe um Fragmento de conteúdo no seletor de Fragmento de conteúdo somente quando ele carrega uma marca para sua **organização** e **sandbox**. Esse requisito é deliberado: ele mantém conteúdo não relacionado ou não aprovado do Experience Manager fora do Journey Optimizer.
 
-1. Acesse seu ambiente **Experience Manager**.
+Atribua uma marca cuja ID siga `ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}`, usando sua ID de organização da Journey Optimizer e o nome da sandbox no lugar dos espaços reservados, por exemplo, `ajo-enabled:123A12A123A123A12A@AdobeOrg/prod`.
 
-1. No menu **Ferramentas**, selecione **Marcação**.
+Para criar a tag no Experience Manager:
+
+1. Vá para **Ferramentas** > **Marcação**.
 
    ![](assets/do-not-localize/aem_tag_1.png)
 
-1. Clique em **Criar Marca**.
+1. Crie uma estrutura de tag aninhada para que a ID de tag completa corresponda ao formato acima:
 
-1. Verifique se a ID segue a seguinte sintaxe: `ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}`.
+   1. No nível raiz, crie uma pasta chamada `ajo-enabled`.
 
-1. Clique em **Criar**.
+   1. Em `ajo-enabled`, crie uma marca para sua ID da organização, por exemplo, `123A12A123A123A12A@AdobeOrg`.
 
-1. Defina seu Modelo de fragmento de conteúdo conforme detalhado na [documentação do Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} e atribua a tag do Journey Optimizer recém-criada.
+   1. Nessa marca de organização, crie uma marca para sua sandbox, por exemplo, `prod`.
 
-Essa conexão em tempo real garante que o conteúdo esteja sempre atualizado, mas também significa que quaisquer alterações nos fragmentos publicados afetarão imediatamente as campanhas e jornadas ativas.
+   O caminho combinado produz uma ID de tag como `ajo-enabled:123A12A123A123A12A@AdobeOrg/prod`.
 
-Agora você pode começar a criar e configurar o fragmento de conteúdo para uso posterior no Journey Optimizer. Saiba mais em [documentação do Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
+1. Para aplicá-lo a um fragmento de conteúdo, abra o fragmento de conteúdo no editor.
+
+1. Em **Propriedades**, adicione a marca que você criou.
+
+1. Salve o fragmento.
+
+➡️ [Saiba mais sobre marcas na documentação do Adobe Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)
 
 ## Adicionar fragmentos de conteúdo do Experience Manager {#aem-add}
 
