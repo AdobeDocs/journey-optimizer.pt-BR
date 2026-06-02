@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1319
+source-wordcount: 1358
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Os usuários simulados são entidades temporárias semelhantes a perfis definida
 
    +++ Criar a partir do formulário
 
-   1. Insira um **[!UICONTROL Nome de exibição]** e **[!UICONTROL Descrição]** para identificar este usuário simulado.
+   1. Insira um **[!UICONTROL Nome de exibição]**, **[!UICONTROL Namespace de identidade]** e **[!UICONTROL Descrição]** para identificar este usuário simulado.
 
       ![Painel de seleção de usuário simulado](assets/simulate-form.png)
 
@@ -99,9 +99,13 @@ Os usuários simulados são entidades temporárias semelhantes a perfis definida
 
    1. Clique em **[!UICONTROL Adicionar associação de público-alvo]** para simular associações de segmento.
 
-   1. Clique em **[!UICONTROL Adicionar perfil]** para criar vários usuários simulados em uma única sessão.
+   1. Na janela **[!UICONTROL Criar Usuários Simulados]**, clique em **[!UICONTROL Adicionar usuário simulado]** para definir vários usuários simulados em uma sessão.
 
-   1. No menu, use **[!UICONTROL Duplicar]** para copiar um usuário, **[!UICONTROL Aplicar a todos]** para copiar os atributos de um usuário para todos os outros usuários na sessão ou **[!UICONTROL Excluir]** para remover um usuário.
+      Você pode alterar a forma como os usuários são mostrados na lista, recolher todos os cartões na exibição empilhada ou abrir os metadados de atributo de um usuário.
+
+      ![Painel de seleção de usuário simulado](assets/simulate-form-3.png)
+
+   1. No menu de usuário Simulado, use **[!UICONTROL Duplicar]** para copiar um usuário, **[!UICONTROL Aplicar todos os atributos a outros usuários]** para copiar os atributos de um usuário para todos os outros usuários na sessão ou **[!UICONTROL Excluir]** para remover um usuário.
 
       ![Painel de seleção de usuário simulado](assets/simulate-form-2.png)
 
