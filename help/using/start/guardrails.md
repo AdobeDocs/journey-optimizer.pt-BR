@@ -35,7 +35,7 @@ ht-degree: 93%
 
 Abaixo são encontradas medidas de proteção e limitações ao usar o [!DNL Adobe Journey Optimizer].
 
-Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -116,7 +116,7 @@ As seguintes medidas de proteção se aplicam ao [canal de SMS](../mobile/get-s
 
   Os canais de entrada do Journey Optimizer direcionam novos perfis que talvez não tenham sido engajados antes em outros canais. Isso aumentará o número total de [Perfis engajáveis](../audience/license-usage.md), o que pode ter implicações de custo se o número contratual de Perfis engajáveis que você adquiriu for excedido.
 
-  As métricas de licença para cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Você pode verificar o número de Perfis engajáveis no [painel de uso de licença](../audience/license-usage.md).
+  As métricas de licença para cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Você pode verificar o número de Perfis engajáveis no [painel de uso de licença](../audience/license-usage.md).
 
 * O Journey Optimizer aceita no máximo 500 ações de entrada ativas a qualquer momento. Essas ações de entrada são contadas se fizerem parte de uma campanha ativa ou se forem um nó usado em uma jornada ativa. Ao atingir esse número, é preciso desativar campanhas ou jornadas mais antigas que estejam usando ações de entrada antes de poder lançar novas.
 
@@ -124,7 +124,7 @@ As seguintes medidas de proteção se aplicam ao [canal de SMS](../mobile/get-s
 
 Os canais de entrada do [!DNL Journey Optimizer] podem direcionar perfis pseudônimos, ou seja, perfis que ainda não foram autenticados ou conhecidos por não terem sido engajados anteriormente em outros canais. Esse é o caso, por exemplo, ao direcionar todos os visitantes ou públicos-alvo com base em IDs temporárias, como ECID.
 
-Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis adquiridos for excedido. As métricas de licença de cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. É possível verificar o número de perfis engajáveis no [painel de uso de licença](../audience/license-usage.md).
+Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis adquiridos for excedido. As métricas de licença de cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. É possível verificar o número de perfis engajáveis no [painel de uso de licença](../audience/license-usage.md).
 
 Para manter os perfis que podem ser engajados dentro de limites razoáveis, a Adobe recomenda configurar um tempo de vida (TTL) para excluir automaticamente perfis pseudônimos do Perfil do cliente em tempo real se eles não tiverem sido vistos ou engajados em uma janela de tempo específica.
 
