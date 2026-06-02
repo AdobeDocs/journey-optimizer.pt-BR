@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: de6f48d5e9a775afc0d2fa0141eb775a24b2155e
 workflow-type: tm+mt
-source-wordcount: 881
-ht-degree: 11%
+source-wordcount: 947
+ht-degree: 10%
 
 ---
 
@@ -47,6 +47,11 @@ ht-degree: 11%
 >id="ajo_admin_sms_api_byop_provider_payload"
 >title="Conteúdo do provedor"
 >abstract="Forneça o conteúdo da solicitação para garantir que os dados corretos sejam enviados para processamento e geração de resposta."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_response_msg_id_extractor"
+>title="Conteúdo do provedor"
+>abstract="Especifica como o Journey Optimizer extrai uma ID de mensagem exclusiva da resposta de envio do seu provedor. </br>Correspondência de campos: insira o nome do campo (por exemplo, messageId). O AJO verificará a resposta e retornará o primeiro valor correspondente. </br>Notação de pontos: insira o caminho para o campo (por exemplo, messages.0.id). Use segmentos numéricos para matrizes. Nenhum prefixo $.</br> Deixe em branco se o provedor oferecer suporte para a passagem de um campo de dados de retorno de chamada."
 
 Esse recurso permite integrar e configurar seus próprios provedores de mensagens, oferecendo flexibilidade além das opções padrão (Sinch, Twilio e Infobip). Isso permite a criação, entrega, relatórios e gerenciamento de consentimento perfeitos para mensagens móveis.
 
