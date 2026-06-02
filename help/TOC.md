@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 73b27e22b6ebcfd3fb85e18e6f3dc651fa9b4fe5
+source-git-commit: 2b41ef7064ea9ab86a6974fcf9ff5f8a5919bf65
 workflow-type: tm+mt
-source-wordcount: '3346'
+source-wordcount: '3350'
 ht-degree: 95%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 95%
       + [Terminologia principal](using/start/terminology.md)
       + [Medidas de proteção e limitações](using/start/guardrails.md)
       + {hide-from-toc}[Recursos por pacote](using/start/ajo-packages.md)
+      + {hide-from-toc}[Pacotes e recursos (v2)](using/start/ajo-packages-v2.md)
    + Introdução por função {#by-role}
       + [Funções e responsabilidades](using/start/quick-start.md)
       + [Introdução para administradores](using/start/path/administrator.md)
@@ -587,7 +588,7 @@ ht-degree: 95%
    + [Identidades](using/audience/get-started-identity.md)
    + [Uso da licença](using/audience/license-usage.md)
 + Relatório {#reporting}
-   + [Relatório](/help/rp_landing_pages/reporting-landing-page.md)
+   + [Relatórios](/help/rp_landing_pages/reporting-landing-page.md)
    + [Introdução aos relatórios](using/reports/gs-reports.md)
    + Relatório em tempo real {#live-report}
       + [Relatório em tempo real](/help/rp_landing_pages/live-report-landing-page.md)
