@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 73b27e22b6ebcfd3fb85e18e6f3dc651fa9b4fe5
 workflow-type: tm+mt
-source-wordcount: '3343'
+source-wordcount: '3346'
 ht-degree: 95%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 95%
       + {hide-from-toc}[Notas de versão anteriores](/help/rp_landing_pages/previous-rn-new-landing-page.md)
       + [2026](using/rn/release-notes-2026.md)
       + [2025](using/rn/release-notes-2025.md)
-      + [2024](using/rn/release-notes-2024.md)
+      + {hide-from-toc}[2024](using/rn/release-notes-2024.md)
       + {hide-from-toc}[2023](using/rn/release-notes-2023.md)
       + {hide-from-toc}[2022](using/rn/release-notes-2022.md)
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
@@ -38,6 +38,7 @@ ht-degree: 95%
       + [IA e recursos inteligentes](using/start/ai-features.md)
       + [Terminologia principal](using/start/terminology.md)
       + [Medidas de proteção e limitações](using/start/guardrails.md)
+      + {hide-from-toc}[Recursos por pacote](using/start/ajo-packages.md)
    + Introdução por função {#by-role}
       + [Funções e responsabilidades](using/start/quick-start.md)
       + [Introdução para administradores](using/start/path/administrator.md)
@@ -585,8 +586,8 @@ ht-degree: 95%
       + [Trabalhar com atributos computados](using/audience/computed-attributes.md)
    + [Identidades](using/audience/get-started-identity.md)
    + [Uso da licença](using/audience/license-usage.md)
-+ Relatórios {#reporting}
-   + [Relatórios](/help/rp_landing_pages/reporting-landing-page.md)
++ Relatório {#reporting}
+   + [Relatório](/help/rp_landing_pages/reporting-landing-page.md)
    + [Introdução aos relatórios](using/reports/gs-reports.md)
    + Relatório em tempo real {#live-report}
       + [Relatório em tempo real](/help/rp_landing_pages/live-report-landing-page.md)
