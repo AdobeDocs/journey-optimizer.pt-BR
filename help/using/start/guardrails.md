@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 065e2f48fbd5b7adedd4fba15bd8b4363f59cd91
 workflow-type: tm+mt
-source-wordcount: 4262
-ht-degree: 98%
+source-wordcount: 4490
+ht-degree: 93%
 
 ---
 
@@ -141,6 +141,10 @@ O Journey Optimizer aceita um volume máximo de 500 mensagens transacionais por 
 ## Conteúdo e ativos {#content-assets}
 
 Esta seção aborda as medidas de proteção para a criação e o gerenciamento de conteúdo, incluindo páginas de destino, subdomínios e fragmentos.
+
+### Medidas de proteção do assistente de IA {#ai-assistant-g}
+
+As medidas de proteção e limitações para a **geração de conteúdo do Assistente de IA** — incluindo limitações dos canais com suporte (email, push, web, SMS) e do editor de personalização — estão listadas em [esta página](../content-management/gs-generative.md#generative-guardrails).
 
 ### Medidas de proteção das páginas de destino {#lp-guardrails}
 
@@ -336,7 +340,7 @@ Existem medidas de proteção específicas para o uso de identificadores supleme
 As seguintes medidas de proteção se aplicam ao [editor de expressão da jornada](../building-journeys/expression/expressionadvanced.md):
 
 * Os grupos de campos de evento de experiência não podem ser usados em jornadas que comecem com atividades de público-alvo de leitura, qualificação de público-alvo ou de evento de negócios. É necessário criar um novo público-alvo e usar uma condição `inaudience` na jornada.
-* Não é possível usar atributos `timeSeriesEvents` no editor de expressão. Para acessar eventos de experiência em nível de perfil, crie um novo grupo de campos com base em um esquema `XDM ExperienceEvent`.
+* Atributos `timeSeriesEvents` não podem ser usados no editor de expressão. Para acessar Eventos de experiência em nível de perfil, crie um novo grupo de campos com base em um esquema `XDM ExperienceEvent`.
   <!--* A single condition expression cannot contain more than **200 values** in an `in` list (e.g. `field in ["val1","val2",...]`). Expressions exceeding this limit will fail validation. To work around this limit, split the values across multiple conditions combined with `or`.-->
 
 ### Atividades de jornada {#activities}
@@ -350,6 +354,8 @@ A seguinte medida de proteção se aplica à atividade de [qualificação de pú
 
 Saiba mais sobre taxas de processamento e limites de taxa de transferência da jornada [nesta seção](../building-journeys/entry-management.md#journey-processing-rate).
 
+Medidas de proteção adicionais — incluindo recomendações sobre públicos-alvo de streaming vs. em lote e limitações de público de composição — estão listadas em [esta página](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails).
+
 #### Atividades do Campaign {#ac-g}
 
 As seguintes medidas de proteção se aplicam às atividades do **[!UICONTROL Campaign v7/v8]** e **[!UICONTROL Campaign Standard]**:
@@ -357,6 +363,10 @@ As seguintes medidas de proteção se aplicam às atividades do **[!UICONTROL Ca
 * As atividades do Adobe Campaign não podem ser usadas com uma atividade Público-alvo de leitura ou Qualificação de público-alvo.
 * As atividades do **[!UICONTROL Campaign Standard]** não podem ser usadas com outras atividades de canal: Cartão, Experiência baseada em código, Email, Push, SMS, Mensagens no aplicativo, Web.
 * As atividades do **[!UICONTROL Campaign v7/v8]** podem ser usadas junto com atividades de canal nativas na mesma jornada.
+
+#### Eventos de reação {#reaction-events-g}
+
+Medidas de proteção específicas se aplicam a eventos de **[!UICONTROL Reação]**, incluindo o requisito de colocar a atividade imediatamente após uma ação de canal e a incapacidade de rastrear mensagens enviadas em uma jornada diferente. Elas são listadas [nesta página](../building-journeys/reaction-events.md#guardrails-limitations).
 
 #### Atividade no aplicativo {#in-app-activity-limitations}
 
@@ -377,6 +387,10 @@ As seguintes medidas de proteção se aplicam à ação de **[!UICONTROL mensage
 * Um atraso na ativação pode ocorrer entre o momento em que um perfil de usuário ou usuária alcança uma atividade no aplicativo na tela e o momento em que começa a visualizar essa mensagem no aplicativo.
 
 * O tamanho do conteúdo da mensagem no aplicativo é limitado a 2 Mb. A inclusão de imagens grandes pode prejudicar o processo de publicação.
+
+#### Atividade de decisão de conteúdo {#content-decision-g}
+
+Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Decisão de conteúdo]**, incluindo um atraso de 48 horas antes que as políticas de consentimento atualizadas entrem em vigor nas políticas de decisão. Elas são listadas [nesta página](../building-journeys/content-decision.md#guardrails).
 
 #### Atividade Salto {#jump-g}
 
@@ -403,6 +417,26 @@ Consulte também [recomendações e configuração](../building-journeys/read-au
 #### Atividade Atualizar perfil {#update-profile-g}
 
 Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Atualizar perfil]**. Elas são listadas [nesta página](../building-journeys/update-profiles.md).
+
+#### Jornada pausa {#pause-g}
+
+Medidas de proteção específicas se aplicam a **jornadas em pausa**, incluindo uma duração máxima de pausa de 14 dias e um limite de 10 milhões de perfis em todas as jornadas em pausa na organização. Elas são listadas [nesta página](../building-journeys/journey-pause.md#journey-pause-guardrails).
+
+#### Teste de simulação de jornada {#dry-run-g}
+
+Medidas de proteção específicas se aplicam a **Jornada Dry run**, incluindo a contagem para perfis ativáveis e cotas de jornada ativas. Elas são listadas [nesta página](../building-journeys/journey-dry-run.md#journey-dry-run-limitations).
+
+#### Jornada fragmentos {#fragments-journey-g}
+
+Medidas de proteção específicas se aplicam a **Fragmentos de Jornada**, incluindo no máximo 20 nós por fragmento e 200 fragmentos ativos por sandbox. Elas são listadas [nesta página](../building-journeys/journey-fragments.md#guardrails).
+
+#### Enviar usando ondas {#waves-g}
+
+Medidas de proteção específicas se aplicam ao envio de **onda em jornadas**, incluindo um intervalo de 2-10 ondas e um intervalo mínimo de 30 minutos entre ondas. Elas são listadas [nesta página](../building-journeys/send-using-waves.md#limitations-guardrails).
+
+#### Simulação de jornada {#simulation-g}
+
+Medidas de proteção específicas se aplicam à **simulação de jornada**. Elas são listadas [nesta página](../building-journeys/simulate-journey.md#limitations).
 
 ## Orquestração de campanha {#campaign-orchestration}
 
