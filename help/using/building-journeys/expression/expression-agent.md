@@ -4,15 +4,14 @@ product: journey optimizer
 title: Gerar expressões com o Assistente de expressão
 description: Saiba como usar o Assistente de expressão no Adobe Journey Optimizer para gerar expressões diretamente no editor de expressão avançado do Jornada usando prompts de linguagem natural.
 feature: Journeys
-topic: Content Management, Artificial Intelligence
+topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta público" type="Informative"
 mini-toc-levels: 2
-hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
 source-wordcount: 660
 ht-degree: 13%
@@ -35,7 +34,7 @@ ht-degree: 13%
 
 O Assistente de expressão é um recurso alimentado por IA integrado ao editor de expressão avançado do Jornada. Ajuda a gerar expressões válidas a partir de prompts de linguagem simples.
 
-Ela está disponível onde quer que o **[!UICONTROL editor de expressão avançado]** da Jornada seja aberto. Por exemplo, ao configurar condições e roteamento dentro de uma **[atividade de Otimização](../optimize.md)** ou ao configurar uma [**[!UICONTROL atividade de Espera &#x200B;]**](../wait-activity.md) que usa uma data personalizada e você precisa de uma expressão `dateTimeOnly`.
+Ela está disponível onde quer que o **[!UICONTROL editor de expressão avançado]** da Jornada seja aberto. Por exemplo, ao configurar condições e roteamento dentro de uma **[atividade de Otimização](../optimize.md)** ou ao configurar uma [**[!UICONTROL atividade de Espera ]**](../wait-activity.md) que usa uma data personalizada e você precisa de uma expressão `dateTimeOnly`.
 
 ## Gerar uma expressão {#generate}
 
