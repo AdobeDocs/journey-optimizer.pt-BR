@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+source-git-commit: c5a6e06cc93e8ed03edc368f3d02eccd655a7461
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 2%
@@ -144,19 +144,15 @@ Para adicionar uma nova variante, clique no botão **[!UICONTROL Criar amostra]*
 
 ### Gerar variantes de conteúdo automaticamente {#auto-generate-variants}
 
-O [!DNL Journey Optimizer] pode usar a simulação baseada em IA para gerar automaticamente uma variante de conteúdo para que você possa validar sua lógica de personalização sem criar variantes manualmente.
+O [!DNL Journey Optimizer] pode usar a simulação baseada em IA para gerar automaticamente uma variante de conteúdo para que você possa validar sua lógica de personalização sem criar variantes manualmente. Ao renderizar conteúdo para simulação ou prova, o sistema analisa o conteúdo, identifica campos de personalização e os substitui por valores significativos para uma visualização quase realista.
 
-Ao renderizar conteúdo para simulação ou prova, o sistema analisa o conteúdo, identifica campos de personalização e os substitui por valores significativos para uma visualização quase realista.
+Para gerar uma variante automaticamente, clique no botão **[!UICONTROL Gerar]** e aguarde o sistema gerar a variante. Revise a variante gerada na lista de variantes e sua renderização.
 
-Para gerar uma variante automaticamente, clique no botão **[!UICONTROL Gerar]** e aguarde o sistema gerar a variante.
-
-![Botão Gerar variantes](assets/simulate-generate-variant.png)
+![Botão Gerar variantes](assets/simulate-variants-generate.png)
 
 >[!NOTE]
 >
 >A geração produz uma única variante. Clicar em **[!UICONTROL Gerar]** substituirá todas as variantes de conteúdo existentes na lista, incluindo as adicionadas manualmente ou de um arquivo, por uma variante gerada.
-
-Revise a variante gerada na lista de variantes e sua renderização.
 
 ### Selecionar variantes de usuários simulados {#simulated-users}
 
