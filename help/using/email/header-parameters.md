@@ -24,10 +24,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4ec62b4411a46304364ca1f122e9745b143bcaa1
 workflow-type: tm+mt
-source-wordcount: 1089
-ht-degree: 58%
+source-wordcount: 1137
+ht-degree: 55%
 
 ---
 
@@ -91,15 +91,16 @@ Nesse caso, você pode definir um nome e um endereço de email do **Remetente** 
 
 Quando o **[!UICONTROL Nome do remetente]** e o **[!UICONTROL Email do remetente]** estão definidos, o [!DNL Journey Optimizer] adiciona um cabeçalho SMTP **Remetente** ao email<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->. Os clientes de email que oferecem suporte a isso podem mostrar palavras como **Remetente em nome de De** ou um indicador **via**.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Se você deixar o **[!UICONTROL Nome do remetente]** e o **[!UICONTROL Email do remetente]** vazios, ou se o **Remetente** resolvido for idêntico ao **De**, nenhum cabeçalho do **Remetente** será adicionado.
+>O **[!UICONTROL Nome do remetente]** e o **[!UICONTROL Email do remetente]** devem ser configurados juntos — os dois campos estão preenchidos ou ambos estão vazios. Preencher apenas uma delas impede que jornadas e campanhas sejam publicadas com essa configuração de canal.
 
-Notas:
+Ao configurar os cabeçalhos do **Remetente**, considere o seguinte:
 
+* Se você deixar os campos **[!UICONTROL Nome do remetente]** e **[!UICONTROL Email do remetente]** vazios ou se o **Remetente** resolvido for idêntico a **De**, nenhum cabeçalho **Remetente** será adicionado.
 * O endereço **Remetente** não é usado para alinhamento de SPF, DKIM ou DMARC; somente a validação **formato** é executada. SPF, DKIM e DMARC continuam a depender dos campos **De**. O [subdomínio delegado](../configuration/about-subdomain-delegation.md) selecionado para a configuração permanece o domínio de envio usado para essas verificações.
 
-* Se **Remetente** estiver configurado e a personalização não resolver para um valor para um destinatário, a mensagem não será entregue a esse destinatário.
+* Se os cabeçalhos **Remetente** estiverem configurados e a personalização não for resolvida como um valor para um destinatário, a mensagem não será entregue a esse destinatário.
 
 ## Email de resposta {#reply-to-email}
 
