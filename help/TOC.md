@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2b41ef7064ea9ab86a6974fcf9ff5f8a5919bf65
+source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
 workflow-type: tm+mt
-source-wordcount: '3350'
+source-wordcount: '3355'
 ht-degree: 95%
 
 ---
@@ -197,7 +197,7 @@ ht-degree: 95%
          + [Criar e agendar a campanha](using/orchestrated/create-orchestrated-campaign.md)
          + [Orquestrar atividades](using/orchestrated/orchestrate-activities.md)
          + [Iniciar e monitorar a campanha](using/orchestrated/start-monitor-campaigns.md)
-         + [Relatórios](using/orchestrated/reporting-campaigns.md)
+         + [Relatório](using/orchestrated/reporting-campaigns.md)
       + Consultar o banco de dados {#query-database}
          + [Consultar o banco de dados](/help/rp_landing_pages/query-database-landing-page.md)
          + [Trabalhar com o construtor de regras](using/orchestrated/orchestrated-rule-builder.md)
@@ -255,6 +255,7 @@ ht-degree: 95%
       + [Enviar provas usando dados de perfil de teste](using/content-management/proofs.md)
       + [Testar o e-mail rendering](using/content-management/rendering.md)
       + [Simular variações de conteúdo](using/test-approve/simulate-sample-input.md)
+      + {hide-from-toc}[Simular variações de conteúdo (revisão do GA)](using/test-approve/simulate-sample-input-ga.md)
       + [Relatório de spam de email](using/content-management/spam-report.md)
    + Aprovar jornadas e campanhas {#approve}
       + [Aprovar jornadas e campanhas](/help/rp_landing_pages/approve-landing-page.md)
@@ -587,7 +588,7 @@ ht-degree: 95%
       + [Trabalhar com atributos computados](using/audience/computed-attributes.md)
    + [Identidades](using/audience/get-started-identity.md)
    + [Uso da licença](using/audience/license-usage.md)
-+ Relatório {#reporting}
++ Relatórios {#reporting}
    + [Relatórios](/help/rp_landing_pages/reporting-landing-page.md)
    + [Introdução aos relatórios](using/reports/gs-reports.md)
    + Relatório em tempo real {#live-report}
