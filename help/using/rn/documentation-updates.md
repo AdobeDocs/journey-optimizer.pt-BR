@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: e3c588e5d0eb5c227873f1af2ca9b3ba5bd6e02e
 workflow-type: tm+mt
-source-wordcount: 8083
+source-wordcount: 8114
 ht-degree: 88%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 88%
 # Atualizações na documentação {#latest-updates}
 
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
+
+## Junho de 2026 {#june-2026}
+
+* A documentação dos **Cabeçalhos do remetente** agora esclarece que o **[!UICONTROL Nome do remetente]** e o **[!UICONTROL Email do remetente]** devem ambos estar vazios ou vazios, caso contrário, as jornadas e campanhas não poderão ser publicadas. [Leia mais](../email/header-parameters.md#sender-header)
 
 ## Maio de 2026 {#may-2026}
 
