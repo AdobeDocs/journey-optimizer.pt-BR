@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: deba11139fa381bb54c8929a84f9386ab6888821
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: 2561
+source-wordcount: 2647
 ht-degree: 21%
 
 ---
@@ -47,6 +47,27 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 >[!NOTE]
 >
 >Os recursos listados nestas notas de versão incluem uma **Data de disponibilidade** indicando quando cada alteração se torna acessível em seu ambiente. As entradas nas opções **Em breve** serão esperadas nos próximos dias ou semanas. As informações contidas nessas seções estão sujeitas a alterações.
+
+## Atualizações de junho de 2026 {#june-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>Assistente de IA para expressões de Jornada (Beta público)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Assistente de IA agora opera no editor de expressão avançado do jornada para converter prompts de linguagem natural em expressões válidas e lógica condicional. Descreva a expressão que deseja criar e o AI Assistant gera um código pronto para uso, que pode ser aplicado imediatamente ou refinado por meio de prompts de acompanhamento.</p>
+<p>Esse recurso está disponível para todos os clientes como um Beta público.</p>
+<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/expression/expression-agent.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 3 de junho de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Notas de versão de maio de 2026 {#may-26-rn}
 
@@ -137,24 +158,6 @@ Os seguintes recursos do jornada são esperados nos próximos dias ou semanas.
 <table>
 <thead>
 <tr>
-<th><strong>Assistente de IA para expressões de Jornada (Beta público)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Assistente de IA agora opera no editor de expressão avançado do jornada para converter prompts de linguagem natural em expressões válidas e lógica condicional. Descreva a expressão que deseja criar e o AI Assistant gera um código pronto para uso, que pode ser aplicado imediatamente ou refinado por meio de prompts de acompanhamento.</p>
-<p>Esse recurso está disponível para todos os clientes como um Beta público.</p>
-<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>Data de disponibilidade: início de junho de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Simulação de Jornada (Disponibilidade Geral)</strong><br/></th>
 </tr>
 </thead>
@@ -187,6 +190,25 @@ Os seguintes recursos do jornada são esperados nos próximos dias ou semanas.
 ### Campanhas orquestradas {#may-26-oc}
 
 Os recursos e melhorias a seguir foram adicionados às campanhas orquestradas nesta versão. Alterações adicionais também são esperadas nos próximos dias ou semanas.
+
+<table>
+<thead>
+<tr>
+<th><strong>Assistente de IA para expressões de Jornada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Assistente de IA agora opera no editor de expressão avançado do jornada para converter prompts de linguagem natural em expressões válidas e lógica condicional. Descreva a expressão que deseja criar e o AI Assistant gera um código pronto para uso, que pode ser aplicado imediatamente ou refinado por meio de prompts de acompanhamento.</p>
+<p>Esse recurso está disponível para todos os clientes como um Beta público.</p>
+<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/expression/expression-agent.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 20 de maio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

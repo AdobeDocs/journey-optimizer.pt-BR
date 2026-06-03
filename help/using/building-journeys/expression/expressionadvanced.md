@@ -24,10 +24,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: 716
-ht-degree: 55%
+source-wordcount: 738
+ht-degree: 53%
 
 ---
 
@@ -75,6 +75,10 @@ Você pode acessar o editor de expressão avançado de diferentes maneiras:
 
 * Ao criar um temporizador personalizado, o editor avançado será exibido diretamente.
 * Ao mapear o parâmetro de ação, clique em **[!UICONTROL Modo avançado]**.
+
+>[!NOTE]
+>
+>Para gerar expressões de Jornada usando prompts de linguagem natural, use o **[Assistente de Expressão](expression-agent.md)** (**beta público**) por meio do controle de IA dentro do editor avançado.
 
 ## Conheça a interface {#discovering-the-interface}
 
