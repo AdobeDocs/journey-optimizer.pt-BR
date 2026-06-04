@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 26%
+source-wordcount: 732
+ht-degree: 24%
 
 ---
 
@@ -106,7 +106,13 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
    ➡️ [Saiba como trabalhar com políticas de decisão](create-decision.md)
 ➡️ Para entregar com êxito a oferta por meio do canal de experiência baseado em código, siga as etapas de implementação em [esta seção](../code-based/code-based-implementation-samples.md).
 
-## Recursos adicionais
+## Processo de decisão {#process}
+
+O gráfico abaixo resume o processo de decisão completo — desde o gerenciamento de itens de decisão e a configuração de estratégias de seleção até a incorporação de políticas de decisão em uma jornada de experiência ou campanha baseada em código.
+
+![](assets/decisioning-process.png)
+
+## Recursos adicionais {#additional-resources}
 
 * **[Criar itens de decisão](items.md)** - Saiba como criar e gerenciar itens de decisão, incluindo ofertas, variações de conteúdo e experiências.
 * **[Configurar catálogos de decisão](catalogs.md)** - Entenda como organizar itens de decisão em catálogos para melhorar o gerenciamento.
