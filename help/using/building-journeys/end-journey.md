@@ -10,23 +10,15 @@ keywords: inserir novamente, jornada, encerrar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b0bb8e240cffba77f8fb85ebac45ff98427e3e18
 workflow-type: tm+mt
-source-wordcount: 1172
+source-wordcount: 1171
 ht-degree: 2%
 
 ---
@@ -81,7 +73,7 @@ Após o tempo limite global de **jornada de 91 dias**, uma jornada Ler público 
 
 ### Interrupção automática de jornada para públicos-alvo não recorrentes {#auto-stop-non-recurring}
 
-Uma **jornada de Leitura de Público não recorrente** agora faz a transição automática para o status **[!UICONTROL Parado]** assim que o último perfil sai da jornada. Isso elimina o comportamento anterior em que as jornadas de Leitura de Público não recorrentes permaneceram no status **Live** até que o tempo limite global de 91 dias expirasse, mesmo que nenhum perfil estivesse fluindo ativamente por meio delas.
+Uma **jornada de Leitura de Público não recorrente** faz a transição automática para o status **[!UICONTROL Parado]** assim que o último perfil sai da jornada. Isso elimina o comportamento anterior em que as jornadas de Leitura de Público não recorrentes permaneceram no status **Live** até que o tempo limite global de 91 dias expirasse, mesmo que nenhum perfil estivesse fluindo ativamente por meio delas.
 
 **Como funciona:**
 
