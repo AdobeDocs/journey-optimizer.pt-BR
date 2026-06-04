@@ -23,7 +23,7 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
+source-git-commit: 014e80a81e9f04f74f0a97c380feab5bbfc8856f
 workflow-type: tm+mt
 source-wordcount: 732
 ht-degree: 24%
@@ -110,7 +110,7 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
 O gráfico abaixo resume o processo de decisão completo — desde o gerenciamento de itens de decisão e a configuração de estratégias de seleção até a incorporação de políticas de decisão em uma jornada de experiência ou campanha baseada em código.
 
-![](assets/decisioning-process.png)
+![](assets/decisioning-process.png){zoomable="yes"}
 
 ## Recursos adicionais {#additional-resources}
 
