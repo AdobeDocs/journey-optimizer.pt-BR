@@ -10,24 +10,15 @@ level: Intermediate
 hide: true
 exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1a2d7e68da120ab231958d453add66a03eb4d65e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 1313
+source-wordcount: 1321
 ht-degree: 2%
 
 ---
@@ -43,7 +34,7 @@ Quando o conteúdo inclui personalização ou lógica condicional, é necessári
 
 A experiência **[!UICONTROL Simular variações de conteúdo]** no [!DNL Journey Optimizer] resolve isso permitindo que você teste várias variantes do seu conteúdo de uma única tela, gerada automaticamente com IA, inserida manualmente, importada de um arquivo ou com base em usuários simulados reutilizáveis. Você pode visualizar como cada variante é renderizada e enviar provas, tudo isso sem criar perfis persistentes no Adobe Experience Platform antecipadamente.
 
-Em seu conteúdo, selecione **[!UICONTROL Simular conteúdo]** e **[!UICONTROL Simular variações de conteúdo]** para abrir uma única experiência onde você pode:
+A partir do seu conteúdo, clique em **[!UICONTROL Simular conteúdo]** para abrir uma única experiência onde você pode:
 
 * **Gerar variantes automaticamente** usando IA para abranger a personalização e ramificações condicionais
 * **Adicionar variantes manualmente** ou de um arquivo CSV ou JSON
@@ -63,7 +54,8 @@ Antes de começar a testar seu conteúdo usando exemplos de dados de entrada, co
 * **Canais** - A simulação de variações de conteúdo está disponível para:
 
    * Os canais de email, SMS e notificação por push;
-   * todos os canais de entrada (Web, experiência baseada em código, no aplicativo, cartões de Conteúdo).
+   * todos os canais de entrada (Web, experiência baseada em código, no aplicativo, cartões de Conteúdo);
+   * Campanhas orquestradas.
 
 * **Recursos com suporte** - As variações de conteúdo podem ser usadas com [!DNL Journey Optimizer] recursos de conteúdo multilíngue e experimentos de conteúdo. Isso permite testar mensagens em vários idiomas e otimizar o conteúdo por meio de experimentação.
 
@@ -71,19 +63,19 @@ Antes de começar a testar seu conteúdo usando exemplos de dados de entrada, co
 
   >[!NOTE]
   >
-  >Por enquanto, a renderização da caixa de entrada e os relatórios de spam não estão disponíveis na experiência atual. Para usar esses recursos, selecione o botão **[!UICONTROL Simular conteúdo]** no seu conteúdo para acessar a interface de usuário anterior.
+  >Por enquanto, a renderização da caixa de entrada e os relatórios de spam não estão disponíveis na experiência atual. Para usar esses recursos, clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para acessar a interface de usuário anterior.
 
 * **Atributos** - Há suporte para atributos de perfil e contextuais.
 
 * **Tipos de dados** - Somente os seguintes tipos de dados têm suporte ao inserir dados para suas variantes: número (inteiro e decimal), cadeia de caracteres, booleano e tipo de data. Qualquer outro tipo de dados mostrará um erro.
 
-* **Número de variantes** - Você pode adicionar até 30 variantes para testar o conteúdo, usando um arquivo, manualmente ou por meio de geração automática.
+* **Número de variantes** - Você pode adicionar até 30 variantes para testar o conteúdo, usando um arquivo, manualmente ou por meio de geração automática. Ao usar a geração automática de IA, são geradas no máximo 20 variantes.
 
 ## Criar variantes de conteúdo
 
-Para criar variações para o seu conteúdo, clique no botão **[!UICONTROL Simular conteúdo]** e escolha **[!UICONTROL Simular variações de conteúdo]**.
+Para criar variações para o seu conteúdo, clique no botão **[!UICONTROL Simular conteúdo]**.
 
-![Opção Simular variações de conteúdo](assets/simulate-sample.png)
+![Botão Simular conteúdo](assets/simulate-sample.png)
 
 É possível criar variantes das seguintes maneiras:
 
