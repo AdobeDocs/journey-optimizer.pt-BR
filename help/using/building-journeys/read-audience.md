@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
+source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
 workflow-type: tm+mt
-source-wordcount: 3793
+source-wordcount: 3767
 ht-degree: 9%
 
 ---
@@ -215,7 +215,7 @@ Por padrão, as jornadas são configuradas para serem executadas uma vez. Para d
 >
 >**Status da Jornada e o tempo limite global de 91 dias:**
 >
->* **Não recorrente** jornadas de leitura de público fazem a transição automática para o status **Parado** quando o último perfil ativo sai, a menos que a jornada inclua nós que causem períodos de espera (nós de espera, nós de reação ou transições acionadas por eventos); nesse caso, o tempo limite global padrão de 91 dias se aplica. [Saiba mais](end-journey.md#auto-stop-non-recurring)
+>* **jornadas de leitura de público-alvo** de uma só vez movidas para o status **Concluído** 91 dias ([tempo limite global de jornada](journey-properties.md#global_timeout)) após a execução da jornada.
 >* **jornadas de leitura de público-alvo** recorrentes **permanecem online** enquanto a jornada for publicada. Eles são movidos para o status **Concluído** 91 dias após a execução de sua **última ocorrência**.
 >* O tempo limite de 91 dias se aplica a **perfis** individuais que fluem pela jornada (tempo máximo que um perfil pode permanecer ativo), não ao status Live da jornada.
 >* A **janela de relatórios** de 91 dias é um conceito separado: a interface do usuário mostra dados de desempenho referentes aproximadamente aos últimos 91 dias. Os dados mais antigos não estão acessíveis na interface do usuário, mas a jornada continua a ser executada. [Saiba mais](journey-properties.md#global_timeout)

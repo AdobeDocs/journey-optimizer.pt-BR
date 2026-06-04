@@ -27,9 +27,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
+source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
 workflow-type: tm+mt
-source-wordcount: 1199
+source-wordcount: 1201
 ht-degree: 3%
 
 ---
@@ -128,9 +128,9 @@ Para obter mais informações, consulte esta [seção](../event/about-creating-b
 
 ## Ler jornadas de público {#entry-read-audience}
 
-**Ler público-alvo** As jornadas podem ser recorrentes ou não recorrentes:
+**Ler público-alvo** As jornadas podem ser recorrentes ou &quot;únicas&quot;:
 
-* Para jornadas não recorrentes: o perfil insere uma e apenas uma vez na jornada.
+* Para jornadas não recorrentes/únicas: o perfil insere uma vez e apenas uma vez na jornada.
 
 * Para jornadas recorrentes: por padrão, todos os perfis pertencentes ao público-alvo inserem a jornada em cada recorrência. Eles devem concluir a jornada antes de entrar novamente em outra ocorrência.
 

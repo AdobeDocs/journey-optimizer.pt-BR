@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5646481058c0855034cb559f18f44fad6f43fa15
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 992
+source-wordcount: 990
 ht-degree: 4%
 
 ---
@@ -61,7 +61,7 @@ Antes de começar a testar seu conteúdo usando exemplos de dados de entrada, co
 
   >[!NOTE]
   >
-  >Por enquanto, a renderização da caixa de entrada e os relatórios de spam não estão disponíveis na experiência atual. Para usar esses recursos, selecione o botão **[!UICONTROL Simular conteúdo]** no seu conteúdo para acessar a interface de usuário anterior.
+  >Por enquanto, a renderização da caixa de entrada e os relatórios de spam não estão disponíveis na experiência atual. Para usar esses recursos, clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para acessar a interface de usuário anterior.
 
 * **Atributos** - Há suporte para atributos de perfil e contextuais.
 
@@ -71,9 +71,9 @@ Antes de começar a testar seu conteúdo usando exemplos de dados de entrada, co
 
 ## Adicionar e visualizar variações de conteúdo
 
-Para criar variações para o seu conteúdo e visualizá-las, clique no botão **[!UICONTROL Simular conteúdo]** e escolha **[!UICONTROL Simular variações de conteúdo]**.
+Para criar variações para o seu conteúdo e visualizá-las, clique no botão **[!UICONTROL Simular conteúdo]**.
 
-![Opção Simular variações de conteúdo](assets/simulate-sample.png)
+![Botão Simular conteúdo](assets/simulate-sample.png)
 
 As principais etapas para testar seu conteúdo são as seguintes:
 

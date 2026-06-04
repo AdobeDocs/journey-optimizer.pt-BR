@@ -13,9 +13,9 @@ exl-id: 9b7fbd43-3d90-458b-8a2f-0bf0ac5437c3
 feature_v2: []
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 285
+source-wordcount: 278
 ht-degree: 2%
 
 ---
@@ -36,9 +36,7 @@ Considere um modelo de email de serviços financeiros com lógica de ramificaç�
 
 Para gerar variações para seu conteúdo e visualizá-las, siga estas etapas:
 
-1. Abra o conteúdo e selecione **[!UICONTROL Simular conteúdo]** / **[!UICONTROL Simular variações de conteúdo]**.
-
-   ![Opção Simular variações de conteúdo](assets/simulate-sample.png)
+1. Abra o conteúdo e clique em **[!UICONTROL Simular conteúdo]**.
 
 2. Clique no botão **[!UICONTROL Gerar]**.
 
