@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
+source-git-commit: b0bb8e240cffba77f8fb85ebac45ff98427e3e18
 workflow-type: tm+mt
-source-wordcount: 1172
+source-wordcount: 1171
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ Após o tempo limite global de **jornada de 91 dias**, uma jornada Ler público 
 
 ### Interrupção automática de jornada para públicos-alvo não recorrentes {#auto-stop-non-recurring}
 
-Uma **jornada de Leitura de Público não recorrente** agora faz a transição automática para o status **[!UICONTROL Parado]** assim que o último perfil sai da jornada. Isso elimina o comportamento anterior em que as jornadas de Leitura de Público não recorrentes permaneceram no status **Live** até que o tempo limite global de 91 dias expirasse, mesmo que nenhum perfil estivesse fluindo ativamente por meio delas.
+Uma **jornada de Leitura de Público não recorrente** faz a transição automática para o status **[!UICONTROL Parado]** assim que o último perfil sai da jornada. Isso elimina o comportamento anterior em que as jornadas de Leitura de Público não recorrentes permaneceram no status **Live** até que o tempo limite global de 91 dias expirasse, mesmo que nenhum perfil estivesse fluindo ativamente por meio delas.
 
 **Como funciona:**
 
