@@ -30,9 +30,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2332
+source-wordcount: 2324
 ht-degree: 12%
 
 ---
@@ -70,7 +70,11 @@ Estas são as principais etapas necessárias para configurar uma ação personal
 
    >[!NOTE]
    >
-   >Se o seu ponto de extremidade usar OpenID Connect e retornar um `access_token` e um `id_token` — um padrão comum em APIs de serviços bancários e financeiros — use o campo `idTokenInResponse` opcional na carga de autenticação personalizada. Isso instrui o Journey Optimizer a usar o token de ID como a credencial de autenticação em vez do token de acesso. [Saiba mais sobre autenticação personalizada](../datasource/external-data-sources.md#custom-authentication-mode).
+   >Se o ponto de extremidade retornar um `access_token` e um `id_token`, use o campo `tokenInResponse` para especificar qual token o Journey Optimizer deve usar como credencial de autenticação:
+   >* `"tokenInResponse": "json://access_token"` — usar o token de acesso (padrão para OAuth 2.0)
+   >* `"tokenInResponse": "json://id_token"` — usar o token de ID (comum em fluxos do OpenID Connect)
+   >
+   >[Saiba mais sobre autenticação personalizada](../datasource/external-data-sources.md#custom-authentication-mode)
 
 1. Defina os **[!UICONTROL Parâmetros de ação]**. Consulte [esta página](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Clique em **[!UICONTROL Salvar]**.
@@ -149,7 +153,7 @@ Ao configurar uma ação personalizada, você precisa definir os seguintes parâ
    >
    >Somente as portas padrão são permitidas ao definir uma ação personalizada: 80 para http e 443 para https.
 
-1. Selecione a chamada **[!UICONTROL Método]**: pode ser **[!UICONTROL POSTAR]**, **[!UICONTROL GET]** ou **[!UICONTROL PUT]**.
+1. Selecione a chamada **[!UICONTROL Método]**: pode ser **[!UICONTROL POST]**, **[!UICONTROL GET]** ou **[!UICONTROL PUT]**.
 
    >[!NOTE]
    >
@@ -202,7 +206,7 @@ A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. N�
 
 ### Autenticação personalizada baseada em certificado {#certificate-based-auth}
 
-Para APIs corporativas que impõem a verificação de identidade baseada em certificado — como Azure Entra ID — as ações personalizadas oferecem suporte à **Autenticação Personalizada Baseada em Certificado**. Para habilitá-lo, defina `"subType": "certificateCredential"` na carga de autorização personalizada configurada na seção **[!UICONTROL Autenticação]**.
+Para APIs corporativas que impõem a verificação de identidade baseada em certificado — como Microsoft Entra ID — as ações personalizadas oferecem suporte à **Autenticação Personalizada Baseada em Certificado**. Para habilitá-lo, defina `"subType": "certificateCredential"` na carga de autorização personalizada configurada na seção **[!UICONTROL Autenticação]**.
 
 O Journey Optimizer usa o certificado gerenciado da Adobe para assinar uma asserção de cliente JWT e trocá-la automaticamente por um token de acesso. Nenhum segredo de cliente é necessário.
 

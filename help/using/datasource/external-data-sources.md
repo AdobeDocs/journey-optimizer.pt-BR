@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2077
+source-wordcount: 2084
 ht-degree: 30%
 
 ---
@@ -253,12 +253,12 @@ Veja um exemplo do tipo de autenticação de portador:
 
 ### Autenticação personalizada baseada em certificado {#certificate-credential}
 
-Para APIs corporativas que impõem a verificação de identidade baseada em certificado — como Azure Entra ID —, é possível configurar a autenticação personalizada baseada em certificado adicionando `"subType": "certificateCredential"` à sua carga de autorização personalizada. O Journey Optimizer usa o certificado gerenciado do Adobe para assinar uma declaração de cliente JWT e trocá-la por um token de acesso. Nenhum segredo de cliente é necessário.
+Para APIs corporativas que impõem a verificação de identidade baseada em certificado — como Microsoft Entra ID —, é possível configurar a autenticação personalizada baseada em certificado adicionando `"subType": "certificateCredential"` à sua carga de autorização personalizada. O Journey Optimizer usa o certificado gerenciado do Adobe para assinar uma declaração de cliente JWT e trocá-la por um token de acesso. Nenhum segredo de cliente é necessário.
 
-Esta opção adiciona dois campos opcionais ao esquema padrão `customAuthorization`: `subType` e `aud`. Todos os outros campos (`endpoint`, `method`, parâmetros de corpo, `tokenInResponse`) permanecem inalterados. Quando `subType` está ausente, o comportamento é idêntico à autenticação personalizada padrão — as configurações existentes não são afetadas.
+Esta opção adiciona dois campos obrigatórios ao esquema padrão `customAuthorization`: `subType` e `aud`. Todos os outros campos (`endpoint`, `method`, parâmetros de corpo, `tokenInResponse`) permanecem inalterados. Quando `subType` está ausente, o comportamento é idêntico à autenticação personalizada padrão — as configurações existentes não são afetadas.
 
 * **`subType`**: Defina como `"certificateCredential"` para ativar a autenticação baseada em certificado.
-* **`aud`**: o valor de público incluído na asserção do cliente JWT. Quando não estiver definido, o padrão é a URL `endpoint`. Especifique esse campo somente se o Provedor de identidade esperar um valor de público diferente.
+* **`aud`**: o valor de público incluído na asserção do cliente JWT. Para a Microsoft Entra ID, é o mesmo que a URL `endpoint`, mas ela deve ser sempre definida explicitamente.
 
 Os campos `client_assertion` e `client_assertion_type` nunca foram criados pelo usuário. Eles são inseridos automaticamente pela plataforma no tempo de execução, imediatamente antes da chamada do endpoint de token.
 
@@ -269,7 +269,7 @@ Veja um exemplo do tipo de autenticação de credencial de certificado:
   "type": "customAuthorization",
   "subType": "certificateCredential",
   "aud": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
-  "authorizationType": "bearer",
+  "authorizationType": "Bearer",
   "endpoint": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
   "method": "POST",
   "body": {
@@ -289,6 +289,7 @@ Veja um exemplo do tipo de autenticação de credencial de certificado:
 >Lembre-se das seguintes medidas de proteção ao configurar a autenticação personalizada baseada em certificado:
 >
 >* **URL do ponto de extremidade do token**: deve ser HTTPS. Evite URLs contendo `?` — este é um sinal de que o ponto de extremidade de autorização foi colado em vez do ponto de extremidade do token.
+>* **`method`**: Deve ser `POST`. Os endpoints do token OAuth só aceitam solicitações POST.
 >* **`client_id`**: não deve estar em branco e não deve conter espaços em branco à esquerda ou à direita. Um valor em branco produz um JWT de aparência válida que o Provedor de identidade rejeitará com um erro opaco.
 >* **`scope`**: Expressa como uma cadeia de caracteres separada por espaço em `bodyParams`. Total máximo de 1000 caracteres.
 >* **Certificado**: o Adobe gerencia o certificado e a chave privada — você nunca carrega ou insere um certificado. Antes de usar a ação personalizada em uma jornada em tempo real, você deve registrar o **certificado folha do Adobe** (não a CA raiz) no seu Provedor de Identidade.
