@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fb22b573041e33cf7a831e193ad87ded473ca247
+source-git-commit: 738f708832176c1554e64fce9954d899cc221b13
 workflow-type: tm+mt
 source-wordcount: 2743
 ht-degree: 20%
@@ -47,6 +47,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 >[!NOTE]
 >
 >Os recursos listados nestas notas de versão incluem uma **Data de disponibilidade** indicando quando cada alteração se torna acessível em seu ambiente. As entradas nas opções **Em breve** serão esperadas nos próximos dias ou semanas. As informações contidas nessas seções estão sujeitas a alterações.
+<!--
+Rebuild
+-->
 
 ## Atualizações de junho de 2026 {#june-26-updates}
 
@@ -59,7 +62,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>Agora é possível adicionar políticas de decisão a jornadas e campanhas de correspondência direta. As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo para cada membro do público. A decisão de correspondência direta também aceita casos de uso de decisão em lote, permitindo exportar os itens de oferta correspondentes para cada perfil em um determinado público-alvo da Adobe Experience Platform.</p>
+<p>Agora é possível adicionar políticas de decisão a jornadas e campanhas de correspondência direta. As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo de decisão para retornar dinamicamente o melhor conteúdo para cada membro do público. A decisão de correspondência direta também aceita casos de uso de decisão em lote, permitindo exportar os itens de oferta correspondentes para cada perfil em um determinado público-alvo da Adobe Experience Platform. </p>
 <p><img src="assets/do-not-localize/exd-dm.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../experience-decisioning/use-decision-policy.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 3 de junho de 2026</p>
