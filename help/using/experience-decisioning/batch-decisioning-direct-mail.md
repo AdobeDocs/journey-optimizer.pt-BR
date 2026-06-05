@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: decisão em lote, correspondência direta, decisão
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
@@ -92,3 +92,4 @@ Isso oferece suporte a casos de uso de decisão em lote por meio do canal de cor
 * [Criar políticas de decisão](create-decision-policy.md#add) - Adicionar uma política de decisão na guia Mala Direta
 * [Configuração de correspondência direta](../direct-mail/direct-mail-configuration.md) - Configuração de canal e roteamento de arquivos
 * [Introdução à Decisão](gs-experience-decisioning.md) - Conceitos e medidas de proteção
+
