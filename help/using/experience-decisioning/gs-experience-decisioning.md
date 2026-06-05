@@ -8,25 +8,16 @@ level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 014e80a81e9f04f74f0a97c380feab5bbfc8856f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 24%
+source-wordcount: 751
+ht-degree: 22%
 
 ---
 
@@ -41,11 +32,11 @@ ht-degree: 24%
 
 O serviço de decisão simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.
 
-Estes itens de decisão são perfeitamente integrados em mensagens e experiências em [!DNL Adobe Journey Optimizer] canais: [experiência baseada em código](../code-based/get-started-code-based.md), email, SMS e notificações por push.
+Estes itens de decisão são perfeitamente integrados a mensagens e experiências em [!DNL Adobe Journey Optimizer] canais: [experiência baseada em código](../code-based/get-started-code-based.md), email, SMS, notificações por push e [correspondência direta](batch-decisioning-direct-mail.md) para decisões em lote e exportações personalizadas de correspondência direta. O suporte do Experience Decisioning para correspondência direta é um novo recurso; anteriormente, o mecanismo do Decisioning não estava disponível para arquivos de extração de correspondência direta.
 
 >[!IMPORTANT]
 >
->As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **Email**, **Notificação por push** e **SMS**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
+>As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **Email**, **Notificação por push**, **SMS** e **Correspondência direta**.
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -127,4 +118,4 @@ O gráfico abaixo resume o processo de decisão completo — desde o gerenciamen
 
 Saiba mais sobre os recursos de decisão no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475868?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

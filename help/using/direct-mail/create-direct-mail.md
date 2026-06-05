@@ -10,23 +10,16 @@ level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1069
-ht-degree: 17%
+source-wordcount: 1190
+ht-degree: 15%
 
 ---
 
@@ -125,7 +118,15 @@ Agora você pode começar a configurar o arquivo de extração para enviar ao se
 
 O arquivo de extração é exigido por provedores de correspondência direta para enviar emails aos clientes. Para definir a configuração do arquivo de extração, siga estas etapas:
 
-1. Na tela de configuração da campanha, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo do arquivo de extração.
+1. Na tela de configuração da campanha ou da jornada, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo do arquivo de extração.
+
+1. Para adicionar políticas de decisão à sua mensagem de correspondência direta, selecione uma coluna na seção **[!UICONTROL Campos de Dados]** e abra o editor de personalização usando o ícone ![](../experience-decisioning/assets/do-no-localize/editor-icon.svg). Navegue até o menu **[!UICONTROL Políticas de decisão]** para criar e inserir uma política de decisão. Em seguida, você pode usar atributos de item de decisão como dados de coluna no arquivo de extração.
+
+   >[!AVAILABILITY]
+   >
+   >O Experience Decisioning na correspondência direta é um novo recurso. Anteriormente, os arquivos de extração de correspondência direta não podiam usar o mecanismo do Decisioning; agora é possível adicionar políticas de decisão e incluir atributos de item de decisão como dados de coluna na exportação.
+
+   [Saiba como adicionar uma política de decisão à correspondência direta](../experience-decisioning/create-decision-policy.md#add). Para obter exemplos e fluxos de trabalho de decisão em lote (correspondência direta personalizada ou exportação para sistemas downstream), consulte [Decisão em lote na correspondência direta](../experience-decisioning/batch-decisioning-direct-mail.md).
 
 1. Ajuste as propriedades do arquivo de extração:
 

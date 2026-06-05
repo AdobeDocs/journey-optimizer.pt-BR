@@ -8,22 +8,14 @@ level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/E1BsOCI4d-f7PCFVEzNlWFj6Odh4T-9S3oq295tmCsE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 707
+source-wordcount: 704
 ht-degree: 33%
 
 ---
@@ -63,8 +55,9 @@ As políticas de decisão são containers para suas ofertas que utilizam o mecan
 
 ## Medidas de proteção e limitações
 
-* **Canais com suporte** - As políticas de decisão estão disponíveis para Experiência baseada em código, SMS, notificações por push e email.
-* **Requisito do SDK para notificações por push** - A Experience Decisioning com notificações por push requer uma versão específica do Mobile SDK. Antes de implementar este recurso, verifique as [notas de versão](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} para identificar a versão necessária e se você atualizou adequadamente. Você também pode exibir todas as versões do SDK disponíveis para sua plataforma [nesta seção](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
+* **Canais com suporte** - Experiência baseada em código, email, SMS, notificações por push e correspondência direta.
+
+* **Requisito do SDK para notificações por push** - A Experience Decisioning com notificações por push requer uma versão específica do Mobile SDK. Antes de implementar este recurso, verifique as [notas de versão](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} para identificar a versão necessária e se você atualizou adequadamente. Você também pode exibir todas as versões do SDK disponíveis para sua plataforma [nesta seção](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
 * **Tipo de rastreamento e links** - Para rastrear links gerados pela decisão, defina-os no esquema como &quot;Assets de decisão&quot;. Os links baseados em atributos não são rastreáveis.
 * **Aninhamento da política de decisão em emails** - Não é possível aninhar várias políticas de decisão em um componente de email principal que já tenha uma política de decisão associada.
 * **jornadas/campanhas duplicadas com decisão** - Se você duplicar uma jornada ou campanha que inclui uma política de decisão, a versão duplicada fará referência ao email original ou à experiência baseada em código, causando erros. Sempre reconfigure a política de decisão após a duplicação.
@@ -98,12 +91,12 @@ As principais etapas para aproveitar as políticas de decisão nas mensagens sã
 
 Saiba como usar o Decisioning para personalizar emails para seu público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476169?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 Saiba como usar o Decisioning para personalizar notificações por push para seu público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479215?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 Saiba como usar o Decisioning para personalizar mensagens SMS para seu público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479534?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)

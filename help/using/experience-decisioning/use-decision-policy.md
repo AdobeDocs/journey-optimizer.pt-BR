@@ -9,23 +9,14 @@ mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b94f1c1a557a6c47d3eb81f3660b09b1fde59f5a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: 1230
 ht-degree: 2%
 
 ---
@@ -36,7 +27,7 @@ Depois de adicionar uma política de decisão ao conteúdo, você pode usar atri
 
 >[!CAUTION]
 >
->As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **SMS**, **Notificação por push** e **Email**.
+>As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **Email**, **SMS**, **Notificação por push** e **Correspondência direta**.
 
 ## Inserir o código de política de decisão {#insert}
 
@@ -104,13 +95,23 @@ Você também pode inserir o código da política de decisão ao usar o **[!UICO
 >
 >O Experience Decisioning com notificações por push requer uma versão específica do Mobile SDK. Antes de implementar este recurso, verifique as [notas de versão](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} para identificar a versão necessária e se você atualizou adequadamente. Você também pode exibir todas as versões do SDK disponíveis para sua plataforma [nesta seção](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
+>[!TAB Correspondência direta]
+
+1. Na configuração do arquivo de extração, abra o **Personalization Editor** (por exemplo, no campo **[!UICONTROL Dados]** de uma coluna).
+
+2. Navegue até **[!UICONTROL Políticas de decisão]** e selecione **[!UICONTROL Inserir política]** para adicionar o código da sua política de decisão.
+
+   ![](assets/decision-policy-add-dm-syntax.png)
+
+3. Use os atributos do item de decisão retornado como dados da coluna para que as informações da oferta selecionada sejam incluídas no arquivo de extração de cada perfil.
+
 >[!ENDTABS]
 
 O código de política de decisão é adicionado. Agora você pode usar atributos dos itens de decisão retornados para personalizar seu conteúdo.
 
 >[!NOTE]
 >
->Para canais de email e experiência baseados em código, repita essa sequência uma vez por item de decisão que deseja retornar. Por exemplo, se você optou por retornar 2 itens ao [criar a decisão](create-decision-policy.md), repita a sequência duas vezes. Para canais SMS e Push, somente um item de decisão pode ser retornado.
+>Para canais de experiência baseada em código, email e correspondência direta, repita essa sequência uma vez por item de decisão que deseja retornar. Por exemplo, se você optou por retornar 2 itens ao [criar a decisão](create-decision-policy.md), repita a sequência duas vezes. Para canais SMS e Push, somente um item de decisão pode ser retornado.
 
 ## Personalizar com atributos de item de decisão {#attributes}
 
@@ -126,7 +127,7 @@ Atributos de item de decisão e atributos contextuais não são suportados por p
 
 Para adicionar um atributo, clique no ícone **`+`** ao lado do atributo. Você pode adicionar quantos atributos forem necessários. Você também pode incluir outros atributos de personalização, como dados de perfil.
 
-* Para canais **baseados em email** e **código**, coloque os atributos entre o loop `#each` usando colchetes `[ ]` e adicione uma vírgula antes de fechar a marca `/each`.
+* Para os canais **Email**, **Code-based** e **Direct Mail**, coloque os atributos entre o loop `#each` usando colchetes `[ ]` e adicione uma vírgula antes de fechar a marca `/each`.
 
   +++Veja o exemplo
 
