@@ -5,7 +5,7 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
+source-git-commit: 738f708832176c1554e64fce9954d899cc221b13
 workflow-type: tm+mt
 source-wordcount: '3368'
 ht-degree: 94%
@@ -589,7 +589,7 @@ ht-degree: 94%
       + [Trabalhar com atributos computados](using/audience/computed-attributes.md)
    + [Identidades](using/audience/get-started-identity.md)
    + [Uso da licença](using/audience/license-usage.md)
-+ Relatório {#reporting}
++ Relatórios {#reporting}
    + [Relatório](/help/rp_landing_pages/reporting-landing-page.md)
    + [Introdução aos relatórios](using/reports/gs-reports.md)
    + Relatório em tempo real {#live-report}
@@ -1005,4 +1005,5 @@ ht-degree: 94%
       + [Gerencie as preferências dos clientes](using/action/preference-center.md)
    + [Governança de dados](using/action/action-privacy.md)
    + [Configurar e gerir chaves gerenciadas pelo cliente](using/privacy/cmk.md)
+
 
