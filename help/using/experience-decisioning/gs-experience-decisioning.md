@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 014e80a81e9f04f74f0a97c380feab5bbfc8856f
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 24%
+source-wordcount: 751
+ht-degree: 22%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 24%
 
 O serviço de decisão simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.
 
-Estes itens de decisão são perfeitamente integrados em mensagens e experiências em [!DNL Adobe Journey Optimizer] canais: [experiência baseada em código](../code-based/get-started-code-based.md), email, SMS e notificações por push.
+Estes itens de decisão são perfeitamente integrados a mensagens e experiências em [!DNL Adobe Journey Optimizer] canais: [experiência baseada em código](../code-based/get-started-code-based.md), email, SMS, notificações por push e [correspondência direta](batch-decisioning-direct-mail.md) para decisões em lote e exportações personalizadas de correspondência direta. O suporte do Experience Decisioning para correspondência direta é um novo recurso; anteriormente, o mecanismo do Decisioning não estava disponível para arquivos de extração de correspondência direta.
 
 >[!IMPORTANT]
 >
->As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **Email**, **Notificação por push** e **SMS**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
+>As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **Email**, **Notificação por push**, **SMS** e **Correspondência direta**.
 
 ➡️ [Conheça este recurso no vídeo](#video)
 

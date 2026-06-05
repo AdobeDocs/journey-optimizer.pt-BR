@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 2263
+source-wordcount: 2372
 ht-degree: 6%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 6%
 Para apresentar a melhor oferta dinâmica e experiência aos seus clientes, adicione uma política de decisão ao seu conteúdo em uma campanha ou jornada e configure os itens a serem retornados e a estratégia de seleção a ser usada. Para isso, siga as etapas abaixo:
 
 1. [Adicionar uma política de decisão](#add)
-1. [Configurar a política de decisão](#configure) - Adicione um nome e especifique o número de itens a serem retornados para o canal de email.
+1. [Configurar a política de decisão](#configure) - Adicione um nome e, para canais de email e correspondência direta, especifique o número de itens a serem retornados.
 1. [Configurar uma sequência de estratégia](#strategy) - Selecione os itens a serem retornados com a política de decisão.
 1. [Selecionar ofertas substitutas](#fallback) (opcional) - Selecione os itens a serem exibidos se nenhum item ou estratégia de seleção estiver qualificado.
 1. [Revisar e salvar](#review) a estratégia de seleção
@@ -55,13 +55,11 @@ Para apresentar a melhor oferta dinâmica e experiência aos seus clientes, adic
 
 >[!AVAILABILITY]
 >
->As políticas de decisão estão disponíveis para os canais **Experiência baseada em código**, **Notificação por push**, **SMS** e **Email**.
+>As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **Email**, **Notificação por push**, **SMS** e **Correspondência direta**.
 
 ## Adicionar uma política de decisão {#add}
 
-Abra uma jornada ou campanha, selecione uma [ação de canal](../building-journeys/journey-action.md) e edite o conteúdo da sua mensagem.
-
-Edite o conteúdo da mensagem e navegue pelas guias abaixo para obter mais informações sobre como adicionar a política de decisão com base no canal selecionado.
+Acesse uma ação de canal configurada na sua jornada ou campanha e edite o conteúdo da sua mensagem. Navegue pelas guias abaixo para obter mais informações sobre como adicionar a política de decisão com base no canal selecionado.
 
 >[!BEGINTABS]
 
@@ -195,6 +193,22 @@ Para notificações por push, você pode adicionar uma nova política de decisã
 
 +++
 
+>[!TAB Correspondência direta]
+
+Para correspondência direta, adicione uma política de decisão da configuração **arquivo de extração**. [Saiba como criar uma mensagem de correspondência direta](../direct-mail/create-direct-mail.md).
+
+1. Na seção **[!UICONTROL Campos de Dados]**, selecione uma coluna ou clique em **[!UICONTROL Adicionar]** para criar uma.
+
+1. No painel de formatação, abra o editor de personalização usando o ícone ![](assets/do-no-localize/editor-icon.svg).
+
+   ![](assets/decision-policy-dm-add.png)
+
+1. Navegue até o menu **[!UICONTROL Políticas de decisão]** e clique no botão **[!UICONTROL Adicionar política de decisão]**.
+
+   ![](assets/decision-policy-dm-create.png)
+
+1. Na tela de configuração da política de decisão, use o campo **[!UICONTROL Number of items]** para definir quantos itens de decisão devem ser retornados para cada perfil (por exemplo, 2 para exportar as 2 principais ofertas elegíveis). Continue com a [configuração da estratégia](#strategy) e a [personalização](use-decision-policy.md) nas colunas do arquivo de extração.
+
 >[!ENDTABS]
 
 ## Configurar a política de decisão {#configure}
@@ -209,7 +223,7 @@ Após ter adicionado uma nova política de decisão ao seu conteúdo, a tela de 
 
    >[!NOTE]
    >
-   >Essa opção está disponível somente para os canais de experiência baseados em email e código. Para todos os outros canais, somente um item de decisão pode ser retornado por ação.
+   >O campo **[!UICONTROL Número de itens]** está disponível para os canais **Email**, **Experiência baseada em código** e **Correspondência direta**. Para os canais **SMS** e **Push**, somente 1 item de decisão pode ser retornado por ação.
 
    Para retornar vários itens para o Canal de email, é necessário adicionar a política de decisão em um componente de **[!UICONTROL Grade de Repetição]**. Expanda a seção abaixo para obter mais detalhes:
 

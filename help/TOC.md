@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a3301bfc25f76ba0f74622fd1f169585c2d96ebd
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: '3363'
-ht-degree: 95%
+source-wordcount: '3368'
+ht-degree: 94%
 
 ---
 
@@ -589,8 +589,8 @@ ht-degree: 95%
       + [Trabalhar com atributos computados](using/audience/computed-attributes.md)
    + [Identidades](using/audience/get-started-identity.md)
    + [Uso da licença](using/audience/license-usage.md)
-+ Relatórios {#reporting}
-   + [Relatórios](/help/rp_landing_pages/reporting-landing-page.md)
++ Relatório {#reporting}
+   + [Relatório](/help/rp_landing_pages/reporting-landing-page.md)
    + [Introdução aos relatórios](using/reports/gs-reports.md)
    + Relatório em tempo real {#live-report}
       + [Relatório em tempo real](/help/rp_landing_pages/live-report-landing-page.md)
@@ -726,6 +726,7 @@ ht-degree: 95%
          + [Criar políticas de decisão](using/experience-decisioning/create-decision-policy.md)
          + [Usar políticas de decisão em mensagens](using/experience-decisioning/use-decision-policy.md)
          + [Aproveitar fragmentos em políticas de decisão](using/experience-decisioning/fragments-decision-policies.md)
+         + [Decisão em lote na correspondência direta](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [Relatório de decisões](using/experience-decisioning/cja-reporting.md)
       + [Caso de uso de decisão](using/experience-decisioning/experience-decisioning-uc.md)
       + Coletar dados de eventos {#experience-decisioning-collect-event-data}
