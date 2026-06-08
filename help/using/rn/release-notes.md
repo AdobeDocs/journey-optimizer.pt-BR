@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
+source-git-commit: 161b043b801d8c35e2dd590f1f85d52829d6a459
 workflow-type: tm+mt
-source-wordcount: 2562
+source-wordcount: 2564
 ht-degree: 21%
 
 ---
@@ -383,7 +383,7 @@ As seguintes melhorias foram adicionadas ao canal do WhatsApp nesta versão.
 
 * **Suporte e rastreamento de botões do WhatsApp** - Os modelos do WhatsApp agora oferecem suporte para **Resposta rápida**, **Call to action - URL** e **Call to action - phone**, **Não há suporte para**. O Journey Optimizer envia botões e rastreia interações compatíveis junto com seus outros relatórios de canal.
 
-* **Dados de contexto do canal do WhatsApp** - O Journey Optimizer agora captura dados adicionais de interação retornados do canal do WhatsApp e os armazena no **Conjunto de Dados do AJO EmailTrackingExperienceEvent** no grupo de campos `whatsAppChannelContext`.
+* **Dados de contexto do canal do WhatsApp** - O Journey Optimizer agora captura dados adicionais de interação retornados do canal do WhatsApp e os armazena no **Conjunto de Dados do AJO EmailTrackingExperienceEvent** no grupo de campos `whatsAppChannelContext`. [Leia mais](../whatsapp/send-whatsapp.md#whatsapp-channel-context)
 
   +++ Os campos a seguir são capturados e podem ser usados para construir públicos e analisar o engajamento do WhatsApp
 
