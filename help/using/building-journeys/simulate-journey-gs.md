@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
+source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
 workflow-type: tm+mt
-source-wordcount: 1491
+source-wordcount: 1427
 ht-degree: 2%
 
 ---
@@ -47,10 +47,6 @@ Os usuários simulados selecionados para a simulação aparecem na seção **Usu
 
 ![Painel de simulação para uma jornada em lotes com público-alvo de leitura somente](assets/simulate-batch.png)
 
-Para jornadas com um **[!UICONTROL Público-alvo de leitura]**, você pode acessar a **[!UICONTROL Simulação rápida]** ou a **[!UICONTROL Simulação manual]**.
-
-![Painel de simulação para uma jornada em lotes com público-alvo de leitura somente](assets/simulate-14.png)
-
 +++
 
 +++ Jornada em lote com um público-alvo de leitura e eventos unitários
@@ -60,10 +56,6 @@ Os usuários simulados selecionados para a simulação e os eventos configurados
 
 ![Painel de simulação para uma jornada em lotes com público-alvo de leitura somente](assets/simulate-batch-2.png)
 
-Com a **jornada em lote com uma audiência de leitura e eventos unitários**, você pode acessar a **[!UICONTROL Simulação rápida]** ou a **[!UICONTROL Simulação manual]**.
-
-![Botão de modo de teste na interface do jornada](assets/simulate-12.png)
-
 +++
 
 +++ Jornada unitária
@@ -72,10 +64,6 @@ A jornada começa com um evento unitário, não com um público lido. Um usuári
 Os usuários simulados selecionados para a simulação e os eventos configurados estarão visíveis, respectivamente, nas seções **Usuários de teste** e **Eventos de teste**. A seção **Usuários de teste** não inclui uma ação para acionar um usuário simulado na jornada. Você aciona uma entrada de **Eventos de teste**.
 
 ![Painel de simulação para uma jornada em lotes com público-alvo de leitura somente](assets/simulate-batch-3.png)
-
-Com a **jornada Unitária**, você acessa diretamente o menu de simulação Manual.
-
-![Painel de simulação para uma jornada unitária](assets/simulate-13.png)
 
 +++
 
