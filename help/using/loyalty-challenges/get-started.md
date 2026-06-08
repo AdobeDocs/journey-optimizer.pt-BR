@@ -12,11 +12,10 @@ badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
-source-wordcount: 911
+source-wordcount: 920
 ht-degree: 13%
 
 ---
@@ -90,21 +89,23 @@ Você pode criar estes tipos de experiências de desafio:
 * **Desafios sequenciais**: os clientes concluem as tarefas em uma ordem definida. Use esse tipo para orientar os clientes por meio de uma jornada específica ou processo de integração.\
   *Exemplo: &quot;Nova Jornada de Membro&quot; - Inscreva-se para receber emails → Faça sua primeira compra → Escreva uma análise do produto → Indique um amigo (complete nesta ordem exata)*
 
-* **Traga seus próprios desafios de dados** (disponibilidade restrita): a estrutura de desafios (tarefas e recompensas) é montada a partir da integração de dados dos Desafios de Fidelidade. Você configura o Conteúdo, as Mensagens e o Público como configuraria para qualquer outro tipo de desafio.
+* **Traga seus próprios desafios de dados** (disponibilidade restrita): a estrutura de desafios (tarefas e recompensas) é montada a partir da integração de dados dos Desafios de Fidelidade. Defina Configurações, Conteúdo e Mensagens da mesma maneira que faria para qualquer outro tipo de desafio.
+
+* **Desafios repetíveis**: configure quantas vezes os membros podem concluir o mesmo desafio e receber recompensas novamente. [Saiba mais sobre limites de repetição](create-challenges.md#repeat-limits)
 
 ## Como funciona {#how-it-works}
 
 A criação e o lançamento de um desafio de fidelidade seguem este fluxo de trabalho:
 
-1. **Criar um desafio** - Defina as propriedades básicas do desafio, incluindo nome, tipo (Padrão, Streak, Sequencial ou Trazer seus próprios dados quando disponíveis) e intervalo de datas. [Saiba como escolher um tipo de desafio](create-challenges.md#create-the-challenge).
+1. **Criar um desafio** - Escolha o tipo de desafio (Padrão, Streak, Sequencial ou Trazer seus próprios dados quando disponíveis). [Saiba como escolher um tipo de desafio](create-challenges.md#create-the-challenge).
 
-1. **Adicionar tarefas** - Defina as ações específicas que os clientes devem concluir, incluindo tipos de tarefa (compra, gastos ou eventos personalizados), quantidades, filtros de produto e recompensas.
+1. **Definir configurações** - Na guia Configurações, defina detalhes do desafio, público-alvo, agendamento, regras (aceitação, rastreamento de progresso, limites de repetição) e metadados opcionais. [Saiba mais sobre as configurações de desafio](create-challenges.md#settings).
 
-1. **Criar cartões de conteúdo** - Crie a representação visual do seu desafio usando cartões de conteúdo do Journey Optimizer exibidos em dispositivos do cliente. Os cartões de conteúdo mostram informações de desafio, progresso e recompensas.
+1. **Adicionar tarefas e recompensas** - Na guia Estrutura, defina tarefas e recompensas (não é necessário para Traga seus próprios desafios de dados).
+
+1. **Criar cartões de conteúdo** - Crie a representação visual do seu desafio usando cartões de conteúdo do Journey Optimizer exibidos em dispositivos do cliente.
 
 1. **Configurar mensagens** (opcional) - Configure mensagens multicanais (no aplicativo, email, push) para os principais estágios do ciclo de vida: inicialização, em andamento e conclusão.
-
-1. **Selecionar público-alvo** - Defina quais clientes podem participar do seu desafio selecionando um público-alvo da Adobe Experience Platform.
 
 1. **Iniciar o desafio** - Publique o desafio e gere uma jornada. O Journey Optimizer cria automaticamente a jornada para o seu desafio. Publique a jornada gerada automaticamente para disponibilizar o desafio aos clientes.
 
@@ -212,7 +213,7 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar desafios de fidelidade</strong></a>
     </div>
     <p>
