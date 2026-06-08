@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
+source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
 workflow-type: tm+mt
-source-wordcount: 1491
+source-wordcount: 1427
 ht-degree: 2%
 
 ---
@@ -47,10 +47,6 @@ Os usuários simulados selecionados para a simulação aparecem na seção **Usu
 
 ![Painel de simulação para uma jornada em lotes com público-alvo de leitura somente](assets/simulate-batch.png)
 
-Para jornadas com um **[!UICONTROL Público-alvo de leitura]**, você pode acessar a **[!UICONTROL Simulação rápida]** ou a **[!UICONTROL Simulação manual]**.
-
-![Painel de simulação para uma jornada em lotes com público-alvo de leitura somente](assets/simulate-14.png)
-
 +++
 
 +++ Jornada em lote com um público-alvo de leitura e eventos unitários
@@ -60,10 +56,6 @@ Os usuários simulados selecionados para a simulação e os eventos configurados
 
 ![Painel de simulação para uma jornada em lotes com público-alvo de leitura somente](assets/simulate-batch-2.png)
 
-Com a **jornada em lote com uma audiência de leitura e eventos unitários**, você pode acessar a **[!UICONTROL Simulação rápida]** ou a **[!UICONTROL Simulação manual]**.
-
-![Botão de modo de teste na interface do jornada](assets/simulate-12.png)
-
 +++
 
 +++ Jornada unitária
@@ -72,10 +64,6 @@ A jornada começa com um evento unitário, não com um público lido. Um usuári
 Os usuários simulados selecionados para a simulação e os eventos configurados estarão visíveis, respectivamente, nas seções **Usuários de teste** e **Eventos de teste**. A seção **Usuários de teste** não inclui uma ação para acionar um usuário simulado na jornada. Você aciona uma entrada de **Eventos de teste**.
 
 ![Painel de simulação para uma jornada em lotes com público-alvo de leitura somente](assets/simulate-batch-3.png)
-
-Com a **jornada Unitária**, você acessa diretamente o menu de simulação Manual.
-
-![Painel de simulação para uma jornada unitária](assets/simulate-13.png)
 
 +++
 
@@ -105,7 +93,7 @@ Alguns nós impedem que a **[!UICONTROL Simulação]** seja iniciada. Outros sã
 | ID complementar (várias reentradas) | **[!UICONTROL A simulação]** não é iniciada quando várias reentradas estão habilitadas e o mesmo usuário simulado pode ter várias instâncias ativas ao mesmo tempo. |
 | Nó Content Decision | Remova ou altere esta atividade antes de simular a jornada. |
 | Pesquisa de conjunto de dados | **[!UICONTROL A simulação]** não oferece suporte a pesquisas de conjuntos de dados de clientes por chave. Remova ou altere esta atividade antes de executar uma simulação. |
-| **[!UICONTROL Otimizar]** atividade | Não há suporte para **[!UICONTROL Experimento]** e **[!UICONTROL regra de direcionamento]**. Remova ou altere o nó antes de simular.<br><br>Outros métodos **[!UICONTROL Otimizar]** se comportam da seguinte maneira:<br><br>**[!UICONTROL Divisão de porcentagem &#x200B;]**: a Journey Agent cria um usuário simulado por ramificação, não de acordo com as porcentagens de ramificação. No tempo de execução, a avaliação ao vivo escolhe a ramificação e pode diferir do caminho gerado. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida.<br><br>**[!UICONTROL Condição de tempo]**: as condições se aplicam no tempo de execução como em uma jornada em tempo real. Por exemplo, uma janela de 8:00 a 20:00 permite somente aos usuários passar enquanto a simulação é executada dentro dessa janela. Não é possível simular o tempo de execução. Defina a condição para corresponder à hora atual quando você testar.<br><br>**[!UICONTROL Condição de data &#x200B;]**: as condições se aplicam em tempo de execução como em uma jornada em tempo real. Por exemplo, uma data de 8 de junho de 2026 permite que os usuários somente acessem quando a simulação for executada nessa data. Não é possível simular a data de execução. Defina a condição para a data atual ao testar.<br><br>**[!UICONTROL Limite de perfil]**: as limitações não são aplicadas durante a simulação. O Journey Agent cria um usuário simulado por ramificação. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida. |
+| **[!UICONTROL Otimizar]** atividade | Não há suporte para **[!UICONTROL Experimento]** e **[!UICONTROL regra de direcionamento]**. Remova ou altere o nó antes de simular.<br><br>Outros métodos **[!UICONTROL Otimizar]** se comportam da seguinte maneira:<br><br>**[!UICONTROL Divisão de porcentagem ]**: a Journey Agent cria um usuário simulado por ramificação, não de acordo com as porcentagens de ramificação. No tempo de execução, a avaliação ao vivo escolhe a ramificação e pode diferir do caminho gerado. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida.<br><br>**[!UICONTROL Condição de tempo]**: as condições se aplicam no tempo de execução como em uma jornada em tempo real. Por exemplo, uma janela de 8:00 a 20:00 permite somente aos usuários passar enquanto a simulação é executada dentro dessa janela. Não é possível simular o tempo de execução. Defina a condição para corresponder à hora atual quando você testar.<br><br>**[!UICONTROL Condição de data ]**: as condições se aplicam em tempo de execução como em uma jornada em tempo real. Por exemplo, uma data de 8 de junho de 2026 permite que os usuários somente acessem quando a simulação for executada nessa data. Não é possível simular a data de execução. Defina a condição para a data atual ao testar.<br><br>**[!UICONTROL Limite de perfil]**: as limitações não são aplicadas durante a simulação. O Journey Agent cria um usuário simulado por ramificação. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida. |
 | Ramificações de tempo limite e erro | A Journey Agent não gera usuários para ramificações de tempo limite ou erro de atividades. Os usuários só inserem esses caminhos se ocorrer um tempo limite real ou um erro durante a simulação. |
 | Ramificação de tempo limite (atividades de evento) | Os usuários simulados são criados, mas na **[!UICONTROL Simulação manual]** a Journey Agent não decide quem entra em uma ramificação de tempo limite de evento. Controle o caminho enviando ou não o evento. Por exemplo, para testar uma ramificação de tempo limite, aguarde o tempo limite configurado e não envie o evento. **[!UICONTROL A simulação rápida]** pode enviar ou reter eventos automaticamente para abranger ramificações de tempo limite. |
 | Eventos de reação | Os eventos de reação são executados em simulação, mas a ação deve ocorrer na vida real. Por exemplo, uma reação de email **abrir** requer a abertura da mensagem de prova. Não é possível simular reações na interface da simulação. |
