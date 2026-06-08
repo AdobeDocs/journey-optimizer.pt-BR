@@ -5,18 +5,14 @@ title: Usar a atividade Carregar arquivo
 description: Saiba como usar a atividade Carregar arquivo para direcionar um público-alvo de campanha orquestrada de um arquivo CSV ou TXT sem assimilar o arquivo na Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1234
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -25,9 +21,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Atividade Carregar arquivo"
->abstract="A atividade **Carregar arquivo** é uma atividade de **Gerenciamento de Dados**. Use-o para trabalhar com perfis e dados armazenados em um arquivo externo na tela de campanha Orquestrada e definir o público-alvo da campanha. Os dados do arquivo são consumidos no tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform."
+>abstract="A atividade **Carregar arquivo** é uma atividade de **Gerenciamento de dados**. Use-a para trabalhar com perfis e dados armazenados em um arquivo externo na tela da Campanha orquestrada e definir o público-alvo da campanha. Os dados do arquivo são consumidos em tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform."
 
-A atividade **[!UICONTROL Carregar arquivo]** é uma atividade de **[!UICONTROL Gerenciamento de Dados]**. Use-a para trabalhar com perfis e dados armazenados em um arquivo externo. Ele oferece suporte ao **direcionamento baseado em arquivos** em campanhas orquestradas quando a lista de destinatários vem de um sistema externo (por exemplo, uma exportação de CRM ou um arquivo de parceiro) e você deseja executar uma campanha sem criar um pipeline de assimilação completo do Adobe Experience Platform primeiro.
+A atividade **[!UICONTROL Carregar arquivo]** é uma atividade de **[!UICONTROL Gerenciamento de dados]**. Use-a para trabalhar com perfis e dados armazenados em um arquivo externo. Ele oferece suporte ao **direcionamento baseado em arquivos** em campanhas orquestradas quando a lista de destinatários vem de um sistema externo (por exemplo, uma exportação de CRM ou um arquivo de parceiro) e você deseja executar uma campanha sem criar um pipeline de assimilação completo do Adobe Experience Platform primeiro.
 
 >[!AVAILABILITY]
 >
