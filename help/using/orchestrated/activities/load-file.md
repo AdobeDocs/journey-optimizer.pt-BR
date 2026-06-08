@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1234
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Atividade Carregar arquivo"
->abstract="A atividade **Carregar arquivo** é uma atividade de **Gerenciamento de Dados**. Use-o para trabalhar com perfis e dados armazenados em um arquivo externo na tela de campanha Orquestrada e definir o público-alvo da campanha. Os dados do arquivo são consumidos no tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform."
+>abstract="A atividade **Carregar arquivo** é uma atividade de **Gerenciamento de dados**. Use-a para trabalhar com perfis e dados armazenados em um arquivo externo na tela da Campanha orquestrada e definir o público-alvo da campanha. Os dados do arquivo são consumidos em tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform."
 
-A atividade **[!UICONTROL Carregar arquivo]** é uma atividade de **[!UICONTROL Gerenciamento de Dados]**. Use-a para trabalhar com perfis e dados armazenados em um arquivo externo. Ele oferece suporte ao **direcionamento baseado em arquivos** em campanhas orquestradas quando a lista de destinatários vem de um sistema externo (por exemplo, uma exportação de CRM ou um arquivo de parceiro) e você deseja executar uma campanha sem criar um pipeline de assimilação completo do Adobe Experience Platform primeiro.
+A atividade **[!UICONTROL Carregar arquivo]** é uma atividade de **[!UICONTROL Gerenciamento de dados]**. Use-a para trabalhar com perfis e dados armazenados em um arquivo externo. Ele oferece suporte ao **direcionamento baseado em arquivos** em campanhas orquestradas quando a lista de destinatários vem de um sistema externo (por exemplo, uma exportação de CRM ou um arquivo de parceiro) e você deseja executar uma campanha sem criar um pipeline de assimilação completo do Adobe Experience Platform primeiro.
 
 >[!AVAILABILITY]
 >

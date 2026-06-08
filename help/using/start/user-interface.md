@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1587
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -401,4 +401,4 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Atividade Carregar arquivo"
->abstract="A atividade **Carregar arquivo** é uma atividade **de Direcionamento**. Use-o para fazer upload de um arquivo CSV ou TXT na tela de campanha orquestrada e usá-lo como público-alvo da campanha. Os dados do arquivo são consumidos no tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform. As linhas são reconciliadas com recipients existentes usando uma coluna de identidade e um targeting dimension."
+>abstract="A atividade **Carregar arquivo** é uma atividade de **Direcionamento**. Use-a para fazer upload de um arquivo CSV ou TXT na tela da Campanha orquestrada e utilizá-lo como público da campanha. Os dados do arquivo são consumidos em tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform. As linhas são reconciliadas com os destinatários existentes usando uma coluna de identidade e uma dimensão de direcionamento."

@@ -15,8 +15,8 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: 1145
-ht-degree: 10%
+source-wordcount: 1130
+ht-degree: 12%
 
 ---
 
@@ -67,7 +67,7 @@ Cada tarefa representa uma ação mensurável que contribui para a conclusão do
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="Criar uma tarefa"
->abstract="Selecione uma atividade de cliente (Compra, Gasto ou Evento personalizado) e configure atributos específicos da atividade. No painel Propriedades, defina o nome e a descrição da tarefa."
+>abstract="Selecione uma atividade de cliente (compra, gasto ou evento personalizado) e configure atributos específicos da atividade. No painel Propriedades, defina o nome e a descrição da tarefa."
 
 É possível criar tarefas a partir de dois pontos de entrada. O processo de configuração é o mesmo, independentemente de onde você começa.
 
