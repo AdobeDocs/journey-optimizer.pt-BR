@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: ac5d3c36f0af1db72a83d25e49e20ff59dbfa5bd
 workflow-type: tm+mt
 source-wordcount: 2840
 ht-degree: 21%
@@ -62,6 +62,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <td>
 <p>Agora você pode definir sua jornada como Simulação. Esse modo permite validar a lógica usando usuários simulados. São perfis temporários criados especificamente para a simulação, permitindo que você teste livremente sem precisar gerenciar perfis de teste persistentes na Adobe Experience Platform. </p>
 <p>Anteriormente lançado com Disponibilidade limitada, a Simulação de Jornada agora está disponível para todos os ambientes. Com esta versão de Disponibilidade geral, agora é possível usar o Journey Agent para gerar usuários e eventos simulados diretamente no menu Simulação.</p>
+<p><img src="assets/do-not-localize/journey-simulation.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/simulate-journey-gs.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 9 de junho de 2026</p>
 </td>
