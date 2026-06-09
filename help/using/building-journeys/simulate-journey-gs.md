@@ -11,9 +11,9 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c2c8b1a64e79482fcc9340950209579cf74c50b3
+source-git-commit: a61f805d573f11f255e386c35a5d79ab6650bcc5
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: 1452
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Você precisa de pelo menos uma das seguintes permissões para acessar o recurso **[!UICONTROL Simulação]**: **Simular jornadas**, **Publicar jornadas** ou **Aprovar e Publicar jornadas**. [Saiba mais](../administration/permissions.md)
+>
+>Para usar a IA em **[!UICONTROL Simulação]** (**[!UICONTROL Simulação rápida]**, gerando usuários simulados com IA, **[!UICONTROL Gerar valores de evento]**), os usuários exigem a permissão **[!UICONTROL Gerar conteúdo]** do recurso **[!UICONTROL Assistente de IA]**.
 
 Você pode definir a jornada como **[!UICONTROL Simulação]** além de **Rascunho**, **Modo de teste** e **Live**. Em Simulação, você testa com **usuários simulados**: entidades temporárias semelhantes a perfis que você adiciona, sem usar perfis de teste persistentes no Adobe Experience Platform.
 
