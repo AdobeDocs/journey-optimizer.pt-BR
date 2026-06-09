@@ -11,29 +11,16 @@ keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, a�
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/7zNDOi2SUTyttgR6I1iOYQb61ejxpqLYznweU8alnPw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1455
-ht-degree: 13%
+source-wordcount: 1451
+ht-degree: 12%
 
 ---
 
@@ -42,12 +29,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="Criar jornadas"
->abstract="Use o **[!DNL Adobe Journey Optimizer]** para criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados."
+>abstract="**[!DNL Adobe Journey Optimizer]** cria casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Jornadas"
->abstract="Crie jornadas do cliente para fornecer experiências personalizadas e contextuais. O Journey Optimizer permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. A guia **Visão geral** exibe um painel com as métricas principais relacionadas às suas jornadas. A guia **Procurar** exibe a lista de jornadas existentes."
+>abstract="As jornadas do cliente fornecem experiências personalizadas e contextuais. O Journey Optimizer permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. A guia **Visão geral** exibe um painel com as métricas principais relacionadas às suas jornadas. A guia **Procurar** exibe a lista de jornadas existentes."
 
 [!DNL Adobe Journey Optimizer] inclui uma tela de orquestração omnicanal que permite aos profissionais de marketing harmonizar o alcance de marketing com o envolvimento individual do cliente. A interface de usuário do permite arrastar e soltar facilmente as atividades da paleta na tela para criar sua jornada. A interface do usuário do jornada está detalhada em [esta página](journey-ui.md).
 

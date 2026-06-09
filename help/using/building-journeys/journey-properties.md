@@ -11,27 +11,16 @@ keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 3646
-ht-degree: 13%
+source-wordcount: 3657
+ht-degree: 9%
 
 ---
 
@@ -42,7 +31,7 @@ Use as propriedades do jornada para definir as configurações globais para sua 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propriedades da jornada"
->abstract="Defina configurações globais para esta jornada, incluindo nome, tags, regras de entrada, fuso horário, datas, tempo limite e gerenciamento de conflitos. Os parâmetros somente leitura estão ocultos por padrão. As opções disponíveis variam com base no status da jornada, nas permissões e na configuração do produto."
+>abstract="As propriedades da jornada mantêm configurações globais para esta jornada, incluindo nome, tags, regras de entrada, fuso horário, datas, tempo limite e gerenciamento de conflitos. Os parâmetros somente leitura estão ocultos por padrão. As opções disponíveis variam com base no status da jornada, nas permissões e na configuração do produto."
 
 ## Acessar as propriedades de uma jornada {#access-properties}
 
@@ -109,7 +98,7 @@ O gerenciamento de entrada de perfis depende do tipo de jornada. Saiba mais sobr
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Permitir reentrada"
->abstract="Por padrão, novas jornadas permitem reentradas. É possível desmarcar a opção **Permitir reentrada**, por exemplo, caso queira oferecer um brinde único quando uma pessoa entra em uma loja."
+>abstract="Por padrão, novas jornadas permitem reentradas. Desmarcar a opção **Permitir reentrada** impede que uma pessoa entre na jornada novamente, por exemplo, para oferecer um presente único quando uma pessoa entra em uma loja."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gerenciamento de entrada de perfis"
 
 Por padrão, novas jornadas permitem reentradas. Você pode desmarcar a opção **Permitir reentrada** para jornadas &quot;únicas&quot;, por exemplo, se quiser oferecer um presente único quando uma pessoa entrar em uma loja.
@@ -119,7 +108,7 @@ Por padrão, novas jornadas permitem reentradas. Você pode desmarcar a opção 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Período de espera da reentrada"
->abstract="Defina o tempo de espera antes de permitir que um perfil entre na jornada novamente em jornadas unitárias. Impede que os usuários reentrem na jornada por um período determinado. Duração máxima: 90 dias."
+>abstract="O período de espera de reentrada é o tempo de espera antes que um perfil possa entrar na jornada novamente em jornadas unitárias. Isso impede que os usuários entrem novamente na jornada por um período determinado. Duração máxima: 90 dias."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gerenciamento de entrada de perfis"
 
 Quando a opção **Permitir reentrada** está ativada, o campo **Período de espera de reentrada** é exibido. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de público-alvo). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. A duração máxima é de 90 dias.
@@ -137,7 +126,7 @@ Para atribuir rótulos de uso de dados personalizados à jornada, clique no íco
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
 >title="Tamanho atual do conteúdo da jornada"
->abstract="Exibe o tamanho atual do conteúdo da jornada em comparação ao limite configurado. Use esse indicador para monitorar a complexidade da jornada antes da publicação e evitar erros causados por exceder o limite de tamanho do conteúdo."
+>abstract="Exibe o tamanho atual do conteúdo da jornada em comparação ao limite configurado. Esse indicador ajuda a monitorar a complexidade da jornada antes da publicação e evitar que erros causados pelo limite de tamanho da carga sejam excedidos."
 
 O campo **[!UICONTROL Tamanho atual do conteúdo da jornada]** no painel Propriedades da jornada exibe o tamanho atual do conteúdo da jornada em relação ao limite configurado — por exemplo, *1,5 MB (de 2 MB)*. Esse indicador somente leitura fica visível em qualquer estágio da criação do jornada.
 
@@ -160,12 +149,12 @@ O fuso horário é definido no nível da jornada. Você pode inserir um fuso hor
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Data inicial"
->abstract="Selecione a data em que os perfis podem começar a entrar na jornada. Se nenhuma data inicial for definida, o padrão será a data de publicação da jornada."
+>abstract="A data inicial é quando os perfis podem começar a inserir a jornada. Se nenhuma data inicial for definida, o padrão será a data de publicação da jornada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Data final"
->abstract="Defina a data de término da jornada. Nessa data, os perfis ativos sairão automaticamente da jornada e nenhuma entrada nova será permitida."
+>abstract="A data final é quando a jornada termina. Nessa data, os perfis ativos sairão automaticamente da jornada e nenhuma entrada nova será permitida."
 
 Por padrão, os perfis podem inserir sua jornada assim que ela for publicada e podem permanecer até que o [tempo limite de jornada global](#global_timeout) seja atingido. A única exceção são as jornadas de público-alvo de leitura recorrente com **Forçar a reentrada na recorrência** ativada, que terminam na data de início da próxima ocorrência.
 
@@ -356,7 +345,7 @@ Para saber mais sobre as políticas de mesclagem, consulte a [[!DNL Adobe Experi
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="Critérios de saída"
->abstract="Esta seção mostra as opções de critérios de saída. É possível criar uma ou várias regras e filtros de critérios de saída para a sua jornada."
+>abstract="Esta seção mostra as opções de critérios de saída, onde uma ou várias regras e filtros de critérios de saída podem ser definidos para a jornada."
 
 ### Jornada critérios de saída {#exit-criteria-desc}
 

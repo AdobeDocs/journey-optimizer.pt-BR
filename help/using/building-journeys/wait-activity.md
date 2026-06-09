@@ -11,25 +11,16 @@ keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qWxnLiuHh-sJQyUOuRB6CgRIpZ6ud6eO-WNoWcv9JeU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 9%
+source-wordcount: 903
+ht-degree: 7%
 
 ---
 
@@ -38,7 +29,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Atividade aguardar"
->abstract="Se quiser esperar antes de executar a próxima atividade no caminho, você pode usar uma atividade Esperar. Ela permite definir o momento em que a próxima atividade será executada. Duas opções estão disponíveis: duração e personalizado."
+>abstract="A atividade Wait permite aguardar antes de executar a próxima atividade no caminho. Ela permite definir o momento em que a próxima atividade será executada. Duas opções estão disponíveis: duração e personalizado."
 
 Você pode usar uma atividade **[!UICONTROL Wait]** para definir uma duração antes de executar a próxima atividade.  A duração máxima de espera é de **90 dias**.
 
@@ -134,6 +125,6 @@ Exemplo: se um perfil se qualificar para um público-alvo de &quot;cliente Silve
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node"
 >title="Sobre o nó de espera automático"
->abstract="Um nó **Wait** é inserido automaticamente após esta ação de entrada. É definido como 3 dias por padrão, garantindo que os perfis permaneçam na jornada por tempo suficiente para exibir a mensagem ou a experiência. Você pode atualizar a duração da espera ou remover este nó se o caso de uso exigir."
+>abstract="Um nó **Wait** é inserido automaticamente após esta ação de entrada. É definido como 3 dias por padrão, garantindo que os perfis permaneçam na jornada por tempo suficiente para exibir a mensagem ou a experiência. A duração da espera pode ser atualizada ou o nó removido, se o caso de uso exigir."
 
 Cada atividade de experiência de entrada (mensagem no aplicativo, experiência baseada em código ou Cartão) vem com uma atividade de **Aguardar** de 3 dias. Como as mensagens de entrada terminam automaticamente quando um perfil atinge o final da jornada, pressupomos que você deseje que seus usuários a vejam pelo menos por 3 dias. Você pode remover esta atividade **Aguardar** ou alterar sua configuração, se necessário.

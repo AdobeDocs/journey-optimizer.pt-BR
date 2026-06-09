@@ -11,10 +11,10 @@ keywords: fragmentos, jornada, reutilizar, nós, tela, inventário, reutilizáve
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1517
-ht-degree: 9%
+source-wordcount: 1516
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,7 @@ Você pode filtrar a lista por nome do fragmento, status, data de criação, cri
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
 >title="Salvar como um fragmento de jornada"
->abstract="Insira um nome exclusivo para o fragmento e clique em Salvar. Os nós selecionados serão salvos como um fragmento reutilizável e disponível no Inventário de fragmentos."
+>abstract="Um nome de fragmento exclusivo é inserido antes de salvar. Os nós selecionados são salvos como um fragmento reutilizável disponível no Inventário de fragmentos."
 
 Você pode criar um fragmento de jornada de duas maneiras: diretamente da tela de jornada (recomendado) ou do Inventário de fragmentos.
 
@@ -98,7 +98,7 @@ Para criar um fragmento diretamente do inventário:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
 >title="Propriedades do fragmento de jornada"
->abstract="Abra um fragmento do inventário para modificar os nós, propriedades, tags ou rótulos. Os fragmentos ativos devem ser desativados antes de realizar edições."
+>abstract="Abrir um fragmento do inventário permite que nós, propriedades, tags ou rótulos sejam modificados. Os fragmentos ativos devem ser desativados antes de realizar edições."
 
 Para editar um fragmento, abra-o no **[!UICONTROL Inventário de fragmentos]** clicando no nome dele. Na interface de criação do fragmento, é possível:
 
