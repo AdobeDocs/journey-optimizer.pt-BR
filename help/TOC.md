@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: 66ebb638e3633152294b431a1003786433a3ba7d
 workflow-type: tm+mt
-source-wordcount: '3368'
+source-wordcount: '3366'
 ht-degree: 94%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 94%
       + [Enviar usando ondas em jornadas](using/building-journeys/send-using-waves.md)
       + [Configurar e rastrear as métricas da jornada](using/building-journeys/success-metrics.md)
       + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
-      + [Simular a jornada](using/building-journeys/simulate-journey.md)
-      + {hide-from-toc}[Introdução à simulação de Jornada](using/building-journeys/simulate-journey-gs.md)
-      + {hide-from-toc}[Simular sua jornada](using/building-journeys/simulate-journey-2.md)
+      + Simulação {#simulate-journey}
+         + [Introdução à simulação de jornada](using/building-journeys/simulate-journey-gs.md)
+         + [Simular sua jornada](using/building-journeys/simulate-journey.md)
       + [Teste a jornada](using/building-journeys/testing-the-journey.md)
       + [Teste de simulação de jornada](using/building-journeys/journey-dry-run.md)
       + [Publicar a jornada](using/building-journeys/publish-journey.md)
