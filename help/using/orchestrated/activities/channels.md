@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1883
-ht-degree: 39%
+source-wordcount: 1908
+ht-degree: 37%
 
 ---
 
@@ -199,7 +199,10 @@ Para obter uma visão geral detalhada de como usar o editor de personalização,
 
 ### Verificar e testar o conteúdo {#simulate-content-test-profiles}
 
-Depois que o conteúdo for criado, use o botão **[!UICONTROL Simular conteúdo]** para visualizar e testar o seu conteúdo com perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba mais](../../content-management/preview-test.md)
+Depois que o conteúdo for criado, você poderá pré-visualizá-lo e testá-lo usando qualquer método de simulação:
+
+* Clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com dados de entrada de exemplo ou geração automática de IA. [Saiba como simular variações de conteúdo](../../test-approve/simulate-sample-input.md)
+* Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para visualizar e testar seu conteúdo com perfis de teste. [Saiba mais](../../content-management/preview-test.md)
 
 ![imagem mostrando o botão de simular conteúdo](../assets/channel-simulate.png)
 

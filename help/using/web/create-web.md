@@ -25,9 +25,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1646
+source-wordcount: 1647
 ht-degree: 18%
 
 ---
@@ -166,9 +166,10 @@ Para começar a criar sua experiência na Web, siga as etapas abaixo.
 >title="Visualizar a experiência da Web"
 >abstract="Acesse uma simulação de como sua experiência da Web será."
 
-Depois de [criar sua experiência da Web](web-visual-editor.md) usando o designer da Web, você poderá usar perfis de teste para visualizar suas páginas da Web modificadas. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido, usando os dados do perfil de teste.
+Depois de [criar sua experiência online](web-visual-editor.md) usando o designer da Web, você poderá visualizar as páginas da Web modificadas usando qualquer um dos métodos de simulação:
 
-Para fazer isso, clique em **[!UICONTROL Simular conteúdo]** da tela de conteúdo de edição de jornada ou campanha e, em seguida, adicione um perfil de teste para verificar sua página da Web usando os dados do perfil de teste.
+* Clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com dados de entrada de exemplo ou geração automática de IA. [Saiba como simular variações de conteúdo](../test-approve/simulate-sample-input.md)
+* Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para visualizar com perfis de teste e adicionar um perfil de teste para verificar sua página da Web.
 
 ![](assets/web-designer-preview.png)
 

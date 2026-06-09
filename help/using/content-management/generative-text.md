@@ -28,9 +28,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1605
+source-wordcount: 1663
 ht-degree: 2%
 
 ---
@@ -127,7 +127,7 @@ Saiba como revisar o texto gerado, fazer refinamentos e aplicar personalização
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
-1. Insira campos de personalização para personalizar seu conteúdo com base nos dados de perfis. Em seguida, clique no botão **[!UICONTROL Simular conteúdo]** para controlar a renderização e verificar as configurações de personalização com perfis de teste. [Saiba mais](../personalization/personalize.md)
+1. Insira campos de personalização para personalizar seu conteúdo com base nos dados de perfis. Em seguida, use o método de simulação para controlar a renderização e verificar as configurações de personalização: clique em **[!UICONTROL Simular conteúdo]** para testar variações de conteúdo com dados de entrada de exemplo ou geração automática de IA, ou clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para visualizar com perfis de teste. [Saiba mais](../content-management/preview-test.md)
 
 1. Revise e ative o conteúdo:
    * **Email**: quando tiver definido seu conteúdo, público-alvo e agendamento, você estará pronto para preparar sua campanha de email. [Saiba mais](../campaigns/review-activate-campaign.md)
@@ -225,6 +225,6 @@ Depois de gerar variações de texto para suas mensagens móveis, você pode aju
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
-1. Insira campos de personalização para personalizar seu conteúdo com base nos dados de perfis. Em seguida, clique no botão **[!UICONTROL Simular conteúdo]** para controlar a renderização e verificar as configurações de personalização com perfis de teste. [Saiba mais](../personalization/personalize.md)
+1. Insira campos de personalização para personalizar seu conteúdo com base nos dados de perfis. Em seguida, use o método de simulação para controlar a renderização e verificar as configurações de personalização: clique em **[!UICONTROL Simular conteúdo]** para testar variações de conteúdo com dados de entrada de exemplo ou geração automática de IA, ou clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para visualizar com perfis de teste. [Saiba mais](../content-management/preview-test.md)
 
 Depois de definir seu conteúdo, público-alvo e programação, você estará pronto para preparar sua campanha via celular. [Saiba mais](../campaigns/review-activate-campaign.md)

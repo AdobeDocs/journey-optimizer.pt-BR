@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1633
-ht-degree: 0%
+source-wordcount: 1630
+ht-degree: 12%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="Usar componentes de conteúdo"
->abstract="Os componentes de conteúdo são espaços reservados vazios para o conteúdo que podem ser usados para criar o layout de uma página de aterrissagem. Para definir um conteúdo específico que permita aos usuários selecionar e enviar suas opções, use o componente de Formulário."
+>abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino. Para definir um conteúdo específico que permitirá aos usuários selecionar e enviar suas opções, use o componente de formulário."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Adicionar componentes de conteúdo"
 
 Para projetar o conteúdo da página de aterrissagem, é possível usar os mesmos componentes de um email. [Saiba mais](../email/content-components.md#add-content-components)
@@ -63,16 +63,16 @@ Com o designer de conteúdo da página de aterrissagem, você também pode aprov
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
->title="Definir os campos de componente de formulário"
->abstract="Defina como seus recipients verão e enviarão suas escolhas a partir da página de aterrissagem."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Definir estilos de formulário de página de aterrissagem"
+>title="Definir os campos do componente de formulário"
+>abstract="Defina como os recipients verão a página de destino e enviarão suas opções."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Definir estilos de formulário de página de destino"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
 >title="O que acontece ao clicar no botão"
->abstract="Defina o que acontecerá quando os usuários enviarem o formulário de landing page."
+>abstract="Defina o que acontecerá depois que as pessoas enviarem o formulário da página de destino."
 
-Para definir um conteúdo específico que permita aos usuários selecionar e enviar suas opções a partir da página de aterrissagem, use o componente **[!UICONTROL Formulário]**. Para fazer isso, siga as etapas abaixo.
+Para definir um conteúdo específico que permita aos usuários selecionar e enviar suas opções a partir da página de aterrissagem, use o componente **[!UICONTROL Formulário]**. Para isso, siga as etapas abaixo.
 
 1. Arraste e solte o componente **[!UICONTROL Formulário]** específico da página de aterrissagem da paleta esquerda no espaço de trabalho principal.
 
@@ -159,7 +159,7 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 
    ![](assets/lp_designer-form-save.png)
 
-## Definir estilos de formulário de página de aterrissagem {#lp-form-styles}
+## Definir estilos de formulário de página de destino {#lp-form-styles}
 
 1. Para modificar os estilos do conteúdo do componente de formulário, alterne a qualquer momento para a guia **[!UICONTROL Style]**.
 
@@ -177,7 +177,7 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Você pode visualizar algumas de suas configurações, como a cor do rótulo do botão ao passar o mouse, usando o botão **[!UICONTROL Simular conteúdo]**. Saiba mais sobre como testar páginas de aterrissagem [aqui](create-lp.md#test-landing-page).
+   Você pode visualizar algumas de suas configurações, como a cor do rótulo do botão ao passar o mouse usando qualquer método de simulação. [Saiba mais sobre como testar páginas de aterrissagem](create-lp.md#test-landing-page)
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
@@ -231,7 +231,7 @@ Por exemplo, se você vincular uma caixa de seleção <!-- or the submission of 
 
 Digamos que você vincule duas caixas de seleção na página principal a duas listas de assinaturas diferentes. Se um usuário assinar uma dessas opções, você deseja exibir uma mensagem específica ao enviar o formulário, dependendo da caixa de seleção selecionada.
 
-Para fazer isso, siga as etapas abaixo:
+Para isso, siga as etapas abaixo:
 
 1. Na página principal, vincule cada caixa de seleção do componente **[!UICONTROL Formulário]** à lista de assinaturas relevante. [Saiba mais](#use-form-component).
 

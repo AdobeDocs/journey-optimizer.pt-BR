@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 252
+source-wordcount: 218
 ht-degree: 4%
 
 ---
@@ -38,13 +38,9 @@ Você pode testar a renderização de alguns de seus modelos de email, sejam ele
 
 1. Clique em **[!UICONTROL Editar conteúdo]** das **[!UICONTROL Propriedades do modelo]**.
 
-1. Clique em **[!UICONTROL Simular Conteúdo]** e selecione um perfil de teste para verificar sua renderização. [Saiba mais](../content-management/preview-test.md)
+1. Clique em **[!UICONTROL Simular conteúdo]** para visualizar e testar seu conteúdo. [Saiba como visualizar e testar o conteúdo](../content-management/preview-test.md)
 
    ![](assets/content-template-stimulate.png)
-
-   >[!NOTE]
-   >
-   >O [!DNL Journey optimizer] também permite que você teste diferentes variantes de seus modelos de conteúdo visualizando-as e enviando provas usando dados de entrada de exemplo carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba como simular variações de conteúdo](../test-approve/simulate-sample-input.md)
 
 1. Você pode enviar uma prova para testar seu conteúdo e aprová-lo por alguns usuários internos antes de usá-lo em uma jornada ou campanha.
 

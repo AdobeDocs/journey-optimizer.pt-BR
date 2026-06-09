@@ -24,9 +24,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 774
+source-wordcount: 795
 ht-degree: 3%
 
 ---
@@ -123,7 +123,7 @@ Quando o template do Experience Manager estiver disponível no Journey Optimizer
 
    ![](assets/aem_ajo_5.png)
 
-1. Se você adicionou conteúdo personalizado ao seu modelo do Experience Manager, clique em **[!UICONTROL Simular conteúdo]** para visualizar como ele aparecerá na mensagem usando perfis de teste.
+1. Se você adicionou conteúdo personalizado ao seu modelo do Experience Manager, use o método de simulação para visualizar como ele aparecerá na mensagem: clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com exemplos de dados de entrada ou geração automática de IA, ou clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para visualizar com perfis de teste.
 
    [Saiba mais sobre perfis de visualização e teste](../content-management/preview-test.md)
 

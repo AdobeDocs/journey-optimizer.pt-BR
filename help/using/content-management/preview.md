@@ -8,16 +8,16 @@ exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 263
-ht-degree: 4%
+source-wordcount: 231
+ht-degree: 3%
 
 ---
 
 # Pré-visualizar conteúdo usando perfis de teste {#preview}
 
-Depois que [perfis de teste](test-profiles.md) forem selecionados, você poderá visualizar seu conteúdo usando os dados deles. Siga estas etapas:
+Depois que [perfis de teste](test-profiles.md) forem selecionados, você poderá visualizar seu conteúdo usando os dados deles. É possível usar qualquer um dos métodos de simulação:
 
 1. Na tela de edição de conteúdo da sua mensagem ou no Designer de email, clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa.
 
@@ -46,7 +46,3 @@ Depois que [perfis de teste](test-profiles.md) forem selecionados, você poderá
    >Se um erro for encontrado nos detalhes da configuração, clique no botão **[!UICONTROL Exibir detalhes da configuração]**. [Saiba mais](../email/surface-personalization.md#check-configuration)
 
 Ao criar experiências baseadas em código, você pode visualizar seu conteúdo personalizado diretamente no seu navegador ou em seus dispositivos móveis para uma simulação real. [Saiba mais](../code-based/test-code-based.md#preview-on-device)
-
->[!NOTE]
->
->O [!DNL Journey optimizer] também permite que você teste diferentes variantes do seu conteúdo visualizando-o e enviando provas usando dados de entrada de exemplo carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba como simular variações de conteúdo](../test-approve/simulate-sample-input.md)

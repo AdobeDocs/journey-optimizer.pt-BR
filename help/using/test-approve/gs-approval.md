@@ -16,10 +16,10 @@ level_v2:
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 984
-ht-degree: 100%
+source-wordcount: 1006
+ht-degree: 96%
 
 ---
 
@@ -140,4 +140,4 @@ Não. Os solicitantes não podem selecionar manualmente qual grupo de usuários 
 * **[Criar políticas de aprovação](approval-policies.md)**: saiba como configurar políticas de aprovação para impor fluxos de trabalho de revisão sobre campanhas e jornadas.
 * **[Solicitar aprovação](request-approval.md)**: entenda como enviar conteúdo para aprovação e acompanhar o status de aprovação.
 * **[Revisar e aprovar solicitações](review-approve-request.md)**: saiba como revisar, aprovar ou rejeitar solicitações de aprovação como aprovador.
-* **[Simular com entradas de exemplo](simulate-sample-input.md)**: saiba como testar e validar conteúdo usando dados de perfil de exemplo.
+* **[Simular variações de conteúdo](simulate-sample-input.md)** - Clique em **[!UICONTROL Simular conteúdo]** para testar variações de conteúdo com exemplos de dados de entrada, geração automática de IA ou usuários simulados. Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para visualizar com perfis de teste.

@@ -5,10 +5,10 @@ title: Visualizar e testar conteúdo
 description: Validar a precisão da mensagem antes do lançamento. Visualize o conteúdo personalizado com perfis de teste, envie provas para as partes interessadas, verifique a renderização de emails nos clientes, avalie as pontuações de spam e teste múltiplas variações de conteúdo com eficiência.
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 100%
+source-wordcount: '704'
+ht-degree: 83%
 
 ---
 
@@ -82,7 +82,7 @@ Integre o Litmus para pré-visualizar a renderização de email em clientes de e
 
 Como simular e testar variações de conteúdo
 
-Simule variações de conteúdo usando amostras de dados de entrada para testar o conteúdo personalizado e garantir a precisão.
+Simule variações de conteúdo usando exemplos de dados de entrada ou variantes geradas por IA para testar o conteúdo personalizado e garantir a precisão.
 
 [Simular variações de conteúdo](../using/test-approve/simulate-sample-input.md)
 :::
@@ -122,14 +122,14 @@ Siga esta sequência para uma validação abrangente:
 
 **Contexto:** exemplos reais que mostram como aplicar ferramentas de teste em casos de uso típicos.
 
-**Cenário 1: testar emails personalizados para uma campanha com vários segmentos**
-→ Use [dados de entrada de amostra](../using/test-approve/simulate-sample-input.md) para testar variações de 20 a 30 sem criar perfis de teste individuais. Faça upload de um CSV com diferentes atributos do cliente e visualize tudo de uma só vez.
+**Cenário 1: teste de emails personalizados para uma campanha com vários segmentos**
+→ Use [dados de entrada de amostra](../using/test-approve/simulate-sample-input.md) para testar até 30 variações sem criar perfis de teste individuais. Faça upload de um CSV com diferentes atributos do cliente, adicione valores manualmente ou gere variantes automaticamente com IA e visualize tudo de uma vez.
 
-**Cenário 2: validar renderização de email antes de um envio principal**
-→ Execute [testes Litmus](../using/content-management/rendering.md) para verificar a exibição nos principais clientes de email e observe o [relatório de spam](../using/content-management/spam-report.md) para garantir o posicionamento da caixa de entrada.
+**Cenário 2: validação da renderização de email antes de um envio principal**
+→ Execute [testes Litmus](../using/content-management/rendering.md) para verificar a exibição nos principais clientes de email e, em seguida, verifique o [relatório de spam](../using/content-management/spam-report.md) para garantir o posicionamento da caixa de entrada.
 
-**Cenário 3: obter aprovação da parte interessada**
-→ [Envie provas](../using/content-management/proofs.md) para revisores internos com dados do perfil de teste para que eles vejam exatamente o que os clientes receberão.
+**Cenário 3: Obtendo aprovação da parte interessada**
+→ [Envie provas](../using/content-management/proofs.md) para revisores internos com dados de perfil de teste para que eles vejam exatamente o que os clientes receberão.
 
 ## Principais lições
 

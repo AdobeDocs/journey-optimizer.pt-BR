@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: 1191
 ht-degree: 6%
 
 ---
@@ -181,15 +181,12 @@ Ao usar uma configuração com configurações personalizadas em uma campanha ou
 
 ## Verifique sua configuração {#check-configuration}
 
-Ao usar uma configuração personalizada em uma campanha ou jornada, você pode visualizar seu conteúdo de email usando perfis de teste para verificar possíveis erros com as configurações dinâmicas definidas. Siga as etapas abaixo.
+Ao usar uma configuração personalizada em uma campanha ou jornada, você pode visualizar seu conteúdo de email para verificar possíveis erros com as configurações dinâmicas definidas. É possível usar qualquer um dos métodos de simulação:
 
->[!NOTE]
->
->Além dos perfis de teste, o [!DNL Journey optimizer] também permite que você teste diferentes variantes do seu conteúdo visualizando-o e enviando provas usando dados de entrada de exemplo carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba como simular variações de conteúdo](../test-approve/simulate-sample-input.md)
+* Clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com dados de entrada de exemplo ou geração automática de IA. [Saiba como simular variações de conteúdo](../test-approve/simulate-sample-input.md)
+* Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para visualizar com perfis de teste.
 
 Para visualizar seu conteúdo usando perfis de teste, siga estas etapas:
-
-1. Na tela de edição de conteúdo da sua mensagem ou no Designer de Email, clique no botão **[!UICONTROL Simular conteúdo]**. [Saiba mais](../content-management/preview.md)
 
 1. Selecione um [perfil de teste](../content-management/test-profiles.md).
 

@@ -23,10 +23,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1190
-ht-degree: 15%
+source-wordcount: 1132
+ht-degree: 16%
 
 ---
 
@@ -71,9 +71,7 @@ Navegue pelas guias abaixo para saber como adicionar uma mensagem de correspond�
 
    ![Editor de conteúdo de arquivo de extração para uma atividade de jornada de correspondência direta](assets/direct-mail-journey-content.png)
 
-1. Depois que o conteúdo do arquivo de extração for definido, você poderá usar perfis de teste para visualizá-lo. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
-
-   Para fazer isso, clique em **[!UICONTROL Simular conteúdo]** e adicione um perfil de teste para verificar como é a renderização do arquivo de extração usando os dados do perfil de teste. Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na seção [Gerenciamento de conteúdo](../content-management/preview-test.md).
+1. Após definir o conteúdo do arquivo de extração, visualize-o usando **[!UICONTROL Simular conteúdo]**. [Saiba como visualizar e testar o conteúdo](../content-management/preview-test.md)
 
    ![Simular visualização de conteúdo para um arquivo de extração de correspondência direta](assets/direct-mail-simulate.png){width="800" align="center"}
 

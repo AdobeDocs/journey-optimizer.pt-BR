@@ -18,9 +18,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1604
+source-wordcount: 1599
 ht-degree: 22%
 
 ---
@@ -76,7 +76,7 @@ O ícone **[!UICONTROL Alertas]** / **[!UICONTROL Aviso]** na barra de ferrament
 
 Você também pode identificar rapidamente as atividades com falhas, usando os [indicadores visuais de status](#activities) exibidos diretamente em cada atividade. Para obter uma resolução de problemas detalhada, abra os [logs da campanha](#logs-tasks), que fornecem informações detalhadas sobre o erro e seu contexto.
 
-Se você tiver adicionado atividades de canal na tela, poderá visualizar e testar o conteúdo de suas mensagens usando o botão **[!UICONTROL Simular Conteúdo]**. [Saiba como trabalhar com atividades de canal e simular conteúdo](activities/channels.md#simulate-content-test-profiles).
+Se você tiver adicionado atividades de canal na tela, será possível pré-visualizar e testar o conteúdo de suas mensagens. [Saiba como trabalhar com atividades de canal e simular conteúdo](activities/channels.md#simulate-content-test-profiles).
 
 >[!TIP]
 >

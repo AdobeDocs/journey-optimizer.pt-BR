@@ -25,9 +25,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 623
+source-wordcount: 652
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Para exibir as diferentes ofertas que fazem parte da decisão com um perfil de c
 
 1. Selecione os perfis de teste que serão usados para visualizar a oferta:
 
-   1. Clique no botão **[!UICONTROL Simular Conteúdo]** e escolha o namespace a ser usado para identificar perfis de teste do campo **[!UICONTROL Namespace de identidade]**.
+   1. Clique em **[!UICONTROL Simular conteúdo]**, selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa e escolha o namespace a ser usado para identificar perfis de teste do campo **[!UICONTROL Namespace de identidade]**. Para testar as variações de conteúdo com dados de entrada de exemplo ou a geração automática de IA, clique diretamente em **[!UICONTROL Simular conteúdo]**. [Saiba como simular variações de conteúdo](../test-approve/simulate-sample-input.md)
 
       >[!NOTE]
       >

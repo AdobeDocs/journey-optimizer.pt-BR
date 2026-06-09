@@ -26,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 1%
+source-wordcount: 534
+ht-degree: 2%
 
 ---
 
@@ -37,9 +37,10 @@ ht-degree: 1%
 
 ## Pré-visualizar sua mensagem para dispositivos móveis {#preview-sms}
 
-Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste ou dados de entrada de amostra (carregados de um arquivo CSV/JSON ou adicionados manualmente) para visualizar seu conteúdo. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem.
+Depois que o conteúdo da mensagem for definido, é possível pré-visualizar seu conteúdo usando qualquer método de simulação:
 
-Para fazer isso, clique em **[!UICONTROL Simular conteúdo]** e verifique sua mensagem usando os dados do perfil de teste.
+* Clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com dados de entrada de exemplo ou geração automática de IA. [Saiba como simular variações de conteúdo](../test-approve/simulate-sample-input.md)
+* Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para visualizar com perfis de teste.
 
 ![](assets/sms_preview_2.png)
 
@@ -47,7 +48,7 @@ Informações detalhadas sobre como visualizar e testar o conteúdo estão dispo
 
 ### Codificação e limites de caracteres {#sms-character-limits}
 
-Uma contagem de caracteres é exibida ao acessar o menu **[!UICONTROL Simular conteúdo]** para auxiliar no planejamento e no gerenciamento de mensagens móveis.
+Uma contagem de caracteres é exibida ao acessar qualquer um dos métodos de simulação do **[!UICONTROL Simular conteúdo]** para ajudar no planejamento e gerenciamento de mensagens móveis.
 
 ![](assets/sms_preview_3.png)
 

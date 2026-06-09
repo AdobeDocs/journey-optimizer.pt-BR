@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 754
-ht-degree: 50%
+source-wordcount: 743
+ht-degree: 51%
 
 ---
 
@@ -142,7 +142,7 @@ Para começar a criar o conteúdo, siga as etapas abaixo:
    >
    >Não é possível reverter para o designer visual desse email após alternar para o editor de código.
 
-1. Quando o conteúdo estiver pronto, clique no botão **[!UICONTROL Simular conteúdo]** para verificar a renderização. Você pode escolher exibir no desktop ou em um dispositivo móvel. Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na seção [Gerenciamento de conteúdo](../content-management/preview-test.md).
+1. Quando o conteúdo estiver pronto, use qualquer método de simulação para verificar a renderização. Você pode escolher exibir no desktop ou em um dispositivo móvel. Informações detalhadas estão disponíveis na seção [Gerenciamento de conteúdo](../content-management/preview-test.md).
 
    ![](assets/email_designer_simulate_content.png)
 

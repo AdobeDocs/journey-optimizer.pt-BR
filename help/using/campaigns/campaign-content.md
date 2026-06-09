@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 170
-ht-degree: 18%
+source-wordcount: 192
+ht-degree: 16%
 
 ---
 
@@ -65,7 +65,12 @@ O processo de criação de conteúdo depende do canal selecionado. Saiba mais so
 
 ## Testar e verificar seu conteúdo
 
-Depois que o conteúdo for definido, use o botão **[!UICONTROL Simular conteúdo]** para visualizar e testar o conteúdo com perfis de teste ou dados de entrada de amostra carregados de um arquivo CSV/JSON ou adicionados manualmente. [Saiba como visualizar e testar o conteúdo](../content-management/preview-test.md)
+Depois que o conteúdo for definido, use o botão **[!UICONTROL Simular conteúdo]** para visualizar e testar o conteúdo. É possível usar qualquer um dos métodos de simulação:
+
+* Clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com dados de entrada de exemplo ou geração automática de IA.
+* Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para visualizar com perfis de teste.
+
+[Saiba como visualizar e testar o conteúdo](../content-management/preview-test.md)
 
 Para voltar para a tela de criação da campanha, clique na seta para a esquerda.
 

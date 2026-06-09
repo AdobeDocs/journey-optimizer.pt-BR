@@ -25,9 +25,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0d5bd22d50b503737428e63285eb0e04e20c5c76
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1703
+source-wordcount: 1735
 ht-degree: 6%
 
 ---
@@ -221,7 +221,7 @@ Ao adicionar o fragmento ao email, agora é possível editar o conteúdo rich te
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. Você pode clicar em **[!UICONTROL Simular conteúdo]** para ver como o conteúdo editável e o estilo são renderizados. [Saiba mais sobre a visualização de conteúdo](preview-test.md)
+1. Use qualquer um dos métodos de simulação para ver como o conteúdo editável e o estilo são renderizados: clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com dados de entrada de exemplo ou geração automática de IA, ou clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para pré-visualizar com perfis de teste. [Saiba mais sobre a visualização de conteúdo](preview-test.md)
 
 1. Selecione o ícone **[!UICONTROL Adicionar personalização]** ao lado de um dos campos editáveis.
 
