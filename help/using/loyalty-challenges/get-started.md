@@ -12,12 +12,11 @@ badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: c2322ea4081f43aadf8abc8ea9791ebcc91f78bd
 workflow-type: tm+mt
-source-wordcount: 920
-ht-degree: 13%
+source-wordcount: 900
+ht-degree: 14%
 
 ---
 
@@ -91,8 +90,6 @@ Você pode criar estes tipos de experiências de desafio:
   *Exemplo: &quot;Nova Jornada de Membro&quot; - Inscreva-se para receber emails → Faça sua primeira compra → Escreva uma análise do produto → Indique um amigo (complete nesta ordem exata)*
 
 * **Traga seus próprios desafios de dados** (disponibilidade restrita): a estrutura de desafios (tarefas e recompensas) é montada a partir da integração de dados dos Desafios de Fidelidade. Defina Configurações, Conteúdo e Mensagens da mesma maneira que faria para qualquer outro tipo de desafio.
-
-* **Desafios repetíveis**: configure quantas vezes os membros podem concluir o mesmo desafio e receber recompensas novamente. [Saiba mais sobre limites de repetição](create-challenges.md#repeat-limits)
 
 ## Como funciona {#how-it-works}
 
@@ -214,7 +211,7 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar desafios de fidelidade</strong></a>
     </div>
     <p>
