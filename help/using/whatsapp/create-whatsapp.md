@@ -9,23 +9,15 @@ role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 TQID: https://experienceleague.adobe.com/fio2Etyk9FdkyTiHwRMkadrJ4bbsFz7--KvzQvUQrbc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: 1130
 ht-degree: 3%
 
 ---
@@ -67,6 +59,12 @@ Observe que os botões interativos **Copiar código** não são compatíveis.
 +++
 
 ## Adicionar uma mensagem de WhatsApp {#create-whatsapp-journey-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_whatsapp"
+>title="Ação do WhatsApp"
+>abstract="Uma ação de canal do WhatsApp envia uma mensagem do WhatsApp para os perfis quando eles atingem esta etapa da jornada. O rótulo identifica a atividade na tela de jornada, e a ação faz referência a uma configuração do WhatsApp que define o conteúdo entregue. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento, a seção **Multilíngue** pode fornecer conteúdo em vários idiomas e a seção **Tempo limite ou erro** pode definir um caminho alternativo se a ação falhar."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
 
 Navegue pelas guias abaixo para saber como adicionar uma mensagem do WhatsApp em uma campanha ou jornada.
 
@@ -220,6 +218,6 @@ O vídeo abaixo mostra como criar uma jornada do WhatsApp em várias etapas usan
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470287/?captions=por_br&learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++
