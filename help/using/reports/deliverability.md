@@ -9,29 +9,16 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 TQID: https://experienceleague.adobe.com/7EdZZJgxpZA2AtSo-lMpMEDV6C9zk78mmvNVhe5KXcw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c38924e53cd84e5568803d8d4e6c1e473630121e
 workflow-type: tm+mt
-source-wordcount: 1175
-ht-degree: 21%
+source-wordcount: 1347
+ht-degree: 19%
 
 ---
 
@@ -130,9 +117,12 @@ Depois que um usuário final gera uma reclamação que é enviada de volta ao Ad
 
 >[!IMPORTANT]
 >
->Nem todos os ISPs fornecem um FBL tradicional, como o Gmail. O Gmail não oferece feedback de nível individual e não pode ser usado para rastrear reclamações de spam para recipients individuais, concentrando-se em relatórios de nível agregado nas Ferramentas de postmaster do Google. [Saiba mais](https://support.google.com/a/answer/6254652?hl=en){target="_blank"}
+>Nem todos os ISPs fornecem um FBL tradicional, como o Gmail. O Gmail não oferece feedback de nível individual e não pode ser usado para rastrear reclamações de spam para recipients individuais, concentrando-se em relatórios de nível agregado nas Ferramentas de postmaster do Google. [Saiba mais](#providers-no-fbl)
+
 
 Todos os clientes do Adobe são automaticamente inscritos nos FBLs tradicionais dos seguintes ISPs:
+
++++ ISPs que fornecem um FBL tradicional
 
 * 1&amp;1
 
@@ -190,7 +180,21 @@ Todos os clientes do Adobe são automaticamente inscritos nos FBLs tradicionais 
 
 * Ziggo
 
-A Adobe audita esses FBLs regularmente para garantir que os FBLs disponíveis mais recentes sejam adicionados.
++++
+
+A Adobe realiza auditorias regulares para garantir que os FBLs disponíveis mais recentes sejam adicionados.
+
+### Provedores sem FBL por destinatário {#providers-no-fbl}
+
+Nem todos os ISPs fornecem um FBL tradicional. Vários provedores de caixa de correio principais não retornam reclamações de spam por recipient, o que significa que a ausência de uma entrada na lista de supressão é esperada para destinatários que usam esses provedores.
+
+| Provedor de caixa de correio | Reclamação FBL por destinatário? |
+|---|---|
+| **Gmail / Google Workspace** | Não — agregar relatórios somente por meio das Ferramentas de postmaster do Google (ID de feedback; não por recipient). [Saiba mais](https://support.google.com/a/answer/6254652?hl=en){target="_blank"} |
+| **Apple iCloud** (icloud.com, me.com, mac.com) | Não — [Saiba mais](https://support.apple.com/en-us/102322){target="_blank"} |
+| **Microsoft 365 corporativo/Exchange Online** | Não — o JMRP (Junk Mail Reporting Program, Programa de Relatório de Lixo Eletrônico) abrange apenas a rede do consumidor Outlook.com; os relatórios de lixo eletrônico do locatário dos ambientes corporativos M365 não retornam ao remetente. [Saiba mais](https://learn.microsoft.com/en-us/answers/questions/5787589/does-the-junk-mail-reporting-program-(jmrp)-send-c){target="_blank"} |
+
+Juntos, esses provedores representam a maioria das caixas de entrada de consumidores e empresas. Como nenhum deles retorna reclamações por destinatário, um destinatário que use qualquer um desses serviços e marque uma mensagem como spam **não** aparecerá automaticamente na lista de supressão.
 
 ## Usar retransmissão SMTP {#smtp-relay}
 
