@@ -5,9 +5,9 @@ title: Gerenciar jornadas
 description: Gerenciar jornadas
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
@@ -84,5 +84,5 @@ Saiba como as jornadas terminam, incluindo o fechamento, a interrupção e o ger
 
 ## Recursos adicionais
 
-- **[Copiar uma Jornada para outra sandbox](../using/building-journeys/copy-to-sandbox.md)**: saiba como transferir jornadas e objetos dependentes entre ambientes de sandbox usando exportações e importações de pacotes.
-- **[Integrar a Serviços inteligentes](../using/building-journeys/ai-services-overview.md)**: use a IA e o aprendizado de máquina para prever o comportamento do cliente e medir o impacto da campanha com os Serviços inteligentes da Adobe.
+- **[Copiar uma Jornada para outra sandbox](../using/configuration/copy-objects-to-sandbox.md#objects)**: saiba como transferir jornadas e objetos dependentes entre ambientes de sandbox usando exportações e importações de pacotes.
+- **[Integrar a Serviços inteligentes](../using/integrations/intelligent-services.md)**: use a IA e o aprendizado de máquina para prever o comportamento do cliente e medir o impacto da campanha com os Serviços inteligentes da Adobe.

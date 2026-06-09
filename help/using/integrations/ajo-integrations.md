@@ -26,7 +26,7 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
 source-wordcount: 1007
 ht-degree: 69%
@@ -121,7 +121,7 @@ Os Serviços inteligentes da Adobe, nativos da Plataforma de dados do cliente em
 
 A IA do cliente permite que as marcas criem pontuações de conversão ou cancelamento baseadas em aprendizado de máquina, que estarão disponíveis como atributos de perfil na Adobe Experience Platform e poderão ser usadas para personalizar uma jornada.
 
-Saiba mais sobre o [Journey Optimizer + Adobe Intelligent Services](../building-journeys/ai-services-overview.md).
+Saiba mais sobre o [Journey Optimizer + Adobe Intelligent Services](intelligent-services.md).
 
 
 ## Adobe Campaign {#integration-ac}
