@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
 workflow-type: tm+mt
-source-wordcount: 1008
+source-wordcount: 1171
 ht-degree: 2%
 
 ---
@@ -72,15 +72,32 @@ Se a jornada tiver vários caminhos, recomendamos adicionar um rótulo a cada ex
 
 Uma jornada pode ser fechada pelos seguintes motivos:
 
-* Uma jornada única baseada em segmento que terminou de ser executada e atingiu o tempo limite global de 91 dias.
+* Uma jornada de Leitura de Público não recorrente **para automaticamente** quando o último perfil sai da jornada. [Saiba mais](#auto-stop-non-recurring)
 * Após a última ocorrência de uma jornada recorrente baseada no público-alvo.
 * A jornada é fechada manualmente pelo botão [**[!UICONTROL Fechar para novas entradas]**](#close-to-new-entrances).
+* O tempo limite de jornada global de 91 dias foi atingido.
 
 Após o tempo limite global de **jornada de 91 dias**, uma jornada Ler público alterna para o status **Concluído**. Esse comportamento é definido para 91 dias somente, pois todas as informações sobre os perfis que entraram na jornada são removidas 91 dias após terem entrado. As pessoas que ainda estão na jornada são afetadas automaticamente. Eles saem da jornada após o tempo limite de 91 dias.  Saiba mais sobre [o tempo limite global do jornada](../building-journeys/journey-properties.md#global_timeout).
 
->[!TIP]
+### Interrupção automática de jornada para públicos-alvo não recorrentes {#auto-stop-non-recurring}
+
+Uma **jornada de Leitura de Público não recorrente** faz a transição automática para o status **[!UICONTROL Parado]** assim que o último perfil sai da jornada. Isso elimina o comportamento anterior em que as jornadas de Leitura de Público não recorrentes permaneceram no status **Live** até que o tempo limite global de 91 dias expirasse, mesmo que nenhum perfil estivesse fluindo ativamente por meio delas.
+
+**Como funciona:**
+
+1. A jornada é executada e todos os perfis do público-alvo são processados.
+1. À medida que cada perfil atinge o final da jornada, ele sai normalmente.
+1. Quando o **último perfil ativo existe**, a jornada muda automaticamente para o status **[!UICONTROL Parado]**.
+
+Este comportamento se aplica somente a **jornadas de Leitura de Público não recorrentes**. As jornadas recorrentes não são afetadas.
+
+>[!NOTE]
 >
->Uma jornada única baseada em segmento mantém o status do **Live** mesmo após ser executada uma vez. Os perfis não podem ser reinseridos após a conclusão, mas a jornada permanece com o status **Ativo** até que o tempo limite global padrão expire. Você pode fechá-lo manualmente antes usando a opção **Fechar para novas entradas**.
+>Esse comportamento de parada automática **não** se aplica a jornadas não recorrentes que incluem nós que causam períodos de espera, como nós **Wait** (com base no temporizador), nós **Reaction** (aguardando eventos como abertura de email ou clique) ou transições acionadas por eventos. Essas jornadas permanecem sujeitas ao tempo limite global padrão de 91 dias.
+
+>[!NOTE]
+>
+>Você ainda pode fechar uma jornada Read Audience não recorrente manualmente a qualquer momento usando a opção **[!UICONTROL Fechar para novas entradas]**. O comportamento de parada automática simplesmente garante que a jornada seja interrompida automaticamente quando não for mais necessária, sem a necessidade de intervenção manual.
 
 ### Quando uma jornada é considerada &quot;concluída&quot;? {#journey-finished-definition}
 
@@ -88,8 +105,8 @@ A definição de &quot;concluído&quot; varia dependendo do tipo de jornada:
 
 | Tipo de jornada | Recorrente? | Tem data de término? | Definição de &quot;concluído&quot; |
 |--------------|------------|---------------|--------------------------|
-| Público-alvo de leitura | Não | n/d | 91 dias após o início da execução |
-| Público-alvo de leitura | Sim | Não | 91 dias após o início da execução |
+| Público-alvo de leitura | Não | n/d | Quando o último perfil sair (parada automática) |
+| Público-alvo de leitura | Sim | Não | 91 dias após o início da última ocorrência |
 | Público-alvo de leitura | Sim | Sim | Quando a data final é alcançada |
 | Jornada acionada por evento | n/d | Sim | Quando a data final é alcançada |
 | Jornada acionada por evento | n/d | Não | Quando fechado na interface do usuário ou por meio da API |

@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ac5d3c36f0af1db72a83d25e49e20ff59dbfa5bd
+source-git-commit: 04ecbcc3623868aa46ba81f7558df0e1ccf405b5
 workflow-type: tm+mt
-source-wordcount: 2840
+source-wordcount: 2842
 ht-degree: 21%
 
 ---
@@ -151,6 +151,12 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
   Data de disponibilidade: 4 de junho de 2026
 
+* **Interrupção automática para jornadas de Leitura de Público não recorrentes** - **Leitura de Público** Não recorrentes agora as jornadas fazem a transição automática para o status **Interrompido** quando o último perfil ativo existe. Anteriormente, essas jornadas permaneciam **Ativas** até que o tempo limite global de 91 dias expirasse — mesmo quando nenhum perfil estava fluindo mais por elas. Com essa melhoria, o status da jornada reflete o estado de execução real assim que é concluída, mantendo o inventário da jornada preciso sem intervenção manual.
+
+  Observe que esse comportamento não se aplica a jornadas que incluem nós que causam períodos de espera, como nós de espera, nós de reação ou transições acionadas por evento. Essas jornadas permanecem sujeitas ao tempo limite global padrão de 91 dias. [Saiba mais](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+  Data de disponibilidade: 9 de junho de 2026
+
 * **Alertas de clientes para eventos de ciclo de vida de campanha** - Novos alertas do sistema agora notificam você sobre eventos-chave do ciclo de vida para campanhas acionadas por ação e API. Assine no nível da sandbox. [Leia mais](../reports/alerts.md)
 
   Data de disponibilidade: 1 de junho de 2026
@@ -254,12 +260,6 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 </tbody>
 </table>
 -->
-
-* **Conclusão automática para jornadas de Leitura de Público não recorrentes** - **Leitura de Público** Não recorrentes agora as jornadas fazem a transição automática para o status **Interrompido** quando o último perfil ativo existe. Anteriormente, essas jornadas permaneciam **Ativas** até que o tempo limite global de 91 dias expirasse — mesmo quando nenhum perfil estava fluindo mais por elas. Com essa melhoria, o status da jornada reflete o estado de execução real assim que é concluída, mantendo o inventário da jornada preciso sem intervenção manual.
-
-  Observe que esse comportamento não se aplica a jornadas que incluem nós que causam períodos de espera, como nós de espera, nós de reação ou transições acionadas por evento. Essas jornadas permanecem sujeitas ao tempo limite global padrão de 91 dias.
-
-  Data de disponibilidade: início de junho de 2026
 
 * **Suporte de identificador complementar para públicos externos** - Os identificadores complementares no jornada agora têm suporte para públicos externos, incluindo públicos importados de um arquivo CSV e públicos criados com a Composição de Público Federado. Você pode designar qualquer atributo que não seja de identidade ou atributo de identidade que não seja de pessoa do público-alvo como a ID complementar; nenhum rótulo de esquema é necessário.
 
