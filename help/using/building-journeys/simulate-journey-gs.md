@@ -9,10 +9,9 @@ role: User
 level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
-hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
+source-git-commit: 66ebb638e3633152294b431a1003786433a3ba7d
 workflow-type: tm+mt
 source-wordcount: 1427
 ht-degree: 2%
@@ -69,7 +68,7 @@ Os usuários simulados selecionados para a simulação e os eventos configurados
 
 ## Simulação de lançamento {#launch}
 
-Alternar a jornada para **[!UICONTROL Simulação]** para testar com usuários simulados. As tarefas passo a passo são detalhadas em [Simular sua jornada](simulate-journey-2.md).
+Alternar a jornada para **[!UICONTROL Simulação]** para testar com usuários simulados. As tarefas passo a passo são detalhadas em [Simular sua jornada](simulate-journey.md).
 
 1. Na sua jornada, clique em **[!UICONTROL Simular]** e escolha **[!UICONTROL Simulação]**.
 
