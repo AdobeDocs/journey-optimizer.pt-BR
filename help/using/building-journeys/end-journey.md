@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 23655e3e59cc14dea254f0e39a1f8f96bf2b295f
+source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
 workflow-type: tm+mt
 source-wordcount: 1171
 ht-degree: 2%
@@ -93,9 +93,9 @@ Este comportamento se aplica somente a **jornadas de Leitura de Público não re
 
 >[!NOTE]
 >
->Esse comportamento de parada automática **não** se aplica a jornadas não recorrentes que incluem nós que causam períodos de espera, como nós **Wait** (com base no temporizador), nós **Reaction** (aguardando eventos como abertura de email ou clique) ou transições acionadas por eventos. Essas jornadas permanecem sujeitas ao tempo limite global padrão de 91 dias.
+>* Esse comportamento de parada automática **não** se aplica a jornadas não recorrentes que incluem nós que causam períodos de espera, como nós **Wait** (com base no temporizador), nós **Reaction** (aguardando eventos como abertura de email ou clique) ou transições acionadas por eventos. Essas jornadas permanecem sujeitas ao tempo limite global padrão de [91 dias](../building-journeys/journey-properties.md#global_timeout).
 >
->Você ainda pode fechar uma jornada Read Audience não recorrente manualmente a qualquer momento usando a opção [**[!UICONTROL Fechar para novas entradas]**](#close-to-new-entrances). O comportamento de parada automática simplesmente garante que a jornada seja interrompida automaticamente quando não for mais necessária, sem a necessidade de intervenção manual.
+>* Você ainda pode fechar uma jornada Read Audience não recorrente manualmente a qualquer momento usando a opção [**[!UICONTROL Fechar para novas entradas]**](#close-to-new-entrances). O comportamento de parada automática simplesmente garante que a jornada seja interrompida automaticamente quando não for mais necessária, sem a necessidade de intervenção manual.
 
 ### Quando uma jornada é considerada &quot;concluída&quot;? {#journey-finished-definition}
 
@@ -125,8 +125,6 @@ Você também pode:
    ![Menu de opções Concluir mostrando o fim da jornada e as ações alternativas](assets/finish_drop_down_list.png){width="50%" zoomable="yes"}
 
 1. Clique em **[!UICONTROL Fechar para novas entradas]** e confirme na caixa de diálogo.
-
-
 
 
 ## Parar uma jornada {#stop-journey}
