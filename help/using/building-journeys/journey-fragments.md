@@ -11,9 +11,9 @@ keywords: fragmentos, jornada, reutilizar, nós, tela, inventário, reutilizáve
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 1482
+source-wordcount: 1517
 ht-degree: 9%
 
 ---
@@ -24,6 +24,13 @@ ht-degree: 9%
 Os fragmentos de jornada são conjuntos reutilizáveis de nós de jornada que você pode criar uma vez e soltar em qualquer jornada na sandbox. Seja uma verificação de elegibilidade, uma lógica de roteamento de canal preferencial ou uma sequência de boas-vindas, os fragmentos ajudam as equipes a se moverem mais rápido e a permanecerem consistentes, sem reconstruir a mesma lógica do zero todas as vezes. [Consulte exemplos de caso de uso.](#examples)
 
 Depois de criados, os fragmentos são armazenados em um **[!UICONTROL Inventário de Fragmentos]** dedicado e podem ser inseridos em qualquer jornada usando a atividade **[!UICONTROL Fragmentos de Jornada]**.
+
+>[!NOTE]
+>
+>**Fragmentos de Jornada** são conjuntos reutilizáveis de nós de jornada. Eles são diferentes de:
+>
+>* **[Fragmentos](../content-management/fragments.md)** — componentes de conteúdo reutilizáveis usados em emails em campanhas e jornadas.
+>* **[Fragmentos de conteúdo do AEM](../integrations/aem-fragments.md)** — conteúdo criado no Adobe Experience Manager e usado em [!DNL Journey Optimizer].
 
 >[!NOTE]
 >Os fragmentos de jornada usam um **comportamento de cópia**: inserir um fragmento em uma jornada cria uma cópia estática dos nós originais. As atualizações feitas no fragmento original não são refletidas nas jornadas que já o usaram.
