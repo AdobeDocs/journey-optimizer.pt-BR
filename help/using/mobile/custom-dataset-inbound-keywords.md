@@ -12,9 +12,9 @@ subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: 517
 ht-degree: 8%
 
 ---
@@ -25,7 +25,7 @@ As palavras-chave de SMS de entrada podem ser armazenadas em um conjunto de dado
 
 >[!NOTE]
 >
->Se nenhum conjunto de dados personalizado estiver configurado, as palavras-chave de entrada serão armazenadas no _Conjunto de Dados de Eventos de Atividade de Entrada do AJO_ por padrão. Um perfil deve ter pelo menos uma mensagem enviada de [!DNL Journey Optimizer] antes que as mensagens de entrada sejam capturadas neste conjunto de dados. [Saiba mais sobre conjuntos de dados do sistema](../data/get-started-datasets.md#system-datasets)
+>Se nenhum conjunto de dados personalizado estiver configurado, as palavras-chave de entrada serão armazenadas no _Conjunto de Dados de Acompanhamento de Email do AJO_ por padrão. Um perfil deve ter pelo menos uma mensagem enviada de [!DNL Journey Optimizer] antes que as mensagens de entrada sejam capturadas neste conjunto de dados. [Saiba mais sobre conjuntos de dados do sistema](../data/get-started-datasets.md#system-datasets)
 
 Para obter informações sobre esquemas, grupos de campos e conjuntos de dados, consulte a seguinte documentação do Adobe Experience Platform:
 

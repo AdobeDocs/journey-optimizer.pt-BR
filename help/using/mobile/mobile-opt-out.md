@@ -22,9 +22,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 674
+source-wordcount: 673
 ht-degree: 14%
 
 ---
@@ -63,7 +63,7 @@ Observe que se um cliente responder PARAR para uma mensagem móvel, o provedor b
 
 >[!NOTE]
 >
->Se você planeja usar SMS bidirecional (responder com PARAR, SAIR etc.), verifique se enviou primeiro pelo menos um SMS unidirecional para estabelecer o número de telefone para o mapeamento de perfil. Credenciais de provedor expiradas ou configuradas incorretamente impedirão que palavras-chave de entrada atualizem o perfil do usuário, resultando em registros de recusa ausentes ou atrasados. As respostas de entrada são armazenadas no _Conjunto de Dados de Eventos de Atividade de Entrada da AJO_. [Saiba mais](../data/get-started-datasets.md#system-datasets)
+>Se você planeja usar SMS bidirecional (responder com PARAR, SAIR etc.), verifique se enviou primeiro pelo menos um SMS unidirecional para estabelecer o número de telefone para o mapeamento de perfil. Credenciais de provedor expiradas ou configuradas incorretamente impedirão que palavras-chave de entrada atualizem o perfil do usuário, resultando em registros de recusa ausentes ou atrasados. As respostas de entrada são armazenadas no conjunto de dados do sistema _Conjunto de dados de rastreamento de email do AJO_. [Saiba mais](../data/get-started-datasets.md#system-datasets)
 
 
 ## ➡ Incluis na lista de bloqueios {#sms-blocklists}
