@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: 1130
 ht-degree: 3%
 
 ---
@@ -67,6 +67,12 @@ Observe que os botões interativos **Copiar código** não são compatíveis.
 +++
 
 ## Adicionar uma mensagem de WhatsApp {#create-whatsapp-journey-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_whatsapp"
+>title="Ação do WhatsApp"
+>abstract="Uma ação de canal do WhatsApp envia uma mensagem do WhatsApp para os perfis quando eles atingem esta etapa da jornada. O rótulo identifica a atividade na tela de jornada, e a ação faz referência a uma configuração do WhatsApp que define o conteúdo entregue. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento, a seção **Multilíngue** pode fornecer conteúdo em vários idiomas e a seção **Tempo limite ou erro** pode definir um caminho alternativo se a ação falhar."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
 
 Navegue pelas guias abaixo para saber como adicionar uma mensagem do WhatsApp em uma campanha ou jornada.
 

@@ -25,14 +25,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1647
-ht-degree: 18%
+source-wordcount: 1741
+ht-degree: 17%
 
 ---
 
 # Criação de experiências da Web {#create-web}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_web"
+>title="Ação da Web"
+>abstract="Uma ação de entrada de experiência da Web exibe uma experiência da Web para perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela de jornada e a ação faz referência a uma configuração da Web que define o conteúdo mostrado. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento. Um nó **Wait** é inserido automaticamente após esta atividade (3 dias por padrão), dando aos perfis tempo para exibir a experiência da Web."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
 
 O [!DNL Journey Optimizer] permite personalizar a experiência da Web fornecida aos clientes por meio de jornadas ou campanhas de entrada.
 

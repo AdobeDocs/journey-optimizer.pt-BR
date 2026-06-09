@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
 workflow-type: tm+mt
-source-wordcount: 3633
+source-wordcount: 3646
 ht-degree: 13%
 
 ---
@@ -178,9 +178,9 @@ As configurações de tempo limite controlam quanto tempo uma jornada aguarda pe
 ### Tempo-limite nas atividades da jornada {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timeout"
+>id="ajo_journey_action_timeout"
 >title="Tempo-limite ou erro"
->abstract="Especifique por quanto tempo a jornada deve tentar realizar uma ação ou avaliar uma condição, antes de tratá-la como expirada. Os valores recomendados estão entre 1 e 30 segundos."
+>abstract="A opção **Tempo limite ou erro** define um caminho alternativo na jornada quando a ação atinge o tempo limite ou retorna um erro, para que os perfis continuem por um caminho de fallback em vez de parar nesta etapa. Os valores recomendados estão entre 1 e 30 segundos."
 
 Ao editar uma atividade de ação ou condição, é possível definir um caminho alternativo em caso de erro ou tempo limite. Se o processamento da atividade que interroga um sistema de terceiros exceder a duração do tempo limite definida no campo **[!UICONTROL Tempo limite ou erro]** das propriedades da jornada, o segundo caminho será escolhido para executar uma possível ação de fallback.
 

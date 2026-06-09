@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 2305
+source-wordcount: 2405
 ht-degree: 11%
 
 ---
@@ -35,6 +35,12 @@ ht-degree: 11%
 >id="ajo_campaigns_inapp_triggers"
 >title="Gerenciar acionadores no aplicativo"
 >abstract="Controle os acionadores com eficiência selecionando os eventos e critérios específicos que ativarão as mensagens. O construtor de regras permite definir condições e valores precisos. Quando essas condições são atendidas, elas iniciam uma série de ações, incluindo a entrega de mensagens no aplicativo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_in_app"
+>title="Ação de mensagem no aplicativo"
+>abstract="Uma ação de entrada de mensagens no aplicativo exibe uma mensagem no aplicativo para os perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela de jornada e a ação faz referência a uma configuração no aplicativo que define o conteúdo mostrado. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento. Um nó **Wait** é inserido automaticamente após esta atividade (3 dias por padrão), dando aos perfis tempo para exibir a mensagem no aplicativo."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
 
 Você pode adicionar uma mensagem no aplicativo em uma campanha ou em uma jornada. Siga as etapas detalhadas abaixo para criar uma mensagem no aplicativo em ambos os contextos.
 

@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1147
-ht-degree: 12%
+source-wordcount: 1242
+ht-degree: 11%
 
 ---
 
@@ -46,6 +46,12 @@ ht-degree: 12%
 >abstract="Defina o assunto do email e abra o Designer de email para criar seu conteúdo."
 
 ## Adicionar uma ação de email {#email-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_email"
+>title="Ação de email"
+>abstract="Uma ação de canal de email envia um email para perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela de jornada e a ação faz referência a uma configuração de email que define o conteúdo entregue. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento, a seção **Multilíngue** pode fornecer conteúdo em vários idiomas e a seção **Tempo limite ou erro** pode definir um caminho alternativo se a ação falhar."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
 
 Para criar um email em [!DNL Journey Optimizer], adicione uma ação de **[!UICONTROL Email]** a uma jornada ou campanha. Siga as etapas abaixo, de acordo com seu caso.
 

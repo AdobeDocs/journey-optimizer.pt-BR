@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
 workflow-type: tm+mt
-source-wordcount: 1570
+source-wordcount: 1736
 ht-degree: 14%
 
 ---
@@ -72,6 +72,27 @@ As atividades de canal nativas herdadas também são preservadas nestes casos:
 * **Copiar e colar atividades herdadas em uma jornada** — as atividades coladas permanecem como atividades herdadas. É possível editá-los e publicá-los como estão; nenhuma migração é necessária.
 
 ## Adicionar uma ação de canal interna a uma jornada  {#add-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_auto_wait"
+>title="Nó de espera automático"
+>abstract="Para ações de canal de entrada (mensagem no aplicativo, Web, cartão de Conteúdo e experiência baseada em Código), um nó **Wait** é inserido automaticamente após a ação (3 dias por padrão). Isso dá aos perfis tempo para visualizar a experiência de entrada antes que a jornada continue para a próxima etapa."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_optimization"
+>title="Otimização"
+>abstract="A seção **Otimização** adiciona experimentos de conteúdo, regras de direcionamento ou ambos a uma ação de canal. Ele permite testar variantes e fornecer o conteúdo mais eficiente para cada membro do público-alvo."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Usar a atividade Otimizar"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_multilingual"
+>title="Multilíngue"
+>abstract="A seção **Multilíngue** fornece o conteúdo da ação de canal em vários idiomas em uma única jornada. Uma configuração de configurações de idioma define as localidades compatíveis e o idioma padrão para esta ação."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Introdução ao conteúdo multilíngue"
+
 
 Para adicionar uma ação de canal interna à sua jornada usando a atividade **[!UICONTROL Ação]**, siga as etapas abaixo.
 

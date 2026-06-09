@@ -22,14 +22,21 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 968
-ht-degree: 18%
+source-wordcount: 1066
+ht-degree: 16%
 
 ---
 
 # Criar uma notificação por push {#create-push-notification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_push"
+>title="Ação de notificação por push"
+>abstract="Uma ação de canal de notificação por push envia uma notificação por push aos perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela de jornada e a ação faz referência a uma configuração de push que define o conteúdo entregue. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento, a seção **Multilíngue** pode fornecer conteúdo em vários idiomas e a seção **Tempo limite ou erro** pode definir um caminho alternativo se a ação falhar."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
