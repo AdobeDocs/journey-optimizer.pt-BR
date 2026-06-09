@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3355'
 ht-degree: 95%
 
 ---
@@ -83,8 +83,6 @@ ht-degree: 95%
       + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
       + [Otimização de tempo de envio](using/building-journeys/send-time-optimization.md)
       + [Encerrar sua jornada](using/building-journeys/end-journey.md)
-      + [Copiar uma jornada para outra sandbox](using/building-journeys/copy-to-sandbox.md)
-      + [Integrar a serviços inteligentes](using/building-journeys/ai-services-overview.md)
    + Atividades {#about-journey-building}
       + [Atividades](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [Introdução às atividades de jornada](using/building-journeys/about-journey-activities.md)
@@ -524,6 +522,7 @@ ht-degree: 95%
       + [Trabalhar com o Dynamic Media](using/integrations/aem-dynamic.md)
       + {hide-from-toc}[Inserir temporizador de contagem regressiva](using/integrations/countdown.md)
       + [Trabalhar com o GenStudio for Performance Marketing](using/integrations/genstudio.md)
+      + [Integrar a serviços inteligentes](using/integrations/intelligent-services.md)
       + Integrações {#integrations}
          + [Trabalhar com integrações](using/integrations/integrations.md)
          + [Uso de integrações externas para personalização](using/integrations/integrations-personalization.md)
