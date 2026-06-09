@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
+source-git-commit: 199f9b1a152ab9bd0c2a31145c03666bcf698123
 workflow-type: tm+mt
-source-wordcount: 8153
-ht-degree: 88%
+source-wordcount: 8367
+ht-degree: 86%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 88%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Junho de 2026 {#june-2026}
+
+* **O Experience Decisioning agora está disponível para o canal de correspondência direta.** Uma nova página **Decisão em lote na correspondência direta** descreve como usar o mecanismo de decisão para personalizar arquivos de extração de correspondência direta ou exportar perfis e seus resultados de decisão para uso em sistemas downstream. A **correspondência direta** foi adicionada como um canal com suporte na documentação do Decisioning (Introdução, Criação de uma política de decisão, Uso de políticas de decisão em mensagens, Introdução a políticas de decisão), incluindo a capacidade de retornar vários itens de decisão por perfil por meio do campo **[!UICONTROL Número de itens]**. [Leia mais](../experience-decisioning/batch-decisioning-direct-mail.md)
+
+* A documentação dos **Fragmentos de Jornada** não é mais sinalizada como Disponibilidade limitada. A página agora inclui uma observação que desfaz a ambiguidade dos Fragmentos de Jornada do conteúdo **[!UICONTROL Fragmentos]** e **Fragmentos de conteúdo do AEM** (com link cruzado de todas as três páginas), e documentos que dão suporte a **Ferramentas de sandbox**, **Logs de auditoria** e **marcação**. Fragmentos de Jornada também foram adicionados à página **Introdução ao jornada**. [Leia mais](../building-journeys/journey-fragments.md)
+
+* A documentação de **Fontes de dados externas** e **ação personalizada** foi atualizada para autenticação personalizada. O campo `tokenInResponse` agora permite especificar se `access_token` ou `id_token` é usado como credencial de autenticação quando um ponto de extremidade retorna ambos. Para autenticação personalizada baseada em certificado, os campos `subType` e `aud` agora são obrigatórios, o ponto de extremidade do token `method` deve ser `POST` e as referências à &quot;Azure Entra ID&quot; foram corrigidas para &quot;Microsoft Entra ID&quot;. [Leia mais](../datasource/external-data-sources.md#certificate-credential)
 
 * A página **Introdução à Decisão** foi atualizada com um gráfico de processo que resume o fluxo de trabalho completo da Decisão, desde o gerenciamento de itens de decisão e a configuração de estratégias de seleção até a incorporação de políticas de decisão em uma jornada ou campanha. [Leia mais](../experience-decisioning/gs-experience-decisioning.md#process)
 
