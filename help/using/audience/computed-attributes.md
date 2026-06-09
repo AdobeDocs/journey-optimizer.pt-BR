@@ -8,25 +8,16 @@ role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
 TQID: https://experienceleague.adobe.com/bH8UDdjWsh1Kle1ltVP2ltgXcNJDfVIdTuFdGWSZv6Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
 workflow-type: tm+mt
-source-wordcount: 520
-ht-degree: 3%
+source-wordcount: 927
+ht-degree: 1%
 
 ---
 
@@ -89,3 +80,41 @@ Os atributos computados fornecem recursos versáteis dentro da Journey Optimizer
 Como os atributos computados são campos de atributo de perfil criados no esquema de união de perfis, acesse-os do editor de personalização no grupo de campos **SystemComputedAttributes**. A partir daí, adicione atributos calculados em suas expressões, tratando-os como qualquer outro atributo de perfil para executar as operações desejadas.
 
 ![](assets/computed-attributes-ajo.png)
+
++++Assistente de IA — Contexto da página
+
+- **TL;DR:** Saiba como criar atributos computados no Adobe Experience Platform e aproveitá-los no Journey Optimizer para segmentação, personalização e lógica de jornada.
+
+**Intenções:**
+- Entenda o que são atributos calculados e como eles diferem dos atributos de perfil padrão
+- Criar atributos computados combinando atributos de evento, funções agregadas e um período de lookback
+- Adicione o grupo de campos SystemComputedAttributes à fonte de dados do Experience Platform no AJO
+- Usar atributos computados em condições de jornada, criação de público e personalização de mensagens
+
+**Glossário:**
+- **Atributo computado**: um atributo de perfil derivado de dados de eventos comportamentais agregados, armazenado em perfis de clientes *(específico do produto)*
+- **Período de pesquisa**: a janela de tempo aplicada ao calcular a regra de agregação de um atributo calculado (por exemplo, &quot;últimos 3 meses&quot;) *(específico do produto)*
+- **Grupo de campos SystemComputedAttributes**: o grupo de campos na fonte de dados Experience Platform da AJO que expõe todos os atributos computados publicados para uso no jornada e na personalização *(específico do produto)*
+- **Esquema de união de perfil**: o esquema mesclado que combina todos os fragmentos de perfil de uma determinada identidade, onde os atributos computados são armazenados
+
+**Medidas de Proteção:**
+- Requer **Exibir atributos computados** e **Gerenciar atributos computados** permissões para acessar o recurso
+- Os atributos computados devem ser **publicados** no AEP antes de se tornarem disponíveis no downstream no Journey Optimizer
+- Os atributos computados devem ser adicionados explicitamente à **fonte de dados do Experience Platform** no AJO para que possam ser usados em jornadas ou personalização
+- Os atributos computados são baseados em conjuntos de dados de Evento de experiência habilitados para perfil assimilados na Adobe Experience Platform
+
+**Terminologia:**
+- Nome canônico: Adobe Journey Optimizer — Acrônimo: AJO — variantes: Journey Optimizer, A-JO
+- Nome canônico: Adobe Experience Platform — Acrônimo: AEP
+- Sinônimos: &quot;atributos computados&quot; = &quot;atributos de perfil computados&quot;
+- Não confunda: &quot;atributos computados&quot; (recurso agregado específico do AEP/AJO) ≠ &quot;atributos de perfil&quot; genéricos
+
+**Perguntas frequentes:**
+- **P: O que são atributos computados?** — Dados de evento comportamentais agregados (por exemplo, total de compras, último item visualizado) armazenados como atributos de perfil no AEP e utilizáveis no AJO.
+- **P: Preciso de permissões especiais?** — Sim: são necessários os atributos &quot;Exibir computados&quot; e &quot;Gerenciar atributos computados&quot;.
+- **P: Como disponibilizar atributos computados no Journey Optimizer?** — Adicione o grupo de campos `SystemComputedAttributes` à fonte de dados do Experience Platform em Configurações > Fontes de dados.
+- **P: Onde posso usar atributos computados no AJO?** — Em Atividades de condição (divisão de jornada), criação de público-alvo e editor de personalização.
+- **P: O que é um período de pesquisa?** — A janela de tempo usada para determinar o escopo da regra de agregação, por exemplo, &quot;soma das compras das últimas 3 semanas&quot;.
+- **P: Posso usar atributos computados em jornadas em tempo real?** — Sim, depois de publicados e adicionados à fonte de dados, eles podem ser acessados como qualquer outro atributo de perfil.
+
++++
