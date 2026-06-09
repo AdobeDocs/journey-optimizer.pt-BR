@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee485d872299b592e27cf40cd3cde9b362bc85d2
+source-git-commit: a36a488ae85052375ed31ad7efa644bd9fba58ea
 workflow-type: tm+mt
-source-wordcount: 2694
-ht-degree: 21%
+source-wordcount: 2424
+ht-degree: 23%
 
 ---
 
@@ -108,11 +108,32 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </table>
 
 
+
 * **Autenticação Personalizada Baseada em Certificado em ações personalizadas** - As ações personalizadas agora oferecem suporte à Autenticação Personalizada Baseada em Certificado. Ao adicionar `subType: "certificateCredential"` a uma configuração de autorização personalizada, o Journey Optimizer usa o certificado gerenciado da Adobe para assinar uma declaração de cliente JWT e trocá-la por um token de acesso — não é necessário nenhum segredo de cliente. Projetado para APIs empresariais que impõem a verificação de identidade baseada em certificados, como o Microsoft Entra ID. [Saiba mais](../datasource/external-data-sources.md#certificate-credential)
 
   Data de disponibilidade: 4 de junho de 2026
 
+* **Alertas de clientes para eventos de ciclo de vida de campanha** - Novos alertas do sistema agora notificam você sobre eventos-chave do ciclo de vida para campanhas acionadas por ação e API. Assine no nível da sandbox. [Leia mais](../reports/alerts.md)
 
+  Data de disponibilidade: 1 de junho de 2026
+
+* **Criptografia do parâmetro de URL** - Agora é possível criptografar parâmetros de URL em links de páginas de destino e rastreamento adicionados às suas mensagens de email. Isso fornece uma camada adicional de segurança para dados de parâmetros confidenciais. Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral). [Leia mais](../personalization/url-parameter-encryption.md)
+
+  Data de disponibilidade: 1 de junho de 2026
+
+* **Novas permissões para o Registro de chave** - Duas novas permissões agora são necessárias para acessar e gerenciar as chaves necessárias para a criptografia de parâmetros de URL: **Gerenciar Registro de Chave** e **Exibir Registro de Chave**. [Leia mais](../administration/high-low-permissions.md#administration-permissions)
+
+  Data de disponibilidade: 1 de junho de 2026
+
+<!--
++++ Coming soon — **Information below is subject to change.**
+
+* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default execution field set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
+
+  Availability date: Early June, 2026
+
++++
+-->
 
 ## Notas de versão de maio de 2026 {#may-26-rn}
 
@@ -159,9 +180,10 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 </tbody>
 </table>
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-Os seguintes recursos do jornada são esperados nos próximos dias ou semanas.
+The following journey capabilities are expected in the upcoming days or weeks.
 
 <!--
 <table>
@@ -200,33 +222,35 @@ Os seguintes recursos do jornada são esperados nos próximos dias ou semanas.
 </table>
 -->
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Simulação de Jornada (Disponibilidade Geral)</strong><br/></th>
+<th><strong>Journey Simulation (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Anteriormente lançado com Disponibilidade limitada, a Simulação de Jornada agora está disponível para todos os ambientes. Com esta versão de Disponibilidade geral, agora é possível usar o Journey Agent para gerar usuários e eventos simulados diretamente no menu Simulação.</p>
-<p>Data de disponibilidade: início de junho de 2026</p>
+<p>Previously released in Limited Availability, Journey Simulation is now available to all environments. With this General Availability release, you can now use Journey Agent to generate simulated users and events directly in the Simulation menu.</p>
+<p>Availability date: Early June, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Conclusão automática para jornadas de Leitura de Público não recorrentes** - **Leitura de Público** Não recorrentes agora as jornadas fazem a transição automática para o status **Interrompido** quando o último perfil ativo existe. Anteriormente, essas jornadas permaneciam **Ativas** até que o tempo limite global de 91 dias expirasse — mesmo quando nenhum perfil estava fluindo mais por elas. Com essa melhoria, o status da jornada reflete o estado de execução real assim que é concluída, mantendo o inventário da jornada preciso sem intervenção manual.
+* **Automatic completion for non-recurring Read Audience journeys** - Non-recurring **Read Audience** journeys now automatically transition to **Stopped** status once the last active profile exits. Previously, these journeys remained **Live** until the 91-day global timeout expired — even when no profiles were flowing through them anymore. With this improvement, journey status reflects actual execution state as soon as it completes, keeping your journey inventory accurate without manual intervention.
 
-  Observe que esse comportamento não se aplica a jornadas que incluem nós que causam períodos de espera, como nós de espera, nós de reação ou transições acionadas por evento. Essas jornadas permanecem sujeitas ao tempo limite global padrão de 91 dias.
+  Note that this behavior does not apply to journeys that include nodes causing waiting periods, such as Wait nodes, Reaction nodes, or event-triggered transitions. These journeys remain subject to the standard 91-day global timeout.
 
-  Data de disponibilidade: início de junho de 2026
+  Availability date: Early June, 2026
 
-* **Suporte de identificador complementar para públicos externos** - Os identificadores complementares no jornada agora têm suporte para públicos externos, incluindo públicos importados de um arquivo CSV e públicos criados com a Composição de Público Federado. Você pode designar qualquer atributo que não seja de identidade ou atributo de identidade que não seja de pessoa do público-alvo como a ID complementar; nenhum rótulo de esquema é necessário.
+* **Supplemental identifier support for external audiences** - Supplemental identifiers in journeys are now supported for external audiences, including audiences imported from a CSV file and audiences created with Federated Audience Composition. You can designate any non-identity attribute or non-person identity attribute from the audience as the supplemental ID, no schema labeling is required.
 
-  Data de disponibilidade: início de junho de 2026
+  Availability date: Early June, 2026
 
 +++
+-->
 
 ### Campanhas orquestradas {#may-26-oc}
 
@@ -284,22 +308,6 @@ The following orchestrated campaign capability is expected in the upcoming days 
 * **Personalize email sender details per recipient and campaign** - Orchestrated campaigns now support personalization of email header fields, including From name, From address, and Reply-To, using profile attributes or relational data. This allows sender details to reflect the relevant advisor, location, or branch for each recipient, rather than routing all sends through a single corporate address.
 
   Header values can be set at the channel level and overridden per campaign using contextual data for more precise control.
-
-  Availability date: Early June, 2026
-
-+++
--->
-
-### Campanhas {#may-26-campaigns}
-
-* **Alertas de clientes para eventos de ciclo de vida de campanha** - Novos alertas do sistema agora notificam você sobre eventos-chave do ciclo de vida para campanhas acionadas por ação e API. Assine no nível da sandbox. [Leia mais](../reports/alerts.md)
-
-  Data de disponibilidade: 1 de junho de 2026
-
-<!--
-+++ Coming soon — **Information below is subject to change.**
-
-* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default execution field set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
 
   Availability date: Early June, 2026
 
@@ -472,16 +480,6 @@ Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúd
 
 * **Acesso ao repositório entre organizações no Seletor de Assets** - Agora é possível selecionar ativos facilmente de repositórios em várias organizações diretamente no Seletor de ativos do Adobe Experience Manager.
 
-### Administração {#may-26-admin}
-
-* **Criptografia do parâmetro de URL** - Agora é possível criptografar parâmetros de URL em links de páginas de destino e rastreamento adicionados às suas mensagens de email. Isso fornece uma camada adicional de segurança para dados de parâmetros confidenciais. Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral). [Leia mais](../personalization/url-parameter-encryption.md)
-
-  Data de disponibilidade: 1 de junho de 2026
-
-* **Novas permissões para o Registro de chave** - Duas novas permissões agora são necessárias para acessar e gerenciar as chaves necessárias para a criptografia de parâmetros de URL: **Gerenciar Registro de Chave** e **Exibir Registro de Chave**. [Leia mais](../administration/high-low-permissions.md#administration-permissions)
-
-  Data de disponibilidade: 1 de junho de 2026
-
 <!--
 +++ Coming soon — **Information below is subject to change.**
 
@@ -522,11 +520,13 @@ As seguintes melhorias de usabilidade também foram lançadas em maio de 2026.
   ![](../test-approve/assets/simulation-preview-redesign.png)
 -->
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-* **Pastas para jornadas e campanhas** - Agora é possível organizar suas jornadas e campanhas em pastas para melhorar a navegação e o gerenciamento na interface.
+* **Folders for journeys and campaigns** - You can now organize your journeys and campaigns into folders to improve navigation and management in the interface.
 
-  Data de disponibilidade: início de junho de 2026
+  Availability date: Early June, 2026
 
 +++
+-->
 
