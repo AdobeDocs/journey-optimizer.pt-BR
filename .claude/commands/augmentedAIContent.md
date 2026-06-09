@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - `+++` sozinho em uma linha fecha o acordeão
 - Linha em branco antes da abertura de `+++` e após o fechamento de `+++`
 
----
+&#x200B;---
 
 ## Fluxo de trabalho
 
@@ -58,7 +58,7 @@ Anexar no final do arquivo. Não modifique nenhum outro conteúdo.
 - Arquivos modificados ✓
 - Arquivos ignorados + motivo (já tem a opção acordeão / vazia / página de índice)
 
----
+&#x200B;---
 
 ## Regras de geração de conteúdo
 
@@ -159,7 +159,7 @@ Nomes canônicos, siglas, variantes aceitas, sinônimos, desambiguação. Princi
 +++
 ```
 
----
+&#x200B;---
 
 ## Notas
 
