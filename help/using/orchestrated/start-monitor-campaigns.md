@@ -8,19 +8,13 @@ feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ZFSEl140wBA-sWfOVUMk9U5La9sJSlgGrNMhSF4Xp4s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1604
+source-wordcount: 1599
 ht-degree: 22%
 
 ---
@@ -76,7 +70,7 @@ O ícone **[!UICONTROL Alertas]** / **[!UICONTROL Aviso]** na barra de ferrament
 
 Você também pode identificar rapidamente as atividades com falhas, usando os [indicadores visuais de status](#activities) exibidos diretamente em cada atividade. Para obter uma resolução de problemas detalhada, abra os [logs da campanha](#logs-tasks), que fornecem informações detalhadas sobre o erro e seu contexto.
 
-Se você tiver adicionado atividades de canal na tela, poderá visualizar e testar o conteúdo de suas mensagens usando o botão **[!UICONTROL Simular Conteúdo]**. [Saiba como trabalhar com atividades de canal e simular conteúdo](activities/channels.md#simulate-content-test-profiles).
+Se você tiver adicionado atividades de canal na tela, será possível pré-visualizar e testar o conteúdo de suas mensagens. [Saiba como trabalhar com atividades de canal e simular conteúdo](activities/channels.md#simulate-content-test-profiles).
 
 >[!TIP]
 >

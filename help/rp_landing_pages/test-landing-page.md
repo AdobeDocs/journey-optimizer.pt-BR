@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: testar, validar, aprovar, aprovação, controle-de-qualidade, qa, perfis-de-teste, personalização, renderização, verificação-de-spam, experimento-de-conteúdo, teste-a/b, detecção-de-conflitos, lista-de-seeds, provas, dados-de-amostra, fluxo-de-trabalho-de-aprovação, teste-de-email, fluxo-de-trabalho-de-validação
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 3409e7a17dc0bae3511e3e021e244a2fa74f99aa
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: '2419'
-ht-degree: 89%
+source-wordcount: '2281'
+ht-degree: 83%
 
 ---
 
@@ -26,7 +26,7 @@ Esta página de destino ajuda a escolher a abordagem de teste correta com base n
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizar, testar e validar o conteúdo
 
@@ -36,7 +36,7 @@ Saiba como visualizar, testar e validar um conteúdo personalizado por meio de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Fluxos de trabalho de aprovação para jornadas e campanhas
 
@@ -46,7 +46,7 @@ Entenda como configurar, gerenciar e executar processos de aprovação para gara
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Teste a jornada
 
@@ -56,7 +56,7 @@ Valide a jornada antes da publicação testando-a com perfis específicos para g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Execução de teste da jornada
 
@@ -66,7 +66,7 @@ Realize uma execução de teste para simular e validar o caminho de execução d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoramento e solução de problemas
 
@@ -76,7 +76,7 @@ Acesse recursos abrangentes de solução de problemas, alertas do sistema e cód
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Playground de personalização
 
@@ -86,7 +86,7 @@ Experimente expressões de personalização em um ambiente seguro. Teste o códi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Experimentos de conteúdo e teste A/B
 
@@ -96,7 +96,7 @@ Otimize as campanhas testando múltiplas variações de conteúdo e medindo o de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas de seeds para monitoramento pelas partes interessadas
 
@@ -106,7 +106,7 @@ Inclua automaticamente endereços internos de partes interessadas nas entregas p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detecção de conflitos
 
@@ -150,7 +150,7 @@ Os processos de teste e aprovação servem como estágios de qualidade essenciai
 | Capability | Applies to | Channel restrictions | Prerequisites | Primary purpose |
 |------------|-----------|---------------------|--------------|-----------------|
 | [Test profiles](../using/content-management/test-profiles.md) | Campaigns, Journeys | All channels | Test profiles created | Preview personalized content |
-| [Sample input data](../using/test-approve/simulate-sample-input.md) | Campaigns, Journeys | Email, SMS, Push, Web, Code-based, In-app, Content cards | CSV/JSON file | Test multiple personalization variants |
+| [Sample input data](../using/test-approve/simulate-sample-input.md) | Campaigns, Journeys | Email, SMS, Push, Web, Code-based, In-app, Content cards | CSV/JSON file, manual entry, or AI | Test multiple personalization variants |
 | [Test mode](../using/building-journeys/testing-the-journey.md) | Journeys only | N/A | Draft journey, namespace configured | Simulate profile progression |
 | [Dry run](../using/building-journeys/journey-dry-run.md) | Journeys only | N/A | Journey created | Analyze execution paths |
 | [Email rendering](../using/content-management/rendering.md) | Campaigns, Journeys | Email only | Litmus integration | Verify display across clients |
@@ -275,7 +275,7 @@ Para maximizar a eficácia dos testes, siga estas práticas recomendadas:
 
 1. **Valide a personalização de forma abrangente** - Teste com vários [perfis de teste](../using/content-management/test-profiles.md) que tenham valores de atributo diferentes para confirmar se os tokens de personalização são renderizados corretamente e os valores de fallback funcionam. Use o [playground de personalização](../using/personalization/personalize.md#playground) para experimentar expressões de personalização e testar o código com dados de amostra, antes de aplicá-los às campanhas.
 
-1. **Teste variações de conteúdo com dados de amostra** - Use [dados de entrada de amostra](../using/test-approve/simulate-sample-input.md) de arquivos CSV ou JSON para testar até 30 cenários de personalização sem criar vários perfis de teste, economizando tempo e garantindo uma cobertura abrangente. É compatível com email, SMS, push, web, experiência baseada em código, no aplicativo e canais de cartões de conteúdo.
+1. **Testar variações de conteúdo com dados de exemplo** - Use [dados de entrada de exemplo](../using/test-approve/simulate-sample-input.md) de arquivos CSV ou JSON, entrada manual ou geração automática de IA para testar até 30 cenários de personalização sem criar vários perfis de teste.
 
 1. **Use listas de seeds para monitoramento das partes interessadas** - Configure [listas de seeds](../using/configuration/seed-lists.md) para incluir automaticamente as partes interessadas internas que receberão cópias de todas as entregas no tempo de execução, com o objetivo de um monitoramento de qualidade e verificação de conformidade (somente canal de email).
 
@@ -313,7 +313,7 @@ Veja como os conceitos de teste se aplicam a cenários do mundo real:
 <a href="../using/building-journeys/journeys-uc.md"><strong>Envie mensagens multicanal</strong></a>
 </div>
 <p>
-Teste uma jornada que combine Público-alvo de leitura, eventos de reação e mensagens de email/push. Valide todo o fluxo, desde o direcionamento de público-alvo até a entrega de mensagens. Concentre-se na coordenação multicanal, eventos de reação, validação de fluxo de ponta a ponta e etapas de teste/publicação.
+Teste uma jornada que combine Ler público-alvo, eventos de reação e mensagens de email/push. Valide todo o fluxo, desde o direcionamento de público até a entrega de mensagens. Concentre-se na coordenação de vários canais, eventos de reação, validação de fluxo completa e etapas de teste/publicação.
 </p>
 </td>
 <td>
@@ -324,7 +324,7 @@ Teste uma jornada que combine Público-alvo de leitura, eventos de reação e me
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Envie uma mensagem aos assinantes</strong></a>
 </div>
 <p>
-Teste jornadas que direcionem listas de assinaturas com endereçamento de email dinâmico. Valide expressões de personalização para um direcionamento de assinantes correto. Concentre-se em expressões de personalização, endereçamento dinâmico e direcionamento de lista de assinaturas.
+Teste jornadas que direcionem listas de assinaturas com endereçamento de email dinâmico. Valide expressões de personalização para um direcionamento de assinante correto. Concentre-se em expressões de personalização, endereçamento dinâmico e direcionamento de lista de assinaturas.
 </p>
 </td>
 <td>
@@ -335,7 +335,7 @@ Teste jornadas que direcionem listas de assinaturas com endereçamento de email 
 <a href="../using/building-journeys/weekday-email-uc.md"><strong>Envie mensagens com prazo definido</strong></a>
 </div>
 <p>
-Teste jornadas com condições baseadas em tempo para garantir que as mensagens sejam enviadas em dias específicos. Valide atividades de espera e a lógica de agendamento. Concentre-se em condições baseadas em tempo, atividades de espera e validação de agendamento.
+Teste jornadas com condições baseadas em tempo para garantir que as mensagens sejam enviadas em dias específicos. Validar atividades de espera e lógica de programação. Concentre-se em condições com base no tempo, atividades de espera e validação de agendamento.
 </p>
 </td>
 </tr></table>
@@ -349,7 +349,7 @@ Teste jornadas com condições baseadas em tempo para garantir que as mensagens 
 <a href="../using/building-journeys/jo-use-cases.md"><strong>Explorar mais casos de uso de jornadas</strong></a>
 </div>
 <p>
-Acesse uma coleção abrangente de exemplos práticos que abordam eventos de experiência, mensagens multicanal e integrações de sistema externas. Explore vários cenários, padrões avançados e abordagens de teste de integração.
+Acesse uma coleção abrangente de exemplos práticos que abrangem eventos de experiência, mensagens multicanais e integrações externas do sistema. Explore vários cenários, padrões avançados e abordagens de teste de integração.
 </p>
 </td>
 </tr></table>
@@ -364,7 +364,7 @@ Familiarize-se com esses conceitos essenciais de testes para entender melhor os 
 
 **[Execução de teste](../using/building-journeys/journey-dry-run.md)** - ferramenta de análise de execução de jornada que rastreia caminhos sem enviar mensagens ou fazer chamadas de API. Caso de uso: validar a lógica sem consumir recursos. [Saiba mais sobre a execução de teste](../using/building-journeys/journey-dry-run.md)
 
-**[Dados de entrada de amostra](../using/test-approve/simulate-sample-input.md)** - Arquivos CSV ou JSON contendo valores de atributo de perfil para personalização de testes. Suporta até 30 variantes. Alternativa para a criação de perfis de teste. [Como simular variações de conteúdo](../using/test-approve/simulate-sample-input.md)
+**[Dados de entrada de exemplo](../using/test-approve/simulate-sample-input.md)** - arquivos CSV ou JSON, entrada manual ou geração automática de IA para personalização de teste. Suporta até 30 variantes. [Como simular variações de conteúdo](../using/test-approve/simulate-sample-input.md)
 
 **[Listas de seeds](../using/configuration/seed-lists.md)** - Endereços de email de partes interessadas internas incluídos automaticamente em entregas reais (não envios de teste). Somente canal de email. Caso de uso: monitoramento de qualidade e conformidade. [Configure listas de seeds](../using/configuration/seed-lists.md)
 
@@ -386,7 +386,7 @@ Familiarize-se com esses conceitos essenciais de testes para entender melhor os 
 
 >[!TAB Guias essenciais]
 
-* [Simular variações de conteúdo](../using/test-approve/simulate-sample-input.md) - Teste até 30 cenários de personalização com arquivos CSV ou JSON. Ideal para testes de conteúdo multilíngue sem precisar criar vários perfis de teste. Compatível com email, SMS, push, web, baseado em código, no aplicativo e cartões de conteúdo.
+* [Simular Variações de Conteúdo](../using/test-approve/simulate-sample-input.md) - Teste até 30 cenários de personalização usando arquivos CSV ou JSON, entrada manual ou geração automática de IA.
 
 * [Criação de perfis de teste](../using/audience/creating-test-profiles.md): crie e gerencie perfis de teste para simular cenários do cliente. Saiba como sinalizar perfis para teste, definir atributos e organizar segmentos de teste.
 
@@ -453,9 +453,9 @@ Entenda como os recursos de teste conectam-se uns com os outros e com os fluxos 
 
 ### P: Qual é a diferença entre o modo de teste e a simulação para o jornada?
 
-**Modo de teste:** envia perfis de teste por meio da jornada, aciona ações reais e gera mensagens de teste. Requer jornada de rascunho + namespace.
-**Execução de teste:** rastreia caminhos de execução sem enviar nada. Funciona em qualquer status de jornada. Nenhuma mensagem enviada, nenhuma ação executada.
-**Use em conjunto:** Modo de teste para teste de mensagem + Execução de teste para validação de lógica - cobertura abrangente.
+**Modo de teste:** Envia perfis de teste por meio de jornada, aciona ações reais e gera mensagens de teste. Requer jornada de rascunho + namespace.
+**Execução sem erros:** Rastreia caminhos de execução sem enviar nada. Funciona em qualquer status de jornada. Nenhuma mensagem enviada, nenhuma ação executada.
+**Use juntos:** Modo de teste para teste de mensagem + Dry run para validação lógica - cobertura abrangente.
 
 ### P: Posso testar jornadas no status de produção/tempo real?
 
