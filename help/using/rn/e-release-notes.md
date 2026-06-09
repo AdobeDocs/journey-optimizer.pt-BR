@@ -7,18 +7,13 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c7c4dfa34d3886f665e3051c34ea9f2093562dac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 361e8f77dc32fb9154cc5ed156822bc402934595
 workflow-type: tm+mt
-source-wordcount: 2287
-ht-degree: 6%
+source-wordcount: 2169
+ht-degree: 7%
 
 ---
 
@@ -38,23 +33,6 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 ### Fidelidade {#june-26-loyalty}
 
 O recurso a seguir está chegando ao Fidelidade nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Desafios de fidelidade</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Os desafios de fidelidade transformam iniciativas de fidelidade em <strong>experiências gamificadas</strong> envolventes que motivam os clientes a realizar ações valiosas, como fazer compras, escrever análises, participar de redes sociais ou fazer referência a amigos.</p>
-<p>Os administradores podem usar o menu Admin de fidelidade para conectar o Journey Optimizer ao seu ecossistema de fidelidade, incluindo APIs de atendimento de recompensa, definições de eventos, inventário de produtos, exclusões e configurações de identidade. Em seguida, os profissionais de marketing podem projetar desafios padrão, sequenciais ou em sequência, definir tarefas e recompensas, fornecer cartões de conteúdo e mensagens de marca e monitorar o desempenho com painéis de relatórios integrados. A Journey Optimizer gera as jornadas que organizam cada desafio em segundo plano, para que as equipes possam se concentrar na experiência do cliente e nas metas de negócios.</p>
-<p>Esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### Jornadas {#june-26-journeys}
 
