@@ -11,28 +11,13 @@ keywords: atividade, jornada, ler público, público, segmento, lote, ponto de e
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/XqBTB8kE-KCmI49eHBp63dX09vu5Zh1Dl2BDwH0BkU4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
 workflow-type: tm+mt
 source-wordcount: 3917
 ht-degree: 7%
@@ -215,7 +200,7 @@ Por padrão, as jornadas são configuradas para serem executadas uma vez. Para d
 >
 >**Status da Jornada e o tempo limite global de 91 dias:**
 >
->* **Não recorrente** jornadas de leitura de público fazem a transição automática para o status **Parado** quando o último perfil ativo sai, a menos que a jornada inclua nós que causem períodos de espera (nós de espera, nós de reação ou transições acionadas por eventos); nesse caso, o tempo limite global padrão de 91 dias se aplica. [Saiba mais](end-journey.md#auto-stop-non-recurring)
+>* **Não recorrente** jornadas de leitura de público fazem a transição automática para o status **Parado** quando o último perfil ativo sai, a menos que a jornada inclua nós que causem períodos de espera (nós de espera, nós de reação ou transições acionadas por eventos); nesse caso, o [tempo limite global de 91 dias](journey-properties.md#global_timeout) padrão se aplica. [Saiba mais](end-journey.md#auto-stop-non-recurring)
 >* **jornadas de leitura de público-alvo** recorrentes **permanecem online** enquanto a jornada for publicada. Eles são movidos para o status **Concluído** 91 dias após a execução de sua **última ocorrência**.
 >* O tempo limite de 91 dias se aplica a **perfis** individuais que fluem pela jornada (tempo máximo que um perfil pode permanecer ativo), não ao status Live da jornada.
 >* A **janela de relatórios** de 91 dias é um conceito separado: a interface do usuário mostra dados de desempenho referentes aproximadamente aos últimos 91 dias. Os dados mais antigos não estão acessíveis na interface do usuário, mas a jornada continua a ser executada. [Saiba mais](journey-properties.md#global_timeout)
@@ -436,4 +421,4 @@ Para obter a lista completa das medidas de proteção de Leitura de público (in
 
 Entenda os casos de uso aplicáveis para uma jornada acionada pela atividade de leitura de público-alvo. Saiba como criar jornadas baseadas em lote e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430363?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
