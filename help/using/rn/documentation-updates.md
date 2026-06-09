@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 199f9b1a152ab9bd0c2a31145c03666bcf698123
+source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
 workflow-type: tm+mt
-source-wordcount: 8367
-ht-degree: 86%
+source-wordcount: 8429
+ht-degree: 85%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 86%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Junho de 2026 {#june-2026}
+
+* A página **Introdução à entregabilidade** foi atualizada com uma nova subseção **Provedores sem FBL** por destinatário. Ele lista os principais provedores de caixa de correio que não retornam reclamações de spam por recipient — Gmail/Google Workspace, Apple iCloud e Corporate Microsoft 365/Exchange Online — e explica por que a ausência de uma entrada de lista de supressão é esperada para destinatários que usam esses serviços. [Leia mais](../reports/deliverability.md#providers-no-fbl)
 
 * **O Experience Decisioning agora está disponível para o canal de correspondência direta.** Uma nova página **Decisão em lote na correspondência direta** descreve como usar o mecanismo de decisão para personalizar arquivos de extração de correspondência direta ou exportar perfis e seus resultados de decisão para uso em sistemas downstream. A **correspondência direta** foi adicionada como um canal com suporte na documentação do Decisioning (Introdução, Criação de uma política de decisão, Uso de políticas de decisão em mensagens, Introdução a políticas de decisão), incluindo a capacidade de retornar vários itens de decisão por perfil por meio do campo **[!UICONTROL Número de itens]**. [Leia mais](../experience-decisioning/batch-decisioning-direct-mail.md)
 
