@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 798
+source-wordcount: 800
 ht-degree: 82%
 
 ---
@@ -96,6 +96,7 @@ O campo **[!UICONTROL Tags]** permite definir tags para o seu objeto. Tags estã
 * [Campanhas](../campaigns/create-campaign.md)
 * [Itens de decisão](../experience-decisioning/items.md)
 * [Fragmentos](../content-management/fragments.md)
+* [Jornada fragmentos](../building-journeys/journey-fragments.md)
 * [Jornadas](../building-journeys/journey-properties.md)
 * [Páginas de destino](../landing-pages/create-lp.md)
 * [Listas de assinaturas](../landing-pages/subscription-list.md)

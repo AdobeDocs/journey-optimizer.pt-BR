@@ -26,10 +26,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 100%
+source-wordcount: 349
+ht-degree: 97%
 
 ---
 
@@ -77,5 +77,6 @@ A tabela a seguir descreve quais ações de recursos do Journey Optimizer são r
 | Ação personalizada da jornada | Criar / Excluir / Atualizar |
 | Fonte de dados da jornada | Criar / Excluir / Atualizar |
 | Evento da jornada | Criar / Excluir / Atualizar |
+| Jornada fragmento | Criar / Excluir / Atualizar / Ativar / Arquivar |
 | Regra de frequência de mensagens | Criar / Excluir / Atualizar |
 | Estratégia de classificação | Criar / Excluir / Atualizar |

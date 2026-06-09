@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 943
-ht-degree: 49%
+source-wordcount: 979
+ht-degree: 47%
 
 ---
 
@@ -106,6 +106,16 @@ Crie **ações personalizadas** se estiver usando um sistema de terceiros para e
 Com o **Designer de jornadas**, crie seus casos de uso de várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
 
 [Explorar o designer de jornada](using-the-journey-designer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+
+**Fragmentos de Jornada reutilizáveis**
+
+Crie um conjunto de nós de jornada uma vez — como uma verificação de qualificação ou lógica de roteamento de canal — e reutilize-os em jornadas com **Fragmentos de Jornada**.
+
+[Saiba mais sobre os fragmentos de Jornada](journey-fragments.md)
 :::
 
 :::

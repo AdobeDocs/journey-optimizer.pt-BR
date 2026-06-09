@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 21%
+source-wordcount: 382
+ht-degree: 19%
 
 ---
 
@@ -43,6 +43,13 @@ ht-degree: 21%
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Criar fragmentos"
 
 Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails em [!DNL Journey Optimizer] campanhas e jornadas. Essa funcionalidade permite pré-criar vários blocos de conteúdo personalizados que podem ser usados por usuários de marketing para reunir rapidamente o conteúdo de email em um processo de design aprimorado.
+
+>[!NOTE]
+>
+>Os **[!UICONTROL Fragmentos]** descritos nesta página são componentes de **conteúdo** reutilizáveis. Eles são diferentes de:
+>
+>* **[Fragmentos de Jornada](../building-journeys/journey-fragments.md)** — conjuntos reutilizáveis de nós de jornada inseridos em jornadas.
+>* **[Fragmentos de conteúdo do AEM](../integrations/aem-fragments.md)** — conteúdo criado no Adobe Experience Manager e usado em [!DNL Journey Optimizer].
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
