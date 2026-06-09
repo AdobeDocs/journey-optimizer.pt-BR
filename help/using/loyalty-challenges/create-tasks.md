@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
 workflow-type: tm+mt
-source-wordcount: 1130
-ht-degree: 12%
+source-wordcount: 1178
+ht-degree: 6%
 
 ---
 
@@ -140,29 +140,39 @@ Atributos disponíveis para atividades de **[!UICONTROL Evento personalizado]**:
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="Itens elegíveis e exclusões"
->abstract="Para as atividades de **Compra** e **Gasto**, é possível usar o atributo **[!UICONTROL Itens elegíveis e exclusões]** para definir quais itens e grupos estão qualificados e quais foram excluídos. Isso permite direcionar produtos, categorias ou locais específicos para alinhar às metas do desafio. Por exemplo, é possível limitar uma tarefa de gastos a categorias de produtos específicas ou excluir vales-presente ou itens promocionais da contagem até a conclusão da tarefa."
+>abstract="Para as atividades de **Compra** e **Gasto**, use o atributo **[!UICONTROL Itens qualificados e exclusões]** para selecionar quais itens e grupos contam para a conclusão da tarefa e quais são excluídos. Procure itens ou grupos no inventário de produtos configurado por administradores e, em seguida, inclua ou exclua-os conforme necessário."
 
-<!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
+<!-- SCREENSHOT: Eligible items & exclusions picker showing the item and group table with Include and Exclude actions -->
 
-Para atividades de **Compra** e **Gasto**, é possível usar o atributo **[!UICONTROL Itens qualificados e exclusões]** para definir quais itens e grupos estão qualificados e quais foram excluídos. Isso permite direcionar produtos, categorias ou locais específicos para alinhar às metas do desafio. Grupos de produtos e grupos de exclusão carregados no menu **[!UICONTROL Admin. de fidelidade]** estão disponíveis quando você configura este atributo. [Saiba como configurar o inventário e as exclusões de produtos](loyalty-admin.md#product-inventory)
+Para atividades de **Compra** e **Gasto**, é possível usar a seção **[!UICONTROL Itens qualificados e exclusões]** para definir quais itens e grupos estão qualificados e quais foram excluídos. Isso permite direcionar produtos, categorias ou locais específicos para alinhar às metas do desafio.
+
+Os itens e grupos disponíveis no seletor são definidos por usuários administradores no menu **[!UICONTROL Administrador de fidelidade]**. Os administradores carregam o inventário de produtos usado para itens elegíveis e configuram exclusões em toda a organização que são aplicadas automaticamente quando os profissionais de marketing criam tarefas. [Saiba como configurar o inventário de produtos](loyalty-admin.md#product-inventory) e [exclusões](loyalty-admin.md#exclusions)
 
 As tarefas **[!UICONTROL Evento personalizado]** não usam itens e exclusões qualificados; a conclusão é orientada pelos **[!UICONTROL Valores de evento personalizado]** que você configurar.
 
 Por exemplo, é possível limitar uma tarefa a categorias de produto específicas ou excluir cartões-presente ou itens promocionais da contagem até a conclusão da tarefa.
 
-![](assets/tasks-create-eligible.png)
+![](assets/task-create-eligible.png)
 
 ### Definir itens qualificados para a tarefa
 
-Para definir itens qualificados, insira IDs de item específicas, categorias ou IDs de destino, separadas por vírgulas no campo **[!UICONTROL As compras de tarefas qualificadas são limitadas ao seguinte]**. Se deixar esse campo vazio, todas as compras serão qualificadas por padrão. Você também pode inserir `*` para qualificar explicitamente todas as compras.
+Para definir itens qualificados, selecione **[!UICONTROL Adicionar]** na seção **[!UICONTROL Itens qualificados e exclusões]**.
 
-Exemplo: `SKU001, SKU002, CategoryA`
+No seletor, selecione os itens ou grupos que devem contar para a conclusão da tarefa e selecione **[!UICONTROL Incluir]**. Os itens e grupos incluídos são adicionados à lista elegível.
+
+![](assets/task-create-eligible-add.png)
+
+Se nenhum item ou grupo elegível for selecionado, as compras não estarão limitadas a um conjunto de inventário específico, a menos que as exclusões estejam configuradas.
 
 ### Excluir itens da tarefa
 
-Para excluir itens da tarefa, insira IDs de item específicas, categorias ou IDs de destino no **[!UICONTROL Os itens a seguir são excluídos do campo desta tarefa]**.
+Para excluir itens da tarefa, selecione **[!UICONTROL Adicionar]** na seção **[!UICONTROL Itens qualificados e exclusões]**.
 
-Exemplo: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+Selecione os itens ou grupos que não devem ser incluídos na conclusão da tarefa e selecione **[!UICONTROL Excluir]**.
+
+![](assets/task-create-exclusion-add.png)
+
+Os itens da lista de exclusões globais são adicionados automaticamente como exclusões. As exclusões têm prioridade sobre as inclusões: os itens listados como excluídos não contam, mesmo se também fizerem parte de um grupo incluído.
 
 ### Traga seus próprios dados para elegibilidade e exclusões {#byod-personalization}
 
@@ -170,7 +180,7 @@ Exemplo: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
 >
 >A opção **[!UICONTROL Trazer seus próprios dados]** está disponível atualmente para um conjunto restrito de organizações e será disponibilizada de forma mais ampla em uma versão futura.
 
-Além de inserir IDs de item para torná-las qualificadas ou excluídas, você também pode direcionar a qualificação de seus dados externos de Desafios de Fidelidade no tempo de execução usando a opção **[!UICONTROL Trazer seus próprios dados]**.
+Além de selecionar itens e grupos no Journey Optimizer, você também pode impulsionar a qualificação de seus dados externos de Desafios de Fidelidade em tempo de execução usando a opção **[!UICONTROL Trazer seus próprios dados]**.
 
 Quando **[!UICONTROL Trazer seus próprios dados]** é selecionado, a qualificação por participante é resolvida no tempo de execução a partir dos dados sincronizados com seu ambiente de Desafios de Fidelidade, em vez de uma lista de IDs de item.
 
