@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1450
-ht-degree: 4%
+source-wordcount: 1395
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="Usar identificador complementar"
->abstract="O identificador complementar é um identificador secundário que fornece contexto adicional para a execução de uma jornada. Para defini-lo, selecione o campo a ser usado como o identificador complementar e escolha um namespace para associar a ele."
+>abstract="O identificador complementar é um identificador secundário que fornece contexto adicional para a execução de uma jornada. Consiste no campo usado como o identificador complementar e um namespace associado a ele."
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>

@@ -29,10 +29,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 2585
-ht-degree: 5%
+source-wordcount: 2581
+ht-degree: 4%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
 >title="Pausar sua jornada"
->abstract="Pause uma jornada em tempo real para impedir a entrada de novos perfis. Escolha se deseja descartar os perfis que estão atualmente na jornada ou mantê-los no lugar. Se retidos, eles retomarão a execução na próxima atividade de ação depois que a jornada for reiniciada. Perfeito para atualizações ou interrupções de emergência sem perder o progresso."
+>abstract="Pausar uma jornada em tempo real impede que novos perfis entrem. Os perfis que estão atualmente na jornada podem ser descartados ou mantidos no lugar. Se retidos, eles retomarão a execução na próxima atividade de ação depois que a jornada for reiniciada. Perfeito para atualizações ou interrupções de emergência sem perder o progresso."
 
 Você pode pausar suas jornadas ativas, executar todas as alterações necessárias e retomá-las a qualquer momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante a pausa, você pode [aplicar os critérios de saída do atributo de perfil](#journey-exit-criteria) para excluir perfis com base em seus atributos. A jornada é retomada automaticamente no final do período de pausa. Você também pode [retomá-lo manualmente](#journey-resume-steps).
 
@@ -120,7 +120,7 @@ Saiba como solucionar problemas de descartes em [esta seção](#discards-trouble
 >[!CONTEXTUALHELP]
 >id="ajo_journey_resume"
 >title="Retomar sua jornada"
->abstract="Retome uma jornada pausada para permitir que novos perfis entrem novamente. Se os perfis estavam aguardando durante a pausa, eles continuarão sua jornada. Ideal para reiniciar as jornadas com segurança após atualizações ou pausas."
+>abstract="Retomar uma jornada pausada permite que novos perfis sejam inseridos novamente. Se os perfis estavam aguardando durante a pausa, eles continuarão sua jornada. Ideal para reiniciar as jornadas com segurança após atualizações ou pausas."
 
 As jornadas pausadas são retomadas automaticamente no final do período máximo de pausa de 14 dias. Eles podem ser retomados manualmente a qualquer momento. Retomar uma jornada pausada permite que novos perfis sejam inseridos novamente. Se os perfis estavam aguardando durante a pausa, eles continuarão sua jornada. Ideal para reiniciar as jornadas com segurança após atualizações ou pausas.
 

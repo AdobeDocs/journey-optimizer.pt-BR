@@ -24,10 +24,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 53%
+source-wordcount: 736
+ht-degree: 51%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
 >title="Sobre o editor de expressão avançado"
->abstract="Use o editor de expressão avançado para criar expressões avançadas em várias telas da interface. Por exemplo, você pode criar expressões ao configurar e usar jornadas e ao definir uma condição de fonte de dados."
+>abstract="O editor de expressão avançado cria expressões avançadas em várias telas da interface. Por exemplo, você pode criar expressões ao configurar e usar jornadas e ao definir uma condição de fonte de dados."
 
 Use o editor de expressão avançado do Jornada para criar expressões avançadas em várias telas da interface. Por exemplo, você pode criar expressões ao configurar e usar jornadas e ao definir uma condição de fonte de dados.
 

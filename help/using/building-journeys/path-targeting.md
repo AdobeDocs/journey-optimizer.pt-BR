@@ -12,10 +12,10 @@ exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="Disponibilidade limitada" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 812
-ht-degree: 7%
+source-wordcount: 811
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="O que é um caminho substituto?"
->abstract="Os caminhos substitutos permitem que o público-alvo entre em um caminho alternativo quando nenhuma regra de direcionamento for qualificada. </br>Se não selecionar essa opção, qualquer público-alvo que não se qualifique para uma regra de direcionamento não entrará no caminho de substituição e sairá da jornada."
+>abstract="Os caminhos substitutos permitem que o público-alvo entre em um caminho alternativo quando nenhuma regra de direcionamento for qualificada. </br>Se esta opção não estiver selecionada, qualquer público-alvo que não se qualifique para uma regra de direcionamento não entrará no caminho de fallback e sairá da jornada."
 
 >[!AVAILABILITY]
 >

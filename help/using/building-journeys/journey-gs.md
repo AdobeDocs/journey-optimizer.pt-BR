@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1455
-ht-degree: 13%
+source-wordcount: 1451
+ht-degree: 12%
 
 ---
 
@@ -42,12 +42,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="Criar jornadas"
->abstract="Use o **[!DNL Adobe Journey Optimizer]** para criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados."
+>abstract="**[!DNL Adobe Journey Optimizer]** cria casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Jornadas"
->abstract="Crie jornadas do cliente para fornecer experiências personalizadas e contextuais. O Journey Optimizer permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. A guia **Visão geral** exibe um painel com as métricas principais relacionadas às suas jornadas. A guia **Procurar** exibe a lista de jornadas existentes."
+>abstract="As jornadas do cliente fornecem experiências personalizadas e contextuais. O Journey Optimizer permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. A guia **Visão geral** exibe um painel com as métricas principais relacionadas às suas jornadas. A guia **Procurar** exibe a lista de jornadas existentes."
 
 [!DNL Adobe Journey Optimizer] inclui uma tela de orquestração omnicanal que permite aos profissionais de marketing harmonizar o alcance de marketing com o envolvimento individual do cliente. A interface de usuário do permite arrastar e soltar facilmente as atividades da paleta na tela para criar sua jornada. A interface do usuário do jornada está detalhada em [esta página](journey-ui.md).
 

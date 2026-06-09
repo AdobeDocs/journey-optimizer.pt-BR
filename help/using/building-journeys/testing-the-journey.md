@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 2307
-ht-degree: 8%
+source-wordcount: 2308
+ht-degree: 6%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="Teste a jornada"
->abstract="Use perfis de teste para testar a jornada antes de publicá-la. Isso permite analisar como as pessoas fluem na jornada e solucionam problemas antes da publicação."
+>abstract="Perfis de teste permitem testar a jornada antes de publicá-la. Isso permite analisar como as pessoas fluem na jornada e solucionam problemas antes da publicação."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Teste de simulação de jornada"
 
 Depois de criar a jornada, você pode testá-la antes de publicar. O [!DNL Adobe Journey Optimizer] oferece o &quot;Modo de teste&quot; como uma maneira de exibir perfis de teste conforme eles se movem ao longo da jornada, detectando possíveis erros antes da ativação. A execução de testes rápidos permite verificar se as jornadas funcionam corretamente para que você possa publicá-las com confiança.
@@ -148,7 +148,7 @@ Para validar a jornada de ponta a ponta:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="Configurar o modo de teste"
->abstract="Se a jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento."
+>abstract="Se uma jornada contiver vários eventos, a lista suspensa será usada para selecionar um evento. Para cada evento, os campos transmitidos e a execução do envio do evento são configurados."
 
 Use o botão **[!UICONTROL Acionar um evento]** para configurar um evento que fará com que uma pessoa entre na jornada.
 

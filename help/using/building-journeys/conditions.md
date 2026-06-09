@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1941
-ht-degree: 16%
+source-wordcount: 1939
+ht-degree: 14%
 
 ---
 
@@ -76,7 +76,7 @@ Para adicionar uma condição à jornada, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple2"
 >title="Sobre o editor de expressão simples"
->abstract="O modo editor de expressão simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os elementos diferentes, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível."
+>abstract="O modo editor de expressão simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Os campos são arrastados e soltos na zona principal. Para combinar os diferentes elementos, eles são interbloqueados um no outro para criar grupos e/ou níveis de grupo diferentes. Um operador lógico combina elementos no mesmo nível."
 
 Ao usar várias condições em uma jornada, você pode definir rótulos para cada uma delas para identificá-las mais facilmente.
 

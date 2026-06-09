@@ -28,10 +28,10 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1633
-ht-degree: 9%
+source-wordcount: 1624
+ht-degree: 6%
 
 ---
 
@@ -45,12 +45,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="Ativar otimização da hora de envio"
->abstract="Escolha se deseja otimizar nas aberturas de email ou em click-throughs de email selecionando o botão de opção apropriado. Você também pode optar por agrupar as horas de envio usadas pelo sistema inserindo um valor para Enviar na próxima opção."
+>abstract="Um botão de opção determina se deseja otimizar as aberturas de email ou click-throughs de email. Os tempos de envio usados pelo sistema também podem ser delimitados com um valor para a opção Enviar na próxima."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="Ativar otimização da hora de envio"
->abstract="O padrão das mensagens por push é a opção de abertura, pois cliques não são aplicáveis para mensagens por push. Você também pode optar por agrupar as horas de envio usadas pelo sistema inserindo um valor para Enviar na próxima opção."
+>abstract="O padrão das mensagens por push é a opção de abertura, pois cliques não são aplicáveis para mensagens por push. Os tempos de envio usados pelo sistema também podem ser delimitados com um valor para a opção Enviar na próxima."
 
 O recurso de Otimização de hora de envio do [!DNL Adobe Journey Optimizer], viabilizado pelos serviços de IA de Jornada da Adobe, escolhe o tempo de envio ideal para mensagens de email e push para maximizar a participação do cliente, com base no histórico do comportamento de abertura e de cliques dos clientes.
 

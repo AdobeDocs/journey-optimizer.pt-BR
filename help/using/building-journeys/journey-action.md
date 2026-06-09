@@ -31,10 +31,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1736
-ht-degree: 14%
+source-wordcount: 1734
+ht-degree: 13%
 
 ---
 
@@ -280,7 +280,7 @@ Para mensagens no aplicativo, você pode usar o botão **[!UICONTROL Editar acio
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="Adicionar várias ações de entrada"
->abstract="É possível selecionar várias ações de entrada em uma única jornada. Este recurso permite entregar várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da web para locais diferentes ao mesmo tempo, cada ação com um conteúdo específico."
+>abstract="Uma única jornada pode incluir várias ações de entrada. Este recurso permite entregar várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da web para locais diferentes ao mesmo tempo, cada ação com um conteúdo específico."
 
 Para simplificar a orquestração de jornadas, é possível definir várias ações de entrada em uma única ação de jornada.
 

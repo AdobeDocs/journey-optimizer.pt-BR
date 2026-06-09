@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1082
-ht-degree: 16%
+source-wordcount: 1080
+ht-degree: 15%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="Publicar uma jornada no modo de teste de simulação"
->abstract="O teste de simulação da jornada é um modo de publicação especial no [!DNL Adobe Journey Optimizer] que permite que profissionais testem uma jornada usando dados de produção reais. Depois de projetar a jornada, execute um teste para confirmar sua funcionalidade e garantir que as etapas estejam corretas. Esse modo de publicação permite realizar um teste preliminar da jornada sem enviar comunicações para qualquer perfil."
+>abstract="O teste de simulação da jornada é um modo de publicação especial no [!DNL Adobe Journey Optimizer] que permite que profissionais testem uma jornada usando dados de produção reais. Depois que uma jornada é projetada, uma simulação confirma que ela está funcional e garante que as etapas estejam corretas. Esse modo de publicação permite realizar um teste preliminar da jornada sem enviar comunicações para qualquer perfil."
 
 O teste de simulação da jornada é um modo de publicação especial no [!DNL Adobe Journey Optimizer] que permite que profissionais testem uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil.  Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.
 

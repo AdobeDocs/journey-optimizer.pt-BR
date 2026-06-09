@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 1767
-ht-degree: 11%
+source-wordcount: 1825
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Qualificação de público-alvo"
->abstract="Acione a entrada ou a continuação da jornada quando um perfil se qualificar para um público-alvo de [!DNL Adobe Experience Platform] ou sair dele. Recomendado para públicos-alvo de transmissão. Use uma atividade Ler público-alvo para cenários em lote."
+>abstract="Aciona a entrada ou a continuação da jornada quando um perfil é qualificado para ou sai de um público-alvo de [!DNL Adobe Experience Platform]. Recomendado para públicos-alvo de transmissão; uma atividade Read Audience é usada para cenários em lote."
 
 ## Sobre eventos de qualificação de público-alvo{#about-segment-qualification}
 
@@ -64,22 +64,22 @@ Para configurar a atividade **[!UICONTROL Qualificação de público-alvo]**, si
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="Rótulo"
->abstract="Adicione um rótulo opcional para identificar a atividade nos relatórios e logs do modo de teste."
+>abstract="Um rótulo opcional para identificar essa atividade nos relatórios e logs do modo de teste."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="Público-alvo"
->abstract="Selecione o público-alvo [!DNL Adobe Experience Platform] para aproveitar. A jornada escuta as entradas e saídas do perfil desse público-alvo."
+>abstract="O público-alvo [!DNL Adobe Experience Platform] que o jornada monitora. Os perfis entram ou avançam à medida que se qualificam para ou saem deste público-alvo. Os públicos-alvo de transmissão são recomendados para que a qualificação seja avaliada em tempo real."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="Comportamento"
->abstract="Escolha se deseja ouvir as entradas, as saídas ou ambas do público-alvo."
+>abstract="Define a qual associação de público a jornada reage: quando os perfis se qualificam para (inserir) o público, quando saem (sair) dele ou ambos. A escuta de ambos abrange o ciclo de vida completo da associação, enquanto uma única opção restringe a jornada a uma direção."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="Tipo de identidade"
->abstract="Selecione o tipo de identidade usado para identificar indivíduos. Somente namespaces de identidade com base em pessoas estão disponíveis."
+>abstract="O namespace de identidade usado para reconhecer indivíduos à medida que se qualificam para o público-alvo. Somente namespaces de identidade com base em pessoas estão disponíveis, e perfis sem essa identidade não podem entrar na jornada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"

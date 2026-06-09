@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 3767
-ht-degree: 9%
+source-wordcount: 3891
+ht-degree: 7%
 
 ---
 
@@ -48,7 +48,7 @@ Use a atividade Ler público-alvo para iniciar jornadas com públicos-alvo defin
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Atividade Ler público-alvo"
->abstract="Adicione todos os perfis qualificados de um público-alvo [!DNL Adobe Experience Platform] selecionado a esta jornada. Execute uma vez ou em um agendamento."
+>abstract="Adiciona todos os perfis qualificados de um público-alvo [!DNL Adobe Experience Platform] selecionado a esta jornada. É executado uma vez ou de acordo com um agendamento."
 
 A atividade **Ler Público** é a atividade de ponto de entrada de jornada que adiciona todos os perfis de um público-alvo [!DNL Adobe Experience Platform] selecionado a uma jornada. Você pode executar a entrada uma vez ou de acordo com uma programação recorrente. Nas APIs e referências técnicas, essa atividade também é chamada de acionador de segmento ou entrada de jornada baseada no público-alvo.
 
@@ -94,12 +94,12 @@ Você definirá: **Público** (obrigatório), **Namespace** (obrigatório), **Ta
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Público-alvo"
->abstract="Selecione o público-alvo [!DNL Adobe Experience Platform] cujos perfis devem entrar nesta jornada."
+>abstract="O público-alvo [!DNL Adobe Experience Platform] cujos perfis entram nesta jornada. Todos os perfis qualificados são lidos em. Os públicos-alvo em lote são recomendados para contagens confiáveis e consistentes, e somente um público-alvo pode ser lido por atividade."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="Namespace"
->abstract="Escolha qual identidade (por exemplo, email, ECID) é usada para identificar quem entra na jornada. Por padrão, o campo é pré-preenchido com o último namespace usado."
+>abstract="A identidade (por exemplo, email, ECID) usada para identificar indivíduos que entram na jornada. Somente namespaces com base em pessoas estão disponíveis, e perfis sem essa identidade não podem entrar. Por padrão, o campo é pré-preenchido com o último namespace usado."
 
 1. Expanda a categoria **[!UICONTROL Orquestração]** e solte uma atividade **[!UICONTROL Ler público]** na tela.
 
@@ -177,17 +177,17 @@ Esse valor é armazenado na carga da versão do jornada. O valor padrão é de 5
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="Data/hora inicial"
->abstract="Defina quando iniciar essa jornada."
+>abstract="A data e a hora em que a jornada começa a ler o público-alvo e em que os perfis começam a entrar. Combine-o com as opções de recorrência abaixo para agendar execuções recorrentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Repetir até"
->abstract="Defina a data final para execuções recorrentes."
+>abstract="A data em que as execuções recorrentes param. Após essa data, a jornada não lê mais o público ou admite novos perfis."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Repetir a cada"
->abstract="A frequência com que a jornada é executada (por exemplo, diariamente, semanalmente)."
+>abstract="Com que frequência a jornada releva o público-alvo e é executada novamente, por exemplo, diariamente ou semanalmente. Determina o intervalo de recorrência entre execuções até que a data Repetir até seja alcançada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -197,12 +197,12 @@ Esse valor é armazenado na carga da versão do jornada. O valor padrão é de 5
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Forçar reentrada"
->abstract="Limpe todos os participantes da jornada antes de ler cada novo público-alvo."
+>abstract="Apaga todos os participantes da jornada antes que cada novo público seja lido, para que cada execução comece de novo e os perfis possam ser inseridos novamente em cada ocorrência."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Acionar após a avaliação do público-alvo em lote"
->abstract="Execute a jornada somente após ter avaliado o público-alvo em lote recentemente."
+>abstract="Atrasa cada execução até que o público-alvo do lote tenha sido avaliado recentemente, para que a jornada leia o instantâneo do público-alvo mais atualizado em vez dos dados obsoletos. Recomendado para jornadas recorrentes que dependem dos resultados de segmentação mais recentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -275,7 +275,7 @@ Por exemplo, se uma jornada estiver programada para 18h por dia, você poderá e
 [!CONTEXTUALHELP]
 >id="jo_segment_filters"
 >title="About segment filters"
->abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+>abstract="This option targets only the individuals who entered or exited a specific segment during a specific time window. For example, it can retrieve only the customers who entered the VIP segment since last week."
 
 You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
 
