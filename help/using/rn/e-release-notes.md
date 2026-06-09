@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 00a8edd899673e2c2cf738df8a28dd53e085b680
+source-git-commit: c7c4dfa34d3886f665e3051c34ea9f2093562dac
 workflow-type: tm+mt
-source-wordcount: 2274
+source-wordcount: 2287
 ht-degree: 6%
 
 ---
@@ -48,7 +48,7 @@ O recurso a seguir está chegando ao Fidelidade nesta versão.
 <tbody>
 <tr>
 <td>
-<p>Os desafios de fidelidade transformam iniciativas de fidelidade em experiências envolventes e gamificadas que motivam os clientes a realizar ações valiosas, como fazer compras, escrever comentários, participar de redes sociais ou fazer referência a amigos.</p>
+<p>Os desafios de fidelidade transformam iniciativas de fidelidade em <strong>experiências gamificadas</strong> envolventes que motivam os clientes a realizar ações valiosas, como fazer compras, escrever análises, participar de redes sociais ou fazer referência a amigos.</p>
 <p>Os administradores podem usar o menu Admin de fidelidade para conectar o Journey Optimizer ao seu ecossistema de fidelidade, incluindo APIs de atendimento de recompensa, definições de eventos, inventário de produtos, exclusões e configurações de identidade. Em seguida, os profissionais de marketing podem projetar desafios padrão, sequenciais ou em sequência, definir tarefas e recompensas, fornecer cartões de conteúdo e mensagens de marca e monitorar o desempenho com painéis de relatórios integrados. A Journey Optimizer gera as jornadas que organizam cada desafio em segundo plano, para que as equipes possam se concentrar na experiência do cliente e nas metas de negócios.</p>
 <p>Esse recurso agora está disponível para todos os ambientes (Disponibilidade geral).</p>
 </td>
@@ -69,7 +69,7 @@ Os seguintes recursos e melhorias estão chegando às jornadas nesta versão.
 <tbody>
 <tr>
 <td>
-<p>Use o novo nó Otimize para direcionar públicos-alvo específicos a fim de determinar o melhor caminho para atender aos KPIs centrados nos negócios.</p>
+<p>Use o novo <strong>nó de Otimização</strong> para direcionar públicos-alvo específicos a fim de determinar o melhor caminho para atender aos KPIs centrados nos negócios.</p>
 <p>Essa ferramenta permite desenvolver campanhas de marketing mais eficazes, com maior probabilidade de repercutir no nível 1:1, melhorar os esforços de personalização de marketing para os clientes e aprimorar KPIs essenciais de engajamento do cliente, como conversões e receita.</p>
 <p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 </td>
@@ -86,20 +86,20 @@ Os seguintes recursos e melhorias estão chegando às jornadas nesta versão.
 <tbody>
 <tr>
 <td>
-<p>Agora você pode usar fórmulas para aumentar automaticamente as pontuações de prioridade da jornada com base nos atributos do perfil do cliente e fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
+<p>Agora você pode usar <strong>fórmulas</strong> para aumentar automaticamente as <strong>pontuações de prioridade de jornada</strong> com base nos atributos do perfil do cliente e em fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
 <p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Limite de jornadas ativas aumentado e novas medidas de proteção** - Agora você pode ter até 200 jornadas ativas, aumentado em relação ao limite anterior de 100.
+* **Limite de jornadas ao vivo aumentado e novas medidas de proteção** - Agora você pode ter até **200 jornadas ativas**, maior que o limite anterior de 100.
 
-* **Datas de início e término no cabeçalho da jornada** - Quando as datas de início e/ou término são configuradas em uma jornada em tempo real, elas agora são exibidas no cabeçalho da jornada ao lado da notificação de status em tempo real. O rótulo exibido se adapta com base no fato de cada data ser futura ou já ter passado.
+* **Datas de início e término no cabeçalho da jornada** - Quando as datas de início e/ou término são configuradas em uma jornada em tempo real, elas agora são exibidas no **cabeçalho da jornada** ao lado da notificação de status em tempo real. O rótulo exibido se adapta com base no fato de cada data ser futura ou já ter passado.
 
-* **Parar ou fechar uma jornada pausada diretamente** - Agora é possível parar uma jornada ou fechá-la em novas entradas diretamente do estado Pausado. Anteriormente, uma jornada pausada tinha que ser retomada para Ativa antes de ser interrompida ou fechada.
+* **Parar ou fechar uma jornada pausada diretamente** - Agora você pode **parar uma jornada ou fechá-la em novas entradas** diretamente do estado **Pausado**. Anteriormente, uma jornada pausada tinha que ser retomada para Ativa antes de ser interrompida ou fechada.
 
-* **Suporte a ID complementar no jornada para públicos externos** - Os identificadores complementares no jornada agora têm suporte para públicos externos, incluindo públicos importados de um arquivo CSV e públicos criados com a Composição de Público Federado. Você pode designar qualquer atributo que não seja de identidade ou atributo de identidade que não seja de pessoa do público-alvo como a ID complementar; nenhum rótulo de esquema é necessário.
+* **Suporte a ID complementar no jornada para públicos externos** - **Os identificadores complementares** no jornada agora têm suporte para **públicos externos**, incluindo públicos importados de um arquivo CSV e públicos criados com a Composição de Público Federado. Você pode designar qualquer atributo que não seja de identidade ou atributo de identidade que não seja de pessoa do público-alvo como a ID complementar; nenhum rótulo de esquema é necessário.
 
 ### Campanhas orquestradas {#june-26-oc}
 
@@ -114,7 +114,7 @@ Os seguintes recursos e melhorias estão chegando às campanhas orquestradas nes
 <tbody>
 <tr>
 <td>
-<p>As campanhas orquestradas agora permitem o carregamento de um arquivo CSV ou TXT diretamente na tela da campanha como público alvo, sem primeiro assimilar o arquivo na Adobe Experience Platform. Os dados do arquivo são consumidos no tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform. Durante a configuração do arquivo, você pode definir mapeamentos de coluna, tipos de dados, tratamento NULL e políticas de erro por coluna. Isso oferece suporte a envios ad hoc ou campanhas de lista de parceiros em que a criação de um pipeline de assimilação completo não é prática.</p>
+<p>As campanhas orquestradas agora permitem carregar um <strong>arquivo CSV ou TXT</strong> diretamente na tela da campanha como público alvo, sem primeiro assimilar o arquivo na Adobe Experience Platform. Os dados do arquivo são consumidos no tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform. Durante a configuração do arquivo, você pode definir mapeamentos de coluna, tipos de dados, tratamento NULL e políticas de erro por coluna. Isso oferece suporte a envios ad hoc ou campanhas de lista de parceiros em que a criação de um pipeline de assimilação completo não é prática.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 </td>
 </tr>
@@ -130,19 +130,19 @@ Os seguintes recursos e melhorias estão chegando às campanhas orquestradas nes
 <tbody>
 <tr>
 <td>
-<p>Agora você pode aplicar horas de silêncio a campanhas orquestradas. As horas de silêncio permitem definir exclusões com base no tempo para evitar que as mensagens sejam enviadas durante períodos específicos, ajudando você a respeitar as preferências do cliente e os requisitos de conformidade em casos de uso de orquestração de campanha.</p>
+<p>Agora você pode aplicar <strong>horas de silêncio</strong> a campanhas orquestradas. As horas de silêncio permitem definir <strong>exclusões com base no tempo</strong> para evitar que as mensagens sejam enviadas durante períodos específicos, ajudando você a respeitar as preferências do cliente e os requisitos de conformidade em casos de uso de orquestração de campanha.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Personalização baseada em loop para dados relacionais em campanhas orquestradas** - O editor de personalização agora oferece suporte a um Bloco de loop que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de gravação de expressão.
+* **Personalização baseada em loop para dados relacionais em campanhas orquestradas** - O editor de personalização agora oferece suporte a um **Bloco de loop** que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de gravação de expressão.
 
-* **Personalizar detalhes do remetente de email por destinatário e campanha** - As campanhas orquestradas agora oferecem suporte à personalização de campos de cabeçalho de email, incluindo Nome do remetente, Endereço do remetente e Responder para, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o supervisor, o local ou a ramificação relevante para cada destinatário, em vez de rotear todos os envios por meio de um único endereço corporativo. Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso.
+* **Personalizar detalhes do remetente de email por destinatário e campanha** - As campanhas orquestradas agora oferecem suporte à personalização de **campos de cabeçalho de email**, incluindo Do nome, Do endereço e Responder para, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o supervisor, o local ou a ramificação relevante para cada destinatário, em vez de rotear todos os envios por meio de um único endereço corporativo. Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso.
 
-* **Simplificação da dimensão de público alvo em campanhas orquestradas** - A dimensão de direcionamento ativa agora é mostrada na tela do fluxo de trabalho, para que você possa ver qual dimensão é usada por uma atividade de canal. O fluxo de segmentação de várias entidades é mais simples, pois você não precisa mais de uma atividade &quot;Alterar dimensão&quot; separada. Além disso, agora você pode escolher explicitamente se as mensagens são enviadas no nível do perfil ou em um nível de dimensão secundário.
+* **Simplificação da dimensão de público alvo em campanhas orquestradas** - A **targeting dimension** ativa agora é mostrada na tela do fluxo de trabalho para que você possa ver qual dimensão é usada por uma atividade de canal. O fluxo de segmentação de várias entidades é mais simples, pois você não precisa mais de uma atividade &quot;Alterar dimensão&quot; separada. Além disso, agora você pode escolher explicitamente se as mensagens são enviadas no nível do perfil ou em um nível de dimensão secundário.
 
-* **Substituir o campo de execução padrão em campanhas** - Disponível anteriormente no nível de jornada, agora é possível substituir o campo de execução padrão definido globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da campanha.
+* **Substituir o campo de execução padrão em campanhas** - Anteriormente disponível no nível de jornada, agora você pode substituir o **campo de execução** padrão definido globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da campanha.
 
 ### Tomada de decisão {#june-26-decisioning}
 
@@ -157,7 +157,7 @@ O recurso a seguir está chegando à Decisão nesta versão.
 <tbody>
 <tr>
 <td>
-<p>Agora você pode mapear fragmentos de conteúdo do Adobe Experience Manager para itens de decisão na Decisão e aproveitá-los nas políticas de decisão para fornecer o fragmento certo ao cliente certo na hora certa.</p>
+<p>Agora você pode mapear <strong>fragmentos de conteúdo do Adobe Experience Manager</strong> para <strong>itens de decisão</strong> na Decisão e aproveitá-los nas políticas de decisão para fornecer o fragmento certo ao cliente certo na hora certa.</p>
 <p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 </td>
 </tr>
@@ -177,7 +177,7 @@ Os seguintes recursos e melhorias estão chegando ao canal de email nesta versã
 <tbody>
 <tr>
 <td>
-<p>O Designer de email agora inclui uma biblioteca de componentes de layout prontos para uso — como cabeçalhos, cartões de produto (1, 2 ou 3 colunas), blocos de informações e rodapés — que você pode arrastar e soltar diretamente na tela de email. Cada componente vem pré-configurado com propriedades editáveis (imagem, título, texto, botão, links) e pode ser totalmente personalizado por meio da interface do WYSIWYG, acelerando a criação de emails sem exigir a criação de estruturas do zero.</p>
+<p>O Designer de email agora inclui uma <strong>biblioteca de componentes de layout prontos para uso</strong> — como cabeçalhos, cartões de produto (1, 2 ou 3 colunas), blocos de informações e rodapés — que você pode arrastar e soltar diretamente na tela de email. Cada componente vem pré-configurado com propriedades editáveis (imagem, título, texto, botão, links) e pode ser totalmente personalizado por meio da interface do WYSIWYG, acelerando a criação de emails sem exigir a criação de estruturas do zero.</p>
 </td>
 </tr>
 </tbody>
@@ -192,7 +192,7 @@ Os seguintes recursos e melhorias estão chegando ao canal de email nesta versã
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer agora permite que os usuários validem a qualidade do conteúdo de email - incluindo legibilidade, eficácia e coesão do conteúdo - diretamente na interface do Designer de email.</p>
+<p>O Journey Optimizer agora permite que os usuários validem sua <strong>qualidade do conteúdo de email</strong> - incluindo legibilidade, eficácia e coesão de conteúdo - diretamente na interface do Designer de email.</p>
 </td>
 </tr>
 </tbody>
@@ -207,30 +207,28 @@ Os seguintes recursos e melhorias estão chegando ao canal de email nesta versã
 <tbody>
 <tr>
 <td>
-<p>Essa nova opção permite reduzir o tamanho da HTML em um email removendo espaços em branco, comentários e códigos redundantes desnecessários — sem alterar a aparência do email. Isso ajuda a melhorar a capacidade de entrega (alguns provedores de email rejeitam ou sinalizam emails superdimensionados) e pode acelerar o tempo de carregamento dos recipients.</p>
+<p>Esta nova opção permite <strong>reduzir o tamanho da HTML</strong> em um email removendo espaços em branco, comentários e códigos redundantes desnecessários — sem alterar a aparência do email. Isso ajuda a melhorar a capacidade de entrega (alguns provedores de email rejeitam ou sinalizam emails superdimensionados) e pode acelerar o tempo de carregamento dos recipients.</p>
 <p>Data de disponibilidade: 10 de junho de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Suporte ao modo de texto em fragmentos** - Para oferecer suporte a fluxos de trabalho de email baseados em texto, agora é possível criar e gerenciar versões de texto dos fragmentos visuais para uso ideal na versão de texto sem formatação dos emails que incluem esse fragmento. Ao usar um fragmento que foi criado antes da versão atual, a versão do texto do fragmento pode ser renderizada incorretamente — tanto no Designer de email quanto no email final entregue aos recipients. Para obter melhores resultados com fragmentos mais antigos, edite, salve e republique cada fragmento.
+* **Suporte ao modo de texto em fragmentos** - Para oferecer suporte a fluxos de trabalho de email baseados em texto, agora é possível criar e gerenciar **versões de texto** dos seus fragmentos visuais para uso ideal na versão de texto sem formatação dos emails que incluem esse fragmento. Ao usar um fragmento que foi criado antes da versão atual, a versão do texto do fragmento pode ser renderizada incorretamente — tanto no Designer de email quanto no email final entregue aos recipients. Para obter melhores resultados com fragmentos mais antigos, edite, salve e republique cada fragmento.
 
-* **Benchmarks de Taxa de Transferência de Envio em Lote Atualizados com Cenários Voltados para o Cliente** - Os benchmarks de taxa de transferência de envio em lote da Adobe Journey Optimizer foram atualizados para refletir o desempenho de nível de produção em vários cenários de personalização — desde envios básicos até conteúdo dinâmico complexo com lógica condicional. As métricas atualizadas agora estão disponíveis na documentação do produto para ajudar os clientes a planejar com precisão seus volumes de mensagens.
+* **Benchmarks de Taxa de Transferência de Envio em Lote Atualizados com Cenários Voltados para o Cliente** - Os **benchmarks de taxa de transferência de envio em lote** da Adobe Journey Optimizer foram atualizados para refletir o desempenho de nível de produção em vários cenários de personalização — de envios básicos a conteúdo dinâmico complexo com lógica condicional. As métricas atualizadas agora estão disponíveis na documentação do produto para ajudar os clientes a planejar com precisão seus volumes de mensagens.
 
-* **Processo OTP de Loop de Comentários para subdomínios personalizados** - O processo de configuração de subdomínio personalizado FBL (Loop de Comentários) foi aprimorado ao exibir a OTP (Senha Ocasional) do hub do remetente do Yahoo diretamente na interface do usuário do produto. Os usuários agora podem recuperar e exibir automaticamente o OTP gerado durante a verificação de propriedade de domínio do hub do remetente do Yahoo.
-
-* **Excluir cliques de bot para relatórios de email e SMS** - Para fornecer uma visão mais precisa do engajamento real do cliente, novas métricas estimadas agora estão disponíveis nos relatórios de Jornadas, Campanhas e Canal. Essas métricas ajudam a filtrar interações não humanas (NHI) e cliques de bot a partir de dados de relatório: Estimated Clicks (total de cliques contados após a remoção do tráfego identificado de bots e não humanos), Estimated CTR (Estimated Clicks relative to total deliveries) e Estimated CTOR para email only (Estimated Clicks relative to Estimated Opens).
+* **Processo OTP de Loop de Comentários para subdomínios personalizados** - O processo de configuração de subdomínio personalizado FBL (Loop de Comentários) foi aprimorado ao exibir o hub do remetente do Yahoo **OTP (Senha ocasional)** diretamente na interface do usuário do produto. Os usuários agora podem recuperar e exibir automaticamente o OTP gerado durante a verificação de propriedade de domínio do hub do remetente do Yahoo.
 
 ### Mensagens por dispositivo móvel (SMS, MMS, RCS e LINE) {#june-26-mobile}
 
 As seguintes melhorias estão chegando para o sistema de mensagens móveis nesta versão.
 
-* **Cliques únicos para relatórios de SMS** - Um novo módulo de Cliques únicos foi introduzido nos relatórios de SMS, trazendo o mesmo nível de rastreamento granular de desempenho para o SMS que está disponível atualmente para relatórios de Email.
+* **Cliques únicos para relatórios de SMS** - Um novo módulo **Cliques únicos** foi introduzido nos relatórios de SMS, trazendo o mesmo nível de rastreamento de desempenho granular para o SMS que está disponível atualmente para relatórios de Email.
 
-* **Canal LINE - Alterações de criação** - A interface do canal LINE foi atualizada com recursos avançados de criação de mensagens. Essa versão apresenta suporte para vários formatos de mensagem, incluindo Texto, Imagem, Imagemap, Carrossel e Flex (Editor JSON), juntamente com visualizações de dispositivos em tempo real. Os usuários agora podem gerenciar mensagens agrupadas de até cinco mensagens ordenadas (com controles para adicionar, remover e reordenar) e aproveitar o editor de personalização integrado para mensagens dinâmicas validadas.
+* **Canal LINE - Alterações de criação** - A interface do canal LINE foi atualizada com recursos avançados de criação de mensagens. Esta versão apresenta suporte para **vários formatos de mensagem**, incluindo Texto, Imagem, Imagemap, Carrossel e Flex (Editor JSON), além de visualizações de dispositivos em tempo real. Os usuários agora podem gerenciar mensagens agrupadas de até cinco mensagens ordenadas (com controles para adicionar, remover e reordenar) e aproveitar o editor de personalização integrado para mensagens dinâmicas validadas.
 
-* **Revenda do Journey Optimizer - Exibir Métricas de Uso** - Para clientes que compram SMS diretamente pela Adobe Journey Optimizer, foi introduzido um novo painel de uso de SMS. Agora é possível visualizar e rastrear os últimos 90 dias de métricas de envio de mensagens, categorizadas por mensagens Originadas por dispositivos móveis (MO) e Terminadas por dispositivos móveis (MT). Esses dados também estão disponíveis para download via CSV, fornecendo maior visibilidade e controle sobre o gasto com SMS.
+* **Revenda do Journey Optimizer - Exibir Métricas de Uso** - Para clientes que compram SMS diretamente pela Adobe Journey Optimizer, um novo **painel de uso de SMS** foi introduzido. Agora é possível visualizar e rastrear os últimos 90 dias de métricas de envio de mensagens, categorizadas por mensagens Originadas por dispositivos móveis (MO) e Terminadas por dispositivos móveis (MT). Esses dados também estão disponíveis para download via CSV, fornecendo maior visibilidade e controle sobre o gasto com SMS.
 
 ### Conteúdo e integrações {#june-26-content}
 
@@ -245,7 +243,7 @@ Os seguintes recursos e melhorias estão chegando ao gerenciamento de conteúdo 
 <tbody>
 <tr>
 <td>
-<p>Essa versão traz várias melhorias para tornar os Fragmentos de conteúdo do Adobe Experience Manager mais utilizáveis, controláveis e prontos para produção nos fluxos de trabalho de criação do Journey Optimizer:</p>
+<p>Esta versão traz várias melhorias para tornar os <strong>Fragmentos de conteúdo do Adobe Experience Manager</strong> mais utilizáveis, controláveis e prontos para produção nos fluxos de trabalho de criação do Journey Optimizer:</p>
 <ul>
 <li>O Journey Optimizer agora é compatível com a busca de fragmentos de conteúdo de várias configurações do Adobe Experience Manager, incluindo níveis de criação, publicação e publicação autenticada.</li>
 <li>Depois que um fragmento é selecionado, seu contexto é preservado em toda a mensagem, permitindo que os autores reutilizem campos de fragmento nos blocos de conteúdo sem fazer nova seleção.</li>
@@ -266,15 +264,15 @@ Os seguintes recursos e melhorias estão chegando ao gerenciamento de conteúdo 
 <tbody>
 <tr>
 <td>
-<p>Agora você tem flexibilidade em como o Adobe Journey Optimizer acessa o conteúdo do Adobe Experience Manager. Esta versão apresenta a capacidade de alternar o repositório de origem para fragmentos de conteúdo usados em suas jornadas e campanhas.</p>
+<p>Agora você tem flexibilidade em como o Adobe Journey Optimizer acessa o conteúdo do Adobe Experience Manager. Esta versão apresenta a capacidade de <strong>alternar o repositório de origem</strong> para fragmentos de conteúdo usados em suas jornadas e campanhas.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Integração de Fragmentos de conteúdo nativos do AEM (Managed Services) no AJO** - Agora compatível com o Managed Services, você pode exibir, acessar e usar Fragmentos de conteúdo do Adobe Experience Manager diretamente no Journey Optimizer para personalização. Basta adicionar o URL do repositório do Adobe Experience Manager Managed Services nas definições de configuração do como uma configuração única.
+* **Integração de Fragmentos de conteúdo nativos do Adobe Experience Manager (Managed Services)** - Agora compatível com o **Managed Services**, você pode exibir, acessar e usar Fragmentos de conteúdo do Adobe Experience Manager diretamente no Journey Optimizer para personalização. Basta adicionar o URL do repositório do Adobe Experience Manager Managed Services nas definições de configuração do como uma configuração única.
 
-* **Integração do Emagica com o AEM Asset Essentials** - o Assistente de IA agora busca automaticamente imagens aprovadas pela marca diretamente da sua Adobe Experience Manager Assets ao gerar emails, páginas da Web e notificações por push. Isso elimina a necessidade de pesquisar manualmente o Assets ou confiar em fallbacks de IA genéricos, garantindo que cada visual seja perfeitamente preciso e compatível com a marca.
+* **Integração do assistente de IA com o Adobe Experience Manager Asset Essentials** - O Assistente de IA agora busca automaticamente **imagens aprovadas pela marca** diretamente da sua Adobe Experience Manager Assets ao gerar emails, páginas da Web e notificações por push. Isso elimina a necessidade de pesquisar manualmente o Assets ou confiar em fallbacks de IA genéricos, garantindo que cada visual seja perfeitamente preciso e compatível com a marca.
 
 ### Canais personalizados {#june-26-channels}
 
@@ -289,24 +287,33 @@ O recurso a seguir está chegando aos canais nesta versão.
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer agora apresenta os Canais personalizados, um novo recurso que permite aos administradores trazer qualquer canal de mensagens baseado em HTTP de saída — como WeChat, Kakao Talk, Messenger ou um provedor proprietário — diretamente para o AJO por meio de um Construtor de canal sem código. Depois de configurados, os canais personalizados ficam disponíveis em Campanhas, Jornadas e Campanhas orquestradas, com o mesmo conjunto completo de recursos dos canais nativos: personalização com o editor de expressão, experimentação de conteúdo, pré-visualização e prova, relatórios prontos para uso e aplicação de consentimento e governança. Isso preenche a lacuna anteriormente abordada pelas Ações personalizadas, que estavam limitadas a Jornadas e não tinham criação de conteúdo dedicado.</p>
+<p>O Journey Optimizer agora apresenta os <strong>Canais personalizados</strong>, um novo recurso que permite aos administradores trazer qualquer canal de mensagens baseado em HTTP de saída — como o WeChat, o Kakao Talk, o Messenger ou um provedor proprietário — diretamente para o AJO por meio de um <strong>Channel Builder sem código</strong>. Depois de configurados, os canais personalizados ficam disponíveis em Campanhas, Jornadas e Campanhas orquestradas, com o mesmo conjunto completo de recursos dos canais nativos: personalização com o editor de expressão, experimentação de conteúdo, pré-visualização e prova, relatórios prontos para uso e aplicação de consentimento e governança. Isso preenche a lacuna anteriormente abordada pelas Ações personalizadas, que estavam limitadas a Jornadas e não tinham criação de conteúdo dedicado.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+### Relatório {#june-26-reporting}
+
+Os seguintes aprimoramentos estão chegando aos relatórios nesta versão.
+
+* **Excluir cliques de bot para relatórios de email e SMS** - Para fornecer uma visão mais precisa do engajamento real do cliente, novas métricas estimadas agora estão disponíveis nos relatórios de Jornadas, Campanhas e Canal. Essas métricas ajudam a filtrar interações não humanas (NHI) e cliques de bot a partir de dados de relatórios:
+   * Estimated Clicks: Total de cliques contados após a remoção do tráfego identificado de bot e não humano.
+   * Estimated CTR: Cliques estimados em relação ao total de deliveries.
+   * CTOR estimado somente para email: Estimativa de cliques relativos a Aberturas estimadas.
+
 ### Configuração {#june-26-configuration}
 
 As seguintes melhorias estão chegando à configuração e administração nesta versão.
 
-* **Lista de Permissões de IP do WAF (Firewall de Aplicativo Web) para Páginas de Aterrissagem do AJO** - O Adobe Journey Optimizer agora oferece suporte à lista de permissões de IP do WAF (Firewall de Aplicativo Web) para páginas de aterrissagem, permitindo que as organizações garantam que todas as solicitações recebidas sejam roteadas exclusivamente por meio de sua infraestrutura configurada do WAF. Com esse aprimoramento, os clientes podem configurar o AJO para rejeitar qualquer solicitação direta que ignore a camada do WAF, garantindo que as políticas de segurança definidas em ferramentas como o Imperva sejam aplicadas de forma consistente. Esse recurso fortalece a postura de segurança para empresas com requisitos rigorosos de acesso à rede, dando a elas controle total sobre o fluxo de tráfego para as páginas de aterrissagem hospedadas pela AJO.
+* **Lista de Permissões de IP do WAF (Firewall de Aplicativo Web) para Páginas de Aterrissagem do AJO** - O Adobe Journey Optimizer agora oferece suporte à **lista de permissões de IP do WAF (Firewall de Aplicativo Web)** para páginas de aterrissagem, permitindo que as organizações garantam que todas as solicitações recebidas sejam roteadas exclusivamente pela infraestrutura configurada do WAF. Com esse aprimoramento, os clientes podem configurar o AJO para rejeitar qualquer solicitação direta que ignore a camada do WAF, garantindo que as políticas de segurança definidas em ferramentas como o Imperva sejam aplicadas de forma consistente. Esse recurso fortalece a postura de segurança para empresas com requisitos rigorosos de acesso à rede, dando a elas controle total sobre o fluxo de tráfego para as páginas de aterrissagem hospedadas pela AJO.
 
-* **Conjunto de dados passando do modo de streaming para o modo de lote** - O Conjunto de Dados de Evento de Feedback de Mensagens do AJO está passando do modo de streaming para o modo de assimilação em lote. Essa alteração garante que a assimilação de dados não exceda os limites de assimilação de streaming. Se você usar esse conjunto de dados nos relatórios do Customer Journey Analytics ou executar consultas nele, espere um aumento na latência de dados de até 2 horas no futuro.
+* **Conjunto de dados passando do modo de streaming para o modo de lote** - O Conjunto de Dados de Evento de Feedback de Mensagens do AJO está passando do modo de streaming para o **modo de assimilação em lote**. Essa alteração garante que a assimilação de dados não exceda os limites de assimilação de streaming. Se você usar esse conjunto de dados nos relatórios do Customer Journey Analytics ou executar consultas nele, espere um aumento na latência de dados de até 2 horas no futuro.
 
 ### Melhorias de usabilidade {#june-26-usability}
 
 A seguinte melhoria de usabilidade está chegando nesta versão.
 
-* **Pastas para Jornadas e Campanhas** - Agora é possível organizar suas jornadas e campanhas em pastas para melhorar a navegação e o gerenciamento na interface.
+* **Pastas para Jornadas e Campanhas** - Agora você pode organizar suas jornadas e campanhas em **pastas** para melhorar a navegação e o gerenciamento na interface.
 
