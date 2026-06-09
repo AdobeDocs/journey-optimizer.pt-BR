@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a99544946642a625594f4c99eb869dd33299d583
+source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
 workflow-type: tm+mt
-source-wordcount: 2418
+source-wordcount: 2447
 ht-degree: 2%
 
 ---
@@ -196,6 +196,12 @@ Antes de importar para a produção, lembre-se dos seguintes comportamentos e li
 * Os fragmentos podem ter vários status, como Em tempo real, Rascunho e Em tempo real com rascunho em andamento. Ao exportar um fragmento, seu estado de rascunho mais recente é copiado para a sandbox de destino.
 
 * Ao exportar um fragmento, todos os fragmentos aninhados também são copiados junto com ele.
+
++++
+
++++ Jornada fragmentos
+
+* [Fragmentos de Jornada](../building-journeys/journey-fragments.md) (conjuntos reutilizáveis de nós de jornada) têm suporte para a ferramenta Sandbox. Ao exportar um fragmento de jornada, seu estado de rascunho mais recente é copiado para a sandbox de destino.
 
 +++
 

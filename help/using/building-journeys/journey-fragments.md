@@ -8,22 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: fragmentos, jornada, reutilizar, nós, tela, inventário, reutilizável
-badge: label="Disponibilidade limitada" type="Informative"
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
 workflow-type: tm+mt
-source-wordcount: 1484
+source-wordcount: 1482
 ht-degree: 9%
 
 ---
 
 
 # Jornada fragmentos {#journey-fragments}
-
->[!AVAILABILITY]
->No momento, esse recurso está com a Disponibilidade limitada. Para solicitar acesso, entre em contato com o representante da Adobe.
 
 Os fragmentos de jornada são conjuntos reutilizáveis de nós de jornada que você pode criar uma vez e soltar em qualquer jornada na sandbox. Seja uma verificação de elegibilidade, uma lógica de roteamento de canal preferencial ou uma sequência de boas-vindas, os fragmentos ajudam as equipes a se moverem mais rápido e a permanecerem consistentes, sem reconstruir a mesma lógica do zero todas as vezes. [Consulte exemplos de caso de uso.](#examples)
 
@@ -187,6 +183,7 @@ As seguintes medidas de proteção se aplicam aos fragmentos de jornada:
 * Há suporte para [Marcas](tags.md) e **Rótulos** nos fragmentos.
 * Há suporte para [Logs de Auditoria](../privacy/audit-logs.md).
 * As jornadas em execução na pilha antiga (usando Campanhas em linha) não são compatíveis com fragmentos de jornada. Duplique essa jornada para passar para a nova pilha antes de usar esse recurso.
+* Os fragmentos de Jornada oferecem suporte a [ferramentas de sandbox](../configuration/copy-objects-to-sandbox.md). Os fragmentos podem ser empacotados e exportados para outra sandbox.
 
 ## Exemplos de caso de uso {#examples}
 
