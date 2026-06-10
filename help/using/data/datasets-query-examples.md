@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 1094
+source-wordcount: 1118
 ht-degree: 2%
 
 ---
@@ -98,6 +98,10 @@ _Nome na interface: Conjunto de Dados de Eventos de Feedback de Mensagens do AJO
 Conjunto de dados para assimilar eventos de feedback de aplicativos de email e por push do Journey Optimizer.
 
 O esquema relacionado é o Esquema de evento de feedback de mensagem do AJO.
+
+>[!NOTE]
+>
+>Esse conjunto de dados usa assimilação em lote. Espere uma latência de dados de até 2 horas ao consultar esse conjunto de dados ou usá-lo para fins de relatório.
 
 Esta consulta mostra as contagens de diferentes status de feedback por email (enviado, rejeitado, etc.) para uma determinada mensagem:
 

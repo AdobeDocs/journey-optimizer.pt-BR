@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 1114
+source-wordcount: 1128
 ht-degree: 5%
 
 ---
@@ -112,7 +112,7 @@ Entenda na tabela abaixo quais conjuntos de dados do Journey Optimizer você pod
 | Conjunto de dados da entidade AJO | Conjunto de dados para armazenar metadados de entidade para mensagens enviadas ao usuário final.  |
 | Conjunto de dados do evento de atividade de entrada do AJO | Conjunto de dados para canais na Web e no aplicativo do Journey Optimizer para eventos de entrega e interação. |
 | Conjunto de dados do perfil de mensagens interativas da AJO | Armazena perfis criados para dar suporte a campanhas acionadas por API |
-| Conjunto de dados do evento de feedback de mensagem do AJO | Logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. O feedback dos ISPs de email sobre rejeições também é registrado neste conjunto de dados. Esse conjunto de dados inclui eventos para todos os canais: Email, SMS/RCS/MMS, Correspondência direta etc. |
+| Conjunto de dados do evento de feedback de mensagem do AJO | Logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. O feedback dos ISPs de email sobre rejeições também é registrado neste conjunto de dados. Este conjunto de dados inclui eventos para todos os canais: Email, SMS/RCS/MMS, Correspondência Direta, etc. **Este conjunto de dados usa assimilação em lote — espere uma latência de dados de até 2 horas.** |
 | Conjunto de dados de exportação de mensagens do AJO | Armazena conteúdo de mensagens de email e SMS enviadas que foi marcado para exportação. Os dados são retidos por sete dias a partir da assimilação. |
 | Extensão Contadores de perfis do AJO | Contém um mapa de objetos contendo counter_value e expiryDate, digitado por counter_id |
 | Conjunto de dados do perfil push do AJO | Armazena tokens de push de um perfil. |

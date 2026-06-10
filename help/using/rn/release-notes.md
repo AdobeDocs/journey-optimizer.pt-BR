@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a6ea8da3868e235ccd19e66426cb77b8e5300ac2
+source-git-commit: 43a3411731e99e1b1eac318a7a3c9bcd93de8de9
 workflow-type: tm+mt
-source-wordcount: 2783
+source-wordcount: 2850
 ht-degree: 21%
 
 ---
@@ -148,6 +148,10 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tr>
 </tbody>
 </table>
+
+* **Conjunto de Dados de Eventos de Feedback de Mensagens do AJO sendo movido para assimilação em lote** - O **Conjunto de Dados de Eventos de Feedback de Mensagens do AJO** está mudando da assimilação de streaming para assimilação em lote. Como resultado, espere uma latência de dados de até 2 horas para esse conjunto de dados. Se você tiver criado relatórios no Customer Journey Analytics ou executado consultas usando esse conjunto de dados, considere esse aumento na latência a partir de agora. [Leia mais](../data/get-started-datasets.md)
+
+  Data de disponibilidade: 10 de junho de 2026
 
 * **Interrupção automática para jornadas de Leitura de Público não recorrentes** - **Leitura de Público** Não recorrentes agora as jornadas fazem a transição automática para o status **Interrompido** quando o último perfil ativo existe. Anteriormente, essas jornadas permaneciam **Ativas** até que o tempo limite global de 91 dias expirasse — mesmo quando nenhum perfil estava fluindo mais por elas. Com essa melhoria, o status da jornada reflete o estado de execução real assim que é concluída, mantendo o inventário da jornada preciso sem intervenção manual.
 

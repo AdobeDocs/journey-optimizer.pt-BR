@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 488
-ht-degree: 5%
+source-wordcount: 475
+ht-degree: 6%
 
 ---
 
@@ -54,7 +54,7 @@ Antes de usar o [!DNL Customer Journey Analytics] para suas jornadas, você deve
 
    O seguinte [!DNL Journey Optimizer] pode ser configurado:
    * [Evento de Etapa de Jornada](../data/datasets-query-examples.md#journey-step-event): permite ver quem entra nas jornadas e até que ponto elas chegam.
-   * [Conjuntos de dados de Rastreamento/Feedback de Mensagens](../data/datasets-query-examples.md#message-feedback-event-dataset): permite exibir informações de entrega sobre suas mensagens enviadas por meio de [!DNL Journey Optimizer].
+   * [Conjuntos de dados de Rastreamento/Feedback de Mensagens](../data/datasets-query-examples.md#message-feedback-event-dataset): permite exibir informações de entrega sobre suas mensagens enviadas por meio de [!DNL Journey Optimizer]. Observe que o conjunto de dados Evento de feedback da mensagem usa assimilação em lote — espere uma latência de dados de até 2 horas em seus relatórios do CJA.
    * [Conjuntos de dados de entidade e Jornada](../data/datasets-query-examples.md#entity-dataset): permite pesquisar nomes amigáveis e usá-los em seus relatórios.
 
 1. [Crie uma visualização de dados](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=pt-BR){target="_blank"} para configurar as dimensões e métricas que deseja usar no relatório.
