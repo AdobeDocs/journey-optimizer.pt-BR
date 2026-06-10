@@ -7,17 +7,12 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d7d879286ccb9c2e4567bb70a8f78d34bd663c54
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 2035
+source-wordcount: 1945
 ht-degree: 10%
 
 ---
@@ -39,24 +34,6 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 ### Jornadas {#june-26-journeys}
 
 Os seguintes recursos e melhorias estão chegando às jornadas nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Otimização do caminho de Jornada - Direcionamento</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A <strong>atividade Otimizar</strong> agora dá suporte a <strong>Regras de Direcionamento</strong>. As Regras de direcionamento permitem definir critérios específicos que os clientes devem atender para se qualificarem para um determinado caminho de jornada, com base em segmentos de público-alvo ou atributos de perfil.</p>
-<p>Diferentemente da experimentação, em que os clientes são atribuídos a caminhos aleatoriamente, o direcionamento usa uma lógica determinística para garantir que o público-alvo ou perfil do cliente apropriado seja roteado para o caminho desejado.</p>
-<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14720">Link para a tarefa DOCAC no JIRA</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
