@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e04a4e5ae5fb69494b46f7ae25095c637bb19842
+source-git-commit: 5e5a00be28f5b7bcae1fd3810f64302a0248799c
 workflow-type: tm+mt
-source-wordcount: 1791
-ht-degree: 10%
+source-wordcount: 1737
+ht-degree: 9%
 
 ---
 
@@ -39,23 +39,6 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 ### Jornadas {#june-26-journeys}
 
 Os seguintes recursos e melhorias estão chegando às jornadas nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Arbitragem de Jornada - Fórmulas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora você pode usar <strong>fórmulas</strong> para <strong>priorizar e arbitrar jornadas</strong> automaticamente com base nos atributos do perfil do cliente e em fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
-<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">Link para a tarefa DOCAC no JIRA</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **Limite de jornadas ao vivo aumentado e novas medidas de proteção** - Agora você pode ter até **200 jornadas ativas**, maior que o limite anterior de 100.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14826">Vincular à tarefa DOCAC JIRA</a>
