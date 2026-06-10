@@ -12,9 +12,9 @@ exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="Disponibilidade limitada" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: 797
 ht-degree: 4%
 
 ---
@@ -25,10 +25,6 @@ ht-degree: 4%
 >id="ajo_path_targeting_fallback"
 >title="O que é um caminho substituto?"
 >abstract="Os caminhos substitutos permitem que o público-alvo entre em um caminho alternativo quando nenhuma regra de direcionamento for qualificada. </br>Se esta opção não estiver selecionada, qualquer público-alvo que não se qualifique para uma regra de direcionamento não entrará no caminho de fallback e sairá da jornada."
-
->[!AVAILABILITY]
->
->No momento, esse recurso está com a Disponibilidade limitada. Para solicitar acesso, entre em contato com o representante da Adobe.
 
 As regras de direcionamento permitem determinar regras ou qualificações específicas que devem ser atendidas para que um cliente possa se qualificar para inserir um dos caminhos de jornada, com base em segmentos específicos de público-alvo<!-- depending on profile attributes or contextual attributes-->.
 
