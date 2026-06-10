@@ -7,17 +7,12 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a6ea8da3868e235ccd19e66426cb77b8e5300ac2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: ea1a283aacceafad32bd26560941a1bf613f3fea
 workflow-type: tm+mt
-source-wordcount: 2000
+source-wordcount: 2002
 ht-degree: 10%
 
 ---
@@ -49,8 +44,8 @@ Os seguintes recursos e melhorias estão chegando às jornadas nesta versão.
 <tbody>
 <tr>
 <td>
-<p>Use o novo <strong>nó de Otimização</strong> para direcionar públicos-alvo específicos a fim de determinar o melhor caminho para atender aos KPIs centrados nos negócios.</p>
-<p>Essa ferramenta permite desenvolver campanhas de marketing mais eficazes, com maior probabilidade de repercutir no nível 1:1, melhorar os esforços de personalização de marketing para os clientes e aprimorar KPIs essenciais de engajamento do cliente, como conversões e receita.</p>
+<p>A <strong>atividade Otimizar</strong> agora dá suporte a <strong>Regras de Direcionamento</strong>. As Regras de direcionamento permitem definir critérios específicos que os clientes devem atender para se qualificarem para um determinado caminho de jornada, com base em segmentos de público-alvo ou atributos de perfil.</p>
+<p>Diferentemente da experimentação, em que os clientes são atribuídos a caminhos aleatoriamente, o direcionamento usa uma lógica determinística para garantir que o público-alvo ou perfil do cliente apropriado seja roteado para o caminho desejado.</p>
 <p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14720">Link para a tarefa DOCAC no JIRA</a></p>
 </td>
@@ -67,7 +62,7 @@ Os seguintes recursos e melhorias estão chegando às jornadas nesta versão.
 <tbody>
 <tr>
 <td>
-<p>Agora você pode usar <strong>fórmulas</strong> para aumentar automaticamente as <strong>pontuações de prioridade de jornada</strong> com base nos atributos do perfil do cliente e em fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
+<p>Agora você pode usar <strong>fórmulas</strong> para <strong>priorizar e arbitrar jornadas</strong> automaticamente com base nos atributos do perfil do cliente e em fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
 <p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">Link para a tarefa DOCAC no JIRA</a></p>
 </td>
@@ -229,7 +224,7 @@ As seguintes melhorias estão chegando para o sistema de mensagens móveis nesta
 * **Canal LINE - Alterações de criação** - A interface do canal LINE foi atualizada com recursos avançados de criação de mensagens. Esta versão apresenta suporte para **vários formatos de mensagem**, incluindo Texto, Imagem, Imagemap, Carrossel e Flex (Editor JSON), além de visualizações de dispositivos em tempo real. Os usuários agora podem gerenciar mensagens agrupadas de até cinco mensagens ordenadas (com controles para adicionar, remover e reordenar) e aproveitar o editor de personalização integrado para mensagens dinâmicas validadas.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">Vincular à tarefa DOCAC JIRA</a>
 
-* **Revenda do Journey Optimizer - Exibir Métricas de Uso** - Para clientes que compram SMS diretamente pela Adobe Journey Optimizer, um novo **painel de uso de SMS** foi introduzido. Agora é possível visualizar e rastrear os últimos 90 dias de métricas de envio de mensagens, categorizadas por mensagens Originadas por dispositivos móveis (MO) e Terminadas por dispositivos móveis (MT). Esses dados também estão disponíveis para download via CSV, fornecendo maior visibilidade e controle sobre o gasto com SMS.
+* **SMS - Exibir Métricas de Uso** - Para clientes que compram SMS diretamente pelo Adobe Journey Optimizer, foi introduzido um novo **painel de uso de SMS**. Agora é possível visualizar e rastrear os últimos 90 dias de métricas de envio de mensagens, categorizadas por mensagens Originadas por dispositivos móveis (MO) e Terminadas por dispositivos móveis (MT). Esses dados também estão disponíveis para download via CSV, fornecendo maior visibilidade e controle sobre o gasto com SMS.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14345">Vincular à tarefa DOCAC JIRA</a>
 
 ### Conteúdo e integrações {#june-26-content}
@@ -305,7 +300,7 @@ O recurso a seguir está chegando aos canais nesta versão.
 
 Os seguintes aprimoramentos estão chegando aos relatórios nesta versão.
 
-* **Excluir cliques de bot para relatórios de email e SMS** - Para fornecer uma visão mais precisa do engajamento real do cliente, novas métricas estimadas agora estão disponíveis nos relatórios de Jornadas, Campanhas e Canal. Essas métricas ajudam a filtrar interações não humanas (NHI) e cliques de bot a partir de dados de relatórios:
+* **Novas métricas de clique estimadas para relatórios de email e SMS** - Para fornecer uma visão mais precisa do engajamento real do cliente, novas métricas estimadas agora estão disponíveis nos relatórios de Jornadas, Campanhas e Canais. Essas métricas ajudam a filtrar interações não humanas (NHI) e cliques de bot a partir de dados de relatórios:
    * Estimated Clicks: Total de cliques contados após a remoção do tráfego identificado de bot e não humano.
    * Estimated CTR: Cliques estimados em relação ao total de deliveries.
    * CTOR estimado somente para email: Estimativa de cliques relativos a Aberturas estimadas.
