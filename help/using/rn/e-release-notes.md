@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c59ff3fc53db9654789dbb1b1be0baf04937d64a
+source-git-commit: 1ff42f25705112ec5c841b0cbd2a74cd5bf8c68a
 workflow-type: tm+mt
-source-wordcount: 1842
+source-wordcount: 1838
 ht-degree: 10%
 
 ---
@@ -120,7 +120,29 @@ O recurso a seguir está chegando à Decisão nesta versão.
 </tbody>
 </table>
 
-### Canal de email {#june-26-email}
+### Canais {#june-26-channels}
+
+O recurso a seguir foi introduzido nesta versão.
+
+<table>
+<thead>
+<tr>
+<th><strong>Canais de saída personalizados</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Journey Optimizer agora apresenta os <strong>Canais personalizados</strong>, um novo recurso que permite aos administradores trazer qualquer canal de mensagens baseado em HTTP de saída — como WeChat, Kakao Talk, Messenger ou um provedor proprietário — diretamente para o Journey Optimizer por meio de um construtor de canal sem código.</p>
+<p>Depois de configurados, os canais personalizados ficam disponíveis em campanhas, jornadas e campanhas orquestradas, com o mesmo conjunto completo de recursos dos canais nativos: personalização com o editor de expressão, experimentação de conteúdo, pré-visualização e prova, relatórios prontos para uso e aplicação de consentimento e governança. Isso preenche a lacuna anteriormente abordada por ações personalizadas, que estavam limitadas a jornadas e não tinham criação de conteúdo dedicado.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11381">Link para a tarefa DOCAC no JIRA</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Email {#june-26-email}
 
 Os seguintes recursos e melhorias estão chegando ao canal de email nesta versão.
 
@@ -181,12 +203,6 @@ Os seguintes recursos e melhorias estão chegando ao canal de email nesta versã
 * **Suporte ao modo de texto em fragmentos** - Para oferecer suporte a fluxos de trabalho de email baseados em texto, agora é possível criar e gerenciar versões de texto dos fragmentos visuais para uso ideal na versão de texto sem formatação dos emails que incluem esse fragmento. Ao usar um fragmento que foi criado antes da versão atual, a versão do texto do fragmento pode ser renderizada incorretamente — tanto no Designer de email quanto no email final entregue aos recipients. Para obter melhores resultados com fragmentos mais antigos, edite, salve e republique cada fragmento.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">Vincular à tarefa DOCAC JIRA</a>
 
-* **Os benchmarks de taxa de transferência de término de lote foram atualizados com cenários voltados para o cliente** - Os benchmarks de taxa de transferência de envio de lote da Adobe Journey Optimizer foram atualizados para refletir o desempenho de nível de produção em vários cenários de personalização — desde envios básicos até conteúdo dinâmico complexo com lógica condicional. As métricas atualizadas agora estão disponíveis na documentação do produto para ajudar os clientes a planejar com precisão seus volumes de mensagens.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14816">Vincular à tarefa DOCAC JIRA</a>
-
-* **Processo OTP de Loop de Comentários para subdomínios personalizados** - O processo de configuração de subdomínio personalizado FBL (Loop de Comentários) foi aprimorado ao exibir o hub do remetente do Yahoo **OTP (Senha ocasional)** diretamente na interface do usuário do produto. Os usuários agora podem recuperar e exibir automaticamente o OTP gerado durante a verificação de propriedade de domínio do hub do remetente do Yahoo.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14815">Vincular à tarefa DOCAC JIRA</a>
-
 ### Mensagens por dispositivo móvel (SMS, MMS, RCS e LINE) {#june-26-mobile}
 
 As seguintes melhorias estão chegando para o sistema de mensagens móveis nesta versão.
@@ -246,28 +262,6 @@ Os seguintes recursos e melhorias estão chegando ao gerenciamento de conteúdo 
 </tbody>
 </table>
 
-### Canais personalizados {#june-26-channels}
-
-O recurso a seguir está chegando aos canais nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Canal de saída personalizado</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Journey Optimizer agora apresenta os <strong>Canais personalizados</strong>, um novo recurso que permite aos administradores trazer qualquer canal de mensagens baseado em HTTP de saída — como WeChat, Kakao Talk, Messenger ou um provedor proprietário — diretamente para o Journey Optimizer por meio de um construtor de canal sem código.</p>
-<p>Depois de configurados, os canais personalizados ficam disponíveis em campanhas, jornadas e campanhas orquestradas, com o mesmo conjunto completo de recursos dos canais nativos: personalização com o editor de expressão, experimentação de conteúdo, pré-visualização e prova, relatórios prontos para uso e aplicação de consentimento e governança. Isso preenche a lacuna anteriormente abordada por ações personalizadas, que estavam limitadas a jornadas e não tinham criação de conteúdo dedicado.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11381">Link para a tarefa DOCAC no JIRA</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### Campanhas {#june-26-campaigns}
 
 O aprimoramento a seguir está chegando às campanhas nesta versão.
@@ -292,6 +286,12 @@ As seguintes melhorias estão chegando à configuração e administração nesta
 
 * **Listas de permissões de IP do WAF (Firewall de Aplicativo Web)** - O Adobe Journey Optimizer agora oferece suporte à lista de permissões de IP do WAF para páginas de aterrissagem, permitindo que as organizações garantam que todas as solicitações recebidas sejam roteadas exclusivamente por meio de sua infraestrutura configurada do WAF. Com esse aprimoramento, os clientes podem configurar o Journey Optimizer para rejeitar qualquer solicitação direta que ignore a camada do WAF, garantindo que as políticas de segurança definidas em ferramentas como o Imperva sejam aplicadas de forma consistente. Esse recurso fortalece a postura de segurança para empresas com requisitos rigorosos de acesso à rede, dando a elas controle total sobre o fluxo de tráfego para as páginas de aterrissagem hospedadas pela Journey Optimizer.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14814">Vincular à tarefa DOCAC JIRA</a>
+
+* **Processo OTP de Loop de Comentários para subdomínios personalizados** - O processo de configuração de subdomínio personalizado FBL (Loop de Comentários) foi aprimorado ao exibir o hub do remetente do Yahoo **OTP (Senha ocasional)** diretamente na interface do usuário do produto. Os usuários agora podem recuperar e exibir automaticamente o OTP gerado durante a verificação de propriedade de domínio do hub do remetente do Yahoo.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14815">Vincular à tarefa DOCAC JIRA</a>
+
+* **Os benchmarks de taxa de transferência de término de lote foram atualizados com cenários voltados para o cliente** - Os benchmarks de taxa de transferência de envio de lote da Adobe Journey Optimizer foram atualizados para refletir o desempenho de nível de produção em vários cenários de personalização — desde envios básicos até conteúdo dinâmico complexo com lógica condicional. As métricas atualizadas agora estão disponíveis na descrição do produto para ajudar os clientes a planejar com precisão seus volumes de mensagens.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14816">Vincular à tarefa DOCAC JIRA</a>
 
 * **Conjunto de dados passando do modo de streaming para o modo de lote** - O Conjunto de Dados de Evento de Feedback de Mensagens do AJO está passando do modo de streaming para o **modo de assimilação em lote**. Essa alteração garante que a assimilação de dados não exceda os limites de assimilação de streaming. Se você usar esse conjunto de dados nos relatórios do Customer Journey Analytics ou executar consultas nele, espere um aumento na latência de dados de até 2 horas no futuro.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14771">Vincular à tarefa DOCAC JIRA</a>
