@@ -24,9 +24,9 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a6c2d7e9827b30995397540761522c680c237bc8
+source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
 workflow-type: tm+mt
-source-wordcount: 1046
+source-wordcount: 1050
 ht-degree: 9%
 
 ---
@@ -96,7 +96,7 @@ Para enviar uma mensagem móvel no Journey Optimizer usando um provedor personal
 
    >[!IMPORTANT]
    >
-   >Configure seu ponto de extremidade de envio de SMS para confiar na cadeia de autoridade de certificação do Adobe Experience Platform baixando o certificado público da [API de Certificado Público do MTLS](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate) e adicionando-o ao repositório de confiança do servidor (CN de cliente esperado: `ajo-sms.aep-mtls.adobe.com`). Caso contrário, o Journey Optimizer omite o certificado de cliente e a entrega de SMS falha.
+   >Configure seu ponto de extremidade de envio de SMS para confiar na cadeia de autoridade de certificação do Adobe Experience Platform baixando o certificado público da [API de Certificado Público do MTLS](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint) e adicionando-o ao repositório de confiança do servidor (CN de cliente esperado: `ajo-sms.aep-mtls.adobe.com`). Caso contrário, o Journey Optimizer omite o certificado de cliente e a entrega de SMS falha.
 
 1. Na seção **[!UICONTROL Cabeçalhos]**, clique em **[!UICONTROL Adicionar novo parâmetro]** para especificar os cabeçalhos HTTP para a mensagem de solicitação que será enviada para o serviço externo.
 
