@@ -7,17 +7,12 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 51d356bfab2f989422d43c5e6582901519f5ebf1
 workflow-type: tm+mt
-source-wordcount: 1945
+source-wordcount: 1851
 ht-degree: 10%
 
 ---
@@ -90,30 +85,11 @@ Os seguintes recursos e melhorias estão chegando às campanhas orquestradas nes
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Suporte Quiet Hours para campanhas orquestradas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora você pode aplicar <strong>horas de silêncio</strong> a campanhas orquestradas. As horas de silêncio permitem definir <strong>exclusões com base no tempo</strong> para evitar que as mensagens sejam enviadas durante períodos específicos, ajudando você a respeitar as preferências do cliente e os requisitos de conformidade em casos de uso de orquestração de campanha.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14054">Link para a tarefa DOCAC no JIRA</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
 * **Personalização baseada em loop para dados relacionais em campanhas orquestradas** - O editor de personalização agora oferece suporte a um **Bloco de loop** que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de gravação de expressão.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14703">Vincular à tarefa DOCAC JIRA</a>
 
 * **Personalizar detalhes do remetente de email por destinatário e campanha** - As campanhas orquestradas agora oferecem suporte à personalização de **campos de cabeçalho de email**, incluindo Do nome, Do endereço e Responder para, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o supervisor, o local ou a ramificação relevante para cada destinatário, em vez de rotear todos os envios por meio de um único endereço corporativo. Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">Vincular à tarefa DOCAC JIRA</a>
-
-* **Simplificação da dimensão de público alvo em campanhas orquestradas** - A **targeting dimension** ativa agora é mostrada na tela do fluxo de trabalho para que você possa ver qual dimensão é usada por uma atividade de canal. O fluxo de segmentação de várias entidades é mais simples, pois você não precisa mais de uma atividade &quot;Alterar dimensão&quot; separada. Além disso, agora você pode escolher explicitamente se as mensagens são enviadas no nível do perfil ou em um nível de dimensão secundário.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">Vincular à tarefa DOCAC JIRA</a>
 
 * **Substituir o campo de execução padrão em campanhas** - Anteriormente disponível no nível de jornada, agora você pode substituir o **campo de execução** padrão definido globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da campanha.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14718">Vincular à tarefa DOCAC JIRA</a>
