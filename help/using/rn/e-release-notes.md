@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: abc97745136ffe596325df644831a346e2bb5dcc
+source-git-commit: 47a043097e938fbbd4c991d708a678f46fe63b9c
 workflow-type: tm+mt
-source-wordcount: 1660
+source-wordcount: 1815
 ht-degree: 6%
 
 ---
@@ -96,6 +96,13 @@ O recurso a seguir está chegando à Decisão nesta versão.
 </tbody>
 </table>
 
+* **Atributos de oferta dinâmicos** - Os atributos de oferta no Decisioning agora podem ser personalizados no momento da entrega usando dados de perfil, contextuais e de público-alvo. Isso elimina a necessidade de manter ofertas duplicadas para variações de conteúdo secundárias, permitindo que os profissionais de marketing gerenciem um número menor de itens de decisão e mais flexíveis.
+
+* **Limite de frequência no nível de posicionamento na Decisão** - As regras de limite de frequência na Decisão agora podem ser segmentadas para posicionamentos individuais, fornecendo controle mais fino sobre a frequência com que uma oferta é exibida em determinada superfície. Dois modos estão disponíveis:
+
+   * Limite específico de posicionamento: defina um limite que se aplique somente quando a oferta for exibida em um posicionamento selecionado.
+   * Limite por posicionamento: aplique um limite de maneira independente em cada posicionamento em que a oferta é exibida, para que cada posicionamento mantenha seu próprio contador de limite.
+
 ### Email {#june-26-email}
 
 Os seguintes recursos e melhorias estão chegando ao canal de email nesta versão.
@@ -145,6 +152,8 @@ Os seguintes recursos e melhorias estão chegando ao canal de email nesta versã
 </tbody>
 </table>
 
+* **Conversor de Imagem para HTML aprimorado** - Uma nova versão do recurso de conversão de Imagem para HTML está disponível, trazendo mais precisão para a geração de HTML. Essa atualização aproveita modelos LLM de camada mais alta para fornecer saída de HTML mais precisa e confiável a partir de entradas de imagem.
+
 +++ Em breve — **As informações abaixo estão sujeitas a alterações.**
 
 <table>
@@ -156,7 +165,8 @@ Os seguintes recursos e melhorias estão chegando ao canal de email nesta versã
 <tbody>
 <tr>
 <td>
-<p>O Designer de email agora inclui uma biblioteca de componentes de layout prontos para uso — como cabeçalhos, cartões de produto (1, 2 ou 3 colunas), blocos de informações e rodapés — que você pode arrastar e soltar diretamente na tela de email. Cada componente vem pré-configurado com propriedades editáveis (imagem, título, texto, botão, links) e pode ser totalmente personalizado por meio da interface do WYSIWYG, acelerando a criação de emails sem exigir a criação de estruturas do zero.</p>
+<p>O Designer de email agora inclui uma biblioteca de módulos de layout prontos para uso — como cabeçalhos, cartões de produto, blocos de informações e rodapés — que você pode arrastar e soltar diretamente na tela do email.</p>
+<p>Cada módulo vem pré-configurado com propriedades editáveis (imagem, título, texto, botão, links) e pode ser totalmente personalizado por meio da interface do WYSIWYG, acelerando a criação de emails sem exigir a criação de estruturas do zero.</p>
 <p>Data de disponibilidade: 22 de junho de 2026</p>
 </td>
 </tr>
