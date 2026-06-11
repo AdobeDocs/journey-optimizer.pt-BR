@@ -6,18 +6,13 @@ description: Notas de pré-lançamento do Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 47a043097e938fbbd4c991d708a678f46fe63b9c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 047bf4bee4fafe720cb301a979428bdf0c039027
 workflow-type: tm+mt
-source-wordcount: 1815
-ht-degree: 6%
+source-wordcount: 1921
+ht-degree: 5%
 
 ---
 
@@ -55,20 +50,20 @@ Os seguintes recursos e melhorias estão chegando às campanhas orquestradas nes
 <table>
 <thead>
 <tr>
-<th><strong>Atividade de carregamento de arquivo em campanhas orquestradas</strong><br/></th>
+<th><strong>Segmentação baseada em arquivo em campanhas orquestradas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>As campanhas orquestradas agora permitem carregar um <strong>arquivo CSV ou TXT</strong> diretamente na tela da campanha como público alvo, sem primeiro assimilar o arquivo na Adobe Experience Platform. Os dados do arquivo são consumidos no tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform. Durante a configuração do arquivo, você pode definir mapeamentos de coluna, tipos de dados, tratamento NULL e políticas de erro por coluna. Isso oferece suporte a envios ad hoc ou campanhas de lista de parceiros em que a criação de um pipeline de assimilação completo não é prática.</p>
+<p>As campanhas orquestradas agora permitem carregar um <strong>arquivo CSV ou TXT</strong> diretamente na tela da campanha como público alvo, sem primeiro assimilar o arquivo na Adobe Experience Platform. Os dados do arquivo são consumidos no tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform. Durante a configuração do arquivo, você pode definir mapeamentos de coluna, tipos de dados, tratamento NULL e políticas de erro por coluna. As linhas que falharem na validação são rejeitadas e registradas antes da execução da campanha, mantendo o público-alvo limpo sem pré-processamento manual. Isso é particularmente adequado para envios ad hoc ou campanhas de lista de parceiros em que a criação de um pipeline de assimilação completo não é prática.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Personalização baseada em loop para dados relacionais em campanhas orquestradas** - O editor de personalização agora oferece suporte a um **Bloco de loop** que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de gravação de expressão.
+* **Personalização baseada em loop para dados relacionais em campanhas orquestradas** - O editor de personalização agora oferece suporte a um **Bloco de loop** que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de gravação de expressão. Você pode visualizar como os blocos em loop são renderizados em relação aos dados de amostra antes da campanha entrar em funcionamento, incluindo o tratamento de coleções vazias.
 
 * **Personalizar detalhes do remetente de email por destinatário e campanha** - As campanhas orquestradas agora oferecem suporte à personalização de **campos de cabeçalho de email**, incluindo Do nome, Do endereço e Responder para, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o supervisor, o local ou a ramificação relevante para cada destinatário, em vez de rotear todos os envios por meio de um único endereço corporativo. Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso.
 
@@ -110,13 +105,13 @@ Os seguintes recursos e melhorias estão chegando ao canal de email nesta versã
 <table>
 <thead>
 <tr>
-<th><strong>Verificação de conteúdo no Designer de email</strong><br/></th>
+<th><strong>Verificações de qualidade de conteúdo no Designer de email</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer agora permite que os usuários validem sua <strong>qualidade do conteúdo de email</strong> - incluindo legibilidade, eficácia e coesão de conteúdo - diretamente na interface do Designer de email.</p>
+<p>O Journey Optimizer agora inclui pontuação de qualidade de conteúdo diretamente no Designer de email, que analisa seu email em três dimensões antes do lançamento: ortografia, gramática e pontuação; legibilidade e tom, incluindo sinalizadores para frases longas, voz passiva e jargão; e eficácia da linha de assunto e do CTA, pontuada para maior clareza, urgência e estrutura. Cada verificação exibe sugestões acionáveis, permitindo que as equipes capturem e resolvam problemas sem sair da interface de criação.</p>
 </td>
 </tr>
 </tbody>
@@ -131,7 +126,7 @@ Os seguintes recursos e melhorias estão chegando ao canal de email nesta versã
 <tbody>
 <tr>
 <td>
-<p>Esta nova opção permite <strong>reduzir o tamanho da HTML</strong> em um email removendo espaços em branco, comentários e códigos redundantes desnecessários — sem alterar a aparência do email. Isso ajuda a melhorar a capacidade de entrega (alguns provedores de email rejeitam ou sinalizam emails superdimensionados) e pode acelerar o tempo de carregamento dos recipients.</p>
+<p>O Journey Optimizer agora inclui uma opção para reduzir o tamanho do HTML do seu email removendo espaços em branco, comentários e códigos redundantes desnecessários — sem afetar a forma como o email é renderizado. Isso pode melhorar a capacidade de delivery, evitando limites de tamanho que alguns provedores de email usam para sinalizar ou rejeitar mensagens e pode reduzir o tempo de carregamento dos recipients.</p>
 </td>
 </tr>
 </tbody>
@@ -237,7 +232,7 @@ O aprimoramento a seguir está chegando às campanhas nesta versão.
 
 Os seguintes aprimoramentos estão chegando aos relatórios nesta versão.
 
-* **Métricas de clique estimadas para relatórios de email e SMS** - **Cliques estimados** agora estão disponíveis nos relatórios de Jornadas, Campanhas e Canal. Essa métrica reflete o total de cliques após a exclusão de tráfego identificado de bot e não humano (NHI), fornecendo uma visão mais clara do envolvimento genuíno do cliente.
+* **Cliques estimados para relatórios de email e SMS** — Uma nova métrica **Cliques estimados** agora está disponível em Jornadas, Campanhas e Relatórios de canal para email e SMS. Essa métrica exclui o tráfego identificado de bot e de interação não humana (NHI) para fornecer uma visão mais clara do envolvimento genuíno do cliente. A métrica Clicks existente permanece disponível e continua a relatar o total de cliques.
 
 +++ Em breve — **As informações abaixo estão sujeitas a alterações.**
 
