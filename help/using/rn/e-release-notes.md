@@ -6,15 +6,10 @@ description: Notas de pré-lançamento do Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 047bf4bee4fafe720cb301a979428bdf0c039027
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 23458e8e761e640e7428f1f048b1c79fad02e1a0
 workflow-type: tm+mt
 source-wordcount: 1921
 ht-degree: 5%
@@ -154,7 +149,7 @@ Os seguintes recursos e melhorias estão chegando ao canal de email nesta versã
 
 * **Conversor de Imagem para HTML aprimorado** - Uma nova versão do recurso de conversão de Imagem para HTML está disponível, trazendo mais precisão para a geração de HTML. Essa atualização aproveita modelos LLM de camada mais alta para fornecer saída de HTML mais precisa e confiável a partir de entradas de imagem.
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
++++ Em breve — **As informações abaixo estão sujeitas a alterações**
 
 <table>
 <thead>
@@ -239,7 +234,7 @@ Os seguintes aprimoramentos estão chegando aos relatórios nesta versão.
 
 * **Cliques estimados para relatórios de email e SMS** — Uma nova métrica **Cliques estimados** agora está disponível em Jornadas, Campanhas e Relatórios de canal para email e SMS. Essa métrica exclui o tráfego identificado de bot e de interação não humana (NHI) para fornecer uma visão mais clara do envolvimento genuíno do cliente. A métrica Clicks existente permanece disponível e continua a relatar o total de cliques.
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
++++ Em breve — **As informações abaixo estão sujeitas a alterações**
 
 * **Novas métricas de clique estimadas para relatórios de email e SMS** - Para fornecer uma visão mais precisa do engajamento real do cliente, novas métricas estimadas agora estão disponíveis nos relatórios de Jornadas, Campanhas e Canais. Essas métricas ajudam a filtrar interações não humanas (NHI) e cliques de bot a partir de dados de relatórios:
 
@@ -256,7 +251,7 @@ As seguintes melhorias estão chegando à configuração e administração nesta
 
 * **Conjunto de dados passando do modo de streaming para o modo de lote** - O Conjunto de Dados de Evento de Feedback de Mensagens do AJO está passando do modo de streaming para o **modo de assimilação em lote**. Essa alteração garante que a assimilação de dados não exceda os limites de assimilação de streaming. Se você usar esse conjunto de dados nos relatórios do Customer Journey Analytics ou executar consultas nele, espere um aumento na latência de dados de até 2 horas no futuro.
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
++++ Em breve — **As informações abaixo estão sujeitas a alterações**
 
 * **Lista de permissões de IP do WAF (Firewall do Aplicativo Web)** - O Adobe Journey Optimizer agora oferece suporte à lista de permissões de IP do WAF (Firewall do Aplicativo Web) para páginas de aterrissagem, permitindo que as organizações garantam que todas as solicitações recebidas sejam roteadas exclusivamente por meio de sua infraestrutura configurada do WAF. Com esse aprimoramento, os clientes podem configurar o Journey Optimizer para rejeitar qualquer solicitação direta que ignore a camada do WAF, garantindo que as políticas de segurança definidas em ferramentas como o Imperva sejam aplicadas de forma consistente. Esse recurso fortalece a postura de segurança para empresas com requisitos rigorosos de acesso à rede, dando a elas controle total sobre o fluxo de tráfego para as páginas de aterrissagem hospedadas pela AJO.
 
