@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 5e5a00be28f5b7bcae1fd3810f64302a0248799c
+source-git-commit: 3f38c4a48bc1ae55e285209ce33a0ebc9ecc4dcb
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 9%
+source-wordcount: 1658
+ht-degree: 10%
 
 ---
 
@@ -49,8 +49,10 @@ Os seguintes recursos e melhorias estão chegando às jornadas nesta versão.
 * **Parar ou fechar uma jornada pausada diretamente** - Agora você pode **parar uma jornada ou fechá-la em novas entradas** diretamente do estado **Pausado**. Anteriormente, uma jornada pausada tinha que ser retomada para Ativa antes de ser interrompida ou fechada.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">Vincular à tarefa DOCAC JIRA</a>
 
-* **Suporte de identificador complementar para públicos externos** - Os identificadores complementares no jornada agora têm suporte para públicos externos, incluindo públicos importados de um arquivo CSV e públicos criados com a Composição de Público Federado. Você pode designar qualquer atributo que não seja de identidade ou atributo de identidade que não seja de pessoa do público-alvo como a ID complementar; nenhum rótulo de esquema é necessário.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">Vincular à tarefa DOCAC JIRA</a>
+<!--
+* **Supplemental identifier support for external audiences** - Supplemental identifiers in journeys are now supported for external audiences, including audiences imported from a CSV file and audiences created with Federated Audience Composition. You can designate any non-identity attribute or non-person identity attribute from the audience as the supplemental ID, no schema labeling is required.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">Link to DOCAC JIRA task</a>
+-->
 
 ### Campanhas orquestradas {#june-26-oc}
 
@@ -79,8 +81,10 @@ Os seguintes recursos e melhorias estão chegando às campanhas orquestradas nes
 * **Personalizar detalhes do remetente de email por destinatário e campanha** - As campanhas orquestradas agora oferecem suporte à personalização de **campos de cabeçalho de email**, incluindo Do nome, Do endereço e Responder para, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o supervisor, o local ou a ramificação relevante para cada destinatário, em vez de rotear todos os envios por meio de um único endereço corporativo. Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">Vincular à tarefa DOCAC JIRA</a>
 
-* **Simplificação da dimensão de público alvo em campanhas orquestradas** - A **targeting dimension** ativa agora é mostrada na tela do fluxo de trabalho para que você possa ver qual dimensão é usada por uma atividade de canal. O fluxo de segmentação de várias entidades é mais simples, pois você não precisa mais de uma atividade &quot;Alterar dimensão&quot; separada. Além disso, agora você pode escolher explicitamente se as mensagens são enviadas no nível do perfil ou em um nível de dimensão secundário.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">Vincular à tarefa DOCAC JIRA</a>
+<!--
+* **Target dimension simplification in Orchestrated campaigns** - The active **targeting dimension** is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">Link to DOCAC JIRA task</a>
+-->
 
 ### Tomada de decisão {#june-26-decisioning}
 
