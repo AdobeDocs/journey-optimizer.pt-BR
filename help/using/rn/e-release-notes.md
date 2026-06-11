@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a144c1518f1835495eaf27fa055b89a3bf8d5559
+source-git-commit: abc97745136ffe596325df644831a346e2bb5dcc
 workflow-type: tm+mt
-source-wordcount: 1706
-ht-degree: 7%
+source-wordcount: 1660
+ht-degree: 6%
 
 ---
 
@@ -96,47 +96,9 @@ O recurso a seguir está chegando à Decisão nesta versão.
 </tbody>
 </table>
 
-### Canais {#june-26-channels}
-
-O recurso a seguir foi introduzido nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Canais de saída personalizados</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Journey Optimizer agora apresenta os <strong>Canais personalizados</strong>, um novo recurso que permite aos administradores trazer qualquer canal de mensagens baseado em HTTP de saída — como WeChat, Kakao Talk, Messenger ou um provedor proprietário — diretamente para o Journey Optimizer por meio de um construtor de canal sem código.</p>
-<p>Depois de configurados, os canais personalizados ficam disponíveis em campanhas, jornadas e campanhas orquestradas, com o mesmo conjunto completo de recursos dos canais nativos: personalização com o editor de expressão, experimentação de conteúdo, pré-visualização e prova, relatórios prontos para uso e aplicação de consentimento e governança. Isso preenche a lacuna anteriormente abordada por ações personalizadas, que estavam limitadas a jornadas e não tinham criação de conteúdo dedicado.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### Email {#june-26-email}
 
 Os seguintes recursos e melhorias estão chegando ao canal de email nesta versão.
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Advanced Components</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Email Designer now includes a library of ready-to-use layout components — such as Headers, Product Cards (1, 2, or 3 columns), Information blocks, and Footers — that you can drag and drop directly into your email canvas. Each component comes pre-configured with editable properties (image, title, text, button, links) and can be fully customized through the WYSIWYG interface, speeding up email creation without requiring you to build structures from scratch.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -163,17 +125,45 @@ Os seguintes recursos e melhorias estão chegando ao canal de email nesta versã
 <tr>
 <td>
 <p>Esta nova opção permite <strong>reduzir o tamanho da HTML</strong> em um email removendo espaços em branco, comentários e códigos redundantes desnecessários — sem alterar a aparência do email. Isso ajuda a melhorar a capacidade de entrega (alguns provedores de email rejeitam ou sinalizam emails superdimensionados) e pode acelerar o tempo de carregamento dos recipients.</p>
-<p>Data de disponibilidade: 10 de junho de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Rich text em campos editáveis para fragmentos** - Agora é possível adicionar rich text a fragmentos personalizáveis usados no conteúdo de emails. Por exemplo, ao usar o componente de Texto como um campo editável no Designer de email, você pode formatar o conteúdo diretamente (por exemplo, negrito e itálico) e inserir hiperlinks.
+<table>
+<thead>
+<tr>
+<th><strong>Rich text em campos editáveis para fragmentos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível adicionar rich text a fragmentos personalizáveis usados no conteúdo de emails. Por exemplo, ao usar o componente de Texto como um campo editável no Designer de email, você pode formatar o conteúdo diretamente (por exemplo, negrito e itálico) e inserir hiperlinks.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-<!--
-* **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment. When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered — both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.
--->
++++ Em breve — **As informações abaixo estão sujeitas a alterações.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Módulos no Email Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Designer de email agora inclui uma biblioteca de componentes de layout prontos para uso — como cabeçalhos, cartões de produto (1, 2 ou 3 colunas), blocos de informações e rodapés — que você pode arrastar e soltar diretamente na tela de email. Cada componente vem pré-configurado com propriedades editáveis (imagem, título, texto, botão, links) e pode ser totalmente personalizado por meio da interface do WYSIWYG, acelerando a criação de emails sem exigir a criação de estruturas do zero.</p>
+<p>Data de disponibilidade: 22 de junho de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
 
 ### Mensagens por dispositivo móvel (SMS, MMS, RCS e LINE) {#june-26-mobile}
 
