@@ -11,10 +11,10 @@ keywords: fragmentos, jornada, reutilizar, nós, tela, inventário, reutilizáve
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1516
-ht-degree: 7%
+source-wordcount: 1644
+ht-degree: 6%
 
 ---
 
@@ -24,13 +24,6 @@ ht-degree: 7%
 Os fragmentos de jornada são conjuntos reutilizáveis de nós de jornada que você pode criar uma vez e soltar em qualquer jornada na sandbox. Seja uma verificação de elegibilidade, uma lógica de roteamento de canal preferencial ou uma sequência de boas-vindas, os fragmentos ajudam as equipes a se moverem mais rápido e a permanecerem consistentes, sem reconstruir a mesma lógica do zero todas as vezes. [Consulte exemplos de caso de uso.](#examples)
 
 Depois de criados, os fragmentos são armazenados em um **[!UICONTROL Inventário de Fragmentos]** dedicado e podem ser inseridos em qualquer jornada usando a atividade **[!UICONTROL Fragmentos de Jornada]**.
-
->[!NOTE]
->
->**Fragmentos de Jornada** são conjuntos reutilizáveis de nós de jornada. Eles são diferentes de:
->
->* **[Fragmentos](../content-management/fragments.md)** — componentes de conteúdo reutilizáveis usados em emails em campanhas e jornadas.
->* **[Fragmentos de conteúdo do AEM](../integrations/aem-fragments.md)** — conteúdo criado no Adobe Experience Manager e usado em [!DNL Journey Optimizer].
 
 >[!NOTE]
 >Os fragmentos de jornada usam um **comportamento de cópia**: inserir um fragmento em uma jornada cria uma cópia estática dos nós originais. As atualizações feitas no fragmento original não são refletidas nas jornadas que já o usaram.
@@ -219,3 +212,17 @@ Uma sequência de boas-vindas cronometrada — como uma série de três mensagen
 Um fragmento pode encapsular uma atividade Email seguida por uma [Reação](reaction-events.md), aguardando que o perfil abra o email em um número definido de dias e enviando um lembrete caso não o faça. Essa lógica é comumente reutilizada em promover jornadas e fluxos de conversão de avaliação. O fragmento pode incluir as atividades Email e Reaction.
 
 ![Exemplo de fragmento de lembrete baseado em reação](assets/journey-fragments-uc-reminder.png)
+
+## Perguntas frequentes {#faq}
+
+**Qual a diferença entre um Fragmento de Jornada e um Fragmento (fragmento de conteúdo)?**
+
+**Fragmentos de Jornada** são conjuntos reutilizáveis de nós de jornada — como verificações de elegibilidade ou lógica de roteamento de canal — que você insere em uma jornada usando a atividade **[!UICONTROL Fragmentos de Jornada]**. **[Fragmentos](../content-management/fragments.md)** são componentes de conteúdo reutilizáveis (por exemplo, um cabeçalho ou rodapé) usados dentro de emails em campanhas e jornadas. Resumindo, os Fragmentos de Jornada são reutilizáveis *logic*, enquanto os Fragmentos de conteúdo são reutilizáveis *content*.
+
+**Qual a diferença entre um Fragmento de Jornada e um Fragmento de Conteúdo do AEM?**
+
+**[Fragmentos de conteúdo do AEM](../integrations/aem-fragments.md)** são conteúdos criados no Adobe Experience Manager e reutilizados em [!DNL Journey Optimizer] mensagens. Elas não são uma lógica de jornada. Os fragmentos de jornada, por outro lado, são compilados e armazenados em [!DNL Journey Optimizer] e representam conjuntos de nós de jornada conectados.
+
+**Se eu atualizar um Fragmento de Jornada, fazer a atualização do jornada também?**
+
+Não. Os fragmentos de jornada usam um **comportamento de cópia**: inserir um fragmento cria uma cópia estática de seus nós. As atualizações feitas no fragmento original não são refletidas nas jornadas que já o usaram.

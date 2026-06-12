@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1734
+source-wordcount: 1775
 ht-degree: 13%
 
 ---
@@ -45,15 +45,15 @@ ht-degree: 13%
 >title="Atividade de ação"
 >abstract="A atividade **Ação** permite configurar uma única ação de canal nativa e várias atividades de entrada com a capacidade de adicionar otimização a qualquer ação de canal integrado."
 
-A atividade **Ação** é o único ponto de entrada para todas as ações de canal na tela de jornada.
+A atividade **Ação** é o único ponto de entrada para fornecer conteúdo aos seus clientes a partir da tela de jornada. Em vez de escolher uma atividade separada para cada canal, você arrasta uma única atividade **[!UICONTROL Ação]** para a tela e seleciona o canal que deseja usar.
 
-Ele substitui as atividades de canal individuais anteriores e consolida Email, Push, SMS, No aplicativo, Web, experiência baseada em código e Cartão de conteúdo em um tipo de atividade unificada.
+Ele consolida todos os canais incorporados — Email, Push, SMS, No aplicativo, Web, experiência baseada em código e Cartão de conteúdo — em um tipo de atividade unificada, substituindo as atividades de canal individuais usadas anteriormente.
 
-Use-a para:
+Use a atividade **Ação** para:
 
 * Configure qualquer ação de canal integrada em uma única interface simplificada.
-* Crie grupos de ação de entrada de várias ações.
-* Aplique otimização a qualquer ação de canal.
+* Combine várias experiências de entrada em um [grupo de várias ações](#multi-action).
+* Aplique [otimização](../content-management/gs-message-optimization.md), [conteúdo multilíngue](../content-management/multilingual-gs.md) e configurações específicas de canal a qualquer ação.
 
 >[!NOTE]
 >

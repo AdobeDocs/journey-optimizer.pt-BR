@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1080
-ht-degree: 15%
+source-wordcount: 1377
+ht-degree: 12%
 
 ---
 
@@ -168,6 +168,40 @@ O Jornada Dry run gera **stepEvents**. Estes stepEvents têm um sinalizador espe
 Se exportar dados de stepEvent para **sistemas externos**, você poderá filtrar execuções de execução Seca usando o sinalizador `inDryRun`.
 
 Ao analisar **métricas de relatórios do jornada** usando o serviço de consulta [!DNL Adobe Experience Platform], os eventos de etapa gerados por Dry Run devem ser excluídos. Para fazer isso, exclua os eventos de etapa em que `inDryRun` é `true` (ou seja, inclua apenas eventos em que `inDryRun` seja `null` ou `false`).
+
+## Perguntas frequentes {#faq}
+
+**Uma simulação envia mensagens a clientes reais?**
+
+Não. O Dry run usa dados de produção reais, mas não entra em contato com perfis ou atualiza informações de perfil. As ações de canal (Email, SMS, Push) não são executadas e as ações personalizadas são desabilitadas com respostas definidas como `null`.
+
+**Que permissões preciso ter para iniciar ou parar uma execução Seca?**
+
+Iniciar uma execução Seca requer a permissão de alto nível **[!DNL Publish journeys]**. A interrupção de uma simulação requer a permissão de alto nível **[!DNL Manage journeys]**. Saiba mais na [seção de permissões](../administration/permissions-overview.md).
+
+**Em quais jornadas posso executar um Dry run?**
+
+Você pode usar o comando Executar Seco em qualquer jornada de **[!UICONTROL Rascunho]** que não contenha erros.
+
+**Por quanto tempo dura uma simulação?**
+
+Após 14 dias, as jornadas de Execução Seca fazem a transição automática de volta para o status **[!UICONTROL Rascunho]**. Você também pode interromper uma execução seca manualmente a qualquer momento.
+
+**As atividades de espera e as fontes de dados externas são executadas durante uma Execução Seca?**
+
+Por padrão, as atividades de **Espera** e as **Fontes de dados** (incluindo fontes de dados externas) são desabilitadas durante uma Execução seca. Você pode alterar esse comportamento ao [ativar o modo de simulação](#journey-dry-run-start).
+
+**Os perfis e as jornadas de simulação contam nas minhas cotas?**
+
+Sim. Perfis no modo de execução a seco são contados em relação a [Perfis ativáveis](../audience/license-usage.md) e jornadas no modo de execução a seco são contadas em relação à cota de jornada ativa. No entanto, as jornadas de simulação não afetam as regras de negócios.
+
+**Ainda posso acessar os relatórios de Dry run após parar o teste?**
+
+Não. Os dados de relatório estão disponíveis somente enquanto o Dry run está **ativo**. Depois de interrompidos, os dados não estarão mais acessíveis. Use o botão **Exportar** acima dos relatórios para baixá-los antecipadamente, se necessário.
+
+**Como posso excluir os dados de simulação do meu relatório?**
+
+O simulação gera **stepEvents** sinalizados com `inDryRun` e um `dryRunID`. Ao analisar métricas de relatórios de jornada com o Serviço de consulta [!DNL Adobe Experience Platform], exclua os eventos de etapa em que `inDryRun` é `true` (inclua apenas eventos em que `inDryRun` seja `null` ou `false`).
 
 ## Vídeo tutorial {#dry-run-video}
 

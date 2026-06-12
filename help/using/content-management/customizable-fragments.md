@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 1735
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -166,7 +166,7 @@ Para fazer isso:
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
 >title="Fragmento herdado"
->abstract="Os campos editáveis neste fragmento estão no modo somente texto. Isso significa que você só pode inserir texto sem formatação ao editar esse fragmento em emails. Rich text como negrito, itálico, hiperlinks e quebras de linha não são compatíveis. Clique em <b>Alternar para o modo HTML</b> para habilitar rich text em campos editáveis ao usar o fragmento em um email."
+>abstract="Os campos editáveis neste fragmento estão no modo somente texto. Isso significa que você só pode inserir texto simples ao editar esse fragmento em emails — texto formatado, como negrito, itálico, hiperlinks e quebras de linha, não é compatível. Clique em <b>Alternar para o modo HTML</b> para habilitar rich text em campos editáveis ao usar o fragmento em um email."
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_field_compatibility"

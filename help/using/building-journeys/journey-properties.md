@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 3657
-ht-degree: 9%
+source-wordcount: 4152
+ht-degree: 8%
 
 ---
 
@@ -454,6 +454,36 @@ A seção **[!UICONTROL Gerenciamento de conflitos]** nas propriedades da jornad
   Para situações em que essa mesma configuração de canais de entrada é usada em outras campanhas ou jornadas, a ação de entrada com a pontuação de prioridade mais alta é mostrada ao destinatário. Se várias jornadas ou campanhas tiverem a mesma pontuação, o elemento que foi modificado mais recentemente será escolhido.
 
 * **Exibir conflitos** com outras jornadas, campanhas ou configurações de canal. Se você quiser identificar sobreposição no público-alvo, data de início e término, configuração de canal, canal ou conjunto de regras, é possível visualizar os possíveis conflitos aqui. [Saiba como identificar possíveis conflitos no jornada](../conflict-prioritization/conflicts.md)
+
+## Perguntas frequentes {#faq}
+
+**Onde encontro as propriedades de uma jornada?**
+
+As propriedades estão no painel direito da tela de jornada. Elas aparecem por padrão quando você cria uma nova jornada. Para uma jornada existente, clique no ícone de lápis ao lado do nome da jornada para abri-las. Para jornadas ao vivo, o painel mostra somente a data da publicação e o nome do usuário que publicou a jornada. Consulte [Acessar as propriedades de uma jornada](#access-properties).
+
+**Posso alterar propriedades em uma jornada em tempo real?**
+
+A maioria das propriedades é somente leitura quando uma jornada está ativa. Para modificá-los, crie uma nova versão do jornada ou duplique a jornada, faça suas alterações no rascunho e [publique](publish-journey.md) novamente.
+
+**Qual é a diferença entre a configuração de reentrada e o período de espera de reentrada?**
+
+**[Permitir reentrada](#allow-reentrance)** controla se um perfil pode entrar na jornada mais de uma vez. O **[Período de espera de reentrada](#reentrance-wait)** (exibido somente quando a reentrada é permitida) define o tempo de espera antes que o mesmo perfil possa inserir novamente uma jornada unitária. O padrão é 5 minutos e o máximo é 90 dias. Para obter mais detalhes, consulte [Gerenciamento de entrada de perfil](entry-management.md).
+
+**Por quanto tempo um perfil pode permanecer em uma jornada?**
+
+Um [tempo limite de jornada global](#global_timeout) para um perfil **91 dias** depois que ele entrar — a jornada de um indivíduo não pode durar mais do que isso. Esse tempo limite não é exibido na interface e não pode ser alterado. Como os dados do perfil são removidos após 91 dias, o bloqueio de reentrada não pode ser garantido além desse período. Consulte também [Como o jornada termina](end-journey.md#journey-finished-definition).
+
+**Por que minha jornada não foi publicada devido ao tamanho da carga?**
+
+O indicador **[!UICONTROL Tamanho atual da carga da jornada]** mostra a carga da jornada em relação ao limite configurado (4 MB por padrão). Se a carga se aproximar ou exceder o limite, a publicação falhará. Reduza o tamanho simplificando a lógica de jornada ou reduzindo o número de atividades, ou entre em contato com o Atendimento ao cliente da Adobe para solicitar um limite mais alto. Consulte [Tamanho da carga da Jornada](#journey-payload-size), [Validação do tamanho da carga da Jornada](../start/guardrails.md#journey-payload-size) e [Medidas de proteção de jornada gerais](../start/guardrails.md#journeys-guardrails-journeys).
+
+**Qual política de mesclagem minha jornada usa?**
+
+Depende do tipo de jornada: [Ler público-alvo](read-audience.md) e [Qualificação do público-alvo](audience-qualification-events.md) As jornadas usam a política de mesclagem do público-alvo, [evento unitário](../event/about-events.md) As jornadas usam a política de mesclagem padrão e [evento comercial](../event/about-creating-business.md) As jornadas usam a política de mesclagem do público-alvo direcionado na seguinte atividade Ler público-alvo. A mesma política de mesclagem se aplica a toda a jornada. Se uma política de mesclagem de público-alvo for atualizada, qualquer jornada ativa que faça referência a esse público-alvo deverá ser republicada ou duplicada. Consulte [Política de mesclagem](#merge-policies).
+
+**Qual é a diferença entre o tempo limite de jornada de 91 dias e a janela de relatório de 91 dias?**
+
+Esses conceitos são separados. O **[tempo limite global de jornada](#global_timeout)** (91 dias) é o tempo máximo que um perfil individual pode permanecer ativo em uma jornada, após o qual o perfil é fechado e seus dados são excluídos. A **janela de relatórios** (aproximadamente 91 dias) é um limite de exibição da interface do usuário: os dados de desempenho com mais de ~91 dias não estão mais visíveis, mas a jornada continua em execução e novos perfis continuam sendo inseridos. Para obter detalhes sobre TTL e retenção de dados, consulte as [Perguntas frequentes sobre TTL (Time-to-Live) e retenção de dados](#timeout-faq).
 
 ## Tópicos relacionados {#related-topics}
 
