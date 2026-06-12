@@ -10,32 +10,16 @@ keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1080
-ht-degree: 15%
+source-wordcount: 1377
+ht-degree: 12%
 
 ---
 
@@ -169,8 +153,42 @@ Se exportar dados de stepEvent para **sistemas externos**, você poderá filtrar
 
 Ao analisar **métricas de relatórios do jornada** usando o serviço de consulta [!DNL Adobe Experience Platform], os eventos de etapa gerados por Dry Run devem ser excluídos. Para fazer isso, exclua os eventos de etapa em que `inDryRun` é `true` (ou seja, inclua apenas eventos em que `inDryRun` seja `null` ou `false`).
 
+## Perguntas frequentes {#faq}
+
+**Uma simulação envia mensagens a clientes reais?**
+
+Não. O Dry run usa dados de produção reais, mas não entra em contato com perfis ou atualiza informações de perfil. As ações de canal (Email, SMS, Push) não são executadas e as ações personalizadas são desabilitadas com respostas definidas como `null`.
+
+**Que permissões preciso ter para iniciar ou parar uma execução Seca?**
+
+Iniciar uma execução Seca requer a permissão de alto nível **[!DNL Publish journeys]**. A interrupção de uma simulação requer a permissão de alto nível **[!DNL Manage journeys]**. Saiba mais na [seção de permissões](../administration/permissions-overview.md).
+
+**Em quais jornadas posso executar um Dry run?**
+
+Você pode usar o comando Executar Seco em qualquer jornada de **[!UICONTROL Rascunho]** que não contenha erros.
+
+**Por quanto tempo dura uma simulação?**
+
+Após 14 dias, as jornadas de Execução Seca fazem a transição automática de volta para o status **[!UICONTROL Rascunho]**. Você também pode interromper uma execução seca manualmente a qualquer momento.
+
+**As atividades de espera e as fontes de dados externas são executadas durante uma Execução Seca?**
+
+Por padrão, as atividades de **Espera** e as **Fontes de dados** (incluindo fontes de dados externas) são desabilitadas durante uma Execução seca. Você pode alterar esse comportamento ao [ativar o modo de simulação](#journey-dry-run-start).
+
+**Os perfis e as jornadas de simulação contam nas minhas cotas?**
+
+Sim. Perfis no modo de execução a seco são contados em relação a [Perfis ativáveis](../audience/license-usage.md) e jornadas no modo de execução a seco são contadas em relação à cota de jornada ativa. No entanto, as jornadas de simulação não afetam as regras de negócios.
+
+**Ainda posso acessar os relatórios de Dry run após parar o teste?**
+
+Não. Os dados de relatório estão disponíveis somente enquanto o Dry run está **ativo**. Depois de interrompidos, os dados não estarão mais acessíveis. Use o botão **Exportar** acima dos relatórios para baixá-los antecipadamente, se necessário.
+
+**Como posso excluir os dados de simulação do meu relatório?**
+
+O simulação gera **stepEvents** sinalizados com `inDryRun` e um `dryRunID`. Ao analisar métricas de relatórios de jornada com o Serviço de consulta [!DNL Adobe Experience Platform], exclua os eventos de etapa em que `inDryRun` é `true` (inclua apenas eventos em que `inDryRun` seja `null` ou `false`).
+
 ## Vídeo tutorial {#dry-run-video}
 
 Saiba como testar suas jornadas neste vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464687/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
