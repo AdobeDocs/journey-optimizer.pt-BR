@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a2257f19ea46aaf4bcf45580a0e6cf0d207be355
+source-git-commit: b7088f7f9a21839bde56b71ccacd6c62d4e004ff
 workflow-type: tm+mt
-source-wordcount: 1876
+source-wordcount: 2008
 ht-degree: 5%
 
 ---
@@ -218,6 +218,27 @@ Os seguintes recursos e melhorias estão chegando ao gerenciamento de conteúdo 
 <tr>
 <td>
 <p>O Assistente de IA agora busca automaticamente <b>imagens aprovadas pela marca</b> diretamente da sua Adobe Experience Manager Assets ao gerar emails, páginas da Web e notificações por push. Isso elimina a necessidade de pesquisar manualmente o Assets ou confiar em fallbacks de IA genéricos, garantindo que cada visual seja perfeitamente preciso e compatível com a marca.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Assistente de IA para melhorias na geração de conteúdo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Esta versão aprimora a experiência de geração de conteúdo do <strong>Assistente de IA</strong> com uma edição de imagens mais forte, extração de marca mais confiável e suporte à autenticidade de conteúdo no fluxo de imagem:</p>
+<ul>
+<li><strong>A edição de imagens de IA</strong> agora está disponível no fluxo de geração de imagens, incluindo suporte a modelos de terceiros do Firefly, para que você possa refinar as imagens de origem sem sair do assistente.</li>
+<li><strong>A extração de sinal da marca</strong> oferece resultados de maior qualidade. Quando as páginas selecionadas não têm sinal suficiente, os fallbacks aprimorados agora preenchem cores, tipografia, diretrizes de escrita e outros atributos da marca.</li>
+<li><strong>A extração de marca baseada na Web</strong> é mais confiável. O manuseio aprimorado do tempo limite ajuda a impedir que páginas lentas, pop-ups e banners de cookies bloqueiem a extração.</li>
+<li>Agora há suporte para a <strong>Autenticidade de conteúdo (CAI)</strong> no fluxo de imagem. Esta versão também corrige problemas de upload de imagem de referência e melhora o tratamento de imagens sem um manifesto C2PA existente.</li>
+</ul>
 </td>
 </tr>
 </tbody>
