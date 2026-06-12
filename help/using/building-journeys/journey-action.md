@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: 49b3594b414b03a4a184830435a843103b517c1a
 workflow-type: tm+mt
-source-wordcount: 1775
+source-wordcount: 1777
 ht-degree: 13%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 A atividade **Ação** é o único ponto de entrada para fornecer conteúdo aos seus clientes a partir da tela de jornada. Em vez de escolher uma atividade separada para cada canal, você arrasta uma única atividade **[!UICONTROL Ação]** para a tela e seleciona o canal que deseja usar.
 
-Ele consolida todos os canais incorporados — Email, Push, SMS, No aplicativo, Web, experiência baseada em código e Cartão de conteúdo — em um tipo de atividade unificada, substituindo as atividades de canal individuais usadas anteriormente.
+Ele consolida todos os canais internos nativos herdados — Email, Push, SMS, No aplicativo, Web, experiência baseada em código e Cartão de conteúdo — em um tipo de atividade unificada, substituindo as atividades de canal individuais usadas anteriormente.
 
 Use a atividade **Ação** para:
 
