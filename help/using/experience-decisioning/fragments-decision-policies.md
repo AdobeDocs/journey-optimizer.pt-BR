@@ -7,21 +7,15 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ac47bdffab45e4b7645430a4dab687a47844c140
 workflow-type: tm+mt
-source-wordcount: 1143
-ht-degree: 0%
+source-wordcount: 1177
+ht-degree: 1%
 
 ---
 
@@ -163,6 +157,8 @@ Antes de aproveitar os fragmentos de conteúdo do AEM em uma política de decis�
 
 No editor de personalização, todos os Fragmentos de conteúdo do AEM associados aos itens de decisão selecionados pela política estão disponíveis. Uma pasta é exibida por nome de chave do fragmento.
 
+➡️ [Saiba como usar Fragmentos de conteúdo do AEM com o Journey Optimizer Decisioning em vídeo](#video)
+
 Neste exemplo, a política de decisão inclui dois itens de decisão que têm fragmentos de AEM vinculados a eles por meio de seu nome de referência.
 
 ![](assets/aem-fragment-select.png)
@@ -176,3 +172,9 @@ Neste exemplo, a política de decisão inclui dois itens de decisão que têm fr
    ![](assets/aem-fragment-attribute.png)
 
 1. Antes de ativar sua campanha ou jornada, use o método de simulação para visualizar como os valores de campo do Fragmento de Conteúdo do AEM serão renderizados: clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com exemplos de dados de entrada ou geração automática de IA, ou clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para visualizar com um perfil de teste específico. [Saiba mais sobre como simular conteúdo](../content-management/preview-test.md)
+
+## Vídeo tutorial {#video}
+
+Saiba como usar fragmentos de conteúdo do Adobe Experience Manager com o Journey Optimizer Decisioning para personalizar e otimizar o conteúdo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3492215/?learn=on&enablevpops)
