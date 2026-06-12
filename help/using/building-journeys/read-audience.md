@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 3917
+source-wordcount: 3958
 ht-degree: 7%
 
 ---
@@ -139,7 +139,7 @@ Você definirá: **Público** (obrigatório), **Namespace** (obrigatório), **Ta
 
 Opcionalmente, você pode habilitar **Usar um identificador complementar** para executar a jornada no contexto de um identificador secundário (por exemplo, uma ID de pedido ou de reserva) além da ID de perfil. Isso permite várias entradas do mesmo perfil quando o identificador complementar é diferente.
 
-[Saiba como usar identificadores complementares no jornada](supplemental-identifier.md). Para jornadas de leitura de público, o identificador complementar deve ser um atributo de perfil; a taxa de leitura é limitada a 500 perfis por segundo quando a ID complementar é usada.
+[Saiba como usar identificadores complementares no jornada](supplemental-identifier.md). Para jornadas de Leitura de público, o identificador complementar é preparado a partir do **esquema de união/perfil** para **públicos-alvo do Unified Profile Service**, ou selecionado a partir de atributos qualificados em **públicos-alvo externos** (por exemplo, públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR#import-audience){target="_blank"} ou resultantes de [fluxos de trabalho de composição](../audience/get-started-audience-orchestration.md)). A taxa de leitura é limitada a 500 perfis por segundo por instância do jornada quando a ID complementar é usada.
 
 ### Medidas de proteção e recomendações {#must-read}
 
