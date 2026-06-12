@@ -6,17 +6,12 @@ description: Notas de pré-lançamento do Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: a2257f19ea46aaf4bcf45580a0e6cf0d207be355
 workflow-type: tm+mt
-source-wordcount: 1921
+source-wordcount: 1876
 ht-degree: 5%
 
 ---
@@ -223,11 +218,13 @@ Os seguintes recursos e melhorias estão chegando ao gerenciamento de conteúdo 
 </tbody>
 </table>
 
-### Campanhas {#june-26-campaigns}
+<!--
+### Campaigns {#june-26-campaigns}
 
-O aprimoramento a seguir está chegando às campanhas nesta versão.
+The following improvement is coming to campaigns in this release.
 
-* **Substituir o campo de execução padrão em campanhas** - Anteriormente disponível no nível de jornada, agora você pode substituir o **campo de execução** padrão definido globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da campanha.
+* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default **execution field** set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
+-->
 
 ### Relatório {#june-26-reporting}
 
