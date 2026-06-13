@@ -129,7 +129,7 @@ Para usar um identificador complementar em uma jornada Ler público, siga estas 
 
    1. No campo **[!UICONTROL Identificador complementar]**, use o editor de expressão para selecionar o atributo de identificador complementar.
 
-   Para públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}, se o público-alvo de CSV contiver várias linhas por ID de perfil, verifique se a Ativação Expressa está habilitada primeiro. Consulte [Identificadores complementares com públicos-alvo externos](#external-audiences).
+   Para públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR#import-audience){target="_blank"}, se o público-alvo de CSV contiver várias linhas por ID de perfil, verifique se a Ativação Expressa está habilitada primeiro. Consulte [Identificadores complementares com públicos-alvo externos](#external-audiences).
 
        >[!NOTE]
        >
@@ -200,7 +200,7 @@ Entre em contato com seu representante da Adobe para obter orientação sobre o 
 
 ## Identificadores complementares com públicos externos {#external-audiences}
 
-A ID complementar é compatível com públicos externos, incluindo públicos [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} e públicos criados com [Composição de Público Federado](../audience/get-started-audience-orchestration.md). Ao configurar uma jornada que lê de um público de composição de público-alvo CSV ou Federated Audience, você pode designar qualquer atributo que não seja de identidade nesse público-alvo como a ID complementar. Em seguida, o Journey Optimizer cria uma instância do jornada separada por perfil exclusivo + combinação de ID complementar.
+A ID complementar é compatível com públicos externos, incluindo públicos [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR#import-audience){target="_blank"} e públicos criados com [Composição de Público Federado](../audience/get-started-audience-orchestration.md). Ao configurar uma jornada que lê de um público de composição de público-alvo CSV ou Federated Audience, você pode designar qualquer atributo que não seja de identidade nesse público-alvo como a ID complementar. Em seguida, o Journey Optimizer cria uma instância do jornada separada por perfil exclusivo + combinação de ID complementar.
 
 * Caso de uso 1: uma linha por perfil exclusivo + par de ID complementar
 
@@ -272,7 +272,7 @@ Corpo da solicitação (conjunto `expressActivation: true`):
 >
 >O padrão de `expressActivation` é `false`. Ele deve ser definido no momento da criação do público-alvo e não pode ser alterado após a criação. Todos os públicos-alvo da Composição de Público-Alvo Federado têm a Ativação Expressa habilitada por padrão e não exigem esse sinalizador.
 
-Consulte a [documentação da API de criação de público-alvo externo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} para obter a referência completa.
+Consulte a [documentação da API de criação de público-alvo externo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} para obter a referência completa.
 
 +++
 
