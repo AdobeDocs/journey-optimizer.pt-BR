@@ -19,14 +19,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 281
-ht-degree: 15%
+source-wordcount: 314
+ht-degree: 13%
 
 ---
 
 # Medidas de proteção e limitações do serviço de decisão {#decisioning-guardrails}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Revise as medidas de proteção e os limites que se aplicam à Decisão em solicitações de decisão, itens, políticas, regras de qualificação e fórmulas de classificação, para que você possa projetar configurações de decisão que permaneçam dentro dos limites com suporte.
+
+>[!ENDSHADEBOX]
 
 Para garantir o uso ideal do Decisioning, lembre-se das seguintes medidas de proteção e limitações.
 

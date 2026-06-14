@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: 1210
 ht-degree: 5%
 
 ---
 
 # API de migração de decisão {#decisioning-migration-api}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** use a API do Serviço de Migração de Decisão para mover objetos de Gerenciamento de decisão entre sandboxes com análise de dependência automatizada e suporte de reversão, para que você possa fazer a transição de conteúdo de decisão entre ambientes, preservando a integridade dos dados.
+
+>[!ENDSHADEBOX]
 
 A API do serviço de migração de decisão permite migrar objetos de Gestão de decisões de uma sandbox para outra. O processo de migração é executado como fluxos de trabalho assíncronos que incluem análise de dependência, execução e recursos opcionais de reversão.
 

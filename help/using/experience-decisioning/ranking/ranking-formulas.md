@@ -22,14 +22,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1775
 ht-degree: 5%
 
 ---
 
 # Criar fórmulas de classificação {#create-ranking-formulas}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** crie fórmulas de classificação com o construtor de fórmulas de IA que combinam pontuações do modelo de IA, prioridades de oferta, atributos de perfil e sinais contextuais, para que você possa controlar qual oferta é apresentada primeiro e alinhar a decisão com as metas comerciais e as necessidades dos clientes.
+
+>[!ENDSHADEBOX]
 
 **As fórmulas de classificação** permitem definir regras que determinam qual oferta deve ser apresentada primeiro, em vez de considerar as pontuações de prioridade.
 

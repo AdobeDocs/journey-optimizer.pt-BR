@@ -28,14 +28,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1294
+source-wordcount: 1320
 ht-degree: 4%
 
 ---
 
 # Benefícios da migração para a Decisão {#migrate-to-decisioning}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Entenda os recursos e os benefícios que a Decisão oferece sobre a Gestão de decisões, juntamente com as ferramentas de migração disponíveis, para que você possa decidir se deseja migrar.
+
+>[!ENDSHADEBOX]
 
 ## O que é a Decisão? {#what-is-decisioning}
 

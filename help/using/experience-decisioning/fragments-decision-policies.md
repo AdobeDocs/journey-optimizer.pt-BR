@@ -18,14 +18,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ac47bdffab45e4b7645430a4dab687a47844c140
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1177
+source-wordcount: 1204
 ht-degree: 1%
 
 ---
 
 # Aproveitar fragmentos em políticas de decisão {#fragments}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** aproveite os fragmentos de conteúdo do Journey Optimizer e os Fragmentos de conteúdo do AEM nas políticas de decisão para que você possa personalizar e otimizar os envios de decisões de conteúdo entre canais.
+
+>[!ENDSHADEBOX]
 
 Os itens de decisão são compatíveis com dois tipos de conteúdo de fragmento que podem ser aproveitados ao criar mensagens em uma política de decisão:
 

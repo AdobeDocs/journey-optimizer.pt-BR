@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1230
+source-wordcount: 1262
 ht-degree: 2%
 
 ---
 
 # Usar políticas de decisão em mensagens {#create-decision}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** insira o código de política de decisão em sua experiência baseada em código, email, SMS, notificação por push e conteúdo de correspondência direta para que você possa personalizar mensagens com atributos dos itens de decisão retornados.
+
+>[!ENDSHADEBOX]
 
 Depois de adicionar uma política de decisão ao conteúdo, você pode usar atributos de itens de decisão retornados para personalização. Para fazer isso, primeiro insira o código da política de decisão no seu conteúdo.
 

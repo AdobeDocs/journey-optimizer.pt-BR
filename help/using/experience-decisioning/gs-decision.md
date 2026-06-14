@@ -23,14 +23,20 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 328
-ht-degree: 31%
+source-wordcount: 355
+ht-degree: 29%
 
 ---
 
 # Introdução aos recursos de decisão em [!DNL Journey Optimizer] {#gs-decision}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** compare os recursos de Gestão de decisões e decisões do Journey Optimizer para poder escolher a abordagem certa para fornecer ofertas personalizadas em seus canais.
+
+>[!ENDSHADEBOX]
 
 Os recursos de decisão do [!DNL Journey Optimizer] permitem que você forneça as melhores ofertas e experiências personalizadas aos seus clientes em todos os pontos de contato, exatamente nos momentos certos. Esses recursos simplificam a personalização por meio de um catálogo centralizado de ofertas de marketing e um mecanismo de decisão avançado, que usa regras e critérios de classificação para fornecer o conteúdo mais relevante para cada pessoa física.
 
