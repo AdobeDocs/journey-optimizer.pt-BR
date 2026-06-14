@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 960
-ht-degree: 22%
+source-wordcount: 992
+ht-degree: 21%
 
 ---
 
 # Configurar um subdomínio personalizado {#delegate-custom-subdomain}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como configurar um subdomínio personalizado no Adobe Journey Optimizer usando o método de delegação personalizado, que permite manter a propriedade total de seus subdomínios e certificados SSL.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

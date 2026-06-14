@@ -24,14 +24,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 858
-ht-degree: 100%
+source-wordcount: 889
+ht-degree: 96%
 
 ---
 
 # Introdução à configuração de canal guiada {#set-mobile-config}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como o fluxo de trabalho Configuração de Canal Guiado cria automaticamente as propriedades de marca, as sequências de dados e as configurações de canal necessárias para configurar canais móveis e da Web no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
@@ -207,7 +213,7 @@ Para a **configuração inicial**, veja abaixo uma lista abrangente de todos os 
   </tr>
   <tr>
   <td>
-  <p>Sequências de dados</p>
+  <p>Datastreams</p>
   </td>
   <td>
   <p>Sequência de dados com serviços</p>
@@ -302,7 +308,7 @@ Para a **configuração inicial**, veja abaixo uma lista abrangente de todos os 
   </tr>
   <tr>
   <td>
-  <p>Sequências de dados</p>
+  <p>Datastreams</p>
   </td>
   <td>
   <p>Sequência de dados com serviços</p>
@@ -397,7 +403,7 @@ Para a **configuração inicial**, veja abaixo uma lista abrangente de todos os 
   </tr>
   <tr>
   <td>
-  <p>Sequências de dados</p>
+  <p>Datastreams</p>
   </td>
   <td>
   <p>Sequência de dados com serviços</p>

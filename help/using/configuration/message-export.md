@@ -25,14 +25,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1398
+source-wordcount: 1431
 ht-degree: 6%
 
 ---
 
 # Exportar conteúdo da mensagem {#message-export}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como habilitar a Exportação de Mensagens nas configurações de canal de email e SMS para gravar conteúdo de mensagens enviadas em um conjunto de dados do Adobe Experience Platform e transferi-lo para seu próprio armazenamento.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"

@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1341
+source-wordcount: 1371
 ht-degree: 12%
 
 ---
 
 # Configurar uma lista de permissões {#allow-list}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como ativar, preencher e gerenciar uma lista de permissões no Adobe Journey Optimizer para restringir o envio de emails a domínios e endereços confiáveis no nível da sandbox.
+
+>[!ENDSHADEBOX]
 
 A lista de permissões é uma lista de segurança de envio que você pode definir no nível [sandbox](../administration/sandboxes.md). Ele restringe o envio de emails para endereços ou domínios específicos, garantindo que somente os recipients explicitamente listados possam receber mensagens de uma determinada sandbox.
 

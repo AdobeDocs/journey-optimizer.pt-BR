@@ -30,18 +30,24 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1112
+source-wordcount: 1139
 ht-degree: 8%
 
 ---
 
 # Guia da capacidade de entrega do aquecimento de IP {#ip-warmup-deliverability-guide}
 
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Entenda os fundamentos de capacidade de entrega, a criação de reputação, as verificações antes do voo, os calendários de aquecimento de amostra e as métricas de monitoramento para executar um aquecimento de IP bem-sucedido no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
+
 Ao iniciar campanhas de email com novos endereços IP ou domínios no Adobe Journey Optimizer, entender os fundamentos da capacidade de entrega é fundamental para criar uma sólida reputação do remetente. Este guia aborda os principais conceitos, etapas de preparação e práticas recomendadas para ajudá-lo a fazer a transição da reputação zero para a inserção bem-sucedida da caixa de entrada.
 
-➡️ Saiba mais sobre os fundamentos de capacidade de entrega, a criação de reputação e as práticas recomendadas para aumento gradual de IP no vídeo desta [publicação do blog do Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=pt){target="_blank"}.
+➡️ Saiba mais sobre os fundamentos de capacidade de entrega, a criação de reputação e as práticas recomendadas para aumento gradual de IP no vídeo desta [publicação do blog do Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}.
 
 >[!NOTE]
 >
@@ -157,7 +163,7 @@ Depois de concluir o plano de aquecimento, as métricas se estabilizaram:
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=pt).
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).
 -->
 
 ## Tópicos relacionados {#related-topics}

@@ -25,14 +25,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1963
-ht-degree: 19%
+source-wordcount: 1994
+ht-degree: 18%
 
 ---
 
 # Delegar um subdomínio {#delegate-subdomain}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como delegar subdomínios de envio de email à Adobe no Adobe Journey Optimizer usando a delegação completa ou a configuração CNAME e como acessá-los, validá-los e cancelá-los.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"

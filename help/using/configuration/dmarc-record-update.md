@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 100%
+source-wordcount: 493
+ht-degree: 86%
 
 ---
 
 # Conformidade com o novo requisito DMARC {#dmarc-record-update}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba por que e quando você deve configurar um registro do DMARC para os subdomínios que você delegou à Adobe no Adobe Journey Optimizer para atender aos requisitos de remetente do Google e do Yahoo.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
@@ -52,13 +58,13 @@ Consequentemente, a Adobe recomenda que você se certifique de ter o registro DM
 
 * Se você tiver [delegado por completo](delegate-subdomain.md#set-up-subdomain) seus subdomínios de envio para a Adobe, siga uma das opções abaixo:
 
-   * Configure o DMARC no domínio principal dos subdomínios delegados **na sua solução de hospedagem**.
+   * Configure o DMARC no domínio pai dos subdomínios delegados **na solução de hospedagem**.
 ou
    * Configure o DMARC nos subdomínios delegados **na interface de configuração do[!DNL Journey Optimizer]** – sem trabalho extra na solução de hospedagem. [Saiba como](dmarc-record.md#implement-dmarc)
 
 * Se você configurou os subdomínios de envio com o [CNAME](delegate-subdomain.md#cname-subdomain-setup), siga uma das opções abaixo:
 
-   * Configure o DMARC nos subdomínios ou no domínio principal dos subdomínios **na sua solução de hospedagem**.
+   * Configure o DMARC nos subdomínios ou no domínio pai dos subdomínios **na solução de hospedagem**.
 ou
    * Configure o DMARC nos subdomínios delegados **na interface de configuração do[!DNL Journey Optimizer]**. [Saiba como](dmarc-record.md#implement-dmarc)
 

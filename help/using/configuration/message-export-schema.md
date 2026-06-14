@@ -11,14 +11,20 @@ keywords: exportar, mensagens, conjunto de dados, esquema, emails, SMS
 feature_v2: []
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: 447
 ht-degree: 3%
 
 ---
 
 # Esquema de exportação de mensagens do AJO {#ajo-message-export-schema}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Explore a estrutura e os campos individuais do Conjunto de Dados de Exportação de Mensagens do AJO que armazena conteúdo de mensagens de email e SMS enviadas no Adobe Experience Platform.
+
+>[!ENDSHADEBOX]
 
 Quando a **Exportação de Mensagens** está habilitada em uma configuração de canal de Email ou SMS, o conteúdo da mensagem enviada é gravado no **Conjunto de Dados de Exportação de Mensagens do AJO** em [!DNL Adobe Experience Platform].
 

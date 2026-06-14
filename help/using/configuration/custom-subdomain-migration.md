@@ -13,14 +13,20 @@ exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
 subfeature_v2:
   - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 5%
+source-wordcount: 1301
+ht-degree: 4%
 
 ---
 
 # Migrar um subdomínio de email de CNAME para delegação personalizada {#migrate-cname-to-custom}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como migrar um email ou subdomínio de página de aterrissagem da delegação CNAME para a delegação personalizada no Adobe Journey Optimizer, excluindo os registros DNS existentes, carregando seu certificado SSL, concluindo o loop de comentários e criando novos registros DNS.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

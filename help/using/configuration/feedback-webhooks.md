@@ -21,14 +21,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: 332
 ht-degree: 1%
 
 ---
 
 # Criar webhooks de feedback para campanhas acionadas por API {#webhooks}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar e configurar webhooks de comentários que fornecem atualizações de status de mensagens em tempo real aos seus sistemas para campanhas transacionais acionadas por API no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Os webhooks de feedback permitem que você receba atualizações de status em tempo real para mensagens enviadas por meio de campanhas acionadas por API transacional. Ao configurar um webhook, você pode receber automaticamente os resultados do delivery diretamente para seus sistemas, permitindo monitoramento, registro e processamento automatizado.
 
