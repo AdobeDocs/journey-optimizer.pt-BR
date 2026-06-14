@@ -10,16 +10,21 @@ level: Experienced
 keywords: CC, cópia carbono, email, configuração de canal, cabeçalhos de email, Cco
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
 feature_v2: []
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 906
+source-wordcount: 937
 ht-degree: 5%
 
 ---
 
 # Adicione um campo CC aos emails {#cc-email-field}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como adicionar um campo CC visível a emails em uma configuração de canal do Adobe Journey Optimizer, como ele difere do CCO e as recomendações e limitações relacionadas.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_cc"
