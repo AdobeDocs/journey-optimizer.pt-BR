@@ -9,18 +9,22 @@ role: Developer
 level: Intermediate
 keywords: expressão, editor, condicional, regras
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 635
-ht-degree: 11%
+source-wordcount: 666
+ht-degree: 10%
 
 ---
 
 # Trabalhar com regras condicionais {#conditions}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar regras condicionais de atributos de perfil, eventos contextuais e públicos-alvo no editor de personalização e como salvá-las na biblioteca para reutilização no seu conteúdo.
+
+>[!ENDSHADEBOX]
 
 As regras condicionais são conjuntos de regras que definem qual conteúdo deve ser exibido em suas mensagens, dependendo de vários critérios, como atributos de perfis, associação de público-alvo ou eventos contextuais.
 
@@ -60,7 +64,7 @@ As etapas para criar uma regra condicional são as seguintes:
 
 1. Crie a regra condicional de acordo com suas necessidades. Para fazer isso, arraste e solte e organize os atributos desejados do menu esquerdo na tela de desenho.
 
-   As etapas para combinar atributos na tela são semelhantes à experiência de construção de segmentos. Para obter mais informações sobre como trabalhar com a tela do construtor de regras, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-BR#rule-builder-canvas).
+   As etapas para combinar atributos na tela são semelhantes à experiência de construção de segmentos. Para obter mais informações sobre como trabalhar com a tela do construtor de regras, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 

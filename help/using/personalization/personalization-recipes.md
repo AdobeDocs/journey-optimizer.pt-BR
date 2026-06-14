@@ -5,19 +5,22 @@ feature: Personalization
 topic: Personalization
 role: Developer
 level: Experienced
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: ac5d9310-7772-40fb-9d78-864562e1bfd6
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 845
 ht-degree: 0%
 
 ---
 
 # Receitas do Personalization {#personalization-recipes}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** encontre receitas de personalização prontas para uso para datas, matrizes, cadeias de caracteres, lógica condicional e casos de borda do PQL que você pode copiar diretamente para o conteúdo do Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Esta página fornece padrões de personalização prontos para uso para os casos de uso mais comuns no Adobe Journey Optimizer. Todos os exemplos usam a sintaxe do editor de personalização e podem ser copiados diretamente para o conteúdo de email, SMS ou push.
 
