@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 234
-ht-degree: 100%
+source-wordcount: 261
+ht-degree: 89%
 
 ---
 
 # Introdução ao canal no aplicativo {#gs-in-app}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Introdução ao canal de mensagens no aplicativo no Adobe Journey Optimizer para envolver os usuários do aplicativo com notificações que promovem recursos, ofertas e integração.
+
+>[!ENDSHADEBOX]
 
 As mensagens no aplicativo são notificações que podem ser enviadas aos usuários dentro do aplicativo, guiando-os para pontos de interesse específicos. Essas notificações podem ser usadas para diferentes propósitos, como a promoção de novos recursos, a apresentação de ofertas especiais ou a facilitação da integração de usuários. Ao utilizar as mensagens no aplicativo, você pode interagir com seu público-alvo de forma eficaz e direcioná-lo para aspectos importantes de seu aplicativo.
 

@@ -23,14 +23,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 1284
 ht-degree: 26%
 
 ---
 
 # Criar seu conteúdo no aplicativo {#design-content}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar conteúdo de mensagens no aplicativo no Adobe Journey Optimizer, incluindo o layout de mensagens, mídia, texto, botões e opções avançadas de formatação.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"
@@ -121,7 +127,7 @@ O campo **[!UICONTROL Mídia]** permite adicionar mídia à mensagem no aplicati
 ![](assets/in_app_web_design_3.png)
 
 Digite sua URL de mídia ou clique no ícone **[!UICONTROL Selecionar Assets]** para adicionar diretamente os ativos armazenados na biblioteca do Assets à mensagem no aplicativo. [Saiba mais sobre o gerenciamento de ativos](../integrations/assets.md).
-Você também pode adicionar um **[!UICONTROL texto alternativo]** para aplicativos de leitura de tela.
+Você também pode adicionar um **[!UICONTROL Texto alternativo]** para aplicativos de leitura de tela.
 
 +++Mais opções com formatação avançada
 

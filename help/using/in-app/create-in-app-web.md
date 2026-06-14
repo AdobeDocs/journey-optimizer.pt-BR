@@ -23,14 +23,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 693
+source-wordcount: 721
 ht-degree: 6%
 
 ---
 
 # Criar uma mensagem no aplicativo da Web {#create-in-app-web}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar uma campanha de mensagens no aplicativo da Web no Adobe Journey Optimizer, desde a configuração do canal até a definição do público-alvo, dos acionadores e do conteúdo.
+
+>[!ENDSHADEBOX]
 
 ## Configurar o canal da Web no aplicativo {#configure-web-inapp}
 

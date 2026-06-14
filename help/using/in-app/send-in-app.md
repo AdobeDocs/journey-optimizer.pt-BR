@@ -22,14 +22,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 13%
+source-wordcount: 436
+ht-degree: 12%
 
 ---
 
 # Verificação e envio da notificação no aplicativo {#create-in-app}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Aprenda a visualizar, testar, revisar e ativar a mensagem no aplicativo no Adobe Journey Optimizer antes de enviá-la para o seu público-alvo.
+
+>[!ENDSHADEBOX]
 
 ## Visualização no dispositivo {#preview-device}
 
