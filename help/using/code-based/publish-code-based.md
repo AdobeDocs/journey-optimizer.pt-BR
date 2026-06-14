@@ -7,27 +7,25 @@ role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
 TQID: https://experienceleague.adobe.com/7obMSbnxBNQoGUsf-g-v1dDipisLUw0ulGpx5UiUHxw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: f88eedcc-cf3e-46b8-9e94-0293589325f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 522
+source-wordcount: 540
 ht-degree: 1%
 
 ---
 
 # Gerenciar experiências baseadas em código {#publish-code-based}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como publicar, ativar e parar experiências baseadas em código em suas jornadas e campanhas.
+
+>[!ENDSHADEBOX]
 
 ## Ative sua experiência baseada em código {#code-based-experience-live}
 
@@ -83,13 +81,13 @@ Sua jornada baseada em código pega o status do **[!UICONTROL Live]** e agora es
    >
    >Saiba mais sobre como ativar campanhas em [esta seção](../campaigns/review-activate-campaign.md).
 
-Sua campanha baseada em código pega o **[[!UICONTROL status do [Live]**]](../campaigns/manage-campaigns.md#statuses) e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações que você adicionou ao conteúdo.
+Sua campanha baseada em código pega o **[!UICONTROL status do [Live]**](../campaigns/manage-campaigns.md#statuses) e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações que você adicionou ao conteúdo.
 
 >[!NOTE]
 >
 >Após clicar em **[!UICONTROL Ativar]**, pode levar até 15 minutos para que as alterações fiquem disponíveis ao vivo.
 >
->Se você definiu um agendamento para sua campanha baseada em código, ele tem o **[!UICONTROL status]** [&#x200B; agendado](../campaigns/manage-campaigns.md#statuses) até que a data e a hora de início sejam atingidas.
+>Se você definiu um agendamento para sua campanha baseada em código, ele tem o **[!UICONTROL status]** [ agendado](../campaigns/manage-campaigns.md#statuses) até que a data e a hora de início sejam atingidas.
 
 ## Interromper uma jornada ou campanha baseada em código {#stop-code-based-experience}
 
