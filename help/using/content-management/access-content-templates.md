@@ -20,14 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 900
-ht-degree: 3%
+source-wordcount: 923
+ht-degree: 2%
 
 ---
 
 # Acessar e gerenciar modelos de conteúdo {#access-manage-templates}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como acessar, pesquisar, organizar em pastas, editar, excluir e exportar modelos de conteúdo em sandboxes no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 ## Pré-requisitos {#prerequisites}
 
@@ -126,7 +132,7 @@ Selecione o modo de **[!UICONTROL exibição de grade]** para exibir cada modelo
 
 >[!AVAILABILITY]
 >
->Esse recurso foi lançado com disponibilidade limitada (DL) para um pequeno conjunto de clientes.
+>Esse recurso foi lançado com disponibilidade limitada (DL) para um pequeno grupo de clientes.
 
 ![](assets/content-template-grid-view.png)
 

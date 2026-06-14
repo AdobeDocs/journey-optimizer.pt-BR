@@ -12,15 +12,21 @@ exl-id: 7a4e8f2c-91d3-4b65-8e10-2c9f4a6b8d1e
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: 222
 ht-degree: 0%
 
 ---
 
 
 # Definir variáveis globais em campanhas orquestradas {#define-global-variables}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como adicionar e gerenciar variáveis globais em uma campanha Orquestrada para poder reutilizar pares de nome-valor compartilhados no construtor de regras, condições de teste e outras lógicas de tela.
+
+>[!ENDSHADEBOX]
 
 **As variáveis globais** são pares de nome-valor que você define em uma única campanha Orquestrada e reutiliza em cada execução, para que possa orientar as condições de **[!UICONTROL Teste]**, o construtor de regras e outras lógicas de tela com valores compartilhados (por exemplo, um canal padrão ou email de teste) sem colar o mesmo valor em cada atividade.
 

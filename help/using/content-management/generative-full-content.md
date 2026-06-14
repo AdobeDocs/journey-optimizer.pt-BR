@@ -25,14 +25,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1999
+source-wordcount: 2033
 ht-degree: 2%
 
 ---
 
 # Gerar conteúdo completo com o Assistente de IA {#generative-full-content}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como usar o Assistente de IA no Adobe Journey Optimizer para gerar, refinar e finalizar experiências completas de conteúdo de texto e imagem para seus canais de email, Web, página de aterrissagem e notificação por push.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

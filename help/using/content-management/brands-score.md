@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 667
+source-wordcount: 694
 ht-degree: 9%
 
 ---
 
 # Alinhamento da marca {#brands-score}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como validar seu conteúdo de email em relação às diretrizes da sua marca e avaliar a qualidade geral do conteúdo usando as pontuações de alinhamento da marca no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"

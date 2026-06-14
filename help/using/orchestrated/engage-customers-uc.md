@@ -16,14 +16,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: 625
 ht-degree: 4%
 
 ---
 
 # Engaje clientes com base na atividade de navegação {#engage-customers-uc}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** siga um caso de uso de campanha Orquestrada que reenvolva os clientes com base em sua atividade de navegação lendo um público-alvo, desduplicando-o, dividindo-o por risco de churn e enviando mensagens de acompanhamento personalizadas.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
@@ -105,7 +111,7 @@ Para clientes identificados como tendo um alto risco de churn, crie um segmento 
 
    ![](assets/uc-interest-8.png){zoomable="yes"}
 
-Esse público-alvo é então salvo no Experience Cloud, onde pode ser usado posteriormente para uma campanha direcionada específica.
+Esse público-alvo é salvo na Experience Cloud, onde pode ser usado posteriormente para uma campanha direcionada específica.
 
 ## Segmentos de baixo/médio risco {#low-medium-risk}
 

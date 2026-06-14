@@ -14,14 +14,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1222
-ht-degree: 42%
+source-wordcount: 1255
+ht-degree: 41%
 
 ---
 
 # Criar esquemas relacionais usando um arquivo DDL {#file-upload-schema}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como criar esquemas relacionais no Adobe Experience Platform carregando um arquivo DDL, definindo relações entre tabelas e vinculando esquemas a entidades existentes para uso em campanhas orquestradas.
+
+>[!ENDSHADEBOX]
 
 Defina o modelo de dados relacionais necessário para campanhas orquestradas, criando esquemas como **Associações de Fidelidade**, **Transações de Fidelidade** e **Recompensas de Fidelidade**. Cada esquema deve incluir uma chave primária, um atributo de controle de versão e relações apropriadas com entidades de referência, como **Destinatários** ou **Marcas**.
 

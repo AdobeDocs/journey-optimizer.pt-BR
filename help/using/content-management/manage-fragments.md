@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1523
+source-wordcount: 1551
 ht-degree: 18%
 
 ---
 
 # Gerenciar fragmentos {#manage-fragments}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como acessar, organizar, editar, arquivar e exportar os fragmentos de conteúdo, incluindo o uso de pastas, o rastreamento de status de fragmentos e a exploração da referência a cada fragmento.
+
+>[!ENDSHADEBOX]
 
 ## Acessar fragmentos {#access-fragments}
 

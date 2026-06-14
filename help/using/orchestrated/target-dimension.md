@@ -13,14 +13,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: 497
 ht-degree: 0%
 
 ---
 
 # Configurar uma Targeting dimension {#configuration}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como configurar um targeting dimension para campanhas orquestradas, mapeando um esquema relacional para o perfil do cliente para que você possa entregar mensagens no nível da entidade.
+
+>[!ENDSHADEBOX]
 
 Com **[!UICONTROL campanhas orquestradas]**, você pode projetar e fornecer comunicações direcionadas no nível da entidade, aproveitando os recursos de esquema relacional da Adobe Experience Platform. A Experience Platform usa esquemas para descrever a estrutura dos dados de forma consistente e reutilizável. Quando os dados são assimilados na Experience Platform, eles são estruturados de acordo com um esquema XDM.
 

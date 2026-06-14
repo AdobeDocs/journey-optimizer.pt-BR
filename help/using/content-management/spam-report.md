@@ -17,14 +17,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 17%
+source-wordcount: 398
+ht-degree: 16%
 
 ---
 
 # Relatório de spam de email {#spam-report}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como usar o relatório de spam no Adobe Journey Optimizer para verificar sua pontuação de spam no conteúdo de email e aplicar conselhos que melhorem a capacidade de entrega antes do envio.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_spam_report"

@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 202
-ht-degree: 93%
+source-wordcount: 235
+ht-degree: 80%
 
 ---
 
 # Introdução ao acelerador de experimentação do Journey Optimizer {#content-experiment}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** descubra como o Adobe Journey Optimizer Experimentation Accelerator centraliza os experimentos do Adobe Target e do Adobe Journey Optimizer para executar testes adaptáveis, insights orientados por IA de superfície e rastrear as principais métricas de desempenho.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

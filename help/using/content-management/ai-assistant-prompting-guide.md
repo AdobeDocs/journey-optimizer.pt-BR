@@ -25,14 +25,20 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2296
+source-wordcount: 2328
 ht-degree: 2%
 
 ---
 
 # Práticas recomendadas de solicitações do Assistente de IA {#ai-assistant-prompting-guide}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como gravar prompts eficientes do Assistente de IA usando o assistente de prompts e a estrutura CO-STAR para gerar conteúdo de marketing de alta conversão sob as marcas no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_assistant_prompt"

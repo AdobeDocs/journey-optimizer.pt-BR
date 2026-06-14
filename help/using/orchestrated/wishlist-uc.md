@@ -17,14 +17,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 434
-ht-degree: 4%
+source-wordcount: 462
+ht-degree: 3%
 
 ---
 
 # Envie atualizações de itens da lista de desejos {#wishist-uc}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Siga este caso de uso para criar uma campanha Orquestrada que reenvolva os destinatários com lembretes de email personalizados sobre os produtos salvos na lista de desejos.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

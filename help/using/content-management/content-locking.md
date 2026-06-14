@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1285
-ht-degree: 30%
+source-wordcount: 1319
+ht-degree: 29%
 
 ---
 
 # Bloquear conteúdo em modelos de email {#lock-content-email-templates}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como bloquear conteúdo em modelos de email, no nível da estrutura ou do componente ou como somente leitura, para evitar edições não intencionais quando os profissionais de marketing reutilizarem seus modelos no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"

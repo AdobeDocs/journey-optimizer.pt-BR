@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1287
+source-wordcount: 1320
 ht-degree: 1%
 
 ---
 
 # Casos de uso do Assistente de IA {#generative-uc}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** conheça casos de uso práticos do Assistente de IA no Adobe Journey Optimizer, desde a reutilização de conteúdo existente e o refinamento de variações de texto até a geração de imagens, a aplicação de referências de estilo e o trabalho em idiomas compatíveis.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >

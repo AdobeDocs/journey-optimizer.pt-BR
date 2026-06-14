@@ -15,14 +15,20 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
 workflow-type: tm+mt
-source-wordcount: 1908
+source-wordcount: 1935
 ht-degree: 37%
 
 ---
 
 # Atividades do canal {#channel}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como adicionar e configurar atividades de canal de email, SMS, push e correspondência direta para enviar mensagens de marketing ou transacionais em uma campanha Orquestrada.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"

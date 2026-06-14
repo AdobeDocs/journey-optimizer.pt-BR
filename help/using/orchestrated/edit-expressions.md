@@ -13,14 +13,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 2071
-ht-degree: 97%
+source-wordcount: 2103
+ht-degree: 95%
 
 ---
 
 # Editar expressões {#edit-expressions}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar o editor de expressão para criar manualmente regras com campos de banco de dados, variáveis e funções auxiliares para manipular datas, cadeias de caracteres e valores numéricos em suas campanhas orquestradas.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >

@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 218
+source-wordcount: 247
 ht-degree: 4%
 
 ---
 
 # Testar modelos de conteúdo de email {#test-template}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como visualizar e testar a renderização dos seus modelos de conteúdo de email no Adobe Journey Optimizer e enviar provas para que eles sejam aprovados antes de serem usados.
+
+>[!ENDSHADEBOX]
 
 Você pode testar a renderização de alguns de seus modelos de email, sejam eles criados do zero ou de um conteúdo existente. Para isso, siga as etapas abaixo.
 

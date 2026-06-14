@@ -18,14 +18,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1625
 ht-degree: 22%
 
 ---
 
 # Iniciar e monitorar campanhas orquestradas {#start-monitor}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como testar, publicar e monitorar campanhas orquestradas no Adobe Journey Optimizer, incluindo o ciclo de vida da campanha, os logs de execução e os indicadores de status da atividade.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"

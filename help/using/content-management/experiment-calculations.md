@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1073
+source-wordcount: 1080
 ht-degree: 0%
 
 ---
 
 # Compreenda cálculos estatísticos {#experiment-calculations}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Entenda a metodologia estatística por trás dos experimentos no Adobe Journey Optimizer, incluindo sequências de confiança válidas a qualquer momento que permitem monitorar continuamente os resultados e determinar quando um experimento é conclusivo.
+
+>[!ENDSHADEBOX]
 
 Este artigo descreve os cálculos estatísticos usados quando você executa experimentos no Adobe Journey Optimizer.
 

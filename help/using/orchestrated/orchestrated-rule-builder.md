@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 340
-ht-degree: 69%
+source-wordcount: 364
+ht-degree: 65%
 
 ---
 
 # Trabalhar com o construtor de regras {#orchestrated-rule-builder}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar o construtor de regras para filtrar dados e criar as consultas direcionadas a públicos em suas campanhas orquestradas.
+
+>[!ENDSHADEBOX]
 
 As campanhas orquestradas incluem um construtor de regras, que simplifica o processo de filtragem do banco de dados com base em vários critérios. O construtor de regras gerencia consultas muito complexas e longas com eficiência, oferecendo flexibilidade e precisão aprimoradas.
 

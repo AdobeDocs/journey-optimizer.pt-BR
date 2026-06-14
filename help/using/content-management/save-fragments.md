@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 510
-ht-degree: 14%
+source-wordcount: 541
+ht-degree: 13%
 
 ---
 
 # Salvar conteúdo como fragmento {#save-as-fragment}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como salvar todo ou parte do seu conteúdo como fragmentos visuais ou de expressão no Adobe Journey Optimizer para que você possa reutilizá-lo em jornadas e campanhas.
+
+>[!ENDSHADEBOX]
 
 Ao editar o conteúdo no [!DNL Journey Optimizer], você pode salvar todo o conteúdo ou parte dele como fragmento para futura reutilização. Você pode salvar o conteúdo como fragmento [do Designer de email](#save-as-visual-fragment) ou [do editor de expressão](#save-as-expression-fragment).
 

@@ -14,14 +14,20 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 508
 ht-degree: 1%
 
 ---
 
 # Introdução a esquemas relacionais e conjuntos de dados{#gs-schemas}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** conheça os principais conceitos e etapas para criar esquemas e conjuntos de dados relacionais, vinculá-los e assimilar dados para campanhas orquestradas.
+
+>[!ENDSHADEBOX]
 
 Este guia orienta você pelo processo de criação de um esquema relacional, configuração de um conjunto de dados para campanhas orquestradas e assimilação de dados.
 

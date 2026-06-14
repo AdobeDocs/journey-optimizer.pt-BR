@@ -16,14 +16,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: 977
 ht-degree: 1%
 
 ---
 
 # Compreenda cálculos estatísticos no Relatório de experimentação {#experiment-report-calculations}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** explore os cálculos estatísticos detalhados usados no relatório de Experimentação para campanhas no Adobe Journey Optimizer, incluindo taxa de conversão, aumento, sequências de confiança válidas a qualquer momento e como o braço de melhor desempenho é determinado.
+
+>[!ENDSHADEBOX]
 
 Esta página documenta os cálculos estatísticos detalhados usados no relatório Experimentação para campanhas no Adobe Journey Optimizer.
 

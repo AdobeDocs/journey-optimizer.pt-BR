@@ -12,14 +12,20 @@ exl-id: d1fd072d-b143-4752-822f-23f98684ba80
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1429
+source-wordcount: 1466
 ht-degree: 0%
 
 ---
 
 # Acionar campanhas orquestradas usando um sinal {#trigger-signal}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como acionar uma campanha Orquestrada com um sinal da API REST ou da atividade End de outra campanha e como transmitir parâmetros de carga que se tornam variáveis para direcionamento, condições e expressões.
+
+>[!ENDSHADEBOX]
 
 Você pode iniciar uma campanha Orquestrada com um sinal em vez de uma programação fixa. Quando a campanha recebe o sinal, ele é executado e você pode passar parâmetros na carga. Elas se tornam disponíveis como variáveis para direcionamento, condições ou expressões.
 

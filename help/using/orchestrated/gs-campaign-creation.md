@@ -16,14 +16,20 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 67%
+source-wordcount: 337
+ht-degree: 61%
 
 ---
 
 # Etapas principais para criar uma campanha orquestrada {#orchestrated-campaign-creation}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** conheça as principais etapas para criar e iniciar uma campanha Orquestrada no Adobe Journey Optimizer, desde a criação e o agendamento até a orquestração de atividades, o monitoramento da execução e a análise dos resultados.
+
+>[!ENDSHADEBOX]
 
 Esta página o orienta pelas etapas essenciais para criar e iniciar uma campanha orquestrada, desde a configuração e o design até o monitoramento e os relatórios.
 

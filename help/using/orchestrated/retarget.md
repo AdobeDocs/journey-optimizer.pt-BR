@@ -9,15 +9,21 @@ version: Campaign Orchestration
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 909
+source-wordcount: 938
 ht-degree: 0%
 
 ---
 
 
 # Criação de consultas de redirecionamento {#retarget}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar regras de redirecionamento baseadas em comentários e em rastreamento que acompanham os destinatários de acordo com a forma como eles responderam a uma campanha Orquestrada anterior.
+
+>[!ENDSHADEBOX]
 
 O redirecionamento permite que você acompanhe os recipients com base em como eles responderam a uma campanha orquestrada anterior. Por exemplo, você pode enviar um segundo email para recipients que receberam, mas não clicaram no primeiro.
 

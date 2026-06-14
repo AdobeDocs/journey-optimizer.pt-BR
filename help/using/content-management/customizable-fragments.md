@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1735
-ht-degree: 13%
+source-wordcount: 1771
+ht-degree: 12%
 
 ---
 
 # Fragmentos personalizáveis {#customizable-fragments}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como tornar editáveis campos específicos em fragmentos visuais e de expressão para que os usuários possam personalizá-los ao adicionar o fragmento a uma campanha ou jornada, sem quebrar a herança do fragmento original.
+
+>[!ENDSHADEBOX]
 
 Quando os fragmentos são usados em uma campanha ou ação de jornada, eles são bloqueados por padrão devido à herança. Isso significa que quaisquer alterações feitas em um fragmento são propagadas automaticamente para todas as campanhas e jornadas em que o fragmento é usado.
 

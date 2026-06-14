@@ -15,14 +15,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 501
 ht-degree: 0%
 
 ---
 
 # Definir a configuração do canal {#channel-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como definir uma configuração de canal para campanhas orquestradas, definindo o nível de entrega, a dimensão de destino e o endereço de execução, e como adicionar parâmetros de rastreamento de URL aos seus links.
+
+>[!ENDSHADEBOX]
 
 Após configurar seu [Dimension de Destino](target-dimension.md), é necessário definir sua **[!UICONTROL Configuração de Canal]** e os **[!UICONTROL Detalhes de Execução]** apropriados. Isso permite definir :
 

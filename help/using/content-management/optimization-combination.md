@@ -20,14 +20,20 @@ topic_v2:
 feature_v2: []
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: 331
 ht-degree: 3%
 
 ---
 
 # Combinar direcionamento e experimentação {#combination}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como combinar o direcionamento e a experimentação em uma única jornada ou campanha para que os experimentos permaneçam específicos para cada regra de direcionamento.
+
+>[!ENDSHADEBOX]
 
 O Journey Optimizer também permite combinar direcionamento e experimentos em uma única jornada ou campanha para criar estratégias mais sofisticadas.
 
