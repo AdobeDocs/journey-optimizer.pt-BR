@@ -9,30 +9,26 @@ role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
 TQID: https://experienceleague.adobe.com/CLklJ8KR1LXAke4v5J0kjjQQSfyIRoJnl6gHQUaY8PQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 796
+source-wordcount: 824
 ht-degree: 2%
 
 ---
 
 # Relatório de páginas de destino {#lp-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Analise o desempenho da página de aterrissagem no Adobe Journey Optimizer usando o Customer Journey Analytics, incluindo taxas de conversão e rejeição, exibições e tráfego por jornada, campanha e canal.
+
+>[!ENDSHADEBOX]
 
 O relatório **Página de aterrissagem** oferece informações valiosas sobre o comportamento do usuário, padrões de engajamento, taxas de conversão e outras métricas principais, permitindo que você tome decisões conscientes e otimize o desempenho da sua página de aterrissagem de maneira eficaz.
 
@@ -40,7 +36,7 @@ Para acessar seus relatórios, selecione **[!UICONTROL Relatório]** no menu ava
 
 ![](assets/cja-lp.png)
 
-Para saber mais sobre o espaço de trabalho do Customer Journey Analytics e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home).
+Para saber mais sobre o espaço de trabalho do Customer Journey Analytics e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Taxa de conversão da landing page {#lp-conversion}
 
