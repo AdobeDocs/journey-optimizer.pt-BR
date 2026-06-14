@@ -6,16 +6,21 @@ role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 231
+source-wordcount: 254
 ht-degree: 3%
 
 ---
 
 # Pré-visualizar conteúdo usando perfis de teste {#preview}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como visualizar o conteúdo da mensagem em relação aos perfis de teste selecionados para verificar como os campos personalizados são exibidos para cada variante.
+
+>[!ENDSHADEBOX]
 
 Depois que [perfis de teste](test-profiles.md) forem selecionados, você poderá visualizar seu conteúdo usando os dados deles. É possível usar qualquer um dos métodos de simulação:
 

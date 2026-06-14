@@ -10,16 +10,21 @@ level: Beginner
 keywords: email, modelo, imagem, HTML, AI, design, conversor
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2097
+source-wordcount: 2126
 ht-degree: 4%
 
 ---
 
 # Converter imagens em modelos de conteúdo de email {#image-to-html}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como usar o conversor de imagem habilitada por IA para HTML no Adobe Journey Optimizer para transformar designs de imagem estática em modelos de conteúdo de email editáveis e reutilizáveis.
+
+>[!ENDSHADEBOX]
 
 O [!DNL Journey Optimizer] ajuda você a acelerar bastante a criação de emails, convertendo designs de imagens estáticas em modelos de conteúdo de email modulares e totalmente personalizáveis.
 

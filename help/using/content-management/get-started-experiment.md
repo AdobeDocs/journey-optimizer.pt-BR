@@ -10,35 +10,26 @@ level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 TQID: https://experienceleague.adobe.com/6RWh7aUUasaT-BIe90rkSJf66-G3Ika81AhufKSnqjw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f29a52db-c90c-4345-902e-b586d1406d8did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2117
-ht-degree: 92%
+source-wordcount: 1988
+ht-degree: 89%
 
 ---
 
 # Introdução aos experimentos de conteúdo {#get-started-experiment}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Entenda como os experimentos de conteúdo no Adobe Journey Optimizer usam avaliações aleatórias para testar variações de mensagens, como os resultados são calculados e como interpretar relatórios para otimizar suas campanhas.
+
+>[!ENDSHADEBOX]
 
 ## O que é um experimento de conteúdo?
 
@@ -113,14 +104,14 @@ Por exemplo, é improvável que a alteração do conteúdo do corpo da mensagem 
 
 +++Execute o teste no tamanho correto do público ou por tempo suficiente
 
-Se você executar seus testes por mais tempo, será possível detectar diferenças menores na métrica de meta entre os tratamentos. No entanto, se o valor da linha de base de sua métrica de meta for pequeno, você precisará de tamanhos de amostra maiores.
-O número de usuários que devem ser incluídos em seu experimento depende do tamanho do efeito que você deseja detectar, da variação ou propagação de sua métrica de meta, bem como de sua tolerância para erros falsos positivos e falsos negativos. Em Experimentos clássicos, você pode usar uma [calculadora de tamanho de amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR){_blank} para determinar por quanto tempo você deve executar seu teste.
+Se você executar seus testes por mais tempo, será capaz de detectar diferenças menores na métrica de meta entre tratamentos. No entanto, se o valor da linha de base da sua métrica de meta for pequeno, você precisará de amostras maiores.
+O número de usuários que devem ser incluídos no experimento depende do tamanho do efeito que você deseja detectar, da variação ou propagação da métrica de objetivo, bem como da sua tolerância para erros falso-positivos e falso-negativos. Em Experimentos clássicos, você pode usar uma [calculadora de tamanho de amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR){_blank} para determinar por quanto tempo você deve executar seu teste.
 +++ 
 
 +++Compreender a incerteza estatística
 
-Se você estiver executando um experimento em que 1.000 usuários viram um tratamento e a taxa de conversão é definida como 5%. Essa seria a taxa de conversão real se todos os seus usuários estivessem incluídos? Qual seria a taxa de conversão real?
-Os métodos estatísticos nos fornecem uma maneira de formalizar essa incerteza. Um dos conceitos mais importantes a se entender ao executar experimentos online é que as taxas de conversão observadas são consistentes com uma gama de taxas de conversão verdadeiras subjacentes, o que significa que você deve esperar até que essas estimativas sejam precisas o suficiente, antes de tentar chegar a uma conclusão. Os Intervalos de confiança e Confiança nos ajudam a quantificar essa incerteza.
+Se você estiver executando um experimento em que 1000 usuários viram um tratamento e a taxa de conversão estiver definida como 5%. Esse seria o índice de conversão real se todos os usuários fossem incluídos? Qual seria a verdadeira taxa de conversão?
+Métodos estatísticos nos dão uma forma de formalizar essa incerteza. Um dos conceitos mais importantes para entender ao executar experimentos on-line é que as taxas de conversão observadas são consistentes com uma variedade de taxas de conversão verdadeiras subjacentes, o que significa que você deve esperar até que essas estimativas sejam precisas o suficiente antes de tentar tirar uma conclusão. Intervalos de confiança e confiança nos ajudam a quantificar essa incerteza.
 +++
 
 +++Forme novas hipóteses e teste continuamente

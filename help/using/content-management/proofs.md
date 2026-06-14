@@ -6,16 +6,21 @@ role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: 508
 ht-degree: 10%
 
 ---
 
 # Enviar provas usando dados de perfis de teste {#send-proofs}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como enviar provas de email usando dados de perfil de teste para que os destinatários possam revisar a renderização, o conteúdo e a personalização antes que a mensagem vá para o público principal.
+
+>[!ENDSHADEBOX]
 
 Uma prova é uma mensagem específica que permite testar uma mensagem antes de enviá-la ao público-alvo principal. Os destinatários da prova são responsáveis pela aprovação da mensagem: renderização, conteúdo, configurações de personalização, configuração.
 
