@@ -1,7 +1,7 @@
 ---
-source-git-commit: a4123db7ae90552a15e6f425bce0037426053a78
+source-git-commit: f59dc265b0de732b52e9d26b6ee510733d0d760e
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,10 @@ Executar da raiz do repositório (`journey-optimizer.en/`).
    Visualizar primeiro com `--dry-run`.
 
 2. **Refine a redação.** A semente é um ponto de partida — edite cada frase para que ela
-O é lido como uma declaração de finalidade (uma frase, texto simples, inglês americano). Se você
+O é lido como uma declaração de finalidade (uma frase, texto simples, inglês americano). **Lead
+com o por quê**: declare o resultado/benefício do leitor (&quot;...para que você possa <outcome>&quot;), não
+apenas uma lista do que a página cobre. Combinar nomes de recursos de estilo doméstico (por exemplo,
+&quot;Campanha orquestrada&quot;, &quot;No aplicativo&quot;). Consulte `.cursor/rules/on-this-page-box.mdc`. Se você
 ignorar `--seed-from-description`, um espaço reservado de `{{TODO...}}` é inserido e
 o validador sinalizará qualquer item restante.
 
