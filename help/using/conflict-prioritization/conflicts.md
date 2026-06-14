@@ -5,27 +5,26 @@ role: User
 level: Beginner
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
 TQID: https://experienceleague.adobe.com/aHKVhTvmIDcKAshlobAfBBOt8XtpA-cFWdHJxLfovQo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: 781
 ht-degree: 16%
 
 ---
 
 # Detectar possíveis conflitos em jornadas e campanhas {#conflict}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** detecte jornadas e campanhas sobrepostas antes que elas entrem no ar, para que você não bombardeie os clientes com muitas comunicações de uma só vez.
+
+>[!ENDSHADEBOX]
 
 À medida que os profissionais de marketing aumentam o volume de Campanhas e Jornadas no Journey Optimizer, fica cada vez mais difícil para um profissional de marketing saber se estão bombardeando seus clientes com muitas interações de marketing. Portanto, é essencial identificar facilmente quando há campanhas e jornadas sobrepostas para garantir que elas estejam alcançando o equilíbrio certo de comunicações de marketing e, ao mesmo tempo, reduzir o risco de fadiga do cliente.
 

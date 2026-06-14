@@ -7,18 +7,22 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: 1159
 ht-degree: 3%
 
 ---
 
 # Usar fórmulas para classificar jornadas {#journey-ranking-formulas}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** crie fórmulas de classificação com base em atributos de jornada, atributos de perfil ou pontuações de IA para que a melhor jornada seja selecionada para cada perfil quando os limites de jornada forem aplicados.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -55,7 +59,7 @@ Para criar uma fórmula de classificação para suas jornadas, siga as etapas ab
 
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
-   -->
+-->
 
 1. Opcionalmente, clique em **[!UICONTROL Selecionar modelo de IA]** para definir o modelo que será usado como referência para criar sua fórmula de classificação. [Saiba mais](journey-ai-models.md)
 

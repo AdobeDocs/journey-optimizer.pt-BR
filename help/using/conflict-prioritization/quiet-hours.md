@@ -10,29 +10,26 @@ level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
 TQID: https://experienceleague.adobe.com/I-zCSU3tp4n-i-EEkx118svN7R9bfUh0phCB-B5ZZ5Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: 948
 ht-degree: 6%
 
 ---
 
 # Definir períodos de silêncio {#quiet-hours}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** defina exclusões com base no tempo para email, SMS, push e WhatsApp para evitar mensagens de clientes em momentos errados e respeitar suas preferências e requisitos de conformidade.
+
+>[!ENDSHADEBOX]
 
 ## O que são horas de silêncio
 
@@ -206,4 +203,4 @@ Depois que sua jornada ou campanhas forem ativadas e executadas, você poderá e
 
 Saiba como usar o recurso de horários de silêncio no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475857?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
