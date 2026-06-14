@@ -24,14 +24,20 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 756
-ht-degree: 5%
+source-wordcount: 784
+ht-degree: 4%
 
 ---
 
 # Usar dados da Adobe Experience Platform para personalização {#aep-data}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar a função auxiliar datasetLookup no editor de personalização para recuperar campos dos conjuntos de dados de registro do Adobe Experience Platform e personalizar seu conteúdo.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

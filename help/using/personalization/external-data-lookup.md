@@ -12,14 +12,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: 1292
 ht-degree: 5%
 
 ---
 
 # Auxiliar de pesquisa de dados externos
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como usar o auxiliar externalDataLookup para buscar dados de um ponto de extremidade externo dinamicamente e personalizar o conteúdo para canais de entrada no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 O auxiliar do `externalDataLookup` no Editor de personalização do [!DNL Journey Optimizer] pode ser usado para buscar dados dinamicamente de um terminal externo para uso na geração de conteúdo para canais de entrada, como os canais de Experiência baseada em Código, Web e Mensagens no Aplicativo.
 

@@ -19,14 +19,20 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 116
-ht-degree: 3%
+source-wordcount: 148
+ht-degree: 2%
 
 ---
 
 # Email de receitas do plano de saúde {#plan-prescription}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Siga um caso de uso de personalização que repete as matrizes de perfis aninhadas com regras condicionais para criar uma lista de receitas de email de plano de integridade prontas para retirada ou rechamada.
+
+>[!ENDSHADEBOX]
 
 Um perfil contém planos de integridade e cada plano inclui receitas. As prescrições têm vários estados, como &quot;pronto&quot;, &quot;recuperação&quot; ou &quot;recolhido&quot;.
 

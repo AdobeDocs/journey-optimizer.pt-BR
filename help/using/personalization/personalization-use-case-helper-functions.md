@@ -23,14 +23,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: 1289
 ht-degree: 2%
 
 ---
 
 # Caso de uso do Personalization: email de abandono de carrinho {#personalization-use-case-helper-functions}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Siga um caso de uso de abandono de carrinho que personaliza um corpo de email usando upperCase, cada um e se as funções auxiliares no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Neste exemplo, você personalizará o corpo de uma mensagem de email. Essa mensagem é direcionada aos clientes que deixaram itens em seus carrinhos de compras, mas não concluíram a compra.
 

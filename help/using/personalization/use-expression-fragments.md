@@ -24,14 +24,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1313
+source-wordcount: 1346
 ht-degree: 0%
 
 ---
 
 # Aproveitar fragmentos de expressão {#use-expression-fragments}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como inserir e reutilizar fragmentos de expressão no editor de personalização, trabalhar com variáveis implícitas, usar fragmentos dentro de loops, personalizar campos editáveis e interromper herança no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Ao usar o **editor de personalização**, você pode aproveitar todos os fragmentos de expressão criados ou salvos na sandbox atual.
 
