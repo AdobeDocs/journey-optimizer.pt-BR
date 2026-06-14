@@ -11,14 +11,20 @@ keywords: url, link, personalização, rastreamento, codificar, chaves
 feature_v2: []
 subfeature_v2:
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: 430
 ht-degree: 1%
 
 ---
 
 # Personalizar URLs em emails {#url-personalization}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como personalizar URLs de email com atributos de perfil, incluindo URLs completas ou básicas e parâmetros de rastreamento por link, mantendo os links válidos e rastreáveis.
+
+>[!ENDSHADEBOX]
 
 As URLs personalizadas ajudam você a fornecer experiências contextuais por meio de suas mensagens de email do [!DNL Journey Optimizer], como a geração de links específicos para destinatários ou a anexação de parâmetros dinâmicos.
 

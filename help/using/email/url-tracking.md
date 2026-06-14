@@ -22,14 +22,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 489
-ht-degree: 65%
+source-wordcount: 521
+ht-degree: 61%
 
 ---
 
 # Rastreamento de URL {#url-tracking}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como definir parâmetros de rastreamento de URL no nível de configuração do canal de email para que eles sejam anexados aos seus links de conteúdo e capturados em análises da web e relatórios de desempenho.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"

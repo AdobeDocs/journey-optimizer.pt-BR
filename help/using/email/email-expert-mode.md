@@ -10,14 +10,20 @@ level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 567
-ht-degree: 7%
+source-wordcount: 614
+ht-degree: 6%
 
 ---
 
 # Editar conteúdo de email com o editor avançado do HTML {#email-expert-mode}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar o editor avançado do HTML no Designer de email para exibir e editar a fonte de HTML bruta do seu conteúdo de email, incluindo as medidas de proteção que devem ser consideradas e como voltar para a exibição visual para visualizar e salvar.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

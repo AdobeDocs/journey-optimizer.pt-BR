@@ -29,14 +29,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1104
+source-wordcount: 1131
 ht-degree: 1%
 
 ---
 
 # Adicionar fragmentos visuais a emails {#use-visual-fragments}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como inserir fragmentos visuais reutilizáveis em seus emails, personalizar os campos editáveis e interromper ou manter a herança com o fragmento original.
+
+>[!ENDSHADEBOX]
 
 Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails em campanhas, jornadas ou modelos de conteúdo do Journey Optimizer. Essa funcionalidade permite a pré-criação de vários blocos de conteúdo personalizados que podem ser usados por usuários de marketing para reunir rapidamente o conteúdo de email em um processo de design aprimorado. [Saiba como criar e gerenciar fragmentos](../content-management/fragments.md).
 

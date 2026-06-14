@@ -23,14 +23,20 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 124
-ht-degree: 36%
+source-wordcount: 145
+ht-degree: 31%
 
 ---
 
 # Adicionar atributos de estilo incorporado {#inline-styling}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como aplicar e personalizar atributos de estilo embutido compatíveis com CSS em elementos individuais no Designer de email.
+
+>[!ENDSHADEBOX]
 
 Na interface do Designer de email, ao selecionar um elemento e exibir suas configurações no painel lateral, você pode personalizar os atributos em linha e seus valores para esse elemento específico.
 

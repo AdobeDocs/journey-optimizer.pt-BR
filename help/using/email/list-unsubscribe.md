@@ -26,14 +26,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1884
-ht-degree: 100%
+source-wordcount: 1916
+ht-degree: 98%
 
 ---
 
 # Cancelar assinatura em lista{#list-unsubscribe}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como habilitar e configurar o cabeçalho List-Unsubscribe para que os destinatários possam recusar diretamente da caixa de entrada usando um endereço mailto ou uma URL de cancelamento de inscrição com um clique.
+
+>[!ENDSHADEBOX]
 
 <!--Do not modify - Legal Review Done -->
 
@@ -130,7 +136,7 @@ Se estiver gerenciando dados de consentimento fora da Adobe, selecione a opção
 
 ![](assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-O **[!UICONTROL URL de cancelamento de assinatura com um clique]** deve ser um URL POST.
+O **[!UICONTROL URL de cancelamento de assinataura com um clique]** deve ser um URL POST.
 
 >[!WARNING]
 >
@@ -146,7 +152,7 @@ Para personalizar ainda mais os pontos de acesso <!-- (**[!UICONTROL Mailto (uns
 >
 >Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 >
->Para a opção **[!UICONTROL Mailto (cancelar assinatura)]**, você precisa usar os novos parâmetros de consulta descritos na seção **Mailto (cancelar assinatura) com atributos personalizados (Disponibilidade limitada)**[abaixo](#configure-decrypt-api).
+>Para a opção **[!UICONTROL Mailto (cancelar assinatura)]**, você precisa usar os novos parâmetros de consulta descritos na seção **Mailto (cancelar assinatura) com atributos personalizados (Disponibilidade limitada)**&#x200B;[abaixo](#configure-decrypt-api).
 
 Para definir atributos personalizados de pontos de acesso, use a seção **[!UICONTROL parâmetros de rastreamento de URL]**. Todos os parâmetros de rastreamento de URL definidos na seção correspondente serão anexados ao final dos pontos de acesso personalizados em adição aos parâmetros padrão. [Saiba como definir o rastreamento personalizado de URL](url-tracking.md)
 
@@ -282,7 +288,7 @@ Parâmetros de consulta:
 
    * Valor analisado: *v1.xyz*
 
-Exemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
+Exemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

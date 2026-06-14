@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 22%
+source-wordcount: 529
+ht-degree: 21%
 
 ---
 
 # Programar seu próprio conteúdo {#code-content}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como escrever ou colar HTML bruto no editor de código do Email Designer para criar conteúdo de email, incluindo como adicionar personalização e as funções de data e hora disponíveis.
+
+>[!ENDSHADEBOX]
 
 O **[!UICONTROL código seu]** permite escrever ou colar HTML bruto para criar conteúdo de email diretamente no Designer de email do [!DNL Journey Optimizer]. Use esse modo quando precisar de controle total sobre a marcação ou ao importar HTML existente.
 

@@ -30,14 +30,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 100%
+source-wordcount: 776
+ht-degree: 95%
 
 ---
 
 # Introdução ao design de email {#get-started-content-design}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como projetar seu conteúdo de email no Designer de Email, as principais etapas para criá-lo do zero, codificar ou importar o HTML e as práticas recomendadas que mantêm seus emails renderizados entre clientes.
+
+>[!ENDSHADEBOX]
 
 Para acessar o Designer de email e começar a criar o conteúdo do email, primeiro [crie um email](create-email.md) em uma jornada ou campanha.
 

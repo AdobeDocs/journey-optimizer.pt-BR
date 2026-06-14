@@ -8,14 +8,20 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1151
 ht-degree: 3%
 
 ---
 
 # Otimizar email para caixas de entrada de IA {#email-text-optimizer}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como gerar e refinar uma versão dedicada do seu email no Designer de Email para que os clientes da caixa de entrada assistida por IA fundamentem seus resumos e respostas em suas ofertas e chamadas para ação.
+
+>[!ENDSHADEBOX]
 
 O [!DNL Adobe Journey Optimizer] vem com um recurso de canal de email que ajuda a estruturar uma versão específica de suas mensagens para experiências aprimoradas de caixa de entrada assistida por IA, como [!DNL Apple Intelligence] e [!DNL Google Gemini] no [!DNL Gmail], para que eles possam responder às perguntas e resumir emails com base em seu conteúdo com mais precisão, com melhores resultados.
 

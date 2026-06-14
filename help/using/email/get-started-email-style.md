@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 100%
+source-wordcount: 342
+ht-degree: 89%
 
 ---
 
 # Introdução ao estilo de email {#get-started-email-style}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como ajustar o estilo do seu conteúdo de email no painel Estilos de Email do Designer, aplicando configurações como cores, fontes, bordas, margens e preenchimento aos componentes de corpo, estrutura ou conteúdo.
+
+>[!ENDSHADEBOX]
 
 Após começar a criar o conteúdo de email no [!DNL Journey Optimizer], é possível ajustar diversos parâmetros e atributos de estilo no painel **[!UICONTROL Estilos]** do Designer de email.
 

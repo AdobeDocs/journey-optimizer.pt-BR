@@ -31,14 +31,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1220
-ht-degree: 22%
+source-wordcount: 1259
+ht-degree: 21%
 
 ---
 
 # Gerenciamento de opção de não participação de email {#email-opt-out}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como adicionar opções de cancelamento de inscrição aos seus emails, incluindo links de recusa de um clique no cabeçalho ou no corpo do email e a opção de recusa de duas etapas em uma página de aterrissagem, para que os destinatários possam interromper futuras comunicações.
+
+>[!ENDSHADEBOX]
 
 Ao enviar mensagens de jornadas ou campanhas, você deve sempre garantir que os clientes possam cancelar a inscrição de comunicações futuras. Após o cancelamento da assinatura, os perfis serão removidos automaticamente do público-alvo de futuras mensagens de marketing.  [Saiba mais sobre privacidade e gerenciamento de recusa](../privacy/opt-out.md)
 

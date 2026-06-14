@@ -24,14 +24,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4ec62b4411a46304364ca1f122e9745b143bcaa1
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1137
-ht-degree: 55%
+source-wordcount: 1172
+ht-degree: 54%
 
 ---
 
 # Parâmetros de cabeçalho {#email-header}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como definir os parâmetros de cabeçalho de email em uma configuração de canal, incluindo os campos De, Responder para, Erro e Remetente opcional, além de como gerenciar o tratamento de respostas e o encaminhamento de email.
+
+>[!ENDSHADEBOX]
 
 Ao configurar uma nova [configuração de canal de email](email-settings.md), na seção **[!UICONTROL Parâmetros de cabeçalho]**, insira os nomes e endereços de email do remetente associados ao tipo de email enviado usando essa configuração.
 

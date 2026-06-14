@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1553
-ht-degree: 10%
+source-wordcount: 1584
+ht-degree: 9%
 
 ---
 
 # Gerenciar conteúdo no modo escuro {#dark-mode}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como os clientes de email lidam com o modo escuro e como visualizar e definir configurações personalizadas do modo escuro no Email Designer, além de conhecer as práticas recomendadas para renderização consistente.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"

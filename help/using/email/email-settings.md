@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1490
-ht-degree: 96%
+source-wordcount: 1523
+ht-degree: 94%
 
 ---
 
 # Definir configurações de email {#email-settings}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como definir as configurações de email em uma configuração de canal, incluindo tipo de email, subdomínio, pool de IP, cancelamento de inscrição na lista, parâmetros de cabeçalho, Cco, lista de propagação, tentativas, rastreamento de URL e endereço de execução.
+
+>[!ENDSHADEBOX]
 
 Para começar a criar um email, é preciso configurar o canal de email e definir todos os parâmetros técnicos necessários para suas mensagens. [Saiba como criar configurações](../configuration/channel-surfaces.md)
 

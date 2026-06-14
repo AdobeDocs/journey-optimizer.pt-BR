@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 271
-ht-degree: 21%
+source-wordcount: 292
+ht-degree: 19%
 
 ---
 
 # Usar modelos de email {#email-templates}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como começar a criar conteúdo de email a partir de uma amostra ou modelo de design salvo no Email Designer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_template"
