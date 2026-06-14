@@ -213,4 +213,4 @@ O simulação gera **stepEvents** sinalizados com `inDryRun` e um `dryRunID`. Ao
 
 Saiba como testar suas jornadas neste vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464687/?captions=por_br&learn=on&enablevpops)

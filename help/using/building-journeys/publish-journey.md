@@ -176,4 +176,4 @@ Se a jornada estiver sujeita a uma política de aprovação, será necessário s
 
 Saiba como publicar uma jornada neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427939?captions=por_br&quality=12)
