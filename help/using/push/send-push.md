@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: 411
 ht-degree: 6%
 
 ---
 
 # Verificação e envio da notificação por push {#send-push}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como visualizar, validar e enviar sua notificação por push no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 ## Pré-visualizar sua notificação por push {#preview-push}
 

@@ -24,14 +24,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 10%
+source-wordcount: 401
+ht-degree: 9%
 
 ---
 
 # Fluxo de trabalho de início rápido de integração para dispositivos móveis {#mobile-wf}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar o fluxo de trabalho de início rápido da integração móvel para configurar rapidamente o Adobe Experience Platform Mobile SDK, coletar e validar dados de eventos móveis e enviar notificações por push.
+
+>[!ENDSHADEBOX]
 
 O novo **fluxo de trabalho de início rápido de integração móvel** é um novo recurso do produto para configurar rapidamente o Adobe Experience Platform Mobile SDK, começar a coletar e validar dados de eventos móveis e enviar notificações por push com [!DNL Journey Optimizer].
 

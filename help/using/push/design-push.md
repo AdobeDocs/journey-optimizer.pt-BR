@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2199
+source-wordcount: 2183
 ht-degree: 13%
 
 ---
 
 # Criar uma notificação por push {#design-push-notification}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar conteúdo de notificação por push para iOS, Android e Web, incluindo título e corpo, comportamento ao clicar, mídia, botões e opções avançadas.
+
+>[!ENDSHADEBOX]
 
 Depois de criar uma notificação por push, você pode projetar o conteúdo para plataformas iOS, Android e da Web. Esta página orienta você na redação da mensagem, configuração do comportamento ao clicar, adição de mídia e botões e configuração de opções avançadas para criar notificações por push envolventes que repercutem com seu público-alvo.
 

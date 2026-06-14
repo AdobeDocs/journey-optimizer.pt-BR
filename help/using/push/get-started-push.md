@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 367
-ht-degree: 100%
+source-wordcount: 392
+ht-degree: 93%
 
 ---
 
 # Introdução à notificação por push {#gs-push-notification}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** comece com notificações por push no Adobe Journey Optimizer para alcançar os usuários do aplicativo móvel e visitantes da Web por meio de jornadas e campanhas.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

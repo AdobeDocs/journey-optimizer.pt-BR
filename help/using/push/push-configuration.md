@@ -27,14 +27,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2189
+source-wordcount: 2210
 ht-degree: 10%
 
 ---
 
 # Configurar canal de notificação por push do aplicativo móvel {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como configurar o canal de notificação por push do aplicativo móvel no Adobe Journey Optimizer, incluindo permissões, credenciais de push, configuração de canal e integração do seu aplicativo com o Adobe Experience Platform Mobile SDK.
+
+>[!ENDSHADEBOX]
 
 O [!DNL Journey Optimizer] permite criar jornadas e enviar mensagens para o público-alvo direcionado. Antes de começar a enviar notificações por push com [!DNL Journey Optimizer], você precisa garantir que as configurações e integrações estejam em vigor no aplicativo móvel e para tags na Adobe Experience Platform. Para entender o fluxo de dados de notificações por push no [!DNL Adobe Journey Optimizer], consulte [esta página](push-gs.md).
 
