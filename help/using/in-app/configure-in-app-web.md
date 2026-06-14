@@ -6,14 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 724
+source-wordcount: 756
 ht-degree: 3%
 
 ---
@@ -21,13 +18,19 @@ ht-degree: 3%
 
 # Configurar o canal da Web no aplicativo {#configure-in-app-web}
 
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como configurar o canal Web no aplicativo na Coleção de dados da Adobe Experience Platform, configurando a Web SDK, regras de acionador e uma configuração da Web no aplicativo.
+
+>[!ENDSHADEBOX]
+
 ## Pré-requisitos {#prerequisites}
 
 * Verifique se você está usando a versão mais recente da sua extensão do **Adobe Experience Platform Web SDK**.
 
 * Instale a extensão **Adobe Experience Platform Web SDK** nas **Propriedades da marca** e habilite a opção **Armazenamento da Personalization**.
 
-  Essa configuração é essencial para armazenar históricos de eventos no cliente, um pré-requisito para a implementação de Regras de frequência no construtor de regras. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=pt-BR){target="_blank"}
+  Essa configuração é essencial para armazenar históricos de eventos no cliente, um pré-requisito para a implementação de Regras de frequência no construtor de regras. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
 
   ![](assets/configure_web_inapp_1.png)
 
@@ -67,7 +70,7 @@ ht-degree: 3%
 
 1. Salve sua configuração de **Ação** clicando em **Manter alterações**.
 
-1. Navegue até o menu **Fluxo de publicação**. Crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione a **Regra** recém-criada a ela. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=pt-BR#create-a-library){target="_blank"}
+1. Navegue até o menu **Fluxo de publicação**. Crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione a **Regra** recém-criada a ela. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. Na sua **Biblioteca**, selecione **Salvar e criar no desenvolvimento**.
 
@@ -109,7 +112,7 @@ ht-degree: 3%
 
 1. Na seção **Contexto de Decisão**, defina os pares **Chave** e **Valor** que determinam qual experiência fornecer.
 
-1. Acesse o menu **Fluxo de publicação**, crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione sua **Regra** recém-criada. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=pt-BR#create-a-library){target="_blank"}
+1. Acesse o menu **Fluxo de publicação**, crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione sua **Regra** recém-criada. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. Na sua **Biblioteca**, selecione **Salvar e criar no desenvolvimento**.
 

@@ -8,28 +8,26 @@ level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 TQID: https://experienceleague.adobe.com/rCvifXOYsVI8eaUhNs-tjF-N50BakY-58rqGgTrYzpw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 2405
+source-wordcount: 2435
 ht-degree: 11%
 
 ---
 
 # Criação de uma mensagem no aplicativo {#create-in-app}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como criar uma mensagem no aplicativo no Adobe Journey Optimizer e adicioná-la a uma jornada ou campanha, incluindo a configuração de acionadores e a frequência de exibição.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_triggers"
@@ -40,7 +38,7 @@ ht-degree: 11%
 >id="ajo_journey_action_in_app"
 >title="Ação de mensagem no aplicativo"
 >abstract="Uma ação de entrada de mensagens no aplicativo exibe uma mensagem no aplicativo para os perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela de jornada e a ação faz referência a uma configuração no aplicativo que define o conteúdo mostrado. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento. Um nó **Wait** é inserido automaticamente após esta atividade (3 dias por padrão), dando aos perfis tempo para exibir a mensagem no aplicativo."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
 
 Você pode adicionar uma mensagem no aplicativo em uma campanha ou em uma jornada. Siga as etapas detalhadas abaixo para criar uma mensagem no aplicativo em ambos os contextos.
 
@@ -267,7 +265,7 @@ Para obter mais informações sobre como criar, configurar e ativar uma campanha
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451887?captions=por_br&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -275,7 +273,7 @@ Para obter mais informações sobre como criar, configurar e ativar uma campanha
 
   +++Ver vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445293/?captions=por_br&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 

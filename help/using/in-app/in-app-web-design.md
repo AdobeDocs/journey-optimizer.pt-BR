@@ -7,19 +7,22 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 hide: true
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 801
+source-wordcount: 829
 ht-degree: 7%
 
 ---
 
 # Projetar o conteúdo da Web no aplicativo {#in-app-web-design}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar conteúdo de mensagens no aplicativo da Web no Adobe Journey Optimizer, incluindo o layout de mensagens, mídia, texto, botões e opções avançadas de formatação.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
