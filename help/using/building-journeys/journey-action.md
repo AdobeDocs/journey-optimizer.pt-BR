@@ -83,21 +83,21 @@ As atividades de canal nativas herdadas também são preservadas nestes casos:
 >id="ajo_journey_action_auto_wait"
 >title="Nó de espera automático"
 >abstract="Para ações de canal de entrada (mensagem no aplicativo, Web, cartão de Conteúdo e experiência baseada em Código), um nó **Wait** é inserido automaticamente após a ação (3 dias por padrão). Isso dá aos perfis tempo para visualizar a experiência de entrada antes que a jornada continue para a próxima etapa."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="Otimização"
 >abstract="A seção **Otimização** adiciona experimentos de conteúdo, regras de direcionamento ou ambos a uma ação de canal. Ele permite testar variantes e fornecer o conteúdo mais eficiente para cada membro do público-alvo."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Usar a atividade Otimizar"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Usar a atividade Otimizar"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="Multilíngue"
 >abstract="A seção **Multilíngue** fornece o conteúdo da ação de canal em vários idiomas em uma única jornada. Uma configuração de configurações de idioma define as localidades compatíveis e o idioma padrão para esta ação."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Introdução ao conteúdo multilíngue"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Introdução ao conteúdo multilíngue"
 
 
 Para adicionar uma ação de canal interna à sua jornada usando a atividade **[!UICONTROL Ação]**, siga as etapas abaixo.
@@ -251,7 +251,7 @@ A entrega rápida é usada quando um atraso na entrega das mensagens seria crít
 
 Saiba como habilitar o modo de entrega rápida para notificações por push [nesta página](../push/create-push.md#rapid-delivery).
 
-Para obter mais informações sobre desempenho ao usar o modo de entrega rápida, consulte [[!DNL Adobe Journey Optimizer] descrição do produto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Para obter mais informações sobre desempenho ao usar o modo de entrega rápida, consulte [[!DNL Adobe Journey Optimizer] descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
