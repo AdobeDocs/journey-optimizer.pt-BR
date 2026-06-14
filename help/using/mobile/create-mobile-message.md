@@ -57,7 +57,7 @@ De acordo com os padrões e regulamentos do setor, todas as mensagens de marketi
 >id="ajo_journey_action_sms"
 >title="Ação de mensagem móvel"
 >abstract="Uma ação de canal de mensagem móvel envia uma mensagem de texto (SMS), multimídia (MMS) ou comunicação avançada (RCS) aos perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela de jornada e a ação faz referência a uma configuração de mensagem móvel que define o conteúdo entregue. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento, a seção **Multilíngue** pode fornecer conteúdo em vários idiomas e a seção **Tempo limite ou erro** pode definir um caminho alternativo se a ação falhar."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
 
 Navegue pelas guias abaixo para saber como adicionar uma mensagem móvel em uma campanha ou jornada.
 
