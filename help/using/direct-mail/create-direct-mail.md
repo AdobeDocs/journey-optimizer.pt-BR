@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 1232
-ht-degree: 15%
+source-wordcount: 1266
+ht-degree: 14%
 
 ---
 
 # Criar uma mensagem de correspondência direta {#create-direct}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** adicione uma mensagem de correspondência direta a uma campanha ou jornada e configure seu arquivo de extração para que seu provedor de correspondência direta tenha os dados personalizados necessários para enviar emails a seus clientes.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"

@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 458
-ht-degree: 79%
+source-wordcount: 487
+ht-degree: 74%
 
 ---
 
 # Introdução à correspondência direta {#create-direct}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Entenda como o canal de correspondência direta funciona para que você possa gerar os arquivos de extração que provedores de terceiros usam para enviar mensagens físicas aos seus clientes.
+
+>[!ENDSHADEBOX]
 
 Correspondência direta é um canal offline que permite personalizar e gerar os arquivos de extração exigidos por provedores de correspondência direta de terceiros para o envio a clientes.
 
