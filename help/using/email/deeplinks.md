@@ -10,15 +10,21 @@ level: Intermediate
 keywords: deeplink, deep link, links universais, links de aplicativos, email, sms
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1327
+source-wordcount: 1367
 ht-degree: 1%
 
 ---
 
 
 # Usar e configurar deep links em emails e SMS {#deeplinks}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar deep links em conteúdo de email e SMS, configurá-los no Adobe Journey Optimizer e manipular os links rastreados nos aplicativos iOS e Android para que os destinatários cheguem à tela correta no aplicativo.
+
+>[!ENDSHADEBOX]
 
 Os deep links ajudam a direcionar os recipients de um email ou mensagem SMS para uma tela ou conteúdo específico no aplicativo móvel. Isso ajuda a trazer as pessoas diretamente para a experiência no aplicativo desejada, sem encaminhá-las por um navegador da Web ou uma loja de aplicativos, para que a jornada permaneça relevante e sob a marca.
 
@@ -174,7 +180,7 @@ Esta seção fornece padrões comuns de implementação para deep links. A confi
 
 >[!IMPORTANT]
 >
->O aplicativo deve executar uma **GET** na URL `mclick` e ler o cabeçalho **`Location`** e, em seguida, rotear com base na URL **final**.
+>O aplicativo deve executar um **GET** na URL `mclick` e ler o cabeçalho **`Location`** e, em seguida, rotear com base na URL **final**.
 >
 >Não abra simplesmente o URL `mclick` no Safari; isso anula a finalidade do deep link.
 

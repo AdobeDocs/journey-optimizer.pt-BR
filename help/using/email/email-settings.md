@@ -10,29 +10,25 @@ level: Experienced
 keywords: definições, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 TQID: https://experienceleague.adobe.com/09Be2OEwtY2-wAMaWDUZtwZCVBqzXPsPgvNZuc1UO2M
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1490
-ht-degree: 96%
+source-wordcount: 1523
+ht-degree: 94%
 
 ---
 
 # Definir configurações de email {#email-settings}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como definir as configurações de email em uma configuração de canal, incluindo tipo de email, subdomínio, pool de IP, cancelamento de inscrição na lista, parâmetros de cabeçalho, Cco, lista de propagação, tentativas, rastreamento de URL e endereço de execução.
+
+>[!ENDSHADEBOX]
 
 Para começar a criar um email, é preciso configurar o canal de email e definir todos os parâmetros técnicos necessários para suas mensagens. [Saiba como criar configurações](../configuration/channel-surfaces.md)
 

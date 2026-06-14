@@ -10,29 +10,25 @@ level: Experienced
 keywords: configurações, email, configuração, subdomínio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 TQID: https://experienceleague.adobe.com/NcnCL11koNfpNF-RDrVPyBsBgMuvpfSNlUcAfwOeGBg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fae48155-b23f-40d2-a252-a25bce350b4did: c41e8697-e629-4c38-96b3-564faaa17acf
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1191
+source-wordcount: 1215
 ht-degree: 6%
 
 ---
 
 # Personalizar configurações de email {#surface-personalization}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como definir valores personalizados para subdomínios dinâmicos, parâmetros de cabeçalho e parâmetros de rastreamento de URL no nível de configuração de canal de email.
+
+>[!ENDSHADEBOX]
 
 Para aumentar a flexibilidade e o controle sobre suas configurações de email, o [!DNL Journey Optimizer] permite definir valores personalizados para subdomínios, cabeçalhos e parâmetros de rastreamento de URL ao criar configurações de email.
 

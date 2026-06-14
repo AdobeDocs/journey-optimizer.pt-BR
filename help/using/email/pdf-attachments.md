@@ -10,26 +10,25 @@ level: Beginner
 keywords: email, mensagem, anexo, pdf, editor
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 TQID: https://experienceleague.adobe.com/9IgYERskcUrIAhTb3xlNgWTRyY-04O58ZB8I0lYFh4g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 351
-ht-degree: 38%
+source-wordcount: 375
+ht-degree: 36%
 
 ---
 
 # Anexar um arquivo PDF a um email {#pdf-attachments}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como anexar um arquivo estático do PDF aos seus emails, incluindo o tamanho do arquivo e os limites de volume de envio aplicáveis.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
@@ -58,7 +57,7 @@ Para anexar um arquivo do PDF a uma mensagem de email, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Ao criar mensagens, você acessa o repositório do Assets Essentials diretamente de dentro da interface da Journey Optimizer. Para saber mais sobre a interface do usuário incorporada [!DNL Assets Essentials], consulte a [documentação do Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=pt-BR){target="_blank"}.
+   >Ao criar mensagens, você acessa o repositório do Assets Essentials diretamente de dentro da interface da Journey Optimizer. Para saber mais sobre a interface do usuário incorporada [!DNL Assets Essentials], consulte a [documentação do Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 1. Use o filtro **[!UICONTROL PDF]** na seção **[!UICONTROL Tipo MIME]** para restringir a seleção ao formato de arquivo correto.
 
