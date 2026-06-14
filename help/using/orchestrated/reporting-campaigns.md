@@ -6,22 +6,24 @@ description: Saiba como acessar relatórios sobre campanhas orquestradas com o A
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/CBzmimp3EJmRg1Padmfgpvw6cG4bsoOIwCDgIk-n1A4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 54%
+source-wordcount: 185
+ht-degree: 44%
 
 ---
 
 # Relatórios de campanhas orquestradas {#report-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** descubra os relatórios ao vivo e de todos os tempos disponíveis para campanhas orquestradas no Adobe Journey Optimizer e saiba como medir o engajamento e o desempenho do canal em email, SMS, push e correspondência direta.
+
+>[!ENDSHADEBOX]
 
 A campanha orquestrada oferece insights práticos por meio de seus recursos eficientes de geração de relatórios. Esses insights ajudam a entender melhor o comportamento do público-alvo, medir o desempenho de cada etapa da jornada do cliente e tomar decisões orientadas por dados para otimizar campanhas futuras. Com métricas e visualizações detalhadas, é possível rastrear o engajamento e ajustar as estratégias de direcionamento para maximizar o impacto.
 

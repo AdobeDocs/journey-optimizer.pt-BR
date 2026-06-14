@@ -6,19 +6,23 @@ description: Saiba como salvar, aplicar e gerenciar filtros predefinidos em camp
 version: Campaign Orchestration
 exl-id: fc508eb7-5b7a-4736-967b-523639eeb096
 TQID: https://experienceleague.adobe.com/6awSMB2-cIw-gbUxluLDuCdOLkLKho7QGSR7QHtOshA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 20%
+source-wordcount: 531
+ht-degree: 19%
 
 ---
 
 # Trabalhar com filtros predefinidos {#predefined-filters}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar, aplicar, compartilhar e gerenciar filtros predefinidos para reutilizar consultas salvas no construtor de regras para campanhas orquestradas.
+
+>[!ENDSHADEBOX]
 
 Filtros predefinidos são regras salvas que podem ser reutilizadas no construtor de regras. Use-as para evitar a reconstrução de consultas comuns e padronizar a lógica de direcionamento em campanhas orquestradas.
 

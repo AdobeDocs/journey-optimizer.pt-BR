@@ -7,18 +7,13 @@ feature: Use Cases
 version: Campaign Orchestration
 exl-id: 915ebafe-935b-49b6-8b8c-0e7a8bf546a4
 TQID: https://experienceleague.adobe.com/q30GcOzIEJ0HUjEauFfp1CaP-oQdSGiBFSRcfNgdap8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: 625
 ht-degree: 4%
 
 ---
@@ -27,7 +22,13 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-Observe que esse caso de uso começa com um público-alvo que já existe no Experience Platform, especificamente, um público-alvo de comportamento na Web em tempo real que coleta a atividade de navegação à medida que ocorre. [Saiba mais no Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+**Nesta página:** siga um caso de uso de campanha Orquestrada que reenvolva os clientes com base em sua atividade de navegação lendo um público-alvo, desduplicando-o, dividindo-o por risco de churn e enviando mensagens de acompanhamento personalizadas.
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Observe que esse caso de uso começa com um público-alvo que já existe no Experience Platform, especificamente, um público-alvo de comportamento na Web em tempo real que coleta a atividade de navegação à medida que ocorre. [Saiba mais no Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **Esquemas necessários para este caso de uso:**
 
@@ -105,7 +106,7 @@ Para clientes identificados como tendo um alto risco de churn, crie um segmento 
 
    ![](assets/uc-interest-8.png){zoomable="yes"}
 
-Esse público-alvo é então salvo no Experience Cloud, onde pode ser usado posteriormente para uma campanha direcionada específica.
+Esse público-alvo é salvo na Experience Cloud, onde pode ser usado posteriormente para uma campanha direcionada específica.
 
 ## Segmentos de baixo/médio risco {#low-medium-risk}
 

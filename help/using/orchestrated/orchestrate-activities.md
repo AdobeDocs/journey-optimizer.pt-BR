@@ -6,20 +6,23 @@ description: Saiba como criar campanhas orquestradas com o Adobe Journey Optimiz
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tQGWupMvnX9-uFruIQg1dMuXd9PZNxPDYg6RlGdK3hA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 937
-ht-degree: 48%
+source-wordcount: 957
+ht-degree: 47%
 
 ---
 
 # Atividades da campanha orquestrada {#orchestrate}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar uma campanha Orquestrada adicionando, configurando e conectando atividades na tela visual.
+
+>[!ENDSHADEBOX]
 
 Depois que você tiver [criado uma campanha Orquestrada](gs-campaign-creation.md), poderá começar a orquestrar as diferentes tarefas que ela executará. Para fazer isso, uma tela visual é fornecida, permitindo que você construa uma tela de campanha orquestrada. Nessa tela, é possível adicionar várias atividades e conectá-las em ordem sequencial.
 

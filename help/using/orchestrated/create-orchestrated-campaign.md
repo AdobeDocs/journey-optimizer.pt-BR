@@ -6,20 +6,23 @@ description: Saiba como criar e agendar uma campanha orquestrada com o Adobe Jou
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1227
-ht-degree: 64%
+source-wordcount: 1261
+ht-degree: 63%
 
 ---
 
 # Criar e agendar uma campanha orquestrada {#create-first-campaign}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar uma campanha Orquestrada no Adobe Journey Optimizer e definir seu agendamento de execução para executá-la imediatamente, em uma data e hora específicas ou de forma recorrente.
+
+>[!ENDSHADEBOX]
 
 Crie uma campanha Orquestrada no [!DNL Adobe Journey Optimizer] e configure seu cronograma de execução para controlar quando ela é iniciada e com que frequência é executada. Opte por iniciar a campanha imediatamente, em uma data e hora específicas, ou de forma recorrente, usando as opções de programação flexíveis, como frequência diária, semanal ou mensal.
 
