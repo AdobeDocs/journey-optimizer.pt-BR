@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 634
+source-wordcount: 659
 ht-degree: 0%
 
 ---
 
 # campos comuns de eventos journey steps {#sharing-common-fields}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** faça referência aos campos de evento de etapa de jornada comuns que o Journey Optimizer envia para a Adobe Experience Platform para cada etapa processada em uma jornada.
+
+>[!ENDSHADEBOX]
 
 Este grupo de campos será compartilhado pelos seguintes eventos: **journeyStepEvent** e **journeyStepProfileEvent**.
 

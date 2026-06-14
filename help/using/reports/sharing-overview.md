@@ -25,14 +25,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 676
 ht-degree: 4%
 
 ---
 
 # Criar relatórios de jornada {#design-jo-reports}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como o Journey Optimizer transmite automaticamente dados de eventos de etapa do jornada para o Adobe Experience Platform, para que você possa combiná-los com outros dados e analisar o desempenho do jornada no Customer Journey Analytics.
+
+>[!ENDSHADEBOX]
 
 Além dos [relatórios em tempo real](live-report.md) e dos [recursos de relatórios](report-gs-cja.md) internos, o [!DNL Journey Optimizer] pode enviar automaticamente dados de desempenho do jornada para a Adobe Experience Platform, para que ele possa ser combinado com outros dados para fins de análise.
 

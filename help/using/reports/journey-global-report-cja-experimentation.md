@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: 407
 ht-degree: 2%
 
 ---
 
 # Relatório de jornada de experimentação {#campaign-global-report-cja-experimentation}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como ler as métricas de experimentação no relatório de jornada, incluindo KPIs de experimento, aumento e confiança, e desempenho da variante por métrica de sucesso para seus experimentos de conteúdo e caminho.
+
+>[!ENDSHADEBOX]
 
 Seu relatório de Jornada fornece uma visão completa do desempenho de seu experimento, juntamente com as métricas principais necessárias para entender seu impacto.
 

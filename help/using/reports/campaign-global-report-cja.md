@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 612
+source-wordcount: 647
 ht-degree: 1%
 
 ---
 
 # Relatório de campanha {#campaign-global-report-cja}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como ler o relatório do Campaign no Adobe Journey Optimizer para revisar os KPIs da campanha, a visão geral da campanha e o funnel, os links rastreados e o desempenho do direcionamento em todos os canais usados na campanha.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

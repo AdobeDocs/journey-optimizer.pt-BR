@@ -28,14 +28,20 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1118
+source-wordcount: 1125
 ht-degree: 2%
 
 ---
 
 # Relatório de jornada por email {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como ler as métricas de email no relatório de jornada, incluindo tendências de entrega versus cliques, status da entrega, estatísticas de envio e rastreamento, domínios de email, links rastreados, assuntos e motivos de rejeição e exclusão.
+
+>[!ENDSHADEBOX]
 
 >[!INFO]
 >

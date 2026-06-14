@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 130
-ht-degree: 6%
+source-wordcount: 159
+ht-degree: 5%
 
 ---
 
 # Campos de jornada {#sharing-journey-fields}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Faça referência aos campos de jornada usados no esquema de jornada para descrever cada jornada no relatório de eventos de etapa de jornada, como ID, versão, nome e descrição da jornada.
+
+>[!ENDSHADEBOX]
 
 Este grupo de campos é usado no esquema **jornada** (em relação a **journeyStepEvent**). Ele contém os campos listados abaixo.
 

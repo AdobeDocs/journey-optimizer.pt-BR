@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 46
-ht-degree: 50%
+source-wordcount: 73
+ht-degree: 31%
 
 ---
 
 # Sobre campos herdados {#sharing-legacy-fields}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Faça referência aos campos herdados que compõem os grupos de campos de eventos de etapa de jornada originais, incluindo os campos comum, execução de ação, busca de dados, identidade e jornada.
+
+>[!ENDSHADEBOX]
 
 Esta categoria contém os campos de evento de etapa originais. Esses campos fazem parte dos seguintes grupos de campos:
 

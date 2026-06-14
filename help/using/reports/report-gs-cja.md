@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 445
-ht-degree: 27%
+source-wordcount: 475
+ht-degree: 25%
 
 ---
 
 # Introdução ao relatório de tempo total {#channel-report-gs-cja}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Comece a usar a experiência de relatório permanente que integra o Journey Optimizer com o Customer Journey Analytics para exibir métricas de desempenho para jornadas, campanhas e seu ambiente em geral.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_enable_cja"

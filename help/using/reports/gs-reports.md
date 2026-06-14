@@ -24,14 +24,20 @@ subfeature_v2:
   - id: a7289281-9ae4-47b1-b8cf-4028b98af776
   - id: b5afe8bf-bda6-41b5-ba06-922638872d63
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 489
-ht-degree: 23%
+source-wordcount: 526
+ht-degree: 21%
 
 ---
 
 # Introdução aos recursos de relatórios {#get-started-report}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** comece a usar os recursos de relatórios do Adobe Journey Optimizer, incluindo relatórios ao vivo das últimas 24 horas e relatórios de todos os tempos viabilizados pelo Customer Journey Analytics para suas campanhas, jornadas, páginas de aterrissagem e listas de assinaturas.
+
+>[!ENDSHADEBOX]
 
 O Adobe Journey Optimizer oferece insights acionáveis por meio de seus recursos de relatório robustos. Os relatórios estão disponíveis para campanhas, jornadas, landing pages, listas de assinaturas e muito mais. Os relatórios disponíveis estão listados abaixo.
 

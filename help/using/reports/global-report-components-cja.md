@@ -28,14 +28,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 2213
+source-wordcount: 2249
 ht-degree: 1%
 
 ---
 
 # Lista de métricas {#list-of-components-global}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** encontre definições para as métricas usadas nos relatórios do Adobe Journey Optimizer em todos os tipos de entrega, incluindo jornada, email, SMS, push, no aplicativo, página de aterrissagem, correspondência direta, cartão de conteúdo, Web e métricas de experiência baseadas em código.
+
+>[!ENDSHADEBOX]
 
 As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas definições, dependendo do tipo de delivery.
 

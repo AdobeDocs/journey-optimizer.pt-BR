@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 60
-ht-degree: 20%
+source-wordcount: 84
+ht-degree: 14%
 
 ---
 
 # campos de identidade do evento journeyStep {#sharing-identity-fields}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Faça referência aos campos de identidade que os eventos de etapa de jornada usam para descrever a identidade do perfil, incluindo o identificador do perfil e seu namespace.
+
+>[!ENDSHADEBOX]
 
 Este grupo de campos é específico do journeyStepEvent: este evento está relacionado ao jornada e não tem o identityMap, que descreve a identidade do perfil, se houver.
 

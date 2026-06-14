@@ -38,14 +38,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 937
+source-wordcount: 967
 ht-degree: 5%
 
 ---
 
 # Trabalhar com eventos de etapa da jornada {#work-with-journey-step-events}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba quais eventos de etapa do jornada estão no Adobe Journey Optimizer, por que eles são importantes e como usá-los para análise, monitoramento e otimização por meio do Adobe Experience Platform.
+
+>[!ENDSHADEBOX]
 
 Os eventos de etapa de Jornada são eventos gerados automaticamente que capturam informações detalhadas sobre cada etapa que um [perfil](../audience/get-started-profiles.md) realiza à medida que avança em uma [jornada](../building-journeys/journey.md) no Adobe Journey Optimizer. Estes eventos fornecem visibilidade abrangente do [desempenho do jornada](../building-journeys/report-journey.md) e habilitam recursos de análise avançados.
 

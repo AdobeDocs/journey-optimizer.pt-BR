@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 665
+source-wordcount: 685
 ht-degree: 2%
 
 ---
 
 # campos de execução de ação de eventos journeyStep {#sharing-execution-fields}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Faça referência aos campos de execução de ação adicionados aos eventos de etapa de jornada quando uma etapa processar uma ação personalizada.
+
+>[!ENDSHADEBOX]
 
 Este grupo de campos será compartilhado por journeyStepEvent e journeyStepProfileEvent.
 

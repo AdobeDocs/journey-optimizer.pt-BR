@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 3%
+source-wordcount: 546
+ht-degree: 2%
 
 ---
 
 # Introdução ao relatório em tempo real {#live-report}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** comece a usar o relatório ao vivo do Adobe Journey Optimizer para visualizar o desempenho do jornada e da campanha em tempo real, personalizar widgets de painel e exportar seus relatórios.
+
+>[!ENDSHADEBOX]
 
 Use o **[!UICONTROL Relatório ao vivo]** para medir e visualizar em tempo real o impacto e o desempenho das suas jornadas e mensagens em um painel integrado. Os dados estão disponíveis no **[!UICONTROL Relatório em tempo real]** assim que a entrega é enviada ou a jornada é executada a partir da guia **[!UICONTROL Últimas 24 horas]**.
 
