@@ -38,7 +38,7 @@ Executar da raiz do repositório (`journey-optimizer.en/`).
 
 2. **Refine a redação.** A semente é um ponto de partida — edite cada frase para que ela
 O é lido como uma declaração de finalidade (uma frase, texto simples, inglês americano). **Lead
-com o por quê**: declare o resultado/benefício do leitor (&quot;...para que você possa <outcome>&quot;), não
+com o por quê**: declare o resultado/benefício do leitor (&quot;...para que você possa &lt;outcome>&quot;), não
 apenas uma lista do que a página cobre. Combinar nomes de recursos de estilo doméstico (por exemplo,
 &quot;Campanha orquestrada&quot;, &quot;No aplicativo&quot;). Consulte `.cursor/rules/on-this-page-box.mdc`. Se você
 ignorar `--seed-from-description`, um espaço reservado de `{{TODO...}}` é inserido e
