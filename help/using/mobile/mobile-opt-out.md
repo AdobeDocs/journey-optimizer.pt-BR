@@ -22,14 +22,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 673
-ht-degree: 14%
+source-wordcount: 701
+ht-degree: 13%
 
 ---
 
 # Gerenciamento de recusa para mensagens móveis {#sms-opt-out}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como o Adobe Journey Optimizer gerencia a opção de não participação de mensagens SMS, MMS e RCS por meio de palavras-chave de entrada nativas, listas de bloqueios, códigos curtos e IDs alfanuméricas de remetentes.
+
+>[!ENDSHADEBOX]
 
 De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os destinatários cancelarem facilmente a inscrição. [Saiba mais sobre privacidade e gerenciamento de recusa](../privacy/opt-out.md)
 

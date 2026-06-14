@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1007
+source-wordcount: 1034
 ht-degree: 1%
 
 ---
 
 # Configurar provedor Sinch {#sms-configuration-sinch}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como configurar a Sinch como seu provedor no Adobe Journey Optimizer, configurando credenciais de API separadas para mensagens SMS, MMS e RCS.
+
+>[!ENDSHADEBOX]
 
 Ao usar o provedor Sinch com o Journey Optimizer, você pode encontrar três opções distintas:
 

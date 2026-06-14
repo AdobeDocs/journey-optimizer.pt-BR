@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 2801
+source-wordcount: 2835
 ht-degree: 3%
 
 ---
 
 # Criar webhook {#webhook}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar webhooks de SMS de entrada e de feedback no Adobe Journey Optimizer para capturar respostas de consentimento e eventos de entrega de aceitação e recusa para Sinch, Infobip e provedores personalizados.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_sms_webhook_settings_create"

@@ -24,14 +24,20 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1050
-ht-degree: 9%
+source-wordcount: 1086
+ht-degree: 15%
 
 ---
 
 # Configurar um provedor personalizado {#sms-configuration-custom}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como integrar um provedor de mensagens personalizadas no Adobe Journey Optimizer, criando credenciais de API, escolhendo um método de autenticação e configurando cabeçalhos, cargas e configurações de entrada para enviar mensagens SMS e RCS.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
