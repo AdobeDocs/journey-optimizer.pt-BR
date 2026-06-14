@@ -10,31 +10,26 @@ level: Intermediate, Experienced
 keywords: dados, fonte, jornada, plataforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 TQID: https://experienceleague.adobe.com/eG1QcfpHtxpabUt5e7RZiMIpSAJD6Z6bjO-4wtZEUOg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593acaid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 948
 ht-degree: 29%
 
 ---
 
 # Introdução a fontes de dados {#about-data-sources}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Entenda quais são as fontes de dados e como escolher a estratégia de acesso a dados correta para que você possa trazer dados adicionais para suas jornadas quanto a condições, personalização e tempo.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"
@@ -72,7 +67,7 @@ Para cada fonte de dados, você define as informações que serão recuperadas u
 
 ## Escolha sua estratégia de acesso aos dados {#data-access-strategy}
 
-Antes de configurar uma fonte de dados, considere qual abordagem se adapta melhor ao seu caso de uso. Três opções estão disponíveis, cada uma com diferentes compensações em termos de persistência, enriquecimento de perfil e reutilização. Para obter uma discussão detalhada dessas opções, consulte [Práticas recomendadas para jornadas avançadas no Journey Optimizer](https://experienceleague.adobe.com/pt-br/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Antes de configurar uma fonte de dados, considere qual abordagem se adapta melhor ao seu caso de uso. Três opções estão disponíveis, cada uma com diferentes compensações em termos de persistência, enriquecimento de perfil e reutilização. Para obter uma discussão detalhada dessas opções, consulte [Práticas recomendadas para jornadas avançadas no Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Opção 1 — Acessar dados externos por meio de Ações Personalizadas (sem Data Lake)**
 
@@ -104,7 +99,7 @@ Assimile dados em um conjunto de dados para acionar e personalizar jornadas com 
 
 **Opção 3 — Conjunto de dados habilitado para perfil no Data Lake**
 
-Assimile dados em um [conjunto de dados habilitado para perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} para criar públicos, enriquecer gráficos de identidade e aproveitar dados em várias jornadas e destinos da RT-CDP. Mais adequado quando:
+Assimile dados em um [conjunto de dados habilitado para perfil](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} para criar públicos, enriquecer gráficos de identidade e aproveitar dados em várias jornadas e destinos da RT-CDP. Mais adequado quando:
 
 * Os dados são úteis para definições de público-alvo usadas em canais além do Journey Optimizer.
 * Os dados contêm várias identidades que contribuem para fragmentos de perfil mais ricos e compilados.
@@ -123,7 +118,7 @@ Assimile dados em um [conjunto de dados habilitado para perfil](https://experien
 | **Opção 2** — Conjunto de dados não habilitado para Perfil | Sim | Não |
 | **Opção 3** — Conjunto de dados habilitado para perfil | Sim | Sim |
 
-Para obter mais informações sobre como configurar uma fonte de dados da Adobe Experience Platform e uma fonte de dados externa, e como localizar e usar dados em uma jornada, assista a este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=pt-BR){target="_blank"}.
+Para obter mais informações sobre como configurar uma fonte de dados da Adobe Experience Platform e uma fonte de dados externa, e como localizar e usar dados em uma jornada, assista a este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Vídeo tutorial {#video}
 
