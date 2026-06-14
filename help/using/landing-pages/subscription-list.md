@@ -10,30 +10,26 @@ level: Beginner
 keywords: landing page, landing page, lista, assinatura, serviço
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 TQID: https://experienceleague.adobe.com/NgCn1-WZaoBA73hleiFJGucgUSzfmEF43eEWZhGJnj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 748
+source-wordcount: 775
 ht-degree: 8%
 
 ---
 
 # Listas de assinaturas {#create-subscription-list}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** as listas de assinaturas reúnem os perfis que aceitam receber um boletim informativo, evento ou interesse, oferecendo a você um público-alvo para direcionar, enviar mensagens e gerar relatórios.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"
@@ -57,7 +53,7 @@ Os perfis podem ser adicionados a uma lista de assinaturas por meio de uma [pág
 
 >[!NOTE]
 >
->Ao criar uma lista de assinaturas, um segmento de transmissão associado é gerado automaticamente no Adobe Experience Platform. Para que o segmento de transmissão seja criado com êxito, a política de mesclagem deve ter a opção **Ative-On-Edge** habilitada. Saiba mais sobre os critérios de qualificação de segmento de transmissão na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/streaming-segmentation).
+>Ao criar uma lista de assinaturas, um segmento de transmissão associado é gerado automaticamente no Adobe Experience Platform. Para que o segmento de transmissão seja criado com êxito, a política de mesclagem deve ter a opção **Ative-On-Edge** habilitada. Saiba mais sobre os critérios de qualificação de segmento de transmissão na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Para criar uma lista de assinaturas, siga as etapas abaixo.
 
