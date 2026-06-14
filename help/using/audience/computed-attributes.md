@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 927
+source-wordcount: 956
 ht-degree: 1%
 
 ---
 
 # Trabalhar com atributos computados {#computed-attributes}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar atributos computados que agregam eventos comportamentais em atributos de perfil e usá-los para segmentação, personalização e lógica de jornada no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Os atributos computados resumem eventos comportamentais individuais em atributos de perfil computados disponíveis no Adobe Experience Platform. Esses atributos são baseados em conjuntos de dados de Evento de experiência ativados por perfil assimilados na Adobe Experience Platform e servem como pontos de dados agregados armazenados em perfis de clientes.
 

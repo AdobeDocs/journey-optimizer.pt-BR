@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 35%
+source-wordcount: 527
+ht-degree: 36%
 
 ---
 
 # Introdução a perfis {#profiles-gs}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como o Perfil de Cliente em Tempo Real no Adobe Journey Optimizer unifica os dados do cliente de fontes online, offline e de terceiros em uma única exibição e como acessar o painel de perfis.
+
+>[!ENDSHADEBOX]
 
 ## Sobre perfis
 

@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: 1294
 ht-degree: 3%
 
 ---
 
 # Criar perfis de teste {#create-test-profiles}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar perfis de teste carregando um arquivo CSV ou usando chamadas de API para poder visualizar o conteúdo e testar jornadas no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Perfis de teste são necessários ao usar o [modo de teste](../building-journeys/testing-the-journey.md) em uma jornada e para [visualizar e testar seu conteúdo](../content-management/preview-test.md).
 

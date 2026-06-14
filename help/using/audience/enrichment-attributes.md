@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: 595
 ht-degree: 9%
 
 ---
 
 # Usar atributos de enriquecimento de públicos-alvo {#enrichment}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar atributos de enriquecimento de público-alvo de fluxos de trabalho de composição, carregamentos personalizados e Composição de Público Federado para criar caminhos de jornada e personalizar mensagens no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Ao direcionar um público-alvo gerado por meio de workflows de composição, público-alvo personalizado (arquivo CSV) ou Composição de público federado, você pode usar atributos de enriquecimento desses públicos-alvo para criar sua jornada e personalizar suas mensagens.
 
