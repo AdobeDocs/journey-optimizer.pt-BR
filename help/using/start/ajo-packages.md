@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: jornada otimizer, pacote, licença, select, prime, ultimate, recursos, modular, canais
 hide: true
-source-git-commit: 5e9ffb790127aae281dd15ad0eac03dbe0bb05e2
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 6%
+source-wordcount: '1007'
+ht-degree: 5%
 
 ---
 
 
 # O que está disponível no meu pacote [!DNL Adobe Journey Optimizer]? {#ajo-packages}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Descubra quais recursos do Adobe Journey Optimizer seu pacote desbloqueia, se você usa o modelo atual do Campaigns e Jornada ou o licenciamento Select, Prime e Ultimate herdado, para poder confirmar o que está disponível e acessar cada recurso.
+
+>[!ENDSHADEBOX]
 
 Os recursos do [!DNL Adobe Journey Optimizer] variam com base no contrato de licença, canais habilitados e permissões de usuário. Use este guia para entender quais recursos normalmente estão disponíveis em seu pacote e navegue diretamente para a documentação do produto de cada recurso.
 

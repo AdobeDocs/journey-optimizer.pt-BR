@@ -8,27 +8,26 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 TQID: https://experienceleague.adobe.com/ONswG5tDxJQKJ7xm-7zlXk1HE0G7Y927Qbsdiahzf5E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 503
-ht-degree: 100%
+source-wordcount: 533
+ht-degree: 94%
 
 ---
 
 # Acessibilidade no Journey Optimizer{#accessibility}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** descubra como a Journey Optimizer oferece suporte a usuários de todas as habilidades por meio de recursos de acessibilidade alinhados à WCAG e atalhos de teclado, para que você possa navegar e trabalhar na interface com eficiência.
+
+>[!ENDSHADEBOX]
 
 Acessibilidade refere-se a uma série de recursos que tornam um produto de software utilizável, com o mínimo esforço possível, para usuários com deficiências visuais, auditivas, cognitivas, motoras ou de outros tipos. A Adobe é líder do setor em acessibilidade e oferece suporte à criação de experiências web excelentes, incentivando os desenvolvedores a produzir conteúdo rico e envolvente que seja acessível a todos os usuários. Saiba mais sobre o compromisso da Adobe com a acessibilidade na [Página de acessibilidade da Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
 

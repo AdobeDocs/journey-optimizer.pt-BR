@@ -11,30 +11,26 @@ keywords: jornada, campanha, orquestrado, comparação, escolher, decisão, flux
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1816
+source-wordcount: 1832
 ht-degree: 4%
 
 ---
 
 # Jornadas versus campanhas: escolha a abordagem certa {#journeys-vs-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** compare as jornadas com campanhas orquestradas, acionadas por API e de ação, para que você possa escolher a abordagem certa para cada caso de uso de marketing no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 O [!DNL Adobe Journey Optimizer] oferece duas formas principais de alcançar e envolver seus clientes: **Jornadas** e **Campanhas**. As jornadas foram projetadas para a orquestração em tempo real e em várias etapas, orientada pelo comportamento do cliente, enquanto as campanhas são mais adequadas para transmissões únicas ou programadas para um público definido. Depois de decidir sobre uma campanha, você pode escolher o tipo de campanha que melhor se adapta ao seu caso de uso.
 
@@ -81,7 +77,7 @@ Siga esta árvore decisória para escolher a abordagem correta. Muitas marcas us
 ### Etapa 1: qual é o seu requisito de execução?
 
 **Respostas individuais em tempo real ao comportamento do cliente?**
-→ **Usar Jornadas**
+→ **Usar o Jornada**
 * Os perfis precisam se mover em seu próprio ritmo
 * Lógica condicional baseada em comportamento
 * O contexto em tempo real é essencial
@@ -92,7 +88,7 @@ Siga esta árvore decisória para escolher a abordagem correta. Muitas marcas us
 * Envios agendados ou recorrentes
 * Não é necessária uma lógica complexa de várias etapas
 
-**Mensagem imediata acionada por um sistema externo?**
+**Mensagem imediata disparada por um sistema externo?**
 → **Usar campanhas acionadas por API**
 * Acionado sob demanda por meio de chamada de API
 * Personalização orientada por carga

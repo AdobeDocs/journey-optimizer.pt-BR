@@ -11,31 +11,26 @@ hide: true
 keywords: conteúdo, design, email, push, sms, personalização, modelos
 exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
 TQID: https://experienceleague.adobe.com/bpZArBcEF0xy-M10Ds1CIou3hr4lcK-9wWTD-eROkbA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 618
-ht-degree: 8%
+source-wordcount: 647
+ht-degree: 7%
 
 ---
 
 # Projetar conteúdo da mensagem{#section-overview}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Explore as ferramentas e as práticas recomendadas para criar email, push, SMS e conteúdo no aplicativo personalizados para que você possa entregar mensagens sobre a marca que impulsionem a participação.
+
+>[!ENDSHADEBOX]
 
 A criação de conteúdo de mensagem no Adobe Journey Optimizer permite criar comunicações envolventes e personalizadas em todos os canais. Esteja você criando emails com layouts visuais avançados, criando notificações por push otimizadas para dispositivos móveis, projetando experiências interativas no aplicativo ou enviando mensagens SMS, esta seção fornece orientação abrangente sobre as práticas recomendadas de criação de conteúdo. Saiba como aproveitar modelos e fragmentos para conteúdo reutilizável, aplicar personalização e conteúdo dinâmico a mensagens personalizadas para cada recipient e garantir a conformidade de acessibilidade. Da compreensão dos princípios de design à implementação de opções avançadas de formatação, você dominará as ferramentas necessárias para fornecer experiências atraentes na marca, que impulsionam o engajamento e as conversões.
 
@@ -43,7 +38,7 @@ A criação de conteúdo de mensagem no Adobe Journey Optimizer permite criar co
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Conteúdo do email de design
 
@@ -53,7 +48,7 @@ Domine o design de email com o Designer de email, crie layouts responsivos, apli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 Criar notificações por push
 
@@ -63,7 +58,7 @@ Crie notificações por push atraentes para o iOS e o Android, configure o conte
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Criar mensagens SMS e MMS
 
@@ -73,7 +68,7 @@ Componha mensagens móveis personalizadas com SMS, aprimore as comunicações co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Criar mensagens no aplicativo
 
@@ -83,7 +78,7 @@ Crie experiências envolventes no aplicativo com várias opções de layout, inc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Personalizar o conteúdo
 
@@ -93,7 +88,7 @@ Adicione personalização a mensagens usando atributos de perfil, utilize o edit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Usar modelos e fragmentos
 

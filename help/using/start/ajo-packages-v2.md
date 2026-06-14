@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: Otimizador de jornadas, pacote, licença, campanhas, jornadas, canais, decisão, saída, móvel, web, modular
 hide: true
-source-git-commit: d0e43b37ab759fde2794e2bf981e233875ba620a
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '974'
 ht-degree: 2%
 
 ---
 
 
 # Pacotes e recursos do Adobe Journey Optimizer {#ajo-packages-v2}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como o pacote modular do Adobe Journey Optimizer funciona entre as ofertas básicas, os complementos de canal e o complemento de Decisão, para que você possa escolher a combinação que se ajuste aos casos de uso de envolvimento e ao orçamento.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] usa um modelo de empacotamento modular. Comece com a oferta base que corresponde ao caso de uso principal e, em seguida, adicione os canais e recursos avançados necessários.
 
