@@ -26,14 +26,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 38%
+source-wordcount: 397
+ht-degree: 35%
 
 ---
 
 # Introdução a ações personalizadas {#about_actions}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Entenda como as ações e as ações personalizadas permitem fornecer experiências personalizadas e conectar sistemas de terceiros por meio de chamadas de API REST, para que você possa estender as jornadas além das mensagens integradas.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
