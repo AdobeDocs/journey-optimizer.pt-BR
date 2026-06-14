@@ -12,14 +12,20 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 47%
+source-wordcount: 584
+ht-degree: 44%
 
 ---
 
 # Limitações {#journey-limitations}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Revise as limitações e medidas de proteção que se aplicam às jornadas, incluindo ações, versões, ações personalizadas, eventos e fontes de dados.
+
+>[!ENDSHADEBOX]
 
 Estas são as limitações relacionadas ao uso de jornadas do.
 
@@ -43,7 +49,7 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 
 * O URL de ação personalizada não aceita parâmetros dinâmicos. 
 * Somente os métodos de chamada POST e PUT são compatíveis. 
-* O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou &quot;$&quot;. 
+* O nome do parâmetro de consulta ou cabeçalho não deve começar com &quot;.&quot; ou &quot;$&quot;. 
 * Endereços IP não são permitidos. 
 * Endereços Adobe internos (.adobe.) não são permitidos.
 

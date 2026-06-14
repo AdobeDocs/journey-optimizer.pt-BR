@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1861
+source-wordcount: 1885
 ht-degree: 14%
 
 ---
 
 # Atividade de condição {#condition-activity}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar a atividade de Condição para rotear perfis para diferentes caminhos de jornada com base em regras, dados e associação de público-alvo.
+
+>[!ENDSHADEBOX]
 
 Use a atividade de condição para rotear perfis para caminhos diferentes com base em regras e dados.
 

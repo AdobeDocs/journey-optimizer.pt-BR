@@ -30,14 +30,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 979
-ht-degree: 47%
+source-wordcount: 1009
+ht-degree: 46%
 
 ---
 
 # Orquestração de jornada - guia completo{#journey-orchestration-guide}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** obtenha um guia completo sobre a orquestração de jornadas no Adobe Journey Optimizer, que aborda como projetar, gerenciar e refinar jornadas de clientes multicanais em várias etapas que se adaptam em tempo real.
+
+>[!ENDSHADEBOX]
 
 As jornadas no [!DNL Adobe Journey Optimizer] capacitam você a criar jornadas personalizadas de várias etapas do cliente que se adaptam em tempo real ao comportamento e às necessidades do seu público-alvo. Com uma tela intuitiva de arrastar e soltar, é possível orquestrar mensagens e ações em vários canais, aproveitando dados contextuais e o direcionamento de público-alvo para obter o máximo impacto.
 
@@ -170,7 +176,7 @@ Use a otimização de tempo de envio baseada em IA para enviar emails quando hou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Incrementar entregas**
 
@@ -190,7 +196,7 @@ Envie conteúdo diferente com base no dia da semana em que os clientes entram na
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **Perguntas frequentes sobre o Jornada**
 
@@ -238,7 +244,7 @@ Domine a criação de expressões para fluxos de trabalho dinâmicos, manipulaç
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **Solução de problemas e monitoramento**
 

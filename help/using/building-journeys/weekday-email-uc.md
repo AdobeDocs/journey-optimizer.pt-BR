@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1078
+source-wordcount: 1109
 ht-degree: 1%
 
 ---
 
 # Enviar emails apenas em dias úteis {#send-emails-only-on-weekdays}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como configurar uma jornada que envia emails somente em dias da semana, enfileirando entradas do fim de semana para entrega na segunda-feira usando uma atividade de condição e atividades de espera com fórmulas personalizadas.
+
+>[!ENDSHADEBOX]
 
 Este caso de uso demonstra como configurar uma jornada no [!DNL Adobe Journey Optimizer] que envia emails somente em dias da semana (de segunda a sexta). Para perfis que entram na jornada nos fins de semana (sábado ou domingo), os emails são automaticamente enfileirados e enviados na segunda-feira em um horário especificado. Isso garante o envolvimento ideal ao enviar mensagens durante a semana de trabalho.
 

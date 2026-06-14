@@ -29,14 +29,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1060
+source-wordcount: 1088
 ht-degree: 1%
 
 ---
 
 # Envie mensagens multicanal {#send-multi-channel-messages}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar uma jornada multicanal que combina um Público de leitura, eventos, eventos de reação e mensagens de email e push com lógica de acompanhamento.
+
+>[!ENDSHADEBOX]
 
 Esta seção apresenta um caso de uso que combina um Público-alvo de leitura, um evento, eventos de reação e mensagens de email/push.
 

@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 380
-ht-degree: 17%
+source-wordcount: 418
+ht-degree: 15%
 
 ---
 
 # Gerenciamento de fuso horário {#timezone_management}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como definir o fuso horário de uma jornada — um fuso horário fixo ou um obtido de cada perfil — para controlar quando as atividades baseadas em tempo, como condições de tempo, condições de data e esperas personalizadas, são executadas.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"

@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 993
-ht-degree: 5%
+source-wordcount: 1030
+ht-degree: 4%
 
 ---
 
 # Tipos de jornada e guia de seleção {#journey-types-selection}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como comparar os quatro tipos de jornada — unitário, ler público, qualificação de público-alvo e evento comercial — e usar o guia de decisão e a matriz de compatibilidade de recursos para escolher o caso de uso correto.
+
+>[!ENDSHADEBOX]
 
 O [!DNL Adobe Journey Optimizer] oferece suporte a quatro tipos de jornada, cada um projetado para diferentes mecanismos de entrada e cenários de negócios. Este guia ajuda você a entender as diferenças e escolher o tipo certo para seu caso de uso.
 

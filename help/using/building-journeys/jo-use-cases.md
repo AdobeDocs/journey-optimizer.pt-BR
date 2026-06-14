@@ -30,14 +30,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1134
-ht-degree: 16%
+source-wordcount: 1054
+ht-degree: 17%
 
 ---
 
 # Aprenda por meio de casos de uso {#jo-uc-gs}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** explore uma biblioteca de casos de uso práticos da Adobe Journey Optimizer e cenários completos para ajudá-lo a criar jornadas, dados de modelo e lógica de ativação de compilação.
+
+>[!ENDSHADEBOX]
 
 Esta seção reúne uma coleção de casos de uso práticos para ajudar você a aproveitar ao máximo o [!DNL Adobe Journey Optimizer]. Se você estiver procurando padrões táticos (como lógica de supressão, técnicas de personalização ou estratégias de saída do jornada) ou cenários completos que abranjam workflows técnicos e de marketing, você encontrará links para amostras relevantes abaixo.
 
@@ -74,7 +80,7 @@ Use essa biblioteca como ponto de referência ao projetar jornadas, modelar dado
     <div>
     <a href="../data/datasets-query-examples.md">
     <img alt="amostras de query" src="../assets/do-not-localize/icon-configure.svg"/></a> 
-    <br>Para criar seus casos de uso, você precisa consultar os [!DNL Adobe Journey Optimizer] conjuntos de dados, como conjuntos de dados do sistema para assimilar eventos de experiência de rastreamento, o conjunto de dados para assimilar eventos de etapa em uma jornada, o conjunto de dados para assimilar apresentações de oferta aos usuários e muito mais.
+    <br>Para criar seus casos de uso, você precisa consultar os conjuntos de dados [!DNL Adobe Journey Optimizer], como conjuntos de dados do sistema para assimilar eventos de experiência de rastreamento, o conjunto de dados para assimilar eventos de etapa em uma jornada, o conjunto de dados para assimilar apresentações de oferta aos usuários e muito mais.
     </div>
       <div>
      <a href="../data/datasets-query-examples.md">Saiba mais</a></div>

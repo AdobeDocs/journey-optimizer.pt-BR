@@ -11,14 +11,20 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a61f805d573f11f255e386c35a5d79ab6650bcc5
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1452
+source-wordcount: 1479
 ht-degree: 2%
 
 ---
 
 # Introdução à simulação de Jornada {#simulate-journey-gs}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como a simulação de jornada permite testar com usuários simulados e como a experiência de simulação varia dependendo do tipo de jornada, antes de publicar.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

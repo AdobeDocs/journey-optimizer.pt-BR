@@ -25,14 +25,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 300
-ht-degree: 8%
+source-wordcount: 337
+ht-degree: 7%
 
 ---
 
 # Caso de uso: incremente seus deliveries{#use-case-ramp-up-your-deliveries}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar uma jornada que amplie gradualmente suas entregas de email usando a atividade Otimizar e um limite de perfis, ajudando você a aquecer um novo endereço IP e a estabelecer a reputação do remetente.
+
+>[!ENDSHADEBOX]
 
 Se você mudou recentemente para outro provedor de serviços de email, endereço IP, domínio de email ou subdomínio, é necessário estabelecer sua reputação como remetente. Caso contrário, seus deliveries poderão ser bloqueados ou movidos para a pasta de spam da caixa de correio dos recipients. Saiba como aumentar sua reputação de email com o aquecimento de IP no [Guia de práticas recomendadas de capacidade de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=pt-BR){target="_blank"}.
 

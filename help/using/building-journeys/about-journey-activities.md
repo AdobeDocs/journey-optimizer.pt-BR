@@ -33,14 +33,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 728
-ht-degree: 15%
+source-wordcount: 757
+ht-degree: 14%
 
 ---
 
 # Introdução às atividades de jornada {#about-journey-activities}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como combinar atividades de evento, orquestração e ação para criar jornadas multicanais em várias etapas, com práticas recomendadas para rotular atividades, gerenciar parâmetros e solucionar problemas.
+
+>[!ENDSHADEBOX]
 
 Combine atividades de evento, orquestração e ação para criar cenários em várias etapas e entre canais.
 

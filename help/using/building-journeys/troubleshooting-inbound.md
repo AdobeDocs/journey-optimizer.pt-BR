@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1809
+source-wordcount: 1840
 ht-degree: 1%
 
 ---
 
 # Solução de problemas de ações de entrada na jornada {#troubleshooting-inbound-actions}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Aprenda a depurar e resolver problemas comuns com ações de entrada (como experiências no aplicativo, na Web e baseadas em código) em uma jornada antes de entrar em contato com o suporte.
+
+>[!ENDSHADEBOX]
 
 Ações de entrada, como experiências no aplicativo, Web e baseadas em código, são componentes críticos do [!DNL Journey Optimizer], pois permitem o engajamento personalizado com os usuários durante a jornada. No entanto, pode ocorrer um comportamento inesperado, como ausência de conteúdo de entrada ou entrega contínua após um perfil sair da jornada.
 

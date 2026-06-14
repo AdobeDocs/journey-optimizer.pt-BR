@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 14%
+source-wordcount: 670
+ht-degree: 13%
 
 ---
 
 # Gerenciar tags no jornada {#journey_tags}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como organizar jornadas com marcas e categorias de marcas para poder classificar, filtrar e encontrar suas jornadas com mais facilidade do que com convenções de nomenclatura.
+
+>[!ENDSHADEBOX]
 
 Como um profissional da Journey Optimizer, você pode organizar suas jornadas usando tags. As tags são uma maneira rápida e fácil de classificar objetos para melhorar a pesquisa.
 

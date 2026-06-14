@@ -28,14 +28,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: 953
 ht-degree: 8%
 
 ---
 
 # Ações do [!DNL Adobe Campaign] Standard {#using_campaign_action}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como usar as atividades internas de email, push e SMS do Adobe Campaign Standard em suas jornadas, confiando nos modelos de Mensagens Transacionais do Campaign Standard.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
@@ -74,8 +80,8 @@ Para **[!UICONTROL Email]** e **[!UICONTROL SMS]**, os parâmetros são idêntic
 >
 >Ao usar um modelo transacional de perfil para email, o mecanismo de cancelamento de assinatura é manipulado automaticamente pelo [!DNL Adobe Campaign] Standard.
 >Incluir um bloco de conteúdo de **[!UICONTROL Link de unsubscription]** em [o modelo de email transacional](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR).
->Se você estiver usando um template baseado em evento (rtEvent), incorpore um link na mensagem que transmite o email do recipient como um parâmetro de URL e os direciona para uma landing page de cancelamento de subscrição.
->Crie a landing page e verifique se a decisão de cancelamento de inscrição do recipient é transmitida ao Adobe.
+>Se estiver usando um modelo baseado em eventos (rtEvent), incorpore um link na mensagem que transmite o email do destinatário como um parâmetro de URL e o direciona para uma página de aterrissagem de cancelamento de inscrição.
+>Crie a página de aterrissagem e verifique se a decisão de cancelamento de inscrição do recipient é transmitida ao Adobe.
 
 Primeiro, você precisa escolher um template de mensagem transacional.
 

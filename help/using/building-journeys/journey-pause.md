@@ -29,14 +29,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2581
+source-wordcount: 2609
 ht-degree: 4%
 
 ---
 
 # Pausar uma jornada {#journey-pause}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como pausar e retomar uma jornada em tempo real para fazer alterações com segurança ou parar de enviar, incluindo a aplicação dos critérios de saída do atributo de perfil durante a pausa.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"

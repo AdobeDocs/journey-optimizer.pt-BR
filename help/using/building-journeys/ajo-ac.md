@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 472
+source-wordcount: 501
 ht-degree: 1%
 
 ---
 
 # Enviar uma mensagem com o Campaign v7/v8 {#campaign-v7-v8-use-case}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como enviar um email de uma jornada usando a integração com o Adobe Campaign v7 e v8, incluindo a criação de modelo transacional, evento e ação.
+
+>[!ENDSHADEBOX]
 
 Este caso de uso explica todas as etapas necessárias para enviar um email usando a integração com o [!DNL Adobe Campaign] v7 e o [!DNL Adobe Campaign] v8.
 

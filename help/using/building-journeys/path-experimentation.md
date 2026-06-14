@@ -11,14 +11,20 @@ keywords: experimentação, experimento, jornada, caminho, otimização, teste A
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1147
+source-wordcount: 1186
 ht-degree: 6%
 
 ---
 
 # Usar experimentação de caminho {#experimentation}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como configurar a experimentação de caminho com a atividade Otimizar para testar diferentes caminhos de jornada usando experimentos A/B ou de bandit com vários braços, identificar o tratamento com melhor desempenho por métrica de sucesso e dimensionar o vencedor.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"

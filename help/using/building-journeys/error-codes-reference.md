@@ -11,14 +11,20 @@ keywords: error, codes, troubleshooting, jornada, campaign, messages (erro, cód
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2351
+source-wordcount: 2358
 ht-degree: 3%
 
 ---
 
 # Referência de códigos de erro {#error-codes}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como os códigos de erro do Adobe Journey Optimizer são estruturados, onde encontrá-los e como solucionar erros comuns em jornadas, campanhas e configurações de mensagens.
+
+>[!ENDSHADEBOX]
 
 O [!DNL Adobe Journey Optimizer] usa códigos de erro padronizados para ajudar você a identificar e resolver problemas rapidamente em jornadas, campanhas e configurações de mensagens. A compreensão desses códigos de erro pode reduzir bastante o tempo de solução de problemas e ajudar você a manter o desempenho ideal da campanha.
 

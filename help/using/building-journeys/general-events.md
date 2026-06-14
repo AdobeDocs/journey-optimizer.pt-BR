@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 645
-ht-degree: 23%
+source-wordcount: 678
+ht-degree: 22%
 
 ---
 
 # Eventos gerais {#general-events}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar eventos gerais para acionar jornadas de forma unitária em tempo real e configurar tempos limite de eventos e caminhos de tempo limite para ouvir um evento apenas durante um período definido.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"

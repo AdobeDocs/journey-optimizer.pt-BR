@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 39%
+source-wordcount: 255
+ht-degree: 38%
 
 ---
 
 # Solucionar problemas de jornadas {#troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** encontre recursos de solução de problemas organizados por área de problema comum para ajudá-lo a diagnosticar e resolver erros de jornada, inconsistências de execução, problemas de ação de entrada e problemas de ação personalizada.
+
+>[!ENDSHADEBOX]
 
 Quando uma jornada do cliente não se comporta conforme esperado, identificar a causa pode ser desafiador. Para ajudar a resolver problemas de eficiência, você encontrará abaixo recursos de resolução de problemas divididos pelas áreas de problemas mais comuns. Se você vir falhas da jornada, inconsistências de execução ou problemas na camada das ações, cada seção fornece orientações direcionadas para investigá-los e resolvê-los.
 

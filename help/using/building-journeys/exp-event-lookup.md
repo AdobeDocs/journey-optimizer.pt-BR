@@ -18,14 +18,20 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: 1124
 ht-degree: 6%
 
 ---
 
 # Pesquisa de evento de experiência no jornada {#ee-journeys}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** conheça padrões escaláveis e práticas recomendadas para usar Eventos de Experiência no jornada para suprimir, qualificar ou personalizar perfis com base em seus atributos de comportamento e evento.
+
+>[!ENDSHADEBOX]
 
 >[!CAUTION]
 >

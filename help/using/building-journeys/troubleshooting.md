@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 522
-ht-degree: 35%
+source-wordcount: 548
+ht-degree: 33%
 
 ---
 
 # Solucionar erros antes de testar a jornada {#troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como localizar e corrigir erros de atividade e configuração de jornada antes de testar ou publicar, para que sua jornada possa ser executada sem problemas.
+
+>[!ENDSHADEBOX]
 
 Nesta seção, saiba como solucionar problemas do jornada antes de testar ou publicar. Todos os controles enumerados a seguir podem ser efetuados quando a jornada estiver em modo de teste ou mesmo ativa. Recomenda-se que todas as verificações a seguir sejam feitas no modo de teste, para então prosseguir com a publicação. Saiba mais sobre o modo de teste em [esta página](../building-journeys/testing-the-journey.md).
 

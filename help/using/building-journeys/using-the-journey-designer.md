@@ -32,15 +32,20 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1675
+source-wordcount: 1705
 ht-degree: 3%
 
 ---
 
 # Projetar a jornada {#design-your-journey}
 
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar a paleta e a tela do designer do jornada para arrastar e soltar eventos, orquestração e atividades de ação em um fluxo sequenciado que cria sua jornada.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] inclui uma tela de orquestração omnicanal que permite aos profissionais de marketing harmonizar o alcance de marketing com o envolvimento individual do cliente. A interface de usuário do permite arrastar e soltar facilmente as atividades da paleta na tela para criar sua jornada. Observe que você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível.
 

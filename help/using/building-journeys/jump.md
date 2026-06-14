@@ -26,14 +26,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1405
+source-wordcount: 1358
 ht-degree: 6%
 
 ---
 
 # Mudar de uma jornada para outra {#jump}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar a atividade de salto para enviar indivíduos de uma jornada para outra, simplificando designs complexos e criando padrões de jornada comuns e reutilizáveis.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"
@@ -137,7 +143,7 @@ Crie cada fase como uma jornada separada no Journey Optimizer e use as atividade
    ![Lista suspensa de seleção de jornada de destino na configuração da atividade de salto](assets/jump2.png)
 
 1. Clique dentro do campo **jornada de destino**.
-A lista exibe todas as versões do jornada que são modo de rascunho, ativo ou de teste. As jornadas que usam um namespace diferente ou que começam com um evento **Qualificação de público-alvo** não estão disponíveis. As jornadas do Target que criariam um padrão de loop também são filtradas.
+A lista exibe todas as versões do jornada que são modo de rascunho, ativo ou de teste. As jornadas que usam um namespace diferente ou que começam com um evento **Qualificação de Público-Alvo** não estão disponíveis. As jornadas do Target que criariam um padrão de loop também são filtradas.
 
    ![Atividade de salto mostrando a jornada de destino e os parâmetros de ação](assets/jump3.png)
 

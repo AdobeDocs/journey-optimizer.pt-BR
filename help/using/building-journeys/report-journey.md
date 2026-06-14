@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 590
 ht-degree: 1%
 
 ---
 
 # Relatório ao vivo na tela de jornada {#report-journey}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Aprenda a usar os Relatórios ao Vivo para monitorar as métricas principais de jornada das últimas 24 horas diretamente na tela de jornada.
+
+>[!ENDSHADEBOX]
 
 Após a publicação da sua jornada, no momento em que o [Modo de execução a seco](journey-dry-run.md) é ativado, o **Relatórios ao Vivo** fornece métricas das últimas 24 horas, diretamente na tela de jornada.
 

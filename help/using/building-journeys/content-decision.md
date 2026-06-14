@@ -27,14 +27,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1262
+source-wordcount: 1286
 ht-degree: 2%
 
 ---
 
 # Atividade de decisão de conteúdo {#content-decision}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar a atividade de decisão de conteúdo para incluir ofertas personalizadas em suas jornadas e entregá-las a perfis qualificados.
+
+>[!ENDSHADEBOX]
 
 O [!DNL Journey Optimizer] permite incluir ofertas em suas jornadas por meio da atividade dedicada **Decisão de conteúdo** na tela de jornada. Em seguida, você pode adicionar outras atividades (como [ações personalizadas](../action/about-custom-action-configuration.md)) às suas jornadas para direcionar seus públicos com essas ofertas personalizadas.
 
