@@ -78,7 +78,7 @@ Observe que os botões interativos **Copiar código** não são compatíveis.
 >id="ajo_journey_action_whatsapp"
 >title="Ação do WhatsApp"
 >abstract="Uma ação de canal do WhatsApp envia uma mensagem do WhatsApp para os perfis quando eles atingem esta etapa da jornada. O rótulo identifica a atividade na tela de jornada, e a ação faz referência a uma configuração do WhatsApp que define o conteúdo entregue. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento, a seção **Multilíngue** pode fornecer conteúdo em vários idiomas e a seção **Tempo limite ou erro** pode definir um caminho alternativo se a ação falhar."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
 
 Navegue pelas guias abaixo para saber como adicionar uma mensagem do WhatsApp em uma campanha ou jornada.
 
