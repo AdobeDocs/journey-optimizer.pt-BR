@@ -9,16 +9,21 @@ role: User
 level: Intermediate
 keywords: integração, fornecedor, terceiros
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 10154
+source-wordcount: 10185
 ht-degree: 5%
 
 ---
 
 # Exemplos de configurações do fornecedor {#vendor-integration}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar as Integrações do Adobe Journey Optimizer com qualquer plataforma externa que exponha uma API compatível, com medidas de proteção operacionais e padrões ilustrativos de fornecedor para orientar sua configuração.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
@@ -1195,7 +1200,7 @@ O host base depende da região (por exemplo, `https://{{customername}}.module.sl
 
 >[!IMPORTANT]
 >
->Essa configuração é um padrão ilustrativo testado pela equipe do Adobe Journey Optimizer. O Adobe Target Recommendations é um produto Adobe separado com seu próprio ciclo de lançamento e versão da API. Sempre confirme os detalhes da API atual com a [documentação para desenvolvedores do Adobe Target](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/overview) antes de implantar na produção.
+>Essa configuração é um padrão ilustrativo testado pela equipe do Adobe Journey Optimizer. O Adobe Target Recommendations é um produto Adobe separado com seu próprio ciclo de lançamento e versão da API. Sempre confirme os detalhes da API atual com a [documentação para desenvolvedores do Adobe Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview) antes de implantar na produção.
 
 >[!BEGINSHADEBOX]
 
@@ -1221,7 +1226,7 @@ As seguintes limitações e exclusões se aplicam:
 
 Use o procedimento abaixo para configurar essa integração no Journey Optimizer. Consulte **Campos de integração de exemplo** para obter detalhes de solicitação e confirmar esses valores com a documentação do fornecedor para o seu ambiente.
 
-1. Siga [Trabalhar com integrações](integrations.md). As chamadas de entrega geralmente são **POST** com um corpo JSON. Configure o OAuth por [Autenticação de destino](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/api/configure-authentication){target="_blank"}, cole uma resposta de exemplo, mapeie campos e teste no volume esperado.
+1. Siga [Trabalhar com integrações](integrations.md). As chamadas de entrega geralmente são **POST** com um corpo JSON. Configure o OAuth por [Autenticação de destino](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, cole uma resposta de exemplo, mapeie campos e teste no volume esperado.
 
 1. No Journey Optimizer, vá para **[!UICONTROL Configurações]** > **[!UICONTROL Gerenciar]** e selecione **[!UICONTROL Criar Integração]**.
 
@@ -1274,7 +1279,7 @@ A tabela abaixo lista os valores de exemplo para essa solicitação de integraç
 
 **Autenticação**
 
-Consulte [Configuração de autenticação do Target](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/api/configure-authentication) e adicione JSON à Carga.
+Consulte [Configuração de autenticação do Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) e adicione JSON à Carga.
 
 **Solicitar carga**
 

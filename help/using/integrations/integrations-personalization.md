@@ -8,19 +8,23 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: integração
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: 836
 ht-degree: 1%
 
 ---
 
 
 # Uso de integrações externas para personalização {#integrations-personalization}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como os profissionais de marketing aplicam integrações configuradas para personalizar conteúdo de email, SMS e push e encadear uma chamada de API para outra com mensagens dinâmicas e mais avançadas.
+
+>[!ENDSHADEBOX]
 
 Antes de usar integrações externas em seu conteúdo, confirme se um administrador **configurou e ativou** cada integração (ponto de extremidade, autenticação, políticas, carga de resposta e ativação) conforme descrito em [Trabalhar com integrações](integrations.md).
 
