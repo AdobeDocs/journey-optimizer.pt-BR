@@ -11,15 +11,21 @@ keywords: fragmentos, jornada, reutilizar, nós, tela, inventário, reutilizáve
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1644
+source-wordcount: 1671
 ht-degree: 6%
 
 ---
 
 
 # Jornada fragmentos {#journey-fragments}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como criar, gerenciar e reutilizar fragmentos de jornada — conjuntos reutilizáveis de nós de jornada — para criar jornadas mais rapidamente e permanecer consistente em sua sandbox.
+
+>[!ENDSHADEBOX]
 
 Os fragmentos de jornada são conjuntos reutilizáveis de nós de jornada que você pode criar uma vez e soltar em qualquer jornada na sandbox. Seja uma verificação de elegibilidade, uma lógica de roteamento de canal preferencial ou uma sequência de boas-vindas, os fragmentos ajudam as equipes a se moverem mais rápido e a permanecerem consistentes, sem reconstruir a mesma lógica do zero todas as vezes. [Consulte exemplos de caso de uso.](#examples)
 

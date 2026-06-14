@@ -12,14 +12,20 @@ keywords: ondas, lotes, programação, jornada, ler público, entregabilidade
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: 896
 ht-degree: 2%
 
 ---
 
 # Enviar usando ondas em jornadas {#send-using-waves-journeys}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como entregar mensagens de saída de uma jornada de público-alvo de leitura em lotes agendados, chamados ondas, para balancear a carga, proteger sistemas downstream e oferecer suporte à capacidade de entrega.
+
+>[!ENDSHADEBOX]
 
 Você pode entregar mensagens de saída de uma jornada em lotes (ondas) ao longo do tempo, em vez de todas de uma só vez. O envio de ondas ajuda a balancear a carga, evitar sistemas downstream esmagadores (como centrais de atendimento ou páginas de aterrissagem) e oferecer suporte à capacidade de entrega e reputação do remetente, especialmente para jornadas de alto volume de público-alvo de leitura.
 

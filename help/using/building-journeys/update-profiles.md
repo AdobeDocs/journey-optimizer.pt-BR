@@ -11,26 +11,25 @@ keywords: perfil, atualização, jornada, atividade
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ifDBXoNDryXLKMkm59mVqT7-unQYG1JKTfMN7zAoWsA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 7%
+source-wordcount: 938
+ht-degree: 6%
 
 ---
 
 # Atualizar perfil {#update-profile}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar a atividade de ação Atualizar Perfil para enriquecer ou corrigir um perfil existente do Adobe Experience Platform à medida que um cliente avança em uma jornada.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
@@ -41,7 +40,7 @@ Use a atividade de ação **[!UICONTROL Atualizar Perfil]** para enriquecer ou c
 
 ## Seleção do conjunto de dados {#dataset-selection}
 
-A atividade **[!UICONTROL Atualizar Perfil]** requer um conjunto de dados dedicado para armazenar atualizações. Como esta atividade atualiza apenas o [Repositório de Perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"} (não o Datalake), todas as atualizações devem ser salvas em um [conjunto de dados habilitado para perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} especificamente designado para as ações **[!UICONTROL Atualizar Perfil]**.
+A atividade **[!UICONTROL Atualizar Perfil]** requer um conjunto de dados dedicado para armazenar atualizações. Como esta atividade atualiza apenas o [Repositório de Perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"} (não o Datalake), todas as atualizações devem ser salvas em um [conjunto de dados habilitado para perfil](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} especificamente designado para as ações **[!UICONTROL Atualizar Perfil]**.
 
 >[!CAUTION]
 >
@@ -108,6 +107,6 @@ Para obter mais informações sobre como transformar um perfil existente em um p
 * Você não pode usar a ação **[!UICONTROL Atualizar Perfil]** para gerar [eventos de experiência](../event/about-events.md), como uma compra.
 * Como qualquer outra ação, você pode definir um [caminho alternativo em caso de erro ou tempo limite](using-the-journey-designer.md#paths). Duas ações não podem ser colocadas em paralelo.
 * Não há garantias de que as atualizações de perfil estarão imediatamente disponíveis downstream na mesma jornada. Evite colocar uma ação que leia um campo diretamente após a ação **[!UICONTROL Atualizar Perfil]** que o grava, pois o valor atualizado pode não ser refletido ainda.
-* A atividade **[!UICONTROL Atualizar perfil]** atualiza somente o [Repositório de Perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}, não o Data Lake.
+* A atividade **[!UICONTROL Atualizar perfil]** atualiza somente o [Repositório de Perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, não o Data Lake.
 * Até cinco pares de campo/valor podem ser atualizados em uma única ação **[!UICONTROL Atualizar Perfil]**. Use o botão **[!UICONTROL Atualizar outro campo]** para adicionar mais pares.
 * Para obter um melhor desempenho, agrupe várias atualizações de atributo em uma única ação **[!UICONTROL Atualizar Perfil]** em vez de usar uma ação por atributo.

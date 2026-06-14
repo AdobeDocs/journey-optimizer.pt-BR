@@ -11,14 +11,20 @@ keywords: jornada, caso de uso
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 8%
+source-wordcount: 324
+ht-degree: 7%
 
 ---
 
 # Caso de uso: criar uma ação personalizada para enviar dados a [!DNL Adobe Experience Platform]{#send-data-to-aep}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar uma jornada que aumenta gradualmente seu volume de email usando uma atividade Otimize com uma condição de limite de perfil para aquecer seu IP e proteger a reputação do remetente.
+
+>[!ENDSHADEBOX]
 
 Se você migrou recentemente para outro provedor de serviços de email, endereço IP ou domínio ou subdomínio de email, estabeleça sua reputação como remetente. Caso contrário, os deliveries podem ser bloqueados ou movidos para as pastas de spam dos recipients. Para obter orientação, consulte o [Manual de práticas recomendadas de capacidade de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=pt-BR){target="_blank"}.
 
