@@ -14,14 +14,20 @@ feature_v2:
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 2%
+source-wordcount: 813
+ht-degree: 1%
 
 ---
 
 # Enviar usando ondas em campanhas {#send-using-waves}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Divida a entrega de campanha de saída em lotes agendados, chamados de ondas, para que você possa equilibrar a carga, proteger a reputação do remetente e melhorar a capacidade de entrega para envios de alto volume.
+
+>[!ENDSHADEBOX]
 
 Você pode dividir o delivery de mensagens de campanha de saída em vários lotes (ondas) e agendá-los ao longo do tempo. O envio de ondas ajuda a balancear a carga, evitar sistemas downstream esmagadores (como centrais de atendimento ou páginas de aterrissagem) e oferecer suporte à capacidade de entrega e à reputação do remetente, especialmente para envios de alto volume.
 

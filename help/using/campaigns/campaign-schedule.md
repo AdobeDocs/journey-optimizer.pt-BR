@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 14%
+source-wordcount: 857
+ht-degree: 13%
 
 ---
 
 # Programar a campanha de ação {#action-campaign-schedule}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** agende sua campanha de Ação definindo datas de início e término, entrega de fuso horário do destinatário, frequência de execução e controle de taxa para que suas mensagens atinjam o público-alvo correto na hora certa, sem sobrecarregar os sistemas downstream.
+
+>[!ENDSHADEBOX]
 
 Use a guia **[!UICONTROL Agendamento]** para definir o agendamento da campanha.
 

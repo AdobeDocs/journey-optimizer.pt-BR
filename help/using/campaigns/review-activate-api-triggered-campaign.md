@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 314
-ht-degree: 5%
+source-wordcount: 345
+ht-degree: 4%
 
 ---
 
 # Revisar e ativar a campanha acionada pela API {#api-review}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** revise a configuração e o conteúdo da campanha acionada pela sua API para detectar erros antes de ativá-la, para que você possa ativar a campanha com confiança e estar pronto para acionar por meio das APIs.
+
+>[!ENDSHADEBOX]
 
 Depois que a campanha acionada pela API for configurada, é necessário revisar o parâmetro e o conteúdo antes de ativá-la. Para fazer isso, siga estes passos:
 

@@ -23,14 +23,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: 571
 ht-degree: 3%
 
 ---
 
 # Definir o público da campanha acionada pela API {#api-audience}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** defina o público-alvo, o tipo de identidade, a criação automática de perfil e os webhooks para que a campanha acionada pela API atinja os indivíduos certos e retorne o status da entrega em tempo real.
+
+>[!ENDSHADEBOX]
 
 Use a guia **[!UICONTROL Público-alvo]** para definir o público da campanha.
 

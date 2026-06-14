@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 551
+source-wordcount: 584
 ht-degree: 1%
 
 ---
 
 # Executar uma campanha acionada por API {#execute}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** recupere a solicitação de cURL gerada e use-a para acionar a campanha acionada pela API em tempo real por meio das APIs, com orientações de solução de problemas para que você possa resolver atrasos de entrega e erros de autenticação.
+
+>[!ENDSHADEBOX]
 
 Depois que sua campanha for ativada, é necessário recuperar a solicitação de cURL de amostra gerada e usá-la na API para criar sua carga e acionar a campanha.
 

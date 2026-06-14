@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 5%
+source-wordcount: 666
+ht-degree: 4%
 
 ---
 
 # Ativar modo de taxa de transferência alta para campanhas acionadas por API {#high-throughput}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Ative o modo de alta taxa de transferência para campanhas acionadas pela API para que você possa enviar emails transacionais em tempo real em grande escala com até 5.000 transações por segundo sem depender de perfis.
+
+>[!ENDSHADEBOX]
 
 O modo Alta Taxa de Transferência foi projetado para organizações que precisam de **mensagens transacionais em tempo real de grande escala** (até 5.000 transações por segundo). Diferentemente das campanhas acionadas pela API comum, as campanhas de alta taxa de transferência operam independentemente dos Perfis do Adobe e exigem um modelo de configuração diferente.
 
