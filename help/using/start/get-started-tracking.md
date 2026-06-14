@@ -34,14 +34,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1964
+source-wordcount: 1995
 ht-degree: 3%
 
 ---
 
 # Introdução ao rastreamento no Journey Optimizer {#get-started-tracking}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como rastrear as interações do cliente entre os canais e monitorar a capacidade de entrega e a integridade do sistema no Journey Optimizer, para que você possa medir a eficácia da campanha e tomar decisões orientadas por dados.
+
+>[!ENDSHADEBOX]
 
 O rastreamento permite medir a eficácia da campanha, otimizar as experiências do cliente e garantir que as mensagens cheguem aos recipients desejados. O Journey Optimizer oferece recursos abrangentes de rastreamento que capturam as interações do cliente, o desempenho do delivery e a integridade do sistema, ajudando você a tomar decisões orientadas por dados, respeitando a privacidade e mantendo a conformidade.
 
@@ -91,7 +97,7 @@ Para ajudar você a começar, explore estes tópicos essenciais de rastreamento 
   </td>
   <td>
     <a href="../reports/gs-reports.md">
-    <img alt="Relatórios" src="../assets/do-not-localize/reporting.jpeg">
+    <img alt="Relatório" src="../assets/do-not-localize/reporting.jpeg">
     </a>
     <div>
     <a href="../reports/gs-reports.md"><strong>Explorar relatórios</strong></a>

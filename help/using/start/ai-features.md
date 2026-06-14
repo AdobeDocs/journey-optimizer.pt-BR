@@ -29,14 +29,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2177
+source-wordcount: 2216
 ht-degree: 6%
 
 ---
 
 # IA e recursos inteligentes {#ai-features}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Explore os recursos de IA e aprendizado de máquina em toda a Adobe Journey Optimizer, desde o Assistente de IA e os agentes até a geração de conteúdo, otimização de tempo de envio e tomada de decisões, para que você possa trabalhar mais rápido e fornecer experiências de cliente mais relevantes.
+
+>[!ENDSHADEBOX]
 
 A Adobe Journey Optimizer aproveita o poder da inteligência artificial e do aprendizado de máquina para ajudá-lo a criar, otimizar e fornecer experiências excepcionais para o cliente. Desde a geração de conteúdo personalizado até a previsão de tempos de envio ideais, os recursos de IA simplificam o fluxo de trabalho e maximizam o impacto. Os manuais de casos de uso fornecem modelos pré-criados para implementar rapidamente cenários de marketing comuns.
 
@@ -345,7 +351,7 @@ Avalie como seu conteúdo se alinha às diretrizes da sua marca usando a pontua�
 * **[Agente de Criação de Jornada](#journey-create-agent)** - Exige Gerenciar Jornadas, Exibir Eventos de Jornada/Fontes de Dados/Ações, Exibir Segmentos e Gerenciar Permissões de Segmentos
 * **[Experimentation Agent](#experimentation-agent)** - Requer as permissões Exibir Experimentos e Gerenciar Metadados de Experimento
 
-Todos os agentes de IA exigem acesso ao Assistente de IA e concordam com as Diretrizes de usuário da IA gerativa da Adobe Experience Cloud.
+Todos os agentes de IA exigem acesso ao Assistente de IA e concordam com as Diretrizes de usuário da IA gerada pela Adobe Experience Cloud.
 
 [Saiba mais sobre permissões](../administration/ootb-permissions.md)
 

@@ -40,14 +40,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2269
-ht-degree: 100%
+source-wordcount: 2300
+ht-degree: 98%
 
 ---
 
 # Funções e responsabilidades
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** entenda as principais funções em uma implementação do Adobe Journey Optimizer e suas responsabilidades para que você possa encontrar o ponto de partida certo e as tarefas de início rápido para sua equipe.
+
+>[!ENDSHADEBOX]
 
 O Adobe Journey Optimizer (AJO) permite que as marcas forneçam experiências conectadas, contextualizadas e personalizadas durante toda a jornada do cliente. Criado com foco de ponta a ponta em escala, velocidade e flexibilidade, o Journey Optimizer combina três impulsionadores de valor principais em um aplicativo unificado:
 

@@ -27,14 +27,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1816
+source-wordcount: 1832
 ht-degree: 4%
 
 ---
 
 # Jornadas versus campanhas: escolha a abordagem certa {#journeys-vs-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** compare as jornadas com campanhas orquestradas, acionadas por API e de ação, para que você possa escolher a abordagem certa para cada caso de uso de marketing no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 O [!DNL Adobe Journey Optimizer] oferece duas formas principais de alcançar e envolver seus clientes: **Jornadas** e **Campanhas**. As jornadas foram projetadas para a orquestração em tempo real e em várias etapas, orientada pelo comportamento do cliente, enquanto as campanhas são mais adequadas para transmissões únicas ou programadas para um público definido. Depois de decidir sobre uma campanha, você pode escolher o tipo de campanha que melhor se adapta ao seu caso de uso.
 
@@ -81,7 +87,7 @@ Siga esta árvore decisória para escolher a abordagem correta. Muitas marcas us
 ### Etapa 1: qual é o seu requisito de execução?
 
 **Respostas individuais em tempo real ao comportamento do cliente?**
-→ **Usar Jornadas**
+→ **Usar o Jornada**
 * Os perfis precisam se mover em seu próprio ritmo
 * Lógica condicional baseada em comportamento
 * O contexto em tempo real é essencial
@@ -92,7 +98,7 @@ Siga esta árvore decisória para escolher a abordagem correta. Muitas marcas us
 * Envios agendados ou recorrentes
 * Não é necessária uma lógica complexa de várias etapas
 
-**Mensagem imediata acionada por um sistema externo?**
+**Mensagem imediata disparada por um sistema externo?**
 → **Usar campanhas acionadas por API**
 * Acionado sob demanda por meio de chamada de API
 * Personalização orientada por carga

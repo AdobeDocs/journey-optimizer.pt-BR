@@ -38,14 +38,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 957
+source-wordcount: 986
 ht-degree: 3%
 
 ---
 
 # Noções básicas sobre o Journey Optimizer {#understanding-ajo}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** veja como o Adobe Journey Optimizer funciona com o Adobe Experience Platform para que você possa entender o ciclo de dados para experiência, as áreas funcionais e a arquitetura por trás de jornadas personalizadas.
+
+>[!ENDSHADEBOX]
 
 Esta página explica como o Adobe Experience Platform e o Journey Optimizer trabalham juntos, abordando o ciclo contínuo de dados para experiência, as principais áreas funcionais, os detalhes da arquitetura e os pontos de integração.
 

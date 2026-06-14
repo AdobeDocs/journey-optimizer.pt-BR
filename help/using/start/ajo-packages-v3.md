@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: Otimizador de jornadas, pacote, licença, campanhas, jornadas, canais, decisão, saída, móvel, web, modular
 hide: true
-source-git-commit: a3301bfc25f76ba0f74622fd1f169585c2d96ebd
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1082'
 ht-degree: 4%
 
 ---
 
 
 # Pacotes e recursos do Adobe Journey Optimizer {#ajo-packages}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** analise passo a passo o empacotamento modular do Adobe Journey Optimizer, escolhendo uma oferta básica, adicionando canais e adicionando recursos avançados, para que você possa combinar a configuração correta à maneira como interagir com os clientes.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] usa um modelo de empacotamento modular. Comece com a oferta base que corresponde ao caso de uso de orquestração principal e, em seguida, adicione o canal e os recursos avançados necessários.
 

@@ -28,14 +28,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 618
-ht-degree: 8%
+source-wordcount: 647
+ht-degree: 7%
 
 ---
 
 # Projetar conteúdo da mensagem{#section-overview}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Explore as ferramentas e as práticas recomendadas para criar email, push, SMS e conteúdo no aplicativo personalizados para que você possa entregar mensagens sobre a marca que impulsionem a participação.
+
+>[!ENDSHADEBOX]
 
 A criação de conteúdo de mensagem no Adobe Journey Optimizer permite criar comunicações envolventes e personalizadas em todos os canais. Esteja você criando emails com layouts visuais avançados, criando notificações por push otimizadas para dispositivos móveis, projetando experiências interativas no aplicativo ou enviando mensagens SMS, esta seção fornece orientação abrangente sobre as práticas recomendadas de criação de conteúdo. Saiba como aproveitar modelos e fragmentos para conteúdo reutilizável, aplicar personalização e conteúdo dinâmico a mensagens personalizadas para cada recipient e garantir a conformidade de acessibilidade. Da compreensão dos princípios de design à implementação de opções avançadas de formatação, você dominará as ferramentas necessárias para fornecer experiências atraentes na marca, que impulsionam o engajamento e as conversões.
 
