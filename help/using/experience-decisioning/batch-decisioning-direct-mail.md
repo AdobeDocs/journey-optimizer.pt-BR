@@ -6,15 +6,21 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: decisão em lote, correspondência direta, decisão
-source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 
 # Decisão em lote na correspondência direta {#batch-decisioning-direct-mail}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** use a decisão em lotes no canal de correspondência direta para personalizar cada arquivo de extração do destinatário com os melhores itens de decisão ou exportar dados de perfil e decisão para sistemas downstream.
+
+>[!ENDSHADEBOX]
 
 Com a decisão em lote, o Decisioning seleciona o(s) melhor(is) item(ns) de decisão para cada perfil e inclui esses resultados no arquivo de extração de correspondência direta. Você pode retornar vários itens por perfil definindo **[!UICONTROL Número de itens]** ao configurar a política de decisão. O arquivo exportado pode ser usado para personalização de correspondência direta ou para casos de uso em lote em que você exporta perfis e atributos de decisão para outro sistema.
 

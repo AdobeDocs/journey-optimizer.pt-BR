@@ -9,27 +9,25 @@ level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/HC3N8cjiZQQTfyt2Z0hKU3M-OUTw4y9REDnBIBXsJ9Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1763
+source-wordcount: 1795
 ht-degree: 0%
 
 ---
 
 # Modelos de otimização automática {#auto-optimization-model}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Entenda como o modelo de aprendizado de reforço de otimização automática explora e classifica ofertas para maximizar a taxa de cliques para que você possa decidir quando usá-lo para otimização de canal único.
+
+>[!ENDSHADEBOX]
 
 O modelo de Otimização automática de [!DNL Adobe Journey Optimizer] é um modelo de aprendizado de reforço que maximiza a taxa de cliques (CTR) da oferta explorando todas as ofertas (ou conteúdo) e, em seguida, classificando os itens com base na CTR prevista, após a aplicação das regras de elegibilidade e dos limites de frequência.
 
@@ -106,7 +104,7 @@ Eventualmente, se uma oferta (por exemplo, Oferta 1) for um vencedor claro, sua 
 
 +++ Detalhes do cálculo
 
-Para calcular/atualizar distribuições, usamos o Teorema de **Bayes&#39;**. Para cada oferta ***i***, queremos calcular seus ***P(𝛍i | dados)***, ou seja, para cada oferta ***i***, a probabilidade de um valor de premiação&#x200B;**𝛍 i**, dados os dados coletados até agora para essa oferta.
+Para calcular/atualizar distribuições, usamos o Teorema de **Bayes&#39;**. Para cada oferta ***i***, queremos calcular seus ***P(𝛍i | dados)***, ou seja, para cada oferta ***i***, a probabilidade de um valor de premiação**𝛍 i**, dados os dados coletados até agora para essa oferta.
 
 A partir do Teorema de Bayes:
 

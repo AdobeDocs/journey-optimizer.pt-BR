@@ -10,25 +10,25 @@ hide: true
 exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/U-4AWTYWPOzBhtT3gxE6ORtMI8jNKOZGns-0P3t7-lE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 270
-ht-degree: 9%
+source-wordcount: 296
+ht-degree: 8%
 
 ---
 
 # Criar um conjunto de dados para coletar eventos {#create-dataset}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** crie o esquema e o conjunto de dados do Evento de Experiência necessários para capturar as interações de apresentação, para que você possa alimentar comentários de decisão em seus modelos de classificação de IA.
+
+>[!ENDSHADEBOX]
 
 Para coletar eventos de experiência, primeiro é necessário criar um conjunto de dados para onde esses eventos serão enviados.
 
@@ -65,7 +65,7 @@ Comece criando o esquema que será usado no seu conjunto de dados:
 
 >[!NOTE]
 >
->Saiba mais sobre a criação de esquemas em [Noções básicas sobre a composição de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR#understanding-schemas){target="_blank"}.
+>Saiba mais sobre a criação de esquemas em [Noções básicas sobre a composição de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
 Agora você está pronto para criar um conjunto de dados usando esse esquema. Para fazer isso, siga as etapas abaixo:
 
