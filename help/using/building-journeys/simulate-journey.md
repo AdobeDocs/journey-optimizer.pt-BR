@@ -11,9 +11,9 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
 workflow-type: tm+mt
-source-wordcount: 1916
+source-wordcount: 1945
 ht-degree: 0%
 
 ---
@@ -28,9 +28,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Você precisa de pelo menos uma das seguintes permissões para acessar o recurso **[!UICONTROL Simulação]**: **Simular jornadas**, **Publicar jornadas** ou **Aprovar e Publicar jornadas**. [Saiba mais](../administration/permissions.md)
+>* Para usar a **[!UICONTROL Simulação]**, atribua pelo menos uma permissão do recurso **[!UICONTROL Jornada]**: **Simular jornada**, **Publicar jornada** ou **Aprovar e Publicar jornada**. As mesmas permissões permitem criar e gerenciar usuários simulados, **[!UICONTROL Usuários Simulados]** permissões não são necessárias. [Saiba mais](../administration/permissions.md)
 >
->Para usar a IA em **[!UICONTROL Simulação]** (**[!UICONTROL Simulação rápida]**, gerando usuários simulados com IA, **[!UICONTROL Gerar valores de evento]**), os usuários exigem a permissão **[!UICONTROL Gerar conteúdo]** do recurso **[!UICONTROL Assistente de IA]**.
+>* Para gerenciar usuários simulados sem **[!UICONTROL Simulação]**, atribua **Gerenciar Usuários Simulados** ou **Exibir Usuários Simulados** a partir do recurso **[!UICONTROL Usuários Simulados]**.
+>
+>* Para a IA na simulação (**[!UICONTROL Simulação rápida]**, usuários gerados pela IA, **[!UICONTROL Gerar valores de evento]**), atribua **[!UICONTROL Gerar conteúdo]** pelo recurso **[!UICONTROL Assistente de IA]**.
 
 Use a **[!UICONTROL Simulação]** para validar sua jornada com **usuários simulados** antes de publicar. Esta página o orienta durante a **[!UICONTROL Simulação rápida]** e a **[!UICONTROL Simulação manual]**, criando e enviando usuários simulados, acionando eventos unitários quando a jornada precisar deles e revisando o log de **[!UICONTROL Resultados]**.
 
@@ -79,12 +81,6 @@ Escolha **[!UICONTROL Simulação manual]** quando precisar escolher cada usuár
 Continue com [Criar e gerenciar usuários simulados](#test-users), [Acionar seus eventos](#firing-events) e [Exibir resultados](#viewing-results).
 
 ## Criar e gerenciar usuários simulados {#test-users}
-
->[!IMPORTANT]
->
->Você precisa de pelo menos uma das seguintes permissões para acessar o recurso **[!UICONTROL Simulação]**: **Simular jornadas**, **Publicar jornadas** ou **Aprovar e Publicar jornadas**. [Saiba mais](../administration/permissions.md)
->
->Para usar a IA em **[!UICONTROL Simulação]** (**[!UICONTROL Simulação rápida]**, gerando usuários simulados com IA, **[!UICONTROL Gerar valores de evento]**), os usuários exigem a permissão **[!UICONTROL Gerar conteúdo]** do recurso **[!UICONTROL Assistente de IA]**.
 
 Os usuários simulados são entidades temporárias semelhantes a perfis definidas em **[!UICONTROL Configurações de simulação]**. Esta seção aborda como criá-los, salvá-los para reutilização, ajustá-los ou removê-los da lista e enviá-los para a jornada.
 
@@ -213,13 +209,13 @@ Se a jornada incluir um ou mais eventos unitários, é possível acioná-los enq
 
 ## Exibir resultados {#viewing-results}
 
-A guia **[!UICONTROL Resultados]** permite exibir os resultados do teste. No menu suspenso **[!UICONTROL Usuário de teste]**, selecione o usuário simulado cuja execução você deseja inspecionar.
+A guia **[!UICONTROL Resultados]** permite exibir os resultados do teste. No menu suspenso **[!UICONTROL Usuário de teste]**, selecione o usuário simulado cuja execução você deseja inspecionar. Quando você seleciona um único usuário simulado, a tela destaca o caminho exato que o usuário seguiu pela jornada, para que você possa confirmar se ele entrou na ramificação esperada.
 
-Selecione **[!UICONTROL Todos]** para ver os resultados agregados em cada usuário simulado na execução. Essa exibição ajuda a verificar a simulação completa rapidamente, incluindo atividades, resultados e erros, sem escolher um único usuário simulado primeiro.
+Selecione **[!UICONTROL Todos]** para ver os resultados agregados em cada usuário simulado na execução. A tela mostra cada caminho coberto pela execução, o que ajuda a comparar a cobertura entre perfis e verificar a simulação completa rapidamente, incluindo atividades, resultados e erros, sem escolher um único usuário simulado primeiro.
 
 ![Guia Resultados com resumo da simulação, filtro de usuário de teste e cobertura de caminho na tela de jornada](assets/simulate-6-2.png)
 
-Para cada atividade, o log pode mostrar se o usuário simulado entrou ou saiu da etapa e os erros que ocorreram durante a simulação.
+Para cada atividade, o log pode mostrar se o usuário simulado entrou ou saiu da etapa, os carimbos de data e hora e decisões de ramificação para cada etapa e os erros que ocorreram durante a simulação.
 
 Para atividades de **Aguardar**, o log inclui dois valores relacionados à duração:
 
