@@ -6,17 +6,12 @@ description: Notas de pré-lançamento do Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 140204b92956663f75893c09a61c6b2bfa97a2b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 53618e9d511215ed90b7666fe161edf9fd72c42b
 workflow-type: tm+mt
-source-wordcount: 2036
+source-wordcount: 1951
 ht-degree: 5%
 
 ---
@@ -92,12 +87,7 @@ O recurso a seguir está chegando à Decisão nesta versão.
 </tbody>
 </table>
 
-* **Atributos de oferta dinâmicos** - Os atributos de oferta no Decisioning agora podem ser personalizados no momento da entrega usando dados de perfil, contextuais e de público-alvo. Isso elimina a necessidade de manter ofertas duplicadas para variações de conteúdo secundárias, permitindo que os profissionais de marketing gerenciem um número menor de itens de decisão e mais flexíveis.
-
-* **Limite de frequência no nível de posicionamento na Decisão** - As regras de limite de frequência na Decisão agora podem ser segmentadas para posicionamentos individuais, fornecendo controle mais fino sobre a frequência com que uma oferta é exibida em determinada superfície. Dois modos estão disponíveis:
-
-   * Limite específico de posicionamento: defina um limite que se aplique somente quando a oferta for exibida em um posicionamento selecionado.
-   * Limite por posicionamento: aplique um limite de maneira independente em cada posicionamento em que a oferta é exibida, para que cada posicionamento mantenha seu próprio contador de limite.
+* **Atributos de item dinâmico** - Os atributos personalizados de item de decisão agora podem ser personalizados no momento da entrega usando dados de perfil, contextuais e de público-alvo. Isso elimina a necessidade de manter ofertas duplicadas para variações de conteúdo secundárias, permitindo que os profissionais de marketing gerenciem um número menor de itens de decisão e mais flexíveis.
 
 ### Email {#june-26-email}
 
@@ -115,7 +105,6 @@ Os seguintes recursos e melhorias estão chegando ao canal de email nesta versã
 <p>O Journey Optimizer agora inclui validação técnica automatizada diretamente no Designer de email, ajudando você a detectar problemas no HTML e no CSS antes do envio.</p>
 <p>As verificações abrangem elementos sem suporte, como tags <code>&lt;script&gt;</code> e <code>&lt;base&gt;</code>, divs vazios que podem quebrar o layout no Microsoft Outlook, tags de metaatualização do HTML e limites de tamanho de CSS ou HTML que acionam falhas de renderização no Gmail.</p>
 <p>Os resultados são exibidos como erros, avisos ou avisos informativos diretamente no painel de criação, com detalhes contextuais e correções com um clique, quando disponíveis, para que os problemas possam ser resolvidos sem sair do editor.</p>
-<p>Para obter mais informações, consulte a <a href="../email/content-check.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
