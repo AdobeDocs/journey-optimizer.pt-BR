@@ -34,7 +34,7 @@ Novo em [!DNL Adobe Journey Optimizer]? Esse hub reúne os recursos que ajudam v
 
 Se você tiver dez minutos, comece com este vídeo de orientação. Ele aborda a interface do e destaca os principais recursos por função.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430320?captions=por_br&quality=12)
 
 Em seguida, crie confiança prática com estes recursos de aprendizagem:
 
