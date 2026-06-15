@@ -39,7 +39,7 @@ Se você tiver dez minutos, comece com este vídeo de orientação. Ele aborda a
 Em seguida, crie confiança prática com estes recursos de aprendizagem:
 
 * [Tutoriais do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} — vídeos passo a passo e apresentações guiadas para cada função.
-* [Lista de reprodução de vídeo com curadoria especializada](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} — Um conjunto sequenciado de pequenos vídeos para assistir em ordem.
+* [Lista de reprodução de vídeo com curadoria especializada](https://experienceleague.adobe.com/pt-br/playlists?solution=Journey+Optimizer){target="_blank"} — Um conjunto sequenciado de pequenos vídeos para assistir em ordem.
 * [Sandbox de treinamento](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} — um ambiente seguro com exemplos de dados para praticar.
 * [Desafios práticos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"} — aplique o que você aprende com exercícios guiados.
 
@@ -134,7 +134,7 @@ Navegue por conteúdo de vídeo preparado por tópico. Cada guia está vinculada
 >[!TAB Relatórios e otimização]
 
 * [Monitore e analise sua jornada com relatórios ao vivo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — Acompanhe o desempenho em tempo real.
-* [Criar experimentos de conteúdo para campanhas de email](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testar e otimizar conteúdo.
+* [Criar experimentos de conteúdo para campanhas de email](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testar e otimizar conteúdo.
 
 >[!ENDTABS]
 
