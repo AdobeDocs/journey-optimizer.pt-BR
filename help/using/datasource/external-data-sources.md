@@ -290,7 +290,7 @@ O Adobe gerencia o certificado e sua chave privada associada. A tabela a seguir 
 | Gerenciado por | Adobe |
 | Algoritmo | RS256 (RSA) |
 | O que registrar em seu provedor de identidade | Somente certificado folha do Adobe — não a CA intermediária ou raiz |
-| Como obter | Recupere-o da [API de Certificado Público do mTLS](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (consulte a garantia do **Certificado** abaixo) |
+| Como obter | Recupere-o da [API de Certificado Público do mTLS](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (consulte a garantia do **Certificado** abaixo) |
 | Rotação | O Adobe gerencia a rotação e fornece aviso prévio de pelo menos 30 dias |
 
 #### Estrutura de asserção JWT {#certificate-credential-jwt}
@@ -377,7 +377,7 @@ Este é um exemplo para o mesmo tipo de autenticação de credencial de certific
 >* **`method`**: Deve ser `POST`. Os endpoints do token OAuth só aceitam solicitações POST.
 >* **`client_id`**: não deve estar em branco e não deve conter espaços em branco à esquerda ou à direita. Um valor em branco produz um JWT de aparência válida que o Provedor de identidade rejeitará com um erro opaco.
 >* **`scope`**: Expressa como uma cadeia de caracteres separada por espaço em `bodyParams`. Total máximo de 1000 caracteres.
->* **Certificado**: o Adobe gerencia o certificado e a chave privada — você nunca carrega ou insere um certificado. Antes de usar a ação personalizada em uma jornada em tempo real, você deve registrar o **certificado folha da Adobe** no seu Provedor de Identidade. Para recuperá-lo, chame a [API de Certificado Público de mTLS](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} e procure a entrada onde `certCommonName` é `ajo-journeys.aep-mtls.adobe.com`. Registre o valor `publicCertificate` dessa entrada — não use os certificados da autoridade de certificação intermediária ou raiz.
+>* **Certificado**: o Adobe gerencia o certificado e a chave privada — você nunca carrega ou insere um certificado. Antes de usar a ação personalizada em uma jornada em tempo real, você deve registrar o **certificado folha da Adobe** no seu Provedor de Identidade. Para recuperá-lo, chame a [API de Certificado Público de mTLS](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} e procure a entrada onde `certCommonName` é `ajo-journeys.aep-mtls.adobe.com`. Registre o valor `publicCertificate` dessa entrada — não use os certificados da autoridade de certificação intermediária ou raiz.
 
 Veja um exemplo do tipo de autenticação de cabeçalho:
 
