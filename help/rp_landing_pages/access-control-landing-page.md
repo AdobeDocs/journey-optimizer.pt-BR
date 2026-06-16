@@ -40,7 +40,7 @@ Orientações passo a passo para atribuir, editar e criar funções a fim de con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Funções integradas
 
@@ -50,7 +50,7 @@ Descubra as funções predefinidas e as permissões associadas a elas para geren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Permissões integradas
 

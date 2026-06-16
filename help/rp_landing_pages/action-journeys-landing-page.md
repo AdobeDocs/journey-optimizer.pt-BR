@@ -20,7 +20,7 @@ A configuração de ação no Adobe Journey Optimizer permite conectar facilment
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução às ações personalizadas
 
@@ -50,7 +50,7 @@ Descubra como usar as respostas de chamada de API em ações personalizadas para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Monitorar suas ações personalizadas
 

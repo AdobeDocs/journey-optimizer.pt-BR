@@ -30,7 +30,7 @@ Saiba como adicionar e personalizar componentes como textos, botões, imagens e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=pt-BR)
 
 Utilizar fragmentos visuais
 
@@ -40,7 +40,7 @@ Descubra como criar fragmentos reutilizáveis para simplificar o design de email
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Adicionar links e rastrear mensagens
 

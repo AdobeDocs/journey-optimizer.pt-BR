@@ -51,7 +51,7 @@ Orientação passo a passo para criar, personalizar e ativar campanhas de ação
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Campanhas acionadas por API
 

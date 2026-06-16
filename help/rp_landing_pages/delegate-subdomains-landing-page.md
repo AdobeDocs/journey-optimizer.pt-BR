@@ -92,7 +92,7 @@ Gerencie registros de PTR para os subdomínios delegados, incluindo edição e n
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Criar pools de IP
 
