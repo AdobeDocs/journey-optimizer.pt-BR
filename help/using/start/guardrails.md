@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 4489
-ht-degree: 70%
+ht-degree: 72%
 
 ---
 
@@ -42,7 +33,7 @@ ht-degree: 70%
 
 Abaixo são encontradas medidas de proteção e limitações ao usar o [!DNL Adobe Journey Optimizer].
 
-Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -74,7 +65,7 @@ Esta seção aborda medidas de proteção e limitações para jornadas, incluind
 
 * O número de atividades em uma jornada é limitado a **50**. O número de atividades é exibido na seção superior esquerda da tela da jornada.
 
-  Como jornadas próximas a esse limite, o desempenho de edição e publicação pode ser degradado, e podem ocorrer falhas de salvamento ou validação. Se isso acontecer, divida sua jornada em sub-jornadas menores usando [atividades de salto](../building-journeys/jump.md) ou recrie-a em uma nova versão. O limite de atividade não pode ser aumentado.
+  Com as jornadas próximas a esse limite, o desempenho de edição e publicação pode ser degradado e podem ocorrer falhas de salvamento ou validação. Se isso acontecer, divida a jornada em subjornadas menores com [atividades de salto](../building-journeys/jump.md) ou recrie-a em uma nova versão. O limite de atividades não pode ser aumentado.
 
 * Por padrão, o número de jornadas live/paused/dry run de uma só vez é limitado a **100**. O número atual de jornadas é exibido acima da tela de jornada.
 
@@ -115,7 +106,7 @@ Ao salvar ou publicar uma jornada, o Journey Optimizer valida o tamanho total do
 * Considere dividir a jornada em jornadas menores, se necessário.
 * Se você acredita que sua organização precisa de um limite mais alto, entre em contato com o representante da Adobe.
 
-Para monitorar o tamanho da carga atual da sua jornada antes da publicação, use o indicador **[!UICONTROL Tamanho da carga da jornada atual]** no painel de propriedades da jornada. [Saiba como verificar o tamanho da carga da jornada](../building-journeys/journey-properties.md#journey-payload-size)
+Para monitorar o tamanho do conteúdo atual da jornada antes da publicação, use o indicador **[!UICONTROL Tamanho do conteúdo da jornada atual]** no painel de propriedades da jornada. [Saiba como verificar o tamanho do conteúdo da jornada](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### Comparação de pacotes de licenças {#select-package-limitations}
 
@@ -306,7 +297,7 @@ Medidas de proteção específicas se aplicam a **jornadas em pausa**, incluindo
 
 Medidas de proteção específicas se aplicam a **Jornada Dry run**, incluindo a contagem para perfis ativáveis e cotas de jornada ativas. Elas são listadas [nesta página](../building-journeys/journey-dry-run.md#journey-dry-run-limitations).
 
-#### Jornada fragmentos {#fragments-journey-g}
+#### Fragmentos de jornada {#fragments-journey-g}
 
 Medidas de proteção específicas se aplicam a **fragmentos de Jornada**, incluindo no máximo **20 nós por fragmento** e **200 fragmentos ativos por sandbox**. Elas são listadas [nesta página](../building-journeys/journey-fragments.md#guardrails).
 

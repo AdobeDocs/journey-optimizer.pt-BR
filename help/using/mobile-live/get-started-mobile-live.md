@@ -17,7 +17,7 @@ topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-15
 source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
 source-wordcount: 449
-ht-degree: 84%
+ht-degree: 89%
 
 ---
 
@@ -57,8 +57,8 @@ Diferentemente das notificações por push tradicionais, as atividades em tempo 
 
 Com o Adobe Journey Optimizer, você pode **iniciar**, **atualizar** e **encerrar** atividades em tempo real de forma remota e programática por meio de campanhas acionadas por API, oferecendo suporte a casos de uso individuais e baseados em público-alvo em grande escala.
 
-As atividades online podem **apenas** ser iniciadas por meio de campanhas **acionadas por API**, permitindo que você forneça cargas personalizadas e execute toda a personalização por meio de sua própria carga.
-O tipo de campanha **acionada por API** apropriado deve ser selecionado com base no caso de uso de atividade online pretendido:
+As atividades em tempo real podem ser iniciadas **apenas** por meio de campanhas **acionadas por API**, permitindo o fornecimento de conteúdos personalizados e a realização de toda a personalização através do seu próprio conteúdo.
+Deve ser selecionado o tipo adequado de campanha **acionada por API** com base no caso de uso da atividade em tempo real pretendida:
 
 * Selecione **Marketing acionado por API** para casos de uso de transmissão: atualizações baseadas em público-alvo enviadas em grande escala:
 
@@ -96,4 +96,4 @@ Conclua as etapas abaixo para configurar e implementar Atividades em tempo real 
 
 Descubra como configurar as atividades em tempo real do iOS com o Adobe Journey Optimizer para fornecer atualizações avançadas em tempo real na Tela de bloqueio do iPhone e no Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479869/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
