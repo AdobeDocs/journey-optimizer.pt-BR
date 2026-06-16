@@ -6,9 +6,9 @@ description: Sintaxe
 redpen-status: CREATED_||_2025-08-11_20-10-54
 exl-id: 7f9a648a-5b4b-4ca0-a4db-47e1fa657864
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '295'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 97%
 
 Confira os recursos potentes de sintaxe do editor de expressões avançadas do Adobe Journey Optimizer, onde você pode criar expressões precisas e dinâmicas para ajustar as jornadas do cliente. Esteja você organizando dados complexos com operadores, consultando coleções ou aplicando uma lógica condicional, as ferramentas de sintaxe fornecem a flexibilidade para adaptar-se a casos do mundo real. Explore tópicos importantes, como referências de campo para acessar dados, tipos de dados para garantir a precisão e propriedades da jornada para personalização em tempo real. Cada conceito baseia-se no anterior, criando um kit de ferramentas coeso para criar jornadas mais inteligentes e eficazes. Vamos explorar todas as possibilidades? Vamos começar.
 
-## Sintaxe: expressões de build no Adobe Journey Optimizer
+## Sintaxe: criar expressões no Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Sintaxe do editor de expressões avançadas
 
@@ -30,7 +30,7 @@ Saiba mais sobre as regras de sintaxe detalhadas para usar o editor de expressõ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Instrução condicional (if, then, else)
 
@@ -40,7 +40,7 @@ Domine o uso de instruções condicionais para criar expressões complexas e oti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Noções básicas sobre tipos de dados
 
@@ -50,7 +50,7 @@ Obtenha uma visão geral abrangente dos tipos de dados usados em expressões, in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Usar referências a campos
 
@@ -60,7 +60,7 @@ Entenda como fazer referência a campos em expressões, incluindo casos de uso a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Funções de gerenciamento de coleções
 
@@ -70,7 +70,7 @@ Explore funções como “all”, “first”, “last” e “at” para manipu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Operadores em expressões avançadas
 

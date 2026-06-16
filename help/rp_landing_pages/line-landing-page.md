@@ -6,9 +6,9 @@ description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
 exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '226'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 Use o [!DNL Journey Optimizer] para enviar mensagens LINE a clientes no aplicativo LINE. Você pode criar, personalizar e visualizar mensagens no editor do LINE.
 
-As mensagens LINE podem ser criadas e enviadas em uma jornada ou em uma campanha. 
+As mensagens LINE podem ser criadas e enviadas em uma jornada ou em uma campanha.
 
 * Em uma **jornada**. Crie uma jornada, adicione uma atividade LINE, defina configurações básicas e navegue até o painel direito **[!UICONTROL Ações: LINE]** para criar o conteúdo da mensagem LINE. Saiba como criar uma jornada [nesta página](../using/building-journeys/journey-gs.md).
 
@@ -30,7 +30,7 @@ Antes de criar a mensagem LINE, configure o canal LINE com o Journey Optimizer. 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar o canal LINE
 
@@ -40,7 +40,7 @@ Siga as instruções passo a passo para configurar manualmente o canal LINE ou d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Criar e configurar mensagens LINE
 
@@ -50,7 +50,7 @@ Descubra como adicionar mensagens LINE a jornadas e campanhas, personalizar o co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Verificar e enviar mensagens LINE
 

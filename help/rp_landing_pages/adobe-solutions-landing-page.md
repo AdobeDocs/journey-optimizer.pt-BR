@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Enviar com as soluções da Adobe
-description: Saiba como enviar mensagens por meio do Adobe Campaign Standard, do Campaign v7/v8 e do Marketo Engage a partir do Journey Optimizer jornada usando ações personalizadas.
+description: Saiba como enviar mensagens com o Adobe Campaign Standard, o Campaign v7/v8 e o Marketo Engage a partir de jornadas do Journey Optimizer usando ações personalizadas.
 redpen-status: CREATED_||_2025-08-11_21-17-09
 exl-id: a8d34150-32f1-4c58-8728-ba73b7e90ec4
 source-git-commit: a0ea5aef7616520bbc2792ba33e85ff72724a28e
-workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 86%
+workflow-type: ht
+source-wordcount: '241'
+ht-degree: 100%
 
 ---
 
@@ -20,27 +20,27 @@ O Adobe Journey Optimizer também é capaz de enviar mensagens por meio de outra
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Integrar o Adobe Journey Optimizer ao Adobe Campaign Standard
 
 Saiba como integrar o Adobe Journey Optimizer ao Adobe Campaign Standard para habilitar recursos de mensagens transacionais, como email, push e SMS.
 
-[Integrar ao Campaign Standard](../using/action/acs-action.md)
+[Integrar ao Adobe Campaign Standard](../using/action/acs-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Integração do Adobe Journey Optimizer ao Adobe Campaign v7/v8
 
 Descubra como conectar o Adobe Journey Optimizer ao Adobe Campaign v7/v8 para mensagens transacionais por email, SMS e notificação por push.
 
-[Integração com o Campaign v7/v8](../using/action/acc-action.md)
+[Integrar ao Adobe Campaign v7/v8](../using/action/acc-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Integrar o Adobe Journey Optimizer ao Marketo Engage
 

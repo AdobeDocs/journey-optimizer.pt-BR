@@ -1,31 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Notas de versão de 2026
-description: Notas de versão do Journey Optimizer 2026
+title: Notas de versão 2026
+description: Notas de versão de 2026 do Journey Optimizer
 feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 6058
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# Notas de versão de 2026 {#release-notes-2026}
+# Notas de versão 2026 {#release-notes-2026}
 
-Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lançado em 2026.
+Esta página lista todos os recursos e melhorias da versão de 2026 do [!DNL Journey Optimizer].
 
-## Notas de versão de abril de 2026 {#april-26-rn}
+## Notas da versão de abril de 2026 {#april-26-rn}
 
 
 **Data de lançamento**: 28 a 29 de abril de 2026
@@ -115,7 +111,7 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 <tbody>
 <tr>
 <td>
-<p>A Adobe Journey Optimizer agora fornece um <strong>servidor MCP (Model Context Protocol)</strong> que revela operações de campanha, configuração de canal e sandbox diretamente dentro de qualquer aplicativo compatível com MCP. Com essa integração, diferentes personalidades podem colaborar em torno dos mesmos dados de orquestração. Em vez de escrever consultas na API REST do Adobe Journey Optimizer ou navegar por várias telas de interface, você pode descrever sua intenção em conversação e permitir que o LLM chame as ferramentas de MCP apropriadas. Esse recurso está disponível atualmente no Claude Web e Desktop.</p>
+<p>Agora o Adobe Journey Optimizer fornece um <strong>servidor MCP (Model Context Protocol)</strong> que revela operações de campanha, configuração de canais e sandbox dentro de qualquer aplicativo compatível com MCP de forma direta. Com essa integração, diferentes personalidades podem colaborar em torno dos mesmos dados de orquestração. Em vez de escrever consultas na API REST do Adobe Journey Optimizer ou navegar por várias telas de interface, você pode descrever sua intenção em conversação e permitir que o LLM chame as ferramentas de MCP apropriadas. Esse recurso está disponível atualmente no Claude Web e Desktop.</p>
 <p>Esse recurso está disponível para todos os clientes no Beta público.</p>
 <p>Para obter mais informações, consulte a <a href="../integrations/ajo-mcp.md">documentação detalhada</a>.</p>
 </td>
@@ -189,7 +185,7 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 <tbody>
 <tr>
 <td>
-<p>[!DNL Adobe Journey Optimizer] agora inclui o <strong>Assistente de IA</strong> diretamente no editor de personalização e no Designer de email, que converte prompts de linguagem natural em expressões de personalização e lógica condicional válidas, sem a necessidade de conhecimento especializado sobre sintaxe. Descreva a personalização que deseja realizar e a IA gera um código pronto para uso que pode ser aplicado imediatamente ou refinado por meio de prompts de acompanhamento.</p>
+<p>[!DNL Adobe Journey Optimizer] agora inclui o <strong>Assistente de IA</strong> diretamente no editor de personalização e o Designer de email que converte prompts de linguagem natural em expressões de personalização e lógica condicional válidas. Não é necessária experiência em sintaxe. Descreva a personalização que deseja realizar e a IA gera um código pronto para uso que pode ser aplicado imediatamente ou refinado por meio de prompts de acompanhamento.</p>
 <p>O assistente também trabalha de forma inversa. Selecione qualquer expressão existente e solicite que ela explique a lógica, identifique problemas ou sugira melhorias. Isso o torna útil não apenas para a criação de novas expressões, mas para revisar e depurar as existentes na sua equipe.</p>
 <p><img src="assets/do-not-localize/assistant-perso.gif"></p>
 <p>Para obter mais informações, consulte o <a href="../content-management/generative-personalization-expressions.md">Assistente de IA para expressões de personalização</a>.</p>
@@ -208,7 +204,7 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 <tbody>
 <tr>
 <td>
-<p>Use o novo nó <strong>Otimizar</strong> para executar testes A/B ou experimentos de bandit com vários braços para determinar o melhor caminho para atender aos KPIs centrados nos negócios. Essa ferramenta permite testar, variar e personalizar as comunicações, a sequência e o tempo para melhor alcançar seus clientes.
+<p>Use o novo nó <strong>Otimizar</strong> para executar testes A/B ou experimentos de bandido de vários braços para determinar o melhor caminho para atingir seus KPIs centrados no negócio. Essa ferramenta permite testar, variar e personalizar comunicações, sequenciamentos e o melhor momento para entrar em contanto com o cliente.
 </p>
 <p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Como parte da Disponibilidade geral, esta versão introduz a seleção <strong>tipo de experimento</strong> (A/B ou bandido de vários braços) e <strong>Dimensionar o vencedor</strong> para jornadas unitárias.</p>
@@ -277,7 +273,7 @@ As seguintes melhorias também foram lançadas em abril de 2026.
 
 #### Tomada de decisão
 
-* **APIs de fluxo de trabalho de migração de decisão** - O contrato de API para criação de análise de dependência e fluxos de trabalho de migração foi atualizado: passe **`request-level`** como **parâmetro de consulta** na URL de solicitação (`sandbox`, `offer` ou `decision`). O nível de solicitação não deve mais ser enviado no corpo JSON. [Leia mais](../experience-decisioning/decisioning-migration-api.md)
+* **APIs de fluxo de trabalho de migração do Decisioning**: o contrato de API para criação de análise de dependência e fluxos de trabalho de migração foi atualizado: passe **`request-level`** como **parâmetro de consulta** no URL de solicitação (`sandbox`, `offer` ou `decision`). O nível de solicitação não deve mais ser enviado no corpo JSON. [Leia mais](../experience-decisioning/decisioning-migration-api.md)
 
   Data de disponibilidade: 6 de maio de 2026
 
@@ -291,7 +287,7 @@ As seguintes melhorias também foram lançadas em abril de 2026.
 
 #### Integrações do Adobe Experience Manager
 
-* **Suporte à Variação de Fragmento de Conteúdo do Adobe Experience Manager** - Você pode selecionar **Variações de Fragmento de Conteúdo** (por exemplo, variantes de idioma ou canal) ao inserir Fragmentos de Conteúdo do Adobe Experience Manager, com manipulação aprimorada para cenários locais e multilíngues. [Leia mais](../integrations/aem-fragments.md#aem-variations)
+* **Suporte à variação de fragmento de conteúdo do Adobe Experience Manager**: você pode selecionar **variações de fragmento de conteúdo** (por exemplo, variantes de idioma ou canal) ao inserir fragmentos de conteúdo do Adobe Experience Manager, com tratamento aprimorado para localidade e cenários multilíngues. [Leia mais](../integrations/aem-fragments.md#aem-variations)
 
   Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).
 
@@ -309,7 +305,7 @@ As seguintes melhorias também foram lançadas em abril de 2026.
 
 #### Jornadas
 
-* **Tamanho atual da carga de jornada visível nas propriedades de jornada** - O painel Propriedades de jornada agora exibe o tamanho atual da carga de jornada em comparação ao limite configurado — por exemplo, *1,5 MB (de 4 MB)*. Esse indicador somente leitura ajuda a monitorar a complexidade da jornada antes da publicação e evitar que erros causados pelo limite de tamanho da carga sejam excedidos. [Leia mais](../building-journeys/journey-properties.md#journey-payload-size)
+* **Tamanho do conteúdo da jornada atual visível nas propriedades da jornada**: agora o painel de propriedades da jornada exibe o tamanho atual do conteúdo da jornada em comparação ao limite configurado. Por exemplo, *1,5 MB (de 4 MB)*. Esse indicador somente leitura ajuda a monitorar a complexidade da jornada antes da publicação e a evitar erros causados por exceder o limite de tamanho do conteúdo. [Leia mais](../building-journeys/journey-properties.md#journey-payload-size)
 
   Data de disponibilidade: 30 de abril de 2026
 
@@ -344,7 +340,7 @@ As seções [Novos recursos](#march-26-features) e [Melhorias](#march-26-improv)
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Data de lançamento**: 24 a 25 de março de 2026
@@ -694,7 +690,7 @@ WAITING RELEASE DATE CONFIRMATION
 <tbody>
 <tr>
 <td>
-<p>Agora você pode usar as <strong>fórmulas de classificação</strong> para aumentar automaticamente as pontuações de prioridade de jornada com base nos atributos do perfil do cliente e em fatores contextuais, garantindo que os clientes insiram as jornadas mais relevantes.</p>
+<p>Agora você pode usar <strong>fórmulas de classificação</strong> para aumentar automaticamente as pontuações de prioridade da jornada com base nos atributos do perfil do cliente e nos fatores contextuais, garantindo que os clientes entrem nas jornadas mais relevantes.</p>
 <p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../conflict-prioritization/journey-ranking-formulas.md">documentação detalhada</a>.</p>
@@ -713,7 +709,7 @@ WAITING RELEASE DATE CONFIRMATION
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer oferece suporte a uma nova <strong>Atividade de ação</strong> genérica que permite configurar ações únicas e grupos de ação de entrada de várias ações, permitindo uma configuração de ação simplificada na tela de jornada. Em especial, este novo recurso permite:</p>
+<p>O Journey Optimizer oferece suporte a uma nova atividade genérica <strong>Ação</strong> que permite configurar ações individuais e grupos de ações de entrada com várias ações, possibilitando uma configuração simplificada de ações na tela da jornada. Em especial, este novo recurso permite:</p>
 <ul>
 <li>Uma configuração de ação nativa simplificada na tela da jornada.</li>
 <li>A capacidade de criar grupos de ação de entrada multiação.</li>
@@ -724,7 +720,7 @@ WAITING RELEASE DATE CONFIRMATION
 <p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/journey-action.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 20 de fevereiro de 2026</p>
-<p><strong>Observação:</strong> todos os canais nativos agora estão acessíveis por meio da atividade de jornada de Ação. As atividades herdadas do canal nativo serão descontinuadas na versão de março. As jornadas existentes que incluem ações herdadas continuarão a funcionar como estão — não é necessária nenhuma migração.</p>
+<p><strong>Observação:</strong> todos os canais nativos agora estão acessíveis por meio da atividade de jornada de Ação. As atividades legadas do canal nativo serão descontinuadas na versão de março. As jornadas existentes que incluem ações legadas continuarão funcionando normalmente, nenhuma migração é necessária.</p>
 </td>
 </tr>
 </tbody>
@@ -733,23 +729,23 @@ WAITING RELEASE DATE CONFIRMATION
 <table>
 <thead>
 <tr>
-<th><strong>Envio de onda de mensagens de saída</strong><br/></th>
+<th><strong>Envio em ondas de mensagens de saída</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível agendar mensagens de campanhas ou jornadas do Journey Optimizer para serem entregues em lotes controlados ao longo do tempo.</p>
-<p>O Wave sending oferece os seguintes benefícios:</p>
+<p>Agora você pode agendar o envio de mensagens de campanhas ou jornadas do Journey Optimizer em lotes controlados ao longo do tempo.</p>
+<p>O envio em ondas oferece os seguintes benefícios:</p>
 <ul>
-<li>Melhor capacidade de entrega - O Spread envia ao longo do tempo para ajudar a manter uma sólida reputação do remetente e reduzir o risco de ser sinalizado como spam.</li>
-<li>Controle de carga - Evite sobrecarregar os sistemas de downstream (por exemplo, centrais de atendimento, páginas de aterrissagem) limitando quantas mensagens saem de uma vez.</li>
-<li>Casos de uso de alto volume e sensíveis ao tempo — adequados a grandes públicos ou quando é necessário controlar o tempo (por exemplo, capacidade da central de atendimento, aumento ou ofertas vinculadas ao tempo).</li>
+<li>Melhor capacidade de entrega: distribua os envios ao longo do tempo para ajudar a manter uma boa reputação do remetente e reduzir o risco de ser sinalizado como spam.</li>
+<li>Controle de carga: evite sobrecarregar os sistemas subsequentes (por exemplo, centrais de atendimento, páginas de destino) limitando a quantidade de mensagens enviadas simultaneamente.</li>
+<li>Casos de uso de alto volume e urgentes: adequados a grandes públicos-alvo ou quando é necessário controlar o tempo (por exemplo, capacidade da central de atendimento, aumento ou ofertas com limite de tempo).</li>
 </ul>
 <p><img src="assets/do-not-localize/waves.gif"/></p>
-<p>Em <strong>campanhas</strong>, esse recurso está disponível para todos os ambientes (Disponibilidade Geral). Para obter mais informações, consulte a <a href="../campaigns/send-using-waves.md">documentação detalhada</a>.</p>
+<p>Em <strong>campanhas</strong>, esse recurso está disponível para todos os ambientes (Disponibilidade geral). Para obter mais informações, consulte a <a href="../campaigns/send-using-waves.md">documentação detalhada</a>.</p>
 
-<p>No <strong>jornada</strong>, esse recurso só está disponível para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe. Para obter mais informações, consulte a <a href="../building-journeys/send-using-waves.md">documentação detalhada</a>.</p>
+<p>Em <strong>jornadas</strong>, esse recurso só está disponível para algumas organizações (Disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe. Para obter mais informações, consulte a <a href="../building-journeys/send-using-waves.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 19 de fevereiro de 2026</p>
 </td>
 </tr>
@@ -778,15 +774,15 @@ WAITING RELEASE DATE CONFIRMATION
 <table>
 <thead>
 <tr>
-<th><strong>Canal de notificações por push da Web</strong><br/></th>
+<th><strong>Canal de notificações por push na web</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Adobe Journey Optimizer agora oferece suporte a <strong>notificações por push na Web</strong>, expandindo o canal de push para além dos dispositivos móveis. Você pode enviar notificações perfeitamente para <strong>navegadores móveis e de desktop</strong>, permitindo que você alcance os clientes diretamente em seus dispositivos sem precisar de um aplicativo. Esse aprimoramento permite interagir com os usuários com mensagens personalizadas e oportunas em tempo real, aproveitando os mesmos fluxos de trabalho de criação e recursos de direcionamento já disponíveis para notificações por push em dispositivos móveis.</p>
+<p>O Adobe Journey Optimizer agora oferece suporte a <strong>Notificações por push na web</strong>, expandindo o canal de push além do celular. Você pode enviar notificações perfeitamente para <strong>navegadores móveis e de desktop</strong>, permitindo que você alcance os clientes diretamente em seus dispositivos sem precisar de um aplicativo. Esse aprimoramento permite interagir com os usuários com mensagens personalizadas e oportunas em tempo real, aproveitando os mesmos fluxos de trabalho de criação e recursos de direcionamento já disponíveis para notificações por push em dispositivos móveis.</p>
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
-<p>Anteriormente lançado no Beta, esse recurso estará disponível para todos os ambientes (Disponibilidade geral).</p>
+<p>Lançado anteriormente em versão Beta, esse recurso será disponibilizado para todos os ambientes (disponibilidade geral).</p>
 <p>Para obter mais informações, consulte a <a href="../push/push-configuration-web.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 13 de fevereiro de 2026</p>
 </td>
@@ -803,7 +799,7 @@ WAITING RELEASE DATE CONFIRMATION
 <tbody>
 <tr>
 <td>
-<p>Uma nova <strong>Atividade de decisão de conteúdo</strong> está disponível na tela de jornada para integrar ofertas personalizadas diretamente às jornadas do cliente. Essa atividade permite fornecer conteúdo baseado em decisão e fazer referência a essas ofertas em toda a jornada, em condições para criar ramificações baseadas em elegibilidade, em ações personalizadas para transmitir dados de oferta a sistemas externos e em outras atividades para criar experiências do cliente totalmente personalizadas.</p>
+<p>Uma nova <strong>Atividade de decisão de conteúdo</strong> agora está disponível na tela da jornada para integrar ofertas personalizadas diretamente nas jornadas de seus clientes. Essa atividade permite fornecer conteúdo baseado em decisão e fazer referência a essas ofertas em toda a jornada, em condições para criar ramificações baseadas em elegibilidade, em ações personalizadas para transmitir dados de oferta a sistemas externos e em outras atividades para criar experiências do cliente totalmente personalizadas.</p>
 <p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/content-decision.md">documentação detalhada</a>.</p>
@@ -822,7 +818,7 @@ WAITING RELEASE DATE CONFIRMATION
 <tbody>
 <tr>
 <td>
-<p>As APIs de ferramentas de migração agora estão disponíveis para migrar programaticamente entidades do <strong>Gerenciamento de decisão</strong> para a <strong>Decisão</strong>, apresentando:</p>
+<p>Agora estão disponíveis APIs de ferramentas de migração para migrar programaticamente entidades de <strong>Gestão de decisões</strong> para <strong>Tomada de decisões</strong>, com os seguintes recursos:</p>
 <ul>
 <li>Escopos de migração flexíveis (nível de sandbox, oferta ou decisão)</li>
 <li>Análise e validação automatizadas de dependências</li>
@@ -845,7 +841,7 @@ WAITING RELEASE DATE CONFIRMATION
 <tbody>
 <tr>
 <td>
-<p>Obtenha um insight mais profundo sobre a integridade e o desempenho de seus endpoints de ação personalizados com um novo painel de monitoramento e dados de evento de etapa do jornada aprimorados. Monitore chamadas bem-sucedidas, erros, taxa de transferência, tempos de resposta e tempos de espera na fila para entender rapidamente quando, onde e por que ocorrem anomalias.</p>
+<p>Obtenha mais insights sobre a integridade e o desempenho de pontos de acesso de ação personalizados com um novo painel de monitoramento e dados de eventos da etapa da jornada aprimorados. Monitore chamadas bem-sucedidas, erros, taxa de transferência, tempos de resposta e tempos de espera na fila para entender rapidamente quando, onde e por que ocorrem anomalias.</p>
 <p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para obter mais informações, consulte a <a href="../action/reporting.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 3 de fevereiro de 2026</p>
@@ -857,13 +853,13 @@ WAITING RELEASE DATE CONFIRMATION
 <table>
 <thead>
 <tr>
-<th><strong>Suporte à decisão no canal de SMS</strong><br/></th>
+<th><strong>Apoio à decisão no canal de SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode personalizar e otimizar o conteúdo de suas mensagens SMS com o Decisioning. Use Pontuações de prioridade, Fórmulas ou Modelos de IA para exibir o melhor conteúdo para os clientes.</p>
+<p>Agora você pode personalizar e otimizar o conteúdo das mensagens de SMS com a Decisão. Use Pontuações de prioridade, Fórmulas ou Modelos de IA para exibir o melhor conteúdo para os clientes.</p>
 <p>Para obter mais informações, consulte a <a href="../experience-decisioning/create-decision.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 2 de fevereiro de 2026</p>
 </td>
@@ -877,7 +873,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 #### Configuração
 
-* **Uso do evento de experiência em expressões de jornada** - A partir de 1º de abril de 2026, o uso de atributos de evento de experiência em expressões de jornada não será mais suportado para organizações que não usaram esse recurso nos últimos 90 dias. Esse recurso já está indisponível para novas organizações de clientes desde 8 de julho de 2025. Para obter alternativas, consulte [Pesquisa de evento de experiência no jornada](../building-journeys/exp-event-lookup.md).
+* **Uso do evento de experiência em expressões de jornada**: desde 1º de abril de 2026, o uso de atributos de evento de experiência em expressões de jornada não é mais aceito em organizações que não usaram esse recurso nos últimos 90 dias. Esse recurso já está indisponível para novas organizações de clientes desde 8 de julho de 2025. Para obter alternativas, consulte [Pesquisa de evento de experiência em jornadas](../building-journeys/exp-event-lookup.md).
 
 #### Gerenciamento de conteúdo
 
@@ -885,7 +881,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 * **Update brands with new color tab** - Brand guidelines help ensure your brand is presented consistently across all touchpoints. The new <strong>Colors</strong> section defines the standards for your brand's color system, outlining how colors are selected, organized, and applied across experiences. It ensures consistent use of primary, secondary, accent, and neutral colors to support a cohesive, accessible, and recognizable brand identity. [Read more](../content-management/brands.md)
 -->
 
-* **Usar temas para converter imagens em modelos de email** - Ao converter uma imagem em um modelo de email no Journey Optimizer, agora é possível usar um tema como entrada para que o HTML gerado siga os parâmetros da sua marca. Estilos como cor de fundo, cor do botão, fontes, espaçamento entre linhas, margens e preenchimento são aplicados automaticamente, reduzindo o trabalho manual de design e fornecendo um modelo pronto para uso com edições mínimas. [Leia mais](../content-management/image-to-html.md)
+* **Usar temas para converter imagens em modelos de email**: ao converter uma imagem em um modelo de email no Journey Optimizer, agora é possível usar um tema como entrada para que o HTML gerado siga os parâmetros da sua marca. Estilos como cor do fundo, cor do botão, fontes, espaçamento entre linhas, margens e preenchimento são aplicados automaticamente, reduzindo o trabalho manual de design e fornecendo um modelo pronto para uso com edições mínimas. [Leia mais](../content-management/image-to-html.md)
 
   Data de disponibilidade: 17 de fevereiro de 2026.
 
@@ -893,17 +889,17 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 #### Designer de email
 
-* **Recuo de texto** - Agora é possível aplicar recuo à esquerda personalizável à primeira linha de parágrafos em componentes de texto diretamente do painel de propriedades. <!--The new **Indentation** control lets you define indentation in pixels or percentage via a numeric input or slider, with live preview on the canvas. -->Isso melhora a legibilidade de conteúdo de forma longa, como editoriais e artigos. [Leia mais](../email/get-started-email-style.md)
+* **Recuo de texto**: agora é possível aplicar recuo à esquerda personalizável à primeira linha de parágrafos em componentes de texto diretamente no painel de propriedades. <!--The new **Indentation** control lets you define indentation in pixels or percentage via a numeric input or slider, with live preview on the canvas. -->Isso melhora a legibilidade de conteúdo longo, como editoriais e artigos. [Leia mais](../email/get-started-email-style.md)
 
   Data de disponibilidade: 18 de fevereiro de 2026.
 
 #### Tomada de decisão
 
-* **Suporte de entrada do Edge para o uso de dados do Adobe Experience Platform no Decisioning** - O uso de dados do Adobe Experience Platform no Decisioning agora oferece suporte a casos de uso de entrada de borda, além de email e ações personalizadas no jornada. [Leia mais](../experience-decisioning/aep-data-exd.md)
+* **Compatibilidade com entradas do Edge para o uso de dados da Adobe Experience Platform no Decisioning**: o uso de dados da Adobe Experience Platform no Decisioning agora oferece suporte a casos de uso de entrada no Edge, além de email e ações personalizadas na jornada. [Leia mais](../experience-decisioning/aep-data-exd.md)
 
   Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
 
-* **Visualização da decisão no canal de experiência baseado em código** - Agora é possível visualizar itens de decisão ao configurar a Decisão com o canal de experiência baseado em código. A visualização está disponível diretamente na interface de criação antes de entrar em funcionamento. [Leia mais](../code-based/test-code-based.md#preview-code-based)
+* **Visualização da decisão no canal de experiência baseada em código**: agora é possível visualizar itens de decisão ao configurar a Decisão com o canal de experiência baseada em código. A visualização está disponível diretamente na interface de criação antes de entrar em funcionamento. [Leia mais](../code-based/test-code-based.md#preview-code-based)
 
   Data de disponibilidade: 18 de fevereiro de 2026
 
@@ -919,7 +915,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 #### Personalização
 
-* **Auxiliar de metadados de execução** - A função auxiliar `executionMetadata` agora está disponível para todos os clientes do Journey Optimizer. Use-as para anexar dinamicamente informações contextuais a qualquer ação nativa e capturá-las em um conjunto de dados para exportação para sistemas externos. [Leia mais](../personalization/functions/helpers.md#execution-metadata)
+* **Auxiliar de metadados de execução**: a função auxiliar `executionMetadata` agora está disponível para todos os clientes do Journey Optimizer. Utilize-o para adicionar dinamicamente informações contextuais a qualquer ação nativa e capturá-las em um conjunto de dados para exportação a sistemas externos. [Leia mais](../personalization/functions/helpers.md#execution-metadata)
 
   Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).
 
@@ -927,7 +923,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 #### SMS
 
-* **Webhooks de SMS** - Webhooks agora são aceitos em todos os provedores de SMS. Você pode configurar cada webhook com base na finalidade pretendida: webhooks de entrada para capturar mensagens de entrada e webhooks de feedback para receber confirmações de entrega, atualizações de status e outros eventos relacionados à mensagem. [Leia mais](../mobile/mobile-webhook.md)
+* **Webhooks de SMS**: os webhooks agora são aceitos por todos os provedores de SMS. Você pode configurar cada webhook de acordo com sua finalidade: webhooks de entrada para capturar mensagens recebidas e webhooks de feedback para receber confirmações de entrega, atualizações de status e outros eventos relacionados a mensagens. [Leia mais](../mobile/mobile-webhook.md)
 
   Data de disponibilidade: 2 de fevereiro de 2026.
 
@@ -943,14 +939,14 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <table>
 <thead>
 <tr>
-<th><strong>Suporte à decisão no canal push</strong><br/></th>
+<th><strong>Apoio à decisão no canal de push</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode personalizar e otimizar o conteúdo de suas <strong>Notificações por push</strong> com a <strong>Decisão</strong>. Use Pontuações de prioridade, Fórmulas ou Modelos de IA para exibir o melhor conteúdo para os clientes.</p>
-<p>O Experience Decisioning com notificações por push requer uma versão específica do Mobile SDK. Antes de implementar este recurso, verifique as <a href="https://developer.adobe.com/client-sdks/home/release-notes" target="_blank">notas de versão</a> para identificar a versão necessária e se você atualizou adequadamente. Você também pode exibir todas as versões do SDK disponíveis para sua plataforma <a href="https://developer.adobe.com/client-sdks/home/current-sdk-versions" target="_blank">nesta seção</a>.</p>
+<p>Agora você pode personalizar e otimizar o conteúdo de <strong>Notificações por push</strong> com a <strong>Decisão</strong>. Use Pontuações de prioridade, Fórmulas ou Modelos de IA para exibir o melhor conteúdo para os clientes.</p>
+<p>A Escolha de experiências com notificações por push exige uma versão específica do SDK móvel. Antes de implementar este recurso, verifique as <a href="https://developer.adobe.com/client-sdks/home/release-notes" target="_blank">notas de versão</a> para identificar a versão necessária e se você atualizou de acordo. Você também pode visualizar todas as versões do SDK disponíveis para sua plataforma <a href="https://developer.adobe.com/client-sdks/home/current-sdk-versions" target="_blank">nesta seção</a>.</p>
 <p>Para obter mais informações, consulte a <a href="../experience-decisioning/create-decision.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 30 de janeiro de 2026</p>
 </td>
@@ -1011,7 +1007,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <li>Arquivar mensagens para solicitações legais e consultas do atendimento ao cliente</li>
 <li>Reter cópias de conteúdo personalizado enviadas a indivíduos</li>
 </ul>
-<p>Os registros são retidos no conjunto de dados de exportação de mensagens do AJO por sete dias corridos a partir da ingestão. Durante esse período de retenção, você pode exportá-los para seu próprio armazenamento por meio dos destinos do Experience Platform. O recurso é habilitado no nível de configuração de canais, fornecendo a você <strong>controle granular</strong> sobre quais mensagens são exportadas.</p>
+<p>Os registros são retidos no conjunto de dados de exportação de mensagens do AJO por sete dias corridos a partir da ingestão. Durante esse período de retenção, você pode exportá-los para seu próprio armazenamento por meio de destinos da Experience Platform. O recurso é habilitado no nível de configuração de canais, fornecendo a você <strong>controle granular</strong> sobre quais mensagens são exportadas.</p>
 <p>Esse recurso está disponível apenas para os canais de email e SMS, para organizações que adquiriram o complemento de Exportação de mensagem. Para obter mais informações, entre em contato com o(a) representante da Adobe.</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
 <p>Para obter mais informações, consulte a <a href="../configuration/message-export.md#message-export">documentação detalhada</a>.</p>
@@ -1098,7 +1094,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Verificações de qualidade de conteúdo do Assistente de IA**: além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas de <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou falhas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality).
 
-  [Conheça este recurso no vídeo](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on).
+  [Conheça este recurso no vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Jornadas
 
@@ -1144,13 +1140,13 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
   Data de disponibilidade: quarta-feira, 27 de janeiro de 2026.
 
-* **Reverter campanhas ativas para o status de rascunho** - Agora é possível reverter campanhas orquestradas em tempo real para o status de rascunho quando elas encontram erros de execução ou quando é necessário modificar campanhas agendadas antes de começarem a ser executadas. Essa opção estará disponível até que a primeira mensagem seja enviada. [Leia mais](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+* **Reverter campanhas ativas para o status de rascunho**: agora é possível reverter campanhas orquestradas em tempo real para o status de rascunho quando elas encontram erros de execução ou quando é necessário modificar campanhas agendadas antes de começarem a ser executadas. Essa opção está disponível até que a primeira mensagem seja enviada. [Leia mais](../orchestrated/start-monitor-campaigns.md#back-to-draft)
 
 #### Campanhas
 
 * **Agendar campanha usando o fuso horário do perfil**: o agendamento de campanha agora pode usar o <strong>fuso horário</strong> de cada perfil para entregar mensagens no horário local desejado. [Leia mais](../campaigns/campaign-schedule.md)
 
-  **Observação**: esta melhoria só estará disponível para um conjunto de organizações (Disponibilidade Limitada).
+  **Observação**: essa melhoria estará disponível apenas para um conjunto de organizações (Disponibilidade limitada).
 
   Data de disponibilidade: quarta-feira, 27 de janeiro de 2026.
 

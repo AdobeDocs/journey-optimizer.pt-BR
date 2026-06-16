@@ -7,21 +7,21 @@ hide: true
 redpen-status: CREATED_||_2025-08-11_21-17-32
 exl-id: 5dce56d9-0c3d-4eb1-8d44-d69a98925e8c
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
 
 # Gerenciamento de sandboxes{#section-overview}
 
-As sandboxes do Adobe Journey Optimizer são como espaços de trabalho virtuais que ajudam a manter os ambientes organizados e adaptados às suas necessidades, seja para desenvolvimento, teste ou produção. Ao usar sandboxes, você pode experimentar com segurança, atribuir funções de usuário para controlar o acesso e configurar pastas de conteúdo compartilhado para colaboração contínua. Esta seção apresenta orientações sobre o gerenciamento desses ambientes, desde a alternância entre sandboxes até a atribuição de funções e a garantia da disponibilidade do conteúdo. Você também descobrirá como transferir jornadas e modelos entre sandboxes, permitindo fluxos de trabalho eficientes entre equipes. Vamos simplificar os seus projetos? Vamos nos aprofundar nos detalhes e facilitar o gerenciamento da sandbox.
+As sandboxes do Adobe Journey Optimizer são como espaços de trabalho virtuais que ajudam a manter os ambientes organizados e adaptados às suas necessidades, seja para desenvolvimento, teste ou produção. Ao usar sandboxes, você pode experimentar com segurança, atribuir funções de usuário para controlar o acesso e configurar pastas de conteúdo compartilhado para colaboração contínua. Esta seção apresenta orientações sobre o gerenciamento desses ambientes, desde a alternância entre sandboxes até a atribuição de funções e a garantia da disponibilidade do conteúdo. Você também descobrirá como transferir jornadas e modelos entre sandboxes, permitindo fluxos de trabalho eficientes entre equipes. Vamos simplificar os seus projetos? Vamos nos aprofundar nos detalhes e facilitar o gerenciamento de sandboxes.
 
 ## Gerenciamento de sandboxes
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Gerenciar e atribuir sandboxes
 
@@ -31,7 +31,7 @@ Saiba como gerenciar e atribuir sandboxes para ambientes de particionamento, atr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Copiar objetos entre sandboxes
 
