@@ -1,136 +1,280 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Recursos do Journey Optimizer por pacote
-description: Entenda quais recursos do Adobe Journey Optimizer estão disponíveis com base na sua licença, pacote e canais ativados.
+title: Pacotes e recursos do Adobe Journey Optimizer
+description: Entenda como o Adobe Journey Optimizer é fornecido e quais recursos estão disponíveis com base em sua oferta básica, complementos de canal e complementos de recursos avançados, incluindo uma referência para pacotes Select, Prime e Ultimate herdados.
 feature: Get Started
 topic: Content Management
 role: Admin, User
 level: Beginner
-keywords: jornada otimizer, pacote, licença, select, prime, ultimate, recursos, modular, canais
+keywords: Otimizador de jornada, pacote, licença, campanhas, jornadas, canais, decisão, saída, móvel, web, modular, sms, mms, whatsapp, complementos, select, prime, ultimate, legacy
 hide: true
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: ac42eeb00129bd77963676302578aadc8d7051df
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 5%
+source-wordcount: '1972'
+ht-degree: 2%
 
 ---
 
 
-# O que está disponível no meu pacote [!DNL Adobe Journey Optimizer]? {#ajo-packages}
+# Pacotes e recursos do Adobe Journey Optimizer {#ajo-packages}
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Descubra quais recursos do Adobe Journey Optimizer seu pacote desbloqueia, se você usa o modelo atual do Campaigns e Jornada ou o licenciamento Select, Prime e Ultimate herdado, para poder confirmar o que está disponível e acessar cada recurso.
+**Nesta página:** saiba como o pacote modular do Adobe Journey Optimizer funciona entre as ofertas básicas, os complementos de canal e o complemento de Decisão, para que você possa escolher a combinação que se ajuste aos casos de uso de envolvimento e ao orçamento.
 
 >[!ENDSHADEBOX]
 
-Os recursos do [!DNL Adobe Journey Optimizer] variam com base no contrato de licença, canais habilitados e permissões de usuário. Use este guia para entender quais recursos normalmente estão disponíveis em seu pacote e navegue diretamente para a documentação do produto de cada recurso.
+[!DNL Adobe Journey Optimizer] usa um modelo de empacotamento modular. Comece com a oferta base que corresponde ao caso de uso principal e, em seguida, adicione os canais e recursos avançados necessários.
 
-A disponibilidade também pode depender da configuração do canal, dos pré-requisitos de implementação e dos complementos adquiridos. Selecione a guia que corresponde ao modelo de licença.
-
->[!BEGINTABS]
-
->[!TAB Jornadas e campanhas]
-
-Essa guia se aplica aos clientes licenciados sob o atual modelo de empacotamento modular [!DNL Adobe Journey Optimizer] (Journey Optimizer - Campanhas, Journey Optimizer - Jornada ou Journey Optimizer - Campanhas e Jornadas).
-
-## Pacotes básicos {#current-packages}
-
-| Pacote | O que inclui |
-|---------|----------------|
-| **Journey Optimizer - Campanhas** | Orquestração de campanha: fluxos de trabalho de público-alvo de uma ou várias etapas para envolvimento em lote. Mensagens transacionais por email, push e SMS incluídas. |
-| **Journey Optimizer - Jornada** | Real-time Journey Orchestration: jornadas acionadas por eventos que oferecem suporte ao processamento em lote e por transmissão. Mensagens transacionais por email, push e SMS incluídas. |
-| **Journey Optimizer - Campanhas e Jornadas** | Orquestração de campanhas e Journey Orchestration em tempo real combinados. Mensagens transacionais por email, push e SMS incluídas. |
+>[!TIP]
+>
+>**Não tem certeza de qual modelo você está usando?** Se você comprou o [!DNL Adobe Journey Optimizer] no modelo de empacotamento modular, as ofertas básicas e os complementos descritos nesta página se aplicam a você. Se você vir **Select**, **Prime** ou **Ultimate** referenciados em seu contrato, você está em um modelo de pacote herdado — entre em contato com o representante da Adobe para confirmar seus direitos atuais.
 
 >[!NOTE]
 >
->O direito total ao Volume de Dados difere por pacote: **Campanhas** clientes têm direito a 15 KB por perfil endereçável; clientes do **Jornada** e do **Campanhas e Jornada** têm direito a 75 KB por perfil endereçável.
+>A disponibilidade do pacote e os recursos incluídos podem variar de acordo com o contrato, os complementos selecionados e a disponibilidade regional. Entre em contato com seu representante da Adobe para obter detalhes específicos sobre sua organização.
 
-Os complementos a seguir estendem a cobertura de canal para além de qualquer pacote básico. O complemento **Todos os Canais** agrupa Entrega de Saída, Dispositivo Móvel e Web.
+## Respostas rápidas {#quick-answers}
 
-| Complemento | Canais desbloqueados |
-|--------|----------------|
-| **Entrega de saída** | Email, notificações por push, correspondência direta. Inclui Fundamentos Da Capacidade De Entrega. |
-| **Móvel** | Mensagens no aplicativo, notificações por push, cartões de conteúdo e canais baseados em código para superfícies móveis |
-| **Web** | Canal da Web e canais baseados em código para superfícies da Web |
-| **Todos os canais** | Pacotes de entrega de saída + Mobile + Web |
-| **Decisão** | Decisão de oferta em tempo real e otimização baseada em IA |
+Duas perguntas que a maioria das pessoas tem antes de ler mais. As [Perguntas frequentes completas](#faq) estão na parte inferior da página.
 
-## Matriz de recursos {#capability-matrix-current}
++++**Todas as ofertas básicas incluem todos os canais?**
 
-| Recurso | O que você pode fazer | Journey Optimizer - Campanhas | JOURNEY OPTIMIZER - JORNADA | Journey Optimizer - Campanhas e Jornadas | Complemento necessário | Saiba mais |
-|-----------|----------------|:-----------------------------:|:----------------------------:|:----------------------------------------:|:---------------:|-----------|
-| **Mensagens transacionais** | Enviar mensagens acionadas em tempo real por email, push ou SMS | ✓ | ✓ | ✓ | — | [Saiba mais sobre mensagens transacionais](../building-journeys/journey-gs.md) |
-| **Email** | Projetar e enviar mensagens de email personalizadas | ✓ | ✓ | ✓ | Entrega de saída | [Saiba como enviar emails](../email/get-started-email.md) |
-| **Notificações por push** | Enviar alertas por push em dispositivos móveis | ✓ | ✓ | ✓ | Entrega de saída | [Saiba como enviar notificações por push](../push/get-started-push.md) |
-| **Correspondência direta** | Criar e enviar partes do email físico | ✓ | ✓ | ✓ | Entrega de saída | [Saiba como usar a correspondência direta](../direct-mail/get-started-direct-mail.md) |
-| **SMS/MMS** | Enviar mensagens de texto e multimídia | ✓ | ✓ | ✓ | Entrega de saída | [Saiba como enviar mensagens móveis](../mobile/get-started-mobile.md) |
-| **Mensagens no aplicativo** | Exibir mensagens dentro do aplicativo móvel | ✓ | ✓ | ✓ | Dispositivo móvel | [Saiba como usar mensagens no aplicativo](../in-app/get-started-in-app.md) |
-| **Cartões de conteúdo** | Fornecer mensagens no produto persistentes e não intrusivas | ✓ | ✓ | ✓ | Dispositivo móvel | [Saiba como usar cartões de conteúdo](../content-card/get-started-content-card.md) |
-| **Canal da Web** | Personalizar páginas da Web em tempo real | ✓ | ✓ | ✓ | Web | [Saiba como usar o canal da Web](../web/get-started-web.md) |
-| **Experiências baseadas em código** | Personalizar qualquer superfície por meio da API ou do SDK | ✓ | ✓ | ✓ | Móvel ou na Web | [Saiba como usar experiências baseadas em código](../code-based/get-started-code-based.md) |
-| **WhatsApp** | Enviar mensagens via WhatsApp Business | ✓ | ✓ | ✓ | WhatsApp | [Saiba como usar o WhatsApp](../whatsapp/get-started-whatsapp.md) |
-| **Campanhas orquestradas** | Crie fluxos de trabalho de público-alvo de várias etapas para envolvimento em lote. Canais compatíveis: somente email, SMS, push e correspondência direta. | ✓ | — | ✓ | — | [Saiba como usar campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md) |
-| **jornadas automatizadas** | Criar jornadas do cliente em tempo real acionadas por eventos | — | ✓ | ✓ | — | [Saiba como criar jornadas](../building-journeys/journey-gs.md) |
-| **Acionadores em tempo real** | Reagir aos eventos do cliente conforme eles ocorrem | — | ✓ | ✓ | — | [Saiba mais sobre eventos de jornada](../event/about-events.md) |
-| **Decisão** | Selecione a melhor oferta para cada cliente em tempo real | Depende da sua licença | Depende da sua licença | Depende da sua licença | Tomada de decisão | [Saiba como usar a decisão](../experience-decisioning/gs-experience-decisioning.md) |
-| **Classificação baseada em IA** | Otimizar a seleção de ofertas usando o aprendizado de máquina | Depende da sua licença | Depende da sua licença | Depende da sua licença | Tomada de decisão | [Saiba mais sobre modelos de IA](../offers/ranking/ai-models.md) |
+Não. O [!DNL Adobe Journey Optimizer] usa um modelo modular: a oferta base determina a capacidade de orquestração (Campanhas, Jornadas ou ambas) e os complementos de canal determinam quais superfícies de mensagens você pode utilizar. Você escolhe a combinação que se adapta ao seu caso de uso e orçamento.
 
->[!TAB Selecionar / Prime / Ultimate]
++++
 
-Essa guia se aplica aos clientes com contratos de licença existentes que usam a terminologia de empacotamento Select, Prime ou Ultimate.
++++**Qual é a diferença entre Campanhas e Jornadas?**
 
-## Resumos de pacote {#package-summaries}
+**As campanhas** são baseadas no público-alvo e planejadas pelo profissional de marketing — você define um público-alvo, cria uma mensagem e a agenda ou aciona como um envio em lote. Eles são melhores para alcance promocional, boletins informativos e fluxos de trabalho de público-alvo de várias etapas.
 
-+++**Selecionar**
+As **Jornadas** são orientadas por eventos e em tempo real. Elas reagem ao comportamento individual do cliente à medida que ele ocorre e organizam 1:1 experiências nos pontos de contato. Eles são melhores para fluxos de integração, sequências pós-compra e mensagens acionadas em tempo real.
 
-Mais adequado para organizações que estão começando a usar mensagens transacionais e em lote:
+O **Campaigns &amp; Jornada** oferece ambos os recursos em uma única licença.
+
++++
+
+## Etapa 1 — identificar a oferta básica {#base-offers}
+
+>[!NOTE]
+>
+>**Avaliando o Journey Optimizer?** Esta etapa é onde você escolhe a oferta básica que se encaixa em sua estratégia de engajamento. **Já é um cliente?** É assim que você confirma qual oferta básica você tem e o que ela faz.
+
+Há três ofertas básicas disponíveis. Cada uma delas corresponde a uma maneira diferente de envolver os clientes.
+
+| Oferta base | Melhor para | Comportamento principal |
+|-----------|---------|--------------|
+| **Journey Optimizer - Campanhas** | Lote, alcance planejado pelo profissional de marketing | Orquestração agendada com base no público-alvo. Workflows de campanha em uma ou várias etapas para envolvimento em lote e alcance planejado pelo profissional de marketing. |
+| **Journey Optimizer - Jornada** | Engajamento do cliente em tempo real | Orquestração de 1:1 orientada por evento. Oferece suporte à entrega de jornadas em tempo real e programada. |
+| **Journey Optimizer - Campanhas e Jornadas** | Clientes que precisam de ambos | Combina a orquestração de campanhas com base no público e a orquestração de jornadas em tempo real. |
+
+>[!IMPORTANT]
+>
+>**Os direitos de armazenamento diferem por pacote.** O direito ao Volume de Dados Total depende da sua oferta base: **Campanhas** os clientes recebem **15 KB** por perfil endereçável, enquanto os clientes do **Jornada** e do **Campanhas e Jornada** recebem **75 KB** por perfil endereçável. Considere isso ao selecionar ou confirmar o pacote.
+
+### Campanhas versus Jornadas — qual é a diferença? {#campaigns-vs-journeys}
+
+| | Journey Optimizer - Campanhas | JOURNEY OPTIMIZER - JORNADA | Journey Optimizer - Campanhas e Jornadas |
+|--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
+| Orquestração em lote baseada no público-alvo | ✓ | Limitado¹ | ✓ |
+| Orquestração orientada por eventos em tempo real | — | ✓ | ✓ |
+| Mensagens transacionais (email, push, SMS) | ✓ | ✓ | ✓ |
+| Complementos de canal disponíveis | ✓ | ✓ | ✓ |
+| Complemento de decisão disponível | ✓ | ✓ | ✓ |
+
+¹ No **Journey Optimizer - Jornada**, a orquestração baseada em público só é suportada em casos de uso do jornada, não como campanhas em lote independentes.
+
+## Etapa 2 — Adicionar os canais necessários {#channel-addons}
+
+Os canais não são agrupados na oferta base. Selecione o complemento de canal ou o pacote complementar que se adapta à sua estratégia de engajamento.
+
+>[!BEGINTABS]
+
+>[!TAB ✉️ Entrega de saída]
+
+Alcance públicos por meio de canais de mensagens de saída.
+
+**Inclui:** email, notificações por push, correspondência direta
+
+**Casos de uso típicos:** emails promocionais, alertas transacionais por push, campanhas por email físico
+
+**Superfícies com suporte:** caixa de entrada, tela de bloqueio de dispositivo móvel/bandeja de notificação, endereço postal
+
+Inclui fundamentos de capacidade de entrega para suporte ao aquecimento de IP em novas instâncias. Para monitoramento contínuo e suporte liderado por consultores, três **Pacotes de capacidade de entrega** (Essentials, Enhanced e Plus) estão disponíveis como complementos separados. [Saiba mais sobre a capacidade de entrega](../reports/deliverability.md)
+
+>[!TAB 📱 Celular]
+
+Envolva os usuários do aplicativo com experiências móveis persistentes e na sessão.
+
+**Inclui:** mensagens no aplicativo, notificações por push, cartões de conteúdo, canais baseados em código para superfícies móveis
+
+**Casos de uso típicos:** fluxos de integração, anúncios de recursos, chamadas de atenção para fidelidade, ofertas no aplicativo em tempo real
+
+**Superfícies com suporte:** telas de aplicativos móveis, bandeja de notificação, slots de conteúdo persistentes, superfícies de aplicativos personalizadas via SDK
+
+>[!TAB 🌐 Web]
+
+Personalizar experiências da Web sem implantar código.
+
+**Inclui:** canal da Web (editor visual e não visual), canais baseados em código para superfícies da Web
+
+**Casos de uso típicos:** banners de página inicial, personalização de página de aterrissagem, testes A/B, personalização da Web headless via API
+
+**Superfícies com suporte:** páginas do navegador, aplicativos de página única (SPA), pontos de extremidade da Web headless
+
+>[!TAB 📦 Todos os canais]
+
+O complemento **Todos os Canais** agrupa Entrega de saída + Dispositivo móvel + Web em uma única compra.
+
+**Inclui:** todos os canais dos três complementos individuais: email, notificações por push, correspondência direta, mensagens no aplicativo, cartões de conteúdo, canal da Web e canais baseados em código
+
+**Casos de uso típicos:** programas omnicanais coordenados que abrangem saída, aplicativo móvel e Web — por exemplo, uma campanha que acompanha um email com uma mensagem no aplicativo e um banner da Web personalizado
+
+**Superfícies com suporte:** todas as superfícies de Entrega de Saída, Móvel e complementos da Web
+
+>[!NOTE]
+>
+>O pacote **Todos os Canais** geralmente é mais econômico que o licenciamento de Entrega de Saída, Móvel e Web separadamente. Se você espera usar os três, peça ao representante da Adobe para comparar os preços dos pacotes com os complementos individuais.
+
+>[!ENDTABS]
+
+### Canais adicionais {#additional-channels}
+
+Alguns canais não estão vinculados a um único complemento de canal. A disponibilidade depende da configuração licenciada, do contrato e, para canais de parceiros, de uma conta de negócios de terceiros.
+
+**📲SMS/MMS** — Enviar mensagens de texto e multimídia para números de telefone celular. O SMS transacional (em tempo real, acionado por eventos) é compatível com cada oferta básica; o uso mais amplo de marketing do SMS/MMS depende da sua configuração licenciada. [Saiba como enviar mensagens móveis](../mobile/get-started-mobile.md)
+
+**💬WhatsApp** — Enviar mensagens através do WhatsApp Business. Requer uma conta WhatsApp Business, e a disponibilidade depende do seu contrato e configuração licenciada. [Saiba como usar o WhatsApp](../whatsapp/get-started-whatsapp.md)
+
+>[!NOTE]
+>
+>Confirme a disponibilidade de SMS/MMS e WhatsApp para sua organização com o representante da Adobe; esses canais não fazem parte do delivery de saída padrão, dispositivos móveis ou complementos para web.
+
+## Etapa 3 — Adicionar recursos avançados {#advanced-addons}
+
+### Tomada de decisão {#decisioning-addon}
+
+O complemento **Decisioning** permite definir, gerenciar e fornecer a melhor oferta, ação ou experiência para cada perfil em tempo real, em qualquer canal.
+
+**O que ele desbloqueia:**
+- Seleção de oferta em tempo real usando regras de qualificação, lógica de classificação e restrições
+- Modelos de classificação alimentados por IA para otimizar o desempenho da oferta automaticamente
+- Políticas de decisão que podem ser usadas em jornadas, campanhas e experiências baseadas em código
+
+**Disponível em:** todas as três ofertas básicas, sujeitas ao seu contrato de licença. [Saiba como usar a decisão](../experience-decisioning/gs-experience-decisioning.md) | [Saiba mais sobre modelos de IA](../offers/ranking/ai-models.md)
+
+## Principais características da comparação {#comparison-matrix}
+
+Os recursos são divididos em duas tabelas para que cada uma permaneça fácil de examinar: os recursos de orquestração são determinados pela sua **oferta base**, enquanto os canais e recursos avançados são desbloqueados pelos **complementos**.
+
+### Recursos de orquestração {#orchestration-capabilities}
+
+Determinado pela sua oferta base.
+
+| Recurso | Campanhas | Jornadas | Campanhas e Jornadas |
+|-----------|:---------:|:--------:|:--------------------:|
+| Mensagens transacionais (email, push, SMS) | ✓ | ✓ | ✓ |
+| Campanhas em lote | ✓ | — | ✓ |
+| Campanhas orquestradas _(somente email, SMS, push, correspondência direta)_ | ✓ | — | ✓ |
+| Jornadas automatizadas | — | ✓ | ✓ |
+| Acionadores de eventos em tempo real | — | ✓ | ✓ |
+
+### Canais e recursos avançados {#channel-capabilities}
+
+A maioria dos canais está disponível em todas as três ofertas básicas e requer o complemento listado. Alguns — como SMS/MMS e WhatsApp — dependem da configuração licenciada.
+
+| Recurso | Disponibilidade | Complemento necessário |
+|-----------|-------------|----------------|
+| Email | Todas as ofertas básicas | Entrega de saída |
+| Notificações por push | Todas as ofertas básicas | Entrega de saída |
+| Correspondência direta | Todas as ofertas básicas | Entrega de saída |
+| SMS/MMS | Baseado na sua configuração licenciada | Baseado na sua configuração licenciada |
+| Mensagens no aplicativo | Todas as ofertas básicas | Dispositivo móvel |
+| Cartões de conteúdo | Todas as ofertas básicas | Dispositivo móvel |
+| Canal da web | Todas as ofertas básicas | Web |
+| Experiências baseadas em código | Todas as ofertas básicas | Móvel ou na Web |
+| WhatsApp | Baseado na sua configuração licenciada | WhatsApp |
+| Tomada de decisão | Depende da licença | Tomada de decisão |
+| Classificação baseada em IA | Depende da licença | Tomada de decisão |
+
+>[!NOTE]
+>
+>**Mensagens transacionais vs. complementos de canal.** Mensagens transacionais básicas (email acionado por evento, push e SMS) são incluídas em cada oferta base. Os complementos **Entrega de saída**, **Celular** e **Web** desbloqueiam o marketing completo e o uso de campanha desses canais, juntamente com as superfícies adicionais listadas acima.
+
+## Perguntas frequentes {#faq}
+
++++**Quais canais são suportados nas campanhas Orquestradas?**
+
+As campanhas orquestradas (fluxos de trabalho de público em várias etapas usando o recurso de Orquestração de Campanhas) oferecem suporte somente a **email, SMS, notificações por push e correspondência direta**. Os canais de cartão de conteúdo, da Web, no aplicativo e com base em código não são compatíveis com fluxos de trabalho de campanha orquestradas.
+
++++
+
++++**A Decisão está incluída em todas as configurações?**
+
+Não. A decisão é um complemento de recurso avançado distinto e não está incluído em nenhuma oferta base por padrão. Entre em contato com seu representante da Adobe para adicionar a Decisão à sua configuração.
+
++++
+
++++**Já ouvi falar de Select, Prime ou Ultimate. Esses ainda são o modelo de empacotamento atual?**
+
+O [!DNL Adobe Journey Optimizer] agora é oferecido por meio de um modelo de empacotamento modular criado com base em ofertas básicas (Campanhas, Jornadas, Campanhas e Jornadas) e complementos. Se você for um cliente existente usando a terminologia Select, Prime ou Ultimate, consulte [Pacote herdado](#legacy-packaging) abaixo para obter uma referência de recurso ou entre em contato com o representante da Adobe para confirmar seus direitos atuais.
+
++++
+
+## Pacotes herdados — Select, Prime e Ultimate {#legacy-packaging}
+
+As seções acima descrevem o modelo de empacotamento modular atual. Se seu contrato ainda usar a terminologia **Select**, **Prime** ou **Ultimate**, expanda a referência abaixo para ver o que cada pacote herdado inclui. Para migrar para o modelo modular, entre em contato com o representante da Adobe.
+
++++**Mostrar referência de empacotamento herdado**
+
+**Resumos do pacote**
+
+**Select** — Mais adequado para organizações que estão começando a usar mensagens transacionais e em lote:
 
 - Campanhas em lote e mensagens transacionais programadas
 - Campanha principal e execução de jornada
 - Fundamentos do canal de ação personalizada, email, SMS e push
 - Medidas de proteção de orquestração padrão
 
-+++
-
-+++**Prime**
-
-Inclui tudo no Select, além de orquestração em tempo real e canais de entrada:
+**Prime** — Inclui tudo no Select, além de orquestração em tempo real e canais de entrada:
 
 - Orquestração de jornadas acionada por eventos em tempo real
 - Canais de entrada: Web, mensagens no aplicativo, experiências baseadas em código, cartões de conteúdo e correspondência direta
 - Segmentação e direcionamento avançados de público
 
-+++
-
-+++**Ultimate**
-
-Inclui tudo no Prime, além de decisões e otimização avançada:
+**Ultimate** — Inclui tudo no Prime, além de decisões e otimização avançada:
 
 - Decisão e personalização de ofertas em tempo real
 - Modelos de classificação e otimização alimentados por IA
 - Recursos avançados de relatórios e experimentação
 
-+++
-
-## Matriz de recursos {#capability-matrix-legacy}
+**Matriz de recursos herdados**
 
 | Recurso | O que você pode fazer | Selecionar | Prime | Ultimate | Saiba mais |
 |-----------|----------------|:------:|:-----:|:--------:|-----------|
-| **Email** | Projetar e enviar mensagens de email personalizadas | Incluído | Incluído | Incluído | [Saiba como enviar emails](../email/get-started-email.md) |
-| **SMS/MMS** | Enviar mensagens de texto e multimídia | Incluído | Incluído | Incluído | [Saiba como enviar mensagens móveis](../mobile/get-started-mobile.md) |
-| **Notificações por push** | Enviar alertas por push em dispositivos móveis | Incluído | Incluído | Incluído | [Saiba como enviar notificações por push](../push/get-started-push.md) |
-| **Campanhas em lote** | Agendar mensagens para um público | Incluído | Incluído | Incluído | [Saiba como criar campanhas](../campaigns/get-started-with-campaigns.md) |
-| **jornadas automatizadas** | Criar jornadas do cliente acionadas por eventos | Incluído | Incluído | Incluído | [Saiba como criar jornadas](../building-journeys/journey-gs.md) |
-| **Acionadores de jornada em tempo real** | Reaja ao comportamento do cliente conforme ele ocorre | — | Incluído | Incluído | [Saiba mais sobre eventos de jornada](../event/about-events.md) |
-| **Mensagens no aplicativo** | Exibir mensagens dentro do aplicativo móvel | — | Incluído | Incluído | [Saiba como usar mensagens no aplicativo](../in-app/get-started-in-app.md) |
-| **Canal da Web** | Personalizar páginas da Web em tempo real | — | Incluído | Incluído | [Saiba como usar o canal da Web](../web/get-started-web.md) |
-| **Experiências baseadas em código** | Personalizar qualquer superfície por meio da API ou do SDK | — | Incluído | Incluído | [Saiba como usar experiências baseadas em código](../code-based/get-started-code-based.md) |
-| **Cartões de conteúdo** | Fornecer mensagens no produto persistentes e não intrusivas | — | Incluído | Incluído | [Saiba como usar cartões de conteúdo](../content-card/get-started-content-card.md) |
-| **Correspondência direta** | Criar e enviar partes do email físico | — | Disponível com o Prime e superior | Incluído | [Saiba como usar a correspondência direta](../direct-mail/get-started-direct-mail.md) |
-| **Decisão** | Selecione a melhor oferta para cada cliente em tempo real | — | — | Incluído | [Saiba como usar a decisão](../experience-decisioning/gs-experience-decisioning.md) |
-| **Classificação baseada em IA** | Otimizar a seleção de oferta e conteúdo usando o aprendizado de máquina | — | — | Incluído | [Saiba mais sobre modelos de IA](../offers/ranking/ai-models.md) |
+| **Email** | Projetar e enviar mensagens de email personalizadas | ✓ | ✓ | ✓ | [Saiba como enviar emails](../email/get-started-email.md) |
+| **SMS/MMS** | Enviar mensagens de texto e multimídia | ✓ | ✓ | ✓ | [Saiba como enviar mensagens móveis](../mobile/get-started-mobile.md) |
+| **Notificações por push** | Enviar alertas por push em dispositivos móveis | ✓ | ✓ | ✓ | [Saiba como enviar notificações por push](../push/get-started-push.md) |
+| **Campanhas em lote** | Agendar mensagens para um público | ✓ | ✓ | ✓ | [Saiba como criar campanhas](../campaigns/get-started-with-campaigns.md) |
+| **jornadas automatizadas** | Criar jornadas do cliente acionadas por eventos | ✓ | ✓ | ✓ | [Saiba como criar jornadas](../building-journeys/journey-gs.md) |
+| **Acionadores de jornada em tempo real** | Reaja ao comportamento do cliente conforme ele ocorre | — | ✓ | ✓ | [Saiba mais sobre eventos de jornada](../event/about-events.md) |
+| **Mensagens no aplicativo** | Exibir mensagens dentro do aplicativo móvel | — | ✓ | ✓ | [Saiba como usar mensagens no aplicativo](../in-app/get-started-in-app.md) |
+| **Canal da Web** | Personalizar páginas da Web em tempo real | — | ✓ | ✓ | [Saiba como usar o canal da Web](../web/get-started-web.md) |
+| **Experiências baseadas em código** | Personalizar qualquer superfície por meio da API ou do SDK | — | ✓ | ✓ | [Saiba como usar experiências baseadas em código](../code-based/get-started-code-based.md) |
+| **Cartões de conteúdo** | Fornecer mensagens no produto persistentes e não intrusivas | — | ✓ | ✓ | [Saiba como usar cartões de conteúdo](../content-card/get-started-content-card.md) |
+| **Correspondência direta** | Criar e enviar partes do email físico | — | Disponível com o Prime e superior | ✓ | [Saiba como usar a correspondência direta](../direct-mail/get-started-direct-mail.md) |
+| **Decisão** | Selecione a melhor oferta para cada cliente em tempo real | — | — | ✓ | [Saiba como usar a decisão](../experience-decisioning/gs-experience-decisioning.md) |
+| **Classificação baseada em IA** | Otimizar a seleção de oferta e conteúdo usando o aprendizado de máquina | — | — | ✓ | [Saiba mais sobre modelos de IA](../offers/ranking/ai-models.md) |
 | **WhatsApp** | Enviar mensagens via WhatsApp Business | Depende da sua licença e da configuração do canal | Depende da sua licença e da configuração do canal | Depende da sua licença e da configuração do canal | [Saiba como usar o WhatsApp](../whatsapp/get-started-whatsapp.md) |
 
->[!ENDTABS]
++++
+
+## Próximas etapas {#next-steps}
+
+Agora que você entende como [!DNL Adobe Journey Optimizer] é empacotado, veja a seguir onde ir:
+
+- **Introdução ao produto** — Configure seu ambiente e aprenda os conceitos principais. [Introdução ao Journey Optimizer](get-started.md)
+- **Planeje sua implementação** — Siga o caminho de integração estruturado para seu projeto. [Guia de integração do projeto](onboarding-hub.md)
+- **Encontre o caso de uso correto** — Mapeie suas metas de engajamento para os recursos que as suportam. [Guia de caso de uso](ajo-use-case-guide.md)
+- **Configurar seus canais** — Depois de saber quais complementos você tem, configure os canais necessários: [email](../email/get-started-email.md), [notificações por push](../push/get-started-push.md), [SMS/MMS](../mobile/get-started-mobile.md), [mensagens no aplicativo](../in-app/get-started-in-app.md), [cartões de conteúdo](../content-card/get-started-content-card.md), [canal da Web](../web/get-started-web.md) e [experiências baseadas em código](../code-based/get-started-code-based.md).
