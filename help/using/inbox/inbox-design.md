@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: 8ef401e6c92d94631f02762e4dc9ffab60657cb4
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Criar uma caixa de entrada {#inbox-design}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Configure o layout, a capacidade, os indicadores não lidos e o estado vazio de sua caixa de entrada para que as mensagens sejam renderizadas na marca e legíveis, proporcionando aos perfis direcionados uma experiência clara e consistente nos modos claro e escuro.
+
+>[!ENDSHADEBOX]
 
 O design da caixa de entrada controla como cada mensagem é renderizada para perfis direcionados na superfície da caixa de entrada. A configuração abrange o modelo da caixa de entrada, a lista e as apresentações expandidas, além de indicadores de estado de leitura que distinguem as novas mensagens daquelas já visualizadas.
 

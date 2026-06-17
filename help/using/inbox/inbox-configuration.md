@@ -5,14 +5,21 @@ feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: d308ab4a-843c-4729-ad18-97d89c708357
+source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 4%
+source-wordcount: '337'
+ht-degree: 3%
 
 ---
 
 # Configurar Caixa de entrada {#inbox-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** defina uma configuração de canal da Caixa de Entrada que defina o consentimento, os rótulos de acesso opcionais e onde a caixa de entrada será exibida na Web ou no aplicativo iOS ou Android, para que você possa oferecer experiências com o cartão de Conteúdo por meio da caixa de entrada.
+
+>[!ENDSHADEBOX]
 
 Antes de oferecer experiências com o cartão de Conteúdo por meio da Caixa de Entrada, defina uma **Configuração de canal da Caixa de Entrada** em **[!UICONTROL Configurações de canal]**. Essa configuração vincula a superfície ao consentimento, aos rótulos de acesso opcionais e ao local em que a experiência é exibida na Web ou no seu aplicativo iOS ou Android. Siga as etapas abaixo para criar uma configuração:
 

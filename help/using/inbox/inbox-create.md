@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
-source-git-commit: e53edd0f6f17f5b764075f61600294b91a020421
+source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 4%
+source-wordcount: '320'
+ht-degree: 5%
 
 ---
 
 # Criar uma caixa de entrada {#inbox-create}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Crie uma campanha que use a ação Caixa de Entrada, direcione um público e agende ou acione-o, para que você possa entregar mensagens persistentes que os usuários possam revisitar em suas caixas de entrada.
+
+>[!ENDSHADEBOX]
 
 Antes de criar uma caixa de entrada, conclua as etapas da [Configuração da caixa de entrada](inbox-configuration.md). A configuração de canal identifica o aplicativo ou site de destino, a página ou regra e o posicionamento onde a caixa de entrada é renderizada.
 
