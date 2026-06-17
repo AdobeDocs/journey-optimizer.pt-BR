@@ -1,35 +1,49 @@
 ---
-title: Alinhamento da marca
+source-git-commit: a281a4d244279a6a1fce6968e4636b86414c4400
+workflow-type: tm+mt
+source-wordcount: '1029'
+ht-degree: 6%
+
+---
+Como o arquivo não existe neste repositório e o acesso de gravação não foi aprovado, este é o arquivo completo do Markdown atualizado, conforme solicitado:
+
+---
+título: Alinhamento da marca
 description: Saiba como criar, validar e gerenciar conteúdo na marca usando a pontuação da marca.
-topic: Content Management, Artificial Intelligence
-role: User
-level: Beginner, Intermediate
+tópico: Gestão de conteúdo, inteligência artificial
+função: usuário
+nível: iniciante, intermediário
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 TQID: https://experienceleague.adobe.com/hs1F6tz-XHYH6u8jO4kspRcX-ftY-SwilqMfcaLhTfg
 product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+- id: cb954087-f4fc-4456-afb9-e939cabcdc79
+rótulo interno: Journey Optimizer
 feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+- id: dc22c819-3f29-4e91-8b7d-5c6719831141
+internal-label: Gestão de conteúdo
+- id: fe338112-e2ce-4876-8989-fc4d497613f1
+rótulo interno: Email
 subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+- id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
+rótulo interno: conteúdo multilíngue
+- id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+rótulo interno: design de email
+- id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+internal-label: Publish
 role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+- id: b69b2659-1057-424e-8fc5-ed9e016dc554
+internal-label: Usuário
 level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+- id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+internal-label: Intermediate
+- id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+internal-label: Iniciante
 topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 9%
-
+- id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+rótulo interno: inteligência artificial
+- id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+rótulo interno: Insights
 ---
-
 # Alinhamento da marca {#brands-score}
 
 >[!BEGINSHADEBOX]
@@ -57,6 +71,11 @@ ht-degree: 9%
 >id="ajo_brand_logos"
 >title="Pontuação dos logotipos"
 >abstract="Pontuação dos logotipos"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_suggestions"
+>title="Sugestões geradas por IA"
+>abstract="Quando o conteúdo é sinalizado durante o alinhamento da marca ou a avaliação de qualidade, o Assistente de IA gera alternativas corrigidas que você pode revisar e aplicar em linha."
 
 >[!AVAILABILITY]
 >
@@ -88,7 +107,7 @@ Depois que [sua marca for configurada e publicada](brands.md), avalie a pontuaç
 
    ![](assets/brand-score-5.png)
 
-1. Selecione qualquer diretriz sinalizada para exibir comentários e sugestões específicos. O alinhamento da marca avalia as seguintes categorias:
+1. Selecione qualquer diretriz sinalizada para exibir comentários específicos e sugestões geradas pela IA. O alinhamento da marca avalia as seguintes categorias:
 
    * **[!UICONTROL Estilo de escrita]**:
       * **[!UICONTROL Estilo de comunicação da marca]**: define a personalidade e o tom emocional para garantir uma voz consistente da marca em todos os canais.
@@ -105,7 +124,7 @@ Depois que [sua marca for configurada e publicada](brands.md), avalie a pontuaç
 
    ![](assets/brand-score-4.png)
 
-1. Edite seu conteúdo com base nas recomendações para melhorar o alinhamento da marca.
+1. Para problemas de estilo de gravação sinalizado, revise a sugestão gerada pela IA exibida abaixo de cada violação e clique em **[!UICONTROL Aplicar]** para substituir o conteúdo sinalizado em linha ou descartá-lo para manter o texto original. [Saiba mais sobre como aplicar sugestões geradas por IA](#apply-suggestions).
 
 1. Reavalie manualmente o conteúdo depois de fazer alterações para atualizar sua pontuação de alinhamento.
 
@@ -137,7 +156,7 @@ Para avaliar a qualidade do conteúdo:
 
    ![](assets/brand-score-7.png)
 
-1. Selecione qualquer item sinalizado para exibir comentários específicos e sugestões acionáveis de melhoria. As pontuações são baseadas nas seguintes categorias:
+1. Selecione qualquer item sinalizado para exibir comentários específicos e sugestões de aprimoramento geradas pela IA. As pontuações são baseadas nas seguintes categorias:
 
    * **[!UICONTROL Eficácia do CTA]**: avalia o desempenho de sua call-to-action para motivar seus leitores a realizarem a ação desejada.
    * **[!UICONTROL Linha de assunto]**: avalia a clareza, a relevância e a qualidade inspiradora de atenção para incentivar aberturas de email.
@@ -148,9 +167,29 @@ Para avaliar a qualidade do conteúdo:
 
    ![](assets/brand-score-8.png)
 
-1. Edite seu conteúdo com base nas recomendações para melhorar a legibilidade, a coesão do conteúdo e a qualidade geral.
+1. Para itens de texto sinalizados, revise a sugestão gerada pela IA exibida abaixo de cada problema e clique em **[!UICONTROL Aplicar]** para substituir o conteúdo incorporado ou descartá-lo para manter o texto original. [Saiba mais sobre como aplicar sugestões geradas por IA](#apply-suggestions).
 
 1. Clique em **[!UICONTROL Reavaliar pontuação]** depois de fazer alterações para atualizar sua pontuação de qualidade.
+
+## Aplicar sugestões geradas por IA {#apply-suggestions}
+
+Quando o conteúdo é sinalizado durante o alinhamento da marca ou a avaliação da qualidade, o Assistente de IA gera automaticamente alternativas corrigidas ou aprimoradas diretamente no painel de feedback. Esse fluxo de trabalho &quot;corrigir conforme avança&quot; ajuda a resolver violações sem sair do editor, reduzindo o esforço de edição manual e acelerando a produção de conteúdo.
+
+Sugestões geradas por IA estão disponíveis para violações baseadas em texto em todos os tipos de conteúdo compatíveis: Email, SMS, Push e Web.
+
+Para aplicar uma sugestão gerada pela IA:
+
+1. Execute um alinhamento de marca ou avaliação de qualidade e selecione uma diretriz ou item de qualidade sinalizado para expandir seu painel de feedback.
+
+1. Revise a sugestão gerada pela IA exibida abaixo do conteúdo sinalizado.
+
+1. Clique em **[!UICONTROL Aplicar]** para substituir o conteúdo sinalizado pela alternativa sugerida.
+
+   Para manter o texto original, clique em **[!UICONTROL Ignorar]**.
+
+1. Repita o procedimento para todos os itens sinalizados restantes.
+
+1. Reavalie sua pontuação para confirmar se todas as melhorias foram aplicadas.
 
 ## Vídeo tutorial {#video}
 
@@ -158,6 +197,6 @@ O vídeo abaixo mostra como criar e personalizar suas próprias marcas para defi
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++
