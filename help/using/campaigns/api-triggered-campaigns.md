@@ -7,7 +7,7 @@ ht-degree: 17%
 ---
 As permissões da ferramenta wiki não foram concedidas. Continuarei usando as informações detalhadas do próprio tíquete, que contém as especificações principais (padrão de 500 TPS, níveis de 1000/1500 TPS por meio do complemento de desempenho, somente push, suporta aumentos de burst/duração limitada).
 
----
+&#x200B;---
 
 solução: Journey Optimizer
 produto: otimizador de jornada
@@ -40,7 +40,7 @@ rótulo interno: Personalization
 
 Este é o arquivo completo e atualizado do Markdown:
 
----
+&#x200B;---
 
 ```
 solution: Journey Optimizer
@@ -140,7 +140,7 @@ Saiba como criar uma campanha e acioná-la a partir de um sistema externo com ba
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
 
----
+&#x200B;---
 
 A adição de chave é a nova seção (`## Push notification throughput {#push-throughput}`) **Taxa de transferência de notificação por push** colocada entre &quot;Sobre&quot; e &quot;Etapas de chave&quot;, que documenta:
 - O padrão de 500 TPS incluído para todos os clientes
