@@ -1,21 +1,25 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
-title: Disponibilidade de recursos do Journey Optimizer
-description: Uma única referência consolidada para descobrir quais recursos do Adobe Journey Optimizer estão disponíveis, seu status de ciclo de vida (Disponibilidade geral, Disponibilidade limitada ou Beta), a qual oferta básica eles se aplicam e quando são enviados, sem fazer referência cruzada às notas de versão.
-feature: Get Started
-topic: Content Management
-role: Admin, User
-level: Beginner, Intermediate
-keywords: jornada otimizer, disponibilidade de recursos, o que está disponível, GA, disponibilidade limitada, beta, ciclo de vida, data de lançamento, direito, oferta básica, campanhas, jornada
-hide: true
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: 84aa39bfd480e5bcaa8a58c5ec29f1990e5ddc6f
 workflow-type: tm+mt
-source-wordcount: '1880'
-ht-degree: 13%
+source-wordcount: '2004'
+ht-degree: 12%
+
+---
+O arquivo de origem da documentação está no repositório de documentos, não neste projeto de pipeline. Como as instruções informam como exportar a marcação atualizada completa, aqui está:
 
 ---
 
+solução: Journey Optimizer
+produto: otimizador de jornada
+título: disponibilidade de recursos do Journey Optimizer
+description: Uma única referência consolidada para descobrir quais recursos do Adobe Journey Optimizer estão disponíveis, seu status de ciclo de vida (Disponibilidade geral, Disponibilidade limitada ou Beta), a qual oferta básica eles se aplicam e quando são enviados, sem fazer referência cruzada às notas de versão.
+recurso: Introdução
+tópico: Gestão de conteúdo
+função: Administrador, Usuário
+nível: iniciante, intermediário
+palavras-chave: jornada otimizer, disponibilidade de recursos, o que está disponível, GA, disponibilidade limitada, beta, ciclo de vida, data de lançamento, direito, oferta básica, campanhas, jornadas
+ocultar: verdadeiro
+---
 
 # Disponibilidade de recursos do Journey Optimizer {#ajo-features-availability}
 
@@ -63,6 +67,7 @@ Recursos de canal, conteúdo e plataforma marcados como **Todas as ofertas bási
 
 | Recurso | Status | Aplicável a | Disponível desde | Notas |
 |---------|--------|-----------|-----------------|-------|
+| Otimização de tempo de envio (STO) para mensagens móveis | Beta | Todas as ofertas básicas | SEGUNDO TRIMESTRE DE 2026 | Tempo de envio ideal orientado por IA para SMS, RCS e WhatsApp; disponível em jornadas e campanhas |
 | Novo canal de mensagens móveis (SMS, MMS, RCS) | GA | Todas as ofertas básicas | 20 de maio de 2026 | Unifica SMS/MMS/RCS; criação de RCS nativo (imagens, carrosséis) |
 | Deep links no Designer de email | GA | Todas as ofertas básicas | 12 de maio de 2026 | Requer configuração de aplicativo móvel |
 | Otimizar email para caixas de entrada de IA | GA | Todas as ofertas básicas | 17 de abril de 2026 | Apple Intelligence, Gmail Gemini |
@@ -99,6 +104,7 @@ Recursos de canal, conteúdo e plataforma marcados como **Todas as ofertas bási
 | Atividade de decisão de conteúdo | GA | Jornada; Campanhas e Jornadas | 10 de fevereiro de 2026 | Anteriormente: LA |
 | Períodos de silêncio (exclusões com base no tempo) | GA | Jornada; Campanhas e Jornadas | 29 de janeiro de 2026 | Anteriormente: LA |
 | Assistente do AI para expressões de jornada | Beta | Jornada; Campanhas e Jornadas | 3 de junho de 2026 | Beta público |
+| Otimização de tempo de envio (STO) para mensagens móveis | Beta | Jornada; Campanhas e Jornadas | SEGUNDO TRIMESTRE DE 2026 | Tempo de envio ideal orientado por IA para SMS, RCS e WhatsApp; consulte a guia Canais |
 | Arbitragem de jornada | LA | Jornada; Campanhas e Jornadas | 24 de fevereiro de 2026 | Entre em contato com seu representante da Adobe |
 | Arbitragem de jornada - Modelos de IA | LA | Jornada; Campanhas e Jornadas | Abril de 2026 | Entre em contato com seu representante da Adobe |
 | Suporte à pesquisa de conjunto de dados em jornadas | LA | Jornada; Campanhas e Jornadas | Março de 2026 | Para clientes qualificados para pesquisa de conjunto de dados |
@@ -119,6 +125,7 @@ Recursos de canal, conteúdo e plataforma marcados como **Todas as ofertas bási
 | Acionar campanhas orquestradas usando um sinal | GA | Campanhas, Campanhas e Jornadas | Março de 2026 | Permanece uma campanha em lote |
 | Categoria transacional em campanhas orquestradas | GA | Campanhas, Campanhas e Jornadas | Março de 2026 | Distribuído gradualmente por região |
 | Envio de onda de mensagens de saída (campanhas) | GA | Campanhas, Campanhas e Jornadas | 19 de fevereiro de 2026 | LA no jornada |
+| Otimização de tempo de envio (STO) para mensagens móveis | Beta | Campanhas, Campanhas e Jornadas | SEGUNDO TRIMESTRE DE 2026 | Tempo de envio ideal orientado por IA para SMS, RCS e WhatsApp; consulte a guia Canais |
 | Campanhas em lote | GA | Campanhas, Campanhas e Jornadas | Recurso principal | Envios programados e baseados no público-alvo |
 | Campanhas orquestradas (fluxos de trabalho de várias etapas) | GA | Campanhas, Campanhas e Jornadas | Recurso principal | email, SMS, push, somente correspondência direta |
 | Mensagens transacionais | GA | Todas as ofertas básicas | Recurso principal | email, push, SMS; incluído em cada oferta básica |
@@ -197,3 +204,7 @@ Todos os recursos do Decisioning exigem o complemento **Decisioning**. Consulte 
 - **Entenda o que há em seu pacote** — [Pacotes e recursos](ajo-packages.md)
 - **Ver tudo que foi enviado** — [Notas de versão](../rn/release-notes.md) | [notas de versão de 2026](../rn/release-notes-2026.md)
 - **Introdução** — [Introdução ao Journey Optimizer](get-started.md)
+
+---
+
+Três linhas adicionadas, uma em cada uma das guias **Canais**, **Jornadas** e **Campanhas**, seguindo o mesmo padrão entre guias usado para envio de ondas. O recurso está marcado como **Beta / H2 2026**, pois o tíquete é destinado ao segundo semestre de 2026 e o recurso ainda não está disponível. A guia Channels contém a descrição autoritativa; as linhas Jornada e Campaigns são referências cruzadas curtas que apontam os leitores para a guia Channels para os detalhes.
