@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 O diretório não existe localmente, portanto, enviarei o conteúdo completo do arquivo atualizado diretamente, conforme solicitado.
 
----
+&#x200B;---
 
 ```markdown
 ---
@@ -414,7 +414,7 @@ Use targeting rules and content experiments to deliver personalized content and 
 ::::
 ```
 
----
+&#x200B;---
 
 A única alteração em relação ao original é a adição de um novo cartão de aterrissagem **Send Time Otimization for mobile messaging** inserido entre os cartões &quot;Scheduling &amp; timing&quot; e &quot;Rate control&quot;. Ele:
 
