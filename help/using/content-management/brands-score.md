@@ -7,7 +7,7 @@ ht-degree: 6%
 ---
 Como o arquivo não existe neste repositório e o acesso de gravação não foi aprovado, este é o arquivo completo do Markdown atualizado, conforme solicitado:
 
----
+&#x200B;---
 título: Alinhamento da marca
 description: Saiba como criar, validar e gerenciar conteúdo na marca usando a pontuação da marca.
 tópico: Gestão de conteúdo, inteligência artificial
@@ -109,16 +109,16 @@ Depois que [sua marca for configurada e publicada](brands.md), avalie a pontuaç
 
 1. Selecione qualquer diretriz sinalizada para exibir comentários específicos e sugestões geradas pela IA. O alinhamento da marca avalia as seguintes categorias:
 
-   * **[!UICONTROL Estilo de escrita]**:
-      * **[!UICONTROL Estilo de comunicação da marca]**: define a personalidade e o tom emocional para garantir uma voz consistente da marca em todos os canais.
-      * **[!UICONTROL Padrões de mensagem da marca]**: regras estruturais e de formatação para texto promocional e de marketing eficaz.
-      * **[!UICONTROL Padrões de conformidade legal]**: garante que todas as comunicações estejam em conformidade com os requisitos legais, incluindo a colocação de texto e listas de verificação de conformidade.
+   &#x200B;* **[!UICONTROL Estilo de escrita]**:
+      &#x200B;* **[!UICONTROL Estilo de comunicação da marca]**: define a personalidade e o tom emocional para garantir uma voz consistente da marca em todos os canais.
+      &#x200B;* **[!UICONTROL Padrões de mensagem da marca]**: regras estruturais e de formatação para texto promocional e de marketing eficaz.
+      &#x200B;* **[!UICONTROL Padrões de conformidade legal]**: garante que todas as comunicações estejam em conformidade com os requisitos legais, incluindo a colocação de texto e listas de verificação de conformidade.
 
-   * **[!UICONTROL Conteúdo visual]**:
-      * **[!UICONTROL Padrões de fotografia]**: requisitos para conteúdo fotográfico, incluindo resolução, composição, iluminação e formatos de arquivo.
-      * **[!UICONTROL Padrões de ilustração]**: parâmetros de estilo, espessura da linha, uso de cor e requisitos de formato de arquivo para ilustrações.
-      * **[!UICONTROL Padrões de ícones]**: especificações para design de ícones, incluindo sistemas de grade, espessuras de traçado e dimensionamento para uniformidade.
-      * **[!UICONTROL Diretrizes de uso]**: práticas recomendadas para seleção de imagem, posicionamento e contexto para manter a identidade da marca.
+   &#x200B;* **[!UICONTROL Conteúdo visual]**:
+      &#x200B;* **[!UICONTROL Padrões de fotografia]**: requisitos para conteúdo fotográfico, incluindo resolução, composição, iluminação e formatos de arquivo.
+      &#x200B;* **[!UICONTROL Padrões de ilustração]**: parâmetros de estilo, espessura da linha, uso de cor e requisitos de formato de arquivo para ilustrações.
+      &#x200B;* **[!UICONTROL Padrões de ícones]**: especificações para design de ícones, incluindo sistemas de grade, espessuras de traçado e dimensionamento para uniformidade.
+      &#x200B;* **[!UICONTROL Diretrizes de uso]**: práticas recomendadas para seleção de imagem, posicionamento e contexto para manter a identidade da marca.
 
 
 
@@ -158,12 +158,12 @@ Para avaliar a qualidade do conteúdo:
 
 1. Selecione qualquer item sinalizado para exibir comentários específicos e sugestões de aprimoramento geradas pela IA. As pontuações são baseadas nas seguintes categorias:
 
-   * **[!UICONTROL Eficácia do CTA]**: avalia o desempenho de sua call-to-action para motivar seus leitores a realizarem a ação desejada.
-   * **[!UICONTROL Linha de assunto]**: avalia a clareza, a relevância e a qualidade inspiradora de atenção para incentivar aberturas de email.
-   * **[!UICONTROL Legibilidade]**: mede a facilidade e o engajamento do seu conteúdo para que os leitores possam entender.
-   * **[!UICONTROL Verificação de spam]**: identifica disparadores de spam comuns que podem afetar a entrega.
-   * **[!UICONTROL Coerência de conteúdo]**: garante que o conteúdo flua sem problemas e permaneça no tópico.
-   * **[!UICONTROL Revisão]**: verifica problemas de ortografia, gramática e clareza.
+   &#x200B;* **[!UICONTROL Eficácia do CTA]**: avalia o desempenho de sua call-to-action para motivar seus leitores a realizarem a ação desejada.
+   &#x200B;* **[!UICONTROL Linha de assunto]**: avalia a clareza, a relevância e a qualidade inspiradora de atenção para incentivar aberturas de email.
+   &#x200B;* **[!UICONTROL Legibilidade]**: mede a facilidade e o engajamento do seu conteúdo para que os leitores possam entender.
+   &#x200B;* **[!UICONTROL Verificação de spam]**: identifica disparadores de spam comuns que podem afetar a entrega.
+   &#x200B;* **[!UICONTROL Coerência de conteúdo]**: garante que o conteúdo flua sem problemas e permaneça no tópico.
+   &#x200B;* **[!UICONTROL Revisão]**: verifica problemas de ortografia, gramática e clareza.
 
    ![](assets/brand-score-8.png)
 
