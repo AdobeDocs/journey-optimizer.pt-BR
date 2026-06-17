@@ -10,22 +10,12 @@ level: Intermediate, Experienced
 keywords: externo, fontes, dados, configuração, conexão, terceiros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9ca5a2c888011362cf1067aaedc8fb7dad2bdd21
 workflow-type: tm+mt
 source-wordcount: 2462
@@ -69,7 +59,7 @@ A chamada é composta de um URL principal (_https://api.adobeweather.org/weather
 
 >[!TIP]
 >
->Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer &#x200B;](#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
+>Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer ](#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
 
 ## Criar e configurar uma fonte de dados externa {#create-ext-data-sources}
 
@@ -290,7 +280,7 @@ O Adobe gerencia o certificado e sua chave privada associada. A tabela a seguir 
 | Gerenciado por | Adobe |
 | Algoritmo | RS256 (RSA) |
 | O que registrar em seu provedor de identidade | Somente certificado folha do Adobe — não a CA intermediária ou raiz |
-| Como obter | Recupere-o da [API de Certificado Público do mTLS](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (consulte a garantia do **Certificado** abaixo) |
+| Como obter | Recupere-o da [API de Certificado Público do mTLS](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (consulte a garantia do **Certificado** abaixo) |
 | Rotação | O Adobe gerencia a rotação e fornece aviso prévio de pelo menos 30 dias |
 
 #### Estrutura de asserção JWT {#certificate-credential-jwt}
@@ -377,7 +367,7 @@ Este é um exemplo para o mesmo tipo de autenticação de credencial de certific
 >* **`method`**: Deve ser `POST`. Os endpoints do token OAuth só aceitam solicitações POST.
 >* **`client_id`**: não deve estar em branco e não deve conter espaços em branco à esquerda ou à direita. Um valor em branco produz um JWT de aparência válida que o Provedor de identidade rejeitará com um erro opaco.
 >* **`scope`**: Expressa como uma cadeia de caracteres separada por espaço em `bodyParams`. Total máximo de 1000 caracteres.
->* **Certificado**: o Adobe gerencia o certificado e a chave privada — você nunca carrega ou insere um certificado. Antes de usar a ação personalizada em uma jornada em tempo real, você deve registrar o **certificado folha da Adobe** no seu Provedor de Identidade. Para recuperá-lo, chame a [API de Certificado Público de mTLS](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} e procure a entrada onde `certCommonName` é `ajo-journeys.aep-mtls.adobe.com`. Registre o valor `publicCertificate` dessa entrada — não use os certificados da autoridade de certificação intermediária ou raiz.
+>* **Certificado**: o Adobe gerencia o certificado e a chave privada — você nunca carrega ou insere um certificado. Antes de usar a ação personalizada em uma jornada em tempo real, você deve registrar o **certificado folha da Adobe** no seu Provedor de Identidade. Para recuperá-lo, chame a [API de Certificado Público de mTLS](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} e procure a entrada onde `certCommonName` é `ajo-journeys.aep-mtls.adobe.com`. Registre o valor `publicCertificate` dessa entrada — não use os certificados da autoridade de certificação intermediária ou raiz.
 
 Veja um exemplo do tipo de autenticação de cabeçalho:
 

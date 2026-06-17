@@ -7,7 +7,7 @@ ht-degree: 12%
 ---
 O arquivo de origem da documentação está no repositório de documentos, não neste projeto de pipeline. Como as instruções informam como exportar a marcação atualizada completa, aqui está:
 
-&#x200B;---
+---
 
 solução: Journey Optimizer
 produto: otimizador de jornada
@@ -205,6 +205,6 @@ Todos os recursos do Decisioning exigem o complemento **Decisioning**. Consulte 
 - **Ver tudo que foi enviado** — [Notas de versão](../rn/release-notes.md) | [notas de versão de 2026](../rn/release-notes-2026.md)
 - **Introdução** — [Introdução ao Journey Optimizer](get-started.md)
 
-&#x200B;---
+---
 
 Três linhas adicionadas, uma em cada uma das guias **Canais**, **Jornadas** e **Campanhas**, seguindo o mesmo padrão entre guias usado para envio de ondas. O recurso está marcado como **Beta / H2 2026**, pois o tíquete é destinado ao segundo semestre de 2026 e o recurso ainda não está disponível. A guia Channels contém a descrição autoritativa; as linhas Jornada e Campaigns são referências cruzadas curtas que apontam os leitores para a guia Channels para os detalhes.

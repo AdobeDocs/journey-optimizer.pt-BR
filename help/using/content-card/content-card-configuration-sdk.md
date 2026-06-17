@@ -7,21 +7,11 @@ role: Admin
 level: Experienced
 exl-id: bb67b55f-2eac-4775-a9f5-78288009477e
 TQID: https://experienceleague.adobe.com/g6SvbQdYTKgvcbEggw4RmjGY-25x7Abm-byZ4UqT4NE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
 source-wordcount: 543
@@ -37,7 +27,7 @@ ht-degree: 3%
 
 >[!ENDSHADEBOX]
 
-Este exemplo mostra como recuperar Cartões de conteúdo do Adobe Journey Optimizer (AJO) usando o Adobe Experience Platform. Com a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home), o conteúdo de personalização é obtido e renderizado totalmente no lado do cliente.
+Este exemplo mostra como recuperar Cartões de conteúdo do Adobe Journey Optimizer (AJO) usando o Adobe Experience Platform. Com a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home), o conteúdo de personalização é obtido e renderizado totalmente no lado do cliente.
 
 Após o carregamento inicial, a página exibe seu estado padrão. No entanto, se você interagir com os botões **Depositar Fundos** ou **Compartilhar em redes sociais**, serão exibidos cartões de conteúdo adicionais. Esses cartões são acionados pelas condições do lado do cliente, garantindo que sejam exibidos somente quando ações específicas forem executadas.
 
@@ -68,7 +58,7 @@ Após o carregamento inicial, a página exibe seu estado padrão. No entanto, se
 
 ## Como funciona {#setup}
 
-1. Inclua e configure o [Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home) na página usando as configurações do arquivo `.env` na pasta de exemplo.
+1. Inclua e configure o [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) na página usando as configurações do arquivo `.env` na pasta de exemplo.
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>

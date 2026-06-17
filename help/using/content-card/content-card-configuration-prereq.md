@@ -6,12 +6,8 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
 source-wordcount: 338
@@ -31,12 +27,12 @@ Para que o Adobe Journey Optimizer exiba corretamente os cartões de conteúdo, 
 
 * **Coleta de dados do Adobe Experience Platform**
 
-  [Criar uma sequência de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure){target="_blank"} e [adicionar o serviço Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure#aep){target="_blank"}. Habilite as opções de **[!UICONTROL Segmentação do Edge]** e **[!UICONTROL Adobe Journey Optimizer]**. Isso garante que os eventos do Journey Optimizer sejam manipulados pelo Adobe Experience Platform Edge Network.
-Adicione o grupo de campos **Evento de experiência - Interação de apresentação** ao conjunto de dados para incluir esses dados em seus relatórios. [Saiba mais sobre sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure){target="_blank"}
+  [Criar uma sequência de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"} e [adicionar o serviço Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep){target="_blank"}. Habilite as opções de **[!UICONTROL Segmentação do Edge]** e **[!UICONTROL Adobe Journey Optimizer]**. Isso garante que os eventos do Journey Optimizer sejam manipulados pelo Adobe Experience Platform Edge Network.
+Adicione o grupo de campos **Evento de experiência - Interação de apresentação** ao conjunto de dados para incluir esses dados em seus relatórios. [Saiba mais sobre sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 
-  Verifique se a política de mesclagem padrão tem a **Política de mesclagem ativa na Edge** habilitada no menu **[!UICONTROL Cliente]** > **[!UICONTROL Perfis]** > **[!UICONTROL Políticas de mesclagem]** do Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=pt-BR#configure){target="_blank"}
+  Verifique se a política de mesclagem padrão tem a **Política de mesclagem ativa na Edge** habilitada no menu **[!UICONTROL Cliente]** > **[!UICONTROL Perfis]** > **[!UICONTROL Políticas de mesclagem]** do Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   >[!NOTE]
   >
@@ -56,7 +52,7 @@ Adicione o grupo de campos **Evento de experiência - Interação de apresentaç
 
 * **Experimentos de conteúdo**
 
-  Verifique se o conjunto de dados usado na [sequência de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/overview#_blank){target="_blank"} do seu aplicativo também está incluído na sua configuração de relatório de experimento de conteúdo. Os dados do aplicativo não serão exibidos nos relatórios se os conjuntos de dados não corresponderem.
+  Verifique se o conjunto de dados usado na [sequência de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank){target="_blank"} do seu aplicativo também está incluído na sua configuração de relatório de experimento de conteúdo. Os dados do aplicativo não serão exibidos nos relatórios se os conjuntos de dados não corresponderem.
 
   Saiba como adicionar conjuntos de dados para relatórios de experimento de conteúdo [esta seção](../reports/reporting-configuration.md).
 

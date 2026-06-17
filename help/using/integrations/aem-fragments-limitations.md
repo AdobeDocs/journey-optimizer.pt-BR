@@ -7,10 +7,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: de4f441e-c3a3-4759-a634-bc9029328ebb
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
 source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
 source-wordcount: 793
@@ -52,7 +50,7 @@ Lembre-se do seguinte ao usar Fragmentos de conteúdo de [!DNL Adobe Experience 
 * **Atualizações e controle de versão**
    * As atualizações exigem republicação manual de [!DNL Adobe Experience Manager]. Não há reconciliação automática de versão.
    * Quando um Fragmento de Conteúdo é publicado ou republicado em [!DNL Adobe Experience Manager], o [!DNL Journey Optimizer] atualiza esse fragmento e atualiza **todas as variações desse fragmento referenciadas** em campanhas ou jornadas ativas.
-   * A [!DNL Adobe Experience Manager] [ação de publicação](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) pode ser atrasada. Quando a tarefa for concluída, [!DNL Journey Optimizer] receberá um evento e atualizará o conteúdo.
+   * A [!DNL Adobe Experience Manager] [ação de publicação](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) pode ser atrasada. Quando a tarefa for concluída, [!DNL Journey Optimizer] receberá um evento e atualizará o conteúdo.
    * Após uma atualização bem-sucedida, as alterações normalmente ficam disponíveis em cerca de **5 minutos** para jornadas unitárias e no **próximo lote** para casos de uso em lote.
 
 * **Armazenamento em cache e revisão de texto**
@@ -73,6 +71,6 @@ Se você encontrar problemas ao trabalhar com fragmentos de conteúdo do Adobe E
 | **Erro de CPES (Acesso negado)** | Função de usuário não autorizada a acessar determinados atributos | Entre em contato com o administrador do sistema para verificar se sua função tem as permissões apropriadas para o perfil ou atributos contextuais usados na personalização. |
 | **O fragmento exibe conteúdo em branco ou ausente** | Parâmetros de personalização obrigatórios ou valores de fallback ausentes | Verifique se todos os parâmetros necessários foram fornecidos e considere adicionar valores de fallback para atributos opcionais. |
 | **A imagem não é renderizada ou parece corrompida** | O URL da imagem no fragmento de conteúdo é um caminho relativo ou não está acessível pelo canal | Use URLs **absolutos** (`https://...`) para campos de imagem. Os caminhos relativos do Adobe Experience Manager não são compatíveis. Confirme o URL em um navegador ou pré-visualização de mensagem. |
-| **O link do Experience League AEM retorna 404** | Favorito obsoleto, pré-visualização da criação ou página de ajuda não publicada do AEM | Abra o tópico [Fragmentos de conteúdo com o Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} da documentação do Live Experience Manager e navegue a partir do sumário na página ou pesquise o nome da seção (por exemplo, **Configuração do Dispatcher**). |
+| **O link do Experience League AEM retorna 404** | Favorito obsoleto, pré-visualização da criação ou página de ajuda não publicada do AEM | Abra o tópico [Fragmentos de conteúdo com o Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} da documentação do Live Experience Manager e navegue a partir do sumário na página ou pesquise o nome da seção (por exemplo, **Configuração do Dispatcher**). |
 
 Se o problema persistir, entre em contato com o representante da Adobe com detalhes sobre a ID do fragmento de conteúdo, a campanha ou a ID da jornada e quaisquer mensagens de erro exibidas.
