@@ -6,19 +6,14 @@ description: Saiba como adicionar uma atividade de canal a uma campanha em vári
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 1935
-ht-degree: 37%
+source-wordcount: 1815
+ht-degree: 39%
 
 ---
 
@@ -83,7 +78,7 @@ Usando atividades do canal, você pode criar campanhas abrangentes e personaliza
 
 * **Canais com suporte** - Somente os canais de SMS, Push, Email e Correspondência direta têm suporte em campanhas orquestradas.
 
-* **Limite de atividades do canal** - Uma campanha Orquestrada dá suporte a no máximo 10 atividades de canal (Email, SMS, Push ou Correspondência direta). Somente atividades de canal são contadas dentro desse limite; atividades de direcionamento e controle de fluxo não são contadas.
+* **Limite de atividades do canal** - Uma campanha Orquestrada dá suporte a no máximo 10 atividades de canal (Email, SMS, Push ou Correspondência direta). Somente as atividades de canal contam para esse limite, não as atividades de direcionamento e controle de fluxo.
 
   Se você exceder o limite ao salvar ou publicar, a operação falhará. Para ficar dentro do limite, reduza o número de atividades do canal ou divida a entrega de mensagens em várias campanhas orquestradas.
 
@@ -164,7 +159,7 @@ Use a seção de **[!UICONTROL Rastreamento de ações]** para acompanhar como o
 
 O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas. A entrega rápida é usada quando o atraso na entrega da mensagem é essencial para os negócios. Por exemplo, você deseja enviar um alerta de push urgente em telefones celulares, como notícias de última hora para usuários que instalaram seu aplicativo de canal de notícias. Saiba como habilitar o modo de entrega rápida para notificações por push [nesta página](../../push/create-push.md#rapid-delivery).
 
-Para obter mais informações sobre o desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Para obter mais informações sobre o desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
@@ -183,25 +178,11 @@ Alterne para a guia **[!UICONTROL Conteúdo]** para criar a sua mensagem. As eta
 <td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Criar uma notificação por push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Correspondência direta" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Criação de uma correspondência direta</strong></a></td>
 </tr></table>
 
-### Adicionar personalização
+### Adicionar personalização {#add-personalization}
 
-O Personalization em campanhas orquestradas funciona de forma semelhante a outras [!DNL Journey Optimizer] campanhas ou jornadas, com algumas diferenças principais específicas para a tela orquestrada.
+No editor de mensagens em uma atividade de canal, insira **[!UICONTROL Atributos do perfil]** e **[!UICONTROL Atributos do público-alvo]** da tabela de trabalho da campanha (targeting dimension e dados de enriquecimento).
 
-Ao acessar o editor de personalização por meio de uma campanha Orquestrada, duas pastas principais contêm atributos disponíveis para personalização detalhados abaixo.
-
-* **[!UICONTROL Atributos do perfil]**
-
-  Esta pasta inclui todos os dados relacionados ao perfil de [!DNL Adobe Experience Platform]. Esses são atributos padrão, como nome, endereço de email, localização ou quaisquer outras características capturadas no perfil do usuário.
-
-* **[!UICONTROL Atributos do público-alvo]** (específicos para campanhas orquestradas)
-
-  Essa pasta é exclusiva das Campanhas orquestradas. Ele contém atributos calculados diretamente na tela da campanha. Ele contém duas subpastas:
-
-   * **`<Targeting dimension>`** (por exemplo, &quot;Recipients&quot;, &quot;Purchases&quot;): contém todos os atributos relacionados à dimensão direcionada pela campanha.
-
-   * **`Enrichment`**: Inclui dados adicionados por meio de atividades de **[!UICONTROL Enriquecimento]** na tela. Isso permite personalizar mensagens com base em conjuntos de dados externos ou em lógica adicional incorporada durante a orquestração. [Saiba como usar uma atividade de Enriquecimento](../activities/enrichment.md)
-
-Para obter uma visão geral detalhada de como usar o editor de personalização, consulte [Introdução à personalização](../../personalization/personalize.md).
+➡️ [Saiba como adicionar personalização em campanhas orquestradas](../add-personalization.md), incluindo matrizes de coleção de enriquecimento, funções de matriz e iteração `{{#each}}`.
 
 ### Verificar e testar o conteúdo {#simulate-content-test-profiles}
 
