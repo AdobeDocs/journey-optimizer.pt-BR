@@ -1,43 +1,54 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
-title: Ativar modo de taxa de transferência alta para campanhas acionadas por API
-description: Saiba como ativar o modo Alta taxa de transferência para campanhas acionadas por API.
-feature: Campaigns, API
-topic: Content Management
-role: Developer
-level: Experienced
-keywords: campanhas, acionadas por API, REST, otimizador, mensagens
-exl-id: 2b3e87dc-097a-4d05-873c-f421d11338c3
-TQID: https://experienceleague.adobe.com/SwmK1epuhZUf4EWnaLRHTBH-eE1hEV02Z8nqXGtMb6U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 4aebdb06094628cfe7393c7f7b41e5fe0ee9df13
 workflow-type: tm+mt
-source-wordcount: 666
-ht-degree: 4%
+source-wordcount: '815'
+ht-degree: 2%
+
+---
+O arquivo não existe no repositório de pipeline — é um arquivo de documentação fornecido como contexto. Escreverei a marcação atualizada completa diretamente conforme instruído (apenas o arquivo é exibido, sem explicações).
 
 ---
 
+solução: Journey Optimizer
+produto: otimizador de jornada
+title: Ativar o modo de alta taxa de transferência para campanhas acionadas por API
+description: Saiba como ativar o modo Alta taxa de transferência para campanhas acionadas por API.
+recurso: Campanhas, API
+tópico: Gestão de conteúdo
+função: desenvolvedor
+level: Experiente
+palavras-chave: campanhas, acionadas por API, REST, otimizer, mensagens
+exl-id: 2b3e87dc-097a-4d05-873c-f421d11338c3
+TQID: https://experienceleague.adobe.com/SwmK1epuhZUf4EWnaLRHTBH-eE1hEV02Z8nqXGtMb6U
+product_v2:
+- id: cb954087-f4fc-4456-afb9-e939cabcdc79
+rótulo interno: Journey Optimizer
+feature_v2:
+- id: d556b755-390a-43f0-be32-a08cf6236126
+internal-label: Configuração
+- id: a653cc2e-bc85-4353-a306-399e5b247978
+rótulo interno: campanhas do Journey Optimizer
+subfeature_v2:
+- id: f7479fa1-474b-479d-8c98-f6cee5865a38
+internal-label: campanhas acionadas por API
+- id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+internal-label: Gerenciamento de campanha
+role_v2:
+- id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+internal-label: Desenvolvedor
+topic_v2:
+- id: e0eb8757-182f-49f3-94a4-1587d16f5094
+rótulo interno: Personalization
+---
 # Ativar modo de taxa de transferência alta para campanhas acionadas por API {#high-throughput}
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Ative o modo de alta taxa de transferência para campanhas acionadas pela API para que você possa enviar emails transacionais em tempo real em grande escala com até 5.000 transações por segundo sem depender de perfis.
+**Nesta página:** ative o modo de alta taxa de transferência para campanhas acionadas pela API para que você possa enviar mensagens transacionais em tempo real em grande escala em até 5.000 transações por segundo (email) ou até 1.500 transações por segundo (push) sem depender de perfis.
 
 >[!ENDSHADEBOX]
 
-O modo Alta Taxa de Transferência foi projetado para organizações que precisam de **mensagens transacionais em tempo real de grande escala** (até 5.000 transações por segundo). Diferentemente das campanhas acionadas pela API comum, as campanhas de alta taxa de transferência operam independentemente dos Perfis do Adobe e exigem um modelo de configuração diferente.
+O modo Alta Taxa de Transferência foi projetado para organizações que precisam de **mensagens transacionais em tempo real e em grande escala**. Diferentemente das campanhas acionadas pela API comum, as campanhas de alta taxa de transferência operam independentemente dos Perfis do Adobe e exigem um modelo de configuração diferente.
 
 Esta página explica como as campanhas com alta taxa de transferência diferem das campanhas acionadas pela API padrão, dos requisitos de configuração e de quando escolher cada modo.
 
@@ -45,7 +56,12 @@ Esta página explica como as campanhas com alta taxa de transferência diferem d
 
 * **Acesso** - Disponível somente na região dos EUA para organizações licenciadas com o complemento de mensagens transacionais de Alta Taxa de Transferência.
 
-* **Canais**: atualmente disponíveis apenas para email.
+* **Canais**: disponíveis para notificações por email e por push.
+
+* **Taxa de transferência**:
+
+   * **Email** - Até 5.000 transações por segundo.
+   * **Push** - Até 1500 transações por segundo. Os seguintes níveis de taxa de transferência em camadas estão disponíveis: 500 TPS (base), 1000 TPS e 1500 TPS. Níveis mais altos exigem o direito complementar apropriado.
 
 * **Personalization**:
 
@@ -76,8 +92,8 @@ Use esta tabela para decidir qual tipo de campanha acionada por API se adapta ao
 | Recurso/Requisito | Campanha acionada por API padrão | Campanha de alto rendimento |
 |------------------------|---------------------------------|---------------------------|
 | **Disponibilidade** | Incluído na oferta base | Requer complemento de mensagens transacionais de alta taxa de transferência. |
-| **Taxa de transferência** | Até 500 transações por segundo | Até 5.000 transações por segundo |
-| **Canais** | Email, SMS, Push | Email |
+| **Taxa de transferência** | Até 500 transações por segundo | Até 5.000 TPS (email); até 1.500 TPS (push) |
+| **Canais** | Email, SMS, Push | Email, Push |
 | **Personalização** | Perfil + contextual na carga da API | Contextual somente na carga da API |
 | **Compilação e perfil** | Existe ou é criado com eventos compilados no perfil | Nenhum perfil |
 | **Volume da mensagem** | Pacotes de mensagens e direitos padrão | Separar volumes de mensagens em camadas |
@@ -89,25 +105,25 @@ Em outras palavras:
 
 * Escolha **Campanhas de API padrão acionadas** se:
    * Você não tem contrato de alto throughput.
-   * Suas necessidades de throughput são &lt;500 TPS.
+   * Suas necessidades de taxa de transferência são ≤ 500 TPS.
    * Você precisa de personalização com base nos perfis do Adobe.
    * Você deseja que os dados da campanha sejam compilados com perfis para direcionamento futuro.
-   * Você deseja usar outro canal diferente de Email.
+   * Você precisa de mensagens SMS.
 
 * Escolha campanhas de **Alta taxa de transferência** se:
    * Você precisa de throughput >500 TPS.
    * Você não precisa de compilação de perfil.
    * Você pode transmitir toda a personalização na carga da API.
-   * Você deseja usar o canal de email.
+   * Você deseja usar o canal de email ou push.
 
 ## Configurar diretrizes
 
 Para configurar campanhas de Alta Taxa de Transferência corretamente, siga estas diretrizes:
 
-1. Crie um novo pool de IPs. [Saiba como criar pools de IP](../configuration/ip-pools.md)
+1. **Somente para alta taxa de transferência de email** - Crie um novo pool de IPs. [Saiba como criar pools de IP](../configuration/ip-pools.md)
 1. Crie uma nova configuração de canal. [Saiba como definir configurações de canal](../configuration/channel-surfaces.md)
-1. Entre em contato com o Atendimento ao cliente da Adobe para solicitar que a superfície ativada seja mapeada para o recurso de Alta taxa de transferência. Forneça a configuração do canal e os detalhes do Pool de IP junto com a ID da organização.
+1. Entre em contato com o Atendimento ao cliente da Adobe para solicitar que a superfície ativada seja mapeada para o recurso de Alta taxa de transferência. Forneça a configuração do canal e os detalhes do Pool de IPs (para email) junto com a ID da organização.
 
 >[!IMPORTANT]
 >
->O pool de IP e as configurações de canal designadas para mensagens transacionais de alta taxa de transferência devem ser usados exclusivamente para essa finalidade e não devem ser usados com mensagens transacionais padrão usando campanhas ou jornadas acionadas por API.
+>As configurações de canal designadas para mensagens transacionais de alta taxa de transferência devem ser usadas exclusivamente para essa finalidade, e não devem ser usadas com mensagens transacionais padrão usando campanhas ou jornadas acionadas por API. Para alta taxa de transferência de e-mail, o pool de IP designado para essa finalidade também deve ser usado exclusivamente para envio de alta taxa de transferência.
