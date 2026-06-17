@@ -17,14 +17,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 376
 ht-degree: 3%
 
 ---
 
 # Revisar e aprovar uma solicitação {#approve-requests}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Como um aprovador designado, revise uma jornada ou campanha enviada e aprove-a e publique-a ou envie solicitações de alteração de volta ao criador antes que ela entre em vigor.
+
+>[!ENDSHADEBOX]
 
 Se uma política de aprovação se aplicar a uma jornada ou campanha, ela precisará ser enviada para aprovação para ser publicada. Para fazer isso, o criador de jornadas/campanhas envia uma solicitação ao(s) aprovador(es) definido(s) na política de aprovação e a jornada/campanha recebe o status **[!UICONTROL Em revisão]**.
 
@@ -61,4 +67,4 @@ Após o envio da solicitação, o criador de jornadas/campanhas é notificado po
 
 >[!NOTE]
 >
-> Se você não estiver recebendo a notificação de aprovação por meio de um email, será necessário atualizar as preferências da assinatura nos perfis do Experience Cloud. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences)
+> Se você não estiver recebendo a notificação de aprovação por meio de um email, será necessário atualizar as preferências da assinatura nos perfis da Experience Cloud. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences)

@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 198
-ht-degree: 17%
+source-wordcount: 222
+ht-degree: 15%
 
 ---
 
 # Trabalhe com modelos de páginas de destino {#work-with-templates}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Salve uma página de aterrissagem concluída como um modelo de conteúdo reutilizável e, em seguida, aplique-a para acelerar o design de páginas futuras.
+
+>[!ENDSHADEBOX]
 
 ## Salvar uma página como modelo {#save-as-template}
 

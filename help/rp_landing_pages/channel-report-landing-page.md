@@ -6,9 +6,9 @@ description: Relatório de todo o histórico
 redpen-status: CREATED_||_2025-08-11_20-52-29
 exl-id: cc658ad0-79ec-4403-bdda-18f0c428d3fa
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 O “Relatório de todo o histórico” do Adobe Journey Optimizer é a sua porta de entrada para entender o desempenho de campanhas e jornadas ao longo do tempo. Esse recurso permite analisar dados com facilidade, graças à sua integração com o Customer Journey Analytics, garantindo insights precisos em canais como email, SMS, notificações por push e muito mais. Você aprenderá a acessar métricas detalhadas, configurar fontes de dados da geração de relatórios e até criar públicos-alvo diretamente a partir dos relatórios. Quer você esteja explorando a eficácia da campanha ou analisando jornadas, os tópicos interconectados fornecem um roteiro claro para dominar as ferramentas de geração de relatórios e otimizar o engajamento dos clientes com confiança.
 
-## Recursos de relatório de tempo todo
+## Recursos de relatório histórico
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao relatório de todo o histórico
 
@@ -30,7 +30,7 @@ Saiba como acessar e aproveitar o recurso “Relatório de todo o histórico” 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Lista abrangente de métricas
 
@@ -40,7 +40,7 @@ Confira definições detalhadas das métricas usadas nos canais de entrega, como
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar o Customer Journey Analytics manualmente
 
@@ -50,7 +50,7 @@ Guia passo a passo para configurar manualmente a integração com o Customer Jou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gerenciar os seus relatórios
 
@@ -60,7 +60,7 @@ Saiba como analisar, personalizar, exportar e programar relatórios, bem como cr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Configurar fontes de dados da geração de relatórios
 
@@ -70,7 +70,7 @@ Configure fontes de dados e conjuntos de dados para ativar a experimentação e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Motivos de exclusão
 

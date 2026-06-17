@@ -21,10 +21,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
+source-git-commit: 1356417d30312b74500dc930c92fe70e0d050a46
 workflow-type: tm+mt
-source-wordcount: 397
-ht-degree: 8%
+source-wordcount: 508
+ht-degree: 6%
 
 ---
 
@@ -66,6 +66,12 @@ ht-degree: 8%
    ![](assets/line-config-2.png)
 
 1. Selecione a **[!UICONTROL ID de usuário do LINE]** que deseja mapear. Esse é o identificador usado para vincular mensagens a usuários individuais no canal LINE.
+
+   >[!NOTE]
+   >
+   >A ID de usuário LINE mapeada aqui já deve existir no [!DNL Real-Time Customer Profile] dos seus clientes. Capture a ID de usuário do LINE (por exemplo, por meio do Logon do LINE ou do LIFF SDK), assimile-a no Adobe Experience Platform e junte-a a um identificador conhecido com o Serviço de identidade para que [!DNL Journey Optimizer] possa acessar o perfil unificado. [Saiba mais sobre a identidade no Journey Optimizer](../audience/get-started-identity.md).
+   >
+   >Para obter um exemplo completo de unificação de IDs de usuário LINE com perfis de clientes usando o Serviço de Identidade, consulte o artigo da comunidade [Unificação de IDs de usuário LINE com perfis de clientes usando a Identificação de identidade da AEP](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/unifying-line-user-ids-with-customer-profiles-in-adobe-journey-optimizer-using-aep-identity-stitching-248680?profile.language=pt){target="_blank"}.
 
 1. Digite seu **[!UICONTROL Nome do Remetente]**, como o nome da sua marca.
 

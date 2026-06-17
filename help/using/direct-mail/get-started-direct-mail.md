@@ -25,7 +25,7 @@ level_v2:
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
 source-wordcount: 487
-ht-degree: 74%
+ht-degree: 89%
 
 ---
 
@@ -47,7 +47,7 @@ O uso dos serviços de mala direta está sujeito a termos e condições adiciona
 
 ## Antes de começar {#before-you-start}
 
-Antes de criar mensagens de correspondência direta, configure o [roteamento de arquivos e uma configuração de canal de correspondência direta](direct-mail-configuration.md). Você também precisa de públicos-alvo e dados de perfil (como endereços postais) no Adobe Experience Platform.
+Antes de criar mensagens de correspondência direta, configure o [roteamento de arquivos e uma configuração de canal de correspondência direta](direct-mail-configuration.md). Você também precisa de públicos-alvo e dados de perfil (como endereços postais) na Adobe Experience Platform.
 
 As principais etapas para enviar mensagens de correspondência direta são as seguintes:
 

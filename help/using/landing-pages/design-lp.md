@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 20%
+source-wordcount: 280
+ht-degree: 17%
 
 ---
 
 # Criar o conteúdo da página de destino {#design-lp}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Descubra como criar o conteúdo da sua página de aterrissagem no designer de conteúdo — do zero, com o AI Assistant, com a sua própria HTML ou com um modelo salvo — para obter uma experiência de visitante sob a marca.
+
+>[!ENDSHADEBOX]
 
 Para começar a criar conteúdo para sua [página principal](create-lp.md#configure-primary-page) ou [subpágina](create-lp.md#configure-subpages) de aterrissagem, passe o mouse sobre o conteúdo da sua página e clique em **[!UICONTROL Abrir o Designer]**. Você também pode clicar no botão correspondente na paleta direita.
 

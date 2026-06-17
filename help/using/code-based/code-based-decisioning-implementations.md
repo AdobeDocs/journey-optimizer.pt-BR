@@ -20,14 +20,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 6%
+source-wordcount: 573
+ht-degree: 8%
 
 ---
 
 # Decisão sobre implementações de experiências baseadas em código {#code-based-decisioning-implementations}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como aplicar a desduplicação e usar o sinalizador de simulação ao enviar solicitações de decisão na implementação de experiência baseada em código.
+
+>[!ENDSHADEBOX]
 
 Ao usar a Decisão em experiências baseadas em código, considere adicionar os seguintes sinalizadores à implementação do cliente nos casos descritos abaixo.
 

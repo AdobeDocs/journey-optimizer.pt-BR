@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1263
 ht-degree: 12%
 
 ---
 
 # Casos de uso da landing page {#lp-use-cases}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Veja exemplos práticos que usam landing pages para gerar assinaturas, capturar opções de não participação e acionar jornadas de acompanhamento dos envios de formulários.
+
+>[!ENDSHADEBOX]
 
 Abaixo estão alguns exemplos de como você pode usar as páginas de aterrissagem do [!DNL Journey Optimizer] para que seus clientes optem por receber algumas ou todas as suas comunicações.
 

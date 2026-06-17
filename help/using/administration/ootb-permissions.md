@@ -32,14 +32,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: 1258
 ht-degree: 2%
 
 ---
 
 # Permissões integradas {#ootb-permissions}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Examine as permissões internas disponíveis para cada recurso, para que você possa atribuir funções com os direitos precisos de que seus usuários precisam para trabalhar no Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 As permissões internas representam as diferentes permissões que podem ser atribuídas a uma **[!UICONTROL Função]** para ajustar o acesso de usuário ao Journey Optimizer. Permissões de alto nível abrangem permissões de baixo nível, detalhadas em [esta página](high-low-permissions.md).
 
@@ -70,6 +76,7 @@ As permissões internas representam as diferentes permissões que podem ser atri
 | Relatórios | **[!DNL View channel reports]**: ler e editar relatórios de canal. |
 | Administração de sandbox | **[!DNL Export sandboxes]**: capacidade de exportar uma sandbox.</br>**[!DNL Manage packages]**: ler, criar, editar e excluir pacotes.</br>**[!DNL Manage sandboxes]**: ler, criar, editar e excluir sandboxes.</br>**[!DNL Reset sandboxes]**: capacidade de redefinir uma sandbox.</br>**[!DNL Share sandboxes]**: capacidade de compartilhar uma sandbox.</br>**[!DNL View sandboxes]**: acesso somente leitura para sandboxes pertencentes à sua organização. |
 | Administração de sandbox | **[!DNL Export sandboxes]**: capacidade de exportar uma sandbox.</br>**[!DNL Manage packages]**: ler, criar, editar e excluir pacotes.</br>**[!DNL Manage sandboxes]**: ler, criar, editar e excluir sandboxes.</br>**[!DNL View sandboxes]**: acesso somente leitura para sandboxes pertencentes à sua organização.</br>**[!DNL Reset sandboxes]**: capacidade de redefinir uma sandbox. |
+| Usuários simulados | **[!DNL Manage Simulated Users]**: ler, criar e editar usuários simulados usados para testar jornadas na Simulação.</br>**[!DNL View Simulated Users]**: acesso somente leitura a usuários simulados. |
 | Serviço de tradução | **[!DNL Manage translation in house]**: ler, criar, editar e excluir a tradução internamente.</br>**[!DNL Manage translation projects]**: ler, criar, editar e excluir projetos de tradução.</br> **[!DNL Manage translation reviews]**: ler, criar, editar e excluir revisões de tradução.</br>**[!DNL Manage translation settings]**: ler, criar, editar e excluir configurações de tradução.</br>**[!DNL Manage translation tasks]**: ler, criar, editar e excluir tarefas de tradução.</br>**[!DNL View translation in house]**: acesso somente leitura para tradução interna.</br>**[!DNL View translation projects]**: acesso somente leitura para projetos de tradução.</br>**[!DNL View translation reviews]**: acesso somente leitura para revisões de tradução.</br>**[!DNL View translation tasks]**: acesso somente leitura para tarefas de tradução. |
 
 {style="table-layout:fixed"}

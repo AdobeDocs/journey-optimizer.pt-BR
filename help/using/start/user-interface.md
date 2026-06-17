@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: ff473a54dde6806b28c93d6f2f8040a67023ef8c
 workflow-type: tm+mt
-source-wordcount: 1617
-ht-degree: 98%
+source-wordcount: 1789
+ht-degree: 88%
 
 ---
 
@@ -407,4 +407,38 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Atividade Carregar arquivo"
->abstract="A atividade **Carregar arquivo** é uma atividade de **Direcionamento**. Use-a para fazer upload de um arquivo CSV ou TXT na tela da Campanha orquestrada e utilizá-lo como público da campanha. Os dados do arquivo são consumidos em tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform. As linhas são reconciliadas com os destinatários existentes usando uma coluna de identidade e uma dimensão de direcionamento."
+>abstract="A atividade **Carregar arquivo** é uma atividade de **Direcionamento**. Use-a para fazer upload de um arquivo CSV ou TXT na tela de campanha orquestrada e usá-lo como o público-alvo da campanha. Os dados do arquivo são consumidos no momento da execução e não são mantidos como um conjunto de dados da Adobe Experience Platform. As linhas são reconciliadas com os destinatários existentes usando uma coluna de identidade e uma dimensão de direcionamento."
+
+<!-- SMS Sinch Usage metrics -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_metrics"
+>title="Métricas de uso de SMS"
+>abstract="Gerar relatórios de uso de SMS para reconciliar o volume de mensagens com a cobrança do fornecedor. Os relatórios listam contagens terminadas por dispositivo móvel (MT) e originadas por dispositivo móvel (MO) para cada código curto ou número de telefone, agregadas por dia."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_report_name"
+>title="Nome do relatório"
+>abstract="Insira um rótulo que ajude a reconhecer esse relatório na lista posteriormente, por exemplo, revisão de cobrança de maio de 2026."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_credential"
+>title="Credenciais de SMS"
+>abstract="Selecione a credencial da API Sinch cujo tráfego de envio e recebimento deve aparecer neste relatório. Para adicionar ou atualizar credenciais, vá para **Administração** > **Canais** > **Credenciais da API** e escolha **Fornecedor de SMS** > **Sinch MMS**."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_start_date"
+>title="Data inicial"
+>abstract="Primeiro dia do intervalo de datas a ser incluído no relatório. Os dados de uso estão disponíveis somente para os últimos 90 dias."
+
+<!--  channel type in Custom Provider in API credential  -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_channel_type"
+>title="Tipo de canal"
+>abstract="Opcional. Classificar mensagens enviadas com esta credencial de provedor de SMS personalizado, por exemplo, SMS ou RCS. O Journey Optimizer grava o valor em eventos de experiência XDM para que você possa relatar e rastrear a entrega por canal."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_require_auth"
+>title="Autenticação"
+>abstract="Quando ativado, somente as solicitações autenticadas por meio do Adobe IMS são aceitas. Os chamadores devem incluir um token OAuth válido ao enviar dados para esse endpoint."

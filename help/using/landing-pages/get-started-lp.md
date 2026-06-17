@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 96%
+source-wordcount: 781
+ht-degree: 94%
 
 ---
 
 # Introdução às páginas de destino {#get-started-lp}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** as páginas de aterrissagem transformam um clique de um email, anúncio ou campanha em um destino da Web dedicado, em que os clientes optam por entrar ou sair, gerenciam suas preferências e compartilham dados de perfil — ajudando você a aumentar o público-alvo com consentimento e a capturar os dados primários que possibilitam a personalização.
+
+>[!ENDSHADEBOX]
 
 Uma página de destino é uma página da Web independente para a qual o usuário é direcionado depois de clicar em um email, site, anúncio ou qualquer outro local digital.
 
@@ -131,4 +137,4 @@ O vídeo abaixo mostra como criar uma lista de assinaturas, configurar páginas 
 
 >[!VIDEO](https://video.tv.adobe.com/v/344402?captions=por_br&quality=12&learn=on)
 
-➡️ **Veja na prática:** Conheça os [casos de uso da página de aterrissagem](lp-use-cases.md) para obter exemplos passo a passo sobre gerenciamento de assinatura, emails de confirmação e cenários de captura de dados.
+➡️ **Veja na prática:** explore [casos de uso de página de destino](lp-use-cases.md) para ter exemplos passo a passo sobre gerenciamento de assinaturas, emails de confirmação e cenários de captura de dados.

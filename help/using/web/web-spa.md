@@ -23,14 +23,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 27%
+source-wordcount: 537
+ht-degree: 25%
 
 ---
 
 # Criar aplicativos de página única {#web-author-spas}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar aplicativos de página única no Adobe Journey Optimizer definindo exibições na implementação do Web SDK, descobrindo-as no web designer com modo de navegação e aplicando modificações às exibições selecionadas.
+
+>[!ENDSHADEBOX]
 
 ## Sobre visualizações {#about-views}
 
@@ -52,7 +58,7 @@ Uma exibição pode ser definida como um site inteiro ou um grupo de elementos v
 
 As exibições XDM podem ser usadas no Adobe [!DNL Journey Optimizer] para capacitar os profissionais de marketing a executar campanhas de personalização e experimentação da Web em SPAs por meio do editor visual da Web. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=pt-BR){target="_blank"}
 
-Para acessar e criar exibições na interface do usuário do [!DNL Journey Optimizer], siga as etapas listadas em [esta seção](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=pt-BR#implement-xdm-views){target="_blank"}.
+Para acessar e criar exibições na interface do usuário do [!DNL Journey Optimizer], siga as etapas listadas em [esta seção](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## Descobrir exibições no web designer {#discover-views}
 

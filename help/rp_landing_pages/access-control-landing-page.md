@@ -6,9 +6,9 @@ description: Controle de acesso
 redpen-status: CREATED_||_2025-08-11_21-19-16
 exl-id: 812d29b1-8ef3-4f41-8a32-bf2839f924a1
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '279'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ O controle de acesso do Adobe Journey Optimizer permite que os administradores g
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao controle de acesso
 
@@ -30,7 +30,7 @@ Saiba mais sobre os conceitos e processos para gerenciar permissões de usuário
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gerenciar usuários e funções
 
@@ -60,7 +60,7 @@ Entenda as permissões disponíveis e suas funcionalidades para configurar o con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Níveis de permissão
 
@@ -70,7 +70,7 @@ Saiba mais sobre permissões de alto e baixo níveis, e como elas proporcionam u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Controle de acesso baseado em atributos
 

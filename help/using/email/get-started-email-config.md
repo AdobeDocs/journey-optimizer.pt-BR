@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 563
-ht-degree: 73%
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 73%
 
 A configuração do canal de email do Adobe Journey Optimizer é a porta de entrada para criar experiências de email impactantes e personalizadas que envolvem efetivamente o seu público-alvo.
 
-Esta seção orienta você pelas etapas de configuração essenciais que devem ser seguidas para enviar emails pelo [!DNL Journey Optimizer]. Você também descobrirá como configurar cabeçalhos de email, personalizar configurações para várias marcas, ativar o rastreamento de URL para análise e até mesmo adicionar links de cancelamento de inscrição com um clique para conveniência do usuário. Cada tópico baseia-se no anterior, fornecendo as ferramentas para ajustar a estratégia de email e, ao mesmo tempo, manter o controle e a precisão.
+Esta seção apresenta as etapas de configuração essenciais que devem ser seguidas para enviar emails pelo [!DNL Journey Optimizer]. Você também verá como configurar cabeçalhos de email, personalizar configurações para várias marcas, habilitar o rastreamento de URL para análise e até adicionar links de cancelamento de assinatura com um clique para a comodidade do usuário. Cada tópico baseia-se no anterior, fornecendo as ferramentas para ajustar a estratégia de email e, ao mesmo tempo, manter o controle e a precisão.
 
 Para poder enviar emails por meio de jornadas e campanhas no [!DNL Journey Optimizer] é necessário executar várias etapas de configuração. Essas etapas estão listadas abaixo:
 
@@ -63,11 +63,11 @@ Para poder enviar emails por meio de jornadas e campanhas no [!DNL Journey Optim
 
    ![](assets/surface-subdomain-ip-pool.png)
 
-   * O **[!UICONTROL Do prefixo de email]** e o **[!UICONTROL Prefixo de email de erro]** usam o [subdomínio delegado](../configuration/about-subdomain-delegation.md) atualmente selecionado. Opcionalmente, o **[!UICONTROL Nome do remetente]** e o **[!UICONTROL Email do remetente]** podem identificar um participante transmissor diferente (endereço **Remetente** completo, não vinculado a esse sufixo de subdomínio). [Saiba mais](header-parameters.md#sender-header)
+   * O **[!UICONTROL Prefixo do email do remetente]** e o **[!UICONTROL Prefixo do email de erro]** usam o [subdomínio delegado](../configuration/about-subdomain-delegation.md) selecionado no momento. Opcionalmente, o **[!UICONTROL Nome do remetente]** e o **[!UICONTROL Email do remetente]** podem identificar uma parte transmissora diferente (endereço **Remetente** completo, não vinculado a esse sufixo de subdomínio). [Saiba mais](header-parameters.md#sender-header)
 
    ![](assets/preset-header.png)
 
-1. Conclua a configuração do seu canal de email configurando outros parâmetros avançados, como habilitar o CCO, definir o rastreamento de URL para análise ou adicionar links de cancelamento de inscrição com um clique para conveniência do usuário. [Saiba mais](email-settings.md)
+1. Conclua a configuração do seu canal de email definindo outros parâmetros avançados, como habilitar o CCO, definir o rastreamento de URL para análise ou adicionar links de cancelamento de assinatura com um clique para a comodidade do usuário. [Saiba mais](email-settings.md)
 
 1. Determine quais **campos de execução** devem ser usados com prioridade para os destinatários quando vários endereços estiverem disponíveis na Adobe Experience Platform. [Saiba mais](../configuration/primary-email-addresses.md)
 

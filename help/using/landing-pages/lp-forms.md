@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 2080
+source-wordcount: 2111
 ht-degree: 8%
 
 ---
 
 # Usar formulários nas páginas de aterrissagem {#lp-forms}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar formulários e incorporá-los às páginas de aterrissagem do Data Capture para coletar atributos de perfil dos visitantes e gravar os envios para seus conjuntos de dados do Experience Platform.
+
+>[!ENDSHADEBOX]
 
 Para capturar dados de perfil com suas páginas de aterrissagem do [!DNL Journey Optimizer] e enriquecer seus conjuntos de dados do [!DNL Experience Platform], você pode usar formulários em suas páginas de aterrissagem. Para obter uma visão geral de cenários e requisitos de captura de dados, consulte [Captura de dados com páginas de aterrissagem](get-started-lp.md#data-capture-lp).
 

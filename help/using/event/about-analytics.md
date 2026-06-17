@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 810
 ht-degree: 6%
 
 ---
 
 # Trabalhar com dados do Adobe Analytics {#analytics-data}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** conecte os dados de comportamento da Web que você já captura com o Adobe Analytics ou o Web SDK para poder disparar jornadas e automatizar experiências oportunas das atividades em tempo real dos clientes.
+
+>[!ENDSHADEBOX]
 
 Você pode aproveitar todos os dados de evento comportamental da Web que já estão sendo capturados por meio do Adobe Analytics ou do Web SDK e transmitidos para o Adobe Experience Platform, a fim de acionar jornadas e automatizar experiências para seus clientes.
 
@@ -80,7 +86,7 @@ Isso ativa o conector de origem do Analytics para esse conjunto de relatórios. 
 
 ![](assets/ajo-aa_4.png)
 
-Saiba mais sobre o conector de origem do Adobe Analytics na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=pt-BR){target="_blank"} e no [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre o conector de origem do Adobe Analytics na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} e no [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=pt-BR){target="_blank"}.
 
 ## Ativar esta configuração {#activate-analytics-data}
 

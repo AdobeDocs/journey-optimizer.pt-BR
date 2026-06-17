@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: 948
 ht-degree: 6%
 
 ---
 
 # Definir períodos de silêncio {#quiet-hours}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** defina exclusões com base no tempo para email, SMS, push e WhatsApp para evitar mensagens de clientes em momentos errados e respeitar suas preferências e requisitos de conformidade.
+
+>[!ENDSHADEBOX]
 
 ## O que são horas de silêncio
 

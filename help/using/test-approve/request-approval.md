@@ -15,14 +15,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ad8f6662e1f2358071ae923d88630d5f34d9ccf3
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: 476
 ht-degree: 0%
 
 ---
 
 # Solicitar aprovação {#request-approval}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** mova sua jornada ou campanha para entrar em funcionamento com confiança enviando-a aos revisores certos e mantenha o controle enquanto estiver em revisão — cancele, edite e reenvie conforme necessário para que somente o conteúdo aprovado e sob marca chegue aos seus clientes.
+
+>[!ENDSHADEBOX]
 
 O acesso ao fluxo de trabalho de aprovação é determinado pelo seu caso de uso específico:
 

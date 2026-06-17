@@ -22,14 +22,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 509
+source-wordcount: 543
 ht-degree: 3%
 
 ---
 
 # Configurar o suporte a cartões de conteúdo no SDK da Web {#content-card-configuration-sdk}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** configure e execute o exemplo que busca e renderiza cartões de conteúdo com o Adobe Experience Platform Web SDK para que você possa fornecer conteúdo personalizado do lado do cliente em suas páginas da Web.
+
+>[!ENDSHADEBOX]
 
 Este exemplo mostra como recuperar Cartões de conteúdo do Adobe Journey Optimizer (AJO) usando o Adobe Experience Platform. Com a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home), o conteúdo de personalização é obtido e renderizado totalmente no lado do cliente.
 

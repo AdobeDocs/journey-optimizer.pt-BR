@@ -6,9 +6,9 @@ description: Casos de uso
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
 source-git-commit: 90804dddd9c789e10158502ddbd64ffe7898dacc
-workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '379'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Os casos de uso do Adobe Journey Optimizer capacitam você a criar experiências
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Aprenda por meio de casos de uso
 
@@ -30,17 +30,17 @@ Explore exemplos práticos e estratégias para maximizar os recursos do Adobe Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Pesquisa de evento de experiência
 
-Use alternativas de eventos de experiência para gerenciar opções de não participação, personalizar o conteúdo e enfrentar desafios comuns na orquestração de jornadas.
+Use alternativas de evento de experiência para gerenciar opções de não participação, personalizar o conteúdo e lidar com desafios comuns na orquestração de jornada.
 
 [Saiba mais](../using/building-journeys/exp-event-lookup.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Envie mensagens multicanal
 
@@ -50,7 +50,7 @@ Crie jornadas que aproveitem a segmentação de público-alvo e acionadores de e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Enviar uma mensagem usando o Campaign v7/v8
 
@@ -60,7 +60,7 @@ Integre o Adobe Campaign ao Journey Optimizer para enviar mensagens de email usa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Envie uma mensagem aos assinantes
 
@@ -70,7 +70,7 @@ Configure jornadas para enviar mensagens aos assinantes com base nas preferênci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Envio dinâmico de coleções usando ações personalizadas
 

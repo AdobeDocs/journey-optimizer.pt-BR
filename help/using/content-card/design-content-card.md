@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 671
 ht-degree: 1%
 
 ---
 
 # Criar conteúdo de cartões de conteúdo {#design-content-card}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Crie e personalize o layout, o texto, a mídia, os botões e o comportamento de descarte do seu cartão de conteúdo para que você possa enviar uma mensagem envolvente e sobre a marca para o seu público-alvo.
+
+>[!ENDSHADEBOX]
 
 A construção de criação para Cartões fornece uma experiência de criação baseada em formulário que fornece aos profissionais de marketing entradas básicas que podem ser renderizadas pelos desenvolvedores.
 

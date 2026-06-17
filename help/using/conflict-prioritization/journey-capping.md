@@ -19,14 +19,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: 993
 ht-degree: 18%
 
 ---
 
 # Limite e arbitragem de jornada {#journey-capping}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** limite quantas jornadas um perfil pode inserir ou ser inscrito de uma vez para que você possa evitar sobrecarga de comunicação e priorizar as jornadas mais importantes.
+
+>[!ENDSHADEBOX]
 
 O limite de jornada ajuda a limitar o número de jornadas nas quais um perfil pode ser inscrito, evitando a sobrecarga de comunicação. No Journey Optimizer, você pode definir dois tipos de regras de limitação:
 

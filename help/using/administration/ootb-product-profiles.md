@@ -26,14 +26,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 2107
+source-wordcount: 2137
 ht-degree: 6%
 
 ---
 
 # Funções integradas {#ootb-product-profiles}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Explore as funções integradas e as permissões que cada uma inclui para conceder aos usuários rapidamente um nível de acesso pronto que corresponda às suas responsabilidades.
+
+>[!ENDSHADEBOX]
 
 As funções integradas são um conjunto de direitos unitários que permitem aos usuários acessar determinadas funcionalidades ou objetos na interface. Consulte [esta página](ootb-permissions.md) para obter a lista de permissões disponíveis para criar sua função.
 

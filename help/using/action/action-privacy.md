@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
 source-wordcount: 1337
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Com sua estrutura de [governança de rotulagem e aplicação de uso de dados (DU
 
 Depois que os rótulos e as ações de marketing forem definidos, você poderá criar **políticas de governança de dados** que vinculam esses dois elementos. Por exemplo, você pode configurar uma política que associe um rótulo “ePHI” a uma ação de marketing de “direcionamento por email”, garantindo que os campos rotulados como “ePHI” não sejam usados para personalizar mensagens de email. [Saiba como criar políticas de governança de dados](#policy)
 
-Depois de criar as políticas de governança, é possível aplicar as ações de marketing às ações personalizadas de jornadas/campanhas e jornadas.
+Depois de criar as políticas de governança, você pode aplicar as ações de marketing às suas jornadas/campanhas e ações personalizadas das jornadas.
 [Saiba como aplicar ações de marketing no Journey Optimizer](#apply-marketing-actions)
 
 Ao criar uma jornada ou campanha, após selecionar uma configuração de canais ou uma ação personalizada, o sistema verifica se a ação de marketing na configuração do canal de mensagem ou na ação personalizada faz parte de uma política de governança de dados. Se sim, o sistema verifica se algum campo do público-alvo ou da personalização da mensagem está rotulado e restrito pela política. Se esse rótulo for detectado, a publicação da jornada ou campanha será bloqueada. [Saiba como detectar uma violação da política de governança de dados](#violation)

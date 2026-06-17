@@ -25,14 +25,20 @@ subfeature_v2:
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 125
-ht-degree: 100%
+source-wordcount: 161
+ht-degree: 77%
 
 ---
 
 # Introdução a consultas {#queries-gs}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** use o Editor de consultas fornecido pelo Serviço de consulta da Adobe Experience Platform para que você possa gravar, validar e executar consultas nos dados de experiência do cliente para análise e exploração de dados no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 O Editor de consultas é uma ferramenta interativa fornecida pelo Serviço de consultas da Adobe Experience Platform que permite gravar, validar e executar consultas para dados de experiência do cliente na interface [!DNL Adobe Journey Optimizer].
 

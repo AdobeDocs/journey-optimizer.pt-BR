@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: 1346
 ht-degree: 9%
 
 ---
 
 # Limite de frequência por canal e tipo de comunicação {#rule-sets}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Defina limites de frequência por canal e tipo de comunicação para que você possa limitar quantas mensagens um perfil recebe e evitar sobrecarregar os clientes com comunicações semelhantes.
+
+>[!ENDSHADEBOX]
 
 Os conjuntos de regras do **Canal** aplicam regras de limitação aos canais de comunicação. Por exemplo, não enviar mais de uma comunicação por email ou SMS por dia.
 

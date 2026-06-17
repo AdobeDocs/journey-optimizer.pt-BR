@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 140204b92956663f75893c09a61c6b2bfa97a2b1
+source-git-commit: 46a540ec28ee184b3cb475f64c26d68f6c06d898
 workflow-type: tm+mt
-source-wordcount: 2036
-ht-degree: 5%
+source-wordcount: 1822
+ht-degree: 9%
 
 ---
 
@@ -28,7 +28,7 @@ O Adobe Journey Optimizer oferece continuamente novos recursos, melhorias nos re
 
 ## Notas de pré-lançamento de 26 de junho {#june-26-rn}
 
-**As notas de pré-lançamento abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade da versão**. Links, telas e documentação atualizada são publicados assim que as alterações são ativadas na produção. Embora a maioria das alterações seja fornecida na data de lançamento, algumas podem ser lançadas posteriormente — consulte a Data de disponibilidade listada para cada entrada para obter detalhes.
+**As notas de pré-lançamento abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade da versão**. Links, telas e documentação atualizada são publicados assim que as alterações são ativadas na produção. Embora a maioria das alterações seja fornecida na data de lançamento, algumas podem ser lançadas posteriormente — consulte a “Data de disponibilidade” listada de cada entrada para obter detalhes.
 
 Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
@@ -48,21 +48,23 @@ Os seguintes recursos e melhorias estão chegando às jornadas nesta versão.
 
 Os seguintes recursos e melhorias estão chegando às campanhas orquestradas nesta versão.
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Segmentação baseada em arquivo em campanhas orquestradas</strong><br/></th>
+<th><strong>File-based targeting in Orchestrated campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>As campanhas orquestradas agora permitem carregar um <strong>arquivo CSV ou TXT</strong> diretamente na tela da campanha como público alvo, sem primeiro assimilar o arquivo na Adobe Experience Platform. Os dados do arquivo são consumidos no tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform. Durante a configuração do arquivo, você pode definir mapeamentos de coluna, tipos de dados, tratamento NULL e políticas de erro por coluna. As linhas que falharem na validação são rejeitadas e registradas antes da execução da campanha, mantendo o público-alvo limpo sem pré-processamento manual. Isso é particularmente adequado para envios ad hoc ou campanhas de lista de parceiros em que a criação de um pipeline de assimilação completo não é prática.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Orchestrated campaigns now support loading a <strong>CSV or TXT file</strong> directly into the campaign canvas as the targeting audience, without first ingesting the file into Adobe Experience Platform. The file data is consumed at execution time and is not persisted as an Adobe Experience Platform dataset. During file setup, you can define column mappings, data types, NULL handling, and per-column error policies. Rows that fail validation are rejected and logged before the campaign runs, keeping the audience clean without manual pre-processing. This is particularly suited for ad-hoc sends or partner list campaigns where building a full ingestion pipeline is not practical.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 * **Personalização baseada em loop para dados relacionais em campanhas orquestradas** - O editor de personalização agora oferece suporte a um **Bloco de loop** que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de gravação de expressão. Você pode visualizar como os blocos em loop são renderizados em relação aos dados de amostra antes da campanha entrar em funcionamento, incluindo o tratamento de coleções vazias.
 
@@ -92,12 +94,7 @@ O recurso a seguir está chegando à Decisão nesta versão.
 </tbody>
 </table>
 
-* **Atributos de oferta dinâmicos** - Os atributos de oferta no Decisioning agora podem ser personalizados no momento da entrega usando dados de perfil, contextuais e de público-alvo. Isso elimina a necessidade de manter ofertas duplicadas para variações de conteúdo secundárias, permitindo que os profissionais de marketing gerenciem um número menor de itens de decisão e mais flexíveis.
-
-* **Limite de frequência no nível de posicionamento na Decisão** - As regras de limite de frequência na Decisão agora podem ser segmentadas para posicionamentos individuais, fornecendo controle mais fino sobre a frequência com que uma oferta é exibida em determinada superfície. Dois modos estão disponíveis:
-
-   * Limite específico de posicionamento: defina um limite que se aplique somente quando a oferta for exibida em um posicionamento selecionado.
-   * Limite por posicionamento: aplique um limite de maneira independente em cada posicionamento em que a oferta é exibida, para que cada posicionamento mantenha seu próprio contador de limite.
+* **Atributos de item dinâmico** - Os atributos personalizados de item de decisão agora podem ser personalizados no momento da entrega usando dados de perfil, contextuais e de público-alvo. Isso elimina a necessidade de manter ofertas duplicadas para variações de conteúdo secundárias, permitindo que os profissionais de marketing gerenciem um número menor de itens de decisão e mais flexíveis.
 
 ### Email {#june-26-email}
 
@@ -115,7 +112,6 @@ Os seguintes recursos e melhorias estão chegando ao canal de email nesta versã
 <p>O Journey Optimizer agora inclui validação técnica automatizada diretamente no Designer de email, ajudando você a detectar problemas no HTML e no CSS antes do envio.</p>
 <p>As verificações abrangem elementos sem suporte, como tags <code>&lt;script&gt;</code> e <code>&lt;base&gt;</code>, divs vazios que podem quebrar o layout no Microsoft Outlook, tags de metaatualização do HTML e limites de tamanho de CSS ou HTML que acionam falhas de renderização no Gmail.</p>
 <p>Os resultados são exibidos como erros, avisos ou avisos informativos diretamente no painel de criação, com detalhes contextuais e correções com um clique, quando disponíveis, para que os problemas possam ser resolvidos sem sair do editor.</p>
-<p>Para obter mais informações, consulte a <a href="../email/content-check.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -278,7 +274,7 @@ Os seguintes aprimoramentos estão chegando aos relatórios nesta versão.
 
 As seguintes melhorias estão chegando à configuração e administração nesta versão.
 
-* **Conjunto de dados passando do modo de streaming para o modo de lote** - O Conjunto de Dados de Evento de Feedback de Mensagens do AJO está passando do modo de streaming para o **modo de assimilação em lote**. Essa alteração garante que a assimilação de dados não exceda os limites de assimilação de streaming. Se você usar esse conjunto de dados nos relatórios do Customer Journey Analytics ou executar consultas nele, espere um aumento na latência de dados de até 2 horas no futuro.
+* **Conjunto de dados passando do modo de streaming para o modo de lote** - O Conjunto de Dados de Evento de Feedback de Mensagens do AJO está passando do modo de streaming para o **modo de assimilação em lote**. Essa alteração garante que a ingestão de dados não exceda os limites de ingestão de transmissão. Se você usar esse conjunto de dados nos relatórios do Customer Journey Analytics ou executar consultas nele, espere um aumento na latência de dados de até 2 horas futuramente.
 
 +++ Em breve — **As informações abaixo estão sujeitas a alterações**
 

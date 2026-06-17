@@ -25,14 +25,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 subfeature_v2: []
-source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 196
-ht-degree: 2%
+source-wordcount: 228
+ht-degree: 1%
 
 ---
 
 # Integrar a serviços inteligentes {#ai-overview}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como integrar os Serviços inteligentes da Adobe e as previsões da IA do cliente à Journey Optimizer para usar pontuações de churn e conversão como atributos de perfil para decisões, ações e criação de segmentos.
+
+>[!ENDSHADEBOX]
 
 A integração com o **[!DNL Adobe Intelligent Services]** permite que você aproveite a inteligência artificial e o aprendizado de máquina para os casos de uso de experiência do cliente. Isso permite que os analistas de marketing definam previsões personalizadas para as necessidades de uma empresa usando configurações de nível empresarial sem exigir conhecimento especializado em ciência de dados.
 

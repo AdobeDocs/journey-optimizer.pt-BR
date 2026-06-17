@@ -26,14 +26,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1126
-ht-degree: 12%
+source-wordcount: 1162
+ht-degree: 11%
 
 ---
 
 # Medidas de proteção de tempo de vida (TTL) dos conjuntos de dados {#ttl-guardrail}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Entenda os limites de retenção de tempo de vida útil em conjuntos de dados gerados pelo sistema da Journey Optimizer para que você possa planejar por quanto tempo os dados de rastreamento, feedback e jornada permanecerão disponíveis e reterão os dados críticos antes que expirem.
+
+>[!ENDSHADEBOX]
 
 A partir de fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer para **novas sandboxes e organizações** da seguinte maneira:
 

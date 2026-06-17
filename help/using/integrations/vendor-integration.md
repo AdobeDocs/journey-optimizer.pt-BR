@@ -11,14 +11,20 @@ keywords: integração, fornecedor, terceiros
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 10154
+source-wordcount: 10185
 ht-degree: 5%
 
 ---
 
 # Exemplos de configurações do fornecedor {#vendor-integration}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar as Integrações do Adobe Journey Optimizer com qualquer plataforma externa que exponha uma API compatível, com medidas de proteção operacionais e padrões ilustrativos de fornecedor para orientar sua configuração.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

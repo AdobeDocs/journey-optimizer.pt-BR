@@ -10,14 +10,20 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 870
 ht-degree: 0%
 
 ---
 
 # Trabalhar com o Supervisor de conteúdo do Adobe Experience Manager {#aem-content-advisor}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como acessar e usar o Supervisor de Conteúdo do Adobe Experience Manager para descobrir ativos, mídia dinâmica e Fragmentos de Conteúdo por meio da pesquisa semântica habilitada por IA diretamente nos fluxos de trabalho de criação do Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 O Adobe Experience Manager Content Advisor substitui a detecção determinística pela detecção padronizada orientada por intenções a partir de uma superfície unificada. Ele permite a detecção unificada e baseada em IA do Assets, Dynamic Media e Fragmentos de conteúdo diretamente nos fluxos de trabalho de criação do Journey Optimizer, melhorando a produtividade do profissional de marketing e a eficiência da campanha.
 

@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Referência da API
-description: Saiba como usar a API de biblioteca de ofertas e as APIs de entrega para integrar a Gestão de decisões aos seus fluxos de trabalho e fornecer ofertas personalizadas em escala.
+description: Saiba como usar a API da biblioteca de ofertas e as APIs de entrega para integrar a Gestão de decisões aos fluxos de trabalho e fornecer ofertas personalizadas em grande escala.
 redpen-status: CREATED_||_2025-08-11_21-04-46
 badge: label="Legado" type="Informative"
 exl-id: 0b5e61d7-14a1-446e-8cb0-8861295d6e94
 source-git-commit: 50667ff13e16344bbcc12d78e5ac31f3f8545f08
-workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 76%
+workflow-type: ht
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ A seção de referência da API do Adobe Journey Optimizer desbloqueia as ferram
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à API da biblioteca de ofertas
 
@@ -35,7 +35,7 @@ Saiba como integrar a API da biblioteca de ofertas para gestão de decisões, co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Entregar ofertas por meio das APIs do Adobe Journey Optimizer
 
@@ -45,11 +45,11 @@ Confira recursos abrangentes para implementar as APIs de tomada de decisão, tom
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Criar e gerenciar ofertas usando APIs
 
-Acesse referências de API para gerenciar posicionamentos, regras de decisão, qualificadores de coleção, ofertas personalizadas, coleções, ofertas substitutas e decisões.
+Acesse as referências de API para gerenciamento de posicionamentos, regras de decisão, qualificadores de coleção, ofertas personalizadas, coleções, ofertas substitutas e decisões.
 
 [Navegue pela API da biblioteca de ofertas](../using/offers/api-reference/getting-started.md)
 :::

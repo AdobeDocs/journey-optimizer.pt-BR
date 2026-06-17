@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 3603
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -168,7 +168,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <tbody>
 <tr>
 <td>
-<p>O Adobe Experience Platform permite adotar e aplicar facilmente políticas de marketing para respeitar as preferências de consentimento dos clientes. As políticas de consentimento são definidas no Adobe Experience Platform. No Journey Optimizer, você pode aplicar essas políticas de consentimento às ações personalizadas. Por exemplo, você pode definir políticas de consentimento para excluir clientes que não consentiram em receber comunicações por email, push ou SMS.
+<p>A Adobe Experience Platform permite adotar e aplicar políticas de marketing com facilidade para respeitar as preferências de consentimento dos clientes. As políticas de consentimento são definidas na Adobe Experience Platform. No Journey Optimizer, você pode aplicar essas políticas de consentimento às ações personalizadas. Por exemplo, você pode definir políticas de consentimento para excluir clientes que não deram consentimento para receber comunicações por email, push ou SMS.
 <p>Atualmente, a Aplicação automática de consentimento está disponível apenas para organizações que compraram a oferta complementar do Healthcare Shield.</p>
 <p>Para obter mais informações, consulte a <a href="../action/consent.md">documentação detalhada</a>.
 </td>

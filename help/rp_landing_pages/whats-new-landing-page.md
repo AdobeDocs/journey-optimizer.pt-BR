@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_20-03-09
 hide: true
 exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '307'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Tenha um vislumbre dos últimos aprimoramentos na documentação e no produto do
 
 >[!BEGINTABS]
 
->[!TAB Orquestração de campanhas]       
+>[!TAB Orquestração de campanhas]
 
 O Journey Optimizer agora inclui a **Orquestração de campanha**, um novo recurso criado especificamente para campanhas em lotes iniciadas pela marca. Esta versão apresenta uma tela de orquestração de campanhas e uma modelagem de dados aprimorada, que funcionam em conjunto para permitir que os profissionais de marketing planejem, direcionem e entreguem campanhas personalizadas entre canais.
 
@@ -48,7 +48,7 @@ Ao integrar o Adobe Experience Manager as a Cloud Service com o Adobe Journey Op
 
 >[!ENDTABS]
 
-## Notas de versão e atualizações de documentação
+## Notas de versão e atualizações na documentação
 
 :::: landing-cards-container
 :::

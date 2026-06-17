@@ -28,14 +28,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1055
-ht-degree: 91%
+source-wordcount: 1087
+ht-degree: 95%
 
 ---
 
 # Introdução a conjuntos de dados {#datasets-gs}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como acessar, criar e controlar conjuntos de dados do Adobe Experience Platform para poder armazenar e explorar os dados que alimentam o jornada, as campanhas e os relatórios no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Todos os dados assimilados na Adobe Experience Platform são mantidos no Data Lake como conjuntos de dados. Um conjunto de dados é uma construção de armazenamento e gerenciamento para uma coleção de dados, normalmente uma tabela, que contém um esquema (colunas) e campos (linhas).
 
@@ -73,7 +79,7 @@ Estas seções listam os conjuntos de dados do sistema usados pelo [!DNL Journey
 * Relatório
 
    * _Relatório - Conjunto de dados do evento de feedback de mensagem_: logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. O feedback dos ISPs de email sobre rejeições também é registrado neste conjunto de dados. **Este conjunto de dados usa assimilação em lote — espere uma latência de dados de até 2 horas.**
-   * _Relatórios - Conjunto de Dados de Evento de Experiência de Acompanhamento de Email_: Logs de interação do canal de email e dados de contexto do canal do WhatsApp no grupo de campos `whatsAppChannelContext`. Usado para relatórios e criação de público-alvo. As informações armazenadas incluem ações executadas pelo usuário final no email (aberturas, cliques etc.) e interações do WhatsApp.
+   * _Relatórios – Conjunto de dados de evento de experiência de rastreamento de email_: logs de interação do canal de email e dados de contexto do canal do WhatsApp no grupo de campos `whatsAppChannelContext`. Usado para relatórios e criação de público-alvo. As informações armazenadas incluem ações realizadas pelo usuário final no email (aberturas, cliques etc.) e interações do WhatsApp.
    * _Relatórios - Conjunto de dados do evento de experiência de rastreamento de push_: logs de interação para o canal de push usado para fins de criação de relatórios e de público-alvo. As informações armazenadas informam as ações executadas pelo usuário final nas notificações por push.
    * _Relatórios - Evento de etapa da jornada_: Captura todos os eventos de experiência em etapas da jornada gerados no Journey Optimizer para serem consumidos por serviços como Relatórios. Também é essencial para criar relatórios no Customer Journey Analytics para análise YoY. Vinculado a um Metadado de jornada.
    * _Relatórios - Jornadas_: Informações de hospedagem do conjunto de dados de metadados de cada etapa em uma jornada.
@@ -93,7 +99,7 @@ Estas seções listam os conjuntos de dados do sistema usados pelo [!DNL Journey
 
 * Entrada
 
-  _Conjunto de Dados de Eventos de Atividade de Entrada do AJO_: armazena eventos de atividade de entrada para mensagens de entrada recebidas em [!DNL Journey Optimizer].
+  _Conjunto de dados de eventos de atividade de entrada do AJO_: armazena eventos de atividade de entrada para mensagens de entrada recebidas no [!DNL Journey Optimizer].
 
 >[!NOTE]
 >

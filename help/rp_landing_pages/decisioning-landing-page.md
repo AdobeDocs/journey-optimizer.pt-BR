@@ -6,9 +6,9 @@ description: Recursos de decisão
 redpen-status: CREATED_||_2025-08-11_21-05-27
 exl-id: 07bdd927-059d-4000-a4dd-a9e455b26976
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '173'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Os recursos de decisão no Journey Optimizer permitem que você forneça as melh
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução aos recursos de decisão
 
@@ -30,7 +30,7 @@ Saiba mais sobre as ferramentas e os recursos do Adobe Journey Optimizer que per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Decisão no Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Explore como criar, gerenciar e otimizar a entrega de conteúdo personalizado us
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestão de decisões no Adobe Journey Optimizer
 

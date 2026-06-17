@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
 workflow-type: tm+mt
-source-wordcount: 1272
-ht-degree: 11%
+source-wordcount: 1866
+ht-degree: 7%
 
 ---
 
@@ -165,6 +165,8 @@ Depois de adicionar a ação de email à sua jornada ou campanha, é necessário
    >
    >Se você já tiver criado ou importado conteúdo por meio do Designer de email, esse conteúdo será exibido no HTML.
 
+1. Se necessário, habilite a opção **[!UICONTROL Otimizar o tamanho do HTML]** para reduzir o tamanho do HTML de email durante o processo de publicação. [Saiba mais](#optimize-html-size)
+
 ## Verificar alertas {#check-email-alerts}
 
 À medida que você projeta suas mensagens, os alertas são exibidos na interface (na parte superior direita da tela) quando as principais configurações estão ausentes.
@@ -191,7 +193,7 @@ Dois tipos de alertas podem ocorrer:
 
    * **[!UICONTROL Um link vazio está presente no corpo do email]**: verifique se todos os links no seu email estão corretos. Saiba como gerenciar conteúdo e links em [esta seção](content-from-scratch.md).
 
-   * **[!UICONTROL O tamanho do email excedeu o limite de 100KB]**: para uma entrega ideal, verifique se o tamanho do seu email não excede 100KB. Saiba como editar conteúdo de email [nesta seção](content-from-scratch.md).
+   * **[!UICONTROL O tamanho do email excedeu o limite de 100KB]**: para uma entrega ideal, verifique se o tamanho do seu email não excede 100KB. Para reduzir o tamanho do HTML, use a opção **[!UICONTROL Otimizar tamanho do HTML]**. [Saiba mais](#optimize-html-size)
 
 * **Erros** impedem que você teste ou ative a jornada/campanha enquanto não forem resolvidos, como:
 
@@ -206,6 +208,50 @@ Dois tipos de alertas podem ocorrer:
 >[!CAUTION]
 >
 >Para testar ou ativar a jornada/campanha usando o email, você deve resolver todos os alertas de **erro**.
+
+## Otimizar o tamanho do HTML de email {#optimize-html-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_minification"
+>title="Reduzir tamanho do HTML"
+>abstract="Ative essa opção para compactar seu HTML de email durante a publicação removendo espaços em branco, recuos e comentários não essenciais desnecessários. Isso ajuda a impedir o recorte de emails em clientes como o Gmail, que trunca mensagens com mais de 100 KB. Observe que, ao trabalhar com emails multilíngues, essa opção é ativada por padrão para todas as localidades."
+
+O [!DNL Journey Optimizer] permite compactar a versão do HTML de email durante o processo de publicação removendo espaços em branco, recuos e comentários não essenciais desnecessários. Manter o tamanho pequeno do HTML ajuda a:
+
+* Evite **recorte de email** — alguns clientes, como o Gmail, truncam mensagens com mais de ~100 KB, impedindo que os destinatários visualizem o conteúdo completo.
+* Melhore o **tempo de carregamento do email** na caixa de entrada do destinatário.
+* Melhore a **deliverability** e reduza o uso da largura de banda.
+
+Esta otimização não é aplicada automaticamente. Você deve habilitá-la manualmente na tela [Editar conteúdo](#define-email-content).
+
+![](assets/email-optimize-html-size.png)
+
+>[!IMPORTANT]
+>
+> A redução de tamanho do HTML é aplicada somente no momento da publicação.
+
+A otimização é segura para o cliente de email:
+
+* Preserva comentários condicionais do MSO/Outlook.
+* Isso não altera seu conteúdo, imagens ou vídeos reais.
+
+>[!NOTE]
+>
+>A redução no tamanho do email depende da estrutura original do HTML do email. Se o conteúdo já estiver compacto ou a carga do email for muito grande, a redução pode ser mínima e talvez não impeça totalmente o recorte em todos os casos.
+
+Você pode testar o impacto da otimização de tamanho do HTML antes de publicar ao enviar provas. [Saiba mais](#optimize-html-proof)
+
+### Otimizar o tamanho do HTML em emails multilíngues {#optimize-html-multilingual}
+
+Ao trabalhar com [variantes de email multilíngues](../content-management/multilingual-gs.md), a configuração **[!UICONTROL Otimizar tamanho do HTML]** é rastreada no nível do email, não por localidade.
+
+Portanto, ativar essa configuração em qualquer local a aplica a todos os locais desse email no momento da publicação, mesmo locais em que a caixa de seleção ainda aparece desmarcada na interface do usuário. Não é necessário repetir a ação para cada local.
+
+Para desabilitar a otimização de tamanho do HTML, você deve desmarcar **[!UICONTROL Otimizar tamanho do HTML]** em cada localidade. Deixá-la ativada até mesmo em um local é suficiente para que a otimização seja aplicada em todos os locais.
+
+>[!NOTE]
+>
+>Se você estiver executando um [experimento de conteúdo](../content-management/content-experiment.md), a configuração **[!UICONTROL Otimizar tamanho do HTML]** será gerenciada de forma independente para cada tratamento, pois cada tratamento é considerado uma mensagem separada.
 
 ## Verifique e envie seu email
 
@@ -225,6 +271,34 @@ Quando o email estiver pronto, conclua a configuração da [jornada](../building
 >[!NOTE]
 >
 >Para acompanhar o comportamento de seus destinatários por meio de aberturas e/ou interações de email, verifique se as opções dedicadas na seção **[!UICONTROL Rastreamento]** estão habilitadas na [atividade de email](../building-journeys/journey-action.md) da jornada ou no email [campanha](../campaigns/create-campaign.md).<!--to move?-->
+
+### Testar otimização de tamanho do HTML {#optimize-html-proof}
+
+Se você habilitou a opção [Otimização de tamanho do HTML](#optimize-html-size), é possível avaliar seu impacto antes de publicar ao enviar provas. Siga as etapas abaixo.
+
+1. No Designer de email, clique no ícone Problemas no painel direito. Se o tamanho do email renderizado exceder 100 KB, uma mensagem será exibida avisando que isso pode causar truncamento em alguns clientes de email. <!--Learn more about content checks in [this section](#check-email-alerts).-->
+
+   ![Problemas de otimização de email](assets/email-optimize-size-issues.png)
+
+1. Clique em **[!UICONTROL Simular conteúdo]**.
+
+   <!--![](assets/email-optimize-size-simulate-warning.png)-->
+
+1. Para testar a versão otimizada, clique no botão **[!UICONTROL Enviar prova]** e selecione a opção **[!UICONTROL Otimizar tamanho do HTML]**. Isso enviará uma prova com o tamanho reduzido do HTML aos recipients de teste.
+
+   ![](assets/email-optimize-size-proof-option.png)
+
+   >[!NOTE]
+   >
+   >Essa configuração é independente do editor de email — a prova reflete o que você selecionar na prova, independentemente de a opção estar ativada ou desativada no próprio email.
+
+1. Selecione os destinatários do teste e clique no botão **[!UICONTROL Enviar prova]**. Saiba mais sobre o envio de provas em [esta seção](../content-management/proofs.md).
+1. Depois de enviado, de volta à tela **[!UICONTROL Simular]**, clique no botão **[!UICONTROL Exibir Prova]**.
+1. Clique no ícone Informações ao lado do status da prova. Os detalhes da otimização são exibidos em uma janela pop-up, incluindo o tamanho original do HTML, o tamanho otimizado do HTML e a porcentagem de redução de tamanho.
+
+   ![Detalhes de otimização de email](assets/email-optimize-size-view-proof.png)
+
+   Use essas informações para validar a saída otimizada e confirmar se o email permanece dentro do limite recomendado de 100 KB antes da publicação.
 
 <!--
 ## Define your email content {#email-content}
@@ -251,4 +325,3 @@ Control the rendering of your email, and check personalization settings with tes
 
 You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message. 
 -->
-

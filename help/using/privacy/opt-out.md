@@ -26,14 +26,20 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 1291
-ht-degree: 99%
+source-wordcount: 1320
+ht-degree: 97%
 
 ---
 
 # Gerenciar recusa {#consent}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** gerencie como os destinatários cancelam a inscrição das comunicações e optam pela não personalização, para que você possa honrar suas opções de consentimento e atender às suas obrigações legais e de reputação da marca.
+
+>[!ENDSHADEBOX]
 
 Fornecer aos destinatários a capacidade de cancelar inscrição do recebimento de comunicações de uma marca é um requisito legal, bem como garantir que essa escolha seja respeitada. O não cumprimento desses regulamentos traz riscos legais normativos para sua marca. Os regulamentos ajudam a evitar o envio de comunicações não solicitadas para seus destinatários, o que pode fazer com que eles marquem suas mensagens como spam e prejudiquem sua reputação.
 

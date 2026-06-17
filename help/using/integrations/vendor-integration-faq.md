@@ -11,14 +11,20 @@ keywords: integração, Perguntas frequentes, dados externos, personalização
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 852
+source-wordcount: 877
 ht-degree: 1%
 
 ---
 
 # Perguntas frequentes sobre integrações {#vendor-integration-faq}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** encontre respostas para perguntas frequentes sobre integrações no Adobe Journey Optimizer, abrangendo configuração, autenticação, formatos e canais com suporte, permissões e solução de problemas.
+
+>[!ENDSHADEBOX]
 
 Abaixo estão perguntas frequentes sobre **Integrações** no Adobe Journey Optimizer.
 

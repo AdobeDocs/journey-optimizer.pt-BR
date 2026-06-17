@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 829
-ht-degree: 79%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ Pressione **Enter** para acessar todos os resultados e filtrar por objeto comerc
 
 ## Listas de filtros {#filter-lists}
 
-Na maioria das listas, use a barra de pesquisa para localizar itens específicos e definir critérios de filtragem. Também é possível classificar qualquer lista clicando em um cabeçalho de coluna. Na exibição de pastas de Campanhas, também há suporte para a classificação por **[!UICONTROL Prioridade]** e **[!UICONTROL Configuração de canal]**.
+Na maioria das listas, use a barra de pesquisa para localizar itens específicos e definir critérios de filtragem. Você pode classificar itens na lista clicando em qualquer cabeçalho de coluna. Na exibição de pastas de Campanhas, também é possível classificar por **[!UICONTROL Prioridade]** e **[!UICONTROL Configuração de canal]**.
 
 Os filtros podem ser acessados com um clique no ícone de filtro na parte superior esquerda de uma lista. O menu de filtros permite filtrar os elementos exibidos de acordo com diferentes critérios: é possível exibir apenas elementos de um determinado tipo ou status, aqueles que você criou ou os modificados nos últimos 30 dias. As opções diferem dependendo do contexto.
 
@@ -71,14 +71,14 @@ Nas listas, é possível executar ações básicas em cada elemento. Por exemplo
 
 Nas listas **Campanhas**, **Fragmentos** e **Modelos**, você pode selecionar vários itens de uma vez usando as caixas de seleção e aplicar operações a todos eles a partir de uma barra de ação em massa que aparece na parte inferior da tela.
 
-As seguintes operações estão disponíveis:
+As operações a seguir estão disponíveis:
 
-* **[!UICONTROL Adicionar ao pacote]** - Exportar os itens selecionados para outra sandbox. [Saiba como exportar objetos →](../configuration/copy-objects-to-sandbox.md)
-* **[!UICONTROL Mover para a pasta]** - Mover os itens selecionados para uma pasta.
-* **[!UICONTROL Editar marcas]** - Edita as marcas atribuídas aos itens selecionados. [Saiba como usar tags →](#add-tags)
-* **[!UICONTROL Gerenciar acesso]** - Aplique rótulos de acesso aos itens selecionados. [Saiba mais sobre o controle de acesso no nível do objeto →](../administration/object-based-access.md)
-* **[!UICONTROL Arquivar]** - Arquiva os itens selecionados. Disponível para Fragmentos e modelos.
-* **[!UICONTROL Excluir]** - Excluir permanentemente os itens selecionados. Disponível somente para Campanhas.
+* **[!UICONTROL Adicionar ao pacote]**: exportar os itens selecionados para outra sandbox. [Saiba como exportar objetos →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Mover para a pasta]**: mover os itens selecionados para uma pasta.
+* **[!UICONTROL Editar tags]**: editar as tags atribuídas aos itens selecionados. [Saiba como usar tags →](#add-tags)
+* **[!UICONTROL Gerenciar acesso]**: aplicar rótulos de acesso aos itens selecionados. [Saiba mais sobre o controle de acesso no nível do objeto →](../administration/object-based-access.md)
+* **[!UICONTROL Arquivar]**: arquivar itens selecionados. Disponível para Fragmentos e Modelos.
+* **[!UICONTROL Excluir]**: excluir permanentemente os itens selecionados. Disponível somente para Campanhas.
 
 ![](assets/bulk-actions-fragments.png)
 
@@ -102,7 +102,7 @@ O campo **[!UICONTROL Tags]** permite definir tags para o seu objeto. Tags estã
 * [Campanhas](../campaigns/create-campaign.md)
 * [Itens de decisão](../experience-decisioning/items.md)
 * [Fragmentos](../content-management/fragments.md)
-* [Jornada fragmentos](../building-journeys/journey-fragments.md)
+* [Fragmentos de jornada](../building-journeys/journey-fragments.md)
 * [Jornadas](../building-journeys/journey-properties.md)
 * [Páginas de destino](../landing-pages/create-lp.md)
 * [Listas de assinaturas](../landing-pages/subscription-list.md)

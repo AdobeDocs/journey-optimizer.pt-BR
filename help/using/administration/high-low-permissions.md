@@ -23,15 +23,20 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 1516
+source-wordcount: 1545
 ht-degree: 0%
 
 ---
 
 # Níveis de permissão {#high-low-permissions}
 
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Entenda como as permissões de alto nível agrupam as permissões de baixo nível subjacentes para cada recurso, para que você possa conceder às funções exatamente o acesso ao recurso de que os usuários precisam.
+
+>[!ENDSHADEBOX]
 
 Cada função é composta de permissões que permitem aos usuários acessar os diferentes recursos.
 

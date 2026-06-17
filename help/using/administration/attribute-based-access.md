@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 1074
+source-wordcount: 1112
 ht-degree: 4%
 
 ---
 
 # Controle de acesso baseado em atributos {#attribute-based-access}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** use o controle de acesso baseado em atributos no Adobe Journey Optimizer para restringir campos de esquema confidenciais, atributos de perfil e públicos-alvo a funções autorizadas, para que você possa proteger dados pessoais e impedir que usuários não autorizados ajam neles.
+
+>[!ENDSHADEBOX]
 
 O recurso de controle de acesso baseado em atributos permite definir autorizações para gerenciar o acesso aos dados de equipes ou grupos de usuários específicos. Seu objetivo é proteger ativos digitais sensíveis de usuários não autorizados, fornecendo maior proteção aos dados pessoais.
 

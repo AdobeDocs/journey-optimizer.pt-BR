@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 1523
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -116,7 +116,7 @@ Ela permite incluir um URL para cancelar assinatura de um clique no cabeçalho d
 Na seção **[!UICONTROL Parâmetros de cabeçalho]**, insira os valores **De**, **Responder para** e **Erro** para o tipo de emails enviados usando essa configuração. [Saiba mais](header-parameters.md)
 
 
-Opcionalmente, quando a parte que transmite deve ser diferente do autor **De**, defina outro nome e email de **Remetente** para ser adicionado ao cabeçalho do email. [Saiba mais](header-parameters.md#sender-header)
+Opcionalmente, quando a parte que transmite deve ser diferente do autor no campo **De**, defina outro nome e email de **Remetente** para ser adicionado ao cabeçalho do email. [Saiba mais](header-parameters.md#sender-header)
 
 
 ## Email de cópia (CCO) {#bcc-email}

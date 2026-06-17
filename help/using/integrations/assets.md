@@ -25,14 +25,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: 1277
 ht-degree: 8%
 
 ---
 
 # Criar e gerenciar ativos com [!DNL Experience Manager Assets]{#experience-manager-assets}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar o Experience Manager Assets no Adobe Journey Optimizer para armazenar, gerenciar e inserir ativos digitais no seu conteúdo de email.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

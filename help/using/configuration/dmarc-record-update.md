@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 493
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
@@ -58,13 +58,13 @@ Consequentemente, a Adobe recomenda que você se certifique de ter o registro DM
 
 * Se você tiver [delegado por completo](delegate-subdomain.md#set-up-subdomain) seus subdomínios de envio para a Adobe, siga uma das opções abaixo:
 
-   * Configure o DMARC no domínio pai dos subdomínios delegados **na solução de hospedagem**.
+   * Configure o DMARC no domínio principal dos subdomínios delegados **na sua solução de hospedagem**.
 ou
    * Configure o DMARC nos subdomínios delegados **na interface de configuração do[!DNL Journey Optimizer]** – sem trabalho extra na solução de hospedagem. [Saiba como](dmarc-record.md#implement-dmarc)
 
 * Se você configurou os subdomínios de envio com o [CNAME](delegate-subdomain.md#cname-subdomain-setup), siga uma das opções abaixo:
 
-   * Configure o DMARC nos subdomínios ou no domínio pai dos subdomínios **na solução de hospedagem**.
+   * Configure o DMARC nos subdomínios ou no domínio principal dos subdomínios **na sua solução de hospedagem**.
 ou
    * Configure o DMARC nos subdomínios delegados **na interface de configuração do[!DNL Journey Optimizer]**. [Saiba como](dmarc-record.md#implement-dmarc)
 

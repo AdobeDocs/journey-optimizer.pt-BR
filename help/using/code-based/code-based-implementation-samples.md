@@ -22,14 +22,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1114
+source-wordcount: 1138
 ht-degree: 7%
 
 ---
 
 # Amostras de métodos de implementação baseados em código {#implementation-samples}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Explore amostras de implementação híbrida, do lado do cliente e do lado do servidor para buscar, exibir e rastrear o conteúdo de experiência baseada em código em seu aplicativo.
+
+>[!ENDSHADEBOX]
 
 A experiência baseada em código é compatível com qualquer tipo de implementação de cliente. Nesta página, você pode encontrar amostras para cada método de implementação:
 

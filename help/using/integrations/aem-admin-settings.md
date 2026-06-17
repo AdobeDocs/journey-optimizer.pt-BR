@@ -13,14 +13,20 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7cf2235a14f9ebb49fac02161743f75fee141504
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: 467
 ht-degree: 0%
 
 ---
 
 # Configurar o acesso ao repositório do Adobe Experience Manager {#aem-admin-settings}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como os administradores conectam uma sandbox a um repositório do Adobe Experience Manager — definindo acesso somente de autor ou de publicação, domínios personalizados e autenticação — para que os profissionais de marketing possam usar Fragmentos de conteúdo do AEM em suas jornadas e campanhas.
+
+>[!ENDSHADEBOX]
 
 O Adobe Journey Optimizer integra-se ao **[!DNL Adobe Experience Manager as a Cloud Service]** para que você possa usar **Fragmentos de conteúdo** em Jornadas e Campanhas. Por padrão, os **Fragmentos de conteúdo** são lidos do repositório de publicação do Adobe Experience Manager. Os administradores podem alternar para somente autor ou ajustar o acesso de publicação no menu **[!UICONTROL Integração do AEM]**.
 

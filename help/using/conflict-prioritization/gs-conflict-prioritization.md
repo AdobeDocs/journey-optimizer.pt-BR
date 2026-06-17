@@ -21,14 +21,20 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 869
-ht-degree: 98%
+source-wordcount: 896
+ht-degree: 96%
 
 ---
 
 # Gerenciamento de conflitos e priorização {#conflict-prioritization}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** descubra como a detecção de conflitos, as pontuações de prioridade e os conjuntos de regras funcionam juntos para que você possa evitar comunicações sobrepostas e controlar a frequência com que os clientes recebem mensagens.
+
+>[!ENDSHADEBOX]
 
 No Journey Optimizer, gerenciar o volume e o momento das campanhas e jornadas é essencial para evitar sobrecarregar os clientes com muitas interações. Ferramentas de gestão de conflitos e priorização ajudam você a fornecer comunicações ponderadas e oportunas, evitando a fadiga do cliente e garantindo que as mensagens certas cheguem ao seu público-alvo. Ao usar detecção de conflitos, pontuações de prioridade e conjuntos de regras, você pode otimizar campanhas e jornadas para evitar sobreposições e equilibrar a frequência entre os canais.
 
@@ -89,4 +95,4 @@ Os conjuntos de regras permitem que você **agrupe várias regras** e as aplique
 * **[Limitação de frequência por canal](channel-capping.md)**: defina limites de frequência no nível do canal para evitar o excesso de mensagens.
 * **[Definir horário de silêncio](quiet-hours.md)**: defina exclusões baseadas em tempo para entrega de mensagens.
 * **[Tutoriais de gestão de conflitos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}**: tutoriais em vídeo passo a passo.
-* **[Casos de uso do Journey Optimizer](../building-journeys/jo-use-cases.md)** - Procure padrões práticos, incluindo limite de frequência e lógica de supressão de jornada.
+* **[Casos de uso do Journey Optimizer](../building-journeys/jo-use-cases.md)**: procure padrões práticos, incluindo limite de frequência e lógica de supressão de jornada.

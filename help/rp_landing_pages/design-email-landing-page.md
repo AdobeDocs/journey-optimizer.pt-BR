@@ -6,9 +6,9 @@ description: Projetar conteúdo de email
 redpen-status: CREATED_||_2025-08-11_20-33-11
 exl-id: 21ba6677-f158-4d9d-8b01-304c4d3841ee
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '233'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 O recurso Projetar conteúdo de email no Adobe Journey Optimizer permite criar emails visualmente impressionantes, personalizados e responsivos que cativam o público-alvo. Se estiver começando do zero, importando modelos HTML ou personalizando estilos, este guia orientará você em todas as etapas: desde o uso de conteúdo dinâmico para experiências personalizadas até à otimização da acessibilidade com metadados e CSS. Explore dicas práticas, componentes de design reutilizáveis e ferramentas como o Adobe Stock e o Experience Manager Assets Essentials para simplificar o fluxo de trabalho. Com instruções claras e práticas recomendadas, você terá confiança para criar campanhas impactantes que repercutirão em plataformas e dispositivos.
 
-## Projetar o conteúdo de email
+## Criar conteúdo de email
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao design de email
 
@@ -30,7 +30,7 @@ Saiba mais sobre as noções básicas de design de email no Adobe Journey Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Criar e otimizar conteúdo de email
 
@@ -40,7 +40,7 @@ Explore métodos para criar conteúdo de email, importar HTML, codificar emails,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Projetar conteúdo no Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Descubra ferramentas e práticas recomendadas para usar componentes, fragmentos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Editar estilo: personalizar designs de email
 

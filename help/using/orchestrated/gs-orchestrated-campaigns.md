@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 940
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -59,8 +59,8 @@ A Orquestração de campanhas é construída em torno de quatro pilares principa
 <tr style="border: 0;">
 <td><img alt="Públicos-alvo sob demanda" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>Públicos-alvo sob demanda</b><br/>Consulte instantaneamente os conjuntos de dados para criar segmentos de público-alvo usando qualquer combinação de tipos de dados e dimensões.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentação e envio de várias entidades" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentação e envio de várias entidades</b><br/>Vá além das campanhas com base em pessoas; use entidades como catálogos de produtos, locais de lojas ou dados de serviço para direcionar com precisão.<br/><br/>
-Suportar envio de vários níveis, em que uma mensagem é enviada por Perfil e por entidade secundária associada. Essas entidades secundárias podem incluir endereços de contato, reservas, assinaturas, contratos ou outros dados vinculados. Por exemplo, isso permite que campanhas sejam enviadas para todos os endereços conhecidos de um Perfil ou para cada reserva associada a esse Perfil.</td></tr>
+<td><img alt="Segmentação e envio de várias entidades" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentação e envio de várias entidades</b><br/>Vá além das campanhas com base em pessoas. Use entidades como catálogos de produtos, locais de lojas ou dados de serviço para direcionar com precisão.<br/><br/>
+Ofereça suporte ao envio de vários níveis, em que uma mensagem é enviada por Perfil e por entidade secundária associada. Essas entidades secundárias podem incluir endereços de contato, reservas, assinaturas, contratos ou outros dados vinculados. Por exemplo, permite que campanhas sejam enviadas para todos os endereços conhecidos de um Perfil ou para cada reserva associada a esse Perfil.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Visibilidade e precisão de pré-envio" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Visibilidade e precisão de pré-envio</b><br/>Obtenha contagens exatas de segmentação e o escopo completo da campanha antes do lançamento, garantindo precisão e confiança.</td></tr>
 <tr style="border: 0;">
@@ -156,6 +156,6 @@ Agora que você entende o que são campanhas orquestradas, é hora de se aprofun
 * **[Medidas de proteção e limitações](guardrails.md)**: revise medidas de proteção, limitações e práticas recomendadas importantes para garantir o desempenho ideal da campanha.
 * **[Perguntas frequentes](orchestrated-campaigns-faq.md)**: encontre respostas para perguntas comuns sobre recursos, funcionalidades e casos de uso de campanhas orquestradas.
 * **[Tutoriais da campanha orquestrada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}**: explore tutoriais em vídeo passo a passo que abrangem recursos e práticas recomendadas.
-* **[Envolva os clientes navegando pela atividade](engage-customers-uc.md)** - Reenvolva os perfis que navegaram, mas não compraram, usando uma campanha orquestrada em várias etapas.
-* **[Notifique os usuários sobre a disponibilidade do produto](product-availability-uc.md)** - Alerte os clientes quando um produto em que eles demonstraram interesse voltar ao estoque.
-* **[Enviar atualizações do item da lista de desejos](wishlist-uc.md)** - Acionar mensagens personalizadas quando os itens da lista de desejos forem colocados à venda ou estiverem disponíveis.
+* **[Engaje os clientes por meio da atividade de navegação](engage-customers-uc.md)**: reengaje perfis que navegaram, mas não compraram, usando uma campanha orquestrada em várias etapas.
+* **[Notifique os usuários sobre a disponibilidade do produto](product-availability-uc.md)**: alerte os clientes quando um produto em que eles demonstraram interesse voltar ao estoque.
+* **[Enviar atualizações de itens da lista de desejos](wishlist-uc.md)**: acione mensagens personalizadas quando os itens da lista de desejos entrarem em promoção ou ficarem disponíveis.

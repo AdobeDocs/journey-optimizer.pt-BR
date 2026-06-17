@@ -16,14 +16,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 615
-ht-degree: 35%
+source-wordcount: 643
+ht-degree: 34%
 
 ---
 
 # Atribuir pontuações de prioridade {#priority}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** atribua pontuações de prioridade a jornadas, campanhas e ações de entrada para que você possa controlar qual comunicação tem prioridade quando um perfil se qualifica para mais de uma.
+
+>[!ENDSHADEBOX]
 
 O Journey Optimizer permite atribuir uma pontuação de prioridade a uma jornada, campanha ou ação de canal de entrada na atividade de jornada **[!UICONTROL Ação]**.
 

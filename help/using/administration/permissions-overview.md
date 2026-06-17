@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 453
-ht-degree: 9%
+source-wordcount: 416
+ht-degree: 10%
 
 ---
 
 # Introdução ao controle de acesso {#permissions-overview}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** familiarize-se com os conceitos principais de controle de acesso do Journey Optimizer, incluindo funções, permissões, sandboxes e controle de acesso baseado em objetos e atributos, para que possa planejar como conceder aos usuários o acesso certo.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] permite definir e gerenciar as permissões atribuídas a usuários diferentes. As permissões são um conjunto de direitos e restrições que autorizam ou negam acesso aos recursos e funcionalidades do produto.
 
@@ -55,7 +61,7 @@ Para configurar o controle de acesso para o Journey Optimizer, você deve ter pr
 O gerenciamento de usuários no [!DNL Journey Optimizer] é baseado nestes conceitos-chave:
 
 * **[!UICONTROL Funções]**: as funções se referem a uma coleção de usuários que compartilham as mesmas permissões e sandboxes. Essas funções permitem gerenciar facilmente o acesso e as permissões para diferentes grupos de usuários em sua organização. Uma função do vem com um conjunto de direitos unitários (permissões) que permitem que os usuários acessem determinadas funcionalidades ou objetos na interface.
-Com [!DNL Journey Optimizer], você pode escolher entre várias **[!UICONTROL Funções]** preexistentes, cada uma com níveis variados de permissões, para atribuir aos seus usuários. Saiba mais sobre as **funções internas** disponíveis em [esta página](ootb-product-profiles.md).
+Com [!DNL Journey Optimizer], você pode escolher entre várias **[!UICONTROL Funções]** preexistentes, cada uma com níveis variados de permissões, para atribuir aos seus usuários. Saiba mais sobre as **Funções internas** disponíveis em [esta página](ootb-product-profiles.md).
 
 * **[!UICONTROL Permissões]**: as permissões são direitos unitários que permitem definir as autorizações atribuídas a **[!UICONTROL Funções]**. Cada permissão é coletada em recursos, por exemplo, Jornada ou Ofertas, que representam as diferentes funcionalidades ou objetos em [!DNL Journey Optimizer]. Saiba mais na seção [Níveis de permissão](high-low-permissions.md).
 

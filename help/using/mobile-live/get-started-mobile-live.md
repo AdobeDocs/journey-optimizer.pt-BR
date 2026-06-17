@@ -24,15 +24,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 94%
+source-wordcount: 449
+ht-degree: 89%
 
 ---
 
 # Introdução às Atividades em tempo real {#get-started-mobile-live}
 
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Descubra como as atividades Live fornecem atualizações persistentes e em tempo real na Tela de Bloqueio do iPhone e na Dynamic Island para que você possa manter os usuários envolvidos durante eventos em andamento e planejar a configuração e as campanhas acionadas por API necessárias para enviá-las com o Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 As atividades em tempo real são elementos de interface persistentes e visíveis exibidos na tela de bloqueio do dispositivo. Elas permitem que seu aplicativo apresente informações atualizadas em tempo real, mantendo os usuários informados durante um evento contínuo, sem exigir que eles abram o aplicativo ou recebam notificações por push repetidas.
 
@@ -62,8 +67,8 @@ Diferentemente das notificações por push tradicionais, as atividades em tempo 
 
 Com o Adobe Journey Optimizer, você pode **iniciar**, **atualizar** e **encerrar** atividades em tempo real de forma remota e programática por meio de campanhas acionadas por API, oferecendo suporte a casos de uso individuais e baseados em público-alvo em grande escala.
 
-As atividades online podem **apenas** ser iniciadas por meio de campanhas **acionadas por API**, permitindo que você forneça cargas personalizadas e execute toda a personalização por meio de sua própria carga.
-O tipo de campanha **acionada por API** apropriado deve ser selecionado com base no caso de uso de atividade online pretendido:
+As atividades em tempo real podem ser iniciadas **apenas** por meio de campanhas **acionadas por API**, permitindo o fornecimento de conteúdos personalizados e a realização de toda a personalização através do seu próprio conteúdo.
+Deve ser selecionado o tipo adequado de campanha **acionada por API** com base no caso de uso da atividade em tempo real pretendida:
 
 * Selecione **Marketing acionado por API** para casos de uso de transmissão: atualizações baseadas em público-alvo enviadas em grande escala:
 

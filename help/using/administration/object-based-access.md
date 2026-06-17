@@ -12,14 +12,20 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 feature_v2:
   - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 514
-ht-degree: 20%
+source-wordcount: 548
+ht-degree: 19%
 
 ---
 
 # Controle de acesso no nível do objeto {#object-level-access}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** use o controle de acesso em nível de objeto para restringir objetos individuais, como jornadas, campanhas e ofertas com rótulos de acesso, para que você possa manter o conteúdo confidencial e os dados pessoais limitados aos usuários autorizados.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"

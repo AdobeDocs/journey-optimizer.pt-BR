@@ -15,9 +15,9 @@ subfeature_v2:
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 9272
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -1084,7 +1084,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Campanhas**
 
-   * **Várias ações de entrada em campanhas** - Para simplificar a orquestração de campanhas, agora é possível definir várias ações de entrada em uma única campanha. Esse recurso permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, Cartões de conteúdo ou ações da Web para locais diferentes ao mesmo tempo, cada ação contendo um conteúdo específico.
+   * **Várias ações de entrada em campanhas**: para simplificar a orquestração da campanha, agora é possível definir várias ações de entrada em uma única campanha. Esse recurso permite fornecer várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da web para locais diferentes ao mesmo tempo, e cada ação com um conteúdo específico.
      [Leia mais](../campaigns/campaign-action.md#multi-action)
 
    * **Reorganização do inventário de campanhas**: campanhas programadas e acionadas por API agora são divididas em guias separadas no inventário de campanhas para facilitar a navegação e o gerenciamento.
@@ -1958,7 +1958,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Os ativos de mídia dinâmica agora estão diretamente disponíveis e acessíveis no Journey Optimizer. Essa integração permite:
+<p>Os ativos do Dynamic Media agora estão diretamente disponíveis e acessíveis no Journey Optimizer. Esta integração permite:
 <ul>
 <li>Gerenciar ativos centralmente com atualizações em tempo real</li>
 <li>Modificar instantaneamente suas configurações de ativos, como largura e altura</li>

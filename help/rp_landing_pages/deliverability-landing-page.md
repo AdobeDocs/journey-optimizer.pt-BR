@@ -6,9 +6,9 @@ description: Capacidade de entrega de email
 redpen-status: CREATED_||_2025-08-11_20-34-41
 exl-id: 1657152e-4a93-4664-a56f-3ea7f9e69098
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '191'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 A capacidade de entrega de email tem a ver com garantir que seus emails cheguem à caixa de entrada do seu público-alvo em vez de serem perdidos em pastas de spam ou totalmente bloqueados, um fator essencial para campanhas bem-sucedidas. No Adobe Journey Optimizer, você aprenderá a melhorar a capacidade de entrega gerenciando listas de supressão para excluir endereços problemáticos, adaptando o conteúdo do email para evitar filtros de spam e criando uma forte reputação do remetente por meio de práticas como o aquecimento de IP. Você também explorará ferramentas avançadas como autenticação do DMARC e retransmissão SMTP para maior segurança e conformidade. Cada tópico se conecta a estratégias práticas que o capacitam a proteger seu desempenho de email e, ao mesmo tempo, aumentar a confiança com os destinatários.
 
-## Recursos de entrega de email
+## Recursos de capacidade de entrega de email
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução à capacidade de entrega de email
 
@@ -30,7 +30,7 @@ Saiba mais sobre os conceitos, as práticas recomendadas e as ferramentas para o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Noções básicas sobre listas de supressão
 
@@ -40,7 +40,7 @@ Descubra como as listas de supressão protegem a reputação do remetente e melh
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Conformidade com o novo requisito DMARC
 

@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 1005
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -145,7 +145,7 @@ As diretrizes gerais para usar o Assistente de IA do Adobe Journey Optimizer na 
 
 ### Qualidade do conteúdo, prompts e feedback
 
-* A qualidade do conteúdo gerado é fortemente afetada pelo objetivo/prompt de marketing definido por você. Use um prompt bem definido para que o modelo GenAI seja interpretado com precisão. 
+* A qualidade do conteúdo gerado é fortemente influenciada pelo objetivo ou prompt de marketing definido. Use um prompt bem definido para que seja interpretado de forma precisa pelo modelo de IA generativa. 
 * O conteúdo de GenAI nem sempre é preciso: compartilhe seu feedback para que a equipe de engenheiros(as) possa refinar os modelos.
 * Relate resultados problemáticos usando os ícones de “polegar para cima”, “polegar para baixo” ou o sinalizador ao selecionar variantes.
 

@@ -12,14 +12,20 @@ subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 257
+source-wordcount: 285
 ht-degree: 4%
 
 ---
 
 # Configurar o suporte a cartões de conteúdo no SDK móvel {#content-card-lp}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** integre cartões de conteúdo ao seu aplicativo móvel usando o Adobe Experience Platform Mobile SDK para que você possa buscá-los, renderizá-los e rastreá-los para obter relatórios precisos.
+
+>[!ENDSHADEBOX]
 
 Os cartões de conteúdo podem ser obtidos do Adobe Journey Optimizer e renderizados em seu aplicativo móvel usando os SDKs móveis da Adobe Experience Platform, que potencializam o engajamento completo em seus aplicativos móveis. O Messaging SDK fornece APIs simples e fáceis de usar para recuperar os cartões de conteúdo criados no Adobe Journey Optimizer e cria visualizações nativas para dispositivos móveis para esses cartões que podem ser prontamente consumidos pelo seu aplicativo ou personalizados para corresponder ao tema do seu aplicativo. Ele também rastreia automaticamente todas as interações do usuário do aplicativo com os cartões de conteúdo exibidos para garantir relatórios precisos para as campanhas no Journey Optimizer.
 

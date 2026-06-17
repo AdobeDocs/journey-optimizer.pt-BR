@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 347
 ht-degree: 5%
 
 ---
 
 # Etapas adicionais para enviar eventos {#additional-steps-to-send-events}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** configure seu sistema de dados para enviar eventos para as APIs de assimilação de streaming, de modo que os eventos configurados realmente cheguem à Journey Optimizer e acionem suas jornadas.
+
+>[!ENDSHADEBOX]
 
 Para configurar eventos a serem enviados para **[!UICONTROL APIs de assimilação de streaming]** e para serem usados em [!DNL Journey Optimizer], é necessário seguir estas etapas:
 

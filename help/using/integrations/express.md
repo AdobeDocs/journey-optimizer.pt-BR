@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 584
-ht-degree: 18%
+source-wordcount: 615
+ht-degree: 17%
 
 ---
 
 # Editar ativos com o [!DNL Adobe Express]{#express}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como editar seus ativos com a integração do Adobe Express no Journey Optimizer para redimensionar imagens, remover planos de fundo, recortar visuais e converter ativos para JPEG ou PNG.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_express_menu"

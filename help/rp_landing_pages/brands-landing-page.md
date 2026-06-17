@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Marcas
-description: Saiba como criar, gerenciar e personalizar as diretrizes da marca no Journey Optimizer para garantir conteúdo consistente e sobre a marca em todas as suas campanhas.
+description: Saiba como criar, gerenciar e personalizar as diretrizes da marca no Journey Optimizer para garantir conteúdo consistente com a marca em todas as suas campanhas.
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
 source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
-workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 70%
+workflow-type: ht
+source-wordcount: '256'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ No Adobe Journey Optimizer, o recurso de “Marcas” permite definir e manter a
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar e gerenciar as diretrizes da sua marca
 
@@ -30,7 +30,7 @@ Saiba como definir, personalizar e manter as diretrizes da marca para uma identi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Avaliar a sua pontuação de alinhamento à marca
 
@@ -40,23 +40,23 @@ Entenda e utilize o recurso de alinhamento à marca para validar a adesão do co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Personalize suas marcas
 
-Saiba como definir as preferências de marca padrão e adaptar as diretrizes de marca para uma integração perfeita com o conteúdo gerado por IA.
+Saiba como definir as preferências padrão da sua marca e adaptar as diretrizes da marca para uma integração perfeita com o conteúdo gerado por IA.
 
 [Personalize suas marcas](../using/content-management/brands-personalize.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Criar e gerenciar modelos geradores
+Criar e gerenciar modelos generativos
 
-Descubra como criar e gerenciar modelos de IA gerativa personalizados treinados nas diretrizes da sua marca para gerar conteúdo consistente.
+Saiba como criar e gerenciar modelos personalizados de IA generativa, treinados com as diretrizes da sua marca para gerar conteúdo consistente.
 
-[Gerenciar modelos gerativos](../using/content-management/generative-models.md)
+[Gerenciar modelos generativos](../using/content-management/generative-models.md)
 :::
 
 ::::

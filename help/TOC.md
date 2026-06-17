@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dccfb51bd565718dce4e3b926c22af2067d7c9f1
+source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
 workflow-type: tm+mt
-source-wordcount: '3355'
-ht-degree: 95%
+source-wordcount: '3356'
+ht-degree: 99%
 
 ---
 
@@ -32,15 +32,16 @@ ht-degree: 95%
    + {hide-from-toc}[Tela da jornada aprimorada](using/rn/new-canvas.md)
 + Introdução {#get-started}
    + [Introdução](/help/rp_landing_pages/get-started-landing-page.md)
+   + {hide-from-toc}[Hub de integração](using/start/onboarding-hub.md)
    + Noções básicas {#essentials}
       + [O que é o Journey Optimizer?](using/start/get-started.md)
       + [Entenda como funciona](using/start/understanding-ajo.md)
       + [IA e recursos inteligentes](using/start/ai-features.md)
       + [Terminologia principal](using/start/terminology.md)
+      + {hide-from-toc}[Qual recurso para este trabalho?](using/start/ajo-use-case-guide.md)
       + [Medidas de proteção e limitações](using/start/guardrails.md)
-      + {hide-from-toc}[Recursos por pacote](using/start/ajo-packages.md)
-      + {hide-from-toc}[Pacotes e recursos (v2)](using/start/ajo-packages-v2.md)
-      + {hide-from-toc}[Pacotes e recursos (v3)](using/start/ajo-packages-v3.md)
+      + {hide-from-toc}[Pacotes e recursos](using/start/ajo-packages.md)
+      + {hide-from-toc}[Disponibilidade de recursos](using/start/ajo-features-availability.md)
    + Introdução por função {#by-role}
       + [Funções e responsabilidades](using/start/quick-start.md)
       + [Introdução para administradores](using/start/path/administrator.md)
@@ -67,7 +68,7 @@ ht-degree: 95%
       + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
       + Simulação {#simulate-journey}
          + [Introdução à simulação de jornada](using/building-journeys/simulate-journey-gs.md)
-         + [Simular sua jornada](using/building-journeys/simulate-journey.md)
+         + [Simule sua jornada](using/building-journeys/simulate-journey.md)
       + [Teste a jornada](using/building-journeys/testing-the-journey.md)
       + [Teste de simulação de jornada](using/building-journeys/journey-dry-run.md)
       + [Publicar a jornada](using/building-journeys/publish-journey.md)
@@ -96,7 +97,7 @@ ht-degree: 95%
          + [Condições](using/building-journeys/conditions.md)
       + [Público-alvo de leitura](using/building-journeys/read-audience.md)
       + [Aguardar](using/building-journeys/wait-activity.md)
-      + [Jornada fragmentos](using/building-journeys/journey-fragments.md)
+      + [Fragmentos de jornada](using/building-journeys/journey-fragments.md)
       + [Decisão de conteúdo](using/building-journeys/content-decision.md)
       + [Pesquisa de conjunto de dados](using/building-journeys/dataset-lookup.md)
       + [Ação](using/building-journeys/journey-action.md)
@@ -240,7 +241,7 @@ ht-degree: 95%
       + [Trabalhar com conjuntos de regras](using/conflict-prioritization/rule-sets.md)
       + [Gerenciar limites de jornada e arbitragem](using/conflict-prioritization/journey-capping.md)
       + [Definir limite de frequência por canal e tipo](using/conflict-prioritization/channel-capping.md)
-      + [Definir períodos de silêncio](using/conflict-prioritization/quiet-hours.md)
+      + [Definir horário de silêncio](using/conflict-prioritization/quiet-hours.md)
    + Arbitragem de jornada {#journey-arbitration}
       + [Usar fórmulas para classificar jornadas](using/conflict-prioritization/journey-ranking-formulas.md)
       + [Usar modelos de IA para classificar jornadas](using/conflict-prioritization/journey-ai-models.md)
@@ -285,11 +286,11 @@ ht-degree: 95%
       + [Introdução a emails](using/email/get-started-email.md)
       + [Criar um email](using/email/create-email.md)
       + Projetar conteúdo de email {#design-email}
-         + {hide-from-toc}[Projetar conteúdo de email](/help/rp_landing_pages/design-email-landing-page.md)
+         + {hide-from-toc}[Criar conteúdo de email](/help/rp_landing_pages/design-email-landing-page.md)
          + {hide-from-toc}[Projetar conteúdo da mensagem](using/start/message-content-design.md)
          + [Introdução ao design de email](using/email/get-started-email-design.md)
          + Começar a criar conteúdo {#start-creating-content}
-            + {hide-from-toc}[Começar a criar conteúdo](/help/rp_landing_pages/start-creating-content-landing-page.md)
+            + {hide-from-toc}[Comece a criar conteúdo](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [Crie um conteúdo do zero](using/email/content-from-scratch.md)
             + [Importar seu conteúdo](using/email/existing-content.md)
             + [Programar seu próprio conteúdo](using/email/code-content.md)
@@ -297,7 +298,7 @@ ht-degree: 95%
             + [Utilizar temas de email](using/email/apply-email-themes.md)
             + [Anexar arquivos PDF a emails](using/email/pdf-attachments.md)
          + Criar conteúdo {#add-content}
-            + {hide-from-toc}[Projetar o conteúdo](/help/rp_landing_pages/add-content-landing-page.md)
+            + {hide-from-toc}[Crie seu conteúdo](/help/rp_landing_pages/add-content-landing-page.md)
             + [Usar componentes de conteúdo](using/email/content-components.md)
             + [Aproveitar fragmentos visuais](using/email/use-visual-fragments.md)
             + [Adicionar links e rastrear mensagens](using/email/message-tracking.md)
@@ -347,11 +348,11 @@ ht-degree: 95%
          + [Configurar canal de notificação por push na web](using/push/push-configuration-web.md)
          + [Fluxo de trabalho de início rápido de integração para dispositivos móveis](using/push/mobile-onboarding-wf.md)
    + Canal de SMS/MMS/RCS {#mobile}
-      + [Introdução a mensagens móveis](using/mobile/get-started-mobile.md)
+      + [Introdução a mensagens para dispositivos móveis](using/mobile/get-started-mobile.md)
       + [Criar uma mensagem para dispositivo móvel](using/mobile/create-mobile-message.md)
       + [Criar uma mensagem para dispositivo móvel](using/mobile/design-mobile.md)
-      + [Verificar e enviar mensagens móveis](using/mobile/send-mobile-message.md)
-      + [Gerenciar opção de não participação de mensagem móvel](using/mobile/mobile-opt-out.md)
+      + [Verificação e envio de mensagens para dispositivos móveis](using/mobile/send-mobile-message.md)
+      + [Gerenciar recusas de mensagens para dispositivos móveis](using/mobile/mobile-opt-out.md)
       + [Configurar subdomínios de SMS](using/mobile/mobile-subdomains.md)
       + [Práticas recomendadas para otimização de custos de SMS](using/mobile/mobile-cost-optimization.md)
       + Configurar canal móvel {#configure-mobile}
@@ -361,7 +362,7 @@ ht-degree: 95%
          + [Configurar provedor Twilio](using/mobile/mobile-configuration-twilio.md)
          + [Configurar um provedor personalizado](using/mobile/mobile-configuration-custom.md)
          + [Criar webhook](using/mobile/mobile-webhook.md)
-         + [Criar uma configuração móvel](using/mobile/mobile-configuration-surface.md)
+         + [Criar uma configuração para dispositivos móveis](using/mobile/mobile-configuration-surface.md)
          + [Usar um conjunto de dados personalizado para palavras-chave de entrada](using/mobile/custom-dataset-inbound-keywords.md)
    + Correspondência direta {#direct-mail}
       + [Correspondência direta](/help/rp_landing_pages/direct-mail-landing-page.md)
@@ -415,7 +416,7 @@ ht-degree: 95%
       + [Introdução à caixa de entrada](using/inbox/inbox-gs.md)
       + [Configure o canal Caixa de entrada no Journey Optimizer](using/inbox/inbox-configuration.md)
       + [Criar a Caixa de entrada](using/inbox/inbox-create.md)
-      + [Projetar a Caixa de entrada](using/inbox/inbox-design.md)
+      + [Criar uma Caixa de entrada](using/inbox/inbox-design.md)
    + WhatsApp {#whatsapp}
       + [WhatsApp](/help/rp_landing_pages/whatsapp-landing-page.md)
       + [Introdução às mensagens do WhatsApp](using/whatsapp/get-started-whatsapp.md)
@@ -463,7 +464,7 @@ ht-degree: 95%
          + [Funções de strings](using/personalization/functions/string.md)
       + Casos de uso de personalização {#personalization-use-cases}
          + [Casos de uso de personalização](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
-         + [Receitas do Personalization](using/personalization/personalization-recipes.md)
+         + [Receitas de personalização](using/personalization/personalization-recipes.md)
          + [Notificação do status do pedido](using/personalization/personalization-use-case.md)
          + [Email de abandono do carrinho](using/personalization/personalization-use-case-helper-functions.md)
          + [Email de receitas do plano de saúde](using/personalization/perso-uc-plan-prescriptions.md)
@@ -483,7 +484,7 @@ ht-degree: 95%
       + Configurar páginas de destino {#lp-configuration}
          + [Configurar páginas de destino](/help/rp_landing_pages/lp-configuration-landing-page.md)
          + [Configurar subdomínios de página de destino](using/landing-pages/lp-subdomains.md)
-         + [Definir predefinições da página de destino](using/landing-pages/lp-presets.md)
+         + [Definir predefinições de página de destino](using/landing-pages/lp-presets.md)
    + Modelos de conteúdo {#content-templates}
       + [Modelos de conteúdo](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
@@ -518,7 +519,7 @@ ht-degree: 95%
          + {hide-from-toc}[Configurar o repositório para os fragmentos de conteúdo](using/integrations/aem-admin-settings.md)
          + [Trabalhar com fragmentos de conteúdo do Experience Manager](using/integrations/aem-fragments.md)
          + [Considerações e solução de problemas](using/integrations/aem-fragments-limitations.md)
-      + [Trabalhar com o Supervisor de conteúdo do Experience Manager](using/integrations/aem-content-advisor.md)
+      + [Trabalhar com o Assessor de conteúdo do Experience Manager](using/integrations/aem-content-advisor.md)
       + [Trabalhar com o Dynamic Media](using/integrations/aem-dynamic.md)
       + {hide-from-toc}[Inserir temporizador de contagem regressiva](using/integrations/countdown.md)
       + [Trabalhar com o GenStudio for Performance Marketing](using/integrations/genstudio.md)
@@ -530,7 +531,7 @@ ht-degree: 95%
          + Fornecedores de amostra {#vendors}
             + [Introdução à integração de fornecedores](using/integrations/vendor-integration-gs.md)
             + [Configurações de exemplo de fornecedor](using/integrations/vendor-integration.md)
-      + [Trabalhar com ferramentas de IA por meio do MCP](/help/using/integrations/ajo-mcp.md)
+      + [Trabalhar com ferramentas de IA por MCP](/help/using/integrations/ajo-mcp.md)
    + Assistente de IA para geração de conteúdo {#ai-assistant}
       + [Assistente de IA para geração de conteúdo](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Introdução ao Assistente de IA](using/content-management/gs-generative.md)

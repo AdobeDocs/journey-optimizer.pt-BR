@@ -23,14 +23,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 946
-ht-degree: 11%
+source-wordcount: 981
+ht-degree: 10%
 
 ---
 
 # Trabalhar com o web designer {#work-with-web-designer}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar sua experiência da Web com o Adobe Journey Optimizer visual web designer, incluindo seleção e edição de elementos, adição de componentes e personalização, navegação na tela e alteração do tamanho do dispositivo.
+
+>[!ENDSHADEBOX]
 
 <!--
 >[!CONTEXTUALHELP]
@@ -46,7 +52,7 @@ ht-degree: 11%
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR" text="Learn more"
 -->
 
-No [!DNL Journey Optimizer], a criação no visual web é fornecida pela extensão de navegador do Chrome **Adobe Experience Cloud Visual Helper**. [Saiba mais](web-prerequisites.md#visual-authoring-prerequisites)
+No [!DNL Journey Optimizer], a criação no visual web é fornecida pela **extensão do navegador Adobe Experience Cloud Visual Helper**. [Saiba mais](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >

@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
 workflow-type: tm+mt
-source-wordcount: 216
+source-wordcount: 217
 ht-degree: 14%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 14%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** crie e teste o conteúdo da campanha para o canal que você selecionou para que cada mensagem esteja pronta antes de você ativar a campanha.
+**Nesta página:** crie e teste o conteúdo da campanha Ação para o canal que você selecionou para que cada mensagem esteja pronta antes de você ativar a campanha.
 
 >[!ENDSHADEBOX]
 

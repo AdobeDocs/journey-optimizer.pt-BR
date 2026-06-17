@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1067
-ht-degree: 33%
+source-wordcount: 1095
+ht-degree: 32%
 
 ---
 
 # Trabalhar com conjuntos de regras {#rule-sets}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Agrupe regras de limite de frequência, horas de silêncio e limite de jornada em conjuntos de regras para que você possa controlar com que frequência e quantas comunicações cada cliente recebe.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"

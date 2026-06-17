@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 480
+source-wordcount: 504
 ht-degree: 6%
 
 ---
 
 # Relatório de cartões de conteúdo {#content-card-report}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** analise métricas de cartão de conteúdo, como exibições, cliques e links rastreados, para poder medir a participação e melhorar a eficácia da campanha.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

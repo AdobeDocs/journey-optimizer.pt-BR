@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
 workflow-type: tm+mt
-source-wordcount: 168
-ht-degree: 100%
+source-wordcount: 196
+ht-degree: 85%
 
 ---
 
 # Introdução aos cartões de conteúdo {#get-started-content-card}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** os cartões de conteúdo fornecem mensagens personalizadas e não-intrusivas diretamente dos seus aplicativos e sites móveis, envolvendo os usuários no contexto sem interromper o que eles vieram fazer.
+
+>[!ENDSHADEBOX]
 
 Os cartões de conteúdo são um novo recurso de mensagens digitais no Adobe Journey Optimizer que fornece conteúdo personalizado e envolvente diretamente em aplicativos móveis e sites. Diferentemente das notificações por push tradicionais, os Cartões de conteúdo se integram perfeitamente à interface, oferecendo atualizações persistentes e não intrusivas que melhoram a interação e a experiência de usuários.
 

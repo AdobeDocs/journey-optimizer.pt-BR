@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 4489
-ht-degree: 70%
+ht-degree: 72%
 
 ---
 
@@ -74,7 +74,7 @@ Esta seção aborda medidas de proteção e limitações para jornadas, incluind
 
 * O número de atividades em uma jornada é limitado a **50**. O número de atividades é exibido na seção superior esquerda da tela da jornada.
 
-  Como jornadas próximas a esse limite, o desempenho de edição e publicação pode ser degradado, e podem ocorrer falhas de salvamento ou validação. Se isso acontecer, divida sua jornada em sub-jornadas menores usando [atividades de salto](../building-journeys/jump.md) ou recrie-a em uma nova versão. O limite de atividade não pode ser aumentado.
+  Com as jornadas próximas a esse limite, o desempenho de edição e publicação pode ser degradado e podem ocorrer falhas de salvamento ou validação. Se isso acontecer, divida a jornada em subjornadas menores com [atividades de salto](../building-journeys/jump.md) ou recrie-a em uma nova versão. O limite de atividades não pode ser aumentado.
 
 * Por padrão, o número de jornadas live/paused/dry run de uma só vez é limitado a **100**. O número atual de jornadas é exibido acima da tela de jornada.
 
@@ -115,7 +115,7 @@ Ao salvar ou publicar uma jornada, o Journey Optimizer valida o tamanho total do
 * Considere dividir a jornada em jornadas menores, se necessário.
 * Se você acredita que sua organização precisa de um limite mais alto, entre em contato com o representante da Adobe.
 
-Para monitorar o tamanho da carga atual da sua jornada antes da publicação, use o indicador **[!UICONTROL Tamanho da carga da jornada atual]** no painel de propriedades da jornada. [Saiba como verificar o tamanho da carga da jornada](../building-journeys/journey-properties.md#journey-payload-size)
+Para monitorar o tamanho do conteúdo atual da jornada antes da publicação, use o indicador **[!UICONTROL Tamanho do conteúdo da jornada atual]** no painel de propriedades da jornada. [Saiba como verificar o tamanho do conteúdo da jornada](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### Comparação de pacotes de licenças {#select-package-limitations}
 
@@ -306,7 +306,7 @@ Medidas de proteção específicas se aplicam a **jornadas em pausa**, incluindo
 
 Medidas de proteção específicas se aplicam a **Jornada Dry run**, incluindo a contagem para perfis ativáveis e cotas de jornada ativas. Elas são listadas [nesta página](../building-journeys/journey-dry-run.md#journey-dry-run-limitations).
 
-#### Jornada fragmentos {#fragments-journey-g}
+#### Fragmentos de jornada {#fragments-journey-g}
 
 Medidas de proteção específicas se aplicam a **fragmentos de Jornada**, incluindo no máximo **20 nós por fragmento** e **200 fragmentos ativos por sandbox**. Elas são listadas [nesta página](../building-journeys/journey-fragments.md#guardrails).
 

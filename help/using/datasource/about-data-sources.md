@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 948
 ht-degree: 29%
 
 ---
 
 # Introdução a fontes de dados {#about-data-sources}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Entenda quais são as fontes de dados e como escolher a estratégia de acesso a dados correta para que você possa trazer dados adicionais para suas jornadas quanto a condições, personalização e tempo.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"

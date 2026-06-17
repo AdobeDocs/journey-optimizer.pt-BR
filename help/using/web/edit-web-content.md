@@ -11,20 +11,26 @@ feature_v2:
 subfeature_v2:
   - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
   - id: d056adbe-402d-4f42-9746-f3d424e598b1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 20%
+source-wordcount: 1128
+ht-degree: 19%
 
 ---
 
 # Editar conteúdo da Web {#edit-web-content}
 
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como editar o conteúdo da Web com o web designer do Adobe Journey Optimizer, incluindo adição de componentes, personalização, navegação com navegações estruturais e modo de navegação e ajuste do tamanho do dispositivo.
+
+>[!ENDSHADEBOX]
+
 Depois de [adicionar uma experiência da Web](create-web.md#create-web-experience) a uma jornada ou campanha, você poderá editar o conteúdo do site usando o designer da Web.
 
 [Saiba como criar uma campanha da Web neste vídeo](#video)
 
-No [!DNL Journey Optimizer], a criação na Web é fornecida pela extensão de navegador Chrome do **Adobe Experience Cloud Visual Helper**. [Saiba mais](web-prerequisites.md#visual-authoring-prerequisites)
+No [!DNL Journey Optimizer], a criação na Web é fornecida pela **extensão do navegador Chrome do Adobe Experience Cloud Visual Helper**. [Saiba mais](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >

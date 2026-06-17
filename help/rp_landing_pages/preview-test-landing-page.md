@@ -8,7 +8,7 @@ exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -128,7 +128,7 @@ Siga esta sequência para uma validação abrangente:
 **Cenário 2: validação da renderização de email antes de um envio principal**
 → Execute [testes Litmus](../using/content-management/rendering.md) para verificar a exibição nos principais clientes de email e, em seguida, verifique o [relatório de spam](../using/content-management/spam-report.md) para garantir o posicionamento da caixa de entrada.
 
-**Cenário 3: Obtendo aprovação da parte interessada**
+**Cenário 3: obter aprovação da parte interessada**
 → [Envie provas](../using/content-management/proofs.md) para revisores internos com dados de perfil de teste para que eles vejam exatamente o que os clientes receberão.
 
 ## Principais lições

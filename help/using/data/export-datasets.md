@@ -27,14 +27,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1128
+source-wordcount: 1154
 ht-degree: 5%
 
 ---
 
 # Exportar conjuntos de dados para locais de armazenamento na nuvem {#export-datasets}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** configure conexões dinâmicas com destinos de armazenamento na nuvem para que você possa exportar seus conjuntos de dados do Journey Optimizer para relatórios, arquivamento e análise de dados externos.
+
+>[!ENDSHADEBOX]
 
 O Journey Optimizer permite estabelecer uma conexão ativa com locais de armazenamento na nuvem para exportar o conteúdo de seus conjuntos de dados.
 

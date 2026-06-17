@@ -26,14 +26,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1729
+source-wordcount: 1688
 ht-degree: 15%
 
 ---
 
 # Configurar um evento unitário {#configure-an-event}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** configure um evento unitário para poder acionar uma jornada em tempo real para uma pessoa específica com base em seu comportamento, como uma compra ou um marco de fidelidade.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
@@ -101,7 +107,7 @@ Abaixo estão as primeiras etapas para configurar um novo evento:
 
 ## Definir os campos de carga {#define-the-payload-fields}
 
-A definição de carga útil permite escolher as informações que o sistema espera receber do evento em sua jornada e a chave para identificar qual pessoa está associada ao evento. A carga é baseada na definição do campo XDM do Experience Cloud. Para obter mais informações sobre o XDM, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
+A definição de carga útil permite escolher as informações que o sistema espera receber do evento em sua jornada e a chave para identificar qual pessoa está associada ao evento. A carga é baseada na definição do campo XDM da Experience Cloud. Para obter mais informações sobre o XDM, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
 
 1. Selecione um esquema XDM na lista e clique no campo **[!UICONTROL Campos]** ou no ícone **[!UICONTROL Editar]**.
 

@@ -26,14 +26,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1410
-ht-degree: 16%
+source-wordcount: 1440
+ht-degree: 15%
 
 ---
 
 # Pré-requisitos e medidas de proteção {#web-prerequisites}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** analise os pré-requisitos e as medidas de proteção de implementação, criação visual, entrega e relatórios que você deve atender para acessar, criar, entregar e gerar relatórios sobre experiências da Web no Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Para acessar e criar páginas da Web na interface do usuário do [!DNL Journey Optimizer], siga os pré-requisitos abaixo:
 
@@ -78,7 +84,7 @@ Há suporte para dois tipos de implementações para habilitar a criação e o d
 
 <!--In order to rapidly author and preview your web experiences, the Adobe Experience Cloud Visual Editing Helper browser extension for Google Chrome lets you load websites reliably within the Adobe [!DNL Journey Optimizer] web designer.-->
 
-Para poder abrir, criar e visualizar suas páginas da Web de maneira confiável no web designer do [!DNL Journey Optimizer], você deve ter a extensão de navegador do [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} instalada no navegador da Web.
+Para abrir, criar e visualizar suas páginas da Web de maneira confiável no web designer do [!DNL Journey Optimizer], é necessário ter a extensão de navegador [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} instalada no navegador da Web.
 
 >[!CAUTION]
 >
@@ -94,7 +100,7 @@ Para baixar e instalar a extensão de navegador Auxiliar de edição visual, sig
 
 1. Se você estiver usando o Microsoft Edge, selecione **[!UICONTROL Permitir extensões de outras lojas]** no banner superior. Isso permitirá que você adicione extensões da Chrome Web Store ao Microsoft Edge.
 
-1. Pesquise e navegue até a extensão de navegador [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}.
+1. Pesquise e navegue até a [extensão de navegador da Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}.
 
 1. Clique em **[!UICONTROL Adicionar ao Chrome]** > **[!UICONTROL Adicionar extensão]**.
 
