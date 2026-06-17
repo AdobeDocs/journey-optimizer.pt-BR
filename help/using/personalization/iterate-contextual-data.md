@@ -24,9 +24,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 3109
+source-wordcount: 3126
 ht-degree: 1%
 
 ---
@@ -52,6 +52,7 @@ O Journey Optimizer fornece acesso a dados contextuais de várias fontes durante
 * **[Pesquisa de conjunto de dados](#dataset-lookup)**: dados enriquecidos recuperados de conjuntos de dados do Adobe Experience Platform
 * **[Propriedades técnicas](#technical-properties)**: metadados de Jornada, como ID de jornada e identificadores complementares
 * **[Contexto de Jornada](#other-contexts)**: outros dados relacionados à jornada acessíveis durante a execução
+* **Coleções de enriquecimento de campanha orquestradas** (somente campanhas orquestradas): consulte [Adicionar personalização em campanhas orquestradas](../orchestrated/add-personalization.md#enrichment-collections).
 
 Este guia mostra como iterar sobre matrizes de cada uma dessas fontes em suas mensagens e como trabalhar com matrizes ao configurar atividades de jornada. Comece com [Sintaxe de iteração Handlebars](#syntax) para entender as noções básicas de personalização de mensagens ou vá para [Trabalhe com matrizes em expressões de Jornada](#arrays-in-journeys) para saber como transmitir dados de matriz para ações personalizadas e pesquisas de conjuntos de dados.
 
@@ -526,7 +527,7 @@ Embora este guia se concentre na iteração sobre matrizes, outros tipos de cont
 * **[Atributos do perfil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}** (`profile.*`): campos de perfil individuais do Adobe Experience Platform
 * **[Públicos-alvo](../audience/about-audiences.md)** (`inAudience()`): verificações de associação de público-alvo
 * **[Decisões de oferta](../offers/get-started/starting-offer-decisioning.md)**: ofertas de gerenciamento de decisão
-* **[Atributos do público-alvo](../orchestrated/activities/channels.md#add-personalization)** (somente campanhas orquestradas): atributos calculados na tela da campanha
+* **[Atributos de destino](../orchestrated/add-personalization.md#attributes)** (somente campanhas orquestradas): atributos calculados na tela da campanha, incluindo matrizes de coleção de enriquecimento
 * **Token** (`context.token`): tokens de sessão ou autenticação
 
 Para obter a sintaxe de personalização completa e exemplos usando essas fontes, consulte:

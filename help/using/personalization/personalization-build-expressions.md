@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
 source-wordcount: 1592
 ht-degree: 11%
@@ -92,7 +92,7 @@ Você pode adicionar personalização ao usar conteúdo do tipo texto em suas re
 O painel de navegação permite selecionar a origem para personalização. As fontes disponíveis são:
 
 * **[!UICONTROL Atributos do perfil]** : lista todas as referências associadas ao esquema de perfil descrito na [documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
-* **[!UICONTROL Atributos do público-alvo]**: esta pasta é específica para campanhas orquestradas. Ele contém atributos calculados diretamente na tela da campanha. [Saiba como adicionar personalização em campanhas orquestradas](../orchestrated/activities/channels.md#add-personalization)
+* **[!UICONTROL Atributos do público-alvo]**: esta pasta é específica para campanhas orquestradas. Ele contém atributos calculados diretamente na tela da campanha. [Saiba como adicionar personalização em campanhas orquestradas](../orchestrated/add-personalization.md)
 * **[!UICONTROL Públicos-alvo]** : lista todos os públicos-alvo criados no serviço de Segmentação do Adobe Experience Platform. Saiba mais na [documentação de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
 * **[!UICONTROL Decisões de oferta]** : lista todas as ofertas associadas a uma disposição específica. Selecione o posicionamento e insira as ofertas no conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [esta seção](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL Atributos contextuais]**: quando uma atividade de ação de canal (email, push, SMS) é usada em uma jornada ou campanha, os atributos contextuais relacionados a eventos e propriedades ficam disponíveis para personalização. Um exemplo de personalização usando atributos contextuais é apresentado em [esta seção](personalization-use-case.md). Além disso, as respostas de ação personalizadas podem ser usadas para personalização. [Saiba como usar respostas de ação personalizadas em canais nativos](../action/action-response.md#response-in-channels).

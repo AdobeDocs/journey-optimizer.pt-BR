@@ -16,10 +16,10 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 337
-ht-degree: 61%
+source-wordcount: 367
+ht-degree: 53%
 
 ---
 
@@ -58,13 +58,19 @@ Depois que a campanha é criada, é hora de projetar a lógica por trás dela. U
 
 ➡️ [Saiba como orquestrar atividades](../orchestrated/orchestrate-activities.md)
 
-## Etapa 3: iniciar e monitorar a sua campanha {#start}
+## Etapa 3: adicionar personalização {#personalize}
+
+Em atividades de canal, personalize mensagens com atributos de perfil e atributos de público alvo da tabela de trabalho (incluindo matrizes de coleção de enriquecimento).
+
+➡️ [Saiba como adicionar personalização em campanhas orquestradas](../orchestrated/add-personalization.md)
+
+## Etapa 4: iniciar e monitorar a campanha {#start}
 
 Você está quase lá! Execute a sua campanha no modo de teste primeiro para detectar problemas. Em seguida, publique-a e monitore a execução em tempo real. Rastreie o progresso, verifique se há erros e veja como os perfis fluem por cada etapa.
 
 ➡️ [Saiba como iniciar e monitorar uma campanha](../orchestrated/start-monitor-campaigns.md)
 
-## Etapa 4: analisar e relatar resultados {#report}
+## Etapa 5: Analisar e relatar resultados {#report}
 
 Após o lançamento, use os relatórios integrados para entender o que funcionou e o que pode ser melhorado. Painéis em tempo real e análises aprofundadas ajudam a otimizar campanhas futuras e refinar a sua estratégia.
 

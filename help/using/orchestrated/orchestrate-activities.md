@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 957
-ht-degree: 47%
+source-wordcount: 971
+ht-degree: 46%
 
 ---
 
@@ -121,4 +121,6 @@ Ao atingir o fim de uma ramificação, você pode adicionar uma atividade **[!UI
 
 ## Próximas etapas {#next}
 
-Depois de projetar com êxito a tela de campanha Orquestrada, você pode executar a campanha Orquestrada e acompanhar o progresso de suas várias tarefas. [Saiba como iniciar uma campanha Orquestrada e monitorar sua execução](start-monitor-campaigns.md)
+Depois de adicionar atividades de canal à tela, [saiba como adicionar personalização](add-personalization.md) a emails, SMS e outras mensagens.
+
+Quando a tela estiver pronta, execute a campanha Orquestrada e acompanhe o progresso de suas tarefas. [Saiba como iniciar uma campanha Orquestrada e monitorar sua execução](start-monitor-campaigns.md)
