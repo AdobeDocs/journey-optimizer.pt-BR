@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
 workflow-type: tm+mt
-source-wordcount: 4489
-ht-degree: 72%
+source-wordcount: 4590
+ht-degree: 69%
 
 ---
 
@@ -76,9 +76,13 @@ Esta seção aborda medidas de proteção e limitações para jornadas, incluind
 
   Com as jornadas próximas a esse limite, o desempenho de edição e publicação pode ser degradado e podem ocorrer falhas de salvamento ou validação. Se isso acontecer, divida a jornada em subjornadas menores com [atividades de salto](../building-journeys/jump.md) ou recrie-a em uma nova versão. O limite de atividades não pode ser aumentado.
 
-* Por padrão, o número de jornadas live/paused/dry run de uma só vez é limitado a **100**. O número atual de jornadas é exibido acima da tela de jornada.
+* O número de jornadas ativas, fechadas, pausadas e de execução a seco que podem estar ativas ao mesmo tempo é limitado a **200** em sandboxes de produção e **100** em sandboxes de desenvolvimento. Esse limite é aplicado quando você publica uma jornada. O número atual de jornadas é exibido acima da tela de jornada.
 
-  À medida que você publica jornadas, dimensionaremos e ajustaremos automaticamente para garantir uma máxima taxa de transferência e estabilidade. Ao se aproximar do marco de 100 jornadas ativas de uma só vez, você verá uma notificação aparecer na interface sobre essa conquista. Se vir esta notificação e precisar aumentar o número de jornadas para acima de 100 jornadas ativas por vez, crie um tíquete para o Atendimento ao cliente e ajudaremos a atingir suas metas.
+  À medida que você publica jornadas, dimensionaremos e ajustaremos automaticamente para garantir uma máxima taxa de transferência e estabilidade. As jornadas fechadas são contadas somente se forem criadas após a implantação dessa garantia.
+
+>[!NOTE]
+>
+>Para medidas de proteção em tempo de publicação, as organizações que já excedem um limite quando a medida de proteção é introduzida recebem uma exceção. As jornadas existentes não serão afetadas.
 
 * Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até **10 minutos** para ficar ativa e ouvir os perfis que entram ou saem do público-alvo.
 
@@ -90,7 +94,7 @@ Esta seção aborda medidas de proteção e limitações para jornadas, incluind
 
 >[!TIP]
 >
->**O que isso significa para você:** O **limite de 50 atividades** e o **limite de 100 jornadas ao vivo** são as duas medidas de proteção que a maioria das equipes encontra primeiro ao dimensionar. Planeje a divisão da jornada antecipadamente e divida as horas de início do Read Audience com pelo menos 5 a 10 minutos de intervalo para evitar a contenção da taxa de transferência da sandbox.
+>**O que isso significa para você:** O **limite de 50 atividades** e o **limite de jornadas ativas** são as duas medidas de proteção que a maioria das equipes encontra primeiro ao dimensionar. Planeje a divisão da jornada antecipadamente e divida as horas de início do Read Audience com pelo menos 5 a 10 minutos de intervalo para evitar a contenção da taxa de transferência da sandbox.
 
 #### Validação de tamanho do conteúdo da jornada {#journey-payload-size}
 
@@ -167,6 +171,8 @@ As seguintes medidas de proteção se aplicam aos [eventos](../event/about-event
 * As jornadas acionadas por eventos podem levar até **5 minutos** para processar a primeira ação na jornada.
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
 * Os eventos de negócios não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
+* Um único evento pode ser referenciado por no máximo **25** jornadas a qualquer momento. Quando esse limite for atingido, a publicação de qualquer jornada adicional que use esse evento será bloqueada.
+* Um único esquema XDM pode ser referenciado por no máximo **100** eventos em todas as jornadas ativas e fechadas de uma só vez. Quando esse limite for atingido, a publicação de qualquer jornada com um nó de evento que faça referência a esse esquema será bloqueada.
 * As jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. A reentrada do perfil está temporariamente bloqueada por padrão por **5 minutos**. Por exemplo, se um evento acionar uma jornada às 12:01 para um perfil específico e outra chegar às 12:03 (seja o mesmo evento ou outro que está acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
 * O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço Principal de Coleção de Dados (DCCS) para acionar uma jornada. Eventos assimilados em lote, eventos inseridos via **Serviço de consulta**, ou eventos de conjuntos de dados internos do Journey Optimizer (Feedback de mensagens, Rastreamento de email etc.) não podem ser usados para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, é necessário criar um público-alvo com base nesses eventos e usar a atividade **Público-alvo de leitura**. A qualificação de público-alvo pode ser tecnicamente utilizada, mas não é recomendada, pois pode causar problemas posteriores com base nas ações usadas.
 
@@ -223,10 +229,11 @@ As seguintes medidas de proteção se aplicam ao [editor de expressão da jornad
 
 #### Atividade de qualificação de público-alvo {#audience-qualif-g}
 
-A seguinte medida de proteção se aplica à atividade de [qualificação de público-alvo](../building-journeys/audience-qualification-events.md) da jornada:
+As seguintes medidas de proteção se aplicam à atividade de jornada [Qualificação de público-alvo](../building-journeys/audience-qualification-events.md):
 
 * A atividade Qualificação de público-alvo não pode ser usada com atividades do Adobe Campaign.
 * Identificadores suplementares não são aceitos para jornadas de qualificação de público-alvo.
+* Uma sandbox pode incluir no máximo **300** nós de qualificação de público-alvo em todas as jornadas ativas e fechadas. Quando esse limite é atingido, a publicação de jornadas com nós de Qualificação de público-alvo adicionais é bloqueada.
 
 Saiba mais sobre taxas de processamento e limites de taxa de transferência da jornada [nesta seção](../building-journeys/entry-management.md#journey-processing-rate).
 
