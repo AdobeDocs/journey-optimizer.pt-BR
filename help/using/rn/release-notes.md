@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f62163759dc065c30057e02a064af56e269fc971
+source-git-commit: 3a9192700114244b0c010c410b19ecfbc203db02
 workflow-type: tm+mt
-source-wordcount: 3646
+source-wordcount: 3659
 ht-degree: 25%
 
 ---
@@ -359,8 +359,6 @@ As seguintes melhorias foram adicionadas ao canal de email nesta versão.
 </tbody>
 </table>
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
-
 <table>
 <thead>
 <tr>
@@ -373,10 +371,15 @@ As seguintes melhorias foram adicionadas ao canal de email nesta versão.
 <p>O Journey Optimizer agora inclui validação técnica automatizada diretamente no Designer de email, ajudando você a detectar problemas no HTML e no CSS antes do envio.</p>
 <p>As verificações abrangem elementos sem suporte, como tags <code>&lt;script&gt;</code> e <code>&lt;base&gt;</code>, divs vazios que podem quebrar o layout no Microsoft Outlook, tags de metaatualização do HTML e limites de tamanho de CSS ou HTML que acionam falhas de renderização no Gmail.</p>
 <p>Os resultados são exibidos como erros, avisos ou avisos informativos diretamente no painel de criação, com detalhes contextuais e correções com um clique, quando disponíveis, para que os problemas possam ser resolvidos sem sair do editor.</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>Para obter mais informações, consulte a <a href="../email/content-check.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 18 de junho de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ Em breve — **As informações abaixo estão sujeitas a alterações.**
 
 <table>
 <thead>
