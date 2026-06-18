@@ -11,7 +11,7 @@ keywords: integração, fornecedor, terceiros
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
 workflow-type: tm+mt
 source-wordcount: 10185
 ht-degree: 5%
@@ -1208,6 +1208,10 @@ O host base depende da região (por exemplo, `https://{{customername}}.module.sl
 O Adobe Target inclui Recommendations e APIs de entrega para experiências integradas ou do lado do servidor, sujeitas a direitos.
 
 Casos de uso típicos incluem inserir recomendações nas experiências criadas no Journey Optimizer e alinhar chaves ao perfil ou contexto do Experience Platform.
+
+<!--
+➡️ After you activate the integration, learn how to [use Adobe Target data in message templates](integrations-personalization.md#use-adobe-target-in-templates).
+-->
 
 >[!ENDSHADEBOX]
 
