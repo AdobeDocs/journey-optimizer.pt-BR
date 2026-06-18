@@ -43,13 +43,13 @@ ht-degree: 0%
 
 Ao integrar o **[!DNL Adobe Experience Manager as a Cloud Service]** e o **[!DNL Adobe Experience Manager Managed Service]** ao Adobe Journey Optimizer, é possível usar os Fragmentos de conteúdo do AEM em jornadas e campanhas. Para o **[!DNL Adobe Experience Manager Managed Service]**, a integração oferece suporte às camadas **Autor** e **Publicar** no **Suporte a Longo Prazo (LTS) SP2** da AEM; as atualizações em tempo real do Adobe Experience Manager não estão disponíveis nesta versão. Entre em contato com seu representante da Adobe Managed Services para configuração de instância e, em seguida, [configure o acesso ao repositório da Adobe Experience Manager](aem-admin-settings.md) para adicionar seu repositório da Managed Services.
 
-Para saber mais sobre os Fragmentos de conteúdo do AEM, consulte [Trabalho com fragmentos de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} na documentação do Experience Manager.
+Para saber mais sobre os Fragmentos de conteúdo do AEM, consulte [Trabalho com fragmentos de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} na documentação do Experience Manager.
 
 ## Ciclo de vida do fragmento de conteúdo
 
 ![](assets/do-not-localize/AEM_CF.png)
 
-Os fragmentos de conteúdo seguem diferentes estágios do ciclo de vida, dependendo do nível do Adobe Experience Manager em que estão. [Saiba mais na documentação do Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
+Os fragmentos de conteúdo seguem diferentes estágios do ciclo de vida, dependendo do nível do Adobe Experience Manager em que estão. [Saiba mais na documentação do Adobe Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
 
 O conteúdo é criado e gerenciado na **camada do Autor**, onde os fragmentos podem ter status Novo, Rascunho, Publicado, Modificado ou Não publicado. Esses status se aplicam somente na **camada do autor** e oferecem suporte à criação e revisão de conteúdo.
 
