@@ -7,15 +7,12 @@ feature: Integrations
 topic: Administration
 role: Admin
 level: Experienced
-hide: true
 keywords: AEM, Fragmentos de conteúdo, administração, repositório, autenticação, autor, publicação
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 7cf2235a14f9ebb49fac02161743f75fee141504
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 001f14c03b0142402a485b049dfb62c9837c7928
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 512
 ht-degree: 0%
 
 ---
@@ -24,11 +21,11 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba como os administradores conectam uma sandbox a um repositório do Adobe Experience Manager — definindo acesso somente de autor ou de publicação, domínios personalizados e autenticação — para que os profissionais de marketing possam usar Fragmentos de conteúdo do AEM em suas jornadas e campanhas.
+**Nesta página:** saiba como os administradores conectam uma sandbox a um repositório do Adobe Experience Manager, configurando acesso somente de autor ou de publicação, domínios personalizados e autenticação, para que os profissionais de marketing possam usar Fragmentos de conteúdo do AEM em suas jornadas e campanhas.
 
 >[!ENDSHADEBOX]
 
-O Adobe Journey Optimizer integra-se ao **[!DNL Adobe Experience Manager as a Cloud Service]** para que você possa usar **Fragmentos de conteúdo** em Jornadas e Campanhas. Por padrão, os **Fragmentos de conteúdo** são lidos do repositório de publicação do Adobe Experience Manager. Os administradores podem alternar para somente autor ou ajustar o acesso de publicação no menu **[!UICONTROL Integração do AEM]**.
+O Adobe Journey Optimizer integra-se com **[!DNL Adobe Experience Manager as a Cloud Service]** e **[!DNL Adobe Experience Manager Managed Service]** para que você possa usar **Fragmentos de conteúdo** em Jornadas e Campanhas. Por padrão, os **Fragmentos de conteúdo** são lidos do repositório de publicação do Adobe Experience Manager. Os administradores podem alternar para somente autor ou ajustar o acesso de publicação no menu **[!UICONTROL Integração do AEM]**.
 
 ➡️ Quando o repositório estiver configurado, continue com [Trabalhe com os Fragmentos de conteúdo do Experience Manager](../integrations/aem-fragments.md) para as tarefas de criação e seleção no Journey Optimizer.
 
@@ -44,7 +41,7 @@ Para configurar o repositório:
 
 1. Acesse **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Integração com o AEM]**.
 
-1. Clique em **[!UICONTROL Criar integração]**.
+1. Clique em **[!UICONTROL Criar configuração]**.
 
    ![](assets/aem-admin-settings-1.png)
 
@@ -52,7 +49,7 @@ Para configurar o repositório:
 
    ![](assets/aem-admin-settings-6.png)
 
-1. Escolha qual repositório deve ser configurado e clique em **[!UICONTROL Avançar]**.
+1. Se você usa **[!DNL Adobe Experience as a Cloud Service]**, escolha qual repositório configurar e clique em **[!UICONTROL Avançar]**.
 
    Além disso, você pode clicar em **[!UICONTROL Exibir]** para acessar este repositório.
 
@@ -76,11 +73,15 @@ Para configurar o repositório:
 
    +++ Configuração da instância de publicação
 
+   Por padrão, todo repositório **[!DNL Adobe Experience Manager as a Cloud Service]** está configurado para usar a instância **publicar**. Você pode continuar com a etapa de teste do Fragmento do conteúdo sem alterar essas configurações.
+
+   Se a sua instância de publicação estiver **autenticada**, ou se você precisar usar um domínio de publicação personalizado, siga as etapas abaixo.
+
    1. Selecione **[!UICONTROL Configuração da instância de publicação]** para ativar as configurações da instância de publicação.
 
       ![](assets/aem-admin-settings-4.png)
 
-   1. Habilite opcionalmente **[!UICONTROL Enviar token para a instância de publicação]** para que as credenciais de serviço sejam incluídas nas solicitações para a instância de publicação.
+   1. Habilite **[!UICONTROL Enviar token para a instância de publicação]** para que as credenciais de serviço sejam incluídas nas solicitações para a instância de publicação.
 
    1. Cole uma **[!UICONTROL Credencial de Serviço JSON]** válida para autenticação.
 
