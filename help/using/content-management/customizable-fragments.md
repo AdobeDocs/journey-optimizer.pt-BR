@@ -9,26 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 TQID: https://experienceleague.adobe.com/cwg-nGPftYg6UgVSKXZPdW6DZr4-m5UM5Wqzfx3w028
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 69ba57a83a35331f05d782588a26f7f45579c180
 workflow-type: tm+mt
-source-wordcount: 1771
-ht-degree: 12%
+source-wordcount: 1658
+ht-degree: 5%
 
 ---
 
@@ -85,6 +75,45 @@ Para tornar partes de um fragmento visual editáveis, siga estas etapas:
 >[!CAUTION]
 >
 >Quando o **rótulo** e a **URL** de um componente de botão se tornam editáveis em um fragmento, os relatórios de rastreamento mostram a URL em vez do rótulo do botão. [Saiba mais sobre o rastreamento](../email/message-tracking.md)
+
+## Ativar a edição de rich text em um fragmento visual personalizável {#rich-text-visual}
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_fragment_compatibility"
+>title="Fragmento herdado"
+>abstract="Os campos editáveis neste fragmento estão no modo somente texto. Isso significa que você só pode inserir texto sem formatação ao editar esse fragmento em emails. As opções de formatação completas, como negrito, itálico, hiperlinks e quebras de linha, não são compatíveis. Clique em <b>Habilitar</b> para permitir rich text em campos editáveis ao usar o fragmento em um email."
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_field_compatibility"
+>title="Fragmento herdado"
+>abstract="Este campo editável está no modo somente texto. Opções completas de formatação (negrito, itálico, hiperlinks, quebras de linha etc.) não estarão disponíveis até que o fragmento seja atualizado para o modo rich text. Vá para as configurações do corpo do fragmento e clique em <b>Habilitar</b> para desbloquear rich text em campos editáveis."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizar campos editáveis em um fragmento"
+
+>[!CONTEXTUALHELP]
+>id="ac_editable_fragment_compatibility"
+>title="Fragmento herdado"
+>abstract="Os campos editáveis neste fragmento estão no modo somente texto. Opções completas de formatação (negrito, itálico, hiperlinks, quebras de linha etc.) não estarão disponíveis até que o fragmento seja atualizado para o modo rich text. Para desbloquear este modo, abra o editor de fragmentos e clique em <b>Habilitar</b>."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizar campos editáveis em um fragmento"
+
+O Rich Text <!--— including bold, italic, line breaks, and hyperlinks —--> agora tem suporte nativo em fragmentos visuais personalizáveis.
+
+Quando um fragmento visual personalizável é usado em um email, você pode aproveitar as opções de formatação completas, como negrito, itálico, quebras de linha, listas com marcadores e hiperlinks, diretamente em qualquer campo editável nos componentes do **[!UICONTROL Texto]**, **[!UICONTROL Botão]** e **[!UICONTROL Html]** do fragmento. [Saiba como personalizar campos editáveis](../email/use-visual-fragments.md#customize-fields)
+
+No entanto, se você tiver criado fragmentos e definido campos editáveis antes da introdução do recurso rich text, os campos editáveis serão definidos como modo somente texto por padrão.
+
+* Um aviso de compatibilidade é exibido no editor de fragmentos.
+
+  ![](assets/fragment-custom-compatibility.png)
+
+  Para desbloquear o modo rich-text para esses campos editáveis ao usar o fragmento em um email, clique no botão **Habilitar** e salve o fragmento.
+
+* Depois de adicionado o fragmento a um email, um aviso de compatibilidade também é exibido ao selecionar o fragmento no Designer de email.
+
+  ![](assets/email-fragment-custom-compatibility.png)
+
+  Para atualizar o fragmento para o modo rich text, use o botão **Abrir fragmento** para acessar o editor de fragmentos, clique no botão **Habilitar** e salve o fragmento.
+
+Até que o modo rich text seja desbloqueado, os fragmentos visuais personalizáveis herdados continuarão a suportar somente texto simples. Os usuários não podem inserir rich text nos campos editáveis desses fragmentos.
 
 ## Adicionar campos editáveis a componentes do HTML e fragmentos de expressão {#expression}
 
@@ -167,78 +196,62 @@ Para fazer isso:
 
    ![](assets/fragment-expression-use.png)
 
-## Adicionar rich text a um fragmento personalizável {#rich-text}
-
->[!CONTEXTUALHELP]
->id="ajo_editable_fragment_compatibility"
->title="Fragmento herdado"
->abstract="Os campos editáveis neste fragmento estão no modo somente texto. Isso significa que você só pode inserir texto simples ao editar esse fragmento em emails — texto formatado, como negrito, itálico, hiperlinks e quebras de linha, não é compatível. Clique em <b>Alternar para o modo HTML</b> para habilitar rich text em campos editáveis ao usar o fragmento em um email."
-
->[!CONTEXTUALHELP]
->id="ajo_editable_field_compatibility"
->title="Fragmento herdado"
->abstract="Este campo editável está no modo somente texto. Formatação de rich text (negrito, itálico, hiperlinks, quebras de linha, etc.) não estará disponível até que o fragmento seja atualizado para o modo compatível com HTML. Vá para as configurações do corpo do fragmento e clique em <b>Alternar para o modo HTML</b> para habilitar a edição de rich text."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizar campos editáveis em um fragmento"
-
->[!CONTEXTUALHELP]
->id="ac_editable_fragment_compatibility"
->title="Fragmento herdado"
->abstract="Os campos editáveis neste fragmento estão no modo somente texto. Formatação de rich text (negrito, itálico, hiperlinks, quebras de linha, etc.) não estará disponível até que o fragmento seja atualizado para o modo compatível com HTML. Para fazer isso, abra o editor de fragmentos e clique em <b>Alternar para o modo HTML</b>."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizar campos editáveis em um fragmento"
-
-Rich text como quebras de linha, negrito, itálico, etc., podem ser adicionados a um fragmento personalizável usando componentes do HTML. Para isso, siga as etapas abaixo.
 <!--
+## Add rich text to a customizable fragment {#rich-text}
+
+Rich text such as line breaks, bold, italics etc., can be added to a customizable fragment by using HTML components. To do so, follow the steps below.
+
 ➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)
--->
 
-### Criar um fragmento incluindo rich text {#add-rich-text}
+### Create a fragment including rich text {#add-rich-text}
 
-1. Crie um [fragmento](create-fragments.md) visual e comece a adicionar componentes.
+The approach below (using HTML components with inline variables) remains fully supported for advanced HTML-based scenarios??
 
-1. Adicione um [componente do HTML](../email/content-components.md#HTML) e abra o editor do HTML.
+1. Create a visual [fragment](create-fragments.md) and start adding components.
 
-1. Navegue até o menu **[!UICONTROL Funções auxiliares]** no painel de navegação esquerdo e adicione a função auxiliar **embutida**.
+1. Add an [HTML component](../email/content-components.md#HTML) and open the HTML editor.
 
-1. Substitua `"name"` pela ID que deseja usar para o conteúdo editável, por exemplo &quot;EditableContent&quot;.
+1. Navigate to the **[!UICONTROL Helper functions]** menu in the left navigation pane and add the **inline** helper function.
 
-1. Substitua `render_content` pelo código HTML correspondente ao conteúdo avançado padrão que você deseja. É possível adicionar negrito, itálico, quebras de linha, listas com marcadores etc.
+1. Replace `"name"` with the ID you want to use for your editable content, for example "EditableContent".
 
-   ![](assets/fragment-rich-editable-content.png)
+1. Replace `render_content` with the HTML code corresponding to the default rich content you want. You can add bold, italic, line breaks, bulleted lists, etc.
 
-1. No mesmo componente do HTML, adicione outra função auxiliar **inline** para seus elementos de estilo.
+    ![](assets/fragment-rich-editable-content.png)
 
-1. Substitua `"name"` e `render_content` pela ID e pelo código HTML correspondentes ao estilo padrão desejado.
+1. Within the same HTML component, add another **inline** helper function for your styling elements.
 
-   ![](assets/fragment-rich-editable-styling.png)
+1. Replace `"name"` and `render_content` with the ID and HTML code corresponding to the default styling you want.
 
-1. Salve o conteúdo. Os campos editáveis selecionados são exibidos no lado direito.
+    ![](assets/fragment-rich-editable-styling.png)
 
-   ![](assets/fragment-rich-editable-fields.png)
+1. Save your content. The selected editable fields are displayed on the right-hand side.
 
-1. Salve e [publique](create-fragments.md#publish) o fragmento.
+    ![](assets/fragment-rich-editable-fields.png)
 
-### Usar rich text em fragmentos personalizáveis {#use-rich-text}
+1. Save and [publish](create-fragments.md#publish) the fragment.
 
-Ao adicionar o fragmento ao email, agora é possível editar o conteúdo rich text e o estilo criados. Como profissional de marketing, siga as etapas abaixo.
+### Use rich text in customizable fragments {#use-rich-text}
 
-1. [Crie um email](../email/create-email.md) em uma campanha ou jornada e adicione o fragmento com rich text que foi [criado](#add-rich-text).
+When adding the fragment to your email, you can now edit the rich text content and styling that you created. As a marketer, follow the steps below.
 
-   Você pode ver os dois campos editáveis criados no lado direito.
+1. [Create an email](../email/create-email.md) in a campaign or a journey, then add the fragment with rich text that was [created](#add-rich-text).
 
-   ![](assets/fragment-use-rich-editable-fields.png)
+    You can see the two editable fields that were created on the right-hand side.
 
-1. Use qualquer um dos métodos de simulação para ver como o conteúdo editável e o estilo são renderizados: clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com dados de entrada de exemplo ou geração automática de IA, ou clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para pré-visualizar com perfis de teste. [Saiba mais sobre a visualização de conteúdo](preview-test.md)
+    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. Selecione o ícone **[!UICONTROL Adicionar personalização]** ao lado de um dos campos editáveis.
+1. Use either simulation method to see how the editable content and styling render: click **[!UICONTROL Simulate content]** to test content variations with sample input data or AI auto-generation, or click **[!UICONTROL Simulate content]**, then select **[!UICONTROL Simulate content (AEP profiles)]** from the dropdown to preview with test profiles. [Learn more on previewing content](preview-test.md)
 
-1. No editor de personalização que é aberto, atualize o <!--CSS-->estilo e/ou conteúdo conforme desejado adicionando ou removendo elementos do campo editável.
+1. Select the **[!UICONTROL Add personalization]** icon next to one of the editable fields.
 
-   ![](assets/fragment-rich-editable-fields-update-styling.png)
+1. In the personalization editor that opens, update the styling and/or content as wanted by adding or removing elements of the editable field.
 
-<!--
+    ![](assets/fragment-rich-editable-fields-update-styling.png)
+
 ## How-to video {#video}
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464373/?captions=por_br&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
