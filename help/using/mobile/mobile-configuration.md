@@ -22,10 +22,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: b519bcd5489c441e7f22cb47783d8b99a58c2442
 workflow-type: tm+mt
-source-wordcount: 456
-ht-degree: 41%
+source-wordcount: 480
+ht-degree: 40%
 
 ---
 
@@ -72,7 +72,9 @@ As etapas dependem do seu provedor de SMS. Navegue pelos links abaixo para acess
    * [Twilio](mobile-configuration-twilio.md)
    * [Provedor personalizado](mobile-configuration-custom.md)
 1. [Criar webhook](mobile-webhook.md)
-1. [Criar uma configuração móvel](mobile-configuration-surface.md)
+1. [Criar uma configuração para dispositivos móveis](mobile-configuration-surface.md)
+
+Se você comprar SMS por meio do Adobe Journey Optimizer, também poderá [exibir métricas de uso de SMS](sms-usage-report.md) para reconciliar volumes MO e MT com a cobrança do fornecedor.
 
 Estas etapas devem ser executadas por um [Administrador do Sistema](../start/path/administrator.md) do Adobe Journey Optimizer.
 

@@ -30,10 +30,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 2249
-ht-degree: 1%
+source-wordcount: 2332
+ht-degree: 0%
 
 ---
 
@@ -144,11 +144,11 @@ O gráfico de tendência **[!UICONTROL Entregues versus Cliques]** apresenta uma
 
 +++
 
-## Estatísticas de envio únicas {#unique-sending-statistics-email}
+## Estatísticas de envio exclusivas {#unique-sending-statistics-email}
 
 ![](assets/cja-unique-email-sending-stat.png)
 
-A tabela **[!UICONTROL Estatísticas de Envio Exclusivas]** apresenta uma visão geral detalhada de métricas exclusivas de desempenho de email em suas campanhas. Ele se concentra em perfis individuais, como aqueles exclusivamente direcionados, entregues, rejeitados ou excluídos, fornecendo insights mais profundos sobre como seus emails estão atingindo e envolvendo seu público-alvo.
+A tabela **[!UICONTROL Estatísticas de envio exclusivas]** apresenta uma visão geral detalhada de métricas de desempenho de email exclusivas em suas campanhas. Ele se concentra em perfis individuais, como aqueles exclusivamente direcionados, entregues, rejeitados ou excluídos, fornecendo insights mais profundos sobre como seus emails estão atingindo e envolvendo seu público-alvo.
 
 +++ Saiba mais sobre métricas de Estatísticas de envio únicas
 
@@ -226,9 +226,13 @@ A tabela **[!UICONTROL Email - Estatísticas de rastreamento]** oferece uma cont
 
 * **[!UICONTROL Taxa de abertura de cliques (CTOR)]**: Número de vezes que o email foi aberto.
 
+* **[!UICONTROL Taxa de aberturas]**: porcentagem de perfis que abriram o email pelo menos uma vez, em relação ao número de emails entregues.
+
 * **[!UICONTROL Aberturas estimadas de email]**: Estimativa do total de aberturas de email que respondem por aberturas diretas por perfis e aberturas automatizadas acionadas por servidores de email. Essa métrica se ajusta para aberturas acionadas por servidores de email para verificação de privacidade ou segurança, aplicando uma taxa de abertura calculada a partir dos destinatários que abriram manualmente o email àqueles cujos emails foram abertos apenas por servidores de email.
 
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus emails.
+
+* **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
 
 * **[!UICONTROL Reclamações de spam]**: número de vezes que uma mensagem foi declarada como spam ou lixo eletrônico.
 
@@ -258,17 +262,19 @@ A tabela **[!UICONTROL Domínios de email]** oferece uma análise detalhada dos 
 
 +++
 
-## Rótulos de link rastreado {#track-link-label}
+## Etiquetas rastreadas {#track-link-label}
 
 ![](assets/cja-email-tracked-link.png)
 
-A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral abrangente dos rótulos de links em seus emails, destacando aqueles que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
+A tabela **[!UICONTROL Rótulos rastreados]** oferece uma visão geral abrangente dos rótulos de links em seus emails, destacando aqueles que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
 
 +++ Saiba mais sobre Métricas de rótulos de link rastreado
 
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em um email.
 
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus emails.
+
+* **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
 
 +++
 
@@ -283,6 +289,8 @@ A tabela **[!UICONTROL URLs de link rastreado]** fornece uma visão geral abrang
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em um email.
 
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus emails.
+
+* **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
 
 +++
 

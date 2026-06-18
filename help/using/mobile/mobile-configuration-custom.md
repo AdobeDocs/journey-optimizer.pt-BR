@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
 workflow-type: tm+mt
-source-wordcount: 1086
-ht-degree: 15%
+source-wordcount: 1161
+ht-degree: 14%
 
 ---
 
@@ -72,6 +72,16 @@ Para configurar seu provedor personalizado, siga as etapas abaixo:
 
 ## Criar a credencial da API {#api-credential}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_channel_type"
+>title="Tipo de canal"
+>abstract="Opcional. Classificar mensagens enviadas com esta credencial de provedor de SMS personalizado, por exemplo, SMS ou RCS. O Journey Optimizer grava o valor em eventos de experiência XDM para que você possa relatar e rastrear a entrega por canal."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_require_auth"
+>title="Autenticação"
+>abstract="Quando ativado, somente as solicitações autenticadas por meio do Adobe IMS são aceitas. Os chamadores devem incluir um token OAuth válido ao enviar dados para esse endpoint."
+
 Para enviar uma mensagem móvel no Journey Optimizer usando um provedor personalizado não disponível imediatamente pela Adobe (por exemplo, Sinch, Infobip, Twilio), siga estas etapas:
 
 1. No painel à esquerda, navegue até **[!UICONTROL Administração]** `>` **[!UICONTROL Canais]**, selecione o menu **[!UICONTROL Credenciais da API]** em **[!UICONTROL Configurações de SMS]** e clique no botão **[!UICONTROL Criar novas credenciais de API]**.
@@ -89,6 +99,8 @@ Para enviar uma mensagem móvel no Journey Optimizer usando um provedor personal
    * **[!UICONTROL Nome do Provedor]**: insira o nome do seu provedor de SMS.
 
    * **[!UICONTROL URL do Provedor]**: Insira a URL do seu provedor de SMS.
+
+   * **[!UICONTROL Tipo de Canal]**: Opcional. Indique qual canal móvel essa credencial representa, ou seja, SMS, RCS ou MMS.
 
    * **[!UICONTROL Tipo de Autenticação&#x200B;]**: selecione seu tipo de autorização e [preencha os campos correspondentes](#auth-options) com base no método de autenticação escolhido.
 

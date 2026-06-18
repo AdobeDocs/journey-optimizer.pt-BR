@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 3%
+source-wordcount: 955
+ht-degree: 2%
 
 ---
 
@@ -72,23 +72,51 @@ A tabela **[!UICONTROL Status da entrega]** oferece uma conta detalhada da ativi
 
 * **[!UICONTROL Entregues]**: número de mensagens SMS enviadas com êxito em relação ao número total de mensagens SMS.
 
-* **[!UICONTROL Rejeições para canais de saída]**: Total de erros acumulados durante o processo de envio e o processamento automático de retorno em relação ao número total de mensagens SMS enviadas.
+* **[!UICONTROL Rejeições]**: total de erros acumulados durante o processo de envio e o processamento automático de retorno em relação ao número total de mensagens SMS enviadas.
 
-* **[!UICONTROL Erros de saída]**: número total de erros que ocorreram, impedindo que fossem enviados a perfis.
+* **[!UICONTROL Enviar erros]**: Número total de erros que ocorreram, impedindo que fossem enviados a perfis.
 
-* **[!UICONTROL Exclusões de saída]**: número de perfis excluídos pelo Adobe Journey Optimizer.
+* **[!UICONTROL Enviar exclusões]**: número de perfis excluídos pelo Adobe Journey Optimizer.
 
 +++
 
-## Rótulos de link rastreado {#track-link-label-sms}
+## Visão geral da campanha {#campaign-global}
 
-A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral abrangente dos rótulos de links em suas mensagens SMS, destacando aqueles que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
+A tabela **[!UICONTROL Visão geral da campanha]** serve como um painel para o desempenho do SMS em sua campanha. Ele resume perfis direcionados, métricas de cliques e click-throughs (incluindo cliques estimados que excluem tráfego de interação de bot e não humano) e resultados do delivery, como rejeições, erros de envio e exclusões.
+
++++ Saiba mais sobre as métricas de visão geral do Campaign
+
+* **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para suas mensagens.
+
+* **[!UICONTROL Taxa de cliques]**: porcentagem de usuários que interagiram com a mensagem.
+
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em sua mensagem.
+
+* **[!UICONTROL Cliques únicos]**: número de perfis únicos que clicaram em pelo menos um conteúdo na mensagem móvel.
+
+* **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
+
+* **[!UICONTROL Entregues]**: número de emails enviados com êxito em relação ao número total de mensagens enviadas.
+
+* **[!UICONTROL Rejeições]**: número total de erros acumulados durante o processo de envio e o processamento automático de retorno em relação ao número total de mensagens enviadas.
+
+* **[!UICONTROL Enviar erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado a perfis.
+
+* **[!UICONTROL Enviar exclusões]**: número de perfis excluídos pelo Adobe Journey Optimizer. [Saiba mais sobre como as exclusões são contadas](exclusion-list.md#exclusion-list).
+
++++
+
+## Etiquetas rastreadas {#track-label-sms}
+
+A tabela **[!UICONTROL Rótulos rastreados]** oferece uma visão geral abrangente dos rótulos de links em suas mensagens SMS, destacando aqueles que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
 
 +++ Saiba mais sobre Métricas de rótulos de link rastreado
 
-* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em sua mensagem SMS.
-
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em suas mensagens SMS.
+
+* **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
+
+* **[!UICONTROL Cliques únicos]**: número de perfis únicos que clicaram em pelo menos um conteúdo na mensagem móvel.
 
 +++
 
@@ -98,9 +126,11 @@ A tabela **[!UICONTROL URLs de links rastreados]** fornece uma visão geral abra
 
 +++ Saiba mais sobre Métricas de URLs de link rastreado
 
-* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em sua mensagem SMS.
-
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em suas mensagens SMS.
+
+* **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
+
+* **[!UICONTROL Cliques únicos]**: número de perfis únicos que clicaram em pelo menos um conteúdo na mensagem móvel.
 
 * **[!UICONTROL Exibições]**: número de vezes que a mensagem foi aberta.
 

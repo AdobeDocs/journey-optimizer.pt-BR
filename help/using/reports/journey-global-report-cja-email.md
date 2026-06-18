@@ -28,9 +28,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 1125
+source-wordcount: 1229
 ht-degree: 2%
 
 ---
@@ -126,19 +126,18 @@ A tabela **[!UICONTROL Email - Estatísticas de rastreamento]** oferece uma cont
 
 * **[!UICONTROL Taxa de abertura de cliques (CTOR)]**: Número de vezes que o email foi aberto.
 
+* **[!UICONTROL Taxa de aberturas]**: porcentagem de perfis que abriram o email pelo menos uma vez, em relação ao número de emails entregues.
+
+* **[!UICONTROL Aberturas estimadas de email]**: Estimativa do total de aberturas de email que respondem por aberturas diretas por perfis e aberturas automatizadas acionadas por servidores de email. Essa métrica se ajusta para aberturas acionadas por servidores de email para verificação de privacidade ou segurança, aplicando uma taxa de abertura calculada a partir dos destinatários que abriram manualmente o email àqueles cujos emails foram abertos apenas por servidores de email.
+
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus emails.
 
-* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em um email.
-
-* **[!UICONTROL Aberturas de email]**: Número de vezes que seus emails foram abertos em uma campanha.
-
-* **[!UICONTROL Aberturas de Email Exclusivas]**: Número de perfis que abriram emails.
+* **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
 
 * **[!UICONTROL Reclamações de spam]**: número de vezes que uma mensagem foi declarada como spam ou lixo eletrônico.
 
-* **[!UICONTROL Cancelamentos de assinatura]**: Número de cliques no link de cancelamento de assinatura.
+* **[!UICONTROL Cancelamentos de assinatura]**: Número de cliques no link de cancelamento de assinatura ou na página de aterrissagem associada.
 
-* **[!UICONTROL Cancelamentos de assinatura de email únicos]**: Número de perfis que cancelaram a assinatura de seus emails.
 +++
 
 ## Domínios de email {#email-domains}
@@ -165,11 +164,11 @@ A tabela **[!UICONTROL Domínios de email]** oferece uma análise detalhada dos 
 
 +++
 
-## Rótulos de link rastreado {#track-link-label}
+## Etiquetas rastreadas {#track-link-label}
 
 ![](assets/cja-journey-tracked-link-labels.png)
 
-A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral abrangente dos rótulos de links em seus emails, destacando aqueles que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
+A tabela **[!UICONTROL Rótulos rastreados]** oferece uma visão geral abrangente dos rótulos de links em seus emails, destacando aqueles que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
 
 +++ Saiba mais sobre Métricas de rótulos de link rastreado
 
@@ -177,6 +176,7 @@ A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral 
 
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus emails.
 
+* **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
 +++
 
 ## URLs do link rastreado {#track-link-url}
@@ -191,6 +191,7 @@ A tabela **[!UICONTROL URLs de link rastreado]** fornece uma visão geral abrang
 
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus emails.
 
+* **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
 +++
 
 
