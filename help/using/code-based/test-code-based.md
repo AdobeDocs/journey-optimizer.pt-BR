@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 899
+source-wordcount: 896
 ht-degree: 22%
 
 ---
@@ -123,7 +123,7 @@ Ao criar experiências baseadas em código para páginas da Web ou aplicativos m
 
      >[!NOTE]
      >
-     >O **Adobe Experience Platform Assurance** é um produto da Adobe Experience Cloud que ajuda a inspecionar, testar, simular e validar a maneira como você coleta dados ou oferece experiências no aplicativo móvel. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/home){target="_blank"}
+     >O **Adobe Experience Platform Assurance** é um produto da [!DNL Adobe CX Enterprise] que ajuda a inspecionar, testar, simular e validar a maneira como você coleta dados ou oferece experiências no aplicativo móvel. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/home){target="_blank"}
 
 1. Se você estiver usando qualquer [outra plataforma](code-based-configuration.md#other) em sua configuração baseada em código, escolha o [URI da superfície](code-based-surface.md#surface-uri) que deseja visualizar na lista suspensa.
 

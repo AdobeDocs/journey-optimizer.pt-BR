@@ -16,9 +16,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: 623
 ht-degree: 4%
 
 ---
@@ -111,7 +111,7 @@ Para clientes identificados como tendo um alto risco de churn, crie um segmento 
 
    ![](assets/uc-interest-8.png){zoomable="yes"}
 
-Esse público-alvo é salvo na Experience Cloud, onde pode ser usado posteriormente para uma campanha direcionada específica.
+Este público é então salvo em [!DNL Adobe Experience Platform], onde pode ser usado posteriormente para uma campanha direcionada específica.
 
 ## Segmentos de baixo/médio risco {#low-medium-risk}
 

@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 829
-ht-degree: 96%
+source-wordcount: 826
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 96%
 
 ## Pesquisa {#unified-search}
 
-Na interface do Adobe Journey Optimizer, use o recurso de pesquisa unificada da Adobe Experience Cloud na parte central da barra superior para encontrar ativos, jornadas, conjuntos de dados e muito mais em suas sandboxes.
+Na interface do Adobe Journey Optimizer, use o recurso de pesquisa unificada do [!DNL Adobe CX Enterprise] no centro da barra superior para localizar ativos, jornadas, conjuntos de dados e muito mais em suas sandboxes.
 
 Comece a inserir conteúdo para exibir os principais resultados. Artigos de ajuda sobre as palavras-chave inseridas também são exibidos nos resultados.
 

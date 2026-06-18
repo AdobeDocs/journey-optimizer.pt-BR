@@ -38,9 +38,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 986
+source-wordcount: 984
 ht-degree: 3%
 
 ---
@@ -124,4 +124,4 @@ Para aprofundar a arquitetura técnica, incluindo padrões de integração, pré
 
 ## Privacidade e segurança {#privacy-security}
 
-As práticas de privacidade e segurança da Adobe Experience Cloud se aplicam ao Adobe Journey Optimizer. Essas medidas garantem a conformidade com as regulamentações de privacidade, como o GDPR, permitindo que você forneça experiências personalizadas, mantendo a confiança do cliente. [Saiba mais sobre privacidade no Journey Optimizer](../privacy/get-started-privacy.md)
+As práticas de privacidade e segurança de [!DNL Adobe CX Enterprise] se aplicam ao Adobe Journey Optimizer. Essas medidas garantem a conformidade com as regulamentações de privacidade, como o GDPR, permitindo que você forneça experiências personalizadas, mantendo a confiança do cliente. [Saiba mais sobre privacidade no Journey Optimizer](../privacy/get-started-privacy.md)

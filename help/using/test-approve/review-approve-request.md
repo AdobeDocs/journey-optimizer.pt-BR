@@ -17,9 +17,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: 374
 ht-degree: 3%
 
 ---
@@ -67,4 +67,4 @@ Após o envio da solicitação, o criador de jornadas/campanhas é notificado po
 
 >[!NOTE]
 >
-> Se você não estiver recebendo a notificação de aprovação por meio de um email, será necessário atualizar as preferências da assinatura nos perfis da Experience Cloud. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences)
+> Se você não estiver recebendo notificação de aprovação por email, precisará atualizar suas preferências de assinatura no perfil [!DNL CX Enterprise]. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences)

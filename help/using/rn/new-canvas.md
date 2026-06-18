@@ -18,9 +18,9 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: 558
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ Na captura de tela abaixo, é possível ver a interface do usuário reprojetada 
 
 ## Aprimoramento do design da tela de jornada
 
-Com o novo modelo do jornada, estamos introduzindo uma nova e aprimorada **interface do usuário da tela do jornada**, que se encaixa perfeitamente no ecossistema de aplicativos e soluções da Adobe Experience Cloud, proporcionando uma experiência do usuário intuitiva e eficiente. Qualquer jornada no novo modelo estará nesse novo design.
+Com o novo modelo do jornada, estamos introduzindo uma nova e aprimorada **interface do usuário da tela do jornada**, que se encaixa perfeitamente no ecossistema de aplicativos e soluções do [!DNL Adobe CX Enterprise], proporcionando uma experiência do usuário intuitiva e eficiente. Qualquer jornada no novo modelo estará nesse novo design.
 
 ![](assets/new-canvas3.gif)
 

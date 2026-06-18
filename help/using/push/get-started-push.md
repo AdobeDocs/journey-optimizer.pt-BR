@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 392
-ht-degree: 93%
+source-wordcount: 389
+ht-degree: 88%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 93%
 
 As notificações por push ajudam você a se comunicar com os usuários do aplicativo móvel e os visitantes do site a qualquer momento, especialmente quando eles não estão usando ativamente o aplicativo ou navegando no site. As notificações por push podem ajudar você em uma variedade de casos de uso, como fornecer atualizações sobre o serviço, solicitar que um usuário execute uma ação, alertá-lo sobre uma nova oportunidade etc. As plataformas de dispositivos exigem que os usuários aceitem o recebimento de notificações antes de poderem visualizá-las. A aceitação do usuário pode ser recebida assim que o aplicativo é iniciado pela primeira vez após a instalação ou em uma sessão ou fluxo de trabalho subsequente, conforme apropriado.
 
-O [!DNL Journey Optimizer] oferece suporte a notificações por push e ajuda a enviar notificações altamente relevantes com as melhores taxas de transferência do setor. As notificações por push podem incluir informações personalizadas e contexto baseado em jornadas, a fim de aproveitar os insights de dados que sua marca tem na Adobe Experience Cloud.
+O [!DNL Journey Optimizer] oferece suporte a notificações por push e ajuda a enviar notificações altamente relevantes com as melhores taxas de transferência do setor. As notificações por push podem incluir personalização e contexto baseado em Jornada para aproveitar os insights de dados que sua marca tem com o [!DNL Adobe CX Enterprise].
 
 As notificações por push podem ser criadas:
 

@@ -31,10 +31,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: ht
-source-wordcount: 2058
-ht-degree: 100%
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+workflow-type: tm+mt
+source-wordcount: 2056
+ht-degree: 99%
 
 ---
 
@@ -105,7 +105,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 
 **Jornadas**
 
-* **Editor de expressão** - Como um usuário avançado, agora você pode usar funções para trabalhar com mapas. Esse recurso pode ser aproveitado com as listas de assinaturas. Como exemplo, em um público-alvo, agora é possível obter um endereço de email a partir de uma lista de assinaturas. [Saiba mais neste exemplo ](../building-journeys/message-to-subscribers-uc.md)
+* **Editor de expressão** - Como um usuário avançado, agora você pode usar funções para trabalhar com mapas. Esse recurso pode ser aproveitado com as listas de assinaturas. Como exemplo, em um público-alvo, agora é possível obter um endereço de email a partir de uma lista de assinaturas. [Saiba mais neste exemplo &#x200B;](../building-journeys/message-to-subscribers-uc.md)
 
 * **Monitoramento** - Os eventos de etapa para jornadas ativas e modo de teste foram aprimorados. [Novos campos](../reports/sharing-field-list.md#servicevents-field) foram adicionados relacionados a processos de exportação de perfil. Para obter uma melhor experiência do usuário, os campos de evento de etapa agora estão organizados em categorias diferentes. Todos os campos de eventos de etapa anteriores ainda estão disponíveis na categoria [stepEvents](../reports/sharing-legacy-fields.md).
 * **Acessibilidade** - As melhorias de acessibilidade foram implementadas nas jornadas.
@@ -292,7 +292,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 
 **Interface do usuário**
 
-* **Pesquisa** - Em cada página, agora é possível pesquisar objetos de negócios e artigos de ajuda diretamente do campo de pesquisa inificada da Experience Cloud. [Saiba mais](../start/user-interface.md#unified-search)
+* **Pesquisa** - Em cada página, agora é possível pesquisar objetos de negócios e artigos de ajuda diretamente do campo de pesquisa Unificado [!DNL CX Enterprise]. [Saiba mais](../start/user-interface.md#unified-search)
 * **Recentes** - A exibição de elementos recentes da página inicial do Adobe Journey Optimizer agora se estende a objetos comerciais adicionais. Com essa atualização, os atalhos para o que você acessou recentemente incluem Mensagens, Jornadas, Públicos-alvo, Esquemas, Conjuntos de dados, Fontes de dados, Eventos, Ações, Origens e Destinos. [Saiba mais](../action/about-custom-action-configuration.md#passing-collection)
 
 **Design de conteúdo**
