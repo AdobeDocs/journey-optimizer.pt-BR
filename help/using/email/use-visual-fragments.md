@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 658cee88b071a292ddfd65f2876ebde11e438a67
+source-git-commit: 453eb09866109ef5af9f29f1986484e0f6de7040
 workflow-type: tm+mt
-source-wordcount: 1236
+source-wordcount: 1242
 ht-degree: 1%
 
 ---
@@ -139,11 +139,13 @@ Para personalizar campos editáveis em um fragmento usado em um email, siga esta
 
 1. Todos os campos editáveis no fragmento são exibidos na guia **[!UICONTROL Configurações]**, nas propriedades do fragmento.
 
-   ![](assets/fragment-editable-rich-fields.png)
+   No exemplo abaixo, a fonte da imagem e o texto alternativo podem ser editados, bem como os campos &quot;Título&quot;/&quot;Subtítulo&quot; e o URL do botão &quot;Mais informações&quot;.
+
+   ![](assets/fragment-editable-fields.png)
 
 1. Passe o mouse sobre qualquer campo editável na tela central. O campo é destacado em verde e um ícone de lápis é exibido ao clicar no texto que ele contém.
 
-   ![](assets/fragment-editable-field-selected.png){width="100%" align="center"}
+   ![](assets/fragment-editable-field-selected.png){width="80%" align="center"}
 
 1. Edite o texto do campo em linha diretamente na tela central do Designer de email.
 
@@ -155,15 +157,11 @@ Para personalizar campos editáveis em um fragmento usado em um email, siga esta
 
    ![Opções de formatação de rich text na barra de ferramentas do Designer de email](assets/fragment-editable-fields-rich-text.png)
 
-   >[!IMPORTANT]
+   >[!TIP]
    >
    >Os fragmentos criados antes da introdução do recurso de edição de rich text têm campos editáveis definidos como modo somente texto por padrão. Para habilitar opções completas de formatação, vá para o editor de fragmentos usando o botão **[!UICONTROL Abrir fragmento]**, clique em **[!UICONTROL Habilitar]** para desbloquear o modo rich-text e **[!UICONTROL Salvar]** o fragmento. [Saiba mais](../content-management/customizable-fragments.md#rich-text-visual)
-   >
-   >![](assets/email-custom-fragment-compatibility.png){width="70%" align="center"}
 
-1. No exemplo abaixo, a fonte da imagem e o texto alternativo podem ser editados, bem como os campos &quot;Título&quot;/&quot;Subtítulo&quot; e o URL do botão &quot;Mais informações&quot;.
-
-   ![](assets/fragment-editable-fields.png)
+   ![Aviso de compatibilidade no Email Designer](assets/email-custom-fragment-compatibility.png){width="50%" align="center" zoomable="yes"}
 
 1. Você pode clicar em **[!UICONTROL Simular conteúdo]** para ver como o conteúdo editável e o estilo são renderizados. [Saiba mais sobre a visualização de conteúdo](../content-management/preview-test.md)
 
