@@ -9,27 +9,13 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 TQID: https://experienceleague.adobe.com/YbH8cXjrh5E9v9twpwxB3ENb606W-1JAonJRxnorl9c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 453eb09866109ef5af9f29f1986484e0f6de7040
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 89c7799f3d330a0fceb40d55ab3da69fb6c279d8
 workflow-type: tm+mt
 source-wordcount: 1242
 ht-degree: 1%
@@ -161,7 +147,7 @@ Para personalizar campos editáveis em um fragmento usado em um email, siga esta
    >
    >Os fragmentos criados antes da introdução do recurso de edição de rich text têm campos editáveis definidos como modo somente texto por padrão. Para habilitar opções completas de formatação, vá para o editor de fragmentos usando o botão **[!UICONTROL Abrir fragmento]**, clique em **[!UICONTROL Habilitar]** para desbloquear o modo rich-text e **[!UICONTROL Salvar]** o fragmento. [Saiba mais](../content-management/customizable-fragments.md#rich-text-visual)
 
-   ![Aviso de compatibilidade no Email Designer](assets/email-custom-fragment-compatibility.png){width="50%" align="center" zoomable="yes"}
+   ![Aviso de compatibilidade no Email Designer](assets/email-custom-fragment-compatibility.png){width="50%" align="left" zoomable="yes"}
 
 1. Você pode clicar em **[!UICONTROL Simular conteúdo]** para ver como o conteúdo editável e o estilo são renderizados. [Saiba mais sobre a visualização de conteúdo](../content-management/preview-test.md)
 
