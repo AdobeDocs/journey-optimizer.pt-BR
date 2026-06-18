@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 95efd7b0af3f78ba0e7342a5927c7e2d4b9b701f
+source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
 workflow-type: tm+mt
-source-wordcount: 8472
-ht-degree: 95%
+source-wordcount: 8537
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 ## Junho de 2026 {#june-2026}
 
+* Uma nova atribuição de **Caminho na subseção de reentrada do jornada** foi adicionada à documentação de **experimentação de caminho**. Ela esclarece que a atribuição de caminho é persistente para um perfil em várias entradas na mesma versão do jornada, mas somente nessa versão do jornada. As atribuições são redefinidas quando uma nova versão do jornada é publicada e cada atividade de experimentação de caminho em uma jornada aplica uma atribuição aleatória independente. [Leia mais](../building-journeys/path-experimentation.md#path-assignment)
 * As referências à **Adobe Experience Cloud** foram alinhadas com a marca **[!DNL Adobe CX Enterprise]** na documentação [!DNL Journey Optimizer].
 
 * A página **Introdução à entregabilidade** foi atualizada com uma nova subseção **Provedores sem FBL** por destinatário. Ele lista os principais provedores de caixa de correio que não retornam reclamações de spam por recipient — Gmail/Google Workspace, Apple iCloud e Corporate Microsoft 365/Exchange Online — e explica por que a ausência de uma entrada de lista de supressão é esperada para destinatários que usam esses serviços. [Leia mais](../reports/deliverability.md#providers-no-fbl)
@@ -656,7 +657,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -686,7 +687,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=pt-BR){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -761,7 +762,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
