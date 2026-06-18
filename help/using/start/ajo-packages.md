@@ -9,7 +9,7 @@ role: Admin, User
 level: Beginner
 keywords: Otimizador de jornada, pacote, licença, campanhas, jornadas, canais, decisão, saída, móvel, web, modular, sms, mms, whatsapp, complementos, select, prime, ultimate, legacy
 hide: true
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: ef26246dd1bcd820bab1f226c3564a600ac5b506
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 2%
@@ -47,9 +47,9 @@ Não. O [!DNL Adobe Journey Optimizer] usa um modelo modular: a oferta base dete
 
 +++**Qual é a diferença entre Campanhas e Jornadas?**
 
-**As campanhas** são baseadas no público-alvo e planejadas pelo profissional de marketing — você define um público-alvo, cria uma mensagem e a agenda ou aciona como um envio em lote. Eles são melhores para alcance promocional, boletins informativos e fluxos de trabalho de público-alvo de várias etapas.
+**[As campanhas](../campaigns/get-started-with-campaigns.md)** são baseadas no público-alvo e planejadas pelo profissional de marketing — você define um público-alvo, cria uma mensagem e a agenda ou aciona como um envio em lote. Eles são melhores para alcance promocional, boletins informativos e fluxos de trabalho de público-alvo de várias etapas.
 
-As **Jornadas** são orientadas por eventos e em tempo real. Elas reagem ao comportamento individual do cliente à medida que ele ocorre e organizam 1:1 experiências nos pontos de contato. Eles são melhores para fluxos de integração, sequências pós-compra e mensagens acionadas em tempo real.
+As **[Jornadas](../building-journeys/journey-gs.md)** são orientadas por eventos e em tempo real. Elas reagem ao comportamento individual do cliente à medida que ele ocorre e organizam 1:1 experiências nos pontos de contato. Eles são melhores para fluxos de integração, sequências pós-compra e mensagens acionadas em tempo real.
 
 O **Campaigns &amp; Jornada** oferece ambos os recursos em uma única licença.
 
@@ -65,8 +65,8 @@ Há três ofertas básicas disponíveis. Cada uma delas corresponde a uma maneir
 
 | Oferta base | Melhor para | Comportamento principal |
 |-----------|---------|--------------|
-| **Journey Optimizer - Campanhas** | Lote, alcance planejado pelo profissional de marketing | Orquestração agendada com base no público-alvo. Workflows de campanha em uma ou várias etapas para envolvimento em lote e alcance planejado pelo profissional de marketing. |
-| **Journey Optimizer - Jornada** | Engajamento do cliente em tempo real | Orquestração de 1:1 orientada por evento. Oferece suporte à entrega de jornadas em tempo real e programada. |
+| **[Journey Optimizer - Campanhas](../campaigns/get-started-with-campaigns.md)** | Lote, alcance planejado pelo profissional de marketing | Orquestração agendada com base no público-alvo. Workflows de campanha em uma ou várias etapas para envolvimento em lote e alcance planejado pelo profissional de marketing. |
+| **[Journey Optimizer - Jornada](../building-journeys/journey-gs.md)** | Engajamento do cliente em tempo real | Orquestração de 1:1 orientada por evento. Oferece suporte à entrega de jornadas em tempo real e programada. |
 | **Journey Optimizer - Campanhas e Jornadas** | Clientes que precisam de ambos | Combina a orquestração de campanhas com base no público e a orquestração de jornadas em tempo real. |
 
 >[!IMPORTANT]
@@ -77,11 +77,11 @@ Há três ofertas básicas disponíveis. Cada uma delas corresponde a uma maneir
 
 | | Journey Optimizer - Campanhas | JOURNEY OPTIMIZER - JORNADA | Journey Optimizer - Campanhas e Jornadas |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| Orquestração em lote baseada no público-alvo | ✓ | Limitado¹ | ✓ |
-| Orquestração orientada por eventos em tempo real | — | ✓ | ✓ |
+| [Orquestração em lotes baseada em público-alvo](../campaigns/get-started-with-campaigns.md) | ✓ | Limitado¹ | ✓ |
+| [Orquestração orientada por eventos em tempo real](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
 | Mensagens transacionais (email, push, SMS) | ✓ | ✓ | ✓ |
-| Complementos de canal disponíveis | ✓ | ✓ | ✓ |
-| Complemento de decisão disponível | ✓ | ✓ | ✓ |
+| [Complementos de canal disponíveis](#channel-addons) | ✓ | ✓ | ✓ |
+| [Complemento de decisão disponível](#decisioning-addon) | ✓ | ✓ | ✓ |
 
 ¹ No **Journey Optimizer - Jornada**, a orquestração baseada em público só é suportada em casos de uso do jornada, não como campanhas em lote independentes.
 
@@ -95,7 +95,7 @@ Os canais não são agrupados na oferta base. Selecione o complemento de canal o
 
 Alcance públicos por meio de canais de mensagens de saída.
 
-**Inclui:** email, notificações por push, correspondência direta
+**Inclui:** [email](../email/get-started-email.md), [notificações por push](../push/get-started-push.md), [correspondência direta](../direct-mail/get-started-direct-mail.md)
 
 **Casos de uso típicos:** emails promocionais, alertas transacionais por push, campanhas por email físico
 
@@ -107,7 +107,7 @@ Inclui fundamentos de capacidade de entrega para suporte ao aquecimento de IP em
 
 Envolva os usuários do aplicativo com experiências móveis persistentes e na sessão.
 
-**Inclui:** mensagens no aplicativo, notificações por push, cartões de conteúdo, canais baseados em código para superfícies móveis
+**Inclui:** [mensagens no aplicativo](../in-app/get-started-in-app.md), [notificações por push](../push/get-started-push.md), [cartões de conteúdo](../content-card/get-started-content-card.md), [canais baseados em código](../code-based/get-started-code-based.md) para superfícies móveis
 
 **Casos de uso típicos:** fluxos de integração, anúncios de recursos, chamadas de atenção para fidelidade, ofertas no aplicativo em tempo real
 
@@ -117,7 +117,7 @@ Envolva os usuários do aplicativo com experiências móveis persistentes e na s
 
 Personalizar experiências da Web sem implantar código.
 
-**Inclui:** canal da Web (editor visual e não visual), canais baseados em código para superfícies da Web
+**Inclui:** [canal da Web](../web/get-started-web.md) (editor visual e não visual), [canais baseados em código](../code-based/get-started-code-based.md) para superfícies da Web
 
 **Casos de uso típicos:** banners de página inicial, personalização de página de aterrissagem, testes A/B, personalização da Web headless via API
 
@@ -127,7 +127,7 @@ Personalizar experiências da Web sem implantar código.
 
 O complemento **Todos os Canais** agrupa Entrega de saída + Dispositivo móvel + Web em uma única compra.
 
-**Inclui:** todos os canais dos três complementos individuais: email, notificações por push, correspondência direta, mensagens no aplicativo, cartões de conteúdo, canal da Web e canais baseados em código
+**Inclui:** todos os canais dos três complementos individuais — [email](../email/get-started-email.md), [notificações por push](../push/get-started-push.md), [correspondência direta](../direct-mail/get-started-direct-mail.md), [mensagens no aplicativo](../in-app/get-started-in-app.md), [cartões de conteúdo](../content-card/get-started-content-card.md), [canal da Web](../web/get-started-web.md) e [canais baseados em código](../code-based/get-started-code-based.md)
 
 **Casos de uso típicos:** programas omnicanais coordenados que abrangem saída, aplicativo móvel e Web — por exemplo, uma campanha que acompanha um email com uma mensagem no aplicativo e um banner da Web personalizado
 
@@ -174,11 +174,11 @@ Determinado pela sua oferta base.
 
 | Recurso | Campanhas | Jornadas | Campanhas e Jornadas |
 |-----------|:---------:|:--------:|:--------------------:|
-| Mensagens transacionais (email, push, SMS) | ✓ | ✓ | ✓ |
-| Campanhas em lote | ✓ | — | ✓ |
-| Campanhas orquestradas _(somente email, SMS, push, correspondência direta)_ | ✓ | — | ✓ |
-| Jornadas automatizadas | — | ✓ | ✓ |
-| Acionadores de eventos em tempo real | — | ✓ | ✓ |
+| Mensagens transacionais ([email](../email/get-started-email.md), [push](../push/get-started-push.md), [SMS](../mobile/get-started-mobile.md)) | ✓ | ✓ | ✓ |
+| [Campanhas em lote](../campaigns/get-started-with-campaigns.md) | ✓ | — | ✓ |
+| [Campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md) _(somente email, SMS, push, correspondência direta)_ | ✓ | — | ✓ |
+| [jornadas automatizadas](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
+| [Acionadores de eventos em tempo real](../event/about-events.md) | — | ✓ | ✓ |
 
 ### Canais e recursos avançados {#channel-capabilities}
 
@@ -186,17 +186,17 @@ A maioria dos canais está disponível em todas as três ofertas básicas e requ
 
 | Recurso | Disponibilidade | Complemento necessário |
 |-----------|-------------|----------------|
-| Email | Todas as ofertas básicas | Entrega de saída |
-| Notificações por push | Todas as ofertas básicas | Entrega de saída |
-| Correspondência direta | Todas as ofertas básicas | Entrega de saída |
-| SMS/MMS | Baseado na sua configuração licenciada | Baseado na sua configuração licenciada |
-| Mensagens no aplicativo | Todas as ofertas básicas | Dispositivo móvel |
-| Cartões de conteúdo | Todas as ofertas básicas | Dispositivo móvel |
-| Canal da web | Todas as ofertas básicas | Web |
-| Experiências baseadas em código | Todas as ofertas básicas | Móvel ou na Web |
-| WhatsApp | Baseado na sua configuração licenciada | WhatsApp |
-| Tomada de decisão | Depende da licença | Tomada de decisão |
-| Classificação baseada em IA | Depende da licença | Tomada de decisão |
+| [Email](../email/get-started-email.md) | Todas as ofertas básicas | Entrega de saída |
+| [Notificações por push](../push/get-started-push.md) | Todas as ofertas básicas | Entrega de saída |
+| [Correspondência direta](../direct-mail/get-started-direct-mail.md) | Todas as ofertas básicas | Entrega de saída |
+| [SMS/MMS](../mobile/get-started-mobile.md) | Baseado na sua configuração licenciada | Baseado na sua configuração licenciada |
+| [Mensagens no aplicativo](../in-app/get-started-in-app.md) | Todas as ofertas básicas | Dispositivo móvel |
+| [Cartões de conteúdo](../content-card/get-started-content-card.md) | Todas as ofertas básicas | Dispositivo móvel |
+| [Canal da Web](../web/get-started-web.md) | Todas as ofertas básicas | Web |
+| [Experiências baseadas em código](../code-based/get-started-code-based.md) | Todas as ofertas básicas | Móvel ou na Web |
+| [WhatsApp](../whatsapp/get-started-whatsapp.md) | Baseado na sua configuração licenciada | WhatsApp |
+| [Decisão](../experience-decisioning/gs-experience-decisioning.md) | Depende da licença | Tomada de decisão |
+| [Classificação baseada em IA](../offers/ranking/ai-models.md) | Depende da licença | Tomada de decisão |
 
 >[!NOTE]
 >
@@ -206,7 +206,7 @@ A maioria dos canais está disponível em todas as três ofertas básicas e requ
 
 +++**Quais canais são suportados nas campanhas Orquestradas?**
 
-As campanhas orquestradas (fluxos de trabalho de público em várias etapas usando o recurso de Orquestração de Campanhas) oferecem suporte somente a **email, SMS, notificações por push e correspondência direta**. Os canais de cartão de conteúdo, da Web, no aplicativo e com base em código não são compatíveis com fluxos de trabalho de campanha orquestradas.
+[Campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md) (fluxos de trabalho de público em várias etapas usando o recurso Campaign Orchestration) oferecem suporte somente a **email, SMS, notificações por push e correspondência direta**. Os canais de cartão de conteúdo, da Web, no aplicativo e com base em código não são compatíveis com fluxos de trabalho de campanha orquestradas.
 
 +++
 
