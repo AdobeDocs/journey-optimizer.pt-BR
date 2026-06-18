@@ -9,25 +9,15 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 TQID: https://experienceleague.adobe.com/OL0VFfxegvbTbSLKeqFaUNTeZllmFtjMW6bmh1XDF00
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 654
+source-wordcount: 651
 ht-degree: 18%
 
 ---
@@ -52,7 +42,7 @@ ht-degree: 18%
 
 Públicos são coleções de pessoas que compartilham comportamentos e/ou características semelhantes. Eles são configurados e mantidos de forma centralizada no Adobe Experience Platform usando o Serviço de segmentação da Adobe Experience Platform e prontamente acessíveis no Journey Optimizer para serem ativados em suas jornadas e campanhas.
 
-O Adobe Journey Optimizer fornece ferramentas robustas para criar, gerenciar e enriquecer públicos para aprimorar os esforços de marketing. Quando combinado com o Adobe Real-Time Customer Data Platform, o Journey Optimizer permite criar camadas de públicos para segmentações mais complexas e compartilhar públicos bidirecionalmente com outras soluções da Adobe Experience Cloud.
+O Adobe Journey Optimizer fornece ferramentas robustas para criar, gerenciar e enriquecer públicos para aprimorar os esforços de marketing. Quando combinado com o Adobe Real-Time Customer Data Platform, o Journey Optimizer permite criar camadas de públicos para segmentações mais complexas e compartilhar públicos bidirecionalmente com outras soluções da [!DNL Adobe CX Enterprise].
 
 À medida que ocorrem fluxos de dados em tempo real ou uploads em lote, os conjuntos de dados são atualizados e o Journey Optimizer move dinamicamente os indivíduos para dentro e para fora dos públicos-alvo e jornadas em tempo real.
 
@@ -60,7 +50,7 @@ O Adobe Journey Optimizer fornece ferramentas robustas para criar, gerenciar e e
 
 Esta documentação fornece informações sobre como trabalhar com públicos no [!DNL Adobe Journey Optimizer]. Informações detalhadas sobre o Portal de público-alvo e públicos-alvo estão disponíveis na documentação do Serviço de segmentação do Adobe Experience Platform. Consulte estas seções para obter mais detalhes:
 
-* [Guia da interface do usuário do serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Guia da interface do usuário do serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [Serviço de segmentação - Perguntas frequentes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/faq){target="_blank"}
 
