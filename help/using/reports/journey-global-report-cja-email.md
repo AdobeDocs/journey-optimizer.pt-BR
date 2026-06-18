@@ -9,28 +9,15 @@ role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
 TQID: https://experienceleague.adobe.com/nZejBuTk9AqwR77k6-odCK66c2UbGwMspElt2-1riz4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 1125
+source-wordcount: 1229
 ht-degree: 2%
 
 ---
@@ -46,7 +33,7 @@ ht-degree: 2%
 >[!INFO]
 >
 >Como a Apple apresentou novos recursos de proteção de privacidade para seu aplicativo de email nativo, incluindo a Proteção de privacidade de email, os remetentes não podem mais usar pixels de rastreamento para coletar dados em perfis que ativaram a Proteção de privacidade de email da Apple. Consequentemente, a capacidade do Adobe Journey Optimizer de rastrear aberturas de email usando pixels de rastreamento pode ser afetada.
-> [Saiba mais](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=pt) sobre o impacto das alterações de privacidade do Apple iOS no marketing por email.
+> [Saiba mais](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) sobre o impacto das alterações de privacidade do Apple iOS no marketing por email.
 > 
 > Recomendamos o foco em cliques e métricas de conversão, em vez de taxas abertas, para obter insights mais precisos.
 
@@ -126,19 +113,18 @@ A tabela **[!UICONTROL Email - Estatísticas de rastreamento]** oferece uma cont
 
 * **[!UICONTROL Taxa de abertura de cliques (CTOR)]**: Número de vezes que o email foi aberto.
 
+* **[!UICONTROL Taxa de aberturas]**: porcentagem de perfis que abriram o email pelo menos uma vez, em relação ao número de emails entregues.
+
+* **[!UICONTROL Aberturas estimadas de email]**: Estimativa do total de aberturas de email que respondem por aberturas diretas por perfis e aberturas automatizadas acionadas por servidores de email. Essa métrica se ajusta para aberturas acionadas por servidores de email para verificação de privacidade ou segurança, aplicando uma taxa de abertura calculada a partir dos destinatários que abriram manualmente o email àqueles cujos emails foram abertos apenas por servidores de email.
+
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus emails.
 
-* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em um email.
-
-* **[!UICONTROL Aberturas de email]**: Número de vezes que seus emails foram abertos em uma campanha.
-
-* **[!UICONTROL Aberturas de Email Exclusivas]**: Número de perfis que abriram emails.
+* **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
 
 * **[!UICONTROL Reclamações de spam]**: número de vezes que uma mensagem foi declarada como spam ou lixo eletrônico.
 
-* **[!UICONTROL Cancelamentos de assinatura]**: Número de cliques no link de cancelamento de assinatura.
+* **[!UICONTROL Cancelamentos de assinatura]**: Número de cliques no link de cancelamento de assinatura ou na página de aterrissagem associada.
 
-* **[!UICONTROL Cancelamentos de assinatura de email únicos]**: Número de perfis que cancelaram a assinatura de seus emails.
 +++
 
 ## Domínios de email {#email-domains}
@@ -165,11 +151,11 @@ A tabela **[!UICONTROL Domínios de email]** oferece uma análise detalhada dos 
 
 +++
 
-## Rótulos de link rastreado {#track-link-label}
+## Etiquetas rastreadas {#track-link-label}
 
 ![](assets/cja-journey-tracked-link-labels.png)
 
-A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral abrangente dos rótulos de links em seus emails, destacando aqueles que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
+A tabela **[!UICONTROL Rótulos rastreados]** oferece uma visão geral abrangente dos rótulos de links em seus emails, destacando aqueles que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
 
 +++ Saiba mais sobre Métricas de rótulos de link rastreado
 
@@ -177,6 +163,7 @@ A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral 
 
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus emails.
 
+* **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
 +++
 
 ## URLs do link rastreado {#track-link-url}
@@ -191,6 +178,7 @@ A tabela **[!UICONTROL URLs de link rastreado]** fornece uma visão geral abrang
 
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus emails.
 
+* **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
 +++
 
 
