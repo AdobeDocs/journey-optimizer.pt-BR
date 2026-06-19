@@ -24,7 +24,7 @@ Saiba mais sobre os fundamentos do Adobe Journey Optimizer e como ele permite um
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 O que é o Journey Optimizer?
 
@@ -34,7 +34,7 @@ Descubra os principais recursos, casos de uso e como o Journey Optimizer fornece
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Entenda como funciona
 
@@ -44,7 +44,7 @@ Saiba como o Journey Optimizer se integra à Adobe Experience Platform e como su
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=pt-BR)
 
 Terminologia principal
 
@@ -54,7 +54,7 @@ Termos e conceitos essenciais para ajudar você a navegar pelo Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 IA e recursos inteligentes
 
@@ -71,7 +71,7 @@ Comece com uma orientação específica para função personalizada de acordo co
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=pt-BR)
 
 Para profissionais de marketing
 
@@ -81,7 +81,7 @@ Projete jornadas do cliente, crie campanhas e personalize o conteúdo para engaj
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=pt-BR)
 
 Para Engenheiros de dados
 
@@ -91,7 +91,7 @@ Configure estruturas de dados, gerencie esquemas e conjuntos de dados e garanta 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Para admins
 
@@ -101,7 +101,7 @@ Defina ambientes, gerencie permissões e configure canais para sua organização
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
 
 Para desenvolvedores
 
@@ -120,7 +120,7 @@ Não tem certeza de onde começar? Encontre a capacidade que corresponde à sua 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Encontre a capacidade certa para sua meta
 
@@ -137,7 +137,7 @@ Pule direto para as áreas onde você faz seu trabalho diário.
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Jornadas
 
@@ -145,7 +145,7 @@ Jornadas
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=pt-BR)
 
 Campanhas
 
@@ -153,7 +153,7 @@ Campanhas
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Gerenciamento de conteúdo
 
@@ -161,7 +161,7 @@ Gerenciamento de conteúdo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Relatório
 
@@ -176,7 +176,7 @@ Domine a interface e utilize recursos inteligentes para acelerar seu trabalho.
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=pt-BR)
 
 Navegar na interface
 
@@ -186,7 +186,7 @@ Saiba como usar a interface do Journey Optimizer, acessar os principais recursos
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Pesquise e organize
 
@@ -196,7 +196,7 @@ Use pesquisas, filtros e tags para gerenciar jornadas, campanhas e conteúdo com
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=pt-BR)
 
 Perguntas frequentes sobre solução de problemas
 
@@ -221,7 +221,7 @@ Encontre respostas para perguntas frequentes e soluções para problemas comuns 
 * **[Manuais de estratégia de caso de uso](../using/start/ai-features.md#playbooks)**: fluxos de trabalho pré-criados para cenários comuns, como recuperação de carrinho abandonado e campanhas de boas-vindas
 * **[Monitoramento e solução de problemas](troubleshoot-journey-landing-page.md)** - Ferramentas para monitorar o desempenho, identificar problemas e resolvê-los rapidamente
 * **[Novidades](../using/rn/release-notes.md)** - atualize-se com os recursos, melhorias e correções mais recentes
-* **[Fórum da comunidade](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - Conecte-se com outros usuários, faça perguntas e compartilhe práticas recomendadas
+* **[Fórum da comunidade](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}** - Conecte-se com outros usuários, faça perguntas e compartilhe práticas recomendadas
 * **[Atualizações da documentação](../using/rn/documentation-updates.md)** - Informe-se sobre as alterações e adições recentes à documentação
 
 ## Links rápidos {#quick-links}
