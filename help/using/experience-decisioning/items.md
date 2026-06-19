@@ -12,9 +12,9 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 2374
+source-wordcount: 2364
 ht-degree: 16%
 
 ---
@@ -79,7 +79,7 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 
      >[!AVAILABILITY]
      >
-     >Esse recurso está disponível em Disponibilidade limitada para canais de saída com suporte à Decisão. Para solicitar acesso, entre em contato com o representante da Adobe.
+     >Esse recurso está disponível para canais de saída com suporte à Decisão.
 
      Para obter pré-requisitos e medidas de proteção, consulte [Usar fragmentos de conteúdo do AEM com a Experience Decisioning](../integrations/aem-fragments.md#aem-decisioning).
 
