@@ -10,23 +10,15 @@ keywords: inserir novamente, jornada, encerrar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 9f9b9aa34e369132d0d595788edb3068be4c2cb6
 workflow-type: tm+mt
-source-wordcount: 1203
+source-wordcount: 1266
 ht-degree: 2%
 
 ---
@@ -119,6 +111,8 @@ A definição de &quot;concluído&quot; varia dependendo do tipo de jornada:
 
 Fechar uma jornada manualmente garante que os clientes que já entraram na jornada possam concluir seu caminho, mas os novos usuários não podem entrar na jornada. Quando uma jornada for fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Fechada]**. A jornada pára de permitir que novos indivíduos entrem na jornada. Os perfis que já estão na jornada podem concluí-la normalmente. Após o tempo limite global padrão de 91 dias, a jornada mudará para o status **Concluído**.
 
+Você pode parar uma jornada do estado **Ativo** ou **Pausado**. Quando a jornada está **Pausada**, não é necessário retomá-la para o **Live** primeiro. [Saiba mais sobre como parar uma jornada pausada](journey-pause.md#stop-close-paused).
+
 Para fechar uma jornada da lista de jornadas, clique no botão **[!UICONTROL Reticências]** localizado à direita do nome da jornada e selecione **[!UICONTROL Fechar para novas entradas]**.
 
 ![Lista suspensa Concluir ação no menu de ações rápidas para encerrar a jornada](assets/journey-finish-quick-action.png)
@@ -136,6 +130,8 @@ Você também pode:
 ## Parar uma jornada {#stop-journey}
 
 Caso precise interromper o progresso de todos os indivíduos na jornada, você pode interrompê-lo. Interromper o tempo limite da jornada para todos os indivíduos na jornada. No entanto, parar uma jornada envolve que as pessoas que já entraram em uma jornada sejam todas interrompidas em seu progresso. A jornada está basicamente desligada. Se você deseja terminar com uma jornada, a prática recomendada é [fechá-la](#close-journey).
+
+Você também pode parar uma jornada **Paused** diretamente, sem retomá-la para o **Live** primeiro. [Saiba mais](journey-pause.md#stop-close-paused).
 
 Você pode interromper uma jornada, por exemplo, se um profissional de marketing perceber que a jornada está direcionada ao público errado ou se uma ação personalizada que deveria entregar mensagens não está funcionando corretamente. Para interromper uma jornada da lista de jornadas, clique no botão **[!UICONTROL Reticências]** localizado à direita do nome da jornada e selecione **[!UICONTROL Parar]**.
 
@@ -162,3 +158,4 @@ Quando parado, o status da jornada é definido como **[!UICONTROL Parado]**.
 * [Gerenciamento de entrada de perfil](entry-management.md) - Configure como os perfis entram nas jornadas
 * [Configurar critérios de saída](journey-properties.md#exit-criteria) - Configurar a remoção automática de perfil do jornada
 * [Pausar uma jornada](journey-pause.md) - Interromper temporariamente a execução da jornada
+* [Parar ou fechar uma jornada pausada](journey-pause.md#stop-close-paused) - Encerra uma jornada pausada sem retomá-la primeiro
