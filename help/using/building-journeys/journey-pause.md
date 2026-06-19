@@ -29,9 +29,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+source-git-commit: 766e374ef612364ab0c1a0b32a1b2a9f68518ad5
 workflow-type: tm+mt
-source-wordcount: 2609
+source-wordcount: 2787
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba como pausar e retomar uma jornada em tempo real para fazer alterações com segurança ou parar de enviar, incluindo a aplicação dos critérios de saída do atributo de perfil durante a pausa.
+**Nesta página:** saiba como pausar e retomar uma jornada em tempo real para fazer alterações com segurança ou parar de enviar, parar ou fechar uma jornada pausada sem retomá-la primeiro e aplicar os critérios de saída do atributo de perfil durante a pausa.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ ht-degree: 4%
 >title="Pausar sua jornada"
 >abstract="Pausar uma jornada em tempo real impede que novos perfis entrem. Os perfis que estão atualmente na jornada podem ser descartados ou mantidos no lugar. Se retidos, eles retomarão a execução na próxima atividade de ação depois que a jornada for reiniciada. Perfeito para atualizações ou interrupções de emergência sem perder o progresso."
 
-Você pode pausar suas jornadas ativas, executar todas as alterações necessárias e retomá-las a qualquer momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante a pausa, você pode [aplicar os critérios de saída do atributo de perfil](#journey-exit-criteria) para excluir perfis com base em seus atributos. A jornada é retomada automaticamente no final do período de pausa. Você também pode [retomá-lo manualmente](#journey-resume-steps).
+Você pode pausar suas jornadas ativas, executar todas as alterações necessárias e retomá-las a qualquer momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante a pausa, você pode [aplicar os critérios de saída do atributo de perfil](#journey-exit-criteria) para excluir perfis com base em seus atributos. A jornada é retomada automaticamente no final do período de pausa. Você também pode [retomá-la manualmente](#journey-resume-steps) ou [parar a jornada](#stop-close-paused) do estado **Pausado** sem retomá-la primeiro.
 
 ## Principais benefícios {#journey-pause-benefits}
 
@@ -141,6 +141,24 @@ Para retomar uma jornada pausada e começar a ouvir eventos de jornada novamente
 
 
 Na lista de suas jornadas, você pode retomar uma ou várias jornadas **Pausadas**. Para retomar um grupo de jornadas (_retomada em massa_), selecione-as e clique no botão **Retomar**, localizado na barra azul na parte inferior da tela. Observe que o botão **Retomar** só estará disponível quando as jornadas **Pausadas** forem selecionadas.
+
+## Parar uma jornada pausada {#stop-close-paused}
+
+Se você decidir não retomar uma jornada pausada, poderá encerrá-la no estado **Pausado**. Isso encerra todo o processamento da jornada imediatamente e interrompe todos os perfis que ainda estão na jornada. [Saiba mais sobre como parar uma jornada](end-journey.md#stop-journey).
+
+Para interromper uma jornada pausada na tela de jornada, siga estas etapas:
+
+1. Abra a jornada **Em Pausa** que deseja parar ou fechar.
+1. Clique no botão **...Mais** na seção superior direita da tela de jornada.
+1. Selecione **[!UICONTROL Parar]** e confirme na caixa de diálogo.
+
+Na lista de suas jornadas, você também pode clicar no botão **[!UICONTROL Reticências]** à direita do nome da jornada pausada e selecionar **[!UICONTROL Parar]**.
+
+>[!IMPORTANT]
+>
+>Não é possível reiniciar ou excluir uma jornada [fechada](end-journey.md#close-journey) ou [interrompida](end-journey.md#stop-journey). Você pode [criar uma nova versão](publish-journey.md#journey-versions) ou [duplicá-la](journey-ui.md#duplicate-a-journey).
+>
+>Parar uma jornada requer a permissão **[!DNL Manage journeys]**. Se a jornada incluir campanhas integradas ou nós de mensagens, os usuários também precisarão de **Campanhas > Publicar campanhas** permissões. [Saiba mais sobre permissões de interrupção](end-journey.md#stop-journey).
 
 ## Visualização quando uma jornada foi pausada ou retomada {#view-pause-resume-info}
 

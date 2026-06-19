@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+source-git-commit: 3389c7358327cc601fc1ab937d325c47462db12f
 workflow-type: tm+mt
-source-wordcount: 3758
+source-wordcount: 3797
 ht-degree: 25%
 
 ---
@@ -133,6 +133,10 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 </tr>
 </tbody>
 </table>
+
+* **Parar uma jornada pausada diretamente** - Agora é possível parar uma jornada diretamente do estado **Pausado**. Anteriormente, uma jornada pausada tinha que ser retomada ao **Live** antes de ser interrompida. [Leia mais](../building-journeys/journey-pause.md#stop-close-paused)
+
+  Data de disponibilidade: 18 a 22 de junho de 2026
 
 * **Compatibilidade com identificador complementar para públicos-alvo externos**: agora, para públicos-alvo externos, os identificadores complementares são permitidos nas jornadas, incluindo públicos-alvo importados de um arquivo CSV e públicos-alvo criados com a composição de público-alvo federado. Você pode designar como identificador complementar qualquer atributo do público-alvo que não seja de identidade ou atributo de identidade que não seja de pessoa. Não é necessário rótulo de esquema. [Leia mais](../building-journeys/supplemental-identifier.md)
 
