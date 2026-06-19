@@ -12,9 +12,9 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
 workflow-type: tm+mt
-source-wordcount: 2364
+source-wordcount: 2363
 ht-degree: 16%
 
 ---
@@ -79,7 +79,7 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 
      >[!AVAILABILITY]
      >
-     >Esse recurso está disponível para canais de saída com suporte à Decisão.
+     >Esse recurso está disponível para canais com suporte à Decisão.
 
      Para obter pré-requisitos e medidas de proteção, consulte [Usar fragmentos de conteúdo do AEM com a Experience Decisioning](../integrations/aem-fragments.md#aem-decisioning).
 
