@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Encontre a capacidade certa do Journey Optimizer para sua meta
-description: Um guia de decisão que mapeia objetivos comuns de profissionais para o recurso certo do Adobe Journey Optimizer, com tutoriais práticos, para que você possa encontrar a ferramenta certa para o que deseja realizar e começar rapidamente.
+title: Visão geral dos casos de uso do Journey Optimizer | ADOBE JOURNEY OPTIMIZER
+description: Descubra os principais casos de uso para os quais a Adobe Journey Optimizer foi projetada, com orientações sobre quais recursos da AJO se encaixam melhor em cada cenário.
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 keywords: Otimizador de jornadas, caso de uso, guia de decisão, qual recurso, introdução, objetivos de profissionais, tutoriais
-source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
+source-git-commit: 054de625361914e217c27782b487db1933c3230f
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 21%
+source-wordcount: '2821'
+ht-degree: 36%
 
 ---
 
@@ -25,7 +25,11 @@ ht-degree: 21%
 
 O [!DNL Adobe Journey Optimizer] oferece muitos recursos, e o correto depende do que você está tentando alcançar. Este guia é organizado em torno de metas comerciais, em vez de recursos do produto: encontre a meta que corresponda a sua necessidade e, em seguida, siga o link para começar com o recurso recomendado.
 
-Use esta página como um roteador rápido — verifique sua meta e vá direto para o recurso certo. Se você preferir seguir instruções passo a passo e vídeos guiados, comece com o [Hub de integração](onboarding-hub.md).
+Use esta página como um roteador rápido — verifique sua meta e vá direto para o recurso certo. Se você está apenas começando, comece com [Comece a usar o Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para encontrar o ponto de entrada correto para sua função.
+
+>[!NOTE]
+>
+>Para obter amostras passo a passo de implementação, consulte a [biblioteca de casos de uso do Jornada](../building-journeys/jo-use-cases.md).
 
 Quando um tutorial completo não está disponível para um cenário específico, o link direciona você ao melhor ponto de partida atual para conhecer o recurso e começar.
 
@@ -33,7 +37,7 @@ A IA está incorporada em muitos desses recursos — procure a tag **(AI)** nas 
 
 >[!TIP]
 >
->Novo no Journey Optimizer? Comece com o [Hub de integração](onboarding-hub.md) para obter instruções passo a passo, casos de uso com curadoria e vídeos. Você também pode navegar pelos [tutoriais completos do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} (vídeos e apresentações guiadas), seguir uma [lista de reprodução de vídeo](https://experienceleague.adobe.com/pt-br/playlists?solution=Journey+Optimizer){target="_blank"} com curadoria de um especialista e praticar em uma [sandbox de treinamento](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} ou com os [desafios práticos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
+>Novo no Journey Optimizer? Comece com [Comece a usar o Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para escolher o caminho certo para sua função e leia [O que é o Journey Optimizer](get-started.md) para o básico. Para criar confiança prática, navegue pelos [tutoriais do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, siga uma [lista de reprodução de vídeo](https://experienceleague.adobe.com/pt-br/playlists?solution=Journey+Optimizer){target="_blank"} com curadoria de especialista e pratique em uma [sandbox de treinamento](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} ou com os [desafios práticos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
 
 ## Configurar o Journey Optimizer para a sua equipe {#setup-admin}
 
@@ -131,6 +135,171 @@ Para rastrear o desempenho, diagnosticar problemas e melhorar os resultados ao l
 | Analisar um experimento e obter recomendações para a próxima etapa | Experimentation Agent **(IA)** | [Experimentation Agent](ai-features.md#experimentation-agent) · [Tutorial](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/experimentation/experimentation-agent-overview){target="_blank"} |
 | Monitorar a integridade e a latência de ações personalizadas em minhas jornadas | Monitoramento de ação personalizado | [Usar ações personalizadas](../building-journeys/using-custom-actions.md) <!-- TODO: verify target — no dedicated "custom-action-monitoring.md" page found; using-custom-actions.md is the closest existing page --> |
 | Receber alerta quando as taxas de erro de jornada ou descarte excederem os limites | Jornada alertas | [Configurar alertas de jornada](../reports/alerts.md) |
+
+## Fluxos iniciais {#starter-flows}
+
+Cada fluxo inicial abaixo é um conjunto de etapas curto e orientado por resultados: para que você construirá, para quem é e como chegar lá. Escolha a meta que corresponde ao primeiro projeto e siga os links para a documentação detalhada.
+
+### Dê as boas-vindas a novos clientes {#flow-welcome}
+
+**Você criará:** uma série de boas-vindas automatizada que saúda cada novo assinante e estimula os assinantes inativos.
+**Recomendado para:** Profissionais de marketing · **Recurso:** jornada acionada por evento
+
+1. Confirme se os [perfis e públicos-alvo unificados](../audience/get-started-profiles.md) estão recebendo o evento de inscrição.
+1. [Crie sua primeira jornada](../building-journeys/journey-gs.md) e use o evento de inscrição como entrada.
+1. Adicione um [email](../email/get-started-email.md) de boas-vindas, uma etapa de espera e uma [notificação por push](../push/get-started-push.md) de acompanhamento para perfis que não estejam envolvidos.
+1. [Personalize o conteúdo](../personalization/personalize.md) com atributos de perfil, como nome e interesses declarados.
+
+➡️ [Iniciar com jornadas](../building-journeys/journey-gs.md)
+
+### Recuperar carrinhos abandonados {#flow-cart}
+
+**Você compilará:** um fluxo de recuperação em tempo real que lembra aos clientes os itens deixados para trás.
+**Recomendado para:** Profissionais de marketing · **Recurso:** jornada acionada por evento
+
+1. Certifique-se de que o evento de abandono do carrinho chegue à Journey Optimizer (trabalhe com sua [equipe de dados](../data/gs-data.md), se necessário).
+1. [Criar uma jornada](../building-journeys/journey-gs.md) acionada pelo evento de abandono.
+1. Envie um email de lembrete personalizado. Se não houver clique em 24 horas, ramifique para um acompanhamento de [push](../push/get-started-push.md).
+1. [Personalize](../personalization/personalize.md) com os itens abandonados e o status de fidelidade.
+
+➡️ [Iniciar com jornadas](../building-journeys/journey-gs.md)
+
+### Enviar mensagens transacionais {#flow-transactional}
+
+**Você compilará:** Confirmações de pedidos, remessas ou compromissos sob demanda disparadas por um sistema externo.
+**Recomendado para:** Profissionais de marketing e desenvolvedores · **Recurso:** Campanha acionada por um sistema externo
+
+1. Revise como [campanhas acionadas por um sistema externo](../campaigns/api-triggered-campaigns.md) funcionam e qual carga eles esperam.
+1. Crie o modelo de mensagem e [personalize](../personalization/personalize.md) com os detalhes da transação.
+1. Peça ao desenvolvedor para chamar o endpoint da campanha a partir do seu pedido ou sistema de atendimento.
+
+➡️ [Trabalhar com campanhas acionadas por um sistema externo](../campaigns/api-triggered-campaigns.md)
+
+### Iniciar uma campanha com teste de conteúdo {#flow-campaign}
+
+**Você compilará:** uma promoção agendada que escolhe automaticamente o conteúdo com melhor desempenho.
+**Recomendado para:** Profissionais de marketing · **Recurso:** Campanha agendada + experimentação de conteúdo
+
+1. [Comece com campanhas](../campaigns/get-started-with-campaigns.md) e defina seu público.
+1. Use a [geração de conteúdo](../content-management/gs-generative.md) para rascunhar variações de linha de assunto e cópia.
+1. Configure um [experimento de conteúdo](../content-management/experiment-accelerator-gs.md) para testar variantes em uma amostra e, em seguida, envie o vencedor para o resto.
+
+➡️ [Introdução às campanhas](../campaigns/get-started-with-campaigns.md)
+
+### Personalizar ofertas por cliente {#flow-offers}
+
+**Você criará:** uma decisão que mostra a melhor oferta para cada cliente.
+**Recomendado para:** Profissionais de marketing · **Funcionalidade:** Decisão
+
+1. [Comece a usar o Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) e crie suas ofertas e regras de qualificação.
+1. Adicione a decisão a uma [jornada](../building-journeys/journey-gs.md) ou mensagem de campanha.
+1. Camada em [recursos inteligentes](ai-features.md) para classificar e otimizar ofertas automaticamente.
+
+➡️ [Introdução ao Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)
+
+## Exemplos de cenários {#example-scenarios}
+
+Estes exemplos ilustram como os recursos do Journey Optimizer trabalham em conjunto em diferentes funções, setores e canais.
+
+### Recuperação de remessa atrasada {#scenario-delayed-shipment}
+
+**Função:** profissional de marketing | **Recurso principal:** [perfil unificado + exclusão de público-alvo](../audience/get-started-profiles.md)
+
+Normalmente, uma loja de roupas envia pesquisas de satisfação pós-compra a todos os clientes que compraram produtos na última semana. Devido às intempéries, alguns carregamentos sofreram atrasos. Ao ver quais clientes não receberam suas remessas, a loja de roupas pode excluir essas pessoas do envio agendado da pesquisa de satisfação do cliente e, em vez disso, enviar um email personalizado pedindo desculpas pelo atraso e oferecendo um código de desconto com recomendações de produto baseadas em suas compras anteriores.
+
+[Introdução às campanhas](../campaigns/get-started-with-campaigns.md)
+
+### Engajamento na loja em tempo real {#scenario-instore}
+
+**Função:** profissional de marketing | **Recurso principal:** [Acionamento de geofence + push](../push/get-started-push.md)
+
+O mesmo varejista pode interagir em tempo real com um cliente fiel que chega ao estacionamento da loja, enviando uma notificação por push sobre um suéter que voltou ao estoque no tamanho desejado.
+
+[Introdução às notificações por push](../push/get-started-push.md)
+
+### Recuperação de abandono de carrinho {#scenario-cart}
+
+**Função:** profissional de marketing | **Recurso principal:** [jornada de várias etapas acionada por eventos](../building-journeys/journey-gs.md)
+
+Quando um cliente adiciona itens a um carrinho online, mas sai sem concluir a compra, o Journey Optimizer detecta o evento em tempo real e inicia uma jornada de recuperação automaticamente. O cliente recebe um email personalizado lembrando sobre os itens deixados para trás. Se ele não clicar no dentro de 24 horas, uma notificação por push de acompanhamento será enviada, personalizada com base no histórico de navegação e no status de fidelidade.
+
+[Crie a primeira jornada](../building-journeys/journey-gs.md)
+
+### Série de boas-vindas do serviço de streaming {#scenario-welcome}
+
+**Função:** profissional de marketing | **Recurso principal:** [jornada de boas-vindas acionada por evento](../building-journeys/journey-gs.md)
+
+Quando um cliente assina um serviço de streaming, o Journey Optimizer detecta o evento de inscrição e inicia imediatamente uma jornada de boas-vindas de várias etapas. O cliente recebe um email de boas-vindas incentivando-o a abrir o aplicativo pela primeira vez. Se nenhuma atividade de logon for detectada em 48 horas, uma notificação por push de acompanhamento é enviada com recomendações de conteúdo personalizadas com base em seus interesses declarados durante a inscrição, transformando um assinante passivo em um usuário ativo e engajado desde o primeiro dia.
+
+[Crie a primeira jornada](../building-journeys/journey-gs.md)
+
+### Lembrete de reserva com instruções {#scenario-reservation}
+
+**Função:** profissional de marketing | **Recurso principal:** [mensagens agendadas + com reconhecimento de local](../campaigns/get-started-with-campaigns.md)
+
+Uma marca de hospitalidade envia a cada hóspede um lembrete oportuno uma hora antes de sua reserva. A notificação inclui o nome do hóspede, o horário da reserva e as indicações de como chegar ao local com base na localização, tudo isso reunido automaticamente a partir do perfil do cliente e dos dados da reserva, sem qualquer intervenção manual da equipe de marketing.
+
+[Introdução às campanhas](../campaigns/get-started-with-campaigns.md)
+
+### Notificação proativa de interrupção de serviço {#scenario-outage}
+
+**Função:** operações | **Recurso principal:** [seleção automática de público-alvo em grande escala](../audience/about-audiences.md)
+
+Quando ocorre uma interrupção do serviço, o Journey Optimizer identifica automaticamente os clientes afetados com base nos dados da conta e nos padrões de uso. Esses clientes recebem uma notificação proativa confirmando o problema e descrevendo as próximas etapas, transformando uma experiência potencialmente negativa em um momento de transparência e confiança, entregue em grande escala.
+
+[Crie a primeira jornada](../building-journeys/journey-gs.md)
+
+### Campanha promocional inteligente {#scenario-ai-campaign}
+
+**Função:** Profissional de marketing | **Recurso principal:** [Geração de conteúdo + experimentação](ai-features.md)
+
+Um planejamento de marca de varejo em um lançamento de produto usa o Assistente de IA do Journey Optimizer para gerar variações de linha de assunto e texto em minutos, orientadas por um prompt de linguagem natural e suas diretrizes de marca carregadas. A experimentação de conteúdo integrada identifica automaticamente a variante com melhor desempenho entre uma amostra de público-alvo inicial. A mensagem vencedora é implantada nos destinatários restantes, maximizando o engajamento sem esforço adicional de redação.
+
+[Explorar recursos inteligentes](ai-features.md) | [Saiba mais sobre a experimentação de conteúdo](../content-management/experiment-accelerator-gs.md)
+
+### Alertas de manutenção por meio de aplicativo móvel {#scenario-maintenance}
+
+**Função:** operações | **Recurso principal:** [orquestração de jornadas que não são de marketing](../building-journeys/journey-gs.md)
+
+Profissionais que não atuam no marketing, como equipes de operações e suporte ao cliente, podem usar o [!DNL Adobe Journey Optimizer] para gerenciar notificações operacionais ou monitorar processos de integração. Por exemplo, um parque de diversões onde os visitantes baixam um aplicativo móvel como parte da experiência: a equipe de manutenção pode usar o Journey Optimizer para notificar os visitantes sobre as atrações que estão fechadas atualmente devido à manutenção.
+
+[Crie a primeira jornada](../building-journeys/journey-gs.md)
+
+## Biblioteca de vídeos {#videos}
+
+Navegue por conteúdo de vídeo preparado por tópico. Cada guia está vinculada aos tutoriais e listas de reprodução relevantes no Experience League.
+
+>[!BEGINTABS]
+
+>[!TAB Introdução]
+
+* [Introdução ao Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — Conceitos principais e um tour pelo produto.
+* [Visão geral dos tutoriais do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} — o catálogo completo de vídeos guiados.
+
+>[!TAB Jornadas e campanhas]
+
+* [Introdução à criação de uma jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"} — Crie sua primeira jornada acionada por evento.
+* [Criar jornadas com o Journey Agent](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/journeys/journey-agent-overview){target="_blank"} — Crie jornadas a partir de um prompt em linguagem natural.
+
+>[!TAB Personalization e inteligência]
+
+* [Assistente de IA para geração de conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} — Gerar cópia, imagens e variações.
+* [Use o decisioning para personalizar ofertas da Web](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} — Personalize ofertas por cliente.
+
+>[!TAB Relatórios e otimização]
+
+* [Monitore e analise sua jornada com relatórios ao vivo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — Acompanhe o desempenho em tempo real.
+* [Criar experimentos de conteúdo para campanhas de email](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testar e otimizar conteúdo.
+
+>[!ENDTABS]
+
+## Escolha entre jornadas, campanhas e campanhas orquestradas {#choosing}
+
+| Cenário | Usar |
+|----------|-----|
+| Orientado ao comportamento, em várias etapas, cada cliente se move em seu próprio ritmo | Jornada |
+| Mensagem agendada simples ou acionada por API para um público-alvo | Campaign |
+| Fluxo de trabalho de lote complexo com segmentação de várias entidades | Campanha orquestrada |
 
 ## Não tem certeza? {#not-sure}
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer
-description: Descubra os principais recursos e casos de uso do Adobe Journey Optimizer
+description: Descubra o que é o Adobe Journey Optimizer, seus principais recursos e como ele se encaixa no Adobe Experience Platform.
 feature: Get Started
 topic: Content Management
 role: User
@@ -33,10 +33,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
-source-wordcount: 1316
-ht-degree: 97%
+source-wordcount: 804
+ht-degree: 82%
 
 ---
 
@@ -87,73 +87,11 @@ Uma única tela para harmonizar e otimizar a jornada do cliente para a primeira:
 As marcas podem aplicar a tomada de decisões centralizada e incorporar inteligência artificial e aprendizado de máquina para configurar insights preditivos em toda a experiência do cliente, facilitando a automação de decisões e a otimização da experiência em grande escala. O serviço de decisão possibilita ofertas centralizadas em canais em escala por meio do [!DNL Adobe Journey Optimizer]. [Explore a definição de ofertas](../offers/get-started/starting-offer-decisioning.md) | [Descubra recursos de IA](ai-features.md)
 
 
-## Casos de uso {#use-cases}
+## Casos de uso comuns {#use-cases}
 
-Estes exemplos ilustram como os recursos do Journey Optimizer trabalham em conjunto em diferentes funções, setores e canais.
+O Journey Optimizer oferece suporte a uma grande variedade de cenários — desde jornadas acionadas em tempo real e recuperação de carrinhos abandonados até campanhas programadas, decisões e notificações operacionais.
 
-### Recuperação de remessa atrasada {#uc-delayed-shipment}
-
-**Função:** profissional de marketing | **Recurso principal:** [perfil unificado + exclusão de público-alvo](../audience/get-started-profiles.md)
-
-Normalmente, uma loja de roupas envia pesquisas de satisfação pós-compra a todos os clientes que compraram produtos na última semana. Devido às intempéries, alguns carregamentos sofreram atrasos. Ao ver quais clientes não receberam suas remessas, a loja de roupas pode excluir essas pessoas do envio agendado da pesquisa de satisfação do cliente e, em vez disso, enviar um email personalizado pedindo desculpas pelo atraso e oferecendo um código de desconto com recomendações de produto baseadas em suas compras anteriores.
-
-[Introdução às campanhas](../campaigns/get-started-with-campaigns.md)
-
-### Engajamento na loja em tempo real {#uc-instore}
-
-**Função:** profissional de marketing | **Recurso principal:** [Acionamento de geofence + push](../push/get-started-push.md)
-
-O mesmo varejista pode interagir em tempo real com um cliente fiel que chega ao estacionamento da loja, enviando uma notificação por push sobre um suéter que voltou ao estoque no tamanho desejado.
-
-[Introdução às notificações por push](../push/get-started-push.md)
-
-### Recuperação de abandono de carrinho {#uc-cart}
-
-**Função:** profissional de marketing | **Recurso principal:** [jornada de várias etapas acionada por eventos](../building-journeys/journey-gs.md)
-
-Quando um cliente adiciona itens a um carrinho online, mas sai sem concluir a compra, o Journey Optimizer detecta o evento em tempo real e inicia uma jornada de recuperação automaticamente. O cliente recebe um email personalizado lembrando sobre os itens deixados para trás. Se ele não clicar no dentro de 24 horas, uma notificação por push de acompanhamento será enviada, personalizada com base no histórico de navegação e no status de fidelidade.
-
-[Crie a primeira jornada](../building-journeys/journey-gs.md)
-
-### Série de boas-vindas do serviço de streaming {#uc-welcome}
-
-**Função:** profissional de marketing | **Recurso principal:** [jornada de boas-vindas acionada por evento](../building-journeys/journey-gs.md)
-
-Quando um cliente assina um serviço de streaming, o Journey Optimizer detecta o evento de inscrição e inicia imediatamente uma jornada de boas-vindas de várias etapas. O cliente recebe um email de boas-vindas incentivando-o a abrir o aplicativo pela primeira vez. Se nenhuma atividade de logon for detectada em 48 horas, uma notificação por push de acompanhamento é enviada com recomendações de conteúdo personalizadas com base em seus interesses declarados durante a inscrição, transformando um assinante passivo em um usuário ativo e engajado desde o primeiro dia.
-
-[Crie a primeira jornada](../building-journeys/journey-gs.md)
-
-### Lembrete de reserva com instruções {#uc-reservation}
-
-**Função:** profissional de marketing | **Recurso principal:** [mensagens agendadas + com reconhecimento de local](../campaigns/get-started-with-campaigns.md)
-
-Uma marca de hospitalidade envia a cada hóspede um lembrete oportuno uma hora antes de sua reserva. A notificação inclui o nome do hóspede, o horário da reserva e as indicações de como chegar ao local com base na localização, tudo isso reunido automaticamente a partir do perfil do cliente e dos dados da reserva, sem qualquer intervenção manual da equipe de marketing.
-
-[Introdução às campanhas](../campaigns/get-started-with-campaigns.md)
-
-### Notificação proativa de interrupção de serviço {#uc-outage}
-
-**Função:** operações | **Recurso principal:** [seleção automática de público-alvo em grande escala](../audience/about-audiences.md)
-
-Quando ocorre uma interrupção do serviço, o Journey Optimizer identifica automaticamente os clientes afetados com base nos dados da conta e nos padrões de uso. Esses clientes recebem uma notificação proativa confirmando o problema e descrevendo as próximas etapas, transformando uma experiência potencialmente negativa em um momento de transparência e confiança, entregue em grande escala.
-
-[Crie a primeira jornada](../building-journeys/journey-gs.md)
-
-### Campanha promocional viabilizada por IA {#uc-ai-campaign}
-
-**Função:** profissional de marketing | **Recurso principal:** [geração de conteúdo de IA + experimentação](ai-features.md)
-
-Um planejamento de marca de varejo em um lançamento de produto usa o Assistente de IA do Journey Optimizer para gerar variações de linha de assunto e texto em minutos, orientadas por um prompt de linguagem natural e suas diretrizes de marca carregadas. A experimentação de conteúdo integrada identifica automaticamente a variante com melhor desempenho entre uma amostra de público-alvo inicial. A mensagem vencedora é implantada nos destinatários restantes, maximizando o engajamento sem esforço adicional de redação.
-
-[Explorar recursos inteligentes e de IA](ai-features.md) | [Saiba mais sobre a experimentação de conteúdo](../content-management/experiment-accelerator-gs.md)
-
-### Alertas de manutenção por meio de aplicativo móvel {#uc-maintenance}
-
-**Função:** operações | **Recurso principal:** [orquestração de jornadas que não são de marketing](../building-journeys/journey-gs.md)
-
-Profissionais que não atuam no marketing, como equipes de operações e suporte ao cliente, podem usar o [!DNL Adobe Journey Optimizer] para gerenciar notificações operacionais ou monitorar processos de integração. Por exemplo, um parque de diversões onde os visitantes baixam um aplicativo móvel como parte da experiência: a equipe de manutenção pode usar o Journey Optimizer para notificar os visitantes sobre as atrações que estão fechadas atualmente devido à manutenção.
-
-[Crie a primeira jornada](../building-journeys/journey-gs.md)
+Para encontrar o recurso que se encaixa em sua meta, consulte a [visão geral dos casos de uso do Journey Optimizer](ajo-use-case-guide.md). Para exemplos completos e trabalhados, navegue pela [biblioteca de casos de uso do jornada](../building-journeys/jo-use-cases.md).
 
 
 ## Disponibilidade e licenciamento {#availability}
@@ -177,3 +115,12 @@ O Journey Optimizer está integrado nativamente na Adobe Experience Platform e c
 * [Tutorial de Introdução ao Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}: uma apresentação guiada em vídeo dos principais conceitos do Journey Optimizer.
 * [Visão geral sobre a segurança do Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF): arquitetura de segurança, proteção dos dados e detalhes de conformidade.
 * [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}: termos oficiais de licenciamento e detalhamento dos recursos da edição.
+
+## O próximo passo {#where-next}
+
+| Eu quero... | Ir para... |
+|------------|--------|
+| Entender como o Journey Optimizer se integra ao Adobe Experience Platform | [Noções básicas sobre o Journey Optimizer](understanding-ajo.md) |
+| Começar na minha função específica | [Funções e responsabilidades](quick-start.md) |
+| Explore casos de uso | [visão geral dos casos de uso do Journey Optimizer](ajo-use-case-guide.md) |
+| Consulte a terminologia principal | [Terminologia](terminology.md) |

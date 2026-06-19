@@ -28,10 +28,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1099
-ht-degree: 97%
+source-wordcount: 1168
+ht-degree: 93%
 
 ---
 
@@ -48,6 +48,12 @@ Como **admin de sistema**, você configura o ambiente do Journey Optimizer e ger
 Suas principais responsabilidades incluem a configuração de grupos de usuários e permissões, a criação e o gerenciamento de sandboxes para particionar dados e jornadas para diferentes grupos de usuários e a configuração de canais de entrega e predefinições de mensagem para garantir uma identidade visual consistente entre as várias mensagens e ativos entregues por meio do Journey Optimizer. Você garante que as pessoas certas tenham acesso aos recursos certos, mantendo a segurança e a governança.
 
 Esses recursos são gerenciados por **[!UICONTROL Administradores de produto]** com acesso ao produto Permissões. [Saiba mais sobre Permissões](../../administration/permissions.md){target="_blank"}.
+
+>[!NOTE]
+>
+>**Ordem de implementação:** Você está aqui: **Administrador** → [Engenheiro de dados](data-engineer.md) → [Desenvolvedor](developer.md) → [Profissional de marketing](marketer.md)
+>
+>O administrador configura o ambiente primeiro. Engenheiros de dados, desenvolvedores e profissionais de marketing dependem da conclusão desse trabalho antes de começarem.
 
 ## Configurar acesso e permissões
 
@@ -163,3 +169,14 @@ Depois que o ambiente for configurado:
 1. **Verificar configuração**: confirme se todos os membros da equipe podem acessar seus recursos necessários
 2. **Monitorar uso**: use os painéis de administração para acompanhar o uso do sistema e identificar problemas
 3. **Manter permissões**: revisar e atualizar permissões regularmente à medida que as funções da equipe evoluem
+
+## Outros guias de função {#other-role-guides}
+
+| Função | Guia |
+|------|-------|
+| Administrador | [Introdução para administradores](administrator.md) |
+| Engenheiro de dados | [Introdução para engenheiros de dados](data-engineer.md) |
+| Desenvolvedor | [Introdução para desenvolvedores](developer.md) |
+| Profissional de marketing | [Introdução para profissionais de marketing](marketer.md) |
+
+Voltar à [Visão geral de funções e responsabilidades](../quick-start.md) · Voltar à [Introdução](../../../rp_landing_pages/get-started-landing-page.md)

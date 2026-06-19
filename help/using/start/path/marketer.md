@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1751
-ht-degree: 98%
+source-wordcount: 1727
+ht-degree: 94%
 
 ---
 
@@ -44,14 +44,17 @@ ht-degree: 98%
 
 Como **Profissional de marketing** ou **Profissional de negócios**, você cria jornadas do cliente para fornecer experiências pessoais e contextuais aos clientes. Crie e gerencie todos os vários componentes dessas jornadas personalizadas, incluindo mensagens de email e push, ofertas e componentes de decisão para personalizar o conteúdo de mensagens de forma inteligente. O Journey Optimizer fornece uma experiência do usuário unificada, onde é possível implementar casos de uso completos em um único local. Você pode começar a trabalhar com o [!DNL Adobe Journey Optimizer] assim que o(a) [admin de sistema](administrator.md) e o(a) [engenheiro(a) de dados](data-engineer.md) concederem acesso e prepararem seu ambiente.
 
+>[!NOTE]
+>
+>**Ordem de implementação:** [Administrador](administrator.md) → [Engenheiro de dados](data-engineer.md) → [Desenvolvedor](developer.md) → Você está aqui: **Profissional de marketing**
+>
+>Confirme se a [configuração de ambiente](administrator.md) e a [configuração de dados](data-engineer.md) foram concluídas antes de criar jornadas.
+
 ## Introdução às noções básicas
 
-O Journey Optimizer reúne insights do cliente em tempo real, orquestração omnicanal moderna e decisões inteligentes em um único aplicativo. Crie experiências personalizadas e conectadas para o cliente nos canais de email, SMS, notificações por push, notificações por push na web, aplicativo, web, correspondência direta, cartões de conteúdo e muito mais.
-
-O Journey Optimizer oferece duas abordagens eficientes de orquestração:
-
-* **Jornadas**: engajamento individualizado em tempo real no qual cada cliente avança no seu próprio ritmo, acionado por comportamento ou eventos
-* **Campanhas orquestradas**: campanhas complexas e em lote, com várias etapas e em grande escala, onde o público-alvo progride junto por meio de fluxos de trabalho — perfeitas para campanhas iniciadas pela marca, como promoções sazonais, lançamentos de produtos ou comunicações baseadas em contas
+>[!NOTE]
+>
+>Novo no Journey Optimizer? Leia [O que é o Journey Optimizer](../get-started.md) antes de iniciar este guia.
 
 Trabalhe com [admins](administrator.md) para obter acesso e com [engenheiros(as) de dados](data-engineer.md) na configuração de públicos-alvo, dados e esquemas relacionais para segmentação avançada. Consulte a visão geral [Introdução ao gerenciamento de dados](../../data/gs-data.md) para entender qual configuração de dados é necessária antes de criar jornadas e campanhas.
 
@@ -235,3 +238,14 @@ Colabore com os [Admins](administrator.md) no acesso e nas configurações:
 2. **Aproveite a IA**: use o Assistente de IA para fazer perguntas e acelerar a criação de conteúdo
 3. **Ingresse na comunidade**: conecte-se a outros usuários do Journey Optimizer na [Comunidade da Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}
 4. **Explore tutoriais**: assista aos vídeos passo a passo na [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR){target="_blank"}
+
+## Outros guias de função {#other-role-guides}
+
+| Função | Guia |
+|------|-------|
+| Administrador | [Introdução para administradores](administrator.md) |
+| Engenheiro de dados | [Introdução para engenheiros de dados](data-engineer.md) |
+| Desenvolvedor | [Introdução para desenvolvedores](developer.md) |
+| Profissional de marketing | [Introdução para profissionais de marketing](marketer.md) |
+
+Voltar à [Visão geral de funções e responsabilidades](../quick-start.md) · Voltar à [Introdução](../../../rp_landing_pages/get-started-landing-page.md)
