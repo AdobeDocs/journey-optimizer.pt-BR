@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Otimizador de jornadas, caso de uso, guia de decisão, qual recurso, introdução, objetivos de profissionais, tutoriais
-source-git-commit: 054de625361914e217c27782b487db1933c3230f
+source-git-commit: 3c737f88116a28ef217b53f95754504f537b3cd0
 workflow-type: tm+mt
-source-wordcount: '2821'
-ht-degree: 36%
+source-wordcount: '3310'
+ht-degree: 32%
 
 ---
 
@@ -37,7 +37,7 @@ A IA está incorporada em muitos desses recursos — procure a tag **(AI)** nas 
 
 >[!TIP]
 >
->Novo no Journey Optimizer? Comece com [Comece a usar o Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para escolher o caminho certo para sua função e leia [O que é o Journey Optimizer](get-started.md) para o básico. Para criar confiança prática, navegue pelos [tutoriais do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, siga uma [lista de reprodução de vídeo](https://experienceleague.adobe.com/pt-br/playlists?solution=Journey+Optimizer){target="_blank"} com curadoria de especialista e pratique em uma [sandbox de treinamento](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} ou com os [desafios práticos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
+>Novo no Journey Optimizer? Comece com [Comece a usar o Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para escolher o caminho certo para sua função e leia [O que é o Journey Optimizer](get-started.md) para o básico. Para criar confiança prática, navegue pelos [tutoriais do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, siga uma [lista de reprodução de vídeo](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} com curadoria de especialista e pratique em uma [sandbox de treinamento](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} ou com os [desafios práticos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
 
 ## Configurar o Journey Optimizer para a sua equipe {#setup-admin}
 
@@ -57,11 +57,38 @@ Para cenários em que você reage a uma ação ou evento do cliente conforme ele
 | Eu quero... | Capacidade recomendada | Comece aqui |
 | --- | --- | --- |
 | Dê as boas-vindas a um novo cliente ou assinante automaticamente | Jornada acionada por evento | [Introdução ao jornada](../building-journeys/journey-gs.md) · [Introdução à criação de uma jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**Antes de compilar:** verifique se você tem (1) um [evento de entrada de jornada configurado](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events) para capturar o disparador de inscrição, (2) uma [superfície de canal de email ou push](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces) configurada para sua sandbox e (3) pelo menos um [perfil de teste](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles) disponível para validar a jornada antes de publicar.
+
+>[!ENDSHADEBOX]
+
+| Eu quero... | Capacidade recomendada | Comece aqui |
+| --- | --- | --- |
 | Recuperar um carrinho abandonado ou procurar uma sessão | Jornada acionada por evento | [Introdução ao jornada](../building-journeys/journey-gs.md) · [Tutorial de navegação abandonada](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**Antes de criar:** você precisa (1) de um [evento comportamental](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events) que capture o carrinho ou a ação de navegação de sua Web ou SDK móvel, (2) de uma estratégia de [atividade de espera](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity) decidida (normalmente uma a quatro horas antes da primeira chamada de atenção) e (3) de uma superfície de canal pronta para a mensagem de acompanhamento. Observação: a jornada deve incluir uma condição para sair dos perfis que concluíram a compra antes do fim do período de espera.
+
+>[!ENDSHADEBOX]
+
+| Eu quero... | Capacidade recomendada | Comece aqui |
+| --- | --- | --- |
 | Acionar uma jornada a partir do envio de um formulário de site | Jornada acionada por evento | [Introdução ao jornada](../building-journeys/journey-gs.md) · [Tutorial](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/trigger-journey-on-form-submission/introduction){target="_blank"} |
 | Reagir ao comportamento no aplicativo (aplicativo aberto, exibição de tela) | Jornada + No aplicativo | [Introdução ao No aplicativo](../in-app/get-started-in-app.md) |
 | Enviar confirmações de pedido, remessa ou compromisso | Campanha acionada por API | [Trabalhar com campanhas acionadas por API](../campaigns/api-triggered-campaigns.md) |
 | Reengajamento de clientes inativos ou antigos | Jornada + públicos | [Introdução a perfis e públicos](../audience/get-started-profiles.md) · [Criar públicos usando o construtor de regras](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/profiles-audiences-subscriptions/create-audiences-using-the-rule-builder){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**Antes de criar:** você precisa (1) de um [público-alvo definido no Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences) que identifique perfis inativos (por exemplo, nenhuma compra ou logon em 60 dias), (2) de uma decisão sobre o canal de reengajamento (email, push ou SMS) e (3) de uma regra de supressão ou [limite de frequência](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/channel-capping) para evitar contatar perfis com mensagens recentes. Use uma entrada de jornada **Ler Público** — não um evento — para este cenário.
+
+>[!ENDSHADEBOX]
+
+| Eu quero... | Capacidade recomendada | Comece aqui |
+| --- | --- | --- |
 | Testar uma jornada com dados reais antes de ativá-la | Jornada simulação | [Testar sua jornada com simulação](../building-journeys/journey-dry-run.md) |
 | Pausar uma jornada em tempo real para fazer edições sem interromper perfis em andamento | Jornada pausa e retomar | [Pausar e retomar uma jornada](../building-journeys/journey-pause.md) |
 | Criar ou otimizar uma jornada a partir de um prompt em linguagem natural | Journey Agent **(IA)** | [Agentes de IA](ai-features.md#ai-agents) · [Tutorial do Journey Agent](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/journeys/journey-agent-overview){target="_blank"} |
@@ -73,7 +100,16 @@ Para alcance agendado de um para muitos para um público-alvo definido.
 | Eu quero... | Capacidade recomendada | Comece aqui |
 | --- | --- | --- |
 | Enviar um informativo ou uma promoção a um segmento | Campanha programada | [Introdução às campanhas](../campaigns/get-started-with-campaigns.md) |
-| Iniciar um produto com um teste A/B | Experimentação de conteúdo **(AI)** | [Introdução à experimentação de conteúdo](../content-management/experiment-accelerator-gs.md) · [Criar experimentos de conteúdo para campanhas de email](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**Antes de compilar:** você precisa (1) de um [segmento de público-alvo publicado](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences) no Adobe Experience Platform, (2) de uma [superfície de canal de email](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces) com um domínio de envio verificado e (3) de quaisquer [fragmentos de conteúdo ou modelos](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/fragments) que você planeje reutilizar já publicados. As campanhas programadas são a escolha certa aqui, não as jornadas, se for um envio único ou recorrente sem lógica de ramificação.
+
+>[!ENDSHADEBOX]
+
+| Eu quero... | Capacidade recomendada | Comece aqui |
+| --- | --- | --- |
+| Iniciar um produto com um teste A/B | Experimentação de conteúdo **(AI)** | [Introdução à experimentação de conteúdo](../content-management/experiment-accelerator-gs.md) · [Criar experimentos de conteúdo para campanhas de email](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | Notificar os clientes sobre uma interrupção ou atualização de serviço | Campanha programada + públicos-alvo | [Sobre públicos-alvo](../audience/about-audiences.md) |
 | Criar uma campanha em várias etapas com lógica de ramificação | Campanhas orquestradas | [Introdução a campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md) |
 | Direcionar somente perfis que foram alterados desde a última execução da campanha | Campanhas orquestradas — query incremental | [Criar consultas em campanhas orquestradas](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
@@ -88,6 +124,15 @@ Para personalizar ofertas e conteúdo para cada indivíduo.
 | Eu quero... | Capacidade recomendada | Comece aqui |
 | --- | --- | --- |
 | Mostrar a melhor oferta para cada cliente | Tomada de decisão | [Introdução ao Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) · [Tutorial de ofertas da Web](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**Antes de compilar:** a decisão requer uma sequência de configuração específica. Você precisa (1) [de itens de decisão (ofertas) criados](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/items) com regras de qualificação e atributos, (2) uma [estratégia de seleção](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-selection/selection-strategies) ou fórmula de classificação configurada e (3) uma [política de decisão](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision) anexada à superfície onde as ofertas serão exibidas. Ignorar essa sequência é o motivo mais comum para as configurações da primeira decisão não retornarem resultados.
+
+>[!ENDSHADEBOX]
+
+| Eu quero... | Capacidade recomendada | Comece aqui |
+| --- | --- | --- |
 | Classifique as ofertas usando uma fórmula (código postal, renda, clima) | Decisão — fórmula de classificação | [Tutorial de fórmula de classificação](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction){target="_blank"} · [Tutorial de dados meteorológicos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} |
 | Usar produto externo ou dados de CRM para personalizar ofertas | Decisão — Pesquisa de conjunto de dados do AEP | [Usar pesquisa de conjunto de dados na decisão](../experience-decisioning/context-data.md) |
 | Personalizar o conteúdo da mensagem com os dados do perfil | Personalização | [Personalizar seu conteúdo](../personalization/personalize.md) |
@@ -289,7 +334,7 @@ Navegue por conteúdo de vídeo preparado por tópico. Cada guia está vinculada
 >[!TAB Relatórios e otimização]
 
 * [Monitore e analise sua jornada com relatórios ao vivo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — Acompanhe o desempenho em tempo real.
-* [Criar experimentos de conteúdo para campanhas de email](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testar e otimizar conteúdo.
+* [Criar experimentos de conteúdo para campanhas de email](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testar e otimizar conteúdo.
 
 >[!ENDTABS]
 
