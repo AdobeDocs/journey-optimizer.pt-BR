@@ -7,14 +7,11 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 2374
+source-wordcount: 2364
 ht-degree: 16%
 
 ---
@@ -79,7 +76,7 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 
      >[!AVAILABILITY]
      >
-     >Esse recurso está disponível em Disponibilidade limitada para canais de saída com suporte à Decisão. Para solicitar acesso, entre em contato com o representante da Adobe.
+     >Esse recurso está disponível para canais de saída com suporte à Decisão.
 
      Para obter pré-requisitos e medidas de proteção, consulte [Usar fragmentos de conteúdo do AEM com a Experience Decisioning](../integrations/aem-fragments.md#aem-decisioning).
 
@@ -95,8 +92,8 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 >abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos-alvo ou regras para restringir o item somente a perfis específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
