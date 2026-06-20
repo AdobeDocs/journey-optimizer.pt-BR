@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7bd8036e51649105a2e235a2e99fd32d98a0ef37
+source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
 workflow-type: tm+mt
-source-wordcount: '3364'
+source-wordcount: '3365'
 ht-degree: 98%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 98%
       + [Entenda como funciona](using/start/understanding-ajo.md)
       + [IA e recursos inteligentes](using/start/ai-features.md)
       + [Terminologia principal](using/start/terminology.md)
-      + [Visão geral do caso de uso](using/start/ajo-use-case-guide.md)
+      + [Iniciar com base na sua meta](using/start/ajo-use-case-guide.md)
       + [Medidas de proteção e limitações](using/start/guardrails.md)
       + {hide-from-toc}[Pacotes e recursos](using/start/ajo-packages.md)
       + {hide-from-toc}[Disponibilidade de recursos](using/start/ajo-features-availability.md)
