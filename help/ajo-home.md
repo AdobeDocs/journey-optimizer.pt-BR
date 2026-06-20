@@ -57,7 +57,7 @@ O Journey Optimizer agora inclui a **Orquestração de campanha**, um novo recur
 
 ::::landing-cards-container
 :::
-![Ícone](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Notas de versão mais recentes
 
@@ -87,7 +87,7 @@ Projete, orquestre, gerencie e otimize jornadas personalizadas do cliente com es
 :::
 
 :::
-![Ícone](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=pt-BR)
 
 Noções básicas e gerenciamento de campanhas
 
@@ -97,7 +97,7 @@ Orientação detalhada sobre como criar, gerenciar e otimizar vários tipos de c
 :::
 
 :::
-![Ícone](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
 
 Canais de comunicação
 

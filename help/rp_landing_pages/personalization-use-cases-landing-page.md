@@ -20,7 +20,7 @@ Esta seção fornece casos de uso passo a passo para criar mensagens personaliza
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Notificação do status do pedido
 
@@ -30,7 +30,7 @@ Veja um cenário completo que combina atributos de perfil, dados contextuais em 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
 
 Email de abandono do carrinho
 
@@ -40,7 +40,7 @@ Saiba como usar funções auxiliares para preencher um email de forma dinâmica 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Alerta de prescrição de plano de saúde
 
@@ -50,7 +50,7 @@ Crie um único email personalizado que lista todas as prescrições de um assina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Receitas de personalização
 
