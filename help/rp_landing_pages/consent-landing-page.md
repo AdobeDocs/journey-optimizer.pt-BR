@@ -22,7 +22,7 @@ Você pode lidar com o consentimento de três maneiras: **preferências de recus
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Gerenciar recusas e consentimento de personalização
 
@@ -32,7 +32,7 @@ Saiba como gerenciar as preferências de recusa e aplicar o consentimento de per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Trabalhar com políticas de consentimento
 
@@ -42,7 +42,7 @@ Entenda como criar e aplicar políticas de consentimento para gerenciar o uso de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Gerenciar as preferências dos clientes
 
