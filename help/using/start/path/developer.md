@@ -27,10 +27,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e5fb53814beb3c9288904b20615a60af3c42a723
+source-git-commit: e5e8545bef077219ff91428c9048c978184b57ec
 workflow-type: tm+mt
-source-wordcount: 2560
-ht-degree: 83%
+source-wordcount: 3456
+ht-degree: 54%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Implemente os SDKs, a transmissão de eventos, os pontos de extremidade de ação personalizados e as APIs que conectam seus aplicativos à Adobe Journey Optimizer para que suas jornadas possam ser executadas em dados em tempo real.
+**Nesta página:** Implemente os SDKs, a transmissão de eventos, os pontos de extremidade de ação personalizados e as APIs que conectam seus aplicativos à Adobe Journey Optimizer para que suas jornadas possam ser executadas em dados dinâmicos.
 
 >[!ENDSHADEBOX]
 
@@ -88,7 +88,7 @@ Antes de se aprofundar na implementação, familiarize-se com os conceitos técn
 
 ### Configurar o SDK para dispositivos móveis da Adobe Experience Platform
 
-Para habilitar notificações por push, mensagens no aplicativo e outros recursos móveis, integre o SDK para dispositivos móveis da Adobe Experience Platform nos aplicativos móveis.
+O Mobile SDK é uma coleção de bibliotecas incorporadas diretamente no seu aplicativo iOS ou Android. Ele age como a camada de comunicação entre o aplicativo e o Adobe Experience Platform: identifica usuários, coleta eventos comportamentais e fornece instruções do Journey Optimizer, incluindo notificações por push, mensagens no aplicativo e conteúdo personalizado. Sem ele, o Journey Optimizer não tem visibilidade do que os usuários do aplicativo estão fazendo nem como acessá-los.
 
 1. **Instalar e configurar o SDK para dispositivos móveis**: siga a [documentação do SDK para dispositivos móveis da Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/getting-started){target="_blank"} para ver uma introdução à integração do SDK.
 
@@ -104,7 +104,7 @@ As etapas detalhadas para configurar notificações por push estão disponíveis
 
 ### Implementar experiências baseadas em código (SDK para dispositivos móveis)
 
-Para personalização nativa de aplicativos móveis com experiências baseadas em código:
+Experiências baseadas em código permitem fornecer conteúdo personalizado a qualquer superfície em seu aplicativo móvel nativo, desde telas de integração e páginas de detalhes do produto até banners no aplicativo e sinalizadores de recursos, sem exigir uma nova versão do aplicativo. Use o Mobile SDK para buscar e renderizar conteúdo personalizado no tempo de execução, dando à sua equipe controle total sobre a disposição e a apresentação:
 
 * Siga [este tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"} para a implementação do SDK para dispositivos móveis
 * Revise as implementações de exemplo do [iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} e do [Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}
@@ -113,7 +113,7 @@ Para personalização nativa de aplicativos móveis com experiências baseadas e
 
 ### Configurar o SDK da web da Adobe Experience Platform
 
-Para implementações baseadas na web, o SDK da web é o principal ponto de integração:
+O Web SDK (`alloy.js`) é uma única biblioteca JavaScript que substitui a manta de retalhos de tags Adobe separadas que o site poderia precisar. Ele coleta dados comportamentais, transmite-os para o Adobe Experience Platform por meio de uma sequência de dados configurada por você e recebe instruções de personalização de volta — tudo isso em uma rede de ida e volta. Uma vez implementado, o Journey Optimizer pode identificar visitantes, acionar jornadas de suas ações e fornecer conteúdo personalizado para suas páginas imediatamente.
 
 1. **Instalar o SDK da web**: siga o [guia de implementação do SDK da web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"} para configurar o SDK no site.
 
@@ -123,7 +123,7 @@ Para implementações baseadas na web, o SDK da web é o principal ponto de inte
 
 ### Implementar experiências baseadas em código (SDK da web)
 
-Experiências baseadas em código permitem personalizar qualquer ponto de contato digital:
+Diferentemente dos canais visuais, em que os profissionais de marketing controlam totalmente o layout, as experiências baseadas em código fornecem total propriedade sobre como o conteúdo personalizado é renderizado na página. O Journey Optimizer retorna uma carga JSON com os dados de personalização; seu código decide onde e como exibi-la. Esse modelo funciona para qualquer superfície da Web — banners ilustrados, carrosséis de recomendação, classificações de resultados de pesquisa, variantes de teste A/B — sem precisar de um editor visual ou fluxo de trabalho de publicação de página.
 
 1. **Escolha o método de implementação**: lado do cliente, lado do servidor ou híbrido. Revise os [exemplos de implementação](../../code-based/code-based-implementation-samples.md) para cada abordagem.
 
@@ -141,7 +141,7 @@ Saiba mais sobre a [introdução a experiências baseadas em código](../../code
 
 ### Enviar eventos para acionar jornadas
 
-Como desenvolvedor(a), você implementará o código para enviar eventos que acionam jornadas. O [Engenheiro de dados](data-engineer.md) configurará os esquemas e as definições de eventos no Journey Optimizer.
+Jornadas executadas em eventos — um usuário faz logon, adiciona um item ao carrinho, conclui uma compra, abandona um formulário. Seu trabalho é emitir esses eventos do seu aplicativo no momento exato. Cada evento é uma carga JSON estruturada em XDM enviada para a API de assimilação de streaming do Experience Platform; o Journey Optimizer a seleciona em milissegundos e direciona o perfil para qualquer jornada correspondente. O esquema de evento e a estrutura de carga são definidos pelo seu [Engenheiro de Dados](data-engineer.md) — coordene com eles antes de começar a codificar.
 
 1. **Entender o conteúdo do evento**: trabalhe com o Engenheiro de dados para obter o esquema do evento e a estrutura de conteúdo necessária. O conteúdo deve estar em conformidade com o esquema XDM configurado. Saiba mais sobre os [requisitos do esquema de evento](../../event/experience-event-schema.md).
 
@@ -187,7 +187,7 @@ Saiba mais sobre como [trabalhar com eventos de jornada](../../event/about-event
 
 ## Desenvolver pontos de acesso de ações personalizadas {#custom-actions}
 
-As ações personalizadas permitem que as jornadas chamem as APIs. Como desenvolvedor(a), você criará os pontos de acesso da API invocados pelas ações personalizadas:
+Quando uma jornada atinge uma etapa de ação personalizada, o Journey Optimizer faz uma chamada HTTP de saída para um URL que você fornece — seu back-end, um CRM, uma plataforma de fidelidade, qualquer endpoint REST. Seu trabalho é criar e expor esse endpoint: definir o contrato de solicitação (forma de carga, método de autenticação, formato de resposta), implementar a lógica de negócios por trás dele e garantir que ele possa lidar com o volume de chamadas gerado pelo Journey Optimizer. O [Administrador](administrator.md) registra o ponto de extremidade no Journey Optimizer para que os profissionais de marketing possam usá-lo como uma etapa em suas jornadas.
 
 1. **Criar ponto de acesso de API**: crie pontos de acesso da API RESTful que o Journey Optimizer chamará durante a execução da jornada. Seu ponto de acesso deve:
    * Aceitar conteúdos JSON
@@ -209,7 +209,7 @@ As ações personalizadas permitem que as jornadas chamem as APIs. Como desenvol
 
 ## Trabalhar com APIs do Journey Optimizer {#apis}
 
-O Journey Optimizer fornece APIs REST abrangentes para acesso programático:
+Nem tudo precisa acontecer por meio da interface do usuário do Journey Optimizer. Às vezes, você precisa acionar uma campanha do seu próprio back-end, suprimir um endereço de email após uma solicitação de privacidade ou sincronizar modelos de conteúdo de um CMS externo. As REST APIs do Journey Optimizer fornecem acesso programático aos principais recursos da plataforma. Todas as chamadas usam a autenticação de servidor para servidor OAuth — o método JWT mais antigo foi descontinuado.
 
 1. **Entender os recursos da API**: as APIs do Journey Optimizer permitem criar, ler, atualizar e excluir vários recursos de forma programática. Saiba mais sobre as [APIs do Journey Optimizer](../../configuration/ajo-apis.md).
 
@@ -227,7 +227,9 @@ O Journey Optimizer fornece APIs REST abrangentes para acesso programático:
 
 ## Teste e depuração {#testing}
 
-1. **Depurar implementação do SDK**: use o Adobe Experience Platform Assurance para inspecionar eventos do SDK, validar a coleta de dados e solucionar problemas de integração em tempo real. [Saiba mais sobre o Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=pt-BR){target="_blank"}.
+Antes da implementação entrar em vigor, você precisa ter certeza de que os eventos serão acionados no momento certo, as jornadas serão acionadas conforme esperado, as ações personalizadas se comportarão sob carga realista e o conteúdo personalizado será renderizado corretamente. Esta seção aborda as ferramentas e técnicas para capturar problemas antecipadamente — desde o registro de baixo nível do SDK até a execução completa de testes de jornada com perfis reais.
+
+1. **Depurar implementação do SDK**: use o Adobe Experience Platform Assurance para inspecionar eventos do SDK, validar a coleta de dados e solucionar problemas de integração à medida que eles ocorrem. [Saiba mais sobre o Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=pt-BR){target="_blank"}.
 
 1. **Entrega de evento de teste**: verifica se os eventos do aplicativo são recebidos corretamente pela Adobe Experience Platform e acionam jornadas conforme o esperado. Monitore a ingestão de eventos e valide a estrutura do conteúdo.
 
@@ -249,19 +251,25 @@ O Journey Optimizer fornece APIs REST abrangentes para acesso programático:
 
 ## Tópicos avançados do desenvolvedor {#advanced-topics}
 
+Quando seus SDKs, eventos e APIs principais estiverem em vigor, esses tópicos ajudarão você a ir além: enriquecer dados do jornada no tempo de execução sem sobrecarregar o perfil, manipular sinais de consentimento para que as recusas se propaguem por todas as integrações e ajustar a implementação para a taxa de transferência e a confiabilidade que a escala de produção exige.
+
 ### Trabalho com dados contextuais e enriquecimento
+
+As jornadas geralmente precisam de mais dados do que o que chega no evento de acionamento — um nome de produto, um nível de fidelidade, uma lista de itens de linha de pedido. Em vez de pré-carregar tudo isso em cada perfil, o enriquecimento contextual permite que a jornada o procure no tempo de execução dos conjuntos de dados do AEP ou o carregue a partir de uma resposta de ação personalizada. Suas mensagens e condições de ramificação podem fazer referência a esses dados sem que eles sejam armazenados permanentemente no perfil.
 
 * **Iterar em matrizes**: use a sintaxe de manipuladores para exibir listas dinâmicas de eventos, respostas da ação personalizada e pesquisas de conjuntos de dados em mensagens. Saiba mais sobre a [iteração de dados contextuais](../../personalization/iterate-contextual-data.md).
 * **Pesquisa de conjunto de dados**: implemente pesquisas de conjunto de dados para enriquecer os dados da jornada a partir de conjuntos de dados da Adobe Experience Platform. Trabalhe com o(a) engenheiro(a) de dados na configuração. Saiba mais sobre [pesquisa de conjunto de dados](../../building-journeys/dataset-lookup.md).
 
 ### Trabalhar com consentimento e governança
 
-Implemente políticas de consentimento e governança de dados nas integrações:
+O Journey Optimizer aplica políticas de consentimento e governança de dados no nível da plataforma, mas a integração também precisa respeitá-las. Quando um cliente recusa comunicações de marketing ou quando um rótulo de uso de dados restringe como um campo pode ser usado, essas regras precisam se propagar por meio de ações personalizadas e pesquisas de conjunto de dados, não apenas ações de bloco na interface do usuário.
 
 * **Governança de dados**: aplica políticas de uso de dados a ações personalizadas. Saiba mais sobre a [governança de dados](../../action/action-privacy.md).
 * **Gerenciamento de consentimento**: lida com as preferências de consentimento do cliente nas implementações. Saiba mais sobre [consentimento](../../action/consent.md).
 
 ### Otimização e práticas recomendadas
+
+As implementações de produção do Journey Optimizer lidam regularmente com milhões de eventos e milhares de execuções de jornadas por segundo. Esses recursos ajudam a ajustar a integração para essa escala: compreender limites de taxa antes de atingi-los, evitar armadilhas comuns do design de jornada que silenciosamente descartam perfis e criar um tratamento de erros que degrada normalmente em vez de falhar opaquamente.
 
 * **Limite e controle**: entenda os limites de taxa e implemente o controle apropriado. Saiba mais sobre [sistemas externos](../../configuration/external-systems.md).
 * **Otimização de jornada**: siga as práticas recomendadas para a [otimização de jornada](../../building-journeys/optimize.md).
@@ -295,6 +303,8 @@ Quando o jornada chama sistemas externos por meio de ações personalizadas ou f
 
 ### Mais REST APIs {#more-rest-apis}
 
+Além das mensagens e do limite, o Journey Optimizer expõe os endpoints REST para gerenciamento de supressão, modelos de conteúdo, recuperação de campanha, provas e execução de campanha orquestrada. Use-os quando precisar automatizar operações que, de outra forma, exigiriam etapas manuais na interface do usuário — por exemplo, suprimir endereços em massa após um pull de dados ou sincronizar modelos de um pipeline de conteúdo externo.
+
 | O que você precisa fazer | Referência da API |
 | ------------------- | ------------- |
 | Excluir programaticamente endereços de email ou domínios do envio | [API de supressão](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [Gerenciar a lista de supressão](../../configuration/manage-suppression-list.md) |
@@ -319,30 +329,30 @@ O trabalho de implementação cruza com o trabalho de outros membros da equipe:
 
 >[!TAB Trabalhar com Engenheiros de dados]
 
-Colabore com [Engenheiros de dados](data-engineer.md) em configurações de dados e eventos:
+Colabore com [engenheiros de dados](data-engineer.md) em configurações de dados e eventos. Cada jornada que reage ao comportamento do usuário depende dos eventos enviados — o Engenheiro de dados define os esquemas e implementa o código que os produz.
 
-* Obter os esquemas XDM e as estruturas de evento necessárias para implementar
-* Entenda quais eventos você precisa enviar e o formato de conteúdo necessário
-* Alinhe os requisitos de coleta de dados e os padrões de qualidade dos dados
-* Teste a entrega de eventos e a ingestão de dados em conjunto
+* Obtenha os [esquemas XDM](../../data/get-started-schemas.md) e as estruturas de evento necessárias para implementar
+* Entenda quais eventos você precisa enviar e o formato de conteúdo necessário — consulte [trabalho com eventos de jornada](../../event/about-events.md)
+* Confirme quais campos são obrigatórios vs. opcionais em cada carga do evento e o que acontece no jornada quando os campos esperados estão ausentes ou malformados — consulte [requisitos de esquema](../../event/experience-event-schema.md#schema-requirements)
+* Teste a entrega de eventos e a assimilação de dados em conjunto usando o [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=pt-BR){target="_blank"}
 
 >[!TAB Trabalhar com admins]
 
-Colabore com os [Admins](administrator.md) no acesso e nas configurações:
+Colabore com [Administradores](administrator.md) em configurações de acesso e canal. O Jornada só pode alcançar os usuários por meio de canais configurados pelo administrador — coordene antecipadamente para que o SDK funcione e a configuração permaneça sincronizada.
 
-* Forneça especificações de API para ações personalizadas que serão configuradas
-* Solicite as permissões necessárias e as credenciais de API
-* Coordene os requisitos de configuração de canais (por exemplo: certificados de push)
-* Alinhe os ambientes de teste e a estratégia de sandbox
+* Fornecer especificações de API para [ações personalizadas](../../action/about-custom-action-configuration.md) que serão configuradas no Journey Optimizer
+* Solicite as permissões necessárias e as credenciais de API via [Adobe Developer Console](https://developer.adobe.com){target="_blank"}
+* Coordenar nos requisitos de configuração de canal — enviar certificados para o [iOS](../../push/push-configuration.md) e o Android, [enviar pela Web](../../push/push-configuration-web.md) configurações, [webhook de SMS](../../mobile/mobile-webhook.md) pontos de extremidade
+* Alinhe a estratégia de sandbox e os ambientes de teste antes de executar o [modo de teste de jornada](../../building-journeys/testing-the-journey.md)
 
 >[!TAB Trabalhar com profissionais de marketing]
 
-Colabore com os [Profissionais de marketing](marketer.md) nos requisitos e testes da jornada:
+Colabore com [profissionais de marketing](marketer.md) no design e teste do jornada. Os profissionais de marketing criam as jornadas e o conteúdo que dependem totalmente dos eventos enviados e das superfícies expostas — quanto mais perto você se alinha, mais rapidamente as jornadas são ativadas.
 
-* Entenda quais interações do usuário devem acionar eventos
-* Implemente o rastreamento para o desempenho do conteúdo e o engajamento do usuário
-* Dê suporte a testes de jornadas com os recursos implementados
-* Solucione problemas com a entrega ou personalização de mensagens
+* Revise os designs de jornada em [Journey Optimizer](../../building-journeys/journey.md) em conjunto para entender quais interações de usuário devem disparar eventos e quais superfícies precisam de personalização
+* Implemente o rastreamento para que os profissionais de marketing possam medir [o desempenho do conteúdo e o engajamento do usuário](../../reports/report-gs-cja.md)
+* Execute o [modo de teste de jornada](../../building-journeys/testing-the-journey.md) juntos usando perfis de teste para validar o fluxo completo de ponta a ponta
+* Solucione problemas com a entrega de mensagens, renderização de personalização ou respostas de [ação personalizada](../../action/action.md)
 
 >[!ENDTABS]
 
