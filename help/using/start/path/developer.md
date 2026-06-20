@@ -19,21 +19,18 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: e5fb53814beb3c9288904b20615a60af3c42a723
 workflow-type: tm+mt
-source-wordcount: 2170
-ht-degree: 96%
+source-wordcount: 2560
+ht-degree: 83%
 
 ---
 
@@ -269,6 +266,43 @@ Implemente políticas de consentimento e governança de dados nas integrações:
 * **Limite e controle**: entenda os limites de taxa e implemente o controle apropriado. Saiba mais sobre [sistemas externos](../../configuration/external-systems.md).
 * **Otimização de jornada**: siga as práticas recomendadas para a [otimização de jornada](../../building-journeys/optimize.md).
 * **Gerenciamento de erros**: implemente um gerenciamento de erros robusto. Revise [códigos de erro](../../building-journeys/error-codes-reference.md) e [guias de solução de problemas](../../building-journeys/troubleshooting.md).
+
+## Chamar APIs REST do Journey Optimizer {#rest-apis}
+
+Além de implementar SDKs e transmissão de eventos, você também pode impulsionar o Journey Optimizer de forma programática a partir de seus próprios sistemas. A referência completa da API, as especificações da OpenAPI e as amostras de código estão no [portal do desenvolvedor do Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}.
+
+>[!NOTE]
+>
+>Todas as integrações devem usar a autenticação de servidor para servidor do OAuth — o método JWT foi descontinuado. [Configurar autenticação](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}
+
+### Executar campanhas acionadas por API {#api-triggered}
+
+Acione mensagens transacionais ou de marketing de um sistema externo usando a API REST de execução de mensagem interativa. Antes de chamar o ponto de extremidade:
+
+* A campanha deve ser **ativada** antes que o ponto de extremidade aceite chamadas.
+* As chamadas têm um **tempo limite de 60 segundos**; as tentativas internas lidam com tempos limite inesperados.
+* Se as datas de início/término da campanha forem configuradas, as chamadas da API fora dessas datas falharão.
+* Para criar sua carga, recupere a solicitação de cURL de amostra gerada na seção **cURL request** da sua campanha em tempo real na interface do usuário do Journey Optimizer — ela inclui todas as variáveis de personalização dessa campanha.
+* As [campanhas padrão e de alta taxa de transferência](../../campaigns/api-triggered-high-throughput.md) usam pontos de extremidade diferentes.
+
+[Referência de API](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} · [Amostras de código](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} · [Trabalhar com campanhas acionadas por API](../../campaigns/api-triggered-campaigns.md)
+
+### Limite e limitação para endpoints externos {#capping-throttling}
+
+Quando o jornada chama sistemas externos por meio de ações personalizadas ou fontes de dados, as APIs de limitação e limitação protegem esses sistemas contra sobrecarga. O limite rejeita chamadas que excedem o limite configurado; a limitação as enfileira por até 6 horas (sandboxes de produção, somente ações personalizadas).
+
+[Referência da API de Limite](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} · [Trabalhar com a API de Limite](../../configuration/capping.md) · [Trabalhar com a API de Limitação](../../configuration/throttling.md)
+
+### Mais REST APIs {#more-rest-apis}
+
+| O que você precisa fazer | Referência da API |
+| ------------------- | ------------- |
+| Excluir programaticamente endereços de email ou domínios do envio | [API de supressão](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [Gerenciar a lista de supressão](../../configuration/manage-suppression-list.md) |
+| Recuperar metadados de jornada para auditoria ou sincronização externa | [API do Jornada](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
+| Criar e gerenciar modelos e fragmentos de conteúdo de um pipeline externo | [API de conteúdo](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [Modelos](../../content-management/content-templates.md) · [Fragmentos](../../content-management/fragments.md) |
+| Recuperar e filtrar Campanhas de ação | [API de campanhas](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
+| Pré-visualizar campanhas e enviar provas de forma programática | [API de simulações](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
+| Validar conjuntos de dados e acionar a execução de campanha orquestrada | [Validação do conjunto de dados](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [Acionador](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [Habilitar conjuntos de dados](../../orchestrated/manual-schema.md) |
 
 ## Recursos adicionais {#additional-resources}
 
