@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
+source-git-commit: c116c99ca57b5cd001c63b4a0364a79548f45166
 workflow-type: tm+mt
-source-wordcount: 8537
-ht-degree: 94%
+source-wordcount: 8654
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 94%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Junho de 2026 {#june-2026}
+
+* Um novo hub de integração **Introdução ao Adobe Journey Optimizer** está disponível. Os novos usuários podem escolher seu caminho por função, explorar fundamentos ou ir para áreas do dia a dia se já integrados, sem precisar saber onde procurar primeiro. [Leia mais](../../rp_landing_pages/get-started-landing-page.md)
+
+* Uma nova página **Iniciar da meta** permite começar com o que você deseja realizar, em vez de um nome de recurso. Ele mapeia metas de negócios para o recurso Journey Optimizer recomendado em configurações, jornadas, campanhas, personalização, decisões e relatórios. [Leia mais](../start/ajo-use-case-guide.md)
+
+* O guia de função **Introdução para desenvolvedores** foi atualizado com introduções mais claras para cada seção e aprimorou as guias **Colaborar entre funções**, que fazem referência a jornadas e vinculam a páginas de implementação principais. [Leia mais](../start/path/developer.md)
 
 * Uma nova atribuição de **Caminho na subseção de reentrada do jornada** foi adicionada à documentação de **experimentação de caminho**. Ela esclarece que a atribuição de caminho é persistente para um perfil em várias entradas na mesma versão do jornada, mas somente nessa versão do jornada. As atribuições são redefinidas quando uma nova versão do jornada é publicada e cada atividade de experimentação de caminho em uma jornada aplica uma atribuição aleatória independente. [Leia mais](../building-journeys/path-experimentation.md#path-assignment)
 * As referências à **Adobe Experience Cloud** foram alinhadas com a marca **[!DNL Adobe CX Enterprise]** na documentação [!DNL Journey Optimizer].
