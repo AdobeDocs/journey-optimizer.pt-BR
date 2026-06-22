@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3389c7358327cc601fc1ab937d325c47462db12f
+source-git-commit: 2d3430eaa8c15ade3fddcc4883a29efdb059bfa9
 workflow-type: tm+mt
-source-wordcount: 3797
+source-wordcount: 3733
 ht-degree: 25%
 
 ---
@@ -49,8 +49,6 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 >Os recursos listados nestas notas de versão incluem uma **Data de disponibilidade** indicando quando cada alteração se torna acessível no ambiente. As entradas nos acordeões **Em breve** são esperadas nos próximos dias ou semanas. As informações nessas seções estão sujeitas a alterações.
 
 ## Notas de versão de junho de 2026 {#june-26-rn}
-
-A versão de junho de 2026 traz vários recursos principais para a Disponibilidade geral — incluindo a **Simulação de Jornada**, o **Direcionamento de otimização de caminho de Jornada** e os **Fragmentos de Jornada** — juntamente com a nova criação assistida por IA em jornadas e conteúdo, o suporte à Decisão expandido para o canal de Correspondência direta e controles adicionais de segurança e administração. Os recursos e as melhorias abaixo são organizados por tema. Alterações adicionais também são esperadas nos próximos dias ou semanas.
 
 ### Jornadas {#june-26-journeys}
 
