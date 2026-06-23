@@ -12,10 +12,10 @@ keywords: ondas, lotes, programação, jornada, ler público, entregabilidade
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 896
-ht-degree: 2%
+source-wordcount: 1554
+ht-degree: 1%
 
 ---
 
@@ -136,3 +136,52 @@ Você só pode definir o tamanho e o tempo das ondas. O mesmo público-alvo flui
 ## Consulte também {#see-also}
 
 * [Usar um público em uma jornada](read-audience.md)—configure a atividade Ler Público.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página explica como configurar o envio de som wave nas jornadas de público-alvo de leitura do Adobe Journey Optimizer para entregar mensagens de saída em lotes controlados ao longo do tempo, melhorando a capacidade de entrega e protegendo a reputação do remetente.
+
+**Intenções:**
+* Ativar o envio de ondas em uma jornada Ler público para entregar mensagens em lotes
+* Configurar ondas iguais com um intervalo fixo entre cada onda
+* Definir tamanhos de onda personalizados como porcentagens ou contagens absolutas de perfil
+* Agendar cada onda com uma data e hora iniciais específicas usando um agendamento personalizado
+* Controlar o volume de delivery para proteger a reputação do remetente ou alinhar-se à capacidade operacional
+
+**Glossário:**
+* **Envio de onda**: um modo de entrega que divide a Audiência de Leitura em lotes (ondas) e envia mensagens para cada lote em intervalos agendados, em vez de todas de uma vez *(específico do produto)*
+* **Ondas iguais**: uma configuração de onda em que o público é dividido em partes de tamanho igual com um intervalo fixo entre os inícios de onda *(específico do produto)*
+* **Distribuição personalizada**: uma configuração de onda em que o tamanho de cada onda é definido manualmente como uma porcentagem ou número absoluto de perfis *(específico do produto)*
+* **Agenda personalizada**: uma configuração de onda em que cada onda tem uma data e hora de início específicas, permitindo um espaçamento não uniforme *(específico do produto)*
+
+**Medidas de Proteção:**
+* O envio de onda só está disponível para jornadas de público-alvo de leitura com os tipos de scheduler &quot;Assim que possível&quot; e &quot;Uma vez&quot;; não está disponível para jornadas recorrentes, acionadas por eventos, de negócios, de teste ou de simulação.
+* Devem ser definidas no mínimo 2 ondas e no máximo 10 ondas.
+* O intervalo mínimo entre o início de duas ondas consecutivas é de 30 minutos.
+* Uma hora de início de onda não pode ser anterior ao início da jornada ou no passado.
+* A divisão do público em ondas pode levar até 1 hora; os perfis não podem entrar até lá.
+* Dentro de uma única versão do jornada, duas ondas nunca são executadas simultaneamente; a próxima onda começa somente após a anterior terminar.
+* Os inícios de onda podem ser atrasados por limites de cota de plataforma ou pela carga pesada do sistema.
+* Ao usar a distribuição personalizada com base em porcentagem, todas as ondas devem totalizar 100%.
+* Ao usar a distribuição personalizada baseada em números, o sistema não valida a cobertura total; o usuário deve garantir que os tamanhos das ondas cubram o público-alvo desejado.
+* Se os tamanhos das ondas excederem o público-alvo, a primeira onda enviará para o público-alvo completo e as ondas restantes não serão executadas.
+* Se os tamanhos das ondas totalizarem menos do que o público-alvo, somente os perfis em ondas definidas receberão a mensagem; o restante não será repetido.
+
+**Terminologia:**
+* Nome canônico: Wave sending — Acrônimo: none — variantes: entrega em lote, entrega baseada em onda, envio em fases
+* Sinônimos: &quot;ondas&quot; = &quot;lotes&quot; = &quot;fases de entrega&quot;
+* Não confunda: &quot;Wave sending&quot; ≠ &quot;jornada recorrente&quot; (o envio de onda divide um único público-alvo em lotes cronometrados; as jornadas recorrentes leem novamente o público-alvo de acordo com uma programação)
+
+**Perguntas frequentes:**
+* **P: O envio da onda pode ser usado em jornadas recorrentes?** — Não; o envio de onda só está disponível para jornadas Ler público-alvo com o tipo de scheduler &quot;O mais rápido possível&quot; ou &quot;Uma vez&quot;.
+* **P: Qual é o tempo mínimo entre duas ondas?** — 30 minutos entre o início de duas ondas consecutivas.
+* **P: O que acontecerá se meus tamanhos de onda totalizarem mais do que o público-alvo?** — A primeira onda envia para o público-alvo completo e as ondas subsequentes não têm perfis para os quais enviar; elas não são executadas.
+* **P: Posso atribuir conteúdo ou segmentos diferentes a ondas individuais?** — Não; todas as ondas usam o mesmo público-alvo e conteúdo de jornada. Somente o tamanho e o tempo podem ser personalizados por onda.
+* **P: Quantas ondas posso configurar?** — Entre 2 e 10 ondas por jornada.
+* **P: Quando devo usar o envio por ondas?** — use-a para proteger a reputação do remetente para envios de alto volume, alinhar o delivery com a capacidade downstream da equipe (por exemplo, call centers) ou aumentar progressivamente o volume em um novo IP ou plataforma.
+
++++

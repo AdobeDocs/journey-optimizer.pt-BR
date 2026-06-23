@@ -11,9 +11,9 @@ keywords: error, codes, troubleshooting, jornada, campaign, messages (erro, cód
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2358
+source-wordcount: 2902
 ht-degree: 3%
 
 ---
@@ -202,3 +202,52 @@ Se você encontrar erros persistentes que não podem ser resolvidos usando este 
 
 * [Desmistificando [!DNL Adobe Journey Optimizer] Códigos de Erro: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt){target="_blank"}
 * [Desmistificando [!DNL Adobe Journey Optimizer] Códigos de Erro: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=pt){target="_blank"}
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página é um guia de referência para códigos de erro padronizados do Adobe Journey Optimizer organizados por prefixo de serviço, explicando a causa raiz de cada erro e fornecendo orientação passo a passo sobre a resolução.
+
+**Intenções:**
+
+* Identifique qual serviço do AJO gerou um erro usando o prefixo do serviço no código de erro
+* Diagnosticar e resolver erros de envio/transporte (CJMPTS) que afetam a entrega de mensagens
+* Solução de problemas de tempo de execução de jornada e erros de API (CJMRT) durante a execução da jornada ou o processamento do evento
+* Corrigir erros de criação de mensagens (CJMAS) ao criar, salvar ou publicar mensagens
+* Resolver erros de campanha (CJMCMP) durante a ativação ou aprovação da campanha
+* Encaminhar erros persistentes ao suporte da Adobe com as informações corretas
+
+**Glossário:**
+
+* **Prefixo do serviço**: o código alfanumérico no início de um código de erro do AJO que identifica qual serviço gerou o erro (por exemplo, CJMRT = Tempo de Execução de Jornada) *(específico do produto)*
+* **Código de status HTTP**: o código de status padrão inserido em um código de erro AJO (por exemplo, 400 = Solicitação inválida, 403 = Proibido, 422 = Entidade não processável, 500 = Erro Interno do Servidor)
+* **ID da Solicitação**: um identificador exclusivo que acompanha um erro que é necessário ao encaminhar para o Suporte da Adobe *(específico do produto)*
+* **CJMRT**: prefixo do serviço de Tempo de Execução de Jornada — erros durante a execução da jornada e operações de API *(específico do produto)*
+* **CJMMAS**: Prefixo do Serviço de Autoria de Mensagens — erros durante a criação e publicação da mensagem *(específico do produto)*
+* **CJMPTS**: prefixo de Serviço de Push/Transporte — erros durante notificação por push e transporte de mensagem *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* As variantes de email devem incluir um link para opção de não participação/cancelamento de inscrição; sua omissão aciona o CJMAS-2001-200.
+* A interrupção de uma jornada requer a permissão Gerenciar jornadas (relevante para erros CJMRT envolvendo permissões).
+* A propagação DNS para delegação de subdomínio pode levar até 72 horas (relevante para o CJMRT-080608-400).
+* As chaves de pesquisa para atividades de pesquisa de conjunto de dados devem ser definidas no modo avançado, não no modo simples.
+
+**Terminologia:**
+
+* Nome canônico: Código de erro — Acrônimo: n/a — variantes: mensagem de erro, identificador de erro
+* Sinônimos: &quot;prefixo de serviço&quot; = &quot;prefixo de erro&quot; = &quot;identificador de componente&quot;
+* Não confunda: &quot;400 Solicitação incorreta&quot; ≠ &quot;422 Entidade não processável&quot; — 400 indica entrada malformada; 422 indica formato válido, mas conteúdo inválido por regras de esquema
+
+**Perguntas frequentes:**
+
+* **P: Como saber qual serviço AJO causou um erro?** — Leia o prefixo do serviço no início do código de erro: CJMPTS (push/transporte), CJMRT (tempo de execução da jornada), CJMAS (criação de mensagens), CJMCMP (campanha), CJMTL (camada de transporte), CJMRPS (relatórios/provisionamento).
+* **P: O que devo fazer quando receber um erro de série 500?** — Tente novamente após alguns minutos, verifique se há interrupções no Adobe Status e encaminhe para o Suporte da Adobe com o código de erro completo e a ID da solicitação se o problema persistir.
+* **P: Por que o CJMAS-2001-200 mostra um banner de erro mesmo que o status seja &quot;sucesso&quot;?** — Um link obrigatório de recusa/cancelamento de inscrição está ausente em uma variante de email; adicione-o a todas as variantes e versões de idioma.
+* **P: Quais informações devo coletar antes de contatar o Suporte da Adobe?** — colete o código de erro completo, a ID da solicitação, os carimbos de data e hora, as etapas de reprodução e todos os detalhes de configuração relevantes.
+* **P: O que causa o CJMRT-030012-422?** — Dados de entrada inválidos, como referência a um público-alvo, evento ou atributo não existente; verifique se todos os objetos referenciados existem e estão ativos.
+
++++

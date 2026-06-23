@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 6%
+source-wordcount: 1491
+ht-degree: 4%
 
 ---
 
@@ -117,3 +117,53 @@ Para obter mais informações sobre como transformar um perfil existente em um p
 * A atividade **[!UICONTROL Atualizar perfil]** atualiza somente o [Repositório de Perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}, não o Data Lake.
 * Até cinco pares de campo/valor podem ser atualizados em uma única ação **[!UICONTROL Atualizar Perfil]**. Use o botão **[!UICONTROL Atualizar outro campo]** para adicionar mais pares.
 * Para obter um melhor desempenho, agrupe várias atualizações de atributo em uma única ação **[!UICONTROL Atualizar Perfil]** em vez de usar uma ação por atributo.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página explica como configurar a atividade Atualizar Perfil para enriquecer ou corrigir um perfil do Adobe Experience Platform existente com dados de eventos de jornada, fontes de dados ou valores estáticos à medida que um cliente avança em uma jornada.
+
+**Intenções:**
+
+* Configure a atividade Atualizar perfil para modificar atributos de perfil existentes durante uma jornada
+* Selecionar um conjunto de dados habilitado para perfil dedicado às ações Atualizar perfil
+* Mapear valores de campo de eventos de jornada, fontes de dados ou valores estáticos para atributos de perfil
+* Atualizar vários atributos de perfil (até cinco) em uma única atividade
+* Atualizações de perfil de teste no modo de teste do jornada
+
+**Glossário:**
+
+* **Atualizar atividade do perfil**: uma atividade de ação que grava novos valores em campos existentes em um perfil do Adobe Experience Platform em tempo real, conforme um perfil passa por uma jornada *(específico do produto)*
+* **Repositório de Perfis**: o repositório da Adobe Experience Platform que armazena dados de perfil do cliente em tempo real, distintos do Data Lake *(específico do produto)*
+* **Namespace de identidade**: um rótulo que distingue contextos de identidade (por exemplo, email, ID de CRM) usados para corresponder ao perfil que está sendo atualizado *(específico do produto)*
+* **Conjunto de dados habilitado para perfil**: um conjunto de dados Adobe Experience Platform configurado para contribuir com registros para o perfil unificado *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* A ação Atualizar Perfil só pode ser usada em jornadas que tenham um namespace definido.
+* A ação atualiza apenas campos XDM existentes; não é possível criar novos campos de perfil.
+* Somente tipos de campos simples são suportados (string, número, booleano); enumerações, arrays de objetos e coleções complexas não são suportados.
+* A ação não pode gerar eventos de experiência como compras.
+* Até cinco pares de campo/valor podem ser atualizados em uma única ação Atualizar perfil.
+* Não compartilhe o conjunto de dados dedicado com processos de assimilação em lote ou por transmissão, pois outras execuções de assimilação substituirão as alterações no Perfil de atualização.
+* As atualizações de perfil podem não estar imediatamente disponíveis downstream na mesma execução da jornada.
+* A atividade atualiza somente o Repositório de perfis, não o Data Lake.
+
+**Terminologia:**
+
+* Nome canônico: Atualizar Perfil — Acrônimo: none — variantes: Atualizar atividade do perfil, Atualizar ação do perfil
+* Sinônimos: &quot;Loja de perfis&quot; = &quot;Loja de perfis do cliente em tempo real&quot;
+* Não confunda: &quot;Armazenamento de perfis&quot; (atualizado por esta atividade) ≠ &quot;Data Lake&quot; (não atualizado por esta atividade)
+
+**Perguntas frequentes:**
+
+* **P: A atividade Atualizar Perfil pode criar novos campos de perfil?** — Não, ele só pode atualizar campos que já existem no esquema de perfil XDM selecionado.
+* **P: Por que devo usar um conjunto de dados dedicado para ações de Atualização de Perfil?** — Compartilhar o conjunto de dados com assimilação em lote ou por transmissão pode fazer com que outras execuções de assimilação substituam as alterações feitas pela atividade Atualizar perfil.
+* **P: As atualizações de perfil estão imediatamente visíveis para atividades downstream na mesma jornada?** — Não, os valores atualizados podem não ser refletidos ainda se uma ação ler o mesmo campo imediatamente após a atividade Atualizar perfil grava-o.
+* **P: Quantos campos posso atualizar em uma única ação Atualizar Perfil?** — Até cinco pares de campo/valor podem ser configurados em uma única atividade usando o botão &quot;Atualizar outro campo&quot;.
+* **P: As atualizações de perfil se aplicam ao modo de teste?** — Sim, no modo de teste, as atualizações entram em vigor imediatamente no perfil de teste e não são simuladas.
+
++++

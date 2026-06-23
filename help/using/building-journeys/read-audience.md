@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 3992
-ht-degree: 7%
+source-wordcount: 4752
+ht-degree: 5%
 
 ---
 
@@ -443,3 +443,56 @@ Para obter a lista completa das medidas de proteção de Leitura de público (in
 Entenda os casos de uso aplicáveis para uma jornada acionada pela atividade de leitura de público-alvo. Saiba como criar jornadas baseadas em lote e quais práticas recomendadas devem ser aplicadas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430363?captions=por_br&quality=12)
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página explica como configurar e usar a atividade Ler público no Adobe Journey Optimizer para adicionar perfis de um público do Adobe Experience Platform a uma jornada, uma vez ou de acordo com um agendamento recorrente, com orientação sobre agendamento, taxa de transferência, solução de problemas e práticas recomendadas.
+
+**Intenções:**
+* Configurar uma atividade Ler público como ponto de entrada de uma jornada
+* Selecionar um público-alvo e um namespace de identidade da Adobe Experience Platform para a jornada
+* Defina a taxa de leitura para controlar quantos perfis inserir por segundo
+* Agendar uma jornada para ser executada uma vez, diariamente, semanalmente ou em uma recorrência personalizada
+* Habilitar Leitura incremental para processar somente novos membros do público-alvo em execuções recorrentes
+* Solucionar problemas de incompatibilidades de contagem de público-alvo, execuções de perfil zero e entradas atrasadas
+* Decida entre o Público-alvo de leitura e a Qualificação do Público-alvo com base nas necessidades em lote versus em tempo real
+
+**Glossário:**
+* **Atividade Ler público-alvo**: a atividade de ponto de entrada do jornada que lê todos os perfis qualificados de um público-alvo selecionado do Adobe Experience Platform e os adiciona à jornada *(específico do produto)*
+* **Taxa de leitura**: o número máximo de perfis que podem inserir a jornada por segundo (500-20.000; padrão 5.000) *(específico do produto)*
+* **Leitura incremental**: uma opção de jornada recorrente que processa somente perfis recém-adicionados ao público desde a última execução da jornada *(específico do produto)*
+* **Forçar reentrada na recorrência**: uma opção de agendamento que remove todos os participantes ativos do jornada antes de cada nova execução para que os perfis possam inserir novamente novos *(específico do produto)*
+* **Acionar após a avaliação do público-alvo em lote**: uma opção de agendamento que atrasa a execução da jornada até que um novo instantâneo do público-alvo em lote esteja disponível (até 6 horas) *(específico do produto)*
+* **Identificador complementar**: um identificador secundário (por exemplo, ID de pedido) que permite que o mesmo perfil entre na jornada várias vezes quando o identificador for diferente de *(específico do produto)*
+
+**Medidas de Proteção:**
+* Somente uma atividade Read Audience é permitida por jornada e deve ser a primeira atividade.
+* Somente um público pode ser selecionado por atividade Ler público.
+* Até cinco execuções simultâneas de Público-alvo de leitura por organização.
+* A taxa máxima de leitura é de 20.000 perfis por segundo por sandbox (soma de todas as atividades simultâneas Read Audience).
+* A taxa de leitura é limitada a 500 perfis por segundo quando um identificador complementar é usado.
+* Somente perfis com status de participação de público-alvo realizado entram na jornada.
+* Somente namespaces de identidade com base em pessoas estão disponíveis; perfis sem o namespace selecionado não podem ser inseridos.
+* O tempo limite de 12 horas se aplica a trabalhos de exportação de Leitura de público.
+* As tentativas de trabalhos de exportação com falha ocorrem a cada 10 minutos por até 1 hora.
+* Para públicos de upload personalizados com Leitura incremental ativada, os perfis são recuperados somente na primeira recorrência (esses públicos são corrigidos).
+* Dimensionar o vencedor não está disponível para jornadas de leitura de público-alvo (experimentação de caminho).
+
+**Terminologia:**
+* Nome canônico: Read Audience — Acrônimo: none — variantes: acionador de segmento, entrada de jornada baseada em público, Segmento de leitura (nome da API herdada)
+* Sinônimos: &quot;Público-alvo de leitura&quot; = &quot;acionador de segmento&quot; = &quot;jornada acionada pelo público-alvo&quot;
+* Não confunda: &quot;Ler público-alvo&quot; ≠ &quot;Qualificação de público-alvo&quot; (Ler público-alvo é batch/agendado; a qualificação de público-alvo é transmissão em tempo real)
+
+**Perguntas frequentes:**
+* **P: Quando devo usar Ler Público em vez de Qualificação de Público?** — use o Read Audience para casos de uso agendados e em lote (por exemplo, boletins informativos semanais, campanhas de reengajamento). Use a qualificação de público-alvo quando os perfis precisarem entrar na jornada imediatamente à medida que forem qualificados em tempo real.
+* **P: Por que há menos perfis entrando na jornada do que o tamanho do público-alvo?** — causas comuns incluem perfis que não têm o namespace selecionado, processos de segmentação em lote ainda não concluídos antes da execução da jornada ou perfis que não estão no status Realizado. Habilite &quot;Acionar após a avaliação do público-alvo em lote&quot; e verifique a configuração do namespace.
+* **P: O que a leitura incremental faz na primeira execução?** — Na primeira execução, todos os perfis de público-alvo são inseridos. Nas execuções subsequentes, somente os perfis recém-adicionados ao público-alvo desde a última execução são processados.
+* **P: O que acontece se o trabalho de exportação falhar?** — O sistema tenta novamente a cada 10 minutos por até 1 hora. As falhas são relatadas em Alertas. Após 1 hora sem sucesso, a execução é considerada reprovada.
+* **P: O mesmo perfil pode inserir uma jornada de Leitura de Público-Alvo várias vezes?** — Sim, se um identificador complementar estiver configurado e for diferente entre as entradas, ou se a opção Forçar reentrada na recorrência estiver habilitada. Sem eles, um perfil não pode estar presente várias vezes ao mesmo tempo.
+* **P: Por quanto tempo uma jornada de Leitura de Público-Alvo de uma só vez permanece ativa?** — Ele é movido para o status Finished 91 dias após a execução (o tempo limite global da jornada).
+
++++

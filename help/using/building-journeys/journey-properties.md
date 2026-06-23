@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 4186
-ht-degree: 8%
+source-wordcount: 4990
+ht-degree: 7%
 
 ---
 
@@ -499,3 +499,61 @@ Esses conceitos são separados. O **[tempo limite global de jornada](#global_tim
 * [Pausar uma jornada](journey-pause.md) - Pausar e retomar jornadas com os critérios de saída do atributo de perfil
 * [Gerenciamento de fuso horário](timezone-management.md) - Configurar fusos horários de jornada e perfil
 * [Gerenciamento e priorização de conflitos](../conflict-prioritization/conflicts.md) - Identifique e resolva conflitos entre jornadas e campanhas
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página explica como configurar e gerenciar todas as configurações globais de uma jornada, incluindo regras de entrada, fusos horários, datas de início/término, comportamento de tempo limite, critérios de saída, tamanho da carga e gerenciamento de conflitos.
+
+**Intenções:**
+
+* Configurar regras de entrada e reentrada de jornadas para perfis
+* Definir datas de início e término para controlar quando os perfis podem entrar ou sair de uma jornada
+* Definir critérios de saída para remover perfis automaticamente quando uma condição comercial for atendida
+* Gerenciar o acesso a uma jornada usando rótulos de controle de acesso no nível do objeto
+* Monitore o tamanho do conteúdo da jornada para evitar falhas de publicação
+* Resolva conflitos e atribua pontuações de prioridade em jornadas e campanhas
+
+**Glossário:**
+
+* **Propriedades da Jornada**: o painel de configurações globais (painel direito) que controla o nome, as regras de entrada, o fuso horário, as datas, o tempo limite, o tamanho da carga e o gerenciamento de conflitos de uma jornada. *(específico do produto)*
+* **Período de espera de reentrada**: o tempo mínimo que um perfil deve aguardar antes de ter permissão para reinserir uma jornada unitária; o máximo é 90 dias. *(específico do produto)*
+* **Tempo limite de jornada global (TTL)**: a duração máxima que um perfil pode permanecer ativo em uma jornada — atualmente 91 dias, após os quais o perfil é encerrado e seus dados são excluídos. *(específico do produto)*
+* **Critérios de saída**: regras definidas no nível da jornada que removem automaticamente perfis de uma jornada quando ocorre um evento especificado ou quando uma condição de público-alvo é atendida. *(específico do produto)*
+* **Critérios de Saída Baseados em Atributos de Perfil**: Regras de saída baseadas em atributos de perfil (por exemplo, local, status) que são avaliados nas etapas de ação e só são editáveis quando uma jornada é pausada. *(específico do produto)*
+* **Política de mesclagem**: o conjunto de regras usado pelo Adobe Experience Platform para combinar dados de perfil de várias fontes; aplicado de forma consistente em toda a jornada. *(específico do produto)*
+* **Gerenciamento de conflitos**: ferramentas nas propriedades de jornada para atribuir pontuações de prioridade, aplicar conjuntos de regras e identificar jornadas ou campanhas sobrepostas. *(específico do produto)*
+* **Tamanho da carga da Jornada**: o tamanho atual da carga de definição da jornada comparado ao limite configurado; excedendo a publicação de blocos de limite. *(específico do produto)*
+* **OLAC (Object Level Access Control)**: um modelo de permissão que restringe o acesso a jornadas individuais usando rótulos de uso de dados.
+
+**Medidas de Proteção:**
+
+* O período máximo de espera de reentrada é de 90 dias
+* O tempo limite da jornada global é de 91 dias; após esse período, os dados do perfil são excluídos e o perfil é encerrado
+* O limite padrão de carga do Jornada é de 4 MB; excedê-lo impede a publicação — entre em contato com o Atendimento ao cliente da Adobe para obter um limite mais alto
+* Os critérios de saída só podem ser configurados em estado de rascunho (tipos de evento/público-alvo); os critérios de saída do atributo de perfil só podem ser editados quando a jornada é pausada
+* Somente uma regra de critérios de saída do atributo de perfil é permitida por jornada
+* Os critérios de saída do atributo de perfil são avaliados somente nas etapas da ação, não globalmente
+* Quando uma política de mesclagem de público-alvo é atualizada, qualquer jornada ativa que faça referência a esse público-alvo deve ser republicada
+* Políticas de mesclagem inconsistentes em uma publicação de bloco de jornadas; inconsistências na personalização da mensagem não geram um alerta
+* Para jornadas ao vivo, o painel de propriedades mostra somente a data da publicação e o nome do editor
+
+**Terminologia:**
+
+* Nome canônico: propriedades da Jornada — Acrônimo: none — variantes: configurações da jornada, painel de configuração da jornada
+* Sinônimos: &quot;tempo limite de jornada global&quot; = &quot;TTL&quot; = &quot;Tempo de vida&quot;
+* Não confunda: &quot;tempo limite de jornada global (91 dias)&quot; ≠ &quot;janela de relatório (~91 dias)&quot; — o tempo limite limita a duração de perfil individual em uma jornada; a janela de relatórios é um limite de exibição da interface do usuário para dados de análise
+
+**Perguntas frequentes:**
+
+* **P: Por quanto tempo um perfil pode permanecer em uma jornada?** — Um máximo de 91 dias (o tempo limite da jornada global); após esse período, o perfil é encerrado automaticamente e seus dados são excluídos.
+* **P: Posso editar as propriedades da jornada enquanto ela estiver ativa?** — Para jornadas ao vivo, o painel de propriedades mostra somente a data da publicação e o nome do editor; as alterações estruturais exigem uma nova versão.
+* **P: O que acontece quando vários critérios de saída são configurados?** — Eles são avaliados de cima para baixo com lógica OR em cada etapa da jornada; um perfil é encerrado quando qualquer critério é atendido.
+* **P: Como evitar que um perfil entre novamente em uma jornada?** — Desmarque a opção &quot;Permitir reentrada&quot; nas propriedades do jornada; isso é adequado para experiências únicas, como uma oferta de presente.
+* **P: Qual é a diferença entre o tempo limite da jornada e a data de término?** — A data final interrompe todas as novas entradas e sai automaticamente dos perfis ativos nessa data específica; o tempo limite global de 91 dias se aplica por perfil a partir do momento em que entram, independentemente da data final da jornada.
+* **P: Como a política de mesclagem é determinada para uma jornada?** — Depende do tipo de jornada: As jornadas Ler público-alvo e Qualificação de público-alvo usam a política de mesclagem do público-alvo; As jornadas de eventos unitários usam a política de mesclagem padrão; As jornadas de eventos comerciais usam a política de mesclagem do público-alvo direcionado na atividade Ler público-alvo subsequente.
+
++++

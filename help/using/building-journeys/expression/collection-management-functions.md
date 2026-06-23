@@ -18,10 +18,10 @@ subfeature_v2:
   - id: fa683eda-48de-4558-af32-2673edcd44fe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 3%
+source-wordcount: 1000
+ht-degree: 1%
 
 ---
 
@@ -184,3 +184,52 @@ Essa expressão retorna o segundo token de notificação por push da lista.
 ```
 
 O resultado é `token_2`.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página documenta as funções de gerenciamento de coleções `all()`, `first()`, `last()` e `at()` usadas no editor de expressão avançado de Jornada, ilustradas com exemplos de carga de token de notificação por push.
+
+**Intenções:**
+
+* Filtrar uma coleção de campos de evento ou fonte de dados usando uma condição booleana com `all(<condition>)`
+* Contar elementos de coleção filtrados ou não filtrados usando `count()` combinado com funções de coleção
+* Recuperar o primeiro ou o último elemento correspondente de uma coleção usando `first()` ou `last()`
+* Acessar um elemento de coleção em um índice baseado em zero específico usando `at(<index>)`
+* Entenda qual variável de loop (`currentEventField`, `currentDataPackField`, `currentActionField`) se aplica a cada contexto de coleção
+
+**Glossário:**
+
+* **all(condition)**: filtra uma coleção e retorna todos os itens correspondentes à expressão booliana especificada *(específico do produto)*
+* **first(condition)**: retorna o primeiro elemento (mais recente para eventos de experiência) em uma coleção que corresponde à condição *(específico do produto)*
+* **last(condition)**: retorna o último elemento (mais antigo para eventos de experiência) em uma coleção que corresponde à condição *(específico do produto)*
+* **at(index)**: retorna o elemento no índice com base em zero especificado de uma coleção *(específica do produto)*
+* **currentEventField**: Variável de loop disponível somente ao iterar em coleções de eventos *(específico do produto)*
+* **currentDataPackField**: variável de loop disponível somente ao iterar em coleções de fonte de dados *(específico do produto)*
+* **currentActionField**: variável de loop disponível somente ao iterar sobre coleções de resposta de ação personalizada *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* Não há suporte para o uso de eventos de experiência em expressões/condições de jornada; considere métodos alternativos, como atributos computados
+* `currentEventField`, `currentDataPackField` e `currentActionField` só estão disponíveis nos respectivos contextos de coleção
+* A função `all` não é necessária para contar elementos de coleção — `count()` pode ser aplicada diretamente ao caminho do campo
+* Quando `all()` é chamado com uma condição vazia, todos os elementos na coleção são retornados
+
+**Terminologia:**
+
+* Nome canônico: Funções de Gerenciamento de Coleta — Acrônimo: nenhum — variantes: funções de coleta, funções de coleta de consulta
+* Sinônimos: &quot;all()&quot; = &quot;função de filtro de coleção&quot;; &quot;at()&quot; = &quot;acessador de índice&quot;
+* Não confunda: `first()` (evento de experiência mais recente) ≠ primeiro elemento inserido em listas gerais
+
+**Perguntas frequentes:**
+
+* **P: Qual é a diferença entre `all()` com uma condição vazia e `all()` com uma condição?** — Um `all()` vazio retorna cada elemento; um `all()` baseado em condição retorna somente elementos correspondentes a essa expressão booleana.
+* **P: Como posso contar tokens de notificação por push sem usar `all()`?** — Chame `count()` diretamente no caminho do campo de token, por exemplo, `count(@event{LobbyBeacon...pushNotificationTokens.token})`.
+* **P: Qual variável devo usar para fazer referência ao elemento atual durante o loop em uma coleção de fontes de dados?** — Use `currentDataPackField` dentro de `all()`, `first()` ou `last()` em coleções de fonte de dados.
+* **P: Como faço para obter o segundo item em uma coleção?** — Use `at(1)` porque o índice 0 é o primeiro elemento.
+* **P: Por que `last()` retorna o evento de experiência mais antigo?** — Os eventos de experiência são armazenados em ordem cronológica inversa, de modo que a última posição na coleção corresponde ao evento mais antigo.
+
++++

@@ -29,10 +29,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 15%
+source-wordcount: 1094
+ht-degree: 6%
 
 ---
 
@@ -90,3 +90,49 @@ Selecione o método de otimização que melhor se adapta ao seu caso de uso:
 * Deseja testar e saber qual caminho tem melhor desempenho? → Ir para [Experimentação de caminho](path-experimentation.md)
 * Deseja enviar públicos diferentes por caminhos específicos? → Vá para [Direcionamento de caminho](path-targeting.md)
 * Deseja criar uma lógica condicional (cenários if/then)? → Vá para [Condições](conditions.md)
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página apresenta a atividade Otimize, a substituição da antiga atividade Condition, que permite aos usuários criar vários caminhos de jornada usando experimentação, regras de direcionamento ou lógica condicional.
+
+**Intenções:**
+
+* Entenda o que a atividade Otimizar faz e como ela substitui a antiga atividade Condição
+* Criar vários caminhos de jornada usando a experimentação de caminho (teste A/B)
+* Definir regras de direcionamento para rotear segmentos de público-alvo ou atributos de perfil específicos para caminhos separados
+* Aplicar lógica condicional (if/then) usando o método Condições na atividade Otimizar
+* Migrar jornadas existentes que usaram a atividade Condição para a nova atividade Otimizar
+
+**Glossário:**
+
+* **Atividade Otimizar**: a atividade da tela de jornada que substitui a antiga atividade Condição e permite a criação de vários caminhos por meio de experimentação, direcionamento ou condições. *(específico do produto)*
+* **Caminho da Jornada**: uma sequência em uma jornada que pode consistir em comunicações, tempos de espera, número de mensagens ou qualquer combinação; os perfis são roteados para um caminho com base em critérios definidos na atividade Otimize. *(específico do produto)*
+* **Experimentação de caminho**: um método Otimize que divide aleatoriamente perfis entre caminhos para determinar qual tem melhor desempenho em relação a métricas de sucesso predefinidas, como taxa de conversão ou receita. *(específico do produto)*
+* **Direcionamento de caminho**: um método Otimize (atualmente com Disponibilidade Limitada) que roteia perfis para caminhos com base em segmentos de público-alvo, atributos de perfil ou dados contextuais. *(específico do produto)*
+* **Condições**: um método Otimize equivalente à atividade Condition anterior, criando caminhos condicionais com base em fontes de dados, hora, data, divisões de porcentagem ou limites de perfil. *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* No momento, o direcionamento de caminho está em Disponibilidade limitada — entre em contato com o representante da Adobe para solicitar acesso
+* A antiga atividade Condição foi removida da interface do usuário; as jornadas existentes que a utilizavam continuam a funcionar e agora são exibidas com um novo ícone como Otimizar atividades usando o método Condições
+* Os rótulos personalizados definidos em nós de condição anteriores são preservados após a migração para Otimizar
+
+**Terminologia:**
+
+* Nome canônico: atividade Otimize — Acrônimo: none — variantes: otimização de caminho de jornada, nó Otimize
+* Sinônimos: &quot;Atividade de otimização (método de condições)&quot; = &quot;antiga atividade de condição&quot;
+* Não confunda: &quot;Path experimentation&quot; ≠ &quot;Path targeting&quot; — A experimentação de caminho usa divisões aleatórias para testar qual caminho tem melhor desempenho; o direcionamento de caminho usa regras definidas para rotear públicos específicos para caminhos específicos
+
+**Perguntas frequentes:**
+
+* **P: O que aconteceu com a atividade de Condição?** — Ela foi substituída pela atividade Otimizar e removida da interface. As jornadas existentes que usavam atividades de Condição continuam a funcionar inalteradas; agora são exibidas com um novo ícone como Otimizar atividades usando o método Condições.
+* **P: Quais são os três métodos disponíveis na atividade Otimizar?** — experimentação de caminho (divisões A/B aleatórias para encontrar o caminho com melhor desempenho), direcionamento de caminho (roteamento baseado em regras por público-alvo ou atributos de perfil, atualmente em Disponibilidade limitada) e Condições (lógica condicional if/then equivalente à atividade Condition anterior).
+* **P: Qual é a diferença entre a experimentação de caminho e o direcionamento de caminho?** — a experimentação de caminhos divide aleatoriamente os perfis para testar e comparar o desempenho dos caminhos com as métricas de sucesso; o direcionamento de caminhos direciona públicos-alvo específicos ou tipos de perfis para caminhos designados com base em critérios definidos.
+* **P: O direcionamento de caminho está disponível?** — Não; está atualmente com disponibilidade limitada. Entre em contato com seu representante da Adobe para solicitar acesso.
+* **P: O que é um caminho de jornada?** — Um caminho é uma sequência dentro de uma jornada que pode incluir uma combinação de comunicações, períodos de espera e contagens de mensagens. Os perfis são avaliados e roteados para o caminho apropriado pelos critérios de atividade Otimizar.
+
++++

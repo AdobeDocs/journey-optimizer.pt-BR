@@ -11,10 +11,10 @@ keywords: direcionamento, regras, jornada, caminho, otimização, personalizaç�
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 823
-ht-degree: 3%
+source-wordcount: 1327
+ht-degree: 2%
 
 ---
 
@@ -144,5 +144,46 @@ Os clientes que compraram recentemente podem entrar em um caminho curto de &quot
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
 ![Direcionamento do histórico de compras com caminho de venda cruzada para compradores e caminho de criação para não compradores](assets/journey-optimize-targeting-uc-purchase.png)
+
++++
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+- **TL;DR:** esta página explica como usar o direcionamento de caminho no Adobe Journey Optimizer jornada para rotear de forma determinalista segmentos específicos de público-alvo para caminhos de jornada designados com base em regras definidas.
+
+**Intenções:**
+- Configure o direcionamento determinístico de caminho usando a atividade Otimizar com um método de regra de Direcionamento
+- Criar novas regras de direcionamento ou reutilizar regras existentes no menu Regras
+- Definir um caminho de fallback para perfis que não se qualificam para nenhuma regra de direcionamento
+- Personalizar caminhos de jornada para segmentos de público-alvo distintos (por exemplo, níveis de fidelidade, comportamento, histórico de compras)
+- Modificar regras de direcionamento em linha sem afetar a definição de regra original
+
+**Glossário:**
+- **Atividade Otimizar**: uma atividade de tela de jornada usada para dividir perfis em caminhos diferentes, seja via experimentação (aleatória) ou direcionamento (determinística) *(específico do produto)*
+- **Regra de direcionamento**: uma condição de qualificação determinística que decide em qual caminho de jornada um perfil entra, com base nos atributos de perfil ou público-alvo *(específico do produto)*
+- **Caminho de fallback**: um caminho de jornada alternativo para perfis que não atendem a nenhuma das regras de direcionamento definidas *(específico do produto)*
+
+**Medidas de Proteção:**
+- No momento, o direcionamento de caminho está com a Disponibilidade limitada; entre em contato com o representante da Adobe para solicitar acesso.
+- A criação de regras de direcionamento pelo menu dedicado Regras da Journey Optimizer requer o complemento Decisão ou está disponível sob demanda (Disponibilidade limitada).
+- Quando uma regra é selecionada no menu Regras e copiada na jornada, as alterações subsequentes na regra original não afetam a cópia da jornada.
+- A edição de uma regra em linha não modifica a regra original da qual ela foi originada.
+- Se a opção de caminho de fallback não estiver ativada, os perfis não qualificados para nenhuma regra de direcionamento sairão totalmente da jornada.
+
+**Terminologia:**
+- Nome canônico: Direcionamento de caminho — Acrônimo: none — variantes: roteamento determinístico de caminho, divisão de caminho baseada em regra
+- Sinônimos: &quot;Regra de direcionamento&quot; = &quot;regra de qualificação&quot; = &quot;condição de caminho&quot;
+- Não confunda: &quot;Direcionamento&quot; ≠ &quot;Experimentação&quot; (o direcionamento é determinístico; a experimentação é atribuição aleatória)
+
+**Perguntas frequentes:**
+- **P: Qual é a diferença entre o direcionamento de caminho e a experimentação de caminho?** — O direcionamento é determinístico: os perfis inserem um caminho com base em regras definidas. A experimentação é aleatória: os perfis são atribuídos a caminhos por acaso para comparar o desempenho.
+- **P: O que acontece com os perfis que não se qualificam para nenhuma regra de direcionamento?** — Se a opção de caminho de fallback estiver habilitada, eles inserirão o caminho de fallback. Se não estiver ativado, ele sairá totalmente da jornada.
+- **P: Posso reutilizar uma regra existente do menu Regras?** — Sim, mas a fórmula da regra é copiada na atividade de jornada; alterações subsequentes na regra original no menu Regras não afetarão a cópia da jornada.
+- **P: A edição em linha de uma regra de direcionamento altera a regra original?** — Não, a edição em linha atualiza somente a regra na atividade de jornada e não afeta a regra de origem.
+- **P: Quem pode acessar o direcionamento de caminho?** — No momento, a disponibilidade é limitada; entre em contato com o representante da Adobe para solicitar acesso.
 
 +++

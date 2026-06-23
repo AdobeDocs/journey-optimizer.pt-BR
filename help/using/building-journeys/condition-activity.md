@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1885
-ht-degree: 14%
+source-wordcount: 2580
+ht-degree: 10%
 
 ---
 
@@ -67,7 +67,7 @@ Você também pode basear uma condição em associação de público-alvo. Consu
 
 >[!NOTE]
 >
->A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}.
+>A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Adicionar e gerenciar caminhos de condição {#about_condition}
 
@@ -214,3 +214,51 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
    >[!NOTE]
    >
    >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página descreve a atividade de Condição no Journey Optimizer, abrangendo os cinco tipos de condição disponíveis — Data Source, Hora, Divisão de porcentagem, Data e Limite de perfil — e como rotear perfis para diferentes caminhos de jornada com base em regras, dados ou associação de público-alvo.
+
+**Intenções:**
+* Adicionar uma atividade de Condição a uma jornada e criar vários caminhos de ramificação
+* Configure uma condição do Data Source usando o editor de expressão para avaliar atributos de perfil ou evento
+* Configurar uma condição de tempo para rotear perfis com base na hora do dia ou dia da semana
+* Use uma Divisão de porcentagem para distribuir perfis aleatoriamente entre caminhos
+* Aplique uma limitação de perfil para limitar o número de perfis que usam um caminho de jornada específico
+* Usar uma verificação de associação de público como uma condição em um caminho de jornada
+
+**Glossário:**
+* **Atividade de condição**: uma atividade de jornada que avalia regras e roteia perfis para caminhos diferentes com base no resultado *(específico do produto)*
+* **Condição de Source de Dados**: um tipo de condição que avalia campos de fontes de dados ou eventos de jornada usando o editor de expressão *(específico do produto)*
+* **Condição de tempo**: um tipo de condição que filtra perfis com base na hora do dia, dia da semana ou uma combinação de *(específico do produto)*
+* **Divisão de porcentagem**: um tipo de condição que distribui aleatoriamente perfis entre caminhos usando um mecanismo aleatório Java estatístico *(específico do produto)*
+* **Limite de perfis**: um tipo de condição que limita o número de perfis que podem tomar um caminho específico; perfis adicionais são roteados para um caminho alternativo *(específico do produto)*
+* **Caminho alternativo**: um caminho de fallback ativado quando um erro, tempo limite ou limite de perfil é atingido *(específico do produto)*
+
+**Medidas de Proteção:**
+* Falha na avaliação da condição para perfis com mais de duas identidades entre dispositivos no Armazenamento de perfis
+* Campos de esquema sem dados assimilados são interpretados como nulos; isEmpty() e isNull() são avaliados como true para esses campos, o que pode causar comportamento inesperado
+* O fuso horário é definido no nível da jornada, não no nível da condição individual
+* A opção &quot;Mostrar caminho para outros casos&quot; não está disponível em condições de Divisão de porcentagem
+* O padrão do limite de perfil é 1.000; o contador é redefinido quando a jornada é duplicada ou uma nova versão é criada, mas não entre recorrências de uma jornada recorrente
+* Para uma tampa acima de 10.000, injetar pelo menos 1,3x o número de tampas dos perfis; para uma tampa abaixo de 10.000, injetar pelo menos 1.000 mais a tampa
+* Limite de perfil não aplicado no modo de teste
+* Consultas de série temporal (por exemplo, lista de compras, cliques anteriores) não são suportadas no editor de expressão simples; o editor avançado deve ser usado
+
+**Terminologia:**
+* Nome canônico: Atividade de condição — Acrônimo: none — variantes: nó de condição, etapa de condição
+* Sinônimos: &quot;Condição de Source de dados&quot; = &quot;condição baseada em expressão&quot; ; &quot;Divisão de porcentagem&quot; = &quot;divisão aleatória&quot;
+* Não confunda: &quot;Divisão de porcentagem&quot; ≠ &quot;Limite de perfil&quot; (divisão de porcentagem distribui aleatoriamente todos os perfis; o limite de perfil interrompe o roteamento para um caminho assim que um limite de contagem é atingido)
+
+**Perguntas frequentes:**
+* **P: O que acontece quando vários caminhos são definidos e um perfil atende a mais de uma condição?** — Somente o primeiro caminho elegível (de cima para baixo na tela) é executado; a ordem do caminho determina a prioridade.
+* **P: Posso adicionar um caminho de fallback para perfis que não correspondem a nenhuma condição?** — Sim, ative a opção &quot;Mostrar caminho para outros casos que não os mencionados acima&quot; — exceto em condições de Divisão de porcentagem, em que todos os perfis sempre inserem um dos caminhos divididos.
+* **P: Por que minha condição isEmpty() é avaliada como verdadeira para um campo que espero que tenha dados?** — Se o campo de esquema existir, mas nenhum dado tiver sido assimilado para ele, a Journey Optimizer e o Perfil do cliente em tempo real o interpretarão como null, portanto isEmpty() e isNull() retornarão true.
+* **P: O contador de limite de perfil é redefinido em uma jornada recorrente?** — Não, o contador não redefine entre recorrências; ele só é redefinido quando a jornada é duplicada ou uma nova versão é criada.
+* **P: Como a Divisão de Porcentagem funciona no modo de teste?** — No modo de teste, a ramificação superior é sempre escolhida independentemente das porcentagens divididas configuradas.
+
++++

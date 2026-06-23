@@ -37,10 +37,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 5522
-ht-degree: 1%
+source-wordcount: 6198
+ht-degree: 0%
 
 ---
 
@@ -1005,3 +1005,53 @@ Para obter mais informações e atualizações, explore os seguintes recursos:
 * [Guias de solução de problemas](troubleshooting.md)
 * [Jornada casos de uso](jo-use-cases.md)
 * [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página é uma pergunta frequente abrangente que aborda conceitos de orquestração de jornadas, criação de jornadas, testes e publicações, monitoramento de execução, recursos avançados e práticas recomendadas no Adobe Journey Optimizer.
+
+**Intenções:**
+* Entenda os quatro tipos de jornada (unitário, Público de leitura, Qualificação de público-alvo, evento comercial) e quando usar cada
+* Decidir entre uma jornada e uma campanha para um determinado caso de uso
+* Defina as configurações de reentrada para controlar a frequência com que um perfil pode entrar na mesma jornada
+* Solucionar por que um perfil não foi inserido ou por que as mensagens não foram enviadas
+* Aplicar regras de limite de jornada para evitar a fadiga da mensagem em várias jornadas
+* Usar fragmentos de Jornada para reutilizar sequências de nó comuns em jornadas
+
+**Glossário:**
+* **jornada Unitária**: uma jornada acionou um perfil por vez por um evento em tempo real, como uma compra ou inscrição *(específico do produto)*
+* **Ler jornada de público-alvo**: uma jornada que processa todos os perfis em um público-alvo em lote de uma só vez ou em um agendamento *(específico do produto)*
+* **jornada de qualificação de público-alvo**: uma jornada disparada quando um perfil entra ou sai de um segmento de público-alvo de streaming *(específico do produto)*
+* **Limite de Jornada**: uma configuração que limita quantas vezes um perfil pode inserir jornadas em uma janela de tempo ou quantas jornadas um perfil pode ter simultaneamente *(específico do produto)*
+* **Fragmento de Jornada**: um conjunto estático e reutilizável de nós de jornada compilados uma vez e inseridos em várias jornadas no tempo de design *(específico do produto)*
+* **Otimização de Tempo de Envio (STO)**: um recurso orientado por IA que prevê o tempo de envio ideal para cada perfil individual para maximizar o envolvimento *(específico do produto)*
+* **Identificador complementar**: um identificador adicional que permite que um perfil insira a mesma jornada várias vezes para entidades diferentes (por exemplo, pedidos separados) *(específico do produto)*
+
+**Medidas de Proteção:**
+* Máximo de 50 atividades por jornada
+* A duração máxima da jornada é de 91 dias (tempo limite global)
+* Os públicos-alvo de upload e os públicos-alvo de Composição de público-alvo federado não são compatíveis com as jornadas de qualificação de público-alvo
+* Os eventos de reação devem ser colocados imediatamente após uma ação de canal, sem uma atividade Wait entre eles
+* Não são permitidas atividades de salto dentro de um Fragmento de Jornada
+* Um fragmento de Jornada é compatível com no máximo 20 nós; uma sandbox é compatível com no máximo 200 fragmentos ativos
+* A qualificação do público-alvo de transmissão pode ser atrasada em até 10 minutos após a publicação da jornada para perfis que já estão no público-alvo
+
+**Terminologia:**
+* Nome canônico: Jornada — Acrônimo: none — variantes: jornada do cliente, orquestração, fluxo
+* Sinônimos: &quot;Perto de novas entradas&quot; = &quot;parada graciosa&quot;; &quot;Parada&quot; = &quot;parada imediata&quot;
+* Não confunda: &quot;Jornada&quot; ≠ &quot;Campaign&quot; — O jornada suporta a orquestração acionada por eventos de várias etapas; as campanhas são envios únicos ou programados com base no público-alvo
+* Não confundir: &quot;Modo de ensaio&quot; ≠ &quot;Ensaio a seco&quot; — o modo de ensaio utiliza perfis de ensaio sintéticos; o ensaio a seco utiliza dados reais de produção sem contactar os clientes
+
+**Perguntas frequentes:**
+* **P: Qual é o número máximo de atividades em uma jornada?** — 50 atividades; manter as jornadas mais simples melhora a capacidade de manutenção e o desempenho.
+* **P: Por que um perfil não entrou na minha jornada?** — Causas comuns incluem o evento de acionamento não recebido, critérios de público-alvo não atendidos, regras de reentrada bloqueando a reentrada, a publicação da jornada ou uma incompatibilidade de namespace.
+* **P: Posso modificar a estrutura de uma jornada em tempo real?** — Não; mudanças estruturais exigem a criação de uma nova versão do jornada. O conteúdo da mensagem pode ser atualizado sem uma nova versão.
+* **P: Qual é a diferença entre Pausar, Fechar para novas entradas e Parar?** — Pausar suspende temporariamente a jornada enquanto mantém ou descarta perfis em andamento. Fechar para novas entradas interrompe novas entradas, mas permite que os perfis existentes sejam concluídos. Parar sai imediatamente de todos os perfis.
+* **P: Quando devo usar Fragmentos de Jornada em vez da atividade de salto?** — use fragmentos para reutilizar lógica de nó comum no momento do design (comportamento copiar-colar). Use o Jump para redirecionar perfis para outra jornada ativa no tempo de execução.
+* **P: Como evitar o envio de muitas mensagens para o mesmo cliente?** — aplique regras de limite de jornada (limite de entrada ou limite de simultaneidade) e use regras de negócios de limite de frequência em ações de canal individuais.
+
++++

@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1158
-ht-degree: 9%
+source-wordcount: 1642
+ht-degree: 6%
 
 ---
 
@@ -743,5 +743,52 @@ Retorna `[3, 2, 1]`.
 `sort(@event{my_event.productListItems}, "SKU", true)`
 
 Retorna o listObject ordenado pelo atributo SKU (ordem crescente)
+
++++
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página documenta todas as funções de lista disponíveis nas expressões de jornada do AJO, abordando como filtrar, classificar, desduplicar, verificar associação, limitar, serializar e encontrar interseções de listas e matrizes.
+
+**Intenções:**
+* Remover valores duplicados de uma lista usando `distinct` (ignorando nulos) ou `distinctWithNull` (preservando nulos)
+* Filtrar um listObject para retornar somente objetos correspondentes a valores de chave específicos usando `filter`
+* Recuperar um elemento em um índice específico de uma lista usando `getListItem`
+* Verificar se existe um valor em uma lista usando `in`
+* Encontrar elementos comuns entre duas listas usando `intersect`
+* Retorna o primeiro ou o último N elementos de uma lista usando `limit`
+* Contar o número total de elementos em uma lista usando `listSize`
+* Converter uma lista em uma cadeia de caracteres delimitada usando `serializeList`
+* Classificar uma lista em ordem crescente ou decrescente usando `sort`
+
+**Glossário:**
+* **listObject**: uma lista de objetos complexos que devem ser uma referência de campo; não pode conter objetos nulos *(específico do produto)*
+* **keyAttributeName**: um parâmetro de cadeia opcional usado com `distinct`, `filter` e `sort` para identificar qual atributo de objeto usar para eliminação de duplicação, filtragem ou classificação *(específico do produto)*
+* **interseção**: uma operação de conjunto que retorna somente os elementos presentes em ambas as listas de entrada
+
+**Medidas de Proteção:**
+* `distinctWithNull` não dá suporte ao tipo de parâmetro `<listObject>`
+* `filter` requer que o parâmetro listObject seja uma referência de campo, não um literal embutido
+* `listSize` em um listObject requer que a lista seja uma referência de campo; um listObject não pode conter objetos nulos
+* `serializeList` não dá suporte ao tipo `listObject`
+
+**Terminologia:**
+* Nome canônico: funções de lista — Acrônimo: none — variantes: funções de coleção, funções de matriz
+* Sinônimos: &quot;listSize&quot; = &quot;count list elements&quot;; &quot;serializeList&quot; = &quot;join list to string&quot;
+* Não confunda: &quot;distinct&quot; (ignora nulos) ≠ &quot;distinctWithNull&quot; (preserva nulo como um valor distinto)
+* Não confunda: &quot;limit&quot; com o terceiro parâmetro `true` (retorna os primeiros N itens) ≠ &quot;limit&quot; com `false` (retorna os últimos N itens)
+* Não confunda: &quot;intersect&quot; (elementos comuns entre duas listas) ≠ &quot;filter&quot; (elementos que correspondem a valores de chave específicos)
+
+**Perguntas frequentes:**
+* **P: Como faço para obter os primeiros 3 itens de uma lista?** — Use `limit(myList, 3)` ou `limit(myList, 3, true)`; o padrão é retornar os primeiros itens.
+* **P: Como obter os últimos 3 itens de uma lista?** — Use `limit(myList, 3, false)`.
+* **P: Qual é a diferença entre `distinct` e `distinctWithNull`?** — `distinct` ignora valores nulos e os exclui do resultado; `distinctWithNull` trata nulo como um valor distinto e inclui uma entrada nula se houver nulos.
+* **P: Posso filtrar uma lista de cadeias de caracteres com `filter`?** — Não, `filter` funciona somente em `listObject`; para listas escalares, use `in` ou `distinct` para desduplicação.
+* **P: Como verificar se um valor está em uma lista?** — Use `in(value, myList)`, que retornará true se o valor for encontrado na lista.
+* **P: Posso classificar um listObject por um atributo específico?** — Sim, use `sort(@event{...}, "attributeName", true)` onde o segundo parâmetro é o nome do atributo e o terceiro é a direção da classificação (true = crescente).
 
 +++

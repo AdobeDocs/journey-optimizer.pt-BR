@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
+source-git-commit: 6e64af1e2b278a8c21af39a9d2f0d66ad2e257ea
 workflow-type: tm+mt
-source-wordcount: '3365'
+source-wordcount: '3366'
 ht-degree: 98%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 98%
 + Jornadas {#orchestrate-journeys}
    + [Introdução às jornadas](using/building-journeys/journey.md)
    + {hide-from-toc}[Guia de introdução a jornadas](using/building-journeys/journey-get-started.md)
-   + {hide-from-toc}[Tipos de jornada e guia de seleção](using/building-journeys/journey-types-selection.md)
+   + {hide-from-toc}[Tipos de Jornada: escolha o correto](using/building-journeys/journey-types-selection.md)
    + [Perguntas frequentes do Journey Orchestration](using/building-journeys/journey-faq.md)
    + Criar uma jornada {#create-journey}
       + [Criar uma jornada](/help/rp_landing_pages/create-journey-landing-page.md)

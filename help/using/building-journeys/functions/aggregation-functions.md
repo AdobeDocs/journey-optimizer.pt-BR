@@ -10,10 +10,10 @@ version: Journey Orchestration
 exl-id: 871a5212-5b94-4a54-bf1d-276022be3c95
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 7%
+source-wordcount: 1105
+ht-degree: 5%
 
 ---
 
@@ -508,5 +508,45 @@ Retorna 21.
 `sum([10.5,null,8.1])`
 
 Retorna 18,6.
+
++++
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página documenta todas as funções de agregação disponíveis nas expressões de jornada do AJO, abordando como calcular médias, somas, valores mín./máx., contagens e contagens distintas em listas e matrizes.
+
+**Intenções:**
+* Calcular a média de uma lista de valores numéricos usando `avg`
+* Soma valores numéricos em uma lista ou de campos de evento usando `sum`
+* Localizar o valor mínimo ou máximo em uma lista usando `min` ou `max`
+* Contar elementos não nulos, somente nulos ou todos os elementos de uma lista usando `count`, `countOnlyNull` ou `countWithNull`
+* Contar valores distintos em uma lista, com ou sem nulos, usando `distinctCount` ou `distinctCountWithNull`
+* Filtrar objetos exclusivos em um listObject por um atributo de chave específico usando `distinctCount` com um parâmetro de chave
+
+**Glossário:**
+* **listObject**: uma lista de objetos complexos (referências de campo); não pode conter objetos nulos *(específico do produto)*
+* **listAny**: uma lista de qualquer tipo escalar com suporte (string, booleano, inteiro, decimal, duração, dateTime, dateTimeOnly, dateOnly) *(específico do produto)*
+* **Valor nulo**: um elemento ausente ou indefinido em uma lista; a maioria das funções de agregação ignora nulos, a menos que a função os manipule explicitamente (por exemplo, `countOnlyNull`, `countWithNull`, `distinctCountWithNull`)
+
+**Medidas de Proteção:**
+* `countOnlyNull`, `countWithNull` e `distinctCountWithNull` não dão suporte ao tipo de parâmetro `<listObject>`
+* `distinctCount` em `listObject` requer que a lista seja uma referência de campo, não um literal embutido
+* `count` em `listObject` requer que a lista seja uma referência de campo; listObject não pode conter objetos nulos
+
+**Terminologia:**
+* Nome canônico: Funções de agregação — Acrônimo: none — variantes: funções de agregação, funções de coleção
+* Sinônimos: &quot;count&quot; = &quot;count elementos não nulos&quot;; &quot;countWithNull&quot; = &quot;count todos os elementos, incluindo nulos&quot;
+* Não confunda: &quot;distinctCount&quot; (ignora nulos) ≠ &quot;distinctCountWithNull&quot; (inclui nulos como um valor distinto)
+
+**Perguntas frequentes:**
+* **P: `avg` inclui valores nulos em seu cálculo?** — Não, `avg` ignora valores nulos automaticamente.
+* **P: Qual é a diferença entre `count` e `countWithNull`?** — `count` exclui valores nulos do total, enquanto `countWithNull` conta cada elemento, incluindo nulos.
+* **P: Posso usar `countOnlyNull` em um listObject?** — Não, `<listObject>` não é suportado por `countOnlyNull`, `countWithNull` ou `distinctCountWithNull`.
+* **P: Como posso contar objetos distintos em uma matriz com base em um atributo específico?** — Use `distinctCount(@event{...}, "attributeName")` fornecendo o nome do atributo de chave como o segundo parâmetro.
+* **P: O que `max` retorna quando a lista contém nulos?** — `max` ignora valores nulos e retorna o máximo entre os elementos não nulos.
 
 +++

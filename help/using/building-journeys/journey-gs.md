@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1481
-ht-degree: 11%
+source-wordcount: 2097
+ht-degree: 8%
 
 ---
 
@@ -206,3 +206,46 @@ Não tem certeza de onde começar? Estes são três cenários típicos em que as
 * **[jornadas de Solução de Problemas](troubleshooting.md)** - Encontre soluções para problemas comuns de jornada e práticas recomendadas para depuração.
 * **[tutoriais do Jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre a criação de jornadas e práticas recomendadas.
 
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página aborda as quatro etapas principais para criar uma primeira jornada no Adobe Journey Optimizer — definindo um ponto de entrada, projetando a tela, testando com modo de teste ou execução a seco e publicando — juntamente com orientações sobre como escolher o tipo de entrada correto.
+
+**Intenções:**
+* Criar uma nova jornada e configurar suas propriedades no menu Gerenciamento de Jornadas
+* Escolha o ponto de entrada correto (Leia Público, Qualificação de público, evento unitário ou evento comercial) para um determinado caso de uso
+* Crie uma jornada em várias etapas arrastando e soltando eventos, atividades de orquestração e ações de canal na tela
+* Teste uma jornada usando o Modo de teste com perfis de teste sintéticos antes de publicar
+* Executar uma simulação para validar o direcionamento de público com dados de produção reais sem entrar em contato com os clientes
+* Publicar uma jornada para ativá-la e monitorar seu desempenho com ferramentas de relatório
+
+**Glossário:**
+* **Ler público-alvo**: uma atividade de entrada que processa todos os perfis em um público-alvo em lote de uma só vez ou em um agendamento *(específico do produto)*
+* **Qualificação de público-alvo**: uma atividade de entrada disparada em tempo real quando um perfil entra ou sai de um público-alvo de streaming *(específico do produto)*
+* **Evento unitário**: um gatilho em tempo real que insere um perfil de cada vez em uma jornada quando uma ação específica ocorre *(específico do produto)*
+* **Evento comercial**: um evento que não é de perfil (por exemplo, cancelamento de voo, reabastecimento de estoque) que aciona uma jornada para vários perfis simultaneamente por meio de uma etapa automática de Leitura de Público *(específico do produto)*
+* **Modo de teste**: um modo de validação que usa perfis de teste sintéticos para simular a execução da jornada sem ativar comunicações ao vivo *(específico do produto)*
+* **Execução seca**: um modo de publicação especial que usa dados de produção reais para validar a lógica de jornada sem entrar em contato com clientes reais ou atualizar perfis *(específico do produto)*
+
+**Medidas de Proteção:**
+* Uma jornada não pode ser publicada se contiver erros; todos os erros devem ser resolvidos primeiro
+* A configuração do evento (para entrada baseada em evento) deve ser concluída por um engenheiro de dados antes que a jornada possa ser criada
+* As medidas de proteção e limitações de jornada são documentadas separadamente e devem ser revisadas antes de projetar em escala
+* A criação de públicos no Adobe Experience Platform é um pré-requisito para jornadas baseadas em públicos
+
+**Terminologia:**
+* Nome canônico: Jornada — Acrônimo: none — variantes: jornada do cliente, fluxo de orquestração
+* Sinônimos: &quot;Modo de teste&quot; = &quot;Teste de jornada&quot;; &quot;Execução seca&quot; = &quot;modo de execução a seco&quot;
+* Não confundir: &quot;Modo de ensaio&quot; ≠ &quot;Ensaio a seco&quot; — o modo de ensaio utiliza perfis sintéticos; o ensaio a seco utiliza dados reais de produção sem contactar os clientes
+
+**Perguntas frequentes:**
+* **P: Qual é a primeira coisa que preciso fazer antes de criar uma jornada acionada por evento?** — configure o evento com um engenheiro de dados para definir o acionador e os dados que ele transporta; em seguida, faça referência ao evento como o ponto de entrada da jornada.
+* **P: Qual ponto de entrada é recomendado para alguém novo no Journey Optimizer?** — comece com uma jornada baseada em público-alvo usando uma atividade Ler público-alvo — não requer configuração prévia de evento e é a maneira mais fácil de se familiarizar com a tela.
+* **P: Posso testar minha jornada antes que ela entre no ar?** — Sim; use o modo de teste com perfis de teste sintéticos para percorrer a jornada ou use o modo de execução a seco para executar em relação a dados reais de produção sem enviar comunicações.
+* **P: O que acontece se minha jornada apresentar erros quando eu tentar publicar?** — Não é possível publicar uma jornada com erros; todos os erros de configuração devem ser resolvidos antes da publicação.
+* **P: Como dividir uma jornada complexa com várias etapas?** — Use a atividade Jump para conectar sub-jornadas menores, reduzindo a complexidade e tornando cada sub-jornada mais fácil de testar independentemente.
+
++++

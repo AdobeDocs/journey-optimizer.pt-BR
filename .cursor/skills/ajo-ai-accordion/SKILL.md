@@ -2,7 +2,7 @@
 name: ajo-ai-accordion
 description: Enriquece as páginas da documentação do Adobe Journey Optimizer com uma seção da opção Assistente de IA anexada ao final de cada arquivo de Markdown. Lê cada página, gera automaticamente conteúdo relevante do AI Assistant com base no tópico da página e o insere como um acordeão recolhível. Use quando o usuário quiser adicionar informações de IA aos documentos do AJO, enriquecer as páginas do AJO Markdown com conteúdo de IA ou processar um arquivo ou pasta de arquivos do Markdown com seções de acordeão de IA.
 disable-model-invocation: true
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 1%
@@ -182,7 +182,11 @@ Inclua somente entradas presentes ou implícitas na página.
 ### Modelo do acordeão completo
 
 ```markdown
-+++AI Assistant — Page context
++++ AI Knowledge Reference
+
+This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
+
+For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
 - **TL;DR:** [one sentence]
 

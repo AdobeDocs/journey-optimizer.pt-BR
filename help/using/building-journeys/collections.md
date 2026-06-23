@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 816
-ht-degree: 3%
+source-wordcount: 1382
+ht-degree: 2%
 
 ---
 
@@ -251,3 +251,44 @@ Navegue pelas seções abaixo para saber mais sobre como configurar, usar e solu
 * [Solução de problemas de ação personalizada](../action/troubleshoot-custom-action.md) - Saiba como solucionar problemas de uma ação personalizada
 * [Iterar em dados contextuais](../personalization/iterate-contextual-data.md#arrays-in-journeys) - Saiba como trabalhar com matrizes em expressões de Jornada e iterar em respostas de ação personalizadas, dados de eventos e pesquisas de conjunto de dados na personalização de mensagens
 
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página explica como transmitir coleções simples e de objetos dinamicamente para parâmetros de ação personalizados no Journey Optimizer, incluindo tipos de campos compatíveis, o procedimento de configuração e limitações conhecidas em matrizes aninhadas.
+
+**Intenções:**
+* Configurar uma ação personalizada para aceitar uma coleção (simples ou objeto) como um parâmetro dinâmico
+* Definir parâmetros de matriz como variáveis no editor de expressão avançado ao criar uma jornada
+* Aplicar funções de filtro e interseção para manipular dados de matriz no editor de expressão
+* Entenda e trabalhe dentro das limitações de matriz aninhada para cargas de solicitação de ação personalizada
+* Testar parâmetros de coleção usando o modo de visualização de código no modo de teste de jornada
+
+**Glossário:**
+* **Coleção simples**: uma lista de valores escalares básicos (cadeias de caracteres, números, booleanos) passados como um parâmetro de ação personalizado *(específico do produto)*
+* **Coleção de objetos**: uma lista de objetos estruturados, cada um com vários campos, passados como um parâmetro de ação personalizado *(específico do produto)*
+* **listObject**: o tipo de campo usado na configuração de ação personalizada para representar uma matriz de objetos *(específico do produto)*
+* **listAny**: o tipo de campo usado para matrizes heterogêneas ou matrizes de matrizes em que os itens têm tipos mistos *(específico do produto)*
+* **Variável (vs. Constante)**: na configuração do parâmetro action, um campo definido como &quot;variável&quot; é preenchido dinamicamente no tempo de execução a partir do contexto de jornada, enquanto uma &quot;constante&quot; é um valor fixo definido no tempo de configuração *(específico do produto)*
+
+**Medidas de Proteção:**
+* Matrizes aninhadas em cargas de solicitação só têm suporte quando contêm um número fixo de itens (definidos como constantes); matrizes aninhadas dinâmicas não têm suporte
+* O modo de exibição de código é necessário para testar coleções no modo de teste; a exibição de código não é compatível com eventos comerciais, portanto, somente coleções de elemento único podem ser enviadas nesse caso
+* Pelo menos um objeto deve estar presente no exemplo de carga útil usado para definir campos de coleção
+* O primeiro objeto do exemplo de carga define os campos para toda a coleção
+
+**Terminologia:**
+* Nome canônico: Coleção — Acrônimo: none — variantes: matriz, lista, coleção dinâmica
+* Sinônimos: &quot;coleção simples&quot; = &quot;lista de valores escalares&quot; ; &quot;coleção de objetos&quot; = &quot;matriz de objetos&quot;
+* Não confunda: &quot;listAny&quot; ≠ &quot;listObject&quot; (listAny manipula arrays heterogêneas ou aninhadas; listObject manipula arrays uniformes de objetos estruturados)
+
+**Perguntas frequentes:**
+* **P: Qual é a diferença entre uma coleção simples e uma coleção de objetos?** — Uma coleção simples contém valores escalares básicos (sequências, números, booleanos), enquanto uma coleção de objetos contém objetos estruturados, cada um com vários campos nomeados.
+* **P: Como faço para tornar um parâmetro de coleção dinâmico em tempo de execução?** — Na seção Parâmetros de ação da ação personalizada, defina o campo de matriz como &quot;variável&quot;; todos os campos de objeto dentro dele são automaticamente definidos como variáveis.
+* **P: há suporte para matrizes aninhadas em cargas de solicitação de ação personalizada?** — Apenas parcialmente. Matrizes aninhadas com um número fixo e conhecido de itens podem ser definidas como constantes. Matrizes aninhadas com um número dinâmico de itens não são compatíveis com cargas de solicitação.
+* **P: Como faço para testar uma coleção no modo de teste de jornada?** — Utilizar o modo de visualização do código na interface de ensaio. Observe que os eventos comerciais não são compatíveis com a visualização de código, portanto, somente coleções de elemento único podem ser testadas nesse contexto.
+* **P: Que tipos de campo são aceitos para coleções?** — listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly e listObject são suportados.
+
++++

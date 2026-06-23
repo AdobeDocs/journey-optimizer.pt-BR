@@ -28,10 +28,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 623
-ht-degree: 6%
+source-wordcount: 1153
+ht-degree: 3%
 
 ---
 
@@ -126,3 +126,48 @@ Para começar a rastrear suas métricas do jornada, siga as etapas descritas aba
 
    ![Lista suspensa de métricas de sucesso mostrando os eventos disponíveis para rastreamento de meta](assets/success_metric_2.png)
 
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página explica como configurar e rastrear métricas de sucesso do jornada no Adobe Journey Optimizer, atribuindo um KPI a uma jornada e revisando seu desempenho nos relatórios do jornada.
+
+**Intenções:**
+* Adicione os grupos de campos do conjunto de dados do AEP necessários (Detalhes do Commerce, Web, Dispositivo móvel) como pré-requisito para as métricas do jornada
+* Atribuir uma métrica de jornada (KPI) a uma jornada durante a criação ou configuração da jornada
+* Entenda quais métricas estão disponíveis com base nos grupos de campos do conjunto de dados configurado
+* Interpretar modelos de atribuição para métricas do jornada em licenças do Journey Optimizer e do Customer Journey Analytics
+* Criar métricas de sucesso personalizadas usando uma licença do Customer Journey Analytics
+* Rastrear o desempenho da jornada em relação ao KPI atribuído nos relatórios de jornada
+
+**Glossário:**
+* **Métricas de Jornada**: KPIs atribuídos a uma jornada para medir sua eficácia, visíveis nos relatórios de jornada *(específico do produto)*
+* **Atribuição de Último contato**: o modelo de atribuição padrão que credita a interação mais recente antes de uma conversão
+* **Grupo de campos de Detalhes do Commerce**: um grupo de campos XDM que habilita métricas relacionadas ao comércio, como Compras, Check-outs e Eventos do carrinho
+* **Janela de retrospectiva**: o intervalo de tempo durante o qual a atribuição é avaliada; defina como no máximo 7 dias somente com licenças do Journey Optimizer
+
+**Medidas de Proteção:**
+* Somente uma métrica de jornada é permitida por jornada
+* Os grupos de campos do conjunto de dados (Commerce Details, Web, Mobile) devem ser selecionados entre opções integradas, não entre grupos personalizados, e adicionados em Configuração > Relatórios no Adobe Experience Platform
+* Sem um conjunto de dados configurado, somente Cliques, Cliques únicos, Taxa de click-through e Taxa de abertura estarão disponíveis
+* A janela de pesquisa máxima é de 7 dias com uma licença do Journey Optimizer apenas
+* Métricas personalizadas e configurações de atribuição personalizadas exigem uma licença do Customer Journey Analytics
+
+**Terminologia:**
+* Nome canônico: métricas de Jornada — Acrônimo: none — variantes: métricas de sucesso, métricas de sucesso de jornada
+* Nome canônico: Taxa de Clickthrough — Acrônimo: CTR — variantes: nenhum
+* Nome canônico: Clickthrough Open Rate — Acrônimo: CTOR — variantes: nenhum
+* Sinônimos: &quot;Métricas de jornada&quot; = &quot;métricas de sucesso&quot; (usadas alternadamente na interface e na documentação)
+* Não confunda: &quot;Atribuição de licença do Journey Optimizer&quot; ≠ &quot;Atribuição do Customer Journey Analytics&quot; — A licença do CJA permite modelos de atribuição personalizados e janelas de pesquisa mais longas
+
+**Perguntas frequentes:**
+* **P: Quantas métricas de jornada posso atribuir a uma única jornada?** — Somente uma métrica de jornada é permitida por jornada.
+* **P: Quais métricas estarão disponíveis se eu não tiver configurado um conjunto de dados com grupos de campos?** — Somente cliques, cliques únicos, taxa de click-through e taxa de abertura estão disponíveis sem configuração adicional de grupo de campos.
+* **P: Quais grupos de campos são necessários para habilitar as métricas de compra e comércio?** — É necessário adicionar o grupo de campos Detalhes do Commerce ao seu conjunto de dados de relatórios no Adobe Experience Platform.
+* **P: Qual é o modelo de atribuição padrão para métricas de jornada?** — Último contato, que credita a interação mais recente antes da conversão, com uma janela de retrospectiva máxima de sete dias sob uma licença do Journey Optimizer.
+* **P: Posso criar métricas de sucesso personalizadas?** — Sim, mas somente com uma licença da Customer Journey Analytics.
+* **P: Onde posso ver os resultados das métricas de jornada após a publicação?** — Na tabela KPIs and Jornada Stats do relatório de jornada.
+
++++

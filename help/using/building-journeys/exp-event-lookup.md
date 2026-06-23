@@ -18,10 +18,10 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1124
-ht-degree: 6%
+source-wordcount: 1717
+ht-degree: 4%
 
 ---
 
@@ -189,5 +189,52 @@ Abordagens alternativas e práticas recomendadas envolvendo eventos de experiên
 +++ E se abordagens alternativas não funcionarem no meu caso de uso?
 
 Se seu caso de uso não puder ser resolvido usando uma das abordagens alternativas listadas acima, entre em contato com o representante da Adobe.
+
++++
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página descreve padrões alternativos e práticas recomendadas para o uso de dados do Evento de experiência no Adobe Journey Optimizer jornada, no contexto da descontinuação da pesquisa direta de evento de experiência no editor de expressão de jornada.
+
+**Intenções:**
+
+* Suprimir perfis que recusaram a participação usando o gerenciamento de consentimento integrado em vez de expressões de evento de experiência
+* Excluir endereços de email rejeitados usando a lista de supressão automática do AJO
+* Criar lógica de supressão genérica usando públicos-alvo em lote com critérios baseados em eventos
+* Evite a comunicação excessiva aplicando regras de limite de frequência ou condições de público-alvo baseadas em tempo
+* Personalize o carrinho abandonado ou procure comunicações usando o AEP Data Distiller ou atributos computados
+
+**Glossário:**
+
+* **Evento de experiência**: um registro imutável com carimbo de data e hora de uma ação ou comportamento do cliente armazenado no Adobe Experience Platform *(específico do produto)*
+* **Atributo computado**: um atributo de nível de perfil derivado da agregação ou do resumo dos dados do evento de experiência ao longo do tempo, disponível para uso nas expressões de jornada *(específico do produto)*
+* **Lista de supressão**: lista interna de endereços de email da AJO excluída automaticamente de envios futuros devido a devoluções permanentes ou reclamações de spam *(específico do produto)*
+* **Limite de frequência**: uma regra de negócios que limita quantas mensagens um perfil pode receber em uma janela de tempo definida *(específico do produto)*
+* **Data Distiller**: um recurso do AEP que permite que consultas em lote baseadas em SQL extraiam e transformem dados do evento em conjuntos de dados habilitados para perfil *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* A partir de 8 de julho de 2025, novas organizações de clientes não poderão criar expressões usando atributos de evento de experiência no editor de expressão do jornada.
+* A partir de 1º de abril de 2026, as organizações que não usaram atributos de evento de experiência em expressões do jornada nos últimos 90 dias perderão o acesso a esse recurso.
+* A pesquisa direta de evento de experiência em condições de jornada está sendo removida; as alternativas incluem públicos em lote, atributos calculados e AEP Data Distiller.
+* Os recursos NÃO afetados pela retirada incluem: acionar jornadas com eventos, ouvir eventos em uma jornada, usar dados de contexto de jornada de eventos de acionamento, configurar eventos e detectar eventos de reação.
+
+**Terminologia:**
+
+* Nome canônico: Pesquisa de evento de experiência — Acrônimo: Pesquisa EE — variantes: expressões de evento de experiência, pesquisa de atributo de evento
+* Sinônimos: &quot;público-alvo em lote com lógica baseada em eventos&quot; = &quot;segmento baseado em eventos&quot; como um mecanismo de supressão/inclusão
+* Não confunda: &quot;pesquisa de evento de experiência no editor de expressão&quot; ≠ &quot;acionar uma jornada com um evento&quot; — o acionamento de jornadas com eventos NÃO está sendo removido
+
+**Perguntas frequentes:**
+
+* **P: Ainda posso acionar uma jornada usando um evento de experiência?** — Sim, o acionamento de jornadas com eventos unitários ou de negócios não é afetado por essa alteração.
+* **P: Qual é a substituição recomendada para a pesquisa de evento de experiência em condições de jornada?** — use públicos-alvo em lote criados com a lógica baseada em eventos, atributos computados ou AEP Data Distiller do AEP Segment Builder para transformações complexas.
+* **P: Minha organização existente foi afetada agora?** — Novas organizações serão afetadas a partir de 8 de julho de 2025. As organizações existentes são afetadas a partir de 1 de abril de 2026 somente se não tiverem usado o recurso nos últimos 90 dias.
+* **P: Como faço para lidar com a personalização de abandono de carrinho sem pesquisa direta de evento?** — use o AEP Data Distiller para extrair e gravar dados do evento em um conjunto de dados habilitado para perfis ou use atributos computados para capturar o estado de abandono mais recente no perfil.
+* **P: Quais recursos NÃO são afetados por esta descontinuação?** — o acionamento de jornadas com eventos, a escuta de eventos no jornada, o uso de dados de contexto de evento de acionador em expressões, a configuração de eventos e a detecção de eventos de reação (por exemplo, aberturas de email) não são afetados.
 
 +++

@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1109
-ht-degree: 1%
+source-wordcount: 1622
+ht-degree: 0%
 
 ---
 
@@ -215,3 +215,49 @@ Quando o teste for concluído:
 * [Funções de data](functions/date-functions.md) - Referência completa para funções de data e hora
 * [Editor de expressão](expression/expressionadvanced.md) - Criar expressões complexas
 * [Práticas recomendadas do Jornada](journey-gs.md#best-practices) - Abordagens recomendadas para o design do jornada
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página fornece um caso de uso passo a passo para configurar uma jornada que envia emails somente em dias da semana, usando uma condição de dia da semana e fórmulas de espera personalizadas para atrasar entradas do fim de semana até segunda-feira.
+
+**Intenções:**
+
+* Configurar uma atividade de Condição para ramificar uma jornada com base no dia da semana (sábado, domingo ou dia da semana)
+* Gravar expressões de espera personalizadas usando `toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))` para atrasar perfis de fim de semana até segunda-feira
+* Criar uma jornada de três caminhos que mescla todos os caminhos em uma única ação de email
+* Testar a lógica de email somente durante a semana usando perfis de teste com dias de entrada simulados diferentes
+* Publicar e monitorar uma jornada que suprime a entrega de email no fim de semana
+
+**Glossário:**
+
+* **Condição de tempo**: um tipo de atividade de condição no Journey Optimizer que ramifica caminhos de jornadas com base em critérios de data/hora, como o dia da semana *(específico do produto)*
+* **nowWithDelta**: uma função de expressão que retorna o deslocamento de data/hora atual por um número especificado de dias ou outras unidades *(específico do produto)*
+* **setHours**: uma função de expressão que define uma hora específica em um determinado valor de data/hora *(específico do produto)*
+* **toDateTimeOnly**: uma função de expressão que converte um valor no formato `dateTimeOnly` exigido pelas atividades de espera personalizadas *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* O fuso horário usado para a avaliação do dia da semana é o fuso horário configurado da jornada (definido nas propriedades da jornada), não o fuso horário do recipient individual.
+* Uma superfície de canal de email ativa e um público-alvo ou evento para acionar a jornada são necessários para implementar esse caso de uso.
+* A compreensão básica das condições de jornada e do editor de expressão avançado é um pré-requisito.
+* Sempre teste a jornada no modo de teste antes de publicar para verificar se as fórmulas de espera produzem o tempo de delivery segunda-feira correto.
+
+**Terminologia:**
+
+* Nome canônico: Agendamento de email de dia da semana — Acrônimo: nenhum — variantes: emails somente de dia da semana, delivery de email no horário comercial
+* Sinônimos: &quot;Caminho de sábado&quot; / &quot;Caminho de domingo&quot; = &quot;caminhos de fim de semana&quot;; &quot;caminho de outros casos&quot; = &quot;caminho de dias da semana&quot;
+* Não confunda: Fuso horário de jornada (usado para avaliação do dia da semana) ≠ fuso horário local do recipient
+
+**Perguntas frequentes:**
+
+* **P: Qual fórmula atrasa uma entrada de sábado até segunda-feira às 9h?** — Use `toDateTimeOnly(setHours(nowWithDelta(2, "days"), 9))` no caminho do sábado (2 dias de avanço chega na segunda-feira).
+* **P: Que fórmula atrasa uma entrada de domingo até segunda-feira às 9h?** — Use `toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))` no caminho de domingo (1 dia para a frente chega na segunda-feira).
+* **P: Qual fuso horário é usado ao avaliar a condição de dia da semana?** — O fuso horário configurado da jornada definido nas propriedades do jornada; não é o fuso horário local do recipient.
+* **P: As entradas do dia da semana precisam de uma atividade de espera?** — Não, os perfis que entram de segunda a sexta-feira prosseguem diretamente para a atividade de ação Email sem espera.
+* **P: Como faço para testar se as entradas do fim de semana estão corretamente enfileiradas?** — No modo de teste, crie perfis de teste com horários de entrada simulados de sábado e domingo e verifique se eles seguem o caminho condicional correto e recebam o email na segunda-feira na hora configurada.
+
++++

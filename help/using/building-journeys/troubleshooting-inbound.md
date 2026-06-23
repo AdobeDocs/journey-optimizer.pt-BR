@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1840
+source-wordcount: 2642
 ht-degree: 1%
 
 ---
@@ -241,3 +241,51 @@ Siga as mesmas etapas de depuração do [Cenário 1](#debugging-steps) para veri
 - [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
 - [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=pt-BR)
 -->
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página fornece um guia de depuração de autoatendimento passo a passo para dois cenários de ação de entrada no Adobe Journey Optimizer jornada: um perfil entrando em uma etapa de entrada, mas não recebendo o conteúdo, e um perfil que continua recebendo conteúdo depois de sair da jornada.
+
+**Intenções:**
+* Configure uma sessão do Assurance como pré-requisito antes de depurar problemas de ação de entrada
+* Verifique se o dispositivo ou cliente está recebendo conteúdo de entrada da Edge Network usando o Assurance
+* Verifique as atividades qualificadas e não qualificadas do Edge Network para determinar se um perfil está qualificado para uma ação de jornada de entrada
+* Confirme se a associação do segmento de público-alvo joai se propagou do perfil do Hub para o perfil do Edge
+* Diagnosticar atrasos na assimilação de segmentos de joia no perfil de Hub depois que um perfil insere uma ação de entrada
+* Entre em contato com o Atendimento ao cliente da Adobe com as informações de diagnóstico corretas quando as etapas de autoatendimento não resolverem o problema
+
+**Glossário:**
+* **Ações de entrada**: atividades de Jornada que fornecem conteúdo personalizado para o dispositivo ou navegador de um usuário, incluindo os canais de experiência no aplicativo, na Web e baseados em código *(específico do produto)*
+* **namespace de jornada**: um namespace de identidade especial usado no perfil `segmentMembership` para ativar um perfil para uma etapa de ação de entrada *(específico do produto)*
+* **segmento joai**: um segmento de público-alvo criado automaticamente no namespace joai correspondente a uma ação de jornada de entrada específica; o perfil deve estar em um estado realizado neste segmento para receber o conteúdo *(específico do produto)*
+* **Conjunto de dados de Entrada do Jornada**: o conjunto de dados do AEP usado para armazenar atualizações de perfil feitas quando um perfil insere uma ação de jornada de entrada *(específico do produto)*
+* **Perfil de hub**: o repositório de perfis central no Adobe Experience Platform usado como fonte da verdade para atributos de perfil e associação de segmento
+* **Perfil do Edge**: a cópia projetada do perfil de Hub usada pelo servidor de entrega do Edge Network para avaliar a qualificação de conteúdo em tempo real
+* **Assurance**: uma ferramenta do Adobe Experience Platform para depuração em tempo real do comportamento do SDK no lado do cliente e respostas do Edge Network
+
+**Medidas de Proteção:**
+* O conjunto de dados de Entrada do Jornada deve ser ativado para assimilação de perfis na sandbox atual antes que as ações de entrada funcionem corretamente
+* O namespace joai deve ser definido em Identidades da plataforma para a sandbox
+* A propagação da associação do segmento joai do Hub para o Edge pode levar de 15 a 30 minutos
+* A assimilação de associação de segmento joai no perfil de Hub pode levar de 15 a 30 minutos depois que o perfil entra na ação de entrada
+* Se o conteúdo ainda estiver ausente após 30-60 minutos, encaminhe para o Atendimento ao cliente da Adobe com ID de versão do jornada, ID de ação, rastreamento do Assurance e exibições JSON de perfil do Edge e Hub
+
+**Terminologia:**
+* Nome canônico: namespace joai — Acrônimo: joai — variantes: identidade joai, namespace de segmento joai
+* Nome canônico: Ações de entrada — Acrônimo: none — variantes: canais de entrada, conteúdo de entrada
+* Sinônimos: &quot;Perfil de hub&quot; = &quot;perfil central&quot; (AEP); &quot;Perfil do Edge&quot; = &quot;perfil projetado&quot; (usado pelo Edge Network)
+* Não confunda: &quot;Atividades qualificadas&quot; ≠ &quot;Atividades não qualificadas&quot; na visualização Edge Delivery — qualificado significa que o perfil recebeu conteúdo; não qualificado significa que não recebeu, com uma razão de exclusão mostrada
+
+**Perguntas frequentes:**
+* **P: Quais são os dois cenários de falha de ação de entrada principais abordados por este guia?** — Cenário 1: um perfil entrou na etapa de entrada, mas o usuário nunca vê o conteúdo. Cenário 2: um perfil saiu da jornada, mas o usuário ainda recebe o conteúdo de entrada.
+* **P: Qual ferramenta devo usar para depurar a entrega de ações de entrada?** — Adobe Experience Platform Assurance. Primeiro, configure uma sessão do Assurance e, em seguida, use as exibições de Mensagens no aplicativo e Edge Delivery para inspecionar a entrega de conteúdo e as respostas do Edge Network.
+* **P: Qual é o segmento joai e por que ele é importante?** — Quando um perfil entra em uma ação de entrada, ele é automaticamente qualificado em um segmento de público-alvo conjunto com escopo para essa ação específica. O Edge Network só entrega o conteúdo de entrada se o perfil estiver em um estado realizado nesse segmento joai.
+* **P: Quanto tempo leva para que a associação ao segmento joai apareça no perfil do Edge?** — Até 15-30 minutos para propagação do Hub para o Edge depois que o perfil do Hub for atualizado.
+* **P: O que devo fazer se a ID do segmento de joai estiver em um estado encerrado no perfil do Edge?** — O perfil saiu do segmento joai, o que significa que ele saiu da ação de jornada de entrada. Se isso for inesperado, rastreie pela assimilação de perfil de hub e verifique se o perfil entrou corretamente na etapa de ação de entrada.
+* **P: Quais informações devo fornecer ao encaminhar para o Atendimento ao cliente da Adobe?** — A ID da versão do jornada, a ID da ação do jornada, a etapa em que ocorre um comportamento inesperado, o rastreamento completo do Assurance e as visualizações JSON dos perfis do Edge e do Hub.
+
++++

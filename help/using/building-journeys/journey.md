@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 97%
+source-wordcount: 2207
+ht-degree: 72%
 
 ---
 
@@ -100,7 +100,7 @@ O [!DNL Adobe Journey Optimizer] aceita quatro tipos de jornada, cada um projeta
 
 <!--
  waiting for DOCAC-13912 
-➡️ **[Journey types and selection guide](journey-types-selection.md)** - Detailed comparison, decision tree, and feature compatibility matrix 
+➡️ **[Journey types: choose the right one](journey-types-selection.md)** - Detailed comparison, decision guide, and feature compatibility matrix 
 -->
 
 ## Criar com o designer de jornadas {#journey-designer}
@@ -454,3 +454,50 @@ Configure os **[alertas da jornada](../reports/alerts.md)** para receber notific
 * **[Solução de problemas de atividades de entrada](troubleshooting-inbound.md)** - Corrigir problemas de entrada e qualificação
 
 **Tudo pronto para criar a primeira jornada?** [Comece agora →](journey-gs.md)
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página é o hub de introdução para o Adobe Journey Optimizer jornada, explicando quais são as jornadas, os quatro tipos de jornadas, o fluxo de trabalho de criação em seis etapas, casos de uso reais e links para recursos avançados.
+
+**Intenções:**
+
+* Entenda o que são jornadas e como elas se diferem de campanhas e campanhas orquestradas
+* Escolha o tipo de jornada correto (Unitário, Público de leitura, Qualificação de público ou Evento comercial) para um caso de uso
+* Siga o fluxo de trabalho de criação de jornadas de seis etapas: Planejar, Projetar, Testar, Publicar, Monitorar, Otimizar
+* Usar modo de teste ou simulação para validar uma jornada antes de entrar em funcionamento
+* Publicar uma jornada e monitorar o desempenho por meio de relatórios e alertas
+* Explore recursos avançados como expressões, gerenciamento de fuso horário, cópia para sandbox e controle de taxa de transferência
+
+**Glossário:**
+
+* **Jornada**: uma experiência de cliente automatizada, em várias etapas, que orquestra interações personalizadas entre canais em resposta ao comportamento do cliente, eventos comerciais ou campanhas agendadas. *(específico do produto)*
+* **Designer de Jornadas**: a tela visual de arrastar e soltar do AJO usada para compilar e configurar fluxos de jornada sem gravar código. *(específico do produto)*
+* **Modo de teste**: um modo de validação de jornada que simula a execução com perfis de teste para capturar problemas antes de entrar em funcionamento. *(específico do produto)*
+* **Dry run**: um modo de visualização de jornada que simula a execução sem afetar os dados reais do perfil ou o envio de mensagens. *(específico do produto)*
+* **Campanhas orquestradas**: fluxos de trabalho em lotes de várias etapas na AJO que usam dados relacionais (perfis + produtos/lojas/reservas) e processam todos os perfis junto com contagens exatas de pré-envio. *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* O Live jornada não pode ser editado estruturalmente; as alterações exigem a criação de uma nova versão
+* O modo de teste e a simulação devem ser usados antes da publicação para detectar problemas
+
+**Terminologia:**
+
+* Nome canônico: Jornada — Acrônimo: nenhum — variantes: jornada do cliente, jornada do AJO
+* Sinônimos: &quot;Designer de jornada&quot; = &quot;tela&quot; = &quot;tela de jornada&quot;
+* Não confunda: &quot;Jornada&quot; ≠ &quot;Campaign&quot; — As Jornadas mantêm o estado individual do cliente para experiências em tempo real e orientadas por comportamento em várias etapas; as campanhas entregam mensagens em lote para os públicos-alvo de acordo com um agendamento ou por meio do acionador da API
+* Não confunda: &quot;Dry run&quot; ≠ &quot;Modo de teste&quot; — Execução de visualizações de simulação sem tocar em dados reais; O modo de teste simula a jornada com perfis de teste reais
+
+**Perguntas frequentes:**
+
+* **P: Qual é a diferença entre uma jornada e uma campanha no Journey Optimizer?** — o Jornada fornece 1:1 orquestração em tempo real, onde cada perfil avança em seu próprio ritmo por meio da lógica condicional; Campanhas entregam mensagens simultaneamente a um público de acordo com um agendamento ou por meio de um acionador de API; campanhas orquestradas são fluxos de trabalho de tela em lote para segmentação complexa de várias entidades.
+* **P: Posso editar uma jornada em tempo real?** — elementos limitados, como nome e conteúdo da mensagem, podem ser editados; mudanças estruturais exigem a criação de uma nova versão da jornada.
+* **P: Quais são as etapas para criar uma jornada?** — O fluxo de trabalho de seis etapas é: planejar, projetar na tela, testar (modo de teste ou simulação), publicar, monitorar o desempenho e otimizar/iterar.
+* **P: Como validar uma jornada sem enviar mensagens reais?** — Use o modo de simulação, que pré-visualiza a execução do jornada sem afetar os dados reais ou o envio de mensagens.
+* **P: Que tipo de jornada devo usar para um email de boas-vindas acionado por uma assinatura?** — Use uma jornada Unitária, que é acionada por um evento individual específico, como uma inscrição por assinatura.
+
++++

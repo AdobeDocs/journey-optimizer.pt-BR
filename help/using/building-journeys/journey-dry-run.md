@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1413
-ht-degree: 11%
+source-wordcount: 1946
+ht-degree: 8%
 
 ---
 
@@ -214,3 +214,47 @@ O simulação gera **stepEvents** sinalizados com `inDryRun` e um `dryRunID`. Ao
 Saiba como testar suas jornadas neste vídeo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3464687/?captions=por_br&learn=on&enablevpops)
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página explica o Jornada Dry run, um modo de publicação especial que permite aos profissionais testar uma jornada usando dados de produção reais sem entrar em contato com os clientes ou modificar perfis, e aborda como iniciar, monitorar, parar e filtrar eventos de etapa de Dry run.
+
+**Intenções:**
+* Ativar o modo de execução a seco em uma jornada de rascunho para validar o alcance do público-alvo e a lógica da ramificação com dados de produção reais
+* Monitorar métricas de execução de jornada na tela durante uma simulação
+* Interromper uma execução seca manualmente e retornar a jornada ao status Rascunho
+* Filtrar eventos de etapa de execução seca de consultas de relatórios usando o sinalizador `inDryRun`
+* Entenda quais atividades são desabilitadas ou simuladas durante uma simulação
+
+**Glossário:**
+* **Dry run**: um modo de publicação de jornada especial que executa a jornada em dados de produção reais sem enviar comunicações ou atualizar informações de perfil *(específico do produto)*
+* **stepEvent**: um registro de conjunto de dados gerado automaticamente que captura todas as etapas executadas por um perfil em uma jornada; eventos de etapa de execução em andamento apresentam `inDryRun=true` e um `dryRunID` *(específico do produto)*
+* **Sinalizador inDryRun**: um campo booleano em stepEvents que é `true` para execuções de Execução em modo de teste e `null` para jornadas de teste ou online *(específico do produto)*
+
+**Medidas de Proteção:**
+* Somente jornadas de rascunho sem erros podem ser ativadas no modo Execução sem erros
+* Para iniciar uma Execução Seca, é necessária a permissão **Publicar jornadas**; para interrompê-la, é necessário **Gerenciar jornadas**
+* As jornadas de execução sem interrupção são revertidas automaticamente para Rascunho após 14 dias
+* Os perfis processados durante uma simulação são contados em Perfis ativáveis e na cota de jornada ativa
+* Os nós de ação de canal (Email, SMS, Push) e as ações personalizadas não são executados durante Dry run
+* As ações de salto não estão habilitadas no Dry run
+* Os dados de relatório só estão disponíveis enquanto o Dry run estiver ativo; uma vez interrompido, os dados não estarão mais acessíveis
+* As jornadas de simulação não afetam as regras de negócios
+
+**Terminologia:**
+* Nome canônico: Jornada Dry run — Acrônimo: none — variantes: modo de simulação, modo de publicação de simulação
+* Sinônimos: &quot;Pista seca&quot; = &quot;teste de fumaça&quot; (informalmente)
+* Não confundir: &quot;Dry run&quot; ≠ &quot;Modo de teste&quot; — O Dry run utiliza dados de produção reais e conta para quotas; O modo de teste usa perfis de teste sintéticos e não
+
+**Perguntas frequentes:**
+* **P: O Dry run realmente envia emails ou notificações por push aos clientes?** — Não; todos os nós de ação de canal e ações personalizadas são desativados e não são executados durante uma execução sem erros.
+* **P: Por quanto tempo um Dry run dura antes de parar automaticamente?** — 14 dias, após os quais a jornada muda automaticamente para o status Rascunho.
+* **P: Como posso excluir dados do Dry run das minhas consultas de análise do jornada?** — Filtre os eventos de etapa em que `inDryRun` é `true`; inclua apenas eventos em que `inDryRun` seja `null` ou `false`.
+* **P: Os perfis são contados em relação a quaisquer limites durante uma simulação?** — Sim; os perfis são contados para Perfis acionáveis e a jornada de simulação é contada para a cota de jornada ativa.
+* **P: Posso habilitar atividades de espera e chamadas de fonte de dados externas durante uma execução Seca?** — Ambos são desativados por padrão, mas você pode optar por ativá-los ou desativá-los ao ativar o Dry run.
+
++++

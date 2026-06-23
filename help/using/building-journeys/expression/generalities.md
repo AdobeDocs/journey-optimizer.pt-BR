@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 250
-ht-degree: 5%
+source-wordcount: 620
+ht-degree: 2%
 
 ---
 
@@ -58,3 +58,47 @@ Dependendo do contexto de uso, o editor de expressão pode retornar valores dife
 | Condição (condição da fonte de dados, condição de data) | booleano |
 | Temporizador personalizado | dateTimeOnly |
 | Mapeamento de parâmetros de ação | Qualquer |
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página aborda as principais regras de sintaxe do editor de expressão avançado do Jornada — precedência de operador com parênteses, distinção entre maiúsculas e minúsculas para operadores e funções e o tipo de retorno esperado para cada contexto de editor.
+
+**Intenções:**
+
+* Controlar ordem de avaliação da expressão ao quebrar subexpressões entre parênteses
+* Gravar operadores (`and`, `or`, `not`) em minúsculas para evitar erros de sintaxe
+* Usar nomes de função em maiúsculas corretamente (ex: `inAudience()` não `INAUDIENCE()`)
+* Entenda que as condições devem retornar um valor booleano, que os timers personalizados devem retornar `dateTimeOnly` e que os mapeamentos de parâmetros de ação podem retornar qualquer tipo
+
+**Glossário:**
+
+* **Prioridade de expressão**: a ordem na qual os operadores são avaliados; multiplicações e divisões têm prioridade sobre adições e subtrações *(específico do produto)*
+* **Diferenciação de maiúsculas e minúsculas**: no editor avançado, os operadores devem ser minúsculas, os nomes de funções diferenciam maiúsculas de minúsculas e as referências de campo diferenciam maiúsculas de minúsculas, conforme criadas pelo usuário *(específico do produto)*
+* **dateTimeOnly**: o tipo de retorno necessário para expressões de timer personalizado (atividade de espera); representa um date-time sem um fuso horário *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* Operadores (`and`, `or`, `not` etc.) deve ser escrito em minúsculas — as variantes em maiúsculas são inválidas
+* Todos os nomes de funções diferenciam maiúsculas de minúsculas — `inAudience()` é válido, mas `INAUDIENCE()` não é
+* A aritmética segue a precedência padrão: `*` e `/` avaliam antes de `+` e `-`; use parênteses para substituir
+* As condições sempre retornam um valor booleano; os cronômetros personalizados sempre retornam `dateTimeOnly`
+
+**Terminologia:**
+
+* Nome canônico: Advanced Expression Editor Sintaxe — Acrônimo: none — variantes: sintaxe de expressão, sintaxe do editor
+* Sinônimos: &quot;prioridade da expressão&quot; = &quot;precedência do operador&quot;; &quot;parênteses&quot; = &quot;colchetes&quot; (no contexto da expressão)
+* Não confunda: o operador diferencia maiúsculas de minúsculas (os operadores devem ser minúsculas) ≠ diferencia maiúsculas de minúsculas de referência de campo (os nomes de campo são de autoria do usuário e diferenciam maiúsculas de minúsculas conforme escritos)
+
+**Perguntas frequentes:**
+
+* **P: `4 + 2 * 10` é avaliado como 60 ou 24?** — É avaliado como 24 porque `*` tem prioridade sobre `+`; use `(4 + 2) * 10` para obter 60.
+* **P: Posso escrever `AND` em maiúsculas em uma expressão?** — Não; todos os operadores devem estar em minúsculas (`and`, `or`, `not`).
+* **P: Os nomes das funções fazem distinção entre maiúsculas e minúsculas?** — Sim; `inAudience()` é válido, mas `INAUDIENCE()` não é.
+* **P: Que tipo deve ser retornado por uma expressão de condição?** — Um booleano.
+* **P: Que tipo de retorno é necessário para uma expressão de timer de atividade de espera personalizada?** — `dateTimeOnly`
+
++++

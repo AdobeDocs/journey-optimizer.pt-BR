@@ -18,10 +18,10 @@ subfeature_v2:
   - id: fa683eda-48de-4558-af32-2673edcd44fe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 557
-ht-degree: 3%
+source-wordcount: 1044
+ht-degree: 2%
 
 ---
 
@@ -176,3 +176,52 @@ Exemplo:
 #{Weather.main.temperature, params: {localisation: @event{Profile.address.localisation}}}
 #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @event{Profile.address.city}}}}}
 ```
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página explica como fazer referência a campos de eventos e grupos de campos de fonte de dados em expressões de jornada, incluindo a sintaxe de valor padrão, funções de acesso a mapa (`entry`, `firstEntryKey`, `keys`) e parâmetros de fonte de dados embutidos transmitindo com a palavra-chave `params`.
+
+**Intenções:**
+
+* Fazer referência a um campo de evento em uma expressão usando a sintaxe `@event{eventName.fieldPath}`
+* Fazer referência a um grupo de campos de fonte de dados usando a sintaxe `#{dataSourceName.fieldGroupName.fieldPath}`
+* Atribuir um valor padrão de fallback a uma referência de campo para que as expressões não retornem um valor nulo
+* Recupere uma entrada específica de um mapa de identidade ou de assinatura usando a função `entry()`
+* Recuperar todas as chaves de um campo de mapa usando a função `keys()`
+* Passar valores de parâmetro para uma fonte de dados externa em linha usando a palavra-chave `params`
+
+**Glossário:**
+
+* **Referência de campo**: uma sintaxe de expressão que aponta para um campo nomeado dentro de uma carga do evento ou grupo de campos de fonte de dados *(específico do produto)*
+* **defaultValue**: uma expressão de fallback opcional anexada a uma referência de campo que é retornada quando o campo está ausente ou é nula *(específica do produto)*
+* **entry(key)**: uma função de mapa que recupera a entrada de coleção associada à chave fornecida *(específico do produto)*
+* **firstEntryKey()**: uma função de mapa que retorna a primeira chave de um campo de mapa *(específico do produto)*
+* **keys()**: uma função de mapa que retorna todas as chaves de um campo de mapa *(específico do produto)*
+* **palavra-chave params**: sintaxe embutida para especificar valores de parâmetro para campos de fonte de dados externos na expressão principal *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* Nomes de campos contendo caracteres especiais (começando com um dígito, contendo `-` ou caracteres fora de `a-z A-Z 0-9 _`) devem ser colocados entre aspas simples ou duplas
+* A expressão de valor padrão deve retornar o mesmo tipo de dados que o campo — os tipos incompatíveis são inválidos
+* Quando a palavra-chave `params` é usada para definir valores de parâmetro em linha, a guia de parâmetro separada à direita do editor desaparece
+* As funções usadas como valores padrão devem ser encapsuladas entre parênteses
+
+**Terminologia:**
+
+* Nome canônico: Referências de campo — Acrônimo: none — variantes: caminho do campo, expressão do campo
+* Sinônimos: `@event{...}` = &quot;referência de campo de evento&quot;; `#{...}` = &quot;referência de campo de fonte de dados&quot;
+* Não confundir: campos de evento (com prefixo `@`) ≠ campos de fonte de dados (com prefixo `#`)
+
+**Perguntas frequentes:**
+
+* **P: Como faço referência a um campo cujo nome começa com um número?** — Envolva o nome do campo em aspas simples ou duplas, por exemplo: `#{OpenWeather.weatherData.rain.'3h'}`.
+* **P: O que acontece quando um campo referenciado está ausente na carga do evento e nenhum valor padrão está definido?** — A expressão retorna `null`.
+* **P: Como defino um valor padrão dinâmico usando uma função?** — Envolva a chamada de função entre parênteses, ex.: `defaultValue: (now())`.
+* **P: Como faço para recuperar o endereço de email armazenado como a primeira chave em um mapa de assinantes?** — Use a função `firstEntryKey()` no campo de mapa de assinantes.
+* **P: Como transfiro um parâmetro para uma fonte de dados externa sem usar a guia do lado direito?** — Use a palavra-chave `params` embutida: `#{DataSource.group.field, params: {paramName: value}}`.
+
++++

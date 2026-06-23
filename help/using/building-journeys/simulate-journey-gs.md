@@ -11,10 +11,10 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1507
-ht-degree: 2%
+source-wordcount: 2137
+ht-degree: 1%
 
 ---
 
@@ -150,5 +150,57 @@ Estas medidas de proteção se aplicam a **[!UICONTROL Simulação]**. As letras
 | Máximo de jornadas que podem ser executadas em **[!UICONTROL Simulação]** ao mesmo tempo em uma sandbox | 20 | O limite é compartilhado por cada jornada **[!UICONTROL Simulação]** nessa sandbox de uma só vez. |
 | Máximo de usuários simulados ativos em uma sandbox | 2,000 | Máximo de usuários simulados que podem existir na sandbox de uma vez. A Adobe pode ajustar esse limite com base no feedback dos clientes. |
 | Preenchimento prévio de evento (somente navegador) | — | Você pode preencher previamente os campos de carga útil do evento somente na interface de simulação baseada em navegador. Os valores pré-preenchidos permanecem nesse navegador e não são sincronizados com outros navegadores, dispositivos ou sessões, de modo que você pode ver dados de pré-preenchimento diferentes em cada local testado. |
+
++++
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página apresenta o recurso de Simulação de Jornada no Adobe Journey Optimizer, explicando como ele difere do modo de Teste, a quais tipos de jornada ele oferece suporte, como iniciar uma simulação e quais são suas limitações quantitativas, funcionais e em nível de nó.
+
+**Intenções:**
+* Entender a diferença entre o modo Simulação e Teste para validar jornadas
+* Iniciar uma sessão de simulação para um tipo de jornada em lote, unitário ou misto
+* Identificar quais nós do jornada bloqueiam ou restringem a execução da Simulação
+* Determine quais recursos não são compatíveis durante a simulação (por exemplo, consentimento, limite de frequência, STO)
+* Planeje medidas de proteção quantitativas, como o número máximo de usuários simulados por sandbox
+* Decida se usará a Simulação rápida ou a Simulação manual com base nas necessidades de teste
+
+**Glossário:**
+* **Usuários simulados**: entidades temporárias semelhantes a perfis criadas para simulação sem persistir no Adobe Experience Platform *(específico do produto)*
+* **Simulação**: um estado de jornada (junto com Rascunho, Modo de teste e Ativo) usado para testes com usuários simulados em vez de perfis de teste persistentes *(específico do produto)*
+* **Journey Agent**: o componente de IA que gera usuários simulados, valores de evento e configurações de teste durante a simulação Rápida e a simulação Manual assistida por IA *(específico do produto)*
+* **Simulação rápida**: uma execução de simulação completa automatizada que gera usuários e eventos com entrada manual mínima *(específica do produto)*
+* **Simulação manual**: um modo de simulação passo a passo em que usuários e eventos são criados e acionados individualmente *(específico do produto)*
+
+**Medidas de Proteção:**
+* Exige pelo menos um dos seguintes: **Simular jornadas**, **Publicar jornadas** ou **Aprovar e Publicar jornadas** permissões
+* Os recursos de simulação alimentados por IA exigem a permissão **Gerar conteúdo** do recurso Assistente de IA
+* Máximo de 20 usuários simulados por lote Enviar tudo ou Acionar eventos selecionados
+* Máximo de 50 usuários simulados por solicitação de geração de IA
+* Máximo de 100 usuários únicos simulados por execução de simulação única
+* Máximo de 20 jornadas executando a simulação simultaneamente em uma sandbox
+* Máximo de 2.000 usuários simulados ativos em uma sandbox por vez
+* As jornadas acionadas por eventos comerciais não podem ser simuladas
+* Jornadas de ID complementares com várias reentradas habilitadas não podem ser simuladas
+* As políticas de consentimento, o limite de frequência, a recusa, o STO e as horas de silêncio não são avaliados durante a simulação
+* Os usuários simulados não devem conter dados reais do cliente (não compatível com o GDPR)
+
+**Terminologia:**
+* Nome canônico: Simulação — Acrônimo: none — variantes: Jornada Simulação, modo Simulação
+* Nome canônico: usuários simulados — Acrônimo: none — variantes: usuários de teste (em rótulos de interface do usuário)
+* Sinônimos: &quot;Simulação&quot; = &quot;Modo de simulação&quot;; &quot;usuários simulados&quot; = &quot;usuários de teste&quot; (somente rótulo da interface do usuário)
+* Não confunda: &quot;Simulation&quot; ≠ &quot;Modo de teste&quot; (O modo de teste usa perfis de teste persistentes do AEP; A simulação usa usuários temporários simulados)
+
+**Perguntas frequentes:**
+* **P: Quais permissões são necessárias para usar a simulação?** — Você precisa de pelo menos um dos seguintes: Simular jornadas, Publicar jornadas ou Aprovar e Publicar jornadas. Os recursos de IA também exigem a permissão Gerar conteúdo do recurso Assistente de IA.
+* **P: Qual a diferença entre a Simulação e o Modo de teste?** — A simulação usa usuários temporários simulados criados em tempo real sem perfis persistentes do Adobe Experience Platform; o modo de teste usa perfis persistentes explicitamente sinalizados como perfis de teste no AEP.
+* **P: Posso simular uma jornada que começa com um Evento Comercial?** — Não. As jornadas acionadas por um Evento Comercial não podem ser executadas em Simulação.
+* **P: Quantos usuários simulados posso testar em uma única execução de simulação?** — Até 100 usuários únicos simulados por execução; cada ação Enviar tudo é limitada a 20 usuários de uma só vez.
+* **P: As políticas de consentimento são aplicadas durante a Simulação?** — Não. A avaliação da política de consentimento, o limite de frequência, o gerenciamento de recusa e as horas de silêncio não são avaliados durante a simulação.
+* **P: O que acontece se minha jornada tiver mais de 50 caminhos durante a geração da IA?** — O Journey Agent seleciona aleatoriamente caminhos para produzir no máximo 50 usuários simulados.
 
 +++

@@ -27,10 +27,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 482
-ht-degree: 18%
+source-wordcount: 1024
+ht-degree: 8%
 
 ---
 
@@ -97,3 +97,46 @@ Para especificar o valor dos campos de cabeçalho dinâmico e parâmetro de cons
 
 Na seção **[!UICONTROL Parâmetros de ação]**, você verá os parâmetros de mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (por exemplo: eventos, fontes de dados), transmitir valores manualmente ou usar o editor de expressão avançado para casos de uso avançados. Casos de uso avançados podem ser manipulação de dados e outro uso de função. Consulte esta [página](expression/expressionadvanced.md).
 
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página explica como adicionar e configurar uma atividade de ação personalizada em uma jornada para chamar uma API REST de terceiros com uma carga JSON, incluindo configuração de URL, mapeamento de parâmetro de cabeçalho/consulta, mapeamento de parâmetro de ação e aplicação de políticas de consentimento e governança de dados.
+
+**Intenções:**
+
+* Adicione uma atividade de ação personalizada a uma jornada para enviar dados a um sistema de terceiros por meio da API REST
+* Configure um caminho de URL dinâmico concatenando campos e texto estático no editor de expressão
+* Mapear valores de parâmetro de consulta e cabeçalho dinâmico a partir de eventos de jornada ou fontes de dados
+* Mapear parâmetros de ação (definidos como Variável) para campos de evento, campos de fonte de dados ou valores estáticos
+* Aplicar políticas de consentimento e governança de dados para controlar quais dados são exportados por meio de ações personalizadas
+
+**Glossário:**
+
+* **Ação personalizada**: uma atividade de ação de jornada que chama um ponto de extremidade de API REST externo com uma carga de formato JSON para integrar sistemas de terceiros *(específico do produto)*
+* **Caminho dinâmico**: a parte variável da URL de ação personalizada que é definida por execução usando campos do contexto de jornada *(específico do produto)*
+* **Parâmetros de ação**: campos de carga de mensagem definidos como &quot;Variável&quot; na configuração de ação personalizada, mapeados para dados de jornada no nível de jornada *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* A parte estática do URL não pode ser modificada na jornada; ele deve ser definido na configuração de ação personalizada global.
+* Os campos de parâmetro de cabeçalho e consulta dinâmicos são definidos como variáveis na tela de configuração da ação, não na jornada.
+* As políticas de consentimento e governança de dados podem ser aplicadas para impedir que campos específicos sejam exportados ou para excluir clientes não consentidos.
+
+**Terminologia:**
+
+* Nome canônico: Ação personalizada — Acrônimo: none — variantes: ações personalizadas, ação de terceiros
+* Sinônimos: &quot;parâmetros de ação&quot; = &quot;parâmetros de mensagem definidos como Variável&quot;
+* Não confunda: &quot;parte estática do URL&quot; (definida na configuração de ação global, não editável no jornada) ≠ &quot;caminho dinâmico&quot; (definido no jornada por execução)
+
+**Perguntas frequentes:**
+
+* **P: Posso alterar a URL base de uma ação personalizada dentro da jornada?** — Não, somente a parte do caminho dinâmico pode ser definida na jornada; a parte estática do URL é configurada na configuração de ação personalizada global.
+* **P: Como criar um caminho de URL dinâmico que inclua uma ID de perfil?** — Use o campo Path com o editor de expressão avançado para concatenar o campo de ID com cadeias de caracteres estáticas, por exemplo: `_id + '/messages'`.
+* **P: Como aplicar regras de consentimento a uma ação personalizada?** — configure políticas de consentimento sobre a ação personalizada para excluir clientes que não consentiram em receber a comunicação relevante; consulte a página Consentimento para obter detalhes.
+* **P: Onde mapear os valores para cabeçalhos dinâmicos?** — Na seção Configuração de URL do painel de atividades, clique dentro do campo de cabeçalho dinâmico ou use o ícone de lápis para selecionar o campo desejado a partir de eventos ou fontes de dados.
+* **P: Que tipos de valores posso atribuir aos parâmetros de ação?** — É possível mapear parâmetros para campos de evento, campos de origem de dados, transmitir valores manualmente ou usar o editor de expressão avançado para manipulação de dados.
+
++++

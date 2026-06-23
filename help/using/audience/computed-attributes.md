@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 956
+source-wordcount: 1012
 ht-degree: 1%
 
 ---
@@ -96,7 +96,11 @@ Como os atributos computados são campos de atributo de perfil criados no esquem
 
 ![](assets/computed-attributes-ajo.png)
 
-+++Assistente de IA — Contexto da página
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
 
 - **TL;DR:** Saiba como criar atributos computados no Adobe Experience Platform e aproveitá-los no Journey Optimizer para segmentação, personalização e lógica de jornada.
 

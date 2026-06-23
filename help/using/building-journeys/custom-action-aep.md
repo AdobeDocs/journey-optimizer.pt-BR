@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 3%
+source-wordcount: 1085
+ht-degree: 1%
 
 ---
 
@@ -202,3 +202,46 @@ Para este exemplo, siga estas etapas:
 1. Preencha a ID da versão do Jornada, a ID do nó, o Nome do nó e outros atributos de acordo com o caso de uso.
 
    ![Editor de modo avançado para mapeamento de campo complexo](assets/custom-action-aep-9.png)
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+- **TL;DR:** Este caso de uso explica como configurar uma ação personalizada no Journey Optimizer que grava dados de eventos de jornada no Adobe Experience Platform usando uma entrada de API HTTP e chamadas autenticadas de servidor para servidor OAuth.
+
+**Intenções:**
+- Configurar um projeto do Adobe Developer Console IO com credenciais de servidor para servidor do OAuth para autenticação de API do AEP
+- Crie uma fonte de entrada da API HTTP no Adobe Experience Platform para receber dados de evento de jornada de transmissão
+- Configure uma ação personalizada no Journey Optimizer com o URL, os cabeçalhos e a autenticação personalizada de token do portador
+- Mapear campos de jornada (ID de versão da jornada, ID do nó, ID do cliente) dinamicamente como variáveis na carga de ação personalizada
+- Use a ação personalizada em uma jornada para gravar eventos personalizados em um conjunto de dados do AEP
+
+**Glossário:**
+- **Entrada de API HTTP**: um conector de origem Adobe Experience Platform que cria um ponto de extremidade de streaming para assimilar dados por meio de solicitações HTTP POST *(específico do produto)*
+- **OAuth Server-to-Server**: um tipo de credencial de autenticação no Adobe Developer Console que gera tokens de Portador para chamadas de API de servidor para servidor sem interação do usuário *(específico do produto)*
+- **Autorização personalizada**: um tipo de autenticação de ação personalizada do Journey Optimizer que busca um token de portador de um ponto de extremidade especificado e o armazena em cache por um período configurado *(específico do produto)*
+- **Entidade XDM**: a estrutura da carga de dados em conformidade com o esquema do Modelo de Dados de Experiência, usada como o corpo ao gravar eventos no AEP por meio da entrada da API HTTP *(específico do produto)*
+- **cacheDuration**: a configuração de cache de token na configuração de autorização personalizada que controla por quanto tempo o token do Portador buscado é reutilizado antes que um novo seja solicitado *(específico do produto)*
+
+**Medidas de Proteção:**
+- Depois de criar o projeto do Adobe Developer Console, as permissões de desenvolvedor e de controle de acesso à API devem ser concedidas explicitamente para que as credenciais possam ser usadas
+- A fonte de entrada da API HTTP deve ser criada com autenticação habilitada; o URL do ponto de extremidade da conexão e a carga do esquema devem ser copiados e armazenados para uso na configuração de ação personalizada
+- Os cabeçalhos de ação personalizados devem incluir Content-Type, Charset e sandbox-name
+- Os campos que devem ser preenchidos dinamicamente no tempo de execução devem ser alterados de Constante para Variável na configuração de carga da ação personalizada
+
+**Terminologia:**
+- Nome canônico: Ação personalizada — Acrônimo: none — variantes: configuração de ação personalizada, ação personalizada de Journey Optimizer
+- Nome canônico: Adobe Experience Platform — Acrônimo: AEP — variantes: Experience Platform, Platform
+- Sinônimos: &quot;Entrada de API HTTP&quot; = &quot;ponto de extremidade de transmissão&quot; = &quot;Ponto de extremidade de coleção DCS&quot;
+- Não confunda: &quot;OAuth Server-to-Server&quot; ≠ &quot;OAuth user authentication&quot; (Servidor-to-Server não requer um logon de usuário; ele usa credenciais do cliente)
+
+**Perguntas frequentes:**
+- **P: Que tipo de autenticação é usado para chamar a Entrada da API HTTP do AEP a partir de uma ação personalizada do Journey Optimizer?** — Autenticação de token do portador personalizado usando credenciais de cliente OAuth de servidor para servidor buscadas no endpoint do token do Adobe IMS.
+- **P: Onde encontro os valores client_id, client_secret, grant_type e scope?** — Na seção Credenciais de servidor para servidor do OAuth do seu projeto do Adobe Developer Console IO, clicando em &quot;Exibir o comando cURL&quot;.
+- **P: Como faço para tornar campos específicos da jornada (por exemplo, journeyVersionId, nodeId) dinâmicos na carga?** — Altere a configuração de campo de Constante para Variável na configuração de carga da ação personalizada para que sejam preenchidos no contexto de jornada no tempo de execução.
+- **P: Quais permissões são necessárias para o projeto do Adobe Developer Console?** — O desenvolvedor e o controle de acesso da API devem receber as permissões certas após a criação do projeto, conforme descrito na documentação de autenticação da API do AEP.
+- **P: Qual é a finalidade da configuração cacheDuration na carga de autenticação?** — Ele controla por quanto tempo o token do portador buscado é armazenado em cache e reutilizado (28.000 segundos no exemplo) antes da ação personalizada solicitar um novo token.
+
++++

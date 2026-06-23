@@ -10,10 +10,10 @@ exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 198
-ht-degree: 6%
+source-wordcount: 521
+ht-degree: 2%
 
 ---
 
@@ -67,3 +67,38 @@ Retorna um valor booleano.
 Explicação:
 
 A função retornará **[!UICONTROL true]** se o indivíduo na instância do jornada fizer parte do público-alvo da Adobe Experience Platform chamado &quot;homens acima de 50&quot;, caso contrário **[!UICONTROL false]**.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página documenta a função herdada `inSegment`, que verifica se um perfil de jornada pertence a um público-alvo nomeado do Adobe Experience Platform e retorna um valor booleano.
+
+**Intenções:**
+* Verificar se um perfil é um membro ativo de um público nomeado usando `inSegment`
+* Usar `inSegment('name') == true` para confirmar a associação de público realizada (ativa) em uma condição de jornada
+* Use `inSegment('name') == false` para confirmar a associação de público-alvo (inativo) encerrada
+
+**Glossário:**
+* **Realizado**: o status de participação de público-alvo significa que a entidade está qualificada atualmente para a definição de segmento *(específico do produto)*
+* **Saída**: Status de participação de público-alvo significando que a entidade está saindo ou saiu da definição de segmento *(específico do produto)*
+
+**Medidas de Proteção:**
+* É possível recuperar até 100 públicos-alvo em uma única jornada
+* O nome do público-alvo deve ser uma constante de cadeia de caracteres; referências de campo e expressões não são compatíveis como parâmetros
+
+**Terminologia:**
+* Nome canônico: inSegment — Acrônimo: none — variantes: inAudience (função preferida atual)
+* Sinônimos: &quot;inSegment&quot; = &quot;verificação de associação de público-alvo&quot; (herdado)
+* Não confunda: &quot;inSegment&quot; (função herdada/obsoleta) ≠ &quot;inAudience&quot; (função recomendada atual)
+* Não confundir: &quot;realizado&quot; (membro ativo) ≠ &quot;encerrado&quot; (já não é um membro)
+
+**Perguntas frequentes:**
+* **P: Qual é a diferença entre `inSegment` e `inAudience`?** — `inSegment` é o nome da função herdada; `inAudience` é a função recomendada no momento. Ambos verificam a associação de público-alvo, mas `inAudience` tem uma documentação mais completa, incluindo medidas de proteção e detalhes de tempo de propagação.
+* **P: O que `inSegment('name') == true` significa?** — Significa que o perfil tem um status &quot;realizado&quot; segmentMembership, ou seja, o indivíduo é um membro ativo do público-alvo.
+* **P: Posso passar uma expressão dinâmica como o nome do público-alvo?** — Não, o nome do público-alvo deve ser uma constante de sequência; referências de campo e expressões não são compatíveis.
+* **P: Quantos públicos-alvo posso avaliar em uma jornada?** — É possível recuperar até 100 públicos-alvo em uma única jornada.
+
++++

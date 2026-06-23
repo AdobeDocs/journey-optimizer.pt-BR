@@ -26,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2263
-ht-degree: 11%
+source-wordcount: 2993
+ht-degree: 8%
 
 ---
 
@@ -252,3 +252,51 @@ Se as discrepâncias persistirem, [contate o Suporte da Adobe](../start/user-int
 Se as URLs de rastreamento nos emails enviados contiverem espaços reservados vazios, como `cid=em-acou-adob{}`, isso pode indicar que um campo de contexto, como `context.system.source.actionId`, não pôde ser resolvido. Isso normalmente acontece quando uma jornada foi fechada e não foi republicada após uma alteração de produto relevante — somente jornadas republicadas preenchem corretamente esses campos de contexto em URLs de rastreamento.
 
 Para resolver isso, publique novamente a jornada ([crie uma nova versão e publique-a](publish-journey.md#journey-create-new-version)) ou remova a referência ao campo de contexto afetado dos [parâmetros de rastreamento de URL](../email/url-tracking.md) na configuração de canal ou no conteúdo de email.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página é uma referência abrangente de solução de problemas para execução de jornada em tempo real no Adobe Journey Optimizer, cobrindo a entrega de eventos, falhas de entrada de perfil, problemas de transição de modo de teste, eventos descartados, logs de eventos de etapas duplicadas, verificações de entrega de mensagens e discrepâncias de métricas de painel.
+
+**Intenções:**
+* Diagnosticar por que os eventos não estão acionando a entrada de jornada verificando a estrutura de carga, os cabeçalhos e as condições de qualificação
+* Verifique se os perfis estão entrando e avançando em uma jornada em tempo real ou em modo de teste
+* Resolver falhas de transição do modo de teste causadas por datas de início futuras ou namespaces de identidade mal configurados
+* Entender e manipular o motivo de descarte `maxInstanceStackEventsReached` para instâncias de jornada bloqueadas
+* Identifique e consulte corretamente as entradas duplicadas do log de eventos de etapa de Jornada causadas pelo dimensionamento automático de back-end
+* Investigue as mensagens ausentes verificando os relatórios do jornada e os resultados da chamada de ação personalizada
+* Corrigir espaços reservados para URL de rastreamento vazios em emails de jornadas fechadas
+
+**Glossário:**
+* **Eventos de Etapa de Jornada**: um conjunto de dados que registra cada etapa que um perfil executa em uma jornada, usado para relatórios e depuração *(específico do produto)*
+* **notSuitableInitialEvent**: um código de descarte indicando que um evento foi recebido, mas descartado porque a condição de qualificação não foi atendida *(específico do produto)*
+* **maxInstanceStackEventsReached**: um código de descarte indicando o limite de 10 da pilha de eventos da instância de jornada por perfil foi excedido *(específico do produto)*
+* **isValidTransition**: uma propriedade somente de interface do usuário nos detalhes técnicos da jornada; um valor nulo pode indicar uma data de início futura ou uma conexão de nó corrompida, mas não afeta o processamento de back-end *(específico do produto)*
+* **Condição de qualificação**: uma regra definida em um evento que deve ser atendida para que o evento acione uma jornada; os eventos que falharem nessa condição serão descartados
+* **Rebalanceamento**: Uma operação de dimensionamento automático de back-end nos microsserviços AJO que pode criar entradas de log de Eventos de Etapa de Jornada duplicadas com valores `_id` diferentes
+
+**Medidas de Proteção:**
+* Eventos enviados fora da janela de data/hora ativa da jornada são silenciosamente descartados sem mensagem de erro
+* O limite de pilha de eventos de instância de jornada por perfil é de 10 eventos; se isso for excedido, os eventos serão descartados com `maxInstanceStackEventsReached`
+* Entradas de Evento de Etapa de Jornada duplicadas com valores `_id` diferentes são comportamento esperado do sistema e não indicam duplicação de mensagem
+* As métricas de Visão geral do painel incluem apenas jornadas com tráfego nas últimas 24 horas; as métricas podem levar até 30 minutos para serem atualizadas
+* Jornadas fechadas que não foram republicadas após uma alteração de produto podem produzir espaços reservados vazios em URLs de rastreamento
+
+**Terminologia:**
+* Nome canônico: Eventos de etapa de Jornada — Acrônimo: none — variantes: eventos de etapa, logs de execução de jornada
+* Nome canônico: Condição de qualificação — Acrônimo: none — variantes: regra de qualificação de evento, condição de evento
+* Sinônimos: &quot;rebalanceamento&quot; = &quot;dimensionamento automático&quot; (operação de backend que causa entradas de log duplicadas)
+* Não confunda: &quot;duplicate `_id`&quot; ≠ &quot;entradas de log duplicadas a partir de rebalanceamento&quot; — duplicatas verdadeiras compartilham o mesmo `_id`; rebalanceamento de duplicatas têm valores `_id` diferentes
+
+**Perguntas frequentes:**
+* **P: Por que meus eventos não estão acionando uma jornada mesmo que estejam sendo enviados com êxito?** — Verifique se a jornada está ativa ou em modo de teste, se a carga corresponde à estrutura do esquema do evento, se a condição de qualificação foi atendida e se os cabeçalhos corretos (`X-gw-ims-org-id`, `Content-type`) foram incluídos.
+* **P: Por que os perfis de teste entram na jornada, mas não avançam além da primeira etapa?** — A causa mais comum é uma data de início de jornada definida no futuro; os eventos são silenciosamente descartados fora da janela de data ativa. Verifique também se o sinalizador de perfil de teste e o namespace de identidade correspondem.
+* **P: O que `maxInstanceStackEventsReached` significa?** — O tempo de execução do jornada atingiu o limite interno de 10 eventos da pilha para uma instância de perfil específica, normalmente porque uma etapa de longa duração está bloqueando o processamento. Reduza longas esperas, desduplique eventos de upstream ou divida o cenário em várias jornadas.
+* **P: Vejo linhas duplicadas em Eventos de Etapa de Jornada — há algo errado?** — Não. Entradas duplicadas com diferentes valores `_id` são esperadas e resultam do dimensionamento automático de back-end. Apenas uma mensagem é realmente enviada; verifique com o `ajo_message_feedback_event_dataset`.
+* **P: Por que as URLs de rastreamento em emails mostram espaços reservados vazios como `cid=em-acou-adob{}`?** — A jornada foi fechada e não foi republicada após uma alteração de produto; os campos de contexto não podem ser resolvidos. Publique novamente a jornada ou remova a referência do campo de contexto afetado dos parâmetros de rastreamento de URL.
+* **P: Por que o painel Visão geral mostra números diferentes da guia Procurar?** — o painel conta apenas jornadas com tráfego nas últimas 24 horas, as métricas levam até 30 minutos para serem atualizadas e as permissões de acesso podem limitar a visibilidade.
+
++++

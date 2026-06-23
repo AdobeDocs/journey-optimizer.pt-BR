@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 932
-ht-degree: 7%
+source-wordcount: 1589
+ht-degree: 4%
 
 ---
 
@@ -118,7 +118,7 @@ A prática recomendada é usar datas personalizadas específicas para seus perfi
 >* Ao criar uma expressão de espera personalizada com `toDateTimeOnly()`, **não** anexe `Z` ou um deslocamento de fuso horário (por exemplo, `-05:00`). A expressão deve fazer referência ao fuso horário configurado pela jornada sem designadores de fuso horário explícitos; caso contrário, os perfis podem ficar presos na atividade de espera.
 >
 >| | Exemplo |
->|---|---|
+>| --- | --- |
 >| **Correto** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))` |
 >| **Incorreto** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contém `Z`) |
 
@@ -143,3 +143,53 @@ Exemplo: se um perfil se qualificar para um público-alvo de &quot;cliente Silve
 >abstract="Um nó **Wait** é inserido automaticamente após esta ação de entrada. É definido como 3 dias por padrão, garantindo que os perfis permaneçam na jornada por tempo suficiente para exibir a mensagem ou a experiência. A duração da espera pode ser atualizada ou o nó removido, se o caso de uso exigir."
 
 Cada atividade de experiência de entrada (mensagem no aplicativo, experiência baseada em código ou Cartão) vem com uma atividade de **Aguardar** de 3 dias. Como as mensagens de entrada terminam automaticamente quando um perfil atinge o final da jornada, pressupomos que você deseje que seus usuários a vejam pelo menos por 3 dias. Você pode remover esta atividade **Aguardar** ou alterar sua configuração, se necessário.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página explica como configurar a atividade de espera em uma jornada para pausar a progressão do perfil por uma duração relativa ou até uma data calculada personalizada antes de executar a próxima etapa.
+
+**Intenções:**
+
+* Adicione uma atividade Wait para pausar uma jornada por uma duração relativa fixa (até 90 dias)
+* Configure um Wait personalizado usando uma expressão avançada para atrasar até uma data calculada específica do perfil
+* Entenda como as atividades de espera interagem com o tempo limite global do jornada (91 dias)
+* Use o parâmetro Tempo de espera no teste para acelerar a validação do modo de teste
+* Entenda como os atributos de perfil são atualizados após um nó de espera em Ler jornadas de público-alvo
+
+**Glossário:**
+
+* **Atividade de espera**: uma atividade de orquestração de jornadas que pausa a progressão do perfil por uma duração especificada ou até uma data calculada antes que a próxima atividade seja executada *(específico do produto)*
+* **Duração da espera**: um tipo de espera que define um período de tempo relativo para pausa, com um máximo de 90 dias *(específico do produto)*
+* **Espera personalizada**: um tipo de espera que usa uma expressão `dateTimeOnly` derivada de dados de perfil ou evento para definir uma data/hora futura específica para retomada *(específica do produto)*
+* **Nó de espera automático**: uma atividade de espera de 3 dias é inserida automaticamente após as atividades de experiência de entrada (no aplicativo, com base em código, Cartão) para manter o perfil na jornada por tempo suficiente para exibir o conteúdo *(específico do produto)*
+* **Tempo de espera no teste**: um parâmetro de modo de teste de jornada que substitui as durações de espera reais (padrão de 10 segundos) para que os resultados do teste sejam retornados rapidamente *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* A duração máxima de espera é de 90 dias.
+* Os perfis são descartados de uma jornada após 91 dias (tempo limite global), independentemente das atividades de espera pendentes.
+* Um perfil só poderá inserir uma atividade Wait se houver tempo suficiente na jornada para concluir a espera antes do tempo limite de 91 dias.
+* Não use as atividades Wait para bloquear a reentrada; em vez disso, use a opção Allow reentry nas propriedades do jornada.
+* As expressões de espera personalizadas devem usar o formato `dateTimeOnly` e não devem incluir um sufixo `Z` ou deslocamento de fuso horário explícito.
+* Usar uma data estática fixa (por exemplo, `toDateTimeOnly('2024-01-01T01:11:00Z')`) em uma espera personalizada pode causar problemas. Em vez disso, use datas dinâmicas específicas do perfil.
+* Os atributos de perfil são atualizados a partir do Unified Profile Service após um nó de espera em Ler jornadas de público-alvo, o que pode produzir resultados inesperados se a consistência do instantâneo for esperada.
+
+**Terminologia:**
+
+* Nome canônico: Atividade de espera — Acrônimo: none — variantes: nó de espera, etapa de espera
+* Sinônimos: &quot;Espera de duração&quot; = &quot;espera relativa&quot;; &quot;Espera personalizada&quot; = &quot;espera baseada em expressão&quot;
+* Não confunda: &quot;Duration wait&quot; (relativo, por exemplo, daqui a 3 dias) ≠ &quot;Custom wait&quot; (data calculada absoluta a partir dos dados do perfil)
+
+**Perguntas frequentes:**
+
+* **P: Qual é a duração máxima de uma atividade de espera?** — A duração máxima de espera é de 90 dias; os perfis também estão sujeitos ao tempo limite de jornada global de 91 dias.
+* **P: Como o modo de teste trata as atividades de Espera?** — No modo de teste, o parâmetro &quot;Tempo de espera no teste&quot; substitui a duração de espera real; o padrão é 10 segundos para que os testes sejam concluídos rapidamente.
+* **P: Por que não devo anexar Z a uma expressão de espera personalizada?** — Adicionar Z ou um deslocamento de fuso horário a uma expressão `toDateTimeOnly()` pode fazer com que os perfis fiquem presos na atividade de espera; a expressão deve depender do fuso horário configurado pela jornada.
+* **P: Os atributos de perfil são atualizados após um nó de Espera?** — Sim, em jornadas que começam com Read Audience, a jornada atualiza os atributos do perfil do Unified Profile Service após a espera, portanto, as atividades downstream podem ver valores atualizados em vez dos dados de instantâneo do público original.
+* **P: Qual é o nó de espera automático?** — Uma atividade de espera de três dias é inserida automaticamente após as atividades de experiência de entrada (no aplicativo, com base em código, cartão) para garantir que os perfis permaneçam na jornada por tempo suficiente para ver a mensagem. Ela pode ser removida ou reconfigurada conforme necessário.
+
++++

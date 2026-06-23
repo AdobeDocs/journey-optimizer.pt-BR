@@ -11,10 +11,10 @@ keywords: experimentação, experimento, jornada, caminho, otimização, teste A
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a37b536bb4210a615995f5c5c8ec710b516de934
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1308
-ht-degree: 6%
+source-wordcount: 1865
+ht-degree: 4%
 
 ---
 
@@ -213,3 +213,48 @@ Para dimensionar manualmente o vencedor de seus experimentos:
    ![Seleção de tratamento de escala no experimento de caminho](assets/journey-optimize-scale-treatment.png){width=80%}
 
 Observe que o dimensionamento do tratamento pode levar até uma hora. Você receberá uma notificação quando o processo de dimensionamento manual for concluído.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página explica como configurar e executar a experimentação de caminho no Adobe Journey Optimizer jornada usando métodos A/B ou Multi-armed bandit e como dimensionar o tratamento vencedor automática ou manualmente.
+
+**Intenções:**
+* Configurar um experimento de caminho de bandit A/B ou Multi-armed em uma jornada
+* Definir métricas de sucesso para avaliar o desempenho do experimento
+* Alocar o tráfego entre os caminhos de tratamento de maneira uniforme ou por porcentagem personalizada
+* Adicionar um grupo de controle para excluir uma parte do público-alvo de todos os tratamentos
+* Ativar dimensionamento automático para implantar automaticamente o tratamento vencedor
+* Dimensione manualmente o tratamento vencedor após analisar os resultados do experimento
+
+**Glossário:**
+* **Atividade Otimizar**: uma atividade de tela de jornada usada para dividir perfis em diferentes caminhos para experimentação ou direcionamento *(específico do produto)*
+* **Tratamento**: uma única variante de caminho em um experimento de caminho (por exemplo, Tratamento A, Tratamento B) *(específico do produto)*
+* **Métrica de sucesso**: o KPI usado para avaliar qual tratamento tem melhor desempenho em um experimento *(específico do produto)*
+* **Bandit com vários braços**: um tipo de experimento no qual a divisão de tráfego é ajustada automaticamente a cada 7 dias com base no desempenho da métrica primária *(específico do produto)*
+* **Dimensionar o Vencedor**: um recurso que implanta o tratamento vencedor para o público restante completo, automática ou manualmente *(específico do produto)*
+* **Grupo de controle**: um segmento do público-alvo excluído de todos os tratamentos experimentais, usado como um grupo de controle *(específico do produto)*
+
+**Medidas de Proteção:**
+* Dimensionar o vencedor só está disponível para jornadas unitárias (acionadas por eventos e Qualificação de público-alvo); não está disponível para jornadas Ler público-alvo.
+* A hora de dimensionamento automático deve ser agendada antes da data de término do experimento, caso contrário a jornada não será publicada.
+* Quando o dimensionamento automático ocorrer, o dimensionamento manual não estará mais disponível.
+* O dimensionamento manual do vencedor antes do tempo de dimensionamento automático agendado cancela o dimensionamento automático.
+* O escalonamento do tratamento pode levar até uma hora.
+
+**Terminologia:**
+* Nome canônico: Path Experimentation — Acrônimo: none — variantes: experimentação de jornada, teste de caminho A/B
+* Sinônimos: &quot;Otimizar atividade&quot; = &quot;atividade de experimento&quot; = &quot;atividade de divisão de caminho&quot;
+* Não confunda: &quot;Experimento A/B&quot; ≠ &quot;Multi-armed bandit&quot; (A/B tem divisão de tráfego fixa; Multi-armed bandit ajusta pesos dinamicamente a cada 7 dias)
+
+**Perguntas frequentes:**
+* **P: Qual é a diferença entre o experimento A/B e o bandit multicampo?** — O experimento A/B usa uma divisão fixa do tráfego definida no início, enquanto o Multi-armed bandit ajusta automaticamente os pesos do tráfego a cada 7 dias com base no desempenho da métrica principal.
+* **P: Posso usar a opção Dimensionar o Vencedor em uma jornada de Leitura de Público?** — Não; dimensionar o vencedor só está disponível para jornadas unitárias (acionadas por eventos e de qualificação de público-alvo).
+* **P: O que acontece se nenhum vencedor for encontrado pelo tempo de dimensionamento automático?** — Você pode configurar um fallback: continue o experimento até o fim agendado ou dimensione um tratamento alternativo após um tempo especificado.
+* **P: Como o tráfego será distribuído se eu não configurar porcentagens de tratamento manualmente?** — Você pode ativar o botão Distribuir igualmente para dividir o tráfego igualmente em todos os tratamentos.
+* **P: Posso editar um experimento de caminho depois que a jornada for publicada?** — A jornada entra no modo somente leitura após a publicação; para fazer alterações, crie uma nova versão da jornada.
+
++++

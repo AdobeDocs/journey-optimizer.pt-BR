@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1009
-ht-degree: 46%
+source-wordcount: 1602
+ht-degree: 29%
 
 ---
 
@@ -288,3 +288,45 @@ Descubra os componentes de uma jornada e entenda os aspectos básicos da criaç�
 * **[Solução de problemas](troubleshooting.md)**: problemas e soluções comuns da jornada
 * **[Tutoriais do Jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Saiba mais sobre a criação de jornadas por meio de tutoriais em vídeo práticos
 * **[medidas de proteção e limitações de Jornada](../start/guardrails.md)** - Verifique as medidas de proteção e as limitações ao usar [!DNL Adobe Journey Optimizer]
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** este é o guia de introdução abrangente para a orquestração de jornadas no Adobe Journey Optimizer, que abrange recursos importantes (entrega em tempo real e em lote, dados contextuais, ações integradas e personalizadas, o designer visual, Fragmentos de Jornada e testes), casos de uso comuns e links para todos os principais recursos de aprendizado.
+
+**Intenções:**
+* Entenda os principais recursos disponíveis no designer do Journey Optimizer jornada antes de criar uma primeira jornada
+* Navegue até o recurso correto para criar, gerenciar, testar ou solucionar problemas de jornadas
+* Saiba como acionar 1:1 mensagens em tempo real em qualquer canal usando o designer do jornada
+* Descubra como os fragmentos de Jornada permitem a reutilização da lógica de nó comum entre jornadas
+* Acesse tutoriais em vídeo e guias passo a passo para casos de uso comuns de jornada, como séries de boas-vindas, abandono de carrinho e otimização de tempo de envio
+
+**Glossário:**
+* **Designer de Jornadas**: a tela visual de arrastar e soltar no Adobe Journey Optimizer usada para compilar e orquestrar jornadas de clientes em várias etapas *(específico do produto)*
+* **Fragmento de Jornada**: um conjunto reutilizável de nós de jornada (por exemplo, verificação de qualificação, lógica de roteamento de canal) criado uma vez e inserido em várias jornadas *(específico do produto)*
+* **Entrega unitária**: uma mensagem em tempo real disparada para um único perfil quando ocorre um evento específico *(específico do produto)*
+* **Entrega em lote**: mensagens enviadas a todos os perfis em um público-alvo da Adobe Experience Platform de uma só vez ou em um agendamento *(específico do produto)*
+* **Otimização de Tempo de Envio (STO)**: um recurso orientado por IA que prevê o momento ideal para enviar uma mensagem a cada perfil individual para maximizar o engajamento *(específico do produto)*
+* **Ação personalizada**: uma atividade de jornada que se conecta a um sistema de terceiros via API para enviar mensagens ou recuperar dados *(específico do produto)*
+
+**Medidas de Proteção:**
+* As medidas de proteção e limitações da jornada são detalhadas separadamente na página de medidas de proteção e devem ser revisadas antes de projetar em escala
+* As ações personalizadas exigem configuração prévia por um usuário técnico antes de serem usadas em uma jornada
+* Os fragmentos de jornada devem estar ativos antes de serem inseridos em uma jornada
+
+**Terminologia:**
+* Nome canônico: Jornada — Acrônimo: none — variantes: jornada do cliente, fluxo de orquestração, jornada em várias etapas
+* Sinônimos: &quot;Designer de jornada&quot; = &quot;Tela do jornada&quot; = &quot;Construtor de jornadas&quot;
+* Não confunda: &quot;ações de canal integradas&quot; ≠ &quot;ações personalizadas&quot; — as ações integradas usam canais nativos do AJO; as ações personalizadas chamam APIs externas de terceiros
+
+**Perguntas frequentes:**
+* **P: Qual é a diferença entre a entrega em tempo real (unitária) e a entrega em lote no jornada?** — A entrega unitária aciona uma mensagem para um perfil de cada vez em tempo real quando ocorre um evento. A entrega em lote processa todos os perfis em um público-alvo de uma só vez ou de acordo com um agendamento usando uma atividade Ler público-alvo.
+* **P: Posso reutilizar uma lógica comum (como uma verificação de qualificação) em várias jornadas?** — Sim; salve os nós como um Fragmento de Jornada e insira o fragmento Ativo em qualquer jornada na sandbox.
+* **P: Por onde criar minha primeira jornada?** — siga o guia passo a passo na página &quot;Crie sua primeira jornada&quot;, que aborda a seleção de pontos de entrada, o design da tela, os testes e a publicação.
+* **P: Como faço para enviar mensagens por meio de um sistema de terceiros a partir de uma jornada?** — Configure uma ação personalizada para chamar a API externa e, em seguida, adicione-a como uma atividade de ação na tela de jornada.
+* **P: Onde posso encontrar respostas para perguntas comuns sobre jornadas?** — visite a página de perguntas frequentes do Jornada para obter respostas sobre conceitos, criação, testes, execução, monitoramento e práticas recomendadas.
+
++++

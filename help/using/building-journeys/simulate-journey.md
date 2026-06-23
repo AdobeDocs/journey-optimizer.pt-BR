@@ -11,9 +11,9 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 921e3df97574ccb9f4c3cc9d462f502161e86552
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 2176
+source-wordcount: 2859
 ht-degree: 0%
 
 ---
@@ -258,3 +258,51 @@ Para atividades de **Aguardar**, o log inclui dois valores relacionados à dura�
 * **Duração real**: o tempo decorrido em que o usuário simulado permaneceu na atividade **Wait**. Este valor é definido na guia **[!UICONTROL Configurações de teste]**.
 
 Quando aparecerem erros no log, deixe **Simulação**, aplique as alterações necessárias à jornada e execute **Simulação** novamente. Após a validação ser bem-sucedida, publique a jornada. Consulte [Publicar sua jornada](../building-journeys/publish-journey.md).
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página fornece instruções passo a passo para executar a Simulação rápida e a Simulação manual no Adobe Journey Optimizer, incluindo como criar e gerenciar usuários simulados, acionar eventos unitários, substituir Durações de espera e interpretar o log de Resultados.
+
+**Intenções:**
+* Executar uma simulação rápida para validar uma jornada de ponta a ponta com o mínimo de entrada manual
+* Configurar simulação manual para controlar a criação de usuários simulados, cargas de evento e sobreposições de espera
+* Criar usuários simulados por meio da geração de IA, navegação de inventário, entrada de formulário ou JSON
+* Acionar eventos unitários para usuários simulados durante uma sessão de simulação ativa
+* Revise o log de Resultados para identificar erros e ramificações descobertas após a execução de uma simulação
+* Redefinir ou fechar uma sessão de simulação para começar a atualizar ou sair
+
+**Glossário:**
+* **Simulação rápida**: um modo de simulação automatizada que gera usuários e valores de evento usando a Journey Agent e executa a jornada completa com etapas manuais mínimas *(específico do produto)*
+* **Simulação manual**: um modo de simulação passo a passo em que os profissionais controlam a criação de usuários, as cargas de eventos e o tempo individualmente *(específico do produto)*
+* **Usuários simulados**: entidades temporárias semelhantes a perfis usadas na simulação que não persistem no Adobe Experience Platform *(específico do produto)*
+* **Journey Agent**: o componente de IA que gera usuários simulados e cargas de evento durante a simulação assistida por IA *(específico do produto)*
+* **Configurações de teste**: a guia do painel Simulação, onde as durações de espera e os endereços de execução (email, telefone, token de push) podem ser substituídos para a execução da simulação *(específico do produto)*
+* **Log de resultados**: o log de execução pode ser acessado na guia Resultados mostrando resultados, durações e erros por atividade para cada usuário simulado *(específico do produto)*
+
+**Medidas de Proteção:**
+* Exige pelo menos um dos seguintes: Simular jornadas, Publicar jornadas ou Aprovar e Publicar permissões de jornadas
+* Os recursos de IA (Simulação rápida, Gerar com IA, Gerar valores de evento) exigem a permissão Gerar conteúdo pelo recurso Assistente de IA
+* Para jornadas acionadas por eventos, o ícone Enviar por usuário não está disponível; a entrada é acionada por meio da seção Eventos de teste
+* As substituições de duração da espera e as configurações do endereço de execução são exibidas somente se a jornada incluir atividades Wait ou Channel
+* Erros no log de Resultados exigem sair da Simulação, corrigir a jornada e executar novamente antes da publicação
+
+**Terminologia:**
+* Nome canônico: Simulação rápida — Acrônimo: none — variantes: none
+* Nome canônico: Simulação manual — Acrônimo: none — variantes: none
+* Nome canônico: usuários simulados — Acrônimo: none — variantes: usuários de teste (rótulo da interface do usuário na lista de usuários de teste)
+* Sinônimos: &quot;Enviar tudo&quot; = acionar todos os usuários simulados listados na jornada simultaneamente
+* Não confunda: &quot;Reinicializar simulação&quot; ≠ &quot;Fechar simulação&quot; — A reinicialização limpa todos os dados e configurações; Fechar apenas sai da sessão atual
+
+**Perguntas frequentes:**
+* **P: Qual é a diferença entre a Simulação rápida e a Simulação manual?** — A simulação rápida executa automaticamente toda a jornada usando usuários e eventos gerados por IA; a simulação manual permite criar usuários e eventos passo a passo com controle total sobre cargas e tempo.
+* **P: Posso reutilizar usuários simulados em sessões de simulação?** — Sim. Os usuários salvos no inventário podem ser recuperados por meio do inventário Procurar em sessões subsequentes.
+* **P: Como substituo as durações da atividade de espera durante a simulação?** — Abra a guia Test settings e defina uma duração mais curta, por exemplo, 10 segundos, para que os usuários simulados percorram os nós de espera rapidamente.
+* **P: Como acionar um evento unitário para um usuário simulado específico?** — Na seção Testar eventos, clique no ícone de edição ao lado do usuário para configurar o payload do evento e, em seguida, clique no ícone enviar nessa linha para acionar somente o evento desse usuário.
+* **P: O que significam os campos Duração definida e Duração real no log Resultados para atividades de Espera?** — A duração definida é o tempo de espera configurado pela jornada ativa; a duração real é a duração de teste substituída que o usuário simulado realmente gastou no nó Aguardar.
+* **P: O que devo fazer quando aparecerem erros no log de Resultados?** — Deixe Simulação, aplique as correções necessárias à jornada e execute Simulação novamente até que a execução não mostre erros antes de publicar.
+
++++

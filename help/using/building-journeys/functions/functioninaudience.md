@@ -20,10 +20,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 754
-ht-degree: 2%
+source-wordcount: 1279
+ht-degree: 1%
 
 ---
 
@@ -140,3 +140,45 @@ Saiba mais sobre como usar públicos-alvo na Adobe Journey Optimizer:
 * **[Uso de públicos-alvo em condições](../conditions.md#using-a-segment)** - Crie caminhos de jornada condicionais com base na associação de público-alvo usando a atividade Otimize
 * **[Propriedades da Jornada - Políticas de mesclagem](../journey-properties.md)** - Entenda como as políticas de mesclagem funcionam ao usar vários públicos com a função inAudience
 
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página documenta a função `inAudience`, que verifica em tempo real se um perfil de jornada pertence a um público-alvo nomeado do Adobe Experience Platform e retorna um valor booleano usado em condições de jornada.
+
+**Intenções:**
+* Ramifique um caminho de jornada com base no fato de um perfil ser membro de um público-alvo específico usando `inAudience`
+* Combinar várias verificações `inAudience` com a lógica AND/OR para criar condições complexas de direcionamento
+* Verificar se um perfil não inseriu um público-alvo específico usando uma verificação de negação (`inAudience("...") == false`)
+* Entenda as diferenças de tempo de propagação entre as jornadas Ler público-alvo e as jornadas de eventos unitários
+* Identificar e corrigir referências de público corrompidas causadas por renomeações de público no Adobe Experience Platform
+
+**Glossário:**
+* **Realizado**: status de participação de público indicando o indivíduo atualmente qualificado para a definição de público-alvo e que é um membro ativo *(específico do produto)*
+* **Encerrado**: status de participação de público indicando que o indivíduo deixou o público e não se qualifica mais *(específico do produto)*
+* **Política de mesclagem**: uma regra no Adobe Experience Platform que determina como os dados do perfil de vários conjuntos de dados são combinados ao avaliar a associação de público-alvo *(específico do produto)*
+* **Projeção de lote**: o armazenamento de dados do perfil foi atualizado de acordo com uma agenda (dentro de 2 horas após a assimilação) usada pela opção Ler jornadas de público-alvo *(específico do produto)*
+* **Projeção de streaming**: o armazenamento de dados do perfil em tempo real (normalmente disponível em 15 minutos) usado em jornadas de evento unitárias e após atividades Wait *(específico do produto)*
+
+**Medidas de Proteção:**
+* Uma única jornada pode recuperar até 100 públicos-alvo
+* O parâmetro de nome de público deve ser uma constante de cadeia de caracteres; não há suporte para referências de campo e expressões dinâmicas
+* Renomear um público no Adobe Experience Platform não atualiza automaticamente as referências `inAudience` nas expressões do jornada. São necessárias atualizações manuais
+* Políticas de mesclagem inconsistentes em vários públicos usados na mesma jornada podem causar erros ou alertas
+
+**Terminologia:**
+* Nome canônico: inAudience — Acrônimo: none — variantes: inSegment (nome herdado)
+* Sinônimos: &quot;inAudience&quot; = &quot;função de verificação de associação de público&quot;
+* Não confundir: &quot;Realizado&quot; (membro ativo) ≠ &quot;Saindo&quot; (não é mais um membro)
+* Não confunda: &quot;inAudience&quot; (função atual) ≠ &quot;inSegment&quot; (função herdada obsoleta)
+
+**Perguntas frequentes:**
+* **P: O que `inAudience` retorna quando um perfil sai do público-alvo?** — Retorna `false`; somente perfis com status &quot;Realizado&quot; são considerados membros ativos e retornam `true`.
+* **P: quantos públicos-alvo posso verificar em uma única jornada?** — É possível recuperar até 100 públicos-alvo em uma única jornada.
+* **P: O que acontece se eu renomear um público no Adobe Experience Platform depois de usá-lo em uma jornada?** — A expressão de jornada não é atualizada automaticamente; você deve editar manualmente a chamada `inAudience` para usar o novo nome de público-alvo, caso contrário, a condição será interrompida.
+* **P: Com que rapidez a associação de público-alvo fica disponível após uma atualização de perfil em uma jornada de Leitura de Público-alvo?** — Em uma jornada Read Audience antes de uma atividade Wait, os dados são lidos na projeção de lote atualizada dentro de 2 horas após a assimilação.
+* **P: Posso passar um atributo de perfil como o parâmetro de nome de público-alvo?** — Não, o nome do público-alvo deve ser uma constante de sequência; referências de campo e expressões não são compatíveis.
+
++++

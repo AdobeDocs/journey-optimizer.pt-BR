@@ -30,10 +30,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1054
-ht-degree: 17%
+source-wordcount: 1523
+ht-degree: 12%
 
 ---
 
@@ -259,3 +259,40 @@ Navegue pelas postagens do blog a seguir para obter mais orientações e prátic
 </div>
 </td>
 </tr></table>
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+- **TL;DR:** Esta página é uma biblioteca com curadoria de casos de uso de jornadas práticas — abrangendo eventos de experiência, consultas a conjuntos de dados, cenários comerciais, padrões técnicos, tutoriais em vídeo e postagens de blogs da comunidade — para ajudar os profissionais a aproveitar ao máximo o Adobe Journey Optimizer.
+
+**Intenções:**
+- Encontre exemplos práticos de casos de uso que abrangem cenários comerciais, como mensagens multicanais, campanhas de assinantes e delivery de email somente durante a semana
+- Localize padrões técnicos de casos de uso para ações personalizadas, limitação de taxa de transferência e remoção de perfis de uma jornada em tempo real
+- Acesse tutoriais em vídeo para padrões comuns de jornada, incluindo integração de clientes, abandono de carrinho e reengajamento
+- Consulte conjuntos de dados do Adobe Journey Optimizer (eventos de etapa, eventos de rastreamento, apresentações de oferta) para criar análises e relatórios personalizados
+- Use os padrões de pesquisa do Evento de experiência para gerenciar recusas, frequência e personalização em tempo real
+
+**Glossário:**
+- **Evento de experiência**: um registro com carimbo de data e hora de uma interação com o cliente (por exemplo, compra, clique, exibição de página) armazenado no Adobe Experience Platform e usado para acionar ou personalizar o jornada *(específico do produto)*
+- **Evento de etapa**: um registro de conjunto de dados gerado automaticamente que captura todas as etapas que um perfil realiza em uma jornada, usado para relatórios e depuração personalizados *(específico do produto)*
+- **Ação personalizada**: uma atividade de jornada que chama uma API externa para enviar ou receber dados de um sistema de terceiros *(específico do produto)*
+
+**Medidas de Proteção:**
+- Cada exemplo de caso de uso inclui recomendações que devem ser personalizadas para necessidades específicas; são pontos de partida, não configurações prescritivas
+- As consultas de conjunto de dados exigem acesso ao Serviço de consulta da Adobe Experience Platform
+- Os tutoriais em vídeo fazem referência a recursos de aprendizado externo no Experience League
+
+**Terminologia:**
+- Nome canônico: Casos de uso — Acrônimo: none — variantes: casos de uso de jornada, exemplos práticos, receitas
+- Sinônimos: &quot;caso de uso de negócios&quot; = &quot;caso de uso de marketing&quot;; &quot;caso de uso técnico&quot; = &quot;caso de uso de desenvolvedor&quot;
+
+**Perguntas frequentes:**
+- **P: Por onde começar se eu for novo nos critérios de entrada e saída do jornada?** — comece com o guia abrangente sobre os critérios de entrada e saída do jornada, que inclui casos de uso reais, práticas recomendadas e orientação passo a passo sobre configuração.
+- **P: Como consultar eventos de etapa de jornada para relatórios personalizados?** — Use o Serviço de consulta da Adobe Experience Platform para consultar o conjunto de dados de eventos da etapa do jornada; consultas de exemplo estão disponíveis na página de exemplos de consulta de conjuntos de dados vinculados.
+- **P: Onde posso encontrar um caso de uso para enviar emails somente em dias da semana?** — Consulte a página de caso de uso de email durante a semana, também disponível como uma publicação de blog da comunidade.
+- **P: Como posso remover perfis de uma jornada em tempo real?** — Use o recurso de critérios de saída do atributo de perfil em uma jornada pausada, conforme descrito no caso de uso técnico para remover perfis de uma jornada em tempo real.
+
++++

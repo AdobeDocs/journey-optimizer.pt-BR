@@ -11,10 +11,10 @@ keywords: jornada, caso de uso
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 324
-ht-degree: 7%
+source-wordcount: 711
+ht-degree: 3%
 
 ---
 
@@ -55,3 +55,45 @@ O objetivo deste caso de uso é criar uma jornada para incrementar suas entregas
 1. Conclua a jornada com as atividades de sua escolha.
 
 Após o aquecimento do IP, é possível remover essa condição.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página aborda um caso de uso de aquecimento de IP baseado em jornada que aumenta gradualmente o volume de entrega de email usando uma condição de limite de perfil para proteger a reputação do remetente.
+
+**Intenções:**
+
+* Crie uma jornada de aquecimento de IP para aumentar gradualmente o volume de envio de email
+* Configurar uma condição de limite de perfil para limitar o número de recipients por delivery
+* Adicionar uma atividade de ação Email ao caminho de jornada nominal
+* Remover a condição de limite de perfil após a conclusão do aquecimento de IP
+
+**Glossário:**
+
+* **Aquecimento de IP**: o processo de aumentar gradualmente o volume de envio de email de um novo endereço IP para estabelecer a reputação do remetente *(específico do produto)*
+* **Limite de perfis**: um tipo de condição no Journey Optimizer que limita o número máximo de perfis que podem assumir um caminho de jornada específico *(específico do produto)*
+* **Caminho nominal**: a ramificação primária de uma jornada que os perfis seguem quando as condições são atendidas *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* Uma condição de limite de perfil deve ser definida na atividade Condição para controlar o volume de delivery durante o aquecimento de IP.
+* Perfis que excedem o limite são roteados para o caminho alternativo.
+* A jornada deve ser recriada ou modificada após a conclusão do aquecimento de IP para remover a condição de limite.
+
+**Terminologia:**
+
+* Nome canônico: Aquecimento de IP — Acrônimo: n/a — variantes: Aquecimento de IP, Aquecimento de reputação do remetente
+* Sinônimos: &quot;Limite de perfil&quot; = &quot;condição de limite do recipient&quot;
+* Não confunda: &quot;Aquecimento de IP&quot; ≠ &quot;autenticação de email&quot; (a configuração do SPF/DKIM/DMARC é separada)
+
+**Perguntas frequentes:**
+
+* **P: Por que preciso aquecer meu IP?** — os novos endereços IP não têm histórico de envio, portanto, os provedores de caixa de correio podem bloquear ou excluir mensagens de pastas de spam até que a reputação seja estabelecida.
+* **P: O que acontece com os perfis que excedem o limite de perfis?** — Eles seguem o caminho alternativo definido na atividade Condition.
+* **P: Como faço para aumentar o limite ao longo do tempo?** — Edite o campo Limit nas configurações de atividade Condition e aumente gradualmente até a contagem total de assinantes.
+* **P: Quando posso remover a condição de limite de perfil?** — Assim que o IP tiver histórico de envio suficiente e as métricas de capacidade de delivery estiverem estáveis, você poderá remover a condição da jornada.
+
++++

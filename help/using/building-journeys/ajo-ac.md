@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 501
-ht-degree: 1%
+source-wordcount: 1025
+ht-degree: 0%
 
 ---
 
@@ -128,3 +128,44 @@ A instância do Campaign deve ser provisionada para essa integração. O recurso
    ![Concluir o fluxo de jornadas com o disparador de eventos e a execução da ação de Campanha](assets/accintegration-uc-11.png)
 
 1. Agora você pode publicar sua jornada.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página fornece um caso de uso passo a passo para enviar um email transacional do Adobe Journey Optimizer usando a integração com o Adobe Campaign v7/v8, abordando a criação de modelo de campanha, configuração de evento e ação e design de jornada.
+
+**Intenções:**
+* Configurar um template de email transacional no Adobe Campaign v7/v8 para uso com o Journey Optimizer
+* Crie um evento no Journey Optimizer que inclua campos personalizados, como um número de ordem de compra
+* Criar e configurar uma ação do Campaign Classic no Journey Optimizer com uma carga JSON
+* Mapear campos de evento de jornada para variáveis de personalização de Campanha na configuração da ação
+* Criar e publicar uma jornada que aciona um email transacional do Campaign
+
+**Glossário:**
+* **Mensagens transacionais**: um recurso do Campaign que envia emails acionados em tempo real com base em eventos; deve ser configurado antes que essa integração possa ser usada *(específico do produto)*
+* **Tipo de evento (eventType)**: um valor de enumeração definido no Campaign que identifica o tipo de evento transacional; seu nome interno é referenciado na carga JSON *(específico do produto)*
+* **Ação do Campaign Classic**: um tipo de ação do Journey Optimizer que se conecta ao Adobe Campaign v7/v8 para enviar mensagens transacionais *(específico do produto)*
+* **Campo de carga**: a estrutura JSON colada em uma ação do Journey Optimizer que define os campos de dados enviados para a Campanha *(específico do produto)*
+
+**Medidas de Proteção:**
+* A build 9125 ou superior do Campaign v7/v8 é necessária para essa integração
+* O recurso Mensagens transacionais deve ser configurado na instância do Campaign antes do uso
+* Depois de criar um novo tipo de evento no Campaign, você deve se desconectar e reconectar à instância para que ela entre em vigor
+* Os valores de campo do Personalization definidos como &quot;Constante&quot; na ação devem ser alterados para &quot;Variável&quot; para permitir a população dinâmica no tempo de execução
+
+**Terminologia:**
+* Nome canônico: Adobe Campaign v7/v8 — Acrônimo: ACC — variantes: Campaign Classic, Campaign v7, Campaign v8
+* Sinônimos: &quot;eventType&quot; = &quot;nome interno do tipo de evento&quot;
+* Não confunda: &quot;Campaign Classic action&quot; ≠ &quot;custom action&quot; (a ação do Campaign Classic é um tipo de ação incorporada específico para integração com o ACC)
+
+**Perguntas frequentes:**
+* **P: Qual versão do Campaign é necessária para essa integração?** — O Campaign v7/v8 build 9125 ou superior é necessário.
+* **P: O que deve ser configurado no Campaign antes de iniciar?** — O recurso de mensagens transacionais deve ser configurado e um template de email transacional deve ser criado com base no tipo de evento.
+* **P: Como faço para tornar os campos de personalização dinâmicos na ação do Journey Optimizer?** — Na configuração da carga de ação, altere a configuração do campo de &quot;Constante&quot; para &quot;Variável&quot; para campos que serão preenchidos no tempo de execução.
+* **P: De onde vêm os dados de personalização de nome neste caso de uso?** — O nome vem da fonte de dados do Adobe Experience Platform, enquanto o número do pedido vem da carga útil do evento do Journey Optimizer.
+* **P: Como conectar a ação do Journey Optimizer ao modelo de campanha?** — Selecione &quot;Adobe Campaign Classic&quot; como o Tipo de ação e cole a carga JSON que corresponde à estrutura do modelo de mensagem transacional.
+
++++

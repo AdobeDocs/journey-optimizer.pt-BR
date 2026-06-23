@@ -31,10 +31,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1700
-ht-degree: 4%
+source-wordcount: 2251
+ht-degree: 3%
 
 ---
 
@@ -241,3 +241,51 @@ Comece mapeando claramente os acionadores do cliente e os pontos de saída, test
 **Recursos relacionados**
 
 [Eventos de qualificação de público-alvo](audience-qualification-events.md) | [Métricas e metas de sucesso](success-metrics.md) | [Gerenciamento de conflitos](../conflict-prioritization/conflicts.md) | [Limite de frequência](../conflict-prioritization/rule-sets.md) | [Testando jornadas](testing-the-journey.md) | [Otimizar atividade](optimize.md) | [Eventos de reação](reaction-events.md) | [Atividade de espera](wait-activity.md)
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** este guia explica como definir, configurar e otimizar os critérios de entrada e saída da jornada no Adobe Journey Optimizer, com exemplos reais e práticas recomendadas para garantir que os perfis certos sejam atingidos no momento certo.
+
+**Intenções:**
+
+* Configurar critérios de entrada baseados em eventos, públicos-alvo ou atributos para uma jornada
+* Configure critérios de saída com base na conclusão da jornada, métricas de sucesso, tempos limite de inatividade ou desqualificação de público-alvo
+* Aplicar regras de reentrada para controlar se os perfis podem inserir uma jornada várias vezes
+* Evite sobrepor jornadas usando o gerenciamento de conflitos e as pontuações de prioridade
+* Monitore e otimize as taxas de entrada e saída usando os relatórios do jornada
+
+**Glossário:**
+
+* **Critérios de entrada**: as condições que determinam quando um perfil de cliente se qualifica para inserir uma jornada *(específico do produto)*
+* **Critério de saída**: as condições que definem quando e como um perfil sai ou é removido de uma jornada *(específico do produto)*
+* **Qualificação de público-alvo**: um mecanismo de entrada de jornada que é acionado quando um perfil entra ou sai de um público-alvo de streaming em tempo real *(específico do produto)*
+* **Reentrada**: a capacidade de um perfil entrar na mesma jornada mais de uma vez, configurável com um período de espera *(específico do produto)*
+* **Limite de frequência**: uma regra que limita o número de mensagens que um perfil pode receber em uma determinada janela de tempo *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* Um perfil não pode estar presente várias vezes na mesma jornada ao mesmo tempo.
+* A reentrada deve ser explicitamente ativada; o período de espera de reentrada padrão é de 5 minutos com um máximo de 91 dias.
+* Para o gerenciamento avançado de frequência de várias jornadas, use o limite de jornada e a arbitragem em vez dos critérios de saída individuais.
+* As sobreposições de jornada devem ser gerenciadas de forma proativa; use o gerenciamento de conflitos e as pontuações de prioridade para resolver jornadas concorrentes.
+
+**Terminologia:**
+
+* Nome canônico: Critérios de entrada — Acrônimo: n/a — variantes: condições de entrada, acionadores de jornada
+* Nome canônico: Critérios de saída — Acrônimo: n/a — variantes: condições de saída, regras de remoção de perfil
+* Sinônimos: &quot;desqualificação de público-alvo&quot; = &quot;saída de público-alvo&quot; como acionador de saída
+* Não confunda: &quot;Perto de novas entradas&quot; ≠ &quot;critérios de saída&quot; — o primeiro bloqueia novas entradas; os critérios de saída removem perfis em andamento
+
+**Perguntas frequentes:**
+
+* **P: Um perfil pode estar na mesma jornada duas vezes ao mesmo tempo?** — Não, um perfil não pode estar presente na mesma jornada ao mesmo tempo. A identidade do perfil é usada como uma chave para impor isso.
+* **P: Como evitar que um perfil entre novamente em uma jornada?** — Desative a reentrada no painel Propriedades da jornada ou adicione uma condição para verificar se o perfil já foi inserido.
+* **P: Qual é a diferença entre os critérios de saída e o fechamento de uma jornada?** — Os critérios de saída removem perfis individuais de uma jornada em tempo real com base nas condições; o fechamento de uma jornada interrompe todas as novas entradas e, ao mesmo tempo, permite que os perfis atuais sejam concluídos.
+* **P: Como faço para interromper a comunicação excessiva com clientes em várias jornadas?** — Use regras de limite de frequência e limite de jornada e arbitragem para aplicar limites de mensagem entre jornadas.
+* **P: O que é a desqualificação de público-alvo como um acionador de saída?** — Quando um perfil não atender mais aos critérios do segmento do público-alvo, ele será removido automaticamente da jornada para manter as comunicações relevantes.
+
++++

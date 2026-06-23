@@ -20,10 +20,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 592
-ht-degree: 2%
+source-wordcount: 1103
+ht-degree: 1%
 
 ---
 
@@ -79,3 +79,49 @@ Abaixo estão alguns exemplos de casos de uso:
 | | lastDataFetchErrorCode | Código de erro da última busca de dados | Código de erro da última busca de dados nas fontes de dados |
 | Hora | lastActionExecutionElapsedTime | Tempo decorrido da execução da última ação | Tempo gasto para executar a ação mais recente |
 | | lastDataFetchElapsedTime | Tempo decorrido da última busca de dados | Tempo gasto para executar a última busca de dados a partir de fontes de dados |
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página descreve a categoria Propriedades da Jornada no editor de expressão — um conjunto de campos técnicos sobre a instância de jornada ativa (IDs, erros, nós atuais/anteriores, tempos decorridos) que podem ser usados para criar expressões para registro, alerta e relatórios específicos de erros.
+
+**Intenções:**
+
+* Acesse os campos Propriedades da Jornada no editor de expressão simples ou avançado para fazer referência aos metadados de jornada em tempo real
+* Crie uma condição que filtre perfis descartados por tipo de erro para direcioná-los para um sistema de log de terceiros
+* Enviar alertas de erro a um canal externo (por exemplo, Slack) fazendo referência ao último código de erro e nome do nó em uma ação personalizada
+* Refinar o relatório de erros de jornada criando caminhos de condição separados por tipo de erro usando `lastNodeTypeInError` e `lastErrorCode`
+* Identificadores de versão de jornada de referência, identificadores de instância e nome da sandbox em expressões para rastreamento e auditoria
+
+**Glossário:**
+
+* **Propriedades da Jornada**: uma categoria no editor de expressão contendo campos de metadados técnicos para a instância de execução de jornada atual *(específico do produto)*
+* **instanceUID**: o identificador exclusivo da instância do jornada para uma determinada execução de perfil *(específico do produto)*
+* **lastErrorCode**: o código de erro da atividade com falha mais recente na jornada; os valores possíveis incluem códigos HTTP, `capped`, `timedOut` e `error` *(específico do produto)*
+* **lastNodeTypeInError**: o tipo da última atividade que encontrou um erro; pode ser Eventos, Controle de fluxo ou Ações *(específico do produto)*
+* **externalKey**: o identificador individual (por exemplo, ID de perfil) que acionou a instância do jornada *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* Os valores do campo Propriedades da jornada são recuperados diretamente da jornada ativa no tempo de execução — eles não estão disponíveis para validação de pré-execução
+* O campo `lastErrorCode` usa valores predefinidos: códigos de erro HTTP, `capped`, `timedOut` e `error`
+* As Propriedades da Jornada estão disponíveis nos editores de expressão simples e avançado, na categoria Propriedades da Jornada
+
+**Terminologia:**
+
+* Nome canônico: Propriedades de Jornada — Acrônimo: none — variantes: campos técnicos de jornada, campos de metadados de jornada
+* Sinônimos: &quot;Propriedades do Jornada&quot; = &quot;Campos técnicos do jornada&quot;; &quot;instanceUID&quot; = &quot;Identificador de instância do jornada&quot;
+* Não confunda: journeyUID (identifica a definição da jornada) ≠ instanceUID (identifica a execução da jornada por um perfil específico)
+
+**Perguntas frequentes:**
+
+* **P: Onde encontro os campos Propriedades da Jornada no editor de expressão?** — Eles aparecem nos editores de expressão simples e avançado na categoria Propriedades da Jornada, abaixo de Eventos e Fontes de dados.
+* **P: Como posso registrar perfis descartados por uma regra de limitação?** — Adicione uma filtragem de condição de caminho de erro em `lastErrorCode == "capped"` e envie esses perfis para um sistema de terceiros por meio de uma ação personalizada.
+* **P: Qual é a diferença entre `journeyUID` e `instanceUID`?** — `journeyUID` identifica a definição de jornada; `instanceUID` identifica uma instância de execução específica para um determinado perfil.
+* **P: Que código de erro foi retornado para um erro de sistema inesperado?** — O código `error`, que é usado como padrão para erros inesperados e raramente deve ocorrer.
+* **P: Posso usar os campos de Propriedades de Jornada para enviar alertas do Slack sobre falhas de ação?** — Sim; referencie `lastNodeNameInError` e `lastErrorCode` em uma ação personalizada para incluir detalhes do erro em uma notificação do Slack.
+
++++

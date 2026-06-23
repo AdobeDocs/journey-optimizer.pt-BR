@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1140
-ht-degree: 15%
+source-wordcount: 1668
+ht-degree: 10%
 
 ---
 
@@ -885,5 +885,54 @@ Retorna uma string.
 `uuid()`
 
 Retorna &quot;79e70b7f-8a85-400b-97a1-9f9826121553&quot;.
+
++++
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página documenta todas as funções de cadeia de caracteres disponíveis nas expressões de jornada do AJO, abrangendo pesquisa de texto, comparação, transformação, extração, validação, substituição, divisão e geração de identificador exclusivo.
+
+**Intenções:**
+* Concatenar duas ou mais cadeias de caracteres usando `concat`
+* Pesquisar uma subcadeia de caracteres em uma cadeia de caracteres (diferencia maiúsculas de minúsculas ou não diferencia maiúsculas de minúsculas) usando `contain` ou `containIgnoreCase`
+* Comparar duas cadeias de caracteres ao ignorar maiúsculas e minúsculas usando `equalIgnoreCase` ou `notEqualIgnoreCase`
+* Verifique se uma cadeia de caracteres começa ou termina com um prefixo ou sufixo específico usando `startWith`, `endWith` e suas variantes que não diferenciam maiúsculas de minúsculas
+* Extrair uma subcadeia de caracteres por posições de índice usando `substr`
+* Substituir a primeira ou todas as ocorrências de um padrão em uma cadeia de caracteres usando `replace` ou `replaceAll`
+* Dividir uma cadeia de caracteres em uma lista de tokens por um separador usando `split`
+* Gerar uma UUID aleatória para as necessidades de identificador exclusivo usando `uuid`
+* Verifique se a cadeia de caracteres está vazia ou não usando `isEmpty` ou `isNotEmpty`
+
+**Glossário:**
+* **RegExp**: um padrão de expressão regular usado como parâmetro de destino em `replace`, `replaceAll` e `matchRegExp` — caracteres especiais devem ter escape com `\\`
+* **UUID**: Identificador Exclusivo Universal — um identificador de cadeia de caracteres gerado aleatoriamente e retornado por `uuid()`
+* **substr**: extrai uma parte de uma cadeia de caracteres especificando um índice inicial e um índice final opcional (baseado em zero)
+
+**Medidas de Proteção:**
+* O parâmetro `target` em `replace` e `replaceAll` é tratado como um RegExp; caracteres especiais (por exemplo, `|`, `.`) devem ser evitados com `\\`
+* `replace` substitui somente a primeira ocorrência correspondente; use `replaceAll` para substituir cada ocorrência
+* `isEmpty` retorna falso para valores nulos (não verdadeiro); nulo não é considerado uma cadeia de caracteres vazia
+* `indexOf` e `lastIndexOf` retornam -1 quando nenhuma correspondência for encontrada
+* As posições do índice de string são baseadas em zero (o primeiro caractere está na posição 0)
+
+**Terminologia:**
+* Nome canônico: Funções de string — Acrônimo: none — variantes: funções de texto, funções de manipulação de string
+* Sinônimos: &quot;contain&quot; = &quot;substring check&quot;; &quot;split&quot; = &quot;tokenize string&quot;; &quot;trim&quot; = &quot;strip whitespace&quot;
+* Não confunda: &quot;replace&quot; (apenas a primeira ocorrência) ≠ &quot;replaceAll&quot; (todas as ocorrências)
+* Não confundir: &quot;indexOf&quot; (primeira posição de ocorrência) ≠ &quot;lastIndexOf&quot; (última posição de ocorrência)
+* Não confunda: &quot;isEmpty&quot; (true somente para cadeia de caracteres de comprimento zero) ≠ verificação nula (isEmpty retorna false para nulo)
+* Não confunda: &quot;equalIgnoreCase&quot; (retorna true quando ignora maiúsculas e minúsculas de igual ignorância) ≠ &quot;notEqualIgnoreCase&quot; (retorna true quando ignora maiúsculas e minúsculas de diferente ignorância)
+
+**Perguntas frequentes:**
+* **P: Como verificar se uma cadeia de caracteres contém uma subsequência, independentemente de caracteres maiúsculos ou minúsculos?** — Use `containIgnoreCase("myString", "searchTerm")`, que retornará true se o termo de pesquisa for encontrado em qualquer caso.
+* **P: Qual é a diferença entre `replace` e `replaceAll`?** — `replace` substitui somente a primeira ocorrência correspondente; `replaceAll` substitui cada ocorrência na cadeia de caracteres.
+* **P: Por que preciso usar o caractere `|` como escape em `replace`?** — O parâmetro de destino é tratado como uma expressão regular; `|` é um caractere RegExp especial e deve ter escape como `\\|` para ser tratado como um pipe literal.
+* **P: `isEmpty` retorna verdadeiro para nulo?** — Não, `isEmpty` retorna falso para nulo; ele só retorna verdadeiro para uma cadeia de caracteres de comprimento zero `""`.
+* **P: Como extrair o número da versão principal de uma cadeia de caracteres de versão como &quot;20.45.2.3434&quot;?** — Use `getListItem(split(@event{event.appVersion}, "\\."), 0)` para dividir por ponto e recuperar o primeiro elemento.
+* **P: Como faço para gerar um identificador exclusivo em uma expressão de jornada?** — Use `uuid()`, que retorna uma cadeia de caracteres UUID gerada aleatoriamente sem parâmetros necessários.
 
 +++
