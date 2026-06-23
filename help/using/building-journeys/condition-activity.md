@@ -26,7 +26,7 @@ level_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2580
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -67,14 +67,14 @@ Você também pode basear uma condição em associação de público-alvo. Consu
 
 >[!NOTE]
 >
->A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
+>A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}.
 
 ## Adicionar e gerenciar caminhos de condição {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
 >title="Sobre o editor de expressão simples"
->abstract="O modo editor de expressão simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Os campos são arrastados e soltos na zona principal. Para combinar os diferentes elementos, eles são interbloqueados um no outro para criar grupos e/ou níveis de grupo diferentes. Um operador lógico combina elementos no mesmo nível."
+>abstract="O modo editor de expressão simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. É possível arrastar e soltar os campos na zona principal. Para combinar os elementos diferentes, eles são interligados uns aos outros para criar grupos e/ou níveis de grupo diferentes. Um operador lógico combina elementos no mesmo nível."
 
 Ao usar várias condições em uma jornada, você pode definir rótulos para cada uma delas para identificá-las mais facilmente.
 

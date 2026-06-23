@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
 source-wordcount: 1029
-ht-degree: 8%
+ht-degree: 18%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_code_based"
 >title="Ação de experiência baseada em código"
->abstract="Uma ação de entrada de experiência baseada em código fornece uma experiência baseada em código aos perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela de jornada e a ação faz referência a uma configuração baseada em código que define o conteúdo mostrado. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento. Um nó **Wait** é inserido automaticamente após esta atividade (3 dias por padrão), dando aos perfis tempo para exibir a experiência."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
+>abstract="Uma ação de entrada de experiência baseada em código fornece esse tipo de experiência aos perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela da jornada e a ação faz referência a uma configuração baseada em código que define o conteúdo mostrado. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento. Um nó **Espera** é inserido automaticamente após esta atividade (3 dias por padrão), dando tempo aos perfis para exibir a experiência."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução a ações de canal"
 
 No [!DNL Journey Optimizer], você pode criar experiências baseadas em código em uma jornada ou campanha.
 

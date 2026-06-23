@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 4780
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -54,7 +54,7 @@ Use a atividade Ler público-alvo para iniciar jornadas com públicos-alvo defin
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Atividade Ler público-alvo"
->abstract="Adiciona todos os perfis qualificados de um público-alvo [!DNL Adobe Experience Platform] selecionado a esta jornada. É executado uma vez ou de acordo com um agendamento."
+>abstract="Adicione todos os perfis qualificados de um público-alvo [!DNL Adobe Experience Platform] selecionado a esta jornada. Executa uma vez ou de acordo com uma programação."
 
 A atividade **Ler Público** é a atividade de ponto de entrada de jornada que adiciona todos os perfis de um público-alvo [!DNL Adobe Experience Platform] selecionado a uma jornada. Você pode executar a entrada uma vez ou de acordo com uma programação recorrente. Nas APIs e referências técnicas, essa atividade também é chamada de acionador de segmento ou entrada de jornada baseada no público-alvo.
 
@@ -100,12 +100,12 @@ Você definirá: **Público** (obrigatório), **Namespace** (obrigatório), **Ta
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Público-alvo"
->abstract="O público-alvo [!DNL Adobe Experience Platform] cujos perfis entram nesta jornada. Todos os perfis qualificados são lidos em. Os públicos-alvo em lote são recomendados para contagens confiáveis e consistentes, e somente um público-alvo pode ser lido por atividade."
+>abstract="O público-alvo [!DNL Adobe Experience Platform] cujos perfis devem entrar nesta jornada. Todos os perfis qualificados são lidos. Os públicos-alvo em lote são recomendados para contagens confiáveis e consistentes, e somente um público-alvo pode ser lido por atividade."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="Namespace"
->abstract="A identidade (por exemplo, email, ECID) usada para identificar indivíduos que entram na jornada. Somente namespaces com base em pessoas estão disponíveis, e perfis sem essa identidade não podem entrar. Por padrão, o campo é pré-preenchido com o último namespace usado."
+>abstract="A identidade (por exemplo, email, ECID) usada para identificar as pessoas que entram na jornada. Somente namespaces com base em pessoas estão disponíveis. Os perfis que não têm essa identidade não podem entrar. Por padrão, o campo é pré-preenchido com o último namespace usado."
 
 1. Expanda a categoria **[!UICONTROL Orquestração]** e solte uma atividade **[!UICONTROL Ler público]** na tela.
 
@@ -183,17 +183,17 @@ Esse valor é armazenado na carga da versão do jornada. O valor padrão é de 5
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="Data/hora inicial"
->abstract="A data e a hora em que a jornada começa a ler o público-alvo e em que os perfis começam a entrar. Combine-o com as opções de recorrência abaixo para agendar execuções recorrentes."
+>abstract="A data e a hora em que a jornada começa a ler o público-alvo e em que os perfis começam a entrar. Combine-a com as opções de recorrência abaixo para programar execuções recorrentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Repetir até"
->abstract="A data em que as execuções recorrentes param. Após essa data, a jornada não lê mais o público ou admite novos perfis."
+>abstract="A data em que as execuções recorrentes param. Após essa data, a jornada não lê mais o público-alvo ou admite novos perfis."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Repetir a cada"
->abstract="Com que frequência a jornada releva o público-alvo e é executada novamente, por exemplo, diariamente ou semanalmente. Determina o intervalo de recorrência entre execuções até que a data Repetir até seja alcançada."
+>abstract="A frequência com que a jornada relê o público-alvo e é executada novamente. Por exemplo, diariamente ou semanalmente. Determina o intervalo de recorrência entre execuções até que a data Repetir até seja atingida."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -203,12 +203,12 @@ Esse valor é armazenado na carga da versão do jornada. O valor padrão é de 5
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Forçar reentrada"
->abstract="Apaga todos os participantes da jornada antes que cada novo público seja lido, para que cada execução comece de novo e os perfis possam ser inseridos novamente em cada ocorrência."
+>abstract="Apaga todos os participantes da jornada antes da leitura de cada novo público-alvo. Dessa forma, cada execução começa de novo e os perfis podem ser reinseridos em cada ocorrência."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Acionar após a avaliação do público-alvo em lote"
->abstract="Atrasa cada execução até que o público-alvo do lote tenha sido avaliado recentemente, para que a jornada leia o instantâneo do público-alvo mais atualizado em vez dos dados obsoletos. Recomendado para jornadas recorrentes que dependem dos resultados de segmentação mais recentes."
+>abstract="Atrasa cada execução até que o público-alvo em lote seja avaliado novamente, para que a jornada leia o instantâneo do público-alvo mais atualizado em vez dos dados desatualizados. Recomendado para jornadas recorrentes que dependem dos resultados da segmentação mais recentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -381,7 +381,7 @@ Se o problema persistir após essas verificações, consulte [Tempo e propagaç�
 
 ### Tempo e propagação de dados {#timing-and-data-propagation}
 
-* **Conclusão do trabalho de segmentação em lotes**: para públicos em lotes, verifique se o trabalho diário de segmentação em lotes foi concluído e se os instantâneos são atualizados antes da execução da jornada. Os públicos-alvo em lote ficam prontos para uso aproximadamente **2 horas** após a conclusão do trabalho de segmentação. Saiba mais sobre [métodos de avaliação de público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR#evaluate-segments){target="_blank"}.
+* **Conclusão do trabalho de segmentação em lotes**: para públicos em lotes, verifique se o trabalho diário de segmentação em lotes foi concluído e se os instantâneos são atualizados antes da execução da jornada. Os públicos-alvo em lote ficam prontos para uso aproximadamente **2 horas** após a conclusão do trabalho de segmentação. Saiba mais sobre [métodos de avaliação de público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}.
 
 * **Tempo de assimilação de dados**: verifique se a assimilação de dados do perfil foi totalmente concluída antes da execução da jornada. Se os perfis tiverem sido assimilados pouco antes do início da jornada, talvez eles não sejam refletidos no público-alvo ainda. Saiba mais sobre a [assimilação de dados em [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
 

@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1327
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="O que é um caminho substituto?"
->abstract="Os caminhos substitutos permitem que o público-alvo entre em um caminho alternativo quando nenhuma regra de direcionamento for qualificada. </br>Se esta opção não estiver selecionada, qualquer público-alvo que não se qualifique para uma regra de direcionamento não entrará no caminho de fallback e sairá da jornada."
+>abstract="Os caminhos substitutos permitem que o público-alvo entre em um caminho alternativo quando nenhuma regra de direcionamento for qualificada. </br>Se esta opção não estiver selecionada, qualquer público-alvo que não se qualifique para uma regra de direcionamento não entrará no caminho substituto e sairá da jornada."
 
 As regras de direcionamento permitem determinar regras ou qualificações específicas que devem ser atendidas para que um cliente possa se qualificar para inserir um dos caminhos de jornada, com base em segmentos específicos de público-alvo<!-- depending on profile attributes or contextual attributes-->.
 

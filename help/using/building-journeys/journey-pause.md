@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 3545
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
 >title="Pausar sua jornada"
->abstract="Pausar uma jornada em tempo real impede que novos perfis entrem. Os perfis que estão atualmente na jornada podem ser descartados ou mantidos no lugar. Se retidos, eles retomarão a execução na próxima atividade de ação depois que a jornada for reiniciada. Perfeito para atualizações ou interrupções de emergência sem perder o progresso."
+>abstract="Pausar uma jornada em tempo real impede a entrada de novos perfis. Os perfis que estão atualmente na jornada podem ser descartados ou mantidos. Se retidos, eles retomarão a execução na próxima atividade de ação depois que a jornada for reiniciada. Perfeito para atualizações ou interrupções de emergência sem perder o progresso."
 
 Você pode pausar suas jornadas ativas, executar todas as alterações necessárias e retomá-las a qualquer momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante a pausa, você pode [aplicar os critérios de saída do atributo de perfil](#journey-exit-criteria) para excluir perfis com base em seus atributos. A jornada é retomada automaticamente no final do período de pausa. Você também pode [retomá-la manualmente](#journey-resume-steps) ou [parar a jornada](#stop-close-paused) do estado **Pausado** sem retomá-la primeiro.
 

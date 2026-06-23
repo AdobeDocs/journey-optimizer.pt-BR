@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
 source-wordcount: 2435
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_in_app"
 >title="Ação de mensagem no aplicativo"
->abstract="Uma ação de entrada de mensagens no aplicativo exibe uma mensagem no aplicativo para os perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela de jornada e a ação faz referência a uma configuração no aplicativo que define o conteúdo mostrado. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento. Um nó **Wait** é inserido automaticamente após esta atividade (3 dias por padrão), dando aos perfis tempo para exibir a mensagem no aplicativo."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
+>abstract="Uma ação de entrada de mensagens no aplicativo exibe uma mensagem no aplicativo para os perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela da jornada e a ação faz referência a uma configuração no aplicativo que define o conteúdo mostrado. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento. Um nó **Espera** é inserido automaticamente após esta atividade (3 dias por padrão), dando tempo aos perfis para exibir a mensagem no aplicativo."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução a ações de canal"
 
 Você pode adicionar uma mensagem no aplicativo em uma campanha ou em uma jornada. Siga as etapas detalhadas abaixo para criar uma mensagem no aplicativo em ambos os contextos.
 

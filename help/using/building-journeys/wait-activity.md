@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1589
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Atividade aguardar"
->abstract="A atividade Wait permite aguardar antes de executar a próxima atividade no caminho. Ela permite definir o momento em que a próxima atividade será executada. Duas opções estão disponíveis: duração e personalizado."
+>abstract="A atividade Espera permite aguardar antes de executar a próxima atividade no caminho. Ela permite definir o momento em que a próxima atividade será executada. Duas opções estão disponíveis: duração e personalizado."
 
 Você pode usar uma atividade **[!UICONTROL Wait]** para definir uma duração antes de executar a próxima atividade.  A duração máxima de espera é de **90 dias**.
 
@@ -140,7 +140,7 @@ Exemplo: se um perfil se qualificar para um público-alvo de &quot;cliente Silve
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node"
 >title="Sobre o nó de espera automático"
->abstract="Um nó **Wait** é inserido automaticamente após esta ação de entrada. É definido como 3 dias por padrão, garantindo que os perfis permaneçam na jornada por tempo suficiente para exibir a mensagem ou a experiência. A duração da espera pode ser atualizada ou o nó removido, se o caso de uso exigir."
+>abstract="Um nó **Espera** é inserido automaticamente após esta ação de entrada. Ele é definido como 3 dias por padrão, garantindo que os perfis permaneçam na jornada por tempo suficiente para exibir a mensagem ou a experiência. A duração da espera pode ser atualizada ou o nó removido, se o caso de uso exigir."
 
 Cada atividade de experiência de entrada (mensagem no aplicativo, experiência baseada em código ou Cartão) vem com uma atividade de **Aguardar** de 3 dias. Como as mensagens de entrada terminam automaticamente quando um perfil atinge o final da jornada, pressupomos que você deseje que seus usuários a vejam pelo menos por 3 dias. Você pode remover esta atividade **Aguardar** ou alterar sua configuração, se necessário.
 

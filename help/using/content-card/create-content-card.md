@@ -14,7 +14,7 @@ subfeature_v2:
 source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
 source-wordcount: 1785
-ht-degree: 10%
+ht-degree: 16%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_content_card"
 >title="Ação do cartão de conteúdo"
->abstract="Uma ação de entrada de cartão de conteúdo exibe um cartão de conteúdo para perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela de jornada e a ação faz referência a uma configuração de cartão de conteúdo que define o conteúdo mostrado. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento. Um nó **Wait** é inserido automaticamente após esta atividade (3 dias por padrão), dando aos perfis tempo para exibir o cartão de conteúdo."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
+>abstract="Uma ação de entrada de cartão de conteúdo exibe um cartão para perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela da jornada e a ação faz referência a uma configuração de cartão de conteúdo que define o conteúdo mostrado. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento. Um nó **Espera** é inserido automaticamente após esta atividade (3 dias por padrão), dando tempo aos perfis para exibir o cartão de conteúdo."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução a ações de canal"
 
 
 Os cartões de conteúdo são experiências de entrada no aplicativo que exibem conteúdo personalizado (como promoções, anúncios ou recomendações) diretamente em uma superfície dedicada do aplicativo móvel. Diferentemente das mensagens interruptivas, elas permanecem disponíveis no aplicativo até que o usuário as ignore ou até que suas regras de entrega as ocultem.

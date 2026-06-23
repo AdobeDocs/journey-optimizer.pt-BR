@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
 source-wordcount: 1094
-ht-degree: 16%
+ht-degree: 25%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_push"
 >title="Ação de notificação por push"
->abstract="Uma ação de canal de notificação por push envia uma notificação por push aos perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela de jornada e a ação faz referência a uma configuração de push que define o conteúdo entregue. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento, a seção **Multilíngue** pode fornecer conteúdo em vários idiomas e a seção **Tempo limite ou erro** pode definir um caminho alternativo se a ação falhar."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
+>abstract="Uma ação de canal de notificação por push envia uma notificação por push aos perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela da jornada e a ação faz referência a uma configuração de notificação por push que define o conteúdo fornecido. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento. A seção **Multilíngue** pode fornecer conteúdo em vários idiomas. A seção **Tempo-limite ou erro** pode definir um caminho alternativo se a ação falha."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução a ações de canal"
 
 
 >[!CONTEXTUALHELP]

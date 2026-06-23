@@ -14,7 +14,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
 source-wordcount: '2203'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -109,7 +109,7 @@ Na guia **[!UICONTROL Configurações]**, configure as propriedades no nível do
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="Público-alvo"
->abstract="Escolha quem pode participar do desafio. Adicione um público-alvo do Adobe Experience Platform ou deixe o público-alvo vazio para que todos os membros do programa de fidelidade sejam qualificados. Como opção, exigir a conclusão de outros desafios como pré-requisitos."
+>abstract="Escolha quem pode participar do desafio. Adicione um público-alvo do Adobe Experience Platform ou deixe o público-alvo em branco para que todos os membros do programa de fidelidade sejam qualificados. Como opção, exija a conclusão de outros desafios como pré-requisitos."
 
 Defina quem pode participar do seu desafio de fidelidade.
 
@@ -119,12 +119,12 @@ Defina quem pode participar do seu desafio de fidelidade.
 
 1. Em **[!UICONTROL Pré-requisitos de desafio]**, selecione **[!UICONTROL Exigir conclusão de desafio]** para restringir a qualificação a membros que já tenham concluído um ou mais desafios selecionados.
 
-### Agendar {#schedule}
+### Programação {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
->title="Cronograma de desafio"
->abstract="Definido quando o desafio está ativo usando data e hora de início e término e um fuso horário. Na janela de conclusão da tarefa, escolha quando os clientes podem concluir tarefas durante o período de desafio."
+>title="Programação de desafio"
+>abstract="Defina quando o desafio está ativo usando data e hora de início e término e um fuso horário. Na janela de conclusão da tarefa, escolha quando os clientes podem concluir tarefas durante o período de desafio."
 
 Configure quando seu desafio é executado:
 

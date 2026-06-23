@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 3075
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
->title="Teste a jornada"
+>title="Testar a jornada"
 >abstract="Perfis de teste permitem testar a jornada antes de publicá-la. Isso permite analisar como as pessoas fluem na jornada e solucionam problemas antes da publicação."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Teste de simulação de jornada"
 
@@ -154,7 +154,7 @@ Para validar a jornada de ponta a ponta:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="Configurar o modo de teste"
->abstract="Se uma jornada contiver vários eventos, a lista suspensa será usada para selecionar um evento. Para cada evento, os campos transmitidos e a execução do envio do evento são configurados."
+>abstract="Se uma jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Para cada evento, são configurados os campos transmitidos e a execução do envio do evento."
 
 Use o botão **[!UICONTROL Acionar um evento]** para configurar um evento que fará com que uma pessoa entre na jornada.
 

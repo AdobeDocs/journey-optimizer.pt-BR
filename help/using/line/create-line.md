@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
 source-wordcount: 782
-ht-degree: 4%
+ht-degree: 17%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 4%
 
 >[!ENDSHADEBOX]
 
-## Adicionar uma mensagem LINE {#create-line-journey-campaign}
+## Adicionar uma mensagem do LINE {#create-line-journey-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_line"
->title="Ação LINE"
->abstract="Uma ação de canal LINE envia uma mensagem LINE aos perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela de jornada e a ação faz referência a uma configuração LINE que define o conteúdo entregue. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento, a seção **Multilíngue** pode fornecer conteúdo em vários idiomas e a seção **Tempo limite ou erro** pode definir um caminho alternativo se a ação falhar."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
+>title="Ação do LINE"
+>abstract="Uma ação de canal do LINE envia uma mensagem do LINE aos perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela da jornada e a ação faz referência a uma configuração do LINE que define o conteúdo fornecido. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento. A seção **Multilíngue** pode fornecer conteúdo em vários idiomas. A seção **Tempo-limite ou erro** pode definir um caminho alternativo se a ação falha."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução a ações de canal"
 
 Navegue pelas guias abaixo para saber como adicionar uma mensagem LINE em uma campanha ou jornada.
 

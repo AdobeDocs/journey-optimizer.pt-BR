@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
 source-wordcount: 1162
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -77,8 +77,8 @@ Observe que os botões interativos **Copiar código** não são compatíveis.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_whatsapp"
 >title="Ação do WhatsApp"
->abstract="Uma ação de canal do WhatsApp envia uma mensagem do WhatsApp para os perfis quando eles atingem esta etapa da jornada. O rótulo identifica a atividade na tela de jornada, e a ação faz referência a uma configuração do WhatsApp que define o conteúdo entregue. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento, a seção **Multilíngue** pode fornecer conteúdo em vários idiomas e a seção **Tempo limite ou erro** pode definir um caminho alternativo se a ação falhar."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
+>abstract="Uma ação de canal do WhatsApp envia uma mensagem de WhatsApp aos perfis quando eles atingem essa etapa da jornada. O rótulo identifica a atividade na tela da jornada e a ação faz referência a uma configuração de WhatsApp que define o conteúdo fornecido. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento. A seção **Multilíngue** pode fornecer conteúdo em vários idiomas. A seção **Tempo-limite ou erro** pode definir um caminho alternativo se a ação falha."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução a ações de canal"
 
 Navegue pelas guias abaixo para saber como adicionar uma mensagem do WhatsApp em uma campanha ou jornada.
 

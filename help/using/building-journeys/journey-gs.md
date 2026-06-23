@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 2143
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -48,12 +48,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="Criar jornadas"
->abstract="**[!DNL Adobe Journey Optimizer]** cria casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados."
+>abstract="**[!DNL Adobe Journey Optimizer]** cria casos de uso de orquestração em tempo real usando os dados contextuais armazenados em eventos ou fontes de dados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Jornadas"
->abstract="As jornadas do cliente fornecem experiências personalizadas e contextuais. O Journey Optimizer permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. A guia **Visão geral** exibe um painel com as métricas principais relacionadas às suas jornadas. A guia **Procurar** exibe a lista de jornadas existentes."
+>abstract="As jornadas do cliente oferecem experiências personalizadas e contextuais. O Journey Optimizer permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. A guia **Visão geral** exibe um painel com as métricas principais relacionadas às suas jornadas. A guia **Procurar** exibe a lista de jornadas existentes."
 
 [!DNL Adobe Journey Optimizer] inclui uma tela de orquestração omnicanal que permite aos profissionais de marketing harmonizar o alcance de marketing com o envolvimento individual do cliente. A interface de usuário do permite arrastar e soltar facilmente as atividades da paleta na tela para criar sua jornada. A interface do usuário do jornada está detalhada em [esta página](journey-ui.md).
 

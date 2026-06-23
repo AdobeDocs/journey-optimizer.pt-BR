@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
 source-wordcount: 2428
-ht-degree: 9%
+ht-degree: 16%
 
 ---
 
@@ -77,26 +77,26 @@ As atividades de canal nativas herdadas também são preservadas nestes casos:
 * **Criar uma nova versão do jornada** — A nova versão continua a usar atividades herdadas. É possível editá-lo e publicá-lo como está; nenhuma migração é necessária.
 * **Copiar e colar atividades herdadas em uma jornada** — as atividades coladas permanecem como atividades herdadas. É possível editá-los e publicá-los como estão; nenhuma migração é necessária.
 
-## Adicionar uma ação de canal interna a uma jornada  {#add-action}
+## Adicionar uma ação de canal integrado a uma jornada  {#add-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_auto_wait"
 >title="Nó de espera automático"
->abstract="Para ações de canal de entrada (mensagem no aplicativo, Web, cartão de Conteúdo e experiência baseada em Código), um nó **Wait** é inserido automaticamente após a ação (3 dias por padrão). Isso dá aos perfis tempo para visualizar a experiência de entrada antes que a jornada continue para a próxima etapa."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
+>abstract="Para ações de canal de entrada (Mensagem no aplicativo, Web, Cartão de conteúdo e Experiência baseada em código), um nó **Espera** é inserido automaticamente após a ação (3 dias por padrão). Isso dá tempo aos perfis para visualizar a experiência de entrada antes que a jornada continue para a próxima etapa."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução a ações de canal"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="Otimização"
->abstract="A seção **Otimização** adiciona experimentos de conteúdo, regras de direcionamento ou ambos a uma ação de canal. Ele permite testar variantes e fornecer o conteúdo mais eficiente para cada membro do público-alvo."
+>abstract="A seção **Otimização** adiciona experimentos de conteúdo, regras de direcionamento ou ambos a uma ação de canal. Ela permite testar variantes e fornecer o conteúdo mais eficiente para cada membro do público-alvo."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Usar a atividade Otimizar"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="Multilíngue"
->abstract="A seção **Multilíngue** fornece o conteúdo da ação de canal em vários idiomas em uma única jornada. Uma configuração de configurações de idioma define as localidades compatíveis e o idioma padrão para esta ação."
+>abstract="A seção **Multilíngue** fornece o conteúdo da ação de canal em vários idiomas em uma única jornada. Uma configuração de idioma define as localidades compatíveis e o idioma padrão para esta ação."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Introdução ao conteúdo multilíngue"
 
 

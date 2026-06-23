@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2501
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Qualificação de público-alvo"
->abstract="Aciona a entrada ou a continuação da jornada quando um perfil é qualificado para ou sai de um público-alvo de [!DNL Adobe Experience Platform]. Recomendado para públicos-alvo de transmissão; uma atividade Read Audience é usada para cenários em lote."
+>abstract="Aciona a entrada ou a continuação da jornada quando um perfil se qualifica para um público-alvo de [!DNL Adobe Experience Platform] ou sai dele. Recomendado para públicos-alvo de transmissão. É possível usar a atividade Ler público-alvo para cenários em lote."
 
 ## Sobre eventos de qualificação de público-alvo{#about-segment-qualification}
 
@@ -70,17 +70,17 @@ Para configurar a atividade **[!UICONTROL Qualificação de público-alvo]**, si
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="Rótulo"
->abstract="Um rótulo opcional para identificar essa atividade nos relatórios e logs do modo de teste."
+>abstract="Um rótulo opcional para identificar esta atividade em relatórios e logs do modo de teste."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="Público-alvo"
->abstract="O público-alvo [!DNL Adobe Experience Platform] que o jornada monitora. Os perfis entram ou avançam à medida que se qualificam para ou saem deste público-alvo. Os públicos-alvo de transmissão são recomendados para que a qualificação seja avaliada em tempo real."
+>abstract="O público-alvo [!DNL Adobe Experience Platform] que a jornada monitora. Os perfis entram ou avançam à medida que se qualificam para o público-alvo ou saem dele. Os públicos-alvo de transmissão são recomendados para avaliar a qualificação em tempo real."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="Comportamento"
->abstract="Define a qual associação de público a jornada reage: quando os perfis se qualificam para (inserir) o público, quando saem (sair) dele ou ambos. A escuta de ambos abrange o ciclo de vida completo da associação, enquanto uma única opção restringe a jornada a uma direção."
+>abstract="Define a quais alterações de assinatura do público-alvo a jornada reage: quando os perfis se qualificam para o público-alvo (entrada), quando deixam o público-alvo (saída) ou ambos. Escutar ambos abrange todo o ciclo de vida da assinatura, enquanto uma única opção restringe a jornada a uma direção."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"

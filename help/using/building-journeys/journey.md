@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 2277
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="Criar uma jornada"
->abstract="A tela de arrastar e soltar orquestra mensagens e ações em vários canais, aproveitando dados contextuais e direcionamento de público-alvo para causar o máximo impacto."
+>abstract="A tela de arrastar e soltar orquestra mensagens e ações em vários canais, aproveitando dados contextuais e direcionamento de público-alvo para maximizar o impacto."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Criar a primeira jornada"
 
 
