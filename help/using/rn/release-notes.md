@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2d3430eaa8c15ade3fddcc4883a29efdb059bfa9
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 41b396446a5f5f85f6a4c1b8c6a3f02afb47f03c
 workflow-type: tm+mt
-source-wordcount: 3733
-ht-degree: 25%
+source-wordcount: 3596
+ht-degree: 26%
 
 ---
 
@@ -221,7 +209,7 @@ Os recursos e melhorias a seguir foram adicionados ao Decisioning nesta versão.
 
 * **Atributos de item dinâmico** - Os atributos personalizados de item de decisão agora podem ser personalizados no momento da entrega usando dados de perfil, contextuais e de público-alvo. Isso elimina a necessidade de manter ofertas duplicadas para variações de conteúdo secundárias, permitindo que os profissionais de marketing gerenciem um número menor de itens de decisão e mais flexíveis.
 
-  Data de disponibilidade: 22 de junho de 2026
+  Data de disponibilidade: final de junho de 2026
 
 +++
 
@@ -268,7 +256,7 @@ Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúd
 <li><strong>Variantes de conteúdo geradas por IA</strong> — Na experiência <strong>Simular variações de conteúdo</strong>, clique em <strong>Gerar</strong> para usar a IA para criar variantes de conteúdo automaticamente. O sistema analisa a mensagem, detecta campos de personalização e ramificações condicionais e preenche valores realistas para que você possa validar a renderização sem criar cada variante manualmente.</li>
 </ul>
 <p>Para obter mais informações, consulte a <a href="../test-approve/simulate-sample-input.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: 9 de junho de 2026</p>
+<p>Data de disponibilidade: final de junho de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -420,7 +408,7 @@ As seguintes melhorias foram adicionadas ao canal de email nesta versão.
 <td>
 <p>O Designer de email agora inclui uma biblioteca de módulos de layout prontos para uso — como cabeçalhos, cartões de produto, blocos de informações e rodapés — que você pode arrastar e soltar diretamente na tela do email.</p>
 <p>Cada módulo vem pré-configurado com propriedades editáveis (imagem, título, texto, botão, links) e pode ser totalmente personalizado por meio da interface do WYSIWYG, acelerando a criação de emails sem exigir a criação de estruturas do zero.</p>
-<p>Data de disponibilidade: 22 de junho de 2026</p>
+<p>Data de disponibilidade: final de junho de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -494,21 +482,6 @@ Os seguintes recursos e melhorias estão chegando ao gerenciamento de conteúdo 
 </tr>
 </tbody>
 </table>
-
-+++
-
-### Relatório {#june-26-reporting}
-
-+++ Em breve — **As informações abaixo estão sujeitas a alterações**
-
-* **Cliques estimados para relatórios de email e SMS** — Uma nova métrica **Cliques estimados** agora está disponível em Jornadas, Campanhas e Relatórios de canal para email e SMS. Essa métrica exclui o tráfego identificado de bot e de interação não humana (NHI) para fornecer uma visão mais clara do envolvimento genuíno do cliente. A métrica Clicks existente permanece disponível e continua a relatar o total de cliques.
-
-* **Novas métricas de clique estimadas para relatórios de email e SMS** - Para fornecer uma visão mais precisa do engajamento real do cliente, novas métricas estimadas agora estão disponíveis nos relatórios de Jornadas, Campanhas e Canais. Essas métricas ajudam a filtrar interações não humanas (NHI) e cliques de bot a partir de dados de relatórios:
-
-   * Estimated CTR: Cliques estimados em relação ao total de deliveries.
-   * CTOR estimado somente para email: Estimativa de cliques relativos a Aberturas estimadas.
-
-  Data de disponibilidade: final de junho de 2026
 
 +++
 
