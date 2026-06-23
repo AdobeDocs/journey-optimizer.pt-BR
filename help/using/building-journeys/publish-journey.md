@@ -11,20 +11,15 @@ keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1815
+source-wordcount: 1823
 ht-degree: 14%
 
 ---
@@ -176,7 +171,7 @@ Se a jornada estiver sujeita a uma política de aprovação, será necessário s
 
 Saiba como publicar uma jornada neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427939?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ Referência de conhecimento de IA
 
@@ -211,7 +206,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Terminologia:**
 * Nome canônico: Publicar Jornada — Acrônimo: none — variantes: ativar jornada, entrar em funcionamento
 * Sinônimos: &quot;Publish&quot; = &quot;ativate&quot; = &quot;go live&quot;
-* Não confunda: &quot;Parar a jornada&quot; ≠ &quot;Fechar a jornada&quot; (parar é uma ação manual; Fechado é um status automático aplicado às versões anteriores quando uma nova versão é publicada)
+* Não confundir: Parar (paragem de emergência de todos os perfis) ≠ Fechar para novas entradas (fechamento normal manual; acabamento de perfis existentes) ≠ Status Closed (automático quando uma nova versão é publicada ou depois de fechar manualmente para novas entradas)
 
 **Perguntas frequentes:**
 * **P: Posso editar uma jornada após sua publicação?** — Somente rótulos, descrições e o nome da jornada podem ser alterados. Para fazer outras modificações, crie uma nova versão da jornada.

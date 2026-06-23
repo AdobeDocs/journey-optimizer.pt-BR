@@ -11,9 +11,9 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2859
+source-wordcount: 2888
 ht-degree: 0%
 
 ---
@@ -288,6 +288,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Os recursos de IA (Simulação rápida, Gerar com IA, Gerar valores de evento) exigem a permissão Gerar conteúdo pelo recurso Assistente de IA
 * Para jornadas acionadas por eventos, o ícone Enviar por usuário não está disponível; a entrada é acionada por meio da seção Eventos de teste
 * As substituições de duração da espera e as configurações do endereço de execução são exibidas somente se a jornada incluir atividades Wait ou Channel
+* Provas de canal e ações personalizadas ou fontes de dados externas podem executar chamadas de saída reais durante a simulação; use pontos de contato de não produção e evite PII de clientes reais em usuários simulados
 * Erros no log de Resultados exigem sair da Simulação, corrigir a jornada e executar novamente antes da publicação
 
 **Terminologia:**

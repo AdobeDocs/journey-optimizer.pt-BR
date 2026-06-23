@@ -11,27 +11,16 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/J9pg9Bw--ksizTh2itQnPu3uo54eoPj9ocgxwTgrLhE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 3006
-ht-degree: 5%
+source-wordcount: 3075
+ht-degree: 4%
 
 ---
 
@@ -80,7 +69,7 @@ Revise essas notas antes de executar testes em sua jornada.
 
 * **Desabilitando o modo de teste** - Quando você desabilita o modo de teste, todos os perfis que estão ou foram inseridos na jornada são removidos e os relatórios são limpos.
 * **Flexibilidade de reativação** - Você pode habilitar e desabilitar o modo de teste quantas vezes forem necessárias.
-* **Desativação automática** - as Jornadas que permanecem inativas no modo de teste por **durante uma semana** revertem automaticamente para o status Rascunho para otimizar o desempenho e evitar o uso de recursos obsoletos.
+* **Desativação automática** — as Jornadas que permanecem inativas no modo de teste por **mais de uma semana** saem automaticamente do modo de teste e retornam ao status Rascunho. Nenhum conteúdo de jornada é perdido; somente a sessão do modo de teste termina.
 * **Edição e publicação** - Enquanto o modo de teste estiver ativo, você não poderá modificar a jornada. No entanto, você pode publicar a jornada diretamente. Não é necessário desativar o modo de teste antes de.
 
 ### Execução
@@ -278,7 +267,9 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Máximo de 100 perfis de teste por sessão de teste única
 * Eventos só podem ser acionados a partir da interface do modo de teste; não há suporte para o acionamento por API externa
 * O enriquecimento personalizado do atributo de público de upload não é suportado no modo de teste
-* As jornadas inativas no modo de teste por mais de uma semana revertem automaticamente para o status Rascunho
+* Eventos acionados no modo Teste geram eventos de experiência reais que também podem acionar outras jornadas que estejam ouvindo o mesmo evento
+* No modo Teste, as atividades de espera e a maioria dos tempos limite do evento assumem o padrão de 10 segundos; os tempos limite do evento de reação assumem o padrão de no mínimo 40 segundos
+* Desativação automática — Jornadas que permanecem inativas no modo de teste por mais de uma semana saem automaticamente do modo de teste e retornam ao status Rascunho. Nenhum conteúdo de jornada é perdido; somente a sessão do modo de teste termina.
 * As edições de jornada são bloqueadas enquanto o modo de teste está ativo, mas a publicação direta é permitida
 * Em uma divisão, a ramificação superior é sempre selecionada; reordene ramificações para testar caminhos diferentes
 * O tempo limite mínimo do evento de reação e o tempo de espera padrão são de 40 segundos

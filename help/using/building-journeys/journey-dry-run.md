@@ -10,31 +10,15 @@ keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1946
+source-wordcount: 2002
 ht-degree: 8%
 
 ---
@@ -213,7 +197,7 @@ O simulação gera **stepEvents** sinalizados com `inDryRun` e um `dryRunID`. Ao
 
 Saiba como testar suas jornadas neste vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464687/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
 
 +++ Referência de conhecimento de IA
 
@@ -238,17 +222,18 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Medidas de Proteção:**
 * Somente jornadas de rascunho sem erros podem ser ativadas no modo Execução sem erros
 * Para iniciar uma Execução Seca, é necessária a permissão **Publicar jornadas**; para interrompê-la, é necessário **Gerenciar jornadas**
-* As jornadas de execução sem interrupção são revertidas automaticamente para Rascunho após 14 dias
+* As jornadas de simulação saem automaticamente do modo de simulação e retornam ao status Rascunho após 14 dias. Nenhum conteúdo de jornada é perdido; somente a sessão de Dry run termina.
 * Os perfis processados durante uma simulação são contados em Perfis ativáveis e na cota de jornada ativa
 * Os nós de ação de canal (Email, SMS, Push) e as ações personalizadas não são executados durante Dry run
 * As ações de salto não estão habilitadas no Dry run
+* Os nós de reação não são executados durante a execução seca; os perfis são fechados com êxito, com regras de prioridade para ramificações unitárias paralelas e de reação
 * Os dados de relatório só estão disponíveis enquanto o Dry run estiver ativo; uma vez interrompido, os dados não estarão mais acessíveis
 * As jornadas de simulação não afetam as regras de negócios
 
 **Terminologia:**
 * Nome canônico: Jornada Dry run — Acrônimo: none — variantes: modo de simulação, modo de publicação de simulação
 * Sinônimos: &quot;Pista seca&quot; = &quot;teste de fumaça&quot; (informalmente)
-* Não confundir: &quot;Dry run&quot; ≠ &quot;Modo de teste&quot; — O Dry run utiliza dados de produção reais e conta para quotas; O modo de teste usa perfis de teste sintéticos e não
+* Não confunda: &quot;Dry run&quot; ≠ &quot;Modo de teste&quot; ≠ &quot;Simulation&quot; — O Dry run usa dados de produção reais e contagens em direção a Perfis ativáveis e cota de jornada em tempo real; O modo de teste usa perfis de teste de AEP persistentes em uma jornada de rascunho; A simulação usa usuários simulados temporários que não persistem no AEP
 
 **Perguntas frequentes:**
 * **P: O Dry run realmente envia emails ou notificações por push aos clientes?** — Não; todos os nós de ação de canal e ações personalizadas são desativados e não são executados durante uma execução sem erros.
