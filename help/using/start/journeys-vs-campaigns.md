@@ -27,9 +27,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
 workflow-type: tm+mt
-source-wordcount: 1832
+source-wordcount: 1904
 ht-degree: 4%
 
 ---
@@ -57,7 +57,7 @@ Este guia ajuda você a escolher com base no estilo de execução, nas necessida
 
 >[!TIP]
 >
->**Princípio básico rápido:** Precisa que cada cliente se mova em seu próprio ritmo com lógica em tempo real? Use **Jornadas**. Enviar uma mensagem para um público-alvo de acordo com o cronograma? Use **Campanhas de ação**. Acionamento de um sistema externo via API? Use **campanhas acionadas por API**. Precisa de dados de várias entidades, contagens exatas ou uma tela de lote? Use **Campanhas orquestradas**.
+>**Princípio básico rápido:** Precisa que cada cliente se mova em seu próprio ritmo com lógica em tempo real? Use **Jornadas**. Enviar uma mensagem para um público-alvo de acordo com o cronograma? Use **Campanhas de ação**. Acionando uma única mensagem de um sistema externo por meio da API? Use **campanhas acionadas por API** — ou uma **jornada de eventos unitária** se precisar de orquestração em várias etapas após o evento enviado por API. Precisa de dados de várias entidades, contagens exatas ou uma tela de lote? Use **Campanhas orquestradas**.
 
 ## Comparação detalhada {#detailed-comparison}
 
@@ -99,10 +99,10 @@ Siga esta árvore decisória para escolher a abordagem correta. Muitas marcas us
 * Não é necessária uma lógica complexa de várias etapas
 
 **Mensagem imediata disparada por um sistema externo?**
-→ **Usar campanhas acionadas por API**
-* Acionado sob demanda por meio de chamada de API
+→ **Usar campanhas acionadas por API** (mensagem única) **ou uma jornada de eventos Unitária** (orquestração de várias etapas)
+* Acionado sob demanda por meio de chamada de API — as campanhas fornecem uma mensagem; as jornadas unitárias assimilam o evento por meio de [assimilação do Experience Platform](../event/additional-steps-to-send-events-to-journey.md) e executam um fluxo de jornada completo
 * Personalização orientada por carga
-* Não é necessária uma lógica complexa de várias etapas
+* Escolher campanhas quando nenhuma lógica de várias etapas for necessária
 
 **Fluxo de trabalho em lotes complexo com segmentação avançada?**
 → **Usar campanhas orquestradas**
@@ -121,7 +121,8 @@ Siga esta árvore decisória para escolher a abordagem correta. Muitas marcas us
 | Reengajamento de usuários inativos com base no comportamento | Jornadas | Acionado pela qualificação de público-alvo, caminho personalizado |
 | Venda rápida acionada por evento comercial | Jornadas (Evento Comercial) | Acionador em tempo real que afeta vários clientes |
 | Promoção sazonal com integração ao catálogo de produtos | Campanhas orquestradas | Dados de várias entidades, segmentação complexa, contagem exata |
-| Mensagem transacional acionada por API | Campanhas acionadas por API | Acionador do sistema externo, entrega imediata |
+| Mensagem transacional acionada por API (envio único) | Campanhas acionadas por API | Acionador do sistema externo, entrega imediata |
+| Fluxo de várias etapas acionado por API | Jornadas (evento unitário) | O sistema externo envia evento unitário por meio da API; o jornada coordena as etapas de acompanhamento |
 | Envio de vários níveis por reserva | Campanhas orquestradas | Relacionamentos de várias entidades, uma mensagem por reserva |
 
 ## Principais distinções explicadas {#key-distinctions}
@@ -251,7 +252,7 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 | Atividades de espera | ✅ | ❌ | ❌ | ✅ |
 | Ramificação condicional | ✅ | ❌ | ❌ | ✅ |
 | Execução programada | ✅ | ✅ | ✅ | ✅ |
-| Acionamento da API | ❌ | ❌ | ✅ | ❌ |
+| Acionamento da API | ✅ (somente evento unitário — evento enviado por API) | ❌ | ✅ | ❌ |
 | Dados de várias entidades | ❌ | ❌ | ❌ | ✅ |
 | Contagens exatas de pré-envio | ❌ | ❌ | ❌ | ✅ |
 | Segmentação sob demanda | ❌ | ❌ | ❌ | ✅ |

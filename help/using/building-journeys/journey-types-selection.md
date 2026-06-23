@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 151b396b7945535cb4219f782dfb6a79e44463d4
+source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
 workflow-type: tm+mt
-source-wordcount: 2080
-ht-degree: 2%
+source-wordcount: 2270
+ht-degree: 1%
 
 ---
 
@@ -60,7 +60,7 @@ O [!DNL Adobe Journey Optimizer] oferece suporte a quatro tipos de jornada, cada
 
 **Perfeito para:** Confirmações de pedidos após a compra, emails de boas-vindas quando alguém assinar, notificações de redefinição de senha e personalização pós-logon.
 
-➡️ [Saiba mais sobre eventos](../event/about-events.md) | [Caso de uso de mensagem para assinantes](message-to-subscribers-uc.md) | [Criar uma jornada de eventos Unitária](#build-unitary-event)
+➡️ [Saiba mais sobre eventos](../event/about-events.md) | [Caso de uso de mensagem para assinantes](message-to-subscribers-uc.md) | [Crie sua primeira jornada](journey-gs.md)
 
 >[!TAB Ler jornadas de Público-Alvo]
 
@@ -70,7 +70,7 @@ O [!DNL Adobe Journey Optimizer] oferece suporte a quatro tipos de jornada, cada
 
 **Perfeito para:** Boletins informativos mensais, campanhas promocionais para segmentos de público-alvo, anúncios de produtos, séries recorrentes de reengajamento e campanhas de marketing sazonais.
 
-➡️ [Saiba mais sobre a Leitura de Público](read-audience.md) | [Introdução a públicos](../audience/about-audiences.md) | [Criar uma jornada de Leitura de Público](#build-read-audience)
+➡️ [Saiba mais sobre a Leitura de Público](read-audience.md) | [Introdução a públicos](../audience/about-audiences.md) | [Crie sua primeira jornada](journey-gs.md)
 
 >[!TAB jornadas de qualificação de público-alvo]
 
@@ -80,7 +80,7 @@ O [!DNL Adobe Journey Optimizer] oferece suporte a quatro tipos de jornada, cada
 
 **Perfeito para:** notificações de atualização no nível do VIP, mensagens de comemoração da primeira compra, alertas de risco de churn e transições de estágio do ciclo de vida de fidelidade.
 
-➡️ [Saiba mais sobre a qualificação de público-alvo](audience-qualification-events.md) | [Criando públicos-alvo](../audience/creating-a-segment-definition.md) | [Criar uma jornada de qualificação de público-alvo](#build-audience-qualification)
+➡️ [Saiba mais sobre a qualificação de público-alvo](audience-qualification-events.md) | [Criando públicos-alvo](../audience/creating-a-segment-definition.md) | [Crie sua primeira jornada](journey-gs.md)
 
 >[!TAB jornadas de eventos comerciais]
 
@@ -90,7 +90,7 @@ As **jornadas de eventos comerciais** são acionadas por um evento comercial (at
 
 **Perfeito para:** alertas de baixo estoque para clientes interessados, anúncios de vendas rápidas, notificações de queda de preço e alertas de produtos de volta ao estoque.
 
-➡️ [Saiba mais sobre eventos comerciais](../event/about-creating-business.md) | [Gerenciamento de entradas](entry-management.md) | [Criar uma jornada de eventos comerciais](#build-business-event)
+➡️ [Saiba mais sobre eventos comerciais](../event/about-creating-business.md) | [Gerenciamento de entradas](entry-management.md) | [Crie sua primeira jornada](journey-gs.md)
 
 >[!ENDTABS]
 
@@ -104,7 +104,7 @@ Use a tabela abaixo para corresponder sua meta ao tipo de jornada correto. Para 
 | Enviar informativo mensal aos assinantes | Ler público-alvo | Comunicação agendada em lote |
 | Notificar os clientes quando eles atingirem o status do VIP | Qualificação de público-alvo | Resposta em tempo real à entrada de público-alvo da transmissão |
 | Alertar os clientes sobre baixo estoque de itens observados | Evento comercial | A condição dos negócios afeta vários clientes |
-| Bem-vindos, novos usuários do aplicativo | Evento unitário | Acionado pelo evento de inscrição |
+| Bem-vindos, novos usuários do aplicativo | Evento unitário ou qualificação de público-alvo | Evento de inscrição (evento unitário) ou entrada em um público-alvo de transmissão de novo usuário (Qualificação de público-alvo) |
 | Reengajamento de clientes inativos (recorrente, programado) | Ler público-alvo | Execução de lote recorrente em relação ao público-alvo de inatividade |
 | Promoção sazonal para o segmento do target | Ler público-alvo | Campanha programada para o público-alvo |
 | Anúncio de venda do Flash | Evento comercial | As decisões de negócios afetam vários clientes |
@@ -121,7 +121,7 @@ Use a tabela abaixo para corresponder sua meta ao tipo de jornada correto. Para 
 | **Recomendado para** | Mensagens transacionais, respostas comportamentais | Campanhas de marketing, boletins informativos, programas recorrentes | Programas de fidelidade, transições de estágio do ciclo de vida | Alertas de estoque, promoções e condições comerciais |
 | **Usar quando** | Resposta imediata a ações individuais necessárias | Atingir grandes segmentos de público-alvo no cronograma | Resposta às alterações no status do cliente em tempo real | Os eventos comerciais afetam vários clientes simultaneamente |
 | **Exemplos** | Confirmação de pedido, redefinição de senha | Informativo mensal, campanha sazonal | Atualização do VIP, alerta de risco de churn | Alerta de baixo estoque, venda rápida, queda de preço |
-| **Reentrada** | Configurável | Uma vez por execução | Configurável por evento de qualificação; um perfil que já está na jornada não pode inserir a mesma versão novamente | Vários perfis podem ser afetados pelo mesmo evento |
+| **Reentrada** | Configurável | Uma vez por execução por padrão; [Forçar reentrada na recorrência](read-audience.md#schedule) disponível em execuções agendadas | Configurável por evento de qualificação; um perfil que já está na jornada não pode inserir a mesma versão novamente | Vários perfis podem ser afetados pelo mesmo evento |
 | **Taxa de transferência máxima** | 5.000 TPS (nível de organização compartilhada com qualificação de público-alvo) | 20.000 TPS por sandbox | 5.000 TPS (nível de organização compartilhado com evento Unitário) | Evento comercial: 5.000 TPS; etapa Ler público: 20.000 TPS |
 | **Requisitos de dados** | Esquema de evento com dados de acionador | [!DNL Adobe Experience Platform] público-alvo | Público-alvo de transmissão (necessário para entrada em tempo real); público-alvo em lote suportado, mas atrasa a entrada | Esquema de evento comercial |
 
@@ -139,11 +139,11 @@ Nem todos os recursos estão disponíveis para todos os tipos de jornada. Use es
 | Atividades de espera | ✅ | ✅ | ✅ | ✅ |
 | Atividades de condição | ✅ | ✅ | ✅ | ✅ |
 | Ações personalizadas | ✅ | ✅ | ✅ | ✅ |
-| Atividade Ler público (dentro do jornada) | ✅ | ✅ | ✅ | ✅ |
+| Atividade Ler público (entrada de jornada) | ❌ | ✅ | ❌ | ✅ (etapa automática após evento comercial) |
 | Atividade de Qualificação de público-alvo (dentro do jornada) | ✅ | ✅ | ✅ | ✅ |
 | Atividade Salto | ✅ | ❌ | ❌ | ✅ |
 | **Gerenciamento de perfis** | | | | |
-| Reentrada do perfil | ✅ Configurável | ❌ Uma vez por execução | ✅ Configurável (perfil já existente no jornada não pode inserir a mesma versão novamente) | ✅ Por evento |
+| Reentrada do perfil | ✅ Configurável | ❌ Uma vez por execução por padrão ([Forçar reentrada na recorrência](read-audience.md#schedule) em execuções agendadas) | ✅ Configurável (perfil já existente no jornada não pode inserir a mesma versão novamente) | ✅ Por evento |
 | Configuração de namespace | ✅ Obrigatório | ✅ Opcional | ✅ Obrigatório | ✅ Obrigatório |
 | Limite de perfil | ✅ | ✅ | ✅ | ✅ |
 | **Testes e otimização** | | | | |
@@ -160,7 +160,6 @@ Nem todos os recursos estão disponíveis para todos os tipos de jornada. Use es
 | Cartões de conteúdo | ✅ | ✅ | ✅ | ✅ |
 | **Recursos avançados** | | | | |
 | Leitura incremental | ❌ | ✅ | ❌ | ❌ |
-| Exportar público | ✅ | ✅ | ✅ | ✅ |
 | Gerenciamento de fuso horário | ✅ | ✅ | ✅ | ✅ |
 | Eventos de reação | ✅ | ✅ | ✅ | ✅ |
 | Fontes de dados externas | ✅ | ✅ | ✅ | ✅ |
@@ -171,17 +170,18 @@ Nem todos os recursos estão disponíveis para todos os tipos de jornada. Use es
 >[!NOTE]
 >
 >Limitações da atividade de Jump: uma jornada que começa com uma atividade Ler público ou Qualificação de público-alvo não pode conter uma atividade de Jump e não pode ser o destino de uma atividade de Jump de outra jornada.
+>
+>A atividade Ler público-alvo como entrada de jornada só está disponível nas jornadas **Ler público-alvo** e **Evento comercial** — ela não pode ser adicionada às jornadas de entrada de Evento unitário ou Qualificação de público-alvo.
 
 ## Próximas etapas {#next-steps}
 
-Cada tabela lista as etapas de configuração por meio do gerenciamento para esse tipo de jornada.
+Agora que você escolheu um tipo de jornada:
 
-### Jornadas de eventos unitários {#build-unitary-event}
-
-* **[Criar a primeira jornada](journey-gs.md)** - Guia passo a passo
-* **[Saiba mais sobre o designer do jornada](using-the-journey-designer.md)** - Crie sua tela de jornada
-* **[Explore os recursos do jornada](journey.md#capabilities)** - Descubra recursos avançados
-* **[Exibir perguntas frequentes sobre o jornada](journey-faq.md)** - Perguntas frequentes respondidas
+* **[Criar a primeira jornada](journey-gs.md)** — guia passo a passo da entrada à publicação
+* **[Saiba mais sobre o designer do jornada](using-the-journey-designer.md)** — Projete sua tela de jornada
+* **[Entrada de perfil no jornada](entry-management.md)** — Regras de entrada, reentrada e taxa de transferência por tipo
+* **[Introdução ao jornada](journey.md)** — visão geral de fundamentos e recursos
+* **[Perguntas frequentes sobre o Journey Orchestration](journey-faq.md)** — perguntas comuns respondidas
 
 +++ Referência de conhecimento de IA
 
@@ -214,7 +214,8 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 
 * A leitura incremental está disponível somente para jornadas de leitura de público, não para jornadas de evento unitário, qualificação de público ou evento comercial
 * Experimentos de caminho (teste A/B) não são compatíveis com jornadas de eventos comerciais
-* A reentrada do perfil nas jornadas Read Audience é limitada a uma vez por execução
+* A reentrada de perfil em jornadas de Leitura de público é limitada a uma vez por execução por padrão; use Forçar reentrada na recorrência em execuções programadas para permitir que os perfis entrem novamente na próxima execução
+* A atividade Ler público-alvo só está disponível como uma entrada de jornada nas jornadas Ler público-alvo e evento comercial — não nas jornadas de entrada Unitário de evento ou Qualificação de público-alvo
 * As jornadas Qualificação de público-alvo e Público-alvo de leitura não podem conter uma atividade de salto e não podem ser o destino de uma atividade de salto de outra jornada
 * As jornadas de qualificação de público exigem um público avaliado por transmissão para entrada em tempo real; os públicos avaliados em lote causam atrasos de entrada de até 24 horas
 * As jornadas de qualificação de evento e público-alvo unitários compartilham um limite de taxa de transferência de 5.000 TPS no nível da organização; as jornadas de público-alvo de leitura suportam até 20.000 TPS por sandbox
@@ -236,7 +237,9 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **P: Posso executar experimentos de caminho A/B em uma jornada de eventos de Negócios?** — Não; experimentos de caminho não são aceitos em jornadas de eventos de negócios.
 * **P: Qual é a diferença entre uma jornada de evento Unitária e uma jornada de Qualificação de Público-Alvo?** — Uma jornada de evento unitária é acionada por uma ação específica do cliente (por exemplo, compra); uma jornada de qualificação de público-alvo é acionada quando um perfil entra ou sai de um segmento de público-alvo com base na avaliação de critérios de transmissão.
 * **P: Quais tipos de jornada oferecem suporte para leitura incremental?** — Somente jornadas de leitura de público-alvo oferecem suporte para leitura incremental; os outros três tipos de jornada não.
+* **P: Posso adicionar uma atividade Ler público-alvo a uma jornada de eventos Unitária?** — Não; a atividade Ler público só está disponível como entrada de jornada em Ler público e jornadas de eventos comerciais.
 * **P: Posso usar uma atividade de salto em uma jornada de Leitura de Público?** — Não; jornadas que começam com uma atividade Ler público ou Qualificação de público não podem conter uma atividade de salto e não podem ser o destino de um salto de outra jornada.
+* **P: Posso dar as boas-vindas a novos usuários do aplicativo com uma jornada de Qualificação de Público-Alvo?** — Sim, se a entrada for orientada por um público-alvo de transmissão (por exemplo, quando um perfil ingressa em um segmento de novo usuário); uma jornada de evento unitário de inscrição também é um padrão comum.
 * **P: minha jornada de qualificação de público-alvo não está sendo acionada em tempo real. Por quê?** — as jornadas de qualificação de público-alvo exigem um público-alvo avaliado por transmissão. Se o público-alvo for avaliado em lote (por exemplo, um instantâneo diário), a entrada será atrasada até a próxima janela de avaliação, que pode ser de até 24 horas.
 * **P: Qual é a diferença de taxa de transferência entre o evento Unitário e as jornadas de Leitura de Público?** — As jornadas de eventos unitários compartilham um limite de 5.000 TPS com jornadas de qualificação de público-alvo no nível da organização. Leia As jornadas de público suportam até 20.000 TPS por sandbox, tornando-as mais adequadas para campanhas em lote de grande escala.
 
