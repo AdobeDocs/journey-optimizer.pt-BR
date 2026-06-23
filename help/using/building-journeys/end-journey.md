@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1779
+source-wordcount: 1822
 ht-degree: 1%
 
 ---
@@ -196,7 +196,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Somente jornadas com status Concluído podem ser excluídas.
 * A interrupção de uma jornada exige a permissão Gerenciar jornadas; jornadas com campanhas em linha ou nós de mensagens também exigem Campanhas > Publicar campanhas com permissão.
 * Após o tempo limite global de 91 dias, todos os dados de jornada de perfil são removidos e os perfis restantes são encerrados automaticamente.
-* Uma jornada única Read audience permanece no status Live após a execução; ela deve ser fechada manualmente ou será fechada após 91 dias.
+* Uma jornada Read Audience não recorrente sem nós de longa duração Wait, Reaction ou acionados por eventos faz a transição automática para Stopped quando o último perfil sai. As jornadas com esses nós permanecem sujeitas ao tempo limite global de 91 dias, a menos que sejam fechadas manualmente.
 
 **Terminologia:**
 
@@ -207,7 +207,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Perguntas frequentes:**
 
 * **P: Qual é a diferença entre fechar e parar uma jornada?** — O fechamento bloqueia novas entradas, mas permite que os perfis existentes sejam concluídos; a interrupção interrompe imediatamente todos os perfis em suas trilhas.
-* **P: Quando uma jornada de leitura de público-alvo atinge o status Concluído?** — 91 dias após o início da execução (não recorrente), quando a data final é atingida (recorrente com a data final), ou 91 dias após o início (recorrente sem data final).
+* **P: Quando uma jornada de leitura de público-alvo atinge o status Concluído?** — Para uma jornada Read Audience não recorrente: ela é interrompida automaticamente para Parado quando o último perfil sai (ou após 91 dias se os nós Wait, Reaction ou event mantiverem os perfis ativos). Concluído é atingido quando uma jornada fechada atinge o tempo limite global de 91 dias ou por regras de jornada recorrente na tabela de definição concluída.
 * **P: Posso excluir uma jornada Fechada?** — Não, somente as jornadas concluídas podem ser excluídas.
 * **P: O que acontece com os perfis que ainda estão em uma jornada quando o tempo limite de 91 dias chega?** — Eles são automaticamente encerrados da jornada nesse ponto.
 * **P: Preciso de permissões especiais para parar uma jornada?** — Sim, a permissão Gerenciar jornadas é necessária, além de Campanhas > Publicar campanhas se a jornada contiver campanhas em linha ou nós de mensagens.

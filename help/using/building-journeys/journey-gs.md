@@ -30,9 +30,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2097
+source-wordcount: 2143
 ht-degree: 8%
 
 ---
@@ -218,7 +218,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Criar uma nova jornada e configurar suas propriedades no menu Gerenciamento de Jornadas
 * Escolha o ponto de entrada correto (Leia Público, Qualificação de público, evento unitário ou evento comercial) para um determinado caso de uso
 * Crie uma jornada em várias etapas arrastando e soltando eventos, atividades de orquestração e ações de canal na tela
-* Teste uma jornada usando o Modo de teste com perfis de teste sintéticos antes de publicar
+* Teste uma jornada usando Simulação, Modo de teste com perfis de teste persistentes do AEP ou Execução a seco antes da publicação
 * Executar uma simulação para validar o direcionamento de público com dados de produção reais sem entrar em contato com os clientes
 * Publicar uma jornada para ativá-la e monitorar seu desempenho com ferramentas de relatório
 
@@ -227,7 +227,8 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **Qualificação de público-alvo**: uma atividade de entrada disparada em tempo real quando um perfil entra ou sai de um público-alvo de streaming *(específico do produto)*
 * **Evento unitário**: um gatilho em tempo real que insere um perfil de cada vez em uma jornada quando uma ação específica ocorre *(específico do produto)*
 * **Evento comercial**: um evento que não é de perfil (por exemplo, cancelamento de voo, reabastecimento de estoque) que aciona uma jornada para vários perfis simultaneamente por meio de uma etapa automática de Leitura de Público *(específico do produto)*
-* **Modo de teste**: um modo de validação que usa perfis de teste sintéticos para simular a execução da jornada sem ativar comunicações ao vivo *(específico do produto)*
+* **Modo de teste**: um modo de validação que usa perfis de teste persistentes do Adobe Experience Platform (explicitamente sinalizados como perfis de teste) para percorrer uma jornada de rascunho antes da publicação *(específico do produto)*
+* **Simulação**: um modo de validação que usa usuários temporários simulados gerados em tempo real; os usuários simulados não persistem no Adobe Experience Platform *(específico do produto)*
 * **Execução seca**: um modo de publicação especial que usa dados de produção reais para validar a lógica de jornada sem entrar em contato com clientes reais ou atualizar perfis *(específico do produto)*
 
 **Medidas de Proteção:**
@@ -239,12 +240,12 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Terminologia:**
 * Nome canônico: Jornada — Acrônimo: none — variantes: jornada do cliente, fluxo de orquestração
 * Sinônimos: &quot;Modo de teste&quot; = &quot;Teste de jornada&quot;; &quot;Execução seca&quot; = &quot;modo de execução a seco&quot;
-* Não confundir: &quot;Modo de ensaio&quot; ≠ &quot;Ensaio a seco&quot; — o modo de ensaio utiliza perfis sintéticos; o ensaio a seco utiliza dados reais de produção sem contactar os clientes
+* Não confunda: &quot;Simulation&quot; ≠ &quot;Test mode&quot; ≠ &quot;Dry run&quot; — A simulação usa usuários temporários simulados; O modo de teste usa perfis de teste persistentes do AEP; O Dry run usa dados reais de produção sem entrar em contato com os clientes ou atualizar os perfis
 
 **Perguntas frequentes:**
 * **P: Qual é a primeira coisa que preciso fazer antes de criar uma jornada acionada por evento?** — configure o evento com um engenheiro de dados para definir o acionador e os dados que ele transporta; em seguida, faça referência ao evento como o ponto de entrada da jornada.
 * **P: Qual ponto de entrada é recomendado para alguém novo no Journey Optimizer?** — comece com uma jornada baseada em público-alvo usando uma atividade Ler público-alvo — não requer configuração prévia de evento e é a maneira mais fácil de se familiarizar com a tela.
-* **P: Posso testar minha jornada antes que ela entre no ar?** — Sim; use o modo de teste com perfis de teste sintéticos para percorrer a jornada ou use o modo de execução a seco para executar em relação a dados reais de produção sem enviar comunicações.
+* **P: Posso testar minha jornada antes que ela entre no ar?** — Sim; use Simulation com usuários temporários simulados, Test mode com perfis de teste persistentes do AEP ou Dry run para executar em dados reais de produção sem enviar comunicações.
 * **P: O que acontece se minha jornada apresentar erros quando eu tentar publicar?** — Não é possível publicar uma jornada com erros; todos os erros de configuração devem ser resolvidos antes da publicação.
 * **P: Como dividir uma jornada complexa com várias etapas?** — Use a atividade Jump para conectar sub-jornadas menores, reduzindo a complexidade e tornando cada sub-jornada mais fácil de testar independentemente.
 

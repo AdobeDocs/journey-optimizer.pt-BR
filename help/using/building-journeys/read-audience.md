@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 4752
+source-wordcount: 4780
 ht-degree: 5%
 
 ---
@@ -493,6 +493,6 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **P: O que a leitura incremental faz na primeira execução?** — Na primeira execução, todos os perfis de público-alvo são inseridos. Nas execuções subsequentes, somente os perfis recém-adicionados ao público-alvo desde a última execução são processados.
 * **P: O que acontece se o trabalho de exportação falhar?** — O sistema tenta novamente a cada 10 minutos por até 1 hora. As falhas são relatadas em Alertas. Após 1 hora sem sucesso, a execução é considerada reprovada.
 * **P: O mesmo perfil pode inserir uma jornada de Leitura de Público-Alvo várias vezes?** — Sim, se um identificador complementar estiver configurado e for diferente entre as entradas, ou se a opção Forçar reentrada na recorrência estiver habilitada. Sem eles, um perfil não pode estar presente várias vezes ao mesmo tempo.
-* **P: Por quanto tempo uma jornada de Leitura de Público-Alvo de uma só vez permanece ativa?** — Ele é movido para o status Finished 91 dias após a execução (o tempo limite global da jornada).
+* **P: Por quanto tempo uma jornada de Leitura de Público-Alvo de uma só vez permanece ativa?** — Ele pára automaticamente para Parado quando o último perfil sai, a menos que a jornada inclua transições de Espera, Reação ou acionadas por evento — nesse caso, o tempo limite global de 91 dias se aplica. Ele não permanece Ativo até ser Concluído em 91 dias por padrão.
 
 +++

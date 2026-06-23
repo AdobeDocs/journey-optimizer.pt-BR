@@ -32,9 +32,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1946
+source-wordcount: 2002
 ht-degree: 8%
 
 ---
@@ -238,17 +238,18 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Medidas de Proteção:**
 * Somente jornadas de rascunho sem erros podem ser ativadas no modo Execução sem erros
 * Para iniciar uma Execução Seca, é necessária a permissão **Publicar jornadas**; para interrompê-la, é necessário **Gerenciar jornadas**
-* As jornadas de execução sem interrupção são revertidas automaticamente para Rascunho após 14 dias
+* As jornadas de simulação saem automaticamente do modo de simulação e retornam ao status Rascunho após 14 dias. Nenhum conteúdo de jornada é perdido; somente a sessão de Dry run termina.
 * Os perfis processados durante uma simulação são contados em Perfis ativáveis e na cota de jornada ativa
 * Os nós de ação de canal (Email, SMS, Push) e as ações personalizadas não são executados durante Dry run
 * As ações de salto não estão habilitadas no Dry run
+* Os nós de reação não são executados durante a execução seca; os perfis são fechados com êxito, com regras de prioridade para ramificações unitárias paralelas e de reação
 * Os dados de relatório só estão disponíveis enquanto o Dry run estiver ativo; uma vez interrompido, os dados não estarão mais acessíveis
 * As jornadas de simulação não afetam as regras de negócios
 
 **Terminologia:**
 * Nome canônico: Jornada Dry run — Acrônimo: none — variantes: modo de simulação, modo de publicação de simulação
 * Sinônimos: &quot;Pista seca&quot; = &quot;teste de fumaça&quot; (informalmente)
-* Não confundir: &quot;Dry run&quot; ≠ &quot;Modo de teste&quot; — O Dry run utiliza dados de produção reais e conta para quotas; O modo de teste usa perfis de teste sintéticos e não
+* Não confunda: &quot;Dry run&quot; ≠ &quot;Modo de teste&quot; ≠ &quot;Simulation&quot; — O Dry run usa dados de produção reais e contagens em direção a Perfis ativáveis e cota de jornada em tempo real; O modo de teste usa perfis de teste de AEP persistentes em uma jornada de rascunho; A simulação usa usuários simulados temporários que não persistem no AEP
 
 **Perguntas frequentes:**
 * **P: O Dry run realmente envia emails ou notificações por push aos clientes?** — Não; todos os nós de ação de canal e ações personalizadas são desativados e não são executados durante uma execução sem erros.

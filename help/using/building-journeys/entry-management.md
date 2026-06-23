@@ -27,9 +27,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1842
+source-wordcount: 1875
 ht-degree: 2%
 
 ---
@@ -172,7 +172,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Glossário:**
 
 * **Reentrada**: a capacidade de um perfil entrar na mesma jornada novamente depois de sair anteriormente; configurável com um período de espera *(específico do produto)*
-* **Período de espera de reentrada**: o tempo mínimo que deve decorrer antes que um perfil possa inserir novamente uma jornada; o padrão é 5 minutos; o máximo é 91 dias *(específico do produto)*
+* **Período de espera de reentrada**: o tempo mínimo que deve decorrer antes que um perfil possa inserir novamente uma jornada; o padrão é 5 minutos, o máximo é 90 dias nas propriedades de jornada *(específico do produto)*
 * **TPS (Transações por Segundo)**: a taxa de transferência na qual perfis podem ser inseridos ou processados em uma jornada *(específico do produto)*
 * **jornada de eventos unitária**: uma jornada acionada por um único evento associado a um perfil *(específico do produto)*
 * **Ler jornada de público-alvo**: uma jornada que processa um lote de perfis que pertencem a um público-alvo definido, uma vez ou em um agendamento recorrente *(específico do produto)*
@@ -182,10 +182,10 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Medidas de Proteção:**
 
 * Um perfil não pode estar presente várias vezes na mesma jornada ao mesmo tempo em todas as versões ativas.
-* Ler jornadas de público-alvo: máximo de 20.000 TPS no nível da sandbox.
-* Qualificação de público-alvo e jornadas de eventos unitários: máximo de 5.000 TPS compartilhados no nível da organização.
-* Os eventos comerciais contam para a cota de 5.000 TPS; a atividade subsequente Ler público segue o limite de 20.000 TPS.
-* O período de espera de reentrada padrão é de 5 minutos; o máximo é de 91 dias (tempo limite global).
+* Ler jornadas de público-alvo: máximo de 20.000 TPS (cota no nível da sandbox; compartilhada em todas as jornadas simultâneas Ler público-alvo na mesma sandbox)
+* Jornadas de qualificação de público-alvo e evento unitário: máximo de 5.000 TPS (cota no nível da organização; compartilhadas entre si em todas as sandboxes da organização)
+* Os eventos comerciais contam para a cota de nível de organização de 5.000 TPS; a atividade subsequente Ler público compartilha a cota de nível de sandbox de 20.000 TPS
+* O período de espera de reentrada padrão é de 5 minutos; o valor máximo configurável é de 90 dias nas propriedades do jornada
 * As atividades de espera em tempo fixo podem causar sobretensões de perfil superiores a 20.000 TPS e não são recomendadas.
 * O limite padrão de ação personalizada é de 300.000 chamadas por minuto.
 * Para o Business jornada, os dados do público-alvo da primeira execução são reutilizados por 1 hora.
@@ -199,7 +199,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Perguntas frequentes:**
 
 * **P: Um perfil pode inserir a mesma jornada duas vezes simultaneamente?** — Não, o sistema usa a identidade do perfil como uma chave e impede que o mesmo perfil esteja em lugares diferentes na mesma jornada ao mesmo tempo.
-* **P: Qual é o período de espera de reentrada padrão?** — 5 minutos, configuráveis até um máximo de 91 dias.
+* **P: Qual é o período de espera de reentrada padrão?** — 5 minutos, configuráveis até um máximo de 90 dias nas propriedades do jornada.
 * **P: Quantos perfis por segundo um processo de jornada de Leitura de público-alvo pode ser executado?** — até 20.000 TPS no nível da sandbox, embora esse máximo possa não ser atingível se várias jornadas forem executadas simultaneamente na mesma sandbox.
 * **P: O que acontece com a taxa de transferência após uma atividade de espera com um tempo fixo?** — Vários perfis podem sair da espera simultaneamente, excedendo potencialmente 20.000 TPS; para evitar isso, recomenda-se o uso de atividades de espera em tempo relativo.
 * **P: Um perfil pode aparecer em uma jornada Comercial várias vezes ao mesmo tempo?** — Sim, mas somente no contexto de eventos comerciais diferentes.

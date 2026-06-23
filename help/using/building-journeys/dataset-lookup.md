@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 7de972734810ec5ec69ec395af4355d0304bc3f3
 workflow-type: tm+mt
-source-wordcount: 1500
+source-wordcount: 1514
 ht-degree: 6%
 
 ---
@@ -264,7 +264,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Somente cadeias de caracteres ou listas de cadeias de caracteres têm suporte como chaves de pesquisa.
 * A chave de pesquisa deve ser definida no modo avançado; o uso do modo simples faz com que a saída da atividade fique indisponível como um atributo de contexto downstream.
 * Os dados enriquecidos são transitórios e estão disponíveis apenas durante o tempo de execução do jornada e na personalização da atividade de saída.
-* Para desempenho, são recomendados até 5 atividades de pesquisa por jornada e até 20 atributos por pesquisa.
+* Para obter o melhor desempenho, limite de 5 atividades de pesquisa por jornada (recomendado); o limite rígido aplicado pelo sistema é de 10 atividades por jornada. Até 20 atributos por pesquisa também são recomendados.
 
 **Terminologia:**
 

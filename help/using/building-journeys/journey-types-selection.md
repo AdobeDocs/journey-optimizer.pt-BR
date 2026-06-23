@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2270
+source-wordcount: 2289
 ht-degree: 1%
 
 ---
@@ -219,6 +219,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * As jornadas Qualificação de público-alvo e Público-alvo de leitura não podem conter uma atividade de salto e não podem ser o destino de uma atividade de salto de outra jornada
 * As jornadas de qualificação de público exigem um público avaliado por transmissão para entrada em tempo real; os públicos avaliados em lote causam atrasos de entrada de até 24 horas
 * As jornadas de qualificação de evento e público-alvo unitários compartilham um limite de taxa de transferência de 5.000 TPS no nível da organização; as jornadas de público-alvo de leitura suportam até 20.000 TPS por sandbox
+* A simulação é compatível com a maioria dos tipos de jornada, mas não com a entrada de evento Comercial; consulte Limitações de simulação para restrições no nível do nó
 * Um perfil já presente em uma jornada não pode inserir novamente a mesma versão dessa jornada, independentemente da configuração de reentrada
 
 **Terminologia:**

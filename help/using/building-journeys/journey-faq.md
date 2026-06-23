@@ -37,9 +37,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 6198
+source-wordcount: 6208
 ht-degree: 0%
 
 ---
@@ -1044,7 +1044,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Nome canônico: Jornada — Acrônimo: none — variantes: jornada do cliente, orquestração, fluxo
 * Sinônimos: &quot;Perto de novas entradas&quot; = &quot;parada graciosa&quot;; &quot;Parada&quot; = &quot;parada imediata&quot;
 * Não confunda: &quot;Jornada&quot; ≠ &quot;Campaign&quot; — O jornada suporta a orquestração acionada por eventos de várias etapas; as campanhas são envios únicos ou programados com base no público-alvo
-* Não confundir: &quot;Modo de ensaio&quot; ≠ &quot;Ensaio a seco&quot; — o modo de ensaio utiliza perfis de ensaio sintéticos; o ensaio a seco utiliza dados reais de produção sem contactar os clientes
+* Não confunda: &quot;Simulation&quot; ≠ &quot;Test mode&quot; ≠ &quot;Dry run&quot; — A simulação usa usuários temporários simulados; O modo de teste usa perfis de teste persistentes do AEP; O Dry run usa dados reais de produção sem entrar em contato com os clientes ou atualizar os perfis
 
 **Perguntas frequentes:**
 * **P: Qual é o número máximo de atividades em uma jornada?** — 50 atividades; manter as jornadas mais simples melhora a capacidade de manutenção e o desempenho.

@@ -29,9 +29,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 3502
+source-wordcount: 3545
 ht-degree: 3%
 
 ---
@@ -321,8 +321,9 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **Pausa em massa / Retomada em massa**: a capacidade de pausar ou retomar várias jornadas ativas ou pausadas simultaneamente a partir da lista de estoque de jornadas *(específico do produto)*
 
 **Medidas de Proteção:**
-* Somente usuários com a permissão **Publicar jornadas** podem pausar e retomar jornadas
-* Uma jornada pode ser pausada por no máximo 14 dias; depois disso, ela será retomada automaticamente
+* Somente usuários com a permissão **Publicar jornadas** podem pausar e retomar jornadas; parar uma jornada pausada requer **Gerenciar jornadas** (e **Campanhas > Publicar Campanhas** se houver campanhas embutidas ou nós de mensagens)
+* A duração da pausa pode ser configurada de 1 a 14 dias; depois disso, a jornada é retomada automaticamente
+* Os perfis mantidos durante a pausa são retomados em até 5.000 TPS; a jornada permanece em Retomada até que todos os perfis mantidos tenham sido retomados
 * Um máximo de 10 milhões de perfis pode ser retido em todas as jornadas pausadas em uma organização. Os perfis em excesso são automaticamente descartados
 * Somente um critério de saída baseado em atributo de perfil pode ser definido por jornada
 * Os critérios de saída baseados em atributos de perfil só podem ser criados, atualizados ou excluídos enquanto a jornada é pausada
@@ -340,7 +341,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 
 **Perguntas frequentes:**
 * **P: O que acontece com os perfis que já estão em uma jornada quando ela está pausada?** — Dependendo da opção escolhida no momento da pausa, os perfis são mantidos (aguardando no nó de ação seguinte) ou descartados (saídos da jornada no nó de ação seguinte).
-* **P: Por quanto tempo uma jornada pode permanecer em pausa?** — Um máximo de 14 dias; depois disso, ele é retomado automaticamente.
+* **P: Por quanto tempo uma jornada pode permanecer em pausa?** — Entre 1 e 14 dias (escolha no momento da pausa); depois disso, ele é retomado automaticamente.
 * **P: Posso excluir determinados perfis enquanto uma jornada está pausada?** — Sim; aplique um critério de saída baseado em atributo de perfil (um por jornada) enquanto a jornada é pausada para excluir perfis correspondentes no nó da próxima ação após a retomada.
 * **P: A pausa de uma jornada interrompe mensagens no aplicativo ou da Web já foi acionada?** — Não; as comunicações de entrada já acionadas antes da pausa continuam a ser entregues. Para interromper todas as comunicações de entrada, é necessário interromper a jornada completamente.
 * **P: Como descobrir quais perfis foram descartados durante uma pausa?** — Consulte o conjunto de dados `journey_step_events` no Serviço de consulta do Adobe Experience Platform usando os filtros de tipo de evento `PAUSED_JOURNEY_VERSION` ou `JOURNEY_IN_PAUSED_STATE` com a ID de versão do jornada.

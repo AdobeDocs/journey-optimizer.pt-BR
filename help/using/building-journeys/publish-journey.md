@@ -22,9 +22,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1815
+source-wordcount: 1823
 ht-degree: 14%
 
 ---
@@ -211,7 +211,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Terminologia:**
 * Nome canônico: Publicar Jornada — Acrônimo: none — variantes: ativar jornada, entrar em funcionamento
 * Sinônimos: &quot;Publish&quot; = &quot;ativate&quot; = &quot;go live&quot;
-* Não confunda: &quot;Parar a jornada&quot; ≠ &quot;Fechar a jornada&quot; (parar é uma ação manual; Fechado é um status automático aplicado às versões anteriores quando uma nova versão é publicada)
+* Não confundir: Parar (paragem de emergência de todos os perfis) ≠ Fechar para novas entradas (fechamento normal manual; acabamento de perfis existentes) ≠ Status Closed (automático quando uma nova versão é publicada ou depois de fechar manualmente para novas entradas)
 
 **Perguntas frequentes:**
 * **P: Posso editar uma jornada após sua publicação?** — Somente rótulos, descrições e o nome da jornada podem ser alterados. Para fazer outras modificações, crie uma nova versão da jornada.
