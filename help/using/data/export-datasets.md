@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 0e023560fab01f4a86bb175c45632b813ff7e069
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: 1228
 ht-degree: 5%
 
 ---
@@ -135,3 +135,9 @@ Entenda na tabela abaixo quais conjuntos de dados do Journey Optimizer você pod
 | Jornada eventos de etapa | Captura todos os eventos de experiência de etapa de Jornada gerados no Journey Optimizer para serem consumidos por serviços como relatórios. |
 | Jornadas | Informações sobre o conjunto de dados de metadados que contém cada etapa de uma jornada |
 | ODE DecisionEvents - decisão de produção | Sempre que tomamos uma decisão com base em uma solicitação, contamos isso como um evento de decisão |
+
+## Relatórios de conjuntos de dados e mapeamento de metadados de carga {#reporting-payload-metadata-mapping}
+
+Para obter relatórios personalizados sobre experiências baseadas em código e respostas de decisão, use o **`scopeDetails.correlationID`** para associar dados de interação ou feedback ao **Conjunto de dados da entidade AJO** e recuperar metadados de campanha, jornada e mensagem. Use **`exdRequestID`** para vincular uma única solicitação de decisão a eventos de análise.
+
+Se `correlationID` estiver ausente (por exemplo, públicos-alvo de controle), use conjuntos de dados exportados e chaves de junção documentadas em vez de decodificar campos de carga não documentados. [Exemplos de consulta do conjunto de dados da entidade](datasets-query-examples.md#entity-dataset) mostram como ingressar em `correlationID`.
