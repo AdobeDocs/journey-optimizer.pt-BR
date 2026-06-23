@@ -11,26 +11,16 @@ keywords: qualificação, eventos, público-alvo, jornada, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2501
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -45,7 +35,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Qualificação de público-alvo"
->abstract="Aciona a entrada ou a continuação da jornada quando um perfil é qualificado para ou sai de um público-alvo de [!DNL Adobe Experience Platform]. Recomendado para públicos-alvo de transmissão; uma atividade Read Audience é usada para cenários em lote."
+>abstract="Aciona a entrada ou a continuação da jornada quando um perfil se qualifica para um público-alvo de [!DNL Adobe Experience Platform] ou sai dele. Recomendado para públicos-alvo de transmissão. É possível usar a atividade Ler público-alvo para cenários em lote."
 
 ## Sobre eventos de qualificação de público-alvo{#about-segment-qualification}
 
@@ -70,17 +60,17 @@ Para configurar a atividade **[!UICONTROL Qualificação de público-alvo]**, si
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="Rótulo"
->abstract="Um rótulo opcional para identificar essa atividade nos relatórios e logs do modo de teste."
+>abstract="Um rótulo opcional para identificar esta atividade em relatórios e logs do modo de teste."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="Público-alvo"
->abstract="O público-alvo [!DNL Adobe Experience Platform] que o jornada monitora. Os perfis entram ou avançam à medida que se qualificam para ou saem deste público-alvo. Os públicos-alvo de transmissão são recomendados para que a qualificação seja avaliada em tempo real."
+>abstract="O público-alvo [!DNL Adobe Experience Platform] que a jornada monitora. Os perfis entram ou avançam à medida que se qualificam para o público-alvo ou saem dele. Os públicos-alvo de transmissão são recomendados para avaliar a qualificação em tempo real."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="Comportamento"
->abstract="Define a qual associação de público a jornada reage: quando os perfis se qualificam para (inserir) o público, quando saem (sair) dele ou ambos. A escuta de ambos abrange o ciclo de vida completo da associação, enquanto uma única opção restringe a jornada a uma direção."
+>abstract="Define a quais alterações de assinatura do público-alvo a jornada reage: quando os perfis se qualificam para o público-alvo (entrada), quando deixam o público-alvo (saída) ou ambos. Escutar ambos abrange todo o ciclo de vida da assinatura, enquanto uma única opção restringe a jornada a uma direção."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
@@ -119,7 +109,7 @@ Para configurar a atividade **[!UICONTROL Qualificação de público-alvo]**, si
    >[!NOTE]
    >
    >**[!UICONTROL Enter]** e **[!UICONTROL Exit]** correspondem aos status de participação de público **Realized** e **Exited** de [!DNL Adobe Experience Platform].
-   >Consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Selecione um namespace. Isso só será necessário se o evento for posicionado como a primeira etapa da jornada. Por padrão, o campo é pré-preenchido com o último namespace usado.
 
@@ -164,7 +154,7 @@ Ao usar a Qualificação de público-alvo para públicos-alvo transmitidos, há 
 
 Evite usar eventos abertos e enviados com segmentação por transmissão. Em vez disso, use sinais reais de atividade do usuário, como cliques, compras ou dados de beacon. Para lógica de frequência ou supressão, use regras de negócios em vez de enviar eventos. [Saiba mais](../audience/about-audiences.md)
 
-Consulte a [[!DNL Adobe Experience Platform] documentação de segmentação por transmissão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Consulte a [[!DNL Adobe Experience Platform] documentação de segmentação por transmissão](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 >[!NOTE]
 >
@@ -202,7 +192,7 @@ Estas são algumas das práticas recomendadas para evitar sobrecarga de sistemas
 
   ![Mensagem de erro quando o público não for encontrado em [!DNL Adobe Experience Platform]](assets/segment-error.png)
 
-* Coloque uma regra de limitação para fontes de dados e ações usadas em jornadas para evitar sobrecarga. Saiba mais em [documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=pt-BR){target="_blank"}. Observe que a regra de limitação não tem repetição. Se você precisar tentar novamente, use um caminho alternativo na jornada marcando a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]** em condições ou ações.
+* Coloque uma regra de limitação para fontes de dados e ações usadas em jornadas para evitar sobrecarga. Saiba mais em [documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. Observe que a regra de limitação não tem repetição. Se você precisar tentar novamente, use um caminho alternativo na jornada marcando a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]** em condições ou ações.
 
 * Antes de usar o público em uma jornada de produção, avalie o volume de indivíduos qualificados para esse público diariamente. Para fazer isso, verifique o menu **[!UICONTROL Público-alvo]**, abra o público-alvo e examine o gráfico **[!UICONTROL Perfis ao longo do tempo]**.
 
@@ -246,7 +236,7 @@ Siga as medidas de proteção e recomendações abaixo para criar jornadas de qu
 
 Entenda os casos de uso aplicáveis às jornadas de qualificação de público-alvo neste vídeo. Saiba como criar uma jornada com Qualificação de público-alvo e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446209?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
 
 +++ Referência de conhecimento de IA
 

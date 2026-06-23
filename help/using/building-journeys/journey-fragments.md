@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Jornada fragmentos
+title: Fragmentos de jornada
 description: Saiba como criar e usar fragmentos de jornada para salvar e reutilizar conjuntos de nós de jornada em várias jornadas no Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
@@ -14,12 +14,12 @@ subfeature_v2: []
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1671
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
 
-# Jornada fragmentos {#journey-fragments}
+# Fragmentos de jornada {#journey-fragments}
 
 >[!BEGINSHADEBOX]
 
@@ -29,7 +29,7 @@ ht-degree: 6%
 
 Os fragmentos de jornada são conjuntos reutilizáveis de nós de jornada que você pode criar uma vez e soltar em qualquer jornada na sandbox. Seja uma verificação de elegibilidade, uma lógica de roteamento de canal preferencial ou uma sequência de boas-vindas, os fragmentos ajudam as equipes a se moverem mais rápido e a permanecerem consistentes, sem reconstruir a mesma lógica do zero todas as vezes. [Consulte exemplos de caso de uso.](#examples)
 
-Depois de criados, os fragmentos são armazenados em um **[!UICONTROL Inventário de Fragmentos]** dedicado e podem ser inseridos em qualquer jornada usando a atividade **[!UICONTROL Fragmentos de Jornada]**.
+Depois de criados, os fragmentos são armazenados em um **[!UICONTROL Inventário de fragmentos]** dedicado e podem ser inseridos em qualquer jornada usando a atividade **[!UICONTROL Fragmentos de jornada]**.
 
 >[!NOTE]
 >Os fragmentos de jornada usam um **comportamento de cópia**: inserir um fragmento em uma jornada cria uma cópia estática dos nós originais. As atualizações feitas no fragmento original não são refletidas nas jornadas que já o usaram.
@@ -52,7 +52,7 @@ Você pode filtrar a lista por nome do fragmento, status, data de criação, cri
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
 >title="Salvar como um fragmento de jornada"
->abstract="Um nome de fragmento exclusivo é inserido antes de salvar. Os nós selecionados são salvos como um fragmento reutilizável disponível no Inventário de fragmentos."
+>abstract="Um nome exclusivo de fragmento é inserido antes de salvar. Os nós selecionados são salvos como um fragmento reutilizável e disponível no Inventário de fragmentos."
 
 Você pode criar um fragmento de jornada de duas maneiras: diretamente da tela de jornada (recomendado) ou do Inventário de fragmentos.
 
@@ -97,7 +97,7 @@ Para criar um fragmento diretamente do inventário:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
 >title="Propriedades do fragmento de jornada"
->abstract="Abrir um fragmento do inventário permite que nós, propriedades, tags ou rótulos sejam modificados. Os fragmentos ativos devem ser desativados antes de realizar edições."
+>abstract="Abrir um fragmento do inventário permite modificar seus respectivos nós, propriedades, tags ou rótulos. Os fragmentos ativos devem ser desativados antes de realizar edições."
 
 Para editar um fragmento, abra-o no **[!UICONTROL Inventário de fragmentos]** clicando no nome dele. Na interface de criação do fragmento, é possível:
 
