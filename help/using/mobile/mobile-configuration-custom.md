@@ -24,9 +24,9 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
+source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
 workflow-type: tm+mt
-source-wordcount: 1161
+source-wordcount: 1198
 ht-degree: 14%
 
 ---
@@ -162,6 +162,10 @@ Para enviar uma mensagem móvel no Journey Optimizer usando um provedor personal
    ![](assets/verify-connection.png)
 
 Depois de criar e configurar sua credencial de API, agora é necessário definir [as configurações de entrada para o Webhook](#webhook) para mensagens SMS.
+
+>[!TIP]
+>
+>Sempre crie e mantenha configurações de agente separadas para cada sandbox (produção, desenvolvimento, etc.) para evitar problemas de resposta do webhook entre ambientes. Não reutilize as mesmas credenciais de API, webhooks ou URLs de retorno de chamada do provedor (incluindo agentes RCS) em sandboxes.
 
 ### Opções de autenticação para Provedores de SMS personalizados {#auth-options}
 
