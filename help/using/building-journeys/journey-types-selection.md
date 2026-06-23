@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Tipos de jornada e guia de seleção
+title: 'Tipos de jornada: escolha a correta'
 description: Compare os tipos de jornada e escolha o correto para seu caso de uso com guias de decisão e matriz de compatibilidade de recursos
 feature: Journeys, Get Started, Overview
 role: User
@@ -11,30 +11,20 @@ version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 172377e79df0e214288d5a10e48f449a4009c2fb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 151b396b7945535cb4219f782dfb6a79e44463d4
 workflow-type: tm+mt
-source-wordcount: 2053
+source-wordcount: 2080
 ht-degree: 2%
 
 ---
 
-# Tipos de jornada e guia de seleção {#journey-types-selection}
+# Tipos de jornada: escolha a correta {#journey-types-selection}
 
 >[!BEGINSHADEBOX]
 
@@ -60,7 +50,7 @@ O [!DNL Adobe Journey Optimizer] oferece suporte a quatro tipos de jornada, cada
 
 **Perfeito para:** Confirmações de pedidos após a compra, emails de boas-vindas quando alguém assinar, notificações de redefinição de senha e personalização pós-logon.
 
-➡️ [Saiba mais sobre eventos](../event/about-events.md) | [Caso de uso de mensagem para assinantes](message-to-subscribers-uc.md)
+➡️ [Saiba mais sobre eventos](../event/about-events.md) | [Caso de uso de mensagem para assinantes](message-to-subscribers-uc.md) | [Criar uma jornada de eventos Unitária](#build-unitary-event)
 
 >[!TAB Ler jornadas de Público-Alvo]
 
@@ -70,7 +60,7 @@ O [!DNL Adobe Journey Optimizer] oferece suporte a quatro tipos de jornada, cada
 
 **Perfeito para:** Boletins informativos mensais, campanhas promocionais para segmentos de público-alvo, anúncios de produtos, séries recorrentes de reengajamento e campanhas de marketing sazonais.
 
-➡️ [Saiba mais sobre a Leitura de Público](read-audience.md) | [Introdução a públicos](../audience/about-audiences.md)
+➡️ [Saiba mais sobre a Leitura de Público](read-audience.md) | [Introdução a públicos](../audience/about-audiences.md) | [Criar uma jornada de Leitura de Público](#build-read-audience)
 
 >[!TAB jornadas de qualificação de público-alvo]
 
@@ -80,7 +70,7 @@ O [!DNL Adobe Journey Optimizer] oferece suporte a quatro tipos de jornada, cada
 
 **Perfeito para:** notificações de atualização no nível do VIP, mensagens de comemoração da primeira compra, alertas de risco de churn e transições de estágio do ciclo de vida de fidelidade.
 
-➡️ [Saiba mais sobre a qualificação de público-alvo](audience-qualification-events.md) | [Criando públicos-alvo](../audience/creating-a-segment-definition.md)
+➡️ [Saiba mais sobre a qualificação de público-alvo](audience-qualification-events.md) | [Criando públicos-alvo](../audience/creating-a-segment-definition.md) | [Criar uma jornada de qualificação de público-alvo](#build-audience-qualification)
 
 >[!TAB jornadas de eventos comerciais]
 
@@ -90,7 +80,7 @@ As **jornadas de eventos comerciais** são acionadas por um evento comercial (at
 
 **Perfeito para:** alertas de baixo estoque para clientes interessados, anúncios de vendas rápidas, notificações de queda de preço e alertas de produtos de volta ao estoque.
 
-➡️ [Saiba mais sobre eventos comerciais](../event/about-creating-business.md) | [Gerenciamento de entradas](entry-management.md)
+➡️ [Saiba mais sobre eventos comerciais](../event/about-creating-business.md) | [Gerenciamento de entradas](entry-management.md) | [Criar uma jornada de eventos comerciais](#build-business-event)
 
 >[!ENDTABS]
 
@@ -174,7 +164,9 @@ Nem todos os recursos estão disponíveis para todos os tipos de jornada. Use es
 
 ## Próximas etapas {#next-steps}
 
-Agora que você entende os tipos de jornada, está pronto para:
+Cada tabela lista as etapas de configuração por meio do gerenciamento para esse tipo de jornada.
+
+### Jornadas de eventos unitários {#build-unitary-event}
 
 * **[Criar a primeira jornada](journey-gs.md)** - Guia passo a passo
 * **[Saiba mais sobre o designer do jornada](using-the-journey-designer.md)** - Crie sua tela de jornada
