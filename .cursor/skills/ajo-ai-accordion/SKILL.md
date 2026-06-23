@@ -33,7 +33,7 @@ Content here — any standard markdown is valid.
 - `+++` sozinho em uma linha fecha o acordeão
 - Linha em branco antes da abertura de `+++` e após o fechamento de `+++`
 
----
+&#x200B;---
 
 ## Fluxo de trabalho
 
@@ -79,19 +79,19 @@ Depois que todos os arquivos forem processados:
 - Listar arquivos modificados ✓
 - Listar arquivos ignorados e o motivo (já tem a opção, arquivo vazio, não relevante etc.)
 
----
+&#x200B;---
 
 ## Regras de geração de conteúdo
 
 Gere o conteúdo do acordeão analisando a página de marcação. Produza as seguintes seções **em ordem**, formatadas como listas de marcadores de markdown. Ignore qualquer seção para a qual nenhum conteúdo significativo possa ser extraído da página.
 
----
+&#x200B;---
 
 ### Título do acordeão
 
 Uso: `+++AI Assistant — Page context`
 
----
+&#x200B;---
 
 ### Seções a serem geradas (em ordem)
 
@@ -103,7 +103,7 @@ Uma frase. O que esta página ensina ou habilita?
 - **TL;DR:** [one sentence summary]
 ```
 
----
+&#x200B;---
 
 **2. Intenções**
 
@@ -115,7 +115,7 @@ Lista com marcadores do que um usuário pode realizar após ler esta página (3 
 - [action the user can perform]
 ```
 
----
+&#x200B;---
 
 **3. Glossário**
 
@@ -129,7 +129,7 @@ Termos principais específicos desta página/recurso, com uma breve definição.
 
 Inclua somente termos relevantes ao tópico desta página. Não compartilhe com termos de marketing genéricos.
 
----
+&#x200B;---
 
 **4. Medidas de proteção**
 
@@ -141,7 +141,7 @@ Limitações, pré-requisitos, permissões ou restrições mencionadas na págin
 - [guardrail or prerequisite]
 ```
 
----
+&#x200B;---
 
 **5. Terminologia**
 
@@ -157,7 +157,7 @@ Nomes canônicos de produtos, siglas, variantes aceitas, sinônimos e dicas de d
 
 Inclua somente entradas presentes ou implícitas na página.
 
----
+&#x200B;---
 
 **6. Perguntas frequentes**
 
@@ -169,7 +169,7 @@ Inclua somente entradas presentes ou implícitas na página.
 - **Q: [question]** — [short answer]
 ```
 
----
+&#x200B;---
 
 ### O que NÃO incluir
 
@@ -177,7 +177,7 @@ Inclua somente entradas presentes ou implícitas na página.
 - **não** inclua instruções passo a passo (elas estão na página).
 - **não** invente conteúdo que não seja suportado pela página.
 
----
+&#x200B;---
 
 ### Modelo do acordeão completo
 
@@ -209,7 +209,7 @@ For complete understanding, this information should be combined with the documen
 +++
 ```
 
----
+&#x200B;---
 
 ## Notas
 
