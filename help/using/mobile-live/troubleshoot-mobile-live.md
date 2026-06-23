@@ -6,8 +6,12 @@ description: Saiba como solucionar problemas de atividades ativas no Journey Opt
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+feature_v2:
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
 source-git-commit: 8d7aea9c58b0f7622f3b11c21db55536ffe1cb66
 workflow-type: tm+mt
 source-wordcount: 5964
@@ -1108,7 +1112,7 @@ ORDER BY timestamp ASC
 > `identityMap` é um tipo MAP estruturado, não uma cadeia de caracteres. Use a sintaxe do acessador array e struct mostrada acima. Funções de cadeia de caracteres como `LIKE` retornarão um erro `DATATYPE_MISMATCH`.
 >
 ></br>
-&gt; O conjunto de dados do evento de feedback de mensagem armazena somente a ECID em seu "identityMap". Se o perfil afetado for identificado por um namespace personalizado em vez da ECID, resolva a ECID primeiro: navegue até **Perfis** no AEP, pesquise o perfil usando o namespace personalizado e o valor de identidade e recupere a ECID dos detalhes de identidade do perfil. Use esse valor de ECID na consulta acima.
+>&gt; O conjunto de dados do evento de feedback de mensagem armazena somente a ECID em seu "identityMap". Se o perfil afetado for identificado por um namespace personalizado em vez da ECID, resolva a ECID primeiro: navegue até **Perfis** no AEP, pesquise o perfil usando o namespace personalizado e o valor de identidade e recupere a ECID dos detalhes de identidade do perfil. Use esse valor de ECID na consulta acima.
 
 ### valores de feedbackStatus
 
