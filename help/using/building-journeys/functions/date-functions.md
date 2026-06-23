@@ -9,20 +9,15 @@ keywords: data, funções, expressão, jornada, hora
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 834
-ht-degree: 11%
+source-wordcount: 1275
+ht-degree: 7%
 
 ---
 
@@ -568,5 +563,48 @@ Retorna 28/08/2023:15:30.123+02:00.
 `updateTimeZone(@event{MyExpEvent.timestamp}, "Australia/Sydney")`
 
 Se o valor do campo de carimbo de data/hora for `2021-11-16T16:55:12.939318+01:00`, a função retornará `2021-11-17T02:55:12.942115+11:00`.
+
++++
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página documenta todas as funções de data e hora disponíveis nas expressões do AJO jornada, abordando como obter a hora atual, verificar se uma data se enquadra em uma janela de tempo relativa e modificar componentes de data/hora.
+
+**Intenções:**
+* Obter o datetime atual (com fuso horário opcional) usando `now` ou `nowWithDelta`
+* Recuperar a hora atual como um inteiro da época usando `currentTimeInMillis`
+* Verifique se um datetime está nos últimos N dias, horas, meses ou anos usando `inLastDays`, `inLastHours`, `inLastMonths`, `inLastYears`
+* Verifique se um datetime está nos próximos N dias, horas, meses ou anos usando `inNextDays`, `inNextHours`, `inNextMonths`, `inNextYears`
+* Forçar uma hora ou dia específico do mês em um valor datetime usando `setHours` ou `setDays`
+* Converta um datetime em um fuso horário diferente, preservando o mesmo instante usando `updateTimeZone`
+
+**Glossário:**
+* **dateTime**: um valor date-time que inclui informações de deslocamento de fuso horário *(específico do produto)*
+* **dateTimeOnly**: um valor date-time sem informações de fuso horário *(específico do produto)*
+* **milissegundos da época**: um número inteiro que representa o número de milissegundos decorridos desde 1970-01-01T00:00:00Z
+* **delta**: um deslocamento inteiro (positivo ou negativo) usado com `nowWithDelta` para deslocar a hora atual por um número de anos, meses, dias, horas, minutos ou segundos
+
+**Medidas de Proteção:**
+* `now()` está disponível somente em expressões jornada; para personalização de email, use `getCurrentZonedDateTime()`
+* A ID do fuso horário em `nowWithDelta` deve ser uma constante de cadeia de caracteres — não há suporte para referências de campo e expressões dinâmicas
+* A ID do fuso horário em `updateTimeZone` deve ser uma constante de cadeia de caracteres
+
+**Terminologia:**
+* Nome canônico: Funções de data — Acrônimo: none — variantes: funções de data e hora, funções temporais
+* Sinônimos: &quot;now()&quot; = &quot;current datetime&quot;; &quot;currentTimeInMillis()&quot; = &quot;current epoch miliseconds&quot;
+* Não confunda: &quot;inLastDays&quot; (retroage no tempo) ≠ &quot;inNextDays&quot; (retroage no tempo)
+* Não confunda: &quot;setHours&quot; (substitui o componente de hora) ≠ &quot;nowWithDelta&quot; (desloca a hora atual)
+* Não confunda: &quot;updateTimeZone&quot; (mesmo instante, representação de fuso horário diferente) ≠ &quot;setHours&quot; (altera o valor de tempo em si)
+
+**Perguntas frequentes:**
+* **P: Posso usar `now()` no conteúdo de personalização de email?** — Não, `now()` está disponível somente em expressões de jornada. Use `getCurrentZonedDateTime()` para personalização de email.
+* **P: Como verificar se um evento aconteceu nas últimas 24 horas?** — Use `inLastHours(@event{MyEvent.timestamp}, 24)`.
+* **P: Como faço para obter a diferença de tempo atual de 2 horas no passado?** — Use `nowWithDelta(-2, "hours")`.
+* **P: O que `updateTimeZone` faz de diferente de `setHours`?** — `updateTimeZone` mantém o mesmo instante de tempo, mas o expressa em um fuso horário diferente, enquanto `setHours` altera o componente de hora do valor datetime.
+* **P: O parâmetro de fuso horário em `nowWithDelta` pode ser um campo de perfil?** — Não, a ID do fuso horário deve ser uma constante de cadeia de caracteres; não há suporte para referências de campo.
 
 +++

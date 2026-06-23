@@ -10,29 +10,16 @@ keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 766e374ef612364ab0c1a0b32a1b2a9f68518ad5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 2787
-ht-degree: 4%
+source-wordcount: 3502
+ht-degree: 3%
 
 ---
 
@@ -255,7 +242,7 @@ Ao retomar esta jornada:
 
 ## Solução de problemas de descartes de perfis em jornadas pausadas {#discards-troubleshoot}
 
-Você pode usar o [[!DNL Adobe Experience Platform] Serviço de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=pt-BR){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
+Você pode usar o [[!DNL Adobe Experience Platform] Serviço de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar eventos de etapa, que podem fornecer mais informações sobre descartes de perfil, dependendo de quando eles ocorreram.
 
 * Para descartes que ocorrem antes que o perfil entre na jornada, use o seguinte código:
 
@@ -297,5 +284,52 @@ Você pode usar o [[!DNL Adobe Experience Platform] Serviço de consulta](https:
 
    1. Se a jornada foi pausada com a opção de suspensão selecionada, mas os perfis foram descartados porque excederam a cota de 10 milhões, esses perfis ainda serão descartados quando atingirem o próximo nó de ação.
 
++++ Referência de conhecimento de IA
 
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
 
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página explica como pausar e retomar uma jornada em tempo real no Adobe Journey Optimizer, incluindo o comportamento de bloqueio ou descarte de perfis durante a pausa, como aplicar os critérios de saída de atributos de perfil enquanto em pausa e como solucionar problemas de descartes de perfis usando o Serviço de consulta.
+
+**Intenções:**
+* Pausar uma jornada em tempo real para evitar novas entradas de perfil e manter ou descartar perfis em andamento no nó da próxima ação
+* Retomar uma jornada pausada manualmente ou entender quando ela é retomada automaticamente após o período máximo de pausa
+* Aplicar um critério de saída de atributo de perfil para excluir perfis específicos (por exemplo, por país) quando uma jornada é pausada
+* Pausar ou retomar em massa várias jornadas ativas na lista de inventário de jornada
+* Solução de problemas de descartes de perfis em uma jornada pausada usando consultas de eventos de etapa do Serviço de consulta da Adobe Experience Platform
+* Exibir a trilha de auditoria de quem pausou ou retomou uma jornada e quando
+
+**Glossário:**
+* **Pausar (jornada)**: um estado que suspende temporariamente uma jornada em tempo real, impedindo novas entradas e interrompendo o progresso do perfil no nó da próxima ação; nenhuma comunicação é enviada durante a pausa *(específico do produto)*
+* **Modo de espera**: uma opção de pausa que mantém os perfis em andamento aguardando no nó da próxima ação até que a jornada retome *(específico do produto)*
+* **Modo de descarte**: uma opção de pausa que sai de perfis em andamento da jornada quando eles atingem o nó da próxima ação *(específico do produto)*
+* **Critérios de saída baseados em atributo de perfil**: um filtro aplicado a uma jornada pausada que exclui perfis correspondentes a uma expressão definida no nó da próxima ação após a retomada *(específico do produto)*
+* **Pausa em massa / Retomada em massa**: a capacidade de pausar ou retomar várias jornadas ativas ou pausadas simultaneamente a partir da lista de estoque de jornadas *(específico do produto)*
+
+**Medidas de Proteção:**
+* Somente usuários com a permissão **Publicar jornadas** podem pausar e retomar jornadas
+* Uma jornada pode ser pausada por no máximo 14 dias; depois disso, ela será retomada automaticamente
+* Um máximo de 10 milhões de perfis pode ser retido em todas as jornadas pausadas em uma organização. Os perfis em excesso são automaticamente descartados
+* Somente um critério de saída baseado em atributo de perfil pode ser definido por jornada
+* Os critérios de saída baseados em atributos de perfil só podem ser criados, atualizados ou excluídos enquanto a jornada é pausada
+* Contagem de jornadas pausadas para a cota de jornada ativa
+* O tempo limite global de Jornada (91 dias) ainda se aplica durante uma pausa
+* As comunicações de atividade de entrada já acionadas antes da pausa continuam a ser entregues; para interrompê-las, a jornada deve ser totalmente interrompida
+* Os alertas de segmento em lote não são acionados em jornadas pausadas
+* As entradas novas são sempre descartadas quando uma jornada é pausada, independentemente do modo Manter ou Descartar
+
+**Terminologia:**
+* Nome canônico: Pausar uma jornada — Acrônimo: none — variantes: jornada pausar, pausar/retomar
+* Sinônimos: &quot;Reter&quot; = &quot;estacionar perfis&quot;; &quot;Descartar&quot; = &quot;sair perfis&quot;
+* Não confunda: &quot;Pause&quot; ≠ &quot;Stop&quot; — A pausa é temporária e permite a retomada; Stop sai imediatamente de todos os perfis e não pode ser desfeita em um estado ativo
+* Não confunda: &quot;Pause&quot; ≠ &quot;Fechar para novas entradas&quot; — Fechar para novas entradas permite que os perfis existentes sejam concluídos, mas não os suspende; Pause suspende todos os perfis em andamento no nó de ação seguinte
+
+**Perguntas frequentes:**
+* **P: O que acontece com os perfis que já estão em uma jornada quando ela está pausada?** — Dependendo da opção escolhida no momento da pausa, os perfis são mantidos (aguardando no nó de ação seguinte) ou descartados (saídos da jornada no nó de ação seguinte).
+* **P: Por quanto tempo uma jornada pode permanecer em pausa?** — Um máximo de 14 dias; depois disso, ele é retomado automaticamente.
+* **P: Posso excluir determinados perfis enquanto uma jornada está pausada?** — Sim; aplique um critério de saída baseado em atributo de perfil (um por jornada) enquanto a jornada é pausada para excluir perfis correspondentes no nó da próxima ação após a retomada.
+* **P: A pausa de uma jornada interrompe mensagens no aplicativo ou da Web já foi acionada?** — Não; as comunicações de entrada já acionadas antes da pausa continuam a ser entregues. Para interromper todas as comunicações de entrada, é necessário interromper a jornada completamente.
+* **P: Como descobrir quais perfis foram descartados durante uma pausa?** — Consulte o conjunto de dados `journey_step_events` no Serviço de consulta do Adobe Experience Platform usando os filtros de tipo de evento `PAUSED_JOURNEY_VERSION` ou `JOURNEY_IN_PAUSED_STATE` com a ID de versão do jornada.
+
++++

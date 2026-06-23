@@ -1,5 +1,5 @@
 ---
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - `+++` sozinho em uma linha fecha o acordeão
 - Linha em branco antes da abertura de `+++` e após o fechamento de `+++`
 
-&#x200B;---
+---
 
 ## Fluxo de trabalho
 
@@ -58,7 +58,7 @@ Anexar no final do arquivo. Não modifique nenhum outro conteúdo.
 - Arquivos modificados ✓
 - Arquivos ignorados + motivo (já tem a opção acordeão / vazia / página de índice)
 
-&#x200B;---
+---
 
 ## Regras de geração de conteúdo
 
@@ -135,7 +135,11 @@ Nomes canônicos, siglas, variantes aceitas, sinônimos, desambiguação. Princi
 ### Modelo completo
 
 ```markdown
-+++AI Assistant — Page context
++++ AI Knowledge Reference
+
+This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
+
+For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
 - **TL;DR:** [one sentence]
 
@@ -159,7 +163,7 @@ Nomes canônicos, siglas, variantes aceitas, sinônimos, desambiguação. Princi
 +++
 ```
 
-&#x200B;---
+---
 
 ## Notas
 

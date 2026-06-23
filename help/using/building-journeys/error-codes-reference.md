@@ -11,9 +11,9 @@ keywords: error, codes, troubleshooting, jornada, campaign, messages (erro, cód
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2358
+source-wordcount: 2902
 ht-degree: 3%
 
 ---
@@ -73,7 +73,7 @@ Esses erros ocorrem durante a execução da jornada, o processamento de eventos 
 
 | Código de erro | Descrição | Causa raiz | Resolução |
 |------------|-------------|-----------|-----------|
-| **CJMRT-110001-500** | O máximo de execuções foi excedido para a etapa do fluxo de trabalho (por exemplo, a etapa do Provisionamento de afinidade de IP expira) | A tarefa de fluxo de trabalho/provisionamento não foi concluída dentro de novas tentativas/tempo permitido, geralmente devido a atraso de infraestrutura/serviço ou problema temporário de back-end | &#x200B;1. Tente novamente após algum tempo<br/>2. Verifique se há interrupções em [Adobe Status](https://status.adobe.com/pt-br/)<br/>3. Escalone para o Suporte da Adobe com detalhes de fluxo de trabalho/trabalho/organização<br/>4. Fornecer logs e capturas de rede, se disponíveis <br/><br/>**Documentação relacionada**: [solução de problemas de Jornada](troubleshooting.md) |
+| **CJMRT-110001-500** | O máximo de execuções foi excedido para a etapa do fluxo de trabalho (por exemplo, a etapa do Provisionamento de afinidade de IP expira) | A tarefa de fluxo de trabalho/provisionamento não foi concluída dentro de novas tentativas/tempo permitido, geralmente devido a atraso de infraestrutura/serviço ou problema temporário de back-end | &#x200B;1. Tente novamente após algum tempo<br/>2. Verifique se há interrupções em [Adobe Status](https://status.adobe.com/)<br/>3. Escalone para o Suporte da Adobe com detalhes de fluxo de trabalho/trabalho/organização<br/>4. Fornecer logs e capturas de rede, se disponíveis <br/><br/>**Documentação relacionada**: [solução de problemas de Jornada](troubleshooting.md) |
 | **CJMRT-000071-400** | Solicitação inválida durante evento de jornada/teste ou chamada de API | A carga/parâmetros estão malformados ou ausentes; a entrada faz referência a um recurso inexistente ou inativo | &#x200B;1. Revise o corpo da solicitação para obter detalhes do erro<br/>2. Referência/parâmetro correto<br/>3. Remova a configuração avançada e tente novamente<br/>4. Adicione recursos um por um para identificar o problema <br/><br/>**Documentação relacionada**: [solução de problemas de Jornada](troubleshooting.md), [Configuração de eventos](../event/about-events.md) |
 | **CJMRT-000013-401** | Erro não autorizado durante a operação de tempo de execução de mensagem/evento de API | Falha de autenticação: o token expirou, as permissões estão ausentes ou a integração/usuário perdeu o acesso ao ambiente | &#x200B;1. Verifique as permissões e funções<br/>2. Atualizar token de autenticação<br/>3. Use uma conta de usuário/serviço válida e conhecida<br/>4. Revisar atribuições de perfil de produto <br/><br/>**Documentação relacionada**: [Permissões](../administration/permissions.md) |
 | **CJMRT-080605-400** | Solicitação inválida do tempo de execução do jornada (por exemplo, acionador de nó, ação etc.) | A configuração faz referência a um recurso/modelo/canal removido/renomeado ou desatualizado | &#x200B;1. Validar todas as referências de recurso<br/>2. Auditoria de configuração de jornada e sinalizadores de recursos<br/>3. Atualizar referências corrompidas<br/>4. Revise as atualizações e migrações recentes do sistema <br/><br/>**Documentação relacionada**: [criação de Jornadas](journey-gs.md) |
@@ -91,7 +91,7 @@ Esses erros ocorrem ao criar, editar ou publicar mensagens, predefinições e co
 | Código de erro | Descrição | Causa raiz | Resolução |
 |------------|-------------|-----------|-----------|
 | **CJMAS-1732-500** | Falha na prova - Todos os ativos não publicados ao enviar prova/teste com o ativo do AEM | O ativo publicado recentemente ainda não está no AJO; incompatibilidade de ID de ativo; uso entre repositórios; atraso de sincronização do AEM | &#x200B;1. Use somente IDs de ativos publicadas do repositório/ambiente correto<br/>2. Permitir tempo para sincronização entre o AEM e o AJO<br/>3. Tente novamente com um ativo em boas condições<br/>4. Verificar o status de publicação do ativo no AEM <br/><br/>**Documentação relacionada**: [integração com o Assets](../integrations/assets.md) |
-| **CJMAS-1069-500** | Erro interno ao salvar ou publicar modelo de mensagem | Exceção de backend (bug de infraestrutura/serviço ou problema de conteúdo); marcação/recurso não suportado | &#x200B;1. Simplifique ou reduza a complexidade do modelo<br/>2. Adicione novamente o conteúdo em etapas incrementais para identificar o problema<br/>3. Verifique a [página do Adobe Status](https://status.adobe.com/pt-br/)<br/>4. Remover recursos ou marcação sem suporte <br/><br/>**Documentação relacionada**: [Modelos de conteúdo](../content-management/content-templates.md) |
+| **CJMAS-1069-500** | Erro interno ao salvar ou publicar modelo de mensagem | Exceção de backend (bug de infraestrutura/serviço ou problema de conteúdo); marcação/recurso não suportado | &#x200B;1. Simplifique ou reduza a complexidade do modelo<br/>2. Adicione novamente o conteúdo em etapas incrementais para identificar o problema<br/>3. Verifique a [página do Adobe Status](https://status.adobe.com/)<br/>4. Remover recursos ou marcação sem suporte <br/><br/>**Documentação relacionada**: [Modelos de conteúdo](../content-management/content-templates.md) |
 | **CJMAS-1149-400** | Solicitação inválida ao salvar mensagem, predefinição ou variante | Campos obrigatórios ausentes na mensagem ou configuração incorreta | &#x200B;1. Preencha todos os campos obrigatórios (marcados com asterisco)<br/>2. Validar configuração de mensagem/predefinição<br/>3. Verificar formatos e restrições de valor de campo<br/>4. Examine as mensagens de validação na interface <br/><br/>**Documentação relacionada**: [Canal de email](../email/get-started-email.md), [Superfícies de canal](../configuration/channel-surfaces.md) |
 | **CJMAS-2073-422** | Entidade não processável na edição de predefinição de mensagem | Erro de validação, campo incompatível ou sintaxe incorreta | &#x200B;1. Corrija os erros de sintaxe/campo conforme indicado<br/>2. Compare com uma configuração em boas condições<br/>3. Use a validação da interface de mensagem antes de salvar<br/>4. Examine os requisitos de campo na documentação <br/><br/>**Documentação relacionada**: [Predefinições de mensagem](../configuration/channel-surfaces.md), [Configurações de email](../email/email-settings.md) |
 | **CJMAS-1300-500** | Erro interno da criação de mensagens | Falha no back-end devido a problemas de infraestrutura, grande conteúdo ou tempo de inatividade do serviço | &#x200B;1. Simplifique o modelo/conteúdo (reduza o tamanho/a complexidade)<br/>2. Repita a operação<br/>3. Salve o trabalho incrementalmente<br/>4. Se for persistente, encaminhe para o Suporte da Adobe <br/><br/>**Documentação relacionada**: [Modelos de conteúdo](../content-management/content-templates.md) |
@@ -189,16 +189,65 @@ Use essas práticas para reduzir erros evitáveis e melhorar a confiabilidade.
 Se você encontrar erros persistentes que não podem ser resolvidos usando este guia:
 
 1. **Coletar informações**: coletar o código de erro, a ID da solicitação, os carimbos de data/hora e as etapas para reproduzir
-2. **Verificar status do sistema**: Visite [Adobe Status](https://status.adobe.com/pt-br/){target="_blank"} para ver se há problemas de serviço conhecidos
+2. **Verificar status do sistema**: Visite [Adobe Status](https://status.adobe.com/){target="_blank"} para ver se há problemas de serviço conhecidos
 3. **Pesquisar documentação**: consulte a [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=pt-BR){target="_blank"} para obter soluções
-4. **Engajar a comunidade**: postar perguntas na [[!DNL Adobe Journey Optimizer] Comunidade](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}
+4. **Engajar a comunidade**: postar perguntas na [[!DNL Adobe Journey Optimizer] Comunidade](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 5. **Contate o Suporte da Adobe**: [Envie um tíquete de suporte](../start/user-interface.md#support-ticket-guidelines) com todos os detalhes relevantes
 
 >[!NOTE]
 >
->Esta referência de código de erro é atualizada continuamente à medida que novos códigos são identificados e documentados. Para obter as informações mais atuais, verifique os [[!DNL Adobe Journey Optimizer] Blogs da comunidade](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=pt){target="_blank"} regularmente.
+>Esta referência de código de erro é atualizada continuamente à medida que novos códigos são identificados e documentados. Para obter as informações mais atuais, verifique os [[!DNL Adobe Journey Optimizer] Blogs da comunidade](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"} regularmente.
 
 **Tópicos relacionados**
 
-* [Desmistificando [!DNL Adobe Journey Optimizer] Códigos de Erro: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=pt){target="_blank"}
-* [Desmistificando [!DNL Adobe Journey Optimizer] Códigos de Erro: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=pt){target="_blank"}
+* [Desmistificando [!DNL Adobe Journey Optimizer] Códigos de Erro: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Desmistificando [!DNL Adobe Journey Optimizer] Códigos de Erro: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página é um guia de referência para códigos de erro padronizados do Adobe Journey Optimizer organizados por prefixo de serviço, explicando a causa raiz de cada erro e fornecendo orientação passo a passo sobre a resolução.
+
+**Intenções:**
+
+* Identifique qual serviço do AJO gerou um erro usando o prefixo do serviço no código de erro
+* Diagnosticar e resolver erros de envio/transporte (CJMPTS) que afetam a entrega de mensagens
+* Solução de problemas de tempo de execução de jornada e erros de API (CJMRT) durante a execução da jornada ou o processamento do evento
+* Corrigir erros de criação de mensagens (CJMAS) ao criar, salvar ou publicar mensagens
+* Resolver erros de campanha (CJMCMP) durante a ativação ou aprovação da campanha
+* Encaminhar erros persistentes ao suporte da Adobe com as informações corretas
+
+**Glossário:**
+
+* **Prefixo do serviço**: o código alfanumérico no início de um código de erro do AJO que identifica qual serviço gerou o erro (por exemplo, CJMRT = Tempo de Execução de Jornada) *(específico do produto)*
+* **Código de status HTTP**: o código de status padrão inserido em um código de erro AJO (por exemplo, 400 = Solicitação inválida, 403 = Proibido, 422 = Entidade não processável, 500 = Erro Interno do Servidor)
+* **ID da Solicitação**: um identificador exclusivo que acompanha um erro que é necessário ao encaminhar para o Suporte da Adobe *(específico do produto)*
+* **CJMRT**: prefixo do serviço de Tempo de Execução de Jornada — erros durante a execução da jornada e operações de API *(específico do produto)*
+* **CJMMAS**: Prefixo do Serviço de Autoria de Mensagens — erros durante a criação e publicação da mensagem *(específico do produto)*
+* **CJMPTS**: prefixo de Serviço de Push/Transporte — erros durante notificação por push e transporte de mensagem *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* As variantes de email devem incluir um link para opção de não participação/cancelamento de inscrição; sua omissão aciona o CJMAS-2001-200.
+* A interrupção de uma jornada requer a permissão Gerenciar jornadas (relevante para erros CJMRT envolvendo permissões).
+* A propagação DNS para delegação de subdomínio pode levar até 72 horas (relevante para o CJMRT-080608-400).
+* As chaves de pesquisa para atividades de pesquisa de conjunto de dados devem ser definidas no modo avançado, não no modo simples.
+
+**Terminologia:**
+
+* Nome canônico: Código de erro — Acrônimo: n/a — variantes: mensagem de erro, identificador de erro
+* Sinônimos: &quot;prefixo de serviço&quot; = &quot;prefixo de erro&quot; = &quot;identificador de componente&quot;
+* Não confunda: &quot;400 Solicitação incorreta&quot; ≠ &quot;422 Entidade não processável&quot; — 400 indica entrada malformada; 422 indica formato válido, mas conteúdo inválido por regras de esquema
+
+**Perguntas frequentes:**
+
+* **P: Como saber qual serviço AJO causou um erro?** — Leia o prefixo do serviço no início do código de erro: CJMPTS (push/transporte), CJMRT (tempo de execução da jornada), CJMAS (criação de mensagens), CJMCMP (campanha), CJMTL (camada de transporte), CJMRPS (relatórios/provisionamento).
+* **P: O que devo fazer quando receber um erro de série 500?** — Tente novamente após alguns minutos, verifique se há interrupções no Adobe Status e encaminhe para o Suporte da Adobe com o código de erro completo e a ID da solicitação se o problema persistir.
+* **P: Por que o CJMAS-2001-200 mostra um banner de erro mesmo que o status seja &quot;sucesso&quot;?** — Um link obrigatório de recusa/cancelamento de inscrição está ausente em uma variante de email; adicione-o a todas as variantes e versões de idioma.
+* **P: Quais informações devo coletar antes de contatar o Suporte da Adobe?** — colete o código de erro completo, a ID da solicitação, os carimbos de data e hora, as etapas de reprodução e todos os detalhes de configuração relevantes.
+* **P: O que causa o CJMRT-030012-422?** — Dados de entrada inválidos, como referência a um público-alvo, evento ou atributo não existente; verifique se todos os objetos referenciados existem e estão ativos.
+
++++

@@ -11,10 +11,10 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 874
-ht-degree: 10%
+source-wordcount: 1339
+ht-degree: 6%
 
 ---
 
@@ -201,3 +201,51 @@ Agora que você entende as funções disponíveis, explore:
 * **[Sintaxe de expressão](generalities.md)** - Domine as regras de sintaxe para gravar expressões de jornada
 * **[Operadores](operators.md)** - Descubra operadores que você pode usar com funções para criar lógica
 * **[Referências de campo](field-references.md)** - Entenda como fazer referência a campos de dados em suas expressões
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página é uma referência categorizada de todas as mais de 60 funções internas disponíveis no editor de expressão avançado do Jornada, que abrangem as funções de agregação, conversão, data/hora, lista, matemática, cadeia de caracteres e público-alvo da Adobe Experience Platform.
+
+**Intenções:**
+
+* Identifique a função correta para uma tarefa navegando pelas tabelas de funções categorizadas
+* Transforme tipos de dados entre sequência, inteiro, decimal, booleano, data e duração usando funções de conversão
+* Executar filtragem baseada em data com funções como `inLastDays`, `inNextHours` e `nowWithDelta`
+* Manipular e validar valores de cadeia de caracteres usando funções como `contain`, `replace`, `split` e `trim`
+* Executar cálculos estatísticos em coleções usando funções de agregação como `count`, `avg`, `sum` e `distinctCount`
+* Verificar associação de público-alvo em condições de jornada usando a função `inAudience`
+
+**Glossário:**
+
+* **Funções de agregação**: funções que calculam um único valor (contagem, soma, média, mín., máx.) de uma coleção de valores *(específico do produto)*
+* **Funções de conversão**: funções que convertem um valor de um tipo de dados em outro (por exemplo, `toString`, `toDateTime`, `toDuration`) *(específico do produto)*
+* **Funções de data**: funções para trabalhar com valores de data, hora e fuso horário em expressões de jornada *(específico do produto)*
+* **Funções de lista**: funções para filtragem, classificação e análise de dados de matriz/coleção *(específico do produto)*
+* **inAudience**: uma função que verifica se um perfil pertence a um segmento de público-alvo do Adobe Experience Platform especificado *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* As funções seguem uma sintaxe consistente: `functionName(param1, param2, ...)`
+* Uma função pode ter várias assinaturas (diferentes conjuntos de parâmetros) para lidar com diferentes casos de uso
+* Cada função tem um tipo de retorno fixo — verifique se o tipo de retorno corresponde ao que o contexto de expressão espera
+* As funções disponíveis no editor de expressão de Jornada são diferentes daquelas no editor de personalização
+
+**Terminologia:**
+
+* Nome canônico: Funções — Acrônimo: none — variantes: funções incorporadas, funções de expressão
+* Sinônimos: &quot;funções de agregação&quot; = &quot;funções estatísticas&quot;; &quot;funções de conversão&quot; = &quot;funções de projeção de tipo&quot;
+* Não confunda: funções de expressão de jornada ≠ funções do editor de personalização (conjuntos diferentes)
+
+**Perguntas frequentes:**
+
+* **P: Quantas funções estão disponíveis no editor de expressão de Jornada?** — Mais de 60 funções organizadas em categorias, incluindo agregação, conversão, data, lista, matemática, string e Adobe Experience Platform.
+* **P: Como verificar se um perfil pertence a um público-alvo em uma condição de jornada?** — Use a função `inAudience` com o identificador de público.
+* **P: Qual função devo usar para obter a diferença de data e hora atual em um número de dias?** — Use `nowWithDelta(N, "days")` para obter um deslocamento de dateTime a partir da hora atual.
+* **P: uma função pode retornar tipos diferentes dependendo de como ela é chamada?** — Uma função tem um tipo de retorno específico por assinatura, mas um único nome de função pode ter várias assinaturas com diferentes conjuntos de parâmetros e tipos de retorno.
+* **P: Qual é a diferença entre `count` e `countWithNull`?** — `count` conta somente elementos não nulos; `countWithNull` conta todos os elementos, inclusive nulos.
+
++++

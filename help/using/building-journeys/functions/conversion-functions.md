@@ -9,17 +9,14 @@ keywords: conversão, funções, expressão, jornada, tipo, conversão
 version: Journey Orchestration
 exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
 TQID: https://experienceleague.adobe.com/CoDxFCoJOwwmPHOG6pxMxmSASUbATkUoguBjNkrMKeQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1271
-ht-degree: 6%
+source-wordcount: 1723
+ht-degree: 4%
 
 ---
 
@@ -461,5 +458,49 @@ Retorna a representação da string do campo dateOnly fornecido (campo XDM Date)
 `toString(toDuration(1520))`
 
 Retorna &quot;PT1.52S&quot;.
+
++++
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página documenta todas as funções de conversão em expressões de jornada do AJO, explicando como transformar valores entre tipos como sequência, inteiro, decimal, booleano, data, data e hora e duração.
+
+**Intenções:**
+* Converter uma cadeia de caracteres ou um inteiro de época em um datetime com reconhecimento de fuso horário usando `toDateTime`
+* Converter uma string ou datetime em um datetime sem fuso horário usando `toDateTimeOnly`
+* Extrair um valor somente de data (dia-mês-ano) de uma string ou datetime usando `toDateOnly`
+* Converter um valor em um inteiro, decimal ou booleano usando `toInteger`, `toDecimal` ou `toBool`
+* Serializar qualquer valor para sua representação de cadeia de caracteres usando `toString`
+* Converter uma cadeia de caracteres ou um inteiro de milissegundos em uma duração usando `toDuration`
+
+**Glossário:**
+* **dateTime**: um valor datetime que inclui informações de deslocamento de fuso horário *(específico do produto)*
+* **dateTimeOnly**: um valor datetime sem informações de fuso horário *(específico do produto)*
+* **dateOnly**: um valor de data que representa o ano-mês-dia sem componente de tempo *(específico do produto)*
+* **duração**: um período expresso no formato ISO-8601 (por exemplo, PT10H) *(específico do produto)*
+* **milissegundos da época**: carimbo de data/hora Unix expresso em milissegundos desde 1970-01-01T00:00:00Z
+
+**Medidas de Proteção:**
+* O argumento de fuso horário em `toDateTime` deve ser uma constante de cadeia de caracteres — referências de campo e expressões dinâmicas não são permitidas
+* As entradas de cadeia de caracteres para `toDateTime` e `toDateTimeOnly` devem seguir o formato ISO-8601; cadeias de caracteres malformadas retornam nulo sem erro
+* `toDateTime` com um número inteiro de época espera milissegundos; multiplique os carimbos de data/hora baseados em segundos por 1000 antes de passar
+* `toBool` retorna `true` somente para a sequência exata `"true"`; sequências como `"1"`, `"yes"` ou `"TRUE"` retornam `false`
+
+**Terminologia:**
+* Nome canônico: Funções de conversão — Acrônimo: none — variantes: funções de fundição de tipo, funções de conversão de tipo
+* Sinônimos: &quot;toDateTime&quot; = &quot;converter em datetime com fuso horário&quot;; &quot;toDateTimeOnly&quot; = &quot;converter em datetime sem fuso horário&quot;
+* Não confunda: &quot;toDateTime&quot; (sensível ao fuso horário) ≠ &quot;toDateTimeOnly&quot; (sem fuso horário)
+* Não confunda: &quot;toDateOnly&quot; (somente data, sem hora) ≠ &quot;toDateTime&quot; (data e hora com fuso horário)
+
+**Perguntas frequentes:**
+* **P: Quando devo usar `toDateTime` x `toDateTimeOnly`?** — Use `toDateTime` quando as informações de fuso horário forem importantes (por exemplo, agendamento ou comparações entre regiões); use `toDateTimeOnly` quando apenas a data-hora local for relevante e o fuso horário puder ser ignorado.
+* **P: Por que `toBool("TRUE")` retorna falso?** — `toBool` reconhece somente a cadeia de caracteres `"true"` em minúsculas; todos os outros valores de cadeia de caracteres, incluindo `"TRUE"` ou `"yes"`, retornam false.
+* **P: Como converter um carimbo de data/hora Unix em segundos para um dateTime?** — Multiplique o valor de segundos por 1000 para obter milissegundos e passe-o para `toDateTime`, por exemplo, `toDateTime(myField * 1000)`.
+* **P: O fuso horário em `toDateTime` pode ser lido de um atributo de perfil?** — Não, a ID do fuso horário deve ser uma constante de string; referências de campo e expressões não são compatíveis.
+* **P: Qual formato `toDuration` aceita como sequência de caracteres?** — Formato de duração ISO-8601, por exemplo, `"PT10H"` para 10 horas ou `"P1DT2H"` para 1 dia e 2 horas.
 
 +++

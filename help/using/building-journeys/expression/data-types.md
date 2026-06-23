@@ -10,17 +10,14 @@ keywords: expressão, dados, tipo de dados, jornada
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/0UKY3G4hyMnSkzh8wlMx-yQ1yymKjs6FuIBdGo1SJqc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 671
-ht-degree: 5%
+source-wordcount: 1124
+ht-degree: 3%
 
 ---
 
@@ -130,7 +127,7 @@ false
 true
 ```
 
-## dateOnly {#date-only}
+## dateOnly {#date-only}
 
 **Descrição**
 
@@ -158,7 +155,7 @@ date("<dateOnly in ISO-8601 format>")
 date("2021-02-19")
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **Descrição**
 
@@ -348,3 +345,50 @@ Não há suporte para polimorfismo, portanto, todas as expressões contidas na l
 ```json
 [toDuration(500),toDuration(800)]
 ```
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página descreve cada tipo de dados com suporte no editor de expressão avançado de Jornada — cadeia de caracteres, inteiro, decimal, booleano, dateOnly, dateTimeOnly, dateTime, duration e list — com seus formatos JSON, regras de serialização e sintaxe de representação literal.
+
+**Intenções:**
+
+* Identificar a sintaxe literal correta para cada tipo de dados ao gravar expressões de jornada
+* Entenda a diferença entre os tipos `dateOnly`, `dateTimeOnly` e `dateTime` e quando usar cada um
+* Representa um valor de duração usando o formato ISO-8601 ou milissegundos com a função `toDuration()`
+* Construir uma expressão de lista com sintaxe de colchetes para uso em operações de coleta
+* Usar funções de conversão (`toDateTime`, `toDateTimeOnly`, `toDuration`, `toDateOnly`) para criar constantes digitadas
+
+**Glossário:**
+
+* **dateOnly**: uma data sem hora ou fuso horário, formatada como AAAA-MM-DD; adequada para aniversários ou datas do calendário *(específica do produto)*
+* **dateTimeOnly**: uma data e hora sem informações de fuso horário; não pode representar um instante específico sem um deslocamento *(específico do produto)*
+* **dateTime**: uma constante de data-hora que inclui um deslocamento UTC, representando um instante específico; também pode ser criada a partir de um inteiro da época *(específico do produto)*
+* **duração**: uma quantidade baseada em tempo modelada em milissegundos; usa o formato ISO-8601 `PnDTnHnMn.nS`; anos e meses não são suportados *(específico do produto)*
+* **lista**: uma coleção separada por vírgulas de expressões do mesmo tipo, delimitada por colchetes *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* A duração é compatível somente com milissegundos, segundos, minutos, horas e dias — anos e meses não são compatíveis, pois não são períodos fixos
+* Um valor `duration` deve ser ajustado em `toDuration()` — ele não pode ser expresso como um literal simples
+* Todas as expressões em um `list` devem ter o mesmo tipo — não há suporte para polimorfismo
+* `dateTimeOnly` não pode representar um instante de tempo sem um deslocamento ou fuso horário adicional
+
+**Terminologia:**
+
+* Nome canônico: Tipos de dados — Acrônimo: none — variantes: tipos de dados de expressão, tipos de dados de jornada
+* Sinônimos: &quot;dateTime&quot; = &quot;date-time com fuso horário&quot;; &quot;dateTimeOnly&quot; = &quot;date-time local&quot;
+* Não confundir: `dateOnly` (sem hora) ≠ `dateTimeOnly` (data + hora, sem fuso horário) ≠ `dateTime` (data + hora + fuso horário/deslocamento)
+
+**Perguntas frequentes:**
+
+* **P: Qual é a diferença entre `dateTimeOnly` e `dateTime`?** — `dateTimeOnly` não tem fuso horário ou deslocamento e não pode representar um instante preciso; `dateTime` inclui um deslocamento UTC e representa um momento específico.
+* **P: Como posso expressar uma duração de 2 dias e 3 horas?** — Use `toDuration("P2DT3H")`.
+* **P: Posso misturar inteiros e cadeias de caracteres em uma expressão de lista?** — Não; todas as expressões em uma lista devem ser do mesmo tipo.
+* **P: Como faço para criar um `dateTime` a partir de um carimbo de data e hora de época em milissegundos?** — Use `toDateTime(<epoch in milliseconds>)`, por exemplo `toDateTime(1560762190189)`.
+* **P: `true` ou `True` é o literal booleano correto?** — Use minúsculas `true` ou `false`; variantes em maiúsculas não são válidas.
+
++++

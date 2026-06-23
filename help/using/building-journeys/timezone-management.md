@@ -11,22 +11,16 @@ keywords: time zone, properties, jornada, condition, time, date, custom
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/PdwGEuWqJcncbkokE0eOhMaEk9L0AmCJ--VZBxxtDDU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 15%
+source-wordcount: 996
+ht-degree: 6%
 
 ---
 
@@ -88,3 +82,43 @@ Se um fuso horário tiver sido definido para um perfil, ele será recuperado e u
 ## Usar fusos horários em expressões {#timezone-in-expressions}
 
 As datas de início e término de uma jornada não podem ser vinculadas a um fuso horário específico. Eles são associados automaticamente ao fuso horário da instância.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página explica como definir as configurações de fuso horário nas propriedades do Adobe Journey Optimizer jornada, escolhendo entre um fuso horário fixo aplicado a todos os perfis ou um fuso horário por perfil originado no Perfil de Cliente em Tempo Real.
+
+**Intenções:**
+* Defina um fuso horário fixo em uma jornada para que todos os perfis sigam a mesma referência de tempo para condições e esperas
+* Ative o fuso horário por perfil para que as atividades Aguardar e Condição usem a preferência de fuso horário armazenado de cada indivíduo
+* Entenda quais atividades de jornada são afetadas pela configuração de fuso horário da jornada
+* Identificar o grupo de campos de perfil que armazena o valor de fuso horário individual
+
+**Glossário:**
+* **Fuso horário fixo**: um único fuso horário selecionado nas Propriedades de Jornada que se aplica uniformemente a cada perfil que entra na jornada *(específico do produto)*
+* **Fuso horário do perfil**: o fuso horário individual armazenado no campo `timeZone` do grupo de campos Detalhes da Preferência, usado quando a opção &quot;Usar fuso horário do perfil em esperas e condições&quot; está habilitada *(específico do produto)*
+* **Grupo de campos de Detalhes da Preferência**: o grupo de campos XDM que contém o atributo `timeZone` usado para a resolução de fuso horário no nível do perfil
+
+**Medidas de Proteção:**
+* A opção &quot;Usar fuso horário do perfil em esperas e condições&quot; só estará disponível quando o evento de entrada da jornada tiver um namespace (ou seja, a jornada pode acessar o serviço de Perfil do cliente em tempo real)
+* A opção não está marcada por padrão; o fuso horário fixo é usado, a menos que explicitamente habilitado
+* Se a opção estiver ativada, mas nenhum fuso horário estiver definido no perfil, a jornada voltará para o fuso horário fixo definido nas propriedades da jornada
+* As datas de início e término da jornada não podem ser vinculadas a um fuso horário específico; elas são associadas automaticamente ao fuso horário da instância
+
+**Terminologia:**
+* Nome canônico: Gerenciamento de fuso horário — Acrônimo: none — variantes: configuração de fuso horário, fuso horário de jornada
+* Sinônimos: &quot;fuso horário fixo&quot; = &quot;igual para todos os indivíduos&quot;; &quot;fuso horário do perfil&quot; = &quot;Usar fuso horário do perfil em esperas e condições&quot;
+* Não confunda: &quot;Fuso horário da jornada&quot; (aplica-se a atividades) ≠ &quot;fuso horário da instância&quot; (aplica-se às datas de início/término da jornada, definidas automaticamente)
+
+**Perguntas frequentes:**
+* **P: Onde posso definir o fuso horário de uma jornada?** — No painel Propriedades da Jornada, acessível por meio do ícone de lápis na parte superior direita da tela de jornada.
+* **P: Quais atividades usam o fuso horário da jornada?** — Condições de tempo, condições de data e atividades personalizadas de espera.
+* **P: Como faço para que cada perfil siga seu próprio fuso horário local?** — Em Propriedades de Jornada, ative a opção &quot;Usar fuso horário do perfil em esperas e condições&quot;. Isso requer que a jornada tenha um namespace para que possa alcançar o serviço de Perfil do cliente em tempo real.
+* **P: O que acontece se um perfil não tiver fuso horário definido e a opção de fuso horário do perfil estiver habilitada?** — A jornada retorna ao fuso horário fixo definido no campo fuso horário em Propriedades da Jornada.
+* **P: Qual campo de perfil armazena o fuso horário do indivíduo?** — O campo `timeZone` no grupo de campos Detalhes da Preferência no esquema de perfil.
+* **P: Posso definir as datas de início e término da jornada para um fuso horário específico?** — Não. As datas de início e término da jornada são associadas automaticamente ao fuso horário da instância e não podem ser vinculadas a um fuso horário personalizado.
+
++++

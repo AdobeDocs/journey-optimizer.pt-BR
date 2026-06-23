@@ -11,28 +11,16 @@ keywords: caso de uso, vários canais, mensagens, jornada, canal, eventos, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/o4-7bKdQzB3Yyz22khT4RHNpNvKL0sCg8YPPnaeav9I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1088
-ht-degree: 1%
+source-wordcount: 1720
+ht-degree: 0%
 
 ---
 
@@ -166,4 +154,52 @@ Conecte as subjornadas usando a atividade [**[!UICONTROL Jump]**](jump.md) para 
 >
 >If your goal is to build a gamified loyalty program with challenges, tasks, and built-in reward tracking, Journey Optimizer also offers a dedicated **Loyalty Challenges** capability.
 -->
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página apresenta dois casos de uso práticos de jornada: um fluxo de mensagens multicanal que combina Leitura de público, eventos de reação, email e push; e um padrão de jornada de fidelidade multifásico que usa a atividade de salto para decompor jornadas complexas em subjornadas gerenciáveis.
+
+**Intenções:**
+
+* Crie uma jornada multicanal que envie um email de acompanhamento ou um push com base no fato de um cliente abrir um email inicial
+* Configure um evento de compra para acionar uma notificação por push de agradecimento dentro de uma jornada
+* Usar eventos de reação para ramificar uma jornada com base no comportamento de abertura de email
+* Decompor uma jornada multifásica complexa em sub-jornadas menores conectadas por atividades de salto
+* Crie e configure um evento com base em regras para usar como acionador de jornada
+* Definir um público com base nos atributos de cidade e ano de nascimento para a entrada de jornada direcionada
+
+**Glossário:**
+
+* **Evento de reação**: um evento de jornada que é acionado quando um perfil interage com uma mensagem (por exemplo, abre um email ou clica em um link), permitindo a ramificação orientada por comportamento. *(específico do produto)*
+* **Atividade Ler público-alvo**: a atividade de entrada de jornada que carrega todos os perfis em um público-alvo do Adobe Experience Platform especificado para iniciar a jornada. *(específico do produto)*
+* **Atividade Jump**: uma atividade de ação que envia um perfil de uma jornada (origem) para outra (destino), habilitando a arquitetura de subjornada modular. *(específico do produto)*
+* **Evento baseado em regras**: um tipo de evento em que a condição do acionador é definida por uma expressão de regra, em vez de uma ID de orquestração, útil para acionadores de compra ou comportamentais. *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* Um caminho de tempo limite de evento de reação deve ser configurado para lidar com perfis que não interagem com a mensagem dentro da duração definida
+* O público-alvo usado no caso de uso deve ser criado antes da criação da jornada
+* O evento de compra deve ser configurado antes de ser usado na jornada
+* As subjornadas conectadas via Jump devem usar o mesmo namespace que a jornada de origem
+* A substituição de endereço de email (substituição de parâmetro) deve ser usada somente para casos de uso específicos, não como uma substituição geral do endereço principal
+
+**Terminologia:**
+
+* Nome canônico: Evento de reação — Acrônimo: none — variantes: atividade de reação, reação de mensagem
+* Sinônimos: &quot;jornada de origem&quot; = &quot;jornada de origem&quot;; &quot;jornada de destino&quot; = &quot;jornada de destino&quot;
+* Não confunda: &quot;Ler atividade do público-alvo&quot; ≠ &quot;Atividade de qualificação de público-alvo&quot; — Ler público-alvo carrega todos os membros do público-alvo em lote de uma só vez; a qualificação de público-alvo aciona por perfil em tempo real, à medida que a associação muda
+
+**Perguntas frequentes:**
+
+* **P: Como faço para enviar uma mensagem de acompanhamento somente aos clientes que não abriram um email?** — Adicione um evento de reação (Email aberto) com um caminho de tempo limite; os perfis que não abrirem dentro da duração do tempo limite fluem para baixo no caminho de tempo limite onde o email de acompanhamento é colocado.
+* **P: Como o evento de compra é configurado no caso de uso de vários canais?** — Como um evento baseado em regras com uma condição como `purchaseMessage="thank you"`, configurada com um esquema, campos de carga (produto, data, ID de compra), namespace e identificador de perfil.
+* **P: Por que decompor uma jornada complexa em subjornadas?** — jornadas complexas podem expor 20 ou mais caminhos únicos para o cliente, e a complexidade cresce exponencialmente a cada ponto de contato. As sub-jornadas mantêm cada fase legível, testável e com manutenção independente.
+* **P: Um perfil pode estar na jornada de origem e de destino ao mesmo tempo após um salto?** — Sim; quando um perfil atinge uma etapa de salto, ele continua progredindo na jornada de origem enquanto entra simultaneamente na jornada de destino.
+* **P: Quantas sub-jornadas são usadas no exemplo de fidelidade multifase?** — Três subjornadas: Fase 1 (download do aplicativo), Fase 2 (primeira transação) e Fase 3 (segunda transação), conectadas sequencialmente usando atividades Jump.
+
++++
 

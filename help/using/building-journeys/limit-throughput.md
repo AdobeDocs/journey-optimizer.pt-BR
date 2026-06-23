@@ -10,22 +10,15 @@ keywords: jornada, fontes de dados, limite, taxa de transferência, personalizad
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r96xAEjUJDufjpxGMrxoYS0VthagaSyYdS9NQttT9x0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 829
-ht-degree: 5%
+source-wordcount: 1454
+ht-degree: 3%
 
 ---
 
@@ -105,3 +98,51 @@ Como proteção adicional, você também pode usar os recursos de Limite.
 >[!NOTE]
 >
 >Ao contrário dos recursos de Limite, que protegem um endpoint por serem globais para todas as jornadas de uma sandbox, essa solução alternativa funciona somente no nível da jornada. Isso significa que, se várias jornadas estiverem sendo executadas em paralelo e estiverem direcionadas para o mesmo endpoint, será necessário considerar isso ao projetar a jornada. Portanto, essa solução alternativa não é adequada para cada caso de uso.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página explica como limitar a taxa de transferência de jornada quando fontes de dados externas ou ações personalizadas têm um número limitado de solicitações por segundo, usando a configuração de taxa Ler Público, divisões de porcentagem e atividades de espera.
+
+**Intenções:**
+
+* Limitar a taxa de transferência de uma jornada acionada pelo público-alvo para proteger um sistema externo contra sobrecarga
+* Configure a taxa de leitura de uma atividade Read Audience para controlar quantos perfis entram por segundo
+* Combinar condições de divisão de porcentagem e atividades de espera para distribuir o processamento do perfil ao longo do tempo
+* Entenda a diferença entre as soluções alternativas de taxa de transferência no nível da jornada e os recursos de limite no nível da sandbox
+* Aplicar recursos de limitação a ações personalizadas no nível do produto
+
+**Glossário:**
+
+* **Limitação/limitação de taxa de transferência**: controle a taxa na qual os perfis fluem por uma jornada para evitar exceder a capacidade da solicitação de um sistema externo. *(específico do produto)*
+* **Taxa de leitura de Público de Leitura**: um parâmetro configurável na atividade de Público de Leitura que define o número máximo de perfis que entram na jornada por segundo (intervalo: 500-20.000 instâncias/segundo). *(específico do produto)*
+* **API de limite**: uma API Journey Optimizer que define um limite máximo de solicitações por ponto de extremidade para fontes de dados externas; as solicitações além do limite são descartadas. *(específico do produto)*
+* **Condição de divisão de porcentagem**: uma atividade de condição que divide o fluxo do perfil em ramificações por porcentagem, usada aqui para distribuir perfis em caminhos de espera escalonados por tempo. *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* Leitura A taxa de leitura do público pode ser definida entre 500 e 20.000 instâncias por segundo; valores abaixo de 500/s exigem uma solução alternativa usando divisões de porcentagem e atividades de espera
+* O Unitary jornada suporta até 5.000 instâncias/segundo; o audience-triggered jornada suporta até 20.000 instâncias/segundo
+* A divisão de porcentagem + solução alternativa de espera opera somente no nível da jornada, não em todas as jornadas na sandbox
+* Quando várias jornadas têm como alvo o mesmo endpoint externo em paralelo, essa solução alternativa não considera a carga combinada — os recursos de limite devem ser usados
+* As solicitações restantes que excedem o limite de limite em fontes de dados externas são descartadas, não enfileiradas
+* A solução alternativa deve ser testada minuciosamente antes de ir para a produção
+
+**Terminologia:**
+
+* Nome canônico: Limitação de taxa de transferência — Acrônimo: none — variantes: limitação, limitação de taxa, controle de taxa de transferência de jornada
+* Sinônimos: &quot;Limitação&quot; = &quot;limitação&quot; no contexto da proteção de endpoint externa
+* Não confunda: &quot;API de limite (nível de ponto de extremidade)&quot; ≠ &quot;taxa de leitura (nível de jornada)&quot; — A API de limite se aplica globalmente a todas as jornadas em uma sandbox direcionada a um ponto de extremidade; a taxa de leitura e a solução alternativa de divisão/espera se aplicam apenas à jornada individual
+
+**Perguntas frequentes:**
+
+* **P: Qual é a taxa de leitura máxima que eu posso definir em uma atividade Read Audience?** — Entre 500 e 20.000 perfis por segundo; para ficar abaixo de 500/s, use uma divisão de porcentagem com atividades de espera.
+* **P: Como as divisões de porcentagem e as atividades de espera ajudam a limitar a taxa de transferência?** — Ao dividir perfis em ramificações (por exemplo, 20% cada) e adicionar temporizadores de espera escalonados por ramificação, você garante que somente um número controlado de perfis alcance o sistema externo por segundo.
+* **P: A solução alternativa de divisão de porcentagem protege todas as jornadas direcionadas ao mesmo ponto de extremidade?** — Não, só funciona no nível da jornada individual. Se várias jornadas forem executadas em paralelo no mesmo endpoint, use os recursos de Limite no nível da sandbox.
+* **P: O que acontece com as solicitações que excedem o limite de limite em uma fonte de dados externa?** — Eles são descartados; a API de limitação não coloca solicitações em fila em excesso.
+* **P: Devo usar ações personalizadas ou fontes de dados para casos de uso de dados externos?** — as ações personalizadas são preferidas porque oferecem suporte ao tratamento de respostas; as fontes de dados devem ser usadas somente quando o caso de uso exigir especificamente.
+
++++

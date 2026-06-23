@@ -11,23 +11,16 @@ keywords: solução de problemas, solução de problemas, jornada, verificação
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DorhpVm3trSxHG-l77-DpwbLTNQQxET1SIMYX-8ClQc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 548
-ht-degree: 33%
+source-wordcount: 995
+ht-degree: 18%
 
 ---
 
@@ -76,3 +69,47 @@ Erros e avisos globais para a jornada aparecem primeiro na lista. Os erros e avi
 Você pode definir uma ação de fallback em caso de erro para as seguintes atividades de jornada: **[!UICONTROL Otimizar]** e **[!UICONTROL Ação]**.
 
 A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é resolver a questão. Para evitar a interrupção da jornada, você também pode marcar a opção **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]** nas propriedades da atividade. Saiba mais [nesta seção](../building-journeys/using-the-journey-designer.md#paths).
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página explica como identificar e resolver erros e avisos de configuração em uma jornada antes de entrar no modo de teste ou na publicação.
+
+**Intenções:**
+
+* Identificar erros de configuração no nível de atividade antes de testar ou publicar uma jornada
+* Distinguir entre erros de bloqueio e avisos de não bloqueio no painel Alertas
+* Use a ID de log de erros (formato ERR_XXX_XXX) para diagnosticar problemas de jornada
+* Copie os detalhes da jornada técnica para compartilhar com os administradores e solucionar problemas
+* Adicionar um caminho alternativo para impedir que jornadas individuais parem devido a um erro ou tempo limite
+
+**Glossário:**
+
+* **Botão Alertas**: Controle da tela que exibe todos os erros detectados pelo sistema e avisos bloqueando a publicação ou a ativação de teste *(específico do produto)*
+* **ERR_XXX_XXX**: formato de ID de log de problemas atribuído a cada problema detectado, usado para identificar e comunicar erros *(específico do produto)*
+* **Caminho alternativo**: uma ramificação de fallback adicionada a uma atividade de ação ou condição que continua a jornada quando ocorre um erro ou tempo limite *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* Não é possível ativar o modo de teste ou publicar uma jornada se os erros de bloqueio permanecerem não resolvidos.
+* Os avisos não bloqueiam a publicação ou a ativação de teste, mas indicam possíveis problemas.
+* Caminhos alternativos só estão disponíveis para atividades Otimizar e Ação.
+
+**Terminologia:**
+
+* Nome canônico: Alertas — Acrônimo: none — variantes: painel Alertas, botão Alertas
+* Sinônimos: &quot;erros&quot; = &quot;problemas de bloqueio&quot;; &quot;avisos&quot; = &quot;problemas de não bloqueio&quot;
+* Não confundir: &quot;errors&quot; (publicação em bloco) ≠ &quot;warnings&quot; (não bloquear a publicação)
+
+**Perguntas frequentes:**
+
+* **P: Qual é a diferença entre um erro e um aviso no Journey Optimizer?** — Os erros bloqueiam a ativação do modo de teste e a publicação do jornada; os avisos indicam possíveis problemas, mas não impedem que sejam realizados testes ou publicações.
+* **P: Onde posso ver todos os erros que afetam minha jornada?** — Clique no botão Alertas acima da tela para ver uma lista consolidada de todos os erros e avisos detectados pelo sistema.
+* **P: O que devo fazer se não conseguir identificar um problema da descrição do erro?** — use o botão Copy details (Copiar detalhes) na parte inferior da lista Alerts (Alertas) para capturar informações técnicas e enviá-las ao administrador.
+* **P: Posso manter uma jornada em execução para indivíduos mesmo se uma ação encontrar um erro?** — Sim, ative a opção &quot;Adicionar um caminho alternativo em caso de tempo limite ou erro&quot; nas propriedades da atividade para definir um caminho de fallback.
+* **P: Quando devo executar essas verificações de solução de problemas?** — Todas as verificações podem ser executadas no modo de teste ou quando a jornada está ativa; a recomendação é resolver todos os problemas no modo de teste antes da publicação.
+
++++

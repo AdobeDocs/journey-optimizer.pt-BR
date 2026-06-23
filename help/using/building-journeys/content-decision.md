@@ -11,26 +11,16 @@ keywords: atividade, decisão, decisão de conteúdo, política de decisão, tel
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/1tZd4-NYBxu1iuUZGMKQ6DIXFxRpX0FARTEPpWqxzjY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1286
-ht-degree: 2%
+source-wordcount: 1913
+ht-degree: 1%
 
 ---
 
@@ -258,3 +248,48 @@ Para cada atividade de decisão de conteúdo, o evento de etapa inclui dados de 
   }
 }
 ```
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página explica como configurar e usar a atividade de Decisão de Conteúdo no Journey Optimizer jornada para recuperar ofertas personalizadas por meio de uma política de decisão e encaminhá-las ou encaminhá-las usando condições e ações personalizadas.
+
+**Intenções:**
+* Adicionar uma atividade de Decisão de conteúdo a uma jornada e configurar uma política de decisão
+* Selecionar e sequenciar itens de decisão e estratégias de seleção em uma política de decisão
+* Use a saída da decisão de conteúdo em uma condição de atividade Otimizar para ramificar perfis com base em ofertas recuperadas
+* Encaminhar ofertas recuperadas para um sistema externo usando uma ação personalizada
+* Inspecionar dados de decisão em eventos de etapa do jornada para fins de auditoria e solução de problemas
+
+**Glossário:**
+* **Atividade de decisão de conteúdo**: uma atividade de orquestração de jornadas que avalia uma política de decisão e recupera as melhores ofertas qualificadas para cada perfil *(específico do produto)*
+* **Política de decisão**: uma configuração que especifica quais itens de decisão e estratégias de seleção avaliar e quantos itens retornar *(específico do produto)*
+* **Estratégia de seleção**: um método de avaliação classificado usado em uma política de decisão para determinar quais ofertas estão qualificadas e como elas são pontuadas *(específico do produto)*
+* **Proposta**: a unidade de saída de uma execução de política de decisão, contendo os itens selecionados e os metadados de escopo e classificação associados *(específico do produto)*
+* **função listSize**: uma função de editor de expressão usada para contar o número de itens retornados por uma decisão de conteúdo, por exemplo, `listSize(@decision{Name.items})>0` *(específico do produto)*
+* **Esquema de catálogo de ofertas**: o esquema que define os atributos disponíveis em itens de decisão; acessível por meio do nó Contexto no modo de editor de expressão avançado *(específico do produto)*
+
+**Medidas de Proteção:**
+* A saída de uma atividade de Decisão de conteúdo não pode ser usada em atividades de canal nativas (email, push, SMS etc.)
+* A saída da decisão de conteúdo só pode ser acessada no modo Avançado do editor de expressão; não está disponível no modo simples
+* Permissões de decisão são necessárias para criar uma política de decisão
+* As atualizações da política de consentimento levam até 48 horas para entrarem em vigor para os atributos referenciados em uma política de decisão
+* As políticas de consentimento só estão disponíveis para organizações com o Adobe Healthcare Shield ou o complemento Privacy and Security Shield
+* Rótulos de uso de dados restritos (DULE) em atributos de esquema de oferta podem resultar em violações de política de governança
+
+**Terminologia:**
+* Nome canônico: Atividade de decisão de conteúdo — Acrônimo: none — variantes: nó de decisão de conteúdo, atividade de decisão
+* Sinônimos: &quot;política de decisão&quot; = &quot;política de seleção de oferta&quot; ; &quot;proposta&quot; = &quot;saída de decisão&quot;
+* Não confunda: &quot;Atividade de decisão de conteúdo&quot; ≠ &quot;Ação de canal nativo&quot; (a decisão de conteúdo recupera ofertas, mas não as entrega diretamente; uma ação ou condição personalizada é necessária para agir na saída)
+
+**Perguntas frequentes:**
+* **P: Posso usar as ofertas retornadas por uma atividade de Decisão de Conteúdo diretamente em um email?** — Não, a saída de uma atividade de decisão de conteúdo não pode ser usada em atividades de canal nativas; você deve transmitir as ofertas para uma ação personalizada para enviá-las a um sistema externo.
+* **P: Como verifico se alguma oferta foi retornada para um perfil?** — Use a função listSize no editor de expressão avançado: `listSize(@decision{ContentdecisionName.items})>0`.
+* **P: Onde faço para acessar a saída da decisão de conteúdo no editor de expressão?** — alterne para o modo Avançado, expanda o nó Contexto e navegue até a política de decisão para ver todos os atributos de esquema do catálogo de ofertas disponíveis.
+* **P: Quanto tempo leva para uma atualização de política de consentimento ser aplicada a uma política de decisão?** — Até 48 horas após a atualização da política de consentimento.
+* **P: Que dados de decisão estão disponíveis nos eventos de etapa do jornada?** — Cada evento de etapa inclui exdRequestID, propositionEventType e uma matriz de propostas — cada uma contendo uma id, scopeDetails (provedor de decisão, correlationID, política de decisão) e uma matriz de itens com detalhes de id, nome, pontuação e itemSelection.
+
++++

@@ -4,21 +4,14 @@ description: Saiba como usar identificadores complementares no jornada.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2041
-ht-degree: 2%
+source-wordcount: 2742
+ht-degree: 1%
 
 ---
 
@@ -135,11 +128,11 @@ Para usar um identificador complementar em uma jornada Ler público, siga estas 
 
    1. No campo **[!UICONTROL Identificador complementar]**, use o editor de expressão para selecionar o atributo de identificador complementar.
 
-   Para públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR#import-audience){target="_blank"}, se o público-alvo de CSV contiver várias linhas por ID de perfil, verifique se a Ativação Expressa está habilitada primeiro. Consulte [Identificadores complementares com públicos-alvo externos](#external-audiences).
+   Para públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}, se o público-alvo de CSV contiver várias linhas por ID de perfil, verifique se a Ativação Expressa está habilitada primeiro. Consulte [Identificadores complementares com públicos-alvo externos](#external-audiences).
 
        >[!NOTE]
-       >
-       >Verifique se você está usando o editor de expressão em **[!UICONTROL Modo avançado]** para selecionar o atributo.
+     >
+     >Verifique se você está usando o editor de expressão em **[!UICONTROL Modo avançado]** para selecionar o atributo.
    
 >[!ENDTABS]
 
@@ -206,7 +199,7 @@ Entre em contato com seu representante da Adobe para obter orientação sobre o 
 
 ## Identificadores complementares com públicos externos {#external-audiences}
 
-A ID complementar é compatível com públicos externos, incluindo públicos [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR#import-audience){target="_blank"} e públicos criados com [Composição de Público Federado](../audience/get-started-audience-orchestration.md). Ao configurar uma jornada que lê de um público de composição de público-alvo CSV ou Federated Audience, você pode designar qualquer atributo que não seja de identidade nesse público-alvo como a ID complementar. Em seguida, o Journey Optimizer cria uma instância do jornada separada por perfil exclusivo + combinação de ID complementar.
+A ID complementar é compatível com públicos externos, incluindo públicos [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} e públicos criados com [Composição de Público Federado](../audience/get-started-audience-orchestration.md). Ao configurar uma jornada que lê de um público de composição de público-alvo CSV ou Federated Audience, você pode designar qualquer atributo que não seja de identidade nesse público-alvo como a ID complementar. Em seguida, o Journey Optimizer cria uma instância do jornada separada por perfil exclusivo + combinação de ID complementar.
 
 * Caso de uso 1: uma linha por perfil exclusivo + par de ID complementar
 
@@ -278,7 +271,7 @@ Corpo da solicitação (conjunto `expressActivation: true`):
 >
 >O padrão de `expressActivation` é `false`. Ele deve ser definido no momento da criação do público-alvo e não pode ser alterado após a criação. Todos os públicos-alvo da Composição de Público-Alvo Federado têm a Ativação Expressa habilitada por padrão e não exigem esse sinalizador.
 
-Consulte a [documentação da API de criação de público-alvo externo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} para obter a referência completa.
+Consulte a [documentação da API de criação de público-alvo externo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} para obter a referência completa.
 
 +++
 
@@ -331,4 +324,54 @@ Estes exemplos mostram como os identificadores complementares suportam vários r
 
 Saiba como habilitar e aplicar um identificador complementar no [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464797?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página explica como usar identificadores complementares no Adobe Journey Optimizer jornada para permitir que um único perfil tenha várias instâncias simultâneas do jornada, cada uma com escopo para uma ID secundária distinta, como uma reserva, assinatura ou ID de política.
+
+**Intenções:**
+* Entenda quando e por que usar um identificador complementar em vez de depender exclusivamente de uma ID de perfil
+* Configure um identificador complementar em uma jornada acionada por evento marcando um atributo como uma identidade no esquema de evento
+* Configure um identificador complementar em uma jornada Ler público ativando a opção na atividade Ler público
+* Atributos de identificador de referência complementares para personalização de mensagens e lógica condicional usando o editor de expressão
+* Aplique a sintaxe de expressão correta para iterar sobre matrizes de objetos digitadas por uma ID complementar
+* Identificar medidas de proteção e limitações antes de implementar identificadores complementares em uma jornada
+
+**Glossário:**
+* **Identificador complementar**: um identificador secundário (por exemplo, ID de pedido, ID de reserva, ID de assinatura) usado junto com a ID de perfil para definir o escopo de uma instância do jornada para um registro específico, habilitando várias instâncias simultâneas por perfil *(específico do produto)*
+* **ID de Perfil**: o identificador principal usado por padrão para executar jornadas; um perfil ativo em uma jornada não pode inserir outra jornada novamente sem uma ID complementar
+* **Namespace de identificador que não seja de pessoa**: um namespace de identidade que não representa uma pessoa (necessário para IDs suplementares); deve ser diferente do namespace de identidade principal
+* **namespace joai**: não aplicável a esta página (consulte a solução de problemas de ações de entrada)
+* **DULE**: Rotulagem e Imposição de Uso de Dados — a estrutura de validação da política de governança de dados no Adobe Experience Platform; as IDs complementares não estão sujeitas às verificações DULE
+
+**Medidas de Proteção:**
+* Os identificadores complementares são compatíveis somente com jornadas de público-alvo de leitura e acionadas por eventos; não há suporte para jornadas de qualificação de público-alvo
+* Um perfil não pode ter mais de 10 instâncias simultâneas do jornada
+* Cada instância do jornada conta para o limite de frequência, mesmo quando criada por meio de identificadores complementares
+* O identificador complementar deve ser do tipo `string`; matrizes de cadeias de caracteres e mapas não têm suporte
+* O atributo ID complementar não deve ser marcado como identidade Primária no esquema
+* O namespace usado para a ID complementar deve ser um namespace de identificador que não seja de pessoa
+* Depois de aplicar o namespace de identidade que não seja de pessoa a um esquema, um novo evento ou grupo de campos deve ser criado; as entidades existentes não podem ser atualizadas
+* Para jornadas de leitura de público-alvo com IDs complementares: a taxa de leitura é limitada a 500 perfis por segundo por instância do jornada; somente os públicos-alvo do Serviço de perfil unificado são compatíveis; a ID complementar deve ser um campo de perfil (não um campo de evento/contexto)
+* Eventos downstream na mesma jornada devem usar a mesma ID complementar e o mesmo namespace
+* A ID complementar está desabilitada para jornadas Ler público que usam um evento comercial
+
+**Terminologia:**
+* Nome canônico: Identificador complementar — Acrônimo: none — variantes: ID complementar, identificador secundário
+* Sinônimos: &quot;identificador complementar&quot; = &quot;ID complementar&quot; (usado alternadamente na interface e na documentação)
+* Não confunda: &quot;identificador suplementar&quot; ≠ &quot;identidade principal&quot; — a ID suplementar nunca deve ser marcada como a identidade principal no schema
+
+**Perguntas frequentes:**
+* **P: O que é um identificador complementar usado para?** — permite que um único perfil entre e execute uma jornada várias vezes simultaneamente, com cada instância atribuída a um registro secundário diferente, como uma reserva, uma assinatura ou uma ID de política.
+* **P: Quais tipos de jornada oferecem suporte a identificadores complementares?** — jornadas acionadas por eventos e jornadas Read audience. As jornadas de qualificação de público-alvo não oferecem suporte a identificadores complementares.
+* **P: Quantas instâncias simultâneas do jornada um perfil pode ter com identificadores complementares?** — Um máximo de 10 instâncias simultâneas do jornada por perfil.
+* **P: Posso usar os atributos de ID complementares para a personalização da mensagem?** — Sim. Faça referência a eles pelo menu Contextual attributes no editor de expressão ou no editor de personalização.
+* **P: A ID complementar precisa ser marcada como uma identidade principal no esquema?** — Não. Deve ser marcado como uma identidade, mas não deve ser definido como a identidade principal.
+* **P: as políticas de governança DULE são aplicadas ao identificador complementar?** — Não. As verificações de validação de DULE não são executadas na ID complementar.
+
++++

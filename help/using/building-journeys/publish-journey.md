@@ -11,21 +11,16 @@ keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1295
-ht-degree: 20%
+source-wordcount: 1815
+ht-degree: 14%
 
 ---
 
@@ -176,4 +171,48 @@ Se a jornada estiver sujeita a uma política de aprovação, será necessário s
 
 Saiba como publicar uma jornada neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427939?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página explica como publicar uma jornada do Adobe Journey Optimizer, gerenciar versões de jornadas e entender as restrições que se aplicam quando uma jornada está ativa.
+
+**Intenções:**
+* Publicar uma jornada para ativá-la e disponibilizá-la para entrada de perfil
+* Verifique a validade da jornada e resolva os erros antes de publicar
+* Criar uma nova versão de uma jornada em tempo real para fazer modificações
+* Entender as restrições de somente leitura que se aplicam após a publicação de uma jornada
+* Interromper uma jornada permanentemente ou gerenciar transições entre versões
+
+**Glossário:**
+* **Versão da Jornada**: uma iteração numerada de uma jornada; novas versões são criadas para modificar uma jornada em tempo real sem interromper perfis que já estão em andamento *(específico do produto)*
+* **Status fechado**: o estado em que uma versão anterior do jornada entra automaticamente quando uma nova versão é publicada; nenhum perfil novo pode inserir uma jornada Fechada *(específico do produto)*
+* **Política de aprovação**: um fluxo de trabalho de governança opcional que requer aprovação explícita antes que uma jornada possa ser publicada *(específico do produto)*
+
+**Medidas de Proteção:**
+* Uma jornada com erros não pode ser publicada.
+* O Journey Optimizer valida o tamanho total do conteúdo da jornada no momento de salvar e publicar. A publicação pode ser bloqueada se o limite for excedido.
+* Após a publicação, uma jornada fica no modo somente leitura; somente rótulos, descrições e o nome da jornada podem ser editados.
+* Uma nova versão só pode ser criada a partir da versão mais recente de uma jornada.
+* Quando uma jornada é interrompida, ela é interrompida permanentemente; ela deve ser duplicada para ser executada novamente.
+* O Assets e as imagens no conteúdo entregue ficam acessíveis por até 730 dias a partir da primeira publicação; a republicação é necessária após esse período.
+* Se uma decisão de oferta usada em uma mensagem de jornada for alterada, a publicação da jornada deverá ser desfeita e republicada.
+* As medidas de proteção específicas se aplicam ao controle de versão do jornada (consulte a página de medidas de proteção).
+
+**Terminologia:**
+* Nome canônico: Publicar Jornada — Acrônimo: none — variantes: ativar jornada, entrar em funcionamento
+* Sinônimos: &quot;Publish&quot; = &quot;ativate&quot; = &quot;go live&quot;
+* Não confunda: &quot;Parar a jornada&quot; ≠ &quot;Fechar a jornada&quot; (parar é uma ação manual; Fechado é um status automático aplicado às versões anteriores quando uma nova versão é publicada)
+
+**Perguntas frequentes:**
+* **P: Posso editar uma jornada após sua publicação?** — Somente rótulos, descrições e o nome da jornada podem ser alterados. Para fazer outras modificações, crie uma nova versão da jornada.
+* **P: O que acontece com os perfis em uma versão mais antiga do jornada quando uma nova versão é publicada?** — Os perfis já existentes na versão anterior permanecem lá até que sejam concluídos; novos perfis entram na versão mais recente.
+* **P: Posso republicar uma versão do Closed jornada?** — Não. Quando uma versão anterior estiver fechada, ela permanecerá fechada mesmo se a versão mais recente estiver interrompida.
+* **P: O que devo fazer se uma decisão de oferta usada na jornada for alterada?** — Desfaça a publicação da jornada e publique-a novamente para incorporar a decisão de oferta atualizada.
+* **P: É necessária aprovação antes da publicação?** — Somente se sua jornada estiver sujeita a uma política de aprovação; nesse caso, você deve solicitar aprovação primeiro.
+
++++

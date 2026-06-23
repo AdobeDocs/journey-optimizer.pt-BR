@@ -11,27 +11,16 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/J9pg9Bw--ksizTh2itQnPu3uo54eoPj9ocgxwTgrLhE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 2335
-ht-degree: 6%
+source-wordcount: 3006
+ht-degree: 5%
 
 ---
 
@@ -249,3 +238,54 @@ Quando um evento é acionado usando o modo de teste, um conjunto de dados é ger
 
 O modo de teste cria automaticamente um Evento de Experiência e o envia para [!DNL Adobe Experience Platform]. O nome da origem deste evento de experiência é &quot;Eventos de teste da Journey Orchestration&quot;.
 
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página explica como usar o modo de Teste no Adobe Journey Optimizer para validar uma jornada com perfis de teste persistentes antes da publicação, incluindo a ativação do modo de teste, o acionamento de eventos, a leitura de logs e a manipulação de eventos comerciais e baseados em regras.
+
+**Intenções:**
+* Ativar o modo Teste em uma jornada de rascunho para validá-la com perfis de teste do AEP pré-existentes
+* Configure e acione eventos para perfis de teste usando a interface Acionar um evento
+* Substitua as durações da atividade de espera no modo de teste para acelerar a progressão da jornada
+* Leia e interprete a saída JSON Mostrar log para verificar a progressão do perfil e identificar erros
+* Testar jornadas com base em regras e jornadas de eventos comerciais no modo de teste
+* Entenda as limitações e as diferenças comportamentais do modo de Teste em comparação à Simulação
+
+**Glossário:**
+* **Modo de teste**: um estado de validação de jornada que permite que perfis de teste persistentes do AEP atravessem uma jornada de rascunho antes de ser publicado *(específico do produto)*
+* **Perfis de teste**: perfis explicitamente sinalizados como perfis de teste no Serviço de Perfil de Cliente em Tempo Real da Adobe Experience Platform; o único tipo de perfil permitido para inserir uma jornada no modo de teste *(específico do produto)*
+* **Fluxo visual**: a representação da tela que fica verde para mostrar o caminho que um perfil de teste seguiu pela jornada
+* **Mostrar log**: um recurso de modo de teste que exibe o estado de execução de jornada em formato JSON para cada instância de perfil de teste *(específico do produto)*
+* **Eventos de teste do Journey Orchestration**: o nome de origem sob o qual os eventos de experiência do modo de teste são armazenados no Adobe Experience Platform
+
+**Medidas de Proteção:**
+* Somente perfis sinalizados como perfis de teste no AEP podem inserir uma jornada no modo de teste
+* O modo de teste exige que a jornada use um namespace para verificar a identidade do perfil de teste
+* Máximo de 100 perfis de teste por sessão de teste única
+* Eventos só podem ser acionados a partir da interface do modo de teste; não há suporte para o acionamento por API externa
+* O enriquecimento personalizado do atributo de público de upload não é suportado no modo de teste
+* As jornadas inativas no modo de teste por mais de uma semana revertem automaticamente para o status Rascunho
+* As edições de jornada são bloqueadas enquanto o modo de teste está ativo, mas a publicação direta é permitida
+* Em uma divisão, a ramificação superior é sempre selecionada; reordene ramificações para testar caminhos diferentes
+* O tempo limite mínimo do evento de reação e o tempo de espera padrão são de 40 segundos
+* Eventos enviados fora da janela de data de início/término configurada da jornada são silenciosamente descartados
+* Desativar o modo de teste remove todos os perfis da jornada e limpa os relatórios
+
+**Terminologia:**
+* Nome canônico: Modo de teste — Acrônimo: none — variantes: modo de teste, modo de teste de jornada
+* Nome canônico: Perfis de teste — Acrônimo: none — variantes: usuários de teste (somente rótulo da interface de simulação)
+* Sinônimos: &quot;Mostrar log&quot; = log de resultados de teste; &quot;fluxo visual&quot; = visualização do caminho da tela
+* Não confunda: &quot;Modo de teste&quot; ≠ &quot;Simulação&quot; — O modo de teste usa perfis de teste persistentes do AEP; A simulação usa usuários temporários simulados gerados em tempo real
+
+**Perguntas frequentes:**
+* **P: Quem pode inserir uma jornada no modo de teste?** — Somente perfis explicitamente sinalizados como perfis de teste no Serviço de perfil do cliente em tempo real da Adobe Experience Platform.
+* **P: Quantos perfis de teste podem ser executados em uma única sessão de teste?** — Um máximo de 100 perfis de teste por sessão de teste.
+* **P: O que acontece quando eu desabilitar o modo de teste?** — Todos os perfis que estão ou foram inseridos na jornada são removidos e os relatórios são apagados.
+* **P: Posso editar uma jornada enquanto o modo de teste estiver ativo?** — Não. A jornada não pode ser modificada enquanto o modo de teste estiver ativo, mas você pode publicá-la diretamente sem desativar o modo de teste primeiro.
+* **P: Por que meus eventos de teste estão sendo descartados silenciosamente?** — Os eventos acionados fora da janela de data/hora ativa configurada da jornada são descartados silenciosamente. Verifique se as datas de início e término da jornada incluem a hora atual.
+* **P: O que o campo de fase no log de teste indica?** — Ela mostra o status atual do perfil: em execução (ativo no jornada), concluído (concluído), erro (interrompido devido a erro) ou tempo limite (interrompido devido ao tempo limite).
+
++++

@@ -11,30 +11,16 @@ keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de co
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1813
-ht-degree: 12%
+source-wordcount: 2428
+ht-degree: 9%
 
 ---
 
@@ -83,21 +69,21 @@ As atividades de canal nativas herdadas também são preservadas nestes casos:
 >id="ajo_journey_action_auto_wait"
 >title="Nó de espera automático"
 >abstract="Para ações de canal de entrada (mensagem no aplicativo, Web, cartão de Conteúdo e experiência baseada em Código), um nó **Wait** é inserido automaticamente após a ação (3 dias por padrão). Isso dá aos perfis tempo para visualizar a experiência de entrada antes que a jornada continue para a próxima etapa."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução às ações do canal"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="Otimização"
 >abstract="A seção **Otimização** adiciona experimentos de conteúdo, regras de direcionamento ou ambos a uma ação de canal. Ele permite testar variantes e fornecer o conteúdo mais eficiente para cada membro do público-alvo."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Usar a atividade Otimizar"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Usar a atividade Otimizar"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="Multilíngue"
 >abstract="A seção **Multilíngue** fornece o conteúdo da ação de canal em vários idiomas em uma única jornada. Uma configuração de configurações de idioma define as localidades compatíveis e o idioma padrão para esta ação."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Introdução ao conteúdo multilíngue"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Introdução ao conteúdo multilíngue"
 
 
 Para adicionar uma ação de canal interna à sua jornada usando a atividade **[!UICONTROL Ação]**, siga as etapas abaixo.
@@ -251,7 +237,7 @@ A entrega rápida é usada quando um atraso na entrega das mensagens seria crít
 
 Saiba como habilitar o modo de entrega rápida para notificações por push [nesta página](../push/create-push.md#rapid-delivery).
 
-Para obter mais informações sobre desempenho ao usar o modo de entrega rápida, consulte [[!DNL Adobe Journey Optimizer] descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Para obter mais informações sobre desempenho ao usar o modo de entrega rápida, consulte [[!DNL Adobe Journey Optimizer] descrição do produto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
@@ -356,3 +342,47 @@ Em vez de usar os recursos de mensagem incorporados, você pode usar ações per
 
    * [[!DNL Journey Optimizer] e o Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página explica como usar a atividade de Ação unificada na tela de jornada para configurar ações de canal integradas (email, push, SMS, no aplicativo, Web, cartão de conteúdo, experiência baseada em código), criar grupos de ação de várias entradas e aplicar otimização ou configurações multilíngues.
+
+**Intenções:**
+* Adicionar uma ação de canal integrada (email, push, SMS, no aplicativo, Web, cartão de conteúdo, experiência baseada em código) a uma jornada usando a atividade Ação
+* Configurar um grupo de várias ações para fornecer várias ações de entrada simultaneamente de um único nó do jornada
+* Aplicar regras de limite de frequência a uma ação de canal de saída para evitar a fadiga da mensagem
+* Atualizar o conteúdo da mensagem em uma jornada em tempo real sem republicar
+* Conectar um sistema de mensagens de terceiros a uma jornada usando ações personalizadas
+* Ativar o modo de entrega rápida para notificações por push urgentes de alto volume
+
+**Glossário:**
+* **Atividade de ação**: a atividade de tela de jornada unificada que serve como ponto de entrada único para todas as ações de canal integradas, substituindo as atividades de canal herdadas individuais *(específico do produto)*
+* **Várias ações**: uma configuração em um único nó de atividade de Ação que permite que até 10 ações de canal de entrada sejam entregues simultaneamente *(específico do produto)*
+* **Modo de entrega rápida**: um complemento que permite o envio muito rápido de mensagens por push de alto volume para alertas de tempo crítico *(específico do produto)*
+* **Nó de espera automático**: uma atividade de espera de 3 dias é inserida automaticamente após cada ação de canal de entrada para dar aos perfis tempo para exibir a experiência antes que a jornada avance *(específico do produto)*
+* **Pontuação de prioridade**: um valor atribuído a uma ação de jornada para determinar qual experiência de entrada tem precedência quando várias ações são concluídas para a mesma configuração de canal *(específico do produto)*
+
+**Medidas de Proteção:**
+* As atividades herdadas de canal individual (email, push, SMS, no aplicativo, Web, experiência baseada em código, cartão de conteúdo) foram descontinuadas a partir da versão de março de 2026; as jornadas existentes continuam a funcionar sem migração
+* A multiação só está disponível para canais de entrada; os canais de saída, como Email, não são compatíveis com grupos de multiação
+* Um grupo de várias ações suporta no máximo 10 ações de entrada
+* Em uma jornada em tempo real, os atributos de personalização (atributos de perfil e dados contextuais) não podem ser alterados; somente o conteúdo da mensagem pode ser atualizado
+* Os acionadores no aplicativo não podem ser modificados em uma jornada em tempo real
+
+**Terminologia:**
+* Nome canônico: Atividade de ação — Acrônimo: none — variantes: ação de canal, atividade de mensagem, ação de canal incorporada
+* Sinônimos: &quot;Atividade de ação&quot; = &quot;atividade de ação de canal&quot;
+* Não confunda: &quot;Atividade de ação&quot; ≠ &quot;ação personalizada&quot; — a atividade de ação usa canais nativos integrados, enquanto uma ação personalizada se integra a um sistema de terceiros por meio da API
+
+**Perguntas frequentes:**
+* **P: Quais canais estão disponíveis na atividade Ação?** — email, push, SMS/RCS/MMS, no aplicativo, Web, experiência baseada em código e cartão de conteúdo.
+* **P: Posso enviar para vários pontos de extremidade de entrada no mesmo nó do jornada?** — Sim, usando o tipo de ação múltipla, você pode adicionar até 10 ações de entrada (experiência baseada em código, no aplicativo, Cartão de conteúdo, Web) em um único nó de atividade Ação.
+* **P: O que acontece com as jornadas que usam as atividades de canal herdadas obsoletas?** — eles continuam a funcionar sem nenhuma alteração; nenhuma migração é necessária.
+* **P: Posso alterar a linha de assunto do email de uma jornada em tempo real?** — É possível atualizar o conteúdo da mensagem em uma jornada em tempo real, mas não é possível alterar os atributos de personalização ou os dados contextuais usados nesse conteúdo.
+* **P: Como faço para aplicar o limite de frequência a uma ação de canal?** — Use o menu suspenso Regras de negócios na configuração de ação para selecionar um conjunto de regras que aplique regras de limitação para o canal selecionado.
+
++++

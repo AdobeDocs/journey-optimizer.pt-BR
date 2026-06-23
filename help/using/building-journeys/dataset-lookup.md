@@ -11,25 +11,16 @@ version: Journey Orchestration
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 TQID: https://experienceleague.adobe.com/4sQ3A15j47fQ6hI1G9oS6T6ne9nbxIaeqc-95zSUIq4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 943
-ht-degree: 10%
+source-wordcount: 1500
+ht-degree: 6%
 
 ---
 
@@ -88,7 +79,7 @@ Para configurar a atividade **[!UICONTROL Pesquisa de conjunto de dados]**, siga
 
 1. Expanda a categoria **[!UICONTROL Orquestração]** e solte uma atividade de **[!UICONTROL Pesquisa de conjunto de dados]** na tela.
 
-   Atividade de pesquisa do conjunto de dados ![[!DNL Adobe Experience Platform] na jornada &#x200B;](assets/aep-data-activity.png)
+   Atividade de pesquisa do conjunto de dados ![[!DNL Adobe Experience Platform] na jornada ](assets/aep-data-activity.png)
 
 1. Adicione um rótulo e uma descrição.
 
@@ -229,3 +220,55 @@ Os dados recuperados pela atividade **[!UICONTROL Pesquisa de conjunto de dados]
 **Causa:** a chave de pesquisa na atividade de pesquisa do conjunto de dados foi definida usando o modo simples. Quando a chave não está definida no modo avançado, a saída da atividade não é exposta como um atributo de contexto em atividades downstream.
 
 **Correção:** Abra a atividade de pesquisa do conjunto de dados, localize o campo **[!UICONTROL Chave(s) de pesquisa]** e alterne para o **modo avançado** para redefinir a expressão de chave. Salve a atividade e publique novamente a jornada.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página explica como configurar a atividade de pesquisa do Conjunto de dados para recuperar dinamicamente os dados do conjunto de dados de registros do AEP no tempo de execução do jornada para personalização em tempo real e lógica condicional.
+
+**Intenções:**
+
+* Adicione uma atividade de pesquisa do conjunto de dados a uma jornada para buscar dados de registros externos do AEP no tempo de execução
+* Selecionar campos de conjunto de dados específicos (nós de folha/valores primitivos) para recuperar durante a pesquisa
+* Definir uma chave de pesquisa no modo avançado para unir o contexto de jornada com registros de conjunto de dados
+* Usar dados enriquecidos do conjunto de dados no editor de expressão de jornada ou no editor de personalização
+* Solução de problemas de erros &quot;Pesquisa de conjunto de dados não encontrada&quot; causados pelo uso do modo simples para a chave de pesquisa
+
+**Glossário:**
+
+* **Atividade de pesquisa do conjunto de dados**: uma atividade de orquestração de jornada que recupera dados de conjuntos de dados de registros AEP em tempo de execução usando uma chave de junção *(específico do produto)*
+* **Nó de folha**: um campo no nível mais baixo de uma hierarquia de esquema que contém um valor primitivo (sequência, número, booleano, data) *(específico do produto)*
+* **Chave de pesquisa**: a expressão de associação (cadeia de caracteres ou lista de cadeias de caracteres) usada para corresponder dados de contexto de jornada com registros no conjunto de dados selecionado *(específico do produto)*
+* **Dados enriquecidos**: dados recuperados por uma atividade de pesquisa do Conjunto de Dados e armazenados transitoriamente no contexto de jornada para uso em atividades downstream *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* Máximo de 10 atividades de pesquisa do conjunto de dados por jornada.
+* Máximo de 20 campos selecionados por atividade de pesquisa.
+* Máximo de 50 chaves na matriz de chaves de pesquisa.
+* O tamanho de dados enriquecido é limitado a 10 KB.
+* O conjunto de dados deve ser ativado para pesquisa no Adobe Experience Platform antes de aparecer na configuração da atividade.
+* Somente nós de folha (valores primitivos) podem ser selecionados; matrizes e mapas não podem ser selecionados.
+* Somente cadeias de caracteres ou listas de cadeias de caracteres têm suporte como chaves de pesquisa.
+* A chave de pesquisa deve ser definida no modo avançado; o uso do modo simples faz com que a saída da atividade fique indisponível como um atributo de contexto downstream.
+* Os dados enriquecidos são transitórios e estão disponíveis apenas durante o tempo de execução do jornada e na personalização da atividade de saída.
+* Para desempenho, são recomendados até 5 atividades de pesquisa por jornada e até 20 atributos por pesquisa.
+
+**Terminologia:**
+
+* Nome canônico: Atividade de pesquisa do conjunto de dados — Acrônimo: n/a — variantes: pesquisa de dados do AEP, atividade de enriquecimento de dados
+* Sinônimos: &quot;chave de pesquisa&quot; = &quot;chave de associação&quot;
+* Não confunda: &quot;Atividade de pesquisa do conjunto de dados&quot; ≠ &quot;Pesquisa de evento de experiência&quot; — a pesquisa do conjunto de dados recupera dados do conjunto de dados de registro, não eventos de experiência de série de tempo
+
+**Perguntas frequentes:**
+
+* **P: Por que meu conjunto de dados não aparece na lista suspensa de campos Conjunto de dados?** — O conjunto de dados deve estar habilitado para pesquisa no Adobe Experience Platform. Siga as instruções na seção Must-read para ativá-la.
+* **P: Por que `@datasetLookup{}` retorna um erro &quot;Pesquisa de conjunto de dados não encontrada&quot; em uma condição?** — A chave de pesquisa foi definida usando o modo simples em vez do modo avançado. Redefina-a no modo avançado e republique a jornada.
+* **P: Posso recuperar matrizes ou mapear campos do conjunto de dados?** — Não, somente campos de nó de folha primitivos (sequência, número, booleano, data) podem ser selecionados.
+* **P: Como faço para acessar dados enriquecidos em um email?** — Use o editor de personalização com a sintaxe `{{context.journey.datasetLookup.<activityId>.entities}}`.
+* **P: Os dados enriquecidos persistem após o término da jornada?** — Não, os dados enriquecidos são transitórios e só ficam disponíveis durante a sessão de tempo de execução do jornada.
+
++++

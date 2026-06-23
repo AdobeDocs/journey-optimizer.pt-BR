@@ -11,25 +11,16 @@ keywords: jump, activity, jornada, split, dividir
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qCnWzqjO5YRbKO-WHUo950uoHS0skcZT6sdYyNJ4esE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1358
-ht-degree: 6%
+source-wordcount: 1982
+ht-degree: 4%
 
 ---
 
@@ -191,3 +182,53 @@ Nos seguintes casos, a etapa de salto é tratada como uma **ação com falha** n
 * A instância de jornada de destino existente foi encerrada e a jornada de destino não é reentrante.
 * Um período de reentrada é configurado na jornada de destino. Mesmo quando a reentrada é permitida em princípio, o perfil não pode entrar novamente até que o período expire (o salto falha com um status &quot;não reentrante para o período&quot;).
 * Não é possível localizar a versão de destino do jornada, ela foi excluída, está em um estado concluído ou foi interrompida.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página explica a atividade de salto, que envia perfis de uma jornada para outra para simplificar projetos de jornada complexos por meio de padrões de sub-jornada reutilizáveis.
+
+**Intenções:**
+
+* Use a atividade Jump para transferir perfis de uma jornada de origem para uma jornada de destino
+* Decompor uma jornada complexa em sub-jornadas menores e gerenciáveis conectadas por atividades de salto
+* Configure a atividade Jump selecionando uma jornada de target e mapeando parâmetros de ação
+* Compreender o comportamento do perfil quando um salto é executado (perfil ativo em ambas as jornadas simultaneamente)
+* Solução de problemas de erros de configuração de salto e falhas de tempo de execução
+* Evitar padrões de loop ao encadear várias jornadas com atividades Jump
+
+**Glossário:**
+
+* **Atividade Jump**: uma atividade de ação que envia um evento interno para o primeiro evento de uma jornada de destino, fazendo com que o perfil comece a fluir por essa jornada. *(específico do produto)*
+* **jornada de Origem**: a jornada que contém a atividade de Salto e inicia a transferência de um perfil para outra jornada. *(específico do produto)*
+* **jornada do Target**: a jornada que recebe o perfil por meio do disparador de eventos internos da atividade de salto. *(específico do produto)*
+* **Ignorar silenciosamente**: o comportamento quando um perfil já está ativo na jornada de destino no momento de um salto — o salto é ignorado sem erro e a jornada de origem continua normalmente. *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* A atividade de salto só está disponível em jornadas que usam namespace; as jornadas de origem e destino devem compartilhar o mesmo namespace
+* Não é possível ir para uma jornada que começa com um evento de qualificação de público-alvo ou Ler público-alvo
+* Não é possível usar uma atividade de salto e um evento de qualificação de público-alvo ou Ler público-alvo na mesma jornada
+* Padrões de loop (cadeias de jornada circulares) não são compatíveis e são impedidos pela interface de configuração
+* No tempo de execução, a versão ao vivo mais recente da jornada de destino é acionada
+* Um perfil só pode estar presente uma vez na mesma jornada por vez; se já estiver ativo na jornada de destino, o salto será ignorado silenciosamente
+* Se a jornada de destino for rascunho, fechada, interrompida, excluída ou se o primeiro mapeamento de evento for interrompido, o salto resultará em um erro de configuração
+
+**Terminologia:**
+
+* Nome canônico: Atividade de salto — Acrônimo: none — variantes: ação de salto, salto de jornada
+* Sinônimos: &quot;jornada de origem&quot; = &quot;jornada de origem&quot;; &quot;jornada de destino&quot; = &quot;jornada de destino&quot;
+* Não confunda: &quot;silent skip&quot; ≠ &quot;runtime failure&quot; — Um skip silencioso ocorre quando o perfil já está na jornada de destino (nenhum erro gerado); uma falha runtime ocorre quando a jornada de destino está inacessível ou não reentrante (tratada como uma ação com falha)
+
+**Perguntas frequentes:**
+
+* **P: O que acontece com um perfil na jornada de origem após um salto?** — O perfil continua avançando pelas etapas restantes na jornada de origem após a etapa de salto enquanto entra simultaneamente na jornada de destino; está ativo em ambas as jornadas ao mesmo tempo.
+* **P: Posso ir para uma jornada de Leitura de Público?** — Não; não é possível ir para uma jornada que começa com um evento Ler público-alvo ou Qualificar público-alvo.
+* **P: O que aciona a jornada de destino quando um Jump é executado?** — Um evento interno é enviado para o primeiro evento da jornada de destino pela atividade Jump; o perfil flui pela jornada de destino a partir desse primeiro evento.
+* **P: Como evitar loops infinitos ao encadear jornadas com salto?** — Os padrões de loop são bloqueados pela interface de configuração da atividade Jump, que filtra as jornadas de destino que criariam uma cadeia circular.
+* **P: Que versão da jornada de destino é acionada por um Jump?** — A versão mais recente em tempo real (ou modo de teste) da jornada de destino é acionada no tempo de execução.
+
++++

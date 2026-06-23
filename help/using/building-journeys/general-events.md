@@ -11,22 +11,15 @@ keywords: personalizado, geral, eventos, jornada
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/jKMddtFlzmUinPK5-onY2u-kRAd1MD126biQVwq3aAg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 22%
+source-wordcount: 1253
+ht-degree: 12%
 
 ---
 
@@ -89,3 +82,44 @@ O tempo limite definido se aplica a todos os eventos posicionados após a ativid
 * Se nenhum evento for recebido dentro da duração do tempo limite, o indivíduo fluirá para a ramificação de tempo limite do evento em que o tempo limite foi definido.
 
 ![Vários eventos com configurações de tempo limite no jornada](assets/event-timeout-group.png)
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página explica como usar eventos gerais (unitários e comerciais) no jornada para acionar a entrega de mensagens em tempo real e em nível individual, incluindo como configurar tempos limite de eventos e caminhos de tempo limite.
+
+**Intenções:**
+* Adicione uma atividade de evento geral a uma tela de jornada para acionar a entrada de perfil em tempo real
+* Configure o tempo limite de um evento para limitar por quanto tempo uma jornada escuta um evento
+* Configure um caminho de tempo limite para lidar com perfis que não acionam o evento esperado a tempo
+* Faça a distinção entre eventos unitários e eventos de negócios e entenda quando cada um é adicionado automaticamente
+* Combine tempos limite de evento com atividades de espera para controlar o comportamento do tempo limite de vários eventos
+
+**Glossário:**
+* **Evento unitário**: um evento que dispara a jornada para um indivíduo de cada vez, em tempo real *(específico do produto)*
+* **Evento comercial**: um evento não relacionado a perfis que dispara uma jornada para um público de perfis, adicionando automaticamente uma atividade Ler público *(específico do produto)*
+* **Tempo limite de evento**: uma duração configurável (até 90 dias) após a qual a jornada para de aguardar um evento específico e direciona o perfil para um caminho de tempo limite *(específico do produto)*
+* **Caminho de tempo limite**: uma ramificação de jornada opcional que os perfis seguem quando o evento esperado não é recebido na janela de tempo limite *(específico do produto)*
+
+**Medidas de Proteção:**
+* O rótulo e a descrição do evento são os únicos campos editáveis para um evento geral na tela; todas as outras configurações são executadas por um usuário técnico e não podem ser alteradas na jornada
+* O tempo limite máximo do evento é de 90 dias
+* Quando vários eventos seguem uma atividade Wait, o tempo limite deve ser configurado em apenas um desses eventos; o tempo limite definido se aplica a todos os eventos após a atividade Wait
+* Se nenhum caminho de tempo limite for definido, o tempo limite atuará como uma atividade Wait; os perfis que não recebem o evento permanecerão na jornada até que o tempo limite expire
+
+**Terminologia:**
+* Nome canônico: Evento geral — Acrônimo: none — variantes: evento unitário, evento personalizado
+* Sinônimos: &quot;evento geral&quot; = &quot;evento unitário&quot; (no contexto da atividade da tela)
+* Não confunda: &quot;evento comercial&quot; ≠ &quot;evento unitário&quot; — um evento comercial direciona um público-alvo de perfis, enquanto um evento unitário direciona um único indivíduo
+
+**Perguntas frequentes:**
+* **P: Posso alterar a configuração do evento na tela de jornada?** — Não; somente o rótulo e a descrição podem ser editados na tela. A configuração completa do evento é definida por um usuário técnico e não pode ser modificada na jornada.
+* **P: O que acontece se nenhum evento for recebido antes que o tempo limite expire?** — Se um caminho de tempo limite for definido, o perfil fluirá para esse caminho. Se nenhum caminho de tempo limite for definido, o tempo limite se comportará como uma atividade de espera e o perfil continuará a jornada após o período de tempo limite.
+* **P: Qual é a duração máxima do tempo limite do evento?** — 90 dias.
+* **P: Quando devo habilitar a opção de caminho de tempo limite?** — Sempre ative-a se quiser que os perfis saiam dessa ramificação depois do tempo limite; sem um caminho de tempo limite, os perfis permanecem na jornada aguardando o evento.
+* **P: Como um evento comercial difere de um evento unitário na tela de jornada?** — a eliminação de um evento comercial adiciona automaticamente uma atividade Ler público, pois os eventos comerciais visam vários perfis simultaneamente, em vez de um único indivíduo.
+
++++

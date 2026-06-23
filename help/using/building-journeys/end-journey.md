@@ -10,24 +10,16 @@ keywords: inserir novamente, jornada, encerrar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9f9b9aa34e369132d0d595788edb3068be4c2cb6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1266
-ht-degree: 2%
+source-wordcount: 1779
+ht-degree: 1%
 
 ---
 
@@ -166,4 +158,50 @@ Quando parado, o status da jornada é definido como **[!UICONTROL Parado]**.
 * [Gerenciamento de entrada de perfil](entry-management.md) - Configure como os perfis entram nas jornadas
 * [Configurar critérios de saída](journey-properties.md#exit-criteria) - Configurar a remoção automática de perfil do jornada
 * [Pausar uma jornada](journey-pause.md) - Interromper temporariamente a execução da jornada
-* [Parar ou fechar uma jornada pausada](journey-pause.md#stop-close-paused) - Encerra uma jornada pausada sem retomá-la primeiro
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página explica as diferentes maneiras pelas quais uma jornada ativa pode terminar — incluindo o tempo limite global de 91 dias, o fechamento manual para novas entradas e a parada de emergência — juntamente com seus efeitos nos perfis em andamento.
+
+**Intenções:**
+
+* Fechar uma jornada em tempo real para novas entradas enquanto permite que os perfis atuais a concluam
+* Interromper uma jornada imediatamente para interromper todos os perfis em andamento
+* Entenda a diferença entre os status de jornada Fechado, Interrompido e Concluído
+* Determine quando uma jornada é considerada &quot;concluída&quot; com base em seu tipo e configuração
+* Exclua uma jornada depois de atingir o status Concluído
+
+**Glossário:**
+
+* **Marca de fim**: um nó não removível, gerado automaticamente, exibido no final de cada caminho de jornada durante a criação; seu rótulo pode ser alterado *(específico do produto)*
+* **Fechar para novas entradas**: uma ação manual que impede que novos perfis entrem em uma jornada enquanto permitem que perfis existentes concluam seu caminho *(específico do produto)*
+* **Tempo limite de jornada global**: a duração máxima de 91 dias após a qual uma jornada alterna automaticamente para o status Concluído e todos os dados de perfil são removidos *(específico do produto)*
+* **Status parado**: um estado de jornada em que todos os perfis em andamento são imediatamente interrompidos; usado apenas para emergências *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* As jornadas fechadas e interrompidas não podem ser reiniciadas ou excluídas; somente uma nova versão ou duplicação pode ser criada.
+* Somente jornadas com status Concluído podem ser excluídas.
+* A interrupção de uma jornada exige a permissão Gerenciar jornadas; jornadas com campanhas em linha ou nós de mensagens também exigem Campanhas > Publicar campanhas com permissão.
+* Após o tempo limite global de 91 dias, todos os dados de jornada de perfil são removidos e os perfis restantes são encerrados automaticamente.
+* Uma jornada única Read audience permanece no status Live após a execução; ela deve ser fechada manualmente ou será fechada após 91 dias.
+
+**Terminologia:**
+
+* Nome canônico: Fechar para novas entradas — Acrônimo: n/a — variantes: fechar jornada, fechar manualmente
+* Sinônimos: jornada &quot;Parada&quot; ≠ jornada &quot;Fechada&quot; — parada interrompe todos os perfis imediatamente; fechado apenas bloqueia novas entradas
+* Não confunda: &quot;End tag&quot; ≠ &quot;End activity&quot; — a tag End é gerada automaticamente e não pode ser removida; a atividade End é um nó de tela posicionável
+
+**Perguntas frequentes:**
+
+* **P: Qual é a diferença entre fechar e parar uma jornada?** — O fechamento bloqueia novas entradas, mas permite que os perfis existentes sejam concluídos; a interrupção interrompe imediatamente todos os perfis em suas trilhas.
+* **P: Quando uma jornada de leitura de público-alvo atinge o status Concluído?** — 91 dias após o início da execução (não recorrente), quando a data final é atingida (recorrente com a data final), ou 91 dias após o início (recorrente sem data final).
+* **P: Posso excluir uma jornada Fechada?** — Não, somente as jornadas concluídas podem ser excluídas.
+* **P: O que acontece com os perfis que ainda estão em uma jornada quando o tempo limite de 91 dias chega?** — Eles são automaticamente encerrados da jornada nesse ponto.
+* **P: Preciso de permissões especiais para parar uma jornada?** — Sim, a permissão Gerenciar jornadas é necessária, além de Campanhas > Publicar campanhas se a jornada contiver campanhas em linha ou nós de mensagens.
+
++++

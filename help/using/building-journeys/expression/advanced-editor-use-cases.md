@@ -11,21 +11,15 @@ keywords: expressão, condição, casos de uso, eventos
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/UUeCcATC7MFHsLuI8TPoVHqwVe9GOXUq3U3RoAG-a1o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 588
-ht-degree: 4%
+source-wordcount: 1103
+ht-degree: 2%
 
 ---
 
@@ -186,3 +180,50 @@ Explicação: Este exemplo usa as funções `substr` e `lastIndexOf` para remove
 
 
 Para obter mais informações sobre como usar o editor de expressão avançado, assista a [este vídeo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=pt-BR).
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página fornece exemplos práticos do uso do editor de expressão avançado para criar condições de jornada que filtram os usuários por atividade do carrinho, status do inventário, eventos de geofence, manipulações de cadeias de caracteres e janelas de carimbo de data/hora.
+
+**Intenções:**
+
+* Criar uma condição de abandono de carrinho usando `in()` e `inLastDays()` para direcionar usuários que adicionaram itens, mas não concluíram a compra em 7 dias
+* Filtrar coleções de eventos de experiência por janela de carimbo de data e hora para evitar a captura de dados históricos
+* Aplicar comparações de cadeias de caracteres que diferenciam maiúsculas de minúsculas e que não diferenciam maiúsculas de minúsculas a campos de eventos de geofence
+* Extrair e manipular IDs de CRM de eventos de inicialização de aplicativo móvel usando `substr` e `lastIndexOf`
+* Verificar a disponibilidade do estoque de produtos comparando um campo de quantidade com um limite
+* Combinar várias expressões booleanas usando a lógica `and` / `not` em condições de jornada
+
+**Glossário:**
+
+* **Editor de expressão avançado**: a interface do Journey Optimizer para gravar expressões complexas de nível de código usando funções, operadores e referências de campo *(específico do produto)*
+* **currentDataPackField**: Uma variável de loop usada ao iterar em coleções de fonte de dados dentro de `all()`, `first()` ou `last()` funções *(específico do produto)*
+* **inLastDays(timestamp, N)**: uma função de data que retorna verdadeiro se o carimbo de data/hora fornecido estiver nos últimos N dias *(específico do produto)*
+* **Eventos de experiência**: registros de dados comportamentais de série temporal armazenados no Adobe Experience Platform, recuperados em ordem cronológica inversa *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* Não há suporte para o uso de eventos de experiência diretamente em expressões/condições de jornada; métodos alternativos, como atributos computados ou segmentos de público-alvo, devem ser usados
+* O editor de expressão avançado deve ser usado (não o editor simples) para consultas em dados de série temporal, como coleções de compras ou cliques
+* Clicar duas vezes em um campo no painel esquerdo o insere rapidamente na expressão; evite digitar caminhos de campo manualmente para reduzir erros
+* Os eventos de experiência de consulta de expressões retornam um booleano; verifique se a lógica downstream espera um tipo booleano
+
+**Terminologia:**
+
+* Nome canônico: Editor de expressão avançado — Acrônimo: none — variantes: editor de expressão, editor avançado
+* Sinônimos: &quot;addToCart&quot; = &quot;adicionar à interação do carrinho&quot;; &quot;completePurchase&quot; = &quot;evento de conclusão de compra&quot;
+* Não confundir: eventos (com prefixo `@`) ≠ fontes de dados (com prefixo `#`)
+
+**Perguntas frequentes:**
+
+* **P: Por que devo usar o editor avançado em vez do editor simples para consultas de abandono de carrinho?** — O editor simples não pode executar consultas em coleções de série temporal; o editor avançado é necessário para as funções de coleção `all()`, `first()` e `last()`.
+* **P: Como faço referência ao evento &quot;addToCart&quot; mais recente em uma expressão?** — Use a função `first()` na coleção de eventos de experiência filtrada por `productInteraction == "addToCart"`, já que os eventos são retornados em ordem cronológica inversa.
+* **P: Como faço para que uma comparação de cadeias de caracteres não diferencie maiúsculas de minúsculas no editor avançado?** — Use a função `equalIgnoreCase()` em vez do operador `==`.
+* **P: Qual é a finalidade de adicionar uma janela de carimbo de data/hora ao consultar eventos do carrinho?** — A especificação de um carimbo de data e hora de início e término impede a coleta de dados históricos que estejam fora da janela de atividade desejada.
+* **P: Como remover chaves de uma cadeia de caracteres da ID do CRM transmitida em um evento?** — Use `substr()` combinado com `lastIndexOf()` para extrair o conteúdo entre as chaves.
+
++++

@@ -10,24 +10,15 @@ keywords: editor de expressão, dados, jornada
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8RsF-CRRrsLiCzwsaqfJQnWcyy6frmKkdSJBKnIhGgE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: ac5d9310-7772-40fb-9d78-864562e1bfd6id: e51e8901-97d9-4f7d-a835-503025a90e32id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 736
-ht-degree: 51%
+source-wordcount: 1233
+ht-degree: 30%
 
 ---
 
@@ -122,3 +113,50 @@ Se você selecionar um campo de uma fonte externa de dados que requer um parâme
 ![](../assets/journeyuc2_19.png)
 
 Para casos de uso mais complexos, caso queira incluir os parâmetros da fonte de dados na expressão principal, é possível definir os valores usando a palavra-chave &quot;params&quot;. Consulte [esta página](../expression/field-references.md).
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página apresenta o editor de expressão avançado do Jornada — seus pontos de acesso, painéis de interface e recursos para criar condições complexas, temporizadores de espera personalizados e mapeamentos de parâmetros de ação usando eventos, fontes de dados, funções e operadores.
+
+**Intenções:**
+
+* Acesse o editor de expressão avançado de uma condição de fonte de dados, atividade de espera personalizada ou mapeamento de parâmetro de ação
+* Criar condições booleanas avançadas usando campos de evento, campos de fonte de dados, associação de público-alvo e propriedades do jornada
+* Alternar entre o modo simples e o modo avançado ao configurar condições
+* Referencie parâmetros de fonte de dados externa diretamente na expressão principal usando a palavra-chave `params`
+* Use o Assistente de expressão habilitado para IA para gerar expressões de prompts de linguagem natural
+
+**Glossário:**
+
+* **Editor de expressão avançado**: o editor de código Journey Optimizer para gravar expressões complexas; distinto do editor de condição para apontar e clicar mais simples *(específico do produto)*
+* **Modo simples**: um editor de condições do tipo apontar-e-clicar; menos flexível que o editor avançado, mas mais fácil para não desenvolvedores *(específico do produto)*
+* **Propriedades da Jornada**: campos técnicos sobre a instância de jornada (ID, versão, erros, nó atual) acessível no editor de expressão *(específico do produto)*
+* **Assistente de Expressão**: uma ferramenta alimentada por IA (beta público) dentro do editor avançado que gera expressões de prompts de linguagem simples *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* A criação de expressões usando diretamente eventos de experiência não é suportada — use abordagens alternativas, como atributos calculados
+* As condições sempre retornam um tipo booleano independentemente do modo do editor
+* As expressões não devem conter caracteres ocultos ou não imprimíveis e devem usar formato de linha única para evitar erros de análise
+* Os valores de parâmetro da fonte de dados externa só podem vir de eventos de jornada ou da fonte de dados do Experience Platform, não de outras fontes de dados externas
+* As funções avançadas do editor de expressões são diferentes daquelas no editor de personalização
+
+**Terminologia:**
+
+* Nome canônico: Editor de expressão avançado — Acrônimo: none — variantes: editor avançado, editor de expressão
+* Sinônimos: &quot;Modo avançado&quot; = &quot;editor de expressão avançado&quot;
+* Não confunda: editor de expressão avançado (condições/ações de jornada) ≠ editor de personalização (personalização do conteúdo da mensagem)
+
+**Perguntas frequentes:**
+
+* **P: Quando devo usar o editor de expressão avançado em vez do modo simples?** — use o editor avançado quando precisar consultar coleções, usar funções, fazer referência a propriedades de jornada ou criar uma lógica de várias condições que o editor simples não consegue expressar.
+* **P: Como transfiro um parâmetro para uma fonte de dados externa na expressão?** — Use a palavra-chave `params` na sintaxe da expressão, por exemplo `#{DataSource.fieldGroup.field, params: {paramName: value}}`.
+* **P: O que o mecanismo de preenchimento automático faz?** — Ele exibe sugestões de campo e função contextuais à medida que você digita, ajudando a criar expressões válidas mais rapidamente.
+* **P: Onde o Assistente de Expressão é acessado?** — Por meio do controle de IA no editor de expressão avançado; no momento, está em beta público.
+* **P: As condições no editor avançado retornam um tipo diferente do modo simples?** — Não; as condições sempre retornam um booleano em ambos os modos.
+
++++

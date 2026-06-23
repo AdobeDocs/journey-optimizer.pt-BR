@@ -11,23 +11,16 @@ keywords: jornada, caso de uso, mensagem, assinantes, lista, ler
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/sDhncesYlIjsj2zjB-QmjWqP--0KDyp-5x5-UGLSjRc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 14%
+source-wordcount: 924
+ht-degree: 5%
 
 ---
 
@@ -81,3 +74,46 @@ Para configurar essa jornada, siga estas etapas:
 >[!CAUTION]
 >
 >A substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, não é necessário alterar o endereço de email, pois o valor definido como o endereço principal nos **[!UICONTROL Campos de execução]** é o que deve ser usado. [Saiba mais](../configuration/primary-email-addresses.md)
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** esta página mostra como criar uma jornada que envia um email para os assinantes de uma lista substituindo o parâmetro de endereço de email padrão por uma expressão que lê os endereços dos assinantes de um campo de mapa de consentimento.
+
+**Intenções:**
+
+* Criar uma jornada direcionada a assinantes de uma lista específica usando uma atividade Ler público
+* Substituir o endereço de email padrão em uma atividade de ação Email usando o editor de expressão
+* Use as funções `entry` e `firstEntryKey` para recuperar endereços de email de assinantes em um mapa de consentimento
+* Faça referência ao grupo de campos Detalhes sobre Consentimento e Preferência para acessar os dados da lista de assinaturas
+
+**Glossário:**
+
+* **Substituição de endereço de email (substituição de parâmetro)**: uma configuração de atividade de email de jornada que substitui o endereço de email de perfil padrão por uma expressão personalizada, usada para casos especiais, como direcionamento de lista de assinaturas. *(específico do produto)*
+* **Grupo de campos de Detalhes sobre Consentimento e Preferência**: um grupo de campos de esquema do Adobe Experience Platform que contém dados de assinatura e consentimento, incluindo o mapa `subscriptions` usado para armazenar endereços de email de assinantes. *(específico do produto)*
+* **`entry`função**: uma função de expressão que faz referência a um elemento de mapa por sua chave de namespace — usada aqui para fazer referência a uma lista de assinaturas específica (por exemplo, `daily-email`). *(específico do produto)*
+* **`firstEntryKey`função**: uma função de expressão que recupera a primeira chave de um mapa — usada aqui para recuperar o primeiro endereço de email do mapa de assinantes de uma lista de assinaturas. *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* A substituição de endereço de email deve ser usada somente para casos de uso específicos, como direcionamento de lista de assinaturas; na maioria dos casos, o endereço principal definido nos Campos de execução deve ser usado
+* O grupo de campos Detalhes do consentimento e da preferência deve estar presente no esquema para que este caso de uso funcione
+* O nome da lista de assinaturas usado na expressão (por exemplo, `daily-email`) deve corresponder exatamente ao nome configurado nos dados
+
+**Terminologia:**
+
+* Nome canônico: Substituição de endereço de email — Acrônimo: none — variantes: substituição de parâmetro, substituição de parâmetro de email
+* Sinônimos: &quot;lista de assinaturas&quot; = &quot;lista de assinantes&quot;
+* Não confunda: &quot;email address override&quot; ≠ &quot;primary email address&quot; — O endereço de email principal é o endereço padrão usado em todas as jornadas; a substituição é uma expressão por atividade usada apenas para casos especiais, como envio de lista de assinaturas
+
+**Perguntas frequentes:**
+
+* **P: Como faço para enviar um email aos assinantes de uma lista de assinaturas em vez de endereços de email de perfil?** — Habilite a substituição de parâmetro no campo Endereço da atividade Email e insira uma expressão usando as funções `entry` e `firstEntryKey` para recuperar endereços do mapa de assinantes da lista de assinaturas de destino.
+* **P: Qual grupo de campos é necessário para este caso de uso?** — O grupo de campos Detalhes sobre Consentimento e Preferência da Adobe Experience Platform, que contém a estrutura de mapa `subscriptions` usada para armazenar endereços de email de assinantes.
+* **P: Devo sempre usar a substituição de endereço de email ao direcionar assinantes?** — Não; a substituição de endereço de email é somente para casos de uso específicos. Na maioria das jornadas, o endereço principal definido nos Campos de execução deve ser usado.
+* **P: O que a função `firstEntryKey` faz neste contexto?** — Ele recupera a primeira chave de endereço de email do mapa `subscribers` associado a uma lista de assinaturas específica, permitindo que a jornada direcione a assinantes individuais.
+
++++

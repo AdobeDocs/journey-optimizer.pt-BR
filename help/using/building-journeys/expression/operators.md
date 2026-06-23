@@ -10,17 +10,14 @@ keywords: expressão, sintaxe, operadores, editor, jornada
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/sK2GNHkkiJ4M5V99Uucc-b68iESNW7kCNBjHVNT-dMs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 5%
+source-wordcount: 1001
+ht-degree: 3%
 
 ---
 
@@ -496,3 +493,51 @@ Retorna um _dateTime_ (com fuso horário UTC) uma hora depois da hora atual
 ```
 
 Retorna uma _duração_ PT2H
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Esta página é uma referência completa de operadores disponíveis no editor de expressão avançado de Jornada, abrangendo lógica (`and`, `or`, `not`), comparação (`==`, `!=`, `>`, `>=`, `<`, `<=`, `is null`, `is not null`, `has null`), aritmética (`+`, `-`, `/`, `*`, `%`), verificação de tipo matemático (`is numeric`, `is integer`, `is decimal`), concatenação de cadeias de caracteres e operadores aritméticos de data.
+
+**Intenções:**
+
+* Combinar condições booleanas usando operadores lógicos `and`, `or` e `not`
+* Verifique se um valor de campo ou expressão é nulo ou não usando `is null` / `is not null`
+* Detectar valores nulos em uma lista usando o operador `has null`
+* Comparar valores numeric, datetime e datetimeonly usando `>`, `>=`, `<`, `<=`, `==` e `!=`
+* Executar aritmética em valores numéricos usando `+`, `-`, `/`, `*` e `%`
+* Adicione uma duração a um valor dateTime, dateTimeOnly ou duration usando o operador `+`
+
+**Glossário:**
+
+* **Operador unário**: um operador aplicado a um único operando; pode ser à esquerda (por exemplo, `not`) ou à direita (por exemplo, `is null`) *(específico do produto)*
+* **Operador binário**: um operador aplicado entre dois operandos (por exemplo, `and`, `==`, `+`) *(específico do produto)*
+* **tem nulo**: um operador unário à direita que retorna verdadeiro se uma lista contiver pelo menos um elemento nulo *(específico do produto)*
+* **é numérico / é inteiro / é decimal**: operadores de verificação de tipo que retornam um booleano com base no subtipo numérico da expressão *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* Ao usar a multiplicação (`*`), ambos os operandos devem ser do mesmo tipo numérico (inteiro ou ambos decimais) — a mistura de tipos causa um erro
+* Ao usar o operador `+` para a aritmética de data, a expressão deve ser colocada entre parênteses para evitar erros de análise
+* Os operadores de comparação (`>`, `>=`, `<`, `<=`) só são válidos entre tipos compatíveis: Datetime com Datetime, DatetimeOnly com DatetimeOnly ou numeric com numeric — qualquer outra combinação é proibida
+* Uma cadeia de caracteres vazia `""` não é considerada nula — `has null` retorna falso para uma lista que contém `""`
+* Os operadores `==` e `!=` não executam controle de tipo de dados entre operandos
+
+**Terminologia:**
+
+* Nome canônico: Operadores — Acrônimo: none — variantes: operadores de expressão, operadores de jornada
+* Sinônimos: `and` = &quot;AND lógico&quot;; `or` = &quot;OR lógico&quot;; `not` = &quot;NOT lógico&quot;; `%` = &quot;módulo&quot;
+* Não confunda: `is null` (a expressão não tem valor avaliado) ≠ `== null` (não é uma sintaxe válida); `has null` (a lista contém nulo) ≠ `is null` (a própria expressão é nula)
+
+**Perguntas frequentes:**
+
+* **P: Posso multiplicar um inteiro por um decimal diretamente?** — Não; ambos os operandos de `*` devem ser do mesmo tipo. Use `3.0 * 4.0` (ambos decimais) ou `3 * 4` (ambos inteiros).
+* **P: Como adiciono 15 minutos a um dateTime?** — Use `(toDateTime("...")) + (toDuration("PT15M"))`.
+* **P: Qual é a diferença entre `is null` e `has null`?** — `is null` verifica se uma única expressão não tem valor avaliado; `has null` verifica se uma lista contém pelo menos um elemento nulo.
+* **P: `"" has null` retorna verdadeiro?** — Não; uma cadeia de caracteres vazia não é considerada nula, portanto, o resultado é falso.
+* **P: Por que o `3 * 4.0` causa um erro?** — O operador `*` requer que ambos os operandos sejam do mesmo tipo numérico; não é permitido misturar números inteiros e decimais.
+
++++
