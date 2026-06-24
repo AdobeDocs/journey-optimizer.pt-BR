@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Jornadas versus campanhas - escolha a abordagem correta
-description: Compare Jornadas, campanhas de ação, campanhas acionadas por API e campanhas orquestradas para escolher a abordagem certa para suas necessidades de marketing no Adobe Journey Optimizer.
+description: Compare Jornadas, campanhas de ação e campanhas acionadas por API para escolher a abordagem certa para suas necessidades de marketing no Adobe Journey Optimizer.
 feature: Journeys, Campaigns, Get Started, Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: jornada, campanha, orquestrado, comparação, escolher, decisão, fluxo de trabalho, tempo real, lote, orquestração, várias etapas, agendado, acionado por API, orientado por evento
+keywords: jornada, campanha, comparação, escolher, decisão, fluxo de trabalho, tempo real, lote, orquestração, várias etapas, agendado, acionado por API, orientado por evento
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
@@ -27,9 +27,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: 1904
+source-wordcount: 1660
 ht-degree: 4%
 
 ---
@@ -38,13 +38,17 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** compare as jornadas com campanhas orquestradas, acionadas por API e de ação, para que você possa escolher a abordagem certa para cada caso de uso de marketing no Adobe Journey Optimizer.
+**Nesta página:** compare as jornadas com campanhas acionadas por ação e API para poder escolher a abordagem certa para cada caso de uso de marketing no Adobe Journey Optimizer. Para campanhas orquestradas, consulte [Introdução às campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md).
 
 >[!ENDSHADEBOX]
 
 O [!DNL Adobe Journey Optimizer] oferece duas formas principais de alcançar e envolver seus clientes: **Jornadas** e **Campanhas**. As jornadas foram projetadas para a orquestração em tempo real e em várias etapas, orientada pelo comportamento do cliente, enquanto as campanhas são mais adequadas para transmissões únicas ou programadas para um público definido. Depois de decidir sobre uma campanha, você pode escolher o tipo de campanha que melhor se adapta ao seu caso de uso.
 
-Este guia ajuda você a escolher com base no estilo de execução, nas necessidades de dados e no caso de uso, com uma comparação rápida, uma árvore de decisão e exemplos concretos.
+Este guia ajuda você a escolher entre Jornadas, campanhas de ação e campanhas acionadas por API com base no estilo de execução, nas necessidades de dados e no caso de uso, com uma comparação rápida, uma árvore de decisão e exemplos concretos.
+
+>[!NOTE]
+>
+>**Campanhas orquestradas** têm características de arquitetura distintas (execução em lote no hub, dados relacionais de várias entidades) que exigem orientação dedicada. Não são incluídas nos quadros comparativos abaixo para evitar uma simplificação excessiva. [Saiba mais sobre Campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)
 
 ## Visão geral da comparação rápida {#quick-overview}
 
@@ -53,32 +57,31 @@ Este guia ajuda você a escolher com base no estilo de execução, nas necessida
 | **Jornadas** | Experiências do cliente em tempo real em várias etapas com lógica condicional | 1 orquestração :1 - cada perfil em seu próprio ritmo |
 | **Campanhas de ação** | Transmissões programadas ou recorrentes para públicos-alvo | Execução em lote - público-alvo processado junto no momento do envio |
 | **Campanhas acionadas por API** | Mensagens transacionais ou orientadas por eventos de sistemas externos | Execução sob demanda - acionada pela chamada à API com carga |
-| **Campanhas orquestradas** | Fluxos de trabalho em lote complexos com segmentação de várias entidades | Tela em lote - todos os perfis processados juntos |
 
 >[!TIP]
 >
->**Princípio básico rápido:** Precisa que cada cliente se mova em seu próprio ritmo com lógica em tempo real? Use **Jornadas**. Enviar uma mensagem para um público-alvo de acordo com o cronograma? Use **Campanhas de ação**. Acionando uma única mensagem de um sistema externo por meio da API? Use **campanhas acionadas por API** — ou uma **jornada de eventos unitária** se precisar de orquestração em várias etapas após o evento enviado por API. Precisa de dados de várias entidades, contagens exatas ou uma tela de lote? Use **Campanhas orquestradas**.
+>**Princípio básico rápido:** Precisa que cada cliente se mova em seu próprio ritmo com lógica em tempo real? Use **Jornadas**. Enviar uma mensagem para um público-alvo de acordo com o cronograma? Use **Campanhas de ação**. Acionando uma única mensagem de um sistema externo por meio da API? Use **campanhas acionadas por API** — ou uma **jornada de eventos unitária** se precisar de orquestração em várias etapas após o evento enviado por API.
 
 ## Comparação detalhada {#detailed-comparison}
 
 Use esta tabela abrangente para entender as principais diferenças:
 
-| Recurso | Jornadas | Campanhas de ação | Campanhas acionadas por API | Campanhas orquestradas |
-|---------|----------|------------------|------------------------|----------------------|
-| **Finalidade principal** | Orquestração de várias etapas do :1 com contexto de cliente em tempo real | Entrega de mensagem única ou recorrente para públicos | Mensagens transacionais ou orientadas por eventos iniciadas por sistemas externos | Campanhas em lote de várias etapas com fluxos de trabalho de segmentação complexos |
-| **Tipo de tela** | Tela 1:1 - cada perfil viaja em seu próprio ritmo | Sem tela - execução de ação única | Sem tela - execução de ação única | Tela em lote - todos os perfis processados juntos |
-| **Fluxo de execução** | Ações sequenciais, o perfil mantém o estado em toda a jornada | Execução simultânea para todo o público | Execução imediata por chamada de API | Fluxo de trabalho em lote de várias etapas com atividades e transições |
-| **Mecanismo de entrada** | Eventos, públicos, qualificações, eventos comerciais | Ativação e programação manuais | Chamada de API do sistema externo | Execução agendada do fluxo de trabalho em lote |
-| **Modelo de dados** | Perfil em tempo real + dados do evento | Dados de perfil de públicos da Experience Platform | Dados de carga da API com pesquisa de perfil opcional | Dados relacionais de várias entidades (perfis, produtos, lojas, reservas) |
-| **Segmentação** | Públicos-alvo pré-criados + condições em tempo real | Públicos-alvo pré-criados da Experience Platform | Direcionamento orientado por carga (sem público agendado) | Públicos sob demanda criados na tela com contagens exatas |
-| **Processamento de perfil** | Individual, em tempo real (conforme os eventos ocorrem) | Em lote, tudo de uma vez | Por chamada de API, orientada por carga | Em lote, tudo junto com suporte a várias entidades |
-| **Personalização** | Dados contextuais em tempo real + atributos de perfil | Atributos do perfil | Dados de carga + atributos opcionais do perfil | Dados de várias entidades para direcionamento de precisão |
-| **Complexidade** | Várias etapas com ramificação, tempos de espera e condições | Única ação ou fluxo de trabalho simples | Única ação com mapeamento de carga | Fluxos de trabalho em lote de várias etapas com segmentação, enriquecimento, divisões |
-| **Recomendado para** | Jornadas de ciclo de vida do cliente, integração, abandono de carrinho | Campanhas promocionais, boletins informativos, anúncios | Confirmações de pedidos, alertas de envio, redefinições de senha | Campanhas sazonais complexas, promoções em várias etapas, lançamentos de produtos |
-| **Horário** | Contínuo, sempre ativo depois de publicado | Datas de início/término programadas | Sob demanda, orientado por eventos por meio da API | Execução em lote agendada |
-| **Gerenciamento de estado** | Mantém o estado do cliente para ações em tempo real | Execução sem estado | Execução sem estado por chamada | Processamento em lote com tabelas de trabalho |
-| **Usar quando** | Vários pontos de contato necessários com a lógica de decisão em tempo real | Mensagem simples para um público em um horário específico | O sistema externo precisa acionar uma mensagem imediatamente | Necessidade de segmentação complexa, dados de várias entidades ou contagens exatas de pré-envio |
-| **Recursos exclusivos** | Reações em tempo real, atividades de espera e ritmo baseado em perfil | Agendamento, direcionamento de público, controle de taxa | Mapeamento de carga da API, acionamento de sistema para sistema | Conjuntos de dados relacionais, segmentação de várias entidades, contagens exatas, envio de vários níveis |
+| Recurso | Jornadas | Campanhas de ação | Campanhas acionadas por API |
+|---------|----------|------------------|------------------------|
+| **Finalidade principal** | Orquestração de várias etapas do :1 com contexto de cliente em tempo real | Entrega de mensagem única ou recorrente para públicos | Mensagens transacionais ou orientadas por eventos iniciadas por sistemas externos |
+| **Tipo de tela** | Tela 1:1 - cada perfil viaja em seu próprio ritmo | Sem tela - execução de ação única | Sem tela - execução de ação única |
+| **Fluxo de execução** | Ações sequenciais, o perfil mantém o estado em toda a jornada | Execução simultânea para todo o público | Execução imediata por chamada de API |
+| **Mecanismo de entrada** | Eventos, públicos, qualificações, eventos comerciais | Ativação e programação manuais | Chamada de API do sistema externo |
+| **Modelo de dados** | Perfil em tempo real + dados do evento | Dados de perfil de públicos da Experience Platform | Dados de carga da API com pesquisa de perfil opcional |
+| **Segmentação** | Públicos-alvo pré-criados + condições em tempo real | Públicos-alvo pré-criados da Experience Platform | Direcionamento orientado por carga (sem público agendado) |
+| **Processamento de perfil** | Individual, em tempo real (conforme os eventos ocorrem) | Em lote, tudo de uma vez | Por chamada de API, orientada por carga |
+| **Personalização** | Dados contextuais em tempo real + atributos de perfil | Atributos do perfil | Dados de carga + atributos opcionais do perfil |
+| **Complexidade** | Várias etapas com ramificação, tempos de espera e condições | Única ação ou fluxo de trabalho simples | Única ação com mapeamento de carga |
+| **Recomendado para** | Jornadas de ciclo de vida do cliente, integração, abandono de carrinho | Campanhas promocionais, boletins informativos, anúncios | Confirmações de pedidos, alertas de envio, redefinições de senha |
+| **Horário** | Contínuo, sempre ativo depois de publicado | Datas de início/término programadas | Sob demanda, orientado por eventos por meio da API |
+| **Gerenciamento de estado** | Mantém o estado do cliente para ações em tempo real | Execução sem estado | Execução sem estado por chamada |
+| **Usar quando** | Vários pontos de contato necessários com a lógica de decisão em tempo real | Mensagem simples para um público em um horário específico | O sistema externo precisa acionar uma mensagem imediatamente |
+| **Recursos exclusivos** | Reações em tempo real, atividades de espera e ritmo baseado em perfil | Agendamento, direcionamento de público, controle de taxa | Mapeamento de carga da API, acionamento de sistema para sistema |
 
 ## Guia de decisão {#decision-guide}
 
@@ -104,11 +107,8 @@ Siga esta árvore decisória para escolher a abordagem correta. Muitas marcas us
 * Personalização orientada por carga
 * Escolher campanhas quando nenhuma lógica de várias etapas for necessária
 
-**Fluxo de trabalho em lotes complexo com segmentação avançada?**
-→ **Usar campanhas orquestradas**
-* Necessidade de dados de várias entidades (produtos, lojas, reservas)
-* Exigir contagens exatas de pré-envio
-* Processamento em lote de várias etapas com divisões e enriquecimento
+**Fluxo de trabalho de lote complexo com segmentação avançada, dados de várias entidades ou contagens exatas de pré-envio?**
+→ **Use campanhas orquestradas** — consulte [Introdução às campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md) para obter orientação detalhada.
 
 ### Etapa 2: validar sua escolha
 
@@ -120,10 +120,9 @@ Siga esta árvore decisória para escolher a abordagem correta. Muitas marcas us
 | Anúncio promocional para todos os clientes | Campanhas de ação | Mensagem única, entrega imediata |
 | Reengajamento de usuários inativos com base no comportamento | Jornadas | Acionado pela qualificação de público-alvo, caminho personalizado |
 | Venda rápida acionada por evento comercial | Jornadas (Evento Comercial) | Acionador em tempo real que afeta vários clientes |
-| Promoção sazonal com integração ao catálogo de produtos | Campanhas orquestradas | Dados de várias entidades, segmentação complexa, contagem exata |
 | Mensagem transacional acionada por API (envio único) | Campanhas acionadas por API | Acionador do sistema externo, entrega imediata |
 | Fluxo de várias etapas acionado por API | Jornadas (evento unitário) | O sistema externo envia evento unitário por meio da API; o jornada coordena as etapas de acompanhamento |
-| Envio de vários níveis por reserva | Campanhas orquestradas | Relacionamentos de várias entidades, uma mensagem por reserva |
+| Fluxo de trabalho de lote complexo com dados de várias entidades | Campanhas orquestradas | Consulte [Introdução às campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md) |
 
 ## Principais distinções explicadas {#key-distinctions}
 
@@ -173,27 +172,6 @@ Todos recebem a mesma mensagem ao mesmo tempo.
 
 [Saiba mais sobre Campanhas](../campaigns/get-started-with-campaigns.md)
 
-### Campanhas orquestradas: workflows da tela em lote
-
-**O que o torna exclusivo:**
-* Tela em lote com atividades e transições (semelhante à tela do jornada, mas orientada a lote)
-* Suporte a dados relacionais de várias entidades (perfis + produtos + lojas + reservas)
-* Criação de público-alvo sob demanda na tela
-* Contagens exatas antes do envio (visibilidade pré-envio)
-* Envio em vários níveis (uma mensagem por entidade, por exemplo, por reserva)
-* Todos os perfis processados juntos em lote
-
-**Exemplo de fluxo:**
-
-```
-Query customers → Filter by purchase history → Split by region → 
-Enrich with product data → Build segments → Send personalized offers → All in one batch execution
-```
-
-Combina a complexidade do fluxo de trabalho com a execução da campanha em lote.
-
-[Saiba mais sobre Campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)
-
 ## Exemplos de caso de uso {#use-cases}
 
 ### Jornada casos de uso
@@ -218,58 +196,58 @@ Combina a complexidade do fluxo de trabalho com a execução da campanha em lote
 * **Alertas de conta**: acionados pelo sistema de detecção de fraudes
 * **Redefinições de senha**: acionado pela ação do usuário no aplicativo
 
-### Casos de uso de campanha orquestrada
-
-* **Promoção sazonal com integração de catálogo**: consultar catálogo de produtos, identificar clientes qualificados, segmentar por preferências, enviar recomendações personalizadas de produto
-* **Campanhas específicas da loja**: clientes-alvo próximos a locais de loja específicos com dados de inventário da loja
-* **Comunicações de várias reservas**: envie uma mensagem por reserva (reservas de hotel, reservas de voos)
-* **Orquestração de segmentos complexos**: crie públicos passo a passo com enriquecimento de várias fontes de dados
-* **Validação de pré-envio**: obtenha contagens exatas de destinatários antes de iniciar campanhas importantes
-
 ## Disponibilidade de recursos {#feature-availability}
 
 ### Canais
 
-| Canal | Jornadas | Campanhas de ação | Campanhas acionadas por API | Campanhas orquestradas |
-|---------|:--------:|:----------------:|:-----------------------:|:---------------------:|
-| Email | ✅ | ✅ | ✅ | ✅ |
-| Push | ✅ | ✅ | ✅ | ✅ |
-| SMS | ✅ | ✅ | ✅ | ✅ |
-| No aplicativo | ✅ | ✅ | ✅ | ❌ |
-| Web | ✅ | ✅ | ❌ | ❌ |
-| Baseado em código | ✅ | ✅ | ❌ | ❌ |
-| Cartões de conteúdo | ✅ | ✅ | ❌ | ❌ |
-| Correspondência direta | ✅ | ✅ | ❌ | ✅ |
-| LINE | ✅ | ✅ | ✅ | ✅ |
-| WhatsApp | ✅ | ✅ | ✅ | ✅ |
+| Canal | Jornadas | Campanhas de ação | Campanhas acionadas por API |
+|---------|:--------:|:----------------:|:-----------------------:|
+| Email | ✅ | ✅ | ✅ |
+| Push | ✅ | ✅ | ✅ |
+| SMS | ✅ | ✅ | ✅ |
+| No aplicativo | ✅ | ✅ | ✅ |
+| Web | ✅ | ✅ | ❌ |
+| Baseado em código | ✅ | ✅ | ❌ |
+| Cartões de conteúdo | ✅ | ✅ | ❌ |
+| Correspondência direta | ✅ | ✅ | ❌ |
+| LINE | ✅ | ✅ | ✅ |
+| WhatsApp | ✅ | ✅ | ✅ |
+
+>[!NOTE]
+>
+>Para obter a disponibilidade do canal de campanhas orquestradas, consulte [Campanhas orquestradas — Canais suportados](../orchestrated/gs-orchestrated-campaigns.md).
 
 ### Recursos avançados
 
-| Recurso | Jornadas | Campanhas de ação | Campanhas acionadas por API | Campanhas orquestradas |
-|-----------|:--------:|:----------------:|:-----------------------:|:---------------------:|
-| Fluxos de trabalho de várias etapas | ✅ | ❌ | ❌ | ✅ |
-| Acionadores em tempo real | ✅ | ❌ | ✅ | ❌ |
-| Atividades de espera | ✅ | ❌ | ❌ | ✅ |
-| Ramificação condicional | ✅ | ❌ | ❌ | ✅ |
-| Execução programada | ✅ | ✅ | ✅ | ✅ |
-| Acionamento da API | ✅ (somente evento unitário — evento enviado por API) | ❌ | ✅ | ❌ |
-| Dados de várias entidades | ❌ | ❌ | ❌ | ✅ |
-| Contagens exatas de pré-envio | ❌ | ❌ | ❌ | ✅ |
-| Segmentação sob demanda | ❌ | ❌ | ❌ | ✅ |
-| Otimização de hora de envio | ✅ | ❌ | ❌ | ❌ |
-| Teste AB | ✅ | ✅ | ❌ | ❌ |
-| Fluxos de trabalho de aprovação | ✅ | ✅ | ✅ | ❌ |
+| Recurso | Jornadas | Campanhas de ação | Campanhas acionadas por API |
+|-----------|:--------:|:----------------:|:-----------------------:|
+| Fluxos de trabalho de várias etapas | ✅ | ❌ | ❌ |
+| Acionadores em tempo real | ✅ | ❌ | ✅ |
+| Atividades de espera | ✅ | ❌ | ❌ |
+| Ramificação condicional | ✅ | ❌ | ❌ |
+| Execução programada | ✅ | ✅ | ✅ |
+| Acionamento da API | ✅ (somente evento unitário — evento enviado por API) | ❌ | ✅ |
+| Dados de várias entidades | ❌ | ❌ | ❌ |
+| Contagens exatas de pré-envio | ❌ | ❌ | ❌ |
+| Segmentação sob demanda | ❌ | ❌ | ❌ |
+| Otimização de hora de envio | ✅ | ❌ | ❌ |
+| Teste AB | ✅ | ✅ | ❌ |
+| Fluxos de trabalho de aprovação | ✅ | ✅ | ✅ |
+
+>[!NOTE]
+>
+>Para obter detalhes sobre recursos de campanhas orquestradas, incluindo experimentos de conteúdo, acionamento de API em lote e segmentação de várias entidades, consulte [Introdução a campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Perguntas comuns {#common-questions}
 
 +++ É possível combinar jornadas e campanhas em minha estratégia de marketing?
 
-Sim. Muitas organizações usam todas as quatro abordagens para diferentes cenários:
+Sim. Muitas organizações usam todas as abordagens para diferentes cenários:
 
 * **Jornadas** para envolvimento comportamental e em tempo real
 * **Campanhas de ação** para comunicações de difusão agendadas
 * **Campanhas acionadas por API** para mensagens transacionais
-* **Campanhas orquestradas** para campanhas em lote complexas e com muitos dados
+* **Campanhas orquestradas** para campanhas em lote complexas e com muitos dados — consulte [Introdução a campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)
 
 Use a ferramenta certa para cada caso de uso, em vez de forçar uma abordagem para tudo.
 
@@ -283,23 +261,24 @@ Não, você deve recriar a experiência no formato apropriado. No entanto, você
 
 +++ Qual abordagem é mais fácil de criar?
 
-As campanhas de ação normalmente são as mais simples (mensagem única para o público), seguidas por campanhas acionadas por API, Jornadas (mais complexas com lógica de várias etapas) e campanhas orquestradas (mais complexas devido ao fluxo de trabalho da tela e recursos de várias entidades).
+As campanhas de ação normalmente são as mais simples (mensagem única para o público-alvo), seguidas por campanhas acionadas por API e Jornadas (mais complexas com lógica de várias etapas).
 
 +++
 
 +++ Qual dimensionamento é melhor para públicos-alvo grandes?
 
-Todos os quatro podem ser bem dimensionados; a escolha certa depende do seu padrão:
+Todos os três podem ser bem dimensionados; a escolha certa depende do seu padrão:
 
 * As **Jornadas de Leitura de Público** e as **Campanhas de ação** estão otimizadas para públicos de lote grandes (uma mensagem ou fluxo para muitos perfis de uma só vez).
-* **Campanhas orquestradas** destacam-se na segmentação complexa com grandes conjuntos de dados e dados de várias entidades.
 * **O Jornada** unitário (baseado em eventos) processa perfis individualmente à medida que os eventos ocorrem, portanto, a escala depende do volume e da taxa de transferência do evento.
+
+Para segmentação complexa com grandes conjuntos de dados e dados de várias entidades, consulte [Campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md).
 
 +++
 
 +++ Posso usar o mesmo público-alvo em jornadas e campanhas?
 
-Sim. Os públicos-alvo criados no [!DNL Adobe Experience Platform] podem ser usados em Jornadas, campanhas de Ação e campanhas Orquestradas (em que a lógica do público-alvo também pode ser criada sob demanda na tela). As campanhas acionadas por API são orientadas por carga útil e não usam públicos pré-criados da mesma maneira.
+Sim. Os públicos-alvo criados em [!DNL Adobe Experience Platform] podem ser usados em Jornadas, campanhas de Ação e campanhas Orquestradas. As campanhas acionadas por API são orientadas por carga útil e não usam públicos pré-criados da mesma maneira.
 
 +++
 
@@ -309,7 +288,7 @@ Pronto(a) para começar a criar? Explore a documentação detalhada da abordagem
 
 * **[Introdução ao Jornada](../building-journeys/journey.md)** - Tipos de Jornada, designer e fluxo de trabalho
 * **[Introdução às Campanhas](../campaigns/get-started-with-campaigns.md)** - Campanhas acionadas por ação e API
-* **[Introdução a campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)** - Fluxos de trabalho de tela de lote
+* **[Introdução a campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)** - Fluxos de trabalho de tela de lote com dados de várias entidades (orientação separada)
 
 >[!MORELIKETHIS]
 >
