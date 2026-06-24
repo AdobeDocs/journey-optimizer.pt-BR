@@ -381,7 +381,7 @@ Se o problema persistir após essas verificações, consulte [Tempo e propagaç�
 
 ### Tempo e propagação de dados {#timing-and-data-propagation}
 
-* **Conclusão do trabalho de segmentação em lotes**: para públicos em lotes, verifique se o trabalho diário de segmentação em lotes foi concluído e se os instantâneos são atualizados antes da execução da jornada. Os públicos-alvo em lote ficam prontos para uso aproximadamente **2 horas** após a conclusão do trabalho de segmentação. Saiba mais sobre [métodos de avaliação de público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}.
+* **Conclusão do trabalho de segmentação em lotes**: para públicos em lotes, verifique se o trabalho diário de segmentação em lotes foi concluído e se os instantâneos são atualizados antes da execução da jornada. Os públicos-alvo em lote ficam prontos para uso aproximadamente **2 horas** após a conclusão do trabalho de segmentação. Saiba mais sobre [métodos de avaliação de público-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR#evaluate-segments){target="_blank"}.
 
 * **Tempo de assimilação de dados**: verifique se a assimilação de dados do perfil foi totalmente concluída antes da execução da jornada. Se os perfis tiverem sido assimilados pouco antes do início da jornada, talvez eles não sejam refletidos no público-alvo ainda. Saiba mais sobre a [assimilação de dados em [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
 
