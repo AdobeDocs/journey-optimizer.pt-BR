@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 61c97e285ca44c37cf517c608943dece9e2531c0
+source-git-commit: d5e17c13efad1b99ee788fc5930f27e15ffdb337
 workflow-type: tm+mt
 source-wordcount: 3525
 ht-degree: 26%
@@ -153,6 +153,8 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 * **Limite de jornadas ao vivo aumentado e novas medidas de proteção** - Agora você pode ter até **200 jornadas ativas**, maior que o limite anterior de 100. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
 
   Data de disponibilidade: 18 de junho de 2026. Esse recurso será gradualmente distribuído a todas as regiões nos próximos dias.
+
+<!--* [!BADGE Deprecation]{type=Negative} **Batch audiences deprecated in Audience Qualification node** - Starting **August 3, 2026**, Journey Optimizer will block publication for any journey using a batch audience in an **Audience Qualification** node. A validation warning is already surfaced in the journey canvas. Existing live journeys are not affected. New, draft, and duplicated journeys that include this configuration must be updated before August 3. Use a streaming audience in the Audience Qualification node, or switch to a **Read Audience** activity. [Learn how to migrate your journeys](../building-journeys/aq-batch-audiences-migration.md)-->
 
 +++ Em breve — **As informações abaixo estão sujeitas a alterações.**
 
