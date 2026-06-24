@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Migrar públicos em lote de jornadas de qualificação de público-alvo
-description: Saiba como migrar jornadas que usam públicos-alvo em lote em um nó de Qualificação de público-alvo antes da data de imposição de agosto de 2026.
+description: Saiba como migrar jornadas que usam públicos-alvo em lote em um nó de Qualificação de público-alvo antes da data de imposição.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
@@ -15,9 +15,9 @@ feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-source-git-commit: cea41add5b86adb3b447ce606e73248adce0f731
+source-git-commit: 4a5cbd65b7046e8f1b82147cdc2cd61a3991c258
 workflow-type: tm+mt
-source-wordcount: 869
+source-wordcount: 867
 ht-degree: 0%
 
 ---
