@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
+source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
-source-wordcount: 8714
+source-wordcount: 8760
 ht-degree: 92%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 92%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Junho de 2026 {#june-2026}
+
+* A documentação **Aproveitar temas em um fragmento** foi esclarecida para documentar explicitamente o limite de compatibilidade de 5 temas (incluindo a restrição de tema padrão do Adobe) e explicar que a inserção de fragmento está bloqueada quando o tema de email não é um dos temas associados ao fragmento. [Leia mais](../email/apply-email-themes.md#leverage-themes-fragment)
 
 * As páginas **Introdução aos conjuntos de dados** e **Introdução aos esquemas** foram atualizadas com orientações sobre como ativar conjuntos de dados e esquemas para o Perfil do cliente em tempo real, incluindo considerações principais, a distinção entre desabilitar um conjunto de dados e seu esquema subjacente, e links para o planejamento da Adobe Experience Platform e a documentação de práticas recomendadas. [Saiba mais sobre conjuntos de dados](../data/get-started-datasets.md) e [Saiba mais sobre esquemas](../data/get-started-schemas.md)
 
@@ -695,7 +697,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=pt-BR){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
