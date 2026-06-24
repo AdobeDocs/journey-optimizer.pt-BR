@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2f40bb1c966b677900e4b0eb643d8665e77c3423
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b17f3d80050281659fd4df2bc45980df898acf1c
 workflow-type: tm+mt
-source-wordcount: 3525
+source-wordcount: 3606
 ht-degree: 26%
 
 ---
@@ -132,6 +120,9 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 </tbody>
 </table>
 
+
+* [!BADGE Descontinuação]{type=Negative} **Públicos-alvo em lote descontinuados no nó de Qualificação de Público-Alvo** - A partir de **agosto de 2026**, a Journey Optimizer bloqueará a publicação de qualquer jornada usando um público-alvo em lote em um nó **Qualificação de Público-Alvo**. Um aviso de validação já foi exibido na tela de jornada. As jornadas ativas existentes não são afetadas. As jornadas novas, de rascunho e duplicadas que incluem essa configuração devem ser atualizadas antes de agosto de 2026. Use um público-alvo de transmissão no nó Qualificação de público-alvo ou alterne para uma atividade **Ler público-alvo**. [Saiba como migrar suas jornadas](../building-journeys/aq-batch-audiences-migration.md)
+
 * **Parar uma jornada pausada diretamente** - Agora é possível parar uma jornada diretamente do estado **Pausado**. Anteriormente, uma jornada pausada tinha que ser retomada ao **Live** antes de ser interrompida. [Leia mais](../building-journeys/journey-pause.md#stop-close-paused)
 
   Data de disponibilidade: 18 a 22 de junho de 2026
@@ -154,7 +145,6 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 
   Data de disponibilidade: 18 de junho de 2026. Esse recurso será gradualmente distribuído a todas as regiões nos próximos dias.
 
-<!--* [!BADGE Deprecation]{type=Negative} **Batch audiences deprecated in Audience Qualification node** - Starting **August 3, 2026**, Journey Optimizer will block publication for any journey using a batch audience in an **Audience Qualification** node. A validation warning is already surfaced in the journey canvas. Existing live journeys are not affected. New, draft, and duplicated journeys that include this configuration must be updated before August 3. Use a streaming audience in the Audience Qualification node, or switch to a **Read Audience** activity. [Learn how to migrate your journeys](../building-journeys/aq-batch-audiences-migration.md)-->
 
 +++ Em breve — **As informações abaixo estão sujeitas a alterações.**
 
