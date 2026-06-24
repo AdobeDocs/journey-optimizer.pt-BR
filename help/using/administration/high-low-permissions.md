@@ -10,22 +10,14 @@ level: Experienced
 keywords: permissão, alto nível, baixo nível, perfil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 TQID: https://experienceleague.adobe.com/JmWqA2lkS0vWlssVYWycq-gvC6IRrrmAokJj1AGINxc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1545
+source-wordcount: 1995
 ht-degree: 0%
 
 ---
@@ -199,7 +191,7 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
       * experiments.read
       * experiments.write
       * experiments.delete
-     -->
+-->
 
 +++
 
@@ -688,3 +680,42 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++
 
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* As funções do Journey Optimizer **TL;DR:** são criadas com base em permissões de alto nível, cada uma das quais inclui os direitos de API de baixo nível específicos de que os usuários precisam para ler, gravar, publicar ou excluir recursos em jornadas, campanhas, decisões, configurações de canal e muito mais.
+
+**Intenções:**
+
+* Entender a distinção entre permissões de alto e baixo nível
+* Identificar quais permissões de baixo nível são concedidas por cada permissão de alto nível
+* Configure funções com precisão para jornadas, campanhas, gestão de decisões, configurações de canal e campanhas orquestradas
+* Conceder acesso ao Assistente de IA para geração de conteúdo
+* Entenda o que a permissão Publicar jornadas permite em comparação à permissão Gerenciar jornadas
+
+**Glossário:**
+
+* **Permissão de alto nível**: uma permissão nomeada atribuída a uma função (por exemplo, Gerenciar jornadas, Publicar jornadas) que abrange uma ou mais permissões de baixo nível *(específico do produto)*
+* **Permissão de baixo nível**: um direito granular de nível de API (por exemplo, jornada.read, jornada.write) derivado e incluído em uma permissão de alto nível *(específico do produto)*
+* **Função**: uma coleção de usuários que compartilham as mesmas permissões e sandboxes na organização *(específico do produto)*
+
+**Terminologia:**
+
+* Não confunda: &quot;Permissão de alto nível&quot; (direito nomeado atribuível a uma função) ≠ &quot;Permissão de baixo nível&quot; (direito de API granular subjacente, não atribuível diretamente)
+* Não confunda: &quot;Gerenciar jornadas&quot; (permite criar, editar, excluir, parar — incluindo em tempo real, modo de teste e simulação) ≠ &quot;Publicar jornadas&quot; (permite publicar, iniciar modo de teste, iniciar simulação, pausar e retomar jornadas)
+* Não confunda: &quot;Gerenciar eventos, fontes de dados e ações do jornada&quot; (CRUD completo em eventos, fontes, ações) ≠ &quot;Exibir eventos, fontes de dados e ações do jornada&quot; (acesso somente leitura a esses objetos)
+* Não confunda: &quot;Gerar conteúdo&quot; (acesso ao Assistente de IA no Journey Optimizer) ≠ outras permissões de jornada ou campanha
+* Não confunda: &quot;Modo de teste&quot; (referenciado em Publicar jornadas e Gerenciar jornadas como um modo de execução de jornada que pode ser iniciado ou interrompido) ≠ &quot;Dry run&quot; (um modo de execução de jornada separado também referenciado nessas mesmas permissões)
+
+**Perguntas frequentes:**
+
+* **P: A permissão Gerenciar jornadas permite que um usuário publique jornadas?** — Não; a publicação de jornadas exige a permissão separada de alto nível Publicar jornadas.
+* **P: O que a permissão Gerar conteúdo concede?** — Acesso ao Assistente de IA no Journey Optimizer.
+* **P: Um usuário pode configurar eventos do jornada sem a permissão Gerenciar jornada?** — Sim; gerenciar eventos, fontes de dados e ações do jornada é uma permissão separada de alto nível que abrange a configuração de eventos, fontes de dados e ações.
+* **P: Que permissões de baixo nível estão incluídas no relatório Exibir jornadas?** — jornada_report.read e messages_report.read, além de datasets.read, queries.read, queries.write e queries.delete da Adobe Experience Platform.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: d1d9ebf9 -->

@@ -10,32 +10,16 @@ level: Intermediate
 keywords: permissões, criação, mensagens
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 2%
+source-wordcount: 1757
+ht-degree: 1%
 
 ---
 
@@ -80,3 +64,47 @@ As permissões internas representam as diferentes permissões que podem ser atri
 | Serviço de tradução | **[!DNL Manage translation in house]**: ler, criar, editar e excluir a tradução internamente.</br>**[!DNL Manage translation projects]**: ler, criar, editar e excluir projetos de tradução.</br> **[!DNL Manage translation reviews]**: ler, criar, editar e excluir revisões de tradução.</br>**[!DNL Manage translation settings]**: ler, criar, editar e excluir configurações de tradução.</br>**[!DNL Manage translation tasks]**: ler, criar, editar e excluir tarefas de tradução.</br>**[!DNL View translation in house]**: acesso somente leitura para tradução interna.</br>**[!DNL View translation projects]**: acesso somente leitura para projetos de tradução.</br>**[!DNL View translation reviews]**: acesso somente leitura para revisões de tradução.</br>**[!DNL View translation tasks]**: acesso somente leitura para tarefas de tradução. |
 
 {style="table-layout:fixed"}
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+- **TL;DR:** esta página é uma referência abrangente de todas as permissões integradas no Journey Optimizer, agrupadas por área de recurso, para que os administradores possam identificar exatamente quais direitos incluir ao compilar ou auditar uma função.
+
+**Intenções:**
+
+- Pesquisar todas as permissões disponíveis para uma determinada área de recursos (Jornadas, Campanhas, Gerenciamento de decisão, Assistente de IA etc.)
+- Identificar a permissão correta para adicionar a uma função personalizada ou interna
+- Distinguir entre Permissões de gerenciamento e visualização por recurso
+- Encontre permissões para o Assistente de IA, campanhas orquestradas e decisões de experiência
+- Identificar quais permissões abrangem os modos de execução de jornada (modo de teste, simulação, simulação)
+
+**Glossário:**
+
+- **Permissões internas**: direitos unitários predefinidos atribuíveis a uma função para controlar o acesso a recursos e objetos no Journey Optimizer; permissões de alto nível abrangem permissões de baixo nível *(específico do produto)*
+- **Recurso**: uma área funcional que agrupa permissões relacionadas (por exemplo, Jornadas, Campanhas, Gerenciamento de decisão, Assistente de IA) *(específico do produto)*
+- **Modo de teste**: um modo de execução de jornada; a permissão Publicar jornada inclui a capacidade de iniciar o modo de teste *(específico do produto)*
+- **Execução seca**: um modo de execução de jornada; a permissão Publicar jornadas inclui a capacidade de iniciar a execução seca *(específico do produto)*
+- **Simulação**: um recurso de jornada separado; a permissão Simular Jornadas abrange leitura, criação e edição de Simulação no Jornada *(específico do produto)*
+
+**Terminologia:**
+
+- Nome canônico: permissões integradas — variantes: permissões predefinidas, permissões OOTB
+- Não confunda: &quot;Gerenciar jornadas&quot; (inclui parar em tempo real, modo de teste e simulação) ≠ &quot;Publicar jornadas&quot; (inclui publicar, iniciar modo de teste, iniciar simulação, pausar e retomar)
+- Não confunda: &quot;Simular Jornadas&quot; (permissão para ler, criar e editar simulação no Jornada) ≠ &quot;Simular conteúdo&quot; (acesso à opção Simular conteúdo para pré-visualização e prova de mensagens)
+- Não confunda: &quot;Gerar conteúdo&quot; (Acesso ao assistente de IA no Journey Optimizer) ≠ &quot;Ativar o assistente de IA&quot; (ativar ou acessar recursos de campanha e público alimentados por IA)
+- Não confunda: &quot;Modo de teste&quot; (modo de execução de jornada controlado pela permissão Publicar no jornada) ≠ &quot;Execução em segundo plano&quot; (modo de execução de jornada separado também controlado pela permissão Publicar no jornada) ≠ &quot;Simulação&quot; (recurso separado através da permissão Simular no Jornada)
+- Não confunda: &quot;Gerenciar decisões&quot; (CRUD em entidades de decisão) ≠ &quot;Gerenciar decisão de experiência&quot; (CRUD em configurações de decisão e políticas de decisão da Experience Decisioning)
+
+**Perguntas frequentes:**
+
+- **P: Qual permissão é necessária para usar o Assistente de IA para gerar conteúdo?** — Gerar conteúdo (com o recurso de assistente de IA).
+- **P: Que permissão permite que um usuário exporte a lista de supressão?** — Lista de supressão de exportação (em Configurações de canal).
+- **P: Qual permissão concede acesso somente leitura ao jornada?** — Exibir jornadas (no recurso Jornadas).
+- **P: Qual permissão é necessária para publicar campanhas orquestradas?** — Publique campanhas orquestradas (em Campanhas orquestradas); essa permissão também é necessária para acionar uma campanha orquestrada usando um sinal.
+- **P: O que a permissão Simular Jornadas cobre?** — leia, crie e edite simulação no Jornada.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 1374a5c2 -->

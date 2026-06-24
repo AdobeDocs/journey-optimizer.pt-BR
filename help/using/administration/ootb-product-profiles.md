@@ -10,26 +10,16 @@ level: Intermediate
 keywords: permissões, criação, mensagens
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 TQID: https://experienceleague.adobe.com/LkOCFOSH-AzwWMoteNN-XI3R2yYkO5iBrVwMtobd4iI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 2137
-ht-degree: 6%
+source-wordcount: 2684
+ht-degree: 5%
 
 ---
 
@@ -240,6 +230,52 @@ Essa função inclui as seguintes permissões:
 | Gestão de decisões | <ul><li>**[!DNL View decisions]**: acesso somente leitura a entidades de decisões.</li></ul> |
 | Regras do Journey Optimizer | <ul> <li>**[!DNL View frequency rules]**: acesso somente leitura a regras de frequência.</li></ul> |
 | Campanhas orquestradas | <ul><li>**[!DNL View orchestrated campaigns]**: acesso somente leitura a campanhas orquestradas.</li><li>**[!DNL View orchestrated campaigns report]**: acesso somente leitura a relatórios de campanhas orquestradas.</li></ul> |
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* O **TL;DR:** Journey Optimizer vem com funções integradas, desde o Administrador do Campaign até o Visualizador Orquestrado do Campaign, cada uma incluindo um conjunto de permissões pronto para uso, para que os administradores possam conceder rapidamente aos usuários um nível de acesso que corresponda às suas responsabilidades, sem criar uma função do zero.
+
+**Intenções:**
+
+* Identificar qual função interna melhor se adapta às responsabilidades de trabalho de um usuário
+* Entenda o que cada função interna pode ou não fazer (incluindo direitos de publicação)
+* Comparar funções entre domínios de campanha, jornada e campanha orquestrada
+* Atribuir uma função pronta em vez de criar uma função personalizada
+* Entenda quais funções incluem o acesso ao Assistente de IA
+
+**Glossário:**
+
+* **Função interna**: um conjunto predefinido de permissões e direitos de recurso pronto para atribuir a usuários sem configuração personalizada *(específico do produto)*
+* **Administrador do Jornada**: função interna que habilita o gerenciamento e a publicação de Jornadas e Gerenciamento de decisões, incluindo a configuração de canais e permissões de governança de dados *(específico do produto)*
+* **Administrador de Campanha**: função interna que habilita o gerenciamento e a publicação de Campanhas e Gerenciamento de decisões, incluindo configurações de canal *(específico do produto)*
+* **Gerente de decisão**: função interna que fornece acesso exclusivo ao menu Gerenciamento de decisão; pode gerenciar, exibir e publicar decisões *(específico do produto)*
+* **Gerenciador de Biblioteca de Conteúdo**: função interna que fornece acesso somente ao menu Modelos de conteúdo; não é possível acessar jornadas ou campanhas *(específico do produto)*
+* **Modo de teste**: um modo de execução de jornada referenciado nas permissões Gerenciar jornada e Publicar jornada (o Administrador do Jornada pode parar o jornada no modo de teste; a permissão Publicar jornada inclui a inicialização do modo de teste) *(específico do produto)*
+* **Execução seca**: um modo de execução de jornada referenciado nas permissões Gerenciar jornadas e Publicar jornadas junto com o modo de teste *(específico do produto)*
+
+**Terminologia:**
+
+* Nome canônico: funções integradas — variantes: funções prontas para uso, funções OOTB, perfis de produto
+* Não confunda: &quot;Aprovador da campanha&quot; (pode aprovar e publicar campanhas) ≠ &quot;Gerente de campanha&quot; (pode criar e editar campanhas, mas não pode publicá-las)
+* Não confunda: &quot;Aprovador de Jornada&quot; (pode aprovar e publicar jornadas) ≠ &quot;Gerente de Jornada&quot; (pode criar e editar jornadas, mas não pode publicá-las)
+* Não confunda: &quot;Visualizador de Jornada&quot; (acesso somente leitura a jornadas e gestão de decisões) ≠ &quot;Visualizador de campanha&quot; (acesso somente leitura a campanhas e gestão de decisões)
+* Não confunda: &quot;Administrador de campanha orquestrada&quot; (gerencia campanhas orquestradas, inclui o Assistente de IA e a assimilação/gestão de dados) ≠ &quot;Administrador de campanha&quot; (gerencia campanhas padrão; não inclui permissões de campanha orquestrada)
+* Não confunda: &quot;Modo de teste&quot; (referenciado como um estado de execução de jornada que pode ser interrompido ou iniciado por meio de Gerenciar jornadas / Publicar jornadas) ≠ &quot;Dry run&quot; (um modo de execução de jornada separado também referenciado nessas mesmas permissões)
+
+**Perguntas frequentes:**
+
+* **P: Quais funções internas podem publicar jornadas?** — O administrador e o aprovador da Jornada podem publicar jornadas.
+* **P: Um Gerenciador de Jornadas pode publicar jornadas?** — Não; o Jornada Manager pode criar e editar jornadas, mas a permissão Publicar jornadas não está incluída nessa função.
+* **P: Qual função concede acesso somente ao menu Gerenciamento de decisão?** — Gestor de decisões.
+* **P: Que função fornece acesso somente a modelos de conteúdo?** — Gerenciador de biblioteca de conteúdo.
+* **P: Quais funções internas incluem a permissão Habilitar Assistente de IA?** — administrador de campanha orquestrada, aprovador de campanha orquestrada, gerente de campanha orquestrada e visualizador de campanha orquestrada.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: b9740765 -->
 
 
 

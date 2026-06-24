@@ -10,25 +10,16 @@ level: Intermediate
 keywords: abac, atributo, autorizações, dados, acesso, confidencial, ativos
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 TQID: https://experienceleague.adobe.com/PrmjDN7KDV5Y1NRxfEyQ-3ADOIWjgMv2OuRXitt-Wzk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1112
-ht-degree: 4%
+source-wordcount: 1644
+ht-degree: 2%
 
 ---
 
@@ -54,13 +45,13 @@ Neste exemplo, um rótulo é adicionado ao campo de esquema **Nacionalidade** pa
 
 1. Use o **[!UICONTROL Campo de esquema]** no Adobe Journey Optimizer.
 
-Observe que as **[!UICONTROL Funções]**, **[!UICONTROL Políticas]** e **[!UICONTROL Produtos]** também podem ser acessadas com a API de controle de acesso baseada em atributos. Para obter mais informações, consulte esta [documentação](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=pt-BR){target="_blank"}.
+Observe que as **[!UICONTROL Funções]**, **[!UICONTROL Políticas]** e **[!UICONTROL Produtos]** também podem ser acessadas com a API de controle de acesso baseada em atributos. Para obter mais informações, consulte esta [documentação](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"}.
 
 ## Criar uma função e atribuir rótulos {#assign-role}
 
 >[!IMPORTANT]
 >
->&#x200B;>Antes de gerenciar permissões para uma função, crie uma política. Para obter mais informações, consulte a [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=pt-BR){target="_blank"}.
+>>Antes de gerenciar permissões para uma função, crie uma política. Para obter mais informações, consulte a [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=pt-BR){target="_blank"}.
 
 **[!UICONTROL Funções]** são um conjunto de usuários que compartilham as mesmas permissões, rótulos e sandboxes na sua organização. Cada usuário que pertence a uma **[!UICONTROL Função]** tem direito aos aplicativos e serviços da Adobe contidos no produto. Você também pode criar suas próprias **[!UICONTROL Funções]** para ajustar o acesso dos usuários a determinadas funcionalidades ou objetos na interface.
 
@@ -124,11 +115,11 @@ Observe que você também pode adicionar **[!UICONTROL Rótulo]** a **[!UICONTRO
 
    ![Editar rótulos de governança para o campo](assets/label_3.png)
 
-1. Selecione o **[!UICONTROL Rótulo]** correspondente. Nesse caso, os dados C2 - não podem ser exportados para terceiros. Para obter a lista detalhada dos rótulos disponíveis, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=pt-BR#contract-labels){target="_blank"}.
+1. Selecione o **[!UICONTROL Rótulo]** correspondente. Nesse caso, os dados C2 - não podem ser exportados para terceiros. Para obter a lista detalhada dos rótulos disponíveis, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"}.
 
    ![](assets/label_4.png)
 
-1. Personalize ainda mais seu esquema, se necessário, e ative-o. Para obter etapas detalhadas sobre como habilitar seu esquema, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=pt-BR#profile){target="_blank"}.
+1. Personalize ainda mais seu esquema, se necessário, e ative-o. Para obter etapas detalhadas sobre como habilitar seu esquema, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}.
 
 O campo do esquema agora só estará visível e poderá ser usado por usuários que fazem parte de um conjunto de funções com o rótulo C2. Ao aplicar um **[!UICONTROL Rótulo]** ao seu **[!UICONTROL Nome do campo]**, o **[!UICONTROL Rótulo]** será aplicado automaticamente ao campo **Nacionalidade** em cada esquema criado.
 
@@ -181,3 +172,51 @@ Se o Usuário Y, sem acesso a objetos C2 de rótulo, precisar acessar essa jorna
 * O usuário Y pode excluir a expressão.
 * O usuário Y não poderá testar a jornada.
 * O usuário Y não poderá publicar a jornada.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** proteja campos de dados confidenciais no Journey Optimizer aplicando rótulos de governança a campos de esquema e atribuindo rótulos correspondentes a funções; portanto, os usuários não autorizados não poderão exibir, editar, testar ou publicar jornadas que usam esses campos restritos.
+
+**Intenções:**
+
+* Crie uma função e atribua um rótulo de governança para restringir o acesso a campos de esquema específicos
+* Aplique um rótulo a um campo de esquema no Adobe Experience Platform para aplicar restrições de acesso
+* Usar um campo de esquema rotulado em uma jornada do Journey Optimizer
+* Entenda como os usuários sem o rótulo necessário têm restrições de acesso no jornada
+* Gerenciar funções, políticas e produtos por meio da API de controle de acesso baseada em atributos
+
+**Glossário:**
+
+* **ABAC (Controle de acesso baseado em atributos)**: um recurso para definir autorizações para gerenciar o acesso a dados de equipes ou grupos de usuários específicos com base em atributos como rótulos *(específico do produto)*
+* **Função**: um conjunto de usuários que compartilham as mesmas permissões, rótulos e sandboxes em uma organização *(específico do produto)*
+* **Rótulo**: um marcador de governança (por exemplo, C2) aplicado a campos de esquema, conjuntos de dados ou públicos para controlar quais funções podem acessá-los *(específico do produto)*
+* **Política**: uma configuração que deve ser criada antes do gerenciamento de permissões para uma função — pré-requisito para ABAC *(específico do produto)*
+* **Esquema XDM**: esquema do Experience Data Model usado para definir a estrutura de dados no Adobe Experience Platform *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* Uma política deve ser criada antes do gerenciamento de permissões para uma função (pré-requisito, conforme declarado na observação Importante na página)
+* O uso incorreto de rótulos pode interromper o acesso de pessoas e acionar violações de política (conforme declarado no Aviso na página)
+* Os usuários sem um rótulo correspondente a um campo restrito não podem: exibir o nome do campo restrito, editar expressões que fazem referência a ele no modo avançado, testar a jornada ou publicar a jornada
+
+**Terminologia:**
+
+* Nome canônico: Controle de acesso baseado em atributo — Acrônimo: ABAC — variantes: gerenciamento de acesso baseado em atributo
+* Nome canônico: Experience Data Model — Acrônimo: XDM — variantes: esquema XDM, esquemas XDM
+* Sinônimos: &quot;Rótulo&quot; = &quot;rótulo de governança&quot; = &quot;rótulo de governança de dados&quot;
+* Não confunda: &quot;Função&quot; (um grupo de usuários com permissões e rótulos compartilhados) ≠ &quot;Política&quot; (regras que regem a imposição do acesso aos dados com base em rótulos)
+* Não confunda: ABAC (controla o acesso a campos de esquema, conjuntos de dados e públicos-alvo por meio de políticas de rótulo no nível da plataforma) ≠ OLAC (controla o acesso a objetos específicos do Journey Optimizer, como jornadas e campanhas)
+
+**Perguntas frequentes:**
+
+* **P: É possível adicionar rótulos às funções internas?** — Sim, rótulos podem ser adicionados às funções personalizadas e integradas.
+* **P: O que acontece com um usuário que não tem o rótulo para um campo restrito em uma jornada?** — O campo não está visível para eles; eles não podem editar expressões que fazem referência a ele, testar a jornada ou publicar a jornada.
+* **P: Os rótulos podem ser aplicados a objetos que não sejam campos de esquema?** — Sim; os rótulos também podem ser aplicados a esquemas, conjuntos de dados e públicos.
+* **P: Existe uma API para gerenciar funções, políticas e produtos com o ABAC?** — Sim; funções, políticas e produtos podem ser acessados por meio da API de controle de acesso baseada em atributos.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: aa94c226 -->

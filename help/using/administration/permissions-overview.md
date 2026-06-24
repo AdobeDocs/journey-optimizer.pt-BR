@@ -10,25 +10,16 @@ level: Intermediate
 keywords: permissões, direitos, restrições, acesso, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 TQID: https://experienceleague.adobe.com/VRUXM-o41h44PxMAKyafwqSHKmduyt48j4sr11Gh-EQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 413
-ht-degree: 10%
+source-wordcount: 873
+ht-degree: 5%
 
 ---
 
@@ -116,3 +107,48 @@ Agora que você entende os conceitos de controle de acesso no **[!DNL Journey Op
 <p>
 </td>
 </tr></table>
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** O controle de acesso no Journey Optimizer é construído em funções, permissões e sandboxes gerenciadas por meio das Permissões empresariais do Adobe CX, com camadas adicionais de OLAC (controle de acesso baseado em objeto) e ABAC (controle de acesso baseado em atributo) para proteção de dados refinada.
+
+**Intenções:**
+
+* Entenda os cinco conceitos principais de controle de acesso: funções, permissões, sandboxes, controle de acesso baseado em objeto e controle de acesso baseado em atributo
+* Saber quem pode configurar o controle de acesso (administrador do sistema ou do produto)
+* Navegue até a seção de documentação correta para cada tópico de controle de acesso
+* Planejar uma estratégia de controle de acesso para a organização
+
+**Glossário:**
+
+* **Funções**: coleções de usuários que compartilham as mesmas permissões e sandboxes; funções internas pré-existentes estão disponíveis e funções personalizadas podem ser criadas *(específico do produto)*
+* **Permissões**: direitos unitários que definem as autorizações atribuídas a Funções, agrupadas em recursos como Jornada ou Ofertas *(específico do produto)*
+* **Sandboxes**: ambientes virtuais que particionam a instância do Journey Optimizer em espaços de trabalho virtuais separados e isolados; atribuídos por meio de funções em Permissões *(específico do produto)*
+* **Controle de acesso baseado em objetos**: rótulos aplicados a objetos específicos do Journey Optimizer (jornadas, campanhas, ofertas) para restringir o acesso a usuários autorizados *(específico do produto)*
+* **Controle de acesso baseado em atributos**: políticas que controlam o acesso a objetos ou recursos com base em atributos como rótulos adicionados a campos de esquema ou segmentos *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* A configuração do controle de acesso requer privilégios de administrador do sistema ou do produto (pré-requisito)
+* A função mínima que pode conceder ou retirar permissões é um administrador de produto (conforme declarado na página)
+
+**Terminologia:**
+
+* Nome canônico: Controle de acesso baseado em atributo — Acrônimo: ABAC — variantes: gerenciamento de acesso baseado em atributo
+* Nome canônico: Controle de acesso baseado em objeto — Acrônimo: OLAC — variantes: controle de acesso em nível de objeto, gerenciamento de acesso baseado em objeto
+* Não confunda: &quot;Controle de acesso baseado em objetos&quot; (restringe o acesso a objetos específicos do AJO, como jornadas, campanhas e ofertas usando rótulos) ≠ &quot;Controle de acesso baseado em atributos&quot; (restringe o acesso a atributos de dados, como campos de esquema e segmentos com base em políticas de rótulo)
+* Não confunda: &quot;Funções&quot; (uma coleção de usuários com permissões compartilhadas e sandboxes) ≠ &quot;Permissões&quot; (os direitos unitários agrupados em recursos que são atribuídos a funções)
+
+**Perguntas frequentes:**
+
+* **P: Quem pode configurar o controle de acesso no Journey Optimizer?** — Usuários com privilégios de administrador do sistema ou de administrador do produto.
+* **P: Qual é o nível mínimo de administrador necessário para conceder ou retirar permissões?** — Administrador do produto.
+* **P: As sandboxes são gerenciadas independentemente das funções?** — Não; as sandboxes são atribuídas por meio de funções no produto de Permissões.
+* **P: Onde o controle de acesso para o Journey Optimizer é gerenciado?** — por meio de Permissões no Adobe CX Enterprise, que vincula os usuários com permissões e sandboxes por meio de funções e políticas.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 14be1dc6 -->
