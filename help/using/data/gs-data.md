@@ -155,7 +155,7 @@ Escolha uma identidade principal para seus clientes (como ECID, email ou CRMID) 
 Crie esquemas do **Perfil individual XDM** para capturar atributos do cliente, como nome e informações de contato, preferências e interesses, e estágio do ciclo de vida ou estado de consentimento. Crie esquemas do **XDM ExperienceEvent** para capturar dados comportamentais e transacionais, como eventos da Web e do aplicativo, compras e interações offline. Marque os campos corretos como identidades e atributos de perfil, quando apropriado.
 
 ➡️ [Saiba mais sobre esquemas](get-started-schemas.md)\
-➡️ [Planejamento de habilitação do perfil](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+➡️ [Planejamento de habilitação do perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -164,8 +164,8 @@ Crie esquemas do **Perfil individual XDM** para capturar atributos do cliente, c
 Na Adobe Experience Platform, crie conjuntos de dados com base em esquemas XDM e habilite o recurso Perfil em qualquer conjunto de dados que deva contribuir para o Perfil do cliente em tempo real. Confirme se os conjuntos de dados gerados pelo sistema criados pelo Journey Optimizer estão visíveis no espaço de trabalho Conjuntos de dados.
 
 ➡️ [Saiba mais sobre conjuntos de dados](get-started-datasets.md)\
-➡️ [Planejamento de habilitação do perfil](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
-➡️ [Gerenciando esquemas habilitados para perfil](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+➡️ [Planejamento de habilitação do perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️ [Gerenciando esquemas habilitados para perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 
@@ -245,7 +245,7 @@ Esse fluxo ilustra como esquemas, conjuntos de dados, fontes, fontes de dados e 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 **Introdução a esquemas**
 
@@ -255,7 +255,7 @@ Saiba como criar esquemas XDM na Adobe Experience Platform, escolher a classe e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=pt-BR)
 
 **Trabalhar com conjuntos de dados**
 
@@ -265,7 +265,7 @@ Entenda como criar conjuntos de dados de evento e habilitados para perfil, monit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 **Configurar fontes de dados**
 
@@ -275,7 +275,7 @@ Instruções passo a passo sobre como configurar a fonte de dados integrada da A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 **Usar dados da Adobe Experience Platform (pesquisa)**
 
@@ -285,7 +285,7 @@ Descubra como enriquecer mensagens no tempo de execução com dados de referênc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 **Introdução a consultas**
 
@@ -295,7 +295,7 @@ Use o Serviço de consulta para analisar conjuntos de dados do Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 **Introdução a perfis**
 
@@ -305,7 +305,7 @@ Saiba como o Perfil do cliente em tempo real funciona no Journey Optimizer e des
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 **Tutorial de visão geral da configuração de dados**
 
@@ -315,7 +315,7 @@ Uma apresentação em vídeo de fácil introdução sobre a configuração de da
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 **Tutorial de criação e ingestão de conjuntos de dados**
 
