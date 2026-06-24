@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9f5c041e7bd0febf3ba08e68d5ae213bedfb8360
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 61c97e285ca44c37cf517c608943dece9e2531c0
 workflow-type: tm+mt
-source-wordcount: 3520
+source-wordcount: 3525
 ht-degree: 26%
 
 ---
@@ -359,7 +347,7 @@ As seguintes melhorias foram adicionadas ao canal de email nesta versão.
 <p>Por exemplo, ao usar o componente de Texto como um campo editável no Designer de email, você pode formatar o conteúdo diretamente (por exemplo, negrito e itálico) e inserir hiperlinks.</p>
 <p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../content-management/customizable-fragments.md#rich-text-visual">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: final de junho de 2026</p>
+<p>Data de disponibilidade: 19 de junho de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -387,7 +375,7 @@ As seguintes melhorias foram adicionadas ao canal de email nesta versão.
 
 * **Conversor de Imagem para HTML aprimorado** - Uma nova versão do recurso de conversão de Imagem para HTML está disponível, trazendo mais precisão para a geração de HTML. Essa atualização aproveita modelos LLM de camada mais alta para fornecer saída de HTML mais precisa e confiável a partir de entradas de imagem.
 
-  Data de disponibilidade: 18 de junho de 2026
+  Data de disponibilidade: final de junho de 2026
 
 +++ Em breve — **As informações abaixo estão sujeitas a alterações.**
 
@@ -402,6 +390,7 @@ As seguintes melhorias foram adicionadas ao canal de email nesta versão.
 <td>
 <p>O Journey Optimizer agora inclui uma opção para reduzir o tamanho do HTML do seu email removendo espaços em branco, comentários e códigos redundantes desnecessários — sem afetar a forma como o email é renderizado.</p>
 <p>Isso pode melhorar a capacidade de delivery, evitando limites de tamanho que alguns provedores de email usam para sinalizar ou rejeitar mensagens e pode reduzir o tempo de carregamento dos recipients.</p>
+<p>Data de disponibilidade: final de junho de 2026</p>
 </td>
 </tr>
 </tbody>
