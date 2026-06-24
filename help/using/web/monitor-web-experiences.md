@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: f8905d41c1ec293d453f3f3992c4f91b94c3357f
 workflow-type: tm+mt
-source-wordcount: 317
-ht-degree: 3%
+source-wordcount: 366
+ht-degree: 2%
 
 ---
 
@@ -46,6 +46,11 @@ Assim que sua experiência online estiver online, você poderá verificar a guia
 Para melhorar ainda mais o monitoramento da experiência online, você também pode rastrear os cliques em qualquer elemento específico do site. Isso permite exibir o número de cliques nesse elemento nos relatórios da Web. [Saiba como](#use-click-tracing)
 
 ## Usar o rastreamento de cliques {#use-click-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_click_tracking"
+>title="Usar o rastreamento de cliques"
+>abstract="Rastrear cliques em qualquer elemento da página da Web para monitorar as interações do usuário. Selecione um elemento, escolha **Clicar em rastrear elemento** no menu contextual e adicione um rótulo significativo. Os dados rastreados aparecem em seus relatórios da Web, ajudando você a entender como os usuários se envolvem com seu conteúdo."
 
 O web designer permite selecionar qualquer elemento do site e rastrear os cliques nesse elemento.
 
