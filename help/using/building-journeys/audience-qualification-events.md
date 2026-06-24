@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: e6d80f7b7875db890b946d9ef5315d1cbed918c3
 workflow-type: tm+mt
-source-wordcount: 2501
-ht-degree: 10%
+source-wordcount: 2552
+ht-degree: 9%
 
 ---
 
@@ -149,6 +149,10 @@ A atividade **[!UICONTROL Qualificação de público-alvo]** permite a entrada i
 A velocidade de recepção dessas informações é alta. As medidas mostram 10.000 eventos recebidos por segundo. Planeje picos de entrada, evite-os quando possível e prepare sua jornada para lidar com eles. Saiba mais sobre taxas de processamento e limites de taxa de transferência da jornada [nesta seção](entry-management.md#journey-processing-rate).
 
 ### Públicos em lote {#batch-speed-segment-qualification}
+
+>[!CAUTION]
+>
+>**Aviso de descontinuação - agosto de 2026**: a partir de **agosto de 2026**, a Journey Optimizer bloqueará a publicação de qualquer jornada que use um público em lotes em um nó **Qualificação de público-alvo**. As jornadas ativas existentes não são afetadas. As jornadas novas, de rascunho e duplicadas com essa configuração devem ser atualizadas antes de agosto de 2026. [Saiba como migrar suas jornadas](aq-batch-audiences-migration.md)
 
 Ao usar a Qualificação de público-alvo para um público-alvo em lote, observe que um pico de entrada ocorre no momento do cálculo diário. O tamanho do pico depende de quantos indivíduos entram ou saem do público a cada dia.
 
