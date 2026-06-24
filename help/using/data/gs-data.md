@@ -28,10 +28,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 2650
-ht-degree: 98%
+source-wordcount: 2696
+ht-degree: 96%
 
 ---
 
@@ -154,7 +154,8 @@ Escolha uma identidade principal para seus clientes (como ECID, email ou CRMID) 
 
 Crie esquemas do **Perfil individual XDM** para capturar atributos do cliente, como nome e informações de contato, preferências e interesses, e estágio do ciclo de vida ou estado de consentimento. Crie esquemas do **XDM ExperienceEvent** para capturar dados comportamentais e transacionais, como eventos da Web e do aplicativo, compras e interações offline. Marque os campos corretos como identidades e atributos de perfil, quando apropriado.
 
-➡️ [Saiba mais sobre esquemas](get-started-schemas.md)
+➡️ [Saiba mais sobre esquemas](get-started-schemas.md)\
+➡️ [Planejamento de habilitação do perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -162,7 +163,9 @@ Crie esquemas do **Perfil individual XDM** para capturar atributos do cliente, c
 
 Na Adobe Experience Platform, crie conjuntos de dados com base em esquemas XDM e habilite o recurso Perfil em qualquer conjunto de dados que deva contribuir para o Perfil do cliente em tempo real. Confirme se os conjuntos de dados gerados pelo sistema criados pelo Journey Optimizer estão visíveis no espaço de trabalho Conjuntos de dados.
 
-➡️ [Saiba mais sobre conjuntos de dados](get-started-datasets.md)
+➡️ [Saiba mais sobre conjuntos de dados](get-started-datasets.md)\
+➡️ [Planejamento de habilitação do perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️ [Gerenciando esquemas habilitados para perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 

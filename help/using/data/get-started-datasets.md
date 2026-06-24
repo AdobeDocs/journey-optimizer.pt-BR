@@ -28,10 +28,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 1087
-ht-degree: 95%
+source-wordcount: 1326
+ht-degree: 78%
 
 ---
 
@@ -50,6 +50,8 @@ Todos os dados assimilados na Adobe Experience Platform são mantidos no Data La
 * A partir de 1º de novembro de 2024, a segmentação por transmissão se tornou incompatível com eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use as Regras de negócio. É possível encontrar mais detalhes [nesta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação de caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=pt){target="_blank"}.
 
 * Com início em fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) está sendo implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer. [Saiba mais](datasets-ttl.md)
+
+* A ativação de um conjunto de dados para o Perfil tem implicações permanentes no nível do esquema. Planeje cuidadosamente o esquema e o design de identidade antes de ativar. [Saiba mais](#profile-datasets)
 
 ## Acessar conjuntos de dados {#access}
 
@@ -118,6 +120,21 @@ Veja este vídeo para saber como criar um conjunto de dados, mapeá-lo para um e
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
+## Ativar conjuntos de dados para o Perfil {#profile-datasets}
+
+Ao criar um conjunto de dados, você pode habilitá-lo para contribuir com o [Perfil de cliente em tempo real](../audience/get-started-profiles.md). Isso permite que os dados que ele contém sejam usados para segmentação, personalização e condições de jornada no [!DNL Journey Optimizer].
+
+Antes de ativar, lembre-se do seguinte:
+
+* **A habilitação do esquema é permanente.** Depois que o esquema subjacente a um conjunto de dados é ativado para o Perfil, isso não pode ser revertido — o esquema não pode ser desativado ou excluído. Somente o conjunto de dados em si pode ser desativado ou excluído separadamente.
+* **Desabilitar um conjunto de dados tem consequências.** Você pode desativar ou excluir um conjunto de dados para o Perfil independentemente do esquema, mas isso remove os registros do perfil associado e pode interromper a segmentação e os fluxos de trabalho de ativação.
+* **Planeje sua configuração antes de habilitar.** Os campos de identidade e as seleções de grupos de campos tornam-se mais difíceis de alterar após a ativação do Perfil. Finalize o design do esquema primeiro.
+
+Para obter orientação detalhada, consulte a documentação do Adobe Experience Platform:
+
+* [Planejamento de habilitação do perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — lista de verificação de pré-habilitação que abrange configuração de identidade, seleção de grupo de campos e validação de finalidade de conjunto de dados.
+* [Gerenciamento de esquemas habilitados para perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — orientação sobre como descontinuar esquemas habilitados para perfil, incluindo estratégias de renomeação.
+
 ## Governança de dados
 
 Em um conjunto de dados, navegue pela guia **Governança de dados** para verificar rótulos no conjunto de dados e no nível do campo. A Governança de dados categoriza os dados de acordo com o tipo de políticas aplicáveis.
@@ -140,3 +157,4 @@ Saiba mais sobre Governança de dados e rótulos de uso de dados na [Documentaç
 >* [Documentação de conjuntos de dados](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target="_blank"}
 >* [Documentação de ingestão de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
 >* [Práticas recomendadas dos direitos da licença de gerenciamento de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
+>* [Gerenciamento de esquemas habilitados para perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
