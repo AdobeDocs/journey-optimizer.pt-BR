@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 792
-ht-degree: 8%
+source-wordcount: 1205
+ht-degree: 5%
 
 ---
 
@@ -151,3 +151,45 @@ Para criar nossa **Função somente leitura** **[!UICONTROL do Jornada]**:
 Sua **[!UICONTROL Função]** foi criada e configurada. Agora é necessário atribuí-lo aos usuários.
 
 Para obter mais informações sobre criação e gerenciamento de funções, consulte a [documentação do Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=pt-BR){target="_blank"}.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+- **TL;DR:** esta página orienta os administradores de produto e sistema sobre as três tarefas de gerenciamento de função no produto Permissões: atribuição de uma função existente a um usuário, edição das permissões de uma função e criação de uma nova função personalizada com permissões específicas e sandboxes.
+
+**Intenções:**
+
+- Atribuir uma função interna ou personalizada a um usuário no Journey Optimizer
+- Editar as permissões de uma função existente (adicionar ou remover direitos)
+- Criar uma nova função personalizada com permissões específicas e atribuições de sandbox
+- Entenda quem tem autoridade para executar o gerenciamento de funções e permissões
+
+**Glossário:**
+
+- **Função**: uma coleção de usuários que compartilham as mesmas permissões e sandboxes, usada para gerenciar o acesso em uma organização *(específica do produto)*
+- **Produto de permissões**: a interface do Adobe CX Enterprise (acessada via [!DNL Permissions]) em que funções, permissões e sandboxes estão configuradas *(específico do produto)*
+- **Função interna**: uma função preexistente com um conjunto de permissões definido disponível para atribuição imediata sem configuração personalizada *(específico do produto)*
+
+**Medidas de Proteção:**
+
+- Somente administradores de Produto ou Sistema podem atribuir, editar ou criar funções (pré-requisito permanente, conforme declarado na nota Importante na página)
+- As alterações feitas em uma função incorporada ou personalizada afetam todos os usuários atribuídos a essa função (conforme declarado na observação Importante na página)
+
+**Terminologia:**
+
+- Nome canônico: Permissões do produto — variantes: Permissões do Adobe, Interface do usuário de permissões, Permissões empresariais do Adobe CX
+- Não confunda: &quot;Atribuir uma função&quot; (adicionar um usuário a uma função existente) ≠ &quot;Criar uma função&quot; (definir uma nova função com suas próprias permissões e sandboxes do zero)
+- Não confunda: &quot;Editar uma função existente&quot; (modificar permissões ou sandboxes em uma função existente; afeta todos os usuários atribuídos) ≠ &quot;Criar uma nova função&quot; (criar uma nova função sem afetar qualquer função existente ou seus usuários)
+
+**Perguntas frequentes:**
+
+- **P: Quem pode atribuir funções a usuários no Journey Optimizer?** — Somente administradores de produto ou sistema.
+- **P: O que acontece se eu editar as permissões de uma função interna?** — As alterações afetam todos os usuários atualmente atribuídos a essa função.
+- **P: Para onde vou no produto para gerenciar funções?** — No produto Permissões, navegue até a guia Funções.
+- **P: Depois que uma função é atribuída, o usuário recebe uma notificação?** — Sim; o usuário recebe automaticamente um email redirecionando-o para a instância.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 09d3612e -->

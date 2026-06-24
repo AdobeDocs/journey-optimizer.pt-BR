@@ -22,10 +22,10 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2: []
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 464
-ht-degree: 24%
+source-wordcount: 919
+ht-degree: 12%
 
 ---
 
@@ -92,3 +92,46 @@ Observe que para que o conteúdo seja sincronizado com a sandbox correta, você 
 Entenda o que são sandboxes e como distinguir sandboxes de desenvolvimento e produção. Saiba como criar, redefinir e excluir sandboxes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+- **TL;DR:** As sandboxes particionam sua instância do Journey Optimizer em espaços de trabalho virtuais isolados para desenvolvimento, teste e produção; elas são atribuídas aos usuários por meio de funções no produto Permissões e o acesso ao conteúdo é configurado por meio de pastas compartilhadas no Admin Console.
+
+**Intenções:**
+
+- Alternar entre sandboxes na interface do Journey Optimizer usando o alternador de sandbox
+- Atribuir uma ou mais sandboxes a uma função no produto de Permissões
+- Remover acesso à sandbox de uma função
+- Configurar o acesso ao conteúdo (pastas compartilhadas) para uma sandbox
+- Entender como as sandboxes estão relacionadas a funções e permissões
+
+**Glossário:**
+
+- **Sandbox**: um ambiente virtual particionando a instância do Journey Optimizer em espaços de trabalho separados e isolados para desenvolvimento, teste ou produção use *(específico do produto)*
+- **Alternador de sandbox**: o controle na parte superior direita da interface do Journey Optimizer, ao lado do nome da organização, usado para alternar entre sandboxes *(específico do produto)*
+- **Pasta compartilhada**: uma pasta de armazenamento configurada no Admin Console para uma sandbox que habilita o acesso ao conteúdo; seu nome deve corresponder ao nome da sandbox para que o conteúdo seja sincronizado corretamente *(específico do produto)*
+
+**Medidas de Proteção:**
+
+- O gerenciamento de sandbox só pode ser realizado por um administrador do produto ou do sistema (pré-requisito permanente, conforme declarado na nota importante na página)
+- Os nomes das pastas compartilhadas devem seguir a mesma sintaxe do nome da sandbox para que o conteúdo seja sincronizado com a sandbox correta (conforme declarado na página)
+
+**Terminologia:**
+
+- Não confunda: &quot;Usar uma sandbox&quot; (alternar para ela na interface do usuário usando o alternador de sandbox) ≠ &quot;Atribuir uma sandbox&quot; (adicionar uma sandbox a uma função no produto Permissões) ≠ &quot;Criar uma sandbox&quot; (feito no Adobe Experience Platform, não no Journey Optimizer)
+- Sinônimos: &quot;sandbox&quot; = &quot;ambiente virtual&quot; no contexto desta página
+- Não confunda: &quot;Atribuir sandboxes&quot; (adicionar sandboxes a uma função nas Permissões) ≠ &quot;Gerenciar sandboxes&quot; (criar, redefinir ou excluir sandboxes — feito no Adobe Experience Platform)
+
+**Perguntas frequentes:**
+
+- **P: Como alterno entre sandboxes no Journey Optimizer?** — Use o alternador de sandbox na parte superior direita da tela, ao lado do nome da sua organização; clique na sandbox ativa e selecione outra na lista suspensa.
+- **P: Quem pode atribuir sandboxes a funções?** — Somente administradores de produto ou sistema.
+- **P: Como as sandboxes são disponibilizadas para os usuários?** — As sandboxes são atribuídas por meio de funções no produto de permissões.
+- **P: Qual convenção de nomenclatura deve seguir as pastas compartilhadas?** — A pasta compartilhada deve ter o mesmo nome que a sandbox à qual está associada (por exemplo, se a sandbox for chamada de &quot;desenvolvimento&quot;, a pasta compartilhada também deverá ser chamada de &quot;desenvolvimento&quot;).
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 0a5ada9b -->

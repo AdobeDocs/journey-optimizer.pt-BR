@@ -12,10 +12,10 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 feature_v2:
   - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 548
-ht-degree: 19%
+source-wordcount: 1017
+ht-degree: 10%
 
 ---
 
@@ -105,3 +105,47 @@ Para atribuir rótulos de uso de dados personalizados ou principais aos objetos 
 Para acessar este objeto, os usuários devem ter o **[!UICONTROL Rótulo]** específico incluído em suas **[!UICONTROL Funções]**. Por exemplo, um usuário com o rótulo C1 terá acesso somente a objetos com ou sem rótulo C1.
 
 Para obter mais detalhes sobre como atribuir um **[!UICONTROL Rótulo]** a uma **[!UICONTROL Função]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=pt-BR#manage-labels-for-a-role){target="_blank"}.
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* O **TL;DR:** Controle de acesso em nível de objeto (OLAC) permite aplicar rótulos de acesso a objetos específicos do Journey Optimizer — como jornadas, campanhas e ofertas — para que somente os usuários cuja função inclua o rótulo correspondente possam exibir ou interagir com esses objetos.
+
+**Intenções:**
+
+* Crie um rótulo de acesso personalizado diretamente no Journey Optimizer ou por meio do produto Permissões
+* Atribuir rótulos de acesso aos objetos do Journey Optimizer (jornadas, campanhas, ofertas etc.)
+* Restringir conteúdo confidencial somente a usuários autorizados
+* Entenda quais permissões são necessárias para criar e atribuir rótulos
+
+**Glossário:**
+
+* **OLAC (Controle de acesso em nível de objeto)**: um recurso para definir autorizações para gerenciar o acesso a dados de uma seleção de objetos específicos do Journey Optimizer *(específico do produto)*
+* **Rótulo**: uma marca aplicada a um objeto para categorizá-lo pela política de uso e restringir o acesso com base na associação de função *(específico do produto)*
+* **Gerenciar acesso**: o botão ou a interface disponível nos objetos do Journey Optimizer com suporte para criar e atribuir rótulos de acesso *(específico do produto)*
+* **Rótulos de uso de dados principais**: rótulos predefinidos fornecidos pela Adobe Experience Platform em vez de rótulos personalizados criados pela organização *(específico do produto)*
+
+**Medidas de Proteção:**
+
+* A criação de rótulos requer a permissão **Gerenciar rótulos de uso** (pré-requisito)
+* A atribuição de rótulos requer uma permissão **Gerenciar** para o tipo de objeto (por exemplo, Gerenciar jornadas, Gerenciar Campanhas ou Gerenciar decisões). Sem ela, o botão **Gerenciar acesso** fica esmaecido (pré-requisito)
+* Objetos compatíveis com rótulos OLAC: Jornada, Campanha, Modelo, Fragmento, Página de aterrissagem, Oferta, Coleção de ofertas estáticas, Decisão de oferta, Configuração de canal, Plano de aquecimento de IP
+
+**Terminologia:**
+
+* Nome canônico: Controle de acesso em nível de objeto — Acrônimo: OLAC — variantes: controle de acesso baseado em objeto, gerenciamento de acesso baseado em objeto
+* Não confunda: OLAC (restringe o acesso a objetos específicos do AJO, como jornadas e campanhas usando rótulos) ≠ ABAC (baseado em atributos, aplica políticas de rótulo a campos de esquema, conjuntos de dados e públicos-alvo no nível da plataforma)
+* Não confunda: &quot;rótulos de uso de dados principais&quot; (rótulos pré-construídos da Adobe Experience Platform) ≠ &quot;rótulos personalizados&quot; (rótulos criados pela organização)
+
+**Perguntas frequentes:**
+
+* **P: Posso criar um rótulo diretamente no Journey Optimizer sem acessar o produto Permissões?** — Sim; use a janela Gerenciar acesso em qualquer objeto compatível e clique em Criar rótulo.
+* **P: Quais tipos de objeto oferecem suporte a rótulos OLAC?** — Jornada, Campanha, Modelo, Fragmento, Página de aterrissagem, Oferta, Coleção de ofertas estáticas, Offer decision, Configuração do canal e plano de aquecimento de IP.
+* **P: Qual permissão é necessária para atribuir um rótulo a uma jornada?** — A permissão Gerenciar jornada; sem uma permissão Gerenciar, o botão Gerenciar acesso fica esmaecido.
+* **P: Se um usuário tiver somente o rótulo C1 em sua função, quais objetos ele pode acessar?** — Apenas objetos com ou sem rótulo C1.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 4e9b2577 -->
