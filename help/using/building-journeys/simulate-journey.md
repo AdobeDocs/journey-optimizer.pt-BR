@@ -11,9 +11,9 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
 workflow-type: tm+mt
-source-wordcount: 2888
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -206,6 +206,10 @@ Os usuários simulados são entidades temporárias semelhantes a perfis definida
 Depois de validar a jornada em **[!UICONTROL Simulação]**, examine o log de **[!UICONTROL Resultados]**. Se ocorrerem erros, deixe **[!UICONTROL Simulação]**, aplique as alterações necessárias à jornada e execute **[!UICONTROL Simulação]** novamente até que a execução pareça correta. Em seguida, você pode publicar a jornada. Consulte [Publicar sua jornada](../building-journeys/publish-journey.md).
 
 ## Acionar os eventos {#firing-events}
+
+>[!NOTE]
+>
+>Os eventos acionados na Simulação são armazenados em conjuntos de dados dedicados na Adobe Experience Platform, rotulados da seguinte maneira: ``JOtestmode - <schema of your event>``.
 
 Se a jornada incluir um ou mais eventos unitários, é possível acioná-los enquanto a Simulação estiver ativa. Para jornadas que não iniciam de um Evento, mas que contém um, essa seção não estará visível até que um usuário simulado entre na jornada.
 
