@@ -11,7 +11,7 @@ version: Campaign Orchestration
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: eb78711c68f3e38f4d15b0531a5ccfd1186a5784
 workflow-type: tm+mt
 source-wordcount: 547
 ht-degree: 21%
@@ -51,7 +51,9 @@ Utilizações típicas:
 * **Mensagens e públicos-alvo**: obtenha somente novas inscrições, novos compradores ou outros segmentos &quot;novos desde a última execução&quot; para a próxima etapa (por exemplo, email, SMS).
 * **Exportações em andamento**: envie somente linhas novas ou atualizadas para arquivos para ferramentas de BI ou relatório, sem duplicar o que você já exportou.
 
-Quando uma execução não retorna nenhuma linha, a campanha Orquestrada é interrompida na **Consulta incremental**. As atividades após o Query incremental não são executadas até que haja dados, quando a campanha é executada novamente.
+>[!IMPORTANT]
+>
+>Quando uma execução não retorna nenhuma linha, a campanha Orquestrada é interrompida na **Consulta incremental**. As atividades após o Query incremental não são executadas até que haja dados, quando a campanha é executada novamente.
 
 ## Configurar a atividade de query incremental {#incremental-query-configuration}
 
