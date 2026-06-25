@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
+source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
 workflow-type: tm+mt
-source-wordcount: 4590
-ht-degree: 95%
+source-wordcount: 4606
+ht-degree: 94%
 
 ---
 
@@ -167,7 +167,7 @@ Você pode escolher uma dessas duas soluções:
 
 As seguintes medidas de proteção se aplicam aos [eventos](../event/about-events.md) de jornadas:
 
-* O Journey Optimizer aceita um volume máximo de **5.000 eventos de jornada de entrada por segundo**, em todas as sandboxes. Saiba mais sobre essa limitação [nesta página](../event/about-events.md#event-thoughput).
+* A Journey Optimizer oferece suporte a um volume máximo de **5.000 eventos de jornada de entrada por segundo** para eventos unitários e de **5.000 eventos de jornada de entrada por segundo** para eventos de jornada baseados em Leitura de público-alvo, em todas as sandboxes. Saiba mais sobre essa limitação [nesta página](../event/about-events.md#event-thoughput).
 * As jornadas acionadas por evento podem levar até **5 minutos** para processar a primeira ação na jornada.
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
 * Os eventos de negócios não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.

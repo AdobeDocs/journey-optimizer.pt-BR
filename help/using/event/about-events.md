@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
 workflow-type: tm+mt
-source-wordcount: 2183
+source-wordcount: 2181
 ht-degree: 27%
 
 ---
@@ -140,11 +140,16 @@ Para eventos gerados pelo sistema, o Pipeline filtra os eventos que têm uma car
 
 ## Sobre a taxa de transferência de eventos do Jornada {#event-thoughput}
 
-A Adobe Journey Optimizer oferece suporte a um volume máximo de 5.000 eventos de jornada por segundo em nível de organização, em todas as sandboxes. Esta cota se aplica a todos os eventos usados no jornada ativo, que inclui jornadas do **Live**, **Dry run**, **Closed** e **Paused**. Quando essa cota é atingida, novos eventos são enfileirados com uma taxa de processamento de 5.000 por segundo. O tempo máximo que um evento pode passar na fila é de **24 horas**.
+A Adobe Journey Optimizer impõe limites de taxa de transferência separados por tipo de evento, em nível de organização, em todas as sandboxes:
+
+* **Eventos unitários**: 5.000 eventos por segundo
+* **Ler eventos de jornada baseados em público-alvo**: 5.000 eventos por segundo
+
+Esses limites se aplicam a todos os eventos usados no jornada ativo, que inclui as jornadas **Live**, **Dry run**, **Closed** e **Paused**. Quando um limite é atingido, novos eventos são enfileirados e processados a 5.000 por segundo até que a fila seja esgotada.
 
 Para obter mais detalhes sobre as taxas de processamento da jornada e como os diferentes tipos de jornada afetam a taxa de transferência, consulte [esta seção](../building-journeys/entry-management.md#journey-processing-rate).
 
-Os seguintes tipos de eventos são contados para a cota de 5.000 TPS:
+Os seguintes tipos de eventos são contados para essas cotas:
 
 * **Eventos Unitários Externos**: Inclui eventos com base em regras e gerados pelo sistema. Se o mesmo evento bruto se qualificar para várias definições de regra, cada regra qualificada será contada como um evento separado. Mais detalhes abaixo.
 
