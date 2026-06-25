@@ -30,9 +30,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 2332
+source-wordcount: 2349
 ht-degree: 0%
 
 ---
@@ -233,6 +233,8 @@ A tabela **[!UICONTROL Email - Estatísticas de rastreamento]** oferece uma cont
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus emails.
 
 * **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
+
+* **[!UICONTROL CTR estimado]** (taxa de cliques): calculado como cliques estimados em relação ao número total de mensagens entregues.
 
 * **[!UICONTROL Reclamações de spam]**: número de vezes que uma mensagem foi declarada como spam ou lixo eletrônico.
 

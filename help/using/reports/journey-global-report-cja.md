@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 1061
+source-wordcount: 1100
 ht-degree: 0%
 
 ---
@@ -147,6 +147,10 @@ A tabela **[!UICONTROL Visão geral das ações]** serve como um painel abrangen
 * **[!UICONTROL Taxa de cliques]**: porcentagem de usuários que interagiram com a ação.
 
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em suas ações.
+
+* **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
+
+* **[!UICONTROL CTR estimado]** (taxa de cliques): calculado como cliques estimados em relação ao número total de mensagens entregues.
 
 * **[!UICONTROL Entregues]**: número de ações enviadas com êxito em relação ao número total de ações enviadas.
 

@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b17f3d80050281659fd4df2bc45980df898acf1c
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 3606
-ht-degree: 26%
+source-wordcount: 3687
+ht-degree: 25%
 
 ---
 
@@ -499,6 +499,18 @@ Os seguintes recursos e melhorias estão chegando ao gerenciamento de conteúdo 
 </table>
 
 +++
+
+### Relatório {#june-26-reporting}
+
+As seguintes melhorias foram adicionadas aos relatórios nesta versão.
+
+* **Novas métricas de clique estimadas para relatórios de email** - Para fornecer uma visão mais precisa do engajamento real do cliente, novas métricas estimadas agora estão disponíveis nos relatórios de Jornadas, Campanhas e Canal.
+
+   * **CTR estimado** (taxa de cliques): calculado como cliques estimados em relação ao número total de mensagens entregues.
+
+   * **CTOR estimado** (taxa de cliques para abrir): calculado como cliques estimados em relação ao número total de aberturas estimadas.
+
+  Data de disponibilidade: 25 de junho de 2026
 
 ### Administração {#june-26-administration}
 
