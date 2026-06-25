@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: 19a0ad24f524f51e70a6e2ec4eb784af0630a984
 workflow-type: tm+mt
-source-wordcount: 8876
-ht-degree: 91%
+source-wordcount: 8915
+ht-degree: 90%
 
 ---
 
@@ -45,6 +45,8 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * Uma nova atribuição de **Caminho na subseção de reentrada do jornada** foi adicionada à documentação de **experimentação de caminho**. Ela esclarece que a atribuição de caminho é persistente para um perfil em várias entradas na mesma versão do jornada, mas somente nessa versão do jornada. As atribuições são redefinidas quando uma nova versão do jornada é publicada e cada atividade de experimentação de caminho em uma jornada aplica uma atribuição aleatória independente. [Leia mais](../building-journeys/path-experimentation.md#path-assignment)
 * As referências à **Adobe Experience Cloud** foram alinhadas com a marca **[!DNL Adobe CX Enterprise]** na documentação [!DNL Journey Optimizer].
+
+* A documentação da função de data **`nowWithDelta()`** foi atualizada para esclarecer o comportamento de final de mês: quando o mês de destino tem menos dias que o dia do mês atual, o resultado é normalizado para o último dia válido desse mês. [Leia mais](../building-journeys/functions/date-functions.md#nowWithDelta)
 
 * A página **Introdução à entregabilidade** foi atualizada com uma nova subseção **Provedores sem FBL** por destinatário. Ele lista os principais provedores de caixa de correio que não retornam reclamações de spam por recipient — Gmail/Google Workspace, Apple iCloud e Corporate Microsoft 365/Exchange Online — e explica por que a ausência de uma entrada de lista de supressão é esperada para destinatários que usam esses serviços. [Leia mais](../reports/deliverability.md#providers-no-fbl)
 
