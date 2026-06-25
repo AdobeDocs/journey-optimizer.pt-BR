@@ -30,7 +30,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 2143
 ht-degree: 9%
@@ -92,7 +92,7 @@ O que é necessário configurar antes de criar depende de como a jornada é acio
 |---|---|---|
 | **[Ler público-alvo](read-audience.md)** | Você deseja enviar uma mensagem agendada ou recorrente para um conjunto definido de perfis (boletins informativos, promoções, séries de integração). | Todos os perfis de um público-alvo em lote, de uma só vez ou de acordo com um agendamento. |
 | **[Qualificação de público-alvo](audience-qualification-events.md)** | Você precisa reagir em tempo real quando um perfil entra ou sai de um público-alvo (atualização do nível de fidelidade, sinalizador de risco de churn). | Um perfil por vez, assim que forem qualificados em um público de streaming. |
-| **Evento unitário** | Uma ação de perfil aciona uma resposta imediata (confirmação de compra, envio de formulário, logon de aplicativo). | Um perfil por vez, em tempo real. |
+| **Evento unitário** | Uma ação de perfil aciona uma resposta imediata (abandono de carrinho, envio de formulário, logon de aplicativo). | Um perfil por vez, em tempo real. |
 | **[Evento comercial](../event/about-creating-business.md)** | Um evento que não seja de perfil afeta várias pessoas de uma só vez (cancelamento de voo, reposição de estoque, alerta de últimas notícias). | Todos os perfis associados ao evento, por meio de uma etapa automática Ler público. |
 
 Os seguintes elementos são opcionais, mas podem ser obrigatórios, dependendo do seu caso de uso:

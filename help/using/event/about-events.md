@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c70b128e07c801e729a1268600265e47d7240291
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 2182
+source-wordcount: 2183
 ht-degree: 27%
 
 ---
@@ -86,7 +86,7 @@ Um evento de **qualificação de público-alvo** é acionado quando um perfil en
 |---|---|---|
 | **Vinculado a um perfil?** | Sim — acionado pela ação de um indivíduo específico. | Não — acionado por uma ocorrência externa não vinculada a uma pessoa. |
 | **Comportamento da entrada** | Um perfil entra na jornada em tempo real. | Vários perfis são inseridos por meio de uma etapa automática Ler público. |
-| **Casos de uso típicos** | Confirmação de compra, envio de formulário, logon no aplicativo, marco de fidelidade. | Cancelamento de voo, alerta de reposição de estoque, últimas notícias, evento meteorológico. |
+| **Casos de uso típicos** | Recuperação de abandono de carrinho, envio de formulário, logon no aplicativo, marco de fidelidade. | Cancelamento de voo, alerta de reposição de estoque, últimas notícias, evento meteorológico. |
 | **Como ele inicia a jornada** | Entrada baseada em eventos — nenhum público-alvo necessário. | Evento comercial + Público-alvo de leitura automático (adicionado pelo Journey Optimizer). |
 | **Vários por jornada?** | Sim — você pode ouvir vários eventos unitários nas etapas do jornada. | Não — somente um evento comercial por jornada, colocado no início. |
 | **Tipo de ID do evento** | Baseado em regras ou gerado pelo sistema. | Sempre com base em regras. |

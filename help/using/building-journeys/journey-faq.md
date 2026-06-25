@@ -37,9 +37,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 6208
+source-wordcount: 6214
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ Saiba mais sobre [públicos-alvo](../audience/about-audiences.md), [criação de
 
 Usar **jornadas unitárias** quando:
 
-* Você precisa reagir às ações individuais do cliente em tempo real (por exemplo, confirmação de compra, abandono do carrinho)
+* Você precisa reagir às ações individuais dos clientes em tempo real (por exemplo, abandono de carrinho, integração de novos membros)
 * Cada cliente deve seguir seu próprio ritmo
 * Acione com base em eventos específicos
 
@@ -286,17 +286,17 @@ Saiba mais sobre [atualizações de perfil](update-profiles.md).
 
 +++
 
-+++ Como faço para enviar um email imediatamente depois que alguém faz uma compra?
++++ Como faço para enviar um email imediatamente depois que um carrinho é abandonado?
 
 Criar uma **jornada unitária acionada por evento**:
 
-1. Configurar um evento de &quot;Compra&quot; com os detalhes do pedido
+1. Configure um evento &quot;Abandono do carrinho&quot; com os detalhes relevantes do carrinho
 2. Adicione o evento como ponto de entrada de jornada
 3. Siga imediatamente com uma ação de Email
-4. Projete o email de confirmação do pedido com detalhes personalizados do pedido
+4. Projete o email de recuperação de seu carrinho com detalhes personalizados do produto
 5. Publicar a jornada
 
-A jornada será acionada automaticamente sempre que um evento de compra for recebido, enviando o email de confirmação em tempo real.
+A jornada será acionada automaticamente sempre que um evento de abandono de carrinho for recebido, enviando o email de recuperação em tempo real.
 
 Saiba mais sobre [configuração de evento](../event/about-events.md) e [ações de email](journey-action.md).
 
@@ -369,7 +369,7 @@ Saiba mais sobre o [gerenciamento de fuso horário](timezone-management.md).
 
 **Práticas recomendadas para tempos de espera**:
 
-* **Mensagens transacionais** (confirmações de pedidos): enviar imediatamente
+* **Mensagens de marketing disparadas** (recuperação de abandono de carrinho): enviar imediatamente
 * **Série de boas-vindas**: 1 a 3 dias entre emails
 * **Conteúdo educacional**: 3 a 7 dias entre mensagens
 * **Campanhas promocionais**: pelo menos 7 dias entre ofertas

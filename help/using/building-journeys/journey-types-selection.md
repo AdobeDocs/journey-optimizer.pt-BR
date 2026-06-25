@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 2289
+source-wordcount: 2295
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ O [!DNL Adobe Journey Optimizer] oferece suporte a quatro tipos de jornada, cada
 
 **As jornadas de eventos unitários** são acionadas individualmente quando ocorre uma ação específica (compra, entrada no aplicativo, envio de formulário). Os perfis são inseridos um de cada vez em tempo real, tornando-os ideais para respostas imediatas e orientadas por comportamento.
 
-**Perfeito para:** Confirmações de pedidos após a compra, emails de boas-vindas quando alguém assinar, notificações de redefinição de senha e personalização pós-logon.
+**Perfeito para:** recuperação de abandono de carrinho, integração de novo membro, emails de boas-vindas quando alguém se inscreve e personalização pós-logon.
 
 ➡️ [Saiba mais sobre eventos](../event/about-events.md) | [Caso de uso de mensagem para assinantes](message-to-subscribers-uc.md) | [Crie sua primeira jornada](journey-gs.md)
 
@@ -100,7 +100,7 @@ Use a tabela abaixo para corresponder sua meta ao tipo de jornada correto. Para 
 
 | Sua meta | Tipo de jornada recomendado | Por que |
 |-----------|--------------------------|-----|
-| Enviar confirmação do pedido após a compra | Evento unitário | Resposta imediata a uma ação individual |
+| Recuperar um carrinho abandonado | Evento unitário | Resposta imediata a comportamento individual |
 | Enviar informativo mensal aos assinantes | Ler público-alvo | Comunicação agendada em lote |
 | Notificar os clientes quando eles atingirem o status do VIP | Qualificação de público-alvo | Resposta em tempo real à entrada de público-alvo da transmissão |
 | Alertar os clientes sobre baixo estoque de itens observados | Evento comercial | A condição dos negócios afeta vários clientes |
@@ -120,7 +120,7 @@ Use a tabela abaixo para corresponder sua meta ao tipo de jornada correto. Para 
 | **Origem do acionador** | Ação do cliente (compra, clique, logon) | Cronograma com base no tempo | Entrada ou saída da associação de público | Condição comercial (ação, preço) |
 | **Recomendado para** | Mensagens transacionais, respostas comportamentais | Campanhas de marketing, boletins informativos, programas recorrentes | Programas de fidelidade, transições de estágio do ciclo de vida | Alertas de estoque, promoções e condições comerciais |
 | **Usar quando** | Resposta imediata a ações individuais necessárias | Atingir grandes segmentos de público-alvo no cronograma | Resposta às alterações no status do cliente em tempo real | Os eventos comerciais afetam vários clientes simultaneamente |
-| **Exemplos** | Confirmação de pedido, redefinição de senha | Informativo mensal, campanha sazonal | Atualização do VIP, alerta de risco de churn | Alerta de baixo estoque, venda rápida, queda de preço |
+| **Exemplos** | Recuperação de abandono do carrinho, integração de novos membros | Informativo mensal, campanha sazonal | Atualização do VIP, alerta de risco de churn | Alerta de baixo estoque, venda rápida, queda de preço |
 | **Reentrada** | Configurável | Uma vez por execução por padrão; [Forçar reentrada na recorrência](read-audience.md#schedule) disponível em execuções agendadas | Configurável por evento de qualificação; um perfil que já está na jornada não pode inserir a mesma versão novamente | Vários perfis podem ser afetados pelo mesmo evento |
 | **Taxa de transferência máxima** | 5.000 TPS (nível de organização compartilhada com qualificação de público-alvo) | 20.000 TPS por sandbox | 5.000 TPS (nível de organização compartilhado com evento Unitário) | Evento comercial: 5.000 TPS; etapa Ler público: 20.000 TPS |
 | **Requisitos de dados** | Esquema de evento com dados de acionador | [!DNL Adobe Experience Platform] público-alvo | Público-alvo de transmissão (necessário para entrada em tempo real); público-alvo em lote suportado, mas atrasa a entrada | Esquema de evento comercial |
@@ -234,7 +234,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Perguntas frequentes:**
 
 * **P: Qual tipo de jornada devo usar para um informativo mensal?** — use uma jornada Read Audience; ela foi projetada para comunicação em lote agendada para todos os perfis em um segmento de público-alvo simultaneamente.
-* **P: Que tipo de jornada processa uma confirmação de pedido após uma compra?** — use uma jornada de eventos Unitária; ela fornece uma resposta imediata em tempo real a uma ação individual do cliente.
+* **P: Qual tipo de jornada devo usar para recuperar um carrinho abandonado?** — Utilizar uma jornada de eventos Unitários; é acionada imediatamente quando o evento de abandono ocorre e responde ao comportamento do indivíduo em tempo real.
 * **P: Posso executar experimentos de caminho A/B em uma jornada de eventos de Negócios?** — Não; experimentos de caminho não são aceitos em jornadas de eventos de negócios.
 * **P: Qual é a diferença entre uma jornada de evento Unitária e uma jornada de Qualificação de Público-Alvo?** — Uma jornada de evento unitária é acionada por uma ação específica do cliente (por exemplo, compra); uma jornada de qualificação de público-alvo é acionada quando um perfil entra ou sai de um segmento de público-alvo com base na avaliação de critérios de transmissão.
 * **P: Quais tipos de jornada oferecem suporte para leitura incremental?** — Somente jornadas de leitura de público-alvo oferecem suporte para leitura incremental; os outros três tipos de jornada não.
