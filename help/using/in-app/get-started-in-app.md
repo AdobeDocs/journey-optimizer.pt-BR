@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 261
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Introdução ao canal de mensagens no aplicativo no Adobe Journey Optimizer para envolver os usuários do aplicativo com notificações que promovem recursos, ofertas e integração.
+**Nesta página:** introdução ao canal de mensagens no aplicativo no Adobe Journey Optimizer para engajar os usuários do aplicativo com notificações que promovem recursos, ofertas e integração.
 
 >[!ENDSHADEBOX]
 

@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 781
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** as páginas de aterrissagem transformam um clique de um email, anúncio ou campanha em um destino da Web dedicado, em que os clientes optam por entrar ou sair, gerenciam suas preferências e compartilham dados de perfil — ajudando você a aumentar o público-alvo com consentimento e a capturar os dados primários que possibilitam a personalização.
+**Nesta página:** as páginas de destino transformam um clique de um email, anúncio ou campanha em um destino da Web dedicado, em que os clientes optam por entrar ou sair, gerenciam suas preferências e compartilham dados de perfil — ajudando você a aumentar o público-alvo com consentimento e a capturar os dados primários que possibilitam a personalização.
 
 >[!ENDSHADEBOX]
 

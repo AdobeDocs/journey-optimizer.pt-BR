@@ -6,8 +6,8 @@ description: Configurar canal de cartões de conteúdo
 redpen-status: CREATED_||_2025-08-11_20-43-03
 exl-id: 430e1c63-0f82-4515-9cc2-2e1346742da5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '221'
+workflow-type: ht
+source-wordcount: '238'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Saiba mais sobre as configurações necessárias para ativar o canal de cartões
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Configurar canal de cartões de conteúdo no Journey Optimizer
 
@@ -40,7 +40,7 @@ Siga as instruções passo a passo para definir superfícies de URI e criar conf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Configurar a compatibilidade com cartões de conteúdo no SDK móvel
 
@@ -50,7 +50,7 @@ Habilite e personalize cartões de conteúdo em aplicativos móveis com os SDKs 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Configurar a compatibilidade com cartões de conteúdo no SDK da web
 

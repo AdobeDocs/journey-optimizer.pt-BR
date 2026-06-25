@@ -6,8 +6,8 @@ description: Campanhas acionadas por API
 redpen-status: CREATED_||_2025-08-11_20-23-06
 exl-id: f98e85b4-8d8a-4a9a-b814-59aa3759e534
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '315'
+workflow-type: ht
+source-wordcount: '354'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ Saiba como configurar ações, selecionar canais de comunicação, otimizar a en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Editar e personalizar o conteúdo de uma campanha acionada por API
 
@@ -70,7 +70,7 @@ Configure o público-alvo da campanha, selecionando perfis, configurando tipos d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Agendar uma campanha acionada por API
 

@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1320
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** gerencie como os destinatários cancelam a inscrição das comunicações e optam pela não personalização, para que você possa honrar suas opções de consentimento e atender às suas obrigações legais e de reputação da marca.
+**Nesta página:** gerencie como os destinatários cancelam a assinatura das comunicações e recusam a personalização, para que você possa respeitar suas opções de consentimento e atender às suas obrigações legais e de reputação da marca.
 
 >[!ENDSHADEBOX]
 

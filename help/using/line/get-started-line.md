@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 188
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Entenda como as mensagens LINE funcionam no Journey Optimizer para que você possa alcançar os clientes no aplicativo LINE por meio de jornadas e campanhas.
+**Nesta página:** entenda como as mensagens do LINE funcionam no Journey Optimizer para que você possa alcançar os clientes no aplicativo LINE por meio de jornadas e campanhas.
 
 >[!ENDSHADEBOX]
 

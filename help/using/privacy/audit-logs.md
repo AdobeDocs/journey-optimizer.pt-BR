@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 380
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** examine os logs de auditoria que registram as ações do usuário nos recursos do Journey Optimizer, para que você possa aumentar a visibilidade, solucionar problemas e demonstrar conformidade com os regulamentos e as políticas de gerenciamento de dados.
+**Nesta página:** revise os logs de auditoria que registram as ações de usuários nos recursos do Journey Optimizer para ser possível aumentar a visibilidade, solucionar problemas e demonstrar conformidade com os regulamentos e as políticas de governança de dados.
 
 >[!ENDSHADEBOX]
 
@@ -83,6 +83,6 @@ A tabela a seguir descreve quais ações de recursos do Journey Optimizer são r
 | Ação personalizada da jornada | Criar / Excluir / Atualizar |
 | Fonte de dados da jornada | Criar / Excluir / Atualizar |
 | Evento da jornada | Criar / Excluir / Atualizar |
-| Jornada fragmento | Criar / Excluir / Atualizar / Ativar / Arquivar |
+| Fragmento de jornada | Criar / Excluir / Atualizar / Ativar / Arquivar |
 | Regra de frequência de mensagens | Criar / Excluir / Atualizar |
 | Estratégia de classificação | Criar / Excluir / Atualizar |

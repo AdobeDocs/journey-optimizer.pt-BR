@@ -6,8 +6,8 @@ description: Criar experiências baseadas em código
 redpen-status: CREATED_||_2025-08-11_20-42-15
 exl-id: 571761d2-976c-4fe0-9631-23b62ba3b97c
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '219'
+workflow-type: ht
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ As experiências baseadas em código do Adobe Journey Optimizer permitem que voc
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Criar e compor experiências baseadas em código
 
@@ -30,7 +30,7 @@ Saiba como criar e configurar experiências baseadas em código no Adobe Journey
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Usar campos editáveis em experiências baseadas em código
 
@@ -40,7 +40,7 @@ Descubra como adicionar campos editáveis a modelos, permitindo que os profissio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Testar experiências baseadas em código
 
@@ -50,7 +50,7 @@ Saiba como visualizar e simular experiências baseadas em código, usando perfis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Publicar e gerenciar experiências baseadas em código
 

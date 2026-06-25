@@ -6,8 +6,8 @@ description: Relatórios de campanha
 redpen-status: CREATED_||_2025-08-11_20-49-35
 exl-id: 01d60382-ea80-4ebd-9918-7e7821083cb9
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '309'
+workflow-type: ht
+source-wordcount: '346'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Os relatórios de campanha do Adobe Journey Optimizer permitem acessar insights 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Visão geral dos relatórios de campanha
 
@@ -30,7 +30,7 @@ Saiba como analisar o desempenho da campanha com base nas métricas principais, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Relatório de campanha baseado em código
 
@@ -50,7 +50,7 @@ Analise campanhas de cartão de conteúdo por meio de métricas como exibição 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Relatório de campanha de correspondência direta
 
@@ -60,7 +60,7 @@ Avalie a eficiência das campanhas de correspondência direta, analisando o stat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
 
 Relatório de campanha com email
 
@@ -85,6 +85,6 @@ Utilize os dados de experimentação para comparar variantes de campanha, analis
 ## Recursos adicionais
 
 - **[Relatório de campanha no aplicativo](../using/reports/campaign-global-report-cja-inapp.md)**: otimize campanhas de mensagens no aplicativo, analisando métricas como impressões, cliques e rejeições.
-- **[Relatório de campanha de notificação por push](../using/reports/campaign-global-report-cja-push.md)**: analise o desempenho das notificações por push, as métricas de envolvimento e os motivos de erros e exclusões.
+- **[Relatório de campanha de notificação por push](../using/reports/campaign-global-report-cja-push.md)**: analise o desempenho das notificações por push, as métricas de engajamento e os motivos de erros e exclusões.
 - **[Relatório de campanha de SMS](../using/reports/campaign-global-report-cja-sms.md)**: avalie o desempenho de campanhas de SMS com base em métricas como tendências de entrega, links rastreados e motivos de rejeição.
 - **[Relatório de campanha da web](../using/reports/campaign-global-report-cja-web.md)**: entenda as métricas de engajamento na web, como impressões, cliques e links rastreados, para otimizar o desempenho.

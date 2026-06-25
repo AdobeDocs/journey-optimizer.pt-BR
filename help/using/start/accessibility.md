@@ -22,9 +22,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 533
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** descubra como a Journey Optimizer oferece suporte a usuários de todas as habilidades por meio de recursos de acessibilidade alinhados à WCAG e atalhos de teclado, para que você possa navegar e trabalhar na interface com eficiência.
+**Nesta página:** descubra como o Journey Optimizer oferece suporte a usuários de todas as habilidades por meio de recursos de acessibilidade alinhados à WCAG e atalhos de teclado, para que você possa navegar e trabalhar na interface com eficiência.
 
 >[!ENDSHADEBOX]
 

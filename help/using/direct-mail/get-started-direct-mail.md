@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 487
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Entenda como o canal de correspondência direta funciona para que você possa gerar os arquivos de extração que provedores de terceiros usam para enviar mensagens físicas aos seus clientes.
+**Nesta página:** entenda como o canal de correspondência direta funciona para que você possa gerar os arquivos de extração que provedores de terceiros usam para enviar mensagens físicas aos clientes.
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ As principais etapas para enviar mensagens de correspondência direta são as se
 
 * **[Criar correspondência direta](create-direct-mail.md)**: saiba como criar entregas de correspondência direta e configurar arquivos de extração para canais offline.
 * **[Configurar canal de correspondência direta](direct-mail-configuration.md)**: defina superfícies de correspondência direta e configurações de roteamento de arquivos.
-* **[Decisão em lote na correspondência direta](../experience-decisioning/batch-decisioning-direct-mail.md)** - Use a decisão para personalizar arquivos de extração para correspondência direta ou exportar dados de decisão para sistemas downstream.
+* **[Decisão em lote na correspondência direta](../experience-decisioning/batch-decisioning-direct-mail.md)**: use a decisão para personalizar arquivos de extração para correspondência direta ou exportar dados de decisão para sistemas downstream.
 * **[Testar e enviar correspondência direta](test-send-direct-mail.md)**: saiba como testar, validar e publicar entregas de correspondência direta.
 * **[Tutoriais de correspondência direta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre recursos de correspondência direta e práticas recomendadas.
 

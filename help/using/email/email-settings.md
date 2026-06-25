@@ -26,9 +26,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1523
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Saiba como definir as configurações de email em uma configuração de canal, incluindo tipo de email, subdomínio, pool de IP, cancelamento de inscrição na lista, parâmetros de cabeçalho, Cco, lista de propagação, tentativas, rastreamento de URL e endereço de execução.
+**Nesta página:** saiba como definir as configurações de email em uma configuração de canais, incluindo tipo de email, subdomínio, pool de IP, cancelamento de assinatura em lista, parâmetros de cabeçalho, Cco, lista de propagação, tentativas, rastreamento de URL e endereço de execução.
 
 >[!ENDSHADEBOX]
 

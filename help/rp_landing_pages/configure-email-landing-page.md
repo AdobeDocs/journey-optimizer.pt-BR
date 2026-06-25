@@ -6,8 +6,8 @@ description: Configurar canal de email
 redpen-status: CREATED_||_2025-08-11_20-34-10
 exl-id: c9377c3c-d716-4fae-adc8-458cbe7213dd
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '260'
+workflow-type: ht
+source-wordcount: '285'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ A configuração do canal de email do Adobe Journey Optimizer é a porta de entr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à configuração de email
 
@@ -40,7 +40,7 @@ Defina configurações de email para capacidade de entrega, conformidade e perso
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Habilitar e configurar o cancelamento de assinatura da lista
 
@@ -60,7 +60,7 @@ Personalize endereços de email de remetentes e para resposta, lide com erros e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Configurar rastreamento de URL para o canal de email
 
@@ -70,7 +70,7 @@ Configure parâmetros de rastreamento de URL para medir a eficiência das campan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Configurações de email personalizadas
 

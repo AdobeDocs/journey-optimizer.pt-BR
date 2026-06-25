@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 493
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba por que e quando você deve configurar um registro do DMARC para os subdomínios que você delegou à Adobe no Adobe Journey Optimizer para atender aos requisitos de remetente do Google e do Yahoo.
+**Nesta página:** saiba por que e quando você deve configurar um registro DMARC para os subdomínios que você delegou à Adobe no Adobe Journey Optimizer para atender aos requisitos de remetente do Google e do Yahoo.
 
 >[!ENDSHADEBOX]
 
