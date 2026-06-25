@@ -13,9 +13,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: 539
 ht-degree: 0%
 
 ---
@@ -30,9 +30,12 @@ ht-degree: 0%
 
 Com **[!UICONTROL campanhas orquestradas]**, você pode projetar e fornecer comunicações direcionadas no nível da entidade, aproveitando os recursos de esquema relacional da Adobe Experience Platform. A Experience Platform usa esquemas para descrever a estrutura dos dados de forma consistente e reutilizável. Quando os dados são assimilados na Experience Platform, eles são estruturados de acordo com um esquema XDM.
 
-Embora a segmentação de **[!UICONTROL campanhas orquestradas]** opere principalmente em esquemas relacionais, a entrega de mensagens real sempre ocorre no nível **Perfil**.
+**[!UICONTROL Campanhas orquestradas]** oferecem suporte a dois tipos de targeting dimensions:
 
-Ao configurar o direcionamento, você define dois aspectos principais:
+* **Dimensão de direcionamento do perfil**: o padrão interno, que direciona os destinatários diretamente usando o esquema **Perfil**.
+* **Dimensão de direcionamento personalizada**: direciona destinatários por meio de um esquema relacional (por exemplo, `Recipients`, `Visitors`, `Customers`). Use isso quando precisar enviar mensagens no nível da entidade — como por assinatura ou por contrato — em vez de no nível do perfil.
+
+Ao configurar um targeting dimension personalizado, você define dois aspectos principais:
 
 * **Esquemas de Tabela de Destino**
 
