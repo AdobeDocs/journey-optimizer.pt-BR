@@ -71,7 +71,7 @@ ht-degree: 98%
          + [Introdução à simulação de jornada](using/building-journeys/simulate-journey-gs.md)
          + [Simule sua jornada](using/building-journeys/simulate-journey.md)
       + [Teste a jornada](using/building-journeys/testing-the-journey.md)
-      + [Teste de simulação de jornada](using/building-journeys/journey-dry-run.md)
+      + [Execução de teste da jornada](using/building-journeys/journey-dry-run.md)
       + [Publicar a jornada](using/building-journeys/publish-journey.md)
       + [Pausar uma jornada](using/building-journeys/journey-pause.md)
       + [Relatório em tempo real na sua jornada](using/building-journeys/report-journey.md)
@@ -339,7 +339,7 @@ ht-degree: 98%
       + [Criar seu conteúdo no aplicativo](using/in-app/design-in-app.md)
       + [Verificação e envio da notificação no aplicativo](using/in-app/send-in-app.md)
    + Canal de notificação por push {#push}
-      + [Canal de notificação por push](/help/rp_landing_pages/push-landing-page.md)
+      + [Canal de notificações por push](/help/rp_landing_pages/push-landing-page.md)
       + [Introdução às notificações por push](using/push/get-started-push.md)
       + [Criar uma notificação por push](using/push/create-push.md)
       + [Projetar a notificação por push](using/push/design-push.md)
@@ -644,7 +644,7 @@ ht-degree: 98%
       + [Criar relatórios de jornada](using/reports/sharing-overview.md)
       + [Lista de campos de evento de etapa](using/reports/sharing-field-list.md)
       + Campos de eventos de etapas herdados {#legacy-step-event-fields}
-         + [Campos de eventos de etapas herdados](/help/rp_landing_pages/legacy-step-event-fields-landing-page.md)
+         + [Campos de eventos de etapas legados](/help/rp_landing_pages/legacy-step-event-fields-landing-page.md)
          + [Sobre campos herdados](using/reports/sharing-legacy-fields.md)
          + [Campos de jornada](using/reports/sharing-journey-fields.md)
          + [Campos comuns](using/reports/sharing-common-fields.md)
@@ -655,8 +655,8 @@ ht-degree: 98%
 + Recursos de decisão {#decisioning}
    + [Recursos de decisão](/help/rp_landing_pages/decisioning-landing-page.md)
    + [Introdução aos recursos de decisão](using/experience-decisioning/gs-decision.md)
-   + Tomada de decisão {#experience-decisioning}
-      + [Tomada de decisão](/help/rp_landing_pages/experience-decisioning-landing-page.md)
+   + Tomada de decisões {#experience-decisioning}
+      + [Tomada de decisões](/help/rp_landing_pages/experience-decisioning-landing-page.md)
       + [Introdução ao serviço de decisão](using/experience-decisioning/gs-experience-decisioning.md)
       + [Medidas de proteção e limitações do serviço de decisão](using/experience-decisioning/decisioning-guardrails.md)
       + [Perguntas frequentes sobre decisão](using/experience-decisioning/decisioning-faq.md)
@@ -729,7 +729,7 @@ ht-degree: 98%
          + [Criar políticas de decisão](using/experience-decisioning/create-decision-policy.md)
          + [Usar políticas de decisão em mensagens](using/experience-decisioning/use-decision-policy.md)
          + [Aproveitar fragmentos em políticas de decisão](using/experience-decisioning/fragments-decision-policies.md)
-         + [Decisão em lote na correspondência direta](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + [Tomada de decisões em lote na correspondência direta](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [Relatório de decisões](using/experience-decisioning/cja-reporting.md)
       + [Caso de uso de decisão](using/experience-decisioning/experience-decisioning-uc.md)
       + Coletar dados de eventos {#experience-decisioning-collect-event-data}
@@ -777,8 +777,8 @@ ht-degree: 98%
          + [Configurar seleção de ofertas em decisões](using/offers/offer-activities/configure-offer-selection.md)
          + [Criar simulações](using/offers/offer-activities/simulation.md)
       + [Usar decisões em lote](using/offers/batch-delivery.md)
-      + Coletar dados de eventos {#collect-event-data}
-         + [Coletar dados de eventos](/help/rp_landing_pages/collect-event-data-landing-page.md)
+      + Coletar dados do evento {#collect-event-data}
+         + [Coletar dados do evento](/help/rp_landing_pages/collect-event-data-landing-page.md)
          + [Introdução à coleta de dados](using/offers/data-collection/data-collection.md)
          + [Criar um conjunto de dados para coletar eventos](using/offers/data-collection/create-dataset.md)
          + [Configurar captura de eventos](using/offers/data-collection/schema-requirement.md)

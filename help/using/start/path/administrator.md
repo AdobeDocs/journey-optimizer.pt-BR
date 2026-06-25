@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1168
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Defina usuários, permissões, sandboxes e configurações de canal para que suas equipes possam trabalhar na Adobe Journey Optimizer de forma segura e eficiente.
+**Nesta página:** defina usuários, permissões, sandboxes e configurações de canal para que suas equipes possam trabalhar no Adobe Journey Optimizer de forma segura e eficiente.
 
 >[!ENDSHADEBOX]
 

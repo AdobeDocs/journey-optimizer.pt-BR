@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
 workflow-type: tm+mt
 source-wordcount: 821
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba como projetar seu conteúdo de email no Designer de Email, as principais etapas para criá-lo do zero, codificar ou importar o HTML e as práticas recomendadas que mantêm seus emails renderizados entre clientes.
+**Nesta página:** saiba como projetar seu conteúdo de email no Designer de email, as principais etapas para criá-lo do zero, codificar ou importar o HTML e as práticas recomendadas que mantêm seus emails renderizados entre clientes.
 
 >[!ENDSHADEBOX]
 

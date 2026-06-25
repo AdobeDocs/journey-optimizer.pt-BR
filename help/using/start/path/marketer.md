@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1727
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** siga um caminho de introdução para profissionais de marketing para criar públicos, projetar conteúdo e orquestrar jornadas e campanhas que proporcionem experiências personalizadas de clientes no Journey Optimizer.
+**Nesta página:** siga um caminho de introdução para profissionais de marketing para criar públicos-alvo, projetar conteúdo e orquestrar jornadas e campanhas que proporcionem experiências personalizadas de clientes no Journey Optimizer.
 
 >[!ENDSHADEBOX]
 

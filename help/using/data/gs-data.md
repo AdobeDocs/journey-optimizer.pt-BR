@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 2696
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** obtenha uma visão geral prática de como os dados fluem para dentro e para fora da Adobe Journey Optimizer, abrangendo esquemas, conjuntos de dados, identidades, perfis e fontes de dados, para que sua equipe possa concluir as etapas de preparação de dados antes de criar jornadas e campanhas.
+**Nesta página:** obtenha uma visão geral prática de como os dados fluem para dentro e para fora do Adobe Journey Optimizer, abrangendo esquemas, conjuntos de dados, identidades, perfis e fontes de dados, para que a equipe possa concluir as etapas de preparação de dados antes de criar jornadas e campanhas.
 
 >[!ENDSHADEBOX]
 

@@ -43,7 +43,7 @@ topic_v2:
 source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
 source-wordcount: 2102
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** entenda as principais funções em uma implementação do Adobe Journey Optimizer e suas responsabilidades para que você possa encontrar o ponto de partida certo e as tarefas de início rápido para sua equipe.
+**Nesta página:** entenda as principais funções em uma implementação do Adobe Journey Optimizer e suas responsabilidades para que você possa encontrar o ponto de partida certo e as tarefas de início rápido da sua equipe.
 
 >[!ENDSHADEBOX]
 

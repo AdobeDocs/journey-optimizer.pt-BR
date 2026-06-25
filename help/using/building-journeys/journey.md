@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 2278
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
@@ -45,14 +45,14 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** conheça os fundamentos das jornadas no Adobe Journey Optimizer, incluindo os tipos de jornadas, o fluxo de trabalho de design, os principais recursos e as práticas recomendadas para criar experiências personalizadas do cliente.
+**Nesta página:** conheça os fundamentos das jornadas no Adobe Journey Optimizer, incluindo os tipos de jornadas, o fluxo de trabalho de design, os principais recursos e as práticas recomendadas para criar experiências do cliente personalizadas.
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="Criar uma jornada"
->abstract="A tela de arrastar e soltar orquestra mensagens e ações em vários canais, aproveitando dados contextuais e direcionamento de público-alvo para maximizar o impacto."
+>abstract="A tela de arrastar e soltar permite orquestrar mensagens e ações em diversos canais, aproveitando dados contextuais e segmentação de público-alvo para obter o máximo impacto."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Criar a primeira jornada"
 
 

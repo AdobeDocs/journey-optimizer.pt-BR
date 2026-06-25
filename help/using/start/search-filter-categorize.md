@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 826
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** localize e organize rapidamente jornadas, campanhas e ativos com pesquisa universal, filtros de lista e tags para que você possa se manter produtivo à medida que seus projetos da Journey Optimizer aumentarem.
+**Nesta página:** localize e organize rapidamente jornadas, campanhas e ativos com a pesquisa universal, filtros de lista e tags para que você possa se manter produtivo à medida que seus projetos do Journey Optimizer aumentarem.
 
 >[!ENDSHADEBOX]
 

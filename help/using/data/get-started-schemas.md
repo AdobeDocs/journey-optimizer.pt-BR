@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 609
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 72%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Entenda como os esquemas padrão e relacional do Adobe Experience Platform definem a estrutura dos dados para que você possa modelar perfis, eventos comportamentais e entidades relacionais para personalização e campanhas orquestradas no Adobe Journey Optimizer.
+**Nesta página:** entenda como os esquemas padrão e relacionais da Adobe Experience Platform definem a estrutura dos dados para que você possa modelar perfis, eventos comportamentais e entidades relacionais para personalização e campanhas orquestradas no Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
