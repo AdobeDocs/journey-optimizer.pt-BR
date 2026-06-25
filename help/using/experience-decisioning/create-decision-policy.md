@@ -8,21 +8,15 @@ level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
 TQID: https://experienceleague.adobe.com/ooRR2Tz1Tphu4JUHgeYjfz-guj8S87NVaWKxM4jShEM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 2404
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -85,7 +79,7 @@ Para experiências baseadas em código, você pode adicionar uma nova política 
 
 +++Adicionar uma política de decisão no menu Decisão
 
-1. Clique no ícone ![](assets/do-no-localize/decisioning-icon.png) no painel de propriedades para acessar o menu **[!UICONTROL Decisão]**.
+1. Clique no ícone ![](assets/do-not-localize/decisioning-icon.png) no painel de propriedades para acessar o menu **[!UICONTROL Decisão]**.
 
 1. Clique no botão **[!UICONTROL Adicionar política de decisão]**.
 
@@ -111,7 +105,7 @@ Para experiências baseadas em código, você pode adicionar uma nova política 
 
    +++Adicionar uma política de decisão do editor do Personalization
 
-   1. Abra o editor de personalização usando o ícone ![](assets/do-no-localize/editor-icon.svg) disponível no campo de linha de assunto ou em qualquer campo no corpo do email, onde você pode adicionar personalização.
+   1. Abra o editor de personalização usando o ícone ![](assets/do-not-localize/editor-icon.svg) disponível no campo de linha de assunto ou em qualquer campo no corpo do email, onde você pode adicionar personalização.
 
    1. Navegue até o menu **[!UICONTROL Políticas de decisão]** e clique no botão **[!UICONTROL Adicionar política de decisão]**.
 
@@ -123,7 +117,7 @@ Para experiências baseadas em código, você pode adicionar uma nova política 
 
    1. Abra o Designer de email e selecione qualquer componente na estrutura do email.
 
-   1. Clique no ícone ![](assets/do-no-localize/decisioning-icon.png) no painel de propriedades para acessar o menu **[!UICONTROL Decisão]**.
+   1. Clique no ícone ![](assets/do-not-localize/decisioning-icon.png) no painel de propriedades para acessar o menu **[!UICONTROL Decisão]**.
 
    1. Clique no botão **[!UICONTROL Adicionar nova política]**.
 
@@ -155,7 +149,7 @@ Para SMS, você pode adicionar uma nova política de decisão usando o **editor 
 
 +++Adicionar uma política de decisão do editor de personalização
 
-1. Abra o editor de personalização usando o ícone ![](assets/do-no-localize/editor-icon.svg).
+1. Abra o editor de personalização usando o ícone ![](assets/do-not-localize/editor-icon.svg).
 1. Navegue até o menu **[!UICONTROL Políticas de decisão]** e clique no botão **[!UICONTROL Adicionar política de decisão]**.
 
    ![](assets/decision-policy-add-sms-editor.png)
@@ -164,7 +158,7 @@ Para SMS, você pode adicionar uma nova política de decisão usando o **editor 
 
 +++Adicionar uma política de decisão no menu Decisão
 
-1. Clique no ícone ![](assets/do-no-localize/decisioning-icon.png) no painel de propriedades para acessar o menu **[!UICONTROL Decisão]**.
+1. Clique no ícone ![](assets/do-not-localize/decisioning-icon.png) no painel de propriedades para acessar o menu **[!UICONTROL Decisão]**.
 
 1. Clique no botão **[!UICONTROL Adicionar política de decisão]**.
 
@@ -178,7 +172,7 @@ Para notificações por push, você pode adicionar uma nova política de decisã
 
 +++Adicionar uma política de decisão do editor de personalização
 
-1. Abra o editor de personalização usando o ícone ![](assets/do-no-localize/editor-icon.svg).
+1. Abra o editor de personalização usando o ícone ![](assets/do-not-localize/editor-icon.svg).
 1. Navegue até o menu **[!UICONTROL Políticas de decisão]** e clique no botão **[!UICONTROL Adicionar política de decisão]**.
 
    ![](assets/decision-policy-add-push.png)
@@ -187,7 +181,7 @@ Para notificações por push, você pode adicionar uma nova política de decisã
 
 +++Adicionar uma política de decisão no menu Decisão
 
-1. Clique no ícone ![](assets/do-no-localize/decisioning-icon.png) no painel de propriedades para acessar o menu **[!UICONTROL Decisão]**.
+1. Clique no ícone ![](assets/do-not-localize/decisioning-icon.png) no painel de propriedades para acessar o menu **[!UICONTROL Decisão]**.
 
 1. Clique no botão **[!UICONTROL Adicionar política de decisão]**.
 
@@ -195,7 +189,7 @@ Para notificações por push, você pode adicionar uma nova política de decisã
 
 >[!IMPORTANT]
 >
->O Experience Decisioning com notificações por push requer uma versão específica do Mobile SDK. Antes de implementar este recurso, verifique as [notas de versão](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} para identificar a versão necessária e se você atualizou adequadamente. Você também pode exibir todas as versões do SDK disponíveis para sua plataforma [nesta seção](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
+>A Escolha de experiências com notificações por push exige uma versão específica do SDK móvel. Antes de implementar este recurso, verifique as [notas de versão](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} para identificar a versão necessária e se você atualizou de acordo. Você também pode visualizar todas as versões do SDK disponíveis para sua plataforma [nesta seção](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
 +++
 
@@ -205,7 +199,7 @@ Para correspondência direta, adicione uma política de decisão da configuraç�
 
 1. Na seção **[!UICONTROL Campos de Dados]**, selecione uma coluna ou clique em **[!UICONTROL Adicionar]** para criar uma.
 
-1. No painel de formatação, abra o editor de personalização usando o ícone ![](assets/do-no-localize/editor-icon.svg).
+1. No painel de formatação, abra o editor de personalização usando o ícone ![](assets/do-not-localize/editor-icon.svg).
 
    ![](assets/decision-policy-dm-add.png)
 
