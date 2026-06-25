@@ -6,16 +6,13 @@ description: Saiba como usar a atividade de Split em uma campanha orquestrada
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/kvuWf-Rg2zE7JVQ15LdG-CHG0JWWEn0B4OjHU4RbFSg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 85%
+source-wordcount: 876
+ht-degree: 80%
 
 ---
 
@@ -99,6 +96,8 @@ Siga estas etapas para configurar a atividade **[!UICONTROL Divisão]**:
    1. Clique em **[!UICONTROL Criar filtro]** para definir regras de filtragem usando o construtor de regras, por exemplo, selecione perfis com um endereço de email válido.
 
       ![](../assets/orchestrated-split-1.png)
+
+   1. No campo **[!UICONTROL Código do segmento]**, insira um código para identificar o subconjunto nos logs. Esse código é armazenado junto com os dados do perfil e pode ser usado para rastrear e medir o desempenho de cada segmento. Se deixado em branco, o rótulo do subconjunto será usado automaticamente.
 
    1. Para limitar o número de perfis selecionados, ative a opção de **[!UICONTROL Habilitar limite]** e especifique um número ou porcentagem.
 
