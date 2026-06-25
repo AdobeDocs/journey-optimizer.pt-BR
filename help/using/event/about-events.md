@@ -10,27 +10,15 @@ level: Intermediate, Experienced
 keywords: events, event, jornada, definition, start
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 TQID: https://experienceleague.adobe.com/xvLSBd-rwKKNqwQNDa4D8GfFzc-ND1FkC3EdstufkIY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
 workflow-type: tm+mt
-source-wordcount: 2183
+source-wordcount: 2181
 ht-degree: 27%
 
 ---
@@ -105,7 +93,7 @@ Para eventos **unitários**, há dois tipos de ID de evento:
 
   >[!CAUTION]
   >
-  >Uma regra de limite é definida para eventos baseados em regras. Limita o número de eventos qualificados que uma jornada pode processar para 5.000 por segundo em uma determinada organização. Corresponde aos SLAs do Journey Optimizer. Consulte seu licenciamento da Journey Optimizer e a [Descrição do Produto da Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+  >Uma regra de limite é definida para eventos baseados em regras. Limita o número de eventos qualificados que uma jornada pode processar para 5.000 por segundo em uma determinada organização. Corresponde aos SLAs do Journey Optimizer. Consulte seu licenciamento da Journey Optimizer e a [Descrição do Produto da Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 * **Eventos gerados pelo sistema**: esses eventos exigem uma eventID. Esse campo eventID é gerado automaticamente ao criar o evento. O sistema que envia o evento não deve gerar uma ID, mas sim passar a disponível na pré-visualização de carga.
 
@@ -140,11 +128,16 @@ Para eventos gerados pelo sistema, o Pipeline filtra os eventos que têm uma car
 
 ## Sobre a taxa de transferência de eventos do Jornada {#event-thoughput}
 
-A Adobe Journey Optimizer oferece suporte a um volume máximo de 5.000 eventos de jornada por segundo em nível de organização, em todas as sandboxes. Esta cota se aplica a todos os eventos usados no jornada ativo, que inclui jornadas do **Live**, **Dry run**, **Closed** e **Paused**. Quando essa cota é atingida, novos eventos são enfileirados com uma taxa de processamento de 5.000 por segundo. O tempo máximo que um evento pode passar na fila é de **24 horas**.
+A Adobe Journey Optimizer impõe limites de taxa de transferência separados por tipo de evento, em nível de organização, em todas as sandboxes:
+
+* **Eventos unitários**: 5.000 eventos por segundo
+* **Ler eventos de jornada baseados em público-alvo**: 5.000 eventos por segundo
+
+Esses limites se aplicam a todos os eventos usados no jornada ativo, que inclui as jornadas **Live**, **Dry run**, **Closed** e **Paused**. Quando um limite é atingido, novos eventos são enfileirados e processados a 5.000 por segundo até que a fila seja esgotada.
 
 Para obter mais detalhes sobre as taxas de processamento da jornada e como os diferentes tipos de jornada afetam a taxa de transferência, consulte [esta seção](../building-journeys/entry-management.md#journey-processing-rate).
 
-Os seguintes tipos de eventos são contados para a cota de 5.000 TPS:
+Os seguintes tipos de eventos são contados para essas cotas:
 
 * **Eventos Unitários Externos**: Inclui eventos com base em regras e gerados pelo sistema. Se o mesmo evento bruto se qualificar para várias definições de regra, cada regra qualificada será contada como um evento separado. Mais detalhes abaixo.
 
@@ -187,8 +180,8 @@ Não é possível excluir nenhum evento usado nas jornadas do **Live**, **Rascun
 
 Saiba como configurar um evento, especificar o ponto final de transmissão e a carga útil de um evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431510?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Entenda os casos de uso aplicáveis a eventos de negócios. Saiba como criar uma jornada usando um evento de negócios e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417595?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
