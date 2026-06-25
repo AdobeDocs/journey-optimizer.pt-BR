@@ -11,25 +11,15 @@ version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 875fca07f966c9812f40c8dab4ca7dc1bb9160d0
 workflow-type: tm+mt
-source-wordcount: 2295
+source-wordcount: 2299
 ht-degree: 1%
 
 ---
@@ -76,7 +66,11 @@ O [!DNL Adobe Journey Optimizer] oferece suporte a quatro tipos de jornada, cada
 
 **Quando usar:** respostas em tempo real para alterações de associação de público-alvo
 
-**As jornadas de qualificação de público-alvo** são acionadas quando os perfis se qualificam para (ou saem de) um público-alvo específico. Os perfis são inseridos individualmente à medida que atendem aos critérios, permitindo envolvimento imediato quando o comportamento do cliente muda. Para o comportamento de entrada em tempo real, o público deve ser **avaliado por transmissão**; os públicos avaliados em lote acionam a entrada somente na próxima janela de avaliação (até 24 horas).
+**As jornadas de qualificação de público-alvo** são acionadas quando os perfis se qualificam para (ou saem de) um público-alvo específico. Os perfis são inseridos individualmente à medida que atendem aos critérios, permitindo envolvimento imediato quando o comportamento do cliente muda. Usar **públicos-alvo avaliados por transmissão** — esses são os únicos tipos de público-alvo com suporte para esta atividade.
+
+>[!CAUTION]
+>
+>A partir de **agosto de 2026**, as jornadas que usam um público-alvo em lote em um nó de Qualificação de público-alvo não poderão ser publicadas. [Saiba como migrar suas jornadas](aq-batch-audiences-migration.md)
 
 **Perfeito para:** notificações de atualização no nível do VIP, mensagens de comemoração da primeira compra, alertas de risco de churn e transições de estágio do ciclo de vida de fidelidade.
 
@@ -123,7 +117,7 @@ Use a tabela abaixo para corresponder sua meta ao tipo de jornada correto. Para 
 | **Exemplos** | Recuperação de abandono do carrinho, integração de novos membros | Informativo mensal, campanha sazonal | Atualização do VIP, alerta de risco de churn | Alerta de baixo estoque, venda rápida, queda de preço |
 | **Reentrada** | Configurável | Uma vez por execução por padrão; [Forçar reentrada na recorrência](read-audience.md#schedule) disponível em execuções agendadas | Configurável por evento de qualificação; um perfil que já está na jornada não pode inserir a mesma versão novamente | Vários perfis podem ser afetados pelo mesmo evento |
 | **Taxa de transferência máxima** | 5.000 TPS (nível de organização compartilhada com qualificação de público-alvo) | 20.000 TPS por sandbox | 5.000 TPS (nível de organização compartilhado com evento Unitário) | Evento comercial: 5.000 TPS; etapa Ler público: 20.000 TPS |
-| **Requisitos de dados** | Esquema de evento com dados de acionador | [!DNL Adobe Experience Platform] público-alvo | Público-alvo de transmissão (necessário para entrada em tempo real); público-alvo em lote suportado, mas atrasa a entrada | Esquema de evento comercial |
+| **Requisitos de dados** | Esquema de evento com dados de acionador | [!DNL Adobe Experience Platform] público-alvo | Público de transmissão necessário. Públicos em lote descontinuados de agosto de 2026 — [migrar agora](aq-batch-audiences-migration.md) | Esquema de evento comercial |
 
 ## Compatibilidade de recursos por tipo de jornada {#feature-compatibility}
 
@@ -217,7 +211,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * A reentrada de perfil em jornadas de Leitura de público é limitada a uma vez por execução por padrão; use Forçar reentrada na recorrência em execuções programadas para permitir que os perfis entrem novamente na próxima execução
 * A atividade Ler público-alvo só está disponível como uma entrada de jornada nas jornadas Ler público-alvo e evento comercial — não nas jornadas de entrada Unitário de evento ou Qualificação de público-alvo
 * As jornadas Qualificação de público-alvo e Público-alvo de leitura não podem conter uma atividade de salto e não podem ser o destino de uma atividade de salto de outra jornada
-* As jornadas de qualificação de público exigem um público avaliado por transmissão para entrada em tempo real; os públicos avaliados em lote causam atrasos de entrada de até 24 horas
+* As jornadas de qualificação de público-alvo exigem um público-alvo avaliado por transmissão. A partir de agosto de 2026, os públicos avaliados em lote não poderão ser usados em um nó de Qualificação de público-alvo — consulte o [guia de migração](aq-batch-audiences-migration.md)
 * As jornadas de qualificação de evento e público-alvo unitários compartilham um limite de taxa de transferência de 5.000 TPS no nível da organização; as jornadas de público-alvo de leitura suportam até 20.000 TPS por sandbox
 * A simulação é compatível com a maioria dos tipos de jornada, mas não com a entrada de evento Comercial; consulte Limitações de simulação para restrições no nível do nó
 * Um perfil já presente em uma jornada não pode inserir novamente a mesma versão dessa jornada, independentemente da configuração de reentrada
@@ -241,7 +235,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **P: Posso adicionar uma atividade Ler público-alvo a uma jornada de eventos Unitária?** — Não; a atividade Ler público só está disponível como entrada de jornada em Ler público e jornadas de eventos comerciais.
 * **P: Posso usar uma atividade de salto em uma jornada de Leitura de Público?** — Não; jornadas que começam com uma atividade Ler público ou Qualificação de público não podem conter uma atividade de salto e não podem ser o destino de um salto de outra jornada.
 * **P: Posso dar as boas-vindas a novos usuários do aplicativo com uma jornada de Qualificação de Público-Alvo?** — Sim, se a entrada for orientada por um público-alvo de transmissão (por exemplo, quando um perfil ingressa em um segmento de novo usuário); uma jornada de evento unitário de inscrição também é um padrão comum.
-* **P: minha jornada de qualificação de público-alvo não está sendo acionada em tempo real. Por quê?** — as jornadas de qualificação de público-alvo exigem um público-alvo avaliado por transmissão. Se o público-alvo for avaliado em lote (por exemplo, um instantâneo diário), a entrada será atrasada até a próxima janela de avaliação, que pode ser de até 24 horas.
+* **P: minha jornada de qualificação de público-alvo não está sendo acionada em tempo real. Por quê?** — as jornadas de qualificação de público-alvo exigem um público-alvo avaliado por transmissão. O uso de um público avaliado em lote está obsoleto e será bloqueado a partir de agosto de 2026. [Consulte o guia de migração](aq-batch-audiences-migration.md)
 * **P: Qual é a diferença de taxa de transferência entre o evento Unitário e as jornadas de Leitura de Público?** — As jornadas de eventos unitários compartilham um limite de 5.000 TPS com jornadas de qualificação de público-alvo no nível da organização. Leia As jornadas de público suportam até 20.000 TPS por sandbox, tornando-as mais adequadas para campanhas em lote de grande escala.
 
 +++
