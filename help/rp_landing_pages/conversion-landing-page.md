@@ -21,7 +21,7 @@ A seção de conversão do Adobe Journey Optimizer permite transformar dados em 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Função “toBool”
 
@@ -31,7 +31,7 @@ Converta vários tipos de dados em valores booleanos com a função “toBool”
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Função “toDateOnly”
 
@@ -41,7 +41,7 @@ Converta representações de data no tipo “dateOnly” com a função “toDat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Função “toDateTime”
 
@@ -51,7 +51,7 @@ Converta várias entradas em um valor de data/hora com a função “toDateTime�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Função “toDateTimeOnly”
 
@@ -61,7 +61,7 @@ Converta um valor em um formato de data/hora sem fuso horário com a função �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Função “toDecimal”
 
@@ -71,7 +71,7 @@ Converta vários tipos de dados em valores decimais com a função “toDecimal�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Função “toDuration”
 

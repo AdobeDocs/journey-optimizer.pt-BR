@@ -40,7 +40,7 @@ Orientações passo a passo sobre como integrar, carregar e gerenciar ativos do 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=pt-BR)
 
 Trabalhar com imagens do Adobe Stock
 
@@ -60,7 +60,7 @@ Saiba como redimensionar, cortar e remover fundos de ativos com o Adobe Express 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Trabalhar com fragmentos de conteúdo do AEM
 

@@ -90,7 +90,7 @@ Saiba mais sobre as etapas essenciais para configurar os recursos de email, incl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Definir as configurações de email
 
@@ -110,7 +110,7 @@ Saiba como habilitar o recurso de “Cancelar assinatura da lista” para inclui
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configurar parâmetros de cabeçalho do email
 

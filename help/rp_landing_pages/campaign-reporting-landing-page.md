@@ -40,7 +40,7 @@ Entenda como avaliar experiências personalizadas e estratégias de tomada de de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Relatório de campanha de cartão de conteúdo
 
@@ -70,7 +70,7 @@ Obtenha insights sobre métricas de desempenho de emails, taxas de engajamento e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=pt-BR)
 
 Relatório de campanha de experimentação
 

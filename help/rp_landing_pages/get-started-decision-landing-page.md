@@ -25,7 +25,7 @@ A Gestão de decisões do Adobe Journey Optimizer permite que os profissionais d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução à gestão de decisões
 

@@ -50,7 +50,7 @@ Saiba como exportar conjuntos de dados para destinos de armazenamento na nuvem p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Adobe Journey Optimizer: exemplos de consulta de conjunto de dados
 

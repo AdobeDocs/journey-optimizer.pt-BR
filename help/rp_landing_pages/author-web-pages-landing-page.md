@@ -20,7 +20,7 @@ Descubra como criar, personalizar e otimizar experiências da web com as ferrame
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Editar um conteúdo com o designer da web
 
@@ -50,7 +50,7 @@ Saiba como gerenciar modificações na web por meio do painel “Modificações�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Monitorar as suas experiências da web
 
@@ -60,7 +60,7 @@ Entenda como monitorar o engajamento na web, usando relatórios e rastreamento d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Como criar aplicativos de página única no Adobe Journey Optimizer
 

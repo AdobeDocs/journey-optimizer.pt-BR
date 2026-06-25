@@ -40,7 +40,7 @@ Descubra como criar, configurar e gerenciar itens de decisão, incluindo atribut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Gerenciar coleções de itens
 
