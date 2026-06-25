@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: e6d80f7b7875db890b946d9ef5315d1cbed918c3
+source-git-commit: 475dd5e591f1c0527238efcdf118eaa435d801a4
 workflow-type: tm+mt
-source-wordcount: 2552
+source-wordcount: 2584
 ht-degree: 9%
 
 ---
@@ -114,6 +114,10 @@ Para configurar a atividade **[!UICONTROL Qualificação de público-alvo]**, si
 
    ![Copiar botão para copiar nome e ID de público-alvo no formato JSON](assets/segment-copy.png)
 
+   >[!TIP]
+   >
+   >Para identificar o método de avaliação de um público antes de usá-lo, abra o menu **[!UICONTROL Públicos-alvo]**, selecione o público-alvo e verifique o campo **[!UICONTROL Método de avaliação]** — **Streaming**, **Batch** ou **Edge**. Você também pode adicionar a coluna **[!UICONTROL Método de avaliação]** à lista de públicos-alvo nesta atividade. O método de avaliação afeta o tempo de entrada e quais práticas recomendadas se aplicam — consulte [Públicos-alvo em lote](#batch-speed-segment-qualification) e [Públicos-alvo transmitidos](#streamed-speed-segment-qualification).
+
 1. No campo **[!UICONTROL Comportamento]**, escolha se você deseja escutar entradas de público-alvo, saídas ou ambas.
 
    >[!NOTE]
@@ -172,9 +176,7 @@ Consulte a [[!DNL Adobe Experience Platform] documentação de segmentação por
 
 >[!NOTE]
 >
->O tempo de propagação para a associação do segmento de transmissão depende de como a associação é avaliada e onde é usada na jornada:
->
->* **Nó de qualificação de público-alvo + segmento de transmissão:** quando um perfil se qualifica para um segmento de transmissão na Edge, essa associação é projetada do Edge para o Hub antes que a jornada possa agir nela. Esta propagação de Edge para Hub geralmente leva de **15 a 30 minutos**. Se os perfis não estiverem entrando em uma jornada de Qualificação de público-alvo conforme esperado, aguarde essa janela de propagação (adicionando uma atividade de espera, se apropriado) antes de investigar mais detalhadamente. Para casos de uso que exigem entrada em tempo real, considere um acionador de evento unitário.
+>Quando um perfil é qualificado para um segmento de transmissão na Edge, essa associação é projetada do Edge para o Hub antes que a jornada possa agir nela. Esta propagação de Edge para Hub geralmente leva de **15 a 30 minutos**. Se os perfis não estiverem entrando em uma jornada de Qualificação de público-alvo conforme esperado, aguarde essa janela de propagação (adicionando uma atividade de espera, se apropriado) antes de investigar mais detalhadamente. Para casos de uso que exigem entrada em tempo real, considere um acionador de evento unitário.
 
 #### Por que nem todos os perfis qualificados podem entrar na jornada {#streaming-entry-caveats}
 
