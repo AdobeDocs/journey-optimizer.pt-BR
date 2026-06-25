@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: decisão em lote, correspondência direta, decisão
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 0%
@@ -42,7 +42,7 @@ A decisão em lote na correspondência direta aceita dois casos de uso principai
 1. **Adicionar uma política de decisão**:
 
    1. Clique em **[!UICONTROL Editar conteúdo]** para configurar o arquivo de extração.
-   1. Adicione uma coluna ao arquivo de extração e abra o editor de personalização usando o ícone ![](assets/do-no-localize/editor-icon.svg).
+   1. Adicione uma coluna ao arquivo de extração e abra o editor de personalização usando o ícone ![](assets/do-not-localize/editor-icon.svg).
 
       ![](assets/decision-policy-dm-add.png)
 

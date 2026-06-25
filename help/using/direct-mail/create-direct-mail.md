@@ -23,7 +23,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 1266
 ht-degree: 23%
@@ -137,7 +137,7 @@ O arquivo de extração é exigido por provedores de correspondência direta par
 
 1. Na tela de configuração da campanha ou da jornada, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo do arquivo de extração.
 
-1. Para adicionar políticas de decisão à sua mensagem de correspondência direta, selecione uma coluna na seção **[!UICONTROL Campos de Dados]** e abra o editor de personalização usando o ícone ![](../experience-decisioning/assets/do-no-localize/editor-icon.svg). Navegue até o menu **[!UICONTROL Políticas de decisão]** para criar e inserir uma política de decisão. Em seguida, você pode usar atributos de item de decisão como dados de coluna no arquivo de extração.
+1. Para adicionar políticas de decisão à sua mensagem de correspondência direta, selecione uma coluna na seção **[!UICONTROL Campos de Dados]** e abra o editor de personalização usando o ícone ![](../experience-decisioning/assets/do-not-localize/editor-icon.svg). Navegue até o menu **[!UICONTROL Políticas de decisão]** para criar e inserir uma política de decisão. Em seguida, você pode usar atributos de item de decisão como dados de coluna no arquivo de extração.
 
    >[!AVAILABILITY]
    >
