@@ -8,26 +8,15 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
 TQID: https://experienceleague.adobe.com/-aDvt4RUXyf0EnPfFTJkG1CvWgte-1Fr6YaWvgcNNu4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1595
+source-wordcount: 1617
 ht-degree: 7%
 
 ---
@@ -46,7 +35,7 @@ Para pares de termos com sonoridade semelhante que são frequentemente confundid
 
 >[!NOTE]
 >
->O Adobe Journey Optimizer foi criado em **Adobe Experience Platform**. Muitos conceitos fundamentais que você encontrará — como perfis de clientes em tempo real, sandboxes, esquemas e conjuntos de dados — são conceitos do Adobe Experience Platform, não específicos do Journey Optimizer. Para obter as definições desses termos, consulte o [glossário do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=pt-BR){target="_blank"}.
+>O Adobe Journey Optimizer foi criado em **Adobe Experience Platform**. Muitos conceitos fundamentais que você encontrará — como perfis de clientes em tempo real, sandboxes, esquemas e conjuntos de dados — são conceitos do Adobe Experience Platform, não específicos do Journey Optimizer. Para obter as definições desses termos, consulte o [glossário do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
 
 ## Termos de Jornada e campanha {#journey-campaign-terms}
 
@@ -63,7 +52,7 @@ Para pares de termos com sonoridade semelhante que são frequentemente confundid
 |------|------------|
 | **Público-alvo** | Um grupo de clientes que compartilham características ou comportamentos comuns, como &quot;clientes que compraram nos últimos 30 dias&quot; ou &quot;membros de programa de fidelidade&quot;. Os públicos-alvo são usados para direcionar segmentos específicos de clientes. [Saiba mais](../audience/about-audiences.md) |
 | **Qualificação de público-alvo** | O processo automático que ocorre quando um cliente entra ou sai de um público-alvo. O Journey Optimizer pode acionar ações quando alguém entrar ou sair de um público-alvo, garantindo comunicações oportunas e relevantes. [Saiba mais](../building-journeys/audience-qualification-events.md) |
-| **Público-alvo envolvente** | O número de perfis de clientes que você pode contatar ativamente por meio do Adobe Journey Optimizer com base no contrato de licença. Normalmente, refere-se aos perfis envolvidos nos últimos 12 meses. |
+| **Perfis ativáveis** | Os perfis exclusivos do cliente envolvidos por meio de jornadas, campanhas ou atividades de decisão em uma janela contínua de 12 meses. Essa é a principal métrica de licença do Journey Optimizer: cada perfil é contado uma vez por sandbox, independentemente de quantas jornadas ou campanhas ele insere. Monitorar a contagem em **[!UICONTROL Administração]** > **[!UICONTROL Uso da Licença]**. [Saiba mais](../audience/license-usage.md) |
 | **Perfil de Teste** | Perfis fictícios usados para testar e visualizar mensagens antes de enviá-las para clientes reais. Os perfis de teste ajudam a verificar a personalização, o conteúdo e a lógica da jornada. [Saiba mais](../audience/creating-test-profiles.md) |
 
 ## Termos de conteúdo e personalização {#content-terms}
