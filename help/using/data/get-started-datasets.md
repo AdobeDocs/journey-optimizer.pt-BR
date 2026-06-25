@@ -47,7 +47,7 @@ Todos os dados assimilados na Adobe Experience Platform são mantidos no Data La
 
 ## Medidas de proteção e limitações
 
-* A partir de 1º de novembro de 2024, a segmentação por transmissão se tornou incompatível com eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use as Regras de negócio. É possível encontrar mais detalhes [nesta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação de caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+* A partir de 1º de novembro de 2024, a segmentação por transmissão se tornou incompatível com eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use as Regras de negócio. É possível encontrar mais detalhes [nesta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação de caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=pt){target="_blank"}.
 
 * Com início em fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) está sendo implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer. [Saiba mais](datasets-ttl.md)
 
@@ -132,8 +132,8 @@ Antes de ativar, lembre-se do seguinte:
 
 Para obter orientação detalhada, consulte a documentação do Adobe Experience Platform:
 
-* [Planejamento de habilitação do perfil](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — lista de verificação de pré-habilitação que abrange configuração de identidade, seleção de grupo de campos e validação de finalidade de conjunto de dados.
-* [Gerenciamento de esquemas habilitados para perfil](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — orientação sobre como descontinuar esquemas habilitados para perfil, incluindo estratégias de renomeação.
+* [Planejamento de habilitação do perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — lista de verificação de pré-habilitação que abrange configuração de identidade, seleção de grupo de campos e validação de finalidade de conjunto de dados.
+* [Gerenciamento de esquemas habilitados para perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — orientação sobre como descontinuar esquemas habilitados para perfil, incluindo estratégias de renomeação.
 
 ## Governança de dados
 
@@ -157,4 +157,4 @@ Saiba mais sobre Governança de dados e rótulos de uso de dados na [Documentaç
 >* [Documentação de conjuntos de dados](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target="_blank"}
 >* [Documentação de ingestão de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
 >* [Práticas recomendadas dos direitos da licença de gerenciamento de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
->* [Gerenciamento de esquemas habilitados para perfil](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [Gerenciamento de esquemas habilitados para perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
