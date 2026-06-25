@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Canal de notificação por push
-description: Canal de notificação por push
+title: Canal de notificações por push
+description: Canal de notificações por push
 redpen-status: CREATED_||_2025-08-11_20-37-12
 exl-id: 8d82ef2f-91ee-4502-9a01-f66ccbd55fea
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '366'
+workflow-type: ht
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
 
-# Canal de notificação por push{#section-overview}
+# Canal de notificações por push{#section-overview}
 
 As notificações por push no Adobe Journey Optimizer são uma maneira avançada de engajar os usuários de aplicativos móveis, entregando mensagens oportunas e personalizadas diretamente em seus dispositivos, mesmo quando não estiverem usando ativamente seu aplicativo. Independentemente de você estar procurando reengajar usuários inativos, compartilhar atualizações ou impulsionar ações específicas, esse canal permite criar campanhas impactantes personalizadas para seu público-alvo. Nesta seção, você explorará tudo, desde configurar notificações por push e projetar conteúdo atraente até validar e enviar suas mensagens. Ao longo do caminho, você aprenderá a otimizar para diferentes plataformas (iOS e Android), gerenciar opções de participação e aproveitar recursos avançados como notificações silenciosas e modos de entrega rápida para alcance de grande escala. Vamos transformar seu aplicativo em um hub de comunicação dinâmica.
 
@@ -33,12 +33,12 @@ As notificações por push podem ser criadas:
 >Embora o **[!DNL Journey Optimizer]** forneça maneiras de gerenciar a opção de não participação em emails e mensagens SMS, as notificações por push não exigem nenhuma ação da sua parte, pois os destinatários podem cancelar inscrição por meio dos seus próprios dispositivos. Por exemplo, ao baixar ou ao usar seu aplicativo, é possível optar por parar as notificações. Da mesma forma, é possível alterar as configurações de notificação por meio do sistema operacional móvel.
 
 
-## Canal de notificação por push
+## Canal de notificações por push
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar e configurar notificações por push
 
@@ -48,7 +48,7 @@ Guia passo a passo para criar e configurar notificações por push, incluindo o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Criar a notificação por push
 
@@ -58,7 +58,7 @@ Descubra como criar e personalizar notificações por push com mídia, botões, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizar, validar e enviar notificações por push
 
@@ -68,7 +68,7 @@ Saiba como visualizar, validar e enviar notificações por push, garantindo o su
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuração de notificações por push
 

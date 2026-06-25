@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-54-39
 hide: true
 exl-id: 0111453f-c704-40c1-9e74-2320b125ee92
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '143'
+workflow-type: ht
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ O canal de experiência baseada em código do Adobe Journey Optimizer permite qu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Entregar ofertas com o canal de experiência baseada em código
 

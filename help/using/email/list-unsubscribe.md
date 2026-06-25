@@ -10,26 +10,15 @@ level: Experienced
 keywords: definições, email, configuração
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 TQID: https://experienceleague.adobe.com/WyaT1gRFAeGUCWn74PC3qyRpLn3hHMOniVbzifStsxA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1916
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +26,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba como habilitar e configurar o cabeçalho List-Unsubscribe para que os destinatários possam recusar diretamente da caixa de entrada usando um endereço mailto ou uma URL de cancelamento de inscrição com um clique.
+**Nesta página:** saiba como habilitar e configurar o cabeçalho Cancelar assinatura na lista para que os destinatários possam recusar diretamente da caixa de entrada usando um endereço mailto ou um URL de cancelamento de assinatura com um clique.
 
 >[!ENDSHADEBOX]
 
@@ -152,7 +141,7 @@ Para personalizar ainda mais os pontos de acesso <!-- (**[!UICONTROL Mailto (uns
 >
 >Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 >
->Para a opção **[!UICONTROL Mailto (cancelar assinatura)]**, você precisa usar os novos parâmetros de consulta descritos na seção **Mailto (cancelar assinatura) com atributos personalizados (Disponibilidade limitada)**&#x200B;[abaixo](#configure-decrypt-api).
+>Para a opção **[!UICONTROL Mailto (cancelar assinatura)]**, você precisa usar os novos parâmetros de consulta descritos na seção **Mailto (cancelar assinatura) com atributos personalizados (Disponibilidade limitada)**[abaixo](#configure-decrypt-api).
 
 Para definir atributos personalizados de pontos de acesso, use a seção **[!UICONTROL parâmetros de rastreamento de URL]**. Todos os parâmetros de rastreamento de URL definidos na seção correspondente serão anexados ao final dos pontos de acesso personalizados em adição aos parâmetros padrão. [Saiba como definir o rastreamento personalizado de URL](url-tracking.md)
 
@@ -288,7 +277,7 @@ Parâmetros de consulta:
 
    * Valor analisado: *v1.xyz*
 
-Exemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Exemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

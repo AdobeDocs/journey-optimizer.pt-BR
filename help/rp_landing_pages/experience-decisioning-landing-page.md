@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Tomada de decisão
-description: Tomada de decisão
+title: Tomada de decisões
+description: Tomada de decisões
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
 source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
 workflow-type: ht
-source-wordcount: '354'
+source-wordcount: '383'
 ht-degree: 100%
 
 ---
 
-# Tomada de decisão{#section-overview}
+# Tomada de decisões{#section-overview}
 
 O recurso de tomada de decisão do Adobe Journey Optimizer permite que você forneça ofertas de marketing personalizadas, combinando um catálogo centralizado de itens de decisão com um mecanismo de decisão potente. Quer você esteja adaptando o conteúdo para públicos-alvo individuais ou otimizando estratégias com classificações alimentadas por IA, a tomada de decisão fornece as ferramentas certas para tomar decisões orientadas por dados em grande escala. Analise os principais conceitos, como itens de decisão, regras e políticas, e explore como esses elementos funcionam juntos para selecionar e priorizar o melhor conteúdo para as suas campanhas. Do gerenciamento de coleções e posicionamentos até a utilização dos dados da Adobe Experience Platform, este guia abrangente ajuda a acessar uma personalização mais inteligente e a impulsionar experiências do cliente impactantes.
 
@@ -20,7 +20,7 @@ O recurso de tomada de decisão do Adobe Journey Optimizer permite que você for
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao serviço de decisão
 
@@ -30,7 +30,7 @@ Saiba mais sobre os fundamentos da tomada de decisão do Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Medidas de proteção e limitações da tomada de decisão
 
@@ -40,7 +40,7 @@ Entenda as restrições e práticas recomendadas para usar a tomada de decisão 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 Perguntas frequentes
 
@@ -50,7 +50,7 @@ Obtenha respostas para perguntas comuns sobre o serviço de decisão, incluindo 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referência da API: entrega de ofertas
 
@@ -60,7 +60,7 @@ Saiba como entregar ofertas por meio do canal de experiência baseada em código
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gerenciar itens de decisão e catálogos
 
@@ -70,7 +70,7 @@ Configure e gerencie itens de decisão, catálogos e coleções para organizar e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Criar regras de decisão
 
@@ -80,7 +80,7 @@ Defina regras de decisão para direcionar os públicos-alvo com precisão, usand
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Criar classificações com modelos de IA
 

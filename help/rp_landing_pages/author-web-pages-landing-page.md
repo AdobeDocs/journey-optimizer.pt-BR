@@ -6,8 +6,8 @@ description: Criar páginas da web
 redpen-status: CREATED_||_2025-08-11_20-40-34
 exl-id: 6f1ce53e-ab5a-4c77-bbd6-fc049e3dc4f5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '272'
+workflow-type: ht
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Descubra como criar, personalizar e otimizar experiências da web com as ferrame
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Editar um conteúdo com o designer da web
 
@@ -30,7 +30,7 @@ Saiba como usar o designer visual da web do Adobe Journey Optimizer para criar e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Editar o conteúdo da web com o editor não visual
 
@@ -40,7 +40,7 @@ Descubra como usar o editor não visual para modificações na web, incluindo ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gerenciar modificações na web no Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Saiba como gerenciar modificações na web por meio do painel “Modificações�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitorar as suas experiências da web
 
@@ -60,7 +60,7 @@ Entenda como monitorar o engajamento na web, usando relatórios e rastreamento d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Como criar aplicativos de página única no Adobe Journey Optimizer
 

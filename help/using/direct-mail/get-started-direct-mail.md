@@ -10,22 +10,15 @@ level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 TQID: https://experienceleague.adobe.com/Gmtr-7HW70-cg7va8iHfR5xKdYts-ZdDCm6CeQHJ0tg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cb1f1586-9fb4-4de2-8332-02cebb88d42did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 487
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +26,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Entenda como o canal de correspondência direta funciona para que você possa gerar os arquivos de extração que provedores de terceiros usam para enviar mensagens físicas aos seus clientes.
+**Nesta página:** entenda como o canal de correspondência direta funciona para que você possa gerar os arquivos de extração que provedores de terceiros usam para enviar mensagens físicas aos clientes.
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +56,7 @@ As principais etapas para enviar mensagens de correspondência direta são as se
 
 * **[Criar correspondência direta](create-direct-mail.md)**: saiba como criar entregas de correspondência direta e configurar arquivos de extração para canais offline.
 * **[Configurar canal de correspondência direta](direct-mail-configuration.md)**: defina superfícies de correspondência direta e configurações de roteamento de arquivos.
-* **[Decisão em lote na correspondência direta](../experience-decisioning/batch-decisioning-direct-mail.md)** - Use a decisão para personalizar arquivos de extração para correspondência direta ou exportar dados de decisão para sistemas downstream.
+* **[Decisão em lote na correspondência direta](../experience-decisioning/batch-decisioning-direct-mail.md)**: use a decisão para personalizar arquivos de extração para correspondência direta ou exportar dados de decisão para sistemas downstream.
 * **[Testar e enviar correspondência direta](test-send-direct-mail.md)**: saiba como testar, validar e publicar entregas de correspondência direta.
 * **[Tutoriais de correspondência direta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre recursos de correspondência direta e práticas recomendadas.
 
@@ -73,7 +66,7 @@ Saiba como aproveitar o canal de correspondência direta no Adobe Journey Optimi
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3479167?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
 
 +++
 

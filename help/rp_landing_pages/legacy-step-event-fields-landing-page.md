@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Campos de eventos de etapas herdados
-description: Campos de eventos de etapas herdados
+title: Campos de eventos de etapas legados
+description: Campos de eventos de etapas legados
 redpen-status: CREATED_||_2025-08-11_20-53-35
 exl-id: 046a5e06-a827-4194-be1c-e6546a8da747
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '243'
+workflow-type: ht
+source-wordcount: '265'
 ht-degree: 100%
 
 ---
 
-# Campos de eventos de etapas herdados{#section-overview}
+# Campos de eventos de etapas legados{#section-overview}
 
 Os campos de eventos de etapas herdados no Adobe Journey Optimizer são essenciais para monitorar e analisar a progressão e os resultados das jornadas do cliente. Esses campos são agrupados em categorias como identidade, execução de ações, obtenção de dados e propriedades de eventos comuns, cada uma cumprindo um propósito exclusivo na geração de relatórios das jornadas e no processamento de etapas. Quer você esteja monitorando erros de obtenção de dados, entendendo os tempos de execução de ações ou identificando perfis, esses campos fornecem insights avançados para otimizar as experiências do cliente. Ao explorar cada categoria, você descobrirá como elas interagem e se complementam, fornecendo um quadro geral do desempenho e do comportamento da jornada.
 
-## Campos de eventos de etapas herdados
+## Campos de eventos de etapas legados
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Noções básicas dos campos herdados
 
@@ -30,7 +30,7 @@ Saiba mais sobre campos de eventos de etapas herdados no Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Visão geral dos campos da jornada
 
@@ -40,7 +40,7 @@ Descubra os campos no esquema da jornada, seus tipos e como eles ajudam a gerar 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Campos comuns para eventos de etapas da jornada
 
@@ -50,7 +50,7 @@ Encontre campos essenciais compartilhados entre journeyStepEvent e journeyStepPr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Campos de execução de ações
 
@@ -60,7 +60,7 @@ Entenda os campos relacionados à execução de ações em eventos journeyStep, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Campos de obtenção de dados
 
@@ -70,7 +70,7 @@ Saiba mais sobre os campos associados à obtenção de dados durante o processam
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Campos de identidade JourneyStep
 
