@@ -9,12 +9,22 @@ role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
 TQID: https://experienceleague.adobe.com/OJek9bJ53fdDbGpGNpbRR9X-kD9zkQnDRvppsevqO44
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a9f73820-6899-47c2-a597-3fec28ab756a
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2:
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
 source-wordcount: 1243
@@ -166,7 +176,7 @@ A tabela **[!UICONTROL Conflitos e Limite de Jornada]** fornece informações so
 
 A coluna **[!UICONTROL Entradas de Jornada por Conjunto de Regras]** mostra o número de perfis que entraram na jornada. Há três tipos de entradas:
 
-* ****[!UICONTROL Nenhum conflito]****: o perfil entrou na jornada sem nenhum conflito de conjunto de regras. Nenhum conjunto de regras ativo impediu essa entrada, e a entrada de jornada ocorreu independentemente das regras de arbitragem.
+* **&#x200B;**&#x200B;[!UICONTROL Nenhum conflito]&#x200B;**&#x200B;**: o perfil entrou na jornada sem nenhum conflito de conjunto de regras. Nenhum conjunto de regras ativo impediu essa entrada, e a entrada de jornada ocorreu independentemente das regras de arbitragem.
 
 * **Prioridade mais alta**: o perfil entrou na jornada devido à sua maior prioridade do que outras jornadas concorrentes. Mesmo que houvesse um conflito (o perfil se qualificou para várias jornadas), essa jornada foi selecionada devido à sua pontuação de prioridade mais alta.
 
