@@ -27,10 +27,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 894
-ht-degree: 3%
+source-wordcount: 742
+ht-degree: 4%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba como usar o painel de uso de licenças do Adobe Journey Optimizer para monitorar perfis ativáveis e solucionar problemas de aumentos inesperados na sua contagem de perfis.
+**Nesta página:** saiba como navegar no painel de uso de licenças da Adobe Journey Optimizer e solucionar problemas de aumentos inesperados na sua contagem de Perfis Engajáveis.
 
 >[!ENDSHADEBOX]
 
@@ -54,25 +54,7 @@ Para acessar este painel, vá para **[!UICONTROL Administração]** > **[!UICONT
 >
 >* Determinadas métricas (por exemplo, horas de computação, emails) não são exibidas para sandboxes de desenvolvimento, conforme indicado por `N/A` na coluna de cota. Somente valores não nulos são exibidos no painel: quando as métricas são zero ou próximas a zero, elas não são preenchidas.
 
-
-Para [!DNL Adobe Journey Optimizer], o painel permite verificar o número de **Perfis que podem ser ativados**.
-
-## O que é um perfil atraente? {#what-is-engageable-profile}
-
-Um **Perfil Engajável** é um registro de informações que representam um indivíduo armazenado no Serviço de Perfil e envolvido por jornadas ou campanhas.
-
-Principais características dos perfis ativáveis:
-
-* **Janela contínua de 12 meses**: perfis ativáveis são contados com base no envolvimento nos últimos 12 meses. Essa métrica mostra o número de perfis únicos que você tentou utilizar com os recursos de criação, decisão, entrega, experimentação ou orquestração do Journey Optimizer.
-
-* **Contagem exclusiva por sandbox**: se um perfil inserir várias jornadas ou campanhas em uma sandbox, ele será contado apenas uma vez como um único Perfil Acionável para essa sandbox.
-
-* **Com base no Público-alvo endereçável**: os perfis envolventes são calculados a partir do seu Público-alvo endereçável. A contagem representa o público-alvo engajado nos últimos 12 meses usando qualquer um dos recursos do Journey Optimizer, de seu Público-alvo endereçável total.
-
-* **Comportamento da métrica**: a contagem de perfis ativáveis:
-   * Pode aumentar quando novos perfis são envolvidos por meio de jornadas ou campanhas
-   * Não pode diminuir a menos que não haja engajamento com determinados perfis por mais de 12 meses
-   * Pode diminuir quando perfis com pseudônimos são compilados em perfis conhecidos
+Para [!DNL Adobe Journey Optimizer], o painel permite verificar o número de **Perfis envolventes** — perfis exclusivos envolvidos por meio de jornadas, campanhas ou decisões em uma janela contínua de 12 meses. Para obter uma explicação completa de como os Perfis envolventes são definidos e calculados, consulte [Perfis envolventes e uso de licença](get-started-profiles.md#engageable-profiles).
 
 >[!NOTE]
 >

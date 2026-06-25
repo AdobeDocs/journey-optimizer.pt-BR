@@ -32,10 +32,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1653
-ht-degree: 97%
+source-wordcount: 1697
+ht-degree: 95%
 
 ---
 
@@ -190,6 +190,10 @@ Usar campanhas do [!DNL Journey Optimizer] para:
 Antes de trabalhar com campanhas, certifique-se de que possui o seguinte:
 
 * **Públicos-alvo** - Os públicos-alvo devem estar disponíveis na Adobe Experience Platform antes da criação de campanhas. [Introdução aos públicos-alvo →](../audience/about-audiences.md)
+
+  >[!NOTE]
+  >
+  >Cada perfil envolvido por uma campanha conta para a métrica de licença **Perfis envolventes** da sua organização (janela contínua de 12 meses, contada uma vez por sandbox). Ativar uma campanha para um público-alvo grande ou novo pode causar um aumento significativo nessa contagem. [Monitorar a contagem de perfis ativáveis](../audience/license-usage.md)
 
 * **Configurações de canal** - As configurações de canal (predefinições) devem ser criadas e estar disponíveis para os canais que você deseja usar. [Definir configurações de canal →](../configuration/channel-surfaces.md)
 

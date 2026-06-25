@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 21%
+source-wordcount: 811
+ht-degree: 20%
 
 ---
 
@@ -111,6 +111,10 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 
    ➡️ [Saiba como trabalhar com políticas de decisão](create-decision.md)
 ➡️ Para entregar com êxito a oferta por meio do canal de experiência baseado em código, siga as etapas de implementação em [esta seção](../code-based/code-based-implementation-samples.md).
+
+>[!NOTE]
+>
+>Os perfis que recebem uma decisão por meio de uma jornada ou contagem de campanha para a métrica de licença **Perfis envolventes** de sua organização, juntamente com perfis envolvidos por outros recursos da Journey Optimizer. [Monitorar a contagem de perfis ativáveis](../audience/license-usage.md)
 
 ## Processo de decisão {#process}
 

@@ -25,9 +25,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1595
+source-wordcount: 1617
 ht-degree: 7%
 
 ---
@@ -63,7 +63,7 @@ Para pares de termos com sonoridade semelhante que são frequentemente confundid
 |------|------------|
 | **Público-alvo** | Um grupo de clientes que compartilham características ou comportamentos comuns, como &quot;clientes que compraram nos últimos 30 dias&quot; ou &quot;membros de programa de fidelidade&quot;. Os públicos-alvo são usados para direcionar segmentos específicos de clientes. [Saiba mais](../audience/about-audiences.md) |
 | **Qualificação de público-alvo** | O processo automático que ocorre quando um cliente entra ou sai de um público-alvo. O Journey Optimizer pode acionar ações quando alguém entrar ou sair de um público-alvo, garantindo comunicações oportunas e relevantes. [Saiba mais](../building-journeys/audience-qualification-events.md) |
-| **Público-alvo envolvente** | O número de perfis de clientes que você pode contatar ativamente por meio do Adobe Journey Optimizer com base no contrato de licença. Normalmente, refere-se aos perfis envolvidos nos últimos 12 meses. |
+| **Perfis ativáveis** | Os perfis exclusivos do cliente envolvidos por meio de jornadas, campanhas ou atividades de decisão em uma janela contínua de 12 meses. Essa é a principal métrica de licença do Journey Optimizer: cada perfil é contado uma vez por sandbox, independentemente de quantas jornadas ou campanhas ele insere. Monitorar a contagem em **[!UICONTROL Administração]** > **[!UICONTROL Uso da Licença]**. [Saiba mais](../audience/license-usage.md) |
 | **Perfil de Teste** | Perfis fictícios usados para testar e visualizar mensagens antes de enviá-las para clientes reais. Os perfis de teste ajudam a verificar a personalização, o conteúdo e a lógica da jornada. [Saiba mais](../audience/creating-test-profiles.md) |
 
 ## Termos de conteúdo e personalização {#content-terms}

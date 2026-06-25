@@ -25,10 +25,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 651
-ht-degree: 18%
+source-wordcount: 691
+ht-degree: 17%
 
 ---
 
@@ -99,6 +99,10 @@ Os públicos-alvo podem ser gerados usando métodos diferentes:
 ## Públicos-alvo em jornadas e campanhas {#target-audiences}
 
 Quando os públicos-alvo estiverem prontos, você poderá selecioná-los ao criar jornadas ou campanhas, permitindo que você alcance as pessoas certas na hora certa com mensagens relevantes. [Saiba mais sobre a Ativação de público-alvo no Journey Optimizer](target-audiences.md).
+
+>[!NOTE]
+>
+>Os perfis envolvidos por meio de uma ativação de público-alvo — seja em uma atividade de jornada, campanha ou decisão — contam para a métrica de licença **Perfis ativáveis** da sua organização. Cada perfil é contado uma vez por sandbox em uma janela contínua de 12 meses. [Monitorar a contagem de perfis ativáveis](license-usage.md)
 
 ## Vídeo tutorial {#video}
 

@@ -25,10 +25,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
 workflow-type: tm+mt
-source-wordcount: 527
-ht-degree: 36%
+source-wordcount: 778
+ht-degree: 24%
 
 ---
 
@@ -59,6 +59,26 @@ Aproveite o Perfil do cliente em tempo real no [!DNL Adobe Journey Optimizer] pa
 **Envolvimento do cliente** - Use o perfil do cliente em tempo real para fornecer experiências contextuais e personalizadas, como ofertas e mensagens direcionadas. &#x200B;Envolva os clientes em vários canais, incluindo campanhas de marketing, suporte ao cliente e atualizações transacionais. &#x200B;
 
 **Compartilhamento de dados** - Compartilhe perfis de clientes com os principais provedores de armazenamento na nuvem, como Amazon Web Services, Microsoft Azure e Google Cloud. Use perfis compartilhados para emissão de relatórios, arquivamento de dados ou análise mais profunda com ferramentas de business intelligence.
+
+## Perfis ativáveis e uso de licença {#engageable-profiles}
+
+Um **Perfil Engajável** é um registro de informações que representam um indivíduo armazenado no Serviço de Perfil e envolvido por jornadas ou campanhas. É a métrica de licença principal para [!DNL Adobe Journey Optimizer].
+
+Principais características:
+
+* **Janela contínua de 12 meses**: a contagem reflete perfis exclusivos que você tentou ativar nos últimos 12 meses usando os recursos de criação, decisão, entrega, experimentação ou orquestração do Journey Optimizer.
+* **Contado uma vez por sandbox**: um perfil que insere várias jornadas ou campanhas em uma sandbox conta como um único Perfil Acionável para essa sandbox.
+* **Com base em seu Público-alvo endereçável**: perfis envolventes são calculados a partir de seu Público-alvo endereçável. A contagem representa o público-alvo engajado nos últimos 12 meses usando qualquer um dos recursos do Journey Optimizer, de seu Público-alvo endereçável total.
+* **Comportamento da métrica**: a contagem de perfis ativáveis:
+   * Pode aumentar quando novos perfis são envolvidos por meio de jornadas ou campanhas
+   * Não pode diminuir a menos que não haja engajamento com determinados perfis por mais de 12 meses
+   * Pode diminuir quando perfis com pseudônimos são compilados em perfis conhecidos
+
+>[!TIP]
+>
+>Ao direcionar perfis pseudônimos (visitantes não autenticados) com canais de entrada, como experiências na Web, no aplicativo ou experiências baseadas em código, considere definir um Tempo de vida (TTL) para exclusão automática de perfil para gerenciar a contagem de Perfis acionáveis e os custos associados. [Saiba mais sobre as medidas de proteção do canal de entrada](../start/guardrails.md#profile-management-inbound)
+
+Monitore a contagem de Perfis Ativáveis da sua organização a qualquer momento em **[!UICONTROL Administração]** > **[!UICONTROL Uso da Licença]**. Se você observar um pico repentino na contagem, consulte a [seção Solução de problemas](license-usage.md#troubleshooting-engageable-profiles) para obter orientação detalhada. [Saiba mais sobre o painel de Uso da Licença](license-usage.md)
 
 >[!MORELIKETHIS]
 >
