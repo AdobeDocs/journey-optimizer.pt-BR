@@ -9,19 +9,14 @@ keywords: data, funções, expressão, jornada, hora
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 15cd7992e3263d7d2b94cf2efe50850d16e04a5d
 workflow-type: tm+mt
-source-wordcount: 1275
+source-wordcount: 1384
 ht-degree: 7%
 
 ---
@@ -446,6 +441,12 @@ Retorna dateTime.
 
 Retorna dateTime exatamente 2 horas atrás.
 
+`nowWithDelta(1, "months", "Asia/Tokyo")`
+
+Quando avaliado em 31/01/2026, retorna 28/02/2026; quando avaliado em 31/05/2026, retorna 30/06/2026...
+
+`nowWithDelta()` usa aritmética de mês de calendário. Se o mês de destino tiver menos dias que o dia do mês atual, o resultado será normalizado para o último dia válido desse mês. A função não se estende para o mês seguinte.
+
 +++
 
 ## setHours {#setHours}
@@ -611,5 +612,6 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **P: Como faço para obter a diferença de tempo atual de 2 horas no passado?** — Use `nowWithDelta(-2, "hours")`.
 * **P: O que `updateTimeZone` faz de diferente de `setHours`?** — `updateTimeZone` mantém o mesmo instante de tempo, mas o expressa em um fuso horário diferente, enquanto `setHours` altera o componente de hora do valor datetime.
 * **P: O parâmetro de fuso horário em `nowWithDelta` pode ser um campo de perfil?** — Não, a ID do fuso horário deve ser uma constante de cadeia de caracteres; não há suporte para referências de campo.
+* **P: O que acontece quando `nowWithDelta()` é usado com meses e a data atual é uma data de fim de mês?** — A função usa aritmética de mês-calendário e normaliza o resultado para o último dia válido do mês de destino. Por exemplo, adicionar 1 mês a 31 de janeiro retorna 28 de fevereiro (não 3 de março).
 
 +++
