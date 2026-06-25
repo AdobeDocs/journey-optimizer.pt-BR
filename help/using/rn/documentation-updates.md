@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 19a0ad24f524f51e70a6e2ec4eb784af0630a984
+source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
 workflow-type: tm+mt
-source-wordcount: 8915
+source-wordcount: 8952
 ht-degree: 90%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 90%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Junho de 2026 {#june-2026}
+
+* A página **Modo de alta taxa de transferência** foi atualizada para refletir a disponibilidade regional expandida: o recurso agora está disponível em todas as regiões, exceto na Suíça para organizações licenciadas com o complemento de mensagens transacionais de alta taxa de transferência. [Leia mais](../campaigns/api-triggered-high-throughput.md)
 
 * Uma nova seção **Uso de licença e perfis que podem ser engajados** foi adicionada à página **Introdução aos perfis** como a única fonte da verdade para esse conceito, com referências direcionadas adicionadas nas seções de Públicos, Campanhas e Decisão. [Leia mais](../audience/get-started-profiles.md#engageable-profiles)
 
