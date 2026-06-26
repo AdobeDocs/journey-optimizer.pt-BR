@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 96362514733a12fe19bb92cbda9d7b263b796172
+source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
-source-wordcount: 3695
+source-wordcount: 3714
 ht-degree: 84%
 
 ---
@@ -400,6 +400,7 @@ As seguintes melhorias foram adicionadas ao canal de email nesta versão.
 <p>O Journey Optimizer agora inclui validação técnica automatizada diretamente no Designer de email, ajudando a detectar problemas no HTML e no CSS antes do envio.</p>
 <p>As verificações abrangem elementos incompatíveis, como tags <code>&lt;script&gt;</code> e <code>&lt;base&gt;</code>, divs em branco que podem quebrar o layout no Microsoft Outlook, tags HTML meta refresh e limites de tamanho de CSS ou HTML que causam falhas de renderização no Gmail.</p>
 <p>Os resultados são exibidos como erros, avisos ou avisos informativos diretamente no painel de criação, com detalhes contextuais e correções com um clique, quando disponíveis, para que os problemas possam ser resolvidos sem sair do editor.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 <p><img src="assets/do-not-localize/content-check.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../email/content-check.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 18 de junho de 2026</p>
