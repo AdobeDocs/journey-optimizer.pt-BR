@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d7493db6edff53d2b4f52c14d29c5c2c32604f31
+source-git-commit: 96362514733a12fe19bb92cbda9d7b263b796172
 workflow-type: tm+mt
 source-wordcount: 3695
 ht-degree: 84%
@@ -170,7 +170,7 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 
 * **Personalização baseada em loop para dados relacionais** - O editor de personalização agora oferece suporte a um Bloco de loop que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de escrita de expressão. [Leia mais](../orchestrated/add-personalization.md#enrichment-collections)
 
-  Data de disponibilidade: final de junho de 2026
+  Data de disponibilidade: 26 de junho de 2026
 
 +++ Em breve — **As informações abaixo estão sujeitas a alterações.**
 
