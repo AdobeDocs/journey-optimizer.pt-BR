@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
+source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
 workflow-type: tm+mt
-source-wordcount: 8952
-ht-degree: 94%
+source-wordcount: 9055
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 94%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Junho de 2026 {#june-2026}
+
+* Novos **tipos de Jornada: escolha a página correta** que está disponível agora. Ele compara todos os pontos de entrada de jornada — Leia público-alvo, Qualificação de público-alvo, Evento unitário e Evento comercial — com guias de decisão e uma matriz de compatibilidade de recursos para ajudar você a selecionar o tipo certo para seu caso de uso. [Leia mais](../building-journeys/journey-types-selection.md)
+
+* Uma nova página **Jornadas vs. campanhas** está disponível. Ele compara Jornadas, campanhas de ação e campanhas acionadas por API em estilos de execução, modelos de dados e casos de uso, incluindo ativação de canal de entrada para personalização de borda de baixa latência, entrega de entrada em várias superfícies e orientação sobre quando usar campanhas orquestradas (composição de público ad-hoc, dados federados). [Leia mais](../start/journeys-vs-campaigns.md)
 
 * A página **Modo de alta taxa de transferência** foi atualizada para refletir a disponibilidade regional expandida: o recurso agora está disponível em todas as regiões, exceto na Suíça para organizações licenciadas com o complemento de mensagens transacionais de alta taxa de transferência. [Leia mais](../campaigns/api-triggered-high-throughput.md)
 

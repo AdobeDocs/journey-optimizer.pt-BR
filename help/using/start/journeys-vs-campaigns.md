@@ -8,7 +8,6 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: jornada, campanha, comparação, escolher, decisão, fluxo de trabalho, tempo real, lote, orquestração, várias etapas, agendado, acionado por API, orientado por evento
-hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
 product_v2:
@@ -27,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: d4be496be65eef2c9cab727804f762350957223a
 workflow-type: tm+mt
-source-wordcount: 1660
-ht-degree: 4%
+source-wordcount: 2483
+ht-degree: 2%
 
 ---
 
@@ -42,7 +41,7 @@ ht-degree: 4%
 
 >[!ENDSHADEBOX]
 
-O [!DNL Adobe Journey Optimizer] oferece duas formas principais de alcançar e envolver seus clientes: **Jornadas** e **Campanhas**. As jornadas foram projetadas para a orquestração em tempo real e em várias etapas, orientada pelo comportamento do cliente, enquanto as campanhas são mais adequadas para transmissões únicas ou programadas para um público definido. Depois de decidir sobre uma campanha, você pode escolher o tipo de campanha que melhor se adapta ao seu caso de uso.
+O [!DNL Adobe Journey Optimizer] oferece duas formas principais de alcançar e envolver seus clientes: **Jornadas** e **Campanhas**. As jornadas foram projetadas para a orquestração em tempo real e em várias etapas, orientada pelo comportamento do cliente, enquanto as campanhas são mais adequadas para transmissões únicas ou programadas para um público definido — ou para ativações de canais de entrada na borda para personalização de baixa latência. Depois de decidir sobre uma campanha, você pode escolher o tipo de campanha que melhor se adapta ao seu caso de uso.
 
 Este guia ajuda você a escolher entre Jornadas, campanhas de ação e campanhas acionadas por API com base no estilo de execução, nas necessidades de dados e no caso de uso, com uma comparação rápida, uma árvore de decisão e exemplos concretos.
 
@@ -55,12 +54,12 @@ Este guia ajuda você a escolher entre Jornadas, campanhas de ação e campanhas
 | Abordagem | Melhor para | Estilo de execução |
 |----------|----------|-----------------|
 | **Jornadas** | Experiências do cliente em tempo real em várias etapas com lógica condicional | 1 orquestração :1 - cada perfil em seu próprio ritmo |
-| **Campanhas de ação** | Transmissões programadas ou recorrentes para públicos-alvo | Execução em lote - público-alvo processado junto no momento do envio |
+| **Campanhas de ação** | Ativações agendadas ou recorrentes para públicos | Execução em lote - público-alvo processado junto no momento do envio |
 | **Campanhas acionadas por API** | Mensagens transacionais ou orientadas por eventos de sistemas externos | Execução sob demanda - acionada pela chamada à API com carga |
 
 >[!TIP]
 >
->**Princípio básico rápido:** Precisa que cada cliente se mova em seu próprio ritmo com lógica em tempo real? Use **Jornadas**. Enviar uma mensagem para um público-alvo de acordo com o cronograma? Use **Campanhas de ação**. Acionando uma única mensagem de um sistema externo por meio da API? Use **campanhas acionadas por API** — ou uma **jornada de eventos unitária** se precisar de orquestração em várias etapas após o evento enviado por API.
+>**Princípio básico rápido:** Precisa que cada cliente se mova em seu próprio ritmo com lógica em tempo real? Use **Jornadas**. Enviar uma mensagem para um público-alvo de acordo com o cronograma? Use **Campanhas de ação**. Acionando uma única mensagem de um sistema externo por meio da API? Use **campanhas acionadas por API** — ou uma **jornada de eventos unitária** se precisar de orquestração em várias etapas após o evento enviado por API. Precisa de personalização de entrada baseada em borda? Use **Campanhas de ação**.
 
 ## Comparação detalhada {#detailed-comparison}
 
@@ -110,6 +109,11 @@ Siga esta árvore decisória para escolher a abordagem correta. Muitas marcas us
 **Fluxo de trabalho de lote complexo com segmentação avançada, dados de várias entidades ou contagens exatas de pré-envio?**
 → **Use campanhas orquestradas** — consulte [Introdução às campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md) para obter orientação detalhada.
 
+>[!NOTE]
+>
+>* **Composição de público-alvo ad-hoc** — As campanhas orquestradas permitem que você defina seu público-alvo diretamente na tela da campanha usando o construtor de regras integrado, sem precisar criar previamente e avaliar um público-alvo do Adobe Experience Platform. [Saiba como criar sua primeira regra](../orchestrated/build-query.md)
+>* **Dados federados** — Use a Federated Audience Composition para consultar o data warehouse da sua empresa e compilar ou enriquecer públicos sem importar dados confidenciais para o Adobe Experience Platform. [Saiba mais sobre a Composição de Público-Alvo Federado](../audience/federated-audience-composition.md)
+
 ### Etapa 2: validar sua escolha
 
 | Sua necessidade | Método recomendado | Por que |
@@ -157,6 +161,7 @@ Cada cliente tem sua própria linha do tempo de jornada com base em suas ações
 * Execução sem estado - nenhum contexto mantido
 * Agendamento simples ou acionamento de API
 * Ideal para comunicações por transmissão
+* Entrega de várias superfícies de entrada — Adicione até 10 ações de canal de entrada (experiência baseada em código, no aplicativo, cartão de conteúdo, Web) em uma única campanha usando regras de direcionamento para criar variantes de mensagem com base na associação de público-alvo ou atributos de perfil. [Saiba mais](../campaigns/campaign-action.md#multi-action)
 
 **Exemplo de fluxo:**
 
@@ -215,7 +220,7 @@ Todos recebem a mesma mensagem ao mesmo tempo.
 
 >[!NOTE]
 >
->Para obter a disponibilidade do canal de campanhas orquestradas, consulte [Campanhas orquestradas — Canais suportados](../orchestrated/gs-orchestrated-campaigns.md).
+>Para obter a disponibilidade do canal de campanhas orquestradas, consulte [Canais em jornadas e campanhas](../channels/gs-channels.md#channels).
 
 ### Recursos avançados
 
@@ -245,7 +250,7 @@ Todos recebem a mesma mensagem ao mesmo tempo.
 Sim. Muitas organizações usam todas as abordagens para diferentes cenários:
 
 * **Jornadas** para envolvimento comportamental e em tempo real
-* **Campanhas de ação** para comunicações de difusão agendadas
+* **Campanhas de ação** para comunicações agendadas ou ativações de entrada
 * **Campanhas acionadas por API** para mensagens transacionais
 * **Campanhas orquestradas** para campanhas em lote complexas e com muitos dados — consulte [Introdução a campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)
 
@@ -261,7 +266,7 @@ Não, você deve recriar a experiência no formato apropriado. No entanto, você
 
 +++ Qual abordagem é mais fácil de criar?
 
-As campanhas de ação normalmente são as mais simples (mensagem única para o público-alvo), seguidas por campanhas acionadas por API e Jornadas (mais complexas com lógica de várias etapas).
+As campanhas de ação normalmente são as mais simples (ponto de contato único ou envolvimento entregue a um público), seguidas por campanhas acionadas por API e Jornadas (mais complexas com lógica de várias etapas).
 
 +++
 
@@ -296,3 +301,47 @@ Pronto(a) para começar a criar? Explore a documentação detalhada da abordagem
 >* [Comparação de tipos de campanha](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [Perguntas frequentes sobre o Jornada](../building-journeys/journey-faq.md)
 >* [Perguntas frequentes sobre campanhas orquestradas](../orchestrated/orchestrated-campaigns-faq.md)
+
++++ Referência de conhecimento de IA
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+* **TL;DR:** Escolha entre Jornadas, campanhas de Ação e campanhas acionadas por API com base na necessidade ou não de orquestração em tempo real 1:1, entrega em lote agendada ou de entrada ou execução acionada por API sob demanda.
+
+**Intenções:**
+* Entenda as principais diferenças entre Jornadas, campanhas de ação e campanhas acionadas por API
+* Selecione a abordagem certa para um determinado caso de uso de marketing usando o guia de decisão e as tabelas de comparação
+* Entenda quando as campanhas de Ação oferecem suporte a ativações de canal de entrada em relação a difusões de saída
+* Saber quando escalar para campanhas orquestradas (composição ad-hoc, dados federados, várias entidades)
+* Combinar várias abordagens de maneira eficaz em uma estratégia de marketing
+
+**Glossário:**
+* **Jornada**: um fluxo de orquestração em várias etapas e em tempo real no qual cada perfil avança no seu próprio ritmo com base no comportamento e nos eventos. *(específico do produto)*
+* **Campanha de ação**: uma campanha que fornece ativações agendadas ou recorrentes para públicos-alvo — ativações de canal de entrada ou transmissão de saída para a borda para personalização de baixa latência. *(específico do produto)*
+* **Campanha acionada por API**: uma campanha iniciada por um sistema externo por meio de uma chamada de API, fornecendo uma única mensagem sob demanda com personalização orientada por carga. *(específico do produto)*
+* **Campanha orquestrada**: uma campanha em lote do lado do hub que oferece suporte a dados relacionais de várias entidades, composição de público ad hoc e fontes de dados federadas; não coberta pelas tabelas de comparação desta página. *(específico do produto)*
+* **jornada de evento unitária**: uma jornada acionada por uma única ação de perfil em tempo real; use quando for necessária a orquestração de várias etapas após um evento enviado por API. *(específico do produto)*
+* **Ativação de canal de entrada**: fornecendo experiências personalizadas para a borda (experiência baseada em código, no aplicativo, Cartão de Conteúdo, Web) para renderização de baixa latência, com suporte em campanhas de Ação. *(específico do produto)*
+
+**Medidas de Proteção:**
+* Até 10 ações de canal de entrada por campanha de Ação (limite rígido) — aplica-se somente a canais de entrada: experiência baseada em código, no aplicativo, Cartão de conteúdo, Web
+* As campanhas orquestradas são excluídas das tabelas de comparação nesta página para evitar simplificação excessiva; consulte a documentação dedicada das campanhas orquestradas para obter detalhes de arquitetura
+
+**Terminologia:**
+* Nome canônico: Campanhas de ação — variantes: &quot;campanhas programadas&quot;, &quot;campanhas de transmissão&quot;
+* Nome canônico: campanhas acionadas por API — variantes: &quot;campanhas transacionais&quot;, &quot;campanhas orientadas por evento&quot;
+* Não confunda: &quot;Campanhas de ação&quot; (entrega agendada/entrada para públicos-alvo) ≠ &quot;Campanhas acionadas por API&quot; (sob demanda, orientadas por carga, sem público-alvo pré-construído) ≠ &quot;Campanhas orquestradas&quot; (lote do lado do hub com dados relacionais)
+* Não confunda: &quot;jornada de evento unitária&quot; (acionada pela ação em tempo real de um perfil) ≠ &quot;jornada de evento comercial&quot; (acionada por um evento que não é de perfil e que afeta várias pessoas por meio de uma etapa interna Ler público)
+* Sinônimos: &quot;ativação do canal de entrada&quot; = &quot;ação do canal de entrada&quot; (usado alternadamente nesta página para experiências entregues pela borda em campanhas de ação)
+
+**Perguntas frequentes:**
+* **P: Quando devo usar uma Jornada em vez de uma Campanha de ação?** — use Jornadas quando os clientes precisarem se mover em seu próprio ritmo com lógica condicional em tempo real em vários pontos de contato; use campanhas de ação para entrega agendada ou de entrada para um público-alvo predefinido.
+* **P: As campanhas de Ação podem ser entregues aos canais de entrada?** — Sim. As campanhas de ação oferecem suporte à ativação do canal de entrada (experiência baseada em código, no aplicativo, cartão de conteúdo, Web) na borda para personalização de baixa latência, com até 10 ações de entrada por campanha e regras de direcionamento para variantes de mensagens.
+* **P: O que distingue as campanhas Orquestradas das Campanhas de Ação?** — campanhas orquestradas executam execução em lote no hub com dados relacionais de várias entidades, contagens exatas de pré-envio, composição de público-alvo ad-hoc e suporte a dados federados; as campanhas de ação são deliveries de execução única sem estado para públicos da Experience Platform.
+* **P: Quando devo usar uma campanha acionada por API vs. uma jornada de eventos Unitária?** — use uma campanha acionada por API quando um sistema externo precisar acionar uma única mensagem imediatamente com dados de payload; use uma jornada de evento unitária quando a orquestração em várias etapas for necessária após o evento enviado pela API.
+* **P: Posso combinar Jornadas e campanhas na mesma estratégia de marketing?** — Sim. Use Jornadas para envolvimento comportamental em tempo real, campanhas de ação para transmissões agendadas ou ativações de entrada, campanhas acionadas por API para mensagens transacionais e campanhas orquestradas para fluxos de trabalho em lote complexos.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 873097f5 -->

@@ -8,7 +8,6 @@ role: User
 level: Beginner
 keywords: Tipos de jornada, unitário, ler público, qualificação de público, evento comercial, comparação, guia de decisão, escolher, seleção, tempo real, agendado, em lote, acionado por evento
 version: Journey Orchestration
-hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
 product_v2:
@@ -27,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 875fca07f966c9812f40c8dab4ca7dc1bb9160d0
+source-git-commit: 9dd9312bb142f7fe53183ef6b139a38ff39f2e8e
 workflow-type: tm+mt
-source-wordcount: 2299
+source-wordcount: 2274
 ht-degree: 1%
 
 ---
@@ -223,13 +222,12 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * As jornadas Qualificação de público-alvo e Público-alvo de leitura não podem conter uma atividade de salto e não podem ser o destino de uma atividade de salto de outra jornada
 * As jornadas de qualificação de público-alvo exigem um público-alvo avaliado por transmissão. A partir de agosto de 2026, os públicos avaliados em lote não poderão ser usados em um nó de Qualificação de público-alvo — consulte o [guia de migração](aq-batch-audiences-migration.md)
 * As jornadas de qualificação de evento e público-alvo unitários compartilham um limite de taxa de transferência de 5.000 TPS no nível da organização; as jornadas de público-alvo de leitura suportam até 20.000 TPS por sandbox
-* A simulação é compatível com a maioria dos tipos de jornada, mas não com a entrada de evento Comercial; consulte Limitações de simulação para restrições no nível do nó
 * Um perfil já presente em uma jornada não pode inserir novamente a mesma versão dessa jornada, independentemente da configuração de reentrada
 
 **Terminologia:**
 
 * Nome canônico: jornada de evento unitária — variantes: jornada acionada por evento, jornada unitária
-* Nome canônico: Read Audience jornada — variantes: jornada em lote, jornada de acionador de segmento, jornada de segmento de leitura
+* Nome canônico: Read Audience jornada — variantes: jornada em lote
 * Nome canônico: jornada de qualificação de público-alvo — variantes: jornada de eventos de qualificação de público-alvo
 * Nome canônico: jornada de evento comercial — variantes: jornada acionada por evento comercial
 * Não confunda: &quot;Ler jornada de público-alvo&quot; ≠ &quot;jornada de qualificação de público-alvo&quot; — Ler público-alvo processa todos os membros do público-alvo em lote de acordo com a programação; A qualificação de público-alvo responde a alterações individuais de associação em tempo real (públicos-alvo de transmissão somente para entrada imediata)
