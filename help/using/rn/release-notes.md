@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d7493db6edff53d2b4f52c14d29c5c2c32604f31
 workflow-type: tm+mt
-source-wordcount: 3687
+source-wordcount: 3695
 ht-degree: 84%
 
 ---
@@ -168,6 +156,10 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 
 Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nesta versão.
 
+* **Personalização baseada em loop para dados relacionais** - O editor de personalização agora oferece suporte a um Bloco de loop que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de escrita de expressão. [Leia mais](../orchestrated/add-personalization.md#enrichment-collections)
+
+  Data de disponibilidade: final de junho de 2026
+
 +++ Em breve — **As informações abaixo estão sujeitas a alterações.**
 
 <table>
@@ -186,10 +178,6 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 </tr>
 </tbody>
 </table>
-
-* **Personalização baseada em loop para dados relacionais** - O editor de personalização agora oferece suporte a um Bloco de loop que repete coleções relacionais, como pedidos, contas ou reservas, e renderiza um bloco de conteúdo por registro em um único email ou SMS. As coleções são configuradas por meio do seletor de dados usando tokens de personalização, sem a necessidade de escrita de expressão. [Leia mais](../orchestrated/add-personalization.md#enrichment-collections)
-
-  Data de disponibilidade: final de junho de 2026
 
 +++
 
@@ -353,6 +341,25 @@ As seguintes melhorias foram adicionadas ao canal de email nesta versão.
 <table>
 <thead>
 <tr>
+<th><strong>Habilitar redução de tamanho de email</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Journey Optimizer agora inclui uma opção para reduzir o tamanho do HTML do email, removendo espaços em branco, comentários e códigos redundantes desnecessários — sem afetar a forma como o email é renderizado.</p>
+<p>Isso pode melhorar a capacidade de entrega, evitando os limites de tamanho que alguns provedores de email usam para sinalizar ou rejeitar mensagens, e pode reduzir o tempo de carregamento dos destinatários.</p>
+<p><img src="assets/do-not-localize/email-size-optimization.gif"></p>
+<p>Para obter mais informações, consulte a <a href="../email/create-email.md#optimize-html-size">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 26 de junho de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Rich text em campos editáveis para fragmentos</strong><br/></th>
 </tr>
 </thead>
@@ -394,23 +401,6 @@ As seguintes melhorias foram adicionadas ao canal de email nesta versão.
   Data de disponibilidade: 18 de junho de 2026
 
 +++ Em breve — **As informações abaixo estão sujeitas a alterações.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Habilitar redução de tamanho de email</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Journey Optimizer agora inclui uma opção para reduzir o tamanho do HTML do email, removendo espaços em branco, comentários e códigos redundantes desnecessários — sem afetar a forma como o email é renderizado.</p>
-<p>Isso pode melhorar a capacidade de entrega, evitando os limites de tamanho que alguns provedores de email usam para sinalizar ou rejeitar mensagens, e pode reduzir o tempo de carregamento dos destinatários.</p>
-<p>Data de disponibilidade: final de junho de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
