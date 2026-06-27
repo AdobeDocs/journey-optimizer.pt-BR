@@ -40,7 +40,7 @@ Descubra fluxos de trabalho avançados para criação, composição e enriquecim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Ativar públicos-alvo em campanhas e jornadas
 

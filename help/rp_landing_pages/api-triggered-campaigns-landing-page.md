@@ -50,7 +50,7 @@ Saiba como configurar ações, selecionar canais de comunicação, otimizar a en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Editar e personalizar o conteúdo de uma campanha acionada por API
 
@@ -70,7 +70,7 @@ Configure o público-alvo da campanha, selecionando perfis, configurando tipos d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
 
 Agendar uma campanha acionada por API
 

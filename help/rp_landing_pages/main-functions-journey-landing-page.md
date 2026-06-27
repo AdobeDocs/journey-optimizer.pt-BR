@@ -31,7 +31,7 @@ Obtenha uma visão geral das principais funções disponíveis, categorizadas po
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Usar a função inAudience
 
@@ -51,7 +51,7 @@ As funções de agregação principais executam operações como médias, contag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=pt-BR)
 
 Funções de conversão
 
@@ -71,7 +71,7 @@ Saiba como manipular e avaliar valores de data e hora por meio de funções pode
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Funções de lista do Adobe Journey Optimizer
 

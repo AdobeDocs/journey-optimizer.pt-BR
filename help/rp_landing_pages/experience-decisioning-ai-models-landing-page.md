@@ -30,7 +30,7 @@ Saiba mais sobre os tipos, as finalidades e as etapas para criar e usar modelos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Modelos de otimização automática
 
@@ -40,7 +40,7 @@ Entenda como os modelos de otimização automática funcionam, incluindo a amost
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Modelos de otimização personalizada
 

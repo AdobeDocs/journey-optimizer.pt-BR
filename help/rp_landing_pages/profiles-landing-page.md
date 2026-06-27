@@ -30,7 +30,7 @@ Saiba como criar, gerenciar e utilizar perfis no Adobe Journey Optimizer para pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como criar perfis de teste
 

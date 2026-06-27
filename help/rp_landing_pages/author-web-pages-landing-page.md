@@ -30,7 +30,7 @@ Saiba como usar o designer visual da web do Adobe Journey Optimizer para criar e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Editar o conteúdo da web com o editor não visual
 
@@ -40,7 +40,7 @@ Descubra como usar o editor não visual para modificações na web, incluindo ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Gerenciar modificações na web no Adobe Journey Optimizer
 

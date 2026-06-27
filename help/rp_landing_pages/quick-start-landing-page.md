@@ -30,7 +30,7 @@ Saiba mais sobre as principais funções, responsabilidades e dependências nece
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Introdução como profissional de marketing
 
@@ -50,7 +50,7 @@ Instruções detalhadas para que os engenheiros de dados preparem esquemas, conj
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Introdução para administrador do sistema
 

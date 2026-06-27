@@ -35,7 +35,7 @@ Saiba mais sobre os modelos de IA do Adobe Journey Optimizer, seus tipos, funcio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Noções básicas sobre modelos de otimização automática
 
@@ -55,7 +55,7 @@ Saiba como os modelos de otimização personalizada usam dados dos clientes e ap
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como criar modelos de IA
 

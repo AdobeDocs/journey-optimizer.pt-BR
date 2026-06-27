@@ -20,7 +20,7 @@ Os relatórios no Adobe Journey Optimizer visam transformar dados brutos em insi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução aos relatórios
 
@@ -30,7 +30,7 @@ Saiba mais sobre os recursos de relatórios no Adobe Journey Optimizer, incluind
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Relatórios ao vivo
 
