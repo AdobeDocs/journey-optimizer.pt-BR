@@ -30,7 +30,7 @@ Entenda os componentes, os fluxos de trabalho e o fluxo de dados necessários pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configuração do canal de notificações por push
 
@@ -40,7 +40,7 @@ Orientações passo a passo para configurar permissões, integrar aplicativos e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Fluxo de trabalho de início rápido de integração para dispositivos móveis
 

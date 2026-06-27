@@ -20,7 +20,7 @@ Os canais de comunicação do Adobe Journey Optimizer permitem que você se cone
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução aos canais de comunicação
 
@@ -30,7 +30,7 @@ Saiba mais sobre os canais de comunicação de saída e entrada disponíveis no 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
 
 Canal de email
 
@@ -50,7 +50,7 @@ Aprenda a configurar, projetar e personalizar notificações no aplicativo para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
 
 Canal de notificação por push
 
@@ -70,7 +70,7 @@ Entenda como criar, gerenciar e configurar mensagens por SMS, MMS e RCS para fin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=pt-BR)
 
 Campanhas de correspondência direta
 

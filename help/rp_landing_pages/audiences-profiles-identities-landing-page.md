@@ -20,7 +20,7 @@ Públicos-alvo, perfis e identidades no Adobe Journey Optimizer dependem dos rec
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Gerenciamento de público-alvo e personalização
 
@@ -40,7 +40,7 @@ Entenda como usar perfis, atributos computados e perfis de teste para criar visu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=pt-BR)
 
 Introdução a identidades
 

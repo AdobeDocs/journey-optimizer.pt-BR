@@ -45,7 +45,7 @@ Descubra como localizar e interagir com o catálogo de oferta exportado na Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Referência do conjunto de dados de ofertas personalizadas
 
@@ -55,7 +55,7 @@ Explore os campos e o esquema hierárquico do conjunto de dados para ofertas per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Visão geral do conjunto de dados de decisões
 

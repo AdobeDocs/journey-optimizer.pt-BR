@@ -30,7 +30,7 @@ Saiba como gerenciar a privacidade no Adobe Journey Optimizer e na Adobe Experie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Gerenciar solicitações de privacidade
 
@@ -50,7 +50,7 @@ Rastreie e monitore ações executadas em recursos do Adobe Journey Optimizer po
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
 
 Executar operações de ciclo de vida dos dados
 
@@ -70,7 +70,7 @@ Gerencie as preferências e políticas de consentimento dos destinatários para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Políticas de governança de dados
 

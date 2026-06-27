@@ -20,7 +20,7 @@ As páginas de destino no Adobe Journey Optimizer permitem criar páginas da Web
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução às páginas de destino
 
@@ -40,7 +40,7 @@ Orientação passo a passo para criar, configurar, testar e publicar páginas de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Gerenciar páginas de destino
 
@@ -60,7 +60,7 @@ Crie e personalize páginas de destino com modelos, formulários e recursos avan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Criar e gerenciar listas de assinatura
 

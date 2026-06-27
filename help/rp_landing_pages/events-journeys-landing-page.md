@@ -30,7 +30,7 @@ Saiba mais sobre os eventos de jornadas, seus tipos, ciclo de vida e configuraç
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Configurar um evento unitário
 
@@ -50,7 +50,7 @@ Entenda os requisitos e as configurações do esquema de ingestão de eventos e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Integração do Adobe Analytics
 
@@ -60,7 +60,7 @@ Saiba como integrar dados do Adobe Analytics para automatizar jornadas e criar e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Configurar um evento de negócios
 

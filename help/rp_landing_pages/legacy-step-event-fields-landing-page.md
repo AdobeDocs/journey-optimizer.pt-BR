@@ -60,7 +60,7 @@ Entenda os campos relacionados à execução de ações em eventos journeyStep, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Campos de obtenção de dados
 
@@ -70,7 +70,7 @@ Saiba mais sobre os campos associados à obtenção de dados durante o processam
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Campos de identidade JourneyStep
 

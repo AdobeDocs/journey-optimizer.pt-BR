@@ -20,7 +20,7 @@ Os fragmentos de conteúdo reutilizáveis no Adobe Journey Optimizer ajudam a ec
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução aos fragmentos
 
@@ -60,7 +60,7 @@ Saiba como tornar campos específicos editáveis em fragmentos para personaliza�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Gerenciamento de fragmentos de conteúdo
 
