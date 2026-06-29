@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
-source-wordcount: 2278
-ht-degree: 71%
+source-wordcount: 2325
+ht-degree: 70%
 
 ---
 
@@ -98,10 +98,8 @@ O [!DNL Adobe Journey Optimizer] aceita quatro tipos de jornada, cada um projeta
 * **Jornadas de qualificação de público-alvo**: respostas em tempo real a alterações de associação de público-alvo (atualizações do VIP, reengajamento)
 * **Jornadas de evento de negócios**: condições de negócio que afetam vários clientes (alertas de estoque, promoções)
 
-<!--
- waiting for DOCAC-13912 
-➡️ **[Journey types: choose the right one](journey-types-selection.md)** - Detailed comparison, decision guide, and feature compatibility matrix 
--->
+➡️ **[Tipos de Jornada: escolha o correto](journey-types-selection.md)** - Comparação detalhada, guia de decisão e matriz de compatibilidade de recursos
+
 
 ## Criar com o designer de jornadas {#journey-designer}
 
@@ -413,14 +411,12 @@ O [!DNL Adobe Journey Optimizer] oferece três abordagens:
 
 +++
 
-<!--
- Waiting for DOCAC-13912
-+++ Which journey type should I use?
++++ Que tipo de jornada devo usar?
 
-Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+Use o [guia de decisão](journey-types-selection.md#decision-guide) ou a [tabela de comparação](journey-types-selection.md#journey-types-comparison) para escolher entre jornadas Unitárias, de Leitura de Público, de Qualificação de Público e de Eventos Comerciais com base no seu mecanismo de acionador e caso de uso.
 
 +++
--->
+
 
 +++ Posso editar uma jornada em tempo real?
 

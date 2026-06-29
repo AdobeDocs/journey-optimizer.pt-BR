@@ -30,9 +30,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 59de8d63dbddd6151859c50fe5cfc1de1ea7b686
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
-source-wordcount: 2159
+source-wordcount: 2167
 ht-degree: 9%
 
 ---
@@ -86,7 +86,7 @@ O que é necessário configurar antes de criar depende de como a jornada é acio
 
 * **Entrada baseada em eventos** — A jornada é acionada em tempo real quando um indivíduo executa uma ação, como uma compra ou uma inscrição. [Configure um evento](../event/about-events.md) para definir o gatilho e os dados que ele transporta.
 
-**Não tem certeza de qual ponto de entrada usar?** A tabela abaixo mapeia os casos de uso mais comuns para a atividade inicial correta.
+**Não tem certeza de qual ponto de entrada usar?** A tabela abaixo mapeia os casos de uso mais comuns para a atividade inicial correta. Saiba mais na [matriz de seleção de tipo de Jornada](journey-types-selection.md).
 
 | Ponto de entrada | Usar quando... | Os perfis entram |
 |---|---|---|
