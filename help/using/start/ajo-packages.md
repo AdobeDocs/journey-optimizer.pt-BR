@@ -9,9 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: Otimizador de jornada, pacote, licença, campanhas, jornadas, canais, decisão, saída, móvel, web, modular, sms, mms, whatsapp, complementos, select, prime, ultimate, legacy
 hide: true
-source-git-commit: ef26246dd1bcd820bab1f226c3564a600ac5b506
+source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1993'
 ht-degree: 2%
 
 ---
@@ -27,13 +27,11 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer] usa um modelo de empacotamento modular. Comece com a oferta base que corresponde ao caso de uso principal e, em seguida, adicione os canais e recursos avançados necessários.
 
+A disponibilidade do pacote e os recursos incluídos podem variar de acordo com o contrato, os complementos selecionados e a disponibilidade regional. Entre em contato com seu representante da Adobe para obter detalhes específicos sobre sua organização.
+
 >[!TIP]
 >
 >**Não tem certeza de qual modelo você está usando?** Se você comprou o [!DNL Adobe Journey Optimizer] no modelo de empacotamento modular, as ofertas básicas e os complementos descritos nesta página se aplicam a você. Se você vir **Select**, **Prime** ou **Ultimate** referenciados em seu contrato, você está em um modelo de pacote herdado — entre em contato com o representante da Adobe para confirmar seus direitos atuais.
-
->[!NOTE]
->
->A disponibilidade do pacote e os recursos incluídos podem variar de acordo com o contrato, os complementos selecionados e a disponibilidade regional. Entre em contato com seu representante da Adobe para obter detalhes específicos sobre sua organização.
 
 ## Respostas rápidas {#quick-answers}
 
@@ -77,13 +75,13 @@ Há três ofertas básicas disponíveis. Cada uma delas corresponde a uma maneir
 
 | | Journey Optimizer - Campanhas | JOURNEY OPTIMIZER - JORNADA | Journey Optimizer - Campanhas e Jornadas |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| [Orquestração em lotes baseada em público-alvo](../campaigns/get-started-with-campaigns.md) | ✓ | Limitado¹ | ✓ |
+| [Orquestração em lotes baseada em público-alvo](../campaigns/get-started-with-campaigns.md) | ✓ | Limitado<sup>1</sup> | ✓ |
 | [Orquestração orientada por eventos em tempo real](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
 | Mensagens transacionais (email, push, SMS) | ✓ | ✓ | ✓ |
 | [Complementos de canal disponíveis](#channel-addons) | ✓ | ✓ | ✓ |
 | [Complemento de decisão disponível](#decisioning-addon) | ✓ | ✓ | ✓ |
 
-¹ No **Journey Optimizer - Jornada**, a orquestração baseada em público só é suportada em casos de uso do jornada, não como campanhas em lote independentes.
+<sup>1</sup> Em **Journey Optimizer - Jornada**, a orquestração baseada em público só é suportada em casos de uso do jornada, não como campanhas em lote autônomas.
 
 ## Etapa 2 — Adicionar os canais necessários {#channel-addons}
 
