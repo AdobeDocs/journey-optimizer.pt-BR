@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4be496be65eef2c9cab727804f762350957223a
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2483
+source-wordcount: 2545
 ht-degree: 2%
 
 ---
@@ -88,26 +88,22 @@ Siga esta árvore decisória para escolher a abordagem correta. Muitas marcas us
 
 ### Etapa 1: qual é o seu requisito de execução?
 
-**Respostas individuais em tempo real ao comportamento do cliente?**
-→ **Usar o Jornada**
+**Respostas individuais em tempo real ao comportamento do cliente?→** Usar Jornadas **
 * Os perfis precisam se mover em seu próprio ritmo
 * Lógica condicional baseada em comportamento
 * O contexto em tempo real é essencial
 
-**Entrega de mensagem simples para um público-alvo em um horário agendado?**
-→ **Usar campanhas de ação**
+**Entrega de mensagem simples para um público-alvo em um horário agendado?→** Usar campanhas de ação **
 * Todos os perfis recebem mensagens simultaneamente
 * Envios agendados ou recorrentes
 * Não é necessária uma lógica complexa de várias etapas
 
-**Mensagem imediata disparada por um sistema externo?**
-→ **Usar campanhas acionadas por API** (mensagem única) **ou uma jornada de eventos Unitária** (orquestração de várias etapas)
+**Mensagem imediata acionada por um sistema externo?→** Usar campanhas acionadas por API **(mensagem única)** ou uma jornada de eventos Unitária **(orquestração de várias etapas)
 * Acionado sob demanda por meio de chamada de API — as campanhas fornecem uma mensagem; as jornadas unitárias assimilam o evento por meio de [assimilação do Experience Platform](../event/additional-steps-to-send-events-to-journey.md) e executam um fluxo de jornada completo
 * Personalização orientada por carga
 * Escolher campanhas quando nenhuma lógica de várias etapas for necessária
 
-**Fluxo de trabalho de lote complexo com segmentação avançada, dados de várias entidades ou contagens exatas de pré-envio?**
-→ **Use campanhas orquestradas** — consulte [Introdução às campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md) para obter orientação detalhada.
+**Fluxo de trabalho de lote complexo com segmentação avançada, dados de várias entidades ou contagens exatas de pré-envio?→** Use campanhas orquestradas **— consulte [Introdução às campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md) para obter orientação detalhada.
 
 >[!NOTE]
 >
@@ -152,7 +148,7 @@ Customer B: Abandoned cart → Wait 2 hours → Already purchased → End immedi
 
 Cada cliente tem sua própria linha do tempo de jornada com base em suas ações.
 
-[Saiba mais sobre Jornadas](../building-journeys/journey.md)
+[Saiba mais sobre o Jornada](../building-journeys/journey.md) | [Tipos de Jornada: escolha o correto](../building-journeys/journey-types-selection.md)
 
 ### Campanhas: entrega em lote simples ou acionada
 
@@ -292,11 +288,13 @@ Sim. Os públicos-alvo criados em [!DNL Adobe Experience Platform] podem ser usa
 Pronto(a) para começar a criar? Explore a documentação detalhada da abordagem escolhida:
 
 * **[Introdução ao Jornada](../building-journeys/journey.md)** - Tipos de Jornada, designer e fluxo de trabalho
+* **[Tipos de Jornada: escolha o correto](../building-journeys/journey-types-selection.md)** - Evento unitário, ler público, qualificação de público e evento comercial
 * **[Introdução às Campanhas](../campaigns/get-started-with-campaigns.md)** - Campanhas acionadas por ação e API
 * **[Introdução a campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md)** - Fluxos de trabalho de tela de lote com dados de várias entidades (orientação separada)
 
 >[!MORELIKETHIS]
 >
+>* [Tipos de Jornada: escolha o correto](../building-journeys/journey-types-selection.md)
 >* [comparação de tipos de Jornada](../building-journeys/journey.md#journey-types-comparison)
 >* [Comparação de tipos de campanha](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [Perguntas frequentes sobre o Jornada](../building-journeys/journey-faq.md)

@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9dd9312bb142f7fe53183ef6b139a38ff39f2e8e
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2274
+source-wordcount: 2296
 ht-degree: 1%
 
 ---
@@ -180,6 +180,7 @@ Nem todos os recursos estão disponíveis para todos os tipos de jornada. Use es
 
 Agora que você escolheu um tipo de jornada:
 
+* **[Jornadas vs Campanhas](../start/journeys-vs-campaigns.md)** — Não tem certeza se as Jornadas ou Campanhas são a ferramenta certa? Volte primeiro para a decisão de nível superior
 * **[Criar a primeira jornada](journey-gs.md)** — guia passo a passo da entrada à publicação
 * **[Saiba mais sobre o designer do jornada](using-the-journey-designer.md)** — Projete sua tela de jornada
 * **[Entrada de perfil no jornada](entry-management.md)** — Regras de entrada, reentrada e taxa de transferência por tipo

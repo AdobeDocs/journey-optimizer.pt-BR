@@ -33,10 +33,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 804
-ht-degree: 85%
+source-wordcount: 831
+ht-degree: 83%
 
 ---
 
@@ -93,6 +93,8 @@ O Journey Optimizer oferece suporte a uma grande variedade de cenários — desd
 
 Para encontrar o recurso que se encaixa em sua meta, consulte a [visão geral dos casos de uso do Journey Optimizer](ajo-use-case-guide.md). Para exemplos completos e trabalhados, navegue pela [biblioteca de casos de uso do jornada](../building-journeys/jo-use-cases.md).
 
+Não tem certeza se deseja usar Jornadas ou Campanhas para sua meta? Veja [Jornadas vs Campanhas: escolha a abordagem certa](journeys-vs-campaigns.md).
+
 
 ## Disponibilidade e licenciamento {#availability}
 
@@ -123,4 +125,5 @@ O Journey Optimizer está integrado nativamente na Adobe Experience Platform e c
 | Entender como o Journey Optimizer se integra ao Adobe Experience Platform | [Noções básicas sobre o Journey Optimizer](understanding-ajo.md) |
 | Começar na minha função específica | [Funções e responsabilidades](quick-start.md) |
 | Explore casos de uso | [visão geral dos casos de uso do Journey Optimizer](ajo-use-case-guide.md) |
+| Decidir entre Jornadas e campanhas | [Jornadas x campanhas](journeys-vs-campaigns.md) |
 | Consulte a terminologia principal | [Terminologia](terminology.md) |
