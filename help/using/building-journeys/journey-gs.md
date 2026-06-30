@@ -30,7 +30,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 5970d29e1ab6f0abbae0a9ff22d89656f135c3c8
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 9%
@@ -117,13 +117,15 @@ Para criar uma jornada de várias etapas, siga estas etapas:
 
 1. Edite o painel de configuração da jornada para definir o nome da jornada e definir suas propriedades. Saiba como definir as propriedades da sua jornada [nesta página](journey-properties.md).
 
-   >[!TIP]
-   >
-   >**Que tipo de jornada devo escolher?** Se você é novo no Journey Optimizer, comece com uma jornada baseada em público usando uma atividade **[!UICONTROL Ler público-alvo]** — ela não requer configuração de evento anterior e é a maneira mais fácil de se familiarizar com a tela. Para experiências acionadas por eventos em tempo real (por exemplo, reagir a uma compra ou ao envio de um formulário), configure um evento primeiro e use uma entrada baseada em eventos. Pronto para aprofundar? [Descubra todos os tipos de jornadas e suas regras de entrada](entry-management.md#types-of-journeys).
-
    ![Painel de propriedades do Jornada com opções de configuração e definições](assets/jo-properties.png)
 
 Você pode então começar a projetar sua jornada.
+
+>[!TIP]
+>
+>**Que tipo de jornada devo escolher?**
+>
+>Se você é novo no Journey Optimizer, comece com uma jornada baseada em público usando uma atividade **[!UICONTROL Ler público-alvo]** — ela não requer configuração de evento anterior e é a maneira mais fácil de se familiarizar com a tela. Para experiências acionadas por eventos em tempo real (por exemplo, reagir a uma compra ou ao envio de um formulário), configure um evento primeiro e use uma entrada baseada em eventos. Pronto para aprofundar? [Descubra todos os tipos de jornadas e suas regras de entrada](entry-management.md#types-of-journeys).
 
 ## Projetar a jornada {#jo-design}
 
