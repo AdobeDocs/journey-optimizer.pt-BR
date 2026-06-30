@@ -98,7 +98,7 @@ Não tem certeza se deseja usar Jornadas ou Campanhas para sua meta? Veja [Jorna
 
 ## Disponibilidade e licenciamento {#availability}
 
-Esta documentação abrange a versão atual do Journey Optimizer e aplica-se a usuários B2C e B2B Edition, salvo indicação em contrário. Os componentes e recursos disponíveis no ambiente dependem de suas [permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
+Esta documentação abrange a versão atual do Journey Optimizer e aplica-se a usuários B2C e B2B Edition, salvo indicação em contrário. Os componentes e recursos disponíveis no ambiente dependem de suas [permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
 
 As diretrizes e procedimentos gerais de privacidade do [!DNL Adobe CX Enterprise] se aplicam ao [!DNL Journey Optimizer]. [Saiba mais sobre [!DNL Adobe CX Enterprise] privacidade](https://www.adobe.com/br/privacy/experience-cloud.html){target="_blank"}.
 
@@ -116,7 +116,7 @@ O Journey Optimizer está integrado nativamente na Adobe Experience Platform e c
 * [Relatórios em tempo real](../reports/live-report.md): monitore o desempenho da campanha e da jornada em tempo real.
 * [Tutorial de Introdução ao Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}: uma apresentação guiada em vídeo dos principais conceitos do Journey Optimizer.
 * [Visão geral sobre a segurança do Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF): arquitetura de segurança, proteção dos dados e detalhes de conformidade.
-* [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}: termos oficiais de licenciamento e detalhamento dos recursos da edição.
+* [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}: termos oficiais de licenciamento e detalhamento dos recursos da edição.
 
 ## O próximo passo {#where-next}
 
