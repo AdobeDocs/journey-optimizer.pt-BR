@@ -11,26 +11,13 @@ keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, a�
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/7zNDOi2SUTyttgR6I1iOYQb61ejxpqLYznweU8alnPw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5970d29e1ab6f0abbae0a9ff22d89656f135c3c8
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 9%
@@ -90,7 +77,7 @@ O que é necessário configurar antes de criar depende de como a jornada é acio
 
 | Ponto de entrada | Usar quando... | Os perfis entram |
 |---|---|---|
-| **[Ler público-alvo](read-audience.md)** | Você deseja enviar uma mensagem agendada ou recorrente para um conjunto definido de perfis (boletins informativos, promoções, séries de integração). | Todos os perfis de um público-alvo em lote, de uma só vez ou de acordo com um agendamento. [Saiba mais sobre exportações de público-alvo e tempo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/run-and-operate/overview){target="_blank"} |
+| **[Ler público-alvo](read-audience.md)** | Você deseja enviar uma mensagem agendada ou recorrente para um conjunto definido de perfis (boletins informativos, promoções, séries de integração). | Todos os perfis de um público-alvo em lote, de uma só vez ou de acordo com um agendamento. [Saiba mais sobre exportações de público-alvo e tempo](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/overview){target="_blank"} |
 | **[Qualificação de público-alvo](audience-qualification-events.md)** | Você precisa reagir em tempo real quando um perfil entra ou sai de um público-alvo (atualização do nível de fidelidade, sinalizador de risco de churn). | Um perfil por vez, assim que forem qualificados em um público de streaming. |
 | **Evento unitário** | Uma ação de perfil aciona uma resposta imediata (abandono de carrinho, envio de formulário, logon de aplicativo). | Um perfil por vez, em tempo real. |
 | **[Evento comercial](../event/about-creating-business.md)** | Um evento que não seja de perfil afeta várias pessoas de uma só vez (cancelamento de voo, reposição de estoque, alerta de últimas notícias). | Todos os perfis associados ao evento, por meio de uma etapa automática Ler público. |
@@ -117,13 +104,15 @@ Para criar uma jornada de várias etapas, siga estas etapas:
 
 1. Edite o painel de configuração da jornada para definir o nome da jornada e definir suas propriedades. Saiba como definir as propriedades da sua jornada [nesta página](journey-properties.md).
 
-   >[!TIP]
-   >
-   >**Que tipo de jornada devo escolher?** Se você é novo no Journey Optimizer, comece com uma jornada baseada em público usando uma atividade **[!UICONTROL Ler público-alvo]** — ela não requer configuração de evento anterior e é a maneira mais fácil de se familiarizar com a tela. Para experiências acionadas por eventos em tempo real (por exemplo, reagir a uma compra ou ao envio de um formulário), configure um evento primeiro e use uma entrada baseada em eventos. Pronto para aprofundar? [Descubra todos os tipos de jornadas e suas regras de entrada](entry-management.md#types-of-journeys).
-
    ![Painel de propriedades do Jornada com opções de configuração e definições](assets/jo-properties.png)
 
 Você pode então começar a projetar sua jornada.
+
+>[!TIP]
+>
+>**Que tipo de jornada devo escolher?**
+>
+>Se você é novo no Journey Optimizer, comece com uma jornada baseada em público usando uma atividade **[!UICONTROL Ler público-alvo]** — ela não requer configuração de evento anterior e é a maneira mais fácil de se familiarizar com a tela. Para experiências acionadas por eventos em tempo real (por exemplo, reagir a uma compra ou ao envio de um formulário), configure um evento primeiro e use uma entrada baseada em eventos. Pronto para aprofundar? [Descubra todos os tipos de jornadas e suas regras de entrada](entry-management.md#types-of-journeys).
 
 ## Projetar a jornada {#jo-design}
 
