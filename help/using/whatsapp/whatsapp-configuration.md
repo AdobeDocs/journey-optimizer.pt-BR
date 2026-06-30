@@ -26,10 +26,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
+source-git-commit: 04ae3acf841462872a34a84133e9e18249a28ffb
 workflow-type: tm+mt
-source-wordcount: 1358
-ht-degree: 19%
+source-wordcount: 1377
+ht-degree: 20%
 
 ---
 
@@ -208,7 +208,7 @@ Agora que seu Webhook está configurado, você pode criar sua configuração do 
 
    ![](assets/whatsapp-config-3.png){width=80%}
 
-1. Digite o **[!UICONTROL Número de Telefone do Remetente]** &#x200B;que você deseja usar para suas comunicações.
+1. Digite o **[!UICONTROL Número de Telefone do Remetente]** &#x200B;que você deseja usar para suas comunicações. Não inclua um sinal &quot;+&quot; antes do número, pois isso pode impedir que o fluxo de recusa funcione corretamente.
 
 1. Use o **[!UICONTROL Campo de Execução do WhatsApp]** para selecionar entre os atributos do perfil o número de telefone que você deseja usar com prioridade, se vários números estiverem disponíveis no banco de dados. [Saiba mais](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
