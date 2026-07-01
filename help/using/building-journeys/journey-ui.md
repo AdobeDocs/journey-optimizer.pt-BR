@@ -12,10 +12,10 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 2066
-ht-degree: 9%
+source-wordcount: 2122
+ht-degree: 10%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 9%
 
 ## Painel da jornada {#dashboard-jo}
 
-Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]**. Duas guias estão disponíveis: **[!UICONTROL Visão geral]** e **[!UICONTROL Procurar]**.
+Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]**. Três guias dedicadas estão disponíveis: **[!UICONTROL Visão geral]** (painel), **[!UICONTROL Procurar]** (lista e calendário) e **[!UICONTROL Exibição de pastas]** (organizar jornadas em pastas).
 
 ### Visão geral do Jornada
 
@@ -109,6 +109,15 @@ Para navegar no seu calendário do Jornada:
 
    ![lista de campanhas com o painel de informações aberto](assets/journey-calendar-4.png)
 
+### Exibição de pastas {#journeys-folders}
+
+Abra o modo de exibição de pastas do jornada com o ícone **[!UICONTROL Mostrar pastas]** na lista de jornadas ou use a guia **[!UICONTROL Modo de exibição de pastas]**. [Saiba como trabalhar com pastas](../start/search-filter-categorize.md#organize-folders)
+
+![](assets/folders-view-journeys.png)
+
+>[!AVAILABILITY]
+>
+>As pastas para jornadas estão em disponibilidade limitada. Para obter o status da versão atual, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
 
 ## Filtrar suas jornadas {#journey-filter}
 

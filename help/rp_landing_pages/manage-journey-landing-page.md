@@ -5,10 +5,10 @@ title: Gerenciar jornadas
 description: Gerenciar jornadas
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
-source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 93%
 
 ---
 
@@ -24,13 +24,13 @@ O gerenciamento de jornadas no Adobe Journey Optimizer se resume em fornecer as 
 
 Procurar e filtrar jornadas
 
-Saiba como navegar, filtrar e gerenciar jornadas com eficiência, incluindo métricas de painel de jornada, visualizações de calendário e processos de duplicação.
+Saiba como navegar, filtrar, organizar jornadas em pastas e gerenciar jornadas com eficiência, incluindo métricas de painel de jornada, exibições de calendário e processos de duplicação.
 
 [Explorar o gerenciamento de jornada](../using/building-journeys/journey-ui.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Entrada de perfil em jornadas
 
@@ -50,7 +50,7 @@ Descubra como usar identificadores complementares para personalização aprimora
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gerenciamento de fuso horário
 
@@ -60,7 +60,7 @@ Saiba como configurar fusos horários fixos e definidos por perfil para garantir
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Otimização de tempo de envio
 
@@ -70,7 +70,7 @@ Maximize o engajamento para mensagens de email e por push prevendo tempos de env
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Encerrar a jornada
 
