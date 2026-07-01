@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2bd78486d0c81618cd8d0e5875adb2a10173e44d
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 3606
-ht-degree: 83%
+source-wordcount: 3602
+ht-degree: 84%
 
 ---
 
@@ -158,7 +158,7 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
   Data de disponibilidade: 18 de junho de 2026. Esse recurso será gradualmente distribuído a todas as regiões nos próximos dias.
 
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
 * **Datas de início e fim no cabeçalho da jornada**: quando as datas de início e/ou fim são configuradas em uma jornada ativa, elas agora são exibidas no **cabeçalho da jornada** ao lado do emblema de status ativo. O rótulo exibido se adapta com base no fato de cada data ser futura ou já ter passado.
 
@@ -172,7 +172,7 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 
   Data de disponibilidade: 26 de junho de 2026
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
 <table>
 <thead>
@@ -219,7 +219,7 @@ Os recursos e melhorias a seguir foram adicionados ao Decisioning nesta versão.
 
   Data de disponibilidade: 18 de junho de 2026
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
 * **Atributos dinâmicos de item**: os atributos personalizados de item de decisão agora podem ser personalizados no momento da entrega usando dados de perfil, contextuais e de público-alvo. Isso elimina a necessidade de manter ofertas duplicadas para pequenas variações de conteúdo, permitindo que os profissionais de marketing gerenciem menos itens de decisão e mais flexíveis.
 
@@ -253,7 +253,7 @@ Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúd
 </table>
 
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
 <table>
 <thead>
@@ -413,7 +413,7 @@ As seguintes melhorias foram adicionadas ao canal de email nesta versão.
 
   Data de disponibilidade: 18 de junho de 2026
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
 <table>
 <thead>
@@ -463,7 +463,7 @@ Os seguintes recursos e melhorias estão chegando ao gerenciamento de conteúdo 
 </tbody>
 </table>
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
 <table>
 <thead>
@@ -555,11 +555,9 @@ As seguintes melhorias estão chegando às mensagens por dispositivo móvel nest
 
 ### Melhorias de usabilidade {#june-26-usability}
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
+* **Pastas para Jornada** - Agora você pode organizar suas jornadas em **pastas** para melhorar a navegação e o gerenciamento na interface. [Leia mais](../building-journeys/journey-ui.md#journeys-folders)
 
-* **Pastas para Jornadas e Campanhas**: agora é possível organizar jornadas e campanhas em **pastas** para melhorar a navegação e o gerenciamento na interface.
-
-+++
+  Data de disponibilidade: 30 de junho de 2026
 
 <!--
 +++ Coming soon — **Information below is subject to change.**
