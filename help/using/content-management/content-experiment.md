@@ -10,26 +10,15 @@ level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 TQID: https://experienceleague.adobe.com/OL-eyOYlWXYV8Wg4gSHXocfPpqUuwgfw-L8fKrAeTzE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: fdddc1053c86ac91128a9cefd2288c7f7c4ea10b
 workflow-type: tm+mt
-source-wordcount: 2025
+source-wordcount: 2009
 ht-degree: 6%
 
 ---
@@ -122,8 +111,6 @@ Para seu experimento de conteúdo, você pode escolher entre três tipos de expe
 
 1. Ao configurar um experimento usando o canal no aplicativo ou na Web e escolher as **[!UICONTROL métricas de Cliques de entrada]**, **[!UICONTROL Cliques de entrada exclusivos]**, **[!UICONTROL Exibições de página]** ou **[!UICONTROL Métricas de Exibições de página exclusivas]** , o campo **[!UICONTROL Dimensões]** permite que você rastreie e monitore com precisão os cliques e os modos de exibição em páginas específicas.
 
-   ![](assets/content_experiment_20.png)
-
 1. Se você criou uma campanha acionada por API, selecione **[!UICONTROL Experimento A/B]** no menu suspenso **[!UICONTROL Tipo de experimento]**.
 
 1. Clique em **[!UICONTROL Adicionar tratamento]** para criar quantos novos tratamentos forem necessários.
@@ -149,8 +136,6 @@ Para seu experimento de conteúdo, você pode escolher entre três tipos de expe
    ![](assets/content_experiment_12.png)
 
 1. Você pode optar por alocar uma porcentagem precisa para cada **[!UICONTROL Tratamento]** ou simplesmente alternar na barra de alternância **[!UICONTROL Distribuir uniformemente]**.
-
-   ![](assets/content_experiment_13.png)
 
 1. Ative o experimento de dimensionamento automático para implantar automaticamente a variação vencedora do seu experimento. [Saiba mais sobre como dimensionar o vencedor](#scale-winner)
 
@@ -240,7 +225,7 @@ Observe que o experimento Traga seu próprio bandit Multi-armed só está dispon
 
 ## Projetar seus tratamentos {#treatment-experiment}
 
-1. Na janela **[!UICONTROL Editar conteúdo]**, selecione seu tratamento B para alterar o conteúdo.
+1. Na guia **[!UICONTROL Conteúdo]**, selecione seu tratamento B para alterar o conteúdo.
 
    Aqui, optamos por não especificar a oferta na **[!UICONTROL Linha de assunto]**.
 
@@ -250,15 +235,14 @@ Observe que o experimento Traga seu próprio bandit Multi-armed só está dispon
 
    ![](assets/content_experiment_9.png)
 
-1. Após criar seus tratamentos, clique em **[!UICONTROL Mais ações]** para acessar as opções relacionadas a seus tratamentos: **[!UICONTROL Renomear]**, **[!UICONTROL Duplicar]** e **[!UICONTROL Excluir]**.
-
-   ![](assets/content_experiment_7.png)
-
-1. Se necessário, acesse o menu **[!UICONTROL Configurações de experimento]** para alterar a configuração de tratamentos.
+1. Se necessário, na guia **[!UICONTROL Ação]**, acesse o menu **[!UICONTROL Configurações de experimento]** para alterar a configuração de tratamentos.
 
    ![](assets/content_experiment_19.png)
 
-1. Depois que o conteúdo da mensagem for definido, use o método de simulação para controlar a renderização da entrega e verificar as configurações de personalização: clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com dados de entrada de exemplo ou geração automática de IA, ou clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis AEP)]** na lista suspensa para visualizar com perfis de teste. [Saiba mais](../content-management/preview-test.md)
+1. Depois que o conteúdo da mensagem for definido, use qualquer um dos métodos de simulação para controlar a renderização do delivery e verificar as configurações de personalização:
+
+   * Clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com dados de entrada de exemplo ou geração automática de IA.
+   * Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis da AEP)]** na lista suspensa para visualizar com perfis de teste. [Saiba mais](../content-management/preview-test.md)
 
 Depois de configurar sua experimentação, você pode acompanhar o sucesso do delivery com seu relatório. [Saiba mais](../reports/campaign-global-report-cja-experimentation.md)
 
