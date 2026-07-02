@@ -97,13 +97,13 @@ Para tornar partes de um fragmento visual editáveis, siga estas etapas:
 >id="ajo_editable_field_compatibility"
 >title="Fragmento herdado"
 >abstract="Este campo editável está no modo somente texto. Opções completas de formatação (negrito, itálico, hiperlinks, quebras de linha, etc.) não estão disponíveis até que o fragmento seja atualizado para o modo rich-text. Acesse as configurações do corpo do fragmento e clique em <b>Habilitar</b> para desbloquear o rich text nos campos editáveis."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizar campos editáveis em um fragmento"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizar campos editáveis em um fragmento"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="Fragmento herdado"
 >abstract="Os campos editáveis neste fragmento estão no modo somente texto. Opções completas de formatação (negrito, itálico, hiperlinks, quebras de linha, etc.) não estão disponíveis até que o fragmento seja atualizado para o modo rich-text. Para desbloquear este modo, abra o editor de fragmentos e clique em <b>Habilitar</b>."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizar campos editáveis em um fragmento"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizar campos editáveis em um fragmento"
 
 O Rich Text <!--— including bold, italic, line breaks, and hyperlinks —--> agora tem suporte nativo em fragmentos visuais personalizáveis.
 
