@@ -12,7 +12,7 @@ badge: label="Disponibilidade limitada" type="Informative"
 source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_email_content_check"
 >title="Validar seu conteúdo de email"
->abstract="As verificações de conteúdo detectam automaticamente problemas de HTML e CSS no email antes do envio. Eles sinalizam tags não compatíveis, divs vazias e limites de tamanho que podem interromper a renderização no Gmail ou no Microsoft Outlook. Os problemas são exibidos como erros, avisos ou avisos informativos, com detalhes contextuais e correções de um clique, quando disponíveis."
+>abstract="As verificações de conteúdo detectam automaticamente problemas de HTML e CSS no email antes do envio. Eles sinalizam tags incompatíveis, divs em branco e limites de tamanho que podem interromper a renderização no Gmail ou no Microsoft Outlook. Os problemas são exibidos como erros, avisos ou notificações informativas, com detalhes contextuais e correções com um clique, quando disponíveis."
 
 >[!AVAILABILITY]
 >

@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
 workflow-type: tm+mt
 source-wordcount: 1866
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -214,7 +214,7 @@ Dois tipos de alertas podem ocorrer:
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
 >title="Reduzir tamanho do HTML"
->abstract="Ative essa opção para compactar seu HTML de email durante a publicação removendo espaços em branco, recuos e comentários não essenciais desnecessários. Isso ajuda a impedir o recorte de emails em clientes como o Gmail, que trunca mensagens com mais de 100 KB. Observe que, ao trabalhar com emails multilíngues, essa opção é ativada por padrão para todas as localidades."
+>abstract="Ative esta opção para compactar o código HTML do seu email durante a publicação, removendo espaços em branco desnecessários, recuos e comentários não essenciais. Isso ajuda a evitar o corte de emails em clientes como o Gmail, que truncam mensagens com mais de 100 KB. Observe que, ao trabalhar com emails multilíngues, essa opção é ativada por padrão para todas as localidades."
 
 O [!DNL Journey Optimizer] permite compactar a versão do HTML de email durante o processo de publicação removendo espaços em branco, recuos e comentários não essenciais desnecessários. Manter o tamanho pequeno do HTML ajuda a:
 
