@@ -9,7 +9,7 @@ level: Intermediate
 source-git-commit: b519bcd5489c441e7f22cb47783d8b99a58c2442
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 1%
+ht-degree: 27%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_metrics"
 >title="Métricas de uso de SMS"
->abstract="Gerar relatórios de uso de SMS para reconciliar o volume de mensagens com a cobrança do fornecedor. Os relatórios listam contagens terminadas por dispositivo móvel (MT) e originadas por dispositivo móvel (MO) para cada código curto ou número de telefone, agregadas por dia."
+>abstract="Gerar relatórios de uso de SMS para reconciliar o volume de mensagens com o faturamento do fornecedor. Os relatórios listam contagens terminadas por dispositivo móvel (MT) e originadas por dispositivo móvel (MO) para cada código curto ou número de telefone, agregadas por dia."
 
 >[!BEGINSHADEBOX]
 
@@ -43,12 +43,12 @@ Essas etapas exigem a permissão **[!UICONTROL Gerenciar configurações de SMS]
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_report_name"
 >title="Nome do relatório"
->abstract="Insira um rótulo que ajude a reconhecer esse relatório na lista posteriormente, por exemplo, revisão de cobrança de maio de 2026."
+>abstract="Insira um rótulo que ajude a reconhecer esse relatório na lista posteriormente, por exemplo, revisão de faturamento de maio de 2026."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_credential"
 >title="Credenciais de SMS"
->abstract="Selecione a credencial da API Sinch cujo tráfego de envio e recebimento deve aparecer neste relatório. Para adicionar ou atualizar credenciais, vá para **Administração** > **Canais** > **Credenciais da API** e escolha **Fornecedor de SMS** > **Sinch MMS**."
+>abstract="Selecione a credencial da API Sinch cujo tráfego de envio e recebimento deve aparecer neste relatório. Para adicionar ou atualizar credenciais, acesse **Administração** > **Canais** > **Credenciais da API** e escolha **Fornecedor de SMS** > **Sincronizar MMS**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_start_date"
