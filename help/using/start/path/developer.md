@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e5e8545bef077219ff91428c9048c978184b57ec
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
-source-wordcount: 3456
+source-wordcount: 3490
 ht-degree: 54%
 
 ---
@@ -312,6 +312,11 @@ Além das mensagens e do limite, o Journey Optimizer expõe os endpoints REST pa
 | Criar e gerenciar modelos e fragmentos de conteúdo de um pipeline externo | [API de conteúdo](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [Modelos](../../content-management/content-templates.md) · [Fragmentos](../../content-management/fragments.md) |
 | Recuperar e filtrar Campanhas de ação | [API de campanhas](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | Pré-visualizar campanhas e enviar provas de forma programática | [API de simulações](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
+
+>[!NOTE]
+>
+>A API de simulações está disponível para campanhas acionadas por API e de Ação (programadas). Não há suporte para **campanhas orquestradas**: em vez disso, use o fluxo de trabalho de visualização e prova na interface do usuário Campanhas orquestradas.
+
 | Validar conjuntos de dados e acionar a execução de campanha orquestrada | [Validação do conjunto de dados](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [Acionador](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [Habilitar conjuntos de dados](../../orchestrated/manual-schema.md) |
 
 ## Recursos adicionais {#additional-resources}
