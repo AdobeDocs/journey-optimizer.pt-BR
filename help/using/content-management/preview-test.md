@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: ht
-source-wordcount: 606
-ht-degree: 100%
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
+workflow-type: tm+mt
+source-wordcount: 637
+ht-degree: 96%
 
 ---
 
@@ -37,7 +36,7 @@ Depois que o conteúdo for definido, você poderá visualizá-lo antes de enviar
 
 Você também pode enviar entregas de teste das mensagens de email para destinatários ou assinantes específicos para teste e validação e verificar a renderização em clientes populares de desktop, dispositivos móveis e baseados na web. Além disso, você pode avaliar aspectos gerais de qualidade do conteúdo, como legibilidade e eficácia. [Saiba mais sobre validação da qualidade do conteúdo](brands-score.md#validate-quality)
 
-Todas essas ações podem ser realizadas com o botão **[!UICONTROL Simular conteúdo]**, acessível pela tela de edição de conteúdo da mensagem ou pelos designers de email e da web para os canais de email e da web.Clique em **[!UICONTROL Simular conteúdo]** para testar variações de conteúdo com dados de entrada de amostra.Para visualizar com perfis de teste, enviar provas ou verificar a renderização de email, selecione **[!UICONTROL Simular conteúdo (perfis da AEP)]** na lista suspensa.
+Todas essas ações podem ser realizadas com o botão **[!UICONTROL Simular conteúdo]**, acessível pela tela de edição de conteúdo da mensagem ou pelos designers de email e da web para os canais de email e da web. Clique em **[!UICONTROL Simular conteúdo]** para testar variações de conteúdo com dados de entrada de amostra. Para visualizar com perfis de teste, enviar provas ou verificar a renderização de email, selecione **[!UICONTROL Simular conteúdo (perfis da AEP)]** na lista suspensa.
 
 ![](../email/assets/email-preview-button.png)
 
@@ -67,6 +66,8 @@ O Journey Optimizer fornece duas experiências para testar o conteúdo:
 
   ➡️ [Simular variações de conteúdo](../test-approve/simulate-sample-input.md)
 
+Para campanhas acionadas por API e de Ação (agendadas), também é possível enviar provas de forma programática usando a [API de Simulações](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}. Isso não é compatível com campanhas orquestradas.
+
 ## Leitura obrigatória
 
 * **Permissões necessárias** - É necessário ter a permissão **[!DNL Manage Simulate Content]** incluída no perfil de produto do **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager).
@@ -81,4 +82,4 @@ O Journey Optimizer fornece duas experiências para testar o conteúdo:
 
 Saiba como usar perfis de teste para testar a renderização de email nas caixas de entrada, visualizar emails personalizados em relação a perfis de teste e enviar provas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430342?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
