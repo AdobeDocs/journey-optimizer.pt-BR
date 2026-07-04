@@ -30,7 +30,7 @@ Saiba como analisar e otimizar o desempenho da jornada usando métricas, ferrame
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Relatórios de jornada baseados em código
 
@@ -60,7 +60,7 @@ Analise e interprete as métricas principais de campanhas de correspondência di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=pt-BR)
 
 Relatório de jornada de email
 

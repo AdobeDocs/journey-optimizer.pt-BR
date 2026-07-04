@@ -51,7 +51,7 @@ Use a interface de arrastar e soltar para criar jornadas de marketing personaliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como testar a jornada
 

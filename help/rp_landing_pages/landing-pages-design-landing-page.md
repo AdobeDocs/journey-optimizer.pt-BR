@@ -50,7 +50,7 @@ Salve as páginas de destino como modelos e reutilize-os para simplificar o seu 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Usar um JavaScript personalizado em páginas de destino
 

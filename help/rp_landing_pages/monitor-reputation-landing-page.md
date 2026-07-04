@@ -20,7 +20,7 @@ O gerenciamento da integridade das suas campanhas de email começa com o monitor
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Gerenciar a lista de supressão
 

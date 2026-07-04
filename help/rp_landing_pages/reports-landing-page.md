@@ -20,7 +20,7 @@ Os relatórios de jornada personalizados do Adobe Journey Optimizer permitem ras
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Criar e analisar relatórios de jornada
 

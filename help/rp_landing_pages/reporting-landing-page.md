@@ -40,7 +40,7 @@ Explore ferramentas de relatório em tempo real para medir e otimizar jornadas, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Relatórios históricos
 
@@ -50,7 +50,7 @@ Entenda métricas, a integração com o Customer Journey Analytics e ferramentas
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Relatórios de jornada personalizados
 

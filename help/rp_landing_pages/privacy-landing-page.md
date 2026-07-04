@@ -20,7 +20,7 @@ As ferramentas de privacidade do Adobe Journey Optimizer permitem que você gere
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Visão geral do gerenciamento de privacidade
 
@@ -40,7 +40,7 @@ Siga as instruções passo a passo para criar e tratar solicitações de privaci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Logs de auditoria para ações dos usuários
 
@@ -60,7 +60,7 @@ Descubra como gerenciar as tarefas de ciclo de vida dos dados, como atualizar e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Gerenciamento de consentimento
 

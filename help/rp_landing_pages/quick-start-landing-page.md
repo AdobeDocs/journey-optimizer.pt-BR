@@ -20,7 +20,7 @@ O sucesso do Adobe Journey Optimizer depende de uma equipe de especialistas que 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Visão geral de funções e responsabilidades
 
@@ -40,7 +40,7 @@ Orientação passo a passo para profissionais de marketing sobre como criar púb
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Introdução para engenheiro de dados
 
