@@ -30,7 +30,7 @@ Conheça as noções básicas sobre páginas de destino, sua funcionalidade e in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Criar e publicar páginas de destino
 
@@ -50,7 +50,7 @@ Acesse, organize e execute ações como publicar, duplicar e marcar páginas de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Design de conteúdo para páginas de destino
 
@@ -70,7 +70,7 @@ Configure listas de assinaturas para gerenciar perfis de participação e simpli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 Casos de uso de página de destino
 

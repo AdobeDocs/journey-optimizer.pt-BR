@@ -45,7 +45,7 @@ Entenda as restrições operacionais e os limites de desempenho da Gestão de de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Guia da interface da Biblioteca de ofertas
 

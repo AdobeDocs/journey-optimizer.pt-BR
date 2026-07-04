@@ -20,7 +20,7 @@ O recurso de tomada de decisão do Adobe Journey Optimizer permite que você for
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução ao serviço de decisão
 
@@ -30,7 +30,7 @@ Saiba mais sobre os fundamentos da tomada de decisão do Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
 
 Medidas de proteção e limitações da tomada de decisão
 
@@ -40,7 +40,7 @@ Entenda as restrições e práticas recomendadas para usar a tomada de decisão 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=pt-BR)
 
 Perguntas frequentes
 

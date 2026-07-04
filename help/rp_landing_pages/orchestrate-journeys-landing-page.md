@@ -21,7 +21,7 @@ As jornadas no Adobe Journey Optimizer permitem criar jornadas personalizadas e 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução às jornadas do Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Saiba como criar jornadas de clientes em tempo real em várias etapas usando as 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Guia abrangente para criar e gerenciar jornadas
 
@@ -41,7 +41,7 @@ Orientação passo a passo sobre design, teste, publicação e rastreamento de j
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Guia abrangente para gerenciar jornadas
 
@@ -51,7 +51,7 @@ Gerencie as jornadas do cliente com eficiência com ferramentas para filtragem, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Atividades no Adobe Journey Optimizer
 

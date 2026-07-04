@@ -28,7 +28,7 @@ Garanta a entrega perfeita de mensagens, detectando os erros antes que cheguem a
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Saiba como visualizar e testar o conteúdo
 

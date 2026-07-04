@@ -70,7 +70,7 @@ Gerencie ambientes virtuais, funções e fluxos de trabalho efetivamente com san
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução aos conectores de origem
 

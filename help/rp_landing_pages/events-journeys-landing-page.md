@@ -20,7 +20,7 @@ A configuração de eventos no Adobe Journey Optimizer refere-se à configuraç�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Trabalhar com eventos de jornadas
 
@@ -40,7 +40,7 @@ Siga o guia passo a passo para configurar eventos unitários, incluindo a defini
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Esquemas ExperienceEvent
 
@@ -70,7 +70,7 @@ Instruções detalhadas sobre a configuração de eventos de negócios, incluind
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Enviar eventos com as APIs de transmissão
 
