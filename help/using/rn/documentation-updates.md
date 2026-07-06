@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
+source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 9055
-ht-degree: 93%
+source-wordcount: 9109
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 93%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Junho de 2026 {#june-2026}
+
+* A página **Verificar e enviar uma mensagem de correspondência direta** foi atualizada para esclarecer o tempo de exportação de correspondência direta e o comportamento do lote, incluindo o agendamento de exportação UTC fixo de 4 horas, por que vários arquivos podem ser gerados em um único dia, quando o **[!UICONTROL Atualizar perfil]** é executado no jornada e recomendações para cenários de um arquivo por dia. [Leia mais](../direct-mail/test-send-direct-mail.md#dm-export-timing)
 
 * Novos **tipos de Jornada: escolha a página correta** que está disponível agora. Ele compara todos os pontos de entrada de jornada — Leia público-alvo, Qualificação de público-alvo, Evento unitário e Evento comercial — com guias de decisão e uma matriz de compatibilidade de recursos para ajudar você a selecionar o tipo certo para seu caso de uso. [Leia mais](../building-journeys/journey-types-selection.md)
 
