@@ -12,14 +12,40 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
+source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
-source-wordcount: 557
-ht-degree: 0%
+source-wordcount: 709
+ht-degree: 10%
 
 ---
 
 # Configurar o acesso ao repositório do Adobe Experience Manager {#aem-admin-settings}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_content_fragment_configuration"
+>title="&quot;Configuração do Adobe Experience Manager"
+>abstract="Conecte uma sandbox a um repositório do Adobe Experience Manager definindo o acesso somente de autor ou de publicação, domínios personalizados e autenticação para que os profissionais de marketing possam usar fragmentos de conteúdo do Adobe Experience Manager em suas jornadas e campanhas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_configure_instance"
+>title="Configuração de instância"
+>abstract="Selecione o tipo de configuração de instância apropriado para a configuração. </br>Configuração somente para autores: use fragmentos de conteúdo da instância de autor do AEM. A configuração da instância de publicação e as atualizações em tempo real não são compatíveis.</br>Configuração da instância de publicação: definir configurações da instância de publicação. Opcionalmente, ative a opção “Enviar token para a instância de publicação” para fornecer credenciais de serviço para autenticação."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_send_token"
+>title="Enviar token para a instância de publicação"
+>abstract="Quando ativadas, as credenciais de serviço são enviadas para autenticar solicitações para a instância de publicação. Insira um JSON de credencial de serviço válido abaixo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_service_credential"
+>title="Colar credencial de serviço JSON"
+>abstract="Cole a credencial de serviço do Adobe Experience Manager JSON. Ela será formatada e validada automaticamente."
+>additional-url=""
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_custom_domain"
+>title="Domínio personalizado"
+>abstract="Opcional. Forneça um domínio personalizado se &quot;your-publish-instance.adobeaemcloud.com&quot; estiver impedido de buscar conteúdo para sua organização."
 
 >[!BEGINSHADEBOX]
 
