@@ -9,28 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 TQID: https://experienceleague.adobe.com/2XVXr3MjYnD-7o0C2ARXQ8j3sJOFfJfvjfCEZdkV50I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 17%
+source-wordcount: 439
+ht-degree: 18%
 
 ---
 
@@ -58,6 +46,7 @@ Para aproveitar ao máximo os fragmentos:
 
 * **Criar seus próprios fragmentos**: crie fragmentos visuais ou de expressão, do zero ou salvando o conteúdo como fragmento. [Saiba como criar um fragmento](create-fragments.md). Além disso, você pode aproveitar a **API REST de conteúdo** do Journey Optimizer para gerenciar fragmentos de conteúdo. Para obter mais informações, consulte a [documentação das APIs do Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}.
 * **Reutilizar os fragmentos:** Use-os quantas vezes forem necessárias no conteúdo. Consulte [Adicionar fragmentos visuais](../email/use-visual-fragments.md) e [Aproveitar fragmentos de expressão](../personalization/use-expression-fragments.md)
+* **Usar fragmentos dinâmicos:** Resolva qual fragmento inserir em tempo de execução por destinatário, com base em atributos de perfil, pesquisas de conjunto de dados ou dados de contexto. [Saiba como usar fragmentos dinâmicos](dynamic-fragments.md)
 
 
 >[!NOTE]
@@ -94,8 +83,8 @@ Todos os fragmentos criados podem ser acessados no menu esquerdo **[!UICONTROL G
 
 Saiba como gerenciar, criar e usar **fragmentos visuais** no [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3451187/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
 Saiba como gerenciar, criar e usar **fragmentos de expressão** em [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438922/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
