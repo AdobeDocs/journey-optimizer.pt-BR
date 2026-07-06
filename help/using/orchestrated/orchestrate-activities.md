@@ -6,16 +6,13 @@ description: Saiba como criar campanhas orquestradas com o Adobe Journey Optimiz
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tQGWupMvnX9-uFruIQg1dMuXd9PZNxPDYg6RlGdK3hA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 971
-ht-degree: 46%
+source-wordcount: 981
+ht-degree: 45%
 
 ---
 
@@ -33,7 +30,7 @@ Depois que você tiver [criado uma campanha Orquestrada](gs-campaign-creation.md
 
 Nesta etapa da configuração, a tela Orchestrated campaign é exibida com um ícone de início, representando o início da sua campanha Orchestrated. Para adicionar a primeira atividade, clique no botão **+** conectado ao ícone de início.
 
-Uma lista de atividades que podem ser adicionadas à tela de campanha Orquestrada é exibida. As atividades disponíveis dependem da sua posição na tela de campanha Orquestrada. Por exemplo, ao adicionar sua primeira atividade, você pode iniciar a campanha Orquestrada direcionando um público-alvo, dividindo o caminho da campanha Orquestrada ou definindo uma atividade **Wait** para atrasar a execução da campanha Orquestrada. Por outro lado, após uma atividade **Criar público-alvo**, você pode refinar seu público-alvo com atividades de direcionamento, enviar uma entrega para seu público com atividades de canal ou organizar o processo Campanha orquestrada com atividades de controle de fluxo.
+Uma lista de atividades que podem ser adicionadas à tela de campanha Orquestrada é exibida. As atividades disponíveis dependem da sua posição na tela de campanha Orquestrada. Por exemplo, ao adicionar sua primeira atividade, você pode iniciar a campanha Orquestrada definindo um público-alvo (por exemplo, com **Criar público-alvo**, **Ler público-alvo** ou **Carregar arquivo**), dividindo o caminho da campanha Orquestrada ou definindo uma atividade **Aguardar** para atrasar a execução da campanha Orquestrada. Por outro lado, após uma atividade **Criar público-alvo**, você pode refinar seu público-alvo com atividades de direcionamento, enviar uma entrega para seu público com atividades de canal ou organizar o processo Campanha orquestrada com atividades de controle de fluxo.
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 

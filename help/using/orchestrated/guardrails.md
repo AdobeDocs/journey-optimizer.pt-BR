@@ -6,20 +6,13 @@ description: Saiba mais sobre as medidas de proteção e limitações das campan
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 756
+source-wordcount: 763
 ht-degree: 2%
 
 ---
@@ -50,7 +43,7 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * **Atributos por esquema** - O número médio de atributos por esquema não deve exceder 50 colunas para manter a capacidade de gerenciamento e o desempenho.
 
-* **Habilitação de perfis** - Esquemas relacionais não podem ser habilitados para Perfis Adobe Experience Platform. Somente esquemas XDM padrão são suportados para Perfis do Adobe Experience Platform. Esquemas relacionais podem ser ativados para campanhas orquestradas ou campanhas Action. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **Habilitação de perfis** - Esquemas relacionais não podem ser habilitados para Perfis Adobe Experience Platform. Somente esquemas XDM padrão são suportados para Perfis do Adobe Experience Platform. Esquemas relacionais podem ser ativados para campanhas orquestradas ou campanhas Action. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Ingestão de dados {#data-ingestion}
 
@@ -88,13 +81,7 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * **Chaves primárias compostas** - O suporte para chaves primárias compostas com fluxos de carregamento de arquivo não está disponível no momento.
 
-## Limitações de atividades {#activities-limitations}
-
-* **Limite de atividades do canal** - Uma campanha Orquestrada dá suporte a no máximo 10 atividades de canal (Email, SMS, Push ou Correspondência direta). Somente as atividades de canal contam para esse limite. As atividades de direcionamento e controle de fluxo não contam (por exemplo, Criar público, Aguardar, Dividir, Enriquecimento, Reconciliação, Bifurcar, Encerrar ou Teste).
-
-  Se você exceder o limite ao salvar ou publicar, a operação falhará. Para ficar dentro do limite, reduza o número de atividades do canal ou divida a entrega de mensagens em várias campanhas orquestradas.
-
-* **Limite de atividades da tela** - O número de atividades em uma tela de campanha orquestrada é limitado a 500. Esse limite se aplica a todos os tipos de atividade na tela. Ele é separado do limite de atividades do canal aplicado na publicação. Para manutenção e desempenho, mantenha os workflows abaixo de 100 atividades na prática.
+## Públicos-alvo
 
 * **Somente atributos escalares** - Somente atributos escalares têm suporte em definições de público-alvo; mapas e matrizes não são permitidos.
 
@@ -108,9 +95,19 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * **Otimização do público-alvo** - A otimização é altamente recomendada ao trabalhar com definições de público-alvo grandes ou complexas para garantir o desempenho.
 
-* **Os públicos salvos são estáticos** - As atividades salvas de públicos são estáticas; elas refletem os dados disponíveis no momento da execução da campanha.
+* **Públicos salvos**
+
+   * **Os públicos salvos são estáticos** - As atividades salvas de públicos são estáticas; elas refletem os dados disponíveis no momento da execução da campanha.
 
 * **Não anexar a um Público-alvo salvo** - Não há suporte para anexar a uma atividade de Público-alvo salvo. Quaisquer modificações exigem uma substituição completa do público-alvo.
+
+## Limitações de atividades {#activities-limitations}
+
+* **Limite de atividades do canal** - Uma campanha Orquestrada dá suporte a no máximo 10 atividades de canal (Email, SMS, Push ou Correspondência direta). Somente as atividades de canal contam para esse limite. As atividades de direcionamento, gerenciamento de dados e controle de fluxo não contam (por exemplo, Criar público-alvo, Carregar arquivo, Aguardar, Dividir, Enriquecimento, Reconciliação, Bifurcar, Encerrar ou Testar).
+
+  Se você exceder o limite ao salvar ou publicar, a operação falhará. Para ficar dentro do limite, reduza o número de atividades do canal ou divida a entrega de mensagens em várias campanhas orquestradas.
+
+* **Limite de atividades da tela** - O número de atividades em uma tela de campanha orquestrada é limitado a 500. Esse limite se aplica a todos os tipos de atividade na tela. Ele é separado do limite de atividades do canal aplicado na publicação. Para manutenção e desempenho, mantenha os workflows abaixo de 100 atividades na prática.
 
 ## Limitações de canal
 

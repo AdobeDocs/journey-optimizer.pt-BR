@@ -5,17 +5,13 @@ title: Usar a atividade Carregar arquivo
 description: Saiba como usar a atividade Carregar arquivo para direcionar um público-alvo de campanha orquestrada de um arquivo CSV ou TXT sem assimilar o arquivo na Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 1687
+source-wordcount: 1697
 ht-degree: 4%
 
 ---
@@ -35,11 +31,11 @@ ht-degree: 4%
 
 A atividade **[!UICONTROL Carregar arquivo]** é uma atividade de **[!UICONTROL Gerenciamento de dados]**. Use-a para trabalhar com perfis e dados armazenados em um arquivo externo. Ele oferece suporte ao **direcionamento baseado em arquivos** em campanhas orquestradas quando a lista de destinatários vem de um sistema externo (por exemplo, uma exportação de CRM ou um arquivo de parceiro) e você deseja executar uma campanha sem criar um pipeline de assimilação completo do Adobe Experience Platform primeiro.
 
+Durante a configuração do arquivo, você pode definir mapeamentos de coluna, tipos de dados, tratamento NULL e políticas de erro por coluna. As linhas que falharem na validação são rejeitadas e registradas antes da execução da campanha, mantendo o público-alvo limpo sem pré-processamento manual.
+
 >[!AVAILABILITY]
 >
->A atividade **Carregar arquivo** está disponível em **Disponibilidade Limitada** para um conjunto de organizações. Para solicitar acesso, entre em contato com o representante da Adobe. Para ver as fases de disponibilidade, consulte [ciclo de lançamento do Journey Optimizer](../../rn/releases.md).
->
->A atividade não está disponível para uso com o **Healthcare Shield**.
+>A atividade **Carregar arquivo** não está disponível para uso com o **Healthcare Shield**.
 
 ## Permissões {#permissions}
 
