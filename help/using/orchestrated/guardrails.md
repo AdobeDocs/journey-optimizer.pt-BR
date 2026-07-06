@@ -17,9 +17,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 756
+source-wordcount: 763
 ht-degree: 2%
 
 ---
@@ -88,13 +88,7 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * **Chaves primárias compostas** - O suporte para chaves primárias compostas com fluxos de carregamento de arquivo não está disponível no momento.
 
-## Limitações de atividades {#activities-limitations}
-
-* **Limite de atividades do canal** - Uma campanha Orquestrada dá suporte a no máximo 10 atividades de canal (Email, SMS, Push ou Correspondência direta). Somente as atividades de canal contam para esse limite. As atividades de direcionamento e controle de fluxo não contam (por exemplo, Criar público, Aguardar, Dividir, Enriquecimento, Reconciliação, Bifurcar, Encerrar ou Teste).
-
-  Se você exceder o limite ao salvar ou publicar, a operação falhará. Para ficar dentro do limite, reduza o número de atividades do canal ou divida a entrega de mensagens em várias campanhas orquestradas.
-
-* **Limite de atividades da tela** - O número de atividades em uma tela de campanha orquestrada é limitado a 500. Esse limite se aplica a todos os tipos de atividade na tela. Ele é separado do limite de atividades do canal aplicado na publicação. Para manutenção e desempenho, mantenha os workflows abaixo de 100 atividades na prática.
+## Públicos-alvo
 
 * **Somente atributos escalares** - Somente atributos escalares têm suporte em definições de público-alvo; mapas e matrizes não são permitidos.
 
@@ -108,9 +102,19 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * **Otimização do público-alvo** - A otimização é altamente recomendada ao trabalhar com definições de público-alvo grandes ou complexas para garantir o desempenho.
 
-* **Os públicos salvos são estáticos** - As atividades salvas de públicos são estáticas; elas refletem os dados disponíveis no momento da execução da campanha.
+* **Públicos salvos**
+
+   * **Os públicos salvos são estáticos** - As atividades salvas de públicos são estáticas; elas refletem os dados disponíveis no momento da execução da campanha.
 
 * **Não anexar a um Público-alvo salvo** - Não há suporte para anexar a uma atividade de Público-alvo salvo. Quaisquer modificações exigem uma substituição completa do público-alvo.
+
+## Limitações de atividades {#activities-limitations}
+
+* **Limite de atividades do canal** - Uma campanha Orquestrada dá suporte a no máximo 10 atividades de canal (Email, SMS, Push ou Correspondência direta). Somente as atividades de canal contam para esse limite. As atividades de direcionamento, gerenciamento de dados e controle de fluxo não contam (por exemplo, Criar público-alvo, Carregar arquivo, Aguardar, Dividir, Enriquecimento, Reconciliação, Bifurcar, Encerrar ou Testar).
+
+  Se você exceder o limite ao salvar ou publicar, a operação falhará. Para ficar dentro do limite, reduza o número de atividades do canal ou divida a entrega de mensagens em várias campanhas orquestradas.
+
+* **Limite de atividades da tela** - O número de atividades em uma tela de campanha orquestrada é limitado a 500. Esse limite se aplica a todos os tipos de atividade na tela. Ele é separado do limite de atividades do canal aplicado na publicação. Para manutenção e desempenho, mantenha os workflows abaixo de 100 atividades na prática.
 
 ## Limitações de canal
 

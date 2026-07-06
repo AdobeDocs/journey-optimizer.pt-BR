@@ -14,10 +14,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 55%
+source-wordcount: 628
+ht-degree: 47%
 
 ---
 
@@ -29,11 +29,10 @@ ht-degree: 55%
 
 >[!ENDSHADEBOX]
 
-As atividades da campanha orquestrada são agrupadas em três categorias. Dependendo do contexto, as atividades disponíveis podem ser diferentes.
-
-Todas as atividades estão detalhadas nas seções abaixo:
+As atividades de campanha orquestradas são agrupadas em várias categorias. Dependendo do contexto, as atividades disponíveis podem ser diferentes. Todas as atividades estão detalhadas nas seções abaixo:
 
 * [Atividades de direcionamento](#targeting)
+* [Atividades de Gestão de Dados](#data-management)
 * [Atividades do canal](#channel)
 * [Atividades de controle do fluxo](#flow-control)
 
@@ -45,7 +44,7 @@ Todas as atividades estão detalhadas nas seções abaixo:
 
 ## Medidas de proteção e limitações {#activity-guardrails}
 
-* **Limite de atividades do canal** - Uma campanha Orquestrada oferece suporte a no máximo 10 atividades de canal em publicação (Email, SMS, Push ou Correspondência direta). O direcionamento e as atividades de controle de fluxo não contam para esse limite.
+* **Limite de atividades do canal** - Uma campanha Orquestrada oferece suporte a no máximo 10 atividades de canal em publicação (Email, SMS, Push ou Correspondência direta). As atividades de direcionamento, Gestão de dados e controle de fluxo não contam para esse limite.
 
 * **Limite de atividades da tela** - O número de atividades na tela é limitado a 500. Para manutenção e desempenho, mantenha os workflows abaixo de 100 atividades na prática.
 
@@ -66,6 +65,14 @@ As atividades de direcionamento disponíveis são:
 * [Enriquecimento](enrichment.md): definir dados adicionais para processar em sua campanha Orquestrada. Com essa atividade, você pode aproveitar a transição de entrada e configurar a atividade para concluir a transição de saída com dados adicionais.
 * [Reconciliação](reconciliation.md): defina o vínculo entre os dados do Journey Optimizer e os dados de uma tabela de trabalho, como, por exemplo, dados carregados de um arquivo externo.
 * [Divisão](split.md): segmente a população de entrada em vários subconjuntos.
+
+## Atividades de Gestão de Dados {#data-management}
+
+Essas atividades permitem trabalhar com dados armazenados em arquivos externos e disponibilizá-los para atividades de direcionamento, personalização ou downstream na tela.
+
+As atividades disponíveis para o Gerenciamento de dados são:
+
+* [Carregar arquivo](load-file.md) (Disponibilidade limitada): carregue um arquivo CSV ou TXT na tela e use-o para definir o público-alvo da campanha (direcionamento baseado em arquivo) sem assimilar o arquivo no Adobe Experience Platform primeiro. Para solicitar acesso, entre em contato com o representante da Adobe.
 
 ## Atividades do canal {#channel}
 
