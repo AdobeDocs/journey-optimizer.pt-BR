@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
+source-git-commit: b95381a85a9f47ef58fe298097ba208d2ea2b83e
 workflow-type: tm+mt
-source-wordcount: '3383'
-ht-degree: 98%
+source-wordcount: '3413'
+ht-degree: 97%
 
 ---
 
@@ -335,12 +335,14 @@ ht-degree: 98%
    + Canal no aplicativo {#in-app}
       + [Canal no aplicativo](/help/rp_landing_pages/in-app-landing-page.md)
       + [Introdução ao canal “In-app”](using/in-app/get-started-in-app.md)
-      + [Pré-requisitos do canal no aplicativo](using/in-app/inapp-configuration.md)
       + [Criar uma mensagem para o aplicativo móvel](using/in-app/create-in-app.md)
       + [Criar uma mensagem para o aplicativo web](using/in-app/create-in-app-web.md)
       + [Criar seu conteúdo no aplicativo](using/in-app/design-in-app.md)
       + [Verificação e envio da notificação no aplicativo](using/in-app/send-in-app.md)
-   + Canal de notificação por push {#push}
+      + Configurar canal no aplicativo {#configure-inapp}
+         + [Configuração e pré-requisitos do canal no aplicativo](using/in-app/inapp-configuration.md)
+         + [Configurar mensagens no aplicativo da Web no Web SDK](using/in-app/web-in-app-messaging.md)
+   + Canal de notificações por push {#push}
       + [Canal de notificações por push](/help/rp_landing_pages/push-landing-page.md)
       + [Introdução às notificações por push](using/push/get-started-push.md)
       + [Criar uma notificação por push](using/push/create-push.md)
@@ -391,7 +393,10 @@ ht-degree: 98%
          + [Usar o editor não visual](using/web/web-non-visual-editor.md)
          + [Gerenciar modificações](using/web/manage-web-modifications.md)
          + [Monitorar suas campanhas da Web](using/web/monitor-web-experiences.md)
+      + Aplicativos de página única e Web SDK {#web-sdk}
          + [Criar aplicativos de página única](using/web/web-spa.md)
+         + [Implementar aplicativos de página única](using/web/web-spa-implementation.md)
+         + [Journey Optimizer com Experience Platform Web SDK](using/web/web-sdk.md)
    + Experiência baseada em código {#code-based-experience}
       + [Experiência baseada em código](/help/rp_landing_pages/code-based-experience-landing-page.md)
       + [Introdução ao canal baseado em código](using/code-based/get-started-code-based.md)
