@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3b047112c11396b0a7806478100093225ca7dbb3
 workflow-type: tm+mt
-source-wordcount: 3602
-ht-degree: 84%
+source-wordcount: 3295
+ht-degree: 83%
 
 ---
 
@@ -47,6 +35,25 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 >[!NOTE]
 >
 >Os recursos listados nestas notas de versão incluem uma **Data de disponibilidade** indicando quando cada alteração se torna acessível no ambiente. As entradas nos acordeões **Em breve** são esperadas nos próximos dias ou semanas. As informações nessas seções estão sujeitas a alterações.
+
+## Atualizações de julho de 2026 {#july-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>Segmentação baseada em arquivo em campanhas orquestradas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As campanhas orquestradas agora permitem carregar um <strong>arquivo CSV ou TXT</strong> diretamente na tela da campanha como público alvo, sem primeiro assimilar o arquivo na Adobe Experience Platform. Os dados do arquivo são consumidos no tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform. Durante a configuração do arquivo, você pode definir mapeamentos de coluna, tipos de dados, tratamento NULL e políticas de erro por coluna. As linhas que falharem na validação são rejeitadas e registradas antes da execução da campanha, mantendo o público-alvo limpo sem pré-processamento manual. Isso é particularmente adequado para envios ad hoc ou campanhas de lista de parceiros em que a criação de um pipeline de assimilação completo não é prática.</p>
+<p>Para obter mais informações, consulte a <a href="../orchestrated/activities/load-file.md">documentação detalhada</a>.</p>
+<p> Data de disponibilidade: 6 de julho de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Notas de versão de junho de 2026 {#june-26-rn}
 
@@ -172,27 +179,6 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 
   Data de disponibilidade: 26 de junho de 2026
 
-+++ Em breve — **as informações abaixo estão sujeitas a alterações.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Segmentação baseada em arquivo em campanhas orquestradas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>As campanhas orquestradas agora permitem carregar um <strong>arquivo CSV ou TXT</strong> diretamente na tela da campanha como público alvo, sem primeiro assimilar o arquivo na Adobe Experience Platform. Os dados do arquivo são consumidos no tempo de execução e não são mantidos como um conjunto de dados do Adobe Experience Platform. Durante a configuração do arquivo, você pode definir mapeamentos de coluna, tipos de dados, tratamento NULL e políticas de erro por coluna. As linhas que falharem na validação são rejeitadas e registradas antes da execução da campanha, mantendo o público-alvo limpo sem pré-processamento manual. Isso é particularmente adequado para envios ad hoc ou campanhas de lista de parceiros em que a criação de um pipeline de assimilação completo não é prática.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p> Data de disponibilidade: 30 de junho de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
-
 ### Tomada de decisão {#june-26-decisioning}
 
 Os recursos e melhorias a seguir foram adicionados ao Decisioning nesta versão.
@@ -219,14 +205,6 @@ Os recursos e melhorias a seguir foram adicionados ao Decisioning nesta versão.
 
   Data de disponibilidade: 18 de junho de 2026
 
-+++ Em breve — **as informações abaixo estão sujeitas a alterações.**
-
-* **Atributos dinâmicos de item**: os atributos personalizados de item de decisão agora podem ser personalizados no momento da entrega usando dados de perfil, contextuais e de público-alvo. Isso elimina a necessidade de manter ofertas duplicadas para pequenas variações de conteúdo, permitindo que os profissionais de marketing gerenciem menos itens de decisão e mais flexíveis.
-
-  Data de disponibilidade: final de junho de 2026
-
-+++
-
 ### Gerenciamento de conteúdo {#june-26-content}
 
 Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúdo nesta versão.
@@ -252,29 +230,7 @@ Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúd
 </tbody>
 </table>
 
-
 +++ Em breve — **as informações abaixo estão sujeitas a alterações.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Simular variações de conteúdo — experiência atualizada e geração de variantes de IA</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Duas atualizações estão disponíveis para o fluxo de trabalho <strong>Simular conteúdo</strong>:</p>
-<ul>
-<li><strong>Novo caminho padrão</strong> — Clicar em <strong>Simular conteúdo</strong> agora abre a experiência <strong>Simular variações de conteúdo</strong> por padrão. Em uma única tela, é possível adicionar entradas de exemplo manualmente ou a partir de um arquivo CSV/JSON, reutilizar usuários simulados, visualizar a renderização e enviar provas. Para visualizar com perfis de teste da Adobe Experience Platform, enviar provas com dados de perfil de teste ou verificar a renderização da caixa de entrada de email e relatórios de spam, clique em <strong>Simular conteúdo</strong> e selecione <strong>Simular conteúdo (perfis da AEP)</strong> na lista suspensa.</li>
-<li><strong>Variantes de conteúdo geradas por IA</strong> — Na experiência <strong>Simular variações de conteúdo</strong>, clique em <strong>Gerar</strong> para usar a IA e criar variantes de conteúdo automaticamente. O sistema analisa a mensagem, detecta campos de personalização e ramificações condicionais e preenche valores realistas para validar a renderização sem precisar criar cada variante manualmente.</li>
-</ul>
-<p>Para obter mais informações, consulte a <a href="../test-approve/simulate-sample-input.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: final de junho de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -413,27 +369,6 @@ As seguintes melhorias foram adicionadas ao canal de email nesta versão.
 
   Data de disponibilidade: 18 de junho de 2026
 
-+++ Em breve — **as informações abaixo estão sujeitas a alterações.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Módulos no Designer de email</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Designer de email agora inclui uma biblioteca de módulos de layout prontos para uso — como cabeçalhos, cartões de produto, blocos de informações e rodapés — que você pode arrastar e soltar diretamente na tela do email.</p>
-<p>Cada módulo vem pré-configurado com propriedades editáveis (imagem, título, texto, botão, links) e pode ser totalmente personalizado por meio da interface WYSIWYG, acelerando a criação de emails sem exigir a construção de estruturas do zero.</p>
-<p>Data de disponibilidade: final de junho de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
-
 ### Conteúdo e integrações {#june-26-integration}
 
 Os seguintes recursos e melhorias estão chegando ao gerenciamento de conteúdo e às integrações nesta versão.
@@ -547,7 +482,7 @@ As seguintes melhorias estão chegando às mensagens por dispositivo móvel nest
 
 * **Relatório de Cliques Estimados para SMS** - Uma nova métrica de Cliques Estimados agora está disponível em Jornadas, Campanhas e Relatórios de canal para email e SMS. Essa métrica exclui o tráfego identificado de bots e de interação não humana (NHI) para fornecer uma visão mais clara do engajamento genuíno do cliente. A métrica Cliques existente permanece disponível e continua a relatar o total de cliques.
 
-+++ Em breve — **As informações abaixo estão sujeitas a alterações.**
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
 * **Canal LINE - alterações de criação**: a interface do canal LINE foi atualizada com recursos avançados de criação de mensagens. Esta versão apresenta suporte para **vários formatos de mensagem**, incluindo Texto, Imagem, Imagemap, Carrossel e Flex (Editor JSON), além de visualizações de dispositivo em tempo real. Os usuários agora podem gerenciar mensagens agrupadas com até cinco mensagens ordenadas (com controles para adicionar, remover e reordenar) e aproveitar o editor de personalização integrado para criar mensagens dinâmicas e validadas.
 
