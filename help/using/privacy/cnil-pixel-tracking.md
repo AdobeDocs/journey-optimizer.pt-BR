@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, rastreamento, pixel, email, consentimento, recusa, privacidade
-source-git-commit: 24d6a17d57ede317d3f04add2fd01bd3ff0ab9af
+source-git-commit: 66b0ca498ae2b39575ed57118739234d1f54c887
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 2%
+source-wordcount: '1466'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 Em 14 de abril de 2026, a *Commission Nationale de l&#39;Informatique et des Libertés* (CNIL), autoridade de proteção de dados da França, publicou uma [recomendação sobre o uso de pixels de rastreamento em emails](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). As orientações esclarecem quando o consentimento é necessário e destacam a importância de práticas de consentimento adequadas para o rastreamento de pixels de email. Essa política pode afetar as práticas de envio para qualquer entidade que entregue emails a assinantes com sede na França.
 
-A CNIL forneceu um período de três meses a partir da data da recomendação para que as empresas informassem seus destinatários de email (&quot;usuários&quot;) sobre a presença dos pixels de rastreamento, sua finalidade e o direito dos usuários de recusarem. Durante esse período de transição, espera-se que os clientes notifiquem os usuários sobre o rastreamento de pixels e forneçam uma opção de não participação, se necessário. A CNIL deve iniciar as atividades de fiscalização após 14 de julho de 2026.
+A CNIL forneceu um período de três meses a partir da data da recomendação para que as empresas informassem seus destinatários de email (&quot;usuários&quot;) sobre a presença dos pixels de rastreamento, sua finalidade e o direito dos usuários de recusarem. Durante esse período de transição, espera-se que os clientes notifiquem os usuários sobre o rastreamento de pixels e forneçam uma opção de não participação, se necessário. A **CNIL deve iniciar as atividades de imposição após 14 de julho de 2026.**
 
 À medida que a CNIL e outros reguladores esclarecem orientações sobre rastreamento de pixels e problemas relacionados, a Adobe continuará a monitorar atualizações e informar os clientes sobre os recursos técnicos dos produtos da Adobe que oferecem suporte ao marketing por email, incluindo o Adobe Journey Optimizer.
 
@@ -57,7 +57,7 @@ No Adobe Journey Optimizer, cada configuração de canal de email é classificad
 * **Emails de marketing**: comunicações promocionais enviadas aos assinantes aceitos. O consentimento do usuário é necessário. Esses emails respeitam as preferências de supressão e recusa automaticamente.
 * **Emails transacionais**: comunicações não comerciais (por exemplo, confirmações de pedidos, redefinições de senha). Eles podem ser enviados para perfis que cancelaram a assinatura de comunicações de marketing, sujeito à legislação aplicável.
 
-O tipo de email é definido no nível de configuração do canal. Ao criar um email em uma jornada ou campanha, os autores devem selecionar uma configuração de canal cujo tipo de email corresponda à natureza da comunicação. Essa classificação informa quais verificações de consentimento são aplicadas antes do delivery.
+O tipo de email está definido no nível de [configuração de canal](../email/email-settings.md#email-type). Ao criar um email em uma jornada ou campanha, os autores devem selecionar uma configuração de canal cujo tipo de email corresponda à natureza da comunicação. Essa classificação informa quais verificações de consentimento são aplicadas antes do delivery.
 
 ### Abrir controles de rastreamento {#open-tracking}
 
@@ -77,7 +77,7 @@ Clarify whether unchecking "Email opens" fully removes the 1x1 tracking pixel fr
 
 ### Gerenciamento de rastreamento de nível de link {#link-tracking}
 
-Além da opção de rastreamento aberto por mensagem, o Designer de email da Adobe Journey Optimizer fornece controle granular sobre quais URLs são rastreados. Usando o painel Vínculos no Designer de email, os autores podem visualizar todos os URLs rastreados em uma mensagem e definir o modo de rastreamento para cada link individualmente.
+Além da opção de rastreamento aberto por mensagem, o Designer de email da Adobe Journey Optimizer fornece controle granular sobre quais URLs são rastreados. Usando o painel **[!UICONTROL Links]** no Designer de email, os autores podem exibir todas as URLs rastreadas em uma mensagem e definir o modo de rastreamento para cada link individualmente.
 
 Os modos de rastreamento disponíveis para cada link incluem:
 
@@ -88,9 +88,11 @@ Os modos de rastreamento disponíveis para cada link incluem:
 
 Definir links específicos para **Nunca** pode ajudar a garantir que determinadas URLs não sejam rastreadas mesmo quando o rastreamento em nível de mensagem estiver habilitado.
 
+[Saiba como gerenciar o rastreamento no Designer de email](../email/message-tracking.md#manage-tracking)
+
 ### Captura e gerenciamento de consentimento {#consent-management}
 
-O Adobe Journey Optimizer lida com o consentimento por meio do esquema de Consentimento e preferências do Adobe Experience Platform (AEP). As preferências de consentimento são armazenadas no nível do perfil e aplicadas automaticamente durante a execução da jornada e da campanha.
+O Adobe Journey Optimizer lida com o consentimento por meio do [esquema de Consentimento e Preferências](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target="_blank"} do Adobe Experience Platform (AEP). As preferências de consentimento são armazenadas no nível do perfil e aplicadas automaticamente durante a execução da jornada e da campanha.
 
 Os principais atributos de consentimento relevantes para o rastreamento de email incluem:
 
@@ -104,6 +106,8 @@ O Adobe Journey Optimizer oferece vários mecanismos para que os assinantes opte
 
 Quando a opção **[!UICONTROL Habilitar List-Unsubscribe]** está ativada na configuração do canal de email, uma URL de cancelamento de inscrição com um clique e o endereço mailto são adicionados automaticamente ao cabeçalho do email. Os recipients podem recusar diretamente do cliente de email sem clicar no corpo do email. Essa opção é ativada por padrão para novas configurações de canal.
 
+[Saiba como configurar o List-Unsubscribe](../email/list-unsubscribe.md)
+
 **Recusa em um clique (corpo do email)**
 
 Os autores podem inserir um link para opção de não participação com um clique diretamente no conteúdo do email usando o Designer de email. Quando um recipient clica nesse link, sua preferência é atualizada imediatamente. O escopo da recusa pode ser:
@@ -111,11 +115,15 @@ Os autores podem inserir um link para opção de não participação com um cliq
 * **Nível de canal**: exclui o perfil de todas as futuras comunicações por email no canal.
 * **Nível de identidade**: recusa o endereço de email específico usado somente na mensagem atual.
 
-**Central de preferências por meio das páginas de aterrissagem do AJO**
+[Saiba como adicionar um link para opção de não participação com um clique](../email/email-opt-out.md#one-click-opt-out)
+
+**Central de preferências por meio de páginas de aterrissagem**
 
 O recurso de página de aterrissagem nativa da Adobe Journey Optimizer permite que as organizações criem centros de preferências onde os assinantes podem gerenciar suas preferências de comunicação e rastreamento. Quando um assinante envia um formulário de centro de preferências, suas escolhas são gravadas de volta em seus atributos de perfil do AEP no grupo de campos Consentimento e Preferências.
 
 Para cenários de conformidade com a CNIL, uma landing page do centro de preferências pode ser vinculada ao rodapé do email (distinta do link de cancelamento de inscrição) para que os recipients possam gerenciar suas preferências de rastreamento independentemente do status da assinatura.
+
+[Saiba como gerenciar as preferências dos clientes](../action/preference-center.md)
 
 ### Processamento e aplicação do consentimento {#consent-enforcement}
 
@@ -125,6 +133,8 @@ Quando um recipient recusa por meio de qualquer um dos mecanismos acima, ocorre 
 * O perfil é imediatamente excluído dos envios futuros de email de marketing em jornadas e campanhas.
 * As informações de recusa são armazenadas no Conjunto de dados do Serviço de consentimento da AEP.
 * O Journey Optimizer executa uma verificação de consentimento no nível do canal antes de cada envio, garantindo que os perfis de recusa não recebam comunicações de marketing.
+
+[Saiba mais sobre o gerenciamento de recusa](opt-out.md)
 
 ### Políticas de consentimento {#consent-policies}
 
@@ -138,6 +148,8 @@ O Adobe Journey Optimizer gerencia automaticamente uma lista de supressão que i
 
 A API REST de supressão do Journey Optimizer fornece controle programático adicional sobre mensagens de saída, permitindo que as organizações gerenciem a supressão e incluam na lista de permissões o comportamento por meio da API.
 
+[Saiba como gerenciar a lista de supressão](../configuration/manage-suppression-list.md)
+
 <!--
 EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
 AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys. Confirm with Engineering: (1) whether this guidance should be included in this article, and (2) whether any native AJO improvements are planned in this area.
@@ -145,19 +157,5 @@ AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re
 
 ### Relatório {#reporting}
 
-Os relatórios de email do Adobe Journey Optimizer fornecem métricas de abertura e clique por meio de Relatórios ao vivo e Relatórios do Customer Journey Analytics. Quando o rastreamento de **[!UICONTROL Aberturas de email]** é desabilitado para uma mensagem, os dados abertos não são coletados para essa entrega; os relatórios refletirão apenas cliques e outros sinais de envolvimento.
+O relatório de email do Adobe Journey Optimizer fornece métricas de abertura e clique por meio de [Relatórios ao vivo](../reports/live-report.md) e [Relatórios do Customer Journey Analytics](../reports/report-gs-cja.md). Quando o rastreamento de **[!UICONTROL Aberturas de email]** é desabilitado para uma mensagem, os dados abertos não são coletados para essa entrega; os relatórios refletirão apenas cliques e outros sinais de envolvimento.
 
-## Referências de documentação {#references}
-
-Para obter mais informações sobre rastreamento de email e gerenciamento de consentimento no Adobe Journey Optimizer, consulte a documentação abaixo.
-
-| Tópico | Referência da documentação |
-|-------|------------------------|
-| Ativar e desativar o rastreamento aberto | [Rastreamento de mensagens](../email/message-tracking.md) |
-| Gerenciamento de opção de não participação de email | [Gerenciamento de opção de não participação de email](../email/email-opt-out.md) |
-| List-Unsubscribe (cabeçalho do email) | [Configurar List-Unsubscribe](../email/list-unsubscribe.md) |
-| Páginas de aterrissagem do centro de preferência | [Casos de uso de página de destino](../landing-pages/lp-use-cases.md) |
-| Gerenciamento de consentimento e recusa | [Gerenciar opção de não participação](opt-out.md) |
-| Políticas de consentimento | [Trabalhar com políticas de consentimento](../action/consent.md) |
-| Configuração do canal de email | [Definir configurações de email](../email/email-settings.md) |
-| Lista de supressão | [Gerenciar a lista de supressão](../configuration/manage-suppression-list.md) |
