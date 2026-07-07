@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, rastreamento, pixel, email, consentimento, recusa, privacidade
-source-git-commit: 66b0ca498ae2b39575ed57118739234d1f54c887
+source-git-commit: b55af0fe5510f37049713fe8d0b7a2ac73516323
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 1%
@@ -24,9 +24,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
->[!NOTE]
->
->Esta página é apenas para fins informativos. Não é um aconselhamento jurídico e não garante a sua conformidade com a legislação aplicável. Os recursos do produto Adobe Journey Optimizer descritos abaixo são componentes básicos que, configurados e operados adequadamente, podem oferecer suporte a uma implementação em conformidade. Cada cliente é responsável por determinar e cumprir suas obrigações conforme a legislação aplicável.
+Esta página é apenas para fins informativos. Não é um aconselhamento jurídico e não garante a sua conformidade com a legislação aplicável. Os recursos do produto Adobe Journey Optimizer descritos abaixo são componentes básicos que, configurados e operados adequadamente, podem oferecer suporte a uma implementação em conformidade. Cada cliente é responsável por determinar e cumprir suas obrigações conforme a legislação aplicável.
 
 ## Visão geral {#overview}
 
@@ -38,11 +36,11 @@ A CNIL forneceu um período de três meses a partir da data da recomendação pa
 
 O Adobe Journey Optimizer fornece controles que podem ajudar os clientes a gerenciar o rastreamento aberto no nível do delivery. Os clientes são responsáveis por determinar suas próprias obrigações de conformidade de acordo com as orientações da CNIL e outras leis aplicáveis, mas esses recursos podem apoiar os esforços de conformidade do cliente.
 
-## O que é um pixel de rastreamento de email {#tracking-pixel}
+### O que é um pixel de rastreamento de email {#tracking-pixel}
 
 Um pixel de rastreamento de email é uma imagem transparente 1x1 inserida na HTML de um email. Quando o cliente de email do recipient carrega essa imagem, o pixel faz o ping em um servidor que registra dados, como carimbo de data e hora, tipo de dispositivo, cliente de email e, às vezes, um endereço IP para localização aproximada. Esse log é vinculado ao registro de um recipient, permitindo que os profissionais de marketing vejam se um email está aberto.
 
-## Suporte ao cliente {#support}
+### Suporte ao cliente {#support}
 
 Os clientes que buscam assistência para implementar as alterações descritas acima podem interagir com o ecossistema existente do Adobe. Para perguntas técnicas sobre os recursos da Adobe mencionados, entre em contato com o Gerente de sucesso do cliente ou gerente de conta técnica.
 
