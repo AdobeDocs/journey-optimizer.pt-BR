@@ -7,13 +7,11 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 959b50c98e32afb2b3fa52692697cd75833932be
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 701
 ht-degree: 5%
 
 ---
@@ -29,6 +27,8 @@ ht-degree: 5%
 >[!AVAILABILITY]
 >
 >Este recurso está atualmente com a Disponibilidade Limitada. Entre em contato com o representante da Adobe para obter acesso.
+>
+>Os modelos de IA estão disponíveis somente para organizações que compraram a oferta complementar do **Decisioning**.
 
 O [!DNL Adobe Journey Optimizer] ajuda você a controlar quais jornadas um perfil pode inserir quando se qualificar para mais do que o sistema permite. Para fazer isso, você pode usar [conjuntos de regras](rule-sets.md) para definir limites na entrada de jornada ou simultaneidade. Quando um perfil é qualificado para mais jornadas do que o limite permite, a prioridade atribuída a cada jornada determina quais jornadas são selecionadas.
 
@@ -66,7 +66,7 @@ Para criar um modelo de IA para classificação de jornada, siga as etapas abaix
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)
 -->
 
-1. Na seção **[!UICONTROL Métrica de otimização]**, todas as métricas da [!DNL Customer Journey Analytics] [visualização de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} padrão são exibidas na lista. Selecione a métrica em que deseja otimizar seu modelo.
+1. Na seção **[!UICONTROL Métrica de otimização]**, todas as métricas da [!DNL Customer Journey Analytics] [visualização de dados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} padrão são exibidas na lista. Selecione a métrica em que deseja otimizar seu modelo.
 
    ![Lista suspensa de métricas de otimização que lista as métricas do Customer Journey Analytics para o modelo de IA](assets/journey-model-metrics.png){width="70%"}
 
@@ -85,7 +85,7 @@ Para criar um modelo de IA para classificação de jornada, siga as etapas abaix
    >
    >Somente os conjuntos de dados criados a partir de esquemas associados ao grupo de campos **[!UICONTROL Evento de experiência - Interações de apresentação]** são exibidos na lista suspensa. Você pode selecionar até 5 conjuntos de dados.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Selecione os segmentos a serem usados para treinar o modelo de IA.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Selecione os segmentos a serem usados para treinar o modelo de IA.
 
    >[!NOTE]
    >
