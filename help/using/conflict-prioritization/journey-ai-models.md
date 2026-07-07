@@ -7,8 +7,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+feature_v2:
+  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2:
+  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
 source-git-commit: 959b50c98e32afb2b3fa52692697cd75833932be
 workflow-type: tm+mt
 source-wordcount: 701
@@ -85,7 +87,7 @@ Para criar um modelo de IA para classificação de jornada, siga as etapas abaix
    >
    >Somente os conjuntos de dados criados a partir de esquemas associados ao grupo de campos **[!UICONTROL Evento de experiência - Interações de apresentação]** são exibidos na lista suspensa. Você pode selecionar até 5 conjuntos de dados.
 
-1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Selecione os segmentos a serem usados para treinar o modelo de IA.
+1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Selecione os segmentos a serem usados para treinar o modelo de IA.
 
    >[!NOTE]
    >
