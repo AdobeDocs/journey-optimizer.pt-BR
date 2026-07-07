@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 4b7a08e4a4f04685757948ca66b3747417f102b7
+source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
 workflow-type: tm+mt
-source-wordcount: 9155
-ht-degree: 92%
+source-wordcount: 9187
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 92%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Julho de 2026 {#july-2026}
+
+* Uma observação foi adicionada à página **fórmulas de classificação de arbitragem de Jornada** para especificar que as fórmulas de classificação só estão disponíveis para organizações que compraram a oferta complementar **Decisão**. [Leia mais](../conflict-prioritization/journey-ranking-formulas.md)
 
 * Uma nova página de **Fragmentos dinâmicos** está disponível. Ele documenta como usar a resolução de fragmento dinâmico no [!DNL Journey Optimizer] para selecionar qual fragmento publicado é inserido em uma mensagem no tempo de execução, com base em atributos de perfil, pesquisas de conjunto de dados ou dados de contexto passados no momento do envio. [Leia mais](../content-management/dynamic-fragments.md)
 
@@ -920,7 +922,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=pt-BR)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

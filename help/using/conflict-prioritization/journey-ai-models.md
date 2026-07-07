@@ -11,9 +11,9 @@ feature_v2:
   - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+source-git-commit: 959b50c98e32afb2b3fa52692697cd75833932be
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 701
 ht-degree: 5%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 5%
 >[!AVAILABILITY]
 >
 >Este recurso está atualmente com a Disponibilidade Limitada. Entre em contato com o representante da Adobe para obter acesso.
+>
+>Os modelos de IA estão disponíveis somente para organizações que compraram a oferta complementar do **Decisioning**.
 
 O [!DNL Adobe Journey Optimizer] ajuda você a controlar quais jornadas um perfil pode inserir quando se qualificar para mais do que o sistema permite. Para fazer isso, você pode usar [conjuntos de regras](rule-sets.md) para definir limites na entrada de jornada ou simultaneidade. Quando um perfil é qualificado para mais jornadas do que o limite permite, a prioridade atribuída a cada jornada determina quais jornadas são selecionadas.
 
