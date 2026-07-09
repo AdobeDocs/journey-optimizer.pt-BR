@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: cd4321060d1b35b4d0f173d0388d0a9f0ae7c74a
+source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
 workflow-type: tm+mt
-source-wordcount: 9227
+source-wordcount: 9262
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Julho de 2026 {#july-2026}
+
+* A documentação da **Otimização de Tempo de Envio** foi atualizada para refletir o novo limite de **[!UICONTROL Envio na(s) próxima(s)]** de **2-100 horas** (antes entre 1-168), e para documentar as regiões de Hub da AEP com suporte para esse recurso. [Leia mais](../building-journeys/send-time-optimization.md#use-send-time-optimization)
 
 * As páginas do **Modelo de otimização personalizado** foram atualizadas para refletir as melhorias mais recentes no modelo, abordando como o modelo de conjunto funciona, requisitos do conjunto de dados, casos de uso, premissas principais e comportamento de inicialização imediata. Leia mais nas seções [Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md) e [Offer Decisioning](../offers/ranking/personalized-optimization-model.md).
 
