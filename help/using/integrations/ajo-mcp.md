@@ -9,11 +9,10 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 7ced44f92f816d83d9a9ad667b4322dcb5930741
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 05ad3d2af373c7eeb26bb8c789edfb2c864f5bca
 workflow-type: tm+mt
-source-wordcount: 1369
+source-wordcount: 1552
 ht-degree: 1%
 
 ---
@@ -61,6 +60,8 @@ O servidor MCP [!DNL Adobe Journey Optimizer] permite inspecionar, resumir e sol
 * **Detectar problemas antecipadamente** — Superar campanhas interrompidas, rascunhos órfãos e problemas de configuração de canal no momento em que você pergunta, para que sua equipe possa agir com rapidez.
 * **Colaborar com base em dados dinâmicos** — Profissionais de marketing, gerentes de campanha e partes interessadas podem consultar os mesmos dados dinâmicos [!DNL Adobe Journey Optimizer] por meio do assistente de IA, facilitando o alinhamento, a decisão e a movimentação.
 * **Auditoria de seu portfólio de orquestração** — Revise o status completo das campanhas sem analisar o JSON ou pular entre telas de produtos.
+* **Verificar detalhes de configuração de canal** — Verifique domínios de remetente, configurações de cancelamento de inscrição e pools de IP antes de usar uma configuração de canal em uma jornada ou campanha.
+* **Confirmar políticas de governança** — Veja quais ações de marketing e políticas de governança estão anexadas a uma configuração de canal.
 
 ## Ferramentas disponíveis {#mcp-tools}
 
@@ -72,7 +73,6 @@ As seguintes ferramentas são expostas pelo servidor MCP [!DNL Adobe Journey Opt
 |---|---|
 | **Listar Campanhas** | Navegue pelas campanhas de marketing do [!DNL Adobe Journey Optimizer]. Oferece suporte à filtragem por status (RASCUNHO, EM TEMPO REAL, PARADO, CONCLUÍDO). |
 | **Obter Campanha** | Busque detalhes completos e a configuração de uma campanha específica por ID, incluindo o direcionamento de público, a programação, o canal e as configurações de conteúdo. |
-| **Listar Configurações de Canal** | Visualize predefinições de superfície e configurações de marca para canais de email, SMS, push ou WhatsApp. |
 
 **ferramentas de Jornada**
 
@@ -81,6 +81,16 @@ As seguintes ferramentas são expostas pelo servidor MCP [!DNL Adobe Journey Opt
 | **Obter Todas as Jornadas** | Navegue por todas as jornadas em sua sandbox do [!DNL Adobe Journey Optimizer]. |
 | **Obter Jornada** | Busque detalhes completos para uma jornada específica por ID, incluindo sua ramificação, condições e ações. |
 | **Visualizar suas jornadas** | Renderize suas jornadas com ferramentas interativas para explorar visualmente sua estrutura e fluxo. |
+
+**Ferramentas de configuração de canal**
+
+| Ferramenta | Descrição |
+|---|---|
+| **Listar Configurações de Canal** | Filtre as configurações de canal por nome, status (rascunho, ativo, arquivado, desativado) ou tipo de canal em todos os canais da AJO: Email, Mensagem móvel, Notificação por push, WhatsApp, Correspondência direta, Mensagens no aplicativo, Web, Experiência baseada em código, Cartões de conteúdo, LINE, Atividade online. |
+| **Obter Configuração de Canal** | Recupere detalhes completos de configuração de uma configuração de canal específica, incluindo endereços de remetente/resposta, subdomínios, pools de IP e configurações de cancelamento de inscrição. |
+| **Listar Recursos de Configuração** | Listar recursos de suporte referenciados pelas configurações de canal, como credenciais de push, subdomínios de email, pools de IP, credenciais de SMS, credenciais de WhatsApp, roteamento de correspondência direta, configurações de canal LINE e registro de atividades online. |
+| **Obter Recurso de Configuração** | Recupere os detalhes completos de um único recurso de configuração por tipo e ID. |
+| **Listar ações de marketing** | Liste as ações de marketing disponíveis para a aplicação da política de governança de dados. |
 
 >[!NOTE]
 >
@@ -98,8 +108,9 @@ Os seguintes exemplos mostram como interagir com o servidor MCP [!DNL Adobe Jour
 | **Público-alvo e direcionamento** | Qual público-alvo é direcionado na campanha/jornada [ID]? / Quais regras de elegibilidade são definidas na campanha/jornada [ID]? |
 | **Agendamento e tempo** | Quando a campanha [ID] está agendada para ser executada? / A campanha [ID] é um envio único ou recorrente? |
 | **Solução de problemas** | Por que a campanha [ID] pode não estar sendo enviada? / Revise a configuração da campanha [ID] para quaisquer problemas. |
-| **Configuração de canal** | Quais predefinições de canal estão disponíveis na minha sandbox? / Mostre-me todas as minhas configurações de canal de email. |
+| **Configuração de canal** | Quais predefinições de canal estão disponíveis na minha sandbox? / Mostre-me todas as minhas configurações de canal de email. / Tenho alguma configuração do WhatsApp configurada? / Que endereço de remetente e para qual resposta estão configurados para minha configuração de email de marketing? |
 | **Auditoria de canal** | Quais configurações de canal estão ausentes ou incompletas? / Quantas configurações de canal eu tenho em todos os canais? |
+| **Governança** | Quais ações de marketing estão disponíveis na minha sandbox? |
 
 ## Pré-requisitos {#mcp-prerequisites}
 
@@ -136,7 +147,7 @@ O servidor MCP [!DNL Adobe Journey Optimizer] está disponível atualmente para 
 
 +++Quais objetos do [!DNL Adobe Journey Optimizer] posso acessar via MCP?
 
-Você pode acessar campanhas, jornadas, ofertas e informações da sandbox. As operações são somente leitura (recuperar APIs); as operações de gravação não são compatíveis com a versão atual.
+Você pode acessar campanhas, jornadas, ofertas, configurações de canal, recursos de configuração e informações de sandbox. As operações são somente leitura (recuperar APIs); as operações de gravação não são compatíveis com a versão atual.
 +++
 
 +++Preciso de acesso de desenvolvedor para usar o servidor MCP [!DNL Adobe Journey Optimizer]?
