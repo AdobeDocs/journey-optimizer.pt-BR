@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
-workflow-type: ht
-source-wordcount: 440
-ht-degree: 100%
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 686
+ht-degree: 64%
 
 ---
 
@@ -42,6 +42,28 @@ Agora é possível enviar mensagens do WhatsApp diretamente pelo Journey Optimiz
 * Em uma **Campanha**. Crie uma campanha, selecione **WhatsApp** como ação, defina configurações básicas e edite o conteúdo da mensagem para definir a mensagem do WhatsApp a ser enviada. Saiba como criar [uma campanha de ação](../campaigns/campaign-action.md#action-campaign-action) | [uma campanha acionada por API](../campaigns/api-triggered-campaigns.md) | [uma campanha orquestrada](../orchestrated/create-orchestrated-campaign.md#create)
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
+
+## Casos de uso {#use-cases}
+
+O WhatsApp funciona melhor quando o seu público-alvo já usa a plataforma e você deseja combinar um conteúdo rico com uma conversa genuinamente bidirecional.
+
+| Benefícios | Por que | Exemplo de casos de uso |
+| --- | --- | --- |
+| Alto engajamento global | Plataforma de mensagens amplamente usada, com forte adoção em muitas regiões | Atingir públicos internacionais já ativos no WhatsApp |
+| Mensagens ricas e interativas | Oferece suporte a imagens, vídeos, botões e respostas rápidas | Catálogos de produtos, confirmações de compromissos com opções de resposta rápida |
+| Experiências conversacionais bidirecionais | Os recipients podem responder no mesmo thread | Conversações sobre o suporte ao cliente, perguntas sobre o rastreamento de pedidos |
+| Conformidade e confiança via API oficial | Entregue por meio da API de nuvem verificada da Meta com verificação do remetente | Comunicações verificadas pela marca que geram confiança do recipient |
+| Integração com outros canais | Pode ser dividido em camadas com jornadas e campanhas ao lado de outros canais | Jornadas multicanal usando o WhatsApp como ponto de contato complementar |
+
+## Quando não usar {#when-not-to-use}
+
+O WhatsApp depende da adoção do público-alvo e do consentimento explícito, portanto não é adequado para todos os cenários. Considere outro canal nas seguintes situações:
+
+* Seu público-alvo não usa o WhatsApp, pois a adoção varia muito de acordo com a região e a demografia
+* Os recipients não ofereceram aceitação explícita, o que é exigido pelas políticas de mensagens da Meta
+* A mensagem é urgente e precisa de entrega garantida, que SMS ou push manipula melhor dadas as restrições de entrega e revisão do modelo do WhatsApp
+* O conteúdo é longo ou complexo e mais adequado para o email, que oferece mais espaço e formatação mais avançada
+* Suporte conversacional em tempo real não é viável do seu lado, já que threads bidirecionais do WhatsApp definem uma expectativa de resposta em tempo hábil
 
 ## Pré-requisitos {#prereq}
 

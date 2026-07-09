@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
-workflow-type: ht
-source-wordcount: 196
-ht-degree: 100%
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 427
+ht-degree: 46%
 
 ---
 
@@ -69,8 +69,29 @@ Esse recurso permite que profissionais de marketing apresentem conteúdo de míd
 </td>
 </tr></table>
 
+## Casos de uso
+
+Os cartões de conteúdo funcionam melhor quando você deseja que uma mensagem fique disponível para que os usuários atuem no seu próprio ritmo, em vez de interrompê-los no momento em que chega.
+
+| Benefícios | Por que | Exemplo de casos de uso |
+| --- | --- | --- |
+| Visibilidade persistente | Os cartões permanecem no aplicativo ou site até que o usuário os ignore | Promoções contínuas, destaques do recurso que os usuários podem rever |
+| Entrega não intrusiva | Integra-se à interface em vez de interromper o usuário | Atualizações passivas mostradas junto com outro conteúdo |
+| Funciona sem a aceitação de push | Entregue no aplicativo ou no local, independentemente do consentimento da notificação por push | Acessar usuários que desativaram as notificações por push |
+| Mensagens visualmente ricas | Suporta botões de mídia e call-to-action | Destaques do produto com imagens e um botão &quot;Compre agora&quot; |
+
+## Quando não usar
+
+Os cartões de conteúdo são destinados aos usuários de conteúdo que podem visualizar em seu próprio ritmo, de modo que não são adequados para cada cenário. Considere outro canal nas seguintes situações:
+
+* A mensagem é um alerta sensível ao tempo, pois os usuários podem não abrir o aplicativo ou site a tempo de ver o cartão
+* Os usuários de destino estão inativos, já que os cartões de conteúdo são exibidos somente no aplicativo ou site e os usuários inativos nunca os verão
+* O conteúdo é confidencial ou requer manipulação segura que um cartão persistente e visível não pode garantir
+* A mensagem precisa de uma call to action urgente, como uma promoção rápida, em que uma notificação por push ou email solicitaria uma ação mais rápida
+
 ## Recursos adicionais
 
 * **[Cartões de conteúdo em páginas de destino](content-card-lp.md)**: descubra como implementar cartões de conteúdo em páginas de destino para um engajamento aprimorado.
 * **[Relatórios de cartão de conteúdo](content-card-report.md)**: rastreie e analise o desempenho do cartão de conteúdo com métricas e insights detalhados.
 * **[Tutoriais do cartão de conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre os recursos do cartão de conteúdo e as práticas recomendadas.
+

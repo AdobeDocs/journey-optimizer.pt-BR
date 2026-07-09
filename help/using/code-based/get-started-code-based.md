@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
-workflow-type: ht
-source-wordcount: 986
-ht-degree: 100%
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 1246
+ht-degree: 79%
 
 ---
 
@@ -54,6 +54,28 @@ Com o recurso **experiência baseada em código**, é possível definir experiê
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
 ➡️ Um caso de uso de ponta a ponta, que mostra como utilizar experimentos de conteúdo para comparar decisões com o canal de experiência baseado em código, é apresentado [nesta seção](../experience-decisioning/experience-decisioning-uc.md).
+
+## Casos de uso {#use-cases}
+
+O canal baseado em código funciona melhor quando o caso de uso vai além do que um editor visual pode suportar e você tem recursos de desenvolvimento disponíveis para criar e manter a implementação.
+
+| Benefícios | Por que | Exemplo de casos de uso |
+| --- | --- | --- |
+| Personalização profunda | Suporta lógica complexa e dados em tempo real além do que os editores visuais expõem | Personalization orientada pelo inventário em tempo real ou pelo contexto do usuário |
+| Integração com sistemas externos | O conteúdo pode ser composto usando dados de sistemas externos | Promoções baseadas no clima, ofertas em tempo real orientadas por inventário |
+| Fluxos de trabalho condicionais avançados, em várias etapas | Não limitado às ações predefinidas de canais visuais | Lógica de decisão em várias etapas entre pontos de contato |
+| Ultrapassando os limites da plataforma | Permite aos desenvolvedores criar elementos interativos personalizados | Os componentes personalizados da interface do usuário não são compatíveis com canais prontos para uso |
+| Maior flexibilidade de campanha | O conteúdo e a lógica são definidos pela sua própria implementação | Propriedades digitais headless, baseadas em API ou que não são de navegador |
+
+## Quando não usar {#when-not-to-use}
+
+O canal baseado em código requer esforço de desenvolvimento, de modo que não é a escolha correta para cada cenário. Considere outro canal nas seguintes situações:
+
+* Sua campanha é rápida ou simples e pode ser criada com um canal sem código, como a Web ou no aplicativo, sem nenhum esforço de desenvolvimento
+* Você não tem recursos de desenvolvedor ou um ambiente de teste disponíveis para criar e validar uma implementação personalizada
+* Sua linha do tempo ou orçamento é limitado para desenvolvimento personalizado, já que experiências baseadas em código exigem mais planejamento antecipado
+* As mensagens padrão já se encaixam nos recursos de canal incorporados, tornando o desenvolvimento personalizado desnecessário
+* A capacidade de manutenção de longo prazo do código personalizado é uma preocupação, já que superfícies e implementações precisam de suporte contínuo do desenvolvedor
 
 ## Quando usar canais baseados em código em vez de outros canais {#code-based-vs-other-channels}
 
@@ -133,4 +155,5 @@ Estas são as principais etapas para criar e entregar uma experiência baseada e
 * **[Testar experiências baseadas em código](test-code-based.md)**: saiba como visualizar e testar experiências baseadas em código antes de publicar.
 * **[Amostras de implementação](code-based-implementation-samples.md)**: explore exemplos de código e padrões de implementação para vários casos de uso.
 * **[Tutoriais de experiências baseadas em código](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre recursos baseados em código e práticas recomendadas.
+
 

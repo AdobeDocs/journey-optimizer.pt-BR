@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
-source-wordcount: 389
-ht-degree: 95%
+source-wordcount: 651
+ht-degree: 57%
 
 ---
 
@@ -57,6 +57,8 @@ Use as guias dedicadas para definir as configurações de notificação por push
 >[!NOTE]
 >
 >Embora o **[!DNL Journey Optimizer]** forneça maneiras de gerenciar a opção de não participação em emails e mensagens SMS, as notificações por push não exigem nenhuma ação da sua parte, pois os destinatários podem cancelar inscrição por meio dos seus próprios dispositivos. Por exemplo, ao baixar ou ao usar seu aplicativo, é possível optar por parar as notificações. Da mesma forma, eles podem alterar as configurações de notificação por meio do sistema operacional do celular ou das configurações do navegador da web. Para verificar o status de consentimento por push de um perfil no visualizador de perfil da AEP, consulte [Verificar o status de recusa por push](../privacy/opt-out.md#push-opt-out-status).
+
+</br>
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -94,3 +96,26 @@ Use as guias dedicadas para definir as configurações de notificação por push
 <p>
 </td>
 </tr></table>
+
+## Casos de uso
+
+As notificações por push funcionam melhor quando você precisa acessar os usuários de forma rápida e direta em seus dispositivos, sem depender de eles estarem dentro do seu aplicativo ou verificarem sua caixa de entrada.
+
+| Benefícios | Por que | Exemplo de casos de uso |
+| --- | --- | --- |
+| Atualizações sensíveis ao tempo | Entregue instantaneamente, mesmo quando os usuários não estão usando ativamente seu aplicativo | Alertas de atraso de voo, mudanças de status de pedido, últimas notícias |
+| Reenvolvimento | Solicita que os usuários retornem ao seu aplicativo após um período de inatividade | Lembretes de abandono do carrinho e campanhas de retorno |
+| Redução de custos vs. SMS | Nenhuma taxa por portadora de mensagem, ao contrário do SMS | Notificações promocionais ou transacionais de alto volume |
+| Conteúdo avançado e interativo | Oferece suporte a imagens, botões de ação e deep links | Promoções de produtos com botões de toque para comprar, visualizações de mídia avançada |
+| Recursos nativos do dispositivo | Utiliza recursos de nível de SO não disponíveis para outros canais | Alertas de vibração, selos de ícones de aplicativo, acionadores de localização com geofencing |
+| Alta probabilidade de aceitação | Os usuários são solicitados a aceitar assim que o aplicativo for instalado ou iniciado pela primeira vez | Fluxos de integração, campanhas de engajamento do primeiro dia |
+
+## Quando não usar
+
+As notificações por push não são adequadas para todas as mensagens. Considere outro canal nas seguintes situações:
+
+* Seu público-alvo tem baixas taxas de aceitação de push ou mostrou resistência às notificações, já que a mensagem pode nunca chegar a ele
+* A mensagem requer conteúdo de forma longa, que o email processa melhor e permite formatação mais detalhada
+* O conteúdo é confidencial ou privado e não deve estar visível em uma tela de bloqueio, onde qualquer pessoa próxima ao dispositivo possa vê-lo
+* A maioria dos usuários acessa o serviço do desktop em vez de um aplicativo móvel, em que as notificações por push têm alcance limitado ou inexistente
+
