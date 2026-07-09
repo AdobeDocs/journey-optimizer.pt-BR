@@ -124,6 +124,6 @@ Exemplo de proposta de conteúdo do Journey Optimizer:
 
 ## Depuração {#debugging}
 
-Para depurar implementações de personalização do Adobe Journey Optimizer, use a [Depuração do Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html){target="_blank"}. [!DNL Adobe Journey Optimizer] rastreamentos de depuração estão disponíveis ao solucionar problemas usando [[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/). Verifique se há eventos com o prefixo `AJO:`.
+Para depurar implementações de personalização do Adobe Journey Optimizer, use a [Depuração do Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html?lang=pt-BR){target="_blank"}. [!DNL Adobe Journey Optimizer] rastreamentos de depuração estão disponíveis ao solucionar problemas usando [[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/). Verifique se há eventos com o prefixo `AJO:`.
 
 ![assurance-ajo-trace](assets/assurance-ajo-trace.png)
