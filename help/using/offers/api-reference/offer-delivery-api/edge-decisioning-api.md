@@ -113,7 +113,7 @@ Essa opção é mais fácil de usar para pessoas que podem ter menos experiênci
 
 1. [Criar uma propriedade de tag](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=pt-BR)
 
-1. [Adicionar o código incorporado do](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html)
+1. [Adicionar o código incorporado do](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=pt-BR)
 
 1. Instale e configure a extensão Adobe Experience Platform Web SDK com a sequência de dados criada selecionando a configuração na lista suspensa &quot;Sequência de dados&quot;. Consulte a documentação em [extensões](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=pt-BR).
 

@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
 workflow-type: tm+mt
-source-wordcount: 2325
-ht-degree: 70%
+source-wordcount: 2334
+ht-degree: 68%
 
 ---
 
@@ -207,7 +207,7 @@ Use o designer de jornadas para criar o fluxo:
 Sempre teste a jornada para detectar problemas antes que os clientes os enfrentem:
 
 * Use o **modo de teste** para simular a jornada com perfis de teste
-* Use a **execução de teste** para visualizar a execução da jornada sem afetar os dados reais ou enviar mensagens
+* Use a **simulação** para executar a jornada em dados de produção reais sem enviar comunicações ou atualizar perfis
 * Verifique se todas as condições, mensagens e ações funcionam conforme esperado
 * Verifique o momento, os fluxos de dados e a personalização
 
@@ -345,7 +345,7 @@ Lide com os públicos-alvo globais com ajustes automáticos de fuso horário e t
 
 **Modo de teste e execução de teste**
 
-Valide jornadas com perfis de teste antes de ativá-las e visualize a execução sem afetar os dados reais.
+Valide jornadas com perfis de teste antes de ativá-las e visualize a execução usando dados de produção reais sem enviar comunicações ou atualizar perfis.
 
 [Use a execução de teste](journey-dry-run.md)
 :::
