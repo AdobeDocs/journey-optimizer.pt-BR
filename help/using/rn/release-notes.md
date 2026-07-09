@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 489dd8a0d063a1d39840eb086243f3a023b10b88
+source-git-commit: d61f15e630592fa21ac2667fffa4d215a7baf6e1
 workflow-type: tm+mt
-source-wordcount: 2698
-ht-degree: 79%
+source-wordcount: 2765
+ht-degree: 78%
 
 ---
 
@@ -50,6 +50,8 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ## Atualizações de julho de 2026 {#july-26-updates}
 
+### Novos recursos {#july-26-new-capabilities}
+
 <table>
 <thead>
 <tr>
@@ -66,6 +68,12 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tr>
 </tbody>
 </table>
+
+### Aprimoramentos {#july-26-improvements}
+
+* **Novas ferramentas do servidor MCP do AJO** - O servidor MCP [!DNL Adobe Journey Optimizer] agora expõe cinco **ferramentas de configuração de canal** adicionais somente leitura, permitindo que você consulte configurações de canal, recursos de suporte e ações de marketing diretamente do seu assistente de IA. Agora você pode usar **Configurações de Canal de Lista** (em todos os canais da AJO), **Obter Configuração de Canal**, **Recursos de Configuração de Lista**, **Obter Recurso de Configuração** e **Ações de Marketing de Lista**. [Leia mais](../integrations/ajo-mcp.md#mcp-tools)
+
+  Data de disponibilidade: 9 de julho de 2026
 
 ## Notas de versão de junho de 2026 {#june-26-rn}
 
