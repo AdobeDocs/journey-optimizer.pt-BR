@@ -108,7 +108,7 @@ Os seguintes pré-requisitos são necessários para usar o RCS no Journey Optimi
 
 ## Recursos adicionais {#additional-resources}
 
-Navegue pelos tópicos abaixo para saber mais sobre Mensagens móveis no Journey Optimizer. Consulte também a [visão geral de SMS/MMS/RCS](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"} no Hub de Aprendizagem Móvel para obter mais casos de uso e práticas recomendadas.
+Navegue pelos tópicos abaixo para saber mais sobre Mensagens móveis no Journey Optimizer. Consulte também a [visão geral de SMS/MMS/RCS](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"} no Hub de Aprendizagem Móvel para obter mais casos de uso e práticas recomendadas.
 
 +++Guias de configuração
 
