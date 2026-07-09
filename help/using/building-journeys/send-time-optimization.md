@@ -11,26 +11,15 @@ keywords: send-time, send, message, otimization, jornada, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
 workflow-type: tm+mt
-source-wordcount: 2279
+source-wordcount: 2316
 ht-degree: 6%
 
 ---
@@ -68,6 +57,8 @@ A Otimização de tempo de envio está disponível apenas para os tipos de açã
 >
 >* A Otimização de Tempo de Envio se aplica somente aos canais de **Email** e **Notificação por push**.
 >
+>* A Otimização de Tempo de Envio é suportada nas seguintes regiões do Hub AEP: **VA7, NLD2, AUS5, CAN2, GBR9, IND2, CHE2**. Esses são os códigos de região de implantação da Adobe. Entre em contato com o representante da Adobe se não tiver certeza de qual região sua organização usa.
+>
 
 ## Usar otimização de tempo de envio{#use-send-time-optimization}
 
@@ -87,7 +78,7 @@ Antes de iniciar, considere quais mensagens são adequadas antes de ativá-las. 
 
    Para obter melhores resultados, otimize a maioria dos emails para **Cliques**. Escolha **Aberturas** quando a mensagem for informativa e não se destinar a direcionar uma ação específica.
 
-1. Para emails e mensagens por push, defina **[!UICONTROL Enviar na(s) próxima(s)]** com o número máximo de horas (1-168) que o sistema aguardará antes de enviar a mensagem.
+1. Para emails e mensagens por push, defina **[!UICONTROL Enviar na(s) próxima(s)]** com o número máximo de horas (2-100) que o sistema aguardará antes de enviar a mensagem.
 
    Para obter melhores resultados, escolha um valor entre 6 e 24 horas. Um valor mais baixo reduz o número de tempos de envio disponíveis e pode limitar o benefício da Otimização de tempo de envio. Um valor mais alto pode significar que a mensagem está desatualizada ou é menos relevante no momento em que é enviada.
 
@@ -216,14 +207,14 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **IA de Jornada**: os serviços de IA da Adobe que habilitam a Otimização de Tempo de Envio no Journey Optimizer *(específico do produto)*
 * **Tempo de envio de exploração**: um tempo de envio selecionado aleatoriamente (usado para 5% dos envios) para testar horários diferentes e melhorar a precisão do modelo *(específico do produto)*
 * **Tempo de envio otimizado**: um tempo de envio previsto pelo modelo selecionado para maximizar as taxas de clique ou abertura (usado para 95% dos envios) *(específico do produto)*
-* **Enviar na(s) próxima(s)**: O número máximo de horas (1-168) que o sistema aguardará antes de enviar a mensagem para um determinado perfil *(específico do produto)*
+* **Enviar na(s) próxima(s)**: O número máximo de horas (2-100) que o sistema aguardará antes de enviar a mensagem para um determinado perfil *(específico do produto)*
 
 **Medidas de Proteção:**
 * A Otimização de tempo de envio deve ser ativada pela Adobe para a organização; entre em contato com o Atendimento ao cliente da Adobe ou com o representante da Adobe para ativá-la.
 * A Otimização de tempo de envio se aplica somente aos canais de Email e Notificação por push no Jornada; não está disponível para Campanhas ou ações personalizadas.
 * A organização deve ter usado ações de email ou push no Journey Optimizer por pelo menos 30 dias antes que a Otimização de tempo de envio produza resultados significativos.
 * Não use a Otimização de hora de envio para mensagens operacionais urgentes ou sensíveis ao tempo (por exemplo, confirmações de pedidos, redefinições de senha, alterações na porta de voo).
-* O intervalo de tempo máximo de espera é de 1 a 168 horas; o intervalo recomendado é de 6 a 24 horas para obter melhores resultados.
+* O intervalo de tempo máximo de espera é de 2 a 100 horas; o intervalo recomendado é de 6 a 24 horas para obter melhores resultados.
 * As pontuações do modelo são armazenadas nos atributos do perfil em `_experience.intelligentServices.journeyAI.sendTimeOptimization` e não são legíveis por humanos.
 * Inicialmente, os modelos são treinados semanalmente, depois retreinados e marcados mensalmente após 16 semanas.
 
