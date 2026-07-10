@@ -24,9 +24,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 922
 ht-degree: 10%
 
 ---
@@ -117,11 +117,13 @@ Para editar um registro PTR com um subdomínio que esteja delegado à Adobe usan
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
-   >[!NOTE]
+1. Se você receber esta mensagem: &quot;Crie o DNS de encaminhamento primeiro e tente novamente&quot;, siga as etapas abaixo:
+   * Verifique no provedor de DNS se o registro de DNS de encaminhamento foi criado com êxito.
+   * Os registros no DNS podem não ser sincronizados imediatamente. Aguarde alguns minutos e tente novamente.
+
+   >[!WARNING]
    >
-   >Se você receber esta mensagem: &quot;Crie o DNS de encaminhamento primeiro e tente novamente&quot;, siga as etapas abaixo:
-   >   * Verifique no provedor de DNS se o registro de DNS de encaminhamento foi criado com êxito.
-   >   * Os registros no DNS podem não ser sincronizados imediatamente. Aguarde alguns minutos e tente novamente.
+   >Ao adicionar um novo registro DNS de encaminhamento para o novo subdomínio na plataforma de hospedagem, não remova o registro DNS de encaminhamento para o subdomínio antigo até que a movimentação seja concluída. Remover o registro antigo antes da conclusão do processo causará falha na edição do registro PTR.
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar as alterações. Observe que os campos **[!UICONTROL Registro IP]** e **[!UICONTROL Registro PTR]** não podem ser modificados.
 

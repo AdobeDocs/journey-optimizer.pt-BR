@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 9262
-ht-degree: 91%
+source-wordcount: 9416
+ht-degree: 89%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 91%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Julho de 2026 {#july-2026}
+
+* Um aviso foi adicionado à página **Editar registros PTR** para informar aos clientes que, ao adicionar um novo registro DNS de encaminhamento à sua plataforma, o registro DNS de encaminhamento para o subdomínio antigo não deve ser removido até que a movimentação seja concluída, pois isso fará com que a edição falhe. [Leia mais](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
+
+* As páginas **Enviar usando ondas** foram atualizadas para esclarecer o comportamento de reavaliação do público-alvo nas ondas: a associação do público-alvo é corrigida no momento da ativação (instantâneo), mas os atributos do perfil e o consentimento são avaliados no momento em que cada onda é processada. Isso significa que as opções de não participação que ocorrem entre ondas são respeitadas. Leia mais nas seções de perguntas frequentes sobre [jornadas](../building-journeys/send-using-waves.md#faq) e [campanhas](../campaigns/send-using-waves.md#faq).
+
+* A página **Governança de dados** foi atualizada para esclarecer que a imposição de política DULE se aplica somente a **campos de atributo de perfil**. Campos baseados em eventos (atributos de contexto, como campos de evento de jornada) não são compatíveis: os rótulos aplicados a esses campos na interface do usuário não restringirão o uso de dados. [Leia mais](../action/action-privacy.md)
 
 * A documentação da **Otimização de Tempo de Envio** foi atualizada para refletir o novo limite de **[!UICONTROL Envio na(s) próxima(s)]** de **2-100 horas** (antes entre 1-168), e para documentar as regiões de Hub da AEP com suporte para esse recurso. [Leia mais](../building-journeys/send-time-optimization.md#use-send-time-optimization)
 

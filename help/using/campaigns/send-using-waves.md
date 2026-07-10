@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 76fd78f66bc69b228b794bcd129a48b65028c1cb
 workflow-type: tm+mt
-source-wordcount: 813
+source-wordcount: 966
 ht-degree: 1%
 
 ---
@@ -132,6 +132,19 @@ O envio de onda ajuda você a controlar quando e quantas mensagens são enviadas
 +++ Posso atribuir diferentes segmentos ou critérios a ondas individuais?
 
 Você só pode definir o tamanho e o tempo das ondas. A seleção de recipients é a mesma para toda a campanha; não é possível atribuir segmentos ou critérios diferentes a ondas individuais.
+
++++
+
++++ O público-alvo é reavaliado antes de cada onda ou é corrigido no início da campanha?
+
+O público é **avaliado uma vez** quando a campanha é ativada. Um instantâneo de perfis qualificados é tirado nesse ponto e usado para todas as ondas: a associação de público-alvo não é reavaliada antes de cada onda subsequente.
+
+No entanto, **os atributos de perfil são lidos no momento em que cada onda processa**, não na ativação da campanha. Isso significa que, para ondas espalhadas por vários dias:
+
+* Os atributos do Personalization (por exemplo, o nome ou o nível de fidelidade de um perfil) refletem o estado do perfil no momento em que a onda é executada.
+* **As verificações de consentimento e supressão são aplicadas no horário de envio para cada onda.** Se um perfil optar por não participar entre duas ondas, ele não receberá mensagens das ondas subsequentes.
+
+Em resumo: *quem* está incluído na campanha foi corrigido antecipadamente, mas *os dados usados para enviar a esses perfis* refletem seu estado atual quando sua onda é processada.
 
 +++
 

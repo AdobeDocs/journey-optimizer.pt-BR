@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: a2519d68e847dd9866ed385a21e405dc6157730b
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 5%
+source-wordcount: 601
+ht-degree: 4%
 
 ---
 
@@ -79,9 +79,12 @@ O uso de [!DNL Journey Optimizer] com [!DNL Customer Journey Analytics] pode lev
 
 * **Em [!DNL Journey Optimizer] relatórios, a métrica Enviado também inclui a métrica Repetir.**
 
-  **[!UICONTROL Tentativas]** não serão incluídas na métrica **[!UICONTROL Enviadas]** em [!DNL Customer Journey Analytics]. Isso fará com que as métricas [!DNL Customer Journey Analytics] **[!UICONTROL Enviadas]** mostrem valores menores que [!DNL Journey Optimizer]. No entanto, os dados de nova tentativa são convertidos para a métrica **[!UICONTROL Mensagens enviadas com êxito]** ou **[!UICONTROL Rejeições]**.
-Para reduzir a discrepância, use intervalos de datas de uma semana atrás ou até mesmo mais tarde.
+  **[!UICONTROL Tentativas]** não serão incluídas na métrica **[!UICONTROL Enviadas]** em [!DNL Customer Journey Analytics]. Isso fará com que as métricas [!DNL Customer Journey Analytics] **[!UICONTROL Enviadas]** mostrem valores menores que [!DNL Journey Optimizer]. No entanto, os dados de nova tentativa são convertidos para a métrica **[!UICONTROL Mensagens enviadas com êxito]** ou **[!UICONTROL Rejeições]**.Para reduzir a discrepância, use intervalos de datas de uma semana atrás ou até mesmo mais tarde.
 
 * **Os relatórios estão sendo fornecidos por uma fonte de dados diferente.**
 
   Isso pode levar a discrepâncias de dados entre 1 e 2% entre produtos.
+
+* **Um conjunto de dados foi adicionado recentemente à conexão de relatórios.**
+
+  O preenchimento retroativo histórico automático para um conjunto de dados recém-adicionado pode levar alguns dias para ser concluído. Até a conclusão, os relatórios históricos desse conjunto de dados podem aparecer como incompletos ou zero, mesmo que novos dados já estejam fluindo corretamente. Observe que esse é um comportamento esperado, não uma perda de dados.
