@@ -12,9 +12,9 @@ keywords: ondas, lotes, programação, jornada, ler público, entregabilidade
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 76fd78f66bc69b228b794bcd129a48b65028c1cb
 workflow-type: tm+mt
-source-wordcount: 1554
+source-wordcount: 1707
 ht-degree: 1%
 
 ---
@@ -130,6 +130,19 @@ O envio de onda ajuda você a controlar quando e quantas mensagens são enviadas
 +++ Posso atribuir diferentes segmentos ou critérios a ondas individuais?
 
 Você só pode definir o tamanho e o tempo das ondas. O mesmo público-alvo flui pela jornada; não é possível atribuir segmentos ou critérios diferentes a ondas individuais.
+
++++
+
++++ O público-alvo é reavaliado antes de cada onda ou é corrigido no início da jornada?
+
+O público é **avaliado uma vez** quando a jornada é acionada. Um instantâneo de perfis qualificados é tirado nesse ponto e usado para todas as ondas: a associação de público-alvo não é reavaliada antes de cada onda subsequente.
+
+No entanto, **os atributos de perfil são lidos no momento em que cada onda processa**, não no início da jornada. Isso significa que, para ondas espalhadas por vários dias:
+
+* Os atributos do Personalization (por exemplo, o nome ou o nível de fidelidade de um perfil) refletem o estado do perfil no momento em que a onda é executada.
+* **As verificações de consentimento e supressão são aplicadas no horário de envio para cada onda.** Se um perfil optar por não participar entre duas ondas, ele não receberá mensagens das ondas subsequentes.
+
+Em resumo: *quem* está incluído na jornada foi corrigido antecipadamente, mas *os dados usados para enviar a esses perfis* refletem seu estado atual quando sua onda é processada.
 
 +++
 
