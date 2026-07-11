@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
+source-git-commit: f19aef75aeac9be8e400528b5e587545268d7607
 workflow-type: tm+mt
-source-wordcount: 1866
-ht-degree: 16%
+source-wordcount: 1883
+ht-degree: 15%
 
 ---
 
@@ -214,9 +214,13 @@ Dois tipos de alertas podem ocorrer:
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
 >title="Reduzir tamanho do HTML"
->abstract="Ative esta opção para compactar o código HTML do seu email durante a publicação, removendo espaços em branco desnecessários, recuos e comentários não essenciais. Isso ajuda a evitar o corte de emails em clientes como o Gmail, que truncam mensagens com mais de 100 KB. Observe que, ao trabalhar com emails multilíngues, essa opção é ativada por padrão para todas as localidades."
+>abstract="Ative essa opção para compactar seu HTML de email durante a publicação removendo espaços em branco e recuos desnecessários. Isso ajuda a evitar o corte de emails em clientes como o Gmail, que truncam mensagens com mais de 100 KB. Observe que, ao trabalhar com emails multilíngues, essa opção é ativada por padrão para todas as localidades."
 
-O [!DNL Journey Optimizer] permite compactar a versão do HTML de email durante o processo de publicação removendo espaços em branco, recuos e comentários não essenciais desnecessários. Manter o tamanho pequeno do HTML ajuda a:
+O [!DNL Journey Optimizer] permite compactar a versão do HTML de email durante o processo de publicação removendo espaços em branco e recuos desnecessários. Manter o tamanho pequeno do HTML ajuda a:
+
+>[!NOTE]
+>
+>A remoção de comentários não essenciais do HTML também faz parte da otimização, mas esse recurso foi temporariamente desativado em 10 de julho de 2026.
 
 * Evite **recorte de email** — alguns clientes, como o Gmail, truncam mensagens com mais de ~100 KB, impedindo que os destinatários visualizem o conteúdo completo.
 * Melhore o **tempo de carregamento do email** na caixa de entrada do destinatário.
