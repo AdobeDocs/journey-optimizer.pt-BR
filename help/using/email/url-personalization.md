@@ -11,10 +11,10 @@ keywords: url, link, personalização, rastreamento, codificar, chaves
 feature_v2: []
 subfeature_v2:
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 9100276ed3a6d3487cf27b9b70f2e0dfaf35f62c
 workflow-type: tm+mt
-source-wordcount: 430
-ht-degree: 1%
+source-wordcount: 570
+ht-degree: 0%
 
 ---
 
@@ -73,9 +73,15 @@ A Journey Optimizer também oferece suporte à personalização da URL **inteira
 <a href="https://{{profile.social.baseUrl}}/profile" />
 ```
 
->[!IMPORTANT]
+>[!CAUTION]
 >
->Para habilitar a personalização completa ou básica do URL, entre em contato com a Adobe e forneça sua lista de domínios aceitos. Isso é necessário para ajudar a impedir redirecionamentos inseguros.
+>* Para habilitar a personalização completa ou básica do URL, entre em contato com a Adobe e forneça sua lista de domínios aceitos. Isso é necessário para ajudar a impedir redirecionamentos inseguros.
+>
+>* URLs gerados dinamicamente — onde todo o URL ou domínio base é resolvido a partir de um atributo de perfil no momento do envio — têm uma limitação de rastreamento conhecida: o Journey Optimizer não pode rastrear os cliques desses links de maneira confiável, e os **dados de cliques podem não aparecer nos relatórios do jornada ou da campanha**. Isso ocorre porque o redirecionamento do rastreamento é aplicado em tempo de design, antes que o URL final seja conhecido. Quando o valor resolvido é diferente por recipient, a cadeia de redirecionamento é interrompida e os cliques ficam sem registro. Além disso, a URL resolvida deve começar com `http` ou `https` para cada destinatário — caso contrário, o rastreamento será ignorado silenciosamente para esse link. Para manter um rastreamento de cliques confiável, use uma das seguintes abordagens:
+>
+>   * Use uma URL base fixa e acrescente apenas parâmetros personalizados (por exemplo, `https://www.example.com/page?uid={{profile.person.crmid}}`).
+>   
+>   * Pré-gere um URL personalizado por recipient, armazene-o como um atributo de perfil e faça referência a ele no seu conteúdo de email.
 
 ## Personalizar parâmetros de rastreamento do URL {#personalize-url-tracking-parameters}
 

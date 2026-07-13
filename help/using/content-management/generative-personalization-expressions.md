@@ -12,9 +12,9 @@ feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: f46a758de27bcc49e7c370dac7bd8108d17803b5
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: 1540
 ht-degree: 2%
 
 ---
@@ -29,8 +29,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Antes de começar a usar esse recurso, leia as [Medidas de Proteção e Limitações](gs-generative.md#generative-guardrails) relacionadas.
-></br>
+>Antes de começar a usar esse recurso, consulte as [Medidas de proteção e limitações](gs-generative.md#generative-guardrails) relacionadas.
 >
 >Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
 
@@ -41,7 +40,7 @@ O [!UICONTROL Assistente de IA] ajuda você a gerar uma nova personalização a 
 * **[!UICONTROL Editor do Personalization]** — onde quer que o editor esteja disponível entre canais (linha de assunto, corpo e outros campos que o abrem). Esse é o caminho geral para a personalização assistida por IA. Para saber onde e como abrir o editor, consulte [Adicionar personalização](../personalization/personalization-build-expressions.md#where).
 * **Barra de ferramentas do Designer de email** — ao criar emails no Designer de email, selecione um componente e use **[!UICONTROL Adicionar expressão]** na barra de ferramentas contextual para abrir o assistente em uma caixa de ferramentas sem abrir primeiro o editor completo. Esse ponto de entrada não está disponível fora da criação de email. Consulte [Gerar a partir do Designer de email](#generate-email-designer).
 
-Para obter mais detalhes sobre a configuração e os idiomas do Assistente de IA, consulte [Introdução ao Assistente de IA](gs-generative.md). Para conceitos de personalização, consulte [Introdução à personalização](../personalization/personalize.md). Para ideias de prompt, consulte [Práticas recomendadas de prompt da IA](ai-assistant-prompting-guide.md).
+Para obter mais detalhes sobre a configuração e os idiomas do Assistente de IA, consulte [Introdução ao Assistente de IA](gs-generative.md). Para conceitos de personalização, consulte [Introdução à personalização](../personalization/personalize.md). Para gravar prompts que produzem expressões utilizáveis, consulte [Gravar prompts efetivos para expressões de personalização](#prompt-best-practices). Para obter ideias de prompt de geração de conteúdo (tom, estilo, marca), consulte [Práticas recomendadas de prompt da IA](ai-assistant-prompting-guide.md).
 
 Dependendo do contexto da campanha ou da jornada, o assistente pode trabalhar com dados e construir o [!UICONTROL Personalization Editor] que já está exposto, por exemplo, atributos de perfil, associação de segmento, funções auxiliares e fontes de personalização relacionadas.
 
@@ -145,3 +144,37 @@ No Designer de Email, você pode usar o [!UICONTROL Assistente de IA para expres
    * Refine a expressão no editor completo - clique no ícone ![Editar](assets/do-not-localize/Smock_Edit_18_N.svg "Editar") para abrir o **[!UICONTROL Editor do Personalization]**.
 
 1. Quando estiver satisfeito com o resultado, clique em **[!UICONTROL Inserir]** para adicionar a expressão ao seu conteúdo.
+
+## Gravar prompts efetivos para expressões de personalização {#prompt-best-practices}
+
+Os prompts para expressões de personalização diferem dos prompts de geração de conteúdo, que se concentram no tom, estilo e marca. Como o assistente cria a lógica do modelo que resolve em relação ao perfil e aos dados contextuais, seu prompt deve descrever essa lógica com precisão. Comece com a experiência do cliente que você deseja fornecer e a expresse em termos que o assistente pode traduzir em uma expressão.
+
+Um prompt efetivo geralmente define quatro elementos:
+
+* **Fonte de dados** — o atributo de perfil, os dados de contexto, o segmento, a oferta ou outro recurso a ser avaliado. Inclua o caminho de campo exato quando souber, como `profile.person.name.firstName`.
+* **Condição** — a lógica a ser aplicada, por exemplo, se um valor existe ou se corresponde a um critério específico.
+* **Saída** — o que exibir quando a condição for atendida, incluindo qualquer formato necessário.
+* **Fallback** — o que exibir quando os dados estiverem ausentes ou a condição não for atendida.
+
+Por exemplo, uma solicitação para *pegar a data de renovação do cliente, adicionar um ano, formatá-la como MM/dd/aa e não exibir nada quando a data de renovação estiver ausente* fornece uma fonte de dados, uma transformação, um formato de saída e um fallback — tudo o que o assistente precisa para produzir uma expressão utilizável.
+
+### Recomendações {#prompt-recommendations}
+
+Para obter os resultados mais relevantes:
+
+* Mantenha cada prompt focado em uma única regra de personalização em vez de combinar várias regras não relacionadas em uma solicitação.
+* Referencie somente campos, fragmentos, ofertas e conjuntos de dados existentes em seu ambiente. O assistente trabalha com o que o editor expõe e não cria fontes de dados para você.
+* Descreva o comportamento de fallback para dados opcionais ou possivelmente ausentes, de modo que a expressão seja resolvida normalmente para cada perfil.
+* Indique a estrutura de saída esperada explicitamente quando for importante; por exemplo, as chaves de uma carga de oferta devem retornar como JSON.
+* Ao editar um código existente, forneça somente a expressão relevante como contexto em vez de uma mensagem inteira e use **[!UICONTROL Explicar]** para entender o código antes de aplicar uma **[!UICONTROL Correção]** ou outra alteração.
+
+## Requisitos de dados e configuração {#requirements}
+
+O assistente gera expressões a partir dos recursos que o [!UICONTROL Editor do Personalization] já expõe, portanto, os dados subjacentes devem ser configurados e estar disponíveis. Se um prompt não retornar uma expressão utilizável, confirme se:
+
+* o campo referenciado pertence a um esquema que está ativo em seu ambiente,
+* qualquer fragmento que você deseja reutilizar for publicado,
+* qualquer conjunto de dados usado para uma pesquisa está ativado para pesquisas e
+* sua solicitação está relacionada à personalização do modelo e não a outra tarefa.
+
+Quando a configuração estiver correta, refine o prompt esclarecendo a fonte de dados, a condição, a saída e o fallback e, em seguida, gere novamente.
