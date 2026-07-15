@@ -10,23 +10,16 @@ level: Intermediate
 keywords: expressão, editor, sintaxe, personalização
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 TQID: https://experienceleague.adobe.com/kZEw2lITdt8SMWMe-UT2vPzdoiAjB2vbItmK9zt-WJo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: ac5d9310-7772-40fb-9d78-864562e1bfd6id: e51e8901-97d9-4f7d-a835-503025a90e32
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1325
-ht-degree: 3%
+source-wordcount: 1979
+ht-degree: 2%
 
 ---
 
@@ -320,3 +313,80 @@ Se um nome de campo de esquema XDM contiver um hífen (por exemplo, `order-total
 ```
 
 Para expressões prontas para uso que você pode copiar diretamente para o seu conteúdo, consulte [receitas do Personalization](personalization-recipes.md).
+
+## Referência rápida {#quick-reference}
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+>[!BEGINTABS]
+
+>[!TAB Visão geral]
+
+**TL;DR**
+
+Esta página explica as sintaxes de personalização do Handlebars e do PQL no Journey Optimizer — suas regras gerais, palavras-chave reservadas, estrutura de namespace, sistema de tipos e práticas recomendadas para evitar erros comuns de tempo de execução.
+
+**Intenções**
+
+* Entenda quando usar a sintaxe Handlebars (`{{...}}`) vs. PQL (`{%= ... %}`)
+* Aplicar regras gerais de sintaxe: caracteres reservados, diferenciação entre maiúsculas e minúsculas, escape do HTML, tratamento de barra invertida
+* Evitar palavras-chave reservadas e chaves de atributo especiais (nomes hifenizados, IDs de evento numéricas) corretamente
+* Aplicar coerção de tipo ao comparar ou transmitir valores de tipos incompatíveis
+* Personalização de referência a partir dos namespaces disponíveis: Perfil, Público-alvo, Ofertas
+* Seguir as práticas recomendadas para evitar os erros mais comuns de tempo de execução e validação
+
+>[!TAB Glossário]
+
+* **Handlebars**: a `{{...}}` sintaxe de modelo usada para renderizar atributos, looping sobre matrizes e chamar auxiliares de bloco; saída HTML-escapes por padrão. *(específico do produto)*
+* **Profile Query Language (PQL)**: a sintaxe de expressão `{%= ... %}` usada para chamar funções internas (por exemplo, `upperCase()`, `formatDate()`) e avaliar expressões condicionais. *(específico do produto)*
+* **Traço triplo (`{{{ }}}`)**: uma variante de sintaxe Handlebars que gera valores sem escape do HTML, útil quando o próprio valor contém caracteres HTML que não devem ser codificados.
+* **Palavras-chave reservadas**: identificadores PQL (`next`, `last`, `this`) que não podem ser usados diretamente como nomes de campos ou variáveis; devem ser colocados em acentos graves quando um campo de esquema usar um desses nomes.
+* **Coerção de tipo**: a conversão explícita de um valor de um tipo de dados para outro (por exemplo, sequência → número) usando funções como `stringToNumber()` ou `toBool()`, necessária antes da comparação ou aritmética no PQL.
+* **Namespace**: o agrupamento de nível superior de dados de personalização — Perfil, Público-alvo, Ofertas — cada um com sua própria estrutura de caminho e regras de acesso.
+* **Auxiliar de bloco**: um auxiliar Handlebars identificado por `#` antes do nome do auxiliar e um `/` de fechamento correspondente, usado para construções de bloco como `{{#each}}`.
+
+>[!TAB Terminologia]
+
+* **Nome canônico:** Handlebars — da sintaxe `{{...}}`; PQL — da sintaxe `{%= ... %}`
+* **Não confunda:** `{{...}}` (Handlebars — renderiza variáveis e auxiliares, HTML-escaped) ≠ `{%= ... %}` (PQL — avalia funções e expressões) ≠ `{%#if%}` / `{%/if%}` (sintaxe de bloco condicional, chaves percentuais)
+* **Não confundir:** `{{profile.person.name}}` (stash único — saída com escape de HTML) ≠ `{{{profile.person.name}}}` (stash triplo — saída sem escape)
+* **Não confunda:** escape de backtick de palavra-chave reservada (aplica-se a `{{...}}` e `{%= ... %}`) ≠ escape de backtick de chave hifenizada (suportado somente em `{%= ... %}` expressões PQL, não em `{{...}}`)
+* **Não confundir:** `=` (operador de igualdade do PQL — correto) ≠ `==` (PQL inválido — causa um erro de sintaxe)
+
+>[!TAB Medidas de proteção e limitações]
+
+* A variável `xEvent` não está disponível em expressões de personalização; qualquer referência a `xEvent` resulta em falhas de validação.
+* As chamadas de função PQL dentro de `{{...}}` blocos Handlebars falharão; use `{%= ... %}`.
+* A sintaxe condicional `{% if %}` / `{% elseif %}` / `{% endif %}` não tem suporte; use `{%#if%}` / `{%else if%}` / `{%/if%}`.
+* O escape de backtick para nomes de campo hifenizados só tem suporte em expressões PQL (`{%= ... %}`). Na interpolação de Handlebars `{{...}}`, a sintaxe de backtick falha — mas nomes de campos hifenizados ainda podem ser referenciados diretamente (por exemplo, `{{profile.my-custom-field}}`).
+* As palavras-chave reservadas (`next`, `last`, `this`) devem ser colocadas entre acentos graves quando usadas como nomes de campo de esquema; aplica-se a `{{...}}` e `{%= ... %}`.
+* Não há suporte para a barra invertida única `\` como argumento de função literal; use a barra invertida dupla `\\`.
+* O PQL é fortemente tipado; tipos incompatíveis em comparações ou aritmética exigem conversão explícita usando `stringToNumber()`, `toBool()` ou funções de coerção semelhantes.
+
+>[!TAB Perguntas frequentes]
+
+**P: Quando devo usar `{{...}}` vs. `{%= ... %}`?**
+
+Use `{{...}}` (Handlebars) para renderizar valores de atributo, executar um loop sobre matrizes e chamar auxiliares de bloco. Use o `{%= ... %}` (PQL) para chamar funções internas como `upperCase()` e `formatDate()` e para avaliar expressões condicionais.
+
+**P: Como saída um valor sem codificação HTML?**
+
+Use o `{{{ }}}` de três stash em vez de `{{...}}`. Saída de HTML-escapes Handlebars de chave única (por exemplo, `&` torna-se `&amp;`); o escape de bypass de três stash.
+
+**P: Qual é o operador de igualdade correto no PQL?**
+
+Use um único `=` para comparações de igualdade no PQL. Usar `==` é um erro de sintaxe.
+
+**P: Como faço referência a um campo de esquema cujo nome é uma palavra-chave reservada (por exemplo, `next`, `last`, `this`)?**
+
+Envolva-o em acentos graves: `{{profile.person.\`next\`.name}`. Isso se aplica a caminhos Handlebars e a expressões PQL.
+
+**P: Posso chamar funções PQL dentro de `{{...}}` Blocos Handlebars?**
+
+Não. `{{...}}` resolve somente variáveis Handlebars e auxiliares. Uma função PQL dentro de `{{...}}` causa um erro &quot;não foi possível encontrar auxiliar&quot;. Em vez disso, use `{%= functionName(...) %}`.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 7fa07aa5 -->

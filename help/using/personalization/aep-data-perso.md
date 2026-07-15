@@ -11,23 +11,16 @@ level: Intermediate
 keywords: expressão, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 TQID: https://experienceleague.adobe.com/DRnUwE5hO6ysGY9D9NeqgAHESjd8HHsCpiHDeqHLiJo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-  - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: f0577040-fadd-46a1-b0ae-9c7f828bb2da
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 784
-ht-degree: 4%
+source-wordcount: 1335
+ht-degree: 3%
 
 ---
 
@@ -76,7 +69,7 @@ Depois que um conjunto de dados é habilitado para personalização de pesquisa,
 
    +++Onde recuperar uma ID de conjunto de dados?
 
-   As IDs dos conjuntos de dados podem ser recuperadas na interface do usuário do Adobe Experience Platform. Saiba como trabalhar com conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
+   As IDs dos conjuntos de dados podem ser recuperadas na interface do usuário do Adobe Experience Platform. Saiba como trabalhar com conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
@@ -109,7 +102,7 @@ Depois que um conjunto de dados é habilitado para personalização de pesquisa,
 
      +++Onde recuperar uma ID de campo?
 
-     As IDs de campos podem ser recuperadas ao visualizar um conjunto de dados na interface do usuário do Adobe Experience Platform. Saiba como visualizar conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     As IDs de campos podem ser recuperadas ao visualizar um conjunto de dados na interface do usuário do Adobe Experience Platform. Saiba como visualizar conjuntos de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
@@ -124,3 +117,72 @@ Depois que um conjunto de dados é habilitado para personalização de pesquisa,
 
 
    ![](assets/aep-data-sample.png)
+
+## Referência rápida {#quick-reference}
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+>[!BEGINTABS]
+
+>[!TAB Visão geral]
+
+**TL;DR**
+
+Esta página ensina como usar a função auxiliar `datasetLookup` no editor de personalização do Journey Optimizer para recuperar campos de conjuntos de dados de registro do Adobe Experience Platform e incorporá-los à personalização de mensagens.
+
+**Intenções**
+
+* Ativar um conjunto de dados de registro do AEP para personalização de pesquisa
+* Adicionar a função auxiliar `datasetLookup` a uma expressão de personalização
+* Configure a função com uma ID de conjunto de dados, chave de junção, alias de resultado e sinalizador obrigatório
+* Referência de campos de conjunto de dados recuperados em expressões de personalização usando o alias do resultado
+* Testar conteúdo personalizado usando o fluxo de conteúdo Simular
+
+>[!TAB Glossário]
+
+* **datasetLookup**: uma função auxiliar no editor de personalização que recupera valores de campo de um conjunto de dados de registro do AEP ingressando em uma chave especificada. *(específico do produto)*
+* **Conjunto de dados de registro**: um tipo de conjunto de dados do Adobe Experience Platform que contém dados de nível de registro que podem ser habilitados para personalização de pesquisa. *(específico do produto)*
+* **Personalização da pesquisa**: o processo de buscar campos de um conjunto de dados de registro do AEP no momento do envio para personalizar o conteúdo da mensagem. *(específico do produto)*
+* **parâmetro de resultado**: um alias arbitrário atribuído na chamada `datasetLookup`; usado para fazer referência a todos os valores de campo recuperados em expressões subsequentes (por exemplo, `{{result.fieldId}}`).
+* **parâmetro obrigatório**: um sinalizador booleano em `datasetLookup` que controla se a entrega de mensagens requer que uma chave correspondente seja encontrada no conjunto de dados.
+
+>[!TAB Terminologia]
+
+* **Nome canônico:** datasetLookup — variantes: pesquisa de conjunto de dados, auxiliar de pesquisa de conjunto de dados, função auxiliar de pesquisa de conjunto de dados
+* **Sinônimos:** &quot;datasetLookup&quot; = &quot;função auxiliar de pesquisa do conjunto de dados&quot;
+* **Não confunda:** &quot;datasetId&quot; (identificador do conjunto de dados do AEP) ≠ &quot;id&quot; (a coluna de origem usada para unir com a identidade principal do conjunto de dados) ≠ &quot;result&quot; (o alias para referenciar valores de campos recuperados)
+
+>[!TAB Medidas de proteção e limitações]
+
+* O recurso está em Disponibilidade limitada — ainda não está disponível para todos os clientes.
+* A função auxiliar `datasetLookup` nos fragmentos de expressão está disponível somente para um conjunto limitado de clientes; entre em contato com o representante da Adobe para obter acesso.
+* Os conjuntos de dados devem ser habilitados explicitamente para personalização de pesquisa antes de serem usados com `datasetLookup`.
+* Mantenha o número de campos recuperados por chamada `datasetLookup` abaixo de 50 para evitar impacto na taxa de transferência (limite recomendado — nenhum limite rígido é declarado na página).
+
+>[!TAB Perguntas frequentes]
+
+**P: Qual é a função auxiliar `datasetLookup`?**
+
+É uma função auxiliar no editor de personalização que recupera valores de campo de conjuntos de dados de registro do Adobe Experience Platform, permitindo que você incorpore esses dados na personalização da mensagem.
+
+**P: O que acontece se `required=false` e nenhuma chave correspondente for encontrada no conjunto de dados?**
+
+A mensagem ainda poderá ser entregue. É recomendável considerar valores de fallback ou padrão no conteúdo da mensagem ao usar `required=false`.
+
+**P: O que acontece se `required=true` e nenhuma chave correspondente for encontrada?**
+
+A mensagem só será entregue se uma chave correspondente for encontrada no conjunto de dados.
+
+**P: Onde encontro a ID do conjunto de dados e as IDs de campo necessárias para a sintaxe?**
+
+As IDs dos conjuntos de dados podem ser recuperadas na interface do usuário do Adobe Experience Platform em Conjuntos de dados. As IDs de campo ficam visíveis ao visualizar um conjunto de dados e navegar pelo esquema de registro na interface do usuário do AEP.
+
+**P: Como testar o conteúdo que usa o `datasetLookup`?**
+
+Use o botão **Simular conteúdo** para testar com dados de entrada de exemplo ou geração automática de IA, ou selecione **Simular conteúdo (perfis do AEP)** na lista suspensa para visualizar com perfis de teste.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 89d99e47 -->

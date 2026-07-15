@@ -1,34 +1,50 @@
 ---
-source-git-commit: c81615909e033d52fbed56f0195467a3e346a4be
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 1%
+source-wordcount: '1406'
+ht-degree: 0%
 
 ---
 # aumentedAIContent
 
-Adiciona uma opção de Assistente de IA gerada automaticamente ao final de um ou mais arquivos de marcação no repositório da documentação do Journey Optimizer.
+Acrescenta uma seção de **Referência rápida** gerada automaticamente ao final de um ou mais arquivos de marcação no repositório da documentação do Journey Optimizer.
 
 ## Repositório de destino
 
 `help/using/` (relativo à raiz do repositório)
 
-## Sintaxe do acordeão (Experience League)
+## Sintaxe de seção e guia (Experience League)
+
+### Título da seção
 
 ```
-+++Title of the accordion
+## Quick reference {#quick-reference}
+```
+
+### Guias
+
+```
+>[!BEGINTABS]
+
+>[!TAB Tab name]
 
 Content here — any standard markdown is valid.
 
-+++
+>[!TAB Another tab]
+
+Content here.
+
+>[!ENDTABS]
 ```
 
 **Regras:**
-- `+++Title` em uma linha — o título segue imediatamente `+++`
-- `+++` sozinho em uma linha fecha o acordeão
-- Linha em branco antes da abertura de `+++` e após o fechamento de `+++`
 
-&#x200B;---
+- `>[!BEGINTABS]` e `>[!ENDTABS]` cada um na sua própria linha, cercado por linhas em branco
+- `>[!TAB Name]` na sua própria linha, seguido por uma linha em branco antes do conteúdo
+- Os nomes das guias são letras maiúsculas e minúsculas (1-3 palavras)
+- Linha em branco antes de `>[!BEGINTABS]` e depois de `>[!ENDTABS]`
+
+---
 
 ## Fluxo de trabalho
 
@@ -46,71 +62,103 @@ Se uma pasta for fornecida, liste os `.md` arquivos encontrados e confirme antes
 
 1. **Leia o arquivo** por completo.
 2. **Entenda o tópico da página** — que recurso, conceito ou tarefa ele aborda?
-3. **Gere o conteúdo do acordeão** usando as regras de geração de conteúdo abaixo.
+3. **Gere o conteúdo da seção** usando as regras de geração de conteúdo abaixo.
 4. **Executar a lista de verificação de validação de pós-geração** (veja abaixo) — não ignorar.
-5. **Verifique** se uma opção de IA já existe no final (procure `+++AI Knowledge Reference` perto do final). Em caso afirmativo, perguntar ao usuário: substituir ou ignorar?
+5. **Verifique** se já existe uma seção de Referência rápida no final (procure `## Quick reference` próximo ao final). Em caso afirmativo, perguntar ao usuário: substituir ou ignorar?
 
-### Etapa 3 — Anexar o acordeão
+### Etapa 3 — verificar todas as reclamações em relação ao corpo da página
+
+Antes de anexar, leia novamente a declaração de seção gerada por declaração. Esta etapa é **obrigatória e não pode ser ignorada**, mesmo para arquivos curtos. Corrija qualquer falha antes de prosseguir para a Etapa 4.
+
+**Terminologia e rótulos**
+
+- [ ] Cada termo, rótulo e nome de interface na seção aparece no corpo da página — não é importado de outra página ou inferido a partir do conhecimento geral do produto
+- [ ] Nenhum sinônimo é listado, a menos que ambos os formulários apareçam na página
+- [ ] Cada entrada &quot;Não confunda&quot; faz referência apenas aos conceitos mencionados nesta página
+
+**Medidas de proteção e limites**
+
+- [ ] Cada valor numérico corresponde exatamente ao corpo da página
+- [ ] Um limite é chamado de **hard** somente se o corpo da página usar essa palavra ou implicar claramente que o sistema a impõe (por exemplo, &quot;não pode exceder&quot;, &quot;máximo ... permitido&quot;, &quot;apenas ... com suporte&quot;)
+- [ ] Um limite é chamado de **recomendado** somente se o corpo da página usar essa palavra ou uma equivalente (&quot;para melhor desempenho&quot;, &quot;é recomendado&quot;)
+- [ ] Se o corpo da página não fornecer nenhum qualificador, a seção não fornecerá nenhum — não invente um
+- [ ] Nenhum meta-comentário sobre o que a página de origem diz ou não diz (por exemplo, &quot;nenhum número específico é declarado nesta página&quot;)
+
+**Definições de glossário**
+
+- [ ] Nenhuma definição contém detalhes técnicos ausentes no corpo da página
+- [ ] Nenhuma entrada elabora usando informações de outras páginas no conjunto de documentação
+
+**Perguntas frequentes**
+
+- [ ] Cada detalhe específico (recursos da interface, nomes de botão, nomes de campo, sequências de etapas) é declarado no corpo da página, não inferido ou importado de outras páginas
+- [ ] Nenhuma resposta introduz informações que o corpo da página não endereça
+
+**Regra de correção:** Se qualquer verificação falhar, corrija o conteúdo **antes** ao anexar. Registre cada correção no relatório de Etapa 5.
+
+---
+
+### Etapa 4 — Anexar a seção
 
 Use o bloco de abertura fixo e o modelo completo definidos nas **Regras de geração de conteúdo** abaixo. Anexe no final do arquivo, seguido imediatamente pelo comentário de sincronização:
 
 ```
-<!-- ai-accordion-version: 1 | source-hash: [first 8 chars of MD5 of file content before accordion] -->
+<!-- ai-section-version: 1 | source-hash: [first 8 chars of MD5 of file content before section] -->
 ```
 
-Este comentário permite que ferramentas e autores futuros detectem quando o corpo da página foi deslocado do acordeão. Não modifique nenhum outro conteúdo.
+Esse comentário permite que ferramentas e autores futuros detectem quando o corpo da página foi deslocado da seção. Não modifique nenhum outro conteúdo.
 
-### Etapa 4 — Relatório
+### Etapa 5 — Relatório
 
 - Arquivos modificados ✓
-- Arquivos ignorados + motivo (já tem a opção acordeão / vazia / página de índice)
+- Arquivos ignorados + motivo (já tem seção / vazia / página de índice)
 - Quaisquer avisos de validação gerados durante a Etapa 2
 
-&#x200B;---
+---
 
 ## Regras de geração de conteúdo
 
-Analise a página e produza as seções abaixo de **em ordem** como listas de marcadores de marcação. Ignore as seções em que nenhum conteúdo significativo pode ser extraído.
+Analise a página e produza as guias abaixo de **em ordem**. Ignore totalmente uma guia se nenhum conteúdo significativo puder ser extraído para ela.
 
-### Título do acordeão e abertura fixa — textualmente, não modifique
+### Título da seção e abertura fixa — textualmente, não modificar
 
-Cada acordeão deve começar com este bloco exato. Copie como está; não parafraseie, condense ou reordene:
+Cada seção de Referência rápida deve começar com este bloco exato. Copie como está; não parafraseie, condense ou reordene:
 
 ```
-+++ AI Knowledge Reference
+## Quick reference {#quick-reference}
 
 This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
 
 For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 ```
 
-As seções de conteúdo gerado seguem imediatamente após esses dois parágrafos.
+O bloco `>[!BEGINTABS]` segue imediatamente após esses dois parágrafos.
 
-### 1. TL;DR
+### Guia 1 - Visão geral
 
-Um resumo de frase do que a página ensina ou ativa.
-
-```
-- **TL;DR:** [one sentence]
-```
-
-### &#x200B;2. Intenções
-
-3 a 6 coisas que um usuário pode realizar após ler esta página.
+Resumo de TL;DR em uma frase sobre o que a página ensina ou habilita, seguido de 3 a 6 coisas que um usuário pode realizar após ler esta página.
 
 ```
-**Intents:**
-- [action]
-- [action]
+>[!TAB Overview]
+
+**TL;DR**
+
+[one sentence]
+
+**Intents**
+
+* [action]
+* [action]
 ```
 
-### &#x200B;3. Glossário
+### Guia 2 - Glossário
 
 Termos principais específicos desta página/recurso com definições curtas. Sinalizar termos específicos do produto.
 
 ```
-**Glossary:**
-- **[Term]**: [definition] *(product-specific)*
+>[!TAB Glossary]
+
+* **[Term]**: [definition] *(product-specific)*
 ```
 
 Inclua somente termos relevantes a esta página. Não compartilhe com termos de marketing genéricos.
@@ -123,47 +171,52 @@ Se a página abranger qualquer forma de teste, pré-visualização ou execução
 
 Inclua apenas os modos presentes na página. Copie o termo preciso do produto no corpo da página — não substitua &quot;perfis sintéticos&quot;, &quot;dados falsos&quot; ou &quot;sem dados reais&quot; por nenhum desses.
 
-### &#x200B;4. Medidas de proteção
-
-Limitações, pré-requisitos, permissões ou restrições mencionadas na página.
-
-```
-**Guardrails:**
-- [guardrail]
-```
-
-**Regras de precisão da grade de proteção — obrigatório:**
-
-- **Qualifique todos os limites numéricos** como recomendados ou rígidos. Exemplo: &quot;Máximo de 10 pesquisas de conjunto de dados por mensagem (limite rígido)&quot; e não &quot;Máximo de 10 pesquisas de conjunto de dados&quot;.
-- **Qualifique cada taxa de transferência ou figura** com seu escopo. Exemplo: &quot;Limite de TPS de 150.000 mensagens/hora (por sandbox)&quot; e não &quot;Limite de 150.000 mensagens/hora&quot;.
-- **Verifique todas as medidas de proteção em relação ao corpo da página** antes de incluí-la. Se a página disser 10 e o acordeão disser 5, o acordeão está errado. O corpo da página é autoritativo.
-- **Não inferir as medidas de proteção** que não estão indicadas na página. Se uma restrição existir, mas a página não a indicar, omita-a.
-
-### &#x200B;5. Terminologia
+### Guia 3 - Terminologia
 
 Nomes canônicos, siglas, variantes aceitas, sinônimos, desambiguação. Principalmente para normalização de pipeline de IA.
 
 ```
-**Terminology:**
-- Canonical name: [name] — Acronym: [acronym] — variants: [list]
-- Synonyms: "[term A]" = "[term B]"
-- Do not confuse: "[term]" ≠ "[other term]"
+>[!TAB Terminology]
+
+* **Canonical name:** [name] — Acronym: [acronym] — variants: [list]
+* **Synonyms:** "[term A]" = "[term B]"
+* **Do not confuse:** "[term]" ≠ "[other term]"
 ```
 
 **Regra de precisão de status e ciclo de vida:**
 Quando a página descreve um ciclo de vida (status da jornada, status da mensagem, estados da campanha etc.), copie os rótulos de status exatos do corpo da página. Não parafraseie. Use entradas &quot;Não confunda&quot; para desfazer a ambiguidade de status que compartilham uma palavra raiz, mas têm significado distinto. Exemplo:
 
 ```
-- Do not confuse: "Stop" (user-initiated action) ≠ "Stopped" (resulting status) ≠ "Close" (action on Live journey allowing in-progress profiles to finish) ≠ "Closed" (resulting status)
+* Do not confuse: "Stop" (user-initiated action) ≠ "Stopped" (resulting status) ≠ "Close" (action on Live journey allowing in-progress profiles to finish) ≠ "Closed" (resulting status)
 ```
 
-### &#x200B;6. Perguntas frequentes
+### Guia 4 — Medidas de proteção e limitações
 
-3 a 6 perguntas que um usuário pode fazer, com respostas curtas.
+Limitações, pré-requisitos, permissões ou restrições mencionadas na página.
 
 ```
-**FAQ:**
-- **Q: [question]** — [short answer]
+>[!TAB Guardrails & Limitations]
+
+* [guardrail]
+```
+
+**Regras de precisão da grade de proteção — obrigatório:**
+
+- **Qualifique todos os limites numéricos** como recomendados ou rígidos. Exemplo: &quot;Máximo de 10 pesquisas de conjunto de dados por mensagem (limite rígido)&quot; e não &quot;Máximo de 10 pesquisas de conjunto de dados&quot;.
+- **Qualifique cada taxa de transferência ou figura** com seu escopo. Exemplo: &quot;Limite de TPS de 150.000 mensagens/hora (por sandbox)&quot; e não &quot;Limite de 150.000 mensagens/hora&quot;.
+- **Verifique todas as medidas de proteção em relação ao corpo da página** antes de incluí-la. Se a página disser 10 e a seção disser 5, a seção está errada. O corpo da página é autoritativo.
+- **Não inferir as medidas de proteção** que não estão indicadas na página. Se uma restrição existir, mas a página não a indicar, omita-a.
+
+### Guia 5 — Perguntas frequentes
+
+3 a 6 perguntas que um usuário pode fazer, com respostas curtas. Formate cada uma delas como um cabeçalho em negrito de pergunta seguido por uma resposta de parágrafo.
+
+```
+>[!TAB FAQ]
+
+**Q: [question]**
+
+[short answer]
 ```
 
 **Regra de precisão de perguntas frequentes:**
@@ -176,14 +229,15 @@ As respostas devem usar as mesmas opções de verbo e substantivo que o corpo da
 - **não** inventar conteúdo não suportado pela página
 - **não** usar os termos imprecisos a seguir, a menos que eles apareçam textualmente no corpo da página: &quot;sintético&quot;, &quot;dados falsos&quot;, &quot;sem dados reais&quot;, &quot;reverter&quot;, &quot;reverter&quot; (ao descrever as transições de estado do produto)
 
-&#x200B;---
+---
 
 ## Lista de verificação de validação pós-geração
 
-Execute esta lista de verificação em todas as opções antes de anexar. Sinalize ao usuário qualquer falha antes de continuar.
+Execute esta lista de verificação em cada seção antes de anexar. Sinalize ao usuário qualquer falha antes de continuar.
 
 ### Verificação da grade de proteção
-- [ ] Todos os valores numéricos no acordeão existem textualmente ou são deriváveis do corpo da página
+
+- [ ] Todos os valores numéricos na seção existem textualmente ou são derivados do corpo da página
 - [ ] Todo limite é qualificado conforme recomendado ou fixo
 - [ ] Cada figura de taxa de transferência inclui seu escopo (sandbox/organização/instância)
 
@@ -196,55 +250,68 @@ Execute esta lista de verificação em todas as opções antes de anexar. Sinali
 - [ O Glossário de ] não contém termos de marketing genéricos não relacionados à página
 - [ As respostas de perguntas frequentes do ] não apresentam informações ausentes na página
 
-Se alguma verificação falhar, corrija a opção antes de anexar. Registre a correção no relatório Etapa 4.
+Se alguma verificação falhar, corrija a seção antes de anexar. Registre a correção no relatório Etapa 4.
 
-&#x200B;---
+---
 
 ## Sincronizar responsabilidade
 
-O acordeão é uma derivada do corpo da página em um ponto no tempo. Ele deve ser tratado como parte da página.
+A seção Referência rápida é uma derivada do corpo da página em um ponto no tempo. Ele deve ser tratado como parte da página.
 
 **Quando o corpo da página for atualizado (liberar PRs, correções etc.):**
-- Se a atualização alterar qualquer garantia, limite, rótulo de status ou modo de validação descrito no acordeão → regenerar ou atualizar manualmente o acordeão na mesma PR.
-- Se a atualização não estiver relacionada ao conteúdo do acordeão (por exemplo, etapas de procedimento, atualizações de captura de tela) → o acordeão pode permanecer inalterado, mas analise-o brevemente.
 
-O comentário de sincronização anexado após o acordeão (`<!-- ai-accordion-version -->`) é o sinal: se o conteúdo do arquivo antes do acordeão tiver sido alterado desde que esse hash foi gravado, o acordeão será um candidato para revisão.
+- Se a atualização alterar qualquer garantia, limite, rótulo de status ou modo de validação descrito na seção → gere novamente ou atualize manualmente a seção na mesma PR.
+- Se a atualização não estiver relacionada ao conteúdo da seção (por exemplo, etapas de procedimento, atualizações de captura de tela) → a seção pode permanecer inalterada, mas revise-a brevemente.
 
-&#x200B;---
+O comentário de sincronização anexado após a seção (`<!-- ai-section-version -->`) é o sinal: se o conteúdo do arquivo antes da seção tiver sido alterado desde que esse hash foi gravado, a seção será candidata para revisão.
+
+---
 
 ## Modelo completo
 
 ```markdown
-+++ AI Knowledge Reference
+## Quick reference {#quick-reference}
 
 This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
 
 For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
-- **TL;DR:** [one sentence]
+>[!BEGINTABS]
 
-**Intents:**
-- [intent]
+>[!TAB Overview]
 
-**Glossary:**
-- **[Term]**: [definition]
+**TL;DR**
 
-**Guardrails:**
-- [guardrail — type: recommended|hard — scope: sandbox|org]
+[one sentence]
 
-**Terminology:**
-- Canonical name: [name] — Acronym: [acronym] — variants: [variants]
-- Synonyms: "[a]" = "[b]"
-- Do not confuse: "[x]" ≠ "[y]"
+**Intents**
 
-**FAQ:**
-- **Q: [question]** — [short answer]
+* [intent]
 
-+++
-<!-- ai-accordion-version: 1 | source-hash: [hash] -->
+>[!TAB Glossary]
+
+* **[Term]**: [definition] *(product-specific)*
+
+>[!TAB Terminology]
+
+* **Canonical name:** [name] — Acronym: [acronym] — variants: [variants]
+* **Synonyms:** "[a]" = "[b]"
+* **Do not confuse:** "[x]" ≠ "[y]"
+
+>[!TAB Guardrails & Limitations]
+
+* [guardrail — type: recommended|hard — scope: sandbox|org]
+
+>[!TAB FAQ]
+
+**Q: [question]**
+
+[short answer]
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: [hash] -->
 ```
-
-&#x200B;---
 
 ## Notas
 

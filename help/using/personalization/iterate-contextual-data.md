@@ -10,23 +10,15 @@ level: Intermediate
 keywords: expressão, editor, handlebars, iteração, matrizes, contexto, personalização
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
 TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 3126
+source-wordcount: 3893
 ht-degree: 1%
 
 ---
@@ -103,7 +95,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Exemplo: itens do carrinho de um evento
 
-Se o [esquema de evento](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=pt-BR){target="_blank"}), você poderá exibir o conteúdo do carrinho conforme detalhado na amostra abaixo.
+Se o [esquema de evento](../event/experience-event-schema.md) incluir uma matriz `productListItems` (formato [XDM padrão](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}), você poderá exibir o conteúdo do carrinho conforme detalhado na amostra abaixo.
 
 +++ Exibir código de exemplo
 
@@ -1071,3 +1063,80 @@ Use o [modo de teste de jornada](../building-journeys/testing-the-journey.md) pa
 **Casos de uso do Personalization:** [Email de abandono de carrinho](personalization-use-case-helper-functions.md) | [Notificação do status do pedido](personalization-use-case.md)
 
 **Design da mensagem:** [Introdução ao design de email](../email/get-started-email-design.md) | [Criar notificações por push](../push/create-push.md) | [Criar mensagens SMS](../mobile/create-mobile-message.md) | [Visualize e teste seu conteúdo](../content-management/preview-test.md)
+
+## Referência rápida {#quick-reference}
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+>[!BEGINTABS]
+
+>[!TAB Visão geral]
+
+**TL;DR**
+
+Esta página explica como usar a sintaxe do Handlebars `{{#each}}` para executar o loop em matrizes de fontes contextuais — eventos, respostas de ação personalizadas, pesquisas de conjuntos de dados e propriedades técnicas — na personalização de mensagens e como trabalhar com matrizes na sintaxe de expressão de jornada ao configurar atividades de jornada.
+
+**Intenções**
+
+* Repita os dados da matriz de eventos (por exemplo, itens de carrinho, itens de pedido) na personalização da mensagem usando `{{#each}}`
+* Repetir em conjuntos de respostas de ação personalizada (por exemplo, recomendações de produto) nas mensagens
+* Iterar em matrizes de resultados de pesquisa do conjunto de dados em mensagens
+* Combinar dados de várias fontes contextuais em uma única mensagem personalizada
+* Transmita valores de matriz para parâmetros de ação personalizados usando a sintaxe de expressão de jornada
+* Usar matrizes como chaves de pesquisa nas atividades de Pesquisa de conjunto de dados
+* Aplicar práticas recomendadas para fallbacks de matriz vazia, nomeação de variáveis, desempenho e escopo de fragmento de expressão
+
+>[!TAB Glossário]
+
+* **Handlebars**: uma linguagem de modelos usada na personalização de mensagens do Journey Optimizer para iteração (`{{#each}}`) e renderização condicional (`{{#if}}`). *(específico do produto)*
+* **`{{#each}}`auxiliar**: sintaxe de Handlebars para iteração em uma matriz; cada iteração expõe o item atual por meio de uma variável nomeada (por exemplo, `|product|`). *(específico do produto)*
+* **Dados contextuais**: os dados disponíveis na hora de envio da mensagem de fontes de jornada — eventos, respostas de ação personalizadas, pesquisas de conjuntos de dados e propriedades técnicas de jornada — ao contrário dos atributos de perfil estáticos. *(específico do produto)*
+* **`currentEventField`**: Uma referência usada em expressões de jornada (não Handlebars) para fazer referência a cada item em uma matriz de eventos durante as operações de filtragem ou mapeamento.
+* **`currentActionField`**: usado em expressões de jornada para fazer referência a cada item em uma coleção de respostas de ação personalizada.
+* **`currentDataPackField`**: usado em expressões de jornada para fazer referência a cada item em uma coleção de fonte de dados.
+* **`serializeList`**: uma função de expressão de jornada que converte uma lista de valores em uma cadeia de caracteres delimitada (por exemplo, separada por vírgulas), adequada para uso como parâmetro de consulta.
+* **Identificador complementar**: um identificador de nível de jornada que distingue instâncias de jornada simultâneas acionadas pelo mesmo perfil; usado para filtrar uma matriz para o item relevante à instância atual.
+
+>[!TAB Terminologia]
+
+* **Nome canônico:** Iteração Handlebars — variantes: `{{#each}}` loop, cada loop, iteração de matriz
+* **Não confunda:** Handlebars `{{#each}}` sintaxe (usada no conteúdo da mensagem para iteração e exibição) ≠ sintaxe da expressão de jornada (usada na configuração da atividade de jornada — usa funções como `first`, `all`, `serializeList`)
+* **Não confundir:** `currentEventField` (expressões de jornada em matrizes de eventos) ≠ `currentActionField` (coleções de resposta de ação personalizada) ≠ `currentDataPackField` (coleções de fonte de dados)
+* **Não confunda:** `@index` / `@first` / `@last` (As variáveis especiais Handlebars, disponíveis somente em `{{#each}}` loops de conteúdo de mensagens) ≠ funções `first` / `head` (funções de expressão de jornada para extrair itens únicos, usadas na configuração da atividade de jornada)
+
+>[!TAB Medidas de proteção e limitações]
+
+* O Jornada não pode criar loops dinâmicos em que um nó de ação é executado várias vezes por item de array — isso é feito por design para evitar problemas de desempenho. Em vez disso, transmita toda a matriz ou uma lista serializada para uma única ação personalizada.
+* Mantenha as cargas úteis do evento abaixo do total de 50 KB.
+* As cargas de resposta de ação personalizada devem ter menos de 100 KB.
+* Limite o número de chaves de pesquisa do conjunto de dados e entidades retornadas para desempenho.
+* Os fragmentos de expressão não podem receber variáveis de escopo de loop (por exemplo, o item de iteração `{{#each}}` atual) como parâmetros. Essa é uma limitação conhecida. Em vez disso, use variáveis globais ou lógica em linha.
+* IDs de eventos numéricos devem ser encapsulados em acentos graves em caminhos de expressão (por exemplo, `` context.journey.events.`1697323153`.fieldName ``); sem acentos graves, o analisador do PQL gera um erro de sintaxe.
+
+>[!TAB Perguntas frequentes]
+
+**P: Qual é a diferença entre a sintaxe de Handlebars e a sintaxe de expressão de jornada ao trabalhar com matrizes?**
+
+Handlebars `{{#each}}` é usado no conteúdo da mensagem para iteração e exibição. A sintaxe da expressão de jornada — usando funções como `first`, `all` e `serializeList` — é usada na configuração da atividade de jornada (por exemplo, parâmetros de ação personalizados, condições). São sintaxes distintas usadas em contextos diferentes.
+
+**P: Posso executar um loop em um nó de ação de jornada para que ele seja executado uma vez por item de matriz?**
+
+Não. O Jornada não pode criar loops dinâmicos que executam um nó de ação várias vezes por item. Em vez disso, transmita toda a matriz ou uma lista serializada para uma única ação personalizada que processe todos os itens ou use agregação externa.
+
+**P: Posso passar o item de loop atual para um fragmento de expressão dentro de um loop `{{#each}}`?**
+
+Não. Fragmentos de expressão não podem receber variáveis de escopo de loop como parâmetros. Use variáveis globais definidas fora do loop ou inclua a lógica de personalização diretamente no loop, em vez de usar um fragmento.
+
+**P: Como exibir conteúdo de fallback quando uma matriz está vazia?**
+
+Use a cláusula `{{else}}` dentro do bloco `{{#each}}`. O conteúdo dentro de `{{else}}` é renderizado quando a matriz não tem itens.
+
+**P: O que `@index`, `@first` e `@last` significam dentro de um loop `{{#each}}`?**
+
+Estas são variáveis Handlebars especiais disponíveis somente nos loops `{{#each}}` do conteúdo da mensagem: `@index` é o índice de iteração atual baseado em 0, `@first` é verdadeiro para a primeira iteração e `@last` é verdadeiro para a última iteração.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: f85f9dea -->

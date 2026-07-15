@@ -8,14 +8,12 @@ level: Experienced
 hide: true
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1292
-ht-degree: 5%
+source-wordcount: 2044
+ht-degree: 3%
 
 ---
 
@@ -236,3 +234,81 @@ Use o menu Atributos contextuais > Sequência de dados > Evento para navegar pel
 No momento não. Esse recurso será compatível no futuro.
 
 +++
+
+## Referência rápida {#quick-reference}
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+>[!BEGINTABS]
+
+>[!TAB Visão geral]
+
+**TL;DR**
+
+Esta página explica como configurar uma Ação para um ponto de extremidade externo e usar o auxiliar do `externalDataLookup` no editor de personalização para buscar dinamicamente esses dados no tempo de execução para personalizar o conteúdo do canal de entrada.
+
+**Intenções**
+
+* Configurar uma ação que define um endpoint externo (URL, método HTTP, parâmetros, esquemas de solicitação/resposta)
+* Inserir o auxiliar `externalDataLookup` em uma expressão de personalização para uma ação de entrada
+* Passar parâmetros de cabeçalho de variável, consulta, carga ou caminho para o endpoint externo no momento da chamada
+* Acesse os dados buscados por meio do alias de resultados usando expressões de personalização e funções auxiliares
+* Lidar com tempos limite e erros normalmente com padrões de conteúdo de fallback
+* Depurar problemas de pesquisa externa usando o Adobe Experience Platform Assurance
+
+>[!TAB Glossário]
+
+* **externalDataLookup**: uma função auxiliar no editor de personalização que busca dinamicamente dados de um ponto de extremidade externo configurado no momento da solicitação, para uso na personalização do conteúdo do canal de entrada. *(específico do produto)*
+* **Ação**: um objeto de configuração no Journey Optimizer (Administração > Configurações) que define um ponto de extremidade externo — URL, método HTTP, parâmetros de cabeçalho/consulta, esquema de corpo POST e esquema de resposta. Necessário antes de usar `externalDataLookup`. *(específico do produto)*
+* **Variável de resultado**: um alias arbitrário atribuído na chamada `externalDataLookup`; usado para fazer referência a todos os campos da resposta buscada em expressões de personalização subsequentes.
+* **Canais de entrada**: canais em que o conteúdo é entregue sob demanda quando um usuário abre uma superfície — Experiência baseada em código, Web, Mensagem no aplicativo. *(específico do produto)*
+* **AEP Edge Network**: a infraestrutura que recebe solicitações de personalização e aciona a chamada de pesquisa de dados externos no tempo de execução.
+
+>[!TAB Terminologia]
+
+* **Nome canônico:** externalDataLookup — variantes: pesquisa de dados externos, auxiliar de pesquisa de dados externos, Auxiliar de pesquisa de dados externos
+* **Sinônimos:** &quot;externalDataLookup&quot; = &quot;auxiliar de pesquisa de dados externos&quot;
+* **Não confundir:** `actionId` (ID da Ação configurada, identificando o ponto de extremidade externo) ≠ `result` (alias para os dados de resposta obtidos) ≠ nomes de parâmetros (valores variáveis passados para o ponto de extremidade no momento da chamada)
+* **Não confunda:** usando `externalDataLookup` em uma ação de personalização de entrada (busca dados dinamicamente no momento da solicitação do Edge Network) ≠ usando uma Ação personalizada em uma atividade de jornada (busca conteúdo em um fluxo de jornada)
+
+>[!TAB Medidas de proteção e limitações]
+
+* O recurso está em Disponibilidade Limitada — disponível somente para um conjunto de organizações.
+* Tempo limite padrão para chamadas de endpoint externas: 300 ms (padrão; entre em contato com o representante da Adobe para aumentar esse tempo limite para um endpoint específico).
+* A navegação pelo esquema de resposta não é suportada no editor de personalização; o Journey Optimizer não valida referências a atributos JSON da resposta usada em expressões.
+* Tipos de dados com suporte para parâmetros de variáveis de carga: `String`, `Integer`, `Decimal`, `Boolean`, `listString`, `listInt`, `listInteger`, `listDecimal`.
+* Atualmente, não há suporte para a substituição de variáveis em `externalDataLookup` parâmetros auxiliares.
+* No momento, não há suporte para caminhos dinâmicos de URL.
+* Atualmente, o `externalDataLookup` não oferece suporte às opções de autenticação na configuração Ação; use campos de cabeçalho para autorização baseada em chave de API ou texto sem formatação como solução alternativa.
+* As alterações em uma configuração de Ação não são refletidas em campanhas ou jornadas ativas usando essa Ação; copie ou modifique campanhas/jornadas ativas para aplicar as alterações.
+* A renderização de várias passagens é suportada.
+* No momento, o Journey Optimizer não armazena em cache respostas de pontos de extremidade externos.
+* O endpoint externo deve ser capaz de lidar com pelo menos a mesma carga e taxa de transferência simultâneas que o tráfego de entrada enviado ao AEP Edge Network para a superfície especificada.
+
+>[!TAB Perguntas frequentes]
+
+**P: O que acontece se o ponto de extremidade externo atingir o tempo limite ou retornar um erro?**
+
+A variável de resultado estará vazia. As referências de atributo no resultado serão exibidas em branco, e as iterações de matriz não retornarão itens. Use padrões de conteúdo de fallback — como `?: "none found"` para atributos únicos ou `{%#if result%}…{%else%}…{%/if%}` para blocos de conteúdo inteiros — para tratar esses casos normalmente.
+
+**P: Como transfiro um atributo contextual da solicitação como parâmetro para uma pesquisa de dados externa?**
+
+Use o menu Atributos contextuais > Sequência de dados > Evento no editor de personalização para procurar o esquema Evento de experiência e inserir o atributo relevante como um valor de parâmetro, por exemplo: `query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute`.
+
+**P: O Journey Optimizer armazena em cache as respostas do ponto de extremidade externo?**
+
+No momento não. O armazenamento em cache será compatível no futuro.
+
+**P: Como depurar problemas com externalDataLookup?**
+
+Use o Adobe Experience Platform Assurance. Inicie uma sessão do Assurance, inicie uma chamada do Journey Optimizer a partir da implementação da Web ou móvel e use a exibição do Edge Delivery para inspecionar o bloco customActions para obter detalhes de tempo limite ou erro.
+
+**P: Posso usar autenticação na configuração de Ação com externalDataLookup?**
+
+Atualmente, não há suporte para as opções de autenticação na configuração Ação. Para autorização baseada em chave de API ou outra autorização de texto sem formatação, especifique as credenciais como campos de cabeçalho na configuração Ação.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: a3ce801a -->
