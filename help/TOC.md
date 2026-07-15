@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 958f85bb600cc3534070c77ef3ad1c76d4ce4d2d
+source-git-commit: c40641c63a5ec361d80475c0ffdf282db5a16424
 workflow-type: tm+mt
-source-wordcount: '3421'
-ht-degree: 97%
+source-wordcount: '3467'
+ht-degree: 96%
 
 ---
 
@@ -449,6 +449,18 @@ ht-degree: 97%
       + Configurar canal de atividade ao vivo {#configure}
          + [Configurar atividade em tempo real no Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
          + [Configurar a integração do SDK de atividade ao vivo](using/mobile-live/mobile-live-configuration-sdk.md)
+   + Canais personalizados {#custom-channel}
+      + {hide-from-toc}[Introdução a canais personalizados](using/custom-channel/get-started-custom-channel.md)
+      + Configurar canais personalizados {#configure-custom-channel}
+         + {hide-from-toc}[Configurar seus canais personalizados](using/custom-channel/configure-custom-channel.md)
+         + {hide-from-toc}[Criar um canal personalizado](using/custom-channel/create-custom-channel.md)
+         + {hide-from-toc}[Gerenciar credenciais de API](using/custom-channel/custom-channel-api-credentials.md)
+         + {hide-from-toc}[Delegar um subdomínio](using/custom-channel/custom-channel-subdomains.md)
+         + {hide-from-toc}[Criar uma configuração de canal](using/custom-channel/custom-channel-configuration.md)
+      + Criar experiências de canal personalizadas {#create-custom-channel-experiences}
+         + {hide-from-toc}[Criar uma experiência de canal personalizada](using/custom-channel/create-custom-experience.md)
+         + {hide-from-toc}[Testar sua experiência de canal personalizada](using/custom-channel/test-custom-channel.md)
+      + {hide-from-toc}[Monitorar canais personalizados](using/custom-channel/monitor-custom-channel.md)
 + Gerenciamento de conteúdo {#content-management}
    + [Gerenciamento de conteúdo](/help/rp_landing_pages/content-management-landing-page.md)
    + Personalização {#personalization}
