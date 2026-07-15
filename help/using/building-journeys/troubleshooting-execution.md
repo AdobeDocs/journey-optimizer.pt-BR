@@ -11,24 +11,15 @@ keywords: solução de problemas, solução de problemas, jornada, verificação
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 2993
+source-wordcount: 3051
 ht-degree: 8%
 
 ---
@@ -53,7 +44,7 @@ O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes u
 
 Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
 
-Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming de [!DNL Adobe Experience Platform]. Como resultado, no caso de problemas relacionados ao evento, consulte a [[!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=pt-BR){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
+Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming de [!DNL Adobe Experience Platform]. Como resultado, no caso de problemas relacionados ao evento, consulte a [[!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
 
 Se a jornada não conseguir habilitar o modo de teste com erro `ERR_MODEL_RULES_16`, verifique se o evento usado inclui um [namespace de identidade](../audience/get-started-identity.md) ao usar uma ação de canal.
 
@@ -83,7 +74,7 @@ Você pode começar a solucionar problemas com as perguntas abaixo:
 
 * **Evento descartado - condição de qualificação não atendida** - Para eventos baseados em regras, se a **condição de qualificação** não for atendida pela carga do evento (por exemplo, um campo obrigatório está vazio ou ausente ou uma condição como `isNotEmpty` em um campo falha), o evento será **recebido, mas descartado** e a jornada não será acionada. Registros e rastreamentos do Splunk podem mostrar que o evento foi recebido, mas descartado porque não atendia à condição de qualificação, com códigos de descarte como `notSuitableInitialEvent`. Esse é o comportamento esperado: se a condição de qualificação não for atendida, o evento será descartado e a jornada não será acionada para esse perfil. Verifique se a carga do evento contém os campos e valores esperados e se a regra na configuração do evento corresponde aos dados enviados. Se o evento for acionado por uma **ação personalizada** de outra jornada, consulte [Manipulação de eventos de descarte e tempos limite ociosos](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts) na solução de problemas de ação personalizada.
 
-&#x200B;>>
+>>
 **Para jornadas de qualificação de público-alvo com públicos-alvo de streaming**: se estiver usando uma atividade de qualificação de público-alvo como ponto de entrada de jornada, esteja ciente de que nem todos os perfis qualificados para o público-alvo necessariamente entrarão na jornada devido a fatores de tempo, saídas rápidas do público-alvo ou se os perfis já estiverem no público-alvo antes da publicação. Saiba mais sobre [considerações de tempo de qualificação de público de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ### Verificar identidade do evento {#verify-event-identity-and-rule-data-types}
@@ -100,14 +91,14 @@ Se os perfis de teste não avançarem na jornada no modo de teste ou o fluxo vis
 
 Se os perfis de teste entrarem na jornada, mas não avançarem além da etapa inicial, verifique o seguinte:
 
-* **Data de início da Jornada** - A causa mais comum é quando a data de início da jornada é definida no futuro. Os perfis de teste são descartados imediatamente se a hora atual estiver fora da janela [datas/hora de início e término](journey-properties.md#dates) configurada da jornada. Para resolver:
+* **Data de início da Jornada** - A causa mais comum é quando a data de início da jornada é definida no futuro. Os perfis de teste são imediatamente descartados se a hora atual estiver fora da janela [datas/hora de início e término](journey-properties.md#dates) configurada da jornada, produzindo a entrada de log: `DISPATCHER DISCARD #16 — unqualified on journey version enablements`. Para resolver:
    * Verificar se a data de início da jornada não está definida no futuro
    * Garantir que a hora atual esteja na janela de datas ativa da jornada
-   * Se necessário, atualize as propriedades da jornada para ajustar a data de início
+   * Se necessário, defina temporariamente a data de início para uma hora antes do momento atual para testes e, em seguida, restaure-a antes de publicar
 
 * **Configuração do perfil de teste** - Confirme se o perfil está sinalizado corretamente como um perfil de teste em [!DNL Adobe Experience Platform]. Consulte [como criar perfis de teste](../audience/creating-test-profiles.md) para obter mais informações.
 
-* **Namespace de identidade** - Verifique se o namespace de identidade usado na configuração do evento corresponde ao namespace do seu perfil de teste.
+* **Incompatibilidade de namespace de identidade** - Uma incompatibilidade de namespace causa uma queda silenciosa: o evento é aceito e retorna uma resposta bem-sucedida, mas o perfil nunca entra na jornada e nenhum erro é exibido na interface. Verifique se o namespace no **Identificador de Perfil** corresponde exatamente ao namespace definido no esquema de evento (diferencia maiúsculas de minúsculas). Consulte o [formato de expressão do Identificador de Perfil](testing-the-journey.md#trigger-events-prerequisites) para obter detalhes.
 
 ### Indicadores de transição nulos
 
@@ -125,7 +116,7 @@ Se você encontrar problemas de transição persistentes:
 
 >[!NOTE]
 >
->Lembre-se de que os eventos enviados fora da janela de data ativa da jornada são descartados silenciosamente sem mensagem de erro. Sempre verifique a configuração de tempo da jornada primeiro ao solucionar problemas de progressão do perfil de teste.
+>Eventos enviados fora da janela de data ativa da jornada são silenciosamente descartados com a entrada de log `DISPATCHER DISCARD #16 — unqualified on journey version enablements` e nenhum erro de interface. Sempre verifique a configuração de tempo da jornada primeiro ao solucionar problemas de progressão do perfil de teste.
 
 ## Verificar como as pessoas navegam pela jornada {#checking-how-people-navigate-through-the-journey}
 

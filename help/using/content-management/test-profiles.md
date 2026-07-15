@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 16%
+source-wordcount: 352
+ht-degree: 14%
 
 ---
 
@@ -29,6 +28,8 @@ ht-degree: 16%
 >abstract="Use perfis de teste para visualizar e testar o conteúdo. Se você tiver adicionado campos personalizados, será possível verificar como eles são exibidos por meio de dados do perfil de teste."
 
 Os perfis de teste são recipients adicionais que não correspondem aos critérios de direcionamento definidos. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md)
+
+Antes de selecionar perfis de teste, verifique se o namespace de identidade que você planeja usar corresponde ao namespace em que seus perfis de teste estão armazenados no Adobe Experience Platform (por exemplo, **Email** ou **Telefone**). Uma incompatibilidade impede que os perfis de teste sejam resolvidos corretamente no campo de pesquisa.
 
 Antes de usar perfis de teste para testar seu conteúdo, primeiro é necessário selecioná-los. Para fazer isso, siga estes passos:
 
