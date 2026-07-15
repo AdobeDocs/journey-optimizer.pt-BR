@@ -11,9 +11,9 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
+source-git-commit: 191cb8542e0cfb24c3afef6ea173f952591b1b75
 workflow-type: tm+mt
-source-wordcount: 2904
+source-wordcount: 2909
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Em qualquer jornada em **[!UICONTROL Simulação]**, a **[!UICONTROL Simulação
 
    >[!NOTE]
    >
-   >Os campos de telefone e email de execução pré-preenchidos vêm do endereço de email e do número de telefone no seu perfil de usuário do Adobe IMS.
+   >Os campos de email e telefone de execução pré-preenchidos vêm de valores usados anteriormente na simulação da jornada e armazenados em cache no navegador.
 
    ![Etapa de atualização rápida de valores de simulação com substituição de tempo de espera e campos de email e telefone de prova](assets/quick-simulation-3.png)
 
@@ -99,7 +99,7 @@ Os usuários simulados são entidades temporárias semelhantes a perfis definida
 
    >[!NOTE]
    >
-   >Os campos de email e telefone são preenchidos previamente pelo seu perfil de usuário do Adobe IMS.
+   >Os campos de email e telefone são pré-preenchidos com valores usados anteriormente na simulação do jornada e armazenados em cache no navegador.
 
    ![Gerar caixa de diálogo de usuários simulados com campos de email e telefone de execução e botão Gerar](assets/simulate-generate.png)
 
