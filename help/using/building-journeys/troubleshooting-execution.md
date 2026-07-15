@@ -11,12 +11,21 @@ keywords: solução de problemas, solução de problemas, jornada, verificação
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
 source-wordcount: 3051
@@ -74,7 +83,7 @@ Você pode começar a solucionar problemas com as perguntas abaixo:
 
 * **Evento descartado - condição de qualificação não atendida** - Para eventos baseados em regras, se a **condição de qualificação** não for atendida pela carga do evento (por exemplo, um campo obrigatório está vazio ou ausente ou uma condição como `isNotEmpty` em um campo falha), o evento será **recebido, mas descartado** e a jornada não será acionada. Registros e rastreamentos do Splunk podem mostrar que o evento foi recebido, mas descartado porque não atendia à condição de qualificação, com códigos de descarte como `notSuitableInitialEvent`. Esse é o comportamento esperado: se a condição de qualificação não for atendida, o evento será descartado e a jornada não será acionada para esse perfil. Verifique se a carga do evento contém os campos e valores esperados e se a regra na configuração do evento corresponde aos dados enviados. Se o evento for acionado por uma **ação personalizada** de outra jornada, consulte [Manipulação de eventos de descarte e tempos limite ociosos](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts) na solução de problemas de ação personalizada.
 
->>
+&#x200B;>>
 **Para jornadas de qualificação de público-alvo com públicos-alvo de streaming**: se estiver usando uma atividade de qualificação de público-alvo como ponto de entrada de jornada, esteja ciente de que nem todos os perfis qualificados para o público-alvo necessariamente entrarão na jornada devido a fatores de tempo, saídas rápidas do público-alvo ou se os perfis já estiverem no público-alvo antes da publicação. Saiba mais sobre [considerações de tempo de qualificação de público de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ### Verificar identidade do evento {#verify-event-identity-and-rule-data-types}
