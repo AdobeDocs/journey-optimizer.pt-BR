@@ -10,23 +10,16 @@ level: Intermediate
 keywords: expressão, editor, auxiliares, caso de uso, personalização
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 2016539d8a34850e2730dbb2e1499739a04d88c0
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 2%
+source-wordcount: 1712
+ht-degree: 1%
 
 ---
 
@@ -72,7 +65,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
 1. Crie um evento cujo esquema inclua a matriz `productListItems`.
 1. Defina todos os campos dessa matriz como campos de carga para esse evento.
 
-   Saiba mais sobre o tipo de dados do item de lista de produtos na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=pt-BR){target="_blank"}.
+   Saiba mais sobre o tipo de dados do item de lista de produtos na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Crie uma jornada que comece com este evento.
 1. Adicione uma atividade de **Email** à jornada.
@@ -125,7 +118,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
 
       ![Editor de expressão mostrando upperCase com token de nome de perfil](assets/personalization-uc-helpers-5.png)
 
-      Saiba mais sobre o tipo de dados do nome da pessoa na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=pt-BR){target="_blank"}.
+      Saiba mais sobre o tipo de dados do nome da pessoa na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Clique em **[!UICONTROL Validar]** e em **[!UICONTROL Salvar]**.
 
@@ -367,3 +360,65 @@ Esta etapa demonstra a iteração pelos dados do evento. Para obter exemplos abr
 Saiba como usar funções auxiliares.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+
+## Referência rápida {#quick-reference}
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+>[!BEGINTABS]
+
+>[!TAB Visão geral]
+
+**TL;DR**
+
+Esta página aborda um caso de uso de email de abandono de carrinho usando três funções auxiliares — `upperCase`, `each` e `if` — para exibir o nome do cliente em maiúsculas, listar itens de carrinho e inserir uma nota de remessa específica do produto condicionalmente.
+
+**Intenções**
+
+* Criar um evento de jornada cujo esquema inclua a matriz `productListItems`
+* Insira o nome de um cliente em maiúsculas usando `{%= upperCase(profile.person.name.firstName) %}`
+* Listar itens do carrinho iterando sobre `context.journey.events.event_ID.productListItems` com `{{#each}}`
+* Exibir uma observação específica do produto condicionalmente usando `{%#if context.journey.events.\`event_ID\`.productListItems.name = &quot;product_name&quot; %}`
+* Teste a jornada no modo de teste usando um perfil de teste com carga útil do evento e publique
+
+>[!TAB Glossário]
+
+* **`upperCase`**: Uma função de cadeia de caracteres do PQL que converte uma cadeia de caracteres em maiúsculas; chamada com `{%= upperCase(string) %}`. *(específico do produto)*
+* **`each`auxiliar**: um auxiliar de bloco Handlebars (`{{#each array as |alias|}} ... {{/each}}`) que itera sobre uma matriz, como `productListItems`. *(específico do produto)*
+* **`if`auxiliar**: um auxiliar de bloco condicional (`{%#if condition%} ... {%else%} ... {%/if%}`) que renderiza conteúdo somente quando a condição especificada é verdadeira.
+* **`productListItems`**: uma matriz XDM padrão que representa o conteúdo do carrinho, com campos que incluem `name`, `quantity` e `priceTotal`. *(específico do produto)*
+* **Modo de teste**: um recurso de jornada que permite o envio de mensagens de teste para endereços de perfil de teste a fim de verificar o comportamento da jornada e da mensagem antes da publicação. *(específico do produto)*
+
+>[!TAB Terminologia]
+
+* **Nome canônico:** email de abandono do carrinho — variantes: caso de uso de abandono do carrinho
+* **Não confundir:** `context.journey.events.event_ID.productListItems` (matriz de origem de evento, acessada por atributos Contextuais) ≠ `profile.*` atributos (origem de perfil, sempre disponível)
+
+>[!TAB Medidas de proteção e limitações]
+
+* Os atributos contextuais (incluindo dados do evento de jornada) estão disponíveis no editor de personalização somente após a mensagem ter sido colocada em uma jornada que inclui o evento relevante.
+* O modo de teste funciona somente com perfis de teste.
+
+>[!TAB Perguntas frequentes]
+
+**P: Quais funções auxiliares são usadas neste caso de uso?**
+
+Três: `upperCase` (renderiza o nome em maiúsculas), `each` (itera sobre a matriz de itens do carrinho) e `if` (exibe condicionalmente uma nota de remessa específica do produto).
+
+**P: De onde vêm os dados do item do carrinho na expressão de personalização?**
+
+Da matriz `productListItems` do evento de jornada, acessada por atributos Contextuais em `context.journey.events.event_ID.productListItems`.
+
+**P: Os atributos contextuais podem ser usados antes de colocar a mensagem dentro de uma jornada?**
+
+Não. Os atributos contextuais estão disponíveis no editor de personalização somente após a mensagem ser colocada em uma jornada que inclui o evento relevante.
+
+**P: Como faço para testar o email com dados do carrinho?**
+
+Ative o botão de alternância **Teste** na jornada, clique em **Acionar um evento** e insira os valores de entrada na janela Configuração de evento e clique em **Enviar**. O email é enviado para o endereço do perfil de teste.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 801d75d6 -->
