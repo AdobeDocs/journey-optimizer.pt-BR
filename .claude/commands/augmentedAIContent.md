@@ -44,7 +44,7 @@ Content here.
 - Os nomes das guias são letras maiúsculas e minúsculas (1-3 palavras)
 - Linha em branco antes de `>[!BEGINTABS]` e depois de `>[!ENDTABS]`
 
----
+&#x200B;---
 
 ## Fluxo de trabalho
 
@@ -96,7 +96,7 @@ Antes de anexar, leia novamente a declaração de seção gerada por declaraçã
 
 **Regra de correção:** Se qualquer verificação falhar, corrija o conteúdo **antes** ao anexar. Registre cada correção no relatório de Etapa 5.
 
----
+&#x200B;---
 
 ### Etapa 4 — Anexar a seção
 
@@ -114,7 +114,7 @@ Esse comentário permite que ferramentas e autores futuros detectem quando o cor
 - Arquivos ignorados + motivo (já tem seção / vazia / página de índice)
 - Quaisquer avisos de validação gerados durante a Etapa 2
 
----
+&#x200B;---
 
 ## Regras de geração de conteúdo
 
@@ -229,7 +229,7 @@ As respostas devem usar as mesmas opções de verbo e substantivo que o corpo da
 - **não** inventar conteúdo não suportado pela página
 - **não** usar os termos imprecisos a seguir, a menos que eles apareçam textualmente no corpo da página: &quot;sintético&quot;, &quot;dados falsos&quot;, &quot;sem dados reais&quot;, &quot;reverter&quot;, &quot;reverter&quot; (ao descrever as transições de estado do produto)
 
----
+&#x200B;---
 
 ## Lista de verificação de validação pós-geração
 
@@ -252,7 +252,7 @@ Execute esta lista de verificação em cada seção antes de anexar. Sinalize ao
 
 Se alguma verificação falhar, corrija a seção antes de anexar. Registre a correção no relatório Etapa 4.
 
----
+&#x200B;---
 
 ## Sincronizar responsabilidade
 
@@ -265,7 +265,7 @@ A seção Referência rápida é uma derivada do corpo da página em um ponto no
 
 O comentário de sincronização anexado após a seção (`<!-- ai-section-version -->`) é o sinal: se o conteúdo do arquivo antes da seção tiver sido alterado desde que esse hash foi gravado, a seção será candidata para revisão.
 
----
+&#x200B;---
 
 ## Modelo completo
 
