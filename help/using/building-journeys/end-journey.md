@@ -10,23 +10,15 @@ keywords: inserir novamente, jornada, encerrar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 22d6cddf35fa26a5fd3f0eddc74ed15faf9d6503
 workflow-type: tm+mt
-source-wordcount: 1822
+source-wordcount: 2155
 ht-degree: 1%
 
 ---
@@ -78,7 +70,7 @@ Se a jornada tiver vários caminhos, recomendamos adicionar um rótulo a cada ex
 
 Uma jornada pode ser fechada pelos seguintes motivos:
 
-* Uma jornada de Leitura de Público não recorrente **para automaticamente** quando o último perfil sai da jornada. [Saiba mais](#auto-stop-non-recurring)
+* Uma jornada de Leitura de Público não recorrente **para automaticamente** depois que um buffer de segurança segue sua execução agendada. [Saiba mais](#auto-stop-non-recurring)
 * Após a última ocorrência de uma jornada recorrente baseada no público-alvo.
 * A jornada é fechada manualmente pelo botão [**[!UICONTROL Fechar para novas entradas]**](#close-to-new-entrances).
 * O tempo limite de jornada global de 91 dias foi atingido.
@@ -87,21 +79,24 @@ Após o tempo limite global de **jornada de 91 dias**, uma jornada Ler público 
 
 ### Interrupção automática de jornada para públicos-alvo não recorrentes {#auto-stop-non-recurring}
 
-Uma **jornada de Leitura de Público não recorrente** faz a transição automática para o status **[!UICONTROL Parado]** assim que o último perfil sai da jornada. Isso elimina o comportamento anterior em que as jornadas de Leitura de Público não recorrentes permaneceram no status **Live** até que o tempo limite global de 91 dias expirasse, mesmo que nenhum perfil estivesse fluindo ativamente por meio delas.
+Uma **jornada de Leitura de Público não recorrente** faz a transição automática para o status **[!UICONTROL Parado]** após a execução agendada de um buffer de segurança. Isso elimina o comportamento anterior em que as jornadas de Leitura de Público não recorrentes permaneceram no status **Live** até que o tempo limite global de 91 dias expirasse, mesmo que nenhum perfil estivesse fluindo ativamente por meio delas.
 
 **Como funciona:**
 
 1. A jornada é executada e todos os perfis do público-alvo são processados.
 1. À medida que cada perfil atinge o final da jornada, ele sai normalmente.
-1. Quando o **último perfil ativo existe**, a jornada muda automaticamente para o status **[!UICONTROL Parado]**.
+1. Quando o **último perfil ativo sair**, a jornada entrará em um período de buffer de segurança e permanecerá no status **[!UICONTROL Ativo]**.
+1. Depois que o buffer de segurança passar (~96 horas após o tempo de execução agendado da jornada), a jornada passará automaticamente para o status **[!UICONTROL Parado]** na próxima passagem do scanner.
 
 Este comportamento se aplica somente a **jornadas de Leitura de Público não recorrentes**. As jornadas recorrentes não são afetadas.
 
->[!NOTE]
->
->* Esse comportamento de parada automática **não** se aplica a jornadas não recorrentes que incluem nós que causam períodos de espera, como nós **Wait** (com base no temporizador), nós **Reaction** (aguardando eventos como abertura de email ou clique) ou transições acionadas por eventos. Essas jornadas permanecem sujeitas ao tempo limite global padrão de [91 dias](../building-journeys/journey-properties.md#global_timeout).
->
->* Você ainda pode fechar uma jornada Read Audience não recorrente manualmente a qualquer momento usando a opção [**[!UICONTROL Fechar para novas entradas]**](#close-to-new-entrances). O comportamento de parada automática simplesmente garante que a jornada seja interrompida automaticamente quando não for mais necessária, sem a necessidade de intervenção manual.
+* **Interrupção automática de tempo:** O buffer de segurança contabiliza duas janelas: uma **janela ociosa de 24 horas** para permitir que qualquer envio em andamento seja concluído e uma **permissão de 72 horas de Período de Silêncio** (o Período de Silêncio pode adiar envios em até 72 horas e não está visível para o scanner). O buffer total é aproximadamente **96 horas (~4 dias)** após o tempo de execução agendado da jornada. A jornada permanece com o status **[!UICONTROL Ativa]** durante esse período. Esse é um comportamento esperado e não indica um problema.
+
+* **As jornadas baseadas em ondas são excluídas:** esse comportamento de interrupção automática não se aplica às jornadas baseadas em ondas, incluindo jornadas que usam a Otimização de Tempo de Envio. Essas jornadas permanecem ativas em todas as ondas agendadas e são interrompidas somente pelo tempo limite global padrão de [91 dias](../building-journeys/journey-properties.md#global_timeout), a menos que sejam fechadas ou interrompidas manualmente.
+
+* Esse comportamento de parada automática **não** se aplica a jornadas não recorrentes que incluem nós que causam períodos de espera, como nós **Wait** (com base no temporizador), nós **Reaction** (aguardando eventos como abertura de email ou clique) ou transições acionadas por eventos. Essas jornadas permanecem sujeitas ao tempo limite global padrão de [91 dias](../building-journeys/journey-properties.md#global_timeout).
+
+* Você ainda pode fechar uma jornada Read Audience não recorrente manualmente a qualquer momento usando a opção [**[!UICONTROL Fechar para novas entradas]**](#close-to-new-entrances). O comportamento de parada automática simplesmente garante que a jornada seja interrompida automaticamente quando não for mais necessária, sem a necessidade de intervenção manual.
 
 ### Quando uma jornada é considerada &quot;concluída&quot;? {#journey-finished-definition}
 
@@ -109,7 +104,7 @@ A definição de &quot;concluído&quot; varia dependendo do tipo de jornada:
 
 | Tipo de jornada | Recorrente? | Tem data de término? | Definição de &quot;concluído&quot; |
 |--------------|------------|---------------|--------------------------|
-| Público-alvo de leitura | Não | n/d | Quando o último perfil sair (parada automática) |
+| Público-alvo de leitura | Não | n/d | Aproximadamente 96 horas após a última saída do perfil (buffer de parada automática) |
 | Público-alvo de leitura | Sim | Não | 91 dias após o início da última ocorrência |
 | Público-alvo de leitura | Sim | Sim | Quando a data final é alcançada |
 | Jornada acionada por evento | n/d | Sim | Quando a data final é alcançada |
@@ -196,7 +191,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Somente jornadas com status Concluído podem ser excluídas.
 * A interrupção de uma jornada exige a permissão Gerenciar jornadas; jornadas com campanhas em linha ou nós de mensagens também exigem Campanhas > Publicar campanhas com permissão.
 * Após o tempo limite global de 91 dias, todos os dados de jornada de perfil são removidos e os perfis restantes são encerrados automaticamente.
-* Uma jornada Read Audience não recorrente sem nós de longa duração Wait, Reaction ou acionados por eventos faz a transição automática para Stopped quando o último perfil sai. As jornadas com esses nós permanecem sujeitas ao tempo limite global de 91 dias, a menos que sejam fechadas manualmente.
+* Uma jornada de público-alvo de leitura não recorrente sem nós de espera, de reação ou acionados por eventos de longa duração faz a transição automática para Parado aproximadamente 96 horas (~4 dias) após a saída do último perfil. A jornada permanece no status Live durante esse buffer. As jornadas baseadas em ondas, incluindo casos de uso de Otimização de tempo de envio, são excluídas dessa interrupção automática e permanecem sujeitas ao tempo limite global de 91 dias, a menos que sejam fechadas ou interrompidas manualmente.
 
 **Terminologia:**
 
@@ -207,7 +202,9 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Perguntas frequentes:**
 
 * **P: Qual é a diferença entre fechar e parar uma jornada?** — O fechamento bloqueia novas entradas, mas permite que os perfis existentes sejam concluídos; a interrupção interrompe imediatamente todos os perfis em suas trilhas.
-* **P: Quando uma jornada de leitura de público-alvo atinge o status Concluído?** — Para uma jornada Read Audience não recorrente: ela é interrompida automaticamente para Parado quando o último perfil sai (ou após 91 dias se os nós Wait, Reaction ou event mantiverem os perfis ativos). Concluído é atingido quando uma jornada fechada atinge o tempo limite global de 91 dias ou por regras de jornada recorrente na tabela de definição concluída.
+* **P: Por que uma jornada não recorrente permanece com o status Live por vários dias após sua execução?** — Isso é esperado. Após a saída do último perfil, o AJO aplica um buffer de segurança de ~96 horas (~4 dias): 24 horas para permitir envios em andamento a serem concluídos, além de 72 horas para adiamentos de Período de silêncio. A transição da jornada para Parado no próximo scanner é realizada após o término do buffer.
+* **P: As jornadas baseadas em ondas param automaticamente após ~96 horas?** — Não. As jornadas baseadas em ondas, incluindo jornadas que usam a Otimização de tempo de envio, são excluídas dessa interrupção automática para que possam permanecer ativas em todas as ondas programadas. Eles seguem o tempo limite padrão de jornada de 91 dias, a menos que sejam fechados ou interrompidos manualmente.
+* **P: Quando uma jornada de leitura de público-alvo atinge o status Concluído?** — Para uma jornada Read Audience não recorrente: é interrompida automaticamente para Parado aproximadamente 96 horas (~4 dias) após a saída do último perfil (buffer de segurança: janela ociosa de 24 horas + permissão para 72 horas de Silêncio). A jornada permanece no status Live durante esse buffer. Se os nós Wait, Reaction ou event mantiverem os perfis ativos, o tempo limite global padrão de 91 dias será aplicado. Concluído é atingido quando uma jornada fechada atinge o tempo limite global de 91 dias ou por regras de jornada recorrente na tabela de definição concluída.
 * **P: Posso excluir uma jornada Fechada?** — Não, somente as jornadas concluídas podem ser excluídas.
 * **P: O que acontece com os perfis que ainda estão em uma jornada quando o tempo limite de 91 dias chega?** — Eles são automaticamente encerrados da jornada nesse ponto.
 * **P: Preciso de permissões especiais para parar uma jornada?** — Sim, a permissão Gerenciar jornadas é necessária, além de Campanhas > Publicar campanhas se a jornada contiver campanhas em linha ou nós de mensagens.
