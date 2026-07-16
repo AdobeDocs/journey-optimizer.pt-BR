@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 2%
+source-wordcount: 1086
+ht-degree: 1%
 
 ---
 
@@ -132,3 +132,65 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 O vídeo abaixo mostra um caso de uso semelhante que utiliza dados contextuais de uma jornada para personalizar um email.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428533?captions=por_br&quality=12)
+
+## Referência rápida {#quick-reference}
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+>[!BEGINTABS]
+
+>[!TAB Visão geral]
+
+**TL;DR**
+
+Esta página aborda um caso de uso de notificação por push do status do pedido que combina três tipos de personalização — campo de perfil, decisão de oferta e dados de jornada contextuais — em uma única mensagem.
+
+**Intenções**
+
+* Criar uma jornada com um evento de pedido e uma atividade de ação de push
+* Adicionar personalização baseada em perfil (nome do cliente) ao título de push
+* Adicionar personalização de dados contextuais (número do pedido, nome do item, andamento do pedido) do evento de jornada
+* Adicionar personalização da decisão de oferta ao corpo do push
+* Testar a jornada no modo de teste e publicar
+
+>[!TAB Glossário]
+
+* **Personalização do perfil**: Personalization com base em um campo de perfil, como nome, acessado por meio de `profile.*` atributos. *(específico do produto)*
+* **Offer decision**: Personalization com base em variáveis de gestão de decisões; inserido no menu Offer Decisions, no editor de personalização. *(específico do produto)*
+* **Personalização contextual**: Personalization com base nos dados da jornada — campos de evento (por exemplo, número do pedido, nome do item, andamento do pedido) e propriedades da jornada (por exemplo, ID da jornada, erros). Disponível somente quando uma jornada tiver passado dados contextuais para a mensagem. *(específico do produto)*
+* **Propriedades da Jornada**: campos técnicos relacionados à jornada de um determinado perfil, como ID da jornada ou erros encontrados, acessíveis em Atributos contextuais > Journey Orchestration. *(específico do produto)*
+
+>[!TAB Terminologia]
+
+* **Nome canônico:** personalização contextual — variantes: personalização baseada em contexto, personalização de contexto de jornada
+* **Sinônimos:** &quot;Journey Orchestration&quot; (rótulo da interface do usuário no menu Atributos contextuais) = fonte de dados de jornada contextual
+* **Não confunda:** Personalização de perfil (valores de campo de perfil estáticos, sempre disponíveis) ≠ Personalização contextual (dados de eventos e propriedades de jornada, disponíveis somente após o contexto de jornada ter sido passado para a mensagem) ≠ Personalização da decisão de oferta (variáveis de gestão de decisão)
+
+>[!TAB Medidas de proteção e limitações]
+
+* Os atributos contextuais estão disponíveis no editor de personalização somente se uma jornada tiver passado dados contextuais para a mensagem.
+* O modo de teste funciona somente com perfis de teste; o identificador de perfil inserido na configuração do evento deve corresponder a um perfil de teste existente.
+
+>[!TAB Perguntas frequentes]
+
+**P: Quais são os três tipos de personalização combinados neste caso de uso?**
+
+Personalização de perfil (nome do cliente de `profile.*`), personalização de dados contextuais (número do pedido, nome do item e progresso do pedido do evento de jornada) e personalização de decisões de oferta (uma oferta de gestão de decisões inserida no corpo).
+
+**P: De onde vêm os atributos contextuais no editor de personalização?**
+
+Os atributos contextuais vêm de eventos colocados antes da atividade de ação de canal na jornada e das propriedades técnicas da jornada. Eles aparecem no editor de personalização em Atributos contextuais > Journey Orchestration > Eventos (campos de evento) ou Propriedades da Jornada (metadados da jornada).
+
+**P: Quais são os pré-requisitos para este caso de uso?**
+
+Um evento de pedido deve ser configurado com campos de número do pedido, status e nome do item, e uma decisão deve existir na gestão de decisões.
+
+**P: Como faço para testar a notificação por push neste caso de uso?**
+
+Clique no botão Testar na jornada, em seguida, clique em &quot;Acionar um evento&quot; e insira os valores do evento na janela Configuração do evento. O modo de teste funciona somente com perfis de teste; o identificador do perfil deve corresponder a um perfil de teste existente.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: ae5284c7 -->

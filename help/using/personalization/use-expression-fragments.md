@@ -24,9 +24,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1402
+source-wordcount: 2174
 ht-degree: 0%
 
 ---
@@ -245,4 +245,79 @@ No entanto, também é possível colar o conteúdo de um fragmento de expressão
 Nesse caso, a herança do fragmento original é quebrada. O conteúdo do fragmento é copiado para o editor e as alterações não são mais sincronizadas.
 
 Ele se torna um elemento independente que não está mais vinculado ao fragmento original; você pode editá-lo como qualquer outro elemento no seu código.
+
+## Referência rápida {#quick-reference}
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+>[!BEGINTABS]
+
+>[!TAB Visão geral]
+
+**TL;DR**
+
+Esta página explica como inserir, personalizar e gerenciar fragmentos de expressão no editor de personalização, incluindo variáveis implícitas, usando fragmentos dentro de loops, campos editáveis, resolução dinâmica e quebrando a herança.
+
+**Intenções**
+
+* Insira um fragmento de expressão no menu Fragmentos e entenda a propagação automática de alterações
+* Usar variáveis implícitas: variáveis de entrada (declaradas fora do fragmento, usadas dentro) e variáveis de saída (declaradas dentro do fragmento, usadas no conteúdo da mensagem ao redor)
+* Usar fragmentos de expressão dentro de loops — aproveite variáveis globais para acessar fragmentos; entenda a limitação de transmitir variáveis com escopo de loop como parâmetros
+* Substituir campos editáveis em um fragmento personalizável usando a sintaxe `<fieldId>="<value>"`
+* Resolver IDs de fragmento dinamicamente no tempo de execução com base em atributos de perfil, pesquisas de conjunto de dados ou dados de contexto
+* Interromper a herança colando o conteúdo do fragmento diretamente no editor
+
+>[!TAB Glossário]
+
+* **Fragmento de expressão**: um componente de expressão de personalização reutilizável referenciado por ID em campanhas e jornadas; as alterações no fragmento são propagadas automaticamente para todo o conteúdo que faz referência a ele. *(específico do produto)*
+* **Variáveis implícitas**: variáveis que estendem a funcionalidade do fragmento — variáveis de entrada (declaradas no conteúdo da campanha/jornada, consumidas dentro do fragmento) e variáveis de saída (declaradas dentro do fragmento, disponíveis no conteúdo da mensagem ao redor). *(específico do produto)*
+* **Variável de entrada**: uma variável declarada fora do fragmento (no conteúdo de campanha ou jornada) que o fragmento pode referenciar e usar internamente.
+* **Variável de saída**: uma variável declarada ou calculada dentro de um fragmento que se torna disponível para uso no conteúdo da mensagem ao redor depois que o fragmento é chamado.
+* **Campos editáveis**: variáveis de fragmento expostas para permitir que o usuário que está inserindo substitua valores padrão usando a sintaxe `<fieldId>="<value>"`, sem editar a origem do fragmento. *(específico do produto)*
+* **Resolução dinâmica de fragmento**: a capacidade de resolver uma ID de fragmento em tempo de execução (com base em atributos de perfil, pesquisas de conjunto de dados ou dados de contexto) em vez de incorporar uma ID de fragmento estática em tempo de design. *(específico do produto)*
+* **Interromper herança**: usar &quot;Colar fragmento&quot; no menu contextual copia o conteúdo do fragmento para o editor como um elemento autônomo que não é mais sincronizado com o fragmento original. *(específico do produto)*
+
+>[!TAB Terminologia]
+
+* **Fragmento de expressão de nome canônico:** — variantes: fragmento, fragmento de expressão
+* **Sinônimos:** &quot;ID do fragmento&quot; = o identificador usado para fazer referência ao fragmento em expressões
+* **Não confunda:** inserir um fragmento por ID (referenciado; as alterações propagam-se automaticamente para todo o conteúdo) ≠ quebrar a herança / colar fragmento (conteúdo copiado no editor; elemento independente, não mais vinculado ao original)
+* **Não confundir:** variáveis de entrada (declaradas fora do fragmento, consumidas dentro) ≠ variáveis de saída (declaradas dentro do fragmento, consumidas fora no conteúdo da mensagem ao redor)
+* **Não confunda:** Fragmento de rascunho (pode ser adicionado ao conteúdo, mas bloqueia a publicação do jornada/campanha até ser aprovado) ≠ Fragmento ao vivo (totalmente publicado; seguro para jornadas e campanhas ativas)
+
+>[!TAB Medidas de proteção e limitações]
+
+* Um máximo de 30 fragmentos pode ser adicionado em um determinado delivery.
+* Os fragmentos só podem ser aninhados até um nível.
+* Uma jornada ou campanha não pode ser ativada ou publicada se contiver um fragmento com status de Rascunho; fragmentos de rascunho devem ser aprovados antes da publicação.
+* Os fragmentos de expressão não podem receber variáveis de escopo de loop (o item de iteração `{{#each}}` atual) como parâmetros — essa é uma limitação conhecida. Use variáveis globais ou lógica em linha como uma solução alternativa.
+* Se um fragmento que contém várias quebras de linha for usado no conteúdo de SMS ou push, as quebras de linha serão preservadas; teste o conteúdo antes de enviar.
+
+>[!TAB Perguntas frequentes]
+
+**P: Quantos fragmentos podem ser adicionados em uma única entrega?**
+
+Até 30 fragmentos.
+
+**P: Os fragmentos podem ser aninhados dentro de outros fragmentos?**
+
+Sim, mas somente até 1 nível de aninhamento.
+
+**P: O que acontece se eu usar um fragmento de Rascunho em uma jornada ou campanha?**
+
+Você pode adicionar um fragmento de rascunho ao conteúdo, mas não pode ativar ou publicar a jornada ou campanha até que o fragmento seja aprovado e seu status seja alterado para Live.
+
+**P: Um fragmento de expressão pode receber o item de loop atual (por exemplo, `product` em `{{#each}}`) como um parâmetro?**
+
+Não. Fragmentos de expressão não podem receber variáveis de escopo de loop como parâmetros. Use variáveis globais declaradas fora do loop (que o fragmento pode acessar) ou inclua a lógica de personalização diretamente no loop, em vez de usar um fragmento.
+
+**P: O que é quebra de herança e quando devo usá-la?**
+
+Interromper a herança significa usar &quot;Colar fragmento&quot; no menu contextual para copiar o conteúdo do fragmento diretamente para o editor. O conteúdo colado se torna um elemento independente que não é mais sincronizado com o fragmento original — use isso quando precisar personalizar o conteúdo além do que os campos editáveis permitem, sabendo que alterações futuras no fragmento original não serão propagadas para essa cópia.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 64745ff0 -->
 

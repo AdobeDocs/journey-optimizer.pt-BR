@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 300b4c714f797971749706e0269f61174d1fe91e
 workflow-type: tm+mt
-source-wordcount: 2271
+source-wordcount: 2469
 ht-degree: 2%
 
 ---
@@ -86,6 +86,21 @@ Por padrão, os campos somente leitura ficam ocultos. Para mostrar campos soment
 Dependendo do status da jornada, você pode executar ações diferentes na jornada usando os botões disponíveis no canto superior direito: **[!UICONTROL Publicar]**, **[!UICONTROL Duplicar]**, **[!UICONTROL Excluir]**, **[!UICONTROL Modo de teste]**, **[!UICONTROL Gerenciar acesso]**, **[!UICONTROL Alertas]**. Esses botões aparecem quando nenhuma atividade é selecionada. Alguns botões serão exibidos de forma contextual. O botão de log do modo de teste é exibido quando o modo de teste é ativado.
 
 ![Botões de ação de Jornada: Publicar, Duplicar, Excluir, Modo de teste, Gerenciar acesso, Alertas](assets/journey41.png)
+
+## Nova experiência da interface do Jornada {#canvas-capabilities}
+
+Uma **nova interface de usuário** está disponível para a tela de jornada, criada para ser dimensionada de acordo com os casos de uso mais complexos:
+
+* **Desempenho** — lida com jornadas grandes com muitas etapas e ramificações de forma eficiente.
+* **Layout automático** — organiza automaticamente as atividades para facilitar a leitura.
+* **Criação guiada** — oferece uma experiência de criação estruturada para ajudá-lo a criar jornadas com facilidade e eficiência.
+
+![](assets/journey-new-canvas.png)
+
+Para alternar para a nova experiência, clique no botão **[!UICONTROL Nova experiência]** na tela de jornada. Depois de alternada, essa configuração é salva no nível da jornada, para que a jornada seja aberta na nova experiência por padrão em visitas subsequentes. Para reverter, clique no botão **[!UICONTROL Experiência antiga]**.
+
+![](assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+
 
 ## Inicie sua jornada {#start-your-journey}
 

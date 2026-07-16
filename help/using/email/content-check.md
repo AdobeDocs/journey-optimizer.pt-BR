@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: email, verificação de conteúdo, HTML, CSS, validação, renderização, qualidade
-badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
+source-git-commit: 74bd6eeb380f433f08002024aba873906213aad4
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 9%
+source-wordcount: '1310'
+ht-degree: 6%
 
 ---
 
@@ -23,10 +22,6 @@ ht-degree: 9%
 >id="ajo_email_content_check"
 >title="Validar seu conteúdo de email"
 >abstract="As verificações de conteúdo detectam automaticamente problemas de HTML e CSS no email antes do envio. Eles sinalizam tags incompatíveis, divs em branco e limites de tamanho que podem interromper a renderização no Gmail ou no Microsoft Outlook. Os problemas são exibidos como erros, avisos ou notificações informativas, com detalhes contextuais e correções com um clique, quando disponíveis."
-
->[!AVAILABILITY]
->
->Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 
 O [!DNL Journey Optimizer] inclui validação técnica automatizada diretamente no Designer de email, ajudando você a identificar problemas de HTML e CSS antes do envio.
 
@@ -56,8 +51,10 @@ Quando nenhum problema for detectado, o painel exibirá **Nenhum problema detect
 
 Dependendo do problema, você pode exibir mais contexto, aplicar uma correção de um clique ou salvar seu email para atualizar um resultado de verificação.
 
-* Para alguns problemas detectados, você pode clicar no botão **[!UICONTROL Mostrar detalhes]** para ver mais contexto. Clique em **[!UICONTROL Ocultar detalhes]** para recolher.  ![Painel de verificação de conteúdo no Designer de email com detalhes](assets/content-check-details.png){width="80%"}
-* Da mesma forma, você pode clicar no botão **[!UICONTROL Mostrar correção]** e aplicar uma correção de um clique onde estiver disponível. Se a correção não puder ser aplicada automaticamente, uma mensagem será exibida e você deverá resolver o problema manualmente.  ![Painel de verificação de conteúdo no Email Designer com o botão Aplicar correção](assets/content-check-fix.png){width="80%"}
+* Para alguns problemas detectados, você pode clicar no botão **[!UICONTROL Mostrar detalhes]** para ver mais contexto. Clique em **[!UICONTROL Ocultar detalhes]** para recolher.
+  ![Painel de verificação de conteúdo no Designer de email com detalhes](assets/content-check-details.png){width="80%"}
+* Da mesma forma, você pode clicar no botão **[!UICONTROL Mostrar correção]** e aplicar uma correção de um clique onde estiver disponível. Se a correção não puder ser aplicada automaticamente, uma mensagem será exibida e você deverá resolver o problema manualmente.
+  ![Painel de verificação de conteúdo no Email Designer com o botão Aplicar correção](assets/content-check-fix.png){width="80%"}
 
 ### Recálculo de cheques {#recalculation}
 
@@ -111,6 +108,26 @@ As tabelas abaixo listam todas as mensagens possíveis e a ação recomendada pa
 
 ## Sobre o HTML e o tamanho de CSS {#size-estimation}
 
-Os valores de tamanho de HTML e CSS são **estimativas computadas no momento da criação** e podem diferir do tamanho real entregue aos destinatários — por exemplo, quando o email usa blocos condicionais (apenas uma renderização de ramificação por destinatário) ou quando a minificação de HTML é habilitada no momento do envio.
+Os valores de tamanho de HTML e CSS mostrados no Designer de email são **estimativas computadas no momento da criação**. Eles refletem a carga útil renderizada completa como ela existe no editor naquele momento e incluem:
 
-Os avisos de tamanho são sinais proativos para ajudar você a otimizar o conteúdo antes de enviar, não blocos rígidos.
+* **Estrutura do HTML** - todas as marcas, invólucros de layout e estilos embutidos
+* **CSS incorporado** - O Designer de email insere estilos antes de calcular o tamanho, que é padrão para clientes de email, mas aumenta o número bruto em comparação a uma folha de estilos externa
+* **Conteúdo do texto** - todos os tokens de cópia e personalização, contados em seu comprimento de espaço reservado (não seu valor resolvido)
+* **Fragmentos** - todos os fragmentos referenciados são expandidos em linha, de modo que cada fragmento contribui com seu peso completo de HTML/CSS para o total
+* **Blocos condicionais (if-else)** - **todas as ramificações** são incluídos na estimativa de tamanho no momento da criação, pois as condições não são avaliadas até o momento do envio
+* **Imagens** - somente a referência da imagem (src URL) é contada, não os dados da imagem binária propriamente dita
+
+### Por que a estimativa pode diferir do tamanho entregue {#size-estimate-difference}
+
+O tamanho mostrado é uma estimativa de pior caso no limite superior, não o email exato que um recipient receberá. Pode diferir pelos seguintes motivos:
+
+* **Conteúdo condicional**: no momento do envio, somente a ramificação correspondente ao perfil do destinatário é renderizada. Um modelo mostrando 120 KB no editor pode produzir um email de 60 KB para a maioria dos recipients.
+* **Tokens do Personalization**: os tokens de espaço reservado são contados em seu comprimento de token bruto. Os valores resolvidos geralmente são mais curtos.
+* **Otimização de tamanho do HTML**: se a opção **[!UICONTROL Otimizar tamanho do HTML]** estiver habilitada, os espaços em branco, os comentários e os caracteres redundantes serão removidos no momento do envio, reduzindo a carga final. [Saiba mais](create-email.md#optimize-html-size)
+
+### O que significam avisos de tamanho para os autores {#size-warnings}
+
+Os avisos de tamanho (por exemplo, HTML excedendo 100 KB) são **sinais proativos** para ajudá-lo a otimizar seu email antes do envio — eles não são blocos rígidos e não refletem o tamanho exato que os destinatários verão. Eles existem para ajudar a evitar:
+
+* Emails sendo cortados pelo Gmail, que corta mensagens em aproximadamente 102 KB do HTML
+* Renderização lenta em dispositivos móveis ou em conexões de baixa largura de banda

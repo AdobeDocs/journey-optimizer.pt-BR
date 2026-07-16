@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 56b57f083d747726847c0a3e658cd4ff4921fc81
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 5%
+source-wordcount: 613
+ht-degree: 8%
 
 ---
 
@@ -63,6 +63,18 @@ ht-degree: 5%
 Os desafios de fidelidade dependem da Adobe Experience Platform para identidade, atributos de perfil, eventos de experiência e públicos. Use esta página para saber quais dados devem ser preparados, quais conjuntos de dados estão envolvidos e como o **TTL (time-to-live)** afeta a retenção antes de criar desafios ou usar as APIs de desafios de fidelidade.
 
 Entre em contato com o administrador do Adobe para obter a configuração do programa do Journey Optimizer ou configure o preenchimento de premiação e o mapeamento de eventos no menu **[!UICONTROL Admin. de fidelidade]**. [Saiba como configurar desafios de fidelidade](loyalty-admin.md). Para obter pontos de extremidade e autenticação REST, consulte a [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}.
+
+## Conectores de fidelidade por meio de origens {#loyalty-connectors-sources}
+
+Se os seus dados de fidelidade forem gerenciados em uma plataforma externa de recompensas, você poderá assimilar esses dados na Adobe Experience Platform usando os conectores das **Fontes** e, em seguida, usá-los nos Desafios de Fidelidade.
+
+Os conectores de fidelidade e recompensa listados na documentação da Journey Optimizer incluem:
+
+* **Talon.One**
+* **Capilar**
+* **Kobie**
+
+Para integração de conectores e configuração completa, consulte [Introdução a conectores de fontes](../start/get-started-sources.md) e o [catálogo de fontes do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR#sources-catalog){target="_blank"}.
 
 ## Dados do Adobe Experience Platform {#aep-data}
 

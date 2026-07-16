@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 1559
-ht-degree: 18%
+source-wordcount: 1607
+ht-degree: 17%
 
 ---
 
@@ -76,6 +76,16 @@ No botão **[!UICONTROL Mais ações]** ao lado de cada fragmento, é possível:
 * Mover o fragmento para uma pasta. [Saiba mais](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### Atalhos de inicialização rápida {#quick-launch-fragments}
+
+No botão **[!UICONTROL Mais ações]** ao lado de cada fragmento, os seguintes atalhos de inicialização rápida também estão disponíveis:
+
+* **[!UICONTROL Editar]** — Abra o editor de fragmento diretamente.
+* **[!UICONTROL Abrir]** — Abra os detalhes do fragmento e visualize a tela.
+* **[!UICONTROL Descartar rascunho]** — Descarte a versão de rascunho atual e reverta para a última versão publicada.
+
+![](assets/fragment-quick-launch.png)
 
 ### Ações em massa {#bulk-actions-fragments}
 

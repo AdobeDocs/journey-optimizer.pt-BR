@@ -13,9 +13,9 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 701
+source-wordcount: 1348
 ht-degree: 1%
 
 ---
@@ -102,3 +102,73 @@ Para gerenciar chaves, siga as etapas abaixo.
    >[!NOTE]
    >
    >Somente chaves ativas devem ser selecionadas para criptografar novos valores no editor de personalização. Não use chaves revogadas para o novo conteúdo.
+
+## Referência rápida {#quick-reference}
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+>[!BEGINTABS]
+
+>[!TAB Visão geral]
+
+**TL;DR**
+
+Esta página explica como os administradores criam, giram e revogam chaves de criptografia no registro de chaves em nível de sandbox da Journey Optimizer, permitindo que os profissionais de marketing criptografem parâmetros de consulta de URL confidenciais para que as PII não sejam expostas em texto simples em links de rastreamento e páginas de aterrissagem.
+
+**Intenções**
+
+* Entenda por que a criptografia de parâmetro de URL é necessária (dados confidenciais e PII visíveis em sequências de consulta de texto sem formatação)
+* Criar chaves de criptografia no registro de chaves da sandbox (tarefa do administrador que requer permissões específicas)
+* Revogar uma chave para desabilitá-la permanentemente para nova criptografia
+* Girar uma chave para fornecer novo material criptográfico, mantendo o mesmo identificador
+* Use o auxiliar `Encrypt` no editor de personalização para proteger valores de parâmetro de consulta específicos
+
+>[!TAB Glossário]
+
+* **Registro de chave**: um repositório em nível de sandbox no Journey Optimizer (Administração > Configurações), onde os administradores criam e gerenciam chaves de criptografia usadas pelo auxiliar de criptografia do parâmetro de URL. *(específico do produto)*
+* **Auxiliar de criptografia (`Encrypt`)**: uma função auxiliar no editor de personalização que criptografa um valor de expressão no momento da renderização, substituindo o PII por texto cifrado em parâmetros de consulta de URL. *(específico do produto)*
+* **Revogar (chave)**: o ato de desabilitar permanentemente uma chave para nova criptografia; a entrada de chave permanece visível no Registro para auditoria e cargas mais antigas ainda podem exigi-la para descriptografia nos sistemas da organização.
+* **Girar (chave)**: o ato de fornecer novo material criptográfico para uma chave, mantendo seu identificador estável; portanto, campanhas e jornadas que já fazem referência a essa chave não precisam ser atualizadas.
+* **PII (Informações de identificação pessoal)**: dados que podem identificar um indivíduo — como atributos de perfil, tokens ou identificadores de oferta — que deve ser protegido quando incluído nos parâmetros de consulta de URL.
+
+>[!TAB Terminologia]
+
+* **Nome canônico:** Criptografia de parâmetro de URL — variantes: criptografia de URL, criptografia de parâmetro de consulta, ofuscação de parâmetro de URL
+* **Sinônimos:** &quot;registro de chave&quot; = &quot;Registro de chave&quot; (rótulo da interface do usuário em Administração > Configurações)
+* **Não confundir:** Revogar (desabilita permanentemente a chave para nova criptografia; a entrada permanece para auditoria) ≠ Girar (substitui material criptográfico, mas mantém o mesmo identificador de chave ativo para nova criptografia)
+
+>[!TAB Medidas de proteção e limitações]
+
+* No momento, a criptografia de parâmetros de URL está disponível apenas para o canal de email.
+* Exige permissões **Exibir Registro de Chave** e **Gerenciar Registro de Chave** para acessar e gerenciar chaves.
+* A descriptografia é responsabilidade da organização. O Journey Optimizer criptografa valores no momento da renderização; o site, aplicativo ou API deve descriptografar parâmetros usando o mesmo material e processos criptográficos definidos pela organização.
+* Somente chaves ativas devem ser usadas para criptografar novos valores no editor de personalização; chaves revogadas não devem ser usadas para novo conteúdo.
+* As chaves revogadas permanecem visíveis no registro para fins de auditoria; elas ainda podem ser necessárias para que os sistemas da organização descriptografem cargas mais antigas.
+
+>[!TAB Perguntas frequentes]
+
+**P: Quem é responsável pela descriptografia?**
+
+A descriptografia é responsabilidade da organização. O Journey Optimizer criptografa valores quando a mensagem é renderizada. O site, aplicativo ou API deve descriptografar parâmetros de consulta usando o mesmo material e processos criptográficos que a organização definiu.
+
+**P: Qual é a diferença entre Revogar e Girar?**
+
+Revogar desativa permanentemente uma chave para nova criptografia enquanto mantém a entrada visível no registro para auditoria (cargas mais antigas ainda podem precisar da chave para descriptografar nos sistemas da organização). A Rotate fornece novo material criptográfico para uma chave, mantendo o mesmo identificador de chave, de modo que as campanhas e jornadas que fazem referência a ele continuem a funcionar sem atualizações.
+
+**P: Quais permissões são necessárias para gerenciar chaves?**
+
+**Exibir Registro de Chave** e **Gerenciar Registro de Chave** permissões.
+
+**P: Quais canais oferecem suporte à criptografia de parâmetro de URL?**
+
+Atualmente, apenas o canal de email.
+
+**P: Uma chave revogada pode ser usada para a nova criptografia?**
+
+Não. Quando uma chave é revogada, as tentativas de usá-la no assistente de criptografia devem falhar no momento da renderização. Não use chaves revogadas para o novo conteúdo.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: c594ce24 -->

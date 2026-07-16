@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 3075
-ht-degree: 6%
+source-wordcount: 3541
+ht-degree: 5%
 
 ---
 
@@ -82,12 +82,13 @@ Revise essas notas antes de executar testes em sua jornada.
 * **Flexibilidade de reativação** - Você pode habilitar e desabilitar o modo de teste quantas vezes forem necessárias.
 * **Desativação automática** — as Jornadas que permanecem inativas no modo de teste por **mais de uma semana** saem automaticamente do modo de teste e retornam ao status Rascunho. Nenhum conteúdo de jornada é perdido; somente a sessão do modo de teste termina.
 * **Edição e publicação** - Enquanto o modo de teste estiver ativo, você não poderá modificar a jornada. No entanto, você pode publicar a jornada diretamente. Não é necessário desativar o modo de teste antes de.
+* **Entrega de mensagem** - No modo de teste, as mensagens são enviadas para as caixas de entrada reais dos perfis de teste usando o mesmo pipeline de entrega que a produção. Isso é diferente de [Jornada Dry Run](journey-dry-run.md), que simula a execução da jornada sem entregar mensagens ou acionar ações de canal reais. Nenhum dos métodos replica cada aspecto de um envio em tempo real; use um ambiente de preparo para uma validação completa.
 
 ### Execução
 
-* **Comportamento de divisão** - Quando a jornada atinge uma divisão, a ramificação superior é sempre selecionada. Reordene as ramificações se desejar que um caminho diferente seja testado.
+* **Comportamento de divisão** - Quando a jornada atinge uma divisão, a ramificação superior é sempre selecionada no modo de teste. Isso não reflete o caminho selecionado estatisticamente durante a execução ao vivo. Reordene as ramificações se desejar que um caminho diferente seja testado.
 * **Tempo do evento** - Se a jornada incluir vários eventos, acione cada evento em sequência. Enviar um evento muito cedo (antes da conclusão do primeiro nó de espera) ou muito tarde (após o tempo limite configurado) descartará o evento. O perfil será enviado para um caminho de tempo limite. Sempre confirme se as referências aos campos de payload do evento permanecem válidas, enviando o payload na janela definida.
-* **Janela de data ativa** - Verifique se a janela [de datas/hora de início e término](journey-properties.md#dates) configurada da jornada inclui a hora atual ao iniciar o modo de teste. Caso contrário, os eventos de teste acionados serão descartados silenciosamente. Saiba mais sobre como solucionar esse problema [nesta página](troubleshooting-execution.md#troubleshooting-test-transitions).
+* **Janela de data ativa** - Verifique se a janela [de datas/hora de início e término](journey-properties.md#dates) configurada da jornada inclui a hora atual ao iniciar o modo de teste. Caso contrário, os eventos de teste disparados serão descartados silenciosamente com a mensagem de log `DISPATCHER DISCARD #16 — unqualified on journey version enablements`. Para contornar isso durante o teste, defina temporariamente a data de início da jornada para uma hora antes do momento atual e, em seguida, restaure-a antes de publicar. Saiba mais sobre como solucionar esse problema [nesta página](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Eventos de reação** - Para eventos de reação com tempo limite, o tempo de espera mínimo e padrão é de 40 segundos.
 * **Conjuntos de dados de teste** - Os eventos acionados no modo de teste são armazenados em conjuntos de dados dedicados rotulados da seguinte maneira: `JOtestmode - <schema of your event>`
 * **Infraestrutura compartilhada** - O Modo de Teste é executado na mesma infraestrutura que a produção. Durante períodos de alto tráfego, você pode notar atrasos nos envios de email ou no processamento de eventos. Nesse caso, verifique os painéis de tráfego da plataforma ou repita os testes fora do horário de pico.
@@ -149,6 +150,17 @@ Para validar a jornada de ponta a ponta:
 >* O identificador de perfil inserido está sinalizado como um perfil de teste em [!DNL Adobe Experience Platform].
 >* As datas de início e término configuradas da jornada incluem a hora atual. Os eventos acionados fora dessa janela são descartados silenciosamente. [Saiba mais](troubleshooting-execution.md#troubleshooting-test-transitions).
 
+## Solução de problemas do modo de teste {#troubleshoot-test-mode}
+
+Use essa tabela para autodiagnosticar falhas comuns do modo de teste antes de abrir um tíquete de suporte.
+
+| Sintoma | Causa provável | Resolução |
+| --- | --- | --- |
+| O evento é enviado com sucesso, mas o perfil nunca é exibido no log de jornadas | Incompatibilidade de namespace no Identificador de perfil — o valor de namespace não corresponde ao namespace definido no esquema de evento | Verifique o formato do identificador: `@{<EventName>.identityMap.entry('<NamespaceName>').first().id}`. `<NamespaceName>` deve corresponder exatamente ao esquema do evento (diferencia maiúsculas de minúsculas). Consulte [Pré-requisitos](#trigger-events-prerequisites). |
+| Eventos aceitos (resposta 200), mas o jornada nunca é acionado; o log mostra `DISPATCHER DISCARD #16 — unqualified on journey version enablements` | A data de início da jornada é definida no futuro; os eventos de teste são descartados silenciosamente fora da janela de data ativa | Defina temporariamente a data de início da jornada como anterior à hora atual. Restaure-o antes de publicar. Consulte [datas de jornada](journey-properties.md#dates). |
+| Ler jornada de público mostra um log de avaliação de segmento em lote, mas nenhuma entrada de perfil | A avaliação de segmentos em lote é registrada separadamente da entrada de perfil individual; o log em lote não confirma se os perfis entraram na jornada | Aguarde até que a janela de processamento em lote seja concluída. Para obter feedback de log em tempo real, teste com uma jornada de evento unitária. |
+| O modo de teste não pode ser habilitado; erro `ERR_MODEL_RULES_16` | O evento não inclui um namespace de identidade, necessário quando a jornada usa uma ação de canal | Adicione um [namespace de identidade](../audience/get-started-identity.md) à configuração do evento. |
+
 ## Acionar os eventos {#firing_events}
 
 >[!CONTEXTUALHELP]
@@ -164,6 +176,12 @@ Use o botão **[!UICONTROL Acionar um evento]** para configurar um evento que fa
 Como pré-requisito, você deve saber quais perfis são sinalizados como perfis de teste no [!DNL Adobe Experience Platform]. Na verdade, o modo de teste permite apenas esses perfis na jornada.
 
 O evento deve conter uma ID. A ID esperada depende da configuração do evento. Pode ser uma ECID ou um endereço de email, por exemplo. O valor dessa chave precisa ser adicionado no campo **Identificador de Perfil**.
+
+O valor **Identificador de Perfil** deve corresponder exatamente à identidade armazenada no esquema de evento. O formato usado para fazer referência a uma identidade na carga do evento é:
+
+`@{<EventName>.identityMap.entry('<NamespaceName>').first().id}`
+
+Substitua `<NamespaceName>` pelo namespace exatamente como definido no esquema de evento (por exemplo, `Email` ou `Phone`). Uma incompatibilidade de namespace causa uma **queda silenciosa**: o evento é aceito e retorna uma resposta bem-sucedida, mas o perfil nunca entra na jornada e nenhum erro é exibido na interface. Se um perfil não aparecer nos logs de teste após disparar um evento, verifique se o namespace no seu **Identificador de Perfil** corresponde exatamente ao namespace de esquema de evento.
 
 Se a jornada não conseguir habilitar o modo de teste com erro `ERR_MODEL_RULES_16`, verifique se o evento usado inclui um [namespace de identidade](../audience/get-started-identity.md) ao usar uma ação de canal.
 
@@ -237,6 +255,10 @@ O número de indivíduos (tecnicamente chamados de instâncias) atualmente dentr
 * _enrichedData_: os dados que a jornada recuperou se ela usa fontes de dados.
 * _transitionHistory_: a lista de etapas seguidas pelo indivíduo. Para eventos, a carga é exibida.
 * _actionExecutionErrors_ : informações sobre os erros ocorridos.
+
+>[!NOTE]
+>
+>O log de teste mostra entradas somente para **eventos de entrada de perfil unitário**. Se você estiver testando uma jornada Ler público, o log de avaliação do segmento em lote será separado do log de entrada de perfil individual. Um segmento em lote que está sendo avaliado não confirma se perfis individuais avançaram pelas etapas de jornada. Se nenhuma entrada de perfil for exibida depois de acionar uma jornada Ler público-alvo, aguarde a conclusão da janela de processamento em lote antes de tirar conclusões.
 
 Estes são os diferentes status da jornada de um indivíduo:
 

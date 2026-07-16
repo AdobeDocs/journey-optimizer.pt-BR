@@ -27,10 +27,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
+source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
 workflow-type: tm+mt
 source-wordcount: 3490
-ht-degree: 54%
+ht-degree: 53%
 
 ---
 
@@ -119,7 +119,7 @@ O Web SDK (`alloy.js`) é uma única biblioteca JavaScript que substitui a manta
 
 1. **Configurar sequências de dados**: crie e configure uma sequência de dados na [!DNL Adobe Experience Platform Data Collection] com o Journey Optimizer habilitado. Saiba mais na [documentação das sequências de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=pt-BR){target="_blank"}.
 
-1. **Habilitar notificações por push da Web** (opcional): as notificações por push da Web agora estão disponíveis. Configure a [propriedade pushNotifications](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} na configuração do SDK da Web e use o [comando sendPushSubscription](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} para registrar assinaturas por push. [Saiba mais sobre a configuração de push da Web](../../push/push-configuration-web.md).
+1. **Habilitar notificações por push da Web** (opcional): as notificações por push da Web agora estão disponíveis. Configure a [propriedade pushNotifications](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"} na configuração do SDK da Web e use o [comando sendPushSubscription](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"} para registrar assinaturas por push. [Saiba mais sobre a configuração de push da Web](../../push/push-configuration-web.md).
 
 ### Implementar experiências baseadas em código (SDK da web)
 

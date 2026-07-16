@@ -1,5 +1,5 @@
 ---
-title: Receitas do Personalization
+title: Receitas de personalização
 description: Padrões de personalização comuns e exemplos reais para o Adobe Journey Optimizer
 feature: Personalization
 topic: Personalization
@@ -10,14 +10,14 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: 18067b68e09b98e616126dd40b8ad729233c49fa
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 1530
 ht-degree: 0%
 
 ---
 
-# Receitas do Personalization {#personalization-recipes}
+# Receitas de personalização {#personalization-recipes}
 
 >[!BEGINSHADEBOX]
 
@@ -297,4 +297,79 @@ Para campos booleanos armazenados como strings:
 ```sql
 {%= toBool(profile.consents.email.val) = true %}
 ```
+
+## Referência rápida {#quick-reference}
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+>[!BEGINTABS]
+
+>[!TAB Visão geral]
+
+**TL;DR**
+
+Esta página fornece 16 receitas de personalização prontas para uso do tipo copiar-colar, que abrangem datas, matrizes, strings, lógica condicional e casos de borda do PQL para uso em conteúdo de email, SMS e push do Journey Optimizer.
+
+**Intenções**
+
+* Copiar padrões de data/hora prontos para uso (data atual, contagem regressiva, datas de deslocamento, exibição de hora, detecção de fim de semana)
+* Copiar padrões de matriz e loop (itens de lista, itens N principais, renderização condicional por item)
+* Copiar padrões de formatação de cadeia de caracteres (limpar e reutilizar cadeias de caracteres, aspas JSON, componentes de data em maiúsculas)
+* Copiar padrões lógicos condicionais (multi-branch if/elseif/else, exibição de atributo null-safe)
+* Lidar com casos de borda do PQL (chaves hifenizadas, IDs de evento numéricas, coerção de tipo)
+
+>[!TAB Glossário]
+
+* **Receita do Personalization**: um padrão pronto para uso de copiar e colar para um caso de uso de personalização comum, usando a sintaxe do editor de personalização. *(específico do produto)*
+* **`formatDate`**: uma função que converte uma data em uma cadeia de caracteres usando um padrão de formato especificado (por exemplo, `"MMMM dd, yyyy"`).
+* **`dateDiff`**: uma função que calcula a diferença numérica entre duas datas.
+* **`getCurrentZonedDateTime()`**: uma função que retorna a data e hora atuais em um formato sensível a fuso horário.
+* **`topN`**: uma função PQL que classifica uma matriz por um campo numérico especificado em ordem decrescente e retorna os N itens principais. Deve ser atribuído via `{% let %}` antes do uso em um loop Handlebars.
+* **`{% let %}`**: Sintaxe de atribuição de variável Handlebars para o armazenamento de valores calculados; necessário quando um resultado de função PQL precisa ser referenciado em um contexto Handlebars subsequente.
+* **`replaceAll`**: uma função de cadeia de caracteres que substitui todas as ocorrências de um padrão em uma cadeia de caracteres; retorna uma nova cadeia de caracteres sem modificar o original.
+
+>[!TAB Terminologia]
+
+* **Nome canônico:** fórmula de personalização — variantes: padrão, modelo, exemplo, padrão copiar-colar
+* **Não confundir:** `{%= ... %}` (sintaxe de expressão PQL — avaliada, retorna um valor calculado) ≠ `{{...}}` (Interpolação Handlebars — renderiza uma expressão de variável ou de modelo)
+* **Não confunda:** `{%#if%}` / `{%/if%}` (sintaxe condicional Journey Optimizer, chaves percentuais) ≠ `{{#if}}` / `{{/if}}` (sintaxe condicional Handlebars padrão)
+* **Não confundir:** `topN(array, field, n)` (classifica por campo em ordem decrescente, retorna o N superior) ≠ `head(array)` (retorna somente o primeiro item da matriz)
+* **Não confunda:** `dayOfWeek()` (usado no conteúdo da mensagem para adaptar a exibição com base no dia) ≠ a opção Condição de tempo de jornada &quot;Dia da semana&quot; (usada na atividade de Condição de jornada para rotear perfis de forma diferente)
+* **Não confunda:** padrão de formato de data `y` (ano civil — correto) ≠ `Y` (ano baseado em semana — pode produzir resultados inesperados em limites de ano)
+
+>[!TAB Medidas de proteção e limitações]
+
+* Não há suporte para `{{#each}}` na atividade de condição de jornada; use funções de gerenciamento de coleções para filtragem de matriz em condições de jornada.
+* O escape de backtick para chaves de atributo hifenizadas só tem suporte em expressões PQL (`{%= ... %}`); backticks não são aceitos na interpolação Handlebars simples (`{{...}}`).
+* `topN` é uma função PQL e deve ser atribuída a uma variável `{% let %}` antes de ser usada como um destino de loop `{{#each}}`.
+* Ao usar uma variável de loop dentro de um bloco `{%#if%}`, declare um alias de loop nomeado (por exemplo, `as |order|`); `this.status` não é resolvido pelo avaliador do PQL dentro de `{%#if%}`.
+* Use minúsculas `y` em `formatDate` padrões para o ano civil; `Y` (ano baseado em semana) pode produzir valores inesperados nos limites do final do ano.
+
+>[!TAB Perguntas frequentes]
+
+**P: Qual é a diferença entre `{%= ... %}` e `{{...}}` na personalização?**
+
+`{%= ... %}` é a sintaxe de expressão do PQL — é avaliada e retorna um valor calculado (número, sequência, booleano). `{{...}}` é a interpolação Handlebars — ela renderiza uma variável ou expressão de modelo. Ambos aparecem no conteúdo de personalização, mas atendem a diferentes objetivos.
+
+**P: Como usar um resultado de função PQL dentro de um loop Handlebars `{{#each}}`?**
+
+Atribua o resultado da função PQL a uma variável usando `{% let variableName = pqlFunction(...) %}` e, em seguida, use `{{#each variableName}}` para iterar sobre ele.
+
+**P: `{{#each}}` pode ser usado em uma atividade de condição de jornada?**
+
+Não. `{{#each}}` está disponível somente no conteúdo de personalização de mensagens (email, SMS, push). Para filtragem de matriz em condições de jornada, use funções de gerenciamento de coleção.
+
+**P: Como faço referência a um campo cujo nome contém um hífen?**
+
+Envolva a chave hifenizada em acentos graves dentro de uma expressão PQL: ``{%= profile.events.`order-total` > 100 %}``. Os acentos graves não são suportados na interpolação Handlebars simples — use uma variável `{% let %}` como uma etapa intermediária, se necessário.
+
+**P: Por que `topN` precisa de `{% let %}` antes de um loop `{{#each}}`?**
+
+`topN` é uma função PQL que retorna uma lista PQL. Atribuí-lo a uma variável `{% let %}` torna o resultado disponível no contexto Handlebars para que ele possa ser iterado com `{{#each}}`.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 20c7ee0f -->
 

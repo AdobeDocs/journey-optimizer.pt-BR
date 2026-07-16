@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
+source-git-commit: eef9b6b37edd1722fb9894b18e1504496c70a142
 workflow-type: tm+mt
-source-wordcount: 9416
-ht-degree: 89%
+source-wordcount: 9685
+ht-degree: 87%
 
 ---
 
@@ -26,6 +26,13 @@ ht-degree: 89%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Julho de 2026 {#july-2026}
+
+* A página **Verificação de conteúdo** foi atualizada com uma nova seção **Sobre o HTML e o tamanho do CSS** que explica o que está incluído na estimativa de tempo de criação (estrutura do HTML, CSS incorporado, tokens de personalização, fragmentos, blocos condicionais e referências de imagem), por que a estimativa difere do tamanho entregue e o que os avisos de tamanho significam para os autores. [Leia mais](../email/content-check.md#size-estimation)
+
+* A página **Criar campanhas de aquecimento de IP** foi atualizada para esclarecer que as regras de direcionamento podem ser aplicadas a campanhas de aquecimento de IP e para documentar o comportamento de avaliação: a associação de público-alvo é corrigida na ativação de execução (segmentação diária em lote), enquanto os atributos de perfil são lidos no tempo de execução dos dados em lote assimilados mais recentemente. [Leia mais](../configuration/ip-warmup-campaign.md)
+* A página **Encerrar uma jornada** foi atualizada para esclarecer o tempo de parada automático para jornadas de Leitura de Público não recorrentes: um buffer de segurança de aproximadamente **96 horas (~4 dias)** após a execução agendada, durante o qual a jornada pode permanecer no status **Ativo** antes da transição para **Parado** na próxima passagem do scanner. A página agora também esclarece que as jornadas baseadas em ondas, incluindo os casos de uso da Otimização de tempo de envio, são excluídas dessa interrupção automática e, em vez disso, seguem o tempo limite padrão de jornada de 91 dias. [Leia mais](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+* As páginas **Upload personalizado** e **Ler público** foram corrigidas para esclarecer o comportamento de Leitura incremental para públicos externos/personalizados (incluindo upload de CSV e Composição de público federado): a Leitura incremental não é funcionalmente suportada para esses tipos de público hoje, e o público-alvo completo é processado em cada recorrência, independentemente da configuração de alternância de Leitura incremental. Orientação agora vincula os controles de recorrência incluindo **Forçar reentrada na recorrência**. [Leia mais sobre o Carregamento Personalizado](../audience/custom-upload.md) e [Leia mais sobre o agendamento de Leitura de Público](../building-journeys/read-audience.md#schedule)
 
 * Um aviso foi adicionado à página **Editar registros PTR** para informar aos clientes que, ao adicionar um novo registro DNS de encaminhamento à sua plataforma, o registro DNS de encaminhamento para o subdomínio antigo não deve ser removido até que a movimentação seja concluída, pois isso fará com que a edição falhe. [Leia mais](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 

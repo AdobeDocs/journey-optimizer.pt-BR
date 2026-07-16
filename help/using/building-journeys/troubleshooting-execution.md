@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 2993
+source-wordcount: 3051
 ht-degree: 8%
 
 ---
@@ -100,14 +100,14 @@ Se os perfis de teste não avançarem na jornada no modo de teste ou o fluxo vis
 
 Se os perfis de teste entrarem na jornada, mas não avançarem além da etapa inicial, verifique o seguinte:
 
-* **Data de início da Jornada** - A causa mais comum é quando a data de início da jornada é definida no futuro. Os perfis de teste são descartados imediatamente se a hora atual estiver fora da janela [datas/hora de início e término](journey-properties.md#dates) configurada da jornada. Para resolver:
+* **Data de início da Jornada** - A causa mais comum é quando a data de início da jornada é definida no futuro. Os perfis de teste são imediatamente descartados se a hora atual estiver fora da janela [datas/hora de início e término](journey-properties.md#dates) configurada da jornada, produzindo a entrada de log: `DISPATCHER DISCARD #16 — unqualified on journey version enablements`. Para resolver:
    * Verificar se a data de início da jornada não está definida no futuro
    * Garantir que a hora atual esteja na janela de datas ativa da jornada
-   * Se necessário, atualize as propriedades da jornada para ajustar a data de início
+   * Se necessário, defina temporariamente a data de início para uma hora antes do momento atual para testes e, em seguida, restaure-a antes de publicar
 
 * **Configuração do perfil de teste** - Confirme se o perfil está sinalizado corretamente como um perfil de teste em [!DNL Adobe Experience Platform]. Consulte [como criar perfis de teste](../audience/creating-test-profiles.md) para obter mais informações.
 
-* **Namespace de identidade** - Verifique se o namespace de identidade usado na configuração do evento corresponde ao namespace do seu perfil de teste.
+* **Incompatibilidade de namespace de identidade** - Uma incompatibilidade de namespace causa uma queda silenciosa: o evento é aceito e retorna uma resposta bem-sucedida, mas o perfil nunca entra na jornada e nenhum erro é exibido na interface. Verifique se o namespace no **Identificador de Perfil** corresponde exatamente ao namespace definido no esquema de evento (diferencia maiúsculas de minúsculas). Consulte o [formato de expressão do Identificador de Perfil](testing-the-journey.md#trigger-events-prerequisites) para obter detalhes.
 
 ### Indicadores de transição nulos
 
@@ -125,7 +125,7 @@ Se você encontrar problemas de transição persistentes:
 
 >[!NOTE]
 >
->Lembre-se de que os eventos enviados fora da janela de data ativa da jornada são descartados silenciosamente sem mensagem de erro. Sempre verifique a configuração de tempo da jornada primeiro ao solucionar problemas de progressão do perfil de teste.
+>Eventos enviados fora da janela de data ativa da jornada são silenciosamente descartados com a entrada de log `DISPATCHER DISCARD #16 — unqualified on journey version enablements` e nenhum erro de interface. Sempre verifique a configuração de tempo da jornada primeiro ao solucionar problemas de progressão do perfil de teste.
 
 ## Verificar como as pessoas navegam pela jornada {#checking-how-people-navigate-through-the-journey}
 

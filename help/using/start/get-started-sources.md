@@ -25,10 +25,10 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
-workflow-type: ht
-source-wordcount: 724
-ht-degree: 100%
+source-git-commit: 451d24a7d30c00aa2ad5528f1dbf3bb775b3258d
+workflow-type: tm+mt
+source-wordcount: 726
+ht-degree: 96%
 
 ---
 
@@ -95,6 +95,11 @@ O Journey Optimizer oferece suporte a vários tipos de fontes para conexão com 
 * Salesforce
 * Salesforce Marketing Cloud
 
+**Fidelidade e recompensas:**
+* Talon.One
+* Capilar
+* Kobie
+
 ➡️ Veja a lista completa no [catálogo de fontes da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR#sources-catalog){target="_blank"}
 
 ## Antes de começar {#prerequisites}
@@ -138,7 +143,7 @@ Para obter informações detalhadas sobre como configurar e gerenciar fontes, co
 Agora que você entende o que são fontes e por que elas são importantes:
 
 * Explore o [catálogo de fontes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR#sources-catalog){target="_blank"} para encontrar conectores de sistemas
-* Saiba como [criar uma conexão de origem](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=pt-BR){target="_blank"}
-* Entenda [o mapeamento e a transformação de dados](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=pt-BR){target="_blank"}
+* Saiba como [criar uma conexão de origem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home){target="_blank"}
+* Entenda [o mapeamento e a transformação de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home){target="_blank"}
 * Veja como [usar dados importados nas jornadas](../building-journeys/journey-gs.md)
 * Consulte a seção de visão geral [Introdução à gestão de dados](../data/gs-data.md) para entender como as fontes se encaixam na configuração completa de dados do Journey Optimizer

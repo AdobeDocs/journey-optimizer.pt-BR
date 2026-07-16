@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 20%
+source-wordcount: 1855
+ht-degree: 18%
 
 ---
 
@@ -83,11 +83,26 @@ Para abrir a interface de configuração, selecione o menu de navegação à esq
 >title="Configurações globais"
 >abstract="As configurações globais definem a configuração no nível da organização para Desafios de fidelidade, incluindo o namespace de identidade usado para identificar membros em eventos e desafios."
 
-Abra a guia **[!UICONTROL Configurações globais]** e selecione o [namespace de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces) da Adobe Experience Platform para Desafios de Fidelidade no menu suspenso **[!UICONTROL Namespace]**. Este namespace deve corresponder à forma como os perfis de membros são identificados em seus dados.
+Abra a guia **[!UICONTROL Configurações globais]** para definir as configurações globais para Desafios de Fidelidade.
 
 ![](assets/admin-global-settings.png)
 
-➡️ [Saiba como trabalhar com namespaces de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces){target="_blank"}
+* Na seção **[!UICONTROL Configuração da organização]**, selecione o [namespace de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces) do Adobe Experience Platform para desafios de fidelidade. Este namespace deve corresponder à forma como os perfis de membros são identificados em seus dados.
+
+  ➡️ [Saiba como trabalhar com namespaces de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces){target="_blank"}
+
+* Use a seção **[!UICONTROL Relatórios]** para definir a métrica de prioridade da sua organização para o painel do Loyalty Insights. Essa configuração determina quais insights recebem ênfase no feed, permitindo que você se concentre na métrica mais importante para a sua empresa.
+
+  Selecione uma das seguintes opções de KPI:
+
+   * **[!UICONTROL Receita]** — Priorizar insights relacionados a transações monetárias e desempenho de vendas
+   * **[!UICONTROL Envolvimento]** — Priorize insights relacionados à atividade e participação do membro
+   * **[!UICONTROL Resgate]** — Priorizar insights relacionados às taxas de resgate e à atividade de remuneração
+   * **[!UICONTROL Conversões]** — Priorize insights relacionados às métricas de conversão e à conclusão de metas
+
+  Ao selecionar um KPI, os insights relacionados a essa métrica recebem um aumento de pontuação, o que faz com que eles subam para a parte superior do feed. Isso significa que os insights mais relevantes para o KPI selecionado aparecem primeiro. Nenhum insight está oculto: seu feed completo do insight continua a ser exibido, classificado por significância com seu KPI selecionado priorizado acima de outras métricas. Essa configuração afeta apenas como os insights são classificados no feed e não modifica como o programa de fidelidade opera ou como os desafios são avaliados. Você pode alterar sua seleção de KPI a qualquer momento, e o feed do insight reprioriza no próximo ciclo de atualização para refletir sua nova prioridade.
+
+  Para obter mais informações sobre insights de fidelidade e monitoramento de desempenho, consulte [Monitorar desempenho de desafio de fidelidade](loyalty-reporting.md).
 
 ## Provedores de recompensa {#reward-providers}
 

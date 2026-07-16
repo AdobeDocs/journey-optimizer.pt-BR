@@ -9,10 +9,10 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: cfd54ee08abb8ef6dbeaeb8ca079e0d19cd329a5
 workflow-type: tm+mt
-source-wordcount: 1121
-ht-degree: 4%
+source-wordcount: 1188
+ht-degree: 3%
 
 ---
 
@@ -311,9 +311,9 @@ Durante o tempo de execução, o valor dos metadados é adicionado ao **[!UICONT
 
 **Limitações**
 
-Há um limite superior de 2 kb nos pares de valores principais por ação. Se o limite de 2Kb for excedido, a mensagem ainda será entregue, mas qualquer um dos pares de valores principais poderá ser truncado.
-
-Os metadados não são capturados para perfis excluídos da ação. Quando um perfil é excluído do recebimento de uma mensagem, nenhuma entrada de metadados é criada para esse perfil no conjunto de dados.
+* Você pode passar no máximo 50 pares de valores-chave por ação.
+* A carga total de metadados é limitada a 2 KB por ação. Se o limite de 2 KB for excedido, a mensagem ainda será entregue, mas qualquer par de valor principal poderá ser truncado.
+* Os metadados não são capturados para perfis excluídos da ação. Quando um perfil é excluído do recebimento de uma mensagem, nenhuma entrada de metadados é criada para esse perfil no conjunto de dados.
 
 **Exemplo**
 

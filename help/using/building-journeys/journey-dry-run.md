@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 41e34973cb3213e08442bead6d1f1bb00af00921
 workflow-type: tm+mt
-source-wordcount: 2002
-ht-degree: 9%
+source-wordcount: 2330
+ht-degree: 8%
 
 ---
 
@@ -93,6 +93,8 @@ Durante o Dry Run, a jornada é executada no modo de simulação, aplicando os s
 
    * Se um nó **Reaction** for usado com um ou vários nós **unitary event** em paralelo, os perfis sempre passarão pelo evento de reação.
    * Se um nó **Reaction** for usado com um ou vários nós **response event** em paralelo, os perfis sempre irão passar pelo primeiro na tela (o que está na parte superior).
+
+* As atividades de **Ler Público** com um tempo de execução agendado (diário, semanal ou mensal) não seguem o tempo configurado na jornada — o agendamento é ancorado no momento em que a Execução Seca é ativada. Por exemplo, se sua jornada estiver definida para ser executada diariamente às 10:00, mas você ativar o Dry run às 8:00 AM, todas as leituras programadas subsequentes durante o Dry run serão executadas às 8:00 AM.
 
 >[!CAUTION]
 >
@@ -159,7 +161,7 @@ Os links para as últimas 24 horas e relatórios de todos os tempos estão dispo
 * As jornadas de simulação não afetam as regras de negócios
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
 * As ações de **Salto** não estão habilitadas no Modo de Execução Seco.
-Quando uma jornada de origem aciona um evento **Jump** para um evento de destino, esse evento de salto não se aplica a uma versão de jornada Dry run. Por exemplo, se a versão mais recente de uma jornada estiver em execução a seco e a anterior for **Live**, o evento de salto ignorará a versão de execução a seco e será aplicável somente para a versão **Live**.
+Quando uma jornada de origem aciona um evento **Jump** para um evento de destino, esse evento de salto não se aplica a uma versão de jornada Dry run. Por exemplo, se a versão mais recente de uma jornada estiver em Execução a seco e a anterior for **Ativa**, o evento de salto ignorará a versão de Execução a seco e será aplicável somente para a versão **Ativa**.
 
 ## Jornada eventos de etapa e simulação {#journey-step-events}
 
@@ -209,6 +211,10 @@ Não. Os dados de relatório estão disponíveis somente enquanto o Dry run est�
 
 O simulação gera **stepEvents** sinalizados com `inDryRun` e um `dryRunID`. Ao analisar métricas de relatórios de jornada com o Serviço de consulta [!DNL Adobe Experience Platform], exclua os eventos de etapa em que `inDryRun` é `true` (inclua apenas eventos em que `inDryRun` seja `null` ou `false`).
 
+**O tempo de execução agendado de uma atividade Read Audience muda no Dry run?**
+
+Sim. Para jornadas que usam uma atividade **Read Audience** com um horário agendado (diário, semanal ou mensal), o Dry run ancora o agendamento no momento em que o Dry run é ativado, não o tempo configurado na jornada. Por exemplo, se a jornada estiver definida para ser executada às 10h, mas você ativar o Dry run às 8h, todas as leituras diárias durante o Dry run serão executadas às 8h.
+
 ## Vídeo tutorial {#dry-run-video}
 
 Saiba como testar suas jornadas neste vídeo.
@@ -245,6 +251,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Os nós de reação não são executados durante a execução seca; os perfis são fechados com êxito, com regras de prioridade para ramificações unitárias paralelas e de reação
 * Os dados de relatório só estão disponíveis enquanto o Dry run estiver ativo; uma vez interrompido, os dados não estarão mais acessíveis
 * As jornadas de simulação não afetam as regras de negócios
+* Para jornadas que usam uma atividade **Read Audience** com um horário agendado (diário, semanal ou mensal), o Dry run não segue o agendamento de jornada configurado — o agendamento é ancorado no momento em que o Dry run é ativado (por exemplo, jornada definida para 10 AM, Dry run ativado às 8 AM → todas as leituras durante o Dry run executado às 8 AM)
 
 **Terminologia:**
 * Nome canônico: Jornada Dry run — Acrônimo: none — variantes: modo de simulação, modo de publicação de simulação
@@ -257,5 +264,6 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **P: Como posso excluir dados do Dry run das minhas consultas de análise do jornada?** — Filtre os eventos de etapa em que `inDryRun` é `true`; inclua apenas eventos em que `inDryRun` seja `null` ou `false`.
 * **P: Os perfis são contados em relação a quaisquer limites durante uma simulação?** — Sim; os perfis são contados para Perfis acionáveis e a jornada de simulação é contada para a cota de jornada ativa.
 * **P: Posso habilitar atividades de espera e chamadas de fonte de dados externas durante uma execução Seca?** — Ambos são desativados por padrão, mas você pode optar por ativá-los ou desativá-los ao ativar o Dry run.
+* **P: O Dry run respeita o tempo de execução agendado configurado em uma jornada Read Audience?** — Não. O Dry run ancora o agendamento para o horário de ativação, não o tempo de jornada configurado. Se a jornada estiver definida para ser executada às 10 horas, mas o Dry run estiver ativado às 8 horas, todas as leituras programadas durante o Dry run serão executadas às 8 horas.
 
 +++

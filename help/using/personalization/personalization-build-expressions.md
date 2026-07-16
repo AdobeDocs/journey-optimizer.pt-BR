@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1592
-ht-degree: 11%
+source-wordcount: 2328
+ht-degree: 7%
 
 ---
 
@@ -275,3 +275,77 @@ HTML: content<br/></td>
 </table>
 
 +++
+
+## Referência rápida {#quick-reference}
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+>[!BEGINTABS]
+
+>[!TAB Visão geral]
+
+**TL;DR**
+
+Esta página explica como usar o editor de personalização do Journey Optimizer para selecionar, criar, personalizar e validar expressões de personalização de fontes, incluindo atributos de perfil, públicos, decisões de oferta e atributos contextuais.
+
+**Intenções**
+
+* Entenda onde a personalização pode ser adicionada no Journey Optimizer (mensagens, Designer de email, URLs, configuração de email, ofertas)
+* Selecione a fonte de personalização apropriada para uma expressão
+* Adicionar atributos e criar expressões no espaço de trabalho do editor
+* Usar ferramentas do editor: Localizar/Substituir, Preenchimento automático, Validar, Pills, Salvar como fragmento
+* Usar recursos do painel de navegação: funções auxiliares, Favoritos, Condições, Fragmentos
+* Validar expressões e resolver erros comuns
+
+>[!TAB Glossário]
+
+* **Editor do Personalization**: a ferramenta de interface do usuário central no Journey Optimizer para criar, personalizar e validar expressões de personalização; disponível onde a personalização puder ser definida. *(específico do produto)*
+* **Fontes do Personalization**: as categorias de dados disponíveis para criar expressões — atributos de perfil, atributos de destino, públicos-alvo, decisões de oferta e atributos contextuais.
+* **Atributos contextuais**: dados específicos de Jornada ou campanha (eventos, propriedades, respostas de ação personalizadas) disponíveis para personalização somente quando uma ação de canal é usada em uma jornada ou campanha. *(específico do produto)*
+* **Pills**: um modo de exibição do editor de personalização que renderiza caminhos de atributos longos como tokens compactos e clicáveis para facilitar a leitura. Disponível somente para atributos de perfil, atributos contextuais e mídia dinâmica. *(específico do produto)*
+* **Preenchimento automático**: um recurso do editor que sugere e conclui automaticamente o código à medida que você digita; disponível somente para formatos de HTML e Texto, com suporte somente para atributos de Perfil e Contexto. *(específico do produto)*
+* **Fragmento de expressão**: um componente de expressão de personalização reutilizável que pode ser referenciado em campanhas e jornadas. *(específico do produto)*
+* **Texto de fallback**: uma cadeia de caracteres padrão exibida quando um atributo de perfil do tipo cadeia de caracteres está vazio para um determinado perfil; configurado por atributo via &quot;Inserir com texto de fallback&quot;.
+
+>[!TAB Terminologia]
+
+* **Nome canônico:** editor de personalização
+* **Não confunda:** o editor do Personalization (usado para criar expressões de conteúdo em mensagens, emails, notificações por push e ofertas — suporta a sintaxe do Handlebars e do PQL) ≠ O editor de expressão avançado (usado na jornada para condições em fontes de dados e informações de eventos, atividades de espera personalizadas e mapeamento de parâmetros de ação — fornece funções e operadores integrados que diferem daqueles no editor de personalização)
+* **Não confundir:** Atributos de perfil (baseado em esquema XDM, disponível em todos os contextos) ≠ Atributos contextuais (específico para jornada/campanha, disponível somente nesse contexto) ≠ Atributos de destino (somente campanhas orquestradas)
+* **Não confunda:** Preenchimento automático para HTML/Text (sugere conclusões de atributo de personalização) ≠ autopreenchimento de código nativo do HTML (o padrão do editor quando a opção está desativada)
+
+>[!TAB Medidas de proteção e limitações]
+
+* O Preenchimento automático está disponível somente para formatos de HTML e Texto; ele é compatível apenas com atributos de Perfil e Contexto.
+* O modo de exibição de pílulas está disponível apenas para atributos de perfil, atributos contextuais e mídia dinâmica.
+* A personalização de URL está disponível somente para os tipos de link Link externo, Link de unsubscription e Link de recusa.
+* Por padrão, o painel de atributos mostra apenas atributos preenchidos; desative a opção &quot;Mostrar apenas atributos preenchidos&quot; para exibir todos os atributos do esquema.
+* O uso do modelo de ofertas deve conter somente atributos de perfil; atributos que não sejam de perfil em uma decisão causam um erro de validação.
+
+>[!TAB Perguntas frequentes]
+
+**P: Onde a personalização pode ser adicionada no Journey Optimizer?**
+
+Em qualquer campo com o ícone de adicionar personalização — incluindo a linha de assunto do email, campos de notificação por push (Título, Corpo, som personalizado, Selos, dados personalizados), elementos de texto do Designer de email, URLs (Link externo, Link de cancelamento de assinatura, Recusa), subdomínios/cabeçalhos/parâmetros de rastreamento de URL de configuração de email e representações do tipo texto de oferta.
+
+**P: Quais são as fontes de personalização disponíveis?**
+
+Atributos do perfil, atributos do Target (somente campanhas orquestradas), públicos, decisões de oferta e atributos contextuais (eventos de jornada/campanha e respostas de ação personalizadas).
+
+**P: Como uma expressão é validada?**
+
+A validação é executada automaticamente ao clicar em Adicionar para fechar o editor. Também é possível acioná-lo manualmente com o botão Validate. Erros comuns incluem: caminho não encontrado (campo não no esquema), incompatibilidade de tipo (iterando uma cadeia de caracteres como matriz), sintaxe Handlebars inválida e definição de segmento inválida.
+
+**P: O que a opção Comprimidos faz?**
+
+Ele renderiza caminhos de atributos longos como tokens compactos e clicáveis para melhorar a leitura no editor. Disponível somente para atributos de perfil, atributos contextuais e mídia dinâmica.
+
+**P: Por que vejo apenas alguns atributos no painel de atributos?**
+
+Por padrão, o painel mostra apenas atributos preenchidos. Selecione o ícone de configurações acima do campo de pesquisa e desative a opção &quot;Mostrar apenas atributos preenchidos&quot; para exibir todos os atributos do esquema.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 54973b31 -->

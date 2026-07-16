@@ -27,10 +27,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
+source-git-commit: 48d26b4669ef3fad87fd05d61ec187b7445d00a8
 workflow-type: tm+mt
-source-wordcount: 1875
-ht-degree: 2%
+source-wordcount: 2175
+ht-degree: 1%
 
 ---
 
@@ -115,6 +115,35 @@ Após o período de reentrada, os perfis podem entrar na jornada novamente. Para
 <!--
 Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. 
 -->
+
+### Reentrada nas versões do jornada {#reentrance-versions}
+
+Um perfil não pode estar ativo na mesma jornada mais de uma vez ao mesmo tempo, incluindo em versões ativas dessa jornada.
+
+As configurações de reentrada estão definidas na versão atual do jornada, mas o [!DNL Journey Optimizer] também verifica se o perfil já está ativo em outra versão ativa da mesma jornada. Se o perfil ainda estiver avançando por uma versão anterior, uma nova entrada será bloqueada até que a instância ativa termine ou o perfil seja removido.
+
+A publicação de uma nova versão do jornada não move perfis em andamento para a nova versão. Os perfis que já inseriram uma versão anterior permanecem nessa versão até que saiam da jornada. Se se tornarem qualificados novamente mais tarde, eles inserirão a versão mais recente disponível.
+
+**Exemplo**
+
+Para entender como o bloqueio entre versões funciona, considere a seguinte sequência:
+
+1. A versão 1 de uma jornada está ativa e um perfil a insere.
+1. Você publica a versão 2 da mesma jornada.
+1. Se o perfil ainda estiver ativo na Versão 1, ele não poderá iniciar uma nova instância ativa na Versão 2 ao mesmo tempo.
+1. Depois que o perfil sair da instância anterior, ele poderá inserir a versão mais recente novamente, sujeita à configuração de reentrada da jornada.
+
+>[!WARNING]
+>
+>**Por que vejo `exportedsegment_existinginstance`?**
+>
+>Se você vir o erro `exportedsegment_existinginstance`, isso geralmente significa que o perfil já tem uma instância ativa na mesma jornada. Isso geralmente ocorre quando uma entrada recorrente ou repetida tenta iniciar enquanto o perfil ainda está ativo em outra instância dessa jornada, incluindo uma versão ativa anterior.
+>
+>Ao solucionar esse erro, verifique o seguinte:
+>
+>* Se o perfil ainda está em andamento em outra versão ativa da jornada.
+>* Se uma execução recorrente anterior ainda está ativa.
+>* Se o design da jornada inclui esperas longas ou outras atividades que mantêm os perfis ativos por um período estendido.
 
 ## Jornadas comerciais {#entry-business}
 

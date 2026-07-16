@@ -23,10 +23,10 @@ topic_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 715
-ht-degree: 13%
+source-wordcount: 1262
+ht-degree: 7%
 
 ---
 
@@ -123,3 +123,67 @@ As etapas para criar variantes de um componente de conteúdo no Designer de emai
 1. Para excluir uma variante, clique no ícone Mais ações ao lado da variante desejada e selecione **[!UICONTROL Excluir]**.
 
    ![](assets/conditions-delete.png)
+
+## Referência rápida {#quick-reference}
+
+Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
+
+Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
+
+>[!BEGINTABS]
+
+>[!TAB Visão geral]
+
+**TL;DR**
+
+Esta página explica como usar regras condicionais para adicionar conteúdo dinâmico a mensagens — por meio de tags de expressão no editor de personalização ou como variantes de componente de conteúdo no Designer de email.
+
+**Intenções**
+
+* Adicionar conteúdo dinâmico a expressões de personalização usando `{%if%}` / `{%/if%}` tags condicionais
+* Visualizar várias variantes de conteúdo dinâmico usando simulação
+* Ativar conteúdo condicional em um componente de conteúdo do Email Designer
+* Criar várias variantes de componentes, cada uma vinculada a uma regra condicional
+* Gerenciar a variante padrão exibida quando nenhuma condição é atendida no momento do envio
+
+>[!TAB Glossário]
+
+* **Conteúdo dinâmico**: conteúdo da mensagem que varia com base em regras condicionais; conteúdo diferente é exibido, dependendo se as condições definidas são atendidas no momento do envio. *(específico do produto)*
+* **Conteúdo condicional**: um recurso do Designer de email que aplica regras condicionais a um componente de conteúdo, criando várias variantes de exibição. *(específico do produto)*
+* **Variante padrão**: o conteúdo exibido para um componente quando nenhuma das regras condicionais definidas é atendida ao enviar a mensagem. *(específico do produto)*
+* **`{%if%}`/ `{%/if%}` marcas**: sintaxe de expressão do editor Personalization usada para envolver blocos de conteúdo que são exibidos somente quando uma regra condicional é atendida.
+
+>[!TAB Terminologia]
+
+* **Nome canônico:** conteúdo dinâmico — variantes: conteúdo condicional, conteúdo personalizado
+* **Sinônimos:** &quot;conteúdo condicional&quot; (rótulo da interface do usuário do Designer de email) = &quot;conteúdo dinâmico&quot; (termo geral usado em todo o documento)
+* **Não confunda:** adicionar conteúdo dinâmico em expressões (usando `{%if%}` tags no editor de personalização) ≠ adicionar conteúdo dinâmico em emails (criando variantes de componentes no Designer de email — dois fluxos de trabalho distintos)
+* **Não confunda:** &quot;Variante padrão&quot; (exibida quando nenhuma regra condicional é atendida) ≠ uma variante nomeada (cada uma associada a uma regra condicional específica)
+
+>[!TAB Medidas de proteção e limitações]
+
+* As variantes de conteúdo condicional são avaliadas em relação às regras associadas na ordem em que são exibidas; a variante padrão é sempre exibida se nenhuma outra condição for atendida.
+* Ao simular ou renderizar provas para emails com várias variantes condicionais, o Journey Optimizer pode exigir mais tempo de processamento; considere reduzir o número de variantes ou simplificar regras condicionais se ocorrerem tempos limite ou erros.
+* Se o Designer de email não for renderizado corretamente após a adição de blocos condicionais, verifique se a sintaxe de cada condição está correta e se não existem instruções duplicadas ou conflitantes.
+
+>[!TAB Perguntas frequentes]
+
+**P: O que acontece se nenhuma das condições definidas for atendida quando a mensagem for enviada?**
+
+O componente de Conteúdo exibe o conteúdo definido na variante Padrão.
+
+**P: Em que ordem as variantes de conteúdo condicional são avaliadas?**
+
+As variantes são avaliadas em relação às regras associadas na ordem em que são exibidas. A variante padrão é sempre mostrada se nenhuma outra condição for atendida.
+
+**P: Onde o conteúdo dinâmico pode ser adicionado ao Journey Optimizer?**
+
+Em qualquer campo onde a personalização possa ser adicionada — incluindo linhas de assunto, links, conteúdo da notificação por push e representações de oferta do tipo texto — por meio do editor de personalização e em componentes de conteúdo do Email Designer por meio de variantes condicionais.
+
+**P: O que devo fazer se o Designer de Email não for renderizado após adicionar blocos condicionais?**
+
+Verifique se a sintaxe de cada condição está correta e se não existe nenhuma instrução duplicada ou conflitante. Se os problemas persistirem, recrie as seções problemáticas em um novo modelo e teste cada bloco condicional de forma incremental.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: e6005d80 -->

@@ -11,10 +11,10 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
+source-git-commit: 43b78122a37fc6e8bcbcc3da12200bc2c0bcd7d4
 workflow-type: tm+mt
-source-wordcount: '2203'
-ht-degree: 14%
+source-wordcount: '2272'
+ht-degree: 11%
 
 ---
 
@@ -166,6 +166,10 @@ Configure como os membros aceitam, quando o progresso da tarefa conta para o des
 
    * **[!UICONTROL Número de vezes que pode ser concluído]**: Quando a repetição estiver habilitada, especifique quantas vezes um membro pode concluir o desafio.
 
+* **[!UICONTROL Requisitos de conclusão]** *(Somente desafios padrão)*:
+
+   * **[!UICONTROL Concluir em uma única transação]**: quando habilitado, os clientes devem concluir todas as tarefas em uma única transação. Quando desativadas, as tarefas podem ser concluídas em transações separadas.
+
 ### Metadados personalizados {#custom-metadata}
 
 Na seção **[!UICONTROL Metadados personalizados]**, selecione **[!UICONTROL Adicionar par de chave/valor]** para adicionar metadados personalizados. Use metadados para rastreamento ou integração com sistemas externos.
@@ -278,28 +282,31 @@ Para configurar quando e como as recompensas serão entregues:
 
    +++
 
-Depois de configurar a estrutura de desafios com tarefas e recompensas, crie os cartões de conteúdo para exibir o desafio aos clientes.
+Depois de configurar a estrutura de desafio com tarefas e recompensas, você pode, opcionalmente, configurar como o desafio é representado aos clientes. Se você não precisa de conteúdo de desafio, ignore esta etapa e prossiga diretamente para [Configurar mensagens](#configure-messaging).
 
-## Configurar cartões de conteúdo {#configure-content-cards}
+## Configurar conteúdo de desafio (opcional) {#configure-content-cards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="Conteúdo"
->abstract="Configure o cartão de conteúdo que representa o desafio em dispositivos de clientes e mostra informações do desafio, progresso e recompensas. Insira um nome para o cartão, selecione uma configuração de canal para que a entrega use as configurações técnicas certas (por exemplo, cabeçalhos, subdomínio ou aplicativos móveis) e selecione Editar conteúdo para projetar e personalizar a experiência do cartão."
+>abstract="Configure como seu desafio é representado em locais onde os membros do programa de fidelidade acessam desafios e rastreiam seu progresso. Use a ação Adicionar para escolher o Cartão de conteúdo para exibir uma experiência no estilo do cartão ou a experiência Baseada em código para fornecer conteúdo por meio de sua própria implementação personalizada."
 
-Os cartões de conteúdo representam visualmente seu desafio em dispositivos de clientes, exibindo informações de desafio, progresso e recompensas. [Saiba mais sobre cartões de conteúdo](../content-card/create-content-card.md).
+A guia **[!UICONTROL Conteúdo]** controla como o desafio é representado em locais onde os membros do programa de fidelidade acessam desafios e controlam seu progresso.
 
-Para configurar cartões de conteúdo para seu desafio:
+Para configurar o conteúdo do desafio:
 
-1. Navegue até a guia **[!UICONTROL Conteúdo]** e digite um **[!UICONTROL Nome]** para o cartão de conteúdo.
+1. Navegue até a guia **[!UICONTROL Conteúdo]** e clique em **[!UICONTROL Adicionar ação]**.
 
-1. Selecione a **[!UICONTROL Configuração de canal]**. As configurações de canal contêm todos os parâmetros técnicos para envio de mensagens, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba mais sobre as configurações de canal](../configuration/channel-surfaces.md).
+1. Escolha o tipo de ação:
 
-1. Selecione **[!UICONTROL Editar conteúdo]** para criar seu cartão de conteúdo. [Saiba como criar e personalizar cartões de conteúdo](../content-card/design-content-card.md).
+   * **[!UICONTROL Cartão de conteúdo]**: exibe o desafio como uma experiência no estilo de cartão em dispositivos de clientes. Selecione uma **[!UICONTROL Configuração de canal]** e clique em **[!UICONTROL Editar conteúdo]** para criar e personalizar o cartão. [Saiba mais sobre cartões de conteúdo](../content-card/create-content-card.md).
+   * **[!UICONTROL Experiência baseada em código]**: fornece conteúdo de desafio por meio de sua própria implementação personalizada usando o canal baseado em código da Journey Optimizer. Selecione uma **[!UICONTROL Configuração de canal]** e clique em **[!UICONTROL Editar conteúdo]** para definir o conteúdo. [Saiba mais sobre experiências baseadas em código](../code-based/create-code-based.md).
 
    ![](assets/challenge-create-content.png)
 
-Após configurar o cartão de conteúdo, configure as mensagens para envolver os clientes durante todo o ciclo de vida do desafio.
+   É possível adicionar várias ações para representar o desafio em diferentes superfícies.
+
+Após configurar o conteúdo, configure as mensagens para envolver os clientes durante todo o ciclo de vida do desafio.
 
 ### Configurar mensagens {#configure-messaging}
 

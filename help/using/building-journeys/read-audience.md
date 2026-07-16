@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: ae3057d928fa84e9ee3dbf4a3109aed30f64b8a8
 workflow-type: tm+mt
-source-wordcount: 4780
-ht-degree: 10%
+source-wordcount: 5162
+ht-degree: 9%
 
 ---
 
@@ -236,6 +236,14 @@ Por padrão, as jornadas são configuradas para serem executadas uma vez. Para d
 
 Para jornadas recorrentes, opções específicas estão disponíveis para ajudar você a gerenciar a entrada de perfis na jornada. Expanda as seções abaixo para obter mais informações sobre cada opção.
 
+>[!NOTE]
+>
+>**Como os instantâneos de público-alvo são usados**
+>
+>Cada execução de Read Audience usa a associação de público-alvo disponível no momento em que a execução é executada. Para públicos-alvo em lote, [!DNL Journey Optimizer] lê o último instantâneo de público-alvo em lote disponível. Ela não recalcula o público-alvo em tempo real quando a jornada é iniciada.
+>
+>Para jornadas recorrentes, cada ocorrência usa o instantâneo disponível para essa ocorrência. Se você quiser que a jornada aguarde a última avaliação de público-alvo em lote antes de ser executada, habilite o **[!UICONTROL Acionar após a avaliação de público-alvo em lote]**.
+
 ![Ler opções recorrentes de público: Leitura incremental, Forçar reentrada, Acionar após lote](assets/read-audience-options.png)
 
 +++**[!UICONTROL Leitura incremental]**
@@ -253,7 +261,9 @@ Para minimizar o risco de perfis ausentes:
 
 >[!CAUTION]
 >
->Se você estiver direcionando um [público-alvo de carregamento personalizado](../audience/about-audiences.md#about-segments) na sua jornada, os perfis serão recuperados somente na primeira recorrência quando esta opção estiver habilitada em uma jornada recorrente. Esses públicos-alvo são fixos.
+>Hoje, não há suporte funcional para [audiences de upload personalizado](../audience/custom-upload.md) (upload de CSV) e outros públicos externos (por exemplo, Federated Audience Composition), **[!UICONTROL Leitura incremental]**. Em cada recorrência, o **público-alvo inteiro** é processado, independentemente da configuração de alternância de leitura incremental.
+>
+>Para controlar entradas recorrentes, use [Forçar reentrada na recorrência](#schedule).
 
 +++
 
@@ -264,6 +274,30 @@ Essa opção permite fazer com que todos os perfis ainda presentes na jornada sa
 Por exemplo, se você tiver uma espera de dois dias em uma jornada recorrente diária, a ativação dessa opção moverá os perfis para a próxima execução da jornada. Isso acontece no dia seguinte, independentemente de estarem ou não no próximo público-alvo de execução.
 
 Se a duração dos perfis nesta jornada for maior que a frequência de recorrência, não ative essa opção para garantir que os perfis possam concluir a jornada.
+
++++
+
++++**Como a [!UICONTROL Leitura incremental] e a [!UICONTROL Reentrada forçada na recorrência] trabalham juntas**
+
+Essas duas opções controlam partes diferentes da execução da jornada:
+
+* **[!UICONTROL Leitura incremental]** controla **quais perfis são selecionados do público-alvo** para a próxima execução recorrente.
+* **[!UICONTROL Forçar a reentrada na recorrência]** controla **o que acontece com os perfis que ainda estão ativos na jornada** quando a próxima execução recorrente começa.
+
+Use a tabela abaixo para entender o comportamento combinado na próxima execução.
+
+| [!UICONTROL Leitura incremental] | [!UICONTROL Forçar reentrada na recorrência] | Comportamento na próxima execução |
+| ------------------------------ | ------------------------------------------- | ------------------------ |
+| Desligado | Desligado | [!DNL Journey Optimizer] lê todo o público dessa execução. Os perfis que ainda estão ativos na jornada não são redefinidos automaticamente. |
+| Em | Desligado | [!DNL Journey Optimizer] lê somente os perfis que foram adicionados ao público desde a última execução. Os perfis que ainda estão ativos na jornada não são redefinidos automaticamente. |
+| Desligado | Em | [!DNL Journey Optimizer] remove os participantes ativos da execução de jornada atual antes de iniciar a próxima execução e lê o público completo novamente. Isso permite que os perfis sejam iniciados novamente na nova ocorrência. |
+| Em | Em | [!DNL Journey Optimizer] remove os participantes ativos da execução de jornada atual antes de iniciar a próxima execução e lê somente os perfis que foram adicionados ao público desde a última execução. Forçar a reentrada redefine a participação ativa da jornada, mas a leitura incremental ainda limita a seleção a membros do público recém-adicionado. |
+
+Em outras palavras, a **[!UICONTROL Reentrada forçada na recorrência] não desabilita a [!UICONTROL Leitura incremental]**. Se ambas as opções estiverem ativadas, os perfis serão removidos da instância ativa do jornada antes que a próxima ocorrência comece, mas a próxima ocorrência ainda selecionará somente os membros do público-alvo considerados novos desde a última execução.
+
+>[!IMPORTANT]
+>
+>Um perfil removido por **[!UICONTROL Forçar reentrada na recorrência]** não é tratado automaticamente como um novo membro do público-alvo para **[!UICONTROL Leitura incremental]**. A seleção de público-alvo ainda depende de o perfil ter sido adicionado recentemente ao público-alvo desde a última execução.
 
 +++
 
