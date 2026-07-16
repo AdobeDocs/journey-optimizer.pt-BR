@@ -8,21 +8,14 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 TQID: https://experienceleague.adobe.com/ForlM8q0qc7dVSLKtCdhHh7ZVEuprPYbqTLHuOUXo8I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 923
+source-wordcount: 1018
 ht-degree: 2%
 
 ---
@@ -108,13 +101,26 @@ Para navegar facilmente pelos modelos de conteúdo, use pastas para organizá-lo
 
 ## Editar e excluir modelos de conteúdo {#edit}
 
-* Para editar o conteúdo de um modelo, clique no item desejado na lista e faça as alterações desejadas. Também é possível editar as propriedades do template de conteúdo clicando no botão de edição ao lado do nome do template.
+No botão **[!UICONTROL Mais ações]**, ao lado de cada modelo, você pode acessar os seguintes atalhos e ações:
 
-  ![](assets/content-template-edit.png)
+* **[!UICONTROL Editar detalhes]** — Edite o nome, a descrição e as marcas do modelo.
+* **[!UICONTROL Simular conteúdo]** — Visualize e teste o conteúdo do modelo.
+* **[!UICONTROL Excluir]** — Exclua o modelo.
 
-* Para excluir um modelo, selecione o botão **[!UICONTROL Mais ações]** ao lado do modelo desejado e selecione **[!UICONTROL Excluir]**.
+Para modelos de email, os seguintes atalhos adicionais estão disponíveis:
 
-  ![](assets/content-template-list-delete.png)
+* **[!UICONTROL Editar linha de assunto]** — Atualize rapidamente a linha de assunto do email.
+* **[!UICONTROL Editar corpo de email]** — Abra o designer de email para modificar o conteúdo do modelo.
+* **[!UICONTROL Exibir prova]** — Exiba uma prova do modelo de email.
+* **[!UICONTROL Enviar prova]** — Envie uma prova do modelo para os destinatários designados.
+* **[!UICONTROL Relatório de spam]** — Analise o modelo em relação aos filtros de spam.
+* **[!UICONTROL Renderizar email]** — Visualize como o email é renderizado em diferentes clientes de email.
+
+![](assets/content-template-quick-launch.png)
+
+Para editar o conteúdo completo de um modelo, clique no item desejado na lista e faça as alterações desejadas. Também é possível editar as propriedades do template de conteúdo clicando no botão de edição ao lado do nome do template.
+
+    ![](assets/content-template-edit.png)
 
 >[!NOTE]
 >
