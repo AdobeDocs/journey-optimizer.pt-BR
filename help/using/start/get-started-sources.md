@@ -143,7 +143,7 @@ Para obter informações detalhadas sobre como configurar e gerenciar fontes, co
 Agora que você entende o que são fontes e por que elas são importantes:
 
 * Explore o [catálogo de fontes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR#sources-catalog){target="_blank"} para encontrar conectores de sistemas
-* Saiba como [criar uma conexão de origem](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home){target="_blank"}
-* Entenda [o mapeamento e a transformação de dados](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home){target="_blank"}
+* Saiba como [criar uma conexão de origem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home){target="_blank"}
+* Entenda [o mapeamento e a transformação de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home){target="_blank"}
 * Veja como [usar dados importados nas jornadas](../building-journeys/journey-gs.md)
 * Consulte a seção de visão geral [Introdução à gestão de dados](../data/gs-data.md) para entender como as fontes se encaixam na configuração completa de dados do Journey Optimizer
