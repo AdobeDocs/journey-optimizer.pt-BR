@@ -122,7 +122,8 @@ Você deve configurar o endpoint, que é o URL HTTP do seu sistema de mensagens 
 
    * **[!UICONTROL Habilitar limitação]** - Desabilitado por padrão. Defina o número máximo de solicitações por segundo (padrão: **5.000c**). Quando o limite é atingido, as solicitações são enfileiradas e enviadas o mais rápido possível.
    * **[!UICONTROL Habilitar nova tentativa]** - Habilitado por padrão. Defina a contagem máxima de novas tentativas (padrão: **3**, intervalo configurável: 0-10) para solicitações com falha. Isso ajuda a evitar sobrecarregar o endpoint durante falhas transitórias.
-   * **[!UICONTROL Tempo limite]** - Padrão: **5.000 milissegundos**. Defina o tempo máximo de espera por uma resposta do ponto de extremidade antes de considerar que a solicitação falhou.     <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
+   * **[!UICONTROL Tempo limite]** - Padrão: **5.000 milissegundos**. Defina o tempo máximo de espera por uma resposta do ponto de extremidade antes de considerar que a solicitação falhou.
+     <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
 
 ## Configurações de autenticação {#authentication-settings}
 
