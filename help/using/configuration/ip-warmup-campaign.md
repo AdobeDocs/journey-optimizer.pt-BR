@@ -28,10 +28,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: 308ffcb6d0a82dfd59913f79375b91257b15e851
 workflow-type: tm+mt
-source-wordcount: 486
-ht-degree: 10%
+source-wordcount: 574
+ht-degree: 9%
 
 ---
 
@@ -87,6 +87,13 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
    >Os públicos-alvo de upload de CSV não são compatíveis com campanhas de aquecimento de IP e resultarão em um erro na ativação da campanha.
 
    Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+
+1. Opcionalmente, na seção **[!UICONTROL Otimização]**, adicione regras de direcionamento para fornecer conteúdo diferente a subconjuntos de público com base em atributos de perfil. [Saiba mais](../content-management/optimization-targeting.md)
+
+   Se estiver usando regras de direcionamento, lembre-se do seguinte:
+
+   * O público da campanha de aquecimento de IP é avaliado **uma vez** por meio do ciclo diário de segmentação em lotes. A associação do perfil é corrigida na ativação de execução e não é reavaliada por execução.
+   * Os atributos de perfil usados nas regras de direcionamento são lidos no momento em que cada execução é executada, refletindo os dados do perfil em lote assimilados mais recentemente — não as atualizações de perfil em tempo real.
 
 1. [Ativar](../campaigns/review-activate-campaign.md) a campanha. Seu status muda para **[!UICONTROL Live]**.
 

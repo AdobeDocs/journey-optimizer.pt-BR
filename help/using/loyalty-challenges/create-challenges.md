@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 43b78122a37fc6e8bcbcc3da12200bc2c0bcd7d4
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: '2272'
+source-wordcount: '2278'
 ht-degree: 11%
 
 ---
@@ -43,6 +43,8 @@ ht-degree: 11%
 **Configurar e integrar**
 
 * [Configurar desafios de fidelidade](loyalty-admin.md)
+* [Guia de definição de recompensa](reward-definition-guide.md)
+* [Guia do Transformador de eventos](event-transformer-guide.md)
 * [Dados e conjuntos de dados de fidelidade](loyalty-data-and-datasets.md)
 * [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -149,26 +151,26 @@ Configure como os membros aceitam, quando o progresso da tarefa conta para o des
 
 * **[!UICONTROL Acionador de aceitação]**:
 
-   * **[!UICONTROL Método de aceitação]**: escolha se os clientes ingressarão no desafio manualmente ou por meio de um disparador de evento.
-   * **[!UICONTROL Evento]**: para aceitação baseada em eventos, selecione o evento que aciona a aceitação. Os administradores podem clicar no botão ![gear](assets/do-not-localize/settings-icon.svg) para criar uma definição de evento. [Saiba como configurar definições de evento](loyalty-admin.md#event-definitions)
+  * **[!UICONTROL Método de aceitação]**: escolha se os clientes ingressarão no desafio manualmente ou por meio de um disparador de evento.
+  * **[!UICONTROL Evento]**: para aceitação baseada em eventos, selecione o evento que aciona a aceitação. Os administradores podem clicar no botão ![gear](assets/do-not-localize/settings-icon.svg) para criar uma definição de evento. [Saiba como configurar definições de evento](loyalty-admin.md#event-definitions)
 
 * **[!UICONTROL Iniciar acompanhamento do progresso]**:
 
-   * **[!UICONTROL O rastreamento do progresso da tarefa começa]**: escolha quando as conclusões da tarefa contam para o progresso do desafio. Por exemplo, selecione **[!UICONTROL Quando o desafio começar (após a aceitação)]** para que o progresso comece após a aceitação do membro e o desafio esteja ativo.
+  * **[!UICONTROL O rastreamento do progresso da tarefa começa]**: escolha quando as conclusões da tarefa contam para o progresso do desafio. Por exemplo, selecione **[!UICONTROL Quando o desafio começar (após a aceitação)]** para que o progresso comece após a aceitação do membro e o desafio esteja ativo.
 
-     É possível dissociar quando um desafio está visível para os membros de quando o progresso é rastreado. Por exemplo, um cartão de desafio pode aparecer e aceitar aceitações antes que as conclusões de tarefas comecem a contar para o progresso em uma data posterior.
+    É possível dissociar quando um desafio está visível para os membros de quando o progresso é rastreado. Por exemplo, um cartão de desafio pode aparecer e aceitar aceitações antes que as conclusões de tarefas comecem a contar para o progresso em uma data posterior.
 
-   * **[!UICONTROL Início]**: ao escolher uma opção de início personalizada, defina a data e a hora de início do rastreamento do progresso.
+  * **[!UICONTROL Início]**: ao escolher uma opção de início personalizada, defina a data e a hora de início do rastreamento do progresso.
 
 * **[!UICONTROL Limites de repetição]**:
 
-   * **[!UICONTROL O desafio pode ser concluído]**: escolha se o desafio pode ser concluído uma ou várias vezes. Por exemplo, **[!UICONTROL Uma vez]** ou um número definido de conclusões.
+  * **[!UICONTROL O desafio pode ser concluído]**: escolha se o desafio pode ser concluído uma ou várias vezes. Por exemplo, **[!UICONTROL Uma vez]** ou um número definido de conclusões.
 
-   * **[!UICONTROL Número de vezes que pode ser concluído]**: Quando a repetição estiver habilitada, especifique quantas vezes um membro pode concluir o desafio.
+  * **[!UICONTROL Número de vezes que pode ser concluído]**: Quando a repetição estiver habilitada, especifique quantas vezes um membro pode concluir o desafio.
 
 * **[!UICONTROL Requisitos de conclusão]** *(Somente desafios padrão)*:
 
-   * **[!UICONTROL Concluir em uma única transação]**: quando habilitado, os clientes devem concluir todas as tarefas em uma única transação. Quando desativadas, as tarefas podem ser concluídas em transações separadas.
+  * **[!UICONTROL Concluir em uma única transação]**: quando habilitado, os clientes devem concluir todas as tarefas em uma única transação. Quando desativadas, as tarefas podem ser concluídas em transações separadas.
 
 ### Metadados personalizados {#custom-metadata}
 

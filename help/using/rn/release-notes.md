@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: cc7181975bf21a8464dca60422b045e0f047b511
+source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
 source-wordcount: 3064
 ht-degree: 74%
@@ -201,7 +201,7 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 <p>O Assistente de IA agora opera no editor de expressão avançado da jornada para converter prompts de linguagem natural em expressões válidas e lógica condicional. Descreva a expressão que deseja criar e o Assistente de IA gera um código pronto para uso que pode ser aplicado imediatamente ou refinado por meio de prompts complementares.</p>
 <p>Esse recurso está disponível para todos os clientes como versão Beta pública.</p>
 <p><img src="assets/do-not-localize/expression-assistant.gif"></p>
-<p>Para obter mais informações, consulte a <a href="../building-journeys/expression/expression-agent.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/expression/generate-expression.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 3 de junho de 2026</p> 
 </td>
 </tr>
@@ -452,9 +452,9 @@ As seguintes melhorias foram adicionadas aos relatórios nesta versão.
 
 * **Novas métricas de clique estimadas para relatórios de email** - Para fornecer uma visão mais precisa do engajamento real do cliente, novas métricas estimadas agora estão disponíveis nos relatórios de Jornadas, Campanhas e Canal.
 
-   * **CTR estimado** (taxa de cliques): calculado como cliques estimados em relação ao número total de mensagens entregues.
+  * **CTR estimado** (taxa de cliques): calculado como cliques estimados em relação ao número total de mensagens entregues.
 
-   * **CTOR estimado** (taxa de cliques para abrir): calculado como cliques estimados em relação ao número total de aberturas estimadas.
+  * **CTOR estimado** (taxa de cliques para abrir): calculado como cliques estimados em relação ao número total de aberturas estimadas.
 
   Data de disponibilidade: 25 de junho de 2026
 

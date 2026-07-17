@@ -24,10 +24,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
-source-wordcount: 1233
-ht-degree: 30%
+source-wordcount: 1236
+ht-degree: 31%
 
 ---
 
@@ -78,7 +78,7 @@ Você pode acessar o editor de expressão avançado de diferentes maneiras:
 
 >[!NOTE]
 >
->Para gerar expressões de Jornada usando prompts de linguagem natural, use o **[Assistente de Expressão](expression-agent.md)** (**beta público**) por meio do controle de IA dentro do editor avançado.
+>Para gerar expressões de Jornada usando prompts de linguagem natural, use **[Gerar expressões com IA](generate-expression.md)** (**beta público**) por meio do controle de IA dentro do editor avançado.
 
 ## Conheça a interface {#discovering-the-interface}
 
@@ -137,14 +137,14 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Criar condições booleanas avançadas usando campos de evento, campos de fonte de dados, associação de público-alvo e propriedades do jornada
 * Alternar entre o modo simples e o modo avançado ao configurar condições
 * Referencie parâmetros de fonte de dados externa diretamente na expressão principal usando a palavra-chave `params`
-* Use o Assistente de expressão habilitado para IA para gerar expressões de prompts de linguagem natural
+* Use a geração de expressões alimentadas por IA para criar expressões a partir de prompts de linguagem natural
 
 **Glossário:**
 
 * **Editor de expressão avançado**: o editor de código Journey Optimizer para gravar expressões complexas; distinto do editor de condição para apontar e clicar mais simples *(específico do produto)*
 * **Modo simples**: um editor de condições do tipo apontar-e-clicar; menos flexível que o editor avançado, mas mais fácil para não desenvolvedores *(específico do produto)*
 * **Propriedades da Jornada**: campos técnicos sobre a instância de jornada (ID, versão, erros, nó atual) acessível no editor de expressão *(específico do produto)*
-* **Assistente de Expressão**: uma ferramenta alimentada por IA (beta público) dentro do editor avançado que gera expressões de prompts de linguagem simples *(específico do produto)*
+* **Gerar expressões com IA**: um recurso alimentado por IA (beta público) dentro do editor avançado que gera expressões de prompts de linguagem simples *(específico do produto)*
 
 **Medidas de Proteção:**
 
@@ -165,7 +165,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **P: Quando devo usar o editor de expressão avançado em vez do modo simples?** — use o editor avançado quando precisar consultar coleções, usar funções, fazer referência a propriedades de jornada ou criar uma lógica de várias condições que o editor simples não consegue expressar.
 * **P: Como transfiro um parâmetro para uma fonte de dados externa na expressão?** — Use a palavra-chave `params` na sintaxe da expressão, por exemplo `#{DataSource.fieldGroup.field, params: {paramName: value}}`.
 * **P: O que o mecanismo de preenchimento automático faz?** — Ele exibe sugestões de campo e função contextuais à medida que você digita, ajudando a criar expressões válidas mais rapidamente.
-* **P: Onde o Assistente de Expressão é acessado?** — Por meio do controle de IA no editor de expressão avançado; no momento, está em beta público.
+* **P: Onde é acessada a opção Gerar expressões com IA?** — Por meio do controle de IA no editor de expressão avançado; no momento, está em beta público.
 * **P: As condições no editor avançado retornam um tipo diferente do modo simples?** — Não; as condições sempre retornam um booleano em ambos os modos.
 
 +++

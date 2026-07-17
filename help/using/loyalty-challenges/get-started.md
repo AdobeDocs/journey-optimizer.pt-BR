@@ -14,10 +14,10 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: c2322ea4081f43aadf8abc8ea9791ebcc91f78bd
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: 900
-ht-degree: 14%
+source-wordcount: 906
+ht-degree: 16%
 
 ---
 
@@ -46,6 +46,8 @@ ht-degree: 14%
 **Configurar e integrar**
 
 * [Configurar desafios de fidelidade](loyalty-admin.md)
+* [Guia de definição de recompensa](reward-definition-guide.md)
+* [Guia do Transformador de eventos](event-transformer-guide.md)
 * [Dados e conjuntos de dados de fidelidade](loyalty-data-and-datasets.md)
 * [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 

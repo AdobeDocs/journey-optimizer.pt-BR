@@ -1,40 +1,44 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gerar expressões com o Assistente de expressão
-description: Saiba como usar o Assistente de expressão no Adobe Journey Optimizer para gerar expressões diretamente no editor de expressão avançado do Jornada usando prompts de linguagem natural.
+title: Gerar expressões com IA
+description: Saiba como usar IA no Adobe Journey Optimizer para gerar expressões diretamente no editor de expressão avançado do Jornada usando prompts de linguagem natural.
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 badge: label="Beta público" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 9551133fab06cfa5e056ba98da73dcbf066916fc
+source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
-source-wordcount: 1090
+source-wordcount: 1132
 ht-degree: 2%
 
 ---
 
 
-# Gerar expressões com o Assistente de expressão {#expression-agent}
+# Gerar expressões com IA {#generate-expression}
+
+>[!CONTEXTUALHELP]
+>id="journeyExpAI"
+>title="Gerar expressões com IA"
+>abstract="Use a IA para criar e gerar expressões diretamente no editor de expressão avançado do Jornada. Por exemplo, em condições, atividades de **Otimização** ou atividades de **Espera** que usam uma data personalizada. Quando você descreve o que precisa em linguagem simples, a IA gera a expressão correspondente para você."
 
 >[!AVAILABILITY]
 >
 >Este recurso está atualmente em **beta público**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../../rn/releases.md).
 >
->Antes de usar o Assistente de Expressão, leia as [Medidas de Proteção e Limitações](../../content-management/gs-generative.md#generative-guardrails) relacionadas que se aplicam aos recursos de IA gerativa no Journey Optimizer.
+>Antes de usar esse recurso, leia as [Medidas de proteção e limitações](../../content-management/gs-generative.md#generative-guardrails) relacionadas que se aplicam aos recursos de IA gerativa no Journey Optimizer.
 
-O Assistente de expressão é um recurso alimentado por IA integrado ao editor de expressão avançado do Jornada. Ajuda a gerar expressões válidas a partir de prompts de linguagem simples.
+Esse recurso alimentado por IA, integrado ao editor de expressão avançado do Jornada, ajuda a gerar expressões válidas a partir de prompts de linguagem simples.
 
 Ela está disponível onde quer que o **[!UICONTROL editor de expressão avançado]** da Jornada seja aberto. Por exemplo, ao configurar condições e roteamento dentro de uma **[atividade de Otimização](../optimize.md)** ou ao configurar uma [**[!UICONTROL atividade de Espera &#x200B;]**](../wait-activity.md) que usa uma data personalizada e você precisa de uma expressão `dateTimeOnly`.
 
 ## Gerar uma expressão {#generate}
 
-Para gerar uma expressão usando o Assistente de Expressão:
+Para gerar uma expressão com IA:
 
 1. Abra o **[!UICONTROL editor de expressão avançado]** na sua jornada, por exemplo, de uma condição de ramificação, uma atividade **[!UICONTROL Otimizar]** ou uma atividade **[!UICONTROL Aguardar]** com uma data personalizada.
 
@@ -98,42 +102,42 @@ Esta seção contém conhecimento estruturado destinado a oferecer suporte à in
 
 Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
 
-* **TL;DR:** Esta página explica o Assistente de Expressão, um recurso habilitado para IA no editor de expressão avançado de Jornada que gera expressões de jornada válidas a partir de prompts de linguagem simples.
+* **TL;DR:** Esta página explica como usar IA no editor de expressão avançado de Jornada para gerar expressões de jornada válidas a partir de prompts de linguagem simples.
 
 **Intenções:**
 
-* Gerar uma expressão de jornada a partir de uma descrição em linguagem natural usando o Assistente de Expressão
+* Gerar uma expressão de jornada a partir de uma descrição em linguagem natural usando IA
 * Aplique uma expressão gerada diretamente no editor de expressão avançado com o botão Aplicar
-* Use o Assistente de expressão dentro de Atividades de otimização, Atividades de condição e Atividades de espera com data personalizada
+* Use a geração de expressão baseada em IA dentro de Atividades de otimização, Atividades de condição e Atividades de espera com data personalizada
 * Forneça exemplos de solicitações para condições baseadas em eventos e `dateTimeOnly` expressões de espera
 * Solucionar problemas de geração com falha, revisando os prompts para fazer referência a nomes de campos e fontes de dados válidos
 
 **Glossário:**
 
-* **Assistente de Expressão**: um recurso generativo habilitado por IA incorporado no editor de expressão avançada do Jornada que converte prompts de linguagem simples em expressões de jornada válidas *(específico do produto)*
+* **Gerar expressões com IA**: um recurso de geração habilitado para IA incorporado no editor de expressão avançada do Jornada que converte prompts de linguagem simples em expressões de jornada válidas *(específico do produto)*
 * **Editor de expressão avançado**: a interface Journey Optimizer para gravar expressões complexas em condições, atividades Wait e mapeamento de parâmetros de ação *(específico do produto)*
 * **dateTimeOnly**: um tipo de expressão date-time sem fuso horário, necessário para atividades Wait de data personalizada *(específico do produto)*
 * **Atividade de otimização**: uma atividade de jornada que oferece suporte a condições de ramificação configuráveis por meio do editor de expressão avançado *(específico do produto)*
 
 **Medidas de Proteção:**
 
-* O Assistente de Expressão está atualmente em **beta público** — a disponibilidade e o comportamento podem mudar
+* Gerar expressões com IA está atualmente em **beta público** — a disponibilidade e o comportamento podem mudar
 * As medidas de proteção e limitações da IA geradora da documentação principal do Assistente de IA se aplicam a este recurso
 * Se o assistente referenciar campos que não estão presentes nas fontes de dados da sua jornada, retornará um erro: revise o prompt para usar os nomes de campo disponíveis
 * A sintaxe de expressão gerada exata depende dos campos e atividades configurados em sua jornada específica
 
 **Terminologia:**
 
-* Nome canônico: Assistente de expressão — Acrônimo: none — variantes: IA de expressão, gerador de expressão de jornada
-* Sinônimos: &quot;Assistente de expressão&quot; = &quot;Gerador de expressão de IA&quot;
-* Não confunda: Assistente de expressão (gerador alimentado por IA) ≠ Editor de expressão avançado (o próprio editor de código manual)
+* Nome canônico: Gerar expressões com IA — Acrônimo: none — variantes: geração de expressão de IA, gerador de expressão de jornada
+* Sinônimos: &quot;Gerar expressões com IA&quot; = &quot;Gerador de expressão de IA&quot;
+* Não confunda: Gerar expressões com IA (gerador alimentado por IA) ≠ Editor de expressão avançado (o próprio editor de código manual)
 
 **Perguntas frequentes:**
 
-* **P: Onde está disponível o Assistente de Expressão?** — Estará disponível onde o editor de expressão avançado de Jornada for aberto, incluindo atividades de Condição, atividades de Otimização e atividades de Espera com uma data personalizada.
-* **P: O que acontece se o assistente não puder gerar uma expressão válida?** — Uma mensagem de erro é exibida; você deve revisar seu prompt para usar nomes de campos e fontes de dados existentes na configuração do jornada.
+* **P: Onde está disponível a opção Gerar expressões com IA?** — Estará disponível onde o editor de expressão avançado de Jornada for aberto, incluindo atividades de Condição, atividades de Otimização e atividades de Espera com uma data personalizada.
+* **P: O que acontece se a IA não puder gerar uma expressão válida?** — Uma mensagem de erro é exibida; você deve revisar seu prompt para usar nomes de campos e fontes de dados existentes na configuração do jornada.
 * **P: Como inserir uma expressão gerada no editor?** — Clique no botão **Aplicar** no painel assistente para inseri-lo diretamente na posição atual do cursor no editor de expressão avançado.
-* **P: O Assistente de Expressão pode gerar `dateTimeOnly` expressões para atividades de Espera?** — Sim; por exemplo, solicitar &quot;daqui a 30 dias às 22h como somente data e hora&quot; gera a expressão `dateTimeOnly` apropriada.
-* **P: O Assistente de Expressão está disponível?** — Não; atualmente está em beta público. Verifique a página do ciclo de lançamento do Journey Optimizer para obter atualizações de disponibilidade.
+* **P: A Geração de expressões com IA pode criar `dateTimeOnly` expressões para atividades de Espera?** — Sim; por exemplo, solicitar &quot;daqui a 30 dias às 22h como somente data e hora&quot; gera a expressão `dateTimeOnly` apropriada.
+* **P: Gerar expressões com IA está disponível?** — Não; atualmente está em beta público. Verifique a página do ciclo de lançamento do Journey Optimizer para obter atualizações de disponibilidade.
 
 +++
