@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5201f92a07a911fe1fbbb5b6adeb4c63841c1dc3
+source-git-commit: cc7181975bf21a8464dca60422b045e0f047b511
 workflow-type: tm+mt
-source-wordcount: 3059
+source-wordcount: 3064
 ht-degree: 74%
 
 ---
@@ -119,7 +119,9 @@ Uma **nova interface de usuário** foi introduzida para a tela de jornada, ofere
 
 Para alternar para a nova interface, clique no botão **[!UICONTROL Nova experiência]**. Essa configuração é salva no nível da jornada, para que a jornada reabra na nova experiência por padrão. Para reverter, clique em **[!UICONTROL Experiência antiga]**. [Saiba mais](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
-![](../building-journeys/assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+![](../building-journeys/assets/journey-new-experience-switch.png)
+
+Data de disponibilidade: 16 de julho de 2026
 
 
 ## Notas de versão de junho de 2026 {#june-26-rn}
