@@ -11,9 +11,9 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 191cb8542e0cfb24c3afef6ea173f952591b1b75
+source-git-commit: eb0d0e7136f3a4787f0a30c8f929864df812eb8a
 workflow-type: tm+mt
-source-wordcount: 2909
+source-wordcount: 3003
 ht-degree: 0%
 
 ---
@@ -97,6 +97,8 @@ Os usuários simulados são entidades temporárias semelhantes a perfis definida
 
    Para jornadas com um nó de email, push ou SMS, a IA solicita que você confirme o endereço de email ou o número de telefone a ser usado. Os usuários simulados serão gerados usando esses valores definidos. Depois de concluído, clique em **[!UICONTROL Gerar]**.
 
+   Os usuários simulados gerados mostram apenas os atributos usados na jornada atual, por exemplo, em expressões ou personalização.
+
    >[!NOTE]
    >
    >Os campos de email e telefone são pré-preenchidos com valores usados anteriormente na simulação do jornada e armazenados em cache no navegador.
@@ -109,6 +111,8 @@ Os usuários simulados são entidades temporárias semelhantes a perfis definida
 
    Escolha **[!UICONTROL Procurar inventário]** para adicionar usuários simulados que você já salvou, por exemplo, usuários criados a partir de um formulário ou JSON ou usuários mantidos após a execução de uma geração de IA.
 
+   Observe que quando você seleciona um usuário simulado no inventário, somente os atributos usados na jornada atual são mostrados, mesmo que o usuário tenha valores para outros atributos definidos em uma jornada diferente.
+
    ![Caixa de diálogo de inventário de Usuários Simulados com pesquisa, tabela de usuários e botão Selecionar](assets/simulate-inventory.png)
 
    +++
@@ -119,7 +123,7 @@ Os usuários simulados são entidades temporárias semelhantes a perfis definida
 
       ![Criar formulário de Usuários Simulados com nome para exibição, namespace de identidade, descrição e atributos de esquema de União](assets/simulate-form.png)
 
-   1. Em seguida, selecione os atributos do esquema Union que deseja preencher para este usuário.
+   1. Em seguida, selecione os atributos do esquema Union que deseja preencher para este usuário. Observe que somente os atributos usados na jornada atual, por exemplo, em expressões ou personalização, estão disponíveis aqui.
 
    1. Clique em **[!UICONTROL Adicionar associação de público-alvo]** para simular associações de segmento.
 
@@ -140,6 +144,8 @@ Os usuários simulados são entidades temporárias semelhantes a perfis definida
    +++ Criar a partir de JSON
 
    Em **[!UICONTROL Criar Usuários Simulados]**, edite o modelo JSON para definir os usuários e clique em **[!UICONTROL Formatar JSON]** e **[!UICONTROL Salvar]**.
+
+   Observe que **[!UICONTROL Criar a partir de JSON]** e **[!UICONTROL Atualizar a partir de JSON]** fornecem acesso a todos os atributos, independentemente do que a jornada atual usa.
 
    ![Criar editor JSON de Usuários Simulados com modelo de usuários e controle Formatar JSON](assets/simulate-json.png)
 
