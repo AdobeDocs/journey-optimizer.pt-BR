@@ -13,9 +13,9 @@ mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: 00c24e9b97b4f6597048731858f3bfbcb39a0030
 workflow-type: tm+mt
-source-wordcount: 1205
+source-wordcount: 1206
 ht-degree: 3%
 
 ---
@@ -175,11 +175,11 @@ Quando `rewardJsonata` é avaliado, ele recebe um único objeto raiz contendo tu
 
 +++
 
-## Gravando a expressão `rewardJsonata`
+## Escrever a expressão awardJsonata
 
 A expressão recebe o contexto de premiação como sua entrada e deve retornar um objeto JSON — a carga POST para o endpoint do provedor. A forma desse objeto depende totalmente da API do provedor; mapeie os campos de contexto em qualquer estrutura que o provedor espere.
 
-### Carga fixa simples
++++Carga fixa simples
 
 O caso mais simples: o provedor precisa de uma contagem de pontos e uma ID de membro, ambos conhecidos do contexto.
 
@@ -203,7 +203,9 @@ O caso mais simples: o provedor precisa de uma contagem de pontos e uma ID de me
 
 > `rewardContext.rewardValue` é sempre uma cadeia de caracteres. Use `$number()` para convertê-lo se o provedor esperar um valor numérico.
 
-### Usando `kvpCustom` para metadados específicos do provedor
++++
+
++++Usando `kvpCustom` para metadados específicos do provedor
 
 Os provedores geralmente exigem campos como IDs de campanha ou códigos do sistema de origem específicos para cada execução de desafio. Armazene-os em `challenge.kvpCustom` ao criar o desafio e, em seguida, faça referência a eles na expressão — mantendo a expressão reutilizável em campanhas.
 
@@ -218,7 +220,9 @@ Os provedores geralmente exigem campos como IDs de campanha ou códigos do siste
 
 Você também pode usar `reward.kvpCustom` para constantes que são fixas para um determinado tipo de recompensa em vez de por desafio.
 
-### Uso de dados do acumulador de tarefas
++++
+
++++Uso de dados do acumulador de tarefas
 
 Os acumuladores de tarefas mantêm um registro de cada evento qualificado. Usar `item_list[-1]` para acessar o item aplicado mais recentemente — seus `transactionId` e `timestamp` são úteis para trilhas de auditoria e desduplicação no lado do provedor.
 
@@ -231,7 +235,9 @@ Os acumuladores de tarefas mantêm um registro de cada evento qualificado. Usar 
 }
 ```
 
-### Construção de uma mensagem de texto
++++
+
++++Construção de uma mensagem de texto
 
 Para provedores baseados em notificação (Slack, SMS, email), você pode criar uma cadeia de caracteres de mensagem diretamente usando o operador de concatenação `&` do JSONata:
 
@@ -248,6 +254,8 @@ Para provedores baseados em notificação (Slack, SMS, email), você pode criar 
   "text": "You just earned 50 Stars!"
 }
 ```
+
++++
 
 ## Exemplos
 
