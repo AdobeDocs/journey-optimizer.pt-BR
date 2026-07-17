@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: 1855
-ht-degree: 18%
+source-wordcount: 1834
+ht-degree: 15%
 
 ---
 
@@ -47,6 +47,8 @@ ht-degree: 18%
 **Configurar e integrar**
 
 * **Configurar desafios de fidelidade** ◀︎ **Você está aqui**
+* [Guia de definição de recompensa](reward-definition-guide.md)
+* [Guia do Transformador de eventos](event-transformer-guide.md)
 * [Dados e conjuntos de dados de fidelidade](loyalty-data-and-datasets.md)
 * [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -71,8 +73,8 @@ A configuração de Desafios de Fidelidade conecta o [!DNL Journey Optimizer] ao
 Para abrir a interface de configuração, selecione o menu de navegação à esquerda **[!UICONTROL Administrador de fidelidade]**. A interface é organizada em guias:
 
 * **Configurações globais** — Selecione o namespace de identidade da Experience Platform para o seu programa. [Saiba como definir configurações globais](#global-settings)
-* **Provedores de recompensas** — conecte as APIs que atendem a recompensas quando os clientes fazem progresso ou concluem desafios. [Saiba como configurar provedores de premiação](#reward-providers)
-* **Definições de eventos** — Mapeie os eventos de experiência recebidos para as atividades usadas nas tarefas **[!UICONTROL Evento personalizado]**. [Saiba como configurar definições de evento](#event-definitions)
+* **Provedores de recompensas** — conecte as APIs que atendem a recompensas quando os clientes fazem progresso ou concluem desafios. [Saiba como configurar provedores de premiação](#reward-providers).
+* **Definições de eventos** — Mapeie os eventos de experiência recebidos para as atividades usadas nas tarefas **[!UICONTROL Evento personalizado]**. [Saiba como configurar definições de evento](#event-definitions).
 * **Estoque de produtos** — carregue mapeamentos de item para grupo para usar nas regras de qualificação de tarefa. [Saiba como configurar o inventário de produtos](#product-inventory)
 * **Exclusões** — Carregue exclusões de item e grupo em toda a organização para a configuração da tarefa. [Saiba como configurar exclusões](#exclusions)
 
@@ -95,10 +97,10 @@ Abra a guia **[!UICONTROL Configurações globais]** para definir as configuraç
 
   Selecione uma das seguintes opções de KPI:
 
-   * **[!UICONTROL Receita]** — Priorizar insights relacionados a transações monetárias e desempenho de vendas
-   * **[!UICONTROL Envolvimento]** — Priorize insights relacionados à atividade e participação do membro
-   * **[!UICONTROL Resgate]** — Priorizar insights relacionados às taxas de resgate e à atividade de remuneração
-   * **[!UICONTROL Conversões]** — Priorize insights relacionados às métricas de conversão e à conclusão de metas
+  * **[!UICONTROL Receita]** — Priorizar insights relacionados a transações monetárias e desempenho de vendas
+  * **[!UICONTROL Envolvimento]** — Priorize insights relacionados à atividade e participação do membro
+  * **[!UICONTROL Resgate]** — Priorizar insights relacionados às taxas de resgate e à atividade de remuneração
+  * **[!UICONTROL Conversões]** — Priorize insights relacionados às métricas de conversão e à conclusão de metas
 
   Ao selecionar um KPI, os insights relacionados a essa métrica recebem um aumento de pontuação, o que faz com que eles subam para a parte superior do feed. Isso significa que os insights mais relevantes para o KPI selecionado aparecem primeiro. Nenhum insight está oculto: seu feed completo do insight continua a ser exibido, classificado por significância com seu KPI selecionado priorizado acima de outras métricas. Essa configuração afeta apenas como os insights são classificados no feed e não modifica como o programa de fidelidade opera ou como os desafios são avaliados. Você pode alterar sua seleção de KPI a qualquer momento, e o feed do insight reprioriza no próximo ciclo de atualização para refletir sua nova prioridade.
 
@@ -128,6 +130,8 @@ Abra a guia **[!UICONTROL Configurações globais]** para definir as configuraç
 
 Um **provedor de premiação** informa a [!DNL Journey Optimizer] para onde enviar chamadas de atendimento quando o progresso do desafio é registrado ou um desafio é concluído. Por exemplo, uma API que credita pontos de fidelidade ou estrelas a uma conta de membro.
 
+Use esta seção para a configuração completa do provedor (recursos de conexão, proxy, gerador de token de autenticação e definição de premiação). Para obter orientação focada no design da definição de premiação e na estratégia de carga, consulte [Guia de Definição de Premiação](reward-definition-guide.md).
+
 Para criar um provedor de premiação, siga estas etapas:
 
 1. Abra a guia **[!UICONTROL Provedores de recompensa]** e selecione **[!UICONTROL Criar provedor de recompensa]**.
@@ -149,7 +153,9 @@ Para criar um provedor de premiação, siga estas etapas:
    * Insira um **[!UICONTROL Nome]** e uma **[!UICONTROL Descrição]**.
    * Especifique se a definição é **[!UICONTROL Habilitada]**.
    * Alterne **[!UICONTROL Padrão]** para marcar uma definição como padrão para este provedor.
-   * Defina a **carga** enviada com chamadas de preenchimento.
+   * Defina como a carga de recompensas será transformada na solicitação de carga de preenchimento usando a expressão JSONata.
+
+   Para obter mais informações, consulte [Guia de definição de recompensa](reward-definition-guide.md#writing-the-rewardjsonata-expression).
 
    ![](assets/admin-reward-definition.png)
 
@@ -209,16 +215,18 @@ Para editar um provedor de premiação, abra a guia **[!UICONTROL Provedores de 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
 >title="Esquema e transformador de evento"
->abstract="Quando sua organização enviar eventos em um formato JSON personalizado, use o **[!UICONTROL Esquema]** para validar o conteúdo e o **[!UICONTROL Transformador]** (por exemplo, uma expressão JSONata) para mapear campos no formato esperado pelos Desafios de fidelidade."
+>abstract="Na seção Esquema de evento, forneça uma expressão JSONata **[!UICONTROL Transformer]** para mapear campos de evento de entrada no formato que o Loyalty Challenges espera."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
 >title="Identificação de evento"
->abstract="Especifique como [!DNL Journey Optimizer] reconhece o evento nos conteúdos de entrada usando um caminho de identificador, valores de identificador, uma ID de esquema XDM ou uma combinação desses campos."
+>abstract="Na seção Identificação do evento, forneça o nome do evento e a ID do esquema XDM necessária usada para identificar eventos de entrada."
 
 **[!UICONTROL As definições de evento]** informam a [!DNL Journey Optimizer] quais eventos de entrada de experiência do Adobe Experience Platform processar. Por exemplo, uma compra ou um check-in de hotel. Os profissionais de marketing fazem referência a essas definições quando criam tarefas de **[!UICONTROL Evento personalizado]** no construtor de tarefas. Eventos que não correspondem a nenhuma definição são ignorados.
 
-Quando sua organização envia eventos em seu próprio formato JSON, o **[!UICONTROL Esquema]** e o **[!UICONTROL Transformador]** ajudam o [!DNL Journey Optimizer] a validar a carga, analisá-la e decidir se deseja rastrear a atividade.
+Use esta seção para configuração de definição de ponta a ponta (identificação de evento mais expressão do transformador). Para obter orientação focada na criação de transformadores, consulte [Guia do transformador de eventos](event-transformer-guide.md).
+
+Quando sua organização envia eventos em seu próprio formato JSON, o [**[!UICONTROL Transformador]**](event-transformer-guide.md#writing-the-transformer) ajuda o [!DNL Journey Optimizer] a mapear e analisar cargas de entrada para que os eventos possam ser acompanhados corretamente.
 
 Para criar uma definição de evento, siga estas etapas:
 
@@ -226,18 +234,12 @@ Para criar uma definição de evento, siga estas etapas:
 
    ![](assets/admin-event-definition.png)
 
-1. Digite um **[!UICONTROL Nome]** para o evento (por exemplo, `Coffee purchase`). Os profissionais de marketing veem esse nome ao configurar uma tarefa de **[!UICONTROL Evento personalizado]**.
+1. Em **[!UICONTROL Identificação de evento]**, insira os valores necessários:
 
-1. Especifique como [!DNL Journey Optimizer] reconhece o evento nas cargas de entrada. Forneça um **[!UICONTROL Caminho do identificador]**, uma **[!UICONTROL ID do esquema XDM]** ou ambos:
+   * **[!UICONTROL Nome]** — Rótulo para a definição de evento (por exemplo, `Coffee purchase`).
+   * **[!UICONTROL ID do esquema XDM]** — ID do esquema XDM do Experience Platform para este tipo de evento.
 
-   * **[!UICONTROL Caminho do identificador]** — Caminho para um campo na carga (por exemplo, `data.memberId`). Use isso ao corresponder eventos por valores na carga.
-   * **[!UICONTROL Valores de identificador]** — Valores no caminho do identificador que devem estar presentes para que esta definição seja compatível.
-   * **[!UICONTROL ID do esquema XDM]** — ID do esquema XDM do Experience Platform para este tipo de evento. Use esta opção quando os eventos forem capturados em um esquema conhecido.
-
-1. Se necessário, cole as cadeias de caracteres no **[!UICONTROL Esquema]** e no **[!UICONTROL Transformador]**:
-
-   * **[!UICONTROL Esquema]** — Cadeia de caracteres de validação para a carga de entrada.
-   * **[!UICONTROL Transformador]** — Expressão de transformação (por exemplo, JSONata) que mapeia sua carga no formato esperado por Desafios de Fidelidade.
+1. No **[!UICONTROL Esquema de evento]**, forneça a expressão [JSONata](event-transformer-guide.md#writing-the-transformer) necessária que mapeia sua carga no formato esperado pelos Desafios de Fidelidade.
 
 1. Salve a definição do evento. Ele aparece na lista **[!UICONTROL Definições de evento]** e está disponível quando os profissionais de marketing criam tarefas de **[!UICONTROL Evento personalizado]**. [Saiba como criar tarefas](create-tasks.md#choose-activity)
 

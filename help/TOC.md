@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: '3471'
+source-wordcount: '3477'
 ht-degree: 95%
 
 ---
@@ -155,6 +155,8 @@ ht-degree: 95%
   + {hide-from-toc}[Criar tarefas](using/loyalty-challenges/create-tasks.md)
   + {hide-from-toc}[Monitorar o desempenho do desafio de fidelidade](using/loyalty-challenges/loyalty-reporting.md)
   + {hide-from-toc}[Configurar desafios de fidelidade](using/loyalty-challenges/loyalty-admin.md)
+  + {hide-from-toc}[Guia de Definição de Premiação](using/loyalty-challenges/reward-definition-guide.md)
+  + {hide-from-toc}[Guia do transformador de eventos](using/loyalty-challenges/event-transformer-guide.md)
   + {hide-from-toc}[Dados e conjuntos de dados de fidelidade](using/loyalty-challenges/loyalty-data-and-datasets.md)
   + {hide-from-toc}[Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + Campanhas {#campaigns}
