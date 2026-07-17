@@ -12,20 +12,15 @@ badge: label="Beta público" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+source-git-commit: 9551133fab06cfa5e056ba98da73dcbf066916fc
 workflow-type: tm+mt
-source-wordcount: 1147
-ht-degree: 7%
+source-wordcount: 1090
+ht-degree: 2%
 
 ---
 
 
 # Gerar expressões com o Assistente de expressão {#expression-agent}
-
->[!CONTEXTUALHELP]
->id="journeyExpAI"
->title="Gerar expressões com o Assistente de expressão"
->abstract="O Assistente de expressão usa a IA generativa para ajudar você a criar e gerar expressões diretamente no Editor de expressão avançado da jornada. Por exemplo, em condições, atividades de **Otimização** ou atividades de **Espera** que usam uma data personalizada. Quando você descreve o que precisa em linguagem simples, o assistente gera a expressão correspondente para você."
 
 >[!AVAILABILITY]
 >
@@ -35,7 +30,7 @@ ht-degree: 7%
 
 O Assistente de expressão é um recurso alimentado por IA integrado ao editor de expressão avançado do Jornada. Ajuda a gerar expressões válidas a partir de prompts de linguagem simples.
 
-Ela está disponível onde quer que o **[!UICONTROL editor de expressão avançado]** da Jornada seja aberto. Por exemplo, ao configurar condições e roteamento dentro de uma **[atividade de Otimização](../optimize.md)** ou ao configurar uma [**[!UICONTROL atividade de Espera &#x200B;]**](../wait-activity.md) que usa uma data personalizada e você precisa de uma expressão `dateTimeOnly`.
+Ela está disponível onde quer que o **[!UICONTROL editor de expressão avançado]** da Jornada seja aberto. Por exemplo, ao configurar condições e roteamento dentro de uma **[atividade de Otimização](../optimize.md)** ou ao configurar uma [**[!UICONTROL atividade de Espera ]**](../wait-activity.md) que usa uma data personalizada e você precisa de uma expressão `dateTimeOnly`.
 
 ## Gerar uma expressão {#generate}
 
