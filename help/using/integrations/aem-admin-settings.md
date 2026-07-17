@@ -8,14 +8,12 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, Fragmentos de conteúdo, administração, repositório, autenticação, autor, publicação
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
 source-git-commit: 82575d60e216fde6271222fee3c5868e20e3b41d
 workflow-type: tm+mt
 source-wordcount: 709
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
@@ -31,7 +29,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
 >title="Configuração do Adobe Experience Manager"
->abstract="Conecte uma sandbox a um repositório do Adobe Experience Manager definindo o acesso somente de autor ou de publicação, domínios personalizados e autenticação para que os profissionais de marketing possam usar fragmentos de conteúdo do Adobe Experience Manager em suas jornadas e campanhas."
+>abstract="Conecte uma sandbox a um repositório do Adobe Experience Manager definindo o acesso como somente de autor ou de publicação, domínios personalizados e autenticação para que os profissionais de marketing possam usar fragmentos de conteúdo do Adobe Experience Manager em suas jornadas e campanhas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_configure_instance"
@@ -41,18 +39,18 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_send_token"
 >title="Enviar token para a instância de publicação"
->abstract="Quando ativadas, as credenciais de serviço são enviadas para autenticar solicitações para a instância de publicação. Insira um JSON de credencial de serviço válido abaixo."
+>abstract="Quando habilitado, as credenciais de serviço são enviadas para autenticar solicitações à instância de publicação. Insira um JSON de credencial de serviço válido abaixo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
 >title="Colar credencial de serviço JSON"
->abstract="Cole a credencial de serviço do Adobe Experience Manager JSON. Ela será formatada e validada automaticamente."
+>abstract="Cole o JSON das credenciais de serviço do Adobe Experience Manager. Ela será formatada e validada automaticamente."
 >additional-url=""
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_custom_domain"
 >title="Domínio personalizado"
->abstract="Opcional. Forneça um domínio personalizado se &quot;your-publish-instance.adobeaemcloud.com&quot; estiver impedido de buscar conteúdo para sua organização."
+>abstract="Opcional. Forneça um domínio personalizado caso “your-publish-instance.adobeaemcloud.com” esteja bloqueado e não consiga buscar conteúdo para a sua organização."
 
 O Adobe Journey Optimizer integra-se com **[!DNL Adobe Experience Manager as a Cloud Service]** e **[!DNL Adobe Experience Manager Managed Service]** para que você possa usar **Fragmentos de conteúdo** em Jornadas e Campanhas. Por padrão, os **Fragmentos de conteúdo** são lidos do repositório de publicação do Adobe Experience Manager. Os administradores podem alternar para somente autor ou ajustar o acesso de publicação no menu **[!UICONTROL Integração do AEM]**.
 
@@ -146,4 +144,4 @@ Ao salvar essa configuração, o Journey Optimizer a armazena para esse reposit�
 
 Saiba como os administradores definem as configurações do repositório do Adobe Experience Manager Managed Services no Journey Optimizer para que os profissionais de marketing possam usar Fragmentos de conteúdo em jornadas e campanhas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492533?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
