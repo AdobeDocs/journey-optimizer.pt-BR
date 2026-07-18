@@ -30,11 +30,11 @@ ht-degree: 2%
 >
 >Este recurso está atualmente em **beta público**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../../rn/releases.md).
 >
-Antes de usar esse recurso, leia as [Medidas de proteção e limitações](../../content-management/gs-generative.md#generative-guardrails) relacionadas que se aplicam aos recursos de IA gerativa no Journey Optimizer.
+>Antes de usar esse recurso, leia as [Medidas de proteção e limitações](../../content-management/gs-generative.md#generative-guardrails) relacionadas que se aplicam aos recursos de IA gerativa no Journey Optimizer.
 
 Esse recurso alimentado por IA, integrado ao editor de expressão avançado do Jornada, ajuda a gerar expressões válidas a partir de prompts de linguagem simples.
 
-Ela está disponível onde quer que o **[!UICONTROL editor de expressão avançado]** da Jornada seja aberto. Por exemplo, ao configurar condições e roteamento dentro de uma **[atividade de Otimização](../optimize.md)** ou ao configurar uma [**[!UICONTROL atividade de Espera ]**](../wait-activity.md) que usa uma data personalizada e você precisa de uma expressão `dateTimeOnly`.
+Ela está disponível onde quer que o **[!UICONTROL editor de expressão avançado]** da Jornada seja aberto. Por exemplo, ao configurar condições e roteamento dentro de uma **[atividade de Otimização](../optimize.md)** ou ao configurar uma [**[!UICONTROL atividade de Espera &#x200B;]**](../wait-activity.md) que usa uma data personalizada e você precisa de uma expressão `dateTimeOnly`.
 
 ## Gerar uma expressão {#generate}
 
