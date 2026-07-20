@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: de60ccc616a65a28349fcccf384326e0b91c6faf
+source-git-commit: 79735a937de077c4062b081886cb03ca7bc6692c
 workflow-type: tm+mt
-source-wordcount: 9505
-ht-degree: 86%
+source-wordcount: 9560
+ht-degree: 85%
 
 ---
 
@@ -29,6 +29,8 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 ## Julho de 2026 {#july-2026}
 
 * A página **Encerrar uma jornada** foi atualizada para esclarecer o tempo de parada automático para jornadas de Leitura de Público não recorrentes: um buffer de segurança de aproximadamente **96 horas (~4 dias)** após a execução agendada (janela ociosa de 24 horas + permissão para Período de Silêncio de 72 horas), durante a qual a jornada pode permanecer no status **Ativa** antes da transição para **Interrompida** logo após o término do buffer. A página agora também esclarece que as jornadas baseadas em ondas (multi-wave) e as jornadas que usam a Otimização de tempo de envio são excluídas dessa interrupção automática e, em vez disso, seguem o tempo limite padrão de jornada de 91 dias. [Leia mais](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+* A página **Criar campanhas de aquecimento de IP** foi atualizada para esclarecer que as regras de direcionamento podem ser aplicadas a campanhas de aquecimento de IP e para documentar o comportamento de avaliação: a associação de público-alvo é corrigida na ativação de execução (segmentação diária em lote), enquanto os atributos de perfil são lidos no tempo de execução dos dados em lote assimilados mais recentemente. [Leia mais](../configuration/ip-warmup-campaign.md)
 
 * Um aviso foi adicionado à página **Editar registros PTR** para informar aos clientes que, ao adicionar um novo registro DNS de encaminhamento à sua plataforma, o registro DNS de encaminhamento para o subdomínio antigo não deve ser removido até que a movimentação seja concluída, pois isso fará com que a edição falhe. [Leia mais](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 

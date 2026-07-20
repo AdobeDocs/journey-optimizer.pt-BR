@@ -11,10 +11,10 @@ hide: true
 badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: bdfc730eacd1fa7b382b15bea8b96c8ae5913c38
 workflow-type: tm+mt
-source-wordcount: '2278'
-ht-degree: 11%
+source-wordcount: '2578'
+ht-degree: 9%
 
 ---
 
@@ -59,6 +59,16 @@ ht-degree: 11%
 >Este recurso está atualmente em **beta privado**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
 
 Esta página aborda o processo completo de criação de um desafio de fidelidade, desde selecionar o tipo de desafio e definir as configurações, a estrutura, o conteúdo e as mensagens até gerar e publicar a jornada que oferece o desafio aos clientes.
+
+A criação de um desafio envolve as seguintes etapas:
+
+1. **[Criar o desafio](#create-the-challenge)** — Selecione um tipo de desafio e abra o editor de desafio.
+1. **[Definir configurações](#settings)** — Defina o nome do desafio, o público-alvo, o agendamento, as regras de aceitação e os limites de repetição.
+1. **[Configurar estrutura](#structure)** — Adicione tarefas e recompensas (não aplicável para trazer seus próprios desafios de dados).
+1. **[Configurar conteúdo](#configure-content-cards)** *(opcional)* — Defina como o desafio será exibido para os membros usando um cartão de conteúdo ou uma experiência baseada em código.
+1. **[Configurar mensagens](#configure-messaging)** *(opcional)* — Configurar mensagens de canal para os estágios de Inicialização, Em andamento e Término.
+1. **[Publicar o desafio](#launch)** — Disponibilize o desafio para geração de jornadas.
+1. **[Gerar e publicar a jornada](#launch)** — Acione a jornada gerada automaticamente que oferece o desafio aos clientes.
 
 ## Criar o desafio {#create-the-challenge}
 
@@ -231,10 +241,6 @@ Para adicionar tarefas ao seu desafio, siga estas etapas:
 
    +++
 
-1. Por padrão, os desafios padrão e sequenciais permitem que os clientes concluam tarefas em várias transações. Para exigir que todas as tarefas sejam concluídas em uma única transação, abra o menu de opções de tarefa e alterne a opção de transação única.
-
-   ![](assets/challenge-create-single-transaction.png)
-
 Depois de adicionar tarefas ao seu desafio, configure as recompensas que os clientes ganharão ao concluí-las.
 
 ### Configurar recompensas {#rewards}
@@ -315,50 +321,75 @@ Após configurar o conteúdo, configure as mensagens para envolver os clientes d
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
 >title="Mensagens"
->abstract="As mensagens ajudam a engajar durante todo o ciclo de vida do desafio. Na guia Mensagens, adicione mensagens para cada estágio: Lançamento (quando o desafio começa), Em andamento (lembretes e atualizações de progresso) e Conclusão (comemore o sucesso e confirme as recompensas). Para cada estágio, adicione uma mensagem, escolha o canal, selecione uma configuração de canal e selecione Editar para criar o conteúdo da mensagem."
+>abstract="As mensagens ajudam a engajar durante todo o ciclo de vida do desafio. Na guia Mensagens, adicione mensagens para cada estágio: Iniciar (anunciar o desafio e convidar participantes para participar), Em andamento (manter os participantes envolvidos e concluir tarefas) e Encerrar (comemorar a conclusão e notificar os participantes sobre suas recompensas). Para cada estágio, clique no botão adicionar mensagem, escolha um canal, selecione uma configuração de canal e selecione Editar para criar o conteúdo da mensagem."
 
 Configurar mensagens multicanais para envolver os clientes em estágios fundamentais do ciclo de vida de desafio. As mensagens são opcionais, mas são recomendadas para maximizar o engajamento do cliente.
 
-1. Navegue até a guia **[!UICONTROL Mensagens]** e configure as mensagens para cada estágio do ciclo de vida:
+Navegue até a guia **[!UICONTROL Mensagens]** e configure as mensagens para cada estágio do ciclo de vida:
 
-   * Mensagem de **Inicialização**: notificar os clientes quando o desafio começar
-   * Mensagem **Em andamento**: mantenha os clientes envolvidos com lembretes e atualizações de progresso
-   * Mensagem de **Conclusão**: comemorar o sucesso e confirmar a alocação da premiação
+* **[!UICONTROL Inicialização]**: anunciar o desafio e convidar participantes para participar.
+* **[!UICONTROL Em andamento]**: mantenha os participantes envolvidos e concluindo tarefas.
+* **[!UICONTROL Fim]**: comemore a conclusão e notifique os participantes sobre suas recompensas.
 
-1. Para cada estágio, clique no botão adicionar mensagem para criar uma mensagem para esse estágio.
+Para cada estágio, clique no botão adicionar mensagem (**[!UICONTROL Adicionar mensagem de inicialização]**, **[!UICONTROL Adicionar mensagem em andamento]** ou **[!UICONTROL Adicionar mensagem de desafio concluída]**) e escolha um canal.
 
-1. Escolha o canal desejado: **[!UICONTROL No aplicativo]**, **[!UICONTROL Email]** ou **[!UICONTROL Notificação por push]** e selecione a configuração de canal associada.
+Selecione a **[!UICONTROL Configuração de canal]** associada e clique em **[!UICONTROL Editar]** para criar o conteúdo da sua mensagem.
 
-1. Selecione o ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e escolha **[!UICONTROL Editar]** para criar o conteúdo da sua mensagem.
+![](assets/challenge-create-messaging.png)
 
-   ![](assets/challenge-create-messaging.png)
-
-Saiba como criar mensagens para canais específicos nestas seções: [Mensagens no aplicativo](../in-app/get-started-in-app.md) - [Mensagens de email](../email/get-started-email.md) - [Notificações por push](../push/get-started-push.md)
+| Canal | Descrição |
+|---|---|
+| **[!UICONTROL No aplicativo]** | Exiba uma mensagem no aplicativo móvel ou Web. [Sobre mensagens no aplicativo](../in-app/get-started-in-app.md) · [Criar uma mensagem no aplicativo](../in-app/design-in-app.md) |
+| **[!UICONTROL Email]** | Envie uma notificação por e-mail. [Sobre email](../email/get-started-email.md) · [Criar conteúdo de email](../email/get-started-email-design.md) |
+| **[!UICONTROL Notificação por push]** | Envie uma notificação por push para dispositivos móveis. [Sobre notificações por push](../push/get-started-push.md) · [Criar uma notificação por push](../push/design-push.md) |
+| **[!UICONTROL Cartão de conteúdo]** | Envie uma mensagem persistente ao estilo cartão no aplicativo ou na superfície da Web. [Sobre cartões de conteúdo](../content-card/get-started-content-card.md) · [Criar um cartão de conteúdo](../content-card/design-content-card.md) |
+| **[!UICONTROL Experiência baseada em código]** | Forneça conteúdo por meio de uma implementação personalizada usando o canal baseado em código da AJO. [Sobre experiências baseadas em código](../code-based/get-started-code-based.md) · [Criar uma experiência baseada em código](../code-based/create-code-based.md) |
+| **[!UICONTROL Ação personalizada]** | Acione um sistema externo ou um terminal personalizado. [Sobre ações personalizadas](../action/about-custom-action-configuration.md) |
 
 Seu desafio agora está totalmente configurado com suas configurações, estrutura, conteúdo e mensagens. Para iniciá-lo, você deve publicar o desafio e sua jornada associada.
 
 ## Lançando o desafio {#launch}
 
-Para iniciar um desafio, são necessárias **três etapas**: (1) publicar o desafio, (2) gerar a jornada, (3) publicar a jornada. Todos os três devem ser preenchidos para que o desafio seja entregue aos clientes.
+Você tem duas opções para iniciar seu desafio:
+
+* **[!UICONTROL Publicar Desafio]** (disponível no menu **[!UICONTROL ...]**) — Use esta opção para publicar o desafio sem gerar uma jornada. Isso permite testar, pré-visualizar e simular a experiência do desafio antes da entrega. Os clientes não receberão o desafio até que você gere e publique uma jornada.
+
+* **[!UICONTROL Gerar Jornada]** — Use esta opção para publicar automaticamente o desafio e criar a jornada que orquestrará sua entrega de desafio para os clientes.
+
+### Publicar o desafio {#publish-challenge}
 
 1. Revise sua configuração de desafio para garantir que todos os campos obrigatórios sejam preenchidos.
 
-1. Clique no ícone ![](assets/do-not-localize/Smock_More_18_N.svg) e selecione **[!UICONTROL Publicar]**.
+1. Clique no ícone ![](assets/do-not-localize/Smock_More_18_N.svg) ao lado do botão **[!UICONTROL Gerar Jornada]** e selecione **[!UICONTROL Publicar]**.
 
    ![](assets/challenge-create-publish.png)
 
-1. Selecione **[!UICONTROL Gerar Jornada]** para criar a jornada que orquestrará a entrega de desafio.
+   Você será redirecionado para o inventário de desafios. O desafio agora aparece com o status **[!UICONTROL Publicado]**.
+
+   Quando estiver pronto para oferecer o desafio aos clientes, você poderá gerar a jornada associada. Para obter mais informações, consulte [Gerar a jornada](#generate-journey).
+
+### Gerar a jornada {#generate-journey}
+
+1. Revise sua configuração de desafio para garantir que todos os campos obrigatórios sejam preenchidos.
+
+1. Selecione **[!UICONTROL Gerar Jornada]** para publicar automaticamente o desafio e criar a jornada que orquestrará sua entrega de desafio.
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. O Journey Optimizer cria automaticamente uma jornada no status &quot;Rascunho&quot;. A jornada aparece no inventário de jornadas com o formato de nome *&quot;Jornada: [Nome do desafio]&quot;*. [Saiba mais sobre o inventário de jornadas](../building-journeys/journey-ui.md).
+   Uma mensagem de confirmação é exibida. Clique em **[!UICONTROL Abrir Jornada]** para navegar diretamente para a jornada gerada ou em **[!UICONTROL Confirmar]** para descartá-la e acessar a jornada mais tarde.
+
+   >[!IMPORTANT]
+   >
+   >Quaisquer alterações no desafio devem ser feitas no editor de Desafio de Fidelidade e exigirão a geração de uma nova jornada. Qualquer trabalho feito diretamente na jornada de desafio existente será perdido se você fizer alterações no desafio.
+
+1. Abra a jornada gerada e publique-a. A jornada aparece no status **Rascunho** com o formato de nome *&quot;Jornada: [Nome do Desafio]&quot;* e pode ser acessada de:
+
+   * A mensagem de confirmação na etapa anterior — clique em **[!UICONTROL Abrir Jornada]**.
+   * O **inventário de desafios** — use o link da coluna **[!UICONTROL Jornada]** ao lado do desafio.
+   * O **inventário do jornada** — localize a jornada por nome.
+
+   Depois de publicada, a jornada é iniciada automaticamente na data de início do desafio especificada. [Saiba como publicar uma jornada](../building-journeys/publish-journey.md).
 
    ![](assets/challenge-create-journey.png)
 
-1. Abra a jornada e publique-a. A jornada será iniciada automaticamente na data de início do desafio especificada e entregará conteúdo e mensagens de acordo com sua configuração. [Saiba como publicar uma jornada](../building-journeys/publish-journey.md).
-
 1. Quando seu desafio estiver ativo, monitore os KPIs do programa, os resultados do desafio e as métricas no nível da tarefa nos [relatórios de desafio de fidelidade](loyalty-reporting.md). Você também pode monitorar a entrega de mensagens no [relatório de jornadas](../reports/journey-global-report-cja.md).
-
->[!NOTE]
->
->A jornada gerada automaticamente pode ser personalizada para adicionar lógica ou mensagens adicionais. No entanto, as alterações feitas diretamente na jornada não são sincronizadas com a configuração de desafio. Se você editar o desafio mais tarde, qualquer personalização de jornada será perdida quando a jornada for gerada novamente.

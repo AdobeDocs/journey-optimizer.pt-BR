@@ -11,9 +11,9 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: eb0d0e7136f3a4787f0a30c8f929864df812eb8a
+source-git-commit: 297835f62000d93ee8c8a7351db815c1ea3ca798
 workflow-type: tm+mt
-source-wordcount: 3003
+source-wordcount: 3012
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
+Use a **[!UICONTROL Simulação]** para validar sua jornada com **usuários simulados** antes de publicar. Esta página o orienta durante a **[!UICONTROL Simulação rápida]** e a **[!UICONTROL Simulação manual]**, criando e enviando usuários simulados, acionando eventos unitários quando a jornada precisar deles e revisando o log de **[!UICONTROL Resultados]**.
+
 >[!IMPORTANT]
 >
 >* Para usar a **[!UICONTROL Simulação]**, atribua pelo menos uma permissão do recurso **[!UICONTROL Jornada]**: **Simular jornada**, **Publicar jornada** ou **Aprovar e Publicar jornada**. As mesmas permissões permitem criar e gerenciar usuários simulados, **[!UICONTROL Usuários Simulados]** permissões não são necessárias. [Saiba mais](../administration/permissions.md)
@@ -33,8 +35,6 @@ ht-degree: 0%
 >* Para gerenciar usuários simulados sem **[!UICONTROL Simulação]**, atribua **Gerenciar Usuários Simulados** ou **Exibir Usuários Simulados** a partir do recurso **[!UICONTROL Usuários Simulados]**.
 >
 >* Para a IA na simulação (**[!UICONTROL Simulação rápida]**, usuários gerados pela IA, **[!UICONTROL Gerar valores de evento]**), atribua **[!UICONTROL Gerar conteúdo]** pelo recurso **[!UICONTROL Assistente de IA]**.
-
-Use a **[!UICONTROL Simulação]** para validar sua jornada com **usuários simulados** antes de publicar. Esta página o orienta durante a **[!UICONTROL Simulação rápida]** e a **[!UICONTROL Simulação manual]**, criando e enviando usuários simulados, acionando eventos unitários quando a jornada precisar deles e revisando o log de **[!UICONTROL Resultados]**.
 
 Para obter uma visão geral por tipo de jornada, consulte [Introdução à simulação de Jornada](simulate-journey-gs.md).
 
@@ -65,9 +65,9 @@ Em qualquer jornada em **[!UICONTROL Simulação]**, a **[!UICONTROL Simulação
 
    >[!NOTE]
    >
-   >Os campos de email e telefone de execução pré-preenchidos vêm de valores usados anteriormente na simulação da jornada e armazenados em cache no navegador.
+   >Os campos de email de execução pré-preenchidos, telefone e token de push vêm de valores usados anteriormente na simulação do jornada e armazenados em cache no navegador.
 
-   ![Etapa de atualização rápida de valores de simulação com substituição de tempo de espera e campos de email e telefone de prova](assets/quick-simulation-3.png)
+   ![Etapa de atualização rápida de valores de simulação com substituição de tempo de espera e campos de email de prova, token de telefone e push](assets/quick-simulation-3.png)
 
 1. O Journey Agent gera um conjunto de usuários simulados a partir da definição da jornada.
 
@@ -95,15 +95,15 @@ Os usuários simulados são entidades temporárias semelhantes a perfis definida
 
    O Adobe Journey Optimizer gera um conjunto de usuários simulados a partir da definição de jornada.
 
-   Para jornadas com um nó de email, push ou SMS, a IA solicita que você confirme o endereço de email ou o número de telefone a ser usado. Os usuários simulados serão gerados usando esses valores definidos. Depois de concluído, clique em **[!UICONTROL Gerar]**.
+   Para jornadas com um nó de email, push ou SMS, a IA solicita que você confirme o endereço de email, o número de telefone ou o token de push a ser usado. Os usuários simulados são gerados usando esses valores definidos. Depois de concluído, clique em [!UICONTROL Gerar].
 
    Os usuários simulados gerados mostram apenas os atributos usados na jornada atual, por exemplo, em expressões ou personalização.
 
    >[!NOTE]
    >
-   >Os campos de email e telefone são pré-preenchidos com valores usados anteriormente na simulação do jornada e armazenados em cache no navegador.
+   >Os campos de email, telefone e token de push são pré-preenchidos com valores usados anteriormente na simulação do jornada e armazenados em cache no navegador.
 
-   ![Gerar caixa de diálogo de usuários simulados com campos de email e telefone de execução e botão Gerar](assets/simulate-generate.png)
+   ![Gerar caixa de diálogo de usuários simulados com campos de email de execução, telefone e token de push e botão Gerar](assets/simulate-generate.png)
 
    +++
 
