@@ -11,7 +11,7 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b4f1dff677977a448d99576a85bd3dd7dcdf59ed
+source-git-commit: 297835f62000d93ee8c8a7351db815c1ea3ca798
 workflow-type: tm+mt
 source-wordcount: 3012
 ht-degree: 0%
@@ -26,6 +26,8 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
+Use a **[!UICONTROL Simulação]** para validar sua jornada com **usuários simulados** antes de publicar. Esta página o orienta durante a **[!UICONTROL Simulação rápida]** e a **[!UICONTROL Simulação manual]**, criando e enviando usuários simulados, acionando eventos unitários quando a jornada precisar deles e revisando o log de **[!UICONTROL Resultados]**.
+
 >[!IMPORTANT]
 >
 >* Para usar a **[!UICONTROL Simulação]**, atribua pelo menos uma permissão do recurso **[!UICONTROL Jornada]**: **Simular jornada**, **Publicar jornada** ou **Aprovar e Publicar jornada**. As mesmas permissões permitem criar e gerenciar usuários simulados, **[!UICONTROL Usuários Simulados]** permissões não são necessárias. [Saiba mais](../administration/permissions.md)
@@ -33,8 +35,6 @@ ht-degree: 0%
 >* Para gerenciar usuários simulados sem **[!UICONTROL Simulação]**, atribua **Gerenciar Usuários Simulados** ou **Exibir Usuários Simulados** a partir do recurso **[!UICONTROL Usuários Simulados]**.
 >
 >* Para a IA na simulação (**[!UICONTROL Simulação rápida]**, usuários gerados pela IA, **[!UICONTROL Gerar valores de evento]**), atribua **[!UICONTROL Gerar conteúdo]** pelo recurso **[!UICONTROL Assistente de IA]**.
-
-Use a **[!UICONTROL Simulação]** para validar sua jornada com **usuários simulados** antes de publicar. Esta página o orienta durante a **[!UICONTROL Simulação rápida]** e a **[!UICONTROL Simulação manual]**, criando e enviando usuários simulados, acionando eventos unitários quando a jornada precisar deles e revisando o log de **[!UICONTROL Resultados]**.
 
 Para obter uma visão geral por tipo de jornada, consulte [Introdução à simulação de Jornada](simulate-journey-gs.md).
 
