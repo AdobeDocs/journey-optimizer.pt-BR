@@ -13,9 +13,9 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: 80abca7068e021e52e9c34d9a2fb629ebad70302
 workflow-type: tm+mt
-source-wordcount: 2015
+source-wordcount: 1731
 ht-degree: 1%
 
 ---
@@ -108,40 +108,28 @@ Toda definição de evento deve produzir um objeto JSON no formato a seguir. Ess
 | Campo | Obrigatório | Notas |
 |--------------------------------|--------------------|-------|
 | `loyalty_identity` | **Sim** | Deve conter `id` — a ID de fidelidade do membro. |
-| `item_list` | **Sim** | Deve conter pelo menos um item. Um `item_list` vazio faz com que o evento seja rejeitado como inválido. |
-| `item_set` | **Sim** (por item) | Os identificadores nessa matriz são os que as listas de inclusão/exclusão de tarefas de desafio comparam. Inclua cada identificador relevante — SKU, categoria de produto, código de departamento, nome do evento — para que os filtros de tarefa funcionem corretamente. |
+| `item_list` | **Sim** | Deve ter ≥ 1 item; item_list vazio é rejeitado. |
+| `item_set` | **Sim** (por item) | As listas de inclusão/exclusão de identificadores correspondem. |
 | `timestamp` | **Sim** | Usado para avaliação da janela de data. Deve ser ISO 8601. |
-| `utc_offset` | Recomendado | Obrigatório para correspondência de janelas daypart e para calcular listras de dias consecutivos. Se omitido, a avaliação de daypart e a contagem de dias em sequência são ignoradas. |
-| `_id` | Não | Se a detecção de duplicidades estiver habilitada para a organização, o Serviço de Desafio rejeitará um evento cujo `_id` já tenha sido processado. |
-| `sub_total` | Não | Usado por tarefas de limite de gastos. Se omitido, o item contribui com gasto zero. |
+| `utc_offset` | Recomendado | Necessário para correspondência de daypart e contagem de dias consecutivos. |
+| `_id` | Não | Usado para desduplicação se a organização tiver a detecção de duplicidade ativada. |
+| `sub_total` | Não | Tarefas com limite de gasto usam isso; omitir significa zero gasto. |
 
 ## Campos de definição de evento
 
 | Campo | Tipo | Obrigatório | Descrição |
 |--------------------------------|------------------|----------------------|-------------|
-| `guid` | String | Não (atribuído pelo sistema) | Identificador exclusivo atribuído na criação. Somente leitura. |
+| `guid` | String | Não (atribuído pelo sistema) | ID exclusiva atribuída pelo sistema; somente leitura. |
 | `name` | String | **Sim** | Rótulo legível, ex.: `"Starbucks POS Purchase"`. |
-| `xdmSchemaId` | String | Não* | A ID do esquema XDM usada para corresponder aos eventos que chegam pela **rota de assimilação DCCS**. A plataforma lê a referência do schema incorporada no evento de entrada e a compara com esse valor. |
-| `identifierPath` | String | Não* | O caminho de notação de pontos no JSON de evento usado para corresponder a eventos que chegam por meio da **rota HTTP direta (adobe.io)**. A plataforma lê o valor neste caminho e o verifica em relação a `identifier`. |
-| `identifier` | Matriz de cadeias de caracteres | Não | Valores esperados em `identifierPath`. Se fornecido e não estiver vazio, o valor no caminho deve corresponder a um desses valores. Se estiver vazio, qualquer evento com um valor no caminho será correspondido. |
-| `schema` | String | Não | Um documento de [Esquema JSON](https://json-schema.org/) (como uma sequência JSON) usado para validar o evento de entrada antes da transformação. Se a validação falhar, o evento será rejeitado com um erro descritivo. |
-| `transformer` | String | **Sim** | Expressão JSONata que mapeia o evento de entrada para o formato de Evento de fidelidade do Adobe. |
-
-\* Pelo menos um de `xdmSchemaId` ou `identifierPath` deve ser fornecido.
+| `xdmSchemaId` | String | **Sim** | Corresponde eventos por ID de esquema XDM (consulte Como a correspondência funciona). |
+| `schema` | String | Não | [Esquema JSON](https://json-schema.org/) (como uma cadeia de caracteres) para validar eventos de entrada. |
+| `transformer` | String | **Sim** | Expressão JSONata que mapeia o evento para o formato Fidelidade. |
 
 ## Como a correspondência funciona
 
-A estratégia correspondente depende de como o evento atinge a plataforma:
+Os eventos que chegam pelo Serviço principal de coleta de dados (DCCS) carregam uma referência de esquema XDM em seu envelope. A plataforma lê a ID do esquema de `/body/xdmMeta/schemaRef/id` e a compara com o `xdmSchemaId` de cada definição.
 
-**Rota de assimilação de DCCS** — Os eventos que chegam pelo Serviço Principal de Coleta de Dados (DCCS) carregam uma referência de esquema XDM em seu envelope. A plataforma lê a ID do esquema de `/body/xdmMeta/schemaRef/id` e a compara com o `xdmSchemaId` de cada definição. Configurar `xdmSchemaId` nas definições destinadas a esta rota.
-
-**Rota HTTP direta (adobe.io)** — Eventos postados diretamente na plataforma por meio da API adobe.io não trazem uma referência de esquema XDM. A plataforma, em vez disso, atravessa o JSON do evento usando `identifierPath` e verifica o valor encontrado lá:
-* Se `identifier` não estiver vazio: o valor deve corresponder a uma das cadeias de caracteres configuradas.
-* Se `identifier` estiver vazio: qualquer evento com um valor não nulo no caminho será correspondido.
-
-Configurar `identifierPath` (e, opcionalmente, `identifier`) nas definições destinadas a esta rota.
-
-A plataforma percorre as definições de evento da organização **em ordem** e aplica a primeira correspondência. Quando uma correspondência é encontrada, o corpo `xdmEntity` (para eventos DCCS) ou o corpo completo do evento (para eventos HTTP diretos) é passado para o transformador.
+A plataforma percorre as definições de evento da organização **em ordem** e aplica a primeira correspondência. Depois que uma correspondência é encontrada, o corpo `xdmEntity` é passado para o transformador.
 
 ## Gravação do transformador
 
@@ -291,10 +279,9 @@ A biblioteca completa da função JSONata está disponível. Exemplos úteis:
 
 ```json
 {
-  "name":           "Mobile Store Check-In",
-  "identifierPath": "eventName",
-  "identifier":     ["store-checkin"],
-  "transformer":    "{\"_id\": _id, \"event_name\": eventName, \"timestamp\": timestamp, \"location_id\": storeId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": [{\"item_set\": [eventName], \"quantity\": 1}]}"
+  "name":        "Mobile Store Check-In",
+  "xdmSchemaId": "https://ns.adobe.com/yourtenant/schemas/store-checkin-v1",
+  "transformer": "{\"_id\": _id, \"event_name\": eventName, \"timestamp\": timestamp, \"location_id\": storeId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": [{\"item_set\": [eventName], \"quantity\": 1}]}"
 }
 ```
 
@@ -366,10 +353,9 @@ Uma tarefa de desafio sem restrições de inclusão/exclusão contará este even
 
 ```json
 {
-  "name":           "Retail POS Purchase",
-  "identifierPath": "transaction.transactionId",
-  "identifier":     [],
-  "transformer":    "{\"_id\": _id, \"event_name\": \"purchase\", \"timestamp\": timestamp, \"utc_offset\": storeInfo.utcOffset, \"location_id\": storeInfo.storeId, \"transaction_id\": transaction.transactionId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": transaction.items.{\"item_set\": [sku, category], \"quantity\": qty, \"unit_price\": unitPrice, \"sub_total\": lineTotal}}"
+  "name":        "Retail POS Purchase",
+  "xdmSchemaId": "https://ns.adobe.com/yourtenant/schemas/retail-pos-purchase-v1",
+  "transformer": "{\"_id\": _id, \"event_name\": \"purchase\", \"timestamp\": timestamp, \"utc_offset\": storeInfo.utcOffset, \"location_id\": storeInfo.storeId, \"transaction_id\": transaction.transactionId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": transaction.items.{\"item_set\": [sku, category], \"quantity\": qty, \"unit_price\": unitPrice, \"sub_total\": lineTotal}}"
 }
 ```
 
@@ -550,10 +536,9 @@ x-sandbox-name: {SANDBOX}
 Content-Type: application/json
 
 {
-  "name":           "Retail POS Purchase",
-  "identifierPath": "transaction.transactionId",
-  "identifier":     [],
-  "transformer":    "{ ... }"
+  "name":        "Retail POS Purchase",
+  "xdmSchemaId": "https://ns.adobe.com/yourtenant/schemas/retail-pos-purchase-v1",
+  "transformer": "{ ... }"
 }
 ```
 

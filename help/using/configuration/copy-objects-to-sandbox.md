@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: 6e15053d050d9500456046d0ac2d75c0127d3559
 workflow-type: tm+mt
-source-wordcount: 2475
+source-wordcount: 2428
 ht-degree: 2%
 
 ---
@@ -90,11 +90,11 @@ O Journey Optimizer permite exportar jornadas, campanhas (acionadas por ação, 
 
 * **Ações personalizadas**
 
-   * Ao exportar ações personalizadas, a configuração de URL e os parâmetros de carga são copiados. No entanto, por motivos de segurança, os parâmetros de autenticação não são copiados e, em vez disso, são substituídos por &quot;INSERIR SEGREDO AQUI&quot;. Os valores constantes do cabeçalho da solicitação e do parâmetro de consulta também são substituídos por &quot;INSERIR SEGREDO AQUI&quot;.
+  * Ao exportar ações personalizadas, a configuração de URL e os parâmetros de carga são copiados. No entanto, por motivos de segurança, os parâmetros de autenticação não são copiados e, em vez disso, são substituídos por &quot;INSERIR SEGREDO AQUI&quot;. Os valores constantes do cabeçalho da solicitação e do parâmetro de consulta também são substituídos por &quot;INSERIR SEGREDO AQUI&quot;.
 
-     Isso inclui as ações personalizadas com finalidade especial ([!DNL Adobe Campaign Standard], [!DNL Campaign Classic], [!DNL Marketo Engage]).
+    Isso inclui as ações personalizadas com finalidade especial ([!DNL Adobe Campaign Standard], [!DNL Campaign Classic], [!DNL Marketo Engage]).
 
-   * Ao copiar uma jornada para outra sandbox, se você selecionar &quot;usar existente&quot; para uma ação personalizada durante o processo de importação, a ação personalizada existente selecionada deverá ser a mesma que a ação personalizada de origem (ou seja, mesma configuração, parâmetros etc.). Caso contrário, a nova cópia da jornada terá erros que não poderão ser resolvidos na tela.
+  * Ao copiar uma jornada para outra sandbox, se você selecionar &quot;usar existente&quot; para uma ação personalizada durante o processo de importação, a ação personalizada existente selecionada deverá ser a mesma que a ação personalizada de origem (ou seja, mesma configuração, parâmetros etc.). Caso contrário, a nova cópia da jornada terá erros que não poderão ser resolvidos na tela.
 
 * **Fontes de dados, grupos de campos e eventos** - Ao copiar uma jornada que usa eventos, fontes de dados ou grupos de campos, o processo de importação verifica automaticamente se já existem componentes com o mesmo nome e tipo na sandbox de destino. Por exemplo, um evento unitário será substituído por um evento unitário na sandbox do target com o mesmo nome. O mesmo se aplica a eventos comerciais, fontes de dados personalizadas e grupos de campos baseados em API e esquema usados em jornadas. Se um evento unitário da sandbox de origem tiver o mesmo nome que uma sandbox de destino de evento comercial, ele não será copiado nem criado, isso se aplica a todos os outros componentes também.
 
@@ -127,10 +127,6 @@ Você pode copiar campanhas orquestradas entre sandboxes usando exportação e i
 
 Para exportar uma campanha orquestrada, [adicione-a a um pacote de sandbox](#add-objects-as-a-package-export) na sandbox de origem (independentemente do status), [publique o pacote](#publish) e [importe o pacote](#import) para a sandbox de destino.
 
->[!IMPORTANT]
->
->Logo após a importação, [duplique a campanha orquestrada](../campaigns/manage-campaigns.md#duplicate-a-campaign) na sandbox de destino e use essa duplicata para configuração, teste e execução. Se você executar ou publicar a cópia importada, os relatórios da campanha talvez não mostrem dados de feedback e rastreamento. Essa limitação será removida em uma versão futura.
-
 Antes de importar para a produção, lembre-se dos seguintes comportamentos e limitações:
 
 * **Cópia de rascunho** - A campanha orquestrada importada é sempre criada no rascunho na sandbox de destino, independentemente do status da campanha orquestrada de origem.
@@ -143,21 +139,21 @@ Antes de importar para a produção, lembre-se dos seguintes comportamentos e li
 
   Durante a [importação do pacote](#import), o Journey Optimizer lista os objetos a serem resolvidos na sandbox de destino. As seguintes regras se aplicam aos objetos mais comuns:
 
-   * **Campanha** — Sempre selecione **Criar novo**.
-   * **Públicos-alvo** — Para públicos-alvo da Adobe Experience Platform, você pode selecionar **Criar novo** ou **Usar existente**. Para públicos-alvo de campanha orquestrados, você deve selecionar **Usar existente** e mapear para o público-alvo correspondente na sandbox de destino.
-   * **Políticas de mesclagem** — selecione **Usar existente** e mapeie para a política de mesclagem apropriada ou use o padrão na sandbox de destino.
+  * **Campanha** — Sempre selecione **Criar novo**.
+  * **Públicos-alvo** — Para públicos-alvo da Adobe Experience Platform, você pode selecionar **Criar novo** ou **Usar existente**. Para públicos-alvo de campanha orquestrados, você deve selecionar **Usar existente** e mapear para o público-alvo correspondente na sandbox de destino.
+  * **Políticas de mesclagem** — selecione **Usar existente** e mapeie para a política de mesclagem apropriada ou use o padrão na sandbox de destino.
 
   Após a importação, use alertas na campanha orquestrada para encontrar lacunas restantes (por exemplo, um perfil ou recurso de direcionamento que ainda não existe na sandbox do target pode deixar uma atividade com um target vazio até que você a corrija).
 
 * **O que você deve adicionar ou alinhar separadamente** - Os itens a seguir não estão incluídos na exportação de campanha orquestrada:
 
-   * **Configurações de canal** — elas não são exportadas ou importadas com o pacote. Para que o email e outras atividades de canal funcionem sem correções manuais, a sandbox de destino já deve ter uma configuração de canal cujo nome corresponda exatamente à origem (diferencia maiúsculas de minúsculas) e que use o mesmo canal. Caso contrário, você verá alertas sobre atividades após a importação. Abra cada atividade afetada e selecione ou crie a configuração de canal correta.
+  * **Configurações de canal** — elas não são exportadas ou importadas com o pacote. Para que o email e outras atividades de canal funcionem sem correções manuais, a sandbox de destino já deve ter uma configuração de canal cujo nome corresponda exatamente à origem (diferencia maiúsculas de minúsculas) e que use o mesmo canal. Caso contrário, você verá alertas sobre atividades após a importação. Abra cada atividade afetada e selecione ou crie a configuração de canal correta.
 
-   * **Esquemas de armazenamento relacional e conjuntos de dados** — se sua campanha depender de um determinado modelo de dados, esquema de plano e ordem de exportação/importação do conjunto de dados, as dependências existirão quando você precisar (a exportação de um conjunto de dados normalmente extrai necessidades de esquema relacionadas, a exportação de um esquema sozinho não inclui seu conjunto de dados). Observe que os conjuntos de dados importados não são ativados automaticamente para Campanhas orquestradas — você deve ativá-los manualmente na sandbox de destino após a importação.
+  * **Esquemas de armazenamento relacional e conjuntos de dados** — se sua campanha depender de um determinado modelo de dados, esquema de plano e ordem de exportação/importação do conjunto de dados, as dependências existirão quando você precisar (a exportação de um conjunto de dados normalmente extrai necessidades de esquema relacionadas, a exportação de um esquema sozinho não inclui seu conjunto de dados). Observe que os conjuntos de dados importados não são ativados automaticamente para Campanhas orquestradas — você deve ativá-los manualmente na sandbox de destino após a importação.
 
-   * **Regras de negócio e objetos de política semelhantes** — Eles não estão incluídos na exportação de campanha orquestrada. Se a campanha depender deles, confirme se eles existem na sandbox de destino ou recrie-os lá.
+  * **Regras de negócio e objetos de política semelhantes** — Eles não estão incluídos na exportação de campanha orquestrada. Se a campanha depender deles, confirme se eles existem na sandbox de destino ou recrie-os lá.
 
-   * **Dimensão de destino do perfil** — A dimensão de destino do perfil não está incluída na exportação. Se não existir na sandbox do target, as atividades correspondentes na campanha orquestrada importada estarão vazias até que você as configure manualmente.
+  * **Dimensão de destino do perfil** — A dimensão de destino do perfil não está incluída na exportação. Se não existir na sandbox do target, as atividades correspondentes na campanha orquestrada importada estarão vazias até que você as configure manualmente.
 
 +++
 
@@ -165,9 +161,9 @@ Antes de importar para a produção, lembre-se dos seguintes comportamentos e li
 
 * Os objetos abaixo devem estar presentes na sandbox de destino antes de copiar objetos do Decisioning:
 
-   * Atributos de perfil usados em objetos de Decisão,
-   * O grupo de campos de atributos de oferta personalizados,
-   * Os esquemas de sequências de dados usados para atributos de contexto em regras, classificação ou limite.
+  * Atributos de perfil usados em objetos de Decisão,
+  * O grupo de campos de atributos de oferta personalizados,
+  * Os esquemas de sequências de dados usados para atributos de contexto em regras, classificação ou limite.
 
 * No momento, não há suporte para cópia de sandbox para fórmulas de classificação com Modelos de IA.
 
@@ -205,7 +201,7 @@ Antes de importar para a produção, lembre-se dos seguintes comportamentos e li
 
 +++
 
-+++ Jornada fragmentos
++++ Fragmentos da jornada
 
 * [Fragmentos de Jornada](../building-journeys/journey-fragments.md) (conjuntos reutilizáveis de nós de jornada) têm suporte para a ferramenta Sandbox. Ao exportar um fragmento de jornada, seu estado de rascunho mais recente é copiado para a sandbox de destino.
 
