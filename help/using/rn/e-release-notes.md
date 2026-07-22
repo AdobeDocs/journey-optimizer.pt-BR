@@ -7,18 +7,13 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0a3b2daf72066c8a558bfd5b3239b68919e080b0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 3b7773c624102e7529f3ee3b8fe8a570a6cd2852
 workflow-type: tm+mt
-source-wordcount: 2466
-ht-degree: 19%
+source-wordcount: 2054
+ht-degree: 18%
 
 ---
 
@@ -32,7 +27,7 @@ O Adobe Journey Optimizer fornece de forma contínua novos recursos, melhorias p
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -137,55 +132,59 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão.
 
 ### Campanhas orquestradas {#july-26-oc}
 
-Os recursos e melhorias a seguir foram adicionados às campanhas orquestradas nesta versão.
+A seguinte melhoria foi adicionada às campanhas orquestradas nesta versão.
 
+* **Exibir permissão de Transições de Campanha Orquestradas** - Adicionada uma nova permissão **Exibir Transições de Campanha Orquestradas** para substituir a opção herdada **Exibir Arquivo em Campanhas Orquestradas**. Essa alteração permite ocultar os resultados de visualização nas transições da campanha para oferecer suporte à conformidade com informações de identificação pessoal. ([DOCAC-14924](https://jira.corp.adobe.com/browse/DOCAC-14924))
+
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Suporte Quiet Hours para campanhas orquestradas</strong><br/></th>
+<th><strong>Quiet Hours support for orchestrated campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode aplicar horas de silêncio a campanhas orquestradas. As horas de silêncio permitem definir exclusões com base no tempo para evitar que as mensagens sejam enviadas durante períodos específicos, ajudando você a respeitar as preferências do cliente e os requisitos de conformidade em casos de uso de orquestração de campanha.</p>
+<p>You can now apply quiet hours to Orchestrated campaigns. Quiet hours let you define time-based exclusions to prevent messages from being sent during specific periods, helping you respect customer preferences and compliance requirements across campaign orchestration use cases.</p>
 <p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-14054">DOCAC-14054</a></p>
-<!-- Documentation link: TBD -->
+<Documentation link: TBD>
 </td>
 </tr>
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Modo de simulação de canais de entrada de campanhas de ação</strong><br/></th>
+<th><strong>Action campaigns inbound channels simulation mode</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível simular ações de canal de entrada em Campanhas de ação antes de entrar em atividade. Use o modo de simulação para testar sua configuração com usuários simulados e visualizar a experiência renderizada, incluindo um URL gerado e um código QR, para que você possa validar regras, decisões e renderização de conteúdo de ponta a ponta.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<!-- GIF placeholder: to be added -->
+<p>You can now simulate inbound channel actions in Action campaigns before going live. Use simulation mode to test your configuration with simulated users and preview the rendered experience, including a generated URL and QR code, so you can validate rules, decisioning, and content rendering end-to-end.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<GIF placeholder: to be added>
 <p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-15166">DOCAC-15166</a></p>
-<!-- Documentation link: TBD -->
+<Documentation link: TBD>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Capacidade de Gerenciar Dimensões de Destino do Perfil** - Agora é possível excluir um Dimension de Destino do Perfil ou editar e trocar seu namespace de identidade configurado, fornecendo maior controle e flexibilidade sobre as configurações de dados. ([DOCAC-15018](https://jira.corp.adobe.com/browse/DOCAC-15018)) <!-- Documentation link: TBD -->
+* **Ability to Manage Profile Target Dimensions** - You can now delete a Profile Target Dimension or edit and swap its configured identity namespace, providing greater control and flexibility over your data setups. ([DOCAC-15018](https://jira.corp.adobe.com/browse/DOCAC-15018)) 
 
-* **Exibir permissão de Transições de Campanha Orquestradas** - Adicionada uma nova permissão **Exibir Transições de Campanha Orquestradas** para substituir a opção herdada **Exibir Arquivo em Campanhas Orquestradas**. Essa alteração permite ocultar os resultados de visualização nas transições da campanha para oferecer suporte à conformidade com informações de identificação pessoal. ([DOCAC-14924](https://jira.corp.adobe.com/browse/DOCAC-14924)) <!-- Documentation link: TBD -->
+* **Support for Line** - You can now add LINE actions directly into your Orchestrated campaigns. This new activity allows you to build and deliver highly personalized content, including text, stickers, images, videos, location data, and rich Flex Messages, to engage your customers seamlessly on the LINE platform. This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative. ([DOCAC-14905](https://jira.corp.adobe.com/browse/DOCAC-14905))
 
-* **Suporte para Linha** - Agora é possível adicionar ações LINE diretamente nas campanhas Orquestradas. Essa nova atividade permite criar e fornecer conteúdo altamente personalizado, incluindo texto, adesivos, imagens, vídeos, dados de localização e mensagens avançadas do Flex, para envolver seus clientes perfeitamente na plataforma LINE. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe. ([DOCAC-14905](https://jira.corp.adobe.com/browse/DOCAC-14905)) <!-- Documentation link: TBD -->
+* **New Orchestrated campaigns public APIs** - New API specifications are now available for Orchestrated campaigns. These APIs allow you to programmatically create, manage, and trigger orchestrated campaigns, enabling deeper integration with external systems and automation pipelines. ([DOCAC-14308](https://jira.corp.adobe.com/browse/DOCAC-14308))
 
-* **Novas APIs públicas de campanhas orquestradas** - Novas especificações de API agora estão disponíveis para campanhas orquestradas. Essas APIs permitem criar, gerenciar e acionar campanhas orquestradas de forma programática, permitindo uma integração mais profunda com sistemas externos e pipelines de automação. ([DOCAC-14308](https://jira.corp.adobe.com/browse/DOCAC-14308)) <!-- Documentation link: TBD -->
+* **Personalize email sender details per recipient and campaign** - Orchestrated campaigns now support personalization of email header fields, including From name, From address, and Reply-To, using profile attributes or relational data. This allows sender details to reflect the relevant advisor, location, or branch for each recipient, rather than routing all sends through a single corporate address. Header values can be set at the channel level and overridden per campaign using contextual data for more precise control. ([DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)) Documentation link: TBD 
 
-* **Personalizar detalhes do remetente de email por destinatário e campanha** - As campanhas orquestradas agora oferecem suporte à personalização de campos de cabeçalho de email, incluindo Nome do remetente, Endereço do remetente e Responder para, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o consultor, o local ou a filial relevante para cada destinatário, em vez de encaminhar todos os envios por meio de um único endereço corporativo. Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso. ([DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)) <!-- Documentation link: TBD -->
+* **Target dimension simplification in Orchestrated campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level. ([DOCAC-13554](https://jira.corp.adobe.com/browse/DOCAC-13554))
 
-* **Simplificação da dimensão de público alvo em campanhas orquestradas** - A dimensão de direcionamento ativa agora é mostrada na tela do fluxo de trabalho, para que você possa ver qual dimensão é usada por uma atividade de canal. O fluxo de segmentação de várias entidades é mais simples, pois você não precisa mais de uma atividade &quot;Alterar dimensão&quot; separada. Além disso, agora você pode escolher explicitamente se as mensagens são enviadas no nível do perfil ou em um nível de dimensão secundário. ([DOCAC-13554](https://jira.corp.adobe.com/browse/DOCAC-13554)) <!-- Documentation link: TBD -->
+-->
 
 ### Campanhas {#july-26-campaigns}
 
@@ -234,6 +233,9 @@ As seguintes melhorias foram adicionadas ao gerenciamento de conteúdo nesta ver
 * **&quot;Assistente de IA&quot; renomeado para &quot;Gerar conteúdo&quot;** - O Assistente de IA foi renomeado para Gerar conteúdo em toda a Adobe Journey Optimizer. Esta atualização está limitada à nomenclatura e terminologia; nenhuma alteração funcional foi introduzida. Rótulos de navegação, botões, menus e caixas de diálogo para geração de conteúdo, geração de imagem, expressões de personalização e experimentação de conteúdo foram renomeados de &quot;Assistente de IA&quot; para &quot;Gerar conteúdo&quot;. ([DOCAC-15230](https://jira.corp.adobe.com/browse/DOCAC-15230)) <!-- Documentation link: TBD -->
 
 * **Origem flexível de imagens para a geração de conteúdo de IA** - A geração de conteúdo no Journey Optimizer agora origina imagens aprovadas pela marca diretamente do Adobe Experience Manager Assets Essentials e superior. Três modos controlam o equilíbrio: Assets (Gerenciamento de ativos digitais-fonte, padrão), Balanceado (Gerenciamento de ativos digitais-primeiro, IA preenche lacunas) e Creative (AI-primeiro). Isso garante que cada visual seja preciso, compatível com a marca e pronto para produção para jornadas e campanhas. ([DOCAC-14761](https://jira.corp.adobe.com/browse/DOCAC-14761)) <!-- Documentation link: TBD -->
+
+* **Melhorias multilíngues** - As configurações de idioma agora podem ser duplicadas de uma configuração ativa existente, portanto, você não precisa mais recompilar totalmente uma configuração para fazer alterações. Você também pode copiar uma condição de um local para outro enquanto cria Configurações de idioma, simplificando a configuração para sites com muitos idiomas.
+([DOCAC-15268](https://jira.corp.adobe.com/browse/DOCAC-15268))
 
 <!--
 ### Integrations {#july-26-integrations}
