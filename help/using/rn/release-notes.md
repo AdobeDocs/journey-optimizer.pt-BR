@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+source-git-commit: 690a8a3354c13e39ee12d9e30c981841d43f71c7
 workflow-type: tm+mt
-source-wordcount: 3064
-ht-degree: 74%
+source-wordcount: 3115
+ht-degree: 72%
 
 ---
 
@@ -55,7 +55,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Verificação de conteúdo no Designer de email</strong><br/></th>
+<th><strong>Verificação de conteúdo no Designer de email (disponibilidade geral)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -95,6 +95,8 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 * **Novas ferramentas do servidor MCP do AJO** - O servidor MCP [!DNL Adobe Journey Optimizer] agora expõe cinco **ferramentas de configuração de canal** adicionais somente leitura, permitindo que você consulte configurações de canal, recursos de suporte e ações de marketing diretamente do seu assistente de IA. Agora você pode usar **Configurações de Canal de Lista** (em todos os canais da AJO), **Obter Configuração de Canal**, **Recursos de Configuração de Lista**, **Obter Recurso de Configuração** e **Ações de Marketing de Lista**. [Leia mais](../integrations/ajo-mcp.md#mcp-tools)
 
   Data de disponibilidade: 9 de julho de 2026
+
+* **Medidas de proteção de TTL (Time-to-live) do conjunto de dados — sandboxes existentes** - A medida de proteção TTL (time-to-live) para conjuntos de dados gerados pelo sistema da Journey Optimizer (90 dias no repositório de perfis, 13 meses no data lake) será aplicada em **sandboxes e organizações de clientes existentes** a partir de **1 de outubro de 2026**. [Saiba mais](../data/datasets-ttl.md#ttl-guardrail)
 
 
 ### Melhorias de usabilidade {#july-26-usability}
@@ -353,7 +355,7 @@ As seguintes melhorias foram adicionadas ao canal de email nesta versão.
 <table>
 <thead>
 <tr>
-<th><strong>Verificação de conteúdo no Designer de email</strong><br/></th>
+<th><strong>Verificação de conteúdo no Designer de email (disponibilidade limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
