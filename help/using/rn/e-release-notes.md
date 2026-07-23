@@ -7,17 +7,12 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 172fcd6cd79efb57005f8872439e9547afeeb84a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 5370e707b0b2b6f50a10c6b4aba9108ceb621dee
 workflow-type: tm+mt
-source-wordcount: 2178
+source-wordcount: 2191
 ht-degree: 17%
 
 ---
@@ -32,7 +27,7 @@ O Adobe Journey Optimizer fornece de forma contínua novos recursos, melhorias p
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -136,7 +131,7 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão.
 </tbody>
 </table>
 
-* **Suporte a documentos de públicos externos (valores separados por vírgulas e Composição de Público Federado) na Simulação de Jornada** - A Simulação de Jornada agora oferece suporte a Públicos Externos. Ao simular jornadas direcionadas a valores separados por vírgula ou públicos-alvo de Composição de público federado, você pode simular atributos de enriquecimento desses públicos-alvo diretamente pelo formulário da interface ou por uma importação de JSON. A interface do usuário exibe dinamicamente apenas os atributos específicos de enriquecimento usados na lógica de jornada, permitindo a validação precisa das ramificações de decisão e regras de personalização antes da ativação. ([DOCAC-15074](https://jira.corp.adobe.com/browse/DOCAC-15074)) <!-- Documentation link: TBD -->
+* **Suporte a documentos de públicos externos Composição de Público Federado na Simulação de Jornada** - A Simulação de Jornada agora oferece suporte a Públicos Externos. Ao simular jornadas direcionadas a públicos-alvo de Composição de público-alvo federado, você pode simular atributos de enriquecimento desses públicos-alvo diretamente pelo formulário da interface ou por uma importação de JSON. A interface do usuário exibe dinamicamente apenas os atributos específicos de enriquecimento usados na lógica de jornada, permitindo a validação precisa das ramificações de decisão e regras de personalização antes da ativação. ([DOCAC-15074](https://jira.corp.adobe.com/browse/DOCAC-15074)) <!-- Documentation link: TBD -->
 
 * **Datas de início e término no cabeçalho da jornada** - Quando as datas de início e/ou término são configuradas em uma jornada em tempo real, elas agora são exibidas no cabeçalho da jornada ao lado da notificação de status em tempo real. O rótulo exibido se adapta com base no fato de cada data ser futura ou já ter passado. ([DOCAC-14702](https://jira.corp.adobe.com/browse/DOCAC-14702)) <!-- Documentation link: TBD -->
 
@@ -183,14 +178,16 @@ Os recursos e melhorias a seguir foram adicionados às campanhas nesta versão.
 <table>
 <thead>
 <tr>
-<th><strong>Anexo personalizado do PDF para mensagens transacionais em campanhas acionadas por API</strong><br/></th>
+<th><strong>Anexos personalizados do PDF em emails acionados por API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível anexar até cinco PDFs dinâmicos e personalizados por email em campanhas transacionais acionadas por API transmitindo os locais de arquivo na carga da API. Isso permite que setores como a aviação enviem cartões de embarque ou confirmações de viagem, serviços financeiros para entregar faturas ou demonstrativos individualizados e varejo para incluir recibos de pedidos ou rótulos de devolução — cada documento personalizado para o destinatário no momento do envio.</p>
-<p>Anexos personalizados e estáticos do PDF compartilham a mesma cota; exceder o limite de uso aceitável exige o complemento de anexo do PDF. Este recurso não está disponível em campanhas de jornada ou ação.</p>
+<p>O Journey Optimizer agora é compatível com a anexação de até cinco PDFs específicos do recipient por email em campanhas acionadas por API. Os arquivos do PDF são buscados com segurança do armazenamento do Azure ou do AWS e anexados no momento do envio, com o local de cada arquivo transmitido diretamente na carga da API. Isso permite que os sistemas de geração de documentos upstream existentes permaneçam em vigor, com o Journey Optimizer lidando com a entrega.</p>
+<p>Os casos de uso suportados incluem faturas, demonstrativos, tíquetes, contratos, etiquetas de remessa e documentos semelhantes que variam de acordo com o recipient. Os anexos personalizados do PDF estão disponíveis somente em campanhas acionadas por API e não são compatíveis com jornadas ou outros tipos de campanha (ação, orquestrada).</p>
+<p>Volumes e tamanhos de anexo maiores são suportados por meio do complemento de anexo do PDF; para obter mais informações, entre em contato com o representante da Adobe.</p>
+<p></p>
 <p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-15186">DOCAC-15186</a></p>
 <!-- Documentation link: TBD -->
 </td>
@@ -231,7 +228,11 @@ As seguintes melhorias foram adicionadas à Decisão nesta versão.
 
 * **Simulação de regras de decisão e fórmulas de classificação** - Agora é possível simular suas regras de decisão e fórmulas de classificação diretamente do editor de regras ou fórmulas. Adicione variantes de teste manuais ou gere-as usando IA e, em seguida, execute a expressão com base nos dados de teste para validar a qualificação e revisar os resultados classificados, tudo antes de implantar na produção. A geração de variantes está disponível para clientes com acesso aos recursos do Adobe AI. ([DOCAC-15227](https://jira.corp.adobe.com/browse/DOCAC-15227)) <!-- Documentation link: TBD -->
 
-* **Atributos de oferta dinâmicos** - Os atributos personalizados do item de decisão agora podem ser personalizados no momento da entrega usando dados de perfil, contextuais e de público-alvo. Isso elimina a necessidade de manter ofertas duplicadas para pequenas variações de conteúdo, permitindo que os profissionais de marketing gerenciem menos itens de decisão e mais flexíveis. ([DOCAC-14899](https://jira.corp.adobe.com/browse/DOCAC-14899)) <!-- Documentation link: TBD -->
+* **Personalization no nível da oferta** - Os atributos personalizados do item de decisão agora podem ser personalizados no momento da entrega usando dados de perfil, contextuais e de público-alvo. Isso elimina a necessidade de manter ofertas duplicadas para pequenas variações de conteúdo, permitindo que os profissionais de marketing gerenciem menos itens de decisão e mais flexíveis. ([DOCAC-14899](https://jira.corp.adobe.com/browse/DOCAC-14899)) <!-- Documentation link: TBD -->
+
+<!--
+* **Placement-level frequency capping in Decisioning** - Frequency capping rules in Decisioning can now be scoped to individual placements, giving you finer control over how often an offer is shown in a given surface. Two modes are available: placement-specific capping (define a cap that applies only when the offer is displayed in a selected placement) and per-placement capping (apply a cap independently across every placement where the offer appears, so each placement maintains its own capping counter). ([DOCAC-14980](https://jira.corp.adobe.com/browse/DOCAC-14980)) Documentation link: TBD
+-->
 
 ### Gerenciamento de conteúdo {#july-26-content}
 
