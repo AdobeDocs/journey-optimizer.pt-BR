@@ -5,10 +5,10 @@ title: Marcas
 description: Saiba como criar, gerenciar e personalizar as diretrizes da marca no Journey Optimizer para garantir conteúdo consistente com a marca em todas as suas campanhas.
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
-source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+source-git-commit: 5a6126fd6a71b964c4169279333b65a38f652517
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 86%
 
 ---
 
@@ -60,3 +60,7 @@ Saiba como criar e gerenciar modelos personalizados de IA generativa, treinados 
 :::
 
 ::::
+
+## Recursos adicionais
+
+- **[Faça o curso: Criação de conteúdo sob marca e baseado em IA](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}** - Saiba como criar conteúdo sob marca no Adobe Journey Optimizer para profissionais de marketing usando ferramentas alimentadas por IA.

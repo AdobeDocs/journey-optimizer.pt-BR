@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: a6e1475f564d55fed4868313ebf63578d862e44d
 workflow-type: tm+mt
-source-wordcount: 3115
-ht-degree: 72%
+source-wordcount: 2984
+ht-degree: 71%
 
 ---
 
@@ -234,13 +234,6 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 * **Limite de jornadas ativas aumentado e novas medidas de proteção**: agora é possível ter até **200 jornadas ativas**, número maior que o limite anterior de 100. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
 
   Data de disponibilidade: 18 de junho de 2026. Esse recurso será gradualmente distribuído a todas as regiões nos próximos dias.
-
-
-+++ Em breve — **as informações abaixo estão sujeitas a alterações.**
-
-* **Datas de início e fim no cabeçalho da jornada**: quando as datas de início e/ou fim são configuradas em uma jornada ativa, elas agora são exibidas no **cabeçalho da jornada** ao lado do emblema de status ativo. O rótulo exibido se adapta com base no fato de cada data ser futura ou já ter passado.
-
-+++
 
 ### Campanhas orquestradas {#june-26-oc}
 
@@ -491,12 +484,6 @@ As seguintes melhorias estão chegando às mensagens por dispositivo móvel nest
 * **SMS - exibir métricas de uso**: para clientes que compram SMS diretamente pelo Adobe Journey Optimizer, foi introduzido um novo **painel de uso de SMS**. Agora é possível visualizar e acompanhar os últimos 90 dias de métricas de envio de mensagens, categorizadas por mensagens Originadas por dispositivos móveis (MO) e Terminadas por dispositivos móveis (MT). Esses dados também estão disponíveis para download via CSV, o que fornece maior visibilidade e controle sobre o gasto com SMS. [Saiba mais](../mobile/sms-usage-report.md)
 
 * **Relatório de Cliques Estimados para SMS** - Uma nova métrica de Cliques Estimados agora está disponível em Jornadas, Campanhas e Relatórios de canal para email e SMS. Essa métrica exclui o tráfego identificado de bots e de interação não humana (NHI) para fornecer uma visão mais clara do engajamento genuíno do cliente. A métrica Cliques existente permanece disponível e continua a relatar o total de cliques.
-
-+++ Em breve — **as informações abaixo estão sujeitas a alterações.**
-
-* **Canal LINE - alterações de criação**: a interface do canal LINE foi atualizada com recursos avançados de criação de mensagens. Esta versão apresenta suporte para **vários formatos de mensagem**, incluindo Texto, Imagem, Imagemap, Carrossel e Flex (Editor JSON), além de visualizações de dispositivo em tempo real. Os usuários agora podem gerenciar mensagens agrupadas com até cinco mensagens ordenadas (com controles para adicionar, remover e reordenar) e aproveitar o editor de personalização integrado para criar mensagens dinâmicas e validadas.
-
-+++
 
 ### Melhorias de usabilidade {#june-26-usability}
 
