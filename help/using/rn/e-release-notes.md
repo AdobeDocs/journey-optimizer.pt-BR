@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 63f671017bc011f67a2ee918430dc6af97eeb47a
+source-git-commit: bcbca3a179b2cb5c686f1afd04fa9e9e611c9720
 workflow-type: tm+mt
-source-wordcount: 2039
+source-wordcount: 2036
 ht-degree: 15%
 
 ---
@@ -134,7 +134,7 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão.
 </tbody>
 </table>
 
-* **Suporte a documentos de públicos externos na Simulação de Jornada** - A Simulação de Jornada agora oferece suporte a Públicos Externos. Ao simular jornadas direcionadas a públicos-alvo de CSV ou Composição de público-alvo federado, você pode simular atributos de enriquecimento desses públicos-alvo diretamente pelo formulário da interface ou por uma importação de JSON. A interface do usuário exibe dinamicamente apenas os atributos específicos de enriquecimento usados na lógica de jornada, permitindo a validação precisa das ramificações de decisão e regras de personalização antes da ativação. <!-- Documentation link: TBD -->
+* **Públicos-alvo externos na Simulação de Jornada** - A Simulação de Jornada agora oferece suporte a Públicos-alvo Externos. Ao simular jornadas direcionadas a públicos-alvo de CSV ou Composição de público-alvo federado, você pode simular atributos de enriquecimento desses públicos-alvo diretamente pelo formulário da interface ou por uma importação de JSON. A interface do usuário exibe dinamicamente apenas os atributos específicos de enriquecimento usados na lógica de jornada, permitindo a validação precisa das ramificações de decisão e regras de personalização antes da ativação. <!-- Documentation link: TBD -->
 
 ### Campanhas {#july-26-campaigns}
 
