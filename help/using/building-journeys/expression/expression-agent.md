@@ -12,7 +12,7 @@ badge: label="Beta público" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: aa4b97e1d655d9110ae0652caa244b3f4342dc2f
+source-git-commit: 6456977344b51cb595b4c7f6db992a588c0b059f
 workflow-type: tm+mt
 source-wordcount: 1090
 ht-degree: 2%
@@ -134,6 +134,6 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **P: O que acontece se o assistente não puder gerar uma expressão válida?** — Uma mensagem de erro é exibida; você deve revisar seu prompt para usar nomes de campos e fontes de dados existentes na configuração do jornada.
 * **P: Como inserir uma expressão gerada no editor?** — Clique no botão **Aplicar** no painel assistente para inseri-lo diretamente na posição atual do cursor no editor de expressão avançado.
 * **P: O Assistente de Expressão pode gerar `dateTimeOnly` expressões para atividades de Espera?** — Sim; por exemplo, solicitar &quot;daqui a 30 dias às 22h como somente data e hora&quot; gera a expressão `dateTimeOnly` apropriada.
-* **P: O Assistente de Expressão está disponível?** — Não; atualmente está em beta público. Verifique a página do ciclo de lançamento do Journey Optimizer para obter atualizações de disponibilidade.
+* **P: O Assistente de Expressão está disponível?** — Não, atualmente está em beta público. Verifique a página do ciclo de lançamento do Journey Optimizer para obter atualizações de disponibilidade.
 
 +++
