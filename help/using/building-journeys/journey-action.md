@@ -11,29 +11,15 @@ keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de co
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bc9286066f929a4ea23a6218544ed173e8e5822e
 workflow-type: tm+mt
-source-wordcount: 2428
+source-wordcount: 2506
 ht-degree: 16%
 
 ---
@@ -59,6 +45,7 @@ Use a atividade **Ação** para:
 
 * Configure qualquer ação de canal integrada em uma única interface simplificada.
 * Combine várias experiências de entrada em um [grupo de várias ações](#multi-action).
+* Adicione vários canais de saída a uma única ação e use a [otimização de canal](channel-optimization.md) para selecionar automaticamente o melhor canal por cliente (Disponibilidade limitada).
 * Aplique [otimização](../content-management/gs-message-optimization.md), [conteúdo multilíngue](../content-management/multilingual-gs.md) e configurações específicas de canal a qualquer ação.
 
 >[!NOTE]
@@ -125,6 +112,12 @@ Para adicionar uma ação de canal interna à sua jornada usando a atividade **[
    ![Guia Ações no menu Administração mostrando ações personalizadas e do Adobe](assets/journey-action-actions-tab.png)
 
 1. Se você selecionou um canal de entrada, é possível adicionar várias ações. [Saiba mais](#multi-action)
+
+1. Se você selecionou um canal de saída (Email, Push, SMS), poderá adicionar vários canais e usar a otimização de canal para selecionar automaticamente o melhor canal por cliente. [Saiba mais](channel-optimization.md)
+
+   >[!AVAILABILITY]
+   >
+   >Este recurso é oferecido com disponibilidade limitada. Entre em contato com seu representante da Adobe para ativá-lo para sua organização.
 
 1. Configure sua atividade de acordo com o canal selecionado. Diretrizes de configuração detalhadas estão disponíveis nos links abaixo.
 
@@ -251,7 +244,7 @@ A entrega rápida é usada quando um atraso na entrega das mensagens seria crít
 
 Saiba como habilitar o modo de entrega rápida para notificações por push [nesta página](../push/create-push.md#rapid-delivery).
 
-Para obter mais informações sobre desempenho ao usar o modo de entrega rápida, consulte [[!DNL Adobe Journey Optimizer] descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Para obter mais informações sobre desempenho ao usar o modo de entrega rápida, consulte [[!DNL Adobe Journey Optimizer] descrição do produto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
@@ -292,7 +285,7 @@ Para simplificar a orquestração de jornadas, é possível definir várias aç�
 
 >[!NOTE]
 >
->Essa capacidade só está disponível para canais de entrada. No momento, não há suporte para canais de saída como email.
+>Essa capacidade está disponível para canais de entrada. Para canais de saída (Email, Push, SMS), use a [otimização de canal](channel-optimization.md) para adicionar vários canais e selecionar automaticamente o melhor canal por cliente.
 
 Essa capacidade permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, Cartões de conteúdo ou ações da Web para diferentes locais ao mesmo tempo, sem a necessidade de criar várias ações de jornada. Ele facilita a implantação da jornada e permite relatórios mais suaves, com todos os dados consolidados em uma única jornada.
 
@@ -354,8 +347,8 @@ Em vez de usar os recursos de mensagem incorporados, você pode usar ações per
 
 * Se estiver trabalhando com o Adobe Campaign, consulte estas seções:
 
-   * [[!DNL Journey Optimizer] e o Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
+  * [[!DNL Journey Optimizer] e o Campaign v7/v8](../action/acc-action.md)
+  * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
 
 +++ Referência de conhecimento de IA
 
