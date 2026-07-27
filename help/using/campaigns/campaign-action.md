@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: e7d1cdab43de134214a122f9d7f0a537721c7890
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 31%
+source-wordcount: 939
+ht-degree: 30%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 31%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** configure a ação de campanha selecionando uma configuração de canal e canal juntamente com a otimização e o conteúdo multilíngue, e adicione várias ações de entrada para que sua campanha forneça as experiências certas em todos os canais.
+**Nesta página:** configure a ação de campanha selecionando uma configuração de canal e canal juntamente com a otimização e o conteúdo multilíngue, adicione várias ações de entrada ou use a otimização de canal para selecionar automaticamente o melhor canal de saída para cada cliente, de modo que a campanha forneça as experiências certas entre canais.
 
 >[!ENDSHADEBOX]
 
@@ -58,6 +58,8 @@ Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal 
    >Os canais disponíveis variam com base no modelo de licenciamento e nos complementos.
 
    Se você selecionar um canal de entrada (experiência baseada em código, mensagem no aplicativo, Cartão de conteúdo ou ação da Web), poderá adicionar mais ações de entrada, para um total de até 10 ações em uma única campanha. [Saiba como](#multi-action)
+
+   Se você selecionar vários canais de saída (Email, Push, SMS), poderá usar a otimização de canal para selecionar automaticamente o melhor canal para cada cliente no momento do envio. [Saiba como](../building-journeys/channel-optimization.md)
 
 1. **Selecionar uma configuração de canal**
 
@@ -129,7 +131,7 @@ Para simplificar a orquestração de campanhas, você pode definir várias açõ
 
 >[!NOTE]
 >
->Esse recurso só está disponível para canais de entrada. No momento, não há suporte para canais de saída como email.
+>Esse recurso só está disponível para canais de entrada. Para canais de saída (Email, Push, SMS), use a [otimização de canal](../building-journeys/channel-optimization.md) para selecionar automaticamente o melhor canal por cliente.
 
 Esse recurso permite que você forneça várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da Web a diferentes locais ao mesmo tempo, sem a necessidade de criar várias campanhas. Isso facilita a implantação da sua campanha e permite relatórios mais suaves, com todos os dados consolidados em uma única campanha.
 

@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2b5248d7f364eb3c9505d2e844f4b8ab9dce1dac
+source-git-commit: 2a1d483312229bdb89b89794dbe1d8d817037e5b
 workflow-type: tm+mt
-source-wordcount: 2469
+source-wordcount: 2387
 ht-degree: 2%
 
 ---
@@ -101,6 +101,9 @@ Para alternar para a nova experiência, clique no botão **[!UICONTROL Nova expe
 
 ![](assets/journey-new-experience-switch.png)
 
+Assista a este vídeo para obter uma visão geral da nova experiência da tela de jornada:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496197?captions=por_br)
 
 ## Inicie sua jornada {#start-your-journey}
 

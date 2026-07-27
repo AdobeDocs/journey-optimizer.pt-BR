@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a6e1475f564d55fed4868313ebf63578d862e44d
+source-git-commit: f23df2811c8d5a756b4a928ebfbd775cacc892ac
 workflow-type: tm+mt
-source-wordcount: 2984
-ht-degree: 71%
+source-wordcount: 3115
+ht-degree: 69%
 
 ---
 
@@ -51,6 +51,31 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 ## Atualizações de julho de 2026 {#july-26-updates}
 
 ### Novos recursos {#july-26-new-capabilities}
+
+<table>
+<thead>
+<tr>
+<th><strong>Otimização de canal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode configurar uma ação do jornada para incluir vários canais de saída (Email, Push, SMS) e permitir que o Journey Optimizer forneça automaticamente por meio do melhor canal para cada cliente. Três modos de otimização estão disponíveis:</p>
+<ul>
+<li>Classificação manual: especifique a ordem de canal de sua preferência.</li>
+<li>Preferência do cliente: use o canal de preferência do cliente em seu perfil (atributo Consentimentos e preferências do modelo de dados de experiência).</li>
+<li>Classificação baseada em modelo de IA: use pontuações de propensão de aprendizado de máquina para inferir o canal mais eficaz por cliente.</li>
+</ul>
+<p>Quando o canal mais bem classificado estiver indisponível (não aceito, com limite de frequência ou não configurado), o sistema voltará para o próximo canal disponível.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p><img src="assets/do-not-localize/channel-optimization.gif"></p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/channel-optimization.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 22 de julho de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
