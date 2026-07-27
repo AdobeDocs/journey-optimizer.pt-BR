@@ -6,15 +6,21 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '669'
 ht-degree: 4%
 
 ---
 
 
 # Introdução a canais personalizados {#get-started-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba o que são canais personalizados no Adobe Journey Optimizer, como eles se comparam às ações personalizadas e o fluxo de trabalho geral para trazer qualquer ponto de extremidade HTTP de saída para o AJO para que você possa usá-lo em campanhas, jornadas e campanhas orquestradas.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

@@ -5,15 +5,21 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '984'
 ht-degree: 1%
 
 ---
 
 
 # Monitorar canais personalizados {#monitor-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como gerenciar o ciclo de vida de seus canais personalizados e monitorar o desempenho da entrega por meio dos relatórios prontos para uso da Adobe Journey Optimizer, incluindo métricas como entregas bem-sucedidas, erros e cliques em links.
+
+>[!ENDSHADEBOX]
 
 Depois que um canal personalizado é criado e ativado, você pode [gerenciar seu ciclo de vida](create-custom-channel.md#access-channel-builder) e monitorar o desempenho da entrega por meio da interface [!DNL Journey Optimizer].
 

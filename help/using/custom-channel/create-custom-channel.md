@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1575'
 ht-degree: 1%
 
 ---
 
 
 # Configurar um canal personalizado {#create-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como criar um canal personalizado no Adobe Journey Optimizer usando o Construtor de Canais, definindo a URL do ponto de extremidade, os cabeçalhos, a autenticação, a política de limitação e a estrutura de conteúdo da mensagem.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_settings"
@@ -88,9 +94,9 @@ Para criar um novo canal personalizado, siga as etapas abaixo.
 
 Você deve configurar o endpoint, que é o URL HTTP do seu sistema de mensagens externo. [!DNL Journey Optimizer] envia uma solicitação POST para este ponto de extremidade com a carga personalizada quando um perfil é qualificado em uma campanha ou jornada.
 
-![Configuração de ponto de extremidade](assets/custom_channel_endpoint_configuration.png){width="70%"}
+![Configuração de ponto de extremidade](assets/custom_channel_endpoint_configuration.png){width="80%"}
 
-1. Na seção **[!UICONTROL Configuração de ponto de extremidade]**, insira o host **[!UICONTROL URL]** do sistema de mensagens externo.
+1. Na seção **[!UICONTROL Configuração de ponto de extremidade]**, insira o host **[!UICONTROL URL]** do sistema de mensagens externo. Por exemplo: `https://api.my-messaging-provider.com/v1/messages`.
 
    <!--The HTTP method to is currently set to **POST**.-->
 
@@ -105,7 +111,7 @@ Você deve configurar o endpoint, que é o URL HTTP do seu sistema de mensagens 
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![Configuração de cabeçalhos](assets/custom_channel_endpoint_headers.png)
+   ![Configuração de cabeçalhos](assets/custom_channel_endpoint_headers.png){width="70%"}
 
    Para cada cabeçalho, é possível definir se o valor é:
 
@@ -135,7 +141,7 @@ Você deve configurar o endpoint, que é o URL HTTP do seu sistema de mensagens 
 
 Selecione o **[!UICONTROL Tipo de autenticação]** que você precisa usar para este canal. As opções disponíveis dependem dos métodos de autenticação compatíveis com seu sistema de mensagens externo.
 
-![Tipo de autenticação](assets/custom_channel_authentication_type.png){width="70%"}
+![Tipo de autenticação](assets/custom_channel_authentication_type.png){width="85%"}
 
 Forneça os detalhes de autenticação, conforme exigido pelo seu endpoint.
 
@@ -165,7 +171,17 @@ Na configuração de carga, defina a estrutura da carga da mensagem e quais camp
 
 1. Clique em **[!UICONTROL Definir carga]** e escolha como definir a carga:
 
-   * **[!UICONTROL Colar carga JSON de amostra]** - Cole um objeto JSON representativo e [!DNL Journey Optimizer] infere automaticamente um esquema dele.
+   * **[!UICONTROL Colar carga JSON de amostra]** - Cole um objeto JSON representativo e [!DNL Journey Optimizer] infere automaticamente um esquema dele. Por exemplo:
+
+     ```json
+     {
+       "channelId": "KakaoTalk08",
+       "title": "Flash Sale: 48 Hours Only",
+       "body": "New arrivals just dropped. Shop now before they're gone!",
+       "image": "https://demo-system-next.s3.amazonaws.com/assets/luma/luma-flash-sale-banner.jpg"
+     }
+     ```
+
    * **[!UICONTROL Importar esquema JSON]** (em breve) - Carregue um arquivo de esquema JSON completo.
 
      >[!AVAILABILITY]
@@ -174,7 +190,7 @@ Na configuração de carga, defina a estrutura da carga da mensagem e quais camp
 
 1. Depois que o esquema é gerado, [!DNL Journey Optimizer] exibe todos os campos detectados em um modo de exibição de formulário.
 
-   ![](assets/custom_channel_payload_configuration.png)
+   ![Configuração de carga](assets/custom_channel_payload_configuration.png){width="80%"}
 
 1. Para cada campo, defina as seguintes configurações:
 

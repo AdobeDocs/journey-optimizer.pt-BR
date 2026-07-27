@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '383'
 ht-degree: 2%
 
 ---
 
 
 # Criar uma configuração de canais {#create-channel-config}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar uma configuração de canal para um canal personalizado no Adobe Journey Optimizer, vinculando-o às credenciais de API, a um subdomínio opcional e aos padrões de carga, para que os profissionais de marketing possam selecioná-lo ao criar campanhas e jornadas.
+
+>[!ENDSHADEBOX]
 
 Uma configuração de canal vincula seu canal personalizado a uma predefinição nomeada e reutilizável que os profissionais de marketing selecionam ao criar campanhas e jornadas.
 

@@ -6,15 +6,21 @@ topic: Content Management
 role: User
 level: Experienced
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1001'
 ht-degree: 5%
 
 ---
 
 
 # Criar experiências de canal personalizadas {#create-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como adicionar um canal personalizado a uma campanha de jornada, campanha ou campanha orquestrada no Adobe Journey Optimizer e como criar cargas de mensagens personalizadas usando o editor de expressão.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -52,7 +58,7 @@ Para adicionar uma ação de canal personalizado a uma jornada:
 
 1. No menu suspenso **[!UICONTROL Ação]**, selecione o canal personalizado que deseja usar. Os canais personalizados são listados pelo nome e ícone atribuídos no Construtor de canais.
 
-   ![](assets/custom_channel_journey_action.png){width="80%"}
+   ![Seleção de ação de canal personalizada na tela de jornada](assets/custom_channel_journey_action.png){width="80%"}
 
 1. Adicione um rótulo à sua ação, clique em **[!DNL Configure action]** no painel direito e selecione a **[!UICONTROL Configuração de canal]** a ser usada. [Saiba como criar uma configuração de canal personalizada](custom-channel-configuration.md#create-channel-config)
 
@@ -75,9 +81,11 @@ Para usar um canal personalizado em uma campanha:
 
 1. Na seção **[!UICONTROL Actions]**, selecione o canal personalizado no seletor de canais. Todos os canais personalizados configurados na sandbox aparecem junto com canais nativos.
 
-   ![](assets/custom_channel_campaign_action.png){width="80%"}
+   ![Seleção de ação personalizada de campanha](assets/custom_channel_campaign_action.png){width="80%"}
 
 1. Selecione ou crie a **[!UICONTROL Configuração de canal]** a ser usada. [Saiba como criar uma configuração de canal](custom-channel-configuration.md#create-channel-config)
+
+   ![Seleção de configuração de canal personalizado](assets/custom_channel_campaign_action_config.png){width="80%"}
 
 1. Como opção, habilite o **[!UICONTROL Rastreamento de ação]** para rastrear automaticamente os links incluídos na carga da sua mensagem (requer um subdomínio configurado para canais personalizados). [Saiba como delegar um subdomínio para canais personalizados](custom-channel-subdomains.md#subdomain-delegation)
 
@@ -112,7 +120,7 @@ To add a custom channel in an orchestrated campaign:
 
 O editor de conteúdo reflete a estrutura de carga útil que você definiu ao configurar o canal personalizado. Clique em **[!UICONTROL Editar código]** para abrir o editor de carga e inserir o conteúdo da mensagem.
 
-![](assets/custom_channel_payload_editor.png){width="80%"}
+![Editor de conteúdo do canal personalizado](assets/custom_channel_payload_editor.png){width="80%"}
 
 Os campos que você pode criar e personalizar são exibidos. Você pode aproveitar o editor de personalização do [!DNL Journey Optimizer] com todos os seus recursos de personalização e criação. [Saiba mais](../personalization/personalization-build-expressions.md)
 
@@ -139,17 +147,32 @@ Os recursos de personalização completa de [!DNL Journey Optimizer] estão disp
 >
 >Atualmente não há validação da carga no momento da criação. Você pode usar o recurso **[!UICONTROL Simular conteúdo]** para validar se sua carga é JSON bem formada e se todas as expressões de personalização são resolvidas corretamente para seus perfis de teste. [Saiba mais](test-custom-channel.md#simulate-content)
 
-### Exemplo de carga útil {#example-payload}
-
-O exemplo a seguir mostra uma carga JSON com personalização de perfil para um canal de mensagens personalizado <!--(to be replaced with a meaningful realistic example)-->:
+Os seguintes exemplos mostram cargas JSON com personalização de perfil:
 
 ```json
 {
-  "recipient_id": "{{profile.mobilePhone.number}}",
-  "message_text": "Hello {{profile.person.name.firstName}}, your order {{context.journey.events.0.commerce.order.purchaseID}} has been confirmed.",
-  "channel": "my-custom-channel",
+  "message": {
+    "template": "Limited offer just for you, {{profile.person.name.firstName}}!",
+    "header": "You have a FREE drink when you buy a King menu!"
+  },
+  "campaign_ref": {
+    "id": "2grjya",
+    "type": "loyalty",
+    "url": "/companies/wNmRsLbu/campaigns/wallet/2grjya"
+  }
+}
+```
+
+```json
+{
+  "messaging_product": "mess",
+  "recipient_type": "individual",
+  "to": "{{profile.mobilePhone.number}}",
+  "zipCode": 4001,
+  "type": "image",
   "image": {
-    "id": "{{profile.preferences.imageId | default('default-image-001')}}"
+    "id": "1479537139650973",
+    "caption": "The best succulent ever?"
   }
 }
 ```
@@ -170,17 +193,19 @@ Para incluir um link rastreado na carga do canal personalizado, de modo que os c
 >
 >O rastreamento de link requer um subdomínio configurado para canais personalizados. [Saiba como delegar um subdomínio para canais personalizados](custom-channel-subdomains.md#subdomain-delegation)
 
-**Exemplo - link rastreado em uma carga do LINE:**
+**Exemplo - link rastreado em uma carga do Viber:**
 
 ```json
 {
-  "to": "{{profile.mobilePhone.number}}",
-  "messages": [
-    {
-      "type": "text",
-      "text": "Hello! Check out our latest offer: {{url trackedUrl='' originalUrl='https://example.com/' type='TRACKED'}}"
-    }
-  ]
+  "receiver": "{{profile.mobilePhone.number}}",
+  "min_api_version": 1,
+  "sender": {
+    "name": "Luma Rewards",
+    "avatar": "https://avatar.example.com"
+  },
+  "tracking_data": "{{profile.person.name.firstName}}",
+  "type": "text",
+  "text": "Hello {{profile.person.name.firstName}}! Discover our new collection: {{url trackedUrl='' originalUrl='https://luma.com/collection' type='TRACKED'}}"
 }
 ```
 
