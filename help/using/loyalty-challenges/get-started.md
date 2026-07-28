@@ -9,9 +9,8 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: ad21aab9b3f0ead95f8c70d4315bd4afdda23d58
 workflow-type: tm+mt
 source-wordcount: 942
 ht-degree: 13%
@@ -20,8 +19,6 @@ ht-degree: 13%
 
 # Introdução aos desafios de fidelidade {#get-started-loyalty-challenges}
 
-## Visão geral {#overview}
-
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="Desafios de fidelidade"
@@ -29,7 +26,9 @@ ht-degree: 13%
 
 >[!AVAILABILITY]
 >
->* O Journey Optimizer Loyalty não está disponível atualmente para clientes do Healthcare Shield e do Privacy and Security Shield. A disponibilidade para clientes do Healthcare Shield e do Privacy and Security Shield será atualizada quando os recursos estiverem prontos.
+>O Journey Optimizer Loyalty não está disponível atualmente para clientes do Healthcare Shield e do Privacy and Security Shield. A disponibilidade para clientes do Healthcare Shield e do Privacy and Security Shield será atualizada quando os recursos estiverem prontos.
+
+## Visão geral {#overview}
 
 Os Desafios de Fidelidade permitem criar programas de fidelidade envolventes e gamificados que impulsionam o comportamento do cliente e aprofundam os relacionamentos com a marca. Crie desafios que recompensem os clientes por ações específicas, desde fazer compras e escrever avaliações até se envolver com redes sociais e indicar a amigos.
 
@@ -159,7 +158,7 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar desafios de fidelidade</strong></a>
     </div>
     <p>
@@ -172,3 +171,4 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
 ## Referência da API {#api-reference}
 
 Para gerenciar desafios de fidelidade de forma programática, use a [API de Desafios de Fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}. A API permite criar, atualizar e gerenciar desafios e tarefas por meio de endpoints REST.
+
