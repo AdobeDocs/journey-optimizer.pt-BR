@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 549
 ht-degree: 5%
@@ -43,11 +43,11 @@ Para integração de conectores e configuração completa, consulte [Introduçã
 
 Desafie públicos, personalização e relatórios que usam perfis na classe **[!DNL XDM Individual Profile]**. Alinhe a identidade [namespace](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces){target="_blank"} que você usa para Desafios de Fidelidade com a forma como os membros são identificados nos dados do seu perfil e com o namespace selecionado em **[!UICONTROL Configurações globais]** no menu **[!UICONTROL Administrador de fidelidade]**.
 
-Para atributos de fidelidade padrão no perfil (pontos, camada, programa, status e campos relacionados), use o grupo de campos de esquema **[Detalhes de Fidelidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** do Experience Platform. Esse grupo de campos define o objeto `loyalty` e suas propriedades (por exemplo, `points`, `tier`, `program` e `status`).
+Para atributos de fidelidade padrão no perfil (pontos, camada, programa, status e campos relacionados), use o grupo de campos de esquema **[Detalhes de Fidelidade](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** do Experience Platform. Esse grupo de campos define o objeto `loyalty` e suas propriedades (por exemplo, `points`, `tier`, `program` e `status`).
 
-➡️ [Grupo de campos de esquema de Detalhes de Fidelidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [Grupo de campos de esquema de Detalhes de Fidelidade](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
-➡️ [Dicionário de esquemas do AJO](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}
+➡️ [Dicionário de esquemas do AJO](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en){target="_blank"}
 
 ### Eventos de experiência {#experience-events}
 
@@ -70,3 +70,4 @@ O Journey Optimizer aplica medidas de proteção TTL a muitos conjuntos de dados
 >[!NOTE]
 >
 >A configuração de fidelidade no nível da organização pode incluir configurações de arquivamento e retenção (por exemplo, duração do arquivamento) gerenciadas pelo serviço de metadados de fidelidade. Entre em contato com o administrador do Adobe se precisar ajustar a retenção para sua organização.
+

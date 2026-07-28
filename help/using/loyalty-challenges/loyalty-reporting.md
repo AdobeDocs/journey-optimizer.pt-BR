@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 511
 ht-degree: 0%
@@ -89,3 +89,4 @@ Cada cartão contém uma **marca de categoria** que identifica a qual parte do p
 | **Produto** | Desempenho do catálogo de produtos, incluindo exibições, resgates e tendências no nível do catálogo |
 | **Ciclo de vida do membro** | Como os membros avançam nos estágios de inscrição, engajamento e churn |
 | **Tendência** | Padrões com base no tempo, como ciclos semanais, picos sazonais ou reversões de tendência |
+

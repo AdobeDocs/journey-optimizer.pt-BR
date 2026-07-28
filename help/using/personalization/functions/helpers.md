@@ -6,13 +6,12 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: cfd54ee08abb8ef6dbeaeb8ca079e0d19cd329a5
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1188
-ht-degree: 3%
+source-wordcount: 1329
+ht-degree: 4%
 
 ---
 
@@ -217,6 +216,89 @@ O exemplo a seguir permite calcular a soma total dos preços dos produtos no car
         {%/if%}
     {{/each}}
 {{sum}}
+```
+
+## Anular {#abort}
+
+>[!AVAILABILITY]
+>
+>Este recurso está atualmente com a Disponibilidade Limitada.
+
+O auxiliar `abort` interrompe a entrega da mensagem quando ela é atingida durante a renderização.
+
+Use um bloco condicional como `{%#if%}` para controlar quando o auxiliar é executado. Quando `abort` é executado, a entrega é anulada.
+
+**Sintaxe**
+
+```handlebars
+{{abort code='code' description='description'}}
+```
+
+**Parâmetros**
+
+| Parâmetro | Descrição |
+| --- | --- |
+| `code` | Código de interrupção opcional incluído no erro gerado. |
+| `description` | Motivo para anulação opcional legível por humanos. |
+
+**Exemplo**
+
+```handlebars
+{%#if profile.person.email = ""%}
+  {{abort code='ERR_001' description='Missing email'}}
+{%/if%}
+Hello {{profile.person.name.firstName}}!
+```
+
+Neste exemplo, a renderização continua quando `email` está presente. Quando a condição é atendida, a entrega é anulada com os `code` e `description` fornecidos.
+
+## Analisar JSON {#parse-json}
+
+O auxiliar `parseJson` analisa uma cadeia de caracteres JSON e armazena o objeto analisado em uma variável de modelo para que você possa acessar campos diretamente em expressões de personalização.
+
+**Sintaxe**
+
+```handlebars
+{{parseJson jsonStr=jsonStringPath result="variableName"}}
+```
+
+**Parâmetros**
+
+| Parâmetro | Descrição |
+| --- | --- |
+| `jsonStr` | A sequência de caracteres JSON a ser analisada. Pode ser uma referência de dados ou uma cadeia de caracteres JSON literal. |
+| `result` | O nome da variável que armazena o objeto analisado. |
+
+**Exemplo**
+
+```handlebars
+{{parseJson jsonStr=targetResponse.options.content result="offerContent"}}
+{{offerContent.title}}
+```
+
+## Valor no caminho {#value-at-path}
+
+O auxiliar `valueAtPath` atribui um valor de um caminho de dados a uma variável de modelo. Opcionalmente, você pode usar um índice para extrair um elemento específico de matrizes ou coleções.
+
+**Sintaxe**
+
+```handlebars
+{{valueAtPath path idx=indexPath result="value"}}
+```
+
+**Parâmetros**
+
+| Parâmetro | Descrição |
+| --- | --- |
+| `path` | O caminho de origem do qual o valor será extraído (parâmetro posicional). |
+| `idx` | Índice com base em 0 opcional usado para extrair um elemento específico de uma matriz ou coleção. |
+| `result` | O nome da variável que armazena o valor extraído. |
+
+**Exemplo**
+
+```handlebars
+{{valueAtPath targetResponse.prefetch.mboxes idx=0 result="firstMbox"}}
+{{firstMbox.name}}
 ```
 
 ## URL {#url}

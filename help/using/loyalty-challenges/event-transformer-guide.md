@@ -11,7 +11,7 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 1708
 ht-degree: 1%
@@ -683,4 +683,5 @@ Sem `utc_offset`, a correspondência da janela daypart e a contagem de sequênci
 Para eventos DCCS, o transformador recebe apenas o corpo `xdmEntity`, não o envelope externo do AJO. Todos os caminhos devem ser relativos à raiz da entidade XDM. Se sua expressão referenciar campos que residem no envelope externo (por exemplo, `/body/xdmMeta/...`), eles não serão encontrados e produzirão silenciosamente um valor nulo.
 
 +++
+
 

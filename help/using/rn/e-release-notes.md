@@ -7,18 +7,13 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1960
-ht-degree: 14%
+source-wordcount: 1772
+ht-degree: 15%
 
 ---
 
@@ -32,7 +27,7 @@ O Adobe Journey Optimizer fornece de forma contínua novos recursos, melhorias p
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -296,25 +291,6 @@ The following improvements have been added to integrations in this release.
 As seguintes melhorias foram adicionadas à personalização nesta versão.
 
 * **Gerenciar domínios para personalização completa/básica da URL** - Agora é possível criar e gerenciar domínios aprovados para personalização completa e básica da URL diretamente das configurações de Administração no Adobe Journey Optimizer, sem precisar entrar em contato com o Suporte da Adobe. <!-- Documentation link: TBD -->
-
-* **Novas funções auxiliares em expressões de personalização** - Novas funções auxiliares agora estão disponíveis em expressões de personalização:
-
-  * `appendQueryParams`: anexa um parâmetro de consulta a uma URL ou a substitui se a chave já existir.
-  * `dateBetween`: Verifica se uma data está dentro de um intervalo de datas inicial e final (inclusive).
-  * `equalsAnyIgnoreCase`: retorna verdadeiro quando uma cadeia de caracteres corresponde a qualquer valor fornecido, ignorando maiúsculas e minúsculas.
-  * `getUrlFragment`: Extrai a parte do fragmento de uma URL (a parte após #).
-  * `join`: Concatena elementos de matriz em uma única cadeia de caracteres usando um separador.
-  * `decode64`: Decodifica uma cadeia de caracteres codificada em Base64. Se a entrada não for Base64 válida, a cadeia de caracteres de entrada original será retornada inalterada.
-  * `parseJson`: analisa uma cadeia de caracteres JSON em uma variável estruturada que pode ser usada no modelo.
-  * `valueAtPath`: atribui um valor de um caminho de dados a uma variável de modelo, com indexação opcional para extrair um elemento específico de matrizes ou coleções.
-
-  A função `concat` também foi aprimorada e agora dá suporte a dois ou mais argumentos.
-
-  Além disso, as seguintes Funções de migração de modelo agora estão disponíveis para ajudar na migração de modelos existentes para o Journey Optimizer:
-
-  * `ampCompare`: compara dois valores usando o operador de comparação especificado.
-  * `ampSubstr`: retorna uma parte de uma cadeia de caracteres entre os índices de início e término especificados.
-  * `compareTo`: compara duas cadeias de caracteres lexicograficamente.
 
 <!-- Documentation link: TBD -->
 

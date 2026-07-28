@@ -7,18 +7,14 @@ role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 TQID: https://experienceleague.adobe.com/J-aZtYitBu8T4oSwTwKNNDeA-7tA4l8Wi5YZ1WLcT3E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1762
+source-wordcount: 1811
 ht-degree: 5%
 
 ---
@@ -281,6 +277,29 @@ Your points have expired.
 Saída (exemplo): `Your points expire in 7 days — use them before they're gone!`
 
 +++
+
+## Data entre {#date-between}
+
+A função `dateBetween` verifica se uma determinada data está entre uma data inicial e uma data final, inclusive em ambos os limites.
+
+**Sintaxe**
+
+```sql
+{%= dateBetween(date, startDate, endDate) %}
+```
+
+| Argumento | Descrição |
+| --------- | ----------- |
+| `date` | Data para avaliação. |
+| `startDate` | Data inicial do intervalo (inclusiva). |
+| `endDate` | Data final do intervalo (inclusiva). |
+
+++Exemplo
+
+* Entrada: `{%= dateBetween(stringToDate("2024-06-15T00:00:00Z"), stringToDate("2024-06-01T00:00:00Z"), stringToDate("2024-06-30T00:00:00Z")) %}`
+* Saída: `true`
+
+++
 
 ## Dia do mês {#day-month}
 
@@ -765,7 +784,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Truncar para o início do dia {#truncate-day}
 
-A função `truncateToStartOfDay` é usada para modificar uma determinada data-hora definindo-a como o início do dia com a hora definida como 00:00.
+A função `truncateToStartOfDay` é usada para modificar uma determinada data-hora, definindo-a para o início do dia com a hora definida como 00:00.
 
 **Sintaxe**
 
@@ -782,7 +801,7 @@ A função `truncateToStartOfDay` é usada para modificar uma determinada data-h
 
 ## truncateToStartOfQuarter {#truncate-quarter}
 
-A função `truncateToStartOfQuarter` é usada para truncar uma data-hora para o primeiro dia de seu trimestre (por exemplo, 1º de janeiro, 1º de abril, 1º de julho, 1º de outubro) em 00:00.
+A função `truncateToStartOfQuarter` é usada para truncar uma data e hora no primeiro dia de seu trimestre (por exemplo, 1° de janeiro, 1° de abril, 1° de julho, 1° de outubro) às 00:00.
 
 **Sintaxe**
 
@@ -816,7 +835,7 @@ A função `truncateToStartOfWeek` modifica uma determinada data-hora definindo-
 
 ## truncateToStartOfYear {#truncate-year}
 
-A função `truncateToStartOfYear` é usada para modificar uma determinada data-hora, truncando-a para o primeiro dia do ano (1º de janeiro) em 00:00.
+A função `truncateToStartOfYear` é usada para modificar uma determinada data-hora, truncando-a para o primeiro dia do ano (1º de janeiro) às 00:00.
 
 **Sintaxe**
 
