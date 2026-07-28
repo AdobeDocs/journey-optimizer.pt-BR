@@ -9,11 +9,10 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 942
 ht-degree: 13%
 
 ---
@@ -56,6 +55,9 @@ Você pode criar estes tipos de experiências de desafio:
   *Exemplo: &quot;Nova Jornada de Membro&quot; - Inscreva-se para receber emails → Faça sua primeira compra → Escreva uma análise do produto → Indique um amigo (complete nesta ordem exata)*
 
 * **Traga seus próprios desafios de dados** (disponibilidade restrita): a estrutura de desafios (tarefas e recompensas) é montada a partir da integração de dados dos Desafios de Fidelidade. Defina Configurações, Conteúdo e Mensagens da mesma maneira que faria para qualquer outro tipo de desafio.
+
+>[!TIP]
+>Você também pode criar e gerenciar desafios de fidelidade usando o **Gerenciamento de Desafio de Fidelidade** na [Habilidades de Jornada do CX Co-worker](../start/ajo-coworker-skills.md#loyalty-challenge-management) com prompts de linguagem natural para a criação mais rápida de desafios.
 
 ## Como funciona {#how-it-works}
 
@@ -156,7 +158,7 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar desafios de fidelidade</strong></a>
     </div>
     <p>
