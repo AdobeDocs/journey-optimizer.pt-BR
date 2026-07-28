@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2a1d483312229bdb89b89794dbe1d8d817037e5b
+source-git-commit: 0dec5d89bcb690861013208818d5011428478b12
 workflow-type: tm+mt
 source-wordcount: 2387
 ht-degree: 2%
@@ -112,7 +112,6 @@ Quando você cria sua jornada, a primeira pergunta que deseja fazer é como os p
 Há duas possibilidades:
 
 1. **Iniciar com um evento**: quando uma jornada é definida para ouvir eventos, os indivíduos entram na jornada **unitariamente** em tempo real. As mensagens incluídas na jornada são enviadas à pessoa que atualmente flui para a jornada. [Saiba mais sobre eventos](../event/about-events.md)
-
 1. **Comece com um Público-alvo de Leitura**: você pode configurar sua jornada para ouvir [!DNL Adobe Experience Platform] públicos-alvo. Nesse caso, todos os indivíduos pertencentes ao público-alvo especificado entram na jornada. As mensagens incluídas na sua jornada são enviadas aos indivíduos que pertencem ao público. Saiba mais sobre [ler público](read-audience.md). Para obter mais informações sobre como gerar e direcionar públicos no Journey Optimizer, consulte [esta seção](../audience/about-audiences.md).
 
 ## Definir as próximas etapas{#define-next-steps}

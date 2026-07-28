@@ -20,9 +20,9 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 4fb27cfb9c9e0b0e808a9f1a389aa9cc8ab3f732
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: 544
 ht-degree: 10%
 
 ---
@@ -52,7 +52,11 @@ Para garantir desempenho e consistência ideais, o Decisioning impõe as seguint
 
 * **Tipos de dados com suporte**
 
-  Por enquanto, a Decisão suporta exclusivamente os seguintes tipos de dados: String, Integer, Boolean, Date, DateTime, Decisioning Asset e Object. Qualquer campo fora desses tipos de dados não estará disponível para uso ao criar um item de decisão ou um catálogo.
+  Por enquanto, a Decisão suporta exclusivamente os seguintes tipos de dados: String, Integer, Boolean, Date, DateTime, Decisioning Asset, Decisioning Content e Object. Qualquer campo fora desses tipos de dados não estará disponível para uso ao criar um item de decisão ou um catálogo.
+
+  >[!NOTE]
+  >
+  >Para disponibilizar um campo para personalização, selecione o tipo **[!UICONTROL Conteúdo de Decisão]**. [Saiba mais](#access-catalog-schema)
 
 * **Limite de atributo personalizado**
 
@@ -79,11 +83,17 @@ Para acessar o schema do catálogo em que os atributos dos itens de decisão sã
 
    ![Botão Adicionar atributo personalizado no editor de esquema](assets/catalogs-add.png)
 
-1. Preencha os campos necessários para o atributo adicionado e clique em **[!UICONTROL Aplicar]**.
+1. Preencha os campos necessários para o atributo adicionado.
+
+1. Para disponibilizar um atributo personalizado para personalização, selecione o tipo de **[!UICONTROL Conteúdo de Decisão]**. Isso permitirá definir o valor do atributo no momento do delivery usando os dados de perfil, contexto, jornada e público-alvo. [Saiba mais](items.md#personalization-attributes)
+
+   ![Propriedades do novo campo de atributo do esquema do catálogo](assets/catalogs-new-attribute-type.png){width=35%}
+
+1. Clique em **[!UICONTROL Aplicar]**.
 
    O valor inserido em um atributo com um atributo de ativo de decisão é um URL público. Na maioria das vezes, isso apontaria para uma imagem. Informações detalhadas sobre como trabalhar com esquemas [!DNL Adobe Experience Platform] estão disponíveis na [documentação do Sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR).
 
-1. Depois que os atributos personalizados desejados forem adicionados, salve o esquema. O novo campo agora está disponível na tela de criação do item de decisão, na seção **[!UICONTROL Atributos personalizados]**.
+1. Depois que os atributos personalizados desejados forem adicionados, salve o esquema. O novo campo agora está disponível na tela [criação de item de decisão](items.md#attributes), na seção **[!UICONTROL Atributos personalizados]**.
 
    O exemplo abaixo mostra uma tela de criação de item com atributos personalizados, como objetos definidos no esquema.
 

@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 4556e8b50fe71cf9d703d034a3c5772b8fea9d33
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 9%
+source-wordcount: '398'
+ht-degree: 8%
 
 ---
 
 
 # Configurar um canal personalizado {#custom-channel-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** obtenha uma visão geral das quatro etapas que um administrador deve concluir para configurar um canal personalizado no Adobe Journey Optimizer: criação do canal, gerenciamento de credenciais de API, delegação opcional de um subdomínio para rastreamento de link e criação de uma configuração de canal para profissionais de marketing.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

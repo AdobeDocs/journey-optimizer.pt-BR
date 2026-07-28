@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: a5db996df4b53b5c4a7a0d737f97fe49753d1fbd
+source-git-commit: 7a318389cb8979479218e1c68895ea2ff112d427
 workflow-type: tm+mt
-source-wordcount: '3479'
+source-wordcount: '3473'
 ht-degree: 95%
 
 ---
@@ -116,7 +116,6 @@ ht-degree: 95%
     + [Criar expressões](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
     + [Trabalhar com o editor de expressão avançado](using/building-journeys/expression/expressionadvanced.md)
     + [Gerar expressões com IA](using/building-journeys/expression/generate-expression.md)
-    + {hide-from-toc}[Gerar expressões com o Assistente de Expressão](using/building-journeys/expression/expression-agent.md)
     + Sintaxe {#syntax}
       + [Sintaxe](/help/rp_landing_pages/syntax-landing-page.md)
       + [Sintaxe do editor de expressão avançado](using/building-journeys/expression/generalities.md)
