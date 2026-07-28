@@ -7,58 +7,17 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="Beta privado" type="Informative"
-mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 1203
-ht-degree: 10%
+source-wordcount: 1104
+ht-degree: 9%
 
 ---
 
 # Criar tarefas {#create-tasks}
-
->[!BEGINSHADEBOX]
-
-**Sumário**
-
-[Introdução aos desafios de fidelidade](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Criar e gerenciar desafios**
-
-* [Acessar e gerenciar desafios e tarefas](access-loyalty-challenges.md)
-* [Criar desafios](create-challenges.md)
-* **Criar tarefas** ◀︎ **Você está aqui**
-* [Monitorar o desempenho de desafio de fidelidade](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**Configurar e integrar**
-
-* [Configurar desafios de fidelidade](loyalty-admin.md)
-* [Guia de definição de recompensa](reward-definition-guide.md)
-* [Guia do Transformador de eventos](event-transformer-guide.md)
-* [Dados e conjuntos de dados de fidelidade](loyalty-data-and-datasets.md)
-* [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Este recurso está atualmente em **beta privado**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
 
 As tarefas definem as ações ou marcos específicos que os clientes devem concluir para ganhar recompensas em um desafio de fidelidade. Você pode configurar tarefas de compras e gastos, ou tarefas de **[!UICONTROL Eventos personalizados]** que rastreiam eventos de experiência do Adobe Experience Platform que sua organização já captura.
 

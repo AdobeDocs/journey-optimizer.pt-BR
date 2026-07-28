@@ -7,15 +7,13 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1708
 ht-degree: 1%
 
 ---
@@ -60,10 +58,6 @@ ht-degree: 1%
 </table>
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Este recurso está atualmente em **beta privado**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade em [!DNL Journey Optimizer], consulte [ciclo de lançamento](../rn/releases.md).
 
 Para que uma transação de cliente possa ser aplicada a um desafio de fidelidade, ela deve estar no formato **Evento de Fidelidade do Adobe** que o Serviço de Desafio compreenda. Os eventos do cliente — de um sistema de PDV, um aplicativo móvel, uma plataforma de comércio eletrônico ou qualquer outra fonte — normalmente usam o esquema de dados do próprio cliente. **Transformadores de Eventos** fazem a ponte dessa lacuna sem exigir alterações no sistema upstream.
 

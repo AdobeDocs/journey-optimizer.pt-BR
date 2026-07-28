@@ -6,10 +6,10 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 0ccd65f3e2f37c7893e81ab0a94ee4842cd4565d
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: '3479'
-ht-degree: 95%
+source-wordcount: '3489'
+ht-degree: 94%
 
 ---
 
@@ -149,16 +149,19 @@ ht-degree: 95%
     + [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
     + [Usar ações personalizadas para gravar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
 + Desafios de fidelidade {#loyalty-challenges}
-  + {hide-from-toc}[Introdução aos Desafios de fidelidade](using/loyalty-challenges/get-started.md)
-  + {hide-from-toc}[Acessar e gerenciar desafios e tarefas](using/loyalty-challenges/access-loyalty-challenges.md)
-  + {hide-from-toc}[Criar desafios](using/loyalty-challenges/create-challenges.md)
-  + {hide-from-toc}[Criar tarefas](using/loyalty-challenges/create-tasks.md)
-  + {hide-from-toc}[Monitorar o desempenho do desafio de fidelidade](using/loyalty-challenges/loyalty-reporting.md)
-  + {hide-from-toc}[Configurar desafios de fidelidade](using/loyalty-challenges/loyalty-admin.md)
-  + {hide-from-toc}[Guia de Definição de Premiação](using/loyalty-challenges/reward-definition-guide.md)
-  + {hide-from-toc}[Guia do transformador de eventos](using/loyalty-challenges/event-transformer-guide.md)
-  + {hide-from-toc}[Dados e conjuntos de dados de fidelidade](using/loyalty-challenges/loyalty-data-and-datasets.md)
-  + {hide-from-toc}[Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
+  + [Introdução aos desafios de fidelidade](using/loyalty-challenges/get-started.md)
+  + Criar e gerenciar desafios {#create-manage-challenges}
+    + [Acessar e gerenciar desafios e tarefas](using/loyalty-challenges/access-loyalty-challenges.md)
+    + [Criar desafios](using/loyalty-challenges/create-challenges.md)
+    + [Criar tarefas](using/loyalty-challenges/create-tasks.md)
+    + [Monitorar o desempenho de desafio de fidelidade](using/loyalty-challenges/loyalty-reporting.md)
+  + Configurar e integrar {#configure-integrate-loyalty}
+    + [Configurar desafios de fidelidade](using/loyalty-challenges/loyalty-admin.md)
+    + [Guia de definição de recompensa](using/loyalty-challenges/reward-definition-guide.md)
+    + [Guia do Transformador de eventos](using/loyalty-challenges/event-transformer-guide.md)
+    + [Permissões para desafios de fidelidade](using/loyalty-challenges/loyalty-permissions.md)
+    + [Dados e conjuntos de dados de fidelidade](using/loyalty-challenges/loyalty-data-and-datasets.md)
+    + [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + Campanhas {#campaigns}
   + {hide-from-toc}[Campanhas](/help/rp_landing_pages/campaigns-landing-page.md)
   + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)

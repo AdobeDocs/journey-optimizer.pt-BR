@@ -7,15 +7,13 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 00c24e9b97b4f6597048731858f3bfbcb39a0030
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: 1183
 ht-degree: 3%
 
 ---
@@ -60,10 +58,6 @@ ht-degree: 3%
 </table>
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Este recurso está atualmente em **beta privado**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade em [!DNL Journey Optimizer], consulte [ciclo de lançamento](../rn/releases.md).
 
 Quando uma tarefa de desafio, marco ou desafio é concluído **e tem um valor de recompensa configurado**, a plataforma emite uma recompensa ao chamar o ponto de extremidade HTTP do seu provedor de recompensa com uma carga JSON. Uma **Definição de Recompensa** descreve qual recompensa deve ser emitida e fornece uma expressão [JSONata](https://docs.jsonata.org/overview) — `rewardJsonata` — que molda a carga exata que seu provedor espera.
 

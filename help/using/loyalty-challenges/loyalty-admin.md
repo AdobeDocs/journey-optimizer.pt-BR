@@ -7,60 +7,17 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="Beta privado" type="Informative"
-mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 1834
+source-wordcount: 1755
 ht-degree: 15%
 
 ---
 
 # Configurar desafios de fidelidade {#loyalty-admin}
-
-<!-- Unpublished draft: Loyalty Admin UI documentation is not validated for Experience League. This page uses hide: true until review. -->
-
->[!BEGINSHADEBOX]
-
-**Sumário**
-
-[Introdução aos desafios de fidelidade](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Criar e gerenciar desafios**
-
-* [Acessar e gerenciar desafios e tarefas](access-loyalty-challenges.md)
-* [Criar desafios](create-challenges.md)
-* [Criar tarefas](create-tasks.md)
-* [Monitorar o desempenho de desafio de fidelidade](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**Configurar e integrar**
-
-* **Configurar desafios de fidelidade** ◀︎ **Você está aqui**
-* [Guia de definição de recompensa](reward-definition-guide.md)
-* [Guia do Transformador de eventos](event-transformer-guide.md)
-* [Dados e conjuntos de dados de fidelidade](loyalty-data-and-datasets.md)
-* [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Este recurso está atualmente em **beta privado**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade em [!DNL Journey Optimizer], consulte [ciclo de lançamento](../rn/releases.md).
 
 ## Visão geral {#access-loyalty-admin}
 
@@ -305,7 +262,7 @@ Para fazer upload das exclusões, siga estas etapas:
 
    ![](assets/admin-exclusions-upload.png)
 
-1. Revise os dados importados na lista de exclusões. A lista mostra uma linha por item. A coluna **[!UICONTROL Grupos incluídos em]** mostra todos os grupos de exclusão desse item como uma pílula ou várias pílulas quando o item pertence a vários grupos.
+1. Revise os dados importados na lista de exclusões. A lista mostra uma linha por item. Os **[!UICONTROL Grupos incluídos na coluna]**&#39;s&#39;ows todos os grupos de exclusão desse item como um comprimido, ou várias pílulas quando o item pertence a vários grupos.
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 

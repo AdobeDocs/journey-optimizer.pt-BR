@@ -7,62 +7,21 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="Beta privado" type="Informative"
-mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 592
-ht-degree: 4%
+source-wordcount: 511
+ht-degree: 0%
 
 ---
 
 # Monitorar o desempenho de desafio de fidelidade {#loyalty-reporting}
 
->[!BEGINSHADEBOX]
-
-**Sumário**
-
-[Introdução aos desafios de fidelidade](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Criar e gerenciar desafios**
-
-* [Acessar e gerenciar desafios e tarefas](access-loyalty-challenges.md)
-* [Criar desafios](create-challenges.md)
-* [Criar tarefas](create-tasks.md)
-* **Monitorar o desempenho do desafio de fidelidade** ◀︎ **Você está aqui**
-
-</td>
-<td style="vertical-align:top;">
-
-**Configurar e integrar**
-
-* [Configurar desafios de fidelidade](loyalty-admin.md)
-* [Guia de definição de recompensa](reward-definition-guide.md)
-* [Guia do Transformador de eventos](event-transformer-guide.md)
-* [Dados e conjuntos de dados de fidelidade](loyalty-data-and-datasets.md)
-* [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Este recurso está atualmente em **beta privado**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
-
 Use os relatórios de Desafios de fidelidade para ver o desempenho de seus desafios. Verifique quem está se inscrevendo, quem está concluindo os desafios e quanta receita seu programa está gerando — tudo em um só lugar. Os dados vêm do Adobe Customer Journey Analytics.
 
-Para abrir os painéis de relatórios, vá para **[!UICONTROL Desafios de Fidelidade (Beta)]** no Journey Optimizer e selecione **[!UICONTROL Relatórios de fidelidade]** na navegação à esquerda.
+Para abrir os painéis de relatórios, vá para **[!UICONTROL Desafios de Fidelidade]** no Journey Optimizer e selecione **[!UICONTROL Relatórios de fidelidade]** na navegação à esquerda.
 
 A interface de relatórios tem duas guias:
 
