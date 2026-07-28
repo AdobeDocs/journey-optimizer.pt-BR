@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 7a318389cb8979479218e1c68895ea2ff112d427
+source-git-commit: 0ccd65f3e2f37c7893e81ab0a94ee4842cd4565d
 workflow-type: tm+mt
-source-wordcount: '3473'
+source-wordcount: '3479'
 ht-degree: 95%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 95%
 + [Documentação do Journey Optimizer](ajo-home.md)
 + Novidades {#whats-new}
   + [Ciclo da lançamento](using/rn/releases.md)
-  + [Notas de pré-lançamento](using/rn/e-release-notes.md)
+  + {hide-from-toc}[Notas de pré-lançamento](using/rn/e-release-notes.md)
   + [Notas de versão mais recentes](using/rn/release-notes.md)
   + Notas de versão anteriores {#previous-rn-new}
     + {hide-from-toc}[Notas de versão anteriores](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -32,7 +32,7 @@ ht-degree: 95%
   + [Atualizações na documentação](using/rn/documentation-updates.md)
   + {hide-from-toc}[Tela da jornada aprimorada](using/rn/new-canvas.md)
   + {hide-from-toc}[Migrar públicos em lotes da Qualificação de público-alvo](using/building-journeys/aq-batch-audiences-migration.md)
-  + {hide-from-toc}[Orientação da CNIL sobre pixels de rastreamento de email](using/privacy/cnil-pixel-tracking.md)
+  + {hide-from-toc}[Orientações da CNIL sobre pixels de rastreamento de email](using/privacy/cnil-pixel-tracking.md)
 + Introdução {#get-started}
   + [Comece aqui](/help/rp_landing_pages/get-started-landing-page.md)
   + [Hub de integração](using/start/onboarding-hub.md)
@@ -431,6 +431,7 @@ ht-degree: 95%
   + Caixa de entrada {#inbox}
     + [Introdução à caixa de entrada](using/inbox/inbox-gs.md)
     + [Configure o canal Caixa de entrada no Journey Optimizer](using/inbox/inbox-configuration.md)
+    + [Configurar o suporte à Caixa de entrada no Web SDK](using/inbox/inbox-configuration-sdk.md)
     + [Criar a Caixa de entrada](using/inbox/inbox-create.md)
     + [Criar uma Caixa de entrada](using/inbox/inbox-design.md)
   + WhatsApp {#whatsapp}
