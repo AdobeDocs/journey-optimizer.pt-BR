@@ -7,18 +7,13 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a5db996df4b53b5c4a7a0d737f97fe49753d1fbd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: c8082b429d351a35f2c2ed9627551e3eac64df68
 workflow-type: tm+mt
-source-wordcount: 2250
-ht-degree: 14%
+source-wordcount: 2181
+ht-degree: 12%
 
 ---
 
@@ -32,7 +27,7 @@ O Adobe Journey Optimizer fornece de forma contínua novos recursos, melhorias p
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -127,30 +122,7 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 ### Jornadas {#july-26-journeys}
 
-Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Otimização de canal</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora você pode configurar uma ação do jornada para incluir vários canais de saída (Email, Push, SMS) e permitir que o Journey Optimizer forneça automaticamente por meio do melhor canal para cada cliente. Três modos de otimização estão disponíveis:</p>
-<ul>
-<li>Classificação manual: especifique a ordem de canal de sua preferência.</li>
-<li>Preferência do cliente: use o canal de preferência do cliente em seu perfil (atributo Consentimentos e preferências do modelo de dados de experiência).</li>
-<li>Classificação baseada em modelo de IA: use pontuações de propensão de aprendizado de máquina para inferir o canal mais eficaz por cliente.</li>
-</ul>
-<p>Quando o canal mais bem classificado estiver indisponível (não aceito, com limite de frequência ou não configurado), o sistema voltará para o próximo canal disponível.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
+As seguintes melhorias foram adicionadas às jornadas nesta versão.
 
 * **Públicos-alvo externos na Simulação de Jornada** - A Simulação de Jornada agora oferece suporte a Públicos-alvo Externos. Ao simular jornadas direcionadas a públicos-alvo de CSV ou Composição de público-alvo federado, você pode simular atributos de enriquecimento desses públicos-alvo diretamente pelo formulário da interface ou por uma importação de JSON. A interface do usuário exibe dinamicamente apenas os atributos específicos de enriquecimento usados na lógica de jornada, permitindo a validação precisa das ramificações de decisão e regras de personalização antes da ativação. <!-- Documentation link: TBD -->
 
@@ -188,8 +160,8 @@ Os recursos e melhorias a seguir foram adicionados às campanhas nesta versão.
 <td>
 <p>Agora é possível simular ações de canal de entrada em Campanhas de ação antes de entrar em atividade. Use o modo de simulação para testar sua configuração com usuários simulados e visualizar a experiência renderizada, incluindo um URL gerado e um código QR, para que você possa validar regras, decisões e renderização de conteúdo de ponta a ponta.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<GIF placeholder: to be added>
-<Documentation link: TBD>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
@@ -203,9 +175,37 @@ Os recursos e melhorias a seguir foram adicionados às campanhas nesta versão.
 
 ### Campanhas orquestradas {#july-26-oc}
 
-A seguinte melhoria foi adicionada às campanhas orquestradas nesta versão.
+As seguintes melhorias foram adicionadas às campanhas orquestradas nesta versão.
 
 * **Exibir permissão de Transições de Campanha Orquestradas** - Adicionada uma nova permissão **Exibir Transições de Campanha Orquestradas** para substituir a opção herdada **Exibir Arquivo em Campanhas Orquestradas**. Essa alteração permite ocultar os resultados de visualização nas transições da campanha para oferecer suporte à conformidade com informações de identificação pessoal.
+
+* **Enviar mensagens em ondas** - Agora é possível agendar mensagens de saída de campanhas orquestradas para serem entregues em lotes controlados ao longo do tempo. Ideal para campanhas de alto volume ou sensíveis ao tempo, o envio de ondas também oferece suporte a uma melhor capacidade de entrega e ajuda a manter uma sólida reputação do remetente, reduzindo o risco de ser sinalizado como spam.
+
+<!--
+### Optimization {#july-26-optimization}
+
+<table>
+<thead>
+<tr>
+<th><strong>Channel optimization</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now configure a journey or campaign action to include multiple outbound channels (Email, Push, SMS) and let Journey Optimizer automatically deliver through the best channel for each customer. Three optimization modes are available:</p>
+<ul>
+<li>Manual ranking: specify your preferred channel order.</li>
+<li>Customer preference: use the customer's preferred channel from their profile (Experience Data Model Consents & Preferences attribute).</li>
+<li>AI model-based ranking: use machine learning propensity scores to infer the most effective channel per customer.</li>
+</ul>
+<p>When the top-ranked channel is unavailable (not opted-in, frequency-capped, or not configured), the system falls back to the next available channel.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
 
 <!--
 <table>
@@ -235,6 +235,40 @@ A seguinte melhoria foi adicionada às campanhas orquestradas nesta versão.
 * **Target dimension simplification in Orchestrated campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
 
 -->
+
+### Canais {#july-26-channels}
+
+Os seguintes recursos e melhorias foram adicionados aos canais nesta versão.
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal de saída personalizado</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Journey Optimizer agora apresenta os Canais personalizados, um novo recurso que permite aos administradores trazer qualquer canal de mensagens baseado em HTTP de saída — como WeChat, Kakao Talk, Messenger ou um provedor proprietário — diretamente para o Journey Optimizer por meio de um Construtor de canal sem código.</p >
+<p>Depois de configurados, os canais personalizados ficam disponíveis em campanhas, jornadas e campanhas orquestradas, com o mesmo conjunto completo de recursos dos canais nativos: personalização com o editor de expressão, experimentação de conteúdo, pré-visualização e prova, relatórios prontos para uso e aplicação de consentimento e governança.</p>
+<p>Isso preenche uma lacuna anteriormente abordada por ações personalizadas, que são limitadas apenas a jornadas e não têm recursos de canal dedicados.</p>
+<p>Os canais de saída personalizados estão disponíveis no momento como Disponibilidade limitada. Para obter acesso, entre em contato com um representante da Adobe.</p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Canal do WhatsApp: suporte a modelos de fluxo do WhatsApp** - Agora você pode enviar modelos de fluxo do WhatsApp no Adobe Journey Optimizer para fornecer experiências interativas em várias telas, como pesquisas e captura de leads. As respostas são capturadas no envio e armazenadas como cargas JSON brutas no novo conjunto de dados de evento de rastreamento de canal do Journey Optimizer. <!-- Documentation link: TBD -->
+
+* **Complemento de desempenho para taxa de transferência - Push** - Um novo modo de mensagens transacionais de alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Anteriormente disponível apenas para o canal de email, esse recurso agora também está disponível para o canal de push, para organizações que compraram a oferta complementar de Mensagens transacionais de alta capacidade da Adobe. Entre em contato com seu representante da Adobe para obter mais detalhes. <!-- Documentation link: TBD -->
+
+* **Integrações aprimoradas do provedor personalizado - Dispositivo móvel** - As integrações personalizadas do provedor agora oferecem maior flexibilidade com mensagens principais e atualizações de cabeçalho:
+
+  * Personalização de cabeçalho: Agora é possível editar o valor padrão do cabeçalho Content-Type e adicionar até 10 parâmetros de cabeçalho personalizados.
+
+  * Suporte a carga SMS: adição de suporte para funções auxiliares do Adobe Journey Optimizer na carga SMS, incluindo encode64.
 
 ### Tomada de decisão {#july-26-decisioning}
 
@@ -301,7 +335,7 @@ As seguintes melhorias foram adicionadas à personalização nesta versão.
 
 <!-- Documentation link: TBD -->
 
-### Canal de email {#july-26-email}
+### Designer de email {#july-26-email}
 
 O recurso a seguir foi adicionado ao canal de email nesta versão.
 
@@ -314,7 +348,8 @@ O recurso a seguir foi adicionado ao canal de email nesta versão.
 <tbody>
 <tr>
 <td>
-<p>O Designer de email agora inclui uma biblioteca de módulos de layout prontos para uso — como cabeçalhos, cartões de produto, blocos de informações e rodapés — que você pode arrastar e soltar diretamente na tela do email. Cada módulo vem pré-configurado com propriedades editáveis (imagem, título, texto, botão, links) e pode ser totalmente personalizado por meio da interface WYSIWYG, acelerando a criação de emails sem exigir a construção de estruturas do zero.</p>
+<p>O Designer de email agora inclui uma biblioteca de módulos de layout prontos para uso — como cabeçalhos, cartões de produto, blocos de informações e rodapés — que você pode arrastar e soltar diretamente na tela do email.</p>
+<p>Cada módulo vem pré-configurado com propriedades editáveis (imagem, título, texto, botão, links) e pode ser totalmente personalizado por meio da interface WYSIWYG, acelerando a criação de emails sem exigir a construção de estruturas do zero.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -322,37 +357,6 @@ O recurso a seguir foi adicionado ao canal de email nesta versão.
 </tbody>
 </table>
 
-### Canais {#july-26-channels}
-
-Os seguintes recursos e melhorias foram adicionados aos canais nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Canal de saída personalizado</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Journey Optimizer agora apresenta os Canais personalizados, um novo recurso que permite aos administradores trazer qualquer canal de mensagens baseado em HTTP de saída — como WeChat, Kakao Talk, Messenger ou um provedor proprietário — diretamente para o Journey Optimizer por meio de um Construtor de canal sem código. Depois de configurados, os canais personalizados ficam disponíveis em Campanhas, Jornadas e Campanhas orquestradas, com o mesmo conjunto completo de recursos dos canais nativos: personalização com o editor de expressão, experimentação de conteúdo, pré-visualização e prova, relatórios prontos para uso e aplicação de consentimento e governança. Isso preenche uma lacuna anteriormente abordada pelas Ações personalizadas, que são limitadas apenas às Jornadas e não têm recursos de canal dedicados.</p>
-<p>Os canais de saída personalizados estão disponíveis no momento como Disponibilidade limitada. Para obter acesso, entre em contato com um representante da Adobe.</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Canal do WhatsApp: suporte a modelos de fluxo do WhatsApp** - Agora você pode enviar modelos de fluxo do WhatsApp no Adobe Journey Optimizer para fornecer experiências interativas em várias telas, como pesquisas e captura de leads. As respostas são capturadas no envio e armazenadas como cargas JSON brutas no novo conjunto de dados de evento de rastreamento de canal do Journey Optimizer. <!-- Documentation link: TBD -->
-
-* **Complemento de desempenho para taxa de transferência - Push** - Um novo modo de mensagens transacionais de alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Anteriormente disponível apenas para o canal de email, esse recurso agora também está disponível para o canal de push, para organizações que compraram a oferta complementar de Mensagens transacionais de alta capacidade da Adobe. Entre em contato com seu representante da Adobe para obter mais detalhes. <!-- Documentation link: TBD -->
-
-* **Integrações aprimoradas do provedor personalizado - Dispositivo móvel** - As integrações personalizadas do provedor agora oferecem maior flexibilidade com mensagens principais e atualizações de cabeçalho:
-
-  * Personalização de cabeçalho: Agora é possível editar o valor padrão do cabeçalho Content-Type e adicionar até 10 parâmetros de cabeçalho personalizados.
-
-  * Suporte a carga SMS: adição de suporte para funções auxiliares do Adobe Journey Optimizer na carga SMS, incluindo encode64.
 
 ### Administração {#july-26-administration}
 
