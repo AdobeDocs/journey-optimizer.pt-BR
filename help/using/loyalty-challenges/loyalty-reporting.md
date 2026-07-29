@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
-source-wordcount: 511
+source-wordcount: 510
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Use os relatórios de Desafios de fidelidade para ver o desempenho de seus desafios. Verifique quem está se inscrevendo, quem está concluindo os desafios e quanta receita seu programa está gerando — tudo em um só lugar. Os dados vêm do Adobe Customer Journey Analytics.
 
-Para abrir os painéis de relatórios, vá para **[!UICONTROL Desafios de Fidelidade]** no Journey Optimizer e selecione **[!UICONTROL Relatórios de fidelidade]** na navegação à esquerda.
+Para abrir os painéis de relatórios, vá para **[!UICONTROL Desafios de fidelidade]** no Journey Optimizer e selecione **[!UICONTROL Desempenho]** na navegação à esquerda.
 
 A interface de relatórios tem duas guias:
 

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: 1755
 ht-degree: 15%
@@ -27,7 +27,7 @@ A configuração de Desafios de Fidelidade conecta o [!DNL Journey Optimizer] ao
 >
 >A configuração de Desafios de Fidelidade exige acesso de administrador à sua instância [!DNL Journey Optimizer], além das permissões necessárias para Desafios de Fidelidade. Entre em contato com o administrador do Adobe para obter acesso.
 
-Para abrir a interface de configuração, selecione o menu de navegação à esquerda **[!UICONTROL Administrador de fidelidade]**. A interface é organizada em guias:
+Para abrir a interface de configuração, selecione o menu **[!UICONTROL Configurações de fidelidade]** na navegação à esquerda. A interface é organizada em guias:
 
 * **Configurações globais** — Selecione o namespace de identidade da Experience Platform para o seu programa. [Saiba como definir configurações globais](#global-settings)
 * **Provedores de recompensas** — conecte as APIs que atendem a recompensas quando os clientes fazem progresso ou concluem desafios. [Saiba como configurar provedores de premiação](#reward-providers).

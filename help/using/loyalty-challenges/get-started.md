@@ -9,9 +9,8 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: 964
 ht-degree: 13%
@@ -92,9 +91,9 @@ Entre em contato com o administrador se não conseguir acessar o recurso ou prec
 
 +++Configurar o programa de fidelidade (administradores)
 
-Os administradores configuram provedores de premiação, definições de eventos, inventário de produtos, exclusões e configurações globais no menu **[!UICONTROL Admin. de fidelidade]**. Os profissionais de marketing que apenas criam desafios não precisam acessar esse menu. [Saiba como configurar desafios de fidelidade](loyalty-admin.md)
+Os administradores configuram provedores de premiação, definições de eventos, inventário de produtos, exclusões e configurações globais no menu **[!UICONTROL Configurações de fidelidade]**. Os profissionais de marketing que apenas criam desafios não precisam acessar esse menu. [Saiba como configurar desafios de fidelidade](loyalty-admin.md)
 
-Entre em contato com o administrador se o menu de **[!UICONTROL Administrador de fidelidade]** não estiver visível na navegação à esquerda.
+Entre em contato com o administrador se o menu **[!UICONTROL Configurações de fidelidade]** não estiver visível na navegação à esquerda.
 
 +++
 
@@ -161,7 +160,7 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar desafios de fidelidade</strong></a>
     </div>
     <p>
@@ -179,5 +178,5 @@ Para gerenciar desafios de fidelidade de forma programática, use a [API de Desa
 
 **Novo nos Desafios de Fidelidade?** Assista a esta visão geral para entender os recursos e benefícios:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496455?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
