@@ -16,10 +16,10 @@ topic_v2:
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 11%
+source-wordcount: 461
+ht-degree: 9%
 
 ---
 
@@ -199,3 +199,76 @@ A operação a seguir define pessoas nascidas em 2000 ou antes.
 ```
 
 **Operações com números**
+
+## Funções de Migração de Modelo {#template-migration-functions}
+
+As Funções de migração de modelo estão disponíveis no editor de personalização para auxiliar na migração de modelos existentes para o Journey Optimizer.
+
+### Comparar via operador{#amp-compare}
+
+A função `ampCompare` compara dois valores usando o operador de comparação especificado.
+
+**Sintaxe**
+
+```sql
+{%= ampCompare(value1, value2, operator) %}
+```
+
+| Argumento | Descrição |
+| --------- | ----------- |
+| `value1` | Primeiro valor a ser comparado. |
+| `value2` | Segundo valor a ser comparado. |
+| `operator` | Inteiro que representa o operador de comparação a ser usado. |
+
+**Exemplo**
+
+```sql
+{%= ampCompare(profile.person.age, 18, 4) %}
+```
+
+### Intervalo da substring{#amp-substr}
+
+A função `ampSubstr` retorna uma parte de uma cadeia de caracteres entre os índices de início e término especificados.
+
+**Sintaxe**
+
+```sql
+{%= ampSubstr(string, startIndex, endIndex) %}
+```
+
+| Argumento | Descrição |
+| --------- | ----------- |
+| `string` | A string de origem. |
+| `startIndex` | Índice inicial da substring (número inteiro). |
+| `endIndex` | Índice final da substring (número inteiro). |
+
+**Exemplo**
+
+A expressão a seguir retorna os cinco primeiros caracteres da cadeia de caracteres &quot;Olá, mundo&quot;.
+
+```sql
+{%= ampSubstr("Hello World", 0, 5) %}
+```
+
+Retorna `Hello`.
+
+### Comparar a{#compare-to}
+
+A função `compareTo` compara duas cadeias de caracteres lexicograficamente. Ele retorna um número inteiro negativo se a primeira string vier antes da segunda, zero se for igual, ou um número inteiro positivo se a primeira string vier depois da segunda.
+
+**Sintaxe**
+
+```sql
+{%= compareTo(string1, string2) %}
+```
+
+| Argumento | Descrição |
+| --------- | ----------- |
+| `string1` | Primeira cadeia de caracteres a ser comparada. |
+| `string2` | Segunda sequência de caracteres a ser comparada. |
+
+**Exemplo**
+
+```sql
+{%= compareTo("apple", "banana") %}
+```

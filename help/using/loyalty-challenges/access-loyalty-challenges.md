@@ -7,62 +7,21 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="Beta privado" type="Informative"
-mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 4%
+source-wordcount: 470
+ht-degree: 0%
 
 ---
 
 # Acessar e gerenciar desafios e tarefas {#access-loyalty-challenges}
 
->[!BEGINSHADEBOX]
-
-**Sumário**
-
-[Introdução aos desafios de fidelidade](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Criar e gerenciar desafios**
-
-* **Acessar e gerenciar desafios e tarefas** ◀︎ **Você está aqui**
-* [Criar desafios](create-challenges.md)
-* [Criar tarefas](create-tasks.md)
-* [Monitorar o desempenho de desafio de fidelidade](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**Configurar e integrar**
-
-* [Configurar desafios de fidelidade](loyalty-admin.md)
-* [Guia de definição de recompensa](reward-definition-guide.md)
-* [Guia do Transformador de eventos](event-transformer-guide.md)
-* [Dados e conjuntos de dados de fidelidade](loyalty-data-and-datasets.md)
-* [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Este recurso está atualmente em **beta privado**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
-
 ## Acessar e gerenciar desafios e tarefas
 
-Para acessar os Desafios de Fidelidade, navegue até Journey Optimizer e selecione **[!UICONTROL Desafio de Fidelidade (Beta)]** na seção **[!UICONTROL Gerenciamento de Jornada]**. A interface dos desafios de fidelidade fornece um local centralizado para exibir, gerenciar e organizar todos os seus desafios e tarefas.
+Para acessar os Desafios de Fidelidade, navegue até Journey Optimizer e selecione **[!UICONTROL Desafio de Fidelidade]** na seção **[!UICONTROL Gerenciamento de Jornadas]**. A interface dos desafios de fidelidade fornece um local centralizado para exibir, gerenciar e organizar todos os seus desafios e tarefas.
 
 A interface fornece acesso a dois inventários principais:
 
@@ -123,3 +82,4 @@ Na guia Tasks (Tarefas), é possível executar ações em tarefas:
   >[!IMPORTANT]
   >
   >Você pode excluir uma tarefa mesmo quando ela é usada em um ou mais desafios. Considere o impacto nos desafios que fazem referência à tarefa antes de excluir.
+

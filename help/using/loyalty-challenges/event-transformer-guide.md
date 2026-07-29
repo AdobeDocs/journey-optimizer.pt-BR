@@ -7,15 +7,13 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1708
 ht-degree: 1%
 
 ---
@@ -60,10 +58,6 @@ ht-degree: 1%
 </table>
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Este recurso está atualmente em **beta privado**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade em [!DNL Journey Optimizer], consulte [ciclo de lançamento](../rn/releases.md).
 
 Para que uma transação de cliente possa ser aplicada a um desafio de fidelidade, ela deve estar no formato **Evento de Fidelidade do Adobe** que o Serviço de Desafio compreenda. Os eventos do cliente — de um sistema de PDV, um aplicativo móvel, uma plataforma de comércio eletrônico ou qualquer outra fonte — normalmente usam o esquema de dados do próprio cliente. **Transformadores de Eventos** fazem a ponte dessa lacuna sem exigir alterações no sistema upstream.
 
@@ -689,4 +683,5 @@ Sem `utc_offset`, a correspondência da janela daypart e a contagem de sequênci
 Para eventos DCCS, o transformador recebe apenas o corpo `xdmEntity`, não o envelope externo do AJO. Todos os caminhos devem ser relativos à raiz da entidade XDM. Se sua expressão referenciar campos que residem no envelope externo (por exemplo, `/body/xdmMeta/...`), eles não serão encontrados e produzirão silenciosamente um valor nulo.
 
 +++
+
 

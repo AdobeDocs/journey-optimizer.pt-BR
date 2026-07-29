@@ -7,15 +7,13 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="Beta privado" type="Informative"
 mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 00c24e9b97b4f6597048731858f3bfbcb39a0030
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: 1183
 ht-degree: 3%
 
 ---
@@ -60,10 +58,6 @@ ht-degree: 3%
 </table>
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Este recurso está atualmente em **beta privado**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade em [!DNL Journey Optimizer], consulte [ciclo de lançamento](../rn/releases.md).
 
 Quando uma tarefa de desafio, marco ou desafio é concluído **e tem um valor de recompensa configurado**, a plataforma emite uma recompensa ao chamar o ponto de extremidade HTTP do seu provedor de recompensa com uma carga JSON. Uma **Definição de Recompensa** descreve qual recompensa deve ser emitida e fornece uma expressão [JSONata](https://docs.jsonata.org/overview) — `rewardJsonata` — que molda a carga exata que seu provedor espera.
 
@@ -481,3 +475,4 @@ Para desenvolver e testar uma expressão antes de publicar, use o [JSONata Exerc
 | `task.accumulators.item_list[-1]` é nulo | Nenhum item foi aplicado antes da premiação emitida (evento que não seja de compra) | Proteger com um condicional ou usar `timestamp` do contexto |
 | `milestone` acessado quando a origem é `"task"` ou `"challenge"` | `milestone` é nulo; a expressão lança ou produz campos nulos | Marque `rewardContext.source` antes de acessar `milestone`, ou use apenas `milestone` em definições anexadas a recompensas por etapas |
 | A expressão retorna uma matriz em vez de um objeto | O provedor recebe uma estrutura de carga inesperada | Envolver expressões de retorno de matriz em um objeto externo: `{ "items": [...] }` |
+

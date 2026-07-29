@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ccd65f3e2f37c7893e81ab0a94ee4842cd4565d
+source-git-commit: 1ddc46d8ea79660610ff6ba9600ed78d57c86ab5
 workflow-type: tm+mt
-source-wordcount: 1045
-ht-degree: 38%
+source-wordcount: 1446
+ht-degree: 28%
 
 ---
 
@@ -49,6 +49,59 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 >Os recursos listados nestas notas de versão incluem uma **Data de disponibilidade** indicando quando cada alteração se torna acessível no ambiente. As entradas nos acordeões **Em breve** são esperadas nos próximos dias ou semanas. As informações nessas seções estão sujeitas a alterações.
 
 ## Notas de versão de julho de 2026 {#july-26-updates}
+
+### Desafios de fidelidade {#july-26-loyalty}
+
+A Journey Optimizer apresenta os desafios de fidelidade, um novo recurso nesta versão.
+
+<table>
+<thead>
+<tr>
+<th><strong>Desafios de fidelidade</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Os desafios de fidelidade transformam iniciativas de fidelidade em experiências envolventes e gamificadas que motivam os clientes a realizar ações valiosas, como fazer compras, escrever comentários ou qualquer comportamento desejado.</p>
+<p>Os administradores podem usar o menu Admin de fidelidade para conectar o Journey Optimizer ao seu ecossistema de fidelidade, incluindo APIs de atendimento de recompensa, definições de eventos, inventário de produtos, exclusões e configurações de identidade. Em seguida, os profissionais de marketing podem projetar desafios padrão, sequenciais ou em sequência, definir tarefas e recompensas, fornecer cartões de conteúdo e mensagens de marca e monitorar o desempenho com painéis de relatórios alimentados por IA. A Journey Optimizer gera as jornadas que organizam cada desafio em segundo plano, para que as equipes possam se concentrar na experiência do cliente e nas metas de negócios.</p>
+<p>A fidelização também apresenta habilidades de colegas de trabalho que permitem que as equipes executem operações de desafio principais com mais eficiência, incluindo a criação de desafios, a definição de propriedades de desafio, o gerenciamento de públicos-alvo e configurações relacionadas e a análise de insights para monitorar a participação de desafios e o desempenho de recompensas.</p>
+<p>Esse recurso só está disponível para organizações licenciadas para o Journey Optimizer Loyalty. Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Para obter mais informações, consulte a <a href="../loyalty-challenges/get-started.md">documentação detalhada</a>.</p>
+<p> Data de disponibilidade: 28 de julho de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Canais de saída {#july-26-outbound-channels}
+
+O recurso a seguir foi introduzido nesta versão.
+
+<table>
+<thead>
+<tr>
+<th><strong>Otimização de canal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode configurar uma jornada ou ação de campanha para incluir vários canais de saída (Email, Push, SMS) e permitir que o Journey Optimizer forneça automaticamente por meio do melhor canal para cada cliente. Três modos de otimização estão disponíveis:</p>
+<ul>
+<li>Classificação manual: especifique a ordem de canal de sua preferência.</li>
+<li>Preferência do cliente: use o canal de preferência do cliente em seu perfil (atributo Consentimentos e preferências do modelo de dados de experiência).</li>
+<li>Classificação baseada em modelo de IA: use pontuações de propensão de aprendizado de máquina para inferir o canal mais eficaz por cliente.</li>
+</ul>
+<p>Quando o canal mais bem classificado estiver indisponível (não aceito, com limite de frequência ou não configurado), o sistema voltará para o próximo canal disponível.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p><img src="assets/do-not-localize/channel-optimization.gif"></p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/channel-optimization.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 22 de julho de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### Jornadas {#july-26-journeys}
 
@@ -73,6 +126,31 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão.
 </table>
 
 * [!BADGE Descontinuação]{type=Negative} Públicos-alvo em lote não são mais compatíveis com o nó Qualificação de público-alvo - A partir de 3 de agosto de 2026, a Journey Optimizer bloqueará a publicação de qualquer jornada usando um público-alvo em lote em um nó Qualificação de público-alvo. Essa imposição substitui o aviso de tela introduzido na versão de junho. As jornadas ativas existentes não são afetadas. Use um público-alvo de transmissão no nó Qualificação do público-alvo ou alterne para uma atividade Ler público-alvo. [Saiba como migrar suas jornadas](../building-journeys/aq-batch-audiences-migration.md)
+
+### Designer de email {#july-26-email}
+
+O recurso a seguir foi adicionado ao canal de email nesta versão.
+
+<table>
+<thead>
+<tr>
+<th><strong>Verificação de conteúdo no Designer de email (disponibilidade geral)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Journey Optimizer agora inclui validação técnica automatizada diretamente no Designer de email, ajudando a detectar problemas no HTML e no CSS antes do envio.</p>
+<p>As verificações abrangem elementos incompatíveis, como tags <code>&lt;script&gt;</code> e <code>&lt;base&gt;</code>, divs em branco que podem quebrar o layout no Microsoft Outlook, tags HTML meta refresh e limites de tamanho de CSS ou HTML que causam falhas de renderização no Gmail.</p>
+<p>Os resultados são exibidos como erros, avisos ou avisos informativos diretamente no painel de criação, com detalhes contextuais e correções com um clique, quando disponíveis, para que os problemas possam ser resolvidos sem sair do editor.</p>
+<p>Anteriormente em Disponibilidade limitada, esse recurso agora está disponível para todos os clientes.</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>Para obter mais informações, consulte a <a href="../email/content-check.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 16 de julho de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### Campanhas orquestradas {#july-26-oc}
 
@@ -107,56 +185,6 @@ Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúd
 
   ![](../content-management/assets/content-template-quick-launch.png)
 
-### Canal de email {#july-26-email}
-
-As seguintes melhorias foram adicionadas ao canal de email nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Otimização de canal</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora você pode configurar uma jornada ou ação de campanha para incluir vários canais de saída (Email, Push, SMS) e permitir que o Journey Optimizer forneça automaticamente por meio do melhor canal para cada cliente. Três modos de otimização estão disponíveis:</p>
-<ul>
-<li>Classificação manual: especifique a ordem de canal de sua preferência.</li>
-<li>Preferência do cliente: use o canal de preferência do cliente em seu perfil (atributo Consentimentos e preferências do modelo de dados de experiência).</li>
-<li>Classificação baseada em modelo de IA: use pontuações de propensão de aprendizado de máquina para inferir o canal mais eficaz por cliente.</li>
-</ul>
-<p>Quando o canal mais bem classificado estiver indisponível (não aceito, com limite de frequência ou não configurado), o sistema voltará para o próximo canal disponível.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p><img src="assets/do-not-localize/channel-optimization.gif"></p>
-<p>Para obter mais informações, consulte a <a href="../building-journeys/channel-optimization.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: 22 de julho de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Verificação de conteúdo no Designer de email (disponibilidade geral)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Journey Optimizer agora inclui validação técnica automatizada diretamente no Designer de email, ajudando a detectar problemas no HTML e no CSS antes do envio.</p>
-<p>As verificações abrangem elementos incompatíveis, como tags <code>&lt;script&gt;</code> e <code>&lt;base&gt;</code>, divs em branco que podem quebrar o layout no Microsoft Outlook, tags HTML meta refresh e limites de tamanho de CSS ou HTML que causam falhas de renderização no Gmail.</p>
-<p>Os resultados são exibidos como erros, avisos ou avisos informativos diretamente no painel de criação, com detalhes contextuais e correções com um clique, quando disponíveis, para que os problemas possam ser resolvidos sem sair do editor.</p>
-<p>Anteriormente em Disponibilidade limitada, esse recurso agora está disponível para todos os clientes.</p>
-<p><img src="assets/do-not-localize/content-check.gif"></p>
-<p>Para obter mais informações, consulte a <a href="../email/content-check.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: 16 de julho de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### Conteúdo e integrações {#july-26-integration}
 
 Os seguintes recursos e melhorias estão chegando ao gerenciamento de conteúdo e às integrações nesta versão.
@@ -168,6 +196,30 @@ Os seguintes recursos e melhorias estão chegando ao gerenciamento de conteúdo 
 * **Novas ferramentas do servidor MCP do AJO** - O servidor MCP [!DNL Adobe Journey Optimizer] agora expõe cinco **ferramentas de configuração de canal** adicionais somente leitura, permitindo que você consulte configurações de canal, recursos de suporte e ações de marketing diretamente do seu assistente de IA. Agora você pode usar **Configurações de Canal de Lista** (em todos os canais da AJO), **Obter Configuração de Canal**, **Recursos de Configuração de Lista**, **Obter Recurso de Configuração** e **Ações de Marketing de Lista**. [Leia mais](../integrations/ajo-mcp.md#mcp-tools)
 
   Data de disponibilidade: 9 de julho de 2026
+
+* **Novas funções auxiliares em expressões de personalização** - Novas funções auxiliares agora estão disponíveis em expressões de personalização:
+
+  * `appendQueryParams`: anexa um parâmetro de consulta a uma URL ou a substitui se a chave já existir.
+  * `dateBetween`: Verifica se uma data está dentro de um intervalo de datas inicial e final (inclusive).
+  * `equalsAnyIgnoreCase`: retorna verdadeiro quando uma cadeia de caracteres corresponde a qualquer valor fornecido, ignorando maiúsculas e minúsculas.
+  * `getUrlFragment`: Extrai a parte do fragmento de uma URL (a parte após #).
+  * `join`: Concatena elementos de matriz em uma única cadeia de caracteres usando um separador.
+  * `decode64`: Decodifica uma cadeia de caracteres codificada em Base64. Se a entrada não for Base64 válida, a cadeia de caracteres de entrada original será retornada inalterada.
+  * `parseJson`: analisa uma cadeia de caracteres JSON em uma variável estruturada que pode ser usada no modelo.
+  * `valueAtPath`: atribui um valor de um caminho de dados a uma variável de modelo, com indexação opcional para extrair um elemento específico de matrizes ou coleções.
+  * `abort`: Para a entrega de mensagens quando alcançada durante a renderização.
+
+  A função `concat` também foi aprimorada e agora dá suporte a dois ou mais argumentos.
+
+  Além disso, as seguintes Funções de migração de modelo agora estão disponíveis para ajudar na migração de modelos existentes para o Journey Optimizer:
+
+  * `ampCompare`: compara dois valores usando o operador de comparação especificado.
+  * `ampSubstr`: retorna uma parte de uma cadeia de caracteres entre os índices de início e término especificados.
+  * `compareTo`: compara duas cadeias de caracteres lexicograficamente.
+
+  [Saiba mais sobre funções auxiliares](../personalization/functions/functions.md)
+
+  Data de disponibilidade: 28 de julho de 2026
 
 ### Administração {#july-26-administration}
 

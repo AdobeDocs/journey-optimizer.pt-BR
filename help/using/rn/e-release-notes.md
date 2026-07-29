@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2c83cd791d11f47eebd03f9f064a730340d560aa
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 2130
-ht-degree: 13%
+source-wordcount: 1772
+ht-degree: 15%
 
 ---
 
@@ -74,30 +74,6 @@ The following capabilities and improvements are coming to orchestrated campaigns
 Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Data de lançamento**: 28 a 29 de julho de 2026
-
-### Fidelidade {#july-26-loyalty}
-
-A Journey Optimizer apresenta o Loyalty, um novo recurso nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Desafios de fidelidade</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Os desafios de fidelidade transformam iniciativas de fidelidade em experiências envolventes e gamificadas que motivam os clientes a realizar ações valiosas, como fazer compras, escrever comentários ou qualquer comportamento desejado.</p>
-<p>Os administradores podem usar o menu Admin de fidelidade para conectar o Journey Optimizer ao seu ecossistema de fidelidade, incluindo APIs de atendimento de recompensa, definições de eventos, inventário de produtos, exclusões e configurações de identidade. Em seguida, os profissionais de marketing podem projetar desafios padrão, sequenciais ou em sequência, definir tarefas e recompensas, fornecer cartões de conteúdo e mensagens de marca e monitorar o desempenho com painéis de relatórios alimentados por IA. A Journey Optimizer gera as jornadas que organizam cada desafio em segundo plano, para que as equipes possam se concentrar na experiência do cliente e nas metas de negócios.</p>
-<p>A fidelização também apresenta habilidades de colegas de trabalho que permitem que as equipes executem operações de desafio principais com mais eficiência, incluindo a criação de desafios, a definição de propriedades de desafio, o gerenciamento de públicos-alvo e configurações relacionadas e a análise de insights para monitorar a participação de desafios e o desempenho de recompensas.</p>
-<p>Esse recurso só está disponível para organizações licenciadas para o Journey Optimizer Loyalty. Para obter acesso, entre em contato com um representante da Adobe.</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
 
 <!--
 
@@ -320,25 +296,6 @@ The following improvements have been added to integrations in this release.
 As seguintes melhorias foram adicionadas à personalização nesta versão.
 
 * **Gerenciar domínios para personalização completa/básica da URL** - Agora é possível criar e gerenciar domínios aprovados para personalização completa e básica da URL diretamente das configurações de Administração no Adobe Journey Optimizer, sem precisar entrar em contato com o Suporte da Adobe. <!-- Documentation link: TBD -->
-
-* **Novas funções auxiliares em expressões de personalização** - Novas funções auxiliares agora estão disponíveis em expressões de personalização:
-
-  * `appendQueryParams`: anexa um parâmetro de consulta a uma URL ou a substitui se a chave já existir.
-  * `dateBetween`: Verifica se uma data está dentro de um intervalo de datas inicial e final (inclusive).
-  * `equalsAnyIgnoreCase`: retorna verdadeiro quando uma cadeia de caracteres corresponde a qualquer valor fornecido, ignorando maiúsculas e minúsculas.
-  * `getUrlFragment`: Extrai a parte do fragmento de uma URL (a parte após #).
-  * `join`: Concatena elementos de matriz em uma única cadeia de caracteres usando um separador.
-  * `decode64`: Decodifica uma cadeia de caracteres codificada em Base64. Se a entrada não for Base64 válida, a cadeia de caracteres de entrada original será retornada inalterada.
-  * `parseJson`: analisa uma cadeia de caracteres JSON em uma variável estruturada que pode ser usada no modelo.
-  * `valueAtPath`: atribui um valor de um caminho de dados a uma variável de modelo, com indexação opcional para extrair um elemento específico de matrizes ou coleções.
-
-  A função `concat` também foi aprimorada e agora dá suporte a dois ou mais argumentos.
-
-  Além disso, as seguintes Funções de migração de modelo agora estão disponíveis para ajudar na migração de modelos existentes para o Journey Optimizer:
-
-  * `ampCompare`: compara dois valores usando o operador de comparação especificado.
-  * `ampSubstr`: retorna uma parte de uma cadeia de caracteres entre os índices de início e término especificados.
-  * `compareTo`: compara duas cadeias de caracteres lexicograficamente.
 
 <!-- Documentation link: TBD -->
 
