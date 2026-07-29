@@ -5,17 +5,13 @@ title: Usar a atividade Carregar arquivo
 description: Saiba como usar a atividade Carregar arquivo para direcionar um público-alvo de campanha orquestrada de um arquivo CSV ou TXT sem assimilar o arquivo na Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 61ffafb86c7fe9c3d9596f87fce4c7978918e7e6
 workflow-type: tm+mt
-source-wordcount: 1697
+source-wordcount: 1612
 ht-degree: 4%
 
 ---
@@ -41,15 +37,6 @@ Durante a configuração do arquivo, você pode definir mapeamentos de coluna, t
 >
 >A atividade **Carregar arquivo** não está disponível para uso com o **Healthcare Shield**.
 
-## Permissões {#permissions}
-
-Para usar a atividade **[!UICONTROL Carregar arquivo]** em uma campanha Orquestrada, os usuários devem receber as permissões corretas. Ambas as permissões estão disponíveis em **[!UICONTROL Adobe Experience Platform]** > **[!UICONTROL Adobe Journey Optimizer]** > **[!UICONTROL Campanhas orquestradas]** na interface do usuário de permissões.
-
-* **[!UICONTROL Exibir arquivo em campanhas orquestradas]** — concede acesso somente leitura. Os usuários com esta permissão podem visualizar os resultados em uma campanha Orquestrada que contenha uma atividade **[!UICONTROL Carregar arquivo]**, mas não podem adicionar a atividade ou carregar um arquivo.
-* **[!UICONTROL Gerenciar Arquivo em Campanhas Orquestradas]** — É necessário adicionar uma atividade **[!UICONTROL Carregar arquivo]** à tela da campanha e carregar arquivos. Atribua esta permissão a qualquer usuário que precise criar ou configurar uma atividade de **[!UICONTROL Carregar arquivo]**.
-
-Para obter instruções sobre como atribuir permissões, consulte [Gerenciar usuários e funções](../../administration/permissions.md).
-
 ## Medidas de proteção e limitações {#limitations}
 
 As seguintes limitações se aplicam à atividade Load file:
@@ -63,6 +50,10 @@ Para obter limites sobre as atividades de canal e tela, consulte [Medidas de pro
 ## Pré-requisitos {#prerequisites}
 
 Antes de adicionar uma atividade **[!UICONTROL Carregar arquivo]** a uma campanha Orquestrada e conectá-la a uma atividade de mensagem, um administrador deve concluir a seguinte configuração única.
+
+Para usar a atividade **[!UICONTROL Carregar arquivo]** em uma campanha Orquestrada, a permissão **[!UICONTROL Gerenciar Arquivo em Campanhas Orquestradas]** deve ser atribuída aos usuários.
+
+Para obter instruções sobre como atribuir permissões, consulte [Gerenciar usuários e funções](../../administration/permissions.md).
 
 ### Criar uma dimensão de destino do tipo Arquivo {#file-target-dimension}
 
@@ -134,17 +125,17 @@ Use um arquivo de exemplo para configurar **[!UICONTROL Colunas]** e **[!UICONTR
    * **[!UICONTROL Tipo de dados]** — Tipo de dados na coluna.
    * **[!UICONTROL Permitir NULLs]** — Especifica como gerenciar valores vazios na coluna:
 
-      * **[!UICONTROL Padrão do Adobe Campaign]** — Gera um erro somente para campos numéricos. Caso contrário, insere um valor NULL.
-      * **[!UICONTROL Valor vazio permitido]** — Autoriza valores vazios. O valor NULL é então inserido.
-      * **[!UICONTROL Sempre preenchido]** — Gera um erro se um valor estiver vazio.
+     * **[!UICONTROL Padrão do Adobe Campaign]** — Gera um erro somente para campos numéricos. Caso contrário, insere um valor NULL.
+     * **[!UICONTROL Valor vazio permitido]** — Autoriza valores vazios. O valor NULL é então inserido.
+     * **[!UICONTROL Sempre preenchido]** — Gera um erro se um valor estiver vazio.
 
    * **[!UICONTROL Processamento de erros]** — Define o comportamento se um erro for encontrado na coluna:
 
-      * **[!UICONTROL Ignorar o valor]** — O valor é ignorado.
-      * **[!UICONTROL Rejeitar a linha]** — A linha inteira não é processada.
-      * **[!UICONTROL Usar um valor padrão em caso de erro]** — Substitui o valor que causa o erro por um valor padrão, definido no campo **[!UICONTROL Valor padrão]**.
-      * **[!UICONTROL Use um valor padrão caso o valor não seja remapeado]** — Substitui o valor que causa o erro por um valor padrão, definido no campo **[!UICONTROL Valor padrão]**, a menos que um mapeamento tenha sido definido para o valor incorreto.
-      * **[!UICONTROL Rejeitar a linha quando não houver um valor de remapeamento]** — A linha inteira só será processada se um mapeamento tiver sido definido para o valor incorreto.
+     * **[!UICONTROL Ignorar o valor]** — O valor é ignorado.
+     * **[!UICONTROL Rejeitar a linha]** — A linha inteira não é processada.
+     * **[!UICONTROL Usar um valor padrão em caso de erro]** — Substitui o valor que causa o erro por um valor padrão, definido no campo **[!UICONTROL Valor padrão]**.
+     * **[!UICONTROL Use um valor padrão caso o valor não seja remapeado]** — Substitui o valor que causa o erro por um valor padrão, definido no campo **[!UICONTROL Valor padrão]**, a menos que um mapeamento tenha sido definido para o valor incorreto.
+     * **[!UICONTROL Rejeitar a linha quando não houver um valor de remapeamento]** — A linha inteira só será processada se um mapeamento tiver sido definido para o valor incorreto.
 
    * **[!UICONTROL Valor padrão]** — Valor padrão a ser usado quando **[!UICONTROL Processamento de erros]** estiver definido para usar um valor padrão.
    * **[!UICONTROL Remapeamento de valores]** — Mapeie valores específicos para novos valores. Clique em **[!UICONTROL Adicionar mapeamento]** para definir cada mapeamento (por exemplo, substituir `True`/`False` por `1`/`0`).
@@ -163,14 +154,14 @@ Use um arquivo de exemplo para configurar **[!UICONTROL Colunas]** e **[!UICONTR
 
    * **[!UICONTROL Formato]** — Define como os valores numéricos do arquivo são lidos:
 
-      * **[!UICONTROL Outros]** — Defina o **[!UICONTROL Separador de milhar]** e o **[!UICONTROL Separador decimal]** na seção **[!UICONTROL Separadores]**.
-      * **[!UICONTROL 1.000.00]** — Vírgula como separador de milhares e ponto como separador decimal.
-      * **[!UICONTROL 1 000,00]** — Espaço como separador de milhares e vírgula como separador decimal.
+     * **[!UICONTROL Outros]** — Defina o **[!UICONTROL Separador de milhar]** e o **[!UICONTROL Separador decimal]** na seção **[!UICONTROL Separadores]**.
+     * **[!UICONTROL 1.000.00]** — Vírgula como separador de milhares e ponto como separador decimal.
+     * **[!UICONTROL 1 000,00]** — Espaço como separador de milhares e vírgula como separador decimal.
 
    * **[!UICONTROL Separadores]** (quando **[!UICONTROL Formato]** for **[!UICONTROL Outros]**):
 
-      * **[!UICONTROL Separador de milhares]** — Caractere que agrupa milhares em valores numéricos (deixe vazio se não for usado).
-      * **[!UICONTROL Separador decimal]** — Caractere usado para a parte decimal de valores numéricos (por exemplo, `,` ou `.`).
+     * **[!UICONTROL Separador de milhares]** — Caractere que agrupa milhares em valores numéricos (deixe vazio se não for usado).
+     * **[!UICONTROL Separador decimal]** — Caractere usado para a parte decimal de valores numéricos (por exemplo, `,` ou `.`).
 
    +++
 
@@ -183,14 +174,14 @@ Use um arquivo de exemplo para configurar **[!UICONTROL Colunas]** e **[!UICONTR
    * **[!UICONTROL Formato de data]** — Padrão que corresponde à forma como as datas aparecem no arquivo (por exemplo, `yyyy/mm/dd`).
    * **[!UICONTROL Separadores]**:
 
-      * **[!UICONTROL Ano, mês, dia]** — Caractere entre os componentes ano, mês e dia (por exemplo, `/`).
+     * **[!UICONTROL Ano, mês, dia]** — Caractere entre os componentes ano, mês e dia (por exemplo, `/`).
 
    **Hora**
 
    * **[!UICONTROL Formato de hora]** — Padrão que corresponde a como as horas aparecem no arquivo (por exemplo, `13:30` para horas e minutos de 24 horas).
    * **[!UICONTROL Separadores]**:
 
-      * **[!UICONTROL Hour, minute, second]** — Caractere entre a hora, o minuto e o segundo componente (por exemplo, `:`).
+     * **[!UICONTROL Hour, minute, second]** — Caractere entre a hora, o minuto e o segundo componente (por exemplo, `:`).
 
    **Data e hora**
 
