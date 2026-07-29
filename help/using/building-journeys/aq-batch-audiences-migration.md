@@ -9,15 +9,11 @@ role: User
 level: Intermediate
 keywords: qualificação de público, público em lote, descontinuação, migração, público de leitura, público de transmissão
 exl-id: f3c2a7d1-b58e-4a92-c3d5-0e871f2a9b4c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-source-git-commit: 4a5cbd65b7046e8f1b82147cdc2cd61a3991c258
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+source-git-commit: 2411f0ba2371933c3af101603c28032e9cdcc7d2
 workflow-type: tm+mt
-source-wordcount: 867
+source-wordcount: 909
 ht-degree: 0%
 
 ---
@@ -25,11 +21,11 @@ ht-degree: 0%
 
 # Migrar públicos em lote de jornadas de qualificação de público-alvo {#aq-batch-migration}
 
-A partir de agosto de 2026, a Journey Optimizer bloqueará a publicação de jornadas que usam um público-alvo em lote em um nó de qualificação de público-alvo. Identifique seu caso de uso abaixo e siga o caminho de migração recomendado.
+A partir de setembro de 2026, o Journey Optimizer bloqueará a publicação de jornadas que usam um público-alvo em lote em um nó de Qualificação de público-alvo ou em Critérios de saída. Identifique seu caso de uso abaixo e siga o caminho de migração recomendado.
 
 >[!CAUTION]
 >
->**Data de aplicação: agosto de 2026.** Jornadas novas, de rascunho e duplicadas usando um público-alvo em lote em um nó de Qualificação de público-alvo não podem ser publicadas após essa data. Um aviso de validação já foi exibido na tela de jornada desde a versão de junho de 2026.
+>**Data de aplicação: setembro de 2026.** Jornadas novas, de rascunho e duplicadas que usam um público-alvo em lote em um nó de Qualificação de público-alvo ou em Critérios de saída não podem ser publicadas após essa data. Um aviso de validação já foi exibido na tela de jornada desde a versão de junho de 2026.
 
 ## Por que essa mudança {#why}
 
@@ -39,12 +35,14 @@ Quando um público-alvo em lote é usado com um nó de Qualificação de públic
 
 A atividade **[Ler público-alvo](read-audience.md)** é a ferramenta certa para casos de uso baseados em lote: ela é criada para lidar com o processamento em massa agendado de maneira controlada e previsível.
 
+**[O critério de saída](journey-properties.md#exit-criteria)** depende do mesmo mecanismo de **[!UICONTROL Qualificação de Público-Alvo]** que o nó de entrada, portanto, está sujeito às mesmas limitações. A partir de agora, use uma audiência de streaming ao configurar **[!UICONTROL Critério de saída]**.
+
 ## Como suas jornadas são afetadas {#impact}
 
-Uma jornada em tempo real que usa um público-alvo em lote em um nó de Qualificação de público-alvo continua a ser executada após agosto de 2026. No entanto, se você interromper, duplicar ou republicar a jornada, ela será bloqueada até que a configuração seja atualizada.
+Uma jornada em tempo real que usa um público-alvo em lote em um nó de Qualificação de público-alvo ou Critérios de saída continua a ser executada após setembro de 2026. No entanto, se você interromper, duplicar ou republicar a jornada, ela será bloqueada até que a configuração seja atualizada.
 
 
-| Status da jornada | Impacto após agosto de 2026 |
+| Status da jornada | Impacto após setembro de 2026 |
 | --- | --- |
 | **jornada ao vivo** | Não afetado. As jornadas ativas existentes continuam em execução. Sem parada automática. |
 | **Novas jornadas** | Bloqueado da publicação até que o público-alvo do lote seja substituído. |

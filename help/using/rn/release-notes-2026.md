@@ -8,15 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2732c1a2b177c3317974f8ec91cfde911ac2bcf6
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 2411f0ba2371933c3af101603c28032e9cdcc7d2
 workflow-type: tm+mt
-source-wordcount: 10049
+source-wordcount: 10054
 ht-degree: 95%
 
 ---
@@ -110,7 +106,7 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão. A
 </table>
 
 
-* [!BADGE Descontinuação]{type=Negative} **Públicos-alvo em lote descontinuados no nó de Qualificação de Público-Alvo** - A partir de **agosto de 2026**, a Journey Optimizer bloqueará a publicação de qualquer jornada usando um público-alvo em lote em um nó **Qualificação de Público-Alvo**. Um aviso de validação já foi exibido na tela de jornada. As jornadas ativas existentes não são afetadas. As jornadas novas, de rascunho e duplicadas que incluem essa configuração devem ser atualizadas antes de agosto de 2026. Use um público-alvo de transmissão no nó Qualificação de público-alvo ou alterne para uma atividade **Ler público-alvo**. [Saiba como migrar suas jornadas](../building-journeys/aq-batch-audiences-migration.md)
+* [!BADGE Descontinuação]{type=Negative} **Públicos-alvo em lote não são mais suportados no nó de Qualificação de Público-Alvo e nos Critérios de Saída** - A partir de setembro de 2026, a Journey Optimizer bloqueará a publicação de qualquer jornada usando um público-alvo em lote em um nó de Qualificação de Público-Alvo ou nos Critérios de Saída. As jornadas ativas existentes não são afetadas. As jornadas novas, de rascunho e duplicadas que incluem essa configuração devem ser atualizadas antes de setembro de 2026. Use um público-alvo de transmissão no nó Qualificação do público-alvo ou alterne para uma atividade Ler público-alvo. Para Critérios de saída, use um público-alvo de transmissão. [Saiba como migrar suas jornadas](../building-journeys/aq-batch-audiences-migration.md)
 
 * **Parar uma jornada pausada diretamente** - Agora é possível parar uma jornada diretamente do estado **Pausado**. Anteriormente, uma jornada pausada tinha que ser retomada ao **Live** antes de ser interrompida. [Leia mais](../building-journeys/journey-pause.md#stop-close-paused)
 
@@ -1079,7 +1075,7 @@ As seções [Novos recursos](#march-26-features) e [Melhorias](#march-26-improv)
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Data de lançamento**: 24 a 25 de março de 2026
@@ -1833,7 +1829,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Verificações de qualidade de conteúdo do Assistente de IA**: além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas de <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou falhas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality).
 
-  [Conheça este recurso no vídeo](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on).
+  [Conheça este recurso no vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Jornadas
 
