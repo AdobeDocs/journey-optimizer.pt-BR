@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 275d8ae4307bbd6b96711ceabf171bd33c413823
 workflow-type: tm+mt
-source-wordcount: 3613
+source-wordcount: 3652
 ht-degree: 26%
 
 ---
@@ -147,6 +147,10 @@ A tabela **[!UICONTROL Métricas de envio por email]** oferece um resumo abrange
 * **[!UICONTROL Aberturas]**: Número de vezes que uma mensagem foi aberta.
 
 * **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado.
+
+* **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
+
+* **[!UICONTROL CTR estimado]** (taxa de cliques): calculado como cliques estimados em relação ao número total de mensagens entregues.
 
 * **[!UICONTROL Cancelar assinatura]**: Número de cliques no link de cancelamento de assinatura.
 

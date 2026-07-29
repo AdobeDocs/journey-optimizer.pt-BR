@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: 65caf63a1d7a2c6243f5f7b59237011777ae2421
 workflow-type: tm+mt
-source-wordcount: 1650
-ht-degree: 90%
+source-wordcount: 1516
+ht-degree: 98%
 
 ---
 
@@ -393,36 +393,3 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >abstract="A atividade **Linha** permite adicionar uma ação LINE à sua campanha orquestrada. Crie conteúdo personalizado, desde textos e adesivos até imagens, vídeos, localizações e Flex Messages, para engajar clientes no LINE."
 
 
-<!-- Onboarding hub -->
-
->[!CONTEXTUALHELP]
->id="ajo_migration_connection_name"
->title="Nome da conexão"
->abstract="Um nome descritivo que identifica o sistema de origem (por exemplo, &quot;Marketing-Automation-Prod&quot;). Deve começar com uma letra e conter apenas alfanuméricos, sublinhados ou hifens (4 a 50 caracteres)."
-
-
->[!CONTEXTUALHELP]
->id="ajo_migration_base_api_url"
->title="URL base da API"
->abstract="O URL raiz da API, sem caminhos de recursos ou sequências de consulta, por exemplo, https://api.example.com."
-
->[!CONTEXTUALHELP]
->id="ajo_migration_authentication_method"
->title="Escolha de um método de autenticação"
->abstract="A Chave de API envia uma única credencial com cada solicitação, enquanto o OAuth 2.0 usa um protocolo baseado em token mais adequado para APIs corporativas e de terceiros."
-
->[!CONTEXTUALHELP]
->id="ajo_migration_client_id"
->title="ID de cliente"
->abstract="O identificador público do seu aplicativo, emitido quando você se registra no servidor de autorização."
-
->[!CONTEXTUALHELP]
->id="ajo_migration_client_secret"
->title="Segredo do cliente"
->abstract="Uma credencial confidencial conhecida somente pelo seu aplicativo e pelo servidor de autorização. Nunca o exponha no código do lado do cliente."
-
-
->[!CONTEXTUALHELP]
->id="ajo_migration_token_url"
->title="URL do token"
->abstract="O ponto de extremidade do servidor de autorização que emite tokens de acesso para o fluxo de credenciais do cliente, normalmente terminando em /oauth/token ou /token."

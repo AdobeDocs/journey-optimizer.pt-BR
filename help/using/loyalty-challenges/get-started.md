@@ -11,9 +11,9 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ad21aab9b3f0ead95f8c70d4315bd4afdda23d58
+source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: 964
 ht-degree: 13%
 
 ---
@@ -59,6 +59,8 @@ Você pode criar estes tipos de experiências de desafio:
 
 >[!TIP]
 >Você também pode criar e gerenciar desafios de fidelidade usando o **Gerenciamento de Desafio de Fidelidade** na [Habilidades de Jornada do CX Co-worker](../start/ajo-coworker-skills.md#loyalty-challenge-management) com prompts de linguagem natural para a criação mais rápida de desafios.
+
+➡️ [Assista a uma visão geral do recurso](#video)
 
 ## Como funciona {#how-it-works}
 
@@ -172,4 +174,10 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
 ## Referência da API {#api-reference}
 
 Para gerenciar desafios de fidelidade de forma programática, use a [API de Desafios de Fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}. A API permite criar, atualizar e gerenciar desafios e tarefas por meio de endpoints REST.
+
+## Vídeo tutorial {#video}
+
+**Novo nos Desafios de Fidelidade?** Assista a esta visão geral para entender os recursos e benefícios:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496455?captions=por_br&quality=12)
 

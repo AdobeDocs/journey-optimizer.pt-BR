@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 99edb847dc2282460f5cec8491e971702f6bf872
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
-source-wordcount: 4991
+source-wordcount: 5041
 ht-degree: 10%
 
 ---
@@ -359,6 +359,10 @@ Para saber mais sobre as políticas de mesclagem, consulte a [[!DNL Adobe Experi
 
 ## Critérios de saída {#exit-criteria}
 
+>[!CAUTION]
+>
+>**Aviso de descontinuação - setembro de 2026**: a partir de **setembro de 2026**, a Journey Optimizer bloqueará a publicação para qualquer jornada que use um público em lotes em um **Critério de saída**. As jornadas ativas existentes não são afetadas. As jornadas novas, de rascunho e duplicadas com essa configuração devem ser atualizadas antes de setembro de 2026. [Saiba como migrar suas jornadas](aq-batch-audiences-migration.md)
+
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="Critérios de saída"
@@ -430,8 +434,8 @@ As seguintes medidas de proteção se aplicam ao usar o recurso [Critérios de S
 * **Disponível somente em jornadas pausadas**\
   Você pode adicionar ou editar os critérios de saída do &quot;Atributo de perfil&quot; somente quando a jornada está pausada.
 
-   * Em uma **jornada de rascunho**, a opção *Atributo de Perfil* aparece desabilitada (somente leitura), enquanto as opções *Evento* e *Público-alvo* permanecem ativas.
-   * Em uma jornada **pausada**, a opção *Atributo de Perfil* torna-se editável, e as opções *Evento* e *Público* tornam-se somente leitura.
+  * Em uma **jornada de rascunho**, a opção *Atributo de Perfil* aparece desabilitada (somente leitura), enquanto as opções *Evento* e *Público-alvo* permanecem ativas.
+  * Em uma jornada **pausada**, a opção *Atributo de Perfil* torna-se editável, e as opções *Evento* e *Público* tornam-se somente leitura.
 
 ### Tópicos relacionados {#exit-criteria-related}
 

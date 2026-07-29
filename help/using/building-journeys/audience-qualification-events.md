@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 475dd5e591f1c0527238efcdf118eaa435d801a4
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
 source-wordcount: 2584
 ht-degree: 9%
@@ -156,7 +156,7 @@ A velocidade de recepção dessas informações é alta. As medidas mostram 10.0
 
 >[!CAUTION]
 >
->**Aviso de descontinuação - agosto de 2026**: a partir de **agosto de 2026**, a Journey Optimizer bloqueará a publicação de qualquer jornada que use um público em lotes em um nó **Qualificação de público-alvo**. As jornadas ativas existentes não são afetadas. As jornadas novas, de rascunho e duplicadas com essa configuração devem ser atualizadas antes de agosto de 2026. [Saiba como migrar suas jornadas](aq-batch-audiences-migration.md)
+>**Aviso de descontinuação - setembro de 2026**: a partir de **setembro de 2026**, a Journey Optimizer bloqueará a publicação para qualquer jornada que use um público em lotes em um nó **Qualificação de público-alvo**. As jornadas ativas existentes não são afetadas. As jornadas novas, de rascunho e duplicadas com essa configuração devem ser atualizadas antes de setembro de 2026. [Saiba como migrar suas jornadas](aq-batch-audiences-migration.md)
 
 Ao usar a Qualificação de público-alvo para um público-alvo em lote, observe que um pico de entrada ocorre no momento do cálculo diário. O tamanho do pico depende de quantos indivíduos entram ou saem do público a cada dia.
 
@@ -227,8 +227,8 @@ Siga as medidas de proteção e recomendações abaixo para criar jornadas de qu
 
 * [!DNL Adobe Experience Platform] públicos-alvo são calculados uma vez por dia (**batch** públicos-alvo) ou em tempo real (para **públicos-alvo transmitidos**, usando a opção Públicos-alvo de Alta Frequência de [!DNL Adobe Experience Platform]).
 
-   * Se o público-alvo selecionado for transmitido, os indivíduos que pertencem a esse público-alvo potencialmente entram na jornada em tempo real.
-   * Se o público-alvo for em lote, as pessoas recém-qualificadas para esse público-alvo potencialmente entrarão na jornada quando o cálculo do público for executado em [!DNL Adobe Experience Platform].
+  * Se o público-alvo selecionado for transmitido, os indivíduos que pertencem a esse público-alvo potencialmente entram na jornada em tempo real.
+  * Se o público-alvo for em lote, as pessoas recém-qualificadas para esse público-alvo potencialmente entrarão na jornada quando o cálculo do público for executado em [!DNL Adobe Experience Platform].
 
   Como prática recomendada, use a transmissão de públicos-alvo em uma atividade **Qualificação de público-alvo**. Para casos de uso em lote, use uma atividade **[Ler público](read-audience.md)**.
 

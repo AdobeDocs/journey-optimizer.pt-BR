@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
-source-wordcount: '2584'
+source-wordcount: '2521'
 ht-degree: 8%
 
 ---
@@ -30,15 +30,7 @@ A criação de um desafio envolve as seguintes etapas:
 1. **[Publicar o desafio](#launch)** — Disponibilize o desafio para geração de jornadas.
 1. **[Gerar e publicar a jornada](#launch)** — Acione a jornada gerada automaticamente que oferece o desafio aos clientes.
 
-A criação de um desafio envolve as seguintes etapas:
-
-1. **[Criar o desafio](#create-the-challenge)** — Selecione um tipo de desafio e abra o editor de desafio.
-1. **[Definir configurações](#settings)** — Defina o nome do desafio, o público-alvo, o agendamento, as regras de aceitação e os limites de repetição.
-1. **[Configurar estrutura](#structure)** — Adicione tarefas e recompensas (não aplicável para trazer seus próprios desafios de dados).
-1. **[Configurar conteúdo](#configure-content-cards)** *(opcional)* — Defina como o desafio será exibido para os membros usando um cartão de conteúdo ou uma experiência baseada em código.
-1. **[Configurar mensagens](#configure-messaging)** *(opcional)* — Configurar mensagens de canal para os estágios de Inicialização, Em andamento e Término.
-1. **[Publicar o desafio](#launch)** — Disponibilize o desafio para geração de jornadas.
-1. **[Gerar e publicar a jornada](#launch)** — Acione a jornada gerada automaticamente que oferece o desafio aos clientes.
+➡️ [Veja como criar desafios](#video)
 
 ## Criar o desafio {#create-the-challenge}
 
@@ -363,4 +355,16 @@ Você tem duas opções para iniciar seu desafio:
    ![](assets/challenge-create-journey.png)
 
 1. Quando seu desafio estiver ativo, monitore os KPIs do programa, os resultados do desafio e as métricas no nível da tarefa nos [relatórios de desafio de fidelidade](loyalty-reporting.md). Você também pode monitorar a entrega de mensagens no [relatório de jornadas](../reports/journey-global-report-cja.md).
+
+## Vídeos tutoriais {#video}
+
+Saiba como criar e configurar desafios de fidelidade com estes tutoriais de vídeo passo a passo:
+
+**Configurar um desafio de fidelidade** - Criar e configurar um novo desafio de fidelidade
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
+
+**Configurar recompensas** - Configurar entrega e atendimento de recompensa
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
