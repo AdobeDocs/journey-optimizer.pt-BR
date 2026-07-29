@@ -7,9 +7,9 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 512c6ce7550abb6265d5ed9790d98d3486e5d2cf
+source-git-commit: 8400f5603934b6f9dfe9fe9df00aa5eb0736f847
 workflow-type: tm+mt
-source-wordcount: '2861'
+source-wordcount: '2860'
 ht-degree: 7%
 
 ---
@@ -44,7 +44,7 @@ O CX Co-worker oferece várias habilidades para gerenciar Jornadas e desafios de
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -112,10 +112,10 @@ O Jornada Create oferece recursos que podem ser aproveitados para acelerar a exe
    * Crie ramificações de decisão com base nos atributos do cliente.
    * Criar caminhos divididos que se adaptam às preferências do cliente.
 
-&lt;!-1. **Criar jornada a partir da imagem**
+1. **Criar jornada a partir da imagem**
 
-    * Carregue uma imagem de referência no colega de trabalho e peça para criar uma jornada usando a imagem como referência
-    * A habilidade de criação de Jornadas extrairá um prompt editável da sua imagem de referência—>
+   * Faça upload de uma imagem de referência no colaborador e peça para criar uma jornada usando a imagem como referência
+   * A habilidade de criação de jornada extrairá um prompt editável da imagem de referência
 
 Com essa habilidade, os requisitos de idioma natural são traduzidos em configurações de jornada estruturadas.
 
@@ -485,6 +485,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
