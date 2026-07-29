@@ -11,9 +11,9 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 297835f62000d93ee8c8a7351db815c1ea3ca798
+source-git-commit: 8248d158b42650e91bc16770264eadce2b528508
 workflow-type: tm+mt
-source-wordcount: 3012
+source-wordcount: 3102
 ht-degree: 0%
 
 ---
@@ -89,6 +89,8 @@ Continue com [Criar e gerenciar usuários simulados](#test-users), [Acionar seus
 
 Os usuários simulados são entidades temporárias semelhantes a perfis definidas em **[!UICONTROL Configurações de simulação]**. Esta seção aborda como criá-los, salvá-los para reutilização, ajustá-los ou removê-los da lista e enviá-los para a jornada.
 
+Se sua jornada usar um público externo, por exemplo, um público-alvo CSV ou Federated Audience Composition, e suas condições, expressões ou personalização dependerem dos atributos de enriquecimento dele, você poderá simular esses atributos em um usuário simulado da mesma forma que os atributos do perfil. Isso permite direcionar o usuário para uma ramificação específica com base no valor definido, sem executar o público-alvo real.
+
 1. Comece preenchendo a lista **[!UICONTROL Usuários de teste]**:
 
    +++ Gerar usuários com IA
@@ -125,6 +127,8 @@ Os usuários simulados são entidades temporárias semelhantes a perfis definida
 
    1. Em seguida, selecione os atributos do esquema Union que deseja preencher para este usuário. Observe que somente os atributos usados na jornada atual, por exemplo, em expressões ou personalização, estão disponíveis aqui.
 
+      Os atributos são agrupados por origem, em seções separadas para atributos de perfil e, se a jornada ler um público externo, como um público-alvo CSV ou de Composição de público federado, para os atributos de enriquecimento desse público-alvo.
+
    1. Clique em **[!UICONTROL Adicionar associação de público-alvo]** para simular associações de segmento.
 
    1. Na janela **[!UICONTROL Criar Usuários Simulados]**, clique em **[!UICONTROL Adicionar usuário simulado]** para definir vários usuários simulados em uma sessão.
@@ -145,7 +149,7 @@ Os usuários simulados são entidades temporárias semelhantes a perfis definida
 
    Em **[!UICONTROL Criar Usuários Simulados]**, edite o modelo JSON para definir os usuários e clique em **[!UICONTROL Formatar JSON]** e **[!UICONTROL Salvar]**.
 
-   Observe que **[!UICONTROL Criar a partir de JSON]** e **[!UICONTROL Atualizar a partir de JSON]** fornecem acesso a todos os atributos, independentemente do que a jornada atual usa.
+   Observe que **[!UICONTROL Criar a partir de JSON]** e **[!UICONTROL Atualizar a partir de JSON]** fornecem acesso a todos os atributos armazenados no usuário simulado, incluindo atributos de perfil e, se aplicável, atributos de enriquecimento de um público externo, como um público CSV ou Composição de Público Federado.
 
    ![Criar editor JSON de Usuários Simulados com modelo de usuários e controle Formatar JSON](assets/simulate-json.png)
 
@@ -204,7 +208,7 @@ Os usuários simulados são entidades temporárias semelhantes a perfis definida
 
 1. Ao concluir o teste, abra o menu **[!UICONTROL Gerenciar simulação]**:
 
-   * **[!UICONTROL Fechar simulação]** para sair da sessão de simulação atual.
+   * **[!UICONTROL Parar simulação]** para sair da sessão de simulação atual.
    * **[!UICONTROL Redefinir simulação]** para limpar todos os dados da execução atual, usuários simulados selecionados, valores de eventos definidos e outras configurações de teste, para que você possa iniciar uma nova simulação do zero.
 
      ![Gerenciar menu de simulação aberto com Redefinir simulação e Fechar opções de simulação](assets/simulate-15.png)
@@ -247,10 +251,10 @@ Se a jornada incluir um ou mais eventos unitários, é possível acioná-los enq
 
 1. Ao concluir o teste, abra o menu **[!UICONTROL Gerenciar simulação]**:
 
-   * **[!UICONTROL Fechar simulação]** para sair da sessão de simulação atual.
+   * **[!UICONTROL Parar simulação]** para sair da sessão de simulação atual.
    * **[!UICONTROL Redefinir simulação]** para limpar todos os dados da execução atual, usuários simulados selecionados, valores de eventos definidos e outras configurações de teste, para que você possa iniciar uma nova simulação do zero.
 
-     ![Gerenciar menu de simulação aberto com Redefinir simulação e Fechar opções de simulação](assets/simulate-15.png)
+     ![Gerenciar menu de simulação aberto com as opções Redefinir simulação e Parar simulação](assets/simulate-15.png)
 
 ## Exibir resultados {#viewing-results}
 
