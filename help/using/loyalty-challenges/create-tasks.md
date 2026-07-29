@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
 workflow-type: tm+mt
-source-wordcount: 1104
+source-wordcount: 1125
 ht-degree: 9%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 9%
 As tarefas definem as ações ou marcos específicos que os clientes devem concluir para ganhar recompensas em um desafio de fidelidade. Você pode configurar tarefas de compras e gastos, ou tarefas de **[!UICONTROL Eventos personalizados]** que rastreiam eventos de experiência do Adobe Experience Platform que sua organização já captura.
 
 Cada tarefa representa uma ação mensurável que contribui para a conclusão do desafio. As tarefas são componentes reutilizáveis que podem ser criados de forma independente e depois adicionados a um ou mais desafios, ou criados diretamente dentro de um desafio.
+
+➡️ [Veja como criar tarefas](#video)
 
 ## Criar uma tarefa {#create-task}
 
@@ -163,4 +165,10 @@ No painel de tarefas **[!UICONTROL Propriedades]**, configure as informações b
 ![](assets/tasks-create-properties.png)
 
 Após configurar todos os atributos e propriedades, selecione **[!UICONTROL Criar]** para salvar a tarefa. A tarefa é salva no inventário de tarefas e, se criada a partir de um desafio, é automaticamente adicionada a esse desafio.
+
+## Vídeo tutorial {#video}
+
+Saiba como criar e configurar tarefas com este tutorial passo a passo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496442?quality=12)
 
