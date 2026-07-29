@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 8731e10c9a6278c34cd0db8ccdec112f2d5c90d8
+source-git-commit: b336656fb484583e5da6a8cfb7a61efcfee21a95
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3501'
 ht-degree: 94%
 
 ---
@@ -314,6 +314,7 @@ ht-degree: 94%
       + Criar conteúdo {#add-content}
         + {hide-from-toc}[Crie seu conteúdo](/help/rp_landing_pages/add-content-landing-page.md)
         + [Usar componentes de conteúdo](using/email/content-components.md)
+        + [Usar módulos](using/email/email-modules.md)
         + [Aproveitar fragmentos visuais](using/email/use-visual-fragments.md)
         + [Adicionar links e rastrear mensagens](using/email/message-tracking.md)
         + [Personalizar URLs](using/email/url-personalization.md)
