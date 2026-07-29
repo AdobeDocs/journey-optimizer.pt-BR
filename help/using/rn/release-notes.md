@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 990e2d70954c7a2b1c0cdd2a0934b6ad20924e28
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f5ad5b5015820b4711e3ec5a39cc0122b45992c0
 workflow-type: tm+mt
-source-wordcount: 2408
-ht-degree: 22%
+source-wordcount: 2879
+ht-degree: 19%
 
 ---
 
@@ -74,9 +62,9 @@ A Journey Optimizer apresenta os desafios de fidelidade, um novo recurso nesta v
 </tbody>
 </table>
 
-### Canais de saída {#july-26-outbound-channels}
+### Canais {#july-26-channels}
 
-O recurso a seguir foi introduzido nesta versão.
+Os recursos e melhorias a seguir foram introduzidos nesta versão.
 
 <table>
 <thead>
@@ -105,6 +93,26 @@ O recurso a seguir foi introduzido nesta versão.
 
 +++ Em breve
 
+<table>
+<thead>
+<tr>
+<th><strong>Canal de saída personalizado</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Journey Optimizer agora apresenta os Canais personalizados, um novo recurso que permite aos administradores trazer qualquer canal de mensagens baseado em HTTP de saída — como WeChat, Kakao Talk, Messenger ou um provedor proprietário — diretamente para o Journey Optimizer por meio de um Construtor de canal sem código.</p >
+<p>Depois de configurados, os canais personalizados ficam disponíveis em campanhas, jornadas e campanhas orquestradas, com o mesmo conjunto completo de recursos dos canais nativos: personalização com o editor de expressão, experimentação de conteúdo, pré-visualização e prova, relatórios prontos para uso e aplicação de consentimento e governança.</p>
+<p>Isso preenche uma lacuna anteriormente abordada por ações personalizadas, que são limitadas apenas a jornadas e não têm recursos de canal dedicados.</p>
+<p>Os canais de saída personalizados estão disponíveis no momento como Disponibilidade limitada. Para obter acesso, entre em contato com um representante da Adobe.</p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
 * **Canal do WhatsApp: suporte a modelos de fluxo do WhatsApp** - Agora você pode enviar modelos de fluxo do WhatsApp no Adobe Journey Optimizer para fornecer experiências interativas em várias telas, como pesquisas e captura de leads. As respostas são capturadas no envio e armazenadas como cargas JSON brutas no novo conjunto de dados de evento de rastreamento de canal do Journey Optimizer.
 
 * **Integrações aprimoradas do provedor personalizado - Dispositivo móvel** - As integrações personalizadas do provedor agora oferecem maior flexibilidade com mensagens principais e atualizações de cabeçalho:
@@ -114,6 +122,54 @@ O recurso a seguir foi introduzido nesta versão.
   * Suporte a carga SMS: adição de suporte para funções auxiliares do Adobe Journey Optimizer na carga SMS, incluindo encode64.
 
 +++
+
+### Design de email {#july-26-email}
+
+Os seguintes recursos e melhorias foram adicionados ao design de email nesta versão.
+
+<table>
+<thead>
+<tr>
+<th><strong>Módulos no Designer de email</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Designer de email agora inclui uma biblioteca de módulos de layout prontos para uso — como cabeçalhos, cartões de produto, blocos de informações e rodapés — que você pode arrastar e soltar diretamente na tela do email.</p>
+<p>Cada módulo vem pré-configurado com propriedades editáveis (imagem, título, texto, botão, links) e pode ser totalmente personalizado por meio da interface WYSIWYG, acelerando a criação de emails sem exigir a construção de estruturas do zero.</p>
+<p><img src="assets/do-not-localize/email-modules.gif"></p>
+<p>Para obter mais informações, consulte a <a href="../email/email-modules.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 29 de julho de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Verificação de conteúdo no Designer de email (disponibilidade geral)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Journey Optimizer agora inclui validação técnica automatizada diretamente no Designer de email, ajudando a detectar problemas no HTML e no CSS antes do envio.</p>
+<p>As verificações abrangem elementos incompatíveis, como tags <code>&lt;script&gt;</code> e <code>&lt;base&gt;</code>, divs em branco que podem quebrar o layout no Microsoft Outlook, tags HTML meta refresh e limites de tamanho de CSS ou HTML que causam falhas de renderização no Gmail.</p>
+<p>Os resultados são exibidos como erros, avisos ou avisos informativos diretamente no painel de criação, com detalhes contextuais e correções com um clique, quando disponíveis, para que os problemas possam ser resolvidos sem sair do editor.</p>
+<p>Anteriormente em Disponibilidade limitada, esse recurso agora está disponível para todos os clientes.</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>Para obter mais informações, consulte a <a href="../email/content-check.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 16 de julho de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Suporte a fragmentos de expressão no`<head>`** - Os fragmentos de expressão agora podem ser usados no `<head>` de modelos de email. Isso permite centralizar o estilo ou qualquer código personalizado em um único fragmento e reutilizá-lo em vários modelos. Quando um fragmento é atualizado e republicado, todos os emails criados a partir de modelos que fazem referência a ele herdam automaticamente o código mais recente, eliminando a necessidade de atualizar manualmente cada email individualmente. [Saiba mais](../personalization/use-expression-fragments.md)
+
+  Data de disponibilidade: 29 de julho de 2026
 
 ### Jornadas {#july-26-journeys}
 
@@ -142,59 +198,6 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão.
 +++ Em breve
 
 * **Públicos-alvo externos na Simulação de Jornada** - A Simulação de Jornada agora oferece suporte a Públicos-alvo Externos. Ao simular jornadas direcionadas a públicos-alvo de CSV ou Composição de público-alvo federado, você pode simular atributos de enriquecimento desses públicos-alvo diretamente pelo formulário da interface ou por uma importação de JSON. A interface do usuário exibe dinamicamente apenas os atributos específicos de enriquecimento usados na lógica de jornada, permitindo a validação precisa das ramificações de decisão e regras de personalização antes da ativação.
-
-+++
-
-### Designer de email {#july-26-email}
-
-Os seguintes recursos e melhorias foram adicionados ao canal de email nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Módulos no Designer de email</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Designer de email agora inclui uma biblioteca de módulos de layout prontos para uso — como cabeçalhos, cartões de produto, blocos de informações e rodapés — que você pode arrastar e soltar diretamente na tela do email.</p>
-<p>Cada módulo vem pré-configurado com propriedades editáveis (imagem, título, texto, botão, links) e pode ser totalmente personalizado por meio da interface WYSIWYG, acelerando a criação de emails sem exigir a construção de estruturas do zero.</p>
-<p><img src="assets/do-not-localize/email-modules.gif"></p>
-<p>Data de disponibilidade: 29 de julho de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Verificação de conteúdo no Designer de email (disponibilidade geral)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Journey Optimizer agora inclui validação técnica automatizada diretamente no Designer de email, ajudando a detectar problemas no HTML e no CSS antes do envio.</p>
-<p>As verificações abrangem elementos incompatíveis, como tags <code>&lt;script&gt;</code> e <code>&lt;base&gt;</code>, divs em branco que podem quebrar o layout no Microsoft Outlook, tags HTML meta refresh e limites de tamanho de CSS ou HTML que causam falhas de renderização no Gmail.</p>
-<p>Os resultados são exibidos como erros, avisos ou avisos informativos diretamente no painel de criação, com detalhes contextuais e correções com um clique, quando disponíveis, para que os problemas possam ser resolvidos sem sair do editor.</p>
-<p>Anteriormente em Disponibilidade limitada, esse recurso agora está disponível para todos os clientes.</p>
-<p><img src="assets/do-not-localize/content-check.gif"></p>
-<p>Para obter mais informações, consulte a <a href="../email/content-check.md">documentação detalhada</a>.</p>
-<p>Data de disponibilidade: 16 de julho de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Suporte a fragmentos de expressão em `<head>` de modelos de email** - Os fragmentos de expressão agora podem ser usados no `<head>` de modelos de email. Isso permite centralizar o estilo ou qualquer código personalizado em um único fragmento e reutilizá-lo em vários modelos. Quando um fragmento é atualizado e republicado, todos os emails criados a partir de modelos que fazem referência a ele herdam automaticamente o código mais recente, eliminando a necessidade de atualizar manualmente cada email individualmente. [Saiba mais](../personalization/use-expression-fragments.md)
-
-### Campanhas {#campaigns}
-
-+++ Em breve
-
-* **Pastas para Campanhas** - Agora você pode organizar suas campanhas em pastas para melhorar a navegação e o gerenciamento na interface. Esse recurso está disponível somente para campanhas acionadas por Ação e API.
 
 +++
 
@@ -235,7 +238,7 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 
   [Saiba mais](../experience-decisioning/rules.md#build-rule-with-ai)
 
-* **Atributos personalizados dinâmicos de itens de decisão** - Os atributos personalizados de itens de decisão agora podem ser personalizados no momento da entrega usando dados de perfil, contextuais e de público-alvo. Isso elimina a necessidade de manter ofertas duplicadas para pequenas variações de conteúdo, permitindo que os profissionais de marketing gerenciem menos itens de decisão e mais flexíveis. [Leia mais](../experience-decisioning/items.md#attributes)
+* **Atributos personalizados dinâmicos de itens de decisão** - Os atributos personalizados de itens de decisão agora podem ser personalizados no momento da entrega usando dados de perfil, contextuais e de público-alvo. Isso elimina a necessidade de manter ofertas duplicadas para pequenas variações de conteúdo, permitindo que os profissionais de marketing gerenciem menos itens de decisão e mais flexíveis. [Saiba mais](../experience-decisioning/items.md#attributes)
 
   Data de disponibilidade: 27 de julho de 2026
 
@@ -318,6 +321,58 @@ A seguinte melhoria está chegando aos relatórios nesta versão.
 As seguintes melhorias foram adicionadas à administração e ao gerenciamento de dados nesta versão.
 
 * **Medidas de proteção de TTL (Time-to-live) do conjunto de dados — sandboxes existentes** - A medida de proteção TTL (time-to-live) para conjuntos de dados gerados pelo sistema da Journey Optimizer (90 dias no repositório de perfis, 13 meses no data lake) será aplicada em **sandboxes e organizações de clientes existentes** a partir de **1 de outubro de 2026**. [Saiba mais](../data/datasets-ttl.md#ttl-guardrail)
+
++++Em breve
+
+<table>
+<thead>
+<tr>
+<th><strong>Firewall de aplicativo da Web IP incluindo na lista de permissões</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Adobe Journey Optimizer agora é compatível com o IP Firewall de aplicativos da Web, que faz o incluir na lista de permissões de páginas de aterrissagem, permitindo que as organizações façam com que todas as solicitações recebidas sejam roteadas exclusivamente por meio da infraestrutura configurada do Firewall de aplicativos da Web. Com esse aprimoramento, os clientes podem configurar o Journey Optimizer para rejeitar qualquer solicitação direta que ignore a camada do Web Application Firewall, garantindo que as políticas de segurança definidas em ferramentas como o Imperva sejam aplicadas consistentemente.</p>
+<p>Esse recurso fortalece a postura de segurança para empresas com requisitos rigorosos de acesso à rede, dando a elas controle total sobre o fluxo de tráfego para as páginas de aterrissagem hospedadas pela Journey Optimizer.</p>
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Gerenciar domínios para personalização completa/básica da URL** - Agora é possível criar e gerenciar domínios aprovados para personalização completa e básica da URL diretamente das configurações de Administração no Adobe Journey Optimizer, sem precisar entrar em contato com o suporte da Adobe. <!--[Learn more](../email/url-personalization.md#personalize-complete-base-url)-->
+
++++
+
+### Campanhas {#campaigns}
+
++++ Em breve
+
+<table>
+<thead>
+<tr>
+<th><strong>Anexos personalizados do PDF em emails acionados por API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Journey Optimizer agora é compatível com a anexação de até cinco PDFs específicos do recipient por email em campanhas acionadas por API. Os arquivos do PDF são buscados com segurança do armazenamento do Azure ou do AWS e anexados no momento do envio, com o local de cada arquivo transmitido diretamente na carga da API. Isso permite que os sistemas de geração de documentos upstream existentes permaneçam em vigor, com o Journey Optimizer lidando com a entrega.</p>
+<p>Os casos de uso suportados incluem faturas, demonstrativos, tíquetes, contratos, etiquetas de remessa e documentos semelhantes que variam de acordo com o recipient. Os anexos personalizados do PDF estão disponíveis somente em campanhas acionadas por API e não são compatíveis com jornadas ou outros tipos de campanha (ação, orquestrada).</p>
+<p>Volumes e tamanhos de anexo maiores são suportados por meio do complemento de anexo do PDF; para obter mais informações, entre em contato com o representante da Adobe.</p>
+<p></p>
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Pastas para Campanhas** - Agora você pode organizar suas campanhas em pastas para melhorar a navegação e o gerenciamento na interface. Esse recurso está disponível somente para campanhas acionadas por Ação e API.
+
+* **Complemento de desempenho para taxa de transferência em campanhas acionadas por API - Push** - Um novo modo de mensagens transacionais de alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Anteriormente disponível apenas para o canal de email, esse recurso agora também está disponível para o canal de push, para organizações que compraram a oferta complementar de Mensagens transacionais de alta capacidade da Adobe. Entre em contato com seu representante da Adobe para obter mais detalhes. <!-- Documentation link: TBD -->
+
++++
 
 ### Melhorias de usabilidade {#july-26-usability}
 
