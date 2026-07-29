@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
 source-wordcount: '2521'
 ht-degree: 8%
@@ -360,11 +360,11 @@ Você tem duas opções para iniciar seu desafio:
 
 Saiba como criar e configurar desafios de fidelidade com estes tutoriais de vídeo passo a passo:
 
-* **Configurar um desafio de fidelidade** - Criar e configurar um novo desafio de fidelidade
+**Configurar um desafio de fidelidade** - Criar e configurar um novo desafio de fidelidade
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
-* **Configurar recompensas** - Configurar entrega e atendimento de recompensa
+**Configurar recompensas** - Configurar entrega e atendimento de recompensa
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
