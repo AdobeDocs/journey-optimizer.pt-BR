@@ -7,10 +7,10 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+source-git-commit: cff8240e727ea97c78087455fbf02367c80827ce
 workflow-type: tm+mt
-source-wordcount: '2902'
-ht-degree: 8%
+source-wordcount: '2860'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 ## Visão geral {#overview}
 
-O CX Co-worker traz recursos alimentados por IA para a Adobe Journey Optimizer. O [CX Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home){target="_blank"} é o assistente de IA conversacional da Adobe que se integra aos seus aplicativos comerciais para ajudá-lo a trabalhar com mais eficiência.
+O CX Co-worker traz recursos alimentados por IA para a Adobe Journey Optimizer. O [CX Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home){target="_blank"} é a experiência de conversação da Adobe que se integra aos seus aplicativos de negócios para ajudá-lo a trabalhar com mais eficiência.
 
 Com suas habilidades alimentadas por IA, o CX Co-worker permite que os usuários do Journey Optimizer criem, analisem e otimizem jornadas de marketing usando uma interface de linguagem natural. Com as Habilidades da Jornada, os profissionais podem criar jornadas rapidamente, detectar e resolver conflitos de agendamento ou público-alvo, analisar o desempenho e os pontos de queda e identificar jornadas de melhor desempenho a serem replicadas para campanhas futuras. Ele capacita os profissionais a tomar decisões orientadas por dados, melhorar o envolvimento do cliente e simplificar a orquestração de jornadas.
 
@@ -44,7 +44,7 @@ O CX Co-worker oferece várias habilidades para gerenciar Jornadas e desafios de
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -57,15 +57,15 @@ A Criação de jornadas permite que os usuários do Journey Optimizer criem e co
 
 >[!AVAILABILITY]
 >
->A opção Criar Jornada está disponível para clientes que fazem parte do programa Agent Orchestrator Explorer. Você também precisará das seguintes permissões para usar totalmente os recursos Criar do Jornada:
+>Você precisa das seguintes permissões para usar totalmente os recursos Criar do Jornada:
 >
->**Gerenciar Jornadas**: essa permissão permite que você crie novas jornadas diretamente no Assistente do AI.
+>**Gerenciar Jornadas**: essa permissão permite que você crie novas jornadas diretamente no CX Co-worker.
 >
->**Exibir eventos de Jornada, fontes de dados e ações**: essa permissão garante que o Assistente de IA possa realizar pesquisas em eventos de Jornada e ações personalizadas.
+>**Exibir eventos de Jornada, fontes de dados e ações**: essa permissão garante que o CX Co-worker possa realizar pesquisas por meio de eventos de Jornada e ações personalizadas.
 >
->**Exibir segmentos**: essa permissão garante que o Assistente de IA possa pesquisar segmentos de público-alvo ao criar uma Jornada.
+>**Exibir segmentos**: essa permissão garante que o CX Co-worker possa procurar segmentos de público-alvo ao criar uma Jornada.
 >
->**Gerenciar segmentos**: essa permissão permite criar novos públicos-alvo diretamente no Assistente de IA.
+>**Gerenciar segmentos**: essa permissão permite que você crie novos públicos diretamente no CX Co-worker.
 
 ### Principais casos de uso
 
@@ -294,19 +294,17 @@ As seguintes funcionalidades não são compatíveis no momento:
 
 As Habilidades de Jornada permitirão que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com as Habilidades da Jornada, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e/ou público-alvo, detectar pontos de abandono de usuários em uma jornada e fornecer insights ou recomendações. Ele capacita os profissionais a tomar decisões orientadas por dados, melhorar o envolvimento do cliente e simplificar a orquestração de jornadas.
 
-Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/pt-br/slides/journey-agent-overview).
-
 >[!AVAILABILITY]
 >
->As Habilidades de Jornada estão disponíveis para todos os clientes que têm acesso ao Assistente de IA. No entanto, você precisará das seguintes permissões para usar totalmente os recursos do Jornada Skills:
+>As habilidades de Jornada estão disponíveis para todos os clientes que têm acesso ao CX Co-worker. No entanto, você precisará das seguintes permissões para usar totalmente os recursos do Jornada Skills:
 >
->**Exibir Jornadas**: essa permissão permite exibir insights sobre a jornada diretamente no Assistente de IA.
+>**Exibir Jornadas**: essa permissão permite exibir insights sobre a jornada diretamente no CX Co-worker.
 >
->**Gerenciar Jornadas**: a permissão Para permite que você crie novas jornadas diretamente no Assistente de IA.
+>**Gerenciar Jornadas**: essa permissão permite que você crie novas jornadas diretamente no CX Co-worker.
 >
->**Exibir segmentos**: essa permissão permite que você visualize insights sobre os públicos-alvo diretamente no Assistente de IA.
+>**Exibir segmentos**: essa permissão permite que você visualize insights sobre os públicos diretamente no CX Co-worker.
 >
->**Gerenciar segmentos**: essa permissão permite criar novos públicos-alvo diretamente no Assistente de IA.
+>**Gerenciar segmentos**: essa permissão permite que você crie novos públicos diretamente no CX Co-worker.
 
 ### Principais casos de uso
 
@@ -364,8 +362,8 @@ O Jornada Analyze oferece uma variedade de funcionalidades que podem ser aprovei
 Os seguintes recursos são compatíveis com o Jornada Analyze:
 
 * **Consultas reativas**: permite que usuários façam perguntas específicas sobre o desempenho da jornada, a utilização do público-alvo e conflitos de agendamento.
-* **Integração com outros agentes**: colabora com o Audience Agent e o Data Insights Agent para realizar análises mais aprofundadas.
-* **Estrutura de resposta do agente**: raciocínio (explique a lógica), resumo da análise (destaque os pontos principais), detalhes do problema (descreva o problema) e recomendação (proponha as próximas etapas).
+* **Integração com outras habilidades**: colabora com os recursos de Audience e Data Insights para uma análise mais profunda.
+* **Estrutura de resposta**: raciocínio (explique a lógica), resumo da análise (destaque os pontos principais), detalhes do problema (descreva o problema) e recomendação (proponha as próximas etapas).
 
 ### Competências fora do âmbito
 
@@ -383,7 +381,7 @@ As seguintes funcionalidades não são compatíveis no momento:
 Para maximizar a eficácia do Jornada Analyze, siga estas práticas recomendadas:
 
 1. **Seja específico(a)**: use prompts claros e concisos para obter insights direcionados. Por exemplo, em vez de perguntar &quot;Quais são minhas jornadas?&quot;, especifique &quot;Listar todas as jornadas criadas no último mês&quot;.
-1. **Combine insights**: integre insights do Audience Agent e do Data Insights Agent para obter uma visão integral do desempenho da jornada.
+1. **Combinar insights**: integre insights dos recursos de Audience e Data Insights para obter uma visão holística do desempenho da jornada.
 1. **Refinamento iterativo**: use as análises de fallout e de sobreposição para refinar continuamente o design e o agendamento da jornada.
 
 ### Práticas recomendadas de configuração
@@ -487,6 +485,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
