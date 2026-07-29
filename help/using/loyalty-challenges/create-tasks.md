@@ -170,5 +170,5 @@ Após configurar todos os atributos e propriedades, selecione **[!UICONTROL Cria
 
 Saiba como criar e configurar tarefas com este tutorial passo a passo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496442?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496446?captions=por_br&quality=12)
 
