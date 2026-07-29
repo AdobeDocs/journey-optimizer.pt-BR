@@ -6,14 +6,11 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 638cf77ebad021b62e0fd6d5873e67a098fef7b7
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: 1246
 ht-degree: 5%
 
 ---
@@ -74,6 +71,10 @@ Antes de executar uma migração, verifique se a sandbox de destino está config
 * **Sequência de dados** - Decida se a migração deve criar uma sequência de dados (`createDataStream`).
 
 Para obter mais informações sobre o gerenciamento de sandboxes, consulte [Usar e atribuir sandboxes](../administration/sandboxes.md).
+
+>[!NOTE]
+>
+>A sandbox de destino pode ser igual à sandbox de origem. O processo de migração trata desse cenário e garante a integridade dos dados, independentemente de os objetos serem migrados na mesma sandbox ou para uma diferente.
 
 ## Noções básicas sobre API {#api-basics}
 
