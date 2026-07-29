@@ -179,5 +179,5 @@ Para gerenciar desafios de fidelidade de forma programática, use a [API de Desa
 
 **Novo nos Desafios de Fidelidade?** Assista a esta visão geral para entender os recursos e benefícios:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496455?captions=por_br&quality=12)
 
