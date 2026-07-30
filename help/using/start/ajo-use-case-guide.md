@@ -37,7 +37,7 @@ A IA está incorporada em muitos desses recursos — procure a tag **(AI)** nas 
 
 >[!TIP]
 >
->Novo no Journey Optimizer? Comece com [Comece a usar o Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para escolher o caminho certo para sua função e leia [O que é o Journey Optimizer](get-started.md) para o básico. Para criar confiança prática, navegue pelos [tutoriais do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, siga uma [lista de reprodução de vídeo](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} com curadoria de especialista e pratique em uma [sandbox de treinamento](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} ou com os [desafios práticos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
+>Novo no Journey Optimizer? Comece com [Comece a usar o Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para escolher o caminho certo para sua função e leia [O que é o Journey Optimizer](get-started.md) para o básico. Para criar confiança prática, navegue pelos [tutoriais do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, siga uma [lista de reprodução de vídeo](https://experienceleague.adobe.com/pt-br/playlists?solution=Journey+Optimizer){target="_blank"} com curadoria de especialista e pratique em uma [sandbox de treinamento](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} ou com os [desafios práticos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
 
 ## Configurar o Journey Optimizer para a sua equipe {#setup-admin}
 
@@ -109,7 +109,7 @@ Para alcance agendado de um para muitos para um público-alvo definido.
 
 | Eu quero... | Capacidade recomendada | Comece aqui |
 | --- | --- | --- |
-| Iniciar um produto com um teste A/B | Experimentação de conteúdo **(AI)** | [Introdução à experimentação de conteúdo](../content-management/experiment-accelerator-gs.md) · [Criar experimentos de conteúdo para campanhas de email](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| Iniciar um produto com um teste A/B | Experimentação de conteúdo **(AI)** | [Introdução à experimentação de conteúdo](../content-management/experiment-accelerator-gs.md) · [Criar experimentos de conteúdo para campanhas de email](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | Notificar os clientes sobre uma interrupção ou atualização de serviço | Campanha programada + públicos-alvo | [Sobre públicos-alvo](../audience/about-audiences.md) |
 | Criar uma campanha em várias etapas com lógica de ramificação | Campanhas orquestradas | [Introdução a campanhas orquestradas](../orchestrated/gs-orchestrated-campaigns.md) |
 | Direcionar somente perfis que foram alterados desde a última execução da campanha | Campanhas orquestradas — query incremental | [Criar consultas em campanhas orquestradas](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
@@ -334,7 +334,7 @@ Navegue por conteúdo de vídeo preparado por tópico. Cada guia está vinculada
 >[!TAB Relatórios e otimização]
 
 * [Monitore e analise sua jornada com relatórios ao vivo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — Acompanhe o desempenho conforme suas jornadas são executadas.
-* [Criar experimentos de conteúdo para campanhas de email](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testar e otimizar conteúdo.
+* [Criar experimentos de conteúdo para campanhas de email](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testar e otimizar conteúdo.
 
 >[!ENDTABS]
 
