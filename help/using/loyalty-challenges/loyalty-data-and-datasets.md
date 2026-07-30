@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: 548
 ht-degree: 5%
 
 ---
@@ -43,15 +43,15 @@ Para integração de conectores e configuração completa, consulte [Introduçã
 
 Desafie públicos, personalização e relatórios que usam perfis na classe **[!DNL XDM Individual Profile]**. Alinhe a identidade [namespace](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces){target="_blank"} que você usa para Desafios de Fidelidade com a forma como os membros são identificados nos dados do seu perfil e com o namespace selecionado em **[!UICONTROL Configurações globais]** no menu **[!UICONTROL Configurações de fidelidade]**.
 
-Para atributos de fidelidade padrão no perfil (pontos, camada, programa, status e campos relacionados), use o grupo de campos de esquema **[Detalhes de Fidelidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** do Experience Platform. Esse grupo de campos define o objeto `loyalty` e suas propriedades (por exemplo, `points`, `tier`, `program` e `status`).
+Para atributos de fidelidade padrão no perfil (pontos, camada, programa, status e campos relacionados), use o grupo de campos de esquema **[Detalhes de Fidelidade](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** do Experience Platform. Esse grupo de campos define o objeto `loyalty` e suas propriedades (por exemplo, `points`, `tier`, `program` e `status`).
 
-➡️ [Grupo de campos de esquema de Detalhes de Fidelidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [Grupo de campos de esquema de Detalhes de Fidelidade](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
-➡️ [Dicionário de esquemas do AJO](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}
+➡️ [Dicionário de esquemas do AJO](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en){target="_blank"}
 
 ### Eventos de experiência {#experience-events}
 
-As tarefas **[!UICONTROL Comprar]**, **[!UICONTROL Gastar]** e **[!UICONTROL Evento personalizado]** dependem dos eventos de experiência assimilados na Adobe Experience Platform. Para tarefas de **[!UICONTROL Evento personalizado]**, as definições de evento correspondentes (caminho do identificador, ID do esquema XDM opcional, esquema e transformador) devem ser configuradas no menu **[!UICONTROL Configurações de fidelidade]** para que os profissionais de marketing possam inserir valores de evento personalizados no construtor de tarefas. [Saiba como configurar definições de evento](loyalty-admin.md#event-definitions)
+As tarefas **[!UICONTROL Comprar]**, **[!UICONTROL Gastar]** e **[!UICONTROL Evento personalizado]** dependem dos eventos de experiência assimilados na Adobe Experience Platform. Para tarefas **[!UICONTROL Custom event]**, as definições de evento correspondentes (caminho do identificador, ID do esquema XDM, esquema e transformador) devem ser configuradas no menu **[!UICONTROL Configurações de fidelidade]** para que os profissionais de marketing possam inserir valores de evento personalizados no construtor de tarefas. [Saiba como configurar definições de evento](loyalty-admin.md#event-definitions)
 
 Certifique-se de que as cargas do evento usem o mesmo namespace de identidade da configuração de Desafios de fidelidade para que o progresso possa ser atribuído ao perfil correto.
 
