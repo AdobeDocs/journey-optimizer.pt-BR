@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução ao Assistente de IA no Journey Optimizer
-description: Saiba como acessar e trabalhar com o Assistente de IA no Journey Optimizer
+title: Introdução à geração de conteúdo no Journey Optimizer
+description: Saiba como acessar e trabalhar com a ferramenta Gerar conteúdo no Journey Optimizer
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
@@ -10,47 +10,36 @@ level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: ht
-source-wordcount: 1005
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: d6e0d39b-5df3-4c72-8263-fd834397ee97id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: 4bdf774d4d38b3c7d97daebade3dfb6ab0403a5e
+workflow-type: tm+mt
+source-wordcount: 992
+ht-degree: 62%
 
 ---
 
-# Introdução ao Assistente de IA {#gs-content-assistant}
+# Introdução à geração de conteúdo {#gs-content-assistant}
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba como acessar o Assistente de IA no Adobe Journey Optimizer, configurar as permissões necessárias e entender as medidas de proteção para gerar conteúdo de texto e imagem.
+**Nesta página:** Saiba como acessar Gerar Conteúdo no Adobe Journey Optimizer, configurar as permissões necessárias e entender as medidas de proteção para gerar conteúdo de texto e imagem.
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Assistente de IA no Journey Optimizer"
->abstract="Após elaborar e personalizar a entrega, é possível usar o Assistente de IA no Journey Optimizer para aprimorar o conteúdo. Esse recurso simplifica o processo de personalização e melhoria de conteúdo, permitindo ajustar o conteúdo com uma descrição do que deseja gerar."
+>title="Gerar conteúdo no Journey Optimizer"
+>abstract="Depois de criar e personalizar o delivery, você pode usar a IA para editar e refinar o conteúdo. Esse recurso simplifica o processo de personalização e melhoria de conteúdo, permitindo ajustar o conteúdo com uma descrição do que deseja gerar."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Fazer upload do ativo da marca"
->abstract="O menu Fazer upload do ativo da marca habilita a adição de qualquer ativo da marca com conteúdo que possa fornecer contexto adicional para o Assistente de IA no Journey Optimizer ou a seleção de um ativo enviado anteriormente. Essa opção garante que o Assistente de IA tenha acesso a todos os materiais necessários para aprimorar sua funcionalidade e relevância."
+>abstract="O menu Upload do ativo da marca permite adicionar qualquer ativo da marca com conteúdo que pode fornecer contexto adicional para Gerar conteúdo no Journey Optimizer ou selecionar um ativo carregado anteriormente. Essa opção garante que a Geração de conteúdo tenha acesso a todos os materiais necessários para aprimorar sua funcionalidade e relevância."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
@@ -63,9 +52,9 @@ ht-degree: 100%
 >Mergulhe em uma experiência prática com a [nossa prévia ao vivo do recurso](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, projetada para ajudar você a explorar esses recursos em primeira mão e entendê-los totalmente.
 
 
-O Assistente de IA no Adobe Journey Optimizer, com tecnologia Microsoft Azure OpenAI e Adobe Firefly, traz sugestões proativas de variação de conteúdo para texto e imagens. Esse novo recurso fornece **geração de texto e imagens baseada em prompts**. A geração de imagens é gerenciada pelo Adobe Firefly.
+Gerar conteúdo no Adobe Journey Optimizer, viabilizado pelo Microsoft Azure OpenAI e Adobe Firefly, oferece sugestões proativas de variação de conteúdo para texto e imagens. Esse novo recurso fornece **geração de texto e imagens baseada em prompts**. A geração de imagens é gerenciada pelo Adobe Firefly.
 
-O Assistente de IA oferece suporte à geração **em vários idiomas**, permitindo alcançar e engajar diversos públicos-alvo em todo o mundo. O Assistente de IA está disponível nos seguintes idiomas:
+Gerar conteúdo dá suporte à geração **em vários idiomas**, permitindo que você alcance e envolva diversos públicos globais. Gerar conteúdo está disponível nos seguintes idiomas:
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -98,18 +87,18 @@ O Assistente de IA oferece suporte à geração **em vários idiomas**, permiti
   </tbody>
 </table>
 
-Use o Assistente de IA do Adobe Journey Optimizer para otimizar o impacto da mensagem, experimentando diferentes títulos principais e imagens. Gere múltiplas variantes e crie um experimento para compará-las. Com o **experimento de conteúdo do Journey Optimizer**, é possível definir vários tratamentos de mensagens para medir qual tem o melhor desempenho para o público-alvo direcionado. É possível optar por variar o conteúdo da entrega ou o assunto. O público-alvo da mensagem é alocado aleatoriamente em cada tratamento para determinar qual funciona melhor de acordo com a métrica especificada. Saiba mais sobre o Experimento de conteúdo [nesta seção](../content-management/content-experiment.md).
+Use a IA para otimizar o impacto da sua mensagem, experimentando com diferentes títulos e imagens principais. Gere múltiplas variantes e crie um experimento para compará-las. Com o **experimento de conteúdo do Journey Optimizer**, é possível definir vários tratamentos de mensagens para medir qual tem o melhor desempenho para o público-alvo direcionado. É possível optar por variar o conteúdo da entrega ou o assunto. O público-alvo da mensagem é alocado aleatoriamente em cada tratamento para determinar qual funciona melhor de acordo com a métrica especificada. Saiba mais sobre o Experimento de conteúdo [nesta seção](../content-management/content-experiment.md).
 
 >[!IMPORTANT]
 >
 >* Antes de começar a usar este recurso, leia as [Medidas de proteção e limitações](#generative-guardrails) relacionadas.
 >
 >
->* Você deve aceitar um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"} antes de poder usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o representante da Adobe.
+>* Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"} antes de poder usar Gerar conteúdo no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
 
-## Acessar o Assistente de IA {#generative-access}
+## Acessar Gerar Conteúdo {#generative-access}
 
-Para acessar o recurso Assistente de IA no Adobe Journey Optimizer, os usuários precisam receber a permissão **Gerar conteúdo**. [Saiba mais](../administration/permissions.md)
+Para acessar Gerar Conteúdo no Adobe Journey Optimizer, os usuários precisam ter a permissão **Gerar Conteúdo**. [Saiba mais](../administration/permissions.md)
 
 +++  Saiba como atribuir permissões relacionadas à geração de conteúdo
 
@@ -137,7 +126,7 @@ O usuário receberá um email com instruções para acessar a sua instância.
 
 ## Medidas de proteção e limitações {#generative-guardrails}
 
-As diretrizes gerais para usar o Assistente de IA do Adobe Journey Optimizer na geração de emails estão listadas abaixo:
+As diretrizes gerais para usar a opção Gerar conteúdo no Adobe Journey Optimizer para geração de email estão listadas abaixo:
 
 ### Canais compatíveis
 
@@ -157,23 +146,24 @@ As diretrizes gerais para usar o Assistente de IA do Adobe Journey Optimizer na 
 
 ### Modelos e imagens de email
 
-* Use um modelo personalizado ou específico da marca para criar seu conteúdo de email usando o Assistente de IA no Adobe Journey Optimizer. Recomenda-se um modelo de email com 8-10 imagens, no máximo.
+* Use um modelo específico da marca ou personalizado para criar seu conteúdo de email usando Gerar conteúdo no Adobe Journey Optimizer. Recomenda-se um modelo de email com 8-10 imagens, no máximo.
 
 ### Uso legal e transparência
 
-* O uso do Assistente de IA está sujeito às diretrizes do usuário para IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR)
-* Como parte de nosso compromisso de promover a transparência no uso de ferramentas de IA generativa para a criação de mídias, a Adobe aplicará Content Credentials quando um conteúdo ou projeto que inclua um ativo gerado pelo Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/br/firefly/using/content-credentials.html)
+* O uso de Gerar conteúdo está sujeito às Diretrizes de usuário da IA gerada da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR)
+* Como parte do compromisso da Adobe de promover a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplicará o Content Credentials quando o conteúdo ou um projeto que inclua um ativo gerado pela Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html)
+  <!--* See [Content Credentials in AI Assistant](generative-content-credentials.md) for details on which actions attach Content Credentials and what happens as your content moves.-->
 
-### Assistente de IA para expressões de personalização {#ai-assistant-personalization-editor-guardrails}
+### Gerar conteúdo para expressões de personalização {#ai-assistant-personalization-editor-guardrails}
 
-As seguintes medidas de proteção se aplicam ao [Assistente de IA para expressões de personalização](generative-personalization-expressions.md) no [!UICONTROL Editor de personalização] e no Designer de email.
+As seguintes medidas de proteção se aplicam a [Gerar conteúdo para expressões de personalização](generative-personalization-expressions.md) no [!UICONTROL Editor do Personalization] e no Designer de email.
 
 * **Escolha de Ofertas e Experiências**: não compatível.
 * **Favoritos**: não compatível.
 * **Condições salvas**: não compatível.
 * **Fragmentos de conteúdo do Adobe Experience Manager**: não compatível.
 
-## Recursos de geração de conteúdo do Assistente de IA {#generative-features}
+## Gerar recursos de conteúdo {#generative-features}
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -205,5 +195,5 @@ As seguintes medidas de proteção se aplicam ao [Assistente de IA para express�
 
 ## Recursos adicionais
 
-* **[Casos de uso do Assistente de IA](generative-uc.md)**: saiba como usar o Assistente de IA por meio de casos de uso
-* **[Tutoriais do Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre os recursos do Assistente de IA e as práticas recomendadas.
+* **[Gerar casos de uso de conteúdo](generative-uc.md)** - Saiba mais sobre como usar a opção Gerar conteúdo por meio de casos de uso
+* **[Gerar tutoriais de conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre os recursos Gerar conteúdo e as práticas recomendadas.
