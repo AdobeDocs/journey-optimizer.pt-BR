@@ -9,12 +9,11 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 66613584226260662d1122048cdfcaa64787113f
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
 workflow-type: tm+mt
-source-wordcount: 930
-ht-degree: 12%
+source-wordcount: 1005
+ht-degree: 13%
 
 ---
 
@@ -161,7 +160,7 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar desafios de fidelidade</strong></a>
     </div>
     <p>
@@ -171,9 +170,18 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
 </tr>
 </table>
 
+## Recursos do desenvolvedor {#developer-resources}
+
+Os desafios de fidelidade expõem as REST APIs que permitem gerenciar desafios de forma programática e rastrear a participação de perfis:
+
+* **[API de metadados do desafio de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}** — Crie, recupere, atualize, publique, arquive e duplique desafios.
+* **[API de estado de desafio de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges-state){target="_blank"}** — consulte e atualize o estado de participação de desafio para perfis individuais.
+
+Para obter a autenticação e os cabeçalhos necessários, consulte o [tutorial de autenticação](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
+
 ## Vídeo tutorial {#video}
 
 **Novo nos Desafios de Fidelidade?** Assista a esta visão geral para entender os recursos e benefícios:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496455?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 

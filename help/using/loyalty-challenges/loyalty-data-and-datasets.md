@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
+source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
 workflow-type: tm+mt
-source-wordcount: 548
+source-wordcount: 565
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 Os desafios de fidelidade dependem da Adobe Experience Platform para identidade, atributos de perfil, eventos de experiência e públicos. Use esta página para saber quais dados devem ser preparados, quais conjuntos de dados estão envolvidos e como o **TTL (time-to-live)** afeta a retenção antes de criar desafios ou usar as APIs de desafios de fidelidade.
 
-Entre em contato com o administrador do Adobe para obter a configuração do programa do Journey Optimizer ou configure o preenchimento de premiação e o mapeamento de eventos no menu **[!UICONTROL Configurações de fidelidade]**. [Saiba como configurar desafios de fidelidade](loyalty-admin.md). Para obter pontos de extremidade e autenticação REST, consulte a [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}.
+Entre em contato com o administrador do Adobe para obter a configuração do programa do Journey Optimizer ou configure o preenchimento de premiação e o mapeamento de eventos no menu **[!UICONTROL Configurações de fidelidade]**. [Saiba como configurar desafios de fidelidade](loyalty-admin.md). Para pontos de extremidade e autenticação REST, consulte a [Referência da API de metadados do desafio de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"} e a [Referência da API de estado do desafio de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges-state){target="_blank"}.
 
 ## Conectores de fidelidade por meio de origens {#loyalty-connectors-sources}
 
@@ -43,11 +43,11 @@ Para integração de conectores e configuração completa, consulte [Introduçã
 
 Desafie públicos, personalização e relatórios que usam perfis na classe **[!DNL XDM Individual Profile]**. Alinhe a identidade [namespace](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces){target="_blank"} que você usa para Desafios de Fidelidade com a forma como os membros são identificados nos dados do seu perfil e com o namespace selecionado em **[!UICONTROL Configurações globais]** no menu **[!UICONTROL Configurações de fidelidade]**.
 
-Para atributos de fidelidade padrão no perfil (pontos, camada, programa, status e campos relacionados), use o grupo de campos de esquema **[Detalhes de Fidelidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** do Experience Platform. Esse grupo de campos define o objeto `loyalty` e suas propriedades (por exemplo, `points`, `tier`, `program` e `status`).
+Para atributos de fidelidade padrão no perfil (pontos, camada, programa, status e campos relacionados), use o grupo de campos de esquema **[Detalhes de Fidelidade](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** do Experience Platform. Esse grupo de campos define o objeto `loyalty` e suas propriedades (por exemplo, `points`, `tier`, `program` e `status`).
 
-➡️ [Grupo de campos de esquema de Detalhes de Fidelidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [Grupo de campos de esquema de Detalhes de Fidelidade](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
-➡️ [Dicionário de esquemas do AJO](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}
+➡️ [Dicionário de esquemas do AJO](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en){target="_blank"}
 
 ### Eventos de experiência {#experience-events}
 
