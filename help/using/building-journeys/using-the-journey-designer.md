@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0dec5d89bcb690861013208818d5011428478b12
+source-git-commit: a51b5254b62773a354b37c6da1caa5937115ecff
 workflow-type: tm+mt
-source-wordcount: 2387
+source-wordcount: 2356
 ht-degree: 2%
 
 ---
@@ -98,6 +98,7 @@ Uma **nova interface de usuário** está disponível para a tela de jornada, cri
 ![](assets/journey-new-canvas.png)
 
 Para alternar para a nova experiência, clique no botão **[!UICONTROL Nova experiência]** na tela de jornada. Depois de alternada, essa configuração é salva no nível da jornada, para que a jornada seja aberta na nova experiência por padrão em visitas subsequentes. Para reverter, clique no botão **[!UICONTROL Experiência antiga]**.
+Além disso, a última experiência selecionada (antiga ou nova) agora é lembrada no nível do usuário. A partir de agora, essa preferência será aplicada automaticamente sempre que você criar uma nova jornada, para que não seja necessário alternar manualmente todas as vezes.
 
 ![](assets/journey-new-experience-switch.png)
 

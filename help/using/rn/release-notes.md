@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc2f3d8626b207619cacba3ce336716d2e81dff0
+source-git-commit: 3ce2c816766da670f3905d4986b5dc304f9a674c
 workflow-type: tm+mt
-source-wordcount: 2889
-ht-degree: 19%
+source-wordcount: 2970
+ht-degree: 18%
 
 ---
 
@@ -64,7 +64,7 @@ A Journey Optimizer apresenta os desafios de fidelidade, um novo recurso nesta v
 <tr>
 <td>
 <p>Os desafios de fidelidade transformam iniciativas de fidelidade em experiências envolventes e gamificadas que motivam os clientes a realizar ações valiosas, como fazer compras, escrever comentários ou qualquer comportamento desejado.</p>
-<p>Os administradores podem usar o menu Admin de fidelidade para conectar o Journey Optimizer ao seu ecossistema de fidelidade, incluindo APIs de atendimento de recompensa, definições de eventos, inventário de produtos, exclusões e configurações de identidade. Em seguida, os profissionais de marketing podem projetar desafios padrão, sequenciais ou em sequência, definir tarefas e recompensas, fornecer cartões de conteúdo e mensagens de marca e monitorar o desempenho com painéis de relatórios alimentados por IA. A Journey Optimizer gera as jornadas que organizam cada desafio em segundo plano, para que as equipes possam se concentrar na experiência do cliente e nas metas de negócios.</p>
+<p>Os administradores podem usar o menu Configurações de fidelidade para conectar o Journey Optimizer ao seu ecossistema de fidelidade, incluindo APIs de preenchimento de premiação, definições de eventos, inventário de produtos, exclusões e configurações de identidade. Em seguida, os profissionais de marketing podem projetar desafios padrão, sequenciais ou em sequência, definir tarefas e recompensas, fornecer cartões de conteúdo e mensagens de marca e monitorar o desempenho com painéis de relatórios alimentados por IA. A Journey Optimizer gera as jornadas que organizam cada desafio em segundo plano, para que as equipes possam se concentrar na experiência do cliente e nas metas de negócios.</p>
 <p>A fidelização também apresenta habilidades de colegas de trabalho que permitem que as equipes executem operações de desafio principais com mais eficiência, incluindo a criação de desafios, a definição de propriedades de desafio, o gerenciamento de públicos-alvo e configurações relacionadas e a análise de insights para monitorar a participação de desafios e o desempenho de recompensas.</p>
 <p><img src="assets/do-not-localize/loyalty.png"></p>
 <p>Esse recurso só está disponível para organizações licenciadas para o Journey Optimizer Loyalty. Para obter acesso, entre em contato com um representante da Adobe.</p>
@@ -211,6 +211,10 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão.
 * **Públicos-alvo externos na Simulação de Jornada** - A Simulação de Jornada agora oferece suporte a Públicos-alvo Externos. Ao simular jornadas direcionadas a públicos-alvo de CSV ou Composição de público-alvo federado, você pode simular atributos de enriquecimento desses públicos-alvo diretamente pelo formulário da interface ou por uma importação de JSON. A interface do usuário exibe dinamicamente apenas os atributos específicos de enriquecimento usados na lógica de jornada, permitindo a validação precisa das ramificações de decisão e regras de personalização antes da ativação. [Saiba mais](../building-journeys/simulate-journey.md)
 
   Data de disponibilidade: 29 de julho de 2026
+
+* **Proteção de disjuntor para pontos de extremidade de ação personalizada lenta** - Para pontos de extremidade roteados pelo serviço de ação personalizada lenta, a Journey Optimizer agora limita temporariamente todas as chamadas por até 5 minutos quando mais de 20% das chamadas em uma janela de 120 segundos excedem 10 segundos, se houver pelo menos 200 chamadas na janela de observação de 130 segundos. Isso ajuda a evitar a sobrecarga de pontos de extremidade que já estão lentos. [Saiba mais](../configuration/external-systems.md#response-time)
+
+  Data de disponibilidade: 29 de julho de 2026. Esse recurso está sendo gradualmente distribuído entre regiões.
 
 ### Campanhas orquestradas {#july-26-oc}
 

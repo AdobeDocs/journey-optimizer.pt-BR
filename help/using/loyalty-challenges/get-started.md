@@ -11,10 +11,10 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
+source-git-commit: 66613584226260662d1122048cdfcaa64787113f
 workflow-type: tm+mt
-source-wordcount: 964
-ht-degree: 13%
+source-wordcount: 930
+ht-degree: 12%
 
 ---
 
@@ -92,9 +92,9 @@ Entre em contato com o administrador se não conseguir acessar o recurso ou prec
 
 +++Configurar o programa de fidelidade (administradores)
 
-Os administradores configuram provedores de premiação, definições de eventos, inventário de produtos, exclusões e configurações globais no menu **[!UICONTROL Admin. de fidelidade]**. Os profissionais de marketing que apenas criam desafios não precisam acessar esse menu. [Saiba como configurar desafios de fidelidade](loyalty-admin.md)
+Os administradores configuram provedores de premiação, definições de eventos, inventário de produtos, exclusões e configurações globais no menu **[!UICONTROL Configurações de fidelidade]**. Os profissionais de marketing que apenas criam desafios não precisam acessar esse menu. [Saiba como configurar desafios de fidelidade](loyalty-admin.md)
 
-Entre em contato com o administrador se o menu de **[!UICONTROL Administrador de fidelidade]** não estiver visível na navegação à esquerda.
+Entre em contato com o administrador se o menu **[!UICONTROL Configurações de fidelidade]** não estiver visível na navegação à esquerda.
 
 +++
 
@@ -170,10 +170,6 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
   </td>
 </tr>
 </table>
-
-## Referência da API {#api-reference}
-
-Para gerenciar desafios de fidelidade de forma programática, use a [API de Desafios de Fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}. A API permite criar, atualizar e gerenciar desafios e tarefas por meio de endpoints REST.
 
 ## Vídeo tutorial {#video}
 
