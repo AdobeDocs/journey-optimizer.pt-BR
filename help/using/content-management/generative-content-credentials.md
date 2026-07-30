@@ -47,12 +47,12 @@ A tabela a seguir resume quando as Content Credentials são anexadas, com base n
 
 ## O que acontece quando o conteúdo se move {#cc-content-moves}
 
-O Content Credentials viaja com o arquivo de imagem. Quando uma imagem gerada ou editada com IA gerativa é baixada ou exportada do Adobe Journey Optimizer, sua Content Credentials é preservada. [Saiba mais sobre o Content Credentials](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}.
+O Content Credentials viaja com o arquivo de imagem. Quando uma imagem gerada ou editada com IA gerativa é baixada ou exportada do Adobe Journey Optimizer, sua Content Credentials é preservada. [Saiba mais sobre o Content Credentials](https://helpx.adobe.com/br/firefly/using/content-credentials.html){target="_blank"}.
 
 Algumas maneiras de trazer imagens para o seu conteúdo, como extrair uma imagem de um PDF ou de uma fonte incorporada (base64), podem não preservar o Content Credential original. Nesses casos, nenhuma Content Credential pode ser lida a partir da origem e nenhuma é criada para o resultado.
 
 ## Recursos adicionais
 
-* [Adobe Content Credentials](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}: saiba mais sobre como o Content Credentials funciona em produtos Adobe.
+* [Adobe Content Credentials](https://helpx.adobe.com/br/firefly/using/content-credentials.html){target="_blank"}: saiba mais sobre como o Content Credentials funciona em produtos Adobe.
 * [Diretrizes do usuário da IA gerada da Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"}
 * [Medidas de proteção e limitações](gs-generative.md#generative-guardrails)
