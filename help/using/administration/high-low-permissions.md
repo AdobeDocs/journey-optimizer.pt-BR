@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
-source-wordcount: 1995
+source-wordcount: 1996
 ht-degree: 0%
 
 ---
@@ -57,28 +57,28 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
+  * Específico do Journey Optimizer:
 
-      * jornada.read
-      * jornada.write
-      * jornadas.excluir
-      * messages.read
+    * jornada.read
+    * jornada.write
+    * jornadas.excluir
+    * messages.read
 
-   * Específico do Adobe Experience Platform:
+  * Específico do Adobe Experience Platform:
 
-      * segmentos.ler
-      * profiles.read
-      * datasets.read
-      * schemas.read
+    * segmentos.ler
+    * profiles.read
+    * datasets.read
+    * schemas.read
 
   +++
 
 * A permissão de alto nível **[!DNL Publish journeys]** permite que os usuários publiquem jornadas.
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
-   * Específico do Journey Optimizer:
-      * jornada.publish
-      * jornada.read
+  * Específico do Journey Optimizer:
+    * jornada.publish
+    * jornada.read
 
   +++
 
@@ -86,12 +86,12 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
-      * jornada.read
+  * Específico do Journey Optimizer:
+    * jornada.read
 
-   * Específico do Adobe Experience Platform:
-      * segmentos.ler
-      * profiles.read
+  * Específico do Adobe Experience Platform:
+    * segmentos.ler
+    * profiles.read
 
   +++
 
@@ -99,21 +99,21 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
-      * jornada_events.read
-      * jornada_events.write
-      * jornada_events.delete
-      * jornada_data_sources.read
-      * jornada_data_sources.write
-      * jornada_data_sources.delete
-      * jornada_actions.read
-      * jornada_actions.write
-      * jornada_actions.delete
+  * Específico do Journey Optimizer:
+    * jornada_events.read
+    * jornada_events.write
+    * jornada_events.delete
+    * jornada_data_sources.read
+    * jornada_data_sources.write
+    * jornada_data_sources.delete
+    * jornada_actions.read
+    * jornada_actions.write
+    * jornada_actions.delete
 
-   * Específico do Adobe Experience Platform:
-      * schemas.read
-      * datasets.read
-      * identity_namespace.read
+  * Específico do Adobe Experience Platform:
+    * schemas.read
+    * datasets.read
+    * identity_namespace.read
 
   +++
 
@@ -121,15 +121,15 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
-      * jornada_events.read
-      * jornada_data_sources.read
-      * jornada_actions.read
+  * Específico do Journey Optimizer:
+    * jornada_events.read
+    * jornada_data_sources.read
+    * jornada_actions.read
 
-   * Específico do Adobe Experience Platform:
-      * schemas.read
-      * datasets.read
-      * identity_namespace.read
+  * Específico do Adobe Experience Platform:
+    * schemas.read
+    * datasets.read
+    * identity_namespace.read
 
   +++
 
@@ -137,15 +137,15 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
-      * jornada_report.read
-      * messages_report.read
+  * Específico do Journey Optimizer:
+    * jornada_report.read
+    * messages_report.read
 
-   * Específico do Adobe Experience Platform:
-      * datasets.read
-      * queries.read
-      * queries.write
-      * consultas.excluir
+  * Específico do Adobe Experience Platform:
+    * datasets.read
+    * queries.read
+    * queries.write
+    * consultas.excluir
 
   +++
 
@@ -155,10 +155,10 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
-      * frequency_rules.read
-      * frequency_rules.write
-      * frequency_rules.delete
+  * Específico do Journey Optimizer:
+    * frequency_rules.read
+    * frequency_rules.write
+    * frequency_rules.delete
 
   +++
 
@@ -166,8 +166,8 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
-      * frequency_rules.read
+  * Específico do Journey Optimizer:
+    * frequency_rules.read
 
   +++
 
@@ -177,12 +177,12 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível: 
 
-   * Específico do Journey Optimizer:
-      * suppression_list.export
+  * Específico do Journey Optimizer:
+    * suppression_list.export
 
-   * Específico do Adobe Experience Platform:
-      * profiles.read
-      * datasets.read
+  * Específico do Adobe Experience Platform:
+    * profiles.read
+    * datasets.read
 
   +++
 
@@ -190,16 +190,16 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
+  * Específico do Journey Optimizer:
 
-      * campaign.read
-      * campaign.write
-      * campaign.delete
-     <!--
+    * campaign.read
+    * campaign.write
+    * campaign.delete
+    <!--
       * experiments.read
       * experiments.write
       * experiments.delete
-     -->
+    -->
 
 +++
 
@@ -207,11 +207,11 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:
 
-   * Específico do Journey Optimizer:
+  * Específico do Journey Optimizer:
 
-      * campaign-read
-      * campaign-publish
-     <!--
+    * campaign-read
+    * campaign-publish
+    <!--
       * experiments.activate    
       -->
 
@@ -221,10 +221,10 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
-      * campaign.read
-      * campaign-report.read
-     <!--
+  * Específico do Journey Optimizer:
+    * campaign.read
+    * campaign-report.read
+    <!--
       * experiments.read
       * experiments_report.read
       -->
@@ -237,25 +237,25 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico para a gestão de decisões:
-      * atividades.ler
-      * activities.write
-      * atividades.excluir
-      * ofertas.leitura
-      * ofertas.gravação
-      * ofertas.excluir
-      * posiements.read
-      * posiements.write
-      * posicionamentos.excluir
-      * ranking_strategy.read
+  * Específico para a gestão de decisões:
+    * atividades.ler
+    * activities.write
+    * atividades.excluir
+    * ofertas.leitura
+    * ofertas.gravação
+    * ofertas.excluir
+    * posiements.read
+    * posiements.write
+    * posicionamentos.excluir
+    * ranking_strategy.read
 
-   * Específico do Adobe Experience Platform:
-      * datasets.read
-      * datasets.write
-      * conjuntos.dados.excluir
-      * schemas.read
-      * profile.read
-      * segmentos.ler
+  * Específico do Adobe Experience Platform:
+    * datasets.read
+    * datasets.write
+    * conjuntos.dados.excluir
+    * schemas.read
+    * profile.read
+    * segmentos.ler
 
   +++
 
@@ -263,16 +263,16 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico para a gestão de decisões:
-      * atividades.ler
-      * ofertas.leitura
-      * posiements.read
-      * ranking_strategy.read
+  * Específico para a gestão de decisões:
+    * atividades.ler
+    * ofertas.leitura
+    * posiements.read
+    * ranking_strategy.read
 
-   * Específico do Adobe Experience Platform:
-      * schemas.read
-      * segment.read
-      * datasets.read
+  * Específico do Adobe Experience Platform:
+    * schemas.read
+    * segment.read
+    * datasets.read
 
   +++
 
@@ -280,21 +280,21 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico para a gestão de decisões:
-      * offer_activity.read
-      * ofertas.leitura
-      * ofertas.Gravar
-      * ofertas.Excluir
-      * posicionamentos.Ler
-      * posicionamentos.Gravar
-      * posicionamentos.Excluir
-      * ranking_strategy.read
+  * Específico para a gestão de decisões:
+    * offer_activity.read
+    * ofertas.leitura
+    * ofertas.Gravar
+    * ofertas.Excluir
+    * posicionamentos.Ler
+    * posicionamentos.Gravar
+    * posicionamentos.Excluir
+    * ranking_strategy.read
 
-   * Específico do Adobe Experience Platform:
-      * schemas.read
-      * segment.read
-      * datasets.read
-      * profiles.read
+  * Específico do Adobe Experience Platform:
+    * schemas.read
+    * segment.read
+    * datasets.read
+    * profiles.read
 
   +++
 
@@ -302,13 +302,13 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico para a gestão de decisões:
-      * ranking_strategy.read
-      * ranking_strategy.write
-      * ranking_strategy.delete
-      * atividades.ler
-      * ofertas.leitura
-      * posiements.read
+  * Específico para a gestão de decisões:
+    * ranking_strategy.read
+    * ranking_strategy.write
+    * ranking_strategy.delete
+    * atividades.ler
+    * ofertas.leitura
+    * posiements.read
 
   +++
 
@@ -339,21 +339,21 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 * A permissão de alto nível **[!DNL Manage file routing]** permite que os usuários criem, editem e excluam configurações de roteamento de arquivos.
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
-   * Específico do Journey Optimizer:
+  * Específico do Journey Optimizer:
 
-      * file_routing.read
-      * file_routing.write
-      * file_routing.delete
+    * file_routing.read
+    * file_routing.write
+    * file_routing.delete
 
   +++
 
 * A permissão de alto nível **[!DNL Manage IP pools]** permite que os usuários criem, editem e excluam a definição de afinidade.
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
-   * Específico do Journey Optimizer:
-      * IP_pools.read
-      * IP_pools.write
-      * IP_pools.delete
+  * Específico do Journey Optimizer:
+    * IP_pools.read
+    * IP_pools.write
+    * IP_pools.delete
 
   +++
 
@@ -361,9 +361,9 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
-      * key-registry.read
-      * key-registry.write
+  * Específico do Journey Optimizer:
+    * key-registry.read
+    * key-registry.write
 
   +++
 
@@ -371,14 +371,14 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível: 
 
-   * Específico do Journey Optimizer:
+  * Específico do Journey Optimizer:
 
-      * landing_page_subdomain.read
-      * landing_page_subdomain.write
-      * landing_page_subdomain.delete
-      * landing_page_preset.read
-      * landing_page_preset.write
-      * landing_page_preset.delete
+    * landing_page_subdomain.read
+    * landing_page_subdomain.write
+    * landing_page_subdomain.delete
+    * landing_page_preset.read
+    * landing_page_preset.write
+    * landing_page_preset.delete
 
   +++
 
@@ -386,13 +386,13 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
-      * messages_general_settings.read
-      * messages_general_settings.write
-      * messages_general_settings.delete
+  * Específico do Journey Optimizer:
+    * messages_general_settings.read
+    * messages_general_settings.write
+    * messages_general_settings.delete
 
-   * Específico do Adobe Experience Platform:
-      * schemas.read
+  * Específico do Adobe Experience Platform:
+    * schemas.read
 
   +++
 
@@ -400,15 +400,15 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível: 
 
-   * Específico do Journey Optimizer:
-      * messages_presets.read
-      * messages_presets.write
-      * messages_presets.delete
-      * subdomains_delegation.read
-      * IP_pools.read
+  * Específico do Journey Optimizer:
+    * messages_presets.read
+    * messages_presets.write
+    * messages_presets.delete
+    * subdomains_delegation.read
+    * IP_pools.read
 
-   * Específico da Coleção de dados:
-      * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
+  * Específico da Coleção de dados:
+    * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
   +++
 
@@ -416,10 +416,10 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível: 
 
-   * Específico do Journey Optimizer:
-      * PTR_records.read
-      * PTR_records.write
-      * subdomains_delegation.read
+  * Específico do Journey Optimizer:
+    * PTR_records.read
+    * PTR_records.write
+    * subdomains_delegation.read
 
   +++
 
@@ -427,10 +427,10 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível: 
 
-   * Específico do Journey Optimizer:
-      * seedlist.read
-      * seedlist.write
-      * seedlist.delete
+  * Específico do Journey Optimizer:
+    * seedlist.read
+    * seedlist.write
+    * seedlist.delete
 
   +++
 
@@ -438,42 +438,42 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível: 
 
-   * Específico do Journey Optimizer:
-      * sms_subdomains.read
-      * sms_subdomains.write
-      * sms_subdomains.delete
+  * Específico do Journey Optimizer:
+    * sms_subdomains.read
+    * sms_subdomains.write
+    * sms_subdomains.delete
 
   +++
 
 * A permissão de alto nível **[!DNL Manage subdomains delegations]** permite que os usuários criem, editem e excluam delegações de subdomínio (incluindo o pool de IP).
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
-   * Específico do Journey Optimizer:
+  * Específico do Journey Optimizer:
 
-      * subdomains_delegation.read
-      * subdomains_delegation.write
-      * subdomains_delegation.delete
+    * subdomains_delegation.read
+    * subdomains_delegation.write
+    * subdomains_delegation.delete
 
   +++
 
 * A permissão de alto nível **[!DNL Manage suppression]** permite que os usuários definam o número de rejeições antes que um endereço de email seja adicionado à lista de supressão, bem como adicionar e excluir entradas da/para a lista de supressão.
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
-   * Específico do Journey Optimizer:
-      * suppression_rules.read
-      * suppression_rules.write
-      * suppression_rules.delete
-      * suppression_list.write
-      * suppression_list.delete
+  * Específico do Journey Optimizer:
+    * suppression_rules.read
+    * suppression_rules.write
+    * suppression_rules.delete
+    * suppression_list.write
+    * suppression_list.delete
 
   +++
 
 * A permissão de alto nível **[!DNL View file routing]** permite que os usuários exibam configurações de roteamento de arquivos.
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
-   * Específico do Journey Optimizer:
+  * Específico do Journey Optimizer:
 
-      * file_routing.read
+    * file_routing.read
 
   +++
 
@@ -481,8 +481,8 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
-      * key-registry.read
+  * Específico do Journey Optimizer:
+    * key-registry.read
 
   +++
 
@@ -490,11 +490,11 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível: 
 
-   * Específico do Journey Optimizer:
-      * messages_general_settings.read
+  * Específico do Journey Optimizer:
+    * messages_general_settings.read
 
-   * Específico do Adobe Experience Platform:
-      * schemas.read
+  * Específico do Adobe Experience Platform:
+    * schemas.read
 
   +++
 
@@ -502,23 +502,23 @@ Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível: 
 
-   * Específico do Journey Optimizer:
-      * messages_presets.read
-      * subdomains_delegation.read
-      * IP_pools.read
+  * Específico do Journey Optimizer:
+    * messages_presets.read
+    * subdomains_delegation.read
+    * IP_pools.read
 
-   * Específico da Coleção de dados:
-      * Mobile_setting.read
+  * Específico da Coleção de dados:
+    * Mobile_setting.read
 
   +++
 
 * A permissão de alto nível **[!DNL View PTR records]** permite que os usuários exibam registros PTR que foram configurados com base no subdomínio.
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível: 
-   * Específico do Journey Optimizer:
+  * Específico do Journey Optimizer:
 
-      * PTR_records.read
-      * subdomains_delegation.read
+    * PTR_records.read
+    * subdomains_delegation.read
 
   +++
 
@@ -539,12 +539,12 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
-      * suppression_list.view
+  * Específico do Journey Optimizer:
+    * suppression_list.view
 
-   * Específico do Adobe Experience Platform:
-      * profiles.read
-      * datasets.read
+  * Específico do Adobe Experience Platform:
+    * profiles.read
+    * datasets.read
 
   +++
 
@@ -558,12 +558,12 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 ## Recurso de assistência de IA {#ai-permissions}
 
-* A permissão de alto nível **[!DNL Generate content]** permite que os usuários acessem o Assistente de IA na Journey Optimizer.
+* A permissão de alto nível **[!DNL Generate content]** permite que os usuários acessem o menu Gerar conteúdo no Journey Optimizer.
 
   +++ Inclui a seguinte permissão de baixo nível:  
 
-   * Específico do Journey Optimizer:
-      * ai-assistant-generated-content.generate
+  * Específico do Journey Optimizer:
+    * ai-assistant-generated-content.generate
 
   +++
 
@@ -573,31 +573,31 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
+  * Específico do Journey Optimizer:
 
-      * orchestrated_campaigns.read
-      * orchestrated_campaigns.write
-      * orchestrated_campaigns.delete
-      * cjm-web-subdomain.read
-      * cjm-message.read
-      * cjm-message.write
-      * cjm-message.delete
-      * cjm-library-item.read
-      * cjm-message-general-setting.read
-      * cjm-message-preset.read
-      * cjm-message-preview-test.write
-      * leitura.experimento
-      * experiment.write
-      * experimento.excluir
+    * orchestrated_campaigns.read
+    * orchestrated_campaigns.write
+    * orchestrated_campaigns.delete
+    * cjm-web-subdomain.read
+    * cjm-message.read
+    * cjm-message.write
+    * cjm-message.delete
+    * cjm-library-item.read
+    * cjm-message-general-setting.read
+    * cjm-message-preset.read
+    * cjm-message-preview-test.write
+    * leitura.experimento
+    * experiment.write
+    * experimento.excluir
 
-   * Específico do Adobe Experience Platform:
+  * Específico do Adobe Experience Platform:
 
-      * identity-graph.read
-      * segmentos.ler
-      * profiles.read
-      * datasets.read
-      * schemas.read
-      * sandboxes.view
+    * identity-graph.read
+    * segmentos.ler
+    * profiles.read
+    * datasets.read
+    * schemas.read
+    * sandboxes.view
 
   +++
 
@@ -605,11 +605,11 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
+  * Específico do Journey Optimizer:
 
-      * cjm-orchestrated-campaign-admin.read
-      * cjm-orchestrated-campaign-admin.write
-      * cjm-orchestrated-campaign-admin.delete
+    * cjm-orchestrated-campaign-admin.read
+    * cjm-orchestrated-campaign-admin.write
+    * cjm-orchestrated-campaign-admin.delete
 
   +++
 
@@ -617,18 +617,18 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:
 
-   * Específico do Journey Optimizer:
+  * Específico do Journey Optimizer:
 
-      * cjm-orchestrated-campaign.read
-      * cjm-orchestrated-campaign.publish
-      * cjm-web-subdomain.read
-      * cjm-message.read
-      * cjm-message.publish
-      * cjm-library-item.read
+    * cjm-orchestrated-campaign.read
+    * cjm-orchestrated-campaign.publish
+    * cjm-web-subdomain.read
+    * cjm-message.read
+    * cjm-message.publish
+    * cjm-library-item.read
 
-   * Específico do Adobe Experience Platform:
+  * Específico do Adobe Experience Platform:
 
-      * sandboxes.view
+    * sandboxes.view
 
   +++
 
@@ -636,20 +636,20 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
+  * Específico do Journey Optimizer:
 
-      * cjm-orchestrated-campaign.read
-      * cjm-message.read
-      * cjm-library-item.read
-      * cjm-message-general-setting.read
-      * cjm-message-preset.read
-      * leitura.experimento
+    * cjm-orchestrated-campaign.read
+    * cjm-message.read
+    * cjm-library-item.read
+    * cjm-message-general-setting.read
+    * cjm-message-preset.read
+    * leitura.experimento
 
-   * Específico do Adobe Experience Platform:
+  * Específico do Adobe Experience Platform:
 
-      * sandboxes.view
-      * segmentos.ler
-      * profiles.read
+    * sandboxes.view
+    * segmentos.ler
+    * profiles.read
 
   +++
 
@@ -657,9 +657,9 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
+  * Específico do Journey Optimizer:
 
-      * cjm-orchestrated-campaign-admin.read
+    * cjm-orchestrated-campaign-admin.read
 
   +++
 
@@ -667,24 +667,24 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ Essa permissão inclui as seguintes permissões de baixo nível:  
 
-   * Específico do Journey Optimizer:
+  * Específico do Journey Optimizer:
 
-      * cjm-orchestrated-campaign-reports.read
-      * cjm-message-report.read
-      * cjm-channel-report.read
-      * cjm-orchestrated-campaign.read
-      * cjm-message.read
-      * cjm-library-item.read
-      * leitura.experimento
-      * experiment-report.read
+    * cjm-orchestrated-campaign-reports.read
+    * cjm-message-report.read
+    * cjm-channel-report.read
+    * cjm-orchestrated-campaign.read
+    * cjm-message.read
+    * cjm-library-item.read
+    * leitura.experimento
+    * experiment-report.read
 
-   * Específico do Adobe Experience Platform:
+  * Específico do Adobe Experience Platform:
 
-      * sandboxes.view
-      * datasets.read
-      * queries.read
-      * queries.write
-      * consultas.excluir
+    * sandboxes.view
+    * datasets.read
+    * queries.read
+    * queries.write
+    * consultas.excluir
 
   +++
 
@@ -701,7 +701,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Entender a distinção entre permissões de alto e baixo nível
 * Identificar quais permissões de baixo nível são concedidas por cada permissão de alto nível
 * Configure funções com precisão para jornadas, campanhas, gestão de decisões, configurações de canal e campanhas orquestradas
-* Conceder acesso ao Assistente de IA para geração de conteúdo
+* Conceder acesso de Geração de conteúdo para geração de conteúdo
 * Entenda o que a permissão Publicar jornadas permite em comparação à permissão Gerenciar jornadas
 
 **Glossário:**

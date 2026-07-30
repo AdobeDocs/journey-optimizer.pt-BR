@@ -24,7 +24,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 3ce2c816766da670f3905d4986b5dc304f9a674c
+source-git-commit: 0af9a79a9f06d99c6136618c3635c05e4dc653e8
 workflow-type: tm+mt
 source-wordcount: 1937
 ht-degree: 22%
@@ -104,7 +104,7 @@ Quando um ponto de extremidade tem um tempo de resposta superior a 0,75 segundos
 
 Esse serviço de ação personalizada lenta aplica um limite de 150.000 chamadas a cada 30 segundos. O limite é aplicado usando uma janela deslizante, que pode começar a qualquer milissegundo dentro desse período de 30 segundos. Quando a janela estiver cheia, as chamadas adicionais serão rejeitadas com erros de limite. O sistema não espera pelo próximo intervalo fixo, mas começa a limitar imediatamente depois que o limite de 30 segundos é atingido.
 
-Além disso, para ajudar a evitar a sobrecarga de um endpoint já lento, o serviço de ação personalizada lenta limita temporariamente todas as chamadas por até 5 minutos se mais de 20% das chamadas em qualquer janela de 120 segundos exceder 10 segundos. Esse mecanismo de disjuntor só se aplica se houver pelo menos 200 chamadas na janela de 130 segundos. Essa proteção está atualmente disponível em algumas regiões e está sendo progressivamente implementada em todas as regiões nos próximos dias.
+Além disso, para ajudar a evitar a sobrecarga de um endpoint já lento, o serviço de ação personalizada lenta limita temporariamente todas as chamadas por até 5 minutos se mais de 20% das chamadas em qualquer janela de 120 segundos exceder 10 segundos. Esse mecanismo de disjuntor só se aplica se houver pelo menos 200 chamadas na janela de 120 segundos. Essa proteção está atualmente disponível em algumas regiões e está sendo progressivamente implementada em todas as regiões nos próximos dias.
 
 Como endpoints lentos podem causar atrasos em todas as ações em fila no pipeline, é recomendável não configurar ações personalizadas com endpoints com tempos de resposta lentos. O roteamento dessas ações para o serviço lento ajuda a proteger o desempenho geral do sistema e impede a latência adicional de outras ações personalizadas.
 

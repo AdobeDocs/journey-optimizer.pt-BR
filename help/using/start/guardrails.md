@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fa7bbe1ed725874467ac3bb6c7e432b3afda52b5
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 4612
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -173,7 +173,7 @@ As seguintes medidas de proteção se aplicam aos [eventos](../event/about-event
 * Os eventos de negócios não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
 * Um único evento pode ser referenciado por no máximo **25** jornadas a qualquer momento, em todas as jornadas ativas e fechadas. Quando esse limite for atingido, a publicação de qualquer jornada adicional que use esse evento será bloqueada.
 * Um único esquema XDM pode ser referenciado por no máximo **100** eventos em todas as jornadas ativas e fechadas de uma só vez. Quando esse limite for atingido, a publicação de qualquer jornada com um nó de evento que faça referência a esse esquema será bloqueada.
-* As jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada do perfil é temporariamente bloqueada por **5 minutos**. Por exemplo, se um evento acionar uma jornada às 12:01 para um perfil específico e outra chegar às 12:03 (seja o mesmo evento ou outro que está acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
+* As jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada do perfil é temporariamente bloqueada por **5 minutos**. Por exemplo, se um evento acionar uma jornada às 12h01 para um perfil específico e outra chegar às 12h03 (se for o mesmo evento ou outro acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
 * O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço Principal de Coleção de Dados (DCCS) para acionar uma jornada. Eventos assimilados em lote, eventos inseridos via **Serviço de consulta**, ou eventos de conjuntos de dados internos do Journey Optimizer (Feedback de mensagens, Rastreamento de email etc.) não podem ser usados para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, é necessário criar um público-alvo com base nesses eventos e usar a atividade **Público-alvo de leitura**. A qualificação de público-alvo pode ser tecnicamente utilizada, mas não é recomendada, pois pode causar problemas posteriores com base nas ações usadas.
 
 ### Fontes de dados {#data-sources-g}
@@ -415,9 +415,9 @@ O Journey Optimizer aceita um volume máximo de **500 mensagens transacionais po
 
 Esta seção aborda as medidas de proteção para a criação e o gerenciamento de conteúdo, incluindo páginas de destino, subdomínios e fragmentos.
 
-### Medidas de proteção do Assistente de IA {#ai-assistant-g}
+### Gerar medidas de proteção de conteúdo {#ai-assistant-g}
 
-As medidas de proteção e limitações para a **geração de conteúdo do Assistente de IA** — incluindo limitações dos canais com suporte (email, push, web, SMS) e do editor de personalização — estão listadas [nesta página](../content-management/gs-generative.md#generative-guardrails).
+As medidas de proteção e limitações para **Gerar Conteúdo** — incluindo os canais com suporte (email, push, web, SMS) e as limitações do editor de personalização — estão listadas em [esta página](../content-management/gs-generative.md#generative-guardrails).
 
 ### Medidas de proteção das páginas de destino {#lp-guardrails}
 

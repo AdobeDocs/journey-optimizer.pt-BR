@@ -9,9 +9,9 @@ role: User
 level: Beginner
 hide: true
 keywords: jornada otimizer, integração, hub de integração, casos de uso, vídeos, tutoriais, introdução, aumento, primeira jornada
-source-git-commit: 3aba16758fb9e0700acd8fadfaa8e25fec253e89
+source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1114'
 ht-degree: 12%
 
 ---
@@ -133,7 +133,7 @@ Navegue por conteúdo de vídeo preparado por tópico. Cada guia está vinculada
 
 >[!TAB Personalization e IA]
 
-* [Assistente de IA para geração de conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} — Gerar cópia, imagens e variações.
+* [Gerar conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} — Gerar cópia, imagens e variações.
 * [Use o decisioning para personalizar ofertas da Web](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} — Personalize ofertas por cliente.
 
 >[!TAB Relatórios e otimização]
@@ -156,7 +156,7 @@ Para obter uma visão geral completa de como essas funções funcionam juntas, c
 
 ## Recursos relacionados {#related-resources}
 
-<!--* [Migrate content and journeys](migrate-content-and-journeys.md) — Import email content and journeys from another marketing platform.-->
+* [Migrar conteúdo e jornadas](migrate-content-and-journeys.md) — Importe conteúdo de email e jornadas de outra plataforma de marketing.
 * [Encontre a capacidade certa do Journey Optimizer para sua meta](ajo-use-case-guide.md) — Guia de decisão de início de meta para todos os recursos.
 * [Biblioteca de casos de uso do Jornada](../building-journeys/jo-use-cases.md) — Exemplos práticos e padrões de implementação.
 * [Terminologia de chave](terminology.md) — Esclareça os conceitos por trás de cada recurso.

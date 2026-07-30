@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
+source-git-commit: 6077b5031e046256d926f333ef5e2df006e118e5
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 19%
+source-wordcount: 1228
+ht-degree: 18%
 
 ---
 
@@ -118,7 +118,7 @@ Para enviar uma mensagem móvel no Journey Optimizer usando um provedor personal
 
 1. Na seção **[!UICONTROL Cabeçalhos]**, clique em **[!UICONTROL Adicionar novo parâmetro]** para especificar os cabeçalhos HTTP para a mensagem de solicitação que será enviada para o serviço externo.
 
-   Os campos de cabeçalho **Content-Type** e **Charset** estão definidos por padrão e não podem ser excluídos.
+   Os campos de cabeçalho **Content-Type** e **Charset** são definidos por padrão e não podem ser excluídos, embora você possa editar o valor padrão **Content-Type**. Você pode adicionar até 10 parâmetros de cabeçalho personalizados.
 
    ![](assets/sms_byo_2.png)
 
@@ -129,6 +129,8 @@ Para enviar uma mensagem móvel no Journey Optimizer usando um provedor personal
    >[!NOTE]
    >
    >Ao configurar um provedor de SMS personalizado com autenticação Básica ou de Portador, você deve incluir o parâmetro `authOption` na carga JSON. Além disso, a **Carga do Provedor** deve fazer referência às variáveis de modelo `{{fromNumber}}`, `{{toNumber}}` e `{{message}}`.
+   >
+   >A **Carga do Provedor** também oferece suporte às [funções auxiliares de personalização](../personalization/functions/string.md) da Adobe Journey Optimizer, incluindo [`encode64`](../personalization/functions/string.md#encode64).
 
 1. Selecione **[!UICONTROL Usar conjunto de dados personalizado para entrada]** para rotear o SMS de entrada desta credencial para um conjunto de dados pré-criado que você escolher na lista suspensa. [Saiba mais sobre como usar um conjunto de dados personalizado para palavras-chave de entrada](custom-dataset-inbound-keywords.md)
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimento de conteúdo com o AI Assistant no Journey Optimizer
-description: Experimento de conteúdo com o AI Assistant no Journey Optimizer
+title: Experimento de conteúdo com IA no Journey Optimizer
+description: Experimento de conteúdo com IA no Journey Optimizer
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
@@ -27,18 +27,18 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 7%
+source-wordcount: 284
+ht-degree: 9%
 
 ---
 
-# Experimento de conteúdo com o AI Assistant{#generative-experimentation}
+# Experimento de conteúdo com IA{#generative-experimentation}
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Aprenda a usar o Assistente de IA no Adobe Journey Optimizer para gerar variações de conteúdo e transformá-las em tratamentos experimentais que medem o desempenho em todo o seu público-alvo.
+**Nesta página:** Aprenda a usar IA no Adobe Journey Optimizer para gerar variações de conteúdo e transformá-las em tratamentos experimentais que meçam o desempenho em seu público-alvo.
 
 >[!ENDSHADEBOX]
 
@@ -47,11 +47,11 @@ ht-degree: 7%
 >Antes de começar a usar esse recurso, leia as [Medidas de Proteção e Limitações](gs-generative.md#generative-guardrails) relacionadas.
 ></br>
 >
->Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR) antes de usar o Assistente de IA no Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
+>Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR) antes de poder usar Gerar conteúdo no Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
 
-Depois de criar e personalizar suas mensagens, eleve o conteúdo com o Assistente de IA no Adobe Journey Optimizer, que inclui o recurso Experimento de conteúdo. Essa ferramenta permite definir vários tratamentos de delivery, conteúdo variável, para medir o desempenho do público-alvo.
+Depois de criar e personalizar suas mensagens, eleve o conteúdo com Gerar conteúdo no Adobe Journey Optimizer, que inclui o recurso Experimento de conteúdo. Essa ferramenta permite definir vários tratamentos de delivery, conteúdo variável, para medir o desempenho do público-alvo.
 
-1. Crie sua campanha e use o Assistente de IA para gerar suas variantes.
+1. Crie a campanha e use a IA para gerar as variantes.
 
    Neste exemplo, geramos um email de confirmação de subscrição com um código promocional.
 

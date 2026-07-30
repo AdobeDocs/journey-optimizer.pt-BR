@@ -12,7 +12,7 @@ badge: label="Beta público" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 6456977344b51cb595b4c7f6db992a588c0b059f
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: 1090
 ht-degree: 2%
@@ -90,7 +90,7 @@ Quando uma atividade **[!UICONTROL Wait]** usa uma data personalizada, você def
 ## Recursos relacionados {#related}
 
 * [Trabalhar com o editor de expressão avançado](expressionadvanced.md) — Visão geral da interface do editor de expressão e sintaxe com suporte.
-* [Introdução ao Assistente de IA no Journey Optimizer](../../content-management/gs-generative.md) — Medidas de proteção gerais, acesso e configuração para recursos de IA generativa.
+* [Introdução à Geração de Conteúdo no Journey Optimizer](../../content-management/gs-generative.md) — Medidas de proteção gerais, acesso e configuração para recursos de IA generativa.
 
 +++ Referência de conhecimento de IA
 
@@ -118,7 +118,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Medidas de Proteção:**
 
 * O Assistente de Expressão está atualmente em **beta público** — a disponibilidade e o comportamento podem mudar
-* As medidas de proteção e limitações da IA geradora da documentação principal do Assistente de IA se aplicam a este recurso
+* As medidas de proteção e limitações da IA geradora da documentação principal do Gerar conteúdo se aplicam a esse recurso
 * Se o assistente referenciar campos que não estão presentes nas fontes de dados da sua jornada, retornará um erro: revise o prompt para usar os nomes de campo disponíveis
 * A sintaxe de expressão gerada exata depende dos campos e atividades configurados em sua jornada específica
 

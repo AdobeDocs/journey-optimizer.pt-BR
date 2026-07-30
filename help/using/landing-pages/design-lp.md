@@ -25,9 +25,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: 278
 ht-degree: 17%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 17%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Descubra como criar o conteúdo da sua página de aterrissagem no designer de conteúdo — do zero, com o AI Assistant, com a sua própria HTML ou com um modelo salvo — para obter uma experiência de visitante sob a marca.
+**Nesta página:** Descubra como criar o conteúdo da sua página de aterrissagem no designer de conteúdo — do zero, com IA, com a sua própria HTML ou com um modelo salvo — para obter uma experiência de visitante sob a marca.
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ Nela, você pode:
 
 * **Crie sua página de aterrissagem do zero** por meio da interface do designer de conteúdo e utilize imagens do [Adobe Experience Manager Assets](../integrations/assets.md). Saiba como criar seu conteúdo <!--or use built-in templates--> [nesta seção](../email/content-from-scratch.md).
 
-* **Gere conteúdo com o Assistente de IA** para acelerar a criação de páginas de aterrissagem com texto e imagens gerados por IA. [Saiba mais sobre o Assistente de IA](../content-management/generative-full-content.md).
+* **Gere conteúdo com IA** para acelerar a criação de páginas de aterrissagem com texto e imagens gerados por IA. [Saiba mais sobre Gerar Conteúdo](../content-management/generative-full-content.md).
 
 * **Codifique ou cole o HTML bruto** diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../email/code-content.md).
 

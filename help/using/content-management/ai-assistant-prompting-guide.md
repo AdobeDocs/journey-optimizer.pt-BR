@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Guia de prompt de conteúdo do Assistente de IA
+title: Gerar guia de prompt de conteúdo
 description: Saiba como criar prompts eficazes para a geração de conteúdo habilitado por IA usando a estrutura CO-STAR para criar conteúdo de marketing alinhado à marca e de alta conversão.
 topic: Artificial Intelligence
 role: User
@@ -25,18 +25,18 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 2328
-ht-degree: 2%
+source-wordcount: 2327
+ht-degree: 1%
 
 ---
 
-# Práticas recomendadas de solicitações do Assistente de IA {#ai-assistant-prompting-guide}
+# Gerar práticas recomendadas de prompt de conteúdo {#ai-assistant-prompting-guide}
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba como gravar prompts eficientes do Assistente de IA usando o assistente de prompts e a estrutura CO-STAR para gerar conteúdo de marketing de alta conversão sob as marcas no Adobe Journey Optimizer.
+**Nesta página:** saiba como gravar prompts efetivos de Geração de Conteúdo usando o assistente de prompts e a estrutura CO-STAR para gerar conteúdo de marketing de alta conversão e sob marca no Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
@@ -46,13 +46,13 @@ ht-degree: 2%
 >abstract="Explore a documentação do Journey Optimizer para saber como criar solicitações eficazes que produzam conteúdo de marketing de alta conversão e consistente com a marca."
 
 Este guia ajuda a estruturar suas solicitações, comunicar a intenção com clareza e garantir que a IA produza mensagens que se alinhem às diretrizes da sua marca, às necessidades do público-alvo e às metas da campanha.
-Saiba como escrever prompts eficazes que permitem que o AI Assistant gere conteúdo de marketing de alta qualidade e sob marca, adaptado aos seus objetivos.
+Saiba como escrever prompts eficazes que permitem usar IA para gerar conteúdo de marketing de alta qualidade e sob marca, adaptado aos seus objetivos.
 
 ## Usar o assistente de Prompt {#prompt-assistant}
 
 O assistente de prompt ajuda a fortalecer o prompt de abertura para que a geração de conteúdo precise de menos retroatividade. A partir dessa primeira entrada, você pode obter sugestões, uma reescrita sugerida, melhorias opcionais e perguntas mais claras. Suas respostas refinam o prompt usado para gerar o conteúdo.
 
-1. No menu **[!UICONTROL Assistente de IA]**, abra o **[!UICONTROL Assistente de prompt]** para refinar o prompt antes de gerar o conteúdo.
+1. No menu **[!UICONTROL Gerar conteúdo]**, abra o **[!UICONTROL Assistente de prompts]** para refinar seu prompt antes de gerar conteúdo.
 
    ![](assets/prompt-assistant-1.png)
 
@@ -80,7 +80,7 @@ Seguir esse fluxo de trabalho estabelece objetivos e detalhes necessários no pr
 
 ## Usar a estrutura CO-STAR {#costar-framework}
 
-Para obter melhores resultados com o Assistente de IA, organize seus prompts usando a estrutura CO-STAR. Essa abordagem estruturada garante que a IA entenda exatamente o que você precisa.
+Para obter melhores resultados com Gerar conteúdo, organize seus prompts usando a estrutura CO-STAR. Essa abordagem estruturada garante que a IA entenda exatamente o que você precisa.
 
 | Componente | O que significa | Por que isso importa |
 |-|-|-|

@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 693
 ht-degree: 9%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"} antes de usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
+>Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"} antes de poder usar a opção Gerar conteúdo no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
 
 O recurso Alinhamento da marca ajuda você a criar, revisar e gerenciar conteúdo que segue as diretrizes da sua marca. Ele garante a consistência no tom, nas mensagens e na identidade visual em todas as campanhas de email, além de servir como uma verificação de qualidade antes do conteúdo ser publicado.
 
@@ -91,15 +91,15 @@ Depois que [sua marca for configurada e publicada](brands.md), avalie a pontuaç
 1. Selecione qualquer diretriz sinalizada para exibir comentários e sugestões específicos. O alinhamento da marca avalia as seguintes categorias:
 
    * **[!UICONTROL Estilo de escrita]**:
-      * **[!UICONTROL Estilo de comunicação da marca]**: define a personalidade e o tom emocional para garantir uma voz consistente da marca em todos os canais.
-      * **[!UICONTROL Padrões de mensagem da marca]**: regras estruturais e de formatação para texto promocional e de marketing eficaz.
-      * **[!UICONTROL Padrões de conformidade legal]**: garante que todas as comunicações estejam em conformidade com os requisitos legais, incluindo a colocação de texto e listas de verificação de conformidade.
+     * **[!UICONTROL Estilo de comunicação da marca]**: define a personalidade e o tom emocional para garantir uma voz consistente da marca em todos os canais.
+     * **[!UICONTROL Padrões de mensagem da marca]**: regras estruturais e de formatação para texto promocional e de marketing eficaz.
+     * **[!UICONTROL Padrões de conformidade legal]**: garante que todas as comunicações estejam em conformidade com os requisitos legais, incluindo a colocação de texto e listas de verificação de conformidade.
 
    * **[!UICONTROL Conteúdo visual]**:
-      * **[!UICONTROL Padrões de fotografia]**: requisitos para conteúdo fotográfico, incluindo resolução, composição, iluminação e formatos de arquivo.
-      * **[!UICONTROL Padrões de ilustração]**: parâmetros de estilo, espessura da linha, uso de cor e requisitos de formato de arquivo para ilustrações.
-      * **[!UICONTROL Padrões de ícones]**: especificações para design de ícones, incluindo sistemas de grade, espessuras de traçado e dimensionamento para uniformidade.
-      * **[!UICONTROL Diretrizes de uso]**: práticas recomendadas para seleção de imagem, posicionamento e contexto para manter a identidade da marca.
+     * **[!UICONTROL Padrões de fotografia]**: requisitos para conteúdo fotográfico, incluindo resolução, composição, iluminação e formatos de arquivo.
+     * **[!UICONTROL Padrões de ilustração]**: parâmetros de estilo, espessura da linha, uso de cor e requisitos de formato de arquivo para ilustrações.
+     * **[!UICONTROL Padrões de ícones]**: especificações para design de ícones, incluindo sistemas de grade, espessuras de traçado e dimensionamento para uniformidade.
+     * **[!UICONTROL Diretrizes de uso]**: práticas recomendadas para seleção de imagem, posicionamento e contexto para manter a identidade da marca.
 
 
 

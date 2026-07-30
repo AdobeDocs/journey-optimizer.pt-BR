@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 638cf77ebad021b62e0fd6d5873e67a098fef7b7
+source-git-commit: 7f5634f35a471e5e1611f7563b82183e00377857
 workflow-type: tm+mt
-source-wordcount: 9688
+source-wordcount: 9725
 ht-degree: 84%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 84%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Julho de 2026 {#july-2026}
+
+* A seção do componente **Grade** foi adicionada à página **Componentes de conteúdo do Email Designer**. Ele permite organizar o conteúdo em uma grade estruturada de linhas e colunas, onde cada célula pode conter outros componentes de conteúdo. [Leia mais](../email/content-components.md#grid)
 
 * A documentação da **API de Migração de Decisão** foi atualizada com um esclarecimento de que a sandbox de destino **pode ser igual à sandbox de origem**. O processo de migração trata desse cenário e garante a integridade dos dados, independentemente de os objetos serem migrados na mesma sandbox ou para uma diferente. [Leia mais](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
 

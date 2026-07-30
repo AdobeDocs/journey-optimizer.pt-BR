@@ -9,10 +9,10 @@ role: Admin, User
 level: Beginner, Intermediate
 keywords: jornada otimizer, disponibilidade de recursos, o que está disponível, GA, disponibilidade limitada, beta, ciclo de vida, data de lançamento, direito, oferta básica, campanhas, jornada
 hide: true
-source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: '1880'
-ht-degree: 13%
+source-wordcount: '1878'
+ht-degree: 14%
 
 ---
 
@@ -90,7 +90,7 @@ Recursos de canal, conteúdo e plataforma marcados como **Todas as ofertas bási
 
 | Recurso | Status | Aplicável a | Disponível desde | Notas |
 |---------|--------|-----------|-----------------|-------|
-| Fragmentos de jornada | GA | Jornada; Campanhas e Jornadas | 9 de junho de 2026 | Nós de jornada reutilizáveis; suporte a ferramentas de sandbox |
+| Fragmentos da jornada | GA | Jornada; Campanhas e Jornadas | 9 de junho de 2026 | Nós de jornada reutilizáveis; suporte a ferramentas de sandbox |
 | Simulação de jornada | GA | Jornada; Campanhas e Jornadas | 9 de junho de 2026 | Validar a lógica com usuários simulados |
 | Otimização do caminho de Jornada - Direcionamento | GA | Jornada; Campanhas e Jornadas | 8 de junho de 2026 | Direcionamento de caminho determinístico |
 | Suporte de identificador complementar para públicos externos | GA | Jornada; Campanhas e Jornadas | 11 de junho de 2026 | Composição de CSV e público-alvo federado |
@@ -98,12 +98,12 @@ Recursos de canal, conteúdo e plataforma marcados como **Todas as ofertas bási
 | Atividade de ação em jornadas | GA | Jornada; Campanhas e Jornadas | 20 de fevereiro de 2026 | Substitui atividades de canal nativas obsoletas |
 | Atividade de decisão de conteúdo | GA | Jornada; Campanhas e Jornadas | 10 de fevereiro de 2026 | Anteriormente: LA |
 | Períodos de silêncio (exclusões com base no tempo) | GA | Jornada; Campanhas e Jornadas | 29 de janeiro de 2026 | Anteriormente: LA |
-| Assistente do AI para expressões de jornada | Beta | Jornada; Campanhas e Jornadas | 3 de junho de 2026 | Beta público |
+| Gerar conteúdo para expressões de jornada | Beta | Jornada; Campanhas e Jornadas | 3 de junho de 2026 | Beta público |
 | Arbitragem de jornada | LA | Jornada; Campanhas e Jornadas | 24 de fevereiro de 2026 | Entre em contato com seu representante da Adobe |
 | Arbitragem de jornada - Modelos de IA | LA | Jornada; Campanhas e Jornadas | Abril de 2026 | Entre em contato com seu representante da Adobe |
 | Suporte à pesquisa de conjunto de dados em jornadas | LA | Jornada; Campanhas e Jornadas | Março de 2026 | Para clientes qualificados para pesquisa de conjunto de dados |
 | Envio de onda de mensagens de saída (jornada) | LA | Jornada; Campanhas e Jornadas | 16 de março de 2026 | GA em campanhas; LA em jornadas |
-| Jornadas automatizadas (acionadas por eventos) | GA | Jornada; Campanhas e Jornadas | Recurso principal | Orquestração em tempo real do :1 |
+| Jornadas automatizadas (acionadas por eventos) | GA | Jornada; Campanhas e Jornadas | Recurso principal | Orquestração 1:1 em tempo real |
 | Acionadores de eventos em tempo real | GA | Jornada; Campanhas e Jornadas | Recurso principal | — |
 | Ler jornadas de público (com base no público) | GA | Jornada; Campanhas e Jornadas | Recurso principal | — |
 | Relatórios de jornada | GA | Jornada; Campanhas e Jornadas | Recurso principal | — |
@@ -131,7 +131,7 @@ Recursos de canal, conteúdo e plataforma marcados como **Todas as ofertas bási
 | Integrações (fontes de dados de terceiros) | GA | Todas as ofertas básicas | 4 de maio de 2026 | Anteriormente Beta |
 | Restringir quebra de herança em fragmentos | GA | Todas as ofertas básicas | 21 de maio de 2026 | Bloquear fragmentos em edições locais |
 | Integração do Adobe Express | GA | Todas as ofertas básicas | 23 de abril de 2026 | Anteriormente: LA |
-| Assistente de IA para expressões de personalização | GA | Todas as ofertas básicas | 13 de abril de 2026 | No editor de personalização e no Email Designer |
+| Gerar conteúdo para expressões de personalização | GA | Todas as ofertas básicas | 13 de abril de 2026 | No editor de personalização e no Email Designer |
 | Converter imagens em modelos de conteúdo de email | GA | Todas as ofertas básicas | 31 de março de 2026 | Anteriormente: LA |
 | Formulários personalizados de página de destino | GA | Todas as ofertas básicas | 26 de março de 2026 | Anteriormente LA (EUA e Austrália) |
 | Integração de modelos de imagem personalizados do Firefly e de terceiros | GA | Todas as ofertas básicas | 2 de março de 2026 | Adobe, Partner (Gemini) e modelos personalizados |
@@ -141,8 +141,8 @@ Recursos de canal, conteúdo e plataforma marcados como **Todas as ofertas bási
 | Designer de email (arrastar e soltar) | GA | Todas as ofertas básicas | Recurso principal | Criação no Visual e no HTML |
 | Fragmentos de conteúdo | GA | Todas as ofertas básicas | Recurso principal | Blocos de conteúdo reutilizáveis |
 | Modelos de conteúdo | GA | Todas as ofertas básicas | Recurso principal | — |
-| editor do Personalization | GA | Todas as ofertas básicas | Recurso principal | Personalização baseada em expressão |
-| Assistente de IA para geração de conteúdo | GA | Todas as ofertas básicas | Recurso principal | Exige termos de licenciamento de IA |
+| Editor de personalização | GA | Todas as ofertas básicas | Recurso principal | Personalização baseada em expressão |
+| Gerar conteúdo | GA | Todas as ofertas básicas | Recurso principal | Exige termos de licenciamento de IA |
 
 >[!TAB Decisão]
 
@@ -173,8 +173,8 @@ Todos os recursos do Decisioning exigem o complemento **Decisioning**. Consulte 
 | Recurso | Status | Aplicável a | Disponível desde | Notas |
 |---------|--------|-----------|-----------------|-------|
 | Autenticação personalizada baseada em certificado em ações personalizadas | GA | Todas as ofertas básicas | 4 de junho de 2026 | Para identidade baseada em certificado (por exemplo, Microsoft Entra ID) |
-| Alertas do cliente para eventos de ciclo de vida da campanha | GA | Todas as ofertas básicas | 1 de junho de 2026 | Assinar no nível da sandbox |
-| Criptografia de parâmetro de URL | GA | Todas as ofertas básicas | 1 de junho de 2026 | Anteriormente, o LA; precisa de permissões de registro de chaves |
+| Alertas do cliente para eventos de ciclo de vida da campanha | GA | Todas as ofertas básicas | 1º de junho de 2026 | Assinar no nível da sandbox |
+| Criptografia de parâmetro de URL | GA | Todas as ofertas básicas | 1º de junho de 2026 | Anteriormente, o LA; precisa de permissões de registro de chaves |
 | APIs de ferramentas de migração de autoatendimento | GA | Todas as ofertas básicas | 3 de fevereiro de 2026 | — |
 | Monitoramento de ação personalizado | GA | Todas as ofertas básicas | 3 de fevereiro de 2026 | Anteriormente: LA |
 | Exportação de mensagem | GA | Todas as ofertas básicas | 28 de janeiro de 2026 | Disponível como um complemento |

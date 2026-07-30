@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
+source-git-commit: c26beaed1c61e719f5066190970a649e28207566
 workflow-type: tm+mt
-source-wordcount: 993
+source-wordcount: 1072
 ht-degree: 2%
 
 ---
@@ -143,6 +143,14 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
 
    +++
 
+1. Depois de criar uma condição para um código do idioma, você pode reutilizá-lo para outros códigos do idioma, em vez de reconstruí-lo do zero. Clique em **[!UICONTROL Copiar para...]** e selecione uma ou mais localidades de destino às quais aplicar a condição.
+
+   ![](assets/multilingual-settings-7.png)
+
+   >[!NOTE]
+   >
+   >Copiar uma condição substitui qualquer condição existente nos locais de destino selecionados.
+
 1. Arraste e solte as localidades para reordená-las e gerenciar sua prioridade na lista.
 
 1. Para excluir um local, clique no ícone de compartimento.
@@ -152,6 +160,10 @@ Nesta seção, você pode definir suas diferentes localidades para gerenciar o c
 1. Clique em **[!UICONTROL Enviar]** para criar suas **[!UICONTROL configurações de idioma]**.
 
 Observe que, após configurar suas preferências de idioma, você não terá mais a opção de editá-las.
+
+Para adicionar uma localidade ou alterar as condições de uma **[!UICONTROL Configuração de idioma]** ativa, acesse ![](assets/do-not-localize/Smock_More_18_N.svg) e selecione **[!UICONTROL Duplicar]**. Essa ação cria uma cópia da configuração existente que pode ser editada.
+
+![](assets/multilingual-settings-8.png)
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.

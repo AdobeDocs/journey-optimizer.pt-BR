@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: 1619
 ht-degree: 9%
@@ -226,7 +226,7 @@ O [!DNL Journey Optimizer] pode analisar regras automaticamente e sugerir simpli
 
 >[!NOTE]
 >
->A otimização de regras habilitada por IA depende dos mesmos recursos de IA gerativos que o **Assistente de IA** e usa os mesmos controles de acesso. Os usuários devem receber a permissão **[!UICONTROL Gerar Conteúdo]** no recurso **[!UICONTROL Assistente de IA]**. Para obter detalhes, consulte o [Assistente de IA de acesso](../content-management/gs-generative.md#generative-access).
+>A otimização de regras habilitada por IA depende dos mesmos recursos de IA gerativa que **Gerar conteúdo** e usa os mesmos controles de acesso. Os usuários devem receber a permissão **[!UICONTROL Gerar Conteúdo]** no recurso **[!UICONTROL Assistente de IA]**. Para obter detalhes, consulte [Acessar Gerar Conteúdo](../content-management/gs-generative.md#generative-access).
 
 ![](assets/decision-rules-ai.png)
 

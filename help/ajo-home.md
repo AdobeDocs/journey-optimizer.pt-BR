@@ -5,10 +5,10 @@ title: Documentação do Adobe Journey Optimizer
 description: Documentação do Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: 6defc249832fd571706a3d20679deeb441309354
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 96%
+source-wordcount: '626'
+ht-degree: 91%
 
 ---
 
@@ -34,11 +34,11 @@ Descubra como criar e gerenciar os **Desafios de Fidelidade** para engajar e pre
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->[!TAB Assistente de IA para personalização]
+>[!TAB Habilidades do Journey Optimizer no CX Co-worker]
 
-Use o **Assistente de IA** no Editor de personalização ou na barra de ferramentas do Designer de email (**Adicionar expressão**) para descrever o que você deseja em linguagem simples e obter uma expressão de personalização, ou selecione um código existente para explicá-lo, corrigir problemas ou sugerir melhorias.
+Adicionamos uma nova página de documentação para **habilidades do Journey Optimizer no CX Coworker**, incluindo habilidades **focadas em jornadas** e **focadas em fidelidade**, com orientação e prompts de amostra.
 
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/generative-personalization-expressions.md)
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/start/ajo-coworker-skills.md)
 
 
 >[!TAB Iterar em dados contextuais]

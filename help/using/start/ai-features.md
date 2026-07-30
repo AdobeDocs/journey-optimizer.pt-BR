@@ -29,9 +29,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: bccad6a764b6415d87a6c8f4a1d5f0496899ec4e
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
-source-wordcount: 2521
+source-wordcount: 2514
 ht-degree: 4%
 
 ---
@@ -206,15 +206,15 @@ O [Experimentation Agent](https://experienceleague.adobe.com/pt-br/docs/experien
 
 ## Geração de conteúdo alimentado por IA {#content-generation}
 
-Use a IA generativa para criar e personalizar o conteúdo em vários canais, acelerando o processo de criação de conteúdo e mantendo a consistência da marca. O Assistente de IA para geração de conteúdo está disponível para experiências de [email](../email/get-started-email.md), [notificações por push](../push/get-started-push.md), [SMS](../mobile/get-started-mobile.md) e [web](../web/get-started-web.md) - ajudando a gerar linhas de assunto, corpo do texto, imagens e variações completas de mensagens.
+Use a IA generativa para criar e personalizar o conteúdo em vários canais, acelerando o processo de criação de conteúdo e mantendo a consistência da marca. Gerar conteúdo está disponível para experiências de [email](../email/get-started-email.md), [notificações por push](../push/get-started-push.md), [SMS](../mobile/get-started-mobile.md) e [web](../web/get-started-web.md) - ajudando a gerar linhas de assunto, corpo do texto, imagens e variações completas de mensagens.
 
 ### Recursos principais
 
-* **Geração de conteúdo completo** - Gere experiências de conteúdo completas (texto e imagens) em um fluxo para email, Web, páginas de aterrissagem e push. [Gerar conteúdo completo com o Assistente de IA](../content-management/generative-full-content.md)
+* **Geração de conteúdo completo** - Gere experiências de conteúdo completas (texto e imagens) em um fluxo para email, Web, páginas de aterrissagem e push. [Gerar conteúdo completo com IA](../content-management/generative-full-content.md)
 * **Geração de texto** - Crie uma cópia atraente com base na voz e nos objetivos de sua marca. [Gerar texto com IA](../content-management/generative-text.md)
 * **Geração de imagem** - Gere imagens personalizadas usando o Adobe Firefly. [Gerar imagens com IA](../content-management/generative-image.md)
 * **Variações de conteúdo** - Produza várias variações para teste A/B. [Experimento de conteúdo com IA](../content-management/generative-experimentation.md)
-* **Personalization** - Gere novas expressões, explique o código existente ou corrija problemas com o Assistente de IA no Editor do Personalization ou na barra de ferramentas do Email Designer (**Adicionar expressão**). [Assistente de IA para expressões Personalization](../content-management/generative-personalization-expressions.md)
+* **Personalization** - Gere novas expressões, explique o código existente ou corrija problemas com a função Gerar Conteúdo no Editor do Personalization ou na barra de ferramentas do Email Designer (**Adicionar expressão**). [Gerar conteúdo para expressões de personalização](../content-management/generative-personalization-expressions.md)
 * **Alinhamento da marca** - Verifique se o conteúdo gerado corresponde às diretrizes da sua marca. [Avaliar o alinhamento da marca](../content-management/brands-score.md)
 * **Suporte a Modelos** - Utilize seus modelos de email existentes. [Trabalhar com modelos de conteúdo](../content-management/content-templates.md)
 
@@ -309,7 +309,7 @@ Somente regras e fórmulas de classificação cuja expressão PQL é maior que *
 
 +++**Permissões**
 
-Este recurso usa os mesmos controles de acesso de IA gerativa que o **Assistente de IA**. Os usuários devem receber a permissão **[!UICONTROL Gerar Conteúdo]** no recurso **[!UICONTROL Assistente de IA]**. [Saiba mais sobre o acesso ao Assistente de IA](../content-management/gs-generative.md#generative-access)
+Esse recurso usa os mesmos controles de acesso de IA gerativa que **Gerar conteúdo**. Os usuários devem receber a permissão **[!UICONTROL Gerar Conteúdo]** no recurso **[!UICONTROL Assistente de IA]**. [Saiba mais sobre o acesso de Geração de Conteúdo](../content-management/gs-generative.md#generative-access)
 
 +++
 
@@ -369,7 +369,7 @@ Procurar nos manuais do Journey Optimizer cenários comuns, como:
 
 +++**Quais permissões são necessárias para os recursos de IA?**
 
-* **[Assistente de IA para geração de conteúdo](#content-generation)** - Requer a permissão &quot;Gerar conteúdo&quot;
+* **[Gerar conteúdo](#content-generation)** - Requer a permissão &quot;Gerar conteúdo&quot;
 * Conhecimento de produto do **[Assistente de IA](#ai-assistant)** - Requer a aprovação das Diretrizes de usuário da IA geradora da Adobe
 * **[Agente de Análise de Jornada](#journey-analyze-skill)** - Requer permissões para Exibir/Gerenciar Jornadas e Exibir/Gerenciar Segmentos
 * **[Agente de Criação de Jornada](#journey-create-skill)** - Exige Gerenciar Jornadas, Exibir Eventos de Jornada/Fontes de Dados/Ações, Exibir Segmentos e Gerenciar Permissões de Segmentos
@@ -405,7 +405,7 @@ A maioria dos recursos de IA está incluída no Adobe Journey Optimizer. Alguns 
 >
 >* [O que é o Journey Optimizer?](get-started.md) — visão geral dos principais recursos, casos de uso e arquitetura.
 >* [Noções básicas sobre como funciona](understanding-ajo.md) — Como o Journey Optimizer e o Experience Platform trabalham juntos.
->* [Geração de conteúdo de IA](../content-management/gs-generative.md) — Gere emails, push, SMS e conteúdo da Web com o Assistente de IA.
+>* [Geração de conteúdo de IA](../content-management/gs-generative.md) — Gere emails, push, SMS e conteúdo da Web com Gerar Conteúdo.
 >* [Otimização de Tempo de Envio](../building-journeys/send-time-optimization.md) — Preveja e otimize o tempo de entrega de mensagens por indivíduo.
 >* [Modelos de IA para decisão](../experience-decisioning/ranking/ai-models.md) — Classifique e personalize ofertas automaticamente com modelos de classificação de IA.
 >* [Trabalhar com clientes MCP](../integrations/ajo-mcp.md) — Consultar campanhas, jornadas e ofertas de Claude Web, Claude Desktop ou Cursor usando o servidor MCP do Journey Optimizer.

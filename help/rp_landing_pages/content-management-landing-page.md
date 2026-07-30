@@ -5,10 +5,10 @@ title: Gerenciamento de conteúdo
 description: Gerenciamento de conteúdo
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 94%
 
 ---
 
@@ -84,6 +84,6 @@ Integre soluções da Adobe, como Experience Manager, Stock e GenStudio, para ob
 
 ## Recursos adicionais
 
-- **[Assistente de IA para geração de conteúdo](ai-assistant-landing-page.md)**: utilize as ferramentas de IA para gerar e personalizar o conteúdo de emails, SMS, páginas da web e experimentos.
+- **[Gerar conteúdo](ai-assistant-landing-page.md)** - Use a IA para gerar e personalizar conteúdo em emails, SMS, páginas da Web e experimentos.
 - **[Gerenciamento de conteúdo multilíngue](content-multilingual-landing-page.md)**: crie e gerencie um conteúdo multilíngue, usando fluxos de trabalho de tradução manuais e automatizados.
 - **[Experimentação de conteúdo](../using/content-management/get-started-experiment.md)**: configure e analise experimentos para otimizar o engajamento do público-alvo e os resultados da campanha.

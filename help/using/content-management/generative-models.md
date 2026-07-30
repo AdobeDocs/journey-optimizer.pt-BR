@@ -10,7 +10,7 @@ exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 593
 ht-degree: 2%
@@ -30,14 +30,14 @@ Expanda os recursos de criação de imagens de IA com modelos integrados, modelo
 Escolha o modelo certo para suas necessidades:
 
 - O **[!UICONTROL Adobe model]**, desenvolvido pela Firefly Image Model 4, é fornecido imediatamente e está pronto para uso para geração imediata de imagem sem configuração adicional.
-- O **[!UICONTROL Partner model]**, desenvolvido pelo Gemini 2.5 Flash, oferece recursos especializados para casos de uso específicos. Para um fluxo de trabalho passo a passo que usa **Gemini** com **sobreposições de texto** em imagens no Assistente de IA, consulte [Usar Gemini como modelo generativo para imagem de sobreposição de texto](generative-uc.md#generative-gemini).
+- O **[!UICONTROL Partner model]**, desenvolvido pelo Gemini 2.5 Flash, oferece recursos especializados para casos de uso específicos. Para um fluxo de trabalho passo a passo que usa **Gemini** com **sobreposições de texto** em imagens em Gerar conteúdo, consulte [Usar Gemini como modelo gerativo para imagem de sobreposição de texto](generative-uc.md#generative-gemini).
 - **[!UICONTROL Os modelos personalizados]** são modelos específicos da marca treinados em seus próprios ativos e adicionados pela sua organização.
 
   Saiba mais sobre **[!UICONTROL Modelos personalizados]** em [Documentação do Adobe Firefly](https://helpx.adobe.com/br/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
 
 Após a configuração, você pode selecionar qualquer um dos modelos geradores ao criar imagens em seu conteúdo. [Saiba mais sobre a geração de imagens](generative-image.md).
 
-## Gerenciar modelos gerativos
+## Gerenciar modelos generativos
 
 Gerencie seus modelos geradores de um local centralizado. Exiba todos os modelos disponíveis, filtre e pesquise para encontrar modelos específicos e defina as configurações para suas marcas.
 

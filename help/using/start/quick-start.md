@@ -40,10 +40,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
-source-wordcount: 2102
-ht-degree: 96%
+source-wordcount: 2101
+ht-degree: 95%
 
 ---
 
@@ -126,7 +126,7 @@ Uma implementação bem-sucedida do Journey Optimizer normalmente segue essa seq
 4. **Profissional de marketing**: projeta e executa as experiências do cliente\
    Os profissionais de marketing aproveitam todo o trabalho de base para criar jornadas, conteúdo e otimizar as experiências do cliente em todos os canais.
    * Crie públicos-alvo usando a segmentação, upload de CSV ou a composição de público-alvo
-   * Projetar conteúdo personalizado com o Assistente de IA e modelos
+   * Projetar conteúdo personalizado com Gerar conteúdo e modelos
    * Crie jornadas multicanal com acionadores de evento e público-alvo
    * Teste com fluxos de trabalho de aprovação antes do lançamento
    * Monitore o desempenho e otimize com base em insights de relatórios
@@ -270,7 +270,7 @@ Para lições e atualizações mais detalhadas, confira os seguintes recursos:
 * [Vídeos tutoriais](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR){target="_blank"} - Tutoriais em vídeo passo a passo para todas as funções
 * [Introdução à gestão de dados](../data/gs-data.md): esquemas, conjuntos de dados, identidades e a lista de verificação de preparação de dados do Journey Optimizer
 * [Biblioteca de casos de uso de jornadas](../building-journeys/jo-use-cases.md) - Exemplos práticos e padrões de implementação
-* [IA e recursos inteligentes](ai-features.md) - Saiba mais sobre o Assistente de IA, a otimização de tempo de envio e a geração de conteúdo
+* [IA e recursos inteligentes](ai-features.md) - Saiba mais sobre IA, otimização de tempo de envio e geração de conteúdo
 * [Guia da Interface](user-interface.md) - Navegue pelo Journey Optimizer com eficiência
 
 >[!TAB Permaneça atualizado(a)]

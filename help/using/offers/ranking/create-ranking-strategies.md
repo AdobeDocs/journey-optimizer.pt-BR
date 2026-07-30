@@ -26,7 +26,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: aa54f1b153e25bfb2d00413c548002af075e32c1
 workflow-type: tm+mt
 source-wordcount: 523
 ht-degree: 29%
@@ -97,7 +97,7 @@ Para criar um modelo de IA, siga as etapas abaixo:
 
    >[!NOTE]
    >
-   >Você pode selecionar até 5 públicos-alvo.
+   >Você pode selecionar até 50 públicos-alvo.
 
 1. Salve e ative o modelo de IA.
 

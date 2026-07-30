@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: e7437f4bbbb7e79e3e1cc3403342a600fc7b01c5
 workflow-type: tm+mt
-source-wordcount: 1498
-ht-degree: 46%
+source-wordcount: 1658
+ht-degree: 41%
 
 ---
 
@@ -259,3 +259,27 @@ Saiba como adicionar ofertas personalizadas a um email em [esta seção](add-off
 >[!IMPORTANT]
 >
 >Se forem feitas alterações em uma decisão de oferta em uso na mensagem de uma jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas à mensagem da jornada e que ela seja consistente com as atualizações mais recentes.
+
+## Grade {#grid}
+
+Use o componente **[!UICONTROL Grade]** para organizar o conteúdo em uma estrutura composta de linhas e colunas, onde cada célula pode conter outros componentes de conteúdo.
+
+![](assets/email_designer_grid_component.png){width="90%"}
+
+1. Exatamente como o componente [Contêiner](#container), arraste e solte outros componentes de conteúdo em cada célula da grade.
+
+   Por exemplo, você pode adicionar um componente **[!UICONTROL Texto]**, um componente **[!UICONTROL Imagem]** e dois componentes **[!UICONTROL Botão]**. Em seguida, é possível adicionar uma imagem e editar o conteúdo de cada componente individualmente.
+
+   ![](assets/email_designer_grid_component_2.png){width="90%"}
+
+1. Para ajustar a estrutura da grade, selecione-a e vá para a guia **[!UICONTROL Configurações]** do painel direito do Email Designer.
+
+   ![](assets/email_designer_grid_component_3.png){width="90%"}
+
+1. Você pode definir quantas colunas e linhas a grade contém, editar o espaçamento entre colunas e linhas e alterar a largura de cada coluna individual em porcentagem.
+
+   >[!NOTE]
+   >
+   >Use a opção **[!UICONTROL Não empilhar colunas em dispositivos móveis]** para preservar o layout de grade em dispositivos móveis, em vez de empilhar colunas verticalmente.
+
+1. Solte outros componentes de conteúdo em cada célula, conforme necessário, e ajuste o estilo na guia **[!UICONTROL Estilos]** para cada componente.

@@ -8,9 +8,9 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1151
+source-wordcount: 1148
 ht-degree: 3%
 
 ---
@@ -124,4 +124,4 @@ O recurso Otimizar email para caixas de entrada de IA ajuda você a preparar uma
 ## Tópicos relacionados {#related-topics}
 
 * [Introdução ao design de email](get-started-email-design.md)
-* Para obter os recursos gerativos do Adobe de forma mais ampla, consulte [Introdução ao Assistente de IA para criar conteúdo](../content-management/gs-generative.md).
+* Para obter os recursos gerativos do Adobe de forma mais ampla, consulte [Introdução à Geração de Conteúdo](../content-management/gs-generative.md).

@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 772
 ht-degree: 49%
 
 ---
@@ -98,7 +98,7 @@ Para começar a criar o conteúdo, siga as etapas abaixo:
    ![](assets/email_designer.png)
 
 
-1. Acelere sua criação de emails com o AI Assistant e gere conteúdo completo de email com texto e imagens usando o [AI Assistant para geração completa de conteúdo](../content-management/generative-full-content.md).
+1. Acelere sua criação de email com Gerar conteúdo e gere conteúdo de email completo com texto e imagens usando o [Gerar conteúdo completo com IA](../content-management/generative-full-content.md).
 
 1. Comece a criar seu conteúdo arrastando e soltando **[!UICONTROL Estruturas]** na tela para definir o layout do seu email.
 

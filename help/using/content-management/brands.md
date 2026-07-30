@@ -22,7 +22,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
 source-wordcount: 721
 ht-degree: 33%
@@ -33,7 +33,7 @@ ht-degree: 33%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba como criar, configurar, publicar e gerenciar diretrizes de marca, incluindo a configuração de uma marca padrão, para que o Assistente de IA possa gerar conteúdo alinhado com a identidade da sua marca no Adobe Journey Optimizer.
+**Nesta página:** Aprenda a criar, configurar, publicar e gerenciar diretrizes da marca, incluindo a configuração de uma marca padrão, para que Gerar Conteúdo possa criar conteúdo alinhado com a identidade da sua marca no Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ No [!DNL Journey Optimizer], agora há a opção de inserir e organizar manualme
 
 >[!AVAILABILITY]
 >
->Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"} antes de usar o Assistente de IA no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
+>Você deve concordar com o [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"} antes de poder usar a opção Gerar conteúdo no Adobe Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
 
 
 ## Acessar marcas {#generative-access}
@@ -125,7 +125,7 @@ Para criar e gerenciar as diretrizes de marca, você pode inserir os detalhes po
 
    ![](assets/brands-18.png)
 
-1. Após a configuração, clique em **[!UICONTROL Salvar]** e em **[!UICONTROL Publicar]** para disponibilizar a diretriz de marca no Assistente de IA.
+1. Depois de configurado, clique em **[!UICONTROL Salvar]** e em **[!UICONTROL Publicar]** para disponibilizar a diretriz da marca em Gerar conteúdo.
 
 1. Para fazer modificações na sua marca publicada, clique em **[!UICONTROL Editar marca]**.
 
@@ -148,7 +148,7 @@ Para criar e gerenciar as diretrizes de marca, você pode inserir os detalhes po
 
    ![](assets/brands-6.png)
 
-As diretrizes de marca agora podem ser acessadas no menu suspenso **[!UICONTROL Marca]** do menu Assistente de IA, permitindo que ela gere conteúdo e ativos alinhados às suas especificações. [Saiba mais sobre o Assistente de IA](gs-generative.md)
+As diretrizes da sua marca agora podem ser acessadas no menu suspenso **[!UICONTROL Marca]**, no menu Gerar conteúdo, permitindo que ela gere conteúdo e ativos alinhados às suas especificações. [Saiba mais sobre como Gerar Conteúdo](gs-generative.md)
 
 ![](assets/brands-7.png)
 

@@ -6,10 +6,10 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 66613584226260662d1122048cdfcaa64787113f
+source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '3489'
-ht-degree: 94%
+source-wordcount: '3485'
+ht-degree: 93%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 + Introdução {#get-started}
   + [Comece aqui](/help/rp_landing_pages/get-started-landing-page.md)
   + [Hub de integração](using/start/onboarding-hub.md)
-  + {hide-from-toc}[Migrar conteúdo e jornadas](using/start/migrate-content-and-journeys.md)
+  + [Migrar conteúdo e jornadas](using/start/migrate-content-and-journeys.md)
   + Noções básicas {#essentials}
     + [O que é o Journey Optimizer](using/start/get-started.md)
     + [Entenda como funciona](using/start/understanding-ajo.md)
@@ -556,7 +556,6 @@ ht-degree: 94%
       + [Considerações e solução de problemas](using/integrations/aem-fragments-limitations.md)
     + [Trabalhar com o Assessor de conteúdo do Experience Manager](using/integrations/aem-content-advisor.md)
     + [Trabalhar com o Dynamic Media](using/integrations/aem-dynamic.md)
-    + {hide-from-toc}[Inserir temporizador de contagem regressiva](using/integrations/countdown.md)
     + [Trabalhar com o GenStudio for Performance Marketing](using/integrations/genstudio.md)
     + [Integrar a serviços inteligentes](using/integrations/intelligent-services.md)
     + Integrações {#integrations}
@@ -567,17 +566,16 @@ ht-degree: 94%
         + [Introdução à integração de fornecedores](using/integrations/vendor-integration-gs.md)
         + [Configurações de exemplo de fornecedor](using/integrations/vendor-integration.md)
     + [Trabalhar com ferramentas de IA por MCP](/help/using/integrations/ajo-mcp.md)
-  + Assistente de IA para geração de conteúdo {#ai-assistant}
-    + [Assistente de IA para geração de conteúdo](/help/rp_landing_pages/ai-assistant-landing-page.md)
-    + [Introdução ao Assistente de IA](using/content-management/gs-generative.md)
+  + Gerar conteúdo {#generate-content}
+    + [Introdução à Geração de conteúdo](using/content-management/gs-generative.md)
     + [Práticas recomendadas para prompts de IA](using/content-management/ai-assistant-prompting-guide.md)
+    + {hide-from-toc}[Content Credentials no Assistente de IA](using/content-management/generative-content-credentials.md)
     + [Gerar conteúdo completo com IA](using/content-management/generative-full-content.md)
     + [Gerar texto com IA](using/content-management/generative-text.md)
     + [Gere imagens com IA](using/content-management/generative-image.md)
-    + [Assistente de IA para expressões de personalização](using/content-management/generative-personalization-expressions.md)
-    + [Casos de uso do Assistente de IA](using/content-management/generative-uc.md)
+    + [Gerar conteúdo para expressões de personalização](using/content-management/generative-personalization-expressions.md)
+    + [Gerar casos de uso de conteúdo](using/content-management/generative-uc.md)
     + Marcas {#brands}
-      + [Marcas](/help/rp_landing_pages/brands-landing-page.md)
       + [Criar e gerenciar marcas](using/content-management/brands.md)
       + [Personalize suas marcas](using/content-management/brands-personalize.md)
       + [Criar e gerenciar modelos generativos](using/content-management/generative-models.md)
@@ -976,6 +974,7 @@ ht-degree: 94%
   + [Adicionar um campo CC aos emails](using/configuration/cc-email-field.md)
   + [Gerenciamento de campos de execução](using/configuration/primary-email-addresses.md)
   + [Criar webhooks de feedback](using/configuration/feedback-webhooks.md)
+  + [Gerenciar IPs permitidos](using/configuration/waf-ip-allowlist.md)
 + Configuração de jornada {#configure-journeys}
   + [Configuração de jornada](/help/rp_landing_pages/configure-journeys-landing-page.md)
   + [Introdução à configuração de jornadas](using/configuration/about-data-sources-events-actions.md)
