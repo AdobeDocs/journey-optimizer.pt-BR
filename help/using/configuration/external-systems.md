@@ -9,22 +9,13 @@ level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 TQID: https://experienceleague.adobe.com/qIF3fCfcp54WIlVhIbL1FYU-RYOP8s9I4SxuznN-zxg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 3ce2c816766da670f3905d4986b5dc304f9a674c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0af9a79a9f06d99c6136618c3635c05e4dc653e8
 workflow-type: tm+mt
 source-wordcount: 1937
 ht-degree: 22%
@@ -55,7 +46,7 @@ Quando o Journey Optimizer executa uma chamada para uma API externa, as medidas 
 
 >[!TIP]
 >
->Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
+>Recomendamos deixar pelo menos um buffer de um minuto entre o período de expiração do token da API externa e a configuração [`cacheDuration` do Journey Optimizer ](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente em cargas de trabalho pesadas, para evitar incompatibilidades de expiração e erros 401.
 
 ## APIs de limitação e limitação {#capping}
 
@@ -104,7 +95,7 @@ Quando um ponto de extremidade tem um tempo de resposta superior a 0,75 segundos
 
 Esse serviço de ação personalizada lenta aplica um limite de 150.000 chamadas a cada 30 segundos. O limite é aplicado usando uma janela deslizante, que pode começar a qualquer milissegundo dentro desse período de 30 segundos. Quando a janela estiver cheia, as chamadas adicionais serão rejeitadas com erros de limite. O sistema não espera pelo próximo intervalo fixo, mas começa a limitar imediatamente depois que o limite de 30 segundos é atingido.
 
-Além disso, para ajudar a evitar a sobrecarga de um endpoint já lento, o serviço de ação personalizada lenta limita temporariamente todas as chamadas por até 5 minutos se mais de 20% das chamadas em qualquer janela de 120 segundos exceder 10 segundos. Esse mecanismo de disjuntor só se aplica se houver pelo menos 200 chamadas na janela de 130 segundos. Essa proteção está atualmente disponível em algumas regiões e está sendo progressivamente implementada em todas as regiões nos próximos dias.
+Além disso, para ajudar a evitar a sobrecarga de um endpoint já lento, o serviço de ação personalizada lenta limita temporariamente todas as chamadas por até 5 minutos se mais de 20% das chamadas em qualquer janela de 120 segundos exceder 10 segundos. Esse mecanismo de disjuntor só se aplica se houver pelo menos 200 chamadas na janela de 120 segundos. Essa proteção está atualmente disponível em algumas regiões e está sendo progressivamente implementada em todas as regiões nos próximos dias.
 
 Como endpoints lentos podem causar atrasos em todas as ações em fila no pipeline, é recomendável não configurar ações personalizadas com endpoints com tempos de resposta lentos. O roteamento dessas ações para o serviço lento ajuda a proteger o desempenho geral do sistema e impede a latência adicional de outras ações personalizadas.
 
