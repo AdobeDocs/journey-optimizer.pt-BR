@@ -7,15 +7,18 @@ feature: Get Started
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-source-git-commit: 8731e10c9a6278c34cd0db8ccdec112f2d5c90d8
+source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 0%
+source-wordcount: '1317'
+ht-degree: 1%
 
 ---
 
 # Migrar conteúdo e jornadas {#migrate-content-and-journeys}
+
+>[!AVAILABILITY]
+>
+>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
 
 Se você estiver mudando de outra plataforma de marketing para o [!DNL Journey Optimizer], não é necessário começar do zero. O Journey Optimizer inclui um espaço de trabalho dedicado que importa o conteúdo e as jornadas de email existentes. Ele os converte em [!DNL Journey Optimizer] modelos de conteúdo e jornadas, para que você possa continuar de onde parou, em vez de reconstruir tudo do zero.
 
@@ -116,7 +119,7 @@ Depois de ter uma origem para o conteúdo, um arquivo HTML ou uma conexão com a
 
 1. Adicione a **[!UICONTROL Linha de assunto]** e mapeie cada espaço reservado para personalização ao atributo de perfil correspondente.
 
-   O espaço de trabalho converte automaticamente a sintaxe do script de origem para a sintaxe Handlebars. Para obter uma lista de operadores compatíveis, consulte [Operadores](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/personalization/functions/operators).
+   O espaço de trabalho converte automaticamente a sintaxe do script de origem para a sintaxe Handlebars. Para obter uma lista de operadores compatíveis, consulte [Operadores](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators).
 
    ![Editor de email importado com campo de linha de assunto e mapeamento de espaço reservado de personalização](assets/onboarding-hub-8.png)
 
