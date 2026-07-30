@@ -5,10 +5,10 @@ title: Gerenciamento de conteúdo
 description: Gerenciamento de conteúdo
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ Os recursos de gerenciamento de conteúdo do Adobe Journey Optimizer permitem cr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adicionar personalização
 
@@ -30,7 +30,7 @@ Saiba como implementar e otimizar recursos de personalização para criar experi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar páginas de destino
 
@@ -40,7 +40,7 @@ Descubra ferramentas e tutoriais para criar, gerenciar e otimizar páginas de de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Modelos de conteúdo
 
@@ -50,7 +50,7 @@ Simplifique a criação de conteúdo por meio de modelos reutilizáveis para um 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Fragmentos de conteúdo reutilizáveis
 
@@ -60,7 +60,7 @@ Saiba como criar e gerenciar fragmentos de conteúdo reutilizáveis para fins de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Criar conteúdo dinâmico
 
@@ -70,7 +70,7 @@ Use regras condicionais para criar um conteúdo dinâmico e personalizado para e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Casos de uso entre soluções
 
@@ -84,6 +84,6 @@ Integre soluções da Adobe, como Experience Manager, Stock e GenStudio, para ob
 
 ## Recursos adicionais
 
-- **[Assistente de IA para geração de conteúdo](ai-assistant-landing-page.md)**: utilize as ferramentas de IA para gerar e personalizar o conteúdo de emails, SMS, páginas da web e experimentos.
+- **[Gerar conteúdo](ai-assistant-landing-page.md)** - Use a IA para gerar e personalizar conteúdo em emails, SMS, páginas da Web e experimentos.
 - **[Gerenciamento de conteúdo multilíngue](content-multilingual-landing-page.md)**: crie e gerencie um conteúdo multilíngue, usando fluxos de trabalho de tradução manuais e automatizados.
 - **[Experimentação de conteúdo](../using/content-management/get-started-experiment.md)**: configure e analise experimentos para otimizar o engajamento do público-alvo e os resultados da campanha.

@@ -11,7 +11,7 @@ badge: label="Beta público" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 1132
 ht-degree: 2%
@@ -30,11 +30,11 @@ ht-degree: 2%
 >
 >Este recurso está atualmente em **beta público**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../../rn/releases.md).
 >
->Antes de usar esse recurso, leia as [Medidas de proteção e limitações](../../content-management/gs-generative.md#generative-guardrails) relacionadas que se aplicam aos recursos de IA gerativa no Journey Optimizer.
+Antes de usar esse recurso, leia as [Medidas de proteção e limitações](../../content-management/gs-generative.md#generative-guardrails) relacionadas que se aplicam aos recursos de IA gerativa no Journey Optimizer.
 
 Esse recurso alimentado por IA, integrado ao editor de expressão avançado do Jornada, ajuda a gerar expressões válidas a partir de prompts de linguagem simples.
 
-Ela está disponível onde quer que o **[!UICONTROL editor de expressão avançado]** da Jornada seja aberto. Por exemplo, ao configurar condições e roteamento dentro de uma **[atividade de Otimização](../optimize.md)** ou ao configurar uma [**[!UICONTROL atividade de Espera &#x200B;]**](../wait-activity.md) que usa uma data personalizada e você precisa de uma expressão `dateTimeOnly`.
+Ela está disponível onde quer que o **[!UICONTROL editor de expressão avançado]** da Jornada seja aberto. Por exemplo, ao configurar condições e roteamento dentro de uma **[atividade de Otimização](../optimize.md)** ou ao configurar uma [**[!UICONTROL atividade de Espera ]**](../wait-activity.md) que usa uma data personalizada e você precisa de uma expressão `dateTimeOnly`.
 
 ## Gerar uma expressão {#generate}
 
@@ -94,7 +94,7 @@ Quando uma atividade **[!UICONTROL Wait]** usa uma data personalizada, você def
 ## Recursos relacionados {#related}
 
 * [Trabalhar com o editor de expressão avançado](expressionadvanced.md) — Visão geral da interface do editor de expressão e sintaxe com suporte.
-* [Introdução ao Assistente de IA no Journey Optimizer](../../content-management/gs-generative.md) — Medidas de proteção gerais, acesso e configuração para recursos de IA generativa.
+* [Introdução à Geração de Conteúdo no Journey Optimizer](../../content-management/gs-generative.md) — Medidas de proteção gerais, acesso e configuração para recursos de IA generativa.
 
 +++ Referência de conhecimento de IA
 
@@ -122,7 +122,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Medidas de Proteção:**
 
 * Gerar expressões com IA está atualmente em **beta público** — a disponibilidade e o comportamento podem mudar
-* As medidas de proteção e limitações da IA geradora da documentação principal do Assistente de IA se aplicam a este recurso
+* As medidas de proteção e limitações da IA geradora da documentação principal do Gerar conteúdo se aplicam a esse recurso
 * Se o assistente referenciar campos que não estão presentes nas fontes de dados da sua jornada, retornará um erro: revise o prompt para usar os nomes de campo disponíveis
 * A sintaxe de expressão gerada exata depende dos campos e atividades configurados em sua jornada específica
 

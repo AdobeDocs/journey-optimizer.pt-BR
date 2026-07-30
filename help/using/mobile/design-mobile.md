@@ -7,13 +7,11 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1488
+source-wordcount: 1487
 ht-degree: 4%
 
 ---
@@ -137,7 +135,7 @@ Para configurar o conteúdo da mensagem, siga as etapas abaixo. As configuraçõ
 
    ![](assets/sms-content.png)
 
-1. Gere mensagens móveis envolventes personalizadas para seu público usando o [Assistente de IA para geração de texto](../content-management/generative-text.md).
+1. Gere mensagens móveis envolventes personalizadas para seu público usando [Gerar texto com IA](../content-management/generative-text.md).
 
 1. Use o editor de personalização para definir o conteúdo, adicionar personalização e conteúdo dinâmico. Você pode usar qualquer atributo, como o nome do perfil ou a cidade, por exemplo. Você também pode definir regras condicionais. Navegue até as seguintes páginas para saber mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md) no editor de personalização.
 

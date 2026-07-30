@@ -7,26 +7,16 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 TQID: https://experienceleague.adobe.com/7LxkDJdH0RqWKCVLLK2ISDDnNR5ZwGmgfpX7W251GBU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
-workflow-type: ht
-source-wordcount: 320
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+workflow-type: tm+mt
+source-wordcount: 319
+ht-degree: 94%
 
 ---
 
@@ -98,7 +88,7 @@ Conheça as etapas detalhadas para criar uma campanha da web [neste vídeo](crea
 * **[Editar conteúdo da web](create-web.md#edit-web-content)**: domine o designer da web para modificar páginas usando modos de edição visuais ou não visuais.
 * **[Gerenciar modificações na web](manage-web-modifications.md)**: saiba como organizar, aplicar e gerenciar modificações nas experiências da web.
 * **[Monitorar experiências da web](monitor-web-experiences.md)**: acompanhe e analise o desempenho das campanhas da web com relatórios detalhados.
-* **[Gerar conteúdo da web com o Assistente de IA](../content-management/generative-full-content.md)**: aproveite a IA para criar e otimizar conteúdo da web com texto e imagens.
+* **[Gerar conteúdo da Web com IA](../content-management/generative-full-content.md)** - Aproveite a IA para criar e otimizar conteúdo da Web com texto e imagens.
 * **[Tutoriais das campanhas da web](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre os recursos do canal da web e as práticas recomendadas.
 
 

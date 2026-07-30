@@ -9,23 +9,16 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 TQID: https://experienceleague.adobe.com/YOE-hCnG978CvBHe2WeFekMjx4oBlsv4hBbSVaUjgWA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 2183
-ht-degree: 13%
+source-wordcount: 2178
+ht-degree: 14%
 
 ---
 
@@ -54,7 +47,7 @@ Você também pode inserir atributos de perfil em linha diretamente nos campos *
 
 Use a seção de visualização de dispositivo para visualizar como a notificação por push é exibida no iOS, Android e Web.
 
-Acelere sua criação de conteúdo com o AI Assistant e gere textos convincentes de notificação por push com o [AI Assistant para geração de texto](../content-management/generative-text.md) ou crie notificações por push completas com o [AI Assistant para geração de conteúdo completa](../content-management/generative-full-content.md).
+Acelere sua criação de conteúdo com Gerar conteúdo e gere um texto atraente de notificação por push com [Gerar texto com IA](../content-management/generative-text.md) ou crie notificações por push completas com [Gerar conteúdo completo com IA](../content-management/generative-full-content.md).
 
 ## Comportamento ao clicar {#on-click-behavior}
 
@@ -99,7 +92,7 @@ Para o Android, você só pode adicionar um ícone de imagem e uma imagem para n
 
 Você pode adicionar mídia usando um dos seguintes métodos:
 
-* Botão **[!UICONTROL Adicionar mídia]**: Selecione um ativo do [Adobe Experience Manager Assets](../integrations/assets.md) ou acesse o Assistente de IA para gerar [imagens envolventes](../content-management/generative-image.md) para notificações por push.
+* Botão **[!UICONTROL Adicionar mídia]**: selecione um ativo do [Adobe Experience Manager Assets](../integrations/assets.md) ou acesse Gerar Conteúdo para gerar [imagens envolventes](../content-management/generative-image.md) para notificações por push.
 
 * Campo **[!UICONTROL Adicionar mídia]**: insira a URL da mídia diretamente. Você pode incluir tokens de personalização no URL.
 
@@ -131,7 +124,7 @@ Depois de adicionada, a mídia é exibida à direita do corpo de notificação.
 
 Insira a URL da mídia no campo **[!UICONTROL Adicionar mídia]**. Você também pode incluir tokens de personalização no URL para personalizar o conteúdo de cada usuário.
 
-Clique em ![Editar texto com o assistente de IA](assets/do-not-localize/Smock_ImageAdd_18_N.svg) para gerar mídia rapidamente usando o Assistente de IA do Journey Optimizer.
+Clique em ![Editar texto com Gerar conteúdo](assets/do-not-localize/Smock_ImageAdd_18_N.svg) para gerar mídia rapidamente usando a opção Gerar conteúdo do Journey Optimizer.
 
 ![](assets/web-media.png)
 

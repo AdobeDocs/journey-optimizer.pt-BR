@@ -1,42 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Guia de prompt de conteúdo do Assistente de IA
+title: Gerar guia de prompt de conteúdo
 description: Saiba como criar prompts eficazes para a geração de conteúdo habilitado por IA usando a estrutura CO-STAR para criar conteúdo de marketing alinhado à marca e de alta conversão.
 topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
 TQID: https://experienceleague.adobe.com/SxuygPzpfRd-fvB9fOSZo6JR428cRzLukvbawfYwcFs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 2328
-ht-degree: 2%
+source-wordcount: 2327
+ht-degree: 1%
 
 ---
 
-# Práticas recomendadas de solicitações do Assistente de IA {#ai-assistant-prompting-guide}
+# Gerar práticas recomendadas de prompt de conteúdo {#ai-assistant-prompting-guide}
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba como gravar prompts eficientes do Assistente de IA usando o assistente de prompts e a estrutura CO-STAR para gerar conteúdo de marketing de alta conversão sob as marcas no Adobe Journey Optimizer.
+**Nesta página:** saiba como gravar prompts efetivos de Geração de Conteúdo usando o assistente de prompts e a estrutura CO-STAR para gerar conteúdo de marketing de alta conversão e sob marca no Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
@@ -46,13 +35,13 @@ ht-degree: 2%
 >abstract="Explore a documentação do Journey Optimizer para saber como criar solicitações eficazes que produzam conteúdo de marketing de alta conversão e consistente com a marca."
 
 Este guia ajuda a estruturar suas solicitações, comunicar a intenção com clareza e garantir que a IA produza mensagens que se alinhem às diretrizes da sua marca, às necessidades do público-alvo e às metas da campanha.
-Saiba como escrever prompts eficazes que permitem que o AI Assistant gere conteúdo de marketing de alta qualidade e sob marca, adaptado aos seus objetivos.
+Saiba como escrever prompts eficazes que permitem usar IA para gerar conteúdo de marketing de alta qualidade e sob marca, adaptado aos seus objetivos.
 
 ## Usar o assistente de Prompt {#prompt-assistant}
 
 O assistente de prompt ajuda a fortalecer o prompt de abertura para que a geração de conteúdo precise de menos retroatividade. A partir dessa primeira entrada, você pode obter sugestões, uma reescrita sugerida, melhorias opcionais e perguntas mais claras. Suas respostas refinam o prompt usado para gerar o conteúdo.
 
-1. No menu **[!UICONTROL Assistente de IA]**, abra o **[!UICONTROL Assistente de prompt]** para refinar o prompt antes de gerar o conteúdo.
+1. No menu **[!UICONTROL Gerar conteúdo]**, abra o **[!UICONTROL Assistente de prompts]** para refinar seu prompt antes de gerar conteúdo.
 
    ![](assets/prompt-assistant-1.png)
 
@@ -80,7 +69,7 @@ Seguir esse fluxo de trabalho estabelece objetivos e detalhes necessários no pr
 
 ## Usar a estrutura CO-STAR {#costar-framework}
 
-Para obter melhores resultados com o Assistente de IA, organize seus prompts usando a estrutura CO-STAR. Essa abordagem estruturada garante que a IA entenda exatamente o que você precisa.
+Para obter melhores resultados com Gerar conteúdo, organize seus prompts usando a estrutura CO-STAR. Essa abordagem estruturada garante que a IA entenda exatamente o que você precisa.
 
 | Componente | O que significa | Por que isso importa |
 |-|-|-|
@@ -176,19 +165,19 @@ Essas solicitações não são compatíveis e devem ser tratadas por meio de out
 
 Antes de gerar o conteúdo, verifique o seguinte:
 
-&check; **Limpar objetivo**: indica claramente a ação, o produto/serviço, o valor e o contexto.
+&amp;check; **Limpar objetivo**: indica claramente a ação, o produto/serviço, o valor e o contexto.
 
-&check; **Público-alvo definido**: especifica a demografia, a função ou o segmento.
+&amp;check; **Público-alvo definido**: especifica a demografia, a função ou o segmento.
 
-&check; **Alinhamento do tipo de conteúdo**: o objetivo corresponde ao canal ou formato selecionado.
+&amp;check; **Alinhamento do tipo de conteúdo**: o objetivo corresponde ao canal ou formato selecionado.
 
-&check; **Seleções suspensas configuradas**: Tom, estratégia e localidade são escolhidos, não os inclua no prompt.
+&amp;check; **Seleções suspensas configuradas**: Tom, estratégia e localidade são escolhidos, não os inclua no prompt.
 
-&check; **Foco do documento especificado**: Realça o conteúdo ou as seções a serem referenciadas.
+&amp;check; **Foco do documento especificado**: Realça o conteúdo ou as seções a serem referenciadas.
 
-&check; **Marca aplicada**: as diretrizes de marca apropriadas estão selecionadas.
+&amp;check; **Marca aplicada**: as diretrizes de marca apropriadas estão selecionadas.
 
-&check; **Escopo realista**: evitar solicitações de alterações de layout, estilo ou edições estruturais.
+&amp;check; **Escopo realista**: evitar solicitações de alterações de layout, estilo ou edições estruturais.
 
 ## Escreva objetivos de marketing eficazes {#marketing-objectives}
 
@@ -198,11 +187,11 @@ Ao criar objetivos de marketing, verifique se eles são claros, acionáveis e me
 
 **Exemplos de bons objetivos:**
 
-&check; &quot;Conduzir inscrições para nossa avaliação gratuita de 30 dias do novo painel de análise alimentado por IA&quot;
+&amp;check; &quot;Conduzir inscrições para nossa avaliação gratuita de 30 dias do novo painel de análise alimentado por IA&quot;
 
-&check; &quot;Gerar clientes em potencial para o nosso webinário B2B sobre &quot;Redução de custos na nuvem em 40%&quot; acontecendo em 15 de março&quot;
+&amp;check; &quot;Gerar clientes em potencial para o nosso webinário B2B sobre &quot;Redução de custos na nuvem em 40%&quot; acontecendo em 15 de março&quot;
 
-&check; &quot;Promover nosso desconto de feriado de tempo limitado de 25% em assinaturas premium, terminando em 25 de dezembro&quot;
+&amp;check; &quot;Promover nosso desconto de feriado de tempo limitado de 25% em assinaturas premium, terminando em 25 de dezembro&quot;
 
 **Exemplos a serem evitados:**
 
@@ -219,11 +208,11 @@ Use esta fórmula para ajudá-lo a escrever objetivos efetivos: **Ação + Produ
 
 **Exemplos de bons objetivos:**
 
-&check; &quot;Incentive os downloads do nosso novo aplicativo móvel que ajuda os usuários a rastrear hábitos de vida sustentáveis com recomendações personalizadas e ecológicas&quot;
+&amp;check; &quot;Incentive os downloads do nosso novo aplicativo móvel que ajuda os usuários a rastrear hábitos de vida sustentáveis com recomendações personalizadas e ecológicas&quot;
 
-&check; &quot;Promover registro para nosso workshop exclusivo sobre técnicas avançadas de visualização de dados para profissionais de marketing&quot;
+&amp;check; &quot;Promover registro para nosso workshop exclusivo sobre técnicas avançadas de visualização de dados para profissionais de marketing&quot;
 
-&check; &quot;Impulsionar a participação no nosso evento de lançamento de produto apresentando o revolucionário assistente de escrita de IA que economiza mais de 5 horas por semana&quot;
+&amp;check; &quot;Impulsionar a participação no nosso evento de lançamento de produto apresentando o revolucionário assistente de escrita de IA que economiza mais de 5 horas por semana&quot;
 
 **Exemplos a serem evitados:**
 
