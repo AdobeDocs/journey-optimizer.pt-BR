@@ -7,7 +7,7 @@ feature: Channel Configuration, Deliverability
 role: Admin
 level: Experienced
 keywords: waf, firewall, ip, subdomínio, segurança, tráfego, entrada
-source-git-commit: 177baaa49fc173bda3d517d8fb42391bcc22b6c5
+source-git-commit: 5efd5ef3add0f0f95ea7f104e39ed533407a88ca
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Sempre confirme os IPs de saída exatos com sua equipe de segurança antes de sa
 
 Para acessar a lista de subdomínios para os quais você permitiu IPs para o Firewall do Aplicativo Web, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações Gerais]** e selecione **[!UICONTROL Lista de permissões - IPs]**.
 
-![Inventário de lista de permissões de IP da WAF](assets/waf-ip-allowlist.png)
+![Inventário de lista de permissões de IP da WAF](assets/waf-ip-allowlist.png){width="90%"}
 
 A página de inventário lista todos os subdomínios que têm pelo menos um IP do WAF permitido, em todos os tipos de canal (Email, Página de aterrissagem, SMS, Web). Saiba mais sobre subdomínios em [esta seção](about-subdomain-delegation.md).
 

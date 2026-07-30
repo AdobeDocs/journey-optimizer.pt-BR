@@ -9,12 +9,11 @@ role: User
 level: Intermediate, Experienced
 keywords: url, link, personalização, rastreamento, codificar, chaves
 feature_v2: []
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 9100276ed3a6d3487cf27b9b70f2e0dfaf35f62c
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: bd11228a755e85bded4799fcabf1d6100fc9216f
 workflow-type: tm+mt
-source-wordcount: 570
-ht-degree: 0%
+source-wordcount: 842
+ht-degree: 1%
 
 ---
 
@@ -42,7 +41,7 @@ Para personalizar um URL, siga as etapas abaixo.
 
 1. Selecione o ícone de personalização.
 
-   ![](assets/message-tracking-insert-link-perso.png)
+   ![Ícone do Personalization na barra de ferramentas contextual do Designer de email](assets/message-tracking-insert-link-perso.png)
 
 1. Use o editor de personalização para adicionar os atributos de perfil com os quais deseja personalizar o URL.
 
@@ -65,7 +64,7 @@ Para obter renderização e rastreamento confiáveis, siga as [práticas recomen
 
 ## Personalizar um URL completo/básico {#personalize-complete-base-url}
 
-A Journey Optimizer também oferece suporte à personalização da URL **inteira** ou do **domínio base** de uma URL, por exemplo:
+A Journey Optimizer oferece suporte à personalização da URL **inteira** ou do **domínio base** de uma URL, por exemplo:
 
 ```html
 <a href="{{profile.social.link}}" />
@@ -75,13 +74,58 @@ A Journey Optimizer também oferece suporte à personalização da URL **inteira
 
 >[!CAUTION]
 >
->* Para habilitar a personalização completa ou básica do URL, entre em contato com a Adobe e forneça sua lista de domínios aceitos. Isso é necessário para ajudar a impedir redirecionamentos inseguros.
+>Para habilitar a personalização completa ou básica do URL, primeiro adicione seus domínios aceitos à lista de permissões. [Saiba como](#manage-accepted-domains)
 >
->* URLs gerados dinamicamente — onde todo o URL ou domínio base é resolvido a partir de um atributo de perfil no momento do envio — têm uma limitação de rastreamento conhecida: o Journey Optimizer não pode rastrear os cliques desses links de maneira confiável, e os **dados de cliques podem não aparecer nos relatórios do jornada ou da campanha**. Isso ocorre porque o redirecionamento do rastreamento é aplicado em tempo de design, antes que o URL final seja conhecido. Quando o valor resolvido é diferente por recipient, a cadeia de redirecionamento é interrompida e os cliques ficam sem registro. Além disso, a URL resolvida deve começar com `http` ou `https` para cada destinatário — caso contrário, o rastreamento será ignorado silenciosamente para esse link. Para manter um rastreamento de cliques confiável, use uma das seguintes abordagens:
+>Os URLs gerados dinamicamente têm uma limitação conhecida: os dados de cliques podem não aparecer nos relatórios do jornada ou da campanha. [Saiba mais](#click-tracking-limitation)
+
+
+### Adicionar domínios para personalização completa/básica do URL {#manage-accepted-domains}
+
+Para habilitar a personalização completa ou básica do URL, primeiro adicione seus domínios aceitos à lista de permissões.
+
+Isso garante que somente domínios aprovados sejam usados em seus URLs personalizados e para ajudar a impedir redirecionamentos inseguros.
+
+>[!NOTE]
 >
->   * Use uma URL base fixa e acrescente apenas parâmetros personalizados (por exemplo, `https://www.example.com/page?uid={{profile.person.crmid}}`).
->   
->   * Pré-gere um URL personalizado por recipient, armazene-o como um atributo de perfil e faça referência a ele no seu conteúdo de email.
+>Para exibir, adicionar ou remover domínios da lista de permissões, você precisa das **[!UICONTROL configurações gerais para Gerenciar mensagens]** e das **[!UICONTROL permissões para Exibir configurações gerais de mensagens]**. [Saiba mais](../administration/ootb-permissions.md)
+
+Para gerenciar os domínios permitidos, siga as etapas abaixo.
+
+1. No Adobe Journey Optimizer, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de email]** > **[!UICONTROL Lista de permissões - domínios]**.
+
+   ![Lista de permissões - página de domínios mostrando domínios aprovados com suas informações de data e hora adicionadas](assets/allowed-list-domains.png)
+
+   Nela, você pode navegar por todos os domínios aprovados, adicionar novos e excluir os existentes.
+
+1. Clique no botão **[!UICONTROL Adicionar domínio]**.
+
+1. Insira o subdomínio completo ou o domínio raiz.
+
+   ![Formulário para adicionar um novo domínio à lista de permissões](assets/allowed-list-domains-add.png){width="80%"}
+
+   >[!NOTE]
+   >
+   >Não inclua https:// ou uma barra à direita, pois isso fará com que o domínio seja rejeitado. Por exemplo, digite `www.example.com` ou `example.com`, não `https://www.example.com/`.
+
+1. Clique em **[!UICONTROL Confirmar]**. O domínio é adicionado à lista de permissões e agora pode ser usado em personalização completa ou básica de URL.
+
+1. Para remover um domínio, clique no ícone **[!UICONTROL Excluir]** ao lado desse domínio.
+
+   >[!CAUTION]
+   >
+   >Se você remover um domínio que já está em uso em um URL personalizado, a segurança do link não poderá ser garantida. Atualize todos os URLs personalizados que fazem referência a esse domínio antes de removê-lo da lista de permissões.
+
+### Limitação de rastreamento de cliques {#click-tracking-limitation}
+
+URLs gerados dinamicamente — onde todo o URL ou domínio base é resolvido a partir de um atributo de perfil no momento do envio — têm uma limitação de rastreamento conhecida: o Journey Optimizer não pode rastrear os cliques desses links de maneira confiável, e os **dados de cliques podem não aparecer nos relatórios do jornada ou da campanha**.
+
+Isso ocorre porque o redirecionamento do rastreamento é aplicado em tempo de design, antes que o URL final seja conhecido. Quando o valor resolvido é diferente por recipient, a cadeia de redirecionamento é interrompida e os cliques ficam sem registro. Além disso, a URL resolvida deve começar com `http` ou `https` para cada destinatário — caso contrário, o rastreamento será ignorado silenciosamente para esse link.
+
+Para manter um rastreamento de cliques confiável, use uma das seguintes abordagens:
+
+* Use uma URL base fixa e acrescente apenas parâmetros personalizados (por exemplo, `https://www.example.com/page?uid={{profile.person.crmid}}`).
+
+* Pré-gere um URL personalizado por recipient, armazene-o como um atributo de perfil e faça referência a ele no seu conteúdo de email.
 
 ## Personalizar parâmetros de rastreamento do URL {#personalize-url-tracking-parameters}
 
@@ -89,7 +133,7 @@ O [rastreamento de URL](url-tracking.md) é gerenciado no nível de configuraç�
 
 Para fazer isso, [insira um link](message-tracking.md#insert-links), selecione o ícone de personalização, adicione o parâmetro de rastreamento de URL e selecione o atributo de perfil de sua escolha no [editor de personalização](../personalization/personalization-build-expressions.md).
 
-![](assets/message-tracking-perso-parameter.png)
+![Ícone Personalization do parâmetro de rastreamento de URL no Designer de Email](assets/message-tracking-perso-parameter.png)
 
 Repita as etapas acima para cada link ao qual deseja adicionar esse parâmetro de rastreamento.
 
