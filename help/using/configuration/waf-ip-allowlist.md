@@ -7,21 +7,25 @@ feature: Channel Configuration, Deliverability
 role: Admin
 level: Experienced
 keywords: waf, firewall, ip, subdomínio, segurança, tráfego, entrada
-source-git-commit: 5efd5ef3add0f0f95ea7f104e39ed533407a88ca
+source-git-commit: 1fae65f5e7b54e2b45917ff2c28fe0a326633dfa
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
 
 # Gerenciar IPs permitidos {#waf-ip-allowlist}
 
+>[!CONTEXTUALHELP]
+>id="ajo_waf_allowed_ips"
+>title="Inserir IPs permitidos para o subdomínio selecionado"
+>abstract="Selecione um subdomínio delegado e insira os IPs de saída públicos do Firewall do Aplicativo Web. Depois de salvo, [!DNL Journey Optimizer] rejeitará qualquer solicitação de entrada para esse subdomínio que não se origina de um dos IPs declarados. Sempre confirme os IPs de saída exatos com a equipe de segurança antes de salvar."
+
 >[!BEGINSHADEBOX]
 
 **Nesta página:** Adicione e gerencie seus IPs de saída do WAF (Firewall de Aplicativo Web) por subdomínio delegado diretamente no [!DNL Journey Optimizer], para que somente o tráfego roteado pelo seu firewall possa alcançar seus links hospedados no [!DNL Journey Optimizer].
 
 >[!ENDSHADEBOX]
-
 
 Organizações com requisitos rigorosos de segurança de rede — como as do setor financeiro — podem exigir que todas as solicitações para links hospedados por [!DNL Adobe Journey Optimizer] fluam por meio de um **Firewall de Aplicativo Web** (WAF) gerenciado pelo cliente antes de acessar a rede Adobe. Qualquer solicitação que ignore o firewall deve ser rejeitada.
 
@@ -70,11 +74,11 @@ Sempre confirme os IPs de saída exatos com sua equipe de segurança antes de sa
 >
 >Para acessar e gerenciar a lista de permissões IP, você deve ter a permissão **[!UICONTROL Exibir IPs Permitidos]** e **[!UICONTROL Gerenciar IPs Permitidos]**. [Saiba mais](../administration/ootb-permissions.md)
 
-Para acessar a lista de subdomínios para os quais você permitiu IPs para o Firewall do Aplicativo Web, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações Gerais]** e selecione **[!UICONTROL Lista de permissões - IPs]**.
+Para acessar a lista de subdomínios para os quais você permitiu os IPs do Firewall do Aplicativo Web, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações Gerais]** e selecione **[!UICONTROL Lista de permissões - IPs]**.
 
-![Inventário de lista de permissões de IP da WAF](assets/waf-ip-allowlist.png){width="90%"}
+![Inventário de lista de permissões de IP](assets/waf-ip-allowlist.png){width="90%"}
 
-A página de inventário lista todos os subdomínios que têm pelo menos um IP do WAF permitido, em todos os tipos de canal (Email, Página de aterrissagem, SMS, Web). Saiba mais sobre subdomínios em [esta seção](about-subdomain-delegation.md).
+A página de inventário lista todos os subdomínios que têm pelo menos um IP permitido, em todos os tipos de canal (Email, Página de aterrissagem, SMS, Web). Saiba mais sobre subdomínios em [esta seção](about-subdomain-delegation.md).
 
 A lista mostra o número de IPs permitidos por subdomínio e o autor da última modificação.
 
@@ -82,12 +86,7 @@ Você pode filtrar o inventário por tipo de canal e pesquisar por nome de subdo
 
 ## Adicionar IPs à lista de permissões {#waf-ip-allowlist-add}
 
->[!CONTEXTUALHELP]
->id="ajo_waf_allowed_ips"
->title="Insira os IPs permitidos pela WAF para o subdomínio selecionado"
->abstract="Selecione um subdomínio delegado e insira os IPs de saída públicos do Firewall do Aplicativo Web. Depois de salvo, [!DNL Journey Optimizer] rejeitará qualquer solicitação de entrada para esse subdomínio que não se origina de um dos IPs declarados. Sempre confirme os IPs de saída exatos com a equipe de segurança antes de salvar."
-
-Para adicionar IPs do Firewall do Aplicativo Web à lista de permissões para um determinado subdomínio, siga as etapas abaixo.
+Para adicionar IPs à lista de permissões para um determinado subdomínio, siga as etapas abaixo.
 
 1. No inventário **[!UICONTROL Lista de permissões - IPs]**, clique no botão **[!UICONTROL Adicionar IPs permitidos]**.
 
@@ -97,7 +96,7 @@ Para adicionar IPs do Firewall do Aplicativo Web à lista de permissões para um
 
    Cada entrada válida e não duplicada é validada em linha antes de ser adicionada. Você pode adicionar até **50 entradas de IP por subdomínio**.
 
-   ![Adicionar IPs permitidos do WAF para um subdomínio](assets/waf-ip-allowlist-add-ip.png)
+   ![Adicionar IPs permitidos para um subdomínio](assets/waf-ip-allowlist-add-ip.png)
 
    >[!IMPORTANT]
    >
@@ -117,11 +116,11 @@ Agora, qualquer solicitação para esse subdomínio de qualquer IP que não este
 
 Para atualizar os IPs permitidos para um subdomínio existente, clique no nome do subdomínio no inventário.
 
-O campo **Subdomínio** é somente leitura <!--as well as the Channel field--> — ele não pode ser alterado após a criação.
+O campo **[!UICONTROL Subdomínio]** é somente leitura <!--as well as the Channel field--> — ele não pode ser alterado após a criação.
 
 Adicione novos IPs usando o campo de entrada ou remova IPs existentes clicando no ícone **✕** em cada chip.
 
-![Editar ou remover IPs permitidos do WAF](assets/waf-ip-allowlist-edit-ip.png)
+![Editar ou remover IPs permitidos](assets/waf-ip-allowlist-edit-ip.png)
 
 >[!IMPORTANT]
 >
@@ -129,16 +128,16 @@ Adicione novos IPs usando o campo de entrada ou remova IPs existentes clicando n
 
 ## Remover IPs permitidos {#waf-ip-allowlist-remove}
 
-Para remover todos os IPs da lista de permissões de um subdomínio, use o ícone Excluir da coluna Ações no inventário. Isso suspende totalmente a restrição do WAF para esse subdomínio.
+Para remover todos os IPs da lista de permissões de um subdomínio, use o ícone **Excluir** da coluna **[!UICONTROL Ações]** do inventário. Isso suspende totalmente a restrição do WAF para esse subdomínio.
 
-![Excluir ícone na coluna Ações da lista de IPs Permitidos](assets/waf-ip-allowlist-delete-icon.png)
+![Excluir ícone na coluna Ações da lista de IPs permitidos](assets/waf-ip-allowlist-delete-icon.png)
 
 Uma janela pop-up de confirmação é aberta. Digite o nome exato do subdomínio para confirmar e clique em **[!UICONTROL Remover]**.
 
-![Confirmar remoção de todos os IPs permitidos do WAF para um subdomínio](assets/waf-ip-allowlist-remove.png){width="80%"}
+![Confirmar remoção de todos os IPs permitidos para um subdomínio](assets/waf-ip-allowlist-remove.png){width="80%"}
 
 >[!WARNING]
 >
->Ao confirmar, essa ação remove todos os IPs do lista de permissões do subdomínio que você inseriu. O tráfego de entrada será aceito novamente de qualquer origem, incluindo solicitações que ignoram o Firewall do Aplicativo Web. Isso não pode ser desfeito — Os IPs devem ser inseridos novamente para restaurar a restrição.
+>Após a confirmação, essa ação remove todos os IPs permitidos para o subdomínio que você inseriu. O tráfego de entrada será aceito novamente de qualquer origem, incluindo solicitações que ignoram o Firewall do Aplicativo Web. Isso não pode ser desfeito — Os IPs devem ser inseridos novamente para restaurar a restrição.
 
 Após remover todos os IPs, o subdomínio não aparece mais no inventário. Você pode reconfigurá-lo a qualquer momento adicionando IPs novamente para esse subdomínio.
