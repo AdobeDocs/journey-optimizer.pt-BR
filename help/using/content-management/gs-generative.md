@@ -162,7 +162,7 @@ As diretrizes gerais para usar a opção Gerar conteúdo no Adobe Journey Optimi
 ### Uso legal e transparência
 
 * O uso de Gerar conteúdo está sujeito às Diretrizes de usuário da IA gerada da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR)
-* Como parte do compromisso da Adobe de promover a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplicará o Content Credentials quando o conteúdo ou um projeto que inclua um ativo gerado pela Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/firefly/using/content-credentials.html)
+* Como parte do compromisso da Adobe de promover a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplicará o Content Credentials quando o conteúdo ou um projeto que inclua um ativo gerado pela Firefly for baixado ou exportado. [Saiba mais](https://helpx.adobe.com/br/firefly/using/content-credentials.html)
   <!--* See [Content Credentials in AI Assistant](generative-content-credentials.md) for details on which actions attach Content Credentials and what happens as your content moves.-->
 
 ### Gerar conteúdo para expressões de personalização {#ai-assistant-personalization-editor-guardrails}
