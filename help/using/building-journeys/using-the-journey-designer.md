@@ -108,7 +108,7 @@ Além disso, a última experiência selecionada (antiga ou nova) agora é lembra
 
 Assista a este vídeo para obter uma visão geral da nova experiência da tela de jornada:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496193)
+>[!VIDEO](https://video.tv.adobe.com/v/3496197?captions=por_br)
 
 ## Inicie sua jornada {#start-your-journey}
 
