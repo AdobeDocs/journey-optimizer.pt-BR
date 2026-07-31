@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
+source-git-commit: 38f8ff8d08d57ffbea5d9788a3a4e67f132c26e4
 workflow-type: tm+mt
-source-wordcount: '3488'
+source-wordcount: '3492'
 ht-degree: 93%
 
 ---
@@ -646,6 +646,7 @@ ht-degree: 93%
       + [Relatório de campanha](using/reports/campaign-global-report-cja.md)
       + [Relatório de campanha baseada em código](using/reports/campaign-global-report-cja-code.md)
       + [Relatório de campanha de cartão de conteúdo](using/reports/campaign-global-report-cja-content.md)
+      + [Relatório de campanha de canal personalizado](using/reports/campaign-global-report-cja-custom-channel.md)
       + [Relatório de campanha de correspondência direta](using/reports/campaign-global-report-cja-direct.md)
       + [Relatório de campanha por email](using/reports/campaign-global-report-cja-email.md)
       + [Relatório de campanha de experimentação](using/reports/campaign-global-report-cja-experimentation.md)

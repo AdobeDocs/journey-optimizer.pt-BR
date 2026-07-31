@@ -1,14 +1,14 @@
 ---
 title: Criar experiências de canal personalizadas
-description: Saiba como usar um canal personalizado em uma campanha, campanha ou campanha orquestrada no Adobe Journey Optimizer.
+description: Saiba como usar um canal personalizado em uma jornada ou campanha no Adobe Journey Optimizer.
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Experienced
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '997'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba como adicionar um canal personalizado a uma campanha de jornada, campanha ou campanha orquestrada no Adobe Journey Optimizer e como criar cargas de mensagens personalizadas usando o editor de expressão.
+**Nesta página:** saiba como adicionar um canal personalizado a uma jornada ou campanha no Adobe Journey Optimizer e criar cargas de mensagem personalizadas usando o editor de expressão.
 
 >[!ENDSHADEBOX]
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 >
 >Este recurso é oferecido com disponibilidade limitada. Entre em contato com o representante da Adobe para obter acesso.
 
-No [!DNL Journey Optimizer], você pode entregar mensagens usando canais personalizados em campanhas, jornadas e campanhas orquestradas. Siga as etapas abaixo para configurar sua experiência de canal personalizada.
+No [!DNL Journey Optimizer], você pode entregar mensagens usando canais personalizados em campanhas e jornadas. Siga as etapas abaixo para configurar sua experiência de canal personalizada.
 
 >[!NOTE]
 >

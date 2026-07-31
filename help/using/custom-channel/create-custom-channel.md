@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1567'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Para acessar o **Channel Builder** e gerenciar seus canais personalizados, siga 
 
 1. Selecione **[!UICONTROL Canais personalizados]** na seção **[!UICONTROL Construtor de canais]**.
 
-   ![Inventário de canais personalizados](assets/custom_channels_inventory.png){width="70%"}
+   ![Inventário de canais personalizados](assets/custom_channels_inventory.png){width="100%"}
 
 1. O inventário lista todos os canais personalizados em sua sandbox, incluindo o status atual e o tipo de autenticação usado para se conectar ao endpoint externo.
 
@@ -60,7 +60,7 @@ Para acessar o **Channel Builder** e gerenciar seus canais personalizados, siga 
 
 1. Para arquivar um canal, abra-o no inventário e clique em **[!UICONTROL Arquivar]**.
 
-   O arquivamento de um canal ativo o remove de todos os menus suspensos de seleção — seletor de ação de campanha, paleta de ações de jornada, lista de canais de campanhas orquestradas, configurações de canal e modelos de conteúdo. As jornadas e campanhas existentes que já usam o canal continuam a funcionar normalmente.
+   O arquivamento de um canal ativo o remove de todos os menus suspensos de seleção — seletor de ação de campanha, paleta de ações de jornada, configurações de canal <!--orchestrated campaigns channel list,--> e modelos de conteúdo. As jornadas e campanhas existentes que já usam o canal continuam a funcionar normalmente.
 
 ## Criar um canal personalizado {#create-channel}
 
@@ -70,7 +70,7 @@ Para criar um novo canal personalizado, siga as etapas abaixo.
 
    ![Configurações gerais](assets/custom_channel_properties.png){width="70%"}
 
-1. Na seção **[!UICONTROL Propriedades]**, digite um **[!UICONTROL Nome]** para o canal personalizado. Esse nome aparecerá na tela do jornada, no seletor de ações de campanha e na lista de canais de campanhas orquestradas.
+1. Na seção **[!UICONTROL Propriedades]**, digite um **[!UICONTROL Nome]** para o canal personalizado. Este nome aparecerá na tela de jornadas e no seletor de ação de campanha <!--and orchestrated campaigns channel list-->.
 
    >[!NOTE]
    >
