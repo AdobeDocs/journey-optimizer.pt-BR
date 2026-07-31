@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondas, lotes, programação, jornada, campanha, orquestrado, entregabilidade
-source-git-commit: 1a025ae1d15bc10ab9c0d02526a9b765ae17c2cd
+source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba como dividir a entrega de mensagens de saída em lotes agendados (ondas) para equilibrar a carga, proteger a reputação do remetente e melhorar a capacidade de entrega — disponível em jornadas de leitura de público, campanhas de ação e campanhas orquestradas.
+**Nesta página:** saiba como dividir a entrega de mensagens de saída em lotes agendados (ondas) para equilibrar a carga, proteger a reputação do remetente e melhorar a capacidade de entrega, disponível em jornadas de leitura de público, campanhas de ação e campanhas orquestradas.
 
 >[!ENDSHADEBOX]
 
