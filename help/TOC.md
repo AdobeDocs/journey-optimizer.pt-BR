@@ -6,7 +6,7 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 19f34fc38ae8325f077149067584183cdcd353bd
+source-git-commit: 1a025ae1d15bc10ab9c0d02526a9b765ae17c2cd
 workflow-type: tm+mt
 source-wordcount: '3489'
 ht-degree: 93%
@@ -257,8 +257,8 @@ ht-degree: 93%
     + [Usar modelos de IA para classificar jornadas](using/conflict-prioritization/journey-ai-models.md)
 + Configurações de entrega {#delivery-settings}
   + [Envio usando ondas](using/delivery/send-using-waves.md)
-  + [Otimização de tempo de envio](using/building-journeys/send-time-optimization.md)
   + [Otimização de canal](using/building-journeys/channel-optimization.md)
+  + [Otimização de tempo de envio](using/building-journeys/send-time-optimization.md)
 + Testar e aprovar {#test}
   + [Testar, validar e aprovar](/help/rp_landing_pages/test-landing-page.md)
   + Visualizar e testar conteúdo {#preview-test}
