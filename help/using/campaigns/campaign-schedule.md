@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 857
 ht-degree: 13%
@@ -120,7 +120,7 @@ Para definir o controle de taxa, habilite a opção **[!UICONTROL Entrega aceler
 
 Para entregar a mensagem de campanha em lotes ao longo do tempo, em vez de enviá-la de uma só vez, você pode usar o envio por ondas. Isso ajuda a balancear a carga, oferecer suporte à capacidade de entrega e evitar a sobrecarga dos sistemas downstream (por exemplo, call centers ou páginas de aterrissagem). Você define o número de ondas, seu tamanho (por porcentagem ou número absoluto) e a programação para cada onda.
 
-[Saiba como enviar usando ondas](send-using-waves.md).
+[Saiba como enviar usando ondas](../delivery/send-using-waves.md).
 
 ## Próximas etapas {#next}
 

@@ -28,10 +28,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
+source-git-commit: 6e13f186799c120eaf674fda2d722572af8e0149
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 82%
+source-wordcount: 1343
+ht-degree: 81%
 
 ---
 
@@ -80,12 +80,13 @@ Estas seções listam os conjuntos de dados do sistema usados pelo [!DNL Journey
 
 * Relatório
 
-   * _Relatório - Conjunto de dados do evento de feedback de mensagem_: logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. O feedback dos ISPs de email sobre rejeições também é registrado neste conjunto de dados. **Este conjunto de dados usa a ingestão em lote — espere uma latência de dados de até 2 horas.**
-   * _Relatórios – Conjunto de dados de evento de experiência de rastreamento de email_: logs de interação do canal de email e dados de contexto do canal do WhatsApp no grupo de campos `whatsAppChannelContext`. Usado para relatórios e criação de público-alvo. As informações armazenadas incluem ações realizadas pelo usuário final no email (aberturas, cliques etc.) e interações do WhatsApp.
-   * _Relatórios - Conjunto de dados do evento de experiência de rastreamento de push_: logs de interação para o canal de push usado para fins de criação de relatórios e de público-alvo. As informações armazenadas informam as ações executadas pelo usuário final nas notificações por push.
-   * _Relatórios - Evento de etapa da jornada_: Captura todos os eventos de experiência em etapas da jornada gerados no Journey Optimizer para serem consumidos por serviços como Relatórios. Também é essencial para criar relatórios no Customer Journey Analytics para análise YoY. Vinculado a um Metadado de jornada.
-   * _Relatórios - Jornadas_: Informações de hospedagem do conjunto de dados de metadados de cada etapa em uma jornada.
-   * _Relatórios - Cco_: Conjunto de dados de evento de feedback que armazena os logs de entrega para emails CCO. A ser usado para fins de relatório.
+  * _Relatório - Conjunto de dados do evento de feedback de mensagem_: logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. O feedback dos ISPs de email sobre rejeições também é registrado neste conjunto de dados. **Este conjunto de dados usa a ingestão em lote — espere uma latência de dados de até 2 horas.**
+  * _Relatórios – Conjunto de dados de evento de experiência de rastreamento de email_: logs de interação do canal de email e dados de contexto do canal do WhatsApp no grupo de campos `whatsAppChannelContext`. Usado para relatórios e criação de público-alvo. As informações armazenadas incluem ações realizadas pelo usuário final no email (aberturas, cliques etc.) e interações do WhatsApp.
+  * _Relatórios - Conjunto de dados do evento de experiência de rastreamento de push_: logs de interação para o canal de push usado para fins de criação de relatórios e de público-alvo. As informações armazenadas informam as ações executadas pelo usuário final nas notificações por push.
+  * _Relatórios - Evento de etapa da jornada_: Captura todos os eventos de experiência em etapas da jornada gerados no Journey Optimizer para serem consumidos por serviços como Relatórios. Também é essencial para criar relatórios no Customer Journey Analytics para análise YoY. Vinculado a um Metadado de jornada.
+  * _Relatórios - Jornadas_: Informações de hospedagem do conjunto de dados de metadados de cada etapa em uma jornada.
+  * _Relatórios - Cco_: Conjunto de dados de evento de feedback que armazena os logs de entrega para emails CCO. A ser usado para fins de relatório.
+  * _Conjunto de Dados de Evento de Rastreamento de Canais do AJO_: captura todas as respostas de entrada do WhatsApp, incluindo as enviadas por meio de modelos de Fluxo do WhatsApp.
 
 * Consentimento
 

@@ -15,18 +15,25 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7f5634f35a471e5e1611f7563b82183e00377857
+source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
 workflow-type: tm+mt
-source-wordcount: 9725
-ht-degree: 84%
+source-wordcount: 9823
+ht-degree: 83%
 
 ---
+
 
 # Atualizações na documentação {#latest-updates}
 
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Julho de 2026 {#july-2026}
+
+* Uma nova seção **Configurações de entrega** foi adicionada à navegação da documentação. Ele agrupa recursos relacionados à entrega que se aplicam a jornadas, campanhas e campanhas orquestradas: **Enviar usando ondas**, **Otimização de hora de envio** e **Otimização de canal** foram movidos para lá da seção Jornadas.
+
+* As páginas separadas de documentação **Enviar usando ondas** para jornadas e campanhas de ação foram mescladas em uma única página, agora também abrangendo campanhas orquestradas. [Leia mais](../delivery/send-using-waves.md)
+
+* Uma dica apontando para o artigo da comunidade do Experience League sobre **como desanexar e reingressar em nós** na nova tela de jornada foi adicionada à página **Criar sua jornada**. [Leia mais](../building-journeys/using-the-journey-designer.md)
 
 * A seção do componente **Grade** foi adicionada à página **Componentes de conteúdo do Email Designer**. Ele permite organizar o conteúdo em uma grade estruturada de linhas e colunas, onde cada célula pode conter outros componentes de conteúdo. [Leia mais](../email/content-components.md#grid)
 
@@ -42,11 +49,12 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * Um aviso foi adicionado à página **Editar registros PTR** para informar aos clientes que, ao adicionar um novo registro DNS de encaminhamento à sua plataforma, o registro DNS de encaminhamento para o subdomínio antigo não deve ser removido até que a movimentação seja concluída, pois isso fará com que a edição falhe. [Leia mais](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
-* As páginas **Enviar usando ondas** foram atualizadas para esclarecer o comportamento de reavaliação do público-alvo nas ondas: a associação do público-alvo é corrigida no momento da ativação (instantâneo), mas os atributos do perfil e o consentimento são avaliados no momento em que cada onda é processada. Isso significa que as opções de não participação que ocorrem entre ondas são respeitadas. Leia mais nas seções de perguntas frequentes sobre [jornadas](../building-journeys/send-using-waves.md#faq) e [campanhas](../campaigns/send-using-waves.md#faq).
+* As páginas **Enviar usando ondas** foram atualizadas para esclarecer o comportamento de reavaliação do público-alvo nas ondas: a associação do público-alvo é corrigida no momento da ativação (instantâneo), mas os atributos do perfil e o consentimento são avaliados no momento em que cada onda é processada. Isso significa que as opções de não participação que ocorrem entre ondas são respeitadas. Leia mais na [seção de perguntas frequentes](../delivery/send-using-waves.md#faq).
 
 * A página **Governança de dados** foi atualizada para esclarecer que a imposição de política DULE se aplica somente a **campos de atributo de perfil**. Campos baseados em eventos (atributos de contexto, como campos de evento de jornada) não são compatíveis: os rótulos aplicados a esses campos na interface do usuário não restringirão o uso de dados. [Leia mais](../action/action-privacy.md)
 
 * A documentação da **Otimização de Tempo de Envio** foi atualizada para refletir o novo limite de **[!UICONTROL Envio na(s) próxima(s)]** de **2-100 horas** (antes entre 1-168), e para documentar as regiões de Hub da AEP com suporte para esse recurso. [Leia mais](../building-journeys/send-time-optimization.md#use-send-time-optimization)
+
 
 * As páginas do **Modelo de otimização personalizado** foram atualizadas para refletir as melhorias mais recentes no modelo, abordando como o modelo de conjunto funciona, requisitos do conjunto de dados, casos de uso, premissas principais e comportamento de inicialização imediata. Leia mais nas seções [Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md) e [Offer Decisioning](../offers/ranking/personalized-optimization-model.md).
 
@@ -191,7 +199,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * A documentação da atividade **Ler público-alvo** foi atualizada para esclarecer que uma atividade **Evento de negócios** é uma exceção à regra de que Ler público-alvo deve ser a primeira atividade em uma jornada. Uma observação também foi adicionada referenciando a atividade **Otimizar** como uma alternativa avançada para controlar o direcionamento de público-alvo. [Leia mais](../building-journeys/read-audience.md)
 
-* **Enviar usando ondas** em jornadas agora está disponível. O sinalizador de Disponibilidade limitada foi removido da documentação. [Leia mais](../building-journeys/send-using-waves.md)
+* **Enviar usando ondas** em jornadas agora está disponível. O sinalizador de Disponibilidade limitada foi removido da documentação. [Leia mais](../delivery/send-using-waves.md)
 
 * A documentação da atividade **Saltar** foi aprimorada com uma nova seção de estratégia de design — **Subjornadas de tamanho reduzido** — explicando como dividir fluxos completos complexos em subjornadas menores e focadas conectadas por meio da atividade Saltar. [Leia mais](../building-journeys/jump.md#jump-strategy)
 
@@ -917,7 +925,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * A new section about Privacy requests has been added to the documentation. [Read more](../privacy/requests.md)
 * A new section about Audit logs on resources has been added to the documentation. [Read more](../privacy/audit-logs.md)
 * A new section about how to add HTML or JSON content coming from Adobe Experience Cloud Asset library to an offer representation has been added to the documentation. [Read more](../offers/offer-library/add-representations.md#html-json)
-* Added a new page on journey lifecyle. [Read more](../building-journeys/journey.md)
+* Added a new page on journey lifecyle. [Read more](../building-journeys/journey.md) 
 * Updated the Wait activity page. [Read more](../building-journeys/wait-activity.md)
 * Added the list of Adobe Journey Optimizer datasets with query examples. [Read more](../data/datasets-query-examples.md)
 * The Allowed list page has been moved to the Configuration section. [Read more](../configuration/allow-list.md)

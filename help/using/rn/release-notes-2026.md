@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2411f0ba2371933c3af101603c28032e9cdcc7d2
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 10054
 ht-degree: 95%
@@ -1385,7 +1385,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
 * **Ação Atualizar perfil: suporte para vários atributos de perfil**. A atividade de ação **Atualizar perfil** agora oferece suporte à atualização de até cinco atributos de perfil em um único nó. Anteriormente, cada ação só podia atualizar um atributo por vez, o que exigia que vários nós atualizassem vários atributos. Use o novo botão **Atualizar outro campo** para adicionar outros pares de campo/valor, reduzindo a complexidade da tela e melhorando o desempenho. [Saiba mais](../building-journeys/update-profiles.md)
 
-* **Envio em ondas de mensagens de saída em jornadas**: agora você pode agendar mensagens de jornadas do Journey Optimizer para serem entregues em lotes controlados ao longo do tempo. [Saiba mais](../building-journeys/send-using-waves.md)
+* **Envio em ondas de mensagens de saída em jornadas**: agora você pode agendar mensagens de jornadas do Journey Optimizer para serem entregues em lotes controlados ao longo do tempo. [Saiba mais](../delivery/send-using-waves.md)
 
   Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).
 

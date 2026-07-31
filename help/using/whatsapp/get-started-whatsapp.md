@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+source-git-commit: 43066cc40499d87771b251766d5fa6b96afb1bb5
 workflow-type: tm+mt
-source-wordcount: 686
-ht-degree: 64%
+source-wordcount: 707
+ht-degree: 62%
 
 ---
 
@@ -52,6 +52,7 @@ O WhatsApp funciona melhor quando o seu público-alvo já usa a plataforma e voc
 | Alto engajamento global | Plataforma de mensagens amplamente usada, com forte adoção em muitas regiões | Atingir públicos internacionais já ativos no WhatsApp |
 | Mensagens ricas e interativas | Oferece suporte a imagens, vídeos, botões e respostas rápidas | Catálogos de produtos, confirmações de compromissos com opções de resposta rápida |
 | Experiências conversacionais bidirecionais | Os recipients podem responder no mesmo thread | Conversações sobre o suporte ao cliente, perguntas sobre o rastreamento de pedidos |
+| Experiências interativas em várias telas | Os modelos de fluxo do WhatsApp permitem criar interações guiadas em várias etapas no chat | Pesquisas, formulários de captura de clientes potenciais |
 | Conformidade e confiança via API oficial | Entregue por meio da API de nuvem verificada da Meta com verificação do remetente | Comunicações verificadas pela marca que geram confiança do recipient |
 | Integração com outros canais | Pode ser dividido em camadas com jornadas e campanhas ao lado de outros canais | Jornadas multicanal usando o WhatsApp como ponto de contato complementar |
 

@@ -28,7 +28,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 5041
 ht-degree: 10%
@@ -450,7 +450,7 @@ A seção **[!UICONTROL Agenda]** só estará disponível quando uma atividade *
 
 >[!TIP]
 >
->Ao agendar a jornada, você também pode configurar o envio de ondas para entregar ações de jornada em lotes ao longo do tempo. [Saiba como enviar usando ondas no jornada](send-using-waves.md)
+>Ao agendar a jornada, você também pode configurar o envio de ondas para entregar ações de jornada em lotes ao longo do tempo. [Saiba como enviar usando ondas no jornada](../delivery/send-using-waves.md)
 
 
 ## Gerenciamento de conflitos {#conflict}

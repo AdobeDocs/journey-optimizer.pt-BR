@@ -1,15 +1,15 @@
 ---
 title: Introdução a canais personalizados
-description: Saiba como usar o  [!DNL Journey Optimizer]'s Channel Builder to bring any outbound messaging channel into [!DNL Journey Optimizer]  e usá-lo em campanhas, jornadas e campanhas orquestradas.
+description: Saiba como usar o  [!DNL Journey Optimizer]'s Channel Builder to bring any outbound messaging channel into [!DNL Journey Optimizer]  e usá-lo em campanhas e jornadas.
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 99103a5028c9cebc63b2c1d69ce5848974b40c8e
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba o que são canais personalizados no Adobe Journey Optimizer, como eles se comparam às ações personalizadas e o fluxo de trabalho geral para trazer qualquer ponto de extremidade HTTP de saída para o AJO para que você possa usá-lo em campanhas, jornadas e campanhas orquestradas.
+**Nesta página:** saiba o que são canais personalizados no Adobe Journey Optimizer, como eles se comparam a ações personalizadas e o fluxo de trabalho geral para trazer qualquer ponto de extremidade HTTP de saída para o AJO para que você possa usá-lo em campanhas e jornadas.
 
 >[!ENDSHADEBOX]
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 <!--Multilingual support, business rules enforcement, and [!DNL Adobe Experience Decisioning] integration are planned for a future release.-->
 
-A capacidade **Canais personalizados** do [!DNL Journey Optimizer] permite que você traga qualquer canal de saída para o [!DNL Journey Optimizer] para que possa usá-lo em campanhas, jornadas e campanhas orquestradas, exatamente como qualquer canal nativo. Usando o **Construtor de Canais**, os administradores podem criar e configurar novos canais sem envolvimento de engenharia, e os profissionais de marketing podem começar imediatamente a usá-los para se comunicar com os clientes.
+A capacidade **Canais personalizados** do [!DNL Journey Optimizer] permite que você traga qualquer canal de saída para o [!DNL Journey Optimizer] para que possa usá-lo em campanhas e jornadas, exatamente como em qualquer canal nativo. Usando o **Construtor de Canais**, os administradores podem criar e configurar novos canais sem envolvimento de engenharia, e os profissionais de marketing podem começar imediatamente a usá-los para se comunicar com os clientes.
 
 ## Que problema ele resolve? {#why-custom-channels}
 
@@ -46,7 +46,7 @@ Os canais personalizados preenchem essa lacuna: eles permitem usar qualquer pont
 
 Se você já tiver usado [ações personalizadas](../action/action.md) em [!DNL Journey Optimizer] jornadas antes, os canais personalizados abordarão um conjunto diferente de casos de uso.
 
-**Use canais personalizados quando** você precisar enviar mensagens para usuários finais por meio de uma plataforma que não tem suporte nativo no [!DNL Journey Optimizer], como o WeChat, o Kakao Talk ou um gateway de mensagens personalizado. Os canais personalizados estão disponíveis em campanhas, jornadas, campanhas orquestradas e suporte:
+**Use canais personalizados quando** você precisar enviar mensagens para usuários finais por meio de uma plataforma que não tem suporte nativo no [!DNL Journey Optimizer], como o WeChat, o Kakao Talk ou um gateway de mensagens personalizado. Os canais personalizados estão disponíveis em campanhas e jornadas, e suporte:
 
 * Personalização completa por meio do editor de personalização, semelhante aos canais de saída nativos
 * Editor de conteúdo visual/de formulário, visualização e prova
@@ -92,10 +92,40 @@ Os canais personalizados são ideais para:
 
 A configuração e o uso de um canal personalizado seguem os principais estágios abaixo:
 
-1. **Configurar** (Administrador) - Um administrador cria um canal personalizado no **Construtor de Canais**, definindo o ponto de extremidade, a autenticação, a política de limitação e a estrutura de conteúdo da mensagem. Em seguida, uma configuração de canal é criada e vinculada ao canal personalizado. [Saiba mais](configure-custom-channel.md)
-1. **Criar** (Profissional de marketing) - Um profissional de marketing adiciona o canal personalizado a uma campanha, campanha ou campanha orquestrada, seleciona uma configuração de canal e cria a carga da mensagem usando o editor de personalização do [!DNL Journey Optimizer]. [Saiba mais](create-custom-experience.md)
+1. **Configurar** (Administrador) - Um administrador cria um canal personalizado no **Construtor de Canais**, definindo o ponto de extremidade, a autenticação, a política de limitação e a estrutura de conteúdo da mensagem. Em seguida, uma configuração de canal é criada e vinculada ao canal personalizado.
+1. **Criar** (Profissional de marketing) - Um profissional de marketing adiciona o canal personalizado a uma jornada ou campanha, seleciona uma configuração de canal e cria a carga da mensagem usando o editor de personalização do [!DNL Journey Optimizer].
 1. **Enviar** - Quando um perfil é qualificado, [!DNL Journey Optimizer] envia a carga personalizada para o ponto de extremidade configurado. O sistema externo processa a chamada e entrega a mensagem.
-1. **Monitorar** (Administrador/Profissional de marketing) - Administradores e profissionais de marketing podem monitorar o desempenho e a confiabilidade do canal personalizado por meio dos painéis de monitoramento e relatórios de [!DNL Journey Optimizer]. [Saiba mais](monitor-custom-channel.md)
+1. **Monitorar** (Administrador/Profissional de marketing) - Administradores e profissionais de marketing podem monitorar o desempenho e a confiabilidade do canal personalizado por meio dos painéis de monitoramento e relatórios de [!DNL Journey Optimizer].
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="configure-custom-channel.md">
+<img alt="Configurar" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="configure-custom-channel.md"><strong>Configurar um canal personalizado</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-custom-experience.md">
+<img alt="Criar" src="../assets/do-not-localize/inapp-create.jpeg">
+</a>
+<div>
+<a href="create-custom-experience.md"><strong>Criar uma experiência de canal personalizada</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="monitor-custom-channel.md">
+<img alt="Monitorar" src="../assets/do-not-localize/inapp-report.jpg">
+</a>
+<div>
+<a href="monitor-custom-channel.md"><strong>Monitorar um canal personalizado</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
 
 <!--
 ## Next steps {#next-steps}

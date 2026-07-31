@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
+source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
 workflow-type: tm+mt
-source-wordcount: '3488'
+source-wordcount: '3489'
 ht-degree: 93%
 
 ---
@@ -69,7 +69,6 @@ ht-degree: 93%
     + [Criar uma jornada](/help/rp_landing_pages/create-journey-landing-page.md)
     + [Crie a primeira jornada](using/building-journeys/journey-gs.md)
     + [Definir as propriedades da jornada](using/building-journeys/journey-properties.md)
-    + [Enviar usando ondas em jornadas](using/building-journeys/send-using-waves.md)
     + [Configurar e rastrear as métricas da jornada](using/building-journeys/success-metrics.md)
     + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
     + Simulação {#simulate-journey}
@@ -88,8 +87,6 @@ ht-degree: 93%
     + [Usar identificadores complementares em jornadas](using/building-journeys/supplemental-identifier.md)
     + [Trabalhar com eventos de etapa da jornada](using/reports/journey-step-events-overview.md)
     + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
-    + [Otimização de tempo de envio](using/building-journeys/send-time-optimization.md)
-    + [Otimização de canal](using/building-journeys/channel-optimization.md)
     + [Encerrar sua jornada](using/building-journeys/end-journey.md)
   + Atividades {#about-journey-building}
     + [Atividades](/help/rp_landing_pages/about-journey-building-landing-page.md)
@@ -176,7 +173,6 @@ ht-degree: 93%
     + [Editar o conteúdo da campanha](using/campaigns/campaign-content.md)
     + [Definir o público-alvo da campanha](using/campaigns/campaign-audience.md)
     + [Agendar a campanha](using/campaigns/campaign-schedule.md)
-    + [Enviar usando ondas](using/campaigns/send-using-waves.md)
     + [Revisar e ativar uma campanha de ações](using/campaigns/review-activate-campaign.md)
   + Campanhas acionadas por API {#api-triggered-campaigns}
     + [Campanhas acionadas por API](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
@@ -259,6 +255,10 @@ ht-degree: 93%
   + Arbitragem de jornada {#journey-arbitration}
     + [Usar fórmulas para classificar jornadas](using/conflict-prioritization/journey-ranking-formulas.md)
     + [Usar modelos de IA para classificar jornadas](using/conflict-prioritization/journey-ai-models.md)
++ Configurações de entrega {#delivery-settings}
+  + [Envio usando ondas](using/delivery/send-using-waves.md)
+  + [Otimização de tempo de envio](using/building-journeys/send-time-optimization.md)
+  + [Otimização de canal](using/building-journeys/channel-optimization.md)
 + Testar e aprovar {#test}
   + [Testar, validar e aprovar](/help/rp_landing_pages/test-landing-page.md)
   + Visualizar e testar conteúdo {#preview-test}
@@ -461,17 +461,17 @@ ht-degree: 93%
       + [Configurar atividade em tempo real no Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
       + [Configurar a integração do SDK de atividade ao vivo](using/mobile-live/mobile-live-configuration-sdk.md)
   + Canais personalizados {#custom-channel}
-    + {hide-from-toc}[Introdução a canais personalizados](using/custom-channel/get-started-custom-channel.md)
+    + [Introdução a canais personalizados](using/custom-channel/get-started-custom-channel.md)
     + Configurar canais personalizados {#configure-custom-channel}
-      + {hide-from-toc}[Configurar seus canais personalizados](using/custom-channel/configure-custom-channel.md)
-      + {hide-from-toc}[Criar um canal personalizado](using/custom-channel/create-custom-channel.md)
-      + {hide-from-toc}[Gerenciar credenciais de API](using/custom-channel/custom-channel-api-credentials.md)
-      + {hide-from-toc}[Delegar um subdomínio](using/custom-channel/custom-channel-subdomains.md)
-      + {hide-from-toc}[Criar uma configuração de canal](using/custom-channel/custom-channel-configuration.md)
+      + [Configurar seus canais personalizados](using/custom-channel/configure-custom-channel.md)
+      + [Criar um canal personalizado](using/custom-channel/create-custom-channel.md)
+      + [Gerenciar credenciais de API](using/custom-channel/custom-channel-api-credentials.md)
+      + [Delegar um subdomínio](using/custom-channel/custom-channel-subdomains.md)
+      + [Criar uma configuração de canais](using/custom-channel/custom-channel-configuration.md)
     + Criar experiências de canal personalizadas {#create-custom-channel-experiences}
-      + {hide-from-toc}[Criar uma experiência de canal personalizada](using/custom-channel/create-custom-experience.md)
-      + {hide-from-toc}[Testar sua experiência de canal personalizada](using/custom-channel/test-custom-channel.md)
-    + {hide-from-toc}[Monitorar canais personalizados](using/custom-channel/monitor-custom-channel.md)
+      + [Criar uma experiência de canal personalizada](using/custom-channel/create-custom-experience.md)
+      + [Teste sua experiência de canal personalizada](using/custom-channel/test-custom-channel.md)
+    + [Monitorar canais personalizados](using/custom-channel/monitor-custom-channel.md)
 + Gerenciamento de conteúdo {#content-management}
   + [Gerenciamento de conteúdo](/help/rp_landing_pages/content-management-landing-page.md)
   + Personalização {#personalization}
@@ -646,6 +646,7 @@ ht-degree: 93%
       + [Relatório de campanha](using/reports/campaign-global-report-cja.md)
       + [Relatório de campanha baseada em código](using/reports/campaign-global-report-cja-code.md)
       + [Relatório de campanha de cartão de conteúdo](using/reports/campaign-global-report-cja-content.md)
+      + [Relatório de campanha de canal personalizado](using/reports/campaign-global-report-cja-custom.md)
       + [Relatório de campanha de correspondência direta](using/reports/campaign-global-report-cja-direct.md)
       + [Relatório de campanha por email](using/reports/campaign-global-report-cja-email.md)
       + [Relatório de campanha de experimentação](using/reports/campaign-global-report-cja-experimentation.md)

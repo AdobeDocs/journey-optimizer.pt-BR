@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 248
 ht-degree: 47%
@@ -63,7 +63,7 @@ Antes de começar com campanhas, verifique os seguintes pré-requisitos listados
 1. [Configurar a ação da campanha](campaign-action.md)
 1. [Editar o conteúdo da campanha de ação](campaign-content.md)
 1. [Definir o público da campanha de ação](campaign-audience.md)
-1. [Agendar a Campanha de ação](campaign-schedule.md). Opcionalmente, [enviar usando ondas](send-using-waves.md) para entregar a mensagem em lotes ao longo do tempo.
+1. [Agendar a Campanha de ação](campaign-schedule.md). Opcionalmente, [enviar usando ondas](../delivery/send-using-waves.md) para entregar a mensagem em lotes ao longo do tempo.
 1. [Revisar e ativar a campanha de ação](review-activate-campaign.md)
 
 Saiba mais sobre o [fluxo de trabalho completo de criação de campanha com guias específicos de tipo →](get-started-with-campaigns.md#workflow)

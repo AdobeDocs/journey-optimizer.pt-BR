@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 1f70fb22417cfd8a850283ac2c4515bb449bca83
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,8 @@ Antes de ativar uma jornada ou campanha que use um canal personalizado, valide s
 
 Enquanto um canal personalizado estiver com o status de **[!UICONTROL Rascunho]**, use o botão **[!UICONTROL Testar]** no Construtor de Canais para enviar uma solicitação de teste para o seu ponto de extremidade e validar a conexão ponta a ponta antes da ativação. [Saiba mais](create-custom-channel.md#test-connection)
 
+![Botão de conexão de teste](assets/custom_channel_test_connection.png){width="70%"}
+
 Este teste confirma:
 
 * Que o ponto de extremidade pode ser acessado dos IPs de saída de [!DNL Journey Optimizer].
@@ -35,7 +37,13 @@ Este teste confirma:
 
 Verifique os logs do sistema externo para confirmar se a solicitação de teste foi recebida com os cabeçalhos e a estrutura de carga esperados.
 
-## Simular conteúdo com perfis de teste {#simulate-content}
+## Pré-visualize e teste sua experiência de canal personalizada {#preview-test}
+
+Depois de criar uma experiência de canal personalizada, você pode validar a entrega completa de conteúdo personalizado antes de ativar uma jornada ou campanha.
+
+Use os recursos a seguir para visualizar e testar o conteúdo do canal personalizado e verificar a experiência completa.
+
+### Simular conteúdo com perfis de teste {#simulate-content}
 
 O recurso **[!UICONTROL Simular conteúdo]** resolve expressões de personalização em relação a perfis de teste para que você possa inspecionar a carga exata que seria enviada antes que qualquer mensagem real fosse entregue.
 
@@ -50,17 +58,23 @@ O recurso **[!UICONTROL Simular conteúdo]** resolve expressões de personaliza�
    * Os campos de carga obrigatórios são preenchidos.
    * As funções auxiliares produzem a saída formatada esperada.
 
+   ![Simular conteúdo com perfis de teste](assets/custom_channel_simulate_content.png){width="70%"}
+
 >[!TIP]
 >
 >Teste com vários perfis que representam segmentos de público-alvo diferentes para capturar casos de borda, por exemplo, perfis com atributos opcionais ausentes, conjuntos de caracteres não latinos ou valores nulos em campos personalizados.
 
-## Enviar uma prova {#send-proof}
+Saiba mais sobre visualização e teste de conteúdo em [esta seção](../content-management/preview-test.md).
+
+### Enviar uma prova {#send-proof}
 
 Para validar o delivery de ponta a ponta antes da ativação, envie uma prova para um conjunto de recipients de teste:
 
 1. No painel **[!UICONTROL Simular conteúdo]**, alterne para a guia **[!UICONTROL Enviar prova]**.
 
-1. Adicione os perfis que deseja usar. Você pode carregar um arquivo CSV com perfis que não estão definidos como perfis de teste no [!DNL Journey Optimizer].
+1. Adicione os perfis que deseja usar. Você pode carregar um arquivo CSV com perfis que não estão definidos como perfis de teste no [!DNL Journey Optimizer]. Saiba mais sobre [criação de perfis de teste](../audience/creating-test-profiles.md)
+
+   ![Guia Enviar prova](assets/custom_channel_send_proof.png){width="70%"}
 
 1. Clique em **[!UICONTROL Enviar prova]**. [!DNL Journey Optimizer] chama seu ponto de extremidade externo com a carga personalizada de cada perfil selecionado.
 
@@ -68,9 +82,9 @@ Para validar o delivery de ponta a ponta antes da ativação, envie uma prova pa
 
 O resultado da prova é exibido usando os mesmos padrões de validação que a prova de email: os campos obrigatórios, as incompatibilidades de tipo e os erros de validação de esquema são exibidos antes do envio da prova.
 
-Saiba mais sobre como enviar provas em [campanhas](../campaigns/create-campaign.md#send-proof) e [jornadas](../building-journeys/testing-the-journey.md).
+Saiba mais sobre como enviar provas em [esta seção](../content-management/proofs.md)
 
-## Testar no modo de teste do jornada {#test-journey}
+### Testar no modo de teste do jornada {#test-journey}
 
 Para validação de jornada de ponta a ponta, ative a jornada no **[!UICONTROL Modo de teste]**:
 
@@ -86,9 +100,9 @@ Para validação de jornada de ponta a ponta, ative a jornada no **[!UICONTROL M
 
 1. Clique em **[!UICONTROL Parar teste]** quando terminar.
 
-Saiba mais sobre como testar jornadas no [modo de teste](../building-journeys/testing-the-journey.md).
+Saiba mais sobre como testar jornadas no modo de teste em [esta seção](../building-journeys/testing-the-journey.md).
 
-## Simular uma jornada {#simulate-journey}
+### Simular uma jornada {#simulate-journey}
 
 O modo **Simulação** de [!DNL Journey Optimizer] permite validar sua jornada de ponta a ponta usando usuários simulados (entidades temporárias semelhantes a perfis que não persistem no Adobe Experience Platform) sem exigir perfis de teste pré-criados.
 
@@ -108,9 +122,9 @@ Para simular uma jornada usando um canal personalizado:
 >
 >A simulação está disponível para jornadas de rascunho e ativas e usa usuários temporários simulados que não contam para cotas de perfil ou chamadas de endpoint reais.
 
-[Saiba mais sobre a simulação de jornada](../building-journeys/simulate-journey-gs.md)
+Saiba mais sobre a simulação de jornada em [esta seção](../building-journeys/simulate-journey-gs.md).
 
-## Lista de verificação de pré-ativação {#checklist}
+### Lista de verificação de pré-ativação {#checklist}
 
 Antes de ativar sua jornada ou campanha, confirme o seguinte:
 

@@ -8,10 +8,10 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 2d6931387388f6181bd985241184517a74cfee41
+source-git-commit: 7f60cb8e5c7fe9140ee0689d53e12aba7ade3a3b
 workflow-type: tm+mt
-source-wordcount: '2864'
-ht-degree: 8%
+source-wordcount: '2969'
+ht-degree: 7%
 
 ---
 
@@ -233,68 +233,6 @@ As seguintes funcionalidades não são compatíveis no momento:
 1. **Definir Tom**: especifique o tom desejado (amigável, formal, casual, urgente).
 1. **Iterar e Refinar**: use a ação de regeneração para refinar o conteúdo até que ele atenda aos seus requisitos.
 
-## Habilidades de fidelidade {#loyalty-skills}
-
-### Gerenciamento de desafios de fidelidade {#loyalty-challenge-management}
-
->[!AVAILABILITY]
->
->As habilidades de fidelidade estão disponíveis no CX Co-worker para organizações qualificadas. Os clientes com uma licença do programa de fidelidade podem acessar essas habilidades de fidelidade, mesmo que não tenham uma licença adicional do CX Co-worker.
-
-O gerenciamento de desafios de fidelidade permite que os usuários do Journey Optimizer criem e gerenciem desafios de fidelidade no CX Co-worker usando prompts de linguagem natural. Para obter uma documentação abrangente sobre como criar, configurar e gerenciar desafios de fidelidade, incluindo instruções detalhadas de configuração, consulte o [Guia de Desafios de Fidelidade](../loyalty-challenges/get-started.md).
-
-#### Principais casos de uso
-
-1. **Desafio de integração de várias etapas**
-
-   &quot;Crie um desafio chamado &quot;Início Rápido da Nova Conta&quot; para clientes recém-inscritos que exija que eles concluam essas etapas em ordem: abra uma conta corrente, financie-a com pelo menos US$ 500 e baixe o aplicativo móvel. Quando todos os passos estiverem feitos, recompense-os com 5.000 pontos de bônus. Execute-o de 1º de setembro a 31 de outubro, fuso horário do Leste.&quot;
-
-1. **Desafio de limite de atividade cumulativo**
-
-   &quot;Crie um desafio chamado &quot;Spend &amp; Earn Summer&quot; para titulares de cartões, onde os membros ganham um crédito de US$ 50 em demonstrativo quando gastam US$ 1.500 em seu cartão de crédito durante o terceiro trimestre. Comece em 1º de julho, fuso horário do Leste dos EUA.&quot;
-
-1. **Desafio de sequência de frequência**
-
-   &quot;Crie um desafio chamado &quot;Frequent Flyer Sprint&quot; para membros de nível elite que exigem 3 voos por mês por dois meses consecutivos. Conclusão de recompensa com uma extensão de status de nível e 10.000 milhas bônus. Comece no primeiro dia do próximo mês, fuso horário do Pacífico.&quot;
-
-1. **Desafio de ação única qualificada**
-
-   &quot;Configure um desafio chamado &quot;Go Paperless&quot; que premia assinantes pós-pagos com 500 pontos de bônus depois de se inscreverem em pagamento automático e mudarem para cobrança sem papel dentro de 30 dias. Comece no primeiro dia do mês que vem, fuso horário central.&quot;
-
-1. **Desafio da meta de participação/consumo**
-
-   &quot;Crie um desafio chamado &quot;Explorer Badge&quot; para membros que exige que eles concluam cinco atividades em pelo menos três categorias diferentes durante o mês de agosto. Recompense-os com 1.000 pontos e um selo &quot;Explorer&quot; na conclusão. Início em 1º de agosto, Fuso horário das montanhas dos EUA.&quot;
-
-1. **Desafio de ação diário**
-
-   &quot;Ajude-me a criar um desafio para os amantes do matcha que exige que eles entrem na loja todos os dias nesta semana e comprem uma bebida de matcha. A recompensa será de 200 pontos a mais se completarem o desafio. Chame de &quot;Louco sobre Matcha&quot;, use o SKU matcha-001, comece segunda-feira da próxima semana, fuso horário do Leste.&quot;
-
-#### Competências dentro do âmbito
-
-Os seguintes recursos são compatíveis com o Loyalty Challenge Management:
-
-* **Criação de desafio**: criar configuração de desafio a partir da linguagem natural (público-alvo, critérios de ação, tempo, recompensa, nomenclatura).
-* **Atualizações de desafio**: modifique os detalhes do desafio por meio de prompts iterativos.
-* **Publicação de desafio**: publique configurações de desafio com suporte diretamente da conversa.
-* **Visibilidade de contexto de desafio**: recuperar e revisar informações de desafio ao iterar.
-
-#### Habilidades fora do escopo
-
-As seguintes funcionalidades não são compatíveis no momento:
-
-* Exclusão por desafio
-* Insights de fidelidade e habilidades de recomendações
-* Automação completa de criação de conteúdo para mensagens de desafio em todos os casos
-
-#### Solicitação de práticas recomendadas
-
-1. **Nomeie-o**: forneça ao desafio um título claro e memorável entre aspas.
-1. **Especificar o público-alvo**: quem qualifica (por exemplo, todos os membros, um nível, um segmento, novos inscritos, titulares de cartões, assinantes).
-1. **Defina a ação e a quantidade**: o que os membros devem fazer e a frequência, o limite ou a sequência que conta como conclusão.
-1. **Definir a janela de tempo**: uma data inicial (e uma data final, se for de duração fixa) mais o fuso horário.
-1. **Declarar a recompensa**: pontos, milhas, créditos de demonstrativo, extensões de status, vouchers ou vantagens concedidas na conclusão.
-1. **Referenciar o evento de qualificação**: aponte para a SKU, o produto, a ação da conta ou o evento de envolvimento específico que o desafio rastreia.
-
 ### Jornada análise {#journey-analyze}
 
 As Habilidades de Jornada permitirão que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com as Habilidades da Jornada, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e/ou público-alvo, detectar pontos de abandono de usuários em uma jornada e fornecer insights ou recomendações. Ele capacita os profissionais a tomar decisões orientadas por dados, melhorar o envolvimento do cliente e simplificar a orquestração de jornadas.
@@ -362,6 +300,18 @@ O Jornada Analyze oferece uma variedade de funcionalidades que podem ser aprovei
    * &quot;Quantas jornadas ao vivo eu tenho?&quot;
    * &quot;Forneça uma lista de todas as jornadas recorrentes agendadas e seus tempos de execução esperados.&quot;
 
+1. **Análise de Erro de Ação Personalizada de Jornada**
+
+   * Identifique quando as ações personalizadas estão falhando ou quando as taxas de erro aumentam em uma jornada.
+   * Diagnosticar as causas raiz antes que as falhas ocorram em uma interrupção mais ampla da jornada.
+   * Use etapas de correção específicas para restaurar rapidamente a confiabilidade da ação personalizada.
+
+   Exemplos de prompts:
+   * &quot;Por que as ações personalizadas estão falhando na jornada [Nome da Jornada]?&quot;
+   * &quot;Qual é a taxa de erro da ação personalizada [Nome da Ação Personalizada] na jornada [Nome da Jornada]?&quot;
+   * &quot;Mostrar a causa raiz das falhas de ação personalizada na jornada [Nome da Jornada].&quot;
+   * &quot;Há algum erro de ação personalizada afetando a jornada [Nome da Jornada] neste momento?&quot;
+
 #### Competências dentro do âmbito
 
 Os seguintes recursos são compatíveis com o Jornada Analyze:
@@ -369,6 +319,7 @@ Os seguintes recursos são compatíveis com o Jornada Analyze:
 * **Consultas reativas**: permite que usuários façam perguntas específicas sobre o desempenho da jornada, a utilização do público-alvo e conflitos de agendamento.
 * **Integração com outras habilidades**: colabora com os recursos de Audience e Data Insights para uma análise mais profunda.
 * **Estrutura de resposta**: raciocínio (explique a lógica), resumo da análise (destaque os pontos principais), detalhes do problema (descreva o problema) e recomendação (proponha as próximas etapas).
+* **Análise de erro de ação personalizada**: detectar e diagnosticar falhas de ação personalizada e picos de erro em uma jornada.
 
 #### Habilidades fora do escopo
 
@@ -395,19 +346,68 @@ Para maximizar a eficácia do Jornada Analyze, siga estas práticas recomendadas
 * **Monitore regularmente**: agende revisões regulares do desempenho da jornada para identificar tendências e anomalias.
 * **Otimize a segmentação**: mantenha uma segmentação de público-alvo equilibrada para evitar fadiga e maximizar o engajamento.
 
-<!--
-Journey analysis new skills to document:
+## Habilidades de fidelidade {#loyalty-skills}
 
-Journey Custom Action Error Analysis
-- Identify when custom actions are failing or error rates spike within a journey.
-- Diagnose root causes before failures cascade into broader journey disruption.
-- Use specific remediation steps to restore custom action reliability quickly.
+### Gerenciamento de desafios de fidelidade {#loyalty-challenge-management}
 
-Journey Anomaly Detection
-- Detect unexpected spikes or drops in journey sends and exits against historical baselines.
-- Catch send or exit volume issues early, before they affect a large share of your audience.
-- Use the insights to pinpoint the root cause and keep the journey performing as expected.
--->
+>[!AVAILABILITY]
+>
+>As habilidades de fidelidade estão disponíveis no CX Co-worker para organizações qualificadas. Os clientes com uma licença do programa de fidelidade podem acessar essas habilidades de fidelidade, mesmo que não tenham uma licença adicional do CX Co-worker.
+
+O gerenciamento de desafios de fidelidade permite que os usuários do Journey Optimizer criem e gerenciem desafios de fidelidade no CX Co-worker usando prompts de linguagem natural. Para obter uma documentação abrangente sobre como criar, configurar e gerenciar desafios de fidelidade, incluindo instruções detalhadas de configuração, consulte o [Guia de Desafios de Fidelidade](../loyalty-challenges/get-started.md).
+
+#### Principais casos de uso
+
+1. **Desafio de integração de várias etapas**
+
+   &quot;Crie um desafio chamado &quot;Início Rápido da Nova Conta&quot; para clientes recém-inscritos que exija que eles concluam essas etapas em ordem: abra uma conta corrente, financie-a com pelo menos US$ 500 e baixe o aplicativo móvel. Quando todos os passos estiverem feitos, recompense-os com 5.000 pontos de bônus. Execute-o de 1º de setembro a 31 de outubro, fuso horário do Leste.&quot;
+
+1. **Desafio de limite de atividade cumulativo**
+
+   &quot;Crie um desafio chamado &quot;Spend &amp; Earn Summer&quot; para titulares de cartões, onde os membros ganham um crédito de US$ 50 em demonstrativo quando gastam US$ 1.500 em seu cartão de crédito durante o terceiro trimestre. Comece em 1º de julho, fuso horário do Leste dos EUA.&quot;
+
+1. **Desafio de sequência de frequência**
+
+   &quot;Crie um desafio chamado &quot;Frequent Flyer Sprint&quot; para membros de nível elite que exigem 3 voos por mês por dois meses consecutivos. Conclusão de recompensa com uma extensão de status de nível e 10.000 milhas bônus. Comece no primeiro dia do próximo mês, fuso horário do Pacífico.&quot;
+
+1. **Desafio de ação única qualificada**
+
+   &quot;Configure um desafio chamado &quot;Go Paperless&quot; que premia assinantes pós-pagos com 500 pontos de bônus depois de se inscreverem em pagamento automático e mudarem para cobrança sem papel dentro de 30 dias. Comece no primeiro dia do mês que vem, fuso horário central.&quot;
+
+1. **Desafio da meta de participação/consumo**
+
+   &quot;Crie um desafio chamado &quot;Explorer Badge&quot; para membros que exige que eles concluam cinco atividades em pelo menos três categorias diferentes durante o mês de agosto. Recompense-os com 1.000 pontos e um selo &quot;Explorer&quot; na conclusão. Início em 1º de agosto, Fuso horário das montanhas dos EUA.&quot;
+
+1. **Desafio de ação diário**
+
+   &quot;Ajude-me a criar um desafio para os amantes do matcha que exige que eles entrem na loja todos os dias nesta semana e comprem uma bebida de matcha. A recompensa será de 200 pontos a mais se completarem o desafio. Chame de &quot;Louco sobre Matcha&quot;, use o SKU matcha-001, comece segunda-feira da próxima semana, fuso horário do Leste.&quot;
+
+#### Competências dentro do âmbito
+
+Os seguintes recursos são compatíveis com o Loyalty Challenge Management:
+
+* **Criação de desafio**: criar configuração de desafio a partir da linguagem natural (público-alvo, critérios de ação, tempo, recompensa, nomenclatura).
+* **Atualizações de desafio**: modifique os detalhes do desafio por meio de prompts iterativos.
+* **Publicação de desafio**: publique configurações de desafio com suporte diretamente da conversa.
+* **Visibilidade de contexto de desafio**: recuperar e revisar informações de desafio ao iterar.
+
+#### Habilidades fora do escopo
+
+As seguintes funcionalidades não são compatíveis no momento:
+
+* Exclusão por desafio
+* Insights de fidelidade e habilidades de recomendações
+* Automação completa de criação de conteúdo para mensagens de desafio em todos os casos
+
+#### Solicitação de práticas recomendadas
+
+1. **Nomeie-o**: forneça ao desafio um título claro e memorável entre aspas.
+1. **Especificar o público-alvo**: quem qualifica (por exemplo, todos os membros, um nível, um segmento, novos inscritos, titulares de cartões, assinantes).
+1. **Defina a ação e a quantidade**: o que os membros devem fazer e a frequência, o limite ou a sequência que conta como conclusão.
+1. **Definir a janela de tempo**: uma data inicial (e uma data final, se for de duração fixa) mais o fuso horário.
+1. **Declarar a recompensa**: pontos, milhas, créditos de demonstrativo, extensões de status, vouchers ou vantagens concedidas na conclusão.
+1. **Referenciar o evento de qualificação**: aponte para a SKU, o produto, a ação da conta ou o evento de envolvimento específico que o desafio rastreia.
+
 
 <!--
 Feedback from Ivan: Journey simulate is not ready as a skill

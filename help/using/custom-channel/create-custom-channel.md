@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1567'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Para acessar o **Channel Builder** e gerenciar seus canais personalizados, siga 
 
 1. Selecione **[!UICONTROL Canais personalizados]** na seção **[!UICONTROL Construtor de canais]**.
 
-   ![Inventário de canais personalizados](assets/custom_channels_inventory.png){width="70%"}
+   ![Inventário de canais personalizados](assets/custom_channels_inventory.png){width="100%"}
 
 1. O inventário lista todos os canais personalizados em sua sandbox, incluindo o status atual e o tipo de autenticação usado para se conectar ao endpoint externo.
 
@@ -60,7 +60,7 @@ Para acessar o **Channel Builder** e gerenciar seus canais personalizados, siga 
 
 1. Para arquivar um canal, abra-o no inventário e clique em **[!UICONTROL Arquivar]**.
 
-   O arquivamento de um canal ativo o remove de todos os menus suspensos de seleção — seletor de ação de campanha, paleta de ações de jornada, lista de canais de campanhas orquestradas, configurações de canal e modelos de conteúdo. As jornadas e campanhas existentes que já usam o canal continuam a funcionar normalmente.
+   O arquivamento de um canal ativo o remove de todos os menus suspensos de seleção — seletor de ação de campanha, paleta de ações de jornada, configurações de canal <!--orchestrated campaigns channel list,--> e modelos de conteúdo. As jornadas e campanhas existentes que já usam o canal continuam a funcionar normalmente.
 
 ## Criar um canal personalizado {#create-channel}
 
@@ -70,7 +70,7 @@ Para criar um novo canal personalizado, siga as etapas abaixo.
 
    ![Configurações gerais](assets/custom_channel_properties.png){width="70%"}
 
-1. Na seção **[!UICONTROL Propriedades]**, digite um **[!UICONTROL Nome]** para o canal personalizado. Esse nome aparecerá na tela do jornada, no seletor de ações de campanha e na lista de canais de campanhas orquestradas.
+1. Na seção **[!UICONTROL Propriedades]**, digite um **[!UICONTROL Nome]** para o canal personalizado. Este nome aparecerá na tela de jornadas e no seletor de ação de campanha <!--and orchestrated campaigns channel list-->.
 
    >[!NOTE]
    >
@@ -111,7 +111,7 @@ Você deve configurar o endpoint, que é o URL HTTP do seu sistema de mensagens 
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![Configuração de cabeçalhos](assets/custom_channel_endpoint_headers.png){width="70%"}
+   ![Configuração de cabeçalhos](assets/custom_channel_endpoint_headers.png){width="60%"}
 
    Para cada cabeçalho, é possível definir se o valor é:
 
@@ -120,11 +120,11 @@ Você deve configurar o endpoint, que é o URL HTTP do seu sistema de mensagens 
 
 1. Opcionalmente, adicione **[!UICONTROL Parâmetros de consulta]** usando o mesmo padrão de constante/variável. Os parâmetros de consulta são anexados ao URL do endpoint no momento da entrega. Parâmetros constantes são sempre adicionados com o mesmo valor; parâmetros variáveis são resolvidos no momento do envio, por exemplo, para passar um identificador do usuário do perfil.
 
-   ![Parâmetros de consulta](assets/custom_channel_endpoint_query_param.png){width="70%"}
+   ![Parâmetros de consulta](assets/custom_channel_endpoint_query_param.png){width="60%"}
 
 1. Na seção **[!UICONTROL Configuração de política]**, defina como [!DNL Journey Optimizer] lida com a taxa de transferência de solicitação e falhas. Isso é importante para garantir que seu sistema externo possa lidar com o volume de solicitações e evitar sobrecarregá-lo.
 
-   ![Configuração de política](assets/custom_channel_endpoint_policy_config.png)
+   ![Configuração de política](assets/custom_channel_endpoint_policy_config.png){width="70%"}
 
    * **[!UICONTROL Habilitar limitação]** - Desabilitado por padrão. Defina o número máximo de solicitações por segundo (padrão: **5.000c**). Quando o limite é atingido, as solicitações são enfileiradas e enviadas o mais rápido possível.
    * **[!UICONTROL Habilitar nova tentativa]** - Habilitado por padrão. Defina a contagem máxima de novas tentativas (padrão: **3**, intervalo configurável: 0-10) para solicitações com falha. Isso ajuda a evitar sobrecarregar o endpoint durante falhas transitórias.

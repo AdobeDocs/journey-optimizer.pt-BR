@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: d2b2142bf3c69acff998dffc9a3dbbf958b4adb1
 workflow-type: tm+mt
 source-wordcount: 2835
 ht-degree: 3%
@@ -262,7 +262,7 @@ Para o Infobip, crie dois webhooks separados: um para eventos de Feedback e outr
 
    +++ Personalizado
 
-   * Configure uma única palavra-chave personalizada. Quando a mensagem de um usuário corresponde a esta palavra-chave, ela é gravada no conjunto de dados **[!UICONTROL Acompanhamento de feedback]** da mensagem para criação de relatórios e público-alvo.
+   * Configure uma única palavra-chave personalizada. Quando a mensagem de um usuário corresponde a esta palavra-chave, ela é gravada no conjunto de dados **[!UICONTROL Rastreamento de email do AJO]** para criação de relatórios e público-alvo.
 
    * Crie um Público (streaming ou lote) que faça referência a essa palavra-chave para uso em suas jornadas e campanhas.
 

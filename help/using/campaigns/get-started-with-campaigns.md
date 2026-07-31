@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 1697
 ht-degree: 95%
@@ -210,11 +210,11 @@ Antes de trabalhar com campanhas, certifique-se de que possui o seguinte:
 
   +++Como atribuir permissões de campanha
 
-   1. Navegue até a guia **[!UICONTROL Funções]** no produto [!DNL Permissions] e selecione uma das **[!UICONTROL Funções]** integradas relacionadas à campanha.
+  1. Navegue até a guia **[!UICONTROL Funções]** no produto [!DNL Permissions] e selecione uma das **[!UICONTROL Funções]** integradas relacionadas à campanha.
 
-   1. Na guia **[!UICONTROL Usuários]**, clique em **[!UICONTROL Adicionar usuário]**.
+  1. Na guia **[!UICONTROL Usuários]**, clique em **[!UICONTROL Adicionar usuário]**.
 
-   1. Digite o nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
+  1. Digite o nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
 
   Se o usuário não foi criado anteriormente, consulte a [documentação Adicionar usuários](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/users){target="_blank"}.
 
@@ -246,7 +246,7 @@ Configure a base da campanha:
 2. **Selecione o tipo de campanha** (Ação, acionada por API ou Orquestrada)
 3. **Escolha o público-alvo**
 4. **Defina a prioridade** se estiver usando o gerenciamento de conflitos
-5. **Configurar agendamento** (para campanhas de ação) ou detalhes da API (para campanhas acionadas por API). Para campanhas de ação, você também pode [enviar em ondas](send-using-waves.md) para entregar a mensagem em lotes ao longo do tempo.
+5. **Configurar agendamento** (para campanhas de ação) ou detalhes da API (para campanhas acionadas por API). Para campanhas de ação, você também pode [enviar em ondas](../delivery/send-using-waves.md) para entregar a mensagem em lotes ao longo do tempo.
 
 **Guias específicos de tipo:** [Propriedades da campanha de ação](campaign-properties.md) | [Propriedades da campanha acionada por API](api-triggered-campaign-properties.md) | [Configuração da campanha orquestrada](../orchestrated/create-orchestrated-campaign.md)
 
