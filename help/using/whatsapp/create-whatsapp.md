@@ -9,23 +9,15 @@ role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 TQID: https://experienceleague.adobe.com/fio2Etyk9FdkyTiHwRMkadrJ4bbsFz7--KvzQvUQrbc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 6e13f186799c120eaf674fda2d722572af8e0149
 workflow-type: tm+mt
-source-wordcount: 1162
+source-wordcount: 1212
 ht-degree: 11%
 
 ---
@@ -171,6 +163,10 @@ Observe que seu modelo do WhatsApp deve ser aprovado primeiro pelo Meta antes de
 
    ![](assets/whatsapp-design-2.png)
 
+   >[!NOTE]
+   >
+   >Você pode selecionar um modelo de **Fluxo do WhatsApp** para fornecer experiências interativas em várias telas, como pesquisas ou formulários de captura de clientes potenciais, diretamente na conversa no WhatsApp. Todas as respostas de entrada do WhatsApp, incluindo as enviadas por meio de modelos de fluxo do WhatsApp, são capturadas no _Conjunto de dados de eventos de rastreamento de canais do AJO_. [Saiba mais sobre conjuntos de dados do sistema](../data/get-started-datasets.md#system-datasets).
+
 1. No campo **[!UICONTROL URL da imagem]**, adicione URLs de mídia para substituir quaisquer espaços reservados no modelo. As mídias de modelo do Meta são apenas espaços reservados. Para exibir imagens, áudio ou vídeo corretamente, você deve usar URLs externos do Adobe Experience Manager ou de outras fontes.
 
    ![](assets/whatsapp-design-3.png)
@@ -232,6 +228,6 @@ O vídeo abaixo mostra como criar uma jornada do WhatsApp em várias etapas usan
 
 +++ Ver vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470287/?captions=por_br&learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++
