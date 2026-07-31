@@ -104,7 +104,7 @@ Além disso, a última experiência selecionada (antiga ou nova) agora é lembra
 
 >[!TIP]
 >
->Para obter uma orientação passo a passo sobre como desconectar e reingressar em nós na tela do jornada, consulte este [artigo da comunidade Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908){target="_blank"}.
+>Para obter uma orientação passo a passo sobre como desconectar e reingressar em nós na tela do jornada, consulte este [artigo da comunidade Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=pt){target="_blank"}.
 
 Assista a este vídeo para obter uma visão geral da nova experiência da tela de jornada:
 
