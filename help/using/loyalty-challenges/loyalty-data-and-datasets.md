@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: 565
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 Os desafios de fidelidade dependem da Adobe Experience Platform para identidade, atributos de perfil, eventos de experiência e públicos. Use esta página para saber quais dados devem ser preparados, quais conjuntos de dados estão envolvidos e como o **TTL (time-to-live)** afeta a retenção antes de criar desafios ou usar as APIs de desafios de fidelidade.
 
-Entre em contato com o administrador do Adobe para obter a configuração do programa do Journey Optimizer ou configure o preenchimento de premiação e o mapeamento de eventos no menu **[!UICONTROL Configurações de fidelidade]**. [Saiba como configurar desafios de fidelidade](loyalty-admin.md). Para obter pontos de extremidade e autenticação REST, consulte a [Referência da API de desafios de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}.
+Entre em contato com o administrador do Adobe para obter a configuração do programa do Journey Optimizer ou configure o preenchimento de premiação e o mapeamento de eventos no menu **[!UICONTROL Configurações de fidelidade]**. [Saiba como configurar desafios de fidelidade](loyalty-admin.md). Para pontos de extremidade e autenticação REST, consulte a [Referência da API de metadados do desafio de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"} e a [Referência da API de estado do desafio de fidelidade](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges-state){target="_blank"}.
 
 ## Conectores de fidelidade por meio de origens {#loyalty-connectors-sources}
 
@@ -51,7 +51,7 @@ Para atributos de fidelidade padrão no perfil (pontos, camada, programa, status
 
 ### Eventos de experiência {#experience-events}
 
-As tarefas **[!UICONTROL Comprar]**, **[!UICONTROL Gastar]** e **[!UICONTROL Evento personalizado]** dependem dos eventos de experiência assimilados na Adobe Experience Platform. Para tarefas de **[!UICONTROL Evento personalizado]**, as definições de evento correspondentes (caminho do identificador, ID do esquema XDM opcional, esquema e transformador) devem ser configuradas no menu **[!UICONTROL Configurações de fidelidade]** para que os profissionais de marketing possam inserir valores de evento personalizados no construtor de tarefas. [Saiba como configurar definições de evento](loyalty-admin.md#event-definitions)
+As tarefas **[!UICONTROL Comprar]**, **[!UICONTROL Gastar]** e **[!UICONTROL Evento personalizado]** dependem dos eventos de experiência assimilados na Adobe Experience Platform. Para tarefas **[!UICONTROL Custom event]**, as definições de evento correspondentes (caminho do identificador, ID do esquema XDM, esquema e transformador) devem ser configuradas no menu **[!UICONTROL Configurações de fidelidade]** para que os profissionais de marketing possam inserir valores de evento personalizados no construtor de tarefas. [Saiba como configurar definições de evento](loyalty-admin.md#event-definitions)
 
 Certifique-se de que as cargas do evento usem o mesmo namespace de identidade da configuração de Desafios de fidelidade para que o progresso possa ser atribuído ao perfil correto.
 

@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
+source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3488'
 ht-degree: 93%
 
 ---
@@ -163,6 +163,7 @@ ht-degree: 93%
     + [Guia do Transformador de eventos](using/loyalty-challenges/event-transformer-guide.md)
     + [Permissões para desafios de fidelidade](using/loyalty-challenges/loyalty-permissions.md)
     + [Dados e conjuntos de dados de fidelidade](using/loyalty-challenges/loyalty-data-and-datasets.md)
+    + [APIs de desafios de fidelidade](using/loyalty-challenges/loyalty-challenges-api.md)
 + Campanhas {#campaigns}
   + {hide-from-toc}[Campanhas](/help/rp_landing_pages/campaigns-landing-page.md)
   + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)

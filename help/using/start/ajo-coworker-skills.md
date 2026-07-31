@@ -7,10 +7,11 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 8400f5603934b6f9dfe9fe9df00aa5eb0736f847
+mini-toc-levels: 2
+source-git-commit: 2d6931387388f6181bd985241184517a74cfee41
 workflow-type: tm+mt
-source-wordcount: '2860'
-ht-degree: 7%
+source-wordcount: '2864'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 7%
 
 ## Visão geral {#overview}
 
-O CX Co-worker traz recursos alimentados por IA para a Adobe Journey Optimizer. O [CX Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home){target="_blank"} é a experiência de conversação da Adobe que se integra aos seus aplicativos de negócios para ajudá-lo a trabalhar com mais eficiência.
+O CX Co-worker traz recursos alimentados por IA para a Adobe Journey Optimizer. O [CX Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home){target="_blank"} é a experiência de conversação da Adobe que se integra aos seus aplicativos de negócios para ajudá-lo a trabalhar com mais eficiência.
 
 Com suas habilidades alimentadas por IA, o CX Co-worker permite que os usuários do Journey Optimizer criem, analisem e otimizem jornadas de marketing usando uma interface de linguagem natural. Com as Habilidades da Jornada, os profissionais podem criar jornadas rapidamente, detectar e resolver conflitos de agendamento ou público-alvo, analisar o desempenho e os pontos de queda e identificar jornadas de melhor desempenho a serem replicadas para campanhas futuras. Ele capacita os profissionais a tomar decisões orientadas por dados, melhorar o envolvimento do cliente e simplificar a orquestração de jornadas.
 
@@ -51,7 +52,9 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * Quick simulation
 -->
 
-## Criar jornada
+## Habilidades de jornada {#journey-skills}
+
+### Criar jornada {#journey-create}
 
 A Criação de jornadas permite que os usuários do Journey Optimizer criem e configurem jornadas de marketing usando uma interface de linguagem natural. Com a Criação de Jornadas, os profissionais podem criar jornadas rapidamente descrevendo seus requisitos em prompts de conversação. A habilidade orienta os usuários sobre as diferentes opções para criar uma jornada, permitindo que os profissionais de marketing se concentrem na estratégia em vez de na configuração técnica.
 
@@ -67,7 +70,7 @@ A Criação de jornadas permite que os usuários do Journey Optimizer criem e co
 >
 >**Gerenciar segmentos**: essa permissão permite que você crie novos públicos diretamente no CX Co-worker.
 
-### Principais casos de uso
+#### Principais casos de uso
 
 O Jornada Create oferece recursos que podem ser aproveitados para acelerar a execução de marketing:
 
@@ -119,7 +122,7 @@ O Jornada Create oferece recursos que podem ser aproveitados para acelerar a exe
 
 Com essa habilidade, os requisitos de idioma natural são traduzidos em configurações de jornada estruturadas.
 
-### Competências dentro do âmbito
+#### Competências dentro do âmbito
 
 Os seguintes recursos são compatíveis com a Criação de Jornada:
 
@@ -129,7 +132,7 @@ Os seguintes recursos são compatíveis com a Criação de Jornada:
 * **Mensagens multicanais**: oferece suporte a notificações por push, email e canais SMS.
 * **Agendamento de Jornada**: configura datas de início e tempo para jornadas agendadas.
 
-### Habilidades fora do escopo
+#### Habilidades fora do escopo
 
 As seguintes funcionalidades não são compatíveis no momento:
 
@@ -144,7 +147,7 @@ As seguintes funcionalidades não são compatíveis no momento:
 * Mapeamento de campo de ação personalizada
 * Transformações de dados complexas
 
-### Solicitação de práticas recomendadas
+#### Solicitação de práticas recomendadas
 
 Para maximizar a eficácia da Criação de Jornadas, siga estas práticas recomendadas:
 
@@ -157,14 +160,14 @@ Para maximizar a eficácia da Criação de Jornadas, siga estas práticas recome
 Quando um usuário entrar no meu local de armazenamento, envie uma mensagem de boas-vindas usando a ação personalizada ExternalPush. Aguarde 2 dias e envie uma mensagem de acompanhamento usando a ação personalizada ExternalEmail com uma pesquisa em sua visita.
 1. **Validar expressões**: verifique e valide todas as expressões criadas pelas Habilidades do Jornada para garantir que os campos e valores corretos sejam usados.
 
-### Configurar práticas recomendadas
+#### Configurar práticas recomendadas
 
 * **Definir objetivos claros**: antes de criar jornadas, estabeleça metas claras (melhorar a retenção, gerar conversões, aumentar o engajamento).
 * **Preparar públicos-alvo**: verifique se os públicos-alvo já foram criados e segmentados corretamente.
 * **Conteúdo da Mensagem do Plano**: Defina sua estratégia de mensagens antes da criação da jornada.
 * **Considere a Experiência do Cliente**: crie fluxos de jornada que respeitem as preferências do cliente e evitem a comunicação excessiva.
 
-## Criação de conteúdo do canal
+### Criação de conteúdo do canal {#channel-content-create}
 
 <!--Ivan : Need to speak with Amar on new options for content generation as this skill has changed. -->
 
@@ -174,7 +177,7 @@ Quando um usuário entrar no meu local de armazenamento, envie uma mensagem de b
 
 A Criação de conteúdo de canal permite que os usuários do Journey Optimizer gerem, editem e gerenciem conteúdo específico de canal para jornada usando a geração de conteúdo habilitada por IA.
 
-### Principais casos de uso
+#### Principais casos de uso
 
 1. **Geração de conteúdo específico do canal**: gere conteúdo para email, notificações por push, SMS e outros canais usando prompts de linguagem natural.
 
@@ -204,7 +207,7 @@ A Criação de conteúdo de canal permite que os usuários do Journey Optimizer 
 
 1. **Integração com a tela do Jornada**: selecione jornadas no inventário e exiba canais associados.
 
-### Competências dentro do âmbito
+#### Competências dentro do âmbito
 
 Os seguintes recursos são compatíveis com a Criação de conteúdo de canal:
 
@@ -215,7 +218,7 @@ Os seguintes recursos são compatíveis com a Criação de conteúdo de canal:
 * **Suporte a vários canais**: gere e gerencie conteúdo para vários canais no mesmo fluxo de trabalho do jornada.
 * **Acesso ao inventário da Jornada**: selecione jornadas no inventário e exiba canais associados.
 
-### Habilidades fora do escopo
+#### Habilidades fora do escopo
 
 As seguintes funcionalidades não são compatíveis no momento:
 
@@ -223,14 +226,16 @@ As seguintes funcionalidades não são compatíveis no momento:
 * **Insira nós de conteúdo diretamente na tela de jornada**
 * **Importação de modelo**
 
-### Solicitação de práticas recomendadas
+#### Solicitação de práticas recomendadas
 
 1. **Seja específico**: forneça detalhes claros sobre o tipo de conteúdo, o tom, o público-alvo e as principais mensagens.
 1. **Especificar Canal**: indique claramente para qual canal você está criando conteúdo (email, push, SMS).
 1. **Definir Tom**: especifique o tom desejado (amigável, formal, casual, urgente).
 1. **Iterar e Refinar**: use a ação de regeneração para refinar o conteúdo até que ele atenda aos seus requisitos.
 
-## Gerenciamento de desafios de fidelidade
+## Habilidades de fidelidade {#loyalty-skills}
+
+### Gerenciamento de desafios de fidelidade {#loyalty-challenge-management}
 
 >[!AVAILABILITY]
 >
@@ -238,7 +243,7 @@ As seguintes funcionalidades não são compatíveis no momento:
 
 O gerenciamento de desafios de fidelidade permite que os usuários do Journey Optimizer criem e gerenciem desafios de fidelidade no CX Co-worker usando prompts de linguagem natural. Para obter uma documentação abrangente sobre como criar, configurar e gerenciar desafios de fidelidade, incluindo instruções detalhadas de configuração, consulte o [Guia de Desafios de Fidelidade](../loyalty-challenges/get-started.md).
 
-### Principais casos de uso
+#### Principais casos de uso
 
 1. **Desafio de integração de várias etapas**
 
@@ -264,7 +269,7 @@ O gerenciamento de desafios de fidelidade permite que os usuários do Journey Op
 
    &quot;Ajude-me a criar um desafio para os amantes do matcha que exige que eles entrem na loja todos os dias nesta semana e comprem uma bebida de matcha. A recompensa será de 200 pontos a mais se completarem o desafio. Chame de &quot;Louco sobre Matcha&quot;, use o SKU matcha-001, comece segunda-feira da próxima semana, fuso horário do Leste.&quot;
 
-### Competências dentro do âmbito
+#### Competências dentro do âmbito
 
 Os seguintes recursos são compatíveis com o Loyalty Challenge Management:
 
@@ -273,7 +278,7 @@ Os seguintes recursos são compatíveis com o Loyalty Challenge Management:
 * **Publicação de desafio**: publique configurações de desafio com suporte diretamente da conversa.
 * **Visibilidade de contexto de desafio**: recuperar e revisar informações de desafio ao iterar.
 
-### Habilidades fora do escopo
+#### Habilidades fora do escopo
 
 As seguintes funcionalidades não são compatíveis no momento:
 
@@ -281,7 +286,7 @@ As seguintes funcionalidades não são compatíveis no momento:
 * Insights de fidelidade e habilidades de recomendações
 * Automação completa de criação de conteúdo para mensagens de desafio em todos os casos
 
-### Solicitação de práticas recomendadas
+#### Solicitação de práticas recomendadas
 
 1. **Nomeie-o**: forneça ao desafio um título claro e memorável entre aspas.
 1. **Especificar o público-alvo**: quem qualifica (por exemplo, todos os membros, um nível, um segmento, novos inscritos, titulares de cartões, assinantes).
@@ -290,7 +295,7 @@ As seguintes funcionalidades não são compatíveis no momento:
 1. **Declarar a recompensa**: pontos, milhas, créditos de demonstrativo, extensões de status, vouchers ou vantagens concedidas na conclusão.
 1. **Referenciar o evento de qualificação**: aponte para a SKU, o produto, a ação da conta ou o evento de envolvimento específico que o desafio rastreia.
 
-## Jornada análise
+### Jornada análise {#journey-analyze}
 
 As Habilidades de Jornada permitirão que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com as Habilidades da Jornada, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e/ou público-alvo, detectar pontos de abandono de usuários em uma jornada e fornecer insights ou recomendações. Ele capacita os profissionais a tomar decisões orientadas por dados, melhorar o envolvimento do cliente e simplificar a orquestração de jornadas.
 
@@ -306,7 +311,7 @@ As Habilidades de Jornada permitirão que os usuários do Journey Optimizer anal
 >
 >**Gerenciar segmentos**: essa permissão permite que você crie novos públicos diretamente no CX Co-worker.
 
-### Principais casos de uso
+#### Principais casos de uso
 
 O Jornada Analyze oferece uma variedade de funcionalidades que podem ser aproveitadas para otimizar esforços de marketing:
 
@@ -357,7 +362,7 @@ O Jornada Analyze oferece uma variedade de funcionalidades que podem ser aprovei
    * &quot;Quantas jornadas ao vivo eu tenho?&quot;
    * &quot;Forneça uma lista de todas as jornadas recorrentes agendadas e seus tempos de execução esperados.&quot;
 
-## Habilidades dentro do escopo
+#### Competências dentro do âmbito
 
 Os seguintes recursos são compatíveis com o Jornada Analyze:
 
@@ -365,7 +370,7 @@ Os seguintes recursos são compatíveis com o Jornada Analyze:
 * **Integração com outras habilidades**: colabora com os recursos de Audience e Data Insights para uma análise mais profunda.
 * **Estrutura de resposta**: raciocínio (explique a lógica), resumo da análise (destaque os pontos principais), detalhes do problema (descreva o problema) e recomendação (proponha as próximas etapas).
 
-### Competências fora do âmbito
+#### Habilidades fora do escopo
 
 As seguintes funcionalidades não são compatíveis no momento:
 
@@ -376,7 +381,7 @@ As seguintes funcionalidades não são compatíveis no momento:
 * **Análise de problemas técnicos**
 * **Análise de fadiga**
 
-### Práticas recomendadas de criação de prompts
+#### Solicitação de práticas recomendadas
 
 Para maximizar a eficácia do Jornada Analyze, siga estas práticas recomendadas:
 
@@ -384,7 +389,7 @@ Para maximizar a eficácia do Jornada Analyze, siga estas práticas recomendadas
 1. **Combinar insights**: integre insights dos recursos de Audience e Data Insights para obter uma visão holística do desempenho da jornada.
 1. **Refinamento iterativo**: use as análises de fallout e de sobreposição para refinar continuamente o design e o agendamento da jornada.
 
-### Práticas recomendadas de configuração
+#### Configurar práticas recomendadas
 
 * **Defina objetivos claros**: antes de analisar as jornadas, estabeleça metas claras (por exemplo: melhorar a retenção, aumentar as conversões).
 * **Monitore regularmente**: agende revisões regulares do desempenho da jornada para identificar tendências e anomalias.

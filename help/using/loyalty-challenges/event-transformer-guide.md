@@ -11,9 +11,9 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
 workflow-type: tm+mt
-source-wordcount: 1708
+source-wordcount: 1705
 ht-degree: 1%
 
 ---
@@ -116,7 +116,7 @@ Toda definição de evento deve produzir um objeto JSON no formato a seguir. Ess
 | `guid` | String | Não (atribuído pelo sistema) | ID exclusiva atribuída pelo sistema; somente leitura. |
 | `name` | String | **Sim** | Rótulo legível, ex.: `"Starbucks POS Purchase"`. |
 | `xdmSchemaId` | String | **Sim** | Corresponde eventos por ID de esquema XDM (consulte Como a correspondência funciona). |
-| `schema` | String | Não | [Esquema JSON](https://json-schema.org/) (como uma cadeia de caracteres) para validar eventos de entrada. |
+| `schema` | String | **Sim** | [Esquema JSON](https://json-schema.org/) (como uma cadeia de caracteres) para validar eventos de entrada. |
 | `transformer` | String | **Sim** | Expressão JSONata que mapeia o evento para o formato Fidelidade. |
 
 ## Como a correspondência funciona
@@ -461,9 +461,9 @@ Uma tarefa de desafio com `include: ["BEVERAGE"]` veria o item de linha de café
 
 +++
 
-## Adicionar validação do esquema JSON (opcional)
+## Adição da validação do esquema JSON
 
-Se você quiser que a plataforma valide a estrutura de eventos de entrada antes de tentar a transformação, defina o campo `schema` como um documento de [Esquema JSON](https://json-schema.org/draft-04) codificado como uma sequência de caracteres JSON.
+O campo `schema` é obrigatório. Defina-o como um documento [Esquema JSON](https://json-schema.org/draft-04) codificado como uma sequência JSON para validar a estrutura de eventos de entrada antes da execução da transformação.
 
 Eventos que falham na validação do esquema são rejeitados antes da execução da transformação. A resposta do erro inclui a falha de validação específica, facilitando o diagnóstico de eventos upstream malformados.
 
