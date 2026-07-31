@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Quando um canal personalizado é criado com um tipo de autenticação diferente 
 
 Você pode exibir, gerenciar e editar credenciais em **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Construtor de canais]** > **[!UICONTROL Credenciais de API]**.
 
-![Credenciais da API](assets/custom_channel_api_credentials.png){width="100%"}
+![Credenciais da API](assets/custom_channel_api_credentials.png){width="90%"}
 
 Ter várias credenciais para o mesmo canal permite anexar diferentes valores de autenticação a diferentes configurações de canal, por exemplo, para diferentes marcas ou casos de uso, sem duplicar a definição do canal.
 
@@ -38,7 +38,7 @@ Para criar credenciais adicionais para o mesmo canal, siga as etapas abaixo.
 
 1. Forneça um nome e uma descrição.
 
-   ![Criar credenciais de API](assets/custom_channel_create_api_credentials.png){width="100%"}
+   ![Criar credenciais de API](assets/custom_channel_create_api_credentials.png){width="80%"}
 
 1. Selecione o **[!UICONTROL Canal]** para o qual você está criando credenciais.
 

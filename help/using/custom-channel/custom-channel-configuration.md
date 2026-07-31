@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 9c718d6eb3fcac0b30111f12f500dc5fb270b357
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '359'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Para criar uma configuração de canal para um canal personalizado, siga as etap
 
 1. Na lista suspensa **[!UICONTROL Selecionar canal]**, selecione um dos canais personalizados ativados.
 
-   ![Selecionar canal](assets/custom_channel_select_channel.png){width="100%"}
+   <!--![Select channel](assets/custom_channel_select_channel.png){width="100%"}-->
 
 1. Se o canal selecionado usar autenticação (o tipo não é **Nenhum**), o campo **[!UICONTROL Credenciais de API]** será exibido. Selecione as credenciais a serem usadas para esta configuração. [Saiba mais sobre credenciais de API](custom-channel-api-credentials.md)
 
@@ -42,11 +42,11 @@ Para criar uma configuração de canal para um canal personalizado, siga as etap
 
    Insira o valor para cada parâmetro. Você pode usar o editor de personalização para inserir valores dinâmicos (por exemplo, um identificador de usuário resolvido no perfil). Isso permite personalizar a solicitação do para cada recipient com base nos dados de perfil.
 
-   ![Parâmetros dinâmicos](assets/custom_channel_config_dynamic_parameters.png){width="100%"}
+   ![Parâmetros dinâmicos](assets/custom_channel_config_dynamic_parameters.png){width="70%"}
 
 1. Se o canal personalizado tiver campos de conteúdo com a caixa de seleção **[!UICONTROL Configuração de canal]** habilitada, esses campos aparecerão na seção **[!UICONTROL Configuração de carga]**. [Saiba mais](create-custom-channel.md#payload-configuration)
 
-   ![Campos de carga](assets/custom_channel_config_payload.png){width="100%"}
+   ![Campos de carga](assets/custom_channel_config_payload.png){width="70%"}
 
    Configure um valor para cada campo, conforme apropriado para essa configuração. Isso é útil para campos que podem variar com base no contexto da campanha ou jornada, como informações do remetente ou modelos de mensagem.
 

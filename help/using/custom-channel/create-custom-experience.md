@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1006'
 ht-degree: 5%
 
 ---
@@ -193,7 +193,7 @@ Para incluir um link rastreado na carga do canal personalizado, de modo que os c
 >
 >O rastreamento de link requer um subdomínio configurado para canais personalizados. [Saiba como delegar um subdomínio para canais personalizados](custom-channel-subdomains.md#subdomain-delegation)
 
-**Exemplo - link rastreado em uma carga do Viber:**
+**Exemplo - link rastreado em uma carga:**
 
 ```json
 {
@@ -222,9 +222,9 @@ The editor supports a **[!UICONTROL Strict JSON]** toggle:
 
 >[!IMPORTANT]
 >
->Visualize e teste sua carga útil do canal personalizado antes da ativação. [Saiba como](test-custom-channel.md)
+>Visualize e teste sua carga útil do canal personalizado antes da ativação. [Saiba como](test-custom-channel.md#preview-test)
 >
 >Se sua campanha ou jornada estiver sujeita a uma política de aprovação, será necessário solicitar aprovação antes da ativação. [Saiba mais](../test-approve/gs-approval.md)
 
-* **De uma jornada** - Clique em **[!UICONTROL Publicar]** na área superior direita. A jornada entra em vigor e começa a chamar seu endpoint externo para perfis qualificados.
-* **De uma campanha** - Clique em **[!UICONTROL Revisar para ativar]**, revise suas configurações e clique em **[!UICONTROL Ativar]**. A campanha assume o status **[!UICONTROL Online]** (ou **[!UICONTROL Agendada]** se uma data de início futura tiver sido definida).
+* **De uma jornada** - Clique em **[!UICONTROL Publicar]** na área superior direita. A jornada entra em vigor e começa a chamar seu endpoint externo para perfis qualificados. Saiba mais sobre [publicação de jornadas](../building-journeys/journey-gs.md#publish-journey).
+* **De uma campanha** - Clique em **[!UICONTROL Revisar para ativar]**, revise suas configurações e clique em **[!UICONTROL Ativar]**. A campanha assume o status **[!UICONTROL Online]** (ou **[!UICONTROL Agendada]** se uma data de início futura tiver sido definida). Saiba mais sobre [como ativar campanhas](../campaigns/create-campaign.md#review-activate).
