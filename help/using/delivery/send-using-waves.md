@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondas, lotes, programação, jornada, campanha, orquestrado, entregabilidade
-source-git-commit: 44df4ecd4743a3ebe0884a34149dda58c5b4c841
+source-git-commit: 19f34fc38ae8325f077149067584183cdcd353bd
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -290,4 +290,3 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **P: O público-alvo foi reavaliado por onda?** — Não; o público-alvo é capturado na ativação. Os atributos do perfil (personalização, consentimento) são lidos no tempo de processamento da onda.
 
 +++
-
