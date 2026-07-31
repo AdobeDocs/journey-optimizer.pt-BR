@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: a8927f55a10a60111fc2f5db68b3a34329d1cc35
+source-git-commit: 4ef6a978cf22596e9827442687d36a67955d86df
 workflow-type: tm+mt
-source-wordcount: '3492'
+source-wordcount: '3489'
 ht-degree: 93%
 
 ---
@@ -69,7 +69,6 @@ ht-degree: 93%
     + [Criar uma jornada](/help/rp_landing_pages/create-journey-landing-page.md)
     + [Crie a primeira jornada](using/building-journeys/journey-gs.md)
     + [Definir as propriedades da jornada](using/building-journeys/journey-properties.md)
-    + [Enviar usando ondas em jornadas](using/building-journeys/send-using-waves.md)
     + [Configurar e rastrear as métricas da jornada](using/building-journeys/success-metrics.md)
     + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
     + Simulação {#simulate-journey}
@@ -88,8 +87,6 @@ ht-degree: 93%
     + [Usar identificadores complementares em jornadas](using/building-journeys/supplemental-identifier.md)
     + [Trabalhar com eventos de etapa da jornada](using/reports/journey-step-events-overview.md)
     + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
-    + [Otimização de tempo de envio](using/building-journeys/send-time-optimization.md)
-    + [Otimização de canal](using/building-journeys/channel-optimization.md)
     + [Encerrar sua jornada](using/building-journeys/end-journey.md)
   + Atividades {#about-journey-building}
     + [Atividades](/help/rp_landing_pages/about-journey-building-landing-page.md)
@@ -176,7 +173,6 @@ ht-degree: 93%
     + [Editar o conteúdo da campanha](using/campaigns/campaign-content.md)
     + [Definir o público-alvo da campanha](using/campaigns/campaign-audience.md)
     + [Agendar a campanha](using/campaigns/campaign-schedule.md)
-    + [Enviar usando ondas](using/campaigns/send-using-waves.md)
     + [Revisar e ativar uma campanha de ações](using/campaigns/review-activate-campaign.md)
   + Campanhas acionadas por API {#api-triggered-campaigns}
     + [Campanhas acionadas por API](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
@@ -259,6 +255,10 @@ ht-degree: 93%
   + Arbitragem de jornada {#journey-arbitration}
     + [Usar fórmulas para classificar jornadas](using/conflict-prioritization/journey-ranking-formulas.md)
     + [Usar modelos de IA para classificar jornadas](using/conflict-prioritization/journey-ai-models.md)
++ Configurações de entrega {#delivery-settings}
+  + [Envio usando ondas](using/delivery/send-using-waves.md)
+  + [Otimização de tempo de envio](using/building-journeys/send-time-optimization.md)
+  + [Otimização de canal](using/building-journeys/channel-optimization.md)
 + Testar e aprovar {#test}
   + [Testar, validar e aprovar](/help/rp_landing_pages/test-landing-page.md)
   + Visualizar e testar conteúdo {#preview-test}

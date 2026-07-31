@@ -11,26 +11,15 @@ keywords: send-time, send, message, otimization, jornada, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: de0a0b4884588c7a03b5d40f424ae2fafffe9243
 workflow-type: tm+mt
-source-wordcount: 2316
+source-wordcount: 2298
 ht-degree: 6%
 
 ---
@@ -58,9 +47,11 @@ ht-degree: 6%
 >title="Ativar otimização da hora de envio"
 >abstract="O padrão das mensagens por push é a opção de abertura, pois cliques não são aplicáveis para mensagens por push. Os horários de envio utilizados pelo sistema também podem ser delimitados por um valor definido para Envio na próxima opção."
 
-O recurso de Otimização de hora de envio do [!DNL Adobe Journey Optimizer], viabilizado pelos serviços de IA de Jornada da Adobe, escolhe o tempo de envio ideal para mensagens de email e push para maximizar a participação do cliente, com base no histórico do comportamento de abertura e de cliques dos clientes.
+>[!NOTE]
+>
+>A Otimização de tempo de envio só está disponível para ações de Email e Push integradas no jornada. No momento, ela não está disponível para mensagens enviadas por meio de campanhas ou para mensagens enviadas por meio de ações personalizadas ou para outros tipos de ação.
 
-A Otimização de tempo de envio está disponível apenas para os tipos de ação de Email e Push integrados da Journey Optimizer e não está disponível no momento para mensagens enviadas por meio de ações personalizadas ou para outros tipos de ação. A Otimização de tempo de envio só está disponível para ações de Email e Push no Jornada e não está disponível no momento para mensagens enviadas por meio de Campanhas.
+O recurso de Otimização de hora de envio do [!DNL Adobe Journey Optimizer], viabilizado pelos serviços de IA de Jornada da Adobe, escolhe o tempo de envio ideal para mensagens de email e push para maximizar a participação do cliente, com base no histórico do comportamento de abertura e de cliques dos clientes.
 
 >[!AVAILABILITY]
 >

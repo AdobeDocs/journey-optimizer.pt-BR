@@ -5,26 +5,16 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 TQID: https://experienceleague.adobe.com/vx-CmsYwj7QyN2sVMrpJ9VUNDgnXq8qt1nT9lHOFV3s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
-workflow-type: ht
-source-wordcount: 896
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: f3fe4813-f254-4f8f-99cc-24bd67f119e1id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: de0a0b4884588c7a03b5d40f424ae2fafffe9243
+workflow-type: tm+mt
+source-wordcount: 917
+ht-degree: 97%
 
 ---
 
@@ -94,5 +84,6 @@ Os conjuntos de regras permitem que você **agrupe várias regras** e as aplique
 * **[Limite de jornada e arbitragem](journey-capping.md)**: configure regras de limite e arbitragem em nível de jornada.
 * **[Limitação de frequência por canal](channel-capping.md)**: defina limites de frequência no nível do canal para evitar o excesso de mensagens.
 * **[Definir horário de silêncio](quiet-hours.md)**: defina exclusões baseadas em tempo para entrega de mensagens.
+* **[Classificar jornadas usando fórmulas](journey-ranking-formulas.md) e [modelos de IA](journey-ai-models.md)** - Saiba como criar fórmulas e modelos de IA para classificar jornadas quando limites são aplicados.
 * **[Tutoriais de gestão de conflitos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}**: tutoriais em vídeo passo a passo.
 * **[Casos de uso do Journey Optimizer](../building-journeys/jo-use-cases.md)**: procure padrões práticos, incluindo limite de frequência e lógica de supressão de jornada.

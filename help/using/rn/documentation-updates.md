@@ -9,15 +9,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e267b222b35465e6bb8a253d3f13441128a527a1
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
-source-wordcount: 9757
+source-wordcount: 9823
 ht-degree: 83%
 
 ---
@@ -27,6 +23,10 @@ ht-degree: 83%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Julho de 2026 {#july-2026}
+
+* Uma nova seção **Configurações de entrega** foi adicionada à navegação da documentação. Ele agrupa recursos relacionados à entrega que se aplicam a jornadas, campanhas e campanhas orquestradas: **Enviar usando ondas**, **Otimização de hora de envio** e **Otimização de canal** foram movidos para lá da seção Jornadas.
+
+* As páginas separadas de documentação **Enviar usando ondas** para jornadas e campanhas de ação foram mescladas em uma única página, agora também abrangendo campanhas orquestradas. [Leia mais](../delivery/send-using-waves.md)
 
 * Uma dica apontando para o artigo da comunidade do Experience League sobre **como desanexar e reingressar em nós** na nova tela de jornada foi adicionada à página **Criar sua jornada**. [Leia mais](../building-journeys/using-the-journey-designer.md)
 
@@ -44,7 +44,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * Um aviso foi adicionado à página **Editar registros PTR** para informar aos clientes que, ao adicionar um novo registro DNS de encaminhamento à sua plataforma, o registro DNS de encaminhamento para o subdomínio antigo não deve ser removido até que a movimentação seja concluída, pois isso fará com que a edição falhe. [Leia mais](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
-* As páginas **Enviar usando ondas** foram atualizadas para esclarecer o comportamento de reavaliação do público-alvo nas ondas: a associação do público-alvo é corrigida no momento da ativação (instantâneo), mas os atributos do perfil e o consentimento são avaliados no momento em que cada onda é processada. Isso significa que as opções de não participação que ocorrem entre ondas são respeitadas. Leia mais nas seções de perguntas frequentes sobre [jornadas](../building-journeys/send-using-waves.md#faq) e [campanhas](../campaigns/send-using-waves.md#faq).
+* As páginas **Enviar usando ondas** foram atualizadas para esclarecer o comportamento de reavaliação do público-alvo nas ondas: a associação do público-alvo é corrigida no momento da ativação (instantâneo), mas os atributos do perfil e o consentimento são avaliados no momento em que cada onda é processada. Isso significa que as opções de não participação que ocorrem entre ondas são respeitadas. Leia mais na [seção de perguntas frequentes](../delivery/send-using-waves.md#faq).
 
 * A página **Governança de dados** foi atualizada para esclarecer que a imposição de política DULE se aplica somente a **campos de atributo de perfil**. Campos baseados em eventos (atributos de contexto, como campos de evento de jornada) não são compatíveis: os rótulos aplicados a esses campos na interface do usuário não restringirão o uso de dados. [Leia mais](../action/action-privacy.md)
 
@@ -193,7 +193,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * A documentação da atividade **Ler público-alvo** foi atualizada para esclarecer que uma atividade **Evento de negócios** é uma exceção à regra de que Ler público-alvo deve ser a primeira atividade em uma jornada. Uma observação também foi adicionada referenciando a atividade **Otimizar** como uma alternativa avançada para controlar o direcionamento de público-alvo. [Leia mais](../building-journeys/read-audience.md)
 
-* **Enviar usando ondas** em jornadas agora está disponível. O sinalizador de Disponibilidade limitada foi removido da documentação. [Leia mais](../building-journeys/send-using-waves.md)
+* **Enviar usando ondas** em jornadas agora está disponível. O sinalizador de Disponibilidade limitada foi removido da documentação. [Leia mais](../delivery/send-using-waves.md)
 
 * A documentação da atividade **Saltar** foi aprimorada com uma nova seção de estratégia de design — **Subjornadas de tamanho reduzido** — explicando como dividir fluxos completos complexos em subjornadas menores e focadas conectadas por meio da atividade Saltar. [Leia mais](../building-journeys/jump.md#jump-strategy)
 
@@ -714,7 +714,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -744,7 +744,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=pt-BR){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -819,7 +819,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -947,7 +947,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=pt-BR)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

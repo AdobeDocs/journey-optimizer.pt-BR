@@ -11,28 +11,13 @@ mini-toc-levels: 1
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 TQID: https://experienceleague.adobe.com/3yMQM-hovd-3HgT9PlhNvpKlxG3m4NMqnZwv-dbZACU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 1697
 ht-degree: 95%
@@ -210,11 +195,11 @@ Antes de trabalhar com campanhas, certifique-se de que possui o seguinte:
 
   +++Como atribuir permissões de campanha
 
-   1. Navegue até a guia **[!UICONTROL Funções]** no produto [!DNL Permissions] e selecione uma das **[!UICONTROL Funções]** integradas relacionadas à campanha.
+  1. Navegue até a guia **[!UICONTROL Funções]** no produto [!DNL Permissions] e selecione uma das **[!UICONTROL Funções]** integradas relacionadas à campanha.
 
-   1. Na guia **[!UICONTROL Usuários]**, clique em **[!UICONTROL Adicionar usuário]**.
+  1. Na guia **[!UICONTROL Usuários]**, clique em **[!UICONTROL Adicionar usuário]**.
 
-   1. Digite o nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
+  1. Digite o nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
 
   Se o usuário não foi criado anteriormente, consulte a [documentação Adicionar usuários](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/users){target="_blank"}.
 
@@ -246,7 +231,7 @@ Configure a base da campanha:
 2. **Selecione o tipo de campanha** (Ação, acionada por API ou Orquestrada)
 3. **Escolha o público-alvo**
 4. **Defina a prioridade** se estiver usando o gerenciamento de conflitos
-5. **Configurar agendamento** (para campanhas de ação) ou detalhes da API (para campanhas acionadas por API). Para campanhas de ação, você também pode [enviar em ondas](send-using-waves.md) para entregar a mensagem em lotes ao longo do tempo.
+5. **Configurar agendamento** (para campanhas de ação) ou detalhes da API (para campanhas acionadas por API). Para campanhas de ação, você também pode [enviar em ondas](../delivery/send-using-waves.md) para entregar a mensagem em lotes ao longo do tempo.
 
 **Guias específicos de tipo:** [Propriedades da campanha de ação](campaign-properties.md) | [Propriedades da campanha acionada por API](api-triggered-campaign-properties.md) | [Configuração da campanha orquestrada](../orchestrated/create-orchestrated-campaign.md)
 
@@ -323,7 +308,7 @@ Agora que você compreende as campanhas no [!DNL Journey Optimizer], escolha o t
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Agendamento e sincronização**
 
@@ -333,7 +318,7 @@ Agende campanhas para datas e horas específicas, defina entregas recorrentes e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controle de taxa**
 
@@ -343,7 +328,7 @@ Limite a taxa de transferência de mensagens para evitar sobrecarga em sistemas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Direcionamento de público-alvo**
 
@@ -353,7 +338,7 @@ Direcione públicos-alvo específicos da Adobe Experience Platform com precisão
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Fluxos de trabalho de aprovação**
 
@@ -363,7 +348,7 @@ Implemente processos de revisão e aprovação antes que as campanhas sejam ativ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Horário de silêncio**
 
@@ -373,7 +358,7 @@ Respeite as preferências do cliente evitando a entrega de mensagens durante as 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Otimização**
 

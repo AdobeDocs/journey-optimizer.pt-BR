@@ -11,19 +11,12 @@ mini-toc-levels: 1
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
 TQID: https://experienceleague.adobe.com/IX6fnq5uYLb17J0dLmLuDLlbdiBfsH-2gzdBknwppkE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 857
 ht-degree: 13%
@@ -120,7 +113,7 @@ Para definir o controle de taxa, habilite a opção **[!UICONTROL Entrega aceler
 
 Para entregar a mensagem de campanha em lotes ao longo do tempo, em vez de enviá-la de uma só vez, você pode usar o envio por ondas. Isso ajuda a balancear a carga, oferecer suporte à capacidade de entrega e evitar a sobrecarga dos sistemas downstream (por exemplo, call centers ou páginas de aterrissagem). Você define o número de ondas, seu tamanho (por porcentagem ou número absoluto) e a programação para cada onda.
 
-[Saiba como enviar usando ondas](send-using-waves.md).
+[Saiba como enviar usando ondas](../delivery/send-using-waves.md).
 
 ## Próximas etapas {#next}
 
