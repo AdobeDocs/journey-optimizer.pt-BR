@@ -362,9 +362,9 @@ Saiba como criar e configurar desafios de fidelidade com estes tutoriais de víd
 
 **Configurar um desafio de fidelidade** - Criar e configurar um novo desafio de fidelidade
 
->[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496475?captions=por_br&quality=12)
 
 **Configurar recompensas** - Configurar entrega e atendimento de recompensa
 
->[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496485?captions=por_br&quality=12)
 
