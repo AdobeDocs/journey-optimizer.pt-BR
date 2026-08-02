@@ -176,7 +176,7 @@ Nos modos **[!UICONTROL Prioridade manual]** e **[!UICONTROL Atributo de perfil 
 
 Saiba como o recurso de otimização de canal do Adobe Journey Optimizer ajuda você a alcançar clientes no canal mais eficiente usando prioridade manual, atributos de perfil ou o modelo de IA da Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492132?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492136?captions=por_br&quality=12)
 
 <!--
 **Related topics**
