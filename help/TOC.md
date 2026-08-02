@@ -6,13 +6,12 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
+source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
 workflow-type: tm+mt
 source-wordcount: '3489'
 ht-degree: 93%
 
 ---
-
 
 # Ajuda do Adobe Journey Optimizer {#using}
 
@@ -207,7 +206,7 @@ ht-degree: 93%
       + [Orquestrar atividades](using/orchestrated/orchestrate-activities.md)
       + [Adicionar personalização](using/orchestrated/add-personalization.md)
       + [Iniciar e monitorar a campanha](using/orchestrated/start-monitor-campaigns.md)
-      + [Relatório](using/orchestrated/reporting-campaigns.md)
+      + [Relatórios](using/orchestrated/reporting-campaigns.md)
     + Consultar o banco de dados {#query-database}
       + [Consultar o banco de dados](/help/rp_landing_pages/query-database-landing-page.md)
       + [Trabalhar com o construtor de regras](using/orchestrated/orchestrated-rule-builder.md)
@@ -622,8 +621,8 @@ ht-degree: 93%
     + [Trabalhar com atributos computados](using/audience/computed-attributes.md)
   + [Identidades](using/audience/get-started-identity.md)
   + [Uso da licença](using/audience/license-usage.md)
-+ Relatório {#reporting}
-  + [Relatório](/help/rp_landing_pages/reporting-landing-page.md)
++ Relatórios {#reporting}
+  + [Relatórios](/help/rp_landing_pages/reporting-landing-page.md)
   + [Introdução aos relatórios](using/reports/gs-reports.md)
   + Relatório em tempo real {#live-report}
     + [Relatório em tempo real](/help/rp_landing_pages/live-report-landing-page.md)
