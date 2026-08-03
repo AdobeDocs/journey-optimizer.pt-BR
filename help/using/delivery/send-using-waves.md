@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondas, lotes, programação, jornada, campanha, orquestrado, entregabilidade
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -121,6 +121,9 @@ As etapas para habilitar o envio de onda dependem do seu contexto: jornada de p�
 
 1. Escolha como definir o tamanho e o tempo da onda conforme detalhado na seção [Tamanho e tempo da onda](#wave-options) abaixo.
 
+>[!ENDTABS]
+
+
 <!--
 >[!TAB Orchestrated campaigns]
 
@@ -140,8 +143,6 @@ As etapas para habilitar o envio de onda dependem do seu contexto: jornada de p�
 
 1. Choose how to define wave size and timing as detailed in the [Wave size and timing](#wave-options) section below.
 -->
-
->[!ENDTABS]
 
 ## Tamanho e sincronização da onda {#wave-options}
 
@@ -252,6 +253,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **TL;DR:** esta página explica como configurar o envio de som wave no Adobe Journey Optimizer para entregar mensagens de saída em lotes controlados ao longo do tempo, melhorando a capacidade de entrega e protegendo a reputação do remetente. O envio de onda está disponível em jornadas de leitura de público-alvo, campanhas de ação e campanhas orquestradas.
 
 **Intenções:**
+
 * Ativar o envio de ondas em uma jornada de Leitura de público, uma campanha de Ação ou uma atividade de canal de campanha Orquestrada
 * Configurar ondas iguais com um intervalo fixo entre cada onda
 * Definir tamanhos de onda personalizados como porcentagens ou contagens absolutas de perfil
@@ -259,17 +261,20 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Controlar o volume de delivery para proteger a reputação do remetente ou alinhar-se à capacidade operacional
 
 **Glossário:**
+
 * **Envio de onda**: um modo de entrega que divide o público em lotes (ondas) e envia mensagens para cada lote em intervalos agendados, em vez de todas de uma vez *(específico do produto)*
 * **Ondas iguais**: uma configuração em que o público é dividido em partes de tamanho igual com um intervalo fixo entre os inícios de onda *(específico do produto)*
 * **Distribuição personalizada**: uma configuração em que o tamanho de cada onda é definido manualmente como uma porcentagem ou número absoluto de perfis *(específico do produto)*
 * **Agenda personalizada**: uma configuração em que cada onda tem uma data e hora de início específicas, permitindo um espaçamento não uniforme *(específico do produto)*
 
 **Contextos em que o envio de onda está disponível:**
+
 * Ler jornadas do público-alvo (&quot;O mais rápido possível&quot; ou &quot;Uma vez&quot; somente para scheduler — não para jornadas recorrentes, acionadas por eventos, de negócios, de teste ou de simulação)
 * Campanhas de ação (somente ações de canal de saída)
 <!-- * Orchestrated campaigns (outbound channel activities only, configured per channel activity) -->
 
 **Medidas de proteção comuns (todos os contextos):**
+
 * Mínimo de 2 ondas, máximo de 10 ondas
 * Mínimo de 30 minutos entre o início de duas ondas consecutivas
 * O início da onda não pode estar no passado
@@ -277,12 +282,14 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * A distribuição personalizada baseada em números não valida automaticamente a cobertura total
 
 **medidas de proteção específicas da Jornada:**
+
 * O início da onda não pode ser anterior ao início da jornada
 * A divisão de público pode levar até 1 hora; os perfis podem ser atrasados
 * Duas ondas nunca são executadas simultaneamente na mesma versão do jornada
 * Os inícios de onda podem ser atrasados pelos limites de cota da plataforma ou pela carga pesada do sistema
 
 **Perguntas frequentes:**
+
 * **P: O envio por onda se aplica aos canais de entrada?** — Não; somente saída (email, SMS, push, correspondência direta).
 * **P: Posso atribuir conteúdo diferente a ondas individuais?** — Não; o mesmo público-alvo e conteúdo para todas as ondas. Somente o tamanho e o tempo podem diferir.
 * **P: Qual é o tempo mínimo entre duas ondas?** — 30 minutos entre o início de duas ondas consecutivas.
@@ -290,4 +297,3 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **P: O público-alvo foi reavaliado por onda?** — Não; o público-alvo é capturado na ativação. Os atributos do perfil (personalização, consentimento) são lidos no tempo de processamento da onda.
 
 +++
-

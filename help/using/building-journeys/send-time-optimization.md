@@ -28,7 +28,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+source-git-commit: 7d4b5047ebb782034140379d5581726736de9051
 workflow-type: tm+mt
 source-wordcount: 2298
 ht-degree: 6%
@@ -209,6 +209,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **TL;DR:** esta página explica como configurar e usar a Otimização de Tempo de Envio no Adobe Journey Optimizer, um recurso alimentado por IA que prevê o melhor momento para enviar mensagens de email ou push a cada indivíduo para maximizar a participação.
 
 **Intenções:**
+
 * Ativar a Otimização de hora de envio em um email ou ação de push em uma jornada
 * Escolha se deseja otimizar para aberturas ou click-throughs em mensagens de email
 * Definir a janela de espera máxima (Enviar na próxima) para entrega atrasada
@@ -216,6 +217,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Determine se a Otimização de tempo de envio é apropriada para um determinado tipo de mensagem
 
 **Glossário:**
+
 * **Otimização de Tempo de Envio (STO)**: um recurso alimentado por IA que atrasa a entrega de mensagens para cada perfil até a hora de compromisso ideal prevista em uma janela de tempo configurada *(específico do produto)*
 * **IA de Jornada**: os serviços de IA da Adobe que habilitam a Otimização de Tempo de Envio no Journey Optimizer *(específico do produto)*
 * **Tempo de envio de exploração**: um tempo de envio selecionado aleatoriamente (usado para 5% dos envios) para testar horários diferentes e melhorar a precisão do modelo *(específico do produto)*
@@ -223,6 +225,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **Enviar na(s) próxima(s)**: O número máximo de horas (2-100) que o sistema aguardará antes de enviar a mensagem para um determinado perfil *(específico do produto)*
 
 **Medidas de Proteção:**
+
 * A Otimização de tempo de envio deve ser ativada pela Adobe para a organização; entre em contato com o Atendimento ao cliente da Adobe ou com o representante da Adobe para ativá-la.
 * A Otimização de tempo de envio se aplica somente aos canais de Email e Notificação por push no Jornada; não está disponível para Campanhas ou ações personalizadas.
 * A organização deve ter usado ações de email ou push no Journey Optimizer por pelo menos 30 dias antes que a Otimização de tempo de envio produza resultados significativos.
@@ -232,11 +235,13 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Inicialmente, os modelos são treinados semanalmente, depois retreinados e marcados mensalmente após 16 semanas.
 
 **Terminologia:**
+
 * Nome canônico: Otimização de tempo de envio — Acrônimo: STO — variantes: melhor horário de envio, IA de tempo de envio, tempo de envio inteligente
 * Sinônimos: &quot;Otimização de tempo de envio&quot; = &quot;tempo de envio ideal&quot; = &quot;Tempo de envio de IA&quot;
 * Não confunda: &quot;Tempo de envio de exploração&quot; ≠ &quot;Tempo de envio otimizado&quot; (a exploração é aleatória para testes de modelo; otimizado é previsto pelo modelo para engajamento)
 
 **Perguntas frequentes:**
+
 * **P: Quais canais oferecem suporte à Otimização de Tempo de Envio?** — Somente canais de email e notificação por push no Jornada; campanhas e ações personalizadas não são compatíveis.
 * **P: Devo otimizar para aberturas ou cliques no email?** — otimize para cliques na maioria dos e-mails. Escolha Abrir quando a mensagem for informativa e não se destinar a orientar uma ação específica.
 * **P: Quanto tempo a organização precisa esperar antes de habilitar o STO?** — Pelo menos 30 dias de uso de email ou push no Journey Optimizer são necessários para coletar dados comportamentais suficientes. Os resultados continuam a melhorar por até 16 semanas.
@@ -244,5 +249,3 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **P: Qual é o benefício esperado da Otimização de Tempo de Envio?** — Melhoria de aproximadamente 2 a 10% na taxa de cliques do e-mail ou na taxa de abertura de push em todas as mensagens otimizadas, embora os benefícios possam não ser observáveis em envios individuais de pequenos volumes.
 
 +++
-
-
