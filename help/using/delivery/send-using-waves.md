@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondas, lotes, programação, jornada, campanha, orquestrado, entregabilidade
-source-git-commit: 4e2717e09d125b53cd75e5c5fbf3fb75ca9bfde5
+source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -122,6 +122,7 @@ As etapas para habilitar o envio de onda dependem do seu contexto: jornada de p�
 1. Escolha como definir o tamanho e o tempo da onda conforme detalhado na seção [Tamanho e tempo da onda](#wave-options) abaixo.
 
 >[!ENDTABS]
+
 
 <!--
 >[!TAB Orchestrated campaigns]
