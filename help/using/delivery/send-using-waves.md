@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondas, lotes, programação, jornada, campanha, orquestrado, entregabilidade
-source-git-commit: 8717cece9b014c3e1c8083c5467349e84c8a1fc5
+source-git-commit: 04c506d0eb9d33645c3ca3d6a9f032bfce71fc98
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2077'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Você define o número de ondas, seu tamanho (como uma porcentagem do público o
 
 ## Limitações e medidas de proteção {#limitations-guardrails}
 
-As seguintes limitações se aplicam em todos os contextos:
+As seguintes limitações se aplicam ao envio de onda em qualquer contexto:
 
 * Você deve definir pelo menos **2 ondas** e pode adicionar até **10 ondas**.
 * O intervalo mínimo entre o início de duas ondas é de **30 minutos**.
