@@ -9,15 +9,11 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
-workflow-type: ht
-source-wordcount: 4372
+workflow-type: tm+mt
+source-wordcount: 4443
 ht-degree: 100%
 
 ---
@@ -94,9 +90,9 @@ Esta versão vem com as melhorias listadas abaixo.
 
 * A duração máxima que você pode definir em qualquer tempo de espera agora é de 29 dias, em vez de 30. Essa melhoria foi introduzida para evitar que a espera exceda os 30 dias de duração da jornada. Isso se aplica a:
 
-   * o campo **Quantidade de tempo** na [atividade de espera](../building-journeys/wait-activity.md)
-   * o **período de espera de reentrada** em [propriedades da jornada](../building-journeys/journey-properties.md#entrance)
-   * o campo **Aguardar por** na definição de tempo-limite das [atividades de evento](../building-journeys/general-events.md#events-specific-time).
+  * o campo **Quantidade de tempo** na [atividade de espera](../building-journeys/wait-activity.md)
+  * o **período de espera de reentrada** em [propriedades da jornada](../building-journeys/journey-properties.md#entrance)
+  * o campo **Aguardar por** na definição de tempo-limite das [atividades de evento](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
@@ -125,8 +121,8 @@ Essa versão traz os novos recursos listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Os atributos computados permitem resumir facilmente os dados do evento em atributos de perfil por meio de uma interface intuitiva para segmentação, personalização e ativação avançadas com base em comportamento. Com esse recurso, você pode criar atributos computados de maneira automatizada, gerenciá-los e usá-los na segmentação, em destinos do perfil do cliente em tempo real ou no Journey Optimizer.<br/><br/>
-Além disso, os atributos computados simplificam a segmentação e os fluxos de trabalho de jornada para ajudar você a fornecer experiências relevantes de maneira contínua. Saiba mais na <a href="../audience/computed-attributes.md">documentação detalhada</a>.</p>
+<p>Os atributos computados permitem resumir facilmente os dados do evento em atributos de perfil por meio de uma interface intuitiva para segmentação, personalização e ativação aprimoradas com base em comportamento. Com esse recurso, você pode criar atributos computados de maneira independente, gerenciá-los e usá-los na segmentação, nos destinos do Perfil do cliente em tempo real ou no Journey Optimizer.<br/><br/>
+Além disso, os atributos computados simplificam os fluxos de trabalho de jornada e segmentação, ajudando a fornecer experiências relevantes perfeitamente. Saiba mais na <a href="../audience/computed-attributes.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -324,7 +320,7 @@ A new option is available in the email surface settings to include email address
 **Jornadas**
 
 * Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. No momento, esse recurso está disponível na versão beta. [Saiba mais](../action/action-response.md).
-* Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando uma ação personalizada falhar. [Saiba mais](../reports/alerts.md).
+* Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando houver uma falha em uma ação personalizada. [Saiba mais](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
@@ -615,16 +611,16 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * Em preparação para a disponibilidade geral do recurso Portal de público-alvo, a Adobe Experience Platform está atualizando o uso de “públicos-alvo” e “segmentos” no sistema e na documentação.
 
-   * Público-alvo: um conjunto de pessoas, contas, famílias ou outras entidades que compartilham características e comportamentos comuns.
-   * Definição de segmento: na Adobe Experience Platform, as regras usadas para descrever as principais características ou comportamentos de um público-alvo. Esse termo era anteriormente conhecido apenas como “segmento”.
+  * Público-alvo: um conjunto de pessoas, contas, famílias ou outras entidades que compartilham características e comportamentos comuns.
+  * Definição de segmento: na Adobe Experience Platform, as regras usadas para descrever as principais características ou comportamentos de um público-alvo. Esse termo era anteriormente conhecido apenas como “segmento”.
 
   Como resultado, na interface do Adobe Journey Optimizer e da Adobe Experience Platform, “Segmentos” será substituído por “Públicos-alvo” para refletir esse novo caminho de criação e gerenciamento de público-alvo.
 
   As traduções do termo “público-alvo” ao se referir a um grupo de perfis direcionados para receber uma mensagem foram harmonizadas em todos os produtos de Experiência digital para alguns idiomas:
 
-   * Alemão: Zielgruppe
-   * Português (Brasil): público-alvo
-   * Espanhol: público destinatario
+  * Alemão: Zielgruppe
+  * Português (Brasil): público-alvo
+  * Espanhol: público destinatario
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
@@ -1001,7 +997,7 @@ Note that each widget can be resized and deleted as needed.
 <p>Agora você pode criar modelos de conteúdo independentes que possam ser aproveitados em jornadas e campanhas para reutilização rápida.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>Saiba como criar, editar e usar modelos de conteúdo assistindo a <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=pt-BR">este vídeo</a>. Para mais informações, consulte a <a href="../content-management/content-templates.md">documentação detalhada</a>.
+<p>Saiba como criar, editar e usar modelos de conteúdo <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=pt-BR">neste vídeo</a>. Para obter mais informações, consulte a <a href="../content-management/content-templates.md">documentação detalhada</a>.
 </p>
 </td>
 </tr>
