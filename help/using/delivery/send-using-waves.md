@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondas, lotes, programação, jornada, campanha, orquestrado, entregabilidade
-source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
+source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2077'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba como dividir a entrega de mensagens de saída em lotes agendados (ondas) para equilibrar a carga, proteger a reputação do remetente e melhorar a capacidade de entrega, disponível em jornadas de leitura de público, campanhas de ação e campanhas orquestradas.
+**Nesta página:** saiba como dividir a entrega de mensagens de saída em lotes agendados, chamados ondas, para equilibrar a carga, proteger a reputação do remetente e melhorar a capacidade de entrega. O envio de onda está disponível em jornadas de leitura de público-alvo, campanhas de ação e campanhas orquestradas.
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ Você define o número de ondas, seu tamanho (como uma porcentagem do público o
 
 ## Limitações e medidas de proteção {#limitations-guardrails}
 
-As seguintes limitações se aplicam em todos os contextos:
+As seguintes limitações se aplicam ao envio de onda em qualquer contexto:
 
 * Você deve definir pelo menos **2 ondas** e pode adicionar até **10 ondas**.
 * O intervalo mínimo entre o início de duas ondas é de **30 minutos**.
@@ -58,14 +58,14 @@ Restrições adicionais específicas do contexto se aplicam:
 * O envio de onda se aplica somente a **ações de saída** (email, SMS, push, correspondência direta).
 * Um início de onda não pode ser anterior ao início da campanha.
 
+>[!ENDTABS]
+
 <!--
 >[!TAB Orchestrated campaigns]
 
 * Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
 * Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
 -->
-
->[!ENDTABS]
 
 ## Configurar envio de onda {#configure-wave-sending}
 
