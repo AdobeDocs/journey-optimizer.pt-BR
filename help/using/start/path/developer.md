@@ -119,7 +119,7 @@ O Web SDK (`alloy.js`) é uma única biblioteca JavaScript que substitui a manta
 
 1. **Configurar sequências de dados**: crie e configure uma sequência de dados na [!DNL Adobe Experience Platform Data Collection] com o Journey Optimizer habilitado. Saiba mais na [documentação das sequências de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=pt-BR){target="_blank"}.
 
-1. **Habilitar notificações por push da Web** (opcional): as notificações por push da Web agora estão disponíveis. Configure a [propriedade pushNotifications](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"} na configuração do SDK da Web e use o [comando sendPushSubscription](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"} para registrar assinaturas por push. [Saiba mais sobre a configuração de push da Web](../../push/push-configuration-web.md).
+1. **Habilitar notificações por push da Web** (opcional): as notificações por push da Web agora estão disponíveis. Configure a [propriedade pushNotifications](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"} na configuração do SDK da Web e use o [comando sendPushSubscription](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"} para registrar assinaturas por push. [Saiba mais sobre a configuração de push da Web](../../push/push-configuration-web.md).
 
 ### Implementar experiências baseadas em código (SDK da web)
 
