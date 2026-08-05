@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9569590b3fef6450142e382324b7d0b7a5f8ad2d
+source-git-commit: 0ebc8a412a74f4099840da6f6be57c0c4a0e3257
 workflow-type: tm+mt
 source-wordcount: 3121
 ht-degree: 19%
@@ -47,6 +47,29 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 >[!NOTE]
 >
 >Os recursos listados nestas notas de versão incluem uma **Data de disponibilidade** indicando quando cada alteração se torna acessível no ambiente. As entradas nos acordeões **Em breve** são esperadas nos próximos dias ou semanas. As informações nessas seções estão sujeitas a alterações.
+
+## Atualizações de agosto de 2026 {#aug-26-updates}
+
+### Gerenciamento de conteúdo
+
+<table>
+<thead>
+<tr>
+<th><strong>Origem flexível de imagens para a geração de conteúdo de IA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Gerar conteúdo no Journey Optimizer agora origina imagens aprovadas pela marca diretamente do Adobe Experience Manager Assets Essentials e superior. Três modos controlam o equilíbrio: Balanceado (Gerenciamento de ativos digitais - primeiro, IA preenche lacunas, padrão), Assets (Gerenciamento de ativos digitais - originado) e Creative (AI).</p>
+<p><img src="../content-management/assets/image-mode-3.png"></p>
+<p>Para obter mais informações, consulte a <a href="../content-management/generative-uc.md#image-mode">documentação detalhada</a>.</p>
+<p> Data de disponibilidade: 5 de agosto de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Notas de versão de julho de 2026 {#july-26-updates}
 
@@ -353,12 +376,6 @@ Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúd
 * **Melhorias multilíngues** - As configurações de idioma agora podem ser duplicadas de uma configuração ativa existente, portanto, você não precisa mais recompilar totalmente uma configuração para fazer alterações. Você também pode copiar uma condição de um local para outro enquanto cria Configurações de idioma, simplificando a configuração para sites com muitos idiomas.
 
   Data de disponibilidade: 30 de julho de 2026
-
-+++ Em breve
-
-* **Origem flexível de imagens para a geração de conteúdo de IA** - A geração de conteúdo no Journey Optimizer agora origina imagens aprovadas pela marca diretamente do Adobe Experience Manager Assets Essentials e superior. Três modos controlam o equilíbrio: Assets (Gerenciamento de ativos digitais-fonte, padrão), Balanceado (Gerenciamento de ativos digitais-primeiro, IA preenche lacunas) e Creative (AI-primeiro). Isso garante que cada visual seja preciso, compatível com a marca e pronto para produção para jornadas e campanhas.
-
-+++
 
 ### Conteúdo e integrações {#july-26-integration}
 

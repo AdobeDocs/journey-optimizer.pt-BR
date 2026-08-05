@@ -25,10 +25,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: 65edc88e0e2d1a2d18fde19b089893e430bd17dd
+source-git-commit: cbc84d724fd35457ace4662fe8b91490a1404255
 workflow-type: tm+mt
-source-wordcount: 2007
-ht-degree: 2%
+source-wordcount: 2112
+ht-degree: 3%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Antes de começar a usar esse recurso, leia as [Medidas de Proteção e Limitações](gs-generative.md#generative-guardrails) relacionadas.
+>Antes de começar a usar esse recurso, consulte as [Medidas de proteção e limitações](gs-generative.md#generative-guardrails) relacionadas.
 ></br>
 >
 >Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR) antes de poder usar Gerar conteúdo no Journey Optimizer. Para obter mais informações, entre em contato com o(a) representante da Adobe.
@@ -76,7 +76,7 @@ Com a opção Gerar conteúdo aberta, agora é possível definir as configuraç�
 
    Se você estiver procurando ajuda para criar seu prompt, acesse a **[!UICONTROL Biblioteca de Prompts]**, que fornece diversas ideias de prompt para melhorar suas campanhas. [Saiba mais sobre as práticas recomendadas do prompt](ai-assistant-prompting-guide.md)
 
-   ![Avisar campo com o botão Avisar Biblioteca](assets/full-email-2-bis.png){zoomable="yes"}
+   ![Avisar campo com o botão Avisar Biblioteca](assets/full-email-2.png){zoomable="yes"}
 
 1. **Para Emails**, você pode alternar as opções **[!UICONTROL Linha de assunto]** e **[!UICONTROL Pré-cabeçalho]** para incluí-los na geração de variantes.
 
@@ -90,6 +90,10 @@ Com a opção Gerar conteúdo aberta, agora é possível definir as configuraç�
 
 1. Escolha suas **[!UICONTROL configurações de imagem]**:
 
+   * **[!UICONTROL Modo]**: como as imagens são originadas de sua biblioteca de Gerenciamento de ativos digitais e como fazem referência ao conteúdo. [Saiba mais](generative-uc.md#image-mode)
+     * **[!UICONTROL Assets]**: usa imagens correspondentes do Gerenciamento de ativos digitais como conteúdo de referência; caso contrário, adiciona conteúdo de referência manualmente.
+     * **[!UICONTROL Balanceado]**: faça referência ao conteúdo primeiro e, em seguida, à IA, se necessário.
+     * **[!UICONTROL Creative]**: IA gerativa sem depender diretamente do Gerenciamento de ativos digitais.
    * **[!UICONTROL Modelo gerativo]**: escolha entre modelos internos disponíveis, modelos Firefly personalizados treinados nos ativos da sua marca ou provedores de geração de imagens de terceiros para criar imagens que se alinhem às suas necessidades específicas e aos requisitos da marca. [Saiba mais](generative-models.md). Para **Gemini** com **sobreposições de texto** em imagens, consulte [Usar Gemini como modelo gerativo para imagem de sobreposição de texto](generative-uc.md#generative-gemini).
    * **[!UICONTROL Tipo de conteúdo]**: categoriza a natureza do elemento visual, distinguindo entre diferentes formas de representação visual, como fotos, gráficos ou arte.
    * **[!UICONTROL Intensidade visual]**: você pode controlar o impacto da imagem ajustando sua intensidade. Uma configuração mais baixa (2) criará uma aparência mais suave e mais restrita, enquanto uma configuração mais alta (10) tornará a imagem mais vibrante e visualmente poderosa.
@@ -133,7 +137,7 @@ Depois de gerar variações de conteúdo, você pode ajustar os resultados para 
 
    * **[!UICONTROL Alterar estratégia de comunicação]**: modifique a abordagem de mensagens com base em seus objetivos, como criar urgência ou enfatizar o apelo interessante.
 
-     ![Refinar opções de exibição de menu](assets/full-email-5-bis.png){zoomable="yes"}
+     ![Refinar opções de exibição de menu](assets/full-email-5.png){zoomable="yes"}
 
 1. Abra a guia **[!UICONTROL Alinhamento da marca]** para ver como o seu conteúdo se alinha às suas [diretrizes da marca](brands.md).
 
@@ -193,6 +197,10 @@ Depois de acessar Gerar conteúdo para notificações por push, você pode defin
 
 1. Escolha suas **[!UICONTROL configurações de imagem]**:
 
+   * **[!UICONTROL Modo]**: como as imagens são originadas de sua biblioteca de Gerenciamento de ativos digitais e como fazem referência ao conteúdo. [Saiba mais](generative-uc.md)
+     * **[!UICONTROL Assets]**: usa imagens correspondentes do Gerenciamento de ativos digitais como conteúdo de referência; caso contrário, adiciona conteúdo de referência manualmente.
+     * **[!UICONTROL Balanceado]**: faça referência ao conteúdo primeiro e, em seguida, ao Firefly, se necessário.
+     * **[!UICONTROL Creative]**: IA gerativa sem depender diretamente do Gerenciamento de ativos digitais.
    * **[!UICONTROL Modelo gerativo]**: escolha entre modelos internos disponíveis, modelos Firefly personalizados treinados nos ativos da sua marca ou provedores de geração de imagens de terceiros para criar imagens que se alinhem às suas necessidades específicas e aos requisitos da marca. [Saiba mais](generative-models.md). Para **Gemini** com **sobreposições de texto** em imagens, consulte [Usar Gemini como modelo gerativo para imagem de sobreposição de texto](generative-uc.md#generative-gemini).
    * **[!UICONTROL Tipo de conteúdo]**: categoriza a natureza do elemento visual, distinguindo entre diferentes formas de representação visual, como fotos, gráficos ou arte.
    * **[!UICONTROL Intensidade visual]**: você pode controlar o impacto da imagem ajustando sua intensidade. Uma configuração mais baixa (2) criará uma aparência mais suave e mais restrita, enquanto uma configuração mais alta (10) tornará a imagem mais vibrante e visualmente poderosa.
