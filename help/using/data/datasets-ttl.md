@@ -9,27 +9,15 @@ level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
 TQID: https://experienceleague.adobe.com/DvcQ6AcWhNIZXnTtmPozvSTp1Ait-oo-8wlo8hQ6xlI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 56ef8c0d762debc0607c3322fd36f5a9da472eaa
 workflow-type: tm+mt
-source-wordcount: 1226
-ht-degree: 11%
+source-wordcount: 1422
+ht-degree: 13%
 
 ---
 
@@ -50,19 +38,31 @@ Esta alteração será aplicada em **sandboxes de clientes existentes** a partir
 
 ## Conjuntos de dados afetados {#datasets}
 
-A tabela abaixo lista todos os conjuntos de dados afetados e seu respectivo Tempo de vida no data lake e no [Repositório de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}.
+A tabela abaixo lista todos os conjuntos de dados gerados pelo sistema da Journey Optimizer com seu respectivo Tempo de vida no data lake e no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}. Os conjuntos de dados de série temporal estão sujeitos a TTL; os conjuntos de dados de tipo de registro são listados para referência e marcados `n/a` em ambas as colunas. A coluna Disponibilidade indica se um conjunto de dados é incluído por padrão ou se requer um complemento ou licença específica.
 
-| Conjunto de dados | TTL do Data Lake | TTL de armazenamento de perfil |
-|------|-----|-----|
-| Conjunto de dados do evento de feedback de mensagem do AJO | 13 meses | 90 dias |
-| Conjunto de dados de evento de experiência de rastreamento de email do AJO | 13 meses | 90 dias |
-| Conjunto de dados de evento de experiência de rastreamento de push do AJO | 13 meses | 90 dias |
-| Conjunto de dados do AJO Surfaces | 13 meses | n/d |
-| Conjunto de dados do evento de atividade de entrada do AJO | 13 meses | 90 dias |
-| Conjunto de dados do evento de feedback secundário do destinatário do AJO | 13 meses | n/d |
-| Conjunto de dados do evento da entidade | 13 meses | n/d |
-| Jornada eventos de etapa | 13 meses | n/d |
-| ODE DecisionEvents - decisão de produção | 13 meses | n/d |
+| Conjunto de dados | Disponibilidade | TTL do Data Lake | TTL de armazenamento de perfil |
+|------|-----|-----|-----|
+| Conjunto de dados do evento de feedback de mensagem do AJO | Incluído | 13 meses | 90 dias |
+| Conjunto de dados de evento de experiência de rastreamento de email do AJO | Incluído | 13 meses | 90 dias |
+| Conjunto de dados de evento de experiência de rastreamento de push do AJO | Incluído | 13 meses | 90 dias |
+| Conjunto de dados do AJO Surfaces | Incluído | 13 meses | n/d |
+| Conjunto de dados do evento de atividade de entrada do AJO | Incluído | 13 meses | n/d |
+| Conjunto de dados do evento de feedback secundário do destinatário do AJO | Incluído | 13 meses | n/d |
+| Conjunto de Dados de Entidade do AJO *(anteriormente: Conjunto de Dados de Evento de Entidade)* | Incluído | n/d | n/d |
+| Jornada eventos de etapa | Incluído | 13 meses | n/d |
+| Conjunto de Dados de Evento de Decisão ExD do AJO *(anteriormente: ODE DecisionEvents - prod decisioning)* | Complemento de decisão necessário | 13 meses | n/d |
+| Conjunto de dados do evento de feedback de atividades do AJO Live | Incluído | 13 meses | n/d |
+| Conjunto de dados de resumo STO do AJO | Incluído | 13 meses | n/d |
+| Conjunto de dados do serviço de consentimento da AJO | Incluído | 13 meses | 90 dias |
+| Conjunto de dados do perfil de mensagens interativas da AJO | Incluído | 13 meses | 90 dias |
+| Conjunto de dados do perfil push do AJO | Incluído | 13 meses | 90 dias |
+| Extensão Contadores de perfis do AJO | Incluído | 13 meses | 90 dias |
+| Jornada entrada | Incluído | 13 meses | 90 dias |
+| Conjunto de dados de classificação do AJO | Incluído | n/d | n/d |
+| Conjunto de dados de evento de rastreamento de canal do AJO | Incluído | 13 meses | 90 dias |
+| Conjunto de dados do evento de alteração de estado do desafio de fidelidade da Adobe | Exige uma licença do Journey Optimizer Loyalty | 13 meses | n/d |
+| Conjunto de dados de exportação de mensagens do AJO | Exige complemento de Exportação de Mensagem | 30 dias | n/d |
+| Conjunto de dados de metadados do evento de mensagem do AJO | Exige complemento de Exportação de Mensagem | 30 dias | n/d |
 
 ## Perguntas frequentes {#faq}
 
@@ -72,13 +72,13 @@ Precisa de mais detalhes? Use as opções de feedback na parte inferior desta p�
 
 +++Quais tipos de conjuntos de dados estão sujeitos ao TTL?
 
-O TTL se aplica somente a conjuntos de dados de séries temporais. Conjuntos de dados do tipo registro (como conjuntos de dados de entidade, conjuntos de dados de classificação e repositórios de objetos de decisão) não estão sujeitos ao TTL e, portanto, não aparecem na tabela Conjuntos de dados afetados acima.
+O TTL se aplica somente a conjuntos de dados de séries temporais. Conjuntos de dados do tipo registro (como conjuntos de dados de entidade e conjuntos de dados de classificação) não estão sujeitos ao TTL. Eles estão listados na tabela acima para referência, com `n/a` indicado nas colunas TTL do Data Lake e TTL do Armazenamento de perfis.
 
 +++
 
 +++Essa alteração se aplicará somente às sandboxes de produção ou também se aplicará às sandboxes de desenvolvimento?
 
-Essa alteração será aplicada a todos os tipos de sandbox.
+Essa alteração se aplica a todos os tipos de sandbox.
 
 +++
 
@@ -100,13 +100,13 @@ As extensões TTLs não são compatíveis no momento. No entanto, está previsto
 
 >[!NOTE]
 >
->Os dados armazenados no perfil estão sujeitos ao direito Total de volume de dados. Portanto, qualquer aumento no armazenamento de dados no perfil como resultado de uma extensão TTL contaria em relação ao direito ao Volume de dados total. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=pt-BR){target="_blank"}
+>Os dados armazenados no perfil estão sujeitos ao direito Total de volume de dados. Portanto, qualquer aumento no armazenamento de dados no perfil como resultado de uma extensão TTL contaria em relação ao direito ao Volume de dados total. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target="_blank"}
 
 +++
 
 +++Os clientes podem aumentar o TTL para os dados do conjunto de dados do sistema [!DNL Journey Optimizer] no data lake? 
 
-As extensões TTLs não são compatíveis no momento. Os clientes podem exportar dados por meio do Destinos para reter os dados por mais tempo. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=pt-BR){target="_blank"}. Além disso, os clientes com um direito ao **[!DNL Data Distiller]** podem criar conjuntos de dados derivados para armazenar os dados no data lake sem um TTL. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+As extensões TTLs não são compatíveis no momento. Os clientes podem exportar dados por meio do Destinos para reter os dados por mais tempo. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}. Além disso, os clientes com um direito ao **[!DNL Data Distiller]** podem criar conjuntos de dados derivados para armazenar os dados no data lake sem um TTL. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
@@ -146,8 +146,8 @@ A nova política de TTL limitará o período de retrospectiva para dados do conj
 
 Os clientes que exigem retenção mais longa têm duas opções:
 
-* **Exportar para armazenamento externo**: exporte dados relevantes dos conjuntos de dados do AJO antes da expiração do TTL. O Adobe Journey Optimizer oferece suporte à exportação de conjuntos de dados para vários destinos de armazenamento em nuvem (Amazon S3, Azure Blob, Google Cloud Storage etc.). [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=pt-BR){target="_blank"}
-* **Conjuntos de dados derivados do Data Distiller**: os clientes com um direito ao Data Distiller podem configurar consultas automatizadas para copiar dados críticos em um conjunto de dados derivado no data lake, que pode ser armazenado sem um TTL. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+* **Exportar para armazenamento externo**: exporte dados relevantes dos conjuntos de dados do AJO antes da expiração do TTL. O Adobe Journey Optimizer oferece suporte à exportação de conjuntos de dados para vários destinos de armazenamento em nuvem (Amazon S3, Azure Blob, Google Cloud Storage etc.). [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}
+* **Conjuntos de dados derivados do Data Distiller**: os clientes com um direito ao Data Distiller podem configurar consultas automatizadas para copiar dados críticos em um conjunto de dados derivado no data lake, que pode ser armazenado sem um TTL. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
