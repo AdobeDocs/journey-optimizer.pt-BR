@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
+source-git-commit: 7f826404545f1443bbb873e623206c568fabc739
 workflow-type: tm+mt
-source-wordcount: 1018
+source-wordcount: 1038
 ht-degree: 2%
 
 ---
@@ -39,9 +39,9 @@ ht-degree: 2%
 
 Para acessar e gerenciar modelos de conteúdo, verifique o seguinte:
 
-* **Permissão de Modelos de Conteúdo** — Sua função deve incluir a permissão **[!UICONTROL Gerenciar modelos de conteúdo]** (no recurso **Gerenciamento de Conteúdo**). Sem ele, o menu **Modelos de conteúdo** não fica visível na navegação à esquerda. [Saiba como gerenciar permissões](../administration/permissions.md)
-* **Escopo da sandbox** — os modelos de conteúdo são específicos da sandbox. Os modelos criados em uma sandbox não estão disponíveis em outra. Verifique se você está na sandbox correta antes de pesquisar um modelo.
-* **Modelos do HTML (obsoletos)** — A partir de março de 2025, os modelos de conteúdo do tipo HTML serão descontinuados. Os modelos do HTML existentes permanecem acessíveis, mas não é possível criar novos.
+* **Permissão de Modelos de Conteúdo**: sua função deve incluir a permissão **[!UICONTROL Gerenciar modelos de conteúdo]** (no recurso **Gerenciamento de Conteúdo**). Sem ele, o menu **Modelos de conteúdo** não fica visível na navegação à esquerda. [Saiba como gerenciar permissões](../administration/permissions.md)
+* **Escopo da sandbox**: os modelos de conteúdo são específicos da sandbox. Os modelos criados em uma sandbox não estão disponíveis em outra. Verifique se você está na sandbox correta antes de pesquisar um modelo.
+* **Modelos do HTML (obsoletos)**: a partir de março de 2025, os modelos de conteúdo do tipo HTML serão descontinuados. Os modelos do HTML existentes permanecem acessíveis, mas não é possível criar novos.
 
 ## Acessar modelos de conteúdo {#access}
 
@@ -110,20 +110,31 @@ Para navegar facilmente pelos modelos de conteúdo, use pastas para organizá-lo
 
 No botão **[!UICONTROL Mais ações]**, ao lado de cada modelo, você pode acessar os seguintes atalhos e ações:
 
-* **[!UICONTROL Editar detalhes]** — Edite o nome, a descrição e as marcas do modelo.
-* **[!UICONTROL Simular conteúdo]** — Visualize e teste o conteúdo do modelo.
-* **[!UICONTROL Excluir]** — Exclua o modelo.
+* **[!UICONTROL Editar detalhes]**: edite o nome, a descrição e as marcas do modelo.
+* **[!UICONTROL Simular conteúdo]**: visualizar e testar o conteúdo do modelo.
+* **[!UICONTROL Excluir]**: excluir o modelo.
 
-Para modelos de email, os seguintes atalhos adicionais estão disponíveis:
+Atalhos adicionais estão disponíveis, dependendo do canal. Acesse o menu suspenso abaixo para saber mais:
 
-* **[!UICONTROL Editar linha de assunto]** — Atualize rapidamente a linha de assunto do email.
-* **[!UICONTROL Editar corpo de email]** — Abra o designer de email para modificar o conteúdo do modelo.
-* **[!UICONTROL Exibir prova]** — Exiba uma prova do modelo de email.
-* **[!UICONTROL Enviar prova]** — Envie uma prova do modelo para os destinatários designados.
-* **[!UICONTROL Relatório de spam]** — Analise o modelo em relação aos filtros de spam.
-* **[!UICONTROL Renderizar email]** — Visualize como o email é renderizado em diferentes clientes de email.
++++ Para modelos de email
 
-![](assets/content-template-quick-launch.png)
+* **[!UICONTROL Editar corpo do email]**: abra o designer de email para modificar o conteúdo do modelo.
+* **[!UICONTROL Exibir prova]**: exibir uma prova do modelo de email.
+* **[!UICONTROL Enviar prova]**: envia uma prova do modelo para os destinatários designados.
+* **[!UICONTROL Relatório de spam]**: analise o modelo em relação aos filtros de spam.
+* **[!UICONTROL Renderizar email]**: visualize como o email é renderizado em diferentes clientes de email.
+
+![](assets/content-template-quick-launch-email.png)
+
++++
+
++++ Para modelos SMS
+
+* **[!UICONTROL Verificar contagem/segmentos de caracteres]**: verifique a contagem de caracteres e o número de segmentos usados pela mensagem.
+
+![](assets/content-template-quick-launch-sms.png)
+
++++
 
 Para editar o conteúdo completo de um modelo, clique no item desejado na lista e faça as alterações desejadas. Também é possível editar as propriedades do template de conteúdo clicando no botão de edição ao lado do nome do template.
 

@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ebc8a412a74f4099840da6f6be57c0c4a0e3257
+source-git-commit: 7f826404545f1443bbb873e623206c568fabc739
 workflow-type: tm+mt
-source-wordcount: 3121
+source-wordcount: 3132
 ht-degree: 19%
 
 ---
@@ -341,9 +341,9 @@ Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúd
 
   ![](../content-management/assets/fragment-quick-launch.png)
 
-* **Atalhos de inicialização rápida no inventário Modelos** - O botão **[!UICONTROL Mais ações]** da lista Modelos de Conteúdo agora fornece acesso rápido a ações comuns: editar detalhes do modelo, simular conteúdo e excluir um modelo. Para modelos de email, atalhos adicionais permitem editar a linha de assunto e o corpo do email, exibir ou enviar uma prova, executar um relatório de spam e renderizar o email. [Saiba mais](../content-management/access-content-templates.md#quick-launch-templates)
+* **Atalhos de inicialização rápida no inventário Modelos** - O botão **[!UICONTROL Mais ações]** da lista Modelos de Conteúdo agora fornece acesso rápido a ações comuns: editar detalhes do modelo, simular conteúdo e excluir um modelo. Atalhos específicos para canais adicionais também estão disponíveis: para modelos de email, edite o corpo do email, exiba ou envie uma prova, execute um relatório de spam e renderize o email; para modelos SMS, verifique a contagem de caracteres e o número de segmentos. [Saiba mais](../content-management/access-content-templates.md#edit)
 
-  ![](../content-management/assets/content-template-quick-launch.png)
+  ![](../content-management/assets/content-template-quick-launch-email.png)
 
 * **Novas funções auxiliares em expressões de personalização** - Novas funções auxiliares agora estão disponíveis em expressões de personalização:
 
