@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
+source-git-commit: 2f46eef18beedb44cb9c3f0f1b947080740a41eb
 workflow-type: tm+mt
-source-wordcount: 9823
-ht-degree: 83%
+source-wordcount: 9976
+ht-degree: 82%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 83%
 # Atualizações na documentação {#latest-updates}
 
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
+
+## Agosto de 2026 {#august-2026}
+
+* A página **Medidas de proteção de vida útil (TTL) dos conjuntos de dados** foi atualizada com uma tabela **Conjuntos de dados afetados** significativamente expandida, agora cobrindo todos os conjuntos de dados gerados pelo sistema da Journey Optimizer (incluindo vários não listados anteriormente, como o Serviço de Consentimento da AJO, o Perfil de Mensagens Interativas, o Perfil de Push e os conjuntos de dados de Exportação de Mensagens) juntamente com uma nova coluna **Disponibilidade** indicando se cada conjunto de dados está incluído por padrão ou se requer um complemento ou licença específica. A página **Medidas de proteção e limitações** também foi atualizada para refletir a data de imposição confirmada para esta medida de proteção: a alteração será aplicada em **sandboxes de clientes existentes** a partir de **1 de outubro de 2026**. [Leia mais](../data/datasets-ttl.md#datasets)
+
+* Uma nova seção **Usar modo de configurações de imagem** foi adicionada à documentação de conteúdo generativo. Ele explica os modos **Balanceado**, **DAM** e **Creative** disponíveis em **[!UICONTROL Configurações de imagem]**, que controlam se as imagens de fontes de conteúdo geradas por IA da sua biblioteca de Gerenciamento de Ativos Digitais são geradas com IA ou mescladas com ambas. [Leia mais](../content-management/generative-uc.md#image-mode)
 
 ## Julho de 2026 {#july-2026}
 

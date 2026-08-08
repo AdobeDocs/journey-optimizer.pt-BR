@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
+source-git-commit: 40f1cad3e5c524514ba642c87040085c179c8e82
 workflow-type: tm+mt
-source-wordcount: 4612
-ht-degree: 93%
+source-wordcount: 4611
+ht-degree: 92%
 
 ---
 
@@ -64,7 +64,7 @@ A partir de fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) s
 * **90 dias** para os dados na loja de perfis
 * **13 meses** para dados no data lake
 
-Essa alteração será implementada nas **sandboxes de clientes existentes** em uma próxima fase. [Saiba mais sobre as medidas de proteção de tempo de vida (TTL) dos conjuntos de dados](../data/datasets-ttl.md)
+Esta alteração será aplicada em **sandboxes de clientes existentes** a partir de **1º de outubro de 2026**. [Saiba mais sobre as medidas de proteção de tempo de vida (TTL) dos conjuntos de dados](../data/datasets-ttl.md)
 
 ## Jornadas {#journeys-guardrails}
 

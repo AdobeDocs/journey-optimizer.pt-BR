@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6e13f186799c120eaf674fda2d722572af8e0149
+source-git-commit: 502dcdd62f6044006219367d42429cac9183568c
 workflow-type: tm+mt
 source-wordcount: 1212
 ht-degree: 11%
@@ -173,7 +173,7 @@ Observe que seu modelo do WhatsApp deve ser aprovado primeiro pelo Meta antes de
 
    >[!NOTE]
    >
-   >Você pode selecionar um modelo de **Fluxo do WhatsApp** para fornecer experiências interativas em várias telas, como pesquisas ou formulários de captura de clientes potenciais, diretamente na conversa no WhatsApp. Todas as respostas de entrada do WhatsApp, incluindo as enviadas por meio de modelos de fluxo do WhatsApp, são capturadas no _Conjunto de dados de eventos de rastreamento de canais do AJO_. [Saiba mais sobre conjuntos de dados do sistema](../data/get-started-datasets.md#system-datasets).
+   >Você pode selecionar um modelo de **Fluxo do WhatsApp** para fornecer experiências interativas em várias telas, como pesquisas ou formulários de captura de clientes potenciais, diretamente na conversa no WhatsApp. Todas as respostas de entrada do WhatsApp, incluindo as enviadas por meio de modelos de fluxo do WhatsApp, são capturadas no _Conjunto de dados de eventos de rastreamento de canal do AJO_. [Saiba mais sobre conjuntos de dados do sistema](../data/get-started-datasets.md#system-datasets).
 
 1. No campo **[!UICONTROL URL da imagem]**, adicione URLs de mídia para substituir quaisquer espaços reservados no modelo. As mídias de modelo do Meta são apenas espaços reservados. Para exibir imagens, áudio ou vídeo corretamente, você deve usar URLs externos do Adobe Experience Manager ou de outras fontes.
 
