@@ -7,19 +7,11 @@ role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
 TQID: https://experienceleague.adobe.com/64oNHWa7T8cd-RDZWq0hsAdopo0eh1bhst6NVQpA0Tk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: f88eedcc-cf3e-46b8-9e94-0293589325f3
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
 source-wordcount: 573
@@ -81,9 +73,9 @@ Para qualquer solicitação de decisão, você pode ter uma ou mais políticas/d
 
 * Para **várias** políticas/disposições de decisão em uma solicitação:
 
-   * Se `allowDuplicateDecisionItems` estiver definido como `false`: todos os itens na resposta são exclusivos (independentemente de para qual mensagem/política/posicionamento o item se destina).
+  * Se `allowDuplicateDecisionItems` estiver definido como `false`: todos os itens na resposta são exclusivos (independentemente de para qual mensagem/política/posicionamento o item se destina).
 
-   * Se `allowDuplicateDecisionItems` estiver definido como `true` (padrão): os itens na resposta podem ser duplicados (se várias mensagens/políticas/disposições de decisão se qualificarem para o mesmo item de decisão para essa solicitação).
+  * Se `allowDuplicateDecisionItems` estiver definido como `true` (padrão): os itens na resposta podem ser duplicados (se várias mensagens/políticas/disposições de decisão se qualificarem para o mesmo item de decisão para essa solicitação).
 
 ### Aplicar desduplicação em uma solicitação {#deduplication-in-request}
 
@@ -154,13 +146,13 @@ Digamos que você tenha a mesma política de decisão com a disposição do cabe
 
 * Se `itemId-X` for o único item de decisão qualificado para a política de decisão e a combinação de posicionamento:
 
-   * Se `allowDuplicateDecisionItems` for `true` (padrão): `itemId-X` é retornado para ambas as propostas em uma única resposta.
+  * Se `allowDuplicateDecisionItems` for `true` (padrão): `itemId-X` é retornado para ambas as propostas em uma única resposta.
 
-   * Se `allowDuplicateDecisionItems` for `false`:
+  * Se `allowDuplicateDecisionItems` for `false`:
 
-      * `itemId-X` é retornado para a primeira apresentação.
+    * `itemId-X` é retornado para a primeira apresentação.
 
-      * O item de decisão de fallback (também exclusivo) ou um item de decisão vazio é transmitido para a segunda proposta.
+    * O item de decisão de fallback (também exclusivo) ou um item de decisão vazio é transmitido para a segunda proposta.
 
 +++Decisionando resposta de amostra (`allowDuplicateDecisionItems` = `true`)
 

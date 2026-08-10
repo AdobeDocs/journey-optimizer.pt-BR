@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 6909
-ht-degree: 99%
+source-wordcount: 6911
+ht-degree: 98%
 
 ---
 
@@ -287,9 +283,9 @@ Esta versão vem com as melhorias listadas abaixo.
 
 * As seguintes melhorias foram introduzidas para melhorar os recursos de mensagens SMS com o Infobip e o Sinch:
 
-   * Você pode definir e gerenciar palavras-chave exclusivas para suas campanhas e jornadas de SMS, permitindo uma comunicação mais personalizada e eficiente.
+  * Você pode definir e gerenciar palavras-chave exclusivas para suas campanhas e jornadas de SMS, permitindo uma comunicação mais personalizada e eficiente.
 
-   * Você pode criar e enviar uma mensagem SMS padrão quando uma palavra-chave não for reconhecida.
+  * Você pode criar e enviar uma mensagem SMS padrão quando uma palavra-chave não for reconhecida.
 
   Saiba mais sobre essas melhorias na documentação da configuração de SMS do [Infobip](../mobile/mobile-configuration-infobip.md) e do [Sinch](../mobile/mobile-configuration-sinch.md).
 
@@ -311,8 +307,8 @@ Esta versão vem com as melhorias listadas abaixo.
 
 * **Tempo de vida (TTL) do conjunto de dados**: a partir de fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) será implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer em novas sandboxes e organizações da seguinte maneira:
 
-   * 90 dias para dados na loja de perfis
-   * 13 meses para dados no data lake
+  * 90 dias para dados na loja de perfis
+  * 13 meses para dados no data lake
 
   Essa alteração será implementada nas sandboxes de clientes existentes em uma fase futura. [Saiba mais](../data/datasets-ttl.md#ttl-guardrail)
 
@@ -639,7 +635,7 @@ Essa versão traz as melhorias listadas abaixo.
 
 **Jornadas**
 
-* Na atividade **Condição**, por padrão, a **[!UICONTROL condição de tempo]** agora é definida por hora, das 00:00 às 12:00. [Leia mais](../building-journeys/conditions.md#time_condition)
+* Na atividade **Condição**, por padrão, a **[!UICONTROL Condição de tempo]** agora é definida por hora, das 00:00 às 12:00. [Leia mais](../building-journeys/conditions.md#time_condition)
 * Ao criar as jornadas, os alertas agora são exibidos ao selecionar o botão **Alertas**, para que se alinhar a outros alertas e proporcionar uma experiência consistente aos usuários. [Leia mais](../building-journeys/troubleshooting.md#activity-errors)
 * As opções de zoom na barra de ferramentas da jornada foram aprimoradas: a porcentagem de zoom agora está visível e é possível redefinir mais facilmente o valor do zoom.
 
@@ -653,9 +649,9 @@ Essa versão traz as melhorias listadas abaixo.
 
 * Novos casos de uso foram adicionados à nova experiência de relatórios:
 
-   * Crie métricas calculadas personalizadas diretamente dos seus relatórios.
-   * Crie um público-alvo a partir dos dados de relatório.
-   * Use a ferramenta de Análise Exploratória para criar facilmente tabelas e visualizações a partir das **[!UICONTROL Dimensões]** e **[!UICONTROL Métricas]** selecionadas.
+  * Crie métricas calculadas personalizadas diretamente dos seus relatórios.
+  * Crie um público-alvo a partir dos dados de relatório.
+  * Use a ferramenta de Análise Exploratória para criar facilmente tabelas e visualizações a partir das **[!UICONTROL Dimensões]** e **[!UICONTROL Métricas]** selecionadas.
 
   Para obter mais informações, consulte a [documentação detalhada](../reports/report-cja-manage.md).
 
