@@ -28,8 +28,8 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 458
-ht-degree: 4%
+source-wordcount: 1053
+ht-degree: 1%
 
 ---
 
@@ -114,53 +114,53 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
   **Tipo:** objeto
   **Obrigatório:** &quot;formato&quot;
 
-   * **Formato**
+  * **Formato**
 
-     **Campo: formato**
-     **Título:** Formato
-     **Descrição:** A manifestação física ou digital do recurso. Normalmente, o Formato deve incluir o tipo de mídia do recurso. O formato pode ser usado para determinar o software, hardware ou outro equipamento necessário para exibir ou operar o recurso. A prática recomendada é selecionar um valor de um vocabulário controlado (por exemplo, a lista de [Tipos de Mídia da Internet]&#x200B;(https://www.iana.org/) definindo formatos de mídia de computador).
-     **Tipo:** cadeia de caracteres
-     **Exemplo:** &quot;application/vnd.adobe.photoshop&quot;
+    **Campo: formato**
+    **Título:** Formato
+    **Descrição:** A manifestação física ou digital do recurso. Normalmente, o Formato deve incluir o tipo de mídia do recurso. O formato pode ser usado para determinar o software, hardware ou outro equipamento necessário para exibir ou operar o recurso. A prática recomendada é selecionar um valor de um vocabulário controlado (por exemplo, a lista de [Tipos de Mídia da Internet]&#x200B;(https://www.iana.org/) definindo formatos de mídia de computador).
+    **Tipo:** cadeia de caracteres
+    **Exemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
-   * **Idioma**
+  * **Idioma**
 
-     **Campo:** idioma
-     **Título:** Idioma
-     **Descrição:** O idioma ou idiomas do recurso. \nOs idiomas são especificados no código de idioma conforme definido em [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que faz parte do BCP 47, que é usado em outro lugar no XDM.
-     **Tipo:** matriz
-     **Exemplos:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
+    **Campo:** idioma
+    **Título:** Idioma
+    **Descrição:** O idioma ou idiomas do recurso. \nOs idiomas são especificados no código de idioma conforme definido em [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que faz parte do BCP 47, que é usado em outro lugar no XDM.
+    **Tipo:** matriz
+    **Exemplos:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
 * **_experiência > decisão > conteúdo > componentes > _repo**
 
   **Campo:** _repo
   **Tipo:** objeto
 
-   * **id**
+  * **id**
 
-     **Campo:** id
-     **Descrição:** Um identificador exclusivo opcional para fazer referência ao ativo em um repositório de conteúdo. Quando as APIs da Platform são usadas para recuperar a representação, o cliente pode esperar uma propriedade adicional \&quot;repo:resolveUrl\&quot; para recuperar o ativo.
-     **Tipo:** cadeia de caracteres
-     **Exemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+    **Campo:** id
+    **Descrição:** Um identificador exclusivo opcional para fazer referência ao ativo em um repositório de conteúdo. Quando as APIs da Platform são usadas para recuperar a representação, o cliente pode esperar uma propriedade adicional \&quot;repo:resolveUrl\&quot; para recuperar o ativo.
+    **Tipo:** cadeia de caracteres
+    **Exemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
-   * **name**
+  * **name**
 
-     **Campo:** nome
-     **Descrição:** Uma dica sobre onde localizar o repositório que armazena o ativo externo pelo \&quot;repo:id\&quot;.
-     **Tipo:** cadeia de caracteres
+    **Campo:** nome
+    **Descrição:** Uma dica sobre onde localizar o repositório que armazena o ativo externo pelo \&quot;repo:id\&quot;.
+    **Tipo:** cadeia de caracteres
 
-   * **IDdoRepositório**
+  * **IDdoRepositório**
 
-     **Campo:** repositoryID
-     **Descrição:** Um identificador exclusivo opcional para fazer referência ao ativo em um repositório de conteúdo. Quando as APIs da Platform são usadas para recuperar a representação, o cliente pode esperar uma propriedade adicional \&quot;repo:resolveUrl\&quot; para recuperar o ativo.
-     **Tipo:** cadeia de caracteres
-     **Exemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+    **Campo:** repositoryID
+    **Descrição:** Um identificador exclusivo opcional para fazer referência ao ativo em um repositório de conteúdo. Quando as APIs da Platform são usadas para recuperar a representação, o cliente pode esperar uma propriedade adicional \&quot;repo:resolveUrl\&quot; para recuperar o ativo.
+    **Tipo:** cadeia de caracteres
+    **Exemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
-   * **resolverURL**
+  * **resolverURL**
 
-     **Campo:** resolveURL
-     **Descrição:** Um localizador de recursos exclusivo opcional para ler o ativo em um repositório de conteúdo. Isso facilitará a obtenção do ativo sem que o cliente entenda onde ele é gerenciado e quais APIs chamar. Isso é semelhante a um link HAL, mas a semântica é mais simples e mais funcional.
-     **Tipo:** cadeia de caracteres
-     **Exemplo:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+    **Campo:** resolveURL
+    **Descrição:** Um localizador de recursos exclusivo opcional para ler o ativo em um repositório de conteúdo. Isso facilitará a obtenção do ativo sem que o cliente entenda onde ele é gerenciado e quais APIs chamar. Isso é semelhante a um link HAL, mas a semântica é mais simples e mais funcional.
+    **Tipo:** cadeia de caracteres
+    **Exemplo:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experiência > decisão > conteúdo > componentes > conteúdo**
 
@@ -196,8 +196,8 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 +++ _experience > decisão > Status do ciclo de vida
 
 **Campo:** lifecycleStatus
-**Título:** Status do Ciclo de Vida
-**Descrição:** o status do ciclo de vida permite que os fluxos de trabalho sejam conduzidos com um objeto. O status pode afetar o local em que um objeto é visível ou considerado relevante. As alterações de status são orientadas pelos clientes ou serviços que usam os objetos.
+**Título:** Status do ciclo de vida
+**Descrição:** O status do ciclo de vida permite que os fluxos de trabalho sejam conduzidos com um objeto. O status pode afetar o local em que um objeto é visível ou considerado relevante. As alterações de status são orientadas pelos clientes ou serviços que usam os objetos.
 **Tipo:** cadeia de caracteres
 **Valores possíveis:** &quot;Rascunho&quot; (padrão), &quot;Aprovado&quot;, &quot;Ao Vivo&quot;, &quot;Concluído&quot;, &quot;Arquivado&quot;
 

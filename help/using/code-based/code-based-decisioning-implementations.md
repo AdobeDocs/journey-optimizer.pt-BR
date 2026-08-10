@@ -81,9 +81,9 @@ Para qualquer solicitação de decisão, você pode ter uma ou mais políticas/d
 
 * Para **várias** políticas/disposições de decisão em uma solicitação:
 
-   * Se `allowDuplicateDecisionItems` estiver definido como `false`: todos os itens na resposta são exclusivos (independentemente de para qual mensagem/política/posicionamento o item se destina).
+  * Se `allowDuplicateDecisionItems` estiver definido como `false`: todos os itens na resposta são exclusivos (independentemente de para qual mensagem/política/posicionamento o item se destina).
 
-   * Se `allowDuplicateDecisionItems` estiver definido como `true` (padrão): os itens na resposta podem ser duplicados (se várias mensagens/políticas/disposições de decisão se qualificarem para o mesmo item de decisão para essa solicitação).
+  * Se `allowDuplicateDecisionItems` estiver definido como `true` (padrão): os itens na resposta podem ser duplicados (se várias mensagens/políticas/disposições de decisão se qualificarem para o mesmo item de decisão para essa solicitação).
 
 ### Aplicar desduplicação em uma solicitação {#deduplication-in-request}
 
@@ -154,13 +154,13 @@ Digamos que você tenha a mesma política de decisão com a disposição do cabe
 
 * Se `itemId-X` for o único item de decisão qualificado para a política de decisão e a combinação de posicionamento:
 
-   * Se `allowDuplicateDecisionItems` for `true` (padrão): `itemId-X` é retornado para ambas as propostas em uma única resposta.
+  * Se `allowDuplicateDecisionItems` for `true` (padrão): `itemId-X` é retornado para ambas as propostas em uma única resposta.
 
-   * Se `allowDuplicateDecisionItems` for `false`:
+  * Se `allowDuplicateDecisionItems` for `false`:
 
-      * `itemId-X` é retornado para a primeira apresentação.
+    * `itemId-X` é retornado para a primeira apresentação.
 
-      * O item de decisão de fallback (também exclusivo) ou um item de decisão vazio é transmitido para a segunda proposta.
+    * O item de decisão de fallback (também exclusivo) ou um item de decisão vazio é transmitido para a segunda proposta.
 
 +++Decisionando resposta de amostra (`allowDuplicateDecisionItems` = `true`)
 

@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 6fd0d8eae9973715bef07b40939a8bd5e71655ad
+source-git-commit: d5c597cedd10738593d5567ea8be52cd3d6c9588
 workflow-type: tm+mt
 source-wordcount: 1621
 ht-degree: 0%
@@ -274,11 +274,11 @@ A opção **[!UICONTROL Modo]** em **[!UICONTROL Configurações de imagem]** co
 
 1. Escolha o **[!UICONTROL Modo]** no menu **[!UICONTROL Configurações de imagem]**:
 
-   * **[!UICONTROL Balanceado]** (padrão): primeiro a IA usa a imagem correspondente da sua biblioteca de Gerenciamento de ativos digitais. Quando isso não é suficiente para cobrir os visuais que você precisa, ele gera imagens com IA.
+   * **[!UICONTROL Equilibrado]**: primeiro, a IA usa a imagem correspondente da sua biblioteca de Gerenciamento de ativos digitais. Quando isso não é suficiente para cobrir os visuais que você precisa, ele gera imagens com IA.
      Para usar isso, habilite a opção Usar imagens do DAM e escolha uma pasta na biblioteca de Gerenciamento de ativos digitais para definir o caminho do DAM.
    * **[!UICONTROL DAM]** (Gerenciamento de ativos digitais): a IA procura uma imagem correspondente na sua biblioteca de Gerenciamento de ativos digitais e a usa como parte do conteúdo gerado. Se nenhuma correspondência for encontrada, adicione conteúdo de referência ou imagens manualmente antes de gerar.
      Escolha uma pasta da biblioteca de Gerenciamento de ativos digitais para definir o caminho do DAM.
-   * **[!UICONTROL Creative]**: a IA cria imagens com IA gerativa e não extrai imagens diretamente da sua biblioteca de Gerenciamento de ativos digitais.
+   * **[!UICONTROL Creative]** (padrão): a IA cria imagens com IA gerativa e não extrai imagens diretamente da sua biblioteca de Gerenciamento de ativos digitais.
 
    ![](assets/image-mode-3.png)
 
