@@ -11,9 +11,9 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 8248d158b42650e91bc16770264eadce2b528508
+source-git-commit: 7f4a751b25a46a891cd13dfa0f80087e7be12387
 workflow-type: tm+mt
-source-wordcount: 3102
+source-wordcount: 2933
 ht-degree: 0%
 
 ---
@@ -153,33 +153,33 @@ Se sua jornada usar um público externo, por exemplo, um público-alvo CSV ou Fe
 
    ![Criar editor JSON de Usuários Simulados com modelo de usuários e controle Formatar JSON](assets/simulate-json.png)
 
-   Para reutilizar valores de atributo de um perfil ou [perfil de teste](../audience/creating-test-profiles.md) em [!DNL Adobe Experience Platform]:
-
-   1. Navegue até o perfil que deseja usar como referência. Na página de detalhes do perfil, clique em **[!UICONTROL Exibir JSON]**. [Saiba mais](../audience/get-started-profiles.md)
-
-      ![Modo de exibição JSON de perfil no Adobe Experience Platform](assets/simulate-json-1.png)
-
-   1. Copie o JSON do visualizador.
-
-   1. Na jornada, abra **[!UICONTROL Configurações de simulação]**, inicie **[!UICONTROL Criar Usuários Simulados]** e escolha **Criar a partir de JSON**.
-
-   1. Cole o JSON na parte correspondente do modelo de usuário simulado (por exemplo, o bloco de atributo de um usuário). Clique em **[!UICONTROL Formatar JSON]** para validar a estrutura.
-
-      ![Criar editor JSON de Usuários Simulados com atributos de perfil colados](assets/simulate-json-2.png)
-
-   1. Remova as propriedades que existem no perfil [!DNL Adobe Experience Platform] vinculadas apenas ao perfil de origem, como mergePolicyId ou lastModifiedAt.
-
-   1. Defina os campos exigidos pelo modelo de usuário simulado: **[!UICONTROL Nome de exibição]**, **[!UICONTROL Namespace de identidade]**, valor de identidade e endereços de execução de canal.
-
-   1. Clique em **[!UICONTROL Save]**. Use o ![ícone Editar](assets/do-not-localize/Smock_Edit_18_N.svg) no usuário simulado salvo para examinar os dados antes de executar a **[!UICONTROL Simulação]**.
-
-      ![Criar editor JSON de Usuários Simulados com modelo de usuários e controle Formatar JSON](assets/simulate-json-3.png)
-
-      >[!WARNING]
-      >
-      >Se você colar o perfil JSON, remova ou substitua todos os identificadores de produção e pontos de contato (email, telefone, ECID, token de push e semelhantes). A simulação enviará mensagens usando os dados fornecidos.
-
    +++
+
+<!--
+    To reuse attribute values from a profile or [test profile](../audience/creating-test-profiles.md) in [!DNL Adobe Experience Platform]:
+
+    1. Browse to the profile you want to use as a reference. On the profile detail page, click **[!UICONTROL View JSON]**. [Learn more](../audience/get-started-profiles.md)
+
+        ![Profile JSON view in Adobe Experience Platform](assets/simulate-json-1.png)
+
+    1. Copy the JSON from the viewer.
+
+    1. In the journey, open **[!UICONTROL Simulation settings]**, start **[!UICONTROL Create Simulated Users]**, and choose **Create from JSON**.
+
+    1. Paste the JSON into the matching part of the simulated user template (for example, the attribute block for one user). Click **[!UICONTROL Format JSON]** to validate the structure.
+
+        ![Create Simulated Users JSON editor with pasted profile attributes](assets/simulate-json-2.png)
+
+    1. Remove properties that exist on the [!DNL Adobe Experience Platform] profile only tied to the source profile, such as mergePolicyId or lastModifiedAt.
+
+    1. Set the fields required by the simulated user template: **[!UICONTROL Display name]**, **[!UICONTROL Identity namespace]**, identity value, and channel execution addresses.
+
+    1. Click **[!UICONTROL Save]**. Use ![Edit icon](assets/do-not-localize/Smock_Edit_18_N.svg) on the saved simulated user to review the data before you run **[!UICONTROL Simulation]**.
+
+        ![Create Simulated Users JSON editor with users template and Format JSON control](assets/simulate-json-3.png)
+
+        If you paste profile JSON, remove or replace all production identifiers and contact points (email, phone, ECID, push token, and similar). Simulation will send messages using the data you provide.
+-->
 
 1. Os usuários simulados que você criou aparecem na lista **[!UICONTROL Usuários de teste]**. Para cada entrada, selecione uma das seguintes opções:
 

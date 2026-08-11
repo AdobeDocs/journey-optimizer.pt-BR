@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+source-git-commit: cdb1d9318947718af080792d1257ede354d76c87
 workflow-type: tm+mt
-source-wordcount: '3489'
+source-wordcount: '3496'
 ht-degree: 93%
 
 ---
@@ -267,7 +267,8 @@ ht-degree: 93%
     + [Visualizar usando perfis de teste](using/content-management/preview.md)
     + [Enviar provas usando dados de perfil de teste](using/content-management/proofs.md)
     + [Testar o e-mail rendering](using/content-management/rendering.md)
-    + [Simular variações de conteúdo](using/test-approve/simulate-sample-input.md)
+    + [Simular variações de conteúdo (experiência clássica)](using/test-approve/simulate-sample-input.md)
+    + [Simular variações de conteúdo (nova experiência)](using/test-approve/simulate-content-variations.md)
     + [Relatório de spam de email](using/content-management/spam-report.md)
   + Aprovar jornadas e campanhas {#approve}
     + [Aprovar jornadas e campanhas](/help/rp_landing_pages/approve-landing-page.md)
@@ -569,7 +570,7 @@ ht-degree: 93%
   + Gerar conteúdo {#generate-content}
     + [Introdução à Geração de conteúdo](using/content-management/gs-generative.md)
     + [Práticas recomendadas para prompts de IA](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[Content Credentials no Assistente de IA](using/content-management/generative-content-credentials.md)
+    + {hide-from-toc}[Content Credentials no Assistente de IA](using/content-management/generative-c2pa-metadata.md)
     + [Gerar conteúdo completo com IA](using/content-management/generative-full-content.md)
     + [Gerar texto com IA](using/content-management/generative-text.md)
     + [Gere imagens com IA](using/content-management/generative-image.md)

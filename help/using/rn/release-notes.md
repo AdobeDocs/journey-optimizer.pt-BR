@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7f826404545f1443bbb873e623206c568fabc739
+source-git-commit: 6dabca3a59638bc198d448bef1c5e9b5f069fbb8
 workflow-type: tm+mt
-source-wordcount: 3132
+source-wordcount: 3139
 ht-degree: 19%
 
 ---
@@ -70,6 +70,11 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tbody>
 </table>
 
+### Melhorias de usabilidade {#august-26-usability}
+
+* **Nova experiência de Simulação de Conteúdo para testes de conteúdo** - O fluxo de trabalho **Simular conteúdo** apresenta uma experiência reprojetada: todas as variantes agora são renderizadas juntas em uma única grade rolável (lado a lado, empilhadas ou com layouts dispostos), substituindo o modo de exibição uma variante de cada vez. Uma única barra de ação inferior consolida a navegação entre variantes de teste, o zoom, a alternância de visor (desktop/celular), a alternância de local, a adição de entradas de amostra, a geração de variantes com IA, a escolha e o salvamento de usuários simulados e a importação ou exportação de variantes. Remover o painel esquerdo e recolher camadas de cabeçalho extras oferece visualizações com muito mais espaço. A opção **Alternar para experiência clássica** na barra de ação inferior permite reverter para a experiência anterior a qualquer momento. [Saiba mais](../test-approve/simulate-content-variations.md)
+
+  Data de disponibilidade: 11 de agosto de 2026
 
 ## Notas de versão de julho de 2026 {#july-26-updates}
 
@@ -337,14 +342,6 @@ Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúd
 </tbody>
 </table>
 
-* **Atalhos de inicialização rápida no inventário Fragmentos** - Agora você pode acessar rapidamente ações comuns da lista Fragmentos usando o botão **[!UICONTROL Mais ações]**. Os atalhos disponíveis incluem editar o fragmento, abrir os detalhes e descartar a versão de rascunho. [Saiba mais](../content-management/manage-fragments.md#quick-launch-fragments)
-
-  ![](../content-management/assets/fragment-quick-launch.png)
-
-* **Atalhos de inicialização rápida no inventário Modelos** - O botão **[!UICONTROL Mais ações]** da lista Modelos de Conteúdo agora fornece acesso rápido a ações comuns: editar detalhes do modelo, simular conteúdo e excluir um modelo. Atalhos específicos para canais adicionais também estão disponíveis: para modelos de email, edite o corpo do email, exiba ou envie uma prova, execute um relatório de spam e renderize o email; para modelos SMS, verifique a contagem de caracteres e o número de segmentos. [Saiba mais](../content-management/access-content-templates.md#edit)
-
-  ![](../content-management/assets/content-template-quick-launch-email.png)
-
 * **Novas funções auxiliares em expressões de personalização** - Novas funções auxiliares agora estão disponíveis em expressões de personalização:
 
   * `appendQueryParams`: anexa um parâmetro de consulta a uma URL ou a substitui se a chave já existir.
@@ -445,8 +442,11 @@ A seguinte melhoria está chegando aos relatórios nesta versão.
 
 ### Melhorias de usabilidade {#july-26-usability}
 
-+++Em breve
+* **Atalhos de inicialização rápida no inventário Fragmentos** - Agora você pode acessar rapidamente ações comuns da lista Fragmentos usando o botão **[!UICONTROL Mais ações]**. Os atalhos disponíveis incluem editar o fragmento, abrir os detalhes e descartar a versão de rascunho. [Saiba mais](../content-management/manage-fragments.md#quick-launch-fragments)
 
-* **Nova experiência de Simulação de Conteúdo para testes de conteúdo** - O fluxo de trabalho **Simular conteúdo** apresenta uma experiência reprojetada: todas as variantes agora são renderizadas juntas em uma única grade rolável (lado a lado, empilhadas ou com layouts dispostos), substituindo o modo de exibição uma variante de cada vez. Uma única barra de ação inferior consolida a navegação entre variantes de teste, o zoom, a alternância de visor (desktop/celular), a alternância de local, a adição de entradas de amostra, a geração de variantes com IA, a escolha e o salvamento de usuários simulados e a importação ou exportação de variantes. Remover o painel esquerdo e recolher camadas de cabeçalho extras oferece visualizações com muito mais espaço. A opção **Alternar para experiência clássica** na barra de ação inferior permite reverter para a experiência anterior a qualquer momento.
+  ![](../content-management/assets/fragment-quick-launch.png)
 
-+++
+* **Atalhos de inicialização rápida no inventário Modelos** - O botão **[!UICONTROL Mais ações]** da lista Modelos de Conteúdo agora fornece acesso rápido a ações comuns: editar detalhes do modelo, simular conteúdo e excluir um modelo. Atalhos específicos para canais adicionais também estão disponíveis: para modelos de email, edite o corpo do email, exiba ou envie uma prova, execute um relatório de spam e renderize o email; para modelos SMS, verifique a contagem de caracteres e o número de segmentos. [Saiba mais](../content-management/access-content-templates.md#edit)
+
+  ![](../content-management/assets/content-template-quick-launch-email.png)
+

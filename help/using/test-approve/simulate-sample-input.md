@@ -7,7 +7,6 @@ feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
 product_v2:
@@ -25,10 +24,10 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
+source-git-commit: 0ea831b383982d312357e1d7893675818650325e
 workflow-type: tm+mt
-source-wordcount: 1399
-ht-degree: 4%
+source-wordcount: 1432
+ht-degree: 3%
 
 ---
 
@@ -39,6 +38,10 @@ ht-degree: 4%
 **Nesta página:** confirme se o conteúdo personalizado está sendo renderizado corretamente para cada tipo de destinatário, testando as variantes geradas com IA, inseridas manualmente, importadas de um arquivo ou com base em usuários simulados e, em seguida, visualizando-as e enviando provas.
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Uma experiência de simulação reprojetada agora está disponível, apresentando todas as variantes em uma grade lado a lado rolável, uma barra de ação inferior consolidada e mais espaço físico na tela para visualizações. [Explore a nova experiência](simulate-content-variations.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
@@ -68,9 +71,9 @@ Antes de começar a testar seu conteúdo usando exemplos de dados de entrada, co
 
 * **Canais** - A simulação de variações de conteúdo está disponível para:
 
-   * Os canais de email, SMS e notificação por push;
-   * todos os canais de entrada (Web, experiência baseada em código, no aplicativo, cartões de Conteúdo);
-   * Campanhas orquestradas.
+  * Os canais de email, SMS e notificação por push;
+  * todos os canais de entrada (Web, experiência baseada em código, no aplicativo, cartões de Conteúdo);
+  * Campanhas orquestradas.
 
 * **Recursos com suporte** - As variações de conteúdo podem ser usadas com [!DNL Journey Optimizer] recursos de conteúdo multilíngue e experimentos de conteúdo. Isso permite testar mensagens em vários idiomas e otimizar o conteúdo por meio de experimentação.
 
