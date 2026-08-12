@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1548a309c81c80bc7c4534382530a4123e86f3d8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
 workflow-type: tm+mt
-source-wordcount: 3225
+source-wordcount: 3245
 ht-degree: 19%
 
 ---
@@ -65,6 +53,27 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <p><img src="../content-management/assets/image-mode-3.png"></p>
 <p>Para obter mais informações, consulte a <a href="../content-management/generative-uc.md#image-mode">documentação detalhada</a>.</p>
 <p> Data de disponibilidade: 5 de agosto de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Campanhas {#aug-26-campaigns}
+
+<table>
+<thead>
+<tr>
+<th><strong>Anexos personalizados do PDF em emails acionados por API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Journey Optimizer agora oferece suporte a até <b>cinco anexos do PDF</b> no total por email em campanhas acionadas por API, incluindo PDFs estáticos e específicos de destinatários. Os arquivos PDF específicos do recipient são buscados com segurança da Data Landing Zone e anexados no momento do envio, com o local de cada arquivo transmitido diretamente na carga da API. Isso permite que os sistemas de geração de documentos upstream existentes permaneçam em vigor, com o Journey Optimizer lidando com a entrega.</p>
+<p>Os casos de uso suportados incluem faturas, demonstrativos, tíquetes, contratos, etiquetas de remessa e documentos semelhantes que variam de acordo com o recipient. Os anexos personalizados do PDF estão disponíveis somente para campanhas de email transacionais acionadas por API e não são compatíveis com jornadas ou campanhas orquestradas.</p>
+<p>Volumes e tamanhos de anexo maiores são suportados por meio do complemento de anexo do PDF; para obter mais informações, entre em contato com o representante da Adobe.</p>
+<p>Para obter mais informações, consulte a <a href="../email/pdf-attachments.md#personalized-attachments">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 12 de agosto de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -420,25 +429,6 @@ A seguinte melhoria está chegando aos relatórios nesta versão.
 ### Campanhas {#campaigns}
 
 +++ Em breve
-
-<table>
-<thead>
-<tr>
-<th><strong>Anexos personalizados do PDF em emails acionados por API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Journey Optimizer agora é compatível com a anexação de até cinco PDFs específicos do recipient por email em campanhas acionadas por API. Os arquivos do PDF são buscados com segurança do armazenamento do Azure ou do AWS e anexados no momento do envio, com o local de cada arquivo transmitido diretamente na carga da API. Isso permite que os sistemas de geração de documentos upstream existentes permaneçam em vigor, com o Journey Optimizer lidando com a entrega.</p>
-<p>Os casos de uso suportados incluem faturas, demonstrativos, tíquetes, contratos, etiquetas de remessa e documentos semelhantes que variam de acordo com o recipient. Os anexos personalizados do PDF estão disponíveis somente em campanhas acionadas por API e não são compatíveis com jornadas ou outros tipos de campanha (ação, orquestrada).</p>
-<p>Volumes e tamanhos de anexo maiores são suportados por meio do complemento de anexo do PDF; para obter mais informações, entre em contato com o representante da Adobe.</p>
-<p></p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
 
 * **Complemento de desempenho para taxa de transferência em campanhas acionadas por API - Push** - Um novo modo de mensagens transacionais de alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Anteriormente disponível apenas para o canal de email, esse recurso agora também está disponível para o canal de push, para organizações que compraram a oferta complementar de Mensagens transacionais de alta capacidade da Adobe. Entre em contato com seu representante da Adobe para obter mais detalhes. <!-- Documentation link: TBD -->
 

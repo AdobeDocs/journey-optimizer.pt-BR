@@ -10,22 +10,15 @@ level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
 TQID: https://experienceleague.adobe.com/bGwpeOAxkX8JWh2c-CNrq7-L1YphGT0aoQvUJBia4IE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
 workflow-type: tm+mt
-source-wordcount: 480
-ht-degree: 2%
+source-wordcount: 521
+ht-degree: 5%
 
 ---
 
@@ -58,6 +51,10 @@ O processo de criação de conteúdo depende do canal selecionado. Saiba mais so
 >
 >[Campanhas de alta taxa de transferência](../campaigns/api-triggered-high-throughput.md) não dependem de perfis do Adobe: toda a personalização deve ser incluída na carga da API como dados de contexto, conforme detalhado abaixo. Esse modo está disponível somente para o canal de email e na região dos EUA.
 
+## Anexar arquivos personalizados do PDF {#attachments}
+
+Para campanhas de email transacionais acionadas por API, é possível incluir até cinco anexos do PDF em um email, incluindo anexos estáticos e personalizados. Cada recipient pode receber PDFs personalizados diferentes. [Saiba como anexar arquivos personalizados do PDF](../email/pdf-attachments.md#personalized-attachments)
+
 ## Personalizar conteúdo usando dados contextuais {#contextual}
 
 Você pode transmitir dados adicionais para a carga da API que você pode usar para personalizar sua mensagem.
@@ -82,7 +79,7 @@ Observe que, por enquanto, nenhum atributo contextual está disponível para uso
 Depois que o conteúdo for definido, use o botão **[!UICONTROL Simular conteúdo]** para visualizar e testar o conteúdo. É possível usar qualquer um dos métodos de simulação:
 
 * Clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com dados de entrada de exemplo ou geração automática de IA.
-* Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para visualizar com perfis de teste.
+* Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis da AEP)]** na lista suspensa para visualizar com perfis de teste.
 
 [Saiba como visualizar e testar o conteúdo](../content-management/preview-test.md). Para voltar para a tela de criação da campanha, clique na seta para a esquerda.
 
