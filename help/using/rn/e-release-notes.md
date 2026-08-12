@@ -6,19 +6,13 @@ description: Notas de pré-lançamento do Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1b68a987121407a6fa95f21fb328ad2d349108c0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: dc3bbca5a794aeccfd6ef1873b80f85369fcb39c
 workflow-type: tm+mt
-source-wordcount: 1839
-ht-degree: 20%
+source-wordcount: 1271
+ht-degree: 15%
 
 ---
 
@@ -35,28 +29,30 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 
 **Data de lançamento**: 18 a 19 de agosto de 2026
 
-### Integração {#august-26-onboarding}
+<!--
+### Onboarding {#august-26-onboarding}
 
-O recurso a seguir está sendo integrado nesta versão.
+The following capability is coming to onboarding in this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>Recursos guiados para integração de emails e jornadas (disponibilidade geral)</strong><br/></th>
+<th><strong>Guided capabilities for onboarding emails and journeys (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A transição para o Adobe Journey Optimizer a partir de outra plataforma de marketing é mais fácil com recursos guiados que ajudam a mover o conteúdo e as jornadas de email existentes para o Journey Optimizer. Um espaço de trabalho dedicado permite reutilizar o que você tem, em vez de reconstruir do zero.</p>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15330">DOCAC-15330</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
+<p>Transitioning to Adobe Journey Optimizer from another marketing platform is easier with guided capabilities that help you move existing email content and journeys into Journey Optimizer. A dedicated workspace lets you reuse what you have instead of rebuilding from scratch.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<GIF placeholder: to be added>
+<Documentation link: TBD>
 </td>
 </tr>
 </tbody>
 </table>
+
+-->
 
 ### Jornadas {#august-26-journeys}
 
@@ -72,7 +68,6 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 <tr>
 <td>
 <p>Agora você pode configurar um grupo de controle para suas jornadas diretamente das propriedades do jornada. Uma validação é uma porcentagem configurável do público-alvo que é excluído da entrada na jornada e não recebe nenhuma comunicação. Ao comparar perfis de controle com perfis ativos nos relatórios do Customer Journey Analytics, é possível medir o aumento incremental - o impacto real - que a jornada oferece.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15162">DOCAC-15162</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -80,9 +75,9 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 </tbody>
 </table>
 
-* **Adicionar nova função dateDiff no editor de expressão de jornada** - O editor de expressão de jornada agora inclui a função `dateDiff`, que calcula a diferença entre duas datas em número de dias. Essa função é útil para uma lógica baseada no tempo, como criar prazos, calcular durações de ciclo de vida do cliente ou criar cronômetros de contagem regressiva em condições de jornada. <a href="https://jira.corp.adobe.com/browse/DOCAC-15293">DOCAC-15293</a> <!-- Documentation link: TBD -->
+* **Adicionar nova função dateDiff no editor de expressão de jornada** - O editor de expressão de jornada agora inclui a função `dateDiff`, que calcula a diferença entre duas datas em número de dias. Essa função é útil para uma lógica baseada no tempo, como criar prazos, calcular durações de ciclo de vida do cliente ou criar cronômetros de contagem regressiva em condições de jornada. <!-- Documentation link: TBD -->
 
-* **Datas de início e término no cabeçalho da jornada** - Quando as datas de início e/ou término são configuradas em uma jornada, elas agora são exibidas no cabeçalho da jornada ao lado da notificação de status. O rótulo exibido se adapta com base no fato de cada data ser futura ou já ter passado. <a href="https://jira.corp.adobe.com/browse/DOCAC-14702">DOCAC-14702</a> <!-- Documentation link: TBD -->
+* **Datas de início e término no cabeçalho da jornada** - Quando as datas de início e/ou término são configuradas em uma jornada, elas agora são exibidas no cabeçalho da jornada ao lado da notificação de status. O rótulo exibido se adapta com base no fato de cada data ser futura ou já ter passado. <!-- Documentation link: TBD -->
 
 ### Campanhas {#august-26-camp}
 
@@ -99,7 +94,6 @@ Os seguintes recursos e melhorias estão chegando às campanhas nesta versão.
 <td>
 <p>Agora é possível simular ações de canal de entrada em Campanhas de ação antes de entrar em atividade. Use o modo de simulação para testar sua configuração com usuários simulados e visualizar a experiência renderizada, incluindo um URL gerado e um código QR, para que você possa validar regras, decisões e renderização de conteúdo de ponta a ponta.</p>
 <p>No momento, esse recurso está em beta privado e disponível para um conjunto limitado de organizações. Entre em contato com o representante da Adobe para obter mais informações.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15166">DOCAC-15166</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -107,11 +101,13 @@ Os seguintes recursos e melhorias estão chegando às campanhas nesta versão.
 </tbody>
 </table>
 
-* **Pastas para Campanhas** - Agora você pode organizar suas campanhas em pastas para melhorar a navegação e o gerenciamento na interface. <a href="https://jira.corp.adobe.com/browse/DOCAC-15098">DOCAC-15098</a> <!-- Documentation link: TBD -->
+* **Redesign do fluxo de criação do Campaign** - O fluxo de criação do Adobe Journey Optimizer Campaign foi reprojetado para fornecer uma experiência do usuário significativamente mais intuitiva, eficiente e contínua.
 
-* **Pontuação de alinhamento da marca no painel do Campaign**: agora é possível avaliar a pontuação de alinhamento da marca diretamente no painel do Campaign para garantir que o conteúdo permaneça consistente com a marca. Isso permite verificar as diretrizes rapidamente sem precisar abrir o designer de conteúdo. <a href="https://jira.corp.adobe.com/browse/DOCAC-14516">DOCAC-14516</a> <!-- Documentation link: TBD -->
+* **Pastas para Campanhas** - Agora você pode organizar suas campanhas em pastas para melhorar a navegação e o gerenciamento na interface. <!-- Documentation link: TBD -->
 
-* **Substituir o campo de execução padrão em campanhas**: agora é possível substituir o campo de execução padrão definido globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da campanha, possibilidade que antes estava disponível no nível de jornada. <a href="https://jira.corp.adobe.com/browse/DOCAC-14718">DOCAC-14718</a> <!-- Documentation link: TBD -->
+<!--* **Brand alignment score in Campaign dashboard** - You can now assess your brand alignment score directly within your Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.  Documentation link: TBD -->
+
+* **Substituir o campo de execução padrão em campanhas** - Disponível anteriormente no nível de jornada, agora é possível substituir o campo de execução padrão definido globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da campanha. <!-- Documentation link: TBD -->
 
 ### Campanhas orquestradas {#august-26-oc}
 
@@ -127,7 +123,6 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 <tr>
 <td>
 <p>Agora você pode aplicar horas de silêncio. As horas de silêncio permitem definir exclusões com base no tempo para evitar que as mensagens sejam enviadas durante períodos específicos, ajudando você a respeitar as preferências do cliente e os requisitos de conformidade em casos de uso de orquestração de campanha.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14054">DOCAC-14054</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -144,8 +139,7 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 <tbody>
 <tr>
 <td>
-<p>Agora é possível adicionar ações LINE diretamente em suas campanhas. Essa nova atividade permite criar e fornecer conteúdo altamente personalizado, incluindo texto, adesivos, imagens, vídeos, dados de localização e mensagens avançadas do Flex, para envolver seus clientes perfeitamente na plataforma LINE. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14905">DOCAC-14905</a></p>
+<p>Com o lançamento do recurso Canais de saída personalizados, agora é possível adicionar ações LINE diretamente em suas campanhas. Essa nova atividade permite criar e fornecer conteúdo altamente personalizado, incluindo texto, adesivos, imagens, vídeos, dados de localização e mensagens avançadas do Flex, para envolver seus clientes perfeitamente na plataforma LINE. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -153,15 +147,15 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 </tbody>
 </table>
 
-* **Capacidade de Gerenciar Dimensões de Destino do Perfil** - Agora é possível excluir um Dimension de Destino do Perfil ou editar e trocar seu namespace de identidade configurado, fornecendo maior controle e flexibilidade sobre as configurações de dados. <a href="https://jira.corp.adobe.com/browse/DOCAC-15018">DOCAC-15018</a> <!-- Documentation link: TBD -->
+* **Capacidade de Gerenciar Dimensões de Destino do Perfil** - Agora é possível excluir um Dimension de Destino do Perfil ou editar e trocar seu namespace de identidade configurado, fornecendo maior controle e flexibilidade sobre as configurações de dados. <!-- Documentation link: TBD -->
 
-* **Novas APIs públicas** - Novas especificações de API já estão disponíveis. Essas APIs permitem criar, gerenciar e acionar campanhas orquestradas de forma programática, permitindo uma integração mais profunda com sistemas externos e pipelines de automação. <a href="https://jira.corp.adobe.com/browse/DOCAC-14308">DOCAC-14308</a> <!-- Documentation link: TBD -->
+* **Novas APIs públicas** - Novas especificações de API já estão disponíveis. Essas APIs permitem criar, gerenciar e acionar campanhas orquestradas de forma programática, permitindo uma integração mais profunda com sistemas externos e pipelines de automação. <!-- Documentation link: TBD -->
 
-* **Personalizar detalhes do remetente de email por destinatário e campanha** - As campanhas orquestradas agora oferecem suporte à personalização de campos de cabeçalho de email, incluindo Nome do remetente, Endereço do remetente e Responder para, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o consultor, o local ou a filial relevante para cada destinatário, em vez de encaminhar todos os envios por meio de um único endereço corporativo. Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso. <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">DOCAC-13761</a> <!-- Documentation link: TBD -->
+* **Personalizar detalhes do remetente de email por destinatário e campanha** - As campanhas orquestradas agora oferecem suporte à personalização de campos de cabeçalho de email, incluindo Nome de origem, Prefixo de email de origem, Nome de resposta e Email de destino, bem como endereço de execução, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o consultor, o local ou a filial relevante para cada destinatário, em vez de encaminhar todos os envios por meio de um único endereço corporativo. Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso. <!-- Documentation link: TBD -->
 
-* **Simplificação da dimensão de público-alvo** - A dimensão de público-alvo ativa agora é mostrada na tela do fluxo de trabalho, para que você possa ver qual dimensão é usada por uma atividade de canal. O fluxo de segmentação de várias entidades é mais simples, pois você não precisa mais de uma atividade &quot;Alterar dimensão&quot; separada. Além disso, agora você pode escolher explicitamente se as mensagens são enviadas no nível do perfil ou em um nível de dimensão secundário. <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">DOCAC-13554</a> <!-- Documentation link: TBD -->
+* **Simplificação da dimensão de público-alvo** - A dimensão de público-alvo ativa agora é mostrada na tela do fluxo de trabalho, para que você possa ver qual dimensão é usada por uma atividade de canal. O fluxo de segmentação de várias entidades é mais simples, pois você não precisa mais de uma atividade &quot;Alterar dimensão&quot; separada. Além disso, agora você pode escolher explicitamente se as mensagens são enviadas no nível do perfil ou em um nível de dimensão secundário. <!-- Documentation link: TBD -->
 
-* **Enviar usando ondas** - Agora é possível agendar mensagens de saída para serem entregues em lotes controlados ao longo do tempo. Ideal para campanhas de alto volume ou sensíveis ao tempo, o envio de ondas também oferece suporte a uma melhor capacidade de entrega e ajuda a manter uma sólida reputação do remetente, reduzindo o risco de ser sinalizado como spam. <a href="https://jira.corp.adobe.com/browse/DOCAC-13990">DOCAC-13990</a> <!-- Documentation link: TBD -->
+* **Enviar usando ondas** - Agora é possível agendar mensagens de saída para serem entregues em lotes controlados ao longo do tempo. Ideal para campanhas de alto volume ou sensíveis ao tempo, o envio de ondas também oferece suporte a uma melhor capacidade de entrega e ajuda a manter uma sólida reputação do remetente, reduzindo o risco de ser sinalizado como spam. <!-- Documentation link: TBD -->
 
 ### Canais {#august-26-channels}
 
@@ -177,7 +171,6 @@ Os seguintes recursos e melhorias estão chegando aos canais nesta versão.
 <tr>
 <td>
 <p>A decisão agora está disponível para o canal da Web. Você pode usar políticas de decisão diretamente no editor visual da Web para fornecer as ofertas mais relevantes a cada visitante.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11548">DOCAC-11548</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -185,55 +178,28 @@ Os seguintes recursos e melhorias estão chegando aos canais nesta versão.
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Anexos personalizados do PDF em emails acionados por API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Journey Optimizer agora é compatível com a anexação de até cinco PDFs específicos do recipient por email em campanhas acionadas por API. Os arquivos do PDF são obtidos com segurança da Data Landing Zone e anexados no momento do envio, com o local de cada arquivo transmitido diretamente na carga da API. Isso permite que os sistemas de geração de documentos upstream existentes permaneçam em vigor, com o Journey Optimizer lidando com a entrega.</p>
-<p>Os casos de uso suportados incluem faturas, demonstrativos, tíquetes, contratos, etiquetas de remessa e documentos semelhantes que variam de acordo com o recipient. Os anexos personalizados do PDF estão disponíveis somente em campanhas acionadas por API e não são compatíveis com jornadas ou campanhas orquestradas.</p>
-<p>Volumes e tamanhos de anexo maiores são suportados por meio do complemento de anexo do PDF; para obter mais informações, entre em contato com o representante da Adobe.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15186">DOCAC-15186</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
 
-* **Canal LINE - alterações de criação**: a interface do canal LINE foi atualizada com recursos avançados de criação de mensagens. Essa versão apresenta suporte para vários formatos de mensagem, incluindo Texto, Imagem, Imagemap, Carrossel e Flex (Editor JSON), juntamente com visualizações de dispositivos em tempo real. Os usuários agora podem gerenciar mensagens agrupadas com até cinco mensagens ordenadas (com controles para adicionar, remover e reordenar) e aproveitar o editor de personalização integrado para criar mensagens dinâmicas e validadas. <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">DOCAC-14869</a> <!-- Documentation link: TBD -->
-
-* **Complemento de desempenho para taxa de transferência - Push** - Um novo modo de mensagens transacionais de alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Anteriormente disponível apenas para o canal de email, esse recurso agora também está disponível para o canal de push, para organizações que compraram a oferta complementar de Mensagens transacionais de alta capacidade da Adobe. Entre em contato com o representante da Adobe para obter mais informações. <a href="https://jira.corp.adobe.com/browse/DOCAC-14717">DOCAC-14717</a> <!-- Documentation link: TBD -->
+* **Complemento de desempenho para taxa de transferência - Push** - Um novo modo de mensagens transacionais de alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Anteriormente disponível apenas para o canal de email, esse recurso agora também está disponível para o canal de push, para organizações que compraram a oferta complementar de Mensagens transacionais de alta capacidade da Adobe. Entre em contato com seu representante da Adobe para obter mais detalhes. <!-- Documentation link: TBD -->
 
 ### Tomada de decisão {#august-26-decisioning}
 
 A seguinte melhoria está chegando ao Decisioning nesta versão.
 
-* **Limite de frequência no nível de posicionamento na Decisão** - As regras de limite de frequência na Decisão agora podem ser segmentadas para posicionamentos individuais, fornecendo controle mais fino sobre a frequência com que uma oferta é exibida em determinada superfície. Dois modos estão disponíveis: limite específico de posicionamento, que define um limite que se aplica somente quando a oferta é exibida em um posicionamento selecionado, e limite por posicionamento, que aplica um limite independentemente em cada posicionamento em que a oferta é exibida, de modo que cada posicionamento mantém seu próprio contador de limite. Observe que o limite relacionado à disposição não se aplica a ofertas limitadas usando regras baseadas em dados do Adobe Experience Platform. <a href="https://jira.corp.adobe.com/browse/DOCAC-14980">DOCAC-14980</a> <!-- Documentation link: TBD -->
+* **Limite de frequência no nível de posicionamento na Decisão** - As regras de limite de frequência na Decisão agora podem ser segmentadas para posicionamentos individuais, fornecendo controle mais fino sobre a frequência com que uma oferta é exibida em determinada superfície. Dois modos estão disponíveis: limite específico de posicionamento, que define um limite que se aplica somente quando a oferta é exibida em um posicionamento selecionado, e limite por posicionamento, que aplica um limite independentemente em cada posicionamento em que a oferta é exibida, de modo que cada posicionamento mantém seu próprio contador de limite. Observe que o limite relacionado à disposição não se aplica a ofertas limitadas usando regras baseadas em dados do Adobe Experience Platform. <!-- Documentation link: TBD -->
+
+* **Mirror pages em Fragmentos Visuais** - Agora é possível inserir mirror pages em um Fragmento Visual. Os atributos de decisão são renderizados corretamente no link da mirror page, mesmo quando o fragmento é usado em uma campanha de email que usa a Decisão. A mirror page deve ser adicionada ao fragmento visual antes de o fragmento ser publicado para que os atributos de decisão sejam exibidos. <!-- Documentation link: TBD -->
 
 ### Designer de email {#august-26-email}
 
 A seguinte melhoria está chegando ao Designer de email nesta versão.
 
-* **Novo componente Tabela no Designer de email** - O Designer de email agora inclui um componente Tabela interno, permitindo que você estruture o conteúdo em linhas e colunas diretamente no seu email. Arraste e solte o componente na tela, personalize o número de linhas e colunas e estilize cada célula independentemente para criar layouts claros e organizados sem depender de HTML personalizados. <a href="https://jira.corp.adobe.com/browse/DOCAC-15093">DOCAC-15093</a> <!-- Documentation link: TBD -->
+* **Novo componente Tabela no Designer de email** - O Designer de email agora inclui um componente Tabela interno, permitindo que você estruture o conteúdo em linhas e colunas diretamente no seu email. Arraste e solte o componente na tela, personalize o número de linhas e colunas e estilize cada célula independentemente para criar layouts claros e organizados sem depender de um HTML personalizado. <!-- Documentation link: TBD -->
 
 ### Administração {#august-26-administration}
 
 O aprimoramento a seguir está chegando para a administração nesta versão.
 
-* **Processo OTP de Loop de Comentários para subdomínios personalizados** - O processo de configuração de subdomínio personalizado FBL (Loop de Comentários) foi aprimorado ao exibir a OTP (Senha Ocasional) do hub do remetente do Yahoo diretamente na interface do usuário do produto. Os usuários agora podem recuperar e exibir automaticamente o OTP gerado durante a verificação de propriedade de domínio do hub do remetente do Yahoo. <a href="https://jira.corp.adobe.com/browse/DOCAC-14815">DOCAC-14815</a> <!-- Documentation link: TBD -->
-
-### Melhorias de usabilidade {#august-26-usability}
-
-As seguintes melhorias estão chegando à usabilidade nesta versão.
-
-* **Nova experiência de simulação de conteúdo para variantes de conteúdo** - O fluxo de trabalho **Simular conteúdo** apresenta uma experiência reprojetada: todas as variantes agora são renderizadas juntas em uma única grade rolável (lado a lado, layouts empilhados ou encapsulados), substituindo a exibição uma variante de cada vez. Uma única barra de ação inferior consolida a navegação entre variantes de teste, o zoom, a alternância de visor (desktop/celular), a alternância de local, a adição de entradas de amostra, a geração de variantes com IA, a escolha e o salvamento de usuários simulados e a importação ou exportação de variantes. Remover o painel esquerdo e recolher camadas de cabeçalho extras oferece visualizações com muito mais espaço. A opção **Alternar para experiência clássica** na barra de ação inferior permite reverter para a experiência anterior a qualquer momento. <a href="https://jira.corp.adobe.com/browse/DOCAC-15285">DOCAC-15285</a> <!-- Documentation link: TBD -->
-
-* **Operações em massa no inventário de jornadas** - Agora é possível executar novas ações em massa diretamente da lista de inventário de jornadas, agilizando o gerenciamento de várias jornadas de uma só vez. Selecione várias jornadas e aplique qualquer uma destas novas ações em uma única etapa: **adicionar ao pacote**, **excluir**, **mover para a pasta**, **editar marcas** ou **gerenciar acesso**. Isso reduz a necessidade de repetir a mesma ação uma jornada por vez, simplificando o gerenciamento de jornadas para equipes que trabalham com um grande número de jornadas. <a href="https://jira.corp.adobe.com/browse/DOCAC-15358">DOCAC-15358</a> <!-- Documentation link: TBD -->
+* **Processo OTP de Loop de Comentários para subdomínios personalizados** - O processo de configuração de subdomínio personalizado FBL (Loop de Comentários) foi aprimorado ao exibir a OTP (Senha Ocasional) do hub do remetente do Yahoo diretamente na interface do usuário do produto. Os usuários agora podem recuperar e exibir automaticamente o OTP gerado durante a verificação de propriedade de domínio do hub do remetente do Yahoo. <!-- Documentation link: TBD -->
 
 <!--
 
@@ -241,7 +207,7 @@ As seguintes melhorias estão chegando à usabilidade nesta versão.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
