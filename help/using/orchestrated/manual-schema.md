@@ -15,9 +15,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: 7787cf29f9b996faf35a04c8070efd3a67d8f706
 workflow-type: tm+mt
-source-wordcount: 960
+source-wordcount: 985
 ht-degree: 11%
 
 ---
@@ -47,6 +47,10 @@ O exemplo a seguir define manualmente o esquema **Associações de fidelidade** 
 ➡️ [Saiba mais sobre esquemas relacionais manuais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Criar seu esquema {#schema}
+
+>[!NOTE]
+>
+> O **[!UICONTROL diagrama de relações de exibição]** da guia **[!UICONTROL Relação]** é somente leitura. Para criar ou editar uma relação, abra o esquema na guia **[!UICONTROL Procurar]**.
 
 Comece criando um novo esquema relacional manualmente no Adobe Experience Platform. Esse processo permite definir a estrutura do schema do zero, incluindo seu nome e comportamento.
 

@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 96%
+source-wordcount: 837
+ht-degree: 90%
 
 ---
 
@@ -69,7 +69,7 @@ Nas listas, é possível executar ações básicas em cada elemento. Por exemplo
 
 ## Ações em massa {#bulk-actions}
 
-Nas listas **Campanhas**, **Fragmentos** e **Modelos**, você pode selecionar vários itens de uma vez usando as caixas de seleção e aplicar operações a todos eles a partir de uma barra de ação em massa que aparece na parte inferior da tela.
+Nas listas **Campanhas**, **Fragmentos**, **Jornadas** e **Modelos**, é possível selecionar vários itens de uma só vez usando as caixas de seleção e aplicar operações a todos eles a partir de uma barra de ação em massa que aparece na parte inferior da tela.
 
 As operações a seguir estão disponíveis:
 
@@ -78,7 +78,11 @@ As operações a seguir estão disponíveis:
 * **[!UICONTROL Editar tags]**: editar as tags atribuídas aos itens selecionados. [Saiba como usar tags →](#add-tags)
 * **[!UICONTROL Gerenciar acesso]**: aplicar rótulos de acesso aos itens selecionados. [Saiba mais sobre o controle de acesso no nível do objeto →](../administration/object-based-access.md)
 * **[!UICONTROL Arquivar]**: arquivar itens selecionados. Disponível para Fragmentos e Modelos.
-* **[!UICONTROL Excluir]**: excluir permanentemente os itens selecionados. Disponível somente para Campanhas.
+* **[!UICONTROL Excluir]**: excluir permanentemente os itens selecionados. Disponível para Campanhas e Jornadas.
+
+>[!NOTE]
+>
+>O Jornada também oferece suporte a **[!UICONTROL Pausar]** e **[!UICONTROL Retomar]** em massa. [Saiba mais →](../building-journeys/journey-ui.md#bulk-operations)
 
 ![](assets/bulk-actions-fragments.png)
 

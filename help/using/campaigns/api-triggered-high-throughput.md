@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
+source-git-commit: d6c1b6a5d62221b4e722a110a9324bca846b88b0
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: 687
 ht-degree: 4%
 
 ---
@@ -49,8 +49,8 @@ Esta página explica como as campanhas com alta taxa de transferência diferem d
 
 * **Personalization**:
 
-   * Toda a personalização deve ser incluída na carga da API como **dados contextuais**. [Saiba como personalizar o conteúdo usando dados contextuais](../campaigns/api-triggered-campaign-content.md#contextual)
-   * A personalização baseada em perfil não é compatível. Se as variáveis de perfil forem usadas, ocorrerão erros de validação.
+  * Toda a personalização deve ser incluída na carga da API como **dados contextuais**. [Saiba como personalizar o conteúdo usando dados contextuais](../campaigns/api-triggered-campaign-content.md#contextual)
+  * A personalização baseada em perfil não é compatível. Se as variáveis de perfil forem usadas, ocorrerão erros de validação.
 
 * **Configurações de canal personalizadas** - As configurações de canal que usam [personalização baseada em perfil](../email/surface-personalization.md) não podem ser usadas com campanhas de alta taxa de transferência. Somente superfícies sem personalização de perfil podem ser usadas.
 
@@ -64,10 +64,12 @@ Esta página explica como as campanhas com alta taxa de transferência diferem d
 
   Os conjuntos de dados usados são:
 
-   * **Conjunto de Dados de Evento de Feedback de Mensagens do AJO - Não Perfil**
-   * **Conjunto De Dados De Evento De Experiência De Acompanhamento De Email Do AJO - Não Perfil**
+  * **Conjunto de Dados de Evento de Feedback de Mensagens do AJO - Não Perfil**
+  * **Conjunto De Dados De Evento De Experiência De Acompanhamento De Email Do AJO - Não Perfil**
 
 * **Alocação de taxa de transferência** - A taxa de transferência provisionada no complemento Alta Taxa de Transferência é reservada exclusivamente para campanhas de alta taxa de transferência. Não há compartilhamento de taxa de transferência entre campanhas padrão e campanhas acionadas pela API de alta taxa de transferência.
+
+* **Anexos personalizados do PDF** - Sem suporte quando uma campanha de Alta taxa de transferência faz failover para outra região. [Saiba mais sobre anexos personalizados do PDF](../email/pdf-attachments.md#personalized-attachments)
 
 ## Escolha entre campanhas com taxa de transferência padrão vs. alta
 
@@ -88,17 +90,17 @@ Use esta tabela para decidir qual tipo de campanha acionada por API se adapta ao
 Em outras palavras:
 
 * Escolha **Campanhas de API padrão acionadas** se:
-   * Você não tem contrato de alto throughput.
-   * Suas necessidades de throughput são &lt;500 TPS.
-   * Você precisa de personalização com base nos perfis do Adobe.
-   * Você deseja que os dados da campanha sejam compilados com perfis para direcionamento futuro.
-   * Você deseja usar outro canal diferente de Email.
+  * Você não tem contrato de alto throughput.
+  * Suas necessidades de throughput são &lt;500 TPS.
+  * Você precisa de personalização com base nos perfis do Adobe.
+  * Você deseja que os dados da campanha sejam compilados com perfis para direcionamento futuro.
+  * Você deseja usar outro canal diferente de Email.
 
 * Escolha campanhas de **Alta taxa de transferência** se:
-   * Você precisa de throughput >500 TPS.
-   * Você não precisa de compilação de perfil.
-   * Você pode transmitir toda a personalização na carga da API.
-   * Você deseja usar o canal de email.
+  * Você precisa de throughput >500 TPS.
+  * Você não precisa de compilação de perfil.
+  * Você pode transmitir toda a personalização na carga da API.
+  * Você deseja usar o canal de email.
 
 ## Configurar diretrizes
 

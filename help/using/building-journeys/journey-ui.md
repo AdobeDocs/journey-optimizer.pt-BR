@@ -12,9 +12,9 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
+source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
 workflow-type: tm+mt
-source-wordcount: 2122
+source-wordcount: 2311
 ht-degree: 10%
 
 ---
@@ -190,17 +190,27 @@ Para fazer isso, siga as etapas abaixo:
 
 ## Operações em massa {#bulk-operations}
 
-Na lista de suas jornadas, você pode pausar várias jornadas do **Live**. Para pausar um grupo de jornadas (_pausa em massa_), selecione-as na lista e clique no botão **Pausar** na barra azul na parte inferior da tela. O botão **Pausar** só estará disponível quando as jornadas do **Live** forem selecionadas.
+Na lista de jornadas, é possível selecionar vários itens de uma só vez usando as caixas de seleção e aplicar operações a todos eles a partir de uma barra de ação em massa exibida na parte inferior da tela.
+
+![Barra de ação em massa com várias jornadas selecionadas](assets/bulk-actions-journeys.png)
+
+As operações a seguir estão disponíveis:
+
+* **[!UICONTROL Adicionar ao pacote]** - Exportar as jornadas selecionadas para outra sandbox. [Saiba como exportar objetos →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Mover para a pasta]** - Mover as jornadas selecionadas para uma pasta. [Saiba como trabalhar com pastas →](#journeys-folders)
+* **[!UICONTROL Editar marcas]** - Edita as marcas atribuídas às jornadas selecionadas. [Saiba como usar tags →](../start/search-filter-categorize.md#add-tags)
+* **[!UICONTROL Gerenciar acesso]** - Aplique rótulos de acesso às jornadas selecionadas. [Saiba mais sobre o controle de acesso no nível do objeto →](../administration/object-based-access.md)
+* **[!UICONTROL Excluir]** - Excluir permanentemente as jornadas selecionadas.
+* **[!UICONTROL Pausar]** - Pausar o **Live** selecionado no jornada (_pausa em massa_). Disponível somente quando as jornadas do **Live** são selecionadas.
+* **[!UICONTROL Retomar]** - Retomar jornadas **Pausadas** selecionadas (_retomada em massa_). Disponível somente quando as jornadas **Pausadas** são selecionadas.
 
 ![Pausar duas jornadas ativas em massa a partir da barra inferior](assets/bulk-pause-journeys.png)
 
-Você também pode retomar uma ou várias jornadas **Paused**. Para retomar um grupo de jornadas (_retomada em massa_), selecione-as e clique no botão **Retomar**, localizado na barra azul na parte inferior da tela. Observe que o botão **Retomar** só estará disponível quando as jornadas **Pausadas** forem selecionadas.
-
-[Saiba mais sobre as jornadas Pausar/Retomar](journey-pause.md).
+[Saiba mais sobre as jornadas Pausar/Retomar](journey-pause.md). [Saiba mais sobre as outras ações em massa →](../start/search-filter-categorize.md#bulk-actions)
 
 >[!NOTE]
 >
->Você pode pausar/retomar até 10 jornadas por operação.
+>É possível pausar/retomar até 10 jornadas por operação.
 
 +++ Referência de conhecimento de IA
 
@@ -217,14 +227,15 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Alternar entre a exibição de lista e a exibição de calendário para visualizar agendamentos de jornada
 * Adicionar e gerenciar calendários externos fazendo upload de arquivos CSV
 * Duplicação de uma jornada existente para reutilizar suas configurações
-* Pausar ou retomar várias jornadas ativas ou pausadas de uma só vez
+* Aplicar operações em massa a várias jornadas selecionadas na barra de ações em massa: adicionar ao pacote, mover para a pasta, editar tags, gerenciar acesso, excluir, pausar ou retomar
 
 **Glossário:**
 
 * **Painel de Jornada**: a principal interface do jornada com uma guia Visão geral mostrando as métricas principais e uma guia Procurar listando todas as jornadas. *(específico do produto)*
 * **Taxa de descarte**: a proporção de perfis não qualificados para entrar na jornada (por exemplo, devido a namespace incorreto ou regras de reentrada) em comparação ao total de perfis que tentaram entrar nas últimas 24 horas. *(específico do produto)*
 * **exibição do calendário do Jornada**: uma representação visual semanal do calendário de jornadas ativas e agendadas, acessível clicando no ícone de calendário na lista de jornadas. *(específico do produto)*
-* **Pausa em massa**: uma operação que pausa várias jornadas Ativas ao mesmo tempo (até 10 por operação) da lista de jornadas. *(específico do produto)*
+* **Barra de ação em massa**: a barra de ação que aparece na parte inferior da lista de jornadas quando uma ou mais jornadas são selecionadas, oferecendo adicionar ao pacote, mover para a pasta, editar marcas, gerenciar acesso, excluir, pausar e retomar. *(específico do produto)*
+* **Pausa/retomada em massa**: as operações de pausa e retomada disponíveis na barra de ação em massa, limitadas a Live jornada (pausar) ou jornadas pausadas (retomar), até 10 por operação. *(específico do produto)*
 
 **Medidas de Proteção:**
 
@@ -239,6 +250,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Nome canônico: painel de Jornadas — Acrônimo: none — variantes: lista de jornadas, visão geral das jornadas
 * Sinônimos: &quot;guia Procurar&quot; = &quot;Lista de jornadas&quot;
 * Não confunda: &quot;Discard rate&quot; ≠ &quot;Error rate&quot; — Os perfis de contagens de taxa de descarte não são elegíveis para inserção; As contagens de taxa de erro contam os perfis que entraram, mas encontraram um erro de processamento
+* Observação: adicionar ao pacote, mover para a pasta, editar tags, gerenciar acesso e excluir são compartilhados com as listas Campanhas, Fragmentos e Modelos; pausar e retomar são específicos da jornada
 
 **Perguntas frequentes:**
 
@@ -247,6 +259,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **P: Posso pausar várias jornadas de uma vez?** — Sim; selecione várias jornadas ativas na lista e clique no botão Pause na barra inferior. É possível pausar até 10 jornadas por operação.
 * **P: Como adicionar eventos externos ao calendário de jornadas?** — Clique no ícone de adição do calendário e arraste e solte um arquivo CSV com colunas de nome do evento, data de início e data de término; os eventos carregados ficam visíveis para todos os usuários na organização.
 * **P: Por que o calendário mostra uma jornada como 1 hora mesmo que ela seja executada por mais tempo?** — O calendário exibe todas as jornadas como intervalos de tempo de 1 hora para consistência visual; isso não reflete o tempo real de envio ou de conclusão.
+* **P: Que operações em massa posso realizar em várias jornadas ao mesmo tempo?** — Além de pausar e retomar, você pode selecionar várias jornadas e adicioná-las a um pacote, movê-las para uma pasta, editar as tags, gerenciar o acesso ou excluí-las usando a barra de ação em massa na parte inferior da lista jornadas.
 
 +++
 

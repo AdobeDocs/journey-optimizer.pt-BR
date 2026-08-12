@@ -14,10 +14,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: 7787cf29f9b996faf35a04c8070efd3a67d8f706
 workflow-type: tm+mt
-source-wordcount: 1255
-ht-degree: 41%
+source-wordcount: 1280
+ht-degree: 40%
 
 ---
 
@@ -46,6 +46,10 @@ Esta seção apresenta um passo a passo de como criar um esquema relacional na A
 ➡️ [Saiba mais sobre esquemas relacionais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational)
 
 ## Fazer upload de um arquivo DDL{#ddl-upload}
+
+>[!NOTE]
+>
+> O **[!UICONTROL diagrama de relações de exibição]** da guia **[!UICONTROL Relação]** é somente leitura. Para criar ou editar uma relação, abra o esquema na guia **[!UICONTROL Procurar]**.
 
 Ao fazer upload de um arquivo DDL, você pode definir a estrutura do modelo de dados antecipadamente, incluindo tabelas, atributos, chaves e relacionamentos.
 
