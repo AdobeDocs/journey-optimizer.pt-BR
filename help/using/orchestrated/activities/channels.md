@@ -6,19 +6,14 @@ description: Saiba como adicionar uma atividade de canal a uma campanha em vári
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
 workflow-type: tm+mt
-source-wordcount: 1972
-ht-degree: 36%
+source-wordcount: 2012
+ht-degree: 37%
 
 ---
 
@@ -49,6 +44,13 @@ ht-degree: 36%
 >id="ajo_orchestration_target"
 >title="Target"
 >abstract="A seção **[!UICONTROL Target]** define o destino da entrega para esta atividade de canal. Use **[!UICONTROL Dimensão de destino]** para selecionar qual dimensão de destino se aplica a este envio. Em seguida, escolha **[!UICONTROL Uma mensagem por perfil]** para enviar uma única mensagem por pessoa ou **[!UICONTROL Uma mensagem por dimensão secundária]** para enviar uma mensagem por dimensão secundária qualificada — por exemplo, um email por voo quando a mesma viajante tem vários voos correspondentes."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_line"
+>title="Atividade de linha"
+>abstract="A atividade **Linha** permite adicionar uma ação LINE à sua campanha orquestrada. Crie conteúdo personalizado, desde textos e adesivos até imagens, vídeos, localizações e Flex Messages, para engajar clientes no LINE."
+
 
 <!--
 UNUSED IDs in BJ
@@ -170,7 +172,7 @@ Use a seção de **[!UICONTROL Rastreamento de ações]** para acompanhar como o
 
 O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas. A entrega rápida é usada quando o atraso na entrega da mensagem é essencial para os negócios. Por exemplo, você deseja enviar um alerta de push urgente em telefones celulares, como notícias de última hora para usuários que instalaram seu aplicativo de canal de notícias. Saiba como habilitar o modo de entrega rápida para notificações por push [nesta página](../../push/create-push.md#rapid-delivery).
 
-Para obter mais informações sobre o desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Para obter mais informações sobre o desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
@@ -186,8 +188,7 @@ Alterne para a guia **[!UICONTROL Conteúdo]** para criar a sua mensagem. As eta
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="email" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Criar um email</strong></a></td>
 <td><a href="../../mobile/create-mobile-message.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>Criar um SMS</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Criar uma notificação por push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Correspondência direta" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Criação de uma correspondência direta</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="canal personalizado" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>Criar uma ação personalizada</strong></a></td>
-</tr></table>
+<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Criar uma notificação por push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Correspondência direta" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Criação de uma correspondência direta</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="canal personalizado" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>Criar uma ação personalizada</strong></a></td><td><a href="../../line/get-started-line.md"><img alt="linha" src="../../channels/assets/do-not-localize/line.jpg"></a><br/><a href="../../line/get-started-line.md"><strong>Criar uma mensagem LINE (LA)</strong></a></td></tr></table>
 
 ### Adicionar personalização {#add-personalization}
 
