@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
+source-git-commit: f453579de2b5edac0e8ac8cbcf31d48bce8467ad
 workflow-type: tm+mt
-source-wordcount: 1261
+source-wordcount: 1282
 ht-degree: 18%
 
 ---
@@ -66,13 +66,14 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 <table>
 <thead>
 <tr>
-<th><strong>controle em nível de jornada</strong><br/></th>
+<th><strong>controle no nível da jornada (disponibilidade limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Agora você pode configurar um grupo de controle para suas jornadas diretamente das propriedades do jornada. Uma validação é uma porcentagem configurável do público-alvo que é excluído da entrada na jornada e não recebe nenhuma comunicação. Ao comparar perfis de controle com perfis ativos nos relatórios do Customer Journey Analytics, é possível medir o aumento incremental - o impacto real - que a jornada oferece.</p>
+<p> Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -86,7 +87,7 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 
 ### Campanhas {#august-26-camp}
 
-Os seguintes recursos e melhorias estão chegando às campanhas nesta versão.
+Os seguintes recursos e melhorias estão chegando às Campanhas nesta versão.
 
 <table>
 <thead>
@@ -112,11 +113,11 @@ Os seguintes recursos e melhorias estão chegando às campanhas nesta versão.
 
 <!--* **Brand alignment score in Action Campaign dashboard** - You can now assess your brand alignment score directly within your Action Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.  Documentation link: TBD -->
 
-* **Substituir o campo de execução padrão em Campanhas de ação** - Anteriormente disponível no nível de jornada, agora é possível substituir o campo de execução padrão definido globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da Campanha de ação. <!-- Documentation link: TBD -->
+* **Substituir os campos de execução padrão em Campanhas de ação** - Anteriormente disponíveis no nível de jornada, agora é possível substituir os campos de execução padrão configurados globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da Campanha de ação. <!-- Documentation link: TBD -->
 
 ### Campanhas orquestradas {#august-26-oc}
 
-Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nesta versão.
+Os seguintes recursos e melhorias estão chegando ao Orchestrated Campaigns nesta versão.
 
 <table>
 <thead>
@@ -127,7 +128,7 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 <tbody>
 <tr>
 <td>
-<p>Agora você pode aplicar horas de silêncio. As horas de silêncio permitem definir exclusões com base no tempo para evitar que as mensagens sejam enviadas durante períodos específicos, ajudando você a respeitar as preferências do cliente e os requisitos de conformidade em casos de uso de orquestração de campanha.</p>
+<p>Agora você pode aplicar o Período de Silêncio. O Quiet Hours permite definir exclusões com base no tempo para evitar que as mensagens sejam enviadas durante períodos específicos, ajudando você a respeitar as preferências do cliente e os requisitos de conformidade em casos de uso da orquestração de campanha.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
