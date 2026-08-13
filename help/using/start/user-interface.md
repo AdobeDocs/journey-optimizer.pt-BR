@@ -31,9 +31,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 701ba9b669c454e7369c10cb14e68b62c1753f3e
+source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
 workflow-type: tm+mt
-source-wordcount: 1516
+source-wordcount: 1482
 ht-degree: 98%
 
 ---
@@ -383,16 +383,6 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >id="ajo_orchestration_load_file"
 >title="Atividade Carregar arquivo"
 >abstract="A atividade **Carregar arquivo** é uma atividade de **Direcionamento**. Use-a para fazer upload de um arquivo CSV ou TXT na tela de campanha orquestrada e usá-lo como o público-alvo da campanha. Os dados do arquivo são consumidos no momento da execução e não são mantidos como um conjunto de dados da Adobe Experience Platform. As linhas são reconciliadas com os destinatários existentes usando uma coluna de identidade e uma dimensão de direcionamento."
-
-
-<!-- OC - LINE ACTIVITY -->
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_line"
->title="Atividade de linha"
->abstract="A atividade **Linha** permite adicionar uma ação LINE à sua campanha orquestrada. Crie conteúdo personalizado, desde textos e adesivos até imagens, vídeos, localizações e Flex Messages, para engajar clientes no LINE."
-
-
 
 <!-- Asset selector content generation -->
 

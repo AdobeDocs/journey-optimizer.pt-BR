@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
+source-git-commit: 74105568575649b05499c84dece589a59a5c8e54
 workflow-type: tm+mt
-source-wordcount: 3245
+source-wordcount: 3334
 ht-degree: 19%
 
 ---
@@ -106,6 +106,25 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <p>Os casos de uso suportados incluem faturas, demonstrativos, tíquetes, contratos, etiquetas de remessa e documentos semelhantes que variam de acordo com o recipient. Os anexos personalizados do PDF estão disponíveis somente para campanhas de email transacionais acionadas por API e não são compatíveis com jornadas ou campanhas orquestradas.</p>
 <p>Volumes e tamanhos de anexo maiores são suportados por meio do complemento de anexo do PDF; para obter mais informações, entre em contato com o representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../email/pdf-attachments.md#personalized-attachments">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 12 de agosto de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Campanhas orquestradas {#august-26-oc}
+
+<table>
+<thead>
+<tr>
+<th><strong>Suporte ao canal LINE (disponibilidade limitada)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Com o lançamento do recurso Canais de saída personalizados, agora é possível adicionar ações LINE diretamente nas campanhas orquestradas. Essa nova atividade permite criar e fornecer conteúdo altamente personalizado, incluindo texto, adesivos, imagens, vídeos, dados de localização e mensagens avançadas do Flex, para envolver seus clientes perfeitamente na plataforma LINE. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Para obter mais informações, consulte a <a href="../orchestrated/activities/channels.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 12 de agosto de 2026</p>
 </td>
 </tr>
@@ -199,7 +218,7 @@ Os recursos e melhorias a seguir foram introduzidos nesta versão.
 </tbody>
 </table>
 
-* **Canal do WhatsApp: suporte a modelos de fluxo do WhatsApp** - Agora você pode enviar modelos de fluxo do WhatsApp no Adobe Journey Optimizer para fornecer experiências interativas em várias telas, como pesquisas e captura de leads. As respostas são capturadas no envio e armazenadas como cargas JSON brutas no novo conjunto de dados de evento de rastreamento de canal do Journey Optimizer. [Saiba mais](../data/get-started-datasets.md)
+* **Canal do WhatsApp: suporte a modelos de fluxo do WhatsApp** - Agora você pode enviar modelos de fluxo do WhatsApp no Adobe Journey Optimizer para fornecer experiências interativas em várias telas, como pesquisas e captura de leads. As respostas são capturadas no envio e armazenadas como cargas JSON brutas no novo conjunto de dados de evento de rastreamento de canal do Journey Optimizer. [Saiba mais](../data/get-started-datasets.md#system-datasets)
 
 * **Integrações aprimoradas do provedor personalizado - Dispositivo móvel** - As integrações personalizadas do provedor agora oferecem maior flexibilidade com mensagens principais e atualizações de cabeçalho:
 
