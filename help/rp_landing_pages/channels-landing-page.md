@@ -4,10 +4,10 @@ product: Journey Optimizer
 title: Canais de comunicação
 description: Canais de comunicação
 redpen-status: CREATED_||_2025-08-11_20-45-04
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ Os canais de comunicação do Adobe Journey Optimizer permitem que você se cone
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introdução aos canais de comunicação
 
@@ -30,7 +30,7 @@ Saiba mais sobre os canais de comunicação de saída e entrada disponíveis no 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canal de email
 
@@ -40,7 +40,7 @@ Descubra como criar, configurar e otimizar campanhas de email, incluindo persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Mensagens no aplicativo
 
@@ -50,7 +50,7 @@ Aprenda a configurar, projetar e personalizar notificações no aplicativo para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canal de notificação por push
 
@@ -60,7 +60,7 @@ Saiba como criar, configurar e enviar notificações por push para iOS e Android
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Mensagens por SMS/MMS/RCS
 
@@ -70,7 +70,7 @@ Entenda como criar, gerenciar e configurar mensagens por SMS, MMS e RCS para fin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campanhas de correspondência direta
 
@@ -88,4 +88,5 @@ Descubra como criar e gerenciar campanhas de correspondência direta, incluindo 
 - **[Experiência baseada em código](code-based-experience-landing-page.md)**: utilize as experiências baseadas em código para fornecer um conteúdo personalizado em plataformas digitais, usando SDKs e APIs.
 - **[Cartões de conteúdo](content-card-landing-page.md)**: descubra como configurar, criar e projetar cartões de conteúdo para mensagens envolventes e personalizadas em aplicativos móveis e sites.
 - **[Mensagens do WhatsApp](whatsapp-landing-page.md)**: saiba como integrar e usar mensagens do WhatsApp por meio da API da nuvem do Meta para campanhas de comunicação personalizadas e compatíveis.
+- **[Monitoramento e solução de problemas](troubleshoot-journey-landing-page.md)** - Faça o diagnóstico e resolva rapidamente os problemas do canal, incluindo a solução de problemas de configuração e canal do WhatsApp.
 - **[Mensagens do LINE](line-landing-page.md)**: descubra como configurar, criar e personalizar mensagens do LINE para uma comunicação eficaz em campanhas e jornadas.

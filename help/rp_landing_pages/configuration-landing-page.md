@@ -5,10 +5,10 @@ title: Configuração de canais
 description: Configuração de canais
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
-workflow-type: ht
-source-wordcount: '343'
-ht-degree: 100%
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Saiba mais sobre os tópicos futuros para descobrir como essas configurações f
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à configuração de canais
 
@@ -36,7 +36,7 @@ Saiba mais sobre as etapas para configurar canais no Adobe Journey Optimizer, in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definir e gerenciar a configuração de canais
 
@@ -46,7 +46,7 @@ Siga um guia detalhado para criar, editar, desativar e monitorar as configuraç�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuração de canais guiada
 
@@ -56,7 +56,7 @@ Configure canais móveis e da web com eficiência usando instruções passo a pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Delegar e gerenciar subdomínios de email
 
@@ -66,7 +66,7 @@ Saiba como delegar e configurar subdomínios de email para otimizar a capacidade
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Implementar um plano de aquecimento de IP
 
@@ -76,7 +76,7 @@ Crie e execute planos de aquecimento de IP para estabelecer a reputação do rem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Monitorar a capacidade de entrega de emails e a reputação
 
@@ -93,3 +93,4 @@ Gerencie listas de supressão, listas de permissões e mecanismos de novas tenta
 - **[Uso de listas de seeds](../using/configuration/seed-lists.md)**: saiba como criar e gerenciar listas de seeds para monitorar entregas de email e garantir a campanha.
 - **[Suporte de arquivamento para conformidade](../using/configuration/archiving-support.md)**: configure recursos de arquivamento, como emails CCO e gerenciamento de conjunto de dados, para garantir a conformidade com normas como GDPR e HIPAA.
 - **[Gerenciamento de endereços de execução](../using/configuration/primary-email-addresses.md)**: configure e priorize campos de email ou de número de telefone para comunicação entre jornadas e campanhas.
+- **[Monitoramento e solução de problemas](troubleshoot-journey-landing-page.md)** - Diagnosticar e resolver problemas rapidamente, incluindo a solução de problemas de delegação de subdomínio personalizado.

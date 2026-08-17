@@ -5,10 +5,10 @@ title: Solução de problemas
 description: Solução de problemas
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
-workflow-type: ht
-source-wordcount: '574'
-ht-degree: 100%
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 82%
 
 ---
 
@@ -49,7 +49,7 @@ Acesse os principais relatórios para monitorar o desempenho da jornada, analisa
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Acessar e assinar alertas do sistema
 
@@ -59,7 +59,7 @@ Saiba como acessar alertas do sistema, assinar notificações e monitorar evento
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referência de códigos de erro
 
@@ -69,7 +69,7 @@ Entenda códigos de erro comuns no Adobe Journey Optimizer e encontre resoluçõ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Resolver erros antes de testar ou publicar a sua jornada
 
@@ -79,7 +79,7 @@ Identifique e resolva erros em toda a jornada e problemas de atividade, e defina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Solução de problemas de execução de jornada ativa
 
@@ -89,7 +89,7 @@ Diagnostique problemas de validação de eventos, entrada de perfil, navegação
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Solução de problemas de ações de entrada em jornadas
 
@@ -99,7 +99,7 @@ Depure problemas de ação de entrada, como conteúdo ausente ou entrega contín
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Solução de problemas de ações personalizadas
 
@@ -109,7 +109,27 @@ Valide e depure ações personalizadas com o recurso **Enviar solicitação de t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+
+Solução de problemas de atividades ativas
+
+Diagnostique por que as atividades Live não aparecem, atualizam ou encerram, cobrindo token de perfil, configuração de campanha, carga e problemas de entrega para casos de uso unitários e de transmissão.
+
+[Corrigir problemas de atividade ao vivo](../using/mobile-live/troubleshoot-mobile-live.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
+
+Solução de problemas de fragmentos de conteúdo do AEM
+
+Revise as principais considerações e problemas comuns ao trabalhar com Fragmentos de conteúdo do Adobe Experience Manager no Journey Optimizer, incluindo tipos de fragmento, acesso ao repositório e personalização.
+
+[Resolver problemas do fragmento de conteúdo](../using/integrations/aem-fragments-limitations.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 Diretrizes de tíquete de suporte
 
@@ -122,6 +142,22 @@ Saiba o que incluir ao entrar em contato com o suporte da Adobe — detalhes do 
 
 ## Recursos adicionais
 
+### Jornadas
+
 * [Perguntas frequentes sobre jornadas](../using/building-journeys/journey-faq.md): respostas abrangentes a perguntas comuns sobre jornadas, compreendendo tipos de jornadas, execução, configuração e práticas recomendadas de solução de problemas.
 
 * [Medidas de proteção e limitações](../using/start/guardrails.md) - Saiba mais sobre medidas de proteção, limitações do produto, considerações sobre o desempenho e navegadores compatíveis com o Journey Optimizer para garantir o uso ideal.
+
+### Campanhas
+
+* [Solução de problemas de ativação de campanha](../using/campaigns/trigger-campaigns.md#troubleshooting) - Resolva problemas comuns encontrados ao revisar e ativar campanhas.
+
+### Canais e integrações
+
+* [Solução de problemas de configuração do canal do WhatsApp](../using/whatsapp/whatsapp-configuration.md#troubleshooting) - Diagnosticar e corrigir problemas comuns de configuração ao configurar o canal do WhatsApp.
+
+* [Perguntas frequentes sobre solução de problemas de integrações](../using/integrations/vendor-integration-faq.md#troubleshooting) - Encontre respostas para falhas comuns de conexão e de conexão de teste para integrações de terceiros.
+
+### Configuração
+
+* [Solução de problemas de delegação de subdomínio personalizado](../using/configuration/delegate-custom-subdomain.md#check-list) - Trabalhe com uma lista de verificação para resolver problemas ao enviar um subdomínio personalizado.
