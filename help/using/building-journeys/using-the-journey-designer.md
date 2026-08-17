@@ -112,7 +112,7 @@ Ao usar a nova experiência, você pode selecionar vários nós de uma só vez, 
 
 Assista a este vídeo para obter uma visão geral da nova experiência da tela de jornada:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496193)
+>[!VIDEO](https://video.tv.adobe.com/v/3496197?captions=por_br)
 
 ## Inicie sua jornada {#start-your-journey}
 
