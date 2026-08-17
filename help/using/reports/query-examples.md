@@ -9,23 +9,12 @@ role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 TQID: https://experienceleague.adobe.com/-JJssuHJ4-RPjn8TpxLWRANyjoOOyK6BZEb1ABO0Qps
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: cce92e02e65281d4e3f801ff407dbaf518fc3ebc
 workflow-type: tm+mt
 source-wordcount: 3763
 ht-degree: 3%
@@ -182,8 +171,8 @@ Os resultados da consulta exibem campos-chave que ajudam a identificar o motivo 
 * **actionExecutionError** - Quando definido como `businessRuleProfileDiscarded`, isso indica que o perfil foi descartado devido a uma regra de negócios. O campo `eventType` fornece detalhes adicionais sobre qual regra de negócios específica causou o descarte.
 
 * **eventType** - Especifica o tipo de regra de negócios que causou o descarte:
-   * `quietHours`: o perfil foi descartado devido à configuração de horários de silêncio
-   * `forcedDiscardDueToQuietHours`: o perfil foi descartado à força porque o limite de grade de proteção foi atingido para perfis mantidos em horas de silêncio
+  * `quietHours`: o perfil foi descartado devido à configuração de horários de silêncio
+  * `forcedDiscardDueToQuietHours`: o perfil foi descartado à força porque o limite de grade de proteção foi atingido para perfis mantidos em horas de silêncio
 
 +++
 
@@ -1247,23 +1236,23 @@ Esta consulta filtra jornadas que envolveram mais de 1.000 perfis por dia nos ú
 
 +++
 
-+++Total de perfis únicos envolvidos em todas as jornadas nos últimos 12 meses
++++Total de identidades exclusivas envolvidas em todas as jornadas nos últimos 12 meses
 
-Esta consulta fornece uma contagem de perfis únicos envolvidos em todas as jornadas nos últimos 12 meses, fornecendo uma visão geral de seu envolvimento baseado em jornada.
+Esta consulta fornece uma contagem de identidades exclusivas envolvidas em todas as jornadas nos últimos 12 meses, fornecendo uma visão geral de seu envolvimento baseado em jornada.
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS TOTAL_ENGAGED_PROFILES
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS TOTAL_ENGAGED_IDENTITIES
 FROM journey_step_events
 WHERE timestamp > (now() - interval '12' month);
 ```
 
 _Exemplo de saída_
 
-| TOTAL_ENGAGED_PROFILES |
+| TOTAL_ENGAGED_IDENTITIES |
 |---|
-| 2.547.890 |
+| 2,547,890 |
 
-Esse único número representa a contagem total de perfis únicos que foram engajados por pelo menos uma jornada nos últimos 12 meses.
+Esse único número representa a contagem total de identidades exclusivas que foram engajadas por pelo menos uma jornada nos últimos 12 meses.
 
 >[!NOTE]
 >
