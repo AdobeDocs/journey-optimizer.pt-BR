@@ -6,16 +6,13 @@ description: Saiba como criar e agendar uma campanha orquestrada com o Adobe Jou
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b0ed84b83814e94be772acf7969293371bd3c23f
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 63%
+source-wordcount: 1257
+ht-degree: 62%
 
 ---
 
@@ -68,7 +65,7 @@ Para criar uma campanha Orquestrada, siga estas etapas:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Scheduler"
->abstract="Como gerente de campanha, você pode programar a inicialização automática de campanhas para horários específicos ou configurá-las como **Acionadas por um sinal**, para que sejam iniciadas quando chamadas pela API REST ou pela atividade de **Término** de outra campanha orquestrada. [Saiba mais](trigger-orchestrated-campaign.md)"
+>abstract="Como gerente de campanha, você pode programar a inicialização automática de campanhas para horários específicos ou configurá-las como **Acionadas por um sinal**, para que sejam iniciadas quando chamadas pela API REST ou pela atividade de **Término** de outra campanha orquestrada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
@@ -78,7 +75,7 @@ Para criar uma campanha Orquestrada, siga estas etapas:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="Opções do Scheduler"
->abstract="Escolha como a campanha é iniciada: em um agendamento único ou recorrente (uma vez, diariamente, semanalmente, mensalmente, etc.) ou **Acionado por um sinal** para que aguarde uma chamada de API ou uma atividade de **Término** de campanha upstream. Para campanhas acionadas por sinal, é possível definir parâmetros a serem transmitidos no conteúdo. [Saiba mais](trigger-orchestrated-campaign.md)"
+>abstract="Escolha como a campanha é iniciada: em um agendamento único ou recorrente (uma vez, diariamente, semanalmente, mensalmente, etc.) ou **Acionado por um sinal** para que aguarde uma chamada de API ou uma atividade de **Término** de campanha upstream. Para campanhas acionadas por sinal, é possível definir parâmetros a serem transmitidos no conteúdo."
 
 Por padrão, as campanhas orquestradas começam quando ativadas manualmente e terminam após a execução de suas atividades associadas. Se preferir atrasar a execução ou executar a campanha de forma recorrente, é possível definir uma programação para a campanha.
 
@@ -114,10 +111,10 @@ Para configurar o cronograma da campanha, siga estas etapas:
    Execute a campanha todos os dias ou em dias selecionados.
 
    * **[!UICONTROL Recorrência diária]**: escolha a frequência de execução da campanha:
-      * **[!UICONTROL Todos os dias]**: executa a campanha todos os dias da semana, inclusive fins de semana.
-      * **[!UICONTROL Nos dias de semana]**: executa a campanha somente de segunda a sexta.
-      * **[!UICONTROL Até um período específico]**: executa a campanha diariamente dentro de um intervalo de datas definido (por exemplo, de 1.º a 15 de julho). A campanha não será executada fora desse intervalo.
-      * **[!UICONTROL Em dias da semana selecionados]**: executa a campanha somente nos dias da semana especificados (por exemplo, segunda, quarta, sexta).
+     * **[!UICONTROL Todos os dias]**: executa a campanha todos os dias da semana, inclusive fins de semana.
+     * **[!UICONTROL Nos dias de semana]**: executa a campanha somente de segunda a sexta.
+     * **[!UICONTROL Até um período específico]**: executa a campanha diariamente dentro de um intervalo de datas definido (por exemplo, de 1.º a 15 de julho). A campanha não será executada fora desse intervalo.
+     * **[!UICONTROL Em dias da semana selecionados]**: executa a campanha somente nos dias da semana especificados (por exemplo, segunda, quarta, sexta).
 
    * **[!UICONTROL Hora inicial]**: defina a hora em que a campanha deve ser executada a cada dia.
 
@@ -149,11 +146,11 @@ Para configurar o cronograma da campanha, siga estas etapas:
 
    * **[!UICONTROL Recorrência mensal]**: selecione se a campanha será executada a cada mês ou somente durante meses específicos.
    * **[!UICONTROL Recorrência diária]**:
-      * **[!UICONTROL Todos os dias]**: executa a campanha em todos os dias do mês, inclusive fins de semana.
-      * **[!UICONTROL Último dia do mês]**: executa a campanha somente no último dia de cada mês (por exemplo, 31 de janeiro, 28/29 de fevereiro).
-      * **[!UICONTROL Dia específico do mês (por exemplo, dia 15)]**: executa a campanha em um dia especificado (por exemplo, o dia 15 de cada mês).
-      * **[!UICONTROL Primeiro/último ou um dia específico da semana]** (por exemplo, primeira segunda-feira): executa a campanha em um dia da semana especificado (por exemplo, o dia 15 de cada semana).
-      * **[!UICONTROL Dias da semana selecionados]**: executa a campanha em um dia especificado.
+     * **[!UICONTROL Todos os dias]**: executa a campanha em todos os dias do mês, inclusive fins de semana.
+     * **[!UICONTROL Último dia do mês]**: executa a campanha somente no último dia de cada mês (por exemplo, 31 de janeiro, 28/29 de fevereiro).
+     * **[!UICONTROL Dia específico do mês (por exemplo, dia 15)]**: executa a campanha em um dia especificado (por exemplo, o dia 15 de cada mês).
+     * **[!UICONTROL Primeiro/último ou um dia específico da semana]** (por exemplo, primeira segunda-feira): executa a campanha em um dia da semana especificado (por exemplo, o dia 15 de cada semana).
+     * **[!UICONTROL Dias da semana selecionados]**: executa a campanha em um dia especificado.
 
    * **[!UICONTROL Hora inicial]**: defina a hora em que a campanha deve ser executada.
 
