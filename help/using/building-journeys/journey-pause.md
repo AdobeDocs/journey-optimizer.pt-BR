@@ -29,10 +29,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 65ec810fbea82e8bed7dd155c85d47cdf0032ed6
 workflow-type: tm+mt
-source-wordcount: 3545
-ht-degree: 4%
+source-wordcount: 3677
+ht-degree: 3%
 
 ---
 
@@ -221,14 +221,15 @@ Esse limite é verificado a cada 30 minutos. Isso significa que você pode exced
 * Mesmo após a pausa, como os eventos continuam a ser processados, esses eventos são contados para o número de Eventos de Jornada por segundo de cota após o qual a limitação é considerada unitária
 * Quando os perfis são mantidos em uma jornada pausada, no momento da retomada, os atributos do perfil são atualizados
 * As condições ainda são executadas em jornadas pausadas, portanto, se uma jornada tiver sido pausada devido a problemas de qualidade de dados, qualquer condição anterior a um nó de ação poderá ser avaliada com dados errados
+* Os perfis que já passaram por uma atividade **Otimize** antes da pausa da jornada mantêm a atribuição de caminho feita nesse momento. Essa atribuição não é reavaliada retroativamente, mesmo se a definição do público-alvo ou dos critérios subjacentes for alterada durante a pausa. Somente os perfis que atingem a atividade após as reinicializações da jornada são avaliados em relação à definição mais recente.
 * Para jornadas de **Leitura de público** baseadas em público incremental, a duração pausada é levada em consideração. Esse não é o caso para qualificação de público ou jornadas baseadas em eventos (se uma qualificação de público ou um evento for recebido durante uma pausa e for a primeira atividade na jornada, esses eventos serão descartados)
 * Se os perfis forem mantidos em uma jornada e ela for retomada automaticamente após alguns dias, os perfis continuarão a jornada e não serão descartados. Se quiser soltá-los, você deve interromper a jornada
 * No jornada pausado, os alertas não são acionados para [alertas de segmento em lote](../reports/alerts.md#alert-read-audiences)
 * Não há logs de auditoria no sistema quando o estado de pausa de 14 dias da jornada é encerrado
 * Alguns perfis descartados podem estar visíveis no Evento de etapa do Jornada, mas não podem estar visíveis nos relatórios. Por exemplo:
-   * Descartar eventos comerciais para **Ler público**
-   * **Ler público-alvo** trabalhos sendo ignorados devido à jornada pausada
-   * Eventos descartados quando a atividade **Event** era posterior a uma ação em que o perfil estava aguardando
+  * Descartar eventos comerciais para **Ler público**
+  * **Ler público-alvo** trabalhos sendo ignorados devido à jornada pausada
+  * Eventos descartados quando a atividade **Event** era posterior a uma ação em que o perfil estava aguardando
 
 
 
@@ -242,11 +243,11 @@ Ao pausar esta jornada, você seleciona se os perfis estão **Descartados** ou *
 
 1. Atividade **AddToCart**: todas as novas entradas de perfis estão bloqueadas. Se um perfil já tiver entrado na jornada antes de uma pausa, ele continuará até o nó da próxima ação.
 1. Atividade **Wait**: os perfis continuam a aguardar normalmente no nó e vão sair dele, mesmo se a jornada estiver em pausa.
-1. **Condição**: os perfis continuam a passar pelas condições e a mover para a ramificação direita com base na expressão definida na condição.
+1. **Otimizar (Condição)**: os perfis continuam a passar pelas condições e a mover para a ramificação direita com base na expressão definida na condição.
 1. Atividades de **Push**/**Email**: durante uma jornada pausada, os perfis começam a aguardar ou são descartados (com base na escolha feita pelo usuário no momento da pausa) no nó da próxima ação. Os perfis começarão a aguardar ou serão descartados lá.
 1. **Eventos** após nós de **Ação**: se um perfil estiver aguardando um nó de **Ação** e houver uma atividade de **Evento** após ele, se esse evento for acionado, o evento será descartado.
 
-De acordo com esse comportamento, você pode ver números de perfil aumentando em jornadas pausadas, principalmente em atividades antes de **Ações**. Por exemplo, nesse exemplo, a atividade **Wait** ainda está habilitada, aumentando o número de perfis que passam pela atividade **Condition**, à medida que eles saem dela.
+De acordo com esse comportamento, você pode ver números de perfil aumentando em jornadas pausadas, principalmente em atividades antes de **Ações**. Por exemplo, nesse exemplo, a atividade **Wait** ainda está habilitada, aumentando o número de perfis que passam pela atividade **Otimizar (Condição)**, à medida que saem dela.
 
 Ao retomar esta jornada:
 
@@ -273,9 +274,9 @@ Você pode usar o [[!DNL Adobe Experience Platform] Serviço de consulta](https:
 
   Isso listará as descartes que ocorreram no ponto de entrada da jornada:
 
-   1. Quando uma jornada de público-alvo está em execução e o primeiro nó ainda está em processamento, se a jornada estiver pausada, todos os perfis não processados serão descartados.
+  1. Quando uma jornada de público-alvo está em execução e o primeiro nó ainda está em processamento, se a jornada estiver pausada, todos os perfis não processados serão descartados.
 
-   1. Quando um novo evento unitário chega ao nó de início (para acionar uma entrada) enquanto a jornada está pausada, o evento é descartado.
+  1. Quando um novo evento unitário chega ao nó de início (para acionar uma entrada) enquanto a jornada está pausada, o evento é descartado.
 
 * Para que os descartes ocorram quando o perfil já estiver na jornada, use o seguinte código:
 
@@ -293,9 +294,9 @@ Você pode usar o [[!DNL Adobe Experience Platform] Serviço de consulta](https:
 
   Esse comando lista as descartes que ocorrem quando perfis estão em uma jornada:
 
-   1. Se a jornada estiver pausada com a opção de descarte ativada e um perfil já tiver sido inserido antes da pausa, esse perfil será descartado quando atingir o nó da próxima ação.
+  1. Se a jornada estiver pausada com a opção de descarte ativada e um perfil já tiver sido inserido antes da pausa, esse perfil será descartado quando atingir o nó da próxima ação.
 
-   1. Se a jornada foi pausada com a opção de suspensão selecionada, mas os perfis foram descartados porque excederam a cota de 10 milhões, esses perfis ainda serão descartados quando atingirem o próximo nó de ação.
+  1. Se a jornada foi pausada com a opção de suspensão selecionada, mas os perfis foram descartados porque excederam a cota de 10 milhões, esses perfis ainda serão descartados quando atingirem o próximo nó de ação.
 
 +++ Referência de conhecimento de IA
 

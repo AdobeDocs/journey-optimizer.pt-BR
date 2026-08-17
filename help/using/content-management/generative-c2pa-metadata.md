@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 hide: true
-source-git-commit: eeea63d195527451e3ce40481b2ff4657aa76d3b
+source-git-commit: b5482c8671b8380f852c18fb4394cd927cbb1a74
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '745'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,5 @@ Algumas maneiras de trazer imagens para o seu conteúdo, como extrair uma imagem
 
 ## Recursos adicionais
 
-* [Metadados C2PA do Adobe](https://helpx.adobe.com/br/firefly/using/content-credentials.html){target="_blank"}: saiba mais sobre como os metadados C2PA funcionam em produtos da Adobe.
 * [Diretrizes do usuário da IA gerada da Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"}
 * [Medidas de proteção e limitações](gs-generative.md#generative-guardrails)

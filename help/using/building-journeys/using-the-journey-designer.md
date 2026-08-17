@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 3f82acd395c938aed52cb18dae45b370e7f69110
+source-git-commit: 9eaa76d4a2e18038725691ab59e74b7387e87a7e
 workflow-type: tm+mt
-source-wordcount: 2393
+source-wordcount: 2595
 ht-degree: 2%
 
 ---
@@ -102,9 +102,13 @@ Além disso, a última experiência selecionada (antiga ou nova) agora é lembra
 
 ![](assets/journey-new-experience-switch.png)
 
+Ao usar a nova experiência, você pode selecionar vários nós de uma só vez, mantendo a tecla **Shift** pressionada e arrastando o mouse pela tela. Depois de selecionado, você pode executar uma ação em massa nos nós selecionados, como copiar, excluir ou salvar como um fragmento de jornada.
+
 >[!TIP]
 >
 >Para obter uma orientação passo a passo sobre como desconectar e reingressar em nós na tela do jornada, consulte este [artigo da comunidade Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=pt){target="_blank"}.
+
+
 
 Assista a este vídeo para obter uma visão geral da nova experiência da tela de jornada:
 

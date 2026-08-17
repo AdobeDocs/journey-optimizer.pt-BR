@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 74105568575649b05499c84dece589a59a5c8e54
+source-git-commit: c5d1bcbca48645106d98d68d8ae396c7a2686892
 workflow-type: tm+mt
-source-wordcount: 3334
+source-wordcount: 3399
 ht-degree: 19%
 
 ---
@@ -131,6 +131,12 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tbody>
 </table>
 
+### Canais {#august-26-channels}
+
+* **Complemento de desempenho para taxa de transferência - Push** - Um novo modo de mensagens transacionais de alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Anteriormente disponível apenas para o canal de email, esse recurso agora também está disponível para o canal de push, para organizações que compraram a oferta complementar de Mensagens transacionais de alta capacidade da Adobe. Entre em contato com o representante da Adobe para obter mais informações. [Saiba mais](../campaigns/api-triggered-high-throughput.md)
+
+  Data de disponibilidade: 11 de agosto de 2026
+
 ### Melhorias de usabilidade {#august-26-usability}
 
 * **Operações em massa no inventário de jornadas** - Agora é possível executar novas ações em massa diretamente da lista de inventário de jornadas, agilizando o gerenciamento de várias jornadas de uma só vez. Selecione várias jornadas e aplique qualquer uma destas novas ações em uma única etapa: **adicionar ao pacote**, **excluir**, **mover para a pasta**, **editar marcas** ou **gerenciar acesso**. Isso reduz a necessidade de repetir a mesma ação uma jornada por vez, simplificando o gerenciamento de jornadas para equipes que trabalham com um grande número de jornadas. [Saiba mais](../building-journeys/journey-ui.md)
@@ -140,6 +146,10 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 * **Nova experiência de Simulação de Conteúdo para testes de conteúdo** - O fluxo de trabalho **Simular conteúdo** apresenta uma experiência reprojetada: todas as variantes agora são renderizadas juntas em uma única grade rolável (lado a lado, empilhadas ou com layouts dispostos), substituindo o modo de exibição uma variante de cada vez. Uma única barra de ação inferior consolida a navegação entre variantes de teste, o zoom, a alternância de visor (desktop/celular), a alternância de local, a adição de entradas de amostra, a geração de variantes com IA, a escolha e o salvamento de usuários simulados e a importação ou exportação de variantes. Remover o painel esquerdo e recolher camadas de cabeçalho extras oferece visualizações com muito mais espaço. A opção **Alternar para experiência clássica** na barra de ação inferior permite reverter para a experiência anterior a qualquer momento. [Saiba mais](../test-approve/simulate-content-variations.md)
 
   Data de disponibilidade: 11 de agosto de 2026
+
+* **Multisseleção na nova tela de jornada** - Agora é possível selecionar vários nós de uma só vez na nova experiência da tela de jornada para executar ações em massa, como copiar, excluir ou salvar como fragmento de jornada, em vários nós de uma só vez. [Saiba mais](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+  Data de disponibilidade: 17 de agosto de 2026
 
 ## Notas de versão de julho de 2026 {#july-26-updates}
 
@@ -218,7 +228,11 @@ Os recursos e melhorias a seguir foram introduzidos nesta versão.
 </tbody>
 </table>
 
-* **Canal do WhatsApp: suporte a modelos de fluxo do WhatsApp** - Agora você pode enviar modelos de fluxo do WhatsApp no Adobe Journey Optimizer para fornecer experiências interativas em várias telas, como pesquisas e captura de leads. As respostas são capturadas no envio e armazenadas como cargas JSON brutas no novo conjunto de dados de evento de rastreamento de canal do Journey Optimizer. [Saiba mais](../data/get-started-datasets.md#system-datasets)
+* **Canal do WhatsApp: suporte a modelos de fluxo do WhatsApp** - Agora você pode enviar modelos de fluxo do WhatsApp no Adobe Journey Optimizer para fornecer experiências interativas em várias telas, como pesquisas e captura de leads. As respostas são capturadas no envio e armazenadas como cargas JSON brutas no novo conjunto de dados de evento de rastreamento de canal do Journey Optimizer:
+
+  * **Conjunto de Dados de Evento de Rastreamento de Canal do AJO**: captura todas as respostas de entrada do WhatsApp, incluindo as enviadas por meio de modelos de Fluxo do WhatsApp.
+
+  [Saiba mais](../data/get-started-datasets.md#system-datasets)
 
 * **Integrações aprimoradas do provedor personalizado - Dispositivo móvel** - As integrações personalizadas do provedor agora oferecem maior flexibilidade com mensagens principais e atualizações de cabeçalho:
 
@@ -477,14 +491,6 @@ A seguinte melhoria está chegando aos relatórios nesta versão.
   * Estimated CTOR (taxa de clique para abrir): calculado como cliques estimados em relação ao número total de aberturas estimadas.
 
     Data de disponibilidade: 29 de julho de 2026
-
-### Campanhas {#campaigns}
-
-+++ Em breve
-
-* **Complemento de desempenho para taxa de transferência em campanhas acionadas por API - Push** - Um novo modo de mensagens transacionais de alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Anteriormente disponível apenas para o canal de email, esse recurso agora também está disponível para o canal de push, para organizações que compraram a oferta complementar de Mensagens transacionais de alta capacidade da Adobe. Entre em contato com seu representante da Adobe para obter mais detalhes. <!-- Documentation link: TBD -->
-
-+++
 
 ### Melhorias de usabilidade {#july-26-usability}
 

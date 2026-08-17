@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d6c1b6a5d62221b4e722a110a9324bca846b88b0
+source-git-commit: 4fe71dee2b654321e267218081b7067cab641c1d
 workflow-type: tm+mt
-source-wordcount: 687
+source-wordcount: 789
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Ative o modo de alta taxa de transferência para campanhas acionadas pela API para que você possa enviar emails transacionais em tempo real em grande escala com até 5.000 transações por segundo sem depender de perfis.
+**Nesta página:** ative o modo de alta taxa de transferência para campanhas acionadas pela API para que você possa enviar mensagens transacionais em tempo real em grande escala (email e push) em até 5.000 transações por segundo sem depender de perfis.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Esta página explica como as campanhas com alta taxa de transferência diferem d
 
 * **Acesso** - Disponível em todas as regiões, exceto na Suíça para organizações licenciadas com o complemento de mensagens transacionais de Alta Taxa de Transferência.
 
-* **Canais**: atualmente disponíveis apenas para email.
+* **Canais**: notificações por email e por push.
 
 * **Personalization**:
 
@@ -64,22 +64,27 @@ Esta página explica como as campanhas com alta taxa de transferência diferem d
 
   Os conjuntos de dados usados são:
 
-  * **Conjunto de Dados de Evento de Feedback de Mensagens do AJO - Não Perfil**
-  * **Conjunto De Dados De Evento De Experiência De Acompanhamento De Email Do AJO - Não Perfil**
+  * **Conjunto de Dados de Eventos de Comentários de Mensagens do AJO - Não Perfil** — usado para comentários de email e push.
+  * **Conjunto de Dados de Evento de Experiência de Acompanhamento de Email do AJO - Não Perfil** — usado apenas para rastreamento de email. Um conjunto de dados de rastreamento não relacionado a perfis para push ainda não está disponível.
 
 * **Alocação de taxa de transferência** - A taxa de transferência provisionada no complemento Alta Taxa de Transferência é reservada exclusivamente para campanhas de alta taxa de transferência. Não há compartilhamento de taxa de transferência entre campanhas padrão e campanhas acionadas pela API de alta taxa de transferência.
 
 * **Anexos personalizados do PDF** - Sem suporte quando uma campanha de Alta taxa de transferência faz failover para outra região. [Saiba mais sobre anexos personalizados do PDF](../email/pdf-attachments.md#personalized-attachments)
+* **Notificações por push**:
+
+  * **Push da Web** — as campanhas de push da Web de Alta Taxa de Transferência são executadas em infraestrutura compartilhada e não se beneficiam da capacidade dedicada reservada para push móvel de Alta Taxa de Transferência.
+  * **Tamanho da carga** — O tamanho máximo da carga é 5 KB.
+  * **comportamento de Inclui na lista de bloqueios** — Quando uma mensagem atinge uma inclui na lista de bloqueios de, o feedback de entrega é retido, mas não é produzido nenhum feedback de atualização de perfil. Isso significa que as respostas de inclui na lista de bloqueios do não acionam atualizações de perfil ou invalidação de token no Adobe Experience Platform.
 
 ## Escolha entre campanhas com taxa de transferência padrão vs. alta
 
 Use esta tabela para decidir qual tipo de campanha acionada por API se adapta ao seu caso de uso:
 
 | Recurso/Requisito | Campanha acionada por API padrão | Campanha de alto rendimento |
-|------------------------|---------------------------------|---------------------------|
+| ------------------------ | --------------------------------- | --------------------------- |
 | **Disponibilidade** | Incluído na oferta base | Requer complemento de mensagens transacionais de alta taxa de transferência. |
 | **Taxa de transferência** | Até 500 transações por segundo | Até 5.000 transações por segundo |
-| **Canais** | Email, SMS, Push | Email |
+| **Canais** | Email, SMS, Push | Email, Push |
 | **Personalização** | Perfil + contextual na carga da API | Contextual somente na carga da API |
 | **Compilação e perfil** | Existe ou é criado com eventos compilados no perfil | Nenhum perfil |
 | **Volume da mensagem** | Pacotes de mensagens e direitos padrão | Separar volumes de mensagens em camadas |
@@ -94,13 +99,13 @@ Em outras palavras:
   * Suas necessidades de throughput são &lt;500 TPS.
   * Você precisa de personalização com base nos perfis do Adobe.
   * Você deseja que os dados da campanha sejam compilados com perfis para direcionamento futuro.
-  * Você deseja usar outro canal diferente de Email.
+  * Você deseja usar outro canal diferente de Email ou Push.
 
 * Escolha campanhas de **Alta taxa de transferência** se:
   * Você precisa de throughput >500 TPS.
   * Você não precisa de compilação de perfil.
   * Você pode transmitir toda a personalização na carga da API.
-  * Você deseja usar o canal de email.
+  * Você deseja usar o canal de email ou push.
 
 ## Configurar diretrizes
 

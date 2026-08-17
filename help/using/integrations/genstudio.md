@@ -28,10 +28,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 22540b736dd65469a6afac1472971b53f8830020
 workflow-type: tm+mt
-source-wordcount: 1367
-ht-degree: 9%
+source-wordcount: 1346
+ht-degree: 8%
 
 ---
 
@@ -54,9 +54,7 @@ O [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com
 
 >[!AVAILABILITY]
 >
->* A integração do GenStudio no [!DNL Adobe Journey Optimizer] não está disponível para uso com as ofertas complementares do **Healthcare Shield** ou **Privacy and Security Shield**.
->
->* Esse recurso está disponível somente para o canal de email.
+> Esse recurso está disponível somente para o canal de email.
 
 Para aprimorar a eficiência do marketing e manter a consistência da marca, você pode integrar perfeitamente as experiências do [!DNL **GenStudio for Performance Marketing**] com o [!DNL **Adobe Journey Optimizer**]. Isso permite aproveitar a criação de conteúdo habilitado por IA do [!DNL GenStudio] junto com os recursos avançados de orquestração do [!DNL Journey Optimizer].
 
