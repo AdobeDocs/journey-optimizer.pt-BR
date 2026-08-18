@@ -11,10 +11,10 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
 workflow-type: tm+mt
-source-wordcount: 1339
-ht-degree: 6%
+source-wordcount: 1377
+ht-degree: 7%
 
 ---
 
@@ -129,10 +129,11 @@ Trabalhe com datas, horas e fusos horários para criar condições baseadas em t
 
 **Manipulação e análise de coleção**
 
-Filtre, classifique, transforme e analise matrizes e listas para trabalhar com estruturas de dados complexas e executar operações definidas.
+Filtre, classifique, transforme e analise matrizes e listas para trabalhar com estruturas de dados complexas e executar operações de definição, como interseção, união e diferença.
 
 | Função | Descrição |
 |----------|-------------|
+| [ListasDeDiferenças](../functions/list-functions.md#differenceLists) | Obter itens em uma lista que não está presente em outra |
 | [distinct](../functions/list-functions.md#distinct) | Obter valores únicos (exclui nulos) |
 | [distinctWithNull](../functions/list-functions.md#distinctWithNull) | Obter valores únicos (inclui nulos) |
 | [filtro](../functions/list-functions.md#filter) | Filtrar lista com base em critérios |
@@ -141,6 +142,7 @@ Filtre, classifique, transforme e analise matrizes e listas para trabalhar com e
 | [interseção](../functions/list-functions.md#intersect) | Encontrar elementos comuns entre listas |
 | [limite](../functions/list-functions.md#limit) | Limitar número de itens retornados |
 | [listSize](../functions/list-functions.md#listSize) | Obter tamanho da lista |
+| [mergeLists](../functions/list-functions.md#mergeLists) | Combinar duas listas, com ou sem desduplicação |
 | [serializeList](../functions/list-functions.md#serializeList) | Converter lista em sequência de caracteres |
 | [sort](../functions/list-functions.md#sort) | Classificar elementos da lista |
 

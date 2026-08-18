@@ -11,26 +11,15 @@ keywords: send-time, send, message, otimization, jornada, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 7d4b5047ebb782034140379d5581726736de9051
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 9c2a0ec8c3329869c3b1d41948faf33abe6a73e7
 workflow-type: tm+mt
-source-wordcount: 2298
+source-wordcount: 2537
 ht-degree: 6%
 
 ---
@@ -60,7 +49,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->A Otimização de tempo de envio só está disponível para ações de Email e Push integradas no jornada. No momento, ela não está disponível para mensagens enviadas por meio de campanhas ou para mensagens enviadas por meio de ações personalizadas ou para outros tipos de ação.
+>A Otimização de Tempo de Envio está disponível para ações de Email e Push internas no jornada e para a [atividade de Espera](wait-activity.md#sto-wait), onde determina o momento ideal para continuar com a próxima atividade. No momento, ela não está disponível para mensagens enviadas por meio de campanhas ou para outros tipos de ação.
 
 O recurso de Otimização de hora de envio do [!DNL Adobe Journey Optimizer], viabilizado pelos serviços de IA de Jornada da Adobe, escolhe o tempo de envio ideal para mensagens de email e push para maximizar a participação do cliente, com base no histórico do comportamento de abertura e de cliques dos clientes.
 
@@ -68,7 +57,7 @@ O recurso de Otimização de hora de envio do [!DNL Adobe Journey Optimizer], vi
 >
 >* O recurso de Otimização de Tempo de Envio está habilitado para [!DNL Adobe Journey Optimizer] clientes mediante solicitação. Entre em contato com o Atendimento ao cliente da Adobe ou com o(a) representante da Adobe para ativar o recurso em sua organização.
 >
->* A Otimização de Tempo de Envio se aplica somente aos canais de **Email** e **Notificação por push**.
+>* A Otimização de Tempo de Envio se aplica somente aos canais **Email** e **Notificação por push** e à atividade **[!UICONTROL Wait]**.
 >
 >* A Otimização de Tempo de Envio é suportada nas seguintes regiões do Hub AEP: **VA7, NLD2, AUS5, CAN2, GBR9, IND2, CHE2**. Esses são os códigos de região de implantação da Adobe. Entre em contato com o representante da Adobe se não tiver certeza de qual região sua organização usa.
 >
@@ -102,6 +91,14 @@ Antes de iniciar, considere quais mensagens são adequadas antes de ativá-las. 
 Quando sua jornada é ativada e um cliente atinge a ação de Email ou Push na jornada, a Otimização de tempo de envio escolherá o melhor tempo de envio previsto disponível para cada usuário dentro dos limites especificados.
 
 Para monitorar o desempenho da sua jornada, consulte a [página de Visão geral](../reports/channel-report-cja.md).
+
+## Otimização de tempo de envio na atividade de espera {#sto-wait-activity}
+
+![Alternância de Otimização de Tempo de Envio na atividade de Espera](../building-journeys/assets/wait_sto.png)
+
+Além das ações de Email e Push, você também pode aplicar a Otimização de Tempo de Envio a uma atividade **[!UICONTROL Wait]**. Ele depende do mesmo modelo de Otimização de tempo de envio para calcular o tempo de espera ideal de cada perfil, mas aqui a espera é dissociada do envio: em vez de estar vinculada apenas a uma ação de Email ou Push, ela pode ser seguida por qualquer atividade, como uma ação Personalizada.
+
+[Saiba como configurar a Otimização de Tempo de Envio em uma atividade de Espera](wait-activity.md#sto-wait).
 
 ## Como funciona a otimização de tempo de envio {#how-send-time}
 
@@ -215,6 +212,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Definir a janela de espera máxima (Enviar na próxima) para entrega atrasada
 * Entenda como o modelo de IA prevê tempos de envio ideais usando dados comportamentais
 * Determine se a Otimização de tempo de envio é apropriada para um determinado tipo de mensagem
+* Use a Otimização de tempo de envio em uma atividade de espera para atrasar antes de qualquer atividade de downstream, dissociada do envio de mensagens
 
 **Glossário:**
 
@@ -227,7 +225,8 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Medidas de Proteção:**
 
 * A Otimização de tempo de envio deve ser ativada pela Adobe para a organização; entre em contato com o Atendimento ao cliente da Adobe ou com o representante da Adobe para ativá-la.
-* A Otimização de tempo de envio se aplica somente aos canais de Email e Notificação por push no Jornada; não está disponível para Campanhas ou ações personalizadas.
+* A Otimização de tempo de envio se aplica aos canais de Email e Notificação por push no Jornada e à atividade de Espera; não está disponível para Campanhas ou ações personalizadas.
+* A Otimização de tempo de envio não tem visibilidade sobre regras de horas silenciosas; uma atividade de Espera de otimização de tempo de envio pode selecionar um tempo dentro de uma janela de horas silenciosas para uma ação de canal downstream, que pode enfileirar ou descartar a mensagem, dependendo da configuração da regra de horas silenciosas.
 * A organização deve ter usado ações de email ou push no Journey Optimizer por pelo menos 30 dias antes que a Otimização de tempo de envio produza resultados significativos.
 * Não use a Otimização de hora de envio para mensagens operacionais urgentes ou sensíveis ao tempo (por exemplo, confirmações de pedidos, redefinições de senha, alterações na porta de voo).
 * O intervalo de tempo máximo de espera é de 2 a 100 horas; o intervalo recomendado é de 6 a 24 horas para obter melhores resultados.
@@ -242,7 +241,8 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 
 **Perguntas frequentes:**
 
-* **P: Quais canais oferecem suporte à Otimização de Tempo de Envio?** — Somente canais de email e notificação por push no Jornada; campanhas e ações personalizadas não são compatíveis.
+* **P: Quais canais oferecem suporte à Otimização de Tempo de Envio?** — Canais de email e notificação por push no Jornada e a atividade Wait; Campanhas e ações personalizadas não são compatíveis.
+* **P: A Otimização de Tempo de Envio conhece as horas de silêncio?** — Não. As horas de espera são avaliadas somente quando um perfil atinge uma ação de mensagem, de modo que uma atividade de espera de otimização de tempo de envio pode escolher uma hora em uma janela de horas de espera. Dependendo da regra de silencioso, a mensagem é enfileirada até que o silencioso termine ou descartada e o perfil sai da jornada. [Saiba mais](wait-activity.md#sto-wait).
 * **P: Devo otimizar para aberturas ou cliques no email?** — otimize para cliques na maioria dos e-mails. Escolha Abrir quando a mensagem for informativa e não se destinar a orientar uma ação específica.
 * **P: Quanto tempo a organização precisa esperar antes de habilitar o STO?** — Pelo menos 30 dias de uso de email ou push no Journey Optimizer são necessários para coletar dados comportamentais suficientes. Os resultados continuam a melhorar por até 16 semanas.
 * **P: O STO pode enviar notificações por push à noite?** — Sim, se o comportamento de um usuário sugerir o engajamento noturno ou se for selecionado um horário de envio de exploração. Para evitar isso, use um horário de envio matinal com uma janela de espera máxima curta.
