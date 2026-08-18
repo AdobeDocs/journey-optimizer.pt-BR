@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondas, lotes, programação, jornada, campanha, orquestrado, entregabilidade
-source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
+source-git-commit: 33625f5141457414cddd51758412789849954104
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2211'
 ht-degree: 1%
 
 ---
@@ -36,6 +36,7 @@ Você define o número de ondas, seu tamanho (como uma porcentagem do público o
 
 As seguintes limitações se aplicam ao envio de onda em qualquer contexto:
 
+* O envio de onda se aplica somente a **canais de saída** (email, SMS, push, correspondência direta).
 * Você deve definir pelo menos **2 ondas** e pode adicionar até **10 ondas**.
 * O intervalo mínimo entre o início de duas ondas é de **30 minutos**.
 * Um início de onda não pode ser definido no passado.
@@ -55,17 +56,13 @@ Restrições adicionais específicas do contexto se aplicam:
 
 >[!TAB Campanhas de ação]
 
-* O envio de onda se aplica somente a **ações de saída** (email, SMS, push, correspondência direta).
 * Um início de onda não pode ser anterior ao início da campanha.
 
+>[!TAB Campanhas orquestradas]
+
+* O envio de onda é configurado no **nível de atividade do canal**, independentemente para cada atividade de canal na campanha.
+
 >[!ENDTABS]
-
-<!--
->[!TAB Orchestrated campaigns]
-
-* Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
-* Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
--->
 
 ## Configurar envio de onda {#configure-wave-sending}
 
@@ -121,28 +118,25 @@ As etapas para habilitar o envio de onda dependem do seu contexto: jornada de p�
 
 1. Escolha como definir o tamanho e o tempo da onda conforme detalhado na seção [Tamanho e tempo da onda](#wave-options) abaixo.
 
->[!ENDTABS]
+>[!TAB Campanhas orquestradas]
 
+1. Abra uma atividade de canal (Email, SMS, Push ou Correspondência direta) na tela de campanha orquestrada.
 
-<!--
->[!TAB Orchestrated campaigns]
+1. Vá para a guia **[!UICONTROL Schedule]** da atividade de canal.
 
-1. Open a channel activity (Email, SMS, Push, or Direct mail) in your orchestrated campaign canvas.
+1. Em **[!UICONTROL Agendamento da onda]**, habilite a opção **[!UICONTROL Entregar em ondas]**.
 
-1. Go to the **[!UICONTROL Schedule]** tab of the channel activity.
+   ![Guia Agendamento de atividade de canal com a opção Entregar em ondas habilitada no Agendamento de onda](assets/oc-wave-option.png){width="90%"}
 
-1. Under **[!UICONTROL Wave schedule]**, enable the **[!UICONTROL Deliver in waves]** toggle.
-
-    ![Channel activity Schedule tab with the Deliver in waves toggle enabled under Wave schedule](assets/oc-wave-option.png){width="90%"}
-
-1. Set the number of waves using the **[!UICONTROL Select number of waves]** dropdown.
+1. Defina o número de ondas usando a lista suspensa **[!UICONTROL Selecionar número de ondas]**.
 
    >[!NOTE]
    >
-   >You must define at least 2 waves and can add up to 10 waves.
+   >Você deve definir pelo menos 2 ondas e pode adicionar até 10 ondas.
 
-1. Choose how to define wave size and timing as detailed in the [Wave size and timing](#wave-options) section below.
--->
+1. Escolha como definir o tamanho e o tempo da onda conforme detalhado na seção [Tamanho e tempo da onda](#wave-options) abaixo.
+
+>[!ENDTABS]
 
 ## Tamanho e sincronização da onda {#wave-options}
 
@@ -194,15 +188,15 @@ O envio de onda ajuda você a controlar quando e quantas mensagens são enviadas
 
 * **Call center ou gestor de resposta:** limite quantas mensagens saem por dia ou por hora para que as equipes downstream (por exemplo, atendimento ao cliente) possam lidar com respostas a uma taxa gerenciável.
 
-  ![Exemplo de envio de onda: 20 mensagens por dia configuradas para corresponder à capacidade de resposta da central de atendimento](assets/journey-waves-ex-call-center.png){width="50%"}
+  ![Exemplo de envio de onda: 20 mensagens por dia configuradas para corresponder à capacidade de resposta da central de atendimento](assets/journey-waves-ex-call-center.png){width="30%"}
 
 * **Alto volume e capacidade de entrega:** Evite enviar um público muito grande de uma só vez. A disseminação do delivery ao longo do tempo ajuda a manter a reputação do remetente e reduz o risco de ser sinalizado como spam.
 
-  ![Exemplo de envio de onda: entrega distribuída por vários dias para dar suporte à reputação do remetente para um envio de alto volume](assets/journey-waves-ex-high-volume.png){width="50%"}
+  ![Exemplo de envio de onda: entrega distribuída por vários dias para dar suporte à reputação do remetente para um envio de alto volume](assets/journey-waves-ex-high-volume.png){width="30%"}
 
 * **Aquecimento de IP:** ao usar uma nova plataforma ou endereço IP, aumente progressivamente o volume (por exemplo, 10% na primeira onda, depois 15%, 20% e assim por diante) para criar gradualmente a reputação de envio.
 
-  ![Exemplo de envio de onda: aumento de volume progressivo entre ondas para aquecimento de IP, começando em 10% e crescendo a cada onda](assets/journey-waves-ex-ramp-up.png){width="50%"}
+  ![Exemplo de envio de onda: aumento de volume progressivo entre ondas para aquecimento de IP, começando em 10% e crescendo a cada onda](assets/journey-waves-ex-ramp-up.png){width="30%"}
 
 ## Perguntas frequentes {#faq}
 
@@ -242,7 +236,7 @@ Não. O envio de onda se aplica somente a **ações de canal de saída**: email,
 
 * [Usar um público-alvo em uma jornada](../building-journeys/read-audience.md) — configure a atividade Ler Público
 * [Agendar uma Campanha de ação](../campaigns/campaign-schedule.md) — definir data de início, data de término e frequência
-<!-- * [Channel activities in Orchestrated campaigns](../orchestrated/activities/channels.md) — configure channel activities in the orchestrated canvas -->
+* [Atividades de canal em campanhas orquestradas](../orchestrated/activities/channels.md) — configure atividades de canal na tela orquestrada
 
 +++ Referência de conhecimento de IA
 
@@ -271,7 +265,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 
 * Ler jornadas do público-alvo (&quot;O mais rápido possível&quot; ou &quot;Uma vez&quot; somente para scheduler — não para jornadas recorrentes, acionadas por eventos, de negócios, de teste ou de simulação)
 * Campanhas de ação (somente ações de canal de saída)
-<!-- * Orchestrated campaigns (outbound channel activities only, configured per channel activity) -->
+* Campanhas orquestradas (somente atividades de canal de saída, configuradas por atividade de canal)
 
 **Medidas de proteção comuns (todos os contextos):**
 

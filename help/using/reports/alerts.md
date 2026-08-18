@@ -27,9 +27,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 5df2684936afe673f87e21e4f27a4ef9b8e220e3
 workflow-type: tm+mt
-source-wordcount: 3161
+source-wordcount: 3353
 ht-degree: 1%
 
 ---
@@ -439,7 +439,7 @@ Você pode assinar alertas de várias maneiras:
 
 * **[Assinatura global (sandbox)](#subscribe-alerts)**: receber notificações para todas as jornadas ou campanhas correspondentes na **sandbox atual**. Use-a quando desejar ampla cobertura.
 * **[Assinatura específica da Jornada](#subscribe-alerts)**: para obter alertas de jornada com suporte, limite as notificações a **uma jornada** por vez no inventário de jornadas.
-* **Assinatura específica da campanha**: os alertas de ciclo de vida da campanha podem ser assinados no momento somente no nível da sandbox.
+* **[Assinatura específica de campanha](#subscribe-alerts)**: para obter alertas de ciclo de vida de campanha com suporte, limite as notificações a **uma campanha** por vez no inventário de campanha.
 
 >[!BEGINTABS]
 
@@ -501,29 +501,33 @@ Abra a mesma caixa de diálogo, desmarque o(s) alerta(s) e clique em **[!UICONTR
 >
 >O alerta [Acionador de Leitura de Público-alvo sem Êxito](#available-alerts) está disponível somente por assinatura global, não por assinatura de jornada.
 
+>[!TAB Assinatura específica da campanha]
+
+Assinaturas específicas de campanha se aplicam aos [alertas do ciclo de vida da campanha](#available-alerts). Eles permitem monitorar campanhas individuais de alta prioridade sem receber o mesmo alerta para cada campanha na sandbox.
+
+**Para assinar alertas de ciclo de vida de campanha para uma campanha específica:**
+
+1. Vá para o inventário de **[!UICONTROL Campanhas]** e abra a guia referente ao seu tipo de campanha (**[!UICONTROL Ação]** ou **[!UICONTROL API acionada]**).
+
+1. Clique no menu **&#x200B;**&#x200B;(mais ações) da campanha que deseja monitorar.
+
+1. Selecione **[!UICONTROL Assinar alertas]**.
+
+   ![Assinando um alerta para uma campanha específica](assets/subscribe-campaign-alert.png){width=75%}
+
+1. Selecione o(s) alerta(s) do ciclo de vida da campanha desejado(s) nas opções disponíveis (consulte [Alertas de campanha](#available-alerts)).
+
+1. Clique em **[!UICONTROL Salvar]** para confirmar suas assinaturas.
+
+**Para cancelar a inscrição:**
+
+Abra a mesma caixa de diálogo, desmarque o(s) alerta(s) e clique em **[!UICONTROL Salvar]**.
+
 >[!ENDTABS]
 
-<!--
-Campaign-specific subscriptions apply to the [campaign lifecycle alerts](#available-alerts). They let you monitor individual high-priority campaigns without receiving the same alert for every campaign in the sandbox.
-
-**To subscribe to campaign lifecycle alerts for a specific campaign:**
-
-1. Go to the **[!UICONTROL Campaigns]** inventory and open the tab for your campaign type (**[!UICONTROL Action]** or **[!UICONTROL API triggered]**).
-
-1. Click the **⋯** (more actions) menu for the campaign you want to monitor.
-
-1. Select **[!UICONTROL Subscribe to alerts]**.
-
-1. Select the campaign lifecycle alert(s) you want from the available options (see [Campaign alerts](#available-alerts)).
-
-1. Click **[!UICONTROL Save]** to confirm your subscriptions.
-
-**To unsubscribe:**
-
-Open the same dialog, deselect the alert(s), and click **[!UICONTROL Save]**.
-
-You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Browse]** tab) with **campaign-specific** subscriptions. Use sandbox-level coverage for everything in the sandbox, and add per-campaign subscriptions only for campaigns you want to track separately.
--->
+>[!TIP]
+>
+>Você pode combinar a assinatura de **nível de sandbox** (da guia Alerts **[!UICONTROL Browse]**) com assinaturas **específicas de campanha**. Use a cobertura em nível de sandbox para tudo na sandbox e adicione assinaturas por campanha somente para campanhas que você deseja rastrear separadamente.
 
 <!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR#enable-email-alerts){target="_blank"}.-->
 

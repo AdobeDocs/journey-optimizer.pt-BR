@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 6%
+source-wordcount: 2071
+ht-degree: 5%
 
 ---
 
@@ -37,9 +37,70 @@ Use as funções de lista quando precisar:
 * Verificar se existem valores em coleções ([em](#in))
 * Limitar o número de itens retornados de uma lista ([limit](#limit))
 * Obter o tamanho de uma lista ([listSize](#listSize)) ou transformar listas em diferentes formatos ([serializeList](#serializeList))
-* Execute operações de definição, como localizar elementos comuns entre listas ([interseção](#intersect))
+* Execute operações de conjunto, como localizar elementos comuns entre listas ([interseção](#intersect)), combinar listas ([mergeLists](#mergeLists)) ou subtrair uma lista de outra ([differenceLists](#differenceLists))
 
 As funções de lista fornecem ferramentas poderosas para trabalhar com estruturas de dados complexas, permitindo uma manipulação de dados sofisticada e lógica condicional com base no conteúdo da coleção.
+
+## differenceLists {#differenceLists}
+
+Retorna os itens da primeira lista que não estão presentes na segunda lista (diferença definida: `list 1 - list 2`). Entradas nulas são ignoradas. O resultado sempre remove valores duplicados e preserva a ordem de inserção da primeira lista.
+
++++Sintaxe
+
+`differenceLists(<parameters>)`
+
++++
+
++++Parâmetros
+
+| Parâmetro | Tipo | Descrição |
+|-----------|------------------|------------------|
+| lista 1 | listString, listInteger, listDecimal, listBoolean, listDuration, listDateTime, listDateTimeOnly ou listDateOnly | Lista da qual subtrair. |
+| lista 2 | Mesmo tipo que a lista 1. | Lista de itens para remover da lista 1. |
+
++++
+
++++Assinaturas e tipos retornados
+
+`differenceLists(listString,listString)`: listString
+
+`differenceLists(listInteger,listInteger)`: listInteger
+
+`differenceLists(listDecimal,listDecimal)`: listDecimal
+
+`differenceLists(listBoolean,listBoolean)`: listBoolean
+
+`differenceLists(listDuration,listDuration)`: listDuration
+
+`differenceLists(listDateTime,listDateTime)`: listDateTime
+
+`differenceLists(listDateTimeOnly,listDateTimeOnly)`: listDateTimeOnly
+
+`differenceLists(listDateOnly,listDateOnly)`: listDateOnly
+
++++
+
++++Exemplos
+
+```json
+differenceLists(['a','b','c'], ['b'])
+```
+
+Retorna `['a','c']`.
+
+```json
+differenceLists(['a','a','b'], [])
+```
+
+Retorna `['a','b']`.
+
+```json
+differenceLists([], ['a'])
+```
+
+Retorna `[]`.
+
++++
 
 ## distinct {#distinct}
 
@@ -620,6 +681,64 @@ Retorna o número de objetos na matriz de objetos fornecida (tipo listObject).
 
 +++
 
+## mergeLists {#mergeLists}
+
+Combina duas listas. Quando `deduplicate` é `true`, retorna a união das duas listas com valores duplicados removidos. Quando `deduplicate` é `false`, retorna a concatenação das duas listas (itens da lista 1 seguidos pelos itens da lista 2), mantendo duplicatas. Entradas nulas são ignoradas.
+
+**Observação:** o parâmetro `deduplicate` deve ser um literal `true` ou `false`, não uma expressão booliana dinâmica.
+
++++Sintaxe
+
+`mergeLists(<parameters>)`
+
++++
+
++++Parâmetros
+
+| Parâmetro | Tipo | Descrição |
+|-----------|------------------|------------------|
+| lista 1 | listString, listInteger, listDecimal, listBoolean, listDuration, listDateTime, listDateTimeOnly ou listDateOnly | Primeira lista. Seus itens são adicionados primeiro ao resultado. |
+| lista 2 | Mesmo tipo que a lista 1. | Segunda lista. Seus itens são adicionados após os itens da lista 1. |
+| desduplicar | literal booleano | `true` retorna a união de ambas as listas com duplicatas removidas. `false` retorna a concatenação de ambas as listas, mantendo duplicatas. Deve ser um literal `true` ou `false`. |
+
++++
+
++++Assinaturas e tipos retornados
+
+`mergeLists(listString,listString,boolean)`: listString
+
+`mergeLists(listInteger,listInteger,boolean)`: listInteger
+
+`mergeLists(listDecimal,listDecimal,boolean)`: listDecimal
+
+`mergeLists(listBoolean,listBoolean,boolean)`: listBoolean
+
+`mergeLists(listDuration,listDuration,boolean)`: listDuration
+
+`mergeLists(listDateTime,listDateTime,boolean)`: listDateTime
+
+`mergeLists(listDateTimeOnly,listDateTimeOnly,boolean)`: listDateTimeOnly
+
+`mergeLists(listDateOnly,listDateOnly,boolean)`: listDateOnly
+
++++
+
++++Exemplos
+
+```json
+mergeLists(['a','b'], ['b','c'], true)
+```
+
+Retorna `['a','b','c']`.
+
+```json
+mergeLists(['a','b'], ['b','c'], false)
+```
+
+Retorna `['a','b','b','c']`.
+
++++
+
 ## serializeList {#serializeList}
 
 Converte uma determinada lista (qualquer tipo, exceto listObject) em uma cadeia de caracteres.
@@ -752,7 +871,7 @@ Esta seção contém conhecimento estruturado destinado a oferecer suporte à in
 
 Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
 
-* **TL;DR:** esta página documenta todas as funções de lista disponíveis nas expressões de jornada do AJO, abordando como filtrar, classificar, desduplicar, verificar associação, limitar, serializar e encontrar interseções de listas e matrizes.
+* **TL;DR:** esta página documenta todas as funções de lista disponíveis nas expressões do AJO jornada, abordando como filtrar, classificar, desduplicar, verificar associação, limitar, serializar, mesclar, subtrair e localizar interseções de listas e matrizes.
 
 **Intenções:**
 * Remover valores duplicados de uma lista usando `distinct` (ignorando nulos) ou `distinctWithNull` (preservando nulos)
@@ -760,6 +879,8 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Recuperar um elemento em um índice específico de uma lista usando `getListItem`
 * Verificar se existe um valor em uma lista usando `in`
 * Encontrar elementos comuns entre duas listas usando `intersect`
+* Combinar duas listas, com ou sem desduplicação, usando `mergeLists`
+* Subtrair uma lista de outra (definir diferença) usando `differenceLists`
 * Retorna o primeiro ou o último N elementos de uma lista usando `limit`
 * Contar o número total de elementos em uma lista usando `listSize`
 * Converter uma lista em uma cadeia de caracteres delimitada usando `serializeList`
@@ -769,12 +890,17 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **listObject**: uma lista de objetos complexos que devem ser uma referência de campo; não pode conter objetos nulos *(específico do produto)*
 * **keyAttributeName**: um parâmetro de cadeia opcional usado com `distinct`, `filter` e `sort` para identificar qual atributo de objeto usar para eliminação de duplicação, filtragem ou classificação *(específico do produto)*
 * **interseção**: uma operação de conjunto que retorna somente os elementos presentes em ambas as listas de entrada
+* **mergeLists**: uma operação de conjunto que retorna a união (desduplicada) ou a concatenação (com duplicatas) de duas listas, dependendo do `deduplicate` parâmetro *(específico do produto)*
+* **differenceLists**: uma operação de conjunto que retorna os itens da primeira lista que não estão presentes na segunda lista *(específico do produto)*
 
 **Medidas de Proteção:**
 * `distinctWithNull` não dá suporte ao tipo de parâmetro `<listObject>`
 * `filter` requer que o parâmetro listObject seja uma referência de campo, não um literal embutido
 * `listSize` em um listObject requer que a lista seja uma referência de campo; um listObject não pode conter objetos nulos
 * `serializeList` não dá suporte ao tipo `listObject`
+* `mergeLists` e `differenceLists` suportam somente tipos de lista escalares (string, inteiro, decimal, booleano, dateTime, dateTimeOnly, dateOnly, duration); `listObject` não é suportado
+* O parâmetro `deduplicate` de `mergeLists` deve ser um literal `true`/`false`, não uma expressão booleana dinâmica
+* `differenceLists` sempre desduplica seu resultado; não há opção para manter duplicatas
 
 **Terminologia:**
 * Nome canônico: funções de lista — Acrônimo: none — variantes: funções de coleção, funções de matriz
@@ -782,6 +908,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Não confunda: &quot;distinct&quot; (ignora nulos) ≠ &quot;distinctWithNull&quot; (preserva nulo como um valor distinto)
 * Não confunda: &quot;limit&quot; com o terceiro parâmetro `true` (retorna os primeiros N itens) ≠ &quot;limit&quot; com `false` (retorna os últimos N itens)
 * Não confunda: &quot;intersect&quot; (elementos comuns entre duas listas) ≠ &quot;filter&quot; (elementos que correspondem a valores de chave específicos)
+* Não confunda: &quot;mergeLists&quot; (combina duas listas, união ou concatenação) ≠ &quot;differenceLists&quot; (subtrai uma lista de outra) ≠ &quot;interseção&quot; (apenas elementos comuns)
 
 **Perguntas frequentes:**
 * **P: Como faço para obter os primeiros 3 itens de uma lista?** — Use `limit(myList, 3)` ou `limit(myList, 3, true)`; o padrão é retornar os primeiros itens.
@@ -790,5 +917,9 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **P: Posso filtrar uma lista de cadeias de caracteres com `filter`?** — Não, `filter` funciona somente em `listObject`; para listas escalares, use `in` ou `distinct` para desduplicação.
 * **P: Como verificar se um valor está em uma lista?** — Use `in(value, myList)`, que retornará true se o valor for encontrado na lista.
 * **P: Posso classificar um listObject por um atributo específico?** — Sim, use `sort(@event{...}, "attributeName", true)` onde o segundo parâmetro é o nome do atributo e o terceiro é a direção da classificação (true = crescente).
+* **P: Como combinar duas listas e remover duplicatas?** — Use `mergeLists(list1, list2, true)`.
+* **P: Como combinar duas listas, mas manter valores duplicados?** — Use `mergeLists(list1, list2, false)`.
+* **P: Como faço para localizar os itens de uma lista que não estão em outra?** — Use `differenceLists(list1, list2)`, que retorna os itens de `list1` não presentes em `list2`.
+* **P: Qual é a diferença entre `intersect` e `differenceLists`?** — `intersect` retorna itens comuns às duas listas; `differenceLists` retorna itens da primeira lista que estão ausentes da segunda lista.
 
 +++

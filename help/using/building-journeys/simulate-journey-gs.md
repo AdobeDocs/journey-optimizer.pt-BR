@@ -11,9 +11,9 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1e5c305015755756c937dc1c9dfd358afb2bb12b
+source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
 workflow-type: tm+mt
-source-wordcount: 2187
+source-wordcount: 2385
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Os usuários simulados selecionados para a simulação e os eventos configurados
 +++ Jornada unitária
 
 A jornada começa com um evento unitário, não com um público lido. Um usuário simulado não entra na jornada até que o evento de início seja acionado para ele.
-Os usuários simulados selecionados para a simulação e os eventos configurados estarão visíveis, respectivamente, nas seções **Usuários de teste** e **Eventos de teste**. A seção **Usuários de teste** não inclui uma ação para acionar um usuário simulado na jornada. Você aciona uma entrada de **Eventos de teste**.
+Os usuários simulados selecionados para a simulação e os eventos configurados estarão visíveis, respectivamente, nas seções **Usuários de teste** e **Eventos de teste**. A seção **Usuários de teste** não inclui uma ação para acionar um usuário simulado na jornada. Você aciona a entrada de **Eventos de teste**.
 
 ![Painel de simulação para uma jornada em lotes com público-alvo de leitura somente](assets/simulate-batch-3.png)
 
@@ -155,6 +155,16 @@ Estas medidas de proteção se aplicam a **[!UICONTROL Simulação]**. As letras
 | Retenção de usuário global simulada | 12 meses | Os usuários globais simulados são excluídos automaticamente 12 meses após a criação. |
 
 +++
+
+## Vídeo tutorial {#video}
+
+O vídeo abaixo mostra como usar a Simulação rápida para testar as jornadas do cliente automatizando os principais processos. Ele gera perfis de teste, coordena eventos, acelera os tempos de espera e valida cenários.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497479/?captions=por_br&learn=on)
+
+
+
+</br>
 
 +++ Referência de conhecimento de IA
 

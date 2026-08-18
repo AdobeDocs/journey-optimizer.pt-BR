@@ -32,10 +32,10 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: b35f73d33313a267987ceb18dcfc16ccadff52dc
 workflow-type: tm+mt
-source-wordcount: 1491
-ht-degree: 25%
+source-wordcount: 1585
+ht-degree: 24%
 
 ---
 
@@ -172,6 +172,14 @@ O período de retenção de uma mirror page é de **90 dias**. Após esse atraso
 >* Ao criar emails que dependem muito da personalização em tempo de execução (por exemplo, `#each` loops, objetos aninhados, grandes dados de carga), as URLs de mirror page podem se tornar excessivamente grandes, especialmente em campanhas acionadas por API que usam muitos dados contextuais de cargas. Isso pode causar erros de HTTP (404, 422, 502) em navegadores ou clientes de email. A Adobe recomenda limitar a amplitude e a profundidade dos campos dinâmicos, reduzir a dependência de fragmentos complexos e nivelar as estruturas de personalização para evitar falhas de link.
 >
 >* Na [prova](../content-management/proofs.md) enviada aos perfis de teste, o link para a mirror page não está ativo. Ela só estará ativa nas mensagens finais.
+
+### Decisão em mirror pages {#decisioning-mirror-page}
+
+Você pode usar o [!DNL Decisioning] para personalizar e otimizar seu conteúdo de email, aproveitando Pontuações de Prioridade, Fórmulas ou Modelos de IA para exibir as ofertas e o conteúdo mais relevantes para cada destinatário. Esses [!DNL Decisioning] atributos também são renderizados em mirror pages, incluindo quando a mirror page é inserida em um [fragmento visual](../content-management/fragments.md), desde que a mirror page seja adicionada antes da publicação do fragmento.
+
+>[!CAUTION]
+>
+>Se você adicionar uma mirror page a um fragmento visual já publicado, será necessário republicar as campanhas ou jornadas que o usam para os atributos [!DNL Decisioning] a serem exibidos quando o link for clicado.
 
 ## Personalizar a aparência e o destino do link {#adjust-links}
 

@@ -11,10 +11,10 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
 workflow-type: tm+mt
-source-wordcount: 367
-ht-degree: 46%
+source-wordcount: 444
+ht-degree: 38%
 
 ---
 
@@ -39,6 +39,10 @@ ht-degree: 46%
 Como profissional de marketing, você pode aprimorar a segmentação de público mudando de uma entidade de dados para uma relacionada em uma campanha orquestrada. Isso permite ir além dos perfis de usuários e concentrar-se em comportamentos específicos, como compras, reservas ou outras interações.
 
 Para isso, use a atividade **[!UICONTROL Mudar dimensão]**. Ele permite ajustar o targeting dimension durante a campanha Orquestrada.
+
+>[!NOTE]
+>
+>Para muitos cenários de **várias entidades**, uma **[!UICONTROL Alterar dimensão]** explícita é opcional. Quando o caminho de relação permitir, você poderá conectar uma atividade **[!UICONTROL Criar público-alvo]** diretamente a uma atividade de canal e definir a opção **[!UICONTROL Uma mensagem por dimensão secundária]**. Consulte [Adicionar uma atividade de canal e definir suas propriedades](channels.md#add).  O produto pode inferir dimensões primárias e **secundárias** viáveis a partir de esquemas direcionáveis vinculados à sua consulta. Adicione **[!UICONTROL Alterar dimensão]** quando precisar de uma troca deliberada de eixo no fluxo de trabalho.
 
 <!--
 >[!IMPORTANT]

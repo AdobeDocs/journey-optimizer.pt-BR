@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+source-git-commit: 12c37c94dc2887aa90271b7e65ba3d82884ccb07
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: 938
 ht-degree: 6%
 
 ---
@@ -58,7 +58,6 @@ Ao simplificar esses processos, você pode aprimorar a experiência do cliente, 
 ## Medidas de proteção e limitações
 
 * **Canais com suporte** - Email, SMS, Push e WhatsApp.
-* **Campanhas orquestradas** - As horas de silêncio não são suportadas para campanhas orquestradas.
 * **Atraso de propagação** - As atualizações de uma regra de horas de silêncio podem levar até 12 horas para serem aplicadas às ações de canal que já usam essa regra.
 * **Latência de alto volume** - No caso de comunicações de alto volume, o sistema pode demorar mais para começar a aplicar com êxito supressões de horas silenciosas.
 

@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
-workflow-type: ht
-source-wordcount: 940
-ht-degree: 100%
+source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
+workflow-type: tm+mt
+source-wordcount: 986
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 >title="campaigns_overview_orchestrated"
 >abstract="<b>Orquestração de campanha</b><br/>Dividir, combinar, enriquecer e manipular conjuntos de dados relacionais para definir o público-alvo<br/><br/> <b>Aproveite dados multientidade</b><br/>Saiba como as campanhas orquestradas podem aproveitar os conjuntos de dados relacionais no enriquecimento de dados para segmentação e personalização<br/><br/><b>Segmentação ad-hoc e contagens exatas</b><br/>Crie seu segmento passo a passo com contagens exatas<br/><br/><b>Canais disponíveis</b><br/>Email, SMS, Notificações por push, Correspondência direta"
 
-A Orquestração de campanha no [!DNL Adobe Journey Optimizer] possibilita campanhas sofisticadas iniciadas pela marca em todos os canais, tanto de **marketing** quanto **transacional**. As campanhas de marketing ajudam a impulsionar o engajamento, a receita e a fidelização do cliente em grande escala. As mensagens transacionais não exigem aceitação e são adequadas para comunicações urgentes, como interrupções, emergências ou cancelamentos.
+A Orquestração de Campanha no [!DNL Adobe Journey Optimizer] possibilita campanhas sofisticadas iniciadas por marca em todos os canais — tanto o **marketing** quanto o **transacional**. As campanhas de marketing ajudam a impulsionar o engajamento, a receita e a fidelização do cliente em grande escala. As mensagens transacionais não exigem aceitação e são adequadas para comunicações urgentes, como interrupções, emergências ou cancelamentos.
 
 >[!IMPORTANT]
 >
@@ -59,8 +59,8 @@ A Orquestração de campanhas é construída em torno de quatro pilares principa
 <tr style="border: 0;">
 <td><img alt="Públicos-alvo sob demanda" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>Públicos-alvo sob demanda</b><br/>Consulte instantaneamente os conjuntos de dados para criar segmentos de público-alvo usando qualquer combinação de tipos de dados e dimensões.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentação e envio de várias entidades" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentação e envio de várias entidades</b><br/>Vá além das campanhas com base em pessoas. Use entidades como catálogos de produtos, locais de lojas ou dados de serviço para direcionar com precisão.<br/><br/>
-Ofereça suporte ao envio de vários níveis, em que uma mensagem é enviada por Perfil e por entidade secundária associada. Essas entidades secundárias podem incluir endereços de contato, reservas, assinaturas, contratos ou outros dados vinculados. Por exemplo, permite que campanhas sejam enviadas para todos os endereços conhecidos de um Perfil ou para cada reserva associada a esse Perfil.</td></tr>
+<td><img alt="Segmentação e envio de várias entidades" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentação e envio de várias entidades</b><br/>Vá além das campanhas com base em pessoas: use entidades como catálogos de produtos, locais de armazenamento ou dados de serviço para direcionar com precisão.<br/><br/>
+Suporte ao envio em vários níveis, onde uma mensagem é enviada por perfil e por entidade secundária associada. Essas entidades secundárias podem incluir endereços de contato, reservas, assinaturas, contratos ou outros dados vinculados. Por exemplo, isso permite que campanhas sejam enviadas para todos os endereços conhecidos de um perfil ou para cada reserva associada a esse perfil.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Visibilidade e precisão de pré-envio" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Visibilidade e precisão de pré-envio</b><br/>Obtenha contagens exatas de segmentação e o escopo completo da campanha antes do lançamento, garantindo precisão e confiança.</td></tr>
 <tr style="border: 0;">

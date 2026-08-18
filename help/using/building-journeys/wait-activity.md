@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 14b3d7013504dc3a2544301a899c8cdf0fcf4c92
 workflow-type: tm+mt
-source-wordcount: 1589
-ht-degree: 8%
+source-wordcount: 2072
+ht-degree: 6%
 
 ---
 
@@ -48,13 +48,13 @@ ht-degree: 8%
 
 Você pode usar uma atividade **[!UICONTROL Wait]** para definir uma duração antes de executar a próxima atividade.  A duração máxima de espera é de **90 dias**.
 
-Você pode definir dois tipos de atividade **Aguardar**:
+Você pode definir três tipos de atividade **Aguardar**:
 
 * Uma espera com base em uma duração relativa. [Saiba mais](#duration)
 * Uma data personalizada, usando funções para calculá-la. [Saiba mais](#custom)
+* Uma espera de otimização de tempo de envio. [Saiba mais](#sto-wait)
 
 <!--
-* [Email send time optimization](#email_send_time_optimization)
 * [Fixed date](#fixed_date) 
 -->
 
@@ -124,6 +124,33 @@ A prática recomendada é usar datas personalizadas específicas para seus perfi
 
 Para validar se a atividade de espera funciona como esperado, você pode usar os eventos da etapa. [Saiba mais](../reports/query-examples.md#common-queries).
 
+### Espera de otimização de tempo de envio {#sto-wait}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_wait_optimization_channel"
+>title="Canal de otimização"
+>abstract="Escolha o modelo de Otimização de tempo de envio do canal a ser usado ao calcular o tempo de espera ideal de cada perfil: Notificação por email ou por push. A atividade de espera reutiliza as pontuações de engajamento já calculadas para esse canal, de modo que o canal selecionado deve corresponder ao comportamento de mensagens em que você deseja que a espera seja otimizada."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_wait_optimization_type"
+>title="Tipo de otimização"
+>abstract="Para Email, escolha se o tempo de espera ideal deve ser calculado para maximizar as aberturas ou click-throughs. O recurso Push sempre otimiza para aberturas, já que o rastreamento de cliques não se aplica a mensagens de push. Escolha o tipo de envolvimento que melhor corresponda à meta da atividade que se segue a essa espera."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_wait_send_within"
+>title="Enviar na(s) próxima(s)"
+>abstract="Defina o número máximo de horas (2-100) que o sistema pode esperar antes de continuar com a próxima atividade. Isso define o limite externo da janela que a Otimização de tempo de envio considera ao escolher o melhor momento: uma janela mais curta limita o benefício que o modelo de IA pode oferecer, enquanto uma janela mais longa pode atrasar as atividades downstream mais do que o desejado."
+
+![Definir a duração da espera](assets/wait_sto.png)
+
+Selecione o tipo de **[!UICONTROL Otimização de tempo de envio]** para permitir que a IA da Adobe determine o momento ideal para continuar com a próxima atividade no caminho, com base no comportamento de envolvimento previsto de cada perfil. Isso usa o mesmo modelo de [Otimização de tempo de envio](send-time-optimization.md) que as ações de email e push, mas desvincula a espera do próprio envio. A atividade após a espera pode ser qualquer atividade, como uma ação Personalizada, em vez de estar vinculada apenas a uma ação de Email ou Push.
+
+[Saiba mais sobre como a Otimização de Tempo de Envio funciona e como habilitá-la para sua organização](send-time-optimization.md#how-send-time).
+
+>[!IMPORTANT]
+>
+>A Otimização de Tempo de Envio não tem visibilidade de [horas de silêncio](../conflict-prioritization/quiet-hours.md) regras. As horas de espera são avaliadas somente quando um perfil atinge uma ação de **mensagem**, portanto, uma atividade de Espera de Otimização de Tempo de Envio pode selecionar uma hora ideal que esteja dentro de uma janela de horas de espera para uma ação de canal de downstream. O conflito só aparecerá posteriormente, quando a mensagem for enviada.
+
 ## Atualização de perfil após espera {#profile-refresh}
 
 Quando um perfil é estacionado em uma atividade **Wait** em uma jornada que começa com uma atividade **Read Audience**, a jornada atualiza automaticamente os atributos do perfil no UPS (Serviço de Perfil Unificado) para buscar os dados mais recentes disponíveis.
@@ -159,12 +186,14 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Entenda como as atividades de espera interagem com o tempo limite global do jornada (91 dias)
 * Use o parâmetro Tempo de espera no teste para acelerar a validação do modo de teste
 * Entenda como os atributos de perfil são atualizados após um nó de espera em Ler jornadas de público-alvo
+* Use a Otimização de tempo de envio em uma atividade de espera para determinar o tempo ideal antes de continuar com qualquer atividade downstream
 
 **Glossário:**
 
 * **Atividade de espera**: uma atividade de orquestração de jornadas que pausa a progressão do perfil por uma duração especificada ou até uma data calculada antes que a próxima atividade seja executada *(específico do produto)*
 * **Duração da espera**: um tipo de espera que define um período de tempo relativo para pausa, com um máximo de 90 dias *(específico do produto)*
 * **Espera personalizada**: um tipo de espera que usa uma expressão `dateTimeOnly` derivada de dados de perfil ou evento para definir uma data/hora futura específica para retomada *(específica do produto)*
+* **Espera de otimização de tempo de envio**: um tipo de espera que usa o modelo de IA de otimização de tempo de envio da Adobe para selecionar o momento ideal para continuar com a próxima atividade, dissociado de qualquer mensagem enviada *(específico do produto)*
 * **Nó de espera automático**: uma atividade de espera de 3 dias é inserida automaticamente após as atividades de experiência de entrada (no aplicativo, com base em código, Cartão) para manter o perfil na jornada por tempo suficiente para exibir o conteúdo *(específico do produto)*
 * **Tempo de espera no teste**: um parâmetro de modo de teste de jornada que substitui as durações de espera reais (padrão de 10 segundos) para que os resultados do teste sejam retornados rapidamente *(específico do produto)*
 
@@ -177,6 +206,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * As expressões de espera personalizadas devem usar o formato `dateTimeOnly` e não devem incluir um sufixo `Z` ou deslocamento de fuso horário explícito.
 * Usar uma data estática fixa (por exemplo, `toDateTimeOnly('2024-01-01T01:11:00Z')`) em uma espera personalizada pode causar problemas. Em vez disso, use datas dinâmicas específicas do perfil.
 * Os atributos de perfil são atualizados a partir do Unified Profile Service após um nó de espera em Ler jornadas de público-alvo, o que pode produzir resultados inesperados se a consistência do instantâneo for esperada.
+* A Otimização de tempo de envio em uma atividade de Espera não tem visibilidade sobre regras de horas silenciosas; se uma ação de canal downstream for protegida por uma regra de horas silenciosas definida para descartar mensagens, o perfil poderá ser removido do delivery de mensagens e encerrado da jornada.
 
 **Terminologia:**
 
@@ -191,5 +221,6 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **P: Por que não devo anexar Z a uma expressão de espera personalizada?** — Adicionar Z ou um deslocamento de fuso horário a uma expressão `toDateTimeOnly()` pode fazer com que os perfis fiquem presos na atividade de espera; a expressão deve depender do fuso horário configurado pela jornada.
 * **P: Os atributos de perfil são atualizados após um nó de Espera?** — Sim, em jornadas que começam com Read Audience, a jornada atualiza os atributos do perfil do Unified Profile Service após a espera, portanto, as atividades downstream podem ver valores atualizados em vez dos dados de instantâneo do público original.
 * **P: Qual é o nó de espera automático?** — Uma atividade de espera de três dias é inserida automaticamente após as atividades de experiência de entrada (no aplicativo, com base em código, cartão) para garantir que os perfis permaneçam na jornada por tempo suficiente para ver a mensagem. Ela pode ser removida ou reconfigurada conforme necessário.
+* **P: A atividade de Espera de Otimização de Tempo de Envio conhece as horas de silêncio?** — Não. As horas de silêncio são avaliadas apenas na ação da mensagem, portanto, a atividade Aguardar pode escolher um horário em uma janela de horas de silêncio. Dependendo da regra de horários de silêncio, a mensagem é enfileirada até que os horários de silêncio terminem ou é descartada, o que também sai do perfil da jornada.
 
 +++

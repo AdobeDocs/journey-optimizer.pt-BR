@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 298aaf6b76a4a508175d579ca3913d1f7d681675
 workflow-type: tm+mt
-source-wordcount: 1797
-ht-degree: 9%
+source-wordcount: 1824
+ht-degree: 10%
 
 ---
 
@@ -121,10 +121,7 @@ A ![imagem que mostra o botão Mais ações](assets/do-not-localize/rule-builder
 
 **Somente para campanhas acionadas por Ação e API:**
 
-<!--
-Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign lifecycle alerts can currently be subscribed to at the sandbox level only. See ../reports/alerts.md#subscribe-alerts
-* **[!UICONTROL Subscribe to alerts]** - Choose which campaign lifecycle system alerts apply to this campaign only (in addition to any sandbox-wide alert subscriptions). [Learn more about system alerts →](../reports/alerts.md#subscribe-alerts)
--->
+* **[!UICONTROL Assinar alertas]** - Escolha quais alertas do sistema de ciclo de vida da campanha se aplicam somente a esta campanha (além de qualquer assinatura de alerta em toda a sandbox). [Saiba mais sobre alertas do sistema →](../reports/alerts.md#subscribe-alerts)
 * **[!UICONTROL Adicionar ao pacote]** - Adicione a campanha a um pacote para exportá-la para outra sandbox. [Saiba como exportar objetos →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Abrir versão de rascunho]** - Se uma nova versão da campanha tiver sido criada e ainda não tiver sido ativada, você poderá acessar sua versão de rascunho usando esta ação.
 

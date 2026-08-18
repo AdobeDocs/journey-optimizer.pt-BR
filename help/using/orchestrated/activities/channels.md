@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
+source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
 workflow-type: tm+mt
-source-wordcount: 2012
-ht-degree: 37%
+source-wordcount: 2370
+ht-degree: 31%
 
 ---
 
@@ -121,9 +121,22 @@ Consulte [Medidas de proteção e limitações](../guardrails.md) para todas as 
 
 1. Selecione a atividade e clique em **[!UICONTROL Editar email]**, **[!UICONTROL Editar SMS]**, **[!UICONTROL Editar push]** ou **[!UICONTROL Editar correspondência direta]**, dependendo do canal escolhido.
 
-   ![imagem mostrando a tela com uma atividade de email](../assets/channel-edit.png)
+1. Na seção **[!UICONTROL Target]**, configure o target da entrega:
 
-1. Na guia **[!UICONTROL Propriedades]**, insira uma descrição e alterne para a guia **[!UICONTROL Ações]** para configurar a atividade.
+   * Selecione a **[!UICONTROL Dimensão de destino]** para este envio na lista suspensa.
+
+   * Quando uma dimensão secundária se aplica (tabelas relacionadas vinculadas a cada perfil), escolha quantas mensagens serão enviadas:
+
+     * **[!UICONTROL Uma mensagem por perfil]**: envia uma mensagem por perfil, mesmo quando existem várias linhas da dimensão secundária.
+     * **[!UICONTROL Uma mensagem por dimensão secundária]**: envie uma mensagem por linha qualificada da dimensão secundária. Quando várias linhas correspondem ao mesmo perfil, esse perfil pode receber várias mensagens.
+
+   ![imagem mostrando a seção de Destino com opções de dimensão secundárias](../assets/secondary-dimension.png)
+
+   **Exemplo** - Suponha que uma tabela de &quot;voos&quot; esteja vinculada à tabela de recipients e você queira que cada perfil receba uma mensagem por voo que se aplique a eles. Selecione **[!UICONTROL Uma mensagem por dimensão secundária]**. Use **[!UICONTROL Uma mensagem por perfil]** quando quiser apenas uma mensagem por perfil, independentemente de quantas linhas de voo relacionadas se qualifiquem.
+
+   Para obter mais informações sobre targeting dimensions e como configurá-los, consulte esta página: [Configurar uma Targeting dimension](../target-dimension.md)
+
+1. Clique em **[!UICONTROL Editar email]**, **[!UICONTROL Editar SMS]**, **[!UICONTROL Editar Push]** ou **[!UICONTROL Editar correspondência direta]**, dependendo do canal escolhido para criar a mensagem como de costume, depois retorne ao **painel direito** para concluir as **[!UICONTROL Ações]**.
 
 ## Mensagens de marketing vs. transacionais {#marketing-vs-transactional}
 
@@ -149,11 +162,13 @@ Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal 
 
    Uma configuração é definida por um [Administrador do sistema](../../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba como definir configurações de canal](../../configuration/channel-surfaces.md)
 
+   A lista de configurações de canal é filtrada de acordo com o target definido para o delivery no painel de propriedades ao selecioná-lo na tela. Somente as configurações compatíveis com esse target são exibidas.
+
    ![imagem mostrando a seção de ações](../assets/channel-actions.png)
 
 1. **Aplicar regras de limitação**
 
-   Na lista suspensa **[!UICONTROL Conjunto de regras]**, selecione um conjunto de regras de canal para aplicar regras de limitação à sua campanha. O uso de conjuntos de regras de canal permite definir o limite de frequência por tipo de comunicação para evitar sobrecarga de clientes com mensagens semelhantes. [Saiba como trabalhar com conjuntos de regras](../../conflict-prioritization/rule-sets.md).
+   Na lista suspensa **[!UICONTROL Conjunto de regras]**, selecione um conjunto de regras de canal para aplicar regras de limitação à sua campanha. O uso dos conjuntos de regras de canal permite definir regras, incluindo limite de frequência e horas de silêncio por tipo de comunicação, para evitar sobrecarga de clientes com mensagens semelhantes e evitar enviá-las durante as horas de silêncio configuradas. [Saiba como trabalhar com conjuntos de regras](../../conflict-prioritization/rule-sets.md).
 
 1. **Criar um experimento de conteúdo**
 
@@ -166,6 +181,25 @@ Use a guia **[!UICONTROL Ações]** para selecionar uma configuração de canal 
    ![imagem mostrando a seção de experimento de conteúdo](../assets/channel-experiment.png)
 
 Configurações adicionais estão disponíveis, dependendo do canal de comunicação selecionado. Expanda as seções abaixo para obter mais informações.
+
++++**Personalização do cabeçalho do email** (Email).
+
+>[!AVAILABILITY]
+>
+>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+
+Depois de selecionar a configuração do canal, habilite **[!UICONTROL Substituir configurações de entrega de email]** para substituir valores definidos nessa configuração. Você pode personalizar as seguintes configurações para esta atividade de canal:
+
+* **Parâmetros de cabeçalho de email**: **[!UICONTROL Do nome]**, **[!UICONTROL Do prefixo de email]**, **[!UICONTROL Responder ao nome]** e **[!UICONTROL Responder ao email]**
+
+* **Endereço de execução**: **[!UICONTROL Source]** (**[!UICONTROL Perfil]** ou **[!UICONTROL Dimension de Destino]**) e **[!UICONTROL Endereço de entrega]**
+
+<!--* **List unsubscribe**: **[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click unsubscribe URL]**-->
+
+Para qualquer campo que você deixe em branco, [!DNL Journey Optimizer] usa o valor da configuração de canal selecionada.
+
+![imagem mostrando as configurações de personalização do cabeçalho do email](../assets/email-header.png)
++++
 
 +++**Rastrear envolvimento** (Email e SMS).
 
@@ -184,7 +218,6 @@ Para obter mais informações sobre o desempenho ao usar o modo de entrega rápi
 Quando a atividade do seu canal for configurada, selecione a guia **[!UICONTROL Conteúdo]** para definir seu conteúdo.
 
 ## Definição do conteúdo {#content}
-
 
 ### Criar o conteúdo da mensagem
 
@@ -218,13 +251,17 @@ Quando você simula conteúdo com **perfis de teste** em uma campanha Orquestrad
 
 ## Confirmar envio de mensagem
 
-Por padrão, para campanhas orquestradas não recorrentes, a entrega de mensagens é pausada até que você aprove explicitamente o envio. Depois de publicar a campanha, confirme a solicitação de envio no painel de propriedades da atividade de canal.
+Por padrão, para campanhas orquestradas não recorrentes, a entrega de mensagens é pausada até que você aprove explicitamente o envio. Depois de publicar a campanha, confirme a solicitação de envio de **[!UICONTROL Propriedades]** no **painel direito** enquanto a atividade de canal está selecionada.
 
 ![imagem mostrando o botão Confirmar](../assets/confirm-sending.png)
 
-O envio de confirmação pode ser desativado antes da publicação da campanha orquestrada. Para fazer isso, selecione a atividade do canal na tela para exibir suas propriedades e ative **[!UICONTROL Enviar sem confirmação]**.
+O envio de confirmação pode ser desativado antes da publicação da campanha orquestrada. Para fazer isso, selecione a atividade de canal na tela, vá para **[!UICONTROL Propriedades]** no **painel direito** e ative **[!UICONTROL Enviar sem confirmação]**.
 
 ![imagem mostrando o botão Enviar sem confirmação](../assets/send-without-confirmation.png)
+
+>[!NOTE]
+>
+>Antes de confirmar, você pode dividir o delivery em lotes agendados usando o envio de onda. Essa opção se aplica somente às atividades de canal de saída (Email, SMS, Push ou Correspondência direta). [Saiba como enviar usando ondas](../../delivery/send-using-waves.md)
 
 ## Definir controle de taxa {#rate-control}
 

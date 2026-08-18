@@ -13,9 +13,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
+source-git-commit: 7d01d7bc3fe9d25a1e5cdc10d2b533418489c9f4
 workflow-type: tm+mt
-source-wordcount: 539
+source-wordcount: 546
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ Comece configurando a orquestração de campanhas, mapeando um esquema relaciona
 
    ![](assets/target-dimension-2.png)
 
-1. Clique em **[!UICONTROL Salvar]** para concluir a instalação. Observe que uma vez criada, uma **[!UICONTROL Dimensão de destino]** não pode ser removida nem editada.
+1. Clique em **[!UICONTROL Salvar]** para concluir a instalação. Observe que uma vez criada, uma **[!UICONTROL Dimensão de destino]** não pode ser editada.
+
+1. Acesse o ![menu avançado](assets/do-not-localize/rule-builder-icon-more.svg) para excluir sua **[!UICONTROL Dimensão de destino]**.
+
+   ![](assets/target-dimension-5.png)
 
 Após configurar o **[!UICONTROL Dimension de Destino]**, prossiga para criar e configurar sua **[!UICONTROL Configuração de Canal]** e defina os **[!UICONTROL Detalhes de Execução]** correspondentes.
