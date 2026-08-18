@@ -11,9 +11,9 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 7f4a751b25a46a891cd13dfa0f80087e7be12387
+source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
 workflow-type: tm+mt
-source-wordcount: 2933
+source-wordcount: 2938
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Para obter uma visão geral por tipo de jornada, consulte [Introdução à simul
 
 Após a ativação, as jornadas em lote com entrada de público-alvo de leitura oferecem duas maneiras de executar uma simulação:
 
-* A **[!UICONTROL Simulação rápida]** é executada de ponta a ponta com usuários gerados, valores de eventos gerados e configurações de teste padrão, habilitados pela Journey Agent. É uma maneira rápida de simular uma jornada completa com o mínimo de intervenção. A simulação rápida é iniciada assim que você seleciona essa opção.
+* A **[!UICONTROL Simulação rápida]** é executada de ponta a ponta com usuários gerados, valores de eventos gerados e configurações de teste padrão, habilitados pela Journey Agent. É uma maneira rápida de simular uma jornada completa com o mínimo de intervenção. A simulação rápida é iniciada assim que você seleciona essa opção. [Assista ao vídeo de simulação rápida](simulate-journey-gs.md#video)
 
 * **[!UICONTROL A simulação manual]** permite executar uma simulação passo a passo, manualmente. Crie usuários simulados (manualmente ou com o Journey Agent), acione-os na jornada, defina cargas de evento (manualmente ou com o Journey Agent) e substitua esperas.
 
