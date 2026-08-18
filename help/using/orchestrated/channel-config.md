@@ -6,18 +6,13 @@ description: Saiba como definir a configuração de Canal
 version: Campaign Orchestration
 exl-id: 6793e9b8-06ca-403b-8cb0-3bcaef089837
 TQID: https://experienceleague.adobe.com/unthUbZA8ZMksa2MlgVDbuON-lpr70-v21JZVGyIc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: 549
 ht-degree: 0%
 
 ---
@@ -54,9 +49,11 @@ Para definir a configuração do canal:
 
    * **[!UICONTROL Dimension de Destino]**: enviar para a entidade principal, por exemplo, destinatário.
 
-   * **[!UICONTROL Target + Secondary Dimension]**: enviar usando entidades primárias e secundárias, por exemplo, recipient + contrato.
+   * **[!UICONTROL Target + Secondary Dimension]**: enviar usando entidades primárias e secundárias, por exemplo, recipient + contrato ou recipient + voos.
 
-1. Selecione no menu suspenso seu [Dimension de Destino](#targeting-dimension) criado anteriormente.
+     Escolha esta opção para oferecer suporte a campanhas Orquestradas com várias entidades, em que um perfil pode receber várias mensagens, uma por linha qualificada na tabela vinculada selecionada como[!UICONTROL Dimension Secundário] (por exemplo, **voos** vinculados a **destinatários** ou **detalhes do voo** vinculados a **voos**, dependendo do seu modelo de dados).
+
+1. Selecione no menu suspenso seu [Dimension de Destino](target-dimension.md#targeting-dimension) criado anteriormente.
 
    ![](assets/target-dimension-4.png)
 
