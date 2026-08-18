@@ -6,18 +6,13 @@ description: Notas de pré-lançamento do Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c5d1bcbca48645106d98d68d8ae396c7a2686892
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
 workflow-type: tm+mt
-source-wordcount: 1118
-ht-degree: 18%
+source-wordcount: 1099
+ht-degree: 17%
 
 ---
 
@@ -85,6 +80,12 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 
 * **Datas de início e término no cabeçalho da jornada** - Quando as datas de início e/ou término são configuradas em uma jornada, elas agora são exibidas no cabeçalho da jornada ao lado da notificação de status. O rótulo exibido se adapta com base no fato de cada data ser futura ou já ter passado. <!-- Documentation link: TBD -->
 
+### Canais {#august-26-channels}
+
+As seguintes melhorias estão chegando para as Campanhas nesta versão:
+
+* **Metadados de execução de atividade ao vivo (executionMetadata)** - As campanhas de atividade ao vivo acionadas por API (Transacional e Marketing) agora oferecem suporte a um campo executionMetadata opcional em cada destinatário. Isso permite anexar dados de chave/valor personalizados, como uma ID de pedido, camada de fidelidade ou código de região, a uma execução.
+
 ### Campanhas {#august-26-camp}
 
 Os seguintes recursos e melhorias estão chegando às Campanhas nesta versão.
@@ -139,13 +140,13 @@ Os seguintes recursos e melhorias estão chegando ao Orchestrated Campaigns nest
 <table>
 <thead>
 <tr>
-<th><strong>Suporte ao canal LINE (disponibilidade limitada)</strong><br/></th>
+<th><strong>Envio usando ondas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Com o lançamento do recurso Canais de saída personalizados, agora é possível adicionar ações LINE diretamente em suas campanhas. Essa nova atividade permite criar e fornecer conteúdo altamente personalizado, incluindo texto, adesivos, imagens, vídeos, dados de localização e mensagens avançadas do Flex, para envolver seus clientes perfeitamente na plataforma LINE. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Agora você pode programar mensagens de saída para serem entregues em lotes controlados ao longo do tempo. Ideal para campanhas de alto volume ou sensíveis ao tempo, o envio de ondas também oferece suporte a uma melhor capacidade de entrega e ajuda a manter uma sólida reputação do remetente, reduzindo o risco de ser sinalizado como spam. </p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -163,7 +164,6 @@ Esse recurso está disponível apenas para um conjunto de organizações (dispon
 
 * **Simplificação da dimensão de público-alvo** - A dimensão de público-alvo ativa agora é mostrada na tela do fluxo de trabalho, para que você possa ver qual dimensão é usada por uma atividade de canal. O fluxo de segmentação de várias entidades é mais simples, pois você não precisa mais de uma atividade &quot;Alterar dimensão&quot; separada. Além disso, agora você pode escolher explicitamente se as mensagens são enviadas no nível do perfil ou em um nível de dimensão secundário. <!-- Documentation link: TBD -->
 
-* **Enviar usando ondas** - Agora é possível agendar mensagens de saída para serem entregues em lotes controlados ao longo do tempo. Ideal para campanhas de alto volume ou sensíveis ao tempo, o envio de ondas também oferece suporte a uma melhor capacidade de entrega e ajuda a manter uma sólida reputação do remetente, reduzindo o risco de ser sinalizado como spam. <!-- Documentation link: TBD -->
 
 
 ### Tomada de decisão {#august-26-decisioning}
@@ -203,7 +203,7 @@ O aprimoramento a seguir está chegando para a administração nesta versão.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 

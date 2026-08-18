@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c5d1bcbca48645106d98d68d8ae396c7a2686892
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
 workflow-type: tm+mt
-source-wordcount: 3399
+source-wordcount: 3404
 ht-degree: 19%
 
 ---
@@ -123,7 +111,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>Com o lançamento do recurso Canais de saída personalizados, agora é possível adicionar ações LINE diretamente nas campanhas orquestradas. Essa nova atividade permite criar e fornecer conteúdo altamente personalizado, incluindo texto, adesivos, imagens, vídeos, dados de localização e mensagens avançadas do Flex, para envolver seus clientes perfeitamente na plataforma LINE. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Agora é possível adicionar ações LINE nas campanhas orquestradas. Essa nova atividade permite criar e fornecer conteúdo altamente personalizado, incluindo texto, adesivos, imagens, vídeos, dados de localização e mensagens avançadas do Flex, para envolver seus clientes perfeitamente na plataforma LINE. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../orchestrated/activities/channels.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 12 de agosto de 2026</p>
 </td>
@@ -147,7 +135,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
   Data de disponibilidade: 11 de agosto de 2026
 
-* **Multisseleção na nova tela de jornada** - Agora é possível selecionar vários nós de uma só vez na nova experiência da tela de jornada para executar ações em massa, como copiar, excluir ou salvar como fragmento de jornada, em vários nós de uma só vez. [Saiba mais](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+* **Várias seleções na nova tela de jornada** - A nova experiência de tela de jornada apresenta uma seleção simplificada de vários nós: mantenha a tecla Shift pressionada e arraste para selecionar vários nós de uma só vez, em vez de selecioná-los individualmente. Isso permite que ações em massa, como copiar, excluir ou salvar como um fragmento de jornada, sejam executadas com eficiência em vários nós. [Saiba mais](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
   Data de disponibilidade: 17 de agosto de 2026
 
