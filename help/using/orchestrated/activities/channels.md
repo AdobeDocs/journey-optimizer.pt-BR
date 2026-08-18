@@ -6,18 +6,13 @@ description: Saiba como adicionar uma atividade de canal a uma campanha em vári
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c38a0cb5f69a43cb52e36cd882406122ff0025d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
 workflow-type: tm+mt
-source-wordcount: 2338
+source-wordcount: 2370
 ht-degree: 31%
 
 ---
@@ -211,7 +206,7 @@ Use a seção de **[!UICONTROL Rastreamento de ações]** para acompanhar como o
 
 O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas. A entrega rápida é usada quando o atraso na entrega da mensagem é essencial para os negócios. Por exemplo, você deseja enviar um alerta de push urgente em telefones celulares, como notícias de última hora para usuários que instalaram seu aplicativo de canal de notícias. Saiba como habilitar o modo de entrega rápida para notificações por push [nesta página](../../push/create-push.md#rapid-delivery).
 
-Para obter mais informações sobre o desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Para obter mais informações sobre o desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
@@ -258,6 +253,10 @@ Por padrão, para campanhas orquestradas não recorrentes, a entrega de mensagen
 O envio de confirmação pode ser desativado antes da publicação da campanha orquestrada. Para fazer isso, selecione a atividade de canal na tela, vá para **[!UICONTROL Propriedades]** no **painel direito** e ative **[!UICONTROL Enviar sem confirmação]**.
 
 ![imagem mostrando o botão Enviar sem confirmação](../assets/send-without-confirmation.png)
+
+>[!NOTE]
+>
+>Antes de confirmar, você pode dividir o delivery em lotes agendados usando o envio de onda. Essa opção se aplica somente às atividades de canal de saída (Email, SMS, Push ou Correspondência direta). [Saiba como enviar usando ondas](../../delivery/send-using-waves.md)
 
 ## Definir controle de taxa {#rate-control}
 
