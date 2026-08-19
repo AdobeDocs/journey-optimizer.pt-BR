@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ca053767a216de5f43415c94eb7dd24cffe9dff7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 06731636d4ecbb3c74537f0dea881a1db84569bd
 workflow-type: tm+mt
-source-wordcount: 4611
-ht-degree: 92%
+source-wordcount: 4638
+ht-degree: 91%
 
 ---
 
@@ -42,7 +33,7 @@ ht-degree: 92%
 
 Abaixo são encontradas medidas de proteção e limitações ao usar o [!DNL Adobe Journey Optimizer].
 
-Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -146,7 +137,7 @@ As seguintes medidas de proteção se aplicam às [versões da jornada](../start
 
 * Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação de público-alvo**.
 * Uma jornada que começa com uma atividade de **Qualificação de público-alvo** em v1 deve sempre começar com uma **Qualificação de público-alvo** em outras versões.
-* O público-alvo e o namespace escolhidos na **Qualificação de público-alvo** (primeiro nó) não podem ser alterados em novas versões.
+* O público-alvo e o namespace escolhidos em **Qualificação de público-alvo** (primeira atividade) não podem ser alterados em novas versões.
 * A regra de reentrada deve ser a mesma em todas as versões da jornada.
 * Uma jornada que começa com um **Público-alvo de leitura** não pode começar com outro evento nas próximas versões.
 * Não é possível criar uma nova versão de uma jornada de público-alvo de leitura com leitura incremental. Você precisa duplicar a jornada.
@@ -171,8 +162,8 @@ As seguintes medidas de proteção se aplicam aos [eventos](../event/about-event
 * As jornadas acionadas por evento podem levar até **5 minutos** para processar a primeira ação na jornada.
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
 * Os eventos de negócios não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
-* Um único evento pode ser referenciado por no máximo **25** jornadas a qualquer momento, em todas as jornadas ativas e fechadas. Quando esse limite for atingido, a publicação de qualquer jornada adicional que use esse evento será bloqueada.
-* Um único esquema XDM pode ser referenciado por no máximo **100** eventos em todas as jornadas ativas e fechadas de uma só vez. Quando esse limite for atingido, a publicação de qualquer jornada com um nó de evento que faça referência a esse esquema será bloqueada.
+* Um único evento pode ser referenciado por no máximo **25** jornadas a qualquer momento, em todas as jornadas ativas, fechadas, pausadas, em modo de teste e de simulação. Quando esse limite for atingido, a publicação de qualquer jornada adicional que use esse evento será bloqueada.
+* Um único esquema XDM pode ser referenciado por no máximo **100** eventos em todas as jornadas ativas, fechadas, pausadas, em modo de teste e de simulação de uma só vez. Quando esse limite for atingido, a publicação de qualquer jornada com um nó de evento que faça referência a esse esquema será bloqueada.
 * As jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada do perfil é temporariamente bloqueada por **5 minutos**. Por exemplo, se um evento acionar uma jornada às 12h01 para um perfil específico e outra chegar às 12h03 (se for o mesmo evento ou outro acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
 * O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço Principal de Coleção de Dados (DCCS) para acionar uma jornada. Eventos assimilados em lote, eventos inseridos via **Serviço de consulta**, ou eventos de conjuntos de dados internos do Journey Optimizer (Feedback de mensagens, Rastreamento de email etc.) não podem ser usados para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, é necessário criar um público-alvo com base nesses eventos e usar a atividade **Público-alvo de leitura**. A qualificação de público-alvo pode ser tecnicamente utilizada, mas não é recomendada, pois pode causar problemas posteriores com base nas ações usadas.
 
@@ -233,7 +224,7 @@ As seguintes medidas de proteção se aplicam à atividade de jornada [Qualifica
 
 * A atividade Qualificação de público-alvo não pode ser usada com atividades do Adobe Campaign.
 * Identificadores suplementares não são aceitos para jornadas de qualificação de público-alvo.
-* Uma sandbox pode incluir no máximo **300** nós de qualificação de público-alvo em todas as jornadas ativas e fechadas. Quando esse limite é atingido, a publicação de jornadas com nós de Qualificação de público-alvo adicionais é bloqueada.
+* Uma sandbox pode incluir um máximo de **300** atividades de Qualificação de público-alvo em todas as jornadas ativas, fechadas, pausadas, em modo de teste e de simulação. Esse limite também se aplica às atividades de Qualificação de público usadas como critérios de saída. Quando esse limite é atingido, a publicação de jornadas com atividades adicionais de Qualificação de público-alvo é bloqueada.
 
 Saiba mais sobre taxas de processamento e limites de taxa de transferência da jornada [nesta seção](../building-journeys/entry-management.md#journey-processing-rate).
 
