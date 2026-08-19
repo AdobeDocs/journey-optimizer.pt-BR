@@ -24,7 +24,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 40f1cad3e5c524514ba642c87040085c179c8e82
+source-git-commit: ca053767a216de5f43415c94eb7dd24cffe9dff7
 workflow-type: tm+mt
 source-wordcount: 4611
 ht-degree: 92%
@@ -353,7 +353,7 @@ As seguintes medidas de proteção se aplicam ao [canal de email](../email/get-
 
 * Não é possível usar o mesmo domínio de envio para enviar mensagens de email do [!DNL Adobe Journey Optimizer] e de outro produto, como o [!DNL Adobe Campaign] ou o [!DNL Adobe Marketo Engage] por exemplo.
 
-Ao criar mensagens de email, o sistema verifica as principais configurações e exibe alertas de avisos (recomendações e práticas recomendadas) e erros (bloqueando problemas que impedem teste ou ativação). Saiba mais sobre alertas de email e requisitos de validação [nesta seção](../email/create-email.md#check-email-alerts).
+* Ao criar mensagens de email, o sistema verifica as principais configurações e exibe alertas de avisos (recomendações e práticas recomendadas) e erros (bloqueando problemas que impedem teste ou ativação). Saiba mais sobre alertas de email e requisitos de validação [nesta seção](../email/create-email.md#check-email-alerts).
 
 #### Tamanho do conteúdo da mensagem para publicação no jornada {#message-content-size}
 

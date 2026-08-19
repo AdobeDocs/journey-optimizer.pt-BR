@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2f46eef18beedb44cb9c3f0f1b947080740a41eb
+source-git-commit: 6572e798c2385cbcfdc9abf25142693089a03eb1
 workflow-type: tm+mt
-source-wordcount: 9976
-ht-degree: 82%
+source-wordcount: 10068
+ht-degree: 81%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 82%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Agosto de 2026 {#august-2026}
+
+* Uma nova seção **Limitações do navegador móvel** foi adicionada à página **Introdução ao design de email**, documentando por que os emails podem ser renderizados de forma diferente no Gmail ou no Outlook quando acessados por um navegador móvel, juntamente com uma dica de solução alternativa. [Leia mais](../email/get-started-email-design.md#mobile-web-limitations)
+
+* Uma nova seção **Considerações sobre a renderização do Outlook** foi adicionada à página **Introdução ao design de email**, listando peculiaridades comuns do Outlook que devem ser consideradas durante o design: números pares para preenchimento e larguras, larguras de tabela baseadas em pixels, atributos de largura da imagem do HTML, texto ALT, bordas em células de tabela e cantos arredondados. [Leia mais](../email/get-started-email-design.md#outlook-tips)
 
 * A página **Medidas de proteção de vida útil (TTL) dos conjuntos de dados** foi atualizada com uma tabela **Conjuntos de dados afetados** significativamente expandida, agora cobrindo todos os conjuntos de dados gerados pelo sistema da Journey Optimizer (incluindo vários não listados anteriormente, como o Serviço de Consentimento da AJO, o Perfil de Mensagens Interativas, o Perfil de Push e os conjuntos de dados de Exportação de Mensagens) juntamente com uma nova coluna **Disponibilidade** indicando se cada conjunto de dados está incluído por padrão ou se requer um complemento ou licença específica. A página **Medidas de proteção e limitações** também foi atualizada para refletir a data de imposição confirmada para esta medida de proteção: a alteração será aplicada em **sandboxes de clientes existentes** a partir de **1 de outubro de 2026**. [Leia mais](../data/datasets-ttl.md#datasets)
 
