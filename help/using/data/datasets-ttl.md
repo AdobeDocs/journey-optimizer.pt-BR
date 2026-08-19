@@ -26,7 +26,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 56ef8c0d762debc0607c3322fd36f5a9da472eaa
+source-git-commit: 8dcca5343044af42657c40d4bc6416ad7557891c
 workflow-type: tm+mt
 source-wordcount: 1422
 ht-degree: 13%
@@ -65,11 +65,11 @@ A tabela abaixo lista todos os conjuntos de dados gerados pelo sistema da Journe
 | Conjunto de Dados de Evento de Decisão ExD do AJO *(anteriormente: ODE DecisionEvents - prod decisioning)* | Complemento de decisão necessário | 13 meses | n/d |
 | Conjunto de dados do evento de feedback de atividades do AJO Live | Incluído | 13 meses | n/d |
 | Conjunto de dados de resumo STO do AJO | Incluído | 13 meses | n/d |
-| Conjunto de dados do serviço de consentimento da AJO | Incluído | 13 meses | 90 dias |
-| Conjunto de dados do perfil de mensagens interativas da AJO | Incluído | 13 meses | 90 dias |
-| Conjunto de dados do perfil push do AJO | Incluído | 13 meses | 90 dias |
-| Extensão Contadores de perfis do AJO | Incluído | 13 meses | 90 dias |
-| Jornada entrada | Incluído | 13 meses | 90 dias |
+| Conjunto de dados do serviço de consentimento da AJO | Incluído | n/d | n/d |
+| Conjunto de dados do perfil de mensagens interativas da AJO | Incluído | n/d | n/d |
+| Conjunto de dados do perfil push do AJO | Incluído | n/d | n/d |
+| Extensão Contadores de perfis do AJO | Incluído | n/d | n/d |
+| Jornada entrada | Incluído | n/d | n/d |
 | Conjunto de dados de classificação do AJO | Incluído | n/d | n/d |
 | Conjunto de dados de evento de rastreamento de canal do AJO | Incluído | 13 meses | 90 dias |
 | Conjunto de dados do evento de alteração de estado do desafio de fidelidade da Adobe | Exige uma licença do Journey Optimizer Loyalty | 13 meses | n/d |

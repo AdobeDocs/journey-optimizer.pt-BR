@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8e72cd3a4172a96eadbb9918bf44156324e592ad
+source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
 workflow-type: tm+mt
-source-wordcount: 1386
-ht-degree: 25%
+source-wordcount: 1436
+ht-degree: 24%
 
 ---
 
@@ -201,6 +201,12 @@ Os recursos e melhorias a seguir foram introduzidos nas Campanhas orquestradas n
   Data de disponibilidade: 18 de agosto de 2026
 
 ### Canais {#august-26-channels}
+
+
+* **Metadados de execução de atividade ao vivo (executionMetadata)** - As campanhas de atividade ao vivo acionadas por API (Transacional e Marketing) agora oferecem suporte a um campo executionMetadata opcional em cada destinatário. Isso permite anexar dados de chave/valor personalizados, como uma ID de pedido, camada de fidelidade ou código de região, a uma execução. [Saiba mais](../mobile-live/create-mobile-live.md#metadata)
+
+  Data de disponibilidade: 19 de agosto de 2026
+
 
 * **Complemento de desempenho para taxa de transferência - Push** - Um novo modo de mensagens transacionais de alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Anteriormente disponível apenas para o canal de email, esse recurso agora também está disponível para o canal de push, para organizações que compraram a oferta complementar de Mensagens transacionais de alta capacidade da Adobe. Entre em contato com o representante da Adobe para obter mais informações. [Saiba mais](../campaigns/api-triggered-high-throughput.md)
 

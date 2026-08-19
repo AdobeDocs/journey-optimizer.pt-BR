@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 6572e798c2385cbcfdc9abf25142693089a03eb1
+source-git-commit: fde6b21accd284e13cd9f464a233be25a68feb93
 workflow-type: tm+mt
-source-wordcount: 10068
-ht-degree: 81%
+source-wordcount: 10165
+ht-degree: 80%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 81%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Agosto de 2026 {#august-2026}
+
+* A página **Medidas de proteção e limitações** foi atualizada para esclarecer a atividade de Qualificação de público-alvo e Medidas de proteção de eventos: a redação agora se refere consistentemente às **atividades** de Qualificação de público-alvo (em vez de nós), incluindo quando usadas como critérios de saída, e ambas as medidas de proteção agora abrangem explicitamente as **jornadas live, closed, paused, test mode e dry run**. [Leia mais](../start/guardrails.md#audience-qualif-g)
+
+* Uma observação foi adicionada à seção **Testar otimização de tamanho do HTML** para esclarecer que os tamanhos de prova refletem o tamanho do modelo do HTML (Handlebars no valor mínimo), não o tamanho final do email entregue, que pode ser maior depois que expressões dinâmicas são resolvidas no momento da entrega. [Leia mais](../email/create-email.md#optimize-html-proof)
 
 * Uma nova seção **Limitações do navegador móvel** foi adicionada à página **Introdução ao design de email**, documentando por que os emails podem ser renderizados de forma diferente no Gmail ou no Outlook quando acessados por um navegador móvel, juntamente com uma dica de solução alternativa. [Leia mais](../email/get-started-email-design.md#mobile-web-limitations)
 
