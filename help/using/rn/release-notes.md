@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
 workflow-type: tm+mt
-source-wordcount: 2098
+source-wordcount: 2105
 ht-degree: 20%
 
 ---
@@ -93,6 +81,7 @@ Os seguintes recursos e melhorias foram introduzidos ao Gerenciamento de conteú
 </tbody>
 </table>
 
+
 +++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
 * **Aviso de tamanho da variante de conteúdo** - O Journey Optimizer agora exibe um aviso de limite flexível quando uma variante de conteúdo excede seu limite de tamanho recomendado — 1200 KB para modelos e mensagens, 700 KB para fragmentos e 1000 KB para páginas de aterrissagem. Salvar e publicar não estão bloqueados.
@@ -102,6 +91,12 @@ Os seguintes recursos e melhorias foram introduzidos ao Gerenciamento de conteú
 +++
 
 ### Jornadas {#aug-26-journeys}
+
+
+* **Datas de início e término no cabeçalho da jornada** - Quando as datas de início e/ou término são configuradas em uma jornada, elas agora são exibidas no cabeçalho da jornada ao lado da notificação de status. O rótulo exibido se adapta com base no fato de cada data ser futura ou já ter passado. [Leia mais](../building-journeys/journey-properties.md#dates)
+
+
+Data de disponibilidade: 20 de agosto de 2026
 
 * **Novas funções de lista no editor de expressão avançado** - Duas novas funções estão disponíveis no editor de expressão avançado: `mergeLists` combina duas listas, com ou sem eliminação de duplicação, e `differenceLists` retorna os itens de uma lista que não estão presentes em outra. [Saiba mais](../building-journeys/functions/list-functions.md)
 
@@ -131,7 +126,6 @@ Os seguintes recursos e melhorias foram introduzidos ao Gerenciamento de conteú
 
 * **Adicionar nova função dateDiff no editor de expressão de jornada** - O editor de expressão de jornada agora inclui a função `dateDiff`, que calcula a diferença entre duas datas em número de dias. Essa função é útil para uma lógica baseada no tempo, como criar prazos, calcular durações de ciclo de vida do cliente ou criar cronômetros de contagem regressiva em condições de jornada.
 
-* **Datas de início e término no cabeçalho da jornada** - Quando as datas de início e/ou término são configuradas em uma jornada, elas agora são exibidas no cabeçalho da jornada ao lado da notificação de status. O rótulo exibido se adapta com base no fato de cada data ser futura ou já ter passado.
 
 +++
 

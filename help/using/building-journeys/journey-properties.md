@@ -11,26 +11,15 @@ keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 48caee66b63c65c2beaa2a51b041b931b5134851
 workflow-type: tm+mt
-source-wordcount: 5041
+source-wordcount: 5141
 ht-degree: 10%
 
 ---
@@ -176,6 +165,15 @@ O fuso horário é definido no nível da jornada. Você pode inserir um fuso hor
 Por padrão, os perfis podem inserir sua jornada assim que ela for publicada e podem permanecer até que o [tempo limite de jornada global](#global_timeout) seja atingido. A única exceção são as jornadas de público-alvo de leitura recorrente com **Forçar a reentrada na recorrência** ativada, que terminam na data de início da próxima ocorrência.
 
 Se necessário, você pode definir uma **Data de início** e uma **Data de término** personalizadas. Isso permite que os perfis entrem na jornada em uma data específica e saiam automaticamente quando a data final for atingida.
+
+Quaisquer datas de início e término configuradas são exibidas diretamente no **cabeçalho da jornada**, ao lado da notificação de status. Isso fornece uma visualização rápida do agendamento da jornada sem abrir o painel de propriedades. O rótulo exibido se adapta com base no status de cada data:
+
+* **Próxima data de início** — o cabeçalho mostra a data de início configurada.
+* **Data de início aprovada** — o cabeçalho indica que a jornada já foi iniciada.
+* **Data final futura** — o cabeçalho mostra a data final configurada.
+* **Data de término aprovada** — o cabeçalho indica que a jornada terminou.
+
+Se nenhuma data inicial ou final for definida, nenhuma informação de data será exibida no cabeçalho.
 
 ## Tempo-limite {#timeout}
 
