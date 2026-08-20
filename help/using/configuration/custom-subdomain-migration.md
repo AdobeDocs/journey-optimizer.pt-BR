@@ -13,10 +13,10 @@ exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
 subfeature_v2:
   - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: 10c5128fd54eda95437a7b43bfc89ceabf6c0b72
 workflow-type: tm+mt
-source-wordcount: 1301
-ht-degree: 4%
+source-wordcount: 1254
+ht-degree: 5%
 
 ---
 
@@ -76,7 +76,7 @@ Siga as etapas abaixo para começar a migrar um determinado subdomínio.
    >
    >As etapas de pré-migração são opcionais nesta fase, mas altamente recomendadas. Concluí-los **antes** de iniciar a migração reduz o tempo de inatividade e ajuda a garantir uma transição suave.
 
-   ![](assets/subdomain-migrate-pre-migration-csr.png){width="70%"}
+   ![Seção de pré-migração da Geração de CSR nas configurações de subdomínio](assets/subdomain-migrate-pre-migration-csr.png){width="70%"}
 
 1. Selecione **[!UICONTROL Migrar agora]** na seção dedicada.
 
@@ -100,7 +100,7 @@ Se você já iniciou o processo de migração ou não, siga as etapas abaixo par
 
 1. Preencha o formulário que exibe e gera novamente a Solicitação de assinatura de certificado (CSR).
 
-   ![](assets/subdomain-migrate-regenerate-csr.png){width="60%"}
+   ![Formulário para regenerar a Solicitação de Assinatura de Certificado](assets/subdomain-migrate-regenerate-csr.png){width="60%"}
 
    >[!NOTE]
    >
@@ -108,20 +108,13 @@ Se você já iniciou o processo de migração ou não, siga as etapas abaixo par
 
 1. Clique em **[!UICONTROL Baixar CSR]** e salve o formulário no computador local.
 
-1. Envie-o à Autoridade de certificação (CA) para obter seu certificado SSL. Antes de enviar essa CSR à sua CA para assinatura, há alguns pontos importantes a serem considerados:
+1. Envie-o à Autoridade de certificação (CA) para obter seu certificado SSL.
 
-   * A CSR baixada da etapa 3 é somente para data.subdomain.com.
+   >[!NOTE]
+   >
+   >A CSR baixada já inclui `data.subdomain.com` e `cdn.subdomain.com` como Nomes Alternativos de Entidade (SANs) — nenhuma adição manual de SAN é necessária antes de enviar para sua CA. Por exemplo, se você estiver delegando `example.adobe.com`, a CSR abrange `data.example.adobe.com` e `cdn.example.adobe.com`.
 
-   * No entanto, o certificado deve abranger as entradas data.subdomain.com e cdn.subdomain.com como Nomes alternativos da entidade (SAN) em um único certificado. Por exemplo, se você estiver delegando example.adobe.com, data.subdomain.com corresponde a data.example.adobe.com, e cdn.subdomain.com corresponde a cdn.example.adobe.com.
-
-   * Os subdomínios Data (data.example.adobe.com) e CDN (cdn.example.adobe.com) precisam ser adicionados como entradas pares no mesmo certificado. Nenhum subdomínio adicional deve ser adicionado a esse certificado.
-
-   * A maioria das CAs permite adicionar outras SANs (como o subdomínio CDN) durante o processo de assinatura
-
-      * Por meio do portal da CA (recomendado, se disponível) ou
-      * Solicitando-o manualmente com a equipe de suporte caso a opção de portal não esteja disponível.
-
-   * Depois de assinada, a CA emitirá um único certificado que abrangerá o domínio de dados e o subdomínio CDN.
+   Depois de assinada, a CA emitirá um único certificado que abrangerá o domínio de dados e o subdomínio CDN.
 
 ## Excluir registros DNS existentes {#delete-dns}
 
@@ -133,7 +126,7 @@ Após iniciar o processo de migração, é necessário excluir os registros DNS 
 
 1. Verifique se todos os registros DNS foram excluídos. Depois de concluído, marque a caixa &quot;Confirmo que excluí os registros necessários do site de hospedagem&quot;.
 
-   ![](assets/subdomain-migrate-delete-dns.png){width="75%"}
+   ![Caixa de seleção de confirmação para excluir registros DNS existentes](assets/subdomain-migrate-delete-dns.png){width="75%"}
 
 ## Carregar o certificado SSL {#upload-ssl-certificate}
 
@@ -155,7 +148,7 @@ Antes disso, verifique o seguinte:
 
 1. Depois de recuperar o certificado SSL, clique em **[!UICONTROL Carregar certificado]**.
 
-   ![](assets/subdomain-migrate-ssl-certificate.png){width="75%"}
+   ![Botão Carregar certificado na seção Certificado SSL](assets/subdomain-migrate-ssl-certificate.png){width="75%"}
 
 1. Carregue o certificado SSL para [!DNL Journey Optimizer] no formato .pem com a cadeia completa de certificados. Este é um exemplo de formato de arquivo .pem:
 
@@ -171,7 +164,7 @@ Antes disso, verifique o seguinte:
 
 Em seguida, conclua as etapas do loop de comentários para verificar a propriedade do domínio e o endereço de email do relatório.
 
-![](assets/subdomain-migrate-feedback-loop.png){width="75%"}
+![Etapas do loop de comentários para verificação de propriedade de domínio](assets/subdomain-migrate-feedback-loop.png){width="75%"}
 
 O processo é o mesmo que ao configurar um novo subdomínio personalizado. Siga as etapas detalhadas na página [Configurar um subdomínio personalizado](delegate-custom-subdomain.md#feedback-loop-steps).
 
@@ -186,7 +179,7 @@ Para concluir o processo de migração, crie um novo conjunto de registros DNS g
 
 1. Se todas as validações forem bem-sucedidas, a seção **[!UICONTROL Registros a serem criados]** será exibida.
 
-   ![](assets/subdomain-migrate-records-to-create.png){width="100%"}
+   ![Lista de registros DNS a ser criada na plataforma de hospedagem](assets/subdomain-migrate-records-to-create.png){width="75%"}
 
 1. Crie todos os registros necessários na sua plataforma de hospedagem.
 

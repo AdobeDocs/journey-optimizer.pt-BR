@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
+source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
 workflow-type: tm+mt
-source-wordcount: 1436
-ht-degree: 24%
+source-wordcount: 2105
+ht-degree: 20%
 
 ---
 
@@ -93,7 +93,22 @@ Os seguintes recursos e melhorias foram introduzidos ao Gerenciamento de conteú
 </tbody>
 </table>
 
+
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
+
+* **Aviso de tamanho da variante de conteúdo** - O Journey Optimizer agora exibe um aviso de limite flexível quando uma variante de conteúdo excede seu limite de tamanho recomendado — 1200 KB para modelos e mensagens, 700 KB para fragmentos e 1000 KB para páginas de aterrissagem. Salvar e publicar não estão bloqueados.
+
+* **Limites de contagem de fragmentos no conteúdo** - O Journey Optimizer agora valida o número de fragmentos únicos usados em um conteúdo: até 60 por variante e até 120 em todas as variantes de uma única mensagem. Os avisos são exibidos em 75% de cada limite; a publicação é bloqueada quando o limite rígido é atingido.
+
++++
+
 ### Jornadas {#aug-26-journeys}
+
+
+* **Datas de início e término no cabeçalho da jornada** - Quando as datas de início e/ou término são configuradas em uma jornada, elas agora são exibidas no cabeçalho da jornada ao lado da notificação de status. O rótulo exibido se adapta com base no fato de cada data ser futura ou já ter passado. [Leia mais](../building-journeys/journey-properties.md#dates)
+
+
+Data de disponibilidade: 20 de agosto de 2026
 
 * **Novas funções de lista no editor de expressão avançado** - Duas novas funções estão disponíveis no editor de expressão avançado: `mergeLists` combina duas listas, com ou sem eliminação de duplicação, e `differenceLists` retorna os itens de uma lista que não estão presentes em outra. [Saiba mais](../building-journeys/functions/list-functions.md)
 
@@ -102,6 +117,29 @@ Os seguintes recursos e melhorias foram introduzidos ao Gerenciamento de conteú
 * **Otimização de Tempo de Envio na atividade de Espera** - A Otimização de Tempo de Envio agora está disponível na atividade de Espera, permitindo que a IA da Adobe determine o momento ideal para continuar com qualquer atividade de downstream. [Saiba mais](../building-journeys/wait-activity.md#sto-wait)
 
   Data de disponibilidade: 13 de agosto de 2026
+
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
+
+<table>
+<thead>
+<tr>
+<th><strong>controle no nível da jornada (disponibilidade limitada)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode configurar um grupo de controle para suas jornadas diretamente das propriedades do jornada. Uma validação é uma porcentagem configurável do público-alvo que é excluído da entrada na jornada e não recebe nenhuma comunicação. Ao comparar perfis de controle com perfis ativos nos relatórios do Customer Journey Analytics, é possível medir o aumento incremental - o impacto real - que a jornada oferece.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Adicionar nova função dateDiff no editor de expressão de jornada** - O editor de expressão de jornada agora inclui a função `dateDiff`, que calcula a diferença entre duas datas em número de dias. Essa função é útil para uma lógica baseada no tempo, como criar prazos, calcular durações de ciclo de vida do cliente ou criar cronômetros de contagem regressiva em condições de jornada.
+
+
++++
 
 ### Campanhas {#aug-26-campaigns}
 
@@ -128,6 +166,32 @@ Os recursos e melhorias a seguir foram introduzidos nas Campanhas nesta versão.
 
 * **Assinaturas de alerta de ciclo de vida por campanha** - Agora é possível assinar alertas de ciclo de vida de campanha com suporte para uma única campanha, além da assinatura em nível de sandbox existente. Isso permite monitorar campanhas individuais de alta prioridade sem receber o mesmo alerta para cada campanha na sandbox. [Saiba mais](../reports/alerts.md#subscribe-alerts)
 Data de disponibilidade: 13 de agosto de 2026
+
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Simulação de experiência de entrada em campanhas de ação</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível simular ações de canal de entrada em Campanhas de ação antes de entrar em atividade. Use o modo de simulação para testar sua configuração com usuários simulados e visualizar a experiência renderizada, incluindo um URL gerado e um código QR, para que você possa validar regras, decisões e renderização de conteúdo de ponta a ponta.</p>
+<p>No momento, esse recurso está em beta privado e disponível para um conjunto limitado de organizações. Entre em contato com o representante da Adobe para obter mais informações.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Redesign do fluxo de criação da Campanha de Ação** - O fluxo de criação da Campanha de Ação do Adobe Journey Optimizer foi reprojetado para fornecer uma experiência do usuário significativamente mais intuitiva, eficiente e contínua.
+
+* **Pastas para Campanhas de Ação** - Agora você pode organizar suas Campanhas de Ação em pastas para melhorar a navegação e o gerenciamento na interface.
+
+* **Substituir os campos de execução padrão em Campanhas de ação** - Anteriormente disponíveis no nível de jornada, agora é possível substituir os campos de execução padrão configurados globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da Campanha de ação.
+
++++
 
 ### Campanhas orquestradas {#august-26-oc}
 
@@ -212,6 +276,12 @@ Os recursos e melhorias a seguir foram introduzidos nas Campanhas orquestradas n
 
   Data de disponibilidade: 11 de agosto de 2026
 
+### Configuração {#august-26-configuration}
+
+* **Suporte a várias SANs na geração de CSR para configuração de subdomínio personalizado** - Ao configurar ou migrar um subdomínio personalizado usando o método de delegação Personalizado, a Solicitação de Assinatura de Certificado (CSR) agora é gerada automaticamente com `data.{subdomain}` e `cdn.{subdomain}` como Nomes Alternativos da Entidade (SANs). Anteriormente, o CSR gerado incluía apenas `data.{subdomain}`, exigindo a adição manual de `cdn.{subdomain}` antes do envio para a Autoridade de Certificação. [Saiba mais](../configuration/custom-subdomain-migration.md#send-csr-to-ca)
+
+  Data de disponibilidade: 20 de agosto de 2026
+
 ### Melhorias de usabilidade {#august-26-usability}
 
 * **Operações em massa no inventário de jornadas** - Agora é possível executar novas ações em massa diretamente da lista de inventário de jornadas, agilizando o gerenciamento de várias jornadas de uma só vez. Selecione várias jornadas e aplique qualquer uma destas novas ações em uma única etapa: **adicionar ao pacote**, **excluir**, **mover para a pasta**, **editar marcas** ou **gerenciar acesso**. Isso reduz a necessidade de repetir a mesma ação uma jornada por vez, simplificando o gerenciamento de jornadas para equipes que trabalham com um grande número de jornadas. [Saiba mais](../building-journeys/journey-ui.md)
@@ -233,3 +303,24 @@ Os recursos e melhorias a seguir foram introduzidos nas Campanhas orquestradas n
   Data de disponibilidade: 11 de agosto de 2026
 
   [Saiba mais](../email/message-tracking.md#decisioning-mirror-page)
+
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Suporte à decisão no canal da Web</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A decisão agora está disponível para o canal da Web. Você pode usar políticas de decisão diretamente no editor visual da Web para fornecer as ofertas mais relevantes a cada visitante.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Limite de frequência no nível de posicionamento na Decisão** - As regras de limite de frequência na Decisão agora podem ser segmentadas para posicionamentos individuais, fornecendo controle mais fino sobre a frequência com que uma oferta é exibida em determinada superfície. Dois modos estão disponíveis: **limite específico de posicionamento**, que define um limite que se aplica somente quando a oferta é exibida em um posicionamento selecionado, e **limite por posicionamento**, que aplica um limite independentemente em cada posicionamento em que a oferta é exibida, de modo que cada posicionamento mantém seu próprio contador de limite. Observe que o limite relacionado à disposição não se aplica a ofertas limitadas usando regras baseadas em dados do Adobe Experience Platform.
+
++++

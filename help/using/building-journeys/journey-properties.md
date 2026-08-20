@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
+source-git-commit: 48caee66b63c65c2beaa2a51b041b931b5134851
 workflow-type: tm+mt
-source-wordcount: 5041
+source-wordcount: 5141
 ht-degree: 10%
 
 ---
@@ -176,6 +176,15 @@ O fuso horário é definido no nível da jornada. Você pode inserir um fuso hor
 Por padrão, os perfis podem inserir sua jornada assim que ela for publicada e podem permanecer até que o [tempo limite de jornada global](#global_timeout) seja atingido. A única exceção são as jornadas de público-alvo de leitura recorrente com **Forçar a reentrada na recorrência** ativada, que terminam na data de início da próxima ocorrência.
 
 Se necessário, você pode definir uma **Data de início** e uma **Data de término** personalizadas. Isso permite que os perfis entrem na jornada em uma data específica e saiam automaticamente quando a data final for atingida.
+
+Quaisquer datas de início e término configuradas são exibidas diretamente no **cabeçalho da jornada**, ao lado da notificação de status. Isso fornece uma visualização rápida do agendamento da jornada sem abrir o painel de propriedades. O rótulo exibido se adapta com base no status de cada data:
+
+* **Próxima data de início** — o cabeçalho mostra a data de início configurada.
+* **Data de início aprovada** — o cabeçalho indica que a jornada já foi iniciada.
+* **Data final futura** — o cabeçalho mostra a data final configurada.
+* **Data de término aprovada** — o cabeçalho indica que a jornada terminou.
+
+Se nenhuma data inicial ou final for definida, nenhuma informação de data será exibida no cabeçalho.
 
 ## Tempo-limite {#timeout}
 

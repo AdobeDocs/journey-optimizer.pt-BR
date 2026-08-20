@@ -12,9 +12,9 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
+source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
 workflow-type: tm+mt
-source-wordcount: 2311
+source-wordcount: 2345
 ht-degree: 10%
 
 ---
@@ -162,6 +162,8 @@ O status da jornada depende do seu ciclo de vida. Pode ser:
 * **Pausado**: a jornada em tempo real foi pausada, usando o botão **Pausar**. [Saiba mais](../building-journeys/journey-pause.md)
 * **Parada**: a jornada foi desligada usando o botão **Parada**. Todos os indivíduos saem instantaneamente da jornada. [Saiba mais](../building-journeys/end-journey.md#stop-journey)
 * **Fechada**: a jornada foi fechada usando o botão **Fechar para novas entradas**. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente. [Saiba mais](../building-journeys/end-journey.md)
+
+Qualquer [data de início e término](journey-properties.md#dates) configurada é exibida no cabeçalho da jornada, ao lado da notificação de status. Isso fornece uma visualização rápida do agendamento da jornada sem abrir o painel de propriedades.
 
 >[!NOTE]
 >
