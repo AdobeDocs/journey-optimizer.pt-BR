@@ -10,27 +10,16 @@ level: Intermediate, Experienced
 keywords: evento, jornada, negócios, configuração
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 TQID: https://experienceleague.adobe.com/7-S4UBWGIpqk798A7EreKtcuX-HxUgq34DG3Wek-qmM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 14%
+source-wordcount: 1234
+ht-degree: 13%
 
 ---
 
@@ -55,7 +44,7 @@ Eventos comerciais podem ser &quot;um produto está de volta no estoque&quot;, &
 
 >[!NOTE]
 >
->Você também pode assistir ao caso de uso de evento comercial [tutorial](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Observe que o esquema não precisa ser ativado para o perfil.
+>Você também pode assistir ao caso de uso de evento comercial [tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Observe que o esquema não precisa ser ativado para o perfil.
 
 ## Observações importantes {#important-notes}
 
@@ -69,6 +58,7 @@ Eventos comerciais podem ser &quot;um produto está de volta no estoque&quot;, &
 * Ao testar um evento comercial, você precisa passar os parâmetros do evento e o identificador do perfil de teste que inserirá a jornada em teste. Além disso, ao testar uma jornada baseada em evento comercial, você só pode acionar uma única entrada de perfil. Consulte [esta seção](../building-journeys/testing-the-journey.md#test-business). No modo de teste, não há modo de &quot;Visualização de código&quot; disponível.
 * O que acontece com os indivíduos que estão atualmente na jornada se um novo evento comercial chegar? Ela se comporta da mesma forma que quando os indivíduos ainda estão em uma jornada recorrente quando uma nova recorrência acontece. O caminho deles foi finalizado. Como resultado, os profissionais de marketing devem prestar atenção para evitar a criação de jornadas muito longas se esperam eventos comerciais frequentes.
 * Os eventos de negócios não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
+* A carga de um evento comercial é limitada a um máximo de **64 KB de JSON descompactado e minificado**. Esse limite também se aplica a eventos unitários. Eventos que excedem esse tamanho são descartados e não acionarão a jornada. [Saiba mais sobre medidas de proteção e limitações](../start/guardrails.md#journeys-guardrails-journeys).
 
 ## Vários eventos comerciais {#multiple-business-events}
 
