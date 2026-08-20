@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a0bba0ee8c2f7623d7cf7053b0c8dfc215b45fe0
+source-git-commit: 556acc780e4077e129394a6e8c8fdf93e814e426
 workflow-type: tm+mt
-source-wordcount: 744
-ht-degree: 18%
+source-wordcount: 790
+ht-degree: 17%
 
 ---
 
@@ -142,13 +142,15 @@ Os seguintes recursos e melhorias estão chegando à Decisão nesta versão.
 </tbody>
 </table>
 
-* **Limite de frequência no nível de posicionamento na Decisão** - As regras de limite de frequência na Decisão agora podem ser segmentadas para posicionamentos individuais, fornecendo controle mais fino sobre a frequência com que uma oferta é exibida em determinada superfície. Dois modos estão disponíveis: limite específico de posicionamento, que define um limite que se aplica somente quando a oferta é exibida em um posicionamento selecionado, e limite por posicionamento, que aplica um limite independentemente em cada posicionamento em que a oferta é exibida, de modo que cada posicionamento mantém seu próprio contador de limite. Observe que o limite relacionado à disposição não se aplica a ofertas limitadas usando regras baseadas em dados do Adobe Experience Platform. <!-- Documentation link: TBD -->
+* **Limite de frequência no nível de posicionamento na Decisão** - As regras de limite de frequência na Decisão agora podem ser segmentadas para posicionamentos individuais, fornecendo controle mais fino sobre a frequência com que uma oferta é exibida em determinada superfície. Dois modos estão disponíveis: **limite específico de posicionamento**, que define um limite que se aplica somente quando a oferta é exibida em um posicionamento selecionado, e **limite por posicionamento**, que aplica um limite independentemente em cada posicionamento em que a oferta é exibida, de modo que cada posicionamento mantém seu próprio contador de limite. Observe que o limite relacionado à disposição não se aplica a ofertas limitadas usando regras baseadas em dados do Adobe Experience Platform. <!-- Documentation link: TBD -->
 
-### Administração {#august-26-administration}
+### Gerenciamento de conteúdo {#august-26-content}
 
-O aprimoramento a seguir está chegando para a administração nesta versão.
+As seguintes melhorias estão chegando ao gerenciamento de conteúdo nesta versão.
 
-* **Processo OTP de Loop de Comentários para subdomínios personalizados** - O processo de configuração de subdomínio personalizado FBL (Loop de Comentários) foi aprimorado ao exibir a OTP (Senha Ocasional) do hub do remetente do Yahoo diretamente na interface do usuário do produto. Os usuários agora podem recuperar e exibir automaticamente o OTP gerado durante a verificação de propriedade de domínio do hub do remetente do Yahoo. <!-- Documentation link: TBD -->
+* **Aviso de tamanho da variante de conteúdo** - O Journey Optimizer agora exibe um aviso de limite flexível quando uma variante de conteúdo excede seu limite de tamanho recomendado — 1200 KB para modelos e mensagens, 700 KB para fragmentos e 1000 KB para páginas de aterrissagem. Salvar e publicar não estão bloqueados.
+
+* **Limites de contagem de fragmentos no conteúdo** - O Journey Optimizer agora valida o número de fragmentos únicos usados em um conteúdo: até 60 por variante e até 120 em todas as variantes de uma única mensagem. Os avisos são exibidos em 75% de cada limite; a publicação é bloqueada quando o limite rígido é atingido.
 
 <!--
 
