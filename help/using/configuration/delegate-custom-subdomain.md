@@ -11,24 +11,15 @@ keywords: subdomínio, delegação, domínio, DNS
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 TQID: https://experienceleague.adobe.com/NzVDDmULBe37NjMcby0RRpow1yNUc9bhTlZR9GTZhBY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
 workflow-type: tm+mt
-source-wordcount: 992
-ht-degree: 21%
+source-wordcount: 905
+ht-degree: 24%
 
 ---
 
@@ -115,18 +106,9 @@ Para configurar um subdomínio personalizado, siga as etapas abaixo.
 
 1. Clique em **[!UICONTROL Baixar CSR]** e salve o formulário no computador local.
 
-1. Envie-o à Autoridade de certificação (CA) para obter seu certificado SSL. Antes de enviar essa CSR à sua CA para assinatura, há alguns pontos importantes a serem considerados:
+1. Envie-o à Autoridade de certificação (CA) para obter seu certificado SSL.
 
-   * A CSR baixada da etapa 3 é somente para data.subdomain.com.
-
-   * No entanto, o certificado deve abranger as entradas data.subdomain.com e cdn.subdomain.com como Nomes alternativos da entidade (SAN) em um único certificado. Por exemplo, se você estiver delegando example.adobe.com, data.subdomain.com corresponde a data.example.adobe.com, e cdn.subdomain.com corresponde a cdn.example.adobe.com.
-
-   * Os subdomínios Data (data.example.adobe.com) e CDN (cdn.example.adobe.com) precisam ser adicionados como entradas pares no mesmo certificado.
-
-   * A maioria das CAs permite adicionar outras SANs (como o subdomínio CDN) durante o processo de assinatura
-
-      * Por meio do portal da CA (recomendado, se disponível) ou
-      * Solicitando-o manualmente com a equipe de suporte caso a opção de portal não esteja disponível.
+   * A CSR baixada já inclui `data.subdomain.com` e `cdn.subdomain.com` como Nomes Alternativos de Entidade (SANs) — nenhuma adição manual de SAN é necessária antes de enviar para sua CA. Por exemplo, se você estiver delegando `example.adobe.com`, a CSR abrange `data.example.adobe.com` e `cdn.example.adobe.com`.
 
    * Depois de assinada, a CA emitirá um único certificado que abrangerá o domínio de dados e o subdomínio CDN.
 
@@ -151,7 +133,7 @@ Para configurar um subdomínio personalizado, siga as etapas abaixo.
 >title="Concluir as etapas do loop de comentários"
 >abstract="Acesse o Yahoo! Sender Hub e preencha o formulário para confirmar a propriedade do domínio. Insira o endereço de email para a geração de relatórios FBL listado abaixo e use o OTP que será recebido para confirmar a propriedade no Yahoo! Sender Hub."
 
-1. Vá para o [Yahoo! Site do Hub do Remetente &#x200B;](https://senders.yahooinc.com/) e preencha o formulário necessário para verificar a propriedade do domínio.
+1. Vá para o [Yahoo! Site do Hub do Remetente ](https://senders.yahooinc.com/) e preencha o formulário necessário para verificar a propriedade do domínio.
 
 1. Para verificar a propriedade do domínio, o Yahoo! O Hub do remetente exigirá que você forneça um endereço de email. Insira o endereço de email de relatório FBL listado em **[!UICONTROL Valor]**. Este é um endereço de email da Adobe.
 
