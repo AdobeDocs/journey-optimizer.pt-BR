@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 06731636d4ecbb3c74537f0dea881a1db84569bd
+source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
 workflow-type: tm+mt
-source-wordcount: 4638
-ht-degree: 91%
+source-wordcount: 4732
+ht-degree: 89%
 
 ---
 
@@ -86,7 +86,9 @@ Esta seção aborda medidas de proteção e limitações para jornadas, incluind
 
 * Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até **10 minutos** para ficar ativa e detectar os perfis que entram ou saem do público-alvo.
 
-* Uma instância de jornada para um perfil tem tamanho máximo de **1 MB**. Todos os dados coletados como parte da execução da jornada são armazenados nessa instância da jornada. Portanto, dados de um evento de entrada, informações de perfil recuperadas da Adobe Experience Platform, respostas de ações personalizadas etc., são armazenados nessa instância da jornada e afetam o tamanho da jornada. É aconselhável, quando uma jornada inicia com um evento, limitar o tamanho máximo do conteúdo desse evento (por exemplo: abaixo de **800 KB**) para evitar atingir esse limite após algumas atividades durante a execução da jornada. Quando esse limite é atingido, o perfil fica com status de erro e será excluído da jornada.
+* Uma instância de jornada para um perfil tem tamanho máximo de **1 MB**. Todos os dados coletados como parte da execução da jornada são armazenados nessa instância da jornada. Portanto, dados de um evento de entrada, informações de perfil recuperadas da Adobe Experience Platform, respostas de ações personalizadas etc., são armazenados nessa instância da jornada e afetam o tamanho da jornada. É aconselhável, quando uma jornada inicia com um evento, limitar o tamanho máximo do conteúdo desse evento (por exemplo: abaixo de **800 KB**) para evitar atingir esse limite após algumas atividades durante a execução da jornada. Esta orientação de 800 KB não se aplica a eventos comerciais ou unitários, que estão sujeitos ao limite mais rigoroso de 64 KB descrito abaixo. Quando o limite de 1 MB é atingido, o perfil está com status de erro e será excluído da jornada.
+
+* Qualquer evento que inicie ou entre em uma jornada, incluindo eventos comerciais e unitários, está sujeito a uma proteção adicional e mais rigorosa: a carga do evento é limitada a no máximo **64 KB de JSON descompactado e minificado**. Eventos que excedem esse tamanho são descartados e não acionam a jornada. Isso é separado e mais rigoroso do que o limite de instâncias de jornada de 1 MB acima. [Saiba mais sobre como configurar eventos comerciais](../event/about-creating-business.md).
 
 * Para cada perfil e versão da jornada, o tempo de execução da jornada mantém uma fila interna de até **10 eventos pendentes** enquanto um está sendo processado. Se esse limite for atingido, eventos adicionais serão descartados com o motivo `maxInstanceStackEventsReached` até que a pilha seja esgotada. Consulte [Eventos descartados devido a uma instância de jornada bloqueada](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 
