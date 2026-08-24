@@ -7,15 +7,12 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 74ef02489bcb73f35a78e8bdac474be7d74af570
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
 workflow-type: tm+mt
-source-wordcount: 2475
-ht-degree: 15%
+source-wordcount: 2888
+ht-degree: 13%
 
 ---
 
@@ -57,7 +54,7 @@ Para criar um item de decisão, navegue até **[!UICONTROL Decisão]** > **[!UIC
 
 Comece definindo os atributos padrão e personalizados do item de decisão:
 
-![](assets/item-attributes.png)
+![Formulário de criação de item de decisão mostrando campos de atributo incluindo nome, descrição, datas de início e término, prioridade e marcas](assets/item-attributes.png)
 
 1. Forneça um nome e uma descrição.
 1. Especifique datas de início e término. O item só será considerado pelo mecanismo de decisão nessas datas.
@@ -105,8 +102,8 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 >abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos-alvo ou regras para restringir o item somente a perfis específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -124,9 +121,9 @@ Basicamente, a saída de um público-alvo é uma lista de perfis, enquanto uma r
 
 * Para limitar a apresentação do item de decisão aos membros de um ou vários públicos-alvo da Adobe Experience Platform, selecione a opção **[!UICONTROL Visitantes que se encaixam em um ou vários públicos-alvo]**, adicione um ou vários públicos-alvo do painel esquerdo e combine-os usando os operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]**. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md).
 
-* Para associar uma regra de decisão específica ao item de decisão, selecione **[!UICONTROL Por regra]** e arraste a regra desejada do painel esquerdo para a área central. [Saiba mais sobre regras de decisão](rules.md)
+  ![Seção de qualificação para item de decisão mostrando as opções de seleção de público-alvo](assets/item-constraints.png)
 
-![](assets/item-constraints.png)
+* Para associar uma regra de decisão específica ao item de decisão, selecione **[!UICONTROL Por regra]** e arraste a regra desejada do painel esquerdo para a área central. [Saiba mais sobre regras de decisão](rules.md)
 
 Ao selecionar públicos-alvo ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar os dados.
 
@@ -141,9 +138,14 @@ Ao selecionar públicos-alvo ou regras de decisão, é possível ver informaçõ
 >title="Expressão"
 >abstract="Em vez de usar um valor estático para o limite, é possível definir uma expressão própria. Isso permite calcular o limite dinamicamente usando atributos de decisão e/ou atributos externos de um conjunto de dados da Adobe Experience Platform.<br/><br/>As **expressões** de regra de limite estão disponíveis no momento em Disponibilidade limitada para todos os usuários. Elas só possuem compatibilidade com o tipo de limite **[!UICONTROL No total]**."
 
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_scope"
+>title="Limite de escopo"
+>abstract="Defina como a regra de limitação se aplica a posicionamentos. Por padrão, uma única tampa é aplicada independentemente da disposição. Selecione **Cada posicionamento** para rastrear o limite de maneira independente por posicionamento, ou **Posicionamento específico** para restringir o limite somente aos posicionamentos selecionados. Observe que o limite de **Posicionamento específico** só tem suporte para os canais da Web e Email."
+
 O limite é usado como uma restrição para definir o número máximo de vezes que um item de oferta pode ser apresentado. Limitar o número de vezes que os usuários obtêm ofertas específicas permite evitar o excesso de solicitações de seus clientes e, portanto, otimizar cada ponto de contato com a melhor oferta. Você pode criar até 10 limites para um determinado item de decisão.
 
-![](assets/item-capping.png)
+![Item de decisão mostrando o painel de regras de limite com um botão Criar limite](assets/item-capping.png){width="80%"}
 
 >[!NOTE]
 >
@@ -152,13 +154,13 @@ O limite é usado como uma restrição para definir o número máximo de vezes q
 
 Ao configurar regras de limite, você pode referenciar atributos armazenados em conjuntos de dados do Adobe Experience Platform para definir limites. Para usar um conjunto de dados, selecione-o na seção **[!UICONTROL Conjunto de Dados]**. [Saiba como usar dados do Adobe Experience Platform para a Decisão](../experience-decisioning/aep-data-exd.md)
 
-![](assets/exd-lookup-capping.png)
+![Campo de seleção do conjunto de dados na configuração de limite para fazer referência aos atributos do Adobe Experience Platform como limites](assets/exd-lookup-capping.png){width="80%"}
 
-Para definir regras de limite para o item de decisão, clique no botão **[!UICONTROL Criar limite]** e siga as etapas detalhadas abaixo.
-
-![](assets/item-capping-create.png)
+Para definir regras de limite para o item de decisão, siga as etapas detalhadas abaixo.
 
 1. Defina qual **[!UICONTROL Evento de limite]** será considerado para aumentar o contador.
+
+   ![Criar formulário de regra de limite mostrando o evento de limite, o escopo, o tipo, o limite e redefinir as configurações de frequência](assets/item-capping-event.png){width="80%"}
 
    * **[!UICONTROL Evento de decisão]** (valor padrão): número máximo de vezes que uma oferta pode ser apresentada.
    * **[!UICONTROL Impressão]** (somente canais de entrada): número máximo de vezes que a oferta pode ser exibida a um usuário.
@@ -171,7 +173,7 @@ Para definir regras de limite para o item de decisão, clique no botão **[!UICO
 
    Para notificações por push, o rastreamento de eventos do canal móvel inclui a Experience Cloud ID (ECID). É recomendável usar a ECID na configuração do Campaign ou do Jornada para manter a consistência da identidade e garantir que o limite funcione conforme esperado.
 
-   ![](assets/push-capping.png)
+   ![Configuração de limitação de push mostrando a opção de evento Personalizado com a seleção de tipo de evento de Rastreamento de Push](assets/push-capping.png)
 
    +++
 
@@ -182,6 +184,26 @@ Para definir regras de limite para o item de decisão, clique no botão **[!UICO
    * [Configurar coleção de dados](data-collection/schema-requirement.md)
 
    +++
+
+1. Use a seção **[!UICONTROL Escopo de limitação]** para definir como a regra de limitação se aplica a posicionamentos. [Saiba mais sobre posicionamentos](placements.md#about)
+
+   ![Seção de escopo de limite mostrando o nível da oferta, Cada posicionamento e Opções de opção de posicionamento específico](assets/item-capping-scope.png){width="70%"}
+
+   * **[!UICONTROL Nível de oferta]** (padrão): o limite se aplica por oferta, independentemente do posicionamento onde é exibido. A mesma oferta exibida em vários posicionamentos é contada uma vez por evento de decisão.
+   * **[!UICONTROL Cada posicionamento]**: o limite se aplica a todas as inserções nas quais essa oferta aparece. Cada posicionamento mantém seu próprio contador de limite, e novos posicionamentos são rastreados automaticamente na primeira vez que são vistos. Por exemplo, se uma oferta aparece em um banner de herói e uma barra lateral, cada posicionamento rastreia as impressões de maneira independente. Limitar a oferta em uma inserção não afeta a outra.
+   * **[!UICONTROL Posicionamento específico]**: o limite se aplica somente quando a oferta é exibida em posicionamentos selecionados.
+
+     >[!CAUTION]
+     >
+     >Só há suporte para o limite de **Posicionamento específico** para os canais **Web** e **Email**. Não está disponível para os canais de experiência baseada em código, SMS, Push ou Correspondência direta.
+
+     Clique em **[!UICONTROL Selecionar disposições]** para escolher quais disposições limitar. Outros posicionamentos passam por uncapped. Por exemplo, se você selecionar a disposição Banner de herói com um limite de 3 impressões por dia, a oferta para de aparecer no Banner de herói após 3 impressões, mas permanece elegível em todas as outras disposições.
+
+     ![Escopo de limite de posicionamento específico selecionado, mostrando o botão Selecionar posicionamentos e as marcas de posicionamento selecionadas](assets/item-capping-scope-specific.png){width="75%"}
+
+   >[!NOTE]
+   >
+   >O limite no nível de posicionamento não se aplica a ofertas limitadas usando regras baseadas em dados do Adobe Experience Platform.
 
 1. Escolha o tipo de limite:
 
@@ -211,7 +233,7 @@ Para definir regras de limite para o item de decisão, clique no botão **[!UICO
 
    Para usar uma expressão, habilite a opção **[!UICONTROL Expression]** e edite a expressão conforme desejado.
 
-   ![](assets/exd-lookup-capping-expression.png)
+   ![Editor de expressão para definir um limite de limite dinâmico usando atributos de decisão ou de conjunto de dados](assets/exd-lookup-capping-expression.png)
 
    +++
 
@@ -223,9 +245,11 @@ Para definir regras de limite para o item de decisão, clique no botão **[!UICO
 
    * Pode haver um tempo de buffer de até 15 minutos antes que os eventos sejam contados para restrições de limite de frequência, seja quando o item de decisão for aprovado ou quando o limite for criado, o que ocorrer por último.
 
-1. Clique em **[!UICONTROL Criar]** para confirmar a criação da regra de limitação. Você pode criar até 10 regras para um único item de decisão. Para fazer isso, clique no botão **[!UICONTROL Criar limite]** e repita as etapas acima.
+1. Clique em **[!UICONTROL Criar]** para confirmar a criação da regra de limitação.
 
-   ![](assets/item-capping-rules.png)
+1. Você pode criar até 10 regras para um único item de decisão. Para fazer isso, clique no botão **[!UICONTROL Criar limite]** e repita as etapas acima.
+
+   ![Item de decisão mostrando várias regras de limite listadas com o botão Criar limite para adicionar mais](assets/item-capping-rules.png)
 
 <!--
 * Identifying how many times a given customer has been shown a decision item. 
@@ -238,7 +262,7 @@ If a marketer wants to determine how many times a specific customer has been sho
 
 1. O item de decisão agora aparece na lista, com o status **[!UICONTROL Rascunho]**. Quando estiver pronto para ser apresentado aos perfis, clique no botão de reticências e selecione **[!UICONTROL Aprovar]**.
 
-   ![](assets/item-approve.png)
+   ![Lista de itens de decisão com menu de reticências aberto mostrando a opção Aprovar](assets/item-approve.png)
 
 ## Gerenciar itens de decisão {#manage}
 
@@ -259,7 +283,6 @@ Selecionar um item de decisão ou clicar no botão de reticências permite as a�
 
   Os itens de oferta aprovados não poderão ser excluídos se forem usados em uma coleção ou em uma decisão. Para excluí-los, altere o status para &quot;Rascunho&quot;. Para fazer isso, clique no botão de reticências e selecione **[!UICONTROL Desfazer aprovação]**.
 
-  ![](assets/item-undo.png)
+  ![Menu de reticências de item de decisão mostrando a opção Desfazer aprovar](assets/item-undo.png)
 
 * **[!UICONTROL Arquivar]**: define o status do item de decisão como **[!UICONTROL Arquivado]**. O item de decisão ainda está disponível na lista, mas você não pode definir seu status novamente como **[!UICONTROL Rascunho]** ou **[!UICONTROL Aprovado]**. Você só pode duplicá-la ou excluí-la.
-
