@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
+source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
 workflow-type: tm+mt
-source-wordcount: 2112
+source-wordcount: 2118
 ht-degree: 20%
 
 ---
@@ -93,14 +93,13 @@ Os seguintes recursos e melhorias foram introduzidos ao Gerenciamento de conteú
 </tbody>
 </table>
 
+* **Aviso de tamanho da variante de conteúdo** - O Journey Optimizer agora exibe um aviso de limite flexível quando uma variante de conteúdo excede seu limite de tamanho recomendado — 1200 KB para modelos e mensagens, 700 KB para fragmentos e 1000 KB para páginas de aterrissagem. Salvar e publicar não estão bloqueados. [Saiba mais](../start/guardrails.md#content-authoring)
 
-+++ Em breve — **as informações abaixo estão sujeitas a alterações.**
+  Data de disponibilidade: 25 de agosto de 2026
 
-* **Aviso de tamanho da variante de conteúdo** - O Journey Optimizer agora exibe um aviso de limite flexível quando uma variante de conteúdo excede seu limite de tamanho recomendado — 1200 KB para modelos e mensagens, 700 KB para fragmentos e 1000 KB para páginas de aterrissagem. Salvar e publicar não estão bloqueados.
+* **Limites de contagem de fragmentos no conteúdo** - O Journey Optimizer agora valida o número de fragmentos únicos usados em um conteúdo: até 60 por variante e até 120 em todas as variantes de uma única mensagem. Os avisos são exibidos em 75% de cada limite; a publicação é bloqueada quando o limite rígido é atingido. [Saiba mais](../start/guardrails.md#fragments-guardrails)
 
-* **Limites de contagem de fragmentos no conteúdo** - O Journey Optimizer agora valida o número de fragmentos únicos usados em um conteúdo: até 60 por variante e até 120 em todas as variantes de uma única mensagem. Os avisos são exibidos em 75% de cada limite; a publicação é bloqueada quando o limite rígido é atingido.
-
-+++
+  Data de disponibilidade: 25 de agosto de 2026
 
 ### Jornadas {#aug-26-journeys}
 

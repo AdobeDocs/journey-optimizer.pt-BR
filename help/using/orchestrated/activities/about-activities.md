@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
+source-git-commit: 4aa3c525afceb9e70100e9f76427f9f64ab2b113
 workflow-type: tm+mt
-source-wordcount: 628
+source-wordcount: 624
 ht-degree: 47%
 
 ---
@@ -85,12 +85,12 @@ Saiba como [criar uma ação de canal em uma campanha orquestrada](channels.md).
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Atividade de término"
->abstract="A atividade de **Término** marca o fim de uma ramificação na tela. Opcionalmente, use **Sinal externo** para iniciar uma campanha orquestrada downstream e transmitir parâmetros quando a ramificação for concluída. [Saiba mais](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="A atividade de **Término** marca o fim de uma ramificação na tela. Opcionalmente, use **Sinal externo** para iniciar uma campanha orquestrada downstream e transmitir parâmetros quando a ramificação for concluída."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="Sinal externo"
->abstract="Selecione a campanha orquestrada downstream para começar quando esta ramificação terminar e mapeie os nomes e valores dos parâmetros para enviar no sinal. A campanha downstream deve ser definida como **Acionada por um sinal** e publicada antes que esta campanha atinja a atividade de Término. [Saiba mais](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="Selecione a campanha orquestrada downstream para começar quando esta ramificação terminar e mapeie os nomes e valores dos parâmetros para enviar no sinal. A campanha downstream deve ser definida como **Acionada por um sinal** e publicada antes que esta campanha atinja a atividade de Término."
 
 As atividades a seguir são específicas para organizar e executar campanhas orquestradas. Sua principal tarefa é coordenar as outras atividades.
 

@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
+source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
 workflow-type: tm+mt
-source-wordcount: 4732
-ht-degree: 89%
+source-wordcount: 4884
+ht-degree: 86%
 
 ---
 
@@ -413,9 +413,26 @@ Para manter os perfis que podem ser engajados dentro de limites razoáveis, a Ad
 
 O Journey Optimizer aceita um volume máximo de **500 mensagens transacionais por segundo** em campanhas.
 
+### Medidas de proteção de subdomínios {#subdomain-guardrails}
+
+As medidas de proteção e limitações aplicáveis à delegação de subdomínios no Journey Optimizer estão detalhadas [nesta página](../configuration/delegate-subdomain.md#guardrails).
+
 ## Conteúdo e ativos {#content-assets}
 
-Esta seção aborda as medidas de proteção para a criação e o gerenciamento de conteúdo, incluindo páginas de destino, subdomínios e fragmentos.
+Esta seção aborda medidas de proteção para a criação e o gerenciamento de conteúdo, incluindo páginas de aterrissagem e fragmentos.
+
+### Medidas de proteção de criação de conteúdo {#content-authoring}
+
+Os limites de tamanho recomendados para tipos de conteúdo são os seguintes:
+
+| Tipo de conteúdo | Limite de tamanho recomendado |
+|---|---|
+| Modelo | 1.200 KB |
+| Fragmento | 700 KB |
+| Mensagem | 1.200 KB |
+| Página de destino | 1000 KB |
+
+Um aviso é exibido quando uma variante de conteúdo excede o limite de tamanho recomendado. Isso se aplica a todos os tipos de conteúdo e canais, e não bloqueia salvar ou publicar.
 
 ### Gerar medidas de proteção de conteúdo {#ai-assistant-g}
 
@@ -430,10 +447,6 @@ As seguintes medidas de proteção se aplicam às [páginas de destino](../land
 * Não é possível adicionar um pré-cabeçalho a uma página de destino.
 * Não é possível selecionar a opção **Codifique você mesmo** ao criar uma página de destino principal.
 
-### Medidas de proteção de subdomínios {#subdomain-guardrails}
-
-As medidas de proteção e limitações aplicáveis à delegação de subdomínios no Journey Optimizer estão detalhadas [nesta página](../configuration/delegate-subdomain.md#guardrails).
-
 ### Medidas de proteção de fragmentos {#fragments-guardrails}
 
 As seguintes medidas de proteção se aplicam aos [fragmentos](../content-management/fragments.md):
@@ -442,6 +455,11 @@ As seguintes medidas de proteção se aplicam aos [fragmentos](../content-manage
 * Os fragmentos visuais só estão disponíveis para o canal de email.
 * Os fragmentos de expressão não estão disponíveis para o canal interno do aplicativo.
 * Fragmentos visuais não podem exceder **100 KB**. Fragmentos de expressão não podem exceder **200 KB**.
+* **Limites de contagem de fragmentos**: o número de fragmentos únicos usados em um conteúdo é validado durante a criação. Somente os fragmentos (incluindo fragmentos do AEM) referenciados diretamente são contados — os fragmentos aninhados dentro de outros fragmentos não são contados separadamente.
+
+  * **Por variante**: até 60 fragmentos exclusivos por variante de conteúdo. Um aviso é exibido quando o uso atinge 45 (75% do limite); a publicação está bloqueada em 60.
+  * **Entre variantes**: até 120 fragmentos exclusivos em todas as variantes de uma única mensagem. Um aviso é exibido quando o uso atinge 90 (75% do limite); a publicação está bloqueada em 120.
+
 * Para usar um fragmento em uma jornada ou campanha, ele precisa estar no status **Ativo**.
 * [Atributos contextuais](../personalization/personalization-build-expressions.md) não são permitidos dentro de fragmentos.
 * Fragmentos visuais não são compatíveis entre os modos de uso de temas e estilo manual. Para poder usar um fragmento em um conteúdo ao qual deseja aplicar um tema, esse fragmento precisa ser criado no modo de uso de temas. [Saiba mais sobre temas](../email/apply-email-themes.md)
