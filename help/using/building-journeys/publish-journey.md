@@ -11,21 +11,16 @@ keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d49fae216c9f8370760e4a55adcb5090951dbe52
 workflow-type: tm+mt
-source-wordcount: 1823
-ht-degree: 14%
+source-wordcount: 1958
+ht-degree: 13%
 
 ---
 
@@ -54,13 +49,17 @@ Antes de publicar, verifique se sua jornada atende aos seguintes pré-requisitos
 * **Carga dentro do limite** — A carga da jornada deve estar dentro do limite configurado (4 MB por padrão). Consulte [validação do tamanho da carga da Jornada](../start/guardrails.md#journey-payload-size).
 * **Aprovação obtida** — Se a sua jornada estiver sujeita a uma política de aprovação, solicite e obtenha aprovação antes de publicar. [Saiba mais](../test-approve/gs-approval.md).
 
->[!TIP]
->
->Antes de publicar, valide sua jornada usando uma das opções de teste disponíveis:
->
->* [Simulação](simulate-journey-gs.md) — teste com usuários simulados, sem usar perfis de teste persistentes no Adobe Experience Platform.
->* [Modo de teste](testing-the-journey.md) — teste com perfis persistentes sinalizados como perfis de teste no Adobe Experience Platform.
->* [Execução a seco](journey-dry-run.md) — teste com dados de produção reais, sem entrar em contato com os perfis.
+### Escolha o método de validação correto antes de publicar {#choose-validation-method}
+
+Valide sua jornada usando uma das opções de teste disponíveis. Cada um usa um tipo diferente de dados e se ajusta a um estágio diferente da criação:
+
+| Opção | Dados usados | Melhor para | Envia mensagens reais? |
+| --- | --- | --- | --- |
+| [Simulação](simulate-journey-gs.md) | Usuários temporários simulados, gerados automaticamente | Iteração rápida durante o design do jornada — não é necessário criar ou aguardar a propagação de perfis de teste do AEP | Não |
+| [Modo de teste](testing-the-journey.md) | Perfis de teste de AEP persistentes | Validação manual passo a passo da lógica da ramificação e da mensagem em uma jornada de rascunho | Sim — para testar as caixas de entrada reais dos perfis, usando o mesmo pipeline de entrega que a produção |
+| [Execução seca](journey-dry-run.md) | Dados do público-alvo de produção real | Verificação de pré-lançamento final do alcance real do público-alvo e do direcionamento em escala, sem entrar em contato com ninguém | Não |
+
+Nem a Simulation nem a Dry run fornecem comunicações reais ou atualizam dados de perfil ao vivo. O modo de teste realmente fornece mensagens reais, mas somente para perfis que você sinalizou explicitamente como perfis de teste.
 
 ## Processo de publicação {#journey-publication}
 
@@ -176,7 +175,7 @@ Se a jornada estiver sujeita a uma política de aprovação, será necessário s
 
 Saiba como publicar uma jornada neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427939?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ Referência de conhecimento de IA
 
@@ -212,6 +211,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Nome canônico: Publicar Jornada — Acrônimo: none — variantes: ativar jornada, entrar em funcionamento
 * Sinônimos: &quot;Publish&quot; = &quot;ativate&quot; = &quot;go live&quot;
 * Não confundir: Parar (paragem de emergência de todos os perfis) ≠ Fechar para novas entradas (fechamento normal manual; acabamento de perfis existentes) ≠ Status Closed (automático quando uma nova versão é publicada ou depois de fechar manualmente para novas entradas)
+* Não confundir: Simulação (usuários temporários simulados, nenhum perfil de teste do AEP necessário) ≠ Modo de teste (perfis de teste persistentes do AEP, apenas jornadas de rascunho) ≠ Execução a seco (dados de público-alvo de produção real, nenhum contato, nenhuma atualização de perfil, nós de ação ignorados)
 
 **Perguntas frequentes:**
 * **P: Posso editar uma jornada após sua publicação?** — Somente rótulos, descrições e o nome da jornada podem ser alterados. Para fazer outras modificações, crie uma nova versão da jornada.
