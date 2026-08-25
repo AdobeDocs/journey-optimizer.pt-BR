@@ -9,26 +9,29 @@ role: Admin
 level: Experienced
 exl-id: a46f29a4-5115-4feb-8b2c-751765be2b36
 TQID: https://experienceleague.adobe.com/RPopgwZfOcaw-uHvqVnforixMTAH57urwF2ViaZQemQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
-source-wordcount: 332
-ht-degree: 1%
+source-wordcount: 473
+ht-degree: 24%
 
 ---
 
 # Criar webhooks de feedback para campanhas acionadas por API {#webhooks}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_configuration"
+>title="Configuração básica"
+>abstract="Nesta seção, insira um nome descritivo para identificar o webhook e selecione o(s) canal(is) para os quais este webhook deve receber feedback (email e/ou SMS). No campo URL do Webhook, forneça o ponto de acesso HTTPS onde os eventos de feedback devem ser entregues."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_create"
+>title="Webhooks de feedback"
+>abstract="Os webhooks de feedback permitem receber feedback em tempo real sobre o status de execução de mensagens enviadas com campanhas acionadas por API transacional. Somente uma configuração de webhook por combinação de Organização + sandbox é permitida."
 
 >[!BEGINSHADEBOX]
 
@@ -45,7 +48,22 @@ Você pode gerenciar configurações de webhook no menu **[!UICONTROL Administra
 >[!NOTE]
 >Somente uma configuração de webhook por combinação de **Organização + sandbox** é permitida.
 
-## Criar um webhook de feedback
+## Criar um webhook de feedback {#feedback-webhook}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_authentication"
+>title="Autenticação"
+>abstract="Se o seu ponto de acesso exigir autenticação JWT, selecione **Autenticação JWT** na lista e forneça os detalhes necessários."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_header_parameters"
+>title="Parâmetros de cabeçalho"
+>abstract="Nesta seção, é possível configurar cabeçalhos personalizados adicionais a serem enviados com cada solicitação de webhook."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_relay_url"
+>title="URL de retransmissão"
+>abstract="O ponto de extremidade HTTPS Journey Optimizer chama para entregar eventos para este webhook, incluindo atualizações de status de entrega e, quando habilitado, mensagens SMS/RCS de entrada transmitidas como estão."
 
 Para criar um webhook, siga estas etapas:
 
