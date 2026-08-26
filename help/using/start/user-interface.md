@@ -50,7 +50,7 @@ Para acessar o Adobe Journey Optimizer, entre no [[!DNL Adobe CX Enterprise]](ht
 
 >[!NOTE]
 >
->* Os componentes e recursos disponíveis no ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+>* Os componentes e recursos disponíveis no ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 >* Esta documentação é atualizada com frequência. Algumas capturas de tela podem ser um pouco diferentes da interface.
 
 ## Tour rápido {#quick-tour}
@@ -191,7 +191,7 @@ A navegação à esquerda organiza os recursos do Journey Optimizer em categoria
 **Conexões** - Integrar a outros sistemas
 
 * **Fontes** - Assimilar dados de sistemas externos. [Configurar fontes](get-started-sources.md)
-* **Destinos** - Exporte dados para o armazenamento na nuvem. [Configurar destinos](../data/export-datasets.md). Você também pode ativar públicos para destinos de personalização qualificados, como o Adobe Target, no [catálogo de destinos do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}.
+* **Destinos** - Exporte dados para o armazenamento na nuvem. [Configurar destinos](../data/export-datasets.md). Você também pode ativar públicos para destinos de personalização qualificados, como o Adobe Target, no [catálogo de destinos do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR){target="_blank"}.
 
 **Cliente** - Gerencie públicos-alvo e perfis
 
