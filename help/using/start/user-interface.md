@@ -9,32 +9,16 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 6502d54fa05cba117a0ae72242d9c06dde2ce4ab
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 95%
+source-wordcount: 1608
+ht-degree: 85%
 
 ---
 
@@ -50,7 +34,7 @@ Para acessar o Adobe Journey Optimizer, entre no [[!DNL Adobe CX Enterprise]](ht
 
 >[!NOTE]
 >
->* Os componentes e recursos disponíveis no ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+>* Os componentes e recursos disponíveis no ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 >* Esta documentação é atualizada com frequência. Algumas capturas de tela podem ser um pouco diferentes da interface.
 
 ## Tour rápido {#quick-tour}
@@ -191,7 +175,7 @@ A navegação à esquerda organiza os recursos do Journey Optimizer em categoria
 **Conexões** - Integrar a outros sistemas
 
 * **Fontes** - Assimilar dados de sistemas externos. [Configurar fontes](get-started-sources.md)
-* **Destinos** - Exporte dados para o armazenamento na nuvem. [Configurar destinos](../data/export-datasets.md). Você também pode ativar públicos para destinos de personalização qualificados, como o Adobe Target, no [catálogo de destinos do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR){target="_blank"}.
+* **Destinos** - Exporte dados para o armazenamento na nuvem. [Configurar destinos](../data/export-datasets.md). Você também pode ativar públicos para destinos de personalização qualificados, como o Adobe Target, no [catálogo de destinos do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}.
 
 **Cliente** - Gerencie públicos-alvo e perfis
 
@@ -371,3 +355,24 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 
 <!-- Asset selector content generation -->
 
+<!--SMS webhooks inbound relay -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_auth_body"
+>title="Corpo de autenticação"
+>abstract="O corpo da solicitação que o Journey Optimizer envia ao endpoint de autenticação ao solicitar um token. Sempre insira um JSON válido, mesmo se o Tipo de Conteúdo de Autenticação estiver definido como `application/x-www-form-urlencoded`. O Journey Optimizer o serializa no formato correto no lado do servidor antes de chamar o endpoint do token. Exemplo: `{"grant_type":"client_credentials","client_id":"...","client_secret":"...","scope":"..."}`"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_header_parameters"
+>title="Parâmetros de cabeçalho"
+>abstract="Cabeçalhos HTTP estáticos incluídos em cada solicitação de retransmissão para o endpoint de destino, como uma chave de API, por exemplo, x-api-key. Eles são enviados junto com qualquer token de autenticação configurado acima. Adicione um cabeçalho por linha como um par de nome/valor."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_auth_type"
+>title="Tipo de autenticação"
+>abstract="Como o Journey Optimizer é autenticado no destino de retransmissão. Escolha **Sem Autenticação** para retransmitir mensagens sem credenciais ou **Autenticação Personalizada** para primeiro solicitar um token de um ponto de extremidade de autenticação, por exemplo, um fluxo de credenciais de cliente OAuth, e anexá-lo a cada solicitação de retransmissão."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_url"
+>title="URL de destino de retransmissão"
+>abstract="As chamadas de Journey Optimizer do ponto de extremidade HTTPS retransmitem cada mensagem recebida. O Journey Optimizer envia um POST HTTP separado aqui por mensagem recebida. Isso é diferente do URL de autenticação na Autenticação personalizada, que é usado apenas para obter um token de acesso e não para receber mensagens."
