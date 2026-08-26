@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 hide: true
-source-git-commit: b5482c8671b8380f852c18fb4394cd927cbb1a74
+source-git-commit: 22a514528dd9746bbf45da59a20d6fe17feb6e40
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '764'
 ht-degree: 3%
 
 ---
@@ -47,7 +47,7 @@ A tabela a seguir resume quando os metadados do C2PA são anexados, com base na 
 
 ## O que acontece quando o conteúdo se move {#cc-content-moves}
 
-Os metadados do C2PA viajam com o arquivo de imagem. Quando uma imagem gerada ou editada com IA gerativa é baixada ou exportada do Adobe Journey Optimizer, seus metadados C2PA são preservados. [Saiba mais sobre metadados C2PA](https://helpx.adobe.com/br/firefly/using/content-credentials.html){target="_blank"}.
+Os metadados do C2PA viajam com o arquivo de imagem. Quando uma imagem gerada ou editada com IA gerativa é baixada ou exportada do Adobe Journey Optimizer, seus metadados C2PA são preservados. [Saiba mais sobre metadados C2PA](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}.
 
 Algumas maneiras de trazer imagens para o seu conteúdo, como extrair uma imagem de um PDF ou de uma fonte incorporada (base64), podem não preservar os metadados C2PA originais. Nesses casos, nenhum metadado C2PA pode ser lido da origem, e nenhum é criado para o resultado.
 
@@ -55,3 +55,4 @@ Algumas maneiras de trazer imagens para o seu conteúdo, como extrair uma imagem
 
 * [Diretrizes do usuário da IA gerada da Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"}
 * [Medidas de proteção e limitações](gs-generative.md#generative-guardrails)
+* [Transparência do conteúdo de IA gerativa](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)
