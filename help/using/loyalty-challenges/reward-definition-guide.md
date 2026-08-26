@@ -482,4 +482,4 @@ Para desenvolver e testar uma expressão antes de publicar, use o [JSONata Exerc
 
 ➡️ Veja como configurar um provedor de premiação de fidelidade
 
->[!VIDEO](https://video.tv.adobe.com/v/3497346?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497413?captions=por_br&quality=12)
