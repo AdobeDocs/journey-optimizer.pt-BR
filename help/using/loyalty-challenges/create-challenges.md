@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2577'
 ht-degree: 8%
 
 ---
@@ -276,6 +276,8 @@ Para configurar o conteúdo do desafio:
 
    É possível adicionar várias ações para representar o desafio em diferentes superfícies.
 
+➡️ [Veja como criar um cartão de conteúdo de desafio](#video)
+
 Após configurar o conteúdo, configure as mensagens para envolver os clientes durante todo o ciclo de vida do desafio.
 
 ### Configurar mensagens {#configure-messaging}
@@ -308,6 +310,8 @@ Selecione a **[!UICONTROL Configuração de canal]** associada e clique em **[!U
 | **[!UICONTROL Experiência baseada em código]** | Forneça conteúdo por meio de uma implementação personalizada usando o canal baseado em código da AJO. [Sobre experiências baseadas em código](../code-based/get-started-code-based.md) · [Criar uma experiência baseada em código](../code-based/create-code-based.md) |
 | **[!UICONTROL Ação personalizada]** | Acione um sistema externo ou um terminal personalizado. [Sobre ações personalizadas](../action/about-custom-action-configuration.md) |
 
+➡️ [Veja como configurar as mensagens do ciclo de vida para um desafio](#video)
+
 Seu desafio agora está totalmente configurado com suas configurações, estrutura, conteúdo e mensagens. Para iniciá-lo, você deve publicar o desafio e sua jornada associada.
 
 ## Lançando o desafio {#launch}
@@ -317,6 +321,8 @@ Você tem duas opções para iniciar seu desafio:
 * **[!UICONTROL Publicar Desafio]** (disponível no menu **[!UICONTROL ...]**) — Use esta opção para publicar o desafio sem gerar uma jornada. Isso permite testar, pré-visualizar e simular a experiência do desafio antes da entrega. Os clientes não receberão o desafio até que você gere e publique uma jornada.
 
 * **[!UICONTROL Gerar Jornada]** — Use esta opção para publicar automaticamente o desafio e criar a jornada que orquestrará sua entrega de desafio para os clientes.
+
+➡️ [Veja como publicar um desafio e gerar uma jornada](#video)
 
 ### Publicar o desafio {#publish-challenge}
 
@@ -367,4 +373,16 @@ Saiba como criar e configurar desafios de fidelidade com estes tutoriais de víd
 **Configurar recompensas** - Configurar entrega e atendimento de recompensa
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496485?captions=por_br&quality=12)
+
+➡️ Veja como criar um cartão de conteúdo de desafio
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496533?captions=por_br&quality=12)
+
+➡️ Veja como configurar mensagens de ciclo de vida para um desafio
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497459?captions=por_br&quality=12)
+
+➡️ Veja como publicar um desafio e gerar uma jornada
+
+>[!VIDEO](https://video.tv.adobe.com/v/3498581?captions=por_br&quality=12)
 

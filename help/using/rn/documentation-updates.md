@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 893a64ecaab3c5adb3380d17ff10e2b7891541f4
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: 10200
+source-wordcount: 10236
 ht-degree: 80%
 
 ---
@@ -42,6 +42,8 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Uma nova seção **Usar modo de configurações de imagem** foi adicionada à documentação de conteúdo generativo. Ele explica os modos **Balanceado**, **DAM** e **Creative** disponíveis em **[!UICONTROL Configurações de imagem]**, que controlam se as imagens de fontes de conteúdo geradas por IA da sua biblioteca de Gerenciamento de Ativos Digitais são geradas com IA ou mescladas com ambas. [Leia mais](../content-management/generative-uc.md#image-mode)
 
 * A descrição de **Destinos** em **Navegação à esquerda > Seções principais** foi atualizada para observar que organizações com [!DNL Real-Time CDP] ou [!DNL Adobe Journey Optimizer] também podem ativar públicos para destinos de personalização qualificados, como [!DNL Adobe Target], do catálogo de destinos do Experience Platform. [Leia mais](../start/user-interface.md#main-sections)
+
+* Os vídeos explicativos foram adicionados à documentação Desafios de fidelidade para criar desafios, configurar provedores de recompensa e monitorar o desempenho dos desafios. [Assista aos vídeos de desafio](../loyalty-challenges/create-challenges.md#video), [assista ao vídeo do provedor de premiação](../loyalty-challenges/reward-definition-guide.md#video) e [assista ao vídeo de relatórios](../loyalty-challenges/loyalty-reporting.md#video).
 
 ## Julho de 2026 {#july-2026}
 

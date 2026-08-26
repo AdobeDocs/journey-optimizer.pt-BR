@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
+source-git-commit: f6a2cbb467d58b5d6d12bd59fd64a83cee96c185
 workflow-type: tm+mt
-source-wordcount: 2118
+source-wordcount: 2183
 ht-degree: 20%
 
 ---
@@ -118,6 +118,23 @@ Data de disponibilidade: 20 de agosto de 2026
   Data de disponibilidade: 13 de agosto de 2026
 
 +++ Em breve — **as informações abaixo estão sujeitas a alterações.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Gerar expressões com IA em jornadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O editor de expressão avançado do jornada agora integra a geração de expressões alimentadas por IA: descreva a expressão que você deseja criar em linguagem natural e o editor gera um código pronto para uso que pode ser aplicado imediatamente ou refinado por meio de prompts de acompanhamento.</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Data de disponibilidade: 31 de agosto de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

@@ -22,10 +22,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d49fae216c9f8370760e4a55adcb5090951dbe52
+source-git-commit: 2d145260b0ed1fd0a50c35f52f2a7dc5b4295798
 workflow-type: tm+mt
-source-wordcount: 1958
-ht-degree: 13%
+source-wordcount: 2032
+ht-degree: 12%
 
 ---
 
@@ -52,7 +52,7 @@ Antes de publicar, verifique se sua jornada atende aos seguintes pré-requisitos
 * **Nenhum erro de validação** — Não é possível publicar uma jornada que contenha erros. [Teste sua jornada](testing-the-journey.md) primeiro e [solucione quaisquer erros de atividade](../building-journeys/troubleshooting.md#activity-errors).
 * **Permissão de publicação** — a publicação requer a permissão de alto nível **[!DNL Publish journeys]**. Saiba mais sobre [gerenciamento de direitos de acesso](../administration/permissions-overview.md).
 * **Carga dentro do limite** — A carga da jornada deve estar dentro do limite configurado (4 MB por padrão). Consulte [validação do tamanho da carga da Jornada](../start/guardrails.md#journey-payload-size).
-* **Aprovação obtida** — Se a sua jornada estiver sujeita a uma política de aprovação, solicite e obtenha aprovação antes de publicar. [Saiba mais](../test-approve/gs-approval.md).
+* **Conformidade com a política de aprovação** — Se a jornada estiver sujeita a uma política de aprovação, a publicação a enviará para aprovação em vez de publicá-la imediatamente. Quando um aprovador se desconectar, a jornada será publicada automaticamente. Não há etapa de publicação separada para ser executada posteriormente. [Saiba mais](../test-approve/gs-approval.md).
 
 ### Escolha o método de validação correto antes de publicar {#choose-validation-method}
 
@@ -60,11 +60,11 @@ Valide sua jornada usando uma das opções de teste disponíveis. Cada um usa um
 
 | Opção | Dados usados | Melhor para | Envia mensagens reais? |
 | --- | --- | --- | --- |
-| [Simulação](simulate-journey-gs.md) | Usuários temporários simulados, gerados automaticamente | Iteração rápida durante o design do jornada — não é necessário criar ou aguardar a propagação de perfis de teste do AEP | Não |
+| [Simulação](simulate-journey-gs.md) | Usuários temporários simulados, criados manualmente ou gerados automaticamente | Iteração rápida durante o design do jornada — não é necessário criar ou aguardar a propagação de perfis de teste do AEP | Sim — para os endereços de execução definidos no nível do usuário simulado |
 | [Modo de teste](testing-the-journey.md) | Perfis de teste de AEP persistentes | Validação manual passo a passo da lógica da ramificação e da mensagem em uma jornada de rascunho | Sim — para testar as caixas de entrada reais dos perfis, usando o mesmo pipeline de entrega que a produção |
 | [Execução seca](journey-dry-run.md) | Dados do público-alvo de produção real | Verificação de pré-lançamento final do alcance real do público-alvo e do direcionamento em escala, sem entrar em contato com ninguém | Não |
 
-Nem a Simulation nem a Dry run fornecem comunicações reais ou atualizam dados de perfil ao vivo. O modo de teste realmente fornece mensagens reais, mas somente para perfis que você sinalizou explicitamente como perfis de teste.
+O Dry run nunca fornece comunicações reais ou atualiza dados de perfil em tempo real. O modo Simulação e Teste realmente entregam mensagens reais — Simulação para os endereços de execução definidos nos usuários simulados e Modo de teste para as caixas de entrada reais dos perfis que você sinalizou explicitamente como perfis de teste.
 
 ## Processo de publicação {#journey-publication}
 
@@ -76,7 +76,7 @@ As etapas para publicar uma jornada são detalhadas abaixo:
 
    >[!NOTE]
    >
-   > Se sua jornada estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para publicar sua jornada. [Saiba mais](../test-approve/gs-approval.md)
+   > Se sua jornada estiver sujeita a uma política de aprovação, clicar em **[!UICONTROL Publicar]** enviará a jornada para aprovação em vez de publicá-la imediatamente. Depois que um aprovador se desconecta, a jornada é publicada automaticamente; não é necessário publicá-la novamente. [Saiba mais](../test-approve/gs-approval.md)
 
    ![Botão Publicar na barra de ferramentas do jornada para ativar a jornada](assets/journeyuc1_18.png)
 
