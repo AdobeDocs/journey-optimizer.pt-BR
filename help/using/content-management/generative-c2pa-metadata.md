@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 hide: true
-source-git-commit: b5482c8671b8380f852c18fb4394cd927cbb1a74
+source-git-commit: 22a514528dd9746bbf45da59a20d6fe17feb6e40
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '764'
 ht-degree: 3%
 
 ---
@@ -55,3 +55,4 @@ Algumas maneiras de trazer imagens para o seu conteúdo, como extrair uma imagem
 
 * [Diretrizes do usuário da IA gerada da Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"}
 * [Medidas de proteção e limitações](gs-generative.md#generative-guardrails)
+* [Transparência do conteúdo de IA gerativa](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)
