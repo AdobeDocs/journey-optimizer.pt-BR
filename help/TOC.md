@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 2094f1503f726a352193c86d3a2ccadc8a2caa24
+source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
 workflow-type: tm+mt
-source-wordcount: '3507'
+source-wordcount: '3503'
 ht-degree: 93%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 93%
     + [Configurar e rastrear as métricas da jornada](using/building-journeys/success-metrics.md)
     + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
     + Validar sua jornada {#validate-journey}
-      + [Escolha como testar e validar sua jornada](using/building-journeys/choose-validation-method.md)
+      + [Escolha um método de validação](using/building-journeys/choose-validation-method.md)
       + Simulação {#simulate-journey}
         + [Introdução à simulação de jornada](using/building-journeys/simulate-journey-gs.md)
         + [Simule sua jornada](using/building-journeys/simulate-journey.md)

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Escolha como testar e validar sua jornada
+title: Escolha um método de validação
 description: Compare a Simulação de Jornada, o modo Teste de Jornada e o Jornada Dry run e escolha o método de validação correto para sua jornada antes de publicar.
 feature: Journeys, Get Started, Test Profiles
 topic: Content Management
@@ -9,15 +9,15 @@ role: User
 level: Beginner, Intermediate
 keywords: testar, simular, simulação, modo de teste, simulação, jornada, validar, comparar, escolher, guia de decisão
 version: Journey Orchestration
-source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2465'
 ht-degree: 0%
 
 ---
 
 
-# Escolha como testar e validar sua jornada {#choose-validation-method}
+# Escolha um método de validação {#choose-validation-method}
 
 >[!BEGINSHADEBOX]
 

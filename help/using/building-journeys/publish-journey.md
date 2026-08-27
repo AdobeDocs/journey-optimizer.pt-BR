@@ -11,20 +11,15 @@ keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: 2093
+source-wordcount: 2089
 ht-degree: 12%
 
 ---
@@ -66,7 +61,7 @@ Valide sua jornada usando uma das opções de teste disponíveis. Cada um usa um
 
 O Dry run nunca fornece comunicações reais ou atualiza dados de perfil em tempo real. O modo Simulação e Teste realmente entregam mensagens reais — Simulação para os endereços de execução definidos nos usuários simulados e Modo de teste para as caixas de entrada reais dos perfis que você sinalizou explicitamente como perfis de teste.
 
-Para obter uma comparação completa desses três métodos, consulte [Escolher como testar e validar sua jornada](choose-validation-method.md).
+Para obter uma comparação completa desses três métodos, consulte [Escolher um método de validação](choose-validation-method.md).
 
 ## Processo de publicação {#journey-publication}
 
@@ -182,7 +177,7 @@ Se sua jornada estiver sujeita a uma política de aprovação, clicar em **[!UIC
 
 Saiba como publicar uma jornada neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427939?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ Referência de conhecimento de IA
 
