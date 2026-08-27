@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: testar, simular, simulação, modo de teste, simulação, jornada, validar, comparar, escolher, guia de decisão
 version: Journey Orchestration
-source-git-commit: 881cbee186a4f58fe23e5e0c62972743921bd5f4
+source-git-commit: bd0fcc9ebc9e906f2040bc520bc13f0a9318f6d8
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2465'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** compare a Simulação de Jornada, o modo de Teste de Jornada e o Jornada Dry run, e saiba qual deles se encaixa no estágio atual de criação de uma jornada — desde a iteração rápida durante o design até a verificação final de pré-lançamento em relação ao seu público-alvo em tempo real.
+**Nesta página:** Comparar Simulação de Jornada, Modo de Teste de Jornada e Execução de Jornada Seca. Saiba qual se encaixa no estágio atual de criação de uma jornada, desde a iteração rápida durante o design até a verificação final de pré-lançamento em relação ao público-alvo em tempo real.
 
 >[!ENDSHADEBOX]
 
-O [!DNL Adobe Journey Optimizer] fornece três maneiras de validar uma jornada antes que ela entre em vigor. Elas não são intercambiáveis: cada uma usa um tipo diferente de dados, se encaixa em um estágio diferente de sua criação e carrega diferentes consequências reais. Entender a diferença antecipadamente ajuda a evitar dois erros comuns: gastar tempo criando perfis de teste quando uma simulação rápida faria ou presumir que uma etapa de validação é totalmente &quot;segura&quot; quando ainda pode entrar em contato com caixas de entrada reais ou fazer chamadas de saída reais.
+O [!DNL Adobe Journey Optimizer] fornece três maneiras de validar uma jornada antes que ela entre em vigor. Elas não são intercambiáveis: cada uma usa um tipo diferente de dados, se encaixa em um estágio diferente de sua criação e carrega diferentes consequências reais. Entender a diferença antecipadamente ajuda a evitar dois erros comuns. A primeira é gastar tempo criando perfis de teste quando uma simulação rápida serviria. A segunda é supor que uma etapa de validação seja totalmente &quot;segura&quot; quando ainda puder entrar em contato com caixas de entrada reais ou fazer chamadas de saída reais.
 
 Esta página foca na validação do fluxo de jornada e da lógica de ramificação. Para obter o quadro completo dos recursos de teste e aprovação, incluindo visualização de conteúdo, renderização de email e verificações de spam, experimentos A/B e fluxos de trabalho de aprovação, consulte [Testar, validar e aprovar](../../rp_landing_pages/test-landing-page.md).
 
@@ -45,7 +45,7 @@ Ainda não tem certeza ou quer ter uma imagem completa? Continue lendo — cada 
 
 >[!TAB Simulação de Jornada]
 
-**Quando usar:** iteração rápida durante o design da jornada, especialmente logo antes do prazo ou ao testar novas ramificações ou caminhos, e também funciona bem como um método de validação contínuo sempre que não é prático criar um perfil de teste adequado para o seu caso de uso.
+**Quando usar:** iteração rápida durante o design da jornada, especialmente antes do prazo ou ao testar novas ramificações ou caminhos. Também funciona bem como um método de validação contínua sempre que não for prático criar um perfil de teste adequado para o caso de uso.
 
 A [Simulação de Jornada](simulate-journey-gs.md) valida sua jornada com usuários temporários simulados — não é necessário criar ou aguardar a propagação de perfis de teste reais do Adobe Experience Platform (AEP). Você pode criar usuários simulados manualmente ou permitir que a IA gere automaticamente os eventos de teste de que sua jornada precisa e os faça corresponder aos usuários simulados corretos, acionando a jornada em segundos.
 
@@ -57,7 +57,7 @@ Mecanismos principais:
 
 >[!IMPORTANT]
 >
->A simulação envia mensagens reais para os [endereços de execução](simulate-journey.md#test-users) (email, telefone, token de push) configurados nos usuários simulados — por exemplo, seu próprio endereço de email — usando o mesmo pipeline de entrega que a produção. Ele não entra em contato com clientes reais ou atualiza os dados do perfil ao vivo, mas as mensagens em si são reais.
+>A simulação envia mensagens reais para os [endereços de execução](simulate-journey.md#test-users) (email, telefone, token de push) configurados nos usuários simulados — por exemplo, seu próprio endereço de email. Ele usa o mesmo pipeline de entrega que a produção. Ele não entra em contato com clientes reais ou atualiza os dados do perfil ao vivo, mas as mensagens em si são reais.
 
 **Perfeito para:** validar uma nova ramificação (por exemplo, dois novos caminhos de política de decisão) sem esperar pela propagação do perfil de teste do AEP.
 
@@ -80,7 +80,7 @@ Mecanismos principais:
 >
 >O modo Jornada teste envia mensagens reais para as caixas de entrada reais dos perfis de teste, usando o mesmo pipeline de entrega que a produção. Ela não entra em contato com clientes reais, mas também não é uma simulação &quot;seca&quot; — verifique se os perfis de teste usam endereços controlados por você.
 
-**Ponto problemático:** Criar e propagar novos perfis de teste do AEP leva tempo. A [Simulação de Jornada](simulate-journey-gs.md) oferece uma alternativa rápida que não requer nenhum perfil de teste — útil não apenas enquanto você espera que os perfis se propaguem, mas não é prático criar um perfil de teste adequado ao seu caso de uso a qualquer momento.
+**Ponto problemático:** Criar e propagar novos perfis de teste do AEP leva tempo. [A Simulação de Jornada](simulate-journey-gs.md) oferece uma alternativa rápida que não requer nenhum perfil de teste. Isso é útil não apenas enquanto você espera que os perfis se propaguem, mas não é prático criar um perfil de teste adequado para seu caso de uso a qualquer momento.
 
 ➡️ [Testar sua jornada](testing-the-journey.md)
 
@@ -88,7 +88,7 @@ Mecanismos principais:
 
 **Quando usar:** uma verificação final, realista em produção, antes da publicação.
 
-O [Jornada Dry run](journey-dry-run.md) é um modo de publicação de jornada especial que executa sua jornada em relação ao público-alvo de produção real e aos dados de segmentação, sem entrar em contato com clientes reais ou atualizar as informações do perfil. A jornada é ativada como uma jornada em tempo real — os perfis fluem por ramificações e nós exatamente como fariam na produção — mas os [nós de ação](about-journey-activities.md), como email, SMS e ações personalizadas, são ignorados.
+O [Jornada Dry run](journey-dry-run.md) é um modo de publicação de jornada especial que executa sua jornada em relação ao público-alvo de produção real e aos dados de segmentação, sem entrar em contato com clientes reais ou atualizar as informações do perfil. A jornada é ativada como uma jornada em tempo real, e os perfis fluem por ramificações e nós exatamente como fariam na produção. No entanto, os [nós de ação](about-journey-activities.md), como email, SMS e ações personalizadas, são ignorados.
 
 Mecanismos principais:
 
@@ -108,11 +108,11 @@ Comece com uma pergunta simples: você já tem perfis de teste que se encaixam n
 
 Além dessa escolha, a resposta geralmente se resume a mais uma pergunta: *a que distância da produção você precisa que esse teste esteja?*
 
-Se você ainda estiver **iterando no design do jornada** — testando uma nova ramificação, trabalhando dentro de um prazo — use **Simulação de Jornada**. Ele não precisa de perfis reais e é executado em segundos, e permanece como uma opção válida posteriormente em sua criação também, sempre que não for prático criar perfis de teste adequados para seu caso de uso. Lembre-se de que ele envia mensagens reais para os endereços de execução configurados nos usuários simulados.
+Se você ainda estiver **iterando no design do jornada** — testando uma nova ramificação, trabalhando dentro de um prazo — use **Simulação de Jornada**. Ele não precisa de perfis reais e é executado em segundos. Também permanece uma opção válida posteriormente em sua criação, sempre que não for prático criar perfis de teste adequados para seu caso de uso. Lembre-se de que ele envia mensagens reais para os endereços de execução configurados nos usuários simulados.
 
 Se você precisar **verificar manualmente etapa por etapa a lógica de ramificação e mensagem** e estiver disposto a criar ou reutilizar perfis de teste do AEP, use o **Modo de teste de Jornada**. Lembre-se de que ele envia mensagens reais para as caixas de entrada reais desses perfis de teste.
 
-Se você estiver prestes a **publicar** e quiser uma verificação final dos volumes esperados em relação ao seu público-alvo de produção real, sem entrar em contato com ninguém ou alterar os dados do perfil, use o **Jornada Dry run**.
+Se você estiver prestes a **publicar** e quiser uma verificação final dos volumes esperados em relação ao seu público-alvo real de produção, use o **Jornada Dry run**. Ele nunca contata ninguém ou altera os dados do perfil.
 
 >[!TIP]
 >
@@ -152,7 +152,7 @@ Esta seção contém conhecimento estruturado destinado a oferecer suporte à in
 
 Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
 
-* **TL;DR:** Esta página compara os três métodos de validação de jornada no Adobe Journey Optimizer — Simulação de Jornada, Modo de teste de Jornada e Execução de Jornada seca — e fornece uma escolha rápida de uma pergunta, um guia de decisão, uma tabela de comparação rápida e uma lista de erros comuns para ajudar os usuários a escolher o correto para o estágio atual de criação de uma jornada.
+* **TL;DR:** Esta página compara os três métodos de validação de jornada no Adobe Journey Optimizer — Simulação de Jornada, modo de Teste de Jornada e Execução de Jornada Seca. Ele fornece uma escolha rápida de uma pergunta, um guia de decisão, uma tabela de comparação rápida e uma lista de erros comuns para ajudar os usuários a escolher o correto para o estágio atual de criação de uma jornada.
 
 **Intenções:**
 
@@ -179,7 +179,8 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Desativar o modo de Teste de Jornada remove todos os perfis que entraram na jornada e limpa seus relatórios
 * A Simulação de jornada não avalia os critérios de saída, as políticas de consentimento, o limite de frequência/jornada, a opção de não participação/supressão ou as horas de silêncio
 * As ações personalizadas da Simulação de Jornada e as chamadas de fonte de dados externa são reais, não zombadas
-* A Simulação de Jornada envia mensagens reais para os endereços de execução (email, telefone, token de push) configurados nos usuários simulados, usando o mesmo pipeline de entrega que a produção — ao contrário da Execução de Jornada seca, que nunca envia mensagens reais
+* A Simulação de Jornada envia mensagens reais para os endereços de execução (email, telefone, token de push) configurados nos usuários simulados, usando o mesmo pipeline de entrega que a produção
+* Ao contrário da Simulação de Jornada, o Jornada Dry run nunca envia mensagens reais
 * O Jornada Dry run é atualmente um recurso de Disponibilidade limitada, sendo implantado globalmente ao longo do tempo
 * O Jornada Dry run ignora os nós de ação (email, SMS, ações personalizadas), mas ainda roteia perfis por ramificações e nós usando dados de produção reais
 
@@ -193,7 +194,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Perguntas frequentes:**
 
 * **P: Qual método de validação devo usar enquanto ainda estou projetando uma jornada?** — Use a simulação de Jornada; ela não precisa de perfis de teste reais e é executada em segundos, tornando-a ideal para iteração rápida.
-* **P: A Simulação de Jornada envia mensagens reais?** — Sim. A simulação entrega mensagens reais aos endereços de execução (email, telefone, token de push) configurados nos usuários simulados — geralmente o próprio endereço do testador — usando o mesmo pipeline de entrega que a produção. Ele não entra em contato com clientes reais ou atualiza os dados do perfil ao vivo, mas as mensagens em si são reais.
+* **P: A Simulação de Jornada envia mensagens reais?** — Sim. A simulação entrega mensagens reais aos endereços de execução (email, telefone, token de push) configurados nos usuários simulados, geralmente o próprio endereço do testador. Ele usa o mesmo pipeline de entrega que de produção, mas não entra em contato com clientes reais nem atualiza os dados do perfil em tempo real.
 * **P: O modo de Teste do Jornada envia emails ou SMS reais?** — Sim. O modo Jornada teste fornece mensagens reais para as caixas de entrada reais dos perfis de teste, usando o mesmo pipeline de entrega que a produção. Ela não entra em contato com clientes reais, mas as mensagens em si são reais.
 * **P: O Jornada Dry run envia mensagens?** — Não. A execução seca ignora nós de ação, como email, SMS e ações personalizadas, para que os perfis fluam pela lógica da jornada sem que nenhuma mensagem seja enviada.
 * **P: Preciso validar uma nova ramificação rapidamente antes do prazo. Qual método se encaixa?** — simulação de Jornada; gera usuários simulados sob demanda (ou reutiliza os que foram salvos no inventário) em vez de exigir que você pré-crie e aguarde perfis de teste reais.
