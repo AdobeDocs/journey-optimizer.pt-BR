@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a36c05b8cac7817ace22f3b9e2c17962f9b6fcd1
 workflow-type: tm+mt
-source-wordcount: 4884
-ht-degree: 86%
+source-wordcount: 4929
+ht-degree: 85%
 
 ---
 
@@ -42,7 +33,7 @@ ht-degree: 86%
 
 Abaixo são encontradas medidas de proteção e limitações ao usar o [!DNL Adobe Journey Optimizer].
 
-Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -454,7 +445,12 @@ As seguintes medidas de proteção se aplicam aos [fragmentos](../content-manage
 * Para criar, editar, arquivar e publicar fragmentos, você precisa das permissões de **[!DNL Manage library items]** e **[Publicar fragmento]** inclusas no perfil do produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
 * Os fragmentos visuais só estão disponíveis para o canal de email.
 * Os fragmentos de expressão não estão disponíveis para o canal interno do aplicativo.
-* Fragmentos visuais não podem exceder **100 KB**. Fragmentos de expressão não podem exceder **200 KB**.
+* Os fragmentos não podem exceder **700 KB**. Essa é uma proteção do sistema para armazenamento e processamento de tamanho de fragmento. Para permanecer abaixo desse limite, divida o conteúdo grande em vários fragmentos reutilizáveis, reduza as marcações pesadas e otimize os ativos vinculados.
+
+  >[!NOTE]
+  >
+  >Se um fragmento visual exceder **100 KB** ou um fragmento de expressão exceder **200 KB**, isso poderá causar problemas de truncamento na entrega de email.
+
 * **Limites de contagem de fragmentos**: o número de fragmentos únicos usados em um conteúdo é validado durante a criação. Somente os fragmentos (incluindo fragmentos do AEM) referenciados diretamente são contados — os fragmentos aninhados dentro de outros fragmentos não são contados separadamente.
 
   * **Por variante**: até 60 fragmentos exclusivos por variante de conteúdo. Um aviso é exibido quando o uso atinge 45 (75% do limite); a publicação está bloqueada em 60.
