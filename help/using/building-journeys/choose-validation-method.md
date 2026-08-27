@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: testar, simular, simulação, modo de teste, simulação, jornada, validar, comparar, escolher, guia de decisão
 version: Journey Orchestration
-source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
+source-git-commit: 881cbee186a4f58fe23e5e0c62972743921bd5f4
 workflow-type: tm+mt
-source-wordcount: '2465'
+source-wordcount: '2461'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Mecanismos principais:
 
 **Quando usar:** verificação manual passo a passo da lógica de ramificação e mensagem, com perfis reais (mas de teste designado) percorrendo a jornada de rascunho.
 
-O [modo de Teste de Jornada](testing-the-journey.md) permite validar uma jornada de rascunho usando [perfis de teste persistentes do AEP](../audience/creating-test-profiles.md). Você aciona eventos manualmente na interface para confirmar que a lógica de ramificação e a mecânica de entrega de mensagens funcionam conforme projetado, antes que qualquer público de produção toque na jornada.
+O [modo de Teste de Jornada](testing-the-journey.md) permite validar uma jornada de rascunho usando [perfis de teste persistentes do AEP](../audience/creating-test-profiles.md). Para confirmar se a lógica de ramificação e a mecânica de entrega de mensagens funcionam como projetados antes que qualquer público de produção toque na jornada, acione eventos manualmente na interface.
 
 Mecanismos principais:
 
@@ -93,7 +93,7 @@ O [Jornada Dry run](journey-dry-run.md) é um modo de publicação de jornada es
 Mecanismos principais:
 
 * Usa seu público-alvo real de produção para que você veja o alcance e o direcionamento reais em escala (por exemplo, detectar um erro em que uma ramificação inteira recebe inesperadamente zero perfil).
-* Em cada ativação, você pode optar por desativar as atividades de espera (para que as métricas voltem mais rápido) e desativar chamadas de fonte de dados externa (para que a jornada permaneça totalmente em silos).
+* Em cada ativação, para obter as métricas de volta mais rápido, você pode desativar as atividades de espera e, para manter a jornada totalmente em silos, você pode desativar chamadas de fonte de dados externas.
 * Este é atualmente um recurso de **Disponibilidade limitada**, sendo implantado globalmente ao longo do tempo.
 
 **Perfeito para:** detectar problemas como nós de condição digitados incorretamente ou públicos que inesperadamente não alcançam uma ramificação, antes de ativar a jornada.
@@ -108,7 +108,7 @@ Comece com uma pergunta simples: você já tem perfis de teste que se encaixam n
 
 Além dessa escolha, a resposta geralmente se resume a mais uma pergunta: *a que distância da produção você precisa que esse teste esteja?*
 
-Se você ainda estiver **iterando no design da jornada** — testando uma nova ramificação, trabalhando dentro de um prazo — use a **Simulação de Jornada** para validar a lógica da jornada. Ele não precisa de perfis reais e é executado em segundos, e permanece como uma opção válida posteriormente em sua criação também, sempre que não for prático criar perfis de teste adequados para seu caso de uso. Lembre-se de que ele envia mensagens reais para os endereços de execução configurados nos usuários simulados.
+Se você ainda estiver **iterando no design do jornada** — testando uma nova ramificação, trabalhando dentro de um prazo — use **Simulação de Jornada**. Ele não precisa de perfis reais e é executado em segundos, e permanece como uma opção válida posteriormente em sua criação também, sempre que não for prático criar perfis de teste adequados para seu caso de uso. Lembre-se de que ele envia mensagens reais para os endereços de execução configurados nos usuários simulados.
 
 Se você precisar **verificar manualmente etapa por etapa a lógica de ramificação e mensagem** e estiver disposto a criar ou reutilizar perfis de teste do AEP, use o **Modo de teste de Jornada**. Lembre-se de que ele envia mensagens reais para as caixas de entrada reais desses perfis de teste.
 
@@ -134,7 +134,7 @@ Nenhum desses métodos entra em contato com clientes reais. Os dados do perfil t
 * **Criar perfis de teste do AEP quando a Simulação de Jornada permitir.** Se você precisar validar rapidamente uma nova ramificação ou um novo caminho de política de decisão, a simulação ignora totalmente a espera pela propagação do perfil de teste — salve o modo Jornada teste para quando você realmente precisar de perfis de teste reais.
 * **Tratando o modo de Teste de Jornada como &quot;seco&quot;.** Os perfis do modo de Teste de Jornada recebem mensagens reais por meio do pipeline de entrega de produção. Certifique-se de que os perfis de teste usem apenas endereços controlados por você.
 * **Esperando o Jornada Dry run para capturar conteúdo ou problemas de entrega.** O modo de execução seca ignora completamente os nós de ação — valida o alcance do público-alvo e a lógica da ramificação, não o conteúdo da mensagem ou a mecânica de entrega. Use o modo Simulação ou Teste de Jornada para isso.
-* **Esquecendo o requisito de namespace para o modo de Teste de Jornada.** O modo Jornada teste só funciona em jornadas de rascunho que usam um namespace — sem um, o Journey Optimizer não pode verificar se um perfil está sinalizado como um perfil de teste.
+* **Esquecendo o requisito de namespace para o modo de Teste de Jornada.** O modo Jornada teste só funciona em jornadas de rascunho que usam um namespace, porque o Journey Optimizer precisa de um namespace para verificar se um perfil está sinalizado como um perfil de teste.
 
 ## Próximas etapas {#next-steps}
 
