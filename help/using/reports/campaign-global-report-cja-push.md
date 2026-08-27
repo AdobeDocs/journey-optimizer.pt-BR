@@ -9,26 +9,16 @@ role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
 TQID: https://experienceleague.adobe.com/wsbWXuQT-JWFmKKu-qIG8OgzKQ7mMY4yFcqKLaM3RDc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 89ae83700f331524bb43b019edb2599d6b3d95ba
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 3%
+source-wordcount: 782
+ht-degree: 7%
 
 ---
 
@@ -123,6 +113,40 @@ A tabela **[!UICONTROL Motivos de rejeições]** fornece uma visão geral abrang
 ## Motivos do erro {#error-reasons-push}
 
 A tabela **[!UICONTROL Motivos de erro]** permite identificar os erros específicos que ocorreram durante o processo de envio de suas notificações por push, facilitando uma análise completa de todos os problemas encontrados.
+
++++ Saiba mais sobre os motivos de erro
+
+Cada envio de notificação por push é classificado em um dos seguintes motivos, com base na resposta retornada pelo provedor de notificação por push ([!DNL Apple Push Notification service (APNs)] ou [!DNL Firebase Cloud Messaging (FCM)]):
+
+* **ENVIADO**: a notificação foi aceita pelo provedor.
+* **INCLUIR NA LISTA DE BLOQUEIOS**: o token do dispositivo não é mais válido (por exemplo, o aplicativo foi desinstalado ou o token expirou). O token é adicionado à inclui na lista de bloqueios e os envios futuros a ele são ignorados.
+* **MALFORMED_NOTIFICATION**: a carga de notificação foi rejeitada pelo provedor como inválida (por exemplo, carga muito grande, vazia ou campos obrigatórios ausentes).
+* **INVALID_PUSH_CREDENTIAL**: a credencial de push (certificado, chave ou configuração de tópico) usada para enviar a notificação é inválida ou não corresponde ao dispositivo/aplicativo de destino.
+* **PUSH_PROVIDER_ERROR**: o provedor retornou um erro transitório ou inesperado (por exemplo, limite de taxa ou um erro interno). Esses envios são repetidos automaticamente.
+
+**APNs**
+
+| Status HTTP | Motivo de APNs | Motivo do erro |
+| --- | --- | --- |
+| 400 / 410 | `Unregistered`, `ExpiredToken`, `BadDeviceToken` | ➡ INCLUIR NA LISTA DE BLOQUEIOS |
+| 400 / 413 | `PayloadTooLarge`, `PayloadEmpty`, `InvalidPushType`, `BadTopic`, `MissingTopic` | MALFORMED_NOTIFICATION |
+| 400 / 403 | `DeviceTokenNotForTopic`, `BadCertificate`, `TopicDisallowed`, `BadCertificateEnvironment` | INVALID_PUSH_CREDENTIAL |
+| 429 / 500 / 503 | `TooManyRequests`, `TooManyProviderTokenUpdates`, `InternalServerError`, `ServiceUnavailable` | PUSH_PROVIDER_ERROR |
+| qualquer outro | qualquer outro/nenhum | PUSH_PROVIDER_ERROR |
+
+**FCM**
+
+| Status HTTP | Código de erro FCM | Motivo do erro |
+| --- | --- | --- |
+| 404 | `UNREGISTERED` (`NOT_FOUND`) | ➡ INCLUIR NA LISTA DE BLOQUEIOS |
+| 400 | `INVALID_ARGUMENT` | MALFORMED_NOTIFICATION |
+| 403 | `SENDER_ID_MISMATCH` (`PERMISSION_DENIED`) | INVALID_PUSH_CREDENTIAL |
+| 429 | `QUOTA_EXCEEDED` (`RESOURCE_EXHAUSTED`) | PUSH_PROVIDER_ERROR |
+| 500 | `INTERNAL` | PUSH_PROVIDER_ERROR |
+| 503 | `UNAVAILABLE` | PUSH_PROVIDER_ERROR |
+| qualquer outro | `UNSPECIFIED_ERROR` / qualquer outro / nenhum | PUSH_PROVIDER_ERROR |
+
++++
 
 ## Motivos para exclusão {#exclude-reasons-push}
 
