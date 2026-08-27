@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: testar, validar, aprovar, aprovação, controle-de-qualidade, qa, perfis-de-teste, personalização, renderização, verificação-de-spam, experimento-de-conteúdo, teste-a/b, detecção-de-conflitos, lista-de-seeds, provas, dados-de-amostra, fluxo-de-trabalho-de-aprovação, teste-de-email, fluxo-de-trabalho-de-validação
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: c7eb2d867da40b2fce904f3240e312de951ed703
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 88%
+source-wordcount: '2600'
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ Esta página de destino ajuda a escolher a abordagem de teste correta com base n
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizar, testar e validar o conteúdo
 
@@ -36,7 +36,7 @@ Saiba como visualizar, testar e validar um conteúdo personalizado por meio de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Fluxos de trabalho de aprovação para jornadas e campanhas
 
@@ -46,7 +46,7 @@ Entenda como configurar, gerenciar e executar processos de aprovação para gara
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Teste a jornada
 
@@ -56,7 +56,7 @@ Valide a jornada antes da publicação testando-a com perfis específicos para g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Execução de teste da jornada
 
@@ -66,7 +66,7 @@ Realize uma execução de teste para simular e validar o caminho de execução d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoramento e solução de problemas
 
@@ -76,7 +76,7 @@ Acesse recursos abrangentes de solução de problemas, alertas do sistema e cód
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Playground de personalização
 
@@ -86,7 +86,7 @@ Experimente expressões de personalização em um ambiente seguro. Teste o códi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Experimentos de conteúdo e teste A/B
 
@@ -96,7 +96,7 @@ Otimize as campanhas testando múltiplas variações de conteúdo e medindo o de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas de seeds para monitoramento pelas partes interessadas
 
@@ -106,7 +106,7 @@ Inclua automaticamente endereços internos de partes interessadas nas entregas p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detecção de conflitos
 
@@ -245,7 +245,7 @@ A abordagem de teste correta depende do que você está criando e do que é nece
 * Verifique [conflitos](../using/conflict-prioritization/conflicts.md) com outras jornadas e campanhas
 * Envie para [aprovação](../using/test-approve/gs-approval.md) antes de publicar
 
-<!-- Not sure which of the three journey validation methods to use? See [Choose how to test and validate your journey](../using/building-journeys/choose-validation-method.md) for a full comparison. -->
+Não tem certeza de qual dos três métodos de validação de jornada usar? Consulte [Escolher como testar e validar sua jornada](../using/building-journeys/choose-validation-method.md) para obter uma comparação completa.
 
 **Para jornadas complexas:**
 
@@ -301,7 +301,7 @@ Siga esta abordagem de quatro fases para validar campanhas e jornadas antes do l
 |-------|-------------|-------------|
 | **1. Validação de conteúdo** | Personalização, projeto, renderização | [Visualize com perfis de teste](../using/content-management/preview-test.md), teste [múltiplas variações](../using/test-approve/simulate-sample-input.md) com CSV/JSON, verifique a [renderização](../using/content-management/rendering.md) nos dispositivos |
 | **2. Verificações técnicas** | Capacidade de entrega, links, conflitos | Realize [verificações de pontuação de spam](../using/content-management/spam-report.md), valide links, verifique [conflitos](../using/conflict-prioritization/conflicts.md) com outras campanhas |
-| **3. Lógica de jornada** (somente jornada) | Condições de entrada, fluxo, ramificação | Use a [Simulação de Jornada](../using/building-journeys/simulate-journey-gs.md) para iteração rápida, [modo de teste](../using/building-journeys/testing-the-journey.md) para percorrer a lógica com perfis de teste reais e [simulação](../using/building-journeys/journey-dry-run.md) para uma verificação final na escala <!-- — see [how to choose](../using/building-journeys/choose-validation-method.md) --> |
+| **3. Lógica de jornada** (somente jornada) | Condições de entrada, fluxo, ramificação | Use a [Simulação de Jornada](../using/building-journeys/simulate-journey-gs.md) para iteração rápida, [modo de teste](../using/building-journeys/testing-the-journey.md) para percorrer a lógica com perfis de teste reais e [simulação](../using/building-journeys/journey-dry-run.md) para uma verificação final em escala — consulte [como escolher](../using/building-journeys/choose-validation-method.md) |
 | **4. Pré-lançamento** | Configurações, aprovações, monitoramento | Envie para [aprovação](../using/test-approve/gs-approval.md), verifique agendamentos e públicos-alvo, habilite [alertas](../using/reports/alerts.md) |
 
 **Dica profissional:** comece com o [playground de personalização](../using/personalization/personalize.md#playground) para testar expressões antes de criar conteúdo e sempre verifique a [detecção de conflitos](../using/conflict-prioritization/conflicts.md) antes do lançamento para evitar mensagens excessivas.
@@ -464,7 +464,7 @@ Entenda como os recursos de teste conectam-se uns com os outros e com os fluxos 
 **Simulação de Jornada:** executa a jornada com usuários temporários simulados, nenhum perfil de teste real do AEP é necessário. Envia mensagens reais para os endereços configurados dos usuários simulados.
 **Modo de teste:** envia perfis de teste reais do AEP por meio da jornada, aciona ações reais e gera mensagens de teste. Requer jornada de rascunho + namespace.
 **Dry run:** rastreia caminhos de execução em relação a dados de público-alvo de produção reais sem enviar nada. Nenhuma mensagem enviada, nenhuma ação executada.
-**Usar juntos:** Simulação de Jornada ao iterar no design, modo de teste para teste manual de mensagem/lógica com perfis de teste reais, execução a seco para uma verificação lógica final em escala.<!-- See [Choose how to test and validate your journey](../using/building-journeys/choose-validation-method.md) for a full comparison. -->
+**Usar juntos:** Simulação de Jornada ao iterar no design, modo de teste para teste manual de mensagem/lógica com perfis de teste reais, execução a seco para uma verificação lógica final em escala. Consulte [Escolher como testar e validar sua jornada](../using/building-journeys/choose-validation-method.md) para obter uma comparação completa.
 
 ### P: Posso testar jornadas no status produção/ativa?
 

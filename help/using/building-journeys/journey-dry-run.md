@@ -10,32 +10,16 @@ keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 41e34973cb3213e08442bead6d1f1bb00af00921
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 2330
-ht-degree: 8%
+source-wordcount: 2345
+ht-degree: 7%
 
 ---
 
@@ -46,6 +30,8 @@ ht-degree: 8%
 **Nesta página:** saiba como publicar uma jornada no modo de execução a seco para testá-la com dados de produção reais sem entrar em contato com clientes reais ou atualizar perfis, para que você possa validar seu design antes de entrar em funcionamento.
 
 >[!ENDSHADEBOX]
+
+Não tem certeza que o Dry run é o método certo para você? [Comparar todas as três opções de validação](choose-validation-method.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
@@ -91,8 +77,8 @@ Durante o Dry Run, a jornada é executada no modo de simulação, aplicando os s
 
 * Os nós **Reaction** não são executados: todos os perfis que entram nele serão encerrados com êxito. No entanto, as seguintes regras de prioridade se aplicam:
 
-   * Se um nó **Reaction** for usado com um ou vários nós **unitary event** em paralelo, os perfis sempre passarão pelo evento de reação.
-   * Se um nó **Reaction** for usado com um ou vários nós **response event** em paralelo, os perfis sempre irão passar pelo primeiro na tela (o que está na parte superior).
+  * Se um nó **Reaction** for usado com um ou vários nós **unitary event** em paralelo, os perfis sempre passarão pelo evento de reação.
+  * Se um nó **Reaction** for usado com um ou vários nós **response event** em paralelo, os perfis sempre irão passar pelo primeiro na tela (o que está na parte superior).
 
 * As atividades de **Ler Público** com um tempo de execução agendado (diário, semanal ou mensal) não seguem o tempo configurado na jornada — o agendamento é ancorado no momento em que a Execução Seca é ativada. Por exemplo, se sua jornada estiver definida para ser executada diariamente às 10:00, mas você ativar o Dry run às 8:00 AM, todas as leituras programadas subsequentes durante o Dry run serão executadas às 8:00 AM.
 
@@ -219,7 +205,7 @@ Sim. Para jornadas que usam uma atividade **Read Audience** com um horário agen
 
 Saiba como testar suas jornadas neste vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464687/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
 
 +++ Referência de conhecimento de IA
 

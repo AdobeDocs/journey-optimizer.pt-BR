@@ -11,20 +11,15 @@ keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 2d145260b0ed1fd0a50c35f52f2a7dc5b4295798
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 2032
+source-wordcount: 2093
 ht-degree: 12%
 
 ---
@@ -52,7 +47,7 @@ Antes de publicar, verifique se sua jornada atende aos seguintes pré-requisitos
 * **Nenhum erro de validação** — Não é possível publicar uma jornada que contenha erros. [Teste sua jornada](testing-the-journey.md) primeiro e [solucione quaisquer erros de atividade](../building-journeys/troubleshooting.md#activity-errors).
 * **Permissão de publicação** — a publicação requer a permissão de alto nível **[!DNL Publish journeys]**. Saiba mais sobre [gerenciamento de direitos de acesso](../administration/permissions-overview.md).
 * **Carga dentro do limite** — A carga da jornada deve estar dentro do limite configurado (4 MB por padrão). Consulte [validação do tamanho da carga da Jornada](../start/guardrails.md#journey-payload-size).
-* **Conformidade com a política de aprovação** — Se a jornada estiver sujeita a uma política de aprovação, a publicação a enviará para aprovação em vez de publicá-la imediatamente. Quando um aprovador se desconectar, a jornada será publicada automaticamente. Não há etapa de publicação separada para ser executada posteriormente. [Saiba mais](../test-approve/gs-approval.md).
+* **Conformidade com a política de aprovação** — Se a jornada estiver sujeita a uma política de aprovação, a publicação a enviará para aprovação em vez de publicá-la imediatamente. Depois que um aprovador se desconecta, a jornada é publicada automaticamente — não há etapa de publicação separada para ser executada posteriormente. [Saiba mais](../test-approve/gs-approval.md).
 
 ### Escolha o método de validação correto antes de publicar {#choose-validation-method}
 
@@ -66,6 +61,8 @@ Valide sua jornada usando uma das opções de teste disponíveis. Cada um usa um
 
 O Dry run nunca fornece comunicações reais ou atualiza dados de perfil em tempo real. O modo Simulação e Teste realmente entregam mensagens reais — Simulação para os endereços de execução definidos nos usuários simulados e Modo de teste para as caixas de entrada reais dos perfis que você sinalizou explicitamente como perfis de teste.
 
+Para obter uma comparação completa desses três métodos, consulte [Escolher como testar e validar sua jornada](choose-validation-method.md).
+
 ## Processo de publicação {#journey-publication}
 
 As etapas para publicar uma jornada são detalhadas abaixo:
@@ -76,7 +73,7 @@ As etapas para publicar uma jornada são detalhadas abaixo:
 
    >[!NOTE]
    >
-   > Se sua jornada estiver sujeita a uma política de aprovação, clicar em **[!UICONTROL Publicar]** enviará a jornada para aprovação em vez de publicá-la imediatamente. Depois que um aprovador se desconecta, a jornada é publicada automaticamente; não é necessário publicá-la novamente. [Saiba mais](../test-approve/gs-approval.md)
+   > Se sua jornada estiver sujeita a uma política de aprovação, clicar em **[!UICONTROL Publicar]** enviará a jornada para aprovação em vez de publicá-la imediatamente. Quando um aprovador se desconectar, a jornada será publicada automaticamente. Não será necessário publicá-la novamente. [Saiba mais](../test-approve/gs-approval.md)
 
    ![Botão Publicar na barra de ferramentas do jornada para ativar a jornada](assets/journeyuc1_18.png)
 
@@ -164,7 +161,7 @@ Sim. Se você alterar uma decisão de oferta usada na mensagem de uma jornada, d
 
 **Posso publicar uma jornada que exija aprovação?**
 
-Se a jornada estiver sujeita a uma política de aprovação, será necessário solicitar aprovação antes de publicar. [Saiba mais sobre aprovação](../test-approve/gs-approval.md).
+Se sua jornada estiver sujeita a uma política de aprovação, clicar em **[!UICONTROL Publicar]** a enviará para aprovação em vez de publicá-la imediatamente. A jornada é publicada automaticamente depois que um aprovador se desconecta; não há etapa de publicação separada para ser executada posteriormente. [Saiba mais sobre aprovação](../test-approve/gs-approval.md).
 
 ## Tópicos relacionados {#related-topics}
 
@@ -180,7 +177,7 @@ Se a jornada estiver sujeita a uma política de aprovação, será necessário s
 
 Saiba como publicar uma jornada neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427939?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ Referência de conhecimento de IA
 
@@ -223,6 +220,6 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **P: O que acontece com os perfis em uma versão mais antiga do jornada quando uma nova versão é publicada?** — Os perfis já existentes na versão anterior permanecem lá até que sejam concluídos; novos perfis entram na versão mais recente.
 * **P: Posso republicar uma versão do Closed jornada?** — Não. Quando uma versão anterior estiver fechada, ela permanecerá fechada mesmo se a versão mais recente estiver interrompida.
 * **P: O que devo fazer se uma decisão de oferta usada na jornada for alterada?** — Desfaça a publicação da jornada e publique-a novamente para incorporar a decisão de oferta atualizada.
-* **P: É necessária aprovação antes da publicação?** — Somente se sua jornada estiver sujeita a uma política de aprovação; nesse caso, você deve solicitar aprovação primeiro.
+* **P: É necessária aprovação antes da publicação?** — somente se a jornada estiver sujeita a uma política de aprovação; nesse caso, a publicação envia a jornada para aprovação em vez de publicá-la imediatamente, e ela é publicada automaticamente depois que um aprovador faz logoff.
 
 +++
