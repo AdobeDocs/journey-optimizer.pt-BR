@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: testar, simular, simulação, modo de teste, simulação, jornada, validar, comparar, escolher, guia de decisão
 version: Journey Orchestration
 hide: true
-source-git-commit: 389b459608eb4abd020233e534120ddcd3d7847a
+source-git-commit: d10f3af7e2557c48be93694d4eb8f87d06332e42
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2289'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 0%
 >[!ENDSHADEBOX]
 
 O [!DNL Adobe Journey Optimizer] fornece três maneiras de validar uma jornada antes que ela entre em vigor. Elas não são intercambiáveis: cada uma usa um tipo diferente de dados, se encaixa em um estágio diferente de sua criação e carrega diferentes consequências reais. Entender a diferença antecipadamente ajuda a evitar dois erros comuns: gastar tempo criando perfis de teste quando uma simulação rápida faria ou presumir que uma etapa de validação é totalmente &quot;segura&quot; quando ainda pode entrar em contato com caixas de entrada reais ou fazer chamadas de saída reais.
+
+Esta página foca na validação do fluxo de jornada e da lógica de ramificação. Para obter o quadro completo dos recursos de teste e aprovação, incluindo visualização de conteúdo, renderização de email e verificações de spam, experimentos A/B e fluxos de trabalho de aprovação, consulte [Testar, validar e aprovar](../../rp_landing_pages/test-landing-page.md).
 
 ## Novo na validação? Comece aqui {#quick-pick}
 
@@ -141,6 +143,7 @@ Nenhum desses métodos entra em contato com clientes reais. Os dados do perfil t
 * **[Publicar sua jornada](publish-journey.md)** — Pré-requisitos e o processo de publicação
 * **[Introdução ao jornada](journey.md)** — visão geral de fundamentos e recursos
 * **[Perguntas frequentes sobre o Journey Orchestration](journey-faq.md)** — perguntas comuns respondidas
+* **[Testar, validar e aprovar](../../rp_landing_pages/test-landing-page.md)** — cenário completo de testes e aprovações, incluindo visualização de conteúdo, verificações de renderização/spam, experiências e fluxos de trabalho de aprovação
 
 +++ Referência de conhecimento de IA
 
