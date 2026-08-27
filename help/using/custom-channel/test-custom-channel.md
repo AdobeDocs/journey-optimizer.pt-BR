@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1f70fb22417cfd8a850283ac2c4515bb449bca83
+source-git-commit: 5b39358ca4b9c2cae87eb2f1ff8b62df1deb365f
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '859'
 ht-degree: 2%
 
 ---
@@ -104,7 +104,7 @@ Saiba mais sobre como testar jornadas no modo de teste em [esta seção](../buil
 
 ### Simular uma jornada {#simulate-journey}
 
-O modo **Simulação** de [!DNL Journey Optimizer] permite validar sua jornada de ponta a ponta usando usuários simulados (entidades temporárias semelhantes a perfis que não persistem no Adobe Experience Platform) sem exigir perfis de teste pré-criados.
+O modo **Simulation** de [!DNL Journey Optimizer] permite validar sua jornada de ponta a ponta usando usuários simulados — entidades temporárias semelhantes a perfis sem exigir perfis de teste pré-criados.
 
 Para canais personalizados, a simulação resolve expressões de personalização e renderiza a pré-visualização de carga para cada usuário simulado, para que você possa verificar se o conteúdo correto seria entregue antes de entrar em funcionamento.
 
@@ -117,10 +117,6 @@ Para simular uma jornada usando um canal personalizado:
 1. Configure todos os eventos de entrada necessários e acione os usuários simulados por meio da jornada.
 
 1. Quando um usuário simulado atinge o nó de ação do canal personalizado, inspecione a carga resolvida no painel de visualização para confirmar se os tokens de personalização e a estrutura de carga estão corretos.
-
->[!NOTE]
->
->A simulação está disponível para jornadas de rascunho e ativas e usa usuários temporários simulados que não contam para cotas de perfil ou chamadas de endpoint reais.
 
 Saiba mais sobre a simulação de jornada em [esta seção](../building-journeys/simulate-journey-gs.md).
 

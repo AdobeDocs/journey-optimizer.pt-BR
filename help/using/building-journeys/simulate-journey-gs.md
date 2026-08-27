@@ -11,9 +11,9 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
+source-git-commit: 5b39358ca4b9c2cae87eb2f1ff8b62df1deb365f
 workflow-type: tm+mt
-source-wordcount: 2385
+source-wordcount: 2482
 ht-degree: 1%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 1%
 **Nesta página:** saiba como a simulação de jornada permite testar com usuários simulados e como a experiência de simulação varia dependendo do tipo de jornada, antes de publicar.
 
 >[!ENDSHADEBOX]
+
+<!-- Not sure Simulation is the right method for you? [Compare all three validation options](choose-validation-method.md). -->
 
 >[!IMPORTANT]
 >
@@ -103,7 +105,7 @@ Alguns nós impedem que a **[!UICONTROL Simulação]** seja iniciada. Outros sã
 | ID complementar (várias reentradas) | **[!UICONTROL A simulação]** não é iniciada quando várias reentradas estão habilitadas e o mesmo usuário simulado pode ter várias instâncias ativas ao mesmo tempo. |
 | Nó Content Decision | Remova ou altere esta atividade antes de simular a jornada. |
 | Pesquisa de conjunto de dados | **[!UICONTROL A simulação]** não oferece suporte a pesquisas de conjuntos de dados de clientes por chave. Remova ou altere esta atividade antes de executar uma simulação. |
-| **[!UICONTROL Otimizar]** atividade | Não há suporte para **[!UICONTROL Experimento]** e **[!UICONTROL regra de direcionamento]**. Remova ou altere o nó antes de simular.<br><br>Outros métodos **[!UICONTROL Otimizar]** se comportam da seguinte maneira:<br><br>**[!UICONTROL Divisão de porcentagem &#x200B;]**: a Journey Agent cria um usuário simulado por ramificação, não de acordo com as porcentagens de ramificação. No tempo de execução, a avaliação ao vivo escolhe a ramificação e pode diferir do caminho gerado. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida.<br><br>**[!UICONTROL Condição de tempo]**: as condições se aplicam no tempo de execução como em uma jornada em tempo real. Por exemplo, uma janela de 8:00 às 20:00 permite aos usuários somente a passagem, enquanto a simulação é executada dentro dessa janela. Não é possível simular o tempo de execução. Defina a condição para corresponder à hora atual quando você testar.<br><br>**[!UICONTROL Condição de data &#x200B;]**: as condições se aplicam em tempo de execução como em uma jornada em tempo real. Por exemplo, uma data de 8 de junho de 2026 permite que os usuários somente acessem quando a simulação for executada nessa data. Não é possível simular a data de execução. Defina a condição para a data atual ao testar.<br><br>**[!UICONTROL Limite de perfil]**: as limitações não são aplicadas durante a simulação. O Journey Agent cria um usuário simulado por ramificação. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida. |
+| **[!UICONTROL Otimizar]** atividade | Não há suporte para **[!UICONTROL Experimento]** e **[!UICONTROL regra de direcionamento]**. Remova ou altere o nó antes de simular.<br><br>Outros métodos **[!UICONTROL Otimizar]** se comportam da seguinte maneira:<br><br>**[!UICONTROL Divisão de porcentagem ]**: a Journey Agent cria um usuário simulado por ramificação, não de acordo com as porcentagens de ramificação. No tempo de execução, a avaliação ao vivo escolhe a ramificação e pode diferir do caminho gerado. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida.<br><br>**[!UICONTROL Condição de tempo]**: as condições se aplicam no tempo de execução como em uma jornada em tempo real. Por exemplo, uma janela de 8:00 às 20:00 permite aos usuários somente a passagem, enquanto a simulação é executada dentro dessa janela. Não é possível simular o tempo de execução. Defina a condição para corresponder à hora atual quando você testar.<br><br>**[!UICONTROL Condição de data ]**: as condições se aplicam em tempo de execução como em uma jornada em tempo real. Por exemplo, uma data de 8 de junho de 2026 permite que os usuários somente acessem quando a simulação for executada nessa data. Não é possível simular a data de execução. Defina a condição para a data atual ao testar.<br><br>**[!UICONTROL Limite de perfil]**: as limitações não são aplicadas durante a simulação. O Journey Agent cria um usuário simulado por ramificação. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida. |
 | Ramificações de tempo limite e erro | A Journey Agent não gera usuários para ramificações de tempo limite ou erro de atividades. Os usuários só inserem esses caminhos se ocorrer um tempo limite real ou um erro durante a simulação. |
 | Ramificação de tempo limite (atividades de evento) | Os usuários simulados são criados, mas na **[!UICONTROL Simulação manual]** a Journey Agent não decide quem entra em uma ramificação de tempo limite de evento. Controle o caminho enviando ou não o evento. Por exemplo, para testar uma ramificação de tempo limite, aguarde o tempo limite configurado e não envie o evento. **[!UICONTROL A simulação rápida]** pode enviar ou reter eventos automaticamente para abranger ramificações de tempo limite. |
 | Eventos de reação | Os eventos de reação são executados em simulação, mas a ação deve ocorrer na vida real. Por exemplo, uma reação de email **abrir** requer a abertura da mensagem de prova. Não é possível simular reações na interface da simulação. |
@@ -134,6 +136,7 @@ Os recursos a seguir não têm suporte em **[!UICONTROL Simulação]**.
 | Envio de onda em jornadas | Não suportado. |
 | Horário de silêncio | Não avaliado nem aplicado durante a simulação. |
 | Privacy Service | Os usuários simulados não são perfis persistentes compatíveis com o GDPR. Não inclua dados reais do cliente em usuários simulados. |
+| Persistência do perfil | Enviar um usuário simulado para uma jornada aciona um envio de mensagem real por meio do pipeline de entrega padrão. Se um conjunto de dados afetado, por exemplo, eventos de feedback ou eventos de rastreamento, estiver habilitado para perfil, isso pode resultar na criação de um perfil persistente no Adobe Experience Platform para esse usuário simulado, mesmo que a execução seja sinalizada como uma simulação. |
 
 +++
 
@@ -160,7 +163,7 @@ Estas medidas de proteção se aplicam a **[!UICONTROL Simulação]**. As letras
 
 O vídeo abaixo mostra como usar a Simulação rápida para testar as jornadas do cliente automatizando os principais processos. Ele gera perfis de teste, coordena eventos, acelera os tempos de espera e valida cenários.
 
->[!VIDEO](https://video.tv.adobe.com/v/3497479/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3497475/?learn=on)
 
 
 
@@ -183,7 +186,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Decida se usará a Simulação rápida ou a Simulação manual com base nas necessidades de teste
 
 **Glossário:**
-* **Usuários simulados**: entidades temporárias semelhantes a perfis criadas para simulação sem persistir no Adobe Experience Platform *(específico do produto)*
+* **Usuários simulados**: entidades temporárias semelhantes a perfis criadas para simulação. O envio de um usuário simulado aciona um envio de mensagem real, o que pode resultar na criação de um perfil persistente no Adobe Experience Platform *(específico do produto)*
 * **Simulação**: um estado de jornada (junto com Rascunho, Modo de teste e Ativo) usado para testes com usuários simulados em vez de perfis de teste persistentes *(específico do produto)*
 * **Journey Agent**: o componente de IA que gera usuários simulados, valores de evento e configurações de teste durante a simulação Rápida e a simulação Manual assistida por IA *(específico do produto)*
 * **Simulação rápida**: uma execução de simulação completa automatizada que gera usuários e eventos com entrada manual mínima *(específica do produto)*
@@ -210,7 +213,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 
 **Perguntas frequentes:**
 * **P: Quais permissões são necessárias para usar a simulação?** — Você precisa de pelo menos um dos seguintes: Simular jornadas, Publicar jornadas ou Aprovar e Publicar jornadas. Os recursos de IA também exigem a permissão Gerar conteúdo do recurso Assistente de IA.
-* **P: Qual a diferença entre a Simulação e o Modo de teste?** — A simulação usa usuários temporários simulados criados em tempo real sem perfis persistentes do Adobe Experience Platform; o modo de teste usa perfis persistentes explicitamente sinalizados como perfis de teste no AEP.
+* **P: Qual a diferença entre a Simulação e o Modo de teste?** — A simulação usa usuários temporários simulados criados em tempo real, geralmente sem perfis pré-criados no Adobe Experience Platform; o modo de teste usa perfis persistentes explicitamente sinalizados como perfis de teste no AEP. Enviar um usuário simulado ainda aciona um envio de mensagem real, o que pode resultar na criação de um perfil persistente.
 * **P: Posso simular uma jornada que começa com um Evento Comercial?** — Não. As jornadas acionadas por um Evento Comercial não podem ser executadas em Simulação.
 * **P: Quantos usuários simulados posso testar em uma única execução de simulação?** — Até 100 usuários únicos simulados por execução; cada ação Enviar tudo é limitada a 20 usuários de uma só vez.
 * **P: As políticas de consentimento são aplicadas durante a Simulação?** — Não. A avaliação da política de consentimento, o limite de frequência, o gerenciamento de recusa e as horas de silêncio não são avaliados durante a simulação.
