@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: 2334
-ht-degree: 68%
+source-wordcount: 2403
+ht-degree: 63%
 
 ---
 
@@ -68,7 +68,7 @@ Use [!DNL Journey Optimizer] para:
 
 * Crie casos de uso de **orquestração em tempo real** com dados contextuais armazenados em eventos ou fontes de dados
 * Projete **cenários avançados com várias etapas** que respondam dinamicamente ao comportamento do cliente e aos eventos de negócios
-* Forneça **1:1 experiências personalizadas** em grande escala com email, push, SMS, no aplicativo, web e muito mais
+* Ofereça **experiências personalizadas 1:1** em escala por email, push, SMS, no aplicativo, Web e muito mais
 
 ![Interface do designer de jornadas com paleta, tela e painel de propriedades](assets/journey38.png)
 
@@ -76,7 +76,7 @@ Use [!DNL Journey Optimizer] para:
 
 ### Jornadas vs. campanhas: quando usar cada uma {#journeys-vs-campaigns-intro}
 
-O [!DNL Adobe Journey Optimizer] oferece três abordagens para alcançar os clientes: **jornadas** (1:1 orquestração em tempo real), **campanhas** (entrega simples em lote ou acionada por API) e **campanhas orquestradas** (fluxos de trabalho de tela em lote com dados de várias entidades).
+A [!DNL Adobe Journey Optimizer] oferece três abordagens para alcançar os clientes: **Jornada** (orquestração em tempo real 1:1), **Campanhas** (entrega simples em lote ou acionada por API) e **Campanhas orquestradas** (fluxos de trabalho de tela de lote com dados de várias entidades).
 
 **Decisão rápida:**
 
@@ -177,7 +177,7 @@ Use tempos de espera, saltos, atualizações de perfil e o gerenciamento de púb
 
 ## Seu fluxo de trabalho de criação de jornadas {#workflow}
 
-A criação de jornadas bem-sucedidas segue um processo claro que pode ser repetido. Este é o fluxo de trabalho passo a passo:
+A criação de jornadas bem-sucedidas segue um processo claro que pode ser repetido. Este é o seu fluxo de trabalho passo a passo:
 
 **1. Plano** → **2. Projeto** → **3. Teste** → **4. Publicar** → **5. Monitorar** → **6. Otimizar**
 
@@ -206,12 +206,13 @@ Use o designer de jornadas para criar o fluxo:
 
 Sempre teste a jornada para detectar problemas antes que os clientes os enfrentem:
 
-* Use o **modo de teste** para simular a jornada com perfis de teste
+* Use a **Simulação de Jornada** para iteração rápida com usuários temporários simulados, nenhum perfil de teste necessário
+* Use o **modo de teste** para guiar perfis reais (mas de teste designado) através da jornada passo a passo
 * Use a **simulação** para executar a jornada em dados de produção reais sem enviar comunicações ou atualizar perfis
 * Verifique se todas as condições, mensagens e ações funcionam conforme esperado
 * Verifique o momento, os fluxos de dados e a personalização
 
-[Teste a jornada →](testing-the-journey.md) | [Saiba mais sobre a execução de teste →](journey-dry-run.md)
+[Escolha um método de validação →](choose-validation-method.md) | [Testar sua jornada →](testing-the-journey.md) | [Saiba mais sobre simulação →](journey-dry-run.md)
 
 ### &#x200B;4. Publicar a jornada {#publish}
 
@@ -398,7 +399,7 @@ Obtenha uma introdução visual aos componentes da jornada e conheça as noçõe
 
 O [!DNL Adobe Journey Optimizer] oferece três abordagens:
 
-* **Jornadas**: 1:1 orquestração em tempo real em que cada perfil percorre as etapas no seu próprio ritmo. A melhor opção para experiências orientadas por comportamento em várias etapas com lógica condicional (por exemplo: integração, abandono de carrinho).
+* **Jornada**: orquestração em tempo real 1:1 em que cada perfil percorre etapas em seu próprio ritmo. A melhor opção para experiências orientadas por comportamento em várias etapas com lógica condicional (por exemplo: integração, abandono de carrinho).
 
 * **Campanhas (ação e acionadas por API)**: entrega simples de mensagens a públicos-alvo, com execução simultânea para todos os perfis, por meio de um cronograma ou do acionador da API. A melhor opção para campanhas promocionais, informativos e mensagens transacionais.
 
@@ -474,7 +475,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **Designer de Jornadas**: a tela visual de arrastar e soltar do AJO usada para compilar e configurar fluxos de jornada sem gravar código. *(específico do produto)*
 * **Modo de teste**: um modo de validação de jornada que usa perfis de teste persistentes do Adobe Experience Platform (explicitamente sinalizados como perfis de teste) para percorrer uma jornada de rascunho antes de ser publicada. *(específico do produto)*
 * **Dry run**: um modo de publicação especial que executa a jornada em dados de produção reais sem enviar comunicações ou atualizar perfis. *(específico do produto)*
-* **Simulação**: um modo de validação que usa usuários temporários simulados gerados em tempo real; os usuários simulados não persistem no Adobe Experience Platform. *(específico do produto)*
+* **Simulação**: um modo de validação que usa usuários temporários simulados, criados manualmente ou gerados automaticamente; os usuários simulados não persistem no Adobe Experience Platform. *(específico do produto)*
 * **Campanhas orquestradas**: fluxos de trabalho em lotes de várias etapas na AJO que usam dados relacionais (perfis + produtos/lojas/reservas) e processam todos os perfis junto com contagens exatas de pré-envio. *(específico do produto)*
 
 **Medidas de Proteção:**
@@ -491,10 +492,10 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 
 **Perguntas frequentes:**
 
-* **P: Qual é a diferença entre uma jornada e uma campanha no Journey Optimizer?** — o Jornada fornece 1:1 orquestração em tempo real, onde cada perfil avança em seu próprio ritmo por meio da lógica condicional; Campanhas entregam mensagens simultaneamente a um público de acordo com um agendamento ou por meio de um acionador de API; campanhas orquestradas são fluxos de trabalho de tela em lote para segmentação complexa de várias entidades.
+* **P: Qual é a diferença entre uma jornada e uma campanha no Journey Optimizer?** — o Jornada fornece orquestração em tempo real 1:1, onde cada perfil avança no seu próprio ritmo por meio da lógica condicional; as campanhas entregam mensagens simultaneamente a um público de acordo com um agendamento ou por meio de um acionador de API; as campanhas orquestradas são fluxos de trabalho de tela em lote para segmentação complexa de várias entidades.
 * **P: Posso editar uma jornada em tempo real?** — elementos limitados, como nome e conteúdo da mensagem, podem ser editados; mudanças estruturais exigem a criação de uma nova versão da jornada.
 * **P: Quais são as etapas para criar uma jornada?** — O fluxo de trabalho de seis etapas é: planejar, projetar na tela, testar (modo de teste ou simulação), publicar, monitorar o desempenho e otimizar/iterar.
-* **P: Como validar uma jornada sem enviar mensagens reais?** — use Simulação (usuários temporários simulados), Modo de teste (perfis de teste persistentes do AEP) ou Dry run (dados reais de produção sem contato com o cliente ou atualizações de perfil). A contagem de perfis de execuções secas para Perfis ativáveis e cota de jornada ativa.
+* **P: Como validar uma jornada sem entrar em contato com clientes reais?** — Usar simulação (usuários temporários simulados — observe que isso envia mensagens reais, mas somente para os endereços de execução configurados nesses usuários simulados), modo de teste (perfis de teste persistentes do AEP — observe que isso envia mensagens reais para as caixas de entrada desses perfis de teste) ou execução em disco (dados reais de produção, nós de ação ignorados, nenhuma mensagem enviada). A contagem de perfis de execuções secas para Perfis ativáveis e cota de jornada ativa. Consulte [Escolher um método de validação](choose-validation-method.md) para obter uma comparação completa.
 * **P: Que tipo de jornada devo usar para um email de boas-vindas acionado por uma assinatura?** — Use uma jornada Unitária, que é acionada por um evento individual específico, como uma inscrição por assinatura.
 
 +++

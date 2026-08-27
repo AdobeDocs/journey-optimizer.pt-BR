@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: cf5370872104972b3e49d544b09ab48858484da6
+source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3503'
 ht-degree: 93%
 
 ---
@@ -70,11 +70,13 @@ ht-degree: 93%
     + [Definir as propriedades da jornada](using/building-journeys/journey-properties.md)
     + [Configurar e rastrear as métricas da jornada](using/building-journeys/success-metrics.md)
     + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
-    + Simulação {#simulate-journey}
-      + [Introdução à simulação de jornada](using/building-journeys/simulate-journey-gs.md)
-      + [Simule sua jornada](using/building-journeys/simulate-journey.md)
-    + [Teste a jornada](using/building-journeys/testing-the-journey.md)
-    + [Execução de teste da jornada](using/building-journeys/journey-dry-run.md)
+    + Validar sua jornada {#validate-journey}
+      + [Escolha um método de validação](using/building-journeys/choose-validation-method.md)
+      + Simulação {#simulate-journey}
+        + [Introdução à simulação de jornada](using/building-journeys/simulate-journey-gs.md)
+        + [Simule sua jornada](using/building-journeys/simulate-journey.md)
+      + [Teste a jornada](using/building-journeys/testing-the-journey.md)
+      + [Execução de teste da jornada](using/building-journeys/journey-dry-run.md)
     + [Publicar a jornada](using/building-journeys/publish-journey.md)
     + [Pausar uma jornada](using/building-journeys/journey-pause.md)
     + [Relatório em tempo real na sua jornada](using/building-journeys/report-journey.md)
@@ -570,7 +572,7 @@ ht-degree: 93%
   + Gerar conteúdo {#generate-content}
     + [Introdução à Geração de conteúdo](using/content-management/gs-generative.md)
     + [Práticas recomendadas para prompts de IA](using/content-management/ai-assistant-prompting-guide.md)
-    + [Content Credentials no assistente de IA](using/content-management/generative-c2pa-metadata.md)
+    + [Content Credentials em Gerar conteúdo](using/content-management/generative-c2pa-metadata.md)
     + [Gerar conteúdo completo com IA](using/content-management/generative-full-content.md)
     + [Gerar texto com IA](using/content-management/generative-text.md)
     + [Gere imagens com IA](using/content-management/generative-image.md)

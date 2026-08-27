@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 3541
+source-wordcount: 3556
 ht-degree: 5%
 
 ---
@@ -43,6 +43,8 @@ ht-degree: 5%
 **Nesta página:** saiba como validar sua jornada antes de publicá-la usando a simulação com usuários simulados ou o modo de teste com perfis de teste para detectar erros antecipadamente.
 
 >[!ENDSHADEBOX]
+
+Não tem certeza de que o modo de teste é o método correto para você? [Comparar todas as três opções de validação](choose-validation-method.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"

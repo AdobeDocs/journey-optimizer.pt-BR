@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
+source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
 workflow-type: tm+mt
-source-wordcount: 10236
-ht-degree: 80%
+source-wordcount: 10287
+ht-degree: 79%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 80%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Agosto de 2026 {#august-2026}
+
+* Uma nova página **Escolher um método de validação** está disponível. Ele compara Simulação de Jornada, Modo de teste e Execução de Jornada seca — os dados que cada um usa, se envia mensagens reais, erros comuns a serem evitados e um guia de decisão para escolher o método correto em cada estágio da criação de uma jornada. [Leia mais](../building-journeys/choose-validation-method.md)
 
 * A página **Medidas de proteção e limitações** foi atualizada para esclarecer a atividade de Qualificação de público-alvo e Medidas de proteção de eventos: a redação agora se refere consistentemente às **atividades** de Qualificação de público-alvo (em vez de nós), incluindo quando usadas como critérios de saída, e ambas as medidas de proteção agora abrangem explicitamente as **jornadas live, closed, paused, test mode e dry run**. [Leia mais](../start/guardrails.md#audience-qualif-g)
 

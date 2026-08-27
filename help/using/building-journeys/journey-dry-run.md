@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 41e34973cb3213e08442bead6d1f1bb00af00921
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 2330
-ht-degree: 8%
+source-wordcount: 2345
+ht-degree: 7%
 
 ---
 
@@ -46,6 +46,8 @@ ht-degree: 8%
 **Nesta página:** saiba como publicar uma jornada no modo de execução a seco para testá-la com dados de produção reais sem entrar em contato com clientes reais ou atualizar perfis, para que você possa validar seu design antes de entrar em funcionamento.
 
 >[!ENDSHADEBOX]
+
+Não tem certeza que o Dry run é o método certo para você? [Comparar todas as três opções de validação](choose-validation-method.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
@@ -91,8 +93,8 @@ Durante o Dry Run, a jornada é executada no modo de simulação, aplicando os s
 
 * Os nós **Reaction** não são executados: todos os perfis que entram nele serão encerrados com êxito. No entanto, as seguintes regras de prioridade se aplicam:
 
-   * Se um nó **Reaction** for usado com um ou vários nós **unitary event** em paralelo, os perfis sempre passarão pelo evento de reação.
-   * Se um nó **Reaction** for usado com um ou vários nós **response event** em paralelo, os perfis sempre irão passar pelo primeiro na tela (o que está na parte superior).
+  * Se um nó **Reaction** for usado com um ou vários nós **unitary event** em paralelo, os perfis sempre passarão pelo evento de reação.
+  * Se um nó **Reaction** for usado com um ou vários nós **response event** em paralelo, os perfis sempre irão passar pelo primeiro na tela (o que está na parte superior).
 
 * As atividades de **Ler Público** com um tempo de execução agendado (diário, semanal ou mensal) não seguem o tempo configurado na jornada — o agendamento é ancorado no momento em que a Execução Seca é ativada. Por exemplo, se sua jornada estiver definida para ser executada diariamente às 10:00, mas você ativar o Dry run às 8:00 AM, todas as leituras programadas subsequentes durante o Dry run serão executadas às 8:00 AM.
 

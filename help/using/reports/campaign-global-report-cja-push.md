@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 0c288debdccbc9b5b3e5f051a857afddf8f6fc19
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 3%
+source-wordcount: 675
+ht-degree: 8%
 
 ---
 
@@ -123,6 +123,34 @@ A tabela **[!UICONTROL Motivos de rejeições]** fornece uma visão geral abrang
 ## Motivos do erro {#error-reasons-push}
 
 A tabela **[!UICONTROL Motivos de erro]** permite identificar os erros específicos que ocorreram durante o processo de envio de suas notificações por push, facilitando uma análise completa de todos os problemas encontrados.
+
++++ Saiba mais sobre os motivos de erro
+
+Cada envio de notificação por push é classificado em um dos seguintes motivos, com base na resposta retornada pelo provedor de notificação por push ([!DNL Apple Push Notification service (APNs)] ou [!DNL Firebase Cloud Messaging (FCM)]):
+
+**APNs**
+
+| Status HTTP | Motivo de APNs | Motivo do erro |
+| --- | --- | --- |
+| 400 / 410 | `Unregistered`, `ExpiredToken`, `BadDeviceToken` | ➡ INCLUIR NA LISTA DE BLOQUEIOS |
+| 400 / 413 | `PayloadTooLarge`, `PayloadEmpty`, `InvalidPushType`, `BadTopic`, `MissingTopic` | MALFORMED_NOTIFICATION |
+| 400 / 403 | `DeviceTokenNotForTopic`, `BadCertificate`, `TopicDisallowed`, `BadCertificateEnvironment` | INVALID_PUSH_CREDENTIAL |
+| 429 / 500 / 503 | `TooManyRequests`, `TooManyProviderTokenUpdates`, `InternalServerError`, `ServiceUnavailable` | PUSH_PROVIDER_ERROR |
+| qualquer outro | qualquer outro/nenhum | PUSH_PROVIDER_ERROR |
+
+**FCM**
+
+| Status HTTP | Código de erro FCM | Motivo do erro |
+| --- | --- | --- |
+| 404 | `UNREGISTERED` (`NOT_FOUND`) | ➡ INCLUIR NA LISTA DE BLOQUEIOS |
+| 400 | `INVALID_ARGUMENT` | MALFORMED_NOTIFICATION |
+| 403 | `SENDER_ID_MISMATCH` (`PERMISSION_DENIED`) | INVALID_PUSH_CREDENTIAL |
+| 429 | `QUOTA_EXCEEDED` (`RESOURCE_EXHAUSTED`) | PUSH_PROVIDER_ERROR |
+| 500 | `INTERNAL` | PUSH_PROVIDER_ERROR |
+| 503 | `UNAVAILABLE` | PUSH_PROVIDER_ERROR |
+| qualquer outro | `UNSPECIFIED_ERROR` / qualquer outro / nenhum | PUSH_PROVIDER_ERROR |
+
++++
 
 ## Motivos para exclusão {#exclude-reasons-push}
 

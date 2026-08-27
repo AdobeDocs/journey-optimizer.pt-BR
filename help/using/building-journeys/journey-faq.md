@@ -37,10 +37,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: 6214
-ht-degree: 0%
+source-wordcount: 6272
+ht-degree: 1%
 
 ---
 
@@ -118,9 +118,9 @@ O [!DNL Adobe Journey Optimizer] é compatível com quatro tipos de público-alv
 * **Uso da Jornada**: suportado nas atividades Read Audience, Audience Qualification e Condition
 * **Recomendado para**: envolvimento em tempo real com base em alterações de comportamento ou atualizações de perfil
 * **Medidas de proteção**:
-   * O tamanho máximo do público depende da sua licença do Journey Optimizer
-   * Latência de avaliação normalmente abaixo de 5 minutos
-   * Lógica de segmento complexa pode afetar o desempenho da avaliação
+  * O tamanho máximo do público depende da sua licença do Journey Optimizer
+  * Latência de avaliação normalmente abaixo de 5 minutos
+  * Lógica de segmento complexa pode afetar o desempenho da avaliação
 
 **2. Públicos em lote**
 
@@ -129,9 +129,9 @@ O [!DNL Adobe Journey Optimizer] é compatível com quatro tipos de público-alv
 * **Uso da Jornada**: com suporte em atividades Read Audience e Condition; suporte limitado em jornadas de Qualificação de Público
 * **Melhor para**: campanhas regulares, boletins informativos, comunicações programadas
 * **Medidas de proteção**:
-   * A avaliação ocorre uma vez por dia (padrão) ou no cronograma configurado
-   * Os perfis podem não refletir alterações em tempo real até a próxima avaliação
-   * A atividade Ler público-alvo pode processar públicos-alvo de grandes lotes com eficiência
+  * A avaliação ocorre uma vez por dia (padrão) ou no cronograma configurado
+  * Os perfis podem não refletir alterações em tempo real até a próxima avaliação
+  * A atividade Ler público-alvo pode processar públicos-alvo de grandes lotes com eficiência
 
 **3. Carregar públicos (Carregamento personalizado)**
 
@@ -140,10 +140,10 @@ O [!DNL Adobe Journey Optimizer] é compatível com quatro tipos de público-alv
 * **Uso da Jornada**: suportado nas atividades Ler Público e Condição; **não suportado** nas jornadas de Qualificação de Público
 * **Melhor para**: campanhas únicas, importações de listas externas, comunicações direcionadas
 * **Medidas de proteção**:
-   * Limites de tamanho de arquivo CSV aplicáveis (verifique a documentação do produto para limites atuais)
-   * Os membros do público-alvo são estáticos até serem atualizados com um novo upload
-   * O namespace de identidade deve corresponder ao namespace de jornada
-   * Perfis devem existir em [!DNL Adobe Experience Platform]
+  * Limites de tamanho de arquivo CSV aplicáveis (verifique a documentação do produto para limites atuais)
+  * Os membros do público-alvo são estáticos até serem atualizados com um novo upload
+  * O namespace de identidade deve corresponder ao namespace de jornada
+  * Perfis devem existir em [!DNL Adobe Experience Platform]
 
 **4. Públicos-alvo da Federated Audience Composition (FAC)**
 
@@ -152,10 +152,10 @@ O [!DNL Adobe Journey Optimizer] é compatível com quatro tipos de público-alv
 * **Uso da Jornada**: com suporte em atividades Read Audience e Condition; **sem suporte** em jornadas de qualificação de público-alvo (semelhante a carregar públicos de uma perspectiva de back-end)
 * **Melhor para**: integração de data warehouse corporativo, composição de público-alvo usando fontes de dados externas, cenários que exigem que os dados permaneçam em sistemas externos
 * **Medidas de proteção**:
-   * Os membros do público-alvo são estáticos até a próxima execução de composição federada
-   * O namespace de identidade deve corresponder ao namespace de jornada
-   * O desempenho depende dos recursos de consulta do data warehouse externo
-   * Requer o complemento Federated Audience Composition
+  * Os membros do público-alvo são estáticos até a próxima execução de composição federada
+  * O namespace de identidade deve corresponder ao namespace de jornada
+  * O desempenho depende dos recursos de consulta do data warehouse externo
+  * Requer o complemento Federated Audience Composition
 
 **Públicos-alvo do Customer Journey Analytics (CJA)**:
 
@@ -415,14 +415,15 @@ Saiba mais sobre [Fragmentos de Jornada](journey-fragments.md).
 
 +++ Como faço para testar minha jornada antes de publicá-la?
 
-A Journey Optimizer oferece duas abordagens de teste:
+O Journey Optimizer oferece três métodos de validação:
 
-* **Modo de teste**: simular perfis individuais que se movem pela jornada passo a passo, permitindo que você verifique a lógica, as condições e as ações antes de entrar em funcionamento.
+* **Simulação de Jornada**: valide sua jornada com usuários temporários simulados, criados manualmente ou gerados automaticamente — não é necessário criar ou aguardar perfis de teste reais. Melhor para iteração rápida durante o design da jornada.
+* **Modo de teste**: percorra perfis reais (mas de teste designado) através da jornada passo a passo, permitindo que você verifique a lógica, as condições e as ações antes de entrar em funcionamento.
 * **Modo de simulação**: execute a jornada usando dados de produção reais sem entrar em contato com clientes reais ou atualizar informações do perfil. Isso dá confiança no direcionamento de público-alvo e no design da jornada.
 
 **Prática recomendada**: sempre teste as jornadas antes da publicação para garantir que elas funcionem conforme o esperado e para identificar quaisquer problemas antecipadamente.
 
-Saiba mais sobre [modo de teste](testing-the-journey.md) e [simulação](journey-dry-run.md).
+Consulte [Escolher um método de validação](choose-validation-method.md) para uma comparação completa ou saiba mais sobre [simulação](simulate-journey-gs.md), [modo de teste](testing-the-journey.md) e [simulação](journey-dry-run.md).
 
 +++
 
@@ -865,9 +866,9 @@ As **políticas de mesclagem** determinam como o [!DNL Adobe Experience Platform
 **Impacto no jornada**:
 
 * As jornadas usam a política de mesclagem associada ao público ou evento para determinar quais dados de perfil estão disponíveis
-   * Em Ler jornadas de qualificação de público ou público-alvo: a política de mesclagem do público-alvo é usada
-   * Em jornadas de eventos unitários: a política de mesclagem padrão é usada
-   * Nas jornadas de eventos comerciais: a política de mesclagem do público-alvo na seguinte atividade Ler público é usada
+  * Em Ler jornadas de qualificação de público ou público-alvo: a política de mesclagem do público-alvo é usada
+  * Em jornadas de eventos unitários: a política de mesclagem padrão é usada
+  * Nas jornadas de eventos comerciais: a política de mesclagem do público-alvo na seguinte atividade Ler público é usada
 
 * A política de mesclagem afeta quais atributos estão acessíveis em condições de jornada, personalização e ações
 * Diferentes políticas de mesclagem podem resultar na utilização de diferentes dados de perfil na jornada

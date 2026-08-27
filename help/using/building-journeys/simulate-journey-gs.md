@@ -11,9 +11,9 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
+source-git-commit: 2094f1503f726a352193c86d3a2ccadc8a2caa24
 workflow-type: tm+mt
-source-wordcount: 2385
+source-wordcount: 2496
 ht-degree: 1%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 1%
 **Nesta página:** saiba como a simulação de jornada permite testar com usuários simulados e como a experiência de simulação varia dependendo do tipo de jornada, antes de publicar.
 
 >[!ENDSHADEBOX]
+
+Não tem certeza de que Simulação é o método certo para você? [Comparar todas as três opções de validação](choose-validation-method.md).
 
 >[!IMPORTANT]
 >
@@ -134,6 +136,7 @@ Os recursos a seguir não têm suporte em **[!UICONTROL Simulação]**.
 | Envio de onda em jornadas | Não suportado. |
 | Horário de silêncio | Não avaliado nem aplicado durante a simulação. |
 | Privacy Service | Os usuários simulados não são perfis persistentes compatíveis com o GDPR. Não inclua dados reais do cliente em usuários simulados. |
+| Persistência do perfil | Enviar um usuário simulado para uma jornada aciona um envio de mensagem real por meio do pipeline de entrega padrão. Se um conjunto de dados afetado, por exemplo, eventos de feedback ou eventos de rastreamento, estiver habilitado para perfil, isso pode resultar na criação de um perfil persistente no Adobe Experience Platform para esse usuário simulado, mesmo que a execução seja sinalizada como uma simulação. |
 
 +++
 
@@ -183,7 +186,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Decida se usará a Simulação rápida ou a Simulação manual com base nas necessidades de teste
 
 **Glossário:**
-* **Usuários simulados**: entidades temporárias semelhantes a perfis criadas para simulação sem persistir no Adobe Experience Platform *(específico do produto)*
+* **Usuários simulados**: entidades temporárias semelhantes a perfis criadas para simulação. O envio de um usuário simulado aciona um envio de mensagem real, o que pode resultar na criação de um perfil persistente no Adobe Experience Platform *(específico do produto)*
 * **Simulação**: um estado de jornada (junto com Rascunho, Modo de teste e Ativo) usado para testes com usuários simulados em vez de perfis de teste persistentes *(específico do produto)*
 * **Journey Agent**: o componente de IA que gera usuários simulados, valores de evento e configurações de teste durante a simulação Rápida e a simulação Manual assistida por IA *(específico do produto)*
 * **Simulação rápida**: uma execução de simulação completa automatizada que gera usuários e eventos com entrada manual mínima *(específica do produto)*
@@ -210,7 +213,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 
 **Perguntas frequentes:**
 * **P: Quais permissões são necessárias para usar a simulação?** — Você precisa de pelo menos um dos seguintes: Simular jornadas, Publicar jornadas ou Aprovar e Publicar jornadas. Os recursos de IA também exigem a permissão Gerar conteúdo do recurso Assistente de IA.
-* **P: Qual a diferença entre a Simulação e o Modo de teste?** — A simulação usa usuários temporários simulados criados em tempo real sem perfis persistentes do Adobe Experience Platform; o modo de teste usa perfis persistentes explicitamente sinalizados como perfis de teste no AEP.
+* **P: Qual a diferença entre a Simulação e o Modo de teste?** — A simulação usa usuários temporários simulados criados em tempo real, geralmente sem perfis pré-criados no Adobe Experience Platform; o modo de teste usa perfis persistentes explicitamente sinalizados como perfis de teste no AEP. Enviar um usuário simulado ainda aciona um envio de mensagem real, o que pode resultar na criação de um perfil persistente.
 * **P: Posso simular uma jornada que começa com um Evento Comercial?** — Não. As jornadas acionadas por um Evento Comercial não podem ser executadas em Simulação.
 * **P: Quantos usuários simulados posso testar em uma única execução de simulação?** — Até 100 usuários únicos simulados por execução; cada ação Enviar tudo é limitada a 20 usuários de uma só vez.
 * **P: As políticas de consentimento são aplicadas durante a Simulação?** — Não. A avaliação da política de consentimento, o limite de frequência, o gerenciamento de recusa e as horas de silêncio não são avaliados durante a simulação.
