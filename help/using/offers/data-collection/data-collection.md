@@ -11,23 +11,15 @@ level: Experienced
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-xLnILnYeTkebBswLoIyVxKl61aaOWqX1vp6GaAoG0A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 1d4ebaf6450e7a737a849d7416cc96c7b529a62c
 workflow-type: tm+mt
-source-wordcount: 433
-ht-degree: 7%
+source-wordcount: 509
+ht-degree: 6%
 
 ---
 
@@ -69,7 +61,7 @@ No entanto, **a maioria dos canais** exige que os dados de impressões e cliques
 
 * Páginas da Web que usam o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} para renderizar ofertas
 
-* Aplicativos móveis que usam o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=pt-BR){target="_blank"} para renderizar ofertas - [Saiba mais](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* Aplicativos móveis que usam o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} para renderizar ofertas - [Saiba mais](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * Quiosques
 * Mensagens enviadas por aplicativos de terceiros
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
@@ -89,3 +81,25 @@ Para enviar dados de feedback, é necessário criar um conjunto de dados para co
 * Saiba como criar um conjunto de dados em que os eventos de experiência serão coletados em [esta seção](create-dataset.md).
 
 * Saiba como definir eventos de experiência para enviar dados de feedback em [esta seção](schema-requirement.md).
+
+## Suprimir eventos de feedback {#suppress-feedback}
+
+Ao testar sua implementação, você pode usar o sinalizador `dryRun` para suprimir eventos de feedback e impedir que eles sejam capturados para relatórios e contadores de limite de frequência.
+
+>[!CAUTION]
+>
+>O sinalizador `dryRun` destina-se somente a testes. Remova-o antes de ativá-lo, já que deixá-lo ativo na produção suprimirá silenciosamente todos os dados de feedback e impedirá que os contadores de limite de frequência sejam incrementados.
+
+Adicione o sinalizador `dryRun` no bloco `data` do evento XDM na implementação do cliente:
+
+```json
+{
+    "data": {
+        "__adobe": {
+            "ajo": {
+                "dryRun": true
+            }
+        }
+    }
+}
+```
