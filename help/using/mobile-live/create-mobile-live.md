@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
+source-git-commit: e4d9ae1971d435c221107bede26abe3f74983a6f
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 7%
+source-wordcount: 726
+ht-degree: 6%
 
 ---
 
@@ -185,6 +185,9 @@ Depois de projetar sua atividade Live, você pode acompanhar a medição do impa
 > `executionMetadata` está disponível para as campanhas de **Transação acionada por API** e **Marketing acionado por API**.
 
 Anexe seus próprios **dados personalizados** a um perfil, como uma ID de pedido, uma camada de fidelidade ou um código de região, usando o campo `executionMetadata` opcional. A Journey Optimizer armazena esses dados junto com a execução para que você possa recuperá-los posteriormente do seu **conjunto de dados de comentários de atividades em tempo real** e fazer a correspondência dos resultados da entrega com seus próprios registros comerciais.
+
+Para enviar esses dados por meio da API, consulte a [Referência da API de mensagens para o campo `executionMetadata`](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMUnitaryMessageExecution!path=recipients/0/executionMetadata&t=request). Para ler os valores novamente no dispositivo, consulte o [guia do Mobile SDK sobre como receber metadados de execução do acionador de API](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial#receiving-execution-metadata-from-the-api-trigger).
+
 Para adicionar dados personalizados com metadados de execução:
 
 * Adicionar `executionMetadata` a um perfil, próximo a `userId` e `namespace`. Somente chaves de sequência de caracteres e valores de sequência de caracteres são aceitos. Converta qualquer valor que não seja de sequência de caracteres em uma sequência de caracteres antes de enviá-lo.
@@ -242,9 +245,6 @@ Neste exemplo, `orderId`, `tier`, `restaurant` e `region` são seus próprios va
 ```
 
 +++
-
-Depois de projetar sua atividade Live, você pode acompanhar a medição do impacto da atividade Live com [relatórios internos](../reports/campaign-global-report-cja-activity.md).
-
 
 ## Vídeo tutorial
 

@@ -23,9 +23,9 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 1d4ebaf6450e7a737a849d7416cc96c7b529a62c
 workflow-type: tm+mt
-source-wordcount: 1153
+source-wordcount: 1173
 ht-degree: 5%
 
 ---
@@ -250,6 +250,10 @@ The following video is intended to support your understanding of the components 
 
 >[!VIDEO](https://video.tv.adobe.com/v/342833/?captions=por_br&quality=12)
 -->
+
+>[!NOTE]
+>
+>Ao testar sua implementação, você pode usar o sinalizador `dryRun` para suprimir eventos de comentários. [Saiba mais](../../data-collection/data-collection.md#suppress-feedback)
 
 ## Próximas etapas {#next-steps}
 

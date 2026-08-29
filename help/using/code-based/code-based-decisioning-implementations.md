@@ -20,10 +20,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
+source-git-commit: 1d4ebaf6450e7a737a849d7416cc96c7b529a62c
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 8%
+source-wordcount: 609
+ht-degree: 7%
 
 ---
 
@@ -61,11 +61,9 @@ Depois de publicar sua campanha, adicione o sinalizador `dryRun` no bloco `data`
 }
 ```
 
-<!--
 >[!CAUTION]
 >
->Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.
--->
+>O sinalizador `dryRun` destina-se somente a testes. Remova-o antes de ativá-lo, já que deixá-lo ativo na produção suprimirá silenciosamente todos os dados de feedback e impedirá que os contadores de limite de frequência sejam incrementados.
 
 ## Desduplicação de itens de decisão em implementações baseadas em código {#code-based-decisioning-deduplication}
 

@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 1d4ebaf6450e7a737a849d7416cc96c7b529a62c
 workflow-type: tm+mt
-source-wordcount: 433
-ht-degree: 7%
+source-wordcount: 509
+ht-degree: 6%
 
 ---
 
@@ -89,3 +89,25 @@ Para enviar dados de feedback, é necessário criar um conjunto de dados para co
 * Saiba como criar um conjunto de dados em que os eventos de experiência serão coletados em [esta seção](create-dataset.md).
 
 * Saiba como definir eventos de experiência para enviar dados de feedback em [esta seção](schema-requirement.md).
+
+## Suprimir eventos de feedback {#suppress-feedback}
+
+Ao testar sua implementação, você pode usar o sinalizador `dryRun` para suprimir eventos de feedback e impedir que eles sejam capturados para relatórios e contadores de limite de frequência.
+
+>[!CAUTION]
+>
+>O sinalizador `dryRun` destina-se somente a testes. Remova-o antes de ativá-lo, já que deixá-lo ativo na produção suprimirá silenciosamente todos os dados de feedback e impedirá que os contadores de limite de frequência sejam incrementados.
+
+Adicione o sinalizador `dryRun` no bloco `data` do evento XDM na implementação do cliente:
+
+```json
+{
+    "data": {
+        "__adobe": {
+            "ajo": {
+                "dryRun": true
+            }
+        }
+    }
+}
+```
