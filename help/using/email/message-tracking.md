@@ -32,10 +32,10 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b35f73d33313a267987ceb18dcfc16ccadff52dc
+source-git-commit: ceec765190f63840a3ee828761284239b59c76fb
 workflow-type: tm+mt
-source-wordcount: 1585
-ht-degree: 24%
+source-wordcount: 1631
+ht-degree: 23%
 
 ---
 
@@ -129,9 +129,11 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
 1. Insira o URL desejado no campo correspondente ou selecione uma landing page e defina as configurações e os estilos do link. [Saiba mais](#adjust-links)
 
-   >[!NOTE]
+   Para interpretar URLs, [!DNL Journey Optimizer] está em conformidade com a sintaxe de URI ([padrão RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), que desabilita alguns caracteres internacionais especiais em URLs. Ao tentar enviar a prova ou o email, se você retornar um erro envolvendo um URL adicionado ao seu conteúdo, o URL codificará a string como uma solução alternativa. Por exemplo, se um caminho de URL contiver um apóstrofo (`'`), use `%27` (por exemplo, `https://example.com/nature%27s-miracle` em vez de `https://example.com/nature's-miracle`).
+
+   >[!CAUTION]
    >
-   >Para interpretar URLs, [!DNL Journey Optimizer] está em conformidade com a sintaxe de URI ([padrão RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), que desabilita alguns caracteres internacionais especiais em URLs. Ao tentar enviar a prova ou o email, se você retornar um erro envolvendo um URL adicionado ao seu conteúdo, será possível codificar o URL da sequência de caracteres como uma solução alternativa.
+   >Quando links rastreados ou parâmetros de rastreamento de URL anexados são usados, deixar caracteres não suportados não codificados pode levar ao tratamento incorreto de URL downstream após o redirecionamento. Codifique quaisquer caracteres não suportados para ajudar a preservar o URL de destino completo.
 
 1. Você pode personalizar seus links. [Saiba mais](url-personalization.md)
 
