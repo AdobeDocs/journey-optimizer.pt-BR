@@ -96,4 +96,4 @@ Cada cartão contém uma **marca de categoria** que identifica a qual parte do p
 
 ➡️ Veja como medir o desempenho de desafios com relatórios de desafios
 
->[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497563?captions=por_br&quality=12)
