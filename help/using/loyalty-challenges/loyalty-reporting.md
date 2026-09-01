@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
+source-git-commit: fee6ae2f8cdc54ec23cced7aa44e6915472c9f89
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: 530
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Abaixo das métricas principais, a seção **Desafios** oferece duas visualizaç
 ![](assets/reporting-challenge-challenges.png)
 
 * **Envolvimento do desafio**: uma linha do tempo mostrando quantos membros iniciaram, estão em andamento e concluíram desafios durante o período.
-* **Relatórios de desafios**: uma tabela de todos os seus desafios com detalhes como tipo, tarefas, status e números de inscrição. Use a barra de pesquisa para encontrar um desafio específico. Selecione um desafio para ver seu relatório completo com tendências de envolvimento e detalhes de desempenho.
+* **Relatórios de desafios**: uma tabela de todos os seus desafios com detalhes como tipo, status e números de inscrição. Use a barra de pesquisa para encontrar um desafio específico. Selecione um desafio para ver seu relatório completo com tendências de envolvimento e detalhes de desempenho.
 
   +++Exemplo de relatório de desafio
 
@@ -96,4 +96,4 @@ Cada cartão contém uma **marca de categoria** que identifica a qual parte do p
 
 ➡️ Veja como medir o desempenho de desafios com relatórios de desafios
 
->[!VIDEO](https://video.tv.adobe.com/v/3497563?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)
