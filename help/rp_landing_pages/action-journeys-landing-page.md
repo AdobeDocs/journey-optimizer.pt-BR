@@ -50,7 +50,7 @@ Descubra como usar as respostas de chamada de API em ações personalizadas para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Monitorar suas ações personalizadas
 

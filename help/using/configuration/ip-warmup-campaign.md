@@ -82,11 +82,11 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
    >[!IMPORTANT]
    >
-   >Os públicos permitidos em uma campanha de aquecimento de IP devem ser [baseados em segmentos](../audience/creating-a-segment-definition.md) e criados usando a [política de mesclagem padrão](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >Os públicos permitidos em uma campanha de aquecimento de IP devem ser [baseados em segmentos](../audience/creating-a-segment-definition.md) e criados usando a [política de mesclagem padrão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
    >
    >Os seguintes tipos de público-alvo não são suportados em campanhas de aquecimento de IP e resultarão em um erro na ativação da campanha:
    >* [Públicos-alvo de carregamento CSV](../audience/custom-upload.md)
-   >* [Públicos-alvo do Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller-audiences/overview){target="_blank"} (públicos-alvo criados com consultas SQL)
+   >* [Públicos-alvo do Data Distiller](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/data-distiller-audiences/overview){target="_blank"} (públicos-alvo criados com consultas SQL)
 
    Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 

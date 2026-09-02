@@ -60,7 +60,7 @@ Entenda como monitorar o engajamento na web, usando relatórios e rastreamento d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Como criar aplicativos de página única no Adobe Journey Optimizer
 

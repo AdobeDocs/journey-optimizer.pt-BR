@@ -31,7 +31,7 @@ Saiba como usar ferramentas como detecção de conflitos, pontuações de priori
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Identificar possíveis conflitos
 

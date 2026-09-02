@@ -78,7 +78,7 @@ Há dois tipos de esquemas na Adobe Experience Platform:
 
 >[!IMPORTANT]
 >
->Ativar um esquema para o Perfil de cliente em tempo real é uma decisão permanente: uma vez ativado, o esquema não pode ser desativado ou excluído. Os conjuntos de dados criados nesse esquema podem ser desativados ou excluídos separadamente, mas isso remove os registros do perfil associado e pode afetar os workflows de segmentação e ativação. Antes de habilitar, finalize a configuração de identidade e a seleção de grupo de campos. Para obter orientações detalhadas, consulte [Planejamento de habilitação de perfil](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} e [Gerenciamento de esquemas habilitados para perfil](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} na documentação do Adobe Experience Platform.
+>Ativar um esquema para o Perfil de cliente em tempo real é uma decisão permanente: uma vez ativado, o esquema não pode ser desativado ou excluído. Os conjuntos de dados criados nesse esquema podem ser desativados ou excluídos separadamente, mas isso remove os registros do perfil associado e pode afetar os workflows de segmentação e ativação. Antes de habilitar, finalize a configuração de identidade e a seleção de grupo de campos. Para obter orientações detalhadas, consulte [Planejamento de habilitação de perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} e [Gerenciamento de esquemas habilitados para perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} na documentação do Adobe Experience Platform.
 
 ## Vídeo tutorial{#video-schema}
 
@@ -92,7 +92,7 @@ Saiba como criar um esquema padrão, adicionar grupos de campos, criar e configu
 >* [Criar um esquema, um conjunto de dados e assimilar dados para adicionar perfis de teste no Journey Optimizer](../audience/creating-test-profiles.md)
 >* [Visão geral do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}
 >* [Práticas recomendadas para modelagem de dados](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=pt-BR){target="_blank"}
->* [Planejamento de habilitação do perfil](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
->* [Gerenciamento de esquemas habilitados para perfil](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [Planejamento de habilitação do perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+>* [Gerenciamento de esquemas habilitados para perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 >* [Criar um esquema usando a API de registro de esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=pt-BR){target="_blank"}
 >* [Definir uma relação entre dois esquemas usando o Editor de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=pt-BR){target="_blank"}

@@ -21,7 +21,7 @@ A criação de uma jornada no Adobe Journey Optimizer permite criar experiência
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Como criar sua primeira Jornada do cliente
 
@@ -71,7 +71,7 @@ Valide suas jornadas com dados de produção reais sem entrar em contato com os 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Publicação de uma jornada
 

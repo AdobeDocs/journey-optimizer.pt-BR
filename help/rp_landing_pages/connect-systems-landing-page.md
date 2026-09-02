@@ -20,7 +20,7 @@ O Adobe Journey Optimizer permite que você conecte os seus sistemas e ambientes
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Integrar o Adobe Journey Optimizer a outras soluções
 
@@ -40,7 +40,7 @@ Descubra como usar APIs para fornecer experiências personalizadas entre canais,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Integrar jornadas a sistemas externos
 
@@ -50,7 +50,7 @@ Conheça as práticas recomendadas para integrar o Adobe Journey Optimizer a sis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Enviar com as soluções da Adobe
 

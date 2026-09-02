@@ -40,7 +40,7 @@ Entenda como usar perfis, atributos computados e perfis de teste para criar visu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=pt-BR)
 
 Introdução a identidades
 

@@ -40,7 +40,7 @@ Tutorial passo a passo sobre como criar e validar regras para filtrar e direcion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Como editar expressões no Adobe Journey Optimizer
 
