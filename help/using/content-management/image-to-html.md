@@ -10,11 +10,10 @@ level: Beginner
 keywords: email, modelo, imagem, HTML, AI, design, conversor
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+source-git-commit: ba8127e3c99a8bb54785c34a1453bb8c9b62588e
 workflow-type: tm+mt
-source-wordcount: 2126
+source-wordcount: 2103
 ht-degree: 4%
 
 ---
@@ -74,8 +73,6 @@ O conversor de imagem para HTML é ideal para:
 Para acessar esse recurso, sua organização deve ter assinado o adendo [!DNL Generative AI] com a Adobe. Se não tiver certeza, entre em contato com o representante da Adobe.
 
 **Permissões**
-
-* Para acessar e criar modelos, sua função deve incluir a permissão **[!UICONTROL Gerenciar modelos de conteúdo]** (no recurso **Gerenciamento de conteúdo**). [Saiba mais sobre permissões](../administration/permissions.md)
 
 * Para usar o conversor de imagem para HTML, você precisa ter a permissão **Gerar conteúdo**. Saiba como atribuir permissões relacionadas à geração de conteúdo em [esta seção](../content-management/gs-generative.md#generative-access).
 
