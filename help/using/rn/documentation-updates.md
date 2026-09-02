@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
+source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
 workflow-type: tm+mt
-source-wordcount: 10287
-ht-degree: 79%
+source-wordcount: 10520
+ht-degree: 78%
 
 ---
 
@@ -27,7 +27,21 @@ ht-degree: 79%
 
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
+## Setembro de 2026 {#september-2026}
+
+* A página **Definir a configuração do canal** agora inclui uma observação esclarecendo que o esquema usado para a dimensão secundária deve ter uma chave primária e que não há suporte para chaves primárias compostas. [Leia mais](../orchestrated/channel-config.md)
+
+* Os **conjuntos de dados e dados de fidelidade** e **Introdução às fontes** foram atualizados para incluir o LAVA como um conector de fidelidade e recompensa compatível, junto com o Talon.One, Capillary e Kobie. [Leia mais](../loyalty-challenges/loyalty-data-and-datasets.md)
+
 ## Agosto de 2026 {#august-2026}
+
+* A página **Adicionar fragmentos visuais aos seus emails** agora esclarece que um fragmento com conteúdo dinâmico e um estado padrão vazio aparece em branco no Email Designer — simule com um perfil correspondente para visualizar o conteúdo. [Leia mais](../email/use-visual-fragments.md#fragment-dynamic-content)
+
+* A página **Rastrear suas mensagens** foi atualizada para esclarecer que caracteres de URL não suportados (por exemplo, apóstrofos) devem ser codificados por porcentagem, e que deixá-los não codificados pode quebrar os links rastreados e os parâmetros de rastreamento de URL. [Leia mais](../email/message-tracking.md#insert-links)
+
+* A página **Enviar usando ondas** foi atualizada para documentar que a última onda em uma jornada de público-alvo de leitura deve ser agendada dentro de **6 dias e 18 horas** do início da jornada. Exceder essa janela aciona um erro de validação e impede que a jornada entre no modo de teste ou entre em funcionamento. [Leia mais](../delivery/send-using-waves.md#limitations-guardrails)
+
+* Uma nova seção **Suprimir eventos de comentários** foi adicionada à página **Coleta de dados de gerenciamento de decisão**, documentando como usar o sinalizador `dryRun` para suprimir eventos de decisão durante o teste e impedir que os comentários sejam capturados para contadores de relatório e limite de frequência. [Leia mais](../offers/data-collection/data-collection.md#suppress-feedback)
 
 * Uma nova página **Escolher um método de validação** está disponível. Ele compara Simulação de Jornada, Modo de teste e Execução de Jornada seca — os dados que cada um usa, se envia mensagens reais, erros comuns a serem evitados e um guia de decisão para escolher o método correto em cada estágio da criação de uma jornada. [Leia mais](../building-journeys/choose-validation-method.md)
 

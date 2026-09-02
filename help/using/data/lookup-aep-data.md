@@ -26,10 +26,10 @@ subfeature_v2:
   - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 6258db4eb542a124b5eae54aa0c8ec49004945d3
 workflow-type: tm+mt
-source-wordcount: 922
-ht-degree: 10%
+source-wordcount: 902
+ht-degree: 8%
 
 ---
 
@@ -50,7 +50,7 @@ O [!DNL Journey Optimizer] permite aproveitar os dados do [!DNL Adobe Experience
 
 >[!NOTE]
 >
->O recurso de pesquisa de dados só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
+>O recurso de pesquisa de dados está com Disponibilidade limitada e está disponível para todos os clientes da Journey Optimizer.
 
 Saiba mais sobre como acessar e trabalhar com conjuntos de dados nesta seção: [Introdução aos conjuntos de dados](../data/get-started-datasets.md)
 

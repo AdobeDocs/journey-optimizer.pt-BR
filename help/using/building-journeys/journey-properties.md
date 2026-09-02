@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 48caee66b63c65c2beaa2a51b041b931b5134851
+source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
 workflow-type: tm+mt
-source-wordcount: 5141
+source-wordcount: 5676
 ht-degree: 10%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba como definir as propriedades globais de uma jornada — incluindo nome, regras de entrada, fuso horário, datas de início e término, tempo limite, critérios de saída e gerenciamento de conflitos — no painel direito durante a criação.
+**Nesta página:** saiba como definir as propriedades globais de uma jornada — incluindo nome, regras de entrada, fuso horário, datas de início e término, tempo limite, critérios de saída, gerenciamento de conflitos e configuração de validação (disponibilidade limitada) — no painel direito durante a criação.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ Nesta seção, defina o nome da jornada, adicione uma descrição e defina as pr
 É possível:
 
 * Atribua [!DNL Adobe Experience Platform] Tags unificadas à sua jornada, para classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
-* Selecione suas métricas do jornada. [Saiba como configurar e acompanhar suas métricas do jornada](success-metrics.md)
+* Selecione suas métricas de sucesso do jornada. [Saiba como configurar e acompanhar suas métricas de sucesso do jornada](success-metrics.md)
 * Gerenciar [entrada e reentrada](#entrance). O gerenciamento de entrada de perfis depende do tipo de jornada. Há detalhes disponíveis em [esta página](entry-management.md)
 * Gerenciar [acesso aos dados](#manage-access)
 * Selecione a jornada e o perfil [fusos horários](#timezone)
@@ -67,6 +67,7 @@ Nesta seção, defina o nome da jornada, adicione uma descrição e defina as pr
 * Defina uma [duração de tempo limite](#timeout) nas atividades de jornada (somente para usuários administradores)
 * Monitore o [tamanho da carga de jornada atual](#journey-payload-size) para evitar erros de publicação
 * Monitore conflitos e priorize suas jornadas usando as [ferramentas de gerenciamento de conflitos](#conflict)
+* [Meça o aumento da jornada com um grupo de controle (Disponibilidade limitada)](#performance-management) para quantificar a eficácia incremental da sua jornada
 
 ![painel de configuração de propriedades do Jornada com configurações gerais e opções avançadas](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
@@ -474,6 +475,37 @@ A seção **[!UICONTROL Gerenciamento de conflitos]** nas propriedades da jornad
 
 * **Exibir conflitos** com outras jornadas, campanhas ou configurações de canal. Se você quiser identificar sobreposição no público-alvo, data de início e término, configuração de canal, canal ou conjunto de regras, é possível visualizar os possíveis conflitos aqui. [Saiba como identificar possíveis conflitos no jornada](../conflict-prioritization/conflicts.md)
 
+## Medir aumento de jornada com um grupo de controle {#performance-management}
+
+>[!AVAILABILITY]
+>
+>No momento, esse recurso está com a Disponibilidade limitada. Para obter acesso, entre em contato com um representante da Adobe. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../rn/releases.md).
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_performance_measurement"
+>title="Medição de desempenho"
+>abstract="Configure um grupo de controle no nível da jornada para medir a eficácia incremental da jornada. Selecione uma métrica de sucesso e defina uma porcentagem de controle para impedir que essa parte do público-alvo entre na jornada. Os perfis excluídos são rastreados por meio de eventos de exclusão e podem ser comparados com perfis ativos nos relatórios do Customer Journey Analytics para medir o aumento."
+
+A seção **[!UICONTROL Medição de desempenho]** nas propriedades da jornada permite configurar um **grupo de controle no nível da jornada** para medir a eficácia incremental da jornada.
+
+Uma validação é uma porcentagem selecionada aleatoriamente do público-alvo que é excluído da entrada na jornada e não recebe nenhuma comunicação. Ao comparar os resultados dos perfis de validação com os dos perfis que entraram na jornada, é possível medir o aumento incremental, ou seja, o impacto real que a jornada tem no público-alvo.
+
+### Configurar controle {#configure-holdout}
+
+Para configurar uma validação para sua jornada:
+
+1. Na seção Propriedades da jornada **[!UICONTROL Medição de desempenho]**, selecione a **[!UICONTROL Métrica de sucesso]** que deseja usar para medir o desempenho da jornada e calcular o aumento incremental em relação ao grupo de controle.
+
+1. Alternar **[!UICONTROL Aumento de medida usando uma validação]** para habilitar o grupo de controle.
+
+1. Insira a **[!UICONTROL porcentagem de controle]**: a parte do público-alvo que será excluída da entrada na jornada.
+
+   ![](assets/performance-measurement.png)
+
+   *Neste exemplo, 50% do público-alvo será atribuído ao grupo de controle e não entrará na jornada. Para o restante do público-alvo, a jornada será executada normalmente e a métrica Aberturas de email (AJO) será usada pela Customer Journey Analytics para medir o aumento.*
+
+1. Clique em **[!UICONTROL Save]**.
+
 ## Perguntas frequentes {#faq}
 
 **Onde encontro as propriedades de uma jornada?**
@@ -547,6 +579,9 @@ Esta página explica como configurar e gerenciar todas as configurações globai
 * **Gerenciamento de conflitos**: ferramentas nas propriedades de jornada para atribuir pontuações de prioridade, aplicar conjuntos de regras e identificar jornadas ou campanhas sobrepostas. *(específico do produto)*
 * **Tamanho da carga da Jornada**: o tamanho atual da carga de definição da jornada comparado ao limite configurado; excedendo a publicação de blocos de limite. *(específico do produto)*
 * **OLAC (Object Level Access Control)**: um modelo de permissão que restringe o acesso a jornadas individuais usando rótulos de uso de dados.
+* **Grupo de controle (nível de jornada) (Disponibilidade limitada)**: configurado na seção **Aumento de jornada de medida com um grupo de controle** das propriedades da jornada; permite excluir uma porcentagem do público-alvo da jornada para medir sua eficácia incremental. *(específico do produto)*
+* **Grupo de controle**: uma porcentagem do público-alvo excluído de inserir uma jornada, usada como uma linha de base para medir a eficácia incremental da jornada. Os perfis no grupo de controle são rastreados por meio de eventos de exclusão. *(específico do produto)*
+* **Aumento incremental**: a diferença mensurável no resultado entre perfis que entraram na jornada (grupo ativo) e perfis que não entraram (grupo de controle), usada para quantificar o impacto real da jornada.
 
 >[!TAB Terminologia]
 
@@ -565,6 +600,10 @@ Esta página explica como configurar e gerenciar todas as configurações globai
 * Quando uma política de mesclagem de público-alvo é atualizada, qualquer jornada ativa que faça referência a esse público-alvo deve ser republicada
 * Políticas de mesclagem inconsistentes em uma publicação de bloco de jornadas; inconsistências na personalização da mensagem não geram um alerta
 * Para jornadas ao vivo, o painel de propriedades mostra somente a data da publicação e o nome do editor
+* Holdout: mínimo de 5% do público-alvo e 1.000 perfis recomendados para significância estatística
+* Suspensão: as métricas de abertura e clique não são relevantes — use as métricas de conversão inferiores do funnel
+* Retenção: somente uma métrica de sucesso por jornada; a retenção de jornada cruzada não é compatível aqui
+* As alterações de porcentagem de controle em uma nova versão do jornada se aplicam somente a novos participantes
 
 >[!TAB Perguntas frequentes]
 
@@ -591,5 +630,9 @@ A data final interrompe todas as novas entradas e sai automaticamente dos perfis
 **P: Como a política de mesclagem é determinada para uma jornada?**
 
 Depende do tipo de jornada: As jornadas Ler público-alvo e Qualificação de público-alvo usam a política de mesclagem do público-alvo; As jornadas de eventos unitários usam a política de mesclagem padrão; As jornadas de eventos comerciais usam a política de mesclagem do público-alvo direcionado na atividade Ler público-alvo subsequente.
+
+**P: Como funciona o grupo de controle?**
+
+O grupo de controle é uma porcentagem configurável do público-alvo excluído da entrada na jornada. A atribuição é determinística (o mesmo perfil sempre mapeia para controle para a mesma jornada) e avaliada no momento da entrada. Os perfis de controle não recebem nenhuma comunicação, mas são rastreados por eventos de exclusão no conjunto de dados para relatórios de downstream de CJA lift. Consulte [Aumento de jornada de medida com um grupo de controle](#performance-management).
 
 >[!ENDTABS]

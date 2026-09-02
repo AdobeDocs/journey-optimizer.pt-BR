@@ -15,9 +15,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
+source-git-commit: 87653ffa804a548585a189d5c5ae6d35dea7d35a
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: 570
 ht-degree: 0%
 
 ---
@@ -77,6 +77,9 @@ Para definir a configuração do canal:
    * **[!UICONTROL Dimension Secundário]**: ao usar **[!UICONTROL Target + Dimension Secundário]** como método de entrega, selecione o **[!UICONTROL Dimension Secundário]** relevante que você configurou anteriormente.
 
      Por exemplo, se a dimensão secundária representar uma reserva ou assinatura, o endereço de execução, como um email, poderá ser retirado desse nível. Isso é útil nos casos em que os perfis usam um detalhe de contato diferente ao reservar ou assinar um serviço.
+
+     >[!NOTE]
+     >O esquema usado para a dimensão secundária deve ter uma chave primária. Não há suporte para chaves primárias compostas para dimensões secundárias.
 
 1. No campo **[!UICONTROL Endereço de entrega]**, clique em ![ícone de edição](assets/do-not-localize/edit.svg) para escolher o campo específico a ser usado para a entrega de mensagens.
 

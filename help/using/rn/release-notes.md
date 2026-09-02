@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f6a2cbb467d58b5d6d12bd59fd64a83cee96c185
+source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
 workflow-type: tm+mt
-source-wordcount: 2183
-ht-degree: 20%
+source-wordcount: 2281
+ht-degree: 21%
 
 ---
 
@@ -48,28 +48,70 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 >
 >Os recursos listados nestas notas de versão incluem uma **Data de disponibilidade** indicando quando cada alteração se torna acessível no ambiente. As entradas nos acordeões **Em breve** são esperadas nos próximos dias ou semanas. As informações nessas seções estão sujeitas a alterações.
 
-## Notas de versão de agosto de 2026 {#aug-26-updates}
-
-<!--
-### Loyalty {#aug-26-loyalty}
+## Atualizações de setembro de 2026 {#sep-26-updates}
 
 <table>
 <thead>
 <tr>
-<th><strong>Loyalty Insights skill</strong><br/></th>
+<th><strong>controle no nível da jornada (disponibilidade limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer introduces <strong>Loyalty Insights</strong>, a new CX Coworker skill for asking questions about challenge performance and other loyalty program data ingested into the Loyalty field groups in Adobe Experience Platform.</p>
-<p>For more information, refer to the <a href="../start/ajo-coworker-skills.md">detailed documentation</a>.</p>
-<p>Availability date: August 12, 2026</p>
+<p>Agora você pode configurar um grupo de controle para suas jornadas diretamente das propriedades do jornada. Uma validação é uma porcentagem configurável do público-alvo que é excluído da entrada na jornada e não recebe nenhuma comunicação. Ao comparar perfis de controle com perfis ativos nos relatórios do Customer Journey Analytics, é possível medir o aumento incremental - o impacto real - que a jornada oferece.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o <a href="releases.md">ciclo de lançamento do Journey Optimizer</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/journey-properties.md#performance-management">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 1º de setembro de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
+<table>
+<thead>
+<tr>
+<th><strong>Gerar expressões com IA em jornadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O editor de expressão avançado do jornada agora integra a geração de expressões alimentadas por IA: descreva a expressão que você deseja criar em linguagem natural e o editor gera um código pronto para uso que pode ser aplicado imediatamente ou refinado por meio de prompts de acompanhamento.</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/expression/generate-expression.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 1º de setembro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Nova função dateDiff no editor de expressão de jornada** - O editor de expressão de jornada agora inclui a função `dateDiff`, que calcula a diferença entre duas datas em número de dias. Essa função é útil para uma lógica baseada no tempo, como criar prazos, calcular durações de ciclo de vida do cliente ou criar cronômetros de contagem regressiva em condições de jornada.  [Saiba mais](../building-journeys/functions/date-functions.md#dateDiff)
+
+  Data de disponibilidade: 1º de setembro de 2026
+
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Simulação de experiência de entrada em campanhas de ação</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível simular ações de canal de entrada em Campanhas de ação antes de entrar em atividade. Use o modo de simulação para testar sua configuração com usuários simulados e visualizar a experiência renderizada, incluindo um URL gerado e um código QR, para que você possa validar regras, decisões e renderização de conteúdo de ponta a ponta.</p>
+<p>No momento, esse recurso está em beta privado e disponível para um conjunto limitado de organizações. Entre em contato com o representante da Adobe para obter mais informações.</p>
+<p>Data de disponibilidade: 4 de setembro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
+
+## Notas de versão de agosto de 2026 {#aug-26-updates}
 
 ### Gerenciamento de conteúdo
 
@@ -117,45 +159,6 @@ Data de disponibilidade: 20 de agosto de 2026
 
   Data de disponibilidade: 13 de agosto de 2026
 
-+++ Em breve — **as informações abaixo estão sujeitas a alterações.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Gerar expressões com IA em jornadas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O editor de expressão avançado do jornada agora integra a geração de expressões alimentadas por IA: descreva a expressão que você deseja criar em linguagem natural e o editor gera um código pronto para uso que pode ser aplicado imediatamente ou refinado por meio de prompts de acompanhamento.</p>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
-<p>Data de disponibilidade: 31 de agosto de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>controle no nível da jornada (disponibilidade limitada)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora você pode configurar um grupo de controle para suas jornadas diretamente das propriedades do jornada. Uma validação é uma porcentagem configurável do público-alvo que é excluído da entrada na jornada e não recebe nenhuma comunicação. Ao comparar perfis de controle com perfis ativos nos relatórios do Customer Journey Analytics, é possível medir o aumento incremental - o impacto real - que a jornada oferece.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Adicionar nova função dateDiff no editor de expressão de jornada** - O editor de expressão de jornada agora inclui a função `dateDiff`, que calcula a diferença entre duas datas em número de dias. Essa função é útil para uma lógica baseada no tempo, como criar prazos, calcular durações de ciclo de vida do cliente ou criar cronômetros de contagem regressiva em condições de jornada.
-
-+++
-
 ### Campanhas {#aug-26-campaigns}
 
 Os recursos e melhorias a seguir foram introduzidos nas Campanhas nesta versão.
@@ -184,21 +187,6 @@ Data de disponibilidade: 13 de agosto de 2026
 
 +++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
-<table>
-<thead>
-<tr>
-<th><strong>Simulação de experiência de entrada em campanhas de ação</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora é possível simular ações de canal de entrada em Campanhas de ação antes de entrar em atividade. Use o modo de simulação para testar sua configuração com usuários simulados e visualizar a experiência renderizada, incluindo um URL gerado e um código QR, para que você possa validar regras, decisões e renderização de conteúdo de ponta a ponta.</p>
-<p>No momento, esse recurso está em beta privado e disponível para um conjunto limitado de organizações. Entre em contato com o representante da Adobe para obter mais informações.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **Redesign do fluxo de criação da Campanha de Ação** - O fluxo de criação da Campanha de Ação do Adobe Journey Optimizer foi reprojetado para fornecer uma experiência do usuário significativamente mais intuitiva, eficiente e contínua.
 
@@ -278,6 +266,25 @@ Os recursos e melhorias a seguir foram introduzidos nas Campanhas orquestradas n
 * **Simplificação da dimensão de público-alvo** - A dimensão de público-alvo ativa agora é mostrada na tela do fluxo de trabalho, para que você possa ver qual dimensão é usada por uma atividade de canal. O fluxo de segmentação de várias entidades é mais simples, pois você não precisa mais de uma atividade &quot;Alterar dimensão&quot; separada. Além disso, agora você pode escolher explicitamente se as mensagens são enviadas no nível do perfil ou em um nível de dimensão secundário. [Saiba mais](../orchestrated/activities/channels.md#add)
 
   Data de disponibilidade: 18 de agosto de 2026
+
+### Fidelidade {#aug-26-loyalty}
+
+<table>
+<thead>
+<tr>
+<th><strong>Habilidade do Loyalty Insights</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A Journey Optimizer apresenta o <strong>Loyalty Insights</strong>, uma nova habilidade do CX Co-worker, que faz perguntas sobre o desempenho de desafio e outros dados de programa de fidelidade assimilados nos grupos de campos de Fidelidade do Adobe Experience Platform.</p>
+<p>Para obter mais informações, consulte a <a href="../start/ajo-coworker-skills.md#loyalty-skills">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 31 de agosto de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### Canais {#august-26-channels}
 

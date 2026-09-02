@@ -19,10 +19,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 15cd7992e3263d7d2b94cf2efe50850d16e04a5d
+source-git-commit: f4cf85cf81c48ae0a33ae415dc886bb7268ecb43
 workflow-type: tm+mt
-source-wordcount: 1384
-ht-degree: 7%
+source-wordcount: 1710
+ht-degree: 6%
 
 ---
 
@@ -33,6 +33,7 @@ As funções de data permitem manipular e trabalhar com valores de data e hora n
 Use funções de data quando precisar:
 
 * Obtenha a hora ou data atual com a manipulação de fuso horário específica ([now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))
+* Calcule a diferença entre duas datas ou datas-horas, em dias ou milissegundos, dependendo do tipo de parâmetro ([dateDiff](#dateDiff))
 * Verifique se uma data está em um intervalo de tempo específico ([inLastDays](#inLastDays), [inLastHours](#inLastHours), [inLastMonths](#inLastMonths), [inLastYears](#inLastYears), [inNextDays](#inNextDays), [inNextHours](#inNextHours), [inNextMonths](#inNextMonths), [inNextYears](#inNextYears))
 * Modificar componentes de data e hora ([setHours](#setHours), [setDays](#setDays), [updateTimeZone](#updateTimeZone))
 * Realizar cálculos e comparações com base no tempo
@@ -73,6 +74,67 @@ Retorna um inteiro.
 `currentTimeInMillis()`
 
 Retorna &quot;1544712617131&quot;.
+
++++
+
+## dateDiff {#dateDiff}
+
+Retorna a diferença entre duas datas ou datas-horas do mesmo tipo. A unidade do resultado depende do tipo de parâmetro: `dateOnly` parâmetros retornam a diferença em **dias**, enquanto os parâmetros `dateTimeOnly` e `dateTime` retornam a diferença em **milissegundos**. Retorna `null` se um dos parâmetros for `null`.
+
+>[!NOTE]
+>
+>Esta é uma função diferente da `dateDiff` disponível no [editor de personalização](../../personalization/functions/dates.md#date-diff). A versão do editor de personalização aceita apenas `dateTime` parâmetros e sempre retorna a diferença em dias.
+
++++Sintaxe
+
+`dateDiff(<date1>,<date2>)`
+
++++
+
++++Parâmetros
+
+| Parâmetro | Tipo |
+|-----------|--------------------------------------|
+| data 1 | dateOnly, dateTimeOnly ou dateTime |
+| data 2 | dateOnly, dateTimeOnly ou dateTime |
+
+Ambos os parâmetros devem usar o mesmo tipo de dados; a combinação de tipos (por exemplo, `dateOnly` com `dateTime`) não é suportada. Os parâmetros podem ser valores de data literais, outras funções como `now()` ou atributos contextuais (campos de carga do evento, campos de resposta de ação personalizada, campos de perfil ou entidade e variáveis), desde que sejam digitados como `dateOnly`, `dateTimeOnly` ou `dateTime`.
+
++++
+
++++Assinaturas e tipo retornado
+
+`dateDiff(<dateOnly>,<dateOnly>)`
+
+Retorna um número inteiro que representa o número de dias entre as duas datas.
+
+`dateDiff(<dateTimeOnly>,<dateTimeOnly>)`
+
+Retorna um número inteiro que representa o número de milissegundos entre as duas datas-horas.
+
+`dateDiff(<dateTime>,<dateTime>)`
+
+Retorna um número inteiro que representa o número de milissegundos entre as duas datas-horas.
+
++++
+
++++Exemplos
+
+`dateDiff(toDateOnly('2023-12-15'), toDateOnly('2023-12-12'))`
+
+Retorna 3 (dias).
+
+`dateDiff(toDateTimeOnly('2023-12-15T00:00:00'), toDateTimeOnly('2023-12-12T00:00:00'))`
+
+Retorna 259200000 (milissegundos, equivalente a 3 dias).
+
+`dateDiff(now(), toDateTime('2024-12-25T00:00:00Z'))`
+
+Retorna o número de milissegundos entre hoje e 25 de dezembro de 2024.
+
+`dateDiff(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate}, toDateOnly('2023-01-01'))`
+
+Retorna o número de dias entre o campo `birthDate` do perfil e 1º de janeiro de 2023, supondo que `birthDate` seja digitado como `dateOnly`.
 
 +++
 
@@ -396,7 +458,7 @@ Retorna dateTime.
 
 `now()`
 
-Retorna 2023-06-03T06:30Z.
+Retorna 06/2023 T06:30Z.
 
 `toString(now())`
 
@@ -494,7 +556,7 @@ Retorna 2023-12-12T04:11:00Z.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Retorna amanhã às 20h00, sendo XY os minutos no momento da avaliação de hora atual. :XYSe a avaliação ocorrer às 2:45 AM, a hora retornada será 20:45 PM.
+Retorna amanhã às 20h00, sendo XY os minutos no momento da avaliação de hora atual. :XYSe a avaliação ocorrer às 2h45, o horário retornado será às 20h45.
 
 +++
 
@@ -569,7 +631,7 @@ Retorna um datetime.
 
 `updateTimeZone( toDateTime("2023-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 
-Retorna 28/08/2023:15:30.123+02:00.
+Retorna 28T17:15:30.123+02:00.
 
 `updateTimeZone(@event{MyExpEvent.timestamp}, "Australia/Sydney")`
 
@@ -588,12 +650,14 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Intenções:**
 * Obter o datetime atual (com fuso horário opcional) usando `now` ou `nowWithDelta`
 * Recuperar a hora atual como um inteiro da época usando `currentTimeInMillis`
+* Calcular a diferença entre duas datas ou datas-horas usando `dateDiff`
 * Verifique se um datetime está nos últimos N dias, horas, meses ou anos usando `inLastDays`, `inLastHours`, `inLastMonths`, `inLastYears`
 * Verifique se um datetime está nos próximos N dias, horas, meses ou anos usando `inNextDays`, `inNextHours`, `inNextMonths`, `inNextYears`
 * Forçar uma hora ou dia específico do mês em um valor datetime usando `setHours` ou `setDays`
 * Converta um datetime em um fuso horário diferente, preservando o mesmo instante usando `updateTimeZone`
 
 **Glossário:**
+* **dateOnly**: um valor de data sem informações de hora ou fuso horário *(específico do produto)*
 * **dateTime**: um valor date-time que inclui informações de deslocamento de fuso horário *(específico do produto)*
 * **dateTimeOnly**: um valor date-time sem informações de fuso horário *(específico do produto)*
 * **milissegundos da época**: um número inteiro que representa o número de milissegundos decorridos desde 1970-01-01T00:00:00Z
@@ -603,6 +667,9 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * `now()` está disponível somente em expressões jornada; para personalização de email, use `getCurrentZonedDateTime()`
 * A ID do fuso horário em `nowWithDelta` deve ser uma constante de cadeia de caracteres — não há suporte para referências de campo e expressões dinâmicas
 * A ID do fuso horário em `updateTimeZone` deve ser uma constante de cadeia de caracteres
+* `dateDiff` exige que ambos os parâmetros sejam do mesmo tipo de dados (`dateOnly`, `dateTimeOnly` ou `dateTime`); não há suporte para tipos mistos
+* `dateDiff` retorna `null` se um dos parâmetros for `null`
+* `dateDiff` retorna dias para `dateOnly` parâmetros, mas milissegundos (não dias) para `dateTimeOnly` e `dateTime` parâmetros — converta adequadamente ao comparar resultados entre tipos
 
 **Terminologia:**
 * Nome canônico: Funções de data — Acrônimo: none — variantes: funções de data e hora, funções temporais
@@ -610,6 +677,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Não confunda: &quot;inLastDays&quot; (retroage no tempo) ≠ &quot;inNextDays&quot; (retroage no tempo)
 * Não confunda: &quot;setHours&quot; (substitui o componente de hora) ≠ &quot;nowWithDelta&quot; (desloca a hora atual)
 * Não confunda: &quot;updateTimeZone&quot; (mesmo instante, representação de fuso horário diferente) ≠ &quot;setHours&quot; (altera o valor de tempo em si)
+* Não confunda: o `dateDiff` do editor de expressão de jornada (aceita `dateOnly`, `dateTimeOnly` ou `dateTime`; retorna dias ou milissegundos dependendo do tipo) ≠ o `dateDiff` do editor de personalização (aceita apenas `dateTime`; sempre retorna dias)
 
 **Perguntas frequentes:**
 * **P: Posso usar `now()` no conteúdo de personalização de email?** — Não, `now()` está disponível somente em expressões de jornada. Use `getCurrentZonedDateTime()` para personalização de email.

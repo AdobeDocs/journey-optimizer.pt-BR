@@ -7,14 +7,13 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta público" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: cb6528939b2f0a698058a04e09aeabce1e834204
 workflow-type: tm+mt
-source-wordcount: 1132
-ht-degree: 2%
+source-wordcount: 1117
+ht-degree: 1%
 
 ---
 
@@ -26,9 +25,7 @@ ht-degree: 2%
 >title="Gerar expressões com IA"
 >abstract="Use a IA para criar e gerar expressões diretamente no editor de expressão avançado do Jornada. Por exemplo, em condições, atividades de **Otimização** ou atividades de **Espera** que usam uma data personalizada. Quando você descreve o que precisa em linguagem simples, a IA gera a expressão correspondente para você."
 
->[!AVAILABILITY]
->
->Este recurso está atualmente em **beta público**. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o [ciclo de lançamento do Journey Optimizer](../../rn/releases.md).
+>[!IMPORTANT]
 >
 >Antes de usar esse recurso, leia as [Medidas de proteção e limitações](../../content-management/gs-generative.md#generative-guardrails) relacionadas que se aplicam aos recursos de IA gerativa no Journey Optimizer.
 
@@ -91,6 +88,12 @@ Quando uma atividade **[!UICONTROL Wait]** usa uma data personalizada, você def
 * *&quot;nó de espera: daqui a 30 dias às 22h como somente data e hora&quot;*
 * *&quot;aguarde até as 9h de hoje no fuso horário UTC, retorne somente como data e hora&quot;*
 
+### Prompts de associação de público {#example-prompts-audience}
+
+Descreva a verificação de associação de público que você deseja fazer em linguagem simples. Por exemplo:
+
+* *&quot;verifique se o perfil está no público-alvo da Gold Loyalty&quot;*
+
 ## Recursos relacionados {#related}
 
 * [Trabalhar com o editor de expressão avançado](expressionadvanced.md) — Visão geral da interface do editor de expressão e sintaxe com suporte.
@@ -110,6 +113,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * Aplique uma expressão gerada diretamente no editor de expressão avançado com o botão Aplicar
 * Use a geração de expressão baseada em IA dentro de Atividades de otimização, Atividades de condição e Atividades de espera com data personalizada
 * Forneça exemplos de solicitações para condições baseadas em eventos e `dateTimeOnly` expressões de espera
+* Verifique a associação do público-alvo usando um prompt de idioma natural, como perguntar se um perfil está no público-alvo do Gold Loyalty
 * Solucionar problemas de geração com falha, revisando os prompts para fazer referência a nomes de campos e fontes de dados válidos
 
 **Glossário:**
@@ -121,7 +125,6 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 
 **Medidas de Proteção:**
 
-* Gerar expressões com IA está atualmente em **beta público** — a disponibilidade e o comportamento podem mudar
 * As medidas de proteção e limitações da IA geradora da documentação principal do Gerar conteúdo se aplicam a esse recurso
 * Se o assistente referenciar campos que não estão presentes nas fontes de dados da sua jornada, retornará um erro: revise o prompt para usar os nomes de campo disponíveis
 * A sintaxe de expressão gerada exata depende dos campos e atividades configurados em sua jornada específica
@@ -138,6 +141,4 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 * **P: O que acontece se a IA não puder gerar uma expressão válida?** — Uma mensagem de erro é exibida; você deve revisar seu prompt para usar nomes de campos e fontes de dados existentes na configuração do jornada.
 * **P: Como inserir uma expressão gerada no editor?** — Clique no botão **Aplicar** no painel assistente para inseri-lo diretamente na posição atual do cursor no editor de expressão avançado.
 * **P: A Geração de expressões com IA pode criar `dateTimeOnly` expressões para atividades de Espera?** — Sim; por exemplo, solicitar &quot;daqui a 30 dias às 22h como somente data e hora&quot; gera a expressão `dateTimeOnly` apropriada.
-* **P: Gerar expressões com IA está disponível?** — Não; atualmente está em beta público. Verifique a página do ciclo de lançamento do Journey Optimizer para obter atualizações de disponibilidade.
-
 +++
