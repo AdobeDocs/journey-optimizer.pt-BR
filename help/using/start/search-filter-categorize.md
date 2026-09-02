@@ -9,23 +9,16 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 TQID: https://experienceleague.adobe.com/ViOHdq6ypY2xbYrPrEsYKF4-5CyQV9izbtzhGGOzsF0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 837
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +34,7 @@ ht-degree: 90%
 
 ## Pesquisa {#unified-search}
 
-Na interface do Adobe Journey Optimizer, use o recurso de pesquisa unificada do [!DNL Adobe CX Enterprise] no centro da barra superior para localizar ativos, jornadas, conjuntos de dados e muito mais em suas sandboxes.
+Na interface do Adobe Journey Optimizer, use o recurso de pesquisa unificada do [!DNL Adobe CX Enterprise] na parte central da barra superior para encontrar ativos, jornadas, conjuntos de dados e muito mais nas sandboxes.
 
 Comece a inserir conteúdo para exibir os principais resultados. Artigos de ajuda sobre as palavras-chave inseridas também são exibidos nos resultados.
 
@@ -69,7 +62,7 @@ Nas listas, é possível executar ações básicas em cada elemento. Por exemplo
 
 ## Ações em massa {#bulk-actions}
 
-Nas listas **Campanhas**, **Fragmentos**, **Jornadas** e **Modelos**, é possível selecionar vários itens de uma só vez usando as caixas de seleção e aplicar operações a todos eles a partir de uma barra de ação em massa que aparece na parte inferior da tela.
+Nas listas **Campanhas**, **Fragmentos**, **Jornadas** e **Modelos**, é possível selecionar vários itens de uma vez usando as caixas de seleção e aplicar operações a todos eles por meio de uma barra de ação em massa que aparece na parte inferior da tela.
 
 As operações a seguir estão disponíveis:
 
@@ -82,7 +75,7 @@ As operações a seguir estão disponíveis:
 
 >[!NOTE]
 >
->O Jornada também oferece suporte a **[!UICONTROL Pausar]** e **[!UICONTROL Retomar]** em massa. [Saiba mais →](../building-journeys/journey-ui.md#bulk-operations)
+>As jornadas também oferecem suporte a **[!UICONTROL Pausa]** e **[!UICONTROL Retomada]** em massa. [Saiba mais →](../building-journeys/journey-ui.md#bulk-operations)
 
 ![](assets/bulk-actions-fragments.png)
 

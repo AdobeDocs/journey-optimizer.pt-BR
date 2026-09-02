@@ -6,9 +6,9 @@ description: Solução de problemas
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Acesse os principais relatórios para monitorar o desempenho da jornada, analisa
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Acessar e assinar alertas do sistema
 
@@ -71,7 +71,7 @@ Entenda códigos de erro comuns no Adobe Journey Optimizer e encontre resoluçõ
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Solução de problemas de erros do Jornada
+Solução de problemas de erros de jornada
 
 Identifique e resolva erros em toda a jornada e problemas de atividade, e defina ações substitutas para garantir testes e publicações fluidos.
 
@@ -79,9 +79,9 @@ Identifique e resolva erros em toda a jornada e problemas de atividade, e defina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Solução de problemas de execução da Jornada
+Solução de problemas de execução da jornada
 
 Diagnostique problemas de validação de eventos, entrada de perfil, navegação da jornada e entrega de mensagens durante a execução em tempo real.
 
@@ -99,7 +99,7 @@ Depure problemas de ação de entrada, como conteúdo ausente ou entrega contín
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Solução de problemas de ações personalizadas
 
@@ -109,13 +109,13 @@ Valide e depure ações personalizadas com o recurso **Enviar solicitação de t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Solução de problemas de atividades ativas
 
-Diagnostique por que as atividades Live não aparecem, atualizam ou encerram, cobrindo token de perfil, configuração de campanha, carga e problemas de entrega para casos de uso unitários e de transmissão.
+Investigue por que as atividades ativas não aparecem, não são atualizadas ou não são encerradas, abordando questões relacionadas a tokens de perfil, configuração de campanha, conteúdo e entrega, tanto para casos de uso individuais quanto de transmissão.
 
-[Corrigir problemas de atividade ao vivo](../using/mobile-live/troubleshoot-mobile-live.md)
+[Corrigir problemas de atividade ativas](../using/mobile-live/troubleshoot-mobile-live.md)
 :::
 
 :::
@@ -123,7 +123,7 @@ Diagnostique por que as atividades Live não aparecem, atualizam ou encerram, co
 
 Solução de problemas de fragmentos de conteúdo do AEM
 
-Revise as principais considerações e problemas comuns ao trabalhar com Fragmentos de conteúdo do Adobe Experience Manager no Journey Optimizer, incluindo tipos de fragmento, acesso ao repositório e personalização.
+Revise as principais considerações e problemas comuns ao trabalhar com fragmentos de conteúdo do Adobe Experience Manager no Journey Optimizer, incluindo tipos de fragmento, acesso ao repositório e personalização.
 
 [Resolver problemas do fragmento de conteúdo](../using/integrations/aem-fragments-limitations.md)
 :::
@@ -150,14 +150,14 @@ Saiba o que incluir ao entrar em contato com o suporte da Adobe — detalhes do 
 
 ### Campanhas
 
-* [Solução de problemas de ativação de campanha](../using/campaigns/trigger-campaigns.md#troubleshooting) - Resolva problemas comuns encontrados ao revisar e ativar campanhas.
+* [Solução de problemas de ativação de campanha](../using/campaigns/trigger-campaigns.md#troubleshooting): resolva problemas comuns encontrados ao revisar e ativar campanhas.
 
 ### Canais e integrações
 
-* [Solução de problemas de configuração do canal do WhatsApp](../using/whatsapp/whatsapp-configuration.md#troubleshooting) - Diagnosticar e corrigir problemas comuns de configuração ao configurar o canal do WhatsApp.
+* [Solução de problemas de configuração do canal do WhatsApp](../using/whatsapp/whatsapp-configuration.md#troubleshooting): faça o diagnóstico e corrija problemas comuns de configuração ao definir o canal do WhatsApp.
 
-* [Perguntas frequentes sobre solução de problemas de integrações](../using/integrations/vendor-integration-faq.md#troubleshooting) - Encontre respostas para falhas comuns de conexão e de conexão de teste para integrações de terceiros.
+* [Perguntas frequentes sobre a solução de problemas de integrações](../using/integrations/vendor-integration-faq.md#troubleshooting): encontre respostas para falhas comuns de conexão e de conexão de teste para integrações de terceiros.
 
 ### Configuração
 
-* [Solução de problemas de delegação de subdomínio personalizado](../using/configuration/delegate-custom-subdomain.md#check-list) - Trabalhe com uma lista de verificação para resolver problemas ao enviar um subdomínio personalizado.
+* [Solução de problemas de delegação de subdomínio personalizado](../using/configuration/delegate-custom-subdomain.md#check-list): trabalhe com uma lista de verificação para resolver problemas ao enviar um subdomínio personalizado.

@@ -10,30 +10,16 @@ level: Beginner, Intermediate
 keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 33c1b3dc43472224da63ea2075ee9cbbc0489f17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1325
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -85,11 +71,11 @@ Após criar um email, é possível começar a projetar o conteúdo de email.
 
    ![](assets/email_designer_create_options.png)
 
-1. Depois que o conteúdo de email for definido e personalizado, você poderá verificar seu conteúdo de email com as **verificações automatizadas de conteúdo** para capturar problemas de HTML e CSS — como tags não compatíveis, divs vazias e violações de limite de tamanho — diretamente no painel de criação, antes de enviar. [Saiba mais](content-check.md)
+1. Depois que o conteúdo de email é definido e personalizado, você pode verificar seu conteúdo de email com as **verificações automatizadas de conteúdo** para capturar problemas de HTML e CSS — como tags não compatíveis, divs vazias e violações de limite de tamanho — diretamente no painel de criação, antes de enviar. [Saiba mais](content-check.md)
 
    >[!NOTE]
    >
-   >O sistema também verifica as principais configurações conforme você cria e exibe alertas de avisos (recomendações e práticas recomendadas) e erros (bloqueando problemas que impedem teste ou ativação). [Saiba mais sobre alertas de email](create-email.md#check-email-alerts)
+   >O sistema também verifica configurações importantes durante o processo de criação e exibe alertas para avisos (recomendações e práticas recomendadas) e erros (problemas impeditivos que inviabilizam testes ou a ativação). [Saiba mais sobre alertas por email](create-email.md#check-email-alerts)
 
    ![Painel de verificação de conteúdo no Designer de email com problemas](assets/content-check.png)
 
@@ -97,7 +83,7 @@ Após criar um email, é possível começar a projetar o conteúdo de email.
 
    ![](../content-management/assets/brand-score-7.png)
 
-1. Por fim, você pode exportar seu conteúdo para validação ou para uso posterior. Clique em **[!UICONTROL Exportar HTML]** para salvar em seu computador um arquivo zip que contém o HTML e os ativos.
+1. Finalmente, você pode exportar seu conteúdo para validação ou uso posterior. Clique em **[!UICONTROL Exportar HTML]** para salvar em seu computador um arquivo zip que contém o HTML e os ativos.
 
    ![](assets/email_designer_export.png)
 
@@ -129,9 +115,9 @@ Mesmo emails bem estruturados podem ser renderizados de forma diferente dependen
 
 ### Limitações do navegador web para dispositivos móveis {#mobile-web-limitations}
 
-A renderização de email pode ser diferente quando os destinatários abrem o Gmail ou o Outlook **por meio de um navegador da Web móvel** (por exemplo, Chrome em um telefone), em vez de usar um aplicativo móvel nativo ou cliente de desktop. Essa é uma limitação conhecida dos ambientes de webmail móvel e não é específica do Journey Optimizer.
+A renderização de email pode ser diferente quando os destinatários abrem o Gmail ou o Outlook **por meio de um navegador da web móvel** (por exemplo, Chrome em um telefone), em vez de usar um aplicativo móvel nativo ou cliente de desktop. Essa é uma limitação conhecida dos ambientes de webmail móvel e não é específica do Journey Optimizer.
 
-Essa diferença de renderização vem de como os clientes de webmail se comportam dentro de um navegador móvel. O navegador renderiza a interface do usuário do webmail de desktop completa primeiro, colocando o email em duas camadas, além do alcance de qualquer CSS responsivo ou consulta de mídia. O Gmail Web também desmonta blocos CSS `<style>` e envolve conteúdo de email em seu próprio `<div>`, o que pode substituir seus estilos e criar conflitos de alinhamento.
+Essa diferença de renderização vem de como os clientes de webmail se comportam dentro de um navegador móvel. O navegador renderiza a interface do webmail de desktop completa primeiro, colocando o email em duas camadas, além do alcance de qualquer CSS responsivo ou consulta de mídia. O Gmail Web também desmonta blocos CSS `<style>` e envolve conteúdo de email em seu próprio `<div>`, o que pode substituir seus estilos e criar conflitos de alinhamento.
 
 Os sintomas típicos incluem deslocamento de alinhamento de texto (texto alinhado à esquerda que aparece centralizado), linhas separadoras brancas extras entre seções de conteúdo e um layout geral que difere do design do modelo.
 
@@ -147,14 +133,14 @@ Esses problemas só ocorrem no Gmail Web e no Outlook Web quando acessados por u
 
 ### Considerações de renderização do Outlook {#outlook-tips}
 
-O Outlook tem vários caprichos de renderização que podem afetar seu layout de email se não forem considerados durante o design. Para ajudar a garantir que seus emails sejam renderizados corretamente no Outlook, siga estas práticas recomendadas:
+O Outlook apresenta várias peculiaridades de renderização que podem afetar o layout do email se não forem levadas em conta durante o design. Para ajudar a garantir que seus emails sejam renderizados corretamente no Outlook, siga estas práticas recomendadas:
 
 * Use números pares para preenchimento, tamanhos de fonte e larguras. O Outlook converte pixels em pontos internamente, o que pode introduzir espaçamento desigual e linhas brancas indesejadas quando números ímpares são usados.
-* Defina as larguras da tabela em pixels, não em porcentagens. Larguras baseadas em porcentagem podem quebrar o layout no Outlook. Aplique valores de largura diretamente no atributo style de cada tabela.
+* Defina as larguras da tabela em pixels, não em porcentagens. Larguras baseadas em porcentagem podem quebrar o layout no Outlook. Aplique valores de largura diretamente no atributo de estilo de cada tabela.
 * Sempre defina larguras de imagem usando o atributo `width`. O Outlook ignora as propriedades de CSS `width` e `height` nas imagens e retorna às dimensões nativas do arquivo se nenhum atributo HTML estiver presente.
 * Incluir texto alternativo em todas as imagens. Isso evita problemas de exibição e segurança quando imagens são bloqueadas.
 * Aplique bordas às células da tabela, não ao próprio elemento da tabela. Se uma borda não estiver renderizando como esperado, mova-a de `<table>` para `<td>`.
-* Evite cantos arredondados. O CSS `border-radius` não tem suporte confiável no Outlook — cantos quadrados são o padrão seguro.
+* Evite cantos arredondados. O CSS `border-radius` não tem suporte confiável no Outlook: cantos quadrados são o padrão seguro.
 
 Para considerações sobre design no modo escuro, incluindo como usar consultas de mídia e técnicas de troca de imagem específicas do Outlook.com, consulte [esta página](dark-mode.md).
 
@@ -162,8 +148,8 @@ Para considerações sobre design no modo escuro, incluindo como usar consultas 
 
 Saiba como criar conteúdo de email com o editor de mensagens.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417587?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Saiba como configurar experimentos de conteúdo para testes A/B e explorar o conteúdo de email que melhor impulsiona seus objetivos de negócios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447336?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

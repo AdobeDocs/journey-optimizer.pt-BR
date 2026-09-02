@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 6911
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -639,7 +635,7 @@ Essa versão traz as melhorias listadas abaixo.
 
 **Jornadas**
 
-* Na atividade **Condição**, por padrão, a **[!UICONTROL Condição de tempo]** agora é definida por hora, das 00:00 às 12:00. [Leia mais](../building-journeys/conditions.md#time_condition)
+* Na atividade **Condição**, por padrão, a **[!UICONTROL Condição de tempo]** agora é definida por hora, das 0h às 12h. [Leia mais](../building-journeys/conditions.md#time_condition)
 * Ao criar as jornadas, os alertas agora são exibidos ao selecionar o botão **Alertas**, para que se alinhar a outros alertas e proporcionar uma experiência consistente aos usuários. [Leia mais](../building-journeys/troubleshooting.md#activity-errors)
 * As opções de zoom na barra de ferramentas da jornada foram aprimoradas: a porcentagem de zoom agora está visível e é possível redefinir mais facilmente o valor do zoom.
 
@@ -764,7 +760,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>O Assistente de IA é um recurso da interface do usuário que você pode usar para navegar e entender conceitos do Adobe e obter insights operacionais para seu ambiente específico. Ele está disponível em vários produtos no [!DNL Adobe CX Enterprise], incluindo o Adobe Journey Optimizer.</p>
+<p>O Assistente de IA é um recurso da interface que você pode usar para navegar e entender conceitos da Adobe e obter insights operacionais para seu ambiente específico. Ele está disponível em vários produtos do [!DNL Adobe CX Enterprise], inclusive no Adobe Journey Optimizer.</p>
 <p>Para obter mais informações, consulte a <a href="../start/ai-features.md#ai-assistant">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -1043,7 +1039,7 @@ As seguintes melhorias foram adicionadas desde a versão beta até a versão atu
 
 **Globalização**
 
-Como parte de nosso esforço contínuo para fornecer uma experiência de usuário unificada, harmonizamos a terminologia usada nos produtos e aplicativos do [!DNL Adobe CX Enterprise]. Isso afeta o termo alemão “Titel”, que é alterado para “Label” quando se refere ao nome de um objeto. As alterações serão progressivamente implementadas na interface e na documentação.
+Como parte de nosso esforço contínuo para oferecer uma experiência do usuário unificada, harmonizamos a terminologia utilizada nos produtos e aplicativos do [!DNL Adobe CX Enterprise]. Isso afeta o termo alemão “Titel”, que é alterado para “Label” quando se refere ao nome de um objeto. As alterações serão progressivamente implementadas na interface e na documentação.
 
 
 ## Versão de abril de 2024 {#apr-2024}

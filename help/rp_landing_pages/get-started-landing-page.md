@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Introdução
-description: Comece aqui — tudo o que você precisa para começar a usar o Adobe Journey Optimizer.
+description: 'Comece aqui: tudo o que você precisa para começar a usar o Adobe Journey Optimizer.'
 role: User, Admin, Developer
 level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
 source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Introdução ao Adobe Journey Optimizer{#get-started}
 
-Se você é novo no Journey Optimizer ou retorna para explorar um novo recurso, esta página é o seu ponto de partida. Escolha o caminho que se adapta à sua função e objetivo.
+Se você é novo no Journey Optimizer ou está retornando para explorar um novo recurso, esta página é o seu ponto de partida. Escolha o caminho que se adapta à sua função e meta.
 
-## Novo no Journey Optimizer? {#essentials}
+## É novo(a) no Journey Optimizer? {#essentials}
 
 Saiba mais sobre os fundamentos do Adobe Journey Optimizer e como ele permite uma personalização orientada por dados em grande escala.
 
@@ -71,7 +71,7 @@ Comece com uma orientação específica para função personalizada de acordo co
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 Para profissionais de marketing
 
@@ -114,24 +114,24 @@ Integre aplicativos móveis, implemente SDKs da web, configure eventos e crie in
 
 [Ver todas as funções e responsabilidades →](../using/start/quick-start.md)
 
-## Explore casos de uso {#explore-use-cases}
+## Explorar casos de uso {#explore-use-cases}
 
-Não tem certeza de onde começar? Encontre a capacidade que corresponde à sua meta.
+Não tem certeza por onde começar? Encontre o recurso que corresponda à sua meta.
 
 :::: landing-cards-container
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Encontre a capacidade certa para sua meta
+Encontre o recurso certo para a sua meta
 
 Navegue por casos de uso por meta comercial e vá para o recurso recomendado do Journey Optimizer.
 
-[Explore casos de uso](../using/start/ajo-use-case-guide.md)
+[Explorar casos de uso](../using/start/ajo-use-case-guide.md)
 :::
 
 ::::
 
-## Já integrado? {#already-onboarded}
+## Já foi integrado? {#already-onboarded}
 
 Pule direto para as áreas onde você faz seu trabalho diário.
 
@@ -163,7 +163,7 @@ Gerenciamento de conteúdo
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Relatório
+Relatórios
 
 [Monitore o desempenho com relatórios em tempo real](../using/reports/live-report.md)
 :::
@@ -221,7 +221,7 @@ Encontre respostas para perguntas frequentes e soluções para problemas comuns 
 * **[Manuais de estratégia de caso de uso](../using/start/ai-features.md#playbooks)**: fluxos de trabalho pré-criados para cenários comuns, como recuperação de carrinho abandonado e campanhas de boas-vindas
 * **[Monitoramento e solução de problemas](troubleshoot-journey-landing-page.md)** - Ferramentas para monitorar o desempenho, identificar problemas e resolvê-los rapidamente
 * **[Novidades](../using/rn/release-notes.md)** - atualize-se com os recursos, melhorias e correções mais recentes
-* **[Fórum da comunidade](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}** - Conecte-se com outros usuários, faça perguntas e compartilhe práticas recomendadas
+* **[Fórum da comunidade](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - Conecte-se com outros usuários, faça perguntas e compartilhe práticas recomendadas
 * **[Atualizações da documentação](../using/rn/documentation-updates.md)** - Informe-se sobre as alterações e adições recentes à documentação
 
 ## Links rápidos {#quick-links}
@@ -243,4 +243,4 @@ Comece a criar imediatamente com estes guias essenciais:
 
 ## Procurando a sequência de implementação?
 
-Se sua equipe estiver configurando o Journey Optimizer pela primeira vez, consulte [Funções e responsabilidades](../using/start/quick-start.md) para obter a ordem recomendada de operações em todas as funções.
+Se a sua equipe estiver configurando o Journey Optimizer pela primeira vez, consulte [Funções e responsabilidades](../using/start/quick-start.md) para ver a ordem de operações recomendada para todas as funções.
