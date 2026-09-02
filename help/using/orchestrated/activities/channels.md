@@ -6,19 +6,14 @@ description: Saiba como adicionar uma atividade de canal a uma campanha em vári
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
 workflow-type: tm+mt
 source-wordcount: 2370
-ht-degree: 31%
+ht-degree: 37%
 
 ---
 
@@ -48,7 +43,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
 >title="Target"
->abstract="A seção **[!UICONTROL Target]** define o destino da entrega para esta atividade de canal. Use **[!UICONTROL Dimensão de destino]** para selecionar qual dimensão de destino se aplica a este envio. Em seguida, escolha **[!UICONTROL Uma mensagem por perfil]** para enviar uma única mensagem por pessoa ou **[!UICONTROL Uma mensagem por dimensão secundária]** para enviar uma mensagem por dimensão secundária qualificada — por exemplo, um email por voo quando a mesma viajante tem vários voos correspondentes."
+>abstract="A seção **[!UICONTROL Destino]** define o destino da entrega para esta atividade de canal. Use **[!UICONTROL Dimensão de destino]** para selecionar qual dimensão de destino se aplica a este envio. Em seguida, escolha **[!UICONTROL Uma mensagem por perfil]** para enviar uma única mensagem por pessoa ou **[!UICONTROL Uma mensagem por dimensão secundária]** para enviar uma mensagem por dimensão secundária qualificada — por exemplo, um email por voo quando a mesma viajante tem vários voos correspondentes."
 
 
 >[!CONTEXTUALHELP]
@@ -78,8 +73,8 @@ UNUSED IDs in BJ
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_custom"
->title="Atividade de canal personalizada"
->abstract="A atividade Canal personalizado permite enviar mensagens por meio de sistemas de terceiros ou integrações personalizadas dentro da sua campanha orquestrada. Ele permite acionar processos de delivery externos — como plataformas de parceiros ou ferramentas de mensagens proprietárias — exportando dados do público-alvo para um sistema externo. Você pode combinar atividades de canal personalizadas com outras atividades de canal na tela de campanha para criar campanhas entre canais que envolvem clientes em pontos de contato nativos e personalizados."
+>title="Atividade de canal personalizado"
+>abstract="A atividade de Canal personalizado permite enviar mensagens por meio de sistemas de terceiros ou integrações personalizadas na sua campanha orquestrada. Ela permite acionar processos de entrega externos — como plataformas de parceiros ou ferramentas de mensagens proprietárias — exportando dados de públicos-alvo para um sistema externo. Você pode combinar atividades de canal personalizado com outras atividades de canal na tela da campanha para criar campanhas entre canais que envolvam clientes em pontos de contato nativos e personalizados."
 
 O [!DNL Adobe Journey Optimizer] permite automatizar e executar campanhas em canais (email, SMS, notificações por push, correspondência direta e personalizado) para mensagens de marketing e transacionais. Você pode combinar essas atividades de canal na tela da campanha para criar campanhas orquestradas entre canais. Essas campanhas podem acionar ações com base no comportamento e nos dados do cliente.
 
@@ -211,7 +206,7 @@ Use a seção de **[!UICONTROL Rastreamento de ações]** para acompanhar como o
 
 O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas. A entrega rápida é usada quando o atraso na entrega da mensagem é essencial para os negócios. Por exemplo, você deseja enviar um alerta de push urgente em telefones celulares, como notícias de última hora para usuários que instalaram seu aplicativo de canal de notícias. Saiba como habilitar o modo de entrega rápida para notificações por push [nesta página](../../push/create-push.md#rapid-delivery).
 
-Para obter mais informações sobre o desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Para obter mais informações sobre o desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
