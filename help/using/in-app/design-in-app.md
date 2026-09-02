@@ -288,4 +288,4 @@ Para obter mais informações, consulte a [Documentação para desenvolvedores](
 
 O vídeo abaixo mostra como criar e testar suas mensagens no aplicativo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3502541?captions=por_br&quality=12&learn=on)

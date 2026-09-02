@@ -137,4 +137,4 @@ O gráfico abaixo resume o processo de decisão completo — desde o gerenciamen
 
 Saiba mais sobre os recursos de decisão no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475868?captions=por_br&quality=12)

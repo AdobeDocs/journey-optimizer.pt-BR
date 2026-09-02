@@ -184,5 +184,5 @@ Para obter a autenticação e os cabeçalhos necessários, consulte o [tutorial 
 
 **Novo nos Desafios de Fidelidade?** Assista a esta visão geral para entender os recursos e benefícios:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496455?captions=por_br&quality=12)
 
