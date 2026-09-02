@@ -20,7 +20,7 @@ O recurso Gerar conteúdo do Adobe Journey Optimizer revoluciona a criação de 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Introdução ao recurso Gerar conteúdo
 
@@ -30,7 +30,7 @@ Saiba como acessar e configurar o recurso Gerar conteúdo para aprimorar a cria�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
 
 Gerar conteúdo integral
 
@@ -40,7 +40,7 @@ Saiba como usar IA para criar conteúdo integral, incluindo texto e imagens para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=pt-BR)
 
 Gerar somente texto
 
@@ -50,7 +50,7 @@ Use IA para gerar e refinar conteúdo de texto para todos os canais, incluindo e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=pt-BR)
 
 Gerar somente imagens
 
