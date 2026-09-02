@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondas, lotes, programação, jornada, campanha, orquestrado, entregabilidade
-source-git-commit: 33625f5141457414cddd51758412789849954104
+source-git-commit: e8403fd5a4f9a6058a73fa64a97602e22a3fe12d
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2271'
 ht-degree: 1%
 
 ---
@@ -47,9 +47,10 @@ Restrições adicionais específicas do contexto se aplicam:
 
 >[!TAB Ler jornadas de público-alvo]
 
-* O envio de onda só está disponível para jornadas de público-alvo de leitura com os tipos de agendador **[!DNL As soon as possible]** e **[!UICONTROL Once]**. [Saiba mais sobre o agendamento de jornadas](../building-journeys/read-audience.md#schedule).
+* O envio de onda só está disponível para jornadas de público-alvo de leitura com os tipos de agendador **[!DNL As soon as possible]** e **[!UICONTROL Once]**. [Saiba mais sobre o agendamento de jornadas](../building-journeys/read-audience.md#schedule)
 * O envio de onda não está disponível para jornadas recorrentes, acionadas por eventos, de negócios, de testes ou de simulação.
 * Um início de onda não pode ser anterior ao início da jornada.
+* A última onda deve ser agendada em **6 dias e 18 horas** do início da jornada. O agendamento da última onda além dessa janela aciona um erro de validação e impede que a jornada entre no modo de teste ou entre em funcionamento.
 * A divisão do público em ondas pode levar até 1 hora. Os perfis não podem entrar na jornada até que a divisão seja concluída.
 * Em uma única versão do jornada, duas ondas nunca são executadas ao mesmo tempo. A próxima onda começa somente após a conclusão da onda anterior. Por exemplo, se as ondas forem agendadas com 1 hora de diferença, mas a primeira onda ocorrer por 2 horas, a segunda onda começará quando a primeira terminar, não no horário agendado originalmente.
 * Os inícios de onda podem ser atrasados quando a plataforma aplicar limites de cota ou quando a capacidade do sistema estiver sob carga pesada.
@@ -278,6 +279,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **medidas de proteção específicas da Jornada:**
 
 * O início da onda não pode ser anterior ao início da jornada
+* A última onda deve ser agendada dentro de 6 dias e 18 horas do início da jornada; exceder esse limite aciona um erro de validação
 * A divisão de público pode levar até 1 hora; os perfis podem ser atrasados
 * Duas ondas nunca são executadas simultaneamente na mesma versão do jornada
 * Os inícios de onda podem ser atrasados pelos limites de cota da plataforma ou pela carga pesada do sistema

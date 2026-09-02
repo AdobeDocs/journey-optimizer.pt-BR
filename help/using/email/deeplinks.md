@@ -88,12 +88,12 @@ Para poder usar deep links em emails e SMS para seus aplicativos móveis, conclu
 1. Hospede o arquivo AASA para o iOS e o arquivo assetLinks.json para o Android no subdomínio. Entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} ou com o representante da Adobe com os detalhes abaixo:
 
    * **Para o iOS (AASA)**:
-      * Subdomínio delegado
-      * ID do pacote do aplicativo
+     * Subdomínio delegado
+     * ID do pacote do aplicativo
    * **Para o Android (assetLinks.json)**:
-      * Subdomínio delegado
-      * ID do pacote do aplicativo
-      * Impressão digital do certificado SHA-256
+     * Subdomínio delegado
+     * ID do pacote do aplicativo
+     * Impressão digital do certificado SHA-256
 
 >[!IMPORTANT]
 >
@@ -322,9 +322,9 @@ Valores de parâmetro de consulta codificados por URL. Isso reduz os problemas d
 
 * Crie uma prova com um deep link, clique nela em dispositivos iOS e Android (cenários instalados e não instalados).
 * Validar:
-   * O valor final do email ou link de SMS (host/caminho/query)
-   * A associação no nível do sistema operacional (se estiver usando links universais/links de aplicativos)
-   * O resultado do roteamento no aplicativo
+  * O valor final do email ou link de SMS (host/caminho/query)
+  * A associação no nível do sistema operacional (se estiver usando links universais/links de aplicativos)
+  * O resultado do roteamento no aplicativo
 
 +++
 

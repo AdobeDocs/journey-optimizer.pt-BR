@@ -6,7 +6,7 @@ description: Validar a precisão da mensagem antes do lançamento. Visualize o c
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Garanta a entrega perfeita de mensagens, detectando os erros antes que cheguem a
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Saiba como visualizar e testar o conteúdo
 
@@ -38,7 +38,7 @@ Saiba como usar perfis de teste e dados de entrada de amostra para visualizar e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Como selecionar perfis de teste
 
@@ -48,7 +48,7 @@ Descubra como selecionar e gerenciar perfis de teste para visualizar e testar o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Visualizar o conteúdo usando perfis de teste
 
@@ -58,7 +58,7 @@ Guia passo a passo para visualizar conteúdo personalizado usando perfis de test
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Enviar provas usando dados de perfil de teste
 
@@ -68,7 +68,7 @@ Teste e valide suas mensagens de email enviando provas usando os dados do perfil
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 Como testar a renderização de email com o Litmus
 
@@ -78,7 +78,7 @@ Integre o Litmus para pré-visualizar a renderização de email em clientes de e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Como simular e testar variações de conteúdo
 

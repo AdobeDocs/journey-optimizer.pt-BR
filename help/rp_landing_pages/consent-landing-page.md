@@ -6,7 +6,7 @@ description: Gerenciar consentimento
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Você pode lidar com o consentimento de três maneiras: **preferências de recus
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gerenciar recusas e consentimento de personalização
 
@@ -32,7 +32,7 @@ Saiba como gerenciar as preferências de recusa e aplicar o consentimento de per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Trabalhar com políticas de consentimento
 
@@ -42,7 +42,7 @@ Entenda como criar e aplicar políticas de consentimento para gerenciar o uso de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Gerenciar as preferências dos clientes
 

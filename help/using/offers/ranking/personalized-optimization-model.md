@@ -9,12 +9,8 @@ role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 product_v2: []
 source-git-commit: d52c60bd4741153c42d7df9db43a5daf58ddf0d0
 workflow-type: tm+mt
@@ -152,7 +148,8 @@ Na inicialização, nenhum modelo foi treinado ainda, portanto, 100% do tráfego
 
 Para maximizar a vantagem de usar a otimização personalizada, há algumas suposições e limitações importantes a serem observadas.
 
-* **As ofertas são diferentes o suficiente para que os usuários tenham preferências diferentes entre as ofertas em consideração**. Se as ofertas forem muito semelhantes, um modelo resultante terá menos impacto, pois as respostas são aparentemente aleatórias.Por exemplo, se um banco tiver duas ofertas de cartões de crédito com a única diferença sendo a cor, pode não importar qual cartão é recomendado, mas se cada cartão tiver termos diferentes, isso fornece uma explicação para por que determinados clientes escolheriam um e forneceriam diferença suficiente entre as ofertas para criar um modelo mais impactante.
+* **As ofertas são diferentes o suficiente para que os usuários tenham preferências diferentes entre as ofertas em consideração**. Se as ofertas forem muito semelhantes, um modelo resultante terá menos impacto, pois as respostas são aparentemente aleatórias.
+Por exemplo, se um banco tiver duas ofertas de cartões de crédito com a única diferença sendo a cor, pode não importar qual cartão é recomendado, mas se cada cartão tiver termos diferentes, isso fornece uma explicação para por que determinados clientes escolheriam um e forneceriam diferença suficiente entre as ofertas para criar um modelo mais impactante.
 * **A composição do tráfego de usuário está estável**. Se a composição do tráfego do usuário mudar drasticamente durante o treinamento e a previsão do modelo, o desempenho do modelo poderá diminuir. Por exemplo, suponha que, na fase de treinamento do modelo, apenas os dados para usuários no público-alvo A estejam disponíveis, mas o modelo treinado seja usado para gerar previsões para usuários no público-alvo B, então o desempenho do modelo pode ser afetado.
 * **O desempenho das ofertas não é alterado drasticamente em um curto período**, pois esse modelo é atualizado semanalmente e as alterações no desempenho são transmitidas como as atualizações do modelo. Por exemplo, um produto era muito popular antes, mas um relatório público identifica o produto como prejudicial à nossa saúde, e esse produto se torna impopular extremamente rápido. Nesse cenário, o modelo pode continuar a prever esse produto até que o modelo seja atualizado com alterações no comportamento do usuário.
 

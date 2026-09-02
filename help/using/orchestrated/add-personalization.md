@@ -5,14 +5,9 @@ title: Adicionar personalização em campanhas orquestradas
 description: Saiba como personalizar mensagens do Orchestrated campaign usando atributos de perfil, atributos de público-alvo da tabela de trabalho e matrizes de coleção de enriquecimento.
 exl-id: c4a91e2b-6f08-4d1a-9e3b-2f8f5a0d1c62
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
 source-wordcount: 477
@@ -48,9 +43,9 @@ Quando você abre o editor de personalização, duas pastas principais contêm a
 
   Atributos calculados na tela da campanha da tabela de trabalho. Esta pasta tem duas subpastas:
 
-   * **`<Targeting dimension>`** (por exemplo, Destinatários ou Compras) — Atributos relacionados à dimensão que você direciona na campanha.
+  * **`<Targeting dimension>`** (por exemplo, Destinatários ou Compras) — Atributos relacionados à dimensão que você direciona na campanha.
 
-   * **`Enrichment`** — Dados adicionados através de atividades de **[!UICONTROL Enriquecimento]** (links relacionais, linhas coletadas, agregações). Após um enriquecimento de 1:N **[!UICONTROL Coletar dados]**, você obtém as linhas numeradas e uma matriz de coleção. [Saiba como trabalhar com dados de coleção de enriquecimento](#enrichment-collections)
+  * **`Enrichment`** — Dados adicionados através de atividades de **[!UICONTROL Enriquecimento]** (links relacionais, linhas coletadas, agregações). Após um enriquecimento de 1:N **[!UICONTROL Coletar dados]**, você obtém as linhas numeradas e uma matriz de coleção. [Saiba como trabalhar com dados de coleção de enriquecimento](#enrichment-collections)
 
 Para obter uma visão geral detalhada do editor de personalização no [!DNL Journey Optimizer], consulte [Introdução à personalização](../personalization/personalize.md).
 

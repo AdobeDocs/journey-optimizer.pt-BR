@@ -6,12 +6,9 @@ description: Saiba como criar campanhas orquestradas com o Adobe Journey Optimiz
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tQGWupMvnX9-uFruIQg1dMuXd9PZNxPDYg6RlGdK3hA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
 source-wordcount: 981
@@ -109,9 +106,9 @@ Para isso, as atividades abaixo foram adicionadas:
 * Uma atividade **[!UICONTROL Fork]** divide a campanha Orquestrada em três caminhos.
 * As atividades **[!UICONTROL Criar público-alvo]** dirigem-se aos três conjuntos de clientes:
 
-   * Clientes com um email,
-   * Clientes que fizeram uma compra de pelo menos USD 100,
-   * Clientes que têm menos de 50 pontos de fidelidade.
+  * Clientes com um email,
+  * Clientes que fizeram uma compra de pelo menos USD 100,
+  * Clientes que têm menos de 50 pontos de fidelidade.
 
 * Uma atividade **[!UICONTROL Combinar]** agrupa os clientes com email e os que fizeram uma compra de pelo menos USD 100,
 * Uma atividade **[!UICONTROL Combinar]** exclui os clientes que têm menos de 50 pontos de fidelidade,

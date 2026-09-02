@@ -6,18 +6,10 @@ description: Saiba como usar a pesquisa de Eventos de experiência no jornada
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/kVO36LmCfr9cYVq3EHRy8OpqPCZDq20mXTEA49TIRTI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1717
@@ -73,9 +65,9 @@ Para suprimir perfis que demonstraram determinados comportamentos, use públicos
 
 Saiba mais:
 
-* [!DNL Adobe Experience Platform] [Construtor de segmentos - Eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [Construtor de segmentos - Restrições de tempo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Restrições de tempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de públicos-alvo em condições](../building-journeys/conditions.md#using-a-segment)
 
@@ -92,9 +84,9 @@ Para impedir o envio de mensagens a perfis que receberam comunicações em uma j
 
 Saiba mais sobre como usar os públicos-alvo:
 
-* [!DNL Adobe Experience Platform] [Construtor de segmentos - Eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [Construtor de segmentos - Restrições de tempo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Restrições de tempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de públicos-alvo em condições](../building-journeys/conditions.md#using-a-segment)
 
@@ -114,9 +106,9 @@ Para incluir ou excluir perfis com base no fato de terem recebido uma mensagem e
 
 Saiba mais:
 
-* [!DNL Adobe Experience Platform] [Construtor de segmentos - Eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [Construtor de segmentos - Restrições de tempo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Construtor de segmentos - Restrições de tempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de públicos-alvo em condições](../building-journeys/conditions.md#using-a-segment)
 
@@ -126,8 +118,8 @@ Saiba mais:
 
 Para personalizar as comunicações com base no carrinho mais recente ou procurar eventos em vários tipos de carrinho ou exibições de produto:
 
-* Se você tiver acesso ao [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configure consultas automatizadas para extrair os dados necessários do evento, manipulá-los para se ajustarem ao caso de uso e gravá-los em um [conjunto de dados habilitado para perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} para ativação.
-* Se os dados de abandono puderem ser modelados no perfil com atributos escalares, considere usar atributos Calculados para capturar as informações mais recentes e, em seguida, fazer referência a esses atributos na jornada para criar a comunicação. [Saiba mais em [!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Se você tiver acesso ao [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configure consultas automatizadas para extrair os dados necessários do evento, manipulá-los para se ajustarem ao caso de uso e gravá-los em um [conjunto de dados habilitado para perfil](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} para ativação.
+* Se os dados de abandono puderem ser modelados no perfil com atributos escalares, considere usar atributos Calculados para capturar as informações mais recentes e, em seguida, fazer referência a esses atributos na jornada para criar a comunicação. [Saiba mais em [!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## Saída da jornada baseada em comportamento
@@ -144,7 +136,7 @@ Para acionar jornadas com base em compras e suprimir se o valor estiver acima/ab
 
 Saiba mais:
 
-* [!DNL Adobe Experience Platform] [Visão geral de atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform] [Visão geral de atributos computados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 

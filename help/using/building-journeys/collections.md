@@ -10,18 +10,11 @@ level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/zhAlHWwS8UOup7yqqVc2d0lqj4JUj5gOvz7JAwVwZPk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1382
@@ -166,43 +159,43 @@ Embora as coleções em ações personalizadas forneçam flexibilidade para tran
 
   Exemplo:
 
-   1. O exemplo a seguir ilustra um **caso de uso não suportado**.
+  1. O exemplo a seguir ilustra um **caso de uso não suportado**.
 
-      Neste exemplo, a matriz products inclui uma matriz aninhada (`locations`) com um número dinâmico de itens, para o qual não há suporte em cargas de solicitação.
+     Neste exemplo, a matriz products inclui uma matriz aninhada (`locations`) com um número dinâmico de itens, para o qual não há suporte em cargas de solicitação.
 
-      ```json
-      {
-      "products": [
-         {
-            "id": "productA",
-            "name": "A",
-            "price": 20,
-            "locations": [
-            { "name": "Paris" },
-            { "name": "London" }
-            ]
-         }
-      ]
-      }
-      ```
+     ```json
+     {
+     "products": [
+        {
+           "id": "productA",
+           "name": "A",
+           "price": 20,
+           "locations": [
+           { "name": "Paris" },
+           { "name": "London" }
+           ]
+        }
+     ]
+     }
+     ```
 
-   2. Exemplo compatível, com itens fixos definidos como constantes.
+  2. Exemplo compatível, com itens fixos definidos como constantes.
 
-      Nesse caso, os locais aninhados são substituídos por campos fixos (`location1`, `location2`), permitindo que a carga permaneça válida dentro da configuração com suporte.
+     Nesse caso, os locais aninhados são substituídos por campos fixos (`location1`, `location2`), permitindo que a carga permaneça válida dentro da configuração com suporte.
 
-      ```json
-      {
-      "products": [
-         {
-            "id": "productA",
-            "name": "A",
-            "price": 20,
-            "location1": { "name": "Paris" },
-            "location2": { "name": "London" }
-         }
-      ]
-      }
-      ```
+     ```json
+     {
+     "products": [
+        {
+           "id": "productA",
+           "name": "A",
+           "price": 20,
+           "location1": { "name": "Paris" },
+           "location2": { "name": "London" }
+        }
+     ]
+     }
+     ```
 
 
 * **Testando coleções**: para testar coleções usando o modo de teste, você deve usar o modo de exibição de código. Observe que o modo de exibição de código não é compatível com eventos comerciais, portanto, nesse caso, você só pode enviar uma coleção contendo um único elemento.

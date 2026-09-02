@@ -6,24 +6,13 @@ description: Perguntas frequentes sobre as campanhas do Journey Optimizer Orches
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
 TQID: https://experienceleague.adobe.com/25WjNcE8jmkqH2TvJnyST510xamIV-seDXTmHj0QEYs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 2785
+source-wordcount: 2786
 ht-degree: 11%
 
 ---
@@ -107,7 +96,7 @@ Para acessar a Orquestração de campanha, sua licença deve incluir o pacote **
 
 +++ O que é a segmentação de várias entidades?
 
-O Campaign Orchestration no Adobe Journey Optimizer usa um banco de dados relacional. Esse tipo de modelo de dados tem esquemas separados de dados que são conectados por meio de relações 1:1 ou 1:many. Isso permite que os usuários iniciem um query em qualquer esquema, não apenas no nível do recipient, e então virem e voltarem para outros esquemas relacionados, como compras, produtos, reservas ou detalhes do recipient, proporcionando grande flexibilidade em como segmentos e públicos-alvo podem ser criados e refinados.
+O Campaign Orchestration no Adobe Journey Optimizer usa um banco de dados relacional. Esse tipo de modelo de dados tem esquemas separados de dados que são conectados por relações 1:1 ou 1:many. Isso permite que os usuários iniciem um query em qualquer esquema, não apenas no nível do recipient, e então virem e voltarem para outros esquemas relacionados, como compras, produtos, reservas ou detalhes do recipient, proporcionando grande flexibilidade em como segmentos e públicos-alvo podem ser criados e refinados.
 
 **Exemplo** - Direcione todos os destinatários com assinaturas que vencem nos próximos 30 dias. No Campaign Orchestration, a consulta pode começar com o schema Subscriptions, pesquisar apenas a coluna Data de expiração desse esquema e retornar todas as assinaturas que estão prestes a expirar e, em seguida, acumular para os dados do recipient relacionados a essas IDs de assinaturas específicas que retornam resultados de forma mais rápida e eficiente do que os modelos de dados que começam cada consulta no nível do recipient.
 

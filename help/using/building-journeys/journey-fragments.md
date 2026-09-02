@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Fragmentos de jornada
+title: Fragmentos da jornada
 description: Saiba como criar e usar fragmentos de jornada para salvar e reutilizar conjuntos de nós de jornada em várias jornadas no Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
@@ -19,7 +19,7 @@ ht-degree: 11%
 ---
 
 
-# Fragmentos de jornada {#journey-fragments}
+# Fragmentos da jornada {#journey-fragments}
 
 >[!BEGINSHADEBOX]
 

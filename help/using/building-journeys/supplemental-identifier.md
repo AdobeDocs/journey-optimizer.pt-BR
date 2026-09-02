@@ -4,21 +4,14 @@ description: Saiba como usar identificadores complementares no jornada.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2742
-ht-degree: 1%
+source-wordcount: 2792
+ht-degree: 2%
 
 ---
 
@@ -65,8 +58,8 @@ ht-degree: 1%
 
   O comportamento de reentrada da jornada com identificadores complementares segue a política de reentrada existente:
 
-   * Se a jornada não for reentrante, a mesma ID de perfil + ID complementar não poderá entrar na jornada novamente.
-   * Se a jornada for reentrante com uma janela de tempo, a mesma combinação de ID de perfil + ID complementar poderá entrar novamente após a janela de tempo definida.
+  * Se a jornada não for reentrante, a mesma ID de perfil + ID complementar não poderá entrar na jornada novamente.
+  * Se a jornada for reentrante com uma janela de tempo, a mesma combinação de ID de perfil + ID complementar poderá entrar novamente após a janela de tempo definida.
 
 * **DULE (Rotulagem e Imposição de Uso de Dados)** - Nenhuma verificação de validação de DULE é executada na ID complementar. Isso significa que esse atributo não será considerado quando a jornada estiver procurando por violações da política de governança de dados.
 
@@ -76,10 +69,10 @@ ht-degree: 1%
 
 * **Ler jornadas de público-alvo**
 
-   * **Eventos comerciais**: a ID complementar estará desabilitada se você usar um evento comercial.
-   * **Campos de evento e contexto**: o identificador complementar não deve ser originado de um campo de contexto de jornada ou evento.
-   * **Seleção de atributo**: qualquer atributo que não seja de identidade (ou identidade que não seja de pessoa) pode ser usado como ID complementar para todos os tipos de público-alvo (Serviço de Perfil Unificado, importação de CSV e Composição de Público Federado). Atributos de identidade baseados em pessoas não são permitidos. Para públicos externos, consulte [Identificadores complementares com públicos externos](#external-audiences) para obter padrões de dados e requisitos de configuração compatíveis.
-   * **Taxa de leitura**: para jornadas de leitura de público-alvo usando um campo de ID complementar do tipo matriz, a taxa de leitura da atividade Read audience é limitada a no máximo 500 perfis por segundo.
+  * **Eventos comerciais**: a ID complementar estará desabilitada se você usar um evento comercial.
+  * **Campos de evento e contexto**: o identificador complementar não deve ser originado de um campo de contexto de jornada ou evento.
+  * **Seleção de atributo**: qualquer atributo que não seja de identidade (ou identidade que não seja de pessoa) pode ser usado como ID complementar para todos os tipos de público-alvo (Serviço de Perfil Unificado, importação de CSV e Composição de Público Federado). Atributos de identidade baseados em pessoas não são permitidos. Para públicos externos, consulte [Identificadores complementares com públicos externos](#external-audiences) para obter padrões de dados e requisitos de configuração compatíveis.
+  * **Taxa de leitura**: para jornadas de leitura de público-alvo usando um campo de ID complementar do tipo matriz, a taxa de leitura da atividade Read audience é limitada a no máximo 500 perfis por segundo.
 
 ## Comportamento dos critérios de saída com IDs complementares {#exit-criteria}
 
@@ -135,11 +128,11 @@ Para usar um identificador complementar em uma jornada Ler público, siga estas 
 
    1. No campo **[!UICONTROL Identificador complementar]**, use o editor de expressão para selecionar o atributo de identificador complementar.
 
-   Para públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR#import-audience){target="_blank"}, se o público-alvo de CSV contiver várias linhas por ID de perfil, verifique se a Ativação Expressa está habilitada primeiro. Consulte [Identificadores complementares com públicos-alvo externos](#external-audiences).
+   Para públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}, se o público-alvo de CSV contiver várias linhas por ID de perfil, verifique se a Ativação Expressa está habilitada primeiro. Consulte [Identificadores complementares com públicos-alvo externos](#external-audiences).
 
        >[!NOTE]
-       >
-       >Verifique se você está usando o editor de expressão em **[!UICONTROL Modo avançado]** para selecionar o atributo.
+     >
+     >Verifique se você está usando o editor de expressão em **[!UICONTROL Modo avançado]** para selecionar o atributo.
    
 >[!ENDTABS]
 
@@ -206,7 +199,7 @@ Entre em contato com seu representante da Adobe para obter orientação sobre o 
 
 ## Identificadores complementares com públicos externos {#external-audiences}
 
-A ID complementar é compatível com públicos externos, incluindo públicos [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR#import-audience){target="_blank"} e públicos criados com [Composição de Público Federado](../audience/get-started-audience-orchestration.md). Ao configurar uma jornada que lê de um público de composição de público-alvo CSV ou Federated Audience, você pode designar qualquer atributo que não seja de identidade nesse público-alvo como a ID complementar. Em seguida, o Journey Optimizer cria uma instância do jornada separada por perfil exclusivo + combinação de ID complementar.
+A ID complementar é compatível com públicos externos, incluindo públicos [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} e públicos criados com [Composição de Público Federado](../audience/get-started-audience-orchestration.md). Ao configurar uma jornada que lê de um público de composição de público-alvo CSV ou Federated Audience, você pode designar qualquer atributo que não seja de identidade nesse público-alvo como a ID complementar. Em seguida, o Journey Optimizer cria uma instância do jornada separada por perfil exclusivo + combinação de ID complementar.
 
 * Caso de uso 1: uma linha por perfil exclusivo + par de ID complementar
 
@@ -278,7 +271,7 @@ Corpo da solicitação (conjunto `expressActivation: true`):
 >
 >O padrão de `expressActivation` é `false`. Ele deve ser definido no momento da criação do público-alvo e não pode ser alterado após a criação. Todos os públicos-alvo da Composição de Público-Alvo Federado têm a Ativação Expressa habilitada por padrão e não exigem esse sinalizador.
 
-Consulte a [documentação da API de criação de público-alvo externo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} para obter a referência completa.
+Consulte a [documentação da API de criação de público-alvo externo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} para obter a referência completa.
 
 +++
 
@@ -307,31 +300,31 @@ Estes exemplos mostram como os identificadores complementares suportam vários r
 
 * **Cenário**: um provedor de seguro envia lembretes de renovação para cada política ativa mantida por um cliente.
 * **Execução**:
-   * Perfil: &quot;John&quot;.
-   * IDs complementares: `"AutoPolicy123", "HomePolicy456"`.
-   * O Jornada é executado separadamente para cada política, com datas de renovação personalizadas, detalhes de cobertura e informações sobre prêmios.
+  * Perfil: &quot;John&quot;.
+  * IDs complementares: `"AutoPolicy123", "HomePolicy456"`.
+  * O Jornada é executado separadamente para cada política, com datas de renovação personalizadas, detalhes de cobertura e informações sobre prêmios.
 
 ### **Gerenciamento de Assinaturas**
 
 * **Cenário**: um serviço de assinatura envia mensagens personalizadas para cada assinatura quando um evento é acionado para essa assinatura.
 * **Execução**:
-   * Perfil: &quot;Jane&quot;.
-   * IDs complementares: `"Luma Yoga Program ", "Luma Fitness Program"`.
-   * Cada evento inclui uma ID de assinatura e detalhes sobre essa assinatura. O Jornada é executado separadamente para cada evento/assinatura, permitindo ofertas de renovação personalizadas por assinatura.
+  * Perfil: &quot;Jane&quot;.
+  * IDs complementares: `"Luma Yoga Program ", "Luma Fitness Program"`.
+  * Cada evento inclui uma ID de assinatura e detalhes sobre essa assinatura. O Jornada é executado separadamente para cada evento/assinatura, permitindo ofertas de renovação personalizadas por assinatura.
 
 ### **Recomendações de produto**
 
 * **Cenário**: uma plataforma de comércio eletrônico envia recomendações com base em produtos específicos comprados por um cliente.
 * **Execução**:
-   * Perfil: &quot;Alex&quot;.
-   * IDs complementares: `"productID1234", "productID5678"`.
-   * O Jornada é executado separadamente para cada produto, com oportunidades personalizadas de venda adicional.
+  * Perfil: &quot;Alex&quot;.
+  * IDs complementares: `"productID1234", "productID5678"`.
+  * O Jornada é executado separadamente para cada produto, com oportunidades personalizadas de venda adicional.
 
 ## Vídeo tutorial {#video}
 
 Saiba como habilitar e aplicar um identificador complementar no [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464797?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
 
 +++ Referência de conhecimento de IA
 

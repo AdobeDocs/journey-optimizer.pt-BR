@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-18-34
 hide: true
 exl-id: 1085e570-10b8-4d96-912a-994979358b65
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Strings são os pilares de dados baseados em texto, e as funções de string do 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referência da função concat
 
@@ -31,7 +31,7 @@ Saiba como combinar strings ou uma lista de strings usando a função “concat�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso da função “contain”
 
@@ -41,7 +41,7 @@ Descubra como verificar a presença de uma string em outra string.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função containIgnoreCase
 
@@ -51,7 +51,7 @@ Entenda como executar verificações de contenção de string que não diferenci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referência da função endWith
 
@@ -61,7 +61,7 @@ Saiba como verificar se uma string termina com um sufixo específico.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Função endWithIgnoreCase
 
@@ -71,7 +71,7 @@ Verifique se uma string termina com um sufixo, ignorando a diferenciação entre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referência da função equalIgnoreCase
 

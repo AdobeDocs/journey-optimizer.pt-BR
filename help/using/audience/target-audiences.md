@@ -9,21 +9,12 @@ role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
 TQID: https://experienceleague.adobe.com/tcx8KXGtorgevwLUj6rnvoE1mFYESJ4VaLL2vn3aZfA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
 source-wordcount: 841
@@ -47,13 +38,13 @@ Você pode selecionar em campanhas e jornadas qualquer público gerado usando de
 
 * **Upload personalizado e composição de público-alvo federado** - Para públicos-alvo de upload personalizado e composição de público federado, observe as seguintes medidas de proteção:
 
-   * **Suporte para visualização e prova:** Atualmente, não há suporte para visualizações e provas em públicos-alvo criados por meio de carregamento CSV ou Composição de Público Federado. Lembre-se disso ao planejar suas campanhas.
+  * **Suporte para visualização e prova:** Atualmente, não há suporte para visualizações e provas em públicos-alvo criados por meio de carregamento CSV ou Composição de Público Federado. Lembre-se disso ao planejar suas campanhas.
 
-   * **Direcionamento de novos perfis:** Quando não for encontrada uma correspondência entre um registro e um perfil do Serviço de Perfil Unificado, um novo perfil vazio será criado. Este perfil está vinculado aos atributos de enriquecimento que são armazenados no data lake. Como esse novo perfil está vazio, os campos de direcionamento normalmente usados em [!DNL Journey Optimizer] (por exemplo, personalEmail.address, mobilePhone.number) estão vazios. Portanto, esses campos não podem ser usados para direcionamento.
+  * **Direcionamento de novos perfis:** Quando não for encontrada uma correspondência entre um registro e um perfil do Serviço de Perfil Unificado, um novo perfil vazio será criado. Este perfil está vinculado aos atributos de enriquecimento que são armazenados no data lake. Como esse novo perfil está vazio, os campos de direcionamento normalmente usados em [!DNL Journey Optimizer] (por exemplo, personalEmail.address, mobilePhone.number) estão vazios. Portanto, esses campos não podem ser usados para direcionamento.
 
-     Para resolver isso, você pode especificar o &quot;campo de execução&quot; (ou o &quot;endereço de execução&quot; dependendo do canal) na configuração do canal como &quot;identityMap&quot;. Isso garante que o atributo escolhido como a identidade na criação do público-alvo será aquele usado para o direcionamento em [!DNL Journey Optimizer].
+    Para resolver isso, você pode especificar o &quot;campo de execução&quot; (ou o &quot;endereço de execução&quot; dependendo do canal) na configuração do canal como &quot;identityMap&quot;. Isso garante que o atributo escolhido como a identidade na criação do público-alvo será aquele usado para o direcionamento em [!DNL Journey Optimizer].
 
-   * **Registros ativados e identificação de identidade:** todos os registros do público-alvo são ativados, incluindo duplicatas. Durante a próxima exportação de perfil do Serviço de Perfil Unificado, esses registros passam pela identificação. Como resultado, o número de registros ativados pode diferir do número de perfis após a identificação de identidade.
+  * **Registros ativados e identificação de identidade:** todos os registros do público-alvo são ativados, incluindo duplicatas. Durante a próxima exportação de perfil do Serviço de Perfil Unificado, esses registros passam pela identificação. Como resultado, o número de registros ativados pode diferir do número de perfis após a identificação de identidade.
 
 ## Atraso de ativação de públicos-alvo {#activation}
 

@@ -9,22 +9,12 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 TQID: https://experienceleague.adobe.com/OL0VFfxegvbTbSLKeqFaUNTeZllmFtjMW6bmh1XDF00
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
 source-wordcount: 691
@@ -60,7 +50,7 @@ O Adobe Journey Optimizer fornece ferramentas robustas para criar, gerenciar e e
 
 Esta documentação fornece informações sobre como trabalhar com públicos no [!DNL Adobe Journey Optimizer]. Informações detalhadas sobre o Portal de público-alvo e públicos-alvo estão disponíveis na documentação do Serviço de segmentação do Adobe Experience Platform. Consulte estas seções para obter mais detalhes:
 
-* [Guia da interface do usuário do serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Guia da interface do usuário do serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [Serviço de segmentação - Perguntas frequentes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -84,9 +74,9 @@ Os públicos-alvo podem ser gerados usando métodos diferentes:
 
 * **Definições de segmento**: crie uma nova definição de público-alvo usando o Serviço de Segmentação da Adobe Experience Platform. Os públicos-alvo são gerados a partir das definições de segmento e atualizados em momentos diferentes, dependendo do tipo de avaliação:
 
-   * Segmentação de transmissão: os públicos-alvo são atualizados em tempo real, à medida que novos dados fluem no, garantindo relevância contínua com base na atividade do usuário.
-   * Segmentação em lote: os públicos-alvo são atualizados a cada 24 horas, capturando um instantâneo dos perfis em um intervalo fixo. Quando usados em jornadas, os membros de segmento recém-qualificados podem não aparecer até o próximo instantâneo. [Saiba mais sobre sincronização](../building-journeys/audience-qualification-events.md#timing-segment-membership).
-   * Segmentação do Edge: os públicos-alvo são avaliados instantaneamente na borda, permitindo personalização em tempo real.
+  * Segmentação de transmissão: os públicos-alvo são atualizados em tempo real, à medida que novos dados fluem no, garantindo relevância contínua com base na atividade do usuário.
+  * Segmentação em lote: os públicos-alvo são atualizados a cada 24 horas, capturando um instantâneo dos perfis em um intervalo fixo. Quando usados em jornadas, os membros de segmento recém-qualificados podem não aparecer até o próximo instantâneo. [Saiba mais sobre sincronização](../building-journeys/audience-qualification-events.md#timing-segment-membership).
+  * Segmentação do Edge: os públicos-alvo são avaliados instantaneamente na borda, permitindo personalização em tempo real.
 
   [Saiba como criar definições de segmento](creating-a-segment-definition.md)
 

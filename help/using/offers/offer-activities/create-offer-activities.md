@@ -11,21 +11,14 @@ level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/30rooSeteomQEDdTg97LiJDU6-YUiRA0Au3DJp-LQH0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2537
+source-wordcount: 2569
 ht-degree: 10%
 
 ---
@@ -206,11 +199,11 @@ Você definiu três critérios. O critério 1 e o critério 2 são combinados no
 As ofertas elegíveis para cada critério e sua prioridade (usada na avaliação da função de classificação) são as seguintes:
 
 * Grupo 1:
-   * Critério 1 - (Oferta 1, Oferta 2, Oferta 3) - Prioridade 1
-   * Critério 2 - (Oferta 3, Oferta 4, Oferta 5) - Prioridade 1
+  * Critério 1 - (Oferta 1, Oferta 2, Oferta 3) - Prioridade 1
+  * Critério 2 - (Oferta 3, Oferta 4, Oferta 5) - Prioridade 1
 
 * Grupo 2:
-   * Critério 3 - (Oferta 5, Oferta 6) - Prioridade 0
+  * Critério 3 - (Oferta 5, Oferta 6) - Prioridade 0
 
 As ofertas de critérios de prioridade mais alta são avaliadas primeiro e adicionadas à lista de ofertas classificadas.
 
@@ -425,6 +418,6 @@ Isso permite que você acesse informações detalhadas para essa decisão. Selec
 
 Saiba como criar atividades de oferta na gestão de decisões.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409147?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

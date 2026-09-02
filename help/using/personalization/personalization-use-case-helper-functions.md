@@ -10,19 +10,12 @@ level: Intermediate
 keywords: expressão, editor, auxiliares, caso de uso, personalização
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
 source-git-commit: 2016539d8a34850e2730dbb2e1499739a04d88c0
 workflow-type: tm+mt
 source-wordcount: 1712
@@ -72,7 +65,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
 1. Crie um evento cujo esquema inclua a matriz `productListItems`.
 1. Defina todos os campos dessa matriz como campos de carga para esse evento.
 
-   Saiba mais sobre o tipo de dados do item de lista de produtos na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=pt-BR){target="_blank"}.
+   Saiba mais sobre o tipo de dados do item de lista de produtos na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Crie uma jornada que comece com este evento.
 1. Adicione uma atividade de **Email** à jornada.
@@ -125,7 +118,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
 
       ![Editor de expressão mostrando upperCase com token de nome de perfil](assets/personalization-uc-helpers-5.png)
 
-      Saiba mais sobre o tipo de dados do nome da pessoa na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=pt-BR){target="_blank"}.
+      Saiba mais sobre o tipo de dados do nome da pessoa na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Clique em **[!UICONTROL Validar]** e em **[!UICONTROL Salvar]**.
 
@@ -387,7 +380,7 @@ Esta página aborda um caso de uso de email de abandono de carrinho usando três
 * Criar um evento de jornada cujo esquema inclua a matriz `productListItems`
 * Insira o nome de um cliente em maiúsculas usando `{%= upperCase(profile.person.name.firstName) %}`
 * Listar itens do carrinho iterando sobre `context.journey.events.event_ID.productListItems` com `{{#each}}`
-* Exibir uma observação específica do produto condicionalmente usando `{%#if context.journey.events.\`event_ID\`.productListItems.name = &quot;product_name&quot; %&rbrace;&grave;
+* Exibir uma observação específica do produto condicionalmente usando `{%#if context.journey.events.\`event_ID\`.productListItems.name = &quot;product_name&quot; %}`
 * Teste a jornada no modo de teste usando um perfil de teste com carga útil do evento e publique
 
 >[!TAB Glossário]

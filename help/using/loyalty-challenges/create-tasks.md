@@ -12,7 +12,7 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
-source-wordcount: 1125
+source-wordcount: 1140
 ht-degree: 9%
 
 ---
@@ -170,5 +170,5 @@ Após configurar todos os atributos e propriedades, selecione **[!UICONTROL Cria
 
 Saiba como criar e configurar tarefas com este tutorial passo a passo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496446?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496442?quality=12)
 

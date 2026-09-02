@@ -7,11 +7,8 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 hide: true
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
 source-wordcount: 829
@@ -65,11 +62,11 @@ Na seção **[!UICONTROL Layout da Mensagem]**, selecione uma das quatro opçõe
 
 * **[!UICONTROL Personalizado]**: o modo de mensagem personalizada permite importar e editar diretamente uma de suas mensagens pré-configuradas do HTML.
 
-   * Selecione **[!UICONTROL Compor]** para inserir ou colar seu código HTML bruto.
+  * Selecione **[!UICONTROL Compor]** para inserir ou colar seu código HTML bruto.
 
-     Use o painel esquerdo para aproveitar os recursos de personalização do Journey Optimizer. Para obter mais informações, consulte [esta seção](../personalization/personalize.md).
+    Use o painel esquerdo para aproveitar os recursos de personalização do Journey Optimizer. Para obter mais informações, consulte [esta seção](../personalization/personalize.md).
 
-   * Selecione **[!UICONTROL Importar]** para importar o arquivo HTML ou .zip que contenha o conteúdo do HTML.
+  * Selecione **[!UICONTROL Importar]** para importar o arquivo HTML ou .zip que contenha o conteúdo do HTML.
 
 ## Guia Conteúdo {#content-tab}
 

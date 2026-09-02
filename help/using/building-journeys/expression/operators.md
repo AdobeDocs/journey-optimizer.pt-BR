@@ -10,12 +10,9 @@ keywords: expressão, sintaxe, operadores, editor, jornada
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/sK2GNHkkiJ4M5V99Uucc-b68iESNW7kCNBjHVNT-dMs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
@@ -48,12 +45,12 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 ## Observações importantes{#important-notes}
 
 * Ao usar uma multiplicação (`*`), ambos os campos de operação devem ter o mesmo tipo, inteiro ou decimal. Exemplo:
-   * o exemplo a seguir está correto: `3.0 * 4.0`
-   * `3 * 4.0` levará a um erro
+  * o exemplo a seguir está correto: `3.0 * 4.0`
+  * `3 * 4.0` levará a um erro
 
 * Ao usar o operador `+`, a expressão precisa ser encapsulada entre parênteses. Exemplo:
-   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` está correto
-   * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))` levará a um erro
+  * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` está correto
+  * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))` levará a um erro
 
 ## Lógico  {#logical}
 

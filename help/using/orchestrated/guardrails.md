@@ -6,17 +6,10 @@ description: Saiba mais sobre as medidas de proteção e limitações das campan
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
 source-wordcount: 763
@@ -50,7 +43,7 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * **Atributos por esquema** - O número médio de atributos por esquema não deve exceder 50 colunas para manter a capacidade de gerenciamento e o desempenho.
 
-* **Habilitação de perfis** - Esquemas relacionais não podem ser habilitados para Perfis Adobe Experience Platform. Somente esquemas XDM padrão são suportados para Perfis do Adobe Experience Platform. Esquemas relacionais podem ser ativados para campanhas orquestradas ou campanhas Action. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **Habilitação de perfis** - Esquemas relacionais não podem ser habilitados para Perfis Adobe Experience Platform. Somente esquemas XDM padrão são suportados para Perfis do Adobe Experience Platform. Esquemas relacionais podem ser ativados para campanhas orquestradas ou campanhas Action. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Ingestão de dados {#data-ingestion}
 
@@ -58,9 +51,9 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * **Alterar fontes de Captura de Dados** - Toda assimilação deve ocorrer por meio das fontes de Captura de Dados de Alteração:
 
-   * **Fontes baseadas em arquivo** - O campo `_change_request_type` é obrigatório. Os valores com suporte são `u` (substituição) ou `d` (exclusão). Esses valores devem estar em minúsculas `u` e `d`, e não em maiúsculas `U` e `D`.
+  * **Fontes baseadas em arquivo** - O campo `_change_request_type` é obrigatório. Os valores com suporte são `u` (substituição) ou `d` (exclusão). Esses valores devem estar em minúsculas `u` e `d`, e não em maiúsculas `U` e `D`.
 
-   * **Fontes baseadas em nuvem** - O log de tabela deve estar habilitado.
+  * **Fontes baseadas em nuvem** - O log de tabela deve estar habilitado.
 
 * **Somente registros concluídos** - Atualizações parciais de registros não são permitidas; cada linha deve ser fornecida como um registro completo.
 
@@ -68,11 +61,11 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * **Latência de assimilação** - A latência de assimilação no armazenamento relacional normalmente varia de 15 minutos a 2 horas, dependendo do seguinte:
 
-   * Volume de dados
+  * Volume de dados
 
-   * Simultaneidade do sistema
+  * Simultaneidade do sistema
 
-   * Tipo de operação (por exemplo, inserções são mais rápidas que atualizações)
+  * Tipo de operação (por exemplo, inserções são mais rápidas que atualizações)
 
 * **Relação entre fluxo de dados e conjunto de dados** - A relação entre fluxo de dados e conjunto de dados é de 1 a 1. Somente uma fonte pode alimentar um conjunto de dados por vez. Para alternar a origem, exclua o fluxo de dados existente e crie um novo com a nova origem.
 
@@ -104,7 +97,7 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * **Públicos salvos**
 
-   * **Os públicos salvos são estáticos** - As atividades salvas de públicos são estáticas; elas refletem os dados disponíveis no momento da execução da campanha.
+  * **Os públicos salvos são estáticos** - As atividades salvas de públicos são estáticas; elas refletem os dados disponíveis no momento da execução da campanha.
 
 * **Não anexar a um Público-alvo salvo** - Não há suporte para anexar a uma atividade de Público-alvo salvo. Quaisquer modificações exigem uma substituição completa do público-alvo.
 

@@ -14,8 +14,8 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1276
-ht-degree: 20%
+source-wordcount: 1277
+ht-degree: 21%
 
 ---
 
@@ -49,7 +49,7 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 
 * O URL de ação personalizada não aceita parâmetros dinâmicos. 
 * Somente os métodos de chamada POST e PUT são compatíveis. 
-* O nome do parâmetro de consulta ou cabeçalho não deve começar com &quot;.&quot; ou &quot;$&quot;. 
+* O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou &quot;$&quot;. 
 * Endereços IP não são permitidos. 
 * Endereços Adobe internos (.adobe.) não são permitidos.
 

@@ -10,20 +10,11 @@ level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 TQID: https://experienceleague.adobe.com/dnae-RgLGPhxmtipYP6sTPTmA64LSfWYYH6gk5Fd3dk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 667
@@ -73,29 +64,29 @@ Para problemas ou solicitações de assistência relacionados às suas traduçõ
 
 Para o conteúdo multilíngue, as seguintes configurações devem ser definidas:
 
-* Para usar o recurso de Tradução no Journey Optimizer, é necessário atribuir a API à função correspondente. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* Para usar o recurso de Tradução no Journey Optimizer, é necessário atribuir a API à função correspondente. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * Para começar a criar conteúdo multilíngue, os usuários precisam ter a permissão **[!UICONTROL Gerenciar configurações de idioma]**. Para o fluxo automatizado, os usuários também precisarão de permissões relacionadas aos recursos do **[!UICONTROL Serviço de Tradução]**. [Saiba mais sobre permissões](../administration/permissions.md)
 
   +++ Saiba como atribuir permissões relacionadas multilíngues
 
-   1. No produto **Permissões**, abra a guia **Funções** e selecione a **função** desejada.
+  1. No produto **Permissões**, abra a guia **Funções** e selecione a **função** desejada.
 
-   1. Clique em **Editar** para modificar as permissões.
+  1. Clique em **Editar** para modificar as permissões.
 
-   1. Adicione o recurso **Serviço de tradução** e selecione as permissões multilíngues apropriadas no menu suspenso.
+  1. Adicione o recurso **Serviço de tradução** e selecione as permissões multilíngues apropriadas no menu suspenso.
 
-      ![](assets/multilingual-permission.png){zoomable="yes"}
+     ![](assets/multilingual-permission.png){zoomable="yes"}
 
-   1. Clique em **Salvar** para aplicar as alterações.
+  1. Clique em **Salvar** para aplicar as alterações.
 
-      As permissões de todos os usuários já atribuídos a essa função serão atualizadas automaticamente.
+     As permissões de todos os usuários já atribuídos a essa função serão atualizadas automaticamente.
 
-   1. Para atribuir essa função a novos usuários, navegue até a guia **Usuários** no painel **Funções** e clique em **Adicionar usuário**.
+  1. Para atribuir essa função a novos usuários, navegue até a guia **Usuários** no painel **Funções** e clique em **Adicionar usuário**.
 
-   1. Insira o nome do usuário, seu endereço de email ou escolha na lista e clique em **Salvar**.
+  1. Insira o nome do usuário, seu endereço de email ou escolha na lista e clique em **Salvar**.
 
-   1. Se o usuário não tiver sido criado anteriormente, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/users).
+  1. Se o usuário não tiver sido criado anteriormente, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/users).
 
   +++
 
@@ -103,17 +94,17 @@ Para o conteúdo multilíngue, as seguintes configurações devem ser definidas:
 
   +++ Saiba como habilitar o recurso de Tradução
 
-   1. Se você estiver vendo a seguinte página de erro, isso indica que o recurso **[!UICONTROL Tradução]** ainda não foi habilitado. Entre em contato com o administrador da organização e da sandbox para solicitar acesso.
+  1. Se você estiver vendo a seguinte página de erro, isso indica que o recurso **[!UICONTROL Tradução]** ainda não foi habilitado. Entre em contato com o administrador da organização e da sandbox para solicitar acesso.
 
   ![](assets/multi-troubleshoot.png)
 
-   1. O administrador precisará navegar até o menu **[!UICONTROL Tradução]** na barra lateral esquerda.
+  1. O administrador precisará navegar até o menu **[!UICONTROL Tradução]** na barra lateral esquerda.
 
-      O sistema habilitará automaticamente o recurso Tradução.
+     O sistema habilitará automaticamente o recurso Tradução.
 
-   1. Depois que o recurso for habilitado com êxito, você poderá acessar a página **[!UICONTROL Tradução]**, juntamente com as guias **[!UICONTROL Projetos]**, **[!UICONTROL Provedores]** e **[!UICONTROL Localidade]**.
+  1. Depois que o recurso for habilitado com êxito, você poderá acessar a página **[!UICONTROL Tradução]**, juntamente com as guias **[!UICONTROL Projetos]**, **[!UICONTROL Provedores]** e **[!UICONTROL Localidade]**.
 
-   1. Se esse procedimento falhar, você ainda verá a mesma página de erro. Nesse caso, entre em contato com o representante da Adobe para obter mais assistência.
+  1. Se esse procedimento falhar, você ainda verá a mesma página de erro. Nesse caso, entre em contato com o representante da Adobe para obter mais assistência.
 
   +++
 
@@ -121,4 +112,4 @@ Para o conteúdo multilíngue, as seguintes configurações devem ser definidas:
 
 Saiba como criar conteúdo em vários idiomas em uma única campanha ou jornada.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452118?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

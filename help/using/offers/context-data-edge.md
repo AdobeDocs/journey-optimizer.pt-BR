@@ -10,23 +10,15 @@ level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/uUlnfdFBE4-6tCklMD-ZwpyVI75hMgSoFftS8n-cC1Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 920
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -74,7 +66,7 @@ Ao contrário da transmissão de contexto em um formato livre usando a API de de
 
 1. Crie um conjunto de dados (aqui, &quot;Contexto da oferta&quot;) e verifique se ele está ativado para o perfil.
 
-1. Crie uma nova sequência de dados a partir do menu **[!UICONTROL Coleção de Dados]** > **[!UICONTROL Sequências de Dados]**. Saiba como criar e configurar a sequência de dados no [!DNL Adobe Experience Platform] [Guia de sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure){target="_blank"}
+1. Crie uma nova sequência de dados a partir do menu **[!UICONTROL Coleção de Dados]** > **[!UICONTROL Sequências de Dados]**. Saiba como criar e configurar a sequência de dados no [!DNL Adobe Experience Platform] [Guia de sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
    Aqui, criamos uma sequência de dados de &quot;Contexto de oferta&quot;, com o esquema de evento &quot;Conteúdo de oferta&quot; selecionado.
 
@@ -96,23 +88,23 @@ Crie regras de qualificação que determinam quais ofertas devem ser mostradas c
 
 * regra do dispositivo iphone:
 
-   * Nome da regra: &quot;Regra de contexto do Edge - iphone&quot;
-   * Configuração: deviceType = &#39;iphone&#39;
-   * Sintaxe do PQL:
+  * Nome da regra: &quot;Regra de contexto do Edge - iphone&quot;
+  * Configuração: deviceType = &#39;iphone&#39;
+  * Sintaxe do PQL:
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
+    ```
 
 * regra do dispositivo ipad:
 
-   * Nome da regra: &quot;Regra de contexto do Edge - ipad&quot;
-   * Configuração: deviceType = &#39;ipad&#39;
-   * Sintaxe do PQL
+  * Nome da regra: &quot;Regra de contexto do Edge - ipad&quot;
+  * Configuração: deviceType = &#39;ipad&#39;
+  * Sintaxe do PQL
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
+    ```
 
 ## Criar ofertas {#offers}
 
@@ -120,13 +112,13 @@ Crie uma oferta para cada tipo de dispositivo e vincule-a à regra de elegibilid
 
 * Oferta para usuários do iPhone:
 
-   * Nome da oferta: &quot;Edge Context - iPhone Offer Content&quot;
-   * Regra associada: &quot;Regra de contexto do Edge - iphone&quot;
+  * Nome da oferta: &quot;Edge Context - iPhone Offer Content&quot;
+  * Regra associada: &quot;Regra de contexto do Edge - iphone&quot;
 
 * Oferta para usuários do iPad:
 
-   * Nome da oferta: &quot;Edge Context - iPad Offer Content&quot;
-   * Regra associada: &quot;Regra de contexto do Edge - ipad&quot;
+  * Nome da oferta: &quot;Edge Context - iPad Offer Content&quot;
+  * Regra associada: &quot;Regra de contexto do Edge - ipad&quot;
 
 Além disso, crie uma oferta substituta (aqui, &quot;Conteúdo de fallback de contexto&quot;) para ser exibida se nenhum critério específico de dispositivo for atendido.
 

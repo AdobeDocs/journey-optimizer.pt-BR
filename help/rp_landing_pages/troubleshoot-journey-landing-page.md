@@ -49,7 +49,7 @@ Acesse os principais relatórios para monitorar o desempenho da jornada, analisa
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Acessar e assinar alertas do sistema
 
@@ -59,7 +59,7 @@ Saiba como acessar alertas do sistema, assinar notificações e monitorar evento
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referência de códigos de erro
 
@@ -69,7 +69,7 @@ Entenda códigos de erro comuns no Adobe Journey Optimizer e encontre resoluçõ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Solução de problemas de erros do Jornada
 
@@ -79,7 +79,7 @@ Identifique e resolva erros em toda a jornada e problemas de atividade, e defina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Solução de problemas de execução da Jornada
 
@@ -89,7 +89,7 @@ Diagnostique problemas de validação de eventos, entrada de perfil, navegação
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Solução de problemas de ações de entrada
 
@@ -99,7 +99,7 @@ Depure problemas de ação de entrada, como conteúdo ausente ou entrega contín
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Solução de problemas de ações personalizadas
 
@@ -109,7 +109,7 @@ Valide e depure ações personalizadas com o recurso **Enviar solicitação de t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Solução de problemas de atividades ativas
 
@@ -119,7 +119,7 @@ Diagnostique por que as atividades Live não aparecem, atualizam ou encerram, co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 Solução de problemas de fragmentos de conteúdo do AEM
 
@@ -129,7 +129,7 @@ Revise as principais considerações e problemas comuns ao trabalhar com Fragmen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 Diretrizes de tíquete de suporte
 

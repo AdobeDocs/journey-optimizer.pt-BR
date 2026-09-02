@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-03-50
 badge: label="Legado" type="Informative"
 exl-id: b73438e0-8ebe-4188-bb63-1095dcfc4679
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Exportar o catálogo de oferta no Adobe Journey Optimizer é como abrir as porta
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guia para exportar catálogos de oferta
 
@@ -35,7 +35,7 @@ Saiba como exportar o catálogo de oferta como um conjunto de dados para a Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Acessar o catálogo de ofertas exportado
 
@@ -45,7 +45,7 @@ Descubra como localizar e interagir com o catálogo de oferta exportado na Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referência do conjunto de dados de ofertas personalizadas
 
@@ -55,7 +55,7 @@ Explore os campos e o esquema hierárquico do conjunto de dados para ofertas per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Visão geral do conjunto de dados de decisões
 
@@ -65,7 +65,7 @@ Entenda a estrutura hierárquica, as definições de campo e os metadados do con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Detalhes do conjunto de dados de posicionamentos
 
@@ -75,7 +75,7 @@ Saiba mais sobre os campos, o esquema e os metadados do conjunto de dados de dis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Documentação do conjunto de dados de ofertas substitutas
 

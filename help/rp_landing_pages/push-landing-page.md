@@ -6,7 +6,7 @@ description: Canal de notificações por push
 redpen-status: CREATED_||_2025-08-11_20-37-12
 exl-id: 8d82ef2f-91ee-4502-9a01-f66ccbd55fea
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ As notificações por push podem ser criadas:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar e configurar notificações por push
 
@@ -48,7 +48,7 @@ Guia passo a passo para criar e configurar notificações por push, incluindo o 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Criar a notificação por push
 
@@ -58,7 +58,7 @@ Descubra como criar e personalizar notificações por push com mídia, botões, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizar, validar e enviar notificações por push
 
@@ -68,7 +68,7 @@ Saiba como visualizar, validar e enviar notificações por push, garantindo o su
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuração de notificações por push
 

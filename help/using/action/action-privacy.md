@@ -37,7 +37,8 @@ Com sua estrutura de [governança de rotulagem e aplicação de uso de dados (DU
 
 Depois que os rótulos e as ações de marketing forem definidos, você poderá criar **políticas de governança de dados** que vinculam esses dois elementos. Por exemplo, você pode configurar uma política que associe um rótulo “ePHI” a uma ação de marketing de “direcionamento por email”, garantindo que os campos rotulados como “ePHI” não sejam usados para personalizar mensagens de email. [Saiba como criar políticas de governança de dados](#policy)
 
-Depois de criar as políticas de governança, você pode aplicar as ações de marketing às suas jornadas/campanhas e ações personalizadas das jornadas.[Saiba como aplicar ações de marketing no Journey Optimizer](#apply-marketing-actions)
+Depois de criar as políticas de governança, você pode aplicar as ações de marketing às suas jornadas/campanhas e ações personalizadas das jornadas.
+[Saiba como aplicar ações de marketing no Journey Optimizer](#apply-marketing-actions)
 
 >[!IMPORTANT]
 >
