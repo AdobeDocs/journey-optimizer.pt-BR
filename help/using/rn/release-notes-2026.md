@@ -8,13 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7d3697f6ff585af137721516ddc7ae833684ed42
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: e8781ebabc7692ee1b7c7a69e04d9ba90ac6189e
 workflow-type: tm+mt
 source-wordcount: 12662
 ht-degree: 79%
@@ -219,7 +215,7 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão.
 
   Data de disponibilidade: 29 de julho de 2026
 
-* **Proteção de disjuntor para pontos de extremidade de ação personalizada lenta** - Para pontos de extremidade roteados pelo serviço de ação personalizada lenta, a Journey Optimizer agora limita temporariamente todas as chamadas por até 5 minutos quando mais de 20% das chamadas em uma janela de 120 segundos excedem 10 segundos, se houver pelo menos 200 chamadas na janela de observação de 120 segundos. Isso ajuda a evitar a sobrecarga de pontos de extremidade que já estão lentos. [Saiba mais](../configuration/external-systems.md#response-time)
+* **Proteção de disjuntor para pontos de extremidade de ação personalizada lenta** - Para pontos de extremidade roteados pelo serviço de ação personalizada lenta, a Journey Optimizer agora limita temporariamente todas as chamadas por até 5 minutos quando mais de 20% das chamadas em uma janela de 120 segundos excedem 5 segundos, se houver pelo menos 200 chamadas na janela de observação de 120 segundos. Isso ajuda a evitar a sobrecarga de pontos de extremidade que já estão lentos. [Saiba mais](../configuration/external-systems.md#response-time)
 
   Data de disponibilidade: 29 de julho de 2026. Esse recurso está sendo gradualmente distribuído entre regiões.
 
@@ -1430,7 +1426,7 @@ As seções [Novos recursos](#march-26-features) e [Melhorias](#march-26-improv)
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Data de lançamento**: 24 a 25 de março de 2026
@@ -2184,7 +2180,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Verificações de qualidade de conteúdo do Assistente de IA**: além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas de <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou falhas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality).
 
-  [Conheça este recurso no vídeo](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on).
+  [Conheça este recurso no vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Jornadas
 
