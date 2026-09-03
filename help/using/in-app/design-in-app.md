@@ -8,25 +8,16 @@ level: Beginner
 keywords: no aplicativo, mensagem, design, formatação
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 TQID: https://experienceleague.adobe.com/DBRGZUXPBo-2-EX0i3RSGQc4G1-zbsee4u3oF1cU-ng
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 32efa2ef37c2b40ad5c715c6b2ff70c1ac72b391
 workflow-type: tm+mt
-source-wordcount: 1301
-ht-degree: 26%
+source-wordcount: 1355
+ht-degree: 29%
 
 ---
 
@@ -95,7 +86,7 @@ Na guia **Conteúdo**, é possível definir e personalizar o conteúdo da notifi
 ### Botão Fechar {#close-button}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_close"
+>id="ajo_campaigns_Inapp_authoring_closeButtton"
 >title="Escolha o estilo do botão Fechar."
 >abstract="A seção do botão de fechamento da mensagem fornece a opção de selecionar variações desse botão e permite fazer upload de uma imagem personalizada."
 
@@ -118,7 +109,7 @@ Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você pode
 ### Mídia {#add-media}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_media"
+>id="ajo_campaigns_Inapp_authoring_Media"
 >title="Adicione mídias à mensagem do aplicativo e crie uma experiência cativante para o usuário final."
 >abstract="Forneça um link direto para o conteúdo ou use o seletor de ativos para escolher a mídia no Asset Essentials e adicioná-la à mensagem."
 
@@ -138,7 +129,7 @@ Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você pode
 ### Conteúdo {#title-body}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_content"
+>id="ajo_campaigns_Inapp_authoring_Content"
 >title="Para compor a mensagem, insira o conteúdo nos campos Cabeçalho e Corpo."
 >abstract="Os textos do cabeçalho e do corpo podem ser adicionados aqui. Para incluir tokens de personalização, abra a caixa de diálogo de personalização."
 
@@ -161,7 +152,7 @@ Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você pode
 ### Botões {#add-buttons}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_buttons"
+>id="ajo_campaigns_inapp_authoring_ctabuttons"
 >title="Adicione botões para a interação com mensagens no aplicativo."
 >abstract="Esta seção permite adicionar botões de “chamada para ação” à mensagem. É possível incluir texto e destinos personalizados para cada botão."
 
@@ -204,6 +195,11 @@ Na guia **Configurações**, é possível definir o layout da mensagem e pré-vi
 >title="Visualize a mensagem no aplicativo."
 >abstract="Esta é a imagem de visualização que será exibida quando a mensagem for enviada para o resumo de mensagens do dispositivo."
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_Inapp_authoring_settingsPreview"
+>title="Visualize a mensagem no aplicativo."
+>abstract="Esta é a imagem de visualização que será exibida quando a mensagem for enviada para o resumo de mensagens do dispositivo."
+
 >[!NOTE]
 >
 >A visualização só está disponível para mensagens móveis no aplicativo.
@@ -221,9 +217,15 @@ A **[!UICONTROL Visualização do aplicativo]** permite que você adicione um pl
 ### Layout {#layout-options}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_layout"
+>id="ajo_campaigns_Inapp_authoring_layout"
 >title="Definir o layout da mensagem no aplicativo."
 >abstract="Esta seção permite adicionar um plano de fundo para a mensagem no aplicativo. Isso requer que a opção “Controle da interface” esteja habilitada."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_Inapp_authoring_settingsLayout"
+>title="Definir o layout da mensagem no aplicativo."
+>abstract="Esta seção permite adicionar um plano de fundo para a mensagem no aplicativo. Isso requer que a opção “Controle da interface” esteja habilitada."
+
 
 ![](assets/in_app_web_design_6.png)
 
@@ -288,4 +290,4 @@ Para obter mais informações, consulte a [Documentação para desenvolvedores](
 
 O vídeo abaixo mostra como criar e testar suas mensagens no aplicativo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502541?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)
