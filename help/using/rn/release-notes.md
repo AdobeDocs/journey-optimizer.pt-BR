@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
+source-git-commit: 5592f564456edf86e04dc9849c947402126cf161
 workflow-type: tm+mt
-source-wordcount: 2281
-ht-degree: 21%
+source-wordcount: 2234
+ht-degree: 85%
 
 ---
 
@@ -50,16 +50,18 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ## Atualizações de setembro de 2026 {#sep-26-updates}
 
+### Jornadas {#sep-26-journeys}
+
 <table>
 <thead>
 <tr>
-<th><strong>controle no nível da jornada (disponibilidade limitada)</strong><br/></th>
+<th><strong>Controle no nível da jornada (disponibilidade limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode configurar um grupo de controle para suas jornadas diretamente das propriedades do jornada. Uma validação é uma porcentagem configurável do público-alvo que é excluído da entrada na jornada e não recebe nenhuma comunicação. Ao comparar perfis de controle com perfis ativos nos relatórios do Customer Journey Analytics, é possível medir o aumento incremental - o impacto real - que a jornada oferece.</p>
+<p>Agora você pode configurar um grupo de controle para suas jornadas diretamente das propriedades da jornada. Um controle é uma porcentagem configurável do público-alvo que é excluído da entrada na jornada e não recebe nenhuma comunicação. Ao comparar perfis de controle com perfis ativos nos relatórios do Customer Journey Analytics, é possível medir o aumento incremental, o impacto real, que a jornada oferece.</p>
 <p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe. Para obter detalhes completos sobre o ciclo de lançamento e as fases de disponibilidade, consulte o <a href="releases.md">ciclo de lançamento do Journey Optimizer</a>.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/journey-properties.md#performance-management">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 1º de setembro de 2026</p>
@@ -78,7 +80,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tr>
 <td>
 <p>O editor de expressão avançado do jornada agora integra a geração de expressões alimentadas por IA: descreva a expressão que você deseja criar em linguagem natural e o editor gera um código pronto para uso que pode ser aplicado imediatamente ou refinado por meio de prompts de acompanhamento.</p>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/expression/generate-expression.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 1º de setembro de 2026</p>
 </td>
@@ -90,24 +92,32 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
   Data de disponibilidade: 1º de setembro de 2026
 
+### Campanhas {#sep-26-campaigns}
+
 +++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Simulação de experiência de entrada em campanhas de ação</strong><br/></th>
+<th><strong>Simulação de experiência de entrada em Campanhas de ação</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Agora é possível simular ações de canal de entrada em Campanhas de ação antes de entrar em atividade. Use o modo de simulação para testar sua configuração com usuários simulados e visualizar a experiência renderizada, incluindo um URL gerado e um código QR, para que você possa validar regras, decisões e renderização de conteúdo de ponta a ponta.</p>
-<p>No momento, esse recurso está em beta privado e disponível para um conjunto limitado de organizações. Entre em contato com o representante da Adobe para obter mais informações.</p>
+<p>No momento, esse recurso está em Private Beta e disponível para um conjunto limitado de organizações. Entre em contato com o representante da Adobe para obter mais informações.</p>
 <p>Data de disponibilidade: 4 de setembro de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+* **Pastas para Campanhas de Ação** - Agora você pode organizar suas Campanhas de Ação em pastas para melhorar a navegação e o gerenciamento na interface.
+
+* **Redesign do fluxo de criação da Campanha de ação**: o fluxo de criação da Campanha de ação do Adobe Journey Optimizer foi reprojetado para fornecer uma experiência do usuário significativamente mais intuitiva, eficiente e contínua.
+
+* **Substituir os campos de execução padrão em Campanhas de ação** - Anteriormente disponíveis no nível de jornada, agora é possível substituir os campos de execução padrão configurados globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da Campanha de ação.
 
 +++
 
@@ -115,18 +125,18 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ### Gerenciamento de conteúdo
 
-Os seguintes recursos e melhorias foram introduzidos ao Gerenciamento de conteúdo nesta versão.
+Os seguintes recursos e melhorias foram introduzidos no gerenciamento de conteúdo nesta versão.
 
 <table>
 <thead>
 <tr>
-<th><strong>Origem flexível de imagens para a geração de conteúdo de IA</strong><br/></th>
+<th><strong>Obtenção flexível de imagens para geração de conteúdo por IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Gerar conteúdo no Journey Optimizer agora origina imagens aprovadas pela marca diretamente do Adobe Experience Manager Assets Essentials e superior. Três modos controlam o equilíbrio: Balanceado (Gerenciamento de ativos digitais - primeiro, IA preenche lacunas, padrão), Assets (Gerenciamento de ativos digitais - originado) e Creative (AI).</p>
+<p>A geração de conteúdo no Journey Optimizer agora usa imagens aprovadas pela marca diretamente do Adobe Experience Manager Assets Essentials e versões posteriores. Três modos controlam o equilíbrio: Equilibrado (primeiro gerenciamento de ativos digitais, IA preenche lacunas, padrão), Ativos (fonte de gerenciamento de ativos digitais) e Criativo (IA).</p>
 <p><img src="../content-management/assets/image-mode-3.png"></p>
 <p>Para obter mais informações, consulte a <a href="../content-management/generative-uc.md#image-mode">documentação detalhada</a>.</p>
 <p> Data de disponibilidade: 5 de agosto de 2026</p>
@@ -135,27 +145,26 @@ Os seguintes recursos e melhorias foram introduzidos ao Gerenciamento de conteú
 </tbody>
 </table>
 
-* **Aviso de tamanho da variante de conteúdo** - O Journey Optimizer agora exibe um aviso de limite flexível quando uma variante de conteúdo excede seu limite de tamanho recomendado — 1200 KB para modelos e mensagens, 700 KB para fragmentos e 1000 KB para páginas de aterrissagem. Salvar e publicar não estão bloqueados. [Saiba mais](../start/guardrails.md#content-authoring)
+* **Aviso de tamanho da variante de conteúdo**: o Journey Optimizer agora exibe um aviso de limite flexível quando uma variante de conteúdo excede seu limite de tamanho recomendado — 1200 KB para modelos e mensagens, 700 KB para fragmentos e 1000 KB para páginas de destino. As ações Salvar e publicar não estão bloqueadas. [Saiba mais](../start/guardrails.md#content-authoring)
 
   Data de disponibilidade: 25 de agosto de 2026
 
-* **Limites de contagem de fragmentos no conteúdo** - O Journey Optimizer agora valida o número de fragmentos únicos usados em um conteúdo: até 60 por variante e até 120 em todas as variantes de uma única mensagem. Os avisos são exibidos em 75% de cada limite; a publicação é bloqueada quando o limite rígido é atingido. [Saiba mais](../start/guardrails.md#fragments-guardrails)
+* **Limites de contagem de fragmentos no conteúdo**: o Journey Optimizer agora valida o número de fragmentos únicos usados em um conteúdo: até 60 por variante e até 120 em todas as variantes de uma única mensagem. Os avisos são exibidos em 75% de cada limite; a publicação é bloqueada quando o limite rígido é atingido. [Saiba mais](../start/guardrails.md#fragments-guardrails)
 
   Data de disponibilidade: 25 de agosto de 2026
 
 ### Jornadas {#aug-26-journeys}
 
 
-* **Datas de início e término no cabeçalho da jornada** - Quando as datas de início e/ou término são configuradas em uma jornada, elas agora são exibidas no cabeçalho da jornada ao lado da notificação de status. O rótulo exibido se adapta com base no fato de cada data ser futura ou já ter passado. [Leia mais](../building-journeys/journey-properties.md#dates)
+* **Datas de início e término no cabeçalho da jornada**: quando datas de início e/ou término são configuradas em uma jornada, elas agora são exibidas no cabeçalho da jornada, ao lado do indicador de status. O rótulo exibido se adapta com base no fato de cada data ser futura ou já ter passado. [Leia mais](../building-journeys/journey-properties.md#dates)
 
+  Data de disponibilidade: 20 de agosto de 2026
 
-Data de disponibilidade: 20 de agosto de 2026
-
-* **Novas funções de lista no editor de expressão avançado** - Duas novas funções estão disponíveis no editor de expressão avançado: `mergeLists` combina duas listas, com ou sem eliminação de duplicação, e `differenceLists` retorna os itens de uma lista que não estão presentes em outra. [Saiba mais](../building-journeys/functions/list-functions.md)
+* **Novas funções de lista no editor de expressão avançado** - Duas novas funções estão disponíveis no editor de expressão avançado: `mergeLists` combina duas listas, com ou sem desduplicação, e `differenceLists` retorna os itens de uma lista que não estão presentes em outra. [Saiba mais](../building-journeys/functions/list-functions.md)
 
   Data de disponibilidade: 13 de agosto de 2026
 
-* **Otimização de Tempo de Envio na atividade de Espera** - A Otimização de Tempo de Envio agora está disponível na atividade de Espera, permitindo que a IA da Adobe determine o momento ideal para continuar com qualquer atividade de downstream. [Saiba mais](../building-journeys/wait-activity.md#sto-wait)
+* **Otimização de horário de envio na atividade de espera**: a otimização de horário de envio agora está disponível na atividade de espera, permitindo que a IA da Adobe determine o momento ideal para continuar com qualquer atividade downstream. [Saiba mais](../building-journeys/wait-activity.md#sto-wait)
 
   Data de disponibilidade: 13 de agosto de 2026
 
@@ -166,15 +175,15 @@ Os recursos e melhorias a seguir foram introduzidos nas Campanhas nesta versão.
 <table>
 <thead>
 <tr>
-<th><strong>Anexos personalizados do PDF em emails acionados por API</strong><br/></th>
+<th><strong>Anexos PDF personalizados em emails disparados por API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer agora oferece suporte a até <b>cinco anexos do PDF</b> no total por email em campanhas acionadas por API, incluindo PDFs estáticos e específicos de destinatários. Os arquivos PDF específicos do recipient são buscados com segurança da Data Landing Zone e anexados no momento do envio, com o local de cada arquivo transmitido diretamente na carga da API. Isso permite que os sistemas de geração de documentos upstream existentes permaneçam em vigor, com o Journey Optimizer lidando com a entrega.</p>
-<p>Os casos de uso suportados incluem faturas, demonstrativos, tíquetes, contratos, etiquetas de remessa e documentos semelhantes que variam de acordo com o recipient. Os anexos personalizados do PDF estão disponíveis somente para campanhas de email transacionais acionadas por API e não são compatíveis com jornadas ou campanhas orquestradas.</p>
-<p>Volumes e tamanhos de anexo maiores são suportados por meio do complemento de anexo do PDF; para obter mais informações, entre em contato com o representante da Adobe.</p>
+<p>O Journey Optimizer agora oferece suporte a até <b>cinco anexos do PDF</b> no total por email em campanhas acionadas por API, incluindo PDFs estáticos e específicos de destinatários. Os arquivos PDF específicos do destinatário são obtidos com segurança da Zona de Aterrissagem de Dados e anexados no momento do envio, com a localização de cada arquivo transmitida diretamente no conteúdo da API. Isso permite que os sistemas de geração de documentos upstream existentes permaneçam em vigor, com o Journey Optimizer lidando com a entrega.</p>
+<p>Os casos de uso aceitos incluem faturas, demonstrativos, tíquetes, contratos, etiquetas de envio e documentos semelhantes que variam de acordo com o destinatário. Anexos PDF personalizados estão disponíveis apenas para campanhas de email transacionais acionadas por API e não são aceitos em jornadas ou campanhas orquestradas.</p>
+<p>Volumes e tamanhos de anexo maiores são aceitos por meio do complemento de anexo de PDF; para obter mais informações, entre em contato com o representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../email/pdf-attachments.md#personalized-attachments">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 12 de agosto de 2026</p>
 </td>
@@ -182,34 +191,24 @@ Os recursos e melhorias a seguir foram introduzidos nas Campanhas nesta versão.
 </tbody>
 </table>
 
-* **Assinaturas de alerta de ciclo de vida por campanha** - Agora é possível assinar alertas de ciclo de vida de campanha com suporte para uma única campanha, além da assinatura em nível de sandbox existente. Isso permite monitorar campanhas individuais de alta prioridade sem receber o mesmo alerta para cada campanha na sandbox. [Saiba mais](../reports/alerts.md#subscribe-alerts)
-Data de disponibilidade: 13 de agosto de 2026
+* **Assinaturas de alerta de ciclo de vida por campanha**: agora é possível assinar alertas de ciclo de vida de campanha com suporte para uma única campanha, além da assinatura em nível de sandbox existente. Essas assinaturas permitem monitorar campanhas individuais de alta prioridade sem receber o mesmo alerta para cada campanha na sandbox. [Saiba mais](../reports/alerts.md#subscribe-alerts)
 
-+++ Em breve — **as informações abaixo estão sujeitas a alterações.**
-
-
-* **Redesign do fluxo de criação da Campanha de Ação** - O fluxo de criação da Campanha de Ação do Adobe Journey Optimizer foi reprojetado para fornecer uma experiência do usuário significativamente mais intuitiva, eficiente e contínua.
-
-* **Pastas para Campanhas de Ação** - Agora você pode organizar suas Campanhas de Ação em pastas para melhorar a navegação e o gerenciamento na interface.
-
-* **Substituir os campos de execução padrão em Campanhas de ação** - Anteriormente disponíveis no nível de jornada, agora é possível substituir os campos de execução padrão configurados globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da Campanha de ação.
-
-+++
+  Data de disponibilidade: 13 de agosto de 2026
 
 ### Campanhas orquestradas {#august-26-oc}
 
-Os recursos e melhorias a seguir foram introduzidos nas Campanhas orquestradas nesta versão.
+As seguintes funcionalidades e melhorias foram introduzidas nas Campanhas orquestradas nesta versão.
 
 <table>
 <thead>
 <tr>
-<th><strong>Suporte para o Quiet Hours</strong><br/></th>
+<th><strong>Suporte a período de silêncio</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode aplicar o Período de Silêncio. O Quiet Hours permite definir exclusões com base no tempo para evitar que as mensagens sejam enviadas durante períodos específicos, ajudando você a respeitar as preferências do cliente e os requisitos de conformidade em casos de uso da orquestração de campanha.</p>
+<p>Agora você pode aplicar Períodos de silêncio. Os Períodos de silêncio permitem definir exclusões com base no tempo para evitar que as mensagens sejam enviadas durante períodos específicos, ajudando você a respeitar as preferências do cliente e os requisitos de conformidade em casos de uso da orquestração de campanha.</p>
 <p>Para obter mais informações, consulte a <a href="../conflict-prioritization/quiet-hours.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 18 de agosto de 2026</p>
 </td>
@@ -226,7 +225,7 @@ Os recursos e melhorias a seguir foram introduzidos nas Campanhas orquestradas n
 <tbody>
 <tr>
 <td>
-<p>Agora você pode programar mensagens de saída para serem entregues em lotes controlados ao longo do tempo. Ideal para campanhas de alto volume ou sensíveis ao tempo, o envio de ondas também oferece suporte a uma melhor capacidade de entrega e ajuda a manter uma sólida reputação do remetente, reduzindo o risco de ser sinalizado como spam. </p>
+<p>Agora você pode agendar mensagens de saída para serem entregues em lotes controlados ao longo do tempo. Ideal para campanhas de alto volume ou com prazos restritos, o envio em ondas também favorece uma melhor capacidade de entrega e ajuda a manter uma reputação sólida de remetente, reduzindo o risco de ser sinalizado como spam. </p>
 <p>Para obter mais informações, consulte a <a href="../delivery/send-using-waves.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 18 de agosto de 2026</p>
 </td>
@@ -237,13 +236,13 @@ Os recursos e melhorias a seguir foram introduzidos nas Campanhas orquestradas n
 <table>
 <thead>
 <tr>
-<th><strong>Suporte ao canal LINE (disponibilidade limitada)</strong><br/></th>
+<th><strong>Suporte ao canal LINE (Disponibilidade limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível adicionar ações LINE nas campanhas orquestradas. Essa nova atividade permite criar e fornecer conteúdo altamente personalizado, incluindo texto, adesivos, imagens, vídeos, dados de localização e mensagens avançadas do Flex, para envolver seus clientes perfeitamente na plataforma LINE. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Agora é possível adicionar ações LINE às campanhas orquestradas. Esta nova atividade permite criar e entregar conteúdo altamente personalizado, incluindo texto, adesivos, imagens, vídeos, dados de localização e mensagens flexíveis avançadas, para envolver seus clientes de maneira integrada na plataforma LINE. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../orchestrated/activities/channels.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 12 de agosto de 2026</p>
 </td>
@@ -251,19 +250,19 @@ Os recursos e melhorias a seguir foram introduzidos nas Campanhas orquestradas n
 </tbody>
 </table>
 
-* **Capacidade de Gerenciar Dimensões de Destino do Perfil** - Agora é possível excluir um Dimension de Destino do Perfil ou editar e trocar seu namespace de identidade configurado, fornecendo maior controle e flexibilidade sobre as configurações de dados. [Saiba mais](../orchestrated/target-dimension.md)
+* **Capacidade de gerenciar dimensões de destino do perfil**: agora é possível excluir uma Dimensão de destino do perfil ou editar e trocar seu namespace de identidade configurado, fornecendo maior controle e flexibilidade sobre as configurações de dados. [Saiba mais](../orchestrated/target-dimension.md)
 
   Data de disponibilidade: 18 de agosto de 2026
 
 <!-- * **New public APIs** - New API specifications are now available. These APIs allow you to programmatically create, manage, and trigger orchestrated campaigns, enabling deeper integration with external systems and automation pipelines. Documentation link: TBD -->
 
-* **Personalizar detalhes do remetente de email por destinatário e campanha (Disponibilidade limitada)** - As campanhas orquestradas agora oferecem suporte à personalização de campos de cabeçalho de email, incluindo Nome de origem, Prefixo de email de origem, Nome de resposta e Email de resposta, bem como endereço de execução, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o consultor, o local ou a filial relevante para cada destinatário, em vez de encaminhar todos os envios por meio de um único endereço corporativo. Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso. [Saiba mais](../orchestrated/activities/channels.md#configuration)
+* **Personalizar detalhes do remetente de email por destinatário e campanha (Disponibilidade limitada)**: as campanhas orquestradas agora oferecem suporte à personalização dos campos do cabeçalho do email, incluindo nome do remetente, prefixo do endereço de email do remetente, nome do endereço de resposta e endereço de resposta, além do endereço de execução, usando atributos de perfil ou dados relacionais. Isso permite que os detalhes do remetente reflitam o consultor, o local ou a filial relevante para cada destinatário, em vez de encaminhar todos os envios por meio de um único endereço corporativo. Os valores do cabeçalho podem ser definidos no nível do canal e substituídos por campanha usando dados contextuais para obter um controle mais preciso. [Saiba mais](../orchestrated/activities/channels.md#configuration)
 
   Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada).
 
   Data de disponibilidade: 18 de agosto de 2026
 
-* **Simplificação da dimensão de público-alvo** - A dimensão de público-alvo ativa agora é mostrada na tela do fluxo de trabalho, para que você possa ver qual dimensão é usada por uma atividade de canal. O fluxo de segmentação de várias entidades é mais simples, pois você não precisa mais de uma atividade &quot;Alterar dimensão&quot; separada. Além disso, agora você pode escolher explicitamente se as mensagens são enviadas no nível do perfil ou em um nível de dimensão secundário. [Saiba mais](../orchestrated/activities/channels.md#add)
+* **Simplificação da dimensão de destino**: a dimensão de direcionamento ativa agora é mostrada na tela do fluxo de trabalho, para que você possa ver qual dimensão é usada por uma atividade de canal. O fluxo de segmentação de várias entidades é mais simples, pois você não precisa mais de uma atividade Mudar dimensão separada. Além disso, agora você pode escolher explicitamente se as mensagens são enviadas no nível do perfil ou em um nível de dimensão secundário. [Saiba mais](../orchestrated/activities/channels.md#add)
 
   Data de disponibilidade: 18 de agosto de 2026
 
@@ -288,11 +287,11 @@ Os recursos e melhorias a seguir foram introduzidos nas Campanhas orquestradas n
 
 ### Canais {#august-26-channels}
 
-* **Metadados de execução de atividade ao vivo (executionMetadata)** - As campanhas de atividade ao vivo acionadas por API (Transacional e Marketing) agora oferecem suporte a um campo executionMetadata opcional em cada destinatário. Isso permite anexar dados de chave/valor personalizados, como uma ID de pedido, camada de fidelidade ou código de região, a uma execução. [Saiba mais](../mobile-live/create-mobile-live.md#metadata)
+* **Metadados de execução de atividade ao vivo (executionMetadata)**: as campanhas de atividade ao vivo acionadas por API (Transacional e Marketing) agora oferecem suporte a um campo executionMetadata opcional em cada destinatário. Isso permite anexar dados de chave/valor personalizados, como uma ID de pedido, nível de fidelidade ou código de região, a uma execução. [Saiba mais](../mobile-live/create-mobile-live.md#metadata)
 
   Data de disponibilidade: 19 de agosto de 2026
 
-* **Complemento de desempenho para taxa de transferência - Push** - Um novo modo de mensagens transacionais de alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Anteriormente disponível apenas para o canal de email, esse recurso agora também está disponível para o canal de push, para organizações que compraram a oferta complementar de Mensagens transacionais de alta capacidade da Adobe. Entre em contato com o representante da Adobe para obter mais informações. [Saiba mais](../campaigns/api-triggered-high-throughput.md)
+* **Complemento de desempenho para taxa de transferência - Push**: um novo modo de mensagens transacionais de alta taxa de transferência está disponível em campanhas acionadas por API. Esse modo é projetado para mensagens transacionais em tempo real de grande escala e aceita até 5.000 transações por segundo com maior disponibilidade. Anteriormente disponível apenas para o canal de email, esse recurso agora também está disponível para o canal de push, para organizações que adquiriram a oferta complementar de Mensagens transacionais com alta taxa de transferência da Adobe. Entre em contato com o representante da Adobe para obter mais informações. [Saiba mais](../campaigns/api-triggered-high-throughput.md)
 
   Data de disponibilidade: 11 de agosto de 2026
 
@@ -304,43 +303,26 @@ Os recursos e melhorias a seguir foram introduzidos nas Campanhas orquestradas n
 
 ### Tomada de decisão {#decisioning-august}
 
-* **Limite de frequência no nível de posicionamento na Decisão** - As regras de limite de frequência na Decisão agora podem ser segmentadas para posicionamentos individuais, fornecendo controle mais fino sobre a frequência com que uma oferta é exibida em determinada superfície. Dois modos estão disponíveis: **limite específico de posicionamento**, que define um limite que se aplica somente quando a oferta é exibida em um posicionamento selecionado, e **limite por posicionamento**, que aplica um limite independentemente em cada posicionamento em que a oferta é exibida, de modo que cada posicionamento mantém seu próprio contador de limite. Observe que o limite relacionado à disposição não se aplica a ofertas limitadas usando regras baseadas em dados do Adobe Experience Platform. [Saiba mais](../experience-decisioning/items.md#capping)
+* **Limite de frequência no nível de posicionamento na Decisão**: as regras de limite de frequência na Decisão agora podem ser segmentadas para posicionamentos individuais, fornecendo controle mais fino sobre a frequência com que uma oferta é exibida em determinada superfície. Dois modos estão disponíveis: **limite específico de posicionamento**, que define um limite que se aplica somente quando a oferta é exibida em um posicionamento selecionado, e **limite por posicionamento**, que aplica um limite independentemente em cada posicionamento em que a oferta é exibida, de modo que cada posicionamento mantém seu próprio contador de limite. Observe que o limite relacionado à disposição não se aplica a ofertas limitadas usando regras baseadas em dados do Adobe Experience Platform. [Saiba mais](../experience-decisioning/items.md#capping)
 
   Data de disponibilidade: 24 de agosto de 2026
 
-* **Mirror pages em fragmentos visuais** - Agora é possível inserir mirror pages em um fragmento visual. Os atributos de decisão são renderizados corretamente no link da mirror page, mesmo quando o fragmento é usado em uma campanha de email que usa a Decisão. A mirror page deve ser adicionada ao fragmento visual antes de o fragmento ser publicado para que os atributos de decisão sejam exibidos. [Saiba mais](../email/message-tracking.md#decisioning-mirror-page)
+* **Mirror pages em fragmentos visuais**: agora é possível inserir mirror pages em um fragmento visual. Os atributos de decisão são renderizados corretamente no link da mirror page, mesmo quando o fragmento é usado em uma campanha de email que usa a Decisão. A mirror page deve ser adicionada ao fragmento visual antes de o fragmento ser publicado para que os atributos de decisão sejam exibidos. [Saiba mais](../email/message-tracking.md#decisioning-mirror-page)
 
   Data de disponibilidade: 11 de agosto de 2026
-
-+++ Em breve — **as informações abaixo estão sujeitas a alterações.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Suporte à decisão no canal da Web</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A decisão agora está disponível para o canal da Web. Você pode usar políticas de decisão diretamente no editor visual da Web para fornecer as ofertas mais relevantes a cada visitante.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 ### Melhorias de usabilidade {#august-26-usability}
 
-* **Operações em massa no inventário de jornadas** - Agora é possível executar novas ações em massa diretamente da lista de inventário de jornadas, agilizando o gerenciamento de várias jornadas de uma só vez. Selecione várias jornadas e aplique qualquer uma destas novas ações em uma única etapa: **adicionar ao pacote**, **excluir**, **mover para a pasta**, **editar marcas** ou **gerenciar acesso**. Isso reduz a necessidade de repetir a mesma ação uma jornada por vez, simplificando o gerenciamento de jornadas para equipes que trabalham com um grande número de jornadas. [Saiba mais](../building-journeys/journey-ui.md)
+* **Várias seleções na nova tela de jornada**: a nova experiência de tela de jornada apresenta uma seleção simplificada de vários nós: mantenha a tecla Shift pressionada e arraste para selecionar vários nós de uma só vez, em vez de selecioná-los individualmente. Isso permite que ações em massa, como copiar, excluir ou salvar como um fragmento de jornada, sejam executadas com eficiência em vários nós. [Saiba mais](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+  Data de disponibilidade: 17 de agosto de 2026
+
+* **Operações em massa no inventário de jornadas**: agora é possível executar novas ações em massa diretamente da lista de inventário de jornadas, agilizando o gerenciamento de várias jornadas de uma só vez. Selecione várias jornadas e aplique qualquer uma destas novas ações em uma única etapa: **adicionar ao pacote**, **excluir**, **mover para a pasta**, **editar tags** ou **gerenciar acesso**. Isso reduz a necessidade de repetir a mesma ação uma jornada por vez, simplificando o gerenciamento de jornadas para equipes que trabalham com um grande número de jornadas. [Saiba mais](../building-journeys/journey-ui.md)
 
   Data de disponibilidade: 12 de agosto de 2026
 
-* **Nova experiência de Simulação de Conteúdo para testes de conteúdo** - O fluxo de trabalho **Simular conteúdo** apresenta uma experiência reprojetada: todas as variantes agora são renderizadas juntas em uma única grade rolável (lado a lado, empilhadas ou com layouts dispostos), substituindo o modo de exibição uma variante de cada vez. Uma única barra de ação inferior consolida a navegação entre variantes de teste, o zoom, a alternância de visor (desktop/celular), a alternância de local, a adição de entradas de amostra, a geração de variantes com IA, a escolha e o salvamento de usuários simulados e a importação ou exportação de variantes. Remover o painel esquerdo e recolher camadas de cabeçalho extras oferece visualizações com muito mais espaço. A opção **Alternar para experiência clássica** na barra de ação inferior permite reverter para a experiência anterior a qualquer momento. [Saiba mais](../test-approve/simulate-content-variations.md)
+* **Nova experiência de Simulação de conteúdo para testes de conteúdo**: o fluxo de trabalho **Simular conteúdo** apresenta uma experiência reprojetada; todas as variantes agora são renderizadas juntas em uma única grade rolável (lado a lado, empilhadas ou com layouts dispostos), substituindo o modo de exibição uma variante de cada vez. Uma única barra de ações na parte inferior consolida a navegação entre variantes de teste, o zoom, a alternância de visualização (desktop/dispositivo móvel), a mudança de localidade, a adição de exemplos de entrada, a geração de variantes com IA, a seleção e o salvamento de usuários simulados, bem como a importação ou exportação de variantes. Remover o painel esquerdo e recolher camadas de cabeçalho extras oferece visualizações com muito mais espaço. A opção **Alternar para experiência clássica** na barra de ação inferior permite reverter para a experiência anterior a qualquer momento. [Saiba mais](../test-approve/simulate-content-variations.md)
 
   Data de disponibilidade: 11 de agosto de 2026
 
-* **Várias seleções na nova tela de jornada** - A nova experiência de tela de jornada apresenta uma seleção simplificada de vários nós: mantenha a tecla Shift pressionada e arraste para selecionar vários nós de uma só vez, em vez de selecioná-los individualmente. Isso permite que ações em massa, como copiar, excluir ou salvar como um fragmento de jornada, sejam executadas com eficiência em vários nós. [Saiba mais](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
-  Data de disponibilidade: 17 de agosto de 2026

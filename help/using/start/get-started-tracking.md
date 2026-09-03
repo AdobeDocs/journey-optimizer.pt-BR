@@ -276,9 +276,9 @@ O Journey Optimizer rastreia automaticamente experimentos de otimização, estra
 
 * **Otimização em suas campanhas e jornadas**:
 
-   * Ao criar experimentos, defina quais métricas rastrear (conversões, cliques, eventos personalizados). O Journey Optimizer coleta automaticamente dados de desempenho para cada tratamento. [Saiba mais](../content-management/optimization-experimentation.md)
+  * Ao criar experimentos, defina quais métricas rastrear (conversões, cliques, eventos personalizados). O Journey Optimizer coleta automaticamente dados de desempenho para cada tratamento. [Saiba mais](../content-management/optimization-experimentation.md)
 
-   * Crie regras de direcionamento para fornecer conteúdo diferente a segmentos de público-alvo diferentes. O Journey Optimizer rastreia automaticamente as métricas de envolvimento para cada grupo direcionado, permitindo que você compare o desempenho entre os segmentos. [Saiba mais](../content-management/optimization-targeting.md)
+  * Crie regras de direcionamento para fornecer conteúdo diferente a segmentos de público-alvo diferentes. O Journey Optimizer rastreia automaticamente as métricas de envolvimento para cada grupo direcionado, permitindo que você compare o desempenho entre os segmentos. [Saiba mais](../content-management/optimization-targeting.md)
 
 * **Otimização do caminho da Jornada**: adicione uma atividade **Otimizar** à jornada e configure vários caminhos. O Journey Optimizer rastreia automaticamente quais caminhos os perfis tomam e mede o desempenho. [Saiba mais](../building-journeys/optimize.md)
 

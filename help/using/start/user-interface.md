@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 6502d54fa05cba117a0ae72242d9c06dde2ce4ab
 workflow-type: tm+mt
 source-wordcount: 1608
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 85%
 
 >[!ENDSHADEBOX]
 
-Para acessar o Adobe Journey Optimizer, entre no [[!DNL Adobe CX Enterprise]](https://experience.adobe.com) com sua Adobe ID e selecione [!DNL Journey Optimizer].
+Para acessar o Adobe Journey Optimizer, faça logon no [[!DNL Adobe CX Enterprise]](https://experience.adobe.com) com sua Adobe ID e selecione [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
@@ -359,7 +359,7 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="Gerar expressões com IA"
->abstract="Use a IA para gerar e refinar expressões no Journey Optimizer."
+>abstract="Use IA para gerar e refinar expressões no Journey Optimizer."
 
 
 <!-- OC - LOAD FILE ACTIVITY -->

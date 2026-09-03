@@ -12,9 +12,9 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2: []
 subfeature_v2: []
 source-git-commit: 5431be148c30c46845fcd4220f492606f6a01c3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1421
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,11 +37,12 @@ Com sua estrutura de [governança de rotulagem e aplicação de uso de dados (DU
 
 Depois que os rótulos e as ações de marketing forem definidos, você poderá criar **políticas de governança de dados** que vinculam esses dois elementos. Por exemplo, você pode configurar uma política que associe um rótulo “ePHI” a uma ação de marketing de “direcionamento por email”, garantindo que os campos rotulados como “ePHI” não sejam usados para personalizar mensagens de email. [Saiba como criar políticas de governança de dados](#policy)
 
-Depois de criar as políticas de governança, você pode aplicar as ações de marketing às suas jornadas/campanhas e ações personalizadas das jornadas.[Saiba como aplicar ações de marketing no Journey Optimizer](#apply-marketing-actions)
+Depois de criar as políticas de governança, você pode aplicar as ações de marketing às suas jornadas/campanhas e ações personalizadas das jornadas.
+[Saiba como aplicar ações de marketing no Journey Optimizer](#apply-marketing-actions)
 
 >[!IMPORTANT]
 >
->A imposição de política DULE se aplica somente a **atributos de perfil**. Os campos baseados em eventos (atributos de contexto), como campos de evento de jornada, não são compatíveis com as políticas DULE. Os rótulos aplicados a campos de evento na interface do usuário não terão efeito e não restringirão o uso de dados.
+>A imposição de política DULE aplica-se somente a **atributos de perfil**. Os campos baseados em eventos (atributos de contexto), como campos de evento de jornada, não são compatíveis com as políticas DULE. Os rótulos aplicados a campos de evento na interface não têm efeito e não restringem o uso de dados.
 
 Ao criar uma jornada ou campanha, após selecionar uma configuração de canais ou uma ação personalizada, o sistema verifica se a ação de marketing na configuração do canal de mensagem ou na ação personalizada faz parte de uma política de governança de dados. Se sim, o sistema verifica se algum campo do público-alvo ou da personalização da mensagem está rotulado e restrito pela política. Se esse rótulo for detectado, a publicação da jornada ou campanha será bloqueada. [Saiba como detectar uma violação da política de governança de dados](#violation)
 
@@ -61,7 +62,7 @@ A primeira etapa para aplicar a política de governança de dados é criar rótu
 
    >[!NOTE]
    >
-   >Os rótulos só podem ser aplicados a **campos de atributo de perfil**. Campos baseados em eventos (por exemplo, campos de evento de contexto de jornada) não são compatíveis: os rótulos aplicados a esses campos não restringirão o uso de dados.
+   >Os rótulos só podem ser aplicados a **campos de atributo de perfil**. Campos baseados em eventos (por exemplo, campos de evento de contexto de jornada) não são compatíveis: os rótulos aplicados a esses campos não restringem o uso de dados.
 
 1. Volte para o menu **Políticas**, selecione a guia **Ação de marketing** e clique em **Criar ação de marketing**. Recomendamos que você crie uma ação de marketing para cada canal e ação personalizada de terceiros usada em suas jornadas. Por exemplo, vamos criar uma _ação de marketing do Slack_ que será usada em sua ação personalizada do Slack.
 

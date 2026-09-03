@@ -12,9 +12,9 @@ feature_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: d2b2142bf3c69acff998dffc9a3dbbf958b4adb1
+source-git-commit: 47f9503a977fedd560e822ef93203d862bb9f95a
 workflow-type: tm+mt
-source-wordcount: 2835
+source-wordcount: 2888
 ht-degree: 3%
 
 ---
@@ -62,6 +62,8 @@ Ao configurar um webhook, você pode definir sua finalidade com base no tipo de 
 >[!NOTE]
 >
 >Os dados de palavra-chave de entrada são armazenados no conjunto de dados do sistema _Conjunto de dados de rastreamento de email do AJO_, a menos que um conjunto de dados personalizado esteja configurado. Um perfil deve ter pelo menos uma mensagem enviada de [!DNL Journey Optimizer] antes que as mensagens de entrada sejam capturadas. [Saiba mais](../data/get-started-datasets.md#system-datasets)
+
+{{$include /help/_includes/mobile-opt-out-keyword-override.md}}
 
 Dependendo do seu provedor, haverá expectativas diferentes sobre o que precisa ser configurado para ter uma implementação de SMS bem-sucedida:
 
@@ -425,11 +427,11 @@ Para provedores de SMS personalizados, crie dois webhooks separados: um para eve
 
    ```json
    {
-   "clientReference": "{{client_reference}}",
+   "clientReference": "\{\{client_reference\}\}",
    "statuses": [
        {
-           "code": "{{failureCode}}",
-           "status": "{{feedbackStatus}}"
+           "code": "\{\{failureCode\}\}",
+           "status": "\{\{feedbackStatus\}\}"
        }
    ]
    }

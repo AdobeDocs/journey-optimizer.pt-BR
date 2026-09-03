@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 427
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -71,23 +71,23 @@ Esse recurso permite que profissionais de marketing apresentem conteúdo de míd
 
 ## Casos de uso
 
-Os cartões de conteúdo funcionam melhor quando você deseja que uma mensagem fique disponível para que os usuários atuem no seu próprio ritmo, em vez de interrompê-los no momento em que chega.
+Os cartões de conteúdo funcionam melhor quando você deseja que uma mensagem permaneça disponível para os usuários agirem em seu próprio ritmo, em vez de interrompê-los no momento em que ela chegar.
 
-| Benefícios | Por que | Exemplo de casos de uso |
+| Benefícios | Por que | Casos de uso de exemplo |
 | --- | --- | --- |
-| Visibilidade persistente | Os cartões permanecem no aplicativo ou site até que o usuário os ignore | Promoções contínuas, destaques do recurso que os usuários podem rever |
+| Visibilidade persistente | Os cartões permanecem no aplicativo ou site até que o usuário os descarte | Promoções contínuas, destaques de recurso que os usuários podem rever |
 | Entrega não intrusiva | Integra-se à interface em vez de interromper o usuário | Atualizações passivas mostradas junto com outro conteúdo |
 | Funciona sem a aceitação de push | Entregue no aplicativo ou no local, independentemente do consentimento da notificação por push | Acessar usuários que desativaram as notificações por push |
-| Mensagens visualmente ricas | Suporta botões de mídia e call-to-action | Destaques do produto com imagens e um botão &quot;Compre agora&quot; |
+| Mensagens visualmente relevantes | Compatível com botões de mídia e chamada para ação | Destaques do produto com imagens e um botão “Comprar agora” |
 
 ## Quando não usar
 
-Os cartões de conteúdo são destinados aos usuários de conteúdo que podem visualizar em seu próprio ritmo, de modo que não são adequados para cada cenário. Considere outro canal nas seguintes situações:
+Os cartões de conteúdo destinam-se ao conteúdo que os usuários podem visualizar em seu próprio ritmo, portanto, não são adequados para todos os cenários. Considere outro canal nas seguintes situações:
 
-* A mensagem é um alerta sensível ao tempo, pois os usuários podem não abrir o aplicativo ou site a tempo de ver o cartão
-* Os usuários de destino estão inativos, já que os cartões de conteúdo são exibidos somente no aplicativo ou site e os usuários inativos nunca os verão
+* A mensagem é um alerta urgente, pois os usuários podem não abrir o aplicativo ou site a tempo de ver o cartão
+* Os usuários de destino estão inativos, já que os cartões de conteúdo são exibidos somente no aplicativo ou site e os usuários inativos nunca os veem
 * O conteúdo é confidencial ou requer manipulação segura que um cartão persistente e visível não pode garantir
-* A mensagem precisa de uma call to action urgente, como uma promoção rápida, em que uma notificação por push ou email solicitaria uma ação mais rápida
+* A mensagem precisa de uma chamada para ação urgente, como uma promoção rápida, em que uma notificação por push ou email solicitaria uma ação mais rápida
 
 ## Recursos adicionais
 

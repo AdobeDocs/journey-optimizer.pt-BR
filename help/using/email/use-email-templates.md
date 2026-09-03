@@ -53,9 +53,9 @@ Você pode escolher entre:
 
 * **Modelos salvos**. Também é possível usar um modelo personalizado que você:
 
-   * Criado do zero usando o menu **[!UICONTROL Modelos de conteúdo]**. [Saiba mais](../content-management/content-templates.md#content-templates)
+  * Criado do zero usando o menu **[!UICONTROL Modelos de conteúdo]**. [Saiba mais](../content-management/content-templates.md#content-templates)
 
-   * Salvo de um email em uma jornada ou campanha usando a opção **[!UICONTROL Salvar como modelo de conteúdo]**. [Saiba mais](../content-management/content-templates.md#video-templates)
+  * Salvo de um email em uma jornada ou campanha usando a opção **[!UICONTROL Salvar como modelo de conteúdo]**. [Saiba mais](../content-management/content-templates.md#video-templates)
 
 Para começar a criar o conteúdo com um dos modelos de amostra ou salvos, siga as etapas abaixo.
 

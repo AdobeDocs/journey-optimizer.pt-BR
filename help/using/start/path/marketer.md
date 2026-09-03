@@ -28,9 +28,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1733
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Como **Profissional de marketing** ou **Profissional de negócios**, você cria 
 
 >[!NOTE]
 >
->Novo no Journey Optimizer? Leia [O que é o Journey Optimizer](../get-started.md) antes de iniciar este guia.
+>É novo(a) no Journey Optimizer? Leia [O que é o Journey Optimizer](../get-started.md) antes de iniciar este guia.
 
 Trabalhe com [admins](administrator.md) para obter acesso e com [engenheiros(as) de dados](data-engineer.md) na configuração de públicos-alvo, dados e esquemas relacionais para segmentação avançada. Consulte a visão geral [Introdução ao gerenciamento de dados](../../data/gs-data.md) para entender qual configuração de dados é necessária antes de criar jornadas e campanhas.
 
@@ -63,7 +63,7 @@ Siga estas etapas principais para começar a criar experiências:
 1. **Criar públicos-alvo**. Crie públicos-alvo por meio de definições de segmento, carregue arquivos CSV ou use a composição de público-alvo. O Journey Optimizer oferece várias maneiras de direcionar os clientes certos. Saiba mais sobre [públicos-alvo](../../audience/about-audiences.md) e a [criação de definições de segmento](../../audience/creating-a-segment-definition.md).
 
 1. **Criar conteúdo**. Crie mensagens atraentes em todos os canais, incluindo email, SMS, notificações push, notificações push na web, anúncios em aplicativos, web, correspondência direta e cartões de conteúdo:
-   * Use a IA para gerar conteúdo de email, linhas de assunto e imagens com base nas diretrizes da sua marca. [Saiba mais sobre a geração de conteúdo de IA](../../content-management/gs-generative.md)
+   * Use IA para gerar conteúdo de email, linhas de assunto e imagens com base nas diretrizes da sua marca. [Saiba mais sobre a geração de conteúdo de IA](../../content-management/gs-generative.md)
    * **Personalize mensagens** com dados do cliente, conteúdo dinâmico e lógica condicional. [Saiba mais sobre personalização](../../personalization/personalize.md)
    * **Itere sobre dados contextuais** para exibir listas dinâmicas de eventos, ações personalizadas e pesquisas de conjuntos de dados. [Saiba mais sobre a iteração de dados contextuais](../../personalization/iterate-contextual-data.md)
    * Crie **modelos de conteúdo** e **fragmentos** reutilizáveis para manter a consistência da marca. [Trabalhar com modelos](../../content-management/content-templates.md)
@@ -130,7 +130,7 @@ Siga estas etapas principais para começar a criar experiências:
 
 * **Comece com modelos**: use modelos pré-criados e fragmentos de conteúdo para acelerar a criação e manter a consistência
 * **Teste com antecedência, teste com frequência**: sempre visualize o conteúdo nos dispositivos e use perfis de teste para validar a personalização
-* **Aproveite a IA com sabedoria**: use a IA para rascunhos e variações iniciais, mas sempre revise e refine para voz da sua marca
+* **Use a IA com sabedoria**: use IA para criar rascunhos e variações iniciais, mas sempre revise e refine de acordo com a voz da marca
 * **Mantenha a simplicidade**: mensagens claras e concisas com chamadas para ação fortes têm melhor desempenho do que layouts complexos
 
 ### Design da jornada
@@ -168,7 +168,7 @@ Siga estas etapas principais para começar a criar experiências:
 
 [Saiba mais sobre o limite de frequência](../../conflict-prioritization/channel-capping.md)
 
-## Explore casos de uso
+## Explorar casos de uso
 
 Aprenda com exemplos práticos que demonstram os recursos do Journey Optimizer:
 
@@ -235,7 +235,7 @@ Colabore com os [Admins](administrator.md) no acesso e nas configurações:
 ## Próximas etapas
 
 1. **Comece aos poucos**: crie uma jornada de boas-vindas simples ou uma campanha de mensagem única para conhecer a plataforma
-2. **Aproveite a IA**: use a IA para fazer perguntas e acelerar a criação de conteúdo
+2. **Use a IA**: use IA para fazer perguntas e acelerar a criação de conteúdo
 3. **Ingresse na comunidade**: conecte-se a outros usuários do Journey Optimizer na [Comunidade da Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}
 4. **Explore tutoriais**: assista aos vídeos passo a passo na [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR){target="_blank"}
 

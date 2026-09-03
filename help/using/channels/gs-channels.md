@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: aeba428ed2890e334da72d34c0f9e8d748dee282
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 716
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -79,11 +79,11 @@ Forneça atualizações persistentes em tempo real diretamente na Tela de bloque
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=pt-BR)
 
-Mensagens móveis
+Mensagens para dispositivos móveis
 
 Entenda como criar, gerenciar e configurar mensagens por SMS, MMS e RCS para fins de marketing e transacionais, incluindo conformidade e personalização.
 
-[Saiba mais sobre Mensagens móveis](../mobile/get-started-mobile.md)
+[Saiba mais sobre Mensagens para dispositivos móveis](../mobile/get-started-mobile.md)
 :::
 
 :::

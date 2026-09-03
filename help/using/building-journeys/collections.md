@@ -166,43 +166,43 @@ Embora as coleções em ações personalizadas forneçam flexibilidade para tran
 
   Exemplo:
 
-   1. O exemplo a seguir ilustra um **caso de uso não suportado**.
+  1. O exemplo a seguir ilustra um **caso de uso não suportado**.
 
-      Neste exemplo, a matriz products inclui uma matriz aninhada (`locations`) com um número dinâmico de itens, para o qual não há suporte em cargas de solicitação.
+     Neste exemplo, a matriz products inclui uma matriz aninhada (`locations`) com um número dinâmico de itens, para o qual não há suporte em cargas de solicitação.
 
-      ```json
-      {
-      "products": [
-         {
-            "id": "productA",
-            "name": "A",
-            "price": 20,
-            "locations": [
-            { "name": "Paris" },
-            { "name": "London" }
-            ]
-         }
-      ]
-      }
-      ```
+     ```json
+     {
+     "products": [
+        {
+           "id": "productA",
+           "name": "A",
+           "price": 20,
+           "locations": [
+           { "name": "Paris" },
+           { "name": "London" }
+           ]
+        }
+     ]
+     }
+     ```
 
-   2. Exemplo compatível, com itens fixos definidos como constantes.
+  2. Exemplo compatível, com itens fixos definidos como constantes.
 
-      Nesse caso, os locais aninhados são substituídos por campos fixos (`location1`, `location2`), permitindo que a carga permaneça válida dentro da configuração com suporte.
+     Nesse caso, os locais aninhados são substituídos por campos fixos (`location1`, `location2`), permitindo que a carga permaneça válida dentro da configuração com suporte.
 
-      ```json
-      {
-      "products": [
-         {
-            "id": "productA",
-            "name": "A",
-            "price": 20,
-            "location1": { "name": "Paris" },
-            "location2": { "name": "London" }
-         }
-      ]
-      }
-      ```
+     ```json
+     {
+     "products": [
+        {
+           "id": "productA",
+           "name": "A",
+           "price": 20,
+           "location1": { "name": "Paris" },
+           "location2": { "name": "London" }
+        }
+     ]
+     }
+     ```
 
 
 * **Testando coleções**: para testar coleções usando o modo de teste, você deve usar o modo de exibição de código. Observe que o modo de exibição de código não é compatível com eventos comerciais, portanto, nesse caso, você só pode enviar uma coleção contendo um único elemento.

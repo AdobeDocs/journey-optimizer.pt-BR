@@ -110,7 +110,7 @@ As principais etapas para trabalhar com a Decisão são as seguintes:
 1. **Crie uma política de decisão e incorpore-a à sua jornada ou campanha** (experiência baseada em código, email, SMS ou push): as políticas de decisão combinam várias estratégias de seleção para determinar os itens de decisão qualificados a serem exibidos para o público-alvo desejado.
 
    ➡️ [Saiba como trabalhar com políticas de decisão](create-decision.md)
-➡️ Para entregar com êxito a oferta por meio do canal de experiência baseado em código, siga as etapas de implementação em [esta seção](../code-based/code-based-implementation-samples.md).
+   ➡️ Para entregar com êxito a oferta por meio do canal de experiência baseado em código, siga as etapas de implementação em [esta seção](../code-based/code-based-implementation-samples.md).
 
 >[!NOTE]
 >

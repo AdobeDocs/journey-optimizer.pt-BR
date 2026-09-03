@@ -54,9 +54,9 @@ As principais etapas para configurar ofertas, incluí-las em uma decisão e apro
    * Criar ofertas
    * Para cada oferta:
 
-      * Crie representações e selecione uma disposição e um ativo para cada representação
-      * Adicionar uma regra para cada oferta
-      * Definir uma prioridade para cada oferta
+     * Crie representações e selecione uma disposição e um ativo para cada representação
+     * Adicionar uma regra para cada oferta
+     * Definir uma prioridade para cada oferta
 
 1. [Criar uma oferta substituta](#create-fallback)
 

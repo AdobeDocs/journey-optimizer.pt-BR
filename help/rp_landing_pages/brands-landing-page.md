@@ -6,15 +6,15 @@ description: Saiba como criar, gerenciar e personalizar as diretrizes da marca n
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
 source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # Marcas{#section-overview}
 
-No Adobe Journey Optimizer, o recurso de “Marcas” permite definir e manter a identidade exclusiva da sua marca em todas as suas iniciativas de marketing. Ao configurar diretrizes visuais e verbais claras, como cores, logotipos, estilos de escrita e imagens, você garante que cada parte do conteúdo se adeque ao seu público-alvo e reforce a sua marca. Você explorará como criar e personalizar essas diretrizes, definir preferências padrão para integração contínua e usar ferramentas como Gerar conteúdo para gerar conteúdo consistente e sob marca. Mergulhe de cabeça em tópicos como estilo de escrita, conteúdo visual e alinhamento à marca para ver como esses elementos funcionam juntos para criar uma experiência unificada para os seus clientes.
+No Adobe Journey Optimizer, o recurso de “Marcas” permite definir e manter a identidade exclusiva da sua marca em todas as suas iniciativas de marketing. Ao configurar diretrizes visuais e verbais claras, como cores, logotipos, estilos de escrita e imagens, você garante que cada parte do conteúdo se adeque ao seu público-alvo e reforce a sua marca. Você verá como criar e personalizar essas diretrizes, definir preferências padrão para uma integração perfeita e usar ferramentas como Gerar conteúdo para gerar conteúdo consistente e alinhado à marca. Mergulhe de cabeça em tópicos como estilo de escrita, conteúdo visual e alinhamento à marca para ver como esses elementos funcionam juntos para criar uma experiência unificada para os seus clientes.
 
 ## Recursos de marcas
 
@@ -63,4 +63,4 @@ Saiba como criar e gerenciar modelos personalizados de IA generativa, treinados 
 
 ## Recursos adicionais
 
-- **[Faça o curso: Criação de conteúdo sob marca e baseado em IA](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}** - Saiba como criar conteúdo sob marca no Adobe Journey Optimizer para profissionais de marketing usando ferramentas alimentadas por IA.
+- **[Faça o curso: Criação de conteúdo consistente com a marca viabilizada por IA](https://experienceleague.adobe.com/pt-br/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}** - saiba como criar conteúdo consistente com a marca no Adobe Journey Optimizer para profissionais de marketing usando ferramentas viabilizadas por IA.

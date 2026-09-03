@@ -32,8 +32,8 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1602
-ht-degree: 29%
+source-wordcount: 1605
+ht-degree: 26%
 
 ---
 
@@ -53,7 +53,7 @@ Quer você esteja explorando acionadores em tempo real, gerenciando propriedades
 
 Use o [!DNL Journey Optimizer] para criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. Crie cenários avançados com várias etapas que respondam ao comportamento do cliente e aos eventos comerciais em tempo real.
 
-O designer de jornadas do Journey Optimizer oferece tudo que profissionais de marketing e de jornadas precisam para orquestrar jornadas 1:1 de várias etapas nos canais. Isso inclui uma tela intuitiva com interface de arrastar e soltar para criar cada etapa da jornada, definir o público-alvo e incluir as mensagens, ofertas e conteúdo nos canais que os membros do público-alvo verão com base no comportamento, nos dados contextuais e nos eventos de negócios.
+O designer de jornadas do Journey Optimizer oferece tudo o que os profissionais de marketing e jornadas precisam para orquestrar jornadas de várias etapas 1:1 em todos os canais. Isso inclui uma tela intuitiva com interface de arrastar e soltar para criar cada etapa da jornada, definir o público-alvo e incluir as mensagens, ofertas e conteúdo nos canais que os membros do público-alvo verão com base no comportamento, nos dados contextuais e nos eventos de negócios.
 
 ![Interface do designer de jornadas com paleta, tela e painel de propriedades](assets/journey38.png)
 
@@ -138,7 +138,7 @@ Teste suas jornadas antes de publicar, monitore o desempenho e otimize o deliver
 
 ## Casos de uso e exemplos {#use-cases}
 
-No designer de jornadas, profissionais de marketing podem enviar mensagens 1:1 acionadas em tempo real por qualquer canal quando um evento ocorre. Por exemplo, quando um(a) cliente assina um serviço, ele pode [acionar um email de boas-vindas](message-to-subscribers-uc.md), incentivando-o(a) a fazer logon no aplicativo pela primeira vez e definir suas preferências. Ações como concluir a compra, abrir o email e fazer logon no aplicativo podem ser usadas como incentivos para o progresso de clientes em suas jornadas.
+No designer do jornada, os profissionais de marketing podem enviar mensagens 1:1 acionadas em tempo real por meio de qualquer canal quando ocorre um evento. Por exemplo, quando um(a) cliente assina um serviço, ele pode [acionar um email de boas-vindas](message-to-subscribers-uc.md), incentivando-o(a) a fazer logon no aplicativo pela primeira vez e definir suas preferências. Ações como concluir a compra, abrir o email e fazer logon no aplicativo podem ser usadas como incentivos para o progresso de clientes em suas jornadas.
 
 O [designer do jornada](using-the-journey-designer.md) fornece [ações de canal integradas](journey-action.md) que oferecem suporte a mensagens de saída, como emails, notificações por push e SMS/RCS/MMS, bem como canais de entrada, incluindo aplicativos móveis, sites e experiências baseadas em código criados diretamente no Journey Optimizer. Você também pode usar sistemas de terceiros para enviar mensagens — o Journey Optimizer inclui [ações personalizadas](using-custom-actions.md) para permitir que esses sistemas sejam integrados ao jornada diretamente do designer do jornada.
 
@@ -300,7 +300,7 @@ Para uma compreensão completa, essas informações devem ser combinadas com a d
 **Intenções:**
 * Entenda os principais recursos disponíveis no designer do Journey Optimizer jornada antes de criar uma primeira jornada
 * Navegue até o recurso correto para criar, gerenciar, testar ou solucionar problemas de jornadas
-* Saiba como acionar 1:1 mensagens em tempo real em qualquer canal usando o designer do jornada
+* Saiba como acionar mensagens em tempo real 1:1 em qualquer canal usando o designer do jornada
 * Descubra como os fragmentos de Jornada permitem a reutilização da lógica de nó comum entre jornadas
 * Acesse tutoriais em vídeo e guias passo a passo para casos de uso comuns de jornada, como séries de boas-vindas, abandono de carrinho e otimização de tempo de envio
 

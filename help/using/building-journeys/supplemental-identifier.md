@@ -17,8 +17,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2742
-ht-degree: 1%
+source-wordcount: 2792
+ht-degree: 2%
 
 ---
 
@@ -65,8 +65,8 @@ ht-degree: 1%
 
   O comportamento de reentrada da jornada com identificadores complementares segue a política de reentrada existente:
 
-   * Se a jornada não for reentrante, a mesma ID de perfil + ID complementar não poderá entrar na jornada novamente.
-   * Se a jornada for reentrante com uma janela de tempo, a mesma combinação de ID de perfil + ID complementar poderá entrar novamente após a janela de tempo definida.
+  * Se a jornada não for reentrante, a mesma ID de perfil + ID complementar não poderá entrar na jornada novamente.
+  * Se a jornada for reentrante com uma janela de tempo, a mesma combinação de ID de perfil + ID complementar poderá entrar novamente após a janela de tempo definida.
 
 * **DULE (Rotulagem e Imposição de Uso de Dados)** - Nenhuma verificação de validação de DULE é executada na ID complementar. Isso significa que esse atributo não será considerado quando a jornada estiver procurando por violações da política de governança de dados.
 
@@ -76,10 +76,10 @@ ht-degree: 1%
 
 * **Ler jornadas de público-alvo**
 
-   * **Eventos comerciais**: a ID complementar estará desabilitada se você usar um evento comercial.
-   * **Campos de evento e contexto**: o identificador complementar não deve ser originado de um campo de contexto de jornada ou evento.
-   * **Seleção de atributo**: qualquer atributo que não seja de identidade (ou identidade que não seja de pessoa) pode ser usado como ID complementar para todos os tipos de público-alvo (Serviço de Perfil Unificado, importação de CSV e Composição de Público Federado). Atributos de identidade baseados em pessoas não são permitidos. Para públicos externos, consulte [Identificadores complementares com públicos externos](#external-audiences) para obter padrões de dados e requisitos de configuração compatíveis.
-   * **Taxa de leitura**: para jornadas de leitura de público-alvo usando um campo de ID complementar do tipo matriz, a taxa de leitura da atividade Read audience é limitada a no máximo 500 perfis por segundo.
+  * **Eventos comerciais**: a ID complementar estará desabilitada se você usar um evento comercial.
+  * **Campos de evento e contexto**: o identificador complementar não deve ser originado de um campo de contexto de jornada ou evento.
+  * **Seleção de atributo**: qualquer atributo que não seja de identidade (ou identidade que não seja de pessoa) pode ser usado como ID complementar para todos os tipos de público-alvo (Serviço de Perfil Unificado, importação de CSV e Composição de Público Federado). Atributos de identidade baseados em pessoas não são permitidos. Para públicos externos, consulte [Identificadores complementares com públicos externos](#external-audiences) para obter padrões de dados e requisitos de configuração compatíveis.
+  * **Taxa de leitura**: para jornadas de leitura de público-alvo usando um campo de ID complementar do tipo matriz, a taxa de leitura da atividade Read audience é limitada a no máximo 500 perfis por segundo.
 
 ## Comportamento dos critérios de saída com IDs complementares {#exit-criteria}
 
@@ -307,25 +307,25 @@ Estes exemplos mostram como os identificadores complementares suportam vários r
 
 * **Cenário**: um provedor de seguro envia lembretes de renovação para cada política ativa mantida por um cliente.
 * **Execução**:
-   * Perfil: &quot;John&quot;.
-   * IDs complementares: `"AutoPolicy123", "HomePolicy456"`.
-   * O Jornada é executado separadamente para cada política, com datas de renovação personalizadas, detalhes de cobertura e informações sobre prêmios.
+  * Perfil: &quot;John&quot;.
+  * IDs complementares: `"AutoPolicy123", "HomePolicy456"`.
+  * O Jornada é executado separadamente para cada política, com datas de renovação personalizadas, detalhes de cobertura e informações sobre prêmios.
 
 ### **Gerenciamento de Assinaturas**
 
 * **Cenário**: um serviço de assinatura envia mensagens personalizadas para cada assinatura quando um evento é acionado para essa assinatura.
 * **Execução**:
-   * Perfil: &quot;Jane&quot;.
-   * IDs complementares: `"Luma Yoga Program ", "Luma Fitness Program"`.
-   * Cada evento inclui uma ID de assinatura e detalhes sobre essa assinatura. O Jornada é executado separadamente para cada evento/assinatura, permitindo ofertas de renovação personalizadas por assinatura.
+  * Perfil: &quot;Jane&quot;.
+  * IDs complementares: `"Luma Yoga Program ", "Luma Fitness Program"`.
+  * Cada evento inclui uma ID de assinatura e detalhes sobre essa assinatura. O Jornada é executado separadamente para cada evento/assinatura, permitindo ofertas de renovação personalizadas por assinatura.
 
 ### **Recomendações de produto**
 
 * **Cenário**: uma plataforma de comércio eletrônico envia recomendações com base em produtos específicos comprados por um cliente.
 * **Execução**:
-   * Perfil: &quot;Alex&quot;.
-   * IDs complementares: `"productID1234", "productID5678"`.
-   * O Jornada é executado separadamente para cada produto, com oportunidades personalizadas de venda adicional.
+  * Perfil: &quot;Alex&quot;.
+  * IDs complementares: `"productID1234", "productID5678"`.
+  * O Jornada é executado separadamente para cada produto, com oportunidades personalizadas de venda adicional.
 
 ## Vídeo tutorial {#video}
 

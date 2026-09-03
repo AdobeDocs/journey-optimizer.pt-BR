@@ -30,7 +30,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 6657a77a27455643fa0fb3d94a4d7e3ab83e6843
 workflow-type: tm+mt
-source-wordcount: 2407
+source-wordcount: 2401
 ht-degree: 15%
 
 ---
@@ -84,7 +84,7 @@ Você pode configurar três tipos de eventos: **Eventos unitários**, **Eventos 
 
 >[!NOTE]
 >
->As jornadas unitárias incluem uma proteção de reentrada: a reentrada do perfil é bloqueada por padrão por 5 minutos após o acionamento da jornada. Por exemplo, se um evento acionar uma jornada em 12:01 para um perfil e outra chegar em 12:03, a jornada não será reiniciada para esse perfil.
+>As jornadas unitárias incluem uma proteção de reentrada: a reentrada do perfil é bloqueada por padrão por 5 minutos após o acionamento da jornada. Por exemplo, se um evento acionar uma jornada às 12h01 para um perfil e outra chegar às 12h03, a jornada não será reiniciada para esse perfil.
 
 ## Eventos de negócios {#business-events}
 

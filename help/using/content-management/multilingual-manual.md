@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c26beaed1c61e719f5066190970a649e28207566
+source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
 workflow-type: tm+mt
-source-wordcount: 1072
+source-wordcount: 1114
 ht-degree: 2%
 
 ---
@@ -197,6 +197,10 @@ Depois de configurar seu conteúdo multilíngue, você está pronto para criar a
 1. Escolha o local desejado no menu suspenso para aplicar ao conteúdo criado existente.
 
 1. Acesse as configurações avançadas do menu **[!UICONTROL Localidades]** e selecione **[!UICONTROL Copiar para todas as localidades]**.
+
+   >[!NOTE]
+   >
+   >Esta operação processa a carga de email completa no back-end e está sujeita à mesma [proteção de tamanho do conteúdo da mensagem](../start/guardrails.md#message-content-size) que a publicação do jornada (máximo de 2 MB, idealmente menos de 1 MB). Se o seu conteúdo for grande, copie para um número menor de locais de cada vez.
 
    ![](assets/multilingual-campaign-4.png)
 

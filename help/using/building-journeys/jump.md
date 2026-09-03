@@ -28,7 +28,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1982
+source-wordcount: 2057
 ht-degree: 4%
 
 ---
@@ -143,7 +143,7 @@ Crie cada fase como uma jornada separada no Journey Optimizer e use as atividade
    ![Lista suspensa de seleção de jornada de destino na configuração da atividade de salto](assets/jump2.png)
 
 1. Clique dentro do campo **jornada de destino**.
-A lista exibe todas as versões do jornada que são modo de rascunho, ativo ou de teste. As jornadas que usam um namespace diferente ou que começam com um evento **Qualificação de Público-Alvo** não estão disponíveis. As jornadas do Target que criariam um padrão de loop também são filtradas.
+A lista exibe todas as versões do jornada que são modo de rascunho, ativo ou de teste. As jornadas que usam um namespace diferente ou que começam com um evento **Qualificação de público-alvo** não estão disponíveis. As jornadas do Target que criariam um padrão de loop também são filtradas.
 
    ![Atividade de salto mostrando a jornada de destino e os parâmetros de ação](assets/jump3.png)
 

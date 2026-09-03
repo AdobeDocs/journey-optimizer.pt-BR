@@ -29,7 +29,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1117
+source-wordcount: 1140
 ht-degree: 11%
 
 ---
@@ -126,20 +126,20 @@ Para criar uma configuração no aplicativo no Journey Optimizer, siga estas eta
 
      +++ Como criar uma regra de correspondência de Páginas.
 
-      1. Selecione **[!UICONTROL Regra de correspondência de páginas]** como configuração de aplicativo e insira sua **[!UICONTROL URL da página]**.
+     1. Selecione **[!UICONTROL Regra de correspondência de páginas]** como configuração de aplicativo e insira sua **[!UICONTROL URL da página]**.
 
-      1. Na janela **[!UICONTROL Editar regra de configuração]**, defina seus critérios para os campos **[!UICONTROL Domínio]** e **[!UICONTROL Página]**.
-      1. Nos menus suspensos de condição, personalize ainda mais seus critérios.
+     1. Na janela **[!UICONTROL Editar regra de configuração]**, defina seus critérios para os campos **[!UICONTROL Domínio]** e **[!UICONTROL Página]**.
+     1. Nos menus suspensos de condição, personalize ainda mais seus critérios.
 
-         Aqui, por exemplo, para editar elementos exibidos em todas as páginas de produtos de vendas do site Luma, selecione Domínio > Começa com > Luma e Página > Contém > vendas.
+        Aqui, por exemplo, para editar elementos exibidos em todas as páginas de produtos de vendas do site Luma, selecione Domínio > Começa com > Luma e Página > Contém > vendas.
 
-         ![](assets/in_app_web_surface_4.png)
+        ![](assets/in_app_web_surface_4.png)
 
-      1. Clique em **[!UICONTROL Adicionar outra regra de página]** para criar outra regra, se necessário.
+     1. Clique em **[!UICONTROL Adicionar outra regra de página]** para criar outra regra, se necessário.
 
-      1. Selecione a **[!UICONTROL URL padrão de criação e visualização]**.
+     1. Selecione a **[!UICONTROL URL padrão de criação e visualização]**.
 
-      1. Salve as alterações. A regra é exibida na tela **[!UICONTROL Criar campanha]**.
+     1. Salve as alterações. A regra é exibida na tela **[!UICONTROL Criar campanha]**.
 
      +++
 

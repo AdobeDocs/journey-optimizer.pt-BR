@@ -6,7 +6,7 @@ description: Definir regras de limites de mensagens e jornada
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ As regras de limites fazem parte do [gerenciamento de conflitos e priorização]
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Trabalhar com conjuntos de regras
 
@@ -32,7 +32,7 @@ Saiba como criar, gerenciar e ativar conjuntos de regras para controlar a frequ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Limite e arbitragem de jornadas
 
@@ -42,7 +42,7 @@ Descubra como definir limites de simultaneidade e entradas da jornada, priorizar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Limite de frequência por canal
 
@@ -52,7 +52,7 @@ Entenda como criar e aplicar regras de limite da frequência específicas de cad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Definir horário de silêncio
 

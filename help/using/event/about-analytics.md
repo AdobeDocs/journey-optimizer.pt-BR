@@ -99,9 +99,9 @@ Depois que essa configuração for concluída, entre em contato com a Adobe para
 
    * Conteúdo: ative meu ambiente para usar eventos AA.
 
-      * ID da organização: &quot;XXX@AdobeOrg&quot;
+     * ID da organização: &quot;XXX@AdobeOrg&quot;
 
-      * ID da fonte de dados: &quot;ID: xxxxx&quot;
+     * ID da fonte de dados: &quot;ID: xxxxx&quot;
 
 1. Depois de ter uma confirmação de que o ambiente está pronto, você poderá usar os dados do Adobe Analytics nas jornadas.
 

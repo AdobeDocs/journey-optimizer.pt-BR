@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_20-28-03
 exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 hide: true
 source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -74,4 +74,4 @@ Instruções detalhadas para projetar, lançar e gerenciar campanhas de marketin
 
 ## Recursos adicionais
 
-- **[Monitoramento e Solução de Problemas](troubleshoot-journey-landing-page.md)** - Acompanhe o desempenho, monitore alertas e resolva problemas rapidamente, incluindo a solução de problemas de ativação de campanha.
+- **[Monitoramento e Solução de problemas](troubleshoot-journey-landing-page.md)**: acompanhe o desempenho, monitore alertas e resolva problemas rapidamente, incluindo a solução de problemas da ativação de campanha.

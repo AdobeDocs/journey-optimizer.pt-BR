@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
 source-wordcount: 1440
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -112,7 +112,7 @@ Para baixar e instalar a extensão de navegador Auxiliar de edição visual, sig
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-O Auxiliar de Edição Visual do Adobe Experience Cloud agora é habilitado automaticamente quando um site é aberto no [!DNL Journey Optimizer] [web designer](web-visual-editor.md) para habilitar a criação.
+O Auxiliar de Edição Visual da Adobe Experience Cloud agora é habilitado automaticamente quando um site é aberto no [!DNL Journey Optimizer] [web designer](web-visual-editor.md) para habilitar a criação.
 
 A extensão não tem configurações condicionais e lida com todas as configurações automaticamente, incluindo configurações de cookies SameSite.
 

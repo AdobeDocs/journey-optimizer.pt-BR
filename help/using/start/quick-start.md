@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Funções e responsabilidades | ADOBE JOURNEY OPTIMIZER
-description: Entenda as funções, as responsabilidades e a ordem de implementação recomendada para o Adobe Journey Optimizer.
+title: Funções e responsabilidades | Adobe Journey Optimizer
+description: Entenda as funções, as responsabilidades e a ordem de implementação recomendada do Adobe Journey Optimizer.
 feature: Get Started
 topic: Get Started
 role: Admin, Developer, User
@@ -41,9 +41,9 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2101
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ O Adobe Journey Optimizer é implementado por quatro funções distintas que tra
 
 >[!NOTE]
 >
->Novo no Journey Optimizer? Comece com [O que é Journey Optimizer](get-started.md) primeiro.
+>É novo(a) no Journey Optimizer? Comece por [O que é o Journey Optimizer](get-started.md).
 
 **Observação importante:** o Adobe Journey Optimizer define funções distintas com responsabilidades específicas. Uma única pessoa pode realizar várias funções ou todas as funções, dependendo da estrutura da organização.
 
@@ -67,7 +67,7 @@ O Adobe Journey Optimizer é implementado por quatro funções distintas que tra
 >
 >* Os componentes e recursos disponíveis no ambiente dependem de suas [permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
 >
->* As diretrizes e procedimentos gerais de privacidade do [!DNL Adobe CX Enterprise] se aplicam ao [!DNL Journey Optimizer]. [Saiba mais sobre [!DNL Adobe CX Enterprise] privacidade](https://www.adobe.com/br/privacy/experience-cloud.html){target="_blank"}.
+>* As diretrizes e os procedimentos gerais de privacidade do [!DNL Adobe CX Enterprise] aplicam-se ao [!DNL Journey Optimizer]. [Saiba mais sobre [!DNL Adobe CX Enterprise] privacidade](https://www.adobe.com/br/privacy/experience-cloud.html){target="_blank"}.
 
 ## Antes de começar {#before-you-begin}
 
@@ -126,7 +126,7 @@ Uma implementação bem-sucedida do Journey Optimizer normalmente segue essa seq
 4. **Profissional de marketing**: projeta e executa as experiências do cliente\
    Os profissionais de marketing aproveitam todo o trabalho de base para criar jornadas, conteúdo e otimizar as experiências do cliente em todos os canais.
    * Crie públicos-alvo usando a segmentação, upload de CSV ou a composição de público-alvo
-   * Projetar conteúdo personalizado com Gerar conteúdo e modelos
+   * Projetar conteúdo personalizado com o recurso Gerar conteúdo e modelos
    * Crie jornadas multicanal com acionadores de evento e público-alvo
    * Teste com fluxos de trabalho de aprovação antes do lançamento
    * Monitore o desempenho e otimize com base em insights de relatórios
@@ -270,7 +270,7 @@ Para lições e atualizações mais detalhadas, confira os seguintes recursos:
 * [Vídeos tutoriais](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR){target="_blank"} - Tutoriais em vídeo passo a passo para todas as funções
 * [Introdução à gestão de dados](../data/gs-data.md): esquemas, conjuntos de dados, identidades e a lista de verificação de preparação de dados do Journey Optimizer
 * [Biblioteca de casos de uso de jornadas](../building-journeys/jo-use-cases.md) - Exemplos práticos e padrões de implementação
-* [IA e recursos inteligentes](ai-features.md) - Saiba mais sobre IA, otimização de tempo de envio e geração de conteúdo
+* [IA e Recursos inteligentes](ai-features.md): saiba mais sobre IA, otimização do tempo de envio e geração de conteúdo
 * [Guia da Interface](user-interface.md) - Navegue pelo Journey Optimizer com eficiência
 
 >[!TAB Permaneça atualizado(a)]
@@ -291,6 +291,6 @@ Para lições e atualizações mais detalhadas, confira os seguintes recursos:
 | Função | Guia |
 |------|-------|
 | Administrador | [Introdução para administradores](path/administrator.md) |
-| Engenheiro de dados | [Introdução para engenheiros de dados](path/data-engineer.md) |
+| Engenheiro de dados | [introdução para engenheiros de dados](path/data-engineer.md) |
 | Desenvolvedor | [Introdução para desenvolvedores](path/developer.md) |
 | Profissional de marketing | [Introdução para profissionais de marketing](path/marketer.md) |

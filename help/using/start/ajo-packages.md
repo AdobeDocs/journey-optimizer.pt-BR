@@ -11,7 +11,7 @@ keywords: Otimizador de jornada, pacote, licença, campanhas, jornadas, canais, 
 hide: true
 source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1995'
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ Não. O [!DNL Adobe Journey Optimizer] usa um modelo modular: a oferta base dete
 
 **[As campanhas](../campaigns/get-started-with-campaigns.md)** são baseadas no público-alvo e planejadas pelo profissional de marketing — você define um público-alvo, cria uma mensagem e a agenda ou aciona como um envio em lote. Eles são melhores para alcance promocional, boletins informativos e fluxos de trabalho de público-alvo de várias etapas.
 
-As **[Jornadas](../building-journeys/journey-gs.md)** são orientadas por eventos e em tempo real. Elas reagem ao comportamento individual do cliente à medida que ele ocorre e organizam 1:1 experiências nos pontos de contato. Eles são melhores para fluxos de integração, sequências pós-compra e mensagens acionadas em tempo real.
+As **[Jornadas](../building-journeys/journey-gs.md)** são orientadas por eventos e em tempo real. Elas reagem ao comportamento individual do cliente à medida que ele ocorre e organizam experiências individuais em todos os pontos de contato. Eles são melhores para fluxos de integração, sequências pós-compra e mensagens acionadas em tempo real.
 
 O **Campaigns &amp; Jornada** oferece ambos os recursos em uma única licença.
 
@@ -64,7 +64,7 @@ Há três ofertas básicas disponíveis. Cada uma delas corresponde a uma maneir
 | Oferta base | Melhor para | Comportamento principal |
 |-----------|---------|--------------|
 | **[Journey Optimizer - Campanhas](../campaigns/get-started-with-campaigns.md)** | Lote, alcance planejado pelo profissional de marketing | Orquestração agendada com base no público-alvo. Workflows de campanha em uma ou várias etapas para envolvimento em lote e alcance planejado pelo profissional de marketing. |
-| **[Journey Optimizer - Jornada](../building-journeys/journey-gs.md)** | Engajamento do cliente em tempo real | Orquestração de 1:1 orientada por evento. Oferece suporte à entrega de jornadas em tempo real e programada. |
+| **[Journey Optimizer - Jornada](../building-journeys/journey-gs.md)** | Engajamento do cliente em tempo real | Orquestração 1:1 orientada por eventos. Oferece suporte à entrega de jornadas em tempo real e programada. |
 | **Journey Optimizer - Campanhas e Jornadas** | Clientes que precisam de ambos | Combina a orquestração de campanhas com base no público e a orquestração de jornadas em tempo real. |
 
 >[!IMPORTANT]

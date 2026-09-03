@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer
-description: Descubra o que é o Adobe Journey Optimizer, seus principais recursos e como ele se encaixa no Adobe Experience Platform.
+description: Descubra o que é o Adobe Journey Optimizer, seus principais recursos e como ele se encaixa na Adobe Experience Platform.
 feature: Get Started
 topic: Content Management
 role: User
@@ -34,9 +34,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
-source-wordcount: 831
-ht-degree: 83%
+workflow-type: ht
+source-wordcount: 832
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Um perfil integrado combina dados em tempo real de todas as fontes em todos os p
 
 ### Orquestração e execução omnicanais modernas
 
-Uma única tela para harmonizar e otimizar a jornada do cliente para a primeira:1 interação com o cliente e o alcance de marketing, a fim de ajudar as marcas a entregar mais valor em todo o ciclo de vida do cliente. As jornadas do cliente criadas no [!DNL Adobe Journey Optimizer] podem ser dinâmicas e baseadas em eventos para ajudar as marcas a reagir a sinais em tempo real, bem como conectar essas interações com campanhas programadas, para que sejam tomadas as decisões corretas com respeito a quais comunicações devem ser enviadas a um cliente, quando e por quais canais. As ferramentas de criação de conteúdo incorporadas, incluindo um designer visual de arrastar e soltar, modelos reutilizáveis, fragmentos de conteúdo e um editor de personalização, permitem que as equipes criem, personalizem e gerenciem mensagens para cada canal diretamente no mesmo fluxo de trabalho. [Crie a primeira jornada](../building-journeys/journey-gs.md) | [Projete o conteúdo](../../rp_landing_pages/content-management-landing-page.md)
+Uma tela única para harmonizar e otimizar a jornada do cliente, visando ao engajamento individualizado e às ações de marketing, ajudando as marcas a entregar mais valor ao longo de todo o ciclo de vida do cliente. As jornadas do cliente criadas no [!DNL Adobe Journey Optimizer] podem ser dinâmicas e baseadas em eventos para ajudar as marcas a reagir a sinais em tempo real, bem como conectar essas interações com campanhas programadas, para que sejam tomadas as decisões corretas com respeito a quais comunicações devem ser enviadas a um cliente, quando e por quais canais. As ferramentas de criação de conteúdo incorporadas, incluindo um designer visual de arrastar e soltar, modelos reutilizáveis, fragmentos de conteúdo e um editor de personalização, permitem que as equipes criem, personalizem e gerenciem mensagens para cada canal diretamente no mesmo fluxo de trabalho. [Crie a primeira jornada](../building-journeys/journey-gs.md) | [Projete o conteúdo](../../rp_landing_pages/content-management-landing-page.md)
 
 ### Tomada de decisões inteligente e personalização
 
@@ -89,9 +89,9 @@ As marcas podem aplicar a tomada de decisões centralizada e incorporar intelig�
 
 ## Casos de uso comuns {#use-cases}
 
-O Journey Optimizer oferece suporte a uma grande variedade de cenários — desde jornadas acionadas em tempo real e recuperação de carrinhos abandonados até campanhas programadas, decisões e notificações operacionais.
+O Journey Optimizer oferece suporte a uma grande variedade de cenários, desde jornadas acionadas em tempo real e recuperação de carrinhos abandonados até campanhas programadas, decisões e notificações operacionais.
 
-Para encontrar o recurso que se encaixa em sua meta, consulte a [visão geral dos casos de uso do Journey Optimizer](ajo-use-case-guide.md). Para exemplos completos e trabalhados, navegue pela [biblioteca de casos de uso do jornada](../building-journeys/jo-use-cases.md).
+Para encontrar o recurso que se encaixa em sua meta, consulte a [visão geral dos casos de uso do Journey Optimizer](ajo-use-case-guide.md). Para exemplos de ponta a ponta, navegue pela [biblioteca de casos de uso da jornada](../building-journeys/jo-use-cases.md).
 
 Não tem certeza se deseja usar Jornadas ou Campanhas para sua meta? Veja [Jornadas vs Campanhas: escolha a abordagem certa](journeys-vs-campaigns.md).
 
@@ -100,7 +100,7 @@ Não tem certeza se deseja usar Jornadas ou Campanhas para sua meta? Veja [Jorna
 
 Esta documentação abrange a versão atual do Journey Optimizer e aplica-se a usuários B2C e B2B Edition, salvo indicação em contrário. Os componentes e recursos disponíveis no ambiente dependem de suas [permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
 
-As diretrizes e procedimentos gerais de privacidade do [!DNL Adobe CX Enterprise] se aplicam ao [!DNL Journey Optimizer]. [Saiba mais sobre [!DNL Adobe CX Enterprise] privacidade](https://www.adobe.com/br/privacy/experience-cloud.html){target="_blank"}.
+Diretrizes e procedimentos gerais de privacidade do [!DNL Adobe CX Enterprise] aplicam-se a [!DNL Journey Optimizer]. [Saiba mais sobre [!DNL Adobe CX Enterprise] privacidade](https://www.adobe.com/br/privacy/experience-cloud.html){target="_blank"}.
 
 
 ## Arquitetura {#architecture}
@@ -120,10 +120,10 @@ O Journey Optimizer está integrado nativamente na Adobe Experience Platform e c
 
 ## O próximo passo {#where-next}
 
-| Eu quero... | Ir para... |
+| Eu quero… | Ir para… |
 |------------|--------|
-| Entender como o Journey Optimizer se integra ao Adobe Experience Platform | [Noções básicas sobre o Journey Optimizer](understanding-ajo.md) |
-| Começar na minha função específica | [Funções e responsabilidades](quick-start.md) |
-| Explore casos de uso | [visão geral dos casos de uso do Journey Optimizer](ajo-use-case-guide.md) |
+| Entenda como o Journey Optimizer integra-se à Adobe Experience Platform | [Noções básicas do Journey Optimizer](understanding-ajo.md) |
+| Introdução para minha função específica | [Funções e responsabilidades](quick-start.md) |
+| Explorar casos de uso | [Visão geral de casos de uso do Journey Optimizer](ajo-use-case-guide.md) |
 | Decidir entre Jornadas e campanhas | [Jornadas x campanhas](journeys-vs-campaigns.md) |
 | Consulte a terminologia principal | [Terminologia](terminology.md) |

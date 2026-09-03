@@ -25,7 +25,7 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2537
+source-wordcount: 2569
 ht-degree: 10%
 
 ---
@@ -206,11 +206,11 @@ Você definiu três critérios. O critério 1 e o critério 2 são combinados no
 As ofertas elegíveis para cada critério e sua prioridade (usada na avaliação da função de classificação) são as seguintes:
 
 * Grupo 1:
-   * Critério 1 - (Oferta 1, Oferta 2, Oferta 3) - Prioridade 1
-   * Critério 2 - (Oferta 3, Oferta 4, Oferta 5) - Prioridade 1
+  * Critério 1 - (Oferta 1, Oferta 2, Oferta 3) - Prioridade 1
+  * Critério 2 - (Oferta 3, Oferta 4, Oferta 5) - Prioridade 1
 
 * Grupo 2:
-   * Critério 3 - (Oferta 5, Oferta 6) - Prioridade 0
+  * Critério 3 - (Oferta 5, Oferta 6) - Prioridade 0
 
 As ofertas de critérios de prioridade mais alta são avaliadas primeiro e adicionadas à lista de ofertas classificadas.
 

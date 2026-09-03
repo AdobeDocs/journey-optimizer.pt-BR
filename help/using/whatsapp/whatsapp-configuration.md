@@ -86,9 +86,9 @@ Estas etapas devem ser executadas por um [Administrador do Sistema](../start/pat
 1. As configurações de número de telefone são preenchidas automaticamente:
 
    * **Classificação de qualidade**: reflete o feedback do cliente sobre as mensagens enviadas nas últimas 24 horas.
-      * Verde: alta qualidade
-      * Amarelo: qualidade do Medium
-      * Vermelho: baixa qualidade
+     * Verde: alta qualidade
+     * Amarelo: qualidade do Medium
+     * Vermelho: baixa qualidade
 
      Saiba mais sobre [Classificação de qualidade](https://www.facebook.com/business/help/766346674749731#)
 

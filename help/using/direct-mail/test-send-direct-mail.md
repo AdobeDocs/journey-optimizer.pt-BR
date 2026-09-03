@@ -27,7 +27,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 829
+source-wordcount: 840
 ht-degree: 11%
 
 ---
@@ -85,7 +85,7 @@ Depois de enviado, você pode medir o impacto da campanha ou jornada de correspo
 
 ## Entender o tempo de exportação e a geração de arquivos {#dm-export-timing}
 
-Exportações de correspondência direta são executadas em ciclos UTC fixos de 4 horas em **02:01**, **06:01**, **10:01**, **14:01**, **18:01** e **22:01**.
+Exportações de correspondência direta são executadas em ciclos UTC fixos de 4 horas às **02:01**, **06:01**, **10:01**, **14:01**, **18:01** e **22:01**.
 
 Os perfis são incluídos no ciclo de exportação *próximo* depois que atingem a atividade de correspondência direta. Isso significa que a criação do arquivo se baseia em quando os perfis chegam ao nó Correspondência direta, não quando a campanha ou jornada foi ativada pela primeira vez.
 
@@ -93,8 +93,8 @@ Os perfis são incluídos no ciclo de exportação *próximo* depois que atingem
 
   Por exemplo:
 
-   * Os perfis que chegam antes de **14:01** são exportados em **14:01**.
-   * Os perfis que chegam de **14:02** a **18:01** são exportados em **18:01**.
+  * Os perfis que chegam antes de **14:01** são exportados em **14:01**.
+  * Os perfis que chegam de **14:02** a **18:01** são exportados em **18:01**.
 
   Isso não duplica perfis, pois os agrupa por janela de chegada.
 
@@ -102,9 +102,9 @@ Os perfis são incluídos no ciclo de exportação *próximo* depois que atingem
 
 * **Recomendações para cenários de um arquivo por dia** - Se você precisar de um arquivo por dia, considere as seguintes opções:
 
-   * **Frequência de roteamento de 24 horas**: garante um arquivo por dia, mas introduz a latência de entrega.
-   * **Aguardar até a hora do dia**: pode alinhar perfis na mesma janela de exportação, mas os resultados dependem do tempo da jornada.
-   * **Frequência de roteamento de 4 horas**: fornece a latência mais baixa, mas pode gerar vários arquivos por dia.
+  * **Frequência de roteamento de 24 horas**: garante um arquivo por dia, mas introduz a latência de entrega.
+  * **Aguardar até a hora do dia**: pode alinhar perfis na mesma janela de exportação, mas os resultados dependem do tempo da jornada.
+  * **Frequência de roteamento de 4 horas**: fornece a latência mais baixa, mas pode gerar vários arquivos por dia.
 
 ## Gerenciar o consentimento para correspondência direta {#dm-consent-management}
 

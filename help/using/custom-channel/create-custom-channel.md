@@ -8,8 +8,8 @@ level: Experienced
 badge: label="Disponibilidade limitada" type="Informative"
 source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 1%
+source-wordcount: '1584'
+ht-degree: 16%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_settings"
 >title="Sobre canais personalizados"
->abstract="Um canal personalizado permite que o Adobe Journey Optimizer envie mensagens personalizadas para um sistema externo por meio de seu próprio endpoint de API. Defina as propriedades gerais, o endpoint, a autenticação e a carga, depois teste e ative o novo canal personalizado. Depois de concluído, você pode usá-lo ao criar uma configuração de canal para que os profissionais de marketing possam usá-lo em jornadas e campanhas."
->additional-url="" text="Introdução a canais personalizados"
+>abstract="Um canal personalizado permite que o Adobe Journey Optimizer envie mensagens personalizadas para um sistema externo por meio de seu próprio ponto de acesso de API. Defina as propriedades gerais, o ponto de acesso, a autenticação e o conteúdo, depois teste e ative o novo canal personalizado. Depois de concluído, você pode usá-lo ao criar uma configuração de canal para que os profissionais de marketing possam usá-lo em jornadas e campanhas."
+>additional-url="" text="Primeiros passos com canais personalizados"
 
 <!--Contextual help final location TBC (here or in Settings subsection-->
 
@@ -136,7 +136,7 @@ Você deve configurar o endpoint, que é o URL HTTP do seu sistema de mensagens 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_authentication"
 >title="Definir o tipo de autenticação"
->abstract="A autenticação garante que somente solicitações autorizadas sejam enviadas para o sistema de mensagens externo. Você pode escolher entre vários métodos de autenticação, incluindo Chave da API, Autenticação básica e OAuth 2.0. Após a ativação, o Adobe Journey Optimizer gera automaticamente um conjunto inicial de credenciais de API para o canal, que pode ser gerenciado no inventário de credenciais de API. No entanto, mesmo que você possa alterar as credenciais posteriormente, forneça os detalhes de autenticação aqui para testar a conexão com o endpoint antes de ativar o canal."
+>abstract="A autenticação garante que somente solicitações autorizadas sejam enviadas para o sistema de mensagens externo. Você pode escolher entre vários métodos de autenticação, incluindo Chave da API, Autenticação básica e OAuth 2.0. Após a ativação, o Adobe Journey Optimizer gera automaticamente um conjunto inicial de credenciais de API para o canal, que pode ser gerenciado no inventário de credenciais de API. No entanto, mesmo que você possa alterar as credenciais posteriormente, forneça os detalhes de autenticação aqui para testar a conexão com o ponto de acesso antes de ativar o canal."
 >additional-url="" text="Saiba mais sobre credenciais de API"
 
 Selecione o **[!UICONTROL Tipo de autenticação]** que você precisa usar para este canal. As opções disponíveis dependem dos métodos de autenticação compatíveis com seu sistema de mensagens externo.
@@ -155,7 +155,7 @@ Quando o tipo de autenticação é qualquer coisa diferente de **Nenhum**, o [!D
 
 No entanto, os detalhes de autenticação são necessários aqui para testar a conexão com seu endpoint antes de ativar o canal. Um botão **[!UICONTROL Testar conexão]** está disponível para validar a configuração de autenticação. [Saiba mais](#test-activate)
 
-## Configuração de carga útil {#payload-configuration}
+## Configuração da conteúdo {#payload-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_payload_config"

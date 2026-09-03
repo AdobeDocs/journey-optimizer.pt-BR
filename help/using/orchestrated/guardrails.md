@@ -58,9 +58,9 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * **Alterar fontes de Captura de Dados** - Toda assimilação deve ocorrer por meio das fontes de Captura de Dados de Alteração:
 
-   * **Fontes baseadas em arquivo** - O campo `_change_request_type` é obrigatório. Os valores com suporte são `u` (substituição) ou `d` (exclusão). Esses valores devem estar em minúsculas `u` e `d`, e não em maiúsculas `U` e `D`.
+  * **Fontes baseadas em arquivo** - O campo `_change_request_type` é obrigatório. Os valores com suporte são `u` (substituição) ou `d` (exclusão). Esses valores devem estar em minúsculas `u` e `d`, e não em maiúsculas `U` e `D`.
 
-   * **Fontes baseadas em nuvem** - O log de tabela deve estar habilitado.
+  * **Fontes baseadas em nuvem** - O log de tabela deve estar habilitado.
 
 * **Somente registros concluídos** - Atualizações parciais de registros não são permitidas; cada linha deve ser fornecida como um registro completo.
 
@@ -68,11 +68,11 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * **Latência de assimilação** - A latência de assimilação no armazenamento relacional normalmente varia de 15 minutos a 2 horas, dependendo do seguinte:
 
-   * Volume de dados
+  * Volume de dados
 
-   * Simultaneidade do sistema
+  * Simultaneidade do sistema
 
-   * Tipo de operação (por exemplo, inserções são mais rápidas que atualizações)
+  * Tipo de operação (por exemplo, inserções são mais rápidas que atualizações)
 
 * **Relação entre fluxo de dados e conjunto de dados** - A relação entre fluxo de dados e conjunto de dados é de 1 a 1. Somente uma fonte pode alimentar um conjunto de dados por vez. Para alternar a origem, exclua o fluxo de dados existente e crie um novo com a nova origem.
 
@@ -104,7 +104,7 @@ Você encontrará abaixo as medidas de proteção e limitações ao usar campanh
 
 * **Públicos salvos**
 
-   * **Os públicos salvos são estáticos** - As atividades salvas de públicos são estáticas; elas refletem os dados disponíveis no momento da execução da campanha.
+  * **Os públicos salvos são estáticos** - As atividades salvas de públicos são estáticas; elas refletem os dados disponíveis no momento da execução da campanha.
 
 * **Não anexar a um Público-alvo salvo** - Não há suporte para anexar a uma atividade de Público-alvo salvo. Quaisquer modificações exigem uma substituição completa do público-alvo.
 

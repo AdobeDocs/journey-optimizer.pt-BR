@@ -163,13 +163,13 @@ O PQL é altamente digitado. Ao comparar ou transmitir valores, ambos os lados d
 
   +++Exemplos de referências
 
-   * `{{profile.person.name.fullName}}`
-   * `{{profile.person.name.firstName}}`
-   * `{{profile.person.gender}}`
-   * `{{profile.personalEmail.address}}`
-   * `{{profile.mobilePhone.number}}`
-   * `{{profile.homeAddress.city}}`
-   * `{{profile.faxPhone.number}}`
+  * `{{profile.person.name.fullName}}`
+  * `{{profile.person.name.firstName}}`
+  * `{{profile.person.gender}}`
+  * `{{profile.personalEmail.address}}`
+  * `{{profile.mobilePhone.number}}`
+  * `{{profile.homeAddress.city}}`
+  * `{{profile.faxPhone.number}}`
 
   +++
 
@@ -187,10 +187,10 @@ O PQL é altamente digitado. Ao comparar ou transmitir valores, ambos os lados d
 
   em que:
 
-   * `offers` identifica a expressão de caminho pertencente ao namespace da oferta
-   * `Type` determina o tipo de representação da oferta. Os valores possíveis são: `image`, `html` e `text`
-   * `Placement Id` e `Activity Id` são identificadores de posicionamento e atividade
-   * `Attributes` são atributos específicos da oferta que dependem do tipo de oferta. Exemplo: `deliveryUrl` para imagens
+  * `offers` identifica a expressão de caminho pertencente ao namespace da oferta
+  * `Type` determina o tipo de representação da oferta. Os valores possíveis são: `image`, `html` e `text`
+  * `Placement Id` e `Activity Id` são identificadores de posicionamento e atividade
+  * `Attributes` são atributos específicos da oferta que dependem do tipo de oferta. Exemplo: `deliveryUrl` para imagens
 
   Para obter mais informações sobre a API de Decisões e representações de Oferta, consulte [esta página](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
@@ -198,21 +198,21 @@ O PQL é altamente digitado. Ao comparar ou transmitir valores, ambos os lados d
 
   +++Exemplos de referências
 
-   * Local onde a imagem está hospedada:
+  * Local onde a imagem está hospedada:
 
-     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-   * URL do Target ao clicar na imagem:
+  * URL do Target ao clicar na imagem:
 
-     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-   * Conteúdo de texto da oferta proveniente do mecanismo de decisão:
+  * Conteúdo de texto da oferta proveniente do mecanismo de decisão:
 
-     `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-   * Conteúdo HTML da oferta proveniente do mecanismo de decisão:
+  * Conteúdo HTML da oferta proveniente do mecanismo de decisão:
 
-     `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
   +++
 

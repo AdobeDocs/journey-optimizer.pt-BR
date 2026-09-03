@@ -1,5 +1,5 @@
 ---
-title: Criar experiências de canal personalizadas
+title: Criar experiências de canal personalizado
 description: Saiba como usar um canal personalizado em uma jornada ou campanha no Adobe Journey Optimizer.
 feature: Channel Configuration
 topic: Content Management
@@ -9,12 +9,12 @@ badge: label="Disponibilidade limitada" type="Informative"
 source-git-commit: 1a57ac19ba39ed89cb99575ba7278518318e815a
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 5%
+ht-degree: 15%
 
 ---
 
 
-# Criar experiências de canal personalizadas {#create-custom-channel}
+# Criar experiências de canal personalizado {#create-custom-channel}
 
 >[!BEGINSHADEBOX]
 
@@ -36,9 +36,9 @@ No [!DNL Journey Optimizer], você pode entregar mensagens usando canais persona
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_channel"
->title="Ação de canal personalizada"
->abstract="Uma ação de canal personalizado entrega uma mensagem aos perfis quando eles atingem esta etapa da jornada. O rótulo identifica a atividade na tela de jornada e a ação faz referência a uma configuração de canal personalizada que define o endpoint, a carga e as credenciais usadas para entregar a mensagem. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento, e a seção **Tempo limite ou erro** pode definir um caminho alternativo se a ação falhar."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introdução a canais personalizados"
+>title="Ação de canal personalizado"
+>abstract="Uma ação de canal personalizado entrega a mensagem aos perfis quando eles chegam a esta etapa da jornada. O rótulo identifica a atividade na tela da jornada, e a ação faz referência a uma configuração de canal personalizado que define o ponto de acesso, o conteúdo e as credenciais usadas para entregar a mensagem. A seção **Otimização** pode incluir experimentos de conteúdo ou regras de direcionamento, e a seção **Tempo-limite ou erro** pode definir um caminho alternativo se a ação falhar."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Primeiros passos com canais personalizados"
 
 
 

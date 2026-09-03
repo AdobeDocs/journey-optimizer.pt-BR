@@ -48,12 +48,12 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 ## Observações importantes{#important-notes}
 
 * Ao usar uma multiplicação (`*`), ambos os campos de operação devem ter o mesmo tipo, inteiro ou decimal. Exemplo:
-   * o exemplo a seguir está correto: `3.0 * 4.0`
-   * `3 * 4.0` levará a um erro
+  * o exemplo a seguir está correto: `3.0 * 4.0`
+  * `3 * 4.0` levará a um erro
 
 * Ao usar o operador `+`, a expressão precisa ser encapsulada entre parênteses. Exemplo:
-   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` está correto
-   * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))` levará a um erro
+  * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` está correto
+  * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))` levará a um erro
 
 ## Lógico  {#logical}
 

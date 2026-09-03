@@ -25,8 +25,8 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 749
-ht-degree: 6%
+source-wordcount: 753
+ht-degree: 7%
 
 ---
 
@@ -44,9 +44,9 @@ Para fazer isso, a organização deve:
 
 * Execute a API [!DNL Batch Decisioning], que contém duas solicitações:
 
-   1. Uma **solicitação POST em lote** para iniciar uma carga de trabalho para processar em lote seleções de ofertas.
+  1. Uma **solicitação POST em lote** para iniciar uma carga de trabalho para processar em lote seleções de ofertas.
 
-   2. Uma **Solicitação GET de lote** para obter o status da carga de trabalho de lote.
+  2. Uma **Solicitação GET de lote** para obter o status da carga de trabalho de lote.
 
 * Exportar o conjunto de dados para a API do fornecedor de delivery de mensagens.
 
@@ -152,7 +152,7 @@ Consulte a [documentação do Gerenciamento de decisões](../../get-started/star
 
 ## Recuperar informações sobre uma decisão em lote {#retrieve-information-on-a-batch-decision}
 
-Para recuperar informações sobre uma decisão específica, faça uma solicitação do GET para o ponto de extremidade `/workloads/decisions` enquanto fornece o valor da ID da carga de trabalho correspondente para a sua decisão.
+Para recuperar informações sobre uma decisão específica, faça uma solicitação GET para o ponto de extremidade `/workloads/decisions` enquanto fornece o valor da ID da carga de trabalho correspondente para a sua decisão.
 
 **Formato da API**
 

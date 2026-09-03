@@ -183,12 +183,12 @@ Indica o tipo de ação.
 Valores:
 
 * interno
-   * Email do ACS
-   * SMS DO ACS
-   * ACS Push
+  * Email do ACS
+  * SMS DO ACS
+  * ACS Push
 * cliente
-   * Épsilon
-   * ...
+  * Épsilon
+  * ...
 
 Tipo: sequência de caracteres
 

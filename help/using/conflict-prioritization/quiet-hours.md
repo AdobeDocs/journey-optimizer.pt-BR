@@ -13,7 +13,6 @@ TQID: https://experienceleague.adobe.com/I-zCSU3tp4n-i-EEkx118svN7R9bfUh0phCB-B5
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
   - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
 subfeature_v2:
   - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
@@ -25,7 +24,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 12c37c94dc2887aa90271b7e65ba3d82884ccb07
+source-git-commit: 880855a8304cc42be2443d31860722e594cb8853
 workflow-type: tm+mt
 source-wordcount: 938
 ht-degree: 6%
@@ -48,7 +47,7 @@ O **Período de silêncio** permite definir exclusões com base no tempo para **
 
 Ao simplificar esses processos, você pode aprimorar a experiência do cliente, economizar tempo e garantir a conformidade com as regras de comunicação:
 
-* **Não desperte seu cliente** - *O cliente certo, o canal certo, a hora certa* é o mantra de muitos profissionais de marketing, portanto, faz sentido que o tempo seja uma parte essencial da jornada do cliente. Ao definir uma regra de Período de silêncio, as marcas têm melhor controle sobre quando os contatos estão recebendo mensagens, garantindo que elas as recebam quando houver mais probabilidade de tomar providências em relação à sua mensagem.
+* **Não desperte seu cliente** - *O cliente certo, o canal certo, a hora certa* é o mantra de muitos profissionais de marketing, portanto, faz sentido que a sincronização seja uma parte essencial da jornada do cliente. Ao definir uma regra de Período de silêncio, as marcas têm melhor controle sobre quando os contatos estão recebendo mensagens, garantindo que elas as recebam quando tiverem mais probabilidade de adotar medidas em relação à sua mensagem.
 * **Conveniência** - intercepte facilmente comunicações entre campanhas e jornadas quando precisar impedir que um público receba uma mensagem sem precisar interromper toda a jornada ou campanha.
 * **Economia de Tempo** - Gerencie exclusões em um local criando uma **regra baseada em tempo**, em vez de adicionar vários nós de condição com expressões personalizadas.\
   <!--* **Extra Safeguard** - Benefit from an extra safeguard in case audience criteria or time-window configurations were incorrectly set, ensuring individuals are still excluded when they should be.-->

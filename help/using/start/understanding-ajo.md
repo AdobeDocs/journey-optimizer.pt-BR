@@ -41,7 +41,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 984
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -97,7 +97,7 @@ O Journey Optimizer inclui sete áreas funcionais principais que funcionam em co
 | Área funcional | Finalidade | Principais atividades |
 |-----------------|---------|----------------|
 | **Gerenciamento de dados** | Organize os dados do cliente | Defina esquemas, crie conjuntos de dados e importe dados de vários sistemas. [Saiba mais](../data/get-started-schemas.md) |
-| **Gerenciamento de Clientes** | Entenda quem são seus clientes | Crie perfis unificados, resolva identidades e crie públicos. [Saiba mais](../audience/get-started-profiles.md) |
+| **Gerenciamento de clientes** | Entenda quem são seus clientes | Crie perfis unificados, resolva identidades e crie públicos. [Saiba mais](../audience/get-started-profiles.md) |
 | **Gerenciamento de conteúdo** | Criar mensagens personalizadas | Projete emails, gerencie ativos, crie modelos e fragmentos e personalize conteúdo. [Saiba mais](../../rp_landing_pages/content-management-landing-page.md) |
 | **Gestão de decisões** | Selecione a melhor oferta em tempo real | Gerencie a biblioteca de ofertas, defina regras, aplique restrições e estabeleça a lógica de classificação. [Saiba mais](../offers/get-started/starting-offer-decisioning.md) |
 | **Gerenciamento de Jornadas** | Projetar experiências automatizadas do cliente | Crie jornadas com o designer visual, defina acionadores, adicione condições e aguarde etapas. [Saiba mais](../building-journeys/journey-gs.md) |

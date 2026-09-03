@@ -61,9 +61,9 @@ Você pode usar um público-alvo de upload personalizado como critério de quali
 
 * Crie uma regra de decisão usando um Público-alvo de upload personalizado:
 
-   1. Ao criar uma regra, acesse a guia **Públicos-alvo** e procure seu público-alvo em CSV na lista. Arraste e solte o público-alvo na tela de regra.
-   1. Use a guia **Atributos** e navegue até os esquemas de enriquecimento vinculados ao público-alvo selecionado. Isso permite acessar todos os dados do arquivo CSV e usá-los na regra. [Saiba como criar uma regra de decisão](../offers/offer-library/creating-decision-rules.md)
-   1. Salve a regra. Depois que a regra é criada, ela pode ser usada no nível da oferta e no nível da decisão para refinar sua qualificação.
+  1. Ao criar uma regra, acesse a guia **Públicos-alvo** e procure seu público-alvo em CSV na lista. Arraste e solte o público-alvo na tela de regra.
+  1. Use a guia **Atributos** e navegue até os esquemas de enriquecimento vinculados ao público-alvo selecionado. Isso permite acessar todos os dados do arquivo CSV e usá-los na regra. [Saiba como criar uma regra de decisão](../offers/offer-library/creating-decision-rules.md)
+  1. Salve a regra. Depois que a regra é criada, ela pode ser usada no nível da oferta e no nível da decisão para refinar sua qualificação.
 
   ![Público-alvo CSV na tela da regra de decisão](assets/csv-rule.png)
 
@@ -71,8 +71,8 @@ Você pode usar um público-alvo de upload personalizado como critério de quali
 
   Ao criar uma oferta, na etapa **Adicionar restrições**, é possível:
 
-   * Usar o público-alvo de upload personalizado para definir a qualificação da oferta,
-   * Aplique uma regra aproveitando o público-alvo de upload personalizado.
+  * Usar o público-alvo de upload personalizado para definir a qualificação da oferta,
+  * Aplique uma regra aproveitando o público-alvo de upload personalizado.
 
   ![Opções de restrição de público para carregamento personalizado](assets/csv-offer.png)
 

@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
 source-wordcount: 411
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 6%
 Depois que o conteúdo da mensagem for definido, é possível pré-visualizar seu conteúdo usando qualquer método de simulação:
 
 * Clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com dados de entrada de exemplo ou geração automática de IA. [Saiba como simular variações de conteúdo](../test-approve/simulate-sample-input.md)
-* Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para visualizar com perfis de teste. Em seguida, você pode selecionar o tipo de dispositivo para visualizar o conteúdo: **[!UICONTROL iOS]**, **[!UICONTROL Android]** ou **[!UICONTROL Web]**.
+* Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis da AEP)]** na lista suspensa para visualizar com perfis de teste. Em seguida, você pode selecionar o tipo de dispositivo para visualizar o conteúdo: **[!UICONTROL iOS]**, **[!UICONTROL Android]** ou **[!UICONTROL Web]**.
 
 ![](assets/push_preview_3.png)
 
@@ -57,11 +57,11 @@ Você deve verificar os alertas na seção superior do editor. Alguns deles são
 
 * **Erros** impedem que você teste ou ative a jornada enquanto não forem resolvidos, como:
 
-   * **[!UICONTROL A versão da mensagem por push está vazia]**: esse erro é exibido quando o corpo ou título da notificação por push está ausente. Saiba como definir o conteúdo de notificação por push em [esta seção](create-push.md).
+  * **[!UICONTROL A versão da mensagem por push está vazia]**: esse erro é exibido quando o corpo ou título da notificação por push está ausente. Saiba como definir o conteúdo de notificação por push em [esta seção](create-push.md).
 
-   * **[!UICONTROL a configuração não existe]**: você não poderá usar sua mensagem se a configuração selecionada for excluída após a criação da mensagem. Se este erro ocorrer, selecione outra configuração na mensagem **[!UICONTROL Propriedades]**. Saiba mais sobre configurações de canal em [esta seção](../configuration/channel-surfaces.md).
+  * **[!UICONTROL a configuração não existe]**: você não poderá usar sua mensagem se a configuração selecionada for excluída após a criação da mensagem. Se este erro ocorrer, selecione outra configuração na mensagem **[!UICONTROL Propriedades]**. Saiba mais sobre configurações de canal em [esta seção](../configuration/channel-surfaces.md).
 
-   * **[!UICONTROL A carga do Push iOS/Android excedeu o limite de 4 KB]**: o tamanho da notificação por push não pode exceder 4 KB. Para respeitar esse limite, tente reduzir o uso de imagens ou emojis. Saiba como gerenciar o conteúdo de notificação por push nesta [seção](../push/create-push.md).
+  * **[!UICONTROL A carga do Push iOS/Android excedeu o limite de 4 KB]**: o tamanho da notificação por push não pode exceder 4 KB. Para respeitar esse limite, tente reduzir o uso de imagens ou emojis. Saiba como gerenciar o conteúdo de notificação por push nesta [seção](../push/create-push.md).
 
   ![](assets/push_alert.png)
 

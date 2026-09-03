@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a36c05b8cac7817ace22f3b9e2c17962f9b6fcd1
+source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
 workflow-type: tm+mt
-source-wordcount: 4929
-ht-degree: 85%
+source-wordcount: 5006
+ht-degree: 90%
 
 ---
 
@@ -64,7 +64,7 @@ A partir de fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) s
 * **90 dias** para os dados na loja de perfis
 * **13 meses** para dados no data lake
 
-Esta alteração será aplicada em **sandboxes de clientes existentes** a partir de **1º de outubro de 2026**. [Saiba mais sobre as medidas de proteção de tempo de vida (TTL) dos conjuntos de dados](../data/datasets-ttl.md)
+Esta alteração será aplicada nas **sandboxes de clientes existentes** a partir de **1º de outubro de 2026**. [Saiba mais sobre as medidas de proteção de tempo de vida (TTL) dos conjuntos de dados](../data/datasets-ttl.md)
 
 ## Jornadas {#journeys-guardrails}
 
@@ -76,13 +76,13 @@ Esta seção aborda medidas de proteção e limitações para jornadas, incluind
 
   Com as jornadas próximas a esse limite, o desempenho de edição e publicação pode ser degradado e podem ocorrer falhas de salvamento ou validação. Se isso acontecer, divida a jornada em subjornadas menores com [atividades de salto](../building-journeys/jump.md) ou recrie-a em uma nova versão. O limite de atividades não pode ser aumentado.
 
-* O número de jornadas ativas, fechadas, pausadas e de execução a seco que podem estar ativas ao mesmo tempo é limitado a **200** em sandboxes de produção e **100** em sandboxes de desenvolvimento. Esse limite é aplicado quando você publica uma jornada. O número atual de jornadas é exibido acima da tela de jornada.
+* O número de jornadas ativas, fechadas, pausadas e em execução de teste que podem estar ativas ao mesmo tempo é limitado a **200** em sandboxes de produção e **100** em sandboxes de desenvolvimento. Este limite é aplicado ao publicar uma jornada. O número atual de jornadas é exibido acima da tela de jornada.
 
-  À medida que você publica jornadas, dimensionaremos e ajustaremos automaticamente para garantir uma máxima taxa de transferência e estabilidade. As jornadas fechadas são contadas somente se forem criadas após a implantação dessa garantia.
+  À medida que você publica jornadas, dimensionaremos e ajustaremos automaticamente para garantir uma máxima taxa de transferência e estabilidade. As jornadas fechadas são contadas somente se forem criadas após a implantação dessa medida de proteção.
 
 >[!NOTE]
 >
->Para medidas de proteção em tempo de publicação, as organizações que já excedem um limite quando a medida de proteção é introduzida recebem uma exceção. As jornadas existentes não serão afetadas.
+>Em relação às medidas de proteção na hora da publicação, as organizações que já excedem um limite quando a medida de proteção é introduzida recebem uma exceção. As jornadas existentes não serão afetadas.
 
 * Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até **10 minutos** para ficar ativa e detectar os perfis que entram ou saem do público-alvo.
 
@@ -96,7 +96,7 @@ Esta seção aborda medidas de proteção e limitações para jornadas, incluind
 
 >[!TIP]
 >
->**O que isso significa para você:** O **limite de 50 atividades** e o **limite de jornadas ativas** são as duas medidas de proteção que a maioria das equipes encontra primeiro ao dimensionar. Planeje a divisão da jornada antecipadamente e divida os momentos de início do Público-alvo de leitura com pelo menos 5 a 10 minutos de intervalo para evitar a contenção da taxa de transferência da sandbox.
+>**O que isso significa para você:** o **limite de 50 atividades** e o **limite de jornadas ativas** são as duas medidas de proteção que a maioria das equipes encontra primeiro ao dimensionar. Planeje a divisão da jornada antecipadamente e divida os momentos de início do Público-alvo de leitura com pelo menos 5 a 10 minutos de intervalo para evitar a contenção da taxa de transferência da sandbox.
 
 #### Validação de tamanho do conteúdo da jornada {#journey-payload-size}
 
@@ -148,7 +148,7 @@ As seguintes medidas de proteção se aplicam às [versões da jornada](../start
 
 * Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação de público-alvo**.
 * Uma jornada que começa com uma atividade de **Qualificação de público-alvo** em v1 deve sempre começar com uma **Qualificação de público-alvo** em outras versões.
-* O público-alvo e o namespace escolhidos em **Qualificação de público-alvo** (primeira atividade) não podem ser alterados em novas versões.
+* O público-alvo e o namespace escolhidos na **Qualificação de público-alvo** (primeira atividade) não podem ser alterados nas novas versões.
 * A regra de reentrada deve ser a mesma em todas as versões da jornada.
 * Uma jornada que começa com um **Público-alvo de leitura** não pode começar com outro evento nas próximas versões.
 * Não é possível criar uma nova versão de uma jornada de público-alvo de leitura com leitura incremental. Você precisa duplicar a jornada.
@@ -169,13 +169,13 @@ Você pode escolher uma dessas duas soluções:
 
 As seguintes medidas de proteção se aplicam aos [eventos](../event/about-events.md) de jornadas:
 
-* A Journey Optimizer oferece suporte a um volume máximo de **5.000 eventos de jornada de entrada por segundo** para eventos unitários e de **5.000 eventos de jornada de entrada por segundo** para eventos de jornada baseados em Leitura de público-alvo, em todas as sandboxes. Saiba mais sobre essa limitação [nesta página](../event/about-events.md#event-thoughput).
+* O Journey Optimizer aceita um volume máximo de **5.000 eventos de jornada de entrada por segundo** para eventos unitários e **5.000 eventos de jornada de entrada por segundo** para eventos de jornada baseados em Público-alvo de leitura, em todas as sandboxes. Saiba mais sobre essa limitação [nesta página](../event/about-events.md#event-thoughput).
 * As jornadas acionadas por evento podem levar até **5 minutos** para processar a primeira ação na jornada.
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
 * Os eventos de negócios não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
-* Um único evento pode ser referenciado por no máximo **25** jornadas a qualquer momento, em todas as jornadas ativas, fechadas, pausadas, em modo de teste e de simulação. Quando esse limite for atingido, a publicação de qualquer jornada adicional que use esse evento será bloqueada.
-* Um único esquema XDM pode ser referenciado por no máximo **100** eventos em todas as jornadas ativas, fechadas, pausadas, em modo de teste e de simulação de uma só vez. Quando esse limite for atingido, a publicação de qualquer jornada com um nó de evento que faça referência a esse esquema será bloqueada.
-* As jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada do perfil é temporariamente bloqueada por **5 minutos**. Por exemplo, se um evento acionar uma jornada às 12h01 para um perfil específico e outra chegar às 12h03 (se for o mesmo evento ou outro acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
+* Um único evento pode ser referenciado por no máximo **25** jornadas a qualquer momento, em todas as jornadas ativas, fechadas, pausadas, em modo de teste e em execução de teste. Quando esse limite for atingido, a publicação de qualquer jornada adicional que use esse evento será bloqueada.
+* Um único esquema XDM pode ser referenciado por no máximo **100** eventos em todas as jornadas ativas, fechadas, pausadas, em modo de teste e execução de teste de uma só vez. Quando esse limite for atingido, a publicação de qualquer jornada com um nó de evento que faça referência a esse esquema será bloqueada.
+* As jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada do perfil é temporariamente bloqueada por **5 minutos**. Por exemplo, se um evento acionar uma jornada às 12:01 para um perfil específico e outro chegar às 12:03 (seja o mesmo evento ou outro que acione a mesma jornada), essa jornada não será reiniciada para esse perfil.
 * O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço Principal de Coleção de Dados (DCCS) para acionar uma jornada. Eventos assimilados em lote, eventos inseridos via **Serviço de consulta**, ou eventos de conjuntos de dados internos do Journey Optimizer (Feedback de mensagens, Rastreamento de email etc.) não podem ser usados para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, é necessário criar um público-alvo com base nesses eventos e usar a atividade **Público-alvo de leitura**. A qualificação de público-alvo pode ser tecnicamente utilizada, mas não é recomendada, pois pode causar problemas posteriores com base nas ações usadas.
 
 ### Fontes de dados {#data-sources-g}
@@ -235,7 +235,7 @@ As seguintes medidas de proteção se aplicam à atividade de jornada [Qualifica
 
 * A atividade Qualificação de público-alvo não pode ser usada com atividades do Adobe Campaign.
 * Identificadores suplementares não são aceitos para jornadas de qualificação de público-alvo.
-* Uma sandbox pode incluir um máximo de **300** atividades de Qualificação de público-alvo em todas as jornadas ativas, fechadas, pausadas, em modo de teste e de simulação. Esse limite também se aplica às atividades de Qualificação de público usadas como critérios de saída. Quando esse limite é atingido, a publicação de jornadas com atividades adicionais de Qualificação de público-alvo é bloqueada.
+* Uma sandbox pode incluir um máximo de **300** atividades de Qualificação de público-alvo em todas as jornadas ativas, fechadas, pausadas, em modo de teste e de simulação. Esse limite também se aplica às atividades de Qualificação de público-alvo usadas como critérios de saída. Quando esse limite é atingido, a publicação de jornadas com atividades adicionais de Qualificação de público-alvo é bloqueada.
 
 Saiba mais sobre taxas de processamento e limites de taxa de transferência da jornada [nesta seção](../building-journeys/entry-management.md#journey-processing-rate).
 
@@ -361,19 +361,22 @@ As seguintes medidas de proteção se aplicam ao [canal de email](../email/get-
 
 Ao publicar jornadas com mensagens de email, o tamanho total do conteúdo da mensagem não deve exceder **2 MB** após o processamento no backend. Durante a publicação, o sistema processa automaticamente o conteúdo da mensagem corrigindo links, imagens e aplicando transformações, o que aumenta o tamanho do conteúdo além do tamanho do conteúdo criado.
 
+Essa limitação de tamanho também se aplica a outras operações de back-end que processam a carga de email completa, como **[!UICONTROL Copiar para outras localidades]** no [gerenciamento de conteúdo multilíngue](../content-management/multilingual-manual.md). Embora você esteja copiando apenas o conteúdo entre as localidades, a operação serializa e processa a carga de email completa, para que possa falhar com o mesmo erro de tamanho.
+
 >[!CAUTION]
 >
->Se o conteúdo final da mensagem processada exceder **2 MB**, a publicação da jornada falhará. Mantenha o conteúdo da sua mensagem bem abaixo de 2 MB — de preferência abaixo de **1 MB** — para permitir uma margem de segurança de 300 a 400 KB para sobrecarga de processamento no servidor.
+>Se o conteúdo final da mensagem processada exceder **2 MB**, a operação (publicação do jornada ou cópia para outras localidades) falhará. Mantenha o conteúdo da mensagem criada bem abaixo de 2 MB, o ideal é menos de **1 MB**, para permitir um buffer de 300-400 KB para a sobrecarga do processamento de back-end.
 
-**Práticas recomendadas para evitar falhas de publicação:**
+**Práticas recomendadas para evitar falhas:**
 
 * Mantenha o conteúdo do email abaixo de **1 MB**
 * Minimizar o número de variantes de conteúdo
 * Otimizar e compactar imagens antes de adicioná-las a mensagens
 * Remover ativos não utilizados e elementos desnecessários do HTML
 * Testar o tamanho da mensagem antes de publicar as jornadas na produção
+* Ao copiar o conteúdo para vários locais, copie para um número menor de locais por vez para reduzir a sobrecarga de processamento
 
-Se a publicação da jornada falhar devido ao tamanho do conteúdo, reduza o conteúdo da mensagem e publique a jornada novamente.
+Se a publicação ou a operação de cópia falhar devido ao tamanho do conteúdo, reduza o conteúdo da mensagem e tente novamente.
 
 ### Medidas de proteção de SMS {#sms-guardrails}
 
@@ -436,7 +439,7 @@ Um aviso é exibido quando uma variante de conteúdo excede o limite de tamanho 
 
 ### Gerar medidas de proteção de conteúdo {#ai-assistant-g}
 
-As medidas de proteção e limitações para **Gerar Conteúdo** — incluindo os canais com suporte (email, push, web, SMS) e as limitações do editor de personalização — estão listadas em [esta página](../content-management/gs-generative.md#generative-guardrails).
+As medidas de proteção e limitações do recurso **Gerar conteúdo** — incluindo canais aceitos (email, push, web, SMS) e limitações do editor de personalização — estão listadas [nesta página](../content-management/gs-generative.md#generative-guardrails).
 
 ### Medidas de proteção das páginas de destino {#lp-guardrails}
 

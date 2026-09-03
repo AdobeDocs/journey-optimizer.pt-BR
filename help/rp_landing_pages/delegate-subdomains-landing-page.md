@@ -6,7 +6,7 @@ description: Delegar subdomínios de email
 redpen-status: CREATED_||_2025-08-11_21-07-51
 exl-id: 7df9b8e2-136a-4ffc-9243-53c7be026d81
 source-git-commit: bb50d06e86f9399dfd295b8091aa637abcaea4a8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ A delegação de subdomínios de email é uma etapa central na [configuração d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução à delegação de subdomínios
 
@@ -32,7 +32,7 @@ Saiba mais sobre os benefícios, os métodos de configuração e as consideraç�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Delegar um subdomínio
 
@@ -42,7 +42,7 @@ Orientações passo a passo para delegar subdomínios à Adobe, incluindo delega
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Configurar um subdomínio personalizado
 
@@ -52,7 +52,7 @@ Assuma a propriedade total de subdomínios com a delegação personalizada — f
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Migrar de CNAME para a Delegação personalizada
 
@@ -62,7 +62,7 @@ Migre subdomínios existentes configurados em CNAME para a delegação personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Configurar os registros de DMARC
 
@@ -72,7 +72,7 @@ Configure registros de DMARC para aprimorar a segurança e a capacidade de entre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adicionar um registro TXT do Google
 
@@ -82,7 +82,7 @@ Verifique a capacidade de entrega do Gmail dos subdomínios, adicionando registr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Acessar e editar registros de PTR
 
@@ -92,7 +92,7 @@ Gerencie registros de PTR para os subdomínios delegados, incluindo edição e n
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Criar pools de IP
 

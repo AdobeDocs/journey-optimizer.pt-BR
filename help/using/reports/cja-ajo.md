@@ -79,7 +79,8 @@ O uso de [!DNL Journey Optimizer] com [!DNL Customer Journey Analytics] pode lev
 
 * **Em [!DNL Journey Optimizer] relatórios, a métrica Enviado também inclui a métrica Repetir.**
 
-  **[!UICONTROL Tentativas]** não serão incluídas na métrica **[!UICONTROL Enviadas]** em [!DNL Customer Journey Analytics]. Isso fará com que as métricas [!DNL Customer Journey Analytics] **[!UICONTROL Enviadas]** mostrem valores menores que [!DNL Journey Optimizer]. No entanto, os dados de nova tentativa são convertidos para a métrica **[!UICONTROL Mensagens enviadas com êxito]** ou **[!UICONTROL Rejeições]**.Para reduzir a discrepância, use intervalos de datas de uma semana atrás ou até mesmo mais tarde.
+  **[!UICONTROL Tentativas]** não serão incluídas na métrica **[!UICONTROL Enviadas]** em [!DNL Customer Journey Analytics]. Isso fará com que as métricas [!DNL Customer Journey Analytics] **[!UICONTROL Enviadas]** mostrem valores menores que [!DNL Journey Optimizer]. No entanto, os dados de nova tentativa são convertidos para a métrica **[!UICONTROL Mensagens enviadas com êxito]** ou **[!UICONTROL Rejeições]**.
+  Para reduzir a discrepância, use intervalos de datas de uma semana atrás ou até mesmo mais tarde.
 
 * **Os relatórios estão sendo fornecidos por uma fonte de dados diferente.**
 

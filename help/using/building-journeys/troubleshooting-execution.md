@@ -101,9 +101,9 @@ Se os perfis de teste não avançarem na jornada no modo de teste ou o fluxo vis
 Se os perfis de teste entrarem na jornada, mas não avançarem além da etapa inicial, verifique o seguinte:
 
 * **Data de início da Jornada** - A causa mais comum é quando a data de início da jornada é definida no futuro. Os perfis de teste são imediatamente descartados se a hora atual estiver fora da janela [datas/hora de início e término](journey-properties.md#dates) configurada da jornada, produzindo a entrada de log: `DISPATCHER DISCARD #16 — unqualified on journey version enablements`. Para resolver:
-   * Verificar se a data de início da jornada não está definida no futuro
-   * Garantir que a hora atual esteja na janela de datas ativa da jornada
-   * Se necessário, defina temporariamente a data de início para uma hora antes do momento atual para testes e, em seguida, restaure-a antes de publicar
+  * Verificar se a data de início da jornada não está definida no futuro
+  * Garantir que a hora atual esteja na janela de datas ativa da jornada
+  * Se necessário, defina temporariamente a data de início para uma hora antes do momento atual para testes e, em seguida, restaure-a antes de publicar
 
 * **Configuração do perfil de teste** - Confirme se o perfil está sinalizado corretamente como um perfil de teste em [!DNL Adobe Experience Platform]. Consulte [como criar perfis de teste](../audience/creating-test-profiles.md) para obter mais informações.
 

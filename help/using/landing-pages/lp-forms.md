@@ -69,9 +69,9 @@ Ao criar uma predefinição:
 * É possível configurar várias predefinições usando diferentes combinações de conjuntos de dados e conexões de transmissão.
 * O mesmo conjunto de dados ou conexão de transmissão pode ser reutilizado em várias predefinições.
 * Cada conexão de transmissão gera automaticamente recursos como:
-   * **conexão Source** - de onde os dados se originam.
-   * **Conexão de destino** - onde os dados são armazenados ou consumidos.
-   * **Fluxo do Source** - o pipeline que move os dados da conexão de origem para [!DNL Experience Platform], manipulando o mapeamento, a transformação e a validação.
+  * **conexão Source** - de onde os dados se originam.
+  * **Conexão de destino** - onde os dados são armazenados ou consumidos.
+  * **Fluxo do Source** - o pipeline que move os dados da conexão de origem para [!DNL Experience Platform], manipulando o mapeamento, a transformação e a validação.
 
 Para criar uma predefinição de formulário, siga as etapas abaixo.
 

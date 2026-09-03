@@ -159,7 +159,7 @@ Ao configurar uma ação personalizada, você precisa definir os seguintes parâ
    >
    >Somente as portas padrão são permitidas ao definir uma ação personalizada: 80 para http e 443 para https.
 
-1. Selecione a chamada **[!UICONTROL Método]**: pode ser **[!UICONTROL POST]**, **[!UICONTROL GET]** ou **[!UICONTROL PUT]**.
+1. Selecione a chamada **[!UICONTROL Método]**: pode ser **[!UICONTROL POSTAR]**, **[!UICONTROL GET]** ou **[!UICONTROL PUT]**.
 
    >[!NOTE]
    >
@@ -249,9 +249,9 @@ Nessas configurações de campo, você deve:
 
 * Defina uma constante ou um parâmetro de variável:
 
-   * **Constante** significa que o valor do parâmetro é definido no painel de configuração da ação por um usuário técnico. O valor será sempre o mesmo nas jornadas. Ela não varia e o profissional de marketing não consegue visualizá-la ao usar a ação personalizada na jornada. Pode ser, por exemplo, uma ID que o sistema de terceiros espera. Nesse caso, o valor constante é definido no campo à direita da constante/variável de alternância.
+  * **Constante** significa que o valor do parâmetro é definido no painel de configuração da ação por um usuário técnico. O valor será sempre o mesmo nas jornadas. Ela não varia e o profissional de marketing não consegue visualizá-la ao usar a ação personalizada na jornada. Pode ser, por exemplo, uma ID que o sistema de terceiros espera. Nesse caso, o valor constante é definido no campo à direita da constante/variável de alternância.
 
-   * **Variável** significa que o valor do parâmetro pode variar. Os profissionais de marketing que usam essa ação personalizada em uma jornada podem passar o valor desejado ou especificar onde recuperar o valor desse parâmetro (por exemplo, do evento, do Adobe Experience Platform etc.). Nesse caso, o campo à direita da constante/variável de alternância é o rótulo que os comerciantes verão na jornada para nomear esse parâmetro.
+  * **Variável** significa que o valor do parâmetro pode variar. Os profissionais de marketing que usam essa ação personalizada em uma jornada podem passar o valor desejado ou especificar onde recuperar o valor desse parâmetro (por exemplo, do evento, do Adobe Experience Platform etc.). Nesse caso, o campo à direita da constante/variável de alternância é o rótulo que os comerciantes verão na jornada para nomear esse parâmetro.
 
   Para parâmetros opcionais, habilite a opção **[!UICONTROL Is optional]** no final da linha. Ao marcar essa opção, você marca o parâmetro como não obrigatório e permite que os profissionais de jornada optem por preenchê-lo ou não ao criar essa ação personalizada em uma jornada.
 

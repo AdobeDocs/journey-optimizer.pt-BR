@@ -6,7 +6,7 @@ description: Saiba mais sobre as metodologias estatísticas por trás da experim
 redpen-status: CREATED_||_2025-08-12_00-43-53
 exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
 source-git-commit: 7897da644221ab05da9ca0e378f60b9aa5ef2564
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Essas notas técnicas explicam os métodos estatísticos usados na experimentaç
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Cálculos estatísticos usados em experimentos do Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Saiba mais sobre metodologias estatísticas avançadas, como sequências de conf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Noções básicas de cálculos estatísticos nos relatórios de experimentação
 

@@ -109,9 +109,9 @@ Para isso, as atividades abaixo foram adicionadas:
 * Uma atividade **[!UICONTROL Fork]** divide a campanha Orquestrada em três caminhos.
 * As atividades **[!UICONTROL Criar público-alvo]** dirigem-se aos três conjuntos de clientes:
 
-   * Clientes com um email,
-   * Clientes que fizeram uma compra de pelo menos USD 100,
-   * Clientes que têm menos de 50 pontos de fidelidade.
+  * Clientes com um email,
+  * Clientes que fizeram uma compra de pelo menos USD 100,
+  * Clientes que têm menos de 50 pontos de fidelidade.
 
 * Uma atividade **[!UICONTROL Combinar]** agrupa os clientes com email e os que fizeram uma compra de pelo menos USD 100,
 * Uma atividade **[!UICONTROL Combinar]** exclui os clientes que têm menos de 50 pontos de fidelidade,

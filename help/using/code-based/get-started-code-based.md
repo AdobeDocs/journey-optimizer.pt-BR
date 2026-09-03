@@ -24,9 +24,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1246
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -57,24 +57,24 @@ Com o recurso **experiência baseada em código**, é possível definir experiê
 
 ## Casos de uso {#use-cases}
 
-O canal baseado em código funciona melhor quando o caso de uso vai além do que um editor visual pode suportar e você tem recursos de desenvolvimento disponíveis para criar e manter a implementação.
+O canal baseado em código funciona melhor quando o seu caso de uso vai além do que um editor visual consegue suportar e você dispõe de recursos de desenvolvimento para criar e manter a implementação.
 
-| Benefícios | Por que | Exemplo de casos de uso |
+| Benefícios | Por que | Casos de uso de exemplo |
 | --- | --- | --- |
-| Personalização profunda | Suporta lógica complexa e dados em tempo real além do que os editores visuais expõem | Personalization orientada pelo inventário em tempo real ou pelo contexto do usuário |
+| Personalização profunda | Oferece suporte à lógica complexa e dados em tempo real além do que os editores visuais expõem | Personalização orientada pelo inventário em tempo real ou pelo contexto do usuário |
 | Integração com sistemas externos | O conteúdo pode ser composto usando dados de sistemas externos | Promoções baseadas no clima, ofertas em tempo real orientadas por inventário |
-| Fluxos de trabalho condicionais avançados, em várias etapas | Não limitado às ações predefinidas de canais visuais | Lógica de decisão em várias etapas entre pontos de contato |
-| Ultrapassando os limites da plataforma | Permite aos desenvolvedores criar elementos interativos personalizados | Os componentes personalizados da interface do usuário não são compatíveis com canais prontos para uso |
+| Fluxos de trabalho condicionais avançados em várias etapas | Não limitado às ações predefinidas de canais visuais | Lógica de decisão em várias etapas entre pontos de contato |
+| Ultrapassando os limites da plataforma | Permite aos desenvolvedores criar elementos interativos personalizados | Os componentes personalizados da interface não são compatíveis com canais prontos para uso |
 | Maior flexibilidade de campanha | O conteúdo e a lógica são definidos pela sua própria implementação | Propriedades digitais headless, baseadas em API ou que não são de navegador |
 
 ## Quando não usar {#when-not-to-use}
 
-O canal baseado em código requer esforço de desenvolvimento, de modo que não é a escolha correta para cada cenário. Considere outro canal nas seguintes situações:
+O canal baseado em código requer desenvolvimento, de modo que não é a escolha correta para cada cenário. Considere outro canal nas seguintes situações:
 
 * Sua campanha é rápida ou simples e pode ser criada com um canal sem código, como a Web ou no aplicativo, sem nenhum esforço de desenvolvimento
 * Você não tem recursos de desenvolvedor ou um ambiente de teste disponíveis para criar e validar uma implementação personalizada
 * Sua linha do tempo ou orçamento é limitado para desenvolvimento personalizado, já que experiências baseadas em código exigem mais planejamento antecipado
-* As mensagens padrão já se encaixam nos recursos de canal incorporados, tornando o desenvolvimento personalizado desnecessário
+* As mensagens padrão já se encaixam nos recursos de canal integrados, tornando o desenvolvimento personalizado desnecessário
 * A capacidade de manutenção de longo prazo do código personalizado é uma preocupação, já que superfícies e implementações precisam de suporte contínuo do desenvolvedor
 
 ## Quando usar canais baseados em código em vez de outros canais {#code-based-vs-other-channels}

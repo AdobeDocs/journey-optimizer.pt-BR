@@ -78,16 +78,16 @@ A figura a seguir mostra os sistemas e serviços envolvidos com fluxos de dados 
 * **Os provedores de serviços de notificação por push** são os serviços Web de componentes principais que fornecem notificações de servidores remotos para aplicativos móveis.
 
   O [!DNL Adobe Journey Optimizer] é compatível com as plataformas Android e iOS e, consequentemente, integra-se com o seguinte:
-   * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) - para enviar notificações ao aplicativo móvel do Android
-   * [Serviço de Notificação por Push da Apple (APNs)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) - para enviar notificações ao aplicativo móvel iOS
+  * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) - para enviar notificações ao aplicativo móvel do Android
+  * [Serviço de Notificação por Push da Apple (APNs)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) - para enviar notificações ao aplicativo móvel iOS
 
 * **Adobe Experience Platform Mobile SDK**, que fornece APIs de integração no lado do cliente para seus dispositivos móveis por meio de SDKs compatíveis com Android e iOS. O SDK fornece uma extensão [!DNL Adobe Journey Optimizer] expondo uma variedade de APIs específicas para mensagens por push e habilita o fluxo de dados, como registrar o token de push ou enviar eventos de rastreamento de push ou quaisquer outros eventos de experiência personalizados para o Adobe Experience Platform. A SDK também fornece uma variedade de outras extensões que habilitam outros recursos do [!DNL Adobe CX Enterprise], bem como recursos de parceiros de terceiros.
 
   A integração do SDK também requer a configuração dos serviços de [Coleção de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR){target="_blank"} do Adobe Experience Platform, como:
 
-   * Criar uma sequência de dados para configurar o perfil e os conjuntos de dados de evento de experiência nos quais os dados fluem para o Adobe Experience Platform
-   * Criação da propriedade móvel do lado do cliente e adição de extensões. O SDK se integra estreitamente a essas extensões para fornecer uma experiência de coleta de dados contínua.
-   * Registro do identificador do conjunto de aplicativos para dispositivos móveis e das credenciais do aplicativo
+  * Criar uma sequência de dados para configurar o perfil e os conjuntos de dados de evento de experiência nos quais os dados fluem para o Adobe Experience Platform
+  * Criação da propriedade móvel do lado do cliente e adição de extensões. O SDK se integra estreitamente a essas extensões para fornecer uma experiência de coleta de dados contínua.
+  * Registro do identificador do conjunto de aplicativos para dispositivos móveis e das credenciais do aplicativo
 
 * O **Perfil do cliente em tempo real** da Adobe Experience Platform mantém uma visão holística de cada cliente individual ao combinar dados de vários canais, incluindo Web, dispositivos móveis, CRM e de terceiros. O Perfil permite consolidar os dados do cliente em uma visualização unificada, oferecendo uma conta acionável com carimbo de data e hora de cada interação com o cliente. O token de push para um determinado usuário do aplicativo é armazenado no perfil do usuário como dados de registro, enquanto as interações que o usuário faz com as notificações por push são rastreadas como dados de eventos de série temporal. [Saiba mais sobre o Perfil de Cliente em Tempo Real da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
 

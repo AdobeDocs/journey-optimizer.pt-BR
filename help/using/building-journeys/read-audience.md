@@ -432,9 +432,9 @@ Se o problema persistir após essas verificações, consulte [Tempo e propagaç�
 * **Verificar políticas de mesclagem**: verifique se a política de mesclagem configurada para seu público-alvo corresponde ao comportamento esperado para combinar dados de perfil de fontes diferentes. Saiba mais sobre [políticas de mesclagem em [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=pt-BR){target="_blank"}.
 
 * **Revisar definições de segmento**: Confirme se as definições de segmento estão configuradas corretamente e inclua todos os critérios de qualificação esperados. Saiba mais sobre [criação de públicos-alvo](../audience/creating-a-segment-definition.md). Preste atenção especial a:
-   * Condições baseadas em tempo que podem excluir perfis com base nos carimbos de data e hora do evento
-   * Qualificações de atributo que dependem de dados atualizados recentemente
-   * Métodos de avaliação de fluxo vs. em lote
+  * Condições baseadas em tempo que podem excluir perfis com base nos carimbos de data e hora do evento
+  * Qualificações de atributo que dependem de dados atualizados recentemente
+  * Métodos de avaliação de fluxo vs. em lote
 
 * **Validar configuração de namespace**: verifique se o namespace selecionado na atividade **Ler Público** corresponde à identidade principal usada pelos perfis em seu público. Perfis sem o namespace selecionado não entrarão na jornada. Saiba mais sobre [namespaces de identidade](../event/about-creating.md#select-the-namespace).
 

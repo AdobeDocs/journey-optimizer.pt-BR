@@ -27,8 +27,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: ht
-source-wordcount: 493
+workflow-type: tm+mt
+source-wordcount: 495
 ht-degree: 100%
 
 ---
@@ -58,15 +58,15 @@ Consequentemente, a Adobe recomenda que você se certifique de ter o registro DM
 
 * Se você tiver [delegado por completo](delegate-subdomain.md#set-up-subdomain) seus subdomínios de envio para a Adobe, siga uma das opções abaixo:
 
-   * Configure o DMARC no domínio principal dos subdomínios delegados **na sua solução de hospedagem**.
-ou
-   * Configure o DMARC nos subdomínios delegados **na interface de configuração do[!DNL Journey Optimizer]** – sem trabalho extra na solução de hospedagem. [Saiba como](dmarc-record.md#implement-dmarc)
+  * Configure o DMARC no domínio principal dos subdomínios delegados **na sua solução de hospedagem**.
+    ou
+  * Configure o DMARC nos subdomínios delegados **na interface de configuração do[!DNL Journey Optimizer]** – sem trabalho extra na solução de hospedagem. [Saiba como](dmarc-record.md#implement-dmarc)
 
 * Se você configurou os subdomínios de envio com o [CNAME](delegate-subdomain.md#cname-subdomain-setup), siga uma das opções abaixo:
 
-   * Configure o DMARC nos subdomínios ou no domínio principal dos subdomínios **na sua solução de hospedagem**.
-ou
-   * Configure o DMARC nos subdomínios delegados **na interface de configuração do[!DNL Journey Optimizer]**. [Saiba como](dmarc-record.md#implement-dmarc)
+  * Configure o DMARC nos subdomínios ou no domínio principal dos subdomínios **na sua solução de hospedagem**.
+    ou
+  * Configure o DMARC nos subdomínios delegados **na interface de configuração do[!DNL Journey Optimizer]**. [Saiba como](dmarc-record.md#implement-dmarc)
 
   No entanto, a configuração do CNAME também requer entradas adicionais na solução de hospedagem. Consequentemente, certifique-se de coordenar com seu departamento de TI a realização da atualização detalhada [nesta seção](dmarc-record.md#implement-dmarc).
 

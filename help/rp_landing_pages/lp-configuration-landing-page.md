@@ -6,7 +6,7 @@ description: Saiba como configurar subdomínios e predefinições de páginas de
 redpen-status: CREATED_||_2025-08-12_00-37-08
 exl-id: 599d9f7b-3e41-4926-95b6-f5f58255d91d
 source-git-commit: 1eafa4cef02c13c8498ac9ac2df502a8a7d926d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Não importa se você usa domínios existentes ou novas configurações, essas e
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar e gerenciar subdomínios de página de destino
 
@@ -36,7 +36,7 @@ Saiba como configurar e gerenciar subdomínios para hospedar páginas de destino
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definir predefinições de página de destino
 

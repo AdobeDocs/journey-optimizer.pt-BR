@@ -24,9 +24,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 319
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Conheça as etapas detalhadas para criar uma campanha da web [neste vídeo](crea
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="web-prerequisites.md">
-<img alt="Lead" src="../assets/do-not-localize/web-prerequisites.jpg">
+<img alt="Cliente potencial" src="../assets/do-not-localize/web-prerequisites.jpg">
 </a>
 <div><a href="web-prerequisites.md"><strong>Pré-requisitos</strong>
 </div>
@@ -65,7 +65,7 @@ Conheça as etapas detalhadas para criar uma campanha da web [neste vídeo](crea
 </td>
 <td>
 <a href="create-web.md">
-<img alt="Pouco frequente" src="../assets/do-not-localize/web-create.jpg">
+<img alt="Pouco frequentes" src="../assets/do-not-localize/web-create.jpg">
 </a>
 <div>
 <a href="create-web.md"><strong>Criar uma experiência online</strong></a>
@@ -98,7 +98,7 @@ Conheça as etapas detalhadas para criar uma campanha da web [neste vídeo](crea
 * **[Editar conteúdo da web](create-web.md#edit-web-content)**: domine o designer da web para modificar páginas usando modos de edição visuais ou não visuais.
 * **[Gerenciar modificações na web](manage-web-modifications.md)**: saiba como organizar, aplicar e gerenciar modificações nas experiências da web.
 * **[Monitorar experiências da web](monitor-web-experiences.md)**: acompanhe e analise o desempenho das campanhas da web com relatórios detalhados.
-* **[Gerar conteúdo da Web com IA](../content-management/generative-full-content.md)** - Aproveite a IA para criar e otimizar conteúdo da Web com texto e imagens.
+* **[Gerar conteúdo para a web com IA](../content-management/generative-full-content.md)**: aproveite a IA para criar e otimizar conteúdo para a web com texto e imagens.
 * **[Tutoriais das campanhas da web](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre os recursos do canal da web e as práticas recomendadas.
 
 

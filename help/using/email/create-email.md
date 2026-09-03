@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 52a059840131d709cd717d350731c930e76ccda1
 workflow-type: tm+mt
 source-wordcount: 1958
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 14%
 >id="ajo_message_email"
 >title="Criação de email"
 >abstract="Defina o assunto do email e abra o Designer de email para criar seu conteúdo."
->additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="Fazer o curso de conteúdo de IA"
+>additional-url="https://experienceleague.adobe.com/pt-br/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="Fazer o curso de conteúdo de IA"
 
 
 ## Adicionar uma ação de email {#email-action}
@@ -216,7 +216,7 @@ Dois tipos de alertas podem ocorrer:
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
 >title="Reduzir tamanho do HTML"
->abstract="Ative essa opção para compactar seu HTML de email durante a publicação removendo espaços em branco e recuos desnecessários. Isso ajuda a evitar o corte de emails em clientes como o Gmail, que truncam mensagens com mais de 100 KB. Observe que, ao trabalhar com emails multilíngues, essa opção é ativada por padrão para todas as localidades."
+>abstract="Habilite esta opção para compactar o HTML do email durante a publicação, removendo espaços em branco e recuos desnecessários. Isso ajuda a evitar o corte de emails em clientes como o Gmail, que truncam mensagens com mais de 100 KB. Observe que, ao trabalhar com emails multilíngues, essa opção é ativada por padrão para todas as localidades."
 
 O [!DNL Journey Optimizer] permite compactar a versão do HTML de email durante o processo de publicação removendo espaços em branco e recuos desnecessários. Manter o tamanho pequeno do HTML ajuda a:
 

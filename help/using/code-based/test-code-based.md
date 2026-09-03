@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 896
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -49,7 +49,7 @@ Para exibir uma pré-visualização de sua experiência baseada em código modif
 Na tela de conteúdo de edição de campanha ou jornada ou no editor de personalização, use um dos métodos de simulação:
 
 * Clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com dados de entrada de exemplo ou geração automática de IA. [Saiba como simular variações de conteúdo](../test-approve/simulate-sample-input.md)
-* Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para visualizar com perfis de teste.
+* Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis da AEP)]** na lista suspensa para visualizar com perfis de teste.
 
 ![](assets/code-based-campaign-simulate.png)
 

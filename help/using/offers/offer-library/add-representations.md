@@ -93,7 +93,7 @@ Para adicionar uma ou várias representações à sua oferta e configurá-las, s
 
 ### Adicionar imagens {#images}
 
-Se o posicionamento selecionado for do tipo imagem, você poderá adicionar conteúdo proveniente da biblioteca do **Adobe Experience Cloud Asset**, um repositório centralizado de ativos fornecidos pelo [!DNL Adobe Experience Manager Assets].
+Se o posicionamento selecionado for do tipo imagem, você poderá adicionar conteúdo proveniente da biblioteca do **Ativo da Adobe Experience Cloud**, um repositório centralizado de ativos fornecidos pelo [!DNL Adobe Experience Manager Assets].
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ Se o posicionamento selecionado for do tipo imagem, você poderá adicionar cont
 
 ### Adicionar arquivos HTML ou JSON {#html-json}
 
-Se o posicionamento selecionado for do tipo HTML, você também poderá adicionar conteúdo HTML ou JSON provenientes da [biblioteca do Adobe Experience Cloud Asset](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=pt-BR){target="_blank"}).
+Se o posicionamento selecionado for do tipo HTML, você também poderá adicionar conteúdo HTML ou JSON provenientes da [biblioteca de ativos da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=pt-BR){target="_blank"}).
 
 Por exemplo, você criou um modelo de email do HTML no [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=pt-BR){target="_blank"} e deseja usar esse arquivo para o seu conteúdo de oferta. Em vez de criar um novo arquivo, basta carregar o modelo na **Biblioteca de Ativos** para poder reutilizá-lo nas representações de oferta.
 

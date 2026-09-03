@@ -29,9 +29,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: de8759bda1690076110ba19f878ff940441907e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1343
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Estas seções listam os conjuntos de dados do sistema usados pelo [!DNL Journey
   * _Relatórios - Evento de etapa da jornada_: Captura todos os eventos de experiência em etapas da jornada gerados no Journey Optimizer para serem consumidos por serviços como Relatórios. Também é essencial para criar relatórios no Customer Journey Analytics para análise YoY. Vinculado a um Metadado de jornada.
   * _Relatórios - Jornadas_: Informações de hospedagem do conjunto de dados de metadados de cada etapa em uma jornada.
   * _Relatórios - Cco_: Conjunto de dados de evento de feedback que armazena os logs de entrega para emails CCO. A ser usado para fins de relatório.
-  * _Conjunto de Dados de Evento de Rastreamento de Canal do AJO_: captura todas as respostas de entrada do WhatsApp, incluindo as enviadas por meio de modelos de Fluxo do WhatsApp.
+  * _Conjunto de dados de evento de rastreamento de canal do AJO_: captura todas as respostas de entrada do WhatsApp, incluindo as enviadas por meio de modelos de Fluxo do WhatsApp.
 
 * Consentimento
 
@@ -121,20 +121,20 @@ Veja este vídeo para saber como criar um conjunto de dados, mapeá-lo para um e
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
-## Ativar conjuntos de dados para o Perfil {#profile-datasets}
+## Habilitar conjuntos de dados para o Perfil {#profile-datasets}
 
-Ao criar um conjunto de dados, você pode habilitá-lo para contribuir com o [Perfil de cliente em tempo real](../audience/get-started-profiles.md). Isso permite que os dados que ele contém sejam usados para segmentação, personalização e condições de jornada no [!DNL Journey Optimizer].
+Ao criar um conjunto de dados, você pode habilitá-lo para contribuir com o [Perfil do cliente em tempo real](../audience/get-started-profiles.md). Isso permite que os dados que ele contém sejam usados para segmentação, personalização e condições de jornada no [!DNL Journey Optimizer].
 
-Antes de ativar, lembre-se do seguinte:
+Antes de habilitar, lembre-se do seguinte:
 
-* **A habilitação do esquema é permanente.** Depois que o esquema subjacente a um conjunto de dados é ativado para o Perfil, isso não pode ser revertido — o esquema não pode ser desativado ou excluído. Somente o conjunto de dados em si pode ser desativado ou excluído separadamente.
-* **Desabilitar um conjunto de dados tem consequências.** Você pode desativar ou excluir um conjunto de dados para o Perfil independentemente do esquema, mas isso remove os registros do perfil associado e pode interromper a segmentação e os fluxos de trabalho de ativação.
-* **Planeje sua configuração antes de habilitar.** Os campos de identidade e as seleções de grupos de campos tornam-se mais difíceis de alterar após a ativação do Perfil. Finalize o design do esquema primeiro.
+* **A habilitação do esquema é permanente.** Depois que o esquema subjacente a um conjunto de dados é habilitado para o Perfil, essa ação não pode ser revertida — o esquema não pode ser desabilitado ou excluído. Somente o conjunto de dados em si pode ser desabilitado ou excluído separadamente.
+* **Desabilitar um conjunto de dados tem consequências.** Você pode desabilitar ou excluir um conjunto de dados para o Perfil independentemente do esquema, mas isso remove os registros do perfil associado e pode interromper a segmentação e os fluxos de trabalho de ativação.
+* **Planeje sua configuração antes de habilitar.** Os campos de identidade e as seleções de grupos de campos tornam-se mais difíceis de alterar após a habilitação do Perfil. Finalize o design do esquema primeiro.
 
-Para obter orientação detalhada, consulte a documentação do Adobe Experience Platform:
+Para obter orientação detalhada, consulte a documentação da Adobe Experience Platform:
 
-* [Planejamento de habilitação do perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — lista de verificação de pré-habilitação que abrange configuração de identidade, seleção de grupo de campos e validação de finalidade de conjunto de dados.
-* [Gerenciamento de esquemas habilitados para perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — orientação sobre como descontinuar esquemas habilitados para perfil, incluindo estratégias de renomeação.
+* [Planejamento de habilitação do perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}: lista de verificação de pré-habilitação que abrange configuração de identidade, seleção de grupo de campos e validação de finalidade de conjunto de dados.
+* [Gerenciamento de esquemas habilitados para perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}: orientação sobre como descontinuar esquemas habilitados para perfil, incluindo estratégias de renomeação.
 
 ## Governança de dados
 

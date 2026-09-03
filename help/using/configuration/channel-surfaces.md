@@ -180,10 +180,10 @@ Se um desses erros ocorrer, entre em contato com o [Atendimento ao cliente da Ad
 * **Falha na validação do registro MX**: falha na validação do registro MX (Mail eXchange) significa que os servidores de email responsáveis por aceitar emails de entrada em nome de um determinado subdomínio não estão configurados corretamente.
 
 * **Falha nas configurações de entrega**: a falha nas configurações de entrega pode ocorrer devido a qualquer um dos seguintes motivos:
-   * ➡ Incluir na lista de bloqueios dos IPs alocados
-   * Nome `helo` inválido
-   * Emails sendo enviados de IPs diferentes daqueles especificados no pool de IPs da configuração correspondente
-   * Não é possível enviar emails para caixas de entrada dos principais ISPs
+  * ➡ Incluir na lista de bloqueios dos IPs alocados
+  * Nome `helo` inválido
+  * Emails sendo enviados de IPs diferentes daqueles especificados no pool de IPs da configuração correspondente
+  * Não é possível enviar emails para caixas de entrada dos principais ISPs
 
 ## Editar uma configuração de canal {#edit-channel-surface}
 

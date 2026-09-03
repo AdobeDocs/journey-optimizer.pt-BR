@@ -29,9 +29,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1189
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Esses recursos são gerenciados por **[!UICONTROL Administradores de produto]** 
 
 >[!NOTE]
 >
->**Ordem de implementação:** Você está aqui: **Administrador** → [Engenheiro de dados](data-engineer.md) → [Desenvolvedor](developer.md) → [Profissional de marketing](marketer.md)
+>**Ordem de implementação:** você está aqui: **Administrador** → [Engenheiro de dados](data-engineer.md) → [Desenvolvedor](developer.md) → [Profissional de marketing](marketer.md)
 >
 >O administrador configura o ambiente primeiro. Engenheiros de dados, desenvolvedores e profissionais de marketing dependem da conclusão desse trabalho antes de começarem.
 

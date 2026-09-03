@@ -48,9 +48,9 @@ Quando você abre o editor de personalização, duas pastas principais contêm a
 
   Atributos calculados na tela da campanha da tabela de trabalho. Esta pasta tem duas subpastas:
 
-   * **`<Targeting dimension>`** (por exemplo, Destinatários ou Compras) — Atributos relacionados à dimensão que você direciona na campanha.
+  * **`<Targeting dimension>`** (por exemplo, Destinatários ou Compras) — Atributos relacionados à dimensão que você direciona na campanha.
 
-   * **`Enrichment`** — Dados adicionados através de atividades de **[!UICONTROL Enriquecimento]** (links relacionais, linhas coletadas, agregações). Após um enriquecimento de 1:N **[!UICONTROL Coletar dados]**, você obtém as linhas numeradas e uma matriz de coleção. [Saiba como trabalhar com dados de coleção de enriquecimento](#enrichment-collections)
+  * **`Enrichment`** — Dados adicionados através de atividades de **[!UICONTROL Enriquecimento]** (links relacionais, linhas coletadas, agregações). Após um enriquecimento de 1:N **[!UICONTROL Coletar dados]**, você obtém as linhas numeradas e uma matriz de coleção. [Saiba como trabalhar com dados de coleção de enriquecimento](#enrichment-collections)
 
 Para obter uma visão geral detalhada do editor de personalização no [!DNL Journey Optimizer], consulte [Introdução à personalização](../personalization/personalize.md).
 

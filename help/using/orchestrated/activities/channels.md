@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
+source-git-commit: c08402e768c15f133b47178a876e4d3d1f9f5c05
 workflow-type: tm+mt
-source-wordcount: 2370
-ht-degree: 31%
+source-wordcount: 2470
+ht-degree: 35%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
 >title="Target"
->abstract="A seção **[!UICONTROL Target]** define o destino da entrega para esta atividade de canal. Use **[!UICONTROL Dimensão de destino]** para selecionar qual dimensão de destino se aplica a este envio. Em seguida, escolha **[!UICONTROL Uma mensagem por perfil]** para enviar uma única mensagem por pessoa ou **[!UICONTROL Uma mensagem por dimensão secundária]** para enviar uma mensagem por dimensão secundária qualificada — por exemplo, um email por voo quando a mesma viajante tem vários voos correspondentes."
+>abstract="A seção **[!UICONTROL Destino]** define o destino da entrega para esta atividade de canal. Use **[!UICONTROL Dimensão de destino]** para selecionar qual dimensão de destino se aplica a este envio. Em seguida, escolha **[!UICONTROL Uma mensagem por perfil]** para enviar uma única mensagem por pessoa ou **[!UICONTROL Uma mensagem por dimensão secundária]** para enviar uma mensagem por dimensão secundária qualificada — por exemplo, um email por voo quando a mesma viajante tem vários voos correspondentes."
 
 
 >[!CONTEXTUALHELP]
@@ -78,8 +78,8 @@ UNUSED IDs in BJ
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_custom"
->title="Atividade de canal personalizada"
->abstract="A atividade Canal personalizado permite enviar mensagens por meio de sistemas de terceiros ou integrações personalizadas dentro da sua campanha orquestrada. Ele permite acionar processos de delivery externos — como plataformas de parceiros ou ferramentas de mensagens proprietárias — exportando dados do público-alvo para um sistema externo. Você pode combinar atividades de canal personalizadas com outras atividades de canal na tela de campanha para criar campanhas entre canais que envolvem clientes em pontos de contato nativos e personalizados."
+>title="Atividade de canal personalizado"
+>abstract="A atividade de Canal personalizado permite enviar mensagens por meio de sistemas de terceiros ou integrações personalizadas na sua campanha orquestrada. Ela permite acionar processos de entrega externos — como plataformas de parceiros ou ferramentas de mensagens proprietárias — exportando dados de públicos-alvo para um sistema externo. Você pode combinar atividades de canal personalizado com outras atividades de canal na tela da campanha para criar campanhas entre canais que envolvam clientes em pontos de contato nativos e personalizados."
 
 O [!DNL Adobe Journey Optimizer] permite automatizar e executar campanhas em canais (email, SMS, notificações por push, correspondência direta e personalizado) para mensagens de marketing e transacionais. Você pode combinar essas atividades de canal na tela da campanha para criar campanhas orquestradas entre canais. Essas campanhas podem acionar ações com base no comportamento e nos dados do cliente.
 
@@ -184,9 +184,13 @@ Configurações adicionais estão disponíveis, dependendo do canal de comunica�
 
 +++**Personalização do cabeçalho do email** (Email).
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
 >Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+> 
+>O Journey Optimizer permite personalizar as informações do remetente, incluindo dados do armazenamento relacional do Campaign Orchestration, permitindo casos de uso como o envio de um email em nome do gerente da conta. Como esses dados podem estar sujeitos a restrições de uso definidas por sua organização ou por regulamentos legais, verifique se suas operações de dados na Journey Optimizer estão em conformidade com suas obrigações legais e de conformidade.
+>
+>O Adobe Journey Optimizer lida com o consentimento por meio da Adobe Experience Platform (AEP) no nível do perfil. Ao personalizar usando dados relacionais e não de perfil do Journey Optimizer Campaign Orchestration, as organizações devem criar e aplicar políticas de consentimento usando segmentação e personalização.
 
 Depois de selecionar a configuração do canal, habilite **[!UICONTROL Substituir configurações de entrega de email]** para substituir valores definidos nessa configuração. Você pode personalizar as seguintes configurações para esta atividade de canal:
 

@@ -79,23 +79,23 @@ Para o conteúdo multilíngue, as seguintes configurações devem ser definidas:
 
   +++ Saiba como atribuir permissões relacionadas multilíngues
 
-   1. No produto **Permissões**, abra a guia **Funções** e selecione a **função** desejada.
+  1. No produto **Permissões**, abra a guia **Funções** e selecione a **função** desejada.
 
-   1. Clique em **Editar** para modificar as permissões.
+  1. Clique em **Editar** para modificar as permissões.
 
-   1. Adicione o recurso **Serviço de tradução** e selecione as permissões multilíngues apropriadas no menu suspenso.
+  1. Adicione o recurso **Serviço de tradução** e selecione as permissões multilíngues apropriadas no menu suspenso.
 
-      ![](assets/multilingual-permission.png){zoomable="yes"}
+     ![](assets/multilingual-permission.png){zoomable="yes"}
 
-   1. Clique em **Salvar** para aplicar as alterações.
+  1. Clique em **Salvar** para aplicar as alterações.
 
-      As permissões de todos os usuários já atribuídos a essa função serão atualizadas automaticamente.
+     As permissões de todos os usuários já atribuídos a essa função serão atualizadas automaticamente.
 
-   1. Para atribuir essa função a novos usuários, navegue até a guia **Usuários** no painel **Funções** e clique em **Adicionar usuário**.
+  1. Para atribuir essa função a novos usuários, navegue até a guia **Usuários** no painel **Funções** e clique em **Adicionar usuário**.
 
-   1. Insira o nome do usuário, seu endereço de email ou escolha na lista e clique em **Salvar**.
+  1. Insira o nome do usuário, seu endereço de email ou escolha na lista e clique em **Salvar**.
 
-   1. Se o usuário não tiver sido criado anteriormente, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/users).
+  1. Se o usuário não tiver sido criado anteriormente, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/users).
 
   +++
 
@@ -103,17 +103,17 @@ Para o conteúdo multilíngue, as seguintes configurações devem ser definidas:
 
   +++ Saiba como habilitar o recurso de Tradução
 
-   1. Se você estiver vendo a seguinte página de erro, isso indica que o recurso **[!UICONTROL Tradução]** ainda não foi habilitado. Entre em contato com o administrador da organização e da sandbox para solicitar acesso.
+  1. Se você estiver vendo a seguinte página de erro, isso indica que o recurso **[!UICONTROL Tradução]** ainda não foi habilitado. Entre em contato com o administrador da organização e da sandbox para solicitar acesso.
 
   ![](assets/multi-troubleshoot.png)
 
-   1. O administrador precisará navegar até o menu **[!UICONTROL Tradução]** na barra lateral esquerda.
+  1. O administrador precisará navegar até o menu **[!UICONTROL Tradução]** na barra lateral esquerda.
 
-      O sistema habilitará automaticamente o recurso Tradução.
+     O sistema habilitará automaticamente o recurso Tradução.
 
-   1. Depois que o recurso for habilitado com êxito, você poderá acessar a página **[!UICONTROL Tradução]**, juntamente com as guias **[!UICONTROL Projetos]**, **[!UICONTROL Provedores]** e **[!UICONTROL Localidade]**.
+  1. Depois que o recurso for habilitado com êxito, você poderá acessar a página **[!UICONTROL Tradução]**, juntamente com as guias **[!UICONTROL Projetos]**, **[!UICONTROL Provedores]** e **[!UICONTROL Localidade]**.
 
-   1. Se esse procedimento falhar, você ainda verá a mesma página de erro. Nesse caso, entre em contato com o representante da Adobe para obter mais assistência.
+  1. Se esse procedimento falhar, você ainda verá a mesma página de erro. Nesse caso, entre em contato com o representante da Adobe para obter mais assistência.
 
   +++
 

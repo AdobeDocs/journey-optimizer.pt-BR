@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 43066cc40499d87771b251766d5fa6b96afb1bb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 707
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -45,26 +45,26 @@ Agora é possível enviar mensagens do WhatsApp diretamente pelo Journey Optimiz
 
 ## Casos de uso {#use-cases}
 
-O WhatsApp funciona melhor quando o seu público-alvo já usa a plataforma e você deseja combinar um conteúdo rico com uma conversa genuinamente bidirecional.
+O WhatsApp funciona melhor quando o público-alvo já usa a plataforma e você deseja combinar um conteúdo avançado com uma conversa genuinamente bidirecional.
 
-| Benefícios | Por que | Exemplo de casos de uso |
+| Benefícios | Por que | Casos de uso de exemplo |
 | --- | --- | --- |
-| Alto engajamento global | Plataforma de mensagens amplamente usada, com forte adoção em muitas regiões | Atingir públicos internacionais já ativos no WhatsApp |
-| Mensagens ricas e interativas | Oferece suporte a imagens, vídeos, botões e respostas rápidas | Catálogos de produtos, confirmações de compromissos com opções de resposta rápida |
-| Experiências conversacionais bidirecionais | Os recipients podem responder no mesmo thread | Conversações sobre o suporte ao cliente, perguntas sobre o rastreamento de pedidos |
-| Experiências interativas em várias telas | Os modelos de fluxo do WhatsApp permitem criar interações guiadas em várias etapas no chat | Pesquisas, formulários de captura de clientes potenciais |
-| Conformidade e confiança via API oficial | Entregue por meio da API de nuvem verificada da Meta com verificação do remetente | Comunicações verificadas pela marca que geram confiança do recipient |
-| Integração com outros canais | Pode ser dividido em camadas com jornadas e campanhas ao lado de outros canais | Jornadas multicanal usando o WhatsApp como ponto de contato complementar |
+| Alto engajamento global | Plataforma de mensagens amplamente usada, com forte adoção em muitas regiões | Atingir públicos-alvo internacionais já ativos no WhatsApp |
+| Mensagens avançadas e interativas | Oferece suporte a imagens, vídeos, botões e respostas rápidas | Catálogos de produtos, confirmações de agendamento com opções de resposta rápida |
+| Experiências conversacionais bidirecionais | Os destinatários podem responder na mesma conversa | Conversas com o suporte ao cliente, perguntas sobre o rastreamento de pedidos |
+| Experiências interativas em várias telas | Os modelos do WhatsApp Flow permitem criar interações guiadas em várias etapas no chat | Pesquisas, formulários de captura de leads |
+| Conformidade e confiança via API oficial | Entregue por meio da API de nuvem verificada da Meta com verificação do remetente | Comunicações verificadas pela marca que geram confiança no destinatário |
+| Integração com outros canais | Pode ser combinado a jornadas e campanhas, juntamente com outros canais | Jornadas multicanal usando o WhatsApp como ponto de contato complementar |
 
 ## Quando não usar {#when-not-to-use}
 
 O WhatsApp depende da adoção do público-alvo e do consentimento explícito, portanto não é adequado para todos os cenários. Considere outro canal nas seguintes situações:
 
-* Seu público-alvo não usa o WhatsApp, pois a adoção varia muito de acordo com a região e a demografia
-* Os recipients não ofereceram aceitação explícita, o que é exigido pelas políticas de mensagens da Meta
-* A mensagem é urgente e precisa de entrega garantida, que SMS ou push manipula melhor dadas as restrições de entrega e revisão do modelo do WhatsApp
-* O conteúdo é longo ou complexo e mais adequado para o email, que oferece mais espaço e formatação mais avançada
-* Suporte conversacional em tempo real não é viável do seu lado, já que threads bidirecionais do WhatsApp definem uma expectativa de resposta em tempo hábil
+* O público-alvo não usa o WhatsApp, pois a adoção varia muito de acordo com a região e o perfil demográfico
+* Os destinatários não aceitaram de forma explícita, o que é exigido pelas políticas de mensagens da Meta
+* A mensagem é urgente e precisa de entrega garantida, o que o SMS ou as notificações por push processam melhor, dadas as restrições de entrega e de revisão do modelo do WhatsApp
+* O conteúdo é longo ou complexo e mais adequado para email, que oferece mais espaço e formatação avançada
+* O suporte conversacional em tempo real não é viável para você, já que conversas bidirecionais do WhatsApp definem uma expectativa de resposta pontual
 
 ## Pré-requisitos {#prereq}
 

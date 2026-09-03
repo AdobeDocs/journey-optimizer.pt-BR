@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 601
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -83,29 +83,29 @@ Use o Journey Optimizer para criar notificações no aplicativo e configurar as 
 
 ## Casos de uso
 
-As mensagens no aplicativo funcionam melhor quando você deseja orientar ou influenciar os usuários enquanto eles já estão envolvidos com o aplicativo, aproveitando esse momento de atenção ativa.
+As mensagens no aplicativo funcionam melhor quando você deseja orientar ou influenciar os usuários enquanto eles já estão engajados com o aplicativo, aproveitando esse momento de atenção ativa.
 
-| Benefícios | Por que | Exemplo de casos de uso |
+| Benefícios | Por que | Casos de uso de exemplo |
 | --- | --- | --- |
-| Alto engajamento do usuário | Alcança os usuários enquanto eles estão ativamente em uma sessão do aplicativo | Anúncios em destaque, dicas de integração |
-| Acionadores contextualmente relevantes | Pode ser acionado com base no comportamento ou na localização no aplicativo | Realçar um recurso logo após o usuário visitar uma tela relacionada |
-| Entrega em tempo real | Nenhuma dependência em tokens de push ou serviços de delivery externos | Solicitações sensíveis ao tempo mostradas durante a sessão atual |
+| Alto engajamento do usuário | Alcançam os usuários enquanto eles estão ativamente em uma sessão do aplicativo | Anúncios em destaque, dicas de integração |
+| Acionadores contextualmente relevantes | Podem ser acionadas com base no comportamento no aplicativo ou na localização | Realçar um recurso logo após o usuário visitar uma tela relacionada |
+| Entrega em tempo real | Nenhuma dependência de tokens de push ou serviços de entrega externos | Prompts urgentes exibidos durante a sessão atual |
 | Nenhuma dependência em canais externos | Funciona totalmente no aplicativo, independentemente do status de aceitação de outros canais | Acessar usuários que recusaram as notificações por push |
-| Melhor potencial de conversão | Entregue em um momento de atenção ativa, aumentando as taxas de resposta | Ofertas de venda adicional ou venda cruzada, prompts de pesquisa |
-| Personalização e segmentação | Layout, texto e botões podem ser adaptados a públicos específicos | Fluxos de integração personalizados para diferentes segmentos de usuários |
-| Design não intrusivo | Pode ser projetado para complementar, em vez de interromper, a experiência do usuário | Banners ou modais que se alinham à interface do usuário do aplicativo |
+| Melhor potencial de conversão | Entregues em um momento de atenção ativa, aumentando as taxas de resposta | Ofertas de venda adicional ou venda cruzada, prompts de pesquisa |
+| Personalização e segmentação | Layout, texto e botões podem ser adaptados a públicos-alvo específicos | Fluxos de integração personalizados para diferentes segmentos de usuários |
+| Design não intrusivo | Podem ser projetadas para complementar, em vez de interromper, a experiência do usuário | Banners ou modais que se alinham à interface do aplicativo |
 
 ## Quando não usar
 
 As mensagens no aplicativo dependem de uma sessão ativa, portanto, não são adequadas para todos os cenários. Considere outro canal nas seguintes situações:
 
-* O usuário não está usando o aplicativo ativamente, pois a mensagem nunca será exibida
-* A mensagem é um problema crítico ou sensível ao tempo que requer o alcance de usuários fora do aplicativo, como uma interrupção ou alerta de segurança
-* A comunicação é regulamentar ou legal e requer uma confirmação de leitura de que as mensagens no aplicativo não podem fornecer
-* A meta é a reativação da conta ou uma campanha de retorno para usuários inativos que provavelmente não abrirão o aplicativo
+* O usuário não está usando o aplicativo ativamente, já que a mensagem nunca será exibida
+* A mensagem é um problema crítico ou urgente que requer o alcance de usuários fora do aplicativo, como uma interrupção ou alerta de segurança
+* A comunicação é regulamentar ou legal e exige uma confirmação de leitura que as mensagens no aplicativo não podem fornecer
+* A meta é a reativação da conta ou uma campanha de recuperação de usuários inativos que provavelmente não abrirão o aplicativo
 * A mensagem é uma atualização transacional de alto volume, como uma confirmação de pedido, mais adequada para email ou SMS
-* O uso excessivo pode levar à cegueira do banner, onde os usuários começam a ignorar mensagens que aparecem com muita frequência
-* Os usuários podem estar offline ou sem conectividade de aplicativo quando a mensagem deve ser entregue
+* O uso excessivo pode levar à cegueira de banner, onde os usuários começam a ignorar mensagens que aparecem com muita frequência
+* Os usuários podem estar offline ou sem conexão com o aplicativo quando a mensagem precisa ser entregue
 
 
 

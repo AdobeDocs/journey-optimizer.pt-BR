@@ -11,7 +11,7 @@ hide: true
 keywords: jornada, campanha, comparação, escolher, decisão, fluxo de trabalho, tempo real, lote, orquestração, várias etapas, agendado, acionado por API, orientado por evento
 source-git-commit: ab31811861ccaab22fc787ce3c687204637fbd46
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1968'
 ht-degree: 2%
 
 ---
@@ -51,13 +51,13 @@ Se você precisar de um **fluxo de trabalho em lote complexo com segmentação a
 
 | Abordagem | Melhor para | Estilo de execução |
 |----------|----------|-----------------|
-| **Jornadas** | Experiências do cliente em tempo real em várias etapas com lógica condicional | 1:1 orquestração — cada perfil em seu próprio ritmo |
+| **Jornadas** | Experiências do cliente em tempo real em várias etapas com lógica condicional | Orquestração 1:1 — cada perfil em seu próprio ritmo |
 | **Campanhas de ação** | Ativações agendadas ou recorrentes para públicos | Execução em lote — público-alvo processado junto no momento do envio |
 | **Campanhas acionadas por API** | Mensagens transacionais ou orientadas por eventos de sistemas externos | Execução sob demanda — acionada pela chamada da API com carga |
 
 ## Como cada abordagem funciona {#key-distinctions}
 
-### Jornada: 1:1 orquestração em tempo real
+### Jornada: orquestração em tempo real 1:1
 
 Uma Jornada é uma tela na qual cada perfil percorre seu próprio caminho em seu próprio ritmo. O AJO rastreia onde cada pessoa está no fluxo e reage em tempo real ao seu comportamento, seja uma ação que realiza, um período de inatividade ou uma mudança em seu perfil.
 
@@ -203,7 +203,7 @@ Esta seção contém conhecimento estruturado destinado a oferecer suporte à in
 
 Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
 
-* **TL;DR:** Escolha entre Jornadas, campanhas de Ação e campanhas acionadas por API com base na necessidade ou não de orquestração em tempo real 1:1, entrega em lote agendada ou de entrada ou execução acionada por API sob demanda.
+* **TL;DR:** Escolha entre Jornadas, campanhas de Ação e campanhas acionadas por API com base na necessidade de orquestração em tempo real 1:1, entrega em lote agendada ou de entrada ou execução acionada por API sob demanda.
 
 **Intenções:**
 * Entenda as principais diferenças entre Jornadas, campanhas de ação e campanhas acionadas por API

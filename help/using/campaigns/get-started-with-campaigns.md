@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1686
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** entenda os fundamentos de campanha, compare os tipos de campanha disponíveis e siga o fluxo de trabalho de criação completo para poder escolher a abordagem correta e criar campanhas que forneçam conteúdo direcionado entre canais na Adobe Journey Optimizer.
+**Nesta página:** entenda os fundamentos de campanha, compare os tipos de campanha disponíveis e siga o fluxo de trabalho de criação de ponta a ponta para poder escolher a abordagem correta e criar campanhas que forneçam conteúdo direcionado entre canais no Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
@@ -193,7 +193,7 @@ Antes de trabalhar com campanhas, certifique-se de que possui o seguinte:
 
   >[!NOTE]
   >
-  >Cada perfil envolvido por uma campanha conta para a métrica de licença **Perfis envolventes** da sua organização (janela contínua de 12 meses, contada uma vez por sandbox). Ativar uma campanha para um público-alvo grande ou novo pode causar um aumento significativo nessa contagem. [Monitorar a contagem de perfis ativáveis](../audience/license-usage.md)
+  >Cada perfil envolvido por uma campanha conta para a métrica de licença **Perfis ativáveis** da sua organização (janela contínua de 12 meses, contada uma vez por sandbox). Ativar uma campanha para um público-alvo grande ou novo pode causar um aumento significativo nessa contagem. [Monitorar a contagem de perfis ativáveis](../audience/license-usage.md)
 
 * **Configurações de canal** - As configurações de canal (predefinições) devem ser criadas e estar disponíveis para os canais que você deseja usar. [Definir configurações de canal →](../configuration/channel-surfaces.md)
 
@@ -252,7 +252,7 @@ Configure a base da campanha:
 
 +++
 
-+++&#x200B;3. Projetar o conteúdo
++++&#x200B;3. Criar conteúdo
 
 Crie mensagens convincentes para o público-alvo:
 

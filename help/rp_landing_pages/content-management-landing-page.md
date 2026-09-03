@@ -8,7 +8,7 @@ exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: 170c8e7efe9244874353102a8bd2650b23f967f0
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 81%
+ht-degree: 89%
 
 ---
 
@@ -84,7 +84,7 @@ Integre soluções da Adobe, como Experience Manager, Stock e GenStudio, para ob
 
 ## Recursos adicionais
 
-- **[Gerar conteúdo](ai-assistant-landing-page.md)** - Use a IA para gerar e personalizar conteúdo em emails, SMS, páginas da Web e experimentos.
+- **[Gerar conteúdo](ai-assistant-landing-page.md)** – use IA para gerar e personalizar o conteúdo de emails, SMS, páginas da web e experimentos.
 - **[Gerenciamento de conteúdo multilíngue](content-multilingual-landing-page.md)**: crie e gerencie um conteúdo multilíngue, usando fluxos de trabalho de tradução manuais e automatizados.
 - **[Experimentação de conteúdo](../using/content-management/get-started-experiment.md)**: configure e analise experimentos para otimizar o engajamento do público-alvo e os resultados da campanha.
-- **[Criação de conteúdo sob marca e com IA no Adobe Journey Optimizer para profissionais de marketing](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers)** - Saiba como usar os recursos de IA da Adobe Journey Optimizer para criar, refinar e controlar conteúdo sob marca em canais e localidades.
+- **[Criação de conteúdo sob marca e com IA no Adobe Journey Optimizer para profissionais de marketing](https://experienceleague.adobe.com/pt-br/courses/ajo-ai-powered-on-brand-content-creation-for-marketers)** - Saiba como usar os recursos de IA da Adobe Journey Optimizer para criar, refinar e controlar conteúdo sob marca em canais e localidades.

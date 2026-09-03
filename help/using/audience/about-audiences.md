@@ -84,9 +84,9 @@ Os públicos-alvo podem ser gerados usando métodos diferentes:
 
 * **Definições de segmento**: crie uma nova definição de público-alvo usando o Serviço de Segmentação da Adobe Experience Platform. Os públicos-alvo são gerados a partir das definições de segmento e atualizados em momentos diferentes, dependendo do tipo de avaliação:
 
-   * Segmentação de transmissão: os públicos-alvo são atualizados em tempo real, à medida que novos dados fluem no, garantindo relevância contínua com base na atividade do usuário.
-   * Segmentação em lote: os públicos-alvo são atualizados a cada 24 horas, capturando um instantâneo dos perfis em um intervalo fixo. Quando usados em jornadas, os membros de segmento recém-qualificados podem não aparecer até o próximo instantâneo. [Saiba mais sobre sincronização](../building-journeys/audience-qualification-events.md#timing-segment-membership).
-   * Segmentação do Edge: os públicos-alvo são avaliados instantaneamente na borda, permitindo personalização em tempo real.
+  * Segmentação de transmissão: os públicos-alvo são atualizados em tempo real, à medida que novos dados fluem no, garantindo relevância contínua com base na atividade do usuário.
+  * Segmentação em lote: os públicos-alvo são atualizados a cada 24 horas, capturando um instantâneo dos perfis em um intervalo fixo. Quando usados em jornadas, os membros de segmento recém-qualificados podem não aparecer até o próximo instantâneo. [Saiba mais sobre sincronização](../building-journeys/audience-qualification-events.md#timing-segment-membership).
+  * Segmentação do Edge: os públicos-alvo são avaliados instantaneamente na borda, permitindo personalização em tempo real.
 
   [Saiba como criar definições de segmento](creating-a-segment-definition.md)
 

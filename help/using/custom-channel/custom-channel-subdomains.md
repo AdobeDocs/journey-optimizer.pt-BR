@@ -9,11 +9,11 @@ badge: label="Disponibilidade limitada" type="Informative"
 source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
-# Configurar subdomínios de canal personalizados {#custom-channel-subdomains}
+# Configurar subdomínios de canais personalizados {#custom-channel-subdomains}
 
 >[!BEGINSHADEBOX]
 
@@ -24,14 +24,14 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom_channel"
 >title="Delegar um subdomínio de canal personalizado"
->abstract="Você deve configurar um subdomínio para usar nas mensagens de canal personalizadas, pois esse subdomínio é necessário para criar uma configuração de canal personalizada. Você pode usar um subdomínio já delegado à Adobe ou configurar um novo subdomínio."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="Configurar um canal personalizado"
+>abstract="Você deve configurar um subdomínio para usar suas mensagens de canal personalizado, pois esse subdomínio é necessário para criar uma configuração de canal personalizada. Você pode usar um subdomínio já delegado à Adobe ou configurar um novo subdomínio."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="Configurar um canal personalizado"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_custom_channel_subdomain"
 >title="Selecionar um subdomínio de canal personalizado"
->abstract="Para criar uma configuração de canal personalizada, verifique se você configurou anteriormente pelo menos um subdomínio de canal personalizado para escolher na lista Nome de subdomínio."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="Configurar um canal personalizado"
+>abstract="Para poder criar uma configuração de canal personalizado, verifique se você configurou anteriormente pelo menos um subdomínio de canal personalizado para selecionar na lista de nomes de subdomínios."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="Configurar um canal personalizado"
 
 ## Introdução a subdomínios de canal personalizados {#gs-custom-channel-subdomains}
 
@@ -91,7 +91,7 @@ Para usar um subdomínio que já está delegado à Adobe, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_custom_channel_subdomain_dns"
 >title="Gerar o registro DNS correspondente"
->abstract="Para configurar um novo subdomínio de canal personalizado, é necessário copiar as informações do servidor de nomes do Adobe exibidas na interface do Journey Optimizer e colá-las na solução de hospedagem de domínio para gerar o registro DNS correspondente. Depois que as verificações forem bem-sucedidas, o subdomínio estará pronto para ser usado para criar configurações de canal personalizadas."
+>abstract="Para configurar um novo subdomínio de canal personalizado, copie as informações do servidor de nomes da Adobe exibidas na interface do Journey Optimizer e cole-as na sua solução de hospedagem de domínios para gerar o registro DNS correspondente. Depois que as verificações forem concluídas com sucesso, o subdomínio estará pronto para ser usado para criar configurações de canal personalizado."
 
 Para configurar um novo subdomínio, siga as etapas abaixo.
 

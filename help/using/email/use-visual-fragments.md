@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 89c7799f3d330a0fceb40d55ab3da69fb6c279d8
+source-git-commit: d8f0a7fc524651079c39ca683f7916234d68bab3
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1306
 ht-degree: 1%
 
 ---
@@ -122,6 +122,10 @@ Ao trabalhar com fragmentos visuais que contêm conteúdo condicional, siga esta
 * Verifique se há fragmentos aninhados com conteúdo condicional na estrutura de email
 * Reestruturar movendo cada fragmento com conteúdo condicional para o seu próprio bloco de estrutura no nível do email
 * Salve e verifique se as variantes de conteúdo condicional foram restauradas corretamente
+
+>[!NOTE]
+>
+>Se um fragmento usar conteúdo dinâmico e seu estado padrão estiver vazio, ele poderá aparecer em branco quando adicionado a um email no Designer de email. Esse é o comportamento esperado — o sistema usa a variante padrão como um fallback para garantir a consistência. Para visualizar o conteúdo real, [simule seu email](../content-management/preview-test.md) usando um perfil que atenda às condições definidas nas regras de conteúdo dinâmico do fragmento.
 
 ## Usar variáveis implícitas {#implicit-variables-in-fragments}
 

@@ -29,7 +29,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1734
 ht-degree: 1%
 
 ---
@@ -77,8 +77,8 @@ Para fontes e texto, siga as diretrizes abaixo:
 
 **Contraste de cores**
 
-* Mantenha uma taxa de contraste de pelo menos 4,5:1 entre o texto e o plano de fundo.
-* Para textos grandes (≥ 24px ou bold 18px), verifique se há pelo menos um contraste de 3:1.
+* Mantenha uma relação de contraste de pelo menos 4.5:1 entre o texto e o plano de fundo.
+* Para textos grandes (≥ 24px ou bold 18px), garanta pelo menos um contraste de 3:1.
 * Evite texto cinza-claro ou pastel em planos de fundo brancos.
 * Não confie apenas na cor para transmitir significado, mas em vez disso use sublinhados, ícones etc.
 
@@ -354,40 +354,40 @@ Fornecer navegação pelo teclado e suporte de foco permite que as pessoas que n
 
 * Foco pelo teclado
 
-   * Verifique se todos os elementos interativos (como botões, caixas de seleção, links) têm `tabindex="0"` para que sejam incluídos na ordem de tabulação natural.
+  * Verifique se todos os elementos interativos (como botões, caixas de seleção, links) têm `tabindex="0"` para que sejam incluídos na ordem de tabulação natural.
 
-   * Permitir a navegação usando as teclas Tab e setas (^ ↓ ← →), que deve destacar visivelmente o elemento focado.
+  * Permitir a navegação usando as teclas Tab e setas (^ ↓ ← →), que deve destacar visivelmente o elemento focado.
 
 * Estilo de foco personalizado
 
-   * Aplique estilos claros e distinguíveis para focalizar elementos acionáveis:
+  * Aplique estilos claros e distinguíveis para focalizar elementos acionáveis:
 
-     +++Exemplo (CSS)
+    +++Exemplo (CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     
-     background-color: #20CEFF;   /* Optional background */ 
-     
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    
+    background-color: #20CEFF;   /* Optional background */ 
+    
+    }
+    ```
 
-     +++
+    +++
 
-   * Garantir que os indicadores de foco atendam aos padrões de aparência de foco da WCAG 2.2, incluindo:
+  * Garantir que os indicadores de foco atendam aos padrões de aparência de foco da WCAG 2.2, incluindo:
 
-      * Área mínima: 2 contornos de espessura de pixel CSS.
+    * Área mínima: 2 contornos de espessura de pixel CSS.
 
-      * Taxa de contraste: ≥ 3:1 entre o estado focalizado e desfocado.
+    * Relação de contraste: ≥ 3:1 entre estado focado e desfocado.
 
 * Suporte para ativação de teclado
 
-   * Verifique se as caixas de seleção e os botões respondem às teclas Enter e Space.
+  * Verifique se as caixas de seleção e os botões respondem às teclas Enter e Space.
 
-   * Validar a interação usando apenas o teclado:
+  * Validar a interação usando apenas o teclado:
 
-      * Enter ou Space deve alternar as caixas de seleção.
+    * Enter ou Space deve alternar as caixas de seleção.
 
-      * Enter ou Space deve acionar botões.
+    * Enter ou Space deve acionar botões.

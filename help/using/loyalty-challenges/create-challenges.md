@@ -11,7 +11,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
 source-wordcount: '2577'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -259,7 +259,7 @@ Depois de configurar a estrutura de desafio com tarefas e recompensas, você pod
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="Conteúdo"
->abstract="Configure como seu desafio é representado em locais onde os membros do programa de fidelidade acessam desafios e rastreiam seu progresso. Use a ação Adicionar para escolher o Cartão de conteúdo para exibir uma experiência no estilo do cartão ou a experiência Baseada em código para fornecer conteúdo por meio de sua própria implementação personalizada."
+>abstract="Configure como seu desafio é representado em locais onde os membros do programa de fidelidade acessam desafios e rastreiam seu progresso. Use a ação Adicionar para escolher um Cartão de conteúdo a ser exibido em uma experiência no estilo de cartão ou uma experiência baseada em código para fornecer conteúdo por meio da sua própria implementação personalizada."
 
 A guia **[!UICONTROL Conteúdo]** controla como o desafio é representado em locais onde os membros do programa de fidelidade acessam desafios e controlam seu progresso.
 

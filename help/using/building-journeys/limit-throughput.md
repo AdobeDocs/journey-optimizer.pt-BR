@@ -85,12 +85,12 @@ Vamos ver um exemplo de **jornadas acionadas por público** que funcionam com um
 1. Depois disso, adicione as atividades Wait com um temporizador específico em cada ramificação. Aqui, configuramos uma espera de 30 segundos para cada um. A cada segundo, 100 perfis fluirão para cada ramificação.
 
    * Na ramificação 1, eles aguardarão 30 segundos, o que significa que:
-      * no segundo 1, 100 perfis aguardarão pelo segundo 31
-      * no segundo 2, 100 perfis aguardarão o segundo 32, etc.
+     * no segundo 1, 100 perfis aguardarão pelo segundo 31
+     * no segundo 2, 100 perfis aguardarão o segundo 32, etc.
 
    * Na ramificação 2, eles aguardarão 60 segundos, o que significa que:
-      * No segundo 1, 100 perfis aguardarão o segundo 61 (1&#39;01&#39;&#39;)
-      * No segundo 2, 100 perfis aguardarão o segundo 62 (1&#39;02&#39;&#39;) etc.
+     * No segundo 1, 100 perfis aguardarão o segundo 61 (1&#39;01&#39;&#39;)
+     * No segundo 2, 100 perfis aguardarão o segundo 62 (1&#39;02&#39;&#39;) etc.
 
    * Sabendo que esperamos 20 segundos no máximo para ler todos os perfis, não haverá sobreposição entre cada ramificação, sendo os últimos 20 segundos em que os perfis fluirão para a condição. Entre o segundo 31 e o segundo 51, todos os perfis na ramificação 1 serão processados. Entre os segundos 61 (1&#39;01&#39;&#39;) e 81 (1&#39;21&#39;&#39;), todos os perfis na ramificação 2 serão processados etc.
 

@@ -97,7 +97,7 @@ O Journey Optimizer oferece suporte a vários tipos de fontes para conexão com 
 
 **Fidelidade e recompensas:**
 * Talon.One
-* Capilar
+* Capillary
 * Kobie
 * LAVA
 

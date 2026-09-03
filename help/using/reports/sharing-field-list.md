@@ -137,8 +137,8 @@ Abaixo estão definições, causas comuns e etapas de solução de problemas par
 
 * Para descartes que ocorrem em jornadas pausadas:
 
-   * **PAUSED_JORNADA_VERSION**: descartes que ocorreram no ponto de entrada da jornada
-   * **JORNADA_IN_PAUSED_STATE**: Descarta o que ocorreu quando os perfis estão em uma jornada
+  * **PAUSED_JORNADA_VERSION**: descartes que ocorreram no ponto de entrada da jornada
+  * **JORNADA_IN_PAUSED_STATE**: Descarta o que ocorreu quando os perfis estão em uma jornada
 
   Saiba mais sobre esses eventos e como solucioná-los na [seção Pausar uma Jornada](../building-journeys/journey-pause.md#discards-troubleshoot).
 

@@ -9,9 +9,9 @@ feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 637
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,10 +54,10 @@ O Journey Optimizer fornece duas experiências para testar o conteúdo:
   É possível usar perfis de teste para visualizar o conteúdo, enviar provas de email e verificar a renderização de email. Se você adicionou campos personalizados, é possível verificar como eles são exibidos usando dados de perfil de teste. Para obter mais informações, consulte estas seções:
 
   ➡️ [Selecionar perfis de teste](test-profiles.md)
-➡️ [Visualizar usando perfis de teste](preview.md)
-➡️ [Enviar provas de email](proofs.md)
-➡️ [Verificar renderização de email](rendering.md)
-➡️ [Visualizar e revisar email (vídeo)](#video-preview)
+  ➡️ [Visualizar usando perfis de teste](preview.md)
+  ➡️ [Enviar provas de email](proofs.md)
+  ➡️ [Verificar renderização de email](rendering.md)
+  ➡️ [Visualizar e revisar email (vídeo)](#video-preview)
 
 * **Testar variações de conteúdo usando dados de exemplo**
 
@@ -67,7 +67,7 @@ O Journey Optimizer fornece duas experiências para testar o conteúdo:
 
   ➡️ [Simular variações de conteúdo](../test-approve/simulate-sample-input.md)
 
-Para campanhas acionadas por API e de Ação (agendadas), também é possível enviar provas de forma programática usando a [API de Simulações](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}. Isso não é compatível com campanhas orquestradas.
+Para campanhas acionadas por API e de Ação (agendadas), também é possível enviar provas de forma programática usando a [API de simulações](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}. Isso não é compatível com campanhas orquestradas.
 
 ## Leitura obrigatória
 

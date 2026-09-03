@@ -47,13 +47,13 @@ Você pode selecionar em campanhas e jornadas qualquer público gerado usando de
 
 * **Upload personalizado e composição de público-alvo federado** - Para públicos-alvo de upload personalizado e composição de público federado, observe as seguintes medidas de proteção:
 
-   * **Suporte para visualização e prova:** Atualmente, não há suporte para visualizações e provas em públicos-alvo criados por meio de carregamento CSV ou Composição de Público Federado. Lembre-se disso ao planejar suas campanhas.
+  * **Suporte para visualização e prova:** Atualmente, não há suporte para visualizações e provas em públicos-alvo criados por meio de carregamento CSV ou Composição de Público Federado. Lembre-se disso ao planejar suas campanhas.
 
-   * **Direcionamento de novos perfis:** Quando não for encontrada uma correspondência entre um registro e um perfil do Serviço de Perfil Unificado, um novo perfil vazio será criado. Este perfil está vinculado aos atributos de enriquecimento que são armazenados no data lake. Como esse novo perfil está vazio, os campos de direcionamento normalmente usados em [!DNL Journey Optimizer] (por exemplo, personalEmail.address, mobilePhone.number) estão vazios. Portanto, esses campos não podem ser usados para direcionamento.
+  * **Direcionamento de novos perfis:** Quando não for encontrada uma correspondência entre um registro e um perfil do Serviço de Perfil Unificado, um novo perfil vazio será criado. Este perfil está vinculado aos atributos de enriquecimento que são armazenados no data lake. Como esse novo perfil está vazio, os campos de direcionamento normalmente usados em [!DNL Journey Optimizer] (por exemplo, personalEmail.address, mobilePhone.number) estão vazios. Portanto, esses campos não podem ser usados para direcionamento.
 
-     Para resolver isso, você pode especificar o &quot;campo de execução&quot; (ou o &quot;endereço de execução&quot; dependendo do canal) na configuração do canal como &quot;identityMap&quot;. Isso garante que o atributo escolhido como a identidade na criação do público-alvo será aquele usado para o direcionamento em [!DNL Journey Optimizer].
+    Para resolver isso, você pode especificar o &quot;campo de execução&quot; (ou o &quot;endereço de execução&quot; dependendo do canal) na configuração do canal como &quot;identityMap&quot;. Isso garante que o atributo escolhido como a identidade na criação do público-alvo será aquele usado para o direcionamento em [!DNL Journey Optimizer].
 
-   * **Registros ativados e identificação de identidade:** todos os registros do público-alvo são ativados, incluindo duplicatas. Durante a próxima exportação de perfil do Serviço de Perfil Unificado, esses registros passam pela identificação. Como resultado, o número de registros ativados pode diferir do número de perfis após a identificação de identidade.
+  * **Registros ativados e identificação de identidade:** todos os registros do público-alvo são ativados, incluindo duplicatas. Durante a próxima exportação de perfil do Serviço de Perfil Unificado, esses registros passam pela identificação. Como resultado, o número de registros ativados pode diferir do número de perfis após a identificação de identidade.
 
 ## Atraso de ativação de públicos-alvo {#activation}
 

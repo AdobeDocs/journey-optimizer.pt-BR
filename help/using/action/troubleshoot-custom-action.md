@@ -102,8 +102,8 @@ Como administrador do Journey Optimizer, você também pode usar ferramentas ext
 
 * A solicitação de teste é executada por **Jornada AJO**, significando:
 
-   * A estrutura de solicitação exata (incluindo cabeçalhos específicos do Adobe Journey Optimizer) é usada.
-   * O IP de origem e os cabeçalhos correspondem àqueles usados nas jornadas ativas.
+  * A estrutura de solicitação exata (incluindo cabeçalhos específicos do Adobe Journey Optimizer) é usada.
+  * O IP de origem e os cabeçalhos correspondem àqueles usados nas jornadas ativas.
 
 * O recurso **[!UICONTROL Enviar solicitação de teste]** pode ser usado para solucionar problemas de **jornadas em tempo real**, pois a ação personalizada já foi implantada.
 

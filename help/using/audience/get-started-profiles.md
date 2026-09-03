@@ -27,7 +27,7 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 06c5998c241d25ab2b45f5f703dd3bdddc7e3a8a
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 822
 ht-degree: 24%
 
 ---
@@ -70,9 +70,9 @@ Principais características:
 * **Contado uma vez por sandbox**: um perfil que insere várias jornadas ou campanhas em uma sandbox conta como um único Perfil Acionável para essa sandbox.
 * **Com base em seu Público-alvo endereçável**: perfis envolventes são calculados a partir de seu Público-alvo endereçável. A contagem representa o público-alvo engajado nos últimos 12 meses usando qualquer um dos recursos do Journey Optimizer, de seu Público-alvo endereçável total.
 * **Comportamento da métrica**: a contagem de perfis ativáveis:
-   * Pode aumentar quando novos perfis são envolvidos por meio de jornadas ou campanhas
-   * Não pode diminuir a menos que não haja engajamento com determinados perfis por mais de 12 meses
-   * Pode diminuir quando perfis com pseudônimos são compilados em perfis conhecidos
+  * Pode aumentar quando novos perfis são envolvidos por meio de jornadas ou campanhas
+  * Não pode diminuir a menos que não haja engajamento com determinados perfis por mais de 12 meses
+  * Pode diminuir quando perfis com pseudônimos são compilados em perfis conhecidos
 
 >[!TIP]
 >

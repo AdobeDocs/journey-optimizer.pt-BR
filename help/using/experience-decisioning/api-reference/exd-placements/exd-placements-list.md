@@ -19,14 +19,14 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 179
-ht-degree: 5%
+source-wordcount: 182
+ht-degree: 7%
 
 ---
 
 # Listar posicionamentos de exd {#list-exd-placements}
 
-Você pode visualizar uma lista de todas as disposições de exd executando uma única solicitação do GET para a API da Biblioteca de ofertas.
+Você pode exibir uma lista de todos os posicionamentos de exd executando uma única solicitação GET para a API da Biblioteca de ofertas.
 
 **Formato da API**
 

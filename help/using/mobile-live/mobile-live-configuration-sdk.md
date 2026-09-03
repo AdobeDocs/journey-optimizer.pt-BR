@@ -72,9 +72,9 @@ Verifique se as versões mínimas a seguir estão instaladas para garantir a con
 **Pré-requisitos:**
 
 * **iOS:**
-   * **iOS16.1 ou posterior**: funcionalidade básica de atividade online
-   * **iOS 17.2+**: suporte push-to-start
-   * **iOS 18+**: suporte ao canal de transmissão
+  * **iOS16.1 ou posterior**: funcionalidade básica de atividade online
+  * **iOS 17.2+**: suporte push-to-start
+  * **iOS 18+**: suporte ao canal de transmissão
 * **Xcode:** 14.0 ou posterior
 * **Swift:** 5.7 ou posterior
 * **Dependências:** AEPCore, AEPMessaging, AEPMessagingLiveActivity, ActivityKit
@@ -99,8 +99,8 @@ Crie uma estrutura que esteja em conformidade com o protocolo `LiveActivityAttri
 Os principais componentes incluem:
 
 * **`liveActivityData`** (obrigatório) que contém dados específicos do Adobe Experience Platform.
-   * Para usuários individuais: Use `LiveActivityData(liveActivityID: "unique-id")`
-   * Para difusão: Use `LiveActivityData(channelID: "channel-id")`
+  * Para usuários individuais: Use `LiveActivityData(liveActivityID: "unique-id")`
+  * Para difusão: Use `LiveActivityData(channelID: "channel-id")`
 
 * Atributos estáticos, propriedades personalizadas específicas ao seu caso de uso, por exemplo, `restaurantName`.
 

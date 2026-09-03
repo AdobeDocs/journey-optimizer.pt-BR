@@ -18,7 +18,7 @@ role_v2:
 subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1723
+source-wordcount: 1724
 ht-degree: 4%
 
 ---
@@ -209,7 +209,7 @@ A cadeia de caracteres ISO-8601 já inclui informações de fuso horário.
 
 `toDateTime("Europe/Paris", toDateOnly("2023-08-18"))`
 
-Retorna 18T00:00:00.000+02:00 de 2023
+Retorna 2023-08-18T00:00:00.000+02:00
 
 Isso cria um dateTime combinando um fuso horário com um valor somente de data. A hora é definida como meia-noite (00:00:00) no fuso horário especificado.
 

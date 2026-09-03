@@ -173,20 +173,20 @@ Com esse modo de autenticação, a execução da ação é um processo de duas e
 * método da solicitação HTTP no ponto de extremidade (`GET` ou `POST`)
 * `headers`: pares de chave-valor a serem inseridos como cabeçalhos nesta chamada, se necessário
 * `body`: descreve o corpo da chamada se o método for POST. Oferecemos suporte a uma estrutura de corpo limitada, definida em bodyParams (pares de valores chave). O bodyType descreve o formato e a codificação do corpo na chamada:
-   * `form`: significa que o tipo de conteúdo será application/x-www-form-urlencoded (charset UTF-8) e que os pares de valor-chave serão serializados como estão: key1=value1&amp;key2=value2&amp;...
-   * `json`: significa que o tipo de conteúdo será application/json (charset UTF-8) e que os pares de valores chave serão serializados como um objeto json como a seguir: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+  * `form`: significa que o tipo de conteúdo será application/x-www-form-urlencoded (charset UTF-8) e que os pares de valor-chave serão serializados como estão: key1=value1&amp;key2=value2&amp;...
+  * `json`: significa que o tipo de conteúdo será application/json (charset UTF-8) e que os pares de valores chave serão serializados como um objeto json como a seguir: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 ### Definição da forma como o token de acesso deve ser inserido na solicitação HTTP da ação{#custom-authentication-access-token}
 
 * **authorizationType**: define como o token de acesso gerado deve ser inserido na chamada HTTP para a ação. Os valores possíveis são:
 
-   * `bearer`: indica que o token de acesso deve ser inserido no cabeçalho de Autorização, como: _Autorização: Portador &lt;token de acesso>_
-   * `header`: indica que o token de acesso deve ser inserido como um cabeçalho, o nome do cabeçalho definido pela propriedade `tokenTarget`. Por exemplo, se o `tokenTarget` for `myHeader`, o token de acesso será inserido como um cabeçalho como: _myHeader: &lt;access token>_
-   * `queryParam`: indica que o token de acesso deve ser inserido como um queryParam, o nome do parâmetro de consulta definido pela propriedade tokenTarget. Por exemplo, se o tokenTarget for myQueryParam, o URL da chamada de ação será: _&lt;url>?myQueryParam=&lt;access token>_
+  * `bearer`: indica que o token de acesso deve ser inserido no cabeçalho de Autorização, como: _Autorização: Portador &lt;token de acesso>_
+  * `header`: indica que o token de acesso deve ser inserido como um cabeçalho, o nome do cabeçalho definido pela propriedade `tokenTarget`. Por exemplo, se o `tokenTarget` for `myHeader`, o token de acesso será inserido como um cabeçalho como: _myHeader: &lt;access token>_
+  * `queryParam`: indica que o token de acesso deve ser inserido como um queryParam, o nome do parâmetro de consulta definido pela propriedade tokenTarget. Por exemplo, se o tokenTarget for myQueryParam, o URL da chamada de ação será: _&lt;url>?myQueryParam=&lt;access token>_
 
 * **tokenInResponse**: indica como extrair o token de acesso da chamada de autenticação. Essa propriedade pode ser:
-   * `response`: indica que a resposta HTTP é o token de acesso
-   * um seletor em um json (supondo que a resposta seja um json, não oferecemos suporte a outros formatos, como XML). O formato desse seletor é _json://&lt;path to the access token property>_. Por exemplo, se a resposta da chamada for: _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, o tokenInResponse será:_ json: //access_token_
+  * `response`: indica que a resposta HTTP é o token de acesso
+  * um seletor em um json (supondo que a resposta seja um json, não oferecemos suporte a outros formatos, como XML). O formato desse seletor é _json://&lt;path to the access token property>_. Por exemplo, se a resposta da chamada for: _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, o tokenInResponse será:_ json: //access_token_
 
 O formato dessa autenticação é:
 

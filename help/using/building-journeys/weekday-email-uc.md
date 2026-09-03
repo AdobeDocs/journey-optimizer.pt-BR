@@ -115,8 +115,8 @@ toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))
 Em que:
 
 * **X** é o número de dias de espera:
-   * Usar **2** para sábado (aguardar até segunda-feira)
-   * Usar **1** para domingo (aguardar até segunda-feira)
+  * Usar **2** para sábado (aguardar até segunda-feira)
+  * Usar **1** para domingo (aguardar até segunda-feira)
 * **H** é a hora que você deseja enviar (por exemplo, **9** para a 9h)
 
 
@@ -167,9 +167,9 @@ Após as atividades de **[!UICONTROL Aguardar]** nos caminhos de sábado e domin
 O fluxo de trabalho completo do jornada segue essa lógica:
 
 * **Início** → **[!UICONTROL Condição]**: É sábado ou domingo?
-   * **Sim (sábado):** **[!UICONTROL Aguardar]** até segunda-feira, 9h → **[!UICONTROL Enviar email]**
-   * **Sim (domingo):** **[!UICONTROL Aguardar]** até segunda-feira, 9h → **[!UICONTROL Enviar email]**
-   * **Não (segunda a sexta-feira):** **[!UICONTROL Enviar email]** imediatamente
+  * **Sim (sábado):** **[!UICONTROL Aguardar]** até segunda-feira, 9h → **[!UICONTROL Enviar email]**
+  * **Sim (domingo):** **[!UICONTROL Aguardar]** até segunda-feira, 9h → **[!UICONTROL Enviar email]**
+  * **Não (segunda a sexta-feira):** **[!UICONTROL Enviar email]** imediatamente
 
 Isso garante que todos os emails sejam enviados somente em dias úteis, com entradas de fim de semana automaticamente enfileiradas para entrega na segunda-feira.
 
