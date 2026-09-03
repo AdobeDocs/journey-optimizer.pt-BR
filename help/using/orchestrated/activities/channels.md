@@ -6,19 +6,14 @@ description: Saiba como adicionar uma atividade de canal a uma campanha em vári
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c08402e768c15f133b47178a876e4d3d1f9f5c05
 workflow-type: tm+mt
-source-wordcount: 2370
-ht-degree: 37%
+source-wordcount: 2470
+ht-degree: 35%
 
 ---
 
@@ -184,9 +179,13 @@ Configurações adicionais estão disponíveis, dependendo do canal de comunica�
 
 +++**Personalização do cabeçalho do email** (Email).
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
 >Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+> 
+>O Journey Optimizer permite personalizar as informações do remetente, incluindo dados do armazenamento relacional do Campaign Orchestration, permitindo casos de uso como o envio de um email em nome do gerente da conta. Como esses dados podem estar sujeitos a restrições de uso definidas por sua organização ou por regulamentos legais, verifique se suas operações de dados na Journey Optimizer estão em conformidade com suas obrigações legais e de conformidade.
+>
+>O Adobe Journey Optimizer lida com o consentimento por meio da Adobe Experience Platform (AEP) no nível do perfil. Ao personalizar usando dados relacionais e não de perfil do Journey Optimizer Campaign Orchestration, as organizações devem criar e aplicar políticas de consentimento usando segmentação e personalização.
 
 Depois de selecionar a configuração do canal, habilite **[!UICONTROL Substituir configurações de entrega de email]** para substituir valores definidos nessa configuração. Você pode personalizar as seguintes configurações para esta atividade de canal:
 
@@ -211,7 +210,7 @@ Use a seção de **[!UICONTROL Rastreamento de ações]** para acompanhar como o
 
 O modo de entrega rápida é um complemento do [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas. A entrega rápida é usada quando o atraso na entrega da mensagem é essencial para os negócios. Por exemplo, você deseja enviar um alerta de push urgente em telefones celulares, como notícias de última hora para usuários que instalaram seu aplicativo de canal de notícias. Saiba como habilitar o modo de entrega rápida para notificações por push [nesta página](../../push/create-push.md#rapid-delivery).
 
-Para obter mais informações sobre o desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Para obter mais informações sobre o desempenho ao usar o modo de entrega rápida, consulte a [descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
