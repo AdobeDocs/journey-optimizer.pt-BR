@@ -37,7 +37,7 @@ Content here — any standard markdown is valid.
 
 O conteúdo extraído via `{{$include}}` de `help/_includes/do-not-localize/` está **excluído da localização**. É assim que o bloco permanece não traduzido.
 
----
+&#x200B;---
 
 ## Fluxo de trabalho
 
@@ -89,7 +89,7 @@ Antes de gravar o bloco, leia novamente a declaração de conteúdo gerado por d
 
 **Regra de correção:** se houver falha na verificação, corrija o conteúdo **antes** de gravar o bloco. Registre cada correção no relatório de Etapa 5.
 
----
+&#x200B;---
 
 ### Etapa 4 — Gravar o bloco em um include não localizado e, em seguida, incluí-lo
 
@@ -131,7 +131,7 @@ O comentário de sincronização ainda permite a detecção de desvio: o hash de
 - Arquivos ignorados + motivo (já tem página de bloco/vazia/índice)
 - Quaisquer avisos de validação gerados durante a Etapa 2
 
----
+&#x200B;---
 
 ## Regras de geração de conteúdo
 
@@ -246,7 +246,7 @@ As respostas devem usar as mesmas opções de verbo e substantivo que o corpo da
 - **não** inventar conteúdo não suportado pela página
 - **não** usar os termos imprecisos a seguir, a menos que eles apareçam textualmente no corpo da página: &quot;sintético&quot;, &quot;dados falsos&quot;, &quot;sem dados reais&quot;, &quot;reverter&quot;, &quot;reverter&quot; (ao descrever as transições de estado do produto)
 
----
+&#x200B;---
 
 ## Lista de verificação de validação pós-geração
 
@@ -269,7 +269,7 @@ Execute essa lista de verificação em cada bloco antes de gravar a inclusão. S
 
 Se alguma verificação falhar, corrija o bloco antes de gravar a inclusão. Registre a correção no relatório Etapa 5.
 
----
+&#x200B;---
 
 ## Sincronizar responsabilidade
 
@@ -282,7 +282,7 @@ O bloco de Referência de conhecimento de IA é um derivado do corpo da página 
 
 O comentário de sincronização dentro do arquivo de inclusão (`<!-- ai-section-version -->`) é o sinal: se o corpo da página de inclusão tiver sido alterado desde que esse hash foi gravado, o bloco será um candidato para revisão. Ao atualizar, edite o arquivo de inclusão em `help/_includes/do-not-localize/`, não a página.
 
----
+&#x200B;---
 
 ## Modelo completo
 
