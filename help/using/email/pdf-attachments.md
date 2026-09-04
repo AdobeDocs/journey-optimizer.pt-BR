@@ -66,7 +66,7 @@ Para anexar um arquivo do PDF a uma mensagem de email, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Ao criar mensagens, você acessa o repositório do Assets Essentials diretamente de dentro da interface da Journey Optimizer. Para saber mais sobre a interface do usuário incorporada [!DNL Assets Essentials], consulte a [documentação do Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
+   >Ao criar mensagens, você acessa o repositório do Assets Essentials diretamente de dentro da interface da Journey Optimizer. Para saber mais sobre a interface do usuário incorporada [!DNL Assets Essentials], consulte a [documentação do Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=pt-BR){target="_blank"}.
 
 1. Use o filtro **[!UICONTROL PDF]** na seção **[!UICONTROL Tipo MIME]** para restringir a seleção ao formato de arquivo correto.
 
@@ -105,9 +105,9 @@ O tamanho combinado de todos os anexos estáticos e personalizados do PDF em um 
 >
 >* Anexos personalizados e estáticos do PDF são contados na mesma cota. [Saiba mais](#pdf-attachments)
 
-Os anexos personalizados do PDF devem ser carregados no contêiner [Data Landing Zone](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} específico do anexo e depois referenciados na carga da API. Atualmente, a Data Landing Zone é o único local de armazenamento compatível com anexos personalizados da PDF.
+Os anexos personalizados do PDF devem ser carregados no contêiner [Data Landing Zone](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} específico do anexo e depois referenciados na carga da API. Atualmente, a Data Landing Zone é o único local de armazenamento compatível com anexos personalizados da PDF.
 
-1. Recupere as credenciais da Zona de Aterrissagem de Dados para sua sandbox usando `type=ajoemailattachments` para a mesma organização IMS e sandbox da solicitação de execução, conforme descrito na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}. Dependendo do provedor de nuvem, use o container do Azure ou o bucket e a pasta do AWS retornados pela API.
+1. Recupere as credenciais da Zona de Aterrissagem de Dados para sua sandbox usando `type=ajoemailattachments` para a mesma organização IMS e sandbox da solicitação de execução, conforme descrito na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}. Dependendo do provedor de nuvem, use o container do Azure ou o bucket e a pasta do AWS retornados pela API.
 
 1. Gere os arquivos PDF com a ferramenta de sua escolha e faça upload deles para o contêiner da Data Landing Zone.
 
