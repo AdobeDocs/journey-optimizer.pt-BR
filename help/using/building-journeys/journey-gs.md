@@ -11,29 +11,16 @@ keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, a�
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/7zNDOi2SUTyttgR6I1iOYQb61ejxpqLYznweU8alnPw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5970d29e1ab6f0abbae0a9ff22d89656f135c3c8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2167
-ht-degree: 9%
+source-wordcount: 1505
+ht-degree: 14%
 
 ---
 
@@ -167,7 +154,7 @@ Saiba mais sobre relatórios do jornada nesta [seção](../reports/live-report.m
 
 ## Casos de uso comuns {#use-cases}
 
-Não tem certeza de onde começar? Estes são três cenários típicos em que as jornadas agregam mais valor:
+Não tem certeza por onde começar? Estes são três cenários típicos em que as jornadas agregam mais valor:
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
@@ -208,47 +195,4 @@ Não tem certeza de onde começar? Estes são três cenários típicos em que as
 * **[jornadas de Solução de Problemas](troubleshooting.md)** - Encontre soluções para problemas comuns de jornada e práticas recomendadas para depuração.
 * **[tutoriais do Jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Explore tutoriais em vídeo passo a passo sobre a criação de jornadas e práticas recomendadas.
 
-+++ Referência de conhecimento de IA
-
-Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
-
-Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
-
-* **TL;DR:** Esta página aborda as quatro etapas principais para criar uma primeira jornada no Adobe Journey Optimizer — definindo um ponto de entrada, projetando a tela, testando com modo de teste ou execução a seco e publicando — juntamente com orientações sobre como escolher o tipo de entrada correto.
-
-**Intenções:**
-* Criar uma nova jornada e configurar suas propriedades no menu Gerenciamento de Jornadas
-* Escolha o ponto de entrada correto (Leia Público, Qualificação de público, evento unitário ou evento comercial) para um determinado caso de uso
-* Crie uma jornada em várias etapas arrastando e soltando eventos, atividades de orquestração e ações de canal na tela
-* Teste uma jornada usando Simulação, Modo de teste com perfis de teste persistentes do AEP ou Execução a seco antes da publicação
-* Executar uma simulação para validar o direcionamento de público com dados de produção reais sem entrar em contato com os clientes
-* Publicar uma jornada para ativá-la e monitorar seu desempenho com ferramentas de relatório
-
-**Glossário:**
-* **Ler público-alvo**: uma atividade de entrada que processa todos os perfis em um público-alvo em lote de uma só vez ou em um agendamento *(específico do produto)*
-* **Qualificação de público-alvo**: uma atividade de entrada disparada em tempo real quando um perfil entra ou sai de um público-alvo de streaming *(específico do produto)*
-* **Evento unitário**: um gatilho em tempo real que insere um perfil de cada vez em uma jornada quando uma ação específica ocorre *(específico do produto)*
-* **Evento comercial**: um evento que não é de perfil (por exemplo, cancelamento de voo, reabastecimento de estoque) que aciona uma jornada para vários perfis simultaneamente por meio de uma etapa automática de Leitura de Público *(específico do produto)*
-* **Modo de teste**: um modo de validação que usa perfis de teste persistentes do Adobe Experience Platform (explicitamente sinalizados como perfis de teste) para percorrer uma jornada de rascunho antes da publicação *(específico do produto)*
-* **Simulação**: um modo de validação que usa usuários temporários simulados gerados em tempo real; os usuários simulados não persistem no Adobe Experience Platform *(específico do produto)*
-* **Execução seca**: um modo de publicação especial que usa dados de produção reais para validar a lógica de jornada sem entrar em contato com clientes reais ou atualizar perfis *(específico do produto)*
-
-**Medidas de Proteção:**
-* Uma jornada não pode ser publicada se contiver erros; todos os erros devem ser resolvidos primeiro
-* A configuração do evento (para entrada baseada em evento) deve ser concluída por um engenheiro de dados antes que a jornada possa ser criada
-* As medidas de proteção e limitações de jornada são documentadas separadamente e devem ser revisadas antes de projetar em escala
-* A criação de públicos no Adobe Experience Platform é um pré-requisito para jornadas baseadas em públicos
-
-**Terminologia:**
-* Nome canônico: Jornada — Acrônimo: none — variantes: jornada do cliente, fluxo de orquestração
-* Sinônimos: &quot;Modo de teste&quot; = &quot;Teste de jornada&quot;; &quot;Execução seca&quot; = &quot;modo de execução a seco&quot;
-* Não confunda: &quot;Simulation&quot; ≠ &quot;Test mode&quot; ≠ &quot;Dry run&quot; — A simulação usa usuários temporários simulados; O modo de teste usa perfis de teste persistentes do AEP; O Dry run usa dados reais de produção sem entrar em contato com os clientes ou atualizar os perfis
-
-**Perguntas frequentes:**
-* **P: Qual é a primeira coisa que preciso fazer antes de criar uma jornada acionada por evento?** — configure o evento com um engenheiro de dados para definir o acionador e os dados que ele transporta; em seguida, faça referência ao evento como o ponto de entrada da jornada.
-* **P: Qual ponto de entrada é recomendado para alguém novo no Journey Optimizer?** — comece com uma jornada baseada em público-alvo usando uma atividade Ler público-alvo — não requer configuração prévia de evento e é a maneira mais fácil de se familiarizar com a tela.
-* **P: Posso testar minha jornada antes que ela entre no ar?** — Sim; use Simulation com usuários temporários simulados, Test mode com perfis de teste persistentes do AEP ou Dry run para executar em dados reais de produção sem enviar comunicações.
-* **P: O que acontece se minha jornada apresentar erros quando eu tentar publicar?** — Não é possível publicar uma jornada com erros; todos os erros de configuração devem ser resolvidos antes da publicação.
-* **P: Como dividir uma jornada complexa com várias etapas?** — Use a atividade Jump para conectar sub-jornadas menores, reduzindo a complexidade e tornando cada sub-jornada mais fácil de testar independentemente.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-gs.md}}

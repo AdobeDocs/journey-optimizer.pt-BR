@@ -11,30 +11,15 @@ keywords: design, tela, jornada, interface, arrastar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 9eaa76d4a2e18038725691ab59e74b7387e87a7e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2595
+source-wordcount: 2029
 ht-degree: 2%
 
 ---
@@ -106,13 +91,13 @@ Ao usar a nova experiência, você pode selecionar vários nós de uma só vez, 
 
 >[!TIP]
 >
->Para obter uma orientação passo a passo sobre como desconectar e reingressar em nós na tela do jornada, consulte este [artigo da comunidade Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=pt){target="_blank"}.
+>Para obter uma orientação passo a passo sobre como desconectar e reingressar em nós na tela do jornada, consulte este [artigo da comunidade Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908){target="_blank"}.
 
 
 
 Assista a este vídeo para obter uma visão geral da nova experiência da tela de jornada:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496197?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3496193)
 
 ## Inicie sua jornada {#start-your-journey}
 
@@ -201,51 +186,4 @@ Se quiser copiar apenas uma atividade, clique nela e use o ícone **Copiar** na 
 1. Em qualquer jornada, pressione **Ctrl/Command + V** para colar as atividades sem vinculá-las a um nó existente. As atividades coladas são colocadas na mesma ordem. Depois de coladas, as atividades permanecem selecionadas para que você possa movê-las facilmente. Você também pode colocar o cursor em um espaço reservado vazio e pressionar **Ctrl/Command + V**. As atividades coladas serão vinculadas ao nó.
    ![Atividades coladas na tela do jornada prontas para serem conectadas](assets/copy-paste3.png)
 
-+++ Referência de conhecimento de IA
-
-Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
-
-Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
-
-* **TL;DR:** esta página apresenta a tela do designer do Journey Optimizer jornada, explicando como criar jornadas de várias etapas arrastando e soltando eventos, orquestração e atividades de ação da paleta.
-
-**Intenções:**
-
-* Navegue pela interface do designer de jornadas (paleta, tela, barra de ferramentas, painel de configuração da atividade)
-* Adicionar eventos, atividades de orquestração e atividades de ação a uma tela de jornada
-* Configurar um caminho alternativo de fallback para as atividades de Condição e Ação no tempo limite ou erro
-* Copie e cole atividades na mesma jornada ou em diferentes jornadas na mesma instância
-* Iniciar uma jornada usando um acionador de evento ou um ponto de entrada Ler público
-
-**Glossário:**
-
-* **Paleta**: o painel esquerdo no designer do jornada lista todos os eventos, orquestração e atividades de ação disponíveis para arrastar e soltar na tela *(específico do produto)*
-* **Tela**: a área de design central do designer de jornadas onde as atividades são colocadas, conectadas e configuradas *(específico do produto)*
-* **Painel de configuração da atividade**: o painel direito que é aberto quando uma atividade é selecionada na tela, usado para preencher as configurações da atividade *(específico do produto)*
-* **Fragmentos de Jornada**: conjuntos reutilizáveis de nós de jornada pré-criados que podem ser inseridos diretamente na tela para evitar a reconstrução da lógica comum *(específico do produto)*
-* **Evento de reação**: uma atividade de evento colocada após uma mensagem para ramificar a jornada com base nas interações de rastreamento do destinatário (abrir, clicar) *(específico do produto)*
-
-**Medidas de Proteção:**
-
-* Ações, condições, atividades de espera e eventos de reação não podem ser colocados como a primeira etapa de uma nova jornada.
-* Copiar/colar só é compatível na mesma instância; copiar/colar entre instâncias não é compatível.
-* Não é possível copiar/colar um evento em uma jornada de destino que usa um namespace diferente.
-* As atividades coladas de uma sandbox diferente podem fazer referência a dados que não existem na jornada de destino.
-* Somente atividades de evento e espera podem ser definidas em paralelo; outros tipos de atividades não podem ser executados em paralelo.
-* Caminhos alternativos (tempo limite/fallback de erro) estão disponíveis apenas para atividades de Condição e Ação.
-
-**Terminologia:**
-
-* Nome canônico: Jornada Designer — Acrônimo: none — variantes: tela de jornada, tela de orquestração
-* Sinônimos: &quot;paleta&quot; = &quot;painel de atividade&quot;; &quot;tela&quot; = &quot;área de design&quot;
-* Não confunda: &quot;events&quot; (acionar entrada ou ramificação da jornada) ≠ &quot;actions&quot; (o que acontece com o cliente, por exemplo, enviar uma mensagem)
-
-**Perguntas frequentes:**
-
-* **P: Como os perfis entram em uma jornada?** — Os perfis são inseridos unitariamente em tempo real quando um evento configurado é recebido, ou em lote quando uma atividade Ler público aciona a jornada.
-* **P: Posso adicionar vários eventos a uma jornada?** — Sim, você pode adicionar vários eventos, desde que todos usem o mesmo namespace.
-* **P: Como definir um fallback quando uma ação falhar?** — Nas propriedades da atividade, ative a opção &quot;Adicionar um caminho alternativo em caso de tempo limite ou erro&quot; para adicionar um caminho de fallback após a atividade.
-* **P: Posso copiar atividades de uma jornada somente leitura?** — Sim, você pode copiar atividades de qualquer jornada, independentemente de seu status, mas só é possível colar dentro da mesma instância.
-* **P: O que é um fragmento de Jornada?** — Um conjunto reutilizável de nós de jornada pré-construídos (por exemplo, verificações de elegibilidade, sequências de boas-vindas) que podem ser inseridos diretamente na tela para evitar a reconstrução da lógica comum do zero.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-using-the-journey-designer.md}}

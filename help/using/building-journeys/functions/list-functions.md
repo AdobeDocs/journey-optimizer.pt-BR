@@ -9,19 +9,15 @@ keywords: lista, funções, expressão, jornada, matriz, coleção
 version: Journey Orchestration
 exl-id: b17245ba-4ffa-4f5b-914e-4c0972e9c7c4
 TQID: https://experienceleague.adobe.com/XWWixhfBVKw-kdgO4WPWrtiIqA8sFt0ql0IVZ-2QsUI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2071
-ht-degree: 5%
+source-wordcount: 1395
+ht-degree: 8%
 
 ---
 
@@ -865,61 +861,4 @@ Retorna o listObject ordenado pelo atributo SKU (ordem crescente)
 
 +++
 
-+++ Referência de conhecimento de IA
-
-Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
-
-Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
-
-* **TL;DR:** esta página documenta todas as funções de lista disponíveis nas expressões do AJO jornada, abordando como filtrar, classificar, desduplicar, verificar associação, limitar, serializar, mesclar, subtrair e localizar interseções de listas e matrizes.
-
-**Intenções:**
-* Remover valores duplicados de uma lista usando `distinct` (ignorando nulos) ou `distinctWithNull` (preservando nulos)
-* Filtrar um listObject para retornar somente objetos correspondentes a valores de chave específicos usando `filter`
-* Recuperar um elemento em um índice específico de uma lista usando `getListItem`
-* Verificar se existe um valor em uma lista usando `in`
-* Encontrar elementos comuns entre duas listas usando `intersect`
-* Combinar duas listas, com ou sem desduplicação, usando `mergeLists`
-* Subtrair uma lista de outra (definir diferença) usando `differenceLists`
-* Retorna o primeiro ou o último N elementos de uma lista usando `limit`
-* Contar o número total de elementos em uma lista usando `listSize`
-* Converter uma lista em uma cadeia de caracteres delimitada usando `serializeList`
-* Classificar uma lista em ordem crescente ou decrescente usando `sort`
-
-**Glossário:**
-* **listObject**: uma lista de objetos complexos que devem ser uma referência de campo; não pode conter objetos nulos *(específico do produto)*
-* **keyAttributeName**: um parâmetro de cadeia opcional usado com `distinct`, `filter` e `sort` para identificar qual atributo de objeto usar para eliminação de duplicação, filtragem ou classificação *(específico do produto)*
-* **interseção**: uma operação de conjunto que retorna somente os elementos presentes em ambas as listas de entrada
-* **mergeLists**: uma operação de conjunto que retorna a união (desduplicada) ou a concatenação (com duplicatas) de duas listas, dependendo do `deduplicate` parâmetro *(específico do produto)*
-* **differenceLists**: uma operação de conjunto que retorna os itens da primeira lista que não estão presentes na segunda lista *(específico do produto)*
-
-**Medidas de Proteção:**
-* `distinctWithNull` não dá suporte ao tipo de parâmetro `<listObject>`
-* `filter` requer que o parâmetro listObject seja uma referência de campo, não um literal embutido
-* `listSize` em um listObject requer que a lista seja uma referência de campo; um listObject não pode conter objetos nulos
-* `serializeList` não dá suporte ao tipo `listObject`
-* `mergeLists` e `differenceLists` suportam somente tipos de lista escalares (string, inteiro, decimal, booleano, dateTime, dateTimeOnly, dateOnly, duration); `listObject` não é suportado
-* O parâmetro `deduplicate` de `mergeLists` deve ser um literal `true`/`false`, não uma expressão booleana dinâmica
-* `differenceLists` sempre desduplica seu resultado; não há opção para manter duplicatas
-
-**Terminologia:**
-* Nome canônico: funções de lista — Acrônimo: none — variantes: funções de coleção, funções de matriz
-* Sinônimos: &quot;listSize&quot; = &quot;count list elements&quot;; &quot;serializeList&quot; = &quot;join list to string&quot;
-* Não confunda: &quot;distinct&quot; (ignora nulos) ≠ &quot;distinctWithNull&quot; (preserva nulo como um valor distinto)
-* Não confunda: &quot;limit&quot; com o terceiro parâmetro `true` (retorna os primeiros N itens) ≠ &quot;limit&quot; com `false` (retorna os últimos N itens)
-* Não confunda: &quot;intersect&quot; (elementos comuns entre duas listas) ≠ &quot;filter&quot; (elementos que correspondem a valores de chave específicos)
-* Não confunda: &quot;mergeLists&quot; (combina duas listas, união ou concatenação) ≠ &quot;differenceLists&quot; (subtrai uma lista de outra) ≠ &quot;interseção&quot; (apenas elementos comuns)
-
-**Perguntas frequentes:**
-* **P: Como faço para obter os primeiros 3 itens de uma lista?** — Use `limit(myList, 3)` ou `limit(myList, 3, true)`; o padrão é retornar os primeiros itens.
-* **P: Como obter os últimos 3 itens de uma lista?** — Use `limit(myList, 3, false)`.
-* **P: Qual é a diferença entre `distinct` e `distinctWithNull`?** — `distinct` ignora valores nulos e os exclui do resultado; `distinctWithNull` trata nulo como um valor distinto e inclui uma entrada nula se houver nulos.
-* **P: Posso filtrar uma lista de cadeias de caracteres com `filter`?** — Não, `filter` funciona somente em `listObject`; para listas escalares, use `in` ou `distinct` para desduplicação.
-* **P: Como verificar se um valor está em uma lista?** — Use `in(value, myList)`, que retornará true se o valor for encontrado na lista.
-* **P: Posso classificar um listObject por um atributo específico?** — Sim, use `sort(@event{...}, "attributeName", true)` onde o segundo parâmetro é o nome do atributo e o terceiro é a direção da classificação (true = crescente).
-* **P: Como combinar duas listas e remover duplicatas?** — Use `mergeLists(list1, list2, true)`.
-* **P: Como combinar duas listas, mas manter valores duplicados?** — Use `mergeLists(list1, list2, false)`.
-* **P: Como faço para localizar os itens de uma lista que não estão em outra?** — Use `differenceLists(list1, list2)`, que retorna os itens de `list1` não presentes em `list2`.
-* **P: Qual é a diferença entre `intersect` e `differenceLists`?** — `intersect` retorna itens comuns às duas listas; `differenceLists` retorna itens da primeira lista que estão ausentes da segunda lista.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-functions-list-functions.md}}
