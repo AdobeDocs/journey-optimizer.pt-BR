@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5592f564456edf86e04dc9849c947402126cf161
+source-git-commit: a3f084da6079fbdf158aeced3167fb88c695b7af
 workflow-type: tm+mt
-source-wordcount: 2234
-ht-degree: 85%
+source-wordcount: 2323
+ht-degree: 83%
 
 ---
 
@@ -49,6 +49,25 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 >Os recursos listados nestas notas de versão incluem uma **Data de disponibilidade** indicando quando cada alteração se torna acessível no ambiente. As entradas nos acordeões **Em breve** são esperadas nos próximos dias ou semanas. As informações nessas seções estão sujeitas a alterações.
 
 ## Atualizações de setembro de 2026 {#sep-26-updates}
+
+### Gerenciamento de conteúdo {#sep-26-content-management}
+
+<table>
+<thead>
+<tr>
+<th><strong>Ferramentas MCP para gerenciamento de conteúdo no CX Co-worker</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O CX Co-worker agora tem um novo conjunto de <strong>ferramentas de MCP de gerenciamento de conteúdo</strong>, permitindo que você descubra e gerencie ativos de conteúdo do Journey Optimizer por meio de prompts de linguagem natural. Solicite que ele liste ou recupere modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem integrada do jornada/campaign. Ele também pode criar conteúdo, atualizar modelos e criar, atualizar, clonar e publicar fragmentos, além de atualizar o conteúdo da ação de canal em linha diretamente no jornada e no Campaign.</p>
+<p>Para obter mais informações, consulte a <a href="../start/ajo-coworker-skills.md#content-management">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 3 de setembro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### Jornadas {#sep-26-journeys}
 
@@ -80,7 +99,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tr>
 <td>
 <p>O editor de expressão avançado do jornada agora integra a geração de expressões alimentadas por IA: descreva a expressão que você deseja criar em linguagem natural e o editor gera um código pronto para uso que pode ser aplicado imediatamente ou refinado por meio de prompts de acompanhamento.</p>
-<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/expression/generate-expression.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 1º de setembro de 2026</p>
 </td>

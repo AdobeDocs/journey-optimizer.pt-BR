@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Habilidades do Journey Optimizer no CX Co-worker
+title: Habilidades do Journey Optimizer no CX Coworker
 description: Descubra as habilidades do Adobe Journey Optimizer disponíveis no CX Co-worker, com orientações detalhadas e prompts de amostra.
 feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: b56351bc92df6846dcdfd9065a170bb7771f8158
+source-git-commit: 46c661740f8a42bcc72c9064e5512b02b1921d71
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3996'
 ht-degree: 6%
 
 ---
 
 
-# Habilidades do Journey Optimizer no CX Co-worker {#ajo-coworker-skills}
+# Habilidades do Journey Optimizer no CX Coworker {#ajo-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Descubra as habilidades do Adobe Journey Optimizer disponíveis no CX Co-worker — desde a criação e análise de jornadas até a geração de conteúdo de canal — com orientação detalhada, prompts de exemplo e práticas recomendadas para cada habilidade.
+**Nesta página:** descubra as habilidades do Adobe Journey Optimizer disponíveis no CX Co-worker — desde a criação e análise de jornadas até a geração de conteúdo de canal e o gerenciamento de ativos de conteúdo — com orientações detalhadas, prompts de exemplo e práticas recomendadas para cada habilidade.
 
 >[!ENDSHADEBOX]
 
@@ -42,6 +42,8 @@ O CX Co-worker oferece várias habilidades para gerenciar Jornadas e desafios de
 
 * **Gerenciamento de Desafio de Fidelidade**: crie e gerencie desafios de fidelidade usando prompts de linguagem natural
 * **Agente de Fidelidade - Habilidade do Data Insight**: consulte e analise dados de desempenho do programa de fidelidade usando linguagem natural
+
+O CX Co-worker também inclui um conjunto de **ferramentas de MCP para gerenciamento de conteúdo**, para descobrir, criar e gerenciar modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha do jornada/campanha. [Saiba mais](#content-management)
 
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
@@ -451,6 +453,98 @@ Principais casos de uso:
    * &quot;Mostrar a receita total do programa de fidelidade dividida por dia durante agosto de 2026.&quot;
    * &quot;Mostrar o total de descontos de fidelidade dividido por categoria de produto durante agosto de 2026.&quot;
    * &quot;Mostre-me o relatório de desempenho do programa de fidelidade para o terceiro trimestre de 2026.&quot;
+
+## Ferramentas de gerenciamento de conteúdo {#content-management}
+
+>[!AVAILABILITY]
+>
+>O gerenciamento de conteúdo está disponível para todos os clientes que têm acesso ao CX Co-worker.
+
+<!--However, you will need the following permissions in order to fully use the Content Management features:
+**Manage Library Items**: This permission lets you list, retrieve, create, and update content templates and fragments directly in CX Coworker.
+
+**Publish Fragment**: This permission lets you publish fragments directly in CX Coworker.-->
+
+Os usuários do Journey Optimizer podem detectar e gerenciar ativos de conteúdo — modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha de jornada/campanha — diretamente do CX Co-worker usando prompts de linguagem natural. Ela permite ir de &quot;me falar sobre meu conteúdo&quot; a &quot;criar, atualizar e publicar&quot;, sem sair da conversa. Esse recurso é alimentado por 15 ferramentas de MCP com capacidade de leitura e gravação para conteúdo do Journey Optimizer.
+
+#### Principais casos de uso
+
+1. **Procurar e inspecionar conteúdo**
+
+   * Liste os modelos de conteúdo, fragmentos ou páginas de aterrissagem disponíveis e recupere sua estrutura, metadados e status.
+   * Recupere o conteúdo da mensagem em linha configurado em um nó de ação de campanha ou do jornada.
+
+   Exemplos de prompts:
+   * &quot;Listar meus modelos de conteúdo de email.&quot;
+   * &quot;Mostre-me os fragmentos disponíveis para minha campanha de verão.&quot;
+   * &quot;Obtenha os detalhes da landing page-123.&quot;
+   * &quot;Qual conteúdo está configurado para a variante de email do nó de ação no campaign camp-789?&quot;
+
+1. **Criar modelos de conteúdo**
+
+   * Crie um novo modelo de conteúdo para qualquer canal.
+
+   Exemplos de prompts:
+   * &quot;Crie um modelo de email chamado Vendas de verão com este conteúdo do HTML.&quot;
+   * &quot;Crie um novo modelo de SMS chamado Alerta Flash.&quot;
+
+1. **Atualizar modelos de conteúdo**
+
+   * Substituir totalmente o conteúdo de um template existente.
+
+   Exemplos de prompts:
+   * &quot;Atualize o template abc-123 com este novo corpo do HTML.&quot;
+
+1. **Criar, atualizar, clonar e publicar fragmentos**
+
+   * Crie um novo fragmento de HTML ou expressão.
+   * Atualize o conteúdo ou os metadados de um fragmento existente.
+   * Clonar um fragmento existente com um novo nome.
+   * Enviar um fragmento de rascunho para publicação.
+
+   Exemplos de prompts:
+   * &quot;Crie um fragmento do HTML chamado Banner promocional com esta marcação.&quot;
+   * &quot;Atualize o fragmento frag-456 para alterar seu nome para Banner promocional V2.&quot;
+   * &quot;Clonar fragmento abc-123 como Banner promocional - Verão (Variante B).&quot;
+   * &quot;Publicar fragmento frag-456.&quot;
+
+1. **Atualizar conteúdo da mensagem integrada**
+
+   * Substituir uma variante de canal em uma mensagem em linha do nó de ação de campanha ou jornada.
+   * Liste as variantes de canal definidas em um nó de ação de jornada ou campanha.
+
+   Exemplos de prompts:
+   * &quot;Atualize a variante de email do nó de ação no campaign camp-789 com este novo conteúdo.&quot;
+   * &quot;Quais variantes de canal são definidas neste nó de ação?&quot;
+
+#### No escopo
+
+Os seguintes recursos são compatíveis com o gerenciamento de conteúdo:
+
+* **Listar e obter modelos de conteúdo**: procure modelos de conteúdo e recupere sua estrutura e metadados.
+* **Listar e obter fragmentos**: procure fragmentos de conteúdo e expressão e recupere seus detalhes.
+* **Listar e obter páginas de aterrissagem**: procure páginas de aterrissagem e recupere seus metadados e conteúdo da página.
+* **Obter conteúdo embutido de campanha/jornada**: recupere o conteúdo da mensagem embutida configurado em um nó de ação de campanha ou jornada, incluindo variantes multilíngues.
+* **Criar modelos de conteúdo**: crie um novo modelo para qualquer canal.
+* **Atualizar modelos de conteúdo**: substituir totalmente o conteúdo de um modelo existente.
+* **Criar, atualizar, clonar e publicar fragmentos**: crie novos fragmentos, atualize os existentes, clone um fragmento com um novo nome e envie um fragmento de rascunho para publicação.
+* **Atualizar conteúdo da mensagem embutida**: substitua uma variante de canal em uma mensagem embutida de nó de ação de campanha/jornada, incluindo variantes multilíngues, e liste as variantes de canal definidas em um nó de ação.
+
+#### Fora do escopo
+
+As seguintes funcionalidades não são compatíveis no momento:
+
+* **Pesquisa de texto completo entre modelos ou fragmentos**
+* **Validação de modelo ou fragmento** (referências órfãs, links corrompidos, componentes obsoletos)
+* **Criando ou publicando páginas de aterrissagem**
+* **Excluindo modelos de conteúdo, fragmentos ou páginas de aterrissagem**
+
+#### Solicitação de práticas recomendadas
+
+1. **IDs de referência quando conhecidas**: forneça o modelo, fragmento, página de aterrissagem ou ID de campanha/jornada ao solicitar a obtenção, atualização, clonagem ou publicação de um ativo específico.
+1. **Seja explícito sobre o canal**: ao criar um modelo ou fragmento, especifique o canal ou o tipo de conteúdo (email, fragmento de HTML, fragmento de expressão).
+1. **Confirmar antes de publicar**: revise o conteúdo de um fragmento depois de criá-lo ou atualizá-lo antes de solicitar que o Co-worker o publique.
+1. **Forneça o conteúdo de substituição completo**: as operações de atualização substituem o conteúdo na íntegra, portanto, inclua o conteúdo completo do corpo ou da variante do HTML no prompt.
 
 <!--
 Feedback from Ivan: Journey simulate is not ready as a skill
