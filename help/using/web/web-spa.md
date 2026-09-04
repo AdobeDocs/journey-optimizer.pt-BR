@@ -113,6 +113,6 @@ Este vídeo explica como:
 * Aplicar modificações de site em várias exibições ou em todas as que foram descobertas
 * Realizar ações em massa em modificações
 
->[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446890/?captions=por_br&quality=12&learn=on)
 
 {{$include /help/_includes/do-not-localize/web/ai-augmented-web-spa.md}}

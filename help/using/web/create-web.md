@@ -306,6 +306,6 @@ Quando uma jornada ou campanha da Web está ativa, você pode interrompê-la par
 
 O vídeo abaixo mostra como criar uma campanha da Web, configurar suas propriedades, revisá-la e publicá-la.
 
->[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449986/?captions=por_br&quality=12&learn=on)
 
 {{$include /help/_includes/do-not-localize/web/ai-augmented-create-web.md}}
