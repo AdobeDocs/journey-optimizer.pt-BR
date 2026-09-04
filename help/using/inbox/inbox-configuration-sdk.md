@@ -5,14 +5,14 @@ feature: Content Cards
 topic: Content Management
 role: Developer
 level: Experienced
-source-git-commit: 4eb7013c2c3178caf7863ff36cb4c194c829e37c
+source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Configurar o suporte à Caixa de entrada no Web SDK {#inbox-configuration-sdk}
+# Configurar o suporte à caixa de entrada no SDK da web {#inbox-configuration-sdk}
 
 >[!BEGINSHADEBOX]
 
@@ -147,3 +147,4 @@ A caixa de entrada depende de dois comandos do Web SDK:
 
 1. Atualize a constante `datastreamId`, `orgId` e `SURFACE` em `src/app/page.js` para apontar para seu ambiente AJO antes de testar.
 
+{{$include /help/_includes/do-not-localize/inbox/ai-augmented-inbox-configuration-sdk.md}}

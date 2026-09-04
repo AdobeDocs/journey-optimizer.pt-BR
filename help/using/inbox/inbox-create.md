@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
-source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
+source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 5%
@@ -54,3 +54,5 @@ Para criar uma caixa de entrada de mensagem por meio de uma campanha, siga estas
 1. Revise e ative sua campanha para enviar mensagens para a caixa de entrada.
 
 Agora você pode escolher esta Caixa de Entrada ao criar sua [Campanha de cartão de conteúdo](../content-card/create-content-card.md).
+
+{{$include /help/_includes/do-not-localize/inbox/ai-augmented-inbox-create.md}}
