@@ -10,24 +10,13 @@ level: Experienced
 keywords: definições, email, configuração
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 TQID: https://experienceleague.adobe.com/WyaT1gRFAeGUCWn74PC3qyRpLn3hHMOniVbzifStsxA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: ht
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
+workflow-type: tm+mt
 source-wordcount: 1916
 ht-degree: 100%
 
@@ -106,11 +95,11 @@ Os recursos **[!UICONTROL Mailto (cancelar assinatura)]** e **[!UICONTROL URL de
 
 * Se não quiser usar o URL de cancelamento de assinatura padrão gerado com um clique, você pode desmarcar o recurso.
 
-   * Se a opção **[!UICONTROL Habilitar cancelamento de assinatura em lista]** estiver ativada, o recurso **[!UICONTROL URL de cancelamento de assinatura com um clique]** estiver desmarcado e você adicionar um [link para opção de não participação com um clique](../email/email-opt-out.md#one-click-opt-out) a uma mensagem criada usando essa configuração, o cabeçalho de cancelamento de assinatura em lista definirá o link de um clique inserido no corpo do email como o URL de cancelamento de assinatura.
+  * Se a opção **[!UICONTROL Habilitar cancelamento de assinatura em lista]** estiver ativada, o recurso **[!UICONTROL URL de cancelamento de assinatura com um clique]** estiver desmarcado e você adicionar um [link para opção de não participação com um clique](../email/email-opt-out.md#one-click-opt-out) a uma mensagem criada usando essa configuração, o cabeçalho de cancelamento de assinatura em lista definirá o link de um clique inserido no corpo do email como o URL de cancelamento de assinatura.
 
-     ![](assets/preset-list-unsubscribe-opt-out-url.png)
+    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   * Se você não adicionar um link para opção de não participação com um clique no conteúdo da mensagem e o **[!UICONTROL URL para cancelar assinatura com um clique]** padrão estiver desmarcado nas configurações do canal, nenhum URL será associado ao cabeçalho de email para cancelar assinatura da lista.
+  * Se você não adicionar um link para opção de não participação com um clique no conteúdo da mensagem e o **[!UICONTROL URL para cancelar assinatura com um clique]** padrão estiver desmarcado nas configurações do canal, nenhum URL será associado ao cabeçalho de email para cancelar assinatura da lista.
 
   >[!NOTE]
   >
@@ -280,13 +269,13 @@ Parâmetros de consulta:
 
 * **emailParamsSub**: string extraída do assunto do email recebido no endereço Mailto.
 
-   * Exemplo: *unsubscribev1.abc*
+  * Exemplo: *unsubscribev1.abc*
 
-   * Valor analisado: *v1.abc*
+  * Valor analisado: *v1.abc*
 
 * **emailParamsBody**: string extraída do corpo do email (se presente) no formato *unsubscribev1.xyz*.
 
-   * Valor analisado: *v1.xyz*
+  * Valor analisado: *v1.xyz*
 
 Exemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
@@ -324,3 +313,5 @@ Resposta de consentimento:
 ```
 
 +++
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-list-unsubscribe.md}}

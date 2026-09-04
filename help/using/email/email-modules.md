@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: módulos, designer de email, cabeçalhos, herói, cartões, rodapé, layout de email, arrastar e soltar
-source-git-commit: 98c7e06f9677380ad8339ccb25318185d2e84489
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -81,6 +81,8 @@ As seguintes categorias de módulo estão disponíveis imediatamente. Várias va
 | **[!UICONTROL Cartões]** | Produtos, artigos ou itens de conteúdo em layouts de grade de uma ou várias colunas. |
 | **[!UICONTROL Equipes]** | Membros da equipe, autores ou palestrantes com uma foto, nome e função. |
 | **[!UICONTROL Rodapés]** | Rodapé de email completo com links de navegação, ícones de redes sociais, cópia legal e links de recusa e de mirror page necessários. |
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-email-modules.md}}
 
 
 

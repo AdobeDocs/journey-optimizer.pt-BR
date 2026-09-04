@@ -10,24 +10,13 @@ level: Beginner, Intermediate
 keywords: componentes, Email Designer, editor, email
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 TQID: https://experienceleague.adobe.com/t-8ADluALsr8pglh8Rv1y9TvObyUjjTAfXaagM-N7cs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7437f4bbbb7e79e3e1cc3403342a600fc7b01c5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 1658
 ht-degree: 41%
@@ -197,7 +186,7 @@ Use o componente **[!UICONTROL Imagem]** para inserir um arquivo de imagem do se
 
 1. Na guia **[!UICONTROL Configurações]**, clique em **[!UICONTROL Procurar]** para escolher um arquivo de imagem de seus ativos ou em **[!UICONTROL Importar mídia]** para carregar um ativo para a Adobe Experience Manager Assets.
 
-   Para saber mais sobre [!DNL Adobe Experience Manager Assets], consulte a [documentação do Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=pt-BR){target="_blank"}.
+   Para saber mais sobre [!DNL Adobe Experience Manager Assets], consulte a [documentação do Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >
@@ -283,3 +272,5 @@ Use o componente **[!UICONTROL Grade]** para organizar o conteúdo em uma estrut
    >Use a opção **[!UICONTROL Não empilhar colunas em dispositivos móveis]** para preservar o layout de grade em dispositivos móveis, em vez de empilhar colunas verticalmente.
 
 1. Solte outros componentes de conteúdo em cada célula, conforme necessário, e ajuste o estilo na guia **[!UICONTROL Estilos]** para cada componente.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-content-components.md}}
