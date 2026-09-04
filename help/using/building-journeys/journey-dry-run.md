@@ -221,6 +221,6 @@ Sim. Para jornadas que usam uma atividade **Read Audience** com um horário agen
 
 Saiba como testar suas jornadas neste vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464687/?captions=por_br&learn=on&enablevpops)
 
 {{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-dry-run.md}}

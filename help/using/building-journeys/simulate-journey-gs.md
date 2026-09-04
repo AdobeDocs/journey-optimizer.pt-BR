@@ -163,7 +163,7 @@ Estas medidas de proteção se aplicam a **[!UICONTROL Simulação]**. As letras
 
 O vídeo abaixo mostra como usar a Simulação rápida para testar as jornadas do cliente automatizando os principais processos. Ele gera perfis de teste, coordena eventos, acelera os tempos de espera e valida cenários.
 
->[!VIDEO](https://video.tv.adobe.com/v/3497475/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3497479/?captions=por_br&learn=on)
 
 
 
