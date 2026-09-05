@@ -21,7 +21,7 @@ A configuração de canais guiada do Adobe Journey Optimizer simplifica o proces
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Configurar dispositivos móveis e canais da web
 
@@ -31,7 +31,7 @@ Saiba como configurar rapidamente canais móveis e da web com a configuração d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Criar e modificar configurações de canais
 

@@ -20,7 +20,7 @@ A configuração de eventos no Adobe Journey Optimizer refere-se à configuraç�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Trabalhar com eventos de jornadas
 
@@ -30,7 +30,7 @@ Saiba mais sobre os eventos de jornadas, seus tipos, ciclo de vida e configuraç
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Configurar um evento unitário
 
@@ -40,7 +40,7 @@ Siga o guia passo a passo para configurar eventos unitários, incluindo a defini
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Esquemas ExperienceEvent
 
@@ -50,7 +50,7 @@ Entenda os requisitos e as configurações do esquema de ingestão de eventos e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 Integração do Adobe Analytics
 
@@ -60,7 +60,7 @@ Saiba como integrar dados do Adobe Analytics para automatizar jornadas e criar e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Configurar um evento de negócios
 
@@ -70,7 +70,7 @@ Instruções detalhadas sobre a configuração de eventos de negócios, incluind
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Enviar eventos com as APIs de transmissão
 
