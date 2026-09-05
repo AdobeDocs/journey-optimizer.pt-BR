@@ -31,7 +31,7 @@ Saiba como criar, projetar, testar e publicar sua primeira jornada do cliente co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Definir e gerenciar propriedades da jornada
 
@@ -41,7 +41,7 @@ Configure regras de entrada, configurações relacionadas ao tempo, gerenciament
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
 Como criar sua Jornada
 
@@ -51,7 +51,7 @@ Use a interface de arrastar e soltar para criar jornadas de marketing personaliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Como testar a jornada
 
@@ -61,7 +61,7 @@ Teste suas jornadas com perfis simulados e detecte erros antes de ativá-las.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=pt-BR)
 
 Teste de jornadas com o modo de execução de teste
 

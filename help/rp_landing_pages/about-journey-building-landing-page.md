@@ -40,7 +40,7 @@ Descubra como usar eventos gerais para acionar jornadas e gerenciar tempos-limit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Configuração de eventos de reação
 
@@ -60,7 +60,7 @@ Saiba como acionar ações e condições com base nos status de participação d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Usar a atividade Otimizar (condições)
 

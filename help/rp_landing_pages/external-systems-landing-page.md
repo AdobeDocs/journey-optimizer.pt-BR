@@ -20,7 +20,7 @@ Integrar as suas jornadas a sistemas externos no Adobe Journey Optimizer permite
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Práticas recomendadas para a integração de sistemas externos
 
@@ -30,7 +30,7 @@ Conheça as práticas recomendadas e as diretrizes técnicas para integrar o Ado
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 Visão geral e guia de implementação da API de limitação
 
@@ -40,7 +40,7 @@ Entenda como criar, definir e gerenciar configurações de limite para integraç
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
 API de limitação: guia de configuração e gerenciamento
 

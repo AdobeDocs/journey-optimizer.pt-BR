@@ -20,7 +20,7 @@ A implementação de um plano de aquecimento de IP no Adobe Journey Optimizer ga
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=pt-BR)
 
 Guia da capacidade de entrega do aquecimento de IP
 
@@ -30,7 +30,7 @@ Entenda os fundamentos da capacidade de entrega, a construção da reputação e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
 
 Introdução aos planos de aquecimento de IP
 
@@ -40,7 +40,7 @@ Saiba mais sobre a finalidade, os benefícios e as etapas dos planos de aquecime
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
 Criar campanhas de aquecimento de IP
 
@@ -50,7 +50,7 @@ Siga as instruções passo a passo para projetar e ativar campanhas para o seu p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 Como criar e gerenciar um plano de aquecimento de IP
 
@@ -60,7 +60,7 @@ Descubra como criar, configurar e gerenciar o seu plano de aquecimento de IP, in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
 
 Executar e gerenciar o seu plano de aquecimento de IP
 
