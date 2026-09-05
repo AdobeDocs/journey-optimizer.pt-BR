@@ -27,10 +27,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
-source-wordcount: 2210
-ht-degree: 10%
+source-wordcount: 2223
+ht-degree: 11%
 
 ---
 
@@ -120,7 +120,7 @@ Para atribuir este **[!UICONTROL Perfil de produto]** a usuários, siga as etapa
 
    >[!NOTE]
    >
-   >Se o usuário não tiver sido criado anteriormente no Admin Console, consulte a [documentação Adicionar usuários](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   >Se o usuário não tiver sido criado anteriormente no Admin Console, consulte a [documentação Adicionar usuários](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/push_product_7.png)
 
@@ -178,35 +178,35 @@ O registro da credencial de push do aplicativo móvel é necessário para autori
 
      ![](assets/add-app-config-ios.png)
 
-      1. Insira o aplicativo móvel **[!UICONTROL ID do aplicativo]**.
+     1. Insira o aplicativo móvel **[!UICONTROL ID do aplicativo]**.
 
-      1. Habilite a opção **[!UICONTROL Aplicar a todas as sandboxes]** para disponibilizar essas credenciais de push em todas as sandboxes. Se uma sandbox específica tiver suas próprias credenciais para o mesmo par de IDs da plataforma e do aplicativo, essas credenciais específicas da sandbox terão prioridade.
+     1. Habilite a opção **[!UICONTROL Aplicar a todas as sandboxes]** para disponibilizar essas credenciais de push em todas as sandboxes. Se uma sandbox específica tiver suas próprias credenciais para o mesmo par de IDs da plataforma e do aplicativo, essas credenciais específicas da sandbox terão prioridade.
 
-      1. Ativado o botão **[!UICONTROL Inserir manualmente as credenciais de push]** para adicionar suas credenciais.
+     1. Ativado o botão **[!UICONTROL Inserir manualmente as credenciais de push]** para adicionar suas credenciais.
 
-      1. Arraste e solte seu arquivo .p8 Apple Push Notification Authentication Key. Esta chave pode ser adquirida nas páginas **Certificados**, **Identificadores** e **Perfis**.
+     1. Arraste e solte seu arquivo .p8 Apple Push Notification Authentication Key. Esta chave pode ser adquirida nas páginas **Certificados**, **Identificadores** e **Perfis**.
 
-         >[!NOTE]
-         >
-         > Somente as chaves de Notificação por Push do Apple .p8 são suportadas. Use outra conta de desenvolvedor do Apple se tiver atingido o limite de chaves .p8.
-         >Para obter mais informações sobre os limites de chave do Apple, consulte a [Documentação para desenvolvedores do Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).
+        >[!NOTE]
+        >
+        > Somente as chaves de Notificação por Push do Apple .p8 são suportadas. Use outra conta de desenvolvedor do Apple se tiver atingido o limite de chaves .p8.
+        >Para obter mais informações sobre os limites de chave do Apple, consulte a [Documentação para desenvolvedores do Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).
 
 
-      1. Forneça a **Key ID**. Esta é uma sequência de 10 caracteres atribuída durante a criação da chave de autenticação p8. Ele pode ser encontrado na guia **Chaves** da página **Certificados**, **Identificadores** e **Perfis**.
+     1. Forneça a **Key ID**. Esta é uma sequência de 10 caracteres atribuída durante a criação da chave de autenticação p8. Ele pode ser encontrado na guia **Chaves** da página **Certificados**, **Identificadores** e **Perfis**.
 
-      1. Forneça a **ID da Equipe**. Este é um valor de string que pode ser encontrado na guia Membros.
+     1. Forneça a **ID da Equipe**. Este é um valor de string que pode ser encontrado na guia Membros.
 
    * **Para Android**
 
      ![](assets/add-app-config-android.png)
 
-      1. Forneça a **[!UICONTROL ID do aplicativo]**. Geralmente, o nome do pacote é a ID do aplicativo no arquivo `build.gradle`.
+     1. Forneça a **[!UICONTROL ID do aplicativo]**. Geralmente, o nome do pacote é a ID do aplicativo no arquivo `build.gradle`.
 
-      1. Habilite a opção **[!UICONTROL Aplicar a todas as sandboxes]** para disponibilizar essas credenciais de push em todas as sandboxes. Se uma sandbox específica tiver suas próprias credenciais para o mesmo par de IDs da plataforma e do aplicativo, essas credenciais específicas da sandbox terão prioridade.
+     1. Habilite a opção **[!UICONTROL Aplicar a todas as sandboxes]** para disponibilizar essas credenciais de push em todas as sandboxes. Se uma sandbox específica tiver suas próprias credenciais para o mesmo par de IDs da plataforma e do aplicativo, essas credenciais específicas da sandbox terão prioridade.
 
-      1. Ativado o botão **[!UICONTROL Inserir manualmente as credenciais de push]** para adicionar suas credenciais.
+     1. Ativado o botão **[!UICONTROL Inserir manualmente as credenciais de push]** para adicionar suas credenciais.
 
-      1. Arraste e solte as credenciais de push do FCM. Para obter mais detalhes sobre como obter as credenciais de push, consulte a [Documentação do Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+     1. Arraste e solte as credenciais de push do FCM. Para obter mais detalhes sobre como obter as credenciais de push, consulte a [Documentação do Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
 <!--
     * **For Web**
@@ -453,3 +453,5 @@ Seu evento foi criado e agora pode ser usado em uma jornada.
 1. Clique em **[!UICONTROL Enviar]**.
 
 Seu evento será acionado e você receberá uma notificação por push para seu aplicativo móvel.
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-push-configuration.md}}

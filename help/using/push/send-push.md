@@ -23,7 +23,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 411
 ht-degree: 10%
@@ -87,3 +87,4 @@ Quando a mensagem de push estiver pronta, conclua a configuração da [jornada](
 * [Adicionar uma mensagem em uma jornada](../building-journeys/journey-action.md)
 * [Adicionar uma mensagem em uma campanha](../campaigns/create-campaign.md)
 
+{{$include /help/_includes/do-not-localize/push/ai-augmented-send-push.md}}

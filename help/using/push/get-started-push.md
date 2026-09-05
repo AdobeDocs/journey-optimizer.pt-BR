@@ -23,8 +23,8 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
-workflow-type: ht
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
+workflow-type: tm+mt
 source-wordcount: 651
 ht-degree: 100%
 
@@ -119,3 +119,4 @@ As notificações por push não são adequadas para todas as mensagens. Consider
 * O conteúdo é confidencial ou privado e não deve estar visível em uma tela de bloqueio, onde qualquer pessoa próxima ao dispositivo possa vê-lo
 * A maioria dos usuários acessa o serviço a partir do desktop em vez de um aplicativo móvel, em que as notificações por push têm alcance limitado ou inexistente
 
+{{$include /help/_includes/do-not-localize/push/ai-augmented-get-started-push.md}}

@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2403
-ht-degree: 63%
+source-wordcount: 1729
+ht-degree: 87%
 
 ---
 
@@ -452,50 +452,4 @@ Configure os **[alertas da jornada](../reports/alerts.md)** para receber notific
 
 **Tudo pronto para criar a primeira jornada?** [Comece agora →](journey-gs.md)
 
-+++ Referência de conhecimento de IA
-
-Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
-
-Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
-
-* **TL;DR:** Esta página é o hub de introdução para o Adobe Journey Optimizer jornada, explicando quais são as jornadas, os quatro tipos de jornadas, o fluxo de trabalho de criação em seis etapas, casos de uso reais e links para recursos avançados.
-
-**Intenções:**
-
-* Entenda o que são jornadas e como elas se diferem de campanhas e campanhas orquestradas
-* Escolha o tipo de jornada correto (Unitário, Público de leitura, Qualificação de público ou Evento comercial) para um caso de uso
-* Siga o fluxo de trabalho de criação de jornadas de seis etapas: Planejar, Projetar, Testar, Publicar, Monitorar, Otimizar
-* Use Simulação, Modo de teste ou Dry run para validar uma jornada antes de entrar em funcionamento
-* Publicar uma jornada e monitorar o desempenho por meio de relatórios e alertas
-* Explore recursos avançados como expressões, gerenciamento de fuso horário, cópia para sandbox e controle de taxa de transferência
-
-**Glossário:**
-
-* **Jornada**: uma experiência de cliente automatizada, em várias etapas, que orquestra interações personalizadas entre canais em resposta ao comportamento do cliente, eventos comerciais ou campanhas agendadas. *(específico do produto)*
-* **Designer de Jornadas**: a tela visual de arrastar e soltar do AJO usada para compilar e configurar fluxos de jornada sem gravar código. *(específico do produto)*
-* **Modo de teste**: um modo de validação de jornada que usa perfis de teste persistentes do Adobe Experience Platform (explicitamente sinalizados como perfis de teste) para percorrer uma jornada de rascunho antes de ser publicada. *(específico do produto)*
-* **Dry run**: um modo de publicação especial que executa a jornada em dados de produção reais sem enviar comunicações ou atualizar perfis. *(específico do produto)*
-* **Simulação**: um modo de validação que usa usuários temporários simulados, criados manualmente ou gerados automaticamente; os usuários simulados não persistem no Adobe Experience Platform. *(específico do produto)*
-* **Campanhas orquestradas**: fluxos de trabalho em lotes de várias etapas na AJO que usam dados relacionais (perfis + produtos/lojas/reservas) e processam todos os perfis junto com contagens exatas de pré-envio. *(específico do produto)*
-
-**Medidas de Proteção:**
-
-* O Live jornada não pode ser editado estruturalmente; as alterações exigem a criação de uma nova versão
-* O modo de teste e a simulação devem ser usados antes da publicação para detectar problemas
-
-**Terminologia:**
-
-* Nome canônico: Jornada — Acrônimo: nenhum — variantes: jornada do cliente, jornada do AJO
-* Sinônimos: &quot;Designer de jornada&quot; = &quot;tela&quot; = &quot;tela de jornada&quot;
-* Não confunda: &quot;Jornada&quot; ≠ &quot;Campaign&quot; — As Jornadas mantêm o estado individual do cliente para experiências em tempo real e orientadas por comportamento em várias etapas; as campanhas entregam mensagens em lote para os públicos-alvo de acordo com um agendamento ou por meio do acionador da API
-* Não confunda: &quot;Simulation&quot; ≠ &quot;Test mode&quot; ≠ &quot;Dry run&quot; — A simulação usa usuários temporários simulados; O modo de teste usa perfis de teste persistentes do AEP em uma jornada de rascunho; O Dry run é executado em relação aos dados reais de produção sem entrar em contato com os clientes ou atualizar os perfis
-
-**Perguntas frequentes:**
-
-* **P: Qual é a diferença entre uma jornada e uma campanha no Journey Optimizer?** — o Jornada fornece orquestração em tempo real 1:1, onde cada perfil avança no seu próprio ritmo por meio da lógica condicional; as campanhas entregam mensagens simultaneamente a um público de acordo com um agendamento ou por meio de um acionador de API; as campanhas orquestradas são fluxos de trabalho de tela em lote para segmentação complexa de várias entidades.
-* **P: Posso editar uma jornada em tempo real?** — elementos limitados, como nome e conteúdo da mensagem, podem ser editados; mudanças estruturais exigem a criação de uma nova versão da jornada.
-* **P: Quais são as etapas para criar uma jornada?** — O fluxo de trabalho de seis etapas é: planejar, projetar na tela, testar (modo de teste ou simulação), publicar, monitorar o desempenho e otimizar/iterar.
-* **P: Como validar uma jornada sem entrar em contato com clientes reais?** — Usar simulação (usuários temporários simulados — observe que isso envia mensagens reais, mas somente para os endereços de execução configurados nesses usuários simulados), modo de teste (perfis de teste persistentes do AEP — observe que isso envia mensagens reais para as caixas de entrada desses perfis de teste) ou execução em disco (dados reais de produção, nós de ação ignorados, nenhuma mensagem enviada). A contagem de perfis de execuções secas para Perfis ativáveis e cota de jornada ativa. Consulte [Escolher um método de validação](choose-validation-method.md) para obter uma comparação completa.
-* **P: Que tipo de jornada devo usar para um email de boas-vindas acionado por uma assinatura?** — Use uma jornada Unitária, que é acionada por um evento individual específico, como uma inscrição por assinatura.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey.md}}

@@ -24,8 +24,8 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: ht
+source-git-commit: c465d24e5ef832bfb19e6e478b9f73e3d7bd1dbb
+workflow-type: tm+mt
 source-wordcount: 332
 ht-degree: 100%
 
@@ -81,3 +81,5 @@ Veja abaixo as configurações de fundo disponíveis para uso.
   >Esse é o caso de uso mais comum. A Adobe recomenda configurar as cores de fundo no nível da coluna, pois isso permite mais flexibilidade ao editar todo o conteúdo do email.
 
   Também é possível definir uma imagem de fundo no nível da coluna, mas isso raramente é usado.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-backgrounds.md}}

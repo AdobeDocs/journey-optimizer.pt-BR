@@ -24,7 +24,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 401
 ht-degree: 9%
@@ -98,3 +98,5 @@ A configuração automatizada está concluída. Agora você pode visitar sua pro
 * [Configurar o canal de push](push-configuration.md)
 * [Relatório de notificação por push](../reports/journey-global-report-cja-push.md#track-link-url-push)
 * [Criar uma notificação por push](create-push.md)
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-mobile-onboarding-wf.md}}

@@ -19,10 +19,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: f4cf85cf81c48ae0a33ae415dc886bb7268ecb43
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 1710
-ht-degree: 6%
+source-wordcount: 1135
+ht-degree: 9%
 
 ---
 
@@ -639,52 +639,4 @@ Se o valor do campo de carimbo de data/hora for `2021-11-16T16:55:12.939318+01:0
 
 +++
 
-+++ Referência de conhecimento de IA
-
-Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
-
-Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
-
-* **TL;DR:** esta página documenta todas as funções de data e hora disponíveis nas expressões do AJO jornada, abordando como obter a hora atual, verificar se uma data se enquadra em uma janela de tempo relativa e modificar componentes de data/hora.
-
-**Intenções:**
-* Obter o datetime atual (com fuso horário opcional) usando `now` ou `nowWithDelta`
-* Recuperar a hora atual como um inteiro da época usando `currentTimeInMillis`
-* Calcular a diferença entre duas datas ou datas-horas usando `dateDiff`
-* Verifique se um datetime está nos últimos N dias, horas, meses ou anos usando `inLastDays`, `inLastHours`, `inLastMonths`, `inLastYears`
-* Verifique se um datetime está nos próximos N dias, horas, meses ou anos usando `inNextDays`, `inNextHours`, `inNextMonths`, `inNextYears`
-* Forçar uma hora ou dia específico do mês em um valor datetime usando `setHours` ou `setDays`
-* Converta um datetime em um fuso horário diferente, preservando o mesmo instante usando `updateTimeZone`
-
-**Glossário:**
-* **dateOnly**: um valor de data sem informações de hora ou fuso horário *(específico do produto)*
-* **dateTime**: um valor date-time que inclui informações de deslocamento de fuso horário *(específico do produto)*
-* **dateTimeOnly**: um valor date-time sem informações de fuso horário *(específico do produto)*
-* **milissegundos da época**: um número inteiro que representa o número de milissegundos decorridos desde 1970-01-01T00:00:00Z
-* **delta**: um deslocamento inteiro (positivo ou negativo) usado com `nowWithDelta` para deslocar a hora atual por um número de anos, meses, dias, horas, minutos ou segundos
-
-**Medidas de Proteção:**
-* `now()` está disponível somente em expressões jornada; para personalização de email, use `getCurrentZonedDateTime()`
-* A ID do fuso horário em `nowWithDelta` deve ser uma constante de cadeia de caracteres — não há suporte para referências de campo e expressões dinâmicas
-* A ID do fuso horário em `updateTimeZone` deve ser uma constante de cadeia de caracteres
-* `dateDiff` exige que ambos os parâmetros sejam do mesmo tipo de dados (`dateOnly`, `dateTimeOnly` ou `dateTime`); não há suporte para tipos mistos
-* `dateDiff` retorna `null` se um dos parâmetros for `null`
-* `dateDiff` retorna dias para `dateOnly` parâmetros, mas milissegundos (não dias) para `dateTimeOnly` e `dateTime` parâmetros — converta adequadamente ao comparar resultados entre tipos
-
-**Terminologia:**
-* Nome canônico: Funções de data — Acrônimo: none — variantes: funções de data e hora, funções temporais
-* Sinônimos: &quot;now()&quot; = &quot;current datetime&quot;; &quot;currentTimeInMillis()&quot; = &quot;current epoch miliseconds&quot;
-* Não confunda: &quot;inLastDays&quot; (retroage no tempo) ≠ &quot;inNextDays&quot; (retroage no tempo)
-* Não confunda: &quot;setHours&quot; (substitui o componente de hora) ≠ &quot;nowWithDelta&quot; (desloca a hora atual)
-* Não confunda: &quot;updateTimeZone&quot; (mesmo instante, representação de fuso horário diferente) ≠ &quot;setHours&quot; (altera o valor de tempo em si)
-* Não confunda: o `dateDiff` do editor de expressão de jornada (aceita `dateOnly`, `dateTimeOnly` ou `dateTime`; retorna dias ou milissegundos dependendo do tipo) ≠ o `dateDiff` do editor de personalização (aceita apenas `dateTime`; sempre retorna dias)
-
-**Perguntas frequentes:**
-* **P: Posso usar `now()` no conteúdo de personalização de email?** — Não, `now()` está disponível somente em expressões de jornada. Use `getCurrentZonedDateTime()` para personalização de email.
-* **P: Como verificar se um evento aconteceu nas últimas 24 horas?** — Use `inLastHours(@event{MyEvent.timestamp}, 24)`.
-* **P: Como faço para obter a diferença de tempo atual de 2 horas no passado?** — Use `nowWithDelta(-2, "hours")`.
-* **P: O que `updateTimeZone` faz de diferente de `setHours`?** — `updateTimeZone` mantém o mesmo instante de tempo, mas o expressa em um fuso horário diferente, enquanto `setHours` altera o componente de hora do valor datetime.
-* **P: O parâmetro de fuso horário em `nowWithDelta` pode ser um campo de perfil?** — Não, a ID do fuso horário deve ser uma constante de cadeia de caracteres; não há suporte para referências de campo.
-* **P: O que acontece quando `nowWithDelta()` é usado com meses e a data atual é uma data de fim de mês?** — A função usa aritmética de mês-calendário e normaliza o resultado para o último dia válido do mês de destino. Por exemplo, adicionar 1 mês a 31 de janeiro retorna 28 de fevereiro (não 3 de março).
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-functions-date-functions.md}}

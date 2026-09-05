@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
-source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
+source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
@@ -59,3 +59,5 @@ Siga estas etapas para configurar e usar a Caixa de entrada:
 * [Personalização da Caixa de entrada](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox): ajuste o layout, o estilo e o comportamento de interação da caixa de entrada para seu aplicativo Android (documentação do Adobe Developer).
 
 * [Acompanhamento de eventos da Caixa de entrada](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events): assine retornos de chamada da caixa de entrada para ações do usuário e atualizações do ciclo de vida no Android (documentação do Adobe Developer).
+
+{{$include /help/_includes/do-not-localize/inbox/ai-augmented-inbox-gs.md}}

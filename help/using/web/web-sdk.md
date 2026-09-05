@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Intermediate
 keywords: ajo;ajo web;adobe jornada otimizer;renderDecisions;superfícies;decisões;propostas;escopo;esquema
-source-git-commit: 2ab7c7b767f2f04cb4519d203d92f7f7d4611540
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 2%
@@ -127,3 +127,5 @@ Exemplo de proposta de conteúdo do Journey Optimizer:
 Para depurar implementações de personalização do Adobe Journey Optimizer, use a [Depuração do Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html?lang=pt-BR){target="_blank"}. [!DNL Adobe Journey Optimizer] rastreamentos de depuração estão disponíveis ao solucionar problemas usando [[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/). Verifique se há eventos com o prefixo `AJO:`.
 
 ![assurance-ajo-trace](assets/assurance-ajo-trace.png)
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-sdk.md}}

@@ -31,7 +31,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: bfbdc1c88c1cc73f79eee0672d0d6708def69abc
 workflow-type: tm+mt
 source-wordcount: 1259
 ht-degree: 21%
@@ -215,3 +215,5 @@ Para que todo o fluxo de recusa de página de aterrissagem seja concluído com �
    Como resultado, esse usuário não receberá a comunicação da sua marca, a menos que faça a assinatura novamente.
 
 Essa sequência de eventos garante que o processo de cancelamento de subscrição seja rastreado corretamente e as preferências de consentimento do perfil sejam refletidas com precisão no sistema. Se qualquer etapa desse fluxo estiver ausente ou ocorrer fora de ordem, isso pode indicar um problema com a implementação de recusa que deve ser investigado.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-email-opt-out.md}}

@@ -24,7 +24,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: c966712b5c4681744acb925b5b97f316a4748bf9
 workflow-type: tm+mt
 source-wordcount: 1172
 ht-degree: 54%
@@ -154,3 +154,4 @@ O endereço de email de encaminhamento é definido pela Adobe. Isso pode levar d
 
 Após a conclusão desse processo, todas as mensagens recebidas nos endereços de **[!UICONTROL Email de resposta]** e **Email de erro**, bem como todos os emails enviados para o endereço de **Email do remetente** serão encaminhados para o endereço de email específico fornecido.
 
+{{$include /help/_includes/do-not-localize/email/ai-augmented-header-parameters.md}}

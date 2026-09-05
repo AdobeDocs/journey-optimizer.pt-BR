@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 96251debdee69045d2eba8c6b1803e8651a9abe9
 workflow-type: tm+mt
 source-wordcount: 292
 ht-degree: 19%
@@ -80,3 +80,5 @@ Para começar a criar o conteúdo com um dos modelos de amostra ou salvos, siga 
 1. Clique em **[!UICONTROL Usar este modelo]** na parte superior direita da tela.
 
 1. Edite seu conteúdo conforme desejado usando o Designer de email.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-use-email-templates.md}}

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: email, verificação de conteúdo, HTML, CSS, validação, renderização, qualidade
-source-git-commit: 74bd6eeb380f433f08002024aba873906213aad4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -131,3 +131,5 @@ Os avisos de tamanho (por exemplo, HTML excedendo 100 KB) são **sinais proativo
 
 * Emails sendo cortados pelo Gmail, que corta mensagens em aproximadamente 102 KB do HTML
 * Renderização lenta em dispositivos móveis ou em conexões de baixa largura de banda
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-content-check.md}}

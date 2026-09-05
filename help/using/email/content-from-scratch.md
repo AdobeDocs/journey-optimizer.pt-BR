@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 772
 ht-degree: 49%
@@ -155,3 +155,5 @@ Para começar a criar o conteúdo, siga as etapas abaixo:
 1. Você também pode validar a qualidade do seu conteúdo para avaliar a legibilidade, a eficácia e a coesão do conteúdo. [Saiba mais sobre validação da qualidade do conteúdo](../content-management/brands-score.md#validate-quality)
 
 1. Quando o conteúdo estiver pronto, clique em **[!UICONTROL Salvar]**.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-content-from-scratch.md}}

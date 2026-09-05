@@ -26,7 +26,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 342
 ht-degree: 100%
@@ -70,3 +70,5 @@ Siga os links abaixo para descobrir como ajustar algumas das configurações de 
 >[!NOTE]
 >
 >A [Lei Europeia de Acessibilidade](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} declara que todas as comunicações digitais devem ser acessíveis. Certifique-se de seguir as diretrizes específicas de estilo listadas [nesta página](../email/accessible-content.md) ao criar conteúdo no [!DNL Journey Optimizer] como o ajuste de cores, rótulos e ícones para garantir clareza e a otimização do design para layouts móveis e responsivos.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-get-started-email-style.md}}

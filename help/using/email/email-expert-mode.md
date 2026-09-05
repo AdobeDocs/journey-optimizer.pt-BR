@@ -10,7 +10,7 @@ level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 614
 ht-degree: 6%
@@ -96,3 +96,5 @@ Para abrir o editor avançado do HTML e editar o código-fonte do HTML, siga est
 * [Desenvolva seu próprio conteúdo de email](code-content.md)
 * [Criar modelos de conteúdo](../content-management/create-content-templates.md)
 * [Introdução ao Designer de email](get-started-email-design.md)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-email-expert-mode.md}}

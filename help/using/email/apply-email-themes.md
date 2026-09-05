@@ -28,7 +28,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
+source-git-commit: c465d24e5ef832bfb19e6e478b9f73e3d7bd1dbb
 workflow-type: tm+mt
 source-wordcount: 1798
 ht-degree: 3%
@@ -289,3 +289,5 @@ Para criar um fragmento compatível com temas, siga as etapas abaixo.
    ![](assets/generate-theme-colors.png){width=90%}
 
 1. Clique em **[!UICONTROL Salvar]** para armazenar este novo tema para reutilização. Agora é possível aplicar esse tema ao seu conteúdo, como qualquer outro tema. [Saiba como](#apply-themes-email)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-apply-email-themes.md}}

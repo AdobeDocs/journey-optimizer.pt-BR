@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 462
 ht-degree: 0%
@@ -92,3 +92,5 @@ Para criar suas experiências da Web com o editor não visual, siga as etapas ab
    ![](assets/web-campaign-modifications.png)
 
    Você também pode alternar para o web designer, se desejar. Todas as modificações serão preservadas.
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-non-visual-editor.md}}

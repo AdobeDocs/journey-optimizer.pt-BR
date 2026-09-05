@@ -12,10 +12,10 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2345
-ht-degree: 10%
+source-wordcount: 1642
+ht-degree: 14%
 
 ---
 
@@ -214,54 +214,5 @@ As operações a seguir estão disponíveis:
 >
 >É possível pausar/retomar até 10 jornadas por operação.
 
-+++ Referência de conhecimento de IA
-
-Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
-
-Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
-
-* **TL;DR:** Esta página explica como procurar, filtrar, exibir (lista e calendário), duplicar e executar operações em massa no jornada a partir do painel do Journey Optimizer.
-
-**Intenções:**
-
-* Procurar e pesquisar jornadas nas guias Visão geral e Procurar
-* Filtrar jornadas por status, tipo, versão, tags, data de criação ou data de publicação
-* Alternar entre a exibição de lista e a exibição de calendário para visualizar agendamentos de jornada
-* Adicionar e gerenciar calendários externos fazendo upload de arquivos CSV
-* Duplicação de uma jornada existente para reutilizar suas configurações
-* Aplicar operações em massa a várias jornadas selecionadas na barra de ações em massa: adicionar ao pacote, mover para a pasta, editar tags, gerenciar acesso, excluir, pausar ou retomar
-
-**Glossário:**
-
-* **Painel de Jornada**: a principal interface do jornada com uma guia Visão geral mostrando as métricas principais e uma guia Procurar listando todas as jornadas. *(específico do produto)*
-* **Taxa de descarte**: a proporção de perfis não qualificados para entrar na jornada (por exemplo, devido a namespace incorreto ou regras de reentrada) em comparação ao total de perfis que tentaram entrar nas últimas 24 horas. *(específico do produto)*
-* **exibição do calendário do Jornada**: uma representação visual semanal do calendário de jornadas ativas e agendadas, acessível clicando no ícone de calendário na lista de jornadas. *(específico do produto)*
-* **Barra de ação em massa**: a barra de ação que aparece na parte inferior da lista de jornadas quando uma ou mais jornadas são selecionadas, oferecendo adicionar ao pacote, mover para a pasta, editar marcas, gerenciar acesso, excluir, pausar e retomar. *(específico do produto)*
-* **Pausa/retomada em massa**: as operações de pausa e retomada disponíveis na barra de ação em massa, limitadas a Live jornada (pausar) ou jornadas pausadas (retomar), até 10 por operação. *(específico do produto)*
-
-**Medidas de Proteção:**
-
-* As métricas do painel são atualizadas a cada 30 minutos e somente quando novos dados estão disponíveis; elas abrangem apenas as últimas 24 horas
-* Jornadas de rascunho e jornadas no modo de teste não são mostradas na exibição de calendário
-* A pausa/retomada em massa é limitada a 10 jornadas por operação
-* O botão Retomar só estará ativo quando jornadas Pausadas forem selecionadas; o botão Pausar só estará ativo quando jornadas Ativas forem selecionadas
-* O calendário exibe jornadas como períodos de 1 hora, independentemente do tempo real de envio ou de conclusão
-
-**Terminologia:**
-
-* Nome canônico: painel de Jornadas — Acrônimo: none — variantes: lista de jornadas, visão geral das jornadas
-* Sinônimos: &quot;guia Procurar&quot; = &quot;Lista de jornadas&quot;
-* Não confunda: &quot;Discard rate&quot; ≠ &quot;Error rate&quot; — Os perfis de contagens de taxa de descarte não são elegíveis para inserção; As contagens de taxa de erro contam os perfis que entraram, mas encontraram um erro de processamento
-* Observação: adicionar ao pacote, mover para a pasta, editar tags, gerenciar acesso e excluir são compartilhados com as listas Campanhas, Fragmentos e Modelos; pausar e retomar são específicos da jornada
-
-**Perguntas frequentes:**
-
-* **P: Onde posso ver as principais métricas de desempenho do jornada rapidamente?** — na guia Visão geral do painel de Jornadas, que mostra perfis processados, jornadas em tempo real, taxa de erros e taxa de descarte nas últimas 24 horas.
-* **P: Como faço para encontrar jornadas que usam um evento ou uma ação específica?** — Use os Filtros de atividade e Filtros de dados na lista de jornadas para exibir jornadas que fazem referência a um evento, grupo de campos ou ação específica.
-* **P: Posso pausar várias jornadas de uma vez?** — Sim; selecione várias jornadas ativas na lista e clique no botão Pause na barra inferior. É possível pausar até 10 jornadas por operação.
-* **P: Como adicionar eventos externos ao calendário de jornadas?** — Clique no ícone de adição do calendário e arraste e solte um arquivo CSV com colunas de nome do evento, data de início e data de término; os eventos carregados ficam visíveis para todos os usuários na organização.
-* **P: Por que o calendário mostra uma jornada como 1 hora mesmo que ela seja executada por mais tempo?** — O calendário exibe todas as jornadas como intervalos de tempo de 1 hora para consistência visual; isso não reflete o tempo real de envio ou de conclusão.
-* **P: Que operações em massa posso realizar em várias jornadas ao mesmo tempo?** — Além de pausar e retomar, você pode selecionar várias jornadas e adicioná-las a um pacote, movê-las para uma pasta, editar as tags, gerenciar o acesso ou excluí-las usando a barra de ação em massa na parte inferior da lista jornadas.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-ui.md}}
 

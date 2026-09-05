@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 1215
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -190,7 +190,7 @@ Ao usar uma configuração com configurações personalizadas em uma campanha ou
 Ao usar uma configuração personalizada em uma campanha ou jornada, você pode visualizar seu conteúdo de email para verificar possíveis erros com as configurações dinâmicas definidas. É possível usar qualquer um dos métodos de simulação:
 
 * Clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com dados de entrada de exemplo ou geração automática de IA. [Saiba como simular variações de conteúdo](../test-approve/simulate-sample-input.md)
-* Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para visualizar com perfis de teste.
+* Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis da AEP)]** na lista suspensa para visualizar com perfis de teste.
 
 Para visualizar seu conteúdo usando perfis de teste, siga estas etapas:
 
@@ -217,3 +217,5 @@ Para evitar esse tipo de erro, verifique se os parâmetros de cabeçalho definid
 >[!NOTE]
 >
 >Saiba mais sobre a capacidade de entrega em [esta seção](../reports/deliverability.md)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-surface-personalization.md}}

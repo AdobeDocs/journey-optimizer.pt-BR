@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7437f4bbbb7e79e3e1cc3403342a600fc7b01c5
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 1658
 ht-degree: 41%
@@ -283,3 +283,5 @@ Use o componente **[!UICONTROL Grade]** para organizar o conteúdo em uma estrut
    >Use a opção **[!UICONTROL Não empilhar colunas em dispositivos móveis]** para preservar o layout de grade em dispositivos móveis, em vez de empilhar colunas verticalmente.
 
 1. Solte outros componentes de conteúdo em cada célula, conforme necessário, e ajuste o estilo na guia **[!UICONTROL Estilos]** para cada componente.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-content-components.md}}

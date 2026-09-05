@@ -33,10 +33,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 3fe3b3372865d6a349fef6baf2861625796e9244
 workflow-type: tm+mt
-source-wordcount: 1263
-ht-degree: 8%
+source-wordcount: 757
+ht-degree: 14%
 
 ---
 
@@ -101,9 +101,9 @@ Você também pode configurar ações específicas para enviar mensagens:
 
 * Se você estiver trabalhando com [!DNL Adobe Campaign] e [!DNL Adobe Journey Optimizer], consulte estas seções:
 
-   * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
-   * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Campaign] Padrão](../action/acs-action.md)
-   * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
+  * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
+  * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Campaign] Padrão](../action/acs-action.md)
+  * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
 
 ## Práticas recomendadas {#best-practices}
 
@@ -153,43 +153,4 @@ Saiba como solucionar erros nas atividades e na jornada [nesta página](troubles
 
 Consulte também [Monitoramento e solução de problemas](../../rp_landing_pages/troubleshoot-journey-landing-page.md)
 
-+++ Referência de conhecimento de IA
-
-Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
-
-Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
-
-* **TL;DR:** esta página apresenta as três categorias de atividades de jornada — eventos, orquestração e ações — e explica as práticas recomendadas para rotular, gerenciar parâmetros e manipular erros no Adobe Journey Optimizer jornada.
-
-**Intenções:**
-* Identificar e distinguir entre atividades de evento, orquestração e ação em uma jornada
-* Adicionar rótulos e descrições às atividades de jornada para facilitar a identificação e os relatórios
-* Configurar um caminho alternativo para lidar com tempos limite ou erros em uma atividade de jornada
-* Substituir parâmetros avançados em uma atividade de jornada específica
-* Combine vários tipos de atividade para criar cenários de jornada entre canais
-* Solução de problemas de configuração de atividade antes de publicar uma jornada
-
-**Glossário:**
-* **Atividade de evento**: uma atividade de jornada acionada por um evento de entrada (por exemplo, compra, qualificação de público) que inicia ou avança um perfil por meio da jornada *(específico do produto)*
-* **Atividade de orquestração**: uma atividade de jornada (por exemplo, Otimizar, Ler público, Esperar) que controla o fluxo e a lógica de ramificação de uma jornada *(específico do produto)*
-* **Atividade de ação**: uma atividade de jornada que fornece uma comunicação ou chama um sistema externo como resultado de um gatilho *(específico do produto)*
-* **Ação personalizada**: uma ação configurada pelo usuário que conecta o Journey Optimizer a um sistema de terceiros para enviar mensagens ou dados *(específico do produto)*
-* **Caminho alternativo**: uma ramificação de fallback adicionada a uma atividade para que a jornada continue mesmo quando ocorrer um tempo limite ou erro *(específico do produto)*
-
-**Medidas de Proteção:**
-* Testes e publicações não poderão ser executados se ainda forem detectados erros de configuração em qualquer atividade
-* Os parâmetros avançados/técnicos na maioria das atividades são somente leitura e não podem ser modificados sem o uso do recurso de substituição de parâmetro
-
-**Terminologia:**
-* Nome canônico: Jornada Atividade — Acrônimo: none — variantes: atividade, nó, etapa
-* Sinônimos: &quot;atividade de ação&quot; = &quot;ação de canal&quot; = &quot;ação de mensagem&quot;
-* Não confundir: &quot;Atividade de orquestração&quot; ≠ &quot;Atividade de ação&quot; (fluxo de controles de orquestração; ações entregam comunicações)
-
-**Perguntas frequentes:**
-* **P: Qual é a diferença entre atividades de evento, orquestração e ação?** — As atividades de evento acionam a entrada ou a progressão da jornada; as atividades de orquestração controlam a ramificação e a lógica de fluxo; as atividades de ação entregam mensagens ou chamam sistemas externos.
-* **P: Como adiciono um rótulo a uma atividade de jornada?** — Abra o painel de propriedades da atividade e preencha o campo Label; o rótulo aparece como um sufixo sob o nó da atividade na tela.
-* **P: O que acontece quando ocorre um erro em uma atividade de ação ou condição?** — A jornada do perfil é interrompida a menos que você marque a opção &quot;Adicionar um caminho alternativo em caso de tempo limite ou erro&quot; nessa atividade.
-* **P: Posso usar o Adobe Campaign para enviar mensagens de uma jornada?** — Sim, o Journey Optimizer oferece suporte à integração com o Adobe Campaign v7/v8, o Campaign Standard e o Marketo Engage para o envio de mensagens por meio de atividades de ação personalizadas.
-* **P: Como substituo um parâmetro avançado somente leitura em uma atividade?** — Clique no ícone &quot;Habilitar substituição de parâmetro&quot; à direita do campo de parâmetro para forçar um valor personalizado.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-about-journey-activities.md}}

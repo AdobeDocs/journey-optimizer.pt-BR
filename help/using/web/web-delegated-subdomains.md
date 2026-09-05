@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 1026
 ht-degree: 21%
@@ -186,3 +186,5 @@ Se quiser desdelegar um subdomínio da Web, entre em contato com o representante
 Se o subdomínio da Web era um [novo subdomínio delegado](#web-configure-new-subdomain), você pode excluir o registro DNS CNAME que criou para o subdomínio da Web da solução de hospedagem (mas não exclua o subdomínio de email original, se houver).
 
 Depois que a solicitação for tratada pela Adobe, o domínio não delegado não será mais exibido na página de inventário do subdomínio.
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-delegated-subdomains.md}}

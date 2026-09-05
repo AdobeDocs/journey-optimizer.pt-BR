@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2629
-ht-degree: 11%
+source-wordcount: 1971
+ht-degree: 15%
 
 ---
 
@@ -167,7 +167,7 @@ Use uma **[!UICONTROL Condição de tempo]** para executar ações diferentes de
 >
 >* O fuso horário não é específico de uma condição e é definido no nível da jornada nas propriedades da jornada. [Saiba mais](../building-journeys/timezone-management.md)
 >
->* Por padrão, a **[!UICONTROL Condição de tempo]** é definida por hora, de 00:00 a 12:00.
+>* Por padrão, a **[!UICONTROL Condição de hora]** é definida por hora, das 00:00 às 12:00.
 
 ![Condição de tempo com intervalo de horas e seletores de dia da semana](assets/journey51.png)
 
@@ -226,48 +226,4 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
 ➡️ **Veja na prática:** Saiba como usar o horário e as condições do dia da semana para [enviar emails somente em dias da semana](weekday-email-uc.md).
 
-+++ Referência de conhecimento de IA
-
-Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
-
-Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
-
-* **TL;DR:** Esta página explica como configurar condições na atividade Otimizar no Journey Optimizer, abrangendo cinco tipos de condição — Data Source, Hora, Divisão de porcentagem, Data e Limite de perfil — que roteiam perfis para diferentes caminhos de jornada com base em regras, tempo ou associação de público-alvo.
-
-**Intenções:**
-* Adicione uma condição a uma jornada usando a atividade Otimize e selecione um método de condição
-* Crie vários caminhos de ramificação e gerencie a ordem de prioridade na tela de jornada
-* Configure uma condição do Data Source usando o editor de expressão para avaliar atributos de perfil ou evento
-* Configurar uma condição de tempo para rotear perfis com base na hora do dia ou no dia da semana
-* Aplique uma limitação de perfil para limitar o número de perfis roteados para um caminho específico
-* Usar uma verificação de associação de público como uma condição em um caminho de jornada
-
-**Glossário:**
-* **Atividade Otimize**: a atividade de jornada atual que substitui a antiga atividade Condition; toda a lógica de ramificação condicional agora é configurada por meio da lista suspensa Método *(específico do produto)*
-* **Condição da fonte de dados**: um método de condição que avalia campos de fontes de dados ou eventos de jornada usando o editor de expressão *(específico do produto)*
-* **Divisão de porcentagem**: um método de condição que distribui aleatoriamente perfis entre caminhos usando um mecanismo aleatório Java estatístico *(específico do produto)*
-* **Limite de perfis**: um método de condição que roteia perfis para um caminho alternativo assim que uma contagem máxima definida é atingida no caminho nominal *(específico do produto)*
-* **Caminho nominal**: o caminho de jornada principal associado a uma condição de Limite de Perfil; ele sempre tem prioridade sobre o caminho alternativo *(específico do produto)*
-
-**Medidas de Proteção:**
-* Falha na avaliação da condição para perfis com mais de duas identidades entre dispositivos no Armazenamento de perfis
-* Campos de esquema sem dados assimilados são interpretados como null; isEmpty() e isNull() são avaliados como true para esses campos
-* O fuso horário é definido no nível da jornada, não no nível da condição individual
-* A opção &quot;Mostrar caminho para outros casos&quot; não está disponível em condições de Divisão de porcentagem
-* O padrão do limite de perfil é 1.000; o contador é redefinido na duplicação da jornada ou na criação de uma nova versão, mas não entre recorrências
-* Para tampas acima de 10.000, injetar pelo menos 1,3x a tampa; para tampas abaixo de 10.000, injetar pelo menos 1.000 mais a tampa
-* O limite de perfis não é aplicado no modo de teste; no modo de teste, a ramificação superior é sempre escolhida para Divisão de porcentagem
-
-**Terminologia:**
-* Nome canônico: Condições — Acrônimo: none — variantes: atividade de condição, método de condição, ramificação condicional
-* Sinônimos: &quot;Atividade de otimização (método de condição)&quot; = &quot;antiga atividade de condição&quot;
-* Não confunda: &quot;Divisão de porcentagem&quot; ≠ &quot;Limite de perfil&quot; (a divisão de porcentagem distribui todos os perfis estatisticamente; o limite de perfil interrompe o roteamento para o caminho nominal após um limite de contagem)
-
-**Perguntas frequentes:**
-* **P: A atividade de Condição saiu da minha interface — o que a substituiu?** — A atividade Condition foi substituída pela atividade Otimize. Selecione &quot;Condição&quot; no menu suspenso Método para obter o mesmo comportamento. As jornadas existentes com atividades de Condição continuam a funcionar e agora são exibidas com um ícone Otimizar.
-* **P: Quando vários caminhos são qualificados para um perfil, qual caminho é tomado?** — Somente o primeiro caminho elegível (mais alto na tela) é executado; você pode repriorizar reordenando caminhos verticalmente.
-* **P: Por que minha condição isEmpty() é avaliada inesperadamente como verdadeira?** — Se o campo de esquema existir, mas nenhum dado tiver sido assimilado para ele, o Journey Optimizer o interpretará como null, fazendo com que isEmpty() e isNull() retornem true.
-* **P: O contador de limite de perfil é redefinido em uma jornada recorrente?** — Não, o contador não redefine entre recorrências; ele só é redefinido quando a jornada é duplicada ou uma nova versão é criada.
-* **P: Posso usar um público-alvo da Adobe Experience Platform como condição?** — Sim, solte uma atividade Otimize, selecione &quot;Data source condition&quot;, adicione um caminho e arraste o público-alvo do nó Audiences no editor de expressão.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-conditions.md}}

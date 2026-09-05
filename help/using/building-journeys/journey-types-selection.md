@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2296
-ht-degree: 1%
+source-wordcount: 1264
+ht-degree: 5%
 
 ---
 
@@ -187,64 +187,4 @@ Agora que você escolheu um tipo de jornada:
 * **[Introdução ao jornada](journey.md)** — visão geral de fundamentos e recursos
 * **[Perguntas frequentes sobre o Journey Orchestration](journey-faq.md)** — perguntas comuns respondidas
 
-+++ Referência de conhecimento de IA
-
-Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
-
-Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
-
-* **TL;DR:** esta página fornece uma comparação abrangente dos quatro tipos de jornada do AJO — Evento unitário, Público de leitura, Qualificação de público-alvo e Evento comercial — juntamente com um guia de decisão e uma matriz de compatibilidade de recursos para ajudar os usuários a escolher o tipo certo para seus casos de uso.
-
-**Intenções:**
-
-* Escolha o tipo de jornada correto para um determinado caso de uso comercial usando a tabela de decisões
-* Comparar tipos de jornada lado a lado usando a matriz de compatibilidade de recursos detalhada
-* Entenda quando usar Ler jornadas de público-alvo para comunicações em lote agendadas
-* Entenda quando usar as jornadas de evento unitárias para experiências acionadas por eventos em tempo real
-* Entenda quando usar as jornadas de qualificação de público-alvo para respostas de alteração de status em tempo real
-* Entenda quando usar jornadas de eventos comerciais para comunicações orientadas por condições comerciais
-* Entenda os limites de taxa de transferência por tipo de jornada ao planejar implantações de alto volume
-
-**Glossário:**
-
-* **jornada de eventos unitária**: uma jornada acionada por uma ação individual do cliente (por exemplo, compra, logon) em que os perfis inserem um de cada vez em tempo real. *(específico do produto)*
-* **Ler jornada de público-alvo**: uma jornada que começa com um público-alvo da Adobe Experience Platform e envia mensagens em lote para todos os perfis simultaneamente, de acordo com uma agenda. *(específico do produto)*
-* **jornada de qualificação de público-alvo**: uma jornada que dispara quando os perfis se qualificam para um segmento de público-alvo específico ou saem dele. Requer um público avaliado por transmissão para o comportamento de entrada em tempo real. *(específico do produto)*
-* **jornada de eventos comerciais**: uma jornada acionada por um evento comercial (por exemplo, atualização de estoque, alteração de preço) que afeta vários perfis simultaneamente; sempre combinada a uma etapa interna Ler público para assimilação de perfil. *(específico do produto)*
-* **Leitura incremental**: um recurso de Leitura de público que processa somente os perfis que ingressaram no público desde a última execução, não o público-alvo completo a cada vez. Disponível somente para jornadas de leitura de público-alvo. *(específico do produto)*
-* **Público-alvo da transmissão**: um público-alvo da Adobe Experience Platform avaliado continuamente em tempo real, em vez de um público-alvo em lote avaliado em um cronograma (por exemplo, diariamente). Obrigatório para jornadas de qualificação de público-alvo para alcançar o comportamento de entrada em tempo real. *(específico do produto)*
-
-**Medidas de Proteção:**
-
-* A leitura incremental está disponível somente para jornadas de leitura de público, não para jornadas de evento unitário, qualificação de público ou evento comercial
-* Experimentos de caminho (teste A/B) não são compatíveis com jornadas de eventos comerciais
-* A reentrada de perfil em jornadas de Leitura de público é limitada a uma vez por execução por padrão; use Forçar reentrada na recorrência em execuções programadas para permitir que os perfis entrem novamente na próxima execução
-* A atividade Ler público-alvo só está disponível como uma entrada de jornada nas jornadas Ler público-alvo e evento comercial — não nas jornadas de entrada Unitário de evento ou Qualificação de público-alvo
-* As jornadas Qualificação de público-alvo e Público-alvo de leitura não podem conter uma atividade de salto e não podem ser o destino de uma atividade de salto de outra jornada
-* As jornadas de qualificação de público-alvo exigem um público-alvo avaliado por transmissão. A partir de agosto de 2026, os públicos avaliados em lote não poderão ser usados em um nó de Qualificação de público-alvo — consulte o [guia de migração](aq-batch-audiences-migration.md)
-* As jornadas de qualificação de evento e público-alvo unitários compartilham um limite de taxa de transferência de 5.000 TPS no nível da organização; as jornadas de público-alvo de leitura suportam até 20.000 TPS por sandbox
-* Um perfil já presente em uma jornada não pode inserir novamente a mesma versão dessa jornada, independentemente da configuração de reentrada
-
-**Terminologia:**
-
-* Nome canônico: jornada de evento unitária — variantes: jornada acionada por evento, jornada unitária
-* Nome canônico: Read Audience jornada — variantes: jornada em lote
-* Nome canônico: jornada de qualificação de público-alvo — variantes: jornada de eventos de qualificação de público-alvo
-* Nome canônico: jornada de evento comercial — variantes: jornada acionada por evento comercial
-* Não confunda: &quot;Ler jornada de público-alvo&quot; ≠ &quot;jornada de qualificação de público-alvo&quot; — Ler público-alvo processa todos os membros do público-alvo em lote de acordo com a programação; A qualificação de público-alvo responde a alterações individuais de associação em tempo real (públicos-alvo de transmissão somente para entrada imediata)
-* Não confunda: &quot;jornada de evento unitária&quot; ≠ &quot;jornada de evento comercial&quot; — A unitária é acionada por uma ação do cliente que afeta um perfil; o evento comercial é acionado por uma condição comercial e assimila vários perfis por meio de uma etapa interna Ler público
-
-**Perguntas frequentes:**
-
-* **P: Qual tipo de jornada devo usar para um informativo mensal?** — use uma jornada Read Audience; ela foi projetada para comunicação em lote agendada para todos os perfis em um segmento de público-alvo simultaneamente.
-* **P: Qual tipo de jornada devo usar para recuperar um carrinho abandonado?** — Utilizar uma jornada de eventos Unitários; é acionada imediatamente quando o evento de abandono ocorre e responde ao comportamento do indivíduo em tempo real.
-* **P: Posso executar experimentos de caminho A/B em uma jornada de eventos de Negócios?** — Não; experimentos de caminho não são aceitos em jornadas de eventos de negócios.
-* **P: Qual é a diferença entre uma jornada de evento Unitária e uma jornada de Qualificação de Público-Alvo?** — Uma jornada de evento unitária é acionada por uma ação específica do cliente (por exemplo, compra); uma jornada de qualificação de público-alvo é acionada quando um perfil entra ou sai de um segmento de público-alvo com base na avaliação de critérios de transmissão.
-* **P: Quais tipos de jornada oferecem suporte para leitura incremental?** — Somente jornadas de leitura de público-alvo oferecem suporte para leitura incremental; os outros três tipos de jornada não.
-* **P: Posso adicionar uma atividade Ler público-alvo a uma jornada de eventos Unitária?** — Não; a atividade Ler público só está disponível como entrada de jornada em Ler público e jornadas de eventos comerciais.
-* **P: Posso usar uma atividade de salto em uma jornada de Leitura de Público?** — Não; jornadas que começam com uma atividade Ler público ou Qualificação de público não podem conter uma atividade de salto e não podem ser o destino de um salto de outra jornada.
-* **P: Posso dar as boas-vindas a novos usuários do aplicativo com uma jornada de Qualificação de Público-Alvo?** — Sim, se a entrada for orientada por um público-alvo de transmissão (por exemplo, quando um perfil ingressa em um segmento de novo usuário); uma jornada de evento unitário de inscrição também é um padrão comum.
-* **P: minha jornada de qualificação de público-alvo não está sendo acionada em tempo real. Por quê?** — as jornadas de qualificação de público-alvo exigem um público-alvo avaliado por transmissão. O uso de um público avaliado em lote está obsoleto e será bloqueado a partir de agosto de 2026. [Consulte o guia de migração](aq-batch-audiences-migration.md)
-* **P: Qual é a diferença de taxa de transferência entre o evento Unitário e as jornadas de Leitura de Público?** — As jornadas de eventos unitários compartilham um limite de 5.000 TPS com jornadas de qualificação de público-alvo no nível da organização. Leia As jornadas de público suportam até 20.000 TPS por sandbox, tornando-as mais adequadas para campanhas em lote de grande escala.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-types-selection.md}}
