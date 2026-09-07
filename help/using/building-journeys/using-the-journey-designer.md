@@ -11,30 +11,15 @@ keywords: design, tela, jornada, interface, arrastar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 12b99575b72c282e9d0caeae1822b13f6b8f5fcf
 workflow-type: tm+mt
-source-wordcount: 2029
+source-wordcount: 2725
 ht-degree: 2%
 
 ---
@@ -77,6 +62,10 @@ A **barra de ferramentas**, localizada no canto superior direito da tela, permit
 
 ![Jornada barra de ferramentas com controles de zoom, grade e captura de tela](assets/toolbar.png){width="70%"}
 
+>[!NOTE]
+>
+>Se você estiver usando a nova experiência da tela de desenho, consulte [Usar os ícones da barra de ferramentas](#use-the-toolbar-icons).
+
 O **painel de configuração da atividade** aparece quando você clica em uma atividade na paleta. Preencha os campos obrigatórios. Clique no ícone **[!UICONTROL Excluir]** para excluir a atividade. Clique em **[!UICONTROL Cancelar]** para cancelar as modificações ou em **[!UICONTROL Ok]** para confirmar. Para excluir atividades, você também pode selecionar uma (ou várias) atividades e pressionar a tecla backspace. Pressionar a tecla Escape fechará o painel de configuração da atividade.
 
 Por padrão, os campos somente leitura ficam ocultos. Para mostrar campos somente leitura, clique no ícone **Mostrar campos somente leitura** na parte superior esquerda do painel de configuração da atividade. Essa configuração se aplica a todas as atividades em todas as jornadas.
@@ -87,7 +76,7 @@ Dependendo do status da jornada, você pode executar ações diferentes na jorna
 
 ![Botões de ação de Jornada: Publicar, Duplicar, Excluir, Modo de teste, Gerenciar acesso, Alertas](assets/journey41.png)
 
-## Nova experiência da interface do Jornada {#canvas-capabilities}
+## Nova experiência de tela de jornada {#canvas-capabilities}
 
 Uma **nova interface de usuário** está disponível para a tela de jornada, criada para ser dimensionada de acordo com os casos de uso mais complexos:
 
@@ -95,24 +84,113 @@ Uma **nova interface de usuário** está disponível para a tela de jornada, cri
 * **Layout automático** — organiza automaticamente as atividades para facilitar a leitura.
 * **Criação guiada** — oferece uma experiência de criação estruturada para ajudá-lo a criar jornadas com facilidade e eficiência.
 
-![](assets/journey-new-canvas.png)
+![Nova experiência de tela de jornada](assets/journey-new-canvas.png)
 
-Para alternar para a nova experiência, clique no botão **[!UICONTROL Nova experiência]** na tela de jornada. Depois de alternada, essa configuração é salva no nível da jornada, para que a jornada seja aberta na nova experiência por padrão em visitas subsequentes. Para reverter, clique no botão **[!UICONTROL Experiência antiga]**.
-Além disso, a última experiência selecionada (antiga ou nova) agora é lembrada no nível do usuário. A partir de agora, essa preferência será aplicada automaticamente sempre que você criar uma nova jornada, para que não seja necessário alternar manualmente todas as vezes.
+As jornadas recém-criadas usam a nova experiência de tela. Para jornadas criadas antes dessa alteração, você pode alternar para a nova experiência clicando no botão **[!UICONTROL Nova experiência]** na tela de jornada. Para reverter para a experiência antiga, clique no botão **[!UICONTROL Experiência antiga]**.
 
-![](assets/journey-new-experience-switch.png)
+![Alternar entre a experiência antiga e a nova tela de jornada](assets/journey-new-experience-switch.png)
 
-Ao usar a nova experiência, você pode selecionar vários nós de uma só vez, mantendo a tecla **Shift** pressionada e arrastando o mouse pela tela. Depois de selecionado, você pode executar uma ação em massa nos nós selecionados, como copiar, excluir ou salvar como um fragmento de jornada.
+Assista a este [vídeo explicativo](#video) para obter uma apresentação completa da nova experiência de tela.
 
->[!TIP]
+### Adicionar atividades à sua jornada
+
+Para adicionar uma atividade à tela, clique no ícone de adição (+) entre duas atividades e selecione uma atividade da lista para adicioná-la à jornada.
+
+![Adicionar uma atividade da tela usando o ícone de adição](assets/journey-canvas-add-activity.png)
+
+A lista filtra automaticamente para mostrar apenas as atividades que podem ser adicionadas nesse local específico na jornada, em vez de todas as atividades disponíveis na paleta. Se quiser ver todas as atividades independentemente da localização, clique no ícone **[!UICONTROL Filtrar itens]** e desmarque a opção **[!UICONTROL Mostrar apenas itens disponíveis]**.
+
+### Usar os ícones da barra de ferramentas
+
+A barra de ferramentas no canto superior direito da tela fornece acesso rápido às funções essenciais. Use essas ferramentas para personalizar a visualização da tela e gerenciar layouts complexos de jornada.
+
+![Barra de ferramentas da tela](assets/journey-canvas-toolbar.png)
+
+| Ícone da barra de ferramentas | Descrição |
+|--- |--- |
+| Baixar imagem da tela | Capture a visualização da tela atual como uma imagem e salve-a no computador. |
+| Compartilhar feedback | Abra um formulário de feedback para nos informar se você não tem algo na nova tela ou se tem uma ideia para melhorá-la. |
+| Seleção múltipla | Alterne para o modo de seleção para selecionar várias atividades. |
+| Girar | Altere a orientação do layout da tela de desenho. |
+| Ajustar à tela | Ajuste automaticamente o nível de zoom para ajustar toda a jornada à exibição. |
+| Menos zoom | Diminua o nível de zoom. |
+| Mais zoom | Aumente o nível de zoom. |
+
+### Selecionar várias atividades para ações em massa
+
+Você pode selecionar várias atividades de uma só vez e executar uma ação em massa nelas.
+
+Para selecionar várias atividades, use um destes métodos:
+
+* **Shift + arrastar** — Mantenha pressionada a tecla **Shift** e arraste o mouse pelas atividades que deseja selecionar.
+* **Ctrl/Cmd + clique** — Selecione a primeira atividade, mantenha pressionada a tecla **Ctrl** (ou o **Command** no Mac) e clique em atividades adicionais para selecioná-las individualmente.
+* **Barra de ferramentas** — Clique no ícone **Seleção múltipla** na barra de ferramentas e clique em cada atividade que você deseja selecionar.
+
+Depois de selecionado, você poderá executar estas ações em massa:
+
+* **Copiar** — Copie todas as atividades selecionadas para usar na mesma jornada ou cole em outra jornada.
+* **Excluir** — Remove todas as atividades selecionadas de uma só vez.
+* **Salvar como fragmento de jornada** — Converta as atividades selecionadas em um fragmento de jornada reutilizável para uso em outras jornadas.
+
+![Selecione várias atividades para executar uma ação em massa](assets/journey-canvas-bulk.png)
+
+### Atividades de copiar e colar
+
+Para reutilizar atividades ou sequências de jornadas inteiras:
+
+1. Selecione as atividades que deseja copiar.
+1. Selecione **Copiar** ou pressione **Ctrl+C** (ou Command+C no Mac) para copiar.
+
+   ![](assets/journey-canvas-copy.png)
+
+1. Navegue até o destino, seja a mesma jornada ou uma jornada diferente na sandbox.
+1. Clique no ícone de adição **(+)** e selecione **[!UICONTROL Colar]** na lista suspensa.
+
+   ![](assets/journey-canvas-paste.png)
+
+É possível colar as atividades na mesma ordem em que foram copiadas e elas manterão a configuração. Para obter informações mais detalhadas sobre restrições de copiar/colar e práticas recomendadas, consulte [Atividades de copiar e colar](#copy-paste).
+
+Para copiar uma única atividade, selecione-a e clique no ícone **[!UICONTROL Copiar]** no painel de configuração da atividade à direita, ou pressione **Ctrl+C** (ou Command+C no Mac) para copiar.
+
+![](assets/journey-canvas-copy-single.png)
+
+Para colá-lo, clique no ícone de adição **(+)** e selecione **[!UICONTROL Colar]** na lista suspensa.
+
+
+### Unir e desanexar ramificações
+
+Você pode desanexar uma ramificação para desconectá-la do restante da jornada sem excluí-la e associá-la novamente mais tarde para reconectá-la em um ponto diferente.
+
+Para desanexar uma ramificação, use um destes métodos:
+
+* Clique diretamente na borda que leva à atividade que deseja desanexar e selecione **[!UICONTROL Desanexar borda]**.
+
+  ![Desanexar uma borda clicando nela](assets/journey-canvas-detach.png)
+
+* Clique no ícone de mais **(+)** nessa borda e selecione **[!UICONTROL Desanexar borda]**.
+
+  ![Desanexar uma borda do menu de ícones de adição](assets/journey-canvas-detach2.png)
+
+Qualquer um dos métodos reconecta a borda a uma nova atividade **[!UICONTROL End]**, limitando a cadeia acima do ponto de desconexão. A atividade desanexada, juntamente com qualquer item downstream dela, não é excluída. Ela se torna sua própria ramificação desconectada na tela que pode ser reutilizada posteriormente.
+
+![Ramificação desanexada na tela](assets/journey-canvas-detached-branch.png)
+
+>[!NOTE]
 >
->Para obter uma orientação passo a passo sobre como desconectar e reingressar em nós na tela do jornada, consulte este [artigo da comunidade Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=pt){target="_blank"}.
+>**[!UICONTROL Desanexar borda]** só aparece quando a desanexação faz sentido. Por exemplo, não está disponível em uma borda cujo destino é uma atividade **[!UICONTROL End]** compartilhada por mais de uma ramificação.
 
+Para associar ramificações, clique no ícone de adição **(+)** na borda em que você deseja que a conexão continue e abra a seção **[!UICONTROL Ingressar]** na lista suspensa. A partir daí:
 
+* Selecione uma ramificação na lista **[!UICONTROL Desconectado]** (ramificações ainda não conectadas em nenhum lugar da jornada) ou na lista **[!UICONTROL Ramificações]** (ramificações já usadas em outro lugar da jornada). Use o campo de pesquisa se você tiver um grande número de atividades.
+* Escolha **[!UICONTROL Selecionar da tela]** para realçar todas as atividades qualificadas na tela e clique na que você deseja conectar.
 
-Assista a este vídeo para obter uma visão geral da nova experiência da tela de jornada:
+![Associe-se a uma ramificação selecionando-a na tela](assets/journey-canvas-join.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/3496197?captions=por_br)
+## Vídeo tutorial {#video}
+
+Saiba como usar a nova experiência da tela de jornada.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496193)
 
 ## Inicie sua jornada {#start-your-journey}
 
@@ -177,6 +255,10 @@ Na tela, quando duas atividades são desconectadas, um aviso é exibido. Coloque
 
 ![Ícone de aviso mostrando atividades desconectadas na tela](assets/canvas-disconnected.png)
 
+>[!NOTE]
+>
+>Se você estiver usando a nova experiência da tela de desenho, consulte [Associar e desanexar ramificações](#join-and-detach-branches).
+
 ## Atividades de copiar e colar {#copy-paste}
 
 É possível copiar uma ou várias atividades de uma jornada e colá-las na mesma jornada ou em uma diferente. Isso permite economizar tempo se você quiser reutilizar várias atividades que já foram configuradas em uma jornada anterior.
@@ -191,6 +273,10 @@ Na tela, quando duas atividades são desconectadas, um aviso é exibido. Coloque
 * Você pode selecionar qualquer atividade, mesmo aquelas que não estão vinculadas. As atividades vinculadas permanecerão vinculadas após serem coladas.
 
 Estas são as etapas para copiar/colar atividades:
+
+>[!NOTE]
+>
+>Se você estiver usando a nova experiência da tela de desenho, consulte [Copiar e colar atividades](#copy-and-paste-activities).
 
 1. Abra uma jornada.
 1. Selecione as atividades que deseja copiar movendo o mouse enquanto clica. Você também pode clicar em cada atividade enquanto pressiona a tecla **Ctrl/Command**. Use **Ctrl/Command + A** se desejar selecionar todas as atividades.
