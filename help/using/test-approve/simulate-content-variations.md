@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ea831b383982d312357e1d7893675818650325e
+source-git-commit: c8aa25ff288fcf8efc2b211bc8b0005b7a8771c0
 workflow-type: tm+mt
-source-wordcount: 843
+source-wordcount: 884
 ht-degree: 1%
 
 ---
@@ -37,6 +37,11 @@ ht-degree: 1%
 **Nesta página:** visualize todas as suas variantes de conteúdo rapidamente em uma grade lado a lado, gerencie-as a partir de uma barra de ação inferior consolidada e volte para a experiência clássica a qualquer momento.
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_simulate_content_variations"
+>title="Simular usando exemplos de entrada"
+>abstract="Nesta tela, você pode visualizar e comparar todas as suas variantes de conteúdo lado a lado. Crie variantes inserindo valores manualmente, fazendo upload de um arquivo CSV ou JSON, gerando-as automaticamente com IA ou selecionando usuários simulados existentes."
 
 A experiência **[!UICONTROL Simular variações de conteúdo]** foi reprojetada para testar e comparar suas variantes de forma mais rápida e fácil. Agora, todas as variantes são renderizadas em conjunto em uma única grade rolável, e todos os controles necessários estão disponíveis em uma única barra de ação inferior.
 

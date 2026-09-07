@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c9b1b332102b782fa7ddb5a7796da7961de09b9e
+source-git-commit: c54b1db634ebf2a09ba8bcfb6ee0c51e8b48dcd6
 workflow-type: tm+mt
-source-wordcount: 1668
+source-wordcount: 1718
 ht-degree: 12%
 
 ---
@@ -107,6 +107,14 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
    * **[!UICONTROL Aceitar se estiver marcado]**: os usuários precisam marcar a caixa para consentir (aceitar).
    * **[!UICONTROL Recusar se marcado]**: os usuários precisam marcar a caixa para remover seu consentimento (recusar).
    * **[!UICONTROL Aceitar se estiver marcado, recusar se estiver desmarcado]**: essa opção permite inserir uma única caixa de seleção para aceitação/recusa. Os usuários precisam marcar a caixa para consentir (aceitar) e desmarcá-la para remover seu consentimento (recusar).
+
+1. Nas caixas de seleção para aceitar/recusar, selecione **[!UICONTROL Tornar o campo de formulário obrigatório]** se desejar que os usuários marquem essa caixa de seleção antes de enviarem o formulário.
+
+   >[!NOTE]
+   >
+   >Essa opção é selecionada por padrão.
+
+   Se essa opção estiver ativada e o usuário não marcar a caixa de seleção, o formulário não poderá ser enviado.
 
 1. Escolha o que será atualizado entre as três opções a seguir:
 
