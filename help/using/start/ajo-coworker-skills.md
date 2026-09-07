@@ -8,19 +8,19 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 46c661740f8a42bcc72c9064e5512b02b1921d71
+source-git-commit: ae1558596cf992f45a4a9d35ee58678bcb5cd969
 workflow-type: tm+mt
-source-wordcount: '3996'
-ht-degree: 6%
+source-wordcount: '4199'
+ht-degree: 5%
 
 ---
 
 
-# Habilidades do Journey Optimizer no CX Coworker {#ajo-coworker-skills}
+# Recursos de IA do Journey Optimizer no CX Co-worker {#ajo-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** descubra as habilidades do Adobe Journey Optimizer disponíveis no CX Co-worker — desde a criação e análise de jornadas até a geração de conteúdo de canal e o gerenciamento de ativos de conteúdo — com orientações detalhadas, prompts de exemplo e práticas recomendadas para cada habilidade.
+**Nesta página:** Descubra os recursos de IA do Adobe Journey Optimizer disponíveis no CX Co-worker — desde a criação e análise de jornadas até a geração de conteúdo de canal e o gerenciamento de ativos de conteúdo — com orientações detalhadas, prompts de exemplo e práticas recomendadas para cada recurso.
 
 >[!ENDSHADEBOX]
 
@@ -32,13 +32,13 @@ Com suas habilidades alimentadas por IA, o CX Co-worker permite que os usuários
 
 O CX Co-worker oferece várias habilidades para gerenciar Jornadas e desafios de fidelidade:
 
-**habilidades focadas na Jornada:**
+**Recursos de IA com foco na Jornada:**
 
 * **Criação de Jornada**: criar e configurar jornadas de marketing por meio de prompts de linguagem natural
 * **Criação de Conteúdo de Canal**: gere, edite e gerencie conteúdo específico de canal (email, push, SMS) para jornada usando a geração de conteúdo habilitado por IA
 * **Analisar Jornada**: analise jornadas, detecte problemas, descubra insights e otimize o desempenho da jornada
 
-**Habilidades com foco em fidelidade:**
+**Recursos de IA com foco em fidelidade:**
 
 * **Gerenciamento de Desafio de Fidelidade**: crie e gerencie desafios de fidelidade usando prompts de linguagem natural
 * **Agente de Fidelidade - Habilidade do Data Insight**: consulte e analise dados de desempenho do programa de fidelidade usando linguagem natural
@@ -48,14 +48,14 @@ O CX Co-worker também inclui um conjunto de **ferramentas de MCP para gerenciam
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
 * Quick simulation
 -->
 
-## Habilidades de jornada {#journey-skills}
+## Jornadas {#journey-skills}
 
 ### Criar jornada {#journey-create}
 
@@ -315,6 +315,21 @@ O Jornada Analyze oferece uma variedade de funcionalidades que podem ser aprovei
    * &quot;Mostrar a causa raiz das falhas de ação personalizada na jornada [Nome da Jornada].&quot;
    * &quot;Há algum erro de ação personalizada afetando a jornada [Nome da Jornada] neste momento?&quot;
 
+1. **Analisar anomalias da Jornada**
+
+   * Detecta picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de mensagem de uma jornada em comparação às linhas de base históricas, inclusive quando a pergunta é colocada em torno do número de perfis que entram, saem ou concluem a jornada.
+   * Confirme se uma alteração sinalizada é uma anomalia genuína usando uma verificação estatística determinística, em vez de depender apenas do sinalizador de anomalia bruta.
+   * Execute diagnósticos limitados e somente leitura nos dados de execução da jornada para identificar uma causa raiz provável, identificando o que cada verificação procurou e encontrou junto com a recomendação.
+   * Investigue alertas de anomalias que fazem referência a uma versão e um carimbo de data e hora específicos do jornada.
+
+   Exemplos de prompts:
+   * &quot;Por que as entradas da minha jornada de boas-vindas caíram ontem?&quot;
+   * &quot;As saídas tiveram um pico na jornada de Abandono do carrinho esta semana?&quot;
+   * &quot;Envios parecem baixos para a jornada Lembrete de Renovação hoje — o que aconteceu?&quot;
+   * &quot;Por que houve uma queda repentina no número de perfis que entraram na minha jornada de agradecimento de aniversário de membros nos últimos 30 dias?&quot;
+   * &quot;Menos perfis do que o normal estão concluindo minha jornada de Lembrete de Renovação este mês — por quê?&quot;
+   * &quot;Um alerta de anomalia foi disparado para a jornada [ID da Versão da Jornada] em [carimbo de data/hora] — investigue.&quot;
+
 #### Competências dentro do âmbito
 
 Os seguintes recursos são compatíveis com o Jornada Analyze:
@@ -323,13 +338,13 @@ Os seguintes recursos são compatíveis com o Jornada Analyze:
 * **Integração com outras habilidades**: colabora com os recursos de Audience e Data Insights para uma análise mais profunda.
 * **Estrutura de resposta**: raciocínio (explique a lógica), resumo da análise (destaque os pontos principais), detalhes do problema (descreva o problema) e recomendação (proponha as próximas etapas).
 * **Análise de erro de ação personalizada**: detectar e diagnosticar falhas de ação personalizada e picos de erro em uma jornada.
+* **Detecção de anomalias**: detecte e confirme picos, quedas ou linhas achatadas estatisticamente significativos nas contagens de entrada, saída ou envio de uma jornada e mostre uma causa raiz provável.
 
 #### Habilidades fora do escopo
 
 As seguintes funcionalidades não são compatíveis no momento:
 
 * **Criação automatizada de jornadas**
-* **Detecção de anomalias em tempo real**
 * **Sobreposição de canais**
 * **Análise de entrada da jornada**
 * **Análise de problemas técnicos**
@@ -349,7 +364,7 @@ Para maximizar a eficácia do Jornada Analyze, siga estas práticas recomendadas
 * **Monitore regularmente**: agende revisões regulares do desempenho da jornada para identificar tendências e anomalias.
 * **Otimize a segmentação**: mantenha uma segmentação de público-alvo equilibrada para evitar fadiga e maximizar o engajamento.
 
-## Habilidades de fidelidade {#loyalty-skills}
+## Fidelidade {#loyalty-skills}
 
 >[!AVAILABILITY]
 >
@@ -627,6 +642,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
