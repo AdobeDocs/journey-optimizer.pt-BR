@@ -5,13 +5,12 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-feature_v2: []
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 539
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -30,7 +29,7 @@ Uma prova é uma mensagem específica que permite testar uma mensagem antes de e
 * Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis do AEP)]** na lista suspensa para enviar provas com perfis de teste.
 * Clique em **[!UICONTROL Simular conteúdo]** para enviar provas das variações de conteúdo criadas com dados de entrada de exemplo ou geração automática de IA. [Saiba como simular variações de conteúdo](../test-approve/simulate-sample-input.md#proofs)
 
-Para campanhas acionadas por API e de Ação (agendadas), também é possível enviar provas de forma programática usando a [API de Simulações](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}. Isso não é compatível com campanhas orquestradas.
+Para campanhas acionadas por API e de Ação (agendadas), também é possível enviar provas de forma programática usando a [API de simulações](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}. Isso não é compatível com campanhas orquestradas.
 
 ## Leitura obrigatória {#must-read}
 

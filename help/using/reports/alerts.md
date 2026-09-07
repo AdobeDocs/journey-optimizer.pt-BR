@@ -9,25 +9,13 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5df2684936afe673f87e21e4f27a4ef9b8e220e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 3353
 ht-degree: 1%
@@ -65,7 +53,7 @@ Os alertas do sistema estão disponíveis no menu **[!UICONTROL Alertas]** em **
 
 Antes de trabalhar com alertas:
 
-* **Permissões**: você precisa de permissões específicas para exibir e gerenciar alertas. Consulte [permissões necessárias no Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR#permissions){target="_blank"}.
+* **Permissões**: você precisa de permissões específicas para exibir e gerenciar alertas. Consulte [permissões necessárias no Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
 
 * **Reconhecimento de sandbox**: as assinaturas de alerta são específicas da sandbox. Quando você assina alertas, eles se aplicam somente à sandbox atual. Quando uma sandbox é redefinida, todas as assinaturas de alerta também são redefinidas.
 
@@ -289,7 +277,7 @@ Notifica quando a **entrega de mensagens** de uma campanha foi **concluída** co
 
 +++ Falha na entrega da campanha
 
-Notifica você quando **falha na entrega de mensagens** de uma campanha **3&rbrace;.** Revise relatórios de campanha, logs de execução e configuração de canal para solucionar problemas.
+Notifica você quando **falha na entrega de mensagens** de uma campanha **3}.** Revise relatórios de campanha, logs de execução e configuração de canal para solucionar problemas.
 
 ➡️ [Revise o relatório do Campaign (CJA)](../reports/campaign-global-report-cja.md)
 
@@ -406,7 +394,7 @@ Se esse alerta for disparado, siga as etapas abaixo para investigar e resolver o
 
 >[!NOTE]
 >
->Para obter alertas de outros serviços da Adobe Experience Platform (assimilação de dados, resolução de identidade, segmentação e muito mais), consulte a [documentação de regras de alerta padrão](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=pt-BR){target="_blank"}.
+>Para obter alertas de outros serviços da Adobe Experience Platform (assimilação de dados, resolução de identidade, segmentação e muito mais), consulte a [documentação de regras de alerta padrão](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
 
 ## Assinatura de alertas {#subscribe-alerts}
 
@@ -431,7 +419,7 @@ As assinaturas de alerta determinam quais usuários recebem notificações quand
 
 **Método de assinatura alternativo:**
 
-Para integrações avançadas, você pode assinar por meio de Eventos de I/O para enviar alertas a sistemas externos. Consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}.
+Para integrações avançadas, você pode assinar por meio de Eventos de I/O para enviar alertas a sistemas externos. Consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}.
 
 ### Métodos de subscrição
 
@@ -467,7 +455,7 @@ Clique em **[!UICONTROL Cancelar inscrição]** ao lado do alerta.
 
 **Método de assinatura alternativo:**
 
-Você também pode assinar por meio de [Notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}, o que permite a integração com sistemas externos. Os nomes de assinatura de E/S do alerta de Jornada são anotados na [guia de alertas de Jornada](#available-alerts) em **Alertas disponíveis**, onde aplicável. Os alertas de ciclo de vida do Campaign seguem o mesmo modelo de assinatura do Platform; consulte essa documentação para obter integração programática.
+Você também pode assinar por meio de [Notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}, o que permite a integração com sistemas externos. Os nomes de assinatura de E/S do alerta de Jornada são anotados na [guia de alertas de Jornada](#available-alerts) em **Alertas disponíveis**, onde aplicável. Os alertas de ciclo de vida do Campaign seguem o mesmo modelo de assinatura do Platform; consulte essa documentação para obter integração programática.
 
 >[!TAB assinatura específica da Jornada]
 
@@ -477,7 +465,7 @@ As assinaturas específicas de jornada permitem monitorar jornadas individuais d
 
 1. Vá para o inventário do jornada.
 
-1. Clique no menu **&#x200B;**&#x200B;(mais ações) da jornada que você deseja monitorar.
+1. Clique no menu **** (mais ações) da jornada que você deseja monitorar.
 
 1. Selecione **[!UICONTROL Assinar alertas]**.
 
@@ -509,7 +497,7 @@ Assinaturas específicas de campanha se aplicam aos [alertas do ciclo de vida da
 
 1. Vá para o inventário de **[!UICONTROL Campanhas]** e abra a guia referente ao seu tipo de campanha (**[!UICONTROL Ação]** ou **[!UICONTROL API acionada]**).
 
-1. Clique no menu **&#x200B;**&#x200B;(mais ações) da campanha que deseja monitorar.
+1. Clique no menu **** (mais ações) da campanha que deseja monitorar.
 
 1. Selecione **[!UICONTROL Assinar alertas]**.
 
@@ -529,7 +517,7 @@ Abra a mesma caixa de diálogo, desmarque o(s) alerta(s) e clique em **[!UICONTR
 >
 >Você pode combinar a assinatura de **nível de sandbox** (da guia Alerts **[!UICONTROL Browse]**) com assinaturas **específicas de campanha**. Use a cobertura em nível de sandbox para tudo na sandbox e adicione assinaturas por campanha somente para campanhas que você deseja rastrear separadamente.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Gerenciar alertas {#manage-alerts}
 
@@ -591,6 +579,6 @@ Para remover os assinantes, exclua seus endereços de email dos assinantes atuai
 **Estrutura de alertas:**
 
 * [Visão Geral dos Alertas do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR){target="_blank"} - Noções básicas sobre a estrutura de alertas
-* [Gerenciar alertas na interface](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=pt-BR){target="_blank"} - Exibir, assinar e gerenciar alertas
-* [Assinar alertas por meio de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"} - Opções de integração avançadas
-* [Regras padrão de alerta](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=pt-BR){target="_blank"} - Lista completa de alertas da Plataforma disponíveis
+* [Gerenciar alertas na interface](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} - Exibir, assinar e gerenciar alertas
+* [Assinar alertas por meio de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} - Opções de integração avançadas
+* [Regras padrão de alerta](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} - Lista completa de alertas da Plataforma disponíveis

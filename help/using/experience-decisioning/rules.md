@@ -8,23 +8,16 @@ level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/yfeFpaNi0rYVeyXdzaZ7SfoZnu-BkyivCMDzED7dpsM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1619
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -112,7 +105,7 @@ Para criar uma regra, siga estas etapas:
 
      >[!NOTE]
      >
-     >Esse recurso está disponível para organizações com acesso aos recursos do Adobe AI.
+     >Esta funcionalidade está disponível para organizações com acesso aos recursos Adobe AI.
 
 1. Se você escolher **[!UICONTROL Criar do zero]**, selecione a entidade de regra para especificar para qual tipo de objeto a regra está sendo criada.
 
@@ -162,7 +155,7 @@ Para criar uma regra, siga estas etapas:
 
 >[!NOTE]
 >
->Esse recurso está disponível para organizações com acesso aos recursos do Adobe AI. Ela só está disponível para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+>Esta funcionalidade está disponível para organizações com acesso aos recursos Adobe AI. Está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
 >
 >No momento, a geração de regras assistidas por IA não oferece suporte à geração de expressões baseadas em dados de contexto de Jornada.
 
@@ -246,4 +239,4 @@ Para otimizar uma regra:
 
 Saiba como criar, duplicar e aplicar **regras de direcionamento** reutilizáveis no Adobe Journey Optimizer para personalizar campanhas com eficiência com base em atributos de cliente, como região, idioma e comportamento, economizando tempo e melhorando a precisão do público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476132/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

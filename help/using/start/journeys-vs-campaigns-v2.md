@@ -9,9 +9,11 @@ role: User
 level: Beginner
 hide: true
 keywords: jornada, campanha, comparação, escolher, decisão, fluxo de trabalho, tempo real, lote, orquestração, várias etapas, agendado, acionado por API, orientado por evento
-source-git-commit: ab31811861ccaab22fc787ce3c687204637fbd46
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1968'
+source-wordcount: 1968
 ht-degree: 2%
 
 ---

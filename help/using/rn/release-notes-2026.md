@@ -8,13 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e8781ebabc7692ee1b7c7a69e04d9ba90ac6189e
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 12662
 ht-degree: 99%
@@ -354,7 +350,7 @@ As seguintes melhorias estão chegando ao gerenciamento de conteúdo e às integ
 
   Data de disponibilidade: 9 de julho de 2026
 
-### Relatórios {#july-26-reporting}
+### Relatório {#july-26-reporting}
 
 A seguinte melhoria nos relatórios será introduzida nesta versão.
 
@@ -691,7 +687,7 @@ Os seguintes recursos e melhorias estão chegando ao gerenciamento de conteúdo 
 +++
 -->
 
-### Relatórios {#june-26-reporting}
+### Relatório {#june-26-reporting}
 
 As melhorias a seguir foram adicionadas aos relatórios nesta versão.
 
@@ -1238,7 +1234,7 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 <td>
 <p>A <b>integração do Adobe Express</b> no Adobe Journey Optimizer permite que você use as ferramentas de edição do Adobe Express diretamente durante a criação de conteúdo, permitindo redimensionar, remover planos de fundo, cortar e converter ativos em JPEG ou PNG.
 </p>
-<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../integrations/express.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 23 de abril de 2026</p>
@@ -1430,7 +1426,7 @@ As seções [Novos recursos](#march-26-features) e [Melhorias](#march-26-improv)
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Data de lançamento**: 24 a 25 de março de 2026
@@ -1693,7 +1689,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
   Data de disponibilidade: 1º de abril de 2026
 
-#### Relatórios
+#### Relatório
 
 * **Otimização de tempo de envio: a localização dos controles atualizados e o novo relatório de aumento**. Os controles de Otimização de tempo de envio (STO) foram realocados para o menu de configuração Ação. Além disso, um novo relatório de aumento está disponível nos relatórios de jornadas para medir o impacto do STO nas métricas de desempenho da campanha. [Leia mais](../reports/channel-report-cja.md#optimization-models)
 
@@ -2184,7 +2180,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Verificações de qualidade de conteúdo do Assistente de IA**: além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas de <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou falhas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality).
 
-  [Conheça este recurso no vídeo](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on).
+  [Conheça este recurso no vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Jornadas
 

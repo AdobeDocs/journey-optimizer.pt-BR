@@ -8,9 +8,9 @@ level: Experienced
 keywords: inSegment, função, expressão, jornada
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 198
 ht-degree: 6%
@@ -34,7 +34,7 @@ Os públicos-alvo podem ter dois status:
 * realizado: a entidade se qualifica para a definição do segmento.
 * encerrado: a entidade está saindo da definição do segmento.
 
-Somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results).
+Somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
 
 `inSegment('segmentName') == true` significa que você tem um segmentMembership com o status inserido/existente.
 

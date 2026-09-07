@@ -9,27 +9,16 @@ role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 TQID: https://experienceleague.adobe.com/xxARWBrCc61gvHReQfoliwB378PrDbsxM8ONSHrg9a4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: 1424
-ht-degree: 2%
+source-wordcount: 1470
+ht-degree: 3%
 
 ---
 
@@ -161,7 +150,7 @@ Você pode criar métricas calculadas personalizadas diretamente dos seus relat�
 
    >[!NOTE]
    >
-   >Se você tiver o Customer Journey Analytics, poderá personalizar ainda mais suas métricas com opções adicionais. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+   >Se você tiver o Customer Journey Analytics, poderá personalizar ainda mais suas métricas com opções adicionais. [Saiba mais](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
 
 1. Escolha as **[!UICONTROL Casas decimais]** apropriadas e selecione um **[!UICONTROL Formato]** (Decimal, Hora, Porcentagem ou Moeda) com base em como você deseja que sua métrica seja exibida.
 
@@ -181,7 +170,7 @@ A métrica recém-criada será incluída ao exportar o relatório como um PDF ou
 
 ## Explorar dados com o construtor do Insight {#exploratory}
 
-Use a ferramenta Insight Builder para criar facilmente tabelas e visualizações a partir das **[!UICONTROL Dimensões]** e **[!UICONTROL Métricas]** selecionadas. Essa ferramenta simplifica a exploração de dados, permitindo personalizar e analisar informações automaticamente com facilidade. Saiba mais em [esta documentação](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
+Use a ferramenta Insight Builder para criar facilmente tabelas e visualizações a partir das **[!UICONTROL Dimensões]** e **[!UICONTROL Métricas]** selecionadas. Essa ferramenta simplifica a exploração de dados, permitindo personalizar e analisar informações automaticamente com facilidade. Saiba mais em [esta documentação](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
 
 1. Comece acessando o relatório no qual deseja usar o construtor do Insight.
 
@@ -232,7 +221,7 @@ Agora é possível selecionar dados específicos na tabela e criar um público-a
 
    >[!NOTE]
    >
-   >Se você tiver o Customer Journey Analytics, poderá personalizar ainda mais suas métricas com opções adicionais. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/audiences/publish)
+   >Se você tiver o Customer Journey Analytics, poderá personalizar ainda mais suas métricas com opções adicionais. [Saiba mais](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
 
    ![](assets/audience_1.png)
 
@@ -242,7 +231,7 @@ Agora você pode continuar a usar o público recém-criado com uma Jornada ou Ca
 
 ## Gerenciar modelos {#cja-template}
 
-Agora há a opção de aprimorar os relatórios do Journey Optimizer utilizando modelos do Customer Journey Analytics. [Saiba mais sobre o modelo do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+Agora há a opção de aprimorar os relatórios do Journey Optimizer utilizando modelos do Customer Journey Analytics. [Saiba mais sobre o modelo do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 Ao acessar seus relatórios, você pode escolher entre dois tipos de modelo na lista suspensa **[!UICONTROL Selecionar um modelo]**:
 
@@ -255,7 +244,7 @@ Se nenhum modelo tiver sido criado, a lista suspensa **[!UICONTROL Selecionar um
 
 Para criar um template, siga as etapas abaixo:
 
-1. Em [!DNL Customer Journey Analytics], navegue até o menu **[!UICONTROL Workspace]** e selecione **[!UICONTROL Adobe templates]**. [Saiba mais sobre os modelos disponíveis](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+1. Em [!DNL Customer Journey Analytics], navegue até o menu **[!UICONTROL Workspace]** e selecione **[!UICONTROL Adobe templates]**. [Saiba mais sobre os modelos disponíveis](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
 
 1. Navegue pelos modelos pré-criados disponíveis e clique em **[!UICONTROL Usar modelo]** para selecionar um.
 
@@ -267,7 +256,7 @@ Para criar um template, siga as etapas abaixo:
 
    ![](assets/cja_template_2.png)
 
-1. Forneça os detalhes necessários para o modelo. Consulte a [documentação do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template) para obter informações detalhadas.
+1. Forneça os detalhes necessários para o modelo. Consulte a [documentação do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template) para obter informações detalhadas.
 
    >[!IMPORTANT]
    >
