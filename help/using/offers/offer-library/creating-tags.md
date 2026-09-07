@@ -65,4 +65,4 @@ Para criar um qualificador de coleta, siga estas etapas:
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341376?captions=por_br&quality=12)

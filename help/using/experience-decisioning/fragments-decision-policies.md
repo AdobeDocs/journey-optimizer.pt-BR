@@ -292,4 +292,4 @@ Essa abordagem evita a construção manual de URL e mantém o URL de publicaçã
 
 Saiba como usar fragmentos de conteúdo do Adobe Experience Manager com o Journey Optimizer Decisioning para personalizar e otimizar o conteúdo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492215/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3492219/?captions=por_br&learn=on&enablevpops)
