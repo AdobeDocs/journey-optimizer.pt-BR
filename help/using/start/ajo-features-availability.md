@@ -9,9 +9,13 @@ role: Admin, User
 level: Beginner, Intermediate
 keywords: jornada otimizer, disponibilidade de recursos, o que está disponível, GA, disponibilidade limitada, beta, ciclo de vida, data de lançamento, direito, oferta básica, campanhas, jornada
 hide: true
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: 1878
 ht-degree: 14%
 
 ---
@@ -90,7 +94,7 @@ Recursos de canal, conteúdo e plataforma marcados como **Todas as ofertas bási
 
 | Recurso | Status | Aplicável a | Disponível desde | Notas |
 |---------|--------|-----------|-----------------|-------|
-| Fragmentos da jornada | GA | Jornada; Campanhas e Jornadas | 9 de junho de 2026 | Nós de jornada reutilizáveis; suporte a ferramentas de sandbox |
+| Fragmentos de jornada | GA | Jornada; Campanhas e Jornadas | 9 de junho de 2026 | Nós de jornada reutilizáveis; suporte a ferramentas de sandbox |
 | Simulação de jornada | GA | Jornada; Campanhas e Jornadas | 9 de junho de 2026 | Validar a lógica com usuários simulados |
 | Otimização do caminho de Jornada - Direcionamento | GA | Jornada; Campanhas e Jornadas | 8 de junho de 2026 | Direcionamento de caminho determinístico |
 | Suporte de identificador complementar para públicos externos | GA | Jornada; Campanhas e Jornadas | 11 de junho de 2026 | Composição de CSV e público-alvo federado |

@@ -12,7 +12,6 @@ TQID: https://experienceleague.adobe.com/lewg6KxoowTzp9By5yy62c8ebfa3hloA-FqkUZZ
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
@@ -24,7 +23,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 475
 ht-degree: 25%
@@ -75,9 +74,9 @@ O acesso a esses recursos de relatórios depende do contexto e das áreas do pro
 
 * Se você **possui** o Customer Journey Analytics e tem acesso a um perfil de produto do Customer Journey Analytics, é necessário:
 
-   * Permissões de **[!UICONTROL Criação de público]** e **[!UICONTROL Exibição de público]** para o Customer Journey Analytics. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/technotes/access-control){target="_blank"}
+  * Permissões de **[!UICONTROL Criação de público]** e **[!UICONTROL Exibição de público]** para o Customer Journey Analytics. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/technotes/access-control){target="_blank"}
 
-   * Permissão **[!UICONTROL Gerenciar perfis]** para o Adobe Journey Optimizer. [Saiba mais](../administration/permissions.md)
+  * Permissão **[!UICONTROL Gerenciar perfis]** para o Adobe Journey Optimizer. [Saiba mais](../administration/permissions.md)
 
 * Suas exibições de dados do Customer Journey Analytics precisam ser configuradas com a seguinte configuração: **Definir como exibição de dados padrão no Adobe Journey Optimizer**. [Saiba mais sobre visualizações de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 

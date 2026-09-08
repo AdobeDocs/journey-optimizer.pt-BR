@@ -14,8 +14,8 @@ TQID: https://experienceleague.adobe.com/Wp9b8KmhVwqELaFaMEi-AUDIlDW0yBP6JWFEqrw
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -23,7 +23,7 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 2787
 ht-degree: 17%
@@ -215,17 +215,17 @@ O campo **[!UICONTROL Escolher evento de limite]** permite definir qual evento s
 
   No exemplo abaixo, você deseja limitar o número de check-outs.
 
-   1. Selecione **[!UICONTROL Evento personalizado]** na lista e use o botão **[!UICONTROL Adicionar evento personalizado]**.
+  1. Selecione **[!UICONTROL Evento personalizado]** na lista e use o botão **[!UICONTROL Adicionar evento personalizado]**.
 
-   1. Use o construtor de **[!UICONTROL Criar regras de evento personalizadas]** para selecionar o evento relevante. Você pode escolher qualquer ação do usuário para a qual deseja limitar as ofertas.
+  1. Use o construtor de **[!UICONTROL Criar regras de evento personalizadas]** para selecionar o evento relevante. Você pode escolher qualquer ação do usuário para a qual deseja limitar as ofertas.
 
-      Aqui, escolha **[!UICONTROL Commerce]** > **[!UICONTROL Check-outs]** > **[!UICONTROL Valor]** e selecione **[!UICONTROL existe]** na lista suspensa.
+     Aqui, escolha **[!UICONTROL Commerce]** > **[!UICONTROL Check-outs]** > **[!UICONTROL Valor]** e selecione **[!UICONTROL existe]** na lista suspensa.
 
-      ![](../assets/offer-capping-custom-event.png)
+     ![](../assets/offer-capping-custom-event.png)
 
-   1. Depois que a regra é criada, ela é exibida no campo **[!UICONTROL Consulta de evento personalizada]**.
+  1. Depois que a regra é criada, ela é exibida no campo **[!UICONTROL Consulta de evento personalizada]**.
 
-      ![](../assets/offer-capping-custom-event-query.png)
+     ![](../assets/offer-capping-custom-event-query.png)
 
 >[!CAUTION]
 >

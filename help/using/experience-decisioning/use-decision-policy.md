@@ -23,10 +23,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1262
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -108,7 +108,7 @@ Você também pode inserir o código da política de decisão ao usar o **[!UICO
 
 >[!IMPORTANT]
 >
->O Experience Decisioning com notificações por push requer uma versão específica do Mobile SDK. Antes de implementar este recurso, verifique as [notas de versão](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} para identificar a versão necessária e se você atualizou adequadamente. Você também pode exibir todas as versões do SDK disponíveis para sua plataforma [nesta seção](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
+>A Escolha de experiências com notificações por push exige uma versão específica do SDK móvel. Antes de implementar este recurso, verifique as [notas de versão](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} para identificar a versão necessária e se você atualizou de acordo. Você também pode visualizar todas as versões do SDK disponíveis para sua plataforma [nesta seção](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
 >[!TAB Correspondência direta]
 

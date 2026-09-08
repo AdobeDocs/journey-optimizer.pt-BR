@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: 2404
+source-wordcount: 2436
 ht-degree: 8%
 
 ---
@@ -302,11 +302,11 @@ A seção **[!UICONTROL Sequência de estratégia]** permite selecionar os itens
    Agora, vamos considerar um exemplo em que você tem várias estratégias divididas em grupos diferentes. Você definiu três estratégias. A Estratégia 1 e a Estratégia 2 são combinadas no Grupo 1 e a Estratégia 3 é independente (Grupo 2). As ofertas elegíveis para cada estratégia e sua prioridade (usada na avaliação da função de classificação) são as seguintes:
 
    * Grupo 1:
-      * Estratégia 1 - (Oferta 1, Oferta 2, Oferta 3) - Prioridade 1
-      * Estratégia 2 - (Oferta 3, Oferta 4, Oferta 5) - Prioridade 1
+     * Estratégia 1 - (Oferta 1, Oferta 2, Oferta 3) - Prioridade 1
+     * Estratégia 2 - (Oferta 3, Oferta 4, Oferta 5) - Prioridade 1
 
    * Grupo 2:
-      * Estratégia 3 - (Oferta 5, Oferta 6) - Prioridade 0
+     * Estratégia 3 - (Oferta 5, Oferta 6) - Prioridade 0
 
    As ofertas de estratégia de maior prioridade são avaliadas primeiro e adicionadas à lista de ofertas classificadas.
 
@@ -315,10 +315,10 @@ A seção **[!UICONTROL Sequência de estratégia]** permite selecionar os itens
      As ofertas de Estratégia 1 e Estratégia 2 são avaliadas juntas (Oferta 1, Oferta 2, Oferta 3, Oferta 4, Oferta 5). Digamos que o resultado seja:
 
      Oferta 1 - 10
-Oferta 2 - 20
-Oferta 3 - 30 da Estratégia 1, 45 da Estratégia 2. O mais alto de ambos será considerado, portanto, 45 é considerado.
-Oferta 4 - 40
-Oferta 5 - 50
+     Oferta 2 - 20
+     Oferta 3 - 30 da Estratégia 1, 45 da Estratégia 2. O mais alto de ambos será considerado, portanto, 45 é considerado.
+     Oferta 4 - 40
+     Oferta 5 - 50
 
      As ofertas classificadas agora são: Oferta 5, Oferta 3, Oferta 4, Oferta 2, Oferta 1.
 
@@ -326,8 +326,8 @@ Oferta 5 - 50
 
      As ofertas da Estratégia 3 são avaliadas (Oferta 5, Oferta 6). Digamos que o resultado seja:
 
-      * Oferta 5 - Não será avaliado, pois já existe no resultado acima.
-      * Oferta 6 - 60
+     * Oferta 5 - Não será avaliado, pois já existe no resultado acima.
+     * Oferta 6 - 60
 
      As ofertas classificadas agora são as seguintes: Oferta 5 , Oferta 3, Oferta 4, Oferta 2, Oferta 1, Oferta 6.
 

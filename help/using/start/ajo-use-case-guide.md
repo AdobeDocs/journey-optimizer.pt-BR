@@ -8,9 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Otimizador de jornadas, caso de uso, guia de decisão, qual recurso, introdução, objetivos de profissionais, tutoriais
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '3183'
+source-wordcount: 3221
 ht-degree: 29%
 
 ---
@@ -37,7 +42,7 @@ A IA está incorporada em muitos desses recursos — procure a tag **(AI)** nas 
 
 >[!TIP]
 >
->Novo no Journey Optimizer? Comece com [Comece a usar o Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para escolher o caminho certo para sua função e leia [O que é o Journey Optimizer](get-started.md) para o básico. Para criar confiança prática, navegue pelos [tutoriais do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, siga uma [lista de reprodução de vídeo](https://experienceleague.adobe.com/pt-br/playlists?solution=Journey+Optimizer){target="_blank"} com curadoria de especialista e pratique em uma [sandbox de treinamento](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} ou com os [desafios práticos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
+>É novo(a) no Journey Optimizer? Comece com [Comece a usar o Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para escolher o caminho certo para sua função e leia [O que é o Journey Optimizer](get-started.md) para o básico. Para criar confiança prática, navegue pelos [tutoriais do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, siga uma [lista de reprodução de vídeo](https://experienceleague.adobe.com/pt-br/playlists?solution=Journey+Optimizer){target="_blank"} com curadoria de especialista e pratique em uma [sandbox de treinamento](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} ou com os [desafios práticos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
 
 ## Configurar o Journey Optimizer para a sua equipe {#setup-admin}
 
@@ -343,7 +348,7 @@ Navegue por conteúdo de vídeo preparado por tópico. Cada guia está vinculada
 | Cenário | Usar |
 | -------- | --- |
 | Orientado ao comportamento, em várias etapas, cada cliente se move em seu próprio ritmo | Jornada |
-| Mensagem agendada simples ou acionada por API para um público-alvo | Campaign |
+| Mensagem agendada simples ou acionada por API para um público-alvo | Campanha |
 | Fluxo de trabalho de lote complexo com segmentação de várias entidades | Campanha orquestrada |
 
 Para obter uma comparação detalhada com uma árvore de decisão e tabelas de recursos, consulte [Jornadas versus Campanhas: escolha a abordagem correta](journeys-vs-campaigns.md). Depois de escolher as Jornadas, consulte [Tipos de Jornada: escolha a  certa](../building-journeys/journey-types-selection.md) para escolher entre jornadas de evento unitário, público-alvo de leitura, qualificação de público-alvo e evento comercial.

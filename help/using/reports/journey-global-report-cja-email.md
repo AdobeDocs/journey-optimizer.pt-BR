@@ -12,7 +12,6 @@ TQID: https://experienceleague.adobe.com/nZejBuTk9AqwR77k6-odCK66c2UbGwMspElt2-1
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
@@ -28,10 +27,10 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1292
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -134,7 +133,7 @@ A tabela **[!UICONTROL Email - Estatísticas de rastreamento]** oferece uma cont
 
 * **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
 
-* **[!UICONTROL CTR estimado]** (taxa de cliques): calculado como cliques estimados em relação ao número total de mensagens entregues.
+* **[!UICONTROL CTR estimado]** (taxa de click-through): calculado como cliques estimados em relação ao número total de mensagens entregues.
 
 * **[!UICONTROL CTOR estimado]** (taxa de cliques para abrir): calculado como cliques estimados em relação ao número total de aberturas estimadas.
 

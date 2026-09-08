@@ -9,12 +9,14 @@ role: Admin
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
-feature_v2: []
-subfeature_v2: []
-source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1204
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -40,7 +42,7 @@ ht-degree: 3%
 * [Acessar e gerenciar desafios e tarefas](access-loyalty-challenges.md)
 * [Criar desafios](create-challenges.md)
 * [Criar tarefas](create-tasks.md)
-* [Monitorar o desempenho de desafio de fidelidade](loyalty-reporting.md)
+* [Monitorar o desempenho do desafio de fidelidade](loyalty-reporting.md)
 
 </td>
 <td style="vertical-align:top;">

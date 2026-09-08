@@ -14,8 +14,8 @@ TQID: https://experienceleague.adobe.com/DTi8clyXof5lmdx0elOPHQGm0cwQuKwAm0KbQ-U
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
@@ -26,10 +26,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: 668
-ht-degree: 4%
+source-wordcount: 1573
+ht-degree: 1%
 
 ---
 
@@ -137,8 +137,8 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 +++_experience > decisioning > criteria > posicionamentos
 
 **Campo:** posicionamentos
-**Título:** Restrições de posicionamento
-**Descrição:** A restrição de posicionamento declara que este critério só é aplicável para os posicionamentos listados. A seleção de opção é considerada somente quando o posicionamento direcionado está na lista `xdm:placements`. Caso contrário, todo o critério de decisão será ignorado. Quando a lista &quot;xdm:placements&quot; é omitida ou está vazia, o critério é considerado para qualquer posicionamento direcionado. As disposições listadas aqui impõem critérios implícitos para a seleção de opções. Uma opção a ser considerada deve ter uma representação para a inserção direcionada.
+**Título:** Restrições de Posicionamento
+**Descrição:** A restrição de posicionamento declara que este critério só é aplicável para os posicionamentos listados. A seleção de opção é considerada somente quando o posicionamento de destino está na lista `xdm:placements`. Caso contrário, todo o critério de decisão será ignorado. Quando a lista &#39;xdm:placements&#39; é omitida ou está vazia, o critério é considerado para qualquer posicionamento direcionado. As disposições listadas aqui impõem critérios implícitos para a seleção de opções. Uma opção a ser considerada deve ter uma representação para a inserção direcionada.
 **Tipo:** matriz
 
 * Identificador de posicionamento
@@ -214,12 +214,12 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
   **Tipo:** objeto
   **Obrigatório:** &quot;código&quot;
 
-   * Código
+  * Código
 
-     **Campo:** código
-     **Título:** Código
-     **Descrição:** O código é um identificador legível por humanos para o namespace e pode ser usado para solicitar a identificação técnica do namespace que é usada para o processamento do gráfico de identidade.
-     **Tipo:** cadeia de caracteres
+    **Campo:** código
+    **Título:** Código
+    **Descrição:** O código é um identificador legível por humanos para o namespace e pode ser usado para solicitar a identificação técnica do namespace que é usada para o processamento do gráfico de identidade.
+    **Tipo:** cadeia de caracteres
 
 * Identificador de experiência
 
@@ -327,7 +327,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 +++ _repo > ETag Atividade
 
 **Campo:** etag
-**Título:** Activity ETag
+**Título:** ETag de atividade
 **Descrição:** A revisão na qual o objeto de decisão (anteriormente conhecido como atividade) estava quando o instantâneo foi tirado.
 **Tipo:** cadeia de caracteres
 

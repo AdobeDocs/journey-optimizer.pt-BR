@@ -13,7 +13,7 @@ TQID: https://experienceleague.adobe.com/HYykJIqT1bcoN1oXrG6uvfNuhDNOGLfPtOAf-Y3
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 role_v2:
@@ -33,8 +33,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: ht
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+workflow-type: tm+mt
 source-wordcount: 832
 ht-degree: 100%
 
@@ -100,7 +100,7 @@ Não tem certeza se deseja usar Jornadas ou Campanhas para sua meta? Veja [Jorna
 
 Esta documentação abrange a versão atual do Journey Optimizer e aplica-se a usuários B2C e B2B Edition, salvo indicação em contrário. Os componentes e recursos disponíveis no ambiente dependem de suas [permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
 
-Diretrizes e procedimentos gerais de privacidade do [!DNL Adobe CX Enterprise] aplicam-se a [!DNL Journey Optimizer]. [Saiba mais sobre [!DNL Adobe CX Enterprise] privacidade](https://www.adobe.com/br/privacy/experience-cloud.html){target="_blank"}.
+As diretrizes e os procedimentos gerais de privacidade do [!DNL Adobe CX Enterprise] aplicam-se ao [!DNL Journey Optimizer]. [Saiba mais sobre [!DNL Adobe CX Enterprise] privacidade](https://www.adobe.com/br/privacy/experience-cloud.html){target="_blank"}.
 
 
 ## Arquitetura {#architecture}

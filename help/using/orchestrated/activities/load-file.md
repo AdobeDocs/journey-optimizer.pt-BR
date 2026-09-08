@@ -9,14 +9,15 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 61ffafb86c7fe9c3d9596f87fce4c7978918e7e6
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1612
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -35,7 +36,7 @@ ht-degree: 4%
 
 A atividade **[!UICONTROL Carregar arquivo]** é uma atividade de **[!UICONTROL Gerenciamento de dados]**. Use-a para trabalhar com perfis e dados armazenados em um arquivo externo. Ele oferece suporte ao **direcionamento baseado em arquivos** em campanhas orquestradas quando a lista de destinatários vem de um sistema externo (por exemplo, uma exportação de CRM ou um arquivo de parceiro) e você deseja executar uma campanha sem criar um pipeline de assimilação completo do Adobe Experience Platform primeiro.
 
-Durante a configuração do arquivo, você pode definir mapeamentos de coluna, tipos de dados, tratamento NULL e políticas de erro por coluna. As linhas que falharem na validação são rejeitadas e registradas antes da execução da campanha, mantendo o público-alvo limpo sem pré-processamento manual.
+Durante a configuração do arquivo, é possível definir mapeamentos de coluna, tipos de dados, tratamento de NULL e políticas de erro por coluna. As linhas que falham na validação são rejeitadas e registradas antes da execução da campanha, mantendo o público-alvo limpo sem pré-processamento manual.
 
 >[!AVAILABILITY]
 >

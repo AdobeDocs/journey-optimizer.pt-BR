@@ -15,8 +15,7 @@ product_v2:
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
   - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: []
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
@@ -25,10 +24,10 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 5%
+source-wordcount: 961
+ht-degree: 4%
 
 ---
 
@@ -61,7 +60,7 @@ Para configurar o controle de acesso para o Journey Optimizer, você deve ter pr
 O gerenciamento de usuários no [!DNL Journey Optimizer] é baseado nestes conceitos-chave:
 
 * **[!UICONTROL Funções]**: as funções se referem a uma coleção de usuários que compartilham as mesmas permissões e sandboxes. Essas funções permitem gerenciar facilmente o acesso e as permissões para diferentes grupos de usuários em sua organização. Uma função do vem com um conjunto de direitos unitários (permissões) que permitem que os usuários acessem determinadas funcionalidades ou objetos na interface.
-Com [!DNL Journey Optimizer], você pode escolher entre várias **[!UICONTROL Funções]** preexistentes, cada uma com níveis variados de permissões, para atribuir aos seus usuários. Saiba mais sobre as **Funções internas** disponíveis em [esta página](ootb-product-profiles.md).
+Com [!DNL Journey Optimizer], você pode escolher entre várias **[!UICONTROL Funções]** preexistentes, cada uma com níveis variados de permissões, para atribuir aos seus usuários. Saiba mais sobre as **funções internas** disponíveis em [esta página](ootb-product-profiles.md).
 
 * **[!UICONTROL Permissões]**: as permissões são direitos unitários que permitem definir as autorizações atribuídas a **[!UICONTROL Funções]**. Cada permissão é coletada em recursos, por exemplo, Jornada ou Ofertas, que representam as diferentes funcionalidades ou objetos em [!DNL Journey Optimizer]. Saiba mais na seção [Níveis de permissão](high-low-permissions.md).
 

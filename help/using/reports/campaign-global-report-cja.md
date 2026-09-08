@@ -12,7 +12,6 @@ TQID: https://experienceleague.adobe.com/-1IfHcdK07JLG54DYR1GNNN-sU0VyHjfBjCLbNd
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
@@ -26,10 +25,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 686
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -90,7 +89,7 @@ Observe que as métricas variam com base nos canais usados na campanha.
 
 * **[!UICONTROL Cliques estimados]**: número de vezes que um conteúdo foi clicado em sua mensagem, excluindo o tráfego identificado de bot e de interação não humana (NHI).
 
-* **[!UICONTROL CTR estimado]** (taxa de cliques): calculado como cliques estimados em relação ao número total de mensagens entregues.
+* **[!UICONTROL CTR estimado]** (taxa de click-through): calculado como cliques estimados em relação ao número total de mensagens entregues.
 
 * **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em sua mensagem.
 
