@@ -8,26 +8,16 @@ level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 879d334b22c40cd366a3c9df8092b06828c1f493
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 2edcde02104eb5f8b5854b3f1f81c737f4dab551
 workflow-type: tm+mt
-source-wordcount: 2419
-ht-degree: 79%
+source-wordcount: 2515
+ht-degree: 77%
 
 ---
 
@@ -108,6 +98,17 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tr>
 </tbody>
 </table>
+
+* **Decisão na simulação de Jornada** - Agora é possível simular jornadas que dependem da decisão do Adobe Journey Optimizer, com os seguintes itens recém-suportados:
+
+  * Os nós de Decisão de conteúdo agora são compatíveis com a Simulação.
+  * O método de regra de Direcionamento da atividade Otimizar agora é compatível com a Simulação.
+  * Ações com conteúdo decidido pela Adobe Journey Optimizer (por exemplo, email usando uma política de decisão) agora são compatíveis com a Simulação.
+  * As políticas de decisão que usam a Qualificação de oferta e a classificação por regra, público-alvo, prioridade ou fórmula são totalmente compatíveis. Classificação por modelo de IA - o Personalization também é compatível, embora as ofertas retornadas possam variar entre as execuções.
+
+  [Saiba mais](../building-journeys/simulate-journey-gs.md)
+
+  Data de disponibilidade: 8 de setembro de 2026
 
 * **Nova função dateDiff no editor de expressão de jornada** - O editor de expressão de jornada agora inclui a função `dateDiff`, que calcula a diferença entre duas datas em número de dias. Essa função é útil para uma lógica baseada no tempo, como criar prazos, calcular durações de ciclo de vida do cliente ou criar cronômetros de contagem regressiva em condições de jornada.  [Saiba mais](../building-journeys/functions/date-functions.md#dateDiff)
 
