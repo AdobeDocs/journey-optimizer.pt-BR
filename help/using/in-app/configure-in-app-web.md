@@ -6,12 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 756
 ht-degree: 3%
@@ -33,7 +30,7 @@ ht-degree: 3%
 
 * Instale a extensão **Adobe Experience Platform Web SDK** nas **Propriedades da marca** e habilite a opção **Armazenamento da Personalization**.
 
-  Essa configuração é essencial para armazenar históricos de eventos no cliente, um pré-requisito para a implementação de Regras de frequência no construtor de regras. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=pt-BR){target="_blank"}
+  Essa configuração é essencial para armazenar históricos de eventos no cliente, um pré-requisito para a implementação de Regras de frequência no construtor de regras. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
 
   ![](assets/configure_web_inapp_1.png)
 
@@ -73,7 +70,7 @@ ht-degree: 3%
 
 1. Salve sua configuração de **Ação** clicando em **Manter alterações**.
 
-1. Navegue até o menu **Fluxo de publicação**. Crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione a **Regra** recém-criada a ela. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=pt-BR#create-a-library){target="_blank"}
+1. Navegue até o menu **Fluxo de publicação**. Crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione a **Regra** recém-criada a ela. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. Na sua **Biblioteca**, selecione **Salvar e criar no desenvolvimento**.
 
@@ -115,7 +112,7 @@ ht-degree: 3%
 
 1. Na seção **Contexto de Decisão**, defina os pares **Chave** e **Valor** que determinam qual experiência fornecer.
 
-1. Acesse o menu **Fluxo de publicação**, crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione sua **Regra** recém-criada. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=pt-BR#create-a-library){target="_blank"}
+1. Acesse o menu **Fluxo de publicação**, crie uma nova **Biblioteca** ou selecione uma **Biblioteca** existente e adicione sua **Regra** recém-criada. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. Na sua **Biblioteca**, selecione **Salvar e criar no desenvolvimento**.
 
@@ -147,20 +144,20 @@ ht-degree: 3%
 
      +++ Como criar uma regra de correspondência de Páginas.
 
-      1. Selecione **[!UICONTROL Regra de correspondência de páginas]** como configuração de aplicativo e insira sua **[!UICONTROL URL da página]**.
+     1. Selecione **[!UICONTROL Regra de correspondência de páginas]** como configuração de aplicativo e insira sua **[!UICONTROL URL da página]**.
 
-      1. Na janela **[!UICONTROL Editar regra de configuração]**, defina seus critérios para os campos **[!UICONTROL Domínio]** e **[!UICONTROL Página]**.
-      1. Nos menus suspensos de condição, personalize ainda mais seus critérios.
+     1. Na janela **[!UICONTROL Editar regra de configuração]**, defina seus critérios para os campos **[!UICONTROL Domínio]** e **[!UICONTROL Página]**.
+     1. Nos menus suspensos de condição, personalize ainda mais seus critérios.
 
-         Aqui, por exemplo, para editar elementos exibidos em todas as páginas de produtos de vendas do site Luma, selecione Domínio > Começa com > Luma e Página > Contém > vendas.
+        Aqui, por exemplo, para editar elementos exibidos em todas as páginas de produtos de vendas do site Luma, selecione Domínio > Começa com > Luma e Página > Contém > vendas.
 
-         ![](assets/in_app_web_surface_4.png)
+        ![](assets/in_app_web_surface_4.png)
 
-      1. Clique em **[!UICONTROL Adicionar outra regra de página]** para criar outra regra, se necessário.
+     1. Clique em **[!UICONTROL Adicionar outra regra de página]** para criar outra regra, se necessário.
 
-      1. Selecione a **[!UICONTROL URL padrão de criação e visualização]**.
+     1. Selecione a **[!UICONTROL URL padrão de criação e visualização]**.
 
-      1. Salve as alterações. A regra é exibida na tela **[!UICONTROL Criar campanha]**.
+     1. Salve as alterações. A regra é exibida na tela **[!UICONTROL Criar campanha]**.
 
      +++
 

@@ -6,13 +6,9 @@ description: Saiba como armazenar palavras-chave de SMS de entrada em um conjunt
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 553
 ht-degree: 12%
@@ -49,7 +45,7 @@ Para usar um conjunto de dados personalizado para palavras-chave de entrada, é 
 
 Um esquema define a estrutura e as regras de validação que se aplicam aos dados assimilados. Componha um esquema de Evento de experiência para a coleção de palavras-chave de entrada adicionando os grupos de campos existentes listados abaixo.
 
-➡️ [Saiba mais sobre a criação de esquema na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition)
+➡️ [Saiba mais sobre a criação de esquema na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. No Adobe Experience Platform, em **[!UICONTROL Gerenciamento de dados]**, acesse **[!UICONTROL Esquemas]** e selecione **[!UICONTROL Criar esquema]**.
 
@@ -75,7 +71,7 @@ Um esquema define a estrutura e as regras de validação que se aplicam aos dado
    * [!DNL Adobe CJM ExperienceEvent - Message Execution Details]
    * [!DNL Adobe CJM ExperienceEvent - Message Profile Details]
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Save]**.
 
 ## Criar um conjunto de dados {#create-dataset}
 
@@ -99,7 +95,7 @@ Um conjunto de dados é o container de armazenamento para dados assimilados. Cad
 
    ![](assets/schema-sms-6.png)
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Save]**.
 
 ## Configurar credenciais da API {#configure-api-credentials}
 

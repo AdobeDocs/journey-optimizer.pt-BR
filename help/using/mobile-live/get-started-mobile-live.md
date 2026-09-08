@@ -8,26 +8,16 @@ role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
 TQID: https://experienceleague.adobe.com/IB00r0QSfCthvgvyqubGwsaUoiJKBL-E96duLn4R5i0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
-workflow-type: ht
-source-wordcount: 449
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcbid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+workflow-type: tm+mt
+source-wordcount: 467
+ht-degree: 96%
 
 ---
 
@@ -67,20 +57,20 @@ Diferentemente das notificações por push tradicionais, as atividades em tempo 
 
 Com o Adobe Journey Optimizer, você pode **iniciar**, **atualizar** e **encerrar** atividades em tempo real de forma remota e programática por meio de campanhas acionadas por API, oferecendo suporte a casos de uso individuais e baseados em público-alvo em grande escala.
 
-As atividades em tempo real podem ser iniciadas **apenas** por meio de campanhas **acionadas por API**, permitindo o fornecimento de conteúdos personalizados e a realização de toda a personalização através do seu próprio conteúdo.
-Deve ser selecionado o tipo adequado de campanha **acionada por API** com base no caso de uso da atividade em tempo real pretendida:
+As atividades em tempo real podem ser iniciadas **apenas** por meio de campanhas **acionadas por API**, permitindo que você forneça conteúdos personalizados e realize toda a personalização por meio de seu próprio conteúdo.
+O tipo de campanha **acionada por API** apropriado deve ser selecionado com base no caso de uso pretendido para a atividade em tempo real:
 
 * Selecione **Marketing acionado por API** para casos de uso de transmissão: atualizações baseadas em público-alvo enviadas em grande escala:
 
-   * Pontuações esportivas e contagem regressiva de eventos ao vivo
-   * Atualizações sobre o status do voo para todos os passageiros em uma rota
-   * Experiências compartilhadas em um segmento de usuário
+  * Pontuações esportivas e contagem regressiva de eventos ao vivo
+  * Atualizações sobre o status do voo para todos os passageiros em uma rota
+  * Experiências compartilhadas em um segmento de usuário
 
-* Selecione **Transacional acionado por API** para casos de uso individuais: 1:1 atualização em tempo real por usuário:
+* Selecione **Transacional acionado por API** para casos de uso individuais — atualizações em tempo real 1:1 por usuário:
 
-   * Rastreamento de pedido e progresso de entrega
-   * Atualizações de status de viagem ou serviço
-   * Confirmações de reservas e agendamentos em tempo real
+  * Rastreamento de pedido e progresso de entrega
+  * Atualizações de status de viagem ou serviço
+  * Confirmações de reservas e agendamentos em tempo real
 
 ## Guia de início rápido
 
@@ -106,4 +96,4 @@ Conclua as etapas abaixo para configurar e implementar Atividades em tempo real 
 
 Descubra como configurar as atividades em tempo real do iOS com o Adobe Journey Optimizer para fornecer atualizações avançadas em tempo real na Tela de bloqueio do iPhone e no Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479869/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)

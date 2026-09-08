@@ -6,12 +6,9 @@ topic: Content Management
 role: Developer
 level: Intermediate
 keywords: no aplicativo, mensagem, sdk da web, configuração
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cc5c44e2-54a1-4927-b794-442cd87d8f74
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 1020
 ht-degree: 0%
@@ -40,13 +37,13 @@ Ao configurar mensagens no aplicativo da Web, você deve incluir a seguinte dire
 default-src  blob:;
 ```
 
-Para obter mais informações sobre como configurar uma CSP, consulte a [documentação sobre Coleção de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html?lang=pt-BR){target="_blank"}.
+Para obter mais informações sobre como configurar uma CSP, consulte a [documentação sobre Coleção de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html){target="_blank"}.
 
 ## Configurar mensagens no aplicativo da Web usando a extensão de tag da Web SDK {#tag-extension}
 
-Consulte a [página de configuração da extensão de tag do Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=pt-BR){target="_blank"} para entender onde você pode encontrar as configurações descritas abaixo.
+Consulte a [página de configuração da extensão de tag do Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"} para entender onde você pode encontrar as configurações descritas abaixo.
 
-Depois de [instalar](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=pt-BR#install-the-web-sdk-tag-extension){target="_blank"} a extensão de tag do Web SDK, siga as etapas abaixo para configurar a extensão para Mensagens no Aplicativo Web.
+Depois de [instalar](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html#install-the-web-sdk-tag-extension){target="_blank"} a extensão de tag do Web SDK, siga as etapas abaixo para configurar a extensão para Mensagens no Aplicativo Web.
 
 Na seção **[!UICONTROL Personalization]**, marque a opção **[!UICONTROL Habilitar armazenamento de personalização]**. Essa opção permite que o Web SDK acompanhe quais experiências foram vistas pelo usuário em carregamentos de página.
 
@@ -177,7 +174,7 @@ Neste exemplo, o conteúdo de personalização é exibido quando um usuário cli
 
 Você pode optar por mostrar mensagens no aplicativo aos usuários por um número definido de vezes, ou sempre que eles visitarem uma página, por meio da opção de configuração `personalizationStorageEnabled`.
 
-Na [configuração do Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR){target="_blank"}, defina a opção `personalizationStorageEnabled` de acordo com suas necessidades:
+Na [configuração do Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html){target="_blank"}, defina a opção `personalizationStorageEnabled` de acordo com suas necessidades:
 
 * O `personalizationStorageEnabled: true` aciona a mensagem no aplicativo com a frequência que você definiu na sua [campanha](create-in-app-web.md#configure-inapp).
 * `personalizationStorageEnabled: false` aciona a mensagem no aplicativo em cada carregamento de página.
