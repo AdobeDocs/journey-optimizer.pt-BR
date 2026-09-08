@@ -6,8 +6,11 @@ description: Saiba como iniciar e monitorar campanhas orquestradas com o Adobe J
 feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
-feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+feature_v2:
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 952
@@ -52,7 +55,7 @@ Usando esses dados, você pode definir regras para identificar os recipients que
 
    1. Selecione a regra de filtro e escolha o **[!UICONTROL Comportamento]** que deseja direcionar, como **[!UICONTROL Mensagem enviada]**.
 
-   1. Clique no ![ícone de pasta ](assets/do-not-localize/folder-search.svg) para selecionar a campanha específica que deseja redirecionar. Você tem duas opções:
+   1. Clique no ![ícone de pasta &#x200B;](assets/do-not-localize/folder-search.svg) para selecionar a campanha específica que deseja redirecionar. Você tem duas opções:
 
       * **[!UICONTROL Selecionar uma campanha específica]**: escolha uma campanha específica na sua lista para redirecionar os destinatários que interagiram com essa campanha.
 
@@ -143,7 +146,7 @@ Para redirecionar destinatários com base nas interações de mensagem (por exem
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. Clique no ![ícone de pasta ](assets/do-not-localize/folder-search.svg) para selecionar a campanha específica que deseja redirecionar. Você tem duas opções:
+   1. Clique no ![ícone de pasta &#x200B;](assets/do-not-localize/folder-search.svg) para selecionar a campanha específica que deseja redirecionar. Você tem duas opções:
 
       * **[!UICONTROL Selecionar uma campanha específica]**: escolha uma campanha específica na sua lista para redirecionar os destinatários que interagiram com essa campanha.
 

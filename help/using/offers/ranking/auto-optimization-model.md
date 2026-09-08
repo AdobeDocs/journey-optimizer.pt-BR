@@ -10,11 +10,20 @@ level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DZ2NFuxDJRdZFLESrEwe-lfnt14vO93xxA-1U0zokPQ
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: a984631b-2bae-4860-9b15-69c41a799dcb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: a984631b-2bae-4860-9b15-69c41a799dcb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 1805
@@ -104,7 +113,7 @@ Eventualmente, se uma oferta (por exemplo, Oferta 1) for um vencedor claro, sua 
 
 +++ Detalhes do cálculo
 
-Para calcular/atualizar distribuições, usamos o Teorema de **Bayes&#39;**. Para cada oferta ***i***, queremos calcular seus ***P(𝛍i | dados)***, ou seja, para cada oferta ***i***, a probabilidade de um valor de premiação**𝛍 i**, dados os dados coletados até agora para essa oferta.
+Para calcular/atualizar distribuições, usamos o Teorema de **Bayes&#39;**. Para cada oferta ***i***, queremos calcular seus ***P(𝛍i | dados)***, ou seja, para cada oferta ***i***, a probabilidade de um valor de premiação&#x200B;**𝛍 i**, dados os dados coletados até agora para essa oferta.
 
 A partir do Teorema de Bayes:
 
