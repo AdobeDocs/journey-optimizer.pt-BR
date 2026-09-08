@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
   - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 7f362a24944a78f1512f0a4e52417722d71b7ddd
 workflow-type: tm+mt
-source-wordcount: 1827
+source-wordcount: 1929
 ht-degree: 1%
 
 ---
@@ -106,9 +106,8 @@ Alguns nós impedem que a **[!UICONTROL Simulação]** seja iniciada. Outros sã
 | Eventos comerciais | Você não pode executar jornadas que iniciam com um evento comercial em **[!UICONTROL Simulação]**. |
 | Canais de entrada | Você não pode executar jornadas que incluem um nó de canal de entrada em **[!UICONTROL Simulação]**. |
 | ID complementar (várias reentradas) | **[!UICONTROL A simulação]** não é iniciada quando várias reentradas estão habilitadas e o mesmo usuário simulado pode ter várias instâncias ativas ao mesmo tempo. |
-| Nó Content Decision | Remova ou altere esta atividade antes de simular a jornada. |
 | Pesquisa de conjunto de dados | **[!UICONTROL A simulação]** não oferece suporte a pesquisas de conjuntos de dados de clientes por chave. Remova ou altere esta atividade antes de executar uma simulação. |
-| **[!UICONTROL Otimizar]** atividade | Não há suporte para **[!UICONTROL Experimento]** e **[!UICONTROL regra de direcionamento]**. Remova ou altere o nó antes de simular.<br><br>Outros métodos **[!UICONTROL Otimizar]** se comportam da seguinte maneira:<br><br>**[!UICONTROL Divisão de porcentagem &#x200B;]**: a Journey Agent cria um usuário simulado por ramificação, não de acordo com as porcentagens de ramificação. No tempo de execução, a avaliação ao vivo escolhe a ramificação e pode diferir do caminho gerado. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida.<br><br>**[!UICONTROL Condição de tempo]**: as condições se aplicam no tempo de execução como em uma jornada em tempo real. Por exemplo, uma janela de 8:00 às 20:00 permite aos usuários somente a passagem, enquanto a simulação é executada dentro dessa janela. Não é possível simular o tempo de execução. Defina a condição para corresponder à hora atual quando você testar.<br><br>**[!UICONTROL Condição de data &#x200B;]**: as condições se aplicam em tempo de execução como em uma jornada em tempo real. Por exemplo, uma data de 8 de junho de 2026 permite que os usuários somente acessem quando a simulação for executada nessa data. Não é possível simular a data de execução. Defina a condição para a data atual ao testar.<br><br>**[!UICONTROL Limite de perfil]**: as limitações não são aplicadas durante a simulação. O Journey Agent cria um usuário simulado por ramificação. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida. |
+| **[!UICONTROL Otimizar]** atividade | Não há suporte para **[!UICONTROL Experimento]**. Remova ou altere o nó antes de simular.<br><br>Outros métodos **[!UICONTROL Otimizar]** se comportam da seguinte maneira:<br><br>**[!UICONTROL Regra de direcionamento &#x200B;]**: a Journey Agent avalia a regra configurada em relação aos atributos de perfil do usuário simulado para selecionar a ramificação.<br><br>**[!UICONTROL Divisão de porcentagem]**: a Journey Agent cria um usuário simulado por ramificação, não de acordo com porcentagens de ramificação. No tempo de execução, a avaliação ao vivo escolhe a ramificação e pode diferir do caminho gerado. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida.<br><br>**[!UICONTROL Condição de tempo &#x200B;]**: as condições se aplicam no tempo de execução como em uma jornada em tempo real. Por exemplo, uma janela de 8:00 às 20:00 permite aos usuários somente a passagem, enquanto a simulação é executada dentro dessa janela. Não é possível simular o tempo de execução. Defina a condição para corresponder à hora atual quando você testar.<br><br>**[!UICONTROL Condição de data]**: as condições se aplicam em tempo de execução como em uma jornada em tempo real. Por exemplo, uma data de 8 de junho de 2026 permite que os usuários somente acessem quando a simulação for executada nessa data. Não é possível simular a data de execução. Defina a condição para a data atual ao testar.<br><br>**[!UICONTROL Limite de perfil &#x200B;]**: as limitações não são aplicadas durante a simulação. O Journey Agent cria um usuário simulado por ramificação. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida. |
 | Ramificações de tempo limite e erro | A Journey Agent não gera usuários para ramificações de tempo limite ou erro de atividades. Os usuários só inserem esses caminhos se ocorrer um tempo limite real ou um erro durante a simulação. |
 | Ramificação de tempo limite (atividades de evento) | Os usuários simulados são criados, mas na **[!UICONTROL Simulação manual]** a Journey Agent não decide quem entra em uma ramificação de tempo limite de evento. Controle o caminho enviando ou não o evento. Por exemplo, para testar uma ramificação de tempo limite, aguarde o tempo limite configurado e não envie o evento. **[!UICONTROL A simulação rápida]** pode enviar ou reter eventos automaticamente para abranger ramificações de tempo limite. |
 | Eventos de reação | Os eventos de reação são executados em simulação, mas a ação deve ocorrer na vida real. Por exemplo, uma reação de email **abrir** requer a abertura da mensagem de prova. Não é possível simular reações na interface da simulação. |
@@ -120,14 +119,31 @@ Alguns nós impedem que a **[!UICONTROL Simulação]** seja iniciada. Outros sã
 
 </br>
 
++++ Comportamento de decisão
+
+Os seguintes elementos de decisão são compatíveis:
+
+| Elemento de decisão | Notas |
+| -- | -- |
+| Elegibilidade da oferta | Compatível, incluindo qualificação com base em atributos de perfil. |
+| Regra de elegibilidade | Compatível. A regra pode conter atributos de perfil. |
+| Público-alvo elegível | Compatível quando o público-alvo é adicionado ao perfil do usuário simulado. |
+| Classificação por prioridade de oferta | Compatível. Atributos de perfil não estão envolvidos. |
+| Classificação por fórmula | Compatível. A fórmula pode usar atributos de perfil. |
+| Classificação por **[!UICONTROL Modelo de IA - Automático]** | Compatível. A classificação é baseada somente na oferta e no conjunto de dados configurado, os atributos do perfil não estão envolvidos. Exige que os dados necessários estejam presentes no conjunto de dados configurado. |
+| Classificação por **[!UICONTROL Modelo de IA - Personalization]** | Compatível. O público é considerado para classificação, não para qualificação. Como a classificação é orientada por IA, as ofertas retornadas podem variar entre as execuções de simulação. |
+
++++
+
+</br>
+
 +++ Limitações funcionais
 
-Os recursos a seguir não têm suporte em **[!UICONTROL Simulação]**.
+Os seguintes recursos **não** são suportados em **[!UICONTROL Simulação]**.
 
 | Recurso | Notas |
 | --- | --- |
 | Critérios de saída | Os critérios de saída não são aplicados quando você executa **[!UICONTROL Simulação]**. |
-| [!DNL Adobe Journey Optimizer] decisão dentro de uma ação, por exemplo, conteúdo de email com Adobe Journey Optimizer decisão | Provas de ação para conteúdo que usam a decisão [!DNL Adobe Journey Optimizer] não são geradas. |
 | Simular uma resposta de ação personalizada | [!UICONTROL Por padrão, as ações personalizadas] executam uma chamada de saída real. Não há suporte para zombar da resposta para que nenhuma chamada externa seja executada. |
 | Avaliação da política de consentimento | O consentimento não pode ser ridicularizado no nível do usuário simulado e as políticas de consentimento não são avaliadas durante a simulação. |
 | Limite de jornada e arbitragem | Não avaliado nem aplicado durante a simulação. |

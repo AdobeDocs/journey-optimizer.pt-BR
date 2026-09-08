@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: cd60c7fb58702a2b5fc8d5147ea677fd3d7ff29a
+source-git-commit: 02ff2d2090fd2271c3b6ffc0832ff66b9fd0f0b7
 workflow-type: tm+mt
-source-wordcount: 10562
-ht-degree: 96%
+source-wordcount: 10638
+ht-degree: 95%
 
 ---
 
@@ -72,6 +72,8 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * A seção do componente **Grade** foi adicionada à página **Componentes de conteúdo do Designer de email**. Ela permite organizar o conteúdo em uma grade estruturada de linhas e colunas, onde cada célula pode conter outros componentes de conteúdo. [Leia mais](../email/content-components.md#grid)
 
 * A documentação da **API de Migração de Decisão** foi atualizada com um esclarecimento de que a sandbox de destino **pode ser igual à sandbox de origem**. O processo de migração trata desse cenário e garante a integridade dos dados, independentemente de os objetos serem migrados na mesma sandbox ou para uma diferente. [Leia mais](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
+
+* A documentação da **API de migração de decisão** foi aprimorada com orientação abrangente sobre como migrar objetos da Gestão de decisões para o Decisioning. As novas seções incluem: referência de mapeamento de entidade com 10 convenções de nomenclatura, cobertura dentro e fora do escopo, comparações detalhadas de modelos de solicitação/resposta, três padrões de implementação (lado do cliente, lado do servidor, híbrido) com tratamento de cookies, requisitos de rastreamento de eventos com 5 exemplos JSON de evento, pré-requisitos de migração entre sandboxes, um processo de migração completo de 5 etapas e perguntas frequentes sobre migração. [Leia mais](../experience-decisioning/decisioning-migration-api.md)
 
 * Uma nova página **Habilidades de profissionais de CX** está disponível. Ela fornece documentação abrangente de todas as Habilidades de jornada disponíveis no Journey Optimizer, incluindo Criação de jornada, Criação de conteúdo de canal, Gerenciamento de desafio de fidelidade e Análise de jornada, com casos de uso, prompts de amostra e práticas recomendadas para cada habilidade. [Leia mais](../start/ajo-coworker-skills.md)
 
