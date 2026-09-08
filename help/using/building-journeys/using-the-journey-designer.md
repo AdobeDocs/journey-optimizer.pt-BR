@@ -200,7 +200,7 @@ Para associar ramificações, clique no ícone de adição **(+)** na borda em q
 
 Saiba como usar a nova experiência da tela de jornada.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496193)
+>[!VIDEO](https://video.tv.adobe.com/v/3496197?captions=por_br)
 
 ## Inicie sua jornada {#start-your-journey}
 

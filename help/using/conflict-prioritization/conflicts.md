@@ -103,4 +103,4 @@ Ao aproveitar esses recursos, você pode garantir que seus esforços de marketin
 
 ## Vídeo tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435528?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445649?captions=por_br&quality=12)
