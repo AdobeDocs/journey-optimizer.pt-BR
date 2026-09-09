@@ -14,11 +14,9 @@ product_v2:
 feature_v2:
   - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
 subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
@@ -28,8 +26,8 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: de8759bda1690076110ba19f878ff940441907e8
-workflow-type: ht
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+workflow-type: tm+mt
 source-wordcount: 1343
 ht-degree: 100%
 
@@ -78,7 +76,7 @@ Estas seções listam os conjuntos de dados do sistema usados pelo [!DNL Journey
 >
 > Os conjuntos de dados do sistema **não devem ser modificados**. Qualquer alteração será revertida automaticamente com cada atualização do produto.
 
-* Relatórios
+* Relatório
 
   * _Relatório - Conjunto de dados do evento de feedback de mensagem_: logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. O feedback dos ISPs de email sobre rejeições também é registrado neste conjunto de dados. **Este conjunto de dados usa a ingestão em lote — espere uma latência de dados de até 2 horas.**
   * _Relatórios – Conjunto de dados de evento de experiência de rastreamento de email_: logs de interação do canal de email e dados de contexto do canal do WhatsApp no grupo de campos `whatsAppChannelContext`. Usado para relatórios e criação de público-alvo. As informações armazenadas incluem ações realizadas pelo usuário final no email (aberturas, cliques etc.) e interações do WhatsApp.
