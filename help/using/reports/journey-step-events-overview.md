@@ -37,10 +37,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 967
-ht-degree: 5%
+source-wordcount: 1075
+ht-degree: 4%
 
 ---
 
@@ -151,6 +151,34 @@ FROM journey_step_events
 WHERE _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
+
+**Análise de ação personalizada**
+
+Use os eventos de etapa do jornada para verificar se o Journey Optimizer executou uma ação personalizada e para inspecionar o status, a latência e os detalhes do erro:
+
+```sql
+-- Example: Inspect custom action execution for a given custom action and profile in a journey
+SELECT
+  timestamp,
+  _experience.journeyOrchestration.stepEvents.actionID AS action_id,
+  _experience.journeyOrchestration.stepEvents.actionName AS action_name,
+  _experience.journeyOrchestration.stepEvents.actionType AS action_type,
+  _experience.journeyOrchestration.stepEvents.stepStatus AS step_status,
+  _experience.journeyOrchestration.stepEvents.actionExecutionError AS action_execution_error,
+  _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode AS action_execution_error_code
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
+AND _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction'
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profile-id>'
+AND _experience.journeyOrchestration.stepEvents.nodeName = '<node-name>'
+ORDER BY timestamp DESC;
+```
+
+>[!NOTE]
+>
+>Esta consulta tem como escopo um único perfil e nó de jornada. Sem os filtros `profileID` e `nodeName`, a consulta pode retornar um grande número de linhas, especialmente para jornadas de alto volume ou jornadas que contêm vários nós de ação personalizados.
+
+Essa consulta informa os detalhes da execução somente no lado do Journey Optimizer. Um resultado bem-sucedido não confirma se o sistema externo enviou uma mensagem — verifique os logs do serviço externo ou os relatórios para obter o status do delivery downstream. Saiba como [escolher o conjunto de dados correto](../data/datasets-query-examples.md#choose-the-correct-dataset) para enviar comentários sobre mensagens.
 
 **Jornada análise do funnel**
 

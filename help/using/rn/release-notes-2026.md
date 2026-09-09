@@ -12,9 +12,9 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 46c5cd55be9469c8484fe96296f8a7b42ae6e0eb
 workflow-type: tm+mt
-source-wordcount: 12662
+source-wordcount: 12672
 ht-degree: 99%
 
 ---
@@ -545,15 +545,7 @@ Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúd
 
 ### Canal de email {#june-26-email}
 
-As seguintes melhorias foram adicionadas ao canal de email nesta versão.
-
-* **Criptografia de parâmetros de URL**: agora é possível criptografar parâmetros de URL em links de páginas de destino e rastreamento adicionados às suas mensagens de email. Isso fornece uma camada adicional de segurança para dados de parâmetros confidenciais. Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral). [Leia mais](../personalization/url-parameter-encryption.md)
-
-  Data de disponibilidade: 1º de junho de 2026
-
-* **Novas permissões para o registro de chaves**: agora são necessárias duas novas permissões para acessar e gerenciar as chaves necessárias para a criptografia de parâmetros de URL: **Gerenciar registro de chaves** e **Exibir registro de chaves**. [Leia mais](../administration/high-low-permissions.md#administration-permissions)
-
-  Data de disponibilidade: 1º de junho de 2026
+Os recursos a seguir foram adicionados ao canal de email nesta versão.
 
 <table>
 <thead>
@@ -700,6 +692,18 @@ As melhorias a seguir foram adicionadas aos relatórios nesta versão.
   * **CTOR estimado** (taxa de cliques para abrir): calculado como cliques estimados em relação ao número total de aberturas estimadas.
 
   Data de disponibilidade: 25 de junho de 2026
+
+### Configuração {#june-26-configuration}
+
+As seguintes melhorias de configuração estão chegando nesta versão.
+
+* **Criptografia de parâmetros de URL**: agora é possível criptografar parâmetros de URL em links de páginas de destino e rastreamento adicionados às suas mensagens de email. Isso fornece uma camada adicional de segurança para dados de parâmetros confidenciais. Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral). [Leia mais](../personalization/url-parameter-encryption.md)
+
+  Data de disponibilidade: 1º de junho de 2026
+
+* **Novas permissões para o registro de chaves**: agora são necessárias duas novas permissões para acessar e gerenciar as chaves necessárias para a criptografia de parâmetros de URL: **Gerenciar registro de chaves** e **Exibir registro de chaves**. [Leia mais](../administration/high-low-permissions.md#administration-permissions)
+
+  Data de disponibilidade: 1º de junho de 2026
 
 ### Administração {#june-26-administration}
 

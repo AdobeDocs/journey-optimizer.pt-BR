@@ -29,9 +29,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+source-git-commit: fc3e9b6415e3d411005e83a4f5a617038b5c6817
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: 482
 ht-degree: 15%
 
 ---
@@ -72,10 +72,6 @@ Através da atividade **Otimizar**, você pode executar as seguintes ações nos
 * [Executar experimentos de caminho](path-experimentation.md) - Teste caminhos diferentes com base em divisões aleatórias para determinar qual tem o melhor desempenho de acordo com as métricas de sucesso predefinidas (por exemplo: taxa de conversão, receita, envolvimento).
 
 * [Aproveite as regras de direcionamento](path-targeting.md) - Defina regras específicas que devem ser atendidas para que um cliente seja qualificado para inserir um dos caminhos de jornada, com base em segmentos de público-alvo, atributos de perfil ou dados contextuais. Isso garante que o público-alvo correto entre no caminho especificado.
-
-  >[!AVAILABILITY]
-  >
-  >No momento, esse recurso está com a Disponibilidade limitada. Para solicitar acesso, entre em contato com o representante da Adobe.
 
 * [Aplicar condições](conditions.md) - Crie caminhos condicionais com base em critérios específicos, como fontes de dados, hora, data, divisões de porcentagem ou limites de perfil. É equivalente à antiga atividade de Condição.
 

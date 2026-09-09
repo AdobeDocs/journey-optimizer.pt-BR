@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 2321
-ht-degree: 11%
+source-wordcount: 2385
+ht-degree: 10%
 
 ---
 
@@ -159,6 +159,10 @@ Se as pessoas físicas continuarem percorrendo o caminho certo na jornada, mas n
 * [!DNL Journey Optimizer] enviou a mensagem com êxito. Verifique os relatórios do jornada para garantir que não haja erros.
 
 No caso de uma mensagem enviada por meio de uma ação personalizada, a única coisa que pode ser verificada durante o teste de jornada é o fato de a chamada do sistema da ação personalizada causar ou não um erro. Se a chamada para o sistema externo associada à ação personalizada não causar um erro, mas não enviar a mensagem, algumas investigações devem ser feitas por parte do sistema externo.
+
+>[!NOTE]
+>
+>Para ações de canal nativas do Journey Optimizer, consulte o Conjunto de Dados de Eventos de Feedback de Mensagens para confirmar o status de entrega, como `sent` ou `bounce`. Para ações personalizadas, consulte o conjunto de dados Evento de etapa de Jornada para confirmar se o Journey Optimizer executou a ação com êxito. Uma chamada HTTP bem-sucedida não confirma, por si só, se o sistema externo enviou uma mensagem. Saiba como [escolher o conjunto de dados correto](../data/datasets-query-examples.md#choose-the-correct-dataset) para seu caso de uso.
 
 ## Noções básicas de entradas duplicadas em eventos de etapa de Jornada {#duplicate-step-events}
 

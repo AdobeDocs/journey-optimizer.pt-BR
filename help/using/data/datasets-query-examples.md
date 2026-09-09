@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 1152
-ht-degree: 2%
+source-wordcount: 1780
+ht-degree: 1%
 
 ---
 
@@ -56,6 +56,29 @@ Para exibir a lista completa de campos e atributos de cada esquema, consulte o [
 
 Consulte também vários [exemplos usados com frequência para consultar Eventos de Etapa de Jornada](../reports/query-examples.md).
 
+## Escolha o conjunto de dados correto {#choose-the-correct-dataset}
+
+Antes de executar uma consulta, confirme qual conjunto de dados corresponde ao tipo de ação que você deseja analisar na jornada.
+
+1. Para verificar os comentários de entrega de mensagens para ações de canal nativas do Journey Optimizer (como `sent` ou `bounce` status), use o [Conjunto de Dados de Eventos de Comentários de Mensagens](#message-feedback-event-dataset).
+1. Para verificar eventos de interação de email, como aberturas e cliques, use o [Conjunto de Dados de Eventos de Experiência de Rastreamento de Email](#email-tracking-experience-event-dataset).
+1. Para verificar se o Journey Optimizer executou uma ação personalizada e inspecionar o status da execução, a latência e os detalhes do erro, use o conjunto de dados [Evento de etapa de Jornada](#journey-step-event).
+
+>[!NOTE]
+>
+>Uma chamada HTTP de ação personalizada bem-sucedida confirma apenas que a chamada foi concluída. Ele não confirma se o sistema externo entregou uma mensagem. Para confirmar o delivery downstream, verifique os registros ou relatórios do sistema externo. Saiba como [solucionar problemas de execução do Live jornada](../building-journeys/troubleshooting-execution.md#checking-that-messages-are-sent-successfully).
+
+### Se uma consulta retornar &quot;Tabela não provisionada para o conjunto de dados&quot; {#table-not-provisioned}
+
+Essa mensagem não significa necessariamente que o conjunto de dados falhou no provisionamento. Antes de entrar em contato com o suporte da Adobe, verifique o seguinte:
+
+1. No espaço de trabalho Conjuntos de dados, habilite **Mostrar conjuntos de dados do sistema**. Os conjuntos de dados gerados pelo sistema ficam ocultos por padrão. Saiba como [acessar conjuntos de dados](get-started-datasets.md#access).
+1. Confirme se o nome exato da tabela usado na consulta corresponde ao nome da tabela mostrado no espaço de trabalho Conjuntos de dados para sua sandbox.
+1. Confirme se o tipo de ação de jornada corresponde ao conjunto de dados que você está consultando. Consulte [Escolher o conjunto de dados correto](#choose-the-correct-dataset).
+1. Para conjuntos de dados que usam assimilação em lote, como o Conjunto de dados do evento de feedback da mensagem, aguarde até duas horas para que os dados fiquem disponíveis.
+1. Para ações personalizadas, consulte o conjunto de dados [Evento de etapa de Jornada](#journey-step-event), em vez de esperar um registro de Evento de feedback de mensagem para a entrega externa.
+
+Se o conjunto de dados precisar conter dados e a tabela permanecer indisponível, colete o nome da sandbox, o nome do conjunto de dados, a ID da consulta e o carimbo de data e hora antes de entrar em contato com o Suporte da Adobe.
 
 ## Conjunto de dados de evento de experiência de rastreamento de email{#email-tracking-experience-event-dataset}
 
@@ -101,13 +124,55 @@ limit 100;
 
 _Nome na interface: Conjunto de Dados de Eventos de Feedback de Mensagens do AJO_
 
-Conjunto de dados para assimilar eventos de feedback de aplicativos de email e por push do Journey Optimizer.
+O Conjunto de dados do evento de feedback de mensagem do AJO armazena o feedback do delivery de mensagens gerado pelo Adobe Journey Optimizer. Ele oferece suporte à análise de feedback de entrega em canais de mensagem, incluindo email, SMS/RCS/MMS e correspondência direta. Os eventos de feedback podem ser usados para relatórios e casos de uso de criação de público-alvo.
 
 O esquema relacionado é o Esquema de evento de feedback de mensagem do AJO.
 
 >[!NOTE]
 >
 >Esse conjunto de dados usa assimilação em lote. Espere uma latência de dados de até 2 horas ao consultar esse conjunto de dados ou usá-lo para fins de relatório.
+
+Para obter a lista completa de campos, caminhos de campos, tipos de dados e descrições, consulte a [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"}.
+
+>[!NOTE]
+>
+>Não há garantia de que os campos de contexto específicos do canal sejam preenchidos em todos os eventos de feedback de mensagem. A disponibilidade de campo pode depender do canal, da carga de feedback do provedor, do tipo de evento e da fase de delivery. Use os identificadores de execução da mensagem, o status de feedback, os detalhes da falha, o carimbo de data e hora e as informações de identidade como os campos de correlação principais.
+
+### Classificar execuções de teste e não teste{#classify-test-executions}
+
+Use o campo `isTestExecution` para distinguir execuções de teste de execuções que não são de teste quando o campo é preenchido.
+
+Antes de criar uma consulta, use a [Referência de esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"} para confirmar o caminho do campo atual, o tipo de dados e a descrição do Esquema de evento de feedback de mensagem do AJO.
+
+Interprete os valores preenchidos da seguinte maneira:
+
+| Valor | Interpretação |
+| ------- | ------- |
+| `true` | A mensagem fazia parte de uma execução de teste. |
+| `false` | A mensagem não fazia parte de uma execução de teste. |
+| `NULL` ou ausente | Nenhum valor foi registrado para o campo. Trate como desconhecido, a menos que um mapeamento específico de canal e tempo tenha sido validado. |
+
+Não converta automaticamente `NULL` em `false` e não presuma que cada valor nulo representa uma execução de produção. Se uma implementação de relatórios tiver validado que os valores nulos representam registros que não são de teste para um canal específico ou período histórico, aplique esse mapeamento em uma exibição de relatório downstream e documente a regra explicitamente.
+
+Alguns registros históricos ou específicos do canal podem não preencher todos os campos de contexto de mensagem. Portanto, você deve testar a disponibilidade de campo por canal e preservar nulos, em vez de tratá-los como cadeias de caracteres vazias ou valores inferidos.
+
+Execute esta consulta somente após confirmar o caminho `isTestExecution` na [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"}:
+
+```sql
+SELECT
+  _experience.customerJourneyManagement.messageProfile.isTestExecution AS isTestExecution,
+  _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus AS feedbackStatus,
+  COUNT(*) AS eventCount
+FROM ajo_message_feedback_event_dataset
+GROUP BY
+  _experience.customerJourneyManagement.messageProfile.isTestExecution,
+  _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+ORDER BY
+  isTestExecution,
+  feedbackStatus;
+```
+
+Essa consulta agrupa registros de feedback de mensagem por indicador de execução de teste e status de feedback de delivery. O resultado preserva valores `isTestExecution` nulos ou ausentes para que registros sem um valor de execução de teste registrado possam ser revisados separadamente.
 
 Esta consulta mostra as contagens de diferentes status de feedback por email (enviado, rejeitado, etc.) para uma determinada mensagem:
 
