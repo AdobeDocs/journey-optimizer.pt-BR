@@ -8,13 +8,11 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 64ad1a5b9d6a505e067cac23a71079fa7611b842
 workflow-type: tm+mt
-source-wordcount: 4199
+source-wordcount: 4194
 ht-degree: 5%
 
 ---
@@ -45,14 +43,14 @@ O CX Co-worker oferece várias habilidades para gerenciar Jornadas e desafios de
 **Recursos de IA com foco em fidelidade:**
 
 * **Gerenciamento de Desafio de Fidelidade**: crie e gerencie desafios de fidelidade usando prompts de linguagem natural
-* **Agente de Fidelidade - Habilidade do Data Insight**: consulte e analise dados de desempenho do programa de fidelidade usando linguagem natural
+* **Habilidade do Loyalty Insights**: consulte e analise dados de desempenho do programa de fidelidade usando linguagem natural
 
 O CX Co-worker também inclui um conjunto de **ferramentas de MCP para gerenciamento de conteúdo**, para descobrir, criar e gerenciar modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha do jornada/campanha. [Saiba mais](#content-management)
 
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -432,9 +430,9 @@ As seguintes funcionalidades não são compatíveis no momento:
 1. **Declarar a recompensa**: pontos, milhas, créditos de demonstrativo, extensões de status, vouchers ou vantagens concedidas na conclusão.
 1. **Referenciar o evento de qualificação**: aponte para a SKU, o produto, a ação da conta ou o evento de envolvimento específico que o desafio rastreia.
 
-### Agente de fidelidade - Data Insight {#loyalty-data-insight}
+### Habilidade do Loyalty Insights {#loyalty-data-insight}
 
-Agente de fidelidade - A Data Insight Skill permite que os usuários do Journey Optimizer analisem e consultem dados de desempenho do programa de fidelidade usando linguagem natural. Essa habilidade fornece insights sobre pontos de fidelidade, camadas de membros, resgates e métricas de receita, permitindo que administradores e analistas de fidelidade tomem decisões orientadas por dados sobre seus programas de fidelidade.
+A habilidade do Loyalty Insights permite que os usuários do Journey Optimizer analisem e consultem dados de desempenho do programa de fidelidade usando linguagem natural. Essa habilidade fornece insights sobre pontos de fidelidade, camadas de membros, resgates e métricas de receita, permitindo que administradores e analistas de fidelidade tomem decisões orientadas por dados sobre seus programas de fidelidade.
 
 Principais casos de uso:
 
@@ -646,6 +644,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
