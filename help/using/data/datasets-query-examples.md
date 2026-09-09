@@ -10,27 +10,15 @@ level: Experienced
 keywords: conjunto de dados, otimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: b5a925fd54bdb6c7f4aa34afffd943ac47c5ce46
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 1498
-ht-degree: 2%
+source-wordcount: 1780
+ht-degree: 1%
 
 ---
 
@@ -56,6 +44,29 @@ Para exibir a lista completa de campos e atributos de cada esquema, consulte o [
 
 Consulte também vários [exemplos usados com frequência para consultar Eventos de Etapa de Jornada](../reports/query-examples.md).
 
+## Escolha o conjunto de dados correto {#choose-the-correct-dataset}
+
+Antes de executar uma consulta, confirme qual conjunto de dados corresponde ao tipo de ação que você deseja analisar na jornada.
+
+1. Para verificar os comentários de entrega de mensagens para ações de canal nativas do Journey Optimizer (como `sent` ou `bounce` status), use o [Conjunto de Dados de Eventos de Comentários de Mensagens](#message-feedback-event-dataset).
+1. Para verificar eventos de interação de email, como aberturas e cliques, use o [Conjunto de Dados de Eventos de Experiência de Rastreamento de Email](#email-tracking-experience-event-dataset).
+1. Para verificar se o Journey Optimizer executou uma ação personalizada e inspecionar o status da execução, a latência e os detalhes do erro, use o conjunto de dados [Evento de etapa de Jornada](#journey-step-event).
+
+>[!NOTE]
+>
+>Uma chamada HTTP de ação personalizada bem-sucedida confirma apenas que a chamada foi concluída. Ele não confirma se o sistema externo entregou uma mensagem. Para confirmar o delivery downstream, verifique os registros ou relatórios do sistema externo. Saiba como [solucionar problemas de execução do Live jornada](../building-journeys/troubleshooting-execution.md#checking-that-messages-are-sent-successfully).
+
+### Se uma consulta retornar &quot;Tabela não provisionada para o conjunto de dados&quot; {#table-not-provisioned}
+
+Essa mensagem não significa necessariamente que o conjunto de dados falhou no provisionamento. Antes de entrar em contato com o suporte da Adobe, verifique o seguinte:
+
+1. No espaço de trabalho Conjuntos de dados, habilite **Mostrar conjuntos de dados do sistema**. Os conjuntos de dados gerados pelo sistema ficam ocultos por padrão. Saiba como [acessar conjuntos de dados](get-started-datasets.md#access).
+1. Confirme se o nome exato da tabela usado na consulta corresponde ao nome da tabela mostrado no espaço de trabalho Conjuntos de dados para sua sandbox.
+1. Confirme se o tipo de ação de jornada corresponde ao conjunto de dados que você está consultando. Consulte [Escolher o conjunto de dados correto](#choose-the-correct-dataset).
+1. Para conjuntos de dados que usam assimilação em lote, como o Conjunto de dados do evento de feedback da mensagem, aguarde até duas horas para que os dados fiquem disponíveis.
+1. Para ações personalizadas, consulte o conjunto de dados [Evento de etapa de Jornada](#journey-step-event), em vez de esperar um registro de Evento de feedback de mensagem para a entrega externa.
+
+Se o conjunto de dados precisar conter dados e a tabela permanecer indisponível, colete o nome da sandbox, o nome do conjunto de dados, a ID da consulta e o carimbo de data e hora antes de entrar em contato com o Suporte da Adobe.
 
 ## Conjunto de dados de evento de experiência de rastreamento de email{#email-tracking-experience-event-dataset}
 
@@ -109,7 +120,7 @@ O esquema relacionado é o Esquema de evento de feedback de mensagem do AJO.
 >
 >Esse conjunto de dados usa assimilação em lote. Espere uma latência de dados de até 2 horas ao consultar esse conjunto de dados ou usá-lo para fins de relatório.
 
-Para obter a lista completa de campos, caminhos de campos, tipos de dados e descrições, consulte a [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"}.
+Para obter a lista completa de campos, caminhos de campos, tipos de dados e descrições, consulte a [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}.
 
 >[!NOTE]
 >
@@ -119,7 +130,7 @@ Para obter a lista completa de campos, caminhos de campos, tipos de dados e desc
 
 Use o campo `isTestExecution` para distinguir execuções de teste de execuções que não são de teste quando o campo é preenchido.
 
-Antes de criar uma consulta, use a [Referência de esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"} para confirmar o caminho do campo atual, o tipo de dados e a descrição do Esquema de evento de feedback de mensagem do AJO.
+Antes de criar uma consulta, use a [Referência de esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"} para confirmar o caminho do campo atual, o tipo de dados e a descrição do Esquema de evento de feedback de mensagem do AJO.
 
 Interprete os valores preenchidos da seguinte maneira:
 
@@ -133,7 +144,7 @@ Não converta automaticamente `NULL` em `false` e não presuma que cada valor nu
 
 Alguns registros históricos ou específicos do canal podem não preencher todos os campos de contexto de mensagem. Portanto, você deve testar a disponibilidade de campo por canal e preservar nulos, em vez de tratá-los como cadeias de caracteres vazias ou valores inferidos.
 
-Execute esta consulta somente após confirmar o caminho `isTestExecution` na [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"}:
+Execute esta consulta somente após confirmar o caminho `isTestExecution` na [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}:
 
 ```sql
 SELECT
