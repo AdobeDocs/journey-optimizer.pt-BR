@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b364427cbb6cc0c463c1d14bff2dc6e042830b86
 workflow-type: tm+mt
 source-wordcount: 2888
 ht-degree: 13%
@@ -201,7 +201,7 @@ Para definir regras de limite para o item de decisão, siga as etapas detalhadas
      >
      >Só há suporte para o limite de **Posicionamento específico** para os canais **Web** e **Email**. Não está disponível para os canais de experiência baseada em código, SMS, Push ou Correspondência direta.
 
-     Clique em **[!UICONTROL Selecionar disposições]** para escolher quais disposições limitar. Outros posicionamentos passam por uncapped. Por exemplo, se você selecionar a disposição Banner de herói com um limite de 3 impressões por dia, a oferta para de aparecer no Banner de herói após 3 impressões, mas permanece elegível em todas as outras disposições.
+     Clique em **[!UICONTROL Selecionar posicionamento]** para escolher qual posicionamento limitar. Outros posicionamentos passam por uncapped. Por exemplo, se você selecionar a disposição Banner de herói com um limite de 3 impressões por dia, a oferta para de aparecer no Banner de herói após 3 impressões, mas permanece elegível em todas as outras disposições.
 
      ![Escopo de limite de posicionamento específico selecionado, mostrando o botão Selecionar posicionamentos e as marcas de posicionamento selecionadas](assets/item-capping-scope-specific.png){width="75%"}
 
