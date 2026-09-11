@@ -7,15 +7,12 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: c8585d3a3d3d9f1c1f13cb52dbc1dfc62bb52468
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: d6216ad8546cbbfbccb66104fe61ff6f86a1e68e
 workflow-type: tm+mt
-source-wordcount: 1958
+source-wordcount: 1928
 ht-degree: 19%
 
 ---
@@ -340,7 +337,6 @@ Os seguintes recursos e melhorias estão chegando ao Designer de email nesta ver
 <tr>
 <td>
 <p>Os temas de email agora oferecem suporte ao estilo independente para o modo escuro. No construtor de temas, é possível ativar o modo escuro para uma determinada variante a fim de gerar uma folha de estilos dedicada do modo escuro que você edita separadamente dos estilos do modo claro. As alterações feitas em um modo não substituem mais o outro. No editor de email e modelo, um novo botão de visualização ao lado das opções de exibição para dispositivos móveis e desktop permite que você visualize o conteúdo no modo escuro.</p>
-<p>Como essa visualização no editor depende de um filtro CSS e não é perfeita para pixels, recomendamos enviar uma prova para verificar a renderização exata em clientes de email habilitados para o modo escuro.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
