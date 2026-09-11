@@ -8,26 +8,16 @@ level: Beginner, Intermediate
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2edcde02104eb5f8b5854b3f1f81c737f4dab551
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 7047a27a870c50f7a093ec7d98d8398948b78edb
 workflow-type: tm+mt
-source-wordcount: 2515
-ht-degree: 77%
+source-wordcount: 2640
+ht-degree: 73%
 
 ---
 
@@ -345,6 +335,16 @@ As seguintes funcionalidades e melhorias foram introduzidas nas Campanhas orques
 * **Mirror pages em fragmentos visuais**: agora é possível inserir mirror pages em um fragmento visual. Os atributos de decisão são renderizados corretamente no link da mirror page, mesmo quando o fragmento é usado em uma campanha de email que usa a Decisão. A mirror page deve ser adicionada ao fragmento visual antes de o fragmento ser publicado para que os atributos de decisão sejam exibidos. [Saiba mais](../email/message-tracking.md#decisioning-mirror-page)
 
   Data de disponibilidade: 11 de agosto de 2026
+
+### Designer de email {#august-26-email-designer}
+
+* **Aumentar contagens de colunas sem perder conteúdo no Designer de Email** - Agora é possível aumentar a contagem de colunas de uma estrutura existente — por exemplo, de 2 colunas para 3 — sem excluí-la e perder seu conteúdo. [Saiba mais](../email/content-from-scratch.md)
+
+  Data de disponibilidade: 5 de agosto de 2026
+
+* **Mais opções de posicionamento de imagem de plano de fundo no Email Designer** - Quatro novas opções de posicionamento de imagem estão disponíveis para imagens de plano de fundo: Largura total - Superior, Largura total - Inferior, Altura total - Esquerda e Altura total - Direita. Cada uma dimensiona a imagem proporcionalmente ao longo de um eixo, como as opções existentes de Largura total e Altura total, mas a ancora em uma borda específica em vez de centralizá-la, fornecendo mais controle sobre qual parte de uma imagem principal permanece na exibição. [Saiba mais](../email/backgrounds.md)
+
+  Data de disponibilidade: 4 de agosto de 2026
 
 ### Melhorias de usabilidade {#august-26-usability}
 
