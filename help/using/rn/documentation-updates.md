@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 0806391d9d5715d6ccb87dd78c432faa7b6f7a37
+source-git-commit: 096708dff514b6c8d099f48533ed81597a6e3510
 workflow-type: tm+mt
-source-wordcount: 11156
-ht-degree: 91%
+source-wordcount: 11249
+ht-degree: 90%
 
 ---
 
@@ -27,15 +27,17 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 ## Setembro de 2026 {#september-2026}
 
-* A documentação de atividade **Otimizar** não sinaliza mais o método **Regra de direcionamento** como Disponibilidade limitada: as regras de direcionamento agora estão disponíveis de modo geral. [Leia mais](../building-journeys/optimize.md#optimization-methods)
+* A página **Personalizar sua tela de fundo de email** foi expandida e aprimorada. Agora, ela documenta a lista suspensa **Posicionamento da imagem** para imagens de plano de fundo e adiciona novas práticas recomendadas para cores e imagens de plano de fundo, incluindo uma recomendação para testar imagens de plano de fundo em clientes de email reais, em vez de depender exclusivamente da visualização do Designer de email. [Leia mais](../email/backgrounds.md)
+
+* O conteúdo **Design do zero com a página Email Designer** foi reorganizado e esclarecido: ele distingue a estrutura da **[!UICONTROL n:n coluna]** das estruturas de predefinição fixa, documenta que a contagem de colunas de uma estrutura pode ser aumentada sem perder conteúdo existente, explica o comportamento de empilhamento de colunas em dispositivos móveis e adiciona uma nova etapa no uso de **[!UICONTROL Módulos]** para a criação de emails de início rápido. [Leia mais](../email/content-from-scratch.md)
 
 * A página **Criar sua jornada** agora inclui uma seção de tutorial completa sobre a nova experiência da tela, que aborda como adicionar atividades, usar os ícones da barra de ferramentas, selecionar várias atividades para ações em massa, copiar e colar atividades e ingressar ou desanexar ramificações. [Leia mais](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
 * Novas orientações foram adicionadas para verificar a entrega de ação personalizada: a página **Exemplos de consulta de conjunto de dados** agora explica como escolher entre os conjuntos de dados de Evento de feedback de mensagem, Rastreamento de email e Evento de etapa de Jornada, dependendo do tipo de ação, e documenta como resolver um erro &quot;Tabela não provisionada para conjunto de dados&quot;. As páginas **Visão geral dos eventos de etapa da Jornada** e **Solução de problemas de execução da jornada em tempo real** foram atualizadas de acordo, esclarecendo que uma chamada de ação personalizada bem-sucedida apenas confirma que o Journey Optimizer executou a ação, não que o sistema externo tenha entregue uma mensagem. [Leia mais](../data/datasets-query-examples.md#choose-the-correct-dataset)
 
-* Uma nova habilidade **Analisar anomalias de Jornada** foi documentada em **Analisar Jornada** na página CX Co-worker. Ele detecta picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de uma jornada em relação às linhas de base históricas e executa diagnósticos somente leitura para mostrar uma causa raiz provável. [Leia mais](../start/ajo-coworker-skills.md#journey-analyze)
+* Uma nova habilidade **Analisar anomalias de Jornada** foi documentada em **Analisar Jornada** na página do CX Coworker. Ele detecta picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de uma jornada em relação às linhas de base históricas e executa diagnósticos somente leitura para mostrar uma causa raiz provável. [Leia mais](../start/ajo-coworker-skills.md#journey-analyze)
 
-* A página **Medidas de proteção e limitações** foi corrigida para remover notas desatualizadas informando que fragmentos visuais com mais de 100 KB ou fragmentos de expressão com mais de 200 KB podem causar problemas de truncamento na entrega de email: somente a única medida de proteção de tamanho de fragmento de 700 KB se aplica. [Leia mais](../start/guardrails.md#fragments-guardrails)
+* A página **Medidas de proteção e limitações** foi corrigida para refletir o fato de que fragmentos visuais com mais de 100 KB ou fragmentos de expressão com mais de 200 KB não podem mais causar problemas de truncamento na entrega de email: agora uma única medida de proteção de tamanho de fragmento de 700 KB é aplicada. [Leia mais](../start/guardrails.md#fragments-guardrails)
 
 * A página **Criar uma atividade ao vivo** foi corrigida: o campo `executionMetadata` está disponível somente para campanhas **Transacionais acionadas por API**, não para campanhas de Marketing acionadas por API, conforme declarado anteriormente. [Leia mais](../mobile-live/create-mobile-live.md#metadata)
 

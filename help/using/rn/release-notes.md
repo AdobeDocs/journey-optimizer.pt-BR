@@ -24,10 +24,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2edcde02104eb5f8b5854b3f1f81c737f4dab551
+source-git-commit: 7047a27a870c50f7a093ec7d98d8398948b78edb
 workflow-type: tm+mt
-source-wordcount: 2515
-ht-degree: 77%
+source-wordcount: 2640
+ht-degree: 73%
 
 ---
 
@@ -345,6 +345,16 @@ As seguintes funcionalidades e melhorias foram introduzidas nas Campanhas orques
 * **Mirror pages em fragmentos visuais**: agora é possível inserir mirror pages em um fragmento visual. Os atributos de decisão são renderizados corretamente no link da mirror page, mesmo quando o fragmento é usado em uma campanha de email que usa a Decisão. A mirror page deve ser adicionada ao fragmento visual antes de o fragmento ser publicado para que os atributos de decisão sejam exibidos. [Saiba mais](../email/message-tracking.md#decisioning-mirror-page)
 
   Data de disponibilidade: 11 de agosto de 2026
+
+### Designer de email {#august-26-email-designer}
+
+* **Aumentar contagens de colunas sem perder conteúdo no Designer de Email** - Agora é possível aumentar a contagem de colunas de uma estrutura existente — por exemplo, de 2 colunas para 3 — sem excluí-la e perder seu conteúdo. [Saiba mais](../email/content-from-scratch.md)
+
+  Data de disponibilidade: 5 de agosto de 2026
+
+* **Mais opções de posicionamento de imagem de plano de fundo no Email Designer** - Quatro novas opções de posicionamento de imagem estão disponíveis para imagens de plano de fundo: Largura total - Superior, Largura total - Inferior, Altura total - Esquerda e Altura total - Direita. Cada uma dimensiona a imagem proporcionalmente ao longo de um eixo, como as opções existentes de Largura total e Altura total, mas a ancora em uma borda específica em vez de centralizá-la, fornecendo mais controle sobre qual parte de uma imagem principal permanece na exibição. [Saiba mais](../email/backgrounds.md)
+
+  Data de disponibilidade: 4 de agosto de 2026
 
 ### Melhorias de usabilidade {#august-26-usability}
 
