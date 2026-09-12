@@ -7,16 +7,13 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: aa78a57052c98d28eed2000a475719ff6af46de6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: 18306a37e360f359712c51b3755d2f5739bfc6f8
 workflow-type: tm+mt
-source-wordcount: 2747
-ht-degree: 12%
+source-wordcount: 2943
+ht-degree: 11%
 
 ---
 
@@ -183,6 +180,8 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 * **Comparar versões do jornada com o CX Coworker** - Hoje, examinar o que foi alterado entre duas versões de uma jornada requer compará-lo manualmente dentro do nó do Journey Optimizer por nó. Não há diferença estruturada, o que torna as verificações de revisão de alteração, auditoria e pré-publicação lentas e propensas a erros, especialmente quando o jornada se torna mais complexo. Esse recurso permite que um cliente ou agente de IA compare duas versões de uma jornada por meio do CX Coworker Chat e obtenha de volta uma comparação completa e **estruturada** - nós adicionados/removidos/modificados/movidos com detalhes em nível de campo, conexões alteradas, alterações de propriedade em nível de jornada e contagens acumuladas - sem abrir o Journey Optimizer. <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">DOCAC-15297</a> <!-- Documentation link: TBD -->
 
 * **Visualização de conteúdo na tela do jornada** - A revisão de conteúdo do canal hoje requer a abertura de cada nó individualmente, um de cada vez - lento e sujeito a erros no jornada com muitos nós de canal, especialmente quando a personalização significa a verificação de vários tratamentos ou variantes por nó. A **visualização de conteúdo** remove esse atrito ao exibir uma miniatura de conteúdo para cada nó de canal diretamente na tela, com um modal de tela cheia para inspecionar e alternar entre tratamentos e variantes. <a href="https://jira.corp.adobe.com/browse/DOCAC-15456" target="_blank">DOCAC-15456</a> <!-- Documentation link: TBD -->
+
+* **Alerta de Nova Anomalia de Jornada Detectada** - Um novo alerta do sistema agora avisa quando o tráfego diário de uma jornada em tempo real se desvia de sua própria linha de base histórica ou cai para zero inesperadamente, entre Entradas de Jornada, Saídas de Jornada e Envios de evento. Este alerta está disponível atualmente somente em sandboxes de produção. <a href="https://jira.corp.adobe.com/browse/DOCAC-15545" target="_blank">DOCAC-15545</a> <!-- Documentation link: TBD -->
 
 ### Canais {#sep-26-channels}
 
@@ -445,6 +444,14 @@ O recurso a seguir está chegando aos relatórios nesta versão.
 </tr>
 </tbody>
 </table>
+
+### Administração {#sep-26-administration}
+
+O lembrete a seguir se aplica à administração nesta versão.
+
+* **Garantia de vida útil do conjunto de dados (TTL) — sandboxes existentes** - A proteção de vida útil (TTL) para conjuntos de dados gerados pelo sistema da Journey Optimizer (90 dias no repositório de perfis, 13 meses no data lake) será aplicada às sandboxes e organizações do cliente existentes a partir de 1º de outubro de 2026. <a href="https://jira.corp.adobe.com/browse/DOCAC-15239" target="_blank">DOCAC-15239</a> <!-- Documentation link: TBD -->
+
+* **Futura alteração para públicos-alvo de enriquecimento da Composição de Público-Alvo** - Durante a versão de outubro (fim de outubro), o Journey Optimizer interromperá as jornadas que usam ou fazem referência a um público-alvo de Composição de Público-Alvo cujo conjunto de dados de origem não tem um **descritor de identidade principal**. A partir desse ponto, somente os públicos-alvo de Composição de público-alvo criados com um descritor de identidade principal são compatíveis com o jornada. Se você precisar que essas jornadas permaneçam ativas, entre em contato com o representante da Adobe — nossa equipe de produtos pode ajudá-lo a migrar. <a href="https://jira.corp.adobe.com/browse/DOCAC-15690" target="_blank">DOCAC-15690</a> <!-- Documentation link: TBD -->
 
 ### Melhorias de usabilidade {#sep-26-usability}
 
