@@ -6,11 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 badge: label="Disponibilidade limitada" type="Informative"
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 1006
 ht-degree: 15%
@@ -232,3 +230,5 @@ The editor supports a **[!UICONTROL Strict JSON]** toggle:
 
 * **De uma jornada** - Clique em **[!UICONTROL Publicar]** na área superior direita. A jornada entra em vigor e começa a chamar seu endpoint externo para perfis qualificados. Saiba mais sobre [publicação de jornadas](../building-journeys/journey-gs.md#publish-journey).
 * **De uma campanha** - Clique em **[!UICONTROL Revisar para ativar]**, revise suas configurações e clique em **[!UICONTROL Ativar]**. A campanha assume o status **[!UICONTROL Online]** (ou **[!UICONTROL Agendada]** se uma data de início futura tiver sido definida). Saiba mais sobre [como ativar campanhas](../campaigns/create-campaign.md#review-activate).
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-create-custom-experience.md}}

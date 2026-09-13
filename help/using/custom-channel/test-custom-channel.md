@@ -5,11 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 859
 ht-degree: 2%
@@ -136,3 +134,5 @@ Antes de ativar sua jornada ou campanha, confirme o seguinte:
 * Os caminhos de erro na atividade de ação de jornada (se configurados) tratam dos cenários de falha conforme esperado.
 
 Após a conclusão dos testes, prossiga para a ativação. [Saiba como](create-custom-experience.md#activate)
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-test-custom-channel.md}}
