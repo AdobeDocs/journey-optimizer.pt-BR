@@ -11,27 +11,16 @@ keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
 workflow-type: tm+mt
-source-wordcount: 5676
-ht-degree: 10%
+source-wordcount: 4644
+ht-degree: 13%
 
 ---
 
@@ -475,7 +464,7 @@ A seção **[!UICONTROL Gerenciamento de conflitos]** nas propriedades da jornad
 
 * **Exibir conflitos** com outras jornadas, campanhas ou configurações de canal. Se você quiser identificar sobreposição no público-alvo, data de início e término, configuração de canal, canal ou conjunto de regras, é possível visualizar os possíveis conflitos aqui. [Saiba como identificar possíveis conflitos no jornada](../conflict-prioritization/conflicts.md)
 
-## Medir aumento de jornada com um grupo de controle {#performance-management}
+## Medir aumento de jornada com um grupo de resistência {#performance-management}
 
 >[!AVAILABILITY]
 >
@@ -484,7 +473,7 @@ A seção **[!UICONTROL Gerenciamento de conflitos]** nas propriedades da jornad
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_performance_measurement"
 >title="Medição de desempenho"
->abstract="Configure um grupo de controle no nível da jornada para medir a eficácia incremental da jornada. Selecione uma métrica de sucesso e defina uma porcentagem de controle para impedir que essa parte do público-alvo entre na jornada. Os perfis excluídos são rastreados por meio de eventos de exclusão e podem ser comparados com perfis ativos nos relatórios do Customer Journey Analytics para medir o aumento."
+>abstract="Configure um grupo de resistência no nível da jornada para medir a eficácia incremental da jornada. Selecione uma métrica de sucesso e defina uma porcentagem de resistência para impedir que essa parte do público-alvo entre na jornada. Os perfis excluídos são rastreados por meio de eventos de exclusão e podem ser comparados com perfis ativos nos relatórios do Customer Journey Analytics para medir o aumento."
 
 A seção **[!UICONTROL Medição de desempenho]** nas propriedades da jornada permite configurar um **grupo de controle no nível da jornada** para medir a eficácia incremental da jornada.
 
@@ -545,94 +534,4 @@ Esses conceitos são separados. O **[tempo limite global de jornada](#global_tim
 * [Gerenciamento de fuso horário](timezone-management.md) - Configurar fusos horários de jornada e perfil
 * [Gerenciamento e priorização de conflitos](../conflict-prioritization/conflicts.md) - Identifique e resolva conflitos entre jornadas e campanhas
 
-## Referência rápida {#quick-reference}
-
-Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
-
-Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
-
->[!BEGINTABS]
-
->[!TAB Visão geral]
-
-**TL;DR**
-
-Esta página explica como configurar e gerenciar todas as configurações globais de uma jornada, incluindo regras de entrada, fusos horários, datas de início/término, comportamento de tempo limite, critérios de saída, tamanho da carga útil e gerenciamento de conflitos.
-
-**Intenções**
-
-* Configurar regras de entrada e reentrada de jornadas para perfis
-* Definir datas de início e término para controlar quando os perfis podem entrar ou sair de uma jornada
-* Definir critérios de saída para remover perfis automaticamente quando uma condição comercial for atendida
-* Gerenciar o acesso a uma jornada usando rótulos de controle de acesso no nível do objeto
-* Monitore o tamanho do conteúdo da jornada para evitar falhas de publicação
-* Resolva conflitos e atribua pontuações de prioridade em jornadas e campanhas
-
->[!TAB Glossário]
-
-* **Propriedades da Jornada**: o painel de configurações globais (painel direito) que controla o nome, as regras de entrada, o fuso horário, as datas, o tempo limite, o tamanho da carga e o gerenciamento de conflitos de uma jornada. *(específico do produto)*
-* **Período de espera de reentrada**: o tempo mínimo que um perfil deve aguardar antes de ter permissão para reinserir uma jornada unitária; o máximo é 90 dias. *(específico do produto)*
-* **Tempo limite de jornada global (TTL)**: a duração máxima que um perfil pode permanecer ativo em uma jornada — atualmente 91 dias, após os quais o perfil é encerrado e seus dados são excluídos. *(específico do produto)*
-* **Critérios de saída**: regras definidas no nível da jornada que removem automaticamente perfis de uma jornada quando ocorre um evento especificado ou quando uma condição de público-alvo é atendida. *(específico do produto)*
-* **Critérios de Saída Baseados em Atributos de Perfil**: Regras de saída baseadas em atributos de perfil (por exemplo, local, status) que são avaliados nas etapas de ação e só são editáveis quando uma jornada é pausada. *(específico do produto)*
-* **Política de mesclagem**: o conjunto de regras usado pelo Adobe Experience Platform para combinar dados de perfil de várias fontes; aplicado de forma consistente em toda a jornada. *(específico do produto)*
-* **Gerenciamento de conflitos**: ferramentas nas propriedades de jornada para atribuir pontuações de prioridade, aplicar conjuntos de regras e identificar jornadas ou campanhas sobrepostas. *(específico do produto)*
-* **Tamanho da carga da Jornada**: o tamanho atual da carga de definição da jornada comparado ao limite configurado; excedendo a publicação de blocos de limite. *(específico do produto)*
-* **OLAC (Object Level Access Control)**: um modelo de permissão que restringe o acesso a jornadas individuais usando rótulos de uso de dados.
-* **Grupo de controle (nível de jornada) (Disponibilidade limitada)**: configurado na seção **Aumento de jornada de medida com um grupo de controle** das propriedades da jornada; permite excluir uma porcentagem do público-alvo da jornada para medir sua eficácia incremental. *(específico do produto)*
-* **Grupo de controle**: uma porcentagem do público-alvo excluído de inserir uma jornada, usada como uma linha de base para medir a eficácia incremental da jornada. Os perfis no grupo de controle são rastreados por meio de eventos de exclusão. *(específico do produto)*
-* **Aumento incremental**: a diferença mensurável no resultado entre perfis que entraram na jornada (grupo ativo) e perfis que não entraram (grupo de controle), usada para quantificar o impacto real da jornada.
-
->[!TAB Terminologia]
-
-* **Nome canônico:** propriedades de Jornada — Acrônimo: none — variantes: configurações de jornada, painel de configuração de jornada
-* **Sinônimos:** &quot;tempo limite de jornada global&quot; = &quot;TTL&quot; = &quot;Tempo de Vida&quot;
-* **Não confunda:** &quot;tempo limite de jornada global (91 dias)&quot; ≠ &quot;janela de relatórios (~91 dias)&quot; — o tempo limite limita a duração de perfil individual em uma jornada; a janela de relatórios é um limite de exibição da interface do usuário para dados de análise
-
->[!TAB Medidas de proteção e limitações]
-
-* O período máximo de espera de reentrada é de 90 dias
-* O tempo limite da jornada global é de 91 dias; após esse período, os dados do perfil são excluídos e o perfil é encerrado
-* O limite padrão de carga do Jornada é de 4 MB; excedê-lo impede a publicação — entre em contato com o Atendimento ao cliente da Adobe para obter um limite mais alto
-* Os critérios de saída só podem ser configurados em estado de rascunho (tipos de evento/público-alvo); os critérios de saída do atributo de perfil só podem ser editados quando a jornada é pausada
-* Somente uma regra de critérios de saída do atributo de perfil é permitida por jornada
-* Os critérios de saída do atributo de perfil são avaliados somente nas etapas da ação, não globalmente
-* Quando uma política de mesclagem de público-alvo é atualizada, qualquer jornada ativa que faça referência a esse público-alvo deve ser republicada
-* Políticas de mesclagem inconsistentes em uma publicação de bloco de jornadas; inconsistências na personalização da mensagem não geram um alerta
-* Para jornadas ao vivo, o painel de propriedades mostra somente a data da publicação e o nome do editor
-* Holdout: mínimo de 5% do público-alvo e 1.000 perfis recomendados para significância estatística
-* Suspensão: as métricas de abertura e clique não são relevantes — use as métricas de conversão inferiores do funnel
-* Retenção: somente uma métrica de sucesso por jornada; a retenção de jornada cruzada não é compatível aqui
-* As alterações de porcentagem de controle em uma nova versão do jornada se aplicam somente a novos participantes
-
->[!TAB Perguntas frequentes]
-
-**P: Por quanto tempo um perfil pode permanecer em uma jornada?**
-
-Um máximo de 91 dias (tempo limite da jornada global); após esse período, o perfil é encerrado automaticamente e seus dados são excluídos.
-
-**P: Posso editar as propriedades da jornada enquanto ela estiver ativa?**
-
-Para jornadas ao vivo, o painel de propriedades mostra somente a data da publicação e o nome do editor; as alterações estruturais exigem uma nova versão.
-
-**P: O que acontece quando vários critérios de saída são configurados?**
-
-Eles são avaliados de cima para baixo com a lógica OU em cada etapa da jornada; um perfil é encerrado quando qualquer critério é atendido.
-
-**P: Como evitar que um perfil entre novamente em uma jornada?**
-
-Desmarque a opção &quot;Permitir reentrada&quot; nas propriedades do jornada; isso é adequado para experiências únicas, como uma oferta de presente.
-
-**P: Qual é a diferença entre o tempo limite da jornada e a data de término?**
-
-A data final interrompe todas as novas entradas e sai automaticamente dos perfis ativos nessa data específica; o tempo limite global de 91 dias se aplica por perfil a partir do momento em que entram, independentemente da data final da jornada.
-
-**P: Como a política de mesclagem é determinada para uma jornada?**
-
-Depende do tipo de jornada: As jornadas Ler público-alvo e Qualificação de público-alvo usam a política de mesclagem do público-alvo; As jornadas de eventos unitários usam a política de mesclagem padrão; As jornadas de eventos comerciais usam a política de mesclagem do público-alvo direcionado na atividade Ler público-alvo subsequente.
-
-**P: Como funciona o grupo de controle?**
-
-O grupo de controle é uma porcentagem configurável do público-alvo excluído da entrada na jornada. A atribuição é determinística (o mesmo perfil sempre mapeia para controle para a mesma jornada) e avaliada no momento da entrada. Os perfis de controle não recebem nenhuma comunicação, mas são rastreados por eventos de exclusão no conjunto de dados para relatórios de downstream de CJA lift. Consulte [Aumento de jornada de medida com um grupo de controle](#performance-management).
-
->[!ENDTABS]
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-properties.md}}
