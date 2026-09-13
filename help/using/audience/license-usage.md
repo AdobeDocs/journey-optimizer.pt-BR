@@ -48,7 +48,7 @@ Para acessar este painel, vá para **[!UICONTROL Administração]** > **[!UICONT
 
 >[!NOTE]
 >
->* Para exibir o painel, você deve ter a permissão [Exibir Painel de Uso da Licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}.
+>* Para exibir o painel, você deve ter a permissão [Exibir Painel de Uso da Licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=pt-BR#available-permissions){target="_blank"}.
 >
 >* Determinadas métricas (por exemplo, horas de computação, emails) não são exibidas para sandboxes de desenvolvimento, conforme indicado por `N/A` na coluna de cota. Somente valores não nulos são exibidos no painel: quando as métricas são zero ou próximas a zero, elas não são preenchidas.
 
@@ -117,8 +117,8 @@ Para resolver esse problema, siga estas etapas:
 
 Saiba mais na documentação do Adobe Experience Platform:
 
-* [Visão geral do painel de uso da licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
-* [Explorar o painel de uso de licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [Visão geral do painel de uso da licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=pt-BR){target="_blank"}
+* [Explorar o painel de uso de licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=pt-BR#exploring-the-license-usage-dashboard){target="_blank"}
 * [Métricas disponíveis](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=pt-BR#available-metrics){target="_blank"}
 * [Expiração de dados do perfil pseudônimo](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=pt-BR){target="_blank"}
 
