@@ -263,10 +263,10 @@ Não — somente eventos transmitidos podem acionar jornadas. Para dados em lote
 
 Saiba como configurar um evento, especificar o ponto final de transmissão e a carga útil de um evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3431510?captions=por_br&quality=12)
 
 Entenda os casos de uso aplicáveis a eventos de negócios. Saiba como criar uma jornada usando um evento de negócios e quais práticas recomendadas devem ser aplicadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3417595?captions=por_br&quality=12)
 
 {{$include /help/_includes/do-not-localize/event/ai-augmented-about-events.md}}
