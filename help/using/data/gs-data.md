@@ -264,7 +264,7 @@ Entenda como criar conjuntos de dados de evento e habilitados para perfil, monit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
 
 **Configurar fontes de dados**
 
@@ -284,7 +284,7 @@ Descubra como enriquecer mensagens no tempo de execução com dados de referênc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
 **Introdução a consultas**
 
@@ -294,7 +294,7 @@ Use o Serviço de consulta para analisar conjuntos de dados do Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
 
 **Introdução a perfis**
 
