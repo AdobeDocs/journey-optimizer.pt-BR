@@ -9,24 +9,12 @@ level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 TQID: https://experienceleague.adobe.com/VYD0k1jjQB-7iEShgFWKDfaVl5BFvtnxxjSrqBiYThw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: fb4dabc9839ce736abad94c5c12b7652188f1daa
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 1370
 ht-degree: 98%
@@ -45,7 +33,7 @@ Todos os dados assimilados na Adobe Experience Platform são mantidos no Data La
 
 ## Medidas de proteção e limitações
 
-* A partir de 1º de novembro de 2024, a segmentação por transmissão se tornou incompatível com eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use as Regras de negócio. É possível encontrar mais detalhes [nesta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação de caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=pt){target="_blank"}.
+* A partir de 1º de novembro de 2024, a segmentação por transmissão se tornou incompatível com eventos de envio e abertura dos conjuntos de dados de rastreamento e feedback do [!DNL Journey Optimizer]. Para implementar o Limite de frequência ou o Gerenciamento de fadiga, use as Regras de negócio. É possível encontrar mais detalhes [nesta seção](../conflict-prioritization/rule-sets.md), incluindo uma explicação de caso de uso para o limite diário [aqui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 
 * Com início em fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) está sendo implantada nos conjuntos de dados gerados pelo sistema do Journey Optimizer. [Saiba mais](datasets-ttl.md)
 
@@ -78,7 +66,7 @@ Estas seções listam os conjuntos de dados do sistema usados pelo [!DNL Journey
 
 * Relatório
 
-  * _Relatório - Conjunto de dados do evento de feedback de mensagem_: logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. O feedback dos ISPs de email sobre rejeições também é registrado neste conjunto de dados. **Este conjunto de dados usa a ingestão em lote — espere uma latência de dados de até 2 horas.** Para definições e caminhos em nível de campo, consulte a [Referência de esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"}. Para obter exemplos de relatórios SQL, consulte [exemplos de consulta do conjunto de dados](../data/datasets-query-examples.md).
+  * _Relatório - Conjunto de dados do evento de feedback de mensagem_: logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. O feedback dos ISPs de email sobre rejeições também é registrado neste conjunto de dados. **Este conjunto de dados usa a ingestão em lote — espere uma latência de dados de até 2 horas.** Para definições e caminhos em nível de campo, consulte a [Referência de esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}. Para obter exemplos de relatórios SQL, consulte [exemplos de consulta do conjunto de dados](../data/datasets-query-examples.md).
   * _Relatórios – Conjunto de dados de evento de experiência de rastreamento de email_: logs de interação do canal de email e dados de contexto do canal do WhatsApp no grupo de campos `whatsAppChannelContext`. Usado para relatórios e criação de público-alvo. As informações armazenadas incluem ações realizadas pelo usuário final no email (aberturas, cliques etc.) e interações do WhatsApp.
   * _Relatórios - Conjunto de dados do evento de experiência de rastreamento de push_: logs de interação para o canal de push usado para fins de criação de relatórios e de público-alvo. As informações armazenadas informam as ações executadas pelo usuário final nas notificações por push.
   * _Relatórios - Evento de etapa da jornada_: Captura todos os eventos de experiência em etapas da jornada gerados no Journey Optimizer para serem consumidos por serviços como Relatórios. Também é essencial para criar relatórios no Customer Journey Analytics para análise YoY. Vinculado a um Metadado de jornada.
@@ -157,3 +145,5 @@ Saiba mais sobre Governança de dados e rótulos de uso de dados na [Documentaç
 >* [Documentação de ingestão de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target="_blank"}.
 >* [Práticas recomendadas dos direitos da licença de gerenciamento de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
 >* [Gerenciamento de esquemas habilitados para perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-get-started-datasets.md}}

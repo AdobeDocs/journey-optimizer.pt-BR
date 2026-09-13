@@ -10,24 +10,12 @@ level: Experienced
 keywords: conjunto de dados, otimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 1780
 ht-degree: 1%
@@ -132,7 +120,7 @@ O esquema relacionado é o Esquema de evento de feedback de mensagem do AJO.
 >
 >Esse conjunto de dados usa assimilação em lote. Espere uma latência de dados de até 2 horas ao consultar esse conjunto de dados ou usá-lo para fins de relatório.
 
-Para obter a lista completa de campos, caminhos de campos, tipos de dados e descrições, consulte a [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"}.
+Para obter a lista completa de campos, caminhos de campos, tipos de dados e descrições, consulte a [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}.
 
 >[!NOTE]
 >
@@ -142,7 +130,7 @@ Para obter a lista completa de campos, caminhos de campos, tipos de dados e desc
 
 Use o campo `isTestExecution` para distinguir execuções de teste de execuções que não são de teste quando o campo é preenchido.
 
-Antes de criar uma consulta, use a [Referência de esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"} para confirmar o caminho do campo atual, o tipo de dados e a descrição do Esquema de evento de feedback de mensagem do AJO.
+Antes de criar uma consulta, use a [Referência de esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"} para confirmar o caminho do campo atual, o tipo de dados e a descrição do Esquema de evento de feedback de mensagem do AJO.
 
 Interprete os valores preenchidos da seguinte maneira:
 
@@ -156,7 +144,7 @@ Não converta automaticamente `NULL` em `false` e não presuma que cada valor nu
 
 Alguns registros históricos ou específicos do canal podem não preencher todos os campos de contexto de mensagem. Portanto, você deve testar a disponibilidade de campo por canal e preservar nulos, em vez de tratá-los como cadeias de caracteres vazias ou valores inferidos.
 
-Execute esta consulta somente após confirmar o caminho `isTestExecution` na [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"}:
+Execute esta consulta somente após confirmar o caminho `isTestExecution` na [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}:
 
 ```sql
 SELECT
@@ -542,3 +530,5 @@ WHERE
   AND MF._experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' 
   AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-datasets-query-examples.md}}
