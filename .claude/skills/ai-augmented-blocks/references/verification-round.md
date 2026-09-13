@@ -8,7 +8,7 @@ ht-degree: 0%
 # Rodada de verificação — a porta de qualidade final obrigatória
 
 Esta é a porta 2 de 2 e a etapa que garante que cada bloco seja **válido, verdadeiro e livre de
-ambiguidade**. **não é opcional e não pode ser ignorado**, inclusive para atualizações de página única.
+ambiguidade&#x200B;**. &#x200B;** não é opcional e não pode ser ignorado**, inclusive para atualizações de página única.
 
 ## Por que está separado
 
