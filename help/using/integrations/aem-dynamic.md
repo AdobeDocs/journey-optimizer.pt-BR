@@ -8,21 +8,13 @@ role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
 TQID: https://experienceleague.adobe.com/bgBuZlYcuJ1VpBZIlpGA4WIYZ6ufqNMnxlBoUvPpVqg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0af0c5b08ba95c1cc664e63de17afe7e21abab07
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1635
 ht-degree: 5%
@@ -43,7 +35,7 @@ O seletor de ativos agora é compatível com Dynamic Media, permitindo seleciona
 
 Observe que essa integração só está disponível para clientes que usam o Dynamic Media Manager as a Cloud Service.
 
-Para saber mais sobre o Dynamic Media no Adobe Experience Manager as a Cloud Service, consulte a [documentação do Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}.
+Para saber mais sobre o Dynamic Media no Adobe Experience Manager as a Cloud Service, consulte a [documentação do Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}.
 
 >[!AVAILABILITY]
 >
@@ -51,13 +43,13 @@ Para saber mais sobre o Dynamic Media no Adobe Experience Manager as a Cloud Ser
 
 ## Considerações
 
-* Verifique se o Dynamic Media com OpenAPI está ativado no Adobe Experience Manager as a Cloud Service. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
+* Verifique se o Dynamic Media com OpenAPI está ativado no Adobe Experience Manager as a Cloud Service. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
 
-* A integração de mídia dinâmica com o Adobe Journey Optimizer está disponível para o Dynamic Media [modo Scene7](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} e [com OpenAPI](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}.
+* A integração de mídia dinâmica com o Adobe Journey Optimizer está disponível para o Dynamic Media [modo Scene7](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} e [com OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}.
 
 * Para ativos do Dynamic Media Scene7, o Journey Optimizer adiciona modificadores padrão (`bfc=off&fmt=png-alpha`) no início da URL. Se sua predefinição também definir `fmt` ou `bfc`, ela terá prioridade, já que o Scene7 usa a última ocorrência de um parâmetro repetido. Para evitar resultados inesperados, remova `fmt`/`bfc` da predefinição ou mova-a antes dos modificadores padrão na URL.
 
-* Por design, o seletor de ativos retorna um formato de URL baseado em `/images`. Se você quiser entregar um ativo em seu formato original, por exemplo, GIF ou SVG, será necessário atualizar manualmente a URL para usar o caminho `/content`. Saiba mais na [documentação de práticas recomendadas do Dynamic Media](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-journey/dm-best-practices#deliver-gif-images){target="_blank"}.
+* Por design, o seletor de ativos retorna um formato de URL baseado em `/images`. Se você quiser entregar um ativo em seu formato original, por exemplo, GIF ou SVG, será necessário atualizar manualmente a URL para usar o caminho `/content`. Saiba mais na [documentação de práticas recomendadas do Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-journey/dm-best-practices#deliver-gif-images){target="_blank"}.
 
 
 ## Adicionar e gerenciar Dynamic media {#dynamic-media}
@@ -94,7 +86,7 @@ Para adicionar um ativo do Adobe Experience Manager ao seu conteúdo do HTML, si
 
 1. Ajustar os parâmetros da imagem (por exemplo, altura, largura, rotação, inversão, brilho, matiz etc.) conforme necessário para atender aos requisitos de ativos.
 
-   Para obter uma lista abrangente dos parâmetros de imagem que podem ser adicionados ao URL, consulte a [documentação do Experience Manager](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference){target="_blank"}.
+   Para obter uma lista abrangente dos parâmetros de imagem que podem ser adicionados ao URL, consulte a [documentação do Experience Manager](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference){target="_blank"}.
 
    ![](assets/dynamic-media-3.png)
 
@@ -112,7 +104,7 @@ Por exemplo, usando a funcionalidade de experimentação, é possível atualizar
 
 >[!AVAILABILITY]
 >
->**A personalização da sobreposição de texto** está disponível exclusivamente no modo [Scene7 do Dynamic Media](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}. Como o modo Scene7 não está acessível para clientes do setor de saúde, o conteúdo é renderizado usando uma cópia binária da imagem no Journey Optimizer. Caso tenha alguma exceção, entre em contato com o representante da Adobe.
+>**A personalização da sobreposição de texto** está disponível exclusivamente no modo [Scene7 do Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}. Como o modo Scene7 não está acessível para clientes do setor de saúde, o conteúdo é renderizado usando uma cópia binária da imagem no Journey Optimizer. Caso tenha alguma exceção, entre em contato com o representante da Adobe.
 
 Para personalizar a sobreposição de texto, siga estas etapas:
 
@@ -153,12 +145,12 @@ O conteúdo agora inclui a sobreposição de texto atualizada.
 
 Adicione facilmente seu modelo do Dynamic Media no Journey Optimizer e atualize seu conteúdo de mídia sempre que necessário. Agora é possível incorporar campos de personalização à mídia, permitindo criar conteúdo mais personalizado e envolvente no Journey Optimizer.
 
-Saiba mais sobre [Modelo de mídia dinâmica](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}.
+Saiba mais sobre [Modelo de mídia dinâmica](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}.
 
 
 >[!AVAILABILITY]
 >
->**O modelo de mídia dinâmica** está disponível exclusivamente no [modo Scene7 do Dynamic Media](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/config-dms7). Como o modo Scene7 não está acessível para clientes do setor de saúde, o conteúdo não será renderizado. Para quaisquer exceções, entre em contato com o suporte da Experience Manager.
+>**O modelo de mídia dinâmica** está disponível exclusivamente no [modo Scene7 do Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7). Como o modo Scene7 não está acessível para clientes do setor de saúde, o conteúdo não será renderizado. Para quaisquer exceções, entre em contato com o suporte da Experience Manager.
 
 
 ### Com componente de imagem {#image-component}
@@ -179,7 +171,7 @@ Saiba mais sobre [Modelo de mídia dinâmica](https://experienceleague.adobe.com
 
 1. Nas **Configurações de imagem**, navegue para acessar os parâmetros do seu modelo de mídia dinâmica.
 
-   Os campos disponíveis dependem dos parâmetros adicionados durante a [criação do modelo](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters){target="_blank"} no Adobe Experience Manager.
+   Os campos disponíveis dependem dos parâmetros adicionados durante a [criação do modelo](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters){target="_blank"} no Adobe Experience Manager.
 
    ![](assets/dynamic-media-template-3.png)
 
@@ -280,5 +272,6 @@ Saiba como integrar o Adobe Experience Manager Dynamic Media ao Adobe Journey Op
 
 Este tutorial aborda como modificar imagens diretamente no AJO, adicionar sobreposições de texto usando o modo HTML, criar modelos de mídia dinâmica no AEM para hiperpersonalização e personalizar campanhas adaptando o conteúdo para diferentes segmentos de público-alvo. Essa integração permite que os profissionais de marketing criem campanhas envolventes e personalizadas com eficiência, sem alternar entre aplicativos.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463787/?captions=por_br&learn=on&enablevpops=&autoplay=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-dynamic.md}}
