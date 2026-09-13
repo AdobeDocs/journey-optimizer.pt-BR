@@ -42,6 +42,6 @@ Para obter mais informações, leia o manual sobre [Composição de Público Fed
 
 Saiba mais sobre a Composição de público federado em vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3450887?captions=por_br&quality=12)
 
 {{$include /help/_includes/do-not-localize/audience/ai-augmented-federated-audience-composition.md}}

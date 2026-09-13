@@ -271,6 +271,6 @@ curl -X POST \
 
 Saiba como criar perfis de teste.
 
->[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3417594?captions=por_br&quality=12)
 
 {{$include /help/_includes/do-not-localize/audience/ai-augmented-creating-test-profiles.md}}
