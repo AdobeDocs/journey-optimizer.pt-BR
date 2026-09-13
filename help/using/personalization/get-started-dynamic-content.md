@@ -47,6 +47,6 @@ As regras condicionais podem ser aproveitadas no Email Designer e no editor de p
 
 Saiba como Criar conteúdo dinâmico com o construtor de regras de condição.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3417876?captions=por_br&quality=12)
 
 {{$include /help/_includes/do-not-localize/personalization/ai-augmented-get-started-dynamic-content.md}}
