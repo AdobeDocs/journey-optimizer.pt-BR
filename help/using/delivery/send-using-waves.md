@@ -9,13 +9,12 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondas, lotes, programação, jornada, campanha, orquestrado, entregabilidade
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2: []
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
-source-wordcount: 2271
-ht-degree: 1%
+source-wordcount: 1739
+ht-degree: 5%
 
 ---
 
@@ -73,12 +72,12 @@ Restrições adicionais específicas do contexto se aplicam:
 >[!CONTEXTUALHELP]
 >id="ajo_wave_sending"
 >title="Envio usando ondas"
->abstract="Divida a entrega de mensagens em lotes agendados (ondas) para controlar o volume ao longo do tempo. Você pode definir até 10 ondas com tamanhos e tempo iguais ou personalizados."
+>abstract="Divida a entrega de mensagens em lotes agendados (ondas) para controlar o volume ao longo do tempo. Você pode definir até dez ondas com tamanhos e durações iguais ou personalizados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_wave_sending"
 >title="Envio usando ondas"
->abstract="Divida a entrega de mensagens em lotes agendados (ondas) para controlar o volume ao longo do tempo. Você pode definir até 10 ondas com tamanhos e tempo iguais ou personalizados."
+>abstract="Divida a entrega de mensagens em lotes agendados (ondas) para controlar o volume ao longo do tempo. Você pode definir até dez ondas com tamanhos e durações iguais ou personalizados."
 
 As etapas para habilitar o envio de onda dependem do seu contexto: jornada de público-alvo de leitura ou campanha de ação. Selecione a guia relevante abaixo e consulte a seção [Tamanho e tempo da onda](#wave-options) para concluir a configuração.
 
@@ -242,57 +241,4 @@ Não. O envio de onda se aplica somente a **ações de canal de saída**: email,
 * [Agendar uma Campanha de ação](../campaigns/campaign-schedule.md) — definir data de início, data de término e frequência
 * [Atividades de canal em campanhas orquestradas](../orchestrated/activities/channels.md) — configure atividades de canal na tela orquestrada
 
-+++ Referência de conhecimento de IA
-
-Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
-
-Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
-
-* **TL;DR:** esta página explica como configurar o envio de som wave no Adobe Journey Optimizer para entregar mensagens de saída em lotes controlados ao longo do tempo, melhorando a capacidade de entrega e protegendo a reputação do remetente. O envio de onda está disponível em jornadas de leitura de público-alvo, campanhas de ação e campanhas orquestradas.
-
-**Intenções:**
-
-* Ativar o envio de ondas em uma jornada de Leitura de público, uma campanha de Ação ou uma atividade de canal de campanha Orquestrada
-* Configurar ondas iguais com um intervalo fixo entre cada onda
-* Definir tamanhos de onda personalizados como porcentagens ou contagens absolutas de perfil
-* Agendar cada onda com uma data e hora de início específicas
-* Controlar o volume de delivery para proteger a reputação do remetente ou alinhar-se à capacidade operacional
-
-**Glossário:**
-
-* **Envio de onda**: um modo de entrega que divide o público em lotes (ondas) e envia mensagens para cada lote em intervalos agendados, em vez de todas de uma vez *(específico do produto)*
-* **Ondas iguais**: uma configuração em que o público é dividido em partes de tamanho igual com um intervalo fixo entre os inícios de onda *(específico do produto)*
-* **Distribuição personalizada**: uma configuração em que o tamanho de cada onda é definido manualmente como uma porcentagem ou número absoluto de perfis *(específico do produto)*
-* **Agenda personalizada**: uma configuração em que cada onda tem uma data e hora de início específicas, permitindo um espaçamento não uniforme *(específico do produto)*
-
-**Contextos em que o envio de onda está disponível:**
-
-* Ler jornadas do público-alvo (&quot;O mais rápido possível&quot; ou &quot;Uma vez&quot; somente para scheduler — não para jornadas recorrentes, acionadas por eventos, de negócios, de teste ou de simulação)
-* Campanhas de ação (somente ações de canal de saída)
-* Campanhas orquestradas (somente atividades de canal de saída, configuradas por atividade de canal)
-
-**Medidas de proteção comuns (todos os contextos):**
-
-* Mínimo de 2 ondas, máximo de 10 ondas
-* Mínimo de 30 minutos entre o início de duas ondas consecutivas
-* O início da onda não pode estar no passado
-* A distribuição personalizada com base em porcentagem deve totalizar 100%
-* A distribuição personalizada baseada em números não valida automaticamente a cobertura total
-
-**medidas de proteção específicas da Jornada:**
-
-* O início da onda não pode ser anterior ao início da jornada
-* A última onda deve ser agendada dentro de 6 dias e 18 horas do início da jornada; exceder esse limite aciona um erro de validação
-* A divisão de público pode levar até 1 hora; os perfis podem ser atrasados
-* Duas ondas nunca são executadas simultaneamente na mesma versão do jornada
-* Os inícios de onda podem ser atrasados pelos limites de cota da plataforma ou pela carga pesada do sistema
-
-**Perguntas frequentes:**
-
-* **P: O envio por onda se aplica aos canais de entrada?** — Não; somente saída (email, SMS, push, correspondência direta).
-* **P: Posso atribuir conteúdo diferente a ondas individuais?** — Não; o mesmo público-alvo e conteúdo para todas as ondas. Somente o tamanho e o tempo podem diferir.
-* **P: Qual é o tempo mínimo entre duas ondas?** — 30 minutos entre o início de duas ondas consecutivas.
-* **P: O que acontece se os tamanhos das ondas excederem ou ficarem aquém do público-alvo?** — Excesso: a primeira onda envia para o público-alvo completo, as ondas restantes não são executadas. Queda: somente as ondas definidas com perfil recebem a mensagem; o restante não é repetido.
-* **P: O público-alvo foi reavaliado por onda?** — Não; o público-alvo é capturado na ativação. Os atributos do perfil (personalização, consentimento) são lidos no tempo de processamento da onda.
-
-+++
+{{$include /help/_includes/do-not-localize/delivery/ai-augmented-send-using-waves.md}}
