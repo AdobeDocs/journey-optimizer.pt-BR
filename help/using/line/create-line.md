@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
+source-git-commit: 97fb33382e3e0f367bcd786a1f2bf5af54ccec68
 workflow-type: tm+mt
 source-wordcount: 782
 ht-degree: 17%
@@ -87,18 +87,18 @@ Agora você pode começar a projetar o conteúdo da sua mensagem LINE a partir d
 
 1. Clique em **[!UICONTROL Criar experimento]** para começar a configurar seu experimento de conteúdo e criar tratamentos para medir seu desempenho e identificar a melhor opção para seu público-alvo. [Saiba mais](../content-management/content-experiment.md)
 
-1. Na seção **[!UICONTROL Rastreamento de ações]**, especifique se deseja rastrear cliques nos links da mensagem SMS.
+1. Na seção **[!UICONTROL Rastreamento de ações]**, especifique se deseja rastrear cliques nos links da mensagem LINE.
 
 1. As campanhas são projetadas para serem executadas em uma data específica ou em uma frequência recorrente. Saiba como configurar o **[!UICONTROL Cronograma]** da sua campanha no [nesta seção](../campaigns/create-campaign.md#schedule).
 
-1. No menu **[!UICONTROL Acionadores de ação]**, escolha a **[!UICONTROL Frequência]** da sua mensagem SMS:
+1. No menu **[!UICONTROL Acionadores de ação]**, escolha a **[!UICONTROL Frequência]** da mensagem LINE:
 
    * Uma vez
    * Diariamente
    * Semanal
    * Month
 
-Agora você pode começar a projetar o conteúdo da sua mensagem de texto a partir do botão **[!UICONTROL Editar conteúdo]**, conforme detalhado abaixo.
+Agora você pode começar a projetar o conteúdo da sua mensagem LINE a partir do botão **[!UICONTROL Editar conteúdo]**, conforme detalhado abaixo.
 
 >[!ENDTABS]
 
@@ -118,7 +118,7 @@ Esses tipos de mensagens podem ser configurados ao editar o conteúdo JSON diret
 
 Para configurar o conteúdo LINE, siga as etapas abaixo.
 
-1. Na tela de configuração do jornada ou da campanha, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo da mensagem de texto.
+1. Na tela de configuração do jornada ou da campanha, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo da mensagem LINE.
 
 1. Clique em **[!UICONTROL Editar código]** para editar conteúdo JSON.
 
@@ -131,3 +131,5 @@ Para configurar o conteúdo LINE, siga as etapas abaixo.
 Depois de executar os testes e validar o conteúdo, você pode enviar a mensagem LINE para o público-alvo. Estas etapas estão detalhadas em [esta página](send-line.md)
 
 Depois de enviado, você pode medir o impacto do LINE nos relatórios do Campaign ou do Jornada. Para obter mais informações sobre relatórios, consulte [esta seção](../reports/campaign-global-report-cja.md).
+
+{{$include /help/_includes/do-not-localize/line/ai-augmented-create-line.md}}

@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1784
 ht-degree: 0%
@@ -271,3 +271,5 @@ Para selecionar uma variação:
    > Se você não selecionar uma variação ou se o fragmento foi adicionado antes que o suporte à variação estivesse disponível, o Journey Optimizer usará a variação **Principal** automaticamente no momento da entrega.
 
 Depois de inserir um fragmento com uma variação, publicá-lo novamente no Adobe Experience Manager atualiza a cada **variação referenciada** em campanhas ativas ou jornadas automaticamente. As visualizações e provas ainda usam a variação escolhida, com o conteúdo publicado mais recente para essa variação.
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments.md}}

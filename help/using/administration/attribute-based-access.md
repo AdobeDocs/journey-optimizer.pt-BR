@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
-source-wordcount: 1644
-ht-degree: 2%
+source-wordcount: 1112
+ht-degree: 4%
 
 ---
 
@@ -181,50 +181,4 @@ Se o Usuário Y, sem acesso a objetos C2 de rótulo, precisar acessar essa jorna
 * O usuário Y não poderá testar a jornada.
 * O usuário Y não poderá publicar a jornada.
 
-+++ Referência de conhecimento de IA
-
-Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
-
-Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
-
-* **TL;DR:** proteja campos de dados confidenciais no Journey Optimizer aplicando rótulos de governança a campos de esquema e atribuindo rótulos correspondentes a funções; portanto, os usuários não autorizados não poderão exibir, editar, testar ou publicar jornadas que usam esses campos restritos.
-
-**Intenções:**
-
-* Crie uma função e atribua um rótulo de governança para restringir o acesso a campos de esquema específicos
-* Aplique um rótulo a um campo de esquema no Adobe Experience Platform para aplicar restrições de acesso
-* Usar um campo de esquema rotulado em uma jornada do Journey Optimizer
-* Entenda como os usuários sem o rótulo necessário têm restrições de acesso no jornada
-* Gerenciar funções, políticas e produtos por meio da API de controle de acesso baseada em atributos
-
-**Glossário:**
-
-* **ABAC (Controle de acesso baseado em atributos)**: um recurso para definir autorizações para gerenciar o acesso a dados de equipes ou grupos de usuários específicos com base em atributos como rótulos *(específico do produto)*
-* **Função**: um conjunto de usuários que compartilham as mesmas permissões, rótulos e sandboxes em uma organização *(específico do produto)*
-* **Rótulo**: um marcador de governança (por exemplo, C2) aplicado a campos de esquema, conjuntos de dados ou públicos para controlar quais funções podem acessá-los *(específico do produto)*
-* **Política**: uma configuração que deve ser criada antes do gerenciamento de permissões para uma função — pré-requisito para ABAC *(específico do produto)*
-* **Esquema XDM**: esquema do Experience Data Model usado para definir a estrutura de dados no Adobe Experience Platform *(específico do produto)*
-
-**Medidas de Proteção:**
-
-* Uma política deve ser criada antes do gerenciamento de permissões para uma função (pré-requisito, conforme declarado na observação Importante na página)
-* O uso incorreto de rótulos pode interromper o acesso de pessoas e acionar violações de política (conforme declarado no Aviso na página)
-* Os usuários sem um rótulo correspondente a um campo restrito não podem: exibir o nome do campo restrito, editar expressões que fazem referência a ele no modo avançado, testar a jornada ou publicar a jornada
-
-**Terminologia:**
-
-* Nome canônico: Controle de acesso baseado em atributo — Acrônimo: ABAC — variantes: gerenciamento de acesso baseado em atributo
-* Nome canônico: Experience Data Model — Acrônimo: XDM — variantes: esquema XDM, esquemas XDM
-* Sinônimos: &quot;Rótulo&quot; = &quot;rótulo de governança&quot; = &quot;rótulo de governança de dados&quot;
-* Não confunda: &quot;Função&quot; (um grupo de usuários com permissões e rótulos compartilhados) ≠ &quot;Política&quot; (regras que regem a imposição do acesso aos dados com base em rótulos)
-* Não confunda: ABAC (controla o acesso a campos de esquema, conjuntos de dados e públicos-alvo por meio de políticas de rótulo no nível da plataforma) ≠ OLAC (controla o acesso a objetos específicos do Journey Optimizer, como jornadas e campanhas)
-
-**Perguntas frequentes:**
-
-* **P: É possível adicionar rótulos às funções internas?** — Sim, rótulos podem ser adicionados às funções personalizadas e integradas.
-* **P: O que acontece com um usuário que não tem o rótulo para um campo restrito em uma jornada?** — O campo não está visível para eles; eles não podem editar expressões que fazem referência a ele, testar a jornada ou publicar a jornada.
-* **P: Os rótulos podem ser aplicados a objetos que não sejam campos de esquema?** — Sim; os rótulos também podem ser aplicados a esquemas, conjuntos de dados e públicos.
-* **P: Existe uma API para gerenciar funções, políticas e produtos com o ABAC?** — Sim; funções, políticas e produtos podem ser acessados por meio da API de controle de acesso baseada em atributos.
-
-+++
-<!-- ai-accordion-version: 1 | source-hash: aa94c226 -->
+{{$include /help/_includes/do-not-localize/administration/ai-augmented-attribute-based-access.md}}

@@ -11,7 +11,7 @@ level: Beginner, Intermediate
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 05ad3d2af373c7eeb26bb8c789edfb2c864f5bca
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1552
 ht-degree: 1%
@@ -171,3 +171,4 @@ Você precisa de no mínimo **permissões de Visualização** para os objetos qu
 Sim. O servidor MCP respeita a configuração da sandbox do [!DNL Adobe Journey Optimizer]. Você pode consultar dados específicos da sandbox especificando a sandbox no seu prompt ou conectando-se com credenciais com escopo para uma sandbox específica.
 +++
 
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-ajo-mcp.md}}

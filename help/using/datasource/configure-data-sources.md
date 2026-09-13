@@ -25,7 +25,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 638
 ht-degree: 7%
@@ -93,3 +93,5 @@ Para excluir um campo de um grupo de campos usado em uma ou mais jornadas, siga 
 1. Crie novas versões de cada uma dessas jornadas. Edite todas as atividades usando &quot;Grupo de campos A&quot; e selecione &quot;Grupo de campos B&quot;.
 1. Interrompa versões antigas de jornadas que usam &quot;Grupo de campos A&quot;. Você não deve ter nenhuma jornada usando o &quot;Grupo de campos A&quot;.
 1. Remova o &quot;Grupo de campos A&quot; pois ele não é mais usado.
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-configure-data-sources.md}}

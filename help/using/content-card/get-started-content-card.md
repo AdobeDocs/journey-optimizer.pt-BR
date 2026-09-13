@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: b7cad12437da955f7aaf46c39c22754e9c428d4b
 workflow-type: tm+mt
 source-wordcount: 427
 ht-degree: 100%
@@ -94,3 +94,4 @@ Os cartões de conteúdo destinam-se ao conteúdo que os usuários podem visuali
 * **[Relatórios de cartão de conteúdo](content-card-report.md)**: rastreie e analise o desempenho do cartão de conteúdo com métricas e insights detalhados.
 * **[Tutoriais do cartão de conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}**: explore tutoriais em vídeo passo a passo sobre os recursos do cartão de conteúdo e as práticas recomendadas.
 
+{{$include /help/_includes/do-not-localize/content-card/ai-augmented-get-started-content-card.md}}

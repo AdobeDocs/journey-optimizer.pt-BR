@@ -33,7 +33,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1995
 ht-degree: 3%
@@ -328,3 +328,5 @@ Configure o monitoramento pró-ativo para receber notificações em tempo real s
 * **Habilitar logs de auditoria** - Ative o log de auditoria para rastrear todas as ações nos recursos para fins de conformidade e solução de problemas. [Saiba mais](../privacy/audit-logs.md)
 
 * **Monitorar integrações** - Rastreie o desempenho da ação personalizada e a conectividade do sistema externo para identificar problemas de integração antecipadamente. [Saiba mais](../action/reporting.md)
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-get-started-tracking.md}}

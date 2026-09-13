@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7601b45ff72b05dc053246debe02e11175172b91
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 742
 ht-degree: 9%
@@ -138,3 +138,4 @@ Se precisar atualizar uma ação personalizada existente do Campaign v7/v8, por 
 >
 >Qualquer jornada que use essa ação usará automaticamente a configuração atualizada. Se você tiver jornadas ativas usando essa ação, monitore-as cuidadosamente após atualizar o endpoint para garantir a entrega adequada da mensagem.
 
+{{$include /help/_includes/do-not-localize/action/ai-augmented-acc-action.md}}

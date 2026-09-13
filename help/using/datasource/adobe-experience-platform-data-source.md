@@ -24,7 +24,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 481
 ht-degree: 25%
@@ -77,3 +77,5 @@ As principais etapas para adicionar grupos de campos à fonte de dados integrada
 >[!TIP]
 >
 >Passe o mouse sobre o nome de um grupo de campos para revelar dois ícones à direita. Use-os para **Duplicar** ou **Excluir** o grupo de campos. Observe que o ícone **[!UICONTROL Excluir]** só estará disponível se o grupo de campos não for usado em nenhuma jornada do **Live**, **Rascunho** ou **Concluído**. Consulte o campo **[!UICONTROL Usado em]** para verificar se esse é o caso.
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-adobe-experience-platform-data-source.md}}

@@ -30,7 +30,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 2514
 ht-degree: 4%
@@ -410,3 +410,5 @@ A maioria dos recursos de IA está incluída no Adobe Journey Optimizer. Alguns 
 >* [Otimização de Tempo de Envio](../building-journeys/send-time-optimization.md) — Preveja e otimize o tempo de entrega de mensagens por indivíduo.
 >* [Modelos de IA para decisão](../experience-decisioning/ranking/ai-models.md) — Classifique e personalize ofertas automaticamente com modelos de classificação de IA.
 >* [Trabalhar com clientes MCP](../integrations/ajo-mcp.md) — Consultar campanhas, jornadas e ofertas de Claude Web, Claude Desktop ou Cursor usando o servidor MCP do Journey Optimizer.
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-ai-features.md}}

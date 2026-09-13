@@ -26,7 +26,7 @@ topic_v2:
 subfeature_v2:
   - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 727
 ht-degree: 99%
@@ -149,3 +149,5 @@ Agora que você entende o que são fontes e por que elas são importantes:
 * Entenda [o mapeamento e a transformação de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home){target="_blank"}
 * Veja como [usar dados importados nas jornadas](../building-journeys/journey-gs.md)
 * Consulte a seção de visão geral [Introdução à gestão de dados](../data/gs-data.md) para entender como as fontes se encaixam na configuração completa de dados do Journey Optimizer
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-get-started-sources.md}}

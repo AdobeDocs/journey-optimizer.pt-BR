@@ -11,10 +11,10 @@ feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1317
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
@@ -37,34 +37,34 @@ Você pode acessar este espaço de trabalho diretamente na página inicial [!DNL
 >[!CONTEXTUALHELP]
 >id="ajo_migration_connection_name"
 >title="Nome da conexão"
->abstract="Um nome descritivo que identifica o sistema de origem (por exemplo, &quot;Marketing-Automation-Prod&quot;). Deve começar com uma letra e conter apenas alfanuméricos, sublinhados ou hifens (4 a 50 caracteres)."
+>abstract="Um nome descritivo que identifica o sistema de origem (por exemplo, “Marketing-Automation-Prod”). Deve começar com uma letra e conter apenas caracteres alfanuméricos, sublinhados ou hifens (4 a 50 caracteres)."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_base_api_url"
 >title="URL base da API"
->abstract="O URL raiz da API, sem caminhos de recursos ou sequências de consulta, por exemplo, https://api.example.com."
+>abstract="O URL raiz da API, sem caminhos de recursos ou strings de consulta, por exemplo, https://api.exemplo.com."
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_authentication_method"
->title="Escolha de um método de autenticação"
+>title="Escolha um método de autenticação"
 >abstract="A Chave de API envia uma única credencial com cada solicitação, enquanto o OAuth 2.0 usa um protocolo baseado em token mais adequado para APIs corporativas e de terceiros."
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_client_id"
 >title="ID de cliente"
->abstract="O identificador público do seu aplicativo, emitido quando você se registra no servidor de autorização."
+>abstract="O identificador público do aplicativo, emitido quando você se registra no servidor de autorização."
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_client_secret"
 >title="Segredo do cliente"
->abstract="Uma credencial confidencial conhecida somente pelo seu aplicativo e pelo servidor de autorização. Nunca o exponha no código do lado do cliente."
+>abstract="Uma credencial confidencial conhecida somente pelo aplicativo e pelo servidor de autorização. Nunca a exponha no código do lado do cliente."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_token_url"
 >title="URL do token"
->abstract="O ponto de extremidade do servidor de autorização que emite tokens de acesso para o fluxo de credenciais do cliente, normalmente terminando em /oauth/token ou /token."
+>abstract="O ponto de acesso do servidor de autorização que emite tokens de acesso para o fluxo de credenciais do cliente, normalmente terminando em /oauth/token ou /token."
 
 
 >[!NOTE]
@@ -193,4 +193,4 @@ Um conjunto de filtros permite restringir a lista de conteúdo de email importad
 
 ![Opções de filtro para status, data de criação e data de atualização no espaço de trabalho](assets/onboarding-hub-5.png)
 
-
+{{$include /help/_includes/do-not-localize/start/ai-augmented-migrate-content-and-journeys.md}}

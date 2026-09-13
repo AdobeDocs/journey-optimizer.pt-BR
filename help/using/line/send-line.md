@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verificar e testar suas mensagens de texto
-description: Saiba como verificar e enviar suas mensagens LINE no Journey Optimizer
+title: Pré-visualizar, validar e enviar a mensagem LINE
+description: Saiba como visualizar e validar uma mensagem LINE, resolver avisos e erros, solicitar aprovação quando necessário e ativá-la ou publicá-la em uma jornada ou campanha
 feature: Line
 topic: Content Management
 role: User
@@ -22,42 +22,75 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 94a7cd6e4e89b2c8a4a09cfb4fbfc173ca76c391
 workflow-type: tm+mt
-source-wordcount: 263
-ht-degree: 7%
+source-wordcount: 400
+ht-degree: 2%
 
 ---
 
-# Verifique e envie sua mensagem LINE {#send-line}
+
+# Pré-visualizar, validar e enviar a mensagem LINE {#send-line}
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** visualize, simule e valide a mensagem LINE para que você possa resolver quaisquer avisos ou erros e enviá-la com confiança através da sua jornada ou campanha.
+**Nesta página:** visualize e valide a mensagem LINE, resolva avisos e erros, solicite aprovação quando necessário e conclua a configuração da jornada ou da campanha para enviar a mensagem.
 
 >[!ENDSHADEBOX]
 
-## Pré-visualizar sua mensagem de texto {#preview-line}
+## Antes de começar {#before-you-start}
 
-Depois que o conteúdo da mensagem for definido, é possível pré-visualizar seu conteúdo usando qualquer método de simulação:
+Antes de começar, verifique se:
 
-* Clique em **[!UICONTROL Simular conteúdo]** para testar as variações de conteúdo com dados de entrada de exemplo ou geração automática de IA. [Saiba como simular variações de conteúdo](../test-approve/simulate-sample-input.md)
-* Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis da AEP)]** na lista suspensa para visualizar com perfis de teste.
+* O LINE está ativado para sua organização. Se o LINE não estiver disponível, entre em contato com o representante da Adobe para solicitar a ativação.
+* Uma configuração de canal LINE está disponível no Journey Optimizer. Consulte [Configurar o canal LINE](./line-configuration.md).
+* Você adicionou uma ação LINE a uma jornada ou campanha e definiu o conteúdo da mensagem. Consulte [Criar uma mensagem LINE](./create-line.md).
 
-Informações detalhadas sobre como visualizar e testar o conteúdo estão disponíveis na seção [Gerenciamento de conteúdo](../content-management/preview-test.md).
+## Pré-visualização da mensagem LINE {#preview-line}
+
+Depois de definir o conteúdo da mensagem, use **[!UICONTROL Simular conteúdo]** para visualizar a mensagem antes de enviá-la.
+
+Você pode usar uma das seguintes opções:
+
+| Opção de simulação | Use-o para |
+| --- | --- |
+| **[!UICONTROL Simular conteúdo]** | Teste as variações de conteúdo com exemplos de dados de entrada ou geração automática de IA. |
+| **[!UICONTROL Simular conteúdo]** > **[!UICONTROL Simular conteúdo (perfis do AEP)]** | Pré-visualizar a mensagem com perfis de teste. |
+
+Revise cada variação e verifique se o conteúdo da mensagem e os valores personalizados são exibidos conforme esperado.
+
+Para obter informações detalhadas sobre visualização e teste de conteúdo, consulte [Visualizar e testar conteúdo](../content-management/preview-test.md).
 
 ## Validar seu conteúdo {#line-validate}
 
-Você deve verificar os alertas na seção superior do editor. Alguns deles são avisos simples, mas outros podem impedir que você envie a mensagem. Dois tipos de alertas podem ocorrer: avisos e erros.
+Antes de continuar, revise os alertas mostrados na parte superior do editor de mensagens.
 
-* **Os avisos** referem-se às recomendações e práticas recomendadas. Por exemplo, uma mensagem de aviso será exibida se a mensagem de texto estiver vazia.
+O Journey Optimizer exibe dois tipos de alertas:
 
-* **Erros** impedem que você teste ou ative a jornada, ou publique a campanha, desde que não sejam resolvidos. Por exemplo, uma mensagem de erro avisa quando a linha de assunto está ausente.
+* **Avisos** são recomendações ou sugestões de práticas recomendadas. Elas não impedem que você teste ou envie a mensagem.
+* **Erros** identificam problemas que devem ser resolvidos antes que você possa testar ou ativar a jornada ou publicar a campanha.
 
-## Envie suas mensagens LINE {#line-send}
+Resolva todos os erros antes de continuar. Avisos de endereço quando eles indicarem que a mensagem pode não fornecer a experiência do cliente desejada.
 
->[!IMPORTANT]
->
-> Se sua campanha estiver sujeita a uma política de aprovação, será necessário solicitar aprovação para poder enviar suas mensagens de texto. [Saiba mais](../test-approve/gs-approval.md)
+## Solicitar aprovação quando necessário {#line-approval}
 
-Quando a mensagem LINE estiver pronta, conclua a configuração da [jornada](../building-journeys/journey-gs.md) ou da [campanha](../campaigns/create-campaign.md) para enviá-la.
+Se a campanha estiver sujeita a uma política de aprovação, solicite aprovação antes de enviar a mensagem.
+
+Consulte [Saiba como solicitar aprovação](../test-approve/gs-approval.md).
+
+## Enviar a mensagem LINE {#line-send}
+
+Quando a mensagem estiver pronta, retorne à jornada ou campanha que contém a ação LINE e conclua a configuração:
+
+* **Jornada:** conclua a configuração da jornada e ative-a.
+* **Campanha:** conclua a configuração da campanha e publique a campanha.
+
+Se não conseguir ativar a jornada ou publicar a campanha, retorne ao editor de mensagens e resolva os erros restantes.
+
+## Tarefas relacionadas {#related-tasks}
+
+* [Introdução ao LINE](./get-started-line.md)
+* [Criar uma mensagem LINE](./create-line.md)
+* [Configurar o canal LINE](./line-configuration.md)
+
+{{$include /help/_includes/do-not-localize/line/ai-augmented-send-line.md}}

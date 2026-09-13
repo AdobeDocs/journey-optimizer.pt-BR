@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 4b5193629350b88324a9a7cd95cd94c18d58455b
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1624
-ht-degree: 85%
+ht-degree: 95%
 
 ---
 
@@ -373,19 +373,21 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_relay_auth_body"
 >title="Corpo de autenticação"
->abstract="O corpo da solicitação que o Journey Optimizer envia ao endpoint de autenticação ao solicitar um token. Sempre insira um JSON válido, mesmo se o Tipo de Conteúdo de Autenticação estiver definido como `application/x-www-form-urlencoded`. O Journey Optimizer o serializa no formato correto no lado do servidor antes de chamar o endpoint do token. Exemplo: `{"grant_type":"client_credentials","client_id":"...","client_secret":"...","scope":"..."}`"
+>abstract="O corpo da solicitação que o Journey Optimizer envia ao ponto de acesso de autenticação ao solicitar um token. Sempre insira um JSON válido, mesmo se o Tipo de conteúdo de autenticação estiver definido como `application/x-www-form-urlencoded`. O Journey Optimizer o serializa no formato correto no lado do servidor antes de chamar o ponto de acesso do token. Exemplo: `{"grant_type":"client_credentials","client_id":"...","client_secret":"...","scope":"..."}`"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_relay_header_parameters"
 >title="Parâmetros de cabeçalho"
->abstract="Cabeçalhos HTTP estáticos incluídos em cada solicitação de retransmissão para o endpoint de destino, como uma chave de API, por exemplo, x-api-key. Eles são enviados junto com qualquer token de autenticação configurado acima. Adicione um cabeçalho por linha como um par de nome/valor."
+>abstract="Cabeçalhos HTTP estáticos incluídos em cada solicitação de retransmissão para o ponto de acesso de destino, como uma chave de API, por exemplo, x-api-key. Eles são enviados com qualquer token de autenticação configurado acima. Adicione um cabeçalho por linha como um par de nome/valor."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_relay_auth_type"
 >title="Tipo de autenticação"
->abstract="Como o Journey Optimizer é autenticado no destino de retransmissão. Escolha **Sem Autenticação** para retransmitir mensagens sem credenciais ou **Autenticação Personalizada** para primeiro solicitar um token de um ponto de extremidade de autenticação, por exemplo, um fluxo de credenciais de cliente OAuth, e anexá-lo a cada solicitação de retransmissão."
+>abstract="Como o Journey Optimizer é autenticado com o destino de retransmissão. Escolha **Sem autenticação** para retransmitir mensagens sem credenciais ou **Autenticação personalizada** para primeiro solicitar um token de um ponto de acesso de autenticação, por exemplo, um fluxo de credenciais de cliente OAuth, e anexá-lo a cada solicitação de retransmissão."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_relay_url"
 >title="URL de destino de retransmissão"
->abstract="As chamadas de Journey Optimizer do ponto de extremidade HTTPS retransmitem cada mensagem recebida. O Journey Optimizer envia um POST HTTP separado aqui por mensagem recebida. Isso é diferente do URL de autenticação na Autenticação personalizada, que é usado apenas para obter um token de acesso e não para receber mensagens."
+>abstract="O ponto de acesso HTTPS que o Journey Optimizer chama para retransmitir cada mensagem recebida. O Journey Optimizer envia aqui um POST HTTP separado por mensagem recebida. Isso é diferente do URL de autenticação na Autenticação personalizada, o qual é usado apenas para obter um token de acesso e não para receber mensagens."
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

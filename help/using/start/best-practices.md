@@ -25,7 +25,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1026
 ht-degree: 4%
@@ -96,3 +96,5 @@ Você pode adotar várias práticas recomendadas que o ajudarão a permanecer na
 * Se você estiver se aproximando do limite de nós na tela, considere a consolidação de ações com parâmetros dinâmicos ou conteúdo para veicular o conteúdo correto em vez de nós explícitos.
 
 * Se você tiver uma jornada **Read Audience** com segmento em lote (A) e estiver usando um segmento de transmissão inAudience (B) na jornada a ser excluído (ou seja, execute A-B), considere mover essa lógica para a lógica de segmentação e usar a exclusão como parte da própria lógica de segmentação.
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-best-practices.md}}

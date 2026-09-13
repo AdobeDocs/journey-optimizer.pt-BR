@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 183
 ht-degree: 8%
@@ -49,3 +49,5 @@ Informações detalhadas sobre como importar públicos estão disponíveis na [d
 Saiba como fazer upload de públicos-alvo no formato CSV em vídeo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3423361?captions=por_br&quality=12)
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-custom-upload.md}}

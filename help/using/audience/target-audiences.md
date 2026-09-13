@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 841
 ht-degree: 10%
@@ -90,3 +90,5 @@ Somente públicos-alvo gerados com a **definição de segmento**, **composiçõe
 Se você precisar direcionar perfis de um público-alvo não compatível, como um público-alvo do Customer Journey Analytics, é necessário envolvê-lo em uma nova definição de segmento no Portal de público-alvo. Informações detalhadas sobre como adicionar públicos-alvo em uma definição de segmento estão disponíveis na [documentação do Construtor de segmentos](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 Depois de concluído, aguarde a conclusão da avaliação de segmentação para usá-la em suas jornadas e campanhas.
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-target-audiences.md}}

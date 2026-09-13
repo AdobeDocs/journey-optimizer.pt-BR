@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7601b45ff72b05dc053246debe02e11175172b91
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 1077
 ht-degree: 1%
@@ -140,3 +140,4 @@ Navegue pelas seções abaixo para saber mais sobre como configurar e usar suas 
 * [Usar ações personalizadas](../building-journeys/using-custom-actions.md) - Saiba como usar ações personalizadas em suas jornadas
 * [Envio de coleções em parâmetros de ação personalizados](../building-journeys/collections.md) - Saiba como enviar uma coleção em parâmetros de ação personalizados que é preenchida dinamicamente no tempo de execução
 
+{{$include /help/_includes/do-not-localize/action/ai-augmented-troubleshoot-custom-action.md}}

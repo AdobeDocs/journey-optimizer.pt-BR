@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 1313
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -57,7 +57,7 @@ As mensagens móveis podem ser criadas e enviadas em uma jornada ou em uma campa
 
 SMS, MMS e RCS funcionam melhor quando é necessário alcançar os usuários de forma confiável, independentemente de eles terem seu aplicativo instalado ou uma conexão de Internet disponível.
 
-| Benefícios | Por que | Exemplo de casos de uso |
+| Benefícios | Por que | Casos de uso de exemplo |
 | --- | --- | --- |
 | Alcance e rapidez máximos | Não é necessária nenhuma conexão com o aplicativo ou com a Internet para receber a mensagem | Alcançando usuários sem um aplicativo para smartphone instalado |
 | Visibilidade garantida | O SMS tem taxas de abertura acima de 90% | Códigos OTP, lembretes de compromisso, notificações de entrega |
@@ -229,3 +229,5 @@ Saiba como configurar e enviar mensagens RCS interativas e alinhadas à marca no
 >[!VIDEO](https://video.tv.adobe.com/v/3464760?captions=por_br)
 
 +++
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-get-started-mobile.md}}

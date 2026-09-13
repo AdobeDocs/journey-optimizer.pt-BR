@@ -26,7 +26,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7601b45ff72b05dc053246debe02e11175172b91
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 475
 ht-degree: 5%
@@ -96,3 +96,5 @@ Use um evento **Reações** para reagir aos dados de rastreamento relacionados a
 * Para emails, as jornadas podem reagir a mensagens clicadas, enviadas, abertas ou com falha. [Saiba mais sobre reações e eventos](../building-journeys/reaction-events.md).
 
 Ao usar um sistema de terceiros para enviar mensagens, você deve adicionar e configurar uma ação personalizada. [Saiba mais sobre a configuração de ação personalizada](../action/about-custom-action-configuration.md).
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-acs-action.md}}

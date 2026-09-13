@@ -32,10 +32,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f01f60510a15aff602f6244d85f1015d06e9ef87
+source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
-source-wordcount: 1803
-ht-degree: 1%
+source-wordcount: 1304
+ht-degree: 2%
 
 ---
 
@@ -81,46 +81,4 @@ As permissões internas representam as diferentes permissões que podem ser atri
 
 {style="table-layout:fixed"}
 
-+++ Referência de conhecimento de IA
-
-Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
-
-Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
-
-- **TL;DR:** esta página é uma referência abrangente de todas as permissões integradas no Journey Optimizer, agrupadas por área de recurso, para que os administradores possam identificar exatamente quais direitos incluir ao compilar ou auditar uma função.
-
-**Intenções:**
-
-- Pesquisar todas as permissões disponíveis para uma determinada área de recursos (Jornadas, Campanhas, Gerenciamento de decisão, Assistente de IA etc.)
-- Identificar a permissão correta para adicionar a uma função personalizada ou interna
-- Distinguir entre Permissões de gerenciamento e visualização por recurso
-- Encontre permissões para o Assistente de IA, campanhas orquestradas e decisões de experiência
-- Identificar quais permissões abrangem os modos de execução de jornada (modo de teste, simulação, simulação)
-
-**Glossário:**
-
-- **Permissões internas**: direitos unitários predefinidos atribuíveis a uma função para controlar o acesso a recursos e objetos no Journey Optimizer; permissões de alto nível abrangem permissões de baixo nível *(específico do produto)*
-- **Recurso**: uma área funcional que agrupa permissões relacionadas (por exemplo, Jornadas, Campanhas, Gerenciamento de decisão, Assistente de IA) *(específico do produto)*
-- **Modo de teste**: um modo de execução de jornada; a permissão Publicar jornada inclui a capacidade de iniciar o modo de teste *(específico do produto)*
-- **Execução seca**: um modo de execução de jornada; a permissão Publicar jornadas inclui a capacidade de iniciar a execução seca *(específico do produto)*
-- **Simulação**: um recurso de jornada separado; a permissão Simular Jornadas abrange leitura, criação e edição de Simulação no Jornada *(específico do produto)*
-
-**Terminologia:**
-
-- Nome canônico: permissões integradas — variantes: permissões predefinidas, permissões OOTB
-- Não confunda: &quot;Gerenciar jornadas&quot; (inclui parar em tempo real, modo de teste e simulação) ≠ &quot;Publicar jornadas&quot; (inclui publicar, iniciar modo de teste, iniciar simulação, pausar e retomar)
-- Não confunda: &quot;Simular Jornadas&quot; (permissão para ler, criar e editar simulação no Jornada) ≠ &quot;Simular conteúdo&quot; (acesso à opção Simular conteúdo para pré-visualização e prova de mensagens)
-- Não confunda: &quot;Gerar conteúdo&quot; (Acesso ao assistente de IA no Journey Optimizer) ≠ &quot;Ativar o assistente de IA&quot; (ativar ou acessar recursos de campanha e público alimentados por IA)
-- Não confunda: &quot;Modo de teste&quot; (modo de execução de jornada controlado pela permissão Publicar no jornada) ≠ &quot;Execução em segundo plano&quot; (modo de execução de jornada separado também controlado pela permissão Publicar no jornada) ≠ &quot;Simulação&quot; (recurso separado através da permissão Simular no Jornada)
-- Não confunda: &quot;Gerenciar decisões&quot; (CRUD em entidades de decisão) ≠ &quot;Gerenciar decisão de experiência&quot; (CRUD em configurações de decisão e políticas de decisão da Experience Decisioning)
-
-**Perguntas frequentes:**
-
-- **P: Qual permissão é necessária para usar o Assistente de IA para gerar conteúdo?** — Gerar conteúdo (com o recurso de assistente de IA).
-- **P: Que permissão permite que um usuário exporte a lista de supressão?** — Lista de supressão de exportação (em Configurações de canal).
-- **P: Qual permissão concede acesso somente leitura ao jornada?** — Exibir jornadas (no recurso Jornadas).
-- **P: Qual permissão é necessária para publicar campanhas orquestradas?** — Publique campanhas orquestradas (em Campanhas orquestradas); essa permissão também é necessária para acionar uma campanha orquestrada usando um sinal.
-- **P: O que a permissão Simular Jornadas cobre?** — leia, crie e edite simulação no Jornada.
-
-+++
-<!-- ai-accordion-version: 1 | source-hash: 1374a5c2 -->
+{{$include /help/_includes/do-not-localize/administration/ai-augmented-ootb-permissions.md}}

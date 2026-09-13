@@ -22,7 +22,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28395abcdcba6ed8fd02f252a57022aa473f3d3b
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 319
 ht-degree: 0%
@@ -56,3 +56,5 @@ O conteúdo é criado e gerenciado na **camada do Autor**, onde os fragmentos po
 Quando um fragmento de conteúdo é publicado, uma cópia é criada na **camada de publicação** e exposta por meio de um ponto de extremidade público não autenticado. Para **[!DNL Adobe Experience Manager as a Cloud Service]**, o Journey Optimizer oferece suporte à integração com a **camada do Autor** e a **camada de Publicação**.
 
 Como resultado, o Journey Optimizer exibe apenas os Fragmentos de conteúdo publicados ou modificados e sempre usa a versão publicada mais recente. Quaisquer alterações feitas após a publicação não serão refletidas no Journey Optimizer até que o fragmento de conteúdo seja republicado.
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments-gs.md}}

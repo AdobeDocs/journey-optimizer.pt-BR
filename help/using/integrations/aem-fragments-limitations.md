@@ -11,7 +11,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 793
 ht-degree: 1%
@@ -76,3 +76,5 @@ Se você encontrar problemas ao trabalhar com fragmentos de conteúdo do Adobe E
 | **O link do Experience League AEM retorna 404** | Favorito obsoleto, pré-visualização da criação ou página de ajuda não publicada do AEM | Abra o tópico [Fragmentos de conteúdo com o Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} da documentação do Live Experience Manager e navegue a partir do sumário na página ou pesquise o nome da seção (por exemplo, **Configuração do Dispatcher**). |
 
 Se o problema persistir, entre em contato com o representante da Adobe com detalhes sobre a ID do fragmento de conteúdo, a campanha ou a ID da jornada e quaisquer mensagens de erro exibidas.
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments-limitations.md}}

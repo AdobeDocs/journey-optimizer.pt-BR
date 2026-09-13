@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 2888
 ht-degree: 3%
@@ -457,3 +457,5 @@ Para provedores de SMS personalizados, crie dois webhooks separados: um para eve
 Se o webhook usar credenciais de API anexadas a uma configuração de canal existente, o webhook entrará em vigor imediatamente. Caso contrário, crie uma nova configuração de canal.
 
 ➡️[Saiba mais sobre a configuração de canal](mobile-configuration-surface.md)
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-mobile-webhook.md}}

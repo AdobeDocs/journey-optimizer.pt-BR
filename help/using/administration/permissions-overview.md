@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
-source-wordcount: 961
-ht-degree: 4%
+source-wordcount: 501
+ht-degree: 8%
 
 ---
 
@@ -116,47 +116,4 @@ Agora que você entende os conceitos de controle de acesso no **[!DNL Journey Op
 </td>
 </tr></table>
 
-+++ Referência de conhecimento de IA
-
-Esta seção contém conhecimento estruturado destinado a oferecer suporte à interpretação, recuperação e resposta a perguntas relacionadas a este tópico.
-
-Para uma compreensão completa, essas informações devem ser combinadas com a documentação desta página. Nenhuma das origens deve ser independente; a página descreve o recurso, enquanto esta seção fornece um contexto adicional que ajuda a desfazer a ambiguidade da terminologia, intenção, aplicabilidade e restrições.
-
-* **TL;DR:** O controle de acesso no Journey Optimizer é construído em funções, permissões e sandboxes gerenciadas por meio das Permissões empresariais do Adobe CX, com camadas adicionais de OLAC (controle de acesso baseado em objeto) e ABAC (controle de acesso baseado em atributo) para proteção de dados refinada.
-
-**Intenções:**
-
-* Entenda os cinco conceitos principais de controle de acesso: funções, permissões, sandboxes, controle de acesso baseado em objeto e controle de acesso baseado em atributo
-* Saber quem pode configurar o controle de acesso (administrador do sistema ou do produto)
-* Navegue até a seção de documentação correta para cada tópico de controle de acesso
-* Planejar uma estratégia de controle de acesso para a organização
-
-**Glossário:**
-
-* **Funções**: coleções de usuários que compartilham as mesmas permissões e sandboxes; funções internas pré-existentes estão disponíveis e funções personalizadas podem ser criadas *(específico do produto)*
-* **Permissões**: direitos unitários que definem as autorizações atribuídas a Funções, agrupadas em recursos como Jornada ou Ofertas *(específico do produto)*
-* **Sandboxes**: ambientes virtuais que particionam a instância do Journey Optimizer em espaços de trabalho virtuais separados e isolados; atribuídos por meio de funções em Permissões *(específico do produto)*
-* **Controle de acesso baseado em objetos**: rótulos aplicados a objetos específicos do Journey Optimizer (jornadas, campanhas, ofertas) para restringir o acesso a usuários autorizados *(específico do produto)*
-* **Controle de acesso baseado em atributos**: políticas que controlam o acesso a objetos ou recursos com base em atributos como rótulos adicionados a campos de esquema ou segmentos *(específico do produto)*
-
-**Medidas de Proteção:**
-
-* A configuração do controle de acesso requer privilégios de administrador do sistema ou do produto (pré-requisito)
-* A função mínima que pode conceder ou retirar permissões é um administrador de produto (conforme declarado na página)
-
-**Terminologia:**
-
-* Nome canônico: Controle de acesso baseado em atributo — Acrônimo: ABAC — variantes: gerenciamento de acesso baseado em atributo
-* Nome canônico: Controle de acesso baseado em objeto — Acrônimo: OLAC — variantes: controle de acesso em nível de objeto, gerenciamento de acesso baseado em objeto
-* Não confunda: &quot;Controle de acesso baseado em objetos&quot; (restringe o acesso a objetos específicos do AJO, como jornadas, campanhas e ofertas usando rótulos) ≠ &quot;Controle de acesso baseado em atributos&quot; (restringe o acesso a atributos de dados, como campos de esquema e segmentos com base em políticas de rótulo)
-* Não confunda: &quot;Funções&quot; (uma coleção de usuários com permissões compartilhadas e sandboxes) ≠ &quot;Permissões&quot; (os direitos unitários agrupados em recursos que são atribuídos a funções)
-
-**Perguntas frequentes:**
-
-* **P: Quem pode configurar o controle de acesso no Journey Optimizer?** — Usuários com privilégios de administrador do sistema ou de administrador do produto.
-* **P: Qual é o nível mínimo de administrador necessário para conceder ou retirar permissões?** — Administrador do produto.
-* **P: As sandboxes são gerenciadas independentemente das funções?** — Não; as sandboxes são atribuídas por meio de funções no produto de Permissões.
-* **P: Onde o controle de acesso para o Journey Optimizer é gerenciado?** — por meio de Permissões no Adobe CX Enterprise, que vincula os usuários com permissões e sandboxes por meio de funções e políticas.
-
-+++
-<!-- ai-accordion-version: 1 | source-hash: 14be1dc6 -->
+{{$include /help/_includes/do-not-localize/administration/ai-augmented-permissions-overview.md}}

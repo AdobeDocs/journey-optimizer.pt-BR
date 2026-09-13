@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+source-git-commit: b9f0b446a14f7d1bb93103acb6dd655643723211
 workflow-type: tm+mt
 source-wordcount: 487
 ht-degree: 100%
@@ -80,3 +80,5 @@ Saiba como aproveitar o canal de correspondência direta no Adobe Journey Optimi
 Para obter uma apresentação escrita das mesmas etapas, consulte os [tutoriais do canal de correspondência direta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
 
 Para perguntas comuns sobre correspondência direta, consulte a seção [Recursos adicionais](#additional-resources) acima.
+
+{{$include /help/_includes/do-not-localize/direct-mail/ai-augmented-get-started-direct-mail.md}}

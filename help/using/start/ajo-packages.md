@@ -13,7 +13,7 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1995
 ht-degree: 2%
@@ -281,3 +281,5 @@ Agora que você entende como [!DNL Adobe Journey Optimizer] é empacotado, veja 
 - **Verifique a disponibilidade do recurso** — Veja quais recursos estão ativos, seu status de ciclo de vida (GA/LA/Beta) e quando foram enviados. [Disponibilidade de recursos](ajo-features-availability.md)
 - **Encontre o caso de uso correto** — Mapeie suas metas de engajamento para os recursos que as suportam. [Guia de caso de uso](ajo-use-case-guide.md)
 - **Configurar seus canais** — Depois de saber quais complementos você tem, configure os canais necessários: [email](../email/get-started-email.md), [notificações por push](../push/get-started-push.md), [SMS/MMS](../mobile/get-started-mobile.md), [mensagens no aplicativo](../in-app/get-started-in-app.md), [cartões de conteúdo](../content-card/get-started-content-card.md), [canal da Web](../web/get-started-web.md) e [experiências baseadas em código](../code-based/get-started-code-based.md).
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-ajo-packages.md}}

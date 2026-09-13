@@ -28,7 +28,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 968
 ht-degree: 11%
@@ -154,3 +154,5 @@ Consent policies are comprised of two logical components:
 1. Depois de criar a política de consentimento, aproveite-a no [!DNL Journey Optimizer] usando [configurações de canal](consent.md#surface-marketing-actions) ou [ações personalizadas de jornada](consent.md#journey-custom-actions).
 
 1. Agora você pode usar essas configurações de canal ou ações personalizadas em suas jornadas e campanhas para garantir que as preferências dos clientes do <!--targeted--> sejam respeitadas.
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-preference-center.md}}
