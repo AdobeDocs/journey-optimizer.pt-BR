@@ -9,17 +9,12 @@ role: User
 level: Beginner
 exl-id: 71c652ba-f38f-452c-9c1b-dcd728307baf
 TQID: https://experienceleague.adobe.com/HkybhydJwQDHVEXCKM5o16ZNeiBk-n9mogm-2pwFKus
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 183
 ht-degree: 8%
@@ -40,7 +35,7 @@ Durante o processo de upload personalizado, especifique o atributo CSV a ser usa
 
 ![](assets/import-audience.png)
 
-Informações detalhadas sobre como importar públicos estão disponíveis na [documentação do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} do Adobe Experience Platform.
+Informações detalhadas sobre como importar públicos estão disponíveis na [documentação do Serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} do Adobe Experience Platform.
 
 >[!NOTE]
 >
@@ -48,4 +43,6 @@ Informações detalhadas sobre como importar públicos estão disponíveis na [d
 
 Saiba como fazer upload de públicos-alvo no formato CSV em vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3423361?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-custom-upload.md}}
