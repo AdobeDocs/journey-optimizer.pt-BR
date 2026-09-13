@@ -6,13 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: b7cad12437da955f7aaf46c39c22754e9c428d4b
 workflow-type: tm+mt
 source-wordcount: 671
 ht-degree: 1%
@@ -143,3 +139,5 @@ No campo **[!UICONTROL URL de Destino]**, insira a URL da Web ou o deep link que
 ![](assets/content-card-design-6.png)
 
 Na seção **[!UICONTROL Dados personalizados]**, clique em **[!UICONTROL Adicionar par de chave/valor]** para incluir variáveis personalizadas na carga. Esses pares chave/valor permitem transmitir dados adicionais, dependendo da configuração específica. Isso permite adicionar conteúdo personalizado ou dinâmico, informações de rastreamento ou quaisquer outros dados relevantes para sua configuração.
+
+{{$include /help/_includes/do-not-localize/content-card/ai-augmented-design-content-card.md}}
