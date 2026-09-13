@@ -7,13 +7,9 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 hide: true
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: 7c61fd987af3415419db589e68c211ec95c36707
 workflow-type: tm+mt
 source-wordcount: 829
 ht-degree: 7%
@@ -197,3 +193,5 @@ Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você pode
 * [Teste e envie sua mensagem no aplicativo](send-in-app.md)
 * [Relatório no aplicativo](../reports/campaign-global-report-cja-inapp.md)
 * [Configuração no aplicativo](inapp-configuration.md)
+
+{{$include /help/_includes/do-not-localize/in-app/ai-augmented-in-app-web-design.md}}
