@@ -6,14 +6,9 @@ description: Saiba como solucionar problemas de atividades ativas no Journey Opt
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcbid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
 workflow-type: tm+mt
 source-wordcount: 5976
 ht-degree: 1%
@@ -1113,7 +1108,7 @@ ORDER BY timestamp ASC
 > `identityMap` é um tipo MAP estruturado, não uma cadeia de caracteres. Use a sintaxe do acessador array e struct mostrada acima. Funções de cadeia de caracteres como `LIKE` retornarão um erro `DATATYPE_MISMATCH`.
 >
 ></br>
->&gt; O conjunto de dados do evento de feedback de mensagem armazena somente a ECID em seu "identityMap". Se o perfil afetado for identificado por um namespace personalizado em vez da ECID, resolva a ECID primeiro: navegue até **Perfis** no AEP, pesquise o perfil usando o namespace personalizado e o valor de identidade e recupere a ECID dos detalhes de identidade do perfil. Use esse valor de ECID na consulta acima.
+&gt; O conjunto de dados do evento de feedback de mensagem armazena somente a ECID em seu "identityMap". Se o perfil afetado for identificado por um namespace personalizado em vez da ECID, resolva a ECID primeiro: navegue até **Perfis** no AEP, pesquise o perfil usando o namespace personalizado e o valor de identidade e recupere a ECID dos detalhes de identidade do perfil. Use esse valor de ECID na consulta acima.
 
 ### valores de feedbackStatus
 
@@ -1133,4 +1128,6 @@ ORDER BY timestamp ASC
 Um `feedbackStatus` de `sent` confirma que o Journey Optimizer entregou com êxito a notificação para APNs. Ele confirma **não** que a atividade Live foi renderizada no dispositivo.
 
 O iOS não fornece retornos de chamada depois que uma notificação deixa APNs. As falhas do lado do dispositivo — como uma restrição do SO, uma queda de rede entre APNs e o dispositivo ou o limite de duração de 8 horas da atividade online que está sendo atingida — não são observáveis no conjunto de dados. Se `feedbackStatus` for `sent`, mas nenhuma atividade Live for exibida no dispositivo, o problema está fora do pipeline do Journey Optimizer. Use o plug-in do Assurance ou o registro em nível de aplicativo para diagnosticar o comportamento do lado do dispositivo.
+
+{{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-troubleshoot-mobile-live.md}}
 
