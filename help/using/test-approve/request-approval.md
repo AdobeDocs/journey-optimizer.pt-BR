@@ -6,17 +6,12 @@ level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
 TQID: https://experienceleague.adobe.com/UQ-5ddCbDJsF6muK1Am74fpx4ptRvHvB5VKwiIxd9d4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 524
 ht-degree: 0%
@@ -72,3 +67,5 @@ Se os aprovadores solicitarem alterações, você será notificado por meio de u
 ![Notificação solicitada de alterações](assets/changes-requested.png)
 
 Para percorrer a solicitação de alteração, abra-a no email ou no alerta para acessar a jornada ou campanha e fazer as alterações solicitadas. Quando sua jornada/campanha estiver pronta para ser revisada novamente, envie uma nova solicitação de aprovação usando o botão **[!UICONTROL Solicitar aprovação]**.
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-request-approval.md}}

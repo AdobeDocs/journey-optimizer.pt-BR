@@ -6,18 +6,12 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 TQID: https://experienceleague.adobe.com/dKfstmm0ilHKUATU-sz7c04IZBu2O7Ju-srPPoKJVl4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900cid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 1037
 ht-degree: 100%
@@ -148,3 +142,5 @@ Não. Os solicitantes não podem selecionar manualmente qual grupo de usuários 
 * **[Solicitar aprovação](request-approval.md)**: entenda como enviar conteúdo para aprovação e acompanhar o status de aprovação.
 * **[Revisar e aprovar solicitações](review-approve-request.md)**: saiba como revisar, aprovar ou rejeitar solicitações de aprovação como aprovador.
 * **[Simular variações de conteúdo](simulate-sample-input.md)**: clique em **[!UICONTROL Simular conteúdo]** para testar variações de conteúdo com exemplos de dados de entrada, geração automática de IA ou usuários simulados. Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis da AEP)]** na lista suspensa para visualizar com perfis de teste.
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-gs-approval.md}}
