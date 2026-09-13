@@ -9,10 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: dados, governança, DULE, rótulos, rotulagem, plataforma, política
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74ee
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 1421
 ht-degree: 100%
@@ -152,3 +151,5 @@ Os erros são visíveis no botão **[!UICONTROL Alertas]**. Clique no erro para 
 Esta caixa de diálogo indica que a configuração atual da jornada ou campanha viola uma política de governança de dados existente. Use o diagrama de linhagem de dados para entender quais outras alterações de configuração precisam ser feitas antes que você possa ativar sua jornada ou campanha.
 
 Informações detalhadas estão disponíveis na [documentação sobre violação da política de uso de dados.](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-action-privacy.md}}
