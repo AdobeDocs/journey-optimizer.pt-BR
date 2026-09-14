@@ -9,15 +9,15 @@ role: User
 level: Intermediate
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2: []
 source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: '1317'
 ht-degree: 11%
-
 ---
-
 # Migrar conteúdo e jornadas {#migrate-content-and-journeys}
 
 >[!AVAILABILITY]
@@ -123,7 +123,7 @@ Depois de ter uma origem para o conteúdo, um arquivo HTML ou uma conexão com a
 
 1. Adicione a **[!UICONTROL Linha de assunto]** e mapeie cada espaço reservado para personalização ao atributo de perfil correspondente.
 
-   O espaço de trabalho converte automaticamente a sintaxe do script de origem para a sintaxe Handlebars. Para obter uma lista de operadores compatíveis, consulte [Operadores](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/personalization/functions/operators).
+   O espaço de trabalho converte automaticamente a sintaxe do script de origem para a sintaxe Handlebars. Para obter uma lista de operadores compatíveis, consulte [Operadores](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators).
 
    ![Editor de email importado com campo de linha de assunto e mapeamento de espaço reservado de personalização](assets/onboarding-hub-8.png)
 

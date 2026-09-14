@@ -13,26 +13,33 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qWxnLiuHh-sJQyUOuRB6CgRIpZ6ud6eO-WNoWcv9JeU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+    internal-label: Wait activity
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 1259
-ht-degree: 10%
-
+source-wordcount: '1259'
+ht-degree: 23%
 ---
-
 # Atividade aguardar {#wait-activity}
 
 >[!BEGINSHADEBOX]
@@ -124,22 +131,22 @@ A prática recomendada é usar datas personalizadas específicas para seus perfi
 
 Para validar se a atividade de espera funciona como esperado, você pode usar os eventos da etapa. [Saiba mais](../reports/query-examples.md#common-queries).
 
-### Espera de otimização de tempo de envio {#sto-wait}
+### Espera da otimização de tempo de envio {#sto-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_optimization_channel"
 >title="Canal de otimização"
->abstract="Escolha o modelo de Otimização de tempo de envio do canal a ser usado ao calcular o tempo de espera ideal de cada perfil: Notificação por email ou por push. A atividade de espera reutiliza as pontuações de engajamento já calculadas para esse canal, de modo que o canal selecionado deve corresponder ao comportamento de mensagens em que você deseja que a espera seja otimizada."
+>abstract="Escolha o modelo de Otimização de tempo de envio do canal a ser usado ao calcular o tempo de espera ideal de cada perfil: notificação por email ou por push. A atividade de espera reutiliza as pontuações de engajamento já calculadas para esse canal; portanto, o canal selecionado deve corresponder ao comportamento de mensagens que você deseja usar como base para otimizar a espera."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_optimization_type"
 >title="Tipo de otimização"
->abstract="Para Email, escolha se o tempo de espera ideal deve ser calculado para maximizar as aberturas ou click-throughs. O recurso Push sempre otimiza para aberturas, já que o rastreamento de cliques não se aplica a mensagens de push. Escolha o tipo de envolvimento que melhor corresponda à meta da atividade que se segue a essa espera."
+>abstract="Em Email, escolha se o tempo de espera ideal deve ser calculado para maximizar as aberturas ou cliques. O recurso Push sempre otimiza para aberturas, já que o rastreamento de cliques não se aplica às mensagens de push. Escolha o tipo de engajamento que melhor corresponda à meta da atividade que segue essa espera."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_send_within"
->title="Enviar na(s) próxima(s)"
->abstract="Defina o número máximo de horas (2-100) que o sistema pode esperar antes de continuar com a próxima atividade. Isso define o limite externo da janela que a Otimização de tempo de envio considera ao escolher o melhor momento: uma janela mais curta limita o benefício que o modelo de IA pode oferecer, enquanto uma janela mais longa pode atrasar as atividades downstream mais do que o desejado."
+>title="Enviar na próxima"
+>abstract="Defina o número máximo de horas (2–100) que o sistema pode esperar antes de continuar com a próxima atividade. Essa configuração define o limite máximo da janela que a Otimização de tempo de envio considera ao escolher o melhor momento: a janela mais curta limita o benefício que o modelo de IA pode oferecer, enquanto a mais longa pode atrasar as atividades subsequentes mais do que o desejado."
 
 ![Definir a duração da espera](assets/wait_sto.png)
 

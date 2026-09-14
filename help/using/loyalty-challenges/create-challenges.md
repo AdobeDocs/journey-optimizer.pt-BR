@@ -10,15 +10,15 @@ level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+    internal-label: Loyalty challenges
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: 2577
-ht-degree: 10%
-
+source-wordcount: '2577'
+ht-degree: 12%
 ---
-
 
 # Criar desafios {#create-challenges}
 
@@ -289,7 +289,7 @@ Após configurar o conteúdo, configure as mensagens para envolver os clientes d
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
 >title="Mensagens"
->abstract="As mensagens ajudam a engajar durante todo o ciclo de vida do desafio. Na guia Mensagens, adicione mensagens para cada estágio: Iniciar (anunciar o desafio e convidar participantes para participar), Em andamento (manter os participantes envolvidos e concluir tarefas) e Encerrar (comemorar a conclusão e notificar os participantes sobre suas recompensas). Para cada estágio, clique no botão adicionar mensagem, escolha um canal, selecione uma configuração de canal e selecione Editar para criar o conteúdo da mensagem."
+>abstract="As mensagens ajudam a engajar durante todo o ciclo de vida do desafio. Na guia Mensagens, adicione mensagens para cada estágio: Iniciar (anunciar o desafio e convidar participantes para participar), Em andamento (manter os participantes envolvidos e concluir tarefas) e Encerrar (comemorar a conclusão e notificar os participantes sobre as respectivas recompensas). Em cada estágio, clique no botão adicionar mensagem, escolha um canal, selecione uma configuração de canal e selecione Editar para criar o conteúdo da mensagem."
 
 Configurar mensagens multicanais para envolver os clientes em estágios fundamentais do ciclo de vida de desafio. As mensagens são opcionais, mas são recomendadas para maximizar o engajamento do cliente.
 
@@ -372,21 +372,21 @@ Saiba como criar e configurar desafios de fidelidade com estes tutoriais de víd
 
 **Configurar um desafio de fidelidade** - Criar e configurar um novo desafio de fidelidade
 
->[!VIDEO](https://video.tv.adobe.com/v/3496475?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **Configurar recompensas** - Configurar entrega e atendimento de recompensa
 
->[!VIDEO](https://video.tv.adobe.com/v/3496485?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️ Veja como criar um cartão de conteúdo de desafio
 
->[!VIDEO](https://video.tv.adobe.com/v/3496533?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️ Veja como configurar mensagens de ciclo de vida para um desafio
 
->[!VIDEO](https://video.tv.adobe.com/v/3497459?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️ Veja como publicar um desafio e gerar uma jornada
 
->[!VIDEO](https://video.tv.adobe.com/v/3498581?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 
