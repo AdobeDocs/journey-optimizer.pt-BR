@@ -26,10 +26,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 8dcca5343044af42657c40d4bc6416ad7557891c
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 1422
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -46,7 +46,7 @@ A partir de fevereiro de 2025, uma medida de proteção de tempo de vida (TTL) s
 * 90 dias para dados na loja de perfis,
 * 13 meses para dados no data lake.
 
-Esta alteração será aplicada em **sandboxes de clientes existentes** a partir de **1º de outubro de 2026**.
+Esta alteração será aplicada nas **sandboxes de clientes existentes** a partir de **1º de outubro de 2026**.
 
 ## Conjuntos de dados afetados {#datasets}
 
@@ -189,3 +189,5 @@ Se você precisar remover permanentemente um conjunto de dados de sistema da Jou
 
 
 +++
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-datasets-ttl.md}}

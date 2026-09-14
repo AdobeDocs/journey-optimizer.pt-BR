@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5e5f55df553b2537227c965a7bd7b61e1fe7245
 workflow-type: tm+mt
 source-wordcount: 917
 ht-degree: 100%
@@ -97,3 +97,5 @@ Os conjuntos de regras permitem que você **agrupe várias regras** e as aplique
 * **[Classificar jornadas usando fórmulas](journey-ranking-formulas.md) e [modelos de IA](journey-ai-models.md)**: saiba como criar fórmulas e modelos de IA para classificar jornadas quando limites são aplicados.
 * **[Tutoriais de gestão de conflitos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}**: tutoriais em vídeo passo a passo.
 * **[Casos de uso do Journey Optimizer](../building-journeys/jo-use-cases.md)**: procure padrões práticos, incluindo limite de frequência e lógica de supressão de jornada.
+
+{{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-gs-conflict-prioritization.md}}

@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5e5f55df553b2537227c965a7bd7b61e1fe7245
 workflow-type: tm+mt
 source-wordcount: 938
 ht-degree: 6%
@@ -212,3 +212,5 @@ Depois que sua jornada ou campanhas forem ativadas e executadas, você poderá e
 Saiba como usar o recurso de horários de silêncio no Adobe Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475857?captions=por_br&quality=12)
+
+{{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-quiet-hours.md}}

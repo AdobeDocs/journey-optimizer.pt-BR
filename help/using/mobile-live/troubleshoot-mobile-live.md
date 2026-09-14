@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
 workflow-type: tm+mt
 source-wordcount: 5976
 ht-degree: 1%
@@ -1133,4 +1133,6 @@ ORDER BY timestamp ASC
 Um `feedbackStatus` de `sent` confirma que o Journey Optimizer entregou com êxito a notificação para APNs. Ele confirma **não** que a atividade Live foi renderizada no dispositivo.
 
 O iOS não fornece retornos de chamada depois que uma notificação deixa APNs. As falhas do lado do dispositivo — como uma restrição do SO, uma queda de rede entre APNs e o dispositivo ou o limite de duração de 8 horas da atividade online que está sendo atingida — não são observáveis no conjunto de dados. Se `feedbackStatus` for `sent`, mas nenhuma atividade Live for exibida no dispositivo, o problema está fora do pipeline do Journey Optimizer. Use o plug-in do Assurance ou o registro em nível de aplicativo para diagnosticar o comportamento do lado do dispositivo.
+
+{{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-troubleshoot-mobile-live.md}}
 

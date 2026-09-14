@@ -27,7 +27,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0e023560fab01f4a86bb175c45632b813ff7e069
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 1228
 ht-degree: 5%
@@ -141,3 +141,5 @@ Entenda na tabela abaixo quais conjuntos de dados do Journey Optimizer você pod
 Para obter relatórios personalizados sobre experiências baseadas em código e respostas de decisão, use o **`scopeDetails.correlationID`** para associar dados de interação ou feedback ao **Conjunto de dados da entidade AJO** e recuperar metadados de campanha, jornada e mensagem. Use **`exdRequestID`** para vincular uma única solicitação de decisão a eventos de análise.
 
 Se `correlationID` estiver ausente (por exemplo, públicos-alvo de controle), use conjuntos de dados exportados e chaves de junção documentadas em vez de decodificar campos de carga não documentados. [Exemplos de consulta do conjunto de dados da entidade](datasets-query-examples.md#entity-dataset) mostram como ingressar em `correlationID`.
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-export-datasets.md}}

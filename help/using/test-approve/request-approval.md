@@ -16,7 +16,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 524
 ht-degree: 0%
@@ -72,3 +72,5 @@ Se os aprovadores solicitarem alterações, você será notificado por meio de u
 ![Notificação solicitada de alterações](assets/changes-requested.png)
 
 Para percorrer a solicitação de alteração, abra-a no email ou no alerta para acessar a jornada ou campanha e fazer as alterações solicitadas. Quando sua jornada/campanha estiver pronta para ser revisada novamente, envie uma nova solicitação de aprovação usando o botão **[!UICONTROL Solicitar aprovação]**.
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-request-approval.md}}

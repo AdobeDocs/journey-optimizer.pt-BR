@@ -17,7 +17,7 @@ level_v2:
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 1037
 ht-degree: 100%
@@ -148,3 +148,5 @@ Não. Os solicitantes não podem selecionar manualmente qual grupo de usuários 
 * **[Solicitar aprovação](request-approval.md)**: entenda como enviar conteúdo para aprovação e acompanhar o status de aprovação.
 * **[Revisar e aprovar solicitações](review-approve-request.md)**: saiba como revisar, aprovar ou rejeitar solicitações de aprovação como aprovador.
 * **[Simular variações de conteúdo](simulate-sample-input.md)**: clique em **[!UICONTROL Simular conteúdo]** para testar variações de conteúdo com exemplos de dados de entrada, geração automática de IA ou usuários simulados. Clique em **[!UICONTROL Simular conteúdo]** e selecione **[!UICONTROL Simular conteúdo (perfis da AEP)]** na lista suspensa para visualizar com perfis de teste.
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-gs-approval.md}}
