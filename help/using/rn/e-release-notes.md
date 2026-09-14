@@ -16,9 +16,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8297245511bb0ad9c70ad995b0b33d5198e562a8
+source-git-commit: b52a13ced7828d3e484508caf24b1e4716df087e
 workflow-type: tm+mt
-source-wordcount: '3322'
+source-wordcount: '3422'
 ht-degree: 10%
 ---
 
@@ -111,6 +111,8 @@ Os seguintes recursos e melhorias estão chegando ao Fidelidade nesta versão.
 </table>
 
 * **Habilidade de recomendação de fidelidade do CX Coworker** - Os profissionais de marketing agora podem solicitar **oportunidades de desafio** diretamente na interface de conversação do CX Coworker, obtendo ideias de desafio baseadas em tendências reais do programa de fidelidade e transformando-as em desafios ao vivo sem sair do chat. <a href="https://jira.corp.adobe.com/browse/DOCAC-15565" target="_blank">DOCAC-15565</a> <!-- Documentation link: TBD -->
+
+* **Domínio de desafios no editor de personalização de Cartão de Conteúdo** - O editor de personalização de Cartão de Conteúdo agora aceita **Desafios** como um domínio, permitindo que você acesse metadados de desafio ao criar a personalização de cartão de conteúdo. Isso facilita a criação de conteúdo personalizado para cada estágio de um desafio — Início, Em andamento e Término — sem código personalizado. <a href="https://jira.corp.adobe.com/browse/DOCAC-15681" target="_blank">DOCAC-15681</a> <!-- Documentation link: TBD -->
 
 ### Integração {#sep-26-onboarding}
 
@@ -377,7 +379,7 @@ Os recursos e melhorias a seguir estão chegarão à Decisão nesta versão.
 </tbody>
 </table>
 
-* **Geração de regra de decisão do CX Coworker** - A **experiência da geração de regra de decisão assistida por IA**, anteriormente disponível por meio do painel direito, agora pode ser acessada pelo CX Coworker, que substitui o painel direito como a maneira de criar regras com IA. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+* **Geração de regra de decisão do CX Coworker** - A experiência de **geração de regra de decisão assistida por IA**, anteriormente disponível por meio do painel direito, agora pode ser acessada por meio do CX Coworker, que substitui o painel direito como a maneira de criar regras com IA. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
 
 ### Correspondência direta {#sep-26-direct-mail}
 
@@ -488,5 +490,7 @@ O lembrete a seguir se aplica à administração nesta versão.
 ### Melhorias de usabilidade {#sep-26-usability}
 
 * **Melhorias de usabilidade na experiência de Simulação de conteúdo** - A nova experiência de Simulação de conteúdo agora permite nomear e organizar suas variantes para facilitar a comparação, copiar ou excluir detalhes da variante diretamente de cada cartão, exibir caminhos completos de atributos e configuração de canal por cartão sob demanda e carregar seus próprios perfis CSV, JSON ou JSONL com um botão de carregamento mais destacado. <a href="https://jira.corp.adobe.com/browse/DOCAC-15570" target="_blank">DOCAC-15570</a>
+
+* **Calendário unificado para Campanhas, Jornadas e campanhas orquestradas** - A exibição de calendário para jornadas e campanhas agora sai de inventários separados em um menu unificado acessível no painel esquerdo que mostra ambos em uma exibição combinada. <a href="https://jira.corp.adobe.com/browse/DOCAC-15571" target="_blank">DOCAC-15571</a> <!-- Documentation link: TBD -->
 
 
