@@ -9,17 +9,18 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 18306a37e360f359712c51b3755d2f5739bfc6f8
+    internal-label: Journey Optimizer release notes
+source-git-commit: f51e40d9c110b219275f6b246ce34121d3dad598
 workflow-type: tm+mt
-source-wordcount: 2943
+source-wordcount: '2976'
 ht-degree: 11%
-
 ---
-
 
 # Notas de pré-lançamento {#e-release-notes}
 
@@ -178,7 +179,7 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 </tbody>
 </table>
 
-* **Lógica de espera de avaliação de público em lote refinada** - Na **atividade de leitura de público**, a opção &quot;Acionar após avaliação de público em lote&quot; no jornada agora aguarda a conclusão de qualquer segmentação em lote que já esteja em andamento, garantindo que a jornada use os dados da execução em vez de recorrer a um instantâneo mais antigo. Se nenhuma segmentação em lote estiver em andamento, a jornada será acionada imediatamente usando os dados de público-alvo mais recentes disponíveis. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
+* **Lógica de espera de avaliação de público em lote refinada** - Na **atividade de leitura de público**, a opção &quot;Acionar após avaliação de público em lote&quot; no jornada agora sempre aguarda a conclusão de uma segmentação em lote em andamento, garantindo que a jornada use os dados da execução em vez de recorrer a um instantâneo mais antigo. Se nenhuma segmentação de lote estiver em andamento, a jornada usará o instantâneo mais recente disponível imediatamente, a menos que esse instantâneo seja o mesmo lote usado na execução anterior, caso em que a jornada aguarda até a janela configurada para um lote mais recente, e ignora a execução desse dia se nenhum chegar a tempo. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
 
 * **Comparar versões do jornada com o CX Coworker** - Hoje, examinar o que foi alterado entre duas versões de uma jornada requer compará-lo manualmente dentro do nó do Journey Optimizer por nó. Não há diferença estruturada, o que torna as verificações de revisão de alteração, auditoria e pré-publicação lentas e propensas a erros, especialmente quando o jornada se torna mais complexo. Esse recurso permite que um cliente ou agente de IA compare duas versões de uma jornada por meio do CX Coworker Chat e obtenha de volta uma comparação completa e **estruturada** - nós adicionados/removidos/modificados/movidos com detalhes em nível de campo, conexões alteradas, alterações de propriedade em nível de jornada e contagens acumuladas - sem abrir o Journey Optimizer. <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">DOCAC-15297</a> <!-- Documentation link: TBD -->
 
@@ -348,7 +349,7 @@ Os recursos e melhorias a seguir estão chegarão à Decisão nesta versão.
 </tbody>
 </table>
 
-* **Geração de regra de decisão do CX Coworker** - A **experiência da geração de regra de decisão assistida por IA**, anteriormente disponível por meio do painel direito, agora pode ser acessada pelo CX Coworker, que substitui o painel direito como a maneira de criar regras com IA. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+* **Geração de regra de decisão do CX Coworker** - A experiência de **geração de regra de decisão assistida por IA**, anteriormente disponível por meio do painel direito, agora pode ser acessada por meio do CX Coworker, que substitui o painel direito como a maneira de criar regras com IA. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
 
 ### Correspondência direta {#sep-26-direct-mail}
 
