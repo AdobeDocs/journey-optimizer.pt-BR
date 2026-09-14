@@ -16,9 +16,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: f51e40d9c110b219275f6b246ce34121d3dad598
+source-git-commit: 45438d2e7d89e2131145abf723bd695c50865022
 workflow-type: tm+mt
-source-wordcount: '2976'
+source-wordcount: '3006'
 ht-degree: 11%
 ---
 
@@ -187,6 +187,8 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 
 * **Alerta de Nova Anomalia de Jornada Detectada** - Um novo alerta do sistema agora avisa quando o tráfego diário de uma jornada em tempo real se desvia de sua própria linha de base histórica ou cai para zero inesperadamente, entre Entradas de Jornada, Saídas de Jornada e Envios de evento. Este alerta está disponível atualmente somente em sandboxes de produção. <a href="https://jira.corp.adobe.com/browse/DOCAC-15545" target="_blank">DOCAC-15545</a> <!-- Documentation link: TBD -->
 
+* **Eventos de etapa reduzidos para atividades de espera e de evento** - Os eventos de etapa não são mais gerados para atividades de **espera** e **evento** quando o perfil não foi realmente processado nessa atividade. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
+
 ### Canais {#sep-26-channels}
 
 Os seguintes recursos e melhorias estão chegando aos canais nesta versão.
@@ -349,7 +351,7 @@ Os recursos e melhorias a seguir estão chegarão à Decisão nesta versão.
 </tbody>
 </table>
 
-* **Geração de regra de decisão do CX Coworker** - A experiência de **geração de regra de decisão assistida por IA**, anteriormente disponível por meio do painel direito, agora pode ser acessada por meio do CX Coworker, que substitui o painel direito como a maneira de criar regras com IA. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+* **Geração de regra de decisão do CX Coworker** - A **experiência da geração de regra de decisão assistida por IA**, anteriormente disponível por meio do painel direito, agora pode ser acessada pelo CX Coworker, que substitui o painel direito como a maneira de criar regras com IA. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
 
 ### Correspondência direta {#sep-26-direct-mail}
 
