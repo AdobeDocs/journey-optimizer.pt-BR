@@ -9,17 +9,18 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 18306a37e360f359712c51b3755d2f5739bfc6f8
+    internal-label: Journey Optimizer release notes
+source-git-commit: b52a13ced7828d3e484508caf24b1e4716df087e
 workflow-type: tm+mt
-source-wordcount: 2943
-ht-degree: 11%
-
+source-wordcount: '3422'
+ht-degree: 10%
 ---
-
 
 # Notas de pré-lançamento {#e-release-notes}
 
@@ -111,6 +112,8 @@ Os seguintes recursos e melhorias estão chegando ao Fidelidade nesta versão.
 
 * **Habilidade de recomendação de fidelidade do CX Coworker** - Os profissionais de marketing agora podem solicitar **oportunidades de desafio** diretamente na interface de conversação do CX Coworker, obtendo ideias de desafio baseadas em tendências reais do programa de fidelidade e transformando-as em desafios ao vivo sem sair do chat. <a href="https://jira.corp.adobe.com/browse/DOCAC-15565" target="_blank">DOCAC-15565</a> <!-- Documentation link: TBD -->
 
+* **Domínio de desafios no editor de personalização de Cartão de Conteúdo** - O editor de personalização de Cartão de Conteúdo agora aceita **Desafios** como um domínio, permitindo que você acesse metadados de desafio ao criar a personalização de cartão de conteúdo. Isso facilita a criação de conteúdo personalizado para cada estágio de um desafio — Início, Em andamento e Término — sem código personalizado. <a href="https://jira.corp.adobe.com/browse/DOCAC-15681" target="_blank">DOCAC-15681</a> <!-- Documentation link: TBD -->
+
 ### Integração {#sep-26-onboarding}
 
 O recurso a seguir está sendo integrado nesta versão.
@@ -178,13 +181,41 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 </tbody>
 </table>
 
-* **Lógica de espera de avaliação de público em lote refinada** - Na **atividade de leitura de público**, a opção &quot;Acionar após avaliação de público em lote&quot; no jornada agora aguarda a conclusão de qualquer segmentação em lote que já esteja em andamento, garantindo que a jornada use os dados da execução em vez de recorrer a um instantâneo mais antigo. Se nenhuma segmentação em lote estiver em andamento, a jornada será acionada imediatamente usando os dados de público-alvo mais recentes disponíveis. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
+<table>
+<thead>
+<tr>
+<th><strong>Atividade de entrada do jornada de desativação de atividade</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Uma nova atividade de <strong>Desativação de atividade de entrada</strong> na tela de jornada permite remover um perfil de até cinco atividades ou experiências de entrada diretamente de uma jornada, dissociando a desqualificação de entrada da saída do jornada para uma orquestração entre canais mais avançada.</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15686" target="_blank">DOCAC-15686</a></p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Lógica de espera de avaliação de público em lote refinada** - Na **atividade de leitura de público**, a opção &quot;Acionar após avaliação de público em lote&quot; no jornada agora sempre aguarda a conclusão de uma segmentação em lote em andamento, garantindo que a jornada use os dados da execução em vez de recorrer a um instantâneo mais antigo. Se nenhuma segmentação de lote estiver em andamento, a jornada usará o instantâneo mais recente disponível imediatamente, a menos que esse instantâneo seja o mesmo lote usado na execução anterior, caso em que a jornada aguarda até a janela configurada para um lote mais recente, e ignora a execução desse dia se nenhum chegar a tempo. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
 
 * **Comparar versões do jornada com o CX Coworker** - Hoje, examinar o que foi alterado entre duas versões de uma jornada requer compará-lo manualmente dentro do nó do Journey Optimizer por nó. Não há diferença estruturada, o que torna as verificações de revisão de alteração, auditoria e pré-publicação lentas e propensas a erros, especialmente quando o jornada se torna mais complexo. Esse recurso permite que um cliente ou agente de IA compare duas versões de uma jornada por meio do CX Coworker Chat e obtenha de volta uma comparação completa e **estruturada** - nós adicionados/removidos/modificados/movidos com detalhes em nível de campo, conexões alteradas, alterações de propriedade em nível de jornada e contagens acumuladas - sem abrir o Journey Optimizer. <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">DOCAC-15297</a> <!-- Documentation link: TBD -->
 
 * **Visualização de conteúdo na tela do jornada** - A revisão de conteúdo do canal hoje requer a abertura de cada nó individualmente, um de cada vez - lento e sujeito a erros no jornada com muitos nós de canal, especialmente quando a personalização significa a verificação de vários tratamentos ou variantes por nó. A **visualização de conteúdo** remove esse atrito ao exibir uma miniatura de conteúdo para cada nó de canal diretamente na tela, com um modal de tela cheia para inspecionar e alternar entre tratamentos e variantes. <a href="https://jira.corp.adobe.com/browse/DOCAC-15456" target="_blank">DOCAC-15456</a> <!-- Documentation link: TBD -->
 
 * **Alerta de Nova Anomalia de Jornada Detectada** - Um novo alerta do sistema agora avisa quando o tráfego diário de uma jornada em tempo real se desvia de sua própria linha de base histórica ou cai para zero inesperadamente, entre Entradas de Jornada, Saídas de Jornada e Envios de evento. Este alerta está disponível atualmente somente em sandboxes de produção. <a href="https://jira.corp.adobe.com/browse/DOCAC-15545" target="_blank">DOCAC-15545</a> <!-- Documentation link: TBD -->
+
+* **Eventos de etapa reduzidos para atividades de espera e de evento** - Os eventos de etapa não são mais gerados para atividades de **espera** e **evento** quando o perfil não foi realmente processado nessa atividade. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
+
+* **Supressão de evento de etapa de execução seca para relatórios personalizados** - Como parte da otimização de evento de etapa, o Journey Optimizer agora interrompe a geração de determinados eventos de etapa não reportáveis durante as Execuções Secas de Jornada. Isso só afeta relatórios personalizados criados nesses tipos de evento de etapa de execução segura. Se você for afetado, acione novamente a simulação para gerar dados novamente. <a href="https://jira.corp.adobe.com/browse/DOCAC-15691" target="_blank">DOCAC-15691</a> <!-- Documentation link: TBD -->
+
+* **Habilidade do Colaborador da Análise de Higiene** - Uma nova habilidade do **Análise de Higiene** na CX Coworker verifica as jornadas ativas e de rascunho em busca de configurações com falha, falhas silenciosas e ativos em decomposição ou não utilizados — como jornadas de rascunho obsoletas, fontes de dados órfãs, erros de ação personalizada persistentes e altas taxas de exclusão de consentimento — e apresenta correções recomendadas diretamente do chat. <a href="https://jira.corp.adobe.com/browse/DOCAC-15689" target="_blank">DOCAC-15689</a> <!-- Documentation link: TBD -->
+
+* **Habilidade do Colaborador na Análise de Desempenho de Negócios** - Uma nova habilidade **Análise de Desempenho de Negócios** na CX Coworker analisa o desempenho de suas jornadas, explica áreas de baixo desempenho e recomenda otimizações concretas, como esperas de reengajamento, escalonamento de canal, Otimização de Tempo de Envio, experimentos A/B, limite de frequência ou uso de fuso horário de perfil, vinculadas à meta de cada jornada. <a href="https://jira.corp.adobe.com/browse/DOCAC-15688" target="_blank">DOCAC-15688</a> <!-- Documentation link: TBD -->
+
+* **Tempo limite de recuperação automática de evento nas Propriedades de Jornada** - As Propriedades de Jornada agora incluem uma configuração **Definir tempo limite de recuperação de evento**: por padrão, os eventos de jornada afetados são repetidos automaticamente por até 72 horas após uma interrupção de serviço sem a necessidade de nenhuma ação. Você pode ativar essa configuração para controlar a janela de repetição (0-72 horas) para jornadas sensíveis ao tempo. O campo existente **Tempo limite ou erro** também foi renomeado para **Tempo limite de Ação Personalizada/Ação de IDS** para evitar confusão entre as duas configurações. <a href="https://jira.corp.adobe.com/browse/DOCAC-15685" target="_blank">DOCAC-15685</a> <!-- Documentation link: TBD -->
 
 ### Canais {#sep-26-channels}
 
@@ -348,7 +379,7 @@ Os recursos e melhorias a seguir estão chegarão à Decisão nesta versão.
 </tbody>
 </table>
 
-* **Geração de regra de decisão do CX Coworker** - A **experiência da geração de regra de decisão assistida por IA**, anteriormente disponível por meio do painel direito, agora pode ser acessada pelo CX Coworker, que substitui o painel direito como a maneira de criar regras com IA. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+* **Geração de regra de decisão do CX Coworker** - A experiência de **geração de regra de decisão assistida por IA**, anteriormente disponível por meio do painel direito, agora pode ser acessada por meio do CX Coworker, que substitui o painel direito como a maneira de criar regras com IA. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
 
 ### Correspondência direta {#sep-26-direct-mail}
 
@@ -459,5 +490,7 @@ O lembrete a seguir se aplica à administração nesta versão.
 ### Melhorias de usabilidade {#sep-26-usability}
 
 * **Melhorias de usabilidade na experiência de Simulação de conteúdo** - A nova experiência de Simulação de conteúdo agora permite nomear e organizar suas variantes para facilitar a comparação, copiar ou excluir detalhes da variante diretamente de cada cartão, exibir caminhos completos de atributos e configuração de canal por cartão sob demanda e carregar seus próprios perfis CSV, JSON ou JSONL com um botão de carregamento mais destacado. <a href="https://jira.corp.adobe.com/browse/DOCAC-15570" target="_blank">DOCAC-15570</a>
+
+* **Calendário unificado para Campanhas, Jornadas e campanhas orquestradas** - A exibição de calendário para jornadas e campanhas agora sai de inventários separados em um menu unificado acessível no painel esquerdo que mostra ambos em uma exibição combinada. <a href="https://jira.corp.adobe.com/browse/DOCAC-15571" target="_blank">DOCAC-15571</a> <!-- Documentation link: TBD -->
 
 

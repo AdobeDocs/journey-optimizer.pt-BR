@@ -9,17 +9,19 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b364427cbb6cc0c463c1d14bff2dc6e042830b86
+    internal-label: Edge Decisioning
+source-git-commit: a8c364461ba54c1153766771932d2ef0e91976cc
 workflow-type: tm+mt
-source-wordcount: 2888
+source-wordcount: '2888'
 ht-degree: 13%
-
 ---
-
 # Criar o primeiro item de decisão {#items}
 
 >[!BEGINSHADEBOX]
@@ -140,12 +142,12 @@ Ao selecionar públicos-alvo ou regras de decisão, é possível ver informaçõ
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="Expressão"
->abstract="Em vez de usar um valor estático para o limite, é possível definir uma expressão própria. Isso permite calcular o limite dinamicamente usando atributos de decisão e/ou atributos externos de um conjunto de dados da Adobe Experience Platform.<br/><br/>As **expressões** de regra de limite estão disponíveis no momento em Disponibilidade limitada para todos os usuários. Elas só possuem compatibilidade com o tipo de limite **[!UICONTROL No total]**."
+>abstract="Em vez de usar um valor estático para o limite de limite, você pode definir sua própria expressão. Isso permite calcular o limite dinamicamente usando atributos de decisão e/ou atributos externos de um conjunto de dados da Adobe Experience Platform.<br/><br/>As **expressões** de regra de limite estão disponíveis no momento em Disponibilidade limitada para todos os usuários. Elas só possuem compatibilidade com o tipo de limite **[!UICONTROL No total]**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_scope"
 >title="Limite de escopo"
->abstract="Defina como a regra de limitação se aplica a posicionamentos. Por padrão, uma única tampa é aplicada independentemente da disposição. Selecione **Cada posicionamento** para rastrear o limite de maneira independente por posicionamento, ou **Posicionamento específico** para restringir o limite somente aos posicionamentos selecionados. Observe que o limite de **Posicionamento específico** só tem suporte para os canais da Web e Email."
+>abstract="Defina como a regra de limite se aplica a diferentes inserções. Por padrão, um único limite é aplicado, independentemente da inserção. Selecione **Cada inserção** para rastrear o limite de maneira independente por inserção, ou **Inserção específica** para restringir o limite somente às inserções selecionadas. Observe que o limite de **Inserção específica** é aceito apenas nos canais de Web e Email."
 
 O limite é usado como uma restrição para definir o número máximo de vezes que um item de oferta pode ser apresentado. Limitar o número de vezes que os usuários obtêm ofertas específicas permite evitar o excesso de solicitações de seus clientes e, portanto, otimizar cada ponto de contato com a melhor oferta. Você pode criar até 10 limites para um determinado item de decisão.
 
@@ -227,7 +229,7 @@ Para definir regras de limite para o item de decisão, siga as etapas detalhadas
 
    +++Limite de expressão
 
-   Em vez de usar um valor estático para o limite, é possível definir uma expressão própria. Isso permite calcular o limite dinamicamente usando atributos de decisão e/ou atributos externos de um conjunto de dados da Adobe Experience Platform.
+   Em vez de usar um valor estático para o limite de limite, você pode definir sua própria expressão. Isso permite calcular o limite dinamicamente usando atributos de decisão e/ou atributos externos de um conjunto de dados da Adobe Experience Platform.
 
    Por exemplo, um profissional de marketing pode decidir adicionar um multiplicador para ajustar a exposição. Por exemplo, eles poderiam multiplicar o inventário disponível por dois, permitindo que a oferta fosse mostrada para o dobro de clientes que as unidades disponíveis. Essa abordagem antecipa que nem todos os clientes farão a conversão, garantindo um melhor alcance sem venda excessiva.
 
