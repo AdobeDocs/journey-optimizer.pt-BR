@@ -10,16 +10,17 @@ level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 13%
-
+source-wordcount: '1021'
+ht-degree: 14%
 ---
-
 # Introdução aos desafios de fidelidade {#get-started-loyalty-challenges}
 
 >[!CONTEXTUALHELP]
@@ -60,7 +61,7 @@ Você pode criar estes tipos de experiências de desafio:
 * **Traga seus próprios desafios de dados** (disponibilidade restrita): a estrutura de desafios (tarefas e recompensas) é montada a partir da integração de dados dos Desafios de Fidelidade. Defina Configurações, Conteúdo e Mensagens da mesma maneira que faria para qualquer outro tipo de desafio.
 
 >[!TIP]
->Você também pode criar e gerenciar desafios de fidelidade usando o **Gerenciamento de Desafio de Fidelidade** na [Habilidades de Jornada do CX Co-worker](../start/ajo-coworker-skills.md#loyalty-challenge-management) com prompts de linguagem natural para a criação mais rápida de desafios.
+>Você também pode criar e gerenciar desafios de fidelidade usando o **Gerenciamento de Desafio de Fidelidade** em [Habilidades do CX Coworker para fidelidade](../start/loyalty-coworker-skills.md#loyalty-challenge-management) com prompts de linguagem natural para a criação mais rápida de desafios.
 
 ➡️ [Assista a uma visão geral do recurso](#video)
 
@@ -163,7 +164,7 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar desafios de fidelidade</strong></a>
     </div>
     <p>
@@ -186,5 +187,9 @@ Para obter a autenticação e os cabeçalhos necessários, consulte o [tutorial 
 
 **Novo nos Desafios de Fidelidade?** Assista a esta visão geral para entender os recursos e benefícios:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496455?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
+
+## Demonstração interativa {#demo}
+
+Quer ver os desafios de fidelidade em ação primeiro? Veja a [demonstração interativa](loyalty-challenges-demo.md).
 
