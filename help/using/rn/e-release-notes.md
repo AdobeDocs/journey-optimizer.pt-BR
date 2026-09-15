@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: f4e6891fa1821333a87a5477472b473d23df3eb5
+source-git-commit: 0c1cbd19028f83d5690e853159eab761ee677f00
 workflow-type: tm+mt
-source-wordcount: '3342'
-ht-degree: 10%
+source-wordcount: '3543'
+ht-degree: 9%
 ---
 
 # Notas de pré-lançamento {#e-release-notes}
@@ -32,6 +32,23 @@ O Adobe Journey Optimizer fornece de forma contínua novos recursos, melhorias p
 Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Data de lançamento**: 22 a 23 de setembro de 2026
+
+>[!BEGINSHADEBOX]
+
+**Novo no CX Coworker este mês**
+
+Esta versão traz vários recursos e habilidades novos e aprimorados do [CX Coworker](../start/ai-features.md#cx-coworker), listados aqui para visibilidade. Cada uma delas também é detalhada em sua seção relevante abaixo.
+
+* [Plug-ins Message-copy e email-design](#sep-26-content-management) - Dois novos plug-ins que simplificam os fluxos de trabalho de mensagens e email no CX Coworker, desde o resumo da campanha até a cópia pronta para produção e o HTML.
+* [Habilidade de recomendação de fidelidade](#sep-26-loyalty) - Solicite oportunidades de desafio diretamente na interface conversacional da CX Coworker e transforme-as em desafios ao vivo sem sair do chat.
+* [Simulação de Jornada (MCP e Chat)](#sep-26-journeys) - Automatize a validação de jornada de ponta a ponta e interprete os resultados diretamente no CX Coworker.
+* [Criação de Jornadas no painel do CX Coworker](#sep-26-journeys) - Gere jornadas com IA diretamente no painel direito do CX Coworker, substituindo a experiência anterior do Assistente de IA.
+* [Comparar versões do jornada](#sep-26-journeys) - Obtenha uma comparação estruturada e de fidelidade completa entre duas versões de uma jornada por meio do CX Coworker Chat.
+* [Habilidade da Análise de Higiene](#sep-26-journeys) - Examine jornadas ativas e de rascunho em busca de configurações corrompidas, falhas silenciosas e ativos em decomposição ou não utilizados, com correções recomendadas.
+* [Habilidade em Análise de Desempenho de Negócios](#sep-26-journeys) - Analise o desempenho da jornada e obtenha recomendações concretas de otimização, diretamente do chat.
+* [Geração de regra de decisão](#sep-26-decisioning) - Crie regras de decisão assistida por IA diretamente no CX Coworker, que agora substitui o painel correto para essa experiência.
+
+>[!ENDSHADEBOX]
 
 ### Gerenciamento de conteúdo {#sep-26-content-management}
 
@@ -210,7 +227,8 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 
 * **Comparar versões do jornada com o CX Coworker** - Hoje, examinar o que foi alterado entre duas versões de uma jornada requer compará-lo manualmente dentro do nó do Journey Optimizer por nó. Não há diferença estruturada, o que torna as verificações de revisão de alteração, auditoria e pré-publicação lentas e propensas a erros, especialmente quando o jornada se torna mais complexo. Esse recurso permite que um cliente ou agente de IA compare duas versões de uma jornada por meio do CX Coworker Chat e obtenha de volta uma comparação completa e **estruturada** - nós adicionados/removidos/modificados/movidos com detalhes em nível de campo, conexões alteradas, alterações de propriedade em nível de jornada e contagens acumuladas - sem abrir o Journey Optimizer.
 
-* **Eventos de etapa reduzidos para atividades de espera e de evento** - Os eventos de etapa não são mais gerados para atividades de **espera** e **evento** quando o perfil não foi realmente processado nessa atividade. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
+* **Eventos de etapa reduzidos para atividades de espera e de evento** - Os eventos de etapa não são mais gerados para atividades de **espera** e **evento** quando o perfil não foi realmente processado nessa atividade. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 -->
+<!-- Documentation link: TBD -->
 
 * **Supressão de evento de etapa de execução seca para relatórios personalizados** - Como parte da otimização de evento de etapa, o Journey Optimizer agora interrompe a geração de determinados eventos de etapa não reportáveis durante as Execuções Secas de Jornada. Isso só afeta relatórios personalizados criados nesses tipos de evento de etapa de execução segura. Se você for afetado, acione novamente a simulação para gerar dados novamente.
 
@@ -366,7 +384,7 @@ Os recursos e melhorias a seguir estão chegarão à Decisão nesta versão.
 </tbody>
 </table>
 
-* **Geração de regra de decisão do CX Coworker** - A **experiência da geração de regra de decisão assistida por IA**, anteriormente disponível por meio do painel direito, agora pode ser acessada pelo CX Coworker, que substitui o painel direito como a maneira de criar regras com IA.
+* **Geração de regra de decisão do CX Coworker** - A experiência de **geração de regra de decisão assistida por IA**, anteriormente disponível por meio do painel direito, agora pode ser acessada por meio do CX Coworker, que substitui o painel direito como a maneira de criar regras com IA.
 
 * **Suporte para perfis Adobe Experience Platform na simulação de fórmula de Regra e Classificação** - Ao simular uma Regra ou Fórmula de Classificação, agora é possível selecionar um perfil Adobe Experience Platform para preencher automaticamente os atributos de uma variante de dados de teste, em vez de inseri-los manualmente.
 
