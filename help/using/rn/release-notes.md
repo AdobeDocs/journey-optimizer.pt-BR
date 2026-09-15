@@ -10,27 +10,35 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+    internal-label: Journey Optimizer release notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7047a27a870c50f7a093ec7d98d8398948b78edb
+    internal-label: Personalization
+source-git-commit: 8ab5420bfd86de2bbf69c551b1a9f865663a15f0
 workflow-type: tm+mt
-source-wordcount: 2640
-ht-degree: 73%
-
+source-wordcount: '2877'
+ht-degree: 68%
 ---
-
 # Notas de versão {#release-notes}
 
 >[!CONTEXTUALHELP]
@@ -60,7 +68,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tr>
 <td>
 <p>O CX Co-worker agora tem um novo conjunto de <strong>ferramentas de MCP de gerenciamento de conteúdo</strong>, permitindo que você descubra e gerencie ativos de conteúdo do Journey Optimizer por meio de prompts de linguagem natural. Solicite que ele liste ou recupere modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem integrada do jornada/campaign. Ele também pode criar conteúdo, atualizar modelos e criar, atualizar, clonar e publicar fragmentos, além de atualizar o conteúdo da ação de canal em linha diretamente no jornada e no Campaign.</p>
-<p>Para obter mais informações, consulte a <a href="../start/ajo-coworker-skills.md#content-management">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../start/content-management-coworker-skills.md#content-management">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 3 de setembro de 2026</p>
 </td>
 </tr>
@@ -70,6 +78,16 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 * **Caixa de seleção de consentimento obrigatório para páginas de aterrissagem** - Agora é possível tornar uma caixa de seleção obrigatória no componente de formulário da página de aterrissagem, exigindo que os visitantes a selecionem (por exemplo, para dar consentimento) antes que possam enviar o formulário. [Saiba mais](../landing-pages/lp-content.md#use-form-component)
 
   Data de disponibilidade: 4 de setembro de 2026
+
+* **Palavras-chave reservadas adicionais na sintaxe de personalização** - A lista de palavras-chave reservadas no Profile Query Language (PQL) foi expandida para incluir palavras-chave gerais, unidades de tempo e operadores booleanos/lógicos. Se o esquema XDM contiver um nome de campo que corresponda a uma dessas palavras-chave, coloque-o entre acentos graves para fazer referência a ele em uma expressão de personalização. [Saiba mais](../personalization/personalization-syntax.md#reserved-keywords)
+
+  Data de disponibilidade: 1º de setembro de 2026
+
+### Fidelidade {#sep-26-loyalty}
+
+* **Desafios de fidelidade &quot;para sempre&quot;** - Os desafios de fidelidade agora podem ser executados indefinidamente. Defina **Fim do desafio** como **Sem data de término** ao configurar o agendamento, e o desafio nunca expirará. [Saiba mais](../loyalty-challenges/create-challenges.md#schedule)
+
+  Data de disponibilidade: 1º de setembro de 2026
 
 ### Jornadas {#sep-26-journeys}
 
@@ -109,6 +127,18 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tbody>
 </table>
 
+* **Alerta de Nova Anomalia de Jornada Detectada** - Um novo alerta do sistema agora avisa quando o tráfego diário de uma jornada em tempo real se desvia de sua própria linha de base histórica ou cai para zero inesperadamente, entre Entradas de Jornada, Saídas de Jornada e Envios de evento. Este alerta está disponível atualmente somente em sandboxes de produção.
+
+  [Saiba mais](../reports/alerts.md)
+
+  Data de disponibilidade: 15 de setembro de 2026
+
+* **A Decisão na simulação de Jornada** - Experimentação de Caminho, como parte da atividade **Otimizar**, agora é compatível com a Simulação.
+
+  [Saiba mais](../building-journeys/simulate-journey-gs.md)
+
+  Data de disponibilidade: 15 de setembro de 2026
+
 * **Decisão na simulação de Jornada** - Agora é possível simular jornadas que dependem da decisão do Adobe Journey Optimizer, com os seguintes itens recém-suportados:
 
   * Os nós de Decisão de conteúdo agora são compatíveis com a Simulação.
@@ -124,7 +154,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
   Data de disponibilidade: 1º de setembro de 2026
 
-* **Analisar habilidade de Anomalias de Jornada** - O CX Co-worker pode detectar picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de mensagem de uma jornada em relação às linhas de base históricas usando a habilidade **Analisar anomalias de Jornada**. Depois que uma anomalia real é confirmada, a habilidade executa diagnósticos somente leitura para mostrar uma causa básica provável e uma recomendação. [Saiba mais](../start/ajo-coworker-skills.md#journey-analyze)
+* **Analisar habilidade de Anomalias de Jornada** - O CX Co-worker pode detectar picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de mensagem de uma jornada em relação às linhas de base históricas usando a habilidade **Analisar anomalias de Jornada**. Depois que uma anomalia real é confirmada, a habilidade executa diagnósticos somente leitura para mostrar uma causa básica provável e uma recomendação. [Saiba mais](../start/journeys-coworker-skills.md#journey-analyze)
 
   Data de disponibilidade: 2 de setembro de 2026
 
@@ -155,6 +185,12 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 * **Substituir os campos de execução padrão em Campanhas de ação** - Anteriormente disponíveis no nível de jornada, agora é possível substituir os campos de execução padrão configurados globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da Campanha de ação.
 
 +++
+
+### Melhorias de usabilidade {#sep-26-usability}
+
+* **Desanexar e associar ramificações com mais facilidade na nova tela de jornada** - Agora é possível desanexar uma ramificação do restante da jornada sem excluí-la e associá-la novamente mais tarde em outro ponto, selecionando uma atividade qualificada diretamente na tela ou selecionando-a em uma lista de ramificações desconectadas ou já usadas. [Saiba mais](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
+
+  Data de disponibilidade: 1º de setembro de 2026
 
 ## Notas de versão de agosto de 2026 {#aug-26-updates}
 
@@ -313,7 +349,7 @@ As seguintes funcionalidades e melhorias foram introduzidas nas Campanhas orques
 <tr>
 <td>
 <p>A Journey Optimizer apresenta o <strong>Loyalty Insights</strong>, uma nova habilidade do CX Co-worker, que faz perguntas sobre o desempenho de desafio e outros dados de programa de fidelidade assimilados nos grupos de campos de Fidelidade do Adobe Experience Platform.</p>
-<p>Para obter mais informações, consulte a <a href="../start/ajo-coworker-skills.md#loyalty-skills">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../start/loyalty-coworker-skills.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 31 de agosto de 2026</p>
 </td>
 </tr>
