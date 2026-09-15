@@ -10,15 +10,15 @@ level: Intermediate
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+    internal-label: Loyalty challenges
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: 1755
-ht-degree: 15%
-
+source-wordcount: '1755'
+ht-degree: 18%
 ---
-
 # Configurar desafios de fidelidade {#loyalty-admin}
 
 ## Visão geral {#access-loyalty-admin}
@@ -174,12 +174,12 @@ Para editar um provedor de premiação, abra a guia **[!UICONTROL Provedores de 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
 >title="Esquema e transformador de evento"
->abstract="Na seção Esquema de evento, forneça uma expressão JSONata **[!UICONTROL Transformer]** para mapear campos de evento de entrada no formato que o Loyalty Challenges espera."
+>abstract="Na seção Esquema de evento, forneça uma expressão JSONata **[!UICONTROL Transformer]** para mapear campos de evento de entrada no formato que os Desafios de fidelidade esperam."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
 >title="Identificação de evento"
->abstract="Na seção Identificação do evento, forneça o nome do evento e a ID do esquema XDM necessária usada para identificar eventos de entrada."
+>abstract="Na seção Identificação do evento, forneça o nome do evento e a ID do esquema XDM exigida usada para identificar eventos de entrada."
 
 **[!UICONTROL As definições de evento]** informam a [!DNL Journey Optimizer] quais eventos de entrada de experiência do Adobe Experience Platform processar. Por exemplo, uma compra ou um check-in de hotel. Os profissionais de marketing fazem referência a essas definições quando criam tarefas de **[!UICONTROL Evento personalizado]** no construtor de tarefas. Eventos que não correspondem a nenhuma definição são ignorados.
 

@@ -12,23 +12,28 @@ exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 TQID: https://experienceleague.adobe.com/9IgYERskcUrIAhTb3xlNgWTRyY-04O58ZB8I0lYFh4g
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+    internal-label: Email design
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+    internal-label: Publish
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 source-git-commit: bfbdc1c88c1cc73f79eee0672d0d6708def69abc
 workflow-type: tm+mt
-source-wordcount: 916
-ht-degree: 7%
-
+source-wordcount: '916'
+ht-degree: 11%
 ---
-
 # Anexar um arquivo PDF a um email {#pdf-attachments}
 
 >[!BEGINSHADEBOX]
@@ -39,8 +44,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
->title="Adicionar um anexo do PDF"
->abstract="Navegue para selecionar um arquivo PDF para anexar ao seu email.</br>Você pode enviar até 6 mensagens com um anexo do PDF por perfil por ano. O tamanho máximo permitido para cada anexo é de 5 MB.</br>Para qualquer tamanho ou volume adicional, você pode comprar o complemento Anexos do PDF. Para obter mais informações, entre em contato com um representante da Adobe."
+>title="Adicionar um anexo em PDF"
+>abstract="Navegue para selecionar um arquivo PDF para anexar ao seu email.</br>É possível enviar até seis mensagens com um anexo em PDF por perfil, por ano. O tamanho máximo permitido para cada anexo é de 5 MB.</br>Para qualquer tamanho ou volume adicional, é possível adquirir um complemento de Anexos em PDF. Para obter mais informações, entre em contato com um representante da Adobe."
 
 Você pode anexar um arquivo PDF estático às mensagens de email enviadas com [!DNL Journey Optimizer]. Se você usa [campanhas acionadas por API](../campaigns/api-triggered-campaigns.md), também será possível anexar um [arquivo PDF personalizado para cada destinatário](#personalized-attachments).
 

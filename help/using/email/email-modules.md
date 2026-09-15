@@ -10,14 +10,13 @@ level: Beginner, Intermediate
 keywords: módulos, designer de email, cabeçalhos, herói, cartões, rodapé, layout de email, arrastar e soltar
 feature_v2:
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2: []
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 0%
-
+source-wordcount: '573'
+ht-degree: 10%
 ---
-
 
 # Usar módulos no Designer de email {#email-layout-modules}
 
@@ -30,7 +29,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_email_modules"
 >title="Sobre módulos"
->abstract="Os módulos são blocos de layout de email predefinidos e reutilizáveis que você pode arrastar e soltar diretamente na tela de email. Cada módulo vem pré-configurado com um conjunto preparado de propriedades editáveis — como imagens, texto, botões e links — que você pode personalizar por meio da interface do WYSIWYG."
+>abstract="Os módulos são blocos de layout de email predefinidos e reutilizáveis que você pode arrastar e soltar diretamente na tela de email. Cada módulo vem pré-configurado com um conjunto selecionado de propriedades editáveis — como imagens, texto, botões e links — que você pode personalizar por meio da interface do WYSIWYG."
 
 O Designer de email inclui uma biblioteca de **módulos**: blocos de conteúdo totalmente estruturados e prontos para uso, criados para acelerar a montagem de emails e promover a consistência de design em suas comunicações.
 
