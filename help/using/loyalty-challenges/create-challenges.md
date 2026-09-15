@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6a722f9d3f9a8d07e5f463b709390a5cb9c7cbb9
 workflow-type: tm+mt
-source-wordcount: '2577'
-ht-degree: 12%
+source-wordcount: '2634'
+ht-degree: 11%
 ---
 
 # Criar desafios {#create-challenges}
@@ -102,14 +102,14 @@ Defina quem pode participar do seu desafio de fidelidade.
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Programação de desafio"
->abstract="Defina quando o desafio está ativo usando data e hora de início e término e um fuso horário. Na janela de conclusão da tarefa, escolha quando os clientes podem concluir tarefas durante o período de desafio."
+>abstract="Defina quando o desafio estiver online usando a data e hora de início e término e um fuso horário ou selecione Nenhuma data de término para executar o desafio indefinidamente. Na janela de conclusão da tarefa, escolha quando os clientes podem concluir tarefas durante o período de desafio."
 
 Configure quando seu desafio é executado:
 
 1. Na seção **[!UICONTROL Agendamento]**, defina:
 
    * **[!UICONTROL Data e hora de início]**: quando o desafio se torna disponível para os clientes.
-   * **[!UICONTROL Data e hora de término]**: quando o desafio expira e não aceita mais novas conclusões.
+   * **[!UICONTROL Data e hora de término]**: quando o desafio expira e não aceita mais novas conclusões. Selecione **[!UICONTROL Nenhuma data final]** em vez de uma data para executar o desafio indefinidamente.
    * **[!UICONTROL Fuso horário]**: o fuso horário usado para o agendamento de desafio.
 
    ![](assets/challenge-create-schedule.png)
@@ -353,6 +353,8 @@ Você tem duas opções para iniciar seu desafio:
    >[!IMPORTANT]
    >
    >Quaisquer alterações no desafio devem ser feitas no editor de Desafio de Fidelidade e exigirão a geração de uma nova jornada. Qualquer trabalho feito diretamente na jornada de desafio existente será perdido se você fizer alterações no desafio.
+   >
+   >Nenhuma jornada é gerada para desafios configurados com **[!UICONTROL Nenhuma data final]**, já que o jornada não pode ser executado por mais de 90 dias. O desafio em si ainda é executado corretamente e os membros ainda podem aceitar e concluir tarefas.
 
 1. Abra a jornada gerada e publique-a. A jornada aparece no status **Rascunho** com o formato de nome *&quot;Jornada: [Nome do Desafio]&quot;* e pode ser acessada de:
 
@@ -372,21 +374,21 @@ Saiba como criar e configurar desafios de fidelidade com estes tutoriais de víd
 
 **Configurar um desafio de fidelidade** - Criar e configurar um novo desafio de fidelidade
 
->[!VIDEO](https://video.tv.adobe.com/v/3496475?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **Configurar recompensas** - Configurar entrega e atendimento de recompensa
 
->[!VIDEO](https://video.tv.adobe.com/v/3496485?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️ Veja como criar um cartão de conteúdo de desafio
 
->[!VIDEO](https://video.tv.adobe.com/v/3496533?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️ Veja como configurar mensagens de ciclo de vida para um desafio
 
->[!VIDEO](https://video.tv.adobe.com/v/3497459?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️ Veja como publicar um desafio e gerar uma jornada
 
->[!VIDEO](https://video.tv.adobe.com/v/3498581?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 
