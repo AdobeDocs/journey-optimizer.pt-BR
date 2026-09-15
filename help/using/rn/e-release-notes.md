@@ -3,7 +3,6 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Notas de pré-lançamento do Journey Optimizer
 description: Notas de pré-lançamento do Adobe Journey Optimizer
-hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
@@ -16,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: f40121561b1dc4f9f884aead6608e475da4e7a2f
+source-git-commit: f4e6891fa1821333a87a5477472b473d23df3eb5
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3342'
 ht-degree: 10%
 ---
 
@@ -211,8 +210,6 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 
 * **Comparar versões do jornada com o CX Coworker** - Hoje, examinar o que foi alterado entre duas versões de uma jornada requer compará-lo manualmente dentro do nó do Journey Optimizer por nó. Não há diferença estruturada, o que torna as verificações de revisão de alteração, auditoria e pré-publicação lentas e propensas a erros, especialmente quando o jornada se torna mais complexo. Esse recurso permite que um cliente ou agente de IA compare duas versões de uma jornada por meio do CX Coworker Chat e obtenha de volta uma comparação completa e **estruturada** - nós adicionados/removidos/modificados/movidos com detalhes em nível de campo, conexões alteradas, alterações de propriedade em nível de jornada e contagens acumuladas - sem abrir o Journey Optimizer.
 
-* **Visualização de conteúdo na tela do jornada** - A revisão de conteúdo do canal hoje requer a abertura de cada nó individualmente, um de cada vez - lento e sujeito a erros no jornada com muitos nós de canal, especialmente quando a personalização significa a verificação de vários tratamentos ou variantes por nó. A **visualização de conteúdo** remove esse atrito ao exibir uma miniatura de conteúdo para cada nó de canal diretamente na tela, com um modal de tela cheia para inspecionar e alternar entre tratamentos e variantes.
-
 * **Eventos de etapa reduzidos para atividades de espera e de evento** - Os eventos de etapa não são mais gerados para atividades de **espera** e **evento** quando o perfil não foi realmente processado nessa atividade. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
 
 * **Supressão de evento de etapa de execução seca para relatórios personalizados** - Como parte da otimização de evento de etapa, o Journey Optimizer agora interrompe a geração de determinados eventos de etapa não reportáveis durante as Execuções Secas de Jornada. Isso só afeta relatórios personalizados criados nesses tipos de evento de etapa de execução segura. Se você for afetado, acione novamente a simulação para gerar dados novamente.
@@ -324,6 +321,9 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 * **Melhorias no UX de junção direta** - Ao adicionar um atributo de uma coleção relacionada, agora é possível escolher entre três modos de junção — um novo padrão que avisa sobre o impacto potencial no desempenho de produtos cartesianos, além dos modos Agregado e Avançado existentes — facilitando a compreensão das compensações da consulta antes da compilação.
 
 * **Conteúdo condicional com dados relacionais em campanhas orquestradas** - Ao criar conteúdo condicional no Designer de email para campanhas orquestradas, agora é possível criar condições diretamente em **dados relacionais** — como registros relacionados associados a um perfil — não apenas atributos de perfil padrão. Isso fecha uma lacuna da versão original, de modo que os profissionais de marketing podem criar essas condições visualmente, sem precisar de ajuda de engenharia.
+
+* **Monitoramento da Orquestração de Campanha** — Uma nova interface de usuário está disponível para rastrear o status de assimilação e a atualização dos dados do armazenamento relacional usados pela Segmentação Orquestrada do Campaign. Ele oferece visibilidade direta da integridade dos dados que alimentam os públicos-alvo em lote. Uma nova guia Orquestração de campanha no painel Monitoramento da Adobe Experience Platform exibe a integridade dos fluxos de dados do armazenamento relacional (registros assimilados/atualizados/excluídos/com falha/ignorados), com gráficos detalhados e um detalhamento por fluxo de dados/conjunto de dados, incluindo linhagem.
+
 
 ### Campanhas {#sep-26-campaigns}
 
@@ -465,6 +465,8 @@ O lembrete a seguir se aplica à administração nesta versão.
 ### Melhorias de usabilidade {#sep-26-usability}
 
 * **Melhorias de usabilidade na experiência de Simulação de conteúdo** - A nova experiência de Simulação de conteúdo agora permite nomear e organizar suas variantes para facilitar a comparação, copiar ou excluir detalhes da variante diretamente de cada cartão, exibir caminhos completos de atributos e configuração de canal por cartão sob demanda e carregar seus próprios perfis CSV, JSON ou JSONL com um botão de carregamento mais destacado.
+
+* **Visualização de conteúdo na tela do jornada** - A revisão de conteúdo do canal hoje requer a abertura de cada nó individualmente, um de cada vez - lento e sujeito a erros no jornada com muitos nós de canal, especialmente quando a personalização significa a verificação de vários tratamentos ou variantes por nó. A **visualização de conteúdo** remove esse atrito ao exibir uma miniatura de conteúdo para cada nó de canal diretamente na tela, com um modal de tela cheia para inspecionar e alternar entre tratamentos e variantes.
 
 * **Calendário unificado para Campanhas, Jornadas e campanhas orquestradas** - A exibição de calendário para jornadas e campanhas agora sai de inventários separados em um menu unificado acessível no painel esquerdo que mostra ambos em uma exibição combinada.
 
