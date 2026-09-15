@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0c1cbd19028f83d5690e853159eab761ee677f00
+source-git-commit: 56caca49cd1c6f3daab0497e5e9d46b993efed62
 workflow-type: tm+mt
-source-wordcount: '3543'
-ht-degree: 9%
+source-wordcount: '3522'
+ht-degree: 10%
 ---
 
 # Notas de pré-lançamento {#e-release-notes}
@@ -35,18 +35,18 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 
 >[!BEGINSHADEBOX]
 
-**Novo no CX Coworker este mês**
+**Novo no CX Enterprise Coworker este mês**
 
-Esta versão traz vários recursos e habilidades novos e aprimorados do [CX Coworker](../start/ai-features.md#cx-coworker), listados aqui para visibilidade. Cada uma delas também é detalhada em sua seção relevante abaixo.
+Esta versão traz vários recursos e habilidades novos e aprimorados do [Coworker](../start/ai-features.md#cx-coworker), listados aqui para visibilidade. Cada uma delas também é detalhada em sua seção relevante abaixo.
 
-* [Plug-ins Message-copy e email-design](#sep-26-content-management) - Dois novos plug-ins que simplificam os fluxos de trabalho de mensagens e email no CX Coworker, desde o resumo da campanha até a cópia pronta para produção e o HTML.
-* [Habilidade de recomendação de fidelidade](#sep-26-loyalty) - Solicite oportunidades de desafio diretamente na interface conversacional da CX Coworker e transforme-as em desafios ao vivo sem sair do chat.
-* [Simulação de Jornada (MCP e Chat)](#sep-26-journeys) - Automatize a validação de jornada de ponta a ponta e interprete os resultados diretamente no CX Coworker.
-* [Criação de Jornadas no painel do CX Coworker](#sep-26-journeys) - Gere jornadas com IA diretamente no painel direito do CX Coworker, substituindo a experiência anterior do Assistente de IA.
-* [Comparar versões do jornada](#sep-26-journeys) - Obtenha uma comparação estruturada e de fidelidade completa entre duas versões de uma jornada por meio do CX Coworker Chat.
+* [Plug-ins de cópia de mensagem e design de email](#sep-26-content-management) - Dois novos plug-ins que simplificam os fluxos de trabalho de mensagens e email no Coworker, desde o resumo da campanha até a cópia pronta para produção e o HTML.
+* [Habilidade de recomendação de fidelidade](#sep-26-loyalty) - Solicite oportunidades de desafio diretamente na interface de conversa do Colaborador e transforme-as em desafios ao vivo sem sair do chat.
+* [Simulação de Jornada (MCP e Chat)](#sep-26-journeys) - Automatize a validação de jornada de ponta a ponta e interprete os resultados diretamente no Coworker.
+* [Criação de Jornadas no painel do Colaborador](#sep-26-journeys) - Gere jornadas com IA diretamente no painel direito do Colaborador, substituindo a experiência anterior do Assistente de IA.
+* [Comparar versões do jornada](#sep-26-journeys) - Obtenha uma diferença estruturada e de fidelidade completa entre duas versões de uma jornada por meio do Chat do Colaborador.
 * [Habilidade da Análise de Higiene](#sep-26-journeys) - Examine jornadas ativas e de rascunho em busca de configurações corrompidas, falhas silenciosas e ativos em decomposição ou não utilizados, com correções recomendadas.
 * [Habilidade em Análise de Desempenho de Negócios](#sep-26-journeys) - Analise o desempenho da jornada e obtenha recomendações concretas de otimização, diretamente do chat.
-* [Geração de regra de decisão](#sep-26-decisioning) - Crie regras de decisão assistida por IA diretamente no CX Coworker, que agora substitui o painel correto para essa experiência.
+* [Geração de regra de decisão](#sep-26-decisioning) - Crie regras de decisão assistida por IA diretamente no Colaborador, que agora substitui o painel correto para esta experiência.
 
 >[!ENDSHADEBOX]
 
@@ -57,13 +57,13 @@ O recurso a seguir está chegando ao gerenciamento de conteúdo nesta versão.
 <table>
 <thead>
 <tr>
-<th><strong>Plug-ins de cópia de mensagens e design de e-mail no CX Co-worker</strong><br/></th>
+<th><strong>Plug-ins de cópia de mensagens e design de email no Co-worker</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dois novos plug-ins agora estão disponíveis no CX Co-worker para simplificar seus <strong>fluxos de trabalho de mensagens e email</strong>, desde a estratégia até a implantação:</p>
+<p>Dois novos plug-ins agora estão disponíveis no Colaborador para simplificar seus <strong>fluxos de trabalho de mensagens e email</strong> da estratégia para a implantação:</p>
 <p><strong>Plug-in de cópia de mensagem</strong>:</p>
 <ul>
 <li>Captura resumos da campanha e define mapas de mensagens, arcos narrativos e funções de canal.</li>
@@ -121,7 +121,7 @@ Os seguintes recursos e melhorias estão chegando ao Fidelidade nesta versão.
 </tbody>
 </table>
 
-* **Habilidade de recomendação de fidelidade do CX Coworker** - Os profissionais de marketing agora podem solicitar **oportunidades de desafio** diretamente na interface de conversação do CX Coworker, obtendo ideias de desafio baseadas em tendências reais do programa de fidelidade e transformando-as em desafios ao vivo sem sair do chat.
+* **Habilidade de recomendação de fidelidade do colaborador** - Os profissionais de marketing agora podem solicitar **oportunidades de desafio** diretamente na interface de conversa do colaborador, obtendo ideias de desafio baseadas em tendências reais do programa de fidelidade e transformando-as em desafios ao vivo sem sair do chat.
 
 * **Domínio de desafios no editor de personalização de Cartão de Conteúdo** - O editor de personalização de Cartão de Conteúdo agora aceita **Desafios** como um domínio, permitindo que você acesse metadados de desafio ao criar a personalização de cartão de conteúdo. Isso facilita a criação de conteúdo personalizado para cada estágio de um desafio — Início, Em andamento e Término — sem código personalizado.
 
@@ -158,13 +158,13 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 <table>
 <thead>
 <tr>
-<th><strong>Simulação de Jornada no CX Co-worker (MCP e Chat)</strong><br/></th>
+<th><strong>Simulação de Jornada no Colaborador (MCP e Chat)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A <strong>habilidade Simulação de Jornada</strong> do CX Co-worker automatiza a validação completa da jornada e permite que você interprete facilmente os resultados. Observe que esse recurso atualmente suporta apenas o fluxo de Simulação rápida e não substitui totalmente a experiência de simulação manual do Journey Optimizer.</p>
+<p>A <strong>habilidade de Simulação de Jornada</strong> do Colaborador automatiza a validação completa da jornada e permite que você interprete facilmente os resultados. Observe que esse recurso atualmente suporta apenas o fluxo de Simulação rápida e não substitui totalmente a experiência de simulação manual do Journey Optimizer.</p>
 </td>
 </tr>
 </tbody>
@@ -173,13 +173,13 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 <table>
 <thead>
 <tr>
-<th><strong>Criação de jornada a partir do painel do CX Co-worker</strong><br/></th>
+<th><strong>Criação de jornada do painel Colaborador</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A <strong>criação de Jornadas com IA</strong> agora está disponível diretamente no painel direito do CX Coworker, substituindo a experiência anterior do Assistente de IA por um ponto de entrada integrado e reformulado para gerar jornadas.</p>
+<p>A <strong>criação de Jornadas com IA</strong> agora está disponível diretamente no painel direito Colaborador, substituindo a experiência anterior do Assistente de IA por um ponto de entrada integrado e reformulado para geração de jornadas.</p>
 </td>
 </tr>
 </tbody>
@@ -225,16 +225,16 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 
 * **Lógica de espera de avaliação de público em lote refinada** - Na **atividade de leitura de público**, a opção &quot;Acionar após avaliação de público em lote&quot; no jornada agora sempre aguarda a conclusão de uma segmentação em lote em andamento, garantindo que a jornada use os dados da execução em vez de recorrer a um instantâneo mais antigo. Se nenhuma segmentação de lote estiver em andamento, a jornada usará o instantâneo mais recente disponível imediatamente, a menos que esse instantâneo seja o mesmo lote usado na execução anterior, caso em que a jornada aguarda até a janela configurada para um lote mais recente, e ignora a execução desse dia se nenhum chegar a tempo.
 
-* **Comparar versões do jornada com o CX Coworker** - Hoje, examinar o que foi alterado entre duas versões de uma jornada requer compará-lo manualmente dentro do nó do Journey Optimizer por nó. Não há diferença estruturada, o que torna as verificações de revisão de alteração, auditoria e pré-publicação lentas e propensas a erros, especialmente quando o jornada se torna mais complexo. Esse recurso permite que um cliente ou agente de IA compare duas versões de uma jornada por meio do CX Coworker Chat e obtenha de volta uma comparação completa e **estruturada** - nós adicionados/removidos/modificados/movidos com detalhes em nível de campo, conexões alteradas, alterações de propriedade em nível de jornada e contagens acumuladas - sem abrir o Journey Optimizer.
+* **Comparar versões do jornada com o Colaborador** - Hoje, examinar o que foi alterado entre duas versões de uma jornada requer compará-las manualmente dentro do nó do Journey Optimizer por nó. Não há diferença estruturada, o que torna as verificações de revisão de alteração, auditoria e pré-publicação lentas e propensas a erros, especialmente porque o jornada se torna mais complexo. Esse recurso permite que um cliente ou agente de IA compare duas versões de uma jornada por meio do Chat do Colaborador e obtenha uma comparação de fidelidade completa **estruturada** - nós adicionados/removidos/modificados/movidos com detalhes em nível de campo, conexões alteradas, alterações de propriedade em nível de jornada e contagens acumuladas - sem abrir o Journey Optimizer.
 
 * **Eventos de etapa reduzidos para atividades de espera e de evento** - Os eventos de etapa não são mais gerados para atividades de **espera** e **evento** quando o perfil não foi realmente processado nessa atividade. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 -->
 <!-- Documentation link: TBD -->
 
 * **Supressão de evento de etapa de execução seca para relatórios personalizados** - Como parte da otimização de evento de etapa, o Journey Optimizer agora interrompe a geração de determinados eventos de etapa não reportáveis durante as Execuções Secas de Jornada. Isso só afeta relatórios personalizados criados nesses tipos de evento de etapa de execução segura. Se você for afetado, acione novamente a simulação para gerar dados novamente.
 
-* **Habilidade do Colaborador da Análise de Higiene** - Uma nova habilidade da Análise de Higiene no CX Coworker verifica as jornadas ativas e de rascunho em busca de configurações corrompidas, falhas silenciosas e ativos em decomposição ou não utilizados, como jornadas de rascunho obsoletas, fontes de dados órfãs e erros persistentes de ação personalizada, e apresenta correções recomendadas diretamente do chat. <!-- Documentation link: TBD -->
+* **Habilidade do Coworker para Análise de Higiene** - Uma nova habilidade de Análise de Higiene no Coworker verifica as jornadas ativas e de rascunho em busca de configurações com falha, falhas silenciosas e ativos em decomposição ou não utilizados — como jornadas de rascunho obsoletas, fontes de dados órfãs e erros persistentes de ação personalizada — e apresenta correções recomendadas diretamente do chat. <!-- Documentation link: TBD -->
 
-* **Habilidade do Colaborador na Análise de Desempenho de Negócios** - Uma nova habilidade **Análise de Desempenho de Negócios** na CX Coworker analisa o desempenho de suas jornadas, explica áreas de baixo desempenho e recomenda otimizações concretas, como esperas de reengajamento, escalonamento de canais e Otimização de Tempo de Envio.  <!-- Documentation link: TBD -->
+* **Habilidade do Colaborador para Análise de Desempenho de Negócios** - Uma nova habilidade **Análise de Desempenho de Negócios** no Colaborador analisa o desempenho de suas jornadas, explica áreas de baixo desempenho e recomenda otimizações concretas, como esperas de reengajamento, escalonamento de canal e Otimização de Tempo de Envio.  <!-- Documentation link: TBD -->
 
 * **Tempo limite de recuperação automática de evento nas Propriedades de Jornada** - As Propriedades de Jornada agora incluem uma configuração **Definir tempo limite de recuperação de evento**: por padrão, os eventos de jornada afetados são repetidos automaticamente por até 72 horas após uma interrupção de serviço sem a necessidade de nenhuma ação. Você pode ativar essa configuração para controlar a janela de repetição (0-72 horas) para jornadas sensíveis ao tempo. O campo existente **Tempo limite ou erro** também foi renomeado para **Tempo limite de Ação Personalizada/Ação de IDS** para evitar confusão entre as duas configurações.
 
@@ -384,7 +384,7 @@ Os recursos e melhorias a seguir estão chegarão à Decisão nesta versão.
 </tbody>
 </table>
 
-* **Geração de regra de decisão do CX Coworker** - A experiência de **geração de regra de decisão assistida por IA**, anteriormente disponível por meio do painel direito, agora pode ser acessada por meio do CX Coworker, que substitui o painel direito como a maneira de criar regras com IA.
+* **Geração de regra de decisão do Colaborador** - A **experiência de geração de regra de decisão assistida por IA**, anteriormente disponível por meio do painel direito, agora pode ser acessada pelo Colaborador, que substitui o painel direito como a maneira de criar regras com IA.
 
 * **Suporte para perfis Adobe Experience Platform na simulação de fórmula de Regra e Classificação** - Ao simular uma Regra ou Fórmula de Classificação, agora é possível selecionar um perfil Adobe Experience Platform para preencher automaticamente os atributos de uma variante de dados de teste, em vez de inseri-los manualmente.
 
