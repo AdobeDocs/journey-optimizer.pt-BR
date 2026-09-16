@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1020'
 ht-degree: 14%
 ---
 # Introdução aos desafios de fidelidade {#get-started-loyalty-challenges}
@@ -61,7 +61,7 @@ Você pode criar estes tipos de experiências de desafio:
 * **Traga seus próprios desafios de dados** (disponibilidade restrita): a estrutura de desafios (tarefas e recompensas) é montada a partir da integração de dados dos Desafios de Fidelidade. Defina Configurações, Conteúdo e Mensagens da mesma maneira que faria para qualquer outro tipo de desafio.
 
 >[!TIP]
->Você também pode criar e gerenciar desafios de fidelidade usando o **Gerenciamento de Desafio de Fidelidade** em [Habilidades do CX Coworker para fidelidade](../start/loyalty-coworker-skills.md#loyalty-challenge-management) com prompts de linguagem natural para a criação mais rápida de desafios.
+>Você também pode criar e gerenciar desafios de fidelidade usando o **Gerenciamento de Desafio de Fidelidade** em [Habilidades de colega para fidelidade](loyalty-coworker-skills.md#loyalty-challenge-management) com prompts de linguagem natural para a criação mais rápida de desafios.
 
 ➡️ [Assista a uma visão geral do recurso](#video)
 
@@ -164,7 +164,7 @@ Agora que você sabe o que são desafios de fidelidade e como eles funcionam, é
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar desafios de fidelidade</strong></a>
     </div>
     <p>
@@ -187,7 +187,7 @@ Para obter a autenticação e os cabeçalhos necessários, consulte o [tutorial 
 
 **Novo nos Desafios de Fidelidade?** Assista a esta visão geral para entender os recursos e benefícios:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496455?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
 ## Demonstração interativa {#demo}
 

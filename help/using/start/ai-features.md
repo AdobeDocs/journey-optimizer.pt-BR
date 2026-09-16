@@ -46,52 +46,52 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2410'
 ht-degree: 3%
 ---
 # Trabalhar com IA {#ai-features}
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Explore os recursos de IA e aprendizado de máquina em toda a Adobe Journey Optimizer, desde o CX Coworker, o AI Assistant e agentes especializados até a criação de conteúdo gerativo, integrações habilitadas por IA e recursos de otimização em todos os recursos da Journey Optimizer.
+**Nesta página:** Explore os recursos de IA e aprendizado de máquina em toda a Adobe Journey Optimizer, desde o CX Enterprise Coworker, o AI Assistant e agentes especializados até a criação de conteúdo gerativo, integrações habilitadas por IA e recursos de otimização em todos os recursos da Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
-A Adobe Journey Optimizer aproveita o poder da inteligência artificial e do aprendizado de máquina para ajudá-lo a criar, otimizar e fornecer experiências excepcionais para o cliente. Dos agentes conversacionais no CX Coworker e no AI Assistant à previsão de tempos de envio ideais e à geração de conteúdo personalizado, os recursos de IA simplificam seu fluxo de trabalho e maximizam o impacto.
+A Adobe Journey Optimizer aproveita o poder da inteligência artificial e do aprendizado de máquina para ajudá-lo a criar, otimizar e fornecer experiências excepcionais para o cliente. Dos agentes conversacionais no Colaborador e no Assistente de IA à previsão de tempos de envio ideais e à geração de conteúdo personalizado, os recursos de IA otimizam o fluxo de trabalho e maximizam o impacto.
 
 ## Navegação rápida {#quick-navigation}
 
 Use estes links agrupados para ir para o recurso que você precisa:
 
-* **Colaborador e IA de conversa:** [Habilidades do CX Coworker no Journey Optimizer](#cx-coworker), [servidor MCP](#mcp-server), [Assistente de IA e Agentes](#ai-assistant)
+* **IA de conversa e CX Enterprise Coworker:** [Habilidades de colega no Journey Optimizer](#cx-coworker), [servidor MCP](#mcp-server), [Assistente de IA e Agentes](#ai-assistant)
 * **Criação de conteúdo:** [Geração de conteúdo habilitada por IA](#content-generation)
 * **Recursos relacionados à IA:** [Recursos de IA na Journey Optimizer](#ajo-ai-features): otimização de fórmula, experimentação de conteúdo, otimização de tempo de envio, Imagem para o HTML, GenStudio for Performance Marketing, Alinhamento de marca, Modelos de IA para decisão)
 * **Ajuda:** [Perguntas frequentes](#faq)
 
-## CX Coworker {#cx-coworker}
+## Coworker {#cx-coworker}
 
-### Sobre o CX Coworker {#about-cx-coworker}
+### Sobre o Colaborador {#about-cx-coworker}
 
-O CX Coworker é a experiência de conversação da Adobe que se integra aos seus aplicativos de negócios para ajudá-lo a trabalhar com mais eficiência, automatizando a experiência do cliente e os fluxos de trabalho de marketing nos seus aplicativos Adobe. Em vez de executar as etapas de configuração manual, uma de cada vez, você descreve uma meta de negócios em linguagem natural e o Colaborador planeja, executa e valida o trabalho.
+O CX Enterprise Coworker é a experiência de conversação da Adobe que se integra aos seus aplicativos de negócios para ajudá-lo a trabalhar com mais eficiência, automatizando a experiência do cliente e os fluxos de trabalho de marketing nos seus aplicativos Adobe. Em vez de executar as etapas de configuração manual, uma de cada vez, você descreve uma meta de negócios em linguagem natural e o Colaborador planeja, executa e valida o trabalho.
 
-O CX Coworker é uma evolução do AI Assistant: ele mantém tudo o que os agentes do AI Assistant já fazem (conhecimento do produto, insights operacionais e de dados) enquanto adiciona o aproveitamento, as habilidades, a governança e a memória corporativos necessários para concluir o trabalho de ponta a ponta, não apenas responder às perguntas. As organizações estão sendo migradas do Assistente de IA para o CX Coworker continuamente, e algumas organizações podem reter acesso ao Assistente de IA até que sejam ativadas para o CX Coworker. [Saiba mais sobre a transição para o CX Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}.
+O Colaborador é uma evolução do Assistente de IA: ele mantém tudo o que os agentes do Assistente de IA já fazem (conhecimento do produto, insights operacionais e de dados) enquanto adiciona o aproveitamento, as habilidades, a governança e a memória corporativos necessários para concluir o trabalho de ponta a ponta, não apenas responder a perguntas. As organizações estão sendo migradas do Assistente de IA para o Colaborador continuamente, e algumas organizações podem reter acesso ao Assistente de IA até que sejam ativadas para o Colaborador. [Saiba mais sobre a transição para o Colaborador](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}.
 
-Saiba mais na documentação do CX Enterprise Coworker:
+Saiba mais na documentação do Colaborador:
 
 * [Sobre o Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — visão geral dos recursos de Campanhas, Chat e Projetos do Colaborador.
-* [Quais são as habilidades?](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"} — visão geral das habilidades do colaborador, incluindo um vídeo de demonstração.
-* [Guia da interface de Chat do Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — como acessar e navegar pelo Chat do Colaborador.
-* [Casos de uso do Chat de Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — todos os casos de uso disponíveis nas soluções da Adobe.
+* [Quais são as habilidades?](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"} — visão geral das habilidades do colaborador, incluindo um vídeo de demonstração.
+* [Guia da interface de Chat do Colaborador](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — como acessar e navegar pelo Chat do Colaborador.
+* [Casos de uso do Chat de Colaborador](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — todos os casos de uso disponíveis nas soluções da Adobe.
 
-### Habilidades do CX Coworker para o Journey Optimizer {#cx-coworker-skills}
+### Habilidades de colega de trabalho para o Journey Optimizer {#cx-coworker-skills}
 
-No Adobe Journey Optimizer, a CX Coworker fornece habilidades dedicadas nestes recursos:
+No Adobe Journey Optimizer, o Colaborador fornece habilidades dedicadas nestes recursos:
 
-* **Jornada**: crie jornadas com prompts de linguagem natural (Criar Jornada), gere cópias e designs de mensagens específicos do canal (Criar Conteúdo de Canal) e diagnostique quedas de jornada, sobreposições de agendamento e anomalias de execução (Analisar Jornada). [Ver todas as habilidades do CX Coworker para jornada](journeys-coworker-skills.md).
-* **Fidelidade**: crie e configure desafios de fidelidade (Gerenciamento de Desafio de Fidelidade) e consulte pontos de fidelidade, distribuições de camada e métricas de receita (Insights de Fidelidade). [Veja todas as habilidades do CX Coworker para fins de fidelidade](loyalty-coworker-skills.md).
-* **Gerenciamento de conteúdo**: descubra, crie, atualize, clone e publique modelos, fragmentos, páginas de aterrissagem e variantes de mensagens embutidas usando 15 ferramentas de MCP de leitura/gravação. [Ver todas as ferramentas de gerenciamento de conteúdo do CX Coworker](content-management-coworker-skills.md).
+* **Jornada**: crie jornadas com prompts de linguagem natural (Criar Jornada), gere cópias e designs de mensagens específicos do canal (Criar Conteúdo de Canal) e diagnostique quedas de jornada, sobreposições de agendamento e anomalias de execução (Analisar Jornada). [Ver todas as habilidades de colega de trabalho para jornadas](../building-journeys/journeys-coworker-skills.md).
+* **Fidelidade**: crie e configure desafios de fidelidade (Gerenciamento de Desafio de Fidelidade) e consulte pontos de fidelidade, distribuições de camada e métricas de receita (Insights de Fidelidade). [Ver todas as habilidades de colega de trabalho para fidelidade](../loyalty-challenges/loyalty-coworker-skills.md).
+* **Gerenciamento de conteúdo**: descubra, crie, atualize, clone e publique modelos, fragmentos, páginas de aterrissagem e variantes de mensagens embutidas usando 15 ferramentas de MCP de leitura/gravação. [Ver todas as ferramentas de gerenciamento de conteúdo do Colaborador](../content-management/content-management-coworker-skills.md).
 
 ## Servidor MCP {#mcp-server}
 
@@ -101,7 +101,7 @@ Conecte o Adobe Journey Optimizer a aplicativos de IA compatíveis com MCP, como
 
 ## Assistente de IA e agentes de IA {#ai-assistant}
 
-O Assistente de IA é seu guia conversacional no produto para o Adobe Journey Optimizer, disponibilizado por IA gerativa e agentes especializados para otimização e experimentação de jornadas. O Assistente de IA está sendo sucedido por [CX Coworker](#cx-coworker) — veja acima como os dois se relacionam.
+O Assistente de IA é seu guia conversacional no produto para o Adobe Journey Optimizer, disponibilizado por IA gerativa e agentes especializados para otimização e experimentação de jornadas. O Assistente de IA está sendo sucedido por [Colaborador](#cx-coworker) — veja acima como os dois se relacionam.
 
 ### Acessar o Assistente de IA
 
@@ -163,7 +163,7 @@ O Journey Agent inclui duas habilidades no Assistente de IA: Analisar e Criar. U
 
 #### Jornada habilidade de análise {#journey-analyze-skill}
 
-O [Agente de Análise de Jornada](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"} ajuda a otimizar o desempenho da jornada por meio da análise de linguagem natural:
+O [Agente de Análise de Jornada](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"} ajuda a otimizar o desempenho da jornada por meio da análise de linguagem natural:
 
 +++**Principais Recursos**
 
@@ -186,7 +186,7 @@ O [Agente de Análise de Jornada](https://experienceleague.adobe.com/pt-br/docs/
 
 #### Jornada criação de habilidade {#journey-create-skill}
 
-O [Agente de Criação de Jornadas](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"} ajuda a criar jornadas com base em prompts de linguagem natural, traduzindo suas metas em configurações de jornada estruturadas:
+O [Agente de Criação de Jornadas](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"} ajuda a criar jornadas com base em prompts de linguagem natural, traduzindo suas metas em configurações de jornada estruturadas:
 
 +++**Principais Recursos**
 
@@ -241,7 +241,7 @@ O [Experimentation Agent](https://experienceleague.adobe.com/pt-br/docs/experien
 
 #### Agentes de IA adicionais {#additional-ai-agents}
 
-* **Audience Agent** - Para exploração e gerenciamento de público-alvo conversacional em toda a Adobe Experience Platform, incluindo detecção de duplicidade e rastreamento de tamanho. [Saiba mais sobre o Audience Agent](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+* **Audience Agent** - Para exploração e gerenciamento de público-alvo conversacional em toda a Adobe Experience Platform, incluindo detecção de duplicidade e rastreamento de tamanho. [Saiba mais sobre o Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 * **Agent Orchestrator** - Coordena vários agentes especializados para solucionar desafios de marketing complexos de várias etapas. O orquestrador determina automaticamente quais agentes envolver e sequencia seu trabalho com eficiência. [Saiba mais sobre o Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
 ## Geração de conteúdo alimentado por IA {#content-generation}

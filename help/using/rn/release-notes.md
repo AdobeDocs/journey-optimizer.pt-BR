@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8ab5420bfd86de2bbf69c551b1a9f865663a15f0
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
 source-wordcount: '2877'
 ht-degree: 68%
@@ -68,7 +68,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tr>
 <td>
 <p>O CX Co-worker agora tem um novo conjunto de <strong>ferramentas de MCP de gerenciamento de conteúdo</strong>, permitindo que você descubra e gerencie ativos de conteúdo do Journey Optimizer por meio de prompts de linguagem natural. Solicite que ele liste ou recupere modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem integrada do jornada/campaign. Ele também pode criar conteúdo, atualizar modelos e criar, atualizar, clonar e publicar fragmentos, além de atualizar o conteúdo da ação de canal em linha diretamente no jornada e no Campaign.</p>
-<p>Para obter mais informações, consulte a <a href="../start/content-management-coworker-skills.md#content-management">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../content-management/content-management-coworker-skills.md#content-management">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 3 de setembro de 2026</p>
 </td>
 </tr>
@@ -154,7 +154,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
   Data de disponibilidade: 1º de setembro de 2026
 
-* **Analisar habilidade de Anomalias de Jornada** - O CX Co-worker pode detectar picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de mensagem de uma jornada em relação às linhas de base históricas usando a habilidade **Analisar anomalias de Jornada**. Depois que uma anomalia real é confirmada, a habilidade executa diagnósticos somente leitura para mostrar uma causa básica provável e uma recomendação. [Saiba mais](../start/journeys-coworker-skills.md#journey-analyze)
+* **Analisar habilidade de Anomalias de Jornada** - O CX Co-worker pode detectar picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de mensagem de uma jornada em relação às linhas de base históricas usando a habilidade **Analisar anomalias de Jornada**. Depois que uma anomalia real é confirmada, a habilidade executa diagnósticos somente leitura para mostrar uma causa básica provável e uma recomendação. [Saiba mais](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
   Data de disponibilidade: 2 de setembro de 2026
 
@@ -349,7 +349,7 @@ As seguintes funcionalidades e melhorias foram introduzidas nas Campanhas orques
 <tr>
 <td>
 <p>A Journey Optimizer apresenta o <strong>Loyalty Insights</strong>, uma nova habilidade do CX Co-worker, que faz perguntas sobre o desempenho de desafio e outros dados de programa de fidelidade assimilados nos grupos de campos de Fidelidade do Adobe Experience Platform.</p>
-<p>Para obter mais informações, consulte a <a href="../start/loyalty-coworker-skills.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../loyalty-challenges/loyalty-coworker-skills.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 31 de agosto de 2026</p>
 </td>
 </tr>
