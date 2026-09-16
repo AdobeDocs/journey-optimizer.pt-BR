@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Habilidades do CX Coworker para jornada
-description: Descubra as habilidades do CX Coworker disponíveis para criar, gerar conteúdo e analisar jornadas no Adobe Journey Optimizer, com orientação detalhada e prompts de amostra.
+title: Colaborador de jornadas
+description: Descubra as habilidades do CX Enterprise Coworker disponíveis para criar, gerar conteúdo e analisar jornadas no Adobe Journey Optimizer, com orientação detalhada e prompts de amostra.
 feature: Overview
 topic: Artificial Intelligence
 role: User
@@ -15,22 +15,22 @@ feature_v2:
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
     internal-label: Journey design
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2511'
 ht-degree: 8%
 ---
 
-# Habilidades do CX Coworker para jornada {#journeys-coworker-skills}
+# Colaborador de jornadas {#journeys-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Descubra as habilidades do CX Coworker disponíveis para jornadas no Adobe Journey Optimizer — criar jornadas a partir da linguagem natural, gerar conteúdo de canal e analisar o desempenho da jornada — com orientação detalhada, prompts de exemplo e práticas recomendadas para cada habilidade.
+**Nesta página:** Descubra as habilidades do CX Enterprise Coworker disponíveis para jornadas no Adobe Journey Optimizer — criar jornadas a partir da linguagem natural, gerar conteúdo de canal e analisar o desempenho da jornada — com orientação detalhada, prompts de exemplo e práticas recomendadas para cada habilidade.
 
 Saiba mais:
 
-* [Habilidades do CX Coworker para Journey Optimizer](ai-features.md#cx-coworker-skills) — visão geral das habilidades do CX Coworker em Jornadas, Fidelidade e Gerenciamento de Conteúdo no Journey Optimizer.
-* [Documentação do CX Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — visão geral dos recursos de Campanhas, Chat e Projetos do Colaborador.
+* [Habilidades de colega de trabalho para o Journey Optimizer](../start/ai-features.md#cx-coworker-skills) — visão geral das habilidades de colega em Jornadas, Fidelidade e Gerenciamento de Conteúdo no Journey Optimizer.
+* [Documentação do colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — visão geral dos recursos de Campanhas, Chat e Projetos do colaborador.
 * [Guia da interface de Chat do Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — como acessar e navegar pelo Chat do Colaborador.
 
 >[!ENDSHADEBOX]
@@ -43,13 +43,13 @@ A Criação de jornadas permite que os usuários do Journey Optimizer criem e co
 >
 >Você precisa das seguintes permissões para usar totalmente os recursos Criar do Jornada:
 >
->**Gerenciar Jornadas**: essa permissão permite que você crie novas jornadas diretamente no CX Co-worker.
+>**Gerenciar Jornadas**: esta permissão permite que você crie novas jornadas diretamente no Colaborador.
 >
->**Exibir eventos de Jornada, fontes de dados e ações**: essa permissão garante que o CX Co-worker possa realizar pesquisas por meio de eventos de Jornada e ações personalizadas.
+>**Exibir Eventos de Jornada, Fontes de Dados e Ações**: essa permissão garante que o Colaborador possa pesquisar por Eventos de Jornada e Ações Personalizadas.
 >
->**Exibir segmentos**: essa permissão garante que o CX Co-worker possa procurar segmentos de público-alvo ao criar uma Jornada.
+>**Exibir segmentos**: essa permissão garante que o Colaborador possa pesquisar segmentos de público-alvo ao criar uma Jornada.
 >
->**Gerenciar segmentos**: essa permissão permite que você crie novos públicos diretamente no CX Co-worker.
+>**Gerenciar segmentos**: essa permissão permite que você crie novos públicos-alvo diretamente no Colaborador.
 
 ### Principais casos de uso
 
@@ -98,7 +98,7 @@ O Jornada Create oferece recursos que podem ser aproveitados para acelerar a exe
 
 1. **Criar jornada a partir da imagem**
 
-   * Faça upload de uma imagem de referência no colaborador e peça para criar uma jornada usando a imagem como referência
+   * Carregue uma imagem de referência no Co-worker e peça para criar uma jornada usando a imagem como referência
    * A habilidade de criação de jornada extrairá um prompt editável da imagem de referência
 
 Com essa habilidade, os requisitos de idioma natural são traduzidos em configurações de jornada estruturadas.
@@ -218,15 +218,15 @@ As Habilidades de Jornada permitirão que os usuários do Journey Optimizer anal
 
 >[!AVAILABILITY]
 >
->As habilidades de Jornada estão disponíveis para todos os clientes que têm acesso ao CX Co-worker. No entanto, você precisará das seguintes permissões para usar totalmente os recursos do Jornada Skills:
+>As Habilidades de Jornada estão disponíveis para todos os clientes que têm acesso ao Colaborador. No entanto, você precisará das seguintes permissões para usar totalmente os recursos do Jornada Skills:
 >
->**Exibir Jornadas**: essa permissão permite exibir insights sobre a jornada diretamente no CX Co-worker.
+>**Exibir Jornadas**: essa permissão permite exibir insights sobre a jornada diretamente no Colaborador.
 >
->**Gerenciar Jornadas**: essa permissão permite que você crie novas jornadas diretamente no CX Co-worker.
+>**Gerenciar Jornadas**: esta permissão permite que você crie novas jornadas diretamente no Colaborador.
 >
->**Exibir segmentos**: essa permissão permite que você visualize insights sobre os públicos diretamente no CX Co-worker.
+>**Exibir segmentos**: essa permissão permite que você visualize insights sobre os públicos-alvo diretamente no Colaborador.
 >
->**Gerenciar segmentos**: essa permissão permite que você crie novos públicos diretamente no CX Co-worker.
+>**Gerenciar segmentos**: essa permissão permite que você crie novos públicos-alvo diretamente no Colaborador.
 
 ### Principais casos de uso
 

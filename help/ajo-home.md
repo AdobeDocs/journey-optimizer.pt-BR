@@ -5,10 +5,10 @@ title: Documentação do Adobe Journey Optimizer
 description: Documentação do Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 98%
+ht-degree: 93%
 ---
 # Documentação do Adobe Journey Optimizer{#section-overview}
 
@@ -32,9 +32,9 @@ Descubra como criar e gerenciar os **Desafios de fidelidade** para engajar e pre
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->[!TAB Habilidades do Journey Optimizer no CX Coworker]
+>[!TAB Habilidades do Journey Optimizer no CX Enterprise Coworker]
 
-Adicionamos uma nova página de documentação para **habilidades do Journey Optimizer no CX Coworker**, incluindo habilidades **focadas em jornadas** e **focadas em fidelidade**, com orientação e prompts de amostra.
+Adicionamos uma nova página de documentação para **habilidades do Journey Optimizer no Colaborador**, incluindo habilidades **focadas em jornada** e **focadas em fidelidade**, com orientação e prompts de amostra.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/start/ai-features.md#cx-coworker)
 

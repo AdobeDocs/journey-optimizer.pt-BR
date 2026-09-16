@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 5704e00a342a2a25d3dbb7ccb08502640e93dfc9
+source-git-commit: dc84ebba077bfc70b3ab9f0db3ee69cd6ae0d15c
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3540'
 ht-degree: 8%
 ---
 
@@ -41,7 +41,7 @@ Esta versão traz vários recursos e habilidades novos e aprimorados do [Coworke
 
 * [Plug-ins de cópia de mensagem e design de email](#sep-26-content-management) - Dois novos plug-ins que simplificam os fluxos de trabalho de mensagens e email no Coworker, desde o resumo da campanha até a cópia pronta para produção e o HTML.
 * [Habilidade de recomendação de fidelidade](#sep-26-loyalty) - Solicite oportunidades de desafio diretamente na interface de conversa do Colaborador e transforme-as em desafios ao vivo sem sair do chat.
-* [Simulação de Jornada (MCP e Chat)](#sep-26-journeys) - Automatize a validação de jornada de ponta a ponta e interprete os resultados diretamente no Coworker.
+* [Simulação de Jornada](#sep-26-journeys) - Automatize a validação de jornada de ponta a ponta e interprete os resultados diretamente no Colaborador.
 * [Criação de Jornadas no painel do Colaborador](#sep-26-journeys) - Gere jornadas com IA diretamente no painel direito do Colaborador, substituindo a experiência anterior do Assistente de IA.
 * [Comparar versões do jornada](#sep-26-journeys) - Obtenha uma diferença estruturada e de fidelidade completa entre duas versões de uma jornada por meio do Chat do Colaborador.
 * [Habilidade da Análise de Higiene](#sep-26-journeys) - Examine jornadas ativas e de rascunho em busca de configurações corrompidas, falhas silenciosas e ativos em decomposição ou não utilizados, com correções recomendadas.
@@ -158,7 +158,7 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 <table>
 <thead>
 <tr>
-<th><strong>Simulação de Jornada no Colaborador (MCP e Chat)</strong><br/></th>
+<th><strong>Simulação de Jornada no Colaborador</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -296,6 +296,29 @@ Os seguintes recursos e melhorias estão chegando aos canais nesta versão.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Melhorias nos modelos de notificações por push do Android</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As notificações por push do Android eram renderizadas anteriormente com um layout único e fixo: as imagens sempre eram cortadas ao centro e o texto do corpo longo era truncado. Essa versão apresenta um seletor de modelo no momento da criação, permitindo que os profissionais de marketing controlem o layout das notificações por push do Android.</p>
+<p>As seguintes melhorias estão disponíveis:</p>
+<ul>
+<li><b>Seleção de layout</b>: novo seletor de layout de notificação por push (Padrão/Expandido) ao criar um push do Android.</li>
+<li><b>Layout padrão com "Mostrar imagem inteira"</b>: escolha recortado para preenchimento vs. dimensionado para ajuste.</li>
+<li><b>Layout expandido</b>: corpo de texto multilinha sem truncamento, além de miniatura de ícone grande opcional.</li>
+<li><b>Corpo recolhido (Layout expandido)</b>: defina um texto de corpo separado e mais curto para o estado recolhido.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 * **Flexibilidade de autenticação BYOP de SMS personalizado** - Agora você pode configurar **cabeçalhos de autenticação personalizados** ao conectar a configuração OAuth do seu provedor de SMS, incluindo onde o token é colocado nas mensagens de saída e como a própria solicitação de token é formatada.
 
 ### Campanhas orquestradas {#sep-26-oc}
@@ -387,13 +410,14 @@ Os seguintes recursos e melhorias estão chegando ao Designer de email nesta ver
 <table>
 <thead>
 <tr>
-<th><strong>Estilo independente em modo escuro para variantes de tema de email</strong><br/></th>
+<th><strong>Suporte ao modo escuro para variantes de tema de email</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Os temas de email agora oferecem suporte ao estilo independente para o modo escuro. No construtor de temas, é possível ativar o modo escuro para uma determinada variante a fim de gerar uma folha de estilos dedicada do modo escuro que você edita separadamente dos estilos do modo claro. As alterações feitas em um modo não substituem mais o outro. No editor de email e modelo, um novo botão de visualização ao lado das opções de exibição para dispositivos móveis e desktop permite que você visualize o conteúdo no modo escuro.</p>
+<p>Os temas de email agora oferecem suporte ao modo escuro, para que cada variante de cor possa ser renderizada com uma aparência personalizada para os recipients que visualizam seu email em um cliente habilitado para o modo escuro.</p>
+<p>Quando habilitada, uma paleta escura padrão é gerada automaticamente para cada variante, e você pode personalizá-la ainda mais com uma paleta diferente ou com suas próprias cores personalizadas, independentemente do design do modo claro. Portanto, as alterações feitas em um modo não afetam o outro.</p>
 </td>
 </tr>
 </tbody>

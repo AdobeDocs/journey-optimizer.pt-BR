@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ferramentas de gerenciamento de conteúdo do CX Coworker
-description: Descubra as ferramentas de gerenciamento de conteúdo do CX Coworker disponíveis para descobrir, criar e gerenciar ativos de conteúdo do Journey Optimizer, com orientação detalhada e prompts de amostra.
+title: Colaborador para gerenciamento de conteúdo
+description: Descubra as ferramentas de gerenciamento de conteúdo do CX Enterprise Coworker disponíveis para descobrir, criar e gerenciar ativos de conteúdo do Journey Optimizer, com orientação detalhada e prompts de amostra.
 feature: Overview
 topic: Artificial Intelligence
 role: User
@@ -15,22 +15,22 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '759'
 ht-degree: 2%
 ---
 
-# Ferramentas de gerenciamento de conteúdo do CX Coworker {#content-management-coworker-skills}
+# Colaborador para gerenciamento de conteúdo {#content-management-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Descubra as ferramentas de gerenciamento de conteúdo do CX Coworker disponíveis no Adobe Journey Optimizer — para navegar, criar, atualizar, clonar e publicar modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo integrado de jornada/campanha — com orientações detalhadas, prompts de exemplo e práticas recomendadas.
+**Nesta página:** Descubra as ferramentas de gerenciamento de conteúdo do CX Enterprise Coworker disponíveis no Adobe Journey Optimizer — para navegar, criar, atualizar, clonar e publicar modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo integrado de jornada/campanha — com orientações detalhadas, prompts de exemplo e práticas recomendadas.
 
 Saiba mais:
 
-* [Habilidades do CX Coworker para Journey Optimizer](ai-features.md#cx-coworker-skills) — visão geral das habilidades do CX Coworker em Jornadas, Fidelidade e Gerenciamento de Conteúdo no Journey Optimizer.
-* [Documentação do CX Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — visão geral dos recursos de Campanhas, Chat e Projetos do Colaborador.
+* [Habilidades de colega de trabalho para o Journey Optimizer](../start/ai-features.md#cx-coworker-skills) — visão geral das habilidades de colega em Jornadas, Fidelidade e Gerenciamento de Conteúdo no Journey Optimizer.
+* [Documentação do colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — visão geral dos recursos de Campanhas, Chat e Projetos do colaborador.
 * [Guia da interface de Chat do Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — como acessar e navegar pelo Chat do Colaborador.
 
 >[!ENDSHADEBOX]
@@ -39,9 +39,9 @@ Saiba mais:
 
 >[!AVAILABILITY]
 >
->O gerenciamento de conteúdo está disponível para todos os clientes que têm acesso ao CX Co-worker.
+>O Gerenciamento de conteúdo está disponível para todos os clientes que têm acesso ao Colaborador.
 
-Os usuários do Journey Optimizer podem detectar e gerenciar ativos de conteúdo — modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha de jornada/campanha — diretamente do CX Co-worker usando prompts de linguagem natural. Ela permite ir de &quot;me falar sobre meu conteúdo&quot; a &quot;criar, atualizar e publicar&quot;, sem sair da conversa. Esse recurso é alimentado por 15 ferramentas de MCP com capacidade de leitura e gravação para conteúdo do Journey Optimizer.
+Os usuários do Journey Optimizer podem descobrir e gerenciar ativos de conteúdo — modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha de jornada/campanha — diretamente do Colaborador usando prompts de linguagem natural. Ela permite ir de &quot;me falar sobre meu conteúdo&quot; a &quot;criar, atualizar e publicar&quot;, sem sair da conversa. Esse recurso é alimentado por 15 ferramentas de MCP com capacidade de leitura e gravação para conteúdo do Journey Optimizer.
 
 ### Principais casos de uso
 
