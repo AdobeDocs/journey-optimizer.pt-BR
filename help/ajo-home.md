@@ -5,13 +5,11 @@ title: Documentação do Adobe Journey Optimizer
 description: Documentação do Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 5be833e0b6a06b8614123dd92118986378909652
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 98%
-
 ---
-
 # Documentação do Adobe Journey Optimizer{#section-overview}
 
 O Adobe Journey Optimizer capacita equipes a projetar e fornecer experiências personalizadas e fluidas ao cliente em canais como email, SMS e outros. Ao combinar ferramentas avançadas para a orquestração de campanhas, gestão de dados e tomada de decisões, ele ajuda a criar jornadas que se adaptam às necessidades do cliente em tempo real. Esta documentação oferece um roteiro para dominar a plataforma: da exploração de seus recursos e integrações mais recentes ao aprendizado de como gerenciar públicos-alvo, configurar jornadas e analisar o desempenho. Seja para profissionais de marketing, analistas de dados ou gerentes de campanha, é possível encontrar guias passo a passo, práticas recomendadas e recursos personalizados para ajudar a atingir seus objetivos com confiança.
@@ -38,7 +36,7 @@ Descubra como criar e gerenciar os **Desafios de fidelidade** para engajar e pre
 
 Adicionamos uma nova página de documentação para **habilidades do Journey Optimizer no CX Coworker**, incluindo habilidades **focadas em jornadas** e **focadas em fidelidade**, com orientação e prompts de amostra.
 
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/start/ajo-coworker-skills.md)
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/start/ai-features.md#cx-coworker)
 
 
 >[!TAB Iterar em dados contextuais]
@@ -54,7 +52,7 @@ Saiba como usar a sintaxe de iteração para exibir listas dinâmicas de dados d
 
 ::::landing-cards-container
 :::
-![Ícone](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Notas de versão mais recentes
 
@@ -64,7 +62,7 @@ Fique atualizado com as últimas notas de versão, novos recursos e melhorias no
 :::
 
 :::
-![Ícone](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução
 
@@ -74,7 +72,7 @@ Aprenda os conceitos básicos do Journey Optimizer, incluindo seus recursos, arq
 :::
 
 :::
-![Ícone](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guia abrangente para jornadas
 
@@ -84,7 +82,7 @@ Projete, orquestre, gerencie e otimize jornadas personalizadas do cliente com es
 :::
 
 :::
-![Ícone](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Noções básicas e gerenciamento de campanhas
 
@@ -94,7 +92,7 @@ Orientação detalhada sobre como criar, gerenciar e otimizar vários tipos de c
 :::
 
 :::
-![Ícone](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canais de comunicação
 
@@ -104,7 +102,7 @@ Configure e gerencie emails, SMS, notificações por push e outros canais para i
 :::
 
 :::
-![Ícone](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=pt-BR)
+![Ícone](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gerenciamento de conflitos e priorização
 
@@ -133,7 +131,7 @@ Saiba como priorizar e gerenciar conflitos de comunicação em campanhas e jorna
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR" target="_blank">Tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrição do produto</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">Referência às APIs</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Dicionário de Esquemas do Journey Optimizer</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR" target="_blank">Tutoriais</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrição do produto</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">Referência às APIs</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Dicionário de Esquemas do Journey Optimizer</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>

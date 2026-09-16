@@ -1,67 +1,107 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: IA e recursos inteligentes
+title: Trabalhar com IA
 description: Saiba como a IA e o aprendizado de máquina aprimoram os recursos do Adobe Journey Optimizer
 feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
+mini-toc-levels: 2
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
 TQID: https://experienceleague.adobe.com/bkl7d0VxTNUboLL9MZ3cmEBAgiVHlaU3-ZTXTrpGBjA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53
+    internal-label: AI Assistant
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+    internal-label: AI content generation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
+    internal-label: Machine learning
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 2514
-ht-degree: 4%
-
+source-wordcount: '2422'
+ht-degree: 3%
 ---
-
-# IA e recursos inteligentes {#ai-features}
+# Trabalhar com IA {#ai-features}
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** Explore os recursos de IA e aprendizado de máquina em toda a Adobe Journey Optimizer, desde o Assistente de IA e agentes até a geração de conteúdo, integrações e ferramentas alimentadas por IA, como o GenStudio e o servidor MCP, otimização de tempo de envio e tomada de decisão, para que você possa trabalhar mais rápido e fornecer experiências mais relevantes ao cliente.
+**Nesta página:** Explore os recursos de IA e aprendizado de máquina em toda a Adobe Journey Optimizer, desde o CX Coworker, o AI Assistant e agentes especializados até a criação de conteúdo gerativo, integrações habilitadas por IA e recursos de otimização em todos os recursos da Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
-A Adobe Journey Optimizer aproveita o poder da inteligência artificial e do aprendizado de máquina para ajudá-lo a criar, otimizar e fornecer experiências excepcionais para o cliente. Desde a geração de conteúdo personalizado até a previsão de tempos de envio ideais, os recursos de IA simplificam o fluxo de trabalho e maximizam o impacto. Os manuais de casos de uso fornecem modelos pré-criados para implementar rapidamente cenários de marketing comuns.
+A Adobe Journey Optimizer aproveita o poder da inteligência artificial e do aprendizado de máquina para ajudá-lo a criar, otimizar e fornecer experiências excepcionais para o cliente. Dos agentes conversacionais no CX Coworker e no AI Assistant à previsão de tempos de envio ideais e à geração de conteúdo personalizado, os recursos de IA simplificam seu fluxo de trabalho e maximizam o impacto.
 
 ## Navegação rápida {#quick-navigation}
 
 Use estes links agrupados para ir para o recurso que você precisa:
 
-* **IA de conversa e agentes:** [Assistente de IA](#ai-assistant), [Journey Agent](#journey-agent), [Experimentation Agent](#experimentation-agent), [Agentes de IA adicionais](#additional-ai-agents)
+* **Colaborador e IA de conversa:** [Habilidades do CX Coworker no Journey Optimizer](#cx-coworker), [servidor MCP](#mcp-server), [Assistente de IA e Agentes](#ai-assistant)
 * **Criação de conteúdo:** [Geração de conteúdo habilitada por IA](#content-generation)
-* **Integrações e ferramentas alimentadas por IA:** [Conversor de Imagem para HTML](#image-to-html), [GenStudio para marketing de desempenho](#genstudio), [Pontuação de alinhamento de marca](#brand-alignment), [Servidor MCP do Adobe Journey Optimizer](#mcp-server)
-* **Otimização e decisão:** [Otimização de Tempo de Envio](#send-time-optimization), [Modelos de IA para decisão](#ai-decisioning), [Regra habilitada por IA e otimização de fórmula](#decisioning-optimization)
-* **Experimentação:** [Experimentação de conteúdo com IA](#experimentation)
-* **Modelos:** [Guias de reprodução de casos de uso](#playbooks)
+* **Recursos relacionados à IA:** [Recursos de IA na Journey Optimizer](#ajo-ai-features): otimização de fórmula, experimentação de conteúdo, otimização de tempo de envio, Imagem para o HTML, GenStudio for Performance Marketing, Alinhamento de marca, Modelos de IA para decisão)
 * **Ajuda:** [Perguntas frequentes](#faq)
 
-## Assistente de IA {#ai-assistant}
+## CX Coworker {#cx-coworker}
 
-O Assistente de IA é seu guia conversacional do Adobe Journey Optimizer. Use-o para obter respostas instantâneas sobre os recursos do produto, insights operacionais sobre suas jornadas e ajuda para navegar na plataforma.
+### Sobre o CX Coworker {#about-cx-coworker}
+
+O CX Coworker é a experiência de conversação da Adobe que se integra aos seus aplicativos de negócios para ajudá-lo a trabalhar com mais eficiência, automatizando a experiência do cliente e os fluxos de trabalho de marketing nos seus aplicativos Adobe. Em vez de executar as etapas de configuração manual, uma de cada vez, você descreve uma meta de negócios em linguagem natural e o Colaborador planeja, executa e valida o trabalho.
+
+O CX Coworker é uma evolução do AI Assistant: ele mantém tudo o que os agentes do AI Assistant já fazem (conhecimento do produto, insights operacionais e de dados) enquanto adiciona o aproveitamento, as habilidades, a governança e a memória corporativos necessários para concluir o trabalho de ponta a ponta, não apenas responder às perguntas. As organizações estão sendo migradas do Assistente de IA para o CX Coworker continuamente, e algumas organizações podem reter acesso ao Assistente de IA até que sejam ativadas para o CX Coworker. [Saiba mais sobre a transição para o CX Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}.
+
+Saiba mais na documentação do CX Enterprise Coworker:
+
+* [Sobre o Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — visão geral dos recursos de Campanhas, Chat e Projetos do Colaborador.
+* [Quais são as habilidades?](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"} — visão geral das habilidades do colaborador, incluindo um vídeo de demonstração.
+* [Guia da interface de Chat do Colaborador](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — como acessar e navegar pelo Chat do Colaborador.
+* [Casos de uso do Chat de Colaborador](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — todos os casos de uso disponíveis nas soluções da Adobe.
+
+### Habilidades do CX Coworker para o Journey Optimizer {#cx-coworker-skills}
+
+No Adobe Journey Optimizer, a CX Coworker fornece habilidades dedicadas nestes recursos:
+
+* **Jornada**: crie jornadas com prompts de linguagem natural (Criar Jornada), gere cópias e designs de mensagens específicos do canal (Criar Conteúdo de Canal) e diagnostique quedas de jornada, sobreposições de agendamento e anomalias de execução (Analisar Jornada). [Ver todas as habilidades do CX Coworker para jornada](journeys-coworker-skills.md).
+* **Fidelidade**: crie e configure desafios de fidelidade (Gerenciamento de Desafio de Fidelidade) e consulte pontos de fidelidade, distribuições de camada e métricas de receita (Insights de Fidelidade). [Veja todas as habilidades do CX Coworker para fins de fidelidade](loyalty-coworker-skills.md).
+* **Gerenciamento de conteúdo**: descubra, crie, atualize, clone e publique modelos, fragmentos, páginas de aterrissagem e variantes de mensagens embutidas usando 15 ferramentas de MCP de leitura/gravação. [Ver todas as ferramentas de gerenciamento de conteúdo do CX Coworker](content-management-coworker-skills.md).
+
+## Servidor MCP {#mcp-server}
+
+Conecte o Adobe Journey Optimizer a aplicativos de IA compatíveis com MCP, como Claude Web, Claude Desktop e Cursor, usando o Protocolo de contexto de modelo (MCP). O servidor MCP permite consultar campanhas, jornadas, ofertas e configurações de canal com prompts em linguagem simples — não é necessária nenhuma chamada de API ou navegação na interface. Atualmente, todas as operações são somente leitura.
+
+* [Trabalhar com clientes MCP](../integrations/ajo-mcp.md) — Consultar campanhas, jornadas e ofertas de Claude Web, Claude Desktop ou Cursor usando o servidor MCP do Journey Optimizer.
+
+## Assistente de IA e agentes de IA {#ai-assistant}
+
+O Assistente de IA é seu guia conversacional no produto para o Adobe Journey Optimizer, disponibilizado por IA gerativa e agentes especializados para otimização e experimentação de jornadas. O Assistente de IA está sendo sucedido por [CX Coworker](#cx-coworker) — veja acima como os dois se relacionam.
 
 ### Acessar o Assistente de IA
 
@@ -73,7 +113,7 @@ Clique no ícone do Assistente de IA na barra superior para abrir o painel do as
 >
 >Você deve concordar com as [Diretrizes de usuário da IA gerativa da Adobe Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"} antes de usar o Assistente de IA.
 
-### O que o assistente de IA pode fazer
+### O que o Assistente de IA pode fazer
 
 **Conhecimento do Produto** - Faça perguntas sobre os recursos e conceitos do Adobe Journey Optimizer:
 
@@ -91,7 +131,7 @@ Clique no ícone do Assistente de IA na barra superior para abrir o painel do as
 >
 >Os insights operacionais estão disponíveis atualmente apenas para **Jornada** e refletem dados da sua sandbox atual.
 
-### Como usar o assistente de IA
+### Como usar o Assistente de IA
 
 1. Insira a sua pergunta no campo de texto na parte inferior do painel
 2. Pressione Enter para enviar sua consulta
@@ -103,11 +143,11 @@ Clique no ícone do Assistente de IA na barra superior para abrir o painel do as
 
 [Saiba mais sobre o Assistente de IA no Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}
 
-## Agentes avançados de IA para otimização de Jornada {#ai-agents}
+### Agentes de IA avançados {#ai-agents}
 
 Com base nos recursos conversacionais do Assistente de IA, o Adobe Journey Optimizer oferece agentes de IA especializados que fornecem análise detalhada e recomendações acionáveis para otimização e experimentação de jornadas.
 
-### Journey Agent {#journey-agent}
+#### Journey Agent {#journey-agent}
 
 O Journey Agent inclui duas habilidades no Assistente de IA: Analisar e Criar. Use-as para otimizar jornadas existentes ou criar novas a partir de prompts de linguagem natural.
 
@@ -123,7 +163,7 @@ O Journey Agent inclui duas habilidades no Assistente de IA: Analisar e Criar. U
 
 #### Jornada habilidade de análise {#journey-analyze-skill}
 
-O [Agente de Análise de Jornada](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"} ajuda a otimizar o desempenho da jornada por meio da análise de linguagem natural:
+O [Agente de Análise de Jornada](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"} ajuda a otimizar o desempenho da jornada por meio da análise de linguagem natural:
 
 +++**Principais Recursos**
 
@@ -146,7 +186,7 @@ O [Agente de Análise de Jornada](https://experienceleague.adobe.com/pt-br/docs/
 
 #### Jornada criação de habilidade {#journey-create-skill}
 
-O [Agente de Criação de Jornadas](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"} ajuda a criar jornadas com base em prompts de linguagem natural, traduzindo suas metas em configurações de jornada estruturadas:
+O [Agente de Criação de Jornadas](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"} ajuda a criar jornadas com base em prompts de linguagem natural, traduzindo suas metas em configurações de jornada estruturadas:
 
 +++**Principais Recursos**
 
@@ -166,7 +206,7 @@ O [Agente de Criação de Jornadas](https://experienceleague.adobe.com/pt-br/doc
 
 +++
 
-### Experimentation Agent {#experimentation-agent}
+#### Experimentation Agent {#experimentation-agent}
 
 O [Experimentation Agent](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"} moderniza a forma como você executa e gerencia experimentos digitais em sites, emails, mensagens por push e aplicativos:
 
@@ -199,11 +239,10 @@ O [Experimentation Agent](https://experienceleague.adobe.com/pt-br/docs/experien
 
 +++
 
-### Agentes de IA adicionais {#additional-ai-agents}
+#### Agentes de IA adicionais {#additional-ai-agents}
 
-**Audience Agent** - Para exploração e gerenciamento de público-alvo conversacional em toda a Adobe Experience Platform, incluindo detecção de duplicidade e rastreamento de tamanho. [Saiba mais sobre o Audience Agent](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
-
-**Agent Orchestrator** - Coordena vários agentes especializados para solucionar desafios de marketing complexos de várias etapas. O orquestrador determina automaticamente quais agentes envolver e sequencia seu trabalho com eficiência. [Saiba mais sobre o Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+* **Audience Agent** - Para exploração e gerenciamento de público-alvo conversacional em toda a Adobe Experience Platform, incluindo detecção de duplicidade e rastreamento de tamanho. [Saiba mais sobre o Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+* **Agent Orchestrator** - Coordena vários agentes especializados para solucionar desafios de marketing complexos de várias etapas. O orquestrador determina automaticamente quais agentes envolver e sequencia seu trabalho com eficiência. [Saiba mais sobre o Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
 ## Geração de conteúdo alimentado por IA {#content-generation}
 
@@ -229,94 +268,33 @@ Use a IA generativa para criar e personalizar o conteúdo em vários canais, ace
 
 [Saiba mais sobre a geração de conteúdo de IA](../content-management/gs-generative.md)
 
-## Integrações e ferramentas alimentadas por IA {#additional-capabilities}
+## Recursos relacionados à IA na Journey Optimizer {#ajo-ai-features}
 
-### Conversor de imagem para HTML {#image-to-html}
+Saiba como a inteligência artificial e o aprendizado de máquina aprimoram recursos específicos no Journey Optimizer:
 
-Transforme designs de imagem estática (JPEG, PNG) em modelos de email editáveis do HTML usando tecnologia de conversão habilitada por IA.
-
-[Saiba mais sobre imagem para o HTML](../content-management/image-to-html.md)
-
-### GenStudio para marketing de desempenho {#genstudio}
-
-Integre com o Adobe GenStudio for Performance Marketing para criar conteúdo de email alimentado por IA e importar modelos no Journey Optimizer para orquestração. Exporte modelos do Journey Optimizer para o GenStudio, gere variações com IA e traga-os de volta para implantação. (Disponibilidade limitada, somente canal de email.)
-
-[Saiba mais sobre o GenStudio](../integrations/genstudio.md)
-
-### Classificação de alinhamento da marca {#brand-alignment}
-
-Avalie como seu conteúdo se alinha às diretrizes da sua marca usando a pontuação alimentada por IA que mede a consistência do tom, da voz e da mensagem.
-
-[Saiba mais sobre o Alinhamento da marca](../content-management/brands-score.md)
-
-### Servidor MCP do Adobe Journey Optimizer (Beta) {#mcp-server}
-
-Conecte o Adobe Journey Optimizer a aplicativos de IA compatíveis com MCP, como Claude Web, Claude Desktop e Cursor, usando o Protocolo de contexto de modelo (MCP). O servidor MCP permite consultar campanhas, jornadas, ofertas e configurações de canal com prompts em linguagem simples — não é necessária nenhuma chamada de API ou navegação na interface. Atualmente, todas as operações são somente leitura.
-
-[Saiba mais sobre o servidor MCP do Journey Optimizer](../integrations/ajo-mcp.md)
-
-## Otimização de tempo de envio {#send-time-optimization}
-
-Use a IA para prever o momento ideal para enviar cada mensagem com base em padrões de comportamento individuais do cliente, maximizando o engajamento.
-
-### Como funciona
-
-A Otimização de tempo de envio analisa os dados históricos de engajamento (aberturas e cliques) para prever quando cada cliente tem maior probabilidade de se engajar com suas mensagens. O sistema programa automaticamente o delivery dentro da janela de tempo especificada.
-
-### Quando usá-lo
-
-| Melhor para | Não Recomendado Para |
-|----------|---------------------|
-| Campanhas de marketing e informativos | Mensagens operacionais com detecção de hora (confirmações de pedidos, redefinições de senha) |
-| Mensagens promocionais | Notificações urgentes (atrasos nos voos, alertas de emergência) |
-| Conteúdo educacional | Mensagens baseadas em eventos com requisitos de tempo específicos |
-| Campanhas de engajamento | |
-
-[Saiba mais sobre a Otimização de tempo de envio](../building-journeys/send-time-optimization.md)
-
-## Modelos de IA para decisões {#ai-decisioning}
-
-Crie modelos de classificação inteligentes que classificam as ofertas por taxa de conversão (conversões ÷ impressões), mostrando automaticamente a cada cliente a oferta mais provável de conversão.
-
-### Tipos de modelo
-
-* **Otimização automática** - Aprende com o desempenho geral e não personalizado de suas ofertas para melhorar automaticamente a conversão ao longo do tempo. Um bom ajuste quando as ofertas mudam com frequência, já que o modelo é reciclado aproximadamente a cada 6 horas.
-* **Otimização personalizada** - Usa atributos de perfil do cliente, comportamento e associação de público-alvo para prever a melhor oferta para cada indivíduo. Escolha essa opção quando precisar de uma classificação diferente por cliente, em vez de um vencedor geral.
-
-### Exigências
-
-Os requisitos mínimos de dados diferem por tipo de modelo:
-
-* **Otimização automática** - Pelo menos 2 ofertas com mais de 100 eventos de exibição e mais de 5 eventos de clique cada um nos últimos 14 dias. As ofertas abaixo desse limite são tratadas como novas e somente servidas por meio do tráfego de exploração.
-* **Otimização personalizada** - Usa uma janela contínua de 30 dias. A Adobe recomenda pelo menos 1.000 impressões e 100 eventos de conversão por oferta semanal; por padrão, ofertas com menos de 1.000 impressões ou 50 conversões não receberão um modelo treinado para elas. Até 5 públicos-alvo podem ser selecionados para treinar um único modelo.
-
-[Saiba mais sobre os modelos de IA para a tomada de decisão](../experience-decisioning/ranking/ai-models.md) | [Criar modelos de classificação de IA](../experience-decisioning/ranking/create-ai-models.md)
-
-## Otimização de regras e fórmulas baseada em IA {#decisioning-optimization}
++++**Otimização da fórmula**
 
 O Adobe Journey Optimizer pode analisar automaticamente [regras de decisão](../experience-decisioning/rules.md) e [fórmulas de classificação](../experience-decisioning/ranking/ranking-formulas.md) expressas em sintaxe PQL e sugerir simplificações que preservem a lógica original. Quando uma simplificação é encontrada, um indicador vermelho **[!UICONTROL Otimizar]** aparece ao lado da regra ou fórmula, abrindo uma comparação lado a lado das expressões originais e sugeridas pela IA, com uma análise que pode ser baixada para validar se ambas se comportam de forma idêntica.
 
-### Principais recursos
+**Principais Recursos**
 
 * **Simplificações que preservam a lógica** - A IA sugere uma expressão mais curta que retorna o mesmo resultado em perfis simulados.
 * **Relatório de validação** - Baixe uma análise (TSV) que mostra como cada perfil simulado é avaliado em relação a ambas as versões antes de aplicar a alteração.
 * **Aplicar com um clique** - Substituir o PQL original pela versão otimizada diretamente da janela **[!UICONTROL Otimizar]**.
 
-+++**Qualificação**
+**Qualificação**
 
 Somente regras e fórmulas de classificação cuja expressão PQL é maior que **2 KB** (codificado em UTF-8) são direcionadas para análise, expressões menores não são analisadas.
 
-+++
-
-+++**Permissões**
+**Permissões**
 
 Esse recurso usa os mesmos controles de acesso de IA gerativa que **Gerar conteúdo**. Os usuários devem receber a permissão **[!UICONTROL Gerar Conteúdo]** no recurso **[!UICONTROL Assistente de IA]**. [Saiba mais sobre o acesso de Geração de Conteúdo](../content-management/gs-generative.md#generative-access)
 
-+++
-
 [Otimizar regras de decisão](../experience-decisioning/rules.md#optimize) | [Otimizar fórmulas de classificação](../experience-decisioning/ranking/ranking-formulas.md#optimize)
 
-## Experimentação de conteúdo com IA {#experimentation}
++++
+
++++**Experimentação de conteúdo**
 
 O **Acelerador de experimentos** ajuda você a executar experimentos mais rapidamente com insights e recomendações orientados por IA, identificando variações de conteúdo vencedoras mais rapidamente.
 
@@ -329,86 +307,74 @@ Principais recursos:
 
 [Saiba mais sobre o Acelerador de experimento](../content-management/experiment-accelerator-gs.md)
 
-## Playbooks do caso de uso {#playbooks}
++++
 
-Os manuais de casos de uso são fluxos de trabalho pré-criados que ajudam a implementar cenários de marketing comuns rapidamente. Cada manual inclui jornadas, mensagens, esquemas e segmentos prontos para uso.
++++**Otimização de tempo de envio**
 
-![Interface de manuais de caso de uso](assets/playbooks-filter.png)
+Use a IA para prever o momento ideal para enviar cada mensagem com base em padrões de comportamento individuais do cliente, maximizando o engajamento.
 
-+++**Como funcionam os manuais**
+**Como funciona**
 
-1. **Navegue** pela biblioteca do manual para encontrar casos de uso que correspondam às suas metas
-2. **Habilitar** um manual para gerar automaticamente todos os recursos necessários
-3. **Personalize** os ativos gerados para corresponder à sua marca e requisitos
-4. **Implantar** para produção ou teste em uma sandbox de desenvolvimento
+A Otimização de tempo de envio analisa os dados históricos de engajamento (aberturas e cliques) para prever quando cada cliente tem maior probabilidade de se engajar com suas mensagens. O sistema programa automaticamente o delivery dentro da janela de tempo especificada.
+
+**Quando Usá-Lo**
+
+| Melhor para | Não Recomendado Para |
+|----------|---------------------|
+| Campanhas de marketing e informativos | Mensagens operacionais com detecção de hora (confirmações de pedidos, redefinições de senha) |
+| Mensagens promocionais | Notificações urgentes (atrasos nos voos, alertas de emergência) |
+| Conteúdo educacional | Mensagens baseadas em eventos com requisitos de tempo específicos |
+| Campanhas de engajamento | |
+
+[Saiba mais sobre a Otimização de tempo de envio](../building-journeys/send-time-optimization.md)
 
 +++
 
-+++**Playbooks disponíveis**
++++**Imagem para o HTML**
 
-Procurar nos manuais do Journey Optimizer cenários comuns, como:
+Transforme designs de imagem estática (JPEG, PNG) em modelos de email editáveis do HTML usando tecnologia de conversão habilitada por IA.
 
-* Recuperação do carrinho abandonado
-* Série de boas-vindas para novos clientes
-* Compromisso pós-compra
-* Mensagens de aniversário
-* Campanhas de reengajamento
+[Saiba mais sobre imagem para o HTML](../content-management/image-to-html.md)
 
 +++
 
-+++**Pré-requisitos**
++++**GenStudio para Marketing de performance**
 
-* Sandbox com permissões apropriadas
-* Configurações de canal para email, push e/ou SMS
-* Permissões de usuário para criar jornadas e mensagens
+Integre com o Adobe GenStudio for Performance Marketing para criar conteúdo de email alimentado por IA e importar modelos no Journey Optimizer para orquestração. Exporte modelos do Journey Optimizer para o GenStudio, gere variações com IA e traga-os de volta para implantação. (Disponibilidade limitada, somente canal de email.)
 
-+++
-
-[Exibir todos os manuais disponíveis](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"} | [Saiba mais na documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=pt-BR){target="_blank"}
-
-## Perguntas frequentes {#faq}
-
-+++**Quais permissões são necessárias para os recursos de IA?**
-
-* **[Gerar conteúdo](#content-generation)** - Requer a permissão &quot;Gerar conteúdo&quot;
-* Conhecimento de produto do **[Assistente de IA](#ai-assistant)** - Requer a aprovação das Diretrizes de usuário da IA geradora da Adobe
-* **[Agente de Análise de Jornada](#journey-analyze-skill)** - Requer permissões para Exibir/Gerenciar Jornadas e Exibir/Gerenciar Segmentos
-* **[Agente de Criação de Jornada](#journey-create-skill)** - Exige Gerenciar Jornadas, Exibir Eventos de Jornada/Fontes de Dados/Ações, Exibir Segmentos e Gerenciar Permissões de Segmentos
-* **[Experimentation Agent](#experimentation-agent)** - Requer as permissões Exibir Experimentos e Gerenciar Metadados de Experimento
-
-Todos os agentes de IA exigem acesso ao Assistente de IA e concordam com as Diretrizes de usuário da IA gerada pela Adobe Experience Cloud.
-
-[Saiba mais sobre permissões](../administration/ootb-permissions.md)
+[Saiba mais sobre o GenStudio](../integrations/genstudio.md)
 
 +++
 
-+++**O conteúdo gerado por IA é sempre preciso?**
++++**Alinhamento da marca**
 
-Não. Sempre revise o [conteúdo gerado por IA](#content-generation) quanto à precisão e à adequação da marca. Use as ferramentas de feedback (polegares para cima/para baixo) para ajudar a melhorar os modelos.
+Avalie como seu conteúdo se alinha às diretrizes da sua marca usando a pontuação alimentada por IA que mede a consistência do tom, da voz e da mensagem.
 
-+++
-
-+++**Quais são as principais limitações?**
-
-* **[Otimização de Tempo de Envio](#send-time-optimization)** - Disponível somente para ações de email e push no jornada; sua organização precisa de pelo menos 30 dias de histórico com o uso dessas ações antes de habilitá-la
-* **[Geração de conteúdo de IA](#content-generation)** - Disponível somente para os canais de email, push, Web e SMS
-* **[Modelos de Classificação de IA](#ai-decisioning)** - São necessários dados mínimos de interação e os limites diferem de acordo com o tipo de modelo (consulte [Requisitos](#ai-decisioning))
+[Saiba mais sobre o Alinhamento da marca](../content-management/brands-score.md)
 
 +++
 
-+++**Como obter acesso a esses recursos?**
++++**Modelos de IA para decisão**
 
-A maioria dos recursos de IA está incluída no Adobe Journey Optimizer. Alguns recursos, como [Otimização de Tempo de Envio](#send-time-optimization) ou [Agentes de IA](#ai-agents), podem exigir a ativação pela Adobe. Entre em contato com seu representante da Adobe para obter detalhes sobre sua licença específica e os recursos disponíveis.
+### Modelos de IA para decisões {#ai-decisioning}
+
+Crie modelos de classificação inteligentes que classificam as ofertas por taxa de conversão (conversões ÷ impressões), mostrando automaticamente a cada cliente a oferta mais provável de conversão.
+
+**Tipos de Modelo**
+
+* **Otimização automática** - Aprende com o desempenho geral e não personalizado de suas ofertas para melhorar automaticamente a conversão ao longo do tempo. Um bom ajuste quando as ofertas mudam com frequência, já que o modelo é reciclado aproximadamente a cada 6 horas.
+* **Otimização personalizada** - Usa atributos de perfil do cliente, comportamento e associação de público-alvo para prever a melhor oferta para cada indivíduo. Escolha essa opção quando precisar de uma classificação diferente por cliente, em vez de um vencedor geral.
+
+**Requisitos**
+
+Os requisitos mínimos de dados diferem por tipo de modelo:
+
+* **Otimização automática** - Pelo menos 2 ofertas com mais de 100 eventos de exibição e mais de 5 eventos de clique cada um nos últimos 14 dias. As ofertas abaixo desse limite são tratadas como novas e somente servidas por meio do tráfego de exploração.
+* **Otimização personalizada** - Usa uma janela contínua de 30 dias. A Adobe recomenda pelo menos 1.000 impressões e 100 eventos de conversão por oferta semanal; por padrão, ofertas com menos de 1.000 impressões ou 50 conversões não receberão um modelo treinado para elas. Até 5 públicos-alvo podem ser selecionados para treinar um único modelo.
+
+[Saiba mais sobre os modelos de IA para a tomada de decisão](../experience-decisioning/ranking/ai-models.md) | [Criar modelos de classificação de IA](../experience-decisioning/ranking/create-ai-models.md)
 
 +++
-
->[!MORELIKETHIS]
->
->* [O que é o Journey Optimizer?](get-started.md) — visão geral dos principais recursos, casos de uso e arquitetura.
->* [Noções básicas sobre como funciona](understanding-ajo.md) — Como o Journey Optimizer e o Experience Platform trabalham juntos.
->* [Geração de conteúdo de IA](../content-management/gs-generative.md) — Gere emails, push, SMS e conteúdo da Web com Gerar Conteúdo.
->* [Otimização de Tempo de Envio](../building-journeys/send-time-optimization.md) — Preveja e otimize o tempo de entrega de mensagens por indivíduo.
->* [Modelos de IA para decisão](../experience-decisioning/ranking/ai-models.md) — Classifique e personalize ofertas automaticamente com modelos de classificação de IA.
->* [Trabalhar com clientes MCP](../integrations/ajo-mcp.md) — Consultar campanhas, jornadas e ofertas de Claude Web, Claude Desktop ou Cursor usando o servidor MCP do Journey Optimizer.
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-ai-features.md}}
+

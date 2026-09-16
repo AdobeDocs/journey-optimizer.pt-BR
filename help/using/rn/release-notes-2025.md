@@ -10,15 +10,15 @@ level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Journey Optimizer release notes
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 9308
+source-wordcount: '9308'
 ht-degree: 100%
-
 ---
-
 # Notas de versão de 2025 {#release-notes-2025}
 
 Esta página lista todos os recursos e melhorias da versão de 2025 do [!DNL Journey Optimizer].
@@ -1850,7 +1850,7 @@ Há novas APIs disponíveis para visualizar campanhas, além dos recursos existe
 
 **Manuais de casos de uso**
 
-* **Criação e compartilhamento de manuais de estratégia (beta privado)** - Agora é possível criar, gerenciar e compartilhar seus próprios manuais de estratégia de casos de uso. No momento, esse recurso está disponível apenas para algumas organizações como um beta privado. Para obter acesso, entre em contato com o(a) representante da Adobe. [Leia mais](../start/ai-features.md#playbooks)
+* **Criação e compartilhamento de manuais de estratégia (beta privado)** - Agora é possível criar, gerenciar e compartilhar seus próprios manuais de estratégia de casos de uso. No momento, esse recurso está disponível apenas para algumas organizações como um beta privado. Para obter acesso, entre em contato com o(a) representante da Adobe. [Leia mais](../start/ajo-use-case-guide.md#playbooks)
 
 **Navegação**
 
