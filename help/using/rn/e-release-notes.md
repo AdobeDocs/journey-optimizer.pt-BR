@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: dc84ebba077bfc70b3ab9f0db3ee69cd6ae0d15c
+source-git-commit: 3ebf9d3a147f547001f7ee24a04cdc245941bef0
 workflow-type: tm+mt
-source-wordcount: '3540'
-ht-degree: 8%
+source-wordcount: '3606'
+ht-degree: 7%
 ---
 
 # Notas de pré-lançamento {#e-release-notes}
@@ -124,6 +124,8 @@ Os seguintes recursos e melhorias estão chegando ao Fidelidade nesta versão.
 * **Habilidade de recomendação de fidelidade do colaborador** - Os profissionais de marketing agora podem solicitar **oportunidades de desafio** diretamente na interface de conversa do colaborador, obtendo ideias de desafio baseadas em tendências reais do programa de fidelidade e transformando-as em desafios ao vivo sem sair do chat.
 
 * **Domínio de desafios no editor de personalização de Cartão de Conteúdo** - O editor de personalização de Cartão de Conteúdo agora aceita **Desafios** como um domínio, permitindo que você acesse metadados de desafio ao criar a personalização de cartão de conteúdo. Isso facilita a criação de conteúdo personalizado para cada estágio de um desafio — Início, Em andamento e Término — sem código personalizado.
+
+* **Prazos de conclusão do desafio de fidelidade por membro** - Os desafios de fidelidade agora oferecem suporte aos prazos de conclusão por membro: escolha &quot;Dentro de um número de dias após a aceitação&quot; em Requisitos de conclusão para que o prazo de cada membro seja calculado a partir de sua própria data de aceitação, em vez de uma data de término fixa em todo o programa. Se uma data final de desafio e essa janela de aceitação forem definidas, o prazo de cada membro será o primeiro. <!-- Documentation link: TBD -->
 
 ### Integração {#sep-26-onboarding}
 
