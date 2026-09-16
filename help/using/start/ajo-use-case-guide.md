@@ -10,16 +10,17 @@ level: Beginner
 keywords: Otimizador de jornadas, caso de uso, guia de decisão, qual recurso, introdução, objetivos de profissionais, tutoriais
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Get started
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 3221
-ht-degree: 29%
-
+source-wordcount: '3373'
+ht-degree: 28%
 ---
-
 # Iniciar com base na sua meta {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
@@ -38,7 +39,7 @@ Use esta página como um roteador rápido — verifique sua meta e vá direto pa
 
 Quando um tutorial completo não está disponível para um cenário específico, o link direciona você ao melhor ponto de partida atual para conhecer o recurso e começar.
 
-A IA está incorporada em muitos desses recursos — procure a tag **(AI)** nas tabelas abaixo. O conversacional [Assistente de IA](ai-features.md#ai-assistant) também pode responder perguntas sobre produtos e exibir insights operacionais sobre suas jornadas a qualquer momento. Para obter o conjunto completo de recursos inteligentes, consulte [IA e recursos inteligentes](ai-features.md).
+A IA está incorporada em muitos desses recursos — procure a tag **(AI)** nas tabelas abaixo. O conversacional [Assistente de IA](ai-features.md#ai-assistant) também pode responder perguntas sobre produtos e exibir insights operacionais sobre suas jornadas a qualquer momento. Para obter o conjunto completo de recursos inteligentes, consulte [Trabalhar com IA](ai-features.md).
 
 >[!TIP]
 >
@@ -247,6 +248,43 @@ Cada fluxo inicial abaixo é um conjunto de etapas curto e orientado por resulta
 
 ➡️ [Introdução ao Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)
 
+## Playbooks do caso de uso {#playbooks}
+
+Os manuais de casos de uso são fluxos de trabalho pré-criados que ajudam a implementar cenários de marketing comuns rapidamente. Cada manual inclui jornadas, mensagens, esquemas e segmentos prontos para uso.
+
+![Interface de manuais de caso de uso](assets/playbooks-filter.png)
+
++++**Como funcionam os manuais**
+
+1. **Navegue** pela biblioteca do manual para encontrar casos de uso que correspondam às suas metas
+2. **Habilitar** um manual para gerar automaticamente todos os recursos necessários
+3. **Personalize** os ativos gerados para corresponder à sua marca e requisitos
+4. **Implantar** para produção ou teste em uma sandbox de desenvolvimento
+
++++
+
++++**Playbooks disponíveis**
+
+Procurar nos manuais do Journey Optimizer cenários comuns, como:
+
+* Recuperação do carrinho abandonado
+* Série de boas-vindas para novos clientes
+* Compromisso pós-compra
+* Mensagens de aniversário
+* Campanhas de reengajamento
+
++++
+
++++**Pré-requisitos**
+
+* Sandbox com permissões apropriadas
+* Configurações de canal para email, push e/ou SMS
+* Permissões de usuário para criar jornadas e mensagens
+
++++
+
+[Exibir todos os manuais disponíveis](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=pt-BR){target="_blank"} | [Saiba mais na documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=pt-BR){target="_blank"}
+
 ## Exemplos de cenários {#example-scenarios}
 
 Estes exemplos ilustram como os recursos do Journey Optimizer trabalham em conjunto em diferentes funções, setores e canais.
@@ -348,7 +386,7 @@ Navegue por conteúdo de vídeo preparado por tópico. Cada guia está vinculada
 | Cenário | Usar |
 | -------- | --- |
 | Orientado ao comportamento, em várias etapas, cada cliente se move em seu próprio ritmo | Jornada |
-| Mensagem agendada simples ou acionada por API para um público-alvo | Campanha |
+| Mensagem agendada simples ou acionada por API para um público-alvo | Campaign |
 | Fluxo de trabalho de lote complexo com segmentação de várias entidades | Campanha orquestrada |
 
 Para obter uma comparação detalhada com uma árvore de decisão e tabelas de recursos, consulte [Jornadas versus Campanhas: escolha a abordagem correta](journeys-vs-campaigns.md). Depois de escolher as Jornadas, consulte [Tipos de Jornada: escolha a  certa](../building-journeys/journey-types-selection.md) para escolher entre jornadas de evento unitário, público-alvo de leitura, qualificação de público-alvo e evento comercial.

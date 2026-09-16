@@ -11,21 +11,23 @@ level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 096708dff514b6c8d099f48533ed81597a6e3510
+    internal-label: Journey Optimizer release notes
+source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
 workflow-type: tm+mt
-source-wordcount: 11249
-ht-degree: 90%
-
+source-wordcount: '11356'
+ht-degree: 89%
 ---
-
 
 # Atualizações na documentação {#latest-updates}
 
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Setembro de 2026 {#september-2026}
+
+* Uma nova página de **Demonstração interativa** está disponível para desafios de fidelidade, vinculando a uma demonstração autoguiada e clicável que abrange o fluxo de criação de desafios do profissional de marketing (incluindo Traga seus próprios dados e os painéis de insights), a experiência do cliente final e o Gerenciamento de desafios de fidelidade no CX Coworker. [Leia mais](../loyalty-challenges/loyalty-challenges-demo.md)
 
 * A página **Personalizar sua tela de fundo de email** foi expandida e aprimorada. Agora, ela documenta a lista suspensa **Posicionamento da imagem** para imagens de plano de fundo e adiciona novas práticas recomendadas para cores e imagens de plano de fundo, incluindo uma recomendação para testar imagens de plano de fundo em clientes de email reais, em vez de depender exclusivamente da visualização do Designer de email. [Leia mais](../email/backgrounds.md)
 
@@ -35,7 +37,9 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * Novas orientações foram adicionadas para verificar a entrega de ação personalizada: a página **Exemplos de consulta de conjunto de dados** agora explica como escolher entre os conjuntos de dados de Evento de feedback de mensagem, Rastreamento de email e Evento de etapa de Jornada, dependendo do tipo de ação, e documenta como resolver um erro &quot;Tabela não provisionada para conjunto de dados&quot;. As páginas **Visão geral dos eventos de etapa da Jornada** e **Solução de problemas de execução da jornada em tempo real** foram atualizadas de acordo, esclarecendo que uma chamada de ação personalizada bem-sucedida apenas confirma que o Journey Optimizer executou a ação, não que o sistema externo tenha entregue uma mensagem. [Leia mais](../data/datasets-query-examples.md#choose-the-correct-dataset)
 
-* Uma nova habilidade **Analisar anomalias de Jornada** foi documentada em **Analisar Jornada** na página do CX Coworker. Ele detecta picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de uma jornada em relação às linhas de base históricas e executa diagnósticos somente leitura para mostrar uma causa raiz provável. [Leia mais](../start/ajo-coworker-skills.md#journey-analyze)
+* Foram adicionadas informações sobre o CX Coworker à página **Trabalhar com IA**, que aborda o que é o CX Coworker, como ele se relaciona com o Assistente de IA e referências à documentação oficial do Colaborador. Páginas de habilidades dedicadas também foram adicionadas a cada guia de recursos — [Habilidades do CX Coworker para jornada](../start/journeys-coworker-skills.md), [Habilidades do CX Coworker para fidelidade](../start/loyalty-coworker-skills.md) e [ferramentas de gerenciamento de conteúdo do CX Coworker](../start/content-management-coworker-skills.md). [Leia mais](../start/ai-features.md#cx-coworker)
+
+* Uma nova habilidade **Analisar anomalias de Jornada** foi documentada em **Analisar Jornada** na página do CX Coworker. Ele detecta picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de uma jornada em relação às linhas de base históricas e executa diagnósticos somente leitura para mostrar uma causa raiz provável. [Leia mais](../start/journeys-coworker-skills.md#journey-analyze)
 
 * A página **Medidas de proteção e limitações** foi corrigida para refletir o fato de que fragmentos visuais com mais de 100 KB ou fragmentos de expressão com mais de 200 KB não podem mais causar problemas de truncamento na entrega de email: agora uma única medida de proteção de tamanho de fragmento de 700 KB é aplicada. [Leia mais](../start/guardrails.md#fragments-guardrails)
 
@@ -43,7 +47,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * A documentação do **Conjunto de Dados de Eventos de Feedback de Mensagens do AJO** foi expandida para esclarecer que abrange o feedback de entrega de mensagens em todos os canais (Email, SMS/RCS/MMS, Mala direta), não apenas email e push, e agora inclui uma seção **Classificar execuções de teste e não teste** explicando como interpretar o campo `isTestExecution`, incluindo `NULL` ou valores ausentes. [Leia mais](../data/datasets-query-examples.md#classify-test-executions)
 
-* Um novo recurso **Gerenciamento de conteúdo** foi documentado para o CX Co-worker, alimentado por 15 ferramentas de MCP de leitura/gravação que permitem descobrir, criar, atualizar, clonar e publicar modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha do jornada/campaign usando prompts de linguagem natural. [Leia mais](../start/ajo-coworker-skills.md#content-management)
+* Um novo recurso **Gerenciamento de conteúdo** foi documentado para o CX Co-worker, alimentado por 15 ferramentas de MCP de leitura/gravação que permitem descobrir, criar, atualizar, clonar e publicar modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha do jornada/campaign usando prompts de linguagem natural. [Leia mais](../start/content-management-coworker-skills.md#content-management)
 
 * A documentação **Adicionar conteúdo à página de aterrissagem** agora descreve uma opção **Tornar campo de formulário obrigatório** para caixas de seleção de consentimento: quando habilitada, o formulário não pode ser enviado, a menos que a caixa de seleção esteja marcada e a seleção seja imposta no lado do cliente e no lado do servidor. [Leia mais](../landing-pages/lp-content.md#use-form-component)
 
@@ -99,7 +103,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * A documentação da **API de migração de decisão** foi aprimorada com orientação abrangente sobre como migrar objetos da Gestão de decisões para o Decisioning. As novas seções incluem: referência de mapeamento de entidade com 10 convenções de nomenclatura, cobertura dentro e fora do escopo, comparações detalhadas de modelos de solicitação/resposta, três padrões de implementação (lado do cliente, lado do servidor, híbrido) com tratamento de cookies, requisitos de rastreamento de eventos com 5 exemplos JSON de evento, pré-requisitos de migração entre sandboxes, um processo de migração completo de 5 etapas e perguntas frequentes sobre migração. [Leia mais](../experience-decisioning/decisioning-migration-api.md)
 
-* Uma nova página **Habilidades de profissionais de CX** está disponível. Ela fornece documentação abrangente de todas as Habilidades de jornada disponíveis no Journey Optimizer, incluindo Criação de jornada, Criação de conteúdo de canal, Gerenciamento de desafio de fidelidade e Análise de jornada, com casos de uso, prompts de amostra e práticas recomendadas para cada habilidade. [Leia mais](../start/ajo-coworker-skills.md)
+* Uma nova página **Habilidades de profissionais de CX** está disponível. Ela fornece documentação abrangente de todas as Habilidades de jornada disponíveis no Journey Optimizer, incluindo Criação de jornada, Criação de conteúdo de canal, Gerenciamento de desafio de fidelidade e Análise de jornada, com casos de uso, prompts de amostra e práticas recomendadas para cada habilidade. [Leia mais](../start/ai-features.md#cx-coworker)
 
 * A documentação da função **Para precisão** foi atualizada para esclarecer que `toPrecision` se comporta como JavaScript `toFixed()`: ela retorna uma string com um número fixo de casas decimais, incluindo preenchimento com zeros quando necessário. [Leia mais](../personalization/functions/math.md#to-precision)
 

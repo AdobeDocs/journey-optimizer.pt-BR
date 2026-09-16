@@ -10,15 +10,15 @@ level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Journey Optimizer release notes
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 6911
+source-wordcount: '6911'
 ht-degree: 100%
-
 ---
-
 # Notas de versão de 2024 {#release-notes-2024}
 
 Esta página lista todos os recursos e melhorias da versão de 2024 do [!DNL Journey Optimizer].
@@ -1328,7 +1328,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tr>
 <td>
 <p>Aproveite um catálogo de manuais de estratégia de casos de uso específicos do setor na Real-Time CDP e no Journey Optimizer para abordar casos de uso comuns que você pode executar usando a Adobe Experience Platform e o Adobe Journey Optimizer.</p><p>Depois de escolher o manual de estratégia que melhor atende às suas necessidades, você pode habilitá-lo para gerar os ativos necessários que darão suporte ao seu caso de uso, como jornadas, mensagens, esquemas ou segmentos, e personalizá-los de acordo com o esquema para agilizar resultados relevantes.</p>
-<p>Para obter mais informações, consulte a <a href="../start/ai-features.md#playbooks">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../start/ajo-use-case-guide.md#playbooks">documentação detalhada</a>.</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
 </tbody>

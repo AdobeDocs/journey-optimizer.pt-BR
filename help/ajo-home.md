@@ -5,13 +5,11 @@ title: Documentação do Adobe Journey Optimizer
 description: Documentação do Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 5be833e0b6a06b8614123dd92118986378909652
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 98%
-
 ---
-
 # Documentação do Adobe Journey Optimizer{#section-overview}
 
 O Adobe Journey Optimizer capacita equipes a projetar e fornecer experiências personalizadas e fluidas ao cliente em canais como email, SMS e outros. Ao combinar ferramentas avançadas para a orquestração de campanhas, gestão de dados e tomada de decisões, ele ajuda a criar jornadas que se adaptam às necessidades do cliente em tempo real. Esta documentação oferece um roteiro para dominar a plataforma: da exploração de seus recursos e integrações mais recentes ao aprendizado de como gerenciar públicos-alvo, configurar jornadas e analisar o desempenho. Seja para profissionais de marketing, analistas de dados ou gerentes de campanha, é possível encontrar guias passo a passo, práticas recomendadas e recursos personalizados para ajudar a atingir seus objetivos com confiança.
@@ -38,7 +36,7 @@ Descubra como criar e gerenciar os **Desafios de fidelidade** para engajar e pre
 
 Adicionamos uma nova página de documentação para **habilidades do Journey Optimizer no CX Coworker**, incluindo habilidades **focadas em jornadas** e **focadas em fidelidade**, com orientação e prompts de amostra.
 
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/start/ajo-coworker-skills.md)
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/start/ai-features.md#cx-coworker)
 
 
 >[!TAB Iterar em dados contextuais]

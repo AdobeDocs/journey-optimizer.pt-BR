@@ -7,13 +7,11 @@ role: User, Admin, Developer
 level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
-workflow-type: ht
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 100%
-
 ---
-
 # Introdução ao Adobe Journey Optimizer{#get-started}
 
 Se você é novo no Journey Optimizer ou está retornando para explorar um novo recurso, esta página é o seu ponto de partida. Escolha o caminho que se adapta à sua função e meta.
@@ -163,7 +161,7 @@ Gerenciamento de conteúdo
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
-Relatórios
+Relatório
 
 [Monitore o desempenho com relatórios em tempo real](../using/reports/live-report.md)
 :::
@@ -218,7 +216,7 @@ Encontre respostas para perguntas frequentes e soluções para problemas comuns 
 ### Aprender e obter suporte
 
 * **[Vídeos tutoriais](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR){target="_blank"}** - Tutoriais em vídeo passo a passo que abordam os principais recursos
-* **[Manuais de estratégia de caso de uso](../using/start/ai-features.md#playbooks)**: fluxos de trabalho pré-criados para cenários comuns, como recuperação de carrinho abandonado e campanhas de boas-vindas
+* **[Manuais de estratégia de caso de uso](../using/start/ajo-use-case-guide.md#playbooks)**: fluxos de trabalho pré-criados para cenários comuns, como recuperação de carrinho abandonado e campanhas de boas-vindas
 * **[Monitoramento e solução de problemas](troubleshoot-journey-landing-page.md)** - Ferramentas para monitorar o desempenho, identificar problemas e resolvê-los rapidamente
 * **[Novidades](../using/rn/release-notes.md)** - atualize-se com os recursos, melhorias e correções mais recentes
 * **[Fórum da comunidade](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=pt){target="_blank"}** - Conecte-se com outros usuários, faça perguntas e compartilhe práticas recomendadas

@@ -11,16 +11,17 @@ hide: true
 keywords: jornada otimizer, integração, hub de integração, casos de uso, vídeos, tutoriais, introdução, aumento, primeira jornada
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Get started
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 1149
+source-wordcount: '1149'
 ht-degree: 11%
-
 ---
-
 # hub de integração do Journey Optimizer {#onboarding-hub}
 
 
@@ -165,5 +166,5 @@ Para obter uma visão geral completa de como essas funções funcionam juntas, c
 * [Encontre a capacidade certa do Journey Optimizer para sua meta](ajo-use-case-guide.md) — Guia de decisão de início de meta para todos os recursos.
 * [Biblioteca de casos de uso do Jornada](../building-journeys/jo-use-cases.md) — Exemplos práticos e padrões de implementação.
 * [Terminologia de chave](terminology.md) — Esclareça os conceitos por trás de cada recurso.
-* [IA e recursos inteligentes](ai-features.md) — Explore o Assistente de IA, a otimização de tempo de envio e a geração de conteúdo.
+* [Trabalhar com IA](ai-features.md) — Explore o Assistente de IA, a otimização de tempo de envio e a geração de conteúdo.
 * [Introdução ao gerenciamento de dados](../data/gs-data.md) — Como os dados são assimilados, unificados e ativados.

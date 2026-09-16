@@ -5,20 +5,18 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-nudge: true
-source-git-commit: d61698e186903f0203ac5c9120391ee10d94059f
+nudge: yes
+source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
 workflow-type: tm+mt
-source-wordcount: '3511'
-ht-degree: 99%
-
+source-wordcount: '3525'
+ht-degree: 98%
 ---
-
 # Ajuda do Adobe Journey Optimizer {#using}
 
 + [Documentação do Journey Optimizer](ajo-home.md)
 + Novidades {#whats-new}
   + [Ciclo de lançamento](using/rn/releases.md)
-  + {hide-from-toc}[Notas de pré-lançamento](using/rn/e-release-notes.md)
+  + [Notas de pré-lançamento](using/rn/e-release-notes.md)
   + [Notas de versão mais recentes](using/rn/release-notes.md)
   + Notas de versão anteriores {#previous-rn-new}
     + {hide-from-toc}[Notas de versão anteriores](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -35,15 +33,16 @@ ht-degree: 99%
 + Introdução {#get-started}
   + [Comece aqui](/help/rp_landing_pages/get-started-landing-page.md)
   + [Hub de integração](using/start/onboarding-hub.md)
+  + [Trabalhar com IA](using/start/ai-features.md)
   + [Migrar conteúdo e jornadas](using/start/migrate-content-and-journeys.md)
   + Noções básicas {#essentials}
     + [O que é o Journey Optimizer](using/start/get-started.md)
     + [Entenda como funciona](using/start/understanding-ajo.md)
-    + [IA e recursos inteligentes](using/start/ai-features.md)
-    + [Habilidades do Journey Optimizer no CX Coworker](using/start/ajo-coworker-skills.md)
     + [Terminologia principal](using/start/terminology.md)
     + [Iniciar com base na sua meta](using/start/ajo-use-case-guide.md)
     + [Medidas de proteção e limitações](using/start/guardrails.md)
+    + [Jornadas x campanhas](using/start/journeys-vs-campaigns.md)
+    + {hide-from-toc}[Jornadas x campanhas - 2](using/start/journeys-vs-campaigns-v2.md)
     + {hide-from-toc}[Pacotes e recursos](using/start/ajo-packages.md)
     + {hide-from-toc}[Disponibilidade de recursos](using/start/ajo-features-availability.md)
   + Introdução por função {#by-role}
@@ -55,15 +54,14 @@ ht-degree: 99%
   + Trabalhe com eficiência {#work-efficiently}
     + [Navegue pela interface](using/start/user-interface.md)
     + [Pesquise, filtre e organize](using/start/search-filter-categorize.md)
-    + [Perguntas frequentes sobre solução de problemas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [Acessibilidade](using/start/accessibility.md)
-    + [Jornadas x campanhas](using/start/journeys-vs-campaigns.md)
-    + {hide-from-toc}[Jornadas x campanhas - 2](using/start/journeys-vs-campaigns-v2.md)
+    + [Perguntas frequentes sobre solução de problemas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
 + Jornadas {#orchestrate-journeys}
   + [Introdução às jornadas](using/building-journeys/journey.md)
   + {hide-from-toc}[Guia de introdução a jornadas](using/building-journeys/journey-get-started.md)
   + {hide-from-toc}[Tipos de jornada: escolha a opção correta -2](using/building-journeys/journey-types-selection-v2.md)
   + [Perguntas frequentes do Journey Orchestration](using/building-journeys/journey-faq.md)
+  + [Habilidades do CX Coworker para jornada](using/start/journeys-coworker-skills.md)
   + Criar uma jornada {#create-journey}
     + [Criar uma jornada](/help/rp_landing_pages/create-journey-landing-page.md)
     + [Crie a primeira jornada](using/building-journeys/journey-gs.md)
@@ -150,6 +148,8 @@ ht-degree: 99%
     + [Usar ações personalizadas para gravar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
 + Desafios de fidelidade {#loyalty-challenges}
   + [Introdução aos desafios de fidelidade](using/loyalty-challenges/get-started.md)
+  + [Demonstração interativa](using/loyalty-challenges/loyalty-challenges-demo.md)
+  + [Habilidades do CX Coworker para fidelidade](using/start/loyalty-coworker-skills.md)
   + Criar e gerenciar desafios {#create-manage-challenges}
     + [Acessar e gerenciar desafios e tarefas](using/loyalty-challenges/access-loyalty-challenges.md)
     + [Criar desafios](using/loyalty-challenges/create-challenges.md)
@@ -208,7 +208,7 @@ ht-degree: 99%
       + [Orquestrar atividades](using/orchestrated/orchestrate-activities.md)
       + [Adicionar personalização](using/orchestrated/add-personalization.md)
       + [Iniciar e monitorar a campanha](using/orchestrated/start-monitor-campaigns.md)
-      + [Relatórios](using/orchestrated/reporting-campaigns.md)
+      + [Relatório](using/orchestrated/reporting-campaigns.md)
     + Consultar o banco de dados {#query-database}
       + [Consultar o banco de dados](/help/rp_landing_pages/query-database-landing-page.md)
       + [Trabalhar com o construtor de regras](using/orchestrated/orchestrated-rule-builder.md)
@@ -269,6 +269,7 @@ ht-degree: 99%
     + [Visualizar usando perfis de teste](using/content-management/preview.md)
     + [Enviar provas usando dados de perfil de teste](using/content-management/proofs.md)
     + [Testar o e-mail rendering](using/content-management/rendering.md)
+    + {hide-from-toc}[Simular experiências de entrada](using/test-approve/simulate-inbound-experiences.md)
     + [Simular variações de conteúdo (experiência clássica)](using/test-approve/simulate-sample-input.md)
     + [Simular variações de conteúdo (nova experiência)](using/test-approve/simulate-content-variations.md)
     + [Relatório de spam de email](using/content-management/spam-report.md)
@@ -476,6 +477,7 @@ ht-degree: 99%
     + [Monitorar canais personalizados](using/custom-channel/monitor-custom-channel.md)
 + Gerenciamento de conteúdo {#content-management}
   + [Gerenciamento de conteúdo](/help/rp_landing_pages/content-management-landing-page.md)
+  + [Ferramentas de gerenciamento de conteúdo do CX Coworker](using/start/content-management-coworker-skills.md)
   + Personalização {#personalization}
     + [Personalização](/help/rp_landing_pages/personalization-landing-page.md)
     + [Introdução à personalização](using/personalization/personalize.md)
@@ -626,8 +628,8 @@ ht-degree: 99%
     + [Trabalhar com atributos computados](using/audience/computed-attributes.md)
   + [Identidades](using/audience/get-started-identity.md)
   + [Uso da licença](using/audience/license-usage.md)
-+ Relatórios {#reporting}
-  + [Relatórios](/help/rp_landing_pages/reporting-landing-page.md)
++ Relatório {#reporting}
+  + [Relatório](/help/rp_landing_pages/reporting-landing-page.md)
   + [Introdução aos relatórios](using/reports/gs-reports.md)
   + Relatório em tempo real {#live-report}
     + [Relatório em tempo real](/help/rp_landing_pages/live-report-landing-page.md)

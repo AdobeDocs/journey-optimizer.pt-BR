@@ -13,28 +13,37 @@ exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 TQID: https://experienceleague.adobe.com/NYmffTrdeExP-YY92lHKD21uvDN8IeUqW46P6Rrkek8
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: a653cc2e-bc85-4353-a306-399e5b247978
+    internal-label: Journey Optimizer campaigns
 subfeature_v2:
   - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+    internal-label: Business rules
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
+    internal-label: API triggered campaigns
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e7d1cdab43de134214a122f9d7f0a537721c7890
+    internal-label: Optimization
+source-git-commit: 916b5875a96eae7b0a4aca86fe35022f21841dd8
 workflow-type: tm+mt
-source-wordcount: 939
+source-wordcount: '941'
 ht-degree: 30%
-
 ---
-
 # Configurar a ação da campanha {#action-campaign-action}
 
 >[!BEGINSHADEBOX]
@@ -127,7 +136,7 @@ Para mensagens no aplicativo, você pode usar o botão **[!UICONTROL Editar acio
 >title="Adicionar várias ações de entrada"
 >abstract="Você pode selecionar várias ações de entrada em uma mesma campanha. Este recurso permite entregar várias experiências baseadas em código, mensagens no aplicativo, cartões de conteúdo ou ações da web para locais diferentes ao mesmo tempo, cada ação com um conteúdo específico."
 
-Para simplificar a orquestração de campanhas, você pode definir várias ações de entrada em uma única campanha, cada uma com um conteúdo específico.
+Para simplificar a orquestração da campanha, você pode definir várias ações de entrada em uma única campanha, cada uma contendo um conteúdo específico.
 
 >[!NOTE]
 >

@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: d6acaa24c707dd31df8db14e1dbcfc2b0122b9b0
+source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 94%
+source-wordcount: '1738'
+ht-degree: 90%
 ---
 # Navegue pela interface {#user-interface}
 
@@ -193,7 +193,7 @@ A navegação à esquerda organiza os recursos do Journey Optimizer em categoria
 * **Modelos de conteúdo** - Modelos de mensagem reutilizáveis para campanhas e jornadas. [Criar modelos](../content-management/content-templates.md)
 * **Fragmentos** - Blocos de conteúdo que podem ser usados em várias mensagens. [Trabalhar com fragmentos](../content-management/fragments.md)
 * **Páginas de destino** - Formulários web para assinaturas e preferências. [Projetar páginas de destino](../landing-pages/get-started-lp.md)
-* **Manuais de estratégia de caso de uso** - Fluxos de trabalho pré-criados para cenários de marketing comuns. [Explorar manuais de estratégia](ai-features.md#playbooks)
+* **Manuais de estratégia de caso de uso** - Fluxos de trabalho pré-criados para cenários de marketing comuns. [Explorar manuais de estratégia](ajo-use-case-guide.md#playbooks)
 
 **Gerenciamento de dados** - Gerencie sua base de dados. [Saiba mais sobre esquemas e conjuntos de dados](../data/get-started-schemas.md)
 
@@ -411,6 +411,18 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >id="ajo_journey_inbound_activity_deactivation"
 >title="Atividade de Desativação de atividade de entrada"
 >abstract="Remove um perfil de até cinco atividades ou experiências de entrada diretamente de uma jornada, dissociando a desqualificação de entrada da saída da jornada."
+
+<!--DOCAC-15707 Implement contextual help for Journey Properties event recovery / action timeout fields-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_recovery_timeout"
+>title="Definir tempo limite de recuperação de evento"
+>abstract="Controla por quanto tempo a jornada repete automaticamente os eventos afetados por uma interrupção de serviço. Desativado por padrão (repetição automática de 72 horas); ative para ajustar a janela de repetição de 0 a 72 horas para jornadas sensíveis ao tempo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_timeout"
+>title="Ação personalizada / Tempo limite da ação de IDS"
+>abstract="A opção Ação personalizada / Tempo limite da ação de IDS define um caminho alternativo na jornada quando a ação atinge o tempo limite ou retorna um erro, de modo que os perfis continuem por um caminho de fallback em vez de parar nessa etapa. Os valores recomendados estão entre 1 e 30 segundos."
 
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

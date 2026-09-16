@@ -11,28 +11,37 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+    internal-label: Track and monitor
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+    internal-label: Performance monitoring
   - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+    internal-label: Deliverability
   - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+    internal-label: Metrics catalog
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Administration
+source-git-commit: 37b04ecd9230df1ae2486243da1b9d6d33f0162a
 workflow-type: tm+mt
-source-wordcount: 3353
+source-wordcount: '3652'
 ht-degree: 1%
-
 ---
-
 # Acessar e assinar alertas do sistema {#alerts}
 
 >[!BEGINSHADEBOX]
@@ -49,7 +58,7 @@ O Adobe Journey Optimizer fornece dois tipos de alertas:
 
 * **Alertas de validação na tela**: ao criar jornadas e campanhas, use o botão **Alertas** na tela para identificar e resolver erros de configuração antes da publicação. Saiba como [solucionar problemas do jornada](../building-journeys/troubleshooting.md) e revisar suas campanhas: [Campanhas de ação](../campaigns/review-activate-campaign.md) | [Campanhas acionadas por API](../campaigns/review-activate-api-triggered-campaign.md) | [Campanhas orquestradas](../orchestrated/start-monitor-campaigns.md).
 
-* **Alertas de monitoramento do sistema** (detalhados nesta página): receba notificações proativas quando os limites operacionais forem excedidos ou forem detectados problemas nas configurações de jornadas ativas e canais, e quando ocorrerem eventos importantes do ciclo de vida da campanha (ativação, entrega, parada e falhas relacionadas). Os alertas do sistema monitoram métricas como taxas de erro, descartes de perfis e problemas de capacidade de entrega de email, além desses eventos de campanha.
+* **Alertas de monitoramento do sistema** (detalhados nesta página): receba notificações proativas quando os limites operacionais forem excedidos ou forem detectados problemas nas configurações de jornadas ativas e canais, e quando ocorrerem eventos importantes do ciclo de vida da campanha (ativação, entrega, parada e falhas relacionadas). Os alertas do sistema monitoram métricas como taxas de erro, descartes de perfis, tráfego de jornadas anômalo e problemas de capacidade de entrega de email, além desses eventos de campanha.
 
 **Principais benefícios dos alertas do sistema:**
 
@@ -215,6 +224,28 @@ Para solucionar problemas de limite:
 * Monitore o endpoint externo para garantir que ele consiga lidar com a carga esperada.
 
 ➡️ [Configurar limite de ação personalizada](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices)
+
++++
+
++++ Anomalia na jornada detectada
+
+Esse alerta avisa quando o tráfego diário de uma jornada em tempo real se desvia de sua própria linha de base histórica ou cai para zero inesperadamente. Três métricas são monitoradas independentemente para cada jornada: **[!UICONTROL Entradas da Jornada]**, **[!UICONTROL Saídas da Jornada]** e **[!UICONTROL Envios de eventos]**. A verificação é executada uma vez por dia, usando uma retrospectiva de 30 dias por jornada.
+
+**Linha de base:** o valor esperado para cada métrica combina a previsão do Customer Journey Analytics para esse dia com uma mediana variável de 7 dias dos próprios valores reais da jornada. Se a previsão cair abaixo de 50% da mediana do rolamento, a mediana do rolamento é utilizada em vez disso, para evitar a subprevisão de uma jornada que tem funcionado de forma constante.
+
+Os seguintes motivos podem acionar um alerta:
+
+* **Anomalia zero**: acionado imediatamente se uma métrica cair para 0 em um dia em que a jornada tenha produzido tráfego diferente de zero anteriormente. **Ler público-alvo** As jornadas estão isentas no dia atual, pois a execução desse dia pode ainda não ter sido concluída.
+* **Limite de desvio**: acionado quando o valor real difere do valor esperado em 35% ou mais, uma vez que a jornada tenha mostrado 3 a 4 dias consecutivos de histórico diferentes de zero, e somente se o valor esperado for pelo menos 100 (para evitar o sinalizador de ruído de número pequeno).
+* Se as **Entradas de Jornada** forem anômalas em um determinado dia, as anomalias relacionadas em **Saídas** e **Envios de eventos** serão suprimidas no mesmo dia e jornada, portanto, uma única causa raiz não gera vários alertas.
+
+Observe que este alerta se aplica somente a jornadas ativas do tipo **evento unitário**, **leitura-público** ou **qualificação-público** (somente para jornadas recorrentes de **Leitura de público**) e requer que a organização ou a sandbox seja assinada para receber alertas.
+
+➡️ [Inspecione o relatório de jornada ao vivo para solucionar problemas de um alerta **Anomalia de Jornada detectada**](../reports/journey-live-report.md)
+
+>[!IMPORTANT]
+>
+>No momento, esse alerta está disponível somente em sandboxes de produção e não está disponível em sandboxes de desenvolvimento ou de preparo.
 
 +++
 
