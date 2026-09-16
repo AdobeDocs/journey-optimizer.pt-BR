@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: ae5a5620262470131757a3f9221c69ad212be43e
 workflow-type: tm+mt
-source-wordcount: '2877'
-ht-degree: 68%
+source-wordcount: '2888'
+ht-degree: 67%
 ---
 # Notas de versão {#release-notes}
 
@@ -127,19 +127,19 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tbody>
 </table>
 
+* **A Decisão na simulação de Jornada** - Experimentação de Caminho, como parte da atividade **Otimizar**, agora é compatível com a Simulação. O roteamento é manipulado pela Decisão e é aleatório e não determinístico por usuário simulado.
+
+  [Saiba mais](../building-journeys/simulate-journey-gs.md)
+
+  Data de disponibilidade: 15 de setembro de 2026
+
 * **Alerta de Nova Anomalia de Jornada Detectada** - Um novo alerta do sistema agora avisa quando o tráfego diário de uma jornada em tempo real se desvia de sua própria linha de base histórica ou cai para zero inesperadamente, entre Entradas de Jornada, Saídas de Jornada e Envios de evento. Este alerta está disponível atualmente somente em sandboxes de produção.
 
   [Saiba mais](../reports/alerts.md)
 
   Data de disponibilidade: 15 de setembro de 2026
 
-* **A Decisão na simulação de Jornada** - Experimentação de Caminho, como parte da atividade **Otimizar**, agora é compatível com a Simulação.
-
-  [Saiba mais](../building-journeys/simulate-journey-gs.md)
-
-  Data de disponibilidade: 15 de setembro de 2026
-
-* **Decisão na simulação de Jornada** - Agora é possível simular jornadas que dependem da decisão do Adobe Journey Optimizer, com os seguintes itens recém-suportados:
+* **Decisão na simulação de Jornada** - Agora é possível simular jornadas que dependem da Decisão, com os seguintes itens recém-suportados:
 
   * Os nós de Decisão de conteúdo agora são compatíveis com a Simulação.
   * O método de regra de Direcionamento da atividade Otimizar agora é compatível com a Simulação.
