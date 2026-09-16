@@ -31,7 +31,7 @@ Saiba mais:
 
 * [Habilidades do CX Coworker para Journey Optimizer](ai-features.md#cx-coworker-skills) — visão geral das habilidades do CX Coworker em Jornadas, Fidelidade e Gerenciamento de Conteúdo no Journey Optimizer.
 * [Documentação do CX Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — visão geral dos recursos de Campanhas, Chat e Projetos do Colaborador.
-* [Guia da interface de Chat do Colaborador](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — como acessar e navegar pelo Chat do Colaborador.
+* [Guia da interface de Chat do Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — como acessar e navegar pelo Chat do Colaborador.
 
 >[!ENDSHADEBOX]
 
