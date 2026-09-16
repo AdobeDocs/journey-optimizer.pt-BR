@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: a8bd5a793b5eb23b0769cd8fcaffde0186346859
+source-git-commit: 3182b6fd2f6c97145c1356d2de009a6ffc50db7f
 workflow-type: tm+mt
-source-wordcount: '3549'
+source-wordcount: '3545'
 ht-degree: 8%
 ---
 
@@ -41,7 +41,7 @@ Esta versão traz vários recursos e habilidades novos e aprimorados do [Coworke
 
 * [Plug-ins de cópia de mensagem e design de email](#sep-26-content-management) - Dois novos plug-ins que simplificam os fluxos de trabalho de mensagens e email no Coworker, desde o resumo da campanha até a cópia pronta para produção e o HTML.
 * [Habilidade de recomendação de fidelidade](#sep-26-loyalty) - Solicite oportunidades de desafio diretamente na interface de conversa do Colaborador e transforme-as em desafios ao vivo sem sair do chat.
-* [Simulação de Jornada (MCP e Chat)](#sep-26-journeys) - Automatize a validação de jornada de ponta a ponta e interprete os resultados diretamente no Coworker.
+* [Simulação de Jornada](#sep-26-journeys) - Automatize a validação de jornada de ponta a ponta e interprete os resultados diretamente no Colaborador.
 * [Criação de Jornadas no painel do Colaborador](#sep-26-journeys) - Gere jornadas com IA diretamente no painel direito do Colaborador, substituindo a experiência anterior do Assistente de IA.
 * [Comparar versões do jornada](#sep-26-journeys) - Obtenha uma diferença estruturada e de fidelidade completa entre duas versões de uma jornada por meio do Chat do Colaborador.
 * [Habilidade da Análise de Higiene](#sep-26-journeys) - Examine jornadas ativas e de rascunho em busca de configurações corrompidas, falhas silenciosas e ativos em decomposição ou não utilizados, com correções recomendadas.
@@ -158,7 +158,7 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 <table>
 <thead>
 <tr>
-<th><strong>Simulação de Jornada no Colaborador (MCP e Chat)</strong><br/></th>
+<th><strong>Simulação de Jornada no Colaborador</strong><br/></th>
 </tr>
 </thead>
 <tbody>
