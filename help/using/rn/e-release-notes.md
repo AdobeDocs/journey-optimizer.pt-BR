@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 56caca49cd1c6f3daab0497e5e9d46b993efed62
+source-git-commit: 5704e00a342a2a25d3dbb7ccb08502640e93dfc9
 workflow-type: tm+mt
-source-wordcount: '3522'
-ht-degree: 10%
+source-wordcount: '3444'
+ht-degree: 8%
 ---
 
 # Notas de pré-lançamento {#e-release-notes}
@@ -345,23 +345,7 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 
 ### Campanhas {#sep-26-campaigns}
 
-Os seguintes recursos e melhorias estão chegando às campanhas nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulação de experiência de entrada em campanhas de ação (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora é possível simular ações de canal de entrada em Campanhas de ação antes de entrar em atividade. Use o modo de simulação para testar sua configuração com usuários simulados e visualizar a experiência renderizada, incluindo um URL gerado e um código QR, para que você possa validar regras, decisões e renderização de conteúdo de ponta a ponta.</p>
-<p>No momento, esse recurso está em Private Beta e disponível para um conjunto limitado de organizações. Entre em contato com o representante da Adobe para obter mais informações.</p>
-</td>
-</tr>
-</tbody>
-</table>
+O aprimoramento a seguir está chegando às campanhas nesta versão.
 
 * **Pastas para campanhas** - Agora você pode organizar suas campanhas em **pastas** para melhorar a navegação e o gerenciamento na interface.
 
