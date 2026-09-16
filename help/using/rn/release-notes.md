@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ae5a5620262470131757a3f9221c69ad212be43e
+source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2921'
 ht-degree: 67%
 ---
 # Notas de versão {#release-notes}
@@ -88,6 +88,10 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 * **Desafios de fidelidade &quot;para sempre&quot;** - Os desafios de fidelidade agora podem ser executados indefinidamente. Defina **Fim do desafio** como **Sem data de término** ao configurar o agendamento, e o desafio nunca expirará. [Saiba mais](../loyalty-challenges/create-challenges.md#schedule)
 
   Data de disponibilidade: 1º de setembro de 2026
+
+* **Fidelidade disponível para clientes do Healthcare Shield e do Privacy and Security Shield** - o Journey Optimizer Loyalty agora está disponível para clientes do Healthcare Shield e do Privacy and Security Shield. [Saiba mais](../loyalty-challenges/get-started.md)
+
+  Data de disponibilidade: 15 de setembro de 2026
 
 ### Jornadas {#sep-26-journeys}
 
