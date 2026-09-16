@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 3182b6fd2f6c97145c1356d2de009a6ffc50db7f
+source-git-commit: dc84ebba077bfc70b3ab9f0db3ee69cd6ae0d15c
 workflow-type: tm+mt
-source-wordcount: '3545'
+source-wordcount: '3540'
 ht-degree: 8%
 ---
 
@@ -410,13 +410,14 @@ Os seguintes recursos e melhorias estão chegando ao Designer de email nesta ver
 <table>
 <thead>
 <tr>
-<th><strong>Estilo independente em modo escuro para variantes de tema de email</strong><br/></th>
+<th><strong>Suporte ao modo escuro para variantes de tema de email</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Os temas de email agora oferecem suporte ao estilo independente para o modo escuro. No construtor de temas, é possível ativar o modo escuro para uma determinada variante a fim de gerar uma folha de estilos dedicada do modo escuro que você edita separadamente dos estilos do modo claro. As alterações feitas em um modo não substituem mais o outro. No editor de email e modelo, um novo botão de visualização ao lado das opções de exibição para dispositivos móveis e desktop permite que você visualize o conteúdo no modo escuro.</p>
+<p>Os temas de email agora oferecem suporte ao modo escuro, para que cada variante de cor possa ser renderizada com uma aparência personalizada para os recipients que visualizam seu email em um cliente habilitado para o modo escuro.</p>
+<p>Quando habilitada, uma paleta escura padrão é gerada automaticamente para cada variante, e você pode personalizá-la ainda mais com uma paleta diferente ou com suas próprias cores personalizadas, independentemente do design do modo claro. Portanto, as alterações feitas em um modo não afetam o outro.</p>
 </td>
 </tr>
 </tbody>
