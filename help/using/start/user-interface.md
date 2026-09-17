@@ -50,7 +50,7 @@ topic_v2:
 source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
 workflow-type: tm+mt
 source-wordcount: '1738'
-ht-degree: 90%
+ht-degree: 92%
 ---
 # Navegue pela interface {#user-interface}
 
@@ -64,7 +64,7 @@ Para acessar o Adobe Journey Optimizer, faça logon no [[!DNL Adobe CX Enterpris
 
 >[!NOTE]
 >
->* Os componentes e recursos disponíveis no ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+>* Os componentes e recursos disponíveis no ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 >* Esta documentação é atualizada com frequência. Algumas capturas de tela podem ser um pouco diferentes da interface.
 
 ## Tour rápido {#quick-tour}
@@ -205,7 +205,7 @@ A navegação à esquerda organiza os recursos do Journey Optimizer em categoria
 **Conexões** - Integrar a outros sistemas
 
 * **Fontes** - Assimilar dados de sistemas externos. [Configurar fontes](get-started-sources.md)
-* **Destinos** - Exporte dados para o armazenamento na nuvem. [Configurar destinos](../data/export-datasets.md). Você também pode ativar públicos para destinos de personalização qualificados, como o Adobe Target, no [catálogo de destinos do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR){target="_blank"}.
+* **Destinos** - Exporte dados para o armazenamento na nuvem. [Configurar destinos](../data/export-datasets.md). Você também pode ativar públicos para destinos de personalização qualificados, como o Adobe Target, no [catálogo de destinos do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}.
 
 **Cliente** - Gerencie públicos-alvo e perfis
 
@@ -282,7 +282,7 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="Canais disponíveis"
->abstract="Email, SMS, Notificações por push e Mala direta"
+>abstract="Email, SMS, Notificações por push e Correspondência direta"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
@@ -307,7 +307,7 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_2"
 >title="Mensagens de marketing"
->abstract="Conteúdo promocional, incluindo atividades de transmissão ao vivo, como pontuações esportivas ou atualizações de status de voo (requer aceitação, sujeito às regras comerciais)"
+>abstract="Conteúdo promocional, incluindo atividades de transmissão ao vivo, como resultados esportivos ou atualizações de status de voo (requer aceitação, sujeito às regras comerciais)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_3"
@@ -317,7 +317,7 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_4"
 >title="Canais disponíveis"
->abstract="Email, SMS, notificações por push e atividades online"
+>abstract="Email, SMS, Notificações por push e Atividades ao vivo"
 
 <!--APPROVAL POLICIES-->
 
