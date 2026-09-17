@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '987'
 ht-degree: 14%
 ---
 # Introdução aos desafios de fidelidade {#get-started-loyalty-challenges}
@@ -27,10 +27,6 @@ ht-degree: 14%
 >id="ajo_loyalty_inventory"
 >title="Desafios de fidelidade"
 >abstract="Os Desafios de Fidelidade permitem criar programas de fidelidade envolventes e gamificados que impulsionam o comportamento do cliente e aprofundam os relacionamentos com a marca. Crie desafios que recompensem os clientes por ações específicas, desde fazer compras e escrever avaliações até se envolver com redes sociais e indicar a amigos."
-
->[!AVAILABILITY]
->
->O Journey Optimizer Loyalty não está disponível atualmente para clientes do Healthcare Shield e do Privacy and Security Shield. A disponibilidade para clientes do Healthcare Shield e do Privacy and Security Shield será atualizada quando os recursos estiverem prontos.
 
 ## Visão geral {#overview}
 
