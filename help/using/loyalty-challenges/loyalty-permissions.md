@@ -10,16 +10,22 @@ level: Intermediate
 exl-id: 7d6d4f18-8c5d-4c9c-9f7d-2d6c5f9a8b31
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: 967
+source-wordcount: '989'
 ht-degree: 7%
-
 ---
-
 # Permissões para desafios de fidelidade {#loyalty-permissions}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba mais sobre as funções de fidelidade padrão, as permissões disponíveis, os recursos de função, o escopo da sandbox e como atribuir funções aos usuários.
+
+>[!ENDSHADEBOX]
 
 ## Visão geral {#overview}
 

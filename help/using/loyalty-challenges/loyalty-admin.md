@@ -14,12 +14,18 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1775'
 ht-degree: 18%
 ---
 # Configurar desafios de fidelidade {#loyalty-admin}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como os administradores configuram os Desafios de Fidelidade, incluindo configurações globais, provedores de premiação, mapeamentos de eventos, inventário de produtos e exclusões.
+
+>[!ENDSHADEBOX]
 
 ## Visão geral {#access-loyalty-admin}
 

@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1016'
 ht-degree: 14%
 ---
 # Introdução aos desafios de fidelidade {#get-started-loyalty-challenges}
@@ -27,6 +27,12 @@ ht-degree: 14%
 >id="ajo_loyalty_inventory"
 >title="Desafios de fidelidade"
 >abstract="Os Desafios de Fidelidade permitem criar programas de fidelidade envolventes e gamificados que impulsionam o comportamento do cliente e aprofundam os relacionamentos com a marca. Crie desafios que recompensem os clientes por ações específicas, desde fazer compras e escrever avaliações até se envolver com redes sociais e indicar a amigos."
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** obtenha uma visão geral dos Desafios de Fidelidade, saiba como o programa funciona, revise os pré-requisitos e encontre a documentação necessária para configurar, criar, iniciar e medir os desafios.
+
+>[!ENDSHADEBOX]
 
 ## Visão geral {#overview}
 
