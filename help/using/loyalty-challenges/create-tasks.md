@@ -10,16 +10,22 @@ level: Intermediate
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: 1140
+source-wordcount: '1165'
 ht-degree: 9%
-
 ---
-
 # Criar tarefas {#create-tasks}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como criar tarefas de fidelidade reutilizáveis, configurar atividades de Compra, Gastos e Eventos personalizados e definir atributos de tarefa, qualificação e requisitos de conclusão.
+
+>[!ENDSHADEBOX]
 
 As tarefas definem as ações ou marcos específicos que os clientes devem concluir para ganhar recompensas em um desafio de fidelidade. Você pode configurar tarefas de compras e gastos, ou tarefas de **[!UICONTROL Eventos personalizados]** que rastreiam eventos de experiência do Adobe Experience Platform que sua organização já captura.
 
@@ -172,5 +178,5 @@ Após configurar todos os atributos e propriedades, selecione **[!UICONTROL Cria
 
 Saiba como criar e configurar tarefas com este tutorial passo a passo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496446?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496442?quality=12)
 

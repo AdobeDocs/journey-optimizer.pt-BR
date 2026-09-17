@@ -10,16 +10,22 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '554'
 ht-degree: 2%
-
 ---
-
 # Monitorar o desempenho do desafio de fidelidade {#loyalty-reporting}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar Relatórios e Insights de Desafios de Fidelidade para monitorar a atividade dos membros, o desempenho dos desafios, os resultados das recompensas, a receita e as recomendações do programa.
+
+>[!ENDSHADEBOX]
 
 Use os relatórios de Desafios de fidelidade para ver o desempenho de seus desafios. Verifique quem está se inscrevendo, quem está concluindo os desafios e quanta receita seu programa está gerando — tudo em um só lugar. Os dados vêm do Adobe Customer Journey Analytics.
 
@@ -98,4 +104,4 @@ Cada cartão contém uma **marca de categoria** que identifica a qual parte do p
 
 ➡️ Veja como medir o desempenho de desafios com relatórios de desafios
 
->[!VIDEO](https://video.tv.adobe.com/v/3497563?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)

@@ -14,12 +14,18 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 0780bc3e7ab3acc95dfcbf8d0bf94e964457bfa3
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 3%
+source-wordcount: '146'
+ht-degree: 2%
 ---
 # Demonstração interativa {#loyalty-challenges-demo}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** explore uma demonstração interativa de Desafios de Fidelidade que abrange a criação de desafios, a experiência do cliente, o desempenho e os insights, além do Gerenciamento de Desafios de Fidelidade no CX Coworker.
+
+>[!ENDSHADEBOX]
 
 Veja os Desafios de Fidelidade em ação em uma demonstração autoguiada e clicável criada em torno da &quot;Luma&quot;, a marca fictícia de varejo de estilo de vida da Adobe.
 
