@@ -50,7 +50,7 @@ topic_v2:
 source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
 workflow-type: tm+mt
 source-wordcount: '1738'
-ht-degree: 90%
+ht-degree: 92%
 ---
 # Navegue pela interface {#user-interface}
 
@@ -282,7 +282,7 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="Canais disponíveis"
->abstract="Email, SMS, Notificações por push e Mala direta"
+>abstract="Email, SMS, Notificações por push e Correspondência direta"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
@@ -307,7 +307,7 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_2"
 >title="Mensagens de marketing"
->abstract="Conteúdo promocional, incluindo atividades de transmissão ao vivo, como pontuações esportivas ou atualizações de status de voo (requer aceitação, sujeito às regras comerciais)"
+>abstract="Conteúdo promocional, incluindo atividades de transmissão ao vivo, como resultados esportivos ou atualizações de status de voo (requer aceitação, sujeito às regras comerciais)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_3"
@@ -317,7 +317,7 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_4"
 >title="Canais disponíveis"
->abstract="Email, SMS, notificações por push e atividades online"
+>abstract="Email, SMS, Notificações por push e Atividades ao vivo"
 
 <!--APPROVAL POLICIES-->
 
