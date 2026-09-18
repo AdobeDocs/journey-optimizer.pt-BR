@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Usar um público em uma jornada
-description: Saiba como configurar e usar a atividade Ler público para fazer com que os indivíduos de  [!DNL Adobe Experience Platform]  públicos-alvo insiram jornadas.
+description: Saiba como configurar e usar a atividade Ler público para fazer com que os indivíduos de [!DNL Adobe Experience Platform] públicos-alvo insiram jornadas.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
@@ -13,29 +13,39 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/XqBTB8kE-KCmI49eHBp63dX09vu5Zh1Dl2BDwH0BkU4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+    internal-label: Custom actions
   - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+    internal-label: Event activities
   - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+    internal-label: Wait activity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+    internal-label: Audience segmentation
+source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
 workflow-type: tm+mt
-source-wordcount: 4374
-ht-degree: 11%
-
+source-wordcount: '4434'
+ht-degree: 10%
 ---
-
 # Usar um público em uma jornada {#segment-trigger-activity}
 
 >[!BEGINSHADEBOX]
@@ -205,7 +215,7 @@ Esse valor é armazenado na carga da versão do jornada. O valor padrão é de 5
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Acionar após a avaliação do público-alvo em lote"
->abstract="Atrasa cada execução até que o público-alvo em lote seja avaliado novamente, para que a jornada leia o instantâneo do público-alvo mais atualizado em vez dos dados desatualizados. Recomendado para jornadas recorrentes que dependem dos resultados da segmentação mais recentes."
+>abstract="Aguarda uma nova avaliação do público-alvo em lote antes de cada execução: se uma segmentação em lote já estiver em andamento, a jornada sempre aguardará a conclusão. Caso contrário, ele aguardará somente se o instantâneo disponível mais recente for o mesmo lote usado na execução anterior. Recomendado para jornadas recorrentes que dependem dos resultados da segmentação mais recentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -300,7 +310,7 @@ Em outras palavras, a **[!UICONTROL Reentrada forçada na recorrência] não des
 
 +++**[!UICONTROL Acionar após a avaliação de público-alvo em lotes]**
 
-Para jornadas agendadas diariamente e públicos-alvo em lote de direcionamento, é possível definir uma janela de tempo de até 6 horas para a jornada aguardar os novos dados do público-alvo de trabalhos de segmentação em lote. Se o trabalho de segmentação for concluído dentro da janela de tempo, a jornada será acionada. Caso contrário, ela ignorará a jornada até sua próxima ocorrência. Essa opção garante que as jornadas sejam executadas com dados de público-alvo precisos e atualizados.
+Para jornadas agendadas diariamente e públicos-alvo em lote de direcionamento, é possível definir uma janela de tempo de até 6 horas para a jornada aguardar os novos dados do público-alvo de trabalhos de segmentação em lote. Se uma tarefa de segmentação em lote já estiver em andamento, a jornada sempre aguardará sua conclusão na janela de tempo. Se nenhum trabalho de segmentação em lote estiver em andamento, mas o único instantâneo disponível for o mesmo lote usado na execução anterior, a jornada aguardará um lote mais recente em vez de reutilizá-lo. Se nenhum lote mais recente for encontrado no final da janela de tempo, a execução da jornada será ignorada para essa ocorrência.
 
 Por exemplo, se uma jornada estiver programada para 18h por dia, você poderá especificar um número de minutos ou horas de espera antes da execução da jornada. Quando a jornada acorda às 18h, ela verifica se há um público-alvo novo, ou seja, um público mais recente do que o usado na execução anterior da jornada. Durante a janela de tempo especificada, a jornada será executada imediatamente após a detecção do novo público-alvo. Se nenhum público novo for detectado, a execução da jornada será ignorada para esse dia.
 

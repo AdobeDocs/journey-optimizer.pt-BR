@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
+source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
 workflow-type: tm+mt
-source-wordcount: '2921'
-ht-degree: 67%
+source-wordcount: '3006'
+ht-degree: 65%
 ---
 # Notas de versão {#release-notes}
 
@@ -161,6 +161,10 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 * **Analisar habilidade de Anomalias de Jornada** - O CX Co-worker pode detectar picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de mensagem de uma jornada em relação às linhas de base históricas usando a habilidade **Analisar anomalias de Jornada**. Depois que uma anomalia real é confirmada, a habilidade executa diagnósticos somente leitura para mostrar uma causa básica provável e uma recomendação. [Saiba mais](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
   Data de disponibilidade: 2 de setembro de 2026
+
+* **Acionar após a avaliação do público-alvo em lotes** - Para jornadas recorrentes direcionadas a públicos-alvo em lotes, é possível configurar uma janela de espera de até 6 horas para uma nova avaliação em lotes antes da execução da jornada. Se uma avaliação estiver em andamento, a jornada aguardará sua conclusão; se o instantâneo mais recente tiver sido usado pela execução anterior, ele aguardará um lote mais recente. Se nenhum público novo estiver disponível no final da janela de espera, essa ocorrência será ignorada. [Saiba mais](../building-journeys/read-audience.md)
+
+  Data de disponibilidade: 18 de setembro de 2026
 
 ### Campanhas {#sep-26-campaigns}
 
