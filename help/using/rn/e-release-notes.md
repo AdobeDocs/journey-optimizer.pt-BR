@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 58cf5c8ad76ed988ff797a0d1bcd8328321ee737
+source-git-commit: 5055925bf62889da8022087374ef3d8d8d076e6a
 workflow-type: tm+mt
-source-wordcount: '3407'
+source-wordcount: '3505'
 ht-degree: 8%
 ---
 
@@ -296,22 +296,6 @@ Os seguintes recursos e melhorias estão chegando aos canais nesta versão.
 <table>
 <thead>
 <tr>
-<th><strong>Substituir configurações do canal de email</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ao criar suas jornadas e campanhas, agora é possível substituir os parâmetros de email derivados da configuração de canal selecionada diretamente no nível de jornada ou ação de campanha.</p>
-<p>Isso permite personalizar os campos de cabeçalho de email (<strong>Do nome</strong>, <strong>Do prefixo de email</strong>, <strong>Responder ao nome</strong> e <strong>Responder ao email</strong>), o endereço de execução e os valores de cancelamento de inscrição na lista, usando atributos de perfil ou dados contextuais para obter um controle mais preciso. Especificamente, isso permite que os detalhes do remetente reflitam o supervisor, o local ou a ramificação relevante para cada recipient, em vez de rotear todos os envios por meio de um único endereço corporativo.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Melhorias nos modelos de notificações por push do Android</strong><br/></th>
 </tr>
 </thead>
@@ -333,6 +317,90 @@ Os seguintes recursos e melhorias estão chegando aos canais nesta versão.
 
 
 * **Flexibilidade de autenticação BYOP de SMS personalizado** - Agora você pode configurar **cabeçalhos de autenticação personalizados** ao conectar a configuração OAuth do seu provedor de SMS, incluindo onde o token é colocado nas mensagens de saída e como a própria solicitação de token é formatada.
+
+### Correspondência direta {#sep-26-direct-mail}
+
+Os seguintes recursos e aprimoramentos estão chegando ao Direct Mail nesta versão.
+
+* **Dividir arquivos grandes automaticamente** - Os arquivos de Mala Direta agora podem ser divididos em várias partes automaticamente quando excedem aproximadamente 20 GB ou manualmente escolhendo um tamanho de arquivo de destino na configuração de roteamento de arquivos.
+
+* **Limite de público-alvo aumentado** - O limite de público-alvo do canal de correspondência direta aumentou de 3 milhões para 100 milhões de perfis, permitindo que você direcione públicos-alvo muito maiores sem encontrar erros de criação de arquivos.
+
+### Canal de email {#sep-26-email-channel}
+
+Os seguintes recursos e melhorias estão chegando ao canal de email nesta versão.
+
+<table>
+<thead>
+<tr>
+<th><strong>Substituir configurações do canal de email</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ao criar suas jornadas e campanhas, agora é possível substituir os parâmetros de email derivados da configuração de canal selecionada diretamente no nível de jornada ou ação de campanha.</p>
+<p>Isso permite personalizar os campos de cabeçalho de email (<strong>Do nome</strong>, <strong>Do prefixo de email</strong>, <strong>Responder ao nome</strong> e <strong>Responder ao email</strong>), o endereço de execução e os valores de cancelamento de inscrição na lista, usando atributos de perfil ou dados contextuais para obter um controle mais preciso. Especificamente, isso permite que os detalhes do remetente reflitam o supervisor, o local ou a ramificação relevante para cada recipient, em vez de rotear todos os envios por meio de um único endereço corporativo.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Substituição da lista de supressão no nível de ação de email** - Agora é possível substituir o comportamento da lista de supressão local no nível de ação de email, de modo que as comunicações operacionais ou de conformidade crítica ainda possam ser enviadas por meio de uma configuração dedicada quando necessário. O comportamento da lista de supressão global permanece inalterado.
+
+* **Validação da sintaxe de URL na criação de email** - o Journey Optimizer agora valida URLs anteriormente no fluxo de criação de email e fornece orientações mais claras quando sintaxe mal formada é detectada. Isso ajuda os autores a identificar problemas antes da finalização, reduzir erros de publicação e melhorar a confiança do delivery.
+
+### Designer de email {#sep-26-email-designer}
+
+Os seguintes recursos e melhorias estão chegando ao Designer de email nesta versão.
+
+<table>
+<thead>
+<tr>
+<th><strong>Suporte ao modo escuro para variantes de tema de email</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Os temas de email agora oferecem suporte ao modo escuro, para que cada variante de cor possa ser renderizada com uma aparência personalizada para os recipients que visualizam seu email em um cliente habilitado para o modo escuro.</p>
+<p>Quando habilitada, uma paleta escura padrão é gerada automaticamente para cada variante, e você pode personalizá-la ainda mais com uma paleta diferente ou com suas próprias cores personalizadas, independentemente do design do modo claro. Portanto, as alterações feitas em um modo não afetam o outro.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Importar modelos do Dynamic Media diretamente de arquivos do PSD no Designer de email</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O componente Dynamic Media do Designer de email agora permite importar um arquivo do Photoshop (PSD) diretamente como um novo modelo, além de navegar pelos modelos existentes do Dynamic Media. Arraste e solte um arquivo do PSD no componente e o Adobe Journey Optimizer o converte automaticamente em um modelo do Dynamic Media armazenado no Dynamic Media — não é necessária nenhuma conversão manual ou viagem de ida e volta pelo Adobe Experience Manager. Após a importação, o modelo é editado com o editor dinâmico de mídia integrado, a mesma experiência usada para o conteúdo Adobe Express no Designer de email.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Novo componente de tabela no Designer de email</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Designer de email agora inclui um <strong>componente de Tabela</strong> interno, permitindo que você estruture o conteúdo em linhas e colunas diretamente no seu email. Arraste e solte o componente na tela, personalize o número de linhas e colunas e estilize cada célula independentemente para criar layouts claros e organizados sem depender de HTML personalizados.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Fontes substitutas para fontes personalizadas em temas de email** - Agora é possível definir uma fonte substituta para qualquer fonte personalizada (da Web) aplicada por temas de email. Se o cliente de email de um assinante não oferecer suporte à fonte personalizada, o Adobe Journey Optimizer exibirá automaticamente a fonte de fallback especificada, em vez de deixar a opção para o padrão do cliente de email. Isso mantém a tipografia de email mais próxima das diretrizes da sua marca e reduz as inconsistências de renderização de fonte nos clientes de email.
 
 ### Campanhas orquestradas {#sep-26-oc}
 
@@ -407,66 +475,6 @@ Os recursos e melhorias a seguir estão chegarão à Decisão nesta versão.
 * **Geração de regra de decisão do Colaborador** - A **experiência de geração de regra de decisão assistida por IA**, anteriormente disponível por meio do painel direito, agora pode ser acessada pelo Colaborador, que substitui o painel direito como a maneira de criar regras com IA.
 
 * **Suporte para perfis Adobe Experience Platform na simulação de fórmula de Regra e Classificação** - Ao simular uma Regra ou Fórmula de Classificação, agora é possível selecionar um perfil Adobe Experience Platform para preencher automaticamente os atributos de uma variante de dados de teste, em vez de inseri-los manualmente.
-
-### Correspondência direta {#sep-26-direct-mail}
-
-Os seguintes recursos e aprimoramentos estão chegando ao Direct Mail nesta versão.
-
-* **Dividir arquivos grandes automaticamente** - Os arquivos de Mala Direta agora podem ser divididos em várias partes automaticamente quando excedem aproximadamente 20 GB ou manualmente escolhendo um tamanho de arquivo de destino na configuração de roteamento de arquivos.
-
-* **Limite de público-alvo aumentado** - O limite de público-alvo do canal de correspondência direta aumentou de 3 milhões para 100 milhões de perfis, permitindo que você direcione públicos-alvo muito maiores sem encontrar erros de criação de arquivos.
-
-### Designer de email {#sep-26-email-designer}
-
-Os seguintes recursos e melhorias estão chegando ao Designer de email nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Suporte ao modo escuro para variantes de tema de email</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Os temas de email agora oferecem suporte ao modo escuro, para que cada variante de cor possa ser renderizada com uma aparência personalizada para os recipients que visualizam seu email em um cliente habilitado para o modo escuro.</p>
-<p>Quando habilitada, uma paleta escura padrão é gerada automaticamente para cada variante, e você pode personalizá-la ainda mais com uma paleta diferente ou com suas próprias cores personalizadas, independentemente do design do modo claro. Portanto, as alterações feitas em um modo não afetam o outro.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Importar modelos do Dynamic Media diretamente de arquivos do PSD no Designer de email</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O componente Dynamic Media do Designer de email agora permite importar um arquivo do Photoshop (PSD) diretamente como um novo modelo, além de navegar pelos modelos existentes do Dynamic Media. Arraste e solte um arquivo do PSD no componente e o Adobe Journey Optimizer o converte automaticamente em um modelo do Dynamic Media armazenado no Dynamic Media — não é necessária nenhuma conversão manual ou viagem de ida e volta pelo Adobe Experience Manager. Após a importação, o modelo é editado com o editor dinâmico de mídia integrado, a mesma experiência usada para o conteúdo Adobe Express no Designer de email.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Novo componente de tabela no Designer de email</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>O Designer de email agora inclui um <strong>componente de Tabela</strong> interno, permitindo que você estruture o conteúdo em linhas e colunas diretamente no seu email. Arraste e solte o componente na tela, personalize o número de linhas e colunas e estilize cada célula independentemente para criar layouts claros e organizados sem depender de HTML personalizados.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Fontes substitutas para fontes personalizadas em temas de email** - Agora é possível definir uma fonte substituta para qualquer fonte personalizada (da Web) aplicada por temas de email. Se o cliente de email de um assinante não oferecer suporte à fonte personalizada, o Adobe Journey Optimizer exibirá automaticamente a fonte de fallback especificada, em vez de deixar a opção para o padrão do cliente de email. Isso mantém a tipografia de email mais próxima das diretrizes da sua marca e reduz as inconsistências de renderização de fonte nos clientes de email.
 
 ### Relatório {#sep-26-reporting}
 
