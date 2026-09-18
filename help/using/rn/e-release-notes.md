@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 98db79cf2e1592defaed5de3fe5067458144ca51
+source-git-commit: 58cf5c8ad76ed988ff797a0d1bcd8328321ee737
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3407'
 ht-degree: 8%
 ---
 
@@ -412,7 +412,7 @@ Os recursos e melhorias a seguir estão chegarão à Decisão nesta versão.
 
 Os seguintes recursos e aprimoramentos estão chegando ao Direct Mail nesta versão.
 
-* **Dividir arquivos grandes automaticamente** - Os arquivos de Mala Direta agora podem ser divididos em várias partes automaticamente quando excedem aproximadamente 20 GB ou manualmente escolhendo um tamanho de arquivo de destino na configuração de roteamento de arquivos. Um arquivo de manifesto JSON opcional descreve todas as partes geradas.
+* **Dividir arquivos grandes automaticamente** - Os arquivos de Mala Direta agora podem ser divididos em várias partes automaticamente quando excedem aproximadamente 20 GB ou manualmente escolhendo um tamanho de arquivo de destino na configuração de roteamento de arquivos.
 
 * **Limite de público-alvo aumentado** - O limite de público-alvo do canal de correspondência direta aumentou de 3 milhões para 100 milhões de perfis, permitindo que você direcione públicos-alvo muito maiores sem encontrar erros de criação de arquivos.
 
