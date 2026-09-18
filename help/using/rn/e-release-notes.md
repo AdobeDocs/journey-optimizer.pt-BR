@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: ed5fc837094662e56eb94ec57de3e0dff2825e8c
+source-git-commit: 98db79cf2e1592defaed5de3fe5067458144ca51
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3416'
 ht-degree: 8%
 ---
 
@@ -237,8 +237,6 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 * **O suporte à ID complementar na simulação de Jornada** - **A ID complementar** agora tem suporte na simulação de Jornada, permitindo que você teste cenários de usuário complexos para jornadas acionadas por evento e público-alvo de leitura.
 
 * **Suporte de salto para jornadas de Qualificação de Público-Alvo** - As Jornadas que começam com uma **Qualificação de Público-Alvo** agora podem usar uma atividade de **Salto** para entrar em uma jornada de início baseada em evento; não há suporte para salto para uma jornada baseada em Qualificação de Público-Alvo.
-
-* **Lógica de espera de avaliação de público em lote refinada** - Na **atividade de leitura de público**, a opção &quot;Acionar após avaliação de público em lote&quot; no jornada agora sempre aguarda a conclusão de uma segmentação em lote em andamento, garantindo que a jornada use os dados da execução em vez de recorrer a um instantâneo mais antigo. Se nenhuma segmentação de lote estiver em andamento, a jornada usará o instantâneo mais recente disponível imediatamente, a menos que esse instantâneo seja o mesmo lote usado na execução anterior, caso em que a jornada aguarda até a janela configurada para um lote mais recente, e ignora a execução desse dia se nenhum chegar a tempo.
 
 * **Comparar versões do jornada com o Colaborador** - Hoje, examinar o que foi alterado entre duas versões de uma jornada requer compará-las manualmente dentro do nó do Journey Optimizer por nó. Não há diferença estruturada, o que torna as verificações de revisão de alteração, auditoria e pré-publicação lentas e propensas a erros, especialmente porque o jornada se torna mais complexo. Esse recurso permite que um cliente ou agente de IA compare duas versões de uma jornada por meio do Chat do Colaborador e obtenha uma comparação de fidelidade completa **estruturada** - nós adicionados/removidos/modificados/movidos com detalhes em nível de campo, conexões alteradas, alterações de propriedade em nível de jornada e contagens acumuladas - sem abrir o Journey Optimizer.
 
