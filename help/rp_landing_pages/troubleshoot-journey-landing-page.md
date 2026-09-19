@@ -5,13 +5,11 @@ title: Solução de problemas
 description: Solução de problemas
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
-
+source-git-commit: acf3e390fb55b02196eb580ac24f48e2aaeff8aa
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 86%
 ---
-
 # Rastrear, monitorar e solucionar problemas {#section-overview}
 
 O gerenciamento eficaz das jornadas do cliente começa com um rastreamento abrangente, permitindo um monitoramento proativo, relatórios esclarecedores e uma solução de problemas eficiente. O Adobe Journey Optimizer fornece uma estrutura completa para capturar as interações do cliente e os eventos do sistema, analisar as métricas de desempenho e resolver problemas rapidamente quando eles surgirem.
@@ -23,6 +21,20 @@ O gerenciamento eficaz das jornadas do cliente começa com um rastreamento abran
 **Solucione problemas** eficientemente com códigos de erro detalhados, logs de execução passo a passo e orientações direcionadas para resolver falhas de jornada, inconsistências de execução ou problemas no nível da ação.
 
 Esta página reúne recursos essenciais para ajudar a implementar o rastreio, monitorar a integridade da jornada, acessar os principais insights de relatórios e resolver problemas com eficiência em todos os estágios das jornadas do cliente.
+
+## Encontre seu problema
+
+Use o sintoma que melhor corresponde ao seu problema para ir diretamente ao guia de solução de problemas relevante:
+
+| Se você estiver enfrentando esse problema | Comece aqui |
+| --- | --- |
+| Não é possível testar ou publicar uma jornada | [Solucionar problemas de erros de jornada](../using/building-journeys/troubleshooting.md) |
+| Os perfis não entram ou não avançam em uma jornada | [Solução de problemas de execução da jornada](../using/building-journeys/troubleshooting-execution.md) |
+| Uma experiência de entrada não é exibida ou continua após a saída de um perfil | [Solucionar problemas de ações de entrada](../using/building-journeys/troubleshooting-inbound.md) |
+| Falha em um teste de ação personalizada ou em uma chamada de API | [Solucionar problemas de ações personalizadas](../using/action/troubleshoot-custom-action.md) |
+| Você precisa monitorar jornadas e campanhas ativas de forma proativa | [Acessar e assinar alertas do sistema](../using/reports/alerts.md) |
+| Você tem um código de erro Journey Optimizer | [Exibir a referência de códigos de erro](../using/building-journeys/error-codes-reference.md) |
+| Os emails são entregues, mas não chegam às caixas de entrada dos destinatários conforme esperado | [Revisar orientação sobre a capacidade de entrega](../using/reports/deliverability.md) |
 
 ## Introdução ao rastreamento
 
