@@ -5,13 +5,11 @@ title: Solução de problemas
 description: Solução de problemas
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
-
+source-git-commit: acf3e390fb55b02196eb580ac24f48e2aaeff8aa
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 86%
 ---
-
 # Rastrear, monitorar e solucionar problemas {#section-overview}
 
 O gerenciamento eficaz das jornadas do cliente começa com um rastreamento abrangente, permitindo um monitoramento proativo, relatórios esclarecedores e uma solução de problemas eficiente. O Adobe Journey Optimizer fornece uma estrutura completa para capturar as interações do cliente e os eventos do sistema, analisar as métricas de desempenho e resolver problemas rapidamente quando eles surgirem.
@@ -23,6 +21,20 @@ O gerenciamento eficaz das jornadas do cliente começa com um rastreamento abran
 **Solucione problemas** eficientemente com códigos de erro detalhados, logs de execução passo a passo e orientações direcionadas para resolver falhas de jornada, inconsistências de execução ou problemas no nível da ação.
 
 Esta página reúne recursos essenciais para ajudar a implementar o rastreio, monitorar a integridade da jornada, acessar os principais insights de relatórios e resolver problemas com eficiência em todos os estágios das jornadas do cliente.
+
+## Encontre seu problema
+
+Use o sintoma que melhor corresponde ao seu problema para ir diretamente ao guia de solução de problemas relevante:
+
+| Se você estiver enfrentando esse problema | Comece aqui |
+| --- | --- |
+| Não é possível testar ou publicar uma jornada | [Solucionar problemas de erros de jornada](../using/building-journeys/troubleshooting.md) |
+| Os perfis não entram ou não avançam em uma jornada | [Solução de problemas de execução da jornada](../using/building-journeys/troubleshooting-execution.md) |
+| Uma experiência de entrada não é exibida ou continua após a saída de um perfil | [Solucionar problemas de ações de entrada](../using/building-journeys/troubleshooting-inbound.md) |
+| Falha em um teste de ação personalizada ou em uma chamada de API | [Solucionar problemas de ações personalizadas](../using/action/troubleshoot-custom-action.md) |
+| Você precisa monitorar jornadas e campanhas ativas de forma proativa | [Acessar e assinar alertas do sistema](../using/reports/alerts.md) |
+| Você tem um código de erro Journey Optimizer | [Exibir a referência de códigos de erro](../using/building-journeys/error-codes-reference.md) |
+| Os emails são entregues, mas não chegam às caixas de entrada dos destinatários conforme esperado | [Revisar orientação sobre a capacidade de entrega](../using/reports/deliverability.md) |
 
 ## Introdução ao rastreamento
 
@@ -49,7 +61,7 @@ Acesse os principais relatórios para monitorar o desempenho da jornada, analisa
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Acessar e assinar alertas do sistema
 
@@ -59,7 +71,7 @@ Saiba como acessar alertas do sistema, assinar notificações e monitorar evento
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referência de códigos de erro
 
@@ -69,7 +81,7 @@ Entenda códigos de erro comuns no Adobe Journey Optimizer e encontre resoluçõ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Solução de problemas de erros de jornada
 
@@ -79,7 +91,7 @@ Identifique e resolva erros em toda a jornada e problemas de atividade, e defina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Solução de problemas de execução da jornada
 
@@ -89,7 +101,7 @@ Diagnostique problemas de validação de eventos, entrada de perfil, navegação
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Solução de problemas de ações de entrada
 
@@ -99,7 +111,7 @@ Depure problemas de ação de entrada, como conteúdo ausente ou entrega contín
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Solução de problemas de ações personalizadas
 
@@ -109,7 +121,7 @@ Valide e depure ações personalizadas com o recurso **Enviar solicitação de t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Solução de problemas de atividades ativas
 
@@ -119,7 +131,7 @@ Investigue por que as atividades ativas não aparecem, não são atualizadas ou 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 Solução de problemas de fragmentos de conteúdo do AEM
 
@@ -129,7 +141,7 @@ Revise as principais considerações e problemas comuns ao trabalhar com fragmen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 Diretrizes de tíquete de suporte
 
