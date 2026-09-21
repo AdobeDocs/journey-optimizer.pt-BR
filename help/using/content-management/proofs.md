@@ -7,15 +7,15 @@ level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Proofs
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 539
-ht-degree: 15%
-
+source-wordcount: '586'
+ht-degree: 12%
 ---
-
 # Enviar provas usando dados de perfis de teste {#send-proofs}
 
 >[!BEGINSHADEBOX]
@@ -37,7 +37,7 @@ Para campanhas acionadas por API e de Ação (agendadas), também é possível e
 
 **Regras de limite de frequência** - Todas as regras de limite de frequência existentes se aplicam a provas. Se você definiu [regras de limite de frequência](../conflict-prioritization/channel-capping.md) (por exemplo, máximo de envios por perfil), esses limites também se aplicam ao envio de provas. Se um perfil de teste já tiver atingido o limite de frequência, as provas serão exibidas como concluídas, mas nenhum email será entregue. Para testes repetidos, considere usar perfis de teste exclusivos ou ajustar limites de frequência para cenários de prova, conforme necessário.
 
-**Mirror page** - Na prova enviada, o link para a mirror page não está ativo. Ele só é ativado nas mensagens finais.
+**Mirror page** - O link para a mirror page em uma prova não está ativo. As provas permitem revisar a renderização de email, o conteúdo, a personalização e as variações de conteúdo, mas não a navegação de mirror page, pois o link só é ativado depois que a mensagem final é enviada. Para confirmar a renderização da mirror page antes do lançamento, envie a mensagem final para um público-alvo interno pequeno e controlado, em vez de enviá-la para a lista de clientes que estão online. [Saiba mais sobre mirror pages](../email/message-tracking.md#mirror-page).
 
 **Assets** - Assets e imagens têm regras de acessibilidade específicas:
 

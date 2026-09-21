@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Experimentation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
+source-git-commit: b6738d9b4536ba7f7da4169442f29b57367c5444
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 5%
+source-wordcount: '905'
+ht-degree: 6%
 ---
 
 # Simular variações de conteúdo {#simulate-content-variations}
@@ -144,5 +144,9 @@ Ao simular conteúdo de email, uma barra superior fornece ferramentas adicionais
 * **[!UICONTROL Renderizar email]** — Visualize como seu email é renderizado em clientes e dispositivos de email populares. [Saiba mais](../content-management/rendering.md)
 * **[!UICONTROL Enviar prova]** — Envie uma prova de uma ou mais variantes a um conjunto de destinatários de email. Clique em **[!UICONTROL Enviar prova]**, adicione até 10 endereços de destinatários, selecione as variantes a serem incluídas e clique em **[!UICONTROL Enviar prova]** para confirmar. Para revisar provas enviadas anteriormente, clique em **[!UICONTROL Exibir provas]**. [Saiba mais](../content-management/proofs.md)
 * **[!UICONTROL Exibir detalhes da configuração]** — Examine a configuração de canal aplicada a este conteúdo.
+
+>[!NOTE]
+>
+>O link de mirror page não está ativo nas provas enviadas para variantes. Ela só é ativada na mensagem final. [Saiba mais](../email/message-tracking.md#mirror-page).
 
 {{$include /help/_includes/do-not-localize/test-approve/ai-augmented-simulate-content-variations.md}}
