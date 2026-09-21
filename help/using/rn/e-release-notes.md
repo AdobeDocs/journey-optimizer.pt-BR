@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 5055925bf62889da8022087374ef3d8d8d076e6a
+source-git-commit: 0ee7219f6a2cd210c7fb2127f8841c476b10be17
 workflow-type: tm+mt
-source-wordcount: '3505'
+source-wordcount: '3432'
 ht-degree: 8%
 ---
 
@@ -39,7 +39,7 @@ Consulte também as [Notas de pré-lançamento da Adobe Experience Platform](htt
 
 Esta versão traz vários recursos e habilidades novos e aprimorados do [Coworker](../start/ai-features.md#cx-coworker), listados aqui para visibilidade. Cada uma delas também é detalhada em sua seção relevante abaixo.
 
-* [Plug-ins de cópia de mensagem e design de email](#sep-26-content-management) - Dois novos plug-ins que simplificam os fluxos de trabalho de mensagens e email no Coworker, desde o resumo da campanha até a cópia pronta para produção e o HTML.
+* [Plug-in de Conteúdo do Canal CE](#sep-26-content-management) - Um novo plug-in que reúne habilidades de HTML em cópia de campanha, imagem e email no Coworker, desde um resumo da campanha até a cópia pronta para produção e o HTML.
 * [Habilidade de recomendação de fidelidade](#sep-26-loyalty) - Solicite oportunidades de desafio diretamente na interface de conversa do Colaborador e transforme-as em desafios ao vivo sem sair do chat.
 * [Simulação de Jornada](#sep-26-journeys) - Automatize a validação de jornada de ponta a ponta e interprete os resultados diretamente no Colaborador.
 * [Criação de Jornadas no painel do Colaborador](#sep-26-journeys) - Gere jornadas com IA diretamente no painel direito do Colaborador, substituindo a experiência anterior do Assistente de IA.
@@ -57,26 +57,25 @@ O recurso a seguir está chegando ao gerenciamento de conteúdo nesta versão.
 <table>
 <thead>
 <tr>
-<th><strong>Plug-ins de cópia de mensagens e design de email no Co-worker</strong><br/></th>
+<th><strong>Plug-in de Conteúdo do Canal no Colaborador</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dois novos plug-ins agora estão disponíveis no Colaborador para simplificar seus <strong>fluxos de trabalho de mensagens e email</strong> da estratégia para a implantação:</p>
-<p><strong>Plug-in de cópia de mensagem</strong>:</p>
+<p>Um novo plug-in de <strong>Conteúdo do Canal</strong> já está disponível no Co-worker, que reúne as habilidades de cópia da campanha, imagem e email montado no HTML em um plug-in, da estratégia à implantação. As seguintes habilidades estão disponíveis no plug-in **Conteúdo do canal**:</p>
 <ul>
-<li>Captura resumos da campanha e define mapas de mensagens, arcos narrativos e funções de canal.</li>
-<li>Cria uma matriz de conteúdo multidimensional personalizada em canais, pontos de contato, localidades, públicos-alvo e variantes.</li>
-<li>Produz uma cópia totalmente nova e aproveita o Adobe Firefly para gerar, cortar e adaptar visuais de campanha.</li>
-<li>Permite a avaliação de conteúdo no local e sincroniza diretamente os ativos aprovados de volta para o Journey Optimizer, Adobe Campaign V8 e Marketo.</li>
-</ul>
-<p><strong>Plug-in de design de email</strong>:</p>
-<ul>
-<li>Converte metas de marketing, capturas de tela de referência ou links de design do Figma em planos de layout personalizados e HTML de email prontos para produção.</li>
-<li>Gerencia ativos de marca reutilizáveis, tokens de design e modelos de email estruturais.</li>
-<li>Auditorias montadas no código de email para conformidade corporativa, qualidade de design visual e padrões de acessibilidade WCAG 2.1 AA.</li>
-<li>Exporta HTML aprovados diretamente para o Adobe Journey Optimizer e Adobe Campaign.</li>
+<li><strong>Orquestrar Criação De Conteúdo</strong>.</li>
+<li><strong>Explorar a estratégia de conteúdo</strong></li>
+<li><strong>Resumo do conteúdo</strong></li>
+<li><strong>Gerar conteúdo</strong></li>
+<li><strong>Verificar prontidão do conteúdo</strong></li>
+<li><strong>Revisar e regenerar conteúdo</strong></li>
+<li><strong>Gerar imagem</strong></li>
+<li><strong>Avaliar o design de conteúdo</strong></li>
+<li><strong>Salvar conteúdo do canal</strong></li>
+<li><strong>Criar e-mail no Figma</strong></li>
+<li><strong>Pesquisa de marca</strong> </li>
 </ul>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
