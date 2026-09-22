@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8169ebee4627b40ee45ec32e854d971f921eade6
+source-git-commit: 84257968aa002aafe338cb247d1704f822e2b1b4
 workflow-type: tm+mt
-source-wordcount: '3132'
+source-wordcount: '3197'
 ht-degree: 8%
 ---
 
@@ -348,7 +348,7 @@ Os seguintes recursos e melhorias estão chegando ao canal de email nesta versã
 </tbody>
 </table>
 
-* **Substituição da lista de supressão no nível de ação de email** - Agora é possível substituir o comportamento da lista de supressão local no nível de ação de email, de modo que as comunicações operacionais ou de conformidade crítica ainda possam ser enviadas por meio de uma configuração dedicada quando necessário. O comportamento da lista de supressão global permanece inalterado.
+* **Substituição da lista de supressão no nível de ação de email** - o Journey Optimizer agora permite substituir o comportamento da lista de supressão diretamente no nível de ação de email em jornadas e campanhas. Isso proporciona às equipes mais flexibilidade para comunicações operacionais ou críticas para conformidade que exigem uma configuração de envio dedicada, preservando os controles de lista de supressão global existentes para todos os outros envios. Esse aprimoramento ajuda as organizações a lidar com cenários de exceção com precisão sem alterar seu modelo de governança de supressão mais amplo.
 
 * **Validação da sintaxe de URL na criação de email** - o Journey Optimizer agora valida URLs anteriormente no fluxo de criação de email e fornece orientações mais claras quando sintaxe mal formada é detectada. Isso ajuda os autores a identificar problemas antes da finalização, reduzir erros de publicação e melhorar a confiança do delivery.
 
@@ -468,6 +468,8 @@ O lembrete a seguir se aplica à administração nesta versão.
 ### Melhorias de usabilidade {#sep-26-usability}
 
 * **Melhorias de usabilidade na experiência de Simulação de conteúdo** - A nova experiência de Simulação de conteúdo agora permite nomear e organizar suas variantes para facilitar a comparação, copiar ou excluir detalhes da variante diretamente de cada cartão, exibir caminhos completos de atributos e configuração de canal por cartão sob demanda e carregar seus próprios perfis CSV, JSON ou JSONL com um botão de carregamento mais destacado.
+
+* **Visão geral da IA em alertas de validação de fragmento** - A caixa de diálogo de alertas de validação de fragmento agora inclui uma Visão geral da IA que resume e explica os problemas de validação (por exemplo, expressões malformadas, campos de perfil ausentes e JSON inválido) para que os usuários possam solucionar os problemas com mais rapidez.
 
 * **Calendário unificado para Campanhas, Jornadas e campanhas orquestradas** - A exibição de calendário para jornadas e campanhas agora sai de inventários separados em um menu unificado acessível no painel esquerdo que mostra ambos em uma exibição combinada.
 
