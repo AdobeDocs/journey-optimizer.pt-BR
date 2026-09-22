@@ -13,24 +13,29 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8gtrjnNNob-iRXdjSytSYOMyDswVxsrd8knipi4i1gI
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+    internal-label: Reporting
+source-git-commit: 2af5b87d6136783c4db3106c4deab8038078a2d7
 workflow-type: tm+mt
-source-wordcount: 1971
+source-wordcount: '1988'
 ht-degree: 15%
-
 ---
-
 # Condições {#conditions}
 
 >[!BEGINSHADEBOX]
@@ -75,7 +80,7 @@ Para adicionar uma condição à jornada, siga as etapas abaixo.
 
 >[!NOTE]
 >
->A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}.
+>A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Gerenciar caminhos de condição {#condition_paths}
 
@@ -222,7 +227,12 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com a **Realizou** participação no público
+   >O status será considerado como membros do público-alvo. Para obter mais informações sobre como
+   >para avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >
+   >Para medidas de proteção de validação de público-alvo, incluindo o cache de 5.000 públicos-alvo
+   >e a solução alternativa, consulte a [função inAudience](functions/functioninaudience.md#guardrails).
 
 ➡️ **Veja na prática:** Saiba como usar o horário e as condições do dia da semana para [enviar emails somente em dias da semana](weekday-email-uc.md).
 
