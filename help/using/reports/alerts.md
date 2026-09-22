@@ -339,7 +339,7 @@ Notifica quando a **entrega de mensagens** de uma campanha foi **concluída** co
 
 +++ Falha na entrega da campanha
 
-Notifica você quando **falha na entrega de mensagens** de uma campanha **3}.** Revise relatórios de campanha, logs de execução e configuração de canal para solucionar problemas.
+Notifica você quando **falha na entrega de mensagens** de uma campanha **3&rbrace;.** Revise relatórios de campanha, logs de execução e configuração de canal para solucionar problemas.
 
 ➡️ [Revise o relatório do Campaign (CJA)](../reports/campaign-global-report-cja.md)
 
@@ -560,7 +560,7 @@ As assinaturas específicas de jornada permitem monitorar jornadas individuais d
 
 1. Vá para o inventário do jornada.
 
-1. Clique no menu **** (mais ações) da jornada que você deseja monitorar.
+1. Clique no menu **&#x200B;**&#x200B;(mais ações) da jornada que você deseja monitorar.
 
 1. Selecione **[!UICONTROL Assinar alertas]**.
 
@@ -592,7 +592,7 @@ Assinaturas específicas de campanha se aplicam aos [alertas do ciclo de vida da
 
 1. Vá para o inventário de **[!UICONTROL Campanhas]** e abra a guia referente ao seu tipo de campanha (**[!UICONTROL Ação]** ou **[!UICONTROL API acionada]**).
 
-1. Clique no menu **** (mais ações) da campanha que deseja monitorar.
+1. Clique no menu **&#x200B;**&#x200B;(mais ações) da campanha que deseja monitorar.
 
 1. Selecione **[!UICONTROL Assinar alertas]**.
 
