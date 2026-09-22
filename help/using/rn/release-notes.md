@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
+source-git-commit: 777b1057b68827000c8c20db9678e8b5473b1c42
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 62%
+source-wordcount: '3223'
+ht-degree: 61%
 ---
 # Notas de versão {#release-notes}
 
@@ -157,6 +157,10 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 * **Nova função dateDiff no editor de expressão de jornada** - O editor de expressão de jornada agora inclui a função `dateDiff`, que calcula a diferença entre duas datas em número de dias. Essa função é útil para uma lógica baseada no tempo, como criar prazos, calcular durações de ciclo de vida do cliente ou criar cronômetros de contagem regressiva em condições de jornada.  [Saiba mais](../building-journeys/functions/date-functions.md#dateDiff)
 
   Data de disponibilidade: 1º de setembro de 2026
+
+* **Suporte para atividades de salto em jornadas de qualificação de público-alvo** - Agora você pode usar atividades de salto em jornadas que começam com um nó de Qualificação de público-alvo para ir para jornadas baseadas em eventos. Esse recurso está sendo progressivamente distribuído às organizações. Se você não vir isso em seu ambiente, talvez esteja usando públicos em lote em Qualificações de público-alvo. [Saiba mais](../building-journeys/jump.md)
+
+  Data de disponibilidade: 22 de setembro de 2026.
 
 * **Analisar habilidade de Anomalias de Jornada** - O CX Co-worker pode detectar picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de mensagem de uma jornada em relação às linhas de base históricas usando a habilidade **Analisar anomalias de Jornada**. Depois que uma anomalia real é confirmada, a habilidade executa diagnósticos somente leitura para mostrar uma causa básica provável e uma recomendação. [Saiba mais](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
