@@ -11,15 +11,15 @@ keywords: expressão, editor, condicional, regras
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+    internal-label: Build expressions
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
+    internal-label: Conditional instruction
+source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: '697'
 ht-degree: 10%
-
 ---
-
 # Trabalhar com regras condicionais {#conditions}
 
 >[!BEGINSHADEBOX]
@@ -66,7 +66,7 @@ As etapas para criar uma regra condicional são as seguintes:
 
 1. Crie a regra condicional de acordo com suas necessidades. Para fazer isso, arraste e solte e organize os atributos desejados do menu esquerdo na tela de desenho.
 
-   As etapas para combinar atributos na tela são semelhantes à experiência de construção de segmentos. Para obter mais informações sobre como trabalhar com a tela do construtor de regras, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-BR#rule-builder-canvas).
+   As etapas para combinar atributos na tela são semelhantes à experiência de construção de segmentos. Para obter mais informações sobre como trabalhar com a tela do construtor de regras, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
@@ -75,6 +75,7 @@ As etapas para criar uma regra condicional são as seguintes:
    * **[!UICONTROL Perfil]**:
      * **[!UICONTROL Públicos-alvo]** lista todos os atributos de público-alvo (ou seja, status, versão etc.) para o [serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"},
      * **[!UICONTROL Perfis individuais XDM]** lista todos os atributos de perfil associados ao [esquema do Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"} definido no Adobe Experience Platform.
+     * **[!UICONTROL Target]**: em campanhas orquestradas, esta pasta lista os atributos de enriquecimento e público-alvo recebidos da tabela de trabalho da campanha, incluindo dados de esquemas relacionais. [Saiba mais sobre os atributos de perfil e destino em campanhas orquestradas](../orchestrated/add-personalization.md#attributes).
    * **[!UICONTROL Contextual]**: quando a mensagem é usada em uma jornada, os campos de jornada contextual ficam disponíveis por meio desta guia.
    * **[!UICONTROL Públicos-alvo]**: lista todos os públicos-alvo gerados pelas definições de segmento criadas no [serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
 

@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
+source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
 workflow-type: tm+mt
-source-wordcount: '3006'
-ht-degree: 65%
+source-wordcount: '3056'
+ht-degree: 64%
 ---
 # Notas de versão {#release-notes}
 
@@ -193,6 +193,12 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 * **Substituir os campos de execução padrão em Campanhas de ação** - Anteriormente disponíveis no nível de jornada, agora é possível substituir os campos de execução padrão configurados globalmente para suas entregas de email, SMS e WhatsApp nos parâmetros da Campanha de ação.
 
 +++
+
+### Campanhas orquestradas {#sep-26-orchestrated-campaigns}
+
+* **Conteúdo condicional com dados relacionais em campanhas orquestradas** - Ao criar conteúdo condicional no Designer de email para campanhas orquestradas, agora é possível criar condições diretamente nos dados relacionais, como registros relacionados associados a um perfil, não apenas nos atributos de perfil padrão. [Saiba mais](../orchestrated/activities/channels.md#add-personalization)
+
+  Data de disponibilidade: 22 de setembro de 2026
 
 ### Melhorias de usabilidade {#sep-26-usability}
 
