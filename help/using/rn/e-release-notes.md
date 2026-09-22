@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
+source-git-commit: 8169ebee4627b40ee45ec32e854d971f921eade6
 workflow-type: tm+mt
-source-wordcount: '3330'
-ht-degree: 9%
+source-wordcount: '3132'
+ht-degree: 8%
 ---
 
 # Notas de pré-lançamento {#e-release-notes}
@@ -46,7 +46,6 @@ Esta versão traz vários recursos e habilidades novos e aprimorados do [Coworke
 * [Comparar versões do jornada](#sep-26-journeys) - Obtenha uma diferença estruturada e de fidelidade completa entre duas versões de uma jornada por meio do Chat do Colaborador.
 * [Habilidade da Análise de Higiene](#sep-26-journeys) - Examine jornadas ativas e de rascunho em busca de configurações corrompidas, falhas silenciosas e ativos em decomposição ou não utilizados, com correções recomendadas.
 * [Habilidade em Análise de Desempenho de Negócios](#sep-26-journeys) - Analise o desempenho da jornada e obtenha recomendações concretas de otimização, diretamente do chat.
-* [Geração de regra de decisão](#sep-26-decisioning) - Crie regras de decisão assistida por IA diretamente no Colaborador, que agora substitui o painel correto para esta experiência.
 
 >[!ENDSHADEBOX]
 
@@ -132,7 +131,7 @@ Os seguintes recursos e melhorias estão chegando ao Fidelidade nesta versão.
 
 * **Domínio de desafios no editor de personalização de Cartão de Conteúdo** - O editor de personalização de Cartão de Conteúdo agora aceita **Desafios** como um domínio, permitindo que você acesse metadados de desafio ao criar a personalização de cartão de conteúdo. Isso facilita a criação de conteúdo personalizado para cada estágio de um desafio — Início, Em andamento e Término — sem código personalizado.
 
-* **Prazos de conclusão do desafio de fidelidade por membro** - Os desafios de fidelidade agora oferecem suporte aos prazos de conclusão por membro: escolha &quot;Dentro de um número de dias após a aceitação&quot; em Requisitos de conclusão para que o prazo de cada membro seja calculado a partir de sua própria data de aceitação, em vez de uma data de término fixa em todo o programa. Se uma data final de desafio e essa janela de aceitação forem definidas, o prazo de cada membro será o primeiro. <!-- Documentation link: TBD -->
+
 
 ### Integração {#sep-26-onboarding}
 
@@ -432,33 +431,6 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 
 * **Monitoramento da Orquestração de Campanha** — Uma nova interface de usuário está disponível para rastrear o status de assimilação e a atualização dos dados do armazenamento relacional usados pela Segmentação Orquestrada do Campaign. Ele oferece visibilidade direta da integridade dos dados que alimentam os públicos-alvo em lote. Uma nova guia Orquestração de campanha no painel Monitoramento da Adobe Experience Platform exibe a integridade dos fluxos de dados do armazenamento relacional (registros assimilados/atualizados/excluídos/com falha/ignorados), com gráficos detalhados e um detalhamento por fluxo de dados/conjunto de dados, incluindo linhagem.
 
-
-### Campanhas {#sep-26-campaigns}
-
-O aprimoramento a seguir está chegando às campanhas nesta versão.
-
-* **Pastas para campanhas** - Agora você pode organizar suas campanhas em **pastas** para melhorar a navegação e o gerenciamento na interface.
-
-### Decisão {#sep-26-decisioning}
-
-Os recursos e melhorias a seguir estão chegarão à Decisão nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Suporte à decisão no canal da Web</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A Decisão agora está disponível no canal da web. Você pode usar políticas de decisão diretamente no editor visual da web para fornecer as ofertas mais relevantes a cada visitante.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Geração de regra de decisão do Colaborador** - A **experiência de geração de regra de decisão assistida por IA**, anteriormente disponível por meio do painel direito, agora pode ser acessada pelo Colaborador, que substitui o painel direito como a maneira de criar regras com IA.
 
 ### Relatório {#sep-26-reporting}
 
