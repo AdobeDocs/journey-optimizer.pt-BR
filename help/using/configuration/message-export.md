@@ -12,26 +12,34 @@ exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
 TQID: https://experienceleague.adobe.com/4i6dFByqNizhrMeQrr32twEPVrg4Jz8J-rgA-sR70Ho
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+    internal-label: Channel configurations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+    internal-label: Administration
+source-git-commit: 08d8d79703f5417ecc31cd2a82e11468f124ecb0
 workflow-type: tm+mt
-source-wordcount: 1431
+source-wordcount: '1541'
 ht-degree: 6%
-
 ---
-
 # Exportar conteúdo da mensagem {#message-export}
 
 >[!BEGINSHADEBOX]
@@ -54,6 +62,8 @@ A **Exportação de Mensagens** permite transferir o conteúdo de mensagens de e
 Com este recurso, o conteúdo de mensagens de email e SMS enviadas por [!DNL Journey Optimizer] que foram marcadas para exportação são gravadas no [!DNL Experience Platform] [Conjunto de Dados de Exportação de Mensagens do AJO](message-export-schema.md).
 
 Os registros são retidos no conjunto de dados por sete dias a partir da assimilação, durante os quais você pode exportá-los para o sistema externo de sua escolha.
+
+A Exportação de mensagens é uma alternativa compatível quando você precisa revisar ou reter o conteúdo exato enviado a um indivíduo — por exemplo, para casos de uso do sistema de downstream, atendimento ao cliente ou conformidade. Ele não gera ou retorna um URL de mirror page; exporta o conteúdo da mensagem enviada e os metadados relacionados para que sua organização possa armazenar e exibir as informações em seus próprios sistemas.
 
 ➡️ Para perguntas e respostas comuns, consulte as [Perguntas frequentes sobre Exportação de Mensagens](#message-export-faq).
 
@@ -426,6 +436,12 @@ Os clientes normalmente usam a Exportação de mensagens para:
 
 +++
 
++++ A Exportação de mensagens fornece o URL da mirror page?
+
+Não. A Exportação de mensagens fornece o conteúdo da mensagem enviada e os metadados relacionados no Conjunto de dados de exportação de mensagens do AJO. Ele não gera ou retorna um URL de mirror page. [Saiba mais sobre mirror pages](../email/message-tracking.md#mirror-page)
+
++++
+
 +++ O que a exportação de mensagens não faz
 
 A exportação de mensagens não:
@@ -434,6 +450,7 @@ A exportação de mensagens não:
 * Fornecer retenção de dados ilimitada ou a longo prazo em sistemas Adobe
 * Oferecer um ambiente de avaliação
 * Arquivar automaticamente mensagens fora do Adobe
+* Gerar, expor ou reconstruir um URL de mirror page
 
 +++
 

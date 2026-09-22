@@ -12,28 +12,38 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 TQID: https://experienceleague.adobe.com/c-KUmfpDqZGIGl5CTOPzisa09sFu-hzTU3DbktO3IXg
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: ead8d40a-1b24-451e-a7c4-b2f1acb19f2e
+    internal-label: Journey versions
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+    internal-label: Channel configurations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Privacy
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 1398
-ht-degree: 6%
-
+source-wordcount: '1725'
+ht-degree: 5%
 ---
-
 # Suporte para arquivamento {#archiving-support}
 
 >[!BEGINSHADEBOX]
@@ -53,6 +63,15 @@ Regulamentos como o HIPAA exigem que [!DNL Journey Optimizer] forneça uma manei
 >[!NOTE]
 >
 >[!DNL Journey Optimizer] não tem suporte para o requisito de arquivamento de SMS. Para obter suporte dedicado ao arquivamento, trabalhe com seu fornecedor de SMS (Sinch, Infobip ou Twilio).
+
+Use a tabela abaixo para identificar a opção certa para sua necessidade.
+
+| Requisito | Opção recomendada | Distinção importante |
+| --- | --- | --- |
+| Manter uma cópia oculta das mensagens de email de saída | Email de cópia (CCO) | Envia uma cópia para uma caixa de correio configurada; não expõe um URL de mirror page ou cria um campo do Experience Platform consultável. |
+| Exportar conteúdo de email ou SMS enviado para um sistema externo | [Exportação de mensagens](../configuration/message-export.md) | Grava conteúdo e metadados enviados no Conjunto de dados de exportação de mensagens do AJO para exportação downstream; não gera um URL de mirror page. |
+| Exibir a versão online de um email para o recipient | [Link da mirror page](../email/message-tracking.md#mirror-page) | Gerado como parte do email enviado; não é uma API de recuperação de URL pós-envio compatível. |
+| Armazenar o modelo de mensagem não personalizado ou os metadados de entrega | Conjunto de dados da entidade | Não fornece o conteúdo personalizado exato recebido por um indivíduo. |
 
 ## Como usar o campo CCO para emails {#bcc-email}
 
@@ -307,3 +326,29 @@ WHERE
   bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = '<x-message-profile-id>'
 ORDER BY mfe.timestamp DESC;
 ```
+
+## Perguntas frequentes {#faq}
+
++++ Posso recuperar um URL de mirror page depois que um email é enviado?
+
+No momento, não por meio de uma API pública documentada ou de um campo de conjunto de dados do Adobe Experience Platform. A [URL da mirror page](../email/message-tracking.md#mirror-page) é gerada como parte do processo de entrega de mensagens. Se precisar reter ou inspecionar o conteúdo enviado, use a [Exportação de mensagens](message-export.md) ou o [Arquivamento do Cco](#bcc-email).
+
++++
+
++++ O URL da mirror page está disponível no Conjunto de dados da entidade ou em outros conjuntos de dados de rastreamento?
+
+Não. O [Conjunto de Dados da Entidade](../data/datasets-query-examples.md#entity-dataset) fornece informações de modelo de mensagem e metadados, mas não deve ser usado como uma fonte para o conteúdo personalizado exato recebido por um destinatário.
+
++++
+
++++ A Exportação de mensagens pode ser usada para reconstruir um URL de mirror page?
+
+Não. [Exportação de Mensagem](message-export.md) fornece conteúdo de mensagem enviado e metadados para exportação downstream, arquivamento, conformidade ou uso do atendimento ao cliente. Ele não gera nem retorna uma [URL de mirror page](../email/message-tracking.md#mirror-page).
+
++++
+
++++ Qual opção devo usar se precisar ver a mensagem exata enviada a um cliente?
+
+Use a [Exportação de mensagens](message-export.md) quando precisar de conteúdo e metadados estruturados de mensagens enviadas em um sistema externo. Use [Cco](#bcc-email) quando precisar apenas de uma cópia oculta de um email de saída retido em uma caixa de correio. Nenhuma das opções recupera o URL original da mirror page.
+
++++

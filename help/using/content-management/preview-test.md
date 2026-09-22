@@ -7,15 +7,15 @@ level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Preview
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 100%
-
+source-wordcount: '685'
+ht-degree: 93%
 ---
-
 # Visualizar e testar o conteúdo {#preview-test}
 
 >[!BEGINSHADEBOX]
@@ -79,6 +79,8 @@ Para campanhas acionadas por API e de Ação (agendadas), também é possível e
 * **Personalização sem dados de contexto** - Ao visualizar uma mensagem ou enviar provas, somente os dados de personalização do perfil serão exibidos. A personalização com base em dados de contexto, como informações de evento, só pode ser testada no contexto de uma jornada. Saiba como fazer isso [neste caso de uso](../personalization/personalization-use-case.md).
 
 * **Visualizar conteúdo com diversas variantes condicionais** - Ao simular ou renderizar provas de emails que contêm diversas variantes condicionais, o Journey Optimizer pode exigir mais tempo de processamento. Se você observar falhas de tempo-limite ou mensagens de erro, considere reduzir o número total de variantes ou simplificar as regras condicionais. Saiba mais sobre conteúdo condicional [nesta página](../personalization/dynamic-content.md).
+
+* **Limitação da página espelhada** - Os links da página espelhada não estão ativos nas provas, incluindo provas enviadas de perfis de teste ou de variações de conteúdo testadas com dados de entrada de amostra. As provas permitem validar o conteúdo, a renderização e a personalização, mas não o link de mirror page, que é ativado apenas nas mensagens finais. [Saiba mais](../email/message-tracking.md#mirror-page).
 
 ## Vídeo tutorial {#video-preview}
 

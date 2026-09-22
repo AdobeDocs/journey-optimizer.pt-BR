@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: d44ffc5f15d5ca65144f79fcc695cb9ba6a23c4b
 workflow-type: tm+mt
-source-wordcount: '11356'
+source-wordcount: '11405'
 ht-degree: 89%
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 89%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Setembro de 2026 {#september-2026}
+
+* As orientações para mirror pages de email foram expandidas: a documentação agora explica que os URLs de mirror page não podem ser recuperados por meio de uma API ou um conjunto de dados público, recomenda o arquivamento de Exportação de mensagens ou CCO para manter o conteúdo enviado e esclarece que os links de mirror page estão inativos em provas e simulações. [Leia mais](../email/message-tracking.md#mirror-page)
 
 * Uma nova página de **Demonstração interativa** está disponível para desafios de fidelidade, vinculando a uma demonstração autoguiada e clicável que abrange o fluxo de criação de desafios do profissional de marketing (incluindo Traga seus próprios dados e os painéis de insights), a experiência do cliente final e o Gerenciamento de desafios de fidelidade no CX Coworker. [Leia mais](../loyalty-challenges/loyalty-challenges-demo.md)
 
@@ -39,7 +41,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * Foram adicionadas informações sobre o CX Coworker à página **Trabalhar com IA**, que aborda o que é o CX Coworker, como ele se relaciona com o Assistente de IA e referências à documentação oficial do Colaborador. Páginas de habilidades dedicadas também foram adicionadas a cada guia de recursos — [Habilidades do CX Coworker para jornada](../building-journeys/journeys-coworker-skills.md), [Habilidades do CX Coworker para fidelidade](../loyalty-challenges/loyalty-coworker-skills.md) e [ferramentas de gerenciamento de conteúdo do CX Coworker](../content-management/content-management-coworker-skills.md). [Leia mais](../start/ai-features.md#cx-coworker)
 
-* Uma nova habilidade **Analisar anomalias de Jornada** foi documentada em **Analisar Jornada** na página do CX Coworker. Ele detecta picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de uma jornada em relação às linhas de base históricas e executa diagnósticos somente leitura para mostrar uma causa raiz provável. [Leia mais](../building-journeys/journeys-coworker-skills.md#journey-analyze)
+* Uma nova habilidade **Analisar anomalias de Jornada** foi documentada em **Analisar Jornada** na página CX Co-worker. Ele detecta picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de uma jornada em relação às linhas de base históricas e executa diagnósticos somente leitura para mostrar uma causa raiz provável. [Leia mais](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
 * A página **Medidas de proteção e limitações** foi corrigida para refletir o fato de que fragmentos visuais com mais de 100 KB ou fragmentos de expressão com mais de 200 KB não podem mais causar problemas de truncamento na entrega de email: agora uma única medida de proteção de tamanho de fragmento de 700 KB é aplicada. [Leia mais](../start/guardrails.md#fragments-guardrails)
 
@@ -47,7 +49,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * A documentação do **Conjunto de Dados de Eventos de Feedback de Mensagens do AJO** foi expandida para esclarecer que abrange o feedback de entrega de mensagens em todos os canais (Email, SMS/RCS/MMS, Mala direta), não apenas email e push, e agora inclui uma seção **Classificar execuções de teste e não teste** explicando como interpretar o campo `isTestExecution`, incluindo `NULL` ou valores ausentes. [Leia mais](../data/datasets-query-examples.md#classify-test-executions)
 
-* Um novo recurso **Gerenciamento de conteúdo** foi documentado para o CX Co-worker, alimentado por 15 ferramentas de MCP de leitura/gravação que permitem descobrir, criar, atualizar, clonar e publicar modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha do jornada/campaign usando prompts de linguagem natural. [Leia mais](../content-management/content-management-coworker-skills.md#content-management)
+* Um novo recurso **Gerenciamento de conteúdo** foi documentado para o CX Coworker, alimentado por 15 ferramentas de MCP de leitura/gravação que permitem descobrir, criar, atualizar, clonar e publicar modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha do jornada/campaign usando prompts de linguagem natural. [Leia mais](../content-management/content-management-coworker-skills.md#content-management)
 
 * A documentação **Adicionar conteúdo à página de aterrissagem** agora descreve uma opção **Tornar campo de formulário obrigatório** para caixas de seleção de consentimento: quando habilitada, o formulário não pode ser enviado, a menos que a caixa de seleção esteja marcada e a seleção seja imposta no lado do cliente e no lado do servidor. [Leia mais](../landing-pages/lp-content.md#use-form-component)
 

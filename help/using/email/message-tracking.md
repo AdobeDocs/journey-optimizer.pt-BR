@@ -12,30 +12,41 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 TQID: https://experienceleague.adobe.com/mY-h-cTs9mlZH5XJNS9Yv3pxGVoRn-pBTHAh8TlBi8I
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+    internal-label: Track and monitor
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+    internal-label: Performance monitoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cdd844ccf6e77e34cc2f9fff1b0f8096e3798707
+    internal-label: Privacy
+source-git-commit: 813613268cd90d6bb10a2013bcc65b9dcc463955
 workflow-type: tm+mt
-source-wordcount: 1631
-ht-degree: 23%
-
+source-wordcount: '1697'
+ht-degree: 22%
 ---
-
 # Adicionar links e rastrear mensagens {#tracking}
 
 >[!BEGINSHADEBOX]
@@ -164,13 +175,15 @@ A mirror page é criada automaticamente. Depois que o email for enviado, quando 
 
 O período de retenção de uma mirror page é de **90 dias**. Após esse atraso, a mirror page não estará mais disponível.
 
+A URL da mirror page não está disponível no momento como um campo documentado em um conjunto de dados do Adobe Experience Platform e o [!DNL Journey Optimizer] não fornece uma API pública para recuperá-la usando uma ID de entrega, ID de mensagem, ID de execução de mensagem ou identidade de destinatário. Se precisar revisar ou reter o conteúdo enviado para um destinatário, use a [Exportação de mensagem](../configuration/message-export.md) ou o [Arquivamento do Cco](../configuration/archiving-support.md#bcc-email).
+
 >[!CAUTION]
 >
 >* Os links de mirror pages são gerados automaticamente e não podem ser editados. Eles contêm todos os dados personalizados criptografados necessários para renderizar o email original. Como resultado, o uso de atributos personalizados com valores grandes pode gerar URLs de mirror pages longos, o que pode impedir que o link funcione em navegadores da Web com um comprimento máximo de URLs.
 >
 >* Ao criar emails que dependem muito da personalização em tempo de execução (por exemplo, `#each` loops, objetos aninhados, grandes dados de carga), as URLs de mirror page podem se tornar excessivamente grandes, especialmente em campanhas acionadas por API que usam muitos dados contextuais de cargas. Isso pode causar erros de HTTP (404, 422, 502) em navegadores ou clientes de email. A Adobe recomenda limitar a amplitude e a profundidade dos campos dinâmicos, reduzir a dependência de fragmentos complexos e nivelar as estruturas de personalização para evitar falhas de link.
 >
->* Na [prova](../content-management/proofs.md) enviada aos perfis de teste, o link para a mirror page não está ativo. Ela só estará ativa nas mensagens finais.
+>* Na [prova](../content-management/proofs.md) enviada aos perfis de teste, incluindo provas enviadas da jornada [Simulação](../building-journeys/simulate-journey.md), o link para a mirror page não está ativo. Ela só estará ativa nas mensagens finais.
 
 ### Decisão em mirror pages {#decisioning-mirror-page}
 
