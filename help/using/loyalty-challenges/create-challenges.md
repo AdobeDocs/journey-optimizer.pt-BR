@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
 source-wordcount: '2656'
-ht-degree: 11%
+ht-degree: 12%
 ---
 
 # Criar desafios {#create-challenges}
@@ -108,7 +108,7 @@ Defina quem pode participar do seu desafio de fidelidade.
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Programação de desafio"
->abstract="Defina quando o desafio estiver online usando a data e hora de início e término e um fuso horário ou selecione Nenhuma data de término para executar o desafio indefinidamente. Na janela de conclusão da tarefa, escolha quando os clientes podem concluir tarefas durante o período de desafio."
+>abstract="Defina quando o desafio está ativo usando data e hora de início e de término e um fuso horário, ou selecione Sem data final para executar o desafio indefinidamente. Na janela de conclusão da tarefa, escolha quando os clientes podem concluir tarefas durante o período de desafio."
 
 Configure quando seu desafio é executado:
 
@@ -380,21 +380,21 @@ Saiba como criar e configurar desafios de fidelidade com estes tutoriais de víd
 
 **Configurar um desafio de fidelidade** - Criar e configurar um novo desafio de fidelidade
 
->[!VIDEO](https://video.tv.adobe.com/v/3496475?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **Configurar recompensas** - Configurar entrega e atendimento de recompensa
 
->[!VIDEO](https://video.tv.adobe.com/v/3496485?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️ Veja como criar um cartão de conteúdo de desafio
 
->[!VIDEO](https://video.tv.adobe.com/v/3496533?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️ Veja como configurar mensagens de ciclo de vida para um desafio
 
->[!VIDEO](https://video.tv.adobe.com/v/3497459?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️ Veja como publicar um desafio e gerar uma jornada
 
->[!VIDEO](https://video.tv.adobe.com/v/3498581?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 
