@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
+source-git-commit: 59da1a1f2aeb1fb663c55be66fe309182fd06e7f
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3467'
 ht-degree: 8%
 ---
 
@@ -325,13 +325,9 @@ Os seguintes recursos e melhorias estão chegando aos canais nesta versão.
 
 * **Flexibilidade de autenticação BYOP de SMS personalizado** - Agora você pode configurar **cabeçalhos de autenticação personalizados** ao conectar a configuração OAuth do seu provedor de SMS, incluindo onde o token é colocado nas mensagens de saída e como a própria solicitação de token é formatada.
 
-### Correspondência direta {#sep-26-direct-mail}
+* **Correspondência direta - Dividir arquivos grandes automaticamente** - Os arquivos de Correspondência Direta agora podem ser divididos em várias partes automaticamente quando excedem aproximadamente 20 GB ou manualmente escolhendo um tamanho de arquivo de destino na configuração de roteamento de arquivos.
 
-Os seguintes recursos e aprimoramentos estão chegando ao Direct Mail nesta versão.
-
-* **Dividir arquivos grandes automaticamente** - Os arquivos de Mala Direta agora podem ser divididos em várias partes automaticamente quando excedem aproximadamente 20 GB ou manualmente escolhendo um tamanho de arquivo de destino na configuração de roteamento de arquivos.
-
-* **Limite de público-alvo aumentado** - O limite de público-alvo do canal de correspondência direta aumentou de 3 milhões para 100 milhões de perfis, permitindo que você direcione públicos-alvo muito maiores sem encontrar erros de criação de arquivos.
+* **Correspondência direta - Aumento do limite de público-alvo** - O limite de público-alvo do canal de correspondência direta aumentou de 3 milhões para 100 milhões de perfis, permitindo que você direcione públicos-alvo muito maiores sem encontrar erros de criação de arquivos.
 
 ### Canal de email {#sep-26-email-channel}
 
@@ -409,6 +405,12 @@ Os seguintes recursos e melhorias estão chegando ao Designer de email nesta ver
 
 * **Fontes substitutas para fontes personalizadas em temas de email** - Agora é possível definir uma fonte substituta para qualquer fonte personalizada (da Web) aplicada por temas de email. Se o cliente de email de um assinante não oferecer suporte à fonte personalizada, o Adobe Journey Optimizer exibirá automaticamente a fonte de fallback especificada, em vez de deixar a opção para o padrão do cliente de email. Isso mantém a tipografia de email mais próxima das diretrizes da sua marca e reduz as inconsistências de renderização de fonte nos clientes de email.
 
+### Personalização {#sep-26-personalization}
+
+A seguinte melhoria está chegando à personalização nesta versão.
+
+* **Corrigir sintaxe com IA** - Quando um erro de validação de sintaxe do PQL é detectado, o Editor do Personalization agora fornece uma opção &quot;Corrigir com IA&quot; para ajudar a resolver o problema diretamente do editor.
+
 ### Campanhas orquestradas {#sep-26-oc}
 
 Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nesta versão.
@@ -437,7 +439,7 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 <tbody>
 <tr>
 <td>
-<p>As campanhas orquestradas agora oferecem suporte a <strong>alertas automatizados</strong> por meio da mesma estrutura de alertas usada em jornadas e campanhas. Os alertas são acionados quando a execução de uma campanha falha, atinge o tempo limite ou exige confirmação e cada alerta inclui o que aconteceu, quando, onde e um link direto para a exibição de monitoramento, categorizado por gravidade, para que as equipes possam priorizar sem verificações manuais da interface do usuário.</p>
+<p>As campanhas orquestradas agora oferecem suporte a <strong>alertas automatizados</strong> por meio da mesma estrutura de alertas usada em jornadas e campanhas. Os alertas são acionados quando a execução de uma campanha falha, atinge o tempo limite e cada alerta inclui o que aconteceu, quando, onde e um link direto para a Tela para verificar mais detalhes nos logs.</p>
 </td>
 </tr>
 </tbody>
