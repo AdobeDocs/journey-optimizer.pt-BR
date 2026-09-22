@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 050335d3a6f4c8fa263ff1c381f6ee20c15c5af7
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1770'
 ht-degree: 1%
 ---
 # Exemplos de consultas {#query-examples}
@@ -136,27 +136,23 @@ _Nome na interface: Conjunto de Dados de Eventos de Feedback de Mensagens do AJO
 
 O Conjunto de dados do evento de feedback de mensagem do AJO armazena o feedback do delivery de mensagens gerado pelo Adobe Journey Optimizer. Ele oferece suporte à análise de feedback de entrega em canais de mensagem, incluindo email, SMS/RCS/MMS e correspondência direta. Os eventos de feedback podem ser usados para relatórios e casos de uso de criação de público-alvo.
 
-O esquema relacionado é o Esquema de evento de feedback de mensagem do AJO.
+O esquema relacionado é o Esquema `AJO Message Feedback Event`.
 
 >[!NOTE]
 >
->No Adobe Journey Optimizer, `sent` é o valor usado para resultados de entrega de mensagens bem-sucedidos no Conjunto de Dados de Eventos de Feedback de Mensagens. O valor `delivered` não é usado nos conjuntos de dados do Evento de feedback de mensagens do Adobe Journey Optimizer.
-
->[!NOTE]
+>* No Adobe Journey Optimizer, `sent` é o valor usado para resultados de entrega de mensagens bem-sucedidos; `delivered` não é usado nos conjuntos de dados do Evento de feedback de mensagens.
 >
->Esse conjunto de dados usa assimilação em lote. Espere uma latência de dados de até 2 horas ao consultar esse conjunto de dados ou usá-lo para fins de relatório.
-
-Para obter a lista completa de campos, caminhos de campos, tipos de dados e descrições, consulte a [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"}.
-
->[!NOTE]
+>* Esse conjunto de dados usa assimilação em lote, de modo que os dados podem ser atrasados em até 2 horas.
 >
->Não há garantia de que os campos de contexto específicos do canal sejam preenchidos em todos os eventos de feedback de mensagem. A disponibilidade de campo pode depender do canal, da carga de feedback do provedor, do tipo de evento e da fase de delivery. Use os identificadores de execução da mensagem, o status de feedback, os detalhes da falha, o carimbo de data e hora e as informações de identidade como os campos de correlação principais.
+>* Não há garantias de que os campos de contexto específicos do canal sejam preenchidos em todos os eventos. Use identificadores de execução de mensagem, status de feedback, detalhes da falha, carimbos de data e hora e informações de identidade como os campos de correlação principais.
+
+Para obter a lista completa de campos, caminhos de campos, tipos de dados e descrições, consulte a [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}.
 
 ### Classificar execuções de teste e não teste{#classify-test-executions}
 
 Use o campo `isTestExecution` para distinguir execuções de teste de execuções que não são de teste quando o campo é preenchido.
 
-Antes de criar uma consulta, use a [Referência de esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"} para confirmar o caminho do campo atual, o tipo de dados e a descrição do Esquema de evento de feedback de mensagem do AJO.
+Antes de criar uma consulta, use a [Referência de esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"} para confirmar o caminho do campo atual, o tipo de dados e a descrição do Esquema de evento de feedback de mensagem do AJO.
 
 Interprete os valores preenchidos da seguinte maneira:
 
@@ -170,7 +166,7 @@ Não converta automaticamente `NULL` em `false` e não presuma que cada valor nu
 
 Alguns registros históricos ou específicos do canal podem não preencher todos os campos de contexto de mensagem. Portanto, você deve testar a disponibilidade de campo por canal e preservar nulos, em vez de tratá-los como cadeias de caracteres vazias ou valores inferidos.
 
-Execute esta consulta somente após confirmar o caminho `isTestExecution` na [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"}:
+Execute esta consulta somente após confirmar o caminho `isTestExecution` na [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}:
 
 ```sql
 SELECT
