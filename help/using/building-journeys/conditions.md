@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 2af5b87d6136783c4db3106c4deab8038078a2d7
+source-git-commit: de7c17af32c7d198c2dbfce64b8f408dbd96d94d
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 15%
@@ -80,7 +80,7 @@ Para adicionar uma condição à jornada, siga as etapas abaixo.
 
 >[!NOTE]
 >
->A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR#profile-data-store){target="_blank"}.
+>A avaliação de condição falhará para perfis que incluem mais de duas identidades entre dispositivos no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Gerenciar caminhos de condição {#condition_paths}
 
@@ -227,12 +227,9 @@ Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com a **Realizou** participação no público
-   >O status será considerado como membros do público-alvo. Para obter mais informações sobre como
-   >para avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=pt-BR#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o status de participação de público **Realizado** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
    >
-   >Para medidas de proteção de validação de público-alvo, incluindo o cache de 5.000 públicos-alvo
-   >e a solução alternativa, consulte a [função inAudience](functions/functioninaudience.md#guardrails).
+   >Para obter as medidas de proteção de validação de público-alvo, incluindo a limitação de cache de 5.000 públicos-alvo e a solução alternativa, consulte a [função inAudience](functions/functioninaudience.md#guardrails).
 
 ➡️ **Veja na prática:** Saiba como usar o horário e as condições do dia da semana para [enviar emails somente em dias da semana](weekday-email-uc.md).
 
