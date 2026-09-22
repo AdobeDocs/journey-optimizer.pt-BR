@@ -10,25 +10,31 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/yfeFpaNi0rYVeyXdzaZ7SfoZnu-BkyivCMDzED7dpsM
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
+    internal-label: Edge Decisioning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Optimization
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: 1619
+source-wordcount: '1729'
 ht-degree: 11%
-
 ---
-
 # Criar regras {#rules}
 
 >[!BEGINSHADEBOX]
@@ -189,10 +195,11 @@ No painel Assistente de IA, descreva a regra que deseja criar em linguagem simpl
 
 Antes de usar uma regra em sua estratégia de decisão ou campanha, você pode testá-la com dados de amostra ou gerados para validar a lógica da regra e garantir que ela se comporte conforme esperado.
 
+### Acessar o espaço de trabalho de simulação
+
 1. Abra uma regra existente ou [crie uma nova](#create) e clique no botão **[!UICONTROL Simular regra]**.
 
    ![](assets/rule-simulate-button.png)
-
 
 1. A tela de simulação é aberta com várias seções:
 
@@ -202,15 +209,35 @@ Antes de usar uma regra em sua estratégia de decisão ou campanha, você pode t
    * **Expressão de regra**: exibe a definição de regra para referência
    * **Resultado da simulação**: mostra se o Perfil será qualificado por esta Regra ou não
 
-1. Adicione variantes de teste com os atributos exigidos pela regra usando um dos dois métodos abaixo:
+### Adicionar variantes de teste
+
+1. Adicione variantes de teste com os atributos exigidos pela regra usando um dos seguintes métodos:
    * Para criar uma amostra manual, selecione o botão **[!UICONTROL Criar amostra]**.
    * Para gerar variantes de teste usando IA, clique no botão **[!UICONTROL Gerar]**.
 
->[!NOTE]
->
->A geração de variantes de teste baseada em IA está disponível para organizações com acesso aos recursos do Adobe AI.
+   >[!NOTE]
+   >
+   >A geração de variantes de teste baseada em IA está disponível para organizações com acesso aos recursos do Adobe AI.
 
 A seção Variantes de teste é preenchida automaticamente com as amostras criadas ou geradas. Cada variante inclui atributos usados na regra. É possível editar os valores de campo diretamente para simular diferentes cenários.
+
+### Preencher variantes com perfis de teste do Adobe Experience Platform
+
+Depois de criar ou gerar uma variante, você pode usar atributos de um [perfil de teste do Adobe Experience Platform](../audience/creating-test-profiles.md) para preencher seus atributos.
+
+1. Selecione **[!UICONTROL Editar]** em uma variante e clique no botão **[!UICONTROL Selecionar perfil do AEP]**.
+
+   ![](assets/rule-simulate-aep.png)
+
+1. Selecione um namespace de identidade e insira o valor de identidade correspondente.
+
+   A área **Recentes** lista os perfis que você aplicou com êxito. Os perfis recentes são armazenados no navegador por organização e sandbox, são solicitados com os mais recentes primeiro e são limitados a 10 entradas.
+
+   ![](assets/ranking-formula-simulate-aep-recents.png)
+
+1. Clique no botão **[!UICONTROL Selecionar perfil]**. Os atributos do perfil de teste são adicionados à variante selecionada.
+
+### Exibir os resultados da simulação
 
 Para exibir os resultados da avaliação da regra, selecione uma variante de teste na lista. A área Resultado da simulação mostra se o Perfil será qualificado por essa Regra ou não.
 
@@ -247,4 +274,4 @@ Para otimizar uma regra:
 
 Saiba como criar, duplicar e aplicar **regras de direcionamento** reutilizáveis no Adobe Journey Optimizer para personalizar campanhas com eficiência com base em atributos de cliente, como região, idioma e comportamento, economizando tempo e melhorando a precisão do público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476132/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

@@ -10,26 +10,33 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/WycI0aO1o4KFH1gNieayuhpyNZuoVxL6zhGJBNOht8g
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Edge Decisioning
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: 2024
+source-wordcount: '2134'
 ht-degree: 4%
-
 ---
-
 # Criar fórmulas de classificação {#create-ranking-formulas}
 
 >[!BEGINSHADEBOX]
@@ -298,6 +305,8 @@ Observe que ao usar a API **Decisioning**, os dados de contexto são adicionados
 
 Antes de aplicar uma fórmula de classificação à sua estratégia de seleção, você pode testá-la com dados de amostra ou gerados para validar os resultados da classificação e garantir que ela forneça o comportamento esperado.
 
+### Acessar o espaço de trabalho de simulação
+
 1. Abra uma fórmula existente ou [crie uma nova](#create-ranking-formula) e clique no botão **[!UICONTROL Simular fórmula]**.
 
    ![](../assets/ranking-formula-simulate-button.png)
@@ -310,7 +319,9 @@ Antes de aplicar uma fórmula de classificação à sua estratégia de seleção
    * **Expressão de classificação**: exibe a expressão de fórmula para referência
    * **Resultado da simulação**: mostra ofertas classificadas quando uma variante é selecionada
 
-1. Adicione variantes de teste usando um dos dois métodos abaixo:
+### Adicionar variantes de teste
+
+1. Adicione variantes de teste usando um dos seguintes métodos:
 
    * Para criar uma amostra manual, selecione o botão **[!UICONTROL Criar amostra]** e selecione os itens de oferta que deseja usar para teste.
    * Para gerar variantes de teste usando IA, clique no botão **[!UICONTROL Gerar]**.
@@ -320,6 +331,24 @@ Antes de aplicar uma fórmula de classificação à sua estratégia de seleção
    >A geração de variantes de teste baseada em IA está disponível para organizações com acesso aos recursos do Adobe AI.
 
 A seção Variantes de teste é preenchida automaticamente com os itens selecionados ou amostras geradas. Cada variante inclui atributos usados na expressão. É possível editar os valores de campo diretamente para simular diferentes cenários.
+
+### Preencher variantes com perfis de teste do Adobe Experience Platform
+
+Depois de criar ou gerar uma variante, você pode usar atributos do [perfil de teste do Adobe Experience Platform](../../audience/creating-test-profiles.md) existente para preencher seus atributos.
+
+1. Selecione **[!UICONTROL Editar]** em uma variante e clique no botão **[!UICONTROL Selecionar perfil do AEP]**.
+
+   ![](../assets/ranking-formula-simulate-aep.png)
+
+1. Selecione um namespace de identidade e insira o valor de identidade correspondente.
+
+   A área **Recentes** lista os perfis que você aplicou com êxito. Os perfis recentes são armazenados no navegador por organização e sandbox, são solicitados com os mais recentes primeiro e são limitados a 10 entradas.
+
+   ![](../assets/ranking-formula-simulate-aep-recents.png)
+
+1. Clique no botão **[!UICONTROL Selecionar perfil]**. Os atributos do perfil de teste são adicionados à variante selecionada.
+
+### Exibir os resultados da simulação
 
 Para exibir o resultado de classificação da simulação, selecione uma variante de teste na lista. A área Resultado da simulação exibe as ofertas classificadas com suas pontuações, mostrando como a fórmula classifica os itens com base nos dados da variante.
 
