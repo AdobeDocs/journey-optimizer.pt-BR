@@ -11,25 +11,31 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
 subfeature_v2:
   - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+    internal-label: Journey guardrails
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
+    internal-label: Personalization
+source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
 workflow-type: tm+mt
-source-wordcount: 4973
-ht-degree: 91%
-
+source-wordcount: '5133'
+ht-degree: 87%
 ---
-
 
 # Medidas de proteção e limitações {#limitations}
 
@@ -41,7 +47,7 @@ ht-degree: 91%
 
 Abaixo são encontradas medidas de proteção e limitações ao usar o [!DNL Adobe Journey Optimizer].
 
-Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Os direitos, as limitações e as medidas de proteção de desempenho estão listados na [página de descrição do Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -99,28 +105,39 @@ Esta seção aborda medidas de proteção e limitações para jornadas, incluind
 
 #### Validação de tamanho do conteúdo da jornada {#journey-payload-size}
 
-Ao salvar ou publicar uma jornada, o Journey Optimizer valida o tamanho total do conteúdo da jornada para preservar a estabilidade e o desempenho.
+Ao salvar ou publicar uma jornada, o Journey Optimizer valida o tamanho da definição de jornada serializada para preservar a estabilidade e o desempenho. O tamanho do payload é medido em bytes e não é determinado somente pelo número de atividades. Cada atividade contribui de acordo com sua configuração salva, incluindo expressões, condições, mapeamentos de dados, parâmetros e outros valores de configuração.
+
+Os colaboradores comuns incluem:
+
+* Atividades de condição com expressões complexas.
+* Atividades de ação personalizadas com muitos campos ou expressões profundamente aninhadas.
+* Mapeamentos de dados grandes.
+* Atividades com parâmetros ou configuração extensos.
+
+Não há valor fixo de tamanho por atividade. Duas jornadas com o mesmo número de atividades podem ter tamanhos de payload diferentes dependendo de sua configuração. Quando um aviso ou erro for exibido, analise a atividade com a maior contribuição identificada na mensagem.
 
 | Cenário | Limite | Comportamento |
 |---|---|---|
 | Conteúdo &lt; 90% do limite | Aviso abaixo | A jornada é salva e publicada com sucesso. Nenhum aviso ou erro é exibido. |
-| Conteúdo em 90% a 99% do limite | Aviso (leve) | A jornada é salva e publicada com um aviso: **Aviso**: o tamanho do conteúdo da jornada está próximo ao limite. Maior nó: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamanho: [N] bytes). |
-| Conteúdo ≥ 100% do limite | **Erro (grave)** | Salvamento ou publicação bloqueado. Retorna **HTTP 413 Entidade da solicitação muito grande**. Erro: o tamanho do conteúdo da jornada excede o limite. Maior nó: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamanho: [N] bytes). |
+| Conteúdo em 90% a 99% do limite | Aviso (leve) | A jornada é salva e publicada com um aviso: **Aviso**: o tamanho do conteúdo da jornada está próximo ao limite. Maior atividade de contribuição: &#39;[ActivityName]&#39; (tipo: &#39;[ActivityType]&#39;, tamanho: [N] bytes). |
+| Conteúdo ≥ 100% do limite | **Erro (grave)** | Salvamento ou publicação bloqueado. Retorna **HTTP 413 Entidade da solicitação muito grande**. Erro: o tamanho do conteúdo da jornada excede o limite. Maior atividade de contribuição: &#39;[ActivityName]&#39; (tipo: &#39;[ActivityType]&#39;, tamanho: [N] bytes). |
 
 **Configuração padrão**
 
-* **Tamanho máximo de solicitação padrão**:**2 MB** (2.000.000 bytes). Algumas organizações podem ter limites personalizados configurados pela Adobe.
+* **Tamanho máximo de carga de jornada padrão**: **2 MB** (2.000.000 bytes). Algumas organizações podem ter limites personalizados configurados pela Adobe.
 * **Limite de aviso**: 90% do limite máximo.
 * **Limite de erro**: 100% do limite máximo.
 
 **Solução de problemas e recomendações**
 
-* Revise o maior nó destacado no aviso ou erro.
-* Simplifique condições, reduza mapeamentos de dados e remova etapas ou parâmetros desnecessários.
+* Revise a atividade com a maior contribuição destacada no aviso ou erro.
+* Simplifique expressões e condições complexas, reduza os mapeamentos de dados e remova campos ou parâmetros desnecessários.
 * Considere dividir a jornada em jornadas menores, se necessário.
 * Se você acredita que sua organização precisa de um limite mais alto, entre em contato com o representante da Adobe.
 
 Para monitorar o tamanho do conteúdo atual da jornada antes da publicação, use o indicador **[!UICONTROL Tamanho do conteúdo da jornada atual]** no painel de propriedades da jornada. [Saiba como verificar o tamanho do conteúdo da jornada](../building-journeys/journey-properties.md#journey-payload-size)
+
+A carga de jornada serializada inclui a configuração de atividades de jornada. As entidades referenciadas, como conteúdo de email referenciado por uma ação Email, não são incluídas nesta carga. O conteúdo da mensagem de email está sujeito à proteção de tamanho do conteúdo da mensagem separada na seção [Medidas de proteção de email](#message-content-size).
 
 ### Comparação de pacotes de licenças {#select-package-limitations}
 
