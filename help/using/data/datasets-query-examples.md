@@ -146,7 +146,7 @@ O esquema relacionado é o Esquema de evento de feedback de mensagem do AJO.
 >
 >Esse conjunto de dados usa assimilação em lote. Espere uma latência de dados de até 2 horas ao consultar esse conjunto de dados ou usá-lo para fins de relatório.
 
-Para obter a lista completa de campos, caminhos de campos, tipos de dados e descrições, consulte a [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}.
+Para obter a lista completa de campos, caminhos de campos, tipos de dados e descrições, consulte a [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"}.
 
 >[!NOTE]
 >
@@ -156,7 +156,7 @@ Para obter a lista completa de campos, caminhos de campos, tipos de dados e desc
 
 Use o campo `isTestExecution` para distinguir execuções de teste de execuções que não são de teste quando o campo é preenchido.
 
-Antes de criar uma consulta, use a [Referência de esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"} para confirmar o caminho do campo atual, o tipo de dados e a descrição do Esquema de evento de feedback de mensagem do AJO.
+Antes de criar uma consulta, use a [Referência de esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"} para confirmar o caminho do campo atual, o tipo de dados e a descrição do Esquema de evento de feedback de mensagem do AJO.
 
 Interprete os valores preenchidos da seguinte maneira:
 
@@ -170,7 +170,7 @@ Não converta automaticamente `NULL` em `false` e não presuma que cada valor nu
 
 Alguns registros históricos ou específicos do canal podem não preencher todos os campos de contexto de mensagem. Portanto, você deve testar a disponibilidade de campo por canal e preservar nulos, em vez de tratá-los como cadeias de caracteres vazias ou valores inferidos.
 
-Execute esta consulta somente após confirmar o caminho `isTestExecution` na [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}:
+Execute esta consulta somente após confirmar o caminho `isTestExecution` na [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"}:
 
 ```sql
 SELECT
