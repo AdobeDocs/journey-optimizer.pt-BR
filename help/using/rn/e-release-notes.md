@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 59da1a1f2aeb1fb663c55be66fe309182fd06e7f
+source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
 workflow-type: tm+mt
-source-wordcount: '3467'
-ht-degree: 8%
+source-wordcount: '3373'
+ht-degree: 9%
 ---
 
 # Notas de pré-lançamento {#e-release-notes}
@@ -405,12 +405,6 @@ Os seguintes recursos e melhorias estão chegando ao Designer de email nesta ver
 
 * **Fontes substitutas para fontes personalizadas em temas de email** - Agora é possível definir uma fonte substituta para qualquer fonte personalizada (da Web) aplicada por temas de email. Se o cliente de email de um assinante não oferecer suporte à fonte personalizada, o Adobe Journey Optimizer exibirá automaticamente a fonte de fallback especificada, em vez de deixar a opção para o padrão do cliente de email. Isso mantém a tipografia de email mais próxima das diretrizes da sua marca e reduz as inconsistências de renderização de fonte nos clientes de email.
 
-### Personalização {#sep-26-personalization}
-
-A seguinte melhoria está chegando à personalização nesta versão.
-
-* **Corrigir sintaxe com IA** - Quando um erro de validação de sintaxe do PQL é detectado, o Editor do Personalization agora fornece uma opção &quot;Corrigir com IA&quot; para ajudar a resolver o problema diretamente do editor.
-
 ### Campanhas orquestradas {#sep-26-oc}
 
 Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nesta versão.
@@ -425,21 +419,6 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 <tr>
 <td>
 <p>A <strong>Atividade de ingresso</strong> em campanhas orquestradas agora oferece suporte às condições de ingresso AND e OR. Com a lógica OR, um perfil que conclui qualquer ramificação upstream, em vez de todas, continua ao longo de um único caminho downstream compartilhado. Isso permite modelar "se A ou B ou C, faça isso" padrões diretamente na tela sem duplicar etapas downstream em ramificações separadas.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Alertas para campanhas orquestradas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>As campanhas orquestradas agora oferecem suporte a <strong>alertas automatizados</strong> por meio da mesma estrutura de alertas usada em jornadas e campanhas. Os alertas são acionados quando a execução de uma campanha falha, atinge o tempo limite e cada alerta inclui o que aconteceu, quando, onde e um link direto para a Tela para verificar mais detalhes nos logs.</p>
 </td>
 </tr>
 </tbody>

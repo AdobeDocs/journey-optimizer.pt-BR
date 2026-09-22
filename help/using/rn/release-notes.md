@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
+source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
 workflow-type: tm+mt
-source-wordcount: '3056'
-ht-degree: 64%
+source-wordcount: '3158'
+ht-degree: 62%
 ---
 # Notas de versão {#release-notes}
 
@@ -196,7 +196,30 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ### Campanhas orquestradas {#sep-26-orchestrated-campaigns}
 
+<table>
+<thead>
+<tr>
+<th><strong>Alertas para campanhas orquestradas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As campanhas orquestradas agora oferecem suporte a <strong>alertas automatizados</strong> por meio da mesma estrutura de alertas usada em jornadas e campanhas. Os alertas são acionados quando a execução de uma campanha falha, atinge o tempo limite e cada alerta inclui o que aconteceu, quando, onde e um link direto para a Tela para verificar mais detalhes nos logs.</p>
+<p>Para obter mais informações, consulte a <a href="../orchestrated/start-monitor-campaigns.md#alerting">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 22 de setembro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **Conteúdo condicional com dados relacionais em campanhas orquestradas** - Ao criar conteúdo condicional no Designer de email para campanhas orquestradas, agora é possível criar condições diretamente nos dados relacionais, como registros relacionados associados a um perfil, não apenas nos atributos de perfil padrão. [Saiba mais](../orchestrated/activities/channels.md#add-personalization)
+
+  Data de disponibilidade: 22 de setembro de 2026
+
+### Personalização {#sep-26-personalization}
+
+* **Corrigir sintaxe com IA** - Quando um erro de validação de sintaxe do PQL é detectado, o Editor do Personalization agora fornece uma opção &quot;Corrigir com IA&quot; para ajudar a resolver o problema diretamente do editor.
 
   Data de disponibilidade: 22 de setembro de 2026
 
