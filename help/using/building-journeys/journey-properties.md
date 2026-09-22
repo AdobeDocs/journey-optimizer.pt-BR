@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
+source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
 workflow-type: tm+mt
-source-wordcount: '4644'
+source-wordcount: '4716'
 ht-degree: 13%
 ---
 # Definir as propriedades da jornada {#jo-properties}
@@ -155,15 +155,15 @@ Para atribuir rótulos de uso de dados personalizados à jornada, clique no íco
 >title="Tamanho atual do conteúdo da jornada"
 >abstract="Exibe o tamanho atual do conteúdo da jornada em comparação ao limite configurado. Este indicador ajuda a monitorar a complexidade da jornada antes da publicação e a evitar erros quando o tamanho do conteúdo excede o limite permitido."
 
-O campo **[!UICONTROL Tamanho atual do conteúdo da jornada]** no painel Propriedades da jornada exibe o tamanho atual do conteúdo da jornada em relação ao limite configurado — por exemplo, *1,5 MB (de 2 MB)*. Esse indicador somente leitura fica visível em qualquer estágio da criação do jornada.
+O campo **[!UICONTROL Tamanho da carga de jornada atual]** no painel Propriedades de jornada exibe o tamanho atual da definição de jornada serializada em relação ao limite configurado — por exemplo, *1,5 MB de 2 MB*. Esse indicador somente leitura está disponível durante a criação do jornada.
 
 ![Indicador de tamanho da carga da jornada atual no painel de propriedades da jornada](assets/journey-payload-size.png){width="50%" zoomable="yes"}
 
-Use essas informações para monitorar a complexidade da jornada antes de publicar. Se o tamanho do payload se aproximar ou exceder o limite, a publicação do jornada falhará. Para reduzir o tamanho, considere simplificar a lógica de jornada ou reduzir o número de atividades.
+O valor reflete a configuração salva da jornada, incluindo atividades, expressões, condições, mapeamentos de dados, parâmetros e ações. Ele não é calculado somente a partir da contagem de atividades. Se a carga se aproximar do limite configurado, o Journey Optimizer exibirá um aviso. Se a carga atingir ou exceder o limite configurado, será bloqueado salvar ou publicar a jornada.
 
-O limite padrão é 4 MB. Entre em contato com o Atendimento ao cliente da Adobe se precisar solicitar um limite mais alto para sua organização.
+O tamanho máximo de carga de jornada padrão é **2 MB (2.000.000 bytes)**. Algumas organizações podem ter limites personalizados configurados pela Adobe. Entre em contato com seu representante da Adobe se precisar de informações sobre um limite específico da organização.
 
-Para obter detalhes completos sobre limites, mensagens de aviso e erro e etapas de solução de problemas, consulte [Validação do tamanho da carga da Jornada](../start/guardrails.md#journey-payload-size) e [Medidas de proteção de jornada gerais](../start/guardrails.md#journeys-guardrails-journeys).
+Para obter detalhes sobre limites, as maiores atividades de contribuição, comportamento de erro e estratégias de redução, consulte [Validação do tamanho da carga da Jornada](../start/guardrails.md#journey-payload-size) e [Medidas de proteção de jornada gerais](../start/guardrails.md#journeys-guardrails-journeys). As entidades referenciadas, como conteúdo de email referenciado por uma ação Email, não são incluídas na carga de jornada serializada; o conteúdo da mensagem de email está sujeito a uma proteção de tamanho separada.
 
 ## Fusos horários de Jornada e perfil {#timezone}
 
@@ -535,7 +535,7 @@ Um [tempo limite de jornada global](#global_timeout) para um perfil **91 dias** 
 
 **Por que minha jornada não foi publicada devido ao tamanho da carga?**
 
-O indicador **[!UICONTROL Tamanho atual da carga da jornada]** mostra a carga da jornada em relação ao limite configurado (4 MB por padrão). Se a carga se aproximar ou exceder o limite, a publicação falhará. Reduza o tamanho simplificando a lógica de jornada ou reduzindo o número de atividades, ou entre em contato com o Atendimento ao cliente da Adobe para solicitar um limite mais alto. Consulte [Tamanho da carga da Jornada](#journey-payload-size), [Validação do tamanho da carga da Jornada](../start/guardrails.md#journey-payload-size) e [Medidas de proteção de jornada gerais](../start/guardrails.md#journeys-guardrails-journeys).
+O indicador **[!UICONTROL Tamanho da carga de jornada atual]** mostra a definição de jornada serializada em relação ao limite configurado (**2 MB (2.000.000 bytes)** por padrão). O valor reflete a configuração salva da jornada, não apenas a contagem de atividades. Um aviso é exibido quando a carga atinge 90% do limite; salvar ou publicar é bloqueado em 100% ou mais. Reduza o tamanho simplificando expressões, condições, mapeamentos de dados ou parâmetros. Consulte [Tamanho da carga da Jornada](#journey-payload-size), [Validação do tamanho da carga da Jornada](../start/guardrails.md#journey-payload-size) e [Medidas de proteção de jornada gerais](../start/guardrails.md#journeys-guardrails-journeys).
 
 **Qual política de mesclagem minha jornada usa?**
 

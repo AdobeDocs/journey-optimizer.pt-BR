@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 37b04ecd9230df1ae2486243da1b9d6d33f0162a
+source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
 workflow-type: tm+mt
-source-wordcount: '3652'
+source-wordcount: '3849'
 ht-degree: 1%
 ---
 # Acessar e assinar alertas do sistema {#alerts}
@@ -60,14 +60,31 @@ O Adobe Journey Optimizer fornece dois tipos de alertas:
 
 * **Alertas de monitoramento do sistema** (detalhados nesta página): receba notificações proativas quando os limites operacionais forem excedidos ou forem detectados problemas nas configurações de jornadas ativas e canais, e quando ocorrerem eventos importantes do ciclo de vida da campanha (ativação, entrega, parada e falhas relacionadas). Os alertas do sistema monitoram métricas como taxas de erro, descartes de perfis, tráfego de jornadas anômalo e problemas de capacidade de entrega de email, além desses eventos de campanha.
 
-**Principais benefícios dos alertas do sistema:**
+  **Principais benefícios dos alertas do sistema:**
 
-* Detecção proativa de problemas antes do impacto no cliente
-* Monitoramento automatizado do desempenho e da integridade da jornada
-* Aviso antecipado para problemas de capacidade de entrega de email
-* Tempo reduzido para identificar e resolver problemas operacionais
+  * Detecção proativa de problemas antes do impacto no cliente
+  * Monitoramento automatizado do desempenho e da integridade da jornada
+  * Aviso antecipado para problemas de capacidade de entrega de email
+  * Tempo reduzido para identificar e resolver problemas operacionais
 
-Os alertas do sistema estão disponíveis no menu **[!UICONTROL Alertas]** em **[!UICONTROL Administração]**. O Adobe Experience Platform fornece várias regras de alerta predefinidas que você pode habilitar, incluindo alertas específicos do [!DNL Adobe Journey Optimizer] para jornada e configurações de canal.
+## Como os alertas do sistema funcionam
+
+Os alertas são enviados por email e/ou notificações no aplicativo na central de notificações da Journey Optimizer (ícone de sino no canto superior direito). Configure seus canais de entrega preferidos em suas [Preferências da Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
+
+![](assets/alert-pulse.png)
+
+O Journey Optimizer fornece alertas únicos (eventos informativos como &quot;jornada publicada&quot;) e alertas repetitivos (limites de monitoramento). Os alertas repetitivos continuam a ser avaliados e notificados até que a condição seja resolvida.
+
+Para evitar a fadiga da notificação de valores flutuantes, os alertas são resolvidos automaticamente após 1 hora, mesmo se a condição persistir. Isso impede notificações contínuas quando as métricas passam o mouse sobre valores limite.
+
+Ciclo de vida do alerta:
+
+1. **Acionamento**: o alerta dispara quando sua condição específica é atendida (por exemplo, a taxa de erros excede 20%)
+2. **Notificação**: todos os usuários inscritos recebem notificações por meio de seus canais configurados
+3. **Monitoramento**: o alerta continua a monitorar a condição em intervalos regulares
+4. **Solução**: quando a condição é resolvida, os assinantes recebem uma notificação &quot;Resolvido&quot;
+
+Os alertas do sistema podem ser gerenciados no menu **[!UICONTROL Alertas]** em **[!UICONTROL Administração]**. O Adobe Experience Platform fornece várias regras de alerta predefinidas que você pode habilitar, incluindo alertas específicos do [!DNL Adobe Journey Optimizer] para jornada e configurações de canal.
 
 ## Pré-requisitos
 
@@ -78,7 +95,6 @@ Antes de trabalhar com alertas:
 * **Reconhecimento de sandbox**: as assinaturas de alerta são específicas da sandbox. Quando você assina alertas, eles se aplicam somente à sandbox atual. Quando uma sandbox é redefinida, todas as assinaturas de alerta também são redefinidas.
 
 * **Preferências de notificação**: configure como você recebe alertas (email e/ou no aplicativo) nas [Preferências da Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
-
 
 ## Alertas disponíveis {#available-alerts}
 
@@ -97,6 +113,8 @@ Navegue pelas guias abaixo para revisar os alertas de configuração do jornada,
 >[!TAB Jornada alertas]
 
 Todas as notificações do jornada disponíveis na interface do usuário estão listadas nesta guia. Selecione um nome de alerta para expandir sua descrição e orientação completas.
+
+➡️ [Saiba mais sobre a entrega de alertas](#subscribe-alerts) | [Saiba como gerenciar assinaturas de alertas](#subscribe-alerts) | [Saiba como monitorar e resolver problemas do jornada](../building-journeys/troubleshooting-execution.md)
 
 >[!CAUTION]
 >
@@ -249,9 +267,11 @@ Observe que este alerta se aplica somente a jornadas ativas do tipo **evento uni
 
 +++
 
->[!TAB Alertas de campanha]
+>[!TAB Alertas de campanha acionados por ação e API]
 
 Os alertas do sistema notificam você quando ocorrem eventos importantes de ciclo de vida ou entrega em **campanhas** e **campanhas acionadas por API**. Selecione um nome de alerta abaixo para expandir sua descrição.
+
+➡️ [Saiba mais sobre a entrega de alertas](#subscribe-alerts) | [Saiba como gerenciar assinaturas de alertas](#subscribe-alerts) | [Saiba como monitorar e resolver problemas da campanha](../campaigns/manage-campaigns.md)
 
 +++ Campanha ativada
 
@@ -329,9 +349,65 @@ Notifica você quando **falha na entrega de mensagens** de uma campanha **3&rbra
 
 +++
 
+>[!TAB Alertas de campanha orquestrados]
+
+Os alertas do sistema notificam você sobre eventos importantes em uma campanha Orquestrada. Selecione um nome de alerta abaixo para expandir sua descrição.
+
+➡️ [Saiba mais sobre a entrega de alertas](#subscribe-alerts) | [Saiba como gerenciar assinaturas de alertas](#subscribe-alerts) | [Saiba como monitorar e resolver problemas do Orchestrated campaign](../orchestrated/start-monitor-campaigns.md#logs-tasks)
+
++++ Erro na campanha orquestrada
+
+Notifica quando uma campanha orquestrada encontra um erro durante a execução.
+
++++
+
++++ Entrega de campanha orquestrada iniciada
+
+Notifica quando um delivery de uma campanha Orquestrada é iniciado.
+
++++
+
++++ Falha na entrega da campanha orquestrada
+
+Notifica quando um delivery de uma campanha Orquestrada falha.
+
++++
+
++++ Entrega de campanha orquestrada concluída
+
+Notifica quando uma entrega de uma campanha Orquestrada é concluída com êxito.
+
++++
+
++++ Início da campanha orquestrada
+
+Notifica toda vez que uma execução de campanha orquestrada é iniciada. Para campanhas Orquestradas recorrentes, cada recorrência aciona esse alerta. Este alerta é diferente do alerta de publicação: uma campanha Orquestrada agendada pode ser publicada sem ter sido iniciada ainda.
+
++++
+
++++ Campanha Orquestrada Parada
+
+Notifica quando uma campanha Orquestrada é interrompida.
+
++++
+
++++ Publicação orquestrada de campanha
+
+Notifica quando uma campanha Orquestrada é publicada.
+
++++
+
++++ Campanha Orquestrada Concluída
+
+Notifica quando uma campanha Orquestrada é concluída após a conclusão de todas as recorrências.
+
++++
+
 >[!TAB Alertas de configuração de canal]
 
 Os alertas de monitoramento de configuração de canal disponíveis na interface do usuário estão listados nesta guia. Selecione um nome de alerta para expandir as etapas e notas de correção.
+
+➡️ [Saiba mais sobre a entrega de alertas](#subscribe-alerts) | [Saiba como gerenciar assinaturas de alertas](#subscribe-alerts) | [Saiba como monitorar e resolver problemas de configuração de canal](../configuration/channel-surfaces.md)
 
 +++ Registro DNS de domínio do AJO ausente
 
@@ -441,29 +517,6 @@ Se esse alerta for disparado, siga as etapas abaixo para investigar e resolver o
 ## Assinatura de alertas {#subscribe-alerts}
 
 As assinaturas de alerta determinam quais usuários recebem notificações quando condições específicas são atendidas (como limites de taxa de erro excedidos ou problemas de configuração detectados). Somente os usuários inscritos recebem notificações de alerta para os alertas selecionados.
-
-### Como funcionam as notificações de alerta
-
-**Ciclo de vida do alerta:**
-
-1. **Acionamento**: o alerta dispara quando sua condição específica é atendida (por exemplo, a taxa de erros excede 20%)
-2. **Notificação**: todos os usuários inscritos recebem notificações por meio de seus canais configurados
-3. **Monitoramento**: o alerta continua a monitorar a condição em intervalos regulares
-4. **Solução**: quando a condição é resolvida, os assinantes recebem uma notificação &quot;Resolvido&quot;
-
-**Entrega de notificação:**
-
-* **Canais de entrega**: os alertas são enviados por email e/ou notificações no aplicativo na central de notificações da Journey Optimizer (ícone de sino no canto superior direito). Configure seus canais de entrega preferidos em suas [Preferências da Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
-
-* **Tipos de alerta**: o Journey Optimizer fornece alertas únicos (eventos informativos como &quot;jornada publicada&quot;) e alertas repetitivos (limites de monitoramento). Os alertas repetitivos continuam a ser avaliados e notificados até que a condição seja resolvida.
-
-* **Resolução automática**: para evitar a fadiga da notificação de valores flutuantes, os alertas são resolvidos automaticamente após 1 hora, mesmo se a condição persistir. Isso impede notificações contínuas quando as métricas passam o mouse sobre valores limite.
-
-**Método de assinatura alternativo:**
-
-Para integrações avançadas, você pode assinar por meio de Eventos de I/O para enviar alertas a sistemas externos. Consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=pt-BR){target="_blank"}.
-
-### Métodos de subscrição
 
 Você pode assinar alertas de várias maneiras:
 

@@ -13,27 +13,35 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+    internal-label: Event configuration
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
+    internal-label: Optimization
+source-git-commit: 050335d3a6f4c8fa263ff1c381f6ee20c15c5af7
 workflow-type: tm+mt
-source-wordcount: 2385
+source-wordcount: '2411'
 ht-degree: 10%
-
 ---
-
 # Solucionar problemas de execução de jornada em tempo real {#troubleshooting-execution}
 
 >[!BEGINSHADEBOX]
@@ -52,7 +60,7 @@ Se você estiver usando ações de entrada, saiba como solucionar problemas dele
 
 O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes usando ferramentas como o Postman.
 
-Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
+Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto.
 
 Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming de [!DNL Adobe Experience Platform]. Como resultado, no caso de problemas relacionados ao evento, consulte a [[!DNL Adobe Experience Platform] documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=pt-BR){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
 
@@ -162,7 +170,7 @@ No caso de uma mensagem enviada por meio de uma ação personalizada, a única c
 
 >[!NOTE]
 >
->Para ações de canal nativas do Journey Optimizer, consulte o Conjunto de Dados de Eventos de Feedback de Mensagens para confirmar o status de entrega, como `sent` ou `bounce`. Para ações personalizadas, consulte o conjunto de dados Evento de etapa de Jornada para confirmar se o Journey Optimizer executou a ação com êxito. Uma chamada HTTP bem-sucedida não confirma, por si só, se o sistema externo enviou uma mensagem. Saiba como [escolher o conjunto de dados correto](../data/datasets-query-examples.md#choose-the-correct-dataset) para seu caso de uso.
+>Para ações de canal nativas do Journey Optimizer, consulte o Conjunto de Dados de Eventos de Feedback de Mensagens para confirmar o status de entrega, como `sent` ou `bounce`. No Adobe Journey Optimizer, `sent` é o status relevante para resultados de entrega de mensagens bem-sucedidos; o valor `delivered` não é usado nos conjuntos de dados do Evento de feedback de mensagens do Adobe Journey Optimizer. Para ações personalizadas, consulte o conjunto de dados Evento de etapa de Jornada para confirmar se o Journey Optimizer executou a ação com êxito. Uma chamada HTTP bem-sucedida não confirma, por si só, se o sistema externo enviou uma mensagem. Saiba como [escolher o conjunto de dados correto](../data/datasets-query-examples.md#choose-the-correct-dataset) para seu caso de uso.
 
 ## Noções básicas de entradas duplicadas em eventos de etapa de Jornada {#duplicate-step-events}
 

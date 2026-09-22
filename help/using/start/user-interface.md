@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
+source-git-commit: 1017a1cc9bdcb4fb82faaca6d1fc414810d42af2
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 92%
+source-wordcount: '1728'
+ht-degree: 96%
 ---
 # Navegue pela interface {#user-interface}
 
@@ -359,10 +359,6 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >title="Habilitar webhooks"
 >abstract="Habilite webhooks para receber feedback em tempo real sobre o status de execução de suas mensagens. Antes de ativar esta opção, configure um webhook no menu **Administração** / **Canais** / **Webhook de feedback**."
 
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_create"
->title="Webhooks de feedback"
->abstract="Os webhooks de feedback permitem receber feedback em tempo real sobre o status de execução de mensagens enviadas com campanhas acionadas por API transacional. Somente uma configuração de webhook por combinação de Organização + sandbox é permitida."
 
 
 <!-- JOURNEYS - GENERATE EXPRESSIONS WITH AI -->
@@ -404,12 +400,19 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >title="URL de destino de retransmissão"
 >abstract="O ponto de acesso HTTPS que o Journey Optimizer chama para retransmitir cada mensagem recebida. O Journey Optimizer envia aqui um POST HTTP separado por mensagem recebida. Isso é diferente do URL de autenticação na Autenticação personalizada, o qual é usado apenas para obter um token de acesso e não para receber mensagens."
 
+<!--DOCAC-15748 Set as default webhook-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_default_webhook"
+>title="Definir como padrão"
+>abstract="Habilite esta opção para usar um URL de webhook comum para processar comentários do provedor e mensagens de entrada recebidas do provedor."
+
 <!--DOCAC-15698 Implement contextual help for Inbound Activity Deactivation activity-->
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inbound_activity_deactivation"
->title="Atividade de Desativação de atividade de entrada"
+>title="Atividade de entrada Atividade de desativação"
 >abstract="Remove um perfil de até cinco atividades ou experiências de entrada diretamente de uma jornada, dissociando a desqualificação de entrada da saída da jornada."
 
 <!--DOCAC-15707 Implement contextual help for Journey Properties event recovery / action timeout fields-->
@@ -417,12 +420,12 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_recovery_timeout"
 >title="Definir tempo limite de recuperação de evento"
->abstract="Controla por quanto tempo a jornada repete automaticamente os eventos afetados por uma interrupção de serviço. Desativado por padrão (repetição automática de 72 horas); ative para ajustar a janela de repetição de 0 a 72 horas para jornadas sensíveis ao tempo."
+>abstract="Controla por quanto tempo a jornada repete automaticamente os eventos afetados por uma interrupção de serviço. Desativado por padrão (repetição automática de 72 horas); ative para ajustar a janela de repetição de 0 a 72 horas para jornadas urgentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_timeout"
->title="Ação personalizada / Tempo limite da ação de IDS"
->abstract="A opção Ação personalizada / Tempo limite da ação de IDS define um caminho alternativo na jornada quando a ação atinge o tempo limite ou retorna um erro, de modo que os perfis continuem por um caminho de fallback em vez de parar nessa etapa. Os valores recomendados estão entre 1 e 30 segundos."
+>title="Tempo limite da Ação personalizada/Ação IDS"
+>abstract="A opção Tempo limite de Ação personalizada/Ação IDS define um caminho alternativo na jornada quando a ação atinge o tempo limite ou retorna um erro. Dessa forma, os perfis continuam por um caminho de fallback em vez de parar nesta etapa. Os valores recomendados estão entre 1 e 30 segundos."
 
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

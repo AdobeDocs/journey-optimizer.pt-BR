@@ -12,28 +12,38 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+    internal-label: Data management activity
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
+    internal-label: Journey Optimizer schemas
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
+    internal-label: Datasets
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+    internal-label: Data ingestions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
+    internal-label: Data management
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
-source-wordcount: 1780
+source-wordcount: '1770'
 ht-degree: 1%
-
 ---
-
 # Exemplos de consultas {#query-examples}
 
 >[!BEGINSHADEBOX]
@@ -126,17 +136,17 @@ _Nome na interface: Conjunto de Dados de Eventos de Feedback de Mensagens do AJO
 
 O Conjunto de dados do evento de feedback de mensagem do AJO armazena o feedback do delivery de mensagens gerado pelo Adobe Journey Optimizer. Ele oferece suporte à análise de feedback de entrega em canais de mensagem, incluindo email, SMS/RCS/MMS e correspondência direta. Os eventos de feedback podem ser usados para relatórios e casos de uso de criação de público-alvo.
 
-O esquema relacionado é o Esquema de evento de feedback de mensagem do AJO.
+O esquema relacionado é o Esquema `AJO Message Feedback Event`.
 
 >[!NOTE]
 >
->Esse conjunto de dados usa assimilação em lote. Espere uma latência de dados de até 2 horas ao consultar esse conjunto de dados ou usá-lo para fins de relatório.
+>* No Adobe Journey Optimizer, `sent` é o valor usado para resultados de entrega de mensagens bem-sucedidos; `delivered` não é usado nos conjuntos de dados do Evento de feedback de mensagens.
+>
+>* Esse conjunto de dados usa assimilação em lote, de modo que os dados podem ser atrasados em até 2 horas.
+>
+>* Não há garantias de que os campos de contexto específicos do canal sejam preenchidos em todos os eventos. Use identificadores de execução de mensagem, status de feedback, detalhes da falha, carimbos de data e hora e informações de identidade como os campos de correlação principais.
 
 Para obter a lista completa de campos, caminhos de campos, tipos de dados e descrições, consulte a [Referência de Esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/tools/ajo-schemas){target="_blank"}.
-
->[!NOTE]
->
->Não há garantia de que os campos de contexto específicos do canal sejam preenchidos em todos os eventos de feedback de mensagem. A disponibilidade de campo pode depender do canal, da carga de feedback do provedor, do tipo de evento e da fase de delivery. Use os identificadores de execução da mensagem, o status de feedback, os detalhes da falha, o carimbo de data e hora e as informações de identidade como os campos de correlação principais.
 
 ### Classificar execuções de teste e não teste{#classify-test-executions}
 
