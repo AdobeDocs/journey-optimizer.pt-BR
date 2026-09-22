@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 723a2d044d7a1d184d83198d4b6e752997aff8f3
+source-git-commit: 9c6142de31dfd7e1ce42b0bf0c7fc0be1743312d
 workflow-type: tm+mt
-source-wordcount: '7183'
+source-wordcount: '7217'
 ht-degree: 82%
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 82%
 Esta página lista todas as alterações mais recentes na documentação do [!DNL Journey Optimizer], além das atualizações relacionadas aos recursos e melhorias da versão mensal.
 
 ## Setembro de 2026 {#september-2026}
+
+* As medidas de proteção do `inAudience` agora incluem a solução alternativa para sandboxes com mais de 5.000 públicos, em que públicos mais antigos podem ser rejeitados durante a criação do jornada, pois a validação verifica apenas os 5.000 públicos atualizados mais recentemente. [Leia mais](../building-journeys/functions/functioninaudience.md#guardrails)
 
 * As orientações para mirror pages de email foram expandidas: a documentação agora explica que os URLs de mirror page não podem ser recuperados por meio de uma API ou um conjunto de dados público, recomenda o arquivamento de Exportação de mensagens ou CCO para manter o conteúdo enviado e esclarece que os links de mirror page estão inativos em provas e simulações. [Leia mais](../email/message-tracking.md#mirror-page)
 
@@ -51,7 +53,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * A documentação do **Conjunto de Dados de Eventos de Feedback de Mensagens do AJO** foi expandida para esclarecer que abrange o feedback de entrega de mensagens em todos os canais (Email, SMS/RCS/MMS, Mala direta), não apenas email e push, e agora inclui uma seção **Classificar execuções de teste e não teste** explicando como interpretar o campo `isTestExecution`, incluindo `NULL` ou valores ausentes. [Leia mais](../data/datasets-query-examples.md#classify-test-executions)
 
-* Um novo recurso **Gerenciamento de conteúdo** foi documentado para o CX Coworker, alimentado por 15 ferramentas de MCP de leitura/gravação que permitem descobrir, criar, atualizar, clonar e publicar modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha do jornada/campaign usando prompts de linguagem natural. [Leia mais](../content-management/content-management-coworker-skills.md#content-management)
+* Um novo recurso **Gerenciamento de conteúdo** foi documentado para o CX Co-worker, alimentado por 15 ferramentas de MCP de leitura/gravação que permitem descobrir, criar, atualizar, clonar e publicar modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha do jornada/campaign usando prompts de linguagem natural. [Leia mais](../content-management/content-management-coworker-skills.md#content-management)
 
 * A documentação **Adicionar conteúdo à página de aterrissagem** agora descreve uma opção **Tornar campo de formulário obrigatório** para caixas de seleção de consentimento: quando habilitada, o formulário não pode ser enviado, a menos que a caixa de seleção esteja marcada e a seleção seja imposta no lado do cliente e no lado do servidor. [Leia mais](../landing-pages/lp-content.md#use-form-component)
 
