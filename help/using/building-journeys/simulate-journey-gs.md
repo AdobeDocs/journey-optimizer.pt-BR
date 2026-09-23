@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: Get started
   - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
     internal-label: Journey testing
-source-git-commit: aac27a9a53d4fe3698038a36cdfaad6fa78231d9
+source-git-commit: 64058c0ba77671d0c0aac5c7697c34df1166bcf3
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '2002'
 ht-degree: 1%
 ---
 # Introdução à simulação de Jornada {#simulate-journey-gs}
@@ -30,23 +30,26 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
+Quando uma jornada está em **[!UICONTROL Simulação]**, você pode testá-la com **usuários simulados**: entidades temporárias semelhantes a perfis que você adiciona para teste em vez de perfis de teste persistentes no Adobe Experience Platform.
+
+A Adobe Journey Optimizer oferece três maneiras de testar e validar sua jornada:
+
+* **[Simulação de Jornada](simulate-journey.md#test-users)**: Use o recurso de jornada **[!UICONTROL Simulação]** e os usuários simulados sem perfis pré-criados no Adobe Experience Platform, com suporte para usuários habilitados por IA e criados manualmente.
+
+* **[Modo de teste de Jornada](testing-the-journey.md)**: usar perfis persistentes sinalizados como perfis de teste no Adobe Experience Platform, reutilizáveis entre sessões. Escolha essa abordagem quando precisar de dados consistentes e predefinidos. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md).
+
+* **[Jornada Dry run](journey-dry-run.md)**: execute a jornada em relação ao público-alvo de produção real e aos dados de segmentação sem entrar em contato com clientes reais ou atualizar as informações do perfil. Nós de ação, como email, SMS e ações personalizadas, são ignorados. [Saiba mais sobre o Jornada Dry run](journey-dry-run.md).
+
 Não tem certeza de que Simulação é o método certo para você? [Comparar todas as três opções de validação](choose-validation-method.md).
 
->[!IMPORTANT]
->
->* Para usar a **[!UICONTROL Simulação]**, atribua pelo menos uma permissão do recurso **[!UICONTROL Jornada]**: **Simular jornada**, **Publicar jornada** ou **Aprovar e Publicar jornada**. As mesmas permissões permitem criar e gerenciar usuários simulados, **[!UICONTROL Usuários Simulados]** permissões não são necessárias. [Saiba mais](../administration/permissions.md)
->
->* Para gerenciar usuários simulados sem **[!UICONTROL Simulação]**, atribua **Gerenciar Usuários Simulados** ou **Exibir Usuários Simulados** a partir do recurso **[!UICONTROL Usuários Simulados]**.
->
->* Para a IA na simulação (**[!UICONTROL Simulação rápida]**, usuários gerados pela IA, **[!UICONTROL Gerar valores de evento]**), atribua **[!UICONTROL Gerar conteúdo]** pelo recurso **[!UICONTROL Assistente de IA]**.
 
-Você pode definir a jornada como **[!UICONTROL Simulação]** além de **Rascunho**, **Modo de teste** e **Live**. Em Simulação, você testa com **usuários simulados**: entidades temporárias semelhantes a perfis que você adiciona, sem usar perfis de teste persistentes no Adobe Experience Platform.
+## Permissões necessárias {#required-permissions}
 
-A Adobe Journey Optimizer oferece duas maneiras de testar e validar sua jornada:
+Para usar a **[!UICONTROL Simulação]**, atribua pelo menos uma permissão do recurso **[!UICONTROL Jornada]**: **Simular jornada**, **Publicar jornada** ou **Aprovar e Publicar jornada**. Essas permissões também permitem criar e gerenciar usuários simulados; **[!UICONTROL Usuários Simulados]** permissões não são necessárias. [Saiba mais](../administration/permissions.md)
 
-* **[Simulação](simulate-journey.md#test-users)**: use o recurso de jornada **[!UICONTROL Simulação]** e os usuários simulados sem perfis pré-criados no Adobe Experience Platform, com suporte para usuários habilitados por IA e criados manualmente.
+Para gerenciar usuários simulados sem **[!UICONTROL Simulação]**, atribua **Gerenciar Usuários Simulados** ou **Exibir Usuários Simulados** a partir do recurso **[!UICONTROL Usuários Simulados]**.
 
-* **[Modo de teste](testing-the-journey.md)**: use perfis persistentes sinalizados como perfis de teste no Adobe Experience Platform, reutilizáveis entre sessões. Escolha essa abordagem quando precisar de dados consistentes e predefinidos. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md).
+Para a IA na simulação (**[!UICONTROL Simulação rápida]**, usuários gerados pela IA e **[!UICONTROL Gerar valores de evento]**), atribua **[!UICONTROL Gerar conteúdo]** pelo recurso **[!UICONTROL Assistente de IA]**.
 
 ## Simulação por tipo de jornada {#by-journey-type}
 
@@ -108,7 +111,7 @@ Alguns nós impedem que a **[!UICONTROL Simulação]** seja iniciada. Outros sã
 | Canais de entrada | Você não pode executar jornadas que incluem um nó de canal de entrada em **[!UICONTROL Simulação]**. |
 | ID complementar (várias reentradas) | **[!UICONTROL A simulação]** não é iniciada quando várias reentradas estão habilitadas e o mesmo usuário simulado pode ter várias instâncias ativas ao mesmo tempo. |
 | Pesquisa de conjunto de dados | **[!UICONTROL A simulação]** não oferece suporte a pesquisas de conjuntos de dados de clientes por chave. Remova ou altere esta atividade antes de executar uma simulação. |
-| **[!UICONTROL Otimizar]** atividade | Os métodos **[!UICONTROL Otimize]** se comportam da seguinte maneira:<br><br>**[!UICONTROL Regra de direcionamento &#x200B;]**: a IA avalia a regra configurada em relação aos atributos de perfil do usuário simulado para selecionar a ramificação.<br><br>**[!UICONTROL Experimento]** (Experimentação de Caminho): o roteamento é manipulado pela Decisão, para qualquer divisão, até mesmo uma divisão 50/50 ou uma retenção de 10%. A atribuição é aleatória e não determinística por usuário simulado, portanto, um lote pequeno, por exemplo, 5 usuários até mesmo os gerados por IA em **[!UICONTROL Simulação rápida]**, não tem garantia de cobrir todos os tratamentos, eles poderiam todos chegar ao mesmo por acaso. Isso é diferente de **[!UICONTROL Divisão de porcentagem]** abaixo.<br><br>**[!UICONTROL Divisão de porcentagem &#x200B;]**: a IA cria um usuário simulado por ramificação, não de acordo com as porcentagens da ramificação. No tempo de execução, a avaliação ao vivo escolhe a ramificação e pode diferir do caminho gerado. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida.<br><br>**[!UICONTROL Condição de tempo]**: as condições se aplicam no tempo de execução como em uma jornada em tempo real. Por exemplo, uma janela de 8:00 às 20:00 permite aos usuários somente a passagem, enquanto a simulação é executada dentro dessa janela. Não é possível simular o tempo de execução. Defina a condição para corresponder à hora atual quando você testar.<br><br>**[!UICONTROL Condição de data &#x200B;]**: as condições se aplicam em tempo de execução como em uma jornada em tempo real. Por exemplo, uma data de 8 de junho de 2026 permite que os usuários somente acessem quando a simulação for executada nessa data. Não é possível simular a data de execução. Defina a condição para a data atual ao testar.<br><br>**[!UICONTROL Limite de perfil]**: as limitações não são aplicadas durante a simulação. A IA cria um usuário simulado por ramificação. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida. |
+| **[!UICONTROL Otimizar]** atividade | Os métodos **[!UICONTROL Otimize]** se comportam da seguinte maneira:<br><br>**[!UICONTROL Regra de direcionamento ]**: a IA avalia a regra configurada em relação aos atributos de perfil do usuário simulado para selecionar a ramificação.<br><br>**[!UICONTROL Experimento]** (Experimentação de Caminho): o roteamento é manipulado pela Decisão, para qualquer divisão, até mesmo uma divisão 50/50 ou uma retenção de 10%. A atribuição é aleatória e não determinística por usuário simulado, portanto, um lote pequeno, por exemplo, 5 usuários até mesmo os gerados por IA em **[!UICONTROL Simulação rápida]**, não tem garantia de cobrir todos os tratamentos, eles poderiam todos chegar ao mesmo por acaso. Isso é diferente de **[!UICONTROL Divisão de porcentagem]** abaixo.<br><br>**[!UICONTROL Divisão de porcentagem ]**: a IA cria um usuário simulado por ramificação, não de acordo com as porcentagens da ramificação. No tempo de execução, a avaliação ao vivo escolhe a ramificação e pode diferir do caminho gerado. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida.<br><br>**[!UICONTROL Condição de tempo]**: as condições se aplicam no tempo de execução como em uma jornada em tempo real. Por exemplo, uma janela de 8:00 às 20:00 permite aos usuários somente a passagem, enquanto a simulação é executada dentro dessa janela. Não é possível simular o tempo de execução. Defina a condição para corresponder à hora atual quando você testar.<br><br>**[!UICONTROL Condição de data ]**: as condições se aplicam em tempo de execução como em uma jornada em tempo real. Por exemplo, uma data de 8 de junho de 2026 permite que os usuários somente acessem quando a simulação for executada nessa data. Não é possível simular a data de execução. Defina a condição para a data atual ao testar.<br><br>**[!UICONTROL Limite de perfil]**: as limitações não são aplicadas durante a simulação. A IA cria um usuário simulado por ramificação. Não é possível simular uma opção de ramificação. Para orientar os usuários, confie na ordem da ramificação na tela. A ramificação superior é sempre escolhida. |
 | Ramificações de tempo limite e erro | A IA não gera usuários para ramificações de tempo limite ou erro de atividades. Os usuários só inserem esses caminhos se ocorrer um tempo limite real ou um erro durante a simulação. |
 | Ramificação de tempo limite (atividades de evento) | Os usuários simulados são criados, mas na **[!UICONTROL Simulação manual]**, a IA não decide quem entra em uma ramificação de tempo limite de evento. Controle o caminho enviando ou não o evento. Por exemplo, para testar uma ramificação de tempo limite, aguarde o tempo limite configurado e não envie o evento. **[!UICONTROL A simulação rápida]** pode enviar ou reter eventos automaticamente para abranger ramificações de tempo limite. |
 | Eventos de reação | Os eventos de reação são executados em simulação, mas a ação deve ocorrer na vida real. Por exemplo, uma reação de email **abrir** requer a abertura da mensagem de prova. Não é possível simular reações na interface da simulação. |
@@ -183,7 +186,7 @@ Estas medidas de proteção se aplicam a **[!UICONTROL Simulação]**. As letras
 
 O vídeo abaixo mostra como usar a Simulação rápida para testar as jornadas do cliente automatizando os principais processos. Ele gera perfis de teste, coordena eventos, acelera os tempos de espera e valida cenários.
 
->[!VIDEO](https://video.tv.adobe.com/v/3497479/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3497475/?learn=on)
 
 
 
