@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0905e570576a4587cd7734aa036d8f09276e0127
+source-git-commit: 77cfd3965c7efd7db3dd9644c6189f530d3ee0b3
 workflow-type: tm+mt
-source-wordcount: '2943'
-ht-degree: 8%
+source-wordcount: '2798'
+ht-degree: 7%
 ---
 
 # Notas de pré-lançamento {#e-release-notes}
@@ -118,29 +118,28 @@ Os seguintes recursos e melhorias estão chegando ao Fidelidade nesta versão.
 
 * **Domínio de desafios no editor de personalização de Cartão de Conteúdo** - O editor de personalização de Cartão de Conteúdo agora aceita **Desafios** como um domínio, permitindo que você acesse metadados de desafio ao criar a personalização de cartão de conteúdo. Isso facilita a criação de conteúdo personalizado para cada estágio de um desafio — Início, Em andamento e Término — sem código personalizado.
 
+<!--
+### Onboarding {#sep-26-onboarding}
 
-
-### Integração {#sep-26-onboarding}
-
-O recurso a seguir está sendo integrado nesta versão.
+The following capability is coming to onboarding in this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>Recursos guiados para integração de emails e jornadas (disponibilidade geral)</strong><br/></th>
+<th><strong>Guided capabilities for onboarding emails and journeys (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A transição para o Adobe Journey Optimizer a partir de outra plataforma de marketing é mais fácil com recursos guiados que ajudam a mover o conteúdo de email existente e as jornadas para o Journey Optimizer. Um <strong>espaço de trabalho dedicado</strong> permite reutilizar o que você tem, em vez de reconstruir do zero.</p>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Transitioning to Adobe Journey Optimizer from another marketing platform is easier with guided capabilities that help you move existing email content and journeys into Journey Optimizer. A <strong>dedicated workspace</strong> lets you reuse what you have instead of rebuilding from scratch.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-
+-->
 
 ### Jornadas {#sep-26-journeys}
 
@@ -188,21 +187,6 @@ Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
 <tr>
 <td>
 <p>Uma nova atividade de <strong>Desativação de atividade de entrada</strong> na tela de jornada permite remover um perfil de até cinco atividades ou experiências de entrada diretamente de uma jornada, dissociando a desqualificação de entrada da saída do jornada para uma orquestração entre canais mais avançada.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Visualização de conteúdo na tela de jornada</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A revisão do conteúdo do canal hoje em dia requer a abertura de cada nó individualmente, um de cada vez - lento e sujeito a erros no jornada com muitos nós de canal, especialmente quando a personalização significa a verificação de vários tratamentos ou variantes por nó. A <strong>visualização de conteúdo</strong> remove esse atrito ao exibir uma miniatura de conteúdo para cada nó de canal diretamente na tela, com um modal de tela cheia para inspecionar e alternar entre tratamentos e variantes.</p>
 </td>
 </tr>
 </tbody>

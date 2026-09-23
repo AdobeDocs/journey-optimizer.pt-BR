@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8496ddc9979526e30947e8d1e9af0eff70dbebf6
+source-git-commit: 77cfd3965c7efd7db3dd9644c6189f530d3ee0b3
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 23%
+source-wordcount: '1949'
+ht-degree: 22%
 ---
 # Notas de versão {#release-notes}
 
@@ -212,6 +212,22 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
   Data de disponibilidade: 1º de setembro de 2026
 
 +++ Em breve — **as informações abaixo estão sujeitas a alterações.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Visualização de conteúdo na tela de jornada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A análise do conteúdo do canal hoje em dia requer a abertura de cada atividade individualmente, uma de cada vez — lenta e sujeita a erros em jornadas com muitas atividades de canal, especialmente quando a personalização significa a verificação de vários tratamentos ou variantes por atividade. A <strong>visualização de conteúdo</strong> remove esse atrito ao exibir uma miniatura de conteúdo para cada atividade de canal diretamente na tela, com um modal de tela cheia para inspecionar e alternar entre tratamentos e variantes.</p>
+<p>Data de disponibilidade do Target: 28 de setembro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 * **Habilidade da Análise de Higiene** - O CX Coworker agora pode verificar suas jornadas ativas e de rascunho em busca de configurações corrompidas, falhas silenciosas e ativos em decomposição ou não utilizados, como jornadas de rascunho obsoletas, fontes de dados órfãs e erros de ação personalizados persistentes, e apresentar correções recomendadas diretamente no chat. <!-- Documentation link: TBD -->
 
