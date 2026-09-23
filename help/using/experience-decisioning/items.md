@@ -20,7 +20,7 @@ subfeature_v2:
 source-git-commit: a8c364461ba54c1153766771932d2ef0e91976cc
 workflow-type: tm+mt
 source-wordcount: '2888'
-ht-degree: 13%
+ht-degree: 14%
 ---
 # Criar o primeiro item de decisão {#items}
 
@@ -142,7 +142,7 @@ Ao selecionar públicos-alvo ou regras de decisão, é possível ver informaçõ
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="Expressão"
->abstract="Em vez de usar um valor estático para o limite de limite, você pode definir sua própria expressão. Isso permite calcular o limite dinamicamente usando atributos de decisão e/ou atributos externos de um conjunto de dados da Adobe Experience Platform.<br/><br/>As **expressões** de regra de limite estão disponíveis no momento em Disponibilidade limitada para todos os usuários. Elas só possuem compatibilidade com o tipo de limite **[!UICONTROL No total]**."
+>abstract="Em vez de usar um valor estático para o limite, é possível definir uma expressão própria. Isso permite calcular o limite dinamicamente usando atributos de decisão e/ou atributos externos de um conjunto de dados da Adobe Experience Platform.<br/><br/>As **expressões** de regra de limite estão disponíveis no momento em Disponibilidade limitada para todos os usuários. Elas só possuem compatibilidade com o tipo de limite **[!UICONTROL No total]**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_scope"
@@ -229,7 +229,7 @@ Para definir regras de limite para o item de decisão, siga as etapas detalhadas
 
    +++Limite de expressão
 
-   Em vez de usar um valor estático para o limite de limite, você pode definir sua própria expressão. Isso permite calcular o limite dinamicamente usando atributos de decisão e/ou atributos externos de um conjunto de dados da Adobe Experience Platform.
+   Em vez de usar um valor estático para o limite, é possível definir uma expressão própria. Isso permite calcular o limite dinamicamente usando atributos de decisão e/ou atributos externos de um conjunto de dados da Adobe Experience Platform.
 
    Por exemplo, um profissional de marketing pode decidir adicionar um multiplicador para ajustar a exposição. Por exemplo, eles poderiam multiplicar o inventário disponível por dois, permitindo que a oferta fosse mostrada para o dobro de clientes que as unidades disponíveis. Essa abordagem antecipa que nem todos os clientes farão a conversão, garantindo um melhor alcance sem venda excessiva.
 

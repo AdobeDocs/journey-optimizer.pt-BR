@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
+source-git-commit: 84257968aa002aafe338cb247d1704f822e2b1b4
 workflow-type: tm+mt
-source-wordcount: '3330'
-ht-degree: 9%
+source-wordcount: '3197'
+ht-degree: 8%
 ---
 
 # Notas de pré-lançamento {#e-release-notes}
@@ -46,7 +46,6 @@ Esta versão traz vários recursos e habilidades novos e aprimorados do [Coworke
 * [Comparar versões do jornada](#sep-26-journeys) - Obtenha uma diferença estruturada e de fidelidade completa entre duas versões de uma jornada por meio do Chat do Colaborador.
 * [Habilidade da Análise de Higiene](#sep-26-journeys) - Examine jornadas ativas e de rascunho em busca de configurações corrompidas, falhas silenciosas e ativos em decomposição ou não utilizados, com correções recomendadas.
 * [Habilidade em Análise de Desempenho de Negócios](#sep-26-journeys) - Analise o desempenho da jornada e obtenha recomendações concretas de otimização, diretamente do chat.
-* [Geração de regra de decisão](#sep-26-decisioning) - Crie regras de decisão assistida por IA diretamente no Colaborador, que agora substitui o painel correto para esta experiência.
 
 >[!ENDSHADEBOX]
 
@@ -132,7 +131,7 @@ Os seguintes recursos e melhorias estão chegando ao Fidelidade nesta versão.
 
 * **Domínio de desafios no editor de personalização de Cartão de Conteúdo** - O editor de personalização de Cartão de Conteúdo agora aceita **Desafios** como um domínio, permitindo que você acesse metadados de desafio ao criar a personalização de cartão de conteúdo. Isso facilita a criação de conteúdo personalizado para cada estágio de um desafio — Início, Em andamento e Término — sem código personalizado.
 
-* **Prazos de conclusão do desafio de fidelidade por membro** - Os desafios de fidelidade agora oferecem suporte aos prazos de conclusão por membro: escolha &quot;Dentro de um número de dias após a aceitação&quot; em Requisitos de conclusão para que o prazo de cada membro seja calculado a partir de sua própria data de aceitação, em vez de uma data de término fixa em todo o programa. Se uma data final de desafio e essa janela de aceitação forem definidas, o prazo de cada membro será o primeiro. <!-- Documentation link: TBD -->
+
 
 ### Integração {#sep-26-onboarding}
 
@@ -349,7 +348,7 @@ Os seguintes recursos e melhorias estão chegando ao canal de email nesta versã
 </tbody>
 </table>
 
-* **Substituição da lista de supressão no nível de ação de email** - Agora é possível substituir o comportamento da lista de supressão local no nível de ação de email, de modo que as comunicações operacionais ou de conformidade crítica ainda possam ser enviadas por meio de uma configuração dedicada quando necessário. O comportamento da lista de supressão global permanece inalterado.
+* **Substituição da lista de supressão no nível de ação de email** - o Journey Optimizer agora permite substituir o comportamento da lista de supressão diretamente no nível de ação de email em jornadas e campanhas. Isso proporciona às equipes mais flexibilidade para comunicações operacionais ou críticas para conformidade que exigem uma configuração de envio dedicada, preservando os controles de lista de supressão global existentes para todos os outros envios. Esse aprimoramento ajuda as organizações a lidar com cenários de exceção com precisão sem alterar seu modelo de governança de supressão mais amplo.
 
 * **Validação da sintaxe de URL na criação de email** - o Journey Optimizer agora valida URLs anteriormente no fluxo de criação de email e fornece orientações mais claras quando sintaxe mal formada é detectada. Isso ajuda os autores a identificar problemas antes da finalização, reduzir erros de publicação e melhorar a confiança do delivery.
 
@@ -433,33 +432,6 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 * **Monitoramento da Orquestração de Campanha** — Uma nova interface de usuário está disponível para rastrear o status de assimilação e a atualização dos dados do armazenamento relacional usados pela Segmentação Orquestrada do Campaign. Ele oferece visibilidade direta da integridade dos dados que alimentam os públicos-alvo em lote. Uma nova guia Orquestração de campanha no painel Monitoramento da Adobe Experience Platform exibe a integridade dos fluxos de dados do armazenamento relacional (registros assimilados/atualizados/excluídos/com falha/ignorados), com gráficos detalhados e um detalhamento por fluxo de dados/conjunto de dados, incluindo linhagem.
 
 
-### Campanhas {#sep-26-campaigns}
-
-O aprimoramento a seguir está chegando às campanhas nesta versão.
-
-* **Pastas para campanhas** - Agora você pode organizar suas campanhas em **pastas** para melhorar a navegação e o gerenciamento na interface.
-
-### Decisão {#sep-26-decisioning}
-
-Os recursos e melhorias a seguir estão chegarão à Decisão nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Suporte à decisão no canal da Web</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A Decisão agora está disponível no canal da web. Você pode usar políticas de decisão diretamente no editor visual da web para fornecer as ofertas mais relevantes a cada visitante.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Geração de regra de decisão do Colaborador** - A **experiência de geração de regra de decisão assistida por IA**, anteriormente disponível por meio do painel direito, agora pode ser acessada pelo Colaborador, que substitui o painel direito como a maneira de criar regras com IA.
-
 ### Relatório {#sep-26-reporting}
 
 O recurso a seguir está chegando aos relatórios nesta versão.
@@ -496,6 +468,8 @@ O lembrete a seguir se aplica à administração nesta versão.
 ### Melhorias de usabilidade {#sep-26-usability}
 
 * **Melhorias de usabilidade na experiência de Simulação de conteúdo** - A nova experiência de Simulação de conteúdo agora permite nomear e organizar suas variantes para facilitar a comparação, copiar ou excluir detalhes da variante diretamente de cada cartão, exibir caminhos completos de atributos e configuração de canal por cartão sob demanda e carregar seus próprios perfis CSV, JSON ou JSONL com um botão de carregamento mais destacado.
+
+* **Visão geral da IA em alertas de validação de fragmento** - A caixa de diálogo de alertas de validação de fragmento agora inclui uma Visão geral da IA que resume e explica os problemas de validação (por exemplo, expressões malformadas, campos de perfil ausentes e JSON inválido) para que os usuários possam solucionar os problemas com mais rapidez.
 
 * **Calendário unificado para Campanhas, Jornadas e campanhas orquestradas** - A exibição de calendário para jornadas e campanhas agora sai de inventários separados em um menu unificado acessível no painel esquerdo que mostra ambos em uma exibição combinada.
 
