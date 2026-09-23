@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: Get started
   - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
     internal-label: Journey testing
-source-git-commit: aac27a9a53d4fe3698038a36cdfaad6fa78231d9
+source-git-commit: 64058c0ba77671d0c0aac5c7697c34df1166bcf3
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '2002'
 ht-degree: 1%
 ---
 # Introdução à simulação de Jornada {#simulate-journey-gs}
@@ -30,23 +30,26 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
+Quando uma jornada está em **[!UICONTROL Simulação]**, você pode testá-la com **usuários simulados**: entidades temporárias semelhantes a perfis que você adiciona para teste em vez de perfis de teste persistentes no Adobe Experience Platform.
+
+A Adobe Journey Optimizer oferece três maneiras de testar e validar sua jornada:
+
+* **[Simulação de Jornada](simulate-journey.md#test-users)**: Use o recurso de jornada **[!UICONTROL Simulação]** e os usuários simulados sem perfis pré-criados no Adobe Experience Platform, com suporte para usuários habilitados por IA e criados manualmente.
+
+* **[Modo de teste de Jornada](testing-the-journey.md)**: usar perfis persistentes sinalizados como perfis de teste no Adobe Experience Platform, reutilizáveis entre sessões. Escolha essa abordagem quando precisar de dados consistentes e predefinidos. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md).
+
+* **[Jornada Dry run](journey-dry-run.md)**: execute a jornada em relação ao público-alvo de produção real e aos dados de segmentação sem entrar em contato com clientes reais ou atualizar as informações do perfil. Nós de ação, como email, SMS e ações personalizadas, são ignorados. [Saiba mais sobre o Jornada Dry run](journey-dry-run.md).
+
 Não tem certeza de que Simulação é o método certo para você? [Comparar todas as três opções de validação](choose-validation-method.md).
 
->[!IMPORTANT]
->
->* Para usar a **[!UICONTROL Simulação]**, atribua pelo menos uma permissão do recurso **[!UICONTROL Jornada]**: **Simular jornada**, **Publicar jornada** ou **Aprovar e Publicar jornada**. As mesmas permissões permitem criar e gerenciar usuários simulados, **[!UICONTROL Usuários Simulados]** permissões não são necessárias. [Saiba mais](../administration/permissions.md)
->
->* Para gerenciar usuários simulados sem **[!UICONTROL Simulação]**, atribua **Gerenciar Usuários Simulados** ou **Exibir Usuários Simulados** a partir do recurso **[!UICONTROL Usuários Simulados]**.
->
->* Para a IA na simulação (**[!UICONTROL Simulação rápida]**, usuários gerados pela IA, **[!UICONTROL Gerar valores de evento]**), atribua **[!UICONTROL Gerar conteúdo]** pelo recurso **[!UICONTROL Assistente de IA]**.
 
-Você pode definir a jornada como **[!UICONTROL Simulação]** além de **Rascunho**, **Modo de teste** e **Live**. Em Simulação, você testa com **usuários simulados**: entidades temporárias semelhantes a perfis que você adiciona, sem usar perfis de teste persistentes no Adobe Experience Platform.
+## Permissões necessárias {#required-permissions}
 
-A Adobe Journey Optimizer oferece duas maneiras de testar e validar sua jornada:
+Para usar a **[!UICONTROL Simulação]**, atribua pelo menos uma permissão do recurso **[!UICONTROL Jornada]**: **Simular jornada**, **Publicar jornada** ou **Aprovar e Publicar jornada**. Essas permissões também permitem criar e gerenciar usuários simulados; **[!UICONTROL Usuários Simulados]** permissões não são necessárias. [Saiba mais](../administration/permissions.md)
 
-* **[Simulação](simulate-journey.md#test-users)**: use o recurso de jornada **[!UICONTROL Simulação]** e os usuários simulados sem perfis pré-criados no Adobe Experience Platform, com suporte para usuários habilitados por IA e criados manualmente.
+Para gerenciar usuários simulados sem **[!UICONTROL Simulação]**, atribua **Gerenciar Usuários Simulados** ou **Exibir Usuários Simulados** a partir do recurso **[!UICONTROL Usuários Simulados]**.
 
-* **[Modo de teste](testing-the-journey.md)**: use perfis persistentes sinalizados como perfis de teste no Adobe Experience Platform, reutilizáveis entre sessões. Escolha essa abordagem quando precisar de dados consistentes e predefinidos. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md).
+Para a IA na simulação (**[!UICONTROL Simulação rápida]**, usuários gerados pela IA e **[!UICONTROL Gerar valores de evento]**), atribua **[!UICONTROL Gerar conteúdo]** pelo recurso **[!UICONTROL Assistente de IA]**.
 
 ## Simulação por tipo de jornada {#by-journey-type}
 

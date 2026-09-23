@@ -10,24 +10,29 @@ exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
 TQID: https://experienceleague.adobe.com/QFZt5R2bGJMIwT9okjkcGWxN9cj56Mi77XdCgddCleU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+    internal-label: Integrations
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+    internal-label: Experience Manager Assets integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
+    internal-label: Personalization
+source-git-commit: 0ba3165fd3eeebbc150387e5f6e68f8029b3201a
 workflow-type: tm+mt
-source-wordcount: 1784
+source-wordcount: '1834'
 ht-degree: 0%
-
 ---
-
 # Trabalhar com fragmentos de conteúdo do Adobe Experience Manager {#aem-fragments}
 
 >[!BEGINSHADEBOX]
@@ -208,6 +213,10 @@ O Adobe Experience Manager permite identificar as campanhas ou jornadas do Journ
 
 Os fragmentos de conteúdo do AEM também podem ser usados como atributos de item de oferta na **Experience Decisioning**. Mapeando campos do Fragmento do conteúdo para atributos do item de decisão, você pode usar modelos, fórmulas e critérios de classificação do Journey Optimizer Decisioning para otimizar qual fragmento é distribuído para cada perfil.
 
+>[!NOTE]
+>
+>Os fragmentos de conteúdo do AEM no Decisioning estão disponíveis para clientes que integram o Adobe Experience Manager **as a Cloud Service** ou o **Managed Services** com o Adobe Journey Optimizer. [Saiba mais](aem-fragments-gs.md)
+
 ### Pré-requisitos e medidas de proteção
 
 * Os fragmentos de conteúdo devem ser marcados no Adobe Experience Manager com a tag `ajo-enabled:{OrgId}/{SandboxName}` antes de serem exibidos no seletor de decisão. [Saiba como criar e atribuir uma marca](#create-tag)
@@ -220,6 +229,10 @@ Depois que o fragmento de conteúdo do AEM tiver sido criado e publicado, é nec
 
 1. Vincule-o a um item de decisão selecionando-o nos atributos do item de decisão.
 1. Aproveite-o em uma política de decisão para exibir o conteúdo certo ao cliente certo.
+
+>[!NOTE]
+>
+>Os Fragmentos de Conteúdo do AEM no Decisioning são compatíveis com o **Adobe Experience Manager as a Cloud Service** e o **Adobe Experience Manager Managed Services**. [Saiba mais](aem-fragments-gs.md)
 
 ➡️ [Vincular um Fragmento de conteúdo do AEM a um item de decisão](../experience-decisioning/items.md#aem-fragments)
 

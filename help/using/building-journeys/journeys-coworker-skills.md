@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
     internal-label: Journey design
-source-git-commit: 85784fbe98b5347f86899ce7811017cd368745ff
+source-git-commit: 1bcaf85fc61ee991c871eea7b451155835426bb3
 workflow-type: tm+mt
-source-wordcount: '2511'
+source-wordcount: '2722'
 ht-degree: 8%
 ---
 
@@ -339,5 +339,43 @@ Para maximizar a eficácia do Jornada Analyze, siga estas práticas recomendadas
 * **Defina objetivos claros**: antes de analisar as jornadas, estabeleça metas claras (por exemplo: melhorar a retenção, aumentar as conversões).
 * **Monitore regularmente**: agende revisões regulares do desempenho da jornada para identificar tendências e anomalias.
 * **Otimize a segmentação**: mantenha uma segmentação de público-alvo equilibrada para evitar fadiga e maximizar o engajamento.
+
+## Simulação de jornada {#journey-simulation}
+
+A habilidade Simulação de jornada leva a Simulação rápida orientada por IA à interface do chat, permitindo que os usuários validem a lógica de uma jornada conversacionalmente. Por meio do Colaborador, os usuários podem gerar dados de teste simulados, executar e gerenciar uma simulação e revisar os resultados.
+
+### Principais casos de uso
+
+1. **Gerar dados de teste simulados**
+
+   * Gerar o mínimo de usuários simulados necessários para exercitar as ramificações da jornada.
+   * Gere dados de evento para jornadas acionadas por evento, para que cada ramificação seja acionada.
+
+1. **Executar e gerenciar simulações**
+
+   * Iniciar uma execução de simulação.
+   * Reinicializa uma execução de simulação.
+   * Verifique o status de uma execução de simulação.
+   * Listar os usuários simulados incluídos em uma execução.
+   * Recuperar logs de execução.
+
+1. **Revisar resultados da simulação**
+
+   * Retorne resultados detalhados, incluindo a passagem passo a passo do caminho.
+   * Retornar resultados da ramificação para a execução simulada.
+
+### Limitações
+
+No momento, esse recurso só oferece suporte ao fluxo de Simulação rápida e não substitui totalmente a experiência de simulação manual do Journey Optimizer.
+
+Use a Simulação rápida para uma verificação rápida e automatizada da sanidade da lógica de uma jornada. Para obter controle granular sobre usuários e cenários simulados, use a [experiência de simulação manual no Journey Optimizer](simulate-journey-gs.md).
+
+Como parte dessa experiência de Simulação rápida, os usuários não podem:
+
+* Escolha um usuário simulado salvo existente para uma execução.
+* Editar um usuário simulado antes de executar uma simulação novamente.
+* Crie, navegue, atualize ou exclua usuários simulados persistentes por meio do chat.
+* Direcione um caminho específico ou caso de teste personalizado.
+
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-journeys-coworker-skills.md}}
