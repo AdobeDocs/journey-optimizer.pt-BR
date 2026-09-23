@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
+source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
 workflow-type: tm+mt
-source-wordcount: '2079'
-ht-degree: 21%
+source-wordcount: '2160'
+ht-degree: 20%
 ---
 # Notas de versão {#release-notes}
 
@@ -111,6 +111,21 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
   Data de disponibilidade: 15 de setembro de 2026
 
 +++ Em breve — **as informações abaixo estão sujeitas a alterações.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Recomendações de desafio</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O menu Desempenho de fidelidade agora inclui as guias **Oportunidades** e **Tendência**, que mostram tendências e lacunas detectadas pela IA, como atrito de progressão de nível ou queda de tarefa de desafio, cada uma com um impacto projetado e uma ação "Criar com IA" de um clique para gerar um desafio que atenda a isso.</p><p>Além disso, os profissionais de marketing podem solicitar **oportunidades de desafio** diretamente na interface conversacional do Colaborador, obtendo ideias de desafio baseadas em tendências de programas de fidelidade reais e transformando-as em desafios ao vivo sem sair do bate-papo.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 * **Prazos de conclusão do desafio de fidelidade por membro** - Os desafios de fidelidade agora oferecem suporte aos prazos de conclusão por membro: escolha &quot;Dentro de um número de dias após a aceitação&quot; em Requisitos de conclusão para que o prazo de cada membro seja calculado a partir de sua própria data de aceitação, em vez de uma data de término fixa em todo o programa. Se uma data final de desafio e essa janela de aceitação forem definidas, o prazo de cada membro será o primeiro. <!-- Documentation link: TBD -->
 

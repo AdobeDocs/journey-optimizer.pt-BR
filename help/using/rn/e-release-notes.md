@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0888666710d81d9cf9eb9b635d9b8d4fbb1a862f
+source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2726'
 ht-degree: 8%
 ---
 
@@ -113,8 +113,6 @@ Os seguintes recursos e melhorias estão chegando ao Fidelidade nesta versão.
 </tr>
 </tbody>
 </table>
-
-* **Habilidade de recomendação de fidelidade do colaborador** - Os profissionais de marketing agora podem solicitar **oportunidades de desafio** diretamente na interface de conversa do colaborador, obtendo ideias de desafio baseadas em tendências reais do programa de fidelidade e transformando-as em desafios ao vivo sem sair do chat.
 
 * **Domínio de desafios no editor de personalização de Cartão de Conteúdo** - O editor de personalização de Cartão de Conteúdo agora aceita **Desafios** como um domínio, permitindo que você acesse metadados de desafio ao criar a personalização de cartão de conteúdo. Isso facilita a criação de conteúdo personalizado para cada estágio de um desafio — Início, Em andamento e Término — sem código personalizado.
 
