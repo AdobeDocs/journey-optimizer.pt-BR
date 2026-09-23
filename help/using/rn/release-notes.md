@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 026b216020332a7ef2674d12a81185fcb382c2e2
+source-git-commit: 8496ddc9979526e30947e8d1e9af0eff70dbebf6
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1873'
 ht-degree: 23%
 ---
 # Notas de versão {#release-notes}
@@ -117,6 +117,23 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 +++
 
 ### Jornadas {#sep-26-journeys}
+
+<table>
+<thead>
+<tr>
+<th><strong>Simulação de Jornada no Colaborador</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A <strong>habilidade de Simulação de Jornada</strong> do Colaborador automatiza a validação completa da jornada e permite que você interprete facilmente os resultados. Observe que esse recurso atualmente suporta apenas o fluxo de Simulação rápida e não substitui totalmente a experiência de simulação manual do Journey Optimizer.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/journeys-coworker-skills.md#journey-simulation">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 23 de setembro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

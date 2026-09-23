@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 026b216020332a7ef2674d12a81185fcb382c2e2
+source-git-commit: 8496ddc9979526e30947e8d1e9af0eff70dbebf6
 workflow-type: tm+mt
-source-wordcount: '2966'
-ht-degree: 8%
+source-wordcount: '2921'
+ht-degree: 9%
 ---
 
 # Notas de pré-lançamento {#e-release-notes}
@@ -143,21 +143,6 @@ O recurso a seguir está sendo integrado nesta versão.
 ### Jornadas {#sep-26-journeys}
 
 Os recursos e melhorias a seguir estão chegando às jornadas nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulação de Jornada no Colaborador</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A <strong>habilidade de Simulação de Jornada</strong> do Colaborador automatiza a validação completa da jornada e permite que você interprete facilmente os resultados. Observe que esse recurso atualmente suporta apenas o fluxo de Simulação rápida e não substitui totalmente a experiência de simulação manual do Journey Optimizer.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
