@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: b14d1c9ba25a849b6f42101c68e4fe960663addf
 workflow-type: tm+mt
-source-wordcount: '2823'
+source-wordcount: '2859'
 ht-degree: 6%
 ---
 
@@ -49,11 +49,9 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** saiba como validar sua jornada antes de publicá-la usando a simulação com usuários simulados ou o modo de teste com perfis de teste para detectar erros antecipadamente.
+**Nesta página:** Saiba como validar sua jornada antes de publicá-la usando a Simulação de Jornada, o modo Teste de Jornada ou o Dry run de Jornada.
 
 >[!ENDSHADEBOX]
-
-Não tem certeza de que o modo de teste é o método correto para você? [Comparar todas as três opções de validação](choose-validation-method.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
@@ -65,17 +63,21 @@ Depois de criar a jornada, você pode testá-la antes de publicar. O [!DNL Adobe
 
 Somente perfis de teste podem entrar em uma jornada no modo de teste. Você pode criar novos perfis de teste ou transformar perfis existentes em perfis de teste. Saiba mais sobre perfis de teste em [esta seção](../audience/creating-test-profiles.md).
 
-O Adobe Jornada Otimizer oferece duas maneiras de testar e validar sua jornada:
+A Adobe Journey Optimizer oferece três maneiras de testar e validar sua jornada:
 
-* **[Simulação](simulate-journey.md#test-users)**: Defina a jornada como **[!UICONTROL Simulação]** e use usuários simulados (perfis temporários que você cria ou gera instantaneamente sem perfis pré-criados no Adobe Experience Platform).
+* **[Simulação de Jornada](simulate-journey.md#test-users)**: Defina a jornada como **[!UICONTROL Simulação]** e use usuários simulados (perfis temporários que você cria ou gera instantaneamente sem perfis pré-criados no Adobe Experience Platform).
 
-* **[Modo de teste](#test-profiles)**: perfis persistentes explicitamente sinalizados como perfis de teste no Adobe Experience Platform. Eles podem ser reutilizados em várias sessões de teste. Esse método é recomendado para testes com dados de perfil consistentes e predefinidos. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md).
+* **[Modo de teste de Jornada](#test-profiles)**: perfis persistentes sinalizados explicitamente como perfis de teste no Adobe Experience Platform. Eles podem ser reutilizados em várias sessões de teste. Esse método é recomendado para testes com dados de perfil consistentes e predefinidos. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md).
+
+* **[Jornada Dry run](journey-dry-run.md)**: execute a jornada em relação ao público-alvo de produção real e aos dados de segmentação sem entrar em contato com clientes reais ou atualizar as informações do perfil. Nós de ação, como email, SMS e ações personalizadas, são ignorados. [Saiba mais sobre o Jornada Dry run](journey-dry-run.md).
+
+Não tem certeza de que o modo de teste é o método correto para você? [Comparar todas as três opções de validação](choose-validation-method.md).
 
 >[!NOTE]
 >
 >Antes de testar a jornada, você deve resolver todos os erros, se houver. Saiba como verificar erros antes de testar em [esta seção](../building-journeys/troubleshooting.md). Se os perfis de teste não progredirem no modo de teste, consulte [solução de problemas de transições do modo de teste](troubleshooting-execution.md#troubleshooting-test-transitions).
 
-## Observações importantes {#important_notes}
+## Medidas de proteção e limitações {#important_notes}
 
 Revise essas notas antes de executar testes em sua jornada.
 
