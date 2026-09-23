@@ -13,10 +13,10 @@ feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
     internal-label: Journeys
 subfeature_v2: []
-source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
+source-git-commit: 57b04ad2f74c5a0a1d836bac9a45c9efd84ceb96
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 11%
+source-wordcount: '1799'
+ht-degree: 8%
 ---
 # Migrar conteúdo e jornadas {#migrate-content-and-journeys}
 
@@ -123,15 +123,21 @@ Depois de ter uma origem para o conteúdo, um arquivo HTML ou uma conexão com a
 
 1. Adicione a **[!UICONTROL Linha de assunto]** e mapeie cada espaço reservado para personalização ao atributo de perfil correspondente.
 
-   O espaço de trabalho converte automaticamente a sintaxe do script de origem para a sintaxe Handlebars. Para obter uma lista de operadores compatíveis, consulte [Operadores](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/personalization/functions/operators).
+   O espaço de trabalho converte automaticamente a sintaxe do script de origem para a sintaxe Handlebars. Para obter uma lista de operadores compatíveis, consulte [Operadores](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators).
 
    ![Editor de email importado com campo de linha de assunto e mapeamento de espaço reservado de personalização](assets/onboarding-hub-8.png)
+
+   >[!NOTE]
+   >
+   >Determinados tokens de data de origem são mapeados automaticamente e não são exibidos como espaços reservados de personalização para mapear. A descoberta e o mapeamento de tokens também foram aprimorados para oferecer maior precisão.
+
+1. Se o email fizer referência a algum bloco de conteúdo, resolva-o como fragmentos. Consulte [Importar fragmentos](#import-fragments).
 
 1. Selecione uma pasta para carregar as imagens do email para [!DNL Experience Manager Assets] e clique em **[!UICONTROL Carregar ativos]**.
 
    ![Janela de seleção de pasta para carregar imagens de email no Experience Manager Assets](assets/onboarding-hub-9.png)
 
-1. Quando o email estiver pronto, selecione **[!UICONTROL Migrar]** e **Exibir em[!DNL Journey Optimizer]** para abrir o novo modelo de conteúdo.
+1. Quando o email estiver pronto, selecione **[!UICONTROL Migrar]** e **Exibir email** para abrir o novo modelo de conteúdo.
 
    ![Botão Migrar e opção Exibir no Journey Optimizer para um email concluído](assets/onboarding-hub-10.png)
 
@@ -139,9 +145,34 @@ Seu modelo de conteúdo agora está disponível no [!DNL Journey Optimizer] e pr
 
 ➡️ [Saiba mais sobre o Modelo de conteúdo](../content-management/use-content-templates.md)
 
+## Importar fragmentos {#import-fragments}
+
+Os fragmentos são blocos de construção reutilizáveis em um email, como cabeçalhos, rodapés ou blocos promocionais, que você cria uma vez e reutiliza em vários emails para oferecer consistência e criação mais rápida. Ao migrar um email, o [!DNL Journey Optimizer] identifica os blocos de conteúdo que referencia e os exibe como um item de ação, para que você possa migrá-los junto com o email.
+
+1. Na guia **[!UICONTROL Fragmentos]**, escolha como deseja importar o fragmento:
+
+   * **[!UICONTROL Carregar HTML]**: selecione um ou mais arquivos de fragmento do HTML no computador.
+
+   * **[!UICONTROL Procurar da conexão]**: procure e selecione fragmentos diretamente da sua plataforma de marketing conectada, sem precisar exportar e carregar arquivos manualmente.
+
+   ![Guia Fragmentos com opções para carregar o HTML ou navegar a partir de uma conexão](assets/onboarding-fragment-1.png)
+
+1. Você também pode importar fragmentos ao migrar um email. À medida que ele migra o email, o [!DNL Journey Optimizer] faz a varredura dele, identifica blocos de conteúdo referenciados e os exibe como itens de ação de fragmento no email, para que você possa resolvê-los sem sair do fluxo de migração de email.
+
+   ![Item de ação de fragmento em um email, mostrando um bloco de conteúdo detectado aguardando resolução](assets/onboarding-fragment-2.png)
+
+1. Para importar da conexão, escolha na lista Fragmentos e clique em **[!UICONTROL Importar]**.
+
+1. Abra o fragmento importado e resolva os itens de ação restantes, por exemplo, ativos ou atributos de perfil correspondentes.
+
+   ![Fragmento importado com seus itens de ação restantes para resolver](assets/onboarding-fragment-3.png)
+
+1. Quando o fragmento estiver pronto, selecione **[!UICONTROL Migrar]** e **Exibir fragmento** para abri-lo.
+
+
 ## Importar jornadas {#import-journeys}
 
-Recrie suas jornadas importando uma captura de tela do fluxo de jornada ou conectando-se à plataforma de origem.
+Recrie suas jornadas importando uma captura de tela do fluxo de jornada ou conectando-se à plataforma de origem. As jornadas são preparadas como rascunhos editáveis que você pode revisar em uma tela visual antes de serem migradas, para que você obtenha uma lista de verificação guiada de tudo o que precisa de sua entrada primeiro, em vez de migrar às cegas.
 
 1. Na guia **[!UICONTROL Jornadas]**, escolha como deseja importar suas jornadas:
 
@@ -151,7 +182,7 @@ Recrie suas jornadas importando uma captura de tela do fluxo de jornada ou conec
 
    ![Guia Jornadas com opções para carregar capturas de tela ou navegar a partir de uma conexão](assets/onboarding-hub-11.png)
 
-1. Para um upload do HTML, procure o arquivo ou arraste e solte-o na área de upload. Clique em **[!UICONTROL Carregar]** depois de concluído.
+1. Para um upload de captura de tela, procure o arquivo ou arraste e solte-o na área de upload. Clique em **[!UICONTROL Carregar]** depois de concluído.
 
    Os arquivos devem estar no formato .png, .jpg, .gif, .webp e não devem ter mais de 5 MB.
 
@@ -159,37 +190,46 @@ Recrie suas jornadas importando uma captura de tela do fluxo de jornada ou conec
 
 1. Para importar da conexão, escolha na lista jornada e clique em **[!UICONTROL Importar]**.
 
-1. Visualize a jornada gerada pelo espaço de trabalho a partir da origem.
+1. Abra a jornada para visualizá-la na tela interativa. A jornada completa é renderizada como uma tela de nó e borda, e os nós que precisam de atenção são marcados em linha.
 
-1. No painel **[!UICONTROL Itens de ação]**, resolva cada item com base no tipo de atividade à qual ele pertence:
+1. No painel **[!UICONTROL Itens de ação]**, resolva cada item antes de migrar. O cabeçalho do painel mostra uma contagem ativa de itens resolvidos do total e selecionar um item de ação destaca o nó correspondente na tela. Os itens de ação incluem:
 
-   * Para cada etapa de mensagem, selecione uma configuração de canal e um modelo de conteúdo.
-   * Para cada atividade do **[!UICONTROL Público]**, selecione o público.
-
-1. Selecione **[!UICONTROL Aplicar alterações]** e **Exibir em[!DNL Journey Optimizer]** para abrir a tela de jornada.
+   * **[!UICONTROL Nome da Jornada]**: defina o nome da jornada antes da migração.
+   * **[!UICONTROL Modelos de conteúdo]**: selecione o modelo de conteúdo apropriado para as ações de jornada que exigem um. Os modelos de email são validados à medida que são selecionados, com quaisquer problemas de validação mostrados diretamente no item de ação.
+   * **[!UICONTROL Configurações de canal]**: selecione a configuração necessária para canais como email e SMS.
+   * **[!UICONTROL Segmentos de público-alvo]**: mapeie os públicos-alvo de origem para os públicos-alvo [!DNL Journey Optimizer] apropriados.
 
    ![Painel de itens de ação com atividades resolvidas e o botão Aplicar alterações](assets/onboarding-hub-12.png)
 
-Sua jornada agora está disponível no [!DNL Journey Optimizer], onde você pode revisar a tela, fazer os ajustes finais e ativá-la quando estiver pronto para entrar no ar.
+1. Após resolver cada item de ação, selecione **[!UICONTROL Migrar]**.
+
+   [!DNL Journey Optimizer] executa uma verificação final na jornada, revalidando modelos de email e confirmando se o nome da jornada está definido. Qualquer informação ausente ou inválida bloqueia a migração e é exibida em linha nos itens de ação relevantes. Depois que a verificação é aprovada, uma etapa de confirmação protege contra migrações acidentais e a página reflete o status do processamento.
+
+1. Se você não precisar mais de uma migração de jornada, exclua-a da lista de jornadas ou do menu dentro de uma jornada aberta.
+
+   ![Painel de itens de ação com atividades resolvidas e o botão Aplicar alterações](assets/onboarding-hub-16.png)
+
+Sua jornada agora está disponível no [!DNL Journey Optimizer], onde você pode revisar a tela, fazer os ajustes finais e ativá-la quando estiver pronto para entrar no ar. Selecione **[!UICONTROL Exibir jornada]** para abrir a jornada migrada diretamente em [!DNL Journey Optimizer]. Se uma migração for concluída, mas alguns itens de ação não puderem ser aplicados, você receberá exatamente a quantidade e apontará para [!DNL Journey Optimizer] para concluí-los.
 
 ➡️ [Saiba mais sobre a criação de Jornadas](../building-journeys/journey-gs.md)
 
 ## Rastrear migração {#track-migration-progress}
 
-A visão geral do espaço de trabalho ajuda você a acompanhar cada email importado e localizar rapidamente os que ainda estão aguardando ação. Cada email importado mostra um status de necessidades revisadas, migradas ou com falha, para que você possa ver rapidamente sua posição. Um conjunto de KPIs na parte superior da tela fornece uma contagem rápida de itens em cada status:
+A visão geral do espaço de trabalho ajuda você a acompanhar cada email ou jornada importada e localizar rapidamente aqueles que ainda estão aguardando ação. Um conjunto de KPIs na parte superior da tela fornece uma contagem rápida de itens em cada status:
 
-* **Total de emails** (ou **Total de jornadas**): o número geral de itens importados para o espaço de trabalho.
+* **Total**: o número geral de itens importados para o espaço de trabalho.
 * **Em andamento**: itens que ainda estão sendo revisados ou mapeados antes de serem migrados.
 * **Migrado**: itens convertidos com êxito e disponíveis em [!DNL Journey Optimizer].
 * **Falha**: itens que não puderam ser migrados e precisam de atenção.
 
 ![Visão geral do Workspace com KPIs para itens totais, em andamento, migrados e com falha](assets/onboarding-hub-4.png)
 
-Um conjunto de filtros permite restringir a lista de conteúdo de email importado para que você possa se concentrar em um subconjunto específico em vez de percorrer cada item. Combine um ou mais dos seguintes filtros para encontrar o que está procurando:
+Um conjunto de filtros permite restringir a lista de conteúdo importado para que você possa se concentrar em um subconjunto específico em vez de percorrer cada item. Combine um ou mais dos seguintes filtros para encontrar o que está procurando:
 
-* **[!UICONTROL Status]**: mostrar apenas emails com um status específico, como **[!UICONTROL Precisa de revisão]**, **[!UICONTROL Migrado]** ou **[!UICONTROL Falha]**.
-* **[!UICONTROL Criado]**: mostra emails importados dentro de um intervalo de datas específico.
-* **[!UICONTROL Atualizado]**: mostrar os emails modificados pela última vez em um intervalo de datas específico.
+* **[!UICONTROL Ação necessária]**: o item tem itens de ação não resolvidos e precisa da sua entrada para poder ser migrado.
+* **[!UICONTROL Processando]**: o item está sendo migrado.
+* **[!UICONTROL Migrado]**: o item foi migrado com êxito e está disponível em [!DNL Journey Optimizer].
+* **[!UICONTROL Falha]**: a migração não pôde ser concluída e precisa de atenção.
 
 ![Opções de filtro para status, data de criação e data de atualização no espaço de trabalho](assets/onboarding-hub-5.png)
 

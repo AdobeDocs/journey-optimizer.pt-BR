@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8519e5f342809046780427f225c7ce6473363710
+source-git-commit: 14152c26a6fb4fc09d1eed1f50083d5c624337d5
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2074'
 ht-degree: 21%
 ---
 # Notas de versão {#release-notes}
@@ -265,6 +265,31 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 * **Conteúdo condicional com dados relacionais em campanhas orquestradas** - Ao criar conteúdo condicional no Designer de email para campanhas orquestradas, agora é possível criar condições diretamente nos dados relacionais, como registros relacionados associados a um perfil, não apenas nos atributos de perfil padrão. [Saiba mais](../orchestrated/activities/channels.md#add-personalization)
 
   Data de disponibilidade: 22 de setembro de 2026
+
+### Integração {#sep-26-onboarding}
+
+A seguinte melhoria está chegando à integração nesta versão.
+
+<table>
+<thead>
+<tr>
+<th><strong>Recursos guiados para integração de emails e jornadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Os recursos guiados para integração de emails e jornadas agora incluem as seguintes melhorias:</p>
+<ul>
+<li>Ao migrar um email, o [!DNL Journey Optimizer] identifica os blocos de conteúdo referenciados por esse email e os exibe como itens de ação, para que você possa migrar os blocos de conteúdo ao lado do email.</li>
+<li>A interface foi aprimorada para tornar a integração guiada mais intuitiva.</li></ul>
+<p>Para obter mais informações, consulte a <a href="../start/onboarding-hub.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 23 de setembro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ### Personalização {#sep-26-personalization}
 
