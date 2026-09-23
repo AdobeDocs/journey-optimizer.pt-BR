@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8496ddc9979526e30947e8d1e9af0eff70dbebf6
+source-git-commit: 0905e570576a4587cd7734aa036d8f09276e0127
 workflow-type: tm+mt
-source-wordcount: '2921'
-ht-degree: 9%
+source-wordcount: '2943'
+ht-degree: 8%
 ---
 
 # Notas de pré-lançamento {#e-release-notes}
@@ -85,11 +85,13 @@ O recurso a seguir está chegando ao gerenciamento de conteúdo nesta versão.
 
 ### Integrações {#sep-26-integrations}
 
-O recurso a seguir está chegando às integrações nesta versão.
+Os recursos a seguir estão chegando às integrações nesta versão.
 
 * **Substituição dinâmica de token para fragmentos de Experience Manager** - As referências de Fragmento de Conteúdo do Experience Manager agora oferecem suporte a um atributo **tokenSubstitution**. Quando definido como `false`, a personalização dentro dos campos do fragmento é resolvida diretamente, sem um mapa de token na referência. O padrão é `true`, que mantém o comportamento existente.
 
   Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+
+* **Suporte a fragmentos de conteúdo do AEM Managed Services na Decisão** - Os fragmentos de conteúdo do AEM Managed Services agora são aceitos na Decisão ao gerenciar itens de decisão.
 
 ### Fidelidade {#sep-26-loyalty}
 
@@ -429,7 +431,7 @@ O recurso a seguir está chegando aos relatórios nesta versão.
 
 * **Melhorias de usabilidade na experiência de Simulação de conteúdo** - A nova experiência de Simulação de conteúdo agora permite nomear e organizar suas variantes para facilitar a comparação, copiar ou excluir detalhes da variante diretamente de cada cartão, exibir caminhos completos de atributos e configuração de canal por cartão sob demanda e carregar seus próprios perfis CSV, JSON ou JSONL com um botão de carregamento mais destacado.
 
-* **Visão geral da IA em alertas de validação de fragmento** - A caixa de diálogo de alertas de validação de fragmento agora inclui uma Visão geral da IA que resume e explica os problemas de validação (por exemplo, expressões malformadas, campos de perfil ausentes e JSON inválido) para que os usuários possam solucionar os problemas com mais rapidez.
+* **Visão geral da IA em alertas de validação de fragmento** - A caixa de diálogo de alertas de validação de fragmento agora inclui uma visão geral da IA que resume e explica os problemas de validação (por exemplo, expressões malformadas, campos de perfil ausentes e JSON inválido) para que os usuários possam solucionar os problemas com mais rapidez.
 
 * **Calendário unificado para Campanhas, Jornadas e campanhas orquestradas** - A exibição de calendário para jornadas e campanhas agora sai de inventários separados em um menu unificado acessível no painel esquerdo que mostra ambos em uma exibição combinada.
 
