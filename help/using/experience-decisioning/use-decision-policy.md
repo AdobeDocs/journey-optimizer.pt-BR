@@ -11,31 +11,39 @@ exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Edge Decisioning
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 1262
+source-wordcount: '1347'
 ht-degree: 6%
-
 ---
-
 # Usar políticas de decisão em mensagens {#create-decision}
 
 >[!BEGINSHADEBOX]
 
-**Nesta página:** insira o código de política de decisão em sua experiência baseada em código, email, SMS, notificação por push e conteúdo de correspondência direta para que você possa personalizar mensagens com atributos dos itens de decisão retornados.
+**Nesta página:** insira o código de política de decisão em sua experiência baseada em código, Web, email, SMS, notificação por push e conteúdo de correspondência direta, para que você possa personalizar mensagens com atributos dos itens de decisão retornados.
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +51,7 @@ Depois de adicionar uma política de decisão ao conteúdo, você pode usar atri
 
 >[!CAUTION]
 >
->As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **Email**, **SMS**, **Notificação por push** e **Correspondência direta**.
+>As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **Web**, **Email**, **SMS**, **Notificação por push** e **Correspondência direta**.
 
 ## Inserir o código de política de decisão {#insert}
 
@@ -51,7 +59,7 @@ Depois de adicionar uma política de decisão ao conteúdo, você pode usar atri
 
 >[!TAB Experiência baseada em código]
 
-1. Edite sua experiência baseada em código e navegue até a **[!UICONTROL Política de decisão]**.
+1. Abra o **Editor do Personalization** e navegue até a **[!UICONTROL Política de decisão]**.
 
 2. Selecione **[!UICONTROL Inserir política]** para adicionar o código de política de decisão.
 
@@ -111,6 +119,20 @@ Você também pode inserir o código da política de decisão ao usar o **[!UICO
 >
 >A Escolha de experiências com notificações por push exige uma versão específica do SDK móvel. Antes de implementar este recurso, verifique as [notas de versão](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} para identificar a versão necessária e se você atualizou de acordo. Você também pode visualizar todas as versões do SDK disponíveis para sua plataforma [nesta seção](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
+>[!TAB Web]
+
+1. Abra sua campanha da Web ou jornada e navegue até o **editor visual da Web**.
+
+2. Selecione o componente que deseja personalizar e clique no ícone de personalização no menu contextual.
+
+3. No **Editor do Personalization**, navegue até **[!UICONTROL Políticas de decisão]**.
+
+4. Selecione **[!UICONTROL Inserir sintaxe]** para adicionar o código da política de decisão.
+
+>[!IMPORTANT]
+>
+>O tamanho total da carga de uma resposta do canal Web não deve exceder **64 KB**. As solicitações que excederem esse limite resultarão em um erro. Verifique se os itens e atributos de decisão permanecem dentro desse limite.
+
 >[!TAB Correspondência direta]
 
 1. Na configuração do arquivo de extração, abra o **Personalization Editor** (por exemplo, no campo **[!UICONTROL Dados]** de uma coluna).
@@ -127,7 +149,7 @@ O código de política de decisão é adicionado. Agora você pode usar atributo
 
 >[!NOTE]
 >
->Para canais de experiência baseada em código, email e correspondência direta, repita essa sequência uma vez por item de decisão que deseja retornar. Por exemplo, se você optou por retornar 2 itens ao [criar a decisão](create-decision-policy.md), repita a sequência duas vezes. Para canais SMS e Push, somente um item de decisão pode ser retornado.
+>Para canais de experiência baseada em código, Web, email e correspondência direta, repita essa sequência uma vez por item de decisão que deseja retornar. Por exemplo, se você optou por retornar 2 itens ao [criar a decisão](create-decision-policy.md), repita a sequência duas vezes. Para canais SMS e Push, somente um item de decisão pode ser retornado.
 
 ## Personalizar com atributos de item de decisão {#attributes}
 
@@ -143,7 +165,7 @@ Atributos de item de decisão e atributos contextuais não são suportados por p
 
 Para adicionar um atributo, clique no ícone **`+`** ao lado do atributo. Você pode adicionar quantos atributos forem necessários. Você também pode incluir outros atributos de personalização, como dados de perfil.
 
-* Para os canais **Email**, **Code-based** e **Direct Mail**, coloque os atributos entre o loop `#each` usando colchetes `[ ]` e adicione uma vírgula antes de fechar a marca `/each`.
+* Para os canais **Email**, **Web**, **Baseado em código** e **Correspondência Direta**, coloque os atributos entre o loop `#each` usando colchetes `[ ]` e adicione uma vírgula antes de fechar a marca `/each`.
 
   +++Veja o exemplo
 

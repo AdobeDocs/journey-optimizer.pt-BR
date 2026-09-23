@@ -10,27 +10,35 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
+    internal-label: Edge Decisioning
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Get started
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: '813'
 ht-degree: 21%
-
 ---
-
 # Introdução ao serviço de decisão {#get-started-experience-decisioning}
 
 >[!BEGINSHADEBOX]
@@ -48,11 +56,11 @@ ht-degree: 21%
 
 O serviço de decisão simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.
 
-Estes itens de decisão são perfeitamente integrados a mensagens e experiências em [!DNL Adobe Journey Optimizer] canais: [experiência baseada em código](../code-based/get-started-code-based.md), email, SMS, notificações por push e [correspondência direta](batch-decisioning-direct-mail.md) para decisões em lote e exportações personalizadas de correspondência direta. O suporte do Experience Decisioning para correspondência direta é um novo recurso; anteriormente, o mecanismo do Decisioning não estava disponível para arquivos de extração de correspondência direta.
+Estes itens de decisão são perfeitamente integrados a mensagens e experiências em [!DNL Adobe Journey Optimizer] canais: [experiência baseada em código](../code-based/get-started-code-based.md), [web](../web/get-started-web.md), email, SMS, notificações por push e [correspondência direta](batch-decisioning-direct-mail.md) para decisões em lote e exportações personalizadas de correspondência direta. O suporte do Experience Decisioning para correspondência direta é um novo recurso; anteriormente, o mecanismo do Decisioning não estava disponível para arquivos de extração de correspondência direta.
 
 >[!IMPORTANT]
 >
->As políticas de decisão estão disponíveis a todos os clientes para os canais **Experiência baseada em código**, **Email**, **Notificação por push**, **SMS** e **Correspondência direta**.
+>As políticas de decisão estão disponíveis a todos os clientes para os canais **[Experiência baseada em código](../code-based/get-started-code-based.md)**, **[Web](../web/get-started-web.md)**, **[Email](../email/get-started-email.md)**, **[Notificação por push](../push/get-started-push.md)**, **[SMS](../mobile/get-started-mobile.md)** e **[Correspondência direta](../direct-mail/get-started-direct-mail.md)**.
 
 ➡️ [Conheça este recurso no vídeo](#video)
 
@@ -138,4 +146,4 @@ O gráfico abaixo resume o processo de decisão completo — desde o gerenciamen
 
 Saiba mais sobre os recursos de decisão no Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475868?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

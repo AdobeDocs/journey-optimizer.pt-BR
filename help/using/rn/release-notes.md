@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 14152c26a6fb4fc09d1eed1f50083d5c624337d5
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2079'
 ht-degree: 21%
 ---
 # Notas de versão {#release-notes}
@@ -290,7 +290,6 @@ A seguinte melhoria está chegando à integração nesta versão.
 </tbody>
 </table>
 
-
 ### Personalização {#sep-26-personalization}
 
 * **Corrigir sintaxe com IA** - Quando um erro de validação de sintaxe do PQL é detectado, o Editor do Personalization agora fornece uma opção &quot;Corrigir com IA&quot; para ajudar a resolver o problema diretamente do editor.
@@ -298,12 +297,6 @@ A seguinte melhoria está chegando à integração nesta versão.
   Data de disponibilidade: 22 de setembro de 2026
 
 ### Tomada de decisão {#sep-26-decisioning}
-
-* **Suporte para perfis Adobe Experience Platform na simulação de fórmula de Regra e Classificação** - Ao simular uma Regra ou Fórmula de Classificação, agora é possível selecionar um perfil Adobe Experience Platform para preencher automaticamente os atributos de uma variante de dados de teste, em vez de inseri-los manualmente. [Saiba mais](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
-
-  Data de disponibilidade: 22 de setembro de 2026
-
-+++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
 <table>
 <thead>
@@ -313,14 +306,17 @@ A seguinte melhoria está chegando à integração nesta versão.
 </thead>
 <tbody>
 <tr>
-<td>
-<p>A Decisão agora está disponível no canal da web. Você pode usar políticas de decisão diretamente no editor visual da web para fornecer as ofertas mais relevantes a cada visitante.</p>
+<td>A Decisão agora está disponível no canal da web. Você pode usar políticas de decisão diretamente no editor visual da web para fornecer as ofertas mais relevantes a cada visitante.</p>
+<p>Para obter mais informações, consulte a <a href="../experience-decisioning/use-decision-policy.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 22 de setembro de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-+++
+* **Suporte para perfis Adobe Experience Platform na simulação de fórmula de Regra e Classificação** - Ao simular uma Regra ou Fórmula de Classificação, agora é possível selecionar um perfil Adobe Experience Platform para preencher automaticamente os atributos de uma variante de dados de teste, em vez de inseri-los manualmente. [Saiba mais](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
+
+  Data de disponibilidade: 22 de setembro de 2026
 
 ### Públicos-alvo {#sep-26-audiences}
 
