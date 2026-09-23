@@ -11,15 +11,15 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 version: Journey Orchestration
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Journey testing
+source-git-commit: 62544007a145783ebb8d55dd9816f922e04cd476
 workflow-type: tm+mt
-source-wordcount: 2282
+source-wordcount: '2210'
 ht-degree: 0%
-
 ---
-
 # Simular a jornada {#simulate-journey}
 
 >[!BEGINSHADEBOX]
@@ -28,19 +28,13 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-Não tem certeza de que Simulação é o método certo para você? [Comparar todas as três opções de validação](choose-validation-method.md).
-
 Use a **[!UICONTROL Simulação]** para validar sua jornada com **usuários simulados** antes de publicar. Esta página o orienta durante a **[!UICONTROL Simulação rápida]** e a **[!UICONTROL Simulação manual]**, criando e enviando usuários simulados, acionando eventos unitários quando a jornada precisar deles e revisando o log de **[!UICONTROL Resultados]**.
 
->[!IMPORTANT]
->
->* Para usar a **[!UICONTROL Simulação]**, atribua pelo menos uma permissão do recurso **[!UICONTROL Jornada]**: **Simular jornada**, **Publicar jornada** ou **Aprovar e Publicar jornada**. As mesmas permissões permitem criar e gerenciar usuários simulados, **[!UICONTROL Usuários Simulados]** permissões não são necessárias. [Saiba mais](../administration/permissions.md)
->
->* Para gerenciar usuários simulados sem **[!UICONTROL Simulação]**, atribua **Gerenciar Usuários Simulados** ou **Exibir Usuários Simulados** a partir do recurso **[!UICONTROL Usuários Simulados]**.
->
->* Para a IA na simulação (**[!UICONTROL Simulação rápida]**, usuários gerados pela IA, **[!UICONTROL Gerar valores de evento]**), atribua **[!UICONTROL Gerar conteúdo]** pelo recurso **[!UICONTROL Assistente de IA]**.
+Para obter as permissões necessárias, consulte [Permissões necessárias](simulate-journey-gs.md#required-permissions).
 
 Para obter uma visão geral por tipo de jornada, consulte [Introdução à simulação de Jornada](simulate-journey-gs.md).
+
+Não tem certeza de que Simulação é o método certo para você? [Comparar todas as três opções de validação](choose-validation-method.md).
 
 ## Tipos de simulação {#simulation-types}
 
