@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
     internal-label: Edge Decisioning
-source-git-commit: a8c364461ba54c1153766771932d2ef0e91976cc
+source-git-commit: 0ba3165fd3eeebbc150387e5f6e68f8029b3201a
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2914'
 ht-degree: 14%
 ---
 # Criar o primeiro item de decisão {#items}
@@ -95,6 +95,8 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
      >[!AVAILABILITY]
      >
      >Esse recurso está disponível para canais com suporte à Decisão.
+     >
+     >Os fragmentos de conteúdo do AEM no Decisioning estão disponíveis para clientes que integram o Adobe Experience Manager **as a Cloud Service** ou o **Managed Services** com o Adobe Journey Optimizer. [Saiba mais](../integrations/aem-fragments-gs.md)
 
      Para obter pré-requisitos e medidas de proteção, consulte [Usar fragmentos de conteúdo do AEM com a Experience Decisioning](../integrations/aem-fragments.md#aem-decisioning).
 
@@ -108,8 +110,8 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 >abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos-alvo ou regras para restringir o item somente a perfis específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 

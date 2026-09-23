@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
+source-git-commit: d0d56e302fa6741c780f819cc9beed0598a6e14d
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2223'
 ht-degree: 20%
 ---
 # Notas de versão {#release-notes}
@@ -313,6 +313,8 @@ A seguinte melhoria está chegando à integração nesta versão.
 
 ### Tomada de decisão {#sep-26-decisioning}
 
+Os seguintes recursos e melhorias estão chegando à decisão nesta versão.
+
 <table>
 <thead>
 <tr>
@@ -328,6 +330,10 @@ A seguinte melhoria está chegando à integração nesta versão.
 </tr>
 </tbody>
 </table>
+
+* **Fragmentos de conteúdo do AEM no Decisioning disponíveis para clientes do Managed Services** - Anteriormente, os Fragmentos de conteúdo do AEM no Decisioning estavam disponíveis somente para clientes que usavam a integração do **Adobe Experience Manager as a Cloud Service**. Este recurso também está disponível para clientes que usam o **Adobe Experience Manager Managed Services**. [Saiba mais](../experience-decisioning/items.md#attributes)
+
+  Data de disponibilidade: 23 de setembro de 2026
 
 * **Suporte para perfis Adobe Experience Platform na simulação de fórmula de Regra e Classificação** - Ao simular uma Regra ou Fórmula de Classificação, agora é possível selecionar um perfil Adobe Experience Platform para preencher automaticamente os atributos de uma variante de dados de teste, em vez de inseri-los manualmente. [Saiba mais](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
 
