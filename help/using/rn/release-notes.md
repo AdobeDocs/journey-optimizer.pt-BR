@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
+source-git-commit: 026b216020332a7ef2674d12a81185fcb382c2e2
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 26%
+source-wordcount: '1815'
+ht-degree: 23%
 ---
 # Notas de versão {#release-notes}
 
@@ -84,6 +84,23 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
   Data de disponibilidade: 1º de setembro de 2026
 
 ### Fidelidade {#sep-26-loyalty}
+
+<table>
+<thead>
+<tr>
+<th><strong>Atualizações de mapeamento de evento de fidelidade</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A criação ou edição de um Mapeamento de evento agora usa um novo **construtor de mapeamento visual**: selecione um esquema, escolha campos de um seletor de campo pesquisável, mapeie cada campo para um campo de evento de fidelidade com status de conexão por linha e visualize a expressão JSONata gerada automaticamente, com a opção de alternar para a edição JSONata manual a qualquer momento.</p><p>Além disso, as "Definições de evento" no Admin de fidelidade foram renomeadas para "Mapeamentos de evento", com uma exibição de lista atualizada que mostra o nome de esquema do evento de experiência legível.</p>
+<p>Para obter mais informações, consulte a <a href="../loyalty-challenges/loyalty-admin.md#event-mappings">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 22 de setembro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 * **Desafios de fidelidade &quot;para sempre&quot;** - Os desafios de fidelidade agora podem ser executados indefinidamente. Defina **Fim do desafio** como **Sem data de término** ao configurar o agendamento, e o desafio nunca expirará. [Saiba mais](../loyalty-challenges/create-challenges.md#schedule)
 
@@ -246,6 +263,18 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </table>
 
 +++
+
+### Públicos-alvo {#sep-26-audiences}
+
+O lembrete a seguir se aplica aos públicos-alvo nesta versão.
+
+* **Futura alteração para públicos-alvo de enriquecimento da Composição de Público-alvo** - Durante a versão de outubro (fim de outubro), o Journey Optimizer interromperá jornadas e campanhas que usam ou fazem referência a um público-alvo da Composição de Público-alvo cujo conjunto de dados de origem não tem um **descritor de identidade principal**. A partir desse ponto, somente os públicos-alvo de Composição de público-alvo criados com um descritor de identidade principal são compatíveis com jornadas e campanhas. Se você precisar que essas jornadas ou campanhas permaneçam ativas, entre em contato com o representante da Adobe — nossa equipe de produtos pode ajudá-lo a migrar. <!-- Documentation link: TBD -->
+
+### Administração {#sep-26-administration}
+
+O lembrete a seguir se aplica à administração nesta versão.
+
+* **Garantia de vida útil do conjunto de dados (TTL) — sandboxes existentes** - A proteção de vida útil (TTL) para conjuntos de dados gerados pelo sistema da Journey Optimizer (90 dias no repositório de perfis, 13 meses no data lake) será aplicada às sandboxes e organizações do cliente existentes a partir de 1º de outubro de 2026.
 
 ### Melhorias de usabilidade {#sep-26-usability}
 
