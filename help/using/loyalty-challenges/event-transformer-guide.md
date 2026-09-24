@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Guia do Transformador de eventos
-description: Saiba como definir configurações de esquema e transformador para definições de evento de Desafios de fidelidade no Adobe Journey Optimizer.
+description: Saiba como definir configurações de esquema e transformador para mapeamentos de eventos de Desafios de fidelidade no Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_event_transformer"
 >title="Guia do Transformador de eventos"
->abstract="Use o guia para configurar a validação de esquema e as expressões de transformador para as definições de evento de Desafios de fidelidade."
+>abstract="Use este guia para configurar a validação de esquema e as expressões de transformador para mapeamentos de eventos de Desafios de Fidelidade."
 
 >[!BEGINSHADEBOX]
 
@@ -37,16 +37,16 @@ Para que uma transação de cliente possa ser aplicada a um desafio de fidelidad
 
 ## Visão geral
 
-Uma **Definição de Evento** informa à plataforma duas coisas:
+Um **Mapeamento de Eventos** informa à plataforma duas coisas:
 
 * **Quais eventos declarar** — como reconhecer que um evento de entrada pertence a esta definição (correspondência)
 * **Como remodelá-los** — uma expressão [JSONata](https://docs.jsonata.org/overview) que mapeia os campos do cliente para o formato de Evento de Fidelidade (transformação)
 
-É possível configurar várias definições de evento por organização. A plataforma os avalia em ordem e aplica o primeiro que corresponder a. Eventos que não correspondem a nenhuma definição se enquadram na assimilação nativa (consulte [Fallback — Eventos de fidelidade nativa](#fallback--native-loyalty-events)).
+Vários mapeamentos de evento podem ser configurados por organização. A plataforma os avalia em ordem e aplica o primeiro que corresponder a. Os eventos que não correspondem a nenhum mapeamento passam pela assimilação nativa (consulte [Fallback — Eventos de fidelidade nativa](#fallback--native-loyalty-events)).
 
 ## O formato do evento de fidelidade do Adobe
 
-Toda definição de evento deve produzir um objeto JSON no formato a seguir. Essa é a contribuição para os processos do serviço de desafio.
+Todo mapeamento de evento deve produzir um objeto JSON no formato a seguir. Essa é a contribuição para os processos do serviço de desafio.
 
 ```json
 {
@@ -83,7 +83,7 @@ Toda definição de evento deve produzir um objeto JSON no formato a seguir. Ess
 | `_id` | Não | Usado para desduplicação se a organização tiver a detecção de duplicidade ativada. |
 | `sub_total` | Não | Tarefas com limite de gasto usam isso; omitir significa zero gasto. |
 
-## Campos de definição de evento
+## Campos de mapeamento de eventos
 
 | Campo | Tipo | Obrigatório | Descrição |
 |--------------------------------|------------------|----------------------|-------------|
@@ -97,7 +97,7 @@ Toda definição de evento deve produzir um objeto JSON no formato a seguir. Ess
 
 Os eventos que chegam pelo Serviço principal de coleta de dados (DCCS) carregam uma referência de esquema XDM em seu envelope. A plataforma lê a ID do esquema de `/body/xdmMeta/schemaRef/id` e a compara com o `xdmSchemaId` de cada definição.
 
-A plataforma percorre as definições de evento da organização **em ordem** e aplica a primeira correspondência. Depois que uma correspondência é encontrada, o corpo `xdmEntity` é passado para o transformador.
+A plataforma percorre os mapeamentos de eventos da organização **em ordem** e aplica a primeira correspondência. Depois que uma correspondência é encontrada, o corpo `xdmEntity` é passado para o transformador.
 
 ## Gravação do transformador
 
@@ -243,7 +243,7 @@ A biblioteca completa da função JSONata está disponível. Exemplos úteis:
 }
 ```
 
-**Definição de Evento:**
+**Mapeamento de Eventos:**
 
 ```json
 {
@@ -317,7 +317,7 @@ Uma tarefa de desafio sem restrições de inclusão/exclusão contará este even
 }
 ```
 
-**Definição de Evento:**
+**Mapeamento de Eventos:**
 
 ```json
 {
@@ -399,7 +399,7 @@ Uma tarefa de desafio com `include: ["BEVERAGE"]` veria o item de linha de café
 }
 ```
 
-**Definição de Evento:**
+**Mapeamento de Eventos:**
 
 ```json
 {
@@ -485,17 +485,17 @@ Eventos que falham na validação do esquema são rejeitados antes da execução
 
 +++
 
-Transmita este esquema como uma cadeia de caracteres JSON minificada no campo `schema` da definição do evento.
+Transmita este esquema como uma cadeia de caracteres JSON minificada no campo `schema` do mapeamento de evento.
 
 ## Fallback — Eventos nativos de fidelidade
 
-Se nenhuma definição de evento corresponder a um evento recebido, a plataforma tentará assimilá-lo diretamente como um Evento de fidelidade do Adobe nativo. Se a carga já estiver em conformidade com o formato de Evento de fidelidade descrito acima, nenhum transformador será necessário e o evento será aplicado como está. Isso permite que os clientes que pré-formataram seus eventos ignorem a transformação completamente.
+Se nenhum mapeamento de evento corresponder a um evento recebido, a plataforma tentará assimilá-lo diretamente como um Evento de fidelidade do Adobe nativo. Se a carga já estiver em conformidade com o formato de Evento de fidelidade descrito acima, nenhum transformador será necessário e o evento será aplicado como está. Isso permite que os clientes que pré-formataram seus eventos ignorem a transformação completamente.
 
 ## Referência da API
 
-Todas as operações de definição de evento usam o caminho base `/loyalty/metadata/config/events`.
+Todas as operações de mapeamento de eventos usam o caminho base `/loyalty/metadata/config/events`.
 
-+++Criar uma definição de evento
++++Criar um mapeamento de evento
 
 ```http
 POST /loyalty/metadata/config/events
@@ -512,7 +512,7 @@ Content-Type: application/json
 
 +++
 
-+++Definições de Evento de Lista
++++Listar Mapeamentos de Eventos
 
 ```http
 GET /loyalty/metadata/config/events
@@ -522,7 +522,7 @@ x-sandbox-name: {SANDBOX}
 
 +++
 
-+++Atualizar uma definição de evento
++++Atualizar um mapeamento de evento
 
 ```http
 PUT /loyalty/metadata/config/events/{eventId}
@@ -538,7 +538,7 @@ Content-Type: application/json
 
 +++
 
-+++Excluir uma definição de evento
++++Excluir um mapeamento de evento
 
 ```http
 DELETE /loyalty/metadata/config/events/{eventId}
@@ -550,7 +550,7 @@ x-sandbox-name: {SANDBOX}
 
 ## Validação do transformador
 
-As expressões JSONata são validadas para sintaxe quando a definição do evento é salva. Se a expressão for inválida, a API retornará um erro `422` com uma descrição da falha de análise.
+As expressões JSONata são validadas para sintaxe quando o mapeamento do evento é salvo. Se a expressão for inválida, a API retornará um erro `422` com uma descrição da falha de análise.
 
 Para testar um transformador antes de implantar, use o [JSONata Exerciser](https://try.jsonata.org/) — cole o evento de origem como a entrada e a expressão do transformador para verificar se a saída corresponde ao formato de Evento de fidelidade esperado.
 
