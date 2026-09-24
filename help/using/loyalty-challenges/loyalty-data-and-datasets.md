@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 6%
@@ -60,7 +60,7 @@ Para atributos de fidelidade padrão no perfil (pontos, camada, programa, status
 
 ### Eventos de experiência {#experience-events}
 
-As tarefas **[!UICONTROL Comprar]**, **[!UICONTROL Gastar]** e **[!UICONTROL Evento personalizado]** dependem dos eventos de experiência assimilados na Adobe Experience Platform. Para tarefas **[!UICONTROL Custom event]**, as definições de evento correspondentes (caminho do identificador, ID do esquema XDM, esquema e transformador) devem ser configuradas no menu **[!UICONTROL Configurações de fidelidade]** para que os profissionais de marketing possam inserir valores de evento personalizados no construtor de tarefas. [Saiba como configurar definições de evento](loyalty-admin.md#event-definitions)
+As tarefas **[!UICONTROL Comprar]**, **[!UICONTROL Gastar]** e **[!UICONTROL Evento personalizado]** dependem dos eventos de experiência assimilados na Adobe Experience Platform. Para tarefas **[!UICONTROL Custom event]**, os mapeamentos de eventos correspondentes (nome do evento, esquema de eventos de experiência e mapeamentos de campos) devem ser configurados no menu **[!UICONTROL Configurações de fidelidade]** para que os profissionais de marketing possam inserir valores de eventos personalizados no construtor de tarefas. [Saiba como configurar mapeamentos de eventos](loyalty-admin.md#event-mappings)
 
 Certifique-se de que as cargas do evento usem o mesmo namespace de identidade da configuração de Desafios de fidelidade para que o progresso possa ser atribuído ao perfil correto.
 

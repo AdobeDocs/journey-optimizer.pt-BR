@@ -13,22 +13,25 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2: []
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+    internal-label: Troubleshooting
+source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
 workflow-type: tm+mt
-source-wordcount: 1509
+source-wordcount: '1527'
 ht-degree: 17%
-
 ---
-
 # Publicar a jornada {#publishing-the-journey}
 
 >[!BEGINSHADEBOX]
@@ -109,6 +112,8 @@ Em alguns casos, é necessário republicar uma jornada para que as alterações 
 ## Versões de jornada {#journey-versions}
 
 Na lista da jornada, todas as versões da jornada são exibidas com o número da versão. Quando você pesquisa uma jornada, as versões mais recentes são exibidas na parte superior da lista na primeira vez que o aplicativo é aberto. Em seguida, você pode definir a classificação desejada e o aplicativo a manterá como uma preferência de usuário. A versão da jornada também é exibida na parte superior da interface de edição da jornada, acima da tela.
+
+Você também pode usar a IA no Co-worker para comparar as versões do jornada. Para obter mais detalhes, consulte [Comparação de versões do Jornada](journeys-coworker-skills.md#journey-version-comparison).
 
 ![Lista de versões do Jornada mostrando versões publicadas e de rascunho](assets/journeyversions1.png)
 

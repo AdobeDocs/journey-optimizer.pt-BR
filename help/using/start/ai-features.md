@@ -46,9 +46,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2413'
 ht-degree: 3%
 ---
 # Trabalhar com IA {#ai-features}
@@ -89,7 +89,7 @@ Saiba mais na documentação do Colaborador:
 
 No Adobe Journey Optimizer, o Colaborador fornece habilidades dedicadas nestes recursos:
 
-* **Jornada**: crie jornadas com prompts de linguagem natural (Criar Jornada), gere cópias e designs de mensagens específicos do canal (Criar Conteúdo de Canal) e diagnostique quedas de jornada, sobreposições de agendamento e anomalias de execução (Analisar Jornada). [Ver todas as habilidades de colega de trabalho para jornadas](../building-journeys/journeys-coworker-skills.md).
+* **Jornada**: crie jornadas com prompts de linguagem natural (Criar Jornada), gere cópias e designs de mensagens específicos do canal (Criar Conteúdo do Canal), compare versões do jornada e diagnostique quedas de jornada, sobreposições de agendamento e anomalias de execução (Analisar Jornada). [Ver todas as habilidades de colega de trabalho para jornadas](../building-journeys/journeys-coworker-skills.md).
 * **Fidelidade**: crie e configure desafios de fidelidade (Gerenciamento de Desafio de Fidelidade) e consulte pontos de fidelidade, distribuições de camada e métricas de receita (Insights de Fidelidade). [Ver todas as habilidades de colega de trabalho para fidelidade](../loyalty-challenges/loyalty-coworker-skills.md).
 * **Gerenciamento de conteúdo**: descubra, crie, atualize, clone e publique modelos, fragmentos, páginas de aterrissagem e variantes de mensagens embutidas usando 15 ferramentas de MCP de leitura/gravação. [Ver todas as ferramentas de gerenciamento de conteúdo do Colaborador](../content-management/content-management-coworker-skills.md).
 

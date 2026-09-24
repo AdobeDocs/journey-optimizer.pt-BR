@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 1017a1cc9bdcb4fb82faaca6d1fc414810d42af2
+source-git-commit: 69b55db5c537e8e6e8e2623e06fb62dedaa18399
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1639'
 ht-degree: 96%
 ---
 # Navegue pela interface {#user-interface}
@@ -414,18 +414,5 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >id="ajo_journey_inbound_activity_deactivation"
 >title="Atividade de entrada Atividade de desativação"
 >abstract="Remove um perfil de até cinco atividades ou experiências de entrada diretamente de uma jornada, dissociando a desqualificação de entrada da saída da jornada."
-
-<!--DOCAC-15707 Implement contextual help for Journey Properties event recovery / action timeout fields-->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_event_recovery_timeout"
->title="Definir tempo limite de recuperação de evento"
->abstract="Controla por quanto tempo a jornada repete automaticamente os eventos afetados por uma interrupção de serviço. Desativado por padrão (repetição automática de 72 horas); ative para ajustar a janela de repetição de 0 a 72 horas para jornadas urgentes."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_action_timeout"
->title="Tempo limite da Ação personalizada/Ação IDS"
->abstract="A opção Tempo limite de Ação personalizada/Ação IDS define um caminho alternativo na jornada quando a ação atinge o tempo limite ou retorna um erro. Dessa forma, os perfis continuam por um caminho de fallback em vez de parar nesta etapa. Os valores recomendados estão entre 1 e 30 segundos."
-
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}
