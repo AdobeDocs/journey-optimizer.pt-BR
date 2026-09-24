@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
+source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
 workflow-type: tm+mt
-source-wordcount: '2726'
+source-wordcount: '2672'
 ht-degree: 8%
 ---
 
@@ -376,8 +376,6 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 * **Canal LINE para campanhas orquestradas** - O LINE agora está disponível como um canal de saída nativo em campanhas orquestradas, junto com email, SMS e push. Você pode criar e entregar mensagens LINE diretamente da tela da campanha, incluindo texto, adesivos, imagens, vídeos, dados de localização e mensagens do Flex, apoiando casos de uso de engajamento promocional, transacional e contínuo em mercados dominados pelo LINE, como Japão e APAC. Lançado anteriormente com disponibilidade limitada, esse recurso agora está disponível no mercado.
 
 * **Novas APIs de monitoramento de Campanhas Orquestradas** - Novas **especificações de API** estão disponíveis para campanhas orquestradas, permitindo que você crie, gerencie e acione campanhas orquestradas de forma programática, permitindo uma integração mais profunda com sistemas externos e pipelines de automação.
-
-* **Melhorias no UX de junção direta** - Ao adicionar um atributo de uma coleção relacionada, agora é possível escolher entre três modos de junção — um novo padrão que avisa sobre o impacto potencial no desempenho de produtos cartesianos, além dos modos Agregado e Avançado existentes — facilitando a compreensão das compensações da consulta antes da compilação.
 
 * **Monitoramento da Orquestração de Campanha** — Uma nova interface de usuário está disponível para rastrear o status de assimilação e a atualização dos dados do armazenamento relacional usados pela Segmentação Orquestrada do Campaign. Ele oferece visibilidade direta da integridade dos dados que alimentam os públicos-alvo em lote. Uma nova guia Orquestração de campanha no painel Monitoramento da Adobe Experience Platform exibe a integridade dos fluxos de dados do armazenamento relacional (registros assimilados/atualizados/excluídos/com falha/ignorados), com gráficos detalhados e um detalhamento por fluxo de dados/conjunto de dados, incluindo linhagem.
 

@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d0d56e302fa6741c780f819cc9beed0598a6e14d
+source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
 workflow-type: tm+mt
-source-wordcount: '2223'
-ht-degree: 20%
+source-wordcount: '2287'
+ht-degree: 19%
 ---
 # Notas de versão {#release-notes}
 
@@ -278,6 +278,10 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </table>
 
 * **Conteúdo condicional com dados relacionais em campanhas orquestradas** - Ao criar conteúdo condicional no Designer de email para campanhas orquestradas, agora é possível criar condições diretamente nos dados relacionais, como registros relacionados associados a um perfil, não apenas nos atributos de perfil padrão. [Saiba mais](../orchestrated/activities/channels.md#add-personalization)
+
+  Data de disponibilidade: 22 de setembro de 2026
+
+* **Junções diretas em coleções em Campanhas Orquestradas** - Ao adicionar um atributo de uma coleção relacionada, agora é possível escolher entre três modos de junção — um novo padrão que avisa sobre o impacto potencial no desempenho de produtos cartesianos, além dos modos Agregado e Avançado existentes — facilitando a compreensão das compensações da consulta antes da compilação. [Saiba mais](../orchestrated/build-query.md#links)
 
   Data de disponibilidade: 22 de setembro de 2026
 
