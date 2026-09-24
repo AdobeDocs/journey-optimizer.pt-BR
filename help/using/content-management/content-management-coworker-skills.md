@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: fc4607e49cf224d31f45dc785309dd993907141d
+source-git-commit: 6077cdb74f93fb258c60fa127397251141638c79
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1842'
 ht-degree: 1%
 ---
 
@@ -31,7 +31,7 @@ Saiba mais:
 
 * [Habilidades de colega de trabalho para o Journey Optimizer](../start/ai-features.md#cx-coworker-skills) — visão geral das habilidades de colega em Jornadas, Fidelidade e Gerenciamento de Conteúdo no Journey Optimizer.
 * [Documentação do colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — visão geral dos recursos de Campanhas, Chat e Projetos do colaborador.
-* [Guia da interface de Chat do Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — como acessar e navegar pelo Chat do Colaborador.
+* [Guia da interface de Chat do Colaborador](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — como acessar e navegar pelo Chat do Colaborador.
 
 >[!ENDSHADEBOX]
 
@@ -138,18 +138,17 @@ As seguintes habilidades estão disponíveis no plug-in **Conteúdo do canal**:
 
   Executa o ciclo de vida completo da criação a partir de um resumo, jornada, campanha ou prompt, idealizando, gerando, revisando e salvando conteúdo, inclusive cópia, imagens e as verificações de conformidade, acessibilidade e fidelidade em todos os canais compatíveis.
 
-  >[!BEGINSHADEBOX]
+  >[!BEGINSHADEBOX &quot;Exemplos de prompt&quot;]
 
   &quot;Execute a criação completa de conteúdo para nossa campanha de email de vendas de outono a partir deste resumo e, em seguida, revise e salve a HTML final.&quot;
 
   >[!ENDSHADEBOX]
 
-
 * **Explorar a Estratégia de Conteúdo** (`explore-content-strategy`)
 
   Descreve o que uma campanha ou mensagem deve dizer antes que a cópia seja escrita, comparando mapas de mensagens e o sequenciamento de pontos de contato no nível da campanha e decidindo a ordem da seção, a ênfase e o CTA no nível da mensagem.
 
-  >[!BEGINSHADEBOX]
+  >[!BEGINSHADEBOX &quot;Exemplos de prompt&quot;]
 
   * &quot;Compare um único email de winback com um programa de email e SMS com três toques.&quot;
   * &quot;Dê-me três direções de campanha para este lançamento antes de escolhermos um.&quot;
