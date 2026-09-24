@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
+source-git-commit: ce701a937ccf452e36f139e393b0b80d38b33477
 workflow-type: tm+mt
-source-wordcount: '2672'
+source-wordcount: '2586'
 ht-degree: 8%
 ---
 
@@ -48,40 +48,6 @@ Esta versão traz vários recursos e habilidades novos e aprimorados do [Coworke
 * [Habilidade em Análise de Desempenho de Negócios](#sep-26-journeys) - Analise o desempenho da jornada e obtenha recomendações concretas de otimização, diretamente do chat.
 
 >[!ENDSHADEBOX]
-
-### Gerenciamento de conteúdo {#sep-26-content-management}
-
-O recurso a seguir está chegando ao gerenciamento de conteúdo nesta versão.
-
-<table>
-<thead>
-<tr>
-<th><strong>Plug-in de Conteúdo do Canal no Colaborador</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Um novo plug-in de <strong>Conteúdo do Canal</strong> já está disponível no Co-worker, que reúne as habilidades de cópia da campanha, imagem e email montado no HTML em um plug-in, da estratégia à implantação. As seguintes habilidades estão disponíveis no plug-in **Conteúdo do canal**:</p>
-<ul>
-<li><strong>Orquestrar Criação De Conteúdo</strong>.</li>
-<li><strong>Explorar a estratégia de conteúdo</strong></li>
-<li><strong>Resumo do conteúdo</strong></li>
-<li><strong>Gerar conteúdo</strong></li>
-<li><strong>Verificar prontidão do conteúdo</strong></li>
-<li><strong>Revisar e regenerar conteúdo</strong></li>
-<li><strong>Gerar imagem</strong></li>
-<li><strong>Avaliar o design de conteúdo</strong></li>
-<li><strong>Salvar conteúdo do canal</strong></li>
-<li><strong>Criar e-mail no Figma</strong></li>
-<li><strong>Pesquisa de marca</strong> </li>
-</ul>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
 
 ### Integrações {#sep-26-integrations}
 

@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
+source-git-commit: ce701a937ccf452e36f139e393b0b80d38b33477
 workflow-type: tm+mt
-source-wordcount: '2287'
+source-wordcount: '2384'
 ht-degree: 19%
 ---
 # Notas de versão {#release-notes}
@@ -57,6 +57,39 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 ## Notas de versão de setembro de 2026 {#sep-26-updates}
 
 ### Gerenciamento de conteúdo {#sep-26-content-management}
+
+O recurso a seguir está chegando ao gerenciamento de conteúdo nesta versão.
+
+<table>
+<thead>
+<tr>
+<th><strong>Plug-in de Conteúdo do Canal no Colaborador</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Um novo plug-in de <strong>Conteúdo do Canal</strong> já está disponível no Co-worker, que reúne as habilidades de cópia da campanha, imagem e email montado no HTML em um plug-in, da estratégia à implantação. As seguintes habilidades estão disponíveis no plug-in **Conteúdo do canal**:</p>
+<ul>
+<li><strong>Orquestrar Criação De Conteúdo</strong>.</li>
+<li><strong>Explorar a estratégia de conteúdo</strong></li>
+<li><strong>Resumo do conteúdo</strong></li>
+<li><strong>Gerar conteúdo</strong></li>
+<li><strong>Verificar prontidão do conteúdo</strong></li>
+<li><strong>Revisar e regenerar conteúdo</strong></li>
+<li><strong>Gerar imagem</strong></li>
+<li><strong>Avaliar o design de conteúdo</strong></li>
+<li><strong>Salvar conteúdo do canal</strong></li>
+<li><strong>Criar e-mail no Figma</strong></li>
+<li><strong>Pesquisa de marca</strong> </li>
+</ul>
+<p>Para obter mais informações, consulte a <a href="../content-management/content-management-coworker-skills.md#content-management#ce-channel-content">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 24 de setembro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
