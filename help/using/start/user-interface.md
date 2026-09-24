@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 1017a1cc9bdcb4fb82faaca6d1fc414810d42af2
+source-git-commit: 69b55db5c537e8e6e8e2623e06fb62dedaa18399
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1639'
 ht-degree: 96%
 ---
 # Navegue pela interface {#user-interface}
@@ -64,7 +64,7 @@ Para acessar o Adobe Journey Optimizer, faça logon no [[!DNL Adobe CX Enterpris
 
 >[!NOTE]
 >
->* Os componentes e recursos disponíveis no ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+>* Os componentes e recursos disponíveis no ambiente dependem das [permissões](../administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 >* Esta documentação é atualizada com frequência. Algumas capturas de tela podem ser um pouco diferentes da interface.
 
 ## Tour rápido {#quick-tour}
@@ -205,7 +205,7 @@ A navegação à esquerda organiza os recursos do Journey Optimizer em categoria
 **Conexões** - Integrar a outros sistemas
 
 * **Fontes** - Assimilar dados de sistemas externos. [Configurar fontes](get-started-sources.md)
-* **Destinos** - Exporte dados para o armazenamento na nuvem. [Configurar destinos](../data/export-datasets.md). Você também pode ativar públicos para destinos de personalização qualificados, como o Adobe Target, no [catálogo de destinos do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR){target="_blank"}.
+* **Destinos** - Exporte dados para o armazenamento na nuvem. [Configurar destinos](../data/export-datasets.md). Você também pode ativar públicos para destinos de personalização qualificados, como o Adobe Target, no [catálogo de destinos do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}.
 
 **Cliente** - Gerencie públicos-alvo e perfis
 
@@ -414,18 +414,5 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >id="ajo_journey_inbound_activity_deactivation"
 >title="Atividade de entrada Atividade de desativação"
 >abstract="Remove um perfil de até cinco atividades ou experiências de entrada diretamente de uma jornada, dissociando a desqualificação de entrada da saída da jornada."
-
-<!--DOCAC-15707 Implement contextual help for Journey Properties event recovery / action timeout fields-->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_event_recovery_timeout"
->title="Definir tempo limite de recuperação de evento"
->abstract="Controla por quanto tempo a jornada repete automaticamente os eventos afetados por uma interrupção de serviço. Desativado por padrão (repetição automática de 72 horas); ative para ajustar a janela de repetição de 0 a 72 horas para jornadas urgentes."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_action_timeout"
->title="Tempo limite da Ação personalizada/Ação IDS"
->abstract="A opção Tempo limite de Ação personalizada/Ação IDS define um caminho alternativo na jornada quando a ação atinge o tempo limite ou retorna um erro. Dessa forma, os perfis continuam por um caminho de fallback em vez de parar nesta etapa. Os valores recomendados estão entre 1 e 30 segundos."
-
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

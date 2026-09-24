@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
+source-git-commit: 69b55db5c537e8e6e8e2623e06fb62dedaa18399
 workflow-type: tm+mt
-source-wordcount: '4716'
-ht-degree: 13%
+source-wordcount: '4756'
+ht-degree: 14%
 ---
 # Definir as propriedades da jornada {#jo-properties}
 
@@ -197,6 +197,11 @@ Quaisquer datas de início e término configuradas são exibidas diretamente no 
 Se nenhuma data inicial ou final for definida, nenhuma informação de data será exibida no cabeçalho.
 
 ## Tempo-limite {#timeout}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_recovery_timeout"
+>title="Definir tempo limite de recuperação de evento"
+>abstract="Controla por quanto tempo a jornada repete automaticamente os eventos afetados por uma interrupção de serviço. Desativado por padrão (repetição automática de 72 horas); ative para ajustar a janela de repetição de 0 a 72 horas para jornadas urgentes."
 
 As configurações de tempo limite controlam quanto tempo uma jornada aguarda pela execução da atividade e quanto tempo os perfis podem permanecer em uma jornada.
 
