@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 7%
@@ -60,7 +60,7 @@ A função de **Profissional de fidelidade** foi projetada para proprietários d
 | Gerenciar desafios de fidelidade | Crie, edite, exclua, publique, cancele a publicação e arquive desafios; acione a geração de jornadas |
 | Configurar a configuração principal do Loyalty | Criar e editar a configuração da organização principal. A exclusão não é permitida |
 | Exibir Configuração de Recompensa de Fidelidade | Exibir configuração de premiação, incluindo provedores, definições e proxies. Os valores confidenciais são excluídos |
-| Exibir Configuração de Evento de Fidelidade | Exibir definições de evento e mapeamentos de transformação de evento |
+| Exibir Configuração de Evento de Fidelidade | Exibir mapeamentos de evento e mapeamentos de transformação de evento |
 | Exibir Catálogo de Produtos de Fidelidade | Exibir entradas do catálogo de produtos e status do trabalho de importação |
 | Desenvolver insights de fidelidade | Exibir dados de insights e atualizar cartões da insight |
 
@@ -116,7 +116,7 @@ Ao criar uma função personalizada para uma sandbox de não produção, selecio
 | Configurar a configuração principal do Loyalty | Criar e editar a configuração da organização principal. A exclusão não é permitida |
 | Gerenciar configurações avançadas de fidelidade | Gerenciar pontos de extremidade de premiação e configurações de transformação de evento, incluindo acesso de leitura/gravação a valores confidenciais de credenciais |
 | Exibir Configuração de Recompensa de Fidelidade | Exibir provedores de recompensa, definições de recompensa e proxies de recompensa. Os valores confidenciais são excluídos |
-| Exibir Configuração de Evento de Fidelidade | Exibir definições de evento e mapeamentos de transformação de evento |
+| Exibir Configuração de Evento de Fidelidade | Exibir mapeamentos de evento e mapeamentos de transformação de evento |
 | Gerenciar Catálogo de Produtos de Fidelidade | Visualize, importe de CSV e edite entradas do catálogo de produtos, incluindo inclusões e exclusões; monitore o status do trabalho de importação |
 | Exibir Catálogo de Produtos de Fidelidade | Exibir entradas do catálogo de produtos e status do trabalho de importação. Ações de carregamento e edição não são permitidas |
 | Gerenciar Insights de Fidelidade | Exibir insights, atualizar a configuração de KPI e acionar o pipeline de insights |
