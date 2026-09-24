@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8a0943c7362859a4431f35b6b6163b2d947fff43
+source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
 workflow-type: tm+mt
-source-wordcount: '3141'
-ht-degree: 16%
+source-wordcount: '3954'
+ht-degree: 13%
 ---
 # Notas de versão {#release-notes}
 
@@ -55,6 +55,29 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 >Os recursos listados nestas notas de versão incluem uma **Data de disponibilidade** indicando quando cada alteração se torna acessível no ambiente. As entradas nos acordeões **Em breve** são esperadas nos próximos dias ou semanas. As informações nessas seções estão sujeitas a alterações.
 
 ## Notas de versão de setembro de 2026 {#sep-26-updates}
+
+>[!BEGINSHADEBOX]
+
+**Novo no CX Enterprise Coworker este mês**
+
+Esta versão traz vários recursos e habilidades novos e aprimorados do [Coworker](../start/ai-features.md#cx-coworker), listados aqui para visibilidade. Cada uma delas também é detalhada em sua seção relevante abaixo.
+
+* [Plug-in de Conteúdo do Canal CE](#sep-26-content-management) - Um novo plug-in que reúne habilidades de HTML em cópia de campanha, imagem e email no Coworker, desde um resumo da campanha até a cópia pronta para produção e o HTML.
+* [Ferramentas de MCP para gerenciamento de conteúdo](#sep-26-content-management) - Descubra e gerencie modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha por meio de prompts de linguagem natural no Coworker.
+* [Simulação de Jornada](#sep-26-journeys) - Automatize a validação de jornada de ponta a ponta e interprete os resultados diretamente no Colaborador.
+* [Comparar versões do jornada](#sep-26-journeys) - Obtenha uma diferença estruturada e de fidelidade completa entre duas versões de uma jornada por meio do Chat do Colaborador.
+* [Analisar habilidade de Anomalias de Jornada](#sep-26-journeys) - Detecte picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de mensagem de uma jornada, com diagnóstico de causa raiz.
+
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
+
+* [Criação de Jornadas no painel do Colaborador](#sep-26-journeys) - Gere jornadas com IA diretamente no painel direito do Colaborador, substituindo a experiência anterior do Assistente de IA.
+* [Habilidade de recomendação de fidelidade](#sep-26-loyalty) - Solicite oportunidades de desafio diretamente na interface de conversa do Colaborador e transforme-as em desafios ao vivo sem sair do chat.
+* [Habilidade da Análise de Higiene](#sep-26-journeys) - Examine jornadas ativas e de rascunho em busca de configurações corrompidas, falhas silenciosas e ativos em decomposição ou não utilizados, com correções recomendadas.
+* [Habilidade em Análise de Desempenho de Negócios](#sep-26-journeys) - Analise o desempenho da jornada e obtenha recomendações concretas de otimização, diretamente do chat.
+
++++
+
+>[!ENDSHADEBOX]
 
 ### Gerenciamento de conteúdo {#sep-26-content-management}
 
@@ -162,9 +185,28 @@ O recurso a seguir está chegando ao gerenciamento de conteúdo nesta versão.
 
 * **Prazos de conclusão do desafio de fidelidade por membro** - Os desafios de fidelidade agora oferecem suporte aos prazos de conclusão por membro: escolha &quot;Dentro de um número de dias após a aceitação&quot; em Requisitos de conclusão para que o prazo de cada membro seja calculado a partir de sua própria data de aceitação, em vez de uma data de término fixa em todo o programa. Se uma data final de desafio e essa janela de aceitação forem definidas, o prazo de cada membro será o primeiro. <!-- Documentation link: TBD -->
 
+* **Domínio de desafios no editor de personalização de Cartão de Conteúdo** - O editor de personalização de Cartão de Conteúdo agora aceita **Desafios** como um domínio, permitindo que você acesse metadados de desafio ao criar a personalização de cartão de conteúdo. Isso facilita a criação de conteúdo personalizado para cada estágio de um desafio — Início, Em andamento e Término — sem código personalizado.
+
 +++
 
 ### Jornadas {#sep-26-journeys}
+
+<table>
+<thead>
+<tr>
+<th><strong>Comparar versões do jornada com o Colaborador</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Atualmente, analisar o que foi alterado entre duas versões de uma jornada requer compará-las manualmente dentro do nó do Journey Optimizer por nó. Não há diferenças estruturadas, o que torna as verificações de revisão de alterações, auditoria e pré-publicação lentas e sujeitas a erros, especialmente quando as jornadas se tornam mais complexas. Esse recurso permite que um cliente ou agente de IA compare duas versões de uma jornada por meio do Bate-papo com os colegas de trabalho e obtenha uma comparação estruturada de fidelidade completa** - nós adicionados/removidos/modificados/movidos com detalhes em nível de campo, conexões alteradas, alterações de propriedade no nível da jornada e contagens acumuladas, sem abrir o Journey Optimizer. </p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/journeys-coworker-skills.md#journey-analyze">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 24 de setembro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -219,7 +261,6 @@ O recurso a seguir está chegando ao gerenciamento de conteúdo nesta versão.
 </tbody>
 </table>
 
-
 * **Suporte para atividades de salto em jornadas de qualificação de público-alvo** - Agora você pode usar atividades de salto em jornadas que começam com um nó de Qualificação de público-alvo para ir para jornadas baseadas em eventos. Esse recurso está sendo progressivamente distribuído às organizações. Se você não vir isso em seu ambiente, talvez esteja usando públicos em lote em Qualificações de público-alvo. [Saiba mais](../building-journeys/jump.md)
 
   Data de disponibilidade: 22 de setembro de 2026.
@@ -264,6 +305,38 @@ O recurso a seguir está chegando ao gerenciamento de conteúdo nesta versão.
 <table>
 <thead>
 <tr>
+<th><strong>Cartões de recomendação de IA para alertas de jornada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A página inicial da Journey Optimizer agora exibe um <strong>cartão de recomendação de IA</strong> quando um alerta de jornada é acionado, cobrindo os alertas <strong>Falha da ação personalizada de Jornada</strong> e <strong>Anomalia de Jornada detectada</strong>. Selecionar a placa abre a jornada com o painel direito pré-preenchido com a análise já realizada.</p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Atividade de entrada do jornada de desativação de atividade</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Uma nova atividade de <strong>Desativação de atividade de entrada</strong> na tela de jornada permite remover um perfil de até cinco atividades ou experiências de entrada diretamente de uma jornada, dissociando a desqualificação de entrada da saída do jornada para uma orquestração entre canais mais avançada.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Visualização de conteúdo na tela de jornada</strong><br/></th>
 </tr>
 </thead>
@@ -277,9 +350,28 @@ O recurso a seguir está chegando ao gerenciamento de conteúdo nesta versão.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Criação de jornada do painel Colaborador</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A <strong>criação de Jornadas com IA</strong> agora está disponível diretamente no painel direito Colaborador, substituindo a experiência anterior do Assistente de IA por um ponto de entrada integrado e reformulado para geração de jornadas.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **Habilidade da Análise de Higiene** - O CX Coworker agora pode verificar suas jornadas ativas e de rascunho em busca de configurações corrompidas, falhas silenciosas e ativos em decomposição ou não utilizados, como jornadas de rascunho obsoletas, fontes de dados órfãs e erros de ação personalizados persistentes, e apresentar correções recomendadas diretamente no chat. <!-- Documentation link: TBD -->
 
 * **O suporte à ID complementar na simulação de Jornada** - **A ID complementar** agora tem suporte na simulação de Jornada, permitindo que você teste cenários de usuário complexos para jornadas acionadas por evento e público-alvo de leitura.
+
+* **Supressão de evento de etapa de execução seca para relatórios personalizados** - Como parte da otimização de evento de etapa, o Journey Optimizer agora interrompe a geração de determinados eventos de etapa não reportáveis durante as Execuções Secas de Jornada. Isso só afeta relatórios personalizados criados nesses tipos de evento de etapa de execução segura. Se você for afetado, acione novamente a simulação para gerar dados novamente.
+
+* **Tempo limite de recuperação automática de evento nas Propriedades de Jornada** - As Propriedades de Jornada agora incluem uma configuração **Definir tempo limite de recuperação de evento**: por padrão, os eventos de jornada afetados são repetidos automaticamente por até 72 horas após uma interrupção de serviço sem a necessidade de nenhuma ação. Você pode ativar essa configuração para controlar a janela de repetição (0-72 horas) para jornadas sensíveis ao tempo. O campo existente **Tempo limite ou erro** também foi renomeado para **Ação personalizada/Tempo limite da fonte de dados** para evitar confusão entre as duas configurações.
 
 +++
 
@@ -340,6 +432,10 @@ Os seguintes recursos e melhorias estão chegando aos canais nesta versão.
 
 * **Flexibilidade de autenticação BYOP de SMS personalizado** - Agora você pode configurar **cabeçalhos de autenticação personalizados** ao conectar a configuração OAuth do seu provedor de SMS, incluindo onde o token é colocado nas mensagens de saída e como a própria solicitação de token é formatada.
 
+* **Correspondência direta - Dividir arquivos grandes automaticamente** - Os arquivos de Correspondência Direta agora podem ser divididos em várias partes automaticamente quando excedem aproximadamente 20 GB ou manualmente escolhendo um tamanho de arquivo de destino na configuração de roteamento de arquivos.
+
+* **Correspondência direta - Aumento do limite de público-alvo** - O limite de público-alvo do canal de correspondência direta aumentou de 3 milhões para 100 milhões de perfis, permitindo que você direcione públicos-alvo muito maiores sem encontrar erros de criação de arquivos.
+
 +++
 
 ### Campanhas orquestradas {#sep-26-orchestrated-campaigns}
@@ -371,7 +467,6 @@ Os seguintes recursos e melhorias estão chegando aos canais nesta versão.
 
 +++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
-
 <table>
 <thead>
 <tr>
@@ -389,9 +484,9 @@ Os seguintes recursos e melhorias estão chegando aos canais nesta versão.
 
 * **Canal LINE para campanhas orquestradas** - O LINE agora está disponível como um canal de saída nativo em campanhas orquestradas, junto com email, SMS e push. Você pode criar e entregar mensagens LINE diretamente da tela da campanha, incluindo texto, adesivos, imagens, vídeos, dados de localização e mensagens do Flex, apoiando casos de uso de engajamento promocional, transacional e contínuo em mercados dominados pelo LINE, como Japão e APAC. Lançado anteriormente com disponibilidade limitada, esse recurso agora está disponível no mercado.
 
-
 * **Monitoramento da Orquestração de Campanha** — Uma nova interface de usuário está disponível para rastrear o status de assimilação e a atualização dos dados do armazenamento relacional usados pela Segmentação Orquestrada do Campaign. Ele oferece visibilidade direta da integridade dos dados que alimentam os públicos-alvo em lote. Uma nova guia Orquestração de campanha no painel Monitoramento da Adobe Experience Platform exibe a integridade dos fluxos de dados do armazenamento relacional (registros assimilados/atualizados/excluídos/com falha/ignorados), com gráficos detalhados e um detalhamento por fluxo de dados/conjunto de dados, incluindo linhagem.
 
+* **Novas APIs de monitoramento de Campanhas Orquestradas** - Novas **especificações de API** estão disponíveis para campanhas orquestradas, permitindo que você crie, gerencie e acione campanhas orquestradas de forma programática, permitindo uma integração mais profunda com sistemas externos e pipelines de automação.
 
 +++
 
@@ -522,3 +617,8 @@ O lembrete a seguir se aplica à administração nesta versão.
 
   Data de disponibilidade: 1º de setembro de 2026
 
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
+
+* **Melhorias de usabilidade na experiência de Simulação de conteúdo** - A nova experiência de Simulação de conteúdo agora permite nomear e organizar suas variantes para facilitar a comparação, copiar ou excluir detalhes da variante diretamente de cada cartão, exibir caminhos completos de atributos e configuração de canal por cartão sob demanda e carregar seus próprios perfis CSV, JSON ou JSONL com um botão de carregamento mais destacado.
+
++++
