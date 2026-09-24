@@ -101,7 +101,7 @@ ht-degree: 2%
   - Comentários: doc atualizado após o feedback, aguardando revisão
 
 
-- ** Aviso antecipado: as Jornadas e campanhas com públicos não suportados serão interrompidas em outubro**
+- **&#x200B; Aviso antecipado: as Jornadas e campanhas com públicos não suportados serão interrompidas em outubro**
   - Melhoria
   - [DOCAC-15690](https://jira.corp.adobe.com/browse/DOCAC-15690)
   - Descrição: Aviso de antecipação de documento: as Jornadas e campanhas com públicos não compatíveis serão interrompidas em outubro.
@@ -117,7 +117,7 @@ ht-degree: 2%
   - Comentários: enviado para revisão
 
 
-- ** Criação de Jornada do painel Colaborador (Colaborador)**
+- **&#x200B; Criação de Jornada do painel Colaborador (Colaborador)**
   - Recurso
   - [DOCAC-14898](https://jira.corp.adobe.com/browse/DOCAC-14898) - [CJM-150745](https://jira.corp.adobe.com/browse/CJM-150745)
   - Descrição: Criação de Jornada de documento no painel Colaborador.
