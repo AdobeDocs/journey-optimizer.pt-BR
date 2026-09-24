@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: fa786e5650936daf727557d0fb149673c5ced637
+source-git-commit: d11d44f6d1237f9435c8c811023869e795222045
 workflow-type: tm+mt
-source-wordcount: '4651'
+source-wordcount: '4588'
 ht-degree: 13%
 ---
 # Notas de versão {#release-notes}
@@ -411,6 +411,8 @@ Os seguintes recursos e melhorias estão chegando aos canais nesta versão.
 </ul>
 <p>Anteriormente disponível em Disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (Disponibilidade geral), com os aprimoramentos descritos acima.</p>
 <p><img src="assets/do-not-localize/custom-channel.gif"></p>
+<p>Para obter mais informações, consulte a <a href="../custom-channel/get-started-custom-channel.md">documentação detalhada</a>.</p>
+
 </td>
 </tr>
 </tbody>
@@ -564,8 +566,6 @@ Os seguintes recursos e melhorias estão chegando ao Designer de email nesta ver
 </tbody>
 </table>
 
-+++ Em breve — **as informações abaixo estão sujeitas a alterações.**
-
 <table>
 <thead>
 <tr>
@@ -577,12 +577,15 @@ Os seguintes recursos e melhorias estão chegando ao Designer de email nesta ver
 <td>
 <p>Os temas de email agora oferecem suporte ao modo escuro, para que cada variante de cor possa ser renderizada com uma aparência personalizada para os recipients que visualizam seu email em um cliente habilitado para o modo escuro.</p>
 <p>Quando habilitada, uma paleta escura padrão é gerada automaticamente para cada variante, e você pode personalizá-la ainda mais com uma paleta diferente ou com suas próprias cores personalizadas, independentemente do design do modo claro. Portanto, as alterações feitas em um modo não afetam o outro.</p>
+<p><img src="../email/assets/theme-dark-mode-support.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../email/apply-email-themes.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 24 de setembro de 2024.</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
 <table>
 <thead>
@@ -598,8 +601,6 @@ Os seguintes recursos e melhorias estão chegando ao Designer de email nesta ver
 </tr>
 </tbody>
 </table>
-
-* **Fontes substitutas para fontes personalizadas em temas de email** - Agora é possível definir uma fonte substituta para qualquer fonte personalizada (da Web) aplicada por temas de email. Se o cliente de email de um assinante não oferecer suporte à fonte personalizada, o Adobe Journey Optimizer exibirá automaticamente a fonte de fallback especificada, em vez de deixar a opção para o padrão do cliente de email. Isso mantém a tipografia de email mais próxima das diretrizes da sua marca e reduz as inconsistências de renderização de fonte nos clientes de email.
 
 +++
 

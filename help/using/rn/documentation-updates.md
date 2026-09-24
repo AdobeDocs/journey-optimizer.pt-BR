@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 4e9ccef9fabcfeb9271e8f560ff11286caa4786c
+source-git-commit: d11d44f6d1237f9435c8c811023869e795222045
 workflow-type: tm+mt
-source-wordcount: '7258'
+source-wordcount: '7221'
 ht-degree: 81%
 ---
 
@@ -43,7 +43,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * Foram adicionadas informações sobre o CX Coworker à página **Trabalhar com IA**, que aborda o que é o CX Coworker, como ele se relaciona com o Assistente de IA e referências à documentação oficial do Colaborador. Páginas de habilidades dedicadas também foram adicionadas a cada guia de recursos — [Habilidades do CX Coworker para jornada](../building-journeys/journeys-coworker-skills.md), [Habilidades do CX Coworker para fidelidade](../loyalty-challenges/loyalty-coworker-skills.md) e [ferramentas de gerenciamento de conteúdo do CX Coworker](../content-management/content-management-coworker-skills.md). [Leia mais](../start/ai-features.md#cx-coworker)
 
-* Uma nova habilidade **Analisar anomalias de Jornada** foi documentada em **Analisar Jornada** na página do CX Coworker. Ele detecta picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de uma jornada em relação às linhas de base históricas e executa diagnósticos somente leitura para mostrar uma causa raiz provável. [Leia mais](../building-journeys/journeys-coworker-skills.md#journey-analyze)
+* Uma nova habilidade **Analisar anomalias de Jornada** foi documentada em **Analisar Jornada** na página CX Co-worker. Ele detecta picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de uma jornada em relação às linhas de base históricas e executa diagnósticos somente leitura para mostrar uma causa raiz provável. [Leia mais](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
 * As páginas **Medidas de proteção e limitações** e **propriedades de Jornada** foram atualizadas para documentar o limite de carga de jornada padrão como **2 MB (2.000.000 bytes)**, esclarecer que o valor reflete a definição de jornada serializada em vez de apenas a contagem de atividades e explicar os limites de aviso de 90% e de bloqueio de 100%. [Leia mais](../start/guardrails.md#journey-payload-size) e [saiba mais](../building-journeys/journey-properties.md#journey-payload-size)
 
@@ -102,8 +102,6 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * As páginas separadas da documentação **Enviar usando ondas** para jornadas e campanhas de ação foram mescladas em uma única página, agora também englobando campanhas orquestradas. [Leia mais](../delivery/send-using-waves.md)
 
 * Uma dica apontando para o artigo da comunidade da Experience League sobre **como desanexar e reingressar em nós** na nova tela de jornada foi adicionada à página **Criar sua jornada**. [Leia mais](../building-journeys/using-the-journey-designer.md)
-
-* A seção do componente **Grade** foi adicionada à página **Componentes de conteúdo do Designer de email**. Ela permite organizar o conteúdo em uma grade estruturada de linhas e colunas, onde cada célula pode conter outros componentes de conteúdo. [Leia mais](../email/content-components.md#grid)
 
 * A seção do componente **Grade** foi adicionada à página **Usar os componentes de conteúdo do Designer de email**. O componente de Grade permite organizar o conteúdo em uma grade estruturada de linhas e colunas, onde cada célula pode conter outros componentes de conteúdo. [Leia mais](../email/content-components.md#grid)
 

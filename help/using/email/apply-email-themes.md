@@ -13,28 +13,37 @@ exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 TQID: https://experienceleague.adobe.com/2zlrBZi84Uq475zZd5jzGki6NZuqTLJABh-G36VwNVA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+    internal-label: Templates
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+    internal-label: Email design
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+    internal-label: Publish
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c465d24e5ef832bfb19e6e478b9f73e3d7bd1dbb
+    internal-label: Optimization
+source-git-commit: d11d44f6d1237f9435c8c811023869e795222045
 workflow-type: tm+mt
-source-wordcount: 1798
-ht-degree: 3%
-
+source-wordcount: '2253'
+ht-degree: 2%
 ---
-
 # Aplicar temas ao conteúdo do email {#apply-email-themes}
 
 >[!BEGINSHADEBOX]
@@ -94,15 +103,15 @@ Para definir um tema que você pode aproveitar em seu conteúdo de email futuro,
 
 1. Selecione a opção **[!UICONTROL Criar ou editar temas]**.
 
-   ![](assets/theme-create.png)
+   ![Opção Criar ou editar temas na criação do modelo](assets/theme-create.png)
 
 1. Selecione um tema do Adobe. Neste exemplo, selecione o **[!UICONTROL Tema padrão]** e clique em **[!UICONTROL Criar]**.
 
-   ![](assets/theme-select.png)
+   ![Tela de seleção de tema com tema padrão selecionado](assets/theme-select.png)
 
 1. Você também pode selecionar um modelo personalizado na guia **[!UICONTROL Meus temas]** e clicar em **[!UICONTROL Editar]** para atualizá-lo.
 
-   ![](assets/theme-edit.png)
+   ![Guia Meus temas com a ação Editar para um tema personalizado](assets/theme-edit.png)
 
 1. Na guia **[!UICONTROL Configurações gerais]**, comece a definir seu tema dando a ele um nome específico que corresponda à sua marca. Você pode ajustar a largura padrão do visor para seus emails e também exportar o tema atual para [compartilhá-lo em sandboxes](../configuration/copy-objects-to-sandbox.md).
 
@@ -110,25 +119,47 @@ Para definir um tema que você pode aproveitar em seu conteúdo de email futuro,
 
 1. Use o painel à direita para navegar pelas diferentes guias e atualizar as configurações de design.
 
-   ![](assets/theme-right-pane.png)
+   ![Guias do painel direito para configurações de design de tema](assets/theme-right-pane.png)
 
 1. Na guia **[!UICONTROL Cores]**:
 
    * Use o botão **[!UICONTROL Editar]** para configurar uma **[!UICONTROL paleta de cores]** com cores padrão para sua marca. Selecione uma **[!UICONTROL Predefinição]** para criar rapidamente um esquema de cores ou ajustar cada cor do seu tema individualmente. Você também pode usar uma combinação de ambos.
 
-     ![](assets/theme-colors.gif)
+     ![Editor de paleta de cores para cores de tema](assets/theme-colors.gif)
 
-   * Clique em **[!UICONTROL Adicionar variante]** para criar várias variantes de cores, como o modo claro e escuro, em que cada variante do tema tem sua própria paleta de cores e controles de nuance.
+   * Clique em **[!UICONTROL Adicionar variante]** para criar várias variantes de cores para o tema, cada uma com sua própria paleta de cores e controles de nuance.
 
-     ![](assets/theme-colors-variant.png)
+     ![Adicionar ação de variante nas configurações de cor do tema](assets/theme-colors-variant.png)
 
    * Para cada variante, clique no ícone **[!UICONTROL Editar]** para editar qualquer elemento individual. É possível usar a paleta padrão criada ou qualquer cor personalizada.
 
-     ![](assets/theme-colors-edit-variant.gif)
+     ![Ícone Editar para configurações de variante de cores por elemento](assets/theme-colors-edit-variant.gif)
 
-1. Nas **[!UICONTROL Configurações de texto]**, é possível definir a fonte global que deseja usar para todo o tema. Para um controle mais granular, também é possível editar cada texto de cabeçalho e parágrafo para ajustar a fonte, o tamanho, o estilo e assim por diante.
+1. **Opcionalmente**, ative a opção **[!UICONTROL Habilitar modo escuro]** para disponibilizar o modo escuro para todas as variantes de cores do tema, por meio do botão de alternância na parte superior direita da tela central. [Saiba mais sobre o modo escuro](dark-mode.md)
 
-   ![](assets/theme-text.png)
+   ![Habilitar alternância de modo escuro nas configurações de tema](assets/theme-dark-mode-toggle.png)
+
+   Use esse botão para alternar para o modo de exibição escuro. A paleta de cores muda automaticamente para uma versão escura padrão para cada variante.
+
+   ![Visualização do tema no modo escuro na tela](assets/theme-dark-mode-view.png)
+
+   É possível personalizar ainda mais cada variante do modo escuro, usando uma paleta de cores diferente ou cores personalizadas.
+
+   ![Personalização de cor de modo escuro para variante de tema](assets/theme-dark-mode-support.gif)
+
+   >[!CAUTION]
+   >
+   >A visualização em modo escuro é uma simulação e pode não corresponder exatamente ao resultado final. Envie uma prova para verificar a renderização exata em clientes de email que oferecem suporte ao modo escuro personalizado. [Saiba mais](dark-mode.md#guardrails)
+
+   As variantes de cor no modo escuro são independentes das cores no modo claro, portanto, as edições de cor na pré-visualização no modo escuro se aplicam apenas à versão no modo escuro. No entanto, configurações sem cor (como espaçamento, preenchimento, tamanho da fonte etc.) são compartilhados com o modo de luz e também são aplicados lá.
+
+   >[!NOTE]
+   >
+   >Para excluir uma variante de cor, você deve estar no modo claro. Não é possível excluir uma variante durante a exibição no modo escuro.
+
+1. Nas **[!UICONTROL Configurações de texto]**, é possível definir a fonte global que deseja usar para todo o tema. Para obter um controle mais granular, também é possível editar cada texto de cabeçalho e parágrafo para ajustar a fonte, o tamanho, o estilo, etc.
+
+   ![Painel de configurações de texto para fontes e tipografia](assets/theme-text.png)
 
    >[!NOTE]
    >
@@ -140,7 +171,7 @@ Para definir um tema que você pode aproveitar em seu conteúdo de email futuro,
 
 1. Usando as outras guias à direita, você pode gerenciar separadamente cada elemento de botão, divisor, formatação de imagem adicional e espaçamento do layout de grade para esse tema.
 
-   ![](assets/theme-buttons.png)
+   ![Configurações de estilo de botões e componentes no editor de temas](assets/theme-buttons.png)
 
 1. Clique em **[!UICONTROL Salvar]** para armazenar este tema para uso futuro. Agora ele é exibido na guia **[!UICONTROL Meus temas]**.
 
@@ -158,7 +189,7 @@ Para aplicar temas de estilo padrão ou personalizados a um modelo de conteúdo 
 
    * Crie um [novo conteúdo do zero](content-from-scratch.md) e selecione **[!UICONTROL Usar Temas]** para começar com um tema de estilo predefinido.
 
-     ![](assets/theme-from-scratch.png)
+     ![Usar a opção Temas ao iniciar o conteúdo do zero](assets/theme-from-scratch.png)
 
      >[!CAUTION]
      >
@@ -168,21 +199,31 @@ Para aplicar temas de estilo padrão ou personalizados a um modelo de conteúdo 
 
 1. No Designer de Email, clique no botão **[!UICONTROL Temas]** no painel direito. O tema padrão ou o tema do modelo é exibido. Você pode alternar entre as duas variantes de cor para esse tema.
 
-   ![](assets/theme-default-hero.png)
+   ![Email do Designer com tema padrão aplicado](assets/theme-default-hero.png)
 
 1. Clique na seta ao lado do tema usado no momento. A lista de temas personalizados e do Adobe disponíveis é exibida.
 
-   ![](assets/theme-hero-change.png)
+   ![Lista suspensa de temas mostrando os temas disponíveis](assets/theme-hero-change.png)
 
 1. Clique em **[!UICONTROL Meus temas]** e selecione um tema criado.
 
-   ![](assets/theme-select-custom.png)
+   ![Lista suspensa Meus temas com um tema personalizado selecionado](assets/theme-select-custom.png)
 
 1. Clique fora da lista suspensa. O tema personalizado recém-selecionado aplica automaticamente seus estilos a todos os componentes de email. É possível alternar entre as variantes de cor, se houver.
 
+1. Alterne para o **[!UICONTROL Modo escuro]** para o tema selecionado. A versão em modo escuro desse tema é aplicada ao conteúdo do email. Atualize-a conforme necessário - qualquer edição e visualização de cor subsequente reflete o estilo do modo escuro.
+
+   ![Visualização em modo claro do email com tema](assets/theme-light-mode.png){width="45%"} ![Visualização em modo escuro do email com tema](assets/theme-dark-mode.png){width="45%"}
+
+   A versão de modo escuro é usada quando a mensagem é exibida em clientes de email compatíveis com o modo escuro. [Saiba mais sobre o modo escuro](dark-mode.md)
+
+   >[!NOTE]
+   >
+   >Quando você está na pré-visualização no modo escuro, as alterações de cor se aplicam somente à versão no modo escuro. No entanto, configurações sem cor (como espaçamento, preenchimento, tamanho da fonte etc.) também são aplicadas ao modo de luz.
+
 1. Quando um tema for selecionado em um modelo de conteúdo, você poderá clicar no botão **[!UICONTROL Editar tema]** para atualizá-lo. [Saiba mais](#create-and-edit-themes)
 
-   ![](assets/theme-edit-in-template.png){width="40%"}
+   ![Botão Editar tema no modelo de conteúdo com tema](assets/theme-edit-in-template.png){width="40%"}
 
    >[!NOTE]
    >
@@ -196,7 +237,7 @@ Para aplicar temas de estilo padrão ou personalizados a um modelo de conteúdo 
 
    Para fazer isso, selecione um componente de estrutura, clique na **[!UICONTROL opção Usar variante de tema específica]** da guia **[!UICONTROL Estilos]** à direita e aplique a variante desejada a essa estrutura.
 
-   ![](assets/theme-structure-variant.png)
+   ![Opção de variante de tema específica em nível de estrutura](assets/theme-structure-variant.png)
 
    Neste exemplo, a primeira variante de cor do tema atual é aplicada a todo o conteúdo do email, mas a terceira variante de cor é aplicada à estrutura selecionada. É possível ver que as cores do fundo do corpo e do visor para essa estrutura específica são diferentes do restante do conteúdo.
 
@@ -208,13 +249,13 @@ Quando um componente é selecionado, é possível desbloquear seu estilo usando 
 
 ![](assets/theme-unlock-style.png){width="90%"}
 
-O tema selecionado ainda é aplicado a esse componente, mas você pode substituir seus elementos de estilo. Se você alterar temas, o novo tema será aplicado somente aos elementos de estilo que não foram substituídos.<!--can you revert this action?-->
+O tema selecionado ainda é aplicado a esse componente, mas você pode substituir seus elementos de estilo. Se você alterar os temas, o novo tema será aplicado somente aos elementos de estilo que não foram substituídos.
 
-Por exemplo, se você desbloquear um componente de texto, poderá alterar <!--the font size from 11 to 14 and -->a cor da fonte de preto para vermelho:
+Por exemplo, se você desbloquear um componente de texto, poderá alterar a cor da fonte de preto para vermelho:
 
 ![](assets/theme-unlock-style-ex-white.png){width="80%" align="center" zoomable="yes"}
 
-Se você alterar temas, <!--the font size is still 14 and -->a cor da fonte ainda será vermelha para esse componente, mas a cor do plano de fundo desse componente será alterada com o novo tema:
+Se você alterar os temas, a cor da fonte ainda será vermelha para esse componente, mas a cor do plano de fundo desse componente mudará com o novo tema:
 
 ![](assets/theme-unlock-style-ex-colored.png){width="80%"}
 
@@ -228,7 +269,7 @@ Para criar um fragmento compatível com temas, siga as etapas abaixo.
 
 1. Selecione **[!UICONTROL Usar Temas]** para começar com um tema de estilo predefinido.
 
-   ![](assets/fragment-use-themes.png){width="100%"}
+   ![Opção Usar temas ao criar um fragmento visual](assets/fragment-use-themes.png){width="100%"}
 
    >[!CAUTION]
    >
@@ -238,11 +279,11 @@ Para criar um fragmento compatível com temas, siga as etapas abaixo.
 
 1. Clique no botão **[!UICONTROL Temas]** no painel direito. O tema padrão é exibido. Você pode alternar entre as diferentes variantes de cor para esse tema.
 
-   ![](assets/fragment-default-theme.png){width="100%" align="center" zoomable="yes"}
+   ![Editor de fragmentos com tema padrão aplicado](assets/fragment-default-theme.png){width="100%" align="center" zoomable="yes"}
 
 1. É possível selecionar outros temas para visualizar o conteúdo do fragmento. Para fazer isso, selecione a seta ao lado do tema padrão e clique em **[!UICONTROL Selecionar temas]**.
 
-   ![](assets/fragment-select-themes.png){width="40%"}
+   ![Selecionar ação de temas no menu de temas de fragmento](assets/fragment-select-themes.png){width="40%"}
 
 1. Você pode navegar entre as guias **[!UICONTROL Temas do Adobe]** e **[!UICONTROL Meus temas]** e selecionar até cinco temas compatíveis (de ambas as guias) para o fragmento.
 
@@ -250,7 +291,7 @@ Para criar um fragmento compatível com temas, siga as etapas abaixo.
    >
    >Esse limite é aplicado por motivos de compatibilidade e desempenho. O **[!UICONTROL tema padrão do Adobe]** não pode ser removido, portanto, você pode selecionar até quatro temas personalizados adicionais.
 
-   ![](assets/fragment-select-compatible-themes.png){width=70%}
+   ![Caixa de diálogo de seleção de temas compatíveis para o fragmento](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
@@ -260,13 +301,13 @@ Para criar um fragmento compatível com temas, siga as etapas abaixo.
 
 1. Selecione novamente a seta ao lado do **[!UICONTROL Tema padrão]**. Agora é possível alternar entre os diferentes temas selecionados para visualizar cada renderização de estilo.
 
-   ![](assets/fragment-selected-themes.png){width=90%}
+   ![Alternância de visualização de fragmento entre temas selecionados](assets/fragment-selected-themes.png){width=90%}
 
 1. Clique em **[!UICONTROL Selecionar temas]** novamente para adicionar mais temas ou alterar sua seleção.
 
 ## Tornar um modelo compatível com temas {#theme-convertor}
 
-[!DNL Journey Optimizer] permite converter um modelo que foi criado usando o estilo manual em um conteúdo compatível com tema. Isso pode ser particularmente útil se você criou modelos de conteúdo antes de os temas serem introduzidos no [!DNL Journey Optimizer], ou se você estiver importando conteúdo externo.
+[!DNL Journey Optimizer] permite converter um modelo criado com o estilo manual em um conteúdo compatível com tema. Isso pode ser particularmente útil se você criou modelos de conteúdo antes de os temas serem introduzidos no [!DNL Journey Optimizer], ou se você estiver importando conteúdo externo.
 
 >[!NOTE]
 >
@@ -276,17 +317,17 @@ Para criar um fragmento compatível com temas, siga as etapas abaixo.
 
 1. Selecione o ícone **[!UICONTROL Temas]** no painel direito e clique no botão **[!UICONTROL Gerar tema do conteúdo]**.
 
-   ![](assets/generate-theme.png){width=100%}
+   ![Botão Gerar tema a partir do conteúdo no painel Temas](assets/generate-theme.png){width=100%}
 
 1. A janela **[!UICONTROL Criar um tema]** é aberta. O [!DNL Journey Optimizer] detecta automaticamente os elementos de estilo e os consolida em um novo tema.
 
-   ![](assets/generate-theme-create-window.png){width=90%}
+   ![Criar uma caixa de diálogo de tema após a detecção de estilo](assets/generate-theme-create-window.png){width=90%}
 
 1. Forneça um nome para o tema.
 
 1. Faça seus próprios ajustes, conforme necessário, da mesma forma que faz ao criar um tema do zero, como adicionar uma variante de cor, editar fontes, etc. [Saiba como](#create-and-edit-themes)
 
-   ![](assets/generate-theme-colors.png){width=90%}
+   ![Configurações de tema geradas prontas para ajuste](assets/generate-theme-colors.png){width=90%}
 
 1. Clique em **[!UICONTROL Salvar]** para armazenar este novo tema para reutilização. Agora é possível aplicar esse tema ao seu conteúdo, como qualquer outro tema. [Saiba como](#apply-themes-email)
 
