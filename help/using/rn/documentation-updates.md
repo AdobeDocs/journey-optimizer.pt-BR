@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 9c6142de31dfd7e1ce42b0bf0c7fc0be1743312d
+source-git-commit: 4e9ccef9fabcfeb9271e8f560ff11286caa4786c
 workflow-type: tm+mt
-source-wordcount: '7217'
-ht-degree: 82%
+source-wordcount: '7258'
+ht-degree: 81%
 ---
 
 # Atualizações na documentação {#latest-updates}
@@ -53,7 +53,7 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 
 * A documentação do **Conjunto de Dados de Eventos de Feedback de Mensagens do AJO** foi expandida para esclarecer que abrange o feedback de entrega de mensagens em todos os canais (Email, SMS/RCS/MMS, Mala direta), não apenas email e push, e agora inclui uma seção **Classificar execuções de teste e não teste** explicando como interpretar o campo `isTestExecution`, incluindo `NULL` ou valores ausentes. [Leia mais](../data/datasets-query-examples.md#classify-test-executions)
 
-* Um novo recurso **Gerenciamento de conteúdo** foi documentado para o CX Co-worker, alimentado por 15 ferramentas de MCP de leitura/gravação que permitem descobrir, criar, atualizar, clonar e publicar modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha do jornada/campaign usando prompts de linguagem natural. [Leia mais](../content-management/content-management-coworker-skills.md#content-management)
+* Um novo recurso **Gerenciamento de conteúdo** foi documentado para o CX Coworker, alimentado por 15 ferramentas de MCP de leitura/gravação que permitem descobrir, criar, atualizar, clonar e publicar modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha do jornada/campaign usando prompts de linguagem natural. [Leia mais](../content-management/content-management-coworker-skills.md#content-management)
 
 * A documentação **Adicionar conteúdo à página de aterrissagem** agora descreve uma opção **Tornar campo de formulário obrigatório** para caixas de seleção de consentimento: quando habilitada, o formulário não pode ser enviado, a menos que a caixa de seleção esteja marcada e a seleção seja imposta no lado do cliente e no lado do servidor. [Leia mais](../landing-pages/lp-content.md#use-form-component)
 
@@ -104,6 +104,8 @@ Esta página lista todas as alterações mais recentes na documentação do [!DN
 * Uma dica apontando para o artigo da comunidade da Experience League sobre **como desanexar e reingressar em nós** na nova tela de jornada foi adicionada à página **Criar sua jornada**. [Leia mais](../building-journeys/using-the-journey-designer.md)
 
 * A seção do componente **Grade** foi adicionada à página **Componentes de conteúdo do Designer de email**. Ela permite organizar o conteúdo em uma grade estruturada de linhas e colunas, onde cada célula pode conter outros componentes de conteúdo. [Leia mais](../email/content-components.md#grid)
+
+* A seção do componente **Grade** foi adicionada à página **Usar os componentes de conteúdo do Designer de email**. O componente de Grade permite organizar o conteúdo em uma grade estruturada de linhas e colunas, onde cada célula pode conter outros componentes de conteúdo. [Leia mais](../email/content-components.md#grid)
 
 * A documentação da **API de Migração de Decisão** foi atualizada com um esclarecimento de que a sandbox de destino **pode ser igual à sandbox de origem**. O processo de migração trata desse cenário e garante a integridade dos dados, independentemente de os objetos serem migrados na mesma sandbox ou para uma diferente. [Leia mais](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
 
