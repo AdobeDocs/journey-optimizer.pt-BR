@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ce701a937ccf452e36f139e393b0b80d38b33477
+source-git-commit: 1da3120b8fb13eff15e572a9a4d8d12e799840b9
 workflow-type: tm+mt
 source-wordcount: '2384'
 ht-degree: 19%
@@ -69,7 +69,7 @@ O recurso a seguir está chegando ao gerenciamento de conteúdo nesta versão.
 <tbody>
 <tr>
 <td>
-<p>Um novo plug-in de <strong>Conteúdo do Canal</strong> já está disponível no Co-worker, que reúne as habilidades de cópia da campanha, imagem e email montado no HTML em um plug-in, da estratégia à implantação. As seguintes habilidades estão disponíveis no plug-in **Conteúdo do canal**:</p>
+<p>Um novo plug-in de <strong>Conteúdo do Canal</strong> já está disponível no Co-worker, que reúne as habilidades de cópia da campanha, imagem e email montado no HTML em um plug-in, da estratégia à implantação. As seguintes habilidades estão disponíveis no plug-in <b>Conteúdo do canal</b>:</p>
 <ul>
 <li><strong>Orquestrar Criação De Conteúdo</strong>.</li>
 <li><strong>Explorar a estratégia de conteúdo</strong></li>
