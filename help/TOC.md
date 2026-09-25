@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 nudge: yes
-source-git-commit: db15e4afe09004568dd71f3ab8caf01fa74488b2
+source-git-commit: 587cf43f9d30d6c88f6c5ad6d7fe5310d090e393
 workflow-type: tm+mt
-source-wordcount: '3520'
+source-wordcount: '3523'
 ht-degree: 99%
 ---
 # Ajuda do Adobe Journey Optimizer {#using}
@@ -694,6 +694,7 @@ ht-degree: 99%
   + Decisão {#experience-decisioning}
     + [Decisão](/help/rp_landing_pages/experience-decisioning-landing-page.md)
     + [Introdução ao serviço de decisão](using/experience-decisioning/gs-experience-decisioning.md)
+    + [Colaborador na decisão](using/experience-decisioning/experience-decisioning-coworker-skills.md)
     + [Medidas de proteção e limitações do serviço de decisão](using/experience-decisioning/decisioning-guardrails.md)
     + [Perguntas frequentes sobre decisão](using/experience-decisioning/decisioning-faq.md)
     + Migrar para a Decisão {#migrate-to-decisioning}

@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3ff1c1bc3d4d5374dd02e1a6be5aac3e73ab6ce7
+source-git-commit: 7d3cceb18c2b2a626b56c3809978c4cfc95689d8
 workflow-type: tm+mt
-source-wordcount: '4725'
+source-wordcount: '4885'
 ht-degree: 14%
 ---
 # Notas de versão {#release-notes}
@@ -67,6 +67,8 @@ Esta versão traz vários recursos e habilidades novos e aprimorados do [Coworke
 * [Simulação de Jornada](#sep-26-journeys) - Automatize a validação de jornada de ponta a ponta e interprete os resultados diretamente no Colaborador.
 * [Comparar versões do jornada](#sep-26-journeys) - Obtenha uma diferença estruturada e de fidelidade completa entre duas versões de uma jornada por meio do Chat do Colaborador.
 * [Analisar habilidade de Anomalias de Jornada](#sep-26-journeys) - Detecte picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de mensagem de uma jornada, com diagnóstico de causa raiz.
+* [Habilidade do explicador da decisão](#sep-26-decisioning) - Pergunte ao colaborador por que uma oferta específica foi ou não mostrada a um perfil ou a um segmento e obtenha um rastreamento completo de elegibilidade, classificação e exclusões de regras.
+* [Regras e habilidade de classificação](#sep-26-decisioning) - Crie, explique, simule e otimize regras de elegibilidade de decisão e fórmulas de classificação em linguagem natural, sem escrever ou validar a sintaxe do PQL manualmente.
 
 +++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
@@ -718,6 +720,40 @@ Os seguintes recursos e melhorias estão chegando à decisão nesta versão.
 <td>A Decisão agora está disponível no canal da web. Você pode usar políticas de decisão diretamente no editor visual da web para fornecer as ofertas mais relevantes a cada visitante.</p>
 <p>Para obter mais informações, consulte a <a href="../experience-decisioning/use-decision-policy.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 22 de setembro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Explicador de Decisão no Colaborador</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Uma nova habilidade <strong>Explicador de decisão</strong> no CX Coworker permite que você pergunte, em linguagem natural, por que uma oferta específica foi ou não mostrada a um perfil ou segmento, rastreando a qualificação, o limite, a classificação e o pool de candidatos envolvidos na decisão.</p>
+<p>Para obter mais informações, consulte a <a href="../experience-decisioning/experience-decisioning-coworker-skills.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 16 de setembro de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Regras e Classificação no Colaborador</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Uma nova habilidade <strong>Rules &amp; Ranking</strong> no CX Coworker permite criar, explicar, simular e otimizar regras de elegibilidade e fórmulas de classificação usando linguagem natural, sem escrever ou validar a sintaxe do PQL manualmente.</p>
+<p>Para obter mais informações, consulte a <a href="../experience-decisioning/experience-decisioning-coworker-skills.md#rules-ranking">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 16 de setembro de 2026</p>
 </td>
 </tr>
 </tbody>

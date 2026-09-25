@@ -30,9 +30,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
+source-git-commit: 443c2ae7e693d469ea21f1be0927965540ada045
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1748'
 ht-degree: 11%
 ---
 # Criar regras {#rules}
@@ -54,6 +54,10 @@ Em [!DNL Journey Optimizer], você pode criar dois tipos de regras reutilizávei
 
 * [Regras de decisão](#decision-rules)
 * [Regras de direcionamento](#targeting-rules)
+
+>[!TIP]
+>
+>Você também pode criar, explicar, simular e otimizar regras de forma conversacional usando a habilidade **Regras e Classificação** no [Colaborador para Decisão](experience-decisioning-coworker-skills.md#rules-ranking).
 
 ### Regras de decisão {#decision-rules}
 
@@ -274,4 +278,4 @@ Para otimizar uma regra:
 
 Saiba como criar, duplicar e aplicar **regras de direcionamento** reutilizáveis no Adobe Journey Optimizer para personalizar campanhas com eficiência com base em atributos de cliente, como região, idioma e comportamento, economizando tempo e melhorando a precisão do público-alvo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476132/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
