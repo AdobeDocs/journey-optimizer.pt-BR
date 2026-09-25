@@ -12,25 +12,32 @@ exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 TQID: https://experienceleague.adobe.com/8kFppIm3Q-zHDqalE0Vt0CK5Z1ts9fGspVu476TapSk
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+    internal-label: Email design
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+    internal-label: Publish
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
+    internal-label: Dynamic content
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 source-git-commit: 7047a27a870c50f7a093ec7d98d8398948b78edb
-workflow-type: tm+mt
-source-wordcount: 887
-ht-degree: 12%
-
+workflow-type: ht
+source-wordcount: '887'
+ht-degree: 100%
 ---
-
 # Personalizar o plano de fundo do email {#backgrounds}
 
 >[!BEGINSHADEBOX]
@@ -44,88 +51,88 @@ ht-degree: 12%
 >title="Configurações de fundo"
 >abstract="Você pode personalizar a cor ou a imagem do fundo para o seu conteúdo. Observe que a imagem do fundo não é aceita por todos os clientes de email."
 
-Os planos de fundo ajudam a reforçar a identidade da marca e chamar a atenção para as principais áreas do seu email. No Designer de email, você pode definir uma cor ou imagem de fundo em diferentes níveis de seu conteúdo — do corpo geral às estruturas e colunas individuais —, fornecendo controle preciso sobre como os planos de fundo são renderizados no email.
+Os planos de fundo ajudam a reforçar a identidade da marca e chamar atenção para as principais áreas do email. No Designer de email, é possível definir uma cor ou imagem de fundo nos diferentes níveis do conteúdo — do corpo geral às estruturas e colunas individuais — fornecendo controle preciso sobre como os planos de fundo são renderizados no email.
 
 Lembre-se das seguintes práticas recomendadas ao definir planos de fundo no Designer de email:
 
-* Aplique uma cor de plano de fundo ao corpo somente se o design exigir.
+* Aplique uma cor de fundo ao corpo somente se o design exigir.
 * Prefira definir as cores de fundo no nível da coluna sempre que possível.
-* Evite usar as cores do plano de fundo em componentes de imagem ou texto, pois elas são mais difíceis de gerenciar.
-* Teste imagens de fundo em clientes de email reais antes do envio, pois a renderização pode diferir da pré-visualização do Designer de email.
+* Evite usar cores de fundo em componentes de imagem ou texto, pois são mais difíceis de gerenciar.
+* Teste as imagens de fundo em clientes de email reais antes do envio, pois a renderização pode ser diferente da visualização do Designer de email.
 
 As configurações a seguir permitem aplicar uma cor ou imagem de fundo em qualquer nível do conteúdo do email, desde o corpo até estruturas e colunas individuais.
 
 >[!TIP]
 >
->Se um tema for aplicado ao seu email, não será possível substituir diretamente a cor de fundo definida pelo tema para um determinado componente. Você deve primeiro desbloquear esse estilo usando o ícone dedicado na guia **[!UICONTROL Estilos]**. [Saiba como](apply-email-themes.md#unlocking-styles)
+>Se um tema for aplicado ao email, não será possível substituir diretamente a cor de fundo definida pelo tema para um determinado componente. É necessário primeiro desbloquear esse estilo usando o ícone dedicado na guia **[!UICONTROL Estilos]**. [Saiba como](apply-email-themes.md#unlocking-styles)
 
-## Definir uma cor de plano de fundo {#background-color}
+## Definir uma cor de fundo {#background-color}
 
-1. **Cor do plano de fundo do corpo** - Defina uma **[!UICONTROL Cor do plano de fundo]** para o email inteiro. Selecione **[!UICONTROL Corpo]** na **[!UICONTROL árvore de navegação]** acessível na paleta esquerda e use a opção dedicada da guia **[!UICONTROL Estilos]** à direita.
+1. **Cor de fundo do corpo** – define uma **[!UICONTROL cor de fundo]** para todo o email. Certifique-se de selecionar **[!UICONTROL Corpo]** na **[!UICONTROL Árvore de navegação]**, acessível na paleta esquerda, e usar a opção dedicada na guia **[!UICONTROL Estilos]** à direita.
 
-   ![Envie um email ao Designer com o Corpo selecionado na árvore de navegação e a opção Cor do plano de fundo realçada no painel Estilos](assets/background_1.png)
+   ![Designer de email com Corpo selecionado na árvore de navegação e a opção Cor de fundo realçada no painel Estilos](assets/background_1.png)
 
-1. **Cor do plano de fundo da janela** - Defina uma **[!UICONTROL Cor da janela]** para aplicar a mesma cor de plano de fundo a todos os componentes da estrutura, independentemente da cor do plano de fundo do corpo.
+1. **Cor de fundo do visor** - defina uma **[!UICONTROL cor do visor]** para aplicar a mesma cor de fundo a todos os componentes de estrutura, independente da cor de fundo do corpo.
 
-   ![Painel Estilos de Designer de email com a opção de cor Viewport realçada e um seletor de cores aberto para escolher a cor de plano de fundo aplicada a todas as estruturas](assets/background_2.png)
+   ![Painel Estilos do Designer de email com a opção Cor do visor realçada e um seletor de cores aberto para escolher a cor de fundo aplicada a todas as estruturas](assets/background_2.png)
 
-1. **Cor do plano de fundo da estrutura** - Para aplicar uma cor de plano de fundo a um único componente de estrutura, selecione-o diretamente na tela de desenho ou na paleta esquerda e defina uma cor específica para essa estrutura.
+1. **Cor de fundo da estrutura** – para aplicar uma cor de fundo a um único componente de estrutura, selecione-o diretamente na tela ou na paleta esquerda e defina uma cor específica para ele.
 
-   ![Painel Estilos de email do Designer para uma estrutura selecionada, com a opção Cor do plano de fundo realçada](assets/background_3.png)
+   ![Painel Estilos do Designer de email para uma estrutura selecionada, com a opção Cor de fundo realçada](assets/background_3.png)
 
    >[!TIP]
    >
-   >Nesse caso, não defina uma cor de fundo de visor, pois ela pode ocultar as cores de fundo da estrutura.
+   >Nesse caso, certifique-se de não definir uma cor de fundo do visor, pois isso pode ocultar as cores de fundo da estrutura.
 
-1. **Cor de plano de fundo da coluna** - Defina uma cor de plano de fundo no nível da coluna. Novamente, selecione a coluna desejada na paleta esquerda e defina uma cor específica para essa coluna.
+1. **Cor de fundo da coluna** – defina uma cor de fundo no nível da coluna. Novamente, certifique-se de selecionar a coluna desejada na paleta esquerda e defina uma cor específica para essa coluna.
 
-   ![Painel Estilos de email do Designer para uma coluna selecionada, com a opção Cor do plano de fundo realçada](assets/background_5.png)
+   ![Painel Estilos do Designer de email para uma coluna selecionada, com a opção Cor de fundo realçada](assets/background_5.png)
 
    >[!TIP]
    >
    >Esse é o caso de uso mais comum e uma prática recomendada, pois oferece mais flexibilidade ao editar o restante do conteúdo de email.
 
-## Definir uma imagem de plano de fundo {#background-image}
+## Definir uma imagem de fundo {#background-image}
 
-Você também pode definir uma **[!UICONTROL Imagem de plano de fundo]** para o conteúdo de uma estrutura ou componente de coluna. Isso é usado com mais frequência no nível da estrutura; é possível definir um no nível da coluna, mas raramente é usado.
+Também é possível definir uma **[!UICONTROL Imagem de fundo]** para o conteúdo de uma estrutura ou componente de coluna. Isso é usado com mais frequência no nível da estrutura; é possível definir um no nível da coluna, mas isso raramente é feito.
 
 >[!NOTE]
 >
 >Alguns programas de email não são compatíveis com imagens de fundo. Quando não houver compatibilidade, a cor de fundo da linha será usada. Certifique-se de selecionar uma cor de fundo sobressalente apropriada caso a imagem não possa ser exibida.
 
-![Painel Estilos de email do Designer com imagem de plano de fundo habilitada e posicionamento de Imagem definido como Altura Total - Direita, mostrando a imagem preenchendo uma coluna](assets/background_4.png)
+![Painel Estilos do Designer de email com a imagem de fundo habilitada e o posicionamento de imagem definido como Altura total - Direita, mostrando a imagem preenchendo uma coluna](assets/background_4.png)
 
 >[!TIP]
 >
->Pré-visualize a imagem de fundo nos clientes de email reais antes de enviar, não apenas na pré-visualização do Designer de email. A mesma imagem e posicionamento podem ser renderizados corretamente no editor, mas são exibidos esticados ou cortados de forma diferente em alguns clientes, como o Outlook no iOS.
+>Visualize a imagem de fundo em clientes de email reais antes de enviar, não apenas na visualização do Designer de email. A mesma imagem e posicionamento podem ser renderizados corretamente no editor, mas são exibidos esticados ou cortados de forma diferente em alguns clientes, como o Outlook no iOS.
 
-Depois que uma imagem de plano de fundo é definida, use a lista suspensa **[!UICONTROL Posicionamento da imagem]** para controlar como a imagem preenche a estrutura ou a coluna. As opções abaixo estão disponíveis para seleção:
+Depois de definir uma imagem de fundo, use a lista suspensa **[!UICONTROL Posicionamento da imagem]** para controlar como a imagem preenche a estrutura ou a coluna. As opções abaixo estão disponíveis para seleção:
 
-![Painel Estilos de email do Designer mostrando a lista suspensa Posicionamento da imagem com várias opções](assets/background_6.png){width=80%}
+![Painel Estilos do Designer de email mostrando a lista suspensa Posicionamento da imagem com várias opções](assets/background_6.png){width=80%}
 
-**Escala para preenchimento, centralizada:**
+**Dimensionar para preencher, centralizado:**
 
-* **[!UICONTROL Ajustar]** - Estica a imagem para preencher o contêiner em ambos os eixos, sem preservar sua taxa de proporção.
-* **[!UICONTROL Largura Total]** - Dimensiona a imagem proporcionalmente à largura do contêiner e a centraliza verticalmente.
-* **[!UICONTROL Altura total]** - Dimensiona a imagem proporcionalmente à altura do contêiner e a centraliza horizontalmente.
+* **[!UICONTROL Ajustar]** - estica a imagem para preencher o container em ambos os eixos, sem preservar a proporção.
+* **[!UICONTROL Largura total]** - dimensiona a imagem proporcionalmente à largura do container e a centraliza verticalmente.
+* **[!UICONTROL Altura total]** - dimensiona a imagem proporcionalmente à altura do container e a centraliza horizontalmente.
 
-**Escala de preenchimento, ancorada em uma borda:**
+**Dimensionar para preencher, ancorado a uma borda:**
 
-* **[!UICONTROL Largura Total - Superior]** - Igual à **[!UICONTROL Largura Total]**, ancorada na parte superior do contêiner. O estouro é cortado na parte inferior.
-* **[!UICONTROL Largura Total - Inferior]** - Igual à **[!UICONTROL Largura Total]**, ancorada na parte inferior do contêiner. O estouro é cortado na parte superior.
-* **[!UICONTROL Altura Completa - Esquerda]** - Igual a **[!UICONTROL Altura Completa]**, ancorado à esquerda do contêiner. O estouro é cortado à direita.
-* **[!UICONTROL Altura Completa - Direita]** - Igual à **[!UICONTROL Altura Completa]**, ancorada à direita do contêiner. O estouro é cortado à esquerda.
+* **[!UICONTROL Largura total - superior]** - igual à **[!UICONTROL Largura total]**, ancorada na parte superior do container. O excesso é cortado na parte inferior.
+* **[!UICONTROL Largura total - inferior]** - igual à **[!UICONTROL Largura total]**, ancorada na parte inferior do container. O excesso é cortado na parte superior.
+* **[!UICONTROL Altura total - esquerda]** - igual à **[!UICONTROL Altura total]**, ancorada à esquerda do container. O excesso é cortado à direita.
+* **[!UICONTROL Altura total - direita]** - igual à **[!UICONTROL Altura total]**, ancorada à direita do container. O excesso é cortado à esquerda.
 
 **Bloco:**
 
-* **[!UICONTROL Repetir]** - Organiza lado a lado a imagem em seu tamanho original para preencher o contêiner.
+* **[!UICONTROL Repetir]** - repete a imagem lado a lado em seu tamanho original para preencher o contêiner.
 
 **Posição sem dimensionamento:**
 
-* **[!UICONTROL Esquerda]**, **[!UICONTROL Direita]**, **[!UICONTROL Centro]**, **[!UICONTROL Superior]**, **[!UICONTROL Inferior]** - Posiciona a imagem em seu tamanho original, ancorada na borda ou no centro correspondente do contêiner.
+* **[!UICONTROL Esquerda]**, **[!UICONTROL Direita]**, **[!UICONTROL Centro]**, **[!UICONTROL Superior]**, **[!UICONTROL Inferior]** - posiciona a imagem no tamanho original, ancorada à borda ou ao centro correspondente do container.
 
 >[!NOTE]
 >
->As opções de borda ancorada oferecem mais controle sobre qual parte da imagem permanece na exibição quando não corresponde às proporções da estrutura, em comparação às opções centralizadas acima.
+>As opções de ancoragem em borda oferecem mais controle sobre qual parte da imagem permanece em exibição quando ela não corresponde às proporções da estrutura, em comparação às opções centralizadas acima.
 
 {{$include /help/_includes/do-not-localize/email/ai-augmented-backgrounds.md}}

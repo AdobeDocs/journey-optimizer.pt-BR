@@ -15,7 +15,7 @@ subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
 source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '9308'
 ht-degree: 100%
 ---
@@ -318,7 +318,7 @@ table>
 <li>O tamanho máximo para cada anexo é 5 MB.</li>
 <li>Para qualquer tamanho ou volume adicional, é possível comprar o complemento Anexos em PDF. Para obter mais informações, entre em contato com um representante da Adobe.</li>
 </ul>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Para obter mais informações, consulte a <a href="../email/pdf-attachments.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 30 de setembro de 2025</p>
@@ -570,7 +570,7 @@ You can now use AI models to optimize the best content in your email through the
 <td>
 <p>Lançado anteriormente em beta público, esse recurso agora está disponível para todos os ambientes. Nesta versão, os seguintes aprimoramentos foram introduzidos:</p>
 <ul><li>Suporte para personalização de pesquisa de conjunto de dados em canais de entrada.</li>
-<li>A função auxiliar "datasetLookup" agora pode ser usada em fragmentos de expressão. Por enquanto, esse recurso está disponível para um conjunto limitado de clientes. Para obter acesso, entre em contato com um representante da Adobe.</li>
+<li>A função auxiliar "datasetLookup" agora pode ser usada em fragmentos de expressão. Por enquanto, esse recurso está disponível para um conjunto limitado de clientes. Para obter acesso, entre em contato com o representante da Adobe.</li>
 <li>Uma opção na interface de gerenciamento de conjuntos de dados agora permite habilitar conjuntos de dados para personalização de pesquisa, sem precisar executar uma chamada de API.</li>
 <li>Monitoramento aprimorado para monitorar o status de ingestão de dados e saber quando os conjuntos de dados estão prontos para pesquisa.</li>
 <li>Diretrizes e medidas de proteção atualizadas para garantir desempenho e confiabilidade ideais.</li>
@@ -599,7 +599,7 @@ Ao configurar um provedor de SMS personalizado, agora você tem a opção de hab
 * **Suporte à pesquisa de conjunto de dados em jornadas**\
   A nova atividade em jornadas **Consulta de conjunto de dados** permite recuperar dados dinamicamente de conjuntos de dados de registros da Adobe Experience Platform durante o tempo de execução. Ao aproveitar esse recurso, é possível acessar dados que podem não estar no perfil ou no conteúdo do evento, garantindo que as interações com o cliente sejam relevantes e oportunas. [Leia mais](../building-journeys/dataset-lookup.md) - Data de disponibilidade: 23 de setembro de 2025
 
-  Esta atividade está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+  Esta atividade está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.
 
 * **Redirecionar suporte em ações personalizadas da jornada**\
   Redirecionamentos (302) agora são aceitos em Ações personalizadas da jornada. - Data de disponibilidade: 23 de setembro de 2025
@@ -655,7 +655,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <p>É possível pausar e retomar apenas uma jornada ou executar operações de pausa e retomada em massa para um grupo de jornadas.</p>
 <p>Além disso, é possível aplicar critérios de saída baseados em atributos de perfil (que anteriormente possuíam o nome "filtro global") a jornadas pausadas para excluir perfis com base em seus atributos.</p>
 <p><img src="assets/do-not-localize/PauseResume.gif"/></p>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para mais informações, consulte a <a href="../building-journeys/journey-pause.md">documentação detalhada</a></p>
 </td>
 </tr>
@@ -1029,7 +1029,7 @@ Para mais informações, consulte a <a href="../experience-decisioning/create-de
 <td>
 <p>O teste de simulação da jornada é um modo de publicação especial no Adobe Journey Optimizer que permite aos profissionais de jornada o teste de uma jornada usando dados de produção reais, sem entrar em contato com clientes reais ou atualizar informações de perfil. Esse recurso ajuda os profissionais de jornada a ganharem confiança no design da jornada e no direcionamento de público-alvo antes de publicá-la.</p>
 <img src="assets/do-not-localize/DryRun.gif">
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para mais informações, consulte a <a href="../building-journeys/journey-dry-run.md">documentação detalhada</a></p>
 </td>
 </tr>
@@ -1404,7 +1404,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 </ul>
 </br>
 <img src="assets/do-not-localize/dynamic_media_template_html.gif">
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Para obter mais informações, consulte a <a href="../integrations/aem-dynamic.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 23 de maio de 2025</p>
 </td>
@@ -1423,7 +1423,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <td>
 <p>Agora é possível acionar jornadas usando uma ID de perfil juntamente com outro identificador, como uma ID de pedido, ID de assinatura ou ID de prescrição, permitindo que o mesmo perfil esteja na mesma jornada várias vezes ao mesmo tempo. Isso possibilita cenários como o gerenciamento de vários pedidos ou assinaturas em paralelo, com cada instância seguindo seu próprio caminho pela jornada.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/supplemental-identifier.md">documentação detalhada</a>.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p>Data de disponibilidade: 23 de maio de 2025</p>
 </td>
 </tr>
@@ -1459,7 +1459,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <tr>
 <td>
 <p>Agora é possível acionar execuções diárias da jornada após a conclusão da segmentação em lote Essa opção agora está disponível em jornadas agendadas diariamente para todos os clientes. Ela permite definir uma janela de tempo de até 6 horas para aguardar os dados de público-alvo de processos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas.</p>
-<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>Para obter mais informações, consulte a <a href="../building-journeys/read-audience.md#schedule">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 20 de maio de 2025</p>
@@ -1479,7 +1479,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <td>
 <p>O Journey Optimizer agora permite configurar provedores de SMS adicionais além das opções padrão: Sinch, Infobip e Twilio. Com a configuração personalizada do provedor SMS, é possível integrar diretamente provedores de terceiros, aproveitar a personalização avançada de conteúdo para gerar mensagens dinâmicas e gerenciar preferências de consentimento (aceitação e recusa) para garantir a conformidade.</p>
 <p>Para obter mais informações, consulte a <a href="../mobile/mobile-configuration-custom.md">documentação detalhada</a>.</p>
-<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Data de disponibilidade: 20 de maio de 2025</p>
 </td>
 </td>
@@ -1747,7 +1747,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Para jornadas agendadas diariamente, uma nova opção permite definir uma janela de tempo de até 6 horas para aguardar os dados de público-alvo de processos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas. A opção “Acionar após a avaliação de público-alvo em lote” está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Para jornadas agendadas diariamente, uma nova opção permite definir uma janela de tempo de até 6 horas para aguardar os dados de público-alvo de processos de segmentação em lote, garantindo que as jornadas sejam executadas com os dados mais atualizados ou sejam ignoradas, se não estiverem prontas. A opção “Acionar após a avaliação de público-alvo em lote” está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/read-audience.md#schedule">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -1963,7 +1963,7 @@ table>
 <li>Personalizar modelos do Dynamic Media atualizando o conteúdo e adicionando campos de personalização</li>
 </ul>
 <p>
-<p>Esta integração está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Esta integração está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../integrations/aem-dynamic.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -2060,7 +2060,7 @@ Para obter mais informações, consulte a [documentação detalhada](../test-app
 
 Agora você pode usar o limite de frequência diário em jornadas e campanhas com segmentação em lote. Para garantir a precisão das regras diárias de limite de frequência, escolha o namespace de prioridade mais alta ao criar uma campanha ou jornada. Saiba mais sobre a prioridade de namespace no [Guia do serviço de identidade da Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
-Como lembrete, o limite de frequência diária em conjuntos de regras está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+Como lembrete, o limite de frequência diária em conjuntos de regras está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.
 
 Para obter mais informações sobre regras de negócios, consulte a [documentação detalhada](../conflict-prioritization/rule-sets.md).
 
@@ -2172,7 +2172,7 @@ Os novos recursos incluídos nesta versão são detalhados abaixo.
 <p>A avaliação flexível de público-alvo permite executar um processo de segmentação por demanda para públicos-alvo selecionados, garantindo que você sempre tenha os dados do público-alvo mais atualizados antes de direcioná-los em jornadas e campanhas do Journey Optimizer.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Para obter mais informações, consulte a <a href="../audience/creating-a-segment-definition.md#flexible">documentação detalhada</a>.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p>Data de disponibilidade: 28 de janeiro de 2025</p>
 </tr>
 </tbody>

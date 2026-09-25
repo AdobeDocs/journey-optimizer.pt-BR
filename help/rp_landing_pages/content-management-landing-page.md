@@ -6,12 +6,10 @@ description: Gerenciamento de conteúdo
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: 170c8e7efe9244874353102a8bd2650b23f967f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 89%
-
+ht-degree: 100%
 ---
-
 # Gerenciamento de conteúdo{#section-overview}
 
 Os recursos de gerenciamento de conteúdo do Adobe Journey Optimizer permitem criar, personalizar e organizar um conteúdo de forma fluida em campanhas, canais e regiões. Independentemente de você estar elaborando mensagens dinâmicas, criando modelos reutilizáveis ou experimentando novas ideias, esta seção fornece as ferramentas e estratégias para simplificar o seu fluxo de trabalho e maximizar o impacto. Mergulhe de cabeça em tópicos como personalização, conteúdo multilíngue, geração assistida por IA e integrações entre soluções para descobrir como esses recursos se encaixam para fornecer experiências personalizadas e envolventes ao cliente. Com guias práticos e recursos intuitivos, você poderá gerenciar o seu conteúdo com confiança e criatividade.
@@ -20,7 +18,7 @@ Os recursos de gerenciamento de conteúdo do Adobe Journey Optimizer permitem cr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adicionar personalização
 
@@ -30,7 +28,7 @@ Saiba como implementar e otimizar recursos de personalização para criar experi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Criar páginas de destino
 
@@ -40,7 +38,7 @@ Descubra ferramentas e tutoriais para criar, gerenciar e otimizar páginas de de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Modelos de conteúdo
 
@@ -50,7 +48,7 @@ Simplifique a criação de conteúdo por meio de modelos reutilizáveis para um 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Fragmentos de conteúdo reutilizáveis
 
@@ -60,7 +58,7 @@ Saiba como criar e gerenciar fragmentos de conteúdo reutilizáveis para fins de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Criar conteúdo dinâmico
 
@@ -70,7 +68,7 @@ Use regras condicionais para criar um conteúdo dinâmico e personalizado para e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Casos de uso entre soluções
 
@@ -87,4 +85,4 @@ Integre soluções da Adobe, como Experience Manager, Stock e GenStudio, para ob
 - **[Gerar conteúdo](ai-assistant-landing-page.md)** – use IA para gerar e personalizar o conteúdo de emails, SMS, páginas da web e experimentos.
 - **[Gerenciamento de conteúdo multilíngue](content-multilingual-landing-page.md)**: crie e gerencie um conteúdo multilíngue, usando fluxos de trabalho de tradução manuais e automatizados.
 - **[Experimentação de conteúdo](../using/content-management/get-started-experiment.md)**: configure e analise experimentos para otimizar o engajamento do público-alvo e os resultados da campanha.
-- **[Criação de conteúdo sob marca e com IA no Adobe Journey Optimizer para profissionais de marketing](https://experienceleague.adobe.com/pt-br/courses/ajo-ai-powered-on-brand-content-creation-for-marketers)** - Saiba como usar os recursos de IA da Adobe Journey Optimizer para criar, refinar e controlar conteúdo sob marca em canais e localidades.
+- **[Criação de conteúdo viabilizada por IA e consistente com a marca para profissionais de marketing no Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/courses/ajo-ai-powered-on-brand-content-creation-for-marketers)**: saiba como usar os recursos de IA do Adobe Journey Optimizer para criar, refinar e controlar conteúdo consistente com a marca em canais e localidades.

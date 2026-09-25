@@ -1,29 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução a canais de comunicação no [!DNL Adobe Journey Optimizer]
-description: Saiba como trabalhar com canais de comunicação do  [!DNL Adobe Journey Optimizer] .
+title: Introdução aos canais de comunicação no [!DNL Adobe Journey Optimizer]
+description: Saiba como trabalhar com os canais de comunicação do [!DNL Adobe Journey Optimizer].
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 TQID: https://experienceleague.adobe.com/XJ8i9eeM9AIlEiMMNAPyzjqIGJi2EXlxEMj0K6KseUM
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
-workflow-type: tm+mt
-source-wordcount: 716
+workflow-type: ht
+source-wordcount: '717'
 ht-degree: 100%
-
 ---
-
 # Introdução aos canais do [!DNL Adobe Journey Optimizer] {#get-started-email}
 
 >[!BEGINSHADEBOX]
@@ -43,7 +46,7 @@ Os canais de saída para entrega de mensagens envolvem o envio de mensagens para
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canal de email
 
@@ -53,7 +56,7 @@ Descubra como criar, configurar e otimizar campanhas de email, incluindo persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canal de notificação por push
 
@@ -63,7 +66,7 @@ Saiba como criar, configurar e enviar notificações por push para iOS e Android
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Atividades em tempo real do iOS
 
@@ -73,7 +76,7 @@ Forneça atualizações persistentes em tempo real diretamente na Tela de bloque
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Mensagens para dispositivos móveis
 
@@ -83,7 +86,7 @@ Entenda como criar, gerenciar e configurar mensagens por SMS, MMS e RCS para fin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Correspondência direta
 
@@ -93,7 +96,7 @@ Descubra como criar e gerenciar campanhas de correspondência direta, incluindo 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Mensagens do WhatsApp
 
@@ -103,7 +106,7 @@ Saiba como integrar e usar mensagens do WhatsApp por meio da API na nuvem da Met
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
 
 Mensagens LINE
 
@@ -121,7 +124,7 @@ Com experiências de entrada de aplicativos móveis e da Web, os clientes inicia
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Mensagens no aplicativo
 
@@ -131,7 +134,7 @@ Aprenda a configurar, projetar e personalizar notificações no aplicativo para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -141,7 +144,7 @@ Saiba como criar, configurar e personalizar experiências na web e integrar cana
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Experiência baseada em código
 
@@ -151,7 +154,7 @@ Utilize as experiências baseadas em código para fornecer conteúdo personaliza
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Cartões de conteúdo
 

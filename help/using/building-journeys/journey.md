@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introdução às jornadas
-description: 'Introdução às jornadas: saiba mais sobre os tipos de jornada, fluxo de trabalho, recursos e práticas recomendadas para criar experiências do cliente personalizadas no [!DNL Adobe Journey Optimizer]'
+description: 'Introdução às jornadas: saiba mais sobre tipos de jornada, fluxo de trabalho, recursos e práticas recomendadas para criar experiências do cliente personalizadas no [!DNL Adobe Journey Optimizer] '
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
@@ -12,35 +12,51 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+    internal-label: Journey design
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
-workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 87%
-
+workflow-type: ht
+source-wordcount: '1729'
+ht-degree: 100%
 ---
-
 # Introdução às jornadas {#jo-general-principle}
 
 >[!BEGINSHADEBOX]
@@ -68,7 +84,7 @@ Use [!DNL Journey Optimizer] para:
 
 * Crie casos de uso de **orquestração em tempo real** com dados contextuais armazenados em eventos ou fontes de dados
 * Projete **cenários avançados com várias etapas** que respondam dinamicamente ao comportamento do cliente e aos eventos de negócios
-* Ofereça **experiências personalizadas 1:1** em escala por email, push, SMS, no aplicativo, Web e muito mais
+* Forneça **experiências personalizadas 1:1** em grande escala nos canais de email, notificações por push, SMS, aplicativo, web e muito mais
 
 ![Interface do designer de jornadas com paleta, tela e painel de propriedades](assets/journey38.png)
 
@@ -76,7 +92,7 @@ Use [!DNL Journey Optimizer] para:
 
 ### Jornadas vs. campanhas: quando usar cada uma {#journeys-vs-campaigns-intro}
 
-A [!DNL Adobe Journey Optimizer] oferece três abordagens para alcançar os clientes: **Jornada** (orquestração em tempo real 1:1), **Campanhas** (entrega simples em lote ou acionada por API) e **Campanhas orquestradas** (fluxos de trabalho de tela de lote com dados de várias entidades).
+O [!DNL Adobe Journey Optimizer] oferece três abordagens para alcançar os clientes: **jornadas** (orquestração em tempo real 1:1), **campanhas** (entrega simples em lote ou acionada por API) e **campanhas orquestradas** (fluxos de trabalho de tela em lote com dados de várias entidades).
 
 **Decisão rápida:**
 
@@ -93,12 +109,12 @@ A [!DNL Adobe Journey Optimizer] oferece três abordagens para alcançar os clie
 
 O [!DNL Adobe Journey Optimizer] aceita quatro tipos de jornada, cada um projetado para diferentes mecanismos de entrada e cenários de negócios:
 
-* **jornadas unitárias**: experiências acionadas por eventos em tempo real (recuperação de abandono de carrinho, emails de boas-vindas)
+* **Jornadas unitárias**: experiências acionadas por eventos em tempo real (recuperação de carrinho abandonado, emails de boas-vindas)
 * **Jornadas de público-alvo de leitura**: comunicações em lote agendadas para segmentos de público-alvo (informativos, campanhas promocionais)
 * **Jornadas de qualificação de público-alvo**: respostas em tempo real a alterações de associação de público-alvo (atualizações do VIP, reengajamento)
 * **Jornadas de evento de negócios**: condições de negócio que afetam vários clientes (alertas de estoque, promoções)
 
-➡️ **[Tipos de Jornada: escolha o correto](journey-types-selection.md)** - Comparação detalhada, guia de decisão e matriz de compatibilidade de recursos
+➡️ **[Tipos de jornada: escolha o correto](journey-types-selection.md)** - comparação detalhada, guia de decisões e matriz de compatibilidade de recursos
 
 
 ## Criar com o designer de jornadas {#journey-designer}
@@ -112,7 +128,7 @@ O **[designer de jornadas](using-the-journey-designer.md)** é a tela visual par
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Definir pontos de entrada**
 
@@ -122,7 +138,7 @@ Escolha como os clientes entram: por meio de um evento, segmento de público-alv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Envio de mensagens**
 
@@ -132,7 +148,7 @@ Use ações de canal integradas para email, push, SMS/MMS, no aplicativo, web, e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Adicionar lógica e condições**
 
@@ -142,7 +158,7 @@ Ramifique a jornada com base em atributos de perfil, na associação de público
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Aproveitar dados**
 
@@ -152,7 +168,7 @@ Use dados contextuais de eventos, a [!DNL Adobe Experience Platform] ou serviço
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Conectar sistemas externos**
 
@@ -162,7 +178,7 @@ Crie ações personalizadas para integrar sistemas de terceiros e enviar mensage
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Adicionar atividades de orquestração**
 
@@ -206,13 +222,13 @@ Use o designer de jornadas para criar o fluxo:
 
 Sempre teste a jornada para detectar problemas antes que os clientes os enfrentem:
 
-* Use a **Simulação de Jornada** para iteração rápida com usuários temporários simulados, nenhum perfil de teste necessário
-* Use o **modo de teste** para guiar perfis reais (mas de teste designado) através da jornada passo a passo
-* Use a **simulação** para executar a jornada em dados de produção reais sem enviar comunicações ou atualizar perfis
+* Use a **Simulação de jornada** para iteração rápida com usuários temporários simulados, não sendo necessário perfis de teste
+* Use o **modo de teste** para percorrer a jornada passo a passo com perfis reais (mas designados como de teste)
+* Use a **execução de teste** para executar a jornada com dados de produção reais, sem enviar comunicações ou atualizar perfis
 * Verifique se todas as condições, mensagens e ações funcionam conforme esperado
 * Verifique o momento, os fluxos de dados e a personalização
 
-[Escolha um método de validação →](choose-validation-method.md) | [Testar sua jornada →](testing-the-journey.md) | [Saiba mais sobre simulação →](journey-dry-run.md)
+[Escolher um método de validação →](choose-validation-method.md) | [Teste a jornada →](testing-the-journey.md) | [Saiba mais sobre a execução de teste→](journey-dry-run.md)
 
 ### &#x200B;4. Publicar a jornada {#publish}
 
@@ -254,7 +270,7 @@ Aprenda com exemplos práticos que demonstram como aplicar os conceitos da jorna
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Dê boas-vindas a novos assinantes**
 
@@ -264,7 +280,7 @@ Quando um cliente assinar o serviço, acione uma jornada de boas-vindas que o in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Otimização de tempo de envio**
 
@@ -274,7 +290,7 @@ Use a IA para enviar emails quando cada cliente tiver uma maior probabilidade de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Incrementar entregas**
 
@@ -284,7 +300,7 @@ Aumente gradualmente o volume de mensagens para aquecer a reputação de envio e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Direcionar por dia da semana**
 
@@ -294,7 +310,7 @@ Envie conteúdos diferentes com base no dia da semana em que os clientes entram 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campanhas multicanal**
 
@@ -304,7 +320,7 @@ Orquestre experiências fluidas nos canais de email, push, SMS e web em uma úni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Todos os casos de uso**
 
@@ -322,7 +338,7 @@ Explore a biblioteca completa de casos de uso da jornada com implementações pa
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Expressões avançadas**
 
@@ -332,7 +348,7 @@ Crie condições dinâmicas e personalização com o editor de expressão para m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Gerenciamento de fuso horário**
 
@@ -342,7 +358,7 @@ Lide com os públicos-alvo globais com ajustes automáticos de fuso horário e t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Modo de teste e execução de teste**
 
@@ -352,7 +368,7 @@ Valide jornadas com perfis de teste antes de ativá-las e visualize a execução
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Copiar para a sandbox**
 
@@ -362,7 +378,7 @@ Duplique jornadas em sandboxes para simplificar os fluxos de trabalho de teste e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tags e organização**
 
@@ -372,7 +388,7 @@ Use tags para categorizar e filtrar jornadas, melhorando o gerenciamento em gran
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controle da taxa de transferência**
 
@@ -389,7 +405,7 @@ Limite a taxa de transferência de mensagens para gerenciar a reputação de env
 
 Obtenha uma introdução visual aos componentes da jornada e conheça as noções básicas para criar jornadas na tela:
 
->[!VIDEO](https://video.tv.adobe.com/v/3430346?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **Quer mais vídeos?** [Explore tutoriais em vídeo sobre jornadas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -399,7 +415,7 @@ Obtenha uma introdução visual aos componentes da jornada e conheça as noçõe
 
 O [!DNL Adobe Journey Optimizer] oferece três abordagens:
 
-* **Jornada**: orquestração em tempo real 1:1 em que cada perfil percorre etapas em seu próprio ritmo. A melhor opção para experiências orientadas por comportamento em várias etapas com lógica condicional (por exemplo: integração, abandono de carrinho).
+* **Jornadas**: orquestração em tempo real 1:1, em que cada perfil percorre as etapas no seu próprio ritmo. A melhor opção para experiências orientadas por comportamento em várias etapas com lógica condicional (por exemplo: integração, abandono de carrinho).
 
 * **Campanhas (ação e acionadas por API)**: entrega simples de mensagens a públicos-alvo, com execução simultânea para todos os perfis, por meio de um cronograma ou do acionador da API. A melhor opção para campanhas promocionais, informativos e mensagens transacionais.
 
@@ -414,7 +430,7 @@ O [!DNL Adobe Journey Optimizer] oferece três abordagens:
 
 +++ Que tipo de jornada devo usar?
 
-Use o [guia de decisão](journey-types-selection.md#decision-guide) ou a [tabela de comparação](journey-types-selection.md#journey-types-comparison) para escolher entre jornadas Unitárias, de Leitura de Público, de Qualificação de Público e de Eventos Comerciais com base no seu mecanismo de acionador e caso de uso.
+Use o [guia de decisões](journey-types-selection.md#decision-guide) ou a [tabela de comparação](journey-types-selection.md#journey-types-comparison) para escolher entre jornadas Unitárias, de Público-alvo de leitura, de Qualificação de público-alvo e de Evento de negócios, com base no mecanismo acionador e no caso de uso.
 
 +++
 

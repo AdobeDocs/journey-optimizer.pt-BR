@@ -12,34 +12,49 @@ exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 TQID: https://experienceleague.adobe.com/HYykJIqT1bcoN1oXrG6uvfNuhDNOGLfPtOAf-Y3hzsQ
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: addf009e-030a-4310-8534-776a3e62ed48
+    internal-label: Customer lifecycle
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 5be833e0b6a06b8614123dd92118986378909652
-workflow-type: tm+mt
-source-wordcount: 811
+workflow-type: ht
+source-wordcount: '811'
 ht-degree: 100%
-
 ---
-
 # Introdução ao Journey Optimizer {#ajo-gs}
 
 >[!BEGINSHADEBOX]
@@ -98,7 +113,7 @@ Não tem certeza se deseja usar Jornadas ou Campanhas para sua meta? Veja [Jorna
 
 ## Disponibilidade e licenciamento {#availability}
 
-Esta documentação abrange a versão atual do Journey Optimizer e aplica-se a usuários B2C e B2B Edition, salvo indicação em contrário. Os componentes e recursos disponíveis no ambiente dependem de suas [permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
+Esta documentação abrange a versão atual do Journey Optimizer e aplica-se a usuários B2C e B2B Edition, salvo indicação em contrário. Os componentes e recursos disponíveis no ambiente dependem de suas [permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Em caso de dúvida, entre em contato com o(a) gerente de sucesso do cliente da Adobe ou com o(a) representante da Adobe.
 
 As diretrizes e os procedimentos gerais de privacidade do [!DNL Adobe CX Enterprise] aplicam-se ao [!DNL Journey Optimizer]. [Saiba mais sobre [!DNL Adobe CX Enterprise] privacidade](https://www.adobe.com/br/privacy/experience-cloud.html){target="_blank"}.
 
@@ -115,7 +130,7 @@ O Journey Optimizer está integrado nativamente na Adobe Experience Platform e c
 * [Crie jornadas e envie mensagens](../building-journeys/journey-gs.md): crie sua primeira jornada de cliente e configure as ações do canal.
 * [Relatórios em tempo real](../reports/live-report.md): monitore o desempenho da campanha e da jornada em tempo real.
 * [Tutorial de Introdução ao Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}: uma apresentação guiada em vídeo dos principais conceitos do Journey Optimizer.
-* [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}: termos oficiais de licenciamento e detalhamento dos recursos da edição.
+* [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}: termos oficiais de licenciamento e detalhamento dos recursos da edição.
 
 ## O próximo passo {#where-next}
 

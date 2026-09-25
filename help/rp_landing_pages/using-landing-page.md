@@ -7,27 +7,37 @@ redpen-status: CREATED_||_2025-08-11_21-21-01
 TQID: https://experienceleague.adobe.com/h5mONinNhfTwzB1Rk-5xbvFQZTGVhbJnyhEYHzb--Dc
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2: []
 subfeature_v2: []
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 5be833e0b6a06b8614123dd92118986378909652
-workflow-type: tm+mt
-source-wordcount: 450
-ht-degree: 98%
-
+workflow-type: ht
+source-wordcount: '450'
+ht-degree: 100%
 ---
-
 # Ajuda do Adobe Journey Optimizer{#section-overview}
 
 O Adobe Journey Optimizer capacita equipes a projetar e fornecer experiências personalizadas e fluidas ao cliente em canais como email, SMS e outros. Ao combinar ferramentas avançadas para a orquestração de campanhas, gestão de dados e tomada de decisões, ele ajuda a criar jornadas que se adaptam às necessidades do cliente em tempo real. Esta documentação oferece um roteiro para dominar a plataforma: da exploração de seus recursos e integrações mais recentes ao aprendizado de como gerenciar públicos-alvo, configurar jornadas e analisar o desempenho. Seja para profissionais de marketing, analistas de dados ou gerentes de campanha, é possível encontrar guias passo a passo, práticas recomendadas e recursos personalizados para ajudar a atingir seus objetivos com confiança.
@@ -37,7 +47,7 @@ O Adobe Journey Optimizer capacita equipes a projetar e fornecer experiências p
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução ao Adobe Journey Optimizer
 
@@ -47,7 +57,7 @@ Saiba mais sobre as noções básicas do Adobe Journey Optimizer, incluindo seus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guia abrangente para jornadas
 
@@ -57,7 +67,7 @@ Projete, orquestre, gerencie e otimize jornadas personalizadas do cliente com es
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Noções básicas e gerenciamento de campanhas
 
@@ -67,7 +77,7 @@ Orientação detalhada sobre como criar, gerenciar e otimizar vários tipos de c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gerenciamento de conflitos e priorização
 
@@ -97,7 +107,7 @@ Saiba como priorizar e gerenciar conflitos de comunicação em campanhas e jorna
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR" target="_blank">Tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrição do produto</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">Referência às APIs</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Dicionário de Esquemas do Journey Optimizer</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR" target="_blank">Tutoriais</a> – <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrição do produto</a> – <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">Referência de APIs</a> – <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Dicionário de esquemas do Journey Optimizer</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>

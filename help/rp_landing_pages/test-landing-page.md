@@ -10,12 +10,10 @@ keywords: testar, validar, aprovar, aprovação, controle-de-qualidade, qa, perf
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: ee9c8fedbd7e7a390bbe9a06ce6fc78bc4fc9b0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2596'
-ht-degree: 87%
-
+ht-degree: 100%
 ---
-
 # Testar, validar e aprovar{#section-overview}
 
 Esta seção aborda todos os recursos de teste e aprovação no Journey Optimizer. Você encontrará ferramentas para visualizar o conteúdo com perfis de teste, validar a lógica da jornada, verificar a renderização de email e as pontuações de spam, executar experimentos A/B, detectar conflitos e configurar fluxos de trabalho de aprovação.
@@ -26,7 +24,7 @@ Esta página de destino ajuda a escolher a abordagem de teste correta com base n
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizar, testar e validar o conteúdo
 
@@ -36,7 +34,7 @@ Saiba como visualizar, testar e validar um conteúdo personalizado por meio de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Fluxos de trabalho de aprovação para jornadas e campanhas
 
@@ -46,7 +44,7 @@ Entenda como configurar, gerenciar e executar processos de aprovação para gara
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Teste a jornada
 
@@ -56,7 +54,7 @@ Valide a jornada antes da publicação testando-a com perfis específicos para g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Execução de teste da jornada
 
@@ -66,7 +64,7 @@ Realize uma execução de teste para simular e validar o caminho de execução d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoramento e solução de problemas
 
@@ -76,7 +74,7 @@ Acesse recursos abrangentes de solução de problemas, alertas do sistema e cód
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Playground de personalização
 
@@ -86,7 +84,7 @@ Experimente expressões de personalização em um ambiente seguro. Teste o códi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Experimentos de conteúdo e teste A/B
 
@@ -96,7 +94,7 @@ Otimize as campanhas testando múltiplas variações de conteúdo e medindo o de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas de seeds para monitoramento pelas partes interessadas
 
@@ -106,7 +104,7 @@ Inclua automaticamente endereços internos de partes interessadas nas entregas p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detecção de conflitos
 
@@ -238,9 +236,9 @@ A abordagem de teste correta depende do que você está criando e do que é nece
 
 **Para todas as jornadas:**
 
-* Use a [Simulação de Jornada](../using/building-journeys/simulate-journey-gs.md) para testar rapidamente uma ramificação com usuários temporários simulados, nenhum perfil de teste necessário
-* Use o [modo de teste](../using/building-journeys/testing-the-journey.md) para percorrer manualmente a lógica de ramificação e mensagem com perfis de teste reais do AEP (somente jornadas de rascunho, requer namespace)
-* Use [dry run](../using/building-journeys/journey-dry-run.md) para verificar o alcance real do público-alvo e a lógica da ramificação em escala, pouco antes da publicação, sem enviar mensagens
+* Use a [Simulação de jornada](../using/building-journeys/simulate-journey-gs.md) para testar rapidamente uma ramificação com usuários temporários simulados, sem necessidade de perfis de teste
+* Use o [modo de teste](../using/building-journeys/testing-the-journey.md) para percorrer manualmente a lógica de ramificação e mensagem com perfis de teste reais da AEP (somente jornadas de rascunho, requer namespace)
+* Use a [execução de teste](../using/building-journeys/journey-dry-run.md) para verificar o alcance real do público-alvo e a lógica de ramificação em grande escala, pouco antes da publicação, sem enviar mensagens
 * Teste mensagens individuais usando [visualização e provas](../using/content-management/preview-test.md)
 * Verifique [conflitos](../using/conflict-prioritization/conflicts.md) com outras jornadas e campanhas
 * Envie para [aprovação](../using/test-approve/gs-approval.md) antes de publicar
@@ -249,7 +247,7 @@ Não tem certeza de qual dos três métodos de validação de jornada usar? Cons
 
 **Para jornadas complexas:**
 
-* Use a Simulação de Jornada ao iterar na lógica da ramificação, em seguida, o modo de teste e execute juntos para validar completamente a lógica de ramificação e os caminhos de execução antes da publicação
+* Use a Simulação de jornada enquanto itera na lógica de ramificação e então use o modo de teste e a execução de teste em conjunto para validar de forma abrangente a lógica de ramificação e os caminhos de execução antes de publicar
 * Teste condições de entrada e atributos de perfil diferentes sistematicamente
 
 **Observação:** a detecção de conflitos e o limite de jornadas estão disponíveis somente para jornadas unitárias, de Qualificação de público-alvo e de Público-alvo de leitura.
@@ -283,7 +281,7 @@ Para maximizar a eficácia dos testes, siga estas práticas recomendadas:
 
 1. **Use listas de seeds para monitoramento das partes interessadas** - Configure [listas de seeds](../using/configuration/seed-lists.md) para incluir automaticamente as partes interessadas internas que receberão cópias de todas as entregas no tempo de execução, com o objetivo de um monitoramento de qualidade e verificação de conformidade (somente canal de email).
 
-1. **Iterar com Simulação de Jornada antes de criar perfis de teste** - Use [Simulação de Jornada](../using/building-journeys/simulate-journey-gs.md) para validar rapidamente uma nova ramificação ou caminho de política de decisão com usuários temporários simulados, salvando o [modo de teste](../using/building-journeys/testing-the-journey.md) para quando precisar percorrer manualmente a jornada com perfis de teste reais do AEP.
+1. **Iterar com a Simulação de jornada antes de criar perfis de teste** - Use a [Simulação de jornada](../using/building-journeys/simulate-journey-gs.md) para validar rapidamente uma nova ramificação ou caminho de política de decisão com usuários temporários simulados, reservando o [modo de teste](../using/building-journeys/testing-the-journey.md) para quando precisar percorrer manualmente a jornada com perfis de teste reais da AEP.
 
 1. **Simule caminhos de jornada** - Em jornadas complexas com várias ramificações, use o [modo de teste](../using/building-journeys/testing-the-journey.md) para testar diferentes condições de entrada e atributos de perfil, validando todos os caminhos possíveis. Disponível para jornadas de rascunho que usam um namespace.
 
@@ -301,7 +299,7 @@ Siga esta abordagem de quatro fases para validar campanhas e jornadas antes do l
 |-------|-------------|-------------|
 | **1. Validação de conteúdo** | Personalização, projeto, renderização | [Visualize com perfis de teste](../using/content-management/preview-test.md), teste [múltiplas variações](../using/test-approve/simulate-sample-input.md) com CSV/JSON, verifique a [renderização](../using/content-management/rendering.md) nos dispositivos |
 | **2. Verificações técnicas** | Capacidade de entrega, links, conflitos | Realize [verificações de pontuação de spam](../using/content-management/spam-report.md), valide links, verifique [conflitos](../using/conflict-prioritization/conflicts.md) com outras campanhas |
-| **3. Lógica de jornada** (somente jornada) | Condições de entrada, fluxo, ramificação | Use a [Simulação de Jornada](../using/building-journeys/simulate-journey-gs.md) para iteração rápida, [modo de teste](../using/building-journeys/testing-the-journey.md) para percorrer a lógica com perfis de teste reais e [simulação](../using/building-journeys/journey-dry-run.md) para uma verificação final em escala — consulte [como escolher](../using/building-journeys/choose-validation-method.md) |
+| **3. Lógica de jornada** (somente jornada) | Condições de entrada, fluxo, ramificação | Use a [Simulação de jornada](../using/building-journeys/simulate-journey-gs.md) para iteração rápida, o [modo de teste](../using/building-journeys/testing-the-journey.md) para percorrer a lógica com perfis de teste reais e a [execução de teste](../using/building-journeys/journey-dry-run.md) para uma verificação final em grande escala — consulte [como escolher](../using/building-journeys/choose-validation-method.md) |
 | **4. Pré-lançamento** | Configurações, aprovações, monitoramento | Envie para [aprovação](../using/test-approve/gs-approval.md), verifique agendamentos e públicos-alvo, habilite [alertas](../using/reports/alerts.md) |
 
 **Dica profissional:** comece com o [playground de personalização](../using/personalization/personalize.md#playground) para testar expressões antes de criar conteúdo e sempre verifique a [detecção de conflitos](../using/conflict-prioritization/conflicts.md) antes do lançamento para evitar mensagens excessivas.
@@ -366,9 +364,9 @@ Familiarize-se com esses conceitos essenciais de testes para entender melhor os 
 
 **[Perfis de teste](../using/content-management/test-profiles.md)**: perfis de clientes sintéticos (clientes não reais) usados para visualizar conteúdo personalizado. Sinalizado no Serviço de perfil do cliente em tempo real. Exigido para o modo de teste e a visualização de conteúdo. [Saiba como criar perfis de teste](../using/audience/creating-test-profiles.md)
 
-**[Simulação de Jornada](../using/building-journeys/simulate-journey-gs.md)** - Método de validação que executa uma jornada com usuários temporários simulados, criados manualmente ou gerados automaticamente, em vez de perfis de teste reais do AEP. Caso de uso: iteração rápida durante o design da jornada. [Introdução à simulação de jornada](../using/building-journeys/simulate-journey-gs.md)
+**[Simulação de jornada](../using/building-journeys/simulate-journey-gs.md)** - método de validação que executa uma jornada com usuários temporários simulados criados manualmente ou gerados automaticamente, em vez de perfis de teste reais da AEP. Caso de uso: iteração rápida durante o design da jornada. [Introdução à simulação de jornada](../using/building-journeys/simulate-journey-gs.md)
 
-**[Modo de teste](../using/building-journeys/testing-the-journey.md)** - recurso de validação de Jornada que envia perfis de teste reais do AEP por caminhos de jornada. Limitações: somente jornadas de rascunho, exige namespace, somente perfis de teste. [Consulte a documentação do modo de teste](../using/building-journeys/testing-the-journey.md)
+**[Modo de teste](../using/building-journeys/testing-the-journey.md)** - recurso de validação de jornada que envia perfis de teste reais da AEP por caminhos de jornada. Limitações: somente jornadas de rascunho, exige namespace, somente perfis de teste. [Consulte a documentação do modo de teste](../using/building-journeys/testing-the-journey.md)
 
 **[Execução de teste](../using/building-journeys/journey-dry-run.md)** - ferramenta de análise de execução de jornada que rastreia caminhos sem enviar mensagens ou fazer chamadas de API. Caso de uso: validar a lógica sem consumir recursos. [Saiba mais sobre a execução de teste](../using/building-journeys/journey-dry-run.md)
 
@@ -436,13 +434,13 @@ Entenda como os recursos de teste conectam-se uns com os outros e com os fluxos 
 * Testes + Experimentos de conteúdo - Otimização do desempenho
 * Testes + Relatórios - Ciclo de melhoria contínua
 * Perfis de teste + Personalização - Validação de conteúdo
-* Simulação de jornada + Modo de teste + Execução a seco - Validação abrangente de jornada
+* Simulação de jornada + Modo de teste + Execução de teste - validação abrangente da jornada
 
 ### Combinações comuns de recursos
 
 * Teste de conteúdo: Perfis de teste + Dados de entrada de amostra + Playground de personalização
 * Validação de email: Testes de renderização + Pontuações de spam + Perfis de teste + Provas
-* Validação da jornada: Jornada Simulation + Test mode + Dry run + Test profiles
+* Validação da jornada: Simulação de jornada + Modo de teste + Execução de teste + Perfis de teste
 * Lista de verificação de pré-lançamento: Todos os testes técnicos + Detecção de conflitos + Fluxos de trabalho de aprovação
 
 >[!TAB Perguntas comuns]
@@ -459,12 +457,12 @@ Entenda como os recursos de teste conectam-se uns com os outros e com os fluxos 
 **Alternativa:** crie de 3 a 5 [perfis de teste](../using/audience/creating-test-profiles.md) representativos que abrangem segmentos-chave
 **Ferramenta de aprendizado:** experimente primeiro no [playground de personalização](../using/personalization/personalize.md#playground)
 
-### P: Qual é a diferença entre a Simulação de Jornada, o modo de teste e o dry run?
+### P: Qual a diferença entre Simulação de jornada, modo de teste e execução de teste?
 
-**Simulação de Jornada:** executa a jornada com usuários temporários simulados, nenhum perfil de teste real do AEP é necessário. Envia mensagens reais para os endereços configurados dos usuários simulados.
-**Modo de teste:** envia perfis de teste reais do AEP por meio da jornada, aciona ações reais e gera mensagens de teste. Requer jornada de rascunho + namespace.
-**Dry run:** rastreia caminhos de execução em relação a dados de público-alvo de produção reais sem enviar nada. Nenhuma mensagem enviada, nenhuma ação executada.
-**Usar juntos:** Simulação de Jornada ao iterar no design, modo de teste para teste manual de mensagem/lógica com perfis de teste reais, execução a seco para uma verificação lógica final em escala. Consulte [Escolher um método de validação](../using/building-journeys/choose-validation-method.md) para obter uma comparação completa.
+**Simulação de jornada:** executa a jornada com usuários temporários simulados, sem a necessidade de nenhum perfil de teste real da AEP. Envia mensagens reais para os endereços configurados dos usuários simulados.
+**Modo de teste:** envia perfis de teste reais da AEP pela jornada, aciona ações reais e gera mensagens de teste. Requer jornada de rascunho + namespace.
+**Execução de teste:** rastreia caminhos de execução com dados reais de público-alvo de produção sem enviar nada. Nenhuma mensagem enviada, nenhuma ação executada.
+**Use-os em conjunto:** a Simulação de jornada ao iterar no design, o modo de teste para teste manual de mensagem/lógica com perfis de teste reais e a execução de teste para uma verificação final da lógica em grande escala. Consulte [Escolher um método de validação](../using/building-journeys/choose-validation-method.md) para obter uma comparação completa.
 
 ### P: Posso testar jornadas no status produção/ativa?
 
