@@ -23,10 +23,10 @@ O espaço de trabalho **[!UICONTROL Monitoramento]** inclui as seguintes guias:
 
 | Tabulação | Descrição | Documentação |
 |---|---|---|
-| **[!UICONTROL Painel]** | Revise a atividade e o status do fluxo de dados em seus fluxos de dados. | [Painel de monitoramento do fluxo de dados](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor){target="_blank"} |
-| **[!UICONTROL Lote de ponta a ponta]** | Monitore o fluxo de ponta a ponta e a qualidade dos dados assimilados em lote. | [Assimilação de dados de ponta a ponta em lote](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-batch-end-to-end-data-ingestion){target="_blank"} |
-| **[!UICONTROL Transmissão de ponta a ponta]** | Monitore o fluxo de ponta a ponta e a qualidade dos dados assimilados por transmissão. | [Assimilação completa de dados por transmissão](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-streaming-end-to-end-data-ingestion){target="_blank"} |
-| **[!UICONTROL Edge]** | Monitore dados enviados para a Edge Network. Esta página documenta os gráficos específicos do Journey Optimizer disponíveis nesta guia. | [Monitorar fluxos de dados do Edge](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-edge){target="_blank"} |
+| **[!UICONTROL Painel]** | Revise a atividade e o status do fluxo de dados em seus fluxos de dados. | [Painel de monitoramento do fluxo de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dataflows/ui/monitor){target="_blank"} |
+| **[!UICONTROL Lote de ponta a ponta]** | Monitore o fluxo de ponta a ponta e a qualidade dos dados assimilados em lote. | [Assimilação de dados de ponta a ponta em lote](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-batch-end-to-end-data-ingestion){target="_blank"} |
+| **[!UICONTROL Transmissão de ponta a ponta]** | Monitore o fluxo de ponta a ponta e a qualidade dos dados assimilados por transmissão. | [Assimilação completa de dados por transmissão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-streaming-end-to-end-data-ingestion){target="_blank"} |
+| **[!UICONTROL Edge]** | Monitore dados enviados para a Edge Network. Esta página documenta os gráficos específicos do Journey Optimizer disponíveis nesta guia. | [Monitorar fluxos de dados do Edge](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dataflows/ui/monitor-edge){target="_blank"} |
 
 ## Monitorar dados do Journey Optimizer no Edge
 
