@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7d3cceb18c2b2a626b56c3809978c4cfc95689d8
+source-git-commit: 526468b262f426ad670c7c7684e57d10d089ee22
 workflow-type: tm+mt
-source-wordcount: '4885'
+source-wordcount: '4890'
 ht-degree: 14%
 ---
 # Notas de versão {#release-notes}
@@ -656,8 +656,6 @@ A seguinte melhoria está chegando à integração nesta versão.
 
 O recurso a seguir está chegando aos relatórios nesta versão.
 
-+++ Em breve — **as informações abaixo estão sujeitas a alterações.**
-
 <table>
 <thead>
 <tr>
@@ -676,12 +674,12 @@ O recurso a seguir está chegando aos relatórios nesta versão.
 <li><strong>Taxa de Transferência de Eventos de Apresentação de Entrada do AJO por Canal</strong> — a taxa de transferência de eventos de apresentação é dividida por canal de entrada (CBE, no aplicativo, cartões de conteúdo).</li>
 <li><strong>Taxa de Transferência de Eventos de Apresentação de Entrada do AJO por Tipo de Evento</strong> — a taxa de transferência de eventos de apresentação é dividida por tipo de evento (descartada, suprimida, exibida, acionada, interagida, enviada).</li>
 </ul>
+<p>Para obter mais informações, consulte a <a href="../data/monitoring.md">documentação detalhada</a>.</p>
+<p>Data de disponibilidade: 24 de setembro de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-+++
 
 ### Integrações {#sep-26-integrations}
 
