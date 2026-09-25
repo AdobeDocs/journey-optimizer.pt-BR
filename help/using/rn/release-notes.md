@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: fa786e5650936daf727557d0fb149673c5ced637
+source-git-commit: 3ff1c1bc3d4d5374dd02e1a6be5aac3e73ab6ce7
 workflow-type: tm+mt
-source-wordcount: '4651'
-ht-degree: 13%
+source-wordcount: '4725'
+ht-degree: 14%
 ---
 # Notas de versão {#release-notes}
 
@@ -373,6 +373,8 @@ O recurso a seguir está chegando ao gerenciamento de conteúdo nesta versão.
 
 * **Tempo limite de recuperação automática de evento nas Propriedades de Jornada** - As Propriedades de Jornada agora incluem uma configuração **Definir tempo limite de recuperação de evento**: por padrão, os eventos de jornada afetados são repetidos automaticamente por até 72 horas após uma interrupção de serviço sem a necessidade de nenhuma ação. Você pode ativar essa configuração para controlar a janela de repetição (0-72 horas) para jornadas sensíveis ao tempo. O campo existente **Tempo limite ou erro** também foi renomeado para **Ação personalizada/Tempo limite da fonte de dados** para evitar confusão entre as duas configurações.
 
+* **Eventos de etapa reduzidos para atividades de espera e de evento** - Os eventos de etapa não são mais gerados para atividades de **espera** e **evento** quando o perfil não foi realmente processado nessa atividade.
+
 +++
 
 ### Campanhas {#sep-26-campaigns}
@@ -411,6 +413,8 @@ Os seguintes recursos e melhorias estão chegando aos canais nesta versão.
 </ul>
 <p>Anteriormente disponível em Disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (Disponibilidade geral), com os aprimoramentos descritos acima.</p>
 <p><img src="assets/do-not-localize/custom-channel.gif"></p>
+<p>Para obter mais informações, consulte a <a href="../custom-channel/get-started-custom-channel.md">documentação detalhada</a>.</p>
+
 </td>
 </tr>
 </tbody>
@@ -564,8 +568,6 @@ Os seguintes recursos e melhorias estão chegando ao Designer de email nesta ver
 </tbody>
 </table>
 
-+++ Em breve — **as informações abaixo estão sujeitas a alterações.**
-
 <table>
 <thead>
 <tr>
@@ -577,12 +579,15 @@ Os seguintes recursos e melhorias estão chegando ao Designer de email nesta ver
 <td>
 <p>Os temas de email agora oferecem suporte ao modo escuro, para que cada variante de cor possa ser renderizada com uma aparência personalizada para os recipients que visualizam seu email em um cliente habilitado para o modo escuro.</p>
 <p>Quando habilitada, uma paleta escura padrão é gerada automaticamente para cada variante, e você pode personalizá-la ainda mais com uma paleta diferente ou com suas próprias cores personalizadas, independentemente do design do modo claro. Portanto, as alterações feitas em um modo não afetam o outro.</p>
+<p><img src="../email/assets/theme-dark-mode-support.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../email/apply-email-themes.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 24 de setembro de 2024.</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
 <table>
 <thead>
@@ -598,8 +603,6 @@ Os seguintes recursos e melhorias estão chegando ao Designer de email nesta ver
 </tr>
 </tbody>
 </table>
-
-* **Fontes substitutas para fontes personalizadas em temas de email** - Agora é possível definir uma fonte substituta para qualquer fonte personalizada (da Web) aplicada por temas de email. Se o cliente de email de um assinante não oferecer suporte à fonte personalizada, o Adobe Journey Optimizer exibirá automaticamente a fonte de fallback especificada, em vez de deixar a opção para o padrão do cliente de email. Isso mantém a tipografia de email mais próxima das diretrizes da sua marca e reduz as inconsistências de renderização de fonte nos clientes de email.
 
 +++
 
@@ -626,6 +629,26 @@ A seguinte melhoria está chegando à integração nesta versão.
 </tr>
 </tbody>
 </table>
+
++++ Em breve — **as informações abaixo estão sujeitas a alterações.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Recursos guiados para integração de emails e jornadas (disponibilidade geral)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A transição para o Adobe Journey Optimizer a partir de outra plataforma de marketing é mais fácil com recursos guiados que ajudam a mover o conteúdo de email existente e as jornadas para o Journey Optimizer. Um <strong>espaço de trabalho dedicado</strong> permite reutilizar o que você tem, em vez de reconstruir do zero.</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
 
 ### Relatório {#sep-26-reporting}
 
@@ -729,5 +752,7 @@ O lembrete a seguir se aplica à administração nesta versão.
 +++ Em breve — **as informações abaixo estão sujeitas a alterações.**
 
 * **Melhorias de usabilidade na experiência de Simulação de conteúdo** - A nova experiência de Simulação de conteúdo agora permite nomear e organizar suas variantes para facilitar a comparação, copiar ou excluir detalhes da variante diretamente de cada cartão, exibir caminhos completos de atributos e configuração de canal por cartão sob demanda e carregar seus próprios perfis CSV, JSON ou JSONL com um botão de carregamento mais destacado.
+
+* **Calendário unificado para Campanhas, Jornadas e campanhas orquestradas** - A exibição de calendário para jornadas e campanhas agora sai de inventários separados em um menu unificado acessível no painel esquerdo que mostra ambos em uma exibição combinada.
 
 +++

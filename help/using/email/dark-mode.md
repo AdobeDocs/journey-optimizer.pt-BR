@@ -12,27 +12,35 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 TQID: https://experienceleague.adobe.com/joz1hfodSkao9CO5rlgKad4RhcV1XFCf6Ll6wjqLvPI
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+    internal-label: Email rendering
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+    internal-label: Email design
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+    internal-label: Publish
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
+    internal-label: Accessibility
+source-git-commit: cb8d3938425c03b277c325ad174e943d3cd6e474
 workflow-type: tm+mt
-source-wordcount: 1584
+source-wordcount: '1620'
 ht-degree: 9%
-
 ---
-
 # Gerenciar conteúdo no modo escuro {#dark-mode}
 
 >[!BEGINSHADEBOX]
@@ -159,13 +167,6 @@ Para acessar o modo escuro no Designer de email e pré-visualizar as configuraç
 
 1. Na página inicial do Designer de Email, selecione a opção **[!UICONTROL Design do zero]**. [Saiba mais](content-from-scratch.md)
 
-<!--
-Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
-    >[!NOTE]
-    >
-    >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).
--->
-
 1. Adicione [estruturas](content-from-scratch.md) e [componentes de conteúdo](content-components.md) ao seu conteúdo.
 
 1. Na parte superior direita da tela central, alterne para **[!UICONTROL Modo escuro]**.
@@ -242,6 +243,10 @@ Para definir configurações personalizadas do modo escuro, siga as etapas abaix
    >[!WARNING]
    >
    >Embora a simulação se aproxime da forma como os emails aparecerão no modo escuro, a renderização real pode ser diferente devido a variações nos provedores de serviços de email ou nas configurações no nível do dispositivo.
+
+### Usar o modo escuro com temas {#dark-mode-themes}
+
+Se você usar um [tema](apply-email-themes.md) com seu conteúdo de email ou modelo, também poderá definir uma versão independente em modo escuro de cada variante de cor, diretamente no nível do tema. [Saiba como](apply-email-themes.md#create-and-edit-themes)
 
 ## Práticas recomendadas {#best-practices}
 
