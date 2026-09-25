@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
 workflow-type: tm+mt
 source-wordcount: '14472'
-ht-degree: 97%
+ht-degree: 99%
 ---
 # Notas de versão 2026 {#release-notes-2026}
 
@@ -147,7 +147,7 @@ As seguintes funcionalidades e melhorias foram introduzidas nas Campanhas orques
 <tbody>
 <tr>
 <td>
-<p>Agora é possível adicionar ações LINE às campanhas orquestradas. Esta nova atividade permite criar e entregar conteúdo altamente personalizado, incluindo texto, adesivos, imagens, vídeos, dados de localização e mensagens flexíveis avançadas, para envolver seus clientes de maneira integrada na plataforma LINE. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Agora é possível adicionar ações LINE às campanhas orquestradas. Esta nova atividade permite criar e entregar conteúdo altamente personalizado, incluindo texto, adesivos, imagens, vídeos, dados de localização e mensagens flexíveis avançadas, para envolver seus clientes de maneira integrada na plataforma LINE. Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../orchestrated/activities/channels.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 12 de agosto de 2026</p>
 </td>
@@ -176,13 +176,13 @@ As seguintes funcionalidades e melhorias foram introduzidas nas Campanhas orques
 <table>
 <thead>
 <tr>
-<th><strong>Habilidade do Loyalty Insights</strong><br/></th>
+<th><strong>Habilidade de insights de fidelidade</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A Journey Optimizer apresenta o <strong>Loyalty Insights</strong>, uma nova habilidade do CX Co-worker, que faz perguntas sobre o desempenho de desafio e outros dados de programa de fidelidade assimilados nos grupos de campos de Fidelidade do Adobe Experience Platform.</p>
+<p>O Journey Optimizer apresenta os <strong>Insights de fidelidade</strong>, uma nova habilidade do CX Coworker para fazer perguntas sobre o desempenho de desafios e outros dados do programa de fidelidade ingeridos nos grupos de campos de fidelidade da Adobe Experience Platform.</p>
 <p>Para obter mais informações, consulte a <a href="../loyalty-challenges/loyalty-coworker-skills.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 31 de agosto de 2026</p>
 </td>
@@ -202,13 +202,13 @@ As seguintes funcionalidades e melhorias foram introduzidas nas Campanhas orques
 
 ### Configuração {#august-26-configuration}
 
-* **Suporte a várias SANs na geração de CSR para configuração de subdomínio personalizado** - Ao configurar ou migrar um subdomínio personalizado usando o método de delegação Personalizado, a Solicitação de Assinatura de Certificado (CSR) agora é gerada automaticamente com `data.{subdomain}` e `cdn.{subdomain}` como Nomes Alternativos da Entidade (SANs). Anteriormente, o CSR gerado incluía apenas `data.{subdomain}`, exigindo a adição manual de `cdn.{subdomain}` antes do envio para a Autoridade de Certificação. [Saiba mais](../configuration/custom-subdomain-migration.md#send-csr-to-ca)
+* **Suporte a vários SANs na geração de CSR para configuração de subdomínio personalizado**: ao configurar ou migrar um subdomínio personalizado usando o método Delegação personalizada, a Solicitação de Assinatura de Certificado (CSR) agora é gerada automaticamente com `data.{subdomain}` e `cdn.{subdomain}` como Nomes Alternativos do Assunto (SANs). Anteriormente, a CSR gerada incluía apenas `data.{subdomain}`, exigindo a adição manual de `cdn.{subdomain}` antes do envio para a Autoridade Certificadora. [Saiba mais](../configuration/custom-subdomain-migration.md#send-csr-to-ca)
 
   Data de disponibilidade: 20 de agosto de 2026
 
-### Tomada de decisão {#decisioning-august}
+### Serviço de decisão {#decisioning-august}
 
-* **Limite de frequência no nível de posicionamento na Decisão**: as regras de limite de frequência na Decisão agora podem ser segmentadas para posicionamentos individuais, fornecendo controle mais fino sobre a frequência com que uma oferta é exibida em determinada superfície. Dois modos estão disponíveis: **limite específico de posicionamento**, que define um limite que se aplica somente quando a oferta é exibida em um posicionamento selecionado, e **limite por posicionamento**, que aplica um limite independentemente em cada posicionamento em que a oferta é exibida, de modo que cada posicionamento mantém seu próprio contador de limite. Observe que o limite relacionado à disposição não se aplica a ofertas limitadas usando regras baseadas em dados do Adobe Experience Platform. [Saiba mais](../experience-decisioning/items.md#capping)
+* **Limite de frequência no nível de posicionamento na Decisão**: as regras de limite de frequência na Decisão agora podem ser segmentadas para posicionamentos individuais, fornecendo controle mais fino sobre a frequência com que uma oferta é exibida em determinada superfície. Dois modos estão disponíveis: **limite específico de posicionamento**, que define um limite que se aplica somente quando a oferta é exibida em um posicionamento selecionado, e **limite por posicionamento**, que aplica um limite independentemente em cada posicionamento em que a oferta é exibida, de modo que cada posicionamento mantém seu próprio contador de limite. Observe que o limite relacionado ao posicionamento não se aplica a ofertas limitadas por regras baseadas em dados da Adobe Experience Platform. [Saiba mais](../experience-decisioning/items.md#capping)
 
   Data de disponibilidade: 24 de agosto de 2026
 
@@ -218,11 +218,11 @@ As seguintes funcionalidades e melhorias foram introduzidas nas Campanhas orques
 
 ### Designer de email {#august-26-email-designer}
 
-* **Aumentar contagens de colunas sem perder conteúdo no Designer de Email** - Agora é possível aumentar a contagem de colunas de uma estrutura existente — por exemplo, de 2 colunas para 3 — sem excluí-la e perder seu conteúdo. [Saiba mais](../email/content-from-scratch.md)
+* **Aumentar contagens de colunas sem perder conteúdo no Designer de email** - agora é possível aumentar a contagem de colunas de uma estrutura existente — por exemplo, de 2 colunas para 3 — sem excluí-la e perder o conteúdo. [Saiba mais](../email/content-from-scratch.md)
 
   Data de disponibilidade: 5 de agosto de 2026
 
-* **Mais opções de posicionamento de imagem de plano de fundo no Email Designer** - Quatro novas opções de posicionamento de imagem estão disponíveis para imagens de plano de fundo: Largura total - Superior, Largura total - Inferior, Altura total - Esquerda e Altura total - Direita. Cada uma dimensiona a imagem proporcionalmente ao longo de um eixo, como as opções existentes de Largura total e Altura total, mas a ancora em uma borda específica em vez de centralizá-la, fornecendo mais controle sobre qual parte de uma imagem principal permanece na exibição. [Saiba mais](../email/backgrounds.md)
+* **Mais opções de posicionamento de imagem de fundo no Designer de email** - quatro novas opções de posicionamento de imagem estão disponíveis para imagens de fundo: Largura total - Superior, Largura total - Inferior, Altura total - Esquerda e Altura total - Direita. Cada uma dimensiona a imagem proporcionalmente ao longo de um eixo, como as opções existentes de Largura total e Altura total, mas a ancora a uma borda específica em vez de centralizá-la, oferecendo mais controle sobre qual parte de uma imagem hero permanece visível. [Saiba mais](../email/backgrounds.md)
 
   Data de disponibilidade: 4 de agosto de 2026
 
@@ -260,7 +260,7 @@ O Journey Optimizer apresenta os desafios de fidelidade, um novo recurso nesta v
 <p>Os administradores podem usar o menu **Configurações de fidelidade** para conectar o Journey Optimizer ao seu ecossistema de fidelidade, incluindo APIs de resgate de recompensas, definições de eventos, inventário de produtos, exclusões e configurações de identidade. Os profissionais de marketing podem criar desafios padrão, de sequência ou sequenciais, definir tarefas e recompensas, disponibilizar cartões de conteúdo e mensagens com a identidade da marca e monitorar o desempenho por meio de painéis de relatórios baseados em IA. O Journey Optimizer gera as jornadas que organizam cada desafio em segundo plano, para que as equipes possam se concentrar na experiência do cliente e nas metas de negócios.</p>
 <p>O Loyalty também introduz habilidades do Coworker que permitem que as equipes executem operações de desafios importantes com mais eficiência, incluindo a criação de desafios, a definição de propriedades de desafios, o gerenciamento de públicos-alvo e configurações relacionadas, e a revisão de insights para monitorar a participação em desafios e recompensar o desempenho.</p>
 <p><img src="assets/do-not-localize/loyalty.png"></p>
-<p>Esse recurso só está disponível para organizações licenciadas para o Journey Optimizer Loyalty. Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Esse recurso só está disponível para organizações licenciadas para o Journey Optimizer Loyalty. Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../loyalty-challenges/get-started.md">documentação detalhada</a>.</p>
 <p> Data de disponibilidade: 28 de julho de 2026</p>
 </td>
@@ -282,9 +282,9 @@ Os recursos e melhorias a seguir foram adicionados nesta versão.
 <tr>
 <td>
 <p>O Journey Optimizer agora apresenta os Canais personalizados, um novo recurso que permite aos administradores trazer qualquer canal de mensagens baseado em HTTP de saída — como WeChat, Kakao Talk, Messenger ou um provedor proprietário — diretamente para o Journey Optimizer por meio de um Construtor de canal sem código.</p >
-<p>Depois de configurados, os canais personalizados ficam disponíveis em campanhas, jornadas e campanhas orquestradas, com o mesmo conjunto completo de recursos dos canais nativos: personalização com o editor de expressão, experimentação de conteúdo, pré-visualização e prova, relatórios prontos para uso e aplicação de consentimento e governança.</p>
+<p>Depois de configurados, os canais personalizados ficam disponíveis em campanhas, jornadas e campanhas orquestradas com o mesmo conjunto completo de recursos dos canais nativos: personalização com o editor de expressão, experimentação de conteúdo, visualização e prova, relatórios prontos para uso e aplicação de consentimento e governança.</p>
 <p>Isso preenche uma lacuna anteriormente abordada por ações personalizadas, que são limitadas apenas a jornadas e não têm recursos de canal dedicados.</p>
-<p>Os canais de saída personalizados estão em Disponibilidade limitada. Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Os canais de saída personalizados estão em Disponibilidade limitada. Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p><img src="assets/do-not-localize/custom-channel.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../custom-channel/get-started-custom-channel.md">documentação detalhada</a>.</p>
 <p> Data de disponibilidade: 31 de julho de 2026</p>
@@ -309,7 +309,7 @@ Os recursos e melhorias a seguir foram adicionados nesta versão.
 <li>Classificação baseada em modelo de IA: use pontuações de propensão de aprendizado de máquina para inferir o canal mais eficaz por cliente.</li>
 </ul>
 <p>Quando o canal mais bem classificado está indisponível (não aceito, com limite de frequência ou não configurado), o sistema volta para o próximo canal disponível.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p><img src="assets/do-not-localize/channel-optimization.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/channel-optimization.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 22 de julho de 2026</p>
@@ -435,7 +435,7 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão.
 
   Data de disponibilidade: 29 de julho de 2026
 
-* **Proteção de disjuntor para pontos de extremidade de ação personalizada lenta** - Para pontos de extremidade roteados pelo serviço de ação personalizada lenta, a Journey Optimizer agora limita temporariamente todas as chamadas por até 5 minutos quando mais de 20% das chamadas em uma janela de 120 segundos excedem 5 segundos, se houver pelo menos 200 chamadas na janela de observação de 120 segundos. Isso ajuda a evitar a sobrecarga de pontos de acesso que já estão lentos. [Saiba mais](../configuration/external-systems.md#response-time)
+* **Proteção de disjuntor para pontos de acesso de ação personalizada lenta** – para pontos de acesso roteados pelo serviço de ação personalizada lenta, o Journey Optimizer agora limita temporariamente todas as chamadas por até 5 minutos quando mais de 20% das chamadas em uma janela de 120 segundos excedem 5 segundos, se houver pelo menos 200 chamadas na janela de observação de 120 segundos. Isso ajuda a evitar a sobrecarga de pontos de acesso que já estão lentos. [Saiba mais](../configuration/external-systems.md#response-time)
 
   Data de disponibilidade: 29 de julho de 2026. Este recurso está sendo implementado gradualmente em todas as regiões.
 
@@ -466,11 +466,11 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 
   [Saiba mais](../administration/ootb-permissions.md)
 
-### Decisão {#decisioning}
+### Serviço de decisão {#decisioning}
 
 * **Criação de regras de decisão a partir de expressões em linguagem natural** - agora é possível descrever a regra de decisão que você deseja criar em linguagem simples e permitir que a IA a gere para você. Esta funcionalidade está disponível para clientes com acesso aos recursos Adobe AI.
 
-  Esta funcionalidade está disponível para organizações com acesso aos recursos Adobe AI. Está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+  Esta funcionalidade está disponível para organizações com acesso aos recursos Adobe AI. Está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.
 
   Data de disponibilidade: 29 de julho de 2026
 
@@ -482,7 +482,7 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 
 * **Simulação de regras de decisão e fórmulas de classificação** - agora é possível simular regras de decisão e fórmulas de classificação diretamente do editor de regras ou fórmulas. Adicione variantes de teste manuais ou gere-as usando IA e, em seguida, execute a expressão com base nos dados de teste para validar a elegibilidade e revisar os resultados classificados, tudo antes de implantar na produção. A geração de variantes está disponível para clientes com acesso aos recursos Adobe AI.
 
-  Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+  Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.
 
   Data de disponibilidade: 29 de julho de 2026
 
@@ -502,7 +502,7 @@ Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúd
 <tr>
 <td>
 <p>A transição para o Adobe Journey Optimizer a partir de outra plataforma de marketing é mais fácil com recursos guiados que ajudam a mover o conteúdo de email existente e as jornadas para o Journey Optimizer. Um espaço de trabalho dedicado permite reutilizar o que você tem, em vez de reconstruir do zero.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p><img src="assets/do-not-localize/guided-adoption.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../start/migrate-content-and-journeys.md">documentação detalhada</a>.</p>
 <p> Data de disponibilidade: 30 de julho de 2026</p>
@@ -709,7 +709,7 @@ Os recursos e melhorias a seguir estão chegando às campanhas orquestradas nest
 
   Data de disponibilidade: 26 de junho de 2026
 
-### Decisão {#june-26-decisioning}
+### Serviço de decisão {#june-26-decisioning}
 
 Os recursos e melhorias a seguir foram adicionados ao Decisioning nesta versão.
 
@@ -763,7 +763,7 @@ Os seguintes recursos e melhorias foram adicionados ao gerenciamento de conteúd
 
 ### Canal de email {#june-26-email}
 
-Os recursos a seguir foram adicionados ao canal de email nesta versão.
+Os seguintes recursos foram adicionados ao canal de email nesta versão.
 
 <table>
 <thead>
@@ -815,7 +815,7 @@ Os recursos a seguir foram adicionados ao canal de email nesta versão.
 <p>O Journey Optimizer agora inclui validação técnica automatizada diretamente no Designer de email, ajudando a detectar problemas no HTML e no CSS antes do envio.</p>
 <p>As verificações abrangem elementos incompatíveis, como tags <code>&lt;script&gt;</code> e <code>&lt;base&gt;</code>, divs em branco que podem quebrar o layout no Microsoft Outlook, tags HTML meta refresh e limites de tamanho de CSS ou HTML que causam falhas de renderização no Gmail.</p>
 <p>Os resultados são exibidos como erros, avisos ou avisos informativos diretamente no painel de criação, com detalhes contextuais e correções com um clique, quando disponíveis, para que os problemas possam ser resolvidos sem sair do editor.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p><img src="assets/do-not-localize/content-check.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../email/content-check.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 18 de junho de 2026</p>
@@ -913,7 +913,7 @@ As melhorias a seguir foram adicionadas aos relatórios nesta versão.
 
 ### Configuração {#june-26-configuration}
 
-As seguintes melhorias de configuração estão chegando nesta versão.
+Os seguintes aprimoramentos de configuração estão chegando nesta versão.
 
 * **Criptografia de parâmetros de URL**: agora é possível criptografar parâmetros de URL em links de páginas de destino e rastreamento adicionados às suas mensagens de email. Isso fornece uma camada adicional de segurança para dados de parâmetros confidenciais. Anteriormente lançado em disponibilidade limitada, este recurso já está disponível para todos os ambientes (disponibilidade geral). [Leia mais](../personalization/url-parameter-encryption.md)
 
@@ -990,7 +990,7 @@ Os recursos e melhorias a seguir foram adicionados às jornadas nesta versão.
 <p>Agora é possível criar <strong>Fragmentos de jornada</strong> no Adobe Journey Optimizer. Os fragmentos de jornada são conjuntos reutilizáveis de nós de jornada que você pode criar uma vez e soltar em qualquer jornada na sandbox. Seja uma verificação de elegibilidade, uma lógica de roteamento de canal preferencial ou uma sequência de boas-vindas, os fragmentos ajudam as equipes a agir mais rápido e a permanecer consistentes, sem reconstruir a mesma lógica do zero todas as vezes.</p>
 <p>Depois de criados, os fragmentos são armazenados em um <strong>Inventário de fragmentos</strong> dedicado e podem ser inseridos em qualquer jornada usando a atividade <strong>Fragmentos de jornada</strong>.</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/journey-fragments.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 13 de maio de 2026</p>
 </td>
@@ -1116,7 +1116,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 +++
 -->
 
-### Decisão {#may-26-decisioning}
+### Serviço de decisão {#may-26-decisioning}
 
 Os recursos e melhorias a seguir foram adicionados ao Decisioning nesta versão.
 
@@ -1140,7 +1140,7 @@ Os recursos e melhorias a seguir foram adicionados ao Decisioning nesta versão.
 
 * **Fragmentos de conteúdo do Adobe Experience Manager no Decisioning**: agora é possível mapear fragmentos de conteúdo do Adobe Experience Manager para itens de decisão no Decisioning e aproveitá-los nas políticas de decisão para fornecer o fragmento certo ao cliente certo, na hora certa. [Leia mais](../integrations/aem-fragments.md#aem-decisioning)
 
-  Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+  Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.
 
   Data de disponibilidade: 20 de maio de 2026
 
@@ -1439,7 +1439,7 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 <tr>
 <td>
 <p>Agora você pode usar <strong>modelos de IA</strong> nas fórmulas de classificação para aumentar automaticamente as pontuações de prioridade de jornada com base nos atributos do perfil do cliente e em fatores contextuais, garantindo que os clientes entrem nas jornadas mais relevantes.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p><img src="assets/do-not-localize/journey-arbitration-ai-models.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../conflict-prioritization/journey-ai-models.md">documentação detalhada</a>.</p>
 </td>
@@ -1516,7 +1516,7 @@ Isso mantém as campanhas recorrentes focadas nos novos públicos-alvo (novas in
 <td>
 <p>Use o novo nó <strong>Otimizar</strong> para executar testes A/B ou experimentos de bandido de vários braços para determinar o melhor caminho para atingir seus KPIs centrados no negócio. Essa ferramenta permite testar, variar e personalizar as comunicações, o sequenciamento e o momento para melhor alcançar os clientes.
 </p>
-<p>Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
 <p>Como parte da Disponibilidade geral, esta versão introduz a seleção <strong>tipo de experimento</strong> (A/B ou bandido de vários braços) e <strong>Dimensionar o vencedor</strong> para jornadas unitárias.</p>
 <p><img src="assets/do-not-localize/optimize-experiment.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/path-experimentation.md">documentação detalhada</a>.</p>
@@ -1581,7 +1581,7 @@ As seguintes melhorias também foram lançadas em abril de 2026.
 
 * **Personalizar ID do aplicativo nas configurações do canal**: nas configurações do canal de push, agora é possível personalizar o campo **ID do aplicativo** para que cada destinatário possa receber uma notificação por push da marca apropriada com base nas informações do perfil. [Leia mais](../push/push-configuration.md#app-id-personalization)
 
-#### Decisão
+#### Serviço de decisão
 
 * **APIs de fluxo de trabalho de migração do Decisioning**: o contrato de API para criação de análise de dependência e fluxos de trabalho de migração foi atualizado: passe **`request-level`** como **parâmetro de consulta** no URL de solicitação (`sandbox`, `offer` ou `decision`). O nível de solicitação não deve mais ser enviado no corpo JSON. [Leia mais](../experience-decisioning/decisioning-migration-api.md)
 
@@ -1589,7 +1589,7 @@ As seguintes melhorias também foram lançadas em abril de 2026.
 
 * **Anexar fragmentos a itens de decisão**: o Journey Optimizer agora oferece a capacidade de anexar fragmentos a itens de decisão, que podem ser aproveitados em experiências baseadas em código e campanhas de email por meio de políticas de decisão. [Leia mais](../experience-decisioning/fragments-decision-policies.md)
 
-  Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).
+  Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).
 
 * **Fragmentos temporariamente indisponíveis são ignorados**: ao usar fragmentos em itens de decisão, se um fragmento estiver temporariamente indisponível no Edge, ele é ignorado e a jornada ou campanha continua sendo renderizada em vez de falhar. [Leia mais](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
@@ -1599,11 +1599,11 @@ As seguintes melhorias também foram lançadas em abril de 2026.
 
 * **Suporte à variação de fragmento de conteúdo do Adobe Experience Manager**: você pode selecionar **variações de fragmento de conteúdo** (por exemplo, variantes de idioma ou canal) ao inserir fragmentos de conteúdo do Adobe Experience Manager, com tratamento aprimorado para localidade e cenários multilíngues. [Leia mais](../integrations/aem-fragments.md#aem-variations)
 
-  Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).
+  Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).
 
 * **Contexto do fragmento de conteúdo do Adobe Experience Manager durante a criação**: a seleção de fragmento de conteúdo permanece ativa à medida que você se move entre campos de texto e blocos de conteúdo, para que você possa adicionar mais campos de fragmento sem ter que reabrir o **Consultor de conteúdo do AEM**. [Leia mais](../integrations/aem-fragments.md)
 
-  Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).
+  Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).
 
 #### Design de email
 
@@ -1633,7 +1633,7 @@ As seguintes melhorias também foram lançadas em abril de 2026.
 
 * **Condições**: a atividade [Otimizar](../building-journeys/optimize.md) é o novo veículo para a criação de caminhos condicionais em jornadas. Substitui a antiga atividade **Condição**, que foi removida da interface. Toda a lógica condicional é mantida e agora é tratada através das condições da atividade **Otimizar**. [Leia mais](../building-journeys/conditions.md)
 
-  Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).
+  Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).
 
   Data de disponibilidade: 7 de abril de 2026
 
@@ -1650,7 +1650,7 @@ As seções [Novos recursos](#march-26-features) e [Melhorias](#march-26-improv)
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Data de lançamento**: 24 a 25 de março de 2026
@@ -1671,7 +1671,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <li>Registre e gerencie chaves de criptografia no registro <strong>Administração</strong> dedicado.</li>
 <li>Use a nova função auxiliar “Encrypt” em expressões para criptografar dados confidenciais em URLs para os parâmetros de consulta que você deseja proteger no momento da renderização.</li>
 </ul>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
 <p>Para obter mais informações, consulte a <a href="../personalization/url-parameter-encryption.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 31 de março de 2026</p>
@@ -1839,7 +1839,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Com tecnologia do <strong>Adobe Experience Platform Agent Orchestrator</strong>, o <strong>Journey Agent</strong> está disponível no Journey Optimizer e permite analisar jornadas por meio de uma interface de linguagem natural. Agora, também é possível gerar e gerenciar conteúdo específico do canal diretamente no Journey Agent, criando conteúdo para canais como email e push, aplicando e visualizando modelos, refinando o tom e o estilo por meio de prompts e abrindo conteúdo no <strong>Designer de conteúdo</strong> para edição contextual.</p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=pt-BR" target="_blank">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 4 de março de 2026</p>
 </td>
@@ -1966,7 +1966,7 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
   Data de disponibilidade: 2 de março de 2026
 
-#### Decisão
+#### Serviço de decisão
 
 * **Migração de decisão: oferta e atributos de contexto**. O mapeamento de entidade da API de migração agora lista **atributos de oferta** (`migratedofferattributes` no esquema de item de oferta personalizada) e **atributos de contexto** (`migratedcontextattributes` no esquema de conjunto de dados de migração). [Leia mais](../experience-decisioning/decisioning-migration-api.md#entity-mapping)
 
@@ -2002,7 +2002,7 @@ WAITING RELEASE DATE CONFIRMATION
 <td>
 <p>Agora você pode usar <strong>fórmulas de classificação</strong> para aumentar automaticamente as pontuações de prioridade da jornada com base nos atributos do perfil do cliente e nos fatores contextuais, garantindo que os clientes entrem nas jornadas mais relevantes.</p>
 <p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../conflict-prioritization/journey-ranking-formulas.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 24 de fevereiro de 2026</p>
 </td>
@@ -2073,7 +2073,7 @@ WAITING RELEASE DATE CONFIRMATION
 <td>
 <p>Agora é possível migrar subdomínios usando o modo de delegação CNAME para delegação personalizada diretamente da interface, para que você possa atender a políticas de segurança mais rigorosas, de acordo com as diretrizes de sua empresa, sem recriar configurações de canal.</p>
 <p><img src="assets/do-not-localize/subdomain-migration.gif"/></p>
-<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../configuration/custom-subdomain-migration.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 19 de fevereiro de 2026</p>
 </td>
@@ -2203,11 +2203,11 @@ Os aprimoramentos incluídos nesta versão estão listados abaixo.
 
   Data de disponibilidade: 18 de fevereiro de 2026.
 
-#### Decisão
+#### Serviço de decisão
 
 * **Compatibilidade com entradas do Edge para o uso de dados da Adobe Experience Platform no Decisioning**: o uso de dados da Adobe Experience Platform no Decisioning agora oferece suporte a casos de uso de entrada no Edge, além de email e ações personalizadas na jornada. [Leia mais](../experience-decisioning/aep-data-exd.md)
 
-  Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.
+  Esse recurso está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.
 
 * **Visualização da decisão no canal de experiência baseada em código**: agora é possível visualizar itens de decisão ao configurar a Decisão com o canal de experiência baseada em código. A visualização está disponível diretamente na interface de criação antes de entrar em funcionamento. [Leia mais](../code-based/test-code-based.md#preview-code-based)
 
@@ -2227,7 +2227,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Auxiliar de metadados de execução**: a função auxiliar `executionMetadata` agora está disponível para todos os clientes do Journey Optimizer. Utilize-o para adicionar dinamicamente informações contextuais a qualquer ação nativa e capturá-las em um conjunto de dados para exportação a sistemas externos. [Leia mais](../personalization/functions/helpers.md#execution-metadata)
 
-  Anteriormente lançado em disponibilidade limitada para uso em jornadas, este recurso já está disponível para todos os ambientes (disponibilidade geral).
+  Anteriormente lançado em disponibilidade limitada, este recurso agora está disponível para todos os ambientes (disponibilidade geral).
 
   Data de disponibilidade: 20 de fevereiro de 2026.
 
@@ -2390,7 +2390,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <td>
 <p>Agora você pode aplicar rapidamente <strong>temas pré-aprovados</strong> para garantir a <strong>consistência da marca</strong> em todos os emails, acelerar o processo de criação de campanhas e produzir emails de alta qualidade de forma independente, reduzindo a dependência de equipes de design.</p>
 <p><img src="assets/do-not-localize/themes.gif"/></p>
-<p>Lançado anteriormente na versão beta, esse recurso agora está disponível para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>Lançado anteriormente na versão beta, esse recurso agora está disponível para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../email/apply-email-themes.md">documentação detalhada</a>.</p>
 <p>Data de disponibilidade: 5 de novembro de 2025</p>
 </td>
@@ -2404,7 +2404,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Verificações de qualidade de conteúdo do Assistente de IA**: além do alinhamento da marca, você agora pode avaliar a <strong>qualidade do conteúdo</strong> geral para descobrir possíveis problemas de <strong>legibilidade</strong>, coesão e eficácia, independentemente das diretrizes da marca. Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou falhas estruturais. [Leia mais](../content-management/brands-score.md#validate-quality).
 
-  [Conheça este recurso no vídeo](https://video.tv.adobe.com/v/3470551/?captions=por_br&learn=on).
+  [Conheça este recurso no vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Jornadas
 
