@@ -50,7 +50,7 @@ topic_v2:
 source-git-commit: 69b55db5c537e8e6e8e2623e06fb62dedaa18399
 workflow-type: tm+mt
 source-wordcount: '1639'
-ht-degree: 96%
+ht-degree: 98%
 ---
 # Navegue pela interface {#user-interface}
 
@@ -205,7 +205,7 @@ A navegação à esquerda organiza os recursos do Journey Optimizer em categoria
 **Conexões** - Integrar a outros sistemas
 
 * **Fontes** - Assimilar dados de sistemas externos. [Configurar fontes](get-started-sources.md)
-* **Destinos** - Exporte dados para o armazenamento na nuvem. [Configurar destinos](../data/export-datasets.md). Você também pode ativar públicos para destinos de personalização qualificados, como o Adobe Target, no [catálogo de destinos do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR){target="_blank"}.
+* **Destinos** - Exporte dados para o armazenamento na nuvem. [Configurar destinos](../data/export-datasets.md). Também é possível ativar públicos-alvo para destinos de personalização elegíveis, como o Adobe Target, no [Catálogo de destinos da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR){target="_blank"}.
 
 **Cliente** - Gerencie públicos-alvo e perfis
 
@@ -282,7 +282,7 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="Canais disponíveis"
->abstract="Email, SMS, Notificações por push e Correspondência direta"
+>abstract="Email, SMS, notificações por push e Correspondência direta"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
@@ -307,7 +307,7 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_2"
 >title="Mensagens de marketing"
->abstract="Conteúdo promocional, incluindo atividades de transmissão ao vivo, como resultados esportivos ou atualizações de status de voo (requer aceitação, sujeito às regras comerciais)"
+>abstract="Conteúdo promocional, incluindo a transmissão de atividades em tempo real, como placares esportivos ou atualizações de status de voo (requer aceitação, sujeito às regras de negócios)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_3"
@@ -317,7 +317,7 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_4"
 >title="Canais disponíveis"
->abstract="Email, SMS, Notificações por push e Atividades ao vivo"
+>abstract="Email, SMS, notificações por push e atividades em tempo real"
 
 <!--APPROVAL POLICIES-->
 
@@ -412,7 +412,7 @@ O Assistente de IA fornece ajuda instantânea e insights operacionais. Clique no
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inbound_activity_deactivation"
->title="Atividade de entrada Atividade de desativação"
->abstract="Remove um perfil de até cinco atividades ou experiências de entrada diretamente de uma jornada, dissociando a desqualificação de entrada da saída da jornada."
+>title="Atividade de desativação de atividade de entrada"
+>abstract="Remove um perfil de até cinco atividades ou experiências de entrada diretamente de uma jornada, desacoplando a desqualificação de entrada da saída da jornada."
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

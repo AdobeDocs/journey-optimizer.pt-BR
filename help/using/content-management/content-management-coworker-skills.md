@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: 6077cdb74f93fb258c60fa127397251141638c79
+source-git-commit: ccc5aca071477ef6ba6bd34cf609aeecaaae661c
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1843'
 ht-degree: 1%
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 Saiba mais:
 
-* [Habilidades de colega de trabalho para o Journey Optimizer](../start/ai-features.md#cx-coworker-skills) — visão geral das habilidades de colega em Jornadas, Fidelidade e Gerenciamento de Conteúdo no Journey Optimizer.
+* [Habilidades de colega de trabalho para o Journey Optimizer](../start/ai-features.md#cx-coworker-skills) — visão geral das habilidades de colega em Jornadas, Fidelidade, Gerenciamento de conteúdo e Decisão no Journey Optimizer.
 * [Documentação do colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — visão geral dos recursos de Campanhas, Chat e Projetos do colaborador.
 * [Guia da interface de Chat do Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — como acessar e navegar pelo Chat do Colaborador.
 

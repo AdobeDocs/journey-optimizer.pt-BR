@@ -46,9 +46,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
+source-git-commit: 813abcffbadc596c2a48bb086d0b197ca8cd4715
 workflow-type: tm+mt
-source-wordcount: '2413'
+source-wordcount: '2457'
 ht-degree: 3%
 ---
 # Trabalhar com IA {#ai-features}
@@ -92,6 +92,7 @@ No Adobe Journey Optimizer, o Colaborador fornece habilidades dedicadas nestes r
 * **Jornada**: crie jornadas com prompts de linguagem natural (Criar Jornada), gere cópias e designs de mensagens específicos do canal (Criar Conteúdo do Canal), compare versões do jornada e diagnostique quedas de jornada, sobreposições de agendamento e anomalias de execução (Analisar Jornada). [Ver todas as habilidades de colega de trabalho para jornadas](../building-journeys/journeys-coworker-skills.md).
 * **Fidelidade**: crie e configure desafios de fidelidade (Gerenciamento de Desafio de Fidelidade) e consulte pontos de fidelidade, distribuições de camada e métricas de receita (Insights de Fidelidade). [Ver todas as habilidades de colega de trabalho para fidelidade](../loyalty-challenges/loyalty-coworker-skills.md).
 * **Gerenciamento de conteúdo**: descubra, crie, atualize, clone e publique modelos, fragmentos, páginas de aterrissagem e variantes de mensagens embutidas usando 15 ferramentas de MCP de leitura/gravação. [Ver todas as ferramentas de gerenciamento de conteúdo do Colaborador](../content-management/content-management-coworker-skills.md).
+* **Decisão**: entenda por que uma oferta específica foi ou não mostrada a um perfil ou segmento, rastreando a elegibilidade, a classificação e o limite (Explicador de decisão); e crie, explique, simule e otimize regras de elegibilidade e fórmulas de classificação em linguagem natural (Regras e classificação). [Veja todas as habilidades de Colaborador para a Decisão](../experience-decisioning/experience-decisioning-coworker-skills.md).
 
 ## Servidor MCP {#mcp-server}
 

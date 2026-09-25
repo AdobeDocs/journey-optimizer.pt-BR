@@ -15,7 +15,7 @@ subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
 source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6911'
 ht-degree: 100%
 ---
@@ -346,7 +346,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Decisão**
 
-* Os usuários do [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) agora podem escolher modelos personalizados para otimizar a configuração de um modelo de IA utilizando o serviço de Decisão (anteriormente conhecido como Escolha de experiências). É possível, por exemplo, otimizar uma tabela de “compras” personalizada em vez de definir restrições, como a taxa de cliques. [Saiba mais](../experience-decisioning/ranking/ranking.md)
+* Os usuários do [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR) agora podem escolher modelos personalizados para otimizar a configuração de um modelo de IA utilizando o serviço de Decisão (anteriormente conhecido como Escolha de experiências). É possível, por exemplo, otimizar uma tabela de “compras” personalizada em vez de definir restrições, como a taxa de cliques. [Saiba mais](../experience-decisioning/ranking/ranking.md)
 
 * Ao adicionar uma política de decisão a uma campanha baseada em código com o serviço de Decisão, agora é possível selecionar manualmente itens de decisão individuais, além de estratégias de seleção. Também é possível selecionar mais de uma oferta substituta. Isso garante o retorno de um certo número de itens de decisão. [Saiba mais](../experience-decisioning/create-decision.md)
 
@@ -395,7 +395,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tr>
 <td>
 <p>Com as políticas de aprovação, agora é possível definir um processo de aprovação no Journey Optimizer para que as equipes de marketing garantam que as campanhas e jornadas sejam revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas.</p>
-<p>No momento, as políticas de aprovação estão disponíveis apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>No momento, as políticas de aprovação estão disponíveis apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../test-approve/gs-approval.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/approval.gif"/>
 </td>
@@ -779,7 +779,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tr>
 <td>
 <p>Agora ficou mais fácil criar conteúdo em vários idiomas em uma única campanha ou jornada. Com esse recurso, é possível alternar entre idiomas ao editar a campanha ou a jornada, simplificando todo o processo de edição e melhorando sua capacidade de gerenciar com eficiência o conteúdo multilíngue.</p>
-<p>No momento, o conteúdo multilíngue está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>No momento, o conteúdo multilíngue está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -796,7 +796,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tr>
 <td>
 <p>Já disponível em campanhas, o Adobe Journey Optimizer agora oferece suporte a experimentos em jornadas. Experimentos são ensaios aleatórios, o que, no contexto de testes online, significa que você expõe alguns usuários selecionados aleatoriamente a uma determinada variação de uma mensagem e outro conjunto de usuários selecionados aleatoriamente a outra variação ou tratamento. Após a exposição, é possível medir as métricas de resultado em que está interessado, como abertura de emails, assinaturas ou compras.</p>
-<p>No momento, a experimentação em jornadas está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>No momento, a experimentação em jornadas está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -906,7 +906,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <td>
 <p>A Escolha de experiências simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.</p>
 <p>Esses itens de decisão são perfeitamente integrados a uma ampla variedade de configurações de entrada por meio do novo canal de experiência baseado em código, agora acessível nas campanhas do Journey Optimizer. As políticas de decisão da Escolha de experiências estão disponíveis para uso somente em campanhas de experiência baseadas em código.</p>
-<p>No momento, a Escolha de experiências está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>No momento, a Escolha de experiências está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Para obter mais informações, consulte a <a href="../experience-decisioning/gs-experience-decisioning.md">documentação detalhada</a>.</p>
 </td>
@@ -924,7 +924,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tr>
 <td>
 <p>Agora você pode definir subdomínios dinâmicos e parâmetros de cabeçalho personalizados ao criar configurações de canais de email, para aumentar a flexibilidade e o controle sobre suas configurações de email.</p>
-<p>No momento, a personalização da configuração de email está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com um representante da Adobe.</p>
+<p>No momento, a personalização da configuração de email está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../email/surface-personalization.md">documentação detalhada</a>.</p>
 </td>
 </tr>

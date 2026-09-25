@@ -34,10 +34,10 @@ subfeature_v2:
     internal-label: Edge Decisioning
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
     internal-label: Get started
-source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
+source-git-commit: 443c2ae7e693d469ea21f1be0927965540ada045
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 21%
+source-wordcount: '845'
+ht-degree: 20%
 ---
 # Introdução ao serviço de decisão {#get-started-experience-decisioning}
 
@@ -133,6 +133,7 @@ O gráfico abaixo resume o processo de decisão completo — desde o gerenciamen
 
 ## Recursos adicionais {#additional-resources}
 
+* **[Colaborador para Decisão](experience-decisioning-coworker-skills.md)** - Pergunte ao Colaborador por que uma oferta foi ou não mostrada a um perfil ou segmento (Explicador de Decisão) ou crie, explique, simule e otimize regras e fórmulas de classificação conversacionalmente (Regras e Classificação).
 * **[Criar itens de decisão](items.md)** - Saiba como criar e gerenciar itens de decisão, incluindo ofertas, variações de conteúdo e experiências.
 * **[Configurar catálogos de decisão](catalogs.md)** - Entenda como organizar itens de decisão em catálogos para melhorar o gerenciamento.
 * **[Definir estratégias de seleção](selection-strategies.md)** - Descubra como criar estratégias de seleção com regras de qualificação e métodos de classificação.

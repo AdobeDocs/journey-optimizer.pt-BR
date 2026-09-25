@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
 workflow-type: tm+mt
 source-wordcount: '5133'
-ht-degree: 87%
+ht-degree: 95%
 ---
 
 # Medidas de proteção e limitações {#limitations}
@@ -91,9 +91,9 @@ Esta seção aborda medidas de proteção e limitações para jornadas, incluind
 
 * Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até **10 minutos** para ficar ativa e detectar os perfis que entram ou saem do público-alvo.
 
-* Uma instância de jornada para um perfil tem tamanho máximo de **1 MB**. Todos os dados coletados como parte da execução da jornada são armazenados nessa instância da jornada. Portanto, dados de um evento de entrada, informações de perfil recuperadas da Adobe Experience Platform, respostas de ações personalizadas etc., são armazenados nessa instância da jornada e afetam o tamanho da jornada. É aconselhável, quando uma jornada inicia com um evento, limitar o tamanho máximo do conteúdo desse evento (por exemplo: abaixo de **800 KB**) para evitar atingir esse limite após algumas atividades durante a execução da jornada. Esta orientação de 800 KB não se aplica a eventos comerciais ou unitários, que estão sujeitos ao limite mais rigoroso de 64 KB descrito abaixo. Quando o limite de 1 MB é atingido, o perfil está com status de erro e será excluído da jornada.
+* Uma instância de jornada para um perfil tem tamanho máximo de **1 MB**. Todos os dados coletados como parte da execução da jornada são armazenados nessa instância da jornada. Portanto, dados de um evento de entrada, informações de perfil recuperadas da Adobe Experience Platform, respostas de ações personalizadas etc., são armazenados nessa instância da jornada e afetam o tamanho da jornada. É aconselhável, quando uma jornada inicia com um evento, limitar o tamanho máximo do conteúdo desse evento (por exemplo: abaixo de **800 KB**) para evitar atingir esse limite após algumas atividades durante a execução da jornada. Esta orientação de 800 KB não se aplica a eventos de negócios ou unitários, que estão sujeitos ao limite mais rigoroso de 64 KB descrito abaixo. Quando o limite de 1MB é atingido, o perfil fica com status de erro e será excluído da jornada.
 
-* Qualquer evento que inicie ou entre em uma jornada, incluindo eventos comerciais e unitários, está sujeito a uma proteção adicional e mais rigorosa: a carga do evento é limitada a no máximo **64 KB de JSON descompactado e minificado**. Eventos que excedem esse tamanho são descartados e não acionam a jornada. Isso é separado e mais rigoroso do que o limite de instâncias de jornada de 1 MB acima. [Saiba mais sobre como configurar eventos comerciais](../event/about-creating-business.md).
+* Qualquer evento que inicie ou entre em uma jornada, incluindo eventos de negócios e unitários, está sujeito a uma medida de proteção adicional e mais rigorosa: o conteúdo do evento é limitado a no máximo **64 KB de JSON descompactado e minificado**. Eventos que excedem esse tamanho são descartados e não acionam a jornada. Isso é separado e mais rigoroso do que o limite de instâncias de jornada de 1 MB acima. [Saiba mais sobre como configurar eventos de negócios](../event/about-creating-business.md).
 
 * Para cada perfil e versão da jornada, o tempo de execução da jornada mantém uma fila interna de até **10 eventos pendentes** enquanto um está sendo processado. Se esse limite for atingido, eventos adicionais serão descartados com o motivo `maxInstanceStackEventsReached` até que a pilha seja esgotada. Consulte [Eventos descartados devido a uma instância de jornada bloqueada](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 
@@ -377,11 +377,11 @@ As seguintes medidas de proteção se aplicam ao [canal de email](../email/get-
 
 Ao publicar jornadas com mensagens de email, o tamanho total do conteúdo da mensagem não deve exceder **2 MB** após o processamento no backend. Durante a publicação, o sistema processa automaticamente o conteúdo da mensagem corrigindo links, imagens e aplicando transformações, o que aumenta o tamanho do conteúdo além do tamanho do conteúdo criado.
 
-Essa limitação de tamanho também se aplica a outras operações de back-end que processam a carga de email completa, como **[!UICONTROL Copiar para outras localidades]** no [gerenciamento de conteúdo multilíngue](../content-management/multilingual-manual.md). Embora você esteja copiando apenas o conteúdo entre as localidades, a operação serializa e processa a carga de email completa, para que possa falhar com o mesmo erro de tamanho.
+Essa limitação de tamanho também se aplica a outras operações de back-end que processam o conteúdo do email completo, como **[!UICONTROL Copiar para outras localidades]** no [gerenciamento de conteúdo multilíngue](../content-management/multilingual-manual.md). Embora esteja apenas copiando o conteúdo entre localidades, a operação serializa e processa todo o conteúdo do email, por isso pode falhar com o mesmo erro de tamanho.
 
 >[!CAUTION]
 >
->Se o conteúdo final da mensagem processada exceder **2 MB**, a operação (publicação do jornada ou cópia para outras localidades) falhará. Mantenha o conteúdo da mensagem criada bem abaixo de 2 MB, o ideal é menos de **1 MB**, para permitir um buffer de 300-400 KB para a sobrecarga do processamento de back-end.
+>Se o conteúdo final da mensagem processada exceder **2 MB**, a operação (publicação de jornada ou cópia para outras localidades) falhará. Mantenha o conteúdo da mensagem criada bem abaixo de 2 MB, de preferência abaixo de **1 MB**, para permitir uma margem de 300 a 400 KB para sobrecarga de processamento do back-end.
 
 **Práticas recomendadas para evitar falhas:**
 
@@ -390,9 +390,9 @@ Essa limitação de tamanho também se aplica a outras operações de back-end q
 * Otimizar e compactar imagens antes de adicioná-las a mensagens
 * Remover ativos não utilizados e elementos desnecessários do HTML
 * Testar o tamanho da mensagem antes de publicar as jornadas na produção
-* Ao copiar o conteúdo para vários locais, copie para um número menor de locais por vez para reduzir a sobrecarga de processamento
+* Ao copiar o conteúdo para várias localidades, copie para menos localidades por vez para reduzir a sobrecarga de processamento
 
-Se a publicação ou a operação de cópia falhar devido ao tamanho do conteúdo, reduza o conteúdo da mensagem e tente novamente.
+Se a operação de publicação ou cópia falhar devido ao tamanho do conteúdo, reduza o conteúdo da mensagem e tente novamente.
 
 ### Medidas de proteção de SMS {#sms-guardrails}
 
@@ -438,7 +438,7 @@ As medidas de proteção e limitações aplicáveis à delegação de subdomíni
 
 ## Conteúdo e ativos {#content-assets}
 
-Esta seção aborda medidas de proteção para a criação e o gerenciamento de conteúdo, incluindo páginas de aterrissagem e fragmentos.
+Esta seção aborda as medidas de proteção para a criação e o gerenciamento de conteúdo, incluindo páginas de destino e fragmentos.
 
 ### Medidas de proteção de criação de conteúdo {#content-authoring}
 
@@ -446,12 +446,12 @@ Os limites de tamanho recomendados para tipos de conteúdo são os seguintes:
 
 | Tipo de conteúdo | Limite de tamanho recomendado |
 |---|---|
-| Modelo | 1.200 KB |
+| Modelo | 1200 KB |
 | Fragmento | 700 KB |
-| Mensagem | 1.200 KB |
+| Mensagem | 1200 KB |
 | Página de destino | 1000 KB |
 
-Um aviso é exibido quando uma variante de conteúdo excede o limite de tamanho recomendado. Isso se aplica a todos os tipos de conteúdo e canais, e não bloqueia salvar ou publicar.
+Um aviso é exibido quando uma variante de conteúdo excede o limite de tamanho recomendado. Isso se aplica a todos os tipos de conteúdo e canais, e não impede salvar ou publicar.
 
 ### Gerar medidas de proteção de conteúdo {#ai-assistant-g}
 
@@ -473,12 +473,12 @@ As seguintes medidas de proteção se aplicam aos [fragmentos](../content-manage
 * Para criar, editar, arquivar e publicar fragmentos, você precisa das permissões de **[!DNL Manage library items]** e **[Publicar fragmento]** inclusas no perfil do produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
 * Os fragmentos visuais só estão disponíveis para o canal de email.
 * Os fragmentos de expressão não estão disponíveis para o canal interno do aplicativo.
-* Os fragmentos não podem exceder **700 KB**. Para permanecer abaixo desse limite, divida o conteúdo grande em vários fragmentos reutilizáveis, reduza as marcações pesadas e otimize os ativos vinculados.
+* Fragmentos não podem exceder **700 KB**. Para permanecer abaixo desse limite, divida o conteúdo grande em vários fragmentos reutilizáveis, reduza as marcações pesadas e otimize os ativos vinculados.
 
 * **Limites de contagem de fragmentos**: o número de fragmentos únicos usados em um conteúdo é validado durante a criação. Somente os fragmentos (incluindo fragmentos do AEM) referenciados diretamente são contados — os fragmentos aninhados dentro de outros fragmentos não são contados separadamente.
 
-  * **Por variante**: até 60 fragmentos exclusivos por variante de conteúdo. Um aviso é exibido quando o uso atinge 45 (75% do limite); a publicação está bloqueada em 60.
-  * **Entre variantes**: até 120 fragmentos exclusivos em todas as variantes de uma única mensagem. Um aviso é exibido quando o uso atinge 90 (75% do limite); a publicação está bloqueada em 120.
+  * **Por variante**: até 60 fragmentos únicos por variante de conteúdo. Um aviso é exibido quando o uso atinge 45 (75% do limite); a publicação fica bloqueada em 60.
+  * **Entre variantes**: até 120 fragmentos únicos em todas as variantes de uma única mensagem. Um aviso é exibido quando o uso atinge 90 (75% do limite); a publicação fica bloqueada em 120.
 
 * Para usar um fragmento em uma jornada ou campanha, ele precisa estar no status **Ativo**.
 * [Atributos contextuais](../personalization/personalization-build-expressions.md) não são permitidos dentro de fragmentos.

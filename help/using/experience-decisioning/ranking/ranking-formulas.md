@@ -32,9 +32,9 @@ subfeature_v2:
     internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
     internal-label: Edge Decisioning
-source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
+source-git-commit: 443c2ae7e693d469ea21f1be0927965540ada045
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2154'
 ht-degree: 4%
 ---
 # Criar fórmulas de classificação {#create-ranking-formulas}
@@ -50,6 +50,10 @@ ht-degree: 4%
 Para criar essas regras, o construtor de fórmulas de IA no **[!UICONTROL Adobe Journey Optimizer]** fornece maior flexibilidade e controle sobre como as ofertas são classificadas. Em vez de depender apenas de uma prioridade de oferta estática, agora é possível definir fórmulas de classificação personalizadas que combinam pontuações do modelo de IA, prioridades de oferta, atributos de perfil, atributos de oferta e sinais contextuais por meio de uma interface guiada.
 
 Essa abordagem permite ajustar dinamicamente a classificação de ofertas com base em qualquer combinação de propensão orientada por IA, valor comercial e contexto em tempo real, facilitando o alinhamento da decisão com as metas de marketing e as necessidades do cliente. O construtor de fórmulas do AI é compatível com fórmulas simples ou avançadas, dependendo de quanto controle você deseja aplicar.
+
+>[!TIP]
+>
+>Você também pode criar, explicar, simular e otimizar fórmulas de classificação conversacionalmente usando a habilidade **Regras e classificação** no [Colaborador para decisão](../experience-decisioning-coworker-skills.md#rules-ranking).
 
 Depois que uma fórmula de classificação é criada, é possível atribuí-la a uma [estratégia de seleção](../selection-strategies.md). Se várias ofertas forem elegíveis para serem apresentadas ao usar essa estratégia de seleção, o mecanismo de decisão usará a fórmula selecionada para calcular qual oferta entregar primeiro.
 

@@ -8,7 +8,7 @@ level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
 source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
 ht-degree: 100%
 ---
@@ -161,7 +161,7 @@ Gerenciamento de conteúdo
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=pt-BR)
 
-Relatório
+Relatórios
 
 [Monitore o desempenho com relatórios em tempo real](../using/reports/live-report.md)
 :::
